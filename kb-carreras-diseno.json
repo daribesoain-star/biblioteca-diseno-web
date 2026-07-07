@@ -1,0 +1,519 @@
+{
+  "meta": {
+    "nombre": "KB Carreras y Materias para Diseño Web",
+    "version": "1.0.0",
+    "idioma": "es",
+    "descripcion": "Base de conocimiento sobre las carreras formales que llevan al diseño web, sus materias típicas por área, duración, perfil de egreso y ruta autodidacta equivalente. Compilada a partir de mallas curriculares reales de universidades e institutos de Latinoamérica y España.",
+    "uso_agentes": "Hacer GET a este archivo. Cada entrada describe una carrera con sus materias agrupadas por área de formación. Usar 'materias' para orientar planes de estudio y 'ruta_autodidacta' como equivalencia sin universidad.",
+    "actualizado": "2026-07-07",
+    "nota": "Los nombres exactos de los ramos varían por institución; aquí se listan las materias típicas que se repiten entre mallas.",
+    "verificacion": "Las materias listadas provienen de mallas curriculares y planes de estudio publicados oficialmente por las instituciones citadas en el campo 'fuentes' de cada entrada. Los nombres exactos de los ramos varían entre instituciones; aquí se consolidan las materias que se repiten entre mallas reales. Ningún ramo fue inventado. Fecha de consulta: julio 2026.",
+    "cobertura_geografica": "Fuentes de Chile, Perú, Argentina, Ecuador, México y España. Los nombres de titulaciones varían por país (ej: 'Analista Programador' en Chile ≈ 'Grado Superior en Desarrollo de Aplicaciones Web (DAW)' en España ≈ 'Ingeniería en Desarrollo de Software' en México), pero el núcleo de materias es equivalente."
+  },
+  "entradas": [
+    {
+      "id": "diseno-grafico",
+      "titulo": "Diseño Gráfico / Diseño Visual",
+      "categoria": "carrera",
+      "duracion": "3 a 5 años (técnico superior: 2.5-3 años; licenciatura: 4-5 años)",
+      "resumen": "La ruta clásica al diseño. Forma comunicadores visuales: el diseñador no es un artista que expresa lo que siente, sino alguien que comunica el mensaje de un cliente a una audiencia. Base visual profunda; lo digital/web suele ser solo una parte de la malla.",
+      "materias": {
+        "fundamentos_visuales": [
+          "Fundamentos del diseño",
+          "Taller de diseño (I a IV, columna vertebral de la carrera)",
+          "Forma y estructura",
+          "Color",
+          "Composición",
+          "Dibujo y expresión gráfica",
+          "Geometría"
+        ],
+        "lenguaje_y_teoria": [
+          "Semiótica (cómo los signos comunican)",
+          "Historia del arte",
+          "Historia y tendencias del diseño",
+          "Antropología / psicología aplicada",
+          "Narrativa y storytelling"
+        ],
+        "especialidad_grafica": [
+          "Tipografía",
+          "Diagramación y diseño editorial",
+          "Fotografía digital",
+          "Ilustración",
+          "Edición vectorial y de imagen (Illustrator, Photoshop, InDesign)",
+          "Gráfica digital / multimedia",
+          "Animación multimedia",
+          "Diseño de marca y packaging"
+        ],
+        "gestion_y_negocio": [
+          "Diseño estratégico",
+          "Marketing",
+          "Gestión de proyectos / gestión empresarial",
+          "Innovación y emprendimiento"
+        ],
+        "transversales": [
+          "Inglés",
+          "Práctica profesional",
+          "Proyecto de título / portafolio"
+        ]
+      },
+      "perfil_egreso": "Resuelve problemas de comunicación visual: marcas, editorial impreso e interactivo, empaques, campañas; trabaja en equipos multidisciplinarios con herramientas manuales y digitales.",
+      "salidas_laborales": [
+        "Agencias de publicidad y branding",
+        "Estudios de diseño",
+        "Áreas de marketing y comunicación de empresas",
+        "Editorial",
+        "Freelance"
+      ],
+      "aporte_al_diseno_web": "Entrega la base visual (tipografía, color, composición, jerarquía) que separa una web amateur de una profesional, pero suele faltar profundidad en UX, código y producto digital.",
+      "fuentes": [
+        {
+          "institucion": "Universidad Mayor (Chile) — Malla Diseño mención Gráfico",
+          "url": "https://www.umayor.cl/um/bundles/carreras/descargables/mallas/diseno.pdf",
+          "aporta": "Taller de Diseño I-IV, Semiótica, Forma y Estructura, Tipografía, Diagramación, Fotografía Digital, Ilustración, Gráfica Digital I-III, Diseño Estratégico, Innovación"
+        },
+        {
+          "institucion": "Universidad Diego Portales (Chile) — Plan de Estudio Diseño Gráfico",
+          "url": "https://diseno.udp.cl/estudiantes/plan-de-estudio-diseno-grafico/",
+          "aporta": "Laboratorio Dibujo e Imagen, Diseño Editorial, Comunicación Gráfica, gestión de proyectos"
+        },
+        {
+          "institucion": "Universidad de Palermo (Argentina) — Plan de estudios Diseño Gráfico",
+          "url": "https://www.palermo.edu/dyc/diseno_grafico/plan.html",
+          "aporta": "Estructura 3 años + orientaciones (Editorial, Packaging, Imagen Empresaria, Publicitario)"
+        },
+        {
+          "institucion": "PSU.cl — Comparativa de mallas chilenas (U. de Chile, PUC, UDP, Duoc UC, AIEP)",
+          "url": "https://psu.cl/2014/12/16/las-principales-asignaturas-de-diseno-grafico/",
+          "aporta": "Color, Edición Vectorial, Edición de Imagen, Maquetación, Animación Multimedia (Duoc); Aplicaciones y Diseño para Web, 3D (AIEP)"
+        },
+        {
+          "institucion": "ESPOL FADCOM (Ecuador) — Diseño Gráfico",
+          "url": "https://www.fadcom.espol.edu.ec/es/carreras-de-grado/diseno-grafico",
+          "aporta": "Dibujo académico, Historia del arte, Semiótica de la comunicación, Diseño editorial, narrativa"
+        }
+      ]
+    },
+    {
+      "id": "diseno-ux-ui",
+      "titulo": "Diseño UX/UI / Diseño de Interacción Digital",
+      "categoria": "carrera",
+      "duracion": "3 años (carrera), 8-18 meses (bootcamps y diplomados), 3-6 meses (certificados como Google UX Design)",
+      "resumen": "La ruta más directa al diseño web y de productos digitales moderno. Forma profesionales que investigan, diseñan, prototipan y evalúan productos digitales centrados en las personas y alineados a objetivos de negocio.",
+      "materias": {
+        "investigacion_ux": [
+          "Fundamentos del diseño digital",
+          "UX Research (entrevistas, encuestas, insights)",
+          "Comportamiento y psicología del usuario",
+          "Análisis de audiencias y card sorting",
+          "Testing de usabilidad con usuarios reales"
+        ],
+        "arquitectura_y_diseno": [
+          "Arquitectura de información y árbol de contenidos",
+          "Wireframing",
+          "Diseño de interacción",
+          "Diseño de interfaces (UI)",
+          "Design Systems (sistemas de diseño)",
+          "Accesibilidad",
+          "Diseño responsive y multiplataforma",
+          "Visualización de datos"
+        ],
+        "herramientas_y_prototipado": [
+          "Figma / Sketch / Adobe XD",
+          "Prototipado de alta fidelidad",
+          "Maquetación con HTML5 y CSS3 (Flexbox, Grid, media queries)",
+          "Moodboards y co-creación (design sprints)"
+        ],
+        "metodo_y_negocio": [
+          "Design Thinking",
+          "Metodologías ágiles",
+          "Gestión de producto digital",
+          "Analítica y métricas de experiencia",
+          "Uso estratégico de IA en procesos de diseño"
+        ],
+        "transversales": [
+          "Proyecto final integrador (app + landing page)",
+          "Portafolio profesional"
+        ]
+      },
+      "perfil_egreso": "Capaz de investigar necesidades de usuarios, diseñar soluciones digitales interactivas y prototipos funcionales para múltiples plataformas aplicando usabilidad y arquitectura de información.",
+      "salidas_laborales": [
+        "Consultoras de diseño e innovación",
+        "Agencias digitales",
+        "Áreas de producto/UX en empresas y banca",
+        "Startups y laboratorios de innovación",
+        "Gobierno digital"
+      ],
+      "aporte_al_diseno_web": "Es el corazón del diseño web actual: cubre investigación, prototipado, interfaces y usabilidad. Muchos programas incluyen HTML/CSS básico. Empleabilidad alta y en crecimiento.",
+      "fuentes": [
+        {
+          "institucion": "ISIL (Perú) — Carrera Diseño de Medios Interactivos UX/UI (3 años)",
+          "url": "https://isil.pe/areas-academicas/diseno-ux-ui/",
+          "aporta": "Año 1: investigación de usuarios e insights; Año 2: soluciones interactivas, usabilidad, arquitectura de información; Año 3: liderazgo, IA en diseño"
+        },
+        {
+          "institucion": "Desafío Latam (Chile) — Carrera Diseño UX/UI (8 meses, 4 módulos)",
+          "url": "https://desafiolatam.com/diseno-ux-ui/",
+          "aporta": "Maquetación HTML5/CSS3, Flexbox, CSS Grid, media queries; conceptualización, arquitectura de información, diseño de interacción e interfaces; proyecto final"
+        },
+        {
+          "institucion": "Escuela Carne (Argentina) — Curso UX/UI",
+          "url": "https://escuelacarne.com/capacitacion/curso/diseno-comunicacion/ux-ui/",
+          "aporta": "Research y discovery, design sprints, card sorting, Design System, wireframing (Figma/XD/Sketch), prototipado, testing de usuarios"
+        },
+        {
+          "institucion": "UOC (España) — Especialización en Diseño de Experiencia de Usuario",
+          "url": "https://www.uoc.edu/es/estudios/diplomas/diploma-especializacion-diseno-experiencia-usuario",
+          "aporta": "Diseño centrado en el usuario e investigación; Arquitectura de la Información y usabilidad"
+        },
+        {
+          "institucion": "UNIR — dónde estudiar UX/UI (disciplinas del plan de estudios)",
+          "url": "https://www.unir.net/revista/diseno/donde-estudiar-diseno-ux-ui/",
+          "aporta": "Investigación de usuarios, usabilidad, visualización de datos, mapeado, ideación, prototipado, arquitectura de información, diseño de interacción, testeo"
+        }
+      ]
+    },
+    {
+      "id": "desarrollo-web",
+      "titulo": "Analista Programador / Desarrollo Web / Ingeniería Informática",
+      "categoria": "carrera",
+      "duracion": "2.5 años (técnico analista programador, 5 semestres), 4-5 años (ingeniería)",
+      "resumen": "La ruta técnica: aprender a construir. Forma profesionales que participan en todo el ciclo de vida del software: requerimientos, diseño, construcción, pruebas e implementación. El diseño visual casi no se toca.",
+      "materias": {
+        "programacion": [
+          "Fundamentos de programación",
+          "Programación I y II",
+          "Estructura de datos",
+          "Desarrollo web (front-end: HTML, CSS, JavaScript)",
+          "Interfaces responsivas según estándares de la industria",
+          "Taller de aplicaciones móviles",
+          "Programación orientada a objetos"
+        ],
+        "datos_y_sistemas": [
+          "Bases de datos SQL y NoSQL",
+          "Modelado de datos",
+          "Sistemas operativos",
+          "Sistemas de información administrativos",
+          "Redes / networking",
+          "Seguridad de la información"
+        ],
+        "ingenieria_de_software": [
+          "Análisis de sistemas y levantamiento de requerimientos",
+          "Ingeniería de software",
+          "Metodologías ágiles",
+          "Control de versiones y buenas prácticas de codificación",
+          "Pruebas funcionales",
+          "Configuración de ambientes de producción"
+        ],
+        "complementarias": [
+          "Matemática aplicada",
+          "E-commerce",
+          "Ética profesional",
+          "Comprensión lectora y producción de textos"
+        ],
+        "transversales": [
+          "Práctica laboral",
+          "Actividad de titulación",
+          "Certificaciones intermedias (lenguajes, desarrollo web, networking)"
+        ]
+      },
+      "perfil_egreso": "Analiza requerimientos y construye aplicaciones web, móviles y de escritorio con bases de datos seguras, bajo estándares de calidad y metodologías ágiles.",
+      "salidas_laborales": [
+        "Empresas TI y fábricas de software",
+        "Bancos e industria",
+        "Equipos de transformación digital",
+        "Consultor o freelance"
+      ],
+      "aporte_al_diseno_web": "Entrega el poder de construir cualquier cosa (front-end y back-end), pero no enseña a diseñarla bien: se complementa perfecto con formación visual o UX.",
+      "fuentes": [
+        {
+          "institucion": "IP Los Leones (Chile) — Malla Analista Programador (5 semestres)",
+          "url": "https://ipleones.cl/wp-content/uploads/2023/12/Analista-Programador-Malla-1.pdf",
+          "aporta": "Fundamentos de Programación, Programación I-II, Estructura de Datos, Base de Datos, Sistemas Operativos, E-commerce, Taller de Aplicaciones Móviles, Matemática Aplicada, Sistemas de Información Administrativos"
+        },
+        {
+          "institucion": "Duoc UC (Chile) — Analista Programador Computacional",
+          "url": "https://www.duoc.cl/wp-content/uploads/2023/09/ANALISTA-PROGRAMADOR.pdf",
+          "aporta": "Programación, modelado de datos, desarrollo web, ingeniería de software (5 semestres)"
+        },
+        {
+          "institucion": "AIEP (Chile) — Técnico en Programación y Análisis de Sistemas",
+          "url": "https://www.aiep.cl/admision/carrera/programacion-y-analisis-de-sistemas/",
+          "aporta": "Ciclo de vida del software: requerimientos, diseño, construcción, pruebas, implementación; bases de datos seguras, control de versiones, metodologías ágiles"
+        },
+        {
+          "institucion": "Iplacex (Chile) — Analista Programador online",
+          "url": "https://www.iplacex.cl/carreras/carreras-100-online/analista-programador/",
+          "aporta": "Aplicaciones multiplataforma con servicios web, bases de datos SQL y NoSQL, interfaces responsivas, ambientes de producción, metodologías ágiles"
+        },
+        {
+          "institucion": "IP Santo Tomás (Chile) — Analista Programador (marco SFIA)",
+          "url": "https://www.ipsantotomas.cl/web/wp-content/uploads/sites/27/2026/01/IP_ANALISTA_PROGRAMADOR_2026.pdf",
+          "aporta": "Práctica laboral, ética profesional, certificaciones intermedias, networking"
+        },
+        {
+          "institucion": "Comunidad de Madrid (España) — Título oficial Técnico Superior en Desarrollo de Aplicaciones Web (DAW), ficha IFCS03",
+          "url": "https://www.comunidad.madrid/sites/default/files/doc/educacion/fp/FP-Ensenanza-IFCS03-LOE-Ficha.pdf",
+          "aporta": "Título oficial de FP con 120 créditos ECTS reconocibles para acceso a grados universitarios"
+        },
+        {
+          "institucion": "Universidad de Sevilla (España) — Grado en Ingeniería Informática - Ingeniería del Software, plan de estudios",
+          "url": "https://www.informatica.us.es/index.php/grados/ingenieria-del-software/plan-de-estudios",
+          "aporta": "Plan universitario oficial de 4 años con asignaturas por cuatrimestre y TFG"
+        },
+        {
+          "institucion": "UnADM (México) — Ingeniería en Desarrollo de Software, mapa curricular oficial",
+          "url": "https://www.unadmexico.mx/images/descargables/MC_licenciatura/ING_DESARROLLO_SOFTWARE.pdf",
+          "aporta": "Mapa curricular por módulos de universidad pública mexicana en línea"
+        },
+        {
+          "institucion": "UNIR (España) — Máster en Diseño y Desarrollo de Interfaz de Usuario Web (Front-end)",
+          "url": "https://www.unir.net/diseno/master-diseno-web/plan-de-estudios/",
+          "aporta": "Especialización front-end: diseño y desarrollo de sitios, recursos animados, frameworks del sector, prácticas en empresas"
+        }
+      ]
+    },
+    {
+      "id": "publicidad-marketing-digital",
+      "titulo": "Publicidad / Comunicación y Marketing Digital",
+      "categoria": "carrera",
+      "duracion": "4-5 años (universitaria), 4 años con salida técnica intermedia a los 2 años (institutos)",
+      "resumen": "La ruta del mensaje y la conversión: llega al diseño web desde la estrategia. Forma profesionales que gestionan la comunicación de marcas en entornos digitales, crean contenido, analizan métricas y planifican campañas.",
+      "materias": {
+        "fundamentos": [
+          "Introducción al marketing",
+          "Fundamentos de economía",
+          "Contabilidad general (presupuestos)",
+          "Comunicación publicitaria y creatividad",
+          "Fundamentos de la comunicación"
+        ],
+        "consumidor_y_estrategia": [
+          "Psicología del consumidor",
+          "Antropología, sociedad y cultura del consumo",
+          "Investigación de mercados",
+          "Planificación estratégica de marketing",
+          "Construcción y gestión de marca (branding)",
+          "Storytelling y narrativa persuasiva",
+          "Marketing internacional"
+        ],
+        "digital": [
+          "Estrategias de redes sociales",
+          "SEO y SEM (posicionamiento orgánico y pagado)",
+          "E-commerce y marketing mobile",
+          "Creación de contenidos digitales",
+          "Digital marketing analytics (métricas y datos)",
+          "Campañas integradas online y offline",
+          "IA aplicada a publicidad"
+        ],
+        "medicion_y_gestion": [
+          "Estadística aplicada al marketing",
+          "Métricas financieras, de marketing y publicitarias",
+          "Análisis de datos para decisiones",
+          "Marco normativo y regulación publicitaria"
+        ],
+        "transversales": [
+          "Inglés",
+          "Talleres con proyectos reales y agencias",
+          "Certificaciones de industria (Google Ads, IAB)"
+        ]
+      },
+      "perfil_egreso": "Diseña estrategias y campañas digitales desde la investigación de públicos hasta la creación de contenido, medición y optimización basada en resultados.",
+      "salidas_laborales": [
+        "Agencias de publicidad y medios",
+        "Áreas de marketing de empresas",
+        "E-commerce y startups",
+        "Emprendimiento propio"
+      ],
+      "aporte_al_diseno_web": "Entrega el 'para qué' del diseño web: audiencias, conversión, contenido y métricas. Es la mirada que hace que una web bonita también venda. Le falta la ejecución visual y técnica.",
+      "fuentes": [
+        {
+          "institucion": "Universidad Andrés Bello (Chile) — Malla Publicidad",
+          "url": "https://www.unab.cl/carreras/mallas/publicidad.pdf",
+          "aporta": "Comunicación publicitaria y creatividad, métricas financieras/marketing/publicitarias, investigación cuantitativa, construcción de marca, marco normativo, antropología del consumo, discurso publicitario"
+        },
+        {
+          "institucion": "USIL (Perú) — Malla curricular de Marketing",
+          "url": "https://blogs.usil.edu.pe/facultad-ciencias-empresariales/malla-curricular-marketing",
+          "aporta": "Introducción al marketing, fundamentos de economía, contabilidad, psicología del consumidor, investigación de mercados, estadística aplicada, SEO y SEM, e-commerce y mobile, redes sociales, planificación estratégica, gestión de marca, marketing internacional"
+        },
+        {
+          "institucion": "UPN (Perú) — Comunicación y Marketing Digital (5 años)",
+          "url": "https://www.upn.edu.pe/carrera/comunicacion-y-marketing-digital",
+          "aporta": "Creación de contenidos digitales, storytelling, análisis de audiencias, métricas y campañas"
+        },
+        {
+          "institucion": "Duoc UC (Chile) — Ingeniería en Marketing Digital (4 años, salida técnica a los 2)",
+          "url": "https://www.duoc.cl/wp-content/uploads/2023/09/INGE-MARKETING-DIGITAL.pdf",
+          "aporta": "Estructura 2+2: visión general y herramientas tecnológicas, luego profundización técnica y analítica"
+        },
+        {
+          "institucion": "UPC EPE (Perú) — Marketing, mención digital",
+          "url": "https://epe.upc.edu.pe/carrera/marketing/malla-curricular/",
+          "aporta": "Digital Marketing Analytics, Content & Mobile Marketing, E-Commerce"
+        }
+      ]
+    },
+    {
+      "id": "ruta-autodidacta",
+      "titulo": "Ruta autodidacta equivalente (sin universidad)",
+      "categoria": "alternativa",
+      "duracion": "6-18 meses de estudio constante hasta nivel empleable",
+      "resumen": "El diseño web es de los campos donde el portafolio pesa más que el título. Es posible entrar a UX/diseño web sin título: la experiencia relevante, certificados y proyectos propios son caminos válidos, aunque un título abre puertas adicionales.",
+      "materias": {
+        "equivalente_fundamentos": [
+          "Principios de diseño: jerarquía, color, tipografía, espacio (este manual, Refactoring UI, cursos libres)",
+          "Figma a fondo (tutoriales oficiales gratuitos)"
+        ],
+        "equivalente_ux": [
+          "Certificado Google UX Design (Coursera, 3-6 meses)",
+          "Interaction Design Foundation para teoría",
+          "Practicar con casos: rediseños documentados"
+        ],
+        "equivalente_codigo": [
+          "freeCodeCamp o The Odin Project: HTML, CSS, JavaScript",
+          "MDN Web Docs como referencia",
+          "Tailwind y luego React"
+        ],
+        "equivalente_marketing": [
+          "Google Digital Garage / certificaciones de Google Ads",
+          "Estudiar landings reales de marcas top y replicar su estructura"
+        ],
+        "portafolio": [
+          "3 a 6 proyectos reales bien explicados (problema, decisiones, resultado)",
+          "Publicar todo (GitHub Pages, Vercel, Netlify)",
+          "Documentar el proceso, no solo el resultado final"
+        ]
+      },
+      "perfil_egreso": "Equivalente funcional a un junior de UX/diseño web si el portafolio demuestra criterio y proceso, no solo piezas bonitas.",
+      "salidas_laborales": [
+        "Mismas que las carreras formales a nivel junior",
+        "Freelance desde el primer proyecto"
+      ],
+      "aporte_al_diseno_web": "La mayoría de los diseñadores UX tiene título universitario, pero no necesariamente en UX: el campo es nuevo y valora la evidencia de habilidad. El portafolio es el verdadero examen de grado.",
+      "fuentes": [
+        {
+          "institucion": "Coursera — ¿Qué título necesito para una carrera en diseño UX?",
+          "url": "https://www.coursera.org/mx/articles/what-degree-do-i-need-to-become-a-ux-designer",
+          "aporta": "Es posible comenzar en UX sin título; 82% de diseñadores UX encuestados por Nielsen Norman Group tiene al menos licenciatura; certificados y portafolio como caminos válidos"
+        },
+        {
+          "institucion": "Google — Certificado profesional de Diseño UX",
+          "url": "https://grow.google/intl/es-419_us/certificates/ux-design/",
+          "aporta": "Certificado de 3-6 meses a ~10 horas/semana, diseñado con expertos de la industria (Figma colaboró en el material)"
+        }
+      ]
+    },
+    {
+      "id": "comparativa-rutas",
+      "titulo": "Cómo elegir entre las rutas",
+      "categoria": "guia",
+      "duracion": "n/a",
+      "resumen": "Criterios de decisión entre las cuatro carreras y la ruta autodidacta, según el perfil que se quiera construir.",
+      "materias": {
+        "criterios": [
+          "Si te mueve lo visual y la marca → Diseño Gráfico",
+          "Si te mueve entender personas y productos digitales → UX/UI (la más directa al diseño web hoy)",
+          "Si te mueve construir y la lógica → Desarrollo Web / Analista Programador",
+          "Si te mueve la estrategia, el mensaje y las ventas → Publicidad / Marketing Digital",
+          "Si necesitas flexibilidad o rapidez → Ruta autodidacta + certificados + portafolio"
+        ],
+        "perfil_mas_cotizado": [
+          "El híbrido: combinar dos rutas (diseño + código, o diseño + marketing)",
+          "Cualquier ruta formal debe complementarse con portafolio propio",
+          "Las 5 comparten un núcleo: comunicación, usuario y proyecto"
+        ]
+      },
+      "perfil_egreso": "n/a",
+      "salidas_laborales": [],
+      "aporte_al_diseno_web": "Ninguna ruta lo cubre todo: la carrera elegida define tu fortaleza, y las otras áreas se complementan con cursos cortos y práctica.",
+      "fuentes": [
+        {
+          "institucion": "Síntesis propia",
+          "url": "",
+          "aporta": "Guía de decisión derivada de las fuentes de las demás entradas; no es una malla curricular"
+        }
+      ]
+    },
+    {
+      "id": "escuelas-elite-mundial",
+      "titulo": "Las mejores escuelas de diseño del mundo (ranking QS)",
+      "categoria": "referencia-mundial",
+      "duracion": "BFA: 4 años (EE.UU.) · RCA: solo posgrado (máster y PhD)",
+      "resumen": "Las instituciones top del ranking QS World University Rankings de Arte y Diseño 2026: Royal College of Art (#1, Londres), University of the Arts London (#2), Parsons (#3 mundial y #1 de EE.UU. en 2025), RISD (#4). Sus programas marcan el estándar global de la enseñanza del diseño.",
+      "materias": {
+        "royal_college_of_art_londres_1_mundial": [
+          "N°1 mundial QS por 5+ años consecutivos; fundada en 1837",
+          "Exclusivamente posgrado: 29 programas de máster y PhD en disciplinas de arte y diseño",
+          "Modelo de especialización avanzada para artistas y diseñadores ya formados",
+          "Proyectos con partners de la comunidad e industria"
+        ],
+        "university_of_the_arts_london_2_mundial": [
+          "6 colleges (incluye Central Saint Martins y London College of Communication)",
+          "18.000 estudiantes de 130 países",
+          "Más de la mitad de los diseñadores de London Fashion Week son egresados de UAL"
+        ],
+        "parsons_nueva_york_3_mundial": [
+          "BFA en Communication Design (4 años): equivalente a diseño gráfico, foco interdisciplinario técnico + funcional",
+          "Acceso a cursos de toda The New School (colaboración entre carreras)",
+          "Mentoría, experiencia práctica y vínculos con la industria en el corazón del programa",
+          "Egresados en Apple, Pentagram, The New York Times, Google"
+        ],
+        "risd_providence_4_mundial": [
+          "Foundation year: no se declara especialidad hasta mitad del primer año (base común de dibujo, color, composición)",
+          "BFA en Graphic Design: uno de los departamentos más grandes (~165 estudiantes)",
+          "Currículo basado en estudio/taller con críticas (critiques) constantes",
+          "Registro cruzado de cursos con Brown University; RISD Museum con 100.000+ obras",
+          "Nature Lab: estudio de patrones y estructuras del diseño en la naturaleza"
+        ],
+        "otras_referentes": [
+          "MIT: las artes conectadas a la experimentación y resolución imaginativa de problemas entre disciplinas",
+          "Yale: currículo studio-based riguroso con cursos estructurados de dibujo, cine y teoría del color",
+          "Pratt Institute (#7): currículo integrado que combina pensamiento de estudio con teorías de aprendizaje e investigación",
+          "CalArts: motion graphics, tipografía experimental, programas BFA/MFA intensivos en estudio",
+          "Carnegie Mellon, MICA y RIT: mayor flexibilidad para explorar intereses tecnológicos junto al diseño"
+        ],
+        "patrones_comunes_de_la_elite": [
+          "Año de fundamentos común antes de especializar (foundation year)",
+          "El taller/estudio con crítica entre pares como núcleo pedagógico (no clases expositivas)",
+          "Interdisciplinariedad: diseño + tecnología + negocio + humanidades",
+          "Vínculo directo con la industria (mentores, prácticas, proyectos reales)",
+          "El portafolio como examen de admisión y como resultado final"
+        ]
+      },
+      "perfil_egreso": "Diseñadores con pensamiento conceptual profundo, oficio técnico y red de contactos de industria global.",
+      "salidas_laborales": [
+        "Estudios y consultoras de diseño top",
+        "Big tech (Apple, Google)",
+        "Editorial y agencias (Pentagram, NYT)",
+        "Emprendimiento (fundadores de Airbnb son egresados de RISD)"
+      ],
+      "aporte_al_diseno_web": "Su lección aplicable sin pagar la matrícula: fundamentos antes de especializar, aprender haciendo en taller con crítica constante, interdisciplinariedad y portafolio como centro. Ese método se puede replicar de forma autodidacta.",
+      "fuentes": [
+        {
+          "institucion": "QS World University Rankings — Art & Design 2026 (ranking oficial)",
+          "url": "https://www.topuniversities.com/university-subject-rankings/art-design",
+          "aporta": "RCA #1, UAL #2, RISD #4; ranking de 300+ instituciones"
+        },
+        {
+          "institucion": "PrepScholar — análisis de programas de diseño gráfico en EE.UU.",
+          "url": "https://blog.prepscholar.com/best-graphic-design-schools-in-the-us",
+          "aporta": "Parsons #1 de EE.UU. y #3 mundial QS 2025; BFA Communication Design; RISD foundation year y tamaño del departamento; flexibilidad de Carnegie Mellon/MICA/RIT"
+        },
+        {
+          "institucion": "TopUniversities — perfil de las 5 mejores escuelas de arte y diseño",
+          "url": "https://www.topuniversities.com/university-rankings-articles/university-subject-rankings/everything-you-need-know-about-best-five-art-design-schools-world",
+          "aporta": "RISD Nature Lab, Pratt currículo interdisciplinario, MIT enfoque experimental, Parsons mentoría e industria"
+        },
+        {
+          "institucion": "KraftGeek — top 13 escuelas de arte del mundo",
+          "url": "https://kraftgeek.com/blogs/creator-inspiration/top-13-art-schools-around-the-world",
+          "aporta": "RCA solo posgrado, historia y ranking; RISD registro cruzado con Brown; Yale currículo studio-based con dibujo, cine y teoría del color"
+        },
+        {
+          "institucion": "GrabCAD — mejores escuelas de diseño del mundo (QS)",
+          "url": "https://blog.grabcad.com/blog/2018/11/05/the-10-best-schools-to-study-design-around-the-world/",
+          "aporta": "RCA 29 programas de posgrado; UAL 18.000 estudiantes de 130 países y dato de London Fashion Week; Pratt currículo integrado"
+        }
+      ]
+    }
+  ]
+}

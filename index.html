@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manual de diseño visual para marketing · Biblioteca interactiva</title>
+<meta name="description" content="Biblioteca interactiva de principios de diseño visual para marketing. Para diseñadores, devs, project owners y agentes de IA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FFFFFF; --paper-soft:#F7F6F2; --ink:#17171C; --ink-soft:#54545C; --ink-faint:#8B8B93;
+    --marker:#FFE83D; --marker-soft:#FFF7C2; --agent:#4D5DFB; --agent-soft:#EEF0FF;
+    --line:#E4E3DD; --radius:10px;
+    --fs-0:13px; --fs-1:15px; --fs-2:17px; --fs-3:22px; --fs-4:30px; --fs-5:44px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Instrument Sans', system-ui, sans-serif;
+    font-size:var(--fs-2); line-height:1.65; color:var(--ink); background:var(--paper);
+  }
+  ::selection{background:var(--marker);}
+  a{color:inherit;}
+  :focus-visible{outline:3px solid var(--agent); outline-offset:2px; border-radius:4px;}
+
+  .layout{display:grid; grid-template-columns:280px 1fr; min-height:100vh;}
+
+  /* ---------- Sidebar ---------- */
+  aside{
+    border-right:1px solid var(--line); background:var(--paper-soft);
+    padding:32px 24px; position:sticky; top:0; height:100vh; overflow-y:auto;
+  }
+  .brand{font-family:'Archivo',sans-serif; font-weight:800; font-size:19px; letter-spacing:-0.02em; line-height:1.2;}
+  .brand em{font-style:normal; background:linear-gradient(transparent 55%, var(--marker) 55%);}
+  .brand-sub{font-size:var(--fs-0); color:var(--ink-faint); margin-top:6px; font-family:'Space Mono',monospace;}
+  .search{
+    width:100%; margin:22px 0 18px; padding:10px 12px; font:inherit; font-size:var(--fs-1);
+    border:1px solid var(--line); border-radius:var(--radius); background:var(--paper);
+  }
+  nav a{
+    display:flex; gap:10px; align-items:baseline; text-decoration:none;
+    padding:8px 10px; border-radius:8px; font-size:var(--fs-1); color:var(--ink-soft);
+  }
+  nav a:hover{background:var(--marker-soft); color:var(--ink);}
+  nav a.hidden{display:none;}
+  nav .num{font-family:'Space Mono',monospace; font-size:12px; color:var(--ink-faint); min-width:22px;}
+  nav .divider{margin:14px 0 8px; font-family:'Space Mono',monospace; font-size:11px; text-transform:uppercase; letter-spacing:0.12em; color:var(--ink-faint);}
+  nav a.agent-link{color:var(--agent); font-weight:600;}
+  nav a.agent-link:hover{background:var(--agent-soft);}
+
+  /* ---------- Main ---------- */
+  main{max-width:780px; padding:56px 48px 120px; width:100%;}
+  header.hero{margin-bottom:72px;}
+  .hero h1{
+    font-family:'Archivo',sans-serif; font-weight:800; font-size:clamp(34px, 5vw, var(--fs-5));
+    line-height:1.05; letter-spacing:-0.03em;
+  }
+  .hero h1 .hl{background:linear-gradient(transparent 58%, var(--marker) 58%); padding:0 2px;}
+  .hero p{margin-top:20px; font-size:var(--fs-3); color:var(--ink-soft); max-width:34ch; line-height:1.45;}
+  .hero .tags{margin-top:26px; display:flex; gap:8px; flex-wrap:wrap;}
+  .tag{
+    font-family:'Space Mono',monospace; font-size:12px; padding:5px 12px;
+    border:1px solid var(--line); border-radius:999px; color:var(--ink-soft); background:var(--paper);
+  }
+  .tag.blue{border-color:var(--agent); color:var(--agent); background:var(--agent-soft);}
+
+  section{margin-bottom:80px; scroll-margin-top:24px;}
+  .kicker{font-family:'Space Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--ink-faint);}
+  section h2{
+    font-family:'Archivo',sans-serif; font-weight:700; font-size:var(--fs-4);
+    letter-spacing:-0.02em; line-height:1.15; margin:8px 0 18px;
+  }
+  section h3{font-family:'Archivo',sans-serif; font-weight:700; font-size:var(--fs-3); margin:34px 0 10px;}
+  section p{margin-bottom:14px; max-width:62ch;}
+  section p strong{font-weight:600;}
+  .hl{background:linear-gradient(transparent 58%, var(--marker) 58%); padding:0 1px;}
+  ul.rules{list-style:none; margin:14px 0; max-width:62ch;}
+  ul.rules li{padding:10px 0 10px 30px; position:relative; border-bottom:1px dashed var(--line);}
+  ul.rules li::before{content:"→"; position:absolute; left:2px; color:var(--ink-faint); font-family:'Space Mono',monospace;}
+  .warn{
+    margin:18px 0; padding:14px 18px; border-left:3px solid var(--ink); background:var(--paper-soft);
+    font-size:var(--fs-1); max-width:62ch;
+  }
+  .warn b{font-weight:600;}
+
+  /* ---------- Demo panels ---------- */
+  .demo{
+    border:1px solid var(--line); border-radius:14px; background:var(--paper-soft);
+    padding:22px; margin:26px 0;
+  }
+  .demo-label{font-family:'Space Mono',monospace; font-size:11px; text-transform:uppercase; letter-spacing:0.12em; color:var(--ink-faint); margin-bottom:14px;}
+  .demo .stage{background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); padding:28px; text-align:center;}
+  .demo button, .console button{
+    font:inherit; font-size:var(--fs-1); padding:8px 16px; border:1px solid var(--ink);
+    background:var(--paper); border-radius:8px; cursor:pointer;
+  }
+  .demo button:hover{background:var(--marker-soft);}
+  .demo button[aria-pressed="true"]{background:var(--ink); color:var(--paper);}
+  .demo .controls{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px; align-items:center;}
+  input[type="range"]{accent-color:var(--ink);}
+
+  /* squint demo */
+  #squint-stage{transition:filter .2s;}
+  #squint-stage .mini-title{font-family:'Archivo',sans-serif; font-weight:800; font-size:26px; letter-spacing:-0.02em;}
+  #squint-stage .mini-sub{color:var(--ink-soft); font-size:15px; margin:8px auto 16px; max-width:36ch;}
+  #squint-stage .mini-cta{display:inline-block; background:var(--ink); color:var(--paper); padding:9px 20px; border-radius:8px; font-size:14px; font-weight:600;}
+  #squint-stage .mini-note{font-size:12px; color:var(--ink-faint); margin-top:12px;}
+
+  /* jerarquia demo */
+  #jq-stage p{margin:0 0 6px; transition:all .25s;}
+  #jq-title{font-size:16px; font-weight:400;}
+  #jq-sub{font-size:16px; color:var(--ink);}
+  #jq-note{font-size:16px; color:var(--ink);}
+  #jq-cta{display:inline-block; margin-top:8px; padding:9px 20px; border:1px solid var(--ink); border-radius:8px; font-size:14px; transition:all .25s;}
+  #jq-stage.on-size #jq-title{font-size:28px;}
+  #jq-stage.on-size #jq-note{font-size:12px;}
+  #jq-stage.on-tone #jq-title{font-weight:700;}
+  #jq-stage.on-tone #jq-sub{color:var(--ink-soft);}
+  #jq-stage.on-tone #jq-note{color:var(--ink-faint);}
+  #jq-stage.on-accent #jq-cta{background:var(--agent); border-color:var(--agent); color:#fff; font-weight:600;}
+
+  /* checklist */
+  .check{max-width:62ch;}
+  .check label{
+    display:flex; gap:12px; align-items:flex-start; padding:12px 14px; border:1px solid var(--line);
+    border-radius:var(--radius); margin-bottom:10px; cursor:pointer; background:var(--paper);
+  }
+  .check label:has(input:checked){background:var(--marker-soft); border-color:var(--marker);}
+  .check input{margin-top:5px; accent-color:var(--ink); width:16px; height:16px;}
+  #check-progress{font-family:'Space Mono',monospace; font-size:13px; color:var(--ink-soft); margin-top:6px;}
+
+  /* ---------- Agent console ---------- */
+  .console{
+    border:1px solid var(--agent); border-radius:14px; overflow:hidden; margin:26px 0;
+  }
+  .console-head{
+    background:var(--agent); color:#fff; padding:10px 18px;
+    font-family:'Space Mono',monospace; font-size:13px; display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;
+  }
+  .console-body{padding:18px; background:var(--agent-soft);}
+  .console .controls{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:14px; align-items:center;}
+  .console select, .console input[type="text"]{
+    font:inherit; font-size:var(--fs-1); padding:8px 10px; border:1px solid var(--agent);
+    border-radius:8px; background:#fff;
+  }
+  .console button{border-color:var(--agent); color:var(--agent); font-family:'Space Mono',monospace; font-size:13px;}
+  .console button:hover{background:var(--agent); color:#fff;}
+  pre.out{
+    background:#14142B; color:#DCE0FF; border-radius:var(--radius); padding:16px;
+    font-family:'Space Mono',monospace; font-size:13px; line-height:1.55;
+    overflow-x:auto; max-height:360px; overflow-y:auto; white-space:pre-wrap; word-break:break-word;
+  }
+  code.inline{font-family:'Space Mono',monospace; font-size:0.88em; background:var(--paper-soft); border:1px solid var(--line); padding:1px 6px; border-radius:5px;}
+  .console-body code.inline{background:#fff; border-color:var(--agent);}
+
+  table.api{width:100%; border-collapse:collapse; font-size:var(--fs-1); margin:16px 0;}
+  table.api th, table.api td{text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top;}
+  table.api th{font-family:'Space Mono',monospace; font-size:12px; text-transform:uppercase; letter-spacing:0.1em; color:var(--ink-faint);}
+  table.api td:first-child{font-family:'Space Mono',monospace; font-size:13px; white-space:nowrap;}
+
+  /* ---------- Cards carreras/herramientas ---------- */
+  .card{border:1px solid var(--line); border-radius:14px; background:var(--paper); padding:20px 22px; margin:18px 0;}
+  .card h3{margin-top:0 !important;}
+  .card .meta-line{font-family:'Space Mono',monospace; font-size:12px; color:var(--ink-faint); margin-bottom:10px;}
+  .card p{font-size:var(--fs-1);}
+  .chip{display:inline-block; font-family:'Space Mono',monospace; font-size:11px; padding:3px 10px; border-radius:999px; border:1px solid var(--line); color:var(--ink-soft); margin:0 6px 6px 0; background:var(--paper-soft);}
+  .chip.api-si{border-color:#2E7D32; color:#2E7D32; background:#EDF7EE;}
+  .chip.api-no{border-color:#B26A00; color:#B26A00; background:#FFF6E8;}
+  .card .area{font-weight:600; font-size:var(--fs-1); margin:10px 0 4px;}
+  .card ul{list-style:none; margin:0 0 6px;}
+  .card ul li{font-size:var(--fs-1); color:var(--ink-soft); padding:3px 0 3px 18px; position:relative;}
+  .card ul li::before{content:"·"; position:absolute; left:4px; color:var(--ink-faint);}
+  .card .agent-note{margin-top:10px; padding:10px 14px; background:var(--agent-soft); border-left:3px solid var(--agent); font-size:var(--fs-1); border-radius:0 8px 8px 0;}
+
+  svg text{font-family:'Instrument Sans',sans-serif;}
+
+  footer{border-top:1px solid var(--line); padding-top:24px; font-size:var(--fs-0); color:var(--ink-faint); font-family:'Space Mono',monospace;}
+
+  @media (max-width:900px){
+    .layout{grid-template-columns:1fr;}
+    aside{position:static; height:auto; border-right:none; border-bottom:1px solid var(--line);}
+    main{padding:40px 22px 90px;}
+  }
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{transition:none !important;}
+  }
+</style>
+</head>
+<body>
+<div class="layout">
+
+<aside>
+  <div class="brand">Manual de <em>diseño visual</em><br>para marketing</div>
+  <div class="brand-sub">v1.0 · biblioteca viva</div>
+  <input class="search" id="nav-search" type="text" placeholder="Buscar capítulo…" aria-label="Buscar capítulo">
+  <nav aria-label="Capítulos">
+    <div class="divider">Fundamentos</div>
+    <a href="#principio-base"><span class="num">01</span>Diseñar es comunicar</a>
+    <a href="#jerarquia-visual"><span class="num">02</span>Jerarquía visual</a>
+    <a href="#patrones-lectura"><span class="num">03</span>Patrones F y Z</a>
+    <div class="divider">Estilo</div>
+    <a href="#color"><span class="num">04</span>Color con intención</a>
+    <a href="#tipografia"><span class="num">05</span>Tipografía</a>
+    <a href="#espacio-alineacion"><span class="num">06</span>Espacio y alineación</a>
+    <div class="divider">Conversión</div>
+    <a href="#estructura-landing"><span class="num">07</span>Estructura de landing</a>
+    <a href="#microcopy"><span class="num">08</span>Microcopy</a>
+    <a href="#checklist-publicacion"><span class="num">09</span>Checklist final</a>
+    <div class="divider">Producción</div>
+    <a href="#visuales-3d"><span class="num">10</span>Assets y 3D de calidad</a>
+    <div class="divider">Formación</div>
+    <a href="#carreras"><span class="num">11</span>Carreras y materias</a>
+    <div class="divider">Stack</div>
+    <a href="#herramientas"><span class="num">12</span>Herramientas y APIs</a>
+    <div class="divider">Para agentes</div>
+    <a href="#api" class="agent-link"><span class="num">API</span>Base de conocimiento</a>
+  </nav>
+</aside>
+
+<main>
+<header class="hero">
+  <div class="kicker">Para diseñadores · devs · project owners · agentes de IA</div>
+  <h1>El diseño que <span class="hl">comunica</span> es el diseño que convierte.</h1>
+  <p>Una biblioteca interactiva de principios visuales aplicados a marketing. Léela como humano, consúltala como máquina.</p>
+  <div class="tags">
+    <span class="tag">9 capítulos</span>
+    <span class="tag">demos en vivo</span>
+    <span class="tag blue">KB.get() · KB.search() · JSON</span>
+  </div>
+</header>
+
+<!-- 01 -->
+<section id="principio-base">
+  <div class="kicker">01 · Fundamentos</div>
+  <h2>Diseñar es comunicar</h2>
+  <p>El diseño no es decoración: es <span class="hl">hacer que un mensaje se entienda sin esfuerzo</span>. Toda decisión visual —un color, un tamaño, un espacio— existe para reducir la fricción entre tu mensaje y la persona que lo recibe.</p>
+  <ul class="rules">
+    <li>Cada pantalla o sección comunica <strong>una sola idea</strong> principal.</li>
+    <li>Si un elemento no ayuda a entender o a actuar, se elimina.</li>
+    <li>La claridad siempre gana sobre la originalidad decorativa.</li>
+    <li>El mensaje debe entenderse en <strong>5 segundos</strong> sin contexto previo.</li>
+  </ul>
+  <div class="warn"><b>Aplicación en marketing:</b> una campaña con un solo mensaje claro convierte más que una con cinco mensajes compitiendo. Define el mensaje único <em>antes</em> de diseñar.</div>
+</section>
+
+<!-- 02 -->
+<section id="jerarquia-visual">
+  <div class="kicker">02 · Fundamentos</div>
+  <h2>Jerarquía visual: las 5 palancas</h2>
+  <p>En menos de un segundo, el usuario decide dónde mirar. La jerarquía es cómo tú <span class="hl">controlas ese recorrido del ojo</span>: primero el mensaje, luego el apoyo, luego la acción.</p>
+  <ul class="rules">
+    <li><strong>Tamaño</strong> — lo más importante es lo más grande. La palanca más rentable.</li>
+    <li><strong>Peso y grises</strong> — el profesional <em>baja</em> lo secundario a gris; el aficionado sube todo a negrita.</li>
+    <li><strong>Color de acento</strong> — un solo elemento con color en una composición neutra atrae el ojo como un imán. Resérvalo para la acción.</li>
+    <li><strong>Espacio</strong> — el aire agrupa lo relacionado y separa lo distinto.</li>
+    <li><strong>Posición</strong> — arriba a la izquierda pesa más en lectura occidental.</li>
+  </ul>
+
+  <div class="demo">
+    <div class="demo-label">Demo · activa las palancas</div>
+    <div class="controls">
+      <button type="button" aria-pressed="false" onclick="jq(this,'size')">Tamaño</button>
+      <button type="button" aria-pressed="false" onclick="jq(this,'tone')">Peso y grises</button>
+      <button type="button" aria-pressed="false" onclick="jq(this,'accent')">Acento</button>
+    </div>
+    <div class="stage" id="jq-stage">
+      <p id="jq-title">Duplica tus reservas este trimestre</p>
+      <p id="jq-sub">El CRM para hoteles pequeños que automatiza el seguimiento.</p>
+      <span id="jq-cta">Empezar gratis</span>
+      <p id="jq-note" style="margin-top:12px;">Sin tarjeta · Cancela cuando quieras</p>
+    </div>
+  </div>
+
+  <h3>El test del entrecerrar los ojos</h3>
+  <p>Desenfoca la vista frente a cualquier pieza: si aún distingues <strong>qué domina</strong> y <strong>dónde está el botón</strong>, la jerarquía funciona. Si todo es una mancha uniforme, no hay jerarquía. Pruébalo:</p>
+
+  <div class="demo">
+    <div class="demo-label">Demo · squint test</div>
+    <div class="controls">
+      <label for="squint" style="font-size:14px;">Desenfoque</label>
+      <input type="range" id="squint" min="0" max="8" value="0" step="1" oninput="document.getElementById('squint-stage').style.filter='blur('+this.value+'px)'">
+    </div>
+    <div class="stage" id="squint-stage">
+      <p class="mini-title">Tu marca, entendida en 5 segundos</p>
+      <p class="mini-sub">Auditamos tu landing y te decimos exactamente qué comunicar primero.</p>
+      <span class="mini-cta">Pedir auditoría</span>
+      <p class="mini-note">Respuesta en 48 horas</p>
+    </div>
+  </div>
+  <div class="warn"><b>Error común:</b> todo en negrita y del mismo tamaño. Cuando todo grita, nada se escucha.</div>
+</section>
+
+<!-- 03 -->
+<section id="patrones-lectura">
+  <div class="kicker">03 · Comportamiento</div>
+  <h2>La gente no lee: escanea</h2>
+  <p>Los estudios de seguimiento ocular muestran recorridos predecibles. En páginas de texto, el ojo dibuja una <strong>F</strong>; en landings visuales, una <strong>Z</strong> que termina abajo a la derecha — <span class="hl">exactamente donde debe vivir tu botón</span>.</p>
+
+  <div class="demo">
+    <div class="demo-label">Patrones de escaneo</div>
+    <svg width="100%" viewBox="0 0 640 300" role="img" aria-label="Patrones de lectura F y Z">
+      <text x="160" y="24" text-anchor="middle" font-size="14" font-weight="600" fill="#17171C">Patrón F · texto</text>
+      <text x="480" y="24" text-anchor="middle" font-size="14" font-weight="600" fill="#17171C">Patrón Z · landing</text>
+      <rect x="40" y="40" width="240" height="230" rx="10" fill="#fff" stroke="#E4E3DD"/>
+      <rect x="60" y="60" width="200" height="12" rx="3" fill="#D6D5CE"/>
+      <rect x="60" y="84" width="140" height="9" rx="3" fill="#D6D5CE"/>
+      <rect x="60" y="104" width="200" height="7" rx="3" fill="#ECEBE5"/>
+      <rect x="60" y="118" width="180" height="7" rx="3" fill="#ECEBE5"/>
+      <rect x="60" y="140" width="110" height="9" rx="3" fill="#D6D5CE"/>
+      <rect x="60" y="160" width="200" height="7" rx="3" fill="#ECEBE5"/>
+      <rect x="60" y="174" width="190" height="7" rx="3" fill="#ECEBE5"/>
+      <rect x="60" y="188" width="200" height="7" rx="3" fill="#ECEBE5"/>
+      <rect x="60" y="202" width="150" height="7" rx="3" fill="#ECEBE5"/>
+      <path d="M65 66 H255" stroke="#17171C" stroke-width="3" stroke-linecap="round"/>
+      <path d="M65 145 H185" stroke="#17171C" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+      <path d="M65 70 V255" stroke="#17171C" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+      <rect x="360" y="40" width="240" height="230" rx="10" fill="#fff" stroke="#E4E3DD"/>
+      <rect x="380" y="58" width="56" height="11" rx="3" fill="#D6D5CE"/>
+      <rect x="524" y="58" width="56" height="11" rx="3" fill="#D6D5CE"/>
+      <rect x="400" y="120" width="160" height="14" rx="3" fill="#D6D5CE"/>
+      <rect x="415" y="146" width="130" height="8" rx="3" fill="#ECEBE5"/>
+      <rect x="492" y="218" width="88" height="30" rx="7" fill="#4D5DFB"/>
+      <text x="536" y="238" text-anchor="middle" font-size="12" fill="#fff" font-weight="600">Acción</text>
+      <path d="M385 64 H515" stroke="#17171C" stroke-width="3" stroke-linecap="round"/>
+      <path d="M570 76 L405 205" stroke="#17171C" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+      <path d="M418 226 H482" stroke="#17171C" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+  </div>
+
+  <ul class="rules">
+    <li>Las <strong>primeras 2 palabras</strong> de cada titular son las más leídas: carga ahí el beneficio.</li>
+    <li>Escribe en <strong>pirámide invertida</strong>: conclusión primero, detalle después.</li>
+    <li>El CTA va sobre el recorrido natural del ojo, nunca escondido.</li>
+    <li>Contenido escaneable = subtítulos frecuentes y párrafos cortos.</li>
+  </ul>
+  <div class="warn"><b>Aplicación en marketing:</b> en un email, el primer renglón y el botón definen el resultado. "Ahorra 3 horas semanales…" gana a "La mejor forma de ahorrar…".</div>
+</section>
+
+<!-- 04 -->
+<section id="color">
+  <div class="kicker">04 · Estilo</div>
+  <h2>Color con intención</h2>
+  <p>El color dirige la atención y transmite personalidad de marca. Una paleta pequeña usada con criterio comunica más que diez colores sin rol. La fórmula: <span class="hl">1 color de marca + neutros + 1 acento para acciones</span>.</p>
+  <ul class="rules">
+    <li>El acento se <strong>reserva</strong> para lo que quieres que la persona haga. Si todo tiene color, nada resalta.</li>
+    <li>Mismo color = misma función en todo el sitio. Así el usuario aprende qué es accionable.</li>
+    <li>Contraste texto-fondo suficiente para leer sin esfuerzo (referencia: 4.5:1 mínimo).</li>
+    <li>La consistencia construye reconocimiento: tu marca debe reconocerse aunque tapes el logo.</li>
+  </ul>
+  <div class="warn"><b>Error común:</b> cambiar el color de los botones entre secciones. Rompes el aprendizaje del usuario y bajas la conversión.</div>
+</section>
+
+<!-- 05 -->
+<section id="tipografia">
+  <div class="kicker">05 · Estilo</div>
+  <h2>Tipografía funcional</h2>
+  <p>La tipografía es la <span class="hl">voz visual</span> del mensaje: transmite el tono de la marca antes de que se lea una sola palabra. Una serif elegante y una grotesca técnica venden cosas distintas.</p>
+  <ul class="rules">
+    <li>Máximo <strong>2 familias</strong>: una con carácter para titulares, una legible para texto.</li>
+    <li>Escala fija de tamaños (ej. 13 · 15 · 17 · 22 · 30 · 44) y no salirse de ella.</li>
+    <li>Largo de línea cómodo: entre <strong>45 y 75 caracteres</strong>.</li>
+    <li>Interlineado del cuerpo entre 1.4 y 1.7.</li>
+  </ul>
+  <div class="warn"><b>Error común:</b> líneas de texto que ocupan todo el ancho de la pantalla. El ojo se pierde al volver al inicio de la línea.</div>
+</section>
+
+<!-- 06 -->
+<section id="espacio-alineacion">
+  <div class="kicker">06 · Estilo</div>
+  <h2>Espacio y alineación</h2>
+  <p>El espacio vacío no está desperdiciado: <span class="hl">está trabajando</span>. Agrupa lo relacionado, separa lo distinto y le da importancia a lo que rodea. Las marcas premium se reconocen por el aire.</p>
+  <ul class="rules">
+    <li>Cuando algo parece que "le falta", casi siempre necesita <strong>más espacio, no más cosas</strong>.</li>
+    <li>Escala de espaciado consistente (ej. 8 · 16 · 24 · 48 px) para todos los márgenes.</li>
+    <li>Ley de proximidad: lo relacionado va cerca, lo distinto va separado.</li>
+    <li>Todo se alinea a líneas invisibles comunes. Texto largo: alineado a la izquierda, no centrado.</li>
+  </ul>
+  <div class="warn"><b>Aplicación en marketing:</b> un diseño apretado se percibe como barato aunque el producto no lo sea. El espacio comunica calidad y confianza.</div>
+</section>
+
+<!-- 07 -->
+<section id="estructura-landing">
+  <div class="kicker">07 · Conversión</div>
+  <h2>La estructura narrativa de una landing</h2>
+  <p>Una landing que convierte es una historia con un solo final deseado. El guion es siempre el mismo: <span class="hl">gancho → beneficio → prueba → acción</span>. Cada sección responde una pregunta del visitante, en orden.</p>
+  <ul class="rules">
+    <li><strong>Gancho</strong> — ¿qué es esto? Una frase que dice qué es y para quién, en 5 segundos.</li>
+    <li><strong>Beneficio</strong> — ¿me sirve? Qué gana la persona, no qué características tiene el producto.</li>
+    <li><strong>Prueba</strong> — ¿puedo confiar? Testimonios, cifras, logos, casos.</li>
+    <li><strong>Acción</strong> — ¿qué hago? Un solo CTA principal, claro y repetido.</li>
+  </ul>
+  <div class="warn"><b>Error común:</b> múltiples CTAs compitiendo con el mismo peso (comprar, suscribirse, descargar, contactar). Elige uno; degrada los demás.</div>
+  <p>Esta estructura aplica igual a emails largos, presentaciones de venta y video ads: gancho en los primeros segundos, beneficio, prueba, acción.</p>
+</section>
+
+<!-- 08 -->
+<section id="microcopy">
+  <div class="kicker">08 · Conversión</div>
+  <h2>Microcopy que convierte</h2>
+  <p>Los textos cortos —botones, títulos, etiquetas— comunican más que cualquier adorno. <span class="hl">Las palabras son material de diseño.</span> Cambiar el texto de un botón es de los tests A/B con mejor retorno: es gratis y mueve la conversión.</p>
+  <ul class="rules">
+    <li>Botones con <strong>verbo + beneficio</strong>: "Empezar gratis", "Ver mi trabajo". Nunca "Enviar" u "OK".</li>
+    <li>El botón dice exactamente lo que pasa al pulsarlo, y mantiene el mismo nombre en todo el flujo.</li>
+    <li>Reduce la ansiedad junto al CTA: "Sin tarjeta de crédito", "Cancela cuando quieras".</li>
+    <li>Voz activa y concreta. Elimina relleno: "simplemente", "fácilmente".</li>
+    <li>Los errores dicen qué pasó y cómo arreglarlo, sin culpar ni ser vagos.</li>
+  </ul>
+</section>
+
+<!-- 09 -->
+<section id="checklist-publicacion">
+  <div class="kicker">09 · Proceso</div>
+  <h2>Checklist antes de publicar</h2>
+  <p>El control de calidad final para cualquier pieza: landing, email, anuncio o post. Úsalo tú, o dáselo a tus agentes como <span class="hl">criterios de evaluación automática</span>.</p>
+  <div class="check" id="checklist">
+    <label><input type="checkbox" onchange="checkProgress()"> ¿Se entiende en 5 segundos qué es y para quién?</label>
+    <label><input type="checkbox" onchange="checkProgress()"> ¿Hay una sola cosa que domina visualmente? (squint test)</label>
+    <label><input type="checkbox" onchange="checkProgress()"> ¿Cada sección comunica una sola idea?</label>
+    <label><input type="checkbox" onchange="checkProgress()"> ¿El botón dice qué gana la persona?</label>
+    <label><input type="checkbox" onchange="checkProgress()"> ¿Sobra algo? (casi siempre sí: quitar antes de publicar)</label>
+    <label><input type="checkbox" onchange="checkProgress()"> ¿Funciona bien en móvil?</label>
+    <label><input type="checkbox" onchange="checkProgress()"> ¿El contraste permite leer todo sin esfuerzo?</label>
+  </div>
+  <p id="check-progress">0 / 7 verificados</p>
+</section>
+
+<!-- 10 -->
+<section id="visuales-3d">
+  <div class="kicker">10 · Producción</div>
+  <h2>Assets y 3D renderizado de calidad</h2>
+  <p>El 3D bien usado vende: da tangibilidad al producto y sensación premium. Pero hay una decisión previa que define todo: <span class="hl">¿pre-renderizado o tiempo real?</span></p>
+
+  <h3>Camino 1 · Pre-renderizado (imagen estática)</h3>
+  <p>Se crea la escena en <strong>Blender</strong> (gratis, estándar de industria), se renderiza al máximo y se exporta como imagen. La web solo carga una imagen: calidad máxima sin castigar la velocidad. Es el enfoque de las grandes marcas en sus heroes.</p>
+  <ul class="rules">
+    <li><strong>Iluminación HDRI</strong> — un entorno 360° ilumina la escena con luz realista. El salto de calidad más grande y más fácil.</li>
+    <li><strong>Materiales PBR</strong> — rugosidad, metalicidad y reflejos físicamente correctos: un plástico y un metal reaccionan distinto a la luz.</li>
+    <li><strong>Oclusión ambiental y sombras de contacto</strong> — lo que separa "flota falso" de "esto existe".</li>
+    <li><strong>Profundidad de campo</strong> — fondo levemente desenfocado = jerarquía visual aplicada al 3D.</li>
+    <li><strong>Samples altos + denoise</strong> en Cycles para eliminar el grano del render final.</li>
+  </ul>
+
+  <h3>Camino 2 · Tiempo real (interactivo)</h3>
+  <ul class="rules">
+    <li><strong>Spline</strong> — 3D interactivo sin código, exporta directo a web. Ideal para empezar.</li>
+    <li><strong>Three.js / react-three-fiber</strong> — control total con código. Requiere optimizar polígonos y texturas.</li>
+    <li>El costo es rendimiento: cada polígono lo paga el dispositivo del visitante. Usarlo solo si la interacción aporta al mensaje.</li>
+  </ul>
+
+  <h3>Optimización: donde muere el 90% de las webs con 3D</h3>
+  <ul class="rules">
+    <li>Renderizar a <strong>2x</strong> la resolución final de uso.</li>
+    <li>Comprimir a <strong>WebP o AVIF</strong>, apuntando a menos de ~300 KB por imagen hero.</li>
+    <li><strong>Lazy loading</strong> para todo lo que no sea la primera pantalla.</li>
+    <li>Profundidad barata sin 3D real: sombras en capas, gradientes sutiles, glassmorphism y transforms 3D de CSS.</li>
+  </ul>
+  <div class="warn"><b>Regla de oro:</b> un render espectacular de 8 MB destruye la conversión porque nadie espera la carga. Y el principio 01 aplica igual aquí: el 3D debe servir al mensaje, no decorar.</div>
+</section>
+
+<!-- 11 -->
+<section id="carreras">
+  <div class="kicker">11 · Formación</div>
+  <h2>Carreras y materias que llevan al diseño web</h2>
+  <p>No existe una única carrera "de diseño web": se llega desde cuatro rutas formales o por la vía autodidacta. Cada una entrega una fortaleza distinta, y <span class="hl">el perfil más cotizado es el híbrido</span> que combina dos. El portafolio pesa más que el título en esta industria.</p>
+  <div id="render-carreras"></div>
+</section>
+
+<!-- 12 -->
+<section id="herramientas">
+  <div class="kicker">12 · Stack</div>
+  <h2>Herramientas, APIs y automatización con agentes</h2>
+  <p>El stack completo del diseñador web moderno, con un dato clave por herramienta: <span class="hl">cómo la opera un agente de IA</span>. La regla general: si tiene API REST, el agente la usa directo o vía MCP; si no, se llega por orquestadores no-code; y el navegador automatizado es el último recurso.</p>
+  <div id="render-tools"></div>
+</section>
+
+<!-- API -->
+<section id="api">
+  <div class="kicker" style="color:var(--agent);">API · Para agentes de IA</div>
+  <h2>Base de conocimiento consultable</h2>
+  <p>Todo el manual existe también como <strong>datos estructurados</strong>. Tus agentes (y tu propio código) pueden consultarlo de dos maneras: en vivo dentro de esta página con <code class="inline">KB</code>, o vía HTTP con el archivo <code class="inline">kb-diseno-mkt.json</code> una vez publicado.</p>
+
+  <table class="api">
+    <tr><th>Método</th><th>Devuelve</th></tr>
+    <tr><td>KB.list()</td><td>Índice de todas las entradas: id, título y categoría.</td></tr>
+    <tr><td>KB.get(id)</td><td>Una entrada completa: resumen, reglas, errores comunes y aplicación en marketing.</td></tr>
+    <tr><td>KB.search(texto)</td><td>Entradas cuyo contenido coincide con el texto buscado.</td></tr>
+    <tr><td>GET /kb-diseno-mkt.json</td><td>La base completa vía HTTP (al hostear ambos archivos juntos).</td></tr>
+  </table>
+
+  <div class="console">
+    <div class="console-head"><span>consola · pruébalo en vivo</span><span>KB v1.0</span></div>
+    <div class="console-body">
+      <div class="controls">
+        <select id="kb-base" aria-label="Elegir base de conocimiento" onchange="refreshIds()">
+          <option value="principios">base: principios de diseño</option>
+          <option value="carreras">base: carreras y materias</option>
+          <option value="herramientas">base: herramientas y APIs</option>
+        </select>
+        <button type="button" onclick="runList()">KB.list()</button>
+        <select id="kb-id" aria-label="Elegir entrada"></select>
+        <button type="button" onclick="runGet()">KB.get(id)</button>
+      </div>
+      <div class="controls">
+        <input type="text" id="kb-q" placeholder="buscar… ej: botón, contraste, CTA" aria-label="Texto a buscar" style="flex:1; min-width:180px;">
+        <button type="button" onclick="runSearch()">KB.search(q)</button>
+        <button type="button" onclick="downloadKB()">Descargar JSON</button>
+      </div>
+      <pre class="out" id="kb-out">// La salida aparecerá aquí. Prueba KB.list() para empezar.</pre>
+    </div>
+  </div>
+
+  <h3>Cómo lo consume un agente</h3>
+  <p>Publica este HTML junto al archivo <code class="inline">kb-diseno-mkt.json</code> en cualquier hosting estático (Vercel, Netlify, GitHub Pages). La URL del JSON se vuelve tu endpoint de solo lectura:</p>
+  <pre class="out">// Instrucción para tu agente:
+// "Antes de generar o evaluar una pieza visual, haz GET a
+//  https://TU-DOMINIO.com/kb-diseno-mkt.json y aplica las
+//  'reglas' de las entradas relevantes como criterios."
+
+const res = await fetch("https://TU-DOMINIO.com/kb-diseno-mkt.json");
+const kb  = await res.json();
+const jerarquia = kb.entradas.find(e => e.id === "jerarquia-visual");
+console.log(jerarquia.reglas); // → criterios listos para el agente</pre>
+  <div class="warn"><b>Nota técnica:</b> esto es un endpoint de <em>lectura</em> (GET). Si más adelante necesitas búsqueda del lado del servidor, escritura o versionado por usuario, el siguiente paso natural es un backend pequeño (por ejemplo Supabase o un worker) sirviendo este mismo JSON.</div>
+</section>
+
+<footer>
+  manual-diseno-mkt · v2.1 · edítalo, versiónalo y hazlo crecer — es tuyo.
+  <br>
+  Sitios y tiendas por <a href="https://weblia.cl" rel="noopener">weblia.cl</a> · Software por <a href="https://techprime.cl" rel="noopener">TechPrime</a> · Marketing por <a href="https://maraa.cl" rel="noopener">Agencia MARAA</a>
+</footer>
+</main>
+</div>
+
+<script>
+const KB_DATA = {
+  meta: { nombre: "KB Diseño Visual para Marketing", version: "1.0.0", idioma: "es" },
+  entradas: [
+    { id:"principio-base", titulo:"Diseñar es comunicar", categoria:"fundamentos",
+      resumen:"El diseño no es decoración: es hacer que un mensaje se entienda sin esfuerzo. Toda decisión visual debe reducir la fricción entre el mensaje y la persona.",
+      reglas:["Cada pantalla o sección comunica una sola idea principal.","Si un elemento no ayuda a entender o a actuar, se elimina.","La claridad siempre gana sobre la originalidad decorativa.","El mensaje debe entenderse en 5 segundos sin contexto previo."],
+      errores_comunes:["Querer decir todo en la primera pantalla.","Agregar adornos para 'llenar' espacios vacíos.","Priorizar que se vea 'bonito' sobre que se entienda."],
+      aplicacion_marketing:"Una campaña o landing con un solo mensaje claro convierte más que una con cinco mensajes compitiendo. Definir el mensaje único antes de diseñar." },
+    { id:"jerarquia-visual", titulo:"Jerarquía visual: las 5 palancas", categoria:"fundamentos",
+      resumen:"La jerarquía controla el recorrido del ojo. Se construye con 5 palancas: tamaño, peso y grises, color de acento, espacio y posición.",
+      reglas:["Tamaño: lo más importante es lo más grande. El titular domina la pantalla.","Peso y grises: bajar lo secundario a gris en lugar de subir todo a negrita. Tres niveles bastan.","Color de acento: reservarlo para la acción principal; un solo imán por vista.","Espacio: el aire agrupa lo relacionado y separa lo distinto. Ante la duda, más espacio.","Posición: arriba a la izquierda pesa más en lectura occidental.","Squint test: si al desenfocar la vista no se distingue qué domina, no hay jerarquía."],
+      errores_comunes:["Todo en negrita y del mismo tamaño: nada resalta.","Usar muchos colores: el acento pierde su poder de imán.","Rellenar cada espacio vacío: el diseño se siente barato."],
+      aplicacion_marketing:"El ojo debe ir: titular con beneficio → apoyo → botón. Si el botón no es lo segundo que más resalta, la jerarquía está mal asignada." },
+    { id:"patrones-lectura", titulo:"Patrones de lectura F y Z", categoria:"comportamiento",
+      resumen:"La gente no lee: escanea. En páginas de texto el ojo sigue un patrón F; en landings visuales sigue un patrón Z que termina donde debe estar el CTA.",
+      reglas:["Patrón F (texto): lo importante arriba y al inicio de cada línea; subtítulos frecuentes.","Patrón Z (landing): mensaje en la diagonal, botón principal donde el ojo termina.","Las primeras 2 palabras de cada titular son las más leídas: cargar ahí el beneficio.","Escribir en pirámide invertida: conclusión primero, detalle después.","Colocar el CTA sobre el recorrido natural del ojo, nunca escondido."],
+      errores_comunes:["Titulares que empiezan con relleno en vez del beneficio.","Enterrar el CTA fuera del recorrido visual.","Párrafos largos sin subtítulos en contenido escaneable."],
+      aplicacion_marketing:"En un email de marketing, el primer renglón y el botón definen el resultado." },
+    { id:"color", titulo:"Color con intención", categoria:"estilo",
+      resumen:"El color dirige la atención y transmite marca. Fórmula: 1 color principal + neutros + 1 acento para acciones.",
+      reglas:["Paleta mínima: 1 color de marca + grises + 1 acento de acción.","El acento se reserva para lo que quieres que la persona haga.","Contraste texto-fondo mínimo 4.5:1 en texto normal.","Mismo color = misma función en todo el sitio.","Verificar la paleta en modo claro y oscuro si aplica."],
+      errores_comunes:["Cinco o más colores sin rol definido.","Texto gris claro sobre blanco ilegible.","Cambiar el color de los botones entre secciones."],
+      aplicacion_marketing:"La consistencia de color construye reconocimiento de marca y el acento consistente en CTAs aumenta el clic." },
+    { id:"tipografia", titulo:"Tipografía funcional", categoria:"estilo",
+      resumen:"La tipografía es la voz visual del mensaje. Pocas fuentes, escala consistente y líneas legibles.",
+      reglas:["Máximo 2 familias: una para titulares, otra para texto.","Escala fija de tamaños; no salirse de ella.","Largo de línea entre 45 y 75 caracteres.","Interlineado del cuerpo entre 1.4 y 1.7.","Titulares cargan personalidad; el cuerpo prioriza legibilidad."],
+      errores_comunes:["Mezclar 3+ fuentes.","Líneas a todo el ancho de pantalla.","Tamaños arbitrarios en cada sección."],
+      aplicacion_marketing:"La tipografía transmite el tono de marca antes de leer una palabra: elegir según la promesa de la marca." },
+    { id:"espacio-alineacion", titulo:"Espacio en blanco y alineación", categoria:"estilo",
+      resumen:"El espacio vacío está trabajando: agrupa, separa y da importancia. La alineación a una rejilla invisible ordena todo.",
+      reglas:["Si algo 'le falta', casi siempre necesita más espacio, no más elementos.","Escala de espaciado consistente (8, 16, 24, 48).","Ley de proximidad: lo relacionado cerca, lo distinto separado.","Alinear a líneas invisibles comunes; texto largo a la izquierda.","Más espacio alrededor = más importancia percibida."],
+      errores_comunes:["Espaciados aleatorios.","Centrar todo por defecto.","Pegar el contenido a los bordes."],
+      aplicacion_marketing:"Las marcas premium se reconocen por el aire: el espacio comunica calidad y confianza." },
+    { id:"estructura-landing", titulo:"Estructura narrativa de una landing", categoria:"conversion",
+      resumen:"Una landing que convierte sigue el guion: gancho, beneficio, prueba y acción.",
+      reglas:["Gancho: qué es y para quién, en 5 segundos.","Beneficio: qué gana la persona, no características.","Prueba: testimonios, cifras, logos, casos.","Acción: un solo CTA principal claro y repetido.","Cada sección responde una pregunta en orden: ¿qué es? ¿me sirve? ¿confío? ¿qué hago?"],
+      errores_comunes:["Características antes que beneficios.","Múltiples CTAs con el mismo peso.","Omitir la prueba social."],
+      aplicacion_marketing:"Aplica a landings, emails largos, presentaciones y video ads: gancho, beneficio, prueba, acción." },
+    { id:"microcopy", titulo:"Microcopy que convierte", categoria:"conversion",
+      resumen:"Los textos cortos comunican más que cualquier adorno. Las palabras son material de diseño.",
+      reglas:["Botones con verbo + beneficio: 'Empezar gratis'. Nunca 'Enviar' u 'OK'.","El botón dice lo que pasa al pulsarlo y mantiene el nombre en todo el flujo.","Reducir ansiedad junto al CTA: 'Sin tarjeta', 'Cancela cuando quieras'.","Voz activa y concreta; eliminar relleno.","Errores: qué pasó y cómo arreglarlo, sin culpar."],
+      errores_comunes:["Botones genéricos.","Adjetivos vacíos en vez de especificidad.","Ignorar los microtextos que reducen fricción."],
+      aplicacion_marketing:"Cambiar el texto de un botón es de los tests A/B con mejor retorno." },
+    { id:"checklist-publicacion", titulo:"Checklist antes de publicar", categoria:"proceso",
+      resumen:"Verificación final para cualquier pieza: landing, email, anuncio o post.",
+      reglas:["¿Se entiende en 5 segundos qué es y para quién?","¿Hay una sola cosa que domina visualmente? (squint test)","¿Cada sección comunica una sola idea?","¿El botón dice qué gana la persona?","¿Sobra algo? Quitar antes de publicar.","¿Funciona en móvil?","¿El contraste permite leer sin esfuerzo?"],
+      errores_comunes:["Publicar sin probar en un teléfono real.","Saltarse el squint test.","No validar con alguien externo qué entendió en 5 segundos."],
+      aplicacion_marketing:"Usar como control de calidad del equipo o como criterios de evaluación para agentes de IA." },
+    { id:"visuales-3d", titulo:"Assets y 3D renderizado de calidad", categoria:"produccion",
+      resumen:"Dos caminos para el 3D en web: pre-renderizado (Blender a imagen, calidad máxima sin costo de carga) o tiempo real (Spline, Three.js, interactivo pero con costo de rendimiento).",
+      reglas:["Pre-renderizado: crear en Blender, exportar como imagen. Calidad máxima, carga ligera.","Iluminación HDRI: entorno 360° con luz realista; el mayor salto de calidad.","Materiales PBR: rugosidad, metalicidad y reflejos físicamente correctos.","Oclusión ambiental y sombras de contacto para que el objeto 'exista'.","Profundidad de campo: fondo desenfocado dirige el ojo al producto.","Tiempo real solo si la interacción aporta al mensaje (Spline sin código; Three.js con código).","Optimizar siempre: render a 2x, comprimir a WebP/AVIF (<300 KB), lazy loading.","Profundidad sin 3D real: sombras en capas, gradientes, glassmorphism, CSS 3D transforms."],
+      errores_comunes:["Imágenes hero de varios MB que destruyen la velocidad y la conversión.","3D decorativo que no sirve al mensaje.","Renders con luces planas y sin sombras de contacto: se ven falsos."],
+      aplicacion_marketing:"Heroes de producto, mockups de dispositivos y packaging virtual: el 3D da tangibilidad y sensación premium, pero solo convierte si carga rápido y comunica el beneficio." }
+  ]
+};
+
+const KB = {
+  list: () => KB_DATA.entradas.map(e => ({ id: e.id, titulo: e.titulo, categoria: e.categoria })),
+  get: (id) => KB_DATA.entradas.find(e => e.id === id) || { error: "id no encontrado", ids_validos: KB_DATA.entradas.map(e => e.id) },
+  search: (q) => {
+    q = (q || "").toLowerCase().trim();
+    if (!q) return { error: "escribe un texto a buscar" };
+    const hits = KB_DATA.entradas.filter(e => JSON.stringify(e).toLowerCase().includes(q));
+    return hits.length ? hits.map(e => ({ id: e.id, titulo: e.titulo, resumen: e.resumen })) : { resultado: "sin coincidencias para: " + q };
+  }
+};
+window.KB = KB;
+
+const out = document.getElementById('kb-out');
+const show = (label, data) => { out.textContent = "> " + label + "\n\n" + JSON.stringify(data, null, 2); };
+function runList(){ show("KB.list()", KB.list()); }
+function runGet(){ const id = document.getElementById('kb-id').value; show("KB.get('" + id + "')", KB.get(id)); }
+function runSearch(){ const q = document.getElementById('kb-q').value; show("KB.search('" + q + "')", KB.search(q)); }
+function downloadKB(){
+  const blob = new Blob([JSON.stringify(KB_DATA, null, 2)], { type: "application/json" });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = "kb-diseno-mkt.json";
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+const sel = document.getElementById('kb-id');
+KB_DATA.entradas.forEach(e => { const o = document.createElement('option'); o.value = e.id; o.textContent = e.id; sel.appendChild(o); });
+
+function jq(btn, cls){
+  const on = btn.getAttribute('aria-pressed') !== 'true';
+  btn.setAttribute('aria-pressed', on);
+  document.getElementById('jq-stage').classList.toggle('on-' + cls, on);
+}
+
+function checkProgress(){
+  const boxes = document.querySelectorAll('#checklist input');
+  const n = [...boxes].filter(b => b.checked).length;
+  document.getElementById('check-progress').textContent =
+    n + " / " + boxes.length + (n === boxes.length ? " — lista para publicar ✓" : " verificados");
+}
+
+
+const CARRERAS_DATA = {"meta": {"nombre": "KB Carreras y Materias para Diseño Web", "version": "1.0.0", "idioma": "es", "descripcion": "Base de conocimiento sobre las carreras formales que llevan al diseño web, sus materias típicas por área, duración, perfil de egreso y ruta autodidacta equivalente. Compilada a partir de mallas curriculares reales de universidades e institutos de Latinoamérica y España.", "uso_agentes": "Hacer GET a este archivo. Cada entrada describe una carrera con sus materias agrupadas por área de formación. Usar 'materias' para orientar planes de estudio y 'ruta_autodidacta' como equivalencia sin universidad.", "actualizado": "2026-07-07", "nota": "Los nombres exactos de los ramos varían por institución; aquí se listan las materias típicas que se repiten entre mallas.", "verificacion": "Las materias listadas provienen de mallas curriculares y planes de estudio publicados oficialmente por las instituciones citadas en el campo 'fuentes' de cada entrada. Los nombres exactos de los ramos varían entre instituciones; aquí se consolidan las materias que se repiten entre mallas reales. Ningún ramo fue inventado. Fecha de consulta: julio 2026.", "cobertura_geografica": "Fuentes de Chile, Perú, Argentina, Ecuador, México y España. Los nombres de titulaciones varían por país (ej: 'Analista Programador' en Chile ≈ 'Grado Superior en Desarrollo de Aplicaciones Web (DAW)' en España ≈ 'Ingeniería en Desarrollo de Software' en México), pero el núcleo de materias es equivalente."}, "entradas": [{"id": "diseno-grafico", "titulo": "Diseño Gráfico / Diseño Visual", "categoria": "carrera", "duracion": "3 a 5 años (técnico superior: 2.5-3 años; licenciatura: 4-5 años)", "resumen": "La ruta clásica al diseño. Forma comunicadores visuales: el diseñador no es un artista que expresa lo que siente, sino alguien que comunica el mensaje de un cliente a una audiencia. Base visual profunda; lo digital/web suele ser solo una parte de la malla.", "materias": {"fundamentos_visuales": ["Fundamentos del diseño", "Taller de diseño (I a IV, columna vertebral de la carrera)", "Forma y estructura", "Color", "Composición", "Dibujo y expresión gráfica", "Geometría"], "lenguaje_y_teoria": ["Semiótica (cómo los signos comunican)", "Historia del arte", "Historia y tendencias del diseño", "Antropología / psicología aplicada", "Narrativa y storytelling"], "especialidad_grafica": ["Tipografía", "Diagramación y diseño editorial", "Fotografía digital", "Ilustración", "Edición vectorial y de imagen (Illustrator, Photoshop, InDesign)", "Gráfica digital / multimedia", "Animación multimedia", "Diseño de marca y packaging"], "gestion_y_negocio": ["Diseño estratégico", "Marketing", "Gestión de proyectos / gestión empresarial", "Innovación y emprendimiento"], "transversales": ["Inglés", "Práctica profesional", "Proyecto de título / portafolio"]}, "perfil_egreso": "Resuelve problemas de comunicación visual: marcas, editorial impreso e interactivo, empaques, campañas; trabaja en equipos multidisciplinarios con herramientas manuales y digitales.", "salidas_laborales": ["Agencias de publicidad y branding", "Estudios de diseño", "Áreas de marketing y comunicación de empresas", "Editorial", "Freelance"], "aporte_al_diseno_web": "Entrega la base visual (tipografía, color, composición, jerarquía) que separa una web amateur de una profesional, pero suele faltar profundidad en UX, código y producto digital.", "fuentes": [{"institucion": "Universidad Mayor (Chile) — Malla Diseño mención Gráfico", "url": "https://www.umayor.cl/um/bundles/carreras/descargables/mallas/diseno.pdf", "aporta": "Taller de Diseño I-IV, Semiótica, Forma y Estructura, Tipografía, Diagramación, Fotografía Digital, Ilustración, Gráfica Digital I-III, Diseño Estratégico, Innovación"}, {"institucion": "Universidad Diego Portales (Chile) — Plan de Estudio Diseño Gráfico", "url": "https://diseno.udp.cl/estudiantes/plan-de-estudio-diseno-grafico/", "aporta": "Laboratorio Dibujo e Imagen, Diseño Editorial, Comunicación Gráfica, gestión de proyectos"}, {"institucion": "Universidad de Palermo (Argentina) — Plan de estudios Diseño Gráfico", "url": "https://www.palermo.edu/dyc/diseno_grafico/plan.html", "aporta": "Estructura 3 años + orientaciones (Editorial, Packaging, Imagen Empresaria, Publicitario)"}, {"institucion": "PSU.cl — Comparativa de mallas chilenas (U. de Chile, PUC, UDP, Duoc UC, AIEP)", "url": "https://psu.cl/2014/12/16/las-principales-asignaturas-de-diseno-grafico/", "aporta": "Color, Edición Vectorial, Edición de Imagen, Maquetación, Animación Multimedia (Duoc); Aplicaciones y Diseño para Web, 3D (AIEP)"}, {"institucion": "ESPOL FADCOM (Ecuador) — Diseño Gráfico", "url": "https://www.fadcom.espol.edu.ec/es/carreras-de-grado/diseno-grafico", "aporta": "Dibujo académico, Historia del arte, Semiótica de la comunicación, Diseño editorial, narrativa"}]}, {"id": "diseno-ux-ui", "titulo": "Diseño UX/UI / Diseño de Interacción Digital", "categoria": "carrera", "duracion": "3 años (carrera), 8-18 meses (bootcamps y diplomados), 3-6 meses (certificados como Google UX Design)", "resumen": "La ruta más directa al diseño web y de productos digitales moderno. Forma profesionales que investigan, diseñan, prototipan y evalúan productos digitales centrados en las personas y alineados a objetivos de negocio.", "materias": {"investigacion_ux": ["Fundamentos del diseño digital", "UX Research (entrevistas, encuestas, insights)", "Comportamiento y psicología del usuario", "Análisis de audiencias y card sorting", "Testing de usabilidad con usuarios reales"], "arquitectura_y_diseno": ["Arquitectura de información y árbol de contenidos", "Wireframing", "Diseño de interacción", "Diseño de interfaces (UI)", "Design Systems (sistemas de diseño)", "Accesibilidad", "Diseño responsive y multiplataforma", "Visualización de datos"], "herramientas_y_prototipado": ["Figma / Sketch / Adobe XD", "Prototipado de alta fidelidad", "Maquetación con HTML5 y CSS3 (Flexbox, Grid, media queries)", "Moodboards y co-creación (design sprints)"], "metodo_y_negocio": ["Design Thinking", "Metodologías ágiles", "Gestión de producto digital", "Analítica y métricas de experiencia", "Uso estratégico de IA en procesos de diseño"], "transversales": ["Proyecto final integrador (app + landing page)", "Portafolio profesional"]}, "perfil_egreso": "Capaz de investigar necesidades de usuarios, diseñar soluciones digitales interactivas y prototipos funcionales para múltiples plataformas aplicando usabilidad y arquitectura de información.", "salidas_laborales": ["Consultoras de diseño e innovación", "Agencias digitales", "Áreas de producto/UX en empresas y banca", "Startups y laboratorios de innovación", "Gobierno digital"], "aporte_al_diseno_web": "Es el corazón del diseño web actual: cubre investigación, prototipado, interfaces y usabilidad. Muchos programas incluyen HTML/CSS básico. Empleabilidad alta y en crecimiento.", "fuentes": [{"institucion": "ISIL (Perú) — Carrera Diseño de Medios Interactivos UX/UI (3 años)", "url": "https://isil.pe/areas-academicas/diseno-ux-ui/", "aporta": "Año 1: investigación de usuarios e insights; Año 2: soluciones interactivas, usabilidad, arquitectura de información; Año 3: liderazgo, IA en diseño"}, {"institucion": "Desafío Latam (Chile) — Carrera Diseño UX/UI (8 meses, 4 módulos)", "url": "https://desafiolatam.com/diseno-ux-ui/", "aporta": "Maquetación HTML5/CSS3, Flexbox, CSS Grid, media queries; conceptualización, arquitectura de información, diseño de interacción e interfaces; proyecto final"}, {"institucion": "Escuela Carne (Argentina) — Curso UX/UI", "url": "https://escuelacarne.com/capacitacion/curso/diseno-comunicacion/ux-ui/", "aporta": "Research y discovery, design sprints, card sorting, Design System, wireframing (Figma/XD/Sketch), prototipado, testing de usuarios"}, {"institucion": "UOC (España) — Especialización en Diseño de Experiencia de Usuario", "url": "https://www.uoc.edu/es/estudios/diplomas/diploma-especializacion-diseno-experiencia-usuario", "aporta": "Diseño centrado en el usuario e investigación; Arquitectura de la Información y usabilidad"}, {"institucion": "UNIR — dónde estudiar UX/UI (disciplinas del plan de estudios)", "url": "https://www.unir.net/revista/diseno/donde-estudiar-diseno-ux-ui/", "aporta": "Investigación de usuarios, usabilidad, visualización de datos, mapeado, ideación, prototipado, arquitectura de información, diseño de interacción, testeo"}]}, {"id": "desarrollo-web", "titulo": "Analista Programador / Desarrollo Web / Ingeniería Informática", "categoria": "carrera", "duracion": "2.5 años (técnico analista programador, 5 semestres), 4-5 años (ingeniería)", "resumen": "La ruta técnica: aprender a construir. Forma profesionales que participan en todo el ciclo de vida del software: requerimientos, diseño, construcción, pruebas e implementación. El diseño visual casi no se toca.", "materias": {"programacion": ["Fundamentos de programación", "Programación I y II", "Estructura de datos", "Desarrollo web (front-end: HTML, CSS, JavaScript)", "Interfaces responsivas según estándares de la industria", "Taller de aplicaciones móviles", "Programación orientada a objetos"], "datos_y_sistemas": ["Bases de datos SQL y NoSQL", "Modelado de datos", "Sistemas operativos", "Sistemas de información administrativos", "Redes / networking", "Seguridad de la información"], "ingenieria_de_software": ["Análisis de sistemas y levantamiento de requerimientos", "Ingeniería de software", "Metodologías ágiles", "Control de versiones y buenas prácticas de codificación", "Pruebas funcionales", "Configuración de ambientes de producción"], "complementarias": ["Matemática aplicada", "E-commerce", "Ética profesional", "Comprensión lectora y producción de textos"], "transversales": ["Práctica laboral", "Actividad de titulación", "Certificaciones intermedias (lenguajes, desarrollo web, networking)"]}, "perfil_egreso": "Analiza requerimientos y construye aplicaciones web, móviles y de escritorio con bases de datos seguras, bajo estándares de calidad y metodologías ágiles.", "salidas_laborales": ["Empresas TI y fábricas de software", "Bancos e industria", "Equipos de transformación digital", "Consultor o freelance"], "aporte_al_diseno_web": "Entrega el poder de construir cualquier cosa (front-end y back-end), pero no enseña a diseñarla bien: se complementa perfecto con formación visual o UX.", "fuentes": [{"institucion": "IP Los Leones (Chile) — Malla Analista Programador (5 semestres)", "url": "https://ipleones.cl/wp-content/uploads/2023/12/Analista-Programador-Malla-1.pdf", "aporta": "Fundamentos de Programación, Programación I-II, Estructura de Datos, Base de Datos, Sistemas Operativos, E-commerce, Taller de Aplicaciones Móviles, Matemática Aplicada, Sistemas de Información Administrativos"}, {"institucion": "Duoc UC (Chile) — Analista Programador Computacional", "url": "https://www.duoc.cl/wp-content/uploads/2023/09/ANALISTA-PROGRAMADOR.pdf", "aporta": "Programación, modelado de datos, desarrollo web, ingeniería de software (5 semestres)"}, {"institucion": "AIEP (Chile) — Técnico en Programación y Análisis de Sistemas", "url": "https://www.aiep.cl/admision/carrera/programacion-y-analisis-de-sistemas/", "aporta": "Ciclo de vida del software: requerimientos, diseño, construcción, pruebas, implementación; bases de datos seguras, control de versiones, metodologías ágiles"}, {"institucion": "Iplacex (Chile) — Analista Programador online", "url": "https://www.iplacex.cl/carreras/carreras-100-online/analista-programador/", "aporta": "Aplicaciones multiplataforma con servicios web, bases de datos SQL y NoSQL, interfaces responsivas, ambientes de producción, metodologías ágiles"}, {"institucion": "IP Santo Tomás (Chile) — Analista Programador (marco SFIA)", "url": "https://www.ipsantotomas.cl/web/wp-content/uploads/sites/27/2026/01/IP_ANALISTA_PROGRAMADOR_2026.pdf", "aporta": "Práctica laboral, ética profesional, certificaciones intermedias, networking"}, {"institucion": "Comunidad de Madrid (España) — Título oficial Técnico Superior en Desarrollo de Aplicaciones Web (DAW), ficha IFCS03", "url": "https://www.comunidad.madrid/sites/default/files/doc/educacion/fp/FP-Ensenanza-IFCS03-LOE-Ficha.pdf", "aporta": "Título oficial de FP con 120 créditos ECTS reconocibles para acceso a grados universitarios"}, {"institucion": "Universidad de Sevilla (España) — Grado en Ingeniería Informática - Ingeniería del Software, plan de estudios", "url": "https://www.informatica.us.es/index.php/grados/ingenieria-del-software/plan-de-estudios", "aporta": "Plan universitario oficial de 4 años con asignaturas por cuatrimestre y TFG"}, {"institucion": "UnADM (México) — Ingeniería en Desarrollo de Software, mapa curricular oficial", "url": "https://www.unadmexico.mx/images/descargables/MC_licenciatura/ING_DESARROLLO_SOFTWARE.pdf", "aporta": "Mapa curricular por módulos de universidad pública mexicana en línea"}, {"institucion": "UNIR (España) — Máster en Diseño y Desarrollo de Interfaz de Usuario Web (Front-end)", "url": "https://www.unir.net/diseno/master-diseno-web/plan-de-estudios/", "aporta": "Especialización front-end: diseño y desarrollo de sitios, recursos animados, frameworks del sector, prácticas en empresas"}]}, {"id": "publicidad-marketing-digital", "titulo": "Publicidad / Comunicación y Marketing Digital", "categoria": "carrera", "duracion": "4-5 años (universitaria), 4 años con salida técnica intermedia a los 2 años (institutos)", "resumen": "La ruta del mensaje y la conversión: llega al diseño web desde la estrategia. Forma profesionales que gestionan la comunicación de marcas en entornos digitales, crean contenido, analizan métricas y planifican campañas.", "materias": {"fundamentos": ["Introducción al marketing", "Fundamentos de economía", "Contabilidad general (presupuestos)", "Comunicación publicitaria y creatividad", "Fundamentos de la comunicación"], "consumidor_y_estrategia": ["Psicología del consumidor", "Antropología, sociedad y cultura del consumo", "Investigación de mercados", "Planificación estratégica de marketing", "Construcción y gestión de marca (branding)", "Storytelling y narrativa persuasiva", "Marketing internacional"], "digital": ["Estrategias de redes sociales", "SEO y SEM (posicionamiento orgánico y pagado)", "E-commerce y marketing mobile", "Creación de contenidos digitales", "Digital marketing analytics (métricas y datos)", "Campañas integradas online y offline", "IA aplicada a publicidad"], "medicion_y_gestion": ["Estadística aplicada al marketing", "Métricas financieras, de marketing y publicitarias", "Análisis de datos para decisiones", "Marco normativo y regulación publicitaria"], "transversales": ["Inglés", "Talleres con proyectos reales y agencias", "Certificaciones de industria (Google Ads, IAB)"]}, "perfil_egreso": "Diseña estrategias y campañas digitales desde la investigación de públicos hasta la creación de contenido, medición y optimización basada en resultados.", "salidas_laborales": ["Agencias de publicidad y medios", "Áreas de marketing de empresas", "E-commerce y startups", "Emprendimiento propio"], "aporte_al_diseno_web": "Entrega el 'para qué' del diseño web: audiencias, conversión, contenido y métricas. Es la mirada que hace que una web bonita también venda. Le falta la ejecución visual y técnica.", "fuentes": [{"institucion": "Universidad Andrés Bello (Chile) — Malla Publicidad", "url": "https://www.unab.cl/carreras/mallas/publicidad.pdf", "aporta": "Comunicación publicitaria y creatividad, métricas financieras/marketing/publicitarias, investigación cuantitativa, construcción de marca, marco normativo, antropología del consumo, discurso publicitario"}, {"institucion": "USIL (Perú) — Malla curricular de Marketing", "url": "https://blogs.usil.edu.pe/facultad-ciencias-empresariales/malla-curricular-marketing", "aporta": "Introducción al marketing, fundamentos de economía, contabilidad, psicología del consumidor, investigación de mercados, estadística aplicada, SEO y SEM, e-commerce y mobile, redes sociales, planificación estratégica, gestión de marca, marketing internacional"}, {"institucion": "UPN (Perú) — Comunicación y Marketing Digital (5 años)", "url": "https://www.upn.edu.pe/carrera/comunicacion-y-marketing-digital", "aporta": "Creación de contenidos digitales, storytelling, análisis de audiencias, métricas y campañas"}, {"institucion": "Duoc UC (Chile) — Ingeniería en Marketing Digital (4 años, salida técnica a los 2)", "url": "https://www.duoc.cl/wp-content/uploads/2023/09/INGE-MARKETING-DIGITAL.pdf", "aporta": "Estructura 2+2: visión general y herramientas tecnológicas, luego profundización técnica y analítica"}, {"institucion": "UPC EPE (Perú) — Marketing, mención digital", "url": "https://epe.upc.edu.pe/carrera/marketing/malla-curricular/", "aporta": "Digital Marketing Analytics, Content & Mobile Marketing, E-Commerce"}]}, {"id": "ruta-autodidacta", "titulo": "Ruta autodidacta equivalente (sin universidad)", "categoria": "alternativa", "duracion": "6-18 meses de estudio constante hasta nivel empleable", "resumen": "El diseño web es de los campos donde el portafolio pesa más que el título. Es posible entrar a UX/diseño web sin título: la experiencia relevante, certificados y proyectos propios son caminos válidos, aunque un título abre puertas adicionales.", "materias": {"equivalente_fundamentos": ["Principios de diseño: jerarquía, color, tipografía, espacio (este manual, Refactoring UI, cursos libres)", "Figma a fondo (tutoriales oficiales gratuitos)"], "equivalente_ux": ["Certificado Google UX Design (Coursera, 3-6 meses)", "Interaction Design Foundation para teoría", "Practicar con casos: rediseños documentados"], "equivalente_codigo": ["freeCodeCamp o The Odin Project: HTML, CSS, JavaScript", "MDN Web Docs como referencia", "Tailwind y luego React"], "equivalente_marketing": ["Google Digital Garage / certificaciones de Google Ads", "Estudiar landings reales de marcas top y replicar su estructura"], "portafolio": ["3 a 6 proyectos reales bien explicados (problema, decisiones, resultado)", "Publicar todo (GitHub Pages, Vercel, Netlify)", "Documentar el proceso, no solo el resultado final"]}, "perfil_egreso": "Equivalente funcional a un junior de UX/diseño web si el portafolio demuestra criterio y proceso, no solo piezas bonitas.", "salidas_laborales": ["Mismas que las carreras formales a nivel junior", "Freelance desde el primer proyecto"], "aporte_al_diseno_web": "La mayoría de los diseñadores UX tiene título universitario, pero no necesariamente en UX: el campo es nuevo y valora la evidencia de habilidad. El portafolio es el verdadero examen de grado.", "fuentes": [{"institucion": "Coursera — ¿Qué título necesito para una carrera en diseño UX?", "url": "https://www.coursera.org/mx/articles/what-degree-do-i-need-to-become-a-ux-designer", "aporta": "Es posible comenzar en UX sin título; 82% de diseñadores UX encuestados por Nielsen Norman Group tiene al menos licenciatura; certificados y portafolio como caminos válidos"}, {"institucion": "Google — Certificado profesional de Diseño UX", "url": "https://grow.google/intl/es-419_us/certificates/ux-design/", "aporta": "Certificado de 3-6 meses a ~10 horas/semana, diseñado con expertos de la industria (Figma colaboró en el material)"}]}, {"id": "comparativa-rutas", "titulo": "Cómo elegir entre las rutas", "categoria": "guia", "duracion": "n/a", "resumen": "Criterios de decisión entre las cuatro carreras y la ruta autodidacta, según el perfil que se quiera construir.", "materias": {"criterios": ["Si te mueve lo visual y la marca → Diseño Gráfico", "Si te mueve entender personas y productos digitales → UX/UI (la más directa al diseño web hoy)", "Si te mueve construir y la lógica → Desarrollo Web / Analista Programador", "Si te mueve la estrategia, el mensaje y las ventas → Publicidad / Marketing Digital", "Si necesitas flexibilidad o rapidez → Ruta autodidacta + certificados + portafolio"], "perfil_mas_cotizado": ["El híbrido: combinar dos rutas (diseño + código, o diseño + marketing)", "Cualquier ruta formal debe complementarse con portafolio propio", "Las 5 comparten un núcleo: comunicación, usuario y proyecto"]}, "perfil_egreso": "n/a", "salidas_laborales": [], "aporte_al_diseno_web": "Ninguna ruta lo cubre todo: la carrera elegida define tu fortaleza, y las otras áreas se complementan con cursos cortos y práctica.", "fuentes": [{"institucion": "Síntesis propia", "url": "", "aporta": "Guía de decisión derivada de las fuentes de las demás entradas; no es una malla curricular"}]}, {"id": "escuelas-elite-mundial", "titulo": "Las mejores escuelas de diseño del mundo (ranking QS)", "categoria": "referencia-mundial", "duracion": "BFA: 4 años (EE.UU.) · RCA: solo posgrado (máster y PhD)", "resumen": "Las instituciones top del ranking QS World University Rankings de Arte y Diseño 2026: Royal College of Art (#1, Londres), University of the Arts London (#2), Parsons (#3 mundial y #1 de EE.UU. en 2025), RISD (#4). Sus programas marcan el estándar global de la enseñanza del diseño.", "materias": {"royal_college_of_art_londres_1_mundial": ["N°1 mundial QS por 5+ años consecutivos; fundada en 1837", "Exclusivamente posgrado: 29 programas de máster y PhD en disciplinas de arte y diseño", "Modelo de especialización avanzada para artistas y diseñadores ya formados", "Proyectos con partners de la comunidad e industria"], "university_of_the_arts_london_2_mundial": ["6 colleges (incluye Central Saint Martins y London College of Communication)", "18.000 estudiantes de 130 países", "Más de la mitad de los diseñadores de London Fashion Week son egresados de UAL"], "parsons_nueva_york_3_mundial": ["BFA en Communication Design (4 años): equivalente a diseño gráfico, foco interdisciplinario técnico + funcional", "Acceso a cursos de toda The New School (colaboración entre carreras)", "Mentoría, experiencia práctica y vínculos con la industria en el corazón del programa", "Egresados en Apple, Pentagram, The New York Times, Google"], "risd_providence_4_mundial": ["Foundation year: no se declara especialidad hasta mitad del primer año (base común de dibujo, color, composición)", "BFA en Graphic Design: uno de los departamentos más grandes (~165 estudiantes)", "Currículo basado en estudio/taller con críticas (critiques) constantes", "Registro cruzado de cursos con Brown University; RISD Museum con 100.000+ obras", "Nature Lab: estudio de patrones y estructuras del diseño en la naturaleza"], "otras_referentes": ["MIT: las artes conectadas a la experimentación y resolución imaginativa de problemas entre disciplinas", "Yale: currículo studio-based riguroso con cursos estructurados de dibujo, cine y teoría del color", "Pratt Institute (#7): currículo integrado que combina pensamiento de estudio con teorías de aprendizaje e investigación", "CalArts: motion graphics, tipografía experimental, programas BFA/MFA intensivos en estudio", "Carnegie Mellon, MICA y RIT: mayor flexibilidad para explorar intereses tecnológicos junto al diseño"], "patrones_comunes_de_la_elite": ["Año de fundamentos común antes de especializar (foundation year)", "El taller/estudio con crítica entre pares como núcleo pedagógico (no clases expositivas)", "Interdisciplinariedad: diseño + tecnología + negocio + humanidades", "Vínculo directo con la industria (mentores, prácticas, proyectos reales)", "El portafolio como examen de admisión y como resultado final"]}, "perfil_egreso": "Diseñadores con pensamiento conceptual profundo, oficio técnico y red de contactos de industria global.", "salidas_laborales": ["Estudios y consultoras de diseño top", "Big tech (Apple, Google)", "Editorial y agencias (Pentagram, NYT)", "Emprendimiento (fundadores de Airbnb son egresados de RISD)"], "aporte_al_diseno_web": "Su lección aplicable sin pagar la matrícula: fundamentos antes de especializar, aprender haciendo en taller con crítica constante, interdisciplinariedad y portafolio como centro. Ese método se puede replicar de forma autodidacta.", "fuentes": [{"institucion": "QS World University Rankings — Art & Design 2026 (ranking oficial)", "url": "https://www.topuniversities.com/university-subject-rankings/art-design", "aporta": "RCA #1, UAL #2, RISD #4; ranking de 300+ instituciones"}, {"institucion": "PrepScholar — análisis de programas de diseño gráfico en EE.UU.", "url": "https://blog.prepscholar.com/best-graphic-design-schools-in-the-us", "aporta": "Parsons #1 de EE.UU. y #3 mundial QS 2025; BFA Communication Design; RISD foundation year y tamaño del departamento; flexibilidad de Carnegie Mellon/MICA/RIT"}, {"institucion": "TopUniversities — perfil de las 5 mejores escuelas de arte y diseño", "url": "https://www.topuniversities.com/university-rankings-articles/university-subject-rankings/everything-you-need-know-about-best-five-art-design-schools-world", "aporta": "RISD Nature Lab, Pratt currículo interdisciplinario, MIT enfoque experimental, Parsons mentoría e industria"}, {"institucion": "KraftGeek — top 13 escuelas de arte del mundo", "url": "https://kraftgeek.com/blogs/creator-inspiration/top-13-art-schools-around-the-world", "aporta": "RCA solo posgrado, historia y ranking; RISD registro cruzado con Brown; Yale currículo studio-based con dibujo, cine y teoría del color"}, {"institucion": "GrabCAD — mejores escuelas de diseño del mundo (QS)", "url": "https://blog.grabcad.com/blog/2018/11/05/the-10-best-schools-to-study-design-around-the-world/", "aporta": "RCA 29 programas de posgrado; UAL 18.000 estudiantes de 130 países y dato de London Fashion Week; Pratt currículo integrado"}]}]};
+const TOOLS_DATA = {"meta": {"nombre": "KB Herramientas, APIs y Automatización con Agentes", "version": "1.0.0", "idioma": "es", "descripcion": "Stack de herramientas para diseño web y marketing: qué hace cada una, si tiene API, y cómo operarla con agentes de IA (API directa, MCP, orquestadores no-code o automatización de navegador).", "uso_agentes": "Hacer GET a este archivo. Cada entrada indica en 'api' si existe acceso programático y en 'automatizacion_ia' la vía recomendada para que un agente la opere.", "actualizado": "2026-07-07", "conceptos_clave": {"mcp": "Model Context Protocol: estándar abierto (creado por Anthropic) para que agentes de IA se conecten a apps y sistemas externos, como un 'USB-C de la IA'. Las empresas publican servidores MCP y cualquier cliente de IA compatible puede usarlos.", "orquestadores": "Plataformas no-code (Zapier, Make, n8n, Latenode, Activepieces) que conectan cientos de apps entre sí mediante triggers y acciones; el agente puede disparar o construir estos flujos.", "regla_general": "Si la herramienta tiene API REST → el agente la opera directo o vía MCP. Si no tiene API → se opera con orquestadores (si existe el conector) o con automatización de navegador como último recurso."}}, "entradas": [{"id": "figma", "nombre": "Figma", "categoria": "diseno", "que_es": "La herramienta estándar de diseño UI/UX colaborativo en la nube: interfaces, prototipos, design systems y handoff a desarrollo.", "api": {"tiene": true, "tipo": "REST API (base https://api.figma.com) + Plugin API + Widget API + webhooks", "autenticacion": "Personal Access Token u OAuth2", "que_permite": "Leer y extraer capas, componentes, estilos y propiedades de archivos; comentar; sincronizar librerías con el codebase; exportar assets; escuchar eventos"}, "automatizacion_ia": "Nivel máximo: servidor MCP oficial de Figma (local en la app de escritorio o remoto) con el que los agentes leen contexto de diseño, generan código desde diseños y hasta crean/modifican contenido nativo (frames, componentes, variables). También existen MCPs de comunidad (Framelink y otros) y conectores en orquestadores.", "casos_uso": ["Agente convierte un frame de Figma en componente React + Tailwind", "Sincronizar design tokens entre Figma y el código", "Auditar consistencia del design system", "Exportar assets automáticamente al repositorio"]}, {"id": "canva", "nombre": "Canva", "categoria": "diseno", "que_es": "Diseño rápido de piezas de marketing (posts, presentaciones, flyers) con plantillas y suite de IA (Magic Studio).", "api": {"tiene": true, "tipo": "Connect APIs (REST) + Apps SDK", "autenticacion": "OAuth", "que_permite": "Integrar la funcionalidad de Canva en plataformas propias, automatizar flujos de diseño y acceder a recursos programáticamente"}, "automatizacion_ia": "Vía Connect API para flujos propios, o vía orquestadores (Zapier/Make/n8n/Latenode tienen conectores: ej. exportar diseño de Canva → notificar en Slack → respaldar en Drive).", "casos_uso": ["Generar variantes de piezas para redes en lote", "Backup automático de diseños aprobados", "Pipeline Canva → Figma para refinamiento"]}, {"id": "blender-spline", "nombre": "Blender y Spline (3D)", "categoria": "diseno", "que_es": "Blender: creación y render 3D de máxima calidad (gratis, estándar de industria). Spline: 3D interactivo para web sin código.", "api": {"tiene": true, "tipo": "Blender: scripting completo en Python (bpy) local, sin API web. Spline: exportación a web/código y embeds", "autenticacion": "n/a (Blender es local)", "que_permite": "Blender: automatizar modelado, materiales, iluminación y render por lotes con scripts Python"}, "automatizacion_ia": "Blender se automatiza pidiéndole al agente que escriba scripts Python (bpy) y ejecutándolos localmente o en un servidor de render; ideal para generar variaciones de producto en lote. Spline se opera principalmente por interfaz; su salida (export web) sí se integra al pipeline de deploy.", "casos_uso": ["Render por lotes de un producto en 20 ángulos/colores", "Generar escenas hero parametrizadas", "Export 3D interactivo a la web"]}, {"id": "github", "nombre": "GitHub", "categoria": "desarrollo", "que_es": "Plataforma de código: control de versiones (Git), colaboración, CI/CD (Actions), hosting estático (Pages) y gestión de proyectos.", "api": {"tiene": true, "tipo": "REST API + GraphQL API + webhooks + GitHub Actions", "autenticacion": "Token (PAT) u OAuth / GitHub Apps", "que_permite": "Crear repos, commits, PRs, issues; disparar workflows; publicar sitios; automatizar todo el ciclo de código"}, "automatizacion_ia": "Nivel máximo: servidor MCP oficial de GitHub, ampliamente adoptado por clientes de IA. Los agentes crean ramas, PRs, revisan código y disparan despliegues. Actions permite pipelines que corren solos en cada push.", "casos_uso": ["Agente crea PR con la nueva landing y la despliega", "CI/CD: cada push publica el sitio", "Gestión de issues y changelogs automática"]}, {"id": "vercel", "nombre": "Vercel", "categoria": "desarrollo", "que_es": "Plataforma de deploy para frontends modernos, optimizada para Next.js: builds automáticos desde Git, previews por PR, edge functions.", "api": {"tiene": true, "tipo": "REST API + Deploy Hooks (webhooks) + CLI", "autenticacion": "Token", "que_permite": "Crear despliegues, gestionar proyectos y dominios, disparar builds vía URL de hook"}, "automatizacion_ia": "API/CLI directa (el agente ejecuta 'vercel --prod'), deploy hooks desde cualquier flujo, integración Git automática (push → deploy), y conectores en orquestadores. Existen MCPs de comunidad.", "casos_uso": ["Deploy automático al aprobar contenido", "Previews de cada versión para revisión", "Agente publica sitios generados"]}, {"id": "netlify", "nombre": "Netlify", "categoria": "desarrollo", "que_es": "Plataforma de deploy para sitios estáticos y JAMstack: drag-and-drop, builds desde Git, formularios integrados, funciones serverless.", "api": {"tiene": true, "tipo": "REST API + Build Hooks + CLI", "autenticacion": "Token", "que_permite": "Desplegar sitios, gestionar formularios, DNS y funciones; disparar builds vía hook"}, "automatizacion_ia": "API directa o conectores en n8n/Zapier/Make (ej: nueva fila en Sheets → rebuild del sitio). El agente puede desplegar con la CLI o llamando al build hook.", "casos_uso": ["Republicar el sitio cuando cambia el contenido", "Capturar formularios y enviarlos al CRM", "Hosting de tu biblioteca y sus endpoints JSON"]}, {"id": "webflow", "nombre": "Webflow", "categoria": "desarrollo", "que_es": "Constructor visual de sitios con CMS: diseño sin código con calidad de código real, hosting incluido.", "api": {"tiene": true, "tipo": "Data API (REST) + webhooks", "autenticacion": "Token/OAuth", "que_permite": "Leer/escribir items del CMS, sincronizar contenido, disparar publicaciones; recibir eventos (ej. envío de formularios)"}, "automatizacion_ia": "Data API directa para sincronizar contenido, o Zapier/Make/n8n (ej: release en GitHub → item en el CMS de Webflow; formulario Webflow → issue en GitHub).", "casos_uso": ["Poblar el CMS desde una hoja de cálculo", "Changelog automático desde GitHub", "Leads de formularios al CRM"]}, {"id": "wordpress-shopify", "nombre": "WordPress y Shopify", "categoria": "desarrollo", "que_es": "WordPress: el CMS más usado del mundo (blogs, sitios corporativos). Shopify: la plataforma líder de e-commerce.", "api": {"tiene": true, "tipo": "WordPress: REST API nativa. Shopify: Admin API (REST/GraphQL) + Storefront API + webhooks", "autenticacion": "Application passwords / tokens de app", "que_permite": "Crear y editar posts/páginas/productos, gestionar pedidos e inventario, conectar el contenido a cualquier frontend (headless)"}, "automatizacion_ia": "APIs directas muy maduras + conectores en todos los orquestadores + MCPs de comunidad. Patrón headless: WordPress/Shopify como backend de contenido y deploy automático del frontend en Netlify/Vercel.", "casos_uso": ["Agente publica artículos SEO programados", "Sincronizar catálogo de productos", "Contenido nuevo → rebuild del sitio estático"]}, {"id": "google-analytics", "nombre": "Google Analytics 4", "categoria": "marketing", "que_es": "La herramienta estándar de analítica web: tráfico, comportamiento, conversiones y predicciones con IA.", "api": {"tiene": true, "tipo": "Data API + Admin API (REST)", "autenticacion": "OAuth / service account de Google Cloud", "que_permite": "Extraer reportes y métricas programáticamente, gestionar propiedades, alimentar dashboards propios"}, "automatizacion_ia": "API directa para reportes automáticos, conectores en orquestadores y plataformas de agentes de marketing que la integran con Sheets/Slides para reporting con insights de IA.", "casos_uso": ["Reporte semanal automático con insights", "Alertas cuando cae la conversión", "Dashboard propio alimentado por la Data API"]}, {"id": "ads-apis", "nombre": "Google Ads y Meta Ads", "categoria": "marketing", "que_es": "Las dos plataformas dominantes de publicidad digital. Ambas con IA propia de optimización (Performance Max, Advantage+).", "api": {"tiene": true, "tipo": "Google Ads API + Meta Marketing API (jerarquía cuenta → campaña → grupo → anuncio)", "autenticacion": "OAuth + tokens de desarrollador (requieren aprobación)", "que_permite": "Crear y gestionar campañas, presupuestos, audiencias y anuncios; extraer métricas de rendimiento"}, "automatizacion_ia": "Plataformas de agentes de marketing (con MCP incluido) exponen cientos de operaciones de Google/Meta/TikTok/LinkedIn Ads a clientes como Claude: crear campañas en lote desde una hoja, auditorías automáticas con decenas de checks, reportes consolidados. Buenas prácticas: aprobación humana antes de publicar (human-in-the-loop).", "casos_uso": ["Crear decenas de anuncios desde un Sheet", "Auditoría automática de la cuenta", "Reporte consolidado Google+Meta en Slides"]}, {"id": "email-crm", "nombre": "Mailchimp y HubSpot", "categoria": "marketing", "que_es": "Mailchimp: email marketing con IA (horario de envío inteligente). HubSpot: CRM todo-en-uno con marketing, ventas y agentes propios (Breeze).", "api": {"tiene": true, "tipo": "Mailchimp Marketing API (REST) + HubSpot API (REST, muy completa)", "autenticacion": "API key / OAuth (apps privadas)", "que_permite": "Gestionar contactos, listas, campañas, automatizaciones, deals y pipelines; recibir webhooks de eventos"}, "automatizacion_ia": "APIs directas + conectores universales en orquestadores + MCPs de comunidad. Patrón típico: lead de formulario/anuncio → agente lo enriquece y puntúa → crea contacto en CRM → dispara secuencia de nurturing.", "casos_uso": ["Lead scoring con IA en tiempo real", "Secuencias de email disparadas por comportamiento", "Sincronizar leads de Meta Ads al CRM sin CSVs"]}, {"id": "mcp", "nombre": "MCP (Model Context Protocol)", "categoria": "automatizacion", "que_es": "Estándar abierto creado por Anthropic para que sistemas de IA se conecten a aplicaciones y datos: el 'USB-C de la IA'. Un servidor MCP se escribe una vez y cualquier cliente compatible (Claude, IDEs de IA, etc.) puede usarlo.", "api": {"tiene": true, "tipo": "Protocolo cliente-servidor con tres primitivas: Resources (datos), Tools (acciones) y Prompts", "autenticacion": "Definida por cada servidor (tokens, OAuth)", "que_permite": "Que un agente descubra y use herramientas de cualquier app que publique un servidor MCP, sin integraciones a medida"}, "automatizacion_ia": "Es la capa de automatización misma: Figma, GitHub y cientos de servicios ya publican servidores MCP oficiales o de comunidad; existen agregadores con miles de tools listos. Adopción masiva desde 2025 (IDEs de IA, OpenAI, Microsoft).", "casos_uso": ["Conectar Claude a Figma+GitHub+tu KB en una sesión", "Publicar tu propia biblioteca como servidor MCP", "Agentes multi-herramienta sin código de integración"]}, {"id": "orquestadores", "nombre": "Orquestadores no-code (Zapier, Make, n8n, Latenode, Activepieces)", "categoria": "automatizacion", "que_es": "Plataformas que conectan cientos de apps con flujos de trigger → acción sin programar. n8n y Activepieces son open source y auto-hosteables (control de datos).", "api": {"tiene": true, "tipo": "Cada una expone API y webhooks; sus nodos HTTP llaman cualquier API REST externa", "autenticacion": "Por conector (guardan credenciales de cada app)", "que_permite": "Automatizar entre apps aunque tú no programes: formularios, CRMs, hojas de cálculo, deploys, notificaciones"}, "automatizacion_ia": "Doble rol: (1) dan a los agentes acceso a apps sin API pública mediante sus conectores; (2) integran nodos de IA (OpenAI, Anthropic) dentro de los flujos. Muchas ya exponen sus operaciones vía MCP para clientes de IA.", "casos_uso": ["Formulario web → CRM → email de bienvenida", "Post nuevo en el CMS → publicar en redes", "Conectar apps que no tienen API propia"]}, {"id": "browser-automation", "nombre": "Automatización de navegador (último recurso)", "categoria": "automatizacion", "que_es": "Cuando una herramienta no tiene API ni conector, un agente puede operar su interfaz web directamente: navegar, hacer clic, llenar formularios (Claude in Chrome, Playwright, Puppeteer).", "api": {"tiene": false, "tipo": "No aplica: se opera la UI como lo haría un humano", "autenticacion": "Sesión del navegador del usuario", "que_permite": "Cubrir el hueco de herramientas sin acceso programático"}, "automatizacion_ia": "Claude in Chrome y frameworks como Playwright permiten que el agente vea la página y actúe. Es más frágil y lento que una API (las interfaces cambian), por eso es el último recurso; siempre con supervisión humana para acciones sensibles.", "casos_uso": ["Operar paneles internos sin API", "Extraer datos de herramientas cerradas", "Pruebas end-to-end de tu propia web"]}, {"id": "ia-generativa-stack", "nombre": "IA generativa en el stack (Claude API y similares)", "categoria": "automatizacion", "que_es": "Los modelos de lenguaje e imagen como servicio: el cerebro de tus agentes. La API de Anthropic permite integrar Claude en cualquier app o flujo.", "api": {"tiene": true, "tipo": "REST (endpoint /v1/messages) + tool use + soporte MCP", "autenticacion": "API key", "que_permite": "Generar y evaluar contenido, razonar sobre datos, usar herramientas externas, orquestar los flujos de toda esta KB"}, "automatizacion_ia": "Es el agente mismo: se le conectan las demás entradas de esta KB (vía API, MCP u orquestadores) y las bases de conocimiento como criterios (ej: 'lee kb-diseno-mkt.json antes de evaluar una pieza').", "casos_uso": ["Agente evaluador de piezas con tu KB de principios", "Generación de copy + revisión de marca", "Orquestador inteligente del stack completo"]}]};
+
+// ---- Render carreras ----
+(function(){
+  const el = document.getElementById('render-carreras');
+  if(!el) return;
+  el.innerHTML = CARRERAS_DATA.entradas.map(c => {
+    const areas = c.materias ? Object.entries(c.materias).map(([area, ramos]) =>
+      '<p class="area">' + area.replaceAll('_',' ') + '</p><ul>' +
+      ramos.map(r => '<li>' + r + '</li>').join('') + '</ul>'
+    ).join('') : '';
+    return '<div class="card"><h3>' + c.titulo + '</h3>' +
+      '<div class="meta-line">' + (c.duracion || '') + '</div>' +
+      '<p>' + c.resumen + '</p>' + areas +
+      (c.aporte_al_diseno_web ? '<div class="agent-note"><b>Aporte al diseño web:</b> ' + c.aporte_al_diseno_web + '</div>' : '') +
+      (c.fuentes ? '<p class="area">Fuentes verificables</p><ul>' + c.fuentes.map(f => '<li>' + (f.url ? '<a href="' + f.url + '" target="_blank" rel="noopener">' + f.institucion + '</a>' : f.institucion) + '</li>').join('') + '</ul>' : '') +
+      '</div>';
+  }).join('');
+})();
+
+// ---- Render herramientas ----
+(function(){
+  const el = document.getElementById('render-tools');
+  if(!el) return;
+  const cats = {diseno:'Diseño', desarrollo:'Desarrollo y deploy', marketing:'Marketing', automatizacion:'Automatización y agentes'};
+  let html = '';
+  Object.entries(cats).forEach(([cat, label]) => {
+    const items = TOOLS_DATA.entradas.filter(t => t.categoria === cat);
+    if(!items.length) return;
+    html += '<h3>' + label + '</h3>';
+    html += items.map(t => {
+      const apiChip = t.api && t.api.tiene
+        ? '<span class="chip api-si">API: sí</span>'
+        : '<span class="chip api-no">API: no (UI)</span>';
+      return '<div class="card"><h3 style="font-size:19px;">' + t.nombre + '</h3>' +
+        '<div>' + apiChip + '<span class="chip">' + label + '</span></div>' +
+        '<p style="margin-top:8px;">' + t.que_es + '</p>' +
+        (t.api && t.api.tipo ? '<p style="color:var(--ink-soft);"><b>Acceso:</b> ' + t.api.tipo + '</p>' : '') +
+        '<div class="agent-note"><b>Cómo lo opera un agente:</b> ' + t.automatizacion_ia + '</div>' +
+        (t.casos_uso ? '<p class="area">Casos de uso</p><ul>' + t.casos_uso.map(x => '<li>' + x + '</li>').join('') + '</ul>' : '') +
+        '</div>';
+    }).join('');
+  });
+  el.innerHTML = html;
+})();
+
+// ---- Consola multi-base ----
+const BASES = { principios: KB_DATA, carreras: CARRERAS_DATA, herramientas: TOOLS_DATA };
+function currentBase(){
+  const sel = document.getElementById('kb-base');
+  return BASES[sel ? sel.value : 'principios'];
+}
+KB.list = () => currentBase().entradas.map(e => ({ id: e.id, titulo: e.titulo || e.nombre, categoria: e.categoria }));
+KB.get = (id) => currentBase().entradas.find(e => e.id === id) || { error: 'id no encontrado', ids_validos: currentBase().entradas.map(e => e.id) };
+KB.search = (q) => {
+  q = (q || '').toLowerCase().trim();
+  if(!q) return { error: 'escribe un texto a buscar' };
+  const hits = currentBase().entradas.filter(e => JSON.stringify(e).toLowerCase().includes(q));
+  return hits.length ? hits.map(e => ({ id: e.id, titulo: e.titulo || e.nombre, resumen: e.resumen || e.que_es })) : { resultado: 'sin coincidencias para: ' + q };
+};
+function refreshIds(){
+  const sel = document.getElementById('kb-id');
+  sel.innerHTML = '';
+  currentBase().entradas.forEach(e => { const o = document.createElement('option'); o.value = e.id; o.textContent = e.id; sel.appendChild(o); });
+}
+refreshIds();
+
+document.getElementById('nav-search').addEventListener('input', function(){
+  const q = this.value.toLowerCase().trim();
+  document.querySelectorAll('nav a').forEach(a => {
+    a.classList.toggle('hidden', q && !a.textContent.toLowerCase().includes(q));
+  });
+});
+</script>
+</body>
+</html>

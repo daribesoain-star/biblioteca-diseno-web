@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "nombre": "KB Herramientas, APIs y Automatización con Agentes",
+    "version": "1.0.0",
+    "idioma": "es",
+    "descripcion": "Stack de herramientas para diseño web y marketing: qué hace cada una, si tiene API, y cómo operarla con agentes de IA (API directa, MCP, orquestadores no-code o automatización de navegador).",
+    "uso_agentes": "Hacer GET a este archivo. Cada entrada indica en 'api' si existe acceso programático y en 'automatizacion_ia' la vía recomendada para que un agente la opere.",
+    "actualizado": "2026-07-07",
+    "conceptos_clave": {
+      "mcp": "Model Context Protocol: estándar abierto (creado por Anthropic) para que agentes de IA se conecten a apps y sistemas externos, como un 'USB-C de la IA'. Las empresas publican servidores MCP y cualquier cliente de IA compatible puede usarlos.",
+      "orquestadores": "Plataformas no-code (Zapier, Make, n8n, Latenode, Activepieces) que conectan cientos de apps entre sí mediante triggers y acciones; el agente puede disparar o construir estos flujos.",
+      "regla_general": "Si la herramienta tiene API REST → el agente la opera directo o vía MCP. Si no tiene API → se opera con orquestadores (si existe el conector) o con automatización de navegador como último recurso."
+    }
+  },
+  "entradas": [
+    {
+      "id": "figma",
+      "nombre": "Figma",
+      "categoria": "diseno",
+      "que_es": "La herramienta estándar de diseño UI/UX colaborativo en la nube: interfaces, prototipos, design systems y handoff a desarrollo.",
+      "api": { "tiene": true, "tipo": "REST API (base https://api.figma.com) + Plugin API + Widget API + webhooks", "autenticacion": "Personal Access Token u OAuth2", "que_permite": "Leer y extraer capas, componentes, estilos y propiedades de archivos; comentar; sincronizar librerías con el codebase; exportar assets; escuchar eventos" },
+      "automatizacion_ia": "Nivel máximo: servidor MCP oficial de Figma (local en la app de escritorio o remoto) con el que los agentes leen contexto de diseño, generan código desde diseños y hasta crean/modifican contenido nativo (frames, componentes, variables). También existen MCPs de comunidad (Framelink y otros) y conectores en orquestadores.",
+      "casos_uso": ["Agente convierte un frame de Figma en componente React + Tailwind", "Sincronizar design tokens entre Figma y el código", "Auditar consistencia del design system", "Exportar assets automáticamente al repositorio"]
+    },
+    {
+      "id": "canva",
+      "nombre": "Canva",
+      "categoria": "diseno",
+      "que_es": "Diseño rápido de piezas de marketing (posts, presentaciones, flyers) con plantillas y suite de IA (Magic Studio).",
+      "api": { "tiene": true, "tipo": "Connect APIs (REST) + Apps SDK", "autenticacion": "OAuth", "que_permite": "Integrar la funcionalidad de Canva en plataformas propias, automatizar flujos de diseño y acceder a recursos programáticamente" },
+      "automatizacion_ia": "Vía Connect API para flujos propios, o vía orquestadores (Zapier/Make/n8n/Latenode tienen conectores: ej. exportar diseño de Canva → notificar en Slack → respaldar en Drive).",
+      "casos_uso": ["Generar variantes de piezas para redes en lote", "Backup automático de diseños aprobados", "Pipeline Canva → Figma para refinamiento"]
+    },
+    {
+      "id": "blender-spline",
+      "nombre": "Blender y Spline (3D)",
+      "categoria": "diseno",
+      "que_es": "Blender: creación y render 3D de máxima calidad (gratis, estándar de industria). Spline: 3D interactivo para web sin código.",
+      "api": { "tiene": true, "tipo": "Blender: scripting completo en Python (bpy) local, sin API web. Spline: exportación a web/código y embeds", "autenticacion": "n/a (Blender es local)", "que_permite": "Blender: automatizar modelado, materiales, iluminación y render por lotes con scripts Python" },
+      "automatizacion_ia": "Blender se automatiza pidiéndole al agente que escriba scripts Python (bpy) y ejecutándolos localmente o en un servidor de render; ideal para generar variaciones de producto en lote. Spline se opera principalmente por interfaz; su salida (export web) sí se integra al pipeline de deploy.",
+      "casos_uso": ["Render por lotes de un producto en 20 ángulos/colores", "Generar escenas hero parametrizadas", "Export 3D interactivo a la web"]
+    },
+    {
+      "id": "github",
+      "nombre": "GitHub",
+      "categoria": "desarrollo",
+      "que_es": "Plataforma de código: control de versiones (Git), colaboración, CI/CD (Actions), hosting estático (Pages) y gestión de proyectos.",
+      "api": { "tiene": true, "tipo": "REST API + GraphQL API + webhooks + GitHub Actions", "autenticacion": "Token (PAT) u OAuth / GitHub Apps", "que_permite": "Crear repos, commits, PRs, issues; disparar workflows; publicar sitios; automatizar todo el ciclo de código" },
+      "automatizacion_ia": "Nivel máximo: servidor MCP oficial de GitHub, ampliamente adoptado por clientes de IA. Los agentes crean ramas, PRs, revisan código y disparan despliegues. Actions permite pipelines que corren solos en cada push.",
+      "casos_uso": ["Agente crea PR con la nueva landing y la despliega", "CI/CD: cada push publica el sitio", "Gestión de issues y changelogs automática"]
+    },
+    {
+      "id": "vercel",
+      "nombre": "Vercel",
+      "categoria": "desarrollo",
+      "que_es": "Plataforma de deploy para frontends modernos, optimizada para Next.js: builds automáticos desde Git, previews por PR, edge functions.",
+      "api": { "tiene": true, "tipo": "REST API + Deploy Hooks (webhooks) + CLI", "autenticacion": "Token", "que_permite": "Crear despliegues, gestionar proyectos y dominios, disparar builds vía URL de hook" },
+      "automatizacion_ia": "API/CLI directa (el agente ejecuta 'vercel --prod'), deploy hooks desde cualquier flujo, integración Git automática (push → deploy), y conectores en orquestadores. Existen MCPs de comunidad.",
+      "casos_uso": ["Deploy automático al aprobar contenido", "Previews de cada versión para revisión", "Agente publica sitios generados"]
+    },
+    {
+      "id": "netlify",
+      "nombre": "Netlify",
+      "categoria": "desarrollo",
+      "que_es": "Plataforma de deploy para sitios estáticos y JAMstack: drag-and-drop, builds desde Git, formularios integrados, funciones serverless.",
+      "api": { "tiene": true, "tipo": "REST API + Build Hooks + CLI", "autenticacion": "Token", "que_permite": "Desplegar sitios, gestionar formularios, DNS y funciones; disparar builds vía hook" },
+      "automatizacion_ia": "API directa o conectores en n8n/Zapier/Make (ej: nueva fila en Sheets → rebuild del sitio). El agente puede desplegar con la CLI o llamando al build hook.",
+      "casos_uso": ["Republicar el sitio cuando cambia el contenido", "Capturar formularios y enviarlos al CRM", "Hosting de tu biblioteca y sus endpoints JSON"]
+    },
+    {
+      "id": "webflow",
+      "nombre": "Webflow",
+      "categoria": "desarrollo",
+      "que_es": "Constructor visual de sitios con CMS: diseño sin código con calidad de código real, hosting incluido.",
+      "api": { "tiene": true, "tipo": "Data API (REST) + webhooks", "autenticacion": "Token/OAuth", "que_permite": "Leer/escribir items del CMS, sincronizar contenido, disparar publicaciones; recibir eventos (ej. envío de formularios)" },
+      "automatizacion_ia": "Data API directa para sincronizar contenido, o Zapier/Make/n8n (ej: release en GitHub → item en el CMS de Webflow; formulario Webflow → issue en GitHub).",
+      "casos_uso": ["Poblar el CMS desde una hoja de cálculo", "Changelog automático desde GitHub", "Leads de formularios al CRM"]
+    },
+    {
+      "id": "wordpress-shopify",
+      "nombre": "WordPress y Shopify",
+      "categoria": "desarrollo",
+      "que_es": "WordPress: el CMS más usado del mundo (blogs, sitios corporativos). Shopify: la plataforma líder de e-commerce.",
+      "api": { "tiene": true, "tipo": "WordPress: REST API nativa. Shopify: Admin API (REST/GraphQL) + Storefront API + webhooks", "autenticacion": "Application passwords / tokens de app", "que_permite": "Crear y editar posts/páginas/productos, gestionar pedidos e inventario, conectar el contenido a cualquier frontend (headless)" },
+      "automatizacion_ia": "APIs directas muy maduras + conectores en todos los orquestadores + MCPs de comunidad. Patrón headless: WordPress/Shopify como backend de contenido y deploy automático del frontend en Netlify/Vercel.",
+      "casos_uso": ["Agente publica artículos SEO programados", "Sincronizar catálogo de productos", "Contenido nuevo → rebuild del sitio estático"]
+    },
+    {
+      "id": "google-analytics",
+      "nombre": "Google Analytics 4",
+      "categoria": "marketing",
+      "que_es": "La herramienta estándar de analítica web: tráfico, comportamiento, conversiones y predicciones con IA.",
+      "api": { "tiene": true, "tipo": "Data API + Admin API (REST)", "autenticacion": "OAuth / service account de Google Cloud", "que_permite": "Extraer reportes y métricas programáticamente, gestionar propiedades, alimentar dashboards propios" },
+      "automatizacion_ia": "API directa para reportes automáticos, conectores en orquestadores y plataformas de agentes de marketing que la integran con Sheets/Slides para reporting con insights de IA.",
+      "casos_uso": ["Reporte semanal automático con insights", "Alertas cuando cae la conversión", "Dashboard propio alimentado por la Data API"]
+    },
+    {
+      "id": "ads-apis",
+      "nombre": "Google Ads y Meta Ads",
+      "categoria": "marketing",
+      "que_es": "Las dos plataformas dominantes de publicidad digital. Ambas con IA propia de optimización (Performance Max, Advantage+).",
+      "api": { "tiene": true, "tipo": "Google Ads API + Meta Marketing API (jerarquía cuenta → campaña → grupo → anuncio)", "autenticacion": "OAuth + tokens de desarrollador (requieren aprobación)", "que_permite": "Crear y gestionar campañas, presupuestos, audiencias y anuncios; extraer métricas de rendimiento" },
+      "automatizacion_ia": "Plataformas de agentes de marketing (con MCP incluido) exponen cientos de operaciones de Google/Meta/TikTok/LinkedIn Ads a clientes como Claude: crear campañas en lote desde una hoja, auditorías automáticas con decenas de checks, reportes consolidados. Buenas prácticas: aprobación humana antes de publicar (human-in-the-loop).",
+      "casos_uso": ["Crear decenas de anuncios desde un Sheet", "Auditoría automática de la cuenta", "Reporte consolidado Google+Meta en Slides"]
+    },
+    {
+      "id": "email-crm",
+      "nombre": "Mailchimp y HubSpot",
+      "categoria": "marketing",
+      "que_es": "Mailchimp: email marketing con IA (horario de envío inteligente). HubSpot: CRM todo-en-uno con marketing, ventas y agentes propios (Breeze).",
+      "api": { "tiene": true, "tipo": "Mailchimp Marketing API (REST) + HubSpot API (REST, muy completa)", "autenticacion": "API key / OAuth (apps privadas)", "que_permite": "Gestionar contactos, listas, campañas, automatizaciones, deals y pipelines; recibir webhooks de eventos" },
+      "automatizacion_ia": "APIs directas + conectores universales en orquestadores + MCPs de comunidad. Patrón típico: lead de formulario/anuncio → agente lo enriquece y puntúa → crea contacto en CRM → dispara secuencia de nurturing.",
+      "casos_uso": ["Lead scoring con IA en tiempo real", "Secuencias de email disparadas por comportamiento", "Sincronizar leads de Meta Ads al CRM sin CSVs"]
+    },
+    {
+      "id": "mcp",
+      "nombre": "MCP (Model Context Protocol)",
+      "categoria": "automatizacion",
+      "que_es": "Estándar abierto creado por Anthropic para que sistemas de IA se conecten a aplicaciones y datos: el 'USB-C de la IA'. Un servidor MCP se escribe una vez y cualquier cliente compatible (Claude, IDEs de IA, etc.) puede usarlo.",
+      "api": { "tiene": true, "tipo": "Protocolo cliente-servidor con tres primitivas: Resources (datos), Tools (acciones) y Prompts", "autenticacion": "Definida por cada servidor (tokens, OAuth)", "que_permite": "Que un agente descubra y use herramientas de cualquier app que publique un servidor MCP, sin integraciones a medida" },
+      "automatizacion_ia": "Es la capa de automatización misma: Figma, GitHub y cientos de servicios ya publican servidores MCP oficiales o de comunidad; existen agregadores con miles de tools listos. Adopción masiva desde 2025 (IDEs de IA, OpenAI, Microsoft).",
+      "casos_uso": ["Conectar Claude a Figma+GitHub+tu KB en una sesión", "Publicar tu propia biblioteca como servidor MCP", "Agentes multi-herramienta sin código de integración"]
+    },
+    {
+      "id": "orquestadores",
+      "nombre": "Orquestadores no-code (Zapier, Make, n8n, Latenode, Activepieces)",
+      "categoria": "automatizacion",
+      "que_es": "Plataformas que conectan cientos de apps con flujos de trigger → acción sin programar. n8n y Activepieces son open source y auto-hosteables (control de datos).",
+      "api": { "tiene": true, "tipo": "Cada una expone API y webhooks; sus nodos HTTP llaman cualquier API REST externa", "autenticacion": "Por conector (guardan credenciales de cada app)", "que_permite": "Automatizar entre apps aunque tú no programes: formularios, CRMs, hojas de cálculo, deploys, notificaciones" },
+      "automatizacion_ia": "Doble rol: (1) dan a los agentes acceso a apps sin API pública mediante sus conectores; (2) integran nodos de IA (OpenAI, Anthropic) dentro de los flujos. Muchas ya exponen sus operaciones vía MCP para clientes de IA.",
+      "casos_uso": ["Formulario web → CRM → email de bienvenida", "Post nuevo en el CMS → publicar en redes", "Conectar apps que no tienen API propia"]
+    },
+    {
+      "id": "browser-automation",
+      "nombre": "Automatización de navegador (último recurso)",
+      "categoria": "automatizacion",
+      "que_es": "Cuando una herramienta no tiene API ni conector, un agente puede operar su interfaz web directamente: navegar, hacer clic, llenar formularios (Claude in Chrome, Playwright, Puppeteer).",
+      "api": { "tiene": false, "tipo": "No aplica: se opera la UI como lo haría un humano", "autenticacion": "Sesión del navegador del usuario", "que_permite": "Cubrir el hueco de herramientas sin acceso programático" },
+      "automatizacion_ia": "Claude in Chrome y frameworks como Playwright permiten que el agente vea la página y actúe. Es más frágil y lento que una API (las interfaces cambian), por eso es el último recurso; siempre con supervisión humana para acciones sensibles.",
+      "casos_uso": ["Operar paneles internos sin API", "Extraer datos de herramientas cerradas", "Pruebas end-to-end de tu propia web"]
+    },
+    {
+      "id": "ia-generativa-stack",
+      "nombre": "IA generativa en el stack (Claude API y similares)",
+      "categoria": "automatizacion",
+      "que_es": "Los modelos de lenguaje e imagen como servicio: el cerebro de tus agentes. La API de Anthropic permite integrar Claude en cualquier app o flujo.",
+      "api": { "tiene": true, "tipo": "REST (endpoint /v1/messages) + tool use + soporte MCP", "autenticacion": "API key", "que_permite": "Generar y evaluar contenido, razonar sobre datos, usar herramientas externas, orquestar los flujos de toda esta KB" },
+      "automatizacion_ia": "Es el agente mismo: se le conectan las demás entradas de esta KB (vía API, MCP u orquestadores) y las bases de conocimiento como criterios (ej: 'lee kb-diseno-mkt.json antes de evaluar una pieza').",
+      "casos_uso": ["Agente evaluador de piezas con tu KB de principios", "Generación de copy + revisión de marca", "Orquestador inteligente del stack completo"]
+    }
+  ]
+}
