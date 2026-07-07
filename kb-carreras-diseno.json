@@ -1,9 +1,9 @@
 {
   "meta": {
     "nombre": "KB Carreras y Materias para Diseño Web",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "idioma": "es",
-    "descripcion": "Base de conocimiento sobre las carreras formales que llevan al diseño web, sus materias típicas por área, duración, perfil de egreso y ruta autodidacta equivalente. Compilada a partir de mallas curriculares reales de universidades e institutos de Latinoamérica y España.",
+    "descripcion": "Base de conocimiento sobre las carreras formales que llevan al diseño web, sus materias típicas por área, duración, perfil de egreso y ruta autodidacta equivalente. Compilada a partir de mallas curriculares reales de universidades e institutos de Latinoamérica y España. Ampliada con las escuelas de élite mundial en motion graphics/animación (Gobelins, CalArts, SCAD, Sheridan, Ringling), cine/audiovisual (AFI, USC, NYU Tisch, NFTS), sonido (Berklee, McGill, Abbey Road, SAE), medios interactivos (NYU Game Center, Goldsmiths, Parsons) y marketing digital de élite (Northwestern Medill, VCU Brandcenter, Miami Ad School, Hyper Island). Mallas oficiales consultadas en julio 2026.",
     "uso_agentes": "Hacer GET a este archivo. Cada entrada describe una carrera con sus materias agrupadas por área de formación. Usar 'materias' para orientar planes de estudio y 'ruta_autodidacta' como equivalencia sin universidad.",
     "actualizado": "2026-07-07",
     "nota": "Los nombres exactos de los ramos varían por institución; aquí se listan las materias típicas que se repiten entre mallas.",
@@ -512,6 +512,463 @@
           "institucion": "GrabCAD — mejores escuelas de diseño del mundo (QS)",
           "url": "https://blog.grabcad.com/blog/2018/11/05/the-10-best-schools-to-study-design-around-the-world/",
           "aporta": "RCA 29 programas de posgrado; UAL 18.000 estudiantes de 130 países y dato de London Fashion Week; Pratt currículo integrado"
+        }
+      ]
+    },
+    {
+      "id": "motion-graphics-animacion",
+      "titulo": "Motion Graphics / Animación Digital",
+      "categoria": "carrera",
+      "duracion": "3-4 años (BFA / Licenciatura de honor); posgrado MFA 1.5-2 años adicionales",
+      "resumen": "El motion graphics y la animación digital combinan artes visuales, narrativa cinematográfica y tecnología para producir imágenes en movimiento: desde personajes animados y efectos visuales hasta identidades de marca en movimiento y experiencias interactivas. Las escuelas top del mundo enseñan esta disciplina con una filosofía común: primero dominar el dibujo, la anatomía y el lenguaje cinematográfico en papel antes de tocar software, siguiendo los principios clásicos de Disney que siguen siendo el estándar de la industria. Los programas equilibran el oficio artesanal (dibujo de figura, storyboarding, actuación para animadores) con el dominio de herramientas digitales profesionales (After Effects, Maya, TVPaint, Premiere) dentro de una producción colectiva supervisada por profesionales activos en la industria. El resultado es el cortometraje propio: cada programa culmina en una producción independiente que funciona como portafolio profesional directo para estudios como Pixar, Netflix o DreamWorks.",
+      "materias": {
+        "fundamentos visuales y arte": [
+          "Dibujo del natural y anatomía dinámica (Life Drawing / Intro to Dynamic Anatomy)",
+          "Diseño 2D y composición (2D Design)",
+          "Dibujo de perspectiva y diseño 3D (Perspective Drawing / 3D Design)",
+          "Diseño de color y luz (Color in Context / Color Research)",
+          "Diseño de personajes I-II (Character Design)",
+          "Pintura digital (Digital Painting)",
+          "Historia de la animación y análisis de cine (Animation History / History of Computer Animation)"
+        ],
+        "animación y técnicas de movimiento": [
+          "Principios de animación (Animation Principles) — doce principios Disney",
+          "Animación 2D de personajes I-IV (2D Character Animation)",
+          "Fundamentos de animación CG (CG Foundation / 3D Animation)",
+          "Animación de personajes en computadora I-VI (Computer Animation)",
+          "Animación 3D de personajes (3D Character Animation)",
+          "Stop motion y técnicas experimentales (Stop Motion)",
+          "Animación de diálogo, acción y coreografía (Animation: Dialogue / Action Analysis)",
+          "Actuación para animadores (Acting for Animators)"
+        ],
+        "narrativa y dirección": [
+          "Desarrollo de historia I-III (Story Development)",
+          "Storyboarding y narrativa secuencial (Storyboarding: Creative Structure / Advanced Story)",
+          "Diseño de layout y preproducción (Layout / Animation Preproduction)",
+          "Lenguaje cinematográfico y dirección (Directing / Cinematographic Language)",
+          "Diseño visual para animación I-II (Visual Development for Computer Animation)",
+          "Guion y escritura para animación (Screenwriting)"
+        ],
+        "herramientas y producción digital": [
+          "Métodos digitales y software de animación (Digital Methods — After Effects, Maya, TVPaint, Premiere, Photoshop)",
+          "Tipografía en movimiento / en tiempo real (Time-based Typography / Dynamic Typography)",
+          "Cinematografía de medios en movimiento (Motion Media Cinematography)",
+          "Principios del diseño en movimiento (Principles of Motion Media Design)",
+          "Técnicas de diseño en movimiento I-II (Motion Media Design Techniques)",
+          "Diseño de sonido y colaboración musical (Digital Methodologies: Dialogue, Music & Sound Effects)",
+          "Composición 2D y efectos especiales (2D Compositing / Special Effects Drawing)"
+        ],
+        "proyecto profesional y portafolio": [
+          "Taller de cine anual y cortometraje individual (Film Workshop I-IV)",
+          "Proyecto senior de animación (Senior Animation Project / Capstone Animation Project)",
+          "Portafolio y tesis en diseño en movimiento (Motion Media Design Portfolio / MFA Thesis)",
+          "Preparación profesional para la industria (Professional Preparation / Studio Business Practice)",
+          "Prácticas en la industria / Pasantía (Co-op Work Term / Field Internship)",
+          "Empaquetado de marca multiplataforma (Multiplatform Media Brand Packaging)"
+        ]
+      },
+      "perfil_egreso": "El graduado es un artista visual profesional capaz de conceptualizar, dirigir y producir contenido animado para cine, plataformas de streaming, videojuegos, publicidad y medios digitales. Domina tanto los principios clásicos de la animación (peso, timing, performance de personaje) como el pipeline digital completo, y puede trabajar como director independiente, animador en un estudio de talla mundial, o diseñador de motion graphics especializado para agencias y marcas globales.",
+      "salidas_laborales": [
+        "Animador de personajes 2D/3D en estudios (Pixar, DreamWorks, Disney, Netflix, Sony Animation)",
+        "Diseñador de motion graphics para publicidad, branding y broadcast",
+        "Director de animación para cortometrajes, videoclips y series",
+        "Artista de storyboard para cine, televisión y videojuegos",
+        "Diseñador visual / concept artist para videojuegos",
+        "Artista de efectos visuales (VFX artist)",
+        "Creador de contenido animado para redes sociales y plataformas digitales",
+        "Diseñador de experiencias interactivas (AR/VR/instalaciones)"
+      ],
+      "aporte_al_diseno_web": "La formación en motion graphics es directamente transferible al diseño web moderno: los principios de timing, easing (curvas de aceleración/desaceleración del movimiento) y jerarquía visual que se aprenden animando personajes son la base exacta de las microinteracciones en interfaces, las transiciones de página y las animaciones CSS/JavaScript que hacen que un sitio se sienta vivo. El dominio de tipografía en movimiento y empaquetado de marca multiplataforma informa el diseño de landings con scrollytelling, los videos hero de producto y las piezas para redes sociales que hoy son el primer punto de contacto digital de una marca. Un animador entrenado en estas escuelas sabe qué elemento mover, cuándo, con qué velocidad y por qué — exactamente lo que separa una interfaz que guía la atención del usuario y comunica personalidad de marca, de una interfaz estática y genérica. Las herramientas del oficio (After Effects, Lottie, Motion, CSS keyframes) son el puente técnico directo entre ambas disciplinas.",
+      "fuentes": [
+        {
+          "institucion": "California Institute of the Arts (CalArts) — #1 EE.UU. según ACR 2026",
+          "url": "https://catalog.calarts.edu/programs/UvzOg8mt3npdQQJrTCkI",
+          "aporta": "Lista completa de cursos requeridos del BFA Character Animation por año (FVCA-100 a FVCA-421): Dibujo del natural, Animación 2D de personajes I-IV, Taller de cine I-IV, Historia, Métodos digitales, Fundamentos CG, Actuación para animadores"
+        },
+        {
+          "institucion": "Savannah College of Art and Design (SCAD) — programa especializado en Motion Media Design",
+          "url": "https://catalog.scad.edu/school-animation-motion/motion-media-design/motion-media-design-bfa/",
+          "aporta": "Lista completa de cursos del BFA Motion Media Design (MOME 105-448): Principios del diseño en movimiento, Cinematografía, Tipografía en tiempo real, Técnicas I-II, Proyecto senior I-II, Empaquetado de marca multiplataforma. 180 créditos-hora totales."
+        },
+        {
+          "institucion": "Ringling College of Art and Design — #1 programa de animación por computadora según ACR Florida 2025",
+          "url": "https://catalog.ringling.edu/computer-animation/computer-animation-bfa",
+          "aporta": "Lista completa y créditos del BFA Computer Animation (120 créditos): Fundamentos de medios (18 cr), Major animación (48 cr: ANIM 208-422), Educación general (42 cr), Electivos (12 cr). Incluye Animación tradicional I-II, Animación en computadora I-VI, Desarrollo de historia I-III, Desarrollo visual I-II, Preproducción."
+        },
+        {
+          "institucion": "Sheridan College — #2 mundial según Animation Career Review 2026 International Rankings",
+          "url": "https://www.sheridancollege.ca/programs/bachelor-of-animation",
+          "aporta": "Currículo completo semestre por semestre del Honours Bachelor of Animation (4 años, ~152 créditos): Principios de animación, Diseño de personajes, Storyboarding I-III, Layout, Animación de diálogo y acción, Stop motion, Animación 3D, Proyecto senior, Capstone, Pasantía Co-op."
+        },
+        {
+          "institucion": "GOBELINS Paris — #1 mundial según Animation Career Review 2026 (5to año consecutivo)",
+          "url": "https://www.gobelins-school.com/animated-filmmaking/programmes/ca30-bachelor-arts-character-animation-animated-filmmaking",
+          "aporta": "Estructura y materias del Bachelor in Character Animation and Animated Filmmaking (3 años): Dibujo anatómico y morfología, Historia de la animación, Técnicas 2D tradicional y digital, Iniciación a la dirección cinematográfica, Storyboarding, Pipeline de producción, herramientas (TVPaint, After Effects, Maya, Premiere). 100% de empleabilidad a 6 meses del egreso."
+        }
+      ]
+    },
+    {
+      "id": "cine-produccion-video",
+      "titulo": "Cine / Producción Audiovisual y Video Digital",
+      "categoria": "carrera",
+      "duracion": "2 años (MFA conservatorio: AFI, NFTS) · 3 años (NYU Tisch MFA) · 4 años (BFA/licenciatura: USC)",
+      "resumen": "Formación integral en el arte y el oficio de crear narrativas audiovisuales para cine, televisión y plataformas digitales. Los programas de primer nivel combinan práctica intensiva —cada estudiante dirige múltiples cortometrajes desde el primer año— con teoría, análisis de cine e industria. El graduado domina toda la cadena de producción: guión, dirección, imagen, sonido, montaje y distribución, y desarrolla una voz autoral propia. Los conservatorios líderes (AFI, NYU Tisch, USC, NFTS) operan con cohortes pequeñas, mentoría uno a uno con cineastas en ejercicio y acceso a equipos de cine profesional desde el primer semestre.",
+      "materias": {
+        "dirección y puesta en escena": [
+          "Taller de dirección: del ejercicio al cortometraje (niveles I a IV)",
+          "El lenguaje visual del director: bloqueo, plano y encuadre",
+          "Dirección de actores I y II",
+          "Mise-en-scène: tiempo, espacio y movimiento de cámara",
+          "Dirección de géneros: comedia, drama y documental",
+          "Improvisación como herramienta directoral",
+          "Dirección avanzada: voz autoral y estilo personal",
+          "Desarrollo y producción del primer largometraje"
+        ],
+        "cinematografía e imagen": [
+          "Fundamentos de técnica cinematográfica y manejo de equipos",
+          "Arte y oficio de la cinematografía: set de estudio y locación",
+          "Historia de la cinematografía: corrientes, técnicas y evolución tecnológica",
+          "El lenguaje de la imagen: óptica, luz, color y composición",
+          "Cinematografía intermedia y avanzada",
+          "Tecnologías emergentes: VR inmersivo, captura de movimiento y efectos visuales digitales"
+        ],
+        "edición, sonido y postproducción": [
+          "Montaje cinematográfico I y II: principios narrativos del corte",
+          "Edición narrativa de ficción y edición avanzada",
+          "Sonido de producción: grabación en locación",
+          "Diseño de sonido en postproducción",
+          "Mezcla final y finishing de imagen y audio",
+          "Flujos de trabajo digitales en postproducción (DI, color grading)"
+        ],
+        "escritura y narrativa audiovisual": [
+          "Fundamentos del guionismo cinematográfico",
+          "Escritura del cortometraje y la escena dramática",
+          "Desarrollo del tratamiento y el guión de largometraje",
+          "Escritura para televisión: drama de una hora y comedia de media hora",
+          "La sala de escritores (writers' room) y desarrollo de series",
+          "Estética y análisis cinematográfico: historia y teoría del cine"
+        ],
+        "producción, industria y distribución": [
+          "Producción del cortometraje de ficción",
+          "Producción documental: investigación, rodaje y montaje",
+          "Introducción a la producción ejecutiva y el line producing",
+          "El negocio del cine y la televisión: desarrollo, empaquetamiento y ventas",
+          "Marketing y distribución cinematográfica en mercados nacionales e internacionales",
+          "Diseño de producción y dirección de arte"
+        ]
+      },
+      "perfil_egreso": "Cineasta con capacidad de liderar proyectos audiovisuales desde la idea hasta la distribución, en roles de director, productor, guionista o director de fotografía. Domina los lenguajes narrativos del cine, la televisión y las plataformas digitales, trabaja con equipos interdisciplinarios de alto nivel y puede desarrollar una voz autoral distintiva o adaptarse a los géneros y formatos de la industria global.",
+      "salidas_laborales": [
+        "Director de cine o televisión (ficción y documental)",
+        "Director de fotografía / Cinematógrafo",
+        "Productor cinematográfico o televisivo",
+        "Guionista para cine, series y plataformas de streaming",
+        "Editor de imagen y montajista",
+        "Diseñador de sonido y supervisor de postproducción",
+        "Director de arte / Diseñador de producción",
+        "Realizador de contenido digital para plataformas (YouTube, Netflix, Prime Video)",
+        "Docente e investigador en estudios cinematográficos",
+        "Realizador de publicidad, branded content y video de producto"
+      ],
+      "aporte_al_diseno_web": "La formación audiovisual nutre directamente la producción de video de producto, comerciales, reels y contenido web de alto impacto: el cineasta aprende a construir la imagen desde la óptica, la luz y el bloqueo —habilidades que se traducen en videos de producto con profundidad narrativa real, no en grabaciones planas. La dirección de actores y la puesta en escena permiten crear comerciales y testimoniales con credibilidad emocional. El montaje cinematográfico y el diseño de sonido elevan los reels y shorts de RRSS desde la calidad amateur a piezas de nivel agencia. La formación en distribución y marketing de cine aporta criterio para entender el video como activo estratégico dentro de un ecosistema digital, no solo como pieza estética aislada.",
+      "fuentes": [
+        {
+          "institucion": "AFI Conservatory (American Film Institute) — #1 The Hollywood Reporter 2025",
+          "url": "https://conservatory.afi.com/directing-curriculum/",
+          "aporta": "Malla completa del MFA en Dirección (DIR 537, DIR 516, DIR 534/535, DIR 617, DIR 623, DIR 656, DIR 690/691); currículo verificado de Cinematografía MFA (CIN 511–691) y Producción MFA (PRO 500–690); Screenwriting MFA (SCR 511–691). Fuente oficial consultada julio 2026."
+        },
+        {
+          "institucion": "NYU Tisch School of the Arts — Graduate Film MFA (Maurice Kanbar Institute)",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/film-television-mfa/",
+          "aporta": "Listado oficial de los 31 cursos requeridos del MFA (108 créditos totales, 3 años): Edición I–II, Dirección I–IV, Tecnología de Cámara I–II, Sonido en Locación I–II, Arte de la Actuación I–II, Guionismo, Diseño de Sonido en Postproducción, Estética del Cine Mudo, Estética, Cinematografía Intermedia. Boletín oficial NYU. Fuente consultada julio 2026."
+        },
+        {
+          "institucion": "USC School of Cinematic Arts — Kevin Feige Division of Film & Television Production — #2 The Hollywood Reporter 2025",
+          "url": "https://cataloguepubs.usc.edu/cat2013/schools/cinema/courses-ctpr.html",
+          "aporta": "Catálogo oficial completo de más de 80 cursos CTPR (CTPR 241 a CTPR 599): Fundamentos de Producción, Comunicación Cinémica, Dirección (niveles intro–avanzado), Cinematografía, Edición, Sonido, Diseño de Producción, Negocio del Cine y la Televisión, Distribución y Marketing. Fuente oficial USC consultada julio 2026."
+        },
+        {
+          "institucion": "National Film and Television School (NFTS) — Beaconsfield, Reino Unido — Mejor escuela internacional según The Hollywood Reporter",
+          "url": "https://nfts.co.uk/courses",
+          "aporta": "Listado oficial de 14+ programas MA de 2 años (Directing Fiction, Directing Documentary, Cinematography, Editing, Producing, Production Design, Sound Design, Screenwriting, Composing for Film & TV, Animation) y estructura verificada del Certificate in Filmmaking con sus 13 disciplinas: Guionismo, Producción, Dirección, Diseño de Producción, Cinematografía, Dirección de Asistencia, Sonido, Montaje, Diseño de Sonido, Composición, VFX, Distribución y Exhibición. Fuente oficial NFTS consultada julio 2026."
+        }
+      ]
+    },
+    {
+      "id": "sonido-diseno-sonoro",
+      "titulo": "Sonido / Ingeniería de Audio y Diseño Sonoro",
+      "categoria": "carrera",
+      "duracion": "1 a 4 años (diploma intensivo de 1 año a licenciatura de 4 años, según nivel e institución)",
+      "resumen": "La ingeniería de audio y el diseño sonoro forman profesionales capaces de capturar, procesar y moldear el sonido en música, cine, videojuegos y medios digitales. Los programas combinan fundamentos científicos —acústica, electrónica, psicoacústica— con dominio de herramientas de estudio (DAW, consolas analógicas, micrófonos) y criterio artístico de producción. El enfoque contemporáneo incorpora audio inmersivo (Dolby Atmos), sonido interactivo para videojuegos y flujos de post-producción para plataformas digitales. Las instituciones líderes integran práctica intensiva en estudios reales desde el primer semestre, con proyectos de grabación, mezcla y masterización de obras completas.",
+      "materias": {
+        "fundamentos técnicos del audio": [
+          "Principios del Sonido y Acústica",
+          "Electrónica Básica para Audio",
+          "Tecnología de Audio Digital",
+          "Física de la Música y Psicoacústica",
+          "Teoría del Sonido, Decibeles y Metrología",
+          "Acústica Musical y Arquitectónica",
+          "Interconectividad y Calibración de Sistemas"
+        ],
+        "grabación y producción en estudio": [
+          "Técnicas de Grabación Multipista",
+          "Producción Musical en Estudio para Registros Comerciales",
+          "Sistemas de Audio y MIDI para Producción Musical",
+          "Técnicas de Microfonía y Grabación Estéreo",
+          "Producción de Música Electrónica y Síntesis",
+          "Sampling y Técnicas de Muestreo",
+          "Producción Vocal",
+          "Planificación de Sesiones y Procedimientos de Estudio"
+        ],
+        "mezcla, masterización y post-producción": [
+          "Técnicas de Mezcla",
+          "Edición de Audio Digital y Analógico",
+          "Masterización y Restauración de Audio",
+          "Post-producción de Audio Avanzada",
+          "Audio para Video y Post-producción Audiovisual",
+          "Procesamiento de Señales (EQ, Dinámica y Efectos)",
+          "Corrección de Afinación y Herramientas de Alineación"
+        ],
+        "diseño sonoro y tecnologías emergentes": [
+          "Diseño Sonoro para Videojuegos",
+          "Técnicas de Sonido Inmersivo y Espacial (Dolby Atmos / Spatial Audio)",
+          "Sonido para Cine y Televisión",
+          "Análisis y Crítica de Grabaciones",
+          "Entrenamiento Auditivo Técnico Avanzado",
+          "Remixing y Restauración de Audio"
+        ],
+        "negocio musical y desarrollo profesional": [
+          "Negocio de la Producción Musical",
+          "Copyright y Licencias (Regalías Mecánicas, de Ejecución y Sincronización)",
+          "Introducción al Negocio del Entretenimiento",
+          "Fundamentos de Negocios y Planes de Empresa",
+          "Marketing y Estrategias para la Industria del Audio",
+          "Emprendimiento en la Industria del Audio",
+          "Gestión, Trabajo en Equipo y Habilidades de Presentación"
+        ]
+      },
+      "perfil_egreso": "El egresado puede trabajar como ingeniero de grabación, productor musical, diseñador sonoro o técnico de post-producción en cualquier industria que utilice audio profesional. Combina dominio técnico —acústica, electrónica, DAW, consolas— con criterio artístico y visión de negocio para liderar sesiones de grabación, mezclar y masterizar producciones comerciales, y diseñar audio para medios interactivos. Está preparado para operar en estudios independientes, casas de post-producción, empresas de videojuegos, emisoras y el ecosistema de contenido digital.",
+      "salidas_laborales": [
+        "Ingeniero de grabación en estudio de música",
+        "Productor musical",
+        "Diseñador sonoro para videojuegos",
+        "Supervisor de audio en post-producción de cine y televisión",
+        "Técnico de sonido en vivo (live sound engineer)",
+        "Especialista en audio inmersivo (Dolby Atmos / Spatial Audio)",
+        "Diseñador de identidad sonora y audio branding para marcas",
+        "Masterizador y restaurador de audio",
+        "Editor de audio para podcasts y plataformas digitales",
+        "Docente e investigador en tecnología musical"
+      ],
+      "aporte_al_diseno_web": "Un profesional formado en audio aporta al contenido web y de video la capacidad de mezclar con precisión voces en off, música de fondo y efectos para reels, ads y videos de marca, alcanzando el nivel de calidad que diferencia a un creador profesional de uno amateur. El dominio del audio branding permite construir una identidad sonora coherente para la marca —jingles, efectos de UI, sonidos de micro-interacción— que refuerza el reconocimiento en plataformas digitales. Las técnicas de masterización con estándares de loudness de plataforma (LUFS target de YouTube, Spotify y TikTok) garantizan que el audio suene balanceado en cualquier dispositivo y contexto de reproducción. El manejo de post-producción de audio para video es directamente aplicable al flujo de producción de contenido de marca: stories, reels, tutoriales y videos explicativos en redes sociales.",
+      "fuentes": [
+        {
+          "institucion": "Berklee College of Music",
+          "url": "https://college.berklee.edu/mpe/bachelor-of-music-in-music-production-and-engineering",
+          "aporta": "Malla oficial del Bachelor of Music in Music Production and Engineering: 32 créditos de cursos obligatorios del área (MP-211 a MP-461), incluyendo tecnología de audio, grabación multipista, mezcla, masterización, negocio de la producción y proyectos avanzados"
+        },
+        {
+          "institucion": "McGill University – Schulich School of Music",
+          "url": "https://www.mcgill.ca/music/programs/mmus-sound-recording/requirements",
+          "aporta": "Malla oficial del M.Mus. Sound Recording (programa Tonmeister, 60 créditos, 2 años): cursos por semestre de entrenamiento auditivo técnico, edición digital y analógica, teoría y práctica de grabación, análisis de grabaciones, masterización, audio inmersivo y producción para video"
+        },
+        {
+          "institucion": "Abbey Road Institute Londres",
+          "url": "https://abbeyroadinstitute.co.uk/courses/diploma-music-production-sound-engineering/curriculum/",
+          "aporta": "Currículo por módulo y trimestre del Advanced Diploma in Music Production and Sound Engineering (1 año): producción musical, ingeniería de audio, DAW (Pro Tools, Logic, Ableton), sonido para cine, masterización, remixing, y negocio musical completo (copyright, marketing, contabilidad, gestión)"
+        },
+        {
+          "institucion": "SAE Institute USA",
+          "url": "https://usa.sae.edu/programs/audio-diploma/",
+          "aporta": "Listado oficial de los 11 cursos del Audio Diploma (12 meses): principios del sonido, teoría musical, producción en estudio, procesamiento de señales, producción de música electrónica, post-producción de audio, game audio y negocio del entretenimiento"
+        }
+      ]
+    },
+    {
+      "id": "medios-interactivos-creative-tech",
+      "titulo": "Medios Interactivos / Creative Technology y Game Design",
+      "categoria": "carrera",
+      "duracion": "3-4 años (pregrado) / 2 años (posgrado)",
+      "resumen": "Los programas de Medios Interactivos, Creative Technology y Game Design forman a los creadores de las experiencias digitales más sofisticadas: videojuegos, instalaciones interactivas, entornos de realidad virtual y aplicaciones que exigen la participación activa del usuario. A diferencia del diseño gráfico tradicional, estas disciplinas integran en una sola práctica la programación creativa, la teoría de sistemas, la narrativa interactiva, el arte generativo y las tecnologías emergentes (VR, AR, IA). La industria de los videojuegos superó los USD 184 mil millones en 2023 y las habilidades de estas disciplinas —shaders, WebGL, diseño de experiencias gamificadas, narrativa por capas— son hoy el diferenciador entre un sitio web estándar y uno que gana premios Awwwards o Cannes Lions.",
+      "materias": {
+        "diseño de juegos y sistemas interactivos": [
+          "Fundamentos del diseño de juegos: mecánicas, dinámicas y estética",
+          "Diseño de juegos avanzado: economía, balance y sistemas",
+          "Diseño narrativo e interactivo",
+          "Diseño de juegos de mesa, cartas y juegos de rol",
+          "Taller de prototipado rápido (producción de 13 prototipos jugables por semestre)",
+          "Generación procedural para juegos: niveles, personajes y puzles automáticos",
+          "Interfaz y experiencia de usuario en juegos (UI/UX para jugadores)",
+          "Práctica profesional en diseño de juegos: documentación, pitching e industria"
+        ],
+        "programación creativa y desarrollo técnico": [
+          "Introducción a la programación creativa",
+          "Laboratorio de código para juegos e interactividad",
+          "Aplicaciones web dinámicas y frontend interactivo",
+          "Computación crítica: algoritmos, datos y cultura",
+          "Fabricación digital: teoría y laboratorio (CNC, impresión 3D, microcontroladores)",
+          "Programación embebida creativa (sensores, Arduino, Raspberry Pi)",
+          "Desarrollo con motores de juego Unity y Unreal Engine",
+          "Generación de shaders y gráficos en tiempo real"
+        ],
+        "arte generativo, visuales y diseño sonoro": [
+          "Arte 2D para juegos y medios interactivos",
+          "Modelado y animación 3D para juegos",
+          "Fundamentos de gráficos digitales",
+          "Dibujo generativo y arte computacional",
+          "Sonido y señal: fundamentos de audio creativo",
+          "Audio para juegos y experiencias inmersivas",
+          "Laboratorio visual avanzado y diseño de sistemas visuales"
+        ],
+        "realidades extendidas y tecnologías emergentes": [
+          "Desarrollo en realidad virtual y aumentada (VR/AR/XR)",
+          "Narrativa en realidad aumentada: GPS, marcadores y AR móvil",
+          "Computación física: sensores, cuerpo e instalación interactiva",
+          "Captura de movimiento y cuerpo digital",
+          "Datos y aprendizaje automático para práctica artística y creativa",
+          "Experiencias en red y desarrollo multijugador",
+          "Inteligencia artificial crítica y aplicada a la creación"
+        ],
+        "teoría crítica, historia e investigación": [
+          "Alfabetización lúdica: historia y análisis de juegos digitales y analógicos",
+          "Estudios del juego: teoría crítica y metodología del jugador",
+          "Historia de los videojuegos, el arte digital y la animación",
+          "Representación, identidad e inclusión en los medios interactivos",
+          "Prácticas críticas en tecnología creativa",
+          "Identidad, agencia y entorno en la cultura digital",
+          "Proyecto de tesis e investigación aplicada"
+        ]
+      },
+      "perfil_egreso": "El egresado domina el diseño de sistemas interactivos, la programación creativa y la crítica cultural de los medios digitales. Es capaz de concebir, prototipar y dirigir experiencias digitales —videojuegos, instalaciones, entornos XR y aplicaciones interactivas— con sólido fundamento técnico, narrativo y artístico. Integra pensamiento de sistemas, habilidades de prototipado rápido y comprensión profunda del comportamiento del jugador y el usuario para liderar equipos interdisciplinarios en la industria creativa, el entretenimiento y el sector cultural.",
+      "salidas_laborales": [
+        "Diseñador/a de videojuegos (game designer) en estudios indie o triple-A",
+        "Desarrollador/a de experiencias en realidad virtual y aumentada (XR developer)",
+        "Director/a creativo/a de experiencias digitales interactivas",
+        "Artista generativo/a y desarrollador/a de arte computacional",
+        "Diseñador/a de UX/UI para plataformas de entretenimiento e interfaces inmersivas",
+        "Diseñador/a de experiencias interactivas para museos, marcas y eventos",
+        "Investigador/a o docente en game studies y medios digitales",
+        "Desarrollador/a de prototipos creativos y aplicaciones interactivas en agencias digitales de vanguardia"
+      ],
+      "aporte_al_diseno_web": "La formación en medios interactivos y game design nutre el diseño web de vanguardia con capacidades que los programas convencionales de diseño no entregan: el uso de WebGL, Three.js y shaders para crear experiencias 3D navegables directamente en el navegador; la lógica de diseño de juegos —sistemas de retroalimentación, loops de progresión, economía de recompensas— aplicada al onboarding, la retención y la gamificación de productos; la narrativa por capas del scrollytelling entendida como estructura de nivel; y el pensamiento en comportamiento del jugador para diseñar flujos que enganchen y conviertan. Los portafolios más premiados en Awwwards —sitios con física de partículas, cámaras 3D navegables, AR en el navegador y microinteracciones de carácter— nacen precisamente de esta intersección entre game design, arte computacional y diseño de experiencias.",
+      "fuentes": [
+        {
+          "institucion": "NYU Game Center (New York University) — MFA Game Design",
+          "url": "https://gamecenter.nyu.edu/academics/courses/",
+          "aporta": "Catálogo completo de más de 50 asignaturas del MFA en Game Design con códigos GAMES-GT, créditos y descripciones: diseño de juegos I y II, estudios del juego, talleres de producción, programación, arte para juegos, diseño de mesa, tabletop RPG, realidad extendida, diseño narrativo, economía para game designers, generación procedural y tesis."
+        },
+        {
+          "institucion": "Goldsmiths University of London — BSc Creative Computing",
+          "url": "https://www.gold.ac.uk/ug/bsc-creative-computing/",
+          "aporta": "Estructura completa de módulos del programa de 3-4 años: introducción a la programación, frontend web, diseño de interacciones digitales, gráficos 1 y 2, sonido y señal, programación embebida creativa, aplicaciones web dinámicas, datos e IA para práctica creativa, desarrollo de motores de juego, audio para juegos y proyectos integradores."
+        },
+        {
+          "institucion": "Goldsmiths University of London — MA Computational Arts",
+          "url": "https://www.gold.ac.uk/pg/ma-computational-arts/",
+          "aporta": "Módulos del posgrado en dos itinerarios (Arte e Investigación / Diseño y Tecnología Creativa): dibujo generativo, historia de juegos y arte computacional, computación física 1 y 2, XR, captura de movimiento y cuerpo digital, IA crítica, experiencias en red, audio para juegos e instalaciones inmersivas, forma computacional y proceso, computación lenta."
+        },
+        {
+          "institucion": "Parsons School of Design (The New School) — MFA Design y Tecnología",
+          "url": "https://www.newschool.edu/parsons/mfa-design-technology-curriculum/",
+          "aporta": "Plan de estudios semestre a semestre del MFA de 60 créditos con códigos de asignatura: Major Studio 1 y 2, Computación Crítica (teoría y laboratorio), Fabricación Digital xFab (teoría y laboratorio), Seminario de Práctica Creativa 1 y 2, Estudio de Colaboración, Estudio de Tesis 1 y 2."
+        }
+      ]
+    },
+    {
+      "id": "marketing-digital-elite-mundial",
+      "titulo": "Marketing Digital — escuelas de élite mundial",
+      "categoria": "referencia-mundial",
+      "duracion": "Maestrías 12 a 24 meses full-time (Northwestern 12 meses, VCU Brandcenter 24 meses, Miami Ad School 18 meses); diploma vocacional intensivo 90 semanas con 30 de práctica industrial (Hyper Island)",
+      "resumen": "Los programas de élite en marketing digital fusionan tres dimensiones que los cursos genéricos tratan por separado: estrategia de marca profunda basada en datos del consumidor, creatividad aplicable a medios digitales reales y dominio de tecnología, IA y métricas de rendimiento. La formación se distingue por trabajo colaborativo real con marcas globales (Google, Spotify, Airbnb), portafolio como producto final evaluado por la industria, y un currículo donde la investigación de audiencias y el modelo de datos anteceden a cualquier pieza creativa. El resultado es un profesional que habla tanto el idioma del negocio como el del píxel, capaz de articular por qué una decisión creativa convierte.",
+      "materias": {
+        "estrategia y marca": [
+          "Proceso estratégico de comunicaciones integradas (IMC)",
+          "Gestión avanzada de marca",
+          "El negocio del branding",
+          "Pensamiento estratégico y planificación de escenarios",
+          "Innovación de valor del cliente",
+          "Planificación de comunicaciones y UX integrada",
+          "Impacto cultural: account planning avanzado",
+          "Experiencias de marca omnicanal"
+        ],
+        "datos, investigación y consumer insight": [
+          "Investigación de mercados",
+          "Perspectiva del consumidor (consumer insight)",
+          "Métricas de marketing y ROI",
+          "Análisis de marca y toma de decisiones con datos",
+          "Segmentación y valor de vida del cliente",
+          "Metodologías de investigación cualitativa y cuantitativa",
+          "Modelos de marketing y aprendizaje automático"
+        ],
+        "creatividad, contenido y narrativa": [
+          "Pensamiento creativo y resolución de problemas",
+          "Desarrollo de concepto",
+          "Narrativa visual y producción de video",
+          "Estrategia de contenido",
+          "Marketing de creadores y comercio de medios",
+          "Persuasión y técnicas de presentación",
+          "Ingeniería de cultura popular",
+          "Elaboración artesanal del mensaje (copy craft)"
+        ],
+        "tecnología, IA y medios digitales": [
+          "Activación de marketing digital",
+          "Marketing en la era de la IA",
+          "Comercio social y estrategia en redes sociales",
+          "SEO, SEM y rendimiento de medios pagados",
+          "Diseño de experiencia de usuario (UX)",
+          "Campañas digitales multiplataforma",
+          "Creatividad habilitada por IA",
+          "MarTech: herramientas de tecnología de marketing"
+        ],
+        "liderazgo, práctica y portafolio": [
+          "Contabilidad y finanzas para comunicadores",
+          "Ética, derecho y tecnología en marketing",
+          "Cultura, diversidad e inclusión en marketing",
+          "Liderazgo y comunicación organizacional",
+          "Portafolio avanzado y proyecto final de carrera",
+          "Gestión del cambio digital",
+          "Práctica industrial y pasantía en agencias globales"
+        ]
+      },
+      "perfil_egreso": "Profesional híbrido que domina tanto la estrategia de marca basada en datos del consumidor como la ejecución creativa en canales digitales. Capaz de liderar proyectos de marketing integrado, tomar decisiones respaldadas por métricas y colaborar con equipos creativos, tecnológicos y de negocio. Preparado para asumir roles de liderazgo en agencias internacionales, marcas globales o startups con foco en growth.",
+      "salidas_laborales": [
+        "Director(a) de marketing integrado",
+        "Estratega de marca digital",
+        "Planificador(a) de cuentas (account planner)",
+        "Director(a) de arte y comunicación visual",
+        "Gerente de marca y comunicación",
+        "Analista de consumer insights",
+        "Estratega de redes sociales y contenido",
+        "Director(a) creativo(a)",
+        "Especialista en experiencia de usuario (UX)",
+        "Especialista en MarTech y marketing de datos"
+      ],
+      "aporte_al_diseno_web": "Un profesional formado en estas escuelas entiende que una landing page no es diseño sino comunicación: cada sección responde a una fase del consumer journey y debe pasar la prueba del insight (por qué le importa al usuario). Domina la jerarquía del mensaje antes del píxel, sabe diseñar funnels respaldados por segmentación real y aplica frameworks de persuasión (cultural insight, emotional pull, social proof) que elevan las tasas de conversión muy por encima del estándar de plantillas genéricas. La formación en datos y métricas permite iterar el diseño con evidencia, no intuición, y la disciplina de portafolio garantiza que cada pieza tenga un argumento estratégico detrás.",
+      "fuentes": [
+        {
+          "institucion": "Northwestern University — Medill IMC Full-Time Masters",
+          "url": "https://www.medill.northwestern.edu/imc/full-time/curriculum/",
+          "aporta": "Currículo oficial full-time verificado: 5 cursos core (Consumer Insight, Marketing Research, Financial Accounting, Marketing Strategy, IMC Strategic Process), 4 tracks electivos (Consumer Insights & Analytics, Brand Strategy, Strategic Communications, Media), capstone con marcas reales. Programa STEM de 12 meses / 18 créditos."
+        },
+        {
+          "institucion": "Northwestern University — Medill IMC Professional (online)",
+          "url": "https://imcprofessional.medill.northwestern.edu/curriculum",
+          "aporta": "Catálogo completo verificado: 3 core + 24 electivas + 6 inmersivos opcionales. Incluye cursos exclusivos como Marketing en la Era de la IA, Comercio Social, Creator Marketing y Commerce Media, MarTech, Creatividad Estratégica y Estrategia de Contenido."
+        },
+        {
+          "institucion": "VCU Brandcenter — Catálogo oficial de cursos (Virginia Commonwealth University)",
+          "url": "https://bulletin.vcu.edu/azcourses/brnd/",
+          "aporta": "Catálogo completo verificado con 35 cursos BRND numerados y descritos (BRND 608 a BRND 696), cubriendo las 4 concentraciones activas: Art Direction, Copywriting, Creative Brand Management y Strategy. Programa de 2 años / 42 créditos. Incluye Brand Analytics, Research Methodologies, Creating Gravitational Pull (SEO/SEM), Cultural Impact y Creative Fusion."
+        },
+        {
+          "institucion": "Miami Ad School — Social Media Strategy Master's (7 veces Cannes Lions School of the Year, incl. 2025)",
+          "url": "https://miamiadschool.com/programs/masters-social-media-strategy/",
+          "aporta": "Plan de estudios verificado: 39 créditos / 5 semestres en colaboración con Florida International University. Cursos: Ideas First, Video Storytelling, Story Writing, Thinking Strategically, User Experience, Pop Culture Engineering, Social Media, Digital Campaigns, Decode a Social Campaign + Global Communications, Law & Ethics in Mass Communications, Theories of Mass Communication (FIU)."
+        },
+        {
+          "institucion": "Hyper Island — Digital Creative YH-Program (Estocolmo)",
+          "url": "https://hyperisland.com/programs/diploma-programs/digital-creative",
+          "aporta": "Programa de 90 semanas verificado (60 en campus Estocolmo + 30 práctica industrial global). 11 áreas de aprendizaje: Leadership & Team Excellence, Human-Centred Design, Exploring Digital Creativity, AI-Enabled Creative, Brand Strategy & Storytelling, Change Management, Digital Development, Professional Path & Portfolio, The Studio, Individual Project e Industrial Placement. Calendario agosto 2026 – junio 2028."
         }
       ]
     }
