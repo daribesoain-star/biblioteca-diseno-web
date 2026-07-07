@@ -1272,6 +1272,54 @@
           "aporta": "Especificación oficial verificada de YouTube: codec AAC-LC u Opus, 48 kHz de muestreo, estéreo 384 kbps recomendado; referencia obligatoria para preparar el audio de cualquier video destinado a la plataforma"
         }
       ]
+    },
+    {
+      "id": "creatividad-publicitaria-leyes-narrativas",
+      "disciplina": "marketing-digital-elite-mundial",
+      "area": "Creatividad publicitaria (escuela VCU Brandcenter / nivel Cannes)",
+      "titulo": "Las 10 leyes narrativas de campañas premiadas",
+      "que_ensena": "Cómo se piensa la IDEA de una campaña al nivel de las agencias top del mundo (W+K, Ogilvy, FCB, LePub). Destilado de campo verificado: 34 campañas premiadas reales (Cannes Lions, Super Bowl, Vimeo Staff Pick, Tribeca) analizadas contra transcripción y frames (lote 3 reels, 2026-07-07). Enseña el mecanismo narrativo — insight, flip, metáfora literal, punchline, honestidad de marca, media-como-mensaje — separado del craft de producción.",
+      "temario": [
+        "Insight primero: encontrar la verdad humana incómoda o universal debajo de la categoría (Toast 'busy = éxito', Andrex tabú del baño, Canal+ devoción al Mundial).",
+        "Test de la frase: una idea debe caber en una línea sin explicación ('el banco es un spa de inversiones' — Banco Provincia).",
+        "Flip contrarian: dar vuelta la creencia de la categoría (Sprite 'Hurts Real Good': el picante no se calma, se celebra; Three 'Phones Are Good' de W+K).",
+        "Literalizar la metáfora: volver físico y filmable lo intangible (sin-internet = dinosaurio de Chrome real; fallas bancarias = escena en loop hipnótico de Coinbase).",
+        "Comedia de acumulación con un solo punchline amarrado al producto (Etisalat 'Moonwalk', Tesco, Doritos 'Esteban' Cannes Gold 2012).",
+        "Auto-crítica de marca como generador de confianza (Burger King 'New King': 'fast food fell off, us included').",
+        "El presupuesto como idea — media = mensaje (Heineken 'Starring Bars': locaciones pagadas a bares clientes; Coca-Cola 'Shades of Red': OOH con 12.700 toldos viejos).",
+        "Activos icónicos propios como materia prima exclusiva (dino de Chrome, toldos rojos, MetroCard, el Rey de BK).",
+        "Narrativa sin diálogo que viaja global: comedia visual + foley (Coca-Cola frontera, Super Bowl).",
+        "Producción nivel pyme con impacto mundial: la idea le gana al presupuesto (Doritos 'Time Machine', newsjacking de evento tipo Mama's Boy Pizza + Mundial 2026)."
+      ],
+      "reglas_para_agentes": [
+        "Toda propuesta de campaña NOMBRA su ley (1-10) y su caso canónico de referencia; propuesta sin ley nombrada no está lista para presentarse.",
+        "Antes de idear, identificar los activos únicos de la marca ('¿cuáles son sus toldos rojos?'): jingle, packaging real, datos del ERP, el dueño, la historia. Lo disruptivo sin identidad es ruido.",
+        "Aplicar el test de la frase: si la idea no se cuenta en una línea sin explicar, seguir destilando antes de presentar.",
+        "Sanity check de producción: al menos una idea de cada tanda debe ser producible por una pyme esta semana con el stack propio; si ninguna lo es, la tanda está mal planteada.",
+        "Idear por FAMILIA de mecanismo (flip / metáfora literal / acumulación / honestidad / presupuesto-como-idea / craft-formato), no por ocurrencia suelta.",
+        "Copiar el MECANISMO con activos propios = original; copiar la ejecución = plagio. Referencias visuales directas se registran con su licencia.",
+        "El guion puede salir de la realidad: comentarios reales, quejas reales de clientes, datos reales — es más incómodo y más creíble que lo inventado (Australian Lamb)."
+      ],
+      "errores_comunes": [
+        "Empezar por el producto y sus features en vez de por una verdad humana: resulta el spot genérico producto+precio+música que nadie recuerda.",
+        "Chiste por chiste: acumular gags sin un punchline único amarrado al producto — entretiene pero no vende ni se recuerda la marca.",
+        "Metáfora declarada pero no literalizada: DECIR 'el internet lento mata tu negocio' en vez de MOSTRAR el dinosaurio destruyendo la oficina.",
+        "Marca que solo se alaba a sí misma: cero tensión, cero credibilidad; la auto-crítica bien hecha genera más confianza que la perfección.",
+        "Idea que necesita un párrafo para explicarse: señal inequívoca de que aún no es una idea.",
+        "Confundir presupuesto con calidad: pedir producción cara para tapar la falta de mecanismo (los casos pyme premiados prueban lo contrario).",
+        "Ignorar los activos icónicos propios y comprar assets genéricos de stock: se pierde lo único que la competencia no puede copiar."
+      ],
+      "bibliografia_canon": [
+        "Sullivan, L. — 'Hey Whipple, Squeeze This' (el canon de creatividad publicitaria; base del temario de VCU Brandcenter).",
+        "Ogilvy, D. — 'Ogilvy on Advertising'.",
+        "D&AD — 'The Copy Book' (48 redactores top explican su método).",
+        "Destilado de campo propio: ~/Downloads/CLAUDECODE/reels-diseno-web-informe/lote3/DESTILADO_CREATIVIDAD_PUBLICITARIA.md (34 campañas, evidencia por video, 2026-07-07)."
+      ],
+      "recursos_abiertos": [
+        "Ads of the World (adsoftheworld.com) — archivo abierto de campañas por país/industria.",
+        "Cannes Lions 'Love the Work' — ganadores por año (parcialmente abierto).",
+        "Skill local 'creatividad-publicitaria' (~/.claude/skills/) — copia canónica operativa de estas leyes; sincronizar si esta entrada mejora."
+      ]
     }
   ]
 }
