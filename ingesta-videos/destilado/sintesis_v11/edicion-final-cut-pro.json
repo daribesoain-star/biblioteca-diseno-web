@@ -1,0 +1,747 @@
+{
+ "id": "edicion-final-cut-pro",
+ "disciplina": "edicion-postproduccion",
+ "area": "final-cut-pro",
+ "titulo": "Guía completa de Final Cut Pro y Apple Motion: edición, efectos, color, audio y flujo de trabajo profesional",
+ "que_ensena": "Domina Final Cut Pro y Apple Motion desde cero hasta nivel avanzado: creación de proyectos, edición en línea de tiempo magnética, efectos visuales (prisma, chroma key, motion tracking, máscara magnética), corrección de color con LUTs y scopes, sincronización musical, animaciones 3D, rotoscopia, edición multicámara, gestión de medios con proxies, y creación de plantillas personalizadas. Incluye atajos de teclado, trucos ocultos y flujos de trabajo para creadores de contenido.",
+ "reglas_para_agentes": [
+  "Usa 'Copy to library' al importar medios para que todos los archivos estén contenidos dentro de la librería; nunca uses 'Leave files in place' a menos que sepas que siempre tendrás acceso a las carpetas de origen.",
+  "Guarda las librerías en un disco externo, nunca en el disco interno del sistema, porque las librerías crecen mucho al importar medios.",
+  "Usa optimized media (Apple ProRes 422) cuando los archivos nativos tengan codecs no ideales para Final Cut; usa proxy media (ProRes proxy, escala 25% o menor) cuando el Mac se ralentice, especialmente en multi-cam editing.",
+  "Siempre cambia la vista a 'Optimized & Original' antes de color correction y export; nunca exportes con vista 'Proxy Preferred' activada.",
+  "Usa 'Custom LUT' manualmente en lugar de dejar que Final Cut aplique LUTs automáticamente al importar; desactiva el LUT automático en el inspector de información (modo extendido).",
+  "Siempre coloca 'Color Adjustments' en la parte superior del inspector, luego el LUT creativo, y el LUT correctivo abajo.",
+  "Usa el Object Tracker nativo de FCP con método 'Machine Learning' (FCP 10.7+) para rastrear objetos planos; ajusta el wireframe lo más ajustado posible al objeto.",
+  "Usa M Tracker 3D (Motion VFX) cuando necesites que el texto/objeto 3D cambie de perspectiva con el movimiento de cámara (tracking en espacio 3D real).",
+  "Usa 'Synchronize Clips' (clic derecho sobre selección múltiple) cuando importes stems de música desde una carpeta descargada, no arrastres pistas individuales directamente al proyecto.",
+  "Siempre deshabilita (disable) stems no deseados con la tecla V en lugar de eliminarlos, para preservar la capacidad de revertir cambios.",
+  "Usa Command + G para crear una storyline antes de cortar y eliminar secciones intermedias de música; usa la tecla M para marcar downbeats antes de hacer cualquier corte.",
+  "Usa la Trim Tool (T) para hacer roll edits y ajustar el punto de corte sin perder sincronización; nunca aumentes la velocidad de la música más de un 5% con el re-time editor.",
+  "Usa siempre un título 3D de la categoría '3D' cuando necesites texto tridimensional con capacidad de rotación en 360°; nunca uses un título básico (Ctrl+T) para efectos 3D si necesitas animar rotación en X o Y.",
+  "Usa 'Sample Color' en el Green Screen Keyer cuando el fondo no sea verde ni azul; aplica 'Shrink/Expand' con valores decimales (doble clic en el número) para bordes precisos.",
+  "Deshabilita el fondo antes de cualquier ajuste de chroma key; actívalo solo después de renderizar; aplica correcciones de color solo después de tener el key limpio.",
+  "Usa Option + clic con cuentagotas en Color Board cuando quieras excluir tonos específicos de un ajuste de color.",
+  "Usa Snapshot Project en lugar de Duplicate cuando trabajes con compound clips y necesites versiones independientes que no se afecten entre sí.",
+  "Usa el inspector de texto (Text inspector) para redimensionar títulos, nunca el parámetro Scale del inspector de video, para evitar recortes al mover el texto.",
+  "Usa 'Reemplazar' al arrastrar una nueva plantilla de texto sobre texto existente para conservar el contenido escrito.",
+  "En Apple Motion, usa Fixed Resolution en el grupo cuando muevas texto con filtro Extrude para mantener la sombra anclada al texto; nunca arrastres el texto individualmente con Extrude aplicado.",
+  "Usa Shift + Command + B para dividir todos los clips (storyline principal y conectados) en un punto exacto del playhead sin selección previa.",
+  "Usa Ctrl + V para abrir el editor de keyframes en la línea de tiempo y visualizar, deshabilitar o ajustar animaciones de transformación o mezcla de efectos.",
+  "Mantén presionada la tecla tilde (~) al mover, recortar, slip editar o eliminar un clip de la storyline principal para evitar que los clips conectados se desplacen.",
+  "Usa Shift + N para restablecer la velocidad normal de un clip o segmento de retiming; no uses Reset Speed del menú.",
+  "Usa Shift + H para crear hold frames (fotogramas congelados) dentro del clip, heredando efectos aplicados.",
+  "Usa Shift + B para dividir la velocidad con la cuchilla de velocidad sin crear un corte de edición (through edit).",
+  "Activa Optical Flow en Modify > Retime > Video Quality para cámara lenta suave; si hay distorsión, cambia a Frame Blending.",
+  "Usa el Comparison Viewer (Control + Command + 6) en modo Saved para igualar color entre tomas no adyacentes; guarda un fotograma de referencia antes de corregir.",
+  "Usa Add Color Mask en el Color Board para aislar y ajustar un color específico sin afectar el fondo.",
+  "Usa la búsqueda 'missing' en el Index de clips para localizar clips con efectos faltantes en la línea de tiempo.",
+  "Usa Option + A para crear un Adjustment Clip, no arrastres desde el navegador de efectos.",
+  "Aplica efectos solo al Adjustment Clip, nunca directamente a los clips de video que están debajo.",
+  "Usa Magnetic Mask siempre que necesites aislar un sujeto del fondo sin chroma key en Final Cut Pro.",
+  "Usa roles de audio únicos por persona/fuente para ajustar el volumen de todos los clips de un mismo rol simultáneamente en el inspector de audio.",
+  "Usa 'Voice Isolation' al máximo cuando el clip de voz tenga ruido de fondo; aplica el limitador con 'Out' en -1 dB y ajusta 'Gain' hasta que el medidor muestre reducción sin llegar a rojo."
+ ],
+ "prompts_y_recetas": [
+  "Para aplicar prisma a un impact shake: arrastra el efecto prisma (Boris FX Stylize Unit) al clip. Coloca el playhead justo antes del impacto. En Mix, añade keyframe en 0. Avanza 1 frame, sube Mix a 100. Cambia Smoothness a 6. En Scale Start, keyframe en 92; Scale End en 98. En Offset Start, keyframe con X=0.13, Y=0. Avanza 1 frame, cambia Offset Start a X=0.16, Y=0.08. Avanza 2 frames, regresa Offset Start a X=0, Y=0 y Mix a 0.",
+  "Para sincronizar stems de música: descarga el .zip con las pistas individuales, arrastra la carpeta a un Event en FCP (crea Keyword Collection), selecciona todos los clips, clic derecho > Synchronize Clips. Arrastra el synchronized clip a la línea de tiempo, haz doble clic para abrirlo, apila todas las pistas al inicio de la línea de tiempo interna. Usa V para habilitar/deshabilitar stems.",
+  "Para ajustar música a la duración del video: marca downbeats con M, agrupa el clip con Command + G, corta con Blade (B) cerca del final, elimina la sección intermedia. Usa Trim Tool (T) para roll edit. Si es necesario, selecciona ambos fragmentos, Option + G para compound clip, Shift + N para re-time editor, arrastra el borde de la barra verde hasta que la duración coincida (máximo 5% de cambio).",
+  "Para crear texto 3D animado: arrastra un título de la categoría '3D' a la línea de tiempo. En el inspector, expande 'Texto 3D', ajusta Profundidad, Peso, iluminación, Entorno y Sustancia. Para animación básica, usa los parámetros de 'Texto personalizado' en el inspector de título. Para animaciones complejas (rotación continua), usa Apple Motion.",
+  "Para chroma key avanzado: aplica Green Screen Keyer al clip. Deshabilita el fondo. En Matte Tools, ajusta Levels (sube Blacks). Usa Edges Tool (Command + arrastrar desde el sujeto hacia afuera) para cabello fino. Ajusta Spill Level según el color del fondo. Activa Light Wrap para integrar con fondo exterior. Renderiza antes de activar el fondo.",
+  "Para motion tracking con múltiples efectos: selecciona el clip, en Inspector > Trackers > '+', ajusta wireframe al objeto, cambia Analysis Method a Machine Learning, presiona Analyze. Arrastra efectos directamente al visor sobre el objeto deseado. Para efectos que no se rastrean bien, usa adjustment layer. Añade color masks con Shift (añadir) y Option (quitar) para aislar el efecto.",
+  "Para crear LUTs personalizados: arrastra un video a Pixelmator Pro, agrega capa de ajuste de color, desactiva Texture Aware Algorithm y Film Grain, exporta como LUT. En FCP, aplica efecto Custom LUT al clip, selecciona Choose Custom LUT y carga el archivo. Coloca ajustes de color adicionales encima del LUT en la pila de efectos.",
+  "Para crear un generador 3D en Apple Motion: abre Motion > Final Cut Pro generator (60 fps, 5 seg). Arrastra archivo USDZ (de SketchFab) al project pane. En Inspector > Properties, ajusta Scale y Rotation. Publica Rotation (X, Y, Z). Guarda como en categoría '3D Models'. En FCP, el generador aparece en Titles & Generators.",
+  "Para animación de texto con sombra larga (Extrude): en Apple Motion, escribe texto (Avenir Next Bold, 288). Aplica filtro Stylize > Extrude. Haz clic en valor numérico de distancia y arrastra hasta 500. Size a 0. Ajusta ángulo en canvas. En Extrude Style, cambia a Gradient, elige color sólido. Activa Fixed Resolution en el grupo. Agrega Drift In/Out para animación.",
+  "Para crear viñeta personalizada en Apple Motion: crea proyecto 'Final Cut effect'. Agrupa effect Source y deshabilita. Dibuja cuadrado centrado, agrupa. Aplica filtro Twirl, renómbralo 'osc'. Dibuja círculo que llene el frame, añade comportamiento Link para enlazar posición y escala al rectángulo. Añade Color Solid y Clone Layer con máscara invertida. Publica parámetros (color, opacidad, blend mode, blur, rotación, escala, falloff, radio). Guarda como efecto.",
+  "Para aplicar Auto Mask y suavizado de piel: duplica el clip (Option + arrastrar hacia arriba). En el clip superior, haz clic en ícono de varita mágica en el visor > Add Auto Mask, selecciona 'skin'. Arrastra Gaussian Blur sobre el clip. Cambia blend mode del clip superior a Lighten. Reduce blur a 6. Para recolorar cabello/labios, agrega Color Board desde inspector de color, usa Add Auto Mask para seleccionar hair/eyebrows/lips.",
+  "Para crear intros con Dynamic Titles: ve a Titles > Dynamic, selecciona un bumper. Borra el texto Headline en Title Inspector. Option + arrastra tu clip de video encima del título. Recorta para que coincida. Aplica Magnetic Mask al sujeto. Cambia colores con cuentagotas. Añade Cross Dissolve al final.",
+  "Para convertir video 16:9 a vertical: en Browser, clic derecho sobre proyecto > Duplicate Project as. Renombra, cambia Format a Vertical, ajusta resolución, marca Smart Conform, haz clic en OK.",
+  "Para generar capítulos de YouTube: coloca playhead, haz doble clic en M, cambia tipo a Chapter Marker, escribe título. Repite. Ve a ícono de puzzle piece > Creator's Best Friend, arrastra proyecto a la ventana, haz clic en Copy to Clipboard, pega en descripción de YouTube.",
+  "Para crear biblioteca de elementos reutilizables: crea evento llamado 'ZZ icons'. Al iniciar nueva biblioteca, arrastra ese evento y selecciona 'Include original media'. Para guardar versión modificada: crea proyecto temporal, coloca el elemento, ajusta, selecciona todo y presiona Option + G para compound clip. Elimina proyecto temporal.",
+  "Para jump cuts rápidos: presiona R para Range Tool, haz clic y arrastra sobre silencios/respiraciones en la forma de onda, presiona Delete.",
+  "Para slip edit sin mover clips conectados: presiona T para Slip tool, mantén presionada Tilde (~) mientras arrastras.",
+  "Para cambiar duración de múltiples transiciones: selecciona varias transiciones en la línea de tiempo, presiona Control + D e ingresa nuevo valor en segundos.",
+  "Para previsualizar efectos con intensidad ajustable: en el panel Effects, mantén presionada Option y arrastra el cursor horizontalmente sobre el nombre del efecto; suelta y haz doble clic para aplicar con ese valor.",
+  "Para eliminar el fondo de una plantilla de texto con chroma key: en inspector de títulos, cambia fondo a 'Color sólido' y elige un color llamativo. Vuelve a seleccionar 'Fondo predeterminado'. Aplica efecto Green Screen Keyer a la plantilla. En inspector de video, usa 'Muestra de color' sobre el color de fondo. Reduce Spill Level.",
+  "Para anular el timeline magnético: mantén presionada la tecla tilde (~) mientras mueves, recortas, slip editas o eliminas un clip de la storyline principal; los clips conectados permanecen en su lugar.",
+  "Para sincronizar video con ritmo musical: activa detección de beats en la pista de música, conviértela a connected storyline (Command + G), activa Snapping, corta con Blade (B) en líneas gruesas (cambios de arreglo) y elimina secciones intermedias con la herramienta Range (R).",
+  "Para igualar color entre tomas: abre Comparison Viewer (Control + Command + 6), guarda un fotograma de la toma base (Save Frame), aplica Color Board con Color Mask en la toma a corregir y ajusta solo el fondo o color específico mientras comparas.",
+  "Para crear una transición whip in/out falsa en Motion: crea un proyecto Final Cut Title de 12-20 frames, añade cámara 3D, clona el Title Background (tecla K), posiciona clones en ±3840 (4K), aplica Directional Blur y Gradient Blur al grupo, keyframea la cámara de X:0 a X:-3840 (whip out) o de X:+3840 a X:0 (whip in), ajusta interpolación Bezier en Keyframe Editor.",
+  "Para rotoscopiar con RotoMatic: arrastra el efecto al clip, haz clic sobre el objeto (selección roja), Option+clic para deseleccionar, presiona Process, si pierde tracking detén, retrocede al fallo, reselecciona y reprocesa."
+ ],
+ "errores_comunes": [
+  "Guardar librerías en el disco interno del sistema: las librerías se vuelven muy grandes y pueden llenar el disco rápidamente.",
+  "Usar 'Leave files in place' al importar sin entender la consecuencia: necesitarás tener tanto la carpeta de medios como la librería disponibles cada vez que edites.",
+  "No transcodificar al importar y luego olvidar que se puede hacer con clic derecho en el clip (Transcode Media).",
+  "Olvidar cambiar la vista de 'Proxy Preferred' a 'Optimized & Original' antes de colorizar o exportar, lo que resulta en baja calidad final.",
+  "Dejar que Final Cut aplique LUTs automáticamente al importar: produce un look diferente y menos controlable que aplicar el mismo LUT manualmente con el efecto 'Custom LUT'.",
+  "Orden incorrecto de efectos en el inspector: poner el LUT creativo debajo del correctivo (debe ir arriba) o poner Color Adjustments debajo de los LUTs (debe ir arriba).",
+  "No usar Machine Learning como método de análisis en el motion tracker (FCP 10.7+): el método por defecto puede dar peores resultados.",
+  "Wireframe del tracker demasiado grande: el tracker se confunde con elementos del fondo; ajusta el wireframe lo más ceñido posible al objeto.",
+  "No usar 'Synchronize Clips' al importar stems de música: arrastrar pistas individuales directamente al proyecto pierde la sincronización.",
+  "Eliminar stems no deseados en lugar de deshabilitarlos: si los eliminas, no podrás recuperarlos después.",
+  "Cortar la música sin marcar downbeats: hacer cortes al azar sin alinear los tiempos fuertes hace que la transición sea audible y poco profesional.",
+  "No crear títulos 3D desde un título básico: si usas Ctrl+T y luego activas opciones 3D, no podrás keyframear los parámetros de texto ni rotar en los ejes X e Y."
+ ],
+ "fuentes_videos": [
+  {
+   "titulo": "Next Level Prism Effects for Final Cut!",
+   "url": "https://youtu.be/1Jw5Qqt4n0E",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Final Cut Pro Beginner Tutorial | Get Editing in Less Than 20 Minutes!",
+   "url": "https://youtu.be/281mCfA-umM",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "FCP Running Slow?",
+   "url": "https://youtu.be/3k-kGdMKQQo",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Apple Motion Tips | Compositing Images",
+   "url": "https://youtu.be/48PnbtoOA0s",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Stop Letting Final Cut Ruin Your Footage! | See the Right LUT Workflow",
+   "url": "https://youtu.be/4JraTOBBMT0",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "FCP vs Third Party Plugins Part II",
+   "url": "https://youtu.be/4KFGSTcNgWE",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "This FCP Music Technique Changes Everything",
+   "url": "https://youtu.be/5F8OB_7gQUE",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Editing Music in Final Cut",
+   "url": "https://youtu.be/6V_1hnmvfpg",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "3D Text in FCP  | Let's dive DEEP!",
+   "url": "https://youtu.be/74TJRgnApcc",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Final Cut Tricks | 20 Things You Didn't Know You Can Do in FCP",
+   "url": "https://youtu.be/7emNrqIewB0",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Transform Appearances with FCP's New Auto Mask!",
+   "url": "https://youtu.be/8vynHJ0zimA",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Apple Motion Flip Effect",
+   "url": "https://youtu.be/94pu7A1OlQE",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "The Vignette in FCP is Terrible. Let's fix it.",
+   "url": "https://youtu.be/9HCia_o1BJc",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Plugins for FCP | Four Must See Plugins from FCP Experts",
+   "url": "https://youtu.be/9kfNp8CmhEU",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Make Your Own LUTs for Final Cut Pro | Pixelmator Pro Tutorial",
+   "url": "https://youtu.be/AYc3C1pHiIg",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "FCP Green Screen Tutorial | Master the Chroma Key",
+   "url": "https://youtu.be/BIhUbLmOf14",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Mastering Motion Tracking In Final Cut: 15 Pro Tips For Flawless Results!",
+   "url": "https://youtu.be/C5oxyvE3Djs",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Why Does Final Cut Pro Do That!?!",
+   "url": "https://youtu.be/CSUuroK-s3g",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "5 FCP Text Hacks You Definitely Didn't Know.",
+   "url": "https://youtu.be/CWeE_E50EsY",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Unlock Infinite 3D Models for Final Cut Pro",
+   "url": "https://youtu.be/Dr2l989232w",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Long Shadow Text Animation | Apple Motion Tutorial",
+   "url": "https://youtu.be/EQt8eJI-o1I",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Final Cut Pro Tips for Content Creators!",
+   "url": "https://youtu.be/FjWeWOx83cM",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Final Cut Pro Tutorial | 10 Things the Timeline Can Do",
+   "url": "https://youtu.be/JZtDHgxa_Bk",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Game-changing New Tools for FCP Editors",
+   "url": "https://youtu.be/L94eZBMmtCw",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Retiming in Final Cut Pro | Every. Single. Option.",
+   "url": "https://youtu.be/LnU5CCToDYo",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Animating Web Pages in Apple Motion",
+   "url": "https://youtu.be/LpqgE-Le8wk",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Faux In Camera Transitions for Final Cut Pro | Apple Motion Tutorial",
+   "url": "https://youtu.be/Lv1_qAQrB0Y",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Editing Hacks | 15 Hacks Every Editor Should Know",
+   "url": "https://youtu.be/MH4bEcWp4vc",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Beat Detection in Final Cut Pro | FULL TUTORIAL",
+   "url": "https://youtu.be/MgFMB9nKn8E",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Customize Final Cut Pro | Favorites Folders, Layouts, Shortcuts & More!",
+   "url": "https://youtu.be/MnmkdOGCYtQ",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "FCP Tips for Beginners | Don't Make These Noob Mistakes!",
+   "url": "https://youtu.be/NQEDVGv1wRE",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "YouTube Hype Animation for FCP | Apple Motion Tutorial",
+   "url": "https://youtu.be/NRQfYc5MPYw",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Final Cut Tricks Pt. 2 | 25 MORE Things You Didn't Know You Can Do in FCP",
+   "url": "https://youtu.be/NxxO1dyu22o",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Turn Off The Magnetic Timeline | Final Cut Pro Tutorial",
+   "url": "https://youtu.be/ORJ_eUAtr98",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Final Cut Color Correction Hacks",
+   "url": "https://youtu.be/OfgFg3YVoTo",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Final Cut Summit Recap | Best Tips, What Happened at Apple and More!",
+   "url": "https://youtu.be/P1qDKWWmYV4",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "The Game-Changing FCP 12 Tool We Don't Talk About Enough",
+   "url": "https://youtu.be/P307RanGC5A",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Rotoscoping in FCP with No Subscription! | RotoMatic Review",
+   "url": "https://youtu.be/Q9feHlGu2lc",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "You're Not Using the Browser Enough in Final Cut Pro",
+   "url": "https://youtu.be/QbpchFDjPb4",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Using the Magnetic Mask as a Green Screen Keyer in FCP",
+   "url": "https://youtu.be/RbLcQV6HInk",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Beauty Effects for FCP | Everyone wants this filter!",
+   "url": "https://youtu.be/S4y6elxvxoU",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Tools for FCP Editors | Auto transcriptions,  Cloud Storage and More!",
+   "url": "https://youtu.be/SZCBgKsM75o",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Grids and Guides for FCP! Why doesn't FCP have these already? 🤔",
+   "url": "https://youtu.be/ScZf0kAL6iE",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "The Best FCP Color Correction Tool You're Not Using",
+   "url": "https://youtu.be/Sr6zAXAis2E",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Liquid Glass Text Effect for Final Cut Pro!",
+   "url": "https://youtu.be/T1UKq6fQLo8",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Rock the Color Tools in FCP | You Definitely Didn't Know This!",
+   "url": "https://youtu.be/Th6YEhIOyOw",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "How to Share FCP Presets | Create, Share, Install",
+   "url": "https://youtu.be/TsonInVpXs0",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "iPhone Video in Final Cut Pro | THE WORKFLOW YOU NEED TO KNOW",
+   "url": "https://youtu.be/UDcZ1r4UxUM",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "5 New Ways to Use the Magnetic Mask in Final Cut Pro",
+   "url": "https://youtu.be/VNeHFQpUOIU",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Apple Motion Highlight Tutorial",
+   "url": "https://youtu.be/W-6mPdTvT38",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Knockout Text Animation for Final Cut Pro | Apple Motion Tutorial",
+   "url": "https://youtu.be/W0AUJqlgezQ",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Magnetic Mask + Particles = Magic in FCP🪄🪄🪄 | Apple Motion Tutorial",
+   "url": "https://youtu.be/W9Q-54eKP6U",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Animating 3D Models I Made with my Phone! | In Apple Motion",
+   "url": "https://youtu.be/WkjCdze-_zg",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "How to Edit Multiple Cameras in Final Cut",
+   "url": "https://youtu.be/X5baUmK8noc",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Adjustment Clips in Final Cut Pro | SO MUCH FASTER!",
+   "url": "https://youtu.be/XP7LuYWl91w",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Closed Captions Secrets in Final Cut Pro",
+   "url": "https://youtu.be/XsNZbeDCjhY",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Sound Effects for Final Cut Pro | 10 SFX EDITING TIPS",
+   "url": "https://youtu.be/Z5L9li4ph2o",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "What is Keyframing? | Step by Step in FCP and Apple Motion",
+   "url": "https://youtu.be/_JC2gUwN86o",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Part 2: Why Does Final Cut Pro Do That?!",
+   "url": "https://youtu.be/bwq1uNdTyvk",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "20 More Things You Didn't Know Final Cut Could Do",
+   "url": "https://youtu.be/cNpuIlPI9EY",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Consolidating Media in Final Cut Pro",
+   "url": "https://youtu.be/ceFBsvHxfVs",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Apple Motion Rotoscoping Tutorial",
+   "url": "https://youtu.be/f56gZkHiOuc",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Magnetic Mask + Motion Tracking in Final Cut Pro",
+   "url": "https://youtu.be/fR4IgOAQ8Vw",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Media Management in FCP | Storage Locations, Relinking Files and More!",
+   "url": "https://youtu.be/g_AaKrHzZxs",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "5 Text Ideas for FCP | No Plugins, No Apple Motion!",
+   "url": "https://youtu.be/iGEYV9TPApk",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Final Cut Pro Multicam Tricks Nobody Talks About",
+   "url": "https://youtu.be/l-ThHCqxfCA",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Apple Motion Tutorial | STOP MOTION EFFECT",
+   "url": "https://youtu.be/lQhRH1_7Th0",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "How to Remove Plugins from Final Cut",
+   "url": "https://youtu.be/mHHYHGcmpXM",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "How to Edit Faster in Final Cut Pro | 7 Speedy Tips!",
+   "url": "https://youtu.be/mlZAUpdWQ90",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Explode Anything in Final Cut Pro!",
+   "url": "https://youtu.be/nXHmyJooGqA",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "5 Essential Effects for Final Cut Pro",
+   "url": "https://youtu.be/nzXeBnzSx-w",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "FCP iPad App Hacks | 10 Quick Tips for Final Cut for iPad Editors",
+   "url": "https://youtu.be/oI-KJiwTxG0",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Motion Tracking Text in Final Cut Pro | Hyper Realistic Tutorial for FCP",
+   "url": "https://youtu.be/oIALGC-mZLI",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Final Cut Pro VS Third Party Plugins | Which Works Better?",
+   "url": "https://youtu.be/pDA1M1wBK8s",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Final Cut Scopes Tutorial | For Beginners!",
+   "url": "https://youtu.be/qrUF1h2RW-M",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "5 More Magnetic Mask Ideas in Final Cut Pro!",
+   "url": "https://youtu.be/sJw9gNojxx8",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Full Height Browser in FCP... ON THE RIGHT! You need to see these custom layouts.",
+   "url": "https://youtu.be/t-W3yucLf74",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "REAL Keyframes in Final Cut Pro, Finally!",
+   "url": "https://youtu.be/t4n7wQKtHT0",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "6 Background Remover Ideas for Final Cut Pro",
+   "url": "https://youtu.be/t6G4TlmGiZ0",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "9 Time Saving (and Butt Saving!) AI Tools in FCP",
+   "url": "https://youtu.be/tF825ywlf8I",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Glass Pane Effects | Apple Motion Tutorial",
+   "url": "https://youtu.be/toz5GDAamUw",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Background Remover Final Cut Pro | Comparing Your Options!",
+   "url": "https://youtu.be/v4F1Wo0jcPE",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "FCP for iPad Update | AI Tools, New Workflows and More!",
+   "url": "https://youtu.be/vXLAMLtDpZM",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Best Final Cut Shortcuts | 30+ Hacks to Speed Up Your Workflow",
+   "url": "https://youtu.be/wBrWkHBEqh8",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Holy Shift!  You're not using the Shift Key Enough in FCP",
+   "url": "https://youtu.be/wege1F_4ma8",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "How to Get Your FCP Transcripts in Under 2 Minutes",
+   "url": "https://youtu.be/wqoCdpLiC2E",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Data Dials for Final Cut Pro! | Apple Motion Tutorial with Rigs",
+   "url": "https://youtu.be/x8QG1F2JpJE",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Best Multicam Audio Workflow in Final Cut Pro",
+   "url": "https://youtu.be/y9OUbGOfTzE",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Master the Magnetic Mask in FCP | Step by Step to Flawless Results!",
+   "url": "https://youtu.be/yfl5w0Q-SIU",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Final Cut Pro Tutorial | Do This Not That!",
+   "url": "https://youtu.be/yk5EAjcIrw4",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "You Asked For It! | Viewer requested Apple Motion Tutorial",
+   "url": "https://youtu.be/z-OmMXQICSs",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "How to Make a Final Cut Transition in Apple Motion",
+   "url": "https://youtu.be/z2USbwBcaFo",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 8 - Los Efectos de audio y Música para nuestros videos",
+   "url": "https://youtu.be/368HIqt7t3k",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Final Cut Pro 11: PRO AUDIO (clean voice + music + levels)",
+   "url": "https://youtu.be/39BSkCEKniM",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "¿Cómo hacer un anuncio / Spot Publicitario con bajo presupuesto en Final Cut Pro X?",
+   "url": "https://youtu.be/5C3MoUYLhe8",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso de Motion 5 tutorial en español - 🎬 * Capítulo 5 - Seguimiento de la animación o tracking.",
+   "url": "https://youtu.be/7GGC6sWYLsA",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Course - Final Cut Pro X - 2020 - 🎬 * Chap. 14 - How to make an animated map with Final Cut Pro X?",
+   "url": "https://youtu.be/7I5tNXNtYkM",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Course - Final Cut Pro X - 2020 - 🎬 * Chapter 10 - Appearance Effect",
+   "url": "https://youtu.be/7WqsRqgR0w8",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso de edición de video - Final Cut pro X - 2020 - 🎬 * Capítulo 1 - Primeros pasos",
+   "url": "https://youtu.be/8we18vynEj8",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "🔴 ¿Cómo editar historias para Instagram de forma profesional? 🔴",
+   "url": "https://youtu.be/A8RAntFK6Dc",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 12- Efecto intro cinematográfica -",
+   "url": "https://youtu.be/AOktJk-R_gE",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "FREE Final Cut Pro 11 Course - Chapter 3: The Tools - TIPS AND TRICKS",
+   "url": "https://youtu.be/B4S3IecL-S8",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 9 - Chroma Key - Pantalla Verde - Especial 100",
+   "url": "https://youtu.be/Bcyx82j9Hww",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 11-  Corrección de color y Etalonaje",
+   "url": "https://youtu.be/Epwhtg8Doew",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 21 - Corregir un error común del Chroma Key.",
+   "url": "https://youtu.be/G9m0JOhoK0s",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 3 - El Canvas: Transformación-Recorte-Distorsión",
+   "url": "https://youtu.be/OElnCcWhEhw",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "FREE COURSE FINAL CURT PRO 12 - Chapter 9 - Keyframes - KEYFRAMES",
+   "url": "https://youtu.be/Sws0MKVUpeI",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Your FIRST EDITING EXERCISE with FINAL CUT PRO 11",
+   "url": "https://youtu.be/TUZCKiO5PKc",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "FREE COURSE FINAL CURT PRO 12 - Chapter 5 - TITLES AND GENERATORS",
+   "url": "https://youtu.be/ToK-2Vi4GX0",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Course - Final Cut Pro X - 2020 - 🎬 * Chapter 7 - Keyframes",
+   "url": "https://youtu.be/Ty_9c8PZEQY",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 19 - Subtítulos",
+   "url": "https://youtu.be/U5ssZJAV3B8",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "FREE Final Cut Pro 11 Course - Chapter 1: First Steps",
+   "url": "https://youtu.be/YSjhUfhMI2U",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 6 - Títulos y Generadores",
+   "url": "https://youtu.be/czHZqTjakWU",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "🔴 Animaciones Suscríbete y Campanita para Final Cut Pro X 🔴  🎬  🎬",
+   "url": "https://youtu.be/eWurIw54gNM",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 16- ¿Cómo exportar tu película final a un archivo?",
+   "url": "https://youtu.be/euQI4xQa2Sg",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 17- Corrigiendo colores planos o nativos.",
+   "url": "https://youtu.be/f6fQXT5j2H4",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Course - Final Cut Pro X - 2020 - 🎬 * Chap. 18 - Masks in Final Cut Pro X",
+   "url": "https://youtu.be/hiVGXG9kaGk",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso de edición de video - Final Cut pro X - 2020 - 🎬 * Capítulo 2  - La línea de tiempo.",
+   "url": "https://youtu.be/i6uQ1nSbphA",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Course - Final Cut Pro X - 2020 - 🎬 * Chapter 13 - Cloning Effect -",
+   "url": "https://youtu.be/jsQ8wKz0fpQ",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "FREE COURSE FINAL CURT PRO 12 - Chapter 8 - TRANSITIONS",
+   "url": "https://youtu.be/m4pgOPg2jWo",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 15 - ¿Cómo editar de forma fluida videos a 4k?",
+   "url": "https://youtu.be/oFdZ5c1hOxE",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "FREE VIDEO - Final Cut Pro 12 Course - Chapter 6: Time-lapse and Slow Motion",
+   "url": "https://youtu.be/pwVDFkepktM",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 20 - Multicámaras - (¡Sorteo en este Video!)",
+   "url": "https://youtu.be/q0xHWeS_axk",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "NEW FEATURES Final Cut Pro 12 - AI FOR MUSIC WITH FINAL CUT",
+   "url": "https://youtu.be/rAXlt-AV0ug",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 4 - Las transiciones de video y los efectos de video",
+   "url": "https://youtu.be/sRlJq_hJZC4",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "FREE COURSE FINAL CURT PRO 12 - Chapter 7 - SPEED RAMPS",
+   "url": "https://youtu.be/tsm_hn5YfmE",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 5 - Balance de Blancos y Correspondencia de color",
+   "url": "https://youtu.be/xo1W_rrsZ0E",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Mis consejos para editar videos - ¡Respondo vuestras preguntas! 🎬🎬🎬🎬",
+   "url": "https://youtu.be/yXKZ4qEd_qI",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Faster Editing for FCP | 2026 Update",
+   "url": "https://youtu.be/fupRtfM6PNA",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "FCP iPad App Quickstart | Up and running in 13 Minutes!",
+   "url": "https://youtu.be/-pYunDidZTc",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "How to Install Motion Array Plugins in Final Cut | And WHY this is so confusing",
+   "url": "https://youtu.be/-e94lSVTXkA",
+   "canal": "jennjagerpro"
+  },
+  {
+   "titulo": "FREE Final Cut Pro 11 Course - Chapter 2: The Timeline",
+   "url": "https://youtu.be/7OmUc9zvfIo",
+   "canal": "mundoaudiovisual"
+  }
+ ]
+}

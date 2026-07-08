@@ -1,0 +1,62 @@
+{
+ "id": "cinematografia-drones-fpv__p3",
+ "disciplina": "foto-cinematografia",
+ "area": "drones-fpv",
+ "titulo": "Fotografía con DJI Mini 2 y montaje de dron FPV",
+ "que_ensena": "Revelado de RAW del DJI Mini 2 en Lightroom, fotografía de larga exposición con filtros ND, y montaje completo de un dron FPV de 3.5 pulgadas desde cero, incluyendo soldadura y configuración.",
+ "reglas_para_agentes": [
+  "Usa 'Eliminar neblina' (Dehaze) solo en valores bajos (10-20) para evitar saturación excesiva.",
+  "Nunca subas la saturación general por encima de 20-25; prefiere ajustes locales con pincel.",
+  "Siempre revisa el histograma después de cada ajuste para asegurar que no se pierde información en sombras o altas luces.",
+  "Cuando uses el pincel de ajuste en Lightroom, pinta primero el área completa y luego ajusta los parámetros.",
+  "Aplica filtros graduados solo en cielos o áreas lineales; usa pinceles para zonas irregulares.",
+  "Compara el antes y después frecuentemente para verificar que los cambios mejoran la imagen.",
+  "Usa filtro ND 1000 en condiciones de luz normal o nublada; usa ND 2000 solo en días muy soleados.",
+  "Nunca excedas ISO 500 con filtro ND; mantén ISO entre 100 y 400 para evitar ruido excesivo.",
+  "Activa siempre las guías de vuelo (cruz) con gimbal a 0° cuando vueles cerca de árboles o obstáculos.",
+  "Toma al menos 20 fotos de larga exposición para asegurar 10 utilizables; no confíes en una sola toma.",
+  "Mantén el dron siempre a la vista y practica en zonas abiertas antes de volar en áreas arboladas.",
+  "Usa flux en las soldaduras de los conectores de motores, pero limpia siempre con alcohol después.",
+  "Nunca aprietes los tornillos del frame hasta tener todas las piezas posicionadas; haz el ajuste final al terminar.",
+  "Usa silicona caliente para aislar las soldaduras de corriente (positivo y negativo de la batería) antes de soldar los motores.",
+  "Verifica continuidad con multímetro antes de conectar la batería: positivo y negativo no deben tener continuidad entre sí.",
+  "Usa cables rojo para positivo y negro para negativo en toda la instalación de batería.",
+  "Cuando empalmes cables de la unidad aérea DJI O3, usa retráctil termocontraíble para cubrir la soldadura y aplica calor para sellar."
+ ],
+ "prompts_y_recetas": [
+  "Revelado RAW en Lightroom: abre el RAW, aplica contraste inicial, ajusta 'Eliminar neblina' (10-20), modifica blancos y negros para definir rango dinámico, corrige balance de blancos (sube temperatura para tonos cálidos), usa curva de tonos (baja un punto en la parte inferior, sube otro en la superior), ajusta canales individuales (baja rojos ligeramente, sube verdes en la parte baja), aplica filtro graduado en el cielo para reducir exposición, usa pincel de ajuste en sombras (sube temperatura, aumenta contraste, sube saturación, baja negros, sube sombras), y filtro radial para definir punto focal.",
+  "Fotografía de larga exposición con DJI Mini 2: coloca filtro ND 1000 (o ND 2000 en día soleado), activa modo manual, ajusta velocidad de obturación a 4 segundos, configura ISO entre 100 y 400, ajusta EV entre -1 y -0.7, activa guías de vuelo (cruz) con gimbal a 0°, toma al menos 20 fotos, selecciona las nítidas (aprox. 50% utilizables).",
+  "Montaje de dron FPV: ensambla frame sin apretar tornillos, instala placa controladora 'todo en uno' con conector DJI O3 hacia adelante, suelda cables de batería (rojo positivo, negro negativo) con condensador de 35V en paralelo, aísla soldaduras de corriente con silicona caliente, verifica continuidad con multímetro, suelda motores con pequeñas bolitas de estaño, empalma cables de unidad aérea si quedan tirantes usando retráctil termocontraíble, aprieta todos los tornillos al final."
+ ],
+ "errores_comunes": [
+  "Excederse con 'Eliminar neblina' satura la imagen artificialmente.",
+  "Ajustar la exposición global antes de recuperar sombras con pinceles en Lightroom.",
+  "Ignorar el balance de blancos: una temperatura incorrecta puede hacer perder información en el histograma.",
+  "Usar un solo ajuste para toda la imagen cuando hay grandes diferencias entre sombras y altas luces.",
+  "Dejar sombras completamente negras sin intentar recuperar detalle, ya que el RAW del Mini 2 tiene buen rango dinámico.",
+  "No usar filtros ND para larga exposición imposibilita el efecto sedoso.",
+  "Ignorar la falta de sensores laterales del Mini 2 provoca choques con ramas o árboles.",
+  "Subir el ISO por encima de 400 introduce ruido visible en larga exposición.",
+  "Confiar en que todas las fotos de larga exposición saldrán nítidas: solo la mitad son aprovechables.",
+  "Cables tirantes de la unidad aérea DJI O3 sin empalmar pueden dañar las conexiones.",
+  "Soldaduras de corriente sin aislar pueden causar cortocircuito con la placa.",
+  "No verificar continuidad con multímetro antes de conectar la batería puede provocar explosiones."
+ ],
+ "fuentes_videos": [
+  {
+   "titulo": "DJI MINI 2 - REVELANDO FOTOGRAFÍAS EN RAW!",
+   "url": "https://youtu.be/x6k6RMpeVBg",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 2 - Fotografía de larga exposición",
+   "url": "https://youtu.be/_-RfHlH3LCk",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "TUTORIAL: MONTANDO UN DRON FPV - Capítulo 1 - Montaje y Soldaduras",
+   "url": "https://youtu.be/-bWaEmPKPC0",
+   "canal": "mundoaudiovisual"
+  }
+ ]
+}

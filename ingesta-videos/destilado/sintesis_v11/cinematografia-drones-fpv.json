@@ -1,0 +1,322 @@
+{
+ "id": "cinematografia-drones-fpv",
+ "disciplina": "foto-cinematografia",
+ "area": "drones-aereos",
+ "titulo": "Guía completa de cinematografía con drones: vuelo, edición y fotogrametría",
+ "que_ensena": "Enseña a planificar y ejecutar tomas cinematográficas con drones DJI (Mini 3 Pro, Air 3, Mini 5 Pro, Avata) y FPV, incluyendo técnicas de vuelo manual, uso de waypoints, hyperlapses, fotogrametría, corrección de color en DaVinci Resolve y edición con speed ramps. Cubre desde la configuración de cámara y filtros ND hasta la gestión de baterías y seguridad en vuelo, así como el montaje de drones FPV y revelado RAW.",
+ "reglas_para_agentes": [
+  "Usa el histograma para verificar exposición antes de cada toma; nunca confíes solo en la vista previa.",
+  "Coordina altura y posición con otros pilotos cuando vueles múltiples drones en el mismo espacio.",
+  "Nunca vueles en propiedad privada sin autorización explícita por escrito del propietario.",
+  "Activa el modo cine para órbitas y movimientos lentos; cambia a modo normal solo para desplazamientos más rápidos.",
+  "Mantén el objetivo centrado en el encuadre durante retrocesos y ascensos.",
+  "Verifica la batería antes de cada vuelo; aterriza cuando el dron indique batería baja.",
+  "Para FPV: usa baterías más ligeras si buscas mayor flotabilidad y estabilidad en maniobras invertidas.",
+  "Usa siempre la función de waypoints guardados cuando quieras repetir exactamente la misma trayectoria en diferentes condiciones de luz o clima.",
+  "Cuando crees un efecto de paralaje, marca al menos 4-5 puntos de trayectoria con el punto de interés centrado en cada uno; a más puntos, mejor el efecto.",
+  "Nunca confíes en los sensores de obstáculos del dron en condiciones de baja luz; verifica visualmente que la ruta esté libre de obstáculos antes de ejecutar waypoints nocturnos.",
+  "Usa el modo 'Path' dentro de Hyperlapse para definir waypoints en Mini 3 Pro; no uses DJI Fly directamente para waypoints.",
+  "Al pegar ajustes de Lightroom con máscaras, selecciona 'Replace Masks' explícitamente (está desactivado por defecto).",
+  "Aplica Warp Stabilizer con configuración 'Detailed Analysis' y 'Enhanced Reduction' para Hyperlapses con velocidad de obturación lenta.",
+  "En DaVinci Resolve, usa un compound clip antes de aplicar la rampa de velocidad para mantener la transición sincronizada.",
+  "Usa waypointmap.com (versión gratuita) para generar rutas de mapeo automáticas cuando no tengas acceso a SDK o apps de pago.",
+  "Siempre crea dos waypoints manuales en el RC2 antes de importar archivos externos, para que DJI genere la estructura de carpeta y el archivo de referencia.",
+  "Renombra el archivo KMZ importado con el nombre exacto del archivo de waypoint original de DJI (incluyendo extensión) antes de copiarlo a la carpeta waypoint/.",
+  "En Agisoft Metashape, activa siempre Rolling Shutter Compensation > Full antes de orientar fotos tomadas con drones de obturador electrónico.",
+  "Desactiva siempre los sensores de obstáculos cuando vueles cerca de objetos, ramas o suelo; de lo contrario, el dron frenará o se desviará arruinando la toma.",
+  "Nunca vueles mirando solo la pantalla en tomas de proximidad; mantén el dron a la vista para evitar choques.",
+  "Aplica la regla del ángulo de 180°: la velocidad de obturación debe ser el doble de la tasa de cuadros (ej. 30 fps → 1/60).",
+  "No dudes al mover los joysticks en vuelos de proximidad; el movimiento debe ser decidido y constante.",
+  "Sincroniza cada corte de video con un golpe o cambio en la pista de música para mantener el ritmo.",
+  "Convierte keyframes de velocidad a curva en speed ramps para transiciones orgánicas, no abruptas.",
+  "Bloquea las pistas de música y efectos de sonido después de colocarlas para no moverlas accidentalmente al editar.",
+  "Usa siempre formato RAW en el DJI Mini 3 Pro cuando el objetivo sea editar las fotos después; nunca uses JPEG si planeas correcciones de color o exposición.",
+  "Usa balance de blancos manual siempre, nunca automático, para evitar cambios bruscos de color.",
+  "Nunca despegues sin tener al menos 8 satélites y el punto de retorno a casa (RTH) confirmado.",
+  "Desactiva RockSteady y HorizonSteady en el DJI Avata antes de grabar si planeas estabilizar después con Gyroflow.",
+  "En Gyroflow, nunca bloquees el horizonte al 100%; usa 80-89% para conservar sensación de movimiento natural.",
+  "Usa 'Eliminar neblina' (Dehaze) solo en valores bajos (10-20) para evitar saturación excesiva.",
+  "Nunca subas la saturación general por encima de 20-25; prefiere ajustes locales con pincel.",
+  "Usa filtro ND 1000 en condiciones de luz normal o nublada; usa ND 2000 solo en días muy soleados.",
+  "Nunca excedas ISO 500 con filtro ND; mantén ISO entre 100 y 400 para evitar ruido excesivo.",
+  "Verifica continuidad con multímetro antes de conectar la batería: positivo y negativo no deben tener continuidad entre sí."
+ ],
+ "prompts_y_recetas": [
+  "Para transición día a noche con waypoints: graba la ruta de día con balance de blancos fijo en 5700K y 4K a 60 fps. Luego repite la misma ruta de noche en modo nocturno con 30 fps y obturación a 60. En DaVinci Resolve, coloca el clip diurno arriba y el nocturno abajo, reduce opacidad del superior para alinear, ajusta zoom y posición, crea un compound clip y aplica speed ramp con Control+R.",
+  "Para efecto de paralaje con DJI Mini 3 Pro: configura modo Cinema, resolución 1/60, ISO Auto, balance de blancos 5400K, perfil de color Cinema. Centra el objeto en la retícula, inicia una órbita muy lenta alrededor del objeto manteniéndolo en el eje X. Para mayor sensación, aplica zoom digital mientras orbitas.",
+  "Para fotogrametría con DJI Mini 5 Pro sin SDK: usa waypointmap.com para planificar la ruta (altitud 60 m, velocidad 9 km/h, gimbal -75°). Descarga KMZ, crea dos waypoints manuales en RC2, renombra el KMZ con el nombre exacto del archivo DJI, reinicia RC2. En cámara: 50 MP, JPG, temporizador 5 segundos. Procesa en Agisoft Metashape con Rolling Shutter Compensation Full.",
+  "Para corrección de color cinematográfica en DaVinci Resolve: crea proyecto 4K a 25 fps. Aplica DJI LUT en primer nodo, baja sombras, sube saturación. Segundo nodo: sube temperatura. Tercer nodo: power window circular alrededor del objeto principal, duplica e invierte máscara para bajar sombras y exposición del fondo. Cuarto nodo: nitidez al objeto, desenfoque al fondo.",
+  "Para speed ramp en DaVinci Resolve: presiona Control+R sobre el clip, añade puntos de velocidad (Add Speed Point) al inicio y fin del tramo a acelerar. Arrastra el borde del clip entre puntos para ajustar velocidad. Presiona Shift+C, selecciona el punto y conviértelo a curva (icono de curva) para transición orgánica. Genera archivos optimizados antes de reproducir.",
+  "Para hyperlapse con DJI Mini 2: usa accesorio de tornillo para joystick a 0.1 m/s. Configura modo Pro, ND1000, obturación 1 segundo, exposición +0.3, intervalo 5 segundos. Edita en Lightroom: ajusta curvas, dehaze, copia ajustes a todas las fotos. En Premiere Pro: importa como secuencia de imágenes, aplica Warp Stabilizer con Subspace Deformation y Enhanced Reduction.",
+  "Para vuelo FPV manual con DJI Avata: practica primero en simulador DJI Virtual Flight. Afloja la palanca del acelerador, ajusta gimbal tilt a 30°. En modo manual, el stick derecho controla inclinación (adelante/atrás/lateral) y el izquierdo controla potencia y yaw. Usa el botón de pánico si pierdes el control.",
+  "Para ActiveTrack con DJI Mini 3 Pro en rutas con curvas: eleva el dron a 15 m, selecciona Path Mode (no Parallel Mode), coloca el dron detrás del vehículo, mantén velocidad entre 7-10 km/h. Si pierde el objetivo, gira el dron manualmente hacia el vehículo y re-selecciona en pantalla.",
+  "Para QuickShots con speed ramp: activa QuickShot en modo Video, selecciona Dronie, Rocket u Orbit. Graba a 50 fps para permitir cámara lenta. En DaVinci Resolve, aplica corrección de color (Saturation Matrix), luego Shift+R para añadir velocity points, comprime la sección entre puntos y convierte a curva. Sincroniza con la música.",
+  "Para configuración de DJI O3 Air Unit en FPV: usa regla de 180° (shutter = 2 × fps), ISO automático, balance de blancos fijo en 5700K, perfil Cinematic. Coloca filtro ND (ND16 para día soleado) y filtro UV para protección. En DaVinci Resolve, ajusta curvas logarítmicas (bajar sombras), aplica contraste y saturación.",
+  "Para mapeo con DJI Air 3: usa controlador RC2 con teléfono, configura cámara en RAW a 48 MP efectivos, temporizador 5 segundos. Vuela a 65 m con gimbal a 75°. Crea waypoints manuales en mapa satélite, velocidad 15-17 km/h. Procesa en Agisoft Metashape: importa fotos, orienta con calidad máxima, construye nube densa Ultra High y malla.",
+  "Para evitar quemar motores FPV: usa pista de despegue/aterrizaje en terrenos con tierra o arena. Después de cada vuelo o crash, limpia los motores con soplador con cepillo. Revisa hélices antes de armar. Limpia el lente de la cámara con paño suave. Vuela la primera batería del día sin calentar el dron.",
+  "Transición día a noche en DaVinci Resolve: superpone clip nocturno sobre diurno, baja opacidad al 50% para alinear elementos, aplica keyframes de opacidad (0%→100%), crea compound clip, añade Speed Points con Control+R, suaviza con Shift+C→curva, aplica Directional Blur ángulo 180° con keyframes de intensidad.",
+  "Hyperlapse nocturno con Mini 3 Pro: configura RAW, obturación 1/2s, ISO 100, WB 5300K, EV -2.3, intervalo 3s, duración 12-14s. Edita en Lightroom: baja temperatura, sube sombras/negros al máximo, satura azules/púrpuras, reducción de ruido luminance 60%. Exporta como secuencia JPG, importa en Premiere como Image Sequence, aplica Warp Stabilizer con Detailed Analysis.",
+  "Corrección de color CineLike a Rec.709 en Premiere: en módulo Color, sube contraste, ajusta highlights/whites, curva en S, temperatura, y en Color Grading aplica azules en sombras y naranjas en altas luces. Opcional: aplica LUT gratuito CineLike a Rec.709.",
+  "Estabilización con Gyroflow para DJI Avata: desactiva RockSteady/HorizonSteady, graba a 4K 60fps con obturador 1/120. En Gyroflow: arrastra video, ajusta Horizon Lock 80-89%, Smoothing 0.7, exporta. Edita en Premiere con corrección de color.",
+  "Fotogrametría con Mini 3 Pro en Metashape: importa fotos RAW, Tools→Camera Calibration→Shooting Compensation 'Full', orienta con calidad Maximum, crea nube de puntos densa (Extra Quality), crea malla (Extra High con Vertex coloring y Depth map reuse), crea textura, DEM, ortomosaico y curvas de nivel.",
+  "10 planos cinematográficos con Mini 5 Pro: configura ND32, 50fps, D-Log M, ISO 100. Planos: revelado de paisaje (gimbal abajo→arriba), grabar RTH, espiral ascendente, órbita manual, dolly zoom con zoom digital, espiral inversa con Spotlight, vuelo inverso, vuelo rasante sobre agua, rotación de gimbal, acercamiento máximo + revelado inverso.",
+  "Revelado RAW en Lightroom: abre el RAW, aplica contraste inicial, ajusta 'Eliminar neblina' (10-20), modifica blancos y negros para definir rango dinámico, corrige balance de blancos (sube temperatura para tonos cálidos), usa curva de tonos (baja un punto en la parte inferior, sube otro en la superior), ajusta canales individuales (baja rojos ligeramente, sube verdes en la parte baja), aplica filtro graduado en el cielo para reducir exposición, usa pincel de ajuste en sombras (sube temperatura, aumenta contraste, sube saturación, baja negros, sube sombras), y filtro radial para definir punto focal.",
+  "Fotografía de larga exposición con DJI Mini 2: coloca filtro ND 1000 (o ND 2000 en día soleado), activa modo manual, ajusta velocidad de obturación a 4 segundos, configura ISO entre 100 y 400, ajusta EV entre -1 y -0.7, activa guías de vuelo (cruz) con gimbal a 0°, toma al menos 20 fotos, selecciona las nítidas (aprox. 50% utilizables).",
+  "Montaje de dron FPV: ensambla frame sin apretar tornillos, instala placa controladora 'todo en uno' con conector DJI O3 hacia adelante, suelda cables de batería (rojo positivo, negro negativo) con condensador de 35V en paralelo, aísla soldaduras de corriente con silicona caliente, verifica continuidad con multímetro, suelda motores con pequeñas bolitas de estaño, empalma cables de unidad aérea si quedan tirantes usando retráctil termocontraíble, aprieta todos los tornillos al final.",
+  "Edición profesional en LumaFusion: crea proyecto 30fps 16:9, importa desde Linked Folder, sincroniza cortes con waveform de música, aplica corrección de color manual (Levels, Contrast, Saturation, Highlight amount), guarda look como favorito, usa transición Dissolve, limita velocidad a 6x, exporta en 4K H.264 10-bit.",
+  "Vuelo FPV acro desde cero: practica en simulador LiftOff, ajusta cámara con inclinación mínima, conecta batería con cable de voltaje entre alimentación. Ejercicios: control de altitud estática, figura en ocho grande, figura en ocho cerrada, seguir un camino, punch y recuperación, flips/rolls en altura. Aterriza lentamente con cámara inclinada.",
+  "Fotografía RAW y HDR con Mini 3 Pro: captura 5 exposiciones, combínalas en Lightroom con Photo Merge→HDR (Ghosting Alto). Ajusta sombras, verdes hacia amarillos, gradación de color (naranja en sombras, azul en luces), máscara radial para iluminar selectivamente. Recorta a 4:5 para Instagram, elimina objetos en Photoshop con Content-Aware Fill.",
+  "Planificación de sesión de vuelo: usa En Aire Drones para verificar restricciones, prepara mochila con cámara, grabador de audio, drone, filtros ND, kit de limpieza, power bank, baterías extra. Al llegar, inspecciona visualmente el área (cables, personas, obstáculos)."
+ ],
+ "errores_comunes": [
+  "No asumir que se puede volar libremente en propiedad privada sin permisos.",
+  "No apresurar las órbitas; la velocidad lenta permite añadir speed ramps en postproducción.",
+  "No ignorar las alertas de batería baja; aterriza inmediatamente cuando aparezcan.",
+  "No descuidar la detección de obstáculos: el Mini 3 Pro detecta obstáculos correctamente, pero hay que estar atento.",
+  "No compartir públicamente tomas interiores de propiedades privadas sin consentimiento del propietario.",
+  "No subestimar el riesgo de vuelo FPV entre árboles: pueden ocurrir choques y caídas.",
+  "Velocidad demasiado baja en waypoints: si la ruta se siente muy lenta, aumenta la velocidad (ej. de 9 km/h a 14 km/h o 22 km/h).",
+  "No guardar la ruta de waypoints: si no guardas el plan después de crearlo, no podrás repetirlo más tarde.",
+  "Sensores de obstáculos en noche: los sensores no funcionan bien con poca luz, hay que volar en zonas conocidas y despejadas.",
+  "No centrar el punto de interés en cada punto para el efecto de paralaje: el objeto se moverá en el encuadre.",
+  "Usar DJI Fly para waypoints en Mini 3 Pro: la función solo funciona dentro del modo Hyperlapse.",
+  "No copiar las máscaras al pegar ajustes en Lightroom: están desactivadas por defecto, hay que seleccionar 'Replace Masks'."
+ ],
+ "fuentes_videos": [
+  {
+   "titulo": "MAKING OFF - Así hacemos un TRABAJO AUDIOVISUAL CON DRONES",
+   "url": "https://youtu.be/0ot-mPoXKXE",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI AIR 3 🔥Way Points🔥Y transiciones de DÍA ☀️ A NOCHE 🌕  CREA DE FORMA DIFERENTE",
+   "url": "https://youtu.be/6RT_oB7NAdQ",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 3 PRO | Transición DE DÍA A NOCHE ☀️➡️🌛 con los WAYPOINTS del MINI 3 PRO para HYPERLAPSES",
+   "url": "https://youtu.be/6kFJpvwg4pk",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 5 PRO 🔥 MAPPING 🔥 PROFESSIONAL PHOTOGRAMMETRY 🟡 FREE AND WITHOUT OPEN SDK",
+   "url": "https://youtu.be/7Q5OOXYKT9U",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "💡 DJI MINI 3 PRO 💡 FLY DIFFERENTLY COMPLETE TUTORIAL in Spanish",
+   "url": "https://youtu.be/8_viixtEd-Q",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI Mini 5 Pro - Color Profiles - ARE NOT WHAT THEY USED TO BE",
+   "url": "https://youtu.be/97g9RGSEToA",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 3 PRO🔥 MY 10 ESSENTIAL MOVES.",
+   "url": "https://youtu.be/9qtYhYzkS0E",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "FOTOGRAMETRÍA CON EL DJI AIR 3  | Consigo la MÁXIMA CALIDAD en fotogrametría",
+   "url": "https://youtu.be/AGIIAKojMLo",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "TIPS and TRICKS to master your FPV DRONE in MANUAL",
+   "url": "https://youtu.be/CKua02VKw6E",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 2 - HYPERLAPSE with the DJI Fly - YES WE CAN!",
+   "url": "https://youtu.be/GnSTWSQAots",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 5 PRO - MOVIE-LIKE DRONE FOOTAGE - COLOR GRADING",
+   "url": "https://youtu.be/ILVKLUgHRmg",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "CURSO DE FOTOGRAMETRÍA con el DJI Mini 3 Pro 🗺️ Capítulo 2 | Planificación de la MISIÓN DRONELINK",
+   "url": "https://youtu.be/Ldy68FlCzBc",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Consejos para NO ROMPER tu DRON FPV",
+   "url": "https://youtu.be/PwKHPDNLicU",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 5 PRO | TRICK for AMAZING QuickShots 🤩",
+   "url": "https://youtu.be/Qyh5MAfDM48",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Nuevo - DJI MINI 2 - Exposición Manual y Filtros de Densidad Neutra  😎",
+   "url": "https://youtu.be/RHc_heZzZQ4",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "TOMAS DE DRON | EDITA como un PRO tus VÍDEOS DE DRON | RAMPAS DE VELOCIDAD",
+   "url": "https://youtu.be/RkFRLGlg1VU",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI AIR UNIT O3 | ¿Cómo sacar la máxima CALIDAD DE IMAGEN?",
+   "url": "https://youtu.be/TZJYx14JRQc",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 3 PRO | Crea VÍDEOS DIFERENTES con el EFECTO PARALLAX",
+   "url": "https://youtu.be/TiyHgC6LvcM",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 3 PRO ActiveTrack Tracking Mode",
+   "url": "https://youtu.be/Tu_dgrOhblU",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI AVATA 🔴🛩️ Vuela en MODO MANUAL de 0 A PRO | Capítulo 1 -   Primeros pasos | EL SIMULADOR 🛩️🔴",
+   "url": "https://youtu.be/V60A8jZcs74",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "TUTORIAL: MONTANDO UN DRON FPV - Capítulo 2 - Configuración en  BETAFLIGHT",
+   "url": "https://youtu.be/VarCvuNyYxk",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI AVATA 🔥 PROGRESO ADECUADAMENTE  💪 Vuela en MODO MANUAL de 0 A PRO -  Capítulo 3",
+   "url": "https://youtu.be/VrFsIYeDwV8",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI AIR 3 🔥 HOW DID I TRANSITION FROM DAY TO NIGHT? THE MAGIC OF EDITING (REVEALED)",
+   "url": "https://youtu.be/VtkON9eqJqk",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "TUTORIAL: MONTANDO UN DRON FPV - Capítulo 3 - EL PRIMER VUELO",
+   "url": "https://youtu.be/Vygn9qIomqQ",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI Mini 3 Pro PHOTOGRAMMETRY COURSE 🗺️ Chapter 3 | Modeling with Agisoft Metashape",
+   "url": "https://youtu.be/Wt-NBSEJXDg",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 3 PRO - FREEWELL - LOS MEJORES FILTROS ND para tu DRON",
+   "url": "https://youtu.be/XnIZmTqQ4sA",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI Mini 3 Pro - GRABA Y EDITA vídeos ÉPICOS - Parte 1",
+   "url": "https://youtu.be/Y8kxOTiUpPs",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI Mini 3 Pro - GRABA Y EDITA vídeos ÉPICOS - Parte 2",
+   "url": "https://youtu.be/_Sr8UxlqHYA",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "🔴 DJI AVATA  | ⚠️  Si quieres hacer BUENOS VIDEOS...  esto TIENES QUE VERLO",
+   "url": "https://youtu.be/aTVzwQ8TP-Q",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 3 PRO - EDIT your videos PROFESSIONALLY from your SMARTPHONE 📱",
+   "url": "https://youtu.be/bM3f5N7QrFo",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Todo lo que hago cuando SALGO A VOLAR MIS DRONES - ¡Mi Ritual! 🛩️💭",
+   "url": "https://youtu.be/eGiND5IVdN0",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Tutorial de VUELO FPV en MODO ACRO - ¿CÓMO EMPEZAR A VOLAR FPV?",
+   "url": "https://youtu.be/evprBV5Yq6c",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 3 PRO - HYPERLAPSE - Complete Tutorial: How to record and edit them.",
+   "url": "https://youtu.be/fH4I4sgV0B0",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 3 PRO - EDITANDO mi VIDEO para el CONCURSO del DRONE FUTURE 2022.",
+   "url": "https://youtu.be/fn3I9cHaaY4",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 3 PRO -   Hyperlapse Nocturno - Tutorial Completo",
+   "url": "https://youtu.be/foY4sJ2yk-0",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "CURSO DE FOTOGRAMETRÍA con el DJI Mini 3 Pro 🗺️ Capítulo 1 | ¿Qué es la FOTOGRAMETRÍA? y SOFTWARES.",
+   "url": "https://youtu.be/iHw8pQdUlX8",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "☀️ DJI MINI 3 PRO - SUNSET HYPERLAPSE 😎 How to RECORD and EDIT them?",
+   "url": "https://youtu.be/iTpGcHQBelw",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Nuevo - DJI MINI 2 - Fotografía PANORÁMICA 🌍  🏞",
+   "url": "https://youtu.be/jV3OzSWrrF8",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI AVATA 🔴🛩️ ESTRELLO el AVATA 2 VECES 🔥 | Capítulo 2",
+   "url": "https://youtu.be/o7--HgtjjT4",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 3 PRO 📸 Saca el Máximo partido a tus fotografías",
+   "url": "https://youtu.be/t3ZB9bAlPmg",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "How and Where to Edit the 10-bit D CineLike 🖌️👨‍🎨 of Your DJI Mini 3 Pro for Free!",
+   "url": "https://youtu.be/tb2nOdfdJ2Y",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI Mini 5 Pro 2026: 10 EASY and Professional Cinematic Shots",
+   "url": "https://youtu.be/tvuuNDCe3lk",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 3 PRO 🔴 VUELOS INTELIGENTES 🔴 ¿Cómo grabarlos y Cómo editarlos?",
+   "url": "https://youtu.be/vPOZ_mgA3ZQ",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "DJI MINI 2 - Procesando Fotografías HDRD 🌍 🏞",
+   "url": "https://youtu.be/vj_U4rDxBfg",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Nuevo - DJI MINI 2 -  ¡REVELANDO FOTOGRAFÍAS EN RAW!   📽  🎬  🛸",
+   "url": "https://youtu.be/x6k6RMpeVBg",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "Nuevo - DJI MINI 2 - Fotografía de larga exposición. 😎",
+   "url": "https://youtu.be/_-RfHlH3LCk",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "TUTORIAL: MONTANDO UN DRON FPV - Capítulo 1 - Montaje y Soldaduras.",
+   "url": "https://youtu.be/-bWaEmPKPC0",
+   "canal": "mundoaudiovisual"
+  }
+ ]
+}

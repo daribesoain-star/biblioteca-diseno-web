@@ -1,11 +1,11 @@
 {
  "meta": {
   "nombre": "KB Videos de Especialistas — lecciones destiladas",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "idioma": "es",
-  "descripcion": "Lecciones accionables destiladas de tutoriales reales de especialistas (YouTube/Instagram): prompting de estilos visuales IA, Google Flow/Veo, Nano Banana/Gemini, Kling, consistencia de personajes, ads/UGC con IA, motion graphics, automatización de contenido con Claude, selección de modelos de video, anime IA y presentaciones. Cada entrada fusiona y deduplica las reglas de todos los videos del tema, con prompts VERBATIM y errores comunes. Fuentes: canales @nextmindrevolution y @imskaigenerated completos (95 videos) + piezas de motion de Envato, @abhishekk.aep, @JoshT y Wonder&Render analizadas frame a frame. Se ampliará con @jennjagerpro (FCP/Motion) y @mundoaudiovisual (edición/color/drones) en v1.1.",
+  "descripcion": "Lecciones accionables destiladas de tutoriales reales de especialistas (YouTube/Instagram): prompting de estilos visuales IA, Google Flow/Veo, Nano Banana/Gemini, Kling, consistencia de personajes, ads/UGC con IA, motion graphics, automatización de contenido con Claude, selección de modelos de video, anime IA y presentaciones. Cada entrada fusiona y deduplica las reglas de todos los videos del tema, con prompts VERBATIM y errores comunes. Fuentes: canales @nextmindrevolution y @imskaigenerated completos (95 videos) + piezas de motion de Envato, @abhishekk.aep, @JoshT y Wonder&Render analizadas frame a frame. v1.1 suma los canales completos @jennjagerpro (143 videos: Final Cut Pro, Apple Motion) y @mundoaudiovisual (279 videos: DaVinci Resolve/color, cursos de Premiere/After Effects/Photoshop en español, drones DJI/FPV, cámaras y técnica de grabación). Total: 529 videos destilados.",
   "uso_agentes": "GET a este archivo o tool kb_get del MCP kb-diseno (base 'videos'). Antes de crear una pieza con IA generativa visual, video o motion, leer las 'reglas_para_agentes' y 'prompts_y_recetas' de las entradas cuya 'disciplina'/'area' calce con la tarea. Los destilados por video (más detalle) viven en ingesta-videos/destilado/ del repo.",
-  "actualizado": "2026-07-07",
+  "actualizado": "2026-07-08",
   "verificacion": "Destilado automatizado (Codex/DeepSeek) de las transcripciones oficiales de cada video + análisis visual de keyframes en las piezas de motion (ola 1), curado por Claude. Cada entrada cita sus videos fuente con URL. Los prompts marcados VERBATIM provienen textuales de la transcripción.",
   "pipeline": "ingesta-videos/ANCLA_INGESTA.md",
   "glosario_herramientas": {
@@ -1978,6 +1978,2824 @@
      "titulo": "I Tested the NEW Wan 2.2 AI Video Generator vs VEO 3 & Hailuo 02",
      "url": "https://youtu.be/zyvMgoHOChQ",
      "canal": "imskaigenerated"
+    }
+   ]
+  },
+  {
+   "id": "adobe-after-effects",
+   "disciplina": "edicion-postproduccion",
+   "area": "efectos-visuales-y-motion-graphics",
+   "titulo": "After Effects: efectos visuales, tracking, rotoscopia, chroma key y motion graphics",
+   "que_ensena": "Enseña a crear efectos visuales profesionales en After Effects: glowing con Saber, desintegración con Shatter, neón 3D, fuego, rayos X, reemplazo de pantallas con tracking 2D/3D, rotoscopia con Rotobrush, chroma key con Keylight, borrado de objetos, animación de texto con keyframes y exportación a Premiere como Gráficos Esenciales.",
+   "reglas_para_agentes": [
+    "Usa un sólido negro como base para el glow con Saber, nunca otro color.",
+    "Aplica modo de fusión Screen o Add a capas de fuego, glow, partículas y destellos para integrarlas con el fondo.",
+    "En Saber, configura Custom Core a Mask Layer para que el glow respete la máscara.",
+    "Para animar la aparición del glow, usa keyframes en Start Offset: empieza en 100 (oculto) y termina en 0 (visible).",
+    "Usa Shatter con Shape Squares y Repetitions al máximo para desintegración cuadriculada.",
+    "Reduce la resolución de vista a Half o Quarter cuando trabajes con Shatter para evitar ralentizaciones.",
+    "En Shatter, pon Gravedad a 0 si quieres que las partículas floten.",
+    "Usa Stop Tracking en opciones del tracker nativo, nunca Adapt Feature, para detectar errores inmediatamente.",
+    "Para reemplazar pantallas, usa Perspective Corner Pin como Track Type en el tracker nativo.",
+    "En Mocha, usa Transform como tipo de tracking cuando solo necesites posición; no actives Scale ni Rotation si no son necesarios.",
+    "Usa 3D Camera Tracking cuando necesites reemplazar una pantalla en un video con movimiento de cámara; selecciona al menos 4 puntos de tracking en áreas estáticas.",
+    "Aplica Corner Pin para ajustar bordes cuando la superficie objetivo no sea perfectamente rectangular.",
+    "Usa el Pincel de Rotoscopia solo dentro de la capa, nunca directamente en la composición.",
+    "Aplica Refine Edge Brush exclusivamente en bordes de cabello o pelaje, no en bordes sólidos.",
+    "Haz clic en Freeze después de ajustar el Rotobrush para evitar que After Effects recalcule el análisis.",
+    "Usa Keylight 1.2 como plugin principal para chroma key; activa la vista Screen Matte para ajustar blancos y negros.",
+    "Aplica Lumetri Color con curvas en el canal verde para corregir reflejos verdes en la piel.",
+    "Usa Content-Aware Fill cuando el objeto esté en movimiento; anima Mask Path y cambia la máscara a modo Subtract.",
+    "Usa Keyframe Interpolation con curva (Bezier) siempre que añadas keyframes de animación para suavizar entradas y salidas.",
+    "Activa Motion Blur en todas las capas animadas para dar realismo al movimiento.",
+    "Usa el botón Animate en el panel de texto para animar carácter por carácter, no Transform si necesitas efectos por letra.",
+    "Al exportar un Motion Graphics Template, define siempre el Poster Time en un fotograma donde todos los elementos sean visibles.",
+    "Usa loopOut(\"cycle\") en Time Remapping cuando un clip de fuego o humo deba repetirse indefinidamente.",
+    "Aplica Mask Feather de al menos 7 píxeles en máscaras de planos de profundidad para evitar bordes duros.",
+    "Usa F9 (Easy Ease) en keyframes de animación de encendido/apagado para transiciones suaves."
+   ],
+   "prompts_y_recetas": [
+    "Glowing con Saber: crea un sólido negro, aplica Saber, selecciona preset (ej. Kryptonite), dibuja máscara, cambia Custom Core a Mask Layer, ajusta Glow Intensity y Core Size, anima Start Offset de 100 a 0, modo Screen.",
+    "Desintegración con Shatter: aplica Keylight al clip, crea escenario 3D con piso y pared, aplica Shatter con Shape Squares, keyframe Radio en Force 1 y Force 2, gravedad 0, opacidad de 100% a 0%.",
+    "Reemplazo de pantalla con 3D Camera Tracking: activa Track Camera, selecciona 4 puntos cerca de la pantalla, crea Null 3D, vincula el clip, aplica Corner Pin y ajusta bordes fotograma a fotograma.",
+    "Tracking 2D con tracker nativo: abre Tracker, Track Motion, selecciona punto de alto contraste, Analyze Forward, crea Null Object, Edit Destination, Apply.",
+    "Rotoscopia con Rotobrush: selecciona capa, activa Rotobrush, pinta silueta en verde, borra con Alt+clic en rojo, extiende propagación, presiona Play, ajusta Feather y Contrast, Freeze.",
+    "Chroma key con Keylight: aplica Keylight 1.2, selecciona color verde con gotero, vista Screen Matte, ajusta Screen Gain (blancos) y Clip Black (negros), usa Shrink/Grow negativo (-1.5), aplica Lumetri Color bajando canal verde.",
+    "Borrado de objetos con Content-Aware Fill: dibuja máscara alrededor del objeto, anima Mask Path, cambia a Subtract, abre Content-Aware Fill, Generate Fill Layer.",
+    "Efecto neón 3D: construye escenario con ladrillos y Motion Tile, coloca logo, duplica y aplica Relleno gris + Bisel y relieve, tres capas de Fast Box Blur (10, 50, 80) con modos Hard Light y Add, luces Punto, desactiva Accepts Lights en logo.",
+    "Fuego en la mano: trackea la mano con Mocha AE, exporta a Null, coloca clip de llama, modo Add, vincula al Null, anima opacidad, ajusta temperatura de color y exposición del clip base.",
+    "Transformar foto en video: duplica foto, dibuja máscaras para planos de profundidad con Feather 7px, aplica Curvas y Lumetri para tonos rojizos, añade fuego con loopOut(\"cycle\"), modo Screen o Add, precompón y aplica wiggle(10,1) a posición.",
+    "Rayos X con Saber: trackea el ojo, crea Null, aplica Saber con preset Kryptonite, vincula Core Start al Null, anima Core End, rotoscopia el ojo con Rotobrush, aplica Lume Tree en verde, añade flare modo Screen.",
+    "Animación de texto carácter por carácter: selecciona capa de texto, haz clic en Animate > Scale, ajusta Range Selector Start de 0 a 100, añade Opacity y Rotation desde Animate, aplica Keyframe Interpolation con curva.",
+    "Exportar a Premiere como Gráfico Esencial: abre Essential Graphics, arrastra Source Text, Fill Color y Opacity al panel, define Poster Time, exporta como .mogrt.",
+    "Máscara animada para ocultar texto: dibuja máscara sobre la capa de texto, cambia a Subtract, activa keyframes en Mask Path para que siga el movimiento de las manos.",
+    "Efecto Scatter: aplica Effects > Simulation > Scatter, Shape Brick, desactiva Gravity y Mass Variance, anima Radius de pequeño a grande.",
+    "Temblor de cámara con wiggle: precompón todo excepto cámara y luces, en posición de la precomposición usa expresión wiggle(10,10).",
+    "Parpadeo de luz: crea luz Ambiente, keyframe intensidad 0 a 50, agrega expresión wiggle(10,50) en intensidad.",
+    "Estabilizar composición: precompón todas las capas, aplica Warp Stabilizer, haz clic en Analyze."
+   ],
+   "errores_comunes": [
+    "No usar sólido negro como base para Saber; el glow no se verá correctamente.",
+    "No ajustar el modo de fusión a Screen o Add en capas de fuego, glow o partículas; se ven opacas o con fondo negro.",
+    "No cambiar Custom Core a Mask Layer en Saber; el glow no sigue la máscara.",
+    "Usar Adapt Feature en lugar de Stop Tracking en el tracker nativo; da resultados imprecisos.",
+    "No precomponer el sólido antes de aplicar tracking de perspectiva; el video insertado no hereda la deformación.",
+    "No seleccionar puntos de tracking en áreas de alto contraste; el tracker falla.",
+    "No seleccionar puntos sobre la pantalla con video en movimiento al usar 3D Camera Tracking; el tracker no detecta bien el movimiento.",
+    "No ajustar bordes fotograma a fotograma con Corner Pin en reemplazo de pantallas; quedan bordes visibles.",
+    "No congelar el análisis del Rotobrush; After Effects recalcula cada vez que se reproduce.",
+    "No ajustar el desplazamiento de borde (Edge Displacement) en Rotobrush; aparecen halos blancos.",
+    "No usar valores negativos en Shrink/Grow en Keylight; los bordes verdes no se eliminan.",
+    "No corregir reflejos verdes con Lumetri Color después del chroma key; la piel o ropa se ven verdosas.",
+    "No animar Mask Path en Content-Aware Fill; el relleno falla.",
+    "Usar Add en lugar de Subtract en la máscara para Content-Aware Fill; oculta el fondo en lugar de borrar el objeto.",
+    "No activar Motion Blur en capas animadas; el movimiento se ve artificial.",
+    "No usar Keyframe Interpolation con curva; las animaciones son bruscas.",
+    "No definir Poster Time al exportar un Motion Graphics Template; la vista previa en Premiere muestra un estado incompleto.",
+    "No exponer propiedades específicas (Source Text, Fill Color) sino la capa entera al crear Essential Graphics; no son editables en Premiere.",
+    "No activar 3D Layer en capas enlazadas a nulos de tracking 3D; no siguen correctamente.",
+    "No duplicar la capa de llama para cubrir toda la duración del efecto; desaparece antes de tiempo."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 12 - Glowing con Saber",
+     "url": "https://youtu.be/46lsF9ffQMY",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 14 - Desintegración",
+     "url": "https://youtu.be/5QPJoPdnYXo",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "After Effects course in Spanish - Chapter 5 - 2D Tracking - Animation Tracking",
+     "url": "https://youtu.be/B1gKRKF5m6c",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 15 - Efecto llama de fuego en la mano",
+     "url": "https://youtu.be/CHrI1jCi2fc",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 1 - Primeros Pasos",
+     "url": "https://youtu.be/Vwrt66bf9Dc",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 11 - Efecto Neón en Entorno 3D",
+     "url": "https://youtu.be/W4Ywcj6Lrq4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 2 - Las herramientas y las máscaras",
+     "url": "https://youtu.be/W7r_s9bKUUw",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "¿Cómo transformar una fotografía en un video? con After Effects!",
+     "url": "https://youtu.be/XuITxYMbXo8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 3 - Tu Primer Efecto de Video con Fotogramas Clave",
+     "url": "https://youtu.be/YwFeZyWl7zI",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 9 - Matte Painting con After Effects",
+     "url": "https://youtu.be/_gTWfJwRX-s",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 7 - La Rotoscopia",
+     "url": "https://youtu.be/bxikwCJBW-k",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Bienvenida e introducción",
+     "url": "https://youtu.be/m-el3bEBMJU",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 6 - Tracking en 3D - Así se hizo La Casa de Papel",
+     "url": "https://youtu.be/mGKr2sP8RuA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 10 - Borrado de objetos en el plano",
+     "url": "https://youtu.be/o7Cz2BtiCg0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 13 - Visión de Rayos X",
+     "url": "https://youtu.be/obKVCqcJDKU",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 4 - Crear Gráficos Esenciales para Adobe Premiere",
+     "url": "https://youtu.be/uITfSzyZo2Q",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de After Effects en español - Capítulo 8 - El Chroma Key",
+     "url": "https://youtu.be/xHbfrU12AfI",
+     "canal": "mundoaudiovisual"
+    }
+   ]
+  },
+  {
+   "id": "adobe-photoshop-y-diseno",
+   "disciplina": "edicion-postproduccion",
+   "area": "fotografia-diseno",
+   "titulo": "Photoshop y Camera Raw: edición, composición y retoque no destructivo",
+   "que_ensena": "Flujo completo de edición fotográfica en Adobe Photoshop y Camera Raw: revelado RAW, corrección de color, selecciones y máscaras, objetos inteligentes, filtros, composición con regla de tercios, HDR manual, retoque facial con Licuar, eliminación de fondos, creación de sombras realistas, integración de elementos externos, efectos de luminancia, modos de fusión, transformaciones con perspectiva y pinceles artísticos. Cubre desde la interfaz hasta la exportación final.",
+   "reglas_para_agentes": [
+    "Usa siempre Filtro > Filtro Camera Raw para ajustes de brillo, niveles, curvas y color; nunca uses las herramientas nativas de Photoshop para esto.",
+    "Convierte a objeto inteligente (clic derecho > Convertir en objeto inteligente) ANTES de aplicar cualquier transformación (Distorsionar, Escalar, etc.) o filtro no destructivo.",
+    "Usa máscaras de capa (pincel negro para ocultar, blanco para revelar) en lugar de borrar píxeles; nunca pintes directamente sobre la imagen original.",
+    "Usa la herramienta Pluma (P) para trazados precisos; mantén Control/Cmd para mover nodos sin cambiar curvatura.",
+    "Usa Alt + clic derecho + arrastrar (Windows) o Shift+2/Shift+1 (Mac) para cambiar tamaño del pincel sobre la marcha.",
+    "Usa la herramienta Recortar (C) con superposición de regla de tercios activada para reencuadrar composiciones.",
+    "Usa Seleccionar sujeto + Seleccionar y aplicar máscara con pincel de refinar borde (R) y dureza baja para pelo y bordes complejos.",
+    "Usa Filtro > Licuar para retoque facial; activa detección facial automática y aplica presión baja (<50) con pincel grande.",
+    "Usa el panel de capas como elemento central de cualquier flujo de trabajo; lo que está arriba en la lista aparece encima en el canvas.",
+    "Usa la herramienta Mover (V) para reposicionar capas; doble clic en Mano (H) para vista completa, doble clic en Zoom (Z) para 100%.",
+    "Usa la tecla Shift al dibujar formas para proporciones perfectas (cuadrado, círculo, polígono regular).",
+    "Usa Layer > Vector Mask > Current Path para crear máscaras a partir de trazados de pluma o texto convertido.",
+    "Usa Layer > Create Clipping Mask (Ctrl+Alt+G) para recortar una capa superior al contenido visible de la capa inferior.",
+    "Para HDR manual: usa máscaras de capa con pincel negro para mezclar exposiciones; ajusta opacidad de la máscara para transiciones suaves.",
+    "Para sombras realistas: crea capa separada debajo del objeto, pinta con pincel negro (dureza 0%), reduce opacidad; para sombra proyectada duplica capa, aplica superposición de color negra y transforma con Perspectiva.",
+    "Usa el panel Bibliotecas (Ventana > Bibliotecas) para guardar y reutilizar paletas de color sincronizadas con Adobe Color.",
+    "Usa la herramienta Parche (J) para eliminar imperfecciones y reflejos no deseados; usa Tampón de clonar con selección previa para áreas específicas.",
+    "Usa la herramienta Degradado con modo circular y modo de fusión Trama (Screen) para efectos de luminancia (glow).",
+    "Usa la herramienta Esponja en modo Desaturar para eliminar saturación de fondos y dirigir atención al sujeto.",
+    "Usa la herramienta Sobreexponer/Subexponer (O) con Exposición al 50% y dureza 0% para ajustes localizados sutiles.",
+    "Usa la herramienta Cuentagotas (Alt + clic) para muestrear colores; usa Muestreador de color para fijar valores RGB exactos.",
+    "Usa la herramienta Regla para medir distancias en píxeles antes de crear rectángulos de referencia para objetos inteligentes.",
+    "Usa la herramienta Lazo Poligonal para eliminar fondos en fotos de móvil; nunca uses Varita Mágica en estos casos.",
+    "Usa la herramienta Pincel mezclador en modo Seco para no añadir pintura, Húmedo para mezclar, Muy húmedo para casi borrar.",
+    "Usa la herramienta Rotar vista (agrupada con Mano) solo cuando necesites editar en ángulos verticales; para desplazarte usa Mano (H).",
+    "Usa Ctrl+T (Win) / Cmd+T (Mac) como atajo principal para iniciar cualquier transformación; rasteriza capas de texto (clic derecho > Rasterizar texto) antes de usar Distorsionar o Perspectiva.",
+    "Usa negro en la máscara de capa para ocultar la capa activa y revelar la inferior; usa blanco para mostrar; los grises crean transparencia parcial.",
+    "Usa la herramienta Tampón de clonar (atajo S) con dureza al mínimo para eliminar objetos grandes copiando texturas de áreas adyacentes.",
+    "Usa Camera Raw como primer paso para ajustar sombras, negros, temperatura y claridad antes de abrir en Photoshop; aplica reducción de ruido antes de ajustes locales.",
+    "Usa Selección de objeto o Selección rápida para seleccionar sujetos; invierte la selección (Shift+Ctrl+I / Shift+Cmd+I) para desenfocar el fondo con Desenfoque de lente.",
+    "Usa el modo de fusión Trama (Screen) para destellos y luces artificiales sobre fondos oscuros; usa Multiplicar (Multiply) para oscurecer y Superponer (Overlay) para simular iluminación direccional.",
+    "Usa la herramienta Pluma de curvatura para recortar objetos circulares o curvos; usa la Pluma normal para trazos rectos o precisos; aplica desvanecimiento (Feather) de 2 píxeles en selecciones para bordes suaves.",
+    "Usa el Borrador de fondos con la opción 'buscar bordes' y tolerancia baja (9-16) solo en áreas de alto contraste; desbloquea la capa de fondo antes de borrar para obtener transparencia real.",
+    "Usa el menú fx > Sombra paralela para separar objetos del fondo; para sombras con perspectiva, duplica la capa, aplica Superposición de color negra, Distorsiona y luego Desenfoque gaussiano.",
+    "Usa el filtro Desenfoque gaussiano como principal para desenfoque natural; usa Desenfoque de lente para imitar desenfoque óptico de cámara; usa Desenfoque de movimiento para simular movimiento direccional."
+   ],
+   "prompts_y_recetas": [
+    "Revelado base en Camera Raw: abre RAW con Photoshop > Filtro Camera Raw. Ajusta Balance de Blancos (Temperatura), sube Contraste, baja Altas luces para recuperar cielo, sube Sombras para detalle oscuro, ajusta Blancos (Alt + arrastre hasta ver rojo) y Negros. Aplica Claridad y Eliminar neblina. Usa Curvas con tres puntos (sombras, medios, altas luces). Reduce ruido en Detalle. Confirma con OK.",
+    "Selección y máscara de pelo: selecciona herramienta de selección > clic en Seleccionar sujeto > clic en Seleccionar y aplicar máscara. Cambia vista a Onion Skin. Usa pincel de refinar borde (R) con dureza 0-20% sobre el pelo. Presiona Alt para restar. Ajusta Suavizar y Desvanecer borde. Envía a Máscara de capa.",
+    "Crear sombra de superficie para producto: duplica capa del objeto. Capa inferior: Edición > Transformar > Perspectiva (aplasta base). Luego Edición > Transformar > Distorsionar (inclina). Aplica Estilo de capa > Superposición de color > negro. Convierte a objeto inteligente. Filtro > Desenfocar > Desenfoque gaussiano (radio suave). Reduce opacidad. Refuerza base con pincel negro suave.",
+    "Efecto de luminancia (glow) con degradado: crea nueva capa sobre el elemento luminoso. Herramienta Degradado (G) > modo circular. Color 1: naranja, Color 2: negro. Arrastra desde el centro hacia afuera. Cambia modo de fusión a Trama (Screen). Duplica la capa 2-3 veces para intensificar. Ajusta opacidad.",
+    "HDR manual con tres exposiciones: coloca capas en orden: sobreexpuesta (arriba), correcta (medio), subexpuesta (abajo). Desbloquea todas. Añade máscara de capa a la superior, pinta con negro sobre el cielo para revelar detalle de abajo. Ajusta opacidad de máscara al 50%. Repite en capa intermedia pintando sobre áreas quemadas. Convierte a objetos inteligentes antes de filtros finales.",
+    "Perspectiva con objeto inteligente: mide cara del cubo con herramienta Regla. Crea rectángulo con esas dimensiones. Convierte a objeto inteligente. Edición > Transformar > Distorsionar: ajusta vértices a la cara del cubo. Haz doble clic en miniatura del objeto inteligente, coloca textos/logos en plano recto, desactiva capa del rectángulo, cierra y guarda.",
+    "Máscara de recorte sobre texto: coloca capa de texto abajo, capa de imagen arriba. Selecciona capa superior > Layer > Create Clipping Mask (Ctrl+Alt+G). La imagen se recorta al texto. Para mover la imagen independientemente, desvincula máscara si usas vectorial.",
+    "Eliminar fondo con Lazo Poligonal: activa Lazo Poligonal. En rectas: clic y soltar en cada vértice. En curvas: clic repetido siguiendo contorno. Cierra selección (círculo pequeño). Presiona Supr/Delete. Repite hasta fondo limpio. Añade capa nueva de fondo blanco debajo.",
+    "Realce de ojos no destructivo: duplica capa base, conviértela a objeto inteligente. Aplica Filtro Camera Raw, sube exposición para extraer detalle de ojos. Añade máscara de capa a esta capa. Pinta con pincel negro sobre los ojos para revelar los originales de abajo. Reduce opacidad si es necesario.",
+    "Corrección de dominante de color con pincel en Camera Raw: abre Filtro Camera Raw. Selecciona Pincel de ajuste, resetea valores. Pinta sobre zona con dominante (ej. magenta en sombras). Ajusta Matiz (Hue) desplazando hacia verde. Crea nuevo pincel (+) para otra zona.",
+    "Viñeteado con pincel: crea nueva capa encima de todas. Selecciona pincel negro grande (dureza 0%, opacidad 20-30%). Pinta en los bordes de la imagen. Reduce opacidad de la capa si es necesario. Alternativa: Filtro > Corrección de lente > Viñeta.",
+    "Guardar y aplicar paleta de color desde Adobe Color: ve a color.com, elige armonía (Tríada, Complementaria, etc.), haz clic en Guardar tema. En Photoshop: Ventana > Bibliotecas, busca el tema guardado. Selecciona capa de texto o forma, haz clic en el color de la biblioteca para aplicarlo.",
+    "Atajo para cambiar tamaño de pincel en Windows: mantén Alt + clic derecho, arrastra mouse a derecha (aumentar) o izquierda (disminuir). En Mac: Shift+2 para agrandar, Shift+1 para reducir. Presiona Shift para ver punto medio del pincel.",
+    "Ajustar blancos en Camera Raw sin quemar: mantén presionada la tecla Alt mientras arrastras el deslizador Blancos. Detente en cuanto aparezcan áreas rojas de sobreexposición. Haz lo mismo con Negros para ver áreas azules de subexposición.",
+    "Filtro graduado recto en Camera Raw: selecciona Filtro graduado. Haz clic y arrastra manteniendo Shift para que quede perfectamente recto. Resetea valores, luego baja Temperatura para azular el cielo y reduce Exposición.",
+    "Convertir texto en trazado para máscara vectorial: selecciona capa de texto, clic derecho > Create Work Path. Selecciona la capa inferior, ve a Layer > Vector Mask > Current Path. Desvincula máscara (clic en cadena) para mover imagen independientemente.",
+    "Medir distancia con herramienta Regla: selecciona Regla (agrupada con Cuentagotas). Haz clic y arrastra entre dos puntos. La distancia en píxeles y el ángulo aparecen en la barra de opciones. Útil para crear rectángulos de referencia con dimensiones exactas.",
+    "Eliminar reflejos no deseados en producto: usa herramienta Parche (J). Rodea el reflejo o imperfección. Arrastra la selección a una zona limpia de textura similar. Repite hasta eliminar todos los reflejos. No uses Parche para borrar sombras naturales.",
+    "Rescate de foto subexpuesta con ruido: en Camera Raw sube contraste al máximo, baja negros y sombras al mínimo, reduce ruido global y local, baja claridad y sube textura. En Photoshop usa Tampón de clonar para imperfecciones y herramienta de reemplazo de color para ojos rojos. Aplica viñeteado negro.",
+    "Creación de cartel publicitario con recorte de sujeto: en Camera Raw sube exposición, aumenta blancos, disminuye negros. En Photoshop usa trazado con pluma para recortar el sujeto, crea máscara a partir del trazado, añade capa de fondo de color, redimensiona con Ctrl+T, añade texto y aplica sombra paralela desde fx.",
+    "Corrección de paisaje aéreo: en Camera Raw sube contraste y exposición, baja negros, sube intensidad. Usa filtro graduado para enfriar el cielo. En Photoshop usa Reemplazar color para cambiar el color de la tierra, luego ajusta Brillo/Contraste e Intensidad.",
+    "Cambio de color de ojos con máscara: duplica la capa (Ctrl+J), en la copia usa Herramienta de sustitución de color para pintar el nuevo color sobre los ojos. Añade máscara de capa a la copia, pinta con negro sobre los ojos para revelar la capa inferior original. Ajusta Densidad de la máscara para mezclar.",
+    "Efecto de color selectivo (foto B/N con áreas a color): duplica la capa, convierte la superior a Blanco y negro (Imagen > Ajustes > Blanco y negro), baja Rojos y Amarillos. Añade máscara de capa a la capa B/N, selecciona un pincel artístico y pinta con negro sobre las zonas que quieras colorear.",
+    "Sombra con perspectiva realista: duplica la capa del objeto, aplica fx > Superposición de color negra. Ve a Edición > Transformar > Distorsionar y ajusta los vértices para dar perspectiva. Aplica Filtro > Desenfocar > Desenfoque gaussiano para suavizar el borde. Reduce opacidad.",
+    "Simular lluvia sobre una foto: crea una nueva capa. Selecciona el pincel de lluvia (gotas inclinadas), aumenta el espaciado en el panel de pinceles, elige color gris claro. Pinta sobre la nueva capa y reduce su opacidad para integrar el efecto.",
+    "Crear profundidad de campo con desenfoque selectivo: selecciona el sujeto con Selección de objeto, invierte la selección (Shift+Ctrl+I). Aplica Filtro > Desenfocar > Desenfoque de lente, ajusta Radio (12-27) y Curvatura de la hoja. Presiona Ctrl+D para deseleccionar.",
+    "Montaje de una luna en la mano: en Camera Raw baja sombras y negros, reduce claridad, baja temperatura. En Photoshop recorta la luna con Pluma de curvatura. Coloca la capa de la mano sobre la luna, añade máscara y pinta para revelar los dedos. Crea destellos con una capa nueva, herramienta Elipse con relleno degradado radial blanco a negro, modo Trama.",
+    "Retoque artístico con esfera de fuego: en Camera Raw sube sombras, reduce ruido, aplica filtro radial en el rostro subiendo exposición. En Photoshop duplica la capa, sobreexpón la inferior al máximo, crea máscara y pinta con negro sobre ojos y mano. Recorta la esfera con Pluma de curvatura, colócala en la mano, elimina los dedos que tapan la esfera con trazados. Pinta reflejo naranja en los dedos con pincel modo Color Burn."
+   ],
+   "errores_comunes": [
+    "Usar herramientas nativas de Photoshop (Brillo/Contraste, Niveles) en lugar de Filtro Camera Raw para ajustes tonales y de color.",
+    "Aplicar transformaciones (Distorsionar, Escalar) sin convertir primero la capa a objeto inteligente, degradando los píxeles.",
+    "Pintar directamente sobre la imagen en lugar de sobre la máscara de capa, destruyendo los píxeles originales.",
+    "Usar Varita Mágica para eliminar fondos en fotos de móvil con muchos píxeles; usar Lazo Poligonal o Pluma.",
+    "No cerrar el trazado con la Pluma (clic sobre el primer punto), impidiendo convertirlo en selección o máscara.",
+    "Olvidar reducir la dureza del pincel de refinar borde (dejarla en 100%) al seleccionar pelo, causando bordes duros.",
+    "Sobresaturar pieles con la herramienta Esponja en modo Saturar y flujo alto, generando tonos anaranjados irreales.",
+    "Dejar el horizonte centrado al 50% o torcido; aplicar regla de tercios y enderezar con herramienta Straighten.",
+    "No sincronizar ajustes locales (pinceles, filtros graduados) al sincronizar en Lightroom para timelapses.",
+    "Usar filtro ND variable para exposiciones mayores a 2 segundos en fotografía fija (están diseñados para video).",
+    "Confundir el panel de capas con el de canales o trazados; cada uno tiene funciones específicas separadas.",
+    "Aplicar Licuar con presión alta y pincel pequeño, provocando deformaciones antinaturales; usar presión baja y pincel grande.",
+    "Aplicar filtros sin convertir a objeto inteligente: si aplicas un filtro RAW de Cámara directamente sobre una capa normal, no podrás modificarlo después; solo se guarda el último filtro y al hacer clic se duplica en lugar de editarse.",
+    "No rasterizar capa de texto antes de usar Distorsionar o Perspectiva: las opciones aparecen desactivadas (grises); debes rasterizar primero (clic derecho > Rasterizar texto).",
+    "Olvidar seleccionar la máscara de capa antes de pintar: si la miniatura de la capa está activa, el pincel aplicará color en lugar de modificar la visibilidad.",
+    "Usar colores en la máscara de capa: la máscara solo interpreta valores de luminancia (blanco, negro, grises); pintar con colores se traduce a su equivalente en gris.",
+    "No definir punto de origen en el Pincel corrector: si no presionas Alt/Option para seleccionar la textura a copiar, la herramienta no funcionará correctamente.",
+    "Usar el Tampón de clonar con dureza al 100%: crea bordes duros y poco naturales; reduce la dureza al mínimo para fusiones más suaves.",
+    "Usar la herramienta Enfocar para arreglar imágenes completamente desenfocadas: solo simula nitidez y puede introducir ruido; no corrige el desenfoque real.",
+    "Usar la herramienta Dedo para adelgazar o modificar siluetas: la herramienta correcta es Licuar; Dedo simula arrastre de pintura fresca.",
+    "Aplicar desenfoque directamente sobre toda la imagen sin seleccionar primero al sujeto: la técnica correcta es seleccionar al sujeto, invertir selección y luego desenfocar el fondo.",
+    "No ajustar la tolerancia del Bote de Pintura: valores incorrectos dejan áreas sin reemplazar o reemplazan demasiado; ajusta según la variación de tono."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "Pixelmator Pro Beginner Tutorial",
+     "url": "https://youtu.be/TJ_HXy-898Q",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "TImelapse y larga exposición - Revelando y Editando Fotografías",
+     "url": "https://youtu.be/0BjgHhoVt2k",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 1 - Capítulo 3 - La interfaz",
+     "url": "https://youtu.be/1Ncf3kOeuJE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 6 - Capítulo 1 - Fotografía de productos",
+     "url": "https://youtu.be/2WYpoNgOjyk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 4 - Capítulo 2 - La composición en fotografía",
+     "url": "https://youtu.be/3VNQr7dkzmw",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 4 - Capítulo 1 - Teoría del Color",
+     "url": "https://youtu.be/4o_QMtGu4FE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 5 - Capítulo 3.1 - Camera Raw",
+     "url": "https://youtu.be/5pgEU-hXxC0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 11 - Sobreexponer, subexponer y esponja",
+     "url": "https://youtu.be/7JkOlQbuKN8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 12 - La herramienta pluma",
+     "url": "https://youtu.be/7bYyDOpBVpc",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 1 - Introducción a las Herramientas",
+     "url": "https://youtu.be/9Gw6tDdeWGM",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 5 - Capítulo 3 - El filtro licuar",
+     "url": "https://youtu.be/9n5rxPo495E",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 7 - La herramienta cuentagotas",
+     "url": "https://youtu.be/9o-y-TrYmv0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 2 - Herramientas básicas",
+     "url": "https://youtu.be/AdUZkqeYsj8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 5 - Capítulo 1 - La Galería de Filtros",
+     "url": "https://youtu.be/CHTjk7vz5R0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 13 - Herramientas avanzadas de selección",
+     "url": "https://youtu.be/GOh5r33BVDM",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 5.1 - Los pinceles",
+     "url": "https://youtu.be/Gex7wx7-8GY",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "¿Cómo hice esta foto? Tutorial editando con PhotoShop",
+     "url": "https://youtu.be/HX8aGacQHt0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 3 - Capítulo 6 - Las Máscaras",
+     "url": "https://youtu.be/Juq4lpO7dnQ",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Editando Fotografías de mis Suscriptores - Capítulo 1",
+     "url": "https://youtu.be/LcClbCL1agE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "CURSO PHOTOSHOP CC 2019 - Como quitar fondo MUY FÁCIL a una imagen con Photoshop 2019",
+     "url": "https://youtu.be/OM1K7SkTGi4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 7 - Capítulo 1 - Fotografía de productos",
+     "url": "https://youtu.be/RZC3IMn4r_8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Free Adobe Photoshop Course - Module 3 - Chapter 3 - Smart Objects",
+     "url": "https://youtu.be/RcKDIzQKZzc",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 5 - Capítulo 4 - Los filtros siempre inteligentes",
+     "url": "https://youtu.be/Rn9JmruhwuY",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 10 - Enfocar, desenfocar y dedo",
+     "url": "https://youtu.be/RnhvW2M9bU0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Editando Fotografías de mis Suscriptores - Capítulo 2",
+     "url": "https://youtu.be/UzPbV4NcVpA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 6 - Las herramientas de edición",
+     "url": "https://youtu.be/VAApU-H96FI",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 1 - Capítulo 1 - Instalar Adobe Photoshop",
+     "url": "https://youtu.be/i1F2_JjoEIQ",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 4 - Las herramientas de selección",
+     "url": "https://youtu.be/i6T_ulxSUOY",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 9 - Degradado y bote de pintura",
+     "url": "https://youtu.be/iW0nLTeG01M",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 3 - Capítulo 8 - El menú transformar",
+     "url": "https://youtu.be/jDgmSus9Z_Q",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 3 - Las herramientas de selección",
+     "url": "https://youtu.be/jS0S6JsVA0w",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 3 - Capítulo 7 - Las máscaras de capa",
+     "url": "https://youtu.be/kWkwiM45aNE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de Adobe Photoshop en español para todos los niveles ¡Arrancamos!",
+     "url": "https://youtu.be/kWoCO9Fg2mY",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 3 - Capítulo 4 - Los modos de fusión",
+     "url": "https://youtu.be/ucEiyrY-flg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 1 - Capítulo 2 - Página de Inicio de Photoshop",
+     "url": "https://youtu.be/ufo46qfq6K8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 1 - Capítulo 4 - Personalizar la Interfaz",
+     "url": "https://youtu.be/vig6Y5rHtac",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 3 - Capítulo 2 - Organizar las capas",
+     "url": "https://youtu.be/wXkS8FjLeBo",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 3 - Capítulo 1 - Adiós al miedo a las capas",
+     "url": "https://youtu.be/x5k_Ntgi3po",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 8 - La Herramienta Borrador",
+     "url": "https://youtu.be/x7jNCQO1h6Q",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 3 - Capítulo 5 - El menú efectos de capa",
+     "url": "https://youtu.be/x_j7vNBbVcI",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 8 - Capítulo 1 - Retrato Artístico",
+     "url": "https://youtu.be/ySVmCP5rMac",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 5 - Capítulo 2 - Los filtros de desenfoque",
+     "url": "https://youtu.be/ZakPDsoIvFI",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Tutorial Adobe Photoshop ¿Cómo edité esta foto? ¡Proceso desde 0!",
+     "url": "https://youtu.be/_5_ukmXuCDI",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso Gratis de Adobe Photoshop - Módulo 2 - Capítulo 5.2 - Los pinceles artísticos",
+     "url": "https://youtu.be/-j_TpJ6XLpg",
+     "canal": "mundoaudiovisual"
+    }
+   ]
+  },
+  {
+   "id": "adobe-premiere-pro",
+   "disciplina": "edicion-postproduccion",
+   "area": "edicion-de-video",
+   "titulo": "Curso completo de Adobe Premiere Pro 2020: desde la interfaz hasta la exportación profesional",
+   "que_ensena": "Domina Adobe Premiere Pro 2020 desde cero: crea proyectos, organiza la línea de tiempo, aplica keyframes, transiciones, corrección de color con Lumetri, chroma key con Ultra Key, edición multicámara, efectos de clonación y aparición, sincronización y normalización de audio, integración con After Effects, y exportación optimizada para YouTube. Incluye atajos de teclado, plantillas .mogrt y trucos de flujo de trabajo.",
+   "reglas_para_agentes": [
+    "Usa 'Ajustar al tamaño del fotograma' (clic derecho → Ajustar al tamaño del fotograma) cuando importes clips de resolución mayor a la secuencia; nunca uses 'Escalar al tamaño del fotograma' porque elimina píxeles.",
+    "Usa el panel Essential Graphics (Ventana → Essential Graphics) para crear y modificar títulos; para escalar texto usa 'Tamaño del texto' no 'Escala' general.",
+    "Usa 'Cross Dissolve' como transición de video por defecto (atajo Ctrl+D / Cmd+D) y 'Exponential Fade' para audio (Shift+Ctrl+D / Shift+Cmd+D).",
+    "Usa la tecla Q para recortar con ripple hacia atrás y W para recortar con ripple hacia adelante; personaliza la tecla Z para 'Agregar edición' (corte) en Keyboard Shortcuts.",
+    "Usa 'Ultra Key' como efecto principal para chroma key; selecciona el color con cuentagotas y cambia a 'Alpha Channel' en Output para diagnosticar transparencia.",
+    "Usa 'Audio Track Mixer' (no Audio Clip Mixer) para aplicar efectos a toda una pista de audio; normaliza picos a -3 dB con 'Audio Gain' antes de comprimir.",
+    "Usa 'Create Multi-Camera Source Sequence' con sincronización por 'Audio' cuando todas las cámaras tengan el mismo framerate y audio común.",
+    "Usa 'Replace with After Effects Composition' para integrar tracking 3D y compositing; nunca apliques efectos directamente al clip que enviarás a After Effects.",
+    "Usa la fórmula (fps_secuencia ÷ fps_clip) × 100 para calcular el porcentaje máximo de ralentización sin pérdida de fluidez; para slow motion con pocos fps usa 'Time Interpolation' → 'Optical Flow'.",
+    "Usa 'Toggle Animation' (cronómetro) en Mask Path antes de animar máscaras de opacidad; avanza 2 fotogramas por ajuste para precisión.",
+    "Usa 'Chroma Key' (no Ultra Key) para eliminar fondos negros en efectos de humo/explosión; ajusta 'Color Tolerance' decrecientemente.",
+    "Usa 'Set to Frame Size' (no 'Scale to Frame Size') al ajustar clips de resolución diferente a la secuencia.",
+    "Usa 'Render In to Out' (Sequence → Render In to Out) para procesar la timeline antes de exportar o previsualizar efectos.",
+    "Usa 'Scratch Disks' separados para 'Video Previews' y 'Audio Previews' en un disco diferente al del proyecto para evitar lentitud.",
+    "Usa 'Hardware Acceleration' en Encoding Settings al exportar; desactiva 'Use Maximum Render Quality' a menos que sea estrictamente necesario.",
+    "Usa 'Snap' (imán) activado por defecto para alinear clips automáticamente; desactívalo solo para ajustes manuales precisos.",
+    "Usa 'Delete Ripple' (Shift+Delete) para eliminar un clip y cerrar el espacio automáticamente en un solo paso.",
+    "Usa 'Pen' o 'Freehand Bezier' para crear máscaras de opacidad; baja la opacidad al 75% temporalmente para ver el clip inferior de referencia.",
+    "Usa 'Transform Cut' (Video Transitions > Dissolve) para disimular cortes en entrevistas o tomas continuas; ajústala a menos de 10 fotogramas.",
+    "Usa 'Lumetri Color' con 'Sequence' seleccionado para no modificar el archivo original; para contraste usa curva RGB en forma de 'S' con tres puntos de anclaje.",
+    "Usa 'Audio Gain' → 'Normalize Max Peak' con valor '-3' dB para evitar distorsión en clips individuales antes de aplicar compresión.",
+    "Usa 'Toggle Multi-Camera View' (botón en monitor de programa) y las teclas 1, 2, 3 para cambiar de cámara en tiempo real.",
+    "Usa 'Corner Pin' en After Effects para ajustar sólidos a superficies con perspectiva en planos con movimiento de cámara.",
+    "Usa 'Gaussian Blur' en capas duplicadas para crear efectos de glow en texto o sólidos.",
+    "Usa 'Freeform Bezier' en Opacity para dibujar máscaras de clonación; elimina la máscara en segmentos donde el personaje ya no está presente."
+   ],
+   "prompts_y_recetas": [
+    "**Sincronizar audio externo con cámara:** Selecciona clip de video y audio externo en timeline → clic derecho → 'Sync' → elegir 'Audio' → OK. Luego selecciona ambos → clic derecho → 'Link' para vincular.",
+    "**Crear efecto de clonación:** Coloca dos clips grabados con trípode fijo en pistas V1 y V2. En el clip superior, dibuja máscara Freeform Bezier en Opacity alrededor del personaje. Corta con cuchilla donde el personaje sale y elimina la máscara en ese segmento. Aplica 'Transform Cut' en los cortes.",
+    "**Efecto de aparición con explosión:** Coloca clip de fondo (sin persona) en V1 y clip con persona en V2. Corta la persona en el fotograma donde comienza el movimiento. Coloca clip de explosión en V3 sobre el corte. Aplica Chroma Key con color negro, ajusta Color Tolerance y Edge Thin. Aumenta velocidad de explosión al 200%.",
+    "**Animación de entrada con color mate negro:** Crea un Color Mate Negro (Nuevo elemento > Color mate). Colócalo en V2 sobre el clip. Activa keyframes de Posición: primer keyframe X=-380, segundo keyframe X=640 (o valor original). Duplica con Alt+arrastre y cambia primer keyframe a X=380 para entrada desde la derecha.",
+    "**Corrección de color con Lumetri:** Abre panel Color → Lumetri Color. En Basic Correction ajusta Temperature y Saturation. En RGB Curves crea tres puntos (sombras, medios, altas) y sube altas/baja sombras para contraste en 'S'. Usa cuentagotas en Hue Saturation Curves para modificar colores específicos.",
+    "**Edición multicámara:** Importa clips de todas las cámaras. Selecciónalos con Shift → clic derecho → 'Create Multi-Camera Source Sequence' → sincronizar por 'Audio'. Arrastra la secuencia multicámara al timeline. Activa 'Toggle Multi-Camera View' y usa teclas 1,2,3 para cambiar de cámara.",
+    "**Exportar para YouTube:** Verifica timeline en verde. File > Export > Media (Cmd+M). Formato H.264, preset 'YouTube 1080p Full HD'. Source en 'Output'. Bitrate 16 Mbps. Performance: Hardware Acceleration. Profile High, Level 4.2. Time Interpolation: Frame Sampling. Desactiva 'Use Maximum Render Quality'.",
+    "**Instalar plantilla .mogrt:** Descarga el archivo .mogrt. En Premiere, panel Graphics > Browse > botón 'Install Motion Graphics Template' > seleccionar .mogrt. Arrástralo a la timeline. Modifica texto y colores en Essential Graphics. Procesa entrada y salida con I y O.",
+    "**Fade out de audio con keyframes:** En el clip de audio, ve a Effect Controls > Level. Activa el cronómetro. Coloca un keyframe al inicio con valor 0 dB y otro al final con valor -∞ (arrastra hacia abajo).",
+    "**Chroma key con Ultra Key:** Aplica Ultra Key al clip. Usa cuentagotas para seleccionar el verde. Cambia Output a 'Alpha Channel'. Ajusta Pedestal primero, luego Tolerance. Vuelve a 'Composite'. Usa Smooth y Contrast para refinar bordes.",
+    "**Crear fundido a blanco manual:** Crea un Color Mate blanco (Nuevo elemento > Color mate). Colócalo en una pista debajo del clip. En el clip de video, usa keyframes de Opacidad: 0% al inicio y 100% al final para que aparezca sobre blanco.",
+    "**Recorte rápido con Q y W:** Coloca el cabezal donde quieras que empiece el clip y presiona Q (elimina material anterior con ripple). Coloca el cabezal donde quieras que termine y presiona W (elimina material posterior con ripple).",
+    "**Ajustar clip 4K a secuencia 1080p:** Clic derecho sobre el clip en timeline → 'Ajustar al tamaño del fotograma'. Luego en Effect Controls puedes reencuadrar moviendo Posición sin pérdida de calidad.",
+    "**Eliminar ruido de fondo en audio:** En Audio Track Mixer de la pista de voz, añade efecto DeNoise (Noise Reduction/Restoration). Ajusta Amount para reducir ruido sin degradar la voz. Aplica antes de compresión.",
+    "**Animación de texto con keyframes:** Crea texto con Essential Graphics. En Effect Controls, activa cronómetro en Posición. Primer keyframe fuera de pantalla (ej. Y=1080), segundo keyframe en posición final (ej. Y=540). Aplica Ease Out al segundo keyframe para suavizar.",
+    "**Efecto de voz telefónica:** Arrastra 'High Pass Filter' (Audio Effects > Filter and EQ) sobre el clip de audio. En Effect Controls, ajusta Cutoff Frequency a 300-500 Hz para eliminar frecuencias bajas.",
+    "**Sincronizar música con cortes:** Coloca la música al inicio del timeline. Identifica los cambios de ritmo. Corta los clips de video en esos puntos con Ctrl+K / Cmd+K. Aplica transiciones rápidas (0.5s) entre cortes para mantener el ritmo visual.",
+    "**Crear máscara animada cuadro por cuadro:** Selecciona clip → Effect Controls > Opacity > Freehand Curve. Activa cronómetro en Mask Path. Avanza 2 fotogramas con flecha derecha y ajusta puntos de ancla manualmente. Usa zoom al 400% para precisión."
+   ],
+   "errores_comunes": [
+    "No sincronizar los cortes de video con el ritmo de la música, lo que rompe la fluidez cinematográfica.",
+    "Usar 'Escalar al tamaño del fotograma' en lugar de 'Ajustar al tamaño del fotograma', lo que elimina píxeles y reduce calidad.",
+    "No renderizar la timeline (barra amarilla) antes de previsualizar efectos, causando reproducción entrecortada.",
+    "Confundir el panel 'Source' (clip original) con el panel 'Program' (secuencia editada).",
+    "Aplicar efectos de color directamente al clip antes de enviarlo a After Effects en lugar de usar Adjustment Layers.",
+    "No activar el botón 'Toggle Animation' en Mask Path antes de animar máscaras, impidiendo que sigan el movimiento.",
+    "No invertir la máscara cuando se desea ocultar el área seleccionada en lugar de mostrarla.",
+    "Dejar picos de audio por encima de 0 dB, produciendo distorsión (clipping).",
+    "No eliminar ruido de fondo antes de comprimir, amplificando el ruido junto con la voz.",
+    "Usar framerates diferentes entre cámaras en edición multicámara, provocando desincronización.",
+    "No bloquear la exposición ni usar trípode al grabar tomas para clonación o aparición, arruinando la ilusión.",
+    "Olvidar guardar en After Effects antes de volver a Premiere, impidiendo que los cambios se actualicen."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 0 - Introducción",
+     "url": "https://youtu.be/e--xb9bgMWk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video Editing Course - Adobe Premiere Pro 2020 - Chapter 1 - Getting Started",
+     "url": "https://youtu.be/B1u52XpWyz8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 2 - La Línea de Tiempo",
+     "url": "https://youtu.be/YEgJaGub8I4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 3 - Las Herramientas",
+     "url": "https://youtu.be/qNZ1g5Dnn3g",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 4 - Recortar - Trucos y Consejos",
+     "url": "https://youtu.be/gtsZKZgKMQE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 5 - Cámara Rápida y Cámara Lenta",
+     "url": "https://youtu.be/Woy3KDtnW54",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 6 - Títulos y Rótulos",
+     "url": "https://youtu.be/Y3rxABq__NA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 7 - Controles de efectos",
+     "url": "https://youtu.be/7tjk2A0sH0k",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 8 - Los fotogramas clave",
+     "url": "https://youtu.be/JVUw8ey42I4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 9 - Las transiciones de video",
+     "url": "https://youtu.be/h51kXCjsRRQ",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video Editing Course - Adobe Premiere Pro 2020 - Chapter 10 - Color Corrections",
+     "url": "https://youtu.be/hu6gd87Et3I",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 11 - Músicas para tus videos",
+     "url": "https://youtu.be/5r-n2yHB4-o",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 12 - Chroma Key o Pantalla Verde",
+     "url": "https://youtu.be/kcH-JzRD5ss",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 13 - Efecto Clonación",
+     "url": "https://youtu.be/VpmqMehWkTk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video Editing Course - Adobe Premiere Pro 2020 - Chapter 14 - Voice and Audio Editing",
+     "url": "https://youtu.be/DuRCIek_Lf4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video Editing Course - Adobe Premiere Pro 2020 - Chapter 15 - Appearance Effect",
+     "url": "https://youtu.be/xk62CAx5e3w",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 16 - Multicámaras",
+     "url": "https://youtu.be/MJeDzYvY2es",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 17 - Las Máscaras",
+     "url": "https://youtu.be/YxgI1xZU_Rk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Adobe Premiere Pro 2020 - Capítulo 18 - Exportación de medios y renderizado",
+     "url": "https://youtu.be/FlCkiHmOzDA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Adobe Premiere Pro 2020 - Chapter 19 - Integrating After Effects with Adobe Premiere",
+     "url": "https://youtu.be/XEko9ey8QtQ",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Animaciones Suscríbete y Campanita para Adobe Premiere Pro",
+     "url": "https://youtu.be/gFrSHSG13cc",
+     "canal": "mundoaudiovisual"
+    }
+   ]
+  },
+  {
+   "id": "apple-motion-graphics",
+   "disciplina": "edicion-postproduccion",
+   "area": "motion-graphics",
+   "titulo": "Síntesis completa de técnicas de Motion Graphics en Apple Motion",
+   "que_ensena": "Domina Apple Motion desde cero hasta nivel avanzado: animación de logos, texto y objetos 3D, behaviors clave (Overshoot, Link, Oscillate, Write On, Sequence Replicator), entorno 3D con cámara y luces, emisores de partículas y replicadores, creación de títulos y generadores publicables en Final Cut Pro, y técnicas de composición como máscaras, reflejos y efectos de revelado.",
+   "reglas_para_agentes": [
+    "Usa 'Share > Export' desde Pixelmator Pro con 60 fps y 6 segundos para generar un proyecto Motion listo.",
+    "Usa 'Inspector > Properties' para cambiar a 4K inmediatamente después de abrir el proyecto.",
+    "Usa la tecla 'I' para establecer el inicio de elementos en el timeline cuando quieras que aparezcan después del frame 0.",
+    "Usa 'Behaviors > Parameter > Custom' para animar múltiples parámetros (opacidad + mix de filtro) en un solo behavior.",
+    "Usa 'Keyframe Editor' para ajustar curvas (S-curve) en keyframes de posición, escala y mix.",
+    "Usa 'Filters > Border > Stroke' con 'Type: Gradient', 'Position: Inside' y 'Width' alto para rellenar caracteres con un gradiente temporal.",
+    "Publica siempre los parámetros Pan, Scale y cualquier filtro de un drop zone en Motion antes de guardar el generador, o no aparecerán como opciones editables en Final Cut.",
+    "Usa 'Convert to Points' en la máscara cuando el producto no esté perfectamente centrado en el plato giratorio.",
+    "Usa 'grupo 2D' para las frutas traseras cuando quieras que el producto pase al frente en Z sin necesidad de ordenar capas 3D.",
+    "Usa 'Group' antes de aplicar una máscara a texto o logos; si aplicas la máscara directamente, se moverá con el objeto y no funcionará el efecto de revelado.",
+    "Usa una fuente script (cursiva) cuando quieras que el efecto de escritura se vea natural.",
+    "Usa 'Apple ProRes 4444' al exportar videos con transparencia desde Motion para mantener el canal alfa.",
+    "Usa 'Half Range' en Oscillate cuando quieras que la oscilación no cruce el valor central (solo se mueva en una dirección).",
+    "Usa 'Ramp' en lugar de 'Rate' para disminuir amplitud gradualmente (Ramp permite valores inicial y final explícitos).",
+    "Usa 'Link' para conectar Position de luz a Position de objeto cuando quieras iluminación dinámica que siga un elemento animado.",
+    "Usa 'Add Image Mask' sobre el gradiente, no sobre el logotipo, y arrastra el logotipo al campo 'Mask Source' manteniendo presionado el botón del ratón.",
+    "Usa archivos SVG cuando necesites preservar puntos de control vectoriales editables entre Pixelmator Pro y Apple Motion.",
+    "Usa 'Matte Magic' con valor 'Shrink' cuando una imagen importada tenga bordes blancos no deseados.",
+    "Usa 'Fixed Resolution' desmarcado en la pestaña Media del inspector cuando un archivo AI se vea borroso al escalar.",
+    "Usa 'Import All Layers' al arrastrar un PSD al panel de proyecto para mantener todas las capas como elementos individuales editables.",
+    "Usa '3D Text' checkbox en Appearance para activar el modo 3D, no otra herramienta.",
+    "Usa 'Layout Method > Path > Circle' cuando quieras texto dispuesto en forma circular.",
+    "Usa 'Replicate' + 'Sphere filter' + '3D' en replicador para crear efectos de globo o disco giratorio.",
+    "Usa 'Convertir en forma' en Pixelmator Pro ANTES de exportar a Motion, no después.",
+    "Usa 'BZA' tool para crear la trayectoria de dibujo, no otra herramienta de dibujo.",
+    "Usa Behaviors en lugar de keyframes para animaciones repetitivas, oscilantes o complejas (ej. Oscillate, Gravity, Wriggle).",
+    "Convierte el proyecto a Title (File > Convert Project To > Title) antes de guardar si quieres usarlo como plantilla en FCP.",
+    "Usa 'Open a Copy in Motion' desde FCP para modificar plantillas sin dañar el original.",
+    "Activa 3D agregando una cámara (Add Object > Camera) antes de importar modelos USDZ o trabajar con profundidad.",
+    "Usa Clone Layers (atajo K) para duplicar texto y aplicar filtros independientes sin modificar el original.",
+    "Ajusta el anchor point (Anchor Point Tool) antes de aplicar Overshoot o rotación para que la animación origine desde la posición natural.",
+    "Usa 'Convert to Points' en Geometry para modificar la forma de un óvalo o círculo base.",
+    "Usa 'Color over Stroke' en lugar de 'Use Brush Color' cuando necesites gradiente en outline de círculo con dots.",
+    "Usa Airbrush como Brush Type y Spacing 5% para simular trazos de acuarela realistas.",
+    "Usa 'Square' como Wave Shape en Oscillate para parpadeos; 'Sine' produce transiciones graduales irreales."
+   ],
+   "prompts_y_recetas": [
+    "Animación de expansión centrífuga (letras): 1. Coloca playhead en 1s 15f. 2. Selecciona todos los elementos del grupo. 3. Añade keyframe en X Position. 4. Mueve playhead a 25f. 5. Cambia todos los valores X a 0. 6. Arrastra reglas al centro (0,0). 7. Ajusta manualmente el valor X de cada elemento hasta que el punto central del wireframe coincida con las reglas. 8. Elimina reglas.",
+    "Efecto de escritura a mano (Write On): 1. Crea fondo blanco y texto script. 2. Traza con Bezier sobre el texto siguiendo orden de escritura. 3. Ajusta Width al mínimo que cubra el texto. 4. Aplica 'Behaviors > Shape > Write On'. 5. Acorta duración en timeline. 6. Selecciona texto original, 'Object > Add Image Mask', arrastra Bezier a 'Drop Zone'.",
+    "Logo 3D metálico con replicador: 1. Crea gradiente dorado (Generator > Gradient). 2. Aplica 'Add Image Mask' al gradiente, arrastra logo como fuente. 3. Añade cámara (Switch to 3D). 4. Selecciona gradiente, haz clic en 'Replicate'. 5. En Replicator: Shape=Line, Start/End X=0, marca 3D, ajusta Z de End Point para profundidad. 6. Ajusta Points (20+). 7. Activa Drop Shadow en gradiente original (muted). 8. Keyframea Start/End X del gradiente y Rotation Y del replicador para animar luz.",
+    "Drop zone para Final Cut Pro: 1. 'Object > New Drop Zone'. 2. Aplica máscara (Shape Masks > Circle Mask). 3. Añade filtro (Filters > Looks > Process). 4. Publica parámetros (Pan, Scale, filtro) haciendo clic en el triángulo junto al parámetro y 'Publish'. 5. Limpia drop zone (elimina contenido). 6. 'File > Save', asigna Template Name y Category, 'Publish'.",
+    "Efecto de revelado con línea vertical: 1. Dibuja línea vertical (Shape > Line, Shift). 2. Keyframea Control Points: frame 0 Y=0, frame 10 Point1 Y=+650, Point2 Y=-650. 3. Agrupa logo, aplica Rectangle Mask, Invert Mask. 4. Aplica Motion Path al logo (15 frames). 5. Retrasa grupo 8 frames. 6. Repite para texto.",
+    "Animación de producto 3D tipo explosión: 1. Importa video de producto y frutas recortadas (PSD con capas). 2. Aplica Color Wheels, ajusta Speed a 400%. 3. Recorta producto con Rectangle Mask, Convert to Points, keyframea Control Points. 4. Activa 3D (Add Camera). 5. Posiciona frutas en Z-space, keyframea Position y Rotation. 6. Activa Depth of Field en Render. 7. Ajusta cámara y escala.",
+    "Efecto de morphing de logo: 1. Prepara SVG en Pixelmator Pro (Make Editable). 2. Exporta como Motion Project. 3. En Motion, dibuja guías alrededor del logo. 4. Crea keyframe de Points en frame final. 5. Arrastra forma de corazón como referencia. 6. Ajusta puntos manualmente para que coincidan con corazón al inicio. 7. Elimina referencia, agrupa. 8. Aplica Overshoot a Scale, Colorize para transición cromática.",
+    "Efecto de texto tipo disco giratorio: 1. Crea texto, añade cámara. 2. Selecciona texto, haz clic en 'Replicate'. 3. En Replicator: Rectangle, Tile Fill, Columns=10, Rows=34, Tile Offset=70%. 4. Color Mode=Over Pattern, gradiente con gris y púrpura. 5. Keyframea Color Repetitions (5 a 100). 6. Marca 3D. 7. Aplica filtro Sphere. 8. Ajusta Anchor Point Z del grupo a negativo, keyframea Rotation Y (-40 a +40).",
+    "Efecto de neón parpadeante: 1. Traza texto con Bezier. 2. Shape Style > 3D Brush, Roundness alto. 3. Stroke > Color Over Stroke, gradiente rosa-púrpura-teal. 4. Duplica Bezier 2 veces (lights, lights off, glow). 5. lights: filtro Aura. 6. lights off: color gris oscuro. 7. glow: filtro Light Rays + Gaussian Blur, opacidad reducida. 8. Aplica Randomize a Opacity de lights (Amount=265, Frequency=17). 9. Copia behavior a grupo de glow.",
+    "Efecto de goteo de texto: 1. En Pixelmator Pro, convierte texto a forma (Convertir en forma). 2. Exporta a Motion. 3. En frame 2s, keyframea Control Points de cada letra. 4. Retrocede 10 frames, alarga puntos para forma de gota. 5. Repite cada 10 frames hacia atrás. 6. Añade Roundness=50 al inicio, 0 al final. 7. Escalona letras en timeline. 8. Aplica gradiente como máscara de imagen al grupo. 9. Ajusta anchor point del PNG de goteo y keyframea Scale Y.",
+    "Animación de pizarra blanca (whiteboard): 1. Fondo blanco. 2. Traza con BZA sobre la ilustración. 3. Ajusta Width al mínimo. 4. Aplica 'Write On' a la BZA. 5. Aplica 'Image Mask' a la ilustración, arrastra BZA a Mask Source. 6. Configura Anchor Point de la mano en la punta. 7. Aplica 'Motion Path' a la mano, cambia a Geometry, arrastra BZA a Shape Source. 8. Empareja duraciones. 9. Para grosores variables, agrupa múltiples BZAs y usa Split en la mano.",
+    "Reflejo realista 3D: 1. Crea fondo 3D (Color Solid blanco + gris rotado 90° en X). 2. Añade cámara. 3. Agrupa objeto principal. 4. Duplica grupo, aplica Gaussian Blur + Flop Vertical. 5. Anida grupo duplicado en otro grupo, usa Flatten. 6. Dibuja Rectangle Mask con Invert Mask y Feather alto. 7. Ajusta opacidad del plano gris. 8. Keyframea cámara (Scale y Y Rotation).",
+    "Sombra realista para objetos 3D: 1. Duplica objeto 3D animado. 2. Agrúpalo inmediatamente. 3. Dibuja rectángulo negro grande. 4. Aplica 'Add Image Mask' al rectángulo, fuente = grupo de la copia. 5. Ajusta posición/escala de la copia para que coincida con original pero más pequeña. 6. Aplica Gaussian Blur a la copia: keyframea blur (alto cuando lejos, bajo cuando cerca). 7. Keyframea Opacidad de la copia (baja cuando lejos, alta cuando cerca).",
+    "Efecto de rebote con Disk Warp: 1. Aplica filtro Disk Warp al logo. 2. Keyframea Center Y con valores que se acercan progresivamente (simula gravedad). 3. Cambia interpolación a Bezier. 4. Sincroniza keyframes de texto con los del logo. 5. Agrupa texto para ajustar posición sin alterar keyframes.",
+    "Efecto de texto 'Flip That Text': 1. Escribe texto, aplica Pirouette behavior. 2. Agrupa, duplica grupo. 3. Cambia texto del duplicado. 4. Keyframea Right crop del grupo duplicado (de >200 a 0). 5. Keyframea Left crop del grupo original (de 0 a >200) justo antes del keyframe del duplicado.",
+    "Efecto 'Jackpot' (texto en columnas): 1. Escribe 9 filas de texto, alineación Right. 2. Aplica Overshoot a Position Y. 3. Ajusta Start Value negativo, Ramp Duration para rebote. 4. Aplica Shine behavior después del Overshoot. 5. Duplica texto 2 veces, cambia alineación a Center y Left, ajusta filas. 6. Escalona textos en timeline. 7. Agrupa todo, aplica Rectangle Mask alrededor de la fila central.",
+    "Pared de luces 3D: Crea círculo negro (apagado) y duplica para encendido con Glow amarillo. Replica cada grupo en cuadrícula 13x13. Anima con Sequence Replicator (Opacity, Spread 5) o Image Mask con estrella animada. Usa Clone Layers para bucle.",
+    "Texto hielo 3D: Fuente 'Soap', Overshoot en Position Y para caída, segundo Overshoot en Rotation X/Z para giro. Activa 3D Text, Depth 180, Material Multiple, ajusta opacidad por cara. Filtro Extrude Depth 64. Fondo Water Dance + Burbujas (emitter). En FCP: filtro Water Pane sin Vignette.",
+    "Efecto SNL: Texto grande (Ponter Alt) con Glow, Gradient Blur y Prism, Blend Mode Overlay. Duplica para apellido con color teal. Divide en timeline (15 frames). Texto pequeño: Size 208, Vivid Light, Drop Shadow teal. Randomize en Prism/Glow Mix (Subtract). Pop Out al final (Direction Backwards). Match Move en nariz (solo Position).",
+    "Logo reveal 3D: Color sólido blanco + Image Mask con forma (Invert). Replicator 3D Box, 10 Ranks, Depth 3600, Origin Back, Color Over Pattern con gradiente. Cámara: keyframe Scale de 130 a 9, Rotation Z 360°. Logo con Radio Blur y Overshoot en Z Rotation.",
+    "Acuarela realista: Texto script de referencia. Bézier por trazo, Airbrush Spacing 5%, Opacity over Stroke 55%, Width over Stroke 55%. Write On en cada trazo. Gradient Colorize sobre textura papel. Gotas con Fill y keyframe Scale. Sangrado: keyframe Brush Scale 150% y Jitter 50% tras Write On.",
+    "Páginas 3D: PDF importado, duplica capa para reverso (Rotation Y 180). Agrupa par de páginas, anchor point al lomo. Keyframe Rotation Y -180 en 20 frames. Filtro Page Curl con keyframes (Angle, Rotation, Radius, Percent). Ease Both. Duplica grupos y escala en timeline. Copias estáticas al fondo para evitar páginas fantasma.",
+    "Caricatura animada: Dibuja rostro con círculo convertido a puntos. Ojos con Paint Stroke, duplica y aplica Flop (cambia a 2D). Parpadeo: Oscillate Square en Opacity. Cabeza: Randomize en Rotation Z con anchor point en cuello. Brazos: Oscillate y Logarithmic en Rotation Z. Labios: behavior Audio con valores opuestos en Y.",
+    "Crear S-curve exagerada: selecciona el primer fotograma clave y arrastra su manija hacia la derecha, alineada horizontalmente con el segundo fotograma clave (mantén Shift). Luego selecciona el segundo fotograma clave y arrastra su manija hacia la izquierda, alineada horizontalmente con el primero (mantén Shift).",
+    "Añadir efecto de resorte (slingshot): selecciona el primer fotograma clave, arrastra su manija hacia abajo y a la derecha para que la curva se hunda por debajo del valor inicial. Esto hace que el objeto retroceda ligeramente antes de avanzar."
+   ],
+   "errores_comunes": [
+    "Elementos no centrados al usar keyframe X=0: ocurre porque en Illustrator las coordenadas de origen pueden estar desplazadas. Solución: arrastrar reglas al centro y ajustar manualmente el valor X de cada elemento en el keyframe.",
+    "Círculo incompleto que distrae visualmente: el círculo teal parcial llama la atención al inicio. Solución: usar filtro Colorize con keyframe en Mix para que aparezca gradualmente desde el color del fondo.",
+    "Capas basura del diseñador: el archivo AI puede contener elementos no usados (círculos negros, verdes, copias extra). Solución: revisar y eliminar antes de animar.",
+    "Movimiento lineal sin dinamismo: si no se ajustan curvas en Keyframe Editor, la animación se siente plana. Solución: siempre dar S-curve a keyframes de posición, escala y mix.",
+    "No publicar parámetros en Motion: si solo guardas el generador sin publicar pan, scale y filtros, en Final Cut solo aparecerá la opción de cambiar el clip del drop zone, sin controles adicionales.",
+    "Publicar parámetros con el drop zone vacío: si intentas publicar pan o scale cuando el drop zone no tiene contenido, esas opciones no estarán disponibles.",
+    "No limpiar los drop zones en generadores profesionales: dejar el contenido de video dentro del drop zone al publicar el generador hace que se vea menos profesional.",
+    "No notar que el producto está torcido en el plato giratorio, lo que obliga a keyframear la máscara manualmente en lugar de usar un rectángulo estático.",
+    "Intentar usar motion tracking en un producto que gira: el tracker pierde el punto de referencia porque rota fuera del cuadro.",
+    "Aplicar la máscara directamente al logo en lugar de al grupo: la máscara se moverá con el Motion Path del logo y no funcionará el revelado desde la línea.",
+    "No ajustar el Anchor Point de la máscara al rotar: la máscara rotará desde su centro, no desde el centro de la línea, causando desalineación.",
+    "No cubrir completamente el texto con el Bezier: el texto original se asoma y arruina el efecto de escritura."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "Create Pro Logo Animations in Apple Motion | Illustrator to Motion Workflow Tutorial",
+     "url": "https://youtu.be/1PZACYumqZ8",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Drop Zones Tutorial",
+     "url": "https://youtu.be/2Byomb5KmfE",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Product Animation in Apple Motion",
+     "url": "https://youtu.be/2RDMxlIJO_o",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Mask Reveal Tutorial",
+     "url": "https://youtu.be/3FIWAWvfyYc",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "How to Make Text Write on in Apple Motion",
+     "url": "https://youtu.be/5iQXujPSZFM",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Tutorial | Augmented Reality Effect",
+     "url": "https://youtu.be/7PYX5YJ8tAw",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Behaviors Challenge | It's Back!!!!",
+     "url": "https://youtu.be/7T6fAWHia8Y",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "3D Metal Logos in Apple Motion",
+     "url": "https://youtu.be/7y62UtyVBaE",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Logo Animation Tutorial | SEND HELP! 😫😫😫",
+     "url": "https://youtu.be/9f7SEQoDXfQ",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Animate Logos in Apple Motion | Step By Step Tutorial",
+     "url": "https://youtu.be/9kOPkldi3hs",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Hacks",
+     "url": "https://youtu.be/9vD5z_v27yw",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion CTA Tutorials | 3 Looks Step by Step",
+     "url": "https://youtu.be/C69pRNdMU0M",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion 3D Text Tutorial",
+     "url": "https://youtu.be/D9UnH1NFwuE",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Dynamic Text Tutorials in Apple Motion",
+     "url": "https://youtu.be/G9UF61at400",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Recreating the White Lotus Show Open in Apple Motion | Camera, Light and More!",
+     "url": "https://youtu.be/H2nLp1_aeK4",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Text Tutorial | Disco Ball & Neon Lights Effects",
+     "url": "https://youtu.be/J2h7XLFDkH4",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Dripping Text Tutorial in Pixelmator Pro and Apple Motion",
+     "url": "https://youtu.be/JYOlQcTvb7o",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Whiteboard Video Tutorial",
+     "url": "https://youtu.be/KN6XHLnpqL4",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Tutorial | Making Reflections",
+     "url": "https://youtu.be/M5bf8tYX3gw",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Making Logos 3D in Apple Motion",
+     "url": "https://youtu.be/NjnmXRLCpe8",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "3D Objects in Apple Motion",
+     "url": "https://youtu.be/QicOQGXvxSU",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "5 Motion Behaviors You Need to Know!",
+     "url": "https://youtu.be/R2RMF2hJGJs",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Light Wall Tutorial in Apple Motion",
+     "url": "https://youtu.be/TuIbGxtGa2Q",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Tutorial- SNL Show Open",
+     "url": "https://youtu.be/UPgvwAQ_nrU",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "If You Can Shop on Amazon, You Can Use Apple Motion | Final Cut Pro Titles Tutorial",
+     "url": "https://youtu.be/VGhOoYEsXFk",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Clone Layer Title Templates in Apple Motion",
+     "url": "https://youtu.be/WROgHt7O70I",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "I Created 3D Models with AI and Used Them in Apple Motion. Here's How it Went.",
+     "url": "https://youtu.be/XEICZnEFq_M",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Tricks | 20 Things You Didn't Know You Could Do in Motion",
+     "url": "https://youtu.be/Xgptjr4zQTc",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Best Apple Motion Features | 40 Features You Should be Using!",
+     "url": "https://youtu.be/XtdCdzVwMEI",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Text Behaviors Get a Makeover!",
+     "url": "https://youtu.be/YaMdK9IIA08",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Logo Reveal",
+     "url": "https://youtu.be/cmz-H9hKnMg",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Behaviors Challenge ft. Mark Spencer",
+     "url": "https://youtu.be/cuTLubswqmM",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Text Tutorial | 3D ICE",
+     "url": "https://youtu.be/gsu50LYFfZ4",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "3D Scroll Stopper in Apple Motion",
+     "url": "https://youtu.be/iZYotWOnDkY",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Looping Logo Tutorial in Apple Motion",
+     "url": "https://youtu.be/l4ZjaRXPQrU",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Tutorial | Loading Animations",
+     "url": "https://youtu.be/m9NewUPHzkc",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Behaviors Tutorial",
+     "url": "https://youtu.be/mkvdzUcXS5U",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "3D Photo Effect in Apple Motion | Step by Step Tutorial",
+     "url": "https://youtu.be/mz-PU_VWO6M",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Page Flipping Tutorial",
+     "url": "https://youtu.be/qB8-EE0QSKI",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Custom Logo Animation in Apple Motion | My whole process",
+     "url": "https://youtu.be/rFDqYXn7Plw",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Head to Head Apple Motion Behaviors Challenge",
+     "url": "https://youtu.be/rYGWxoP5N7A",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Cartoon Animation in Apple Motion | NO PLUGINS!",
+     "url": "https://youtu.be/u07pDKjdmjI",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Strokes Tutorial",
+     "url": "https://youtu.be/vBZU_YQ5VWE",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Intro to Apple Motion | FCP Editors NEED This App",
+     "url": "https://youtu.be/x8iH64kMffc",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Keyframe Magic: Animate Like a Pro in Apple Motion!",
+     "url": "https://youtu.be/yPXe5c0h84k",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Tutorial | SPARKLE REVEAL",
+     "url": "https://youtu.be/zDpuMU8dXaM",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Motion 5 tutorial course in Spanish - 🎬 * Chapter 13 - Titles for Final Cut Pro X",
+     "url": "https://youtu.be/0J1HXM7jw4Y",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de Motion 5 tutorial en español - 🎬 * Capítulo 8 - Creando el escenario para este tutorial",
+     "url": "https://youtu.be/1CBrWUFh1t4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Motion 5 Tutorial Course in Spanish - 🎬 * Chapter 4 - Behaviors",
+     "url": "https://youtu.be/4185cfeb2e8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Motion 5 tutorial course in Spanish - 🎬 * Chapter 10 - Camera Behaviors",
+     "url": "https://youtu.be/DsbDNpuER5w",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Motion 5 tutorial course in Spanish - 🎬 * Chapter 11 - Generators for Final Cut Pro X",
+     "url": "https://youtu.be/NfASvf-9pgM",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Motion 5 Tutorial Course (Advanced Level) - 🎬 * Chapter 1 - Reflective Sphere",
+     "url": "https://youtu.be/V0KDLRjFOk8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de Motion 5 tutorial en español - 🎬 * Capítulo 6 - Mapa animado con Motion",
+     "url": "https://youtu.be/b72TyJCMaZY",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de Motion 5 tutorial en español - 🎬 * Capítulo 7 - Cámaras y entorno 3D",
+     "url": "https://youtu.be/f91FC_dmbWo",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de Motion 5 tutorial en español - 🎬 * Capítulo 12 - Comportamientos de Las Luces",
+     "url": "https://youtu.be/fmN8px4bS2c",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Motion 5 tutorial course in Spanish - 🎬 * Chapter 3 - Particles and Replicators.",
+     "url": "https://youtu.be/k54IR7Ay56Y",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de Motion 5 tutorial en español (Nivel Avanzado) - 🎬 * Capítulo 2 - Título en Piscina Luminosa",
+     "url": "https://youtu.be/ndcd37FZ834",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de Motion 5 tutorial en español - 🎬 * Capítulo 1 - Primeros pasos",
+     "url": "https://youtu.be/rwrxxJ9eYDE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de Motion 5 tutorial en español - 🎬 * Capítulo 9 - Las Luces en Motion",
+     "url": "https://youtu.be/v2IcGy0Esy0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Apple Motion Beginner Tutorial 2026 | You got this! #applemotion #creatorstudio #finalcutpro",
+     "url": "https://youtu.be/-N_iNALYFSc",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Curso de Motion 5 tutorial en español - 🎬 * Capítulo 2 - ¡El menú biblioteca al completo!",
+     "url": "https://youtu.be/-4-3r4rHhZY",
+     "canal": "mundoaudiovisual"
+    }
+   ]
+  },
+  {
+   "id": "camaras-tecnica-grabacion",
+   "disciplina": "foto-cinematografia",
+   "area": "tecnica-grabacion",
+   "titulo": "Técnica de grabación: exposición, codecs, estabilización, audio y efectos con smartphone, dron y cámara DSLR",
+   "que_ensena": "Enseña a exponer manualmente en video usando el triángulo de exposición (velocidad de obturación, apertura, ISO) y la regla de 180° para motion blur. Cubre selección de resolución y FPS, codecs (H.264 vs ProRes), configuración de estabilizadores DJI Ronin, grabación multicámara con una sola cámara, uso de filtros ND, grabación profesional con smartphone (Filmic Pro), edición de audio con IA (Adobe Podcast), y técnicas de chroma key casero, iluminación LED y restauración de video con IA. Incluye flujo completo de edición con IA: relleno generativo (Generative Fill en Photoshop Beta), creación de avatar parlante (The ID), y edición de audio profesional (Audacity).",
+   "reglas_para_agentes": [
+    "Usa siempre el modo manual (M) en la cámara para video; nunca uses modos automáticos.",
+    "Aplica la regla de 180°: velocidad de obturación = 2 × FPS (ej. 30 fps → 1/60).",
+    "Mantén el ISO en el valor más bajo posible (100-200) para evitar ruido; solo súbelo si no puedes compensar con apertura u obturación.",
+    "Usa 1080p Full HD como resolución predeterminada para YouTube; graba en 4K solo si necesitas escalar o recortar.",
+    "Para video normal, usa 24-30 fps; para cámara lenta, graba a 60 o 120 fps.",
+    "Transcodifica archivos H.264 a Apple ProRes 422 antes de editar para un flujo de trabajo más fluido.",
+    "Nunca distribuyas un video final en ProRes; exporta siempre a H.264.",
+    "Usa la función de puntos de referencia en la app DJI Ronin cuando necesites repetir exactamente el mismo movimiento de cámara.",
+    "Configura la duración en cada punto de referencia a 0 para movimiento continuo sin pausas.",
+    "Configura el balance de blancos en MANUAL antes del concierto, con luz de escenario neutra; nunca uses automático con luces de colores.",
+    "Usa siempre un micrófono externo para voz principal; el sonido es el 50% del video.",
+    "En Filmic Pro, configura 4K (2160), Filmic Extreme, 25 fps y 48 kHz de audio.",
+    "Activa la estabilización solo al grabar en movimiento; desactívala en trípode.",
+    "Usa filtro ND según la regla de 180°: empieza con ND32 en condiciones soleadas y ajusta según histograma.",
+    "En drones con apertura variable, cierra el diafragma al máximo antes de elegir un ND alto para priorizar nitidez.",
+    "Usa filtro polarizado (CPL) cuando haya reflejos en agua o ventanas.",
+    "Usa 'Enhance Speech' de Adobe Podcast para limpiar audios de voz en off con ruido de fondo.",
+    "Siempre corrige el canal de salida de Adobe Podcast de mono a stereo en DaVinci Resolve (Channel 2 integrated into Channel 1).",
+    "Usa la fórmula de pintura 'real 60 18 60 18' para chroma key en pared; no compres telas caras.",
+    "Usa 4500 Kelvin y 20-30% de intensidad en luces LED Elgato Light Air para iluminación de estudio.",
+    "Para timelapse, usa intervalo de 2 segundos entre fotos, obturación a 1/4 s y filtro ND variable.",
+    "En DaVinci Resolve, arrastra todas las fotos a la vez a la línea de tiempo para que se agrupen como un solo clip.",
+    "Usa el modelo 'Super Video' de Aiarty Video Enhancer para eliminar ruido en condiciones de muy poca luz.",
+    "Usa interpolación de fotogramas a 120 fps en Aiarty para crear cámara lenta desde 24 fps.",
+    "Nunca actives el botón Turbo en Aiarty si la calidad es prioritaria sobre la velocidad.",
+    "Usa siempre Adobe Photoshop Beta (no la versión estable) para acceder a Generative Fill.",
+    "Escribe los prompts de Generative Fill exclusivamente en inglés; la función no procesa español.",
+    "Exporta los fotogramas desde DaVinci Resolve en formato JPG para mantener la corrección de color aplicada.",
+    "Selecciona solo el área a rellenar (fondo) y no el sujeto principal antes de aplicar Generative Fill.",
+    "Si el resultado de Generative Fill no es satisfactorio, presiona Ctrl+Z y genera de nuevo con un prompt más específico.",
+    "Aplica atenuación (softness) de al menos 100 en los bordes de la imagen generada para disimular la transición en el video.",
+    "Usa la herramienta pluma (pen tool) en Photoshop Beta cuando el color del cabello sea similar al fondo para un recorte preciso.",
+    "Exporta siempre el audio como MP3 comprimido si pesa más de 15 MB para subirlo a The ID.",
+    "Usa After Effects para eliminar chroma key cuando necesites exportar con canal alfa (transparencia).",
+    "En Audacity, monitorea los niveles de grabación: nunca permitas que superen 0 dB; mantén el rango entre -12 dB y -6 dB.",
+    "Aplica reducción de ruido en Audacity seleccionando una sección de solo ruido ambiente como perfil antes de procesar toda la pista.",
+    "Usa compresor en Audacity con umbral en -1 dB para uniformizar el volumen de la voz.",
+    "Aplica bass boost y treble boost con el ecualizador gráfico de Audacity para suavizar la frecuencia de la voz.",
+    "Normaliza la amplitud máxima a -1 dB en Audacity antes de amplificar.",
+    "Aplica un limitador con límite en -1 dB al final de la edición de audio para evitar distorsión.",
+    "Exporta el audio editado desde Audacity en formato WAV para conservar el máximo rango dinámico.",
+    "Para sincronizar audio externo con video, usa la función de sincronización nativa del editor (Final Cut: Sync Clips; Premiere: Synchronize) y luego silencia la pista de audio de la cámara.",
+    "Nunca uses Generative Fill en el sujeto principal si quieres mantenerlo intacto; selecciona solo el fondo.",
+    "Nunca subas audio sin comprimir a The ID si supera los 15 MB; comprime primero en DaVinci Resolve integrando canales (channel 1 integrated)."
+   ],
+   "prompts_y_recetas": [
+    "Para efecto de clonación con DJI Ronin SC: programa puntos de referencia en la app (Create > Virtual Joystick > Re-center), graba 4 tomas con el mismo movimiento, sincroniza por fotograma de inicio en Premiere, aplica máscara con keyframes en cada clip, anida y aplica Optical Flow al 99%.",
+    "Para simular multicámara en concierto con una sola cámara: graba la canción completa, durante otras canciones graba tomas de batería, bajista y público; en edición intercala las tomas sincronizando con golpes de platillo; usa efecto espejo con zoom en rostro para simular cámara inversa.",
+    "Para fondo desenfocado con smartphone en After Effects: aplica Pincel de Rotoscopia al sujeto, refina bordes con Refinar Borde, congela, duplica capa, aplica Desenfoque Gaussiano (valor 10-15) a la capa inferior.",
+    "Para efecto parallax con DJI Mavic 3: activa zoom digital 7x, mantén el objeto centrado mientras orbitas suavemente; en DaVinci Resolve configura secuencia 4K a 25 fps, ajusta color con curvas (bajar sombras, subir altas), corta clips al ritmo de la música.",
+    "Para efecto cámara en círculo en Premiere: coloca clip de cámara en pista superior, crea máscara de círculo en Opacity, anima Mask Expansion de grande a 0, añade borde con herramienta Ellipse en Graphics y anima su Mask Expansion.",
+    "Para efecto cámara en círculo en DaVinci Resolve (Fusion): añade máscara Ellipse al MediaIn, copia máscara al Merge para borde (desactivar Solid, ajustar Border Width), anima Width/Height de la máscara, añade nodo Transform para animar Size y Center.",
+    "Para timelapse: dispara 1200 fotos cada 2 segundos con obturación 1/4 s y filtro ND variable; en Lightroom aplica Lens Correction Auto, ajusta Shadows/Highlights/Dehaze, copia ajustes a todas las fotos; en DaVinci Resolve arrastra todas las fotos a la línea de tiempo, ajusta zoom para cubrir bordes negros, exporta en H.264.",
+    "Para restaurar video antiguo con Aiarty Video Enhancer: importa clip, selecciona modelo Super Video para ruido en poca luz o modelo de más detalle para texturas finas, activa interpolación a 120 fps si necesitas cámara lenta, desactiva Turbo para máxima calidad.",
+    "Para limpiar audio con Adobe Podcast: extrae audio del video en DaVinci Resolve (Delivery > Custom Export, solo audio MP3), súbelo a Enhance Speech en Adobe Podcast, descarga el audio mejorado e impórtalo a DaVinci, corrige canal a stereo integrando canal 2 en canal 1.",
+    "Para chroma key casero: pinta la pared con pintura de fórmula 'real 60 18 60 18', usa dos focos orientados al rostro y al fondo, graba con GoPro HERO8 Black configurada a 1080p, 24 fps, ISO fijo 100, perfil de color Plano, estabilización desactivada.",
+    "Para editar video en Luma Fusion (iPhone/iPad): crea proyecto a 30 fps y 1920x1080, importa clips, corta con tijeras, ajusta color en panel de efectos (brillo, contraste, saturación), guarda preset como favorito, añade transiciones (Dissolve, Fade to black), anima texto con keyframes de escala y opacidad, sincroniza cortes con la música, exporta en 1920x1080, calidad ultra, códec h264.",
+    "Para grabar con smartphone profesionalmente: usa Filmic Pro, configura 4K (2160), Filmic Extreme, 25 fps, 48 kHz, micrófono externo, estabilización activada solo en movimiento, monitorea decibelios para que no excedan el límite.",
+    "Para intro animada en After Effects: separa el logo en partes, crea máscaras elípticas para animar aparición con keyframes de escala y rotación, activa Motion Blur, aplica Easy Ease, renderiza en QuickTime con RGB+Alpha, refina en DaVinci Resolve con Radiate Blur y Directional Blur.",
+    "Para grabación de concierto con bajo presupuesto: configura Sony ZV-E10 con balance de blancos manual, graba audio con dos micrófonos (uno cerca del altavoz, otro oculto en el artista) en canales separados, lleva grabadora DJI Mic 2 de respaldo, en DaVinci Resolve duplica pista de audio y separa canales, aplica ecualizador (bajar graves, subir agudos).",
+    "Para exposición correcta en video: ajusta velocidad de obturación al doble de los fps, luego abre diafragma para más luz o ciérralo para más profundidad de campo, usa ISO bajo como último recurso, verifica con exposímetro en 0.",
+    "Para configurar GoPro Hero 8 en interiores con poca luz: usa 1080p, 24 fps, lente Linear, HyperSmooth desactivado, bitrate Alto, ISO fijo 100, balance de blancos Nativo, nitidez Media, color Plano, exposición 0.",
+    "Para iluminación de estudio con Elgato Light Air: coloca dos paneles delante de la cámara a los lados del rostro, ajusta temperatura a 4500 Kelvin, intensidad al 20-30%, usa difusor de vidrio incluido.",
+    "Para crear un estudio de grabación casero profesional: pinta chroma key en la pared, fabrica luces con cajas IKEA forradas con papel aluminio, usa micrófono lavalier conectado a grabadora externa, configura GoPro para interiores.",
+    "Para cambiar el fondo de un video: en DaVinci Resolve, aísla al sujeto con máscara, exporta un fotograma como JPG. En Photoshop Beta, selecciona el fondo con Lasso, aplica Generative Fill con prompt en inglés (ej. 'medieval castles'). Guarda como JPG, arrastra a la línea de tiempo y ajusta duración.",
+    "Para eliminar un objeto no deseado en video: en DaVinci Resolve (módulo Color), crea una máscara alrededor del objeto, exporta ese fotograma como JPG. En Photoshop Beta, selecciona el objeto y aplica Generative Fill sin prompt (vacío). Guarda y reemplaza en la línea de tiempo.",
+    "Para crear un avatar parlante desde una foto: recorta la foto en Photoshop Beta (fondo verde), genera guion con ChatGPT (ej. 'crea un texto de 30 segundos donde voy a presentar una herramienta de IA...'), graba audio, limpia con Adobe Podcast, comprime a MP3 (<15 MB), sube foto y audio a The ID, genera y descarga el video.",
+    "Para eliminar chroma key de un avatar en After Effects: importa el video, crea composición, aplica efecto de luz (light effect) apuntando al color verde, añade a cola de renderizado, exporta como 'Clean Chroma Key Video' con calidad 444 y RGB+alpha.",
+    "Para generar fondo 4K con IA: en Photoshop Beta, crea proyecto 3840x2160, selecciona todo el lienzo, aplica Generative Fill con prompt en inglés (ej. 'Create me a background, a wall with a painting on the left, with futuristic lights, cool colors'). Repite para llenar espacios vacíos. Guarda como JPG.",
+    "Para editar audio de voz en Audacity: reduce ruido (perfil de ruido ambiente), aplica compresor (threshold -1 dB), ecualiza con Bass Boost y Treble Boost, normaliza a -1 dB, amplifica (+5 dB con 'Permitir recorte' marcado), aplica limitador a -1 dB, exporta como WAV.",
+    "Para sincronizar audio editado en Final Cut Pro: importa el clip de video y el WAV, selecciona ambos, clic derecho > Sincronizar clips, arrastra el clip sincronizado a la línea de tiempo, silencia el audio de cámara (volumen a 0).",
+    "Para sincronizar audio editado en Adobe Premiere: importa el clip de video y el WAV, arrastra ambos a la línea de tiempo, selecciona todos, clic derecho > Sincronizar, silencia la pista de audio de cámara."
+   ],
+   "errores_comunes": [
+    "Usar exposición automática en video: pierdes control sobre motion blur, profundidad de campo y ruido.",
+    "Ignorar la regla de 180°: usar obturación igual a fps (ej. 1/30 a 30 fps) genera movimientos extraños; usar obturación muy rápida (ej. 1/250) congela el movimiento y da aspecto artificial.",
+    "Subir el ISO como primera opción: introduce ruido; primero ajusta apertura y obturación.",
+    "Grabar siempre en 4K y a 60 fps sin necesidad: desperdicia recursos y puede empeorar la calidad visual.",
+    "Editar directamente con archivos H.264 sin transcodificar a ProRes: ralentiza la edición y reduce el rango dinámico.",
+    "Usar balance de blancos automático en conciertos con luces de colores: la cámara cambia la temperatura de color constantemente.",
+    "No usar micrófono externo: el audio deficiente arruina el video aunque la imagen sea buena.",
+    "Grabar con estabilización activada en trípode: recorta la imagen innecesariamente.",
+    "Usar filtro UV pensando que mejora la imagen: solo protege el lente y puede añadir suciedad.",
+    "No limpiar el filtro antes de usarlo: el polvo o las manchas degradan la calidad.",
+    "No sincronizar cortes con la música en edición: la edición se siente desconectada.",
+    "No guardar presets de corrección de color: pierdes tiempo ajustando clip por clip.",
+    "Usar la versión estable de Photoshop en lugar de la Beta para Generative Fill.",
+    "Escribir prompts de Generative Fill en español; la IA solo interpreta inglés.",
+    "Exportar fotogramas desde DaVinci Resolve en formato que no sea JPG, alterando la corrección de color.",
+    "Seleccionar parte del sujeto al aplicar Generative Fill, modificándolo involuntariamente.",
+    "No ajustar la atenuación (softness) en los bordes de la imagen generada, dejando línea de corte visible.",
+    "Confiar en la primera generación de la IA sin revisar las 3 variantes ofrecidas.",
+    "Tener fondo con color similar al cabello en la foto del avatar, dificultando el recorte automático.",
+    "Generar texto con ChatGPT sin iterar y corregir, incluyendo afirmaciones falsas sobre la herramienta.",
+    "Subir audio sin comprimir a The ID si pesa más de 15 MB; el sistema lo rechaza.",
+    "Grabar audio con niveles que superen 0 dB, causando distorsión irreversible.",
+    "No eliminar ruido de fondo antes de editar el audio, empeorando la calidad final.",
+    "Exportar audio editado en formato comprimido (MP3) en lugar de WAV para edición posterior."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "DJI - Ronin SC - Mucho más que un estabilizador. Crea efectos increíbles.",
+     "url": "https://youtu.be/3fHjFNTFS2w",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Cómo GRABÉ UN CONCIERTO con BAJO PRESUPUESTO y RESULTADOS PROFESIONALES",
+     "url": "https://youtu.be/401dq6M_0ow",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "¿Para que sirven los FILTROS ND y otros filtros? ¿NECESARIOS O MARKETING?",
+     "url": "https://youtu.be/4v48RQ0KU0g",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "¿A qué resolución grabo y edito? ¿Y a cuántos FPS?",
+     "url": "https://youtu.be/S5ohcqcJXIo",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Course - Recording Video with a DSLR Camera - Chapter 2 - Shutter Speed",
+     "url": "https://youtu.be/UYBaVUaNcCc",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "TUTORIAL COMPLETO La mejor Aplicación para editar videos profesionales desde tu iPhone o iPad",
+     "url": "https://youtu.be/WVIejZ22j8o",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "How to record professional videos with an iPhone 11 or any smartphone?",
+     "url": "https://youtu.be/ZUFiqSlAO_M",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "¡Como grabar videos con fondo desenfocado con tu Smartphone!",
+     "url": "https://youtu.be/_7NxQWl-dRo",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Codec de Video - ¿Para que Sirven?",
+     "url": "https://youtu.be/arRxBO66G5A",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "PARALLAX",
+     "url": "https://youtu.be/bZMkoE5fbaU",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Creating the intro for a YouTube channel tutorial",
+     "url": "https://youtu.be/cTfmUvgm2vU",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Grabar video con camara Reflex / DSLR - Cap. 1 - El triángulo de exposición",
+     "url": "https://youtu.be/gfZtnK9pwYw",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "How to create your own Chroma Key and professional home recording studio at minimal cost?",
+     "url": "https://youtu.be/hOFUqwu1g68",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Edición de AUDIO GRATIS con INTELIGENCIA ARTIFICIAL Adobe Podcast",
+     "url": "https://youtu.be/m7oPYfn5h1U",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Grabar video con camara Reflex / DSLR - Cap. 3 - El Diafragma - Fondo Desenfocado",
+     "url": "https://youtu.be/mthdItV3LNs",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "How to Set Up GoPro for Indoor Low Light Recording 2020 - No More Video Noise!",
+     "url": "https://youtu.be/o2xzOdNjzuQ",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Detrás de las cámaras ¿Cómo hago mis videos de YouTube? Todo el proceso desde cero!",
+     "url": "https://youtu.be/oF86QO2bBt8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Enseño a Vero a EXPONER los videos correctamente de FORMA MANUAL",
+     "url": "https://youtu.be/RDhGcz6DNDk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "La mejor iluminación para creadores de contenido en Twitch y en YouTube",
+     "url": "https://youtu.be/vMCIMzAbyAU",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "TUTORIAL - EFECTO CÁMARA EN UN CÍRCULO EN LA PANTALLA",
+     "url": "https://youtu.be/zBnwbaBawa8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "RESTORE your videos with AI Aiarty VIDEO enhancer",
+     "url": "https://youtu.be/9uAydekOqJw",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "TIMELAPSE - What is it and how to create it with your camera? COMPLETE TUTORIAL",
+     "url": "https://youtu.be/-xyDKf3bWyI",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "🔴 GENERATIVE FILL FOR VIDEO WITH ARTIFICIAL INTELLIGENCE🔴",
+     "url": "https://youtu.be/YB8hxc5qyjk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "🤖 CREO UN VÍDEO COMPLETO 100% GENERADO POR INTELIGENCIA ARTIFICIAL CON MI AVATAR 🤖",
+     "url": "https://youtu.be/MVy769pdfG8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "The best FREE software for recording and editing audio for your videos! 🎤 🔊 🔊",
+     "url": "https://youtu.be/F3yc3Ab_lzE",
+     "canal": "mundoaudiovisual"
+    }
+   ]
+  },
+  {
+   "id": "cinematografia-drones-fpv",
+   "disciplina": "foto-cinematografia",
+   "area": "drones-aereos",
+   "titulo": "Guía completa de cinematografía con drones: vuelo, edición y fotogrametría",
+   "que_ensena": "Enseña a planificar y ejecutar tomas cinematográficas con drones DJI (Mini 3 Pro, Air 3, Mini 5 Pro, Avata) y FPV, incluyendo técnicas de vuelo manual, uso de waypoints, hyperlapses, fotogrametría, corrección de color en DaVinci Resolve y edición con speed ramps. Cubre desde la configuración de cámara y filtros ND hasta la gestión de baterías y seguridad en vuelo, así como el montaje de drones FPV y revelado RAW.",
+   "reglas_para_agentes": [
+    "Usa el histograma para verificar exposición antes de cada toma; nunca confíes solo en la vista previa.",
+    "Coordina altura y posición con otros pilotos cuando vueles múltiples drones en el mismo espacio.",
+    "Nunca vueles en propiedad privada sin autorización explícita por escrito del propietario.",
+    "Activa el modo cine para órbitas y movimientos lentos; cambia a modo normal solo para desplazamientos más rápidos.",
+    "Mantén el objetivo centrado en el encuadre durante retrocesos y ascensos.",
+    "Verifica la batería antes de cada vuelo; aterriza cuando el dron indique batería baja.",
+    "Para FPV: usa baterías más ligeras si buscas mayor flotabilidad y estabilidad en maniobras invertidas.",
+    "Usa siempre la función de waypoints guardados cuando quieras repetir exactamente la misma trayectoria en diferentes condiciones de luz o clima.",
+    "Cuando crees un efecto de paralaje, marca al menos 4-5 puntos de trayectoria con el punto de interés centrado en cada uno; a más puntos, mejor el efecto.",
+    "Nunca confíes en los sensores de obstáculos del dron en condiciones de baja luz; verifica visualmente que la ruta esté libre de obstáculos antes de ejecutar waypoints nocturnos.",
+    "Usa el modo 'Path' dentro de Hyperlapse para definir waypoints en Mini 3 Pro; no uses DJI Fly directamente para waypoints.",
+    "Al pegar ajustes de Lightroom con máscaras, selecciona 'Replace Masks' explícitamente (está desactivado por defecto).",
+    "Aplica Warp Stabilizer con configuración 'Detailed Analysis' y 'Enhanced Reduction' para Hyperlapses con velocidad de obturación lenta.",
+    "En DaVinci Resolve, usa un compound clip antes de aplicar la rampa de velocidad para mantener la transición sincronizada.",
+    "Usa waypointmap.com (versión gratuita) para generar rutas de mapeo automáticas cuando no tengas acceso a SDK o apps de pago.",
+    "Siempre crea dos waypoints manuales en el RC2 antes de importar archivos externos, para que DJI genere la estructura de carpeta y el archivo de referencia.",
+    "Renombra el archivo KMZ importado con el nombre exacto del archivo de waypoint original de DJI (incluyendo extensión) antes de copiarlo a la carpeta waypoint/.",
+    "En Agisoft Metashape, activa siempre Rolling Shutter Compensation > Full antes de orientar fotos tomadas con drones de obturador electrónico.",
+    "Desactiva siempre los sensores de obstáculos cuando vueles cerca de objetos, ramas o suelo; de lo contrario, el dron frenará o se desviará arruinando la toma.",
+    "Nunca vueles mirando solo la pantalla en tomas de proximidad; mantén el dron a la vista para evitar choques.",
+    "Aplica la regla del ángulo de 180°: la velocidad de obturación debe ser el doble de la tasa de cuadros (ej. 30 fps → 1/60).",
+    "No dudes al mover los joysticks en vuelos de proximidad; el movimiento debe ser decidido y constante.",
+    "Sincroniza cada corte de video con un golpe o cambio en la pista de música para mantener el ritmo.",
+    "Convierte keyframes de velocidad a curva en speed ramps para transiciones orgánicas, no abruptas.",
+    "Bloquea las pistas de música y efectos de sonido después de colocarlas para no moverlas accidentalmente al editar.",
+    "Usa siempre formato RAW en el DJI Mini 3 Pro cuando el objetivo sea editar las fotos después; nunca uses JPEG si planeas correcciones de color o exposición.",
+    "Usa balance de blancos manual siempre, nunca automático, para evitar cambios bruscos de color.",
+    "Nunca despegues sin tener al menos 8 satélites y el punto de retorno a casa (RTH) confirmado.",
+    "Desactiva RockSteady y HorizonSteady en el DJI Avata antes de grabar si planeas estabilizar después con Gyroflow.",
+    "En Gyroflow, nunca bloquees el horizonte al 100%; usa 80-89% para conservar sensación de movimiento natural.",
+    "Usa 'Eliminar neblina' (Dehaze) solo en valores bajos (10-20) para evitar saturación excesiva.",
+    "Nunca subas la saturación general por encima de 20-25; prefiere ajustes locales con pincel.",
+    "Usa filtro ND 1000 en condiciones de luz normal o nublada; usa ND 2000 solo en días muy soleados.",
+    "Nunca excedas ISO 500 con filtro ND; mantén ISO entre 100 y 400 para evitar ruido excesivo.",
+    "Verifica continuidad con multímetro antes de conectar la batería: positivo y negativo no deben tener continuidad entre sí."
+   ],
+   "prompts_y_recetas": [
+    "Para transición día a noche con waypoints: graba la ruta de día con balance de blancos fijo en 5700K y 4K a 60 fps. Luego repite la misma ruta de noche en modo nocturno con 30 fps y obturación a 60. En DaVinci Resolve, coloca el clip diurno arriba y el nocturno abajo, reduce opacidad del superior para alinear, ajusta zoom y posición, crea un compound clip y aplica speed ramp con Control+R.",
+    "Para efecto de paralaje con DJI Mini 3 Pro: configura modo Cinema, resolución 1/60, ISO Auto, balance de blancos 5400K, perfil de color Cinema. Centra el objeto en la retícula, inicia una órbita muy lenta alrededor del objeto manteniéndolo en el eje X. Para mayor sensación, aplica zoom digital mientras orbitas.",
+    "Para fotogrametría con DJI Mini 5 Pro sin SDK: usa waypointmap.com para planificar la ruta (altitud 60 m, velocidad 9 km/h, gimbal -75°). Descarga KMZ, crea dos waypoints manuales en RC2, renombra el KMZ con el nombre exacto del archivo DJI, reinicia RC2. En cámara: 50 MP, JPG, temporizador 5 segundos. Procesa en Agisoft Metashape con Rolling Shutter Compensation Full.",
+    "Para corrección de color cinematográfica en DaVinci Resolve: crea proyecto 4K a 25 fps. Aplica DJI LUT en primer nodo, baja sombras, sube saturación. Segundo nodo: sube temperatura. Tercer nodo: power window circular alrededor del objeto principal, duplica e invierte máscara para bajar sombras y exposición del fondo. Cuarto nodo: nitidez al objeto, desenfoque al fondo.",
+    "Para speed ramp en DaVinci Resolve: presiona Control+R sobre el clip, añade puntos de velocidad (Add Speed Point) al inicio y fin del tramo a acelerar. Arrastra el borde del clip entre puntos para ajustar velocidad. Presiona Shift+C, selecciona el punto y conviértelo a curva (icono de curva) para transición orgánica. Genera archivos optimizados antes de reproducir.",
+    "Para hyperlapse con DJI Mini 2: usa accesorio de tornillo para joystick a 0.1 m/s. Configura modo Pro, ND1000, obturación 1 segundo, exposición +0.3, intervalo 5 segundos. Edita en Lightroom: ajusta curvas, dehaze, copia ajustes a todas las fotos. En Premiere Pro: importa como secuencia de imágenes, aplica Warp Stabilizer con Subspace Deformation y Enhanced Reduction.",
+    "Para vuelo FPV manual con DJI Avata: practica primero en simulador DJI Virtual Flight. Afloja la palanca del acelerador, ajusta gimbal tilt a 30°. En modo manual, el stick derecho controla inclinación (adelante/atrás/lateral) y el izquierdo controla potencia y yaw. Usa el botón de pánico si pierdes el control.",
+    "Para ActiveTrack con DJI Mini 3 Pro en rutas con curvas: eleva el dron a 15 m, selecciona Path Mode (no Parallel Mode), coloca el dron detrás del vehículo, mantén velocidad entre 7-10 km/h. Si pierde el objetivo, gira el dron manualmente hacia el vehículo y re-selecciona en pantalla.",
+    "Para QuickShots con speed ramp: activa QuickShot en modo Video, selecciona Dronie, Rocket u Orbit. Graba a 50 fps para permitir cámara lenta. En DaVinci Resolve, aplica corrección de color (Saturation Matrix), luego Shift+R para añadir velocity points, comprime la sección entre puntos y convierte a curva. Sincroniza con la música.",
+    "Para configuración de DJI O3 Air Unit en FPV: usa regla de 180° (shutter = 2 × fps), ISO automático, balance de blancos fijo en 5700K, perfil Cinematic. Coloca filtro ND (ND16 para día soleado) y filtro UV para protección. En DaVinci Resolve, ajusta curvas logarítmicas (bajar sombras), aplica contraste y saturación.",
+    "Para mapeo con DJI Air 3: usa controlador RC2 con teléfono, configura cámara en RAW a 48 MP efectivos, temporizador 5 segundos. Vuela a 65 m con gimbal a 75°. Crea waypoints manuales en mapa satélite, velocidad 15-17 km/h. Procesa en Agisoft Metashape: importa fotos, orienta con calidad máxima, construye nube densa Ultra High y malla.",
+    "Para evitar quemar motores FPV: usa pista de despegue/aterrizaje en terrenos con tierra o arena. Después de cada vuelo o crash, limpia los motores con soplador con cepillo. Revisa hélices antes de armar. Limpia el lente de la cámara con paño suave. Vuela la primera batería del día sin calentar el dron.",
+    "Transición día a noche en DaVinci Resolve: superpone clip nocturno sobre diurno, baja opacidad al 50% para alinear elementos, aplica keyframes de opacidad (0%→100%), crea compound clip, añade Speed Points con Control+R, suaviza con Shift+C→curva, aplica Directional Blur ángulo 180° con keyframes de intensidad.",
+    "Hyperlapse nocturno con Mini 3 Pro: configura RAW, obturación 1/2s, ISO 100, WB 5300K, EV -2.3, intervalo 3s, duración 12-14s. Edita en Lightroom: baja temperatura, sube sombras/negros al máximo, satura azules/púrpuras, reducción de ruido luminance 60%. Exporta como secuencia JPG, importa en Premiere como Image Sequence, aplica Warp Stabilizer con Detailed Analysis.",
+    "Corrección de color CineLike a Rec.709 en Premiere: en módulo Color, sube contraste, ajusta highlights/whites, curva en S, temperatura, y en Color Grading aplica azules en sombras y naranjas en altas luces. Opcional: aplica LUT gratuito CineLike a Rec.709.",
+    "Estabilización con Gyroflow para DJI Avata: desactiva RockSteady/HorizonSteady, graba a 4K 60fps con obturador 1/120. En Gyroflow: arrastra video, ajusta Horizon Lock 80-89%, Smoothing 0.7, exporta. Edita en Premiere con corrección de color.",
+    "Fotogrametría con Mini 3 Pro en Metashape: importa fotos RAW, Tools→Camera Calibration→Shooting Compensation 'Full', orienta con calidad Maximum, crea nube de puntos densa (Extra Quality), crea malla (Extra High con Vertex coloring y Depth map reuse), crea textura, DEM, ortomosaico y curvas de nivel.",
+    "10 planos cinematográficos con Mini 5 Pro: configura ND32, 50fps, D-Log M, ISO 100. Planos: revelado de paisaje (gimbal abajo→arriba), grabar RTH, espiral ascendente, órbita manual, dolly zoom con zoom digital, espiral inversa con Spotlight, vuelo inverso, vuelo rasante sobre agua, rotación de gimbal, acercamiento máximo + revelado inverso.",
+    "Revelado RAW en Lightroom: abre el RAW, aplica contraste inicial, ajusta 'Eliminar neblina' (10-20), modifica blancos y negros para definir rango dinámico, corrige balance de blancos (sube temperatura para tonos cálidos), usa curva de tonos (baja un punto en la parte inferior, sube otro en la superior), ajusta canales individuales (baja rojos ligeramente, sube verdes en la parte baja), aplica filtro graduado en el cielo para reducir exposición, usa pincel de ajuste en sombras (sube temperatura, aumenta contraste, sube saturación, baja negros, sube sombras), y filtro radial para definir punto focal.",
+    "Fotografía de larga exposición con DJI Mini 2: coloca filtro ND 1000 (o ND 2000 en día soleado), activa modo manual, ajusta velocidad de obturación a 4 segundos, configura ISO entre 100 y 400, ajusta EV entre -1 y -0.7, activa guías de vuelo (cruz) con gimbal a 0°, toma al menos 20 fotos, selecciona las nítidas (aprox. 50% utilizables).",
+    "Montaje de dron FPV: ensambla frame sin apretar tornillos, instala placa controladora 'todo en uno' con conector DJI O3 hacia adelante, suelda cables de batería (rojo positivo, negro negativo) con condensador de 35V en paralelo, aísla soldaduras de corriente con silicona caliente, verifica continuidad con multímetro, suelda motores con pequeñas bolitas de estaño, empalma cables de unidad aérea si quedan tirantes usando retráctil termocontraíble, aprieta todos los tornillos al final.",
+    "Edición profesional en LumaFusion: crea proyecto 30fps 16:9, importa desde Linked Folder, sincroniza cortes con waveform de música, aplica corrección de color manual (Levels, Contrast, Saturation, Highlight amount), guarda look como favorito, usa transición Dissolve, limita velocidad a 6x, exporta en 4K H.264 10-bit.",
+    "Vuelo FPV acro desde cero: practica en simulador LiftOff, ajusta cámara con inclinación mínima, conecta batería con cable de voltaje entre alimentación. Ejercicios: control de altitud estática, figura en ocho grande, figura en ocho cerrada, seguir un camino, punch y recuperación, flips/rolls en altura. Aterriza lentamente con cámara inclinada.",
+    "Fotografía RAW y HDR con Mini 3 Pro: captura 5 exposiciones, combínalas en Lightroom con Photo Merge→HDR (Ghosting Alto). Ajusta sombras, verdes hacia amarillos, gradación de color (naranja en sombras, azul en luces), máscara radial para iluminar selectivamente. Recorta a 4:5 para Instagram, elimina objetos en Photoshop con Content-Aware Fill.",
+    "Planificación de sesión de vuelo: usa En Aire Drones para verificar restricciones, prepara mochila con cámara, grabador de audio, drone, filtros ND, kit de limpieza, power bank, baterías extra. Al llegar, inspecciona visualmente el área (cables, personas, obstáculos)."
+   ],
+   "errores_comunes": [
+    "No asumir que se puede volar libremente en propiedad privada sin permisos.",
+    "No apresurar las órbitas; la velocidad lenta permite añadir speed ramps en postproducción.",
+    "No ignorar las alertas de batería baja; aterriza inmediatamente cuando aparezcan.",
+    "No descuidar la detección de obstáculos: el Mini 3 Pro detecta obstáculos correctamente, pero hay que estar atento.",
+    "No compartir públicamente tomas interiores de propiedades privadas sin consentimiento del propietario.",
+    "No subestimar el riesgo de vuelo FPV entre árboles: pueden ocurrir choques y caídas.",
+    "Velocidad demasiado baja en waypoints: si la ruta se siente muy lenta, aumenta la velocidad (ej. de 9 km/h a 14 km/h o 22 km/h).",
+    "No guardar la ruta de waypoints: si no guardas el plan después de crearlo, no podrás repetirlo más tarde.",
+    "Sensores de obstáculos en noche: los sensores no funcionan bien con poca luz, hay que volar en zonas conocidas y despejadas.",
+    "No centrar el punto de interés en cada punto para el efecto de paralaje: el objeto se moverá en el encuadre.",
+    "Usar DJI Fly para waypoints en Mini 3 Pro: la función solo funciona dentro del modo Hyperlapse.",
+    "No copiar las máscaras al pegar ajustes en Lightroom: están desactivadas por defecto, hay que seleccionar 'Replace Masks'."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "MAKING OFF - Así hacemos un TRABAJO AUDIOVISUAL CON DRONES",
+     "url": "https://youtu.be/0ot-mPoXKXE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI AIR 3 🔥Way Points🔥Y transiciones de DÍA ☀️ A NOCHE 🌕  CREA DE FORMA DIFERENTE",
+     "url": "https://youtu.be/6RT_oB7NAdQ",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 3 PRO | Transición DE DÍA A NOCHE ☀️➡️🌛 con los WAYPOINTS del MINI 3 PRO para HYPERLAPSES",
+     "url": "https://youtu.be/6kFJpvwg4pk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 5 PRO 🔥 MAPPING 🔥 PROFESSIONAL PHOTOGRAMMETRY 🟡 FREE AND WITHOUT OPEN SDK",
+     "url": "https://youtu.be/7Q5OOXYKT9U",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "💡 DJI MINI 3 PRO 💡 FLY DIFFERENTLY COMPLETE TUTORIAL in Spanish",
+     "url": "https://youtu.be/8_viixtEd-Q",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI Mini 5 Pro - Color Profiles - ARE NOT WHAT THEY USED TO BE",
+     "url": "https://youtu.be/97g9RGSEToA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 3 PRO🔥 MY 10 ESSENTIAL MOVES.",
+     "url": "https://youtu.be/9qtYhYzkS0E",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "FOTOGRAMETRÍA CON EL DJI AIR 3  | Consigo la MÁXIMA CALIDAD en fotogrametría",
+     "url": "https://youtu.be/AGIIAKojMLo",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "TIPS and TRICKS to master your FPV DRONE in MANUAL",
+     "url": "https://youtu.be/CKua02VKw6E",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 2 - HYPERLAPSE with the DJI Fly - YES WE CAN!",
+     "url": "https://youtu.be/GnSTWSQAots",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 5 PRO - MOVIE-LIKE DRONE FOOTAGE - COLOR GRADING",
+     "url": "https://youtu.be/ILVKLUgHRmg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "CURSO DE FOTOGRAMETRÍA con el DJI Mini 3 Pro 🗺️ Capítulo 2 | Planificación de la MISIÓN DRONELINK",
+     "url": "https://youtu.be/Ldy68FlCzBc",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Consejos para NO ROMPER tu DRON FPV",
+     "url": "https://youtu.be/PwKHPDNLicU",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 5 PRO | TRICK for AMAZING QuickShots 🤩",
+     "url": "https://youtu.be/Qyh5MAfDM48",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Nuevo - DJI MINI 2 - Exposición Manual y Filtros de Densidad Neutra  😎",
+     "url": "https://youtu.be/RHc_heZzZQ4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "TOMAS DE DRON | EDITA como un PRO tus VÍDEOS DE DRON | RAMPAS DE VELOCIDAD",
+     "url": "https://youtu.be/RkFRLGlg1VU",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI AIR UNIT O3 | ¿Cómo sacar la máxima CALIDAD DE IMAGEN?",
+     "url": "https://youtu.be/TZJYx14JRQc",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 3 PRO | Crea VÍDEOS DIFERENTES con el EFECTO PARALLAX",
+     "url": "https://youtu.be/TiyHgC6LvcM",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 3 PRO ActiveTrack Tracking Mode",
+     "url": "https://youtu.be/Tu_dgrOhblU",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI AVATA 🔴🛩️ Vuela en MODO MANUAL de 0 A PRO | Capítulo 1 -   Primeros pasos | EL SIMULADOR 🛩️🔴",
+     "url": "https://youtu.be/V60A8jZcs74",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "TUTORIAL: MONTANDO UN DRON FPV - Capítulo 2 - Configuración en  BETAFLIGHT",
+     "url": "https://youtu.be/VarCvuNyYxk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI AVATA 🔥 PROGRESO ADECUADAMENTE  💪 Vuela en MODO MANUAL de 0 A PRO -  Capítulo 3",
+     "url": "https://youtu.be/VrFsIYeDwV8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI AIR 3 🔥 HOW DID I TRANSITION FROM DAY TO NIGHT? THE MAGIC OF EDITING (REVEALED)",
+     "url": "https://youtu.be/VtkON9eqJqk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "TUTORIAL: MONTANDO UN DRON FPV - Capítulo 3 - EL PRIMER VUELO",
+     "url": "https://youtu.be/Vygn9qIomqQ",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI Mini 3 Pro PHOTOGRAMMETRY COURSE 🗺️ Chapter 3 | Modeling with Agisoft Metashape",
+     "url": "https://youtu.be/Wt-NBSEJXDg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 3 PRO - FREEWELL - LOS MEJORES FILTROS ND para tu DRON",
+     "url": "https://youtu.be/XnIZmTqQ4sA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI Mini 3 Pro - GRABA Y EDITA vídeos ÉPICOS - Parte 1",
+     "url": "https://youtu.be/Y8kxOTiUpPs",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI Mini 3 Pro - GRABA Y EDITA vídeos ÉPICOS - Parte 2",
+     "url": "https://youtu.be/_Sr8UxlqHYA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "🔴 DJI AVATA  | ⚠️  Si quieres hacer BUENOS VIDEOS...  esto TIENES QUE VERLO",
+     "url": "https://youtu.be/aTVzwQ8TP-Q",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 3 PRO - EDIT your videos PROFESSIONALLY from your SMARTPHONE 📱",
+     "url": "https://youtu.be/bM3f5N7QrFo",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Todo lo que hago cuando SALGO A VOLAR MIS DRONES - ¡Mi Ritual! 🛩️💭",
+     "url": "https://youtu.be/eGiND5IVdN0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Tutorial de VUELO FPV en MODO ACRO - ¿CÓMO EMPEZAR A VOLAR FPV?",
+     "url": "https://youtu.be/evprBV5Yq6c",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 3 PRO - HYPERLAPSE - Complete Tutorial: How to record and edit them.",
+     "url": "https://youtu.be/fH4I4sgV0B0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 3 PRO - EDITANDO mi VIDEO para el CONCURSO del DRONE FUTURE 2022.",
+     "url": "https://youtu.be/fn3I9cHaaY4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 3 PRO -   Hyperlapse Nocturno - Tutorial Completo",
+     "url": "https://youtu.be/foY4sJ2yk-0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "CURSO DE FOTOGRAMETRÍA con el DJI Mini 3 Pro 🗺️ Capítulo 1 | ¿Qué es la FOTOGRAMETRÍA? y SOFTWARES.",
+     "url": "https://youtu.be/iHw8pQdUlX8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "☀️ DJI MINI 3 PRO - SUNSET HYPERLAPSE 😎 How to RECORD and EDIT them?",
+     "url": "https://youtu.be/iTpGcHQBelw",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Nuevo - DJI MINI 2 - Fotografía PANORÁMICA 🌍  🏞",
+     "url": "https://youtu.be/jV3OzSWrrF8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI AVATA 🔴🛩️ ESTRELLO el AVATA 2 VECES 🔥 | Capítulo 2",
+     "url": "https://youtu.be/o7--HgtjjT4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 3 PRO 📸 Saca el Máximo partido a tus fotografías",
+     "url": "https://youtu.be/t3ZB9bAlPmg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "How and Where to Edit the 10-bit D CineLike 🖌️👨‍🎨 of Your DJI Mini 3 Pro for Free!",
+     "url": "https://youtu.be/tb2nOdfdJ2Y",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI Mini 5 Pro 2026: 10 EASY and Professional Cinematic Shots",
+     "url": "https://youtu.be/tvuuNDCe3lk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 3 PRO 🔴 VUELOS INTELIGENTES 🔴 ¿Cómo grabarlos y Cómo editarlos?",
+     "url": "https://youtu.be/vPOZ_mgA3ZQ",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI MINI 2 - Procesando Fotografías HDRD 🌍 🏞",
+     "url": "https://youtu.be/vj_U4rDxBfg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Nuevo - DJI MINI 2 -  ¡REVELANDO FOTOGRAFÍAS EN RAW!   📽  🎬  🛸",
+     "url": "https://youtu.be/x6k6RMpeVBg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Nuevo - DJI MINI 2 - Fotografía de larga exposición. 😎",
+     "url": "https://youtu.be/_-RfHlH3LCk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "TUTORIAL: MONTANDO UN DRON FPV - Capítulo 1 - Montaje y Soldaduras.",
+     "url": "https://youtu.be/-bWaEmPKPC0",
+     "canal": "mundoaudiovisual"
+    }
+   ]
+  },
+  {
+   "id": "davinci-resolve-edicion-color",
+   "disciplina": "edicion-postproduccion",
+   "area": "flujo-de-trabajo-integral",
+   "titulo": "DaVinci Resolve: Edición, Color, Fusion, Audio y Efectos",
+   "que_ensena": "Flujo completo de trabajo en DaVinci Resolve (18/20/21): configuración de proyecto, edición con atajos de teclado, corrección y gradación de color, composición con nodos en Fusion (tracking planar y 3D, partículas, máscaras, chroma key, texto 3D), speed ramps, keyframes, Magic Mask, transiciones, generadores, efectos OpenFX, edición de audio con limitador y reducción de ruido, y exportación con códecs adecuados. Incluye diferencias entre versión gratuita y Studio.",
+   "reglas_para_agentes": [
+    "Usa Ctrl+B (Cmd+B en Mac) para cortar clips; deselecciona todo para cortar todas las pistas.",
+    "Asigna la función 'Cut and Propagate' a una tecla (ej. círculo) para eliminar y cerrar espacios sin ratón.",
+    "Bloquea siempre la pista de audio (candado) antes de editar video para evitar cortar la música.",
+    "Usa Command+R (Ctrl+R en Windows) para abrir controles de velocidad en un clip.",
+    "Para speed ramps, agrega al menos dos speed points y convierte los keyframes a curvas en el editor de curvas para transiciones orgánicas.",
+    "Cuando apliques cámara lenta a un clip con FPS bajo, selecciona 'Optical Flow' > 'Enhanced Better' en Retime Process (solo Studio).",
+    "Usa el panel de curvas paramétricas para animaciones orgánicas; nunca uses keyframes lineales para movimientos que imiten física real.",
+    "En Fusion, usa nodo Merge para combinar dos objetos: conecta primero el fondo (triángulo amarillo) y luego el primer plano (triángulo verde).",
+    "Usa Shift+Espacio para buscar y agregar cualquier nodo en Fusion.",
+    "Renombra cada nodo con F2 para mantener organización en composiciones complejas.",
+    "En Planar Tracker, siempre establece el fotograma de referencia (Reference Time > Set) antes de iniciar el tracking.",
+    "Nunca muevas el nodo Merge o Planar Transform para reposicionar el elemento trackeado; mueve directamente el nodo del elemento (Text+, Renderer3D).",
+    "Usa Magic Mask solo en DaVinci Resolve Studio; dibuja múltiples puntos sobre el sujeto y activa 'High Quality' antes de trackear.",
+    "Para efectos de fondo con Magic Mask, usa un nodo Inverted después de la máscara.",
+    "Usa la versión gratuita solo para proyectos sin necesidad de exportar a más de 4K/30fps ni trabajar con archivos de 10 bits.",
+    "Activa aceleración por GPU en Preferencias > Memoria y GPU: CUDA para Nvidia, Metal para Apple Silicon (solo Studio).",
+    "Usa H.265 para entrega final; Apple ProRes 4444 con Export Alpha Output para elementos con transparencia.",
+    "Usa Adjustment Clip para aplicar el mismo efecto a múltiples clips consecutivos.",
+    "Configura resolución y fps del proyecto en Project Settings antes de empezar a editar.",
+    "Usa el cuentagotas de balance de blancos en las ruedas de color para corrección rápida de temperatura.",
+    "Usa 'Color Boost' en lugar de saturación general para aumentar intensidad del color de forma natural.",
+    "En Fusion 3D, usa Shift+mouse para rotar vista, Command+mouse para zoom.",
+    "Para cámara lenta fluida sin IA, el clip debe tener al menos 4 veces los FPS de la timeline.",
+    "Nunca uses la tecla 'C' mayúscula para speed ramps en Resolve 20; usa el botón de curva superior.",
+    "Usa 'Bidirectional' en Camera Tracker cuando el clip tenga movimiento hacia adelante y atrás.",
+    "Configura los atajos Q (Mark End and Trim) y W (Mark Start and Trim) para recortar con ripple automático desde el playhead.",
+    "Verifica los fps del clip en Metadata y los fps del proyecto en Configuración antes de aplicar cámara lenta; activa Optical Flow (Better Quality) si el clip tiene fps ≤ los de la línea de tiempo.",
+    "Conecta siempre un nodo Renderer 3D entre objetos 3D y MediaOut para visualizar escenas 3D; activa Enable Lighting y Enable Shadows.",
+    "Usa el rastreador puntual (Point Tracker) en lugar del Intelligent Track cuando haya desenfoque de movimiento severo; recorta el clip exacto antes de rastrear.",
+    "Aplica un limitador con umbral en -1 dB a la pista principal (Master) antes de exportar para evitar distorsión.",
+    "Para animaciones orgánicas en Fusion, convierte keyframes a curva (Convert to curve) y suaviza con tecla S mayúscula en el panel de curvas.",
+    "Usa pEmitter + pRender como estructura base para partículas; conecta Turbulence entre ambos, nunca después de pRender.",
+    "Para croma key, usa Delta Keyer, visualiza en Alpha, ajusta Shadows y Highlights en Matte, luego corrige derrame en Spill.",
+    "Nunca arrastres un clip completo a la línea de tiempo sin marcar In/Out; usa F9 (Insertar), F10 (Sobrescribir) o F12 (Superponer).",
+    "Usa la tecla R para abrir Change Clip Speed; para superar el límite de 1000%, crea un Compound Clip y aplica keyframes de velocidad nuevamente."
+   ],
+   "prompts_y_recetas": [
+    "Edición rítmica rápida: Coloca cabezal en beat → Ctrl+B → Ctrl+B → presiona tecla de propagar (círculo). Repite en cada golpe musical.",
+    "Speed ramp cinematográfico: Command+R → agrega speed point al inicio y final del segmento → comprime la sección → en Keyframe Curves selecciona 'Speed Processing' → convierte ambos keyframes a curva y ajusta manejadores.",
+    "Corrección de color básica para dron: En módulo Color, aplica LUT DJI → curvas: baja altas luces, sube medios → aumenta temperatura → baja Lifts y sube Gain ligeramente.",
+    "Texto trackeado sobre superficie plana: En Fusion, agrega Planar Tracker → dibuja 4 puntos sobre el plano → Set Reference Time → Play para trackear → Create Planar Transformation → conecta Text+ al PlanarTransform → ajusta posición en el nodo Text+.",
+    "Aislar sujeto con Magic Mask y poner texto detrás: En Color, Magic Mask → dibuja trazo sobre sujeto → Quality → track forward/backward → Add Alpha Output → en Edit, duplica clip, elimina Alpha Output del inferior, coloca título entre ambos clips.",
+    "Cámara lenta con Optical Flow: Selecciona clip → Change Speed (ej. 25%) → en Inspector > Retime Process > Optical Flow > Enhanced Better → espera renderizado automático.",
+    "Transición de fundido a negro manual: Arrastra triángulo blanco en borde superior del clip hacia la izquierda para bajar opacidad a 0%.",
+    "Crear barras negras cinematográficas: Arrastra Adjustment Clip sobre timeline → en Inspector > Video > Cropping, ajusta Top y Bottom (ej. 1212 cada uno).",
+    "Exportar con transparencia: En Delivery, formato QuickTime, códec Apple ProRes 4444, activa 'Export Alpha Output'.",
+    "Iluminar texto 3D en Fusion: Agrega PointLight → conecta Text3D y PointLight a Merge3D → en Renderer3D activa Enable Lighting y Enable Shadows.",
+    "Corrección selectiva de color con Power Window: En Color, selecciona Power Window (círculo/rectángulo) → ajusta sobre área → haz clic en Tracker > Play para seguir movimiento → aplica correcciones en ruedas de color.",
+    "Animación de desenfoque con keyframes: Añade efecto Gaussian Blur → en Inspector, crea keyframe en intensidad con valor 0 → avanza en timeline → cambia valor a 100.",
+    "Crear planeta Tierra 3D: En Fusion, agrega Shape 3D > Sphere (Radius 10) → conecta textura earth mediante Merge → añade Bump Map con textura normal → conecta a Merge 3D con Directional Light y Camera 3D → Render 3D.",
+    "Sincronizar cortes con forma de onda: Sigue visualmente los picos de la forma de onda de audio y aplica Ctrl+B + propagar en cada pico.",
+    "Estilo cinematográfico rápido en Color: En correcciones primarias, desplaza altas luces hacia azul y sombras hacia naranja.",
+    "Duplicar clip en timeline: Presiona Alt (Option en Mac) + arrastrar el clip.",
+    "Aplicar LUT a clip: Arrastra LUT desde la sección LUTs sobre el clip en el visor o nodo en Color.",
+    "Crear grupo de nodos en Fusion: Selecciona múltiples nodos → clic derecho > Create Group → renombra.",
+    "Recorte rápido con ripple: Configura Q como 'Mark End and Trim' y W como 'Mark Start and Trim'. Activa la herramienta de recorte (ripple), posiciona el playhead y presiona Q (corta hacia la izquierda) o W (corta hacia la derecha).",
+    "Cámara lenta suave: Verifica fps del clip (Metadata) y línea de tiempo (Configuración). Si clip tiene 120 fps y timeline 30 fps, puedes bajar velocidad hasta 25% sin perder suavidad. Para forzar slow motion en clips de 30 fps, activa Optical Flow > Better Quality en el Inspector.",
+    "Balance de blancos con cuentagotas: En el panel de círculos cromáticos, haz clic en el cuentagotas y púlsalo sobre un área que debería ser negra (punto negro), luego sobre una que debería ser blanca (punto blanco). Ajusta Realce de color para saturación en clips Log.",
+    "Sincronización de audio externo: Selecciona el clip de video y el clip de audio externo en la línea de tiempo, haz clic derecho y elige 'Align clips automatically according to waveform'. Si falla, amplía la forma de onda, busca un pico común y alinea manualmente.",
+    "Cadena de efectos de audio en Fairlight: Arrastra los efectos en este orden: Dynamics (opcional), 6 Band EQ (reduce bajos, realza medios-altos), Noise Reduction (analiza sección de solo ruido), Limiter (umbral -1 dB). Aplica a la pista Master.",
+    "Chroma key con Delta Keyer: En Fusion, agrega Delta Keyer entre MediaIn y MediaOut. Usa el cuentagotas para seleccionar el color verde del fondo. En Matte, ajusta Shadows (oscurecer fondo) y Highlights (aclarar sujeto). En Spill, ajusta Range, Balance y Gain para eliminar bordes verdes.",
+    "Rastreo 3D para insertar texto: Agrega Camera Tracker, activa Bidirectional Tracking, presiona Auto Track, luego Resolve y Export. Desconecta el nodo original, conecta CameraTracker1 al Merge3D. Agrega Text3D, posiciona usando la nube de puntos como guía.",
+    "Animación de partículas para revelar texto: Crea pEmitter + pRender. Configura Number 1000, Speed 0.1, Angle 180, Style Blob, Size 0.05. Anima Position del emisor desde fuera del encuadre hacia adentro. Agrega Turbulence entre Emitter y pRender (X:0.4, Y:1.5). Añade Glow al final.",
+    "Efecto cristal líquido (Apple): Crea máscara animada con Rectangle y Ellipses, aplica Blur (valor 60) y Brightness/Contrast. Renderiza como ProRes 4444 con alpha. En nueva composición, combina paisaje con máscara usando Refractor (Refraction 1.1, Diffusion 3). Añade texto con operador Inclusion.",
+    "Órbita de Luna alrededor de Tierra en 3D: Conecta texturas a ImagePlane3D (Object Style: Sphere). Para la Luna, en Pivot Translate, desplaza X hasta la posición de la Tierra. Luego keyframe Rotation Y de la Luna (0° a 360° en 115 frames). Verifica curva lineal en Spline."
+   ],
+   "errores_comunes": [
+    "No establecer fotograma de referencia en Planar Tracker: el tracker falla.",
+    "Mover el Merge o Planar Transform en lugar del elemento trackeado: desajusta el tracking.",
+    "Aplicar cámara lenta a clip de 30fps en timeline de 25fps sin Optical Flow: movimiento entrecortado.",
+    "Usar la tecla 'C' mayúscula para speed ramps en Resolve 20: función eliminada y reubicada.",
+    "No activar iluminación y sombras en Renderer3D al usar luces 3D: las luces no se ven.",
+    "Exportar elementos con transparencia en H.264/H.265: produce fondo negro sólido.",
+    "Aplicar LUT incorrecto para perfil logarítmico: corrección sobreexpuesta o incorrecta.",
+    "Confundir corrección de color (balance técnico) con gradación (expresión creativa).",
+    "No usar Alpha Output después de Magic Mask: no se puede separar sujeto del fondo.",
+    "Usar la versión gratuita para proyectos que requieran exportación a 8K, 120fps o corrección en 10 bits.",
+    "No renombrar nodos en Fusion: pérdida de organización en composiciones complejas.",
+    "Aplicar efectos sin verificar el modo de fusión: flares y reflejos necesitan modo 'Add'."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "Chapter 19: Learn Advanced Tracking with the Shot Tracker in DaVinci Resolve",
+     "url": "https://youtu.be/1b7kI1fk6Jo",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DAVINCI RESOLVE: ¿GRATIS O DE PAGO (Studio)?",
+     "url": "https://youtu.be/1j9DJOg6K8I",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Así hago que mi DJI Mini 5 Pro parezca una PELÍCULA (DaVinci Resolve paso a paso)",
+     "url": "https://youtu.be/32AqEd9Rz0A",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Planeta Tierra 3D - Tutorial / Davinci Resolve 2022",
+     "url": "https://youtu.be/3K5Lq7GfX_I",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NUEVO CURSO 2 0 DE DAVINCI RESOLVE 18 🎬 Capítulo 11: Cámaras Rápidas y Cámaras lentas",
+     "url": "https://youtu.be/5JeSJ7A-QHk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Keyframes in DaVinci Resolve 20 Explained (and HOW to USE Them)",
+     "url": "https://youtu.be/5WrfTCYxKt0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Color Correction Course - Davinci Resolve - 🎬 Chapter 2 - Getting familiar with the interface.",
+     "url": "https://youtu.be/6yqcECN5rEA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "SPEED RAMPS have CHANGED in DaVinci Resolve 20! - Updated Tutorial",
+     "url": "https://youtu.be/70rgyfk2Aqk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NUEVO CURSO 2 0 DE DAVINCI RESOLVE 18 🎬 Capítulo 7: Tu primer ejercicio - Trucos y consejos",
+     "url": "https://youtu.be/7XB2Fi-wWSQ",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de efectos de Video - Fusion - Davinci Resolve - 🎬 Capítulo 10 - Tracking o Rastreador Plano",
+     "url": "https://youtu.be/8q70C-jziUo",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Davinci Resolve - 🎬 Capítulo 7 - Las transiciones y los generadores.",
+     "url": "https://youtu.be/9a8Vk7VeYxg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "How to Export Your Video Correctly in DaVinci Resolve 20 - Video Codecs",
+     "url": "https://youtu.be/9e9qOiiA1e4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "3D en DaVinci Resolve: ¡Iníciate GRATIS!",
+     "url": "https://youtu.be/9exZhc6Zxp0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video Editing Course - Davinci Resolve - Chapter 12 - Effects in the Editing Module",
+     "url": "https://youtu.be/AAlkBwHLGAc",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Magic Mask 2.0 DaVinci Resolve 20 - TUTORIAL",
+     "url": "https://youtu.be/AOm106MfxhM",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Color Correction Course - Davinci Resolve - Chapter 1 - Color Theory",
+     "url": "https://youtu.be/AaXSWegwczI",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video Effects Course - Fusion - Davinci Resolve - 🎬 Chapter 2 - How to work with nodes?",
+     "url": "https://youtu.be/BhtHoLrihN4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DaVinci Resolve Tutorial: Insert 3D Objects into Your Videos with Camera Tracking",
+     "url": "https://youtu.be/CpuGzNCnr3I",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Conceptos básicos de la teoría del color - 🔴 🔵 🟢",
+     "url": "https://youtu.be/Cx9AATBlhbg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "MAGIC MASK in DAVINCI RESOLVE 18 THIS IS WITCHCRAFT",
+     "url": "https://youtu.be/EQc_uDaQBxE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Davinci Resolve - 🎬 Capítulo 1 - Primeros Pasos",
+     "url": "https://youtu.be/EXhnREJLc7Q",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Davinci Resolve para iPad PRO   TRUCOS Y CONSEJOS   PARTE 2",
+     "url": "https://youtu.be/Fubd99Z52p4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video editing course - Davinci Resolve - 🎬 Chapter 10 - Time and slow motion and remapping.",
+     "url": "https://youtu.be/Gl2rMvrIBqA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video Editing Course - DaVinci Resolve - 🎬 Chapter 2 - Importing Media to the Project",
+     "url": "https://youtu.be/MAGoHagK9yg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "🔵 NUEVO CURSO 2 0 DE DAVINCI RESOLVE 18 🎬 Capítulo 14: LA JERARQUÍA DE LOS NODOS",
+     "url": "https://youtu.be/M75NEvj6hJc",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de Corrección de Color - - Davinci Resolve - 🎬 Capítulo 5 - Los Círculos Cromáticos.",
+     "url": "https://youtu.be/NuCAUjmlEHg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Master 3D IN LIGHTS💡CAMERAS 🎥 and ACTION 🎬 TUTORIAL in Davinci Resolve",
+     "url": "https://youtu.be/Nviph_CLEKw",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "🚀 Chapter 18: Take Your Edits to the Next Level with the SPOT TRACKER",
+     "url": "https://youtu.be/O0SiokkNLWw",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video Editing Course - DaVinci Resolve - 🎬 Chapter 0 - Introduction",
+     "url": "https://youtu.be/O2AU7kzBK5w",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video Effects Course - Fusion - DaVinci Resolve - 🎬 Chapter 1 - First Steps",
+     "url": "https://youtu.be/Q5R-VcH--Tw",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DAVINCI SOLVES 🎙️ AUDIO: Recording, Synchronization and Editing",
+     "url": "https://youtu.be/QPFVfx1XeZg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video Effects Course - Fusion - DaVinci Resolve - 🎬 Chapter 12 - Chroma Key",
+     "url": "https://youtu.be/RQSdVsUXjL8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de efectos de Video - Fusion - Davinci Resolve - 🎬 Capítulo 11 - Rastreador 3D",
+     "url": "https://youtu.be/RsbD8VZwNw0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de efectos de Video - Fusion - Davinci Resolve - 🎬 Capítulo 4 - Los fotogramas clave.",
+     "url": "https://youtu.be/RwoeaRlx7qs",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Davinci Resolve - 🎬 Capítulo 6 - Transformar, Recortar, Zoom dinámico…",
+     "url": "https://youtu.be/SA7FAmkbmQo",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Davinci Resolve - 🎬 Capítulo 5 - Herramientas de recorte - Trucos",
+     "url": "https://youtu.be/TJKkKCyblrY",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "🔵 NEW DAVINCI RESOLVE 19 COURSE 20 🎬 Chapter 17: INTRODUCTION TO PARTICLES IN FUSION",
+     "url": "https://youtu.be/TZdcBSrkFU0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "How to master 3D CAMERA ANIMATION in DaVinci Resolve?",
+     "url": "https://youtu.be/Uq3f7yf94G4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video Editing Course - Davinci Resolve - Chapter 11 - Basic Audio Editing",
+     "url": "https://youtu.be/UvdAs7F8-jY",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de efectos de Video - Fusion - Davinci Resolve - 🎬 Capítulo 6 - Entornos 3D - Iniciación",
+     "url": "https://youtu.be/VgbhbUa8c44",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "APPLE LIQUID Effect - FREE TUTORIAL Davinci Resolve 20",
+     "url": "https://youtu.be/Xgf4M0Lm38I",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Video Effects Course - Fusion - Davinci Resolve - 🎬 Chapter 7 - Creating the Milky Way.",
+     "url": "https://youtu.be/XwDGOgMwyRc",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de efectos de Video - Fusion - Davinci Resolve - 🎬 Capítulo 8 - Las Máscaras V2",
+     "url": "https://youtu.be/YimmFlZQBeM",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Davinci Resolve - 🎬 Capítulo 3 - Añadir clips a la línea de tiempo.",
+     "url": "https://youtu.be/ZO5qT7TWe50",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "This Davinci Resolve plugin is changing the way I work",
+     "url": "https://youtu.be/_mWIfKK8FmA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NUEVO CURSO 2.0 DE DAVINCI RESOLVE 18 - Capítulo 4: LA LÍNEA DE TIEMPO EN PROFUNDIDAD",
+     "url": "https://youtu.be/ah3w-0vVneo",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "3D Course in Davinci Resolve: IMPORT FREE 3D MODELS INTO YOUR PROJECT",
+     "url": "https://youtu.be/ccRv9C4zMPI",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NUEVO CURSO 2.0 DE DAVINCI RESOLVE 18 - Capítulo 12: LAS RAMPAS DE VELOCIDAD",
+     "url": "https://youtu.be/dSIl-igBpdQ",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NEW COURSE 2.0 OF DAVINCI SOLVES 18 - Chapter 10: The Generators",
+     "url": "https://youtu.be/ecKaDclMN6s",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NUEVO CURSO 2.0 DE DAVINCI RESOLVE 18 - Capítulo 8: Los fotogramas clave",
+     "url": "https://youtu.be/eewmdAjBpiY",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "WHITE SMOKE with DaVinci Resolve",
+     "url": "https://youtu.be/ek34NL1iVps",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "How to Create Effects Templates in DaVinci Resolve (Fusion Step by Step)",
+     "url": "https://youtu.be/fEl4xNVt0U8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NEW COURSE 2.0 OF DAVINCI SOLVES 18 - Chapter 15: VOICE EDITING",
+     "url": "https://youtu.be/fHImPl2r8VI",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de efectos de Video - Fusion - Davinci Resolve - Capítulo 5 - Las máscaras",
+     "url": "https://youtu.be/gsP7_zO5RJg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DJI Mini 5 Pro: How to Edit CINEMATIC Footage in DaVinci Resolve 21",
+     "url": "https://youtu.be/hn2fq0E4V8s",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Davinci Resolve - Capítulo 4 - La línea de tiempo",
+     "url": "https://youtu.be/j1oiJOfFWXg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de efectos de Video - Fusion - Davinci Resolve - Capítulo 9 - Tracking o Rastreo Puntual",
+     "url": "https://youtu.be/l9JlfilmZbE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Editando UN VÍDEO MÍO con DAVINCI RESOLVE",
+     "url": "https://youtu.be/owlPfhaCT08",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NUEVO CURSO 2.0 DE DAVINCI RESOLVE 18 - Capítulo 2: Importar Medios y Inicio a la línea de Tiempo",
+     "url": "https://youtu.be/ppAKFxDpcNs",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de Corrección de Color - Davinci Resolve - Capítulo 4 - Representaciones gráficas",
+     "url": "https://youtu.be/rMqx6jHrUrE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NEW COURSE 2.0 OF DAVINCI SOLVES 18 - Chapter 0: Introduction",
+     "url": "https://youtu.be/v0ebzAG9j40",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Davinci Resolve para iPad PRO",
+     "url": "https://youtu.be/vMP7wQOWII4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NEW COURSE 2.0 OF DAVINCI SOLVES 18 - Chapter 16: MOODS WITH COLOR GRADING",
+     "url": "https://youtu.be/vTiepQk4p9Y",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "DaVinci Resolve 20 Course: Adjustment Clips",
+     "url": "https://youtu.be/vUfRrWOfMmk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Davinci Resolve - Capítulo 9 - Los fotogramas claves",
+     "url": "https://youtu.be/vdOCWlPqOGA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de Corrección de Color - Davinci Resolve - Capítulo 3 - Trabajando con Nodos",
+     "url": "https://youtu.be/vosnMtuRkFg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NUEVO CURSO 2.0 DE DAVINCI RESOLVE 18 - Capítulo 13: INTRODUCCIÓN A FUSION",
+     "url": "https://youtu.be/xFRFvJQk7wA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de efectos de Video - Fusion - Davinci Resolve - Capítulo 3 - Transformar",
+     "url": "https://youtu.be/ya3SDGXB2i4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Color Correction Tutorial with DaVinci Resolve 20",
+     "url": "https://youtu.be/zfyYUtWZGDM",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NUEVO CURSO 2.0 DE DAVINCI RESOLVE 18 - Capítulo 6: El inspector y el Canvas",
+     "url": "https://youtu.be/X5QR2WPPdVI",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NUEVO CURSO 2.0 DE DAVINCI RESOLVE 18 - Capítulo 3: ¿QUÉ ES EL VIDEO? FPS Y RESOLUCIONES",
+     "url": "https://youtu.be/BhKgiiFh6kw",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NUEVO CURSO 2.0 DE DAVINCI RESOLVE 18 - Capítulo 9: Los Títulos",
+     "url": "https://youtu.be/KqgwnboXLes",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NEW DAVINCI RESOLVE 18 COURSE 2.0 - Chapter 1: First Steps",
+     "url": "https://youtu.be/alR9ljtc6-I",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Davinci Resolve - Capítulo 8 - Títulos básicos y Títulos de Fusion",
+     "url": "https://youtu.be/-8T3f2io9qs",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NUEVO CURSO 2.0 DE DAVINCI RESOLVE 18 - Capítulo 5: Los Clips de Vídeo",
+     "url": "https://youtu.be/Jxq9pYS2n3w",
+     "canal": "mundoaudiovisual"
+    }
+   ]
+  },
+  {
+   "id": "edicion-final-cut-pro",
+   "disciplina": "edicion-postproduccion",
+   "area": "final-cut-pro",
+   "titulo": "Guía completa de Final Cut Pro y Apple Motion: edición, efectos, color, audio y flujo de trabajo profesional",
+   "que_ensena": "Domina Final Cut Pro y Apple Motion desde cero hasta nivel avanzado: creación de proyectos, edición en línea de tiempo magnética, efectos visuales (prisma, chroma key, motion tracking, máscara magnética), corrección de color con LUTs y scopes, sincronización musical, animaciones 3D, rotoscopia, edición multicámara, gestión de medios con proxies, y creación de plantillas personalizadas. Incluye atajos de teclado, trucos ocultos y flujos de trabajo para creadores de contenido.",
+   "reglas_para_agentes": [
+    "Usa 'Copy to library' al importar medios para que todos los archivos estén contenidos dentro de la librería; nunca uses 'Leave files in place' a menos que sepas que siempre tendrás acceso a las carpetas de origen.",
+    "Guarda las librerías en un disco externo, nunca en el disco interno del sistema, porque las librerías crecen mucho al importar medios.",
+    "Usa optimized media (Apple ProRes 422) cuando los archivos nativos tengan codecs no ideales para Final Cut; usa proxy media (ProRes proxy, escala 25% o menor) cuando el Mac se ralentice, especialmente en multi-cam editing.",
+    "Siempre cambia la vista a 'Optimized & Original' antes de color correction y export; nunca exportes con vista 'Proxy Preferred' activada.",
+    "Usa 'Custom LUT' manualmente en lugar de dejar que Final Cut aplique LUTs automáticamente al importar; desactiva el LUT automático en el inspector de información (modo extendido).",
+    "Siempre coloca 'Color Adjustments' en la parte superior del inspector, luego el LUT creativo, y el LUT correctivo abajo.",
+    "Usa el Object Tracker nativo de FCP con método 'Machine Learning' (FCP 10.7+) para rastrear objetos planos; ajusta el wireframe lo más ajustado posible al objeto.",
+    "Usa M Tracker 3D (Motion VFX) cuando necesites que el texto/objeto 3D cambie de perspectiva con el movimiento de cámara (tracking en espacio 3D real).",
+    "Usa 'Synchronize Clips' (clic derecho sobre selección múltiple) cuando importes stems de música desde una carpeta descargada, no arrastres pistas individuales directamente al proyecto.",
+    "Siempre deshabilita (disable) stems no deseados con la tecla V en lugar de eliminarlos, para preservar la capacidad de revertir cambios.",
+    "Usa Command + G para crear una storyline antes de cortar y eliminar secciones intermedias de música; usa la tecla M para marcar downbeats antes de hacer cualquier corte.",
+    "Usa la Trim Tool (T) para hacer roll edits y ajustar el punto de corte sin perder sincronización; nunca aumentes la velocidad de la música más de un 5% con el re-time editor.",
+    "Usa siempre un título 3D de la categoría '3D' cuando necesites texto tridimensional con capacidad de rotación en 360°; nunca uses un título básico (Ctrl+T) para efectos 3D si necesitas animar rotación en X o Y.",
+    "Usa 'Sample Color' en el Green Screen Keyer cuando el fondo no sea verde ni azul; aplica 'Shrink/Expand' con valores decimales (doble clic en el número) para bordes precisos.",
+    "Deshabilita el fondo antes de cualquier ajuste de chroma key; actívalo solo después de renderizar; aplica correcciones de color solo después de tener el key limpio.",
+    "Usa Option + clic con cuentagotas en Color Board cuando quieras excluir tonos específicos de un ajuste de color.",
+    "Usa Snapshot Project en lugar de Duplicate cuando trabajes con compound clips y necesites versiones independientes que no se afecten entre sí.",
+    "Usa el inspector de texto (Text inspector) para redimensionar títulos, nunca el parámetro Scale del inspector de video, para evitar recortes al mover el texto.",
+    "Usa 'Reemplazar' al arrastrar una nueva plantilla de texto sobre texto existente para conservar el contenido escrito.",
+    "En Apple Motion, usa Fixed Resolution en el grupo cuando muevas texto con filtro Extrude para mantener la sombra anclada al texto; nunca arrastres el texto individualmente con Extrude aplicado.",
+    "Usa Shift + Command + B para dividir todos los clips (storyline principal y conectados) en un punto exacto del playhead sin selección previa.",
+    "Usa Ctrl + V para abrir el editor de keyframes en la línea de tiempo y visualizar, deshabilitar o ajustar animaciones de transformación o mezcla de efectos.",
+    "Mantén presionada la tecla tilde (~) al mover, recortar, slip editar o eliminar un clip de la storyline principal para evitar que los clips conectados se desplacen.",
+    "Usa Shift + N para restablecer la velocidad normal de un clip o segmento de retiming; no uses Reset Speed del menú.",
+    "Usa Shift + H para crear hold frames (fotogramas congelados) dentro del clip, heredando efectos aplicados.",
+    "Usa Shift + B para dividir la velocidad con la cuchilla de velocidad sin crear un corte de edición (through edit).",
+    "Activa Optical Flow en Modify > Retime > Video Quality para cámara lenta suave; si hay distorsión, cambia a Frame Blending.",
+    "Usa el Comparison Viewer (Control + Command + 6) en modo Saved para igualar color entre tomas no adyacentes; guarda un fotograma de referencia antes de corregir.",
+    "Usa Add Color Mask en el Color Board para aislar y ajustar un color específico sin afectar el fondo.",
+    "Usa la búsqueda 'missing' en el Index de clips para localizar clips con efectos faltantes en la línea de tiempo.",
+    "Usa Option + A para crear un Adjustment Clip, no arrastres desde el navegador de efectos.",
+    "Aplica efectos solo al Adjustment Clip, nunca directamente a los clips de video que están debajo.",
+    "Usa Magnetic Mask siempre que necesites aislar un sujeto del fondo sin chroma key en Final Cut Pro.",
+    "Usa roles de audio únicos por persona/fuente para ajustar el volumen de todos los clips de un mismo rol simultáneamente en el inspector de audio.",
+    "Usa 'Voice Isolation' al máximo cuando el clip de voz tenga ruido de fondo; aplica el limitador con 'Out' en -1 dB y ajusta 'Gain' hasta que el medidor muestre reducción sin llegar a rojo."
+   ],
+   "prompts_y_recetas": [
+    "Para aplicar prisma a un impact shake: arrastra el efecto prisma (Boris FX Stylize Unit) al clip. Coloca el playhead justo antes del impacto. En Mix, añade keyframe en 0. Avanza 1 frame, sube Mix a 100. Cambia Smoothness a 6. En Scale Start, keyframe en 92; Scale End en 98. En Offset Start, keyframe con X=0.13, Y=0. Avanza 1 frame, cambia Offset Start a X=0.16, Y=0.08. Avanza 2 frames, regresa Offset Start a X=0, Y=0 y Mix a 0.",
+    "Para sincronizar stems de música: descarga el .zip con las pistas individuales, arrastra la carpeta a un Event en FCP (crea Keyword Collection), selecciona todos los clips, clic derecho > Synchronize Clips. Arrastra el synchronized clip a la línea de tiempo, haz doble clic para abrirlo, apila todas las pistas al inicio de la línea de tiempo interna. Usa V para habilitar/deshabilitar stems.",
+    "Para ajustar música a la duración del video: marca downbeats con M, agrupa el clip con Command + G, corta con Blade (B) cerca del final, elimina la sección intermedia. Usa Trim Tool (T) para roll edit. Si es necesario, selecciona ambos fragmentos, Option + G para compound clip, Shift + N para re-time editor, arrastra el borde de la barra verde hasta que la duración coincida (máximo 5% de cambio).",
+    "Para crear texto 3D animado: arrastra un título de la categoría '3D' a la línea de tiempo. En el inspector, expande 'Texto 3D', ajusta Profundidad, Peso, iluminación, Entorno y Sustancia. Para animación básica, usa los parámetros de 'Texto personalizado' en el inspector de título. Para animaciones complejas (rotación continua), usa Apple Motion.",
+    "Para chroma key avanzado: aplica Green Screen Keyer al clip. Deshabilita el fondo. En Matte Tools, ajusta Levels (sube Blacks). Usa Edges Tool (Command + arrastrar desde el sujeto hacia afuera) para cabello fino. Ajusta Spill Level según el color del fondo. Activa Light Wrap para integrar con fondo exterior. Renderiza antes de activar el fondo.",
+    "Para motion tracking con múltiples efectos: selecciona el clip, en Inspector > Trackers > '+', ajusta wireframe al objeto, cambia Analysis Method a Machine Learning, presiona Analyze. Arrastra efectos directamente al visor sobre el objeto deseado. Para efectos que no se rastrean bien, usa adjustment layer. Añade color masks con Shift (añadir) y Option (quitar) para aislar el efecto.",
+    "Para crear LUTs personalizados: arrastra un video a Pixelmator Pro, agrega capa de ajuste de color, desactiva Texture Aware Algorithm y Film Grain, exporta como LUT. En FCP, aplica efecto Custom LUT al clip, selecciona Choose Custom LUT y carga el archivo. Coloca ajustes de color adicionales encima del LUT en la pila de efectos.",
+    "Para crear un generador 3D en Apple Motion: abre Motion > Final Cut Pro generator (60 fps, 5 seg). Arrastra archivo USDZ (de SketchFab) al project pane. En Inspector > Properties, ajusta Scale y Rotation. Publica Rotation (X, Y, Z). Guarda como en categoría '3D Models'. En FCP, el generador aparece en Titles & Generators.",
+    "Para animación de texto con sombra larga (Extrude): en Apple Motion, escribe texto (Avenir Next Bold, 288). Aplica filtro Stylize > Extrude. Haz clic en valor numérico de distancia y arrastra hasta 500. Size a 0. Ajusta ángulo en canvas. En Extrude Style, cambia a Gradient, elige color sólido. Activa Fixed Resolution en el grupo. Agrega Drift In/Out para animación.",
+    "Para crear viñeta personalizada en Apple Motion: crea proyecto 'Final Cut effect'. Agrupa effect Source y deshabilita. Dibuja cuadrado centrado, agrupa. Aplica filtro Twirl, renómbralo 'osc'. Dibuja círculo que llene el frame, añade comportamiento Link para enlazar posición y escala al rectángulo. Añade Color Solid y Clone Layer con máscara invertida. Publica parámetros (color, opacidad, blend mode, blur, rotación, escala, falloff, radio). Guarda como efecto.",
+    "Para aplicar Auto Mask y suavizado de piel: duplica el clip (Option + arrastrar hacia arriba). En el clip superior, haz clic en ícono de varita mágica en el visor > Add Auto Mask, selecciona 'skin'. Arrastra Gaussian Blur sobre el clip. Cambia blend mode del clip superior a Lighten. Reduce blur a 6. Para recolorar cabello/labios, agrega Color Board desde inspector de color, usa Add Auto Mask para seleccionar hair/eyebrows/lips.",
+    "Para crear intros con Dynamic Titles: ve a Titles > Dynamic, selecciona un bumper. Borra el texto Headline en Title Inspector. Option + arrastra tu clip de video encima del título. Recorta para que coincida. Aplica Magnetic Mask al sujeto. Cambia colores con cuentagotas. Añade Cross Dissolve al final.",
+    "Para convertir video 16:9 a vertical: en Browser, clic derecho sobre proyecto > Duplicate Project as. Renombra, cambia Format a Vertical, ajusta resolución, marca Smart Conform, haz clic en OK.",
+    "Para generar capítulos de YouTube: coloca playhead, haz doble clic en M, cambia tipo a Chapter Marker, escribe título. Repite. Ve a ícono de puzzle piece > Creator's Best Friend, arrastra proyecto a la ventana, haz clic en Copy to Clipboard, pega en descripción de YouTube.",
+    "Para crear biblioteca de elementos reutilizables: crea evento llamado 'ZZ icons'. Al iniciar nueva biblioteca, arrastra ese evento y selecciona 'Include original media'. Para guardar versión modificada: crea proyecto temporal, coloca el elemento, ajusta, selecciona todo y presiona Option + G para compound clip. Elimina proyecto temporal.",
+    "Para jump cuts rápidos: presiona R para Range Tool, haz clic y arrastra sobre silencios/respiraciones en la forma de onda, presiona Delete.",
+    "Para slip edit sin mover clips conectados: presiona T para Slip tool, mantén presionada Tilde (~) mientras arrastras.",
+    "Para cambiar duración de múltiples transiciones: selecciona varias transiciones en la línea de tiempo, presiona Control + D e ingresa nuevo valor en segundos.",
+    "Para previsualizar efectos con intensidad ajustable: en el panel Effects, mantén presionada Option y arrastra el cursor horizontalmente sobre el nombre del efecto; suelta y haz doble clic para aplicar con ese valor.",
+    "Para eliminar el fondo de una plantilla de texto con chroma key: en inspector de títulos, cambia fondo a 'Color sólido' y elige un color llamativo. Vuelve a seleccionar 'Fondo predeterminado'. Aplica efecto Green Screen Keyer a la plantilla. En inspector de video, usa 'Muestra de color' sobre el color de fondo. Reduce Spill Level.",
+    "Para anular el timeline magnético: mantén presionada la tecla tilde (~) mientras mueves, recortas, slip editas o eliminas un clip de la storyline principal; los clips conectados permanecen en su lugar.",
+    "Para sincronizar video con ritmo musical: activa detección de beats en la pista de música, conviértela a connected storyline (Command + G), activa Snapping, corta con Blade (B) en líneas gruesas (cambios de arreglo) y elimina secciones intermedias con la herramienta Range (R).",
+    "Para igualar color entre tomas: abre Comparison Viewer (Control + Command + 6), guarda un fotograma de la toma base (Save Frame), aplica Color Board con Color Mask en la toma a corregir y ajusta solo el fondo o color específico mientras comparas.",
+    "Para crear una transición whip in/out falsa en Motion: crea un proyecto Final Cut Title de 12-20 frames, añade cámara 3D, clona el Title Background (tecla K), posiciona clones en ±3840 (4K), aplica Directional Blur y Gradient Blur al grupo, keyframea la cámara de X:0 a X:-3840 (whip out) o de X:+3840 a X:0 (whip in), ajusta interpolación Bezier en Keyframe Editor.",
+    "Para rotoscopiar con RotoMatic: arrastra el efecto al clip, haz clic sobre el objeto (selección roja), Option+clic para deseleccionar, presiona Process, si pierde tracking detén, retrocede al fallo, reselecciona y reprocesa."
+   ],
+   "errores_comunes": [
+    "Guardar librerías en el disco interno del sistema: las librerías se vuelven muy grandes y pueden llenar el disco rápidamente.",
+    "Usar 'Leave files in place' al importar sin entender la consecuencia: necesitarás tener tanto la carpeta de medios como la librería disponibles cada vez que edites.",
+    "No transcodificar al importar y luego olvidar que se puede hacer con clic derecho en el clip (Transcode Media).",
+    "Olvidar cambiar la vista de 'Proxy Preferred' a 'Optimized & Original' antes de colorizar o exportar, lo que resulta en baja calidad final.",
+    "Dejar que Final Cut aplique LUTs automáticamente al importar: produce un look diferente y menos controlable que aplicar el mismo LUT manualmente con el efecto 'Custom LUT'.",
+    "Orden incorrecto de efectos en el inspector: poner el LUT creativo debajo del correctivo (debe ir arriba) o poner Color Adjustments debajo de los LUTs (debe ir arriba).",
+    "No usar Machine Learning como método de análisis en el motion tracker (FCP 10.7+): el método por defecto puede dar peores resultados.",
+    "Wireframe del tracker demasiado grande: el tracker se confunde con elementos del fondo; ajusta el wireframe lo más ceñido posible al objeto.",
+    "No usar 'Synchronize Clips' al importar stems de música: arrastrar pistas individuales directamente al proyecto pierde la sincronización.",
+    "Eliminar stems no deseados en lugar de deshabilitarlos: si los eliminas, no podrás recuperarlos después.",
+    "Cortar la música sin marcar downbeats: hacer cortes al azar sin alinear los tiempos fuertes hace que la transición sea audible y poco profesional.",
+    "No crear títulos 3D desde un título básico: si usas Ctrl+T y luego activas opciones 3D, no podrás keyframear los parámetros de texto ni rotar en los ejes X e Y."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "Next Level Prism Effects for Final Cut!",
+     "url": "https://youtu.be/1Jw5Qqt4n0E",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Final Cut Pro Beginner Tutorial | Get Editing in Less Than 20 Minutes!",
+     "url": "https://youtu.be/281mCfA-umM",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "FCP Running Slow?",
+     "url": "https://youtu.be/3k-kGdMKQQo",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Tips | Compositing Images",
+     "url": "https://youtu.be/48PnbtoOA0s",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Stop Letting Final Cut Ruin Your Footage! | See the Right LUT Workflow",
+     "url": "https://youtu.be/4JraTOBBMT0",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "FCP vs Third Party Plugins Part II",
+     "url": "https://youtu.be/4KFGSTcNgWE",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "This FCP Music Technique Changes Everything",
+     "url": "https://youtu.be/5F8OB_7gQUE",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Editing Music in Final Cut",
+     "url": "https://youtu.be/6V_1hnmvfpg",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "3D Text in FCP  | Let's dive DEEP!",
+     "url": "https://youtu.be/74TJRgnApcc",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Final Cut Tricks | 20 Things You Didn't Know You Can Do in FCP",
+     "url": "https://youtu.be/7emNrqIewB0",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Transform Appearances with FCP's New Auto Mask!",
+     "url": "https://youtu.be/8vynHJ0zimA",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Flip Effect",
+     "url": "https://youtu.be/94pu7A1OlQE",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "The Vignette in FCP is Terrible. Let's fix it.",
+     "url": "https://youtu.be/9HCia_o1BJc",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Plugins for FCP | Four Must See Plugins from FCP Experts",
+     "url": "https://youtu.be/9kfNp8CmhEU",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Make Your Own LUTs for Final Cut Pro | Pixelmator Pro Tutorial",
+     "url": "https://youtu.be/AYc3C1pHiIg",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "FCP Green Screen Tutorial | Master the Chroma Key",
+     "url": "https://youtu.be/BIhUbLmOf14",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Mastering Motion Tracking In Final Cut: 15 Pro Tips For Flawless Results!",
+     "url": "https://youtu.be/C5oxyvE3Djs",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Why Does Final Cut Pro Do That!?!",
+     "url": "https://youtu.be/CSUuroK-s3g",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "5 FCP Text Hacks You Definitely Didn't Know.",
+     "url": "https://youtu.be/CWeE_E50EsY",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Unlock Infinite 3D Models for Final Cut Pro",
+     "url": "https://youtu.be/Dr2l989232w",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Long Shadow Text Animation | Apple Motion Tutorial",
+     "url": "https://youtu.be/EQt8eJI-o1I",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Final Cut Pro Tips for Content Creators!",
+     "url": "https://youtu.be/FjWeWOx83cM",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Final Cut Pro Tutorial | 10 Things the Timeline Can Do",
+     "url": "https://youtu.be/JZtDHgxa_Bk",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Game-changing New Tools for FCP Editors",
+     "url": "https://youtu.be/L94eZBMmtCw",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Retiming in Final Cut Pro | Every. Single. Option.",
+     "url": "https://youtu.be/LnU5CCToDYo",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Animating Web Pages in Apple Motion",
+     "url": "https://youtu.be/LpqgE-Le8wk",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Faux In Camera Transitions for Final Cut Pro | Apple Motion Tutorial",
+     "url": "https://youtu.be/Lv1_qAQrB0Y",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Editing Hacks | 15 Hacks Every Editor Should Know",
+     "url": "https://youtu.be/MH4bEcWp4vc",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Beat Detection in Final Cut Pro | FULL TUTORIAL",
+     "url": "https://youtu.be/MgFMB9nKn8E",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Customize Final Cut Pro | Favorites Folders, Layouts, Shortcuts & More!",
+     "url": "https://youtu.be/MnmkdOGCYtQ",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "FCP Tips for Beginners | Don't Make These Noob Mistakes!",
+     "url": "https://youtu.be/NQEDVGv1wRE",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "YouTube Hype Animation for FCP | Apple Motion Tutorial",
+     "url": "https://youtu.be/NRQfYc5MPYw",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Final Cut Tricks Pt. 2 | 25 MORE Things You Didn't Know You Can Do in FCP",
+     "url": "https://youtu.be/NxxO1dyu22o",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Turn Off The Magnetic Timeline | Final Cut Pro Tutorial",
+     "url": "https://youtu.be/ORJ_eUAtr98",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Final Cut Color Correction Hacks",
+     "url": "https://youtu.be/OfgFg3YVoTo",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Final Cut Summit Recap | Best Tips, What Happened at Apple and More!",
+     "url": "https://youtu.be/P1qDKWWmYV4",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "The Game-Changing FCP 12 Tool We Don't Talk About Enough",
+     "url": "https://youtu.be/P307RanGC5A",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Rotoscoping in FCP with No Subscription! | RotoMatic Review",
+     "url": "https://youtu.be/Q9feHlGu2lc",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "You're Not Using the Browser Enough in Final Cut Pro",
+     "url": "https://youtu.be/QbpchFDjPb4",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Using the Magnetic Mask as a Green Screen Keyer in FCP",
+     "url": "https://youtu.be/RbLcQV6HInk",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Beauty Effects for FCP | Everyone wants this filter!",
+     "url": "https://youtu.be/S4y6elxvxoU",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Tools for FCP Editors | Auto transcriptions,  Cloud Storage and More!",
+     "url": "https://youtu.be/SZCBgKsM75o",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Grids and Guides for FCP! Why doesn't FCP have these already? 🤔",
+     "url": "https://youtu.be/ScZf0kAL6iE",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "The Best FCP Color Correction Tool You're Not Using",
+     "url": "https://youtu.be/Sr6zAXAis2E",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Liquid Glass Text Effect for Final Cut Pro!",
+     "url": "https://youtu.be/T1UKq6fQLo8",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Rock the Color Tools in FCP | You Definitely Didn't Know This!",
+     "url": "https://youtu.be/Th6YEhIOyOw",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "How to Share FCP Presets | Create, Share, Install",
+     "url": "https://youtu.be/TsonInVpXs0",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "iPhone Video in Final Cut Pro | THE WORKFLOW YOU NEED TO KNOW",
+     "url": "https://youtu.be/UDcZ1r4UxUM",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "5 New Ways to Use the Magnetic Mask in Final Cut Pro",
+     "url": "https://youtu.be/VNeHFQpUOIU",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Highlight Tutorial",
+     "url": "https://youtu.be/W-6mPdTvT38",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Knockout Text Animation for Final Cut Pro | Apple Motion Tutorial",
+     "url": "https://youtu.be/W0AUJqlgezQ",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Magnetic Mask + Particles = Magic in FCP🪄🪄🪄 | Apple Motion Tutorial",
+     "url": "https://youtu.be/W9Q-54eKP6U",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Animating 3D Models I Made with my Phone! | In Apple Motion",
+     "url": "https://youtu.be/WkjCdze-_zg",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "How to Edit Multiple Cameras in Final Cut",
+     "url": "https://youtu.be/X5baUmK8noc",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Adjustment Clips in Final Cut Pro | SO MUCH FASTER!",
+     "url": "https://youtu.be/XP7LuYWl91w",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Closed Captions Secrets in Final Cut Pro",
+     "url": "https://youtu.be/XsNZbeDCjhY",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Sound Effects for Final Cut Pro | 10 SFX EDITING TIPS",
+     "url": "https://youtu.be/Z5L9li4ph2o",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "What is Keyframing? | Step by Step in FCP and Apple Motion",
+     "url": "https://youtu.be/_JC2gUwN86o",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Part 2: Why Does Final Cut Pro Do That?!",
+     "url": "https://youtu.be/bwq1uNdTyvk",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "20 More Things You Didn't Know Final Cut Could Do",
+     "url": "https://youtu.be/cNpuIlPI9EY",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Consolidating Media in Final Cut Pro",
+     "url": "https://youtu.be/ceFBsvHxfVs",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Rotoscoping Tutorial",
+     "url": "https://youtu.be/f56gZkHiOuc",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Magnetic Mask + Motion Tracking in Final Cut Pro",
+     "url": "https://youtu.be/fR4IgOAQ8Vw",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Media Management in FCP | Storage Locations, Relinking Files and More!",
+     "url": "https://youtu.be/g_AaKrHzZxs",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "5 Text Ideas for FCP | No Plugins, No Apple Motion!",
+     "url": "https://youtu.be/iGEYV9TPApk",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Final Cut Pro Multicam Tricks Nobody Talks About",
+     "url": "https://youtu.be/l-ThHCqxfCA",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Apple Motion Tutorial | STOP MOTION EFFECT",
+     "url": "https://youtu.be/lQhRH1_7Th0",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "How to Remove Plugins from Final Cut",
+     "url": "https://youtu.be/mHHYHGcmpXM",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "How to Edit Faster in Final Cut Pro | 7 Speedy Tips!",
+     "url": "https://youtu.be/mlZAUpdWQ90",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Explode Anything in Final Cut Pro!",
+     "url": "https://youtu.be/nXHmyJooGqA",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "5 Essential Effects for Final Cut Pro",
+     "url": "https://youtu.be/nzXeBnzSx-w",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "FCP iPad App Hacks | 10 Quick Tips for Final Cut for iPad Editors",
+     "url": "https://youtu.be/oI-KJiwTxG0",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Motion Tracking Text in Final Cut Pro | Hyper Realistic Tutorial for FCP",
+     "url": "https://youtu.be/oIALGC-mZLI",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Final Cut Pro VS Third Party Plugins | Which Works Better?",
+     "url": "https://youtu.be/pDA1M1wBK8s",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Final Cut Scopes Tutorial | For Beginners!",
+     "url": "https://youtu.be/qrUF1h2RW-M",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "5 More Magnetic Mask Ideas in Final Cut Pro!",
+     "url": "https://youtu.be/sJw9gNojxx8",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Full Height Browser in FCP... ON THE RIGHT! You need to see these custom layouts.",
+     "url": "https://youtu.be/t-W3yucLf74",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "REAL Keyframes in Final Cut Pro, Finally!",
+     "url": "https://youtu.be/t4n7wQKtHT0",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "6 Background Remover Ideas for Final Cut Pro",
+     "url": "https://youtu.be/t6G4TlmGiZ0",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "9 Time Saving (and Butt Saving!) AI Tools in FCP",
+     "url": "https://youtu.be/tF825ywlf8I",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Glass Pane Effects | Apple Motion Tutorial",
+     "url": "https://youtu.be/toz5GDAamUw",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Background Remover Final Cut Pro | Comparing Your Options!",
+     "url": "https://youtu.be/v4F1Wo0jcPE",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "FCP for iPad Update | AI Tools, New Workflows and More!",
+     "url": "https://youtu.be/vXLAMLtDpZM",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Best Final Cut Shortcuts | 30+ Hacks to Speed Up Your Workflow",
+     "url": "https://youtu.be/wBrWkHBEqh8",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Holy Shift!  You're not using the Shift Key Enough in FCP",
+     "url": "https://youtu.be/wege1F_4ma8",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "How to Get Your FCP Transcripts in Under 2 Minutes",
+     "url": "https://youtu.be/wqoCdpLiC2E",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Data Dials for Final Cut Pro! | Apple Motion Tutorial with Rigs",
+     "url": "https://youtu.be/x8QG1F2JpJE",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Best Multicam Audio Workflow in Final Cut Pro",
+     "url": "https://youtu.be/y9OUbGOfTzE",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Master the Magnetic Mask in FCP | Step by Step to Flawless Results!",
+     "url": "https://youtu.be/yfl5w0Q-SIU",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Final Cut Pro Tutorial | Do This Not That!",
+     "url": "https://youtu.be/yk5EAjcIrw4",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "You Asked For It! | Viewer requested Apple Motion Tutorial",
+     "url": "https://youtu.be/z-OmMXQICSs",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "How to Make a Final Cut Transition in Apple Motion",
+     "url": "https://youtu.be/z2USbwBcaFo",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 8 - Los Efectos de audio y Música para nuestros videos",
+     "url": "https://youtu.be/368HIqt7t3k",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Final Cut Pro 11: PRO AUDIO (clean voice + music + levels)",
+     "url": "https://youtu.be/39BSkCEKniM",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "¿Cómo hacer un anuncio / Spot Publicitario con bajo presupuesto en Final Cut Pro X?",
+     "url": "https://youtu.be/5C3MoUYLhe8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de Motion 5 tutorial en español - 🎬 * Capítulo 5 - Seguimiento de la animación o tracking.",
+     "url": "https://youtu.be/7GGC6sWYLsA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Course - Final Cut Pro X - 2020 - 🎬 * Chap. 14 - How to make an animated map with Final Cut Pro X?",
+     "url": "https://youtu.be/7I5tNXNtYkM",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Course - Final Cut Pro X - 2020 - 🎬 * Chapter 10 - Appearance Effect",
+     "url": "https://youtu.be/7WqsRqgR0w8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Final Cut pro X - 2020 - 🎬 * Capítulo 1 - Primeros pasos",
+     "url": "https://youtu.be/8we18vynEj8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "🔴 ¿Cómo editar historias para Instagram de forma profesional? 🔴",
+     "url": "https://youtu.be/A8RAntFK6Dc",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 12- Efecto intro cinematográfica -",
+     "url": "https://youtu.be/AOktJk-R_gE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "FREE Final Cut Pro 11 Course - Chapter 3: The Tools - TIPS AND TRICKS",
+     "url": "https://youtu.be/B4S3IecL-S8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 9 - Chroma Key - Pantalla Verde - Especial 100",
+     "url": "https://youtu.be/Bcyx82j9Hww",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 11-  Corrección de color y Etalonaje",
+     "url": "https://youtu.be/Epwhtg8Doew",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 21 - Corregir un error común del Chroma Key.",
+     "url": "https://youtu.be/G9m0JOhoK0s",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 3 - El Canvas: Transformación-Recorte-Distorsión",
+     "url": "https://youtu.be/OElnCcWhEhw",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "FREE COURSE FINAL CURT PRO 12 - Chapter 9 - Keyframes - KEYFRAMES",
+     "url": "https://youtu.be/Sws0MKVUpeI",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Your FIRST EDITING EXERCISE with FINAL CUT PRO 11",
+     "url": "https://youtu.be/TUZCKiO5PKc",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "FREE COURSE FINAL CURT PRO 12 - Chapter 5 - TITLES AND GENERATORS",
+     "url": "https://youtu.be/ToK-2Vi4GX0",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Course - Final Cut Pro X - 2020 - 🎬 * Chapter 7 - Keyframes",
+     "url": "https://youtu.be/Ty_9c8PZEQY",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 19 - Subtítulos",
+     "url": "https://youtu.be/U5ssZJAV3B8",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "FREE Final Cut Pro 11 Course - Chapter 1: First Steps",
+     "url": "https://youtu.be/YSjhUfhMI2U",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 6 - Títulos y Generadores",
+     "url": "https://youtu.be/czHZqTjakWU",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "🔴 Animaciones Suscríbete y Campanita para Final Cut Pro X 🔴  🎬  🎬",
+     "url": "https://youtu.be/eWurIw54gNM",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 16- ¿Cómo exportar tu película final a un archivo?",
+     "url": "https://youtu.be/euQI4xQa2Sg",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 17- Corrigiendo colores planos o nativos.",
+     "url": "https://youtu.be/f6fQXT5j2H4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Course - Final Cut Pro X - 2020 - 🎬 * Chap. 18 - Masks in Final Cut Pro X",
+     "url": "https://youtu.be/hiVGXG9kaGk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso de edición de video - Final Cut pro X - 2020 - 🎬 * Capítulo 2  - La línea de tiempo.",
+     "url": "https://youtu.be/i6uQ1nSbphA",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Course - Final Cut Pro X - 2020 - 🎬 * Chapter 13 - Cloning Effect -",
+     "url": "https://youtu.be/jsQ8wKz0fpQ",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "FREE COURSE FINAL CURT PRO 12 - Chapter 8 - TRANSITIONS",
+     "url": "https://youtu.be/m4pgOPg2jWo",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 15 - ¿Cómo editar de forma fluida videos a 4k?",
+     "url": "https://youtu.be/oFdZ5c1hOxE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "FREE VIDEO - Final Cut Pro 12 Course - Chapter 6: Time-lapse and Slow Motion",
+     "url": "https://youtu.be/pwVDFkepktM",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 20 - Multicámaras - (¡Sorteo en este Video!)",
+     "url": "https://youtu.be/q0xHWeS_axk",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "NEW FEATURES Final Cut Pro 12 - AI FOR MUSIC WITH FINAL CUT",
+     "url": "https://youtu.be/rAXlt-AV0ug",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 4 - Las transiciones de video y los efectos de video",
+     "url": "https://youtu.be/sRlJq_hJZC4",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "FREE COURSE FINAL CURT PRO 12 - Chapter 7 - SPEED RAMPS",
+     "url": "https://youtu.be/tsm_hn5YfmE",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Curso - Final Cut pro X - 2020 - 🎬 * Cap. 5 - Balance de Blancos y Correspondencia de color",
+     "url": "https://youtu.be/xo1W_rrsZ0E",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Mis consejos para editar videos - ¡Respondo vuestras preguntas! 🎬🎬🎬🎬",
+     "url": "https://youtu.be/yXKZ4qEd_qI",
+     "canal": "mundoaudiovisual"
+    },
+    {
+     "titulo": "Faster Editing for FCP | 2026 Update",
+     "url": "https://youtu.be/fupRtfM6PNA",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "FCP iPad App Quickstart | Up and running in 13 Minutes!",
+     "url": "https://youtu.be/-pYunDidZTc",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "How to Install Motion Array Plugins in Final Cut | And WHY this is so confusing",
+     "url": "https://youtu.be/-e94lSVTXkA",
+     "canal": "jennjagerpro"
+    },
+    {
+     "titulo": "FREE Final Cut Pro 11 Course - Chapter 2: The Timeline",
+     "url": "https://youtu.be/7OmUc9zvfIo",
+     "canal": "mundoaudiovisual"
     }
    ]
   }

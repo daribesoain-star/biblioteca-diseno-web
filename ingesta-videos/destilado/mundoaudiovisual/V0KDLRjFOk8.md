@@ -1,0 +1,113 @@
+# Motion 5 Tutorial Course (Advanced Level) - 🎬 * Chapter 1 - Reflective Sphere
+**Fuente:** mundoaudiovisual | https://youtu.be/V0KDLRjFOk8
+
+## Qué enseña
+Creación de una esfera reflectante con movimiento rotacional dentro de una habitación 3D generada con generadores y filtros en Motion 5. Incluye técnicas de iluminación, reflejos en paredes, orbitación de objetos secundarios y efectos de resplandor mediante desenfoques gaussianos apilados.
+
+## Lecciones accionables
+- **Configurar proyecto base:** 1080p, 24 fps, duración 15 segundos. Para la esfera: proyecto de 500x500, 24 fps, 15 segundos.
+- **Crear esfera reflectante:**
+  - Desde Library > Generators, seleccionar "Caustic" y "Cloud" (Command + clic para multiselección).
+  - Agregar ambos a un grupo. Crear un círculo desde Shapes, mantener Shift para círculo perfecto.
+  - Inspector > Geometry: Radio = 200. Style > Fill Mode = "Gradation" > Radial. Initial Radiation = 0, Final Radiation = 200.
+  - En puntos de gradación: eliminar punto sobrante arrastrándolo fuera. Duplicar puntos con Option + arrastre. Primer punto: Opacity = 0. Último punto: Opacity = 0. Punto central en Location 50%.
+  - Centrar círculo: Properties > Position = 0,0.
+  - Duplicar Cloud generator (clic derecho > Duplicate). Mover copia a nuevo grupo debajo del grupo original.
+  - Al Cloud duplicado: clic derecho > Add Image Mask, seleccionar el círculo como máscara. Arrastrar círculo al origen de la máscara.
+  - Reactivar Caustic. Agregar filtro Distortion > "Sphere". Radio = 190.
+  - En Generator tab del Caustic: Width = 400, Height = 400, Speed = 0, Size = 0.05.
+  - Properties > Rotation > Add Parameter Behavior > "Speed". Valor = -50.
+  - Activar Cloud original. Generator tab: Speed = 1, Horizontal Scale = 16, Vertical Scale = 16.
+  - En gradación del Cloud: eliminar punto sobrante, duplicar con Option, Opacity 0 en extremos, puntos en 45% y 55%.
+  - Copiar filtro Sphere del Caustic al Cloud: Option + arrastrar. Radio = 200.
+  - En Cloud > Generator > Deviation > Add Parameter Behavior > "Speed". Valor = 0.2.
+  - Agregar filtro Style > "Crystallize". Size = 5.
+  - Al grupo: Add Color Filter > "Levels". Channel = Alpha. Reducir Whites.
+  - Agregar filtro "Glow" y "Flare". Flare Position = 0, Size = 1, Veins = 2.
+  - Al Caustic: Add Color Filter > Levels. Channel = Alpha. Reducir Whites, aumentar Blacks ligeramente.
+  - Copiar Crystallize al Caustic con Option.
+- **Exportar esfera:** Share > Export Video > Apple ProRes 4444, proyecto completo.
+- **Crear habitación:**
+  - Nuevo proyecto: 1080p, 24 fps, 15 segundos.
+  - Library > Generators > "Chessboard". Aplicar.
+  - Inspector: Dimensiones de pared = 2000x1000. Frame Size = 100.
+  - Properties > Rotation: Pared izquierda: Rotación Y = -90, Position X = -1000.
+  - Duplicar para pared derecha: Position X = 1000.
+  - Duplicar para fondo: Position Z = -1000, Rotation = 0.
+  - Duplicar para techo/suelo: Width = 2000, Height = 2000. Rotation X = 90. Position Y = 500 (techo). Duplicar: Position Y = -500 (suelo).
+  - Nombrar cada elemento: "left wall", "right wall", "back wall", "ceiling", "ground".
+  - Agregar filtro Distill > "Slit" a una pared. Settings: Softness = 0.4, Brightness = 0, Ambient Light = 0, Highlight Brightness = 45, Sharpness = 25, Light Rotation = 0, Depth = máximo.
+  - Copiar filtro Slit a todas las paredes con Option + arrastre.
+  - Agrupar todo como "room".
+- **Crear estructura 3D interior:**
+  - Nuevo grupo. Crear cuadrado: Shapes > Square. Reset Parameters. Geometry > Size = 400.
+  - Style: Sin fill. Outline > Border Width = 10.
+  - Replicator: Shape = "Line", 3D activado. Start Point = -200, End Point = 200. Points = 2. Y Angle = 90.
+  - Duplicar replicator: Properties > Rotation Y = 90.
+  - Duplicar nuevamente: Rotation Z = 90.
+- **Importar esfera y configurar iluminación:**
+  - Nuevo grupo. Importar esfera exportada.
+  - Convertir a 3D (clic derecho > Convert to 3D).
+  - Grupo de esfera: Properties > Lighting = Off.
+  - Agregar luz: Lights > Directional. Color: rojizo (ej. RGB alterado).
+  - Agregar cámara: Object > Camera.
+  - A cámara: Add Behavior > Camera > "Sweep Camera". Start = -30.
+  - A esfera: Add Behavior > Basic Motion > "Point At". Target = Camera.
+- **Crear esfera orbital:**
+  - Duplicar esfera. Position X = 500. Scale = 30%.
+  - Add Behavior > Simulations > "Orbit". Target = esfera principal. Desactivar eje Y, activar ejes X y Z.
+- **Ajustar color de esferas:**
+  - Esfera grande: Add Color Filter > Levels. Reducir canal Blue para tono amarillo. Ajustar RGB.
+  - Esfera pequeña: Add Color Filter > Levels. Reducir canal Red para tono azul. Ajustar RGB.
+- **Rotar estructura cuadrada:**
+  - Grupo del cuadrado: Properties > Rotation > Add Parameter Behavior > "Speed". Valor = 10.
+- **Crear resplandor (glow):**
+  - Agrupar esfera principal + cuadrado como "objects". Duplicar grupo 4 veces.
+  - A cada copia: Add Filter > Blur > "Gaussian Blur". Intensidades: 64, 128, 256, 512.
+  - Properties > Blending Mode = "Linear Light".
+  - Add Color Filter > Levels: reducir Whites ligeramente.
+  - Ajustar opacidad de cada copia: 100%, 60%, 30%, 15%.
+  - Agregar filtro "Glow" al cuadrado original.
+  - Nombrar grupo de resplandores como "radiance".
+- **Crear luz seguidora:**
+  - Duplicar luz existente. Color azul. Intensity = 500, Falloff = 10.
+  - Properties > Position > Add Behavior > "Link". Target = esfera pequeña.
+  - Duplicar esta luz: Falloff = 15.
+- **Generar reflejos en paredes:**
+  - Desactivar grupo "room". Cámara: View Angle = 1.
+  - Pared izquierda: Rotation Y = -90. Exportar como Apple ProRes 4444: "reflection_left".
+  - Pared derecha: Rotation Y = 90. Exportar: "reflection_right".
+  - Techo: Rotation X = -90. Exportar: "reflection_ceiling".
+  - Suelo: Rotation X = 90. Exportar: "reflection_floor".
+  - Fondo: Rotation Y = 180. Exportar: "reflection_back".
+  - Restaurar cámara: View Angle = 75, Rotation Y = 0.
+- **Aplicar reflejos:**
+  - Nuevo grupo 3D "reflections". Importar los 5 archivos exportados.
+  - Posicionar cada reflejo en su pared correspondiente:
+    - Fondo: Position Z = -1000.
+    - Suelo: Rotation X = 90, Position Y = -499.
+    - Techo: Rotation X = -90, Position Y = 499.
+    - Derecha: Rotation Y = 90, Position X = 999.
+    - Izquierda: Rotation Y = -90, Position X = -999.
+    - Ajustar rotación Z = 180 si es necesario.
+  - A cada reflejo: Add Filter > Blur > "Gaussian Blur". Intensity = 100.
+  - A cada reflejo: Add Image Mask. Source Channel = "Luminance". Seleccionar la pared correspondiente como fuente.
+  - Add Color Filter > Levels: reducir Whites de RGB a 0.
+- **Exportar final:** Share > Export Video > Apple ProRes 4444.
+
+## Reglas para agentes
+- Usa Apple ProRes 4444 siempre que exportes elementos que requieran transparencia o reflejos.
+- Usa Option + arrastre para copiar filtros y behaviors entre objetos, no los recrees manualmente.
+- Usa "Point At" behavior en objetos 3D que deban mantener orientación hacia la cámara en movimiento.
+- Usa "Linear Light" blending mode cuando apiles Gaussian Blurs para crear resplandores.
+- Usa Image Mask con Source Channel = "Luminance" para aplicar reflejos solo sobre áreas iluminadas de las paredes.
+- Nunca apliques iluminación directa a la esfera reflectante; desactívala con Properties > Lighting = Off.
+- Nunca uses valores redondeados exactos para posición de reflejos (-500, 500, 1000); usa -499, 499, 999 para evitar artefactos de superposición.
+- Nunca olvides reactivar las paredes originales después de usarlas como fuente en Image Mask.
+
+## Errores comunes que evita o menciona
+- **Esfera no se ve esférica al mover cámara:** Solución: agregar "Point At" behavior apuntando a la cámara.
+- **Reflejos no coinciden con paredes:** Verificar rotaciones exactas (Y = -90, 90, 180; X = -90, 90) y posiciones con desplazamiento de 1 píxel.
+- **Resplandor demasiado intenso:** Ajustar opacidades decrecientes (100, 60, 30, 15) en las copias con Gaussian Blur.
+- **Elementos afectados por luz no deseada:** Desactivar Lighting en Properties del grupo de la esfera.
+- **Gradación incorrecta:** Eliminar puntos sobrantes arrastrándolos fuera; duplicar con Option para mantener simetría.

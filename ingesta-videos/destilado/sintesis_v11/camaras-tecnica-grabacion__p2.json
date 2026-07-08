@@ -1,0 +1,69 @@
+{
+ "id": "camaras-tecnica-grabacion__p2",
+ "disciplina": "foto-cinematografia",
+ "area": "edicion-ia-audio",
+ "titulo": "Flujo completo de edición de video con IA: relleno generativo, avatar parlante y audio profesional",
+ "que_ensena": "A usar Adobe Photoshop Beta para rellenar fondos y eliminar objetos en videos mediante Generative Fill, crear un avatar animado a partir de una foto con The ID, grabar y editar audio con Audacity, y sincronizar todo en DaVinci Resolve, After Effects, Final Cut Pro o Premiere.",
+ "reglas_para_agentes": [
+  "Usa siempre Adobe Photoshop Beta (no la versión estable) para acceder a Generative Fill.",
+  "Escribe los prompts de Generative Fill exclusivamente en inglés; la función no procesa español.",
+  "Exporta los fotogramas desde DaVinci Resolve en formato JPG para mantener la corrección de color aplicada.",
+  "Selecciona solo el área a rellenar (fondo) y no el sujeto principal antes de aplicar Generative Fill.",
+  "Si el resultado de Generative Fill no es satisfactorio, presiona Ctrl+Z y genera de nuevo con un prompt más específico.",
+  "Aplica atenuación (softness) de al menos 100 en los bordes de la imagen generada para disimular la transición en el video.",
+  "Usa la herramienta pluma (pen tool) en Photoshop Beta cuando el color del cabello sea similar al fondo para un recorte preciso.",
+  "Exporta siempre el audio como MP3 comprimido si pesa más de 15 MB para subirlo a The ID.",
+  "Usa After Effects para eliminar chroma key cuando necesites exportar con canal alfa (transparencia).",
+  "En Audacity, monitorea los niveles de grabación: nunca permitas que superen 0 dB; mantén el rango entre -12 dB y -6 dB.",
+  "Aplica reducción de ruido en Audacity seleccionando una sección de solo ruido ambiente como perfil antes de procesar toda la pista.",
+  "Usa compresor en Audacity con umbral en -1 dB para uniformizar el volumen de la voz.",
+  "Aplica bass boost y treble boost con el ecualizador gráfico de Audacity para suavizar la frecuencia de la voz.",
+  "Normaliza la amplitud máxima a -1 dB en Audacity antes de amplificar.",
+  "Aplica un limitador con límite en -1 dB al final de la edición de audio para evitar distorsión.",
+  "Exporta el audio editado desde Audacity en formato WAV para conservar el máximo rango dinámico.",
+  "Para sincronizar audio externo con video, usa la función de sincronización nativa del editor (Final Cut: Sync Clips; Premiere: Synchronize) y luego silencia la pista de audio de la cámara.",
+  "Nunca uses Generative Fill en el sujeto principal si quieres mantenerlo intacto; selecciona solo el fondo.",
+  "Nunca subas audio sin comprimir a The ID si supera los 15 MB; comprime primero en DaVinci Resolve integrando canales (channel 1 integrated)."
+ ],
+ "prompts_y_recetas": [
+  "Para cambiar el fondo de un video: en DaVinci Resolve, aísla al sujeto con máscara, exporta un fotograma como JPG. En Photoshop Beta, selecciona el fondo con Lasso, aplica Generative Fill con prompt en inglés (ej. 'medieval castles'). Guarda como JPG, arrastra a la línea de tiempo y ajusta duración.",
+  "Para eliminar un objeto no deseado en video: en DaVinci Resolve (módulo Color), crea una máscara alrededor del objeto, exporta ese fotograma como JPG. En Photoshop Beta, selecciona el objeto y aplica Generative Fill sin prompt (vacío). Guarda y reemplaza en la línea de tiempo.",
+  "Para crear un avatar parlante desde una foto: recorta la foto en Photoshop Beta (fondo verde), genera guion con ChatGPT (ej. 'crea un texto de 30 segundos donde voy a presentar una herramienta de IA...'), graba audio, limpia con Adobe Podcast, comprime a MP3 (<15 MB), sube foto y audio a The ID, genera y descarga el video.",
+  "Para eliminar chroma key de un avatar en After Effects: importa el video, crea composición, aplica efecto de luz (light effect) apuntando al color verde, añade a cola de renderizado, exporta como 'Clean Chroma Key Video' con calidad 444 y RGB+alpha.",
+  "Para generar fondo 4K con IA: en Photoshop Beta, crea proyecto 3840x2160, selecciona todo el lienzo, aplica Generative Fill con prompt en inglés (ej. 'Create me a background, a wall with a painting on the left, with futuristic lights, cool colors'). Repite para llenar espacios vacíos. Guarda como JPG.",
+  "Para editar audio de voz en Audacity: reduce ruido (perfil de ruido ambiente), aplica compresor (threshold -1 dB), ecualiza con Bass Boost y Treble Boost, normaliza a -1 dB, amplifica (+5 dB con 'Permitir recorte' marcado), aplica limitador a -1 dB, exporta como WAV.",
+  "Para sincronizar audio editado en Final Cut Pro: importa el clip de video y el WAV, selecciona ambos, clic derecho > Sincronizar clips, arrastra el clip sincronizado a la línea de tiempo, silencia el audio de cámara (volumen a 0).",
+  "Para sincronizar audio editado en Adobe Premiere: importa el clip de video y el WAV, arrastra ambos a la línea de tiempo, selecciona todos, clic derecho > Sincronizar, silencia la pista de audio de cámara."
+ ],
+ "errores_comunes": [
+  "Usar la versión estable de Photoshop en lugar de la Beta para Generative Fill.",
+  "Escribir prompts de Generative Fill en español; la IA solo interpreta inglés.",
+  "Exportar fotogramas desde DaVinci Resolve en formato que no sea JPG, alterando la corrección de color.",
+  "Seleccionar parte del sujeto al aplicar Generative Fill, modificándolo involuntariamente.",
+  "No ajustar la atenuación (softness) en los bordes de la imagen generada, dejando línea de corte visible.",
+  "Confiar en la primera generación de la IA sin revisar las 3 variantes ofrecidas.",
+  "Tener fondo con color similar al cabello en la foto del avatar, dificultando el recorte automático.",
+  "Generar texto con ChatGPT sin iterar y corregir, incluyendo afirmaciones falsas sobre la herramienta.",
+  "Subir audio sin comprimir a The ID si pesa más de 15 MB; el sistema lo rechaza.",
+  "Grabar audio con niveles que superen 0 dB, causando distorsión irreversible.",
+  "No eliminar ruido de fondo antes de editar el audio, empeorando la calidad final.",
+  "Exportar audio editado en formato comprimido (MP3) en lugar de WAV para edición posterior."
+ ],
+ "fuentes_videos": [
+  {
+   "titulo": "🔴 GENERATIVE FILL FOR VIDEO WITH ARTIFICIAL INTELLIGENCE🔴",
+   "url": "https://youtu.be/YB8hxc5qyjk",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "🤖 CREO UN VÍDEO COMPLETO 100% GENERADO POR INTELIGENCIA ARTIFICIAL CON MI AVATAR 🤖",
+   "url": "https://youtu.be/MVy769pdfG8",
+   "canal": "mundoaudiovisual"
+  },
+  {
+   "titulo": "The best FREE software for recording and editing audio for your videos! 🎤 🔊 🔊",
+   "url": "https://youtu.be/F3yc3Ab_lzE",
+   "canal": "mundoaudiovisual"
+  }
+ ]
+}

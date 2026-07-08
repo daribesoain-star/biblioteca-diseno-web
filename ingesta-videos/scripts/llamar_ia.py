@@ -39,7 +39,7 @@ for url, key, modelo in PROVEEDORES:
     for intento in range(2):
         try:
             texto = llamar(url, key, modelo, prompt)
-            if texto and len(texto) > 200:
+            if texto and len(texto.strip()) > 10:
                 open(salida, 'w', encoding='utf-8').write(texto)
                 print(f"ok:{modelo}")
                 sys.exit(0)
