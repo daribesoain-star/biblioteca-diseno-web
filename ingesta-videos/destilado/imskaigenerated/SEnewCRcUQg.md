@@ -1,0 +1,25 @@
+# How To Create AI Anime with Nano Banana Pro & Sora 2
+**Fuente:** imskaigenerated | https://youtu.be/SEnewCRcUQg
+
+## Qué enseña
+El tutorial explica cómo crear una secuencia anime de 30 segundos con dos personajes rivales consistentes (Kaido, usuario de fuego, y Ren, usuario de rayos) usando Open Art, Nano Banana Pro para generar imágenes y Sora 2 para video. Cubre desde la generación de personajes hasta la creación de múltiples escenas conectadas con prompting por línea de tiempo y collages de referencia.
+
+## Lecciones accionables
+- **Generar personajes en Open Art:** Seleccionar modelo "Nano Banana" (Google) o "Seedream 4.0". Usar aspect ratio 1:1 (cuadrado). Prompt exacto para Kaido: *"teenage anime character with spiky black hair, red highlights, wearing a red and black jacket, flames around his hands, and standing confidently"*. Prompt exacto para Ren: *"teenage anime character, male short silver white hair, wearing a blue vest, and lightning crackling around his fists"*. Descargar ambas imágenes como PNG.
+- **Crear collage de referencia:** En Canva, crear lienzo de 1920x1080. Colocar a Kaido a la izquierda y Ren a la derecha, mismo tamaño, con espacio entre ellos. Descargar como PNG con nombre "character_reference".
+- **Generar primera escena con timeline prompting:** En Open Art, sección Video, seleccionar modelo "Sora 2" (versión Pro para mejor calidad, "Fast" para pruebas). Subir el collage de referencia. Usar prompt detallado por timestamps: *"river scene where Kaido and Ren come across each other right before they start fighting... wide cinematic shot, medium shot focusing on the left riverbank and Kaido, then cut to the right side with Ren while adding details like blue electricity crackles around his hands... camera pulls back to a wide shot showing both rivals locked in a tense standoff across the moonlit river. The fire and lightning energy intensifies, lighting up the mist between them, high quality animation, cinematic camera movement"*. Añadir estilo: *"shonen anime art style, cinematic camera movement, dramatic lighting, high-quality animation"*. Configurar duración a 12 segundos. Generar y descargar.
+- **Generar escenas adicionales:** Reproducir el video generado, pausar en un momento donde se vean claramente ambas caras. Tomar screenshot, recortar cada rostro por separado, crear nuevo collage lado a lado. Subir ese collage como nueva imagen de referencia. Prompt para escena 2: *"Extreme close-up of Kaido, heavy breathing. Cut to extreme close-up of Ren. Blue lightning sparks violently. Montage of quick cuts back and forth between their faces, accelerating in speed as tension builds. Both are preparing to move. Zoom out to a wide shot and then a big explosion"*. Prompt para escena 3: *"Wide action shot. Both rivals explode forward from opposite sides of the screen. Kaido on the left is propelled by a blazing fire aura. Ren on the right is wrapped in crackling blue lightning. They rush toward the center at high speed. Extreme slow motion close-up. They meet in the middle directly above the river. Their fists collide, creating a distortion in the air as fire and lightning mesh in a chaotic, blinding struggle. Massive spherical explosion of red fire and blue lightning energy detonates from the impact point, expanding outward and violently illuminating the entire dark forest and river mist. Wide shot pulling back through the clearing smoke. Both rivals skid backwards, landing on their opposite river banks. They crouch and immediately look up, staring each other down through the fading energy particles"*. Configurar 12 segundos cada una.
+- **Consistencia de voces (opcional):** Usar Eleven Labs voice changer para reemplazar voces en los videos generados.
+
+## Reglas para agentes
+- Usa siempre aspect ratio 1:1 para las imágenes de personajes individuales y 1920x1080 para el collage de referencia.
+- Nunca uses prompts simples como "two rivals fight"; siempre desglosa por timestamps con descripciones de ángulos de cámara, movimientos y detalles visuales.
+- Actualiza el collage de referencia para cada nueva escena usando un screenshot del video anterior, recortando los rostros y colocándolos lado a lado.
+- Usa Sora 2 Pro cuando la calidad sea prioritaria; usa Sora 2 Fast solo para pruebas rápidas y económicas.
+- Incluye siempre al final del prompt las keywords de estilo: "shonen anime art style, cinematic camera movement, dramatic lighting, high-quality animation".
+
+## Errores comunes que evita o menciona
+- No usar prompts genéricos y simples; el prompting detallado por timestamps es esencial para que Sora 2 tenga suficiente creatividad y dirección.
+- No saltarse la creación del collage de referencia actualizado entre escenas; es el paso clave para mantener la consistencia de los personajes.
+- No olvidar descargar cada video generado antes de pasar a la siguiente escena.
+- No asumir que Sora 2 mantendrá las voces consistentes; usar Eleven Labs como respaldo si es necesario.

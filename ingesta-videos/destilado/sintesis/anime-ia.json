@@ -1,0 +1,88 @@
+{
+ "id": "anime-ia",
+ "disciplina": "ia-generativa-visual",
+ "area": "generacion-anime",
+ "titulo": "Flujo completo para crear anime largo con personajes consistentes usando IA",
+ "que_ensena": "Planifica una historia completa con storyboard y hojas de personaje, genera frames base con referencia de personaje, anima con control de cámara y diálogo, y edita todo en un editor de video. Cubre desde la preproducción con LLM hasta la generación de video con extensión de clips y consistencia visual.",
+ "reglas_para_agentes": [
+  "Usa un LLM (Claude, Google AI Studio, ChatGPT) para convertir una idea general en storyboard completo y shot list antes de generar cualquier imagen o video.",
+  "Crea siempre una hoja de personaje de referencia (front, side, back view) antes de generar clips con personajes recurrentes.",
+  "Sube la hoja de personaje como imagen de referencia en cada generación de imagen y video donde aparezca ese personaje.",
+  "Usa prompts estructurados con los 6 puntos: subject, action, environment, camera, style, constraints.",
+  "Mantén los prompts cortos y procesables; elimina texto ornamental y palabras vagas antes de generar.",
+  "Usa timeline prompting cuando haya múltiples ángulos, acciones secuenciales o cambios de cámara en un mismo clip.",
+  "Usa la función de extensión de video (video extension feature) para conectar escenas consecutivas en lugar de generar un clip nuevo desde cero.",
+  "Usa tags con @ para etiquetar personajes cuando un prompt incluya dos o más referencias.",
+  "Genera previews a 480p antes de gastar créditos en 1080p para validar el resultado.",
+  "Configura aspect ratio 16:9 y resolución 2K en Nano Banana 2 para frames base.",
+  "Selecciona multi-shot manual en Cinema Studio 2.5 para controlar cada plano individualmente.",
+  "No uses prompts de cámara en el texto; selecciona el movimiento desde el menú de la herramienta de video.",
+  "Actualiza el collage de referencia para cada nueva escena usando un screenshot del video anterior, recortando los rostros y colocándolos lado a lado.",
+  "Incluye siempre al final del prompt de video las keywords de estilo: 'shonen anime art style, cinematic camera movement, dramatic lighting, high-quality animation'.",
+  "Usa Recraft Crisp Upscale en cada imagen generada antes de pasarla al siguiente paso.",
+  "Conecta siempre la imagen de escena original como imagen de referencia al generar shots en Nano Banana.",
+  "Usa el mismo prompt textual para generar el shot en Nano Banana y para generar el video en Seedance.",
+  "Alimenta siempre el shot generado en Nano Banana como imagen de entrada en Seedance, no la imagen original de la escena.",
+  "Separa los prompts de escena en un array para procesamiento paralelo en múltiples modelos Nano Banana.",
+  "Para diálogos, usa una herramienta de audio (Higgsfield audio, Eleven Labs) con emotion tags (angry, sad, excited) y selecciona voiceover.",
+  "Usa Eleven Labs voice changer para reemplazar voces si el video no mantiene consistencia de voz.",
+  "Nunca empieces un video largo generando clips sueltos sin storyboard.",
+  "Nunca dependas solo del end frame para continuidad; usa el video anterior como referencia.",
+  "Nunca pegues prompts largos generados por IA sin revisarlos y recortarlos.",
+  "Nunca asumas que más detalle equivale a mejor resultado si el modelo va a ignorar parte del prompt.",
+  "Nunca generes imágenes o videos sin tener primero un shot list completo y un guion refinado en el LLM.",
+  "Siempre regenera un shot si la primera generación no se ve limpia; un mal shot arruina el flujo completo."
+ ],
+ "prompts_y_recetas": [
+  "Prompt para hoja de personaje (Nano Banana Pro): 'front, side, and back view of our character wearing a fantasy travel outfit with a katana at his hip in a soft anime style theme'.",
+  "Prompt para starting frame inicial (Nano Banana Pro): 'wide shot of the hero character kneeling down on the porch of a misty bamboo house at sunrise with his mentor standing beside him in a soft anime style aesthetic'.",
+  "Prompt para primer clip de video (Seedance 2.0): '13-second cinematic shot where Ren closes his bag and his mentor delivers one final line to him. After that, he hugs him and walks down the staircase'.",
+  "Prompt para pelea con dos personajes (Seedance 2.0): '15-second cinematic fight scene that picks up exactly where the previous clip left off with smooth and varied camera motions as Ren and his rival clash, lock blades and exchange dialogue'.",
+  "Prompt para hoja de personaje de 4 ángulos (Nano Banana 2): usar el prompt devuelto por el LLM tras escribir 'yes to create your character anchor image'.",
+  "Prompt para escena con timeline prompting (Sora 2): 'river scene where Kaido and Ren come across each other right before they start fighting... wide cinematic shot, medium shot focusing on the left riverbank and Kaido, then cut to the right side with Ren while adding details like blue electricity crackles around his hands... camera pulls back to a wide shot showing both rivals locked in a tense standoff across the moonlit river. The fire and lightning energy intensifies, lighting up the mist between them, high quality animation, cinematic camera movement'.",
+  "Prompt para escena de enfrentamiento (Sora 2): 'Extreme close-up of Kaido, heavy breathing. Cut to extreme close-up of Ren. Blue lightning sparks violently. Montage of quick cuts back and forth between their faces, accelerating in speed as tension builds. Both are preparing to move. Zoom out to a wide shot and then a big explosion'.",
+  "Prompt para escena de choque final (Sora 2): 'Wide action shot. Both rivals explode forward from opposite sides of the screen. Kaido on the left is propelled by a blazing fire aura. Ren on the right is wrapped in crackling blue lightning. They rush toward the center at high speed. Extreme slow motion close-up. They meet in the middle directly above the river. Their fists collide, creating a distortion in the air as fire and lightning mesh in a chaotic, blinding struggle. Massive spherical explosion of red fire and blue lightning energy detonates from the impact point, expanding outward and violently illuminating the entire dark forest and river mist. Wide shot pulling back through the clearing smoke. Both rivals skid backwards, landing on their opposite river banks. They crouch and immediately look up, staring each other down through the fading energy particles'.",
+  "Prompt optimizado para video (Seedance GPT): 'A woman types rapidly on her laptop in a dimly lit, cluttered room. Cut to close-up. Her fingers tapping quickly on the keyboard. Screen light flickering. Cut wide shot. She sits hunched over, surrounded by books and empty coffee mugs. Cut side profile. She rubs her eyes slowly, face lit by the laptop's blue glow.'",
+  "Receta para generar 3 escenas en paralelo: 1) Usa un LLM con instrucciones personalizadas para crear 3 scene prompts. 2) Separa los prompts en un array. 3) Dirige cada prompt a un modelo Nano Banana diferente para generar las imágenes simultáneamente. 4) Upscalea cada imagen con Recraft Crisp Upscale. 5) Para cada imagen, pide a un Nano Banana GPT que genere 10 editing prompts de shots posteriores. 6) Genera cada shot en Nano Banana usando la imagen de escena como referencia. 7) Anima cada shot en Seedance usando el mismo prompt textual y la imagen del shot como entrada."
+ ],
+ "errores_comunes": [
+  "Saltarse el storyboard y terminar con clips bonitos pero inconexos.",
+  "Generar personajes sin hojas de referencia y perder consistencia entre escenas.",
+  "Usar prompts de cientos de palabras que el modelo no procesa completos.",
+  "Pegar directamente prompts enormes generados por ChatGPT o Claude sin revisarlos.",
+  "Describir demasiado sin estructura clara de sujeto, acción, entorno, cámara, estilo y restricciones.",
+  "Generar cada clip como una escena aislada en vez de usar extensión de video.",
+  "No etiquetar personajes con @ cuando hay múltiples referencias.",
+  "Gastar créditos generando directamente a 1080p sin validar primero en 480p.",
+  "Intentar arreglar continuidad solo en edición cuando los clips ya nacen desconectados.",
+  "Usar prompts de cámara en el texto en lugar de seleccionar el movimiento desde el menú de la herramienta.",
+  "Aceptar diálogos y guiones genéricos sin refinar iterativamente con el LLM.",
+  "Saltarse el paso de upscale, resultando en imágenes de calidad amateur.",
+  "Generar prompts uno por uno para cada escena, causando inconsistencia y pérdida de tiempo.",
+  "Esperar que la primera generación en Midjourney sea perfecta sin ajustar el prompt.",
+  "Usar una imagen base que no muestre claramente rostro, estilo y apariencia general.",
+  "No usar el mismo prompt en Nano Banana y Seedance, rompiendo la consistencia del video."
+ ],
+ "fuentes_videos": [
+  {
+   "titulo": "How To Create Long AI Anime With Consistent Characters",
+   "url": "https://youtu.be/qNCeIxja7Ws",
+   "canal": "imskaigenerated"
+  },
+  {
+   "titulo": "How To Start Making AI Anime in 2026",
+   "url": "https://youtu.be/dg49GOSMIiU",
+   "canal": "imskaigenerated"
+  },
+  {
+   "titulo": "How To Create AI Anime with Nano Banana Pro & Sora 2",
+   "url": "https://youtu.be/SEnewCRcUQg",
+   "canal": "imskaigenerated"
+  },
+  {
+   "titulo": "Create INSANE AI Anime with Nano Banana & Seedance! FREE workflow",
+   "url": "https://youtu.be/L5tAdoMcrvg",
+   "canal": "imskaigenerated"
+  }
+ ]
+}

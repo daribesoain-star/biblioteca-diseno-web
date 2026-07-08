@@ -1,0 +1,2144 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:11.910 align:start position:0%
+ 
+1,<00:00:00.400><c> 2,</c><00:00:00.720><c> 3,</c><00:00:01.040><c> 4.</c>
+
+00:00:11.910 --> 00:00:11.920 align:start position:0%
+ 
+ 
+
+00:00:11.920 --> 00:00:14.470 align:start position:0%
+ 
+Well,<00:00:12.240><c> I</c><00:00:12.560><c> took</c><00:00:12.840><c> my</c><00:00:13.040><c> tutu</c><00:00:13.520><c> on</c><00:00:13.640><c> a</c><00:00:13.720><c> tangent.</c>
+
+00:00:14.470 --> 00:00:14.480 align:start position:0%
+Well, I took my tutu on a tangent.
+ 
+
+00:00:14.480 --> 00:00:15.510 align:start position:0%
+Well, I took my tutu on a tangent.
+&gt;&gt; Welcome<00:00:14.680><c> back</c><00:00:14.840><c> and</c><00:00:14.960><c> in</c><00:00:15.000><c> this</c><00:00:15.160><c> one</c><00:00:15.280><c> I'm</c><00:00:15.360><c> going</c>
+
+00:00:15.510 --> 00:00:15.520 align:start position:0%
+&gt;&gt; Welcome back and in this one I'm going
+ 
+
+00:00:15.520 --> 00:00:17.030 align:start position:0%
+&gt;&gt; Welcome back and in this one I'm going
+to<00:00:15.640><c> show</c><00:00:15.760><c> you</c><00:00:15.880><c> how</c><00:00:16.040><c> to</c><00:00:16.200><c> create</c><00:00:16.480><c> a</c><00:00:16.560><c> transition</c>
+
+00:00:17.030 --> 00:00:17.040 align:start position:0%
+to show you how to create a transition
+ 
+
+00:00:17.040 --> 00:00:18.910 align:start position:0%
+to show you how to create a transition
+type<00:00:17.240><c> of</c><00:00:17.400><c> animation</c><00:00:18.160><c> in</c><00:00:18.280><c> Google</c><00:00:18.520><c> Flow,</c><00:00:18.760><c> but</c>
+
+00:00:18.910 --> 00:00:18.920 align:start position:0%
+type of animation in Google Flow, but
+ 
+
+00:00:18.920 --> 00:00:20.550 align:start position:0%
+type of animation in Google Flow, but
+you<00:00:19.000><c> can</c><00:00:19.120><c> really</c><00:00:19.360><c> apply</c><00:00:19.720><c> this</c><00:00:19.920><c> workflow</c><00:00:20.360><c> to</c>
+
+00:00:20.550 --> 00:00:20.560 align:start position:0%
+you can really apply this workflow to
+ 
+
+00:00:20.560 --> 00:00:22.830 align:start position:0%
+you can really apply this workflow to
+any<00:00:20.880><c> AAA</c><00:00:21.480><c> video</c><00:00:21.840><c> generator.</c><00:00:22.480><c> To</c><00:00:22.600><c> pull</c><00:00:22.720><c> off</c>
+
+00:00:22.830 --> 00:00:22.840 align:start position:0%
+any AAA video generator. To pull off
+ 
+
+00:00:22.840 --> 00:00:24.510 align:start position:0%
+any AAA video generator. To pull off
+this<00:00:23.000><c> transitions</c><00:00:23.640><c> starting</c><00:00:23.960><c> with</c><00:00:24.080><c> a</c><00:00:24.160><c> great</c>
+
+00:00:24.510 --> 00:00:24.520 align:start position:0%
+this transitions starting with a great
+ 
+
+00:00:24.520 --> 00:00:26.750 align:start position:0%
+this transitions starting with a great
+image<00:00:25.080><c> is</c><00:00:25.280><c> the</c><00:00:25.400><c> key.</c><00:00:25.800><c> This</c><00:00:25.920><c> is</c><00:00:26.120><c> mainly</c><00:00:26.440><c> because</c>
+
+00:00:26.750 --> 00:00:26.760 align:start position:0%
+image is the key. This is mainly because
+ 
+
+00:00:26.760 --> 00:00:28.830 align:start position:0%
+image is the key. This is mainly because
+we<00:00:26.880><c> need</c><00:00:27.040><c> to</c><00:00:27.160><c> provide</c><00:00:27.480><c> a</c><00:00:27.560><c> clear</c><00:00:28.040><c> instruction</c>
+
+00:00:28.830 --> 00:00:28.840 align:start position:0%
+we need to provide a clear instruction
+ 
+
+00:00:28.840 --> 00:00:31.510 align:start position:0%
+we need to provide a clear instruction
+to<00:00:29.000><c> exactly</c><00:00:29.680><c> what</c><00:00:29.960><c> will</c><00:00:30.120><c> transition</c><00:00:30.800><c> in</c><00:00:31.320><c> and</c>
+
+00:00:31.510 --> 00:00:31.520 align:start position:0%
+to exactly what will transition in and
+ 
+
+00:00:31.520 --> 00:00:33.070 align:start position:0%
+to exactly what will transition in and
+out<00:00:31.720><c> of</c><00:00:31.840><c> the</c><00:00:31.960><c> frame.</c><00:00:32.320><c> I</c><00:00:32.400><c> have</c><00:00:32.599><c> these</c><00:00:32.840><c> three</c>
+
+00:00:33.070 --> 00:00:33.080 align:start position:0%
+out of the frame. I have these three
+ 
+
+00:00:33.080 --> 00:00:35.190 align:start position:0%
+out of the frame. I have these three
+images.<00:00:33.640><c> This</c><00:00:33.880><c> is</c><00:00:34.000><c> the</c><00:00:34.200><c> first</c><00:00:34.480><c> one,</c><00:00:34.840><c> then</c><00:00:35.040><c> we</c>
+
+00:00:35.190 --> 00:00:35.200 align:start position:0%
+images. This is the first one, then we
+ 
+
+00:00:35.200 --> 00:00:37.070 align:start position:0%
+images. This is the first one, then we
+will<00:00:35.440><c> go</c><00:00:35.800><c> to</c><00:00:36.000><c> the</c><00:00:36.120><c> second</c><00:00:36.440><c> one,</c><00:00:36.640><c> and</c><00:00:36.760><c> then</c><00:00:36.920><c> we</c>
+
+00:00:37.070 --> 00:00:37.080 align:start position:0%
+will go to the second one, and then we
+ 
+
+00:00:37.080 --> 00:00:39.110 align:start position:0%
+will go to the second one, and then we
+will<00:00:37.360><c> transition</c><00:00:37.880><c> to</c><00:00:38.080><c> the</c><00:00:38.280><c> third</c><00:00:38.640><c> one.</c><00:00:38.960><c> I've</c>
+
+00:00:39.110 --> 00:00:39.120 align:start position:0%
+will transition to the third one. I've
+ 
+
+00:00:39.120 --> 00:00:40.390 align:start position:0%
+will transition to the third one. I've
+created<00:00:39.440><c> these</c><00:00:39.560><c> images</c><00:00:39.880><c> right</c><00:00:40.040><c> here</c><00:00:40.280><c> on</c>
+
+00:00:40.390 --> 00:00:40.400 align:start position:0%
+created these images right here on
+ 
+
+00:00:40.400 --> 00:00:42.350 align:start position:0%
+created these images right here on
+Google<00:00:40.600><c> Flow,</c><00:00:41.080><c> but</c><00:00:41.280><c> if</c><00:00:41.400><c> you</c><00:00:41.560><c> are</c><00:00:41.760><c> a</c><00:00:41.800><c> designer,</c>
+
+00:00:42.350 --> 00:00:42.360 align:start position:0%
+Google Flow, but if you are a designer,
+ 
+
+00:00:42.360 --> 00:00:44.750 align:start position:0%
+Google Flow, but if you are a designer,
+you<00:00:42.560><c> probably</c><00:00:43.280><c> already</c><00:00:43.560><c> know</c><00:00:43.800><c> how</c><00:00:44.040><c> to</c><00:00:44.240><c> build</c>
+
+00:00:44.750 --> 00:00:44.760 align:start position:0%
+you probably already know how to build
+ 
+
+00:00:44.760 --> 00:00:47.470 align:start position:0%
+you probably already know how to build
+this<00:00:44.920><c> type</c><00:00:45.200><c> of</c><00:00:45.520><c> images</c><00:00:46.080><c> on</c><00:00:46.320><c> Canva</c><00:00:46.720><c> or</c><00:00:46.920><c> Figma.</c>
+
+00:00:47.470 --> 00:00:47.480 align:start position:0%
+this type of images on Canva or Figma.
+ 
+
+00:00:47.480 --> 00:00:48.830 align:start position:0%
+this type of images on Canva or Figma.
+Nevertheless,<00:00:47.800><c> first</c><00:00:48.080><c> I</c><00:00:48.160><c> will</c><00:00:48.320><c> show</c><00:00:48.560><c> you</c><00:00:48.680><c> how</c>
+
+00:00:48.830 --> 00:00:48.840 align:start position:0%
+Nevertheless, first I will show you how
+ 
+
+00:00:48.840 --> 00:00:50.390 align:start position:0%
+Nevertheless, first I will show you how
+to<00:00:48.960><c> create</c><00:00:49.240><c> the</c><00:00:49.320><c> video</c><00:00:49.640><c> transitions,</c><00:00:50.280><c> and</c>
+
+00:00:50.390 --> 00:00:50.400 align:start position:0%
+to create the video transitions, and
+ 
+
+00:00:50.400 --> 00:00:52.110 align:start position:0%
+to create the video transitions, and
+then<00:00:50.560><c> we</c><00:00:50.720><c> will</c><00:00:50.880><c> talk</c><00:00:51.160><c> about</c><00:00:51.440><c> creating</c><00:00:51.880><c> this</c>
+
+00:00:52.110 --> 00:00:52.120 align:start position:0%
+then we will talk about creating this
+ 
+
+00:00:52.120 --> 00:00:53.430 align:start position:0%
+then we will talk about creating this
+type<00:00:52.320><c> of</c><00:00:52.480><c> images.</c><00:00:52.960><c> Once</c><00:00:53.120><c> you</c><00:00:53.200><c> have</c><00:00:53.360><c> the</c>
+
+00:00:53.430 --> 00:00:53.440 align:start position:0%
+type of images. Once you have the
+ 
+
+00:00:53.440 --> 00:00:55.030 align:start position:0%
+type of images. Once you have the
+images,<00:00:53.760><c> you</c><00:00:53.880><c> just</c><00:00:54.040><c> need</c><00:00:54.200><c> to</c><00:00:54.280><c> drag</c><00:00:54.560><c> and</c><00:00:54.680><c> drop.</c>
+
+00:00:55.030 --> 00:00:55.040 align:start position:0%
+images, you just need to drag and drop.
+ 
+
+00:00:55.040 --> 00:00:56.950 align:start position:0%
+images, you just need to drag and drop.
+I'm<00:00:55.160><c> going</c><00:00:55.280><c> to</c><00:00:55.360><c> put</c><00:00:55.600><c> them</c><00:00:55.880><c> as</c><00:00:56.160><c> an</c><00:00:56.240><c> ingredient.</c>
+
+00:00:56.950 --> 00:00:56.960 align:start position:0%
+I'm going to put them as an ingredient.
+ 
+
+00:00:56.960 --> 00:00:58.590 align:start position:0%
+I'm going to put them as an ingredient.
+I'm<00:00:57.040><c> not</c><00:00:57.200><c> going</c><00:00:57.400><c> to</c><00:00:57.600><c> lock</c><00:00:57.920><c> the</c><00:00:58.000><c> image,</c><00:00:58.320><c> just</c>
+
+00:00:58.590 --> 00:00:58.600 align:start position:0%
+I'm not going to lock the image, just
+ 
+
+00:00:58.600 --> 00:01:00.870 align:start position:0%
+I'm not going to lock the image, just
+use<00:00:58.800><c> it</c><00:00:58.960><c> as</c><00:00:59.120><c> a</c><00:00:59.200><c> reference.</c><00:00:59.800><c> The</c><00:01:00.000><c> next</c><00:01:00.360><c> thing</c><00:01:00.760><c> is</c>
+
+00:01:00.870 --> 00:01:00.880 align:start position:0%
+use it as a reference. The next thing is
+ 
+
+00:01:00.880 --> 00:01:02.950 align:start position:0%
+use it as a reference. The next thing is
+to<00:01:01.040><c> add</c><00:01:01.440><c> instructions</c><00:01:02.200><c> in</c><00:01:02.400><c> what</c><00:01:02.600><c> you</c><00:01:02.680><c> want</c><00:01:02.880><c> to</c>
+
+00:01:02.950 --> 00:01:02.960 align:start position:0%
+to add instructions in what you want to
+ 
+
+00:01:02.960 --> 00:01:04.790 align:start position:0%
+to add instructions in what you want to
+do.<00:01:03.280><c> I</c><00:01:03.360><c> mean,</c><00:01:03.520><c> the</c><00:01:03.640><c> style,</c><00:01:04.199><c> and</c><00:01:04.280><c> also</c><00:01:04.519><c> what</c>
+
+00:01:04.790 --> 00:01:04.800 align:start position:0%
+do. I mean, the style, and also what
+ 
+
+00:01:04.800 --> 00:01:07.230 align:start position:0%
+do. I mean, the style, and also what
+will<00:01:05.040><c> transition</c><00:01:05.640><c> in</c><00:01:06.120><c> and</c><00:01:06.320><c> out</c><00:01:06.600><c> of</c><00:01:06.720><c> the</c><00:01:06.800><c> image.</c>
+
+00:01:07.230 --> 00:01:07.240 align:start position:0%
+will transition in and out of the image.
+ 
+
+00:01:07.240 --> 00:01:08.750 align:start position:0%
+will transition in and out of the image.
+Oh,<00:01:07.400><c> and</c><00:01:07.480><c> if</c><00:01:07.600><c> you</c><00:01:07.720><c> want</c><00:01:08.000><c> a</c><00:01:08.040><c> document</c><00:01:08.480><c> with</c>
+
+00:01:08.750 --> 00:01:08.760 align:start position:0%
+Oh, and if you want a document with
+ 
+
+00:01:08.760 --> 00:01:10.430 align:start position:0%
+Oh, and if you want a document with
+everything<00:01:09.120><c> that</c><00:01:09.280><c> we</c><00:01:09.360><c> are</c><00:01:09.440><c> doing</c><00:01:09.680><c> right</c><00:01:09.840><c> here,</c>
+
+00:01:10.430 --> 00:01:10.440 align:start position:0%
+everything that we are doing right here,
+ 
+
+00:01:10.440 --> 00:01:12.310 align:start position:0%
+everything that we are doing right here,
+go<00:01:10.600><c> to</c><00:01:10.680><c> the</c><00:01:10.760><c> comments,</c><00:01:11.280><c> comment</c><00:01:11.560><c> prompt</c><00:01:12.040><c> down</c>
+
+00:01:12.310 --> 00:01:12.320 align:start position:0%
+go to the comments, comment prompt down
+ 
+
+00:01:12.320 --> 00:01:14.005 align:start position:0%
+go to the comments, comment prompt down
+below,<00:01:12.800><c> and</c><00:01:13.080><c> I</c><00:01:13.160><c> will</c><00:01:13.320><c> send</c><00:01:13.600><c> you</c><00:01:13.880><c> the</c><00:01:13.960><c> link.</c>
+
+00:01:14.005 --> 00:01:14.015 align:start position:0%
+below, and I will send you the link.
+ 
+
+00:01:14.015 --> 00:01:15.950 align:start position:0%
+below, and I will send you the link.
+[music]<00:01:14.480><c> First,</c><00:01:14.720><c> we</c><00:01:14.880><c> start</c><00:01:15.200><c> with</c><00:01:15.320><c> the</c><00:01:15.400><c> style.</c>
+
+00:01:15.950 --> 00:01:15.960 align:start position:0%
+[music] First, we start with the style.
+ 
+
+00:01:15.960 --> 00:01:18.070 align:start position:0%
+[music] First, we start with the style.
+A<00:01:16.000><c> stop</c><00:01:16.280><c> motion</c><00:01:16.720><c> type</c><00:01:16.960><c> of</c><00:01:17.080><c> collage</c><00:01:17.480><c> animation.</c>
+
+00:01:18.070 --> 00:01:18.080 align:start position:0%
+A stop motion type of collage animation.
+ 
+
+00:01:18.080 --> 00:01:20.110 align:start position:0%
+A stop motion type of collage animation.
+And<00:01:18.200><c> then</c><00:01:18.280><c> we</c><00:01:18.400><c> provide</c><00:01:18.800><c> instructions</c><00:01:19.400><c> in</c><00:01:19.680><c> what</c>
+
+00:01:20.110 --> 00:01:20.120 align:start position:0%
+And then we provide instructions in what
+ 
+
+00:01:20.120 --> 00:01:22.150 align:start position:0%
+And then we provide instructions in what
+we<00:01:20.240><c> want</c><00:01:20.400><c> to</c><00:01:20.480><c> transition</c><00:01:21.000><c> in</c><00:01:21.360><c> and</c><00:01:21.520><c> transition</c>
+
+00:01:22.150 --> 00:01:22.160 align:start position:0%
+we want to transition in and transition
+ 
+
+00:01:22.160 --> 00:01:24.350 align:start position:0%
+we want to transition in and transition
+out.<00:01:22.640><c> Notice</c><00:01:22.920><c> I'm</c><00:01:23.080><c> being</c><00:01:23.440><c> very</c><00:01:23.680><c> precise.</c><00:01:24.200><c> I'm</c>
+
+00:01:24.350 --> 00:01:24.360 align:start position:0%
+out. Notice I'm being very precise. I'm
+ 
+
+00:01:24.360 --> 00:01:25.910 align:start position:0%
+out. Notice I'm being very precise. I'm
+saying<00:01:24.560><c> that</c><00:01:24.720><c> we</c><00:01:24.840><c> have</c><00:01:25.080><c> the</c><00:01:25.240><c> title</c><00:01:25.680><c> of</c><00:01:25.800><c> the</c>
+
+00:01:25.910 --> 00:01:25.920 align:start position:0%
+saying that we have the title of the
+ 
+
+00:01:25.920 --> 00:01:28.630 align:start position:0%
+saying that we have the title of the
+show<00:01:26.440><c> snap</c><00:01:26.960><c> into</c><00:01:27.200><c> place</c><00:01:27.560><c> at</c><00:01:27.680><c> the</c><00:01:27.840><c> top</c><00:01:28.240><c> secured</c>
+
+00:01:28.630 --> 00:01:28.640 align:start position:0%
+show snap into place at the top secured
+ 
+
+00:01:28.640 --> 00:01:30.550 align:start position:0%
+show snap into place at the top secured
+by<00:01:28.800><c> tape.</c><00:01:29.120><c> Now,</c><00:01:29.280><c> this</c><00:01:29.440><c> might</c><00:01:29.680><c> happen</c><00:01:30.000><c> or</c><00:01:30.080><c> not</c>
+
+00:01:30.550 --> 00:01:30.560 align:start position:0%
+by tape. Now, this might happen or not
+ 
+
+00:01:30.560 --> 00:01:32.710 align:start position:0%
+by tape. Now, this might happen or not
+because<00:01:30.760><c> we</c><00:01:30.920><c> don't</c><00:01:31.520><c> have</c><00:01:31.880><c> the</c><00:01:32.120><c> reference.</c>
+
+00:01:32.710 --> 00:01:32.720 align:start position:0%
+because we don't have the reference.
+ 
+
+00:01:32.720 --> 00:01:34.390 align:start position:0%
+because we don't have the reference.
+Nevertheless,<00:01:33.320><c> it</c><00:01:33.480><c> will</c><00:01:33.680><c> try.</c><00:01:34.080><c> At</c><00:01:34.120><c> the</c><00:01:34.200><c> left</c>
+
+00:01:34.390 --> 00:01:34.400 align:start position:0%
+Nevertheless, it will try. At the left
+ 
+
+00:01:34.400 --> 00:01:35.870 align:start position:0%
+Nevertheless, it will try. At the left
+of<00:01:34.480><c> you</c><00:01:34.520><c> we</c><00:01:34.600><c> have</c><00:01:34.760><c> guitars,</c><00:01:35.560><c> and</c><00:01:35.640><c> then</c><00:01:35.720><c> on</c><00:01:35.760><c> the</c>
+
+00:01:35.870 --> 00:01:35.880 align:start position:0%
+of you we have guitars, and then on the
+ 
+
+00:01:35.880 --> 00:01:36.910 align:start position:0%
+of you we have guitars, and then on the
+right,<00:01:36.200><c> you</c><00:01:36.280><c> know,</c><00:01:36.400><c> we</c><00:01:36.520><c> have</c><00:01:36.720><c> more</c>
+
+00:01:36.910 --> 00:01:36.920 align:start position:0%
+right, you know, we have more
+ 
+
+00:01:36.920 --> 00:01:38.910 align:start position:0%
+right, you know, we have more
+instruments.<00:01:37.680><c> So,</c><00:01:37.920><c> I</c><00:01:38.040><c> want</c><00:01:38.251><c> [music]</c><00:01:38.360><c> to</c><00:01:38.520><c> slide</c>
+
+00:01:38.910 --> 00:01:38.920 align:start position:0%
+instruments. So, I want [music] to slide
+ 
+
+00:01:38.920 --> 00:01:41.390 align:start position:0%
+instruments. So, I want [music] to slide
+from<00:01:39.120><c> the</c><00:01:39.200><c> left</c><00:01:39.600><c> and</c><00:01:39.680><c> then</c><00:01:39.840><c> do</c><00:01:40.040><c> something</c><00:01:40.920><c> else</c>
+
+00:01:41.390 --> 00:01:41.400 align:start position:0%
+from the left and then do something else
+ 
+
+00:01:41.400 --> 00:01:43.350 align:start position:0%
+from the left and then do something else
+on<00:01:41.600><c> the</c><00:01:41.760><c> right.</c><00:01:42.280><c> We</c><00:01:42.400><c> have</c><00:01:42.520><c> some</c><00:01:42.720><c> microphones</c>
+
+00:01:43.350 --> 00:01:43.360 align:start position:0%
+on the right. We have some microphones
+ 
+
+00:01:43.360 --> 00:01:45.470 align:start position:0%
+on the right. We have some microphones
+all<00:01:43.480><c> over</c><00:01:43.600><c> the</c><00:01:43.680><c> place.</c><00:01:44.240><c> Well,</c><00:01:44.400><c> they</c><00:01:44.600><c> fly</c><00:01:45.120><c> into</c>
+
+00:01:45.470 --> 00:01:45.480 align:start position:0%
+all over the place. Well, they fly into
+ 
+
+00:01:45.480 --> 00:01:47.190 align:start position:0%
+all over the place. Well, they fly into
+frame.<00:01:45.960><c> And</c><00:01:46.080><c> then</c><00:01:46.160><c> we</c><00:01:46.240><c> have</c><00:01:46.400><c> the</c><00:01:46.480><c> image</c><00:01:46.840><c> of</c><00:01:47.040><c> the</c>
+
+00:01:47.190 --> 00:01:47.200 align:start position:0%
+frame. And then we have the image of the
+ 
+
+00:01:47.200 --> 00:01:49.110 align:start position:0%
+frame. And then we have the image of the
+subject.<00:01:47.840><c> And</c><00:01:47.920><c> I'm</c><00:01:48.000><c> saying</c><00:01:48.280><c> that</c><00:01:48.480><c> the</c><00:01:48.640><c> cutout</c>
+
+00:01:49.110 --> 00:01:49.120 align:start position:0%
+subject. And I'm saying that the cutout
+ 
+
+00:01:49.120 --> 00:01:51.590 align:start position:0%
+subject. And I'm saying that the cutout
+of<00:01:49.240><c> the</c><00:01:49.360><c> man</c><00:01:49.680><c> on</c><00:01:49.920><c> this</c><00:01:50.160><c> tool</c><00:01:50.640><c> drops</c><00:01:51.120><c> into</c><00:01:51.480><c> the</c>
+
+00:01:51.590 --> 00:01:51.600 align:start position:0%
+of the man on this tool drops into the
+ 
+
+00:01:51.600 --> 00:01:53.390 align:start position:0%
+of the man on this tool drops into the
+middle.<00:01:52.000><c> So,</c><00:01:52.120><c> again,</c><00:01:52.440><c> you</c><00:01:52.560><c> target</c><00:01:53.000><c> every</c>
+
+00:01:53.390 --> 00:01:53.400 align:start position:0%
+middle. So, again, you target every
+ 
+
+00:01:53.400 --> 00:01:54.870 align:start position:0%
+middle. So, again, you target every
+little<00:01:53.720><c> piece</c><00:01:54.120><c> and</c><00:01:54.280><c> you</c><00:01:54.400><c> provide</c><00:01:54.800><c> an</c>
+
+00:01:54.870 --> 00:01:54.880 align:start position:0%
+little piece and you provide an
+ 
+
+00:01:54.880 --> 00:01:56.430 align:start position:0%
+little piece and you provide an
+instruction.<00:01:55.520><c> And</c><00:01:55.600><c> then</c><00:01:55.720><c> we</c><00:01:55.840><c> move</c><00:01:56.080><c> on</c><00:01:56.200><c> to</c><00:01:56.320><c> the</c>
+
+00:01:56.430 --> 00:01:56.440 align:start position:0%
+instruction. And then we move on to the
+ 
+
+00:01:56.440 --> 00:01:58.430 align:start position:0%
+instruction. And then we move on to the
+transition<00:01:57.000><c> out.</c><00:01:57.480><c> The</c><00:01:57.640><c> elements</c><00:01:57.920><c> on</c><00:01:58.040><c> the</c><00:01:58.120><c> left</c>
+
+00:01:58.430 --> 00:01:58.440 align:start position:0%
+transition out. The elements on the left
+ 
+
+00:01:58.440 --> 00:02:00.790 align:start position:0%
+transition out. The elements on the left
+peel<00:01:58.760><c> off</c><00:01:59.160><c> to</c><00:01:59.360><c> the</c><00:01:59.560><c> right</c><00:01:59.840><c> side</c><00:02:00.400><c> while</c><00:02:00.680><c> the</c>
+
+00:02:00.790 --> 00:02:00.800 align:start position:0%
+peel off to the right side while the
+ 
+
+00:02:00.800 --> 00:02:02.550 align:start position:0%
+peel off to the right side while the
+elements<00:02:01.120><c> on</c><00:02:01.240><c> the</c><00:02:01.440><c> right</c><00:02:01.800><c> peel</c><00:02:02.120><c> off</c><00:02:02.320><c> to</c><00:02:02.480><c> the</c>
+
+00:02:02.550 --> 00:02:02.560 align:start position:0%
+elements on the right peel off to the
+ 
+
+00:02:02.560 --> 00:02:04.110 align:start position:0%
+elements on the right peel off to the
+left<00:02:02.920><c> side.</c><00:02:03.141><c> [music]</c><00:02:03.400><c> So,</c><00:02:03.520><c> you</c><00:02:03.680><c> really</c><00:02:03.920><c> need</c>
+
+00:02:04.110 --> 00:02:04.120 align:start position:0%
+left side. [music] So, you really need
+ 
+
+00:02:04.120 --> 00:02:06.469 align:start position:0%
+left side. [music] So, you really need
+to<00:02:04.200><c> spend</c><00:02:04.479><c> some</c><00:02:04.680><c> time</c><00:02:05.040><c> crafting</c><00:02:05.640><c> this</c><00:02:05.920><c> prompt.</c>
+
+00:02:06.469 --> 00:02:06.479 align:start position:0%
+to spend some time crafting this prompt.
+ 
+
+00:02:06.479 --> 00:02:08.310 align:start position:0%
+to spend some time crafting this prompt.
+Unless<00:02:06.800><c> if</c><00:02:06.960><c> you</c><00:02:07.120><c> don't</c><00:02:07.560><c> add</c><00:02:07.720><c> the</c><00:02:07.800><c> transition</c>
+
+00:02:08.310 --> 00:02:08.320 align:start position:0%
+Unless if you don't add the transition
+ 
+
+00:02:08.320 --> 00:02:10.630 align:start position:0%
+Unless if you don't add the transition
+instruction,<00:02:09.080><c> the</c><00:02:09.280><c> model</c><00:02:09.640><c> will</c><00:02:09.840><c> try</c><00:02:10.119><c> to</c><00:02:10.280><c> do</c><00:02:10.440><c> it</c>
+
+00:02:10.630 --> 00:02:10.640 align:start position:0%
+instruction, the model will try to do it
+ 
+
+00:02:10.640 --> 00:02:12.390 align:start position:0%
+instruction, the model will try to do it
+for<00:02:10.880><c> you.</c><00:02:11.160><c> So,</c><00:02:11.240><c> that's</c><00:02:11.440><c> it.</c><00:02:11.760><c> Now,</c><00:02:11.880><c> one</c><00:02:12.120><c> more</c>
+
+00:02:12.390 --> 00:02:12.400 align:start position:0%
+for you. So, that's it. Now, one more
+ 
+
+00:02:12.400 --> 00:02:14.150 align:start position:0%
+for you. So, that's it. Now, one more
+important<00:02:12.800><c> thing,</c><00:02:13.160><c> as</c><00:02:13.320><c> a</c><00:02:13.360><c> model,</c><00:02:13.840><c> of</c><00:02:13.920><c> course,</c>
+
+00:02:14.150 --> 00:02:14.160 align:start position:0%
+important thing, as a model, of course,
+ 
+
+00:02:14.160 --> 00:02:15.670 align:start position:0%
+important thing, as a model, of course,
+I<00:02:14.240><c> will</c><00:02:14.400><c> go</c><00:02:14.520><c> to</c><00:02:14.680><c> video.</c><00:02:15.200><c> I'm</c><00:02:15.280><c> going</c><00:02:15.400><c> to</c><00:02:15.480><c> use</c>
+
+00:02:15.670 --> 00:02:15.680 align:start position:0%
+I will go to video. I'm going to use
+ 
+
+00:02:15.680 --> 00:02:18.350 align:start position:0%
+I will go to video. I'm going to use
+ingredients<00:02:16.360><c> 69</c><00:02:17.120><c> just</c><00:02:17.360><c> one,</c><00:02:17.760><c> and</c><00:02:17.880><c> then</c><00:02:18.040><c> I</c><00:02:18.160><c> will</c>
+
+00:02:18.350 --> 00:02:18.360 align:start position:0%
+ingredients 69 just one, and then I will
+ 
+
+00:02:18.360 --> 00:02:20.870 align:start position:0%
+ingredients 69 just one, and then I will
+use<00:02:18.640><c> Omni</c><00:02:19.040><c> flash.</c><00:02:19.680><c> Then</c><00:02:19.880><c> 10</c><00:02:20.160><c> seconds</c><00:02:20.560><c> of</c><00:02:20.680><c> this</c>
+
+00:02:20.870 --> 00:02:20.880 align:start position:0%
+use Omni flash. Then 10 seconds of this
+ 
+
+00:02:20.880 --> 00:02:22.750 align:start position:0%
+use Omni flash. Then 10 seconds of this
+animation<00:02:21.400><c> will</c><00:02:21.560><c> make</c><00:02:21.800><c> it</c><00:02:22.040><c> really,</c><00:02:22.440><c> really</c>
+
+00:02:22.750 --> 00:02:22.760 align:start position:0%
+animation will make it really, really
+ 
+
+00:02:22.760 --> 00:02:25.390 align:start position:0%
+animation will make it really, really
+slow.<00:02:23.280><c> Uh</c><00:02:23.440><c> selecting</c><00:02:23.800><c> maybe</c><00:02:24.040><c> six</c><00:02:24.480><c> or</c><00:02:24.680><c> four</c><00:02:25.160><c> is</c>
+
+00:02:25.390 --> 00:02:25.400 align:start position:0%
+slow. Uh selecting maybe six or four is
+ 
+
+00:02:25.400 --> 00:02:27.430 align:start position:0%
+slow. Uh selecting maybe six or four is
+just<00:02:25.680><c> more</c><00:02:25.880><c> than</c><00:02:26.000><c> enough.</c><00:02:26.440><c> I</c><00:02:26.520><c> will</c><00:02:26.640><c> go</c><00:02:26.800><c> to</c><00:02:26.959><c> six,</c>
+
+00:02:27.430 --> 00:02:27.440 align:start position:0%
+just more than enough. I will go to six,
+ 
+
+00:02:27.440 --> 00:02:29.270 align:start position:0%
+just more than enough. I will go to six,
+and<00:02:27.800><c> then</c><00:02:28.040><c> I'm</c><00:02:28.160><c> going</c><00:02:28.400><c> to</c><00:02:28.520><c> run</c><00:02:28.720><c> it.</c><00:02:29.080><c> Now,</c><00:02:29.160><c> do</c>
+
+00:02:29.270 --> 00:02:29.280 align:start position:0%
+and then I'm going to run it. Now, do
+ 
+
+00:02:29.280 --> 00:02:30.910 align:start position:0%
+and then I'm going to run it. Now, do
+you<00:02:29.400><c> need</c><00:02:29.560><c> to</c><00:02:29.720><c> really</c><00:02:30.040><c> craft</c><00:02:30.400><c> this</c><00:02:30.600><c> prompt</c>
+
+00:02:30.910 --> 00:02:30.920 align:start position:0%
+you need to really craft this prompt
+ 
+
+00:02:30.920 --> 00:02:33.070 align:start position:0%
+you need to really craft this prompt
+yourself?<00:02:31.560><c> Of</c><00:02:31.760><c> course</c><00:02:32.000><c> not.</c><00:02:32.400><c> You</c><00:02:32.480><c> can</c><00:02:32.680><c> ask</c><00:02:32.920><c> the</c>
+
+00:02:33.070 --> 00:02:33.080 align:start position:0%
+yourself? Of course not. You can ask the
+ 
+
+00:02:33.080 --> 00:02:35.830 align:start position:0%
+yourself? Of course not. You can ask the
+AI<00:02:33.360><c> agent</c><00:02:33.800><c> on</c><00:02:34.120><c> Google</c><00:02:34.360><c> flow</c><00:02:34.959><c> to</c><00:02:35.200><c> write</c><00:02:35.440><c> it</c><00:02:35.640><c> for</c>
+
+00:02:35.830 --> 00:02:35.840 align:start position:0%
+AI agent on Google flow to write it for
+ 
+
+00:02:35.840 --> 00:02:37.790 align:start position:0%
+AI agent on Google flow to write it for
+you.<00:02:36.080><c> I'm</c><00:02:36.160><c> going</c><00:02:36.360><c> to</c><00:02:36.480><c> use</c><00:02:36.720><c> Gemini</c><00:02:37.120><c> because</c><00:02:37.520><c> not</c>
+
+00:02:37.790 --> 00:02:37.800 align:start position:0%
+you. I'm going to use Gemini because not
+ 
+
+00:02:37.800 --> 00:02:40.190 align:start position:0%
+you. I'm going to use Gemini because not
+everyone<00:02:38.400><c> has</c><00:02:38.680><c> access</c><00:02:39.040><c> to</c><00:02:39.160><c> the</c><00:02:39.320><c> agent,</c><00:02:39.800><c> and</c>
+
+00:02:40.190 --> 00:02:40.200 align:start position:0%
+everyone has access to the agent, and
+ 
+
+00:02:40.200 --> 00:02:42.030 align:start position:0%
+everyone has access to the agent, and
+everyone<00:02:40.680><c> has</c><00:02:40.959><c> access</c><00:02:41.280><c> to</c><00:02:41.480><c> Gemini.</c><00:02:41.786><c> [music]</c>
+
+00:02:42.030 --> 00:02:42.040 align:start position:0%
+everyone has access to Gemini. [music]
+ 
+
+00:02:42.040 --> 00:02:44.070 align:start position:0%
+everyone has access to Gemini. [music]
+First,<00:02:42.480><c> I'm</c><00:02:42.600><c> going</c><00:02:42.800><c> to</c><00:02:43.120><c> drag</c><00:02:43.480><c> and</c><00:02:43.600><c> drop</c><00:02:43.959><c> the</c>
+
+00:02:44.070 --> 00:02:44.080 align:start position:0%
+First, I'm going to drag and drop the
+ 
+
+00:02:44.080 --> 00:02:45.990 align:start position:0%
+First, I'm going to drag and drop the
+image<00:02:44.360><c> that</c><00:02:44.520><c> we</c><00:02:44.680><c> are</c><00:02:44.800><c> using</c><00:02:45.320><c> as</c><00:02:45.400><c> a</c><00:02:45.440><c> reference,</c>
+
+00:02:45.990 --> 00:02:46.000 align:start position:0%
+image that we are using as a reference,
+ 
+
+00:02:46.000 --> 00:02:47.190 align:start position:0%
+image that we are using as a reference,
+and<00:02:46.080><c> then</c><00:02:46.200><c> on</c><00:02:46.280><c> my</c><00:02:46.360><c> prompt,</c><00:02:46.680><c> I'm</c><00:02:46.800><c> asking</c><00:02:47.080><c> to</c>
+
+00:02:47.190 --> 00:02:47.200 align:start position:0%
+and then on my prompt, I'm asking to
+ 
+
+00:02:47.200 --> 00:02:49.230 align:start position:0%
+and then on my prompt, I'm asking to
+create<00:02:47.440><c> a</c><00:02:47.480><c> text</c><00:02:47.800><c> prompt.</c><00:02:48.200><c> This</c><00:02:48.440><c> is</c><00:02:48.560><c> important</c>
+
+00:02:49.230 --> 00:02:49.240 align:start position:0%
+create a text prompt. This is important
+ 
+
+00:02:49.240 --> 00:02:51.310 align:start position:0%
+create a text prompt. This is important
+for<00:02:49.520><c> Google</c><00:02:49.800><c> flow</c><00:02:50.160><c> Omni</c><00:02:50.520><c> video</c><00:02:50.800><c> generator.</c>
+
+00:02:51.310 --> 00:02:51.320 align:start position:0%
+for Google flow Omni video generator.
+ 
+
+00:02:51.320 --> 00:02:53.070 align:start position:0%
+for Google flow Omni video generator.
+So,<00:02:51.520><c> we</c><00:02:51.640><c> are</c><00:02:51.760><c> providing</c><00:02:52.160><c> that</c><00:02:52.320><c> context.</c><00:02:53.000><c> I</c>
+
+00:02:53.070 --> 00:02:53.080 align:start position:0%
+So, we are providing that context. I
+ 
+
+00:02:53.080 --> 00:02:54.150 align:start position:0%
+So, we are providing that context. I
+want<00:02:53.280><c> to</c><00:02:53.360><c> create</c><00:02:53.576><c> [music]</c><00:02:53.640><c> the</c><00:02:53.760><c> animation</c>
+
+00:02:54.150 --> 00:02:54.160 align:start position:0%
+want to create [music] the animation
+ 
+
+00:02:54.160 --> 00:02:56.790 align:start position:0%
+want to create [music] the animation
+collage.<00:02:54.959><c> Prompt</c><00:02:55.200><c> should</c><00:02:55.840><c> include</c>
+
+00:02:56.790 --> 00:02:56.800 align:start position:0%
+collage. Prompt should include
+ 
+
+00:02:56.800 --> 00:02:59.110 align:start position:0%
+collage. Prompt should include
+to<00:02:57.040><c> transition</c><00:02:57.520><c> in</c><00:02:57.880><c> and</c><00:02:58.000><c> transition</c><00:02:58.560><c> out.</c><00:02:59.000><c> And</c>
+
+00:02:59.110 --> 00:02:59.120 align:start position:0%
+to transition in and transition out. And
+ 
+
+00:02:59.120 --> 00:03:00.949 align:start position:0%
+to transition in and transition out. And
+then<00:02:59.280><c> as</c><00:02:59.440><c> an</c><00:02:59.560><c> additional,</c><00:03:00.160><c> I'm</c><00:03:00.400><c> adding</c><00:03:00.720><c> more</c>
+
+00:03:00.949 --> 00:03:00.959 align:start position:0%
+then as an additional, I'm adding more
+ 
+
+00:03:00.959 --> 00:03:02.790 align:start position:0%
+then as an additional, I'm adding more
+instructions<00:03:01.519><c> for</c><00:03:01.640><c> the</c><00:03:01.760><c> transition</c><00:03:02.320><c> out.</c><00:03:02.680><c> I</c>
+
+00:03:02.790 --> 00:03:02.800 align:start position:0%
+instructions for the transition out. I
+ 
+
+00:03:02.800 --> 00:03:04.630 align:start position:0%
+instructions for the transition out. I
+want<00:03:03.120><c> something</c><00:03:03.519><c> very</c><00:03:03.720><c> specific.</c><00:03:04.400><c> So,</c><00:03:04.519><c> when</c>
+
+00:03:04.630 --> 00:03:04.640 align:start position:0%
+want something very specific. So, when
+ 
+
+00:03:04.640 --> 00:03:06.390 align:start position:0%
+want something very specific. So, when
+we<00:03:04.712><c> [music]</c><00:03:04.800><c> ask</c><00:03:05.080><c> Gemini,</c><00:03:05.400><c> it</c><00:03:05.560><c> will</c><00:03:05.760><c> keep</c><00:03:06.120><c> that</c>
+
+00:03:06.390 --> 00:03:06.400 align:start position:0%
+we [music] ask Gemini, it will keep that
+ 
+
+00:03:06.400 --> 00:03:07.870 align:start position:0%
+we [music] ask Gemini, it will keep that
+instruction<00:03:06.959><c> in</c><00:03:07.160><c> mind.</c><00:03:07.560><c> And</c><00:03:07.640><c> then</c><00:03:07.720><c> at</c><00:03:07.800><c> the</c>
+
+00:03:07.870 --> 00:03:07.880 align:start position:0%
+instruction in mind. And then at the
+ 
+
+00:03:07.880 --> 00:03:10.190 align:start position:0%
+instruction in mind. And then at the
+end,<00:03:08.160><c> provide</c><00:03:08.600><c> a</c><00:03:08.680><c> text</c><00:03:09.040><c> response</c><00:03:09.600><c> only.</c><00:03:10.120><c> And</c>
+
+00:03:10.190 --> 00:03:10.200 align:start position:0%
+end, provide a text response only. And
+ 
+
+00:03:10.200 --> 00:03:11.870 align:start position:0%
+end, provide a text response only. And
+this<00:03:10.320><c> is</c><00:03:10.400><c> important.</c><00:03:11.000><c> Gemini</c><00:03:11.239><c> will</c><00:03:11.480><c> always</c>
+
+00:03:11.870 --> 00:03:11.880 align:start position:0%
+this is important. Gemini will always
+ 
+
+00:03:11.880 --> 00:03:13.750 align:start position:0%
+this is important. Gemini will always
+want<00:03:12.120><c> to</c><00:03:12.239><c> create</c><00:03:12.600><c> an</c><00:03:12.720><c> image.</c><00:03:13.160><c> So,</c><00:03:13.280><c> by</c><00:03:13.400><c> saying</c>
+
+00:03:13.750 --> 00:03:13.760 align:start position:0%
+want to create an image. So, by saying
+ 
+
+00:03:13.760 --> 00:03:15.590 align:start position:0%
+want to create an image. So, by saying
+provide<00:03:14.120><c> a</c><00:03:14.200><c> text</c><00:03:14.440><c> response</c><00:03:14.920><c> only,</c><00:03:15.360><c> it</c><00:03:15.440><c> will</c>
+
+00:03:15.590 --> 00:03:15.600 align:start position:0%
+provide a text response only, it will
+ 
+
+00:03:15.600 --> 00:03:17.110 align:start position:0%
+provide a text response only, it will
+give<00:03:15.800><c> us</c><00:03:15.959><c> just</c><00:03:16.280><c> a</c><00:03:16.320><c> prompt.</c><00:03:16.840><c> I'm</c><00:03:16.920><c> getting</c><00:03:17.080><c> a</c>
+
+00:03:17.110 --> 00:03:17.120 align:start position:0%
+give us just a prompt. I'm getting a
+ 
+
+00:03:17.120 --> 00:03:19.270 align:start position:0%
+give us just a prompt. I'm getting a
+response,<00:03:17.640><c> and</c><00:03:17.760><c> while</c><00:03:18.000><c> this</c><00:03:18.280><c> will</c><00:03:18.560><c> work,</c><00:03:19.200><c> you</c>
+
+00:03:19.270 --> 00:03:19.280 align:start position:0%
+response, and while this will work, you
+ 
+
+00:03:19.280 --> 00:03:20.949 align:start position:0%
+response, and while this will work, you
+know,<00:03:19.560><c> maybe</c><00:03:19.840><c> we</c><00:03:20.000><c> want</c><00:03:20.280><c> a</c><00:03:20.360><c> more</c><00:03:20.560><c> detailed</c>
+
+00:03:20.949 --> 00:03:20.959 align:start position:0%
+know, maybe we want a more detailed
+ 
+
+00:03:20.959 --> 00:03:22.630 align:start position:0%
+know, maybe we want a more detailed
+response.<00:03:21.560><c> So,</c><00:03:21.760><c> if</c><00:03:21.920><c> that's</c><00:03:22.120><c> the</c><00:03:22.200><c> case,</c><00:03:22.519><c> I'm</c>
+
+00:03:22.630 --> 00:03:22.640 align:start position:0%
+response. So, if that's the case, I'm
+ 
+
+00:03:22.640 --> 00:03:24.190 align:start position:0%
+response. So, if that's the case, I'm
+going<00:03:22.760><c> to</c><00:03:22.840><c> go</c><00:03:23.000><c> right</c><00:03:23.239><c> here</c><00:03:23.440><c> to</c><00:03:23.560><c> the</c><00:03:23.640><c> prompt</c><00:03:24.080><c> and</c>
+
+00:03:24.190 --> 00:03:24.200 align:start position:0%
+going to go right here to the prompt and
+ 
+
+00:03:24.200 --> 00:03:26.270 align:start position:0%
+going to go right here to the prompt and
+just<00:03:24.480><c> ask</c><00:03:24.760><c> to</c><00:03:25.040><c> be</c><00:03:25.080><c> more</c><00:03:25.280><c> detailed</c><00:03:26.080><c> and</c>
+
+00:03:26.270 --> 00:03:26.280 align:start position:0%
+just ask to be more detailed and
+ 
+
+00:03:26.280 --> 00:03:28.070 align:start position:0%
+just ask to be more detailed and
+creative.<00:03:26.959><c> So,</c><00:03:27.080><c> usually</c><00:03:27.440><c> when</c><00:03:27.680><c> you</c><00:03:27.800><c> work</c><00:03:28.000><c> on</c>
+
+00:03:28.070 --> 00:03:28.080 align:start position:0%
+creative. So, usually when you work on
+ 
+
+00:03:28.080 --> 00:03:29.990 align:start position:0%
+creative. So, usually when you work on
+Gemini,<00:03:28.400><c> depending</c><00:03:28.800><c> on</c><00:03:28.840><c> the</c><00:03:28.959><c> time</c><00:03:29.519><c> and</c><00:03:29.800><c> the</c>
+
+00:03:29.990 --> 00:03:30.000 align:start position:0%
+Gemini, depending on the time and the
+ 
+
+00:03:30.000 --> 00:03:31.590 align:start position:0%
+Gemini, depending on the time and the
+country<00:03:30.400><c> that</c><00:03:30.560><c> you're</c><00:03:30.680><c> using</c><00:03:30.920><c> it,</c><00:03:31.160><c> sometimes</c>
+
+00:03:31.590 --> 00:03:31.600 align:start position:0%
+country that you're using it, sometimes
+ 
+
+00:03:31.600 --> 00:03:33.270 align:start position:0%
+country that you're using it, sometimes
+it<00:03:31.720><c> will</c><00:03:31.840><c> give</c><00:03:32.000><c> you</c><00:03:32.200><c> an</c><00:03:32.400><c> awesome</c><00:03:32.760><c> response,</c>
+
+00:03:33.270 --> 00:03:33.280 align:start position:0%
+it will give you an awesome response,
+ 
+
+00:03:33.280 --> 00:03:34.910 align:start position:0%
+it will give you an awesome response,
+and<00:03:33.400><c> sometimes</c><00:03:33.800><c> it</c><00:03:33.920><c> will</c><00:03:34.040><c> give</c><00:03:34.280><c> you</c><00:03:34.519><c> a</c><00:03:34.680><c> very</c>
+
+00:03:34.910 --> 00:03:34.920 align:start position:0%
+and sometimes it will give you a very
+ 
+
+00:03:34.920 --> 00:03:37.229 align:start position:0%
+and sometimes it will give you a very
+small,<00:03:35.400><c> short</c><00:03:35.920><c> response.</c><00:03:36.600><c> And</c><00:03:36.720><c> now</c><00:03:36.959><c> we</c><00:03:37.120><c> are</c>
+
+00:03:37.229 --> 00:03:37.239 align:start position:0%
+small, short response. And now we are
+ 
+
+00:03:37.239 --> 00:03:38.949 align:start position:0%
+small, short response. And now we are
+getting<00:03:37.560><c> what</c><00:03:37.760><c> we</c><00:03:37.880><c> wanted.</c><00:03:38.360><c> Notice</c><00:03:38.640><c> it's</c>
+
+00:03:38.949 --> 00:03:38.959 align:start position:0%
+getting what we wanted. Notice it's
+ 
+
+00:03:38.959 --> 00:03:40.470 align:start position:0%
+getting what we wanted. Notice it's
+really<00:03:39.320><c> reading</c><00:03:39.560><c> the</c><00:03:39.640><c> image</c><00:03:39.880><c> and</c><00:03:40.000><c> providing</c><00:03:40.400><c> a</c>
+
+00:03:40.470 --> 00:03:40.480 align:start position:0%
+really reading the image and providing a
+ 
+
+00:03:40.480 --> 00:03:42.030 align:start position:0%
+really reading the image and providing a
+lot<00:03:40.680><c> of</c><00:03:40.800><c> different</c><00:03:41.080><c> instructions</c><00:03:41.680><c> for</c><00:03:41.880><c> the</c>
+
+00:03:42.030 --> 00:03:42.040 align:start position:0%
+lot of different instructions for the
+ 
+
+00:03:42.040 --> 00:03:44.110 align:start position:0%
+lot of different instructions for the
+different<00:03:42.480><c> parts.</c><00:03:42.959><c> So,</c><00:03:43.239><c> there</c><00:03:43.360><c> you</c><00:03:43.400><c> go.</c><00:03:43.720><c> Just</c>
+
+00:03:44.110 --> 00:03:44.120 align:start position:0%
+different parts. So, there you go. Just
+ 
+
+00:03:44.120 --> 00:03:45.910 align:start position:0%
+different parts. So, there you go. Just
+ask<00:03:44.480><c> for</c><00:03:44.680><c> it.</c><00:03:45.000><c> We</c><00:03:45.120><c> get</c><00:03:45.239><c> the</c><00:03:45.320><c> video</c><00:03:45.519><c> back.</c><00:03:45.760><c> I'm</c>
+
+00:03:45.910 --> 00:03:45.920 align:start position:0%
+ask for it. We get the video back. I'm
+ 
+
+00:03:45.920 --> 00:03:47.550 align:start position:0%
+ask for it. We get the video back. I'm
+going<00:03:46.040><c> to</c><00:03:46.120><c> play</c><00:03:46.400><c> the</c><00:03:46.519><c> video,</c><00:03:46.880><c> and</c><00:03:47.000><c> I</c><00:03:47.040><c> will</c><00:03:47.280><c> put</c>
+
+00:03:47.550 --> 00:03:47.560 align:start position:0%
+going to play the video, and I will put
+ 
+
+00:03:47.560 --> 00:03:49.430 align:start position:0%
+going to play the video, and I will put
+the<00:03:47.680><c> image</c><00:03:48.000><c> right</c><00:03:48.200><c> here</c><00:03:48.560><c> on</c><00:03:48.640><c> the</c><00:03:48.680><c> screen</c><00:03:49.200><c> so</c><00:03:49.320><c> we</c>
+
+00:03:49.430 --> 00:03:49.440 align:start position:0%
+the image right here on the screen so we
+ 
+
+00:03:49.440 --> 00:03:57.350 align:start position:0%
+the image right here on the screen so we
+can<00:03:49.640><c> compare</c><00:03:50.320><c> the</c><00:03:50.400><c> differences.</c>
+
+00:03:57.350 --> 00:03:57.360 align:start position:0%
+ 
+ 
+
+00:03:57.360 --> 00:03:59.150 align:start position:0%
+ 
+It<00:03:57.440><c> is</c><00:03:57.600><c> actually</c><00:03:57.920><c> pretty</c><00:03:58.200><c> good.</c><00:03:58.720><c> Now,</c><00:03:58.960><c> you</c>
+
+00:03:59.150 --> 00:03:59.160 align:start position:0%
+It is actually pretty good. Now, you
+ 
+
+00:03:59.160 --> 00:04:01.110 align:start position:0%
+It is actually pretty good. Now, you
+might<00:03:59.400><c> notice</c><00:03:59.800><c> that</c><00:04:00.040><c> not</c><00:04:00.360><c> every</c><00:04:00.680><c> single</c>
+
+00:04:01.110 --> 00:04:01.120 align:start position:0%
+might notice that not every single
+ 
+
+00:04:01.120 --> 00:04:04.350 align:start position:0%
+might notice that not every single
+detail<00:04:01.640><c> is</c><00:04:01.880><c> 100%</c><00:04:02.960><c> faithful</c><00:04:03.720><c> to</c><00:04:03.840><c> the</c><00:04:04.000><c> actual</c>
+
+00:04:04.350 --> 00:04:04.360 align:start position:0%
+detail is 100% faithful to the actual
+ 
+
+00:04:04.360 --> 00:04:06.070 align:start position:0%
+detail is 100% faithful to the actual
+image,<00:04:04.880><c> and</c><00:04:05.000><c> that's</c><00:04:05.160><c> okay.</c><00:04:05.440><c> Remember,</c><00:04:05.840><c> it's</c>
+
+00:04:06.070 --> 00:04:06.080 align:start position:0%
+image, and that's okay. Remember, it's
+ 
+
+00:04:06.080 --> 00:04:08.550 align:start position:0%
+image, and that's okay. Remember, it's
+using<00:04:06.520><c> your</c><00:04:06.720><c> image</c><00:04:07.120><c> as</c><00:04:07.320><c> a</c><00:04:07.400><c> reference.</c><00:04:08.200><c> Uh</c><00:04:08.240><c> but,</c>
+
+00:04:08.550 --> 00:04:08.560 align:start position:0%
+using your image as a reference. Uh but,
+ 
+
+00:04:08.560 --> 00:04:10.790 align:start position:0%
+using your image as a reference. Uh but,
+the<00:04:08.720><c> animation</c><00:04:09.160><c> is</c><00:04:09.400><c> pretty</c><00:04:09.840><c> much</c><00:04:10.160><c> spot-on.</c>
+
+00:04:10.790 --> 00:04:10.800 align:start position:0%
+the animation is pretty much spot-on.
+ 
+
+00:04:10.800 --> 00:04:12.949 align:start position:0%
+the animation is pretty much spot-on.
+Actually,<00:04:11.120><c> if</c><00:04:11.280><c> you</c><00:04:11.560><c> work</c><00:04:11.840><c> with</c><00:04:12.000><c> a</c><00:04:12.480><c> way</c><00:04:12.720><c> more</c>
+
+00:04:12.949 --> 00:04:12.959 align:start position:0%
+Actually, if you work with a way more
+ 
+
+00:04:12.959 --> 00:04:14.870 align:start position:0%
+Actually, if you work with a way more
+complex<00:04:13.560><c> collage,</c><00:04:14.120><c> you</c><00:04:14.200><c> might</c><00:04:14.360><c> need</c><00:04:14.520><c> to</c><00:04:14.680><c> run</c>
+
+00:04:14.870 --> 00:04:14.880 align:start position:0%
+complex collage, you might need to run
+ 
+
+00:04:14.880 --> 00:04:17.190 align:start position:0%
+complex collage, you might need to run
+it<00:04:15.040><c> multiple</c><00:04:15.560><c> times</c><00:04:15.959><c> to</c><00:04:16.160><c> make</c><00:04:16.400><c> it</c><00:04:16.600><c> work</c><00:04:17.120><c> or</c>
+
+00:04:17.190 --> 00:04:17.200 align:start position:0%
+it multiple times to make it work or
+ 
+
+00:04:17.200 --> 00:04:19.630 align:start position:0%
+it multiple times to make it work or
+just<00:04:17.400><c> simplify</c><00:04:18.040><c> your</c><00:04:18.239><c> collage.</c><00:04:18.959><c> Now,</c><00:04:19.359><c> we</c><00:04:19.440><c> just</c>
+
+00:04:19.630 --> 00:04:19.640 align:start position:0%
+just simplify your collage. Now, we just
+ 
+
+00:04:19.640 --> 00:04:21.830 align:start position:0%
+just simplify your collage. Now, we just
+need<00:04:19.840><c> to</c><00:04:20.079><c> repeat</c><00:04:20.560><c> the</c><00:04:20.640><c> same</c><00:04:20.880><c> process.</c><00:04:21.560><c> We</c><00:04:21.680><c> have</c>
+
+00:04:21.830 --> 00:04:21.840 align:start position:0%
+need to repeat the same process. We have
+ 
+
+00:04:21.840 --> 00:04:23.310 align:start position:0%
+need to repeat the same process. We have
+this<00:04:22.280><c> the</c><00:04:22.360><c> second</c><00:04:22.640><c> transition</c><00:04:23.120><c> with</c><00:04:23.240><c> the</c>
+
+00:04:23.310 --> 00:04:23.320 align:start position:0%
+this the second transition with the
+ 
+
+00:04:23.320 --> 00:04:25.470 align:start position:0%
+this the second transition with the
+woman<00:04:23.600><c> and</c><00:04:23.680><c> the</c><00:04:23.760><c> cat,</c><00:04:24.160><c> and</c><00:04:24.280><c> then</c><00:04:24.480><c> the</c><00:04:24.720><c> last</c>
+
+00:04:25.470 --> 00:04:25.480 align:start position:0%
+woman and the cat, and then the last
+ 
+
+00:04:25.480 --> 00:04:27.150 align:start position:0%
+woman and the cat, and then the last
+transition.<00:04:26.160><c> I'm</c><00:04:26.240><c> going</c><00:04:26.400><c> to</c><00:04:26.480><c> take</c><00:04:26.640><c> this</c><00:04:26.840><c> one</c>
+
+00:04:27.150 --> 00:04:27.160 align:start position:0%
+transition. I'm going to take this one
+ 
+
+00:04:27.160 --> 00:04:29.030 align:start position:0%
+transition. I'm going to take this one
+and<00:04:27.320><c> just</c><00:04:27.520><c> drag</c><00:04:27.919><c> and</c><00:04:28.040><c> drop.</c><00:04:28.520><c> We</c><00:04:28.680><c> start</c><00:04:28.960><c> with</c>
+
+00:04:29.030 --> 00:04:29.040 align:start position:0%
+and just drag and drop. We start with
+ 
+
+00:04:29.040 --> 00:04:30.750 align:start position:0%
+and just drag and drop. We start with
+the<00:04:29.120><c> style</c><00:04:29.480><c> or</c><00:04:29.640><c> what</c><00:04:29.960><c> we</c><00:04:30.040><c> want</c><00:04:30.240><c> to</c><00:04:30.320><c> do,</c><00:04:30.640><c> and</c>
+
+00:04:30.750 --> 00:04:30.760 align:start position:0%
+the style or what we want to do, and
+ 
+
+00:04:30.760 --> 00:04:31.750 align:start position:0%
+the style or what we want to do, and
+then<00:04:30.880><c> the</c><00:04:30.960><c> instructions</c><00:04:31.520><c> for</c><00:04:31.640><c> the</c>
+
+00:04:31.750 --> 00:04:31.760 align:start position:0%
+then the instructions for the
+ 
+
+00:04:31.760 --> 00:04:33.909 align:start position:0%
+then the instructions for the
+transitioning<00:04:32.360><c> in</c><00:04:32.720><c> and</c><00:04:33.120><c> the</c><00:04:33.139><c> [music]</c><00:04:33.400><c> out.</c>
+
+00:04:33.909 --> 00:04:33.919 align:start position:0%
+transitioning in and the [music] out.
+ 
+
+00:04:33.919 --> 00:04:35.670 align:start position:0%
+transitioning in and the [music] out.
+Remember<00:04:34.200><c> to</c><00:04:34.360><c> go</c><00:04:34.560><c> to</c><00:04:34.680><c> the</c><00:04:34.760><c> comments</c><00:04:35.120><c> to</c><00:04:35.240><c> get</c>
+
+00:04:35.670 --> 00:04:35.680 align:start position:0%
+Remember to go to the comments to get
+ 
+
+00:04:35.680 --> 00:04:37.630 align:start position:0%
+Remember to go to the comments to get
+these<00:04:35.919><c> prompts.</c><00:04:36.440><c> I'm</c><00:04:36.560><c> going</c><00:04:36.720><c> to</c><00:04:36.919><c> run</c><00:04:37.120><c> it,</c><00:04:37.440><c> and</c>
+
+00:04:37.630 --> 00:04:37.640 align:start position:0%
+these prompts. I'm going to run it, and
+ 
+
+00:04:37.640 --> 00:04:38.950 align:start position:0%
+these prompts. I'm going to run it, and
+while<00:04:37.880><c> this</c><00:04:38.040><c> one</c><00:04:38.160><c> is</c><00:04:38.280><c> going,</c><00:04:38.720><c> I'm</c><00:04:38.760><c> going</c><00:04:38.880><c> to</c>
+
+00:04:38.950 --> 00:04:38.960 align:start position:0%
+while this one is going, I'm going to
+ 
+
+00:04:38.960 --> 00:04:40.750 align:start position:0%
+while this one is going, I'm going to
+kaboom<00:04:39.480><c> delete</c><00:04:39.720><c> this</c><00:04:39.919><c> one,</c><00:04:40.280><c> going</c><00:04:40.400><c> to</c><00:04:40.440><c> drag</c>
+
+00:04:40.750 --> 00:04:40.760 align:start position:0%
+kaboom delete this one, going to drag
+ 
+
+00:04:40.760 --> 00:04:42.830 align:start position:0%
+kaboom delete this one, going to drag
+and<00:04:40.840><c> drop</c><00:04:41.160><c> the</c><00:04:41.400><c> last</c><00:04:41.760><c> one</c><00:04:42.080><c> as</c><00:04:42.200><c> a</c><00:04:42.240><c> reference,</c>
+
+00:04:42.830 --> 00:04:42.840 align:start position:0%
+and drop the last one as a reference,
+ 
+
+00:04:42.840 --> 00:04:44.430 align:start position:0%
+and drop the last one as a reference,
+and<00:04:43.120><c> I'm</c><00:04:43.200><c> going</c><00:04:43.400><c> to</c><00:04:43.520><c> use</c><00:04:43.680><c> this</c><00:04:43.840><c> prompt.</c><00:04:44.200><c> We</c>
+
+00:04:44.430 --> 00:04:44.440 align:start position:0%
+and I'm going to use this prompt. We
+ 
+
+00:04:44.440 --> 00:04:45.670 align:start position:0%
+and I'm going to use this prompt. We
+start<00:04:44.760><c> with</c><00:04:44.880><c> the</c><00:04:44.928><c> [music]</c><00:04:44.960><c> style,</c><00:04:45.440><c> and</c><00:04:45.520><c> then</c>
+
+00:04:45.670 --> 00:04:45.680 align:start position:0%
+start with the [music] style, and then
+ 
+
+00:04:45.680 --> 00:04:48.110 align:start position:0%
+start with the [music] style, and then
+the<00:04:45.840><c> instructions</c><00:04:46.400><c> for</c><00:04:46.640><c> in</c><00:04:47.000><c> and</c><00:04:47.360><c> out.</c><00:04:47.880><c> Fingers</c>
+
+00:04:48.110 --> 00:04:48.120 align:start position:0%
+the instructions for in and out. Fingers
+ 
+
+00:04:48.120 --> 00:04:49.550 align:start position:0%
+the instructions for in and out. Fingers
+crossed,<00:04:48.680><c> and</c><00:04:48.760><c> I'm</c><00:04:48.800><c> going</c><00:04:48.919><c> to</c><00:04:48.960><c> run</c><00:04:49.080><c> it.</c><00:04:49.360><c> We</c><00:04:49.440><c> get</c>
+
+00:04:49.550 --> 00:04:49.560 align:start position:0%
+crossed, and I'm going to run it. We get
+ 
+
+00:04:49.560 --> 00:04:51.190 align:start position:0%
+crossed, and I'm going to run it. We get
+them.<00:04:49.800><c> Let's</c><00:04:49.960><c> take</c><00:04:50.120><c> a</c><00:04:50.160><c> look</c><00:04:50.320><c> at</c><00:04:50.400><c> the</c><00:04:50.760><c> uh</c><00:04:50.880><c> second</c>
+
+00:04:51.190 --> 00:04:51.200 align:start position:0%
+them. Let's take a look at the uh second
+ 
+
+00:04:51.200 --> 00:04:52.150 align:start position:0%
+them. Let's take a look at the uh second
+one.
+
+00:04:52.150 --> 00:04:52.160 align:start position:0%
+one.
+ 
+
+00:04:52.160 --> 00:04:53.030 align:start position:0%
+one.
+We<00:04:52.200><c> get</c><00:04:52.280><c> the</c><00:04:52.360><c> woman</c><00:04:52.640><c> and</c><00:04:52.720><c> the</c><00:04:52.788><c> [music]</c><00:04:52.800><c> cat.</c>
+
+00:04:53.030 --> 00:04:53.040 align:start position:0%
+We get the woman and the [music] cat.
+ 
+
+00:04:53.040 --> 00:04:54.470 align:start position:0%
+We get the woman and the [music] cat.
+Notice<00:04:53.240><c> the</c><00:04:53.320><c> difference</c><00:04:53.640><c> between</c><00:04:54.360><c> the</c>
+
+00:04:54.470 --> 00:04:54.480 align:start position:0%
+Notice the difference between the
+ 
+
+00:04:54.480 --> 00:04:55.790 align:start position:0%
+Notice the difference between the
+reference.
+
+00:04:55.790 --> 00:04:55.800 align:start position:0%
+reference.
+ 
+
+00:04:55.800 --> 00:04:57.470 align:start position:0%
+reference.
+So,<00:04:55.919><c> this</c><00:04:56.040><c> is</c><00:04:56.120><c> the</c><00:04:56.240><c> case</c><00:04:56.600><c> where</c><00:04:56.840><c> I</c><00:04:56.919><c> need</c><00:04:57.120><c> to</c><00:04:57.280><c> run</c>
+
+00:04:57.470 --> 00:04:57.480 align:start position:0%
+So, this is the case where I need to run
+ 
+
+00:04:57.480 --> 00:04:59.670 align:start position:0%
+So, this is the case where I need to run
+it<00:04:57.560><c> again</c><00:04:58.200><c> to</c><00:04:58.400><c> get</c><00:04:58.640><c> something</c><00:04:59.160><c> a</c><00:04:59.280><c> little</c><00:04:59.480><c> bit</c>
+
+00:04:59.670 --> 00:04:59.680 align:start position:0%
+it again to get something a little bit
+ 
+
+00:04:59.680 --> 00:05:01.470 align:start position:0%
+it again to get something a little bit
+closer<00:05:00.360><c> to</c><00:05:00.480><c> the</c><00:05:00.560><c> reference.</c><00:05:01.200><c> Let's</c><00:05:01.320><c> take</c><00:05:01.440><c> a</c>
+
+00:05:01.470 --> 00:05:01.480 align:start position:0%
+closer to the reference. Let's take a
+ 
+
+00:05:01.480 --> 00:05:02.430 align:start position:0%
+closer to the reference. Let's take a
+look<00:05:01.560><c> at</c><00:05:01.640><c> the</c><00:05:01.680><c> other</c><00:05:01.800><c> one.</c><00:05:02.080><c> Going</c><00:05:02.200><c> to</c><00:05:02.240><c> play</c><00:05:02.360><c> it</c>
+
+00:05:02.430 --> 00:05:02.440 align:start position:0%
+look at the other one. Going to play it
+ 
+
+00:05:02.440 --> 00:05:04.230 align:start position:0%
+look at the other one. Going to play it
+back.
+
+00:05:04.230 --> 00:05:04.240 align:start position:0%
+back.
+ 
+
+00:05:04.240 --> 00:05:05.590 align:start position:0%
+back.
+Great.
+
+00:05:05.590 --> 00:05:05.600 align:start position:0%
+Great.
+ 
+
+00:05:05.600 --> 00:05:07.430 align:start position:0%
+Great.
+And<00:05:05.680><c> the</c><00:05:05.760><c> rock</c><00:05:05.960><c> show.</c><00:05:06.480><c> Again,</c><00:05:06.960><c> we</c><00:05:07.080><c> have</c><00:05:07.200><c> those</c>
+
+00:05:07.430 --> 00:05:07.440 align:start position:0%
+And the rock show. Again, we have those
+ 
+
+00:05:07.440 --> 00:05:09.190 align:start position:0%
+And the rock show. Again, we have those
+tiny<00:05:07.680><c> differences,</c><00:05:08.360><c> but</c><00:05:08.480><c> this</c><00:05:08.640><c> is</c><00:05:08.760><c> normal.</c>
+
+00:05:09.190 --> 00:05:09.200 align:start position:0%
+tiny differences, but this is normal.
+ 
+
+00:05:09.200 --> 00:05:10.630 align:start position:0%
+tiny differences, but this is normal.
+Okay,<00:05:09.400><c> that's</c><00:05:09.640><c> the</c><00:05:09.760><c> video</c><00:05:10.320><c> side</c><00:05:10.473><c> [music]</c><00:05:10.560><c> of</c>
+
+00:05:10.630 --> 00:05:10.640 align:start position:0%
+Okay, that's the video side [music] of
+ 
+
+00:05:10.640 --> 00:05:12.590 align:start position:0%
+Okay, that's the video side [music] of
+things.<00:05:11.360><c> What</c><00:05:11.520><c> about</c><00:05:11.800><c> the</c><00:05:11.919><c> images?</c><00:05:12.400><c> None</c><00:05:12.520><c> of</c>
+
+00:05:12.590 --> 00:05:12.600 align:start position:0%
+things. What about the images? None of
+ 
+
+00:05:12.600 --> 00:05:14.430 align:start position:0%
+things. What about the images? None of
+this<00:05:12.800><c> works</c><00:05:13.160><c> if</c><00:05:13.320><c> you</c><00:05:13.400><c> don't</c><00:05:13.760><c> provide</c><00:05:14.080><c> a</c><00:05:14.120><c> good</c>
+
+00:05:14.430 --> 00:05:14.440 align:start position:0%
+this works if you don't provide a good
+ 
+
+00:05:14.440 --> 00:05:16.030 align:start position:0%
+this works if you don't provide a good
+reference.<00:05:15.040><c> We</c><00:05:15.120><c> can</c><00:05:15.240><c> do</c><00:05:15.400><c> all</c><00:05:15.520><c> of</c><00:05:15.640><c> this</c><00:05:15.800><c> here,</c>
+
+00:05:16.030 --> 00:05:16.040 align:start position:0%
+reference. We can do all of this here,
+ 
+
+00:05:16.040 --> 00:05:18.070 align:start position:0%
+reference. We can do all of this here,
+but<00:05:16.280><c> of</c><00:05:16.480><c> course,</c><00:05:16.840><c> it</c><00:05:17.000><c> doesn't</c><00:05:17.360><c> replace</c><00:05:17.960><c> the</c>
+
+00:05:18.070 --> 00:05:18.080 align:start position:0%
+but of course, it doesn't replace the
+ 
+
+00:05:18.080 --> 00:05:20.350 align:start position:0%
+but of course, it doesn't replace the
+level<00:05:18.440><c> of</c><00:05:18.560><c> detail</c><00:05:19.160><c> if</c><00:05:19.320><c> you</c><00:05:19.520><c> are</c><00:05:19.720><c> a</c><00:05:19.760><c> designer</c>
+
+00:05:20.350 --> 00:05:20.360 align:start position:0%
+level of detail if you are a designer
+ 
+
+00:05:20.360 --> 00:05:22.110 align:start position:0%
+level of detail if you are a designer
+and<00:05:20.480><c> you</c><00:05:20.560><c> do</c><00:05:20.720><c> it</c><00:05:20.840><c> on</c><00:05:21.040><c> Canva,</c><00:05:21.440><c> Figma,</c><00:05:21.880><c> or</c>
+
+00:05:22.110 --> 00:05:22.120 align:start position:0%
+and you do it on Canva, Figma, or
+ 
+
+00:05:22.120 --> 00:05:23.710 align:start position:0%
+and you do it on Canva, Figma, or
+whatever.<00:05:22.263><c> [music]</c><00:05:22.720><c> For</c><00:05:22.840><c> my</c><00:05:22.960><c> collage,</c><00:05:23.440><c> I</c><00:05:23.480><c> have</c>
+
+00:05:23.710 --> 00:05:23.720 align:start position:0%
+whatever. [music] For my collage, I have
+ 
+
+00:05:23.720 --> 00:05:25.350 align:start position:0%
+whatever. [music] For my collage, I have
+three<00:05:24.000><c> different</c><00:05:24.360><c> subjects.</c><00:05:24.919><c> The</c><00:05:25.000><c> man,</c><00:05:25.240><c> which</c>
+
+00:05:25.350 --> 00:05:25.360 align:start position:0%
+three different subjects. The man, which
+ 
+
+00:05:25.360 --> 00:05:26.510 align:start position:0%
+three different subjects. The man, which
+is<00:05:25.440><c> the</c><00:05:25.520><c> host,</c><00:05:26.000><c> and</c><00:05:26.080><c> then</c><00:05:26.200><c> we</c><00:05:26.280><c> have</c><00:05:26.400><c> the</c>
+
+00:05:26.510 --> 00:05:26.520 align:start position:0%
+is the host, and then we have the
+ 
+
+00:05:26.520 --> 00:05:27.493 align:start position:0%
+is the host, and then we have the
+co-hosts,
+
+00:05:27.493 --> 00:05:27.503 align:start position:0%
+co-hosts,
+ 
+
+00:05:27.503 --> 00:05:27.550 align:start position:0%
+co-hosts,
+&gt;&gt; [music]
+
+00:05:27.550 --> 00:05:27.560 align:start position:0%
+&gt;&gt; [music]
+ 
+
+00:05:27.560 --> 00:05:29.390 align:start position:0%
+&gt;&gt; [music]
+&gt;&gt; which<00:05:27.760><c> are</c><00:05:27.919><c> the</c><00:05:28.280><c> cat</c><00:05:28.640><c> and</c><00:05:28.760><c> the</c><00:05:28.840><c> woman.</c><00:05:29.280><c> I'm</c>
+
+00:05:29.390 --> 00:05:29.400 align:start position:0%
+&gt;&gt; which are the cat and the woman. I'm
+ 
+
+00:05:29.400 --> 00:05:30.990 align:start position:0%
+&gt;&gt; which are the cat and the woman. I'm
+going<00:05:29.560><c> to</c><00:05:29.760><c> go</c><00:05:29.919><c> at</c><00:05:30.000><c> the</c><00:05:30.080><c> bottom,</c><00:05:30.440><c> use</c><00:05:30.640><c> image,</c>
+
+00:05:30.990 --> 00:05:31.000 align:start position:0%
+going to go at the bottom, use image,
+ 
+
+00:05:31.000 --> 00:05:32.950 align:start position:0%
+going to go at the bottom, use image,
+and<00:05:31.200><c> use</c><00:05:31.480><c> Nano</c><00:05:31.720><c> Banana</c><00:05:32.000><c> Pro.</c><00:05:32.400><c> The</c><00:05:32.480><c> first</c><00:05:32.800><c> thing</c>
+
+00:05:32.950 --> 00:05:32.960 align:start position:0%
+and use Nano Banana Pro. The first thing
+ 
+
+00:05:32.960 --> 00:05:34.043 align:start position:0%
+and use Nano Banana Pro. The first thing
+that<00:05:33.080><c> you</c><00:05:33.160><c> need</c><00:05:33.320><c> to</c><00:05:33.400><c> define</c>
+
+00:05:34.043 --> 00:05:34.053 align:start position:0%
+that you need to define
+ 
+
+00:05:34.053 --> 00:05:34.110 align:start position:0%
+that you need to define
+&gt;&gt; [music]
+
+00:05:34.110 --> 00:05:34.120 align:start position:0%
+&gt;&gt; [music]
+ 
+
+00:05:34.120 --> 00:05:36.470 align:start position:0%
+&gt;&gt; [music]
+&gt;&gt; is<00:05:34.320><c> the</c><00:05:34.440><c> style.</c><00:05:35.080><c> This</c><00:05:35.280><c> is</c><00:05:35.400><c> my</c><00:05:35.560><c> style,</c><00:05:36.120><c> magazine</c>
+
+00:05:36.470 --> 00:05:36.480 align:start position:0%
+&gt;&gt; is the style. This is my style, magazine
+ 
+
+00:05:36.480 --> 00:05:39.190 align:start position:0%
+&gt;&gt; is the style. This is my style, magazine
+cut<00:05:36.880><c> and</c><00:05:37.080><c> paste</c><00:05:37.520><c> collage,</c><00:05:38.040><c> tape,</c><00:05:38.400><c> marker,</c><00:05:38.840><c> and</c>
+
+00:05:39.190 --> 00:05:39.200 align:start position:0%
+cut and paste collage, tape, marker, and
+ 
+
+00:05:39.200 --> 00:05:40.909 align:start position:0%
+cut and paste collage, tape, marker, and
+then<00:05:39.320><c> we</c><00:05:39.440><c> just</c><00:05:39.640><c> define</c><00:05:40.360><c> all</c><00:05:40.520><c> the</c><00:05:40.600><c> different</c>
+
+00:05:40.909 --> 00:05:40.919 align:start position:0%
+then we just define all the different
+ 
+
+00:05:40.919 --> 00:05:42.830 align:start position:0%
+then we just define all the different
+elements<00:05:41.240><c> that</c><00:05:41.440><c> we</c><00:05:41.680><c> want</c><00:05:41.840><c> to</c><00:05:41.960><c> use.</c><00:05:42.440><c> And</c><00:05:42.560><c> then,</c>
+
+00:05:42.830 --> 00:05:42.840 align:start position:0%
+elements that we want to use. And then,
+ 
+
+00:05:42.840 --> 00:05:44.670 align:start position:0%
+elements that we want to use. And then,
+after<00:05:43.160><c> that,</c><00:05:43.520><c> we</c><00:05:43.680><c> add</c><00:05:43.840><c> the</c><00:05:43.960><c> references</c><00:05:44.520><c> and</c>
+
+00:05:44.670 --> 00:05:44.680 align:start position:0%
+after that, we add the references and
+ 
+
+00:05:44.680 --> 00:05:46.790 align:start position:0%
+after that, we add the references and
+the<00:05:44.840><c> instructions</c><00:05:45.560><c> of</c><00:05:45.720><c> that</c><00:05:45.960><c> very</c><00:05:46.200><c> specific</c>
+
+00:05:46.790 --> 00:05:46.800 align:start position:0%
+the instructions of that very specific
+ 
+
+00:05:46.800 --> 00:05:48.870 align:start position:0%
+the instructions of that very specific
+image.<00:05:47.240><c> Now,</c><00:05:47.440><c> we</c><00:05:47.640><c> could</c><00:05:47.840><c> craft</c><00:05:48.440><c> the</c><00:05:48.560><c> whole</c>
+
+00:05:48.870 --> 00:05:48.880 align:start position:0%
+image. Now, we could craft the whole
+ 
+
+00:05:48.880 --> 00:05:51.030 align:start position:0%
+image. Now, we could craft the whole
+thing<00:05:49.240><c> right</c><00:05:49.480><c> here</c><00:05:49.880><c> on</c><00:05:50.000><c> the</c><00:05:50.120><c> prompt</c><00:05:50.480><c> by</c><00:05:50.600><c> using</c>
+
+00:05:51.030 --> 00:05:51.040 align:start position:0%
+thing right here on the prompt by using
+ 
+
+00:05:51.040 --> 00:05:53.310 align:start position:0%
+thing right here on the prompt by using
+the<00:05:51.200><c> style,</c><00:05:51.800><c> but</c><00:05:51.960><c> we</c><00:05:52.080><c> can</c><00:05:52.320><c> use</c><00:05:52.520><c> the</c><00:05:52.720><c> agent.</c><00:05:53.280><c> I'm</c>
+
+00:05:53.310 --> 00:05:53.320 align:start position:0%
+the style, but we can use the agent. I'm
+ 
+
+00:05:53.320 --> 00:05:54.910 align:start position:0%
+the style, but we can use the agent. I'm
+going<00:05:53.440><c> to</c><00:05:53.520><c> copy</c><00:05:54.040><c> the</c><00:05:54.160><c> style,</c><00:05:54.680><c> and</c><00:05:54.760><c> I'm</c><00:05:54.800><c> going</c>
+
+00:05:54.910 --> 00:05:54.920 align:start position:0%
+going to copy the style, and I'm going
+ 
+
+00:05:54.920 --> 00:05:57.670 align:start position:0%
+going to copy the style, and I'm going
+to<00:05:55.000><c> go</c><00:05:55.440><c> to</c><00:05:55.640><c> the</c><00:05:55.840><c> actual</c><00:05:56.560><c> agent.</c><00:05:57.240><c> Then,</c><00:05:57.600><c> I'm</c>
+
+00:05:57.670 --> 00:05:57.680 align:start position:0%
+to go to the actual agent. Then, I'm
+ 
+
+00:05:57.680 --> 00:05:59.790 align:start position:0%
+to go to the actual agent. Then, I'm
+going<00:05:57.880><c> to</c><00:05:58.080><c> take</c><00:05:58.600><c> the</c><00:05:58.920><c> image</c><00:05:59.160><c> demand</c><00:05:59.600><c> as</c><00:05:59.720><c> an</c>
+
+00:05:59.790 --> 00:05:59.800 align:start position:0%
+going to take the image demand as an
+ 
+
+00:05:59.800 --> 00:06:01.510 align:start position:0%
+going to take the image demand as an
+ingredient<00:06:00.480><c> and</c><00:06:00.600><c> drag</c><00:06:00.840><c> and</c><00:06:00.909><c> [music]</c><00:06:00.920><c> drop.</c>
+
+00:06:01.510 --> 00:06:01.520 align:start position:0%
+ingredient and drag and [music] drop.
+ 
+
+00:06:01.520 --> 00:06:03.070 align:start position:0%
+ingredient and drag and [music] drop.
+Then,<00:06:01.680><c> I</c><00:06:01.760><c> will</c><00:06:01.960><c> ask</c><00:06:02.280><c> the</c><00:06:02.440><c> agent</c><00:06:02.720><c> to</c><00:06:02.800><c> create</c><00:06:03.040><c> a</c>
+
+00:06:03.070 --> 00:06:03.080 align:start position:0%
+Then, I will ask the agent to create a
+ 
+
+00:06:03.080 --> 00:06:05.030 align:start position:0%
+Then, I will ask the agent to create a
+text<00:06:03.360><c> prompt</c><00:06:03.680><c> to</c><00:06:03.800><c> use</c><00:06:04.200><c> on</c><00:06:04.320><c> an</c><00:06:04.400><c> image</c><00:06:04.640><c> generator</c>
+
+00:06:05.030 --> 00:06:05.040 align:start position:0%
+text prompt to use on an image generator
+ 
+
+00:06:05.040 --> 00:06:06.550 align:start position:0%
+text prompt to use on an image generator
+like<00:06:05.280><c> Nano</c><00:06:05.440><c> Banana.</c><00:06:05.960><c> Why</c><00:06:06.120><c> am</c><00:06:06.240><c> I</c><00:06:06.320><c> doing</c>
+
+00:06:06.550 --> 00:06:06.560 align:start position:0%
+like Nano Banana. Why am I doing
+ 
+
+00:06:06.560 --> 00:06:07.830 align:start position:0%
+like Nano Banana. Why am I doing
+something<00:06:06.760><c> like</c><00:06:06.880><c> this?</c><00:06:07.120><c> Well,</c><00:06:07.320><c> maybe</c><00:06:07.560><c> because</c>
+
+00:06:07.830 --> 00:06:07.840 align:start position:0%
+something like this? Well, maybe because
+ 
+
+00:06:07.840 --> 00:06:09.550 align:start position:0%
+something like this? Well, maybe because
+you<00:06:07.960><c> don't</c><00:06:08.200><c> have</c><00:06:08.440><c> access</c><00:06:08.720><c> to</c><00:06:08.800><c> the</c><00:06:08.920><c> agent.</c><00:06:09.400><c> If</c>
+
+00:06:09.550 --> 00:06:09.560 align:start position:0%
+you don't have access to the agent. If
+ 
+
+00:06:09.560 --> 00:06:11.950 align:start position:0%
+you don't have access to the agent. If
+you<00:06:09.720><c> copy</c><00:06:10.120><c> this</c><00:06:10.520><c> and</c><00:06:10.640><c> you</c><00:06:10.760><c> put</c><00:06:10.960><c> it</c><00:06:11.080><c> on</c><00:06:11.240><c> Gemini,</c>
+
+00:06:11.950 --> 00:06:11.960 align:start position:0%
+you copy this and you put it on Gemini,
+ 
+
+00:06:11.960 --> 00:06:13.990 align:start position:0%
+you copy this and you put it on Gemini,
+this<00:06:12.240><c> will</c><00:06:12.480><c> work</c><00:06:12.760><c> on</c><00:06:12.880><c> Gemini.</c><00:06:13.440><c> Then,</c><00:06:13.680><c> I</c><00:06:13.760><c> let</c>
+
+00:06:13.990 --> 00:06:14.000 align:start position:0%
+this will work on Gemini. Then, I let
+ 
+
+00:06:14.000 --> 00:06:15.830 align:start position:0%
+this will work on Gemini. Then, I let
+the<00:06:14.120><c> agent</c><00:06:14.400><c> know</c><00:06:14.640><c> what</c><00:06:14.840><c> the</c><00:06:15.040><c> style</c><00:06:15.320><c> is,</c><00:06:15.720><c> and</c>
+
+00:06:15.830 --> 00:06:15.840 align:start position:0%
+the agent know what the style is, and
+ 
+
+00:06:15.840 --> 00:06:17.670 align:start position:0%
+the agent know what the style is, and
+then<00:06:15.960><c> we</c><00:06:16.080><c> provide</c><00:06:16.440><c> more</c><00:06:16.640><c> instructions,</c><00:06:17.520><c> like</c>
+
+00:06:17.670 --> 00:06:17.680 align:start position:0%
+then we provide more instructions, like
+ 
+
+00:06:17.680 --> 00:06:19.710 align:start position:0%
+then we provide more instructions, like
+the<00:06:17.760><c> title</c><00:06:18.120><c> of</c><00:06:18.240><c> the</c><00:06:18.320><c> show</c><00:06:18.960><c> and</c><00:06:19.200><c> what</c><00:06:19.360><c> we</c><00:06:19.480><c> have</c>
+
+00:06:19.710 --> 00:06:19.720 align:start position:0%
+the title of the show and what we have
+ 
+
+00:06:19.720 --> 00:06:21.350 align:start position:0%
+the title of the show and what we have
+on<00:06:19.880><c> that</c><00:06:20.160><c> element.</c><00:06:20.480><c> Now,</c><00:06:20.720><c> I'm</c><00:06:20.880><c> just</c><00:06:21.080><c> saying</c>
+
+00:06:21.350 --> 00:06:21.360 align:start position:0%
+on that element. Now, I'm just saying
+ 
+
+00:06:21.360 --> 00:06:23.110 align:start position:0%
+on that element. Now, I'm just saying
+that<00:06:21.880><c> the</c><00:06:22.120><c> image</c><00:06:22.400><c> should</c><00:06:22.640><c> include</c>
+
+00:06:23.110 --> 00:06:23.120 align:start position:0%
+that the image should include
+ 
+
+00:06:23.120 --> 00:06:25.190 align:start position:0%
+that the image should include
+instruments.<00:06:23.720><c> So,</c><00:06:23.919><c> Nano</c><00:06:24.160><c> Banana</c><00:06:24.480><c> has</c><00:06:24.760><c> a</c><00:06:24.880><c> lot</c>
+
+00:06:25.190 --> 00:06:25.200 align:start position:0%
+instruments. So, Nano Banana has a lot
+ 
+
+00:06:25.200 --> 00:06:27.670 align:start position:0%
+instruments. So, Nano Banana has a lot
+of<00:06:25.400><c> liberty</c><00:06:26.080><c> to</c><00:06:26.280><c> create</c><00:06:26.960><c> an</c><00:06:27.080><c> image.</c><00:06:27.480><c> If</c><00:06:27.600><c> you</c>
+
+00:06:27.670 --> 00:06:27.680 align:start position:0%
+of liberty to create an image. If you
+ 
+
+00:06:27.680 --> 00:06:29.830 align:start position:0%
+of liberty to create an image. If you
+want<00:06:27.919><c> very</c><00:06:28.160><c> specific</c><00:06:28.760><c> elements</c><00:06:29.120><c> on</c><00:06:29.320><c> specific</c>
+
+00:06:29.830 --> 00:06:29.840 align:start position:0%
+want very specific elements on specific
+ 
+
+00:06:29.840 --> 00:06:31.909 align:start position:0%
+want very specific elements on specific
+parts<00:06:30.240><c> of</c><00:06:30.400><c> the</c><00:06:30.560><c> composition,</c><00:06:31.360><c> you</c><00:06:31.520><c> need</c><00:06:31.760><c> to</c>
+
+00:06:31.909 --> 00:06:31.919 align:start position:0%
+parts of the composition, you need to
+ 
+
+00:06:31.919 --> 00:06:33.750 align:start position:0%
+parts of the composition, you need to
+prompt<00:06:32.280><c> for</c><00:06:32.440><c> it</c><00:06:32.760><c> and</c><00:06:32.880><c> then</c><00:06:33.040><c> provide</c><00:06:33.400><c> a</c><00:06:33.440><c> text</c>
+
+00:06:33.750 --> 00:06:33.760 align:start position:0%
+prompt for it and then provide a text
+ 
+
+00:06:33.760 --> 00:06:35.510 align:start position:0%
+prompt for it and then provide a text
+response<00:06:34.280><c> only.</c><00:06:34.640><c> And</c><00:06:34.760><c> this</c><00:06:34.919><c> again</c><00:06:35.360><c> for</c>
+
+00:06:35.510 --> 00:06:35.520 align:start position:0%
+response only. And this again for
+ 
+
+00:06:35.520 --> 00:06:37.310 align:start position:0%
+response only. And this again for
+Gemini.<00:06:36.120><c> When</c><00:06:36.240><c> we</c><00:06:36.400><c> get</c><00:06:36.640><c> a</c><00:06:36.680><c> response,</c><00:06:37.160><c> the</c>
+
+00:06:37.310 --> 00:06:37.320 align:start position:0%
+Gemini. When we get a response, the
+ 
+
+00:06:37.320 --> 00:06:39.790 align:start position:0%
+Gemini. When we get a response, the
+agent<00:06:37.640><c> is</c><00:06:37.760><c> proposing</c><00:06:38.640><c> three</c><00:06:39.240><c> different</c>
+
+00:06:39.790 --> 00:06:39.800 align:start position:0%
+agent is proposing three different
+ 
+
+00:06:39.800 --> 00:06:42.150 align:start position:0%
+agent is proposing three different
+designs.<00:06:40.640><c> How</c><00:06:40.760><c> great</c><00:06:41.040><c> is</c><00:06:41.160><c> that?</c><00:06:41.600><c> And</c><00:06:41.960><c> right</c>
+
+00:06:42.150 --> 00:06:42.160 align:start position:0%
+designs. How great is that? And right
+ 
+
+00:06:42.160 --> 00:06:43.590 align:start position:0%
+designs. How great is that? And right
+here,<00:06:42.360><c> you</c><00:06:42.440><c> just</c><00:06:42.640><c> need</c><00:06:42.760><c> to</c><00:06:42.919><c> read</c><00:06:43.080><c> the</c><00:06:43.200><c> prompts</c>
+
+00:06:43.590 --> 00:06:43.600 align:start position:0%
+here, you just need to read the prompts
+ 
+
+00:06:43.600 --> 00:06:45.550 align:start position:0%
+here, you just need to read the prompts
+and<00:06:43.880><c> pick</c><00:06:44.120><c> the</c><00:06:44.240><c> one</c><00:06:44.720><c> that</c><00:06:44.840><c> you</c><00:06:44.919><c> like</c><00:06:45.120><c> the</c><00:06:45.200><c> most.</c>
+
+00:06:45.550 --> 00:06:45.560 align:start position:0%
+and pick the one that you like the most.
+ 
+
+00:06:45.560 --> 00:06:47.110 align:start position:0%
+and pick the one that you like the most.
+If<00:06:45.680><c> you</c><00:06:45.760><c> want</c><00:06:45.880><c> to</c><00:06:45.960><c> make</c><00:06:46.120><c> some</c><00:06:46.280><c> changes,</c><00:06:46.680><c> go</c><00:06:46.919><c> to</c>
+
+00:06:47.110 --> 00:06:47.120 align:start position:0%
+If you want to make some changes, go to
+ 
+
+00:06:47.120 --> 00:06:49.510 align:start position:0%
+If you want to make some changes, go to
+the<00:06:47.280><c> agent,</c><00:06:47.760><c> to</c><00:06:47.840><c> the</c><00:06:48.000><c> actual</c><00:06:48.320><c> chat,</c><00:06:48.880><c> and</c><00:06:49.400><c> let</c>
+
+00:06:49.510 --> 00:06:49.520 align:start position:0%
+the agent, to the actual chat, and let
+ 
+
+00:06:49.520 --> 00:06:51.510 align:start position:0%
+the agent, to the actual chat, and let
+the<00:06:49.640><c> agent</c><00:06:49.919><c> know</c><00:06:50.440><c> what</c><00:06:50.680><c> you</c><00:06:50.800><c> want</c><00:06:50.960><c> to</c><00:06:51.080><c> change.</c>
+
+00:06:51.510 --> 00:06:51.520 align:start position:0%
+the agent know what you want to change.
+ 
+
+00:06:51.520 --> 00:06:52.630 align:start position:0%
+the agent know what you want to change.
+I'm<00:06:51.560><c> going</c><00:06:51.680><c> to</c><00:06:51.760><c> go</c><00:06:51.919><c> with</c><00:06:52.120><c> the</c><00:06:52.200><c> first</c><00:06:52.480><c> one</c>
+
+00:06:52.630 --> 00:06:52.640 align:start position:0%
+I'm going to go with the first one
+ 
+
+00:06:52.640 --> 00:06:54.190 align:start position:0%
+I'm going to go with the first one
+because,<00:06:52.919><c> you</c><00:06:53.000><c> know,</c><00:06:53.200><c> why</c><00:06:53.400><c> not?</c><00:06:53.919><c> In</c><00:06:54.040><c> this</c>
+
+00:06:54.190 --> 00:06:54.200 align:start position:0%
+because, you know, why not? In this
+ 
+
+00:06:54.200 --> 00:06:55.950 align:start position:0%
+because, you know, why not? In this
+case,<00:06:54.400><c> the</c><00:06:54.560><c> agent</c><00:06:54.880><c> got</c><00:06:55.080><c> it</c><00:06:55.200><c> wrong.</c><00:06:55.640><c> Remember,</c>
+
+00:06:55.950 --> 00:06:55.960 align:start position:0%
+case, the agent got it wrong. Remember,
+ 
+
+00:06:55.960 --> 00:06:58.150 align:start position:0%
+case, the agent got it wrong. Remember,
+I<00:06:56.040><c> was</c><00:06:56.240><c> asking</c><00:06:56.720><c> for</c><00:06:56.919><c> a</c><00:06:56.960><c> text</c><00:06:57.280><c> prompt,</c><00:06:57.680><c> but</c><00:06:57.960><c> it's</c>
+
+00:06:58.150 --> 00:06:58.160 align:start position:0%
+I was asking for a text prompt, but it's
+ 
+
+00:06:58.160 --> 00:07:00.270 align:start position:0%
+I was asking for a text prompt, but it's
+just<00:06:58.520><c> going</c><00:06:58.960><c> and</c><00:06:59.120><c> creating</c><00:06:59.560><c> four</c><00:06:59.880><c> different</c>
+
+00:07:00.270 --> 00:07:00.280 align:start position:0%
+just going and creating four different
+ 
+
+00:07:00.280 --> 00:07:02.630 align:start position:0%
+just going and creating four different
+images<00:07:00.880><c> without</c><00:07:01.240><c> asking</c><00:07:01.800><c> permission,</c><00:07:02.480><c> which</c>
+
+00:07:02.630 --> 00:07:02.640 align:start position:0%
+images without asking permission, which
+ 
+
+00:07:02.640 --> 00:07:04.430 align:start position:0%
+images without asking permission, which
+is<00:07:02.760><c> not</c><00:07:02.960><c> that</c><00:07:03.120><c> good,</c><00:07:03.360><c> but,</c><00:07:03.680><c> you</c><00:07:03.760><c> know,</c><00:07:04.280><c> let's</c>
+
+00:07:04.430 --> 00:07:04.440 align:start position:0%
+is not that good, but, you know, let's
+ 
+
+00:07:04.440 --> 00:07:05.750 align:start position:0%
+is not that good, but, you know, let's
+see<00:07:04.520><c> what</c><00:07:04.680><c> we</c><00:07:04.760><c> get</c><00:07:04.919><c> back.</c><00:07:05.360><c> When</c><00:07:05.480><c> we</c><00:07:05.560><c> get</c><00:07:05.680><c> it</c>
+
+00:07:05.750 --> 00:07:05.760 align:start position:0%
+see what we get back. When we get it
+ 
+
+00:07:05.760 --> 00:07:06.870 align:start position:0%
+see what we get back. When we get it
+back,<00:07:05.960><c> we</c><00:07:06.040><c> can</c><00:07:06.160><c> see</c><00:07:06.320><c> that</c><00:07:06.480><c> we</c><00:07:06.560><c> have</c><00:07:06.720><c> some</c>
+
+00:07:06.870 --> 00:07:06.880 align:start position:0%
+back, we can see that we have some
+ 
+
+00:07:06.880 --> 00:07:09.070 align:start position:0%
+back, we can see that we have some
+variations<00:07:07.520><c> of</c><00:07:07.760><c> the</c><00:07:07.919><c> previous</c><00:07:08.360><c> design,</c><00:07:08.960><c> and</c>
+
+00:07:09.070 --> 00:07:09.080 align:start position:0%
+variations of the previous design, and
+ 
+
+00:07:09.080 --> 00:07:10.870 align:start position:0%
+variations of the previous design, and
+they<00:07:09.200><c> are</c><00:07:09.280><c> all</c><00:07:09.720><c> pretty,</c><00:07:10.080><c> pretty</c><00:07:10.360><c> good.</c><00:07:10.760><c> Now,</c>
+
+00:07:10.870 --> 00:07:10.880 align:start position:0%
+they are all pretty, pretty good. Now,
+ 
+
+00:07:10.880 --> 00:07:12.230 align:start position:0%
+they are all pretty, pretty good. Now,
+if<00:07:11.040><c> I</c><00:07:11.080><c> wanted</c><00:07:11.320><c> to</c><00:07:11.400><c> start</c><00:07:11.640><c> over,</c><00:07:12.000><c> let's</c><00:07:12.120><c> say</c>
+
+00:07:12.230 --> 00:07:12.240 align:start position:0%
+if I wanted to start over, let's say
+ 
+
+00:07:12.240 --> 00:07:14.350 align:start position:0%
+if I wanted to start over, let's say
+that<00:07:12.440><c> I</c><00:07:12.520><c> go</c><00:07:12.720><c> to</c><00:07:12.880><c> a</c><00:07:12.960><c> new</c><00:07:13.160><c> chat</c><00:07:13.600><c> or</c><00:07:13.760><c> new</c><00:07:13.960><c> session</c>
+
+00:07:14.350 --> 00:07:14.360 align:start position:0%
+that I go to a new chat or new session
+ 
+
+00:07:14.360 --> 00:07:16.550 align:start position:0%
+that I go to a new chat or new session
+on<00:07:14.560><c> the</c><00:07:14.680><c> agent,</c><00:07:15.320><c> and</c><00:07:15.320><c> then</c><00:07:15.480><c> I</c><00:07:15.600><c> go</c><00:07:15.919><c> and</c><00:07:16.120><c> ask</c><00:07:16.400><c> for</c>
+
+00:07:16.550 --> 00:07:16.560 align:start position:0%
+on the agent, and then I go and ask for
+ 
+
+00:07:16.560 --> 00:07:18.510 align:start position:0%
+on the agent, and then I go and ask for
+the<00:07:16.720><c> same</c><00:07:17.040><c> thing,</c><00:07:17.520><c> in</c><00:07:17.640><c> this</c><00:07:17.800><c> case</c><00:07:18.120><c> for</c><00:07:18.320><c> the</c>
+
+00:07:18.510 --> 00:07:18.520 align:start position:0%
+the same thing, in this case for the
+ 
+
+00:07:18.520 --> 00:07:20.190 align:start position:0%
+the same thing, in this case for the
+woman<00:07:18.960><c> and</c><00:07:19.160><c> the</c><00:07:19.280><c> cat</c><00:07:19.640><c> and</c><00:07:19.760><c> the</c><00:07:19.840><c> second</c>
+
+00:07:20.190 --> 00:07:20.200 align:start position:0%
+woman and the cat and the second
+ 
+
+00:07:20.200 --> 00:07:22.350 align:start position:0%
+woman and the cat and the second
+transition.<00:07:20.880><c> Now,</c><00:07:21.080><c> isn't</c><00:07:21.400><c> it</c><00:07:21.560><c> easier</c><00:07:21.919><c> just</c><00:07:22.160><c> to</c>
+
+00:07:22.350 --> 00:07:22.360 align:start position:0%
+transition. Now, isn't it easier just to
+ 
+
+00:07:22.360 --> 00:07:24.470 align:start position:0%
+transition. Now, isn't it easier just to
+ask<00:07:22.680><c> the</c><00:07:22.840><c> agent</c><00:07:23.200><c> to</c><00:07:23.320><c> do</c><00:07:23.600><c> everything</c><00:07:24.160><c> all</c><00:07:24.320><c> at</c>
+
+00:07:24.470 --> 00:07:24.480 align:start position:0%
+ask the agent to do everything all at
+ 
+
+00:07:24.480 --> 00:07:27.270 align:start position:0%
+ask the agent to do everything all at
+once?<00:07:25.280><c> Yeah,</c><00:07:25.919><c> it</c><00:07:26.040><c> is.</c><00:07:26.440><c> First,</c><00:07:26.760><c> I</c><00:07:26.840><c> will</c><00:07:27.000><c> take</c>
+
+00:07:27.270 --> 00:07:27.280 align:start position:0%
+once? Yeah, it is. First, I will take
+ 
+
+00:07:27.280 --> 00:07:29.030 align:start position:0%
+once? Yeah, it is. First, I will take
+the<00:07:27.400><c> subjects</c><00:07:27.880><c> as</c><00:07:28.040><c> an</c><00:07:28.120><c> ingredient,</c><00:07:28.760><c> first</c><00:07:29.000><c> the</c>
+
+00:07:29.030 --> 00:07:29.040 align:start position:0%
+the subjects as an ingredient, first the
+ 
+
+00:07:29.040 --> 00:07:31.990 align:start position:0%
+the subjects as an ingredient, first the
+man,<00:07:29.600><c> then</c><00:07:29.800><c> the</c><00:07:30.040><c> woman,</c><00:07:30.680><c> and</c><00:07:31.000><c> then</c><00:07:31.200><c> the</c><00:07:31.360><c> cat.</c>
+
+00:07:31.990 --> 00:07:32.000 align:start position:0%
+man, then the woman, and then the cat.
+ 
+
+00:07:32.000 --> 00:07:33.550 align:start position:0%
+man, then the woman, and then the cat.
+And<00:07:32.120><c> this</c><00:07:32.240><c> is</c><00:07:32.360><c> my</c><00:07:32.480><c> prompt.</c><00:07:32.840><c> It</c><00:07:32.919><c> doesn't</c><00:07:33.200><c> change</c>
+
+00:07:33.550 --> 00:07:33.560 align:start position:0%
+And this is my prompt. It doesn't change
+ 
+
+00:07:33.560 --> 00:07:35.150 align:start position:0%
+And this is my prompt. It doesn't change
+that<00:07:33.720><c> much,</c><00:07:34.200><c> but</c><00:07:34.360><c> first</c><00:07:34.600><c> I'm</c><00:07:34.720><c> asking</c><00:07:35.040><c> to</c>
+
+00:07:35.150 --> 00:07:35.160 align:start position:0%
+that much, but first I'm asking to
+ 
+
+00:07:35.160 --> 00:07:36.630 align:start position:0%
+that much, but first I'm asking to
+create<00:07:35.480><c> three</c><00:07:35.760><c> different</c><00:07:36.080><c> images</c><00:07:36.440><c> with</c><00:07:36.560><c> the</c>
+
+00:07:36.630 --> 00:07:36.640 align:start position:0%
+create three different images with the
+ 
+
+00:07:36.640 --> 00:07:38.550 align:start position:0%
+create three different images with the
+following<00:07:37.040><c> instructions.</c><00:07:37.760><c> We</c><00:07:37.840><c> provide</c><00:07:38.480><c> the</c>
+
+00:07:38.550 --> 00:07:38.560 align:start position:0%
+following instructions. We provide the
+ 
+
+00:07:38.560 --> 00:07:40.230 align:start position:0%
+following instructions. We provide the
+global<00:07:38.880><c> style,</c><00:07:39.440><c> the</c><00:07:39.560><c> first</c><00:07:39.919><c> image</c>
+
+00:07:40.230 --> 00:07:40.240 align:start position:0%
+global style, the first image
+ 
+
+00:07:40.240 --> 00:07:41.990 align:start position:0%
+global style, the first image
+instructions,<00:07:41.120><c> the</c><00:07:41.280><c> second</c><00:07:41.680><c> image</c>
+
+00:07:41.990 --> 00:07:42.000 align:start position:0%
+instructions, the second image
+ 
+
+00:07:42.000 --> 00:07:44.110 align:start position:0%
+instructions, the second image
+instructions,<00:07:42.680><c> and</c><00:07:42.880><c> the</c><00:07:43.080><c> third</c><00:07:43.720><c> image</c>
+
+00:07:44.110 --> 00:07:44.120 align:start position:0%
+instructions, and the third image
+ 
+
+00:07:44.120 --> 00:07:46.150 align:start position:0%
+instructions, and the third image
+instructions.<00:07:44.880><c> And</c><00:07:45.000><c> to</c><00:07:45.080><c> finish,</c><00:07:45.600><c> it's</c><00:07:45.840><c> clear</c>
+
+00:07:46.150 --> 00:07:46.160 align:start position:0%
+instructions. And to finish, it's clear
+ 
+
+00:07:46.160 --> 00:07:48.390 align:start position:0%
+instructions. And to finish, it's clear
+that<00:07:46.320><c> we</c><00:07:46.440><c> want</c><00:07:46.640><c> to</c><00:07:46.760><c> use</c><00:07:47.160><c> a</c><00:07:47.240><c> 16:9.</c><00:07:48.160><c> And</c><00:07:48.240><c> that's</c>
+
+00:07:48.390 --> 00:07:48.400 align:start position:0%
+that we want to use a 16:9. And that's
+ 
+
+00:07:48.400 --> 00:07:49.990 align:start position:0%
+that we want to use a 16:9. And that's
+it.<00:07:48.560><c> Not</c><00:07:48.720><c> to</c><00:07:48.840><c> be</c><00:07:48.960><c> confused</c><00:07:49.520><c> with</c><00:07:49.640><c> the</c><00:07:49.800><c> this</c>
+
+00:07:49.990 --> 00:07:50.000 align:start position:0%
+it. Not to be confused with the this
+ 
+
+00:07:50.000 --> 00:07:52.110 align:start position:0%
+it. Not to be confused with the this
+generations,<00:07:50.640><c> I'm</c><00:07:50.760><c> going</c><00:07:50.920><c> to</c><00:07:51.000><c> go</c><00:07:51.160><c> right</c><00:07:51.400><c> here</c>
+
+00:07:52.110 --> 00:07:52.120 align:start position:0%
+generations, I'm going to go right here
+ 
+
+00:07:52.120 --> 00:07:53.870 align:start position:0%
+generations, I'm going to go right here
+and<00:07:52.400><c> delete</c><00:07:52.880><c> them</c><00:07:53.040><c> all.</c><00:07:53.280><c> Right,</c><00:07:53.520><c> we</c><00:07:53.600><c> get</c><00:07:53.760><c> the</c>
+
+00:07:53.870 --> 00:07:53.880 align:start position:0%
+and delete them all. Right, we get the
+ 
+
+00:07:53.880 --> 00:07:55.950 align:start position:0%
+and delete them all. Right, we get the
+variations<00:07:54.440><c> for</c><00:07:54.640><c> the</c><00:07:54.760><c> first</c><00:07:55.040><c> one,</c><00:07:55.440><c> the</c><00:07:55.560><c> second</c>
+
+00:07:55.950 --> 00:07:55.960 align:start position:0%
+variations for the first one, the second
+ 
+
+00:07:55.960 --> 00:07:57.230 align:start position:0%
+variations for the first one, the second
+one,<00:07:56.160><c> and</c><00:07:56.280><c> the</c><00:07:56.360><c> third</c><00:07:56.640><c> one.</c><00:07:56.880><c> And</c><00:07:57.000><c> I</c><00:07:57.040><c> really</c>
+
+00:07:57.230 --> 00:07:57.240 align:start position:0%
+one, and the third one. And I really
+ 
+
+00:07:57.240 --> 00:07:59.190 align:start position:0%
+one, and the third one. And I really
+like<00:07:57.480><c> the</c><00:07:57.600><c> first</c><00:07:58.000><c> and</c><00:07:58.120><c> the</c><00:07:58.200><c> second.</c><00:07:58.720><c> I</c><00:07:58.800><c> don't</c>
+
+00:07:59.190 --> 00:07:59.200 align:start position:0%
+like the first and the second. I don't
+ 
+
+00:07:59.200 --> 00:08:00.910 align:start position:0%
+like the first and the second. I don't
+like<00:07:59.440><c> the</c><00:07:59.520><c> second</c><00:07:59.880><c> one</c><00:08:00.040><c> that</c><00:08:00.240><c> much,</c><00:08:00.680><c> but</c><00:08:00.880><c> you</c>
+
+00:08:00.910 --> 00:08:00.920 align:start position:0%
+like the second one that much, but you
+ 
+
+00:08:00.920 --> 00:08:02.630 align:start position:0%
+like the second one that much, but you
+know,<00:08:01.040><c> we</c><00:08:01.160><c> could</c><00:08:01.320><c> ask</c><00:08:01.600><c> the</c><00:08:01.720><c> agent</c><00:08:02.120><c> to</c><00:08:02.360><c> create</c>
+
+00:08:02.630 --> 00:08:02.640 align:start position:0%
+know, we could ask the agent to create
+ 
+
+00:08:02.640 --> 00:08:05.070 align:start position:0%
+know, we could ask the agent to create
+it<00:08:02.720><c> again,</c><00:08:03.120><c> or</c><00:08:03.280><c> we</c><00:08:03.400><c> can</c><00:08:03.600><c> even</c><00:08:03.960><c> go</c><00:08:04.240><c> to</c><00:08:04.440><c> the</c><00:08:04.640><c> edit</c>
+
+00:08:05.070 --> 00:08:05.080 align:start position:0%
+it again, or we can even go to the edit
+ 
+
+00:08:05.080 --> 00:08:07.190 align:start position:0%
+it again, or we can even go to the edit
+and<00:08:05.320><c> just</c><00:08:05.760><c> change</c><00:08:06.040><c> it.</c><00:08:06.360><c> Also,</c><00:08:06.600><c> notice</c><00:08:07.000><c> that</c>
+
+00:08:07.190 --> 00:08:07.200 align:start position:0%
+and just change it. Also, notice that
+ 
+
+00:08:07.200 --> 00:08:09.110 align:start position:0%
+and just change it. Also, notice that
+the<00:08:07.360><c> subjects</c><00:08:08.240><c> are</c><00:08:08.400><c> pretty,</c><00:08:08.800><c> pretty</c>
+
+00:08:09.110 --> 00:08:09.120 align:start position:0%
+the subjects are pretty, pretty
+ 
+
+00:08:09.120 --> 00:08:11.270 align:start position:0%
+the subjects are pretty, pretty
+consistent.<00:08:10.000><c> This</c><00:08:10.160><c> is</c><00:08:10.200><c> because</c><00:08:10.520><c> the</c><00:08:10.640><c> model,</c>
+
+00:08:11.270 --> 00:08:11.280 align:start position:0%
+consistent. This is because the model,
+ 
+
+00:08:11.280 --> 00:08:12.950 align:start position:0%
+consistent. This is because the model,
+in<00:08:11.480><c> this</c><00:08:11.640><c> case</c><00:08:11.880><c> Niji</c><00:08:12.040><c> Journey,</c><00:08:12.280><c> is</c><00:08:12.520><c> heavily</c>
+
+00:08:12.950 --> 00:08:12.960 align:start position:0%
+in this case Niji Journey, is heavily
+ 
+
+00:08:12.960 --> 00:08:15.070 align:start position:0%
+in this case Niji Journey, is heavily
+trained<00:08:13.480><c> on</c><00:08:13.640><c> subject</c><00:08:14.120><c> consistency.</c><00:08:14.880><c> So,</c><00:08:15.000><c> it</c>
+
+00:08:15.070 --> 00:08:15.080 align:start position:0%
+trained on subject consistency. So, it
+ 
+
+00:08:15.080 --> 00:08:17.430 align:start position:0%
+trained on subject consistency. So, it
+doesn't<00:08:15.280><c> matter</c><00:08:15.520><c> if</c><00:08:15.760><c> we</c><00:08:15.960><c> lock</c><00:08:16.240><c> it</c><00:08:16.720><c> or</c><00:08:16.880><c> not,</c><00:08:17.360><c> it</c>
+
+00:08:17.430 --> 00:08:17.440 align:start position:0%
+doesn't matter if we lock it or not, it
+ 
+
+00:08:17.440 --> 00:08:19.710 align:start position:0%
+doesn't matter if we lock it or not, it
+will<00:08:17.560><c> still</c><00:08:17.919><c> do</c><00:08:18.200><c> a</c><00:08:18.320><c> pretty,</c><00:08:18.760><c> pretty</c><00:08:19.120><c> good</c><00:08:19.320><c> job.</c>
+
+00:08:19.710 --> 00:08:19.720 align:start position:0%
+will still do a pretty, pretty good job.
+ 
+
+00:08:19.720 --> 00:08:21.190 align:start position:0%
+will still do a pretty, pretty good job.
+Nonetheless,<00:08:20.080><c> if</c><00:08:20.240><c> you're</c><00:08:20.360><c> not</c><00:08:20.600><c> getting</c><00:08:20.840><c> it,</c>
+
+00:08:21.190 --> 00:08:21.200 align:start position:0%
+Nonetheless, if you're not getting it,
+ 
+
+00:08:21.200 --> 00:08:22.990 align:start position:0%
+Nonetheless, if you're not getting it,
+go<00:08:21.520><c> right</c><00:08:21.760><c> here</c><00:08:22.120><c> and</c><00:08:22.280><c> make</c><00:08:22.520><c> sure</c><00:08:22.680><c> that</c><00:08:22.840><c> when</c>
+
+00:08:22.990 --> 00:08:23.000 align:start position:0%
+go right here and make sure that when
+ 
+
+00:08:23.000 --> 00:08:25.350 align:start position:0%
+go right here and make sure that when
+you<00:08:23.200><c> use</c><00:08:23.360><c> the</c><00:08:23.480><c> keyword</c><00:08:23.919><c> man</c><00:08:24.280><c> or</c><00:08:24.480><c> woman</c><00:08:24.800><c> or</c><00:08:25.120><c> your</c>
+
+00:08:25.350 --> 00:08:25.360 align:start position:0%
+you use the keyword man or woman or your
+ 
+
+00:08:25.360 --> 00:08:27.310 align:start position:0%
+you use the keyword man or woman or your
+subject,<00:08:25.919><c> you</c><00:08:26.040><c> do</c><00:08:26.240><c> add</c><00:08:26.560><c> and</c><00:08:26.680><c> then</c><00:08:26.840><c> you</c><00:08:27.040><c> just</c>
+
+00:08:27.310 --> 00:08:27.320 align:start position:0%
+subject, you do add and then you just
+ 
+
+00:08:27.320 --> 00:08:29.190 align:start position:0%
+subject, you do add and then you just
+lock<00:08:27.840><c> your</c><00:08:28.240><c> reference.</c><00:08:28.880><c> All</c><00:08:28.919><c> right,</c><00:08:29.080><c> so</c>
+
+00:08:29.190 --> 00:08:29.200 align:start position:0%
+lock your reference. All right, so
+ 
+
+00:08:29.200 --> 00:08:30.950 align:start position:0%
+lock your reference. All right, so
+that's<00:08:29.520><c> it.</c><00:08:29.760><c> If</c><00:08:29.880><c> you</c><00:08:30.040><c> liked</c><00:08:30.360><c> all</c><00:08:30.480><c> of</c><00:08:30.520><c> this,</c>
+
+00:08:30.950 --> 00:08:30.960 align:start position:0%
+that's it. If you liked all of this,
+ 
+
+00:08:30.960 --> 00:08:33.430 align:start position:0%
+that's it. If you liked all of this,
+remember<00:08:31.280><c> to</c><00:08:31.440><c> leave</c><00:08:31.720><c> a</c><00:08:31.800><c> like,</c><00:08:32.280><c> subscribe,</c><00:08:33.120><c> and</c>
+
+00:08:33.430 --> 00:08:33.440 align:start position:0%
+remember to leave a like, subscribe, and
+ 
+
+00:08:33.440 --> 00:08:34.825 align:start position:0%
+remember to leave a like, subscribe, and
+leave<00:08:33.560><c> a</c><00:08:33.640><c> comment.</c><00:08:34.280><c> Don't</c><00:08:34.440><c> be</c><00:08:34.560><c> a</c><00:08:34.599><c> stranger.</c>
+
+00:08:34.825 --> 00:08:34.835 align:start position:0%
+leave a comment. Don't be a stranger.
+ 
+
+00:08:34.835 --> 00:08:49.236 align:start position:0%
+leave a comment. Don't be a stranger.
+[music]
+
+00:08:49.236 --> 00:08:49.246 align:start position:0%
+ 
+ 
+
+00:08:49.246 --> 00:08:51.266 align:start position:0%
+ 
+&gt;&gt; [music]
+

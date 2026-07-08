@@ -1,0 +1,10 @@
+# media pesado: nunca a git (el valor versionable es el destilado + scripts)
+videos/*/*.mp4
+videos/*/*.webm
+videos/*/audio.mp3
+videos/*/frames/
+canales/*/descarga.log
+destilado/master.log
+canales/*/*.vtt
+canales/*/*.info.json
+videos/*/*.info.json

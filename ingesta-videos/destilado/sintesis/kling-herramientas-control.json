@@ -1,0 +1,150 @@
+{
+ "id": "kling-herramientas-control",
+ "disciplina": "ia-generativa-visual",
+ "area": "generacion-y-edicion-de-imagen",
+ "titulo": "Kling AI: Guía completa de herramientas de control (Inpaint, Remove, Expand, Restyle, Doodle, Motion Control, Referencia de Imagen y Texto a Imagen)",
+ "que_ensena": "Este tutorial sintetiza el uso de todas las herramientas de control de Kling AI: Inpaint, Remove, Expand, Restyle, Doodle Tool, Motion Control, Image Reference y Text-to-Image. Cubre desde la generación básica hasta la edición avanzada, incluyendo la transferencia de movimiento, el cambio de estilo y la creación de comerciales con múltiples herramientas.",
+ "reglas_para_agentes": [
+  "Usa **Inpaint** cuando el objetivo sea añadir un elemento nuevo o generar variaciones locales de una zona seleccionada; nunca lo uses como primera opción para borrar objetos si existe **Remove**.",
+  "En Inpaint, selecciona solo la zona que debe cambiar; todo lo seleccionado puede ser regenerado. Para añadir accesorios cerca de una cara, selecciona únicamente el espacio del accesorio y evita cubrir rasgos faciales.",
+  "Usa **Remove** cuando el objetivo sea eliminar un objeto de la imagen; no tiene campo de prompt y funciona mejor para limpiar composiciones.",
+  "Usa **Expand** cuando necesites cambiar el encuadre o extender una imagen sin estirarla. Reposiciona la imagen original dentro del lienzo antes de generar para controlar dónde aparecerá el contenido inventado.",
+  "En Expand, verifica siempre el número de outputs antes de ejecutar (Kling vuelve a 4 por defecto); si solo se necesita una versión, configúralo en **one single output**.",
+  "Deja el prompt vacío en Expand cuando quieras que Kling complete la escena según el contexto original; usa prompts cortos y naturales para guiar la expansión.",
+  "Usa **Restyle** cuando necesites mantener la composición de una imagen y cambiar solo su estilo visual. Usa **presets** para estilos confiables y repetibles; usa prompts con la estructura `Restyle to [estilo]` cuando no haya un preset exacto.",
+  "Usa **Image 2.0** para ejecutar las generaciones de Restyle. Restylea imágenes antes de generar video para mantener una estética consistente entre clips y ahorrar créditos.",
+  "Usa **Doodle Tool** cuando necesites controlar la ubicación exacta de un objeto nuevo dentro de una imagen de referencia. Usa **colores distintos** para varios objetos y refuerza siempre el doodle con un prompt textual explícito.",
+  "Para eliminar con Doodle Tool, pinta con el brush sobre el objeto completo; no uses solo flechas o cajas. Para eliminación precisa, usa **Remove / OG remove**.",
+  "En **Motion Control**, usa **Matches Video** cuando quieras que el sujeto de la imagen se reoriente para coincidir con la pose/ángulo del video de referencia, y no necesites movimiento de cámara.",
+  "En Motion Control, usa **Matches Image** cuando quieras preservar la orientación original del sujeto y necesites movimiento de cámara automático o controlado por prompt (escribe `zoom in`, `zoom out`, `camera up`, `camera down` o `stationary`).",
+  "Nunca uses un video de referencia con un sujeto no humanoide (sin cara, dos brazos, dos piernas) para Motion Control.",
+  "Siempre verifica que la escala y distancia del sujeto en la imagen coincidan con el video de referencia en Motion Control para evitar que el movimiento se vea incompleto.",
+  "Usa fondos simples en Motion Control para evitar artefactos en el fondo.",
+  "En **Image Reference**, usa el modo **Subject** cuando la imagen tenga un sujeto grande y claramente definido; usa **Face** para transferir solo el rostro; usa **Entire Image** solo para paisajes o escenas.",
+  "Usa **Elements** cuando necesites combinar hasta 4 sujetos distintos en una escena específica; recorta cada sujeto antes de confirmar y asegúrate de que el prompt sea coherente con los elementos subidos.",
+  "En **Text-to-Image**, usa el modelo **2.1** para máxima calidad; nunca uses 1.0 a menos que el costo sea una prioridad explícita.",
+  "Cuando uses DeepSeek para mejorar un prompt, proporciona siempre un prompt base con detalles de contexto, ángulo de cámara, estilo y hora del día.",
+  "Nunca uses **Text-to-Image** con referencia de imagen si necesitas personajes consistentes; en su lugar, usa **Image Reference** u **Omni One**.",
+  "Para variaciones sutiles, usa **Vary**; para cambios mayores, usa **Edit** o **Inpaint**.",
+  "Usa **16:9** como relación de aspecto en Midjourney cuando generes imágenes para comerciales; incluye siempre términos de iluminación específicos en los prompts.",
+  "En Kling 2.1 para transiciones de video, usa siempre un **starting frame** y un **ending frame**; nunca generes video sin ambos.",
+  "En ElevenLabs, selecciona voces con tono cálido y atractivo para comerciales (ej. Richard); configura el modelo en **V3**.",
+  "Ajusta el volumen de los efectos de sonido al **15-20%** del volumen principal en la edición final.",
+  "Sincroniza la voz en off con las imágenes: las palabras clave del producto deben coincidir exactamente con el momento en que aparece el producto en pantalla.",
+  "Para añadir objetos concretos después de Expand, primero expande con poco o ningún prompt y luego usa **inpaint**.",
+  "En Omni One para expresiones, usa `change the expression to [expression]` para expresiones simples; usa una imagen de referencia para expresiones complejas o ambiguas.",
+  "Ejecuta una tarea por expresión en Omni One para comparar resultados limpiamente; verifica visualmente si la expresión generada coincide con la intención."
+ ],
+ "prompts_y_recetas": [
+  "**Inpaint - Añadir sombrero:** Prompt: `she is wearing a designer's hat`. Selecciona solo el área donde irá el sombrero, sin cubrir el rostro.",
+  "**Inpaint - Variación sin prompt:** Deja el prompt vacío para cambios sutiles en la zona seleccionada.",
+  "**Inpaint - Mejorar realismo:** Añade `hyper realistic` al prompt y ejecuta 3 o 4 generaciones.",
+  "**Remove - Eliminar objeto:** Selecciona el objeto, elige el número de outputs y ejecuta **Run Task**. No uses prompt.",
+  "**Expand - Conversión de 9:16 a 16:9:** Selecciona el preset 16:9, reposiciona la imagen original y deja espacio a los lados. Prompt vacío o mínimo.",
+  "**Expand - Prompt complejo (no recomendado):** `A monkey at the right side, a tree at the left side and a balloon floating in the sky ultra realistic`. Mejor usar Expand sin prompt y luego Inpaint.",
+  "**Restyle - Prompt manual:** `Restyle to 1980s vintage film` o `transform this image into a 1980s vintage film style with grainy texture, muted colors`.",
+  "**Restyle - Presets:** `traditional Chinese realistic painting`, `chibi 3D`, `CG rendering`, `random`.",
+  "**Doodle Tool - Añadir objeto:** Dibuja una forma aproximada (ej. círculo rojo) donde quieres el objeto. Prompt: `add a pizza on top of the table`.",
+  "**Doodle Tool - Múltiples objetos:** Usa colores distintos (ej. rojo para pizza, azul para taza). Prompt: `I want to add a pizza at the top of the table, and a coffee cup on top of the counter`.",
+  "**Doodle Tool - Dirección corporal:** Dibuja brazos elevados y una flecha hacia arriba. Prompt: `the man has his arms high and he's looking up according to the doodle`.",
+  "**Motion Control - Matches Image con cámara:** Prompt exacto: `zoom in`, `zoom out`, `camera up`, `camera down`, o `stationary`.",
+  "**Motion Control - Sin prompt:** Deja el campo de texto vacío para usar solo el movimiento del video y la imagen.",
+  "**Image Reference - Subject:** Sube imagen, selecciona Subject. Ajusta sliders: sube Face al máximo y Subject al mínimo para solo rostro; sube ambos para sujeto completo.",
+  "**Image Reference - Face:** Sube imagen, selecciona Face. Sube el slider de fuerza al máximo para clonar el rostro exacto; bájalo para variaciones.",
+  "**Image Reference - Elements:** Sube hasta 4 imágenes de sujetos, recorta cada uno. Sube una imagen de escena. Prompt: `A woman goes for a walk in the forest`. Usa 16:9.",
+  "**Text-to-Image - Prompt básico:** `a woman walking in the forest`. Usa modelo 2.1, ajusta relación de aspecto y número de outputs.",
+  "**Text-to-Image - DeepSeek:** Haz clic en DeepSeek, edita el prompt para añadir detalles (ej. `1980s woman walking through a stylish European street, sunny day, low angle shot, cinematic warm light`) y presiona la flecha hacia arriba.",
+  "**Comercial - Prompt Midjourney (escena 1):** `A close-up shot of golden crispy fried chicken emerging from hot oil in a fryer. Steam rising dramatically. Oil droplets sparkling in the light. Hyperrealistic textures. Cinematic commercial photography style shot with a Canon EOS R5 100mm macro lens. Warm golden tones.`",
+  "**Comercial - Prompt Midjourney (escena de producto en contexto):** `A wide shot of a rustic wooden dining table filled with buckets of fried chicken, buttery biscuits, mashed potatoes with gravy, corn on the cob, drinks and glass cups shot in a cozy home setting with warm daylight streaming through a window, cinematic commercial photography style, shot with a Nikon Z9, 35mm f1.4 lens, rich and vibrant colors.`",
+  "**Comercial - Transición Kling 2.1:** Sube la primera imagen como starting frame y la segunda como ending frame. Pide a ChatGPT: `What should be the prompts for Kling 2.1 where it combines both images into one video by transitioning?`",
+  "**Comercial - Voz en off ElevenLabs:** Pega el guion en ElevenLabs, selecciona la voz Richard, modelo V3.",
+  "**Comercial - Efectos de sonido:** Para escena de producto: `satisfying product sounds`. Para escenas de estilo de vida: `adults and kids talking and laughing in the background`. Duración: 10 segundos."
+ ],
+ "errores_comunes": [
+  "Seleccionar toda la cabeza para añadir un sombrero en Inpaint, cambiando el rostro.",
+  "Usar Inpaint con prompts como `remove the tree` esperando una eliminación limpia; usar Remove en su lugar.",
+  "Confundir Remove con borrar la imagen completa del proyecto; usar el menú de tres puntos y Delete.",
+  "No hacer zoom ni mover la imagen antes de seleccionar detalles pequeños en Inpaint.",
+  "No refinar la máscara con Eraser antes de ejecutar Inpaint.",
+  "Esperar que todas las expresiones escritas en texto en Omni One produzcan cambios claros; usar referencia visual para expresiones complejas.",
+  "Usar palabras ambiguas como `euphoric` o `scared` sin referencia visual en Omni One.",
+  "No revisar el bug de caché en Omni One: al cambiar un prompt, copiarlo, borrar el campo y pegarlo de nuevo.",
+  "Estirar una imagen para adaptarla a otro formato en vez de usar Expand.",
+  "No revisar que Kling vuelve a 4 outputs por defecto en Expand.",
+  "Usar prompts demasiado complejos en Expand; mejor expandir sin prompt y luego usar Inpaint.",
+  "No reposicionar la imagen original antes de generar en Expand.",
+  "Usar un ratio fijo en Expand cuando se necesita libertad compositiva.",
+  "Intentar pasar de 16:9 a 9:16 sin dejar espacio suficiente en Expand.",
+  "Pedir agregar un objeto sin indicar ubicación en Doodle Tool; usar doodle y prompt explícito.",
+  "Usar un solo color para múltiples objetos en Doodle Tool.",
+  "Dibujar una caja alrededor de un objeto y esperar eliminación precisa en Doodle Tool; usar Remove.",
+  "Escribir prompts vagos como 'do what the doodle says' en Doodle Tool.",
+  "Mala coincidencia de proporciones entre imagen y video en Motion Control.",
+  "Usar un video de referencia con orientación diferente a la imagen sin considerar el modo en Motion Control.",
+  "Esperar que un prompt de texto funcione consistentemente en Motion Control; el movimiento y la cámara dominan.",
+  "Usar fondos complejos o con mucha gente en Motion Control.",
+  "Intentar transferir movimientos de cámara salvajes en Motion Control.",
+  "Múltiples sujetos en modo Subject de Image Reference.",
+  "Confusión entre sliders Face y Subject en Image Reference.",
+  "Relación de aspecto incorrecta en Image Reference (usar 9:16 en lugar de 16:9).",
+  "Prompt incoherente con elementos en Image Reference.",
+  "Usar Entire Image para sujetos en Image Reference.",
+  "Prompts demasiado simples en Text-to-Image; añadir detalles de contexto, estilo y ángulo de cámara.",
+  "Asumir que DeepSeek con referencia de imagen capturará detalles específicos del sujeto.",
+  "Confundir Hints con sugerencias de mejora en Text-to-Image; son prompts aleatorios de inspiración.",
+  "No especificar iluminación en prompts de Midjourney para comerciales.",
+  "Usar formato cuadrado en Midjourney para comerciales; usar 16:9.",
+  "Ignorar la psicología comercial al estructurar escenas.",
+  "No usar start & end frame en Kling para transiciones de video.",
+  "Seleccionar voz inadecuada en ElevenLabs (robótica o corporativa).",
+  "Efectos de sonido al volumen incorrecto (demasiado altos o bajos).",
+  "No sincronizar voz con imagen en la edición final."
+ ],
+ "fuentes_videos": [
+  {
+   "titulo": "Kling AI Inpaint & Remove Full Deep dive",
+   "url": "https://youtu.be/KjkKJbs1zd8",
+   "canal": "nextmindrevolution"
+  },
+  {
+   "titulo": "KLING Omni One Expressions: How I Get any expression I need",
+   "url": "https://youtu.be/b2rirpRvvzM",
+   "canal": "nextmindrevolution"
+  },
+  {
+   "titulo": "Kling AI Expand Tutorial: Stop Stretching Your Images! Use Kling AI Expansion",
+   "url": "https://youtu.be/0hMgjb6yiKA",
+   "canal": "nextmindrevolution"
+  },
+  {
+   "titulo": "Kling Omni One Doodle Tool: Directional Commands & Layout Control",
+   "url": "https://youtu.be/-P-KZJwIiIg",
+   "canal": "nextmindrevolution"
+  },
+  {
+   "titulo": "Kling Motion Control Full Deep dive: \"Matches Image\" vs. \"Matches Video\" Explained",
+   "url": "https://youtu.be/wVII4Z2WiC0",
+   "canal": "nextmindrevolution"
+  },
+  {
+   "titulo": "Kling AI Restyle Tutorial: Transform Any Image into Anime, 3D, & More",
+   "url": "https://youtu.be/VcpMQ47KUNo",
+   "canal": "nextmindrevolution"
+  },
+  {
+   "titulo": "Kling AI Image Reference Feature Explained",
+   "url": "https://youtu.be/w5APFG3OPV0",
+   "canal": "nextmindrevolution"
+  },
+  {
+   "titulo": "Kling AI Text-to-Image Tutorial: Step-by-Step Guide",
+   "url": "https://youtu.be/p2vddD79koY",
+   "canal": "nextmindrevolution"
+  },
+  {
+   "titulo": "How To Make AI Commercials Using Midjourney AI & Kling 2.1 Start & End Frame",
+   "url": "https://youtu.be/XwyUUkQ1Njs",
+   "canal": "imskaigenerated"
+  }
+ ]
+}

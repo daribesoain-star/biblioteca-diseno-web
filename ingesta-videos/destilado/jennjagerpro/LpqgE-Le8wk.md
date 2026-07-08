@@ -1,0 +1,43 @@
+# Animating Web Pages in Apple Motion
+**Fuente:** jennjagerpro | https://youtu.be/LpqgE-Le8wk
+
+## Qué enseña (2-3 líneas)
+Este tutorial enseña cómo convertir capturas de pantalla de un sitio web estático en una animación dinámica con efectos 3D en Apple Motion, ideal para videos de marketing de productos digitales. Cubre el uso de cámaras, luces, keyframes, cropping de elementos, desenfoque gaussiano y efectos de texto type-on para crear pop-outs y call-outs profesionales.
+
+## Lecciones accionables
+- **Capturar imágenes del sitio web:** Usa `Shift + Command + 3` en Mac para tomar screenshots de la página. Toma múltiples capturas desplazándote hacia abajo para cubrir todo el contenido sin perder resolución. Abre cada una en Preview y guárdalas.
+- **Importar y alinear imágenes en Apple Motion:** Arrastra las imágenes al proyecto. Asegúrate de que la parte superior de la página esté en la parte inferior del panel de proyecto y la inferior esté apilada arriba (orden inverso). Desactiva las capas superiores temporalmente, usa la herramienta **Crop** y **reposicionamiento** para alinear cada captura con la anterior. Selecciona el grupo completo, ve al **Inspector > Properties** y ajusta el valor **Y** para desplazarte verticalmente. Escala el grupo para limpiar los bordes laterales.
+- **Configurar cámara 3D:** Ve a **Add Object > Camera**, selecciona "Yes" para cambiar a 3D. Colapsa el grupo de la página web en el panel de proyecto.
+- **Duplicar grupo para elementos aislados:** Haz clic derecho en el grupo de la página web y selecciona **Duplicate**. En el **Inspector > Group**, marca **Flatten** y **Layer Order** (paso crítico para trabajar con cámara). Desactiva el grupo original para ver los bordes de crop.
+- **Aislar columnas con Crop:** Renombra el grupo duplicado (ej. "Silver"). Usa la herramienta **Crop** para aislar una columna específica. Repite: duplica el grupo aislado, renómbralo (ej. "Gold"), desactiva los otros elementos, ajusta el crop para la nueva columna.
+- **Animar pop-out de columnas con keyframes:** Selecciona el grupo de la columna (ej. "Silver"). En el timeline, coloca el playhead en 1 segundo. En **Inspector > Properties > Position**, haz clic en el botón de keyframe para X, Y y Z. Avanza a 1:15 (115 frames), crea keyframes nuevamente en Position. Ajusta **Z** a 725 y **X** a -135 para que la columna se acerque y se desplace. Repite para cada columna, ajustando solo el valor **X** para que queden espaciadas uniformemente.
+- **Escalonar keyframes (stagger):** En el timeline, selecciona los keyframes rojos de cada grupo (usa Shift para múltiples), arrástralos para crear un efecto escalonado (stair step) donde cada columna aparezca una tras otra.
+- **Aplicar desenfoque gaussiano al fondo:** Selecciona el grupo de la página web completa. Ve a **Filters > Blur > Gaussian Blur**. Coloca el playhead justo antes del primer pop-out. En el **Inspector > Filters**, crea un keyframe en Gaussian Blur y pon el valor en 0. Avanza al momento del pop-out, crea otro keyframe y sube el valor de blur significativamente.
+- **Animar la cámara:** Selecciona la cámara en el panel de proyecto. Crea keyframes en **Position** (X, Y, Z) y **Scale** al inicio. Avanza al momento de la acción, crea nuevos keyframes. Ajusta **Y** a un número negativo y modifica **Scale** (valores más bajos = zoom in; valores más altos = zoom out). Para desactivar las rejillas 3D: **View > 3D Overlays**.
+- **Agregar luz y sombras:** Ve a **Add Object > Light**. En **Inspector > Light**, sube el valor **Z** de la luz para alejarla. Aumenta **Intensity** si está oscuro. Marca la casilla **Shadows**. En el menú desplegable (haz hover para que aparezca), sube **Softness** y baja **Opacity** de las sombras.
+- **Keyframes de hold en cámara:** En el timeline, en el segundo 5, agrega keyframes en **Position** y **Scale** (hold keyframes). Avanza 15 frames, agrega nuevos keyframes y ajusta **Y** para mover la cámara hacia abajo.
+- **Aislar y animar un elemento de reseña:** Duplica el grupo de la página web principal, arrastra el duplicado debajo de la cámara. Marca **Flatten** y **Layer Order** en el grupo. Usa **Crop** para aislar la reseña. Desactiva la página principal para ver el crop. Coloca el playhead entre los movimientos de cámara, crea keyframes en **Position**, avanza, crea nuevos keyframes y ajusta **Z** (acercar), **Y** y **X** para centrar.
+- **Dibujar rectángulo de fondo para texto:** Usa la herramienta **Shape** (rectángulo). En **Inspector > Shape**, cambia **Style** de Outline a Fill. Ajusta el color para que combine con la imagen. Asegúrate de que el rectángulo comience al inicio del timeline para que se mueva con el elemento.
+- **Agregar texto con efecto type-on:** Usa la herramienta **Text**, pega el texto en **Inspector > Format**. Ajusta color (negro), tamaño y espaciado. Coloca el texto en el timeline después de que termine el movimiento de cámara y el pop-out. Selecciona el texto, ve a **Behaviors > Text Animation > Type On**. Ajusta la duración de la barra púrpura a 1 segundo arrastrando el extremo.
+- **Corregir iluminación durante animación:** Selecciona la luz. Coloca el playhead donde la cámara comienza a moverse, crea keyframe en **Position**. Avanza al siguiente keyframe de cámara, crea otro keyframe y sube el valor **Z** de la luz para que ilumine los elementos que se acercan.
+- **Agregar logos con fade y scale:** Importa los logos. Ajusta su escala y posición para que coincidan con los del sitio. Activa el blur en la página web. Crea keyframes de **Scale** y **Position** en cada logo. Avanza en el timeline, crea nuevos keyframes y ajusta **Z** para que se acerquen. Aplica **Behaviors > Basic Motion > Fade In/Fade Out** a logos y texto. Escalona los keyframes de los logos para que aparezcan uno tras otro.
+- **Identificar fuente exacta desde Chrome:** Abre el sitio en Google Chrome, haz clic derecho en el texto y selecciona **Inspect**. Busca la propiedad `font-family` (ej. "Open Sans"). Copia el texto exacto y pégalo en Apple Motion, selecciona la fuente encontrada en **Format**.
+
+## Reglas para agentes
+- Usa **Flatten** y **Layer Order** en el grupo del Inspector cada vez que dupliques un grupo de página web para trabajar con cámara 3D.
+- Cuando crees keyframes de posición, asegúrate de hacer clic en el botón de keyframe para **cada eje (X, Y, Z)** individualmente, no solo en el encabezado Position.
+- Para escalonar animaciones, selecciona los keyframes rojos en el timeline con Shift y arrastra para crear un efecto de escalera (stair step).
+- Cuando ajustes la cámara, recuerda que valores más bajos de **Scale** = zoom in, valores más altos = zoom out (es inverso a lo esperado).
+- Para desactivar las rejillas 3D molestas, usa **View > 3D Overlays**.
+- Nunca olvides crear keyframes de **hold** en la cámara (Position y Scale) antes de un nuevo movimiento para evitar transiciones bruscas.
+- Cuando agregues una luz, siempre marca la casilla **Shadows** y ajusta **Softness** y **Opacity** para sombras naturales.
+- Para que un rectángulo de fondo se mueva con un elemento animado, asegúrate de que comience al inicio del timeline, no donde aparece el elemento.
+- Usa la duración de 1 segundo para el efecto **Type On** a menos que se especifique lo contrario.
+
+## Errores comunes que evita o menciona
+- **No escalonar keyframes:** Si todos los elementos aparecen al mismo tiempo, la animación pierde interés visual. El tutorial recomienda escalonar (stagger) los keyframes para que entren uno tras otro.
+- **Olvidar Flatten y Layer Order:** Al duplicar grupos para aislar elementos, si no se marca esta opción en el Inspector del grupo, la cámara no interactuará correctamente con los elementos recortados.
+- **No crear hold keyframes en la cámara:** Saltar directamente a un nuevo movimiento de cámara sin keyframes de hold causa transiciones abruptas y no deseadas.
+- **Iluminación incorrecta:** Si la luz no se mueve con la cámara, los elementos que se acercan pueden quedar oscuros o mal iluminados. El tutorial corrige esto creando keyframes adicionales en la posición de la luz.
+- **Texto type-on demasiado lento:** Por defecto, el efecto Type On abarca toda la duración del elemento. El tutorial acorta la barra púrpura a 1 segundo para que sea más rápido y dinámico.
+- **No ajustar la opacidad y suavidad de sombras:** Las sombras por defecto pueden ser demasiado oscuras y duras. El tutorial recomienda subir **Softness** y bajar **Opacity** para un resultado más profesional.

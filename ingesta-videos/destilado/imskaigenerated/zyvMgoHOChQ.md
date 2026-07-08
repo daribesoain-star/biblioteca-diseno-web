@@ -1,0 +1,31 @@
+# I Tested the NEW Wan 2.2 AI Video Generator vs VEO 3 & Hailuo 02
+**Fuente:** imskaigenerated | https://youtu.be/zyvMgoHOChQ
+
+## Qué enseña (2-3 líneas)
+Compara tres generadores de video con IA —Wan 2.2, Google Veo 3 y Hailuo 02— en escenarios de texto a video e imagen a video, evaluando realismo de movimiento humano, fidelidad a prompts, calidad visual y precio. Wan 2.2 destaca en movimientos humanos complejos y naturales a menor costo, aunque no siempre ejecuta todas las acciones solicitadas.
+
+## Lecciones accionables
+- **Prompt para Veo 3 (gimnasta en barco):** "A gymnast stands at the bow of a large ship. Ocean wind in her hair. She performs a roundoff back handspring, then a high front flip, landing with precision. She flows into a cartwheel, leaps in a wide split, and finishes in a balanced pose as the ship moves through the sea." → Veo 3 genera escenario y vestimenta correctos, pero el roundoff tiene transformaciones antinaturales y pausas extrañas.
+- **Prompt para Hailuo 02 (gimnasta en barco):** Mismo prompt → Hailuo 02 produce toma hermosa pero movimientos corporales sin sentido.
+- **Prompt para Wan 2.2 (gimnasta en barco):** Mismo prompt → Wan 2.2 genera océano realista, cabello movido por viento, movimientos humanos realistas sin artefactos. Limitación: no ejecuta el front flip por el límite de 6 segundos.
+- **Prompt para prueba de skate (Veo 3, Hailuo 02, Wan 2.2):** "A street skater rolls steadily through a quiet city alley and pops into a clean tre flip over a stack of neon lit crates. The board spins and flips naturally under his feet before he lands smoothly and grinds along a rusted rail, finishing with riding away smoothly." → Veo 3: escenario correcto pero movimiento del skater y rotación de tabla incorrectos, rail grind parece explosión. Hailuo 02: video nítido, iluminación excelente, movimiento mejor que Veo pero omite tre flip. Wan 2.2: aterrizaje y movimiento del skater geniales, alley cinematográfico, ignora tre flip.
+- **Sonido automático:** Veo 3 añade sonidos ambientales realistas (pasos, agua, ciudad, voces). Hailuo 2.1 añade sonido pero a veces no coincide. Wan 2.2 añade principalmente música de fondo o efectos sonoros de nivel inferior a Veo 3.
+- **Imagen a video (artista marcial en callejón lluvioso):** Prompt: "The martial artist springs into motion with a spinning roundhouse kick, landing softly before sliding into a low, sweeping leg move. He finishes with a sharp forward stance, rain cascading from his outstretched arms as he freezes in control." → Veo 3: consistencia visual sólida, atmósfera lluviosa mantenida, transición a barrido no fluye natural. Hailuo 02: personaje consistente, patada giratoria no seguida de barrido, movimientos antinaturales, apenas gotas de lluvia, agua sale de manos al final. Wan 2.2: secuencia más fluida, kick fluye a barrido, cambio entre movimientos correcto, postura final poderosa, interacción con lluvia comparable a Veo 3.
+- **Imagen a video (patinadora sobre hielo):** Prompt: "The ice skater pushes off into a smooth spin, then glides into a deep spiral position. The motion builds into a high-speed jump, landing softly into a curved path that carves the ice." → Veo 3: escenario montañoso hermoso, giro aceptable, salto con física incorrecta y gravedad extraña. Hailuo 02: movimientos totalmente antinaturales, teletransportación, líneas aleatorias en hielo. Wan 2.2: movimientos fluidos, salto con física realista de patinaje artístico, aterrizaje suave, cámara cinematográfica, falta el tallado del hielo.
+- **Imagen a video (jugador de baloncesto):** Prompt: "The man casually dribbles the ball a few times, takes a step forward, and smoothly pulls up for a jump shot. The ball arcs gracefully through the air as he lands, watching it with quiet confidence. Dust lightly rises from the court with his movement." → Veo 3: iluminación dorada mantenida, dribbling natural, paso adelante presente, física de balón aceptable, efecto slow motion, polvo excesivo. Hailuo 02: primeros movimientos convincentes, salto y aterrizaje muy toscos, no mira al aro, polvo excesivo. Wan 2.2: dribbling suave y realista, paso adelante fluido, salto realista, física de balón correcta, aterrizaje natural, sutil efecto de polvo.
+
+## Reglas para agentes
+- Usa Wan 2.2 cuando el prompt requiera movimientos humanos complejos y dinámicos (ej. gimnasia, artes marciales, patinaje artístico) y el presupuesto sea limitado (costo menor a Veo 3).
+- Usa Veo 3 cuando el prompt necesite sonidos ambientales realistas sincronizados (pasos, agua, ciudad, voces) o escenarios con iluminación y atmósfera detalladas.
+- Nunca esperes que Wan 2.2 ejecute secuencias de múltiples acciones si exceden 6 segundos de duración; prioriza la acción principal.
+- Nunca uses Hailuo 02 para prompts que requieran movimientos corporales coherentes o transiciones naturales entre acciones (ej. patadas giratorias seguidas de barridos).
+- Verifica siempre que Veo 3 no produzca transformaciones antinaturales del cuerpo (ej. roundoff con inconsistencias) o físicas incorrectas (gravedad extraña en saltos).
+- Para imagen a video, prioriza Wan 2.2 cuando la consistencia visual con la imagen original y la fluidez de movimiento sean críticas.
+
+## Errores comunes que evita o menciona
+- **Movimientos antinaturales:** Veo 3 y Hailuo 02 generan transformaciones corporales inconsistentes (roundoff con deformaciones, teletransportaciones en patinaje).
+- **Omisión de acciones clave:** Wan 2.2 ignora partes del prompt cuando exceden su límite de 6 segundos (front flip, tre flip). Hailuo 02 también omite acciones (tre flip en skate).
+- **Física irreal:** Veo 3 produce gravedad incorrecta en saltos (patinaje sobre hielo). Hailuo 02 genera movimientos sin sentido y agua saliendo de manos.
+- **Efectos excesivos o ausentes:** Veo 3 y Hailuo 02 añaden polvo excesivo en baloncesto; Wan 2.2 omite tallado del hielo en patinaje.
+- **Sonido desincronizado:** Hailuo 2.1 añade sonidos que no coinciden con la acción; Wan 2.2 solo añade música de fondo o efectos de baja calidad.
+- **Slow motion no solicitado:** Veo 3 aplica cámara lenta en secuencias de baloncesto sin que el prompt lo pida.

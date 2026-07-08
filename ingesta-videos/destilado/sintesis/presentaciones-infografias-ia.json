@@ -1,0 +1,94 @@
+{
+ "id": "presentaciones-infografias-ia",
+ "disciplina": "ia-generativa-visual",
+ "area": "presentaciones-e-infografias",
+ "titulo": "Creación de presentaciones, infografías y videos con IA en el ecosistema Google (NotebookLM, Gemini Canvas, Google Vids y Gems)",
+ "que_ensena": "Enseña a generar presentaciones profesionales con NotebookLM ancladas a fuentes verificables, a crear infografías y documentos interactivos con Gemini Canvas, a montar videos completos con Google Vids (VEO 3.1, avatares, música Liyria 3, voice over, captions) y a construir asistentes reutilizables (Gems) con instrucciones permanentes y conocimiento propio para automatizar tareas repetitivas.",
+ "reglas_para_agentes": [
+  "Usa NotebookLM cuando la presentación deba basarse en fuentes concretas y verificables; carga documentos, PDFs, páginas web o videos de YouTube como fuentes antes de generar.",
+  "Usa fuentes propias (archivos, enlaces, Drive) en presentaciones importantes, académicas o empresariales; no dependas solo de búsqueda web automática si la precisión factual importa.",
+  "Abre las opciones avanzadas del Slide deck antes de generar: elige 'Detailed deck' para lectura individual (más texto) o 'Presenter slides' para exponer (menos texto, más visual).",
+  "Controla la longitud con Short (<10 slides), Default (10-15) o Long (extensa); si necesitas un número exacto, defínelo en el prompt (ej: 'six slides').",
+  "Especifica estilo visual, colores, tipografía, acentos y elementos concretos en el campo Description del slide deck (ej: 'premium, dark, gold accents').",
+  "Para control narrativo total, escribe una instrucción por slide con número, título, foco principal y dirección visual.",
+  "Al revisar en NotebookLM, indica exactamente qué texto cambiar, cuál es el actual y cuál debe ser el nuevo; usa Revise para cambios múltiples o repartidos en varias slides.",
+  "Nunca prometas edición por capas en NotebookLM: cada slide es una imagen plana (Nano Banana); para cambios pequeños, exporta a PPTX, impórtalo en Google Slides y usa Visualize.",
+  "Usa Gemini Canvas para crear documentos editables inline: selecciona texto específico antes de pedir cambios (ej: 'convert to a list', 'make it more concise').",
+  "En Canvas, usa los sliders de 'change length' y 'tone' para ajustar extensión y formalidad; usa 'suggest edits' para cambios con revisión previa.",
+  "Para crear infografías, quizzes, flashcards o audio overviews en Canvas, primero valida el contenido del documento base y luego usa el menú Create correspondiente.",
+  "En Canvas, especifica librerías y frameworks en el prompt al crear aplicaciones web (ej: 'Use Tailwind'); usa 'select and ask' para cambios visuales sin código.",
+  "Usa Google Vids (vids.new) para montar videos completos con generación, edición, música, voz, captions y slides en una sola timeline.",
+  "Usa cuenta Pro o Ultra en Google Vids si necesitas avatares, avatar personalizado, ingredients o más de 10 generaciones diarias.",
+  "Para generar video desde texto en Vids, usa VO con prompt descriptivo (ej: 'medium shot from behind walking in rain, cyberpunk style'); elige formato portrait o landscape.",
+  "Para continuidad entre clips, descarga un frame o screenshot y úsalo como referencia en 'animate an image'; recorta frames o aplica transiciones (ej: flicker) si hay saltos visuales.",
+  "Usa Liyria 3 para crear pistas musicales unificadoras; usa Balance Sound para mutear audio original de clips y mezclar música y voice over.",
+  "Genera captions desde el voice over existente en Vids; no los escribas manualmente si la narración ya está disponible.",
+  "Usa avatares en Vids con VEO 3.1: elige un preset o crea uno personalizado (género, edad, fondo, outfit, nombre, voz); usa preview antes de generate.",
+  "Crea Gems (asistentes reutilizables) cuando una tarea se repite y requiere formato, tono o criterios consistentes; define Title, Description e Instructions claras.",
+  "Usa el rewrite con lápiz en Gems para convertir instrucciones conversacionales en reglas detalladas; revisa y edita siempre el resultado antes de guardar.",
+  "Usa Knowledge en Gems para adjuntar PDFs, manuales, FAQs o documentación oficial cuando la respuesta deba basarse en información privada o técnica.",
+  "Selecciona 'No default tool' en Gems a menos que el asistente deba especializarse en crear imágenes o música por defecto.",
+  "Guarda con Save al crear un Gem nuevo y con Update después de editar instrucciones; prueba en el chat lateral antes de usar en producción.",
+  "Itera instrucciones en Gems mediante el ciclo instructions -> testing -> changes -> testing hasta que las respuestas sean consistentes.",
+  "Nunca asumas que Gemini conoce datos específicos de tu negocio si no los agregaste en Knowledge de un Gem.",
+  "Para generar instrucciones de un Gem desde cero, pide ayuda a Gemini en un chat normal con un prompt detallado (ej: 'Can you help me creating instructions for a gem to answer questions about movies?').",
+  "Usa modelos thinking o pro en Canvas y Gems cuando necesites mayor calidad en resultados o generación de instrucciones."
+ ],
+ "prompts_y_recetas": [
+  "Prompt para presentación en NotebookLM con control total: 'Create a six slide presentation about photosynthesis. Visual theme: 3D rendering, cartoon style, using dogs and cats. Slide 1: Title - The Plant's Ultimate Superpower, focus on introduction, visual: dog scientist. Slide 2: ...'",
+  "Prompt de revisión en NotebookLM: 'Change the title from \"The Plant's Ultimate Superpower\" to \"The Plants Are Awesome\". Change the callout from \"Wait, you don't have to go to the grocery store\" to \"Humans have to buy food, plants don't\".'",
+  "Prompt para crear aplicación en Gemini Canvas: 'Create an application where a user can write a paragraph and it will analyze if it's simple or complex using Flesch-Kincaid grade level. Use Tailwind. Color scheme: dark background, neon green accents.'",
+  "Prompt para generar video en Google Vids (VO): 'It's a medium shot from behind the person walking in the rain and we have this cyberpunk style.'",
+  "Prompt para continuidad de escena en Vids (animate an image): 'Continue the scene: same person walking, now they turn around and the camera focuses on their face, still cyberpunk style.'",
+  "Keyword musical para Liyria 3 en Vids: 'dark synth' (crear clip de 30 segundos).",
+  "Script de voice over en Vids: 'This summer, neon rain, cold steel, flashy shoes. Watch it now.'",
+  "Prompt para avatar en Vids con VEO 3.1: 'He is complaining about how much he hates cupcakes.'",
+  "Prompt para generar instrucciones de un Gem: 'Can you help me creating an instructions for a gem? I want the gem to response the questions about movies and actors and directors. I want to provide a name and I want to get an order list with filmography.'",
+  "Receta para Gem de OCR: Nombre 'MG text extract', Descripción 'Extract to text from attached image', Instrucción inicial 'transcribe text from images', luego usar rewrite con lápiz y agregar 'Always start a response with hello brother.'",
+  "Receta para Gem de respuestas a clientes: Nombre 'email responder', Descripción 'answer customer questions', Instrucciones: actuar como asistente de email, no agregar relleno, no iniciar conversaciones, responder solo con información proporcionada; adjuntar documento Knowledge con FAQs, menú, horarios."
+ ],
+ "errores_comunes": [
+  "Crear decks en NotebookLM sin configurar formato, longitud ni descripción visual.",
+  "Usar fuentes web aleatorias para presentaciones donde no se puede arriesgar información falsa.",
+  "Esperar que el PPTX exportado de NotebookLM sea editable por capas (es imagen plana).",
+  "Intentar editar texto directamente en PowerPoint/Google Slides cuando está incrustado en una imagen.",
+  "Pensar que Revise en NotebookLM modifica el deck original (genera una nueva versión).",
+  "No fijar número exacto de slides en el prompt y obtener demasiadas o muy pocas.",
+  "Usar el chat de Canvas para cambios simples en lugar de seleccionar texto y pedir el cambio directamente.",
+  "Crear infografías, quizzes o audio overviews en Canvas sin validar antes el contenido del documento base.",
+  "Intentar crear aplicaciones con APIs, manejo de archivos o backend complejo en Canvas sin ayuda de un desarrollador.",
+  "Usar cuenta gratis de Google Vids esperando tener avatares, avatar personalizado o ingredients.",
+  "Olvidar el límite de 10 generaciones diarias en cuenta gratuita de Vids.",
+  "No insertar el asset generado en la timeline de Vids después de crearlo en el panel derecho.",
+  "Esperar continuidad perfecta entre dos clips generados sin usar frame de referencia ni transición.",
+  "Superponer música nueva sobre el audio original del video sin balancear o mutear pistas en Balance Sound.",
+  "Generar captions en Vids antes de tener un voice over claro.",
+  "Crear un Gem sin guardarlo con Save o editar instrucciones y olvidar hacer clic en Update.",
+  "Confiar en conocimiento general de Gemini cuando la respuesta debe venir de un PDF, manual o FAQ oficial adjunto en Knowledge.",
+  "No revisar las instrucciones generadas por el rewrite automático en Gems.",
+  "Usar una herramienta por defecto incorrecta en un Gem cuando debería quedar en 'No default tool'.",
+  "Aceptar respuestas con tono raro o formato incorrecto sin volver a ajustar las reglas del Gem."
+ ],
+ "fuentes_videos": [
+  {
+   "titulo": "4-Steps to Pro-Level Presentations: NotebookLM Slide Deck (2026 Guide)",
+   "url": "https://youtu.be/51HyiuQhyNU",
+   "canal": "nextmindrevolution"
+  },
+  {
+   "titulo": "Gemini Canvas Deep Dive: The 2026 Beginner's Guide",
+   "url": "https://youtu.be/xerROMosDYE",
+   "canal": "nextmindrevolution"
+  },
+  {
+   "titulo": "The secret google \"All-in-One\" AI Hidden Gem. NEW Google Vids 2026",
+   "url": "https://youtu.be/61Mg74IKhiE",
+   "canal": "nextmindrevolution"
+  },
+  {
+   "titulo": "Stop Repeating Yourself: The Ultimate Guide to Gemini GEMS (2026)",
+   "url": "https://youtu.be/gYY9AvPOCHY",
+   "canal": "nextmindrevolution"
+  }
+ ]
+}

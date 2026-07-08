@@ -18,6 +18,7 @@ const ARCHIVOS = {
   carreras: "kb-carreras-diseno.json",
   herramientas: "kb-herramientas.json",
   materias: "kb-contenido-materias.json",
+  videos: "kb-videos-especialistas.json",
 };
 
 function cargar(base) {
@@ -36,7 +37,7 @@ function texto(obj) {
   return { content: [{ type: "text", text: JSON.stringify(obj, null, 1) }] };
 }
 
-const BASES_ENUM = z.enum(["principios", "carreras", "herramientas", "materias"]);
+const BASES_ENUM = z.enum(["principios", "carreras", "herramientas", "materias", "videos"]);
 
 const server = new McpServer({ name: "kb-diseno", version: "1.0.0" });
 
@@ -45,7 +46,7 @@ server.registerTool(
   {
     title: "Listar bases de conocimiento",
     description:
-      "Lista las bases de conocimiento de diseño web disponibles con su versión y cantidad de entradas. Bases: principios (reglas de diseño/mkt), carreras (mallas de las mejores escuelas del mundo), herramientas (APIs y automatización), materias (contenido real de las materias: temarios, reglas para agentes, bibliografía canon).",
+      "Lista las bases de conocimiento de diseño web disponibles con su versión y cantidad de entradas. Bases: principios (reglas de diseño/mkt), carreras (mallas de las mejores escuelas del mundo), herramientas (APIs y automatización), materias (contenido real de las materias: temarios, reglas para agentes, bibliografía canon), videos (lecciones destiladas de tutoriales de especialistas de YouTube/IG: prompts verbatim, workflows IA, motion, edición).",
     inputSchema: {},
   },
   async () => {

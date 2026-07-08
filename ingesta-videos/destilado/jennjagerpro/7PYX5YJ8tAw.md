@@ -1,0 +1,38 @@
+# Apple Motion Tutorial 
+**Fuente:** jennjagerpro | https://youtu.be/7PYX5YJ8tAw
+
+## Qué enseña (2-3 líneas)
+Cómo crear un efecto de realidad aumentada (AR) inspirado en Apple Vision Pro dentro de Apple Motion, combinando recortes de imágenes desde Pixelmator Pro, animación 3D en Z-space, motion tracking con match move, y efectos de brillo holográfico. El tutorial cubre el flujo completo desde la preparación de assets hasta la composición final sobre un video B-roll.
+
+## Lecciones accionables
+- **Preparar recortes en Pixelmator Pro (o Photoshop):** Tomar un screenshot de Pinterest, duplicar la imagen tantas veces como pop-outs se deseen más una copia extra para la imagen de fondo completa. Usar la herramienta *rounded rectangle* para dibujar formas sobre cada pin, reducir opacidad para alinear, arrastrar la forma debajo de la copia de capa de imagen, hacer clic derecho y seleccionar *Create Clipping Mask*. Duplicar el rectángulo redondeado para cada pin, reposicionar y redimensionar. Luego seleccionar cada par (capa de imagen + su rectángulo), clic derecho → *Merge Layers*. Exportar como *Motion project* desde File → Export.
+- **Configurar proyecto en Apple Motion:** Abrir el proyecto exportado. Seleccionar capa de proyecto en el panel, ir a Inspector → cambiar preset a *4K*. Seleccionar el grupo que contiene todas las imágenes, escalarlo para que quepa en pantalla. Deshabilitar la capa de imagen de fondo completo para ver los recortes individuales. Seleccionar las capas de recorte (de la 1 a la 7), clic derecho → *Group*, renombrar como "cutouts". Agrupar la imagen de fondo completo por separado, renombrar "full screen".
+- **Activar 3D y añadir cámara:** Ir a *Add Object* → *Camera*, confirmar *Switch to 3D*. Arrastrar el video B-roll al tope del panel de proyecto (crea su propio grupo). Arrastrar el grupo de imágenes por encima del video. Renombrar grupos para organización.
+- **Posicionar grupo de imágenes en la pantalla del ordenador:** Colocar el playhead en el primer frame. Seleccionar el grupo "images", en Inspector → Properties, escalar, mover y rotar para que coincida con el ángulo de la pantalla del ordenador del video. Ajustar escala en X e Y por separado (no se puede usar *Distort Tool* en grupos 3D). No necesita ser perfecto aún.
+- **Animar recortes en Z-space:** Seleccionar todas las capas dentro del grupo "cutouts". Ir al frame 15, en Inspector → Properties → Position, hacer clic en el botón de keyframe (diamante) en la cabecera de Position para keyframe en X, Y, Z. Hacer keyframe también en Scale. Avanzar 20 frames, aumentar el valor de Z Position en todas las capas para que parezcan salir del marco. Luego, una por una, ajustar X, Y, Z Position y Scale de cada recorte para una composición deseada.
+- **Aplicar filtro de brillo a la imagen de fondo:** Seleccionar la capa "full screen", ir a Filters → Color → *Brightness*, reducir el valor para ver mejor los recortes animados.
+- **Exportar animación de recortes como video con transparencia:** Seleccionar el grupo "cutouts", presionar Control+S para solarlo (aislarlo). Ir a *Share* → *Export Movie*. En Settings, elegir *Apple ProRes 4444* para mantener transparencia. Nombrar "pin animations", guardar. Luego des-solo el grupo, deshabilitarlo y colapsarlo. Arrastrar el video exportado desde Finder al proyecto, sobre el grupo "images", renombrar el grupo.
+- **Resetear y motion track la imagen de fondo completo:** Seleccionar la capa "full screen" dentro del grupo "images", en Inspector → Properties → Transform, hacer clic en *Reset All Parameters*. Reducir escala para que sea más pequeña que pantalla completa. Deshabilitar el grupo de animación temporalmente. Colocar playhead al inicio. Ir a *Behaviors* → *Motion Tracking* → *Match Move*. En Inspector → Mode: *Point*, Type: *Four Corners*. Aparecen círculos rojos en las esquinas de la imagen. Pinchar cada círculo a las marcas de cruz en las esquinas de la pantalla verde del video (aproximadamente). Seleccionar cada esquina (se vuelve amarilla), usar *Tracker Preview* en Inspector para centrar el punto exactamente en el centro de cada cruz. Cambiar Transform de *Attached to Source* a *Mimic Source*. Presionar *Analyze*.
+- **Ajustar con Distort Tool:** Seleccionar la capa "full screen", usar *Distort Tool* para ajustar la imagen al interior de la pantalla del ordenador.
+- **Sincronizar animación con el tracking:** Colocar playhead al inicio. Reposicionar manualmente los recortes animados (grupo "pin animations" y grupo "cutouts" si se habilita) para alinearlos con los pines de la imagen de fondo. Seleccionar el comportamiento *Match Move* de la capa "full screen", clic derecho → *Copy*, luego seleccionar el video "pin animations" y pegar (*Paste*).
+- **Duplicar y añadir efecto glint:** Seleccionar el video "pin animations", duplicarlo (Cmd+D). En la copia original, ir a Filters → Glow → *Glint*. Ajustar intensidad al gusto (de sutil a dramático).
+- **Ajustar opacidad holográfica:** Seleccionar el grupo "animated cutouts", en Properties reducir Opacity para dar apariencia holográfica.
+- **Trim y fade:** En timeline, colocar playhead en el frame 13, seleccionar el grupo "animated cutouts", presionar I para recortar los primeros 13 frames. Agregar *Fade In/Fade Out* behavior, cambiar Fade In a 10 frames, Fade Out a 0.
+- **Ajustar brillo y blur del fondo:** Seleccionar la capa "full screen", subir Brightness para que coincida con la iluminación del video. Agregar Filters → Blur (sutil). En el frame 15, hacer keyframe en Brightness y Amount del blur. Avanzar 20 frames, reducir Brightness ligeramente y aumentar Amount del blur ligeramente para que los recortes resalten más.
+
+## Reglas para agentes
+- Usa **Apple ProRes 4444** al exportar videos con transparencia desde Motion para mantener el canal alfa.
+- Siempre coloca el **playhead en el primer frame** antes de posicionar o resetear grupos en 3D.
+- Cuando trabajes en 3D, **no uses Distort Tool en grupos**; úsalo solo en capas individuales después del motion tracking.
+- Al hacer motion tracking con *Match Move*, cambia **Mode a Point** y **Type a Four Corners** para tracking de esquinas.
+- Cambia **Transform de Attached to Source a Mimic Source** antes de analizar el tracking para que la imagen siga el movimiento correctamente.
+- Para keyframe en Z-space, **activa el keyframe en la cabecera de Position** (no en valores individuales) para keyframe en X, Y, Z simultáneamente.
+- Al duplicar el video de animación para efectos, **aplica Glint a la copia original** y mantén la otra copia sin filtrar para capas de composición.
+- **Nunca** exportes desde Pixelmator sin antes **fusionar (merge)** las capas de recorte con sus formas rectangulares.
+
+## Errores comunes que evita o menciona
+- No usar *Distort Tool* en grupos cuando se trabaja en 3D porque "things get real funky" — usar workaround de escalado manual en X/Y y luego motion tracking + Distort Tool en capas individuales.
+- Olvidar que al exportar desde Pixelmator como Motion project, las dimensiones heredan las del canvas original — hay que cambiar el preset manualmente a 4K en Motion.
+- No keyframeear en el frame correcto: el primer keyframe debe estar en el frame 15 (no en el 0) para que la animación no comience instantáneamente.
+- No soltar (solo) el grupo de recortes antes de exportar el video con transparencia, lo que resultaría en un video con fondo sólido en lugar de alfa.
+- No recortar (trim) los primeros frames de la animación (13 frames) para que los recortes no aparezcan antes de que comience el movimiento.
