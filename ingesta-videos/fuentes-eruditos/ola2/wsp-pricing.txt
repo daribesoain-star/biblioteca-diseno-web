@@ -1,0 +1,1337 @@
+Documentos
+Información general
+Precios en la plataforma de WhatsApp Business
+El contenido de esta página se tradujo de inglés a otro idioma con IA. El contenido traducido con IA puede contener errores, omisiones o significados no deseados. Como el idioma traducido con IA puede ser impreciso o poco claro, puedes consultar el contenido original en inglés de esta página para revisarlo.
+¿Te resultó útil?
+Precios en la plataforma de WhatsApp Business
+Updated: 2 jul 2026
+Copiar para LLM
+Ver como Markdown
+En este documento, se explica cómo funcionan los precios en la plataforma de WhatsApp Business.
+API de la nube y API de mensajes de marketing para WhatsApp
+A partir del 1 de julio de 2025, Meta cobrará por mensaje:
+Solo se te cobra cuando se entrega un mensaje de plantilla ("type":"template").
+Las tarifas varían según la categoría de la plantilla y el código de llamada del país del número de teléfono de WhatsApp del destinatario.
+Meta cobra a las empresas de las siguientes maneras:
+Los mensajes que no corresponden a una plantilla son gratuitos ("type":"text", "type":"image", etc.). Los mensajes que no son de plantilla solo se pueden enviar dentro de un intervalo de servicio de atención al cliente abierto. Consulta Enviar mensajes para obtener una lista de los tipos de mensajes.
+Las plantillas de utilidad entregadas dentro del intervalo de servicio al cliente son gratuitas.
+Puedes desbloquear tarifas más bajas para mensajes de plantillas de utilidad y autenticación según el volumen de mensajes.
+Todos los mensajes son gratuitos durante 72 horas, incluidos los mensajes de plantilla, si se envían dentro de un intervalo gratuito desde punto de acceso.
+Documento explicativo sobre precios
+En el PDF explicativo sobre precios, se detalla cómo Meta cobra a las empresas:
+PDF explicativo sobre precios
+Categorías de plantillas de mensajes
+A diferencia de los mensajes sin plantilla, los mensajes de plantilla son el único tipo de mensaje que se puede enviar fuera de un intervalo de servicio de atención al cliente. Las plantillas se pueden categorizar de la siguiente manera:
+Marketing
+Utilidad
+Autenticación
+Consulta Categorización de plantillas para obtener información sobre cómo categorizar correctamente tus plantillas.
+Mensajes de plantilla frente a mensajes sin plantilla
+CSW = Intervalo de atención al cliente
+FEP = Intervalo de puntos de acceso gratuitos
+Las empresas son responsables de revisar la categoría asignada a sus plantillas aprobadas. Cada vez que se utiliza una plantilla, una empresa acepta los cargos asociados a la categoría aplicada a la plantilla en el momento de su uso.
+Ejemplo de cargo
+En el siguiente ejemplo, una empresa envía 4 mensajes a un usuario de WhatsApp, pero solo se le cobra por 2 (1 cobro por mensaje de marketing, 1 cobro por mensaje de utilidad).
+Hora	Acción	Tarifa	Motivo
+
+0
+	
+Envías un mensaje de plantilla de marketing a un usuario de WhatsApp para promocionar tu nuevo producto.
+	
+Marketing
+	
+Todos los mensajes de plantilla de marketing se cobran.
+
+
+2
+	
+El usuario te envía un mensaje sobre el producto.
+Así, inicia un intervalo de servicio al cliente (customer service window, CSW) de 24 horas.
+	
+-
+	
+No se cobran los mensajes que envía un usuario de WhatsApp a una empresa.
+
+
+3
+	
+Envías un mensaje de texto al usuario ("type":"text") en el que describes el producto en detalle.
+	
+Ninguna
+	
+Todos los mensajes que no son de plantilla son gratuitos dentro de un intervalo de servicio de atención al cliente abierto.
+
+
+4
+	
+El usuario compra el producto y le envías una plantilla de utilidad para confirmar su pedido.
+	
+Ninguna
+	
+El CSW continúa abierto y las plantillas de utilidad que se envían en ese plazo son gratuitas.
+
+
+26
+	
+El CSW finaliza, lo que significa que ya no puedes enviar mensajes que no pertenecen a una plantilla.
+	
+-
+	
+Pasaron 24 horas desde que el usuario te envió el último mensaje.
+
+
+30
+	
+Envías un mensaje de plantilla de utilidad al usuario para brindarle una actualización sobre su pedido.
+	
+Utilidad
+	
+Los mensajes de plantilla de utilidad que se envían fuera de un CSW se cobran, y no existe ningún CSW abierto entre ti y el usuario.
+Calendario de precios
+Para que nuestros clientes puedan planificar y prepararse mejor para las actualizaciones de precios, el siguiente calendario de precios se aplica para mensajes y llamadas de voz en la plataforma de WhatsApp Business:
+Meta puede actualizar los precios solo el primer día de cada trimestre, es decir, hasta cuatro veces al año: el 1 de enero, el 1 de abril, el 1 de julio y/o el 1 de octubre.
+Meta proporcionará un aviso con anticipación que se adapte mejor al esfuerzo que requiere la implementación de los diferentes tipos de actualizaciones, como se muestra debajo:
+Tipo de actualización de precios	Ejemplos	Aviso con poca anticipación
+
+Actualización de la hoja de tarifas
+	
+Actualizar la tarifa de un producto para un mercado determinado
+Actualización de los niveles de volumen de un producto para un mercado determinado (solo mensajes de utilidad y autenticación)
+El traslado de un mercado de una región de precios (por ejemplo, "Otros") a otra o a su independencia en la hoja de tarifas
+	
+1 mes
+
+
+Complemento del modelo de precios
+	
+El 1 de julio de 2025, se introdujeron nuevos niveles de volumen para mensajes de utilidad y autenticación
+	
+3 meses
+
+
+Cambio de modelo de precios
+	
+El 1 de julio de 2025, se actualizó nuestro modelo de precios de un precio basado en conversaciones a un precio por mensaje
+	
+6 meses
+Tarifas
+Las tarifas varían según la categoría de la plantilla, el nivel de volumen y la tarifa del país o la región.
+Tarifas y niveles por volumen
+Las hojas de tarifas reflejan nuestras tarifas y niveles de volumen actuales, a partir del 1 de julio de 2026, según la zona horaria de la cuenta de WhatsApp Business. Esta información también está disponible de forma interactiva en nuestro sitio web de WhatsApp Business⁠.
+Divisa	Tarifas (CSV)	Niveles de volumen (CSV)	Tarifas y niveles de volumen (PDF)
+
+USD
+	
+Tarifas en USD
+	
+Niveles de volumen en USD
+	
+Tarifas y niveles de volumen en USD
+
+
+AED
+	
+Tarifas en AED
+	
+Niveles de volumen en AED
+	
+Tarifas y niveles de volumen en AED
+
+
+ARS
+	
+Tarifas en ARS
+	
+Niveles de volumen en ARS
+	
+Tarifas y niveles de volumen en ARS
+
+
+AUD
+	
+Tarifas en AUD
+	
+Niveles de volumen en AUD
+	
+Tarifas y niveles de volumen en AUD
+
+
+BRL
+	
+Tarifas en BRL
+	
+Niveles de volumen en BRL
+	
+Tarifas y niveles de volumen en BRL
+
+
+CLP
+	
+Tarifas en CLP
+	
+Niveles de volumen en CLP
+	
+Tarifas y niveles de volumen en CLP
+
+
+COP
+	
+Tarifas en COP
+	
+Niveles de volumen en COP
+	
+Tarifas y niveles por volumen en COP
+
+
+EUR
+	
+Tarifas en EUR
+	
+Niveles de volumen en EUR
+	
+Tarifas y niveles de volumen en EUR
+
+
+GBP
+	
+Tarifas en GBP
+	
+Niveles de volumen en GBP
+	
+Tarifas y niveles de volumen en GBP
+
+
+IDR
+	
+Tarifas en IDR
+	
+Niveles de volumen en IDR
+	
+Tarifas y niveles de volumen en IDR
+
+
+INR
+	
+Tarifas en INR
+	
+Niveles de volumen en INR
+	
+Tarifas y niveles de volumen en INR
+
+
+MXN
+	
+Tarifas en MXN
+	
+Niveles por volumen en MXN
+	
+Tarifas y niveles por volumen en MXN
+
+
+MYR
+	
+Tarifas en MYR
+	
+Niveles por volumen en MYR
+	
+Tarifas y niveles de volumen en MYR
+
+
+PEN
+	
+Tarifas en PEN
+	
+Niveles por volumen en PEN
+	
+Tarifas y niveles por volumen en PEN
+
+
+SAR
+	
+Tarifas en SAR
+	
+Niveles de volumen en SAR
+	
+Tarifas y niveles por volumen en SAR
+
+
+SGD
+	
+Tarifas en SGD
+	
+Niveles de volumen en SGD
+	
+Tarifas y niveles de volumen en SGD
+Actualizaciones de las hojas de tarifas
+A continuación, se indican las futuras actualizaciones de nuestras tarifas. Para obtener más información sobre las tarifas actuales, consulta nuestras hojas de tarifas mencionadas anteriormente.
+Actualizaciones de las hojas de tarifas a partir del 1 de octubre de 2026
+Para dar a los clientes más de un mes de preaviso (más tiempo para planificar y prepararse), Meta compartirá las actualizaciones de precios a partir del 1 de octubre de 2026 el 1 de junio de 2026. A partir del 1 de julio de 2026, Meta quitará mercados adicionales de su respectiva región de precios "Resto de" para que sean independientes en las hojas de tarifas. A continuación, se encuentran los mercados de los que saldrá Meta y las actualizaciones de las tarifas. Meta anunciará las tarifas a más tardar el 1 de septiembre de 2026, según el $calendario de precios de .
+Bangladesh*, Irak*, Nepal*, Sri Lanka*: reducción de las tarifas de utilidad y autenticación, además de una nueva tarifa internacional de autenticación que es más alta que la tarifa de autenticación regional actual.
+Kazajistán*, Kuwait*, Marruecos*, Omán*, Ucrania*: aumentarán las tarifas de utilidad y autenticación, y se agregará una nueva tarifa internacional de autenticación, que será superior a la tarifa de autenticación regional actual.
+Lanzamientos de localización de facturación
+Brasil
+En Brasil, la implementación comenzó como estaba previsto el 1 de julio de 2026, pero será gradual. Esperamos que todos los clientes que cumplan con los requisitos puedan crear nuevas cuentas de WhatsApp Business en BRL a mediados de julio.
+A partir del 1 de julio de 2026 a las 9:00 PT – Solo los socios y clientes directamente integrados cuyo país de venta sea Brasil en Centro de facturación⁠ (clientes elegibles) pueden crear nuevas cuentas de WhatsApp Business (WABA) en BRL (reales brasileños). Obtén más información sobre la localización de la facturación en Brasil aquí⁠.
+Las tarifas por mensaje en BRL se publicaron en below. Los cargos de cualquier WABA en BRL serán facturados en BRL por la entidad local de Meta en Brasil, Facebook Brasil.
+Como recordatorio, los clientes que cumplan los requisitos deben asegurarse de que todas las WABA de su portfolio comercial se migren a BRL antes del 30 de junio de 2027 para evitar interrupciones, ya que, a partir del 1 de julio de 2027, Meta dejará de entregar los mensajes de WABA que no sean de BRL de los clientes que cumplan los requisitos. Para hacer que este proceso de migración sea más fácil y rápido, usa las API de migración de divisas WABA, que estarán disponibles a partir del 1 de junio de 2026.
+India
+La localización de la facturación se lanzará el 1 de enero de 2026 para socios y clientes directamente integrados cuyo país de venta sea India en Centro de facturación⁠ (clientes que cumplen los requisitos). Obtén más información aquí⁠.
+Los clientes que cumplan los requisitos deben asegurarse de que todas las WABA de su portfolio comercial se migren a la INR antes del 31 de diciembre de 2026 para evitar interrupciones, ya que, a partir del 1 de enero de 2027, Meta dejará de entregar los mensajes de las WABA que no utilicen la INR de los clientes que cumplan los requisitos. Para hacer que este proceso de migración sea más fácil y rápido, usa las API de migración de divisas WABA, que estarán disponibles a partir del 1 de junio de 2026.
+Actualizaciones de las hojas de tarifas anteriores
+A partir del 1 de julio de 2026 a las 00:00, según la zona horaria de la cuenta de WhatsApp Business, se aplicaron las siguientes actualizaciones de tarifas:
+Hong Kong*: cargos más altos por utilidad y autenticación.
+Hungría*: tarifas de utilidad y autenticación más altas.
+Italia: tarifa más alta para mensajes de marketing.
+Polonia*: Tarifas de marketing, utilidad y autenticación más bajas.
+Qatar*: cargos más altos por utilidad y autenticación.
+Rumania*: tarifas de utilidad y autenticación más altas.
+Singapur*: cargos más altos por utilidad y autenticación.
+España: tarifa más alta para mensajes de marketing.
+Reino Unido: tarifa más alta para mensajes de marketing.
+* Hasta el 30 de junio de 2026, los mensajes a los usuarios de estos mercados se cobraban según las tarifas regionales correspondientes (por ejemplo, el resto de Europa Central y Oriental en el caso de Polonia). Estos mercados se quitaron de la tarifa regional para que sean independientes en las hojas de tarifas, con tarifas específicas del mercado.
+En el caso de los mensajes de utilidad y autenticación, los niveles de volumen de estos mercados ahora son específicos de cada mercado. Por ejemplo, los mensajes que las empresas envían a los usuarios en Polonia a/ ya no se contarán en los niveles de volumen de "Resto de Europa Central y Oriental" y, en cambio, b/ se contarán en los niveles de volumen de Polonia.
+A partir del 1 de abril de 2026 a las 00:00, según la zona horaria de la cuenta de WhatsApp Business, se aplicaron las siguientes actualizaciones de tarifas:
+Arabia Saudita: tarifa más alta para mensajes de marketing.
+India: tarifa internacional de autenticación más alta.
+Pakistán: cargos más altos por utilidad y autenticación. No se aplica ningún cambio a la tarifa internacional de autenticación.
+Turquía: Tarifas de utilidad y autenticación más bajas.
+Se incorporaron 8 nuevas divisas de facturación: ARS (Argentina), CLP (Chile), COP (Colombia), MYR (Malasia), PEN (Perú), SAR (Arabia Saudita), SGD (Singapur) y AED (Emiratos Árabes Unidos).
+A partir del 1 de enero de 2026 a las 00:00, según la zona horaria de la cuenta de WhatsApp Business, se aplicaron las siguientes actualizaciones de tarifas:
+India: tarifa de marketing más alta.
+Francia y Egipto: se redujeron las tarifas de marketing.
+Norteamérica: tarifas de utilidad y autenticación más bajas.
+A partir del 1 de octubre de 2025 a las 00:00, según la zona horaria de la cuenta de WhatsApp Business, se aplicaron las siguientes actualizaciones de tarifas:
+Colombia: tarifas de utilidad y autenticación más altas.
+México: tarifas de marketing más bajas.
+Emiratos Árabes Unidos: tarifa más alta para mensajes de marketing.
+Argentina, Egipto y Arabia Saudita: tarifas de utilidad y autenticación más bajas.
+Zimbabue se asignó a nuestra región "Resto de África" en comparación con "Otro". A los mensajes entregados a los usuarios de WhatsApp con un código de llamada de país +263 (Zimbabue) les corresponderá la tarifa de "Resto de África".
+A partir del 1 de julio de 2025: se reducirán los precios de los mensajes de utilidad y autenticación en varios mercados para garantizar que los precios sean similares a los canales alternativos de estos casos de uso. Las tarifas por conversación de marketing se convirtieron en tarifas por mensaje de marketing.
+A partir del 1 de abril de 2025: se redujo la tarifa internacional de autenticación por conversación en Egipto, Nigeria, Pakistán y Sudáfrica.
+A partir del 1 de febrero de 2025: se redujo la tarifa de conversación de autenticación en Egipto, Malasia, Nigeria, Pakistán, Arabia Saudita, Sudáfrica y los Emiratos Árabes Unidos.
+A partir del 1 de noviembre de 2024: las conversaciones de servicio ahora son gratuitas para todos los negocios.
+A partir del 1 de octubre de 2024: se actualizó la tarifa de conversación de marketing en la India, Arabia Saudita, los Emiratos Árabes Unidos y el Reino Unido.
+A partir del 1 de agosto de 2024: se redujo la tarifa de conversación de utilidad.
+Tarifas de autenticación internacional
+Algunos países tienen tarifas internacionales de autenticación. Nuestras hojas de tarifas reflejan estas tarifas. Consulta Tarifas internacionales de autenticación para obtener información acerca de estas tarifas y cómo pueden afectarte.
+Códigos de llamadas de países
+Los cargos por los mensajes se basan en el código de llamada del país del número de teléfono de WhatsApp del destinatario. La siguiente tabla muestra cómo Meta asigna códigos de llamadas de países y códigos de país ISO 3166 Alpha-2 a países o regiones. Si un país no figura a continuación, se asigna a Otro.
+Mercados	Código de llamada
+(y el prefijo de red si corresponde)	Código ISO de país
+
+Países
+
+Argentina
+
+Brasil
+
+Chile
+
+Colombia
+
+Egipto
+
+Francia
+
+Alemania
+
+Hong Kong
+
+Hungría
+
+India
+
+Indonesia
+
+Israel
+
+Italia
+
+Malasia
+
+México
+
+Países Bajos
+
+Nigeria
+
+Pakistán
+
+Perú
+
+Polonia
+
+Qatar
+
+Rumania
+
+Rusia
+
+Arabia Saudita
+
+Singapur
+
+Sudáfrica
+
+España
+
+Turquía
+
+Emiratos Árabes Unidos
+
+Reino Unido
+	
+
+
+54
+
+55
+
+56
+
+57
+
+20
+
+33
+
+49
+
+852
+
+36
+
+91
+
+62
+
+972
+
+39
+
+60
+
+52
+
+31
+
+234
+
+92
+
+51
+
+48
+
+974
+
+40
+
+7
+
+966
+
+65
+
+27
+
+34
+
+90
+
+971
+
+44
+	
+
+
+AR
+
+Brasil
+
+CL
+
+CO
+
+Egipto
+
+Francia
+
+Alemania
+
+HK
+
+HU
+
+India
+
+ID
+
+IL
+
+Italia
+
+MY
+
+México
+
+NL
+
+Nigeria
+
+PK
+
+PE
+
+PL
+
+QA
+
+RO
+
+RU
+
+SA
+
+SG
+
+ZA
+
+España
+
+TR
+
+AE
+
+Reino Unido
+
+
+Norteamérica
+
+Canadá
+
+Estados Unidos
+	
+
+
+1
+
+1
+	
+
+
+Canadá
+
+Estados Unidos
+
+
+Resto de África
+
+Argelia
+
+Angola
+
+Benín
+
+Botsuana
+
+Burkina Faso
+
+Burundi
+
+Camerún
+
+Chad
+
+República del Congo (Brazzaville)
+
+Eritrea
+
+Etiopía
+
+Gabón
+
+Gambia
+
+Ghana
+
+Guinea-Bisáu
+
+Costa de Marfil
+
+Kenia
+
+Lesoto
+
+Liberia
+
+Libia
+
+Madagascar
+
+Malaui
+
+Mali
+
+Mauritania
+
+Marruecos
+
+Mozambique
+
+Namibia
+
+Níger
+
+Ruanda
+
+Senegal
+
+Sierra Leona
+
+Somalia
+
+Sudán del Sur
+
+Sudán
+
+Suazilandia
+
+Tanzania
+
+Togo
+
+Túnez
+
+Uganda
+
+Zambia
+
+Zimbabue
+	
+
+
+213
+
+244
+
+229
+
+267
+
+226
+
+257
+
+237
+
+235
+
+242
+
+291
+
+251
+
+241
+
+220
+
+233
+
+245
+
+225
+
+254
+
+266
+
+231
+
+218
+
+261
+
+265
+
+223
+
+222
+
+212
+
+258
+
+264
+
+227
+
+250
+
+221
+
+232
+
+252
+
+211
+
+249
+
+268
+
+255
+
+228
+
+216
+
+256
+
+260
+
+263
+	
+
+
+DZ
+
+AO
+
+BJ
+
+BW
+
+BF
+
+BI
+
+CM
+
+TD
+
+CG
+
+ER
+
+ET
+
+GA
+
+GM
+
+GH
+
+GW
+
+CI
+
+KE
+
+LS
+
+LR
+
+LY
+
+MG
+
+MW
+
+ML
+
+MR
+
+MA
+
+MZ
+
+Norteamérica
+
+NE
+
+RW
+
+SN
+
+SL
+
+SO
+
+SS
+
+SD
+
+SZ
+
+TZ
+
+TG
+
+TN
+
+UG
+
+ZM
+
+ZW
+
+
+Resto de Asia-Pacífico
+
+Afganistán
+
+Australia
+
+Bangladesh
+
+Camboya
+
+China
+
+Japón
+
+Laos
+
+Mongolia
+
+Nepal
+
+Nueva Zelanda
+
+Papúa Nueva Guinea
+
+Filipinas
+
+Sri Lanka
+
+Taiwán
+
+Tayikistán
+
+Tailandia
+
+Turkmenistán
+
+Uzbekistán
+
+Vietnam
+	
+
+
+93
+
+61
+
+880
+
+855
+
+86
+
+81
+
+856
+
+976
+
+977
+
+64
+
+675
+
+63
+
+94
+
+886
+
+992
+
+66
+
+993
+
+998
+
+84
+	
+
+
+AF
+
+Australia
+
+BD
+
+KH
+
+CN
+
+Japón
+
+LA
+
+MN
+
+NP
+
+Nueva Zelanda
+
+PG
+
+Filipinas
+
+LK
+
+TW
+
+TJ
+
+TH
+
+TM
+
+UZ
+
+VN
+
+
+Resto de Europa Central y Oriental
+
+Albania
+
+Armenia
+
+Azeri
+
+Bielorrusia
+
+Bulgaria
+
+Croacia
+
+República Checa
+
+Georgia
+
+Grecia
+
+Letonia
+
+Lituania
+
+Moldavia
+
+Macedonia del Norte
+
+Serbia
+
+Eslovaquia
+
+Eslovenia
+
+Ucrania
+	
+
+
+355
+
+374
+
+994
+
+375
+
+359
+
+385
+
+420
+
+995
+
+30
+
+371
+
+370
+
+373
+
+389
+
+381
+
+421
+
+386
+
+380
+	
+
+
+AL
+
+AM
+
+AZ
+
+BY
+
+BG
+
+RR. HH.
+
+CZ
+
+GE
+
+GR
+
+LV
+
+LT
+
+MD
+
+MK
+
+RS
+
+SK
+
+SI
+
+UA
+
+
+Resto de Europa Occidental
+
+Austria
+
+Bélgica
+
+Dinamarca
+
+Finlandia
+
+Irlanda
+
+Noruega
+
+Portugal
+
+Suecia
+
+Suiza
+	
+
+
+43
+
+32
+
+45
+
+358
+
+353
+
+47
+
+351
+
+46
+
+41
+	
+
+
+AT
+
+BE
+
+Dinamarca
+
+Finlandia
+
+IE
+
+NO
+
+PT
+
+SE
+
+Suiza
+
+
+Resto de Latinoamérica
+
+Bolivia
+
+Costa Rica
+
+República Dominicana
+
+Ecuador
+
+El Salvador
+
+Guatemala
+
+Haití
+
+Honduras
+
+Jamaica
+
+Nicaragua
+
+Panamá
+
+Paraguay
+
+Puerto Rico
+
+Uruguay
+
+Venezuela
+	
+
+
+591
+
+506
+
+1 (809, 829, 849)
+
+593
+
+503
+
+502
+
+509
+
+504
+
+1 (658, 876)
+
+505
+
+507
+
+595
+
+1 (787, 939)
+
+598
+
+58
+	
+
+
+BO
+
+CR
+
+DEBES
+
+EC
+
+SV
+
+GT
+
+HT
+
+HN
+
+JM
+
+NI
+
+PA
+
+PY
+
+PR
+
+UY
+
+VE
+
+
+Resto de Medio Oriente
+
+Baréin
+
+Irak
+
+Jordania
+
+Kuwait
+
+Líbano
+
+Omán
+
+Yemen
+	
+
+
+973
+
+964
+
+962
+
+965
+
+961
+
+968
+
+967
+	
+
+
+BH
+
+IQ
+
+JO
+
+KW
+
+LB
+
+OM
+
+YE
+
+
+Otro
+
+Todos los demás países
+	
+
+
+Varían según el país
+	
+Niveles de volumen
+Puedes desbloquear tarifas de utilidad y autenticación más bajas en función de la cantidad de mensajes que envíes en un mes.
+Acumulación por nivel
+Los mensajes se agregan en el nivel del portfolio comercial, en todas las cuentas de WhatsApp Business (WABA) que posee el portfolio. Para determinar las tarifas de nivel que se pueden aplicar en un mes dado para un par categoría-mercado dado, Meta agrega los mensajes de todas las WABA de un portfolio comercial de cada par de mercado y categoría (p. ej., Brasil-autenticación, Brasil-utilidad, India-autenticación, etc.).
+Solo se tienen en cuenta los mensajes cobrados para determinar el nivel. Por lo tanto, no se tienen en cuenta los siguientes mensajes:
+Plantillas de utilidad entregadas a usuarios de WhatsApp dentro de un intervalo de servicio de atención al cliente abierto.
+Las plantillas de utilidad entregadas dentro de un intervalo gratuito desde punto de acceso.
+Únicamente Meta determinará los niveles de volumen. Todos los datos estadísticos son aproximados debido a leves variaciones en el procesamiento de datos. No se debe depender de manera indebida de los datos estadísticos.
+Dinámica clave
+Los niveles son específicos del par de mercado y categoría: los niveles de volumen se alinean con nuestras hojas de tarifas y difieren según el mercado (por ejemplo, Brasil o el resto de Latinoamérica) y la categoría (utilidad, autenticación).
+Las tarifas son específicas del nivel: cuando una empresa envía suficientes mensajes en un par de mercado y categoría dado para alcanzar el siguiente nivel, desbloquea la tarifa del siguiente nivel, específicamente para los mensajes en ese nivel. Esta tarifa se aplica a todas sus WABA.
+Los niveles se restablecen cada mes: cuando comienza el siguiente mes (00:00, zona horaria de la WABA), el conteo de mensajes se restablece a 0 y las empresas comienzan a acumular mensajes correspondientes a ese mes.
+Ejemplos de niveles de volumen
+La siguiente tabla es ilustrativa y solo destaca la dinámica de los niveles de volumen. Consulta nuestras hojas de tarifas para obtener información sobre las tarifas cobradas.
+A continuación, te mostramos varios ejemplos para destacar cómo funcionan los niveles y qué se cobra en un mes determinado, para un mercado y una categoría determinados. Estos ejemplos remiten al cuadro ilustrativo presentado previamente:
+Ejemplo 1: a una empresa que envía un total de B mensajes de autenticación en un mes a la India se le cobra:
+La tarifa de lista por los primeros A mensajes.
+La tarifa de nivel 1 por los mensajes A+1 a B.
+Cobro total del mes = tarifa por nivel 𝗑 mensajes en cada nivel.
+Ejemplo 2: Un negocio al que se empiezan a cobrar nuestras tarifas de autenticación internacional el 15 de cada mes:
+Del día 1 al 14 de ese mes: se aplican los niveles de volumen en la tarifa de autenticación.
+Del día 15 en adelante: se aplican niveles de volumen en la tarifa internacional de autenticación y los mensajes siguen acumulándose en ese mes. Por ejemplo, si una empresa ya alcanzó el nivel 2, se le cobrará la tarifa internacional de autenticación del nivel 2:
+Ejemplo 3: Una empresa tiene 3 WABA que envían mensajes de autenticación a la India. Para la WABA A, todavía es 31 de julio según su zona horaria. Para las WABA B y C, ya es 1 de agosto según su zona horaria. En julio, a la empresa ya se le cobra el nivel de tarifas 1.
+El portfolio comercial acumulará cargos por los niveles de julio (mediante la WABA A) y agosto (mediante las WABA B y C) durante un período de tiempo.
+La empresa puede alcanzar el siguiente nivel para julio mediante la WABA A. Si eso sucede, los mensajes del resto de julio de la WABA A se cobrarán con la tarifa de nivel 2.
+Ejemplo 4: una empresa tiene 3 WABA, integradas entre 2 socios. El proveedor 1 envía los primeros B mensajes en un mes dado y el proveedor 2 comienza a enviar mensajes a partir de cuando la empresa está en el tercer nivel. La empresa no envía suficientes mensajes ese mes para alcanzar el siguiente nivel. Cuánto cobra Meta a cada proveedor:
+Proveedor 1: tarifa de la lista para A mensajes, luego, tarifa del nivel 1 de A+1 a B y tarifa del nivel 2 de B+1 a C.
+Proveedor 2: tarifa de nivel 2 en todos sus mensajes.
+Webhooks por nivel
+A partir del 1 de octubre de 2025, se activará un webhook account_update con event configurado en VOLUME_BASED_PRICING_TIER_UPDATE cuando tu cuenta de WhatsApp Business alcance un nuevo nivel de volumen en cualquier mercado en un mes determinado. Esto complementa nuestro punto de conexión pricing_analytics, que continuará proporcionando el progreso de nivel mensual e información de nivel sobre los mensajes entregados.
+Ejemplo de webhook:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "102290129340398",
+      "time": 1743451903,
+      "changes": [
+        {
+          "value": {
+            "volume_tier_info": {
+                "tier_update_time": 1743451903,
+                "pricing_category": "UTILITY",
+                "tier": "25000001:50000000",
+                "effective_month": "2025-11",
+                "region": "India"
+            },
+            "event": "VOLUME_BASED_PRICING_TIER_UPDATE"
+          },
+          "field": "account_update"
+        }
+      ]
+    }
+  ]
+}
+
+tier_update_time indica cuando tu WABA alcanzó un nivel de volumen más alto (marca de tiempo de Unix).
+pricing_category indica la categoría de plantilla (UTILITY o AUTHENTICATION) a la que aplica la tarifa del nuevo nivel de volumen.
+tier indica los límites inferiores y superiores del nuevo nivel de volumen.
+effective_month indica el mes a partir del cual está vigente la tarifa del nuevo nivel de volumen.
+region indica el país/región del usuario de WhatsApp al que se aplica la tarifa del nuevo nivel de volumen.
+Ten en cuenta que es posible que se activen varios webhooks account_update que describan el mismo evento de cambio de nivel. En estos casos, usa el webhook con la marca de tiempo Unix tier_update_time más pequeña como el webhook oficial.
+Análisis por nivel
+Puedes obtener información por nivel de volumen mediante el análisis de plantilla.
+Mensajes gratuitos que no pertenecen a una plantilla
+Los mensajes que no pertenecen a una plantilla, que solo pueden enviarse dentro de un intervalo de servicio de atención al cliente abierto intervalo de servicio de atención al cliente, son gratuitos. En estos mensajes, type se configurará en free_customer_service en el objeto pricing de los webhooks de mensajes de estado:
+"pricing": {
+  "billable": false,
+  "pricing_model": "PMP",
+  "type": "free_customer_service",
+  "category": "service"
+}
+
+Mensajes de utilidad gratuitos de una plantilla
+Los mensajes de plantilla de utilidad enviados dentro de un intervalo de servicio de atención al cliente abierto son gratuitos. En estos mensajes, type se configurará en free_customer_service y category se configurará en utility en el objeto pricing de los webhooks de mensajes de estado:
+"pricing": {
+  "billable": false,
+  "pricing_model": "PMP",
+  "type": "free_customer_service",
+  "category": "utility"
+}
+
+Casos límite
+Si envías un mensaje a un usuario de WhatsApp antes del 1 de julio de 2025 (cuando Meta cambió de los precios basados en conversaciones a los precios por mensaje), se abre una conversación de utilidad entre tú y el usuario que abarca el cambio a los precios por mensaje (la conversación se abrió antes del cambio, pero se cerrará después de este). En este caso, las plantillas de utilidad enviadas al usuario después del cambio mientras la conversación está abierta serán gratuitas, pero se atribuirán a la conversación abierta. En los webhooks de mensajes de estado, los mensajes tendrán un pricing_model de CBP y el identificador de conversación de utilidad se asignará al conversation.id. Una vez que finalice la conversación, los mensajes de utilidad posteriores se cobrarán según el precio por mensaje, que se reflejará en los nuevos webhooks.
+Intervalos gratuitos desde punto de entrada
+Si un usuario de WhatsApp te envía un mensaje a través de un anuncio de clic a WhatsApp o el botón de llamada a la acción de la página de Facebook usando un dispositivo que ejecuta nuestra app para Android o iOS (nuestras apps web y de escritorio no son compatibles):
+Se abre un intervalo de servicio de atención al cliente de 24 horas (normalmente).
+Si respondes en 24 horas usando cualquier tipo de mensaje, el mensaje será gratuito, y se abrirá un intervalo gratuito desde punto de acceso (FEP), a partir del momento en que respondas.
+Los intervalos FEP permanecen abiertos durante 72 horas. Mientras esté abierto, podrás enviar cualquier tipo de mensaje al usuario sin cargo. Ten en cuenta, sin embargo, que el intervalo de servicio al cliente es independiente del intervalo FEP, por lo que si el intervalo de servicio al cliente finaliza, solo podrás enviar mensajes de plantilla.
+Nueva función de precio máximo para la API de mensajes de marketing para WhatsApp
+A partir de 2026, las empresas integradas en la API de mensajes de marketing para WhatsApp pueden configurar un precio máximo por entrega de mensaje de marketing. Cuando se configura un precio máximo, Meta cobra ese precio máximo o uno inferior por la entrega.
+Nueva política de precios para proveedores de IA que aprovechan la plataforma de WhatsApp Business
+Haz clic aquí para obtener más información sobre nuestra nueva política de precios para "proveedores de IA" que utilizan la plataforma de WhatsApp Business, que entrará en vigor el 16 de febrero de 2026 y se actualizará el 12 de mayo de 2026.
+Análisis
+Usa el campo pricing_analytics para obtener información detallada de los precios por mensaje y los niveles de los mensajes entregados.
+Webhooks
+En los mensajes facturables, type se configura en regular en el objeto pricing de los webhooks de mensajes de estado:
+"pricing": {
+  "billable": true,
+  "pricing_model": "PMP",
+  "type": "regular",
+  "category": "<PRICING_CATEGORY>"
+}
+<PRICING_CATEGORY> indica la tarifa que se aplicó (p. ej., marketing). Consulta la referencia sobre webhooks de mensajes de estado para obtener una lista de los posibles valores.
+Ten en cuenta que, actualmente, no se incluye información de nivel en ningún webhook. Usa el campo pricing_analytics para obtener información sobre los niveles de los mensajes entregados.
+Facturación
+La facturación y las acciones relacionadas se gestionan a través de Meta Business Suite. Consulta Información sobre la facturación de tu cuenta de WhatsApp Business⁠ para obtener más información.
+Precios de la API de llamadas de WhatsApp Business
+La API de llamadas de WhatsApp Business tiene diferentes precios. Consulta nuestro documento Precios de la API de llamadas para obtener más información.
+Precios basados en conversaciones
+Los precios basados en conversaciones quedaron obsoletos. Los reemplazaron los precios por mensaje el 1 de julio de 2025.
+¿Te resultó útil esta página?

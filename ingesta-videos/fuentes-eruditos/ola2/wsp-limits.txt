@@ -1,0 +1,66 @@
+Documentos
+Información general
+Límites de mensajes
+El contenido de esta página se tradujo de inglés a otro idioma con IA. El contenido traducido con IA puede contener errores, omisiones o significados no deseados. Como el idioma traducido con IA puede ser impreciso o poco claro, puedes consultar el contenido original en inglés de esta página para revisarlo.
+¿Te resultó útil?
+Límites de mensajes
+Updated: 21 may 2026
+Copiar para LLM
+Ver como Markdown
+El campo messaging_limit_tier, que devolvía el límite de mensajes de un número de teléfono comercial, quedó obsoleto. Solicita el campo whatsapp_business_manager_messaging_limit en su lugar.
+En este documento, se describen los límites de mensajes para la plataforma de WhatsApp Business.
+Los límites de mensajes son el número máximo de números de teléfono de usuarios únicos de WhatsApp a los que tu empresa puede entregar mensajes, fuera de un intervalo de servicio de atención al cliente, en un período continuo de 24 horas.
+Los límites de mensajes se calculan y se establecen en el nivel del portfolio comercial y se comparten entre todos los números de teléfono de la empresa en un portfolio. Esto significa que si un portfolio comercial tiene varios números de teléfono de la empresa, es posible que uno de ellos use toda la capacidad de mensajes del portfolio en un período determinado.
+Los portfolios comerciales recién creados tienen un límite de 250 mensajes, pero este límite se puede aumentar a:
+2.000 (tras completar un recorrido de aumento)
+10.000 (mediante aumento automático)
+100.000 (mediante aumento automático)
+Ilimitado (mediante aumento automático)
+Aumentar el límite
+Puedes aumentar tu límite de mensajes a 2.000 completando uno de losrecorridos de aumento a continuación. Luego, tu límite aumenta automáticamente al siguiente valor máximo si cumples con los criterios de aumento automático.
+Recorridos de aumento
+Verificar tu negocio⁠
+Solicita a tu socio que verifique tu empresa (si te registró uno).
+Enviar y entregar 2.000 mensajes fuera del intervalo de servicio de atención al cliente a números de teléfono de usuarios únicos de WhatsApp en un período continuo de 30 días usando plantillas con una calificación de calidad alta.
+Cuando completes estos recorridos, Meta analizará la calidad de tus mensajes. En función de este análisis, la elegibilidad de tu portfolio comercial para el aumento automático se aprobará o rechazará.
+Aprobaciones
+Si se aprueba tu solicitud, Meta incrementa de inmediato el límite de mensajes del número de teléfono de tu empresa a 2.000, y te notifica mediante correo electrónico y alertas para desarrolladores. Además, se activará un webhook business_capability_update con max_daily_conversations_per_business (para webhooks de la versión 24.0 y posteriores) y max_daily_conversation_per_phone (para la versión 23.0 y anteriores, hasta febrero de 2026) configurado con el nuevo límite.
+A partir de entonces, el aumento del límite de mensajes en tu portfolio comercial se producirá automáticamente, mediante aumento automático.
+Rechazos
+Si se rechaza tu solicitud, Meta mantiene el límite actual de mensajes del número de teléfono de tu empresa y te notifica mediante correo electrónico y alertas para desarrolladores. Además, se activará un webhook account_alerts en el que las propiedades alert_type y alert_description indicarán los métodos alternativos que puedes seguir para aumentar el límite.
+Valor de "alert_type"	Acción que puedes realizar
+
+INCREASED_CAPABILITIES_ELIGIBILITY_DEFERRED
+	
+Enviar y entregar 2.000 mensajes fuera del intervalo de servicio de atención al cliente a números de teléfono de usuarios únicos de WhatsApp en un período continuo de 30 días usando plantillas con una calificación de calidad alta.
+
+
+INCREASED_CAPABILITIES_ELIGIBILITY_FAILED
+	
+Enviar y entregar 2.000 mensajes fuera del intervalo de servicio de atención al cliente a números de teléfono de usuarios únicos de WhatsApp en un período continuo de 30 días usando plantillas con una calificación de calidad alta.
+
+
+INCREASED_CAPABILITIES_ELIGIBILITY_NEED_MORE_INFO
+	
+Verificar tu identidad⁠ o enviar 2.000 mensajes entregados fuera del intervalo de servicio de atención al cliente a números de teléfono de usuarios únicos de WhatsApp en un período continuo de 30 días usando plantillas con una calificación de calidad alta.
+Aumento automático
+Cuando el límite de mensajes de tu portfolio comercial aumente a 2.000, Meta determinará si debería seguir aumentando en función de los siguientes criterios:
+Envías mensajes de alta calidad en todos los números de teléfono y plantillas de tu empresa.
+En los últimos siete días, tu empresa utilizó, al menos, la mitad de su límite actual de mensajes.
+Si se cumplen estos criterios, el límite de tu portfolio aumenta un nivel en un plazo de 6 horas.
+Verificar tu límite
+Mediante Meta Business Suite
+El límite de mensajes actual del número de teléfono de la empresa se muestra en el panel Administrador de WhatsApp⁠ > Herramientas de la cuenta > Límites de mensajes:
+Mediante la API
+Usa la API de número de teléfono de WhatsApp Business y solicita el campo whatsapp_business_manager_messaging_limit.
+Ten en cuenta que el campo messaging_limit_tier, que solía devolver el límite de mensajes del número de teléfono, quedó obsoleto.
+Ejemplo de solicitud
+curl 'https://graph.facebook.com/v25.0/106540352242922?fields=whatsapp_business_manager_messaging_limit' \
+-H 'Authorization: Bearer EAAJB...'
+Ejemplo de respuesta
+{
+  "whatsapp_business_manager_messaging_limit": "TIER_250",
+  "id": "106540352242922"
+}
+
+¿Te resultó útil esta página?

@@ -1,0 +1,48 @@
+Documentos
+Información general
+WhatsApp Flows
+El contenido de esta página se tradujo de inglés a otro idioma con IA. El contenido traducido con IA puede contener errores, omisiones o significados no deseados. Como el idioma traducido con IA puede ser impreciso o poco claro, puedes consultar el contenido original en inglés de esta página para revisarlo.
+¿Te resultó útil?
+WhatsApp Flows
+Updated: 21 may 2026
+Copiar para LLM
+Ver como Markdown
+WhatsApp Flows permite crear interacciones estructuradas para mensajes comerciales. Con Flows, las empresas pueden definir, configurar y personalizar mensajes con interacciones eficaces, para que los clientes se comuniquen de forma más estructurada.
+Puedes usar Flows para generar clientes potenciales, recomendar productos, captar nuevos clientes potenciales para ventas o cualquier otro fin en el que una comunicación estructurada resulte más natural o cómoda para tus clientes.
+A continuación, encontrarás los casos de uso más populares, junto con plantillas, guías paso a paso y código para facilitar su implementación. Puedes crear muchos más casos de uso con Flows.
+Consigue clientes potenciales para préstamos preaprobados
+En esta guía, diseñada para empresas del sector de servicios financieros, aprenderás a crear una experiencia de préstamos preaprobados con la tecnología de Flows, que simplifica el proceso y permite a los usuarios obtener fondos en tan solo unos clics. Esta guía te ayudará a crear un flujo que:
+Presente un monto de préstamo a un usuario, con la posibilidad de que el usuario personalice las condiciones, como el período de amortización.
+Permite al usuario seleccionar su método de pago y desembolso.
+Incluye la capacidad del usuario de autenticarse para confirmar su identidad.
+Esta guía se puede adaptar a otros casos de uso relevantes, como la oferta de tarjetas de crédito, los calculadores de límites de préstamos o crédito, las ofertas de préstamos para compras y la calificación.
+Obtener cotización de seguro
+Esta guía te ayudará a crear un flujo que permita a los usuarios registrarse y personalizar su cobertura de seguro de manera fluida en WhatsApp. Este caso de uso es ideal para empresas que ofrecen productos personalizables, en especial cuando los detalles y las preferencias de un usuario dan lugar a una cotización personalizada. En esta guía, se explica cómo crear un flujo que:
+Recopile las preferencias y los detalles personales de un usuario (número de miembros cubiertos, riesgos de salud, primas, etc.) para cualquier tipo de seguro, y le permita a los usuarios ver, personalizar y elegir los planes de seguro que les interesen.
+Proporcione una cotización basada en las opciones seleccionadas y permita al usuario seleccionar con qué frecuencia desea pagar.
+Aunque esta guía se basa en un caso de uso de ventas de seguros, se puede adaptar a otros casos de uso, como la renovación de seguros, la configuración de perfiles y la incorporación de clientes.
+Recopilar intención de compra
+Esta guía te ayudará a crear un flujo para que una empresa pueda entender qué productos o servicios les interesan a sus clientes. Estos datos se pueden aprovechar antes de realizar campañas de marketing y ventas, así como para ofrecer promociones personalizadas. Esta guía te ayudará a crear un flujo que pueda hacer lo siguiente:
+Recopilar datos personales relevantes de un cliente, como el nombre y la dirección de correo electrónico.
+Permitir al usuario seleccionar los productos o servicios que le interesen.
+Esta guía se puede adaptar a diversos casos de uso en los que necesites recopilar información de los usuarios.
+Oferta personalizada
+En esta guía, se explica cómo crear un flujo que brinde ofertas personalizadas a tus clientes.
+Los usuarios podrán seleccionar los productos que les interesen y su presupuesto, y recibir una recomendación específica sobre qué comprar.
+Luego, puedes enviar un mensaje con instrucciones sobre cómo completar la compra.
+Esta guía es ideal para interactuar con los usuarios en eventos promocionales.
+Deberás cumplir con las regulaciones locales aplicables en relación con el tratamiento de datos de usuarios y asegurarte de que el caso de uso cumpla con nuestra Política de mensajes de WhatsApp Business⁠.
+Obtén información sobre WhatsApp Flows
+Primeros pasos
+¿Nunca usaste WhatsApp Flows? ¡Empieza aquí! Obtén información sobre cómo crear tu primer Flow de ejemplo aquí.
+Guías
+¿Necesitas información sobre las prácticas recomendadas de Flows? ¿O quieres ver ejemplos completos con JSON de Flow? Explora más aquí.
+Referencia
+¿Quieres obtener detalles técnicos? Obtén más información sobre el JSON de Flow, la REST API de Flows, los códigos de error y más aquí.
+Sección de pruebas
+Intenta configurar rápidamente un flujo básico y obtener una vista previa de este.
+Obtener asistencia
+Si tienes problemas con WhatsApp Flows, obtén ayuda aquí.
+Registro de cambios
+¿Buscas actualizaciones sobre los cambios? Esta sección incluye detalles sobre las versiones actuales, los cambios en la API y más.
+¿Te resultó útil esta página?
