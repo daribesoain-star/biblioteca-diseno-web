@@ -1,0 +1,55 @@
+FTKnTYmfMv8|934.0|19341|NA|fal|Fal.ai Tutorial in 15 Minutes: Generate Images, Videos & 3D Faster Than Anything Else
+T11eCT1f-Sg|490.0|18243|NA|fal|How To Use Fal.AI - Full Guide
+D1tcNzot2HI|841.0|34172|NA|fal|Flux AI Tutorial - 2026 | New Tips & Hacks | How to Use Flux AI - For Beginners
+DdSe5knj4k8|405.0|213342|NA|fal|FLUX: How To Generate UNLIMITED AI Images For FREE | ComfyUI Tutorial
+yiAV5pDe6R8|256.0|425259|NA|fal|How to use FLUX.1 Kontext
+OSGavfgb5IA|819.0|27938|NA|fal|How to Prompt FLUX. The BEST ways for prompting FLUX.1 SCHNELL and DEV including T5 and CLIP.
+RXzeRfvH3_w|856.0|32966|NA|fal|Flux.1 Kontext Prompting Guide
+pAsj9wjPOSY|625.0|37898|NA|recraft|Recraft Tutorial - 2026 | Where AI meets Artistry | How to Use Recraft
+rQe7i3iBMsk|638.0|6272|NA|recraft|Tutorial de RECRAFT AI 2025 (Generador de imágenes y diseños con IA)
+ULbtt19xrVU|1002.0|21331|NA|recraft|RECRAFT - Best Free AI Tutorial for Creating and Editing Images
+guVhkM9vAYc|715.0|4759|NA|recraft|Recraft Product Walkthrough
+TK3z16_Gn4c|456.0|4276|NA|recraft|Recraft Studio Full Walkthrough — V4, Video Tools, Exploration Mode & More
+2bfYgA6p8JM|1925.0|7295|NA|recraft|¿Como usar Recraft AI V3?Tutorial Completo  🚀
+hWHMlujrjvI|300.0|6878|NA|recraft|Recraft AI Logo Tutorial — Create Awesome Logos in Minutes!
+CUcH8I53NFM|190.0|951|NA|replicate|Complete Guide to Replicate AI: Features, Uses, and More
+dFISI6KphSE|566.0|12584|NA|replicate|Getting started with Cog and Replicate
+1VOJNDK7yqg|849.0|19338|NA|replicate|Replicate.com EASY AI Setup for Beginners  (updated)
+-F63qOsd9BI|1249.0|2404|NA|replicate|Using Replicate deployments for more control over your models (Part 1 of 2)
+JklgYn57OJE|550.0|2387|NA|replicate|How to Use Replicate.com | Easy AI Setup Tutorial for Beginners
+gSGYvXG5kcQ|575.0|10653|NA|replicate|Building AI powered apps in Laravel using Replicate
+y0_GE5ErqY8|487.0|18848|NA|replicate|Easy AI Access for ALL (Replicate.com Beginners Tutorial)
+b-GhMZ_rcJM|236.0|43270|NA|elevenlabs|How to Use Eleven v3 - Expressive AI Voice Prompt Engineering Guide
+Z2B_pgJ9hbA|709.0|57946|NA|elevenlabs|ElevenLabs V3 Full Tutorial: Best Voice Settings + Free GPT Tool (Eleven V3 Alpha)
+Zozt9QfAwcg|1796.0|15185|NA|elevenlabs|The Only ElevenLabs Tutorial You'll Need (2026)
+s7p6OLwV_50|1427.0|406585|NA|elevenlabs|How To Use Elevenlabs - Master This AI Voice Generator in 23 minutes!
+Vs6vJwmJL0Y|499.0|105600|NA|elevenlabs|How to make AI Voiceovers that sound Human (2025 ElevenLabs Text to Speech Tutorial)
+iyHypKlscV0|180.0|8110867|NA|elevenlabs|How to Use AI Sound Effects – ElevenLabs SFX v2 Walkthrough
+MCrkItqdRRI|376.0|41896|NA|elevenlabs|How to Create AI Music - Eleven Music tutorial
+72R1NjNaUnE|445.0|312284|NA|suno|Suno Ai Tutorial 2026 (For Complete Beginners)
+Vfai49qhluA|1008.0|108126|NA|suno|How to Use Suno: From Beginner to Pro Features Explained
+qR4BefPvSiI|814.0|528305|NA|suno|Suno Studio Tutorial: A Complete Beginner's Guide (2026)
+DrRRvM4oc4w|924.0|113768|NA|suno|How to Use Suno AI Better than 99% of People
+5OUpLRNdE9I|744.0|77181|NA|suno|Suno Ai Tutorial 2025 | How To Use Suno V5 for Beginners
+WczAMwG7U4w|981.0|90501|NA|suno|How to Produce a Real Song in Suno AI (Don't Just Generate)
+u-ZuCHAufqs|365.0|56279|NA|suno|SUNO AI PROMPTING: GUIDE To Memorable EMOTIONAL Songs with SUNO PROMPTS
+kftlCzaP34Q|456.0|2042|NA|ideogram|Flora's Ideogram : Design typography with AI
+UkZUWm1-qPE|486.0|1341|NA|ideogram|Ideogram Ai: The Best Ai image generator | Ideogram Ai Detailed Tutorial
+rJ22XCRnIlc|293.0|1625|NA|ideogram|How To Make Instant Movie Poster With Ideogram AI (Ideogram Beginner Tutorial)
+jLKl_QP9Ick|434.0|905|NA|ideogram|Ideogram AI: Best Free AI Tool for Logo & Social Media Post | Ideogram AI Tutorial Full Guide
+gI6Ic4hygHI|464.0|15582|NA|ideogram|Ideogram Ai - Create amazing Text Logo & Art designs - Malayalam Artificial intelligence
+aLQB6l6KgXI|956.0|7142|NA|ideogram|Create VIRAL T-Shirt Designs Using Ideogram AI Without Photoshop
+t7nlRXpXBXw|765.0|29595|NA|gptimage|OpenAI gpt-image-1 API - Build AMAZING AI Image Apps: Here's How
+k-G71JZA75A|290.0|26910|NA|gptimage|OpenAI's New GPT Image Model API in 5 Minutes 📸
+6H-Y-aOqVns|914.0|4200|NA|gptimage|GPT Image 1.5 Full Beginner Tutorial – Interface, Editor & Tricks
+QT1nMo-QMDQ|1568.0|20611|NA|gptimage|ULTIMATE GPT IMAGE 1.5 TUTORIAL: 15 PROMPT TECHNIQUES
+JKQCWSVqNYc|261.0|443899|NA|gptimage|How to Make & Edit Images with ChatGPT for Beginners
+bocO2GIPAdc|587.0|112801|NA|gptimage|How to Make Images with ChatGPT for Beginners
+ULW9bgSYIrw|484.0|345935|NA|gptimage|How To Generate Images With ChatGPT (Create AI Art with Chat GPT)
+OxNlBqHex44|664.0|215916|NA|higgsfield|How to Use Higgsfield AI Better than 99% of People
+R7GZjRMsrzM|1314.0|106295|NA|higgsfield|The ONLY Higgsfield AI Tutorial You Need 2026: Step-by-Step for Beginners
+AtIrM3OS9q8|622.0|70717|NA|higgsfield|EXACTLY How to use Higgsfield AI in 2026
+sWwKzbk2jYk|1485.0|32034|NA|higgsfield|Higgsfield AI 2026: Complete step-by-step tutorial to master it
+kNradaMZ8kk|747.0|25643|NA|higgsfield|How to Use Higgsfield AI Like a PRO – AI Marketing Workflow
+mRF0P_hyFIk|530.0|181367|NA|higgsfield|STOP Wasting Credits & Master Higgsfield AI in 8 Min
+cksEVv1tArI|2985.0|121275|NA|higgsfield|Higgsfield AI Ultimate Tutorial (2026)

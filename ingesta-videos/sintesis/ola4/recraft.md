@@ -1,0 +1,104 @@
+# Recraft — Diseño IA: logos, vectores SVG, estilos de marca y mockups fotorrealistas
+
+## que_ensena
+Recraft es una plataforma de diseño profesional con inteligencia artificial que permite generar imágenes vectoriales, logos, mockups fotorrealistas, estilos personalizados y edición avanzada. Cubre desde la creación de marcas completas (logo, packaging, merchandising) hasta la generación de video desde imágenes, con modelos especializados como V3, V4, Vector art y Photorealism. Incluye herramientas de inpainting, outpainting, cambio de fondos, integración precisa de texto largo y exportación en SVG.
+
+## reglas_para_agentes
+- Usa **vector art** o **vector-based styles** siempre que generes logos o elementos de identidad que deban escalar sin pérdida de calidad.
+- Pon el nombre de la marca entre **comillas** en el prompt cuando quieras que aparezca escrito correctamente en la imagen generada.
+- Activa **style diversity** solo cuando necesites explorar variaciones creativas; desactívalo cuando busques coherencia en una serie.
+- Usa formato **3:2** para logos; usa formato **1:1** para logos en Recraft AI Logo Tutorial.
+- Siempre selecciona **Flux Context Max** cuando edites imágenes basadas en un prompt + imagen de referencia.
+- Usa la función **image set** para generar lotes de hasta 6 imágenes temáticas en una sola ejecución, aplicando la paleta de colores de la marca.
+- Para mockups fotorrealistas, genera primero la imagen base en modo **natural light** o **photo realism** antes de aplicar el logo.
+- Guarda como **custom style** cualquier combinación de estilos que planees reutilizar en proyectos futuros.
+- Para mockups: siempre seleccionar la imagen base primero y activar `Mockup` antes de arrastrar el logo; de lo contrario, el logo no se adapta a la superficie.
+- Para quitar fondo: usar `Remove bg` solo en imágenes con fondo sólido (blanco recomendado) para evitar recortes no deseados en el sujeto.
+- Para texto en imágenes: el texto debe estar dentro de un `Frame` y el modelo debe ser compatible con texto (ej. `Stamp`, `Punk Graphic`); no funciona con modelos genéricos.
+- Usa prompts en inglés para generación de imágenes; los resultados son superiores.
+- Pon el texto que quieras integrar en la imagen entre comillas dentro del prompt, incluso si el resto del prompt está en inglés.
+- Selecciona el modelo **"v3"** siempre que generes imágenes nuevas; es el más reciente y potente.
+- Usa formato **16:9** exclusivamente para miniaturas de YouTube.
+- Aplica la herramienta **"Scissors"** antes de **"Change background"** para separar sujetos del fondo original.
+- Descarga imágenes sin watermark usando el botón **"Export"** en PNG o JPG.
+- Usa **"Recraft V3"** como modelo por defecto para generar una amplia gama de imágenes.
+- Cuando crees un estilo personalizado, sube hasta **5 imágenes de referencia** para refinar el estilo; con más referencias el modelo aprende mejor cómo deben verse diferentes objetos.
+- Si las imágenes de referencia tienen perspectivas únicas (fisheye, ángulo bajo), selecciona **"Style and composition"** en los controles de composición.
+- Si las imágenes de referencia tienen un look común, selecciona **"Style essentials"** para evitar layouts inesperados.
+- Para generar vectores, asegúrate de seleccionar la categoría **"Vector icon"** (iconos minimalistas) o **"Vector art"** (formas vectoriales limpias) en la creación de estilos personalizados.
+- Para preservar el look de un personaje original en edición con IA, usa el modelo **Flux**.
+- Para transferir el estilo de una imagen a otra o hacer edición contextual, usa el modelo **GPT high** (soporta hasta 4 adjuntos).
+- Usa **"V4 Pro"** cuando necesites imágenes de alta resolución y detalle fino listas para producción.
+- Usa **"V4 Standard"** para iteración rápida y prototipado.
+- Usa **"Vector"** o **"Vector Pro"** cuando necesites archivos SVG editables con rutas reales y capas estructuradas.
+- Cambia a **"Recraft V2"** o **"Recraft V3"** cuando necesites aplicar estilos personalizados (V4 no soporta estilos).
+- Cambia a un modelo externo como **"Nano Banana 2"** cuando necesites edición basada en referencia (V4 no soporta reference-based editing).
+- En **Exploration Mode**, trata los primeros 8 resultados como borradores conceptuales, no como imágenes finales.
+- Usa baja similitud en el slider de **Exploration Mode** para explorar direcciones creativas; usa alta similitud para pulir refinamientos.
+- Para generar video, selecciona primero una imagen en el canvas y adjúntala como referencia antes de escribir el motion prompt.
+- Usa **"Extract Prompt"** para capturar la lógica completa detrás de cualquier imagen (iluminación, composición, materiales, color grading, ángulo de cámara, estilo).
+- Guarda estilos personalizados después de generar una imagen de prueba exitosa para reutilizarlos en todos los proyectos.
+- Presiona **"M"** para crear un mockup desde cero; usa **"Mockup-ize"** desde el panel de acción para transformar una imagen existente en superficie editable.
+- Usa prompts en inglés, no en español, para garantizar la máxima calidad de imagen.
+- Usa prompts detallados pero no extensos; prompts muy largos pueden reducir la adherencia y calidad.
+- No actives la opción **"Style diversity"** si buscas coherencia y alta calidad en la imagen.
+- Usa la opción **"Raw"** (sin procesar) cuando quieras máxima fidelidad al prompt.
+- Cuando generes texto dentro de imágenes, limita el texto a máximo 3-4 oraciones para mejor precisión.
+- Usa **"Creative upscale"** solo cuando necesites refinar detalles finos y rostros; para escalado general usa **"Clarity upscale"**.
+- Usa **relación 1:1** cuando crees logos en Recraft.
+- Usa **Vector art** como estilo para obtener gráficos vectoriales editables (no MJ ni Ideogram lo hacen).
+- Reduce los colores a **3 o menos** para un logo más elegante y limpio.
+- Exporta siempre como **SVG** si necesitas editar el vector después.
+- Nunca uses PNG o JPEG si planeas editar el logo en software vectorial.
+- Nunca asumas que otros generadores de IA (Midjourney, Ideogram) producen vectores editables; solo Recraft lo hace con Vector art.
+
+## errores_comunes
+- No usar formato vectorial para logos, lo que impide escalarlos sin pérdida de calidad.
+- Olvidar poner el nombre de la marca entre comillas, resultando en texto mal renderizado o ausente.
+- No activar style diversity cuando se busca explorar múltiples direcciones creativas.
+- Usar el modelo de edición incorrecto (no Flux Context Max) al trabajar con imágenes de referencia, perdiendo coherencia visual.
+- Generar mockups sin preparar primero una imagen base fotorrealista del producto.
+- No ajustar la posición y escala del logo en el mockup, dando un resultado poco profesional.
+- No guardar combinaciones de estilos como preset, perdiendo tiempo al tener que recrearlas después.
+- Ignorar la opción de aplicar la paleta de colores de la marca en los image sets, generando elementos visualmente inconsistentes.
+- Arrastrar logo sin activar Mockup: si arrastras el logo directamente sobre la imagen sin haberla convertido a mockup, no se adapta a la superficie curva; la imagen queda plana y no funcional.
+- Texto mal integrado por modelo incorrecto: usar un modelo que no soporta texto (ej. fotorrealista) hace que la IA ignore o distorsione el texto; siempre seleccionar `Stamp` o `Punk Graphic` para diseños con texto.
+- Fondo removido borra parte del diseño: al usar `Remove bg` en imágenes con fondo complejo, puede recortar partes del sujeto; usar solo con fondos blancos o uniformes.
+- Pixelación al acercar imagen no vectorizada: si no se vectoriza, la imagen pierde calidad al hacer zoom; usar `Vectorizar` y exportar como SVG para impresión o web.
+- Exceder créditos diarios: la cuenta gratuita tiene 50 créditos/día; cada generación consume créditos, y solo permite 2 subidas de imágenes propias por día.
+- No usar prompts en español para generación: el presentador recomienda siempre prompts en inglés porque los resultados son mejores, aunque el texto integrado puede ir en español entre comillas.
+- No confiar en otras herramientas para texto largo: Recraft maneja textos largos sin errores, a diferencia de Ideogram que a veces falla.
+- No asumir que funciones de edición son gratuitas en otras plataformas: en Ideogram, el inpainting es de pago; en Adobe Firefly, las descargas tienen watermark. Recraft permite ambas funciones gratis y sin marca de agua.
+- No olvidar los créditos diarios: la versión gratuita otorga 50 créditos diarios. Cada generación o edición consume un crédito.
+- No usar estilos específicos: el modelo Recraft V3 es versátil, pero aplicar un estilo más específico (de la biblioteca o personalizado) mejora enormemente los resultados sin necesidad de prompt engineering complejo.
+- No ajustar la composición al crear estilos: si las referencias tienen perspectivas únicas y no seleccionas "Style and composition", el modelo no capturará bien esas características. Si las referencias son comunes y seleccionas esa opción, obtendrás layouts inesperados.
+- No probar estilos personalizados antes de guardarlos: usa el panel de prueba para validar e iterar sobre el estilo antes de guardarlo.
+- No usar el peso de imágenes: si subes varias referencias diversas, no ajustar los controles de peso puede hacer que el estilo no refleje la paleta o el look dominante que deseas.
+- No usar la categoría correcta para vectores: si creas un estilo para vectores pero no seleccionas "Vector icon" o "Vector art", el resultado no será vectorial limpio.
+- No usar el modelo adecuado en AI editing: usar Flux cuando quieres transferir estilo o GPT cuando quieres preservar un personaje lleva a resultados subóptimos.
+- No usar estilos con V4: si seleccionas un estilo mientras usas V4, el sistema cambia automáticamente a Recraft V2 o V3. Para mantener V4, no selecciones estilos.
+- No usar edición basada en referencia con V4: V4 no soporta reference-based editing. Para editar imágenes con referencias, cambia a un modelo externo como Nano Banana 2.
+- No tratar los primeros resultados de Exploration Mode como finales: son borradores conceptuales para encontrar la dirección correcta, no imágenes terminadas.
+- No ignorar el slider de similitud en Exploration Mode: controla si quieres variaciones creativas (baja similitud) o refinamientos precisos (alta similitud).
+- No olvidar adjuntar la imagen como referencia antes de generar video: debes seleccionar la imagen en el canvas y adjuntarla explícitamente como referencia para que el video mode funcione.
+- No subestimar "Extract Prompt": captura detalles técnicos como color grading, ángulo de cámara y materiales, no solo palabras clave superficiales.
+- Prompts en español: el presentador nota que los prompts en español producen resultados de menor calidad que en inglés.
+- Prompts demasiado extensos: prompts muy largos (como el de la ciudad al atardecer) pueden generar imágenes con defectos anatómicos (rostros sin detalle, manos malformadas, objetos distorsionados).
+- Activar "Style diversity": reduce la coherencia y calidad de la imagen, no se recomienda.
+- Esperar perfección en texto largo: el modelo puede omitir palabras al final de textos extensos (ejemplo: faltó la palabra "Cosmos" al final de la cita de Carl Sagan).
+- No usar "Upscale": sin escalar, los rostros pueden verse borrosos o sin detalle; el escalado revela defectos anatómicos.
+- Confundir raster vs vector: Raster = JPEG/PNG/GIF (fotografías realistas); Vector = SVG (escalable sin pérdida, usado en diseño gráfico).
+- No usar relación 1:1 para logos (se recomienda explícitamente).
+- No seleccionar **Vector art** como estilo (sin esto, no obtienes SVG editable).
+- Dejar muchos colores (ej. 11) hace que el logo se vea sobrecargado y poco elegante.
+- Exportar en PNG o JPEG en lugar de SVG si se necesita edición vectorial posterior.
+- Pensar que otros generadores como Midjourney o Ideogram producen vectores editables (no lo hacen).
+
+## fuentes_videos
+- Recraft Tutorial - 2026 — https://youtu.be/pAsj9wjPOSY
+- Tutorial de RECRAFT AI 2025 (Generador de imágenes y diseños con IA) — https://youtu.be/rQe7i3iBMsk
+- RECRAFT - Best Free AI Tutorial for Creating and Editing Images — https://youtu.be/ULbtt19xrVU
+- Recraft Product Walkthrough — https://youtu.be/guVhkM9vAYc
+- Recraft Studio Full Walkthrough — V4, Video Tools, Exploration Mode & More — https://youtu.be/TK3z16_Gn4c
+- ¿Como usar Recraft AI V3? Tutorial Completo 🚀 — https://youtu.be/2bfYgA6p8JM
+- Recraft AI Logo Tutorial — Create Awesome Logos in Minutes! — https://youtu.be/hWHMlujrjvI
