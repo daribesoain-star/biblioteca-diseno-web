@@ -1,0 +1,39 @@
+## Ampliación de campo — ingesta de canales (2026-07-09)
+> 4 videos/artículos destilados de los canales top del rubro. Doctrina complementaria a la de arriba (deep research), con fuente por regla.
+
+### TikTok Shop LatAm: despliegue por país y benchmarks
+- Prioriza México si buscas un mercado TikTok Shop ya probado en LatAm: se lanzó en 2023, fue uno de los primeros países de la región con programa de afiliados, etiquetas de producto, live shopping y pagos dentro de la app. (Fuente: m2e-tiktok-shop-latam — https://blog.m2ecloud.com/tiktok-shop-across-latam-where-it-s-live-and-whats-coming/)
+- Usa México como laboratorio de categorías de alta tracción: desde 2023 los registros de vendedores en TikTok Shop México crecieron cerca de 300%; los usuarios pasan más de 70 minutos diarios promedio en la plataforma; las categorías más fuertes citadas son moda, skincare y accesorios móviles. (Fuente: m2e-tiktok-shop-latam — https://blog.m2ecloud.com/tiktok-shop-across-latam-where-it-s-live-and-whats-coming/)
+- Mide Brasil con benchmarks de GMV agresivos: en los primeros 3 meses el GMV mensual pasó de aproximadamente US$1 millón a US$25,7 millones; en agosto de 2025 llegó a US$46,1 millones, con crecimiento mensual de 79,4%, cerca del umbral de US$50 millones. (Fuente: m2e-tiktok-shop-latam — https://blog.m2ecloud.com/tiktok-shop-across-latam-where-it-s-live-and-whats-coming/)
+- En Brasil, adapta la operación a marketplace local: los vendedores gestionan su propio envío y aduanas; aproximadamente la mitad del GMV viene de la pestaña Shop y el resto de videos cortos y lives. (Fuente: m2e-tiktok-shop-latam — https://blog.m2ecloud.com/tiktok-shop-across-latam-where-it-s-live-and-whats-coming/)
+- En Colombia, entra con pilotos controlados: el despliegue ocurre mediante betas limitadas para vendedores seleccionados con infraestructura e-commerce existente y participación en programas tempranos. (Fuente: m2e-tiktok-shop-latam — https://blog.m2ecloud.com/tiktok-shop-across-latam-where-it-s-live-and-whats-coming/)
+- En Chile, no asumas checkout nativo completo: está en fase de prueba con un grupo limitado de creadores; las funciones disponibles son enlaces de afiliados y etiquetado de productos, pero no checkout nativo completo. (Fuente: m2e-tiktok-shop-latam — https://blog.m2ecloud.com/tiktok-shop-across-latam-where-it-s-live-and-whats-coming/)
+- En Perú, opera con enlaces externos: TikTok Shop no está plenamente disponible ni tiene funciones oficiales completas; los creadores suelen usar enlaces manuales hacia tiendas externas. (Fuente: m2e-tiktok-shop-latam — https://blog.m2ecloud.com/tiktok-shop-across-latam-where-it-s-live-and-whats-coming/)
+
+### Afiliados y conversión en TikTok Shop
+- Benchmark de performance: el ROAS promedio del programa de afiliados en México fue de 5,2x, superior al promedio de Meta Ads para las mismas categorías según el texto. (Fuente: soul-digital-tiktok-shop-chile — https://souldigital.cl/blog/estrategia-de-contenido-social-media/tiktok-shop-chile/)
+- Una marca puede vender sin audiencia propia: el texto menciona que marcas con 0 seguidores generaron ventas significativas desde el primer mes usando solo la red de afiliados. (Fuente: soul-digital-tiktok-shop-chile — https://souldigital.cl/blog/estrategia-de-contenido-social-media/tiktok-shop-chile/)
+- Dato operativo de conversión: responder comentarios y preguntas en videos de producto puede aumentar la conversión hasta un 40%, según el texto. (Fuente: soul-digital-tiktok-shop-chile — https://souldigital.cl/blog/estrategia-de-contenido-social-media/tiktok-shop-chile/)
+
+### Comportamiento del usuario y tendencias 2026
+- Comunidad: Millennials y Gen Z son 1,5x más propensos que Gen X+ a probar una marca nueva por su comunidad. (Fuente: tiktok-next-2026-trend-report — https://ads.tiktok.com/business/library/TikTok_Next_2026_Trend_Report.pdf)
+- Interacción: Usuarios de TikTok son 1,6x más propensos a recomprar cuando los anuncios permiten interactuar con la marca, por ejemplo comentarios o co-creación. (Fuente: tiktok-next-2026-trend-report — https://ads.tiktok.com/business/library/TikTok_Next_2026_Trend_Report.pdf)
+- Búsqueda: 2 de cada 3 buscadores en TikTok usan la plataforma porque descubren cosas útiles más allá de lo que buscaban. (Fuente: tiktok-next-2026-trend-report — https://ads.tiktok.com/business/library/TikTok_Next_2026_Trend_Report.pdf)
+- Velocidad: 1 de cada 4 usuarios empieza a buscar dentro de los primeros 30 segundos de abrir la app. (Fuente: tiktok-next-2026-trend-report — https://ads.tiktok.com/business/library/TikTok_Next_2026_Trend_Report.pdf)
+- Investigación: TikTok One Content Suite puede mostrar hasta 44x más resultados que la búsqueda manual. (Fuente: tiktok-next-2026-trend-report — https://ads.tiktok.com/business/library/TikTok_Next_2026_Trend_Report.pdf)
+- Usa IA para acelerar detección de tendencias, pero valida el significado con lectura humana: TikTok analizó videos, búsquedas, comentarios y comunidades con herramientas propias, pero convirtió esos datos en predicciones mediante criterio humano. (Fuente: tiktok-next-2026-trend-report — https://ads.tiktok.com/business/library/TikTok_Next_2026_Trend_Report.pdf)
+
+### Smart+ Ads: configuración y optimización
+- Sube al menos 6 activos creativos durante la creación de la campaña Smart+; después deja que Smart+ gestione la optimización creativa. (Fuente: tiktok-smartplus-best-practices — https://ads.tiktok.com/help/article/best-practices-for-smart-plus-web-campaigns)
+- Programa la campaña Smart+ para correr al menos 7 días. (Fuente: tiktok-smartplus-best-practices — https://ads.tiktok.com/help/article/best-practices-for-smart-plus-web-campaigns)
+- Como punto de partida de presupuesto, usa al menos 10x tu CPA histórico para objetivos comparables. (Fuente: tiktok-smartplus-best-practices — https://ads.tiktok.com/help/article/best-practices-for-smart-plus-web-campaigns)
+- Para campañas con Target CPA o Minimum ROAS, el presupuesto diario ideal es 30x el CPA histórico. (Fuente: tiktok-smartplus-best-practices — https://ads.tiktok.com/help/article/best-practices-for-smart-plus-web-campaigns)
+- Durante los primeros 7 días de entrega, evita cambios significativos en puja, audiencia o creatividad, porque pueden afectar la fase de aprendizaje. (Fuente: tiktok-smartplus-best-practices — https://ads.tiktok.com/help/article/best-practices-for-smart-plus-web-campaigns)
+- Después de los primeros 7 días, prueba editar la puja en incrementos de hasta 15% cada 2 días hasta observar el rendimiento deseado. (Fuente: tiktok-smartplus-best-practices — https://ads.tiktok.com/help/article/best-practices-for-smart-plus-web-campaigns)
+- Si la campaña consume regularmente 90% o más del presupuesto diario, prueba aumentar el presupuesto diario hasta 30% para ganar volumen mientras mantienes rendimiento. (Fuente: tiktok-smartplus-best-practices — https://ads.tiktok.com/help/article/best-practices-for-smart-plus-web-campaigns)
+
+### Fuentes nuevas de esta ola
+- m2e-tiktok-shop-latam — https://blog.m2ecloud.com/tiktok-shop-across-latam-where-it-s-live-and-whats-coming/
+- soul-digital-tiktok-shop-chile — https://souldigital.cl/blog/estrategia-de-contenido-social-media/tiktok-shop-chile/
+- tiktok-next-2026-trend-report — https://ads.tiktok.com/business/library/TikTok_Next_2026_Trend_Report.pdf
+- tiktok-smartplus-best-practices — https://ads.tiktok.com/help/article/best-practices-for-smart-plus-web-campaigns

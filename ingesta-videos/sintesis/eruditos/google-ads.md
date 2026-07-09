@@ -1,0 +1,250 @@
+## Ampliación de campo — ingesta de canales (2026-07-09)
+> 182 videos/artículos destilados de los canales top del rubro. Doctrina complementaria a la de arriba (deep research), con fuente por regla.
+
+### Configuración inicial y estructura de campañas
+- Antes de lanzar cualquier campaña, asegúrate de tener: cuenta de Merchant Center separada, product feed optimizado y conversion tracking configurado correctamente. (Fuente: GrowMyAds — https://youtu.be/-ch_R4WPxfw)
+- Define tu presupuesto mínimo realista: no inicies Google Ads con menos de $1,000 USD al mes. (Fuente: GrowMyAds — https://youtu.be/r0PKY3or44k)
+- Configura el seguimiento de conversiones ANTES de gastar; debe ser "rock solid". No gastes ni $1 sin esto. (Fuente: GrowMyAds — https://youtu.be/r0PKY3or44k)
+- Crea la campaña sin guía de Google: selecciona "Create a campaign without a goal's guidance". (Fuente: GrowMyAds — https://youtu.be/r0PKY3or44k)
+- Desactiva "Socios de búsqueda de Google" y "Red de Display de Google" al crear campañas de búsqueda. (Fuente: GrowMyAds — https://youtu.be/16X5a0Ii7kg)
+- Configura la segmentación geográfica en "Presencia" (personas en tus ubicaciones incluidas), nunca "Presencia o interés". (Fuente: GrowMyAds — https://youtu.be/16X5a0Ii7kg)
+- En campañas Shopping, excluye tablets al 100% desde el inicio y desmarca "Search partners". (Fuente: GrowMyAds — https://youtu.be/-ch_R4WPxfw)
+- Desactiva todas las recomendaciones de palabras clave y puja en Auto Apply; revisa manualmente cualquier sugerencia. (Fuente: GrowMyAds — https://youtu.be/RBvD5Z0ucTk)
+- Audita tus fundamentos técnicos (conversion tracking, offline conversion import, enhanced conversions, consent mode) antes de probar nuevas funciones; sin estos, cualquier automatización falla. (Fuente: 8 PPC Experts Predict 2026 — https://youtu.be/2TdOEFcS2bg)
+
+### Estrategias de puja y bidding
+- En campañas Shopping nuevas, usa Manual CPC o Maximize Clicks con límite de CPC; nunca uses Target ROAS hasta tener al menos 15-30 conversiones en los últimos 30 días. (Fuente: GrowMyAds — https://youtu.be/-ch_R4WPxfw)
+- Para calcular el CPC inicial en Shopping: usa Keyword Planner, toma el promedio entre "Top of page bid low range" y "Top of page bid high range", y divídelo entre 2. (Fuente: GrowMyAds — https://youtu.be/-ch_R4WPxfw)
+- En campañas de Search nuevas, inicia con "Maximizar conversiones" SIN establecer un CPA objetivo; si tras 1-2 semanas no obtienes impresiones/clics suficientes, cambia a "Maximizar clics". (Fuente: GrowMyAds — https://youtu.be/3W0XeR3va20)
+- No uses TCPA o TROAS si no tienes al menos 30 conversiones en los últimos 30 días. Fija el objetivo al promedio real de los últimos 30 días, no al ideal. (Fuente: GrowMyAds — https://youtu.be/B27snHfuuW8)
+- Escala el presupuesto en incrementos (ej. $20 → $50 → $75 → $100), deja correr 2-3 días y evalúa antes de seguir subiendo. (Fuente: GrowMyAds — https://youtu.be/4ntMYTYW99E)
+- Limita los aumentos de presupuesto diario al 20% por vez y espera 1 a 2 semanas entre cada incremento para que el algoritmo se reoptimice. (Fuente: GrowMyAds — https://youtu.be/9vbkkHWbCQQ)
+- Cuando "Search lost due to rank" > 50% y "Search lost due to budget" = 0% en campañas con puja automática, la solución es relajar el objetivo de rendimiento (bajar ROAS o subir CPA), no aumentar el presupuesto. (Fuente: GrowMyAds — https://youtu.be/57dmkmi9vmE)
+- Usa Target CPA en lugar de Maximize Conversions: Maximize Conversions puede gastar todo el presupuesto en conversiones extremadamente caras al final del día. (Fuente: The Best Automations to Optimize Google Ads — https://youtu.be/JQSaZgLh740)
+- Implementa puja basada en valor usando ROAS objetivo (Target ROAS) en lugar de CPA objetivo (Target CPA) cuando tengas conversiones con distinto valor económico real. (Fuente: Why Value-Based Bidding in PPC Can Improve Results — https://youtu.be/J036FJoLiAU)
+
+### Performance Max y Shopping
+- Para campañas Shopping con presupuesto menor a $50/día, usa Standard Shopping; solo usa Performance Max si tienes al menos $50/día y monitoreas semanalmente el canal de gasto. (Fuente: GrowMyAds — https://youtu.be/-ch_R4WPxfw)
+- Monitorea Channel Performance semanalmente en PMax: si menos del 80% del gasto va a "Google Search", detén la campaña inmediatamente y migra a Standard Shopping. (Fuente: GrowMyAds — https://youtu.be/-ch_R4WPxfw)
+- Divide el presupuesto en 80% para top sellers y 20% para el resto del catálogo (en campañas separadas) siempre que el presupuesto mensual supere los $1,000. (Fuente: GrowMyAds — https://youtu.be/-ch_R4WPxfw)
+- En campañas Performance Max feed-only, desmarca "Text", "Image" y "Video" en Asset Optimization para evitar que Google genere creativos automáticos. (Fuente: GrowMyAds — https://youtu.be/-ch_R4WPxfw)
+- Excluye tu marca de la campaña Performance Max usando la configuración de "Brand exclusions" para evitar que el tráfico de marca distorsione los datos. (Fuente: GrowMyAds — https://youtu.be/C_g9hTd-UgE)
+- Si excluyes tu marca de PMax, crea una campaña de Shopping estándar separada para capturar las búsquedas de marca y evitar que no se muestren anuncios. (Fuente: GrowMyAds — https://youtu.be/Legy3ZUPYiQ)
+- Estructura inicial recomendada para PMax (e-commerce): Crear 1 campaña PMax de "best sellers" + 1 campaña PMax de "mid-to-low performers" + 1 campaña estándar de Shopping "catch-all". (Fuente: GrowMyAds — https://youtu.be/i_YMgSCUSBo)
+- Presupuesto mínimo para PMax: No ejecutar PMax con menos de $50/día. Se necesitan 30-50 conversiones/mes por campaña para que el machine learning funcione estable. (Fuente: GrowMyAds — https://youtu.be/i_YMgSCUSBo)
+- Para lead gen, configura offline conversion tracking ANTES de lanzar PMax. Sin datos de leads calificados retroalimentados al sistema, obtendrás leads basura y spam. (Fuente: GML 2025 PMax Updates — https://youtu.be/P4uEJvRWuII)
+- Usa campañas estándar de Shopping en lugar de PMAX para e-commerce; PMAX se ha vuelto más complejo que gestionar campañas separadas. (Fuente: AI and the Future of PPC — https://youtu.be/963WYgd4v7Q)
+
+### Keywords, negativos y estructura de Search
+- En campañas de Search nuevas, usa solo concordancia exacta `[ ]` y concordancia de frase `" "`; nunca uses concordancia amplia al inicio. (Fuente: GrowMyAds — https://youtu.be/16X5a0Ii7kg)
+- Agrega el nombre de tu marca como palabra clave negativa en campañas no-brand usando una lista reutilizable. (Fuente: GrowMyAds — https://youtu.be/3W0XeR3va20)
+- Usa phrase match como predeterminado para la mayoría de negativos a menos que tengas una razón específica para broad o exact. (Fuente: GrowMyAds — https://youtu.be/9Hn1QuAwsas)
+- Nunca añadas negativos sin verificar que no eliminarán búsquedas de alto rendimiento. (Fuente: GrowMyAds — https://youtu.be/9Hn1QuAwsas)
+- En cuentas con >1000 conversiones/mes, usa broad match pesado + exact match, elimina phrase match y elimina todas las negative keywords, incluyendo términos de competidores. (Fuente: GrowMyAds — https://youtu.be/IO9KXnoQ7No)
+- Método STAG (Single Themed Ad Group): Segmenta tus ad groups por tema. Mantén cada ad group por debajo de 20 keywords. (Fuente: GrowMyAds — https://youtu.be/h2C5OxFNLr8)
+- Estructura de campañas de Search: Segmenta siempre marca vs. no-marca. Segmenta por ubicación y por categorías de producto. No segmentes por tipo de concordancia, dispositivo ni con variantes menores del mismo producto. (Fuente: GrowMyAds — https://youtu.be/ngNw8xJ8Rq8)
+- Secuencia óptima para implementar broad match: 1) Mes 1: phrase y exact match con puja manual. 2) Lograr 30+ conversiones al mes. 3) Cambiar a Maximizar conversiones. 4) Agregar tope de CPA. 5) Solo entonces incorporar broad match. (Fuente: GrowMyAds — https://youtu.be/v_71WbuyggI)
+- Usa una sola palabra clave negativa en lugar de 20 variaciones: Google ahora captura automáticamente errores ortográficos y variaciones. (Fuente: What's the future of the 'keyword'? — https://youtu.be/r3eH7Loz3FA)
+- Separa palabras clave de distintos match types en diferentes ad groups para mantener control sobre cuál se activa para una consulta específica. (Fuente: Google’s ‘Remove Redundant Keywords’ Update — https://youtu.be/qU2pthz1Krg)
+
+### Tracking, GA4 y conversiones
+- Usa Google Tag Assistant para verificar el disparo de tags de conversión en páginas de confirmación antes de asumir que el tracking funciona. (Fuente: GrowMyAds — https://youtu.be/1kN74gkvXbU)
+- Configura la compra (purchase) como conversión primaria en cuentas de e-commerce; usa "begin checkout" solo como conversión secundaria. (Fuente: GrowMyAds — https://youtu.be/v1BWw0su_AQ)
+- Cambia retención de datos a 14 meses inmediatamente después de crear la propiedad (Admin → Data Retention). (Fuente: AnalyticsMania — https://youtu.be/19VNYlShA8U)
+- Filtra tráfico interno: crear regla con IPs en Data Streams → Configure tag settings → Define internal traffic, luego activar filtro en Admin → Data Filters. (Fuente: AnalyticsMania — https://youtu.be/19VNYlShA8U)
+- Configura "List unwanted referrals" agregando dominios de pasarelas de pago (stripe.com, paypal.com) para evitar atribución incorrecta. (Fuente: AnalyticsMania — https://youtu.be/19VNYlShA8U)
+- Cambia de último clic a data-driven attribution si tienes ≥600 conversiones y ≥15,000 clics en los últimos 30 días; si no, usa time decay (conservador) o position-based (crecimiento). (Fuente: Best Practices and Implementation of RSAs — https://youtu.be/5lIspJdHiyc)
+- Implementa offline conversion tracking (OCT) en Google Ads para pasar datos de backend (ventas, leads calificados) a la plataforma. (Fuente: Google’s U-Turn on Cookies — https://youtu.be/DGSCAPCsqiQ)
+- Configura Enhanced Conversions for Leads para importación offline: toma el email del usuario del formulario, emparejalo con el GCLID, hashealo (SHA-256) antes de enviarlo a Google. (Fuente: Here’s Why You Should Use Offline Conversion Imports — https://youtu.be/YpvSD7y0vio)
+- Para preservar GCLID, FBCLID, WBRAID y GBRAID frente a eliminación por navegadores, configura en Google Ads la URL: `{lpurl}?c_gclid={gclid}&c_wbraid={wbraid}&c_gbraid={gbraid}` usando nombres personalizados poco obvios. (Fuente: AnalyticsMania — https://youtu.be/Fv2DL8bt1pQ)
+- Usa un solo web stream para múltiples subdominios (mismo Measurement ID) para evitar inconsistencias en session tracking. (Fuente: AnalyticsMania — https://youtu.be/19VNYlShA8U)
+
+### Automatización, scripts y herramientas
+- Registra cada cambio en una hoja de cálculo el mismo día que lo haces, con fecha, descripción detallada y métricas de antes y después. (Fuente: GrowMyAds — https://youtu.be/0Ymo5MVHulM)
+- Nunca hagas múltiples cambios simultáneos sin documentarlos por separado; cada test debe ser un cambio aislado. (Fuente: GrowMyAds — https://youtu.be/0Ymo5MVHulM)
+- Script de Mike Rhodess (Micro PMax Script): Instalar en la cuenta para ver desglose de impresiones, clics y coste por canal (Shopping, Display, Video, Search). Ideal: 80%+ de exposición en Shopping. (Fuente: GrowMyAds — https://youtu.be/eFL6_qo7g10)
+- Usa Automated Rules para lógica simple diaria: ejemplo, etiqueta anuncios para fin de semana vs. días de semana. (Fuente: The Best Automations to Optimize Google Ads — https://youtu.be/JQSaZgLh740)
+- Prioriza automatizar según frecuencia y tiempo: traza tus tareas PPC en una cuadrícula de 2x2 (frecuencia vs. tiempo consumido). Automatiza primero las tareas que haces a menudo y que toman mucho tiempo. (Fuente: The Best Automations to Optimize Google Ads — https://youtu.be/JQSaZgLh740)
+- Para smart bidding con pocas conversiones, usa micro-conversiones (ej. descarga de whitepaper, registro a newsletter) que correlacionen con la venta final. (Fuente: The Best Automations to Optimize Google Ads — https://youtu.be/JQSaZgLh740)
+- Configura alertas de anomalías en Optmyzr con umbrales personalizados: 25-30% de desviación para clics/costo y 80-100% para conversiones en cuentas con compras infrecuentes; envíalas a las 7:00 AM. (Fuente: 10 Powerful Automations — https://youtu.be/oX8AFB-GVUI)
+- Pausa keywords con 0 conversiones en 90 días y un costo 3x el CPA objetivo de la campaña; aplica el label "paused_keywords_no_conversions_90_days" para re-evaluar después. (Fuente: 10 Powerful Automations — https://youtu.be/oX8AFB-GVUI)
+- Usa el "Flexible Budget Script" de Google para gastar un presupuesto fijo de forma uniforme en un período definido. (Fuente: PPC Budget Problems? — https://youtu.be/VkodJG2mpI8)
+- Descarga CSV de Google Ads con columnas exactas en lugar de conectar APIs directamente para cuentas grandes, y súbelo a Claude para que escriba Python que agregue y visualice los datos. (Fuente: How @Andrew Lolk Talks PPC Uses AI — https://youtu.be/XXAn0luaD7c)
+
+### Fuentes nuevas de esta ola
+- GrowMyAds — https://youtu.be/-ch_R4WPxfw
+- GrowMyAds — https://youtu.be/-w0GraOv2B0
+- GrowMyAds — https://youtu.be/0C4LilVmDeA
+- GrowMyAds — https://youtu.be/0Ymo5MVHulM
+- GrowMyAds — https://youtu.be/16X5a0Ii7kg
+- GrowMyAds — https://youtu.be/1kN74gkvXbU
+- GrowMyAds — https://youtu.be/3W0XeR3va20
+- GrowMyAds — https://youtu.be/4ntMYTYW99E
+- GrowMyAds — https://youtu.be/57dmkmi9vmE
+- GrowMyAds — https://youtu.be/8IowO33k8N8
+- GrowMyAds — https://youtu.be/9Hn1QuAwsas
+- GrowMyAds — https://youtu.be/9uD1nSJJvKE
+- GrowMyAds — https://youtu.be/9vbkkHWbCQQ
+- GrowMyAds — https://youtu.be/AZpYstCzfGw
+- GrowMyAds — https://youtu.be/B-jRuc2RLZk
+- GrowMyAds — https://youtu.be/B27snHfuuW8
+- GrowMyAds — https://youtu.be/BDph38SUQgs
+- GrowMyAds — https://youtu.be/CW4VraSHQV4
+- GrowMyAds — https://youtu.be/C_g9hTd-UgE
+- GrowMyAds — https://youtu.be/F7EqcOB2dRY
+- GrowMyAds — https://youtu.be/HQVyxAE-wLM
+- GrowMyAds — https://youtu.be/IIAr7vYh7l4
+- GrowMyAds — https://youtu.be/IO9KXnoQ7No
+- GrowMyAds — https://youtu.be/Legy3ZUPYiQ
+- GrowMyAds — https://youtu.be/Oc2dN_vbO6o
+- GrowMyAds — https://youtu.be/PPDBldQMWc0
+- GrowMyAds — https://youtu.be/RBvD5Z0ucTk
+- GrowMyAds — https://youtu.be/RTzYpVb2gQc
+- GrowMyAds — https://youtu.be/SoX8Fz8ECV4
+- GrowMyAds — https://youtu.be/TCdSxn-V2-c
+- GrowMyAds — https://youtu.be/YdWyP7IuG-0
+- GrowMyAds — https://youtu.be/ZhLEWrcUSXo
+- GrowMyAds — https://youtu.be/_YFzgP5oXiQ
+- GrowMyAds — https://youtu.be/al-FyEzVNk0
+- GrowMyAds — https://youtu.be/azlz9DqcALU
+- GrowMyAds — https://youtu.be/bA5EMJSa4Co
+- GrowMyAds — https://youtu.be/eFL6_qo7g10
+- GrowMyAds — https://youtu.be/eQRnw4XOSNM
+- GrowMyAds — https://youtu.be/fJjT5FZrxLc
+- GrowMyAds — https://youtu.be/h2C5OxFNLr8
+- GrowMyAds — https://youtu.be/hY8ZBC3A4uQ
+- GrowMyAds — https://youtu.be/i_YMgSCUSBo
+- GrowMyAds — https://youtu.be/ljVBjJ6IKX8
+- GrowMyAds — https://youtu.be/ngNw8xJ8Rq8
+- GrowMyAds — https://youtu.be/nokE0Z5ntRo
+- GrowMyAds — https://youtu.be/omUe4kwdBrc
+- GrowMyAds — https://youtu.be/pVp7Syx_F3U
+- GrowMyAds — https://youtu.be/pfB5ZdZKZzg
+- GrowMyAds — https://youtu.be/qFH1CN1FRQA
+- GrowMyAds — https://youtu.be/qYxPMe9ynRE
+- GrowMyAds — https://youtu.be/qceni_Q1Yk0
+- GrowMyAds — https://youtu.be/qnQhW-PcUds
+- GrowMyAds — https://youtu.be/r0PKY3or44k
+- GrowMyAds — https://youtu.be/sWjbxXan-24
+- GrowMyAds — https://youtu.be/uOoa066Ui4M
+- GrowMyAds — https://youtu.be/v1BWw0su_AQ
+- GrowMyAds — https://youtu.be/v_71WbuyggI
+- GrowMyAds — https://youtu.be/w7C_GRLklf0
+- GrowMyAds — https://youtu.be/zAcTn6_2KfE
+- GrowMyAds — https://youtu.be/zMDsA7h8uGo
+- 8 PPC Experts Predict 2026 — https://youtu.be/2TdOEFcS2bg
+- How to Do Conversion Value Adjustments in Google Ads — https://youtu.be/35GBxbrDhcM
+- Custom Labels Based on Product Performance for Shopping Campaigns — https://youtu.be/48MoDpZjUPk
+- Everything You Need to Manage Your Q4 Shopping Campaigns for 2023 — https://youtu.be/4S0xjcYa9JE
+- Best Practices and Implementation of RSAs and Attribution on Google — https://youtu.be/5lIspJdHiyc
+- How Chris Ridley of Evoluted Built the Award-Winning PPC Campaign — https://youtu.be/8SHbdTTuuXs
+- How ChatGPT Can Make You a PPC Automation Wizard — https://youtu.be/8x-GT43-45w
+- AI and the Future of PPC: Insights from Fred Vallaeys and Andrew Lolk — https://youtu.be/963WYgd4v7Q
+- How to Automate Inventory-Based Campaigns with Campaign Automator — https://youtu.be/AItUzRh7NQ4
+- How @joeybidner Drives Incremental Ecommerce Revenue Using Feed-Driven Search Automation — https://youtu.be/Cb-gyvuQl34
+- Google’s U-Turn on Cookies: What Does It Mean for Advertisers — https://youtu.be/DGSCAPCsqiQ
+- Why Ad Strength Score May Not Matter Much — https://youtu.be/E-iDA5HtbmU
+- AI Max for Search — https://youtu.be/EvJrxtDxeAI
+- Learn With Optmyzr: How to Investigate Changes in Your PPC Account — https://youtu.be/HAqVhZDTpVY
+- 3 Impactful Landing Page Optimizations for Google Ads PPC — https://youtu.be/IWfM94UfA4o
+- Why Value-Based Bidding in PPC Can Improve Results — https://youtu.be/J036FJoLiAU
+- The Best Automations to Optimize Google Ads — https://youtu.be/JQSaZgLh740
+- GML 2023 Recap (Shopping Ads & Performance Max) with Kirk Williams — https://youtu.be/Jahb9IvMX9c
+- Learn With Optmyzr: How to Fix Budget Pacing Issues — https://youtu.be/KGA35rQ_0fM
+- Reverse Engineering Google Shopping — https://youtu.be/LNKY46ae6Ho
+- The Fundamentals of AI in Google Ads: Explained and Shown — https://youtu.be/LNy0w2dt_qM
+- Mastering Competitive Intelligence in PPC — https://youtu.be/Lkn-Vw89XW4
+- How Melissa Achieved a 154% Increase in Conversions — https://youtu.be/NKTs88qFaME
+- A PPC Data Analysis Masterclass by Cory Lindholm — https://youtu.be/Oors-OKmg2Y
+- How to Win With Seasonality Bid Adjustments Ft. Web2Media — https://youtu.be/Ou8029eHfBk
+- GML 2025 PMax Updates: What’s New & How to Make It Work for You — https://youtu.be/P4uEJvRWuII
+- Build, Manage, and Optimize Your Performance Max Campaigns — https://youtu.be/PFrnW_N42RU
+- AI in PPC: Strong Case… But Some Weak Matches — https://youtu.be/QGhc7LCLslM
+- 4 Proven Automation Plays That Consistently Grow Ecommerce Profits — https://youtu.be/QplC-zjbu_E
+- How Search Generative Experience Could Change How You Run Google Ads — https://youtu.be/R01u7IWODts
+- Learn With Optmyzr: How to Use Competitor Insights — https://youtu.be/TPSqpLTizDk
+- How to Manage Automatic Deduplication of Keywords in PPC — https://youtu.be/TzyL-ftZEzg
+- PPC Budget Problems? Here's How to Pace & Allocate Spend Automatically — https://youtu.be/VkodJG2mpI8
+- How to Calculate CPC for a Target ROAS — https://youtu.be/WoiPr7fhiYQ
+- Learn With Optmyzr: Upgrade Your Google Ads Rules with Rule Engine Automation — https://youtu.be/XUSG4eEyY6A
+- How @Andrew Lolk Talks PPC Uses AI to Analyze PPC Data — https://youtu.be/XXAn0luaD7c
+- Here’s Why You Should Use Offline Conversion Imports — https://youtu.be/YpvSD7y0vio
+- Keep exact match exact after close variants in Google Ads — https://youtu.be/ZqhHOl1EpYo
+- Learn With Optmyzr: Real-Time PPC Strategies to Stay in Control During BFCM — https://youtu.be/an3RCITYFjg
+- What’s up With Sunsetting of tCPA & tROAS? — https://youtu.be/bchvJFqr2js
+- Future-Proof Your Brand: How to Win at Branded Search — https://youtu.be/bhPJbkUKEcY
+- How to Use Geo Bid Adjustments at the Same Time as Google Smart Bidding — https://youtu.be/cLaAMAWgwAE
+- The Power of Product Labeling: The Secret Ingredient to Profitable Shopping Campaigns — https://youtu.be/ccA4CyZpZII
+- Compare Your Account Performance Against Your Competition's — https://youtu.be/cutkaH_Zdrk
+- Mastering Performance Max with Optmyzr: From Visibility to Control — https://youtu.be/dcPh57jpjXE
+- Learn With Optmyzr: How to Improve Location Targeting in PPC Through Geo Heatmapping — https://youtu.be/muV7jEwGeAo
+- Learn With Optmyzr: How to Optimize Performance of Shopping and PMax Campaigns — https://youtu.be/nKx5-Dyza9s
+- 10 Powerful Automations Beeby Clark+Meyler Uses Everyday — https://youtu.be/oX8AFB-GVUI
+- The Truth About Rising CPCs in Google Ads — https://youtu.be/pnLgA_T22-k
+- Peak Season PPC Monitoring Checklist — https://youtu.be/qE0hILgJd68
+- Google’s ‘Remove Redundant Keywords’ Update: A Fireside Chat With Greg Finn — https://youtu.be/qU2pthz1Krg
+- What's the future of the 'keyword'? feat. @savvyrevenue and @the_google_pro — https://youtu.be/r3eH7Loz3FA
+- How to A/B Test RSAs - Responsive Search Ads — https://youtu.be/sZ6kjn2zxng
+- ROAS/Price Based Google Shopping Campaigns — https://youtu.be/sd3_c71azXk
+- 3 Audience Targeting Strategies for Google Ads Campaigns — https://youtu.be/tN8Kd9BVE4A
+- The Complete Q4 Shopping PPC Checklist (Includes Performance Max) — https://youtu.be/v7VBRXkLMZA
+- AI, Third-Party Cookies, CPCs, Attribution & More: How to Prepare for 2024 — https://youtu.be/wD1J6A6Sctw
+- How WebMechanix Used Value-Based Bidding to Generate 30% Higher-Quality Leads — https://youtu.be/wXpPhBkrZl8
+- How Marketers Can Thrive in a Post-third-party Cookie Era — https://youtu.be/xa3jH8M_j88
+- AnalyticsMania — https://youtu.be/19VNYlShA8U
+- AnalyticsMania — https://youtu.be/-Y-RQtYLpHM
+- AnalyticsMania — https://youtu.be/-bPXKPNJnJI
+- AnalyticsMania — https://youtu.be/08JTO8B7d8o
+- AnalyticsMania — https://youtu.be/0nGu1sHZDt4
+- AnalyticsMania — https://youtu.be/2amBrQYFUCE
+- AnalyticsMania — https://youtu.be/0sDm7xxBRro
+- AnalyticsMania — https://youtu.be/0uFnkwcnYCw
+- AnalyticsMania — https://youtu.be/1A0Gr2ZNDHA
+- AnalyticsMania — https://youtu.be/1igvZkIhx9c
+- AnalyticsMania — https://youtu.be/43U87jaDTLk
+- AnalyticsMania — https://youtu.be/4_PnuHJ2m_w
+- AnalyticsMania — https://youtu.be/4ztGY0ZwV2U
+- AnalyticsMania — https://youtu.be/5lO3jfOjYWY
+- AnalyticsMania — https://youtu.be/BMizfUoY188
+- AnalyticsMania — https://youtu.be/BaqE6WigOWU
+- AnalyticsMania — https://youtu.be/8KBORU5y_2c
+- AnalyticsMania — https://youtu.be/AX4Pp8hGYmc
+- AnalyticsMania — https://youtu.be/ECFL7iXzgBQ
+- AnalyticsMania — https://youtu.be/E8TTTRZ7W40
+- AnalyticsMania — https://youtu.be/EN8s8PJK-0g
+- AnalyticsMania — https://youtu.be/EPTyinO6BUM
+- AnalyticsMania — https://youtu.be/FZl8D0nMazU
+- AnalyticsMania — https://youtu.be/Fv2DL8bt1pQ
+- AnalyticsMania — https://youtu.be/GTPQcaIPzds
+- AnalyticsMania — https://youtu.be/HyFZhvPZUNM
+- AnalyticsMania — https://youtu.be/PuPHAAU7yyM
+- AnalyticsMania — https://youtu.be/QL-C9GNAIFw
+- AnalyticsMania — https://youtu.be/SWFaRRJbFMg
+- AnalyticsMania — https://youtu.be/URDFuTJgrqM
+- AnalyticsMania — https://youtu.be/VulnTDb62uI
+- AnalyticsMania — https://youtu.be/XanyDjEthbc
+- AnalyticsMania — https://youtu.be/XsxEa43sltE
+- AnalyticsMania — https://youtu.be/YEUA6d2wieE
+- AnalyticsMania — https://youtu.be/YNvOZVP3xcE
+- AnalyticsMania — https://youtu.be/as3ttwsVJG0
+- AnalyticsMania — https://youtu.be/bDgKcolJfJ0
+- AnalyticsMania — https://youtu.be/cQ6Z1xobR7M
+- AnalyticsMania — https://youtu.be/cRyQp0azYrg
+- AnalyticsMania — https://youtu.be/e0iA4_CtZOU
+- AnalyticsMania — https://youtu.be/e_UoJBECHmI
+- AnalyticsMania — https://youtu.be/fRSW-5iUHrQ
+- AnalyticsMania — https://youtu.be/fjlepTzZ15c
+- AnalyticsMania — https://youtu.be/hc4EOTiCpA4
+- AnalyticsMania — https://youtu.be/mTrEU03wtv8
+- AnalyticsMania — https://youtu.be/pMUoWALa3kA
+- AnalyticsMania — https://youtu.be/rO-tXWrD1oY
+- AnalyticsMania — https://youtu.be/r_eoeU2qUn0
+- AnalyticsMania — https://youtu.be/uMQpirSsJ-0
+- AnalyticsMania — https://youtu.be/vm8u4BckuRI
+- AnalyticsMania — https://youtu.be/wxfN9NZIfpk
+- AnalyticsMania — https://youtu.be/x-8IlJdkzXY
+- AnalyticsMania — https://youtu.be/xalewOYMbts
+- AnalyticsMania — https://youtu.be/yzkoDcJ_wA8
+- AnalyticsMania — https://youtu.be/zQXa-tzd3YM
+- mike-rhodes-negative-script — https://mikerhodes.com.au/scripts/neg
+- optmyzr-data-studies-index — https://www.optmyzr.com/blog/data-studies/

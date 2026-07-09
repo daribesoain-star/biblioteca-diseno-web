@@ -1,0 +1,37 @@
+## Ampliación de campo — ingesta de canales (2026-07-09)
+> 7 videos/artículos destilados de los canales top del rubro. Doctrina complementaria a la de arriba (deep research), con fuente por regla.
+
+### Flujos automatizados (flows) y su configuración
+- **Flow de bienvenida:** actívalo cuando alguien se suscribe a la lista o crea una cuenta. Debe tener **3-5 emails** enviados durante **1-2 semanas**. (Fuente: chase-dimond-email-flows — https://www.chasedimond.com/ecommerce-email-flows)
+- **Flow de carrito abandonado:** actívalo cuando un usuario agrega productos al carrito y abandona sin comprar. La secuencia típica tiene **3 emails** enviados durante **24-72 horas**, con el primer recordatorio dentro de **1-3 horas** del abandono. (Fuente: chase-dimond-email-flows — https://www.chasedimond.com/ecommerce-email-flows)
+- **Flow de win-back:** actívalo para clientes sin compra dentro de un umbral de **60-180 días**, según ciclo promedio de recompra y categoría. (Fuente: chase-dimond-email-flows — https://www.chasedimond.com/ecommerce-email-flows)
+- **Usa emails de reposición cuando vendes productos que se agotan y se compran de forma recurrente.** (Fuente: klaviyo-replenishment-flow — https://www.klaviyo.com/blog/the-email-automation-all-consumable-goods-brands-need-that-many-dont-yet-use)
+- **Ajusta el delay al ciclo real de consumo:** para vitaminas/suplementos con suministro de 30 días, envía entre el día 20 y 25. (Fuente: klaviyo-replenishment-flow — https://www.klaviyo.com/blog/the-email-automation-all-consumable-goods-brands-need-that-many-dont-yet-use)
+- **Los flows generan más engagement en cada etapa del embudo que las campañas.** (Fuente: klaviyo-benchmark-2025-amer — https://klaviyocms.wpengine.com/wp-content/uploads/2025/02/2025-Benchmark-Report_AMER.pdf)
+- **Los flujos automatizados pueden generar “hasta 30 veces” más ingresos por destinatario.** (Fuente: klaviyo-benchmarks-by-industry — https://www.klaviyo.com/products/email-marketing/benchmarks)
+
+### Benchmarks y métricas clave
+- **Benchmark de bienvenida:** los emails de bienvenida suelen lograr **40-60% de open rate**. (Fuente: chase-dimond-email-flows — https://www.chasedimond.com/ecommerce-email-flows)
+- **El flow de carrito abandonado es la prioridad de ingresos: RPR promedio $3.07, top 10% $27.12.** (Fuente: klaviyo-benchmark-2025-amer — https://klaviyocms.wpengine.com/wp-content/uploads/2025/02/2025-Benchmark-Report_AMER.pdf)
+- **Benchmarks del win-back con descuento generoso:** Open rate 10-15%, Click rate 4-7%, Conversion rate 2-5%, Reactivation rate 8-12%. (Fuente: chase-dimond-reengagement — https://www.chasedimond.com/re-engagement-email-examples-20-win-back-campaigns-that-revive-inactive-subscribers-and-lapsed-customers)
+
+### Reactivación y win-back
+- **Usa descuentos de win-back al menos 10 puntos porcentuales mayores que la promoción regular.** (Fuente: chase-dimond-reengagement — https://www.chasedimond.com/re-engagement-email-examples-20-win-back-campaigns-that-revive-inactive-subscribers-and-lapsed-customers)
+
+### Deliverability y cumplimiento
+- **Mantén la tasa de spam reportada por usuarios por debajo de 0,1%.** (Fuente: google-sender-guidelines — https://support.google.com/a/answer/14229414)
+- **La baja de un clic es obligatoria para mensajes de marketing, promocionales o comerciales.** (Fuente: google-sender-guidelines — https://support.google.com/a/answer/14229414)
+- **Las solicitudes de baja deben procesarse dentro de 48 horas.** (Fuente: google-sender-guidelines — https://support.google.com/a/answer/14229414)
+
+### Higiene de listas
+- **Antes de enviar a una lista antigua, limpia emails potencialmente inválidos.** (Fuente: klaviyo-reengage-old-list — https://help.klaviyo.com/hc/en-us/articles/10767213384859)
+- **Usa servicios de limpieza de listas o herramientas de entregabilidad de terceros; Klaviyo menciona Kickbox como opción recomendada.** (Fuente: klaviyo-reengage-old-list — https://help.klaviyo.com/hc/en-us/articles/10767213384859)
+
+### Fuentes nuevas de esta ola
+- chase-dimond-email-flows — https://www.chasedimond.com/ecommerce-email-flows
+- chase-dimond-reengagement — https://www.chasedimond.com/re-engagement-email-examples-20-win-back-campaigns-that-revive-inactive-subscribers-and-lapsed-customers
+- google-sender-guidelines — https://support.google.com/a/answer/14229414
+- klaviyo-benchmark-2025-amer — https://klaviyocms.wpengine.com/wp-content/uploads/2025/02/2025-Benchmark-Report_AMER.pdf
+- klaviyo-benchmarks-by-industry — https://www.klaviyo.com/products/email-marketing/benchmarks
+- klaviyo-reengage-old-list — https://help.klaviyo.com/hc/en-us/articles/10767213384859
+- klaviyo-replenishment-flow — https://www.klaviyo.com/blog/the-email-automation-all-consumable-goods-brands-need-that-many-dont-yet-use

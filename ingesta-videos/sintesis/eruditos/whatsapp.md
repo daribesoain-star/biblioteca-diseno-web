@@ -1,0 +1,44 @@
+## Ampliación de campo — ingesta de canales (2026-07-09)
+> 2 videos/artículos destilados de los canales top del rubro. Doctrina complementaria a la de arriba (deep research), con fuente por regla.
+
+### Frequency capping: límites y señales
+- Identifica el frequency capping cuando aparezcan señales como caída repentina de delivery, broadcasts fallidos, “Unhealthy system activity”, “Spam rate limit hit” o mensajes no entregados para mantener un ecosistema saludable. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- No interpretes “Unhealthy system activity” como baneo automático del número: normalmente indica restricción temporal de entrega para ese usuario por exceso de mensajes promocionales recibidos. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Considera el límite como “por usuario”, no “por negocio”: usar varios números no garantiza más entrega porque Meta decide si ese usuario puede recibir más marketing. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Meta no publica un número fijo oficial de mensajes promocionales permitidos por día; el artículo de AiSensy da como ejemplo un límite de alrededor de 15 mensajes dentro de una ventana móvil de 24-48 horas, condicionado por engagement y calidad. Infobip especifica un tope duro de máximo 2 mensajes de marketing en 24 horas; cualquier intento adicional falla. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/ | infobip-frequency-capping — https://www.infobip.com/blog/what-is-whatsapp-frequency-capping)
+- El capping afecta principalmente mensajes de marketing y la apertura de nuevas conversaciones promocionales. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Los mensajes de servicio iniciados por el usuario, respuestas dentro de la ventana de atención de 24 horas, mensajes de autenticación como OTP/login/verificación y, en general, plantillas utility como confirmaciones de pedido, pagos o entregas, no se ven afectados del mismo modo. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Aplica globalmente: no es solo India; puede afectar usuarios de cualquier país que reciban mensajes por WhatsApp Business Platform. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Detecta bloqueos por frequency capping con códigos de error: en WhatsApp Cloud API puede aparecer `131049`; en Infobip puede aparecer `7032`. (Fuente: infobip-frequency-capping — https://www.infobip.com/blog/what-is-whatsapp-frequency-capping)
+
+### Estrategias de envío y segmentación
+- Antes de enviar broadcasts, obtén opt-in explícito en formularios y comunica que el número puede usarse para notificaciones por WhatsApp. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Segmenta audiencias antes de enviar: prioriza usuarios con engagement reciente, opt-in claro y mayor probabilidad de lectura. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Prioriza calidad sobre volumen: 2 mensajes bien segmentados, relevantes y con llamada a responder superan 5 mensajes genéricos que pueden ser bloqueados. (Fuente: infobip-frequency-capping — https://www.infobip.com/blog/what-is-whatsapp-frequency-capping)
+- Segmenta antes de enviar campañas masivas: prioriza usuarios de mayor valor, audiencias más activas o segmentos con mayor intención para reducir desperdicio de envíos bloqueados. (Fuente: infobip-frequency-capping — https://www.infobip.com/blog/what-is-whatsapp-frequency-capping)
+- Espacia promociones y recordatorios: evita enviar varias campañas de marketing al mismo usuario en periodos cercanos; planifica por audiencia, prioridad y ventana de 24 horas. (Fuente: infobip-frequency-capping — https://www.infobip.com/blog/what-is-whatsapp-frequency-capping)
+- No programes demasiados mensajes en una ventana corta: más frecuencia puede generar bloqueos, menor calidad del número y más fallos. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Limita los cold broadcasts mensuales: envíos fríos masivos elevan bloqueos, reducen quality rating y refuerzan la señal de falta de opt-in. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Haz que el primer mensaje sea autosuficiente: en campañas de 2 pasos, como anuncio + recordatorio, el segundo mensaje puede no llegar si el usuario alcanza el límite de 24 horas. (Fuente: infobip-frequency-capping — https://www.infobip.com/blog/what-is-whatsapp-frequency-capping)
+
+### Manejo de fallos y reintentos
+- Si un contacto falla por capping, no reenvíes inmediatamente; espera 24-48 horas antes de volver a intentar. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- En AiSensy, para reenvío manual: entra a `Campaigns` → selecciona la campaña con fallidos → abre la sección de fallidos → reenvía el broadcast. El artículo afirma que esto puede mejorar delivery en 20-30%. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Usa AiSensy Failed Retries para automatizar recuperación de fallidos: permite hasta 3 reintentos automáticos, todos programados dentro de una ventana máxima de 24 horas desde el envío original. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Flujo de Retry Campaign en AiSensy: Paso 1: ve a `Contacts` y selecciona los contactos del broadcast. Paso 2: ingresa nombre de campaña y elige una plantilla de WhatsApp preaprobada. Paso 3: activa el toggle `Retry Campaign`. Paso 4: configura hasta 3 reintentos con delays definidos, siempre dentro de las 24 horas posteriores al envío original. Paso 5: monitorea en `Campaigns` → selecciona campaña → `Scheduled Retries`. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+
+### Optimización de engagement y calidad
+- Incluye siempre una vía de baja en el footer del mensaje; por ejemplo, permite responder `STOP` para dejar de recibir notificaciones. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- No uses WhatsApp solo para ofertas: alterna promociones con contenido útil o interactivo que aumente lecturas, respuestas y señales de calidad. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Incentiva respuestas del usuario: cuando el usuario responde o inicia conversación, se abre una ventana de 24 horas para mensajes free-form no afectados por el frequency capping. (Fuente: infobip-frequency-capping — https://www.infobip.com/blog/what-is-whatsapp-frequency-capping)
+- Usa Click to WhatsApp Ads para iniciar sesiones desde anuncios y llevar al usuario a flujos estructurados fuera del envío outbound de plantillas de marketing. (Fuente: infobip-frequency-capping — https://www.infobip.com/blog/what-is-whatsapp-frequency-capping)
+- Ajusta automatizaciones de chatbot: los follow-ups outbound con plantillas de marketing deben depender del engagement, no enviarse repetidamente si el usuario no responde. (Fuente: infobip-frequency-capping — https://www.infobip.com/blog/what-is-whatsapp-frequency-capping)
+- Mantén plantillas frescas: actualiza copy, formato y media para evitar fatiga del usuario y sostener señales de calidad ante Meta. (Fuente: infobip-frequency-capping — https://www.infobip.com/blog/what-is-whatsapp-frequency-capping)
+
+### Monitoreo y métricas
+- Evalúa cada campaña por delivery, fallidos por capping, respuestas, bloqueos y bajas, no solo por volumen enviado. (Fuente: aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/)
+- Monitorea señales de salud, no solo delivery: revisa quality ratings, phone number status, seen rates, click rates y tendencias de rendimiento a largo plazo. (Fuente: infobip-frequency-capping — https://www.infobip.com/blog/what-is-whatsapp-frequency-capping)
+
+### Fuentes nuevas de esta ola
+- aisensy-frequency-capping — https://m.aisensy.com/blog/meta-frequency-capping-for-whatsapp-marketing-messages/
+- infobip-frequency-capping — https://www.infobip.com/blog/what-is-whatsapp-frequency-capping
