@@ -1,9 +1,9 @@
 {
  "meta": {
   "nombre": "KB Videos de Especialistas — lecciones destiladas",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "idioma": "es",
-  "descripcion": "Lecciones accionables destiladas de tutoriales reales de especialistas (YouTube/Instagram): prompting de estilos visuales IA, Google Flow/Veo, Nano Banana/Gemini, Kling, consistencia de personajes, ads/UGC con IA, motion graphics, automatización de contenido con Claude, selección de modelos de video, anime IA y presentaciones. Cada entrada fusiona y deduplica las reglas de todos los videos del tema, con prompts VERBATIM y errores comunes. Fuentes: canales @nextmindrevolution y @imskaigenerated completos (95 videos) + piezas de motion de Envato, @abhishekk.aep, @JoshT y Wonder&Render analizadas frame a frame. v1.1 suma los canales completos @jennjagerpro (143 videos: Final Cut Pro, Apple Motion) y @mundoaudiovisual (279 videos: DaVinci Resolve/color, cursos de Premiere/After Effects/Photoshop en español, drones DJI/FPV, cámaras y técnica de grabación). Total: 529 videos destilados.",
+  "descripcion": "Lecciones accionables destiladas de tutoriales reales de especialistas (YouTube/Instagram): prompting de estilos visuales IA, Google Flow/Veo, Nano Banana/Gemini, Kling, consistencia de personajes, ads/UGC con IA, motion graphics, automatización de contenido con Claude, selección de modelos de video, anime IA y presentaciones. Cada entrada fusiona y deduplica las reglas de todos los videos del tema, con prompts VERBATIM y errores comunes. Fuentes: canales @nextmindrevolution y @imskaigenerated completos (95 videos) + piezas de motion de Envato, @abhishekk.aep, @JoshT y Wonder&Render analizadas frame a frame. v1.1 suma los canales completos @jennjagerpro (143 videos: Final Cut Pro, Apple Motion) y @mundoaudiovisual (279 videos: DaVinci Resolve/color, cursos de Premiere/After Effects/Photoshop en español, drones DJI/FPV, cámaras y técnica de grabación). Total: 529 videos destilados. + ola 4: tutoriales de las herramientas CONECTADAS del arsenal (fal/FLUX, Recraft, Replicate, ElevenLabs, Suno, Ideogram, gpt-image, Higgsfield).",
   "uso_agentes": "GET a este archivo o tool kb_get del MCP kb-diseno (base 'videos'). Antes de crear una pieza con IA generativa visual, video o motion, leer las 'reglas_para_agentes' y 'prompts_y_recetas' de las entradas cuya 'disciplina'/'area' calce con la tarea. Los destilados por video (más detalle) viven en ingesta-videos/destilado/ del repo.",
   "actualizado": "2026-07-08",
   "verificacion": "Destilado automatizado (Codex/DeepSeek) de las transcripciones oficiales de cada video + análisis visual de keyframes en las piezas de motion (ola 1), curado por Claude. Cada entrada cita sus videos fuente con URL. Los prompts marcados VERBATIM provienen textuales de la transcripción.",
@@ -4796,6 +4796,781 @@
      "titulo": "FREE Final Cut Pro 11 Course - Chapter 2: The Timeline",
      "url": "https://youtu.be/7OmUc9zvfIo",
      "canal": "mundoaudiovisual"
+    }
+   ]
+  },
+  {
+   "id": "herramienta-fal-flux-api",
+   "disciplina": "herramientas-conectadas",
+   "area": "Herramientas del arsenal propio (MCP/API con llave activa)",
+   "titulo": "fal.ai + FLUX: pasarela API multi-modelo (imagen, video, 3D)",
+   "que_ensena": "Fal.ai es una pasarela API que unifica más de 600 modelos de IA para generar imágenes, videos, audio y modelos 3D. Cubre desde la navegación del playground, el uso de modelos específicos como Flux, NanoBanana, VO3 Fast y Seed Dance, hasta la creación de workflows y la gestión de créditos. También enseña a usar Flux Context (modelo multimodal en LTX Studio) para edición por capas, transferencia de estilo e inpainting con referencia.",
+   "reglas_para_agentes": [
+    "Usa el playground de cada modelo para probar prompts antes de implementarlos vía API; cada modelo tiene parámetros únicos (output format, aspect ratio, duration).",
+    "Cuando generes videos con VO3 Fast, ajusta la duración exacta al contenido del diálogo para evitar relleno con \"random gibberish\".",
+    "Para modelos 3D, genera primero una imagen de referencia con un prompt detallado (incluye \"side profile view\", \"background\", color) antes de subirla al modelo 3D.",
+    "En Video Understanding, especifica claramente qué información quieres extraer (ej. \"timestamps where delivery is off\") para obtener resultados accionables.",
+    "Nunca ejecutes un modelo sin verificar primero el costo estimado que aparece en el playground antes de hacer clic en \"Run\".",
+    "Siempre copia el \"HTTP curl request\" desde la página de detalles del modelo cuando integres con automatizaciones; no uses prompts genéricos.",
+    "En workflows, nombra cada paso (input, modelo, output) para mantener trazabilidad; conecta explícitamente el prompt de entrada al campo \"prompt\" del modelo.",
+    "Usa ChatGPT para generar prompts ultra detallados (múltiples párrafos) antes de ingresarlos en Fal.AI.",
+    "Usa guidance en 20 cuando necesites adherencia estricta al prompt; usa guidance 0-1 cuando quieras variaciones creativas.",
+    "Guarda el seed de imágenes que te gusten para replicar el estilo en futuras generaciones.",
+    "Nunca excedas 10 imágenes por ejecución para evitar gastos innecesarios de créditos.",
+    "Usa el botón \"Replay\" (ícono de play) en \"Request\" para recargar configuraciones previas, no reescribas prompts manualmente.",
+    "Descarga siempre las imágenes/videos antes de cerrar la sesión, pues los créditos no reembolsan contenido no descargado.",
+    "Usa Together AI como alternativa gratuita cuando se acaben los créditos en flux.ai; selecciona siempre \"flux 1.1 pro\" para máximo realismo.",
+    "Usa el modelo FLUX dev cuando priorices calidad sobre velocidad; usa Schnell cuando necesites generación más rápida.",
+    "Nunca uses un VAE incorrecto para el modelo (dev VAE con dev, Schnell VAE con Schnell).",
+    "Asegúrate de que todos los archivos estén en las carpetas correctas de Comfy UI (unet, clip, vae) antes de cargar el workflow.",
+    "Usa siempre el área T5 para el prompt principal en FLUX; copia el mismo prompt en el área CLIP superior cuando necesites corregir texto o detalles finos.",
+    "Cuando uses SCHNELL, confía en que sigue instrucciones de estilo explícitamente; no asumas que DEV hará lo mismo.",
+    "Nunca uses brackets como pesos en FLUX (no funcionan como en SD); úsalos solo para legibilidad.",
+    "Nunca uses \"masterpiece\" o \"quality\" en prompts de FLUX; no mejoran la calidad.",
+    "Nunca dejes el área T5 vacía si pones prompt solo en CLIP; el resultado no se relacionará con el prompt.",
+    "Siempre reformula lo que quieras evitar como instrucción positiva en el prompt, no uses negative prompts.",
+    "Usa \"change only the [elemento]\" cuando quieras modificar una parte específica sin afectar el resto en Flux Context.",
+    "Incluye siempre directivas de contención explícitas como \"strictly confined to [superficie]\" cuando trabajes con estilos que tienden a propagarse (ej: anime, surrealista).",
+    "Nunca asumas que la IA infiere tu intención implícita; sé explícito sobre qué cambiar y qué preservar.",
+    "Usa \"maintain the original [atributo]\" para cada aspecto que no deba modificarse (face, facial expression, skin tones, lighting, background, form, structure).",
+    "Cuando uses redefinition prompting (prompts poéticos), establece Flux Guidance a 1 para evitar rigidez y sobresaturación.",
+    "Para cambios localizados en áreas pequeñas (ej: uñas, joyería), acepta que habrá un \"reconstruction tax\" que puede alterar detalles finos; no intentes arreglarlo solo con prompting.",
+    "Desglosa la imagen en conceptos antes de escribir el prompt: identifica cada elemento, sus relaciones, el estilo deseado y las directivas de fidelidad."
+   ],
+   "prompts_y_recetas": [],
+   "errores_comunes": [
+    "**No especificar duración exacta en VO3 Fast:** Si el diálogo es corto pero la duración es larga (ej. 8 segundos), el modelo rellena con \"random gibberish\". Ajusta duration al contenido real.",
+    "**Ignorar el costo por modelo:** Algunos modelos (ej. VO3 Fast) son significativamente más caros que otros; revisa siempre el precio antes de ejecutar.",
+    "**No usar ChatGPT para prompts:** El video recomienda explícitamente usar ChatGPT para generar descripciones ultra detalladas; prompts simples producen resultados mediocres.",
+    "**Ignorar el parámetro guidance:** Poner guidance muy bajo (0-1) sin intención puede generar imágenes que no siguen el prompt.",
+    "**No guardar seeds:** Perder la oportunidad de replicar estilos exitosos en futuras generaciones.",
+    "**Subestimar el costo de image-to-video:** Cada video cuesta ~50 centavos vs 5 centavos por imagen; planificar créditos en consecuencia.",
+    "**Falta de créditos en flux.ai:** Se agotaron rápido (8 créditos por imagen). Solución: usar Together AI con $1 gratis.",
+    "**Olvidar ingresar tarjeta de crédito en Together AI:** Sin tarjeta, el modelo Flux 1.1 Pro no se desbloquea, aunque prometen reembolsar el cargo temporal.",
+    "**No colocar los modelos en las carpetas incorrectas (unet para FLUX, clip para encoders, vae para VAE) en Comfy UI.**",
+    "**No actualizar Comfy UI antes de usar FLUX (puede causar incompatibilidades).**",
+    "**Poner prompt solo en CLIP y dejar T5 vacío en FLUX:** la imagen no se relaciona con el prompt (posible bug).",
+    "**Usar brackets como pesos (ej: `(text)`) en FLUX:** no tienen efecto, solo alteran ligeramente el texto.",
+    "**Esperar que DEV siga estilos como \"black and white\", \"drawing\", \"painting\":** DEV ignora estos estilos y mantiene su estilo integrado (fotorrealista de personas). SCHNELL sí los sigue.",
+    "**Asumir que la IA entiende intención implícita en Flux Context:** Ejemplo: \"Change the dress to an anime style scene featuring cool rodents\" — la IA no sabe qué es \"cool\" y aplica anime a toda la imagen.",
+    "**Style bleed por conceptos con \"gravedad\" alta:** Estilos como \"anime style\" tienen mayor atracción en el espacio latente y se propagan si no se usan directivas de contención fuertes.",
+    "**Usar Flux Guidance demasiado alto para prompts creativos:** El valor por defecto 2.5 puede sobresaturar y rigidizar la interpretación de prompts poéticos o de redefinición."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "Flux AI Tutorial - 2026 ",
+     "url": "https://youtu.be/D1tcNzot2HI",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "FLUX: How To Generate UNLIMITED AI Images For FREE ",
+     "url": "https://youtu.be/DdSe5knj4k8",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Fal.ai Tutorial in 15 Minutes: Generate Images, Videos & 3D Faster Than Anything Else",
+     "url": "https://youtu.be/FTKnTYmfMv8",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to Prompt FLUX. The BEST ways for prompting FLUX.1 SCHNELL and DEV including T5 and CLIP.",
+     "url": "https://youtu.be/OSGavfgb5IA",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Flux.1 Kontext Prompting Guide",
+     "url": "https://youtu.be/RXzeRfvH3_w",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How To Use Fal.AI - Full Guide",
+     "url": "https://youtu.be/T11eCT1f-Sg",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to use FLUX.1 Kontext",
+     "url": "https://youtu.be/yiAV5pDe6R8",
+     "canal": "ola4-herramientas"
+    }
+   ]
+  },
+  {
+   "id": "herramienta-recraft",
+   "disciplina": "herramientas-conectadas",
+   "area": "Herramientas del arsenal propio (MCP/API con llave activa)",
+   "titulo": "Recraft: diseño IA con marca — logos, vectores SVG, estilos propios",
+   "que_ensena": "Recraft es una plataforma de diseño profesional con inteligencia artificial que permite generar imágenes vectoriales, logos, mockups fotorrealistas, estilos personalizados y edición avanzada. Cubre desde la creación de marcas completas (logo, packaging, merchandising) hasta la generación de video desde imágenes, con modelos especializados como V3, V4, Vector art y Photorealism. Incluye herramientas de inpainting, outpainting, cambio de fondos, integración precisa de texto largo y exportación en SVG.",
+   "reglas_para_agentes": [
+    "Usa **vector art** o **vector-based styles** siempre que generes logos o elementos de identidad que deban escalar sin pérdida de calidad.",
+    "Pon el nombre de la marca entre **comillas** en el prompt cuando quieras que aparezca escrito correctamente en la imagen generada.",
+    "Activa **style diversity** solo cuando necesites explorar variaciones creativas; desactívalo cuando busques coherencia en una serie.",
+    "Usa formato **3:2** para logos; usa formato **1:1** para logos en Recraft AI Logo Tutorial.",
+    "Siempre selecciona **Flux Context Max** cuando edites imágenes basadas en un prompt + imagen de referencia.",
+    "Usa la función **image set** para generar lotes de hasta 6 imágenes temáticas en una sola ejecución, aplicando la paleta de colores de la marca.",
+    "Para mockups fotorrealistas, genera primero la imagen base en modo **natural light** o **photo realism** antes de aplicar el logo.",
+    "Guarda como **custom style** cualquier combinación de estilos que planees reutilizar en proyectos futuros.",
+    "Para mockups: siempre seleccionar la imagen base primero y activar `Mockup` antes de arrastrar el logo; de lo contrario, el logo no se adapta a la superficie.",
+    "Para quitar fondo: usar `Remove bg` solo en imágenes con fondo sólido (blanco recomendado) para evitar recortes no deseados en el sujeto.",
+    "Para texto en imágenes: el texto debe estar dentro de un `Frame` y el modelo debe ser compatible con texto (ej. `Stamp`, `Punk Graphic`); no funciona con modelos genéricos.",
+    "Usa prompts en inglés para generación de imágenes; los resultados son superiores.",
+    "Pon el texto que quieras integrar en la imagen entre comillas dentro del prompt, incluso si el resto del prompt está en inglés.",
+    "Selecciona el modelo **\"v3\"** siempre que generes imágenes nuevas; es el más reciente y potente.",
+    "Usa formato **16:9** exclusivamente para miniaturas de YouTube.",
+    "Aplica la herramienta **\"Scissors\"** antes de **\"Change background\"** para separar sujetos del fondo original.",
+    "Descarga imágenes sin watermark usando el botón **\"Export\"** en PNG o JPG.",
+    "Usa **\"Recraft V3\"** como modelo por defecto para generar una amplia gama de imágenes.",
+    "Cuando crees un estilo personalizado, sube hasta **5 imágenes de referencia** para refinar el estilo; con más referencias el modelo aprende mejor cómo deben verse diferentes objetos.",
+    "Si las imágenes de referencia tienen perspectivas únicas (fisheye, ángulo bajo), selecciona **\"Style and composition\"** en los controles de composición.",
+    "Si las imágenes de referencia tienen un look común, selecciona **\"Style essentials\"** para evitar layouts inesperados.",
+    "Para generar vectores, asegúrate de seleccionar la categoría **\"Vector icon\"** (iconos minimalistas) o **\"Vector art\"** (formas vectoriales limpias) en la creación de estilos personalizados.",
+    "Para preservar el look de un personaje original en edición con IA, usa el modelo **Flux**.",
+    "Para transferir el estilo de una imagen a otra o hacer edición contextual, usa el modelo **GPT high** (soporta hasta 4 adjuntos).",
+    "Usa **\"V4 Pro\"** cuando necesites imágenes de alta resolución y detalle fino listas para producción.",
+    "Usa **\"V4 Standard\"** para iteración rápida y prototipado.",
+    "Usa **\"Vector\"** o **\"Vector Pro\"** cuando necesites archivos SVG editables con rutas reales y capas estructuradas.",
+    "Cambia a **\"Recraft V2\"** o **\"Recraft V3\"** cuando necesites aplicar estilos personalizados (V4 no soporta estilos).",
+    "Cambia a un modelo externo como **\"Nano Banana 2\"** cuando necesites edición basada en referencia (V4 no soporta reference-based editing).",
+    "En **Exploration Mode**, trata los primeros 8 resultados como borradores conceptuales, no como imágenes finales.",
+    "Usa baja similitud en el slider de **Exploration Mode** para explorar direcciones creativas; usa alta similitud para pulir refinamientos.",
+    "Para generar video, selecciona primero una imagen en el canvas y adjúntala como referencia antes de escribir el motion prompt.",
+    "Usa **\"Extract Prompt\"** para capturar la lógica completa detrás de cualquier imagen (iluminación, composición, materiales, color grading, ángulo de cámara, estilo).",
+    "Guarda estilos personalizados después de generar una imagen de prueba exitosa para reutilizarlos en todos los proyectos.",
+    "Presiona **\"M\"** para crear un mockup desde cero; usa **\"Mockup-ize\"** desde el panel de acción para transformar una imagen existente en superficie editable.",
+    "Usa prompts en inglés, no en español, para garantizar la máxima calidad de imagen.",
+    "Usa prompts detallados pero no extensos; prompts muy largos pueden reducir la adherencia y calidad.",
+    "No actives la opción **\"Style diversity\"** si buscas coherencia y alta calidad en la imagen.",
+    "Usa la opción **\"Raw\"** (sin procesar) cuando quieras máxima fidelidad al prompt.",
+    "Cuando generes texto dentro de imágenes, limita el texto a máximo 3-4 oraciones para mejor precisión.",
+    "Usa **\"Creative upscale\"** solo cuando necesites refinar detalles finos y rostros; para escalado general usa **\"Clarity upscale\"**.",
+    "Usa **relación 1:1** cuando crees logos en Recraft.",
+    "Usa **Vector art** como estilo para obtener gráficos vectoriales editables (no MJ ni Ideogram lo hacen).",
+    "Reduce los colores a **3 o menos** para un logo más elegante y limpio.",
+    "Exporta siempre como **SVG** si necesitas editar el vector después.",
+    "Nunca uses PNG o JPEG si planeas editar el logo en software vectorial.",
+    "Nunca asumas que otros generadores de IA (Midjourney, Ideogram) producen vectores editables; solo Recraft lo hace con Vector art."
+   ],
+   "prompts_y_recetas": [],
+   "errores_comunes": [
+    "No usar formato vectorial para logos, lo que impide escalarlos sin pérdida de calidad.",
+    "Olvidar poner el nombre de la marca entre comillas, resultando en texto mal renderizado o ausente.",
+    "No activar style diversity cuando se busca explorar múltiples direcciones creativas.",
+    "Usar el modelo de edición incorrecto (no Flux Context Max) al trabajar con imágenes de referencia, perdiendo coherencia visual.",
+    "Generar mockups sin preparar primero una imagen base fotorrealista del producto.",
+    "No ajustar la posición y escala del logo en el mockup, dando un resultado poco profesional.",
+    "No guardar combinaciones de estilos como preset, perdiendo tiempo al tener que recrearlas después.",
+    "Ignorar la opción de aplicar la paleta de colores de la marca en los image sets, generando elementos visualmente inconsistentes.",
+    "Arrastrar logo sin activar Mockup: si arrastras el logo directamente sobre la imagen sin haberla convertido a mockup, no se adapta a la superficie curva; la imagen queda plana y no funcional.",
+    "Texto mal integrado por modelo incorrecto: usar un modelo que no soporta texto (ej. fotorrealista) hace que la IA ignore o distorsione el texto; siempre seleccionar `Stamp` o `Punk Graphic` para diseños con texto.",
+    "Fondo removido borra parte del diseño: al usar `Remove bg` en imágenes con fondo complejo, puede recortar partes del sujeto; usar solo con fondos blancos o uniformes.",
+    "Pixelación al acercar imagen no vectorizada: si no se vectoriza, la imagen pierde calidad al hacer zoom; usar `Vectorizar` y exportar como SVG para impresión o web.",
+    "Exceder créditos diarios: la cuenta gratuita tiene 50 créditos/día; cada generación consume créditos, y solo permite 2 subidas de imágenes propias por día.",
+    "No usar prompts en español para generación: el presentador recomienda siempre prompts en inglés porque los resultados son mejores, aunque el texto integrado puede ir en español entre comillas.",
+    "No confiar en otras herramientas para texto largo: Recraft maneja textos largos sin errores, a diferencia de Ideogram que a veces falla.",
+    "No asumir que funciones de edición son gratuitas en otras plataformas: en Ideogram, el inpainting es de pago; en Adobe Firefly, las descargas tienen watermark. Recraft permite ambas funciones gratis y sin marca de agua.",
+    "No olvidar los créditos diarios: la versión gratuita otorga 50 créditos diarios. Cada generación o edición consume un crédito.",
+    "No usar estilos específicos: el modelo Recraft V3 es versátil, pero aplicar un estilo más específico (de la biblioteca o personalizado) mejora enormemente los resultados sin necesidad de prompt engineering complejo.",
+    "No ajustar la composición al crear estilos: si las referencias tienen perspectivas únicas y no seleccionas \"Style and composition\", el modelo no capturará bien esas características. Si las referencias son comunes y seleccionas esa opción, obtendrás layouts inesperados.",
+    "No probar estilos personalizados antes de guardarlos: usa el panel de prueba para validar e iterar sobre el estilo antes de guardarlo.",
+    "No usar el peso de imágenes: si subes varias referencias diversas, no ajustar los controles de peso puede hacer que el estilo no refleje la paleta o el look dominante que deseas.",
+    "No usar la categoría correcta para vectores: si creas un estilo para vectores pero no seleccionas \"Vector icon\" o \"Vector art\", el resultado no será vectorial limpio.",
+    "No usar el modelo adecuado en AI editing: usar Flux cuando quieres transferir estilo o GPT cuando quieres preservar un personaje lleva a resultados subóptimos.",
+    "No usar estilos con V4: si seleccionas un estilo mientras usas V4, el sistema cambia automáticamente a Recraft V2 o V3. Para mantener V4, no selecciones estilos.",
+    "No usar edición basada en referencia con V4: V4 no soporta reference-based editing. Para editar imágenes con referencias, cambia a un modelo externo como Nano Banana 2.",
+    "No tratar los primeros resultados de Exploration Mode como finales: son borradores conceptuales para encontrar la dirección correcta, no imágenes terminadas.",
+    "No ignorar el slider de similitud en Exploration Mode: controla si quieres variaciones creativas (baja similitud) o refinamientos precisos (alta similitud).",
+    "No olvidar adjuntar la imagen como referencia antes de generar video: debes seleccionar la imagen en el canvas y adjuntarla explícitamente como referencia para que el video mode funcione.",
+    "No subestimar \"Extract Prompt\": captura detalles técnicos como color grading, ángulo de cámara y materiales, no solo palabras clave superficiales.",
+    "Prompts en español: el presentador nota que los prompts en español producen resultados de menor calidad que en inglés.",
+    "Prompts demasiado extensos: prompts muy largos (como el de la ciudad al atardecer) pueden generar imágenes con defectos anatómicos (rostros sin detalle, manos malformadas, objetos distorsionados).",
+    "Activar \"Style diversity\": reduce la coherencia y calidad de la imagen, no se recomienda.",
+    "Esperar perfección en texto largo: el modelo puede omitir palabras al final de textos extensos (ejemplo: faltó la palabra \"Cosmos\" al final de la cita de Carl Sagan).",
+    "No usar \"Upscale\": sin escalar, los rostros pueden verse borrosos o sin detalle; el escalado revela defectos anatómicos.",
+    "Confundir raster vs vector: Raster = JPEG/PNG/GIF (fotografías realistas); Vector = SVG (escalable sin pérdida, usado en diseño gráfico).",
+    "No usar relación 1:1 para logos (se recomienda explícitamente).",
+    "No seleccionar **Vector art** como estilo (sin esto, no obtienes SVG editable).",
+    "Dejar muchos colores (ej. 11) hace que el logo se vea sobrecargado y poco elegante.",
+    "Exportar en PNG o JPEG en lugar de SVG si se necesita edición vectorial posterior.",
+    "Pensar que otros generadores como Midjourney o Ideogram producen vectores editables (no lo hacen)."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "¿Como usar Recraft AI V3?Tutorial Completo  🚀",
+     "url": "https://youtu.be/2bfYgA6p8JM",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Recraft Studio Full Walkthrough — V4, Video Tools, Exploration Mode & More",
+     "url": "https://youtu.be/TK3z16_Gn4c",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "RECRAFT - Best Free AI Tutorial for Creating and Editing Images",
+     "url": "https://youtu.be/ULbtt19xrVU",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Recraft Product Walkthrough",
+     "url": "https://youtu.be/guVhkM9vAYc",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Recraft AI Logo Tutorial — Create Awesome Logos in Minutes!",
+     "url": "https://youtu.be/hWHMlujrjvI",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Recraft Tutorial - 2026 ",
+     "url": "https://youtu.be/pAsj9wjPOSY",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Tutorial de RECRAFT AI 2025 (Generador de imágenes y diseños con IA)",
+     "url": "https://youtu.be/rQe7i3iBMsk",
+     "canal": "ola4-herramientas"
+    }
+   ]
+  },
+  {
+   "id": "herramienta-replicate-api",
+   "disciplina": "herramientas-conectadas",
+   "area": "Herramientas del arsenal propio (MCP/API con llave activa)",
+   "titulo": "Replicate: catálogo de modelos IA por API",
+   "que_ensena": "Plataforma que permite ejecutar modelos de machine learning en la nube mediante API, sin necesidad de configurar entornos complejos ni tener hardware potente. Cubre desde la creación de cuenta y configuración de facturación hasta el despliegue de modelos personalizados con COG, deployments con control de GPU, e integración en aplicaciones Laravel con patrones síncronos y asíncronos.",
+   "reglas_para_agentes": [
+    "Usa `cog init` solo cuando tengas un modelo existente y quieras generar la estructura base de archivos (cog.yaml y predict.py).",
+    "Define siempre `image` en `cog.yaml` si planeas usar `cog push` sin argumentos.",
+    "Ejecuta `cog login` antes de cualquier `cog push` para autenticarte en el registro de Replicate.",
+    "Nunca omitas los métodos `setup()` y `predict()` en `predict.py`; son obligatorios para que Cog funcione.",
+    "Nunca uses `cog push` sin haber probado primero el modelo localmente con `cog predict`.",
+    "Usa `replicate.deployments.predictions.create()` en lugar de `replicate.predictions.create()` cuando el modelo esté desplegado como deployment.",
+    "Nunca uses `await` en la creación de la predicción dentro del mismo handler si la app ya tiene lógica de polling separada; solo crea la predicción y devuelve su estado.",
+    "Siempre especifica `userAgent` al inicializar el cliente Replicate para trazabilidad.",
+    "Define `REPLICATE_API_TOKEN` como variable de entorno con un token dedicado al deployment, no el token personal.",
+    "Para evitar cold starts en demos, configura `min_instances: 1` en el deployment.",
+    "NUNCA ejecutes `replicate->run()` dentro de un route handler para tareas que tomen más de 2-3 segundos; usa colas (jobs) en su lugar.",
+    "USA webhooks (`predictions()->create()` con `webhook` URL) cuando el modelo pueda tardar más de 30 segundos (ej: fine-tuning).",
+    "USA el parámetro `version` exacto (hash SHA de 64 caracteres) obtenido de la pestaña \"Versions\" del modelo, no solo el nombre del modelo.",
+    "USA `implode('', $output)` cuando el modelo devuelva un array de tokens (típico en LLMs).",
+    "Configura facturación antes de generar cualquier contenido, incluso si hay créditos gratuitos; de lo contrario, el campo de prompt permanecerá deshabilitado.",
+    "Establece un límite máximo de gasto mensual en la configuración de facturación para evitar costos inesperados.",
+    "Usa la sección \"Models that generate images from text prompt\" cuando busques modelos de generación de imágenes como principiante.",
+    "Nunca asumas que hay suscripción mensual; Replicate cobra solo por uso de cada modelo.",
+    "Usa GitHub o Google para iniciar sesión; no hay opción de registro con correo electrónico directo.",
+    "Usa \"Explore\" → \"Featured models\" para probar modelos sin costo antes de configurar facturación.",
+    "Verifica el precio en la parte superior de cada modelo (ej. `0.003` por imagen) y las \"Images per $1\" al final de la página antes de generar.",
+    "Navega por categorías (ej. \"Generate images\", \"Generate music\") cuando no sepas qué modelo específico usar.",
+    "Prioriza modelos con \"Replicate's pick\" o alto número de \"runs\" como punto de partida.",
+    "Nunca asumas que el costo mostrado es exacto; es una estimación basada en tiempo de GPU típico.",
+    "Usa \"Explore\" → sección de funcionalidades cuando no sepas qué modelo elegir; filtra por criterio (imagen, upscale, etc.) y ordena por popularidad.",
+    "Siempre verifica que el modelo sea la versión más reciente buscando directamente en los resultados de búsqueda, no solo en las colecciones (pueden no estar actualizadas).",
+    "Activa \"go_fast\" por defecto en Flux Dev para obtener resultados más rápidos y baratos; desactívalo solo si necesitas máxima calidad.",
+    "Nunca asumas que el costo mostrado es fijo: si cambias `num_inference_steps` del valor por defecto, el costo variará (más pasos = más caro, menos pasos = más barato).",
+    "Usa el Playground cuando quieras comparar el mismo prompt y ajustes entre diferentes modelos; evita abrir múltiples pestañas del navegador.",
+    "Para obtener la seed de una generación, revisa el log al inicio, no en la interfaz principal de resultados.",
+    "Si el modelo cobra por tokens, prioriza inputs cortos y outputs largos cuando el costo de output sea menor (ej. Deepseek R1).",
+    "Para generar imágenes, compara precios por imagen entre modelos (ej. Flux 1.1 a 4 centavos) antes de elegir.",
+    "Cuando necesites un modelo muy específico, sube tu propio modelo usando COG en lugar de depender solo de los públicos."
+   ],
+   "prompts_y_recetas": [],
+   "errores_comunes": [
+    "**Error 422 \"invalid version or not permitted\"**: ocurre cuando el token API no corresponde al deployment o no tiene permisos. Solución: asegurarse de usar el token específico del deployment y no el token personal.",
+    "**Error \"cannot reassign to a variable declared with const\"**: ocurre si se intenta reasignar `prediction` después de crearla con `const`. Solución: usar `let` en su lugar.",
+    "**Cold starts en demos**: si `min_instances` se deja en `0`, la primera predicción puede tardar mucho. Solución: establecer `min_instances: 1` para mantener una instancia siempre activa.",
+    "**Usar el token personal en apps públicas**: expone el token y mezcla el uso de la cuenta. Solución: crear un token específico para el deployment desde la página de API tokens.",
+    "**Cold boots**: modelos poco populares pueden tardar 2-5 minutos en arrancar (status `queued`). No asumir que siempre responderán rápido.",
+    "**Tiempo de espera en rutas HTTP**: ejecutar modelos síncronos en route handlers bloquea la respuesta. Siempre usar colas o webhooks.",
+    "**Olvidar versionar el modelo**: cada modelo tiene múltiples versiones con hashes únicos. Usar solo el nombre del modelo (sin versión) puede fallar o dar resultados inconsistentes.",
+    "**No procesar tokens correctamente**: los LLMs devuelven arrays de tokens, no strings. Usar `implode()` para unirlos.",
+    "**No configurar facturación primero**: incluso con créditos gratuitos, el sistema bloquea la generación hasta que se agregue un método de pago.",
+    "**Pensar que hay suscripción mensual**: no hay planes de suscripción, solo pago por modelo usado.",
+    "**Ignorar el límite de gasto**: se recomienda establecer un \"maximum cap limit\" para no exceder el presupuesto mensual.",
+    "**Usar modelos sin verificar costos**: cada modelo tiene precios diferentes (ej. $0.09 vs $0.04 por imagen), por lo que hay que revisar la página de precios antes de usar.",
+    "**No actualizar colecciones**: Las colecciones en la búsqueda pueden no incluir las versiones más recientes de los modelos (ej. Flux 1.1 Pro Ultra no aparece en la colección \"flux\"). Solución: buscar manualmente en los resultados individuales.",
+    "**Pasar por alto la sección de funcionalidades en Explore**: Muchos principiantes ignoran esta sección y se pierden modelos que no tienen iconos visuales. Es útil para descubrimiento e inspiración.",
+    "**Confundir costo fijo con variable**: El costo por imagen mostrado es aproximado y basado en configuraciones por defecto; cambiar pasos de inferencia altera el precio real.",
+    "**No usar el límite de gasto mensual**: Olvidar configurar un \"Spend Limit\" puede llevar a gastar más de lo presupuestado.",
+    "**Confundir tipos de cobro**: no asumir que todos los modelos usan el mismo esquema de precios (hardware/tiempo vs. input/output).",
+    "**Subestimar costos de tokens**: pensar que $3 por millón de tokens es barato sin considerar el volumen de texto que se enviará y recibirá.",
+    "**Ignorar la opción de modelos propios**: limitarse a los modelos públicos cuando se puede subir un modelo personalizado con COG.",
+    "**Comparar solo con AWS**: Replicate es más barato que AWS pero más caro que otros servicios; evaluar alternativas según el caso de uso.",
+    "No especificar la versión correcta de CUDA compatible con TensorFlow o PyTorch (Cog lo maneja automáticamente, evitando ese dolor de cabeza).",
+    "Olvidar autenticarse con `cog login` antes de hacer push (resulta en error de autenticación).",
+    "No definir correctamente los inputs en `predict.py` (la página web no mostrará los campos de entrada adecuados).",
+    "Intentar usar Cog en Windows (solo soporta macOS y Linux)."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "Using Replicate deployments for more control over your models (Part 1 of 2)",
+     "url": "https://youtu.be/-F63qOsd9BI",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Replicate.com EASY AI Setup for Beginners  (updated)",
+     "url": "https://youtu.be/1VOJNDK7yqg",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Complete Guide to Replicate AI: Features, Uses, and More",
+     "url": "https://youtu.be/CUcH8I53NFM",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to Use Replicate.com ",
+     "url": "https://youtu.be/JklgYn57OJE",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Getting started with Cog and Replicate",
+     "url": "https://youtu.be/dFISI6KphSE",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Building AI powered apps in Laravel using Replicate",
+     "url": "https://youtu.be/gSGYvXG5kcQ",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Easy AI Access for ALL (Replicate.com Beginners Tutorial)",
+     "url": "https://youtu.be/y0_GE5ErqY8",
+     "canal": "ola4-herramientas"
+    }
+   ]
+  },
+  {
+   "id": "herramienta-elevenlabs-voz",
+   "disciplina": "herramientas-conectadas",
+   "area": "Herramientas del arsenal propio (MCP/API con llave activa)",
+   "titulo": "ElevenLabs: voz IA profesional, TTS v3, Eleven Music y SFX",
+   "que_ensena": "Guía completa para usar ElevenLabs: desde texto a voz con modelos V2, V3 Alpha y Multilingual V2, hasta diseño y clonación de voces, generación de efectos de sonido SFX v2, música con Eleven Music, voice changer, voice isolator y dubbing multilingüe. Cubre parámetros de estabilidad, similitud, style exaggeration, audio tags para control emocional, y técnicas de prompting para pausas y expresividad.",
+   "reglas_para_agentes": [
+    "Usa siempre el modelo \"Eleven V3 Alpha\" cuando necesites control de expresiones con audio tags; usa \"Eleven Multilingual V2\" para voz natural y consistente con sliders ajustables.",
+    "Con Eleven V3, selecciona voces exclusivamente de la categoría \"best voices for V3\" para que los tags emocionales funcionen correctamente.",
+    "Usa prompts de al menos 250 caracteres cuando generes con Eleven V3; menos de 250 caracteres produce resultados inconsistentes.",
+    "Ajusta el slider de estabilidad en \"Creative\" o \"Natural\" cuando emplees audio tags emocionales; nunca uses \"Robust\" si buscas expresividad.",
+    "En V2, deja la estabilidad en 50% por defecto; no la muevas a menos que busques un efecto específico.",
+    "En V2, nunca aumentes la velocidad más de 0.2 o sonará antinatural.",
+    "Mantén style exaggeration en 0 por defecto para evitar artefactos como velocidad inconsistente o pronunciaciones incorrectas.",
+    "Mantén \"Speaker Boost\" activado en todas las generaciones de texto a voz para mejorar calidad.",
+    "Usa audio tags con formato exacto entre corchetes: `[laughs]`, `[sighs]`, `[whispering]`, `[angry]`, `[excited]`, `[sad]`, `[narrator]`, `[thoughtful]`, `[dramatic pause]`.",
+    "Coloca el audio tag justo antes de la línea que se quiere modificar, ejemplo: `[laughs] This was great.`",
+    "Empareja los audio tags con el tono natural de la voz elegida: no uses tags agresivos como `[angry]` en voces calmadas.",
+    "No combines más de 2-3 audio tags por generación para evitar resultados incoherentes.",
+    "Usa elipsis (`...`) para pausas naturales y guión largo (`—`) para pausas enfáticas en lugar de solo comas.",
+    "Capitaliza palabras clave para aumentar el énfasis en la entrega, ejemplo: \"VERY important\".",
+    "Para diálogos multi-voz, usa el botón \"Add speaker\" para alternar entre voces distintas en el mismo bloque de texto.",
+    "Usa `<break time=\"1.5s\" />` para pausas de duración específica y `[break]` para pausas cortas.",
+    "En Voice Design, incluye al menos tres descriptores: edad, género y acento en el prompt, ejemplo: \"a calm male narrator\".",
+    "En Voice Design, el preview text debe incluir audio tags para que la voz generada capture la expresividad deseada.",
+    "Para clonación profesional, usa siempre micrófono XLR con interfaz, filtro pop y sala tratada acústicamente; sube 30 minutos de audio de alta calidad.",
+    "Para clonación instantánea, sube al menos 30 segundos de audio limpio.",
+    "Para efectos de sonido SFX v2, usa prompts descriptivos; el sistema siempre entrega 4 variantes por prompt.",
+    "Usa \"looping\" cuando el efecto de sonido deba repetirse sin pausas audibles (ej: ambientes, motores, fondos).",
+    "Usa 48 kHz WAV para descargas destinadas a producción profesional en cine, TV o videojuegos; usa MP3 44.1 kHz para web/podcasts.",
+    "Para generar música con Eleven Music, especifica siempre género, estado de ánimo y contexto de uso en el prompt.",
+    "Si el usuario necesita una duración exacta de música, proporciona el valor en segundos en lugar de usar \"auto\".",
+    "Para añadir voces o letras a la música, usa el cuadro de prompt inferior con instrucciones claras como \"Add a trailer voiceover\".",
+    "Usa el botón \"Enhance\" como alternativa cuando no quieras escribir audio tags manualmente en V3.",
+    "Descarga el audio inmediatamente después de generarlo; usa \"History\" como respaldo solo si no se ha generado mucho después.",
+    "Borra el texto anterior antes de generar una nueva línea si quieres evitar duplicados al regenerar con múltiples speakers.",
+    "Elimina manualmente las dialogue tags (ej: \"he exclaimed\") del audio final después de generar emoción.",
+    "Regenera el audio varias veces cuando uses pausas con `...` o `—` hasta obtener el resultado deseado.",
+    "Usa el ícono \"Use prompt\" para reutilizar un prompt exitoso de efectos de sonido, no copies y pegues manualmente.",
+    "Siempre revisa la pestaña \"History\" antes de regenerar un efecto similar para no duplicar trabajo.",
+    "Para compartir en redes sociales, genera el video con visualizador de audio personalizando el color antes de descargar."
+   ],
+   "prompts_y_recetas": [],
+   "errores_comunes": [
+    "**Usar prompts cortos (<250 caracteres) con V3:** Produce resultados inconsistentes y poco fiables.",
+    "**Seleccionar voces no optimizadas para V3:** Voces fuera de la categoría \"best voices for V3\" no funcionan bien con el nuevo modelo.",
+    "**Usar el slider de estabilidad incorrecto:** Si usas audio tags con el slider en \"Robust\", los tags no funcionarán bien. Debe estar en \"Creative\" o \"Natural\".",
+    "**Sobrecargar de tags:** Demasiados audio tags en una sola generación producen resultados erráticos (\"wild results\").",
+    "**Desajustar tags con la voz:** Aplicar tags de enfado o gritos a una voz naturalmente calmada genera resultados incoherentes.",
+    "**No estructurar el texto correctamente:** Sin puntuación adecuada (elipsis, mayúsculas, guiones), el modelo no genera pausas ni énfasis naturales.",
+    "**Aumentar la velocidad más de 0.2 en V2:** Suena antinatural.",
+    "**Mover estabilidad lejos de 50% en V2:** Demasiado estable suena monótono, demasiado inestable suena errático.",
+    "**No usar Speaker Boost:** Pierde calidad en la generación.",
+    "**Olvidar descargar el audio antes de regenerar:** Se pierde la generación anterior.",
+    "**Regenerar sin borrar líneas anteriores cuando se añade un segundo speaker:** Duplica todo el contenido.",
+    "**No incluir edad, nacionalidad y género en el prompt de Voice Design:** Produce voces genéricas.",
+    "**Subir audio de baja calidad para clonación instantánea (menos de 30 segundos o con ruido).**",
+    "**Usar micrófono de baja calidad o sin tratamiento acústico para clonación profesional.**",
+    "**Intentar clonar voces de celebridades:** El sistema lo detecta y lo bloquea.",
+    "**Eliminar voces diseñadas desde texto:** Son difíciles o imposibles de recrear exactamente.",
+    "**No seleccionar \"instrumental only\" en Music cuando se quiere música sin letra:** El sistema puede generar letras automáticas.",
+    "**Usar style exaggeration alto:** Genera inestabilidad: velocidad inconsistente, pronunciaciones incorrectas o sonidos extra.",
+    "**No incluir las direcciones de entrega en el texto mismo (ej: \"he said happily\"):** El modelo las leerá en voz alta. En su lugar, usar audio tags.",
+    "**No regenerar desde cero cuando solo necesitas ajustar una sección de música:** Puedes editar la longitud o eliminar secciones específicas en la línea de tiempo y luego regenerar.",
+    "**No usar Voice Isolator cuando se graba en entornos ruidosos.**",
+    "**No regenerar el audio múltiples veces cuando se usan pausas con `...` o `—`.**",
+    "**Olvidar eliminar las dialogue tags (ej: \"he exclaimed\") del audio final después de generar emoción.**",
+    "**No esperar a que termine una generación para iniciar otra en SFX:** Se pueden generar múltiples efectos simultáneamente.",
+    "**Descargar en MP3 para uso profesional en SFX:** 48 kHz WAV es el estándar de industria.",
+    "**Ignorar la función de looping en SFX:** Disponible y sin cortes perceptibles, ideal para fondos continuos.",
+    "**No usar el plan gratuito:** Es muy limitado y frustrante; mejor empezar con Starter ($5/mes)."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "How to Create AI Music - Eleven Music tutorial",
+     "url": "https://youtu.be/MCrkItqdRRI",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to make AI Voiceovers that sound Human (2025 ElevenLabs Text to Speech Tutorial)",
+     "url": "https://youtu.be/Vs6vJwmJL0Y",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "ElevenLabs V3 Full Tutorial: Best Voice Settings + Free GPT Tool (Eleven V3 Alpha)",
+     "url": "https://youtu.be/Z2B_pgJ9hbA",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "The Only ElevenLabs Tutorial You'll Need (2026)",
+     "url": "https://youtu.be/Zozt9QfAwcg",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to Use Eleven v3 - Expressive AI Voice Prompt Engineering Guide",
+     "url": "https://youtu.be/b-GhMZ_rcJM",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to Use AI Sound Effects – ElevenLabs SFX v2 Walkthrough",
+     "url": "https://youtu.be/iyHypKlscV0",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How To Use Elevenlabs - Master This AI Voice Generator in 23 minutes!",
+     "url": "https://youtu.be/s7p6OLwV_50",
+     "canal": "ola4-herramientas"
+    }
+   ]
+  },
+  {
+   "id": "herramienta-suno-musica",
+   "disciplina": "herramientas-conectadas",
+   "area": "Herramientas del arsenal propio (MCP/API con llave activa)",
+   "titulo": "Suno: música completa con IA — prompting, letra y producción",
+   "que_ensena": "Este conjunto de tutoriales enseña a usar Suno AI para generar canciones completas (letra, voz y producción) desde nivel principiante hasta avanzado. Cubre los modos Simple y Custom, la escritura de prompts detallados de estilo, el uso de meta tags entre corchetes para control estructural, la subida de audio propio, la creación de Personas para consistencia vocal, y la edición profesional en Suno Studio con separación de stems, grabación de melodías personalizadas, paneo y mezcla.",
+   "reglas_para_agentes": [
+    "Usa el modo **Simple** cuando el usuario quiera generar una canción rápidamente sin configurar parámetros; usa el modo **Custom** (o **Advanced**) cuando necesite control sobre letras, estilo, instrumentos o parámetros avanzados.",
+    "En el campo \"Style description\" escribe el género, instrumentos y ambiente deseados; ejemplo exacto usado: `dreamy synth pop with ethereal female vocals, lush atmospheric pads, shimmering guitars, and a nostalgic 80s vibe`.",
+    "Para generar letras automáticas, activa **\"Auto\"** en el campo de letras y escribe un tema como `chasing dreams under city lights and feeling alive in the moment`.",
+    "Escribe **meta tags entre corchetes** dentro del campo de letras para instrucciones de producción y estructura; ejemplos exactos: `[verse one]`, `[chorus]`, `[bridge]`, `[outro]`, `[soft synth pads]`, `[gentle atmospheric build]`, `[verse one, whispered vocal delivery, minimal instrumentation]`, `[explosive chorus, soaring vocals, full production]`.",
+    "Usa el **\"magic wand\"** en la caja de letras con dos opciones: \"Edit lyrics\" (modificar letras existentes escribiendo un tema como `a song about friendship` y luego \"Enhance lyrics\" con instrucciones como `make it happier`) o \"Write full song\" (generar canción completa automáticamente).",
+    "Usa el **\"magic wand\"** en el style box para expandir una descripción genérica (ej. `emo`) a una descripción detallada de instrumentación y entrega vocal.",
+    "Ajusta **Weirdness** a **50%** por defecto para resultados predecibles; súbelo si quieres que Suno tome más control creativo, bájalo para adherencia estricta al prompt. Nunca subas por encima de 80% sin advertir que los resultados serán caóticos.",
+    "Ajusta **Style influence** a **50%** por defecto para equilibrio; súbelo a **75%** o **85%** si necesitas adherencia estricta al prompt, bájalo para dar más libertad a Suno.",
+    "Activa **\"Instrumental\"** solo si el usuario explícitamente quiere una canción sin voces.",
+    "Cuando subas audio propio, usa **Cover mode** para reimaginar el estilo y **Extend mode** para alargar la pieza; ajusta el slider **audio influence** al **70%** para balance entre fidelidad y creatividad.",
+    "Para crear un **Cover**, selecciona \"Cover\" desde el menú de tres puntos de una canción; ajusta el slider \"Audio influence\" más alto para que el cover se parezca más al audio original, y el slider de estilo \"pelea\" con este.",
+    "Crea una **Persona** a partir de una canción que te guste: haz clic en \"persona\" > \"create new persona\", selecciona una canción generada, nómbrala y escribe una descripción como `ethereal female vocals with dreamy reverb and emotional delivery`.",
+    "En **Suno Studio**, usa `Command + Shift + S` para aislar (solo) una pista y `Command + Shift + M` para silenciarla; usa `Command + E` para dividir un clip en dos partes; mantén presionada `Command` mientras arrastras un clip para desactivar el ajuste a la cuadrícula.",
+    "Al grabar audio en Studio, usa siempre **auriculares (headphones)** para evitar que el micrófono capte música de los altavoces.",
+    "**Incluye siempre el BPM** en el style box cuando añadas capas en Studio (ej: `93 BPM heavy rock guitar lead`) para que el AI genere a la misma velocidad que el proyecto original.",
+    "Para generar un nuevo instrumento basado en una grabación vocal en Studio, arrastra la región seleccionada al formulario de creación y escribe un prompt descriptivo del instrumento deseado (ej. `solo trumpet, brass, drum and bass`).",
+    "Formatea las letras **cada frase en su propia línea con comas** para controlar pausas y ritmo vocal; evita líneas continuas sin saltos.",
+    "Usa **V5** como modelo predeterminado para mejor calidad general; usa **V3** solo cuando busques sonidos de trap agresivo.",
+    "Usa **Workspace** para organizar proyectos: crea workspaces separados por género o proyecto haciendo clic en el nombre del workspace > \"create workspace\".",
+    "En el **Editor** (Pro Plan), usa `Control + D` para duplicar secciones; arrastra bloques de sección para reordenar estructura; haz clic en una sección > \"replace lyrics\" para reemplazar letras sin regenerar toda la canción.",
+    "Descarga **stems** (vocals, drums, bass, synths) desde el menú de tres puntos > \"get stems/MIDI\" > \"get all the stems separated\" para llevar la canción a un DAW.",
+    "**Aplica paneo** en Studio para evitar sonido embarrado: instrumentos principales ligeramente a izquierda/derecha, vocales al centro.",
+    "Usa **\"Keep current lyrics\"** al remixar si no quieres cambiar la letra existente.",
+    "Selecciona **\"All detected stems\"** al extraer para tener control total sobre cada instrumento; usa **\"vocals plus instruments\"** si solo te interesa la línea vocal."
+   ],
+   "prompts_y_recetas": [],
+   "errores_comunes": [
+    "**Escribir prompts simples y genéricos:** la mayoría solo escribe \"upbeat indie pop song\" y obtiene resultados genéricos; hay que ser específico con instrumentos, mood y producción.",
+    "**No usar meta tags:** la mayoría desconoce que los brackets en letras controlan estructura y producción, no solo el contenido cantado.",
+    "**Confundir los sliders \"Weirdness\" y \"Style influence\":** son contrapuestos; subir uno requiere bajar el otro para mantener el balance deseado.",
+    "**No subir audio propio:** limitarse a prompts de texto pierde la oportunidad de usar melodías originales (tarareadas, grabadas) como base.",
+    "**Regenerar canciones completas para arreglar una sección:** el editor permite reemplazar letras o reordenar partes sin perder el resto de la canción.",
+    "**No usar stems:** dejar la canción en el mix final de Suno sin posibilidad de ajustes profesionales en un DAW.",
+    "**Escribir letras en una sola línea continua:** esto hace que Suno cante rápido y sin pausas, perdiendo control sobre el ritmo y la emoción vocal.",
+    "**Grabar sin auriculares en Studio:** el micrófono capturará la música de los altavoces, causando problemas de sincronización y eco.",
+    "**No incluir el BPM al añadir capas en Studio:** el AI puede generar a una velocidad diferente y no sincronizar con los drums existentes.",
+    "**No separar stems antes de editar:** sin extraer stems, no se tiene control individual sobre instrumentos y vocales.",
+    "**Aceptar el primer resultado de un stem:** hay versiones alternativas (hasta 10) que pueden ser más adecuadas; hay que revisarlas.",
+    "**Poner armonías en toda la canción:** deben usarse con moderación (\"como sal, solo un toque para realzar el sabor\"), no reemplazar la vocal principal."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "Suno Ai Tutorial 2025 ",
+     "url": "https://youtu.be/5OUpLRNdE9I",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Suno Ai Tutorial 2026 (For Complete Beginners)",
+     "url": "https://youtu.be/72R1NjNaUnE",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to Use Suno AI Better than 99% of People",
+     "url": "https://youtu.be/DrRRvM4oc4w",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to Use Suno: From Beginner to Pro Features Explained",
+     "url": "https://youtu.be/Vfai49qhluA",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to Produce a Real Song in Suno AI (Don't Just Generate)",
+     "url": "https://youtu.be/WczAMwG7U4w",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Suno Studio Tutorial: A Complete Beginner's Guide (2026)",
+     "url": "https://youtu.be/qR4BefPvSiI",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "SUNO AI PROMPTING: GUIDE To Memorable EMOTIONAL Songs with SUNO PROMPTS",
+     "url": "https://youtu.be/u-ZuCHAufqs",
+     "canal": "ola4-herramientas"
+    }
+   ]
+  },
+  {
+   "id": "herramienta-ideogram-texto",
+   "disciplina": "herramientas-conectadas",
+   "area": "Herramientas del arsenal propio (MCP/API con llave activa)",
+   "titulo": "Ideogram: imagen IA especialista en texto legible, logos y afiches",
+   "que_ensena": "Ideogram es un generador de imágenes por IA con capacidad única para renderizar texto legible dentro de imágenes (logotipos, pósters, títulos, frases). Permite crear retratos fotorrealistas, diseños tipográficos precisos, pósters de películas, diseños para merchandising y camisetas, todo mediante prompts de texto. Incluye funciones como \"Magic Prompt\" para expandir automáticamente prompts básicos, \"Remix\" para modificar imágenes existentes, y una interfaz social tipo Instagram donde todas las creaciones son públicas. Se destaca frente a otros generadores (Midjourney, DALL-E, Leonardo AI) por su capacidad de manejar tipografía correctamente.",
+   "reglas_para_agentes": [
+    "Usa **Ideogram 2.0** como modelo cuando el objetivo sea generar o modificar tipografía en imágenes; para diseños de camisetas usa **Ideogram 3.0** con aspect ratio 4.5 y escala 3.0.",
+    "Para generar texto dentro de imágenes, selecciona el efecto **\"Typography\"** en el panel de efectos; para retratos fotorrealistas usa **\"Portrait photography\"** + opcionalmente **\"Cinematic\"**.",
+    "Para pósters de películas usa siempre relación de aspecto **9:16** y activa **Magic Prompt en Auto** para que Ideogram extienda automáticamente tu prompt básico.",
+    "Estructura los prompts de pósters como: `[nombre de la película] movie poster [título o texto]` (ejemplo: \"Sonic movie poster Green Hill Zone\").",
+    "Para diseños de camisetas usa la fórmula exacta: `[Nicho o sujeto] + [Gancho divertido o emocional] + [Estilo visual o elemento de diseño] + [Texto opcional]`.",
+    "Incluye siempre **\"clear readable text\"** o **\"bold text\"** en el prompt cuando el diseño contenga texto.",
+    "Para logos, antepone **\"Vector logo for a company named\"** seguido del nombre exacto que debe aparecer en la imagen.",
+    "Para texto 3D estilizado usa la estructura **\"A single text 3D [TEXTO EXACTO]\"**.",
+    "Usa la función **\"Remix\"** (crear variación) para modificar elementos específicos de una imagen ya generada; ajusta el **image weight** (0 a 2): valor bajo para cambios grandes, valor alto para mantener similitud.",
+    "Cuando subas una imagen existente para modificar su tipografía, primero pide a la IA que la describa (ej: \"Describe this poster design\") antes de editar el texto.",
+    "Para retocar diseños existentes usa instrucciones como: \"Make the text larger and clearer. Keep the cartoon style. Add an angry face on the goose.\"",
+    "Siempre verifica el texto generado con zoom al 100% antes de considerar el diseño como final.",
+    "Exporta diseños de camisetas en **PNG transparente** a **4500x5400 píxeles a 300 DPI** para plataformas de print on demand.",
+    "Usa **TM Hunt** para verificar que frases o conceptos no estén registrados como marca antes de publicar.",
+    "Nunca incluyas referencias a Disney, Nike, celebridades o cualquier marca registrada sin verificar derechos.",
+    "Asume que todas las imágenes generadas son **públicas**; no hay opción de privacidad en la interfaz estándar."
+   ],
+   "prompts_y_recetas": [],
+   "errores_comunes": [
+    "**Error:** Usar modelos genéricos (Midjourney, DALL-E, Leonardo AI) para generar texto en imágenes. **Corrección:** Ideogram es el único que maneja tipografía correctamente.",
+    "**Error:** Escribir prompts demasiado largos o complejos. **Solución:** Limitar el prompt a una idea visual fuerte con estilo claro; el Magic Prompt expande automáticamente.",
+    "**Error:** Confiar ciegamente en el texto generado por IA sin verificar. **Advertencia:** El texto puede salir \"jumbled or weird\" — siempre haz zoom al 100% para verificar ortografía y legibilidad.",
+    "**Error:** Esperar calidad fotográfica igual a Midjourney. **Aclaración:** Ideogram no alcanza ese nivel de realismo, pero compensa con la función de texto exacto.",
+    "**Error:** No escribir el texto correctamente en el prompt. **Consecuencia:** Si el nombre tiene errores ortográficos, la IA los replicará en la imagen.",
+    "**Error:** Diseños descentrados o con mucho espacio en blanco. **Solución:** Recorta y centra manualmente el diseño después de generarlo.",
+    "**Error:** Baja resolución para impresión. **Corrección:** Ideogram no exporta en tamaños de impresión por defecto — siempre escala a 4500x5400 píxeles a 300 DPI.",
+    "**Error:** Usar frases o imágenes con derechos de autor. **Advertencia:** \"Stay away from Disney, Nike, or any celebrity faces\" — verifica siempre con TM Hunt antes de publicar."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "Ideogram Ai: The Best Ai image generator ",
+     "url": "https://youtu.be/UkZUWm1-qPE",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Create VIRAL T-Shirt Designs Using Ideogram AI Without Photoshop",
+     "url": "https://youtu.be/aLQB6l6KgXI",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Ideogram Ai - Create amazing Text Logo & Art designs - Malayalam Artificial intelligence",
+     "url": "https://youtu.be/gI6Ic4hygHI",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Flora's Ideogram : Design typography with AI",
+     "url": "https://youtu.be/kftlCzaP34Q",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How To Make Instant Movie Poster With Ideogram AI (Ideogram Beginner Tutorial)",
+     "url": "https://youtu.be/rJ22XCRnIlc",
+     "canal": "ola4-herramientas"
+    }
+   ]
+  },
+  {
+   "id": "herramienta-gpt-image-openai",
+   "disciplina": "herramientas-conectadas",
+   "area": "Herramientas del arsenal propio (MCP/API con llave activa)",
+   "titulo": "gpt-image (OpenAI/ChatGPT): generación y edición de imagen por instrucciones",
+   "que_ensena": "Guía completa para generar, editar y combinar imágenes usando los modelos gpt-image-1 y GPT Image 1.5 integrados en ChatGPT y su API. Cubre desde la configuración básica en Python hasta técnicas avanzadas de prompting con fórmula de 6 componentes, edición localizada con máscaras, transferencia de estilo, consistencia de personajes, y uso de la interfaz nativa de ChatGPT para cuentas gratuitas y de pago.",
+   "reglas_para_agentes": [
+    "Usa `model=\"gpt-image-1\"` explícitamente en todas las llamadas de generación/edición de imágenes en la API; nunca uses el modelo por defecto.",
+    "Aplica la fórmula de 6 componentes en todo prompt: Sujeto + Acción + Entorno + Estilo + Iluminación + Detalles; omitir uno degrada el resultado.",
+    "Especifica `aspect ratio 16 to 9` (o la relación deseada) como primera línea del prompt para fijar la estructura visual desde el inicio.",
+    "Para inpainting, genera siempre una máscara PNG con canal alfa, mismo formato y tamaño que la imagen original; el área blanca se modificará, el área negra se preservará.",
+    "Cuando combines imágenes en la API, pasa el parámetro `image` como lista de objetos binarios (archivos abiertos en modo \"rb\").",
+    "Usa `moderation: \"auto\"` por defecto; usa `moderation: \"low\"` solo cuando el caso de uso requiera menos restricciones de filtrado.",
+    "Especifica `quality: \"low\"` para prototipos rápidos y `quality: \"high\"` para producción profesional; el costo varía según la calidad.",
+    "Usa `aspect_ratio: \"square\"` por defecto a menos que se requiera `portrait` o `landscape`.",
+    "En retratos, incluye \"sharp focus on the face\" para evitar que todo el encuadre salga nítido.",
+    "En fotografía de producto sobre fondo blanco, añade \"no shadows\" para eliminar sombras amateurs.",
+    "En ediciones de imagen, incluye SIEMPRE \"natural lighting consistent with the subject\" para evitar que el sujeto parezca pegado.",
+    "Para consistencia de personajes, sube una imagen de referencia y usa \"match the likeness and style of the uploaded reference image\".",
+    "Limita el texto generado a títulos o frases cortas (1-2 párrafos máximo); no intentes párrafos completos o diseños con múltiples tamaños de fuente.",
+    "Nunca reutilices el mismo chat para múltiples generaciones de imágenes; abre un nuevo chat por cada imagen para evitar contaminación de contexto.",
+    "Verifica la cuenta con ID antes de intentar usar la API gpt-image-1, o recibirás errores de acceso; el proceso toma ~30 minutos.",
+    "Usa GPT-4o como modelo en ChatGPT antes de intentar generar o editar imágenes.",
+    "Para transferencia de estilo, primero pide a ChatGPT que describa en detalle la imagen de referencia, luego usa esa descripción como prompt.",
+    "En fotos grupales, usa \"all faces in sharp focus\" y \"distinct facial features, realistic skin tones, varied expressions\" para evitar caras similares.",
+    "Para catálogos e-commerce, añade \"maintain the exact same product design, color, and dimensions across all variations\" para consistencia entre imágenes.",
+    "Cuando edites solo una parte de la imagen en la interfaz nativa, activa `select area` y delimita exactamente la zona azul que debe modificarse; el resto permanece intacto."
+   ],
+   "prompts_y_recetas": [],
+   "errores_comunes": [
+    "**Safety restrictions:** El modelo rechaza prompts que considera inapropiados (ej: \"image that is embarrassing to show off\"); usar prompts más neutrales como \"my room that is messy\" funciona.",
+    "**Costo inesperado:** El precio depende de la calidad seleccionada y el número de imágenes; el playground incurre en costos reales de API, no es gratuito.",
+    "**Máscara incorrecta:** Para inpainting, la máscara debe ser un PNG con canal alfa del mismo tamaño que la imagen original; usar PIL/Pillow para generarla programáticamente.",
+    "**Olvidar verificación:** No se puede usar gpt-image-1 sin verificar la identidad primero; el proceso es rápido (~30 min) pero obligatorio.",
+    "**Prompt vago:** Escribir \"portrait of a woman\" da resultados genéricos; usar los 6 componentes da resultados profesionales.",
+    "**Falta de enfoque:** No especificar \"sharp focus on the face\" hace que GPT Image 1.5 intente enfocar todo, perdiendo el efecto profesional.",
+    "**Texto ilegible:** Intentar generar párrafos largos o múltiples tamaños de fuente causa errores; limitar a títulos o frases cortas.",
+    "**Deriva de personaje:** Sin imagen de referencia, el personaje cambia entre escenas; subir referencia y añadir \"exact same facial features\" corrige la deriva.",
+    "**Baja resolución por defecto:** El modelo genera imágenes con resolución sorprendentemente baja; el mercado se mueve hacia mayor fidelidad pero esto no se ha priorizado.",
+    "**Tiempo de generación lento:** Aunque OpenAI afirma que es 4 veces más rápido, en pruebas reales toma ~58 segundos por imagen, independientemente del método.",
+    "**Consistencia visual:** El modelo no mantiene consistencia para personajes recurrentes o elementos de marca entre múltiples generaciones; usa inpainting para refinar.",
+    "**No especificar dimensiones:** No especificar dimensiones obliga a editar la imagen después para ajustarla al formato deseado."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "GPT Image 1.5 Full Beginner Tutorial – Interface, Editor & Tricks",
+     "url": "https://youtu.be/6H-Y-aOqVns",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to Make & Edit Images with ChatGPT for Beginners",
+     "url": "https://youtu.be/JKQCWSVqNYc",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "ULTIMATE GPT IMAGE 1.5 TUTORIAL: 15 PROMPT TECHNIQUES",
+     "url": "https://youtu.be/QT1nMo-QMDQ",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How To Generate Images With ChatGPT (Create AI Art with Chat GPT)",
+     "url": "https://youtu.be/ULW9bgSYIrw",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to Make Images with ChatGPT for Beginners",
+     "url": "https://youtu.be/bocO2GIPAdc",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "OpenAI's New GPT Image Model API in 5 Minutes 📸",
+     "url": "https://youtu.be/k-G71JZA75A",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "OpenAI gpt-image-1 API - Build AMAZING AI Image Apps: Here's How",
+     "url": "https://youtu.be/t7nlRXpXBXw",
+     "canal": "ola4-herramientas"
+    }
+   ]
+  },
+  {
+   "id": "herramienta-higgsfield",
+   "disciplina": "herramientas-conectadas",
+   "area": "Herramientas del arsenal propio (MCP/API con llave activa)",
+   "titulo": "Higgsfield: plataforma imagen+video — Soul, presets y gestión de créditos",
+   "que_ensena": "Higgsfield AI es una plataforma que centraliza múltiples modelos de IA generativa (Nano Banana Pro, Sea Dream, Kling, Google Veo, Sora, entre otros) para crear imágenes y videos con consistencia de personaje, producto y escena. Enseña flujos completos: desde generación de imágenes con el modelo correcto, creación de personajes personalizados con 20-30 fotos de referencia, animación con control de cámara y movimiento, transiciones cinematográficas entre escenas, hasta herramientas de edición como Outfit Swap, Shots (9 ángulos automáticos), Skin Enhancer, Inpainting y Cinema Studio para simular equipos de cámara profesionales. También cubre el uso del agente \"Supercomputer\" que integra modelos de pensamiento (Claude Opus 4.7, GPT-5.5, Gemini 3.1 Pro) para lanzar marcas completas desde un solo prompt.",
+   "reglas_para_agentes": [
+    "Usa **Nano Banana Pro** (o Nano Banana 2) cuando necesites imágenes ultrarealistas fotográficas; usa **Sea Dream 4.0** (o Sea Dream 5.0) para estilos artísticos o estilizados.",
+    "Usa **Higgsfield Soul** exclusivamente cuando generes imágenes de un personaje personalizado (Character); otros modelos no lo soportan.",
+    "Para crear un personaje consistente, sube siempre entre **20 y 30 fotos de referencia** con variedad de ángulos (frente, perfiles, detrás, expresiones variadas) frente a un fondo sólido; menos fotos reduce la consistencia.",
+    "Para generar fotos de referencia del personaje, usa fondo blanco y pose simple en la imagen base, luego aplica la app **Shots** para obtener 9 ángulos; repite hasta tener 20-30 imágenes.",
+    "Cuando uses **Image to Video**, nunca describas el personaje o entorno en el prompt; describe solo la acción y el movimiento de cámara (la imagen base ya contiene esa información).",
+    "Cuando uses modelos de video con audio (Kling 3.0, Google Veo 3.1, Kling 2.6), **siempre especifica el sonido ambiente** en el prompt o escribe \"no dialogue\" para evitar diálogos aleatorios o sonidos extraños.",
+    "Activa **multi shot mode** y duración de **10 segundos** cuando generes videos con múltiples tomas; usa **6 segundos** para ahorrar créditos en videos simples.",
+    "Usa **resolución 1080p** para máxima calidad en video; en imágenes usa **4K** para máximo detalle o **2K** para calidad profesional.",
+    "En **Cinema Studio**, selecciona siempre una combinación cámara-lente: **ARRI Alexa 35 + Panavision C Series 35mm** para look cinematográfico, o **RED V-Raptor + Cooke S4** para trabajo comercial nítido.",
+    "En **AI Influencer Studio**, selecciona **hyperrealistic** como render style para máxima calidad humana.",
+    "Usa la app **Shots** (en pestaña Apps) para obtener **9 ángulos de cámara diferentes** de una sola imagen sin regenerar ni escribir prompts.",
+    "Usa la app **Skin Enhancer** con **realistic skin** en imágenes con personas para mejorar texturas y naturalidad.",
+    "Usa **Assets Library** con carpetas para mantener organizados todos los proyectos por nombre.",
+    "Para videos con transiciones suaves, proporciona siempre **imagen inicial E imagen final**, más un prompt descriptivo del movimiento entre ambas.",
+    "En **generación de imágenes**, especifica aspect ratio explícitamente (9:16 para vertical, 16:9 para horizontal) y calidad (2K o 4K para resultados profesionales).",
+    "Usa la **fórmula de prompt** para imágenes: \"Subject + action + environment + lighting + camera angle\" para resultados específicos y evitar prompts vagos.",
+    "En **Cinema Studio con start/end frame**, describe explícitamente la acción entre ambos fotogramas en el prompt de transición.",
+    "Para mantener coherencia de personaje entre frames en Cinema Studio, usa el icono \"+\" junto al prompt para cargar imagen de referencia o personaje guardado.",
+    "En el agente **Supercomputer**, usa **Claude Opus 4.7** para trabajo creativo y de marca; **Gemini 3.1 Pro** para análisis multimodal; **GPT-5.5** para generación visual rápida.",
+    "Cuando el agente Supercomputer reciba un enlace de video de competidor, **analiza conflicto de identidad de marca antes de recrear**; si el tono choca con la identidad establecida, ofrece rutas alternativas.",
+    "Entrena un **SOUL ID dedicado** para cada personaje de IA en el agente Supercomputer; alimenta múltiples stills del mismo personaje para crear identidad persistente entre sesiones.",
+    "En el agente Supercomputer, **pide aprobación en cada etapa crítica** antes de avanzar (duración, arco narrativo, manejo de locaciones).",
+    "Usa **\"less is more\"** en prompts de Higgsfield: no escribir párrafos cinematográficos extensos, solo movimiento, estado de ánimo o acción sutil; los presets ya manejan la cámara.",
+    "Siempre empieza con una **imagen concreta** (subida o generada) como base del video, nunca desde cero, para mantener control.",
+    "Usa **presets de cámara preconstruidos** en lugar de describir movimientos manualmente en el prompt.",
+    "En **generación de imágenes**, no generes más de **2 variaciones** por lote para no desperdiciar créditos.",
+    "Para **vehículos**, especifica \"this is the front of the car\" en el prompt para evitar que la IA los muestre en dirección incorrecta.",
+    "Añade **\"no text on clothing\"** y **\"looking at the camera\"** en prompts de personajes para evitar errores comunes de la IA."
+   ],
+   "prompts_y_recetas": [],
+   "errores_comunes": [
+    "**Elegir el modelo de IA incorrecto para el tipo de imagen**: usar Nano Banana Pro para arte en lugar de ultrarealismo, o viceversa, desperdicia créditos en resultados que no coinciden con la visión.",
+    "**Describir personaje y entorno en el prompt de Image to Video**: solo se debe describir acción y movimiento de cámara, ya que la imagen base ya contiene esa información; hacerlo causa redundancia y resultados inconsistentes.",
+    "**No especificar sonido ambiente en prompts de video con audio (Kling, Veo)**: el modelo puede generar diálogos aleatorios o sonidos extraños no deseados si no se indica explícitamente \"no dialogue\" o el sonido deseado.",
+    "**Usar pocas fotos de referencia para crear un personaje**: menos de 20-30 fotos reduce drásticamente la consistencia del personaje en diferentes escenas y ángulos.",
+    "**No usar variedad de ángulos en las fotos de referencia del personaje**: el modelo necesita entender el rostro desde todas las direcciones para mantener consistencia.",
+    "**Modificar el prompt y regenerar esperando cambios mínimos**: la IA cambia también elementos que te gustaban; usar apps como Outfit Swap para cambios precisos de vestimenta.",
+    "**Escribir prompts complejos para cada ángulo**: en lugar de usar Shots (que genera 9 ángulos en un clic sin escribir prompts), se desperdician créditos regenerando desde cero.",
+    "**Usar Text to Video cuando se necesita control sobre el personaje/entorno**: la IA toma decisiones sobre la apariencia; para consistencia, usar Image to Video con una imagen base controlada.",
+    "**Saltarse Skin Enhancer en imágenes con personas**: el resultado se ve artificial, con piel plástica o brillante, poco realista.",
+    "**No usar Assets Library**: el desorden dificulta encontrar archivos al editar o exportar; los assets no se agrupan automáticamente por proyecto.",
+    "**Texto no deseado en ropa/accesorios**: la IA tiende a añadir letras o logos en sombreros y camisetas; añadir \"solid black hat\" y \"no text on clothing\" al prompt.",
+    "**Personaje no mira a la cámara**: la IA genera ángulos aleatorios; especificar \"looking at the camera\" en el prompt.",
+    "**Vehículos moviéndose en dirección incorrecta**: la IA no sabe cuál es el frente del auto; escribir \"this is the front of the car\" en el prompt.",
+    "**Confundir precios mensuales vs anuales en la página de planes**: la página muestra primero el plan anual como si fuera mensual; verificar que se está en la pestaña \"Monthly\" para ver el precio real mensual.",
+    "**No tratar Higgsfield como una capa de control sobre múltiples modelos**: es un agregador, no un generador único; ignorar esto limita las capacidades.",
+    "**No usar resultados patrocinados al buscar Higgsfield**: buscar exactamente \"AI Video Generator and Image Generator by Higgsfield\" con logo verde-amarillo y forma de serpiente.",
+    "**No generar vídeos sin imagen final**: para mejor control y transiciones suaves, siempre proporcionar imagen inicial E imagen final en la generación de vídeos.",
+    "**No usar el mismo prompt esperando resultados idénticos**: cada generación crea la imagen desde cero, por lo que aunque el prompt sea el mismo, las imágenes serán ligeramente diferentes.",
+    "**Saltar entre herramientas en el flujo de marketing**: el error es usar ChatGPT, C Lens, Premiere, Figma y Webflow por separado; el agente Supercomputer mantiene el brand bible en su cabeza y renderiza todas las superficies contra él.",
+    "**No generar sin dirección clara en el agente Supercomputer**: el agente no debe \"saltar a generar\" sin antes hacer preguntas de setup para fijar la dirección; esto evita outputs genéricos.",
+    "**Inventar datos de mercado en el agente Supercomputer**: el agente debe extraer citas reales de foros y reseñas, no datos inventados en un deck.",
+    "**Generar un nuevo rostro cada vez para el influencer**: el error común es generar una cara diferente en cada sesión; el agente debe entrenar un SOUL ID persistente para que el personaje sea el mismo seis meses después."
+   ],
+   "fuentes_videos": [
+    {
+     "titulo": "EXACTLY How to use Higgsfield AI in 2026",
+     "url": "https://youtu.be/AtIrM3OS9q8",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to Use Higgsfield AI Better than 99% of People",
+     "url": "https://youtu.be/OxNlBqHex44",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "The ONLY Higgsfield AI Tutorial You Need 2026: Step-by-Step for Beginners",
+     "url": "https://youtu.be/R7GZjRMsrzM",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Higgsfield AI Ultimate Tutorial (2026)",
+     "url": "https://youtu.be/cksEVv1tArI",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "How to Use Higgsfield AI Like a PRO – AI Marketing Workflow",
+     "url": "https://youtu.be/kNradaMZ8kk",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "STOP Wasting Credits & Master Higgsfield AI in 8 Min",
+     "url": "https://youtu.be/mRF0P_hyFIk",
+     "canal": "ola4-herramientas"
+    },
+    {
+     "titulo": "Higgsfield AI 2026: Complete step-by-step tutorial to master it",
+     "url": "https://youtu.be/sWwKzbk2jYk",
+     "canal": "ola4-herramientas"
     }
    ]
   }
