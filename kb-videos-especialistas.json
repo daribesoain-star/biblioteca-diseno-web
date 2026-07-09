@@ -1085,7 +1085,8 @@
     "Máximo 2.5-3 segundos por escena en formato Reels/Shorts.",
     "El objeto dentro del contenedor (TV, marco) tiene saturación independiente del sistema monocromo exterior.",
     "Para motion graphics con brief de cliente, documenta en Frame.io o equivalente: brief escrito, referencias de imagen, assets de identidad.",
-    "La tipografía del reel de proceso sigue la regla de dos niveles: label contextual pequeño en regular/italic + palabra concepto grande en bold."
+    "La tipografía del reel de proceso sigue la regla de dos niveles: label contextual pequeño en regular/italic + palabra concepto grande en bold.",
+    "Parallax 2.5D para fotos fijas (técnica Vox, destilada de Chris Moran): cuando una pieza use foto de archivo y deba sentirse video, separar foreground/midground/background en capas (Photoshop o remove-background del arsenal), parchar con clone stamp lo oculto tras cada recorte, espaciar las capas en 3D en After Effects (plugin gratuito Depth de aescripts lo hace en un clic) y mover la cámara con dolly o paneo LENTO. Requisito: la foto debe tener planos separables; sin profundidad clara, elegir otra foto. Preferir esto antes que el zoom plano Ken Burns."
    ],
    "prompts_y_recetas": [
     "Prompt para estilo Vox en el agente Art Director de OpenArt (openart.ai): 'Un look de collage moderno. Fotos recortadas reales sobre colores planos y audaces. Sujetos en escala de grises sobre fondos coral, azul marino y crema.'",
@@ -1183,6 +1184,11 @@
      "titulo": "Motion graphics en DaVinci Resolve: el workflow real de un director creativo con cliente",
      "url": "https://www.instagram.com/reel/DS-mTLriWkZ/",
      "canal": "@JoshT Creativity"
+    },
+    {
+     "titulo": "How Vox brings their historical images to life (parallax 2.5D)",
+     "url": "https://www.instagram.com/reel/DZsDDmvtNJP/",
+     "canal": "Chris Moran (IG)"
     }
    ]
   },
