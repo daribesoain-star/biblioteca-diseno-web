@@ -1,0 +1,34 @@
+# 8 DARK PSYCHOLOGY Sales Techniques to Sell Anything
+**Fuente:** https://youtu.be/dJR7OpkEeBk | destilado 2026-07-22
+
+## Qué enseña (2-3 líneas)
+El video desglosa cómo usar principios de psicología oscura para vender cualquier producto o servicio, enfocándose en manipular el dolor y el placer del prospecto. Explica un marco de 3 pasos (dolor latente → dolor consciente → dolor extremo) y técnicas de cierre sin negociación. Todo se basa en posicionarse como la solución al problema del cliente, no en empujar características.
+
+## Lecciones accionables
+- **Dolor latente → dolor consciente → dolor extremo:** No vendas beneficios. Primero, haz que el prospecto *sienta* el problema que no sabía que tenía. Ejemplo: alguien en un trabajo de almacén que se distrae con videojuegos/fumar — siembra la idea de que un robot reemplazará su puesto, luego contrasta con la vida de libertad (viajar, ser su propio jefe). El dolor de quedarse debe ser tan intenso que saltar a tu solución sea la única opción.
+- **Diagrama de 3 columnas (dolor → brecha → sueño):** Dibuja mentalmente: izquierda = situación actual dolorosa (ej: "odias tu 9-5, no te respetan"), derecha = sueños (ej: "trabajar desde la playa, ser tu propio jefe"), abajo = agua/brecha (ej: "no sé qué negocio empezar, nunca he vendido"). Tú eres el bote que cruza esa brecha. No vendas, *posiciona* tu oferta como el vehículo.
+- **Reflejar problemas como espejo y convertirlos en soluciones:** En una llamada de ventas, toma cada emoción negativa del prospecto (frustración, desesperanza, miedo al futuro) y devuélvela transformada en positivo. Ejemplo verbal: "Entiendo, te sientes atrapado en tu 9-5... yo también estuve ahí. Esto es lo que hice para cambiarlo. Ahora vivo en Vietnam, trabajo desde donde quiero. Según tu personalidad, creo que puedo ayudarte. ¿Quieres saber más?"
+- **Cerrar sin negociar ni bajar precio:** Cuando digas el precio (ej: $3,000/mes), dilo con total confianza y haz una pausa. No digas nada más. El silencio fuerza al prospecto a justificar el costo internamente ("si me hace ganar $10,000, es gratis"). No ofrezcas descuento — ellos mismos encuentran cómo pagarlo.
+- **Usar historias de éxito como testimonio vivo:** Cuenta TU historia (ej: "yo trabajaba en ventas tech en Silicon Valley, apliqué esto y funcionó") y luego historias de clientes (ej: "fulano llegó sin clientes, en 2 semanas consiguió su primero"). El prospecto se proyecta: "si él pudo, yo también". Pon un muro de testimonios en tu sitio — es la prueba social más poderosa.
+- **Táctica de "usar sus palabras en su contra":** Cuando el prospecto dice "esto es perfecto, exactamente lo que quiero" pero luego dice "empezaré en un mes", responde: "Dijiste que era justo lo que necesitabas y que querías empezar ya. ¿Qué va a cambiar en un mes? Si no hay nada que lo impida, ¿por qué no ahora?" Pausa. Los obligas a decir la verdad (miedo real, falta de presupuesto, etc.) y cierras en el momento.
+- **Convertir objeciones en oportunidades:** Si dicen "no tengo tiempo" (trabajo 8h, dormir 8h, quedan 8h), responde: "Son 8 horas libres. Si usas 2-4 horas al día durante 3 meses, ¿podría cambiar tu vida? Sí. ¿Podría no funcionar? También, si no te enfocas. Depende de ti." Así transformas "no puedo" en "depende de mí".
+- **Posicionarte como generador de ingresos, no como gasto:** Siempre enmarca tu precio como "si te hago ganar $10K y cobro $3K, soy gratis". El prospecto siente que eres un departamento de ingresos, no un costo. Esto elimina la resistencia al precio.
+
+## Reglas para agentes
+- **Usa dolor + placer SIEMPRE en ese orden:** Primero haz que el dolor sea insoportable (fuego a la izquierda), luego muestra el placer (paraíso a la derecha). Nunca al revés.
+- **Nunca digas características o beneficios primero:** Siempre empieza reflejando el dolor del prospecto mejor que él mismo. Si no hay dolor, no hay venta.
+- **Pausa de 3-5 segundos después de decir el precio:** No hables, no justifiques, no añadas valor. El silencio fuerza al prospecto a auto-convencerse.
+- **Usa "tú dijiste que..." como herramienta de cierre:** Cuando el prospecto se contradice (dice que quiere pero no paga), cita textualmente sus palabras. Ej: "Dijiste que era justo lo que buscabas. ¿Qué cambió?"
+- **Siempre posiciona tu oferta como el único vehículo para cruzar la brecha:** No vendas un curso, vende "el método para escapar del 9-5". No vendas software, vende "la solución para que no te reemplace un robot".
+- **Nunca bajes el precio en la llamada:** Si negocian, repite el precio con confianza y pausa. Si insisten, di "esto es lo que vale. Si no funciona ahora, podemos retomarlo cuando el presupuesto esté listo". No cedas.
+- **Usa historias personales como prueba social inicial:** Si no tienes clientes, tu propia historia de éxito es tu testimonio. Ej: "Yo hice esto y funcionó. Si eres como yo, funcionará para ti."
+- **Convierte cada objeción en una pregunta que el prospecto se responda solo:** No des respuestas, haz preguntas que los lleven a tu conclusión. Ej: "Si tuvieras 4 horas libres al día, ¿podrías cambiar tu vida en 3 meses?"
+
+## Errores comunes
+- **Vender características y beneficios sin primero crear dolor:** La gente no compra porque algo sea bueno; compra porque el dolor de no tenerlo es insoportable. Si empiezas con "mi curso tiene 10 módulos", pierdes.
+- **No hacer pausa después del precio:** Hablar inmediatamente después de decir el precio (ej: "y además incluye...") destruye la tensión que fuerza al prospecto a justificar la compra. El silencio es tu arma.
+- **Aceptar objeciones superficiales sin profundizar:** Si dicen "lo pensaré", no lo aceptes. Usa "¿qué exactamente necesitas pensar? Dijiste que era perfecto. Ayúdame a entender qué falta." Si no presionas, se van.
+- **No usar historias de clientes reales:** Un muro de testimonios genéricos no funciona. Necesitas historias con: "estaba en X situación → aplicó esto → en Y tiempo logró Z resultado". El prospecto necesita verse en esa historia.
+- **Bajar el precio por miedo a perder la venta:** Si negocias, el prospecto pierde confianza en el valor. Mantén el precio firme. Si realmente quieren, encuentran el dinero. Si no, no era tu cliente.
+- **No reflejar el dolor del prospecto con precisión:** Si dices "sé que odias tu trabajo" pero él solo está "un poco aburrido", no conectas. Necesitas exagerar el dolor hasta que él diga "sí, exactamente, eso siento".
+- **Vender como si fueras un gasto, no una inversión:** Si dices "cuesta $3K", suena a pérdida. Si dices "por $3K te ayudo a generar $10K", suena a ganancia. Siempre enmarca en ROI.

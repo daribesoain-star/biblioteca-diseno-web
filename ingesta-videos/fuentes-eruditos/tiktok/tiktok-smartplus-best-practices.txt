@@ -1,0 +1,28 @@
+Best practices Smart+ Web | TikTok Ads Manager
+Business Help Center
+Home What's new
+Best practices for Smart+ Web Campaigns
+Last updated: April 2025
+The following best practices can help you get the most out of your Smart+ Web Campaigns :
+Data connections : Set up TikTok Pixel and Events API. For web ads, we also recommend catalog adoption to benefit Smart+ Catalog Ads.
+Creative quality and quantity : Add at least six creative assets during campaign creation and allow Smart+ to handle creative optimization from there.
+Campaign management : Set your Smart+ Campaign to run for at least seven days. For best results, start with at least 10x your historical Cost per Action ("CPA") for comparable objectives.
+Measurement : Use split testing to validate the performance lift of your Smart+ Campaigns.
+You can set a target bid with your Smart+ Campaigns to achieve better efficiency with your advertising. Smart+ Web Campaigns that use either Target CPA or Minimum ROAS should also take into account the following recommendations:
+Campaign creation: To get the best performance, we recommend that you set a target CPA or minimum ROAS according to similar campaigns that use maximum delivery. You should ideally set a daily campaign budget of 30 times your historical CPA and no less than 10 times your historical CPA.
+Campaign management:
+During the first 7 days of campaign delivery, any edits to the bid, audience, or creative may impact the learning phase. We advise letting campaigns run for seven days without any significant edits to the bid, audience, or creative.
+After the first 7 days, you may experiment with editing your bid by up to 15 percent every 2 days until you observe that the campaign is performing as desired.
+Tips to improve budget delivery:
+If campaigns are using viewthrough attribution and not exhausting budget as desired, try toggling off viewthrough tracking as it may lead to more delivery.
+If your campaign is regularly exhausting 90 percent or more of your daily budget, you may want to experiment with increasing your daily budget by up to 30 percent to increase volume while maintaining performance.
+Log in for a personalized experience
+Sign up
+Resources TikTok Shop Academy
+TikTok Help Center
+TikTok Academy
+TikTok for Business
+Creative Center
+Terms & Policies
+Privacy
+©2026 TikTok For Business

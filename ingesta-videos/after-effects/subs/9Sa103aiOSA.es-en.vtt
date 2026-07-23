@@ -1,0 +1,934 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:03.920
+Voy a enseñarte tres niveles de
+animación de lluvia en After Effects.  Vamos a
+
+00:00:03.920 --> 00:00:09.280
+aumentar el nivel de dificultad a medida que ascendemos en el
+árbol evolutivo.  No solo mediante el uso de técnicas más avanzadas
+
+00:00:09.280 --> 00:00:18.000
+, sino también mediante el uso de técnicas básicas de
+maneras cada vez más inteligentes.  [Música] Entonces, en modo simio,
+
+00:00:18.000 --> 00:00:22.560
+iremos a nuestro panel de efectos y preajustes
+y escribiremos lluvia para ver si aparece algo.
+
+00:00:22.560 --> 00:00:27.680
+Y aquí tenemos lluvia CC.  Eso suena justo a lo que
+queremos.  Vamos a añadir eso a un
+
+00:00:27.680 --> 00:00:33.200
+sólido negro.  Y eso es lluvia, sin duda, pero podemos hacer que se
+vea mucho mejor.  Vamos a aumentar la opacidad para
+
+00:00:33.200 --> 00:00:38.240
+verlo un poco mejor.  Y el tamaño también.  Ahora,
+también refleja el fondo por defecto,
+
+00:00:38.240 --> 00:00:43.040
+lo que hace que sea un poco más difícil de ver.  Así que,
+reduzcamos esa influencia al mínimo.  Y
+
+00:00:43.040 --> 00:00:48.560
+también vamos a poner un bonito degradado detrás de nuestra lluvia y
+cambiar el modo de fusión de la lluvia de normal a
+
+00:00:48.560 --> 00:00:53.760
+pantalla para ver detrás de ella.  Vamos a
+bajar bastante también el volumen de las gotas.  Y este efecto tiene
+
+00:00:53.760 --> 00:01:01.360
+dos trucos realmente asombrosos bajo la manga.  La primera
+es la velocidad.  La velocidad controla la rapidez con la que
+
+00:01:01.360 --> 00:01:07.040
+caen las gotas de lluvia, así como su longitud.
+Cuanto más rápido caen, más se difuminan las gotas de lluvia
+
+00:01:07.040 --> 00:01:12.240
+y obtenemos líneas más grandes para las gotas de lluvia.
+Cuando va muy despacio, solo son círculos.
+
+00:01:12.240 --> 00:01:16.800
+Y podemos animar esto para conseguir una buena rampa de velocidad.
+Entonces, vamos a hacer un fotograma clave comenzando muy arriba.
+
+00:01:16.800 --> 00:01:23.360
+Vamos a llegar a 15.000.  Ahí vamos.  Muy rápido.
+Fotograma clave que está ahí.  Y luego, unos 2 segundos después,
+
+00:01:23.360 --> 00:01:30.640
+vamos a bajarlo realmente a tal vez 150. Vamos a agregar un
+poco de suavizado.  Y mira eso.  Y tampoco me
+
+00:01:30.640 --> 00:01:35.760
+entusiasma que la lluvia caiga en
+direcciones ligeramente diferentes.  Entonces, reduzcamos la diferencia
+
+00:01:35.760 --> 00:01:41.040
+de seis a cero.  Así que ahora todos van
+directamente hacia abajo.  Y a velocidad realmente lenta,
+
+00:01:41.040 --> 00:01:46.080
+podemos ver la segunda gran ventaja de este
+efecto, y es que tiene profundidad.  Profundidad
+
+00:01:46.080 --> 00:01:52.160
+en el espacio 3D.  Estas gotas tienen paralaje.  Las gotas
+que están más cerca son un poco más grandes y se mueven
+
+00:01:52.160 --> 00:01:57.040
+más rápido, lo cual es más difícil de ver en el caos, pero
+realmente se nota una vez que comienzan a disminuir la velocidad
+
+00:01:57.040 --> 00:02:02.240
+.  Y podemos ajustar eso con la profundidad de la escena.
+Vamos a aumentarlo un poco más.  No nos volvamos
+
+00:02:02.240 --> 00:02:08.640
+locos.  Y en nuestros extras, podemos mejorarlo aún
+más con el porcentaje a nivel del suelo.  Entonces, si
+
+00:02:08.640 --> 00:02:13.280
+ajustamos esto, podemos ver que algunas de las gotas de lluvia están
+desapareciendo.  Y aquí es donde chocarían contra el
+
+00:02:13.280 --> 00:02:18.320
+suelo y desaparecerían.  Así que ahí conseguimos aún más profundidad
+.  Y podemos crear una sencilla animación de salpicaduras
+
+00:02:18.320 --> 00:02:23.120
+para cada una de estas gotas de lluvia.  Así que cogeré mi
+herramienta de elipse, crearé una elipse y la animaré,
+
+00:02:23.120 --> 00:02:29.040
+aumentando su tamaño y desvaneciéndola.  E incluso a
+nivel A, sabemos que debemos animar el tamaño de una elipse
+
+00:02:29.040 --> 00:02:33.920
+y no su escala.  De esa forma, podemos mantener el
+grosor del trazo constante.  Ahora podemos recortar esa capa,
+
+00:02:33.920 --> 00:02:38.000
+colocarla donde desaparece una de las gotas de lluvia
+y tendremos una pequeña salpicadura convincente.  Ahora,
+
+00:02:38.000 --> 00:02:42.720
+podemos pre-componer esa salpicadura y arrastrarla
+dondequiera que desaparezcan las gotas.  Allí encontramos
+
+00:02:42.720 --> 00:02:49.200
+una hermosa y tranquila escena lluviosa con una rampa de velocidad
+y mucha profundidad.  No está mal para un simio.  Para ser
+
+00:02:49.200 --> 00:02:54.480
+sincero, coordinar todos esos chapoteos
+llevó muchísimo tiempo.  Así que solo hice la mitad de la pantalla,
+
+00:02:54.480 --> 00:03:00.800
+lo cual solo puedes hacer si
+tu animación es desde el punto de vista de un pirata.
+
+00:03:00.800 --> 00:03:09.680
+Pero ya sabes lo que dicen: si pagas poco,
+obtienes poco.  Sé que los monos no son simios.
+
+00:03:09.680 --> 00:03:15.280
+Para el simio elevado, buscamos un efecto de lluvia más moderno y
+estilizado.  Y al igual que nuestros antepasados,
+
+00:03:15.280 --> 00:03:19.920
+estamos dejando los árboles y vamos a centrar
+nuestra atención en la tierra.  Cómo interactúan las gotas de lluvia
+
+00:03:19.920 --> 00:03:25.760
+con ella, pero esta vez de una manera mucho más inteligente
+.  Estamos evolucionando.  Me inspiré en esta imagen,
+
+00:03:25.760 --> 00:03:30.560
+pensando que esos dos colores con los anillos
+superpuestos en el color alternativo se veían
+
+00:03:30.560 --> 00:03:35.440
+realmente geniales.  La primera forma en que intenté hacerlo
+fue con una composición de ondas simple con tres círculos que se
+
+00:03:35.440 --> 00:03:39.520
+expandían y luego se desvanecían.  Cada uno tiene
+una sombra proyectada, por lo que existe una versión en blanco y negro
+
+00:03:39.520 --> 00:03:44.720
+de cada círculo.  Puse varias de esas
+composiciones en línea y luego superpuse el fondo.  Luego
+
+00:03:44.720 --> 00:03:50.080
+agregué un par de efectos, un umbral para
+restringirlo a blanco o negro, y luego un
+
+00:03:50.080 --> 00:03:55.600
+tinte para cambiarle el color.  Ahora bien, esto no está tan mal.  La
+idea principal está ahí, pero necesitaría bastante
+
+00:03:55.600 --> 00:04:01.200
+más atención para que quedara como yo quería.
+Y encontré una manera más fácil.  Descubrí el efecto
+
+00:04:01.200 --> 00:04:06.480
+CC drizzle.  Y así es como se ve por
+defecto.  Tiene todas esas ondulaciones de forma aleatoria y
+
+00:04:06.480 --> 00:04:11.120
+tiene esa interacción cuando se superponen.  Exactamente lo que
+queremos.  Ahora, comencemos desde cero en
+
+00:04:11.120 --> 00:04:16.000
+una nueva computadora.  Crearemos un nuevo sólido con Ctrl +
+Y. Lo haremos gris, pero haremos que la altura sea
+
+00:04:16.000 --> 00:04:20.720
+aproximadamente tres veces mayor que la de nuestra composición.  Y
+pronto les explicaré por qué.  Añade los chorritos a eso.  Eh,
+
+00:04:20.720 --> 00:04:25.600
+aumentaremos un poco más la velocidad de goteo
+a ocho para llenar nuestro sólido más grande.  Abre la
+
+00:04:25.600 --> 00:04:30.960
+sombra.  Y aumentaremos la iluminación difusa
+al máximo para poder ver más detalles de
+
+00:04:30.960 --> 00:04:36.160
+las ondulaciones.  Y necesitaremos que sea un poco más oscuro.
+Entonces, reduzcamos la luz ambiental a quizás 15&nbsp;más
+
+00:04:36.160 --> 00:04:41.280
+o menos.  Ahora, para que parezca que los estamos viendo
+desde un ángulo más bajo y no directamente desde arriba,
+
+00:04:41.280 --> 00:04:46.640
+lo que podemos hacer es desvincular la escala de esta capa
+y luego bajar la escala vertical comprimiéndola.&nbsp;&nbsp;  Por eso
+
+00:04:46.640 --> 00:04:51.120
+empezamos con esa composición
+mucho más alta, para poder reducirla sin
+
+00:04:51.120 --> 00:04:56.640
+quedarnos sin capas.  Luego, en una nueva
+capa de ajuste que vamos a renombrar como efectos
+
+00:04:56.640 --> 00:05:00.960
+porque siempre etiquetamos nuestras capas.  Añadamos el
+efecto umbral.  Y esto realmente comienza a darle forma hasta lograr
+
+00:05:00.960 --> 00:05:06.720
+ese aspecto final que queremos, que será simplemente de
+dos colores.  Ahora bien, quiero una clara separación entre la
+
+00:05:06.720 --> 00:05:11.840
+luz y la sombra aquí.  Y podemos hacerlo en
+nuestra capa de llovizna abriendo las propiedades de la luz
+
+00:05:11.840 --> 00:05:16.800
+y cambiándola de una luz distante que está bastante
+lejos e ilumina todo de manera uniforme a una
+
+00:05:16.800 --> 00:05:21.120
+luz puntual que ilumina solo en un
+área específica.  Y vamos a mover esa posición de luz al
+
+00:05:21.120 --> 00:05:26.640
+centro mismo de nuestra composición.  Y también podemos bajar la
+altura de la luz para que ilumine un
+
+00:05:26.640 --> 00:05:31.600
+área cada vez más pequeña.  Y la luz sigue captando
+muchas de estas ondulaciones lejos de la fuente de luz.  Pero
+
+00:05:31.600 --> 00:05:36.400
+si reducimos la altura de la ondulación, eso debería
+eliminar muchas de ellas.  No quiero unos pocos, pero tampoco
+
+00:05:36.400 --> 00:05:41.280
+demasiados.  Allá.  Ahora ya estamos muy cerca.
+También podemos ajustar la intensidad de la luz
+
+00:05:41.280 --> 00:05:46.640
+para aumentar o disminuir la cantidad de área
+iluminada.  Y simplemente ajusta todos estos valores,
+
+00:05:46.640 --> 00:05:52.800
+la luz ambiental, la difusa también, solo para
+perfeccionar el aspecto que queremos.  Me gusta este
+
+00:05:52.800 --> 00:05:57.120
+nivel.  Ahora, para darle un toque más sombrío,
+vamos a añadir algunos efectos más.  muchos de mis
+
+00:05:57.120 --> 00:06:02.400
+favoritos que uso con mucha frecuencia.  Vamos a añadirle un tinte
+para cambiarle el color.  Vamos a convertir el negro en un gris muy,
+
+00:06:02.400 --> 00:06:08.880
+muy oscuro y el blanco en un azul puro.  Le
+añadiremos un poco de desenfoque gaussiano para suavizarlo.  Y nos regalaremos
+
+00:06:08.880 --> 00:06:13.600
+un brillo intenso.
+Sin embargo, hay que ser sutil.  Los homínidos son más que capaces
+
+00:06:13.600 --> 00:06:18.960
+de utilizar herramientas con gran destreza.  Así que, recuerde que si
+camina erguido, mantenga la luz tenue.  Y
+
+00:06:18.960 --> 00:06:24.000
+si no tienes un brillo intenso, unos cuantos brillos normales
+están bien.  Agregaremos un efecto de transformación con una
+
+00:06:24.000 --> 00:06:28.480
+ondulación en la propiedad de posición para agregar ese pequeño
+temblor para un tejido de puerta.  Hablé mucho sobre
+
+00:06:28.480 --> 00:06:33.760
+eso en mi último video.  El buen y viejo momento de posterizar la imagen
+para ajustar la velocidad de fotogramas a 12 fotogramas por segundo.  Y
+
+00:06:33.760 --> 00:06:38.960
+luego algo de grano con algo de ruido HLS automático.  Y para darle un toque
+extra de ambiente, añadamos algunas gotas de lluvia que
+
+00:06:38.960 --> 00:06:43.680
+caigan y que puedan reflejar esta luz.  Así que cogeré
+la herramienta pluma y simplemente dibujaré una línea recta hacia
+
+00:06:43.680 --> 00:06:48.880
+abajo.  Animaremos la trayectoria de su forma.  Solo necesitamos
+hacer eso en aproximadamente tres fotogramas clave.  Diré que haré que
+
+00:06:48.880 --> 00:06:53.360
+todos mantengan fotogramas clave para que
+no haya mezcla entre ellos y obtendremos algo así
+
+00:06:53.360 --> 00:06:58.320
+.  Y vamos a poner eso debajo de la
+capa de ajuste.  Y le cambiaremos el modo de fusión de normal
+
+00:06:58.320 --> 00:07:03.200
+a diferencia.  De esta forma mostrará lo contrario de
+lo que hay debajo.  Entonces, cuando esté sobre negro, se
+
+00:07:03.200 --> 00:07:08.080
+volverá azul.  Y cuando esté encima del azul, se
+volverá negro.  Bueno, todo será blanco y negro
+
+00:07:08.080 --> 00:07:12.480
+, pero el tinte lo convertirá en
+azul o negro.  Ahora vamos a mover el
+
+00:07:12.480 --> 00:07:17.760
+punto de anclaje al fondo de esa capa.  Pulsa la tecla R de
+nuestro teclado y ajusta la rotación de esa gota
+
+00:07:17.760 --> 00:07:22.400
+para que aparezca desde cualquier ángulo que queramos.  Y
+podemos ser realmente inteligentes con esto.  Vamos a duplicar
+
+00:07:22.400 --> 00:07:27.040
+esta capa.  Permítanme mover eso un
+segundo.  Y en la rotación de esta gota de lluvia,
+
+00:07:27.040 --> 00:07:31.520
+simplemente voy a tomar el látigo de selección y seleccionar la
+rotación de nuestra primera.  Así que ahora están vinculados.
+
+00:07:31.520 --> 00:07:36.720
+Y en cada duplicado que hago, la rotación se puede
+ajustar con respecto al original.  Así, la dirección
+
+00:07:36.720 --> 00:07:42.000
+será la misma en cada gota de lluvia que produzcamos.&nbsp;  Eso sí que es
+evolución, nena.  Vamos a distribuirlos
+
+00:07:42.000 --> 00:07:50.080
+por toda la escena.  No intento imitar
+las ondas, solo captar la vibra.  [Música] Ahora,
+
+00:07:50.080 --> 00:07:55.120
+eso es algo con lo que podría estudiar y relajarme de forma relajada
+.  Y si activamos y desactivamos esa capa de efectos,
+
+00:07:55.120 --> 00:08:00.400
+podemos ver hasta qué punto esos efectos influyen en
+el resultado final.  El efecto umbral en particular,
+
+00:08:00.400 --> 00:08:05.680
+estoy tomando pastillas de umbral en este momento.
+Es un efecto genial para conseguir
+
+00:08:05.680 --> 00:08:11.520
+looks estilizados en 2D interesantes a partir de efectos que parecen en 3D, que
+simplemente no lo consiguen por sí solos.  Sin faltarle el
+
+00:08:11.520 --> 00:08:17.760
+respeto a CC Drizzle, a todos mis Drizzlers que están ahí fuera
+.  Y antes de llegar al
+
+00:08:17.760 --> 00:08:22.880
+tercer nivel evolutivo más alto de la lluvia, dividamos
+la línea evolutiva donde los simios ahora tienen el
+
+00:08:22.880 --> 00:08:30.240
+control total del planeta y tomemos el núcleo de este
+efecto para impulsarlo aún más.  Así que pensé que este
+
+00:08:30.240 --> 00:08:35.680
+efecto podría ser un título de película realmente genial para
+tal vez una película de terror de los años 80.  Así que le añadí un texto
+
+00:08:35.680 --> 00:08:40.240
+por encima.  Cambia de nuevo el modo de fusión a
+diferencia.  Y cuando probé con un peso de roca,
+
+00:08:40.240 --> 00:08:44.960
+me encantó cómo las ondulaciones aparecían y desaparecían
+del texto.  La diferencia al invertirlos justo uno al lado del
+
+00:08:44.960 --> 00:08:49.680
+otro hacía que pareciera un poco como un tablero de
+ajedrez y nada natural.  Pero
+
+00:08:49.680 --> 00:08:54.000
+sabía que podía hacer un trabajo mucho mejor con solo
+unos pocos cambios.  Así que, en lugar de superponer el texto
+
+00:08:54.000 --> 00:08:58.320
+sobre las ondulaciones, usemos la forma de las
+propias ondulaciones para deformar las letras usando
+
+00:08:58.320 --> 00:09:03.920
+un mapa de desplazamiento.  Así que volvamos a poner su
+modo de fusión en normal.  Y queremos añadir el efecto de
+
+00:09:03.920 --> 00:09:09.120
+mapa de desplazamiento a esa capa de texto.  Ahora, para nuestra
+capa de mapa de desplazamiento, queremos usar nuestra
+
+00:09:09.120 --> 00:09:14.720
+capa de llovizna y asegurarnos de usar los efectos y la máscara como
+origen porque esas ondulaciones están siendo hechas por
+
+00:09:14.720 --> 00:09:19.440
+ese efecto de llovizna.  Y ahora también podemos ocultar
+esa capa de llovizna.  Necesitaremos un fondo.
+
+00:09:19.440 --> 00:09:24.560
+Voy a crear rápidamente un fondo negro con un color sólido.
+Y también podemos ocultar esas gotas de lluvia por ahora.
+
+00:09:24.560 --> 00:09:29.280
+Apenas se puede ver ahora, pero si aumentamos la cantidad
+de desplazamiento horizontal, podemos empezar a ver que
+
+00:09:29.280 --> 00:09:34.320
+el efecto funciona.  Los valores más oscuros en esa
+capa de llovizna distorsionan nuestra capa de texto hacia la derecha.
+
+00:09:34.320 --> 00:09:39.040
+Técnicamente, aquí se están utilizando los valores rojos para el
+desplazamiento.  Pero como nuestra capa de llovizna
+
+00:09:39.040 --> 00:09:44.720
+es en escala de grises, el rojo, el verde y el azul dan
+el mismo resultado.  Verdadera igualdad.  Y ahora parece que
+
+00:09:44.720 --> 00:09:49.520
+nuestro texto está sobre o debajo de un poco de
+agua que está siendo perturbada por esas ondas,
+
+00:09:49.520 --> 00:09:54.720
+que es exactamente lo que queremos.  Solo hay dos
+cosas que debemos corregir.  En primer lugar, la
+
+00:09:54.720 --> 00:09:59.440
+luz puntual, que hace que el centro brille más,
+está deformando un poco el centro.  Así que, en nuestra
+
+00:09:59.440 --> 00:10:04.160
+capa de llovizna, cambiemos esa luz de luz puntual
+a luz distante.  Podemos volver a esconderlo.
+
+00:10:04.160 --> 00:10:08.640
+Vuelvan a poner nuestros efectos.  Eso lo soluciona.  Y ahora nuestras
+ondas han vuelto a ser círculos perfectos, tal como se ven
+
+00:10:08.640 --> 00:10:12.720
+desde arriba, lo cual está bien.  Eso funciona bien si eso es lo que
+quieres.  Pero quiero que aparezcan en ángulo.
+
+00:10:12.720 --> 00:10:17.760
+Esto está sucediendo porque nuestro
+efecto de mapa de desplazamiento no está teniendo en cuenta que hemos
+
+00:10:17.760 --> 00:10:23.040
+comprimido la escala en esa capa de llovizna.  Así que
+podemos solucionarlo fácilmente simplemente pre-aplicando esta
+
+00:10:23.040 --> 00:10:27.280
+capa de llovizna y asegurándonos de mover todos los atributos
+a la nueva composición.  Y ahora nuestras ondulaciones
+
+00:10:27.280 --> 00:10:31.600
+están bien aplastadas porque ese
+mapa de desplazamiento está viendo una composición que tiene capas aplastadas
+
+00:10:31.600 --> 00:10:36.080
+en su interior.  Ahora podemos ajustar las ondas para conseguir
+el efecto que deseamos.  Ahora realmente parece que está
+
+00:10:36.080 --> 00:10:39.920
+bajo el agua.  Otra cosa que
+quizás hayas notado es que el mapa de desplazamiento
+
+00:10:39.920 --> 00:10:44.400
+está empujando nuestra capa fuera del centro un poco hacia abajo
+y hacia la derecha.  Ahora podríamos simplemente empujarlo
+
+00:10:44.400 --> 00:10:48.880
+hacia el centro y calcular a ojo para colocarlo en el
+medio, pero eso no sería muy propio del Dr. Zaius, ¿
+
+00:10:48.880 --> 00:10:52.880
+verdad?  Para mantener esta y cualquier otra capa que
+queramos usar en el centro, todo lo que tenemos que hacer
+
+00:10:52.880 --> 00:10:57.760
+es ir a ese pre-MP de Drizzly y hacer que este
+fondo sea un gris perfecto al 50%.  En este momento, está
+
+00:10:57.760 --> 00:11:02.240
+un poco más oscuro.  Entonces, está desplazando
+todo hacia la derecha.  Pero si se trata de un
+
+00:11:02.240 --> 00:11:07.200
+gris completamente neutro al 50%, solo las ondulaciones afectarán
+al texto, no la oscuridad del fondo.  Ahora bien,
+
+00:11:07.200 --> 00:11:11.040
+creo que la forma más sencilla de hacerlo es
+simplemente crear una capa de forma, asegurarse de que su
+
+00:11:11.040 --> 00:11:17.440
+color sea exactamente 50% gris y luego ajustar el
+sombreado ambiental en esa llovizna para que coincida.  Ahora,
+
+00:11:17.440 --> 00:11:22.000
+como homínidos, hemos cambiado nuestra visión nocturna por una
+increíble percepción del color.  Así que esto no debería suponer ningún
+
+00:11:22.000 --> 00:11:25.760
+problema.  Y ahora, ya no necesitamos la
+capa de forma.  Así que podemos simplemente lanzar eso
+
+00:11:25.760 --> 00:11:30.880
+sobre los transeúntes que estén mirando.  Y de vuelta en nuestra
+composición principal, nuestro texto está perfectamente centrado.  Podemos
+
+00:11:30.880 --> 00:11:35.440
+hacer que esas gotas de lluvia regresen.  Quizás habría que reubicarlos en
+nuevos puestos.  También quiero asegurarme de que
+
+00:11:35.440 --> 00:11:43.680
+estén al tanto de nuestro texto.  Y luego piensa
+en el título perfecto para una película de terror de los años 80.
+
+00:11:55.080 --> 00:11:56.080
+[Música]
+
+00:11:56.080 --> 00:12:01.520
+Ahora bien, la habilidad más importante en cualquier proyecto de diseño de movimiento
+es la resolución de problemas.  Determinar qué se
+
+00:12:01.520 --> 00:12:06.320
+quiere comunicar y cómo lograrlo mediante el
+diseño y la animación.  Durante los últimos 5 años, he estado
+
+00:12:06.320 --> 00:12:11.040
+enseñando eso a miles de
+diseñadores de movimiento.  He creado tres cursos que
+
+00:12:11.040 --> 00:12:15.440
+abarcan la animación desde el nivel principiante absoluto hasta
+el nivel avanzado, así como el proceso de diseño con un nivel de
+
+00:12:15.440 --> 00:12:20.640
+detalle asombroso.  No solo se trata de ejecutar
+como un diseñador de movimiento, sino también de pensar como uno
+
+00:12:20.640 --> 00:12:25.280
+.  Si quieres mejorar tus habilidades de diseño de movimiento
+, he dedicado un año a crear cada uno de estos
+
+00:12:25.280 --> 00:12:29.920
+cursos para ayudarte a lograrlo de la forma más rápida y
+eficaz posible.  Imparto un
+
+00:12:29.920 --> 00:12:34.960
+formato estructurado que se basa en cada habilidad a la vez que crea
+nuevos proyectos para tu portafolio en cada etapa.
+
+00:12:34.960 --> 00:12:39.520
+Y también hemos creado algunos proyectos de colaboración estudiantil increíbles
+.  Además, ahorrarás cientos de
+
+00:12:39.520 --> 00:12:44.320
+dólares al combinar varios cursos.  Y al
+final, podrías simplemente explotar.
+
+00:12:44.320 --> 00:12:51.520
+Todos están en www.BenMarriott.com.  Ven y aprende
+diseño de movimiento conmigo.  Y cuando nuestra consciencia
+
+00:12:51.520 --> 00:12:56.240
+finalmente escapa de su forma física y podemos
+percibir todas las creaciones imaginables,
+
+00:12:56.240 --> 00:13:02.320
+podemos lograr animaciones bastante buenas en
+After Effects.  Así que, recientemente hice esta
+
+00:13:02.320 --> 00:13:07.040
+animación de chile.  Pinté este chile y lo animé
+encima para que coincidiera con la textura pictórica.  Eh,
+
+00:13:07.040 --> 00:13:11.920
+esto se hizo fotograma a fotograma y llevó muchísimo tiempo.  Por lo tanto,
+no volvería a utilizar ese proceso.  En cambio,
+
+00:13:11.920 --> 00:13:16.240
+para este vídeo, quería crear algo
+similar, pero más detallado y con un proceso un poco más
+
+00:13:16.240 --> 00:13:20.480
+ingenioso en After Effects.  Si
+tienes curiosidad al respecto, aquí está el
+
+00:13:20.480 --> 00:13:25.600
+proceso 202 que seguí.  Hice los bocetos en
+Calipeg en mi iPad.  Quería hacer la limpieza
+
+00:13:25.600 --> 00:13:30.240
+en Procreate Dreams, pero olvidé que no
+tenía una herramienta de selección hasta que fue demasiado tarde,
+
+00:13:30.240 --> 00:13:35.440
+y ya había hecho un montón.  Así que tuve que
+volver a pasarlo a Photoshop para limpiarlo.  Luego
+
+00:13:35.440 --> 00:13:40.240
+agregué texto y textura en After Effects.  Esto
+también está incluido en ese archivo del proyecto si quieres
+
+00:13:40.240 --> 00:13:45.840
+echar un vistazo allí.  Así que encontré un
+vídeo de gotas de lluvia a cámara lenta, bastante satisfactorio, para usarlo como referencia.
+
+00:13:45.840 --> 00:13:51.920
+Y esto realmente tiene dos componentes principales.  La
+gota de agua cayendo y las ondas.  La gota de lluvia es simplemente
+
+00:13:51.920 --> 00:13:56.480
+un círculo con un degradado.  Y también tenemos un
+fondo degradado.  Lo dejé todo en
+
+00:13:56.480 --> 00:14:01.360
+escala de grises porque luego podremos colorearlo con efectos
+.  Para las ondas, pensé que podría crear una
+
+00:14:01.360 --> 00:14:05.520
+sola y luego duplicarla para todas las
+demás.  Así que, empezaremos con ese primero.
+
+00:14:05.520 --> 00:14:10.080
+Este es el resultado final.
+Y este fue un proceso un tanto repetitivo, con bastante
+
+00:14:10.080 --> 00:14:14.880
+experimentación para lograr este aspecto.
+Así que, en lugar de explicarlo paso a paso,
+
+00:14:14.880 --> 00:14:17.920
+lo cual llevaría demasiado tiempo y sería muy
+aburrido, voy a mostrarles qué
+
+00:14:17.920 --> 00:14:21.760
+hace cada una de estas capas y qué
+aportan a este efecto.  Nuevamente, todo está
+
+00:14:21.760 --> 00:14:25.600
+incluido en los archivos del proyecto.  Entonces, esto está en
+una composición separada.  Ahora, el fondo es gris,
+
+00:14:25.600 --> 00:14:29.760
+pero eso es solo para que podamos verlo con claridad.  Si
+activamos la transparencia, podemos ver que se trata
+
+00:14:29.760 --> 00:14:33.520
+simplemente de estas ondulaciones y sus sombreados.  Eso es para que
+cuando empecemos a apilar las ondas
+
+00:14:33.520 --> 00:14:37.360
+podamos ver las que están debajo.  Así que vamos a eliminar
+todo hasta llegar a la primera capa.  Prácticamente
+
+00:14:37.360 --> 00:14:42.400
+la única animación en todo esto es una
+sola elipse que aumenta de tamaño.  Y también tengo
+
+00:14:42.400 --> 00:14:47.520
+algunos fotogramas clave en el grosor del trazo.  Simplemente nos estamos
+expandiendo y avanzando poco a poco.  Volveré a poner
+
+00:14:47.520 --> 00:14:52.240
+el fondo.  Y yo tengo dos efectos sobre
+eso.  Tengo un desenfoque gaussiano solo para suavizar un poco la imagen inicialmente
+
+00:14:52.240 --> 00:14:56.480
+.  Y además, le aplico un desenfoque direccional
+que lo suaviza aún más horizontalmente.  Y
+
+00:14:56.480 --> 00:15:00.960
+eso es para crear un efecto de ahusamiento un poco mayor,
+ya que esto se va desvaneciendo por los bordes hacia el plano plano del
+
+00:15:00.960 --> 00:15:05.120
+agua o al menos para dar
+esa ilusión.  Luego creé una versión duplicada
+
+00:15:05.120 --> 00:15:09.680
+de esa capa y la bajé.  Así que esto se sitúa
+debajo y está aún más difuminado para conseguir un
+
+00:15:09.680 --> 00:15:13.520
+aspecto más cónico.  Así que es un poco más nítido en la
+parte superior y más suave en la inferior.  Y esa es la
+
+00:15:13.520 --> 00:15:17.840
+forma principal con la que estamos trabajando.  Luego, para resaltarlo,
+agregué otro duplicado.  Esta vez lo coloreé de
+
+00:15:17.840 --> 00:15:23.680
+blanco y reduje mucho el grosor del trazo.  Y
+para este, añadí dos máscaras.  Así que ahora solo son visibles esta
+
+00:15:23.680 --> 00:15:29.120
+sección superior izquierda y esta sección inferior derecha de
+ese resaltado.  Esas máscaras también tienen
+
+00:15:29.120 --> 00:15:33.920
+plumas, así que no tenemos una línea muy marcada.
+Esta competición se trata de mantener todo suave.
+
+00:15:33.920 --> 00:15:38.560
+Luego, algunas imágenes más borrosas superpuestas a esas.  Y
+luego hice lo mismo con el sombreado.  Esta es
+
+00:15:38.560 --> 00:15:43.600
+solo una capa oscura, esta vez más abajo,
+también máscaras difuminadas en esas mismas áreas.  Y luego vuelve a aparecer borroso
+
+00:15:43.600 --> 00:15:48.960
+en la parte superior.  Lo configuré para preservar la
+transparencia subyacente.  Por lo tanto, solo afecta a los píxeles que están
+
+00:15:48.960 --> 00:15:53.280
+debajo.  Aquí volvemos a activar la transparencia.
+Eso está apagado.  y es como si estuviera creando más
+
+00:15:53.280 --> 00:15:57.920
+píxeles.  Pero si activamos esta función, se limita
+únicamente a los píxeles existentes debajo.  Todo lo
+
+00:15:57.920 --> 00:16:03.680
+demás es transparente y se conserva.  Luego hice dos
+versiones más de esa capa.  Cada uno lo mueve
+
+00:16:03.680 --> 00:16:09.120
+ligeramente hacia abajo y lo hace un poco más suave.
+Luego coloqué una capa de ajuste sobre todo y
+
+00:16:09.120 --> 00:16:14.960
+animé un desenfoque direccional y un desenfoque gaussiano para
+desenfocarlo aún más a medida que se ensancha, de modo que se vuelve cada vez más
+
+00:16:14.960 --> 00:16:19.600
+suave y se aplana en el agua.
+La mejor manera de suavizarlo era añadir
+
+00:16:19.600 --> 00:16:24.320
+el fondo degradado de nuestra composición principal
+encima de todo y hacer que apareciera gradualmente
+
+00:16:24.320 --> 00:16:28.720
+. Así, al final de esta composición, se
+verá exactamente igual que el fondo.  Y luego una
+
+00:16:28.720 --> 00:16:33.600
+transparencia subyacente preservada en eso para que
+nuevamente solo afecte a nuestro anillo y no al resto de
+
+00:16:33.600 --> 00:16:38.320
+la composición.  Y lo último para suavizarlo aún más
+fue agregar algunas capas duplicadas más
+
+00:16:38.320 --> 00:16:43.360
+y grises ligeramente más oscuros que se expandieron
+un poco desde el anillo para hacer que pareciera que
+
+00:16:43.360 --> 00:16:47.680
+proyectaban sombras y simplemente
+hacerlo súper súper suave.  Y así es como se ve eso
+
+00:16:47.680 --> 00:16:53.360
+en nuestra composición principal.  Se vuelve más suave y
+luego se desvanece de forma agradable.  Luego llegó el momento de animar
+
+00:16:53.360 --> 00:16:58.000
+la gota de lluvia.  Primero, simplemente caerse.  Y por
+supuesto, queremos que entre en el agua.  Así que añadí
+
+00:16:58.000 --> 00:17:02.960
+una máscara, que es simplemente una capa de forma con un ligero
+desenfoque, y la usé como base para nuestra capa de gotas de lluvia
+
+00:17:02.960 --> 00:17:08.320
+.  Animé la posición de nuestra gota de lluvia
+para que saltara hacia arriba y hacia abajo, creo que unas tres veces, y
+
+00:17:08.320 --> 00:17:13.440
+cada vez que salta hacia arriba y hacia abajo se hace más pequeña.
+Simplemente se anima su escala para que pierda algo de masa
+
+00:17:13.440 --> 00:17:17.200
+mientras está bajo el agua.  Y luego, en
+el último, aterriza en la superficie
+
+00:17:17.200 --> 00:17:21.920
+del agua por encima de la estera.  Y luego, de hecho, lo
+emparenté con un valor nulo.  Luego animé esa
+
+00:17:21.920 --> 00:17:26.080
+escala nula para que se aplastara y estirara como si estuviera
+rebotando en la superficie antes de que finalmente se
+
+00:17:26.080 --> 00:17:30.800
+desvaneciera bajo el agua.  Creé duplicados
+de las ondas y las alineé para cuando el
+
+00:17:30.800 --> 00:17:35.680
+círculo entrara o saliera del agua.  Ahora bien, tener
+la capa ondulada encima significa que cubre la
+
+00:17:35.680 --> 00:17:40.800
+capa ondulada de abajo, lo cual no era lo que quería.  Entonces,
+para solucionar eso, lo que hice fue crear una máscara,
+
+00:17:40.800 --> 00:17:45.840
+que corta esa capa por la mitad, difuminé
+un poco esa máscara, luego dupliqué esa capa,
+
+00:17:45.840 --> 00:17:50.480
+invertí esa máscara, de modo que ahora estas dos capas tienen
+cada lado de esa onda, y arrastré la onda
+
+00:17:50.480 --> 00:17:55.440
+en la parte inferior debajo de esa capa anterior en
+la pila de capas.  Entonces, ahora se ve apilado en el
+
+00:17:55.440 --> 00:18:00.320
+orden correcto.  Lo hice muchísimas
+veces, añadiendo ondulaciones adicionales entre los
+
+00:18:00.320 --> 00:18:05.520
+rebotes y simplemente cronometrándolas para asegurarme de que
+todas quedaran bien alineadas.  Eso creó algunas
+
+00:18:05.520 --> 00:18:10.240
+capas adicionales, pero nada demasiado descontrolado.  También
+agregué una sombra a la gota de lluvia, que es simplemente una
+
+00:18:10.240 --> 00:18:14.560
+elipse con algunos desenfoques.  Y para los
+colores y efectos finales, agregué un desenfoque gaussiano,
+
+00:18:14.560 --> 00:18:18.640
+y eso simplemente unifica ese círculo tan nítido
+con todo lo que está debajo.  Algo de
+
+00:18:18.640 --> 00:18:24.400
+ruido granulado con ruido HLS automático.  Y luego lo coloreé
+con tóner CC.  Ahora bien, otro efecto adicional que probé
+
+00:18:24.400 --> 00:18:29.040
+y que quizás te interese es un ligero efecto estroboscópico en
+toda la animación.  Entonces, esto se crea con
+
+00:18:29.040 --> 00:18:32.960
+otro ajuste en una capa encima de
+todo.  Le he aplicado un efecto de curvas y
+
+00:18:32.960 --> 00:18:38.480
+he animado su opacidad para que vaya de 100 a cero y
+vuelva a 100 con una expresión en bucle.  Y
+
+00:18:38.480 --> 00:18:43.600
+este efecto de curvas es realmente sutil.  No queremos tener que
+incluir una advertencia en nuestra animación.  Y
+
+00:18:43.600 --> 00:18:48.160
+esto imita de alguna manera el parpadeo de una fuente de luz cuando
+se filma con una cámara de cámara superlenta.  No estoy
+
+00:18:48.160 --> 00:18:53.200
+seguro de si es necesario para esta animación, pero
+es una señal visual muy útil que indica que estás
+
+00:18:53.200 --> 00:18:57.040
+viendo algo en cámara lenta.  Así que, un buen
+truco, y muy sencillo, para mantener un sueño reparador si
+
+00:18:57.040 --> 00:19:03.520
+alguna vez quieres centrarte en ello.  La mayoría de estas
+técnicas y habilidades relacionadas con la lluvia que hemos cubierto tienen muchas
+
+00:19:03.520 --> 00:19:09.520
+aplicaciones más allá de la lluvia.  Las capas de
+máscaras difuminadas y los desenfoques pueden crear degradados más suaves y un
+
+00:19:09.520 --> 00:19:15.280
+sombreado satisfactorio en cualquier cosa.  Los mapas de desplazamiento
+pueden deformar cualquier capa en función de los valores de otra.
+
+00:19:15.280 --> 00:19:24.240
+El umbral puede convertir los desastres grises en diseños llamativos
+y la lluvia CC puede hacer que llueva.  Hemos pasado
+
+00:19:24.240 --> 00:19:30.320
+de arrastrarnos por los nudillos a alardear de nuestras neuronas y, por el
+camino, hemos hecho un grupo de amigos.  Por favor, házmelo
+
+00:19:30.320 --> 00:19:34.640
+saber si quieres que realice algún otro tipo
+de animación en tres niveles.  Y si quieres
+
+00:19:34.640 --> 00:19:44.800
+aprender más técnicas para poner tu diseño de movimiento en
+un modo, mira este vídeo.  Te quiero, Dr. Zaius.
+
+00:19:44.800 --> 00:19:46.640
+Gracias.  Es genial ser
+

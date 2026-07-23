@@ -1,0 +1,944 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.160 --> 00:00:01.990 align:start position:0%
+ 
+¿Quieres <00:00:00.426><c>desplegar </c><00:00:00.692><c>tu </c><00:00:00.958><c>proyecto </c><00:00:01.224><c>Spell </c><00:00:01.490><c>Kit </c><00:00:01.756><c>en</c>
+
+00:00:01.990 --> 00:00:02.000 align:start position:0%
+¿Quieres desplegar tu proyecto Spell Kit en
+ 
+
+00:00:02.000 --> 00:00:03.990 align:start position:0%
+¿Quieres desplegar tu proyecto Spell Kit en
+cualquier <00:00:02.260><c>servicio </c><00:00:02.520><c>de </c><00:00:02.780><c>alojamiento </c><00:00:03.040><c>estático?</c>
+
+00:00:03.990 --> 00:00:04.000 align:start position:0%
+cualquier servicio de alojamiento estático?
+ 
+
+00:00:04.000 --> 00:00:06.389 align:start position:0%
+cualquier servicio de alojamiento estático?
+Es <00:00:04.373><c>súper </c><00:00:04.746><c>fácil. </c><00:00:05.119><c>Hola, </c><00:00:05.492><c>hola </c><00:00:05.865><c>YouTube, </c><00:00:06.238><c>mi</c>
+
+00:00:06.389 --> 00:00:06.399 align:start position:0%
+Es súper fácil. Hola, hola YouTube, mi
+ 
+
+00:00:06.399 --> 00:00:07.749 align:start position:0%
+Es súper fácil. Hola, hola YouTube, mi
+nombre <00:00:06.639><c>es </c><00:00:06.879><c>Braden </c><00:00:07.119><c>Gerard</c>
+
+00:00:07.749 --> 00:00:07.759 align:start position:0%
+nombre es Braden Gerard
+ 
+
+00:00:07.759 --> 00:00:09.030 align:start position:0%
+nombre es Braden Gerard
+y <00:00:07.959><c>hoy </c><00:00:08.159><c>te </c><00:00:08.359><c>voy </c><00:00:08.559><c>a </c><00:00:08.759><c>mostrar </c><00:00:08.959><c>cómo</c>
+
+00:00:09.030 --> 00:00:09.040 align:start position:0%
+y hoy te voy a mostrar cómo
+ 
+
+00:00:09.040 --> 00:00:10.870 align:start position:0%
+y hoy te voy a mostrar cómo
+desplegar <00:00:09.340><c>tu </c><00:00:09.640><c>proyecto </c><00:00:09.940><c>Felt </c><00:00:10.240><c>Kit</c>
+
+00:00:10.870 --> 00:00:10.880 align:start position:0%
+desplegar tu proyecto Felt Kit
+ 
+
+00:00:10.880 --> 00:00:14.310 align:start position:0%
+desplegar tu proyecto Felt Kit
+en <00:00:11.333><c>cualquier </c><00:00:11.786><c>host </c><00:00:12.239><c>estático </c><00:00:12.692><c>muy </c><00:00:13.145><c>fácilmente </c><00:00:13.598><c>usando</c>
+
+00:00:14.310 --> 00:00:14.320 align:start position:0%
+en cualquier host estático muy fácilmente usando
+ 
+
+00:00:14.320 --> 00:00:16.390 align:start position:0%
+en cualquier host estático muy fácilmente usando
+adaptadores <00:00:14.653><c>SveltKit. </c><00:00:14.986><c>Vamos </c><00:00:15.319><c>a </c><00:00:15.652><c>entrar </c><00:00:15.985><c>en </c><00:00:16.318><c>el</c>
+
+00:00:16.390 --> 00:00:16.400 align:start position:0%
+adaptadores SveltKit. Vamos a entrar en el
+ 
+
+00:00:16.400 --> 00:00:17.670 align:start position:0%
+adaptadores SveltKit. Vamos a entrar en el
+código <00:00:16.559><c>y </c><00:00:16.718><c>echar </c><00:00:16.877><c>un </c><00:00:17.036><c>vistazo.</c>
+
+00:00:17.670 --> 00:00:17.680 align:start position:0%
+código y echar un vistazo.
+ 
+
+00:00:17.680 --> 00:00:18.870 align:start position:0%
+código y echar un vistazo.
+Bien, <00:00:17.904><c>lo </c><00:00:18.128><c>primero </c><00:00:18.352><c>que </c><00:00:18.576><c>vamos </c><00:00:18.800><c>a</c>
+
+00:00:18.870 --> 00:00:18.880 align:start position:0%
+Bien, lo primero que vamos a
+ 
+
+00:00:18.880 --> 00:00:21.109 align:start position:0%
+Bien, lo primero que vamos a
+hacer <00:00:19.131><c>es </c><00:00:19.382><c>crear </c><00:00:19.633><c>un </c><00:00:19.884><c>directorio </c><00:00:20.135><c>para </c><00:00:20.386><c>nuestro </c><00:00:20.637><c>proyecto,</c>
+
+00:00:21.109 --> 00:00:21.119 align:start position:0%
+hacer es crear un directorio para nuestro proyecto,
+ 
+
+00:00:21.119 --> 00:00:22.070 align:start position:0%
+hacer es crear un directorio para nuestro proyecto,
+así <00:00:21.332><c>que </c><00:00:21.545><c>lo </c><00:00:21.758><c>llamaremos</c>
+
+00:00:22.070 --> 00:00:22.080 align:start position:0%
+así que lo llamaremos
+ 
+
+00:00:22.080 --> 00:00:27.109 align:start position:0%
+así que lo llamaremos
+Versal <00:00:22.906><c>Dash </c><00:00:23.732><c>Belt </c><00:00:24.558><c>Kit,</c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+ 
+ 
+
+00:00:27.119 --> 00:00:28.310 align:start position:0%
+ 
+y <00:00:27.379><c>luego </c><00:00:27.639><c>cambiaremos </c><00:00:27.899><c>a </c><00:00:28.159><c>ese</c>
+
+00:00:28.310 --> 00:00:28.320 align:start position:0%
+y luego cambiaremos a ese
+ 
+
+00:00:28.320 --> 00:00:30.630 align:start position:0%
+y luego cambiaremos a ese
+directorio <00:00:28.760><c>y </c><00:00:29.200><c>haremos </c><00:00:29.640><c>un </c><00:00:30.080><c>npm</c>
+
+00:00:30.630 --> 00:00:30.640 align:start position:0%
+directorio y haremos un npm
+ 
+
+00:00:30.640 --> 00:00:34.229 align:start position:0%
+directorio y haremos un npm
+init <00:00:31.296><c>felt </c><00:00:31.952><c>at </c><00:00:32.608><c>next </c><00:00:33.264><c>e </c><00:00:33.920><c>instalaremos</c>
+
+00:00:34.229 --> 00:00:34.239 align:start position:0%
+init felt at next e instalaremos
+ 
+
+00:00:34.239 --> 00:00:36.069 align:start position:0%
+init felt at next e instalaremos
+la <00:00:34.456><c>aplicación </c><00:00:34.673><c>de </c><00:00:34.890><c>demostración </c><00:00:35.107><c>predeterminada </c><00:00:35.324><c>de </c><00:00:35.541><c>Felt </c><00:00:35.758><c>Kit</c>
+
+00:00:36.069 --> 00:00:36.079 align:start position:0%
+la aplicación de demostración predeterminada de Felt Kit
+ 
+
+00:00:36.079 --> 00:00:39.910 align:start position:0%
+la aplicación de demostración predeterminada de Felt Kit
+para <00:00:36.735><c>este </c><00:00:37.391><c>ejemplo, </c><00:00:38.047><c>y </c><00:00:38.703><c>luego </c><00:00:39.359><c>haremos</c>
+
+00:00:39.910 --> 00:00:39.920 align:start position:0%
+para este ejemplo, y luego haremos
+ 
+
+00:00:39.920 --> 00:00:42.950 align:start position:0%
+para este ejemplo, y luego haremos
+un <00:00:40.400><c>npm </c><00:00:40.880><c>install </c><00:00:41.360><c>para </c><00:00:41.840><c>instalar </c><00:00:42.320><c>los</c>
+
+00:00:42.950 --> 00:00:42.960 align:start position:0%
+un npm install para instalar los
+ 
+
+00:00:42.960 --> 00:00:43.830 align:start position:0%
+un npm install para instalar los
+módulos <00:00:43.066><c>de </c><00:00:43.172><c>Node </c><00:00:43.278><c>predeterminados</c>
+
+00:00:43.830 --> 00:00:43.840 align:start position:0%
+módulos de Node predeterminados
+ 
+
+00:00:43.840 --> 00:00:46.069 align:start position:0%
+módulos de Node predeterminados
+necesarios <00:00:44.200><c>para </c><00:00:44.560><c>este </c><00:00:44.920><c>proyecto </c><00:00:45.280><c>Felt </c><00:00:45.640><c>Kit, </c><00:00:46.000><c>y</c>
+
+00:00:46.069 --> 00:00:46.079 align:start position:0%
+necesarios para este proyecto Felt Kit, y
+ 
+
+00:00:46.079 --> 00:00:47.510 align:start position:0%
+necesarios para este proyecto Felt Kit, y
+luego <00:00:46.372><c>haremos </c><00:00:46.665><c>un </c><00:00:46.958><c>npm</c>
+
+00:00:47.510 --> 00:00:47.520 align:start position:0%
+luego haremos un npm
+ 
+
+00:00:47.520 --> 00:00:50.150 align:start position:0%
+luego haremos un npm
+install <00:00:47.820><c>más, </c><00:00:48.120><c>esta </c><00:00:48.420><c>vez </c><00:00:48.720><c>para </c><00:00:49.020><c>asegurarnos </c><00:00:49.320><c>de </c><00:00:49.620><c>que </c><00:00:49.920><c>vaya</c>
+
+00:00:50.150 --> 00:00:50.160 align:start position:0%
+install más, esta vez para asegurarnos de que vaya
+ 
+
+00:00:50.160 --> 00:00:51.189 align:start position:0%
+install más, esta vez para asegurarnos de que vaya
+a <00:00:50.399><c>las</c>
+
+00:00:51.189 --> 00:00:51.199 align:start position:0%
+a las
+ 
+
+00:00:51.199 --> 00:00:53.430 align:start position:0%
+a las
+dependencias <00:00:51.505><c>de </c><00:00:51.811><c>desarrollo, </c><00:00:52.117><c>y </c><00:00:52.423><c>ese </c><00:00:52.729><c>será </c><00:00:53.035><c>nuestro</c>
+
+00:00:53.430 --> 00:00:53.440 align:start position:0%
+dependencias de desarrollo, y ese será nuestro
+ 
+
+00:00:53.440 --> 00:00:55.189 align:start position:0%
+dependencias de desarrollo, y ese será nuestro
+
+
+00:00:55.189 --> 00:00:55.199 align:start position:0%
+ 
+ 
+
+00:00:55.199 --> 00:00:58.790 align:start position:0%
+ 
+adaptador <00:00:55.839><c>Svelt </c><00:00:56.479><c>JS </c><00:00:57.119><c>para </c><00:00:57.759><c>Reversal,</c>
+
+00:00:58.790 --> 00:00:58.800 align:start position:0%
+adaptador Svelt JS para Reversal,
+ 
+
+00:00:58.800 --> 00:01:00.150 align:start position:0%
+adaptador Svelt JS para Reversal,
+y <00:00:58.925><c>eso </c><00:00:59.050><c>es </c><00:00:59.175><c>lo </c><00:00:59.300><c>que </c><00:00:59.425><c>hará </c><00:00:59.550><c>la </c><00:00:59.675><c>magia</c>
+
+00:01:00.150 --> 00:01:00.160 align:start position:0%
+y eso es lo que hará la magia
+ 
+
+00:01:00.160 --> 00:01:03.029 align:start position:0%
+y eso es lo que hará la magia
+cuando <00:01:00.416><c>desplieguemos </c><00:01:00.672><c>nuestro </c><00:01:00.928><c>sitio </c><00:01:01.184><c>en </c><00:01:01.440><c>Versalles</c>
+
+00:01:03.029 --> 00:01:03.039 align:start position:0%
+cuando desplieguemos nuestro sitio en Versalles
+ 
+
+00:01:03.039 --> 00:01:06.950 align:start position:0%
+cuando desplieguemos nuestro sitio en Versalles
+at <00:01:03.519><c>next. </c><00:01:03.999><c>Una </c><00:01:04.479><c>vez </c><00:01:04.959><c>que </c><00:01:05.439><c>lo </c><00:01:05.919><c>hayamos </c><00:01:06.399><c>instalado,</c>
+
+00:01:06.950 --> 00:01:06.960 align:start position:0%
+at next. Una vez que lo hayamos instalado,
+ 
+
+00:01:06.960 --> 00:01:10.390 align:start position:0%
+at next. Una vez que lo hayamos instalado,
+ahora <00:01:07.306><c>podemos </c><00:01:07.652><c>abrir </c><00:01:07.998><c>nuestro  </c><00:01:08.344><c>El </c><00:01:08.690><c>sitio </c><00:01:09.036><c>en</c>
+
+00:01:10.390 --> 00:01:10.400 align:start position:0%
+ahora podemos abrir nuestro  El sitio en
+ 
+
+00:01:10.400 --> 00:01:13.429 align:start position:0%
+ahora podemos abrir nuestro  El sitio en
+Visual <00:01:10.666><c>Studio </c><00:01:10.932><c>Code </c><00:01:11.198><c>está</c>
+
+00:01:13.429 --> 00:01:13.439 align:start position:0%
+Visual Studio Code está
+ 
+
+00:01:13.439 --> 00:01:16.710 align:start position:0%
+Visual Studio Code está
+perfecto
+
+00:01:16.710 --> 00:01:16.720 align:start position:0%
+perfecto
+ 
+
+00:01:16.720 --> 00:01:18.230 align:start position:0%
+perfecto
+y <00:01:16.946><c>ahora </c><00:01:17.172><c>que </c><00:01:17.398><c>tenemos </c><00:01:17.624><c>el </c><00:01:17.850><c>sitio </c><00:01:18.076><c>abierto</c>
+
+00:01:18.230 --> 00:01:18.240 align:start position:0%
+y ahora que tenemos el sitio abierto
+ 
+
+00:01:18.240 --> 00:01:20.070 align:start position:0%
+y ahora que tenemos el sitio abierto
+en <00:01:18.533><c>Visual </c><00:01:18.826><c>Studio </c><00:01:19.119><c>Code</c>
+
+00:01:20.070 --> 00:01:20.080 align:start position:0%
+en Visual Studio Code
+ 
+
+00:01:20.080 --> 00:01:23.429 align:start position:0%
+en Visual Studio Code
+podemos <00:01:20.759><c>ir </c><00:01:21.438><c>al </c><00:01:22.117><c>archivo </c><00:01:22.796><c>feltkit.config</c>
+
+00:01:23.429 --> 00:01:23.439 align:start position:0%
+podemos ir al archivo feltkit.config
+ 
+
+00:01:23.439 --> 00:01:24.870 align:start position:0%
+podemos ir al archivo feltkit.config
+y <00:01:23.622><c>este </c><00:01:23.805><c>es </c><00:01:23.988><c>el </c><00:01:24.171><c>único </c><00:01:24.354><c>archivo </c><00:01:24.537><c>que </c><00:01:24.720><c>necesitamos</c>
+
+00:01:24.870 --> 00:01:24.880 align:start position:0%
+y este es el único archivo que necesitamos
+ 
+
+00:01:24.880 --> 00:01:26.870 align:start position:0%
+y este es el único archivo que necesitamos
+modificar <00:01:25.120><c>para </c><00:01:25.360><c>la </c><00:01:25.600><c>inversión.</c>
+
+00:01:26.870 --> 00:01:26.880 align:start position:0%
+modificar para la inversión.
+ 
+
+00:01:26.880 --> 00:01:27.990 align:start position:0%
+modificar para la inversión.
+Básicamente, <00:01:27.140><c>solo </c><00:01:27.400><c>necesitamos </c><00:01:27.660><c>agregar </c><00:01:27.920><c>el</c>
+
+00:01:27.990 --> 00:01:28.000 align:start position:0%
+Básicamente, solo necesitamos agregar el
+ 
+
+00:01:28.000 --> 00:01:30.149 align:start position:0%
+Básicamente, solo necesitamos agregar el
+adaptador <00:01:28.200><c>aquí, </c><00:01:28.400><c>así </c><00:01:28.600><c>que </c><00:01:28.800><c>podemos </c><00:01:29.000><c>decir </c><00:01:29.200><c>import</c>
+
+00:01:30.149 --> 00:01:30.159 align:start position:0%
+adaptador aquí, así que podemos decir import
+ 
+
+00:01:30.159 --> 00:01:34.710 align:start position:0%
+adaptador aquí, así que podemos decir import
+for <00:01:31.519><c>cell </c><00:01:32.879><c>from</c>
+
+00:01:34.710 --> 00:01:34.720 align:start position:0%
+for cell from
+ 
+
+00:01:34.720 --> 00:01:38.830 align:start position:0%
+for cell from
+y <00:01:35.188><c>luego </c><00:01:35.656><c>entre </c><00:01:36.124><c>comillas </c><00:01:36.592><c>at </c><00:01:37.060><c>belt </c><00:01:37.528><c>yes </c><00:01:37.996><c>adapter</c>
+
+00:01:38.830 --> 00:01:38.840 align:start position:0%
+y luego entre comillas at belt yes adapter
+ 
+
+00:01:38.840 --> 00:01:41.670 align:start position:0%
+y luego entre comillas at belt yes adapter
+cell <00:01:39.470><c>y </c><00:01:40.100><c>luego </c><00:01:40.730><c>dentro </c><00:01:41.360><c>de</c>
+
+00:01:41.670 --> 00:01:41.680 align:start position:0%
+cell y luego dentro de
+ 
+
+00:01:41.680 --> 00:01:44.789 align:start position:0%
+cell y luego dentro de
+nuestro <00:01:42.000><c>objeto </c><00:01:42.320><c>kit </c><00:01:42.640><c>aquí </c><00:01:42.960><c>en </c><00:01:43.280><c>la </c><00:01:43.600><c>configuración </c><00:01:43.920><c>decimos </c><00:01:44.240><c>que</c>
+
+00:01:44.789 --> 00:01:44.799 align:start position:0%
+nuestro objeto kit aquí en la configuración decimos que
+ 
+
+00:01:44.799 --> 00:01:47.109 align:start position:0%
+nuestro objeto kit aquí en la configuración decimos que
+queremos <00:01:45.107><c>el </c><00:01:45.415><c>adaptador </c><00:01:45.723><c>que </c><00:01:46.031><c>va </c><00:01:46.339><c>a </c><00:01:46.647><c>usar </c><00:01:46.955><c>para</c>
+
+00:01:47.109 --> 00:01:47.119 align:start position:0%
+queremos el adaptador que va a usar para
+ 
+
+00:01:47.119 --> 00:01:48.950 align:start position:0%
+queremos el adaptador que va a usar para
+ser <00:01:47.385><c>el </c><00:01:47.651><c>adaptador </c><00:01:47.917><c>versa </c><00:01:48.183><c>que </c><00:01:48.449><c>acabamos </c><00:01:48.715><c>de</c>
+
+00:01:48.950 --> 00:01:48.960 align:start position:0%
+ser el adaptador versa que acabamos de
+ 
+
+00:01:48.960 --> 00:01:50.870 align:start position:0%
+ser el adaptador versa que acabamos de
+importar
+
+00:01:50.870 --> 00:01:50.880 align:start position:0%
+importar
+ 
+
+00:01:50.880 --> 00:01:53.830 align:start position:0%
+importar
+y <00:01:51.152><c>eso </c><00:01:51.424><c>es </c><00:01:51.696><c>todo </c><00:01:51.968><c>lo </c><00:01:52.240><c>que </c><00:01:52.512><c>tenemos </c><00:01:52.784><c>que </c><00:01:53.056><c>hacer </c><00:01:53.328><c>aquí. </c><00:01:53.600><c>Bien,</c>
+
+00:01:53.830 --> 00:01:53.840 align:start position:0%
+y eso es todo lo que tenemos que hacer aquí. Bien,
+ 
+
+00:01:53.840 --> 00:01:54.310 align:start position:0%
+y eso es todo lo que tenemos que hacer aquí. Bien,
+ahora <00:01:54.000><c>que</c>
+
+00:01:54.310 --> 00:01:54.320 align:start position:0%
+ahora que
+ 
+
+00:01:54.320 --> 00:01:56.630 align:start position:0%
+ahora que
+hemos <00:01:54.751><c>agregado </c><00:01:55.182><c>eso </c><00:01:55.613><c>al </c><00:01:56.044><c>código, </c><00:01:56.475><c>podemos</c>
+
+00:01:56.630 --> 00:01:56.640 align:start position:0%
+hemos agregado eso al código, podemos
+ 
+
+00:01:56.640 --> 00:01:57.830 align:start position:0%
+hemos agregado eso al código, podemos
+simplemente <00:01:57.080><c>volver </c><00:01:57.520><c>a</c>
+
+00:01:57.830 --> 00:01:57.840 align:start position:0%
+simplemente volver a
+ 
+
+00:01:57.840 --> 00:02:01.030 align:start position:0%
+simplemente volver a
+nuestra <00:01:58.415><c>línea </c><00:01:58.990><c>de </c><00:01:59.565><c>comandos </c><00:02:00.140><c>aquí </c><00:02:00.715><c>e</c>
+
+00:02:01.030 --> 00:02:01.040 align:start position:0%
+nuestra línea de comandos aquí e
+ 
+
+00:02:01.040 --> 00:02:03.510 align:start position:0%
+nuestra línea de comandos aquí e
+inicializaremos <00:02:01.253><c>esto </c><00:02:01.466><c>como </c><00:02:01.679><c>un </c><00:02:01.892><c>nuevo </c><00:02:02.105><c>repositorio </c><00:02:02.318><c>git</c>
+
+00:02:03.510 --> 00:02:03.520 align:start position:0%
+inicializaremos esto como un nuevo repositorio git
+ 
+
+00:02:03.520 --> 00:02:05.190 align:start position:0%
+inicializaremos esto como un nuevo repositorio git
+agregaremos <00:02:03.946><c>todos </c><00:02:04.372><c>los </c><00:02:04.798><c>archivos</c>
+
+00:02:05.190 --> 00:02:05.200 align:start position:0%
+agregaremos todos los archivos
+ 
+
+00:02:05.200 --> 00:02:09.270 align:start position:0%
+agregaremos todos los archivos
+al <00:02:05.946><c>commit </c><00:02:06.692><c>added </c><00:02:07.438><c>versailles</c>
+
+00:02:09.270 --> 00:02:09.280 align:start position:0%
+al commit added versailles
+ 
+
+00:02:09.280 --> 00:02:13.030 align:start position:0%
+al commit added versailles
+deploy <00:02:09.871><c>y </c><00:02:10.462><c>luego </c><00:02:11.053><c>haremos </c><00:02:11.644><c>un </c><00:02:12.235><c>git</c>
+
+00:02:13.030 --> 00:02:13.040 align:start position:0%
+deploy y luego haremos un git
+ 
+
+00:02:13.040 --> 00:02:15.430 align:start position:0%
+deploy y luego haremos un git
+remote <00:02:13.472><c>add </c><00:02:13.904><c>origin. </c><00:02:14.336><c>Voy </c><00:02:14.768><c>a </c><00:02:15.200><c>subir</c>
+
+00:02:15.430 --> 00:02:15.440 align:start position:0%
+remote add origin. Voy a subir
+ 
+
+00:02:15.440 --> 00:02:16.550 align:start position:0%
+remote add origin. Voy a subir
+esto <00:02:15.720><c>a </c><00:02:16.000><c>GitHub.</c>
+
+00:02:16.550 --> 00:02:16.560 align:start position:0%
+esto a GitHub.
+ 
+
+00:02:16.560 --> 00:02:18.229 align:start position:0%
+esto a GitHub.
+Ya <00:02:16.767><c>tengo </c><00:02:16.974><c>un </c><00:02:17.181><c>repositorio </c><00:02:17.388><c>de </c><00:02:17.595><c>GitHub</c>
+
+00:02:18.229 --> 00:02:18.239 align:start position:0%
+Ya tengo un repositorio de GitHub
+ 
+
+00:02:18.239 --> 00:02:20.229 align:start position:0%
+Ya tengo un repositorio de GitHub
+creado <00:02:18.519><c>para </c><00:02:18.799><c>esto,</c>
+
+00:02:20.229 --> 00:02:20.239 align:start position:0%
+creado para esto,
+ 
+
+00:02:20.239 --> 00:02:23.190 align:start position:0%
+creado para esto,
+así <00:02:20.627><c>que </c><00:02:21.015><c>lo </c><00:02:21.403><c>subiré </c><00:02:21.791><c>a </c><00:02:22.179><c>ese </c><00:02:22.567><c>repositorio. </c><00:02:22.955><c>Se</c>
+
+00:02:23.190 --> 00:02:23.200 align:start position:0%
+así que lo subiré a ese repositorio. Se
+ 
+
+00:02:23.200 --> 00:02:24.550 align:start position:0%
+así que lo subiré a ese repositorio. Se
+llama <00:02:23.760><c>versal</c>
+
+00:02:24.550 --> 00:02:24.560 align:start position:0%
+llama versal
+ 
+
+00:02:24.560 --> 00:02:31.030 align:start position:0%
+llama versal
+dash <00:02:25.399><c>belt </c><00:02:26.238><c>kit</c>
+
+00:02:31.030 --> 00:02:31.040 align:start position:0%
+ 
+ 
+
+00:02:31.040 --> 00:02:34.830 align:start position:0%
+ 
+dot <00:02:31.453><c>get </c><00:02:31.866><c>y </c><00:02:32.279><c>luego </c><00:02:32.692><c>haremos </c><00:02:33.105><c>un </c><00:02:33.518><c>git</c>
+
+00:02:34.830 --> 00:02:34.840 align:start position:0%
+dot get y luego haremos un git
+ 
+
+00:02:34.840 --> 00:02:37.670 align:start position:0%
+dot get y luego haremos un git
+branch <00:02:35.137><c>dash </c><00:02:35.434><c>m </c><00:02:35.731><c>set </c><00:02:36.028><c>it </c><00:02:36.325><c>to </c><00:02:36.622><c>main </c><00:02:36.919><c>y </c><00:02:37.216><c>luego </c><00:02:37.513><c>hacemos</c>
+
+00:02:37.670 --> 00:02:37.680 align:start position:0%
+branch dash m set it to main y luego hacemos
+ 
+
+00:02:37.680 --> 00:02:40.949 align:start position:0%
+branch dash m set it to main y luego hacemos
+get  <00:02:38.053><c>push </c><00:02:38.426><c>dash </c><00:02:38.799><c>u</c>
+
+00:02:40.949 --> 00:02:40.959 align:start position:0%
+get  push dash u
+ 
+
+00:02:40.959 --> 00:02:45.030 align:start position:0%
+get  push dash u
+origin <00:02:41.394><c>main </c><00:02:41.829><c>así </c><00:02:42.264><c>que </c><00:02:42.699><c>ahora </c><00:02:43.134><c>que </c><00:02:43.569><c>eso </c><00:02:44.004><c>se </c><00:02:44.439><c>ha </c><00:02:44.874><c>subido</c>
+
+00:02:45.030 --> 00:02:45.040 align:start position:0%
+origin main así que ahora que eso se ha subido
+ 
+
+00:02:45.040 --> 00:02:45.509 align:start position:0%
+origin main así que ahora que eso se ha subido
+a
+
+00:02:45.509 --> 00:02:45.519 align:start position:0%
+a
+ 
+
+00:02:45.519 --> 00:02:48.869 align:start position:0%
+a
+github <00:02:45.935><c>podemos </c><00:02:46.351><c>simplemente </c><00:02:46.767><c>ir </c><00:02:47.183><c>a </c><00:02:47.599><c>versel</c>
+
+00:02:48.869 --> 00:02:48.879 align:start position:0%
+github podemos simplemente ir a versel
+ 
+
+00:02:48.879 --> 00:02:51.910 align:start position:0%
+github podemos simplemente ir a versel
+y <00:02:49.345><c>podemos </c><00:02:49.811><c>crear </c><00:02:50.277><c>un </c><00:02:50.743><c>nuevo </c><00:02:51.209><c>proyecto </c><00:02:51.675><c>uh</c>
+
+00:02:51.910 --> 00:02:51.920 align:start position:0%
+y podemos crear un nuevo proyecto uh
+ 
+
+00:02:51.920 --> 00:02:54.229 align:start position:0%
+y podemos crear un nuevo proyecto uh
+importar <00:02:52.120><c>desde </c><00:02:52.320><c>un </c><00:02:52.520><c>repositorio </c><00:02:52.720><c>git</c>
+
+00:02:54.229 --> 00:02:54.239 align:start position:0%
+importar desde un repositorio git
+ 
+
+00:02:54.239 --> 00:02:55.670 align:start position:0%
+importar desde un repositorio git
+ya <00:02:54.495><c>tengo </c><00:02:54.751><c>mi </c><00:02:55.007><c>github </c><00:02:55.263><c>vinculado </c><00:02:55.519><c>aquí</c>
+
+00:02:55.670 --> 00:02:55.680 align:start position:0%
+ya tengo mi github vinculado aquí
+ 
+
+00:02:55.680 --> 00:02:57.270 align:start position:0%
+ya tengo mi github vinculado aquí
+tengo <00:02:55.840><c>mi </c><00:02:56.000><c>kit </c><00:02:56.160><c>de </c><00:02:56.320><c>fieltro </c><00:02:56.480><c>de </c><00:02:56.640><c>versailles </c><00:02:56.800><c>que </c><00:02:56.960><c>acabo </c><00:02:57.120><c>de</c>
+
+00:02:57.270 --> 00:02:57.280 align:start position:0%
+tengo mi kit de fieltro de versailles que acabo de
+ 
+
+00:02:57.280 --> 00:02:59.110 align:start position:0%
+tengo mi kit de fieltro de versailles que acabo de
+implementar <00:02:57.560><c>ahora </c><00:02:57.840><c>en </c><00:02:58.120><c>github </c><00:02:58.400><c>lo</c>
+
+00:02:59.110 --> 00:02:59.120 align:start position:0%
+implementar ahora en github lo
+ 
+
+00:02:59.120 --> 00:03:01.030 align:start position:0%
+implementar ahora en github lo
+importaremos <00:02:59.706><c>no </c><00:03:00.292><c>tienes </c><00:03:00.878><c>que</c>
+
+00:03:01.030 --> 00:03:01.040 align:start position:0%
+importaremos no tienes que
+ 
+
+00:03:01.040 --> 00:03:02.390 align:start position:0%
+importaremos no tienes que
+cambiar <00:03:01.253><c>ninguna </c><00:03:01.466><c>de </c><00:03:01.679><c>las </c><00:03:01.892><c>configuraciones </c><00:03:02.105><c>aquí </c><00:03:02.318><c>puedes</c>
+
+00:03:02.390 --> 00:03:02.400 align:start position:0%
+cambiar ninguna de las configuraciones aquí puedes
+ 
+
+00:03:02.400 --> 00:03:03.990 align:start position:0%
+cambiar ninguna de las configuraciones aquí puedes
+simplemente <00:03:02.679><c>presionar </c><00:03:02.958><c>implementar</c>
+
+00:03:03.990 --> 00:03:04.000 align:start position:0%
+simplemente presionar implementar
+ 
+
+00:03:04.000 --> 00:03:06.070 align:start position:0%
+simplemente presionar implementar
+y <00:03:04.368><c>esto </c><00:03:04.736><c>va </c><00:03:05.104><c>a </c><00:03:05.472><c>implementar </c><00:03:05.840><c>nuestro</c>
+
+00:03:06.070 --> 00:03:06.080 align:start position:0%
+y esto va a implementar nuestro
+ 
+
+00:03:06.080 --> 00:03:07.750 align:start position:0%
+y esto va a implementar nuestro
+código <00:03:06.293><c>front-end </c><00:03:06.506><c>en </c><00:03:06.719><c>la</c>
+
+00:03:07.750 --> 00:03:07.760 align:start position:0%
+código front-end en la
+ 
+
+00:03:07.760 --> 00:03:09.750 align:start position:0%
+código front-end en la
+CDN <00:03:07.960><c>de </c><00:03:08.160><c>verscell </c><00:03:08.360><c>al </c><00:03:08.560><c>servicio </c><00:03:08.760><c>de </c><00:03:08.960><c>alojamiento </c><00:03:09.160><c>estático </c><00:03:09.360><c>front-end</c>
+
+00:03:09.750 --> 00:03:09.760 align:start position:0%
+CDN de verscell al servicio de alojamiento estático front-end
+ 
+
+00:03:09.760 --> 00:03:11.430 align:start position:0%
+CDN de verscell al servicio de alojamiento estático front-end
+y <00:03:10.080><c>luego </c><00:03:10.400><c>va </c><00:03:10.720><c>a </c><00:03:11.040><c>implementar</c>
+
+00:03:11.430 --> 00:03:11.440 align:start position:0%
+y luego va a implementar
+ 
+
+00:03:11.440 --> 00:03:13.110 align:start position:0%
+y luego va a implementar
+nuestro <00:03:11.611><c>código </c><00:03:11.782><c>del </c><00:03:11.953><c>lado </c><00:03:12.124><c>del </c><00:03:12.295><c>servidor </c><00:03:12.466><c>en </c><00:03:12.637><c>la</c>
+
+00:03:13.110 --> 00:03:13.120 align:start position:0%
+nuestro código del lado del servidor en la
+ 
+
+00:03:13.120 --> 00:03:16.149 align:start position:0%
+nuestro código del lado del servidor en la
+oferta <00:03:13.546><c>de </c><00:03:13.972><c>funciones </c><00:03:14.398><c>sin </c><00:03:14.824><c>servidor </c><00:03:15.250><c>de </c><00:03:15.676><c>versel</c>
+
+00:03:16.149 --> 00:03:16.159 align:start position:0%
+oferta de funciones sin servidor de versel
+ 
+
+00:03:16.159 --> 00:03:18.309 align:start position:0%
+oferta de funciones sin servidor de versel
+que <00:03:16.444><c>ellos </c><00:03:16.729><c>proporcionan </c><00:03:17.014><c>así </c><00:03:17.299><c>que </c><00:03:17.584><c>eso </c><00:03:17.869><c>es </c><00:03:18.154><c>solo</c>
+
+00:03:18.309 --> 00:03:18.319 align:start position:0%
+que ellos proporcionan así que eso es solo
+ 
+
+00:03:18.319 --> 00:03:20.070 align:start position:0%
+que ellos proporcionan así que eso es solo
+compilar <00:03:18.623><c>eso </c><00:03:18.927><c>ahora </c><00:03:19.231><c>e </c><00:03:19.535><c>implementarlo </c><00:03:19.839><c>y</c>
+
+00:03:20.070 --> 00:03:20.080 align:start position:0%
+compilar eso ahora e implementarlo y
+ 
+
+00:03:20.080 --> 00:03:22.790 align:start position:0%
+compilar eso ahora e implementarlo y
+cargar <00:03:20.279><c>nuestra </c><00:03:20.478><c>salida </c><00:03:20.677><c>de </c><00:03:20.876><c>compilación</c>
+
+00:03:22.790 --> 00:03:22.800 align:start position:0%
+cargar nuestra salida de compilación
+ 
+
+00:03:22.800 --> 00:03:24.630 align:start position:0%
+cargar nuestra salida de compilación
+y <00:03:23.120><c>felicitaciones </c><00:03:23.440><c>su </c><00:03:23.760><c>sitio </c><00:03:24.080><c>se </c><00:03:24.400><c>ha</c>
+
+00:03:24.630 --> 00:03:24.640 align:start position:0%
+y felicitaciones su sitio se ha
+ 
+
+00:03:24.640 --> 00:03:26.149 align:start position:0%
+y felicitaciones su sitio se ha
+implementado <00:03:24.960><c>correctamente </c><00:03:25.280><c>eso </c><00:03:25.600><c>fue </c><00:03:25.920><c>bastante</c>
+
+00:03:26.149 --> 00:03:26.159 align:start position:0%
+implementado correctamente eso fue bastante
+ 
+
+00:03:26.159 --> 00:03:27.110 align:start position:0%
+implementado correctamente eso fue bastante
+rápido
+
+00:03:27.110 --> 00:03:27.120 align:start position:0%
+rápido
+ 
+
+00:03:27.120 --> 00:03:28.550 align:start position:0%
+rápido
+ahora <00:03:27.280><c>podemos </c><00:03:27.440><c>visitar </c><00:03:27.600><c>el </c><00:03:27.760><c>sitio </c><00:03:27.920><c>si </c><00:03:28.080><c>hacemos </c><00:03:28.240><c>clic </c><00:03:28.400><c>en</c>
+
+00:03:28.550 --> 00:03:28.560 align:start position:0%
+ahora podemos visitar el sitio si hacemos clic en
+ 
+
+00:03:28.560 --> 00:03:29.910 align:start position:0%
+ahora podemos visitar el sitio si hacemos clic en
+visitar <00:03:28.816><c>aquí </c><00:03:29.072><c>nos </c><00:03:29.328><c>llevará </c><00:03:29.584><c>a </c><00:03:29.840><c>la</c>
+
+00:03:29.910 --> 00:03:29.920 align:start position:0%
+visitar aquí nos llevará a la
+ 
+
+00:03:29.920 --> 00:03:32.070 align:start position:0%
+visitar aquí nos llevará a la
+URL <00:03:30.253><c>temporal </c><00:03:30.586><c>de </c><00:03:30.919><c>nuestras </c><00:03:31.252><c>celdas </c><00:03:31.585><c>asignadas </c><00:03:31.918><c>a</c>
+
+00:03:32.070 --> 00:03:32.080 align:start position:0%
+URL temporal de nuestras celdas asignadas a
+ 
+
+00:03:32.080 --> 00:03:32.869 align:start position:0%
+URL temporal de nuestras celdas asignadas a
+nuestro <00:03:32.239><c>sitio</c>
+
+00:03:32.869 --> 00:03:32.879 align:start position:0%
+nuestro sitio
+ 
+
+00:03:32.879 --> 00:03:35.350 align:start position:0%
+nuestro sitio
+podemos <00:03:33.187><c>ver </c><00:03:33.495><c>nuestra </c><00:03:33.803><c>página </c><00:03:34.111><c>de </c><00:03:34.419><c>inicio </c><00:03:34.727><c>aquí </c><00:03:35.035><c>nuestra</c>
+
+00:03:35.350 --> 00:03:35.360 align:start position:0%
+podemos ver nuestra página de inicio aquí nuestra
+ 
+
+00:03:35.360 --> 00:03:37.030 align:start position:0%
+podemos ver nuestra página de inicio aquí nuestra
+página <00:03:35.510><c>acerca </c><00:03:35.660><c>de </c><00:03:35.810><c>y </c><00:03:35.960><c>nuestra </c><00:03:36.110><c>página </c><00:03:36.260><c>de </c><00:03:36.410><c>tareas </c><00:03:36.560><c>pendientes</c>
+
+00:03:37.030 --> 00:03:37.040 align:start position:0%
+página acerca de y nuestra página de tareas pendientes
+ 
+
+00:03:37.040 --> 00:03:41.509 align:start position:0%
+página acerca de y nuestra página de tareas pendientes
+que <00:03:37.472><c>nos </c><00:03:37.904><c>permite </c><00:03:38.336><c>agregar </c><00:03:38.768><c>tareas </c><00:03:39.200><c>pendientes</c>
+
+00:03:41.509 --> 00:03:41.519 align:start position:0%
+que nos permite agregar tareas pendientes
+ 
+
+00:03:41.519 --> 00:03:43.430 align:start position:0%
+que nos permite agregar tareas pendientes
+y <00:03:41.705><c>también </c><00:03:41.891><c>eliminar </c><00:03:42.077><c>tareas </c><00:03:42.263><c>pendientes </c><00:03:42.449><c>y </c><00:03:42.635><c>estas  </c><00:03:42.821><c>Las </c><00:03:43.007><c>tareas </c><00:03:43.193><c>pendientes</c>
+
+00:03:43.430 --> 00:03:43.440 align:start position:0%
+y también eliminar tareas pendientes y estas  Las tareas pendientes
+ 
+
+00:03:43.440 --> 00:03:45.110 align:start position:0%
+y también eliminar tareas pendientes y estas  Las tareas pendientes
+son <00:03:44.159><c>simplemente</c>
+
+00:03:45.110 --> 00:03:45.120 align:start position:0%
+son simplemente
+ 
+
+00:03:45.120 --> 00:03:48.229 align:start position:0%
+son simplemente
+tareas <00:03:45.531><c>que </c><00:03:45.942><c>se </c><00:03:46.353><c>almacenan </c><00:03:46.764><c>en </c><00:03:47.175><c>un </c><00:03:47.586><c>archivo </c><00:03:47.997><c>JSON</c>
+
+00:03:48.229 --> 00:03:48.239 align:start position:0%
+tareas que se almacenan en un archivo JSON
+ 
+
+00:03:48.239 --> 00:03:49.750 align:start position:0%
+tareas que se almacenan en un archivo JSON
+usando <00:03:48.433><c>estas </c><00:03:48.627><c>rutas </c><00:03:48.821><c>del </c><00:03:49.015><c>servidor, </c><00:03:49.209><c>pero </c><00:03:49.403><c>podemos </c><00:03:49.597><c>ver</c>
+
+00:03:49.750 --> 00:03:49.760 align:start position:0%
+usando estas rutas del servidor, pero podemos ver
+ 
+
+00:03:49.760 --> 00:03:50.949 align:start position:0%
+usando estas rutas del servidor, pero podemos ver
+que <00:03:49.973><c>es </c><00:03:50.186><c>totalmente </c><00:03:50.399><c>funcional</c>
+
+00:03:50.949 --> 00:03:50.959 align:start position:0%
+que es totalmente funcional
+ 
+
+00:03:50.959 --> 00:03:53.509 align:start position:0%
+que es totalmente funcional
+usando <00:03:51.159><c>las </c><00:03:51.359><c>funciones </c><00:03:51.559><c>de </c><00:03:51.759><c>lista </c><00:03:51.959><c>del </c><00:03:52.159><c>servidor </c><00:03:52.359><c>de </c><00:03:52.559><c>Versailles,</c>
+
+00:03:53.509 --> 00:03:53.519 align:start position:0%
+usando las funciones de lista del servidor de Versailles,
+ 
+
+00:03:53.519 --> 00:03:55.350 align:start position:0%
+usando las funciones de lista del servidor de Versailles,
+así <00:03:53.647><c>que </c><00:03:53.775><c>eso </c><00:03:53.903><c>es </c><00:03:54.031><c>todo </c><00:03:54.159><c>lo </c><00:03:54.287><c>que </c><00:03:54.415><c>se </c><00:03:54.543><c>necesita </c><00:03:54.671><c>para </c><00:03:54.799><c>implementar</c>
+
+00:03:55.350 --> 00:03:55.360 align:start position:0%
+así que eso es todo lo que se necesita para implementar
+ 
+
+00:03:55.360 --> 00:03:57.750 align:start position:0%
+así que eso es todo lo que se necesita para implementar
+una <00:03:55.696><c>aplicación </c><00:03:56.032><c>Sveltkit </c><00:03:56.368><c>en </c><00:03:56.704><c>tu </c><00:03:57.040><c>celda.</c>
+
+00:03:57.750 --> 00:03:57.760 align:start position:0%
+una aplicación Sveltkit en tu celda.
+ 
+
+00:03:57.760 --> 00:03:58.949 align:start position:0%
+una aplicación Sveltkit en tu celda.
+Gracias <00:03:58.019><c>por </c><00:03:58.278><c>quedarte </c><00:03:58.537><c>para </c><00:03:58.796><c>otro</c>
+
+00:03:58.949 --> 00:03:58.959 align:start position:0%
+Gracias por quedarte para otro
+ 
+
+00:03:58.959 --> 00:04:01.030 align:start position:0%
+Gracias por quedarte para otro
+de <00:03:59.231><c>mis </c><00:03:59.503><c>videos </c><00:03:59.775><c>tutoriales </c><00:04:00.047><c>de </c><00:04:00.319><c>YouTube.</c>
+
+00:04:01.030 --> 00:04:01.040 align:start position:0%
+de mis videos tutoriales de YouTube.
+ 
+
+00:04:01.040 --> 00:04:02.710 align:start position:0%
+de mis videos tutoriales de YouTube.
+Hoy <00:04:01.328><c>vimos </c><00:04:01.616><c>cómo </c><00:04:01.904><c>puedes </c><00:04:02.192><c>usar </c><00:04:02.480><c>los</c>
+
+00:04:02.710 --> 00:04:02.720 align:start position:0%
+Hoy vimos cómo puedes usar los
+ 
+
+00:04:02.720 --> 00:04:04.309 align:start position:0%
+Hoy vimos cómo puedes usar los
+adaptadores <00:04:03.020><c>de </c><00:04:03.320><c>Felt </c><00:04:03.620><c>Kit </c><00:04:03.920><c>para</c>
+
+00:04:04.309 --> 00:04:04.319 align:start position:0%
+adaptadores de Felt Kit para
+ 
+
+00:04:04.319 --> 00:04:06.630 align:start position:0%
+adaptadores de Felt Kit para
+implementar <00:04:04.735><c>fácilmente </c><00:04:05.151><c>tu </c><00:04:05.567><c>proyecto. </c><00:04:05.983><c>Si </c><00:04:06.399><c>te</c>
+
+00:04:06.630 --> 00:04:06.640 align:start position:0%
+implementar fácilmente tu proyecto. Si te
+ 
+
+00:04:06.640 --> 00:04:08.149 align:start position:0%
+implementar fácilmente tu proyecto. Si te
+gustó <00:04:06.810><c>este </c><00:04:06.980><c>contenido, </c><00:04:07.150><c>asegúrate </c><00:04:07.320><c>de </c><00:04:07.490><c>darle </c><00:04:07.660><c>un </c><00:04:07.830><c>me </c><00:04:08.000><c>gusta</c>
+
+00:04:08.149 --> 00:04:08.159 align:start position:0%
+gustó este contenido, asegúrate de darle un me gusta
+ 
+
+00:04:08.159 --> 00:04:09.589 align:start position:0%
+gustó este contenido, asegúrate de darle un me gusta
+al <00:04:09.040><c>video</c>
+
+00:04:09.589 --> 00:04:09.599 align:start position:0%
+al video
+ 
+
+00:04:09.599 --> 00:04:11.110 align:start position:0%
+al video
+y <00:04:09.825><c>si </c><00:04:10.051><c>quieres </c><00:04:10.277><c>ver </c><00:04:10.503><c>más </c><00:04:10.729><c>de </c><00:04:10.955><c>mis</c>
+
+00:04:11.110 --> 00:04:11.120 align:start position:0%
+y si quieres ver más de mis
+ 
+
+00:04:11.120 --> 00:04:12.949 align:start position:0%
+y si quieres ver más de mis
+videos, <00:04:11.440><c>suscríbete </c><00:04:11.760><c>a </c><00:04:12.080><c>mi </c><00:04:12.400><c>canal </c><00:04:12.720><c>porque</c>
+
+00:04:12.949 --> 00:04:12.959 align:start position:0%
+videos, suscríbete a mi canal porque
+ 
+
+00:04:12.959 --> 00:04:14.470 align:start position:0%
+videos, suscríbete a mi canal porque
+publicaré <00:04:13.215><c>mucho </c><00:04:13.471><c>contenido </c><00:04:13.727><c>de </c><00:04:13.983><c>Felt </c><00:04:14.239><c>Kit</c>
+
+00:04:14.470 --> 00:04:14.480 align:start position:0%
+publicaré mucho contenido de Felt Kit
+ 
+
+00:04:14.480 --> 00:04:15.589 align:start position:0%
+publicaré mucho contenido de Felt Kit
+en <00:04:14.620><c>el </c><00:04:14.760><c>futuro, </c><00:04:14.900><c>así </c><00:04:15.040><c>como</c>
+
+00:04:15.589 --> 00:04:15.599 align:start position:0%
+en el futuro, así como
+ 
+
+00:04:15.599 --> 00:04:17.909 align:start position:0%
+en el futuro, así como
+otros <00:04:15.959><c>videos </c><00:04:16.319><c>tutoriales </c><00:04:16.679><c>de </c><00:04:17.039><c>programación.</c>
+
+00:04:17.909 --> 00:04:17.919 align:start position:0%
+otros videos tutoriales de programación.
+ 
+
+00:04:17.919 --> 00:04:37.510 align:start position:0%
+otros videos tutoriales de programación.
+Gracias, <00:04:19.703><c>que </c><00:04:21.487><c>tengas </c><00:04:23.271><c>un </c><00:04:25.055><c>buen </c><00:04:26.839><c>día.</c>
+
+00:04:37.510 --> 00:04:37.520 align:start position:0%
+ 
+ 
+
+00:04:37.520 --> 00:04:39.600 align:start position:0%
+ 
+
+

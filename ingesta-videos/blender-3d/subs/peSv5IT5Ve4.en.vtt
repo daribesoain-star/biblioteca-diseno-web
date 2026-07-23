@@ -1,0 +1,1656 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:03.110 align:start position:0%
+ 
+Two<00:00:00.640><c> years</c><00:00:00.880><c> ago,</c><00:00:01.280><c> I</c><00:00:01.520><c> made</c><00:00:01.680><c> a</c><00:00:01.920><c> video</c><00:00:02.240><c> on</c><00:00:02.560><c> Blender</c>
+
+00:00:03.110 --> 00:00:03.120 align:start position:0%
+Two years ago, I made a video on Blender
+ 
+
+00:00:03.120 --> 00:00:06.630 align:start position:0%
+Two years ago, I made a video on Blender
+for<00:00:03.439><c> the</c><00:00:03.760><c> absolute</c><00:00:04.640><c> beginner</c><00:00:05.200><c> basics</c><00:00:06.160><c> if</c><00:00:06.400><c> you</c>
+
+00:00:06.630 --> 00:00:06.640 align:start position:0%
+for the absolute beginner basics if you
+ 
+
+00:00:06.640 --> 00:00:09.509 align:start position:0%
+for the absolute beginner basics if you
+never<00:00:07.040><c> opened</c><00:00:07.520><c> this</c><00:00:07.839><c> program.</c><00:00:08.720><c> That</c><00:00:08.960><c> video</c>
+
+00:00:09.509 --> 00:00:09.519 align:start position:0%
+never opened this program. That video
+ 
+
+00:00:09.519 --> 00:00:11.430 align:start position:0%
+never opened this program. That video
+was<00:00:09.760><c> meant</c><00:00:10.080><c> to</c><00:00:10.320><c> kind</c><00:00:10.480><c> of</c><00:00:10.639><c> get</c><00:00:10.800><c> you</c><00:00:11.040><c> to</c><00:00:11.200><c> your</c>
+
+00:00:11.430 --> 00:00:11.440 align:start position:0%
+was meant to kind of get you to your
+ 
+
+00:00:11.440 --> 00:00:13.509 align:start position:0%
+was meant to kind of get you to your
+first<00:00:11.679><c> model.</c><00:00:12.400><c> However,</c><00:00:12.800><c> with</c><00:00:13.040><c> Blender</c>
+
+00:00:13.509 --> 00:00:13.519 align:start position:0%
+first model. However, with Blender
+ 
+
+00:00:13.519 --> 00:00:15.669 align:start position:0%
+first model. However, with Blender
+updating<00:00:14.080><c> quite</c><00:00:14.240><c> a</c><00:00:14.480><c> bit</c><00:00:14.639><c> since</c><00:00:14.880><c> then,</c><00:00:15.440><c> and</c>
+
+00:00:15.669 --> 00:00:15.679 align:start position:0%
+updating quite a bit since then, and
+ 
+
+00:00:15.679 --> 00:00:17.430 align:start position:0%
+updating quite a bit since then, and
+that<00:00:15.920><c> video</c><00:00:16.320><c> getting</c><00:00:16.560><c> a</c><00:00:16.720><c> bit</c><00:00:16.880><c> lost</c><00:00:17.119><c> in</c><00:00:17.279><c> the</c>
+
+00:00:17.430 --> 00:00:17.440 align:start position:0%
+that video getting a bit lost in the
+ 
+
+00:00:17.440 --> 00:00:19.910 align:start position:0%
+that video getting a bit lost in the
+sauce<00:00:17.760><c> since</c><00:00:18.000><c> it's</c><00:00:18.320><c> been</c><00:00:18.480><c> 2</c><00:00:18.720><c> years,</c><00:00:19.439><c> I</c><00:00:19.680><c> wanted</c>
+
+00:00:19.910 --> 00:00:19.920 align:start position:0%
+sauce since it's been 2 years, I wanted
+ 
+
+00:00:19.920 --> 00:00:22.150 align:start position:0%
+sauce since it's been 2 years, I wanted
+to<00:00:20.080><c> make</c><00:00:20.400><c> another</c><00:00:20.640><c> one</c><00:00:21.039><c> for</c><00:00:21.279><c> anyone</c><00:00:21.760><c> opening</c>
+
+00:00:22.150 --> 00:00:22.160 align:start position:0%
+to make another one for anyone opening
+ 
+
+00:00:22.160 --> 00:00:25.189 align:start position:0%
+to make another one for anyone opening
+this<00:00:22.400><c> program</c><00:00:22.880><c> in</c><00:00:23.199><c> 2025.</c><00:00:24.400><c> The</c><00:00:24.640><c> first</c><00:00:24.800><c> thing</c><00:00:24.960><c> we</c>
+
+00:00:25.189 --> 00:00:25.199 align:start position:0%
+this program in 2025. The first thing we
+ 
+
+00:00:25.199 --> 00:00:28.230 align:start position:0%
+this program in 2025. The first thing we
+need<00:00:25.279><c> to</c><00:00:25.439><c> cover</c><00:00:25.760><c> is</c><00:00:26.160><c> moving</c><00:00:26.800><c> in</c><00:00:27.119><c> Blender.</c><00:00:27.840><c> It's</c>
+
+00:00:28.230 --> 00:00:28.240 align:start position:0%
+need to cover is moving in Blender. It's
+ 
+
+00:00:28.240 --> 00:00:30.230 align:start position:0%
+need to cover is moving in Blender. It's
+a<00:00:28.480><c> bit</c><00:00:28.640><c> weird</c><00:00:28.960><c> and</c><00:00:29.279><c> takes</c><00:00:29.519><c> a</c><00:00:29.760><c> second</c><00:00:29.920><c> to</c><00:00:30.160><c> get</c>
+
+00:00:30.230 --> 00:00:30.240 align:start position:0%
+a bit weird and takes a second to get
+ 
+
+00:00:30.240 --> 00:00:32.709 align:start position:0%
+a bit weird and takes a second to get
+used<00:00:30.480><c> to.</c><00:00:30.960><c> So,</c><00:00:31.119><c> I'll</c><00:00:31.359><c> break</c><00:00:31.599><c> it</c><00:00:31.760><c> down</c><00:00:32.160><c> very,</c>
+
+00:00:32.709 --> 00:00:32.719 align:start position:0%
+used to. So, I'll break it down very,
+ 
+
+00:00:32.719 --> 00:00:35.430 align:start position:0%
+used to. So, I'll break it down very,
+very<00:00:33.200><c> easily.</c><00:00:33.920><c> On</c><00:00:34.239><c> your</c><00:00:34.399><c> mouse,</c><00:00:34.800><c> your</c><00:00:35.040><c> middle</c>
+
+00:00:35.430 --> 00:00:35.440 align:start position:0%
+very easily. On your mouse, your middle
+ 
+
+00:00:35.440 --> 00:00:37.990 align:start position:0%
+very easily. On your mouse, your middle
+scroll<00:00:35.840><c> wheel</c><00:00:36.160><c> will</c><00:00:36.399><c> let</c><00:00:36.559><c> you</c><00:00:36.719><c> zoom</c><00:00:36.960><c> out</c><00:00:37.600><c> and</c>
+
+00:00:37.990 --> 00:00:38.000 align:start position:0%
+scroll wheel will let you zoom out and
+ 
+
+00:00:38.000 --> 00:00:40.470 align:start position:0%
+scroll wheel will let you zoom out and
+zoom<00:00:38.320><c> in.</c><00:00:38.960><c> If</c><00:00:39.200><c> you</c><00:00:39.360><c> click</c><00:00:39.680><c> in</c><00:00:39.920><c> the</c><00:00:40.160><c> middle</c>
+
+00:00:40.470 --> 00:00:40.480 align:start position:0%
+zoom in. If you click in the middle
+ 
+
+00:00:40.480 --> 00:00:43.590 align:start position:0%
+zoom in. If you click in the middle
+scroll<00:00:40.800><c> wheel</c><00:00:41.200><c> and</c><00:00:41.680><c> drag</c><00:00:42.079><c> around,</c><00:00:42.800><c> you</c><00:00:43.040><c> can</c><00:00:43.280><c> go</c>
+
+00:00:43.590 --> 00:00:43.600 align:start position:0%
+scroll wheel and drag around, you can go
+ 
+
+00:00:43.600 --> 00:00:45.990 align:start position:0%
+scroll wheel and drag around, you can go
+around<00:00:44.239><c> your</c><00:00:44.640><c> object</c><00:00:45.120><c> in</c><00:00:45.360><c> whatever</c><00:00:45.760><c> way</c>
+
+00:00:45.990 --> 00:00:46.000 align:start position:0%
+around your object in whatever way
+ 
+
+00:00:46.000 --> 00:00:48.389 align:start position:0%
+around your object in whatever way
+you're<00:00:46.399><c> bringing</c><00:00:46.719><c> your</c><00:00:46.960><c> mouse.</c><00:00:47.600><c> If</c><00:00:47.840><c> you</c><00:00:48.000><c> hold</c>
+
+00:00:48.389 --> 00:00:48.399 align:start position:0%
+you're bringing your mouse. If you hold
+ 
+
+00:00:48.399 --> 00:00:51.190 align:start position:0%
+you're bringing your mouse. If you hold
+shift<00:00:49.120><c> and</c><00:00:49.520><c> click</c><00:00:49.760><c> the</c><00:00:50.000><c> middle</c><00:00:50.320><c> scroll</c><00:00:50.640><c> wheel,</c>
+
+00:00:51.190 --> 00:00:51.200 align:start position:0%
+shift and click the middle scroll wheel,
+ 
+
+00:00:51.200 --> 00:00:54.150 align:start position:0%
+shift and click the middle scroll wheel,
+you<00:00:51.440><c> can</c><00:00:51.680><c> pan</c><00:00:52.399><c> around</c><00:00:52.800><c> your</c><00:00:53.120><c> scene.</c><00:00:53.680><c> And</c><00:00:54.000><c> if</c>
+
+00:00:54.150 --> 00:00:54.160 align:start position:0%
+you can pan around your scene. And if
+ 
+
+00:00:54.160 --> 00:00:56.709 align:start position:0%
+you can pan around your scene. And if
+you<00:00:54.320><c> have</c><00:00:54.480><c> a</c><00:00:54.719><c> number</c><00:00:55.039><c> pad,</c><00:00:55.440><c> you</c><00:00:55.680><c> can</c><00:00:55.840><c> click</c><00:00:56.239><c> one</c>
+
+00:00:56.709 --> 00:00:56.719 align:start position:0%
+you have a number pad, you can click one
+ 
+
+00:00:56.719 --> 00:00:59.029 align:start position:0%
+you have a number pad, you can click one
+for<00:00:57.039><c> front</c><00:00:57.360><c> orthographic.</c><00:00:58.480><c> I</c><00:00:58.640><c> hope</c><00:00:58.800><c> that's</c>
+
+00:00:59.029 --> 00:00:59.039 align:start position:0%
+for front orthographic. I hope that's
+ 
+
+00:00:59.039 --> 00:01:00.950 align:start position:0%
+for front orthographic. I hope that's
+how<00:00:59.199><c> you</c><00:00:59.440><c> say</c><00:00:59.600><c> it.</c><00:01:00.079><c> Three</c><00:01:00.399><c> for</c><00:01:00.640><c> right</c>
+
+00:01:00.950 --> 00:01:00.960 align:start position:0%
+how you say it. Three for right
+ 
+
+00:01:00.960 --> 00:01:04.630 align:start position:0%
+how you say it. Three for right
+orthographic,<00:01:02.160><c> seven</c><00:01:02.640><c> for</c><00:01:02.960><c> top,</c><00:01:03.600><c> and</c><00:01:04.080><c> nine</c>
+
+00:01:04.630 --> 00:01:04.640 align:start position:0%
+orthographic, seven for top, and nine
+ 
+
+00:01:04.640 --> 00:01:06.469 align:start position:0%
+orthographic, seven for top, and nine
+for<00:01:04.960><c> bottom.</c><00:01:05.519><c> If</c><00:01:05.760><c> you</c><00:01:05.840><c> don't</c><00:01:06.000><c> have</c><00:01:06.080><c> a</c><00:01:06.240><c> number</c>
+
+00:01:06.469 --> 00:01:06.479 align:start position:0%
+for bottom. If you don't have a number
+ 
+
+00:01:06.479 --> 00:01:08.630 align:start position:0%
+for bottom. If you don't have a number
+pad,<00:01:06.799><c> you</c><00:01:06.960><c> can</c><00:01:07.040><c> hold</c><00:01:07.280><c> Alt</c><00:01:07.680><c> on</c><00:01:07.840><c> your</c><00:01:08.000><c> keyboard</c>
+
+00:01:08.630 --> 00:01:08.640 align:start position:0%
+pad, you can hold Alt on your keyboard
+ 
+
+00:01:08.640 --> 00:01:10.710 align:start position:0%
+pad, you can hold Alt on your keyboard
+and<00:01:08.960><c> click</c><00:01:09.200><c> in</c><00:01:09.439><c> your</c><00:01:09.600><c> middle</c><00:01:09.840><c> mouse</c><00:01:10.159><c> wheel</c><00:01:10.400><c> and</c>
+
+00:01:10.710 --> 00:01:10.720 align:start position:0%
+and click in your middle mouse wheel and
+ 
+
+00:01:10.720 --> 00:01:13.590 align:start position:0%
+and click in your middle mouse wheel and
+drag<00:01:11.360><c> in</c><00:01:11.600><c> the</c><00:01:11.840><c> direction</c><00:01:12.320><c> you</c><00:01:12.640><c> want</c><00:01:12.799><c> it</c><00:01:12.960><c> to</c><00:01:13.119><c> be.</c>
+
+00:01:13.590 --> 00:01:13.600 align:start position:0%
+drag in the direction you want it to be.
+ 
+
+00:01:13.600 --> 00:01:15.510 align:start position:0%
+drag in the direction you want it to be.
+This<00:01:13.840><c> way,</c><00:01:14.159><c> you</c><00:01:14.400><c> can</c><00:01:14.479><c> snap</c><00:01:14.720><c> to</c><00:01:14.880><c> these</c><00:01:15.119><c> views</c>
+
+00:01:15.510 --> 00:01:15.520 align:start position:0%
+This way, you can snap to these views
+ 
+
+00:01:15.520 --> 00:01:18.149 align:start position:0%
+This way, you can snap to these views
+without<00:01:16.000><c> having</c><00:01:16.240><c> a</c><00:01:16.479><c> number</c><00:01:16.880><c> pad.</c><00:01:17.439><c> That's</c>
+
+00:01:18.149 --> 00:01:18.159 align:start position:0%
+without having a number pad. That's
+ 
+
+00:01:18.159 --> 00:01:20.149 align:start position:0%
+without having a number pad. That's
+pretty<00:01:18.560><c> much</c><00:01:18.799><c> all</c><00:01:19.119><c> you</c><00:01:19.360><c> need</c><00:01:19.520><c> to</c><00:01:19.680><c> know</c><00:01:19.840><c> about</c>
+
+00:01:20.149 --> 00:01:20.159 align:start position:0%
+pretty much all you need to know about
+ 
+
+00:01:20.159 --> 00:01:22.070 align:start position:0%
+pretty much all you need to know about
+moving.<00:01:20.799><c> It's</c><00:01:21.040><c> a</c><00:01:21.200><c> little</c><00:01:21.360><c> weird</c><00:01:21.600><c> at</c><00:01:21.840><c> first,</c>
+
+00:01:22.070 --> 00:01:22.080 align:start position:0%
+moving. It's a little weird at first,
+ 
+
+00:01:22.080 --> 00:01:23.670 align:start position:0%
+moving. It's a little weird at first,
+but<00:01:22.240><c> once</c><00:01:22.479><c> you</c><00:01:22.640><c> get</c><00:01:22.720><c> used</c><00:01:22.880><c> to</c><00:01:22.960><c> it,</c><00:01:23.280><c> it's</c><00:01:23.520><c> not</c>
+
+00:01:23.670 --> 00:01:23.680 align:start position:0%
+but once you get used to it, it's not
+ 
+
+00:01:23.680 --> 00:01:26.390 align:start position:0%
+but once you get used to it, it's not
+bad<00:01:24.000><c> at</c><00:01:24.240><c> all.</c><00:01:24.640><c> The</c><00:01:24.960><c> next</c><00:01:25.280><c> most</c><00:01:25.840><c> important</c>
+
+00:01:26.390 --> 00:01:26.400 align:start position:0%
+bad at all. The next most important
+ 
+
+00:01:26.400 --> 00:01:28.789 align:start position:0%
+bad at all. The next most important
+thing<00:01:26.560><c> in</c><00:01:26.880><c> Blender,</c><00:01:27.840><c> especially</c><00:01:28.320><c> when</c><00:01:28.560><c> you're</c>
+
+00:01:28.789 --> 00:01:28.799 align:start position:0%
+thing in Blender, especially when you're
+ 
+
+00:01:28.799 --> 00:01:31.670 align:start position:0%
+thing in Blender, especially when you're
+starting<00:01:29.040><c> out,</c><00:01:29.439><c> is</c><00:01:29.920><c> modes.</c><00:01:30.720><c> If</c><00:01:30.960><c> we</c><00:01:31.119><c> click</c><00:01:31.439><c> on</c>
+
+00:01:31.670 --> 00:01:31.680 align:start position:0%
+starting out, is modes. If we click on
+ 
+
+00:01:31.680 --> 00:01:34.069 align:start position:0%
+starting out, is modes. If we click on
+our<00:01:31.920><c> object,</c><00:01:32.560><c> this</c><00:01:32.799><c> cube,</c><00:01:33.280><c> and</c><00:01:33.439><c> then</c><00:01:33.600><c> go</c><00:01:33.759><c> up</c><00:01:33.920><c> to</c>
+
+00:01:34.069 --> 00:01:34.079 align:start position:0%
+our object, this cube, and then go up to
+ 
+
+00:01:34.079 --> 00:01:36.710 align:start position:0%
+our object, this cube, and then go up to
+our<00:01:34.320><c> modes</c><00:01:34.720><c> here,</c><00:01:35.280><c> you</c><00:01:35.520><c> could</c><00:01:35.680><c> see</c><00:01:36.159><c> all</c><00:01:36.560><c> of</c>
+
+00:01:36.710 --> 00:01:36.720 align:start position:0%
+our modes here, you could see all of
+ 
+
+00:01:36.720 --> 00:01:38.630 align:start position:0%
+our modes here, you could see all of
+these<00:01:37.119><c> modes.</c><00:01:37.680><c> And</c><00:01:37.920><c> don't</c><00:01:38.240><c> get</c><00:01:38.400><c> too</c>
+
+00:01:38.630 --> 00:01:38.640 align:start position:0%
+these modes. And don't get too
+ 
+
+00:01:38.640 --> 00:01:40.390 align:start position:0%
+these modes. And don't get too
+overwhelmed<00:01:39.439><c> because</c><00:01:39.759><c> when</c><00:01:40.000><c> you're</c><00:01:40.159><c> first</c>
+
+00:01:40.390 --> 00:01:40.400 align:start position:0%
+overwhelmed because when you're first
+ 
+
+00:01:40.400 --> 00:01:43.270 align:start position:0%
+overwhelmed because when you're first
+starting<00:01:40.720><c> out,</c><00:01:41.280><c> sculpt,</c><00:01:42.079><c> vertex,</c><00:01:42.799><c> weight,</c>
+
+00:01:43.270 --> 00:01:43.280 align:start position:0%
+starting out, sculpt, vertex, weight,
+ 
+
+00:01:43.280 --> 00:01:47.190 align:start position:0%
+starting out, sculpt, vertex, weight,
+and<00:01:43.600><c> texture</c><00:01:44.479><c> matter</c><00:01:45.200><c> about</c><00:01:45.520><c> 0%.</c><00:01:46.799><c> All</c><00:01:47.040><c> you</c>
+
+00:01:47.190 --> 00:01:47.200 align:start position:0%
+and texture matter about 0%. All you
+ 
+
+00:01:47.200 --> 00:01:50.389 align:start position:0%
+and texture matter about 0%. All you
+need<00:01:47.280><c> to</c><00:01:47.439><c> know</c><00:01:47.680><c> is</c><00:01:48.000><c> object</c><00:01:48.880><c> and</c><00:01:49.280><c> edit</c><00:01:49.600><c> mode.</c><00:01:50.159><c> In</c>
+
+00:01:50.389 --> 00:01:50.399 align:start position:0%
+need to know is object and edit mode. In
+ 
+
+00:01:50.399 --> 00:01:53.510 align:start position:0%
+need to know is object and edit mode. In
+object<00:01:50.880><c> mode,</c><00:01:51.439><c> you're</c><00:01:51.759><c> moving</c><00:01:52.079><c> your</c><00:01:52.399><c> mesh</c><00:01:53.119><c> as</c>
+
+00:01:53.510 --> 00:01:53.520 align:start position:0%
+object mode, you're moving your mesh as
+ 
+
+00:01:53.520 --> 00:01:55.990 align:start position:0%
+object mode, you're moving your mesh as
+a<00:01:53.759><c> whole.</c><00:01:54.399><c> So,</c><00:01:54.640><c> let's</c><00:01:54.880><c> say</c><00:01:54.960><c> we</c><00:01:55.280><c> press</c><00:01:55.520><c> G</c><00:01:55.840><c> to</c>
+
+00:01:55.990 --> 00:01:56.000 align:start position:0%
+a whole. So, let's say we press G to
+ 
+
+00:01:56.000 --> 00:01:58.469 align:start position:0%
+a whole. So, let's say we press G to
+grab<00:01:56.240><c> it.</c><00:01:56.880><c> It's</c><00:01:57.200><c> moving</c><00:01:57.520><c> the</c><00:01:57.840><c> whole</c><00:01:58.079><c> thing.</c>
+
+00:01:58.469 --> 00:01:58.479 align:start position:0%
+grab it. It's moving the whole thing.
+ 
+
+00:01:58.479 --> 00:02:01.030 align:start position:0%
+grab it. It's moving the whole thing.
+You<00:01:58.719><c> cannot</c><00:01:59.040><c> independently</c><00:01:59.920><c> edit</c><00:02:00.560><c> any</c><00:02:00.880><c> part</c>
+
+00:02:01.030 --> 00:02:01.040 align:start position:0%
+You cannot independently edit any part
+ 
+
+00:02:01.040 --> 00:02:03.910 align:start position:0%
+You cannot independently edit any part
+of<00:02:01.200><c> it.</c><00:02:01.600><c> However,</c><00:02:02.079><c> in</c><00:02:02.399><c> edit</c><00:02:02.799><c> mode,</c><00:02:03.439><c> we</c><00:02:03.680><c> can</c>
+
+00:02:03.910 --> 00:02:03.920 align:start position:0%
+of it. However, in edit mode, we can
+ 
+
+00:02:03.920 --> 00:02:06.469 align:start position:0%
+of it. However, in edit mode, we can
+choose<00:02:04.719><c> where</c><00:02:04.960><c> we</c><00:02:05.200><c> want</c><00:02:05.360><c> to</c><00:02:05.600><c> drag</c><00:02:06.159><c> maybe</c>
+
+00:02:06.469 --> 00:02:06.479 align:start position:0%
+choose where we want to drag maybe
+ 
+
+00:02:06.479 --> 00:02:09.510 align:start position:0%
+choose where we want to drag maybe
+vertices<00:02:07.119><c> or</c><00:02:07.439><c> lines</c><00:02:07.920><c> or</c><00:02:08.239><c> faces.</c><00:02:09.119><c> And</c><00:02:09.280><c> that</c>
+
+00:02:09.510 --> 00:02:09.520 align:start position:0%
+vertices or lines or faces. And that
+ 
+
+00:02:09.520 --> 00:02:12.710 align:start position:0%
+vertices or lines or faces. And that
+brings<00:02:09.759><c> us</c><00:02:10.479><c> in</c><00:02:10.879><c> to</c><00:02:11.200><c> the</c><00:02:11.520><c> three</c><00:02:12.000><c> things</c><00:02:12.319><c> we</c><00:02:12.560><c> can</c>
+
+00:02:12.710 --> 00:02:12.720 align:start position:0%
+brings us in to the three things we can
+ 
+
+00:02:12.720 --> 00:02:16.150 align:start position:0%
+brings us in to the three things we can
+edit.<00:02:13.280><c> Vertices,</c><00:02:14.319><c> lines,</c><00:02:14.879><c> and</c><00:02:15.200><c> faces.</c><00:02:15.840><c> If</c><00:02:16.000><c> you</c>
+
+00:02:16.150 --> 00:02:16.160 align:start position:0%
+edit. Vertices, lines, and faces. If you
+ 
+
+00:02:16.160 --> 00:02:18.710 align:start position:0%
+edit. Vertices, lines, and faces. If you
+click<00:02:16.319><c> on</c><00:02:16.480><c> the</c><00:02:16.720><c> verticy</c><00:02:17.280><c> selection</c><00:02:17.760><c> mode,</c><00:02:18.480><c> you</c>
+
+00:02:18.710 --> 00:02:18.720 align:start position:0%
+click on the verticy selection mode, you
+ 
+
+00:02:18.720 --> 00:02:22.229 align:start position:0%
+click on the verticy selection mode, you
+can<00:02:18.800><c> click</c><00:02:19.120><c> any</c><00:02:19.440><c> vert</c><00:02:20.160><c> on</c><00:02:20.640><c> your</c><00:02:21.040><c> mesh</c><00:02:21.680><c> and</c><00:02:22.000><c> do</c>
+
+00:02:22.229 --> 00:02:22.239 align:start position:0%
+can click any vert on your mesh and do
+ 
+
+00:02:22.239 --> 00:02:24.390 align:start position:0%
+can click any vert on your mesh and do
+anything<00:02:22.560><c> you</c><00:02:22.800><c> want.</c><00:02:23.200><c> If</c><00:02:23.360><c> we</c><00:02:23.599><c> press</c><00:02:23.840><c> G</c><00:02:24.160><c> to</c>
+
+00:02:24.390 --> 00:02:24.400 align:start position:0%
+anything you want. If we press G to
+ 
+
+00:02:24.400 --> 00:02:26.790 align:start position:0%
+anything you want. If we press G to
+grab,<00:02:24.800><c> we</c><00:02:25.040><c> can</c><00:02:25.120><c> move</c><00:02:25.360><c> this</c><00:02:25.680><c> in.</c><00:02:26.239><c> We</c><00:02:26.480><c> could</c><00:02:26.640><c> kind</c>
+
+00:02:26.790 --> 00:02:26.800 align:start position:0%
+grab, we can move this in. We could kind
+ 
+
+00:02:26.800 --> 00:02:28.869 align:start position:0%
+grab, we can move this in. We could kind
+of<00:02:26.879><c> go</c><00:02:27.120><c> around</c><00:02:27.440><c> and</c><00:02:27.760><c> just</c><00:02:28.160><c> play</c><00:02:28.400><c> with</c><00:02:28.560><c> these</c>
+
+00:02:28.869 --> 00:02:28.879 align:start position:0%
+of go around and just play with these
+ 
+
+00:02:28.879 --> 00:02:30.949 align:start position:0%
+of go around and just play with these
+however<00:02:29.200><c> we</c><00:02:29.440><c> want.</c><00:02:29.840><c> If</c><00:02:30.080><c> we</c><00:02:30.239><c> want</c><00:02:30.319><c> to</c><00:02:30.480><c> grab</c><00:02:30.720><c> a</c>
+
+00:02:30.949 --> 00:02:30.959 align:start position:0%
+however we want. If we want to grab a
+ 
+
+00:02:30.959 --> 00:02:32.949 align:start position:0%
+however we want. If we want to grab a
+line<00:02:31.280><c> to</c><00:02:31.520><c> move</c><00:02:31.760><c> it</c><00:02:31.920><c> all</c><00:02:32.080><c> at</c><00:02:32.239><c> once,</c><00:02:32.640><c> you</c><00:02:32.800><c> could</c>
+
+00:02:32.949 --> 00:02:32.959 align:start position:0%
+line to move it all at once, you could
+ 
+
+00:02:32.959 --> 00:02:35.110 align:start position:0%
+line to move it all at once, you could
+do<00:02:33.120><c> that.</c><00:02:33.440><c> And</c><00:02:33.599><c> if</c><00:02:33.760><c> we</c><00:02:33.920><c> want</c><00:02:34.000><c> to</c><00:02:34.080><c> grab</c><00:02:34.239><c> a</c><00:02:34.480><c> face,</c>
+
+00:02:35.110 --> 00:02:35.120 align:start position:0%
+do that. And if we want to grab a face,
+ 
+
+00:02:35.120 --> 00:02:37.190 align:start position:0%
+do that. And if we want to grab a face,
+we<00:02:35.360><c> could</c><00:02:35.519><c> do</c><00:02:35.680><c> that,</c><00:02:35.920><c> too.</c><00:02:36.319><c> Let's</c><00:02:36.640><c> press</c><00:02:36.959><c> Ctrl</c>
+
+00:02:37.190 --> 00:02:37.200 align:start position:0%
+we could do that, too. Let's press Ctrl
+ 
+
+00:02:37.200 --> 00:02:40.309 align:start position:0%
+we could do that, too. Let's press Ctrl
++<00:02:37.440><c> Z</c><00:02:37.680><c> to</c><00:02:37.920><c> get</c><00:02:38.080><c> back</c><00:02:38.239><c> to</c><00:02:38.560><c> a</c><00:02:38.879><c> basic</c><00:02:39.360><c> cube</c><00:02:40.000><c> and</c>
+
+00:02:40.309 --> 00:02:40.319 align:start position:0%
++ Z to get back to a basic cube and
+ 
+
+00:02:40.319 --> 00:02:42.630 align:start position:0%
++ Z to get back to a basic cube and
+start<00:02:40.640><c> talking</c><00:02:40.959><c> about</c><00:02:41.280><c> how</c><00:02:41.599><c> to</c><00:02:41.840><c> turn</c><00:02:42.160><c> this</c>
+
+00:02:42.630 --> 00:02:42.640 align:start position:0%
+start talking about how to turn this
+ 
+
+00:02:42.640 --> 00:02:44.949 align:start position:0%
+start talking about how to turn this
+into<00:02:43.120><c> something.</c><00:02:43.840><c> We're</c><00:02:44.080><c> going</c><00:02:44.239><c> to</c><00:02:44.400><c> stay</c><00:02:44.720><c> in</c>
+
+00:02:44.949 --> 00:02:44.959 align:start position:0%
+into something. We're going to stay in
+ 
+
+00:02:44.959 --> 00:02:47.830 align:start position:0%
+into something. We're going to stay in
+edit<00:02:45.360><c> mode.</c><00:02:45.920><c> I</c><00:02:46.160><c> am</c><00:02:46.400><c> usually</c><00:02:46.879><c> on</c><00:02:47.200><c> the</c><00:02:47.440><c> face</c>
+
+00:02:47.830 --> 00:02:47.840 align:start position:0%
+edit mode. I am usually on the face
+ 
+
+00:02:47.840 --> 00:02:50.869 align:start position:0%
+edit mode. I am usually on the face
+selection<00:02:48.720><c> and</c><00:02:48.959><c> I</c><00:02:49.280><c> press</c><00:02:49.599><c> A</c><00:02:50.160><c> to</c><00:02:50.400><c> select</c>
+
+00:02:50.869 --> 00:02:50.879 align:start position:0%
+selection and I press A to select
+ 
+
+00:02:50.879 --> 00:02:54.710 align:start position:0%
+selection and I press A to select
+everything<00:02:51.599><c> within</c><00:02:52.400><c> this</c><00:02:53.120><c> mesh.</c><00:02:53.840><c> Now,</c><00:02:54.400><c> in</c>
+
+00:02:54.710 --> 00:02:54.720 align:start position:0%
+everything within this mesh. Now, in
+ 
+
+00:02:54.720 --> 00:02:57.430 align:start position:0%
+everything within this mesh. Now, in
+Blender,<00:02:55.360><c> the</c><00:02:55.840><c> most</c><00:02:56.160><c> daunting</c><00:02:56.800><c> thing</c><00:02:57.120><c> when</c>
+
+00:02:57.430 --> 00:02:57.440 align:start position:0%
+Blender, the most daunting thing when
+ 
+
+00:02:57.440 --> 00:03:00.309 align:start position:0%
+Blender, the most daunting thing when
+you're<00:02:57.680><c> starting</c><00:02:58.319><c> is</c><00:02:58.640><c> keybinds.</c><00:02:59.760><c> Everything</c>
+
+00:03:00.309 --> 00:03:00.319 align:start position:0%
+you're starting is keybinds. Everything
+ 
+
+00:03:00.319 --> 00:03:03.670 align:start position:0%
+you're starting is keybinds. Everything
+in<00:03:00.640><c> this</c><00:03:00.879><c> program</c><00:03:01.760><c> has</c><00:03:02.000><c> a</c><00:03:02.159><c> keybind</c><00:03:02.879><c> and</c><00:03:03.200><c> can</c><00:03:03.519><c> be</c>
+
+00:03:03.670 --> 00:03:03.680 align:start position:0%
+in this program has a keybind and can be
+ 
+
+00:03:03.680 --> 00:03:06.390 align:start position:0%
+in this program has a keybind and can be
+used<00:03:04.319><c> by</c><00:03:04.640><c> pressing</c><00:03:05.040><c> some</c><00:03:05.360><c> sort</c><00:03:05.519><c> of</c><00:03:05.760><c> hotkey</c>
+
+00:03:06.390 --> 00:03:06.400 align:start position:0%
+used by pressing some sort of hotkey
+ 
+
+00:03:06.400 --> 00:03:09.509 align:start position:0%
+used by pressing some sort of hotkey
+combination<00:03:07.519><c> on</c><00:03:07.760><c> your</c><00:03:08.000><c> keyboard.</c><00:03:08.959><c> It's</c><00:03:09.200><c> super</c>
+
+00:03:09.509 --> 00:03:09.519 align:start position:0%
+combination on your keyboard. It's super
+ 
+
+00:03:09.519 --> 00:03:11.670 align:start position:0%
+combination on your keyboard. It's super
+daunting.<00:03:10.319><c> We</c><00:03:10.480><c> are</c><00:03:10.640><c> going</c><00:03:10.720><c> to</c><00:03:10.800><c> get</c><00:03:10.959><c> into</c><00:03:11.280><c> like</c>
+
+00:03:11.670 --> 00:03:11.680 align:start position:0%
+daunting. We are going to get into like
+ 
+
+00:03:11.680 --> 00:03:14.710 align:start position:0%
+daunting. We are going to get into like
+four<00:03:12.000><c> or</c><00:03:12.319><c> five</c><00:03:12.560><c> of</c><00:03:12.800><c> them</c><00:03:13.440><c> that</c><00:03:13.680><c> will</c><00:03:13.920><c> turn</c><00:03:14.319><c> this</c>
+
+00:03:14.710 --> 00:03:14.720 align:start position:0%
+four or five of them that will turn this
+ 
+
+00:03:14.720 --> 00:03:18.229 align:start position:0%
+four or five of them that will turn this
+cube<00:03:15.519><c> into</c><00:03:16.080><c> your</c><00:03:16.480><c> first</c><00:03:17.120><c> model.</c><00:03:17.760><c> So,</c><00:03:17.920><c> we've</c>
+
+00:03:18.229 --> 00:03:18.239 align:start position:0%
+cube into your first model. So, we've
+ 
+
+00:03:18.239 --> 00:03:20.710 align:start position:0%
+cube into your first model. So, we've
+already<00:03:18.480><c> said</c><00:03:18.800><c> A</c><00:03:19.120><c> to</c><00:03:19.360><c> select</c><00:03:19.760><c> everything.</c><00:03:20.480><c> Up</c>
+
+00:03:20.710 --> 00:03:20.720 align:start position:0%
+already said A to select everything. Up
+ 
+
+00:03:20.720 --> 00:03:23.030 align:start position:0%
+already said A to select everything. Up
+next<00:03:20.959><c> is</c><00:03:21.360><c> S.</c><00:03:21.840><c> If</c><00:03:22.080><c> you</c><00:03:22.239><c> press</c><00:03:22.480><c> S</c><00:03:22.720><c> on</c><00:03:22.879><c> your</c>
+
+00:03:23.030 --> 00:03:23.040 align:start position:0%
+next is S. If you press S on your
+ 
+
+00:03:23.040 --> 00:03:25.270 align:start position:0%
+next is S. If you press S on your
+keyboard,<00:03:23.599><c> you</c><00:03:23.840><c> can</c><00:03:24.080><c> scale</c><00:03:24.480><c> your</c><00:03:24.800><c> object</c>
+
+00:03:25.270 --> 00:03:25.280 align:start position:0%
+keyboard, you can scale your object
+ 
+
+00:03:25.280 --> 00:03:27.670 align:start position:0%
+keyboard, you can scale your object
+down.<00:03:26.000><c> Now,</c><00:03:26.239><c> this</c><00:03:26.560><c> doesn't</c><00:03:26.879><c> matter</c><00:03:27.280><c> if</c><00:03:27.519><c> you're</c>
+
+00:03:27.670 --> 00:03:27.680 align:start position:0%
+down. Now, this doesn't matter if you're
+ 
+
+00:03:27.680 --> 00:03:29.750 align:start position:0%
+down. Now, this doesn't matter if you're
+selecting<00:03:28.159><c> everything</c><00:03:28.560><c> or</c><00:03:28.959><c> selecting</c><00:03:29.440><c> one</c>
+
+00:03:29.750 --> 00:03:29.760 align:start position:0%
+selecting everything or selecting one
+ 
+
+00:03:29.760 --> 00:03:32.789 align:start position:0%
+selecting everything or selecting one
+face,<00:03:30.319><c> it</c><00:03:30.640><c> scales</c><00:03:31.120><c> whatever</c><00:03:31.760><c> your</c><00:03:32.080><c> mouse</c><00:03:32.480><c> is</c>
+
+00:03:32.789 --> 00:03:32.799 align:start position:0%
+face, it scales whatever your mouse is
+ 
+
+00:03:32.799 --> 00:03:35.830 align:start position:0%
+face, it scales whatever your mouse is
+selecting.<00:03:33.519><c> Up</c><00:03:33.760><c> next,</c><00:03:34.159><c> we</c><00:03:34.400><c> have</c><00:03:34.720><c> E</c><00:03:35.440><c> to</c>
+
+00:03:35.830 --> 00:03:35.840 align:start position:0%
+selecting. Up next, we have E to
+ 
+
+00:03:35.840 --> 00:03:38.550 align:start position:0%
+selecting. Up next, we have E to
+extrude.<00:03:36.720><c> Now</c><00:03:37.040><c> guys,</c><00:03:37.519><c> this</c><00:03:37.760><c> one</c><00:03:38.319><c> uh</c><00:03:38.400><c> I</c>
+
+00:03:38.550 --> 00:03:38.560 align:start position:0%
+extrude. Now guys, this one uh I
+ 
+
+00:03:38.560 --> 00:03:39.750 align:start position:0%
+extrude. Now guys, this one uh I
+wouldn't<00:03:38.799><c> recommend</c><00:03:39.200><c> grabbing</c><00:03:39.519><c> everything</c>
+
+00:03:39.750 --> 00:03:39.760 align:start position:0%
+wouldn't recommend grabbing everything
+ 
+
+00:03:39.760 --> 00:03:42.470 align:start position:0%
+wouldn't recommend grabbing everything
+at<00:03:39.920><c> once.</c><00:03:40.319><c> This</c><00:03:40.560><c> works</c><00:03:40.799><c> the</c><00:03:40.959><c> best</c><00:03:41.360><c> on</c><00:03:41.680><c> faces</c><00:03:42.239><c> in</c>
+
+00:03:42.470 --> 00:03:42.480 align:start position:0%
+at once. This works the best on faces in
+ 
+
+00:03:42.480 --> 00:03:44.309 align:start position:0%
+at once. This works the best on faces in
+most<00:03:42.799><c> cases.</c><00:03:43.599><c> Of</c><00:03:43.760><c> course,</c><00:03:43.920><c> you</c><00:03:44.080><c> could</c><00:03:44.159><c> do</c><00:03:44.239><c> it</c>
+
+00:03:44.309 --> 00:03:44.319 align:start position:0%
+most cases. Of course, you could do it
+ 
+
+00:03:44.319 --> 00:03:46.789 align:start position:0%
+most cases. Of course, you could do it
+with<00:03:44.480><c> lines</c><00:03:44.799><c> and</c><00:03:45.040><c> vertices</c><00:03:45.599><c> as</c><00:03:45.920><c> well,</c><00:03:46.400><c> but</c><00:03:46.640><c> if</c>
+
+00:03:46.789 --> 00:03:46.799 align:start position:0%
+with lines and vertices as well, but if
+ 
+
+00:03:46.799 --> 00:03:49.990 align:start position:0%
+with lines and vertices as well, but if
+you<00:03:46.959><c> press</c><00:03:47.200><c> E,</c><00:03:47.840><c> you</c><00:03:48.000><c> can</c><00:03:48.239><c> extrude</c><00:03:49.200><c> that</c><00:03:49.599><c> face</c>
+
+00:03:49.990 --> 00:03:50.000 align:start position:0%
+you press E, you can extrude that face
+ 
+
+00:03:50.000 --> 00:03:52.229 align:start position:0%
+you press E, you can extrude that face
+or<00:03:50.319><c> whatever</c><00:03:50.720><c> you're</c><00:03:51.040><c> selecting</c><00:03:51.519><c> beforehand.</c>
+
+00:03:52.229 --> 00:03:52.239 align:start position:0%
+or whatever you're selecting beforehand.
+ 
+
+00:03:52.239 --> 00:03:54.070 align:start position:0%
+or whatever you're selecting beforehand.
+Let's<00:03:52.480><c> do</c><00:03:52.560><c> that</c><00:03:52.799><c> one</c><00:03:52.959><c> more</c><00:03:53.200><c> time.</c><00:03:53.599><c> Now,</c><00:03:53.840><c> we</c>
+
+00:03:54.070 --> 00:03:54.080 align:start position:0%
+Let's do that one more time. Now, we
+ 
+
+00:03:54.080 --> 00:03:56.630 align:start position:0%
+Let's do that one more time. Now, we
+could<00:03:54.239><c> press</c><00:03:54.560><c> R</c><00:03:55.040><c> to</c><00:03:55.280><c> rotate.</c><00:03:56.000><c> And</c><00:03:56.159><c> this</c><00:03:56.400><c> goes</c>
+
+00:03:56.630 --> 00:03:56.640 align:start position:0%
+could press R to rotate. And this goes
+ 
+
+00:03:56.640 --> 00:03:59.190 align:start position:0%
+could press R to rotate. And this goes
+based<00:03:56.959><c> off</c><00:03:57.280><c> whatever</c><00:03:57.920><c> direction</c><00:03:58.799><c> you're</c>
+
+00:03:59.190 --> 00:03:59.200 align:start position:0%
+based off whatever direction you're
+ 
+
+00:03:59.200 --> 00:04:01.910 align:start position:0%
+based off whatever direction you're
+looking<00:03:59.599><c> at</c><00:03:59.840><c> your</c><00:04:00.080><c> mesh.</c><00:04:00.799><c> However,</c><00:04:01.360><c> you</c><00:04:01.680><c> can</c>
+
+00:04:01.910 --> 00:04:01.920 align:start position:0%
+looking at your mesh. However, you can
+ 
+
+00:04:01.920 --> 00:04:04.550 align:start position:0%
+looking at your mesh. However, you can
+also<00:04:02.239><c> lock</c><00:04:02.560><c> this</c><00:04:02.799><c> down.</c><00:04:03.120><c> So</c><00:04:03.360><c> if</c><00:04:03.599><c> you</c><00:04:03.760><c> press</c><00:04:04.080><c> R</c>
+
+00:04:04.550 --> 00:04:04.560 align:start position:0%
+also lock this down. So if you press R
+ 
+
+00:04:04.560 --> 00:04:07.270 align:start position:0%
+also lock this down. So if you press R
+and<00:04:04.799><c> then</c><00:04:05.120><c> Y,</c><00:04:05.599><c> for</c><00:04:05.680><c> example,</c><00:04:06.560><c> you</c><00:04:06.720><c> are</c><00:04:06.959><c> only</c>
+
+00:04:07.270 --> 00:04:07.280 align:start position:0%
+and then Y, for example, you are only
+ 
+
+00:04:07.280 --> 00:04:09.990 align:start position:0%
+and then Y, for example, you are only
+rotating<00:04:07.840><c> on</c><00:04:08.080><c> the</c><00:04:08.239><c> Y</c><00:04:08.560><c> ais.</c><00:04:09.360><c> You</c><00:04:09.519><c> could</c><00:04:09.680><c> do</c><00:04:09.840><c> this</c>
+
+00:04:09.990 --> 00:04:10.000 align:start position:0%
+rotating on the Y ais. You could do this
+ 
+
+00:04:10.000 --> 00:04:12.149 align:start position:0%
+rotating on the Y ais. You could do this
+with<00:04:10.319><c> all</c><00:04:10.560><c> of</c><00:04:10.720><c> the</c><00:04:10.879><c> keybinds,</c><00:04:11.519><c> by</c><00:04:11.680><c> the</c><00:04:11.760><c> way.</c><00:04:12.000><c> So</c>
+
+00:04:12.149 --> 00:04:12.159 align:start position:0%
+with all of the keybinds, by the way. So
+ 
+
+00:04:12.159 --> 00:04:14.470 align:start position:0%
+with all of the keybinds, by the way. So
+we<00:04:12.400><c> could</c><00:04:12.480><c> do</c><00:04:12.720><c> scale</c><00:04:13.200><c> in</c><00:04:13.439><c> the</c><00:04:13.599><c> X-axis,</c><00:04:14.319><c> for</c>
+
+00:04:14.470 --> 00:04:14.480 align:start position:0%
+we could do scale in the X-axis, for
+ 
+
+00:04:14.480 --> 00:04:15.990 align:start position:0%
+we could do scale in the X-axis, for
+example.<00:04:15.120><c> Now</c><00:04:15.280><c> that</c><00:04:15.439><c> we</c><00:04:15.599><c> know</c><00:04:15.680><c> how</c><00:04:15.840><c> to</c>
+
+00:04:15.990 --> 00:04:16.000 align:start position:0%
+example. Now that we know how to
+ 
+
+00:04:16.000 --> 00:04:18.870 align:start position:0%
+example. Now that we know how to
+extrude,<00:04:17.040><c> scale,</c><00:04:17.680><c> and</c><00:04:18.079><c> select</c><00:04:18.479><c> different</c>
+
+00:04:18.870 --> 00:04:18.880 align:start position:0%
+extrude, scale, and select different
+ 
+
+00:04:18.880 --> 00:04:21.990 align:start position:0%
+extrude, scale, and select different
+faces<00:04:19.759><c> and</c><00:04:20.079><c> rotate.</c><00:04:20.880><c> Let's</c><00:04:21.120><c> get</c><00:04:21.280><c> into</c><00:04:21.600><c> some</c><00:04:21.919><c> of</c>
+
+00:04:21.990 --> 00:04:22.000 align:start position:0%
+faces and rotate. Let's get into some of
+ 
+
+00:04:22.000 --> 00:04:23.909 align:start position:0%
+faces and rotate. Let's get into some of
+the<00:04:22.240><c> cooler</c><00:04:22.639><c> ones</c><00:04:22.960><c> that</c><00:04:23.280><c> are</c><00:04:23.440><c> really</c><00:04:23.680><c> going</c><00:04:23.840><c> to</c>
+
+00:04:23.909 --> 00:04:23.919 align:start position:0%
+the cooler ones that are really going to
+ 
+
+00:04:23.919 --> 00:04:26.550 align:start position:0%
+the cooler ones that are really going to
+start<00:04:24.160><c> helping</c><00:04:24.479><c> you</c><00:04:24.639><c> out.</c><00:04:25.120><c> CtrlR</c><00:04:25.919><c> adds</c><00:04:26.240><c> loop</c>
+
+00:04:26.550 --> 00:04:26.560 align:start position:0%
+start helping you out. CtrlR adds loop
+ 
+
+00:04:26.560 --> 00:04:29.270 align:start position:0%
+start helping you out. CtrlR adds loop
+cuts,<00:04:27.199><c> aka</c><00:04:27.759><c> more</c><00:04:28.000><c> geometry</c><00:04:28.639><c> for</c><00:04:28.800><c> you</c><00:04:28.960><c> to</c><00:04:29.120><c> work</c>
+
+00:04:29.270 --> 00:04:29.280 align:start position:0%
+cuts, aka more geometry for you to work
+ 
+
+00:04:29.280 --> 00:04:31.990 align:start position:0%
+cuts, aka more geometry for you to work
+with.<00:04:29.680><c> Let's</c><00:04:29.919><c> say</c><00:04:30.080><c> we</c><00:04:30.320><c> wanted</c><00:04:30.560><c> to</c><00:04:30.800><c> move</c><00:04:31.199><c> this</c>
+
+00:04:31.990 --> 00:04:32.000 align:start position:0%
+with. Let's say we wanted to move this
+ 
+
+00:04:32.000 --> 00:04:33.990 align:start position:0%
+with. Let's say we wanted to move this
+in<00:04:32.160><c> the</c><00:04:32.400><c> middle.</c><00:04:33.120><c> Let's</c><00:04:33.280><c> just</c><00:04:33.440><c> say</c><00:04:33.600><c> we</c><00:04:33.759><c> want</c><00:04:33.840><c> to</c>
+
+00:04:33.990 --> 00:04:34.000 align:start position:0%
+in the middle. Let's just say we want to
+ 
+
+00:04:34.000 --> 00:04:36.150 align:start position:0%
+in the middle. Let's just say we want to
+make<00:04:34.080><c> it</c><00:04:34.240><c> bigger.</c><00:04:34.639><c> We</c><00:04:34.880><c> could</c><00:04:35.040><c> press</c><00:04:35.280><c> Ctrl+R</c>
+
+00:04:36.150 --> 00:04:36.160 align:start position:0%
+make it bigger. We could press Ctrl+R
+ 
+
+00:04:36.160 --> 00:04:37.990 align:start position:0%
+make it bigger. We could press Ctrl+R
+and<00:04:36.320><c> we</c><00:04:36.560><c> could</c><00:04:36.720><c> scroll</c><00:04:37.040><c> on</c><00:04:37.199><c> our</c><00:04:37.360><c> mouse</c><00:04:37.680><c> if</c><00:04:37.840><c> we</c>
+
+00:04:37.990 --> 00:04:38.000 align:start position:0%
+and we could scroll on our mouse if we
+ 
+
+00:04:38.000 --> 00:04:39.510 align:start position:0%
+and we could scroll on our mouse if we
+want<00:04:38.240><c> more.</c><00:04:38.639><c> But</c><00:04:38.720><c> for</c><00:04:38.960><c> now,</c><00:04:39.120><c> we're</c><00:04:39.360><c> just</c><00:04:39.440><c> going</c>
+
+00:04:39.510 --> 00:04:39.520 align:start position:0%
+want more. But for now, we're just going
+ 
+
+00:04:39.520 --> 00:04:41.270 align:start position:0%
+want more. But for now, we're just going
+to<00:04:39.680><c> click</c><00:04:39.919><c> to</c><00:04:40.080><c> add</c><00:04:40.240><c> that</c><00:04:40.479><c> one.</c><00:04:40.800><c> Then</c><00:04:40.960><c> we</c><00:04:41.199><c> could</c>
+
+00:04:41.270 --> 00:04:41.280 align:start position:0%
+to click to add that one. Then we could
+ 
+
+00:04:41.280 --> 00:04:43.830 align:start position:0%
+to click to add that one. Then we could
+press<00:04:41.520><c> scale</c><00:04:42.080><c> and</c><00:04:42.320><c> we</c><00:04:42.560><c> have</c><00:04:42.720><c> a</c><00:04:43.040><c> bigger</c><00:04:43.440><c> section</c>
+
+00:04:43.830 --> 00:04:43.840 align:start position:0%
+press scale and we have a bigger section
+ 
+
+00:04:43.840 --> 00:04:45.990 align:start position:0%
+press scale and we have a bigger section
+in<00:04:44.080><c> the</c><00:04:44.240><c> middle.</c><00:04:44.560><c> The</c><00:04:44.800><c> last</c><00:04:45.040><c> hotkey</c><00:04:45.600><c> I</c><00:04:45.840><c> really</c>
+
+00:04:45.990 --> 00:04:46.000 align:start position:0%
+in the middle. The last hotkey I really
+ 
+
+00:04:46.000 --> 00:04:48.070 align:start position:0%
+in the middle. The last hotkey I really
+want<00:04:46.160><c> to</c><00:04:46.320><c> talk</c><00:04:46.479><c> about</c><00:04:46.639><c> today</c><00:04:46.880><c> is</c><00:04:47.199><c> bevel</c>
+
+00:04:48.070 --> 00:04:48.080 align:start position:0%
+want to talk about today is bevel
+ 
+
+00:04:48.080 --> 00:04:51.030 align:start position:0%
+want to talk about today is bevel
+because<00:04:48.400><c> it</c><00:04:48.720><c> is</c><00:04:48.880><c> a</c><00:04:49.199><c> gamecher.</c><00:04:50.400><c> As</c><00:04:50.560><c> you</c><00:04:50.720><c> can</c><00:04:50.800><c> see</c>
+
+00:04:51.030 --> 00:04:51.040 align:start position:0%
+because it is a gamecher. As you can see
+ 
+
+00:04:51.040 --> 00:04:53.670 align:start position:0%
+because it is a gamecher. As you can see
+here,<00:04:51.440><c> we</c><00:04:51.680><c> have</c><00:04:51.840><c> some</c><00:04:52.080><c> pretty</c><00:04:52.400><c> hard</c><00:04:52.800><c> edges.</c>
+
+00:04:53.670 --> 00:04:53.680 align:start position:0%
+here, we have some pretty hard edges.
+ 
+
+00:04:53.680 --> 00:04:56.390 align:start position:0%
+here, we have some pretty hard edges.
+And<00:04:53.919><c> sure,</c><00:04:54.479><c> we</c><00:04:54.720><c> could</c><00:04:55.120><c> rightclick</c><00:04:55.919><c> and</c><00:04:56.160><c> do</c>
+
+00:04:56.390 --> 00:04:56.400 align:start position:0%
+And sure, we could rightclick and do
+ 
+
+00:04:56.400 --> 00:04:58.790 align:start position:0%
+And sure, we could rightclick and do
+shade<00:04:56.960><c> smooth,</c><00:04:57.440><c> which</c><00:04:57.919><c> uh</c><00:04:58.000><c> isn't</c><00:04:58.400><c> really</c><00:04:58.560><c> that</c>
+
+00:04:58.790 --> 00:04:58.800 align:start position:0%
+shade smooth, which uh isn't really that
+ 
+
+00:04:58.800 --> 00:05:00.550 align:start position:0%
+shade smooth, which uh isn't really that
+great.<00:04:59.120><c> We</c><00:04:59.360><c> could</c><00:04:59.520><c> rightclick,</c><00:05:00.000><c> do</c><00:05:00.240><c> shade</c>
+
+00:05:00.550 --> 00:05:00.560 align:start position:0%
+great. We could rightclick, do shade
+ 
+
+00:05:00.560 --> 00:05:02.469 align:start position:0%
+great. We could rightclick, do shade
+smooth,<00:05:00.880><c> auto</c><00:05:01.199><c> smooth,</c><00:05:01.759><c> which</c><00:05:02.000><c> is</c><00:05:02.160><c> a</c><00:05:02.400><c> little</c>
+
+00:05:02.469 --> 00:05:02.479 align:start position:0%
+smooth, auto smooth, which is a little
+ 
+
+00:05:02.479 --> 00:05:04.629 align:start position:0%
+smooth, auto smooth, which is a little
+bit<00:05:02.720><c> better,</c><00:05:03.120><c> softening</c><00:05:03.680><c> up</c><00:05:03.840><c> these</c><00:05:04.160><c> edges,</c>
+
+00:05:04.629 --> 00:05:04.639 align:start position:0%
+bit better, softening up these edges,
+ 
+
+00:05:04.639 --> 00:05:07.270 align:start position:0%
+bit better, softening up these edges,
+but<00:05:04.880><c> we</c><00:05:05.120><c> still</c><00:05:05.280><c> have</c><00:05:05.520><c> some</c><00:05:05.759><c> very</c><00:05:06.160><c> hard</c><00:05:06.479><c> edges.</c>
+
+00:05:07.270 --> 00:05:07.280 align:start position:0%
+but we still have some very hard edges.
+ 
+
+00:05:07.280 --> 00:05:10.310 align:start position:0%
+but we still have some very hard edges.
+If<00:05:07.440><c> we</c><00:05:07.680><c> hold</c><00:05:08.080><c> alt</c><00:05:08.560><c> and</c><00:05:08.960><c> select</c><00:05:09.360><c> this</c><00:05:09.680><c> line,</c><00:05:10.080><c> now</c>
+
+00:05:10.310 --> 00:05:10.320 align:start position:0%
+If we hold alt and select this line, now
+ 
+
+00:05:10.320 --> 00:05:11.670 align:start position:0%
+If we hold alt and select this line, now
+we<00:05:10.479><c> have</c><00:05:10.560><c> all</c><00:05:10.720><c> of</c><00:05:10.800><c> these.</c><00:05:11.120><c> We</c><00:05:11.280><c> could</c><00:05:11.360><c> do</c>
+
+00:05:11.670 --> 00:05:11.680 align:start position:0%
+we have all of these. We could do
+ 
+
+00:05:11.680 --> 00:05:15.189 align:start position:0%
+we have all of these. We could do
+controll<00:05:12.160><c> andb</c><00:05:13.039><c> to</c><00:05:13.360><c> bevel</c><00:05:13.840><c> this.</c><00:05:14.639><c> We</c><00:05:14.880><c> can</c><00:05:15.039><c> also</c>
+
+00:05:15.189 --> 00:05:15.199 align:start position:0%
+controll andb to bevel this. We can also
+ 
+
+00:05:15.199 --> 00:05:17.110 align:start position:0%
+controll andb to bevel this. We can also
+use<00:05:15.360><c> our</c><00:05:15.600><c> scroll</c><00:05:16.000><c> wheel</c><00:05:16.240><c> to</c><00:05:16.479><c> add</c><00:05:16.720><c> more</c>
+
+00:05:17.110 --> 00:05:17.120 align:start position:0%
+use our scroll wheel to add more
+ 
+
+00:05:17.120 --> 00:05:20.230 align:start position:0%
+use our scroll wheel to add more
+segments,<00:05:18.080><c> making</c><00:05:18.320><c> that</c><00:05:18.639><c> a</c><00:05:18.960><c> very</c><00:05:19.600><c> smooth</c>
+
+00:05:20.230 --> 00:05:20.240 align:start position:0%
+segments, making that a very smooth
+ 
+
+00:05:20.240 --> 00:05:23.110 align:start position:0%
+segments, making that a very smooth
+side.<00:05:20.800><c> Now,</c><00:05:21.039><c> be</c><00:05:21.280><c> careful</c><00:05:21.600><c> with</c><00:05:21.919><c> bevels,</c><00:05:22.880><c> uh,</c>
+
+00:05:23.110 --> 00:05:23.120 align:start position:0%
+side. Now, be careful with bevels, uh,
+ 
+
+00:05:23.120 --> 00:05:25.590 align:start position:0%
+side. Now, be careful with bevels, uh,
+especially<00:05:23.759><c> what</c><00:05:24.000><c> we</c><00:05:24.160><c> call</c><00:05:24.400><c> micro</c><00:05:24.880><c> bevels,</c>
+
+00:05:25.590 --> 00:05:25.600 align:start position:0%
+especially what we call micro bevels,
+ 
+
+00:05:25.600 --> 00:05:28.550 align:start position:0%
+especially what we call micro bevels,
+like<00:05:25.919><c> this,</c><00:05:26.320><c> for</c><00:05:26.479><c> example.</c><00:05:27.360><c> We</c><00:05:27.600><c> could</c><00:05:28.080><c> bevel</c>
+
+00:05:28.550 --> 00:05:28.560 align:start position:0%
+like this, for example. We could bevel
+ 
+
+00:05:28.560 --> 00:05:30.710 align:start position:0%
+like this, for example. We could bevel
+this<00:05:28.800><c> whole</c><00:05:29.039><c> spot</c><00:05:29.360><c> to</c><00:05:29.600><c> make</c><00:05:29.680><c> it</c><00:05:29.919><c> softer,</c><00:05:30.560><c> but</c>
+
+00:05:30.710 --> 00:05:30.720 align:start position:0%
+this whole spot to make it softer, but
+ 
+
+00:05:30.720 --> 00:05:32.550 align:start position:0%
+this whole spot to make it softer, but
+instead<00:05:30.960><c> of</c><00:05:31.120><c> adding</c><00:05:31.440><c> geometry,</c><00:05:32.240><c> we</c><00:05:32.479><c> could</c>
+
+00:05:32.550 --> 00:05:32.560 align:start position:0%
+instead of adding geometry, we could
+ 
+
+00:05:32.560 --> 00:05:34.550 align:start position:0%
+instead of adding geometry, we could
+just<00:05:32.720><c> shade</c><00:05:33.120><c> smooth,</c><00:05:33.520><c> auto</c><00:05:33.840><c> smooth,</c><00:05:34.240><c> and</c><00:05:34.400><c> we</c>
+
+00:05:34.550 --> 00:05:34.560 align:start position:0%
+just shade smooth, auto smooth, and we
+ 
+
+00:05:34.560 --> 00:05:36.390 align:start position:0%
+just shade smooth, auto smooth, and we
+have<00:05:34.639><c> no</c><00:05:34.800><c> more</c><00:05:34.960><c> geometry,</c><00:05:35.759><c> but</c><00:05:36.000><c> it</c><00:05:36.240><c> still</c>
+
+00:05:36.390 --> 00:05:36.400 align:start position:0%
+have no more geometry, but it still
+ 
+
+00:05:36.400 --> 00:05:37.909 align:start position:0%
+have no more geometry, but it still
+looks<00:05:36.639><c> how</c><00:05:36.800><c> we</c><00:05:36.960><c> wanted</c><00:05:37.120><c> it</c><00:05:37.280><c> to</c><00:05:37.440><c> look.</c><00:05:37.840><c> All</c>
+
+00:05:37.909 --> 00:05:37.919 align:start position:0%
+looks how we wanted it to look. All
+ 
+
+00:05:37.919 --> 00:05:39.909 align:start position:0%
+looks how we wanted it to look. All
+right,<00:05:38.240><c> so</c><00:05:38.400><c> we've</c><00:05:38.639><c> been</c><00:05:38.800><c> over</c><00:05:39.120><c> the</c><00:05:39.360><c> basics,</c>
+
+00:05:39.909 --> 00:05:39.919 align:start position:0%
+right, so we've been over the basics,
+ 
+
+00:05:39.919 --> 00:05:41.830 align:start position:0%
+right, so we've been over the basics,
+edit<00:05:40.240><c> mode</c><00:05:40.479><c> and</c><00:05:40.720><c> object</c><00:05:41.120><c> mode.</c><00:05:41.440><c> We</c><00:05:41.600><c> know</c><00:05:41.759><c> how</c>
+
+00:05:41.830 --> 00:05:41.840 align:start position:0%
+edit mode and object mode. We know how
+ 
+
+00:05:41.840 --> 00:05:44.310 align:start position:0%
+edit mode and object mode. We know how
+to<00:05:42.000><c> move</c><00:05:42.240><c> in</c><00:05:42.560><c> Blender,</c><00:05:43.280><c> and</c><00:05:43.520><c> we</c><00:05:43.680><c> know</c><00:05:43.840><c> how</c><00:05:44.080><c> to</c>
+
+00:05:44.310 --> 00:05:44.320 align:start position:0%
+to move in Blender, and we know how to
+ 
+
+00:05:44.320 --> 00:05:46.390 align:start position:0%
+to move in Blender, and we know how to
+make<00:05:44.560><c> the</c><00:05:44.880><c> cube</c><00:05:45.360><c> look</c><00:05:45.759><c> a</c><00:05:46.080><c> little</c><00:05:46.160><c> bit</c>
+
+00:05:46.390 --> 00:05:46.400 align:start position:0%
+make the cube look a little bit
+ 
+
+00:05:46.400 --> 00:05:48.629 align:start position:0%
+make the cube look a little bit
+different<00:05:46.880><c> than</c><00:05:47.120><c> it</c><00:05:47.280><c> looked</c><00:05:47.520><c> when</c><00:05:47.759><c> we</c><00:05:47.919><c> joined</c>
+
+00:05:48.629 --> 00:05:48.639 align:start position:0%
+different than it looked when we joined
+ 
+
+00:05:48.639 --> 00:05:51.670 align:start position:0%
+different than it looked when we joined
+into<00:05:49.039><c> Blender.</c><00:05:49.840><c> Now,</c><00:05:50.320><c> how</c><00:05:50.479><c> do</c><00:05:50.639><c> we</c><00:05:50.800><c> do</c><00:05:51.120><c> more?</c>
+
+00:05:51.670 --> 00:05:51.680 align:start position:0%
+into Blender. Now, how do we do more?
+ 
+
+00:05:51.680 --> 00:05:54.469 align:start position:0%
+into Blender. Now, how do we do more?
+What's<00:05:52.000><c> next,</c><00:05:52.400><c> guys?</c><00:05:52.880><c> Adding</c><00:05:53.199><c> in</c><00:05:53.520><c> objects</c><00:05:54.240><c> to</c>
+
+00:05:54.469 --> 00:05:54.479 align:start position:0%
+What's next, guys? Adding in objects to
+ 
+
+00:05:54.479 --> 00:05:57.189 align:start position:0%
+What's next, guys? Adding in objects to
+your<00:05:54.720><c> scene</c><00:05:55.360><c> is</c><00:05:55.840><c> uh</c><00:05:56.000><c> by</c><00:05:56.240><c> far</c><00:05:56.479><c> the</c><00:05:56.720><c> next</c><00:05:56.880><c> step.</c>
+
+00:05:57.189 --> 00:05:57.199 align:start position:0%
+your scene is uh by far the next step.
+ 
+
+00:05:57.199 --> 00:05:58.710 align:start position:0%
+your scene is uh by far the next step.
+We<00:05:57.440><c> should</c><00:05:57.680><c> turn</c><00:05:57.840><c> this</c><00:05:58.080><c> into</c><00:05:58.320><c> something.</c><00:05:58.560><c> I'm</c>
+
+00:05:58.710 --> 00:05:58.720 align:start position:0%
+We should turn this into something. I'm
+ 
+
+00:05:58.720 --> 00:06:00.950 align:start position:0%
+We should turn this into something. I'm
+going<00:05:58.880><c> to</c><00:05:58.960><c> press</c><00:05:59.120><c> S</c><00:05:59.360><c> to</c><00:05:59.600><c> scale</c><00:05:59.840><c> it</c><00:06:00.000><c> down.</c><00:06:00.560><c> Uh</c>
+
+00:06:00.950 --> 00:06:00.960 align:start position:0%
+going to press S to scale it down. Uh
+ 
+
+00:06:00.960 --> 00:06:02.950 align:start position:0%
+going to press S to scale it down. Uh
+and<00:06:01.280><c> let's</c><00:06:01.600><c> see.</c><00:06:01.919><c> Let's</c><00:06:02.080><c> just</c><00:06:02.240><c> scale</c><00:06:02.639><c> this</c>
+
+00:06:02.950 --> 00:06:02.960 align:start position:0%
+and let's see. Let's just scale this
+ 
+
+00:06:02.960 --> 00:06:04.870 align:start position:0%
+and let's see. Let's just scale this
+back<00:06:03.280><c> down.</c><00:06:04.000><c> I</c><00:06:04.160><c> should</c><00:06:04.319><c> just</c><00:06:04.479><c> get</c><00:06:04.639><c> rid</c><00:06:04.800><c> of</c>
+
+00:06:04.870 --> 00:06:04.880 align:start position:0%
+back down. I should just get rid of
+ 
+
+00:06:04.880 --> 00:06:07.270 align:start position:0%
+back down. I should just get rid of
+this.<00:06:05.280><c> We</c><00:06:05.520><c> don't</c><00:06:05.600><c> need</c><00:06:05.680><c> it.</c><00:06:05.919><c> Delete.</c><00:06:06.880><c> If</c><00:06:07.120><c> you</c>
+
+00:06:07.270 --> 00:06:07.280 align:start position:0%
+this. We don't need it. Delete. If you
+ 
+
+00:06:07.280 --> 00:06:09.830 align:start position:0%
+this. We don't need it. Delete. If you
+press<00:06:07.600><c> shift</c><00:06:07.919><c> and</c><00:06:08.240><c> A</c><00:06:08.479><c> on</c><00:06:08.720><c> your</c><00:06:08.960><c> keyboard,</c><00:06:09.600><c> it</c>
+
+00:06:09.830 --> 00:06:09.840 align:start position:0%
+press shift and A on your keyboard, it
+ 
+
+00:06:09.840 --> 00:06:12.629 align:start position:0%
+press shift and A on your keyboard, it
+brings<00:06:10.000><c> up</c><00:06:10.240><c> this</c><00:06:10.560><c> add</c><00:06:10.800><c> menu.</c><00:06:11.520><c> 90%</c><00:06:12.080><c> of</c><00:06:12.240><c> the</c><00:06:12.400><c> time</c>
+
+00:06:12.629 --> 00:06:12.639 align:start position:0%
+brings up this add menu. 90% of the time
+ 
+
+00:06:12.639 --> 00:06:15.189 align:start position:0%
+brings up this add menu. 90% of the time
+I<00:06:12.880><c> am</c><00:06:13.039><c> in</c><00:06:13.199><c> this</c><00:06:13.600><c> mesh</c><00:06:14.160><c> subsection.</c><00:06:14.800><c> We</c><00:06:15.039><c> have</c>
+
+00:06:15.189 --> 00:06:15.199 align:start position:0%
+I am in this mesh subsection. We have
+ 
+
+00:06:15.199 --> 00:06:17.510 align:start position:0%
+I am in this mesh subsection. We have
+plane,<00:06:15.680><c> cube,</c><00:06:16.240><c> circle,</c><00:06:16.720><c> UV</c><00:06:17.039><c> sphere,</c>
+
+00:06:17.510 --> 00:06:17.520 align:start position:0%
+plane, cube, circle, UV sphere,
+ 
+
+00:06:17.520 --> 00:06:19.909 align:start position:0%
+plane, cube, circle, UV sphere,
+icosphere,<00:06:18.080><c> cylinder,</c><00:06:18.560><c> cone,</c><00:06:18.960><c> taurus,</c><00:06:19.680><c> a</c>
+
+00:06:19.909 --> 00:06:19.919 align:start position:0%
+icosphere, cylinder, cone, taurus, a
+ 
+
+00:06:19.919 --> 00:06:21.990 align:start position:0%
+icosphere, cylinder, cone, taurus, a
+bunch<00:06:20.160><c> of</c><00:06:20.319><c> stuff.</c><00:06:20.720><c> Okay,</c><00:06:21.199><c> let's</c><00:06:21.440><c> say</c><00:06:21.680><c> we</c><00:06:21.919><c> want</c>
+
+00:06:21.990 --> 00:06:22.000 align:start position:0%
+bunch of stuff. Okay, let's say we want
+ 
+
+00:06:22.000 --> 00:06:23.749 align:start position:0%
+bunch of stuff. Okay, let's say we want
+to<00:06:22.160><c> make</c><00:06:22.319><c> a</c><00:06:22.560><c> tree.</c><00:06:23.039><c> We're</c><00:06:23.199><c> going</c><00:06:23.280><c> to</c><00:06:23.440><c> bring</c><00:06:23.600><c> in</c>
+
+00:06:23.749 --> 00:06:23.759 align:start position:0%
+to make a tree. We're going to bring in
+ 
+
+00:06:23.759 --> 00:06:26.070 align:start position:0%
+to make a tree. We're going to bring in
+this<00:06:24.000><c> cylinder</c><00:06:24.479><c> right</c><00:06:24.720><c> here.</c><00:06:25.280><c> And</c><00:06:25.520><c> if</c><00:06:25.680><c> this</c><00:06:25.919><c> is</c>
+
+00:06:26.070 --> 00:06:26.080 align:start position:0%
+this cylinder right here. And if this is
+ 
+
+00:06:26.080 --> 00:06:28.070 align:start position:0%
+this cylinder right here. And if this is
+too<00:06:26.319><c> many</c><00:06:26.479><c> vertices</c><00:06:27.039><c> for</c><00:06:27.280><c> our</c><00:06:27.520><c> game,</c><00:06:27.919><c> maybe</c>
+
+00:06:28.070 --> 00:06:28.080 align:start position:0%
+too many vertices for our game, maybe
+ 
+
+00:06:28.080 --> 00:06:30.309 align:start position:0%
+too many vertices for our game, maybe
+we're<00:06:28.319><c> working</c><00:06:28.560><c> on</c><00:06:28.800><c> mobile</c><00:06:29.199><c> or</c><00:06:29.440><c> we</c><00:06:29.680><c> want</c><00:06:29.919><c> super</c>
+
+00:06:30.309 --> 00:06:30.319 align:start position:0%
+we're working on mobile or we want super
+ 
+
+00:06:30.319 --> 00:06:32.870 align:start position:0%
+we're working on mobile or we want super
+low<00:06:30.639><c> poly.</c><00:06:31.199><c> We</c><00:06:31.440><c> could</c><00:06:31.600><c> click</c><00:06:31.840><c> this</c><00:06:32.240><c> arrow</c><00:06:32.639><c> down</c>
+
+00:06:32.870 --> 00:06:32.880 align:start position:0%
+low poly. We could click this arrow down
+ 
+
+00:06:32.880 --> 00:06:34.629 align:start position:0%
+low poly. We could click this arrow down
+here<00:06:33.120><c> and</c><00:06:33.360><c> just</c><00:06:33.600><c> scale</c><00:06:33.840><c> that</c><00:06:34.080><c> down.</c><00:06:34.319><c> I'm</c><00:06:34.560><c> going</c>
+
+00:06:34.629 --> 00:06:34.639 align:start position:0%
+here and just scale that down. I'm going
+ 
+
+00:06:34.639 --> 00:06:36.309 align:start position:0%
+here and just scale that down. I'm going
+to<00:06:34.720><c> put</c><00:06:34.800><c> it</c><00:06:34.960><c> at</c><00:06:35.199><c> eight.</c><00:06:35.680><c> Now</c><00:06:35.840><c> that</c><00:06:36.000><c> we</c><00:06:36.160><c> have</c>
+
+00:06:36.309 --> 00:06:36.319 align:start position:0%
+to put it at eight. Now that we have
+ 
+
+00:06:36.319 --> 00:06:38.390 align:start position:0%
+to put it at eight. Now that we have
+this,<00:06:36.800><c> we</c><00:06:36.960><c> could</c><00:06:37.120><c> take</c><00:06:37.360><c> what</c><00:06:37.520><c> we</c><00:06:37.680><c> have</c><00:06:38.000><c> already</c>
+
+00:06:38.390 --> 00:06:38.400 align:start position:0%
+this, we could take what we have already
+ 
+
+00:06:38.400 --> 00:06:40.790 align:start position:0%
+this, we could take what we have already
+learned.<00:06:39.039><c> So,</c><00:06:39.199><c> let's</c><00:06:39.440><c> go</c><00:06:39.600><c> into</c><00:06:40.080><c> our</c><00:06:40.479><c> edit</c>
+
+00:06:40.790 --> 00:06:40.800 align:start position:0%
+learned. So, let's go into our edit
+ 
+
+00:06:40.800 --> 00:06:43.189 align:start position:0%
+learned. So, let's go into our edit
+mode.<00:06:41.440><c> The</c><00:06:41.600><c> shortcut</c><00:06:42.080><c> for</c><00:06:42.240><c> this</c><00:06:42.479><c> would</c><00:06:42.639><c> be</c><00:06:42.800><c> tab</c>
+
+00:06:43.189 --> 00:06:43.199 align:start position:0%
+mode. The shortcut for this would be tab
+ 
+
+00:06:43.199 --> 00:06:44.950 align:start position:0%
+mode. The shortcut for this would be tab
+on<00:06:43.440><c> your</c><00:06:43.600><c> keyboard</c><00:06:44.000><c> to</c><00:06:44.240><c> switch</c><00:06:44.479><c> back</c><00:06:44.720><c> and</c>
+
+00:06:44.950 --> 00:06:44.960 align:start position:0%
+on your keyboard to switch back and
+ 
+
+00:06:44.960 --> 00:06:47.270 align:start position:0%
+on your keyboard to switch back and
+forth.<00:06:45.280><c> But</c><00:06:45.440><c> in</c><00:06:45.680><c> edit</c><00:06:46.080><c> mode,</c><00:06:46.560><c> let's</c><00:06:46.960><c> scale</c>
+
+00:06:47.270 --> 00:06:47.280 align:start position:0%
+forth. But in edit mode, let's scale
+ 
+
+00:06:47.280 --> 00:06:50.790 align:start position:0%
+forth. But in edit mode, let's scale
+this<00:06:47.520><c> down.</c><00:06:48.240><c> Grab</c><00:06:48.560><c> our</c><00:06:48.880><c> top</c><00:06:49.280><c> face</c><00:06:50.000><c> and</c><00:06:50.319><c> drag</c><00:06:50.639><c> it</c>
+
+00:06:50.790 --> 00:06:50.800 align:start position:0%
+this down. Grab our top face and drag it
+ 
+
+00:06:50.800 --> 00:06:53.029 align:start position:0%
+this down. Grab our top face and drag it
+up.<00:06:51.039><c> Press</c><00:06:51.280><c> S</c><00:06:51.520><c> to</c><00:06:51.759><c> scale.</c><00:06:52.319><c> Now</c><00:06:52.560><c> we</c><00:06:52.720><c> have</c><00:06:52.880><c> sort</c>
+
+00:06:53.029 --> 00:06:53.039 align:start position:0%
+up. Press S to scale. Now we have sort
+ 
+
+00:06:53.039 --> 00:06:55.270 align:start position:0%
+up. Press S to scale. Now we have sort
+of<00:06:53.120><c> a</c><00:06:53.360><c> tree</c><00:06:53.600><c> trunk.</c><00:06:54.080><c> We</c><00:06:54.319><c> could</c><00:06:54.479><c> rightclick</c><00:06:55.039><c> and</c>
+
+00:06:55.270 --> 00:06:55.280 align:start position:0%
+of a tree trunk. We could rightclick and
+ 
+
+00:06:55.280 --> 00:06:57.749 align:start position:0%
+of a tree trunk. We could rightclick and
+shade<00:06:55.680><c> smooth</c><00:06:56.000><c> auto</c><00:06:56.319><c> smooth.</c><00:06:56.720><c> We</c><00:06:56.960><c> can</c><00:06:57.120><c> also</c><00:06:57.440><c> up</c>
+
+00:06:57.749 --> 00:06:57.759 align:start position:0%
+shade smooth auto smooth. We can also up
+ 
+
+00:06:57.759 --> 00:06:59.909 align:start position:0%
+shade smooth auto smooth. We can also up
+this<00:06:58.000><c> angle</c><00:06:58.479><c> so</c><00:06:58.720><c> it</c><00:06:58.960><c> actually</c><00:06:59.280><c> looks</c><00:06:59.520><c> a</c><00:06:59.759><c> bit</c>
+
+00:06:59.909 --> 00:06:59.919 align:start position:0%
+this angle so it actually looks a bit
+ 
+
+00:06:59.919 --> 00:07:02.550 align:start position:0%
+this angle so it actually looks a bit
+smoother.<00:07:00.479><c> Let's</c><00:07:00.720><c> do</c><00:07:00.960><c> shift</c><00:07:01.360><c> A</c><00:07:01.680><c> again.</c><00:07:02.400><c> And</c>
+
+00:07:02.550 --> 00:07:02.560 align:start position:0%
+smoother. Let's do shift A again. And
+ 
+
+00:07:02.560 --> 00:07:05.350 align:start position:0%
+smoother. Let's do shift A again. And
+let's<00:07:02.880><c> add</c><00:07:03.039><c> in</c><00:07:03.680><c> let's</c><00:07:04.000><c> do</c><00:07:04.160><c> a</c><00:07:04.400><c> circle</c><00:07:04.880><c> cuz</c><00:07:05.120><c> why</c>
+
+00:07:05.350 --> 00:07:05.360 align:start position:0%
+let's add in let's do a circle cuz why
+ 
+
+00:07:05.360 --> 00:07:08.230 align:start position:0%
+let's add in let's do a circle cuz why
+not?<00:07:05.759><c> And</c><00:07:05.919><c> we'll</c><00:07:06.160><c> make</c><00:07:06.319><c> this</c><00:07:06.800><c> 12</c><00:07:07.120><c> sides.</c><00:07:07.919><c> Now</c>
+
+00:07:08.230 --> 00:07:08.240 align:start position:0%
+not? And we'll make this 12 sides. Now
+ 
+
+00:07:08.240 --> 00:07:11.110 align:start position:0%
+not? And we'll make this 12 sides. Now
+let's<00:07:08.560><c> tab</c><00:07:08.960><c> into</c><00:07:09.440><c> edit</c><00:07:09.759><c> mode</c><00:07:10.240><c> once</c><00:07:10.560><c> again.</c><00:07:10.960><c> Go</c>
+
+00:07:11.110 --> 00:07:11.120 align:start position:0%
+let's tab into edit mode once again. Go
+ 
+
+00:07:11.120 --> 00:07:13.110 align:start position:0%
+let's tab into edit mode once again. Go
+to<00:07:11.280><c> our</c><00:07:11.599><c> line</c><00:07:11.919><c> select</c><00:07:12.240><c> mode</c><00:07:12.400><c> since</c><00:07:12.639><c> we're</c><00:07:12.800><c> on</c><00:07:12.960><c> a</c>
+
+00:07:13.110 --> 00:07:13.120 align:start position:0%
+to our line select mode since we're on a
+ 
+
+00:07:13.120 --> 00:07:15.270 align:start position:0%
+to our line select mode since we're on a
+circle.<00:07:13.599><c> And</c><00:07:13.759><c> let's</c><00:07:14.000><c> press</c><00:07:14.240><c> E</c><00:07:14.479><c> to</c><00:07:14.639><c> extrude</c><00:07:15.039><c> it.</c>
+
+00:07:15.270 --> 00:07:15.280 align:start position:0%
+circle. And let's press E to extrude it.
+ 
+
+00:07:15.280 --> 00:07:16.870 align:start position:0%
+circle. And let's press E to extrude it.
+As<00:07:15.440><c> you</c><00:07:15.599><c> can</c><00:07:15.680><c> see,</c><00:07:15.840><c> it's</c><00:07:16.160><c> going</c><00:07:16.319><c> all</c><00:07:16.479><c> over</c><00:07:16.639><c> the</c>
+
+00:07:16.870 --> 00:07:16.880 align:start position:0%
+As you can see, it's going all over the
+ 
+
+00:07:16.880 --> 00:07:19.510 align:start position:0%
+As you can see, it's going all over the
+place.<00:07:17.120><c> So,</c><00:07:17.360><c> we're</c><00:07:17.520><c> going</c><00:07:17.680><c> to</c><00:07:17.919><c> press</c><00:07:18.240><c> E</c><00:07:18.720><c> and</c><00:07:19.199><c> Z</c>
+
+00:07:19.510 --> 00:07:19.520 align:start position:0%
+place. So, we're going to press E and Z
+ 
+
+00:07:19.520 --> 00:07:21.510 align:start position:0%
+place. So, we're going to press E and Z
+to<00:07:19.759><c> lock</c><00:07:19.919><c> it</c><00:07:20.080><c> to</c><00:07:20.240><c> that</c><00:07:20.479><c> axis.</c><00:07:21.120><c> And</c><00:07:21.199><c> then</c><00:07:21.360><c> we</c>
+
+00:07:21.510 --> 00:07:21.520 align:start position:0%
+to lock it to that axis. And then we
+ 
+
+00:07:21.520 --> 00:07:23.350 align:start position:0%
+to lock it to that axis. And then we
+could<00:07:21.680><c> press</c><00:07:21.840><c> S</c><00:07:22.080><c> to</c><00:07:22.319><c> scale.</c><00:07:22.800><c> We</c><00:07:23.039><c> could</c><00:07:23.120><c> press</c>
+
+00:07:23.350 --> 00:07:23.360 align:start position:0%
+could press S to scale. We could press
+ 
+
+00:07:23.360 --> 00:07:26.150 align:start position:0%
+could press S to scale. We could press
+CtrlR<00:07:24.000><c> to</c><00:07:24.240><c> loop</c><00:07:24.479><c> cut.</c><00:07:24.880><c> S</c><00:07:25.120><c> to</c><00:07:25.280><c> scale.</c><00:07:25.840><c> If</c><00:07:26.000><c> we</c>
+
+00:07:26.150 --> 00:07:26.160 align:start position:0%
+CtrlR to loop cut. S to scale. If we
+ 
+
+00:07:26.160 --> 00:07:28.790 align:start position:0%
+CtrlR to loop cut. S to scale. If we
+press<00:07:26.400><c> L,</c><00:07:26.720><c> we</c><00:07:26.960><c> can</c><00:07:27.039><c> grab</c><00:07:27.360><c> this</c><00:07:27.599><c> whole</c><00:07:27.840><c> piece.</c><00:07:28.560><c> S</c>
+
+00:07:28.790 --> 00:07:28.800 align:start position:0%
+press L, we can grab this whole piece. S
+ 
+
+00:07:28.800 --> 00:07:31.990 align:start position:0%
+press L, we can grab this whole piece. S
+to<00:07:29.039><c> scale.</c><00:07:29.520><c> R</c><00:07:29.759><c> to</c><00:07:30.000><c> rotate.</c><00:07:30.800><c> Shift</c><00:07:31.360><c> D</c><00:07:31.759><c> to</c>
+
+00:07:31.990 --> 00:07:32.000 align:start position:0%
+to scale. R to rotate. Shift D to
+ 
+
+00:07:32.000 --> 00:07:34.790 align:start position:0%
+to scale. R to rotate. Shift D to
+duplicate.<00:07:32.800><c> R</c><00:07:33.120><c> to</c><00:07:33.280><c> rotate.</c><00:07:33.840><c> S</c><00:07:34.080><c> to</c><00:07:34.240><c> scale.</c>
+
+00:07:34.790 --> 00:07:34.800 align:start position:0%
+duplicate. R to rotate. S to scale.
+ 
+
+00:07:34.800 --> 00:07:38.230 align:start position:0%
+duplicate. R to rotate. S to scale.
+Shift<00:07:35.199><c> D.</c><00:07:35.599><c> S</c><00:07:35.840><c> to</c><00:07:36.080><c> scale.</c><00:07:36.560><c> R</c><00:07:36.800><c> to</c><00:07:36.960><c> rotate.</c><00:07:37.840><c> As</c><00:07:38.080><c> you</c>
+
+00:07:38.230 --> 00:07:38.240 align:start position:0%
+Shift D. S to scale. R to rotate. As you
+ 
+
+00:07:38.240 --> 00:07:41.270 align:start position:0%
+Shift D. S to scale. R to rotate. As you
+can<00:07:38.400><c> see,</c><00:07:39.039><c> we</c><00:07:39.280><c> are</c><00:07:39.440><c> quickly</c><00:07:40.080><c> making</c><00:07:40.560><c> a</c><00:07:40.960><c> pine</c>
+
+00:07:41.270 --> 00:07:41.280 align:start position:0%
+can see, we are quickly making a pine
+ 
+
+00:07:41.280 --> 00:07:43.430 align:start position:0%
+can see, we are quickly making a pine
+tree.<00:07:41.680><c> I</c><00:07:41.840><c> could</c><00:07:42.000><c> take</c><00:07:42.240><c> all</c><00:07:42.400><c> of</c><00:07:42.560><c> these</c><00:07:42.880><c> again</c><00:07:43.199><c> if</c>
+
+00:07:43.430 --> 00:07:43.440 align:start position:0%
+tree. I could take all of these again if
+ 
+
+00:07:43.440 --> 00:07:45.990 align:start position:0%
+tree. I could take all of these again if
+I<00:07:43.599><c> wanted</c><00:07:43.759><c> to.</c><00:07:44.080><c> Shift</c><00:07:44.479><c> D</c><00:07:44.880><c> S</c><00:07:45.199><c> to</c><00:07:45.360><c> scale.</c><00:07:45.840><c> Bring</c>
+
+00:07:45.990 --> 00:07:46.000 align:start position:0%
+I wanted to. Shift D S to scale. Bring
+ 
+
+00:07:46.000 --> 00:07:48.230 align:start position:0%
+I wanted to. Shift D S to scale. Bring
+them<00:07:46.240><c> here.</c><00:07:46.720><c> Maybe</c><00:07:46.960><c> we</c><00:07:47.199><c> want</c><00:07:47.360><c> to</c><00:07:47.599><c> rotate</c><00:07:48.000><c> this</c>
+
+00:07:48.230 --> 00:07:48.240 align:start position:0%
+them here. Maybe we want to rotate this
+ 
+
+00:07:48.240 --> 00:07:51.510 align:start position:0%
+them here. Maybe we want to rotate this
+one<00:07:48.560><c> along</c><00:07:48.960><c> the</c><00:07:49.120><c> Z-axis.</c><00:07:49.759><c> So,</c><00:07:50.000><c> R</c><00:07:50.240><c> and</c><00:07:50.560><c> Z.</c><00:07:51.199><c> And</c>
+
+00:07:51.510 --> 00:07:51.520 align:start position:0%
+one along the Z-axis. So, R and Z. And
+ 
+
+00:07:51.520 --> 00:07:53.909 align:start position:0%
+one along the Z-axis. So, R and Z. And
+maybe<00:07:51.840><c> we</c><00:07:52.080><c> want</c><00:07:52.400><c> shade</c><00:07:52.800><c> smooth</c><00:07:53.120><c> auto</c><00:07:53.440><c> smooth.</c>
+
+00:07:53.909 --> 00:07:53.919 align:start position:0%
+maybe we want shade smooth auto smooth.
+ 
+
+00:07:53.919 --> 00:07:56.309 align:start position:0%
+maybe we want shade smooth auto smooth.
+Obviously,<00:07:54.800><c> this</c><00:07:55.039><c> is</c><00:07:55.199><c> not</c><00:07:55.440><c> the</c><00:07:55.680><c> best</c><00:07:56.000><c> tree</c>
+
+00:07:56.309 --> 00:07:56.319 align:start position:0%
+Obviously, this is not the best tree
+ 
+
+00:07:56.319 --> 00:07:58.309 align:start position:0%
+Obviously, this is not the best tree
+ever<00:07:56.639><c> made,</c><00:07:57.120><c> but</c><00:07:57.280><c> it</c><00:07:57.520><c> does</c><00:07:57.680><c> show</c><00:07:57.840><c> you</c><00:07:58.000><c> that</c><00:07:58.160><c> you</c>
+
+00:07:58.309 --> 00:07:58.319 align:start position:0%
+ever made, but it does show you that you
+ 
+
+00:07:58.319 --> 00:08:01.350 align:start position:0%
+ever made, but it does show you that you
+can<00:07:58.479><c> very</c><00:07:58.879><c> easily</c><00:07:59.440><c> take</c><00:07:59.759><c> a</c><00:08:00.319><c> super</c><00:08:00.800><c> small</c><00:08:01.199><c> set</c>
+
+00:08:01.350 --> 00:08:01.360 align:start position:0%
+can very easily take a super small set
+ 
+
+00:08:01.360 --> 00:08:04.070 align:start position:0%
+can very easily take a super small set
+of<00:08:01.599><c> keybinds</c><00:08:02.560><c> and</c><00:08:02.960><c> super</c><00:08:03.360><c> limited</c><00:08:03.759><c> knowledge</c>
+
+00:08:04.070 --> 00:08:04.080 align:start position:0%
+of keybinds and super limited knowledge
+ 
+
+00:08:04.080 --> 00:08:06.550 align:start position:0%
+of keybinds and super limited knowledge
+in<00:08:04.319><c> Blender</c><00:08:04.720><c> and</c><00:08:05.039><c> make</c><00:08:05.280><c> something</c><00:08:06.000><c> for</c><00:08:06.319><c> your</c>
+
+00:08:06.550 --> 00:08:06.560 align:start position:0%
+in Blender and make something for your
+ 
+
+00:08:06.560 --> 00:08:08.790 align:start position:0%
+in Blender and make something for your
+game.<00:08:07.039><c> Hopefully</c><00:08:07.520><c> this</c><00:08:07.840><c> video</c><00:08:08.080><c> made</c><00:08:08.319><c> Blender</c>
+
+00:08:08.790 --> 00:08:08.800 align:start position:0%
+game. Hopefully this video made Blender
+ 
+
+00:08:08.800 --> 00:08:11.589 align:start position:0%
+game. Hopefully this video made Blender
+seem<00:08:09.120><c> a</c><00:08:09.440><c> little</c><00:08:09.520><c> bit</c><00:08:09.759><c> less</c><00:08:10.080><c> daunting.</c><00:08:10.960><c> And</c><00:08:11.360><c> if</c>
+
+00:08:11.589 --> 00:08:11.599 align:start position:0%
+seem a little bit less daunting. And if
+ 
+
+00:08:11.599 --> 00:08:13.510 align:start position:0%
+seem a little bit less daunting. And if
+any<00:08:11.840><c> of</c><00:08:12.000><c> you</c><00:08:12.160><c> guys</c><00:08:12.479><c> used</c><00:08:12.720><c> it</c><00:08:12.879><c> to</c><00:08:13.120><c> make</c><00:08:13.280><c> your</c>
+
+00:08:13.510 --> 00:08:13.520 align:start position:0%
+any of you guys used it to make your
+ 
+
+00:08:13.520 --> 00:08:15.830 align:start position:0%
+any of you guys used it to make your
+first<00:08:13.840><c> model,</c><00:08:14.479><c> join</c><00:08:14.720><c> my</c><00:08:14.960><c> Discord</c><00:08:15.360><c> and</c><00:08:15.599><c> post</c>
+
+00:08:15.830 --> 00:08:15.840 align:start position:0%
+first model, join my Discord and post
+ 
+
+00:08:15.840 --> 00:08:17.749 align:start position:0%
+first model, join my Discord and post
+your<00:08:16.080><c> model</c><00:08:16.400><c> and</c><00:08:16.639><c> creations.</c><00:08:17.199><c> I</c><00:08:17.440><c> would</c><00:08:17.599><c> be</c>
+
+00:08:17.749 --> 00:08:17.759 align:start position:0%
+your model and creations. I would be
+ 
+
+00:08:17.759 --> 00:08:19.749 align:start position:0%
+your model and creations. I would be
+super<00:08:18.160><c> excited</c><00:08:18.560><c> to</c><00:08:18.800><c> see</c><00:08:18.960><c> them.</c><00:08:19.360><c> But</c><00:08:19.520><c> that'll</c>
+
+00:08:19.749 --> 00:08:19.759 align:start position:0%
+super excited to see them. But that'll
+ 
+
+00:08:19.759 --> 00:08:21.589 align:start position:0%
+super excited to see them. But that'll
+wrap<00:08:19.919><c> it</c><00:08:20.080><c> up</c><00:08:20.240><c> for</c><00:08:20.479><c> today.</c><00:08:20.879><c> If</c><00:08:21.039><c> you</c><00:08:21.199><c> did</c><00:08:21.360><c> enjoy</c>
+
+00:08:21.589 --> 00:08:21.599 align:start position:0%
+wrap it up for today. If you did enjoy
+ 
+
+00:08:21.599 --> 00:08:23.110 align:start position:0%
+wrap it up for today. If you did enjoy
+and<00:08:21.759><c> want</c><00:08:21.919><c> to</c><00:08:22.000><c> see</c><00:08:22.160><c> more</c><00:08:22.400><c> content</c><00:08:22.639><c> like</c><00:08:22.800><c> this,</c>
+
+00:08:23.110 --> 00:08:23.120 align:start position:0%
+and want to see more content like this,
+ 
+
+00:08:23.120 --> 00:08:24.390 align:start position:0%
+and want to see more content like this,
+please<00:08:23.280><c> make</c><00:08:23.440><c> sure</c><00:08:23.520><c> to</c><00:08:23.680><c> like,</c><00:08:23.919><c> comment,</c><00:08:24.160><c> and</c>
+
+00:08:24.390 --> 00:08:24.400 align:start position:0%
+please make sure to like, comment, and
+ 
+
+00:08:24.400 --> 00:08:28.319 align:start position:0%
+please make sure to like, comment, and
+subscribe.<00:08:25.039><c> Have</c><00:08:25.199><c> a</c><00:08:25.360><c> great</c><00:08:25.520><c> day.</c><00:08:26.000><c> Later.</c>
+

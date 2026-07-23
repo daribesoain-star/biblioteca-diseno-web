@@ -1,0 +1,12 @@
+FUENTE: https://phlearn.com/tutorial/replace-sign-for-mockups-photoshop/
+FUENTE: https://www.wallpics.com/blogs/news/a-comprehensive-guide-to-using-displacement-maps-in-photoshop-step-by-step
+FUENTE: https://mockey.ai/blog/how-to-make-a-mockup-in-photoshop/
+TEMA: Aplicar el logo a un mockup (señalética/fachada) con perspectiva realista
+
+SMART OBJECTS (lo más simple): agregar el logo a la capa de smart object y automáticamente adopta la perspectiva, iluminación, estilos y sombras correctas. Colocas el arte dentro del smart object y guardas: presentación realista en pocos pasos. La mayoría de las plantillas de mockup de fachada vienen como PSD con capas smart object prearmadas.
+
+DISPLACEMENT MAPS (mayor realismo): un displacement map usa la información tonal en escala de grises para guiar cómo Photoshop dobla y distorsiona el gráfico para que siga la textura y los contornos de otra superficie. Útil para poner el logo sobre tela, simular tatuajes en piel, grafiti en muros texturizados o mockups de producto. Pasos: crear un displacement map en escala de grises que enfatice la forma y la textura de la superficie → insertar la marca sobre el objeto alineando la perspectiva → aplicar el filtro Displace para conformar la marca a la forma del objeto.
+
+WORKFLOW POR PERSPECTIVA: para que lo que agregas al letrero parezca parte de la foto, la perspectiva del texto/logo debe coincidir con la del letrero. Se puede trabajar en un documento aparte en vista plana normal, que se actualiza en tiempo real en la perspectiva correcta del proyecto principal (smart object).
+
+NOTA TÉCNICA (arsenal Dari): en el ecosistema esto lo hace la suite "Diseño Master IA" por homografía / corner-pin (detección de esquinas por visión computacional + color match Reinhard), que es el equivalente programático del smart object + displacement, con QA matemático.

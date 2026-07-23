@@ -1,0 +1,33 @@
+=== INGESTA ARTÍCULOS — inicio Sat Jul 11 20:32:37 -04 2026 ===
+>>> [sb-camera-shots] bajando https://www.studiobinder.com/blog/ultimate-guide-to-camera-shots/ 20:32:37
+ok:deepseek-chat
+>>> [sb-camera-shots] OK
+>>> [sb-shot-size] bajando https://www.studiobinder.com/camera-shots/shot-size/ 20:33:01
+ok:deepseek-chat
+>>> [sb-shot-size] OK
+>>> [sb-composition] bajando https://www.studiobinder.com/camera-shots/composition/ 20:33:11
+ok:deepseek-chat
+>>> [sb-composition] OK
+>>> [sb-film-lighting] bajando https://www.studiobinder.com/blog/film-lighting/ 20:33:19
+ok:deepseek-chat
+>>> [sb-film-lighting] OK
+>>> [sb-camera-movement] bajando https://www.studiobinder.com/blog/different-types-of-camera-movements-in-film/ 20:33:29
+ok:deepseek-chat
+>>> [sb-camera-movement] OK
+>>> [litepanels-lighting] bajando https://www.litepanels.com/en/applications/your-guide-to-film-lighting/ 20:33:40
+>>> [litepanels-lighting] VACÍO/bloqueado (9 palabras)
+>>> [pixflow-color] bajando https://pixflow.net/blog/mastering-digital-color-grading-techniques-tools-and-tips-for-stunning-visuals-in-2025/ 20:33:42
+>>> [pixflow-color] VACÍO/bloqueado (9 palabras)
+>>> [nofilmschool-color] bajando https://nofilmschool.com/color-grading 20:33:42
+ok:deepseek-chat
+>>> [nofilmschool-color] OK
+>>> [copyblogger-copywriting] bajando https://copyblogger.com/classic-copywriting-books/ 20:33:53
+ok:deepseek-chat
+>>> [copyblogger-copywriting] OK
+>>> [contagious-creativity] bajando https://www.contagious.com/en/article/news-and-views/best-advertising-creativity-books 20:34:17
+ok:deepseek-chat
+>>> [contagious-creativity] OK
+>>> [hopkins-scientific-advertising] bajando https://archive.org/stream/scientificadvert0000hopk/scientificadvert0000hopk_djvu.txt 20:34:45
+ok:deepseek-chat
+>>> [hopkins-scientific-advertising] OK
+=== INGESTA ARTÍCULOS FIN Sat Jul 11 20:35:06 -04 2026. Artículos: 9 ===

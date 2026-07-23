@@ -1,0 +1,354 @@
+URL_FUENTE: https://www.shopify.com/blog/tiktok-shop
+What Is TikTok Shop? How TikTok Shopping Works for Sellers (2026) - Shopify Skip to Content
+Why Shopify
+Back Get started fast
+You could be selling by tomorrow.
+Switch to Shopify
+Get more customers. Make more sales.
+Trusted by enterprise brands
+No matter your size, complexity, or ambition.
+Built into every store
+World's best checkout
+Proven to convert better.
+Sidekick
+Your commerce-obsessed AI assistant.
+Products
+Back Build your website
+Website Builder
+Themes
+Domains
+Customer Accounts
+Sidekick
+Sell anywhere
+Online
+AI Chats
+Point of Sale
+Shop App
+Social & Marketplaces
+Global
+B2B
+Across Markets
+Marketing & analytics
+Advertising & Campaigns
+Email & Customer Chat
+Discounts
+Analytics
+Run your business
+Orders & Inventory
+Shipping
+Finances & Funding
+Workflow Automation
+Mobile
+Get paid
+Checkout
+Payments
+Taxes
+Customize & extend Shopify
+Commerce for Agents
+Build with our agent tools
+Shopify App Store
+Largest commerce ecosystem
+Shopify.dev
+Dev docs, CLI, and more
+Non-stop innovation
+Shopify Editions
+150+ updates to Shopify, twice a year.
+Latest updates
+Agentic Storefronts
+Campaign Autopilot
+Shopify AI Toolkit for devs
+Pricing
+Enterprise
+Spring '26 Edition
+Log in
+Start for free
+Start for free
+Blog
+Go Viral on Tiktok
+Make Money on Tiktok
+What to Sell
+Tiktok Trends
+More Marketing
+Tiktok Shop
+Ad Strategies
+Business Guide
+Dropshipping
+Influencers
+Affiliate Marketing
+Search Type something you're looking for
+Log in
+Start for free
+Start selling with Shopify today
+Start your free trial with Shopify today—then use these resources to guide you through every step of the process.
+Start for free How does Shopify work
+blog • How to Sell Online What Is TikTok Shop? How TikTok Shopping Works for Sellers
+Get step-by-step guidance on TikTok Shop registration, selling features, and proven strategies to reach millions of engaged shoppers.
+by Dayna Winter May 15, 2026 • 10 min read
+On this page
+What is TikTok Shop?
+How to set up TikTok Shop
+TikTok Shop benefits
+TikTop shopping best practices
+TikTok shopping FAQ
+Start your online business today.
+For free.
+Start for free
+TikTok Shop is a fast-growing social commerce platform with more than 70 million products. Launched in 2023, TikTok Shop is projected to reach $23.41 billion in sales in the US in 2026, which sets it up to outperform sales of massive retailers like Costco and Target.
+Ahead, learn how TikTok shopping can benefit your business, how to sign up to TikTok Shop, and some best practices to follow when selling products on TikTok.
+What is TikTok Shop?
+TikTok Shop is a social commerce platform that lets you sell products and make money on TikTok . With TikTok shopping, your account transforms into a digital storefront, enabling buyers to make purchases without leaving the app.
+There are a few ways users might access your TikTok Shop:
+Profile. If a user clicks on your profile to learn more about your business or watch your content, they will see a shopping bag icon and the word “Shop” on it.
+Shop tab. The top menu on TikTok features a Shop tab that suggests personalized products and deals for users.
+Shoppable videos.  Shoppable videos embed links at the bottom of the screen that let users buy products without leaving the video they’re watching. These videos appear in a user’s For You feed as organic content and ads, as well as on the Shop tab.
+TikTok Live. With TikTok Live , you can embed TikTok Shop listings into live videos as you demo your products. A 2025 GlobalData survey found that 76% of consumers who used TikTok Shop bought an item from a livestream in the prior year.
+Set up shop on TikTok
+Help boost sales with creative content that converts the next generation of customers.
+Install now
+How to set up TikTok Shop
+Apply for a TikTok Shop for Seller account
+Set up your TikTok Shop
+Connect your TikTok Shop to your online store
+Promote your products
+Setting up a TikTok Shop involves a number of steps:
+1. Apply for a TikTok Shop for Seller account
+Start by creating an account on TikTok. Then, head to your profile and tap the hamburger menu in the top right corner. Choose Settings and Privacy, then TikTok Shop for Seller.
+A screen will prompt you to choose your business type : individual, sole proprietorship , corporation , or partnership .
+When you choose an option, you’ll receive information about the documentation you need. For example, if you choose “individual” in the US, you’ll need to add a form of ID, such as a driver’s license, and the last four digits of your Social Security number.
+TikTok Shop is available in select markets , including the US, the UK, Indonesia, Malaysia, Thailand, Vietnam, and the Philippines. Business verification requirements differ depending on location.
+The last part of your application is to provide details about your shop. Add a shop name (which you can change after onboarding), a logo, and your primary product category, and complete the secure signup. You’ll also enter your email address and receive a code.
+Once you submit your application, TikTok will review it within three business days.
+2. Set up your TikTok Shop
+In the meantime, you can start uploading your products. There are two ways you can do this: manually or via TikTok’s quick listing feature.
+If you quick list, you can paste in an individual product URL from another website (like Amazon or your Shopify store), upload product listings in bulk from an Excel template, or sync your product catalog from your Shopify store.
+If you’re not sure what to sell on TikTok, you can start by studying the latest trending TikTok products . Also, familiarize yourself with the items you cannot sell on Tiktok Shop , such as alcohol, tobacco, animals, plants, and discriminatory and offensive products.
+Connect with shoppers on TikTok
+Shopify comes with powerful tools to help you tell your brand story and create TikTok in-feed ads in minutes. Make sales on TikTok and manage all your orders, returns, and payments from Shopify.
+Start selling on TikTok
+3. Connect your TikTok Shop to your online store
+If you have a Shopify store, install the TikTok for Shopify app so you can manage orders and inventory from TikTok Shop. Promotions on your Shopify store will also sync over to your TikTok Shop. You can also fill out warehouse information, set up shipping, sync products, and submit tax information.
+Caption: Source: Shopify
+To connect your TikTok Shop and Shopify store, follow these steps:
+Go to your Shopify admin and click on Settings and then Sales channels.
+Click on Shopify App Store, search for TikTok, and add the channel.
+On the Set Up TikTok Shop page, click Connect on the TikTok Shop section and log in.
+You’ll be prompted to Connect to Shopify, where you can review TikTok Shop Merchant Terms of Service. Click Connect.
+Go to the Shop Information section and click Verify.
+In the Upload Documents dialog box, fill out the required fields. Click Next and Finish Setup.
+After completing these steps, integrate your Shopify online store design with your TikTok Shop to keep the brand design consistent. TikTok converts images, collections, and products into TikTok Shop–friendly versions.
+You can also use TikTok Shop with other ecommerce platforms ; the process may vary between platforms.
+4. Promote your products
+Develop a TikTok marketing strategy to get your TikTok Shop in front of your target audience .
+Ads can influence customers to make purchases. In a 2025 YouGov survey, 45% of respondents said they made a purchase on TikTok because of an ad. Create a TikTok Ads Manager account and link to your TikTok account to create ads with precise targeting options, including age, location, and browsing behavior. You can create and manage TikTok ad campaigns directly from your Shopify admin.
+Next, partner with creators as part of your TikTok influencer marketing strategy and tap into trusted voices in your community. According to the Influencer Trust Index: Consumer Insights 2025 report published by the Better Business Bureau, 58% of consumers have made a purchase because an influencer recommended it.
+TikTok Shop benefits
+TikTok Shop accounted for 18.4% of total social commerce in the US in 2025 and is expected to reach 24.1% by 2027, according to Emarketer . This growing sales channel offers several benefits to businesses:
+Simplified checkout. Once customers input their shipping and payment information the first time, they can check out in one tap for subsequent purchases. Nearly 20% of consumers will pick a channel based on whether one-click checkout is available, according to Pymnts .
+Small business compatibility. Both big and small businesses have found success on TikTok Shop. In 2024, more than a third of TikTok Shop purchases each month went to small businesses.
+Product and brand discovery. TikTok is a discovery tool. Research from GlobalData found that 83% of TikTok shoppers discovered a new product on the app, and 70% found a new brand .
+Built-in affiliate marketing program. Businesses can work with creators directly on the app, without needing to use a third-party platform.
+Tools to incentivize customer reviews. The TikTok Shop Review coupon is a tool businesses can use to encourage customers to leave reviews. Positive reviews help customers feel more confident in their purchases.
+TikTok shopping best practices
+Only jump on the most relevant trends
+Partner with creators and influencers
+Use TikTok’s affiliate marketing feature
+Build customer loyalty
+Once your TikTok Shop is up and running, consider these tips to make the most of selling on TikTok:
+Only jump on the most relevant trends
+Trends on TikTok move quickly, and audiences notice when brands don’t tap into trends on time. According to the 2025 Sprout Social Index, 27% of consumers believe it’s only effective when brands jump on a trend within one or two days after the trend begins.
+Instead of rushing to cover all trending topics, Dieux Skin cofounder Charlotte Palermino suggests businesses consider what they can add to the conversation. “If you feel like you could talk about something for 10 minutes, then make a video on it and try to cut it down to two,” she says on an episode of the Shopify Masters podcast .
+For example, when the concept of “looksmaxxing,” or men trying to become more handsome, started trending online, Dieux created a TikTok carousel to point out how women have long had to live with unfair beauty standards. While the brand doesn’t directly promote their products in the carousel, they show consumers that buying beauty products doesn’t have to be about fitting a specific beauty ideal—an idea that aligns with the brand’s values.
+Partner with creators and influencers
+With influencer marketing , brands work with internet creators to build credibility and access a targeted audience.
+In 2026, brands are investing more in influencer marketing on TikTok than any other platform, according to an Influencer Marketing Hub 2026 benchmark report.
+For perfume brand Dossier , TikTok has been a key component of its marketing strategy because the video-first format allows influencers to describe their fragrances verbally. “It’s very difficult to explain the concept of Dossier and a perfume, in general, by showing a photo of the product. That’s not going to tell the story at all,” says founder Sergio Tache on Shopify Masters . “We are very focused on working with influencers and content creators who are in the video space. We wanted to create that awareness around our perfumes.”
+Use TikTok’s affiliate marketing feature
+Businesses can also let creators sell their products through TikTok’s affiliate marketing program.
+On their profiles, creators can add a Showcase, a curated collection of products linking to one or several brands’ TikTok Shops, and encourage visitors to purchase these items via a video or TikTok Live. When a user makes a purchase, the creator earns a commission.
+This is a major development in the way ecommerce works, according to Lauren Kleinman, founder of PR agency Dreamday . “It’s opening up an entirely new affiliate network that runs completely on TikTok Shop,” she says on Shopify Masters .
+On TikTok, brands no longer have to source affiliates from third-party networks, and creators no longer have to direct followers from social media to a brand’s site via affiliate links. Instead, brands partner with creators within the TikTok ecosystem, those creators’ followers make purchases directly from TikTok Shop, and creators get paid out via TikTok.
+Build customer loyalty
+Landing your first sale on TikTok Shop is the starting point. Lasting growth comes from turning buyers into repeat customers. When you reward loyalty, you can convert one-time shoppers into long-term fans.
+Here are a few ways to use TikTok Shop to strengthen customer loyalty:
+Offer exclusive perks. Run promotions like follower-only discounts, limited-time bundles, or early access to new drops.
+Deliver a great experience. Fast shipping, clear return policies, and responsive service reassure customers they can shop with confidence.
+Stay connected with content. Keep posting engaging videos that educate, entertain, and highlight customer stories to nurture ongoing relationships.
+Reward repeat buyers. Use TikTok Shop promotions or loyalty programs to encourage second and third purchases.
+When customers love your product and know your brand is reliable, they’re more likely to return and even share your brand with their friends.
+Read more
+How To Sell Online: A Step-by-Step Guide
+What Is Upselling? Upselling Definition and Examples
+6 Of the Best Subscription Ecommerce Platforms for SMBs
+The 10 Best Cheap Ecommerce Platforms for Small Businesses
+Pre-Orders Add to Your Bottom Line—How Do They Work?
+Is Selling on Amazon Worth It for You? Here’s How To Know
+5 Sales Strategy Examples for Boosting Revenue
+Is Selling on Etsy Worth It? When You Outgrow Etsy
+12 Top Shopify Ecommerce Apps to Help Grow Your Store
+Website Builder & Website Maker by Shopify
+TikTok shopping FAQ
+What do I need to get started with TikTok Shop?
+If TikTok’s shopping features are active in your region, connect your ecommerce store to TikTok using an integration like the TikTok for Shopify app. You can apply for TikTok Shop from within your Shopify admin.
+How can I promote my products with TikTok Shop?
+Ideas for promoting your products on TikTok Shop include:
+Post creative videos that showcase your product and brand
+Engage with your followers by responding to comments, answering questions, and hosting AMAs
+Use relevant hashtags to increase visibility
+Share user-generated content to demonstrate your product in use
+Feature influencers and popular TikTok creators in your videos
+Use TikTok ads and run sponsored campaigns
+What are the best products to sell on TikTok?
+The best products to sell are those that are both a fit for your brand and that users are looking for. Some popular product types on TikTok include:
+Clothing and accessories: Check out #FashionTok, #JewelryTok
+Beauty and skin care: Check out #BeautyTok, #SkincareTok, #HairTok
+Phone cases and tech accessories: Check out #Accessories
+Home décor: Check out #DIYTok, #PlantTok, #CleanTok
+Health and wellness: Check out #GymTok, #TherapyTok
+Food and beverage: Check out #FoodTok, #CookTok, #WaterTok
+Art and craft supplies: Check out #ArtTok, #CraftTok
+Toys and games: Check out #GamingTok
+Books and stationery: Check out #BookTok
+Is TikTok Shop worth it?
+Yes, TikTok Shop is worth it because it’s a growing platform with an engaged audience. It removes friction for TikTok users, allowing them to access your products in fewer steps. TikTok Shop also enables brands to promote products naturally in content and on-page.
+by Dayna Winter Updated by Yara Simón on May 15, 2026
+Share article
+Share on Facebook
+Share on X
+Share on LinkedIn
+by Dayna Winter May 15, 2026 • 10 min read
+The newsletter for entrepreneurs
+Join millions of self-starters in getting business resources, tips, and inspiring stories in your inbox.
+Enter email
+Unsubscribe anytime. By entering your email, you agree to receive marketing emails from Shopify. By proceeding, you agree to the Terms and Conditions and Privacy Policy .
+popular posts
+Social Media Optimization
+How To Make Money on Instagram in 2025 (9 Actionable Ideas)
+Starting Up
+How To Start an Ecommerce Business: Guide for 2025
+Guides
+What Is Dropshipping and How Does It Work? (2025)
+Find an Idea
+What Is Print on Demand & How To Start a Business (2025)
+The point of sale for every sale.
+Start for free
+popular posts
+Sell Online
+How To Create a Website in 9 Steps (2025)
+Starting Up
+How To Start an Online Store in 2025 (Step-by-Step Guide)
+Find an Idea
+How To Make and Sell Merch Your Fans Will Love (2025)
+Sell Online
+10 Best Ecommerce Website Builders for Your Online Store (2025)
+popular posts
+Social Media Optimization How To Make Money on Instagram in 2025 (9 Actionable Ideas) 2023-11-08
+Starting Up How To Start an Ecommerce Business: Guide for 2025 2023-09-01
+Guides What Is Dropshipping and How Does It Work? (2025) 2023-12-05
+Find an Idea What Is Print on Demand & How To Start a Business (2025) 2023-11-09
+Sell Online How To Create a Website in 9 Steps (2025) 2023-09-20
+Starting Up How To Start an Online Store in 2025 (Step-by-Step Guide) 2023-11-23
+Find an Idea How To Make and Sell Merch Your Fans Will Love (2025) 2023-12-02
+Sell Online 10 Best Ecommerce Website Builders for Your Online Store (2025) 2023-11-06
+The newsletter for entrepreneurs
+Join millions of self-starters in getting business resources, tips, and inspiring stories in your inbox.
+Enter email Subscribe
+Unsubscribe anytime. By entering your email, you agree to receive marketing emails from Shopify. By proceeding, you agree to the Terms and Conditions and Privacy Policy .
+Sell anywhere with Shopify
+Learn on the go. Try Shopify for free, and explore all the tools you need to start, run, and grow your business.
+Start for free
+Start free then enjoy 3 months for $1/month
+Shopify
+What is Shopify?
+Shopify Editions
+Careers
+Investors
+Newsroom
+Sustainability
+Ecosystem
+Developer Docs
+Theme Store
+App Store
+Partners
+Affiliates
+Resources
+Blog
+Compare Shopify
+Guides
+Courses
+Free Tools
+Changelog
+Support
+Shopify Help Center
+Community Forum
+Hire a Partner
+Service Status
+USA | English Australia
+English
+Brazil
+Português
+Canada
+English
+France
+Français
+Hong Kong SAR
+English
+Indonesia
+English
+Ireland
+English
+Malaysia
+English
+Netherlands
+Nederlands
+New Zealand
+English
+Nigeria
+English
+Philippines
+English
+Singapore
+English
+South Africa
+English
+UK
+English
+USA
+English | Español (Intl.)
+USA | English Choose a region & language
+Australia
+English
+Brazil
+Português
+Canada
+English
+France
+Français
+Hong Kong SAR
+English
+Indonesia
+English
+Ireland
+English
+Malaysia
+English
+Netherlands
+Nederlands
+New Zealand
+English
+Nigeria
+English
+Philippines
+English
+Singapore
+English
+South Africa
+English
+UK
+English
+USA
+English | Español (Intl.)
+Terms of Service
+Legal
+Privacy Policy
+Sitemap
+Your Privacy Choices

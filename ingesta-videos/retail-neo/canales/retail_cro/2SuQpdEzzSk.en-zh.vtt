@@ -1,0 +1,1231 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.100 --> 00:00:02.133
+Hello, welcome back to Bai Xiaojun's channel. In the
+
+00:00:02.333 --> 00:00:05.099
+previous two episodes, I introduced
+
+00:00:05.100 --> 00:00:06.933
+some key points about Shopify operations
+
+00:00:06.933 --> 00:00:08.566
+and its product selection methods.
+
+00:00:08.800 --> 00:00:11.333
+Today, this video will mainly talk about
+
+00:00:11.400 --> 00:00:13.866
+how to design our product landing pages,
+
+00:00:13.866 --> 00:00:16.566
+also known as product detail pages.
+
+00:00:17.133 --> 00:00:18.299
+Product detail pages
+
+00:00:18.300 --> 00:00:20.733
+are mainly related to our conversion rate.
+
+00:00:21.133 --> 00:00:23.333
+A beautiful and high-quality detail page
+
+00:00:23.333 --> 00:00:25.766
+can not only bring us high conversion rates,
+
+00:00:26.000 --> 00:00:28.666
+but also increase our average order value.
+
+00:00:28.966 --> 00:00:29.933
+It can help
+
+00:00:29.933 --> 00:00:32.899
+buyers discover more highlights while browsing our website,
+
+00:00:32.900 --> 00:00:34.866
+
+
+00:00:34.866 --> 00:00:36.933
+including some information about our store,
+
+00:00:36.966 --> 00:00:40.466
+and build trust with buyers, etc.
+
+00:00:40.466 --> 00:00:41.666
+Okay, without further ado,
+
+00:00:41.666 --> 00:00:42.699
+let's take a look at
+
+00:00:42.700 --> 00:00:45.466
+the basic elements that a detail page should have.
+
+00:00:50.300 --> 00:00:51.766
+First is our main image.
+
+00:00:51.900 --> 00:00:53.566
+When visitors enter our website, the
+
+00:00:53.566 --> 00:00:55.899
+first thing they see is our main image.
+
+00:00:56.200 --> 00:00:58.566
+If we are running a brand store
+
+00:00:58.566 --> 00:01:00.099
+or a boutique store,
+
+00:01:00.333 --> 00:01:03.166
+we should try to maintain a
+
+00:01:03.166 --> 00:01:05.066
+sense of technology or style for our main image.
+
+00:01:05.600 --> 00:01:07.200
+Generally,
+
+00:01:07.200 --> 00:01:08.800
+we use a white background
+
+00:01:08.800 --> 00:01:12.566
+or our website's theme color as the background for the first main image.
+
+00:01:13.000 --> 00:01:14.600
+This not only maintains the
+
+00:01:14.600 --> 00:01:16.100
+unified style of the store,
+
+00:01:16.133 --> 00:01:17.066
+but also
+
+00:01:17.066 --> 00:01:19.766
+highlights the overall style of our website.
+
+00:01:19.766 --> 00:01:22.466
+As for the subsequent main images,
+
+00:01:22.466 --> 00:01:24.133
+we can use
+
+00:01:24.366 --> 00:01:26.533
+photos that resemble scenes.
+
+00:01:26.533 --> 00:01:29.499
+Or, to put it another way, photos that describe some of its features.
+
+00:01:29.600 --> 00:01:31.566
+Of course, if you have the resources and skills,
+
+00:01:31.566 --> 00:01:32.666
+you can
+
+00:01:32.666 --> 00:01:34.599
+create rendered images like this, which would
+
+00:01:34.600 --> 00:01:36.133
+look much more sophisticated.
+
+00:01:36.133 --> 00:01:38.399
+However, if you're running a mass-market
+
+00:01:38.566 --> 00:01:41.199
+store focusing on value for money,
+
+00:01:41.200 --> 00:01:43.133
+I think simple, lifestyle-oriented photos like these are
+
+00:01:43.133 --> 00:01:44.899
+sufficient.
+
+00:01:44.933 --> 00:01:45.799
+You can't expect to have
+
+00:01:45.800 --> 00:01:47.866
+so many products in one store, and
+
+00:01:47.866 --> 00:01:48.366
+
+
+00:01:48.366 --> 00:01:51.166
+each product image to be exquisitely crafted.
+
+00:01:51.366 --> 00:01:54.699
+After the images is the product title.
+
+00:01:54.700 --> 00:01:56.900
+Regardless of whether you're using Shopify
+
+00:01:56.900 --> 00:01:58.066
+or WordPress,
+
+00:01:58.300 --> 00:02:00.333
+you actually have two titles. The top
+
+00:02:00.466 --> 00:02:01.399
+title
+
+00:02:01.400 --> 00:02:04.266
+is displayed on the front end of your website
+
+00:02:04.266 --> 00:02:05.299
+for buyers to see.
+
+00:02:05.300 --> 00:02:07.700
+We should keep it concise, simply
+
+00:02:07.700 --> 00:02:09.966
+telling buyers what we're selling.
+
+00:02:09.966 --> 00:02:12.266
+For example, the
+
+00:02:12.266 --> 00:02:13.666
+title of this website is this.
+
+00:02:13.733 --> 00:02:16.899
+Below that is an SEO title and description.
+
+00:02:17.333 --> 00:02:20.733
+This part is mainly for search engines.
+
+00:02:20.733 --> 00:02:22.866
+When we run certain ads,
+
+00:02:22.966 --> 00:02:25.399
+they will automatically extract keywords from our title and description.
+
+00:02:25.400 --> 00:02:27.100
+
+
+00:02:27.100 --> 00:02:27.900
+So,
+
+00:02:28.100 --> 00:02:31.000
+we need to fill this part out
+
+00:02:31.366 --> 00:02:34.533
+carefully, trying to include some keywords,
+
+00:02:34.533 --> 00:02:37.499
+including information about our website, etc. The
+
+00:02:37.800 --> 00:02:39.566
+purposes of these two titles are different,
+
+00:02:39.566 --> 00:02:41.499
+so we
+
+00:02:41.500 --> 00:02:42.600
+need to pay attention when filling them out. The
+
+00:02:42.600 --> 00:02:45.333
+third part is product reviews.
+
+00:02:45.666 --> 00:02:48.166
+Reviews are very important for products.
+
+00:02:48.166 --> 00:02:51.099
+Most buyers
+
+00:02:51.466 --> 00:02:54.133
+consult other people's opinions before purchasing,
+
+00:02:54.666 --> 00:02:55.899
+just like when we buy things ourselves.
+
+00:02:55.900 --> 00:02:56.933
+
+
+00:02:57.200 --> 00:02:59.133
+Besides considering the price,
+
+00:02:59.133 --> 00:03:02.666
+reviews are also a very important reference indicator. When adding reviews for
+
+00:03:02.666 --> 00:03:04.966
+products on our website, we should try to
+
+00:03:04.966 --> 00:03:06.199
+
+
+00:03:06.200 --> 00:03:07.700
+
+
+00:03:07.700 --> 00:03:10.766
+refer to reviews of similar or identical products on Amazon,
+
+00:03:11.166 --> 00:03:12.599
+because Amazon reviews are
+
+00:03:12.733 --> 00:03:14.599
+generally much higher quality,
+
+00:03:14.600 --> 00:03:16.100
+especially the top ten.
+
+00:03:16.100 --> 00:03:18.766
+We should put more effort into
+
+00:03:19.133 --> 00:03:20.299
+creating high-quality content and
+
+00:03:20.300 --> 00:03:22.533
+avoid AliExpress reviews like "
+
+00:03:22.533 --> 00:03:24.133
+Great Good," as
+
+00:03:24.366 --> 00:03:26.966
+these are not very meaningful.
+
+00:03:26.966 --> 00:03:29.466
+There are also many review plugins available now that
+
+00:03:29.466 --> 00:03:31.399
+can import reviews from Amazon,
+
+00:03:31.400 --> 00:03:33.266
+or we can directly
+
+00:03:33.266 --> 00:03:36.333
+import reviews into our website using a spreadsheet. It
+
+00:03:36.333 --> 00:03:37.666
+might take a little time,
+
+00:03:37.666 --> 00:03:39.799
+but it's very worthwhile.
+
+00:03:39.900 --> 00:03:42.100
+We can see that this website's reviews are
+
+00:03:42.266 --> 00:03:44.266
+also imported from Amazon.
+
+00:03:44.266 --> 00:03:45.466
+
+
+00:03:45.466 --> 00:03:46.566
+We can see that the
+
+00:03:47.100 --> 00:03:50.800
+Amazon name at the top hasn't been changed.
+
+00:03:50.800 --> 00:03:51.866
+We can also see
+
+00:03:51.866 --> 00:03:53.333
+
+
+00:03:53.333 --> 00:03:55.866
+a verified badge under the reviewer's name,
+
+00:03:56.200 --> 00:03:58.733
+which can also be
+
+00:03:58.900 --> 00:04:00.000
+set using plugins.
+
+00:04:00.000 --> 00:04:01.133
+This website
+
+00:04:01.133 --> 00:04:03.866
+doesn't have many reviews,
+
+00:04:03.866 --> 00:04:06.466
+but each review usually
+
+00:04:06.466 --> 00:04:07.999
+includes several pictures,
+
+00:04:08.000 --> 00:04:10.500
+which is quite convincing.
+
+00:04:10.500 --> 00:04:14.666
+Let's take a look at the price variations on the product details page
+
+00:04:14.666 --> 00:04:15.666
+and the shopping cart.
+
+00:04:15.666 --> 00:04:16.899
+These are all very basic,
+
+00:04:16.900 --> 00:04:18.700
+so there's not much to say. For the
+
+00:04:18.700 --> 00:04:20.000
+variations,
+
+00:04:20.000 --> 00:04:22.600
+we should try to choose
+
+00:04:22.600 --> 00:04:24.533
+templates that display thumbnails,
+
+00:04:24.533 --> 00:04:27.133
+as this makes it more intuitive.
+
+00:04:27.200 --> 00:04:28.700
+Of course,
+
+00:04:28.900 --> 00:04:31.700
+text display doesn't have as much impact. The
+
+00:04:31.700 --> 00:04:34.000
+fifth part is multi-item discounts.
+
+00:04:34.000 --> 00:04:37.500
+Here, I usually
+
+00:04:37.500 --> 00:04:39.200
+
+
+00:04:39.400 --> 00:04:41.700
+put multi-item discount information above or below the quantity,
+
+00:04:41.733 --> 00:04:43.899
+such as 5% off for buying two items,
+
+00:04:43.900 --> 00:04:46.500
+10% off for buying three items, and 15% off for buying five items.
+
+00:04:46.766 --> 00:04:49.266
+This is a great way to increase the average order value
+
+00:04:49.533 --> 00:04:50.333
+because we all know that
+
+00:04:50.333 --> 00:04:51.966
+traffic is hard-earned.
+
+00:04:51.966 --> 00:04:54.099
+If you can
+
+00:04:54.100 --> 00:04:56.100
+generate a higher average order value from the traffic you attract,
+
+00:04:56.266 --> 00:04:58.966
+it's a very important way to increase our sales.
+
+00:04:59.100 --> 00:05:00.100
+
+
+00:05:00.100 --> 00:05:02.000
+This method
+
+00:05:02.000 --> 00:05:03.766
+is very good for both us and the buyers
+
+00:05:03.933 --> 00:05:05.899
+because while we are giving discounts to buyers,
+
+00:05:05.900 --> 00:05:08.933
+we are also saving a lot of costs.
+
+00:05:08.966 --> 00:05:11.066
+From my historical data,
+
+00:05:11.066 --> 00:05:11.966
+about
+
+00:05:11.966 --> 00:05:14.733
+1-2 out of every 10 orders have
+
+00:05:15.166 --> 00:05:16.733
+multiple items. The
+
+00:05:16.733 --> 00:05:18.733
+sixth part is upselling, which is
+
+00:05:18.766 --> 00:05:21.866
+another way to increase the average order value. It involves
+
+00:05:22.166 --> 00:05:24.466
+recommending other related products in our store to buyers, offering
+
+00:05:24.466 --> 00:05:25.933
+
+
+00:05:25.933 --> 00:05:26.733
+
+
+00:05:26.933 --> 00:05:30.266
+more discounts when purchased together.
+
+00:05:30.266 --> 00:05:31.266
+This store
+
+00:05:31.266 --> 00:05:33.299
+also uses this method.
+
+00:05:33.700 --> 00:05:36.133
+It combines these three products, resulting in a
+
+00:05:36.133 --> 00:05:38.799
+lower total price. The
+
+00:05:38.800 --> 00:05:41.066
+seventh part is the payment method,
+
+00:05:41.200 --> 00:05:44.100
+which is a common headache for many sellers.
+
+00:05:44.133 --> 00:05:45.466
+Domestic sellers often have limited
+
+00:05:45.466 --> 00:05:48.599
+payment options.
+
+00:05:48.966 --> 00:05:50.699
+Many independent sellers
+
+00:05:50.700 --> 00:05:53.500
+can only offer PayPal
+
+00:05:53.766 --> 00:05:56.099
+because it's relatively easy to apply for. However,
+
+00:05:56.100 --> 00:05:56.966
+
+
+00:05:56.966 --> 00:05:59.266
+while PayPal is widely used,
+
+00:05:59.700 --> 00:06:02.733
+offering more payment methods is always better.
+
+00:06:02.733 --> 00:06:03.999
+For example, credit card payments
+
+00:06:04.000 --> 00:06:04.566
+or
+
+00:06:04.566 --> 00:06:07.566
+BNPL (Bill of Materials), which is popular internationally, are
+
+00:06:07.566 --> 00:06:08.566
+also options.
+
+00:06:08.566 --> 00:06:10.266
+Offering these payment methods is
+
+00:06:10.266 --> 00:06:13.099
+a significant advantage. The
+
+00:06:13.133 --> 00:06:15.299
+eighth part covers our
+
+00:06:15.400 --> 00:06:16.966
+service guarantees,
+
+00:06:17.333 --> 00:06:19.466
+delivery time,
+
+00:06:19.466 --> 00:06:21.899
+product shelf life,
+
+00:06:22.300 --> 00:06:23.766
+and
+
+00:06:23.766 --> 00:06:26.533
+return/exchange policies.
+
+00:06:26.533 --> 00:06:29.166
+Buyers value
+
+00:06:29.166 --> 00:06:30.999
+these information, so it's
+
+00:06:31.000 --> 00:06:34.933
+best to place them below the purchase button to
+
+00:06:34.933 --> 00:06:38.299
+increase website
+
+00:06:38.300 --> 00:06:38.933
+credibility. The
+
+00:06:38.933 --> 00:06:41.866
+ninth part, a
+
+00:06:42.366 --> 00:06:44.466
+crucial section of the product page, is the
+
+00:06:44.566 --> 00:06:45.733
+product description.
+
+00:06:46.133 --> 00:06:48.166
+This
+
+00:06:48.400 --> 00:06:51.166
+description showcases the product's highlights to attract buyers and
+
+00:06:51.200 --> 00:06:54.500
+addresses potential
+
+00:06:54.933 --> 00:06:57.066
+issues they might encounter during the purchase process.
+
+00:06:57.066 --> 00:06:59.666
+We try to put eye-catching features and
+
+00:06:59.666 --> 00:07:01.199
+highlights at the beginning. As for
+
+00:07:01.200 --> 00:07:02.566
+detailed specifications,
+
+00:07:02.566 --> 00:07:05.133
+such as size,
+
+00:07:05.566 --> 00:07:06.666
+color,
+
+00:07:06.733 --> 00:07:09.599
+and packaging,
+
+00:07:09.666 --> 00:07:11.766
+we try to place them later on the website.
+
+00:07:11.800 --> 00:07:12.333
+We know that
+
+00:07:12.333 --> 00:07:14.399
+buyers' attention spans are limited,
+
+00:07:14.400 --> 00:07:16.200
+so we try not to put these
+
+00:07:16.200 --> 00:07:18.966
+relatively basic information first.
+
+00:07:19.000 --> 00:07:21.466
+Because when they are truly interested in your product, they will
+
+00:07:21.466 --> 00:07:24.499
+definitely browse the entire page,
+
+00:07:24.500 --> 00:07:26.766
+including actively searching for
+
+00:07:26.766 --> 00:07:28.599
+information they want to know,
+
+00:07:28.866 --> 00:07:30.933
+such as usage instructions, the contents of the
+
+00:07:30.933 --> 00:07:33.966
+package, and
+
+00:07:33.966 --> 00:07:34.799
+
+
+00:07:34.800 --> 00:07:36.500
+detailed specifications.
+
+00:07:36.500 --> 00:07:38.400
+We also try to use
+
+00:07:38.400 --> 00:07:39.533
+animated GIFs.
+
+00:07:40.000 --> 00:07:42.466
+Shopify has always supported animated GIFs, which makes the
+
+00:07:42.733 --> 00:07:44.533
+content
+
+00:07:44.700 --> 00:07:46.266
+more attractive and effectively
+
+00:07:46.300 --> 00:07:46.933
+
+
+00:07:46.933 --> 00:07:50.066
+conveys the product's usage and features. For
+
+00:07:50.066 --> 00:07:50.999
+these animated GIFs,
+
+00:07:51.000 --> 00:07:52.766
+we can find product videos
+
+00:07:52.766 --> 00:07:54.966
+or buy samples and
+
+00:07:54.966 --> 00:07:56.466
+shoot our own videos, then use
+
+00:07:56.466 --> 00:07:57.599
+
+
+00:07:57.933 --> 00:07:58.899
+GIF tools to
+
+00:07:58.900 --> 00:08:01.700
+extract the GIFs.
+
+00:08:01.766 --> 00:08:03.699
+If you have product videos,
+
+00:08:03.700 --> 00:08:06.100
+you can also put them on the description page,
+
+00:08:06.166 --> 00:08:08.866
+but remember not to make them too long, preferably
+
+00:08:08.866 --> 00:08:10.366
+no more than one minute.
+
+00:08:10.466 --> 00:08:12.099
+We can see that this
+
+00:08:12.100 --> 00:08:14.600
+description is relatively high-end,
+
+00:08:15.566 --> 00:08:18.099
+like this detail page layout.  It
+
+00:08:18.100 --> 00:08:20.266
+'s related to its template,
+
+00:08:20.333 --> 00:08:22.999
+but its content is indeed very professional
+
+00:08:23.000 --> 00:08:24.666
+and technologically advanced,
+
+00:08:26.000 --> 00:08:27.800
+including its details. The
+
+00:08:27.800 --> 00:08:30.333
+product descriptions also utilize rendering techniques,
+
+00:08:30.933 --> 00:08:33.599
+and the detailed information is very well done, with
+
+00:08:33.600 --> 00:08:36.100
+more detailed information
+
+00:08:36.100 --> 00:08:37.200
+placed at the end.
+
+00:08:37.200 --> 00:08:39.200
+Let's look at another website; its
+
+00:08:39.200 --> 00:08:40.200
+
+
+00:08:40.200 --> 00:08:43.333
+description is relatively simpler
+
+00:08:43.966 --> 00:08:44.966
+because its product description is also relatively
+
+00:08:44.966 --> 00:08:46.533
+simple.
+
+00:08:46.566 --> 00:08:48.333
+However, it still covers the important points,
+
+00:08:48.333 --> 00:08:50.933
+including how to use the product and its
+
+00:08:51.366 --> 00:08:53.266
+detailed information.
+
+00:08:53.266 --> 00:08:54.666
+If your current conditions
+
+00:08:54.666 --> 00:08:56.799
+don't allow for a product
+
+00:08:56.800 --> 00:08:57.600
+detail page like the one above,
+
+00:08:57.600 --> 00:08:59.766
+I think creating something like the one below is
+
+00:08:59.933 --> 00:09:01.199
+also acceptable.
+
+00:09:01.200 --> 00:09:03.166
+Part 10 is the FAQ, which contains
+
+00:09:03.166 --> 00:09:06.199
+frequently asked questions and answers.
+
+00:09:06.200 --> 00:09:09.000
+This part is easily overlooked,
+
+00:09:09.366 --> 00:09:11.799
+but its advantage is that
+
+00:09:11.800 --> 00:09:13.400
+
+
+00:09:13.400 --> 00:09:15.766
+buyers can find answers to common questions directly here
+
+00:09:15.900 --> 00:09:17.466
+without having to contact us,
+
+00:09:17.466 --> 00:09:19.733
+thus increasing response speed.
+
+00:09:19.933 --> 00:09:21.199
+Since our
+
+00:09:21.266 --> 00:09:23.299
+main consumer market is overseas, there's
+
+00:09:23.300 --> 00:09:25.900
+definitely a time difference.
+
+00:09:25.900 --> 00:09:28.466
+We can't be online 24/7. By the
+
+00:09:28.466 --> 00:09:29.899
+time we realize a buyer has a question, we
+
+00:09:29.900 --> 00:09:30.900
+
+
+00:09:30.900 --> 00:09:33.000
+may have already missed the best sales opportunity.
+
+00:09:33.000 --> 00:09:33.666
+Therefore, it's
+
+00:09:33.666 --> 00:09:35.733
+best to summarize and compile some common questions.
+
+00:09:35.733 --> 00:09:36.933
+
+
+00:09:36.933 --> 00:09:39.966
+Place it below our product description.
+
+00:09:39.966 --> 00:09:41.866
+When users browsing our website
+
+00:09:41.866 --> 00:09:43.499
+are interested in our products
+
+00:09:43.500 --> 00:09:44.966
+and encounter problems,
+
+00:09:45.166 --> 00:09:48.399
+if they can find answers below,
+
+00:09:48.566 --> 00:09:52.466
+they are more likely to place an order.
+
+00:09:52.500 --> 00:09:53.966
+We can see that this website
+
+00:09:53.966 --> 00:09:56.366
+not only includes frequently asked questions, but
+
+00:09:56.600 --> 00:09:58.666
+also shipping policies,
+
+00:09:58.666 --> 00:10:00.666
+guarantees, and other
+
+00:10:00.900 --> 00:10:04.266
+information.
+
+00:10:04.600 --> 00:10:05.900
+It also
+
+00:10:06.200 --> 00:10:08.733
+includes a download button for the instruction manual,
+
+00:10:08.733 --> 00:10:10.299
+which is very thoughtful.
+
+00:10:10.300 --> 00:10:11.600
+Firstly,
+
+00:10:11.766 --> 00:10:13.799
+some people may not have bought your product yet,
+
+00:10:13.800 --> 00:10:16.066
+but they can look at the manual first and
+
+00:10:16.066 --> 00:10:17.699
+
+
+00:10:17.700 --> 00:10:19.800
+discover some advantages of the product, leading to a
+
+00:10:19.800 --> 00:10:21.200
+purchase.
+
+00:10:21.200 --> 00:10:22.533
+Secondly, and quite strangely,
+
+00:10:22.533 --> 00:10:24.166
+many overseas buyers
+
+00:10:24.600 --> 00:10:26.733
+always ask for the instruction manual after receiving the product,
+
+00:10:26.866 --> 00:10:28.399
+
+
+00:10:28.766 --> 00:10:30.799
+
+
+00:10:30.900 --> 00:10:32.666
+
+
+00:10:32.666 --> 00:10:34.499
+even if you've included it in the product description.
+
+00:10:34.500 --> 00:10:36.066
+Therefore,
+
+00:10:36.066 --> 00:10:38.799
+including a download link for the instruction manual on the website
+
+00:10:38.800 --> 00:10:41.400
+saves us a lot of after-sales time
+
+00:10:41.400 --> 00:10:42.900
+and
+
+00:10:43.366 --> 00:10:45.466
+increases customer satisfaction.
+
+00:10:45.466 --> 00:10:47.399
+So, the FAQ section is
+
+00:10:47.400 --> 00:10:49.766
+relatively important. Regarding
+
+00:10:49.766 --> 00:10:51.899
+section 11, online chat,
+
+00:10:52.466 --> 00:10:53.333
+
+
+00:10:53.333 --> 00:10:55.366
+I don't recommend including
+
+00:10:55.366 --> 00:10:56.733
+real-time chat tools. This is due to the
+
+00:10:57.066 --> 00:10:59.133
+issue mentioned above;
+
+00:10:59.133 --> 00:11:02.066
+if you can't handle time zone differences...
+
+00:11:02.400 --> 00:11:04.966
+In other words, if you can't respond to buyer questions in real time,
+
+00:11:05.266 --> 00:11:06.799
+
+
+00:11:06.966 --> 00:11:09.533
+you don't need to add such a tool.
+
+00:11:09.533 --> 00:11:11.499
+You can simply use a
+
+00:11:11.966 --> 00:11:13.766
+self-service solution
+
+00:11:13.766 --> 00:11:15.999
+and put it in our FAQ. The
+
+00:11:16.000 --> 00:11:18.766
+twelfth part is recommended products.
+
+00:11:18.766 --> 00:11:20.999
+I usually put this part
+
+00:11:21.100 --> 00:11:22.500
+above the comments section. Here, it's
+
+00:11:22.500 --> 00:11:24.366
+placed below. The
+
+00:11:24.366 --> 00:11:25.866
+main purpose is to increase the
+
+00:11:25.866 --> 00:11:27.699
+exposure of other products in the store and
+
+00:11:27.733 --> 00:11:30.066
+potentially
+
+00:11:30.333 --> 00:11:31.333
+increase our sales.
+
+00:11:31.333 --> 00:11:32.333
+This website also has a
+
+00:11:32.333 --> 00:11:34.133
+good feature:
+
+00:11:34.133 --> 00:11:35.933
+
+
+00:11:35.933 --> 00:11:37.666
+a comparison of different models of similar products.
+
+00:11:38.000 --> 00:11:39.933
+This is a pretty good function.
+
+00:11:39.966 --> 00:11:41.133
+However, if you want to
+
+00:11:41.133 --> 00:11:43.199
+add such a function to the website, it
+
+00:11:43.200 --> 00:11:45.866
+may involve some code modifications.
+
+00:11:45.866 --> 00:11:46.199
+So, if
+
+00:11:46.200 --> 00:11:48.200
+you want to add such a comparison module,
+
+00:11:48.200 --> 00:11:50.666
+you need to consider whether you can create it yourself. The
+
+00:11:50.666 --> 00:11:53.733
+above are basically the elements that a qualified product details page should
+
+00:11:53.733 --> 00:11:55.333
+have.
+
+00:11:55.500 --> 00:11:57.066
+As for other functions,
+
+00:11:57.066 --> 00:11:58.299
+for example, many people
+
+00:11:58.300 --> 00:12:00.100
+sometimes
+
+00:12:00.100 --> 00:12:01.466
+
+
+00:12:01.466 --> 00:12:02.666
+add
+
+00:12:02.866 --> 00:12:04.733
+countdown discounts or similar functions below the product price.
+
+00:12:05.133 --> 00:12:07.299
+You can decide whether to include this or not based on your needs, or whether
+
+00:12:07.300 --> 00:12:08.200
+
+
+00:12:08.200 --> 00:12:10.866
+you can find some plugins
+
+00:12:10.866 --> 00:12:12.166
+to implement such functions.
+
+00:12:12.166 --> 00:12:14.899
+Also, our details page should not be
+
+00:12:14.933 --> 00:12:16.966
+piled with various marketing tools. You ca
+
+00:12:17.200 --> 00:12:19.166
+n't just put up whatever tool
+
+00:12:19.166 --> 00:12:20.166
+
+
+00:12:20.166 --> 00:12:21.566
+you think is good.
+
+00:12:21.566 --> 00:12:22.599
+Actually, it's unnecessary
+
+00:12:22.700 --> 00:12:23.566
+because doing so
+
+00:12:23.566 --> 00:12:26.099
+will affect the loading speed and aesthetics of our webpage, potentially having the opposite
+
+00:12:26.100 --> 00:12:27.666
+effect.
+
+00:12:27.666 --> 00:12:28.899
+
+
+00:12:28.900 --> 00:12:30.166
+Finally, another very important point
+
+00:12:30.166 --> 00:12:31.699
+is mobile compatibility.
+
+00:12:31.866 --> 00:12:33.599
+Historical data shows that
+
+00:12:33.600 --> 00:12:35.600
+about 80% of users
+
+00:12:35.600 --> 00:12:37.866
+shop online using mobile devices.
+
+00:12:37.866 --> 00:12:40.799
+Therefore, regardless of whether it's a computer or mobile device,
+
+00:12:40.800 --> 00:12:43.666
+we need to ensure the page layout is effective.
+
+00:12:43.700 --> 00:12:45.133
+Most templates now
+
+00:12:45.133 --> 00:12:46.766
+support mobile devices and
+
+00:12:46.766 --> 00:12:48.999
+will automatically adapt to your products.
+
+00:12:49.000 --> 00:12:50.466
+However, to see the actual effect,
+
+00:12:50.466 --> 00:12:52.299
+we still need to check it ourselves.
+
+00:12:52.300 --> 00:12:53.300
+A simple method is to
+
+00:12:53.300 --> 00:12:55.500
+
+
+00:12:55.500 --> 00:12:57.800
+open the store's URL on your mobile phone to see the effect. Alternatively,
+
+00:12:57.800 --> 00:13:00.600
+we can use Google Chrome to
+
+00:13:00.666 --> 00:13:02.766
+simulate a mobile effect.
+
+00:13:02.800 --> 00:13:04.900
+Right-click on the current webpage
+
+00:13:04.900 --> 00:13:06.200
+and select "Inspect."
+
+00:13:06.200 --> 00:13:08.733
+Some code will appear on the right, with
+
+00:13:08.733 --> 00:13:09.399
+
+
+00:13:09.400 --> 00:13:12.000
+a phone and tablet icon above it.
+
+00:13:12.000 --> 00:13:13.800
+Clicking this will
+
+00:13:13.800 --> 00:13:15.400
+simulate a mobile device.
+
+00:13:15.400 --> 00:13:16.166
+Above this icon,
+
+00:13:16.166 --> 00:13:18.899
+we can select phone models,
+
+00:13:18.900 --> 00:13:20.933
+sizes,
+
+00:13:20.933 --> 00:13:22.733
+and adjust the aspect ratio
+
+00:13:22.733 --> 00:13:24.166
+and rotation. We
+
+00:13:24.166 --> 00:13:25.933
+
+
+00:13:25.933 --> 00:13:27.733
+
+
+00:13:27.733 --> 00:13:28.666
+
+
+00:13:28.700 --> 00:13:30.500
+can then preview the overall display on a mobile device to ensure our webpage
+
+00:13:30.500 --> 00:13:32.333
+displays correctly. Overall, there are
+
+00:13:32.333 --> 00:13:33.166
+
+
+00:13:33.166 --> 00:13:34.766
+n't many problems, and the
+
+00:13:34.766 --> 00:13:37.533
+mobile display is quite nice.
+
+00:13:37.533 --> 00:13:39.299
+That concludes this episode.
+
+00:13:39.300 --> 00:13:42.466
+We've covered the layout of a product detail page, including
+
+00:13:42.500 --> 00:13:44.333
+at least the basic elements a detail page
+
+00:13:44.333 --> 00:13:46.499
+should have. I won't go into detail
+
+00:13:46.500 --> 00:13:48.500
+about building an independent website
+
+00:13:48.500 --> 00:13:49.400
+here,
+
+00:13:49.400 --> 00:13:51.800
+as we've already released a
+
+00:13:51.800 --> 00:13:53.500
+Shopify website building series.
+
+00:13:53.500 --> 00:13:54.400
+If you're interested, you
+
+00:13:54.400 --> 00:13:56.166
+can check it out on my homepage.
+
+00:13:56.166 --> 00:13:58.333
+Okay, that's all for this episode.
+
+00:13:58.333 --> 00:14:00.999
+If you want to learn more useful and practical knowledge,
+
+00:14:01.000 --> 00:14:02.366
+remember to follow me.
+
+00:14:02.366 --> 00:14:02.766
+If
+
+00:14:02.766 --> 00:14:04.666
+you found this episode helpful,
+
+00:14:04.666 --> 00:14:05.899
+please like and save it. See
+
+00:14:05.900 --> 00:14:06.866
+you next time!
+

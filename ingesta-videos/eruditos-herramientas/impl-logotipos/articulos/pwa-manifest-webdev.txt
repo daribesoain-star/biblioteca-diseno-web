@@ -1,0 +1,23 @@
+FUENTE: https://web.dev/articles/add-manifest
+TEMA: PWA Web App Manifest — iconos
+
+TAMAÑOS REQUERIDOS: Para Chromium debes proveer al menos un icono de 192×192 px y uno de 512×512 px. Con solo esos dos, Chrome los escala según necesite. Para pixel-perfect en todos los dispositivos, provee iconos en incrementos de 48dp.
+
+DECLARACIÓN JSON:
+{
+  "icons": [
+    { "src": "/images/icons-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/images/icons-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}
+
+CAMPO purpose:
+- "any" — uso estándar (default)
+- "maskable" — iconos adaptativos/maskable en Android; se declara "purpose": "any maskable"
+- monochrome — mencionado en la spec del Web App Manifest.
+
+CAMPOS DE COLOR:
+- theme_color — color de la barra de herramientas y preview del task switcher; debe coincidir con el <meta> theme-color del head del documento.
+- background_color — se muestra en el splash screen móvil durante el arranque inicial de la app.
+
+SVG: los iconos SVG escalan sin pixelarse pero quedan estáticos post-instalación. Provee siempre fallbacks rasterizados para navegadores sin soporte SVG.

@@ -1,0 +1,174 @@
+{
+  "version_destino": "1.1.0",
+  "nota": "UNIVERSIDAD F4 — reglas curadas de 41 destilados de fuentes abiertas (2026-07-08). Curaduría Claude + QA council. Descartados: números no presentes en la fuente, fuentes con conflicto de interés (70/30 thinkbox), duplicados cross-materia.",
+  "adiciones": {
+    "brand-strategy-posicionamiento": {
+      "reglas_para_agentes": [
+        "Asigna ~60% del presupuesto de marketing a construcción de marca de largo plazo y ~40% a activación de corto plazo como punto de partida (Binet & Field); ajústalo solo con evidencia de la categoría (fuente: ipa.co.uk)",
+        "Mide Share of Search mensualmente como predictor adelantado de cuota de mercado: variaciones sostenidas del share de búsquedas anticipan movimientos de participación de mercado a ~12 meses (fuente: ipa.co.uk)",
+        "En recesión, mantén o aumenta la inversión en marca: la evidencia IPA muestra que las marcas que sostienen su share of voice ganan cuota sobre las que recortan (fuente: ipa.co.uk)",
+        "Invierte en activos distintivos (color, forma, sonido, tipografía, personaje) medibles por reconocimiento espontáneo y mantenlos consistentes por años — mínimo 5 — antes de evaluar cambiarlos (fuente: marketingscience.info)",
+        "Prioriza alcance amplio sobre hipersegmentación para construir marca: el crecimiento viene de los compradores ligeros de toda la categoría (fuente: marketingscience.info)"
+      ],
+      "errores_comunes": [
+        "Cambiar logotipo o identidad visual con frecuencia: destruye activos distintivos que tardan años en construirse (fuente: marketingscience.info)",
+        "Asumir que el medio ganado/orgánico puede reemplazar al pagado como estrategia principal de construcción de marca (fuente: thinkbox.tv)",
+        "Confundir notoriedad con disponibilidad mental: recordar que la marca existe no equivale a que venga a la mente en las situaciones de compra (fuente: marketingscience.info)"
+      ]
+    },
+    "cinematografia-optica-luz-composicion-color": {
+      "reglas_para_agentes": [
+        "Chequeo de bokeh: los puntos de luz fuera de foco deben verse como círculos suaves; si aparecen polígonos, el diafragma/lente no entrega el desenfoque estético buscado (fuente: studiobinder.com)",
+        "Líneas guía (leading lines): incluye al menos una línea diagonal o recta que conduzca la mirada al sujeto principal; sin línea guía la composición carece de dirección visual intencionada (fuente: studiobinder.com)",
+        "Altura de cámara: a nivel de ojos del personaje = neutralidad/empatía; por encima o por debajo se crea vulnerabilidad o poder, y esa desviación debe justificarse narrativamente (fuente: studiobinder.com)"
+      ],
+      "errores_comunes": [
+        "Aplicar la regla de los tercios de forma mecánica: la simetría central puede servir mejor en momentos de poder, rigidez o tensión — es ruptura intencional, no error (fuente: studiobinder.com)"
+      ]
+    },
+    "direccion-puesta-en-escena-bloqueo-actores": {
+      "reglas_para_agentes": [
+        "Usa un objeto en mano del personaje como símbolo de poder narrativo (bastón, sombrero, arma, pelota) y refuérzalo con close-up en los momentos clave (fuente: studiobinder.com)",
+        "Cuando hay jerarquía de poder, bloquea a los actores en triángulo: el dominante en el vértice, los subordinados en la base (fuente: studiobinder.com)",
+        "Coloca actores en tres profundidades del encuadre (primer plano, medio, fondo) para mostrar relaciones y acciones simultáneas entre personajes (fuente: studiobinder.com)",
+        "Agenda al menos una reunión personal con cada actor antes del rodaje para conocer su proceso, referencias y antecedentes (fuente: studiobinder.com)",
+        "Comunica al actor solo tres cosas por escena: objetivo del personaje, obstáculo y qué está en juego; NUNCA le digas qué emoción sentir (fuente: studiobinder.com)",
+        "Para una reacción auténtica (sorpresa, miedo), dirige a OTRO actor para que haga algo espontáneo que la provoque, en vez de pedirla directamente (fuente: studiobinder.com)"
+      ],
+      "errores_comunes": [
+        "Sobredirigir al actor: decirle cómo sentirse o cómo actuar exactamente mata la espontaneidad y uniformiza las tomas (fuente: studiobinder.com)",
+        "Criticar una toma sin reconocer primero el trabajo: el actor se cierra y la actuación empeora (fuente: studiobinder.com)",
+        "Tratar bloqueo de actores y colocación de cámara como decisiones separadas: produce escenas funcionales sin subtexto visual (fuente: studiobinder.com)",
+        "Dejar el color como decisión de postproducción: matiz, saturación y brillo del arte definen el mood y se deciden en preproducción (fuente: studiobinder.com)"
+      ]
+    },
+    "diseno-interaccion-usabilidad": {
+      "reglas_para_agentes": [
+        "Toda operación destructiva incluye Deshacer/Rehacer, y el botón Cancelar debe estar visible y etiquetado con claridad (fuente: nngroup.com)",
+        "Asigna al menos el 10% del presupuesto del proyecto a actividades de usabilidad (fuente: nngroup.com)",
+        "Prueba las ideas nuevas con prototipos de papel/baja fidelidad ANTES de escribir código (fuente: nngroup.com)",
+        "Antes de rediseñar, testea el diseño viejo con usuarios para establecer la línea base y saber qué conservar (fuente: nngroup.com)",
+        "Prevención de errores de alto costo: usa valores por defecto seguros, restricciones útiles y advertencias antes de acciones irreversibles (fuente: nngroup.com)",
+        "Ofrece aceleradores (atajos de teclado, gestos) para usuarios avanzados sin estorbar a los novatos (fuente: nngroup.com)"
+      ],
+      "errores_comunes": [
+        "Usar grupos focales para evaluar usabilidad: sirven para investigación de mercado, no para diseño de interacción (fuente: nngroup.com)",
+        "Diferir las pruebas de usuario hasta tener el diseño implementado: ya no hay margen para corregir los problemas críticos (fuente: nngroup.com)",
+        "Ayudar al usuario o dirigir su atención durante una prueba: contamina los resultados (fuente: nngroup.com)",
+        "Escuchar lo que los usuarios DICEN en vez de observar lo que HACEN (fuente: nngroup.com)"
+      ]
+    },
+    "diseno-sonoro-audio-para-video": {
+      "reglas_para_agentes": [
+        "Ducking de reverberación vocal: enruta el bus de reverb con sidechain a la voz seca para que la cola se reduzca mientras la voz está presente y se recupere entre frases (tail suppression/recovery) (fuente: izotope.com)",
+        "Audio para YouTube: contenedor MP4, codec AAC-LC, 48 kHz, moov atom al inicio del archivo (fast start) y SIN edit lists (fuente: support.google.com/youtube)",
+        "Bitrates de audio para YouTube: 384 kbps en estéreo, 512 kbps en 5.1 (fuente: support.google.com/youtube)"
+      ],
+      "errores_comunes": [
+        "Ducking excesivo o sin control de ataque/liberación: genera bombeo audible y antinatural (fuente: izotope.com)",
+        "Incluir edit lists en el MP4 subido a YouTube: rompe el procesamiento del video (fuente: support.google.com/youtube)",
+        "Subir audio a YouTube con frecuencia de muestreo distinta de 48 kHz (fuente: support.google.com/youtube)"
+      ]
+    },
+    "frontend-performance-web": {
+      "reglas_para_agentes": [
+        "Diagnostica páginas excluidas del bfcache con PerformanceNavigationTiming.notRestoredReasons y corrige las causas para lograr navegación atrás/adelante instantánea (fuente: developer.mozilla.org)",
+        "Mide long animation frames (LoAF) con la Performance API para detectar y eliminar jank en animaciones (fuente: developer.mozilla.org)",
+        "Adapta la carga de recursos a la memoria del dispositivo con Navigator.deviceMemory (versiones HD vs ligeras) (fuente: developer.mozilla.org)",
+        "Ejecuta tareas no críticas con requestIdleCallback() para no bloquear el main thread (fuente: developer.mozilla.org)",
+        "Envía analítica con la Beacon API para no bloquear la carga ni perder datos al cerrar la página (fuente: developer.mozilla.org)",
+        "Configura cabeceras de caché también para el documento HTML — no solo para los assets (fuente: web.dev)",
+        "En <video>, usa preload=\"none\" o preload=\"metadata\" para evitar descargas innecesarias (fuente: web.dev)",
+        "Mueve cómputo costoso a Web Workers para mantener el main thread respondiendo (fuente: web.dev)"
+      ],
+      "errores_comunes": [
+        "Usar Date para medir performance en vez de la Performance API de alta precisión (fuente: developer.mozilla.org)",
+        "Confiar solo en mediciones de laboratorio sin RUM (Real User Monitoring): el campo siempre difiere del lab (fuente: web.dev)",
+        "No cachear el HTML: obliga a pedir el documento completo en cada visita (fuente: web.dev)"
+      ]
+    },
+    "montaje-edicion-principios-narrativos-del-corte": {
+      "reglas_para_agentes": [
+        "Corte en J: el audio de la escena entrante comienza ANTES que su imagen — úsalo para anticipar y suavizar transiciones (fuente: studiobinder.com)",
+        "Corte en L: el audio de la escena anterior continúa SOBRE la imagen nueva — úsalo para reacciones y continuidad de diálogo (fuente: studiobinder.com)",
+        "Fundido ≠ disolución: el fade (a negro/blanco) CIERRA una escena; la disolución superpone imágenes y sugiere paso del tiempo o paralelismo — elegir el equivocado cambia el significado (fuente: studiobinder.com)",
+        "Elige el tipo de montaje según el efecto buscado: rítmico (contexto y duración por contenido), tonal (emoción del plano), intelectual (significado por yuxtaposición — su fuerza está en la simplicidad visual) (fuente: premiumbeat.com)"
+      ],
+      "errores_comunes": [
+        "Cortar por conteo mecánico de frames (montaje métrico) ignorando el contenido emocional del plano: resultado discordante y frustrante (fuente: premiumbeat.com)",
+        "Confundir fundido con disolución: el fundido cierra definitivamente, la disolución sugiere continuidad — usarlos al revés rompe la narrativa (fuente: studiobinder.com)",
+        "Creer que el montaje intelectual requiere imágenes complejas: su efectividad radica en la simplicidad de la yuxtaposición (fuente: premiumbeat.com)"
+      ]
+    },
+    "performance-marketing-metricas": {
+      "reglas_para_agentes": [
+        "Al calibrar un MMM (marketing mix model), incorpora datos de alcance y frecuencia por canal — no solo gasto agregado — para poder optimizar la frecuencia objetivo (fuente: github.com/google/meridian)",
+        "En MMM, prioriza el modelado a nivel geográfico cuando existan datos por zona; el modelado nacional es el fallback, no el default (fuente: github.com/google/meridian)"
+      ],
+      "errores_comunes": []
+    },
+    "programacion-creativa-graficos-realtime-web": {
+      "reglas_para_agentes": [
+        "En fragment shaders, normaliza SIEMPRE las coordenadas (gl_FragCoord.xy / u_resolution) al rango [0,1] antes de operar; sin normalizar, el resultado depende de la resolución (fuente: thebookofshaders.com)",
+        "Para patrones repetitivos, escala las coordenadas (multiplicación) y aísla cada celda con fract(st) (fuente: thebookofshaders.com)",
+        "Redimensiona el canvas WebGL con clientWidth/clientHeight × devicePixelRatio en cada resize; ignorar devicePixelRatio produce render borroso en pantallas retina (fuente: webglfundamentals.org)",
+        "Al cargar texturas desde imágenes, configura gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true) o saldrán invertidas verticalmente (fuente: webglfundamentals.org)",
+        "Usa gl.drawElements con vértices indexados en geometrías con vértices compartidos: sin indexar se duplican vértices innecesariamente (fuente: webglfundamentals.org)",
+        "En convoluciones de kernel (3x3), los pesos deben sumar 1.0 (ej. blur: 1/9 por celda); si no suman 1.0 alteran el brillo (fuente: thebookofshaders.com)",
+        "En ray marching, define SIEMPRE distancia máxima de trazado como constante (ej. MAX_DIST = 100.0) para acotar el costo por píxel (fuente: thebookofshaders.com)",
+        "Con múltiples texturas, activa cada unidad con gl.activeTexture(gl.TEXTURE0+n) y asígnala con gl.uniform1i; sin activación explícita todas apuntan a la unidad 0 (fuente: webglfundamentals.org)"
+      ],
+      "errores_comunes": [
+        "No declarar los uniforms del entorno (u_time, u_resolution, u_mouse): el shader compila pero recibe basura o ceros (fuente: thebookofshaders.com)",
+        "Confundir matrices de WebGL (column-major) con notación matemática (row-major): las transformaciones se aplican en orden inverso al esperado (fuente: webglfundamentals.org)",
+        "Ignorar el alpha premultiplicado del canvas: los semitransparentes salen con bordes oscuros o artefactos de blending (fuente: webglfundamentals.org)",
+        "Usar píxeles absolutos en vez de coordenadas normalizadas en shaders: el mismo código se ve distinto según la pantalla (fuente: thebookofshaders.com)"
+      ]
+    },
+    "storyboarding-lenguaje-cinematografico": {
+      "reglas_para_agentes": [
+        "Vocabulario de lentes en boards: largos (narrow) 40-120mm+, cortos (wide) 15-40mm; 50mm ≈ visión humana en formato 35mm (fuente: storyboardart.org)",
+        "NUNCA recortes personajes en las articulaciones (rodillas, tobillos, muñecas): el encuadre se lee incómodo (fuente: storyboardart.org)",
+        "Espacio profundo (deep space) para drama; espacio plano (flat space) para comedia — en comedia el movimiento va frontal o paralelo a cámara (fuente: storyboardart.org)",
+        "En planos medios y cercanos prefiere vistas 3/4 frontales; el perfil cercano es visualmente menos atractivo (fuente: storyboardart.org)",
+        "Dedica hasta 3 de cada 7 días de una asignación SOLO a thumbnails (~1 minuto por thumbnail) antes de pasar a boards finales (fuente: storyboardart.org)",
+        "Máximo 4-6 paneles por página en portafolio: más de 6 se vuelven ilegibles (fuente: storyboardart.org)",
+        "Sombreado de boards finales: máximo 2-3 tonos de gris (fuente: storyboardart.org)",
+        "Máximo un punto de fuga dentro del cuadro; para lente largo separa mucho los puntos de fuga, para lente corto acércalos (fuente: storyboardart.org)"
+      ],
+      "errores_comunes": [
+        "Encuadrar sin aire (breathing room): personajes y objetos apretados incomodan y quitan contexto espacial (fuente: storyboardart.org)",
+        "Usar perfil cercano por defecto en planos medios/cercanos en vez de vistas 3/4 (fuente: storyboardart.org)",
+        "Apurar los roughs esperando que el arte final corrija la claridad: los problemas de staging no se arreglan con dibujo limpio (fuente: storyboardart.org)",
+        "Abusar de flechas en vez de agregar paneles con poses: las flechas no describen la acción con claridad (fuente: storyboardart.org)"
+      ]
+    },
+    "tecnicas-de-mezcla-eq-dinamica-balance": {
+      "reglas_para_agentes": [
+        "Mide el loudness integrado (LUFS) del track completo con medidor K-weighted (gate absoluto -70 LUFS, gate relativo -10 LU) antes de exportar (fuente: izotope.com)",
+        "Limitación en dos etapas para lossless: limitador estándar con techo -1 dBTP seguido de true-peak limiter con techo -0.3 dBTP (fuente: izotope.com)",
+        "Si más del 10-12% del audio cae bajo el gate relativo de la medición LUFS, sube esas secciones con clip gain o compresión upward — sin reducir el crest factor (fuente: izotope.com)",
+        "En álbumes, nivela las canciones según la intención artística y el flujo del disco, no contra el target de normalización de la plataforma (fuente: izotope.com)",
+        "Audita el efecto de los codecs lossy y la normalización de cada plataforma ANTES de exportar (ej. módulo Streaming Preview de RX) (fuente: izotope.com)"
+      ],
+      "errores_comunes": [
+        "Masterizar forzando -14 LUFS como si fuera un target obligatorio: la normalización es un beneficio para el oyente, no una instrucción para el ingeniero (fuente: izotope.com)",
+        "Ignorar que Spotify y Apple Music normalizan POR ÁLBUM cuando se reproducen 2+ canciones seguidas del mismo disco: las relaciones de nivel entre tracks se conservan (fuente: izotope.com)"
+      ]
+    },
+    "tipografia-en-movimiento-motion-design": {
+      "reglas_para_agentes": [
+        "En tipografía cinética con movimientos rápidos y múltiples reencuadres usa cámara de 1 nodo (sin punto de interés); la de 2 nodos es mucho más difícil de controlar (fuente: schoolofmotion.com)",
+        "Marca los beats con marcadores EN LA COMPOSICIÓN (tecla * del teclado numérico), nunca en el layer de audio: al precomponer o mover el layer se pierden (fuente: schoolofmotion.com)",
+        "Usa un objeto nulo (Null) por cada movimiento de cámara distinto, con la cámara parentada al primero y los nulos anidados entre sí para transiciones suaves (fuente: schoolofmotion.com)",
+        "Texturas de fondo con CC Repetile en modo Repeat para percibir el movimiento de cámara; limita a ≤15.000 px o After Effects se arrastra (fuente: schoolofmotion.com)",
+        "Escala las duraciones por dispositivo: tablet +30% respecto a móvil, wearable −30%; escritorio 150-200 ms (fuente: m1.material.io)"
+      ],
+      "errores_comunes": [
+        "Usar cámara de 2 nodos para movimientos rápidos: genera curvas de animación complejas e incontrolables (fuente: schoolofmotion.com)",
+        "Poner los marcadores de sincronía en el layer de audio: se pierden al precomponer y la sincronización se rompe (fuente: schoolofmotion.com)",
+        "Animar la cámara directamente sin objetos nulos: impide encadenar movimientos suaves y reutilizar secuencias (fuente: schoolofmotion.com)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+# OpenAI Image Generation (gpt-image) — Documentación oficial
+Fuente: https://developers.openai.com/api/docs/guides/image-generation
+
+## Model Names and Endpoints
+GPT Image Models: gpt-image-2, gpt-image-1.5, gpt-image-1, gpt-image-1-mini
+APIs:
+- Image API: /v1/images/generations (create) and /v1/images/edits endpoints
+- Responses API: image_generation tool within mainline models (gpt-5+)
+
+## Key Parameters
+- size: 1024x1024, 1536x1024, 1024x1536, 2048x2048, 3840x2160, auto. Max edge: 3840px; multiples of 16px; ratio <= 3:1
+- quality: low, medium, high, auto. Auto is default
+- background: opaque, transparent, auto. gpt-image-2 doesn't support transparent
+- output_format: png, jpeg, webp. Default: png
+- output_compression: 0-100% (for jpeg/webp only)
+- moderation: auto, low. Controls strictness
+- n: integer. Generate multiple images
+- partial_images: 0-3. Streaming partial results
+- action: auto, generate, edit (Responses API only)
+
+## Pricing & Tokens
+gpt-image-2 (output tokens only):
+- Low: 196 tokens (1024x1024)
+- Medium: 1,632 tokens (1024x1024)
+- High: 6,528 tokens (1024x1024)
+Legacy models include input text + image tokens.
+Each partial image adds 100 output tokens.
+
+## Editing Capabilities
+- Image edits endpoint: modify existing images with new prompts
+- Masking: provide mask image (PNG with alpha channel) to specify edit regions
+- Multi-image input: reference multiple images for composition tasks
+- Multi-turn editing: Responses API supports iterative refinement via previous_response_id
+
+## Limitations
+Although significantly improved, the model can still struggle with precise text placement and clarity, and composition control in structured layouts. Latency up to 2 minutes for complex prompts.
+
+## Content Moderation
+All prompts and outputs filtered per usage policies. Errors return optional moderation_details object with moderation_stage (input/output/unknown) and categories (harassment, self-harm, sexual, violence).
+
+## Strengths
+- Strong instruction following and world knowledge (native multimodal GPT model)
+- Best-in-class text rendering among general image models for short strings
+- Multi-image input and mask-based inpainting for precise edits
+- Transparent background support (gpt-image-1 family) for logos/stickers/product cutouts

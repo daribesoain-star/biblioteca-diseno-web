@@ -1,0 +1,576 @@
+How to set up a replenishment email flow (with examples) - Klaviyo
+Skip to main content Platform
+Overview
+The B2C CRM
+Discover how the Klaviyo CRM, built for your business, can help you create lasting customer relationships.
+Klaviyo AI (K:AI)
+Klaviyo Marketing
+Klaviyo Service
+Klaviyo Analytics
+Klaviyo Data Platform
+CHANNELS
+Omnichannel marketing
+AI, data, and channels working as one
+Email marketing
+SMS marketing
+RCS for Business
+Mobile app marketing
+WhatsApp marketing
+Social marketing
+TOP PRODUCTS + FEATURES
+Composer
+Beta
+Customer Agent
+Customer Hub
+Helpdesk
+Marketing Analytics
+Advanced Klaviyo Data Platform
+Segmentation
+Reviews
+Email templates
+KLAVIYO FOR
+Retail + ecommerce
+Restaurant marketing
+Wellness
+Enterprise
+Partners
+Developers
+SPOTLIGHT
+The Klaviyo omniverse
+One platform. Every channel. Real results.
+Composer
+Audit and create flows + campaigns from a prompt
+Customer Agent
+Support + sell with AI powered by your data
+New features
+Get more personal on more channels.
+K:BOS 2026
+Register for the B2C event of the year (September 9-10).
+Apps & Integrations
+KLAVIYO APP MARKETPLACE
+Explore apps
+Integrate with 350+ apps to seamlessly connect all of your data to Klaviyo
+Integration benefits
+Our apps make it simple to integrate your entire tech stack
+Advertising
+Shipping
+Point of sale
+Loyalty
+Subscription
+View top apps and integrations
+Developers
+Create apps and integrations to grow your business using Klaviyo’s APIs
+Getting started
+Developer guides
+API docs
+Resources
+The Klaviyo Power Up
+Your all-in-one success center with answers, resources, and community to keep you growing
+Help center
+Academy
+Community
+Developers
+Support
+Support overview
+Onboarding and support resources to get the most out of Klaviyo
+Professional services
+Enterprise and professional support packages and services
+Partner directory
+Explore partners to work with
+Discover more
+Case studies
+Learn from customers who have grown with Klaviyo
+Blog
+Industry news and growth strategies
+Guides and reports
+Best practices, strategic guidance, and benchmark reports
+Events
+Join us at our flagship conference K:BOS and other events throughout the year
+Trust center
+Trust and security information
+Free Tools
+AI prompt library
+Email marketing templates
+2026 Marketing calendar
+Email subject line generator
+Email & SMS ROI calculator
+K:BOS 2026
+Register for the B2C event of the year (September 9-10)
+What’s New
+Pricing
+United States - EN
+Deutschland - DE
+Australia - EN
+United Kingdom - EN
+Singapore - EN
+España - ES
+France - FR
+Italia - IT
+Log in
+Sign up
+Get a demo
+Platform
+Overview
+The B2C CRM
+Discover how the Klaviyo CRM, built for your business, can help you create lasting customer relationships.
+Klaviyo AI (K:AI)
+Klaviyo Marketing
+Klaviyo Service
+Klaviyo Analytics
+Klaviyo Data Platform
+CHANNELS
+Omnichannel marketing
+AI, data, and channels working as one
+Email marketing
+SMS marketing
+RCS for Business
+Mobile app marketing
+WhatsApp marketing
+Social marketing
+TOP PRODUCTS + FEATURES
+Composer
+Beta
+Customer Agent
+Customer Hub
+Helpdesk
+Marketing Analytics
+Advanced Klaviyo Data Platform
+Segmentation
+Reviews
+Email templates
+KLAVIYO FOR
+Retail + ecommerce
+Restaurant marketing
+Wellness
+Enterprise
+Partners
+Developers
+SPOTLIGHT
+The Klaviyo omniverse
+One platform. Every channel. Real results.
+Composer
+Audit and create flows + campaigns from a prompt
+Customer Agent
+Support + sell with AI powered by your data
+New features
+Get more personal on more channels.
+K:BOS 2026
+Register for the B2C event of the year (September 9-10).
+Apps & Integrations
+KLAVIYO APP MARKETPLACE
+Explore apps
+Integrate with 350+ apps to seamlessly connect all of your data to Klaviyo
+Integration benefits
+Our apps make it simple to integrate your entire tech stack
+Advertising
+Shipping
+Point of sale
+Loyalty
+Subscription
+View top apps and integrations
+Developers
+Create apps and integrations to grow your business using Klaviyo’s APIs
+Getting started
+Developer guides
+API docs
+Resources
+The Klaviyo Power Up
+Your all-in-one success center with answers, resources, and community to keep you growing
+Help center
+Academy
+Community
+Developers
+Support
+Support overview
+Onboarding and support resources to get the most out of Klaviyo
+Professional services
+Enterprise and professional support packages and services
+Partner directory
+Explore partners to work with
+Discover more
+Case studies
+Learn from customers who have grown with Klaviyo
+Blog
+Industry news and growth strategies
+Guides and reports
+Best practices, strategic guidance, and benchmark reports
+Events
+Join us at our flagship conference K:BOS and other events throughout the year
+Trust center
+Trust and security information
+Free Tools
+AI prompt library
+Email marketing templates
+2026 Marketing calendar
+Email subject line generator
+Email & SMS ROI calculator
+K:BOS 2026
+Register for the B2C event of the year (September 9-10)
+What’s New
+Pricing
+Search
+United States - EN United States - EN
+Deutschland - DE
+Australia - EN
+United Kingdom - EN
+Singapore - EN
+España - ES
+France - FR
+Italia - IT
+Sign up
+Get a demo
+Log in
+Home / Blog / Product replenishment email strategies
+Table of contents
+The power of the repeat purchase
+Why replenishment email campaigns belong in your marketing mix
+Why should you send a replenishment email?
+How to set up replenishment automations
+3 great replenishment email examplesyou can learn from
+Repeat sales on repeat
+Replenishment email FAQs
+Product replenishment or repurchase email strategies and tips for automation
+Alexandra McPeak 15 min read
+Email marketing May 27, 2021
+Copy as Markdown Set as Preferred Source
+If your business sells consumable goods or consumer packaged goods (CPGs), sometimes your customers need to be reminded through email automations when they’re running out of your product.
+Enter: The replenishment or repurchase email.
+The power of the repeat purchase
+There’s nothing like acquiring a new customer and getting them to buy from your website for the first time.
+And if you own or work for a small business, sometimes it may seem like the most important thing you can do is to grow the size of your customer base and the number of people on your email list .
+So why should you worry about the repeat purchase rate?
+Because, believe it or not, it can be a make or break for ecommerce brands. For many marketers, the ability to cultivate loyal customers and influence repeat purchases is the most important thing they can do to grow while also earning recurring revenue .
+In fact, the statistics around repeat purchases are pretty jaw-dropping:
+The average ecommerce store earns 41 percent of their total revenue stream from only eight percent of their customers (aka repeat purchasers).
+Customers who have purchased from your brand twice are nine times as likely to convert as first-time shoppers.
+Your top 10 percent of customers are worth six times as much, on average as the other 90 percent.
+Repeat customers spend three times as much as first-time customers.
+Think about it this way: If you could have 100 customers buy something from you once, or you could have 10 customers buy the same product from your brand every month for the rest of their lives, what would you choose? The latter, most likely.
+While it’s probably not breaking news to you that it’s ideal for your customers to buy more than once, the tricky part is figuring out which strategies will encourage shoppers to come back. And if you sell consumables that people can find at their local shop, how do you keep them coming back to your online store every time they need a refill?
+To combat the customer retention challenge, many brands have discovered that setting up a subscription or a membership allows them to guarantee regular repeat purchases.
+But setting up this type of business model isn’t always feasible for every business since there are often higher operational costs and it can be more complex to manage.
+Additionally, not all consumers want to commit to recurring payments and auto-replenishments, so brands that either don’t offer subscription services or operate according to both a subscription and non-subscription model need a different way to influence repeat purchases.
+In a perfect world, you’d have psychic powers that allowed you to know exactly when your customers were running out of a product so you could follow up, but that’s not exactly realistic.
+I can’t grant you psychic powers, but I can introduce you to the magic of the replenishment email.
+Why replenishment email campaigns belong in your marketing mix
+A replenishment email is something ecommerce brands can use to remind existing customers to make their next purchase around the time when the product they bought is likely running low or almost gone.
+As opposed to a subscription reminder, replenishment emails don’t inform customers that their card has been or will be charged or that their product is on the way because the recipient isn’t automatically repurchasing the product. Instead, a replenishment email reminds the customer to place a new order to restock their supply.
+You can set up this type of automated email through most email service providers (ESPs) in order to increase the customer lifetime value (CLTV) and repeat purchase rate.
+For brands that sell consumable goods, also referred to as consumer-packaged goods (CPG) , the name of the game is all about customer retention—for many, it’s not about the number of customers they have, but how often they return to make their next purchase.
+CPGs are any products that eventually run out that you often replenish, including food, beverages, household cleaning products, skincare, makeup, haircare, vitamins, supplements, office supplies—the list goes on. And since CPG ecommerce brands sell products that consumers, well, consume, it makes perfect sense to use a replenishment email automation to encourage customers to restock when they’re likely to run low on their products.
+For example, if you sell olive oil, it makes sense to nudge your customers to restock every two months if that’s how long a bottle typically lasts.
+On the other hand, if you sell bedding and home goods , it’s a little more difficult to predict when your customer is going to buy their next set of sheets and it probably doesn’t make as much sense to remind them to purchase the same product. Instead, a cross-sell or upsell email automation might be a better option.
+Why should you send a replenishment email?
+Won’t your customers just restock your product themselves once they run out?
+Ideally, yes, but your competitors are bombarding your customers with incentives and alternatives to your product on a daily basis. Perhaps your customer loves your coffee, but they’ve just been hit with an enticing ad that’s offering them 10 percent off to try a new brand.
+Not to mention, if your customer does run out of your product before placing a new order with your brand, they may seek out a quicker way to get what they need. Maybe that means stopping by the convenience store down the street or taking advantage of a service that provides same-day shipping. Either way, it means you risk losing out on a potential sale.
+With a replenishment email, you can reach your customers before they even have a chance to consider other options.
+How to set up replenishment automations
+A replenishment email can add immense value to your post-purchase automation email series and is the perfect follow-up to a thank you email, instructional email, or product review request email.
+But how exactly do you set up one? Like with everything else in email marketing, it’s all about communicating with the right people at the right time.
+Learn more about post-purchase emails
+Build a product-based replenishment email
+Once you decide that a replenishment email is a good fit for your brand and customers, building one is fairly simple. And once you set your automation and email content up, you can just let it do all the work when it comes to getting customers back to your site.
+Let me walk you through how you can build a replenishment email automation, otherwise known as a flow, in Klaviyo.
+Start by navigating to the Placed Order event in your account. If you want to make your flow unique to a certain product, add a trigger filter so that once a shopper purchases that product, they trigger the sequence of emails that will follow. Since this automation is based on your shopper’s purchase history for a certain product, it’s known as a product-based flow.
+For product-based replenishment flows, ensure your email only goes to customers who haven’t purchased the product since they first entered the flow in order to ensure they haven’t already restocked the product by themselves. You can do this by adding a flow filter.
+Product-based flows are ideal for brands that sell CPGs, including brands that have many SKUs that aren’t all consumable products or brands that have a variety of consumable products with different buying cycles. For example, if you run a cosmetics brand, the time it takes a customer to run out of foundation might be longer than the time it takes them to run out of mascara.
+Additionally, if you only offer one product or if you mainly promote a hero product, product-based replenishment emails are the perfect solution to encourage repeat purchases.
+Make your emails timely and relevant to the audience
+For replenishment emails, timing is everything. If you send the email too soon, you could end up encouraging customers to repurchase your product well before they need it. But if you’re too late, you risk losing relevancy and your customer may have already found an alternative.
+If your product has a set and established buying cycle, set a time delay based on how long it takes your customers to consume your product. For example, if you sell a vitamin or health supplement that has a 30-day supply, set the time delay between 20 and 25 days to give customers enough time to place a new order and receive it before they run out of their supply.
+For other products, though, it’s not as easy to know how quickly your customers will use them, and it might differ from person to person. For example, a 24-pack of seltzer could take one person four weeks to drink, while another person might finish it over the span of four months.
+That’s where predictive analytics comes into play. If you have enough customer data, you can use the predictive model of Average Time Between Orders to inform your replenishment email time delays.
+For example, if you set up a marketing strategy for the same seltzer brand above and found the average customer went through a 24-pack in 10 weeks, you could use this information to set the time delay on your replenishment email for nine weeks.
+Keep in mind, this data may change as your customers’ behavior evolves, so continue to check this estimate to keep your replenishment emails as timely as possible.
+To hyper-target your customers, you can also use their expected data of the next order in the Repeat Purchase Nurture Series (found in the Flow Library of most automation platforms) to prompt them to buy based on their previous purchase behavior.
+3 great replenishment email examplesyou can learn from
+The best way to think of replenishment emails is as a crossover between a post-purchase email and an abandoned cart email .
+That’s because you’re nurturing your customer while also treating them as a shopper who’s shown an interest and intent to purchase a product—because, in a way, they have.
+Similar to an abandoned cart email, you typically keep your replenishment email focused on the product, but in this case, the focus is on the item you’re convincing them to restock. Additionally, simple copy, product imagery and details, and a clear call-to-action (CTA) go a long way.
+But that doesn’t mean the content has to be boring; you can follow the lead of these three direct-to-consumer (DTC) brands to create a replenishment email that’s engaging and unique to your business.
+1. ILIA Beauty sends replenishment emails as a reminder to restock
+ILIA Beauty offers a variety of clean cosmetic products from their best-selling skin tint to mascara and lipstick. Unfortunately for makeup moguls, though, all of ILIA’s products eventually run out.
+But the brand has clearly been smart in setting up a product-based replenishment email automation, such as the one above that goes out to customers who have bought the brand’s foundation.
+A GIF featuring the foundation is front-and-center in this email, and the surrounding copy informs the customer it’s time to restock while also mentioning some of the product’s unique benefits.
+The email is short and sweet, with minimal content and a distinct CTA that creates no confusion around next steps.
+Tip: ILIA Beauty also personalized the email by mentioning the foundation, which just makes it that much more attention-grabbing for the customer who’s on their last few pumps of the product.
+2. Briogeo sends a product replenishment email a few days earlier with “free” offers
+Consumers will be out of luck if they only realize they’re out of their favorite hair products once they’re already in the shower, which is why Briogeo ’s replenishment email is the perfect reorder reminder.
+The vibrant imagery and animated GIF immediately draw the reader’s eye, and to sweeten the deal, Briogeo offers 10 percent off to anyone who purchases again—a win-win!
+The copy of this email is also extremely relatable to customers by saying, “Don’t get caught having an ‘I stepped into the shower and realized I ran out of everything’ moment,” because there’s nothing worse than realizing you’re out of shampoo after it’s too late.
+Additionally, Briogeo saves a spot at the bottom of the email for product recommendations, which is a great move to entice customers to purchase through an upsell or cross-sell option. In case they don’t need to restock on the product they originally bought, there are plenty of other items to try.
+Tip: Finally, the cherry on top? A promotion at the bottom of the email encourages customers to sign up for Briogeo’s subscription offering so they never have to worry about running out of must-have products again.
+3. Magic Spoon suggests users stock up rather than compromise through their email
+You know when you’re getting low on your favorite cereal, so you start pouring less into your bowl to make it last longer?
+Magic Spoon understands their customers’ pain, and their replenishment email perfectly encapsulates this feeling with their messaging: “Don’t settle for smaller bowls just to savor those sweet spoonfuls. Restock your supply and fill those bowls to the top!”
+Tip: The flow of this email makes it exceptionally easy for the customer to spot the CTA and make their way back to Magic Spoon’s website for their next purchase.
+Not to mention, the design of this email is fun, bright, and funky—which is completely on-brand for this quirky cereal company.
+Repeat sales on repeat
+Your customers are your greatest asset, which means the more you do to cultivate customer loyalty and encourage repeat purchases, the better position you’ll be in for the long run, especially for brands that sell consumables.
+You may not have considered adding a replenishment email to your post-purchase automation, but it’s the perfect way to nurture your customers and stay top of mind once they’re ready to restock. Trust me—they’ll thank you for the reminder.
+Replenishment email FAQs
+What is a replenishment email? A replenishment email is an automated email sent to existing customers to motivate them to buy the product they purchased from you at least once before. This type of email is used to target customers who require products and services that need to be replenished on a somewhat regular basis.
+What are the benefits of a replenishment email? Replenishment emails are intended to trigger re-engagement, improve customer experience, and boost customer loyalty. The ultimate goal of repurchasing emails is to increase conversion rates, boost loyalty, and drive higher revenue.
+How do you motivate your existing customers to order from you again? The best way to drive higher repurchase rates is to offer your customers attractive and personalized incentives. These can include various coupons, next-order discounts, free shipping, or special offers for VIP customers.
+Ready to grow your business?
+Try Klaviyo today
+Alexandra McPeak
+Alex McPeak is a Content Strategist at Klaviyo. She helps entrepreneurs and small businesses grow. Before joining Klaviyo in 2020, Alex spent several years writing, editing, and podcasting throughout the Boston tech scene. Alex graduated from Emmanuel College. Outside of work, Alex enjoys traveling to warmer places, reading mystery novels, and eating sushi.
+Set as Preferred Source
+Related content
+Read
+Email marketing Jul 6, 2026
+Stand out in the inbox during BFCM Gmail Annotations put your deal, discount code, and images in the inbox preview before subscribers open. Set them up in Klaviyo to stand out during peak BFCM.
+Read
+Email marketing Jun 26, 2026
+When to send Black Friday emails Timing can make or break your Black Friday success. Discover when to send Black Friday emails, SMS, and WhatsApp messages to drive engagement, maximize revenue, and win the inbox—backed by Klaviyo’s latest consumer and platform data.
+Read
+Email marketing May 26, 2026
+AI reads your emails before your customers do Gmail, Apple Intelligence, and AI filters are reshaping email marketing. Learn how to optimize your emails for AI-driven inboxes and better engagement.
+# Product replenishment or repurchase email strategies and tips for automation
+If your business sells consumable goods or consumer packaged goods (CPGs), sometimes your customers need to be reminded through [email automations](https://www.klaviyo.com/features/ecommerce-marketing-automation) when they’re running out of your product.
+Enter: The replenishment or repurchase email.
+## **The power of the repeat purchase**
+There’s nothing like acquiring a new customer and getting them to buy from your website for the first time.
+And if you own or work for a small business, sometimes it may seem like the most important thing you can do is to grow the size of your customer base and the number of people on your [email list](https://www.klaviyo.com/blog/email-list-building-strategies).
+So why should you worry about the repeat purchase rate?
+Because, believe it or not, it can be a make or break for ecommerce brands. For many marketers, the ability to cultivate loyal customers and influence repeat purchases is the most important thing they can do to grow while also earning [recurring revenue](https://www.mosaic.tech/financial-metrics/annual-recurring-revenue-arr).
+In fact, the [statistics around repeat purchases](https://business.adobe.com/ca/why-adobe/digital-economy.html) are pretty jaw-dropping:
+- The average ecommerce store earns 41 percent of their total revenue stream from only eight percent of their customers (aka repeat purchasers).
+- Customers who have purchased from your brand twice are nine times as likely to convert as first-time shoppers.
+- Your top 10 percent of customers are worth six times as much, on average as the other 90 percent.
+- Repeat customers spend three times as much as first-time customers.
+**Think about it this way: **If you could have 100 customers buy something from you once, or you could have 10 customers buy the same product from your brand every month for the rest of their lives, what would you choose? The latter, most likely.
+While it’s probably not breaking news to you that it’s ideal for your customers to buy more than once, the tricky part is figuring out which strategies will encourage shoppers to come back. And if you sell consumables that people can find at their local shop, how do you keep them coming back to your online store every time they need a refill?
+To combat the customer retention challenge, many brands have discovered that setting up a subscription or a membership allows them to guarantee regular repeat purchases.
+But setting up this type of business model isn’t always feasible for every business since there are often higher operational costs and it can be more complex to manage.
+Additionally, not all consumers want to commit to recurring payments and auto-replenishments, so brands that either don’t offer subscription services or operate according to both a subscription and non-subscription model need a different way to influence repeat purchases.
+In a perfect world, you’d have psychic powers that allowed you to know exactly when your customers were running out of a product so you could follow up, but that’s not exactly realistic.
+I can’t grant you psychic powers, but I can introduce you to the magic of the replenishment email.
+## **Why replenishment email campaigns belong in your marketing mix**
+A replenishment email is something ecommerce brands can use to remind existing customers to make their next purchase around the time when the product they bought is likely running low or almost gone.
+As opposed to a subscription reminder, replenishment emails don’t inform customers that their card has been or will be charged or that their product is on the way because the recipient isn’t automatically repurchasing the product. Instead, a replenishment email reminds the customer to place a new order to restock their supply.
+You can set up this type of automated email through most email service providers (ESPs) in order to increase the customer lifetime value (CLTV) and repeat purchase rate.
+For brands that sell consumable goods, also referred to as [consumer-packaged goods (CPG)](https://www.klaviyo.com/blog/cpg-ecommerce-best-practices), the name of the game is all about customer retention—for many, it’s not about the number of customers they have, but how often they return to make their next purchase.
+CPGs are any products that eventually run out that you often replenish, including food, beverages, household cleaning products, skincare, makeup, haircare, vitamins, supplements, office supplies—the list goes on. And since [CPG ecommerce brands](https://www.klaviyo.com/blog/cpg-ecommerce-best-practices) sell products that consumers, well, consume, it makes perfect sense to use a replenishment email automation to encourage customers to restock when they’re likely to run low on their products.
+For example, if you sell olive oil, it makes sense to nudge your customers to restock every two months if that’s how long a bottle typically lasts.
+On the other hand, [if you sell bedding and home goods](http://www.klaviyo.com/blog/home-furnishings-marketing-strategy), it’s a little more difficult to predict when your customer is going to buy their next set of sheets and it probably doesn’t make as much sense to remind them to purchase the same product. Instead, a [cross-sell or upsell email automation](https://www.klaviyo.com/blog/email-automation-basics) might be a better option.
+## **Why should you send a replenishment email?**
+Won’t your customers just restock your product themselves once they run out?
+Ideally, yes, but your competitors are bombarding your customers with incentives and alternatives to your product on a daily basis. Perhaps your customer loves your coffee, but they’ve just been hit with an enticing ad that’s offering them 10 percent off to try a new brand.
+Not to mention, if your customer does run out of your product before placing a new order with your brand, they may seek out a quicker way to get what they need. Maybe that means stopping by the convenience store down the street or taking advantage of a service that provides same-day shipping. Either way, it means you risk losing out on a potential sale.
+With a replenishment email, you can reach your customers before they even have a chance to consider other options.
+## **How to set up replenishment automations**
+A replenishment email can add immense value to your post-purchase automation email series and is the perfect follow-up to a thank you email, instructional email, or product review request email.
+But how exactly do you set up one? Like with everything else in email marketing, it’s all about communicating with the right people at the right time.
+[Learn more about post-purchase emails](https://www.klaviyo.com/blog/post-purchase-emails)
+### **Build a product-based replenishment email**
+Once you decide that a replenishment email is a good fit for your brand and customers, building one is fairly simple. And once you set your automation and email content up, you can just let it do all the work when it comes to getting customers back to your site.
+Let me walk you through how you can build a replenishment email automation, otherwise known as a flow, in Klaviyo.
+Start by navigating to the Placed Order event in your account. If you want to make your flow unique to a certain product, add a trigger filter so that once a shopper purchases that product, they trigger the sequence of emails that will follow. Since this automation is based on your shopper’s purchase history for a certain product, it’s known as a product-based flow.
+For product-based replenishment flows, ensure your email only goes to customers who haven’t purchased the product since they first entered the flow in order to ensure they haven’t already restocked the product by themselves. You can do this by adding a flow filter.
+![](https://cdn.sanity.io/images/6ct6b26e/marketing-prod/cfe052a9ab6c611b294e389fbf8b4defc2a0b834-347x495.webp)
+Product-based flows are ideal for brands that sell CPGs, including brands that have many SKUs that aren’t all consumable products or brands that have a variety of consumable products with different buying cycles. For example, if you run a cosmetics brand, the time it takes a customer to run out of foundation might be longer than the time it takes them to run out of mascara.
+Additionally, if you only offer one product or if you mainly promote a hero product, product-based replenishment emails are the perfect solution to encourage repeat purchases.
+### **Make your emails timely and relevant to the audience**
+For replenishment emails, timing is everything. If you send the email too soon, you could end up encouraging customers to repurchase your product well before they need it. But if you’re too late, you risk losing relevancy and your customer may have already found an alternative.
+If your product has a set and established buying cycle, set a time delay based on how long it takes your customers to consume your product. For example, if you sell a vitamin or health supplement that has a 30-day supply, set the time delay between 20 and 25 days to give customers enough time to place a new order and receive it before they run out of their supply.
+![](https://cdn.sanity.io/images/6ct6b26e/marketing-prod/d2d3d1d4b84220f090810efbc9d2a0892952c490-331x235.webp)
+For other products, though, it’s not as easy to know how quickly your customers will use them, and it might differ from person to person. For example, a 24-pack of seltzer could take one person four weeks to drink, while another person might finish it over the span of four months.
+That’s where predictive analytics comes into play. If you have enough customer data, you can use the predictive model of Average Time Between Orders to inform your replenishment email time delays.
+For example, if you set up a marketing strategy for the same seltzer brand above and found the average customer went through a 24-pack in 10 weeks, you could use this information to set the time delay on your replenishment email for nine weeks.
+Keep in mind, this data may change as your customers’ behavior evolves, so continue to check this estimate to keep your replenishment emails as timely as possible.
+To hyper-target your customers, you can also use their expected data of the next order in the Repeat Purchase Nurture Series (found in the Flow Library of most automation platforms) to prompt them to buy based on their previous purchase behavior.
+![](https://cdn.sanity.io/images/6ct6b26e/marketing-prod/aa11b9388904bbe8f459ad804a89fd6fcc0a21bd-1186x1510.webp)
+## **3 great replenishment email examplesyou can learn from**
+The best way to think of replenishment emails is as a crossover between a post-purchase email and an [abandoned cart email](https://www.klaviyo.com/blog/abandoned-cart-email).
+That’s because you’re nurturing your customer while also treating them as a shopper who’s shown an interest and intent to purchase a product—because, in a way, they have.
+Similar to an abandoned cart email, you typically keep your replenishment email focused on the product, but in this case, the focus is on the item you’re convincing them to restock. Additionally, simple copy, product imagery and details, and a clear call-to-action (CTA) go a long way.
+But that doesn’t mean the content has to be boring; you can follow the lead of these three [direct-to-consumer](https://www.klaviyo.com/blog/what-is-dtc) (DTC) brands to create a replenishment email that’s engaging and unique to your business.
+### **1. ILIA Beauty sends replenishment emails as a reminder to restock**
+![](https://cdn.sanity.io/images/6ct6b26e/marketing-prod/cd17bd418d9b7a3ded8868d3343ba204a183bb44-1318x1984.webp)
+[ILIA Beauty](https://iliabeauty.com/) offers a variety of clean cosmetic products from their best-selling skin tint to mascara and lipstick. Unfortunately for makeup moguls, though, all of ILIA’s products eventually run out.
+But the brand has clearly been smart in setting up a product-based replenishment email automation, such as the one above that goes out to customers who have bought the brand’s foundation.
+A GIF featuring the foundation is front-and-center in this email, and the surrounding copy informs the customer it’s time to restock while also mentioning some of the product’s unique benefits.
+The email is short and sweet, with minimal content and a distinct CTA that creates no confusion around next steps.
+**Tip: **ILIA Beauty also personalized the email by mentioning the foundation, which just makes it that much more attention-grabbing for the customer who’s on their last few pumps of the product.
+### **2. Briogeo sends a product replenishment email a few days earlier with “free” offers**
+![](https://cdn.sanity.io/images/6ct6b26e/marketing-prod/1cc0a9898634fc98c7653ecf49340a96c91ce0a0-1249x5874.webp)
+Consumers will be out of luck if they only realize they’re out of their favorite hair products once they’re already in the shower, which is why [Briogeo](https://briogeohair.com/)’s replenishment email is the perfect reorder reminder.
+The vibrant imagery and animated GIF immediately draw the reader’s eye, and to sweeten the deal, Briogeo offers 10 percent off to anyone who purchases again—a win-win!
+The copy of this email is also extremely relatable to customers by saying, “Don’t get caught having an ‘I stepped into the shower and realized I ran out of everything’ moment,” because there’s nothing worse than realizing you’re out of shampoo after it’s too late.
+Additionally, Briogeo saves a spot at the bottom of the email for product recommendations, which is a great move to entice customers to purchase through an upsell or cross-sell option. In case they don’t need to restock on the product they originally bought, there are plenty of other items to try.
+**Tip:** Finally, the cherry on top? A promotion at the bottom of the email encourages customers to sign up for Briogeo’s subscription offering so they never have to worry about running out of must-have products again.
+### **3. Magic Spoon suggests users stock up rather than compromise through their email**
+![](https://cdn.sanity.io/images/6ct6b26e/marketing-prod/b0cf67b9f8cc6a9f92a7c62fabf6568814f163d8-804x2560.webp)
+You know when you’re getting low on your favorite cereal, so you start pouring less into your bowl to make it last longer?
+[Magic Spoon](https://magicspoon.com/) understands their customers’ pain, and their replenishment email perfectly encapsulates this feeling with their messaging: “Don’t settle for smaller bowls just to savor those sweet spoonfuls. Restock your supply and fill those bowls to the top!”
+**Tip: **The flow of this email makes it exceptionally easy for the customer to spot the CTA and make their way back to Magic Spoon’s website for their next purchase.
+Not to mention, the design of this email is fun, bright, and funky—which is completely on-brand for this quirky cereal company.
+## **Repeat sales on repeat**
+Your customers are your greatest asset, which means the more you do to cultivate customer loyalty and encourage repeat purchases, the better position you’ll be in for the long run, especially for brands that sell consumables.
+You may not have considered adding a replenishment email to your post-purchase automation, but it’s the perfect way to nurture your customers and stay top of mind once they’re ready to restock. Trust me—they’ll thank you for the reminder.
+## Replenishment email FAQs
+<div class="accordion undefined"></div>
+```json
+{
+"_createdAt": "2026-01-20T03:16:40Z",
+"_id": "276888b9-f56d-4f4c-be35-78fd223414f2",
+"_key": "oR5rmzJRTTTXSt7VQbjz9o",
+"_ref": "276888b9-f56d-4f4c-be35-78fd223414f2",
+"_rev": "ZBhW7YOQyaKsazOyPev4dS",
+"_type": "ctaDocument",
+"_updatedAt": "2026-05-05T16:34:00Z",
+"button": {
+"_key": "a3a9f0c1-0eef-4de8-b670-bee215e4d823",
+"_type": "button",
+"buttonText": "Try Klaviyo today",
+"buttonType": "primary",
+"buttonUrl": "?modal=signup"
+},
+"content": [
+{
+"_key": "77742dd6-c33a-4300-a9a6-2bc7ed101e82",
+"_type": "block",
+"children": [
+{
+"_key": "0008cb66-9f6d-4df5-9f07-bb40deb9e5a7",
+"_type": "span",
+"marks": [],
+"text": "Ready to grow your business?"
+}
+],
+"markDefs": [],
+"style": "normal"
+}
+],
+"language": "en-US"
+}
+```
+Company About Klaviyo
+Newsroom
+Investor relations
+Contact us
+Careers
+Klaviyo for Enterprise
+Agency and tech partners
+Developers
+Retail and ecommerce
+Restaurant marketing
+Wellness
+Platform B2C CRM overview
+Klaviyo AI (K:AI)
+Klaviyo Marketing
+Klaviyo Service
+Klaviyo Analytics
+Klaviyo Data Platform
+Klaviyo and GDPR
+Why Klaviyo Klaviyo vs. Klaviyo alternatives
+Klaviyo vs. Mailchimp
+Klaviyo vs. Postscript
+Klaviyo vs. Attentive
+Klaviyo vs. Salesforce
+Klaviyo vs. Listrak
+Channels Omnichannel marketing
+Email marketing
+SMS marketing
+RCS for Business
+Mobile app marketing
+WhatsApp marketing
+Social marketing
+Tools + Resources Marketing resources
+AI prompt library
+Marketing campaign calendar
+Marketing glossary
+Subject line generator
+ROI calculator
+Case studies
+Top Products + Features Composer
+Beta
+Customer Agent
+Customer Hub
+Helpdesk
+Marketing Analytics
+Advanced Klaviyo Data Platform
+Web forms
+Email templates
+Explore more Portfolio
+Apps and Integrations
+Features
+What's new
+Events
+Help Center
+Academy
+Community
+Company About Klaviyo
+Newsroom
+Investor relations
+Contact us
+Careers
+Platform B2C CRM overview
+Klaviyo AI (K:AI)
+Klaviyo Marketing
+Klaviyo Service
+Klaviyo Analytics
+Klaviyo Data Platform
+Klaviyo and GDPR
+Channels Omnichannel marketing
+Email marketing
+SMS marketing
+RCS for Business
+Mobile app marketing
+WhatsApp marketing
+Social marketing
+Top Products + Features Composer
+Beta
+Customer Agent
+Customer Hub
+Helpdesk
+Marketing Analytics
+Advanced Klaviyo Data Platform
+Web forms
+Email templates
+Klaviyo for Enterprise
+Agency and tech partners
+Developers
+Retail and ecommerce
+Restaurant marketing
+Wellness
+Why Klaviyo Klaviyo vs. Klaviyo alternatives
+Klaviyo vs. Mailchimp
+Klaviyo vs. Postscript
+Klaviyo vs. Attentive
+Klaviyo vs. Salesforce
+Klaviyo vs. Listrak
+Tools + Resources Marketing resources
+AI prompt library
+Marketing campaign calendar
+Marketing glossary
+Subject line generator
+ROI calculator
+Case studies
+Explore more Portfolio
+Apps and Integrations
+Features
+What's new
+Events
+Help Center
+Academy
+Community
+United States - EN United States - EN
+Deutschland - DE
+Australia - EN
+United Kingdom - EN
+Singapore - EN
+España - ES
+France - FR
+Italia - IT
+The B2C CRM
+Facebook Twitter LinkedIn Instagram Google
+Copyright © 2026 Klaviyo. All rights reserved.
+Site Map
+Terms and Privacy
+Security
+Trust
+Intellectual Property Notices

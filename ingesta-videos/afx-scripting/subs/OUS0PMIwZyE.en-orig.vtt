@@ -1,0 +1,3864 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.240 align:start position:0%
+ 
+hello<00:00:00.480><c> everyone</c><00:00:00.900><c> in</c><00:00:01.110><c> today's</c><00:00:01.290><c> video</c><00:00:01.890><c> I'll</c><00:00:02.100><c> be</c>
+
+00:00:02.240 --> 00:00:02.250 align:start position:0%
+hello everyone in today's video I'll be
+ 
+
+00:00:02.250 --> 00:00:03.560 align:start position:0%
+hello everyone in today's video I'll be
+showing<00:00:02.520><c> you</c><00:00:02.730><c> how</c><00:00:02.879><c> to</c><00:00:02.909><c> create</c><00:00:03.300><c> a</c><00:00:03.330><c> batch</c>
+
+00:00:03.560 --> 00:00:03.570 align:start position:0%
+showing you how to create a batch
+ 
+
+00:00:03.570 --> 00:00:06.200 align:start position:0%
+showing you how to create a batch
+processing<00:00:04.350><c> script</c><00:00:04.620><c> or</c><00:00:04.859><c> After</c><00:00:05.190><c> Effects</c><00:00:05.520><c> using</c>
+
+00:00:06.200 --> 00:00:06.210 align:start position:0%
+processing script or After Effects using
+ 
+
+00:00:06.210 --> 00:00:08.089 align:start position:0%
+processing script or After Effects using
+extend<00:00:06.629><c> script</c><00:00:06.960><c> now</c><00:00:07.560><c> this</c><00:00:07.740><c> is</c><00:00:07.859><c> what</c><00:00:07.980><c> we're</c>
+
+00:00:08.089 --> 00:00:08.099 align:start position:0%
+extend script now this is what we're
+ 
+
+00:00:08.099 --> 00:00:09.830 align:start position:0%
+extend script now this is what we're
+going<00:00:08.280><c> to</c><00:00:08.309><c> be</c><00:00:08.460><c> creating</c><00:00:08.639><c> today</c><00:00:09.030><c> it's</c><00:00:09.360><c> a</c><00:00:09.420><c> simple</c>
+
+00:00:09.830 --> 00:00:09.840 align:start position:0%
+going to be creating today it's a simple
+ 
+
+00:00:09.840 --> 00:00:11.570 align:start position:0%
+going to be creating today it's a simple
+little<00:00:10.080><c> batch</c><00:00:10.290><c> processor</c><00:00:10.950><c> here</c><00:00:11.130><c> with</c><00:00:11.309><c> four</c>
+
+00:00:11.570 --> 00:00:11.580 align:start position:0%
+little batch processor here with four
+ 
+
+00:00:11.580 --> 00:00:13.520 align:start position:0%
+little batch processor here with four
+different<00:00:11.910><c> functions</c><00:00:12.330><c> the</c><00:00:12.599><c> first</c><00:00:13.170><c> of</c><00:00:13.380><c> which</c>
+
+00:00:13.520 --> 00:00:13.530 align:start position:0%
+different functions the first of which
+ 
+
+00:00:13.530 --> 00:00:15.350 align:start position:0%
+different functions the first of which
+will<00:00:13.740><c> change</c><00:00:13.920><c> all</c><00:00:14.190><c> compositions</c><00:00:14.610><c> beginning</c>
+
+00:00:15.350 --> 00:00:15.360 align:start position:0%
+will change all compositions beginning
+ 
+
+00:00:15.360 --> 00:00:17.930 align:start position:0%
+will change all compositions beginning
+time<00:00:15.540><c> codes</c><00:00:15.839><c> to</c><00:00:16.049><c> zero</c><00:00:16.320><c> seconds</c><00:00:16.859><c> the</c><00:00:17.550><c> second</c>
+
+00:00:17.930 --> 00:00:17.940 align:start position:0%
+time codes to zero seconds the second
+ 
+
+00:00:17.940 --> 00:00:19.490 align:start position:0%
+time codes to zero seconds the second
+one<00:00:18.029><c> will</c><00:00:18.180><c> change</c><00:00:18.420><c> every</c><00:00:18.750><c> text</c><00:00:19.080><c> layer</c><00:00:19.230><c> in</c><00:00:19.410><c> a</c>
+
+00:00:19.490 --> 00:00:19.500 align:start position:0%
+one will change every text layer in a
+ 
+
+00:00:19.500 --> 00:00:21.730 align:start position:0%
+one will change every text layer in a
+selected<00:00:19.920><c> comp</c><00:00:20.189><c> to</c><00:00:20.430><c> some</c><00:00:20.609><c> predefined</c><00:00:21.150><c> values</c>
+
+00:00:21.730 --> 00:00:21.740 align:start position:0%
+selected comp to some predefined values
+ 
+
+00:00:21.740 --> 00:00:23.929 align:start position:0%
+selected comp to some predefined values
+predefined<00:00:22.740><c> values</c><00:00:23.130><c> being</c><00:00:23.340><c> a</c><00:00:23.460><c> predefined</c>
+
+00:00:23.929 --> 00:00:23.939 align:start position:0%
+predefined values being a predefined
+ 
+
+00:00:23.939 --> 00:00:27.380 align:start position:0%
+predefined values being a predefined
+font<00:00:24.300><c> fill</c><00:00:24.810><c> color</c><00:00:25.189><c> stroke</c><00:00:26.189><c> color</c><00:00:26.460><c> and</c><00:00:26.730><c> font</c>
+
+00:00:27.380 --> 00:00:27.390 align:start position:0%
+font fill color stroke color and font
+ 
+
+00:00:27.390 --> 00:00:29.900 align:start position:0%
+font fill color stroke color and font
+size<00:00:27.720><c> the</c><00:00:28.080><c> third</c><00:00:29.010><c> function</c><00:00:29.279><c> will</c><00:00:29.640><c> apply</c><00:00:29.880><c> a</c>
+
+00:00:29.900 --> 00:00:29.910 align:start position:0%
+size the third function will apply a
+ 
+
+00:00:29.910 --> 00:00:32.030 align:start position:0%
+size the third function will apply a
+predefined<00:00:30.599><c> effect</c><00:00:30.990><c> to</c><00:00:31.199><c> every</c><00:00:31.500><c> layer</c><00:00:31.710><c> in</c><00:00:31.949><c> a</c>
+
+00:00:32.030 --> 00:00:32.040 align:start position:0%
+predefined effect to every layer in a
+ 
+
+00:00:32.040 --> 00:00:33.889 align:start position:0%
+predefined effect to every layer in a
+selected<00:00:32.460><c> comp</c><00:00:32.759><c> which</c><00:00:33.210><c> right</c><00:00:33.450><c> now</c><00:00:33.600><c> we</c><00:00:33.660><c> have</c>
+
+00:00:33.889 --> 00:00:33.899 align:start position:0%
+selected comp which right now we have
+ 
+
+00:00:33.899 --> 00:00:35.770 align:start position:0%
+selected comp which right now we have
+setup<00:00:34.140><c> to</c><00:00:34.380><c> the</c><00:00:34.410><c> black</c><00:00:34.770><c> and</c><00:00:34.980><c> white</c><00:00:35.100><c> effect</c><00:00:35.250><c> and</c>
+
+00:00:35.770 --> 00:00:35.780 align:start position:0%
+setup to the black and white effect and
+ 
+
+00:00:35.780 --> 00:00:38.180 align:start position:0%
+setup to the black and white effect and
+finally<00:00:36.780><c> we</c><00:00:36.899><c> have</c><00:00:37.050><c> a</c><00:00:37.079><c> scalar</c><00:00:37.620><c> which</c><00:00:37.800><c> will</c>
+
+00:00:38.180 --> 00:00:38.190 align:start position:0%
+finally we have a scalar which will
+ 
+
+00:00:38.190 --> 00:00:39.979 align:start position:0%
+finally we have a scalar which will
+multiply<00:00:38.520><c> the</c><00:00:38.610><c> scale</c><00:00:38.969><c> of</c><00:00:39.149><c> every</c><00:00:39.450><c> layer</c><00:00:39.660><c> in</c><00:00:39.899><c> the</c>
+
+00:00:39.979 --> 00:00:39.989 align:start position:0%
+multiply the scale of every layer in the
+ 
+
+00:00:39.989 --> 00:00:42.549 align:start position:0%
+multiply the scale of every layer in the
+Select<00:00:40.320><c> comp</c><00:00:40.680><c> by</c><00:00:41.129><c> a</c><00:00:41.160><c> predefined</c><00:00:41.790><c> percentage</c>
+
+00:00:42.549 --> 00:00:42.559 align:start position:0%
+Select comp by a predefined percentage
+ 
+
+00:00:42.559 --> 00:00:44.869 align:start position:0%
+Select comp by a predefined percentage
+so<00:00:43.559><c> let's</c><00:00:43.980><c> go</c><00:00:44.100><c> ahead</c><00:00:44.160><c> and</c><00:00:44.309><c> take</c><00:00:44.430><c> a</c><00:00:44.460><c> look</c><00:00:44.700><c> at</c><00:00:44.789><c> how</c>
+
+00:00:44.869 --> 00:00:44.879 align:start position:0%
+so let's go ahead and take a look at how
+ 
+
+00:00:44.879 --> 00:00:47.090 align:start position:0%
+so let's go ahead and take a look at how
+it<00:00:45.000><c> works</c><00:00:45.180><c> we've</c><00:00:45.989><c> got</c><00:00:46.170><c> this</c><00:00:46.289><c> comp</c><00:00:46.620><c> here</c><00:00:46.950><c> and</c>
+
+00:00:47.090 --> 00:00:47.100 align:start position:0%
+it works we've got this comp here and
+ 
+
+00:00:47.100 --> 00:00:49.250 align:start position:0%
+it works we've got this comp here and
+several<00:00:47.610><c> other</c><00:00:47.879><c> comps</c><00:00:48.360><c> that</c><00:00:48.450><c> don't</c><00:00:48.840><c> start</c><00:00:49.140><c> at</c>
+
+00:00:49.250 --> 00:00:49.260 align:start position:0%
+several other comps that don't start at
+ 
+
+00:00:49.260 --> 00:00:52.549 align:start position:0%
+several other comps that don't start at
+zero<00:00:49.700><c> this</c><00:00:50.700><c> one</c><00:00:50.940><c> starts</c><00:00:51.210><c> at</c><00:00:51.300><c> 300</c><00:00:51.780><c> frames</c><00:00:52.050><c> or</c><00:00:52.289><c> 12</c>
+
+00:00:52.549 --> 00:00:52.559 align:start position:0%
+zero this one starts at 300 frames or 12
+ 
+
+00:00:52.559 --> 00:00:55.639 align:start position:0%
+zero this one starts at 300 frames or 12
+seconds<00:00:53.039><c> this</c><00:00:53.219><c> one</c><00:00:53.399><c> starts</c><00:00:53.699><c> at</c><00:00:53.850><c> 14</c><00:00:54.600><c> hours</c><00:00:55.020><c> so</c>
+
+00:00:55.639 --> 00:00:55.649 align:start position:0%
+seconds this one starts at 14 hours so
+ 
+
+00:00:55.649 --> 00:00:57.380 align:start position:0%
+seconds this one starts at 14 hours so
+go<00:00:55.890><c> ahead</c><00:00:55.980><c> and</c><00:00:56.100><c> apply</c><00:00:56.430><c> our</c><00:00:56.640><c> first</c><00:00:56.910><c> function</c>
+
+00:00:57.380 --> 00:00:57.390 align:start position:0%
+go ahead and apply our first function
+ 
+
+00:00:57.390 --> 00:01:00.049 align:start position:0%
+go ahead and apply our first function
+and<00:00:58.190><c> you</c><00:00:59.190><c> can</c><00:00:59.340><c> see</c><00:00:59.520><c> it</c><00:00:59.670><c> completed</c>
+
+00:01:00.049 --> 00:01:00.059 align:start position:0%
+and you can see it completed
+ 
+
+00:01:00.059 --> 00:01:02.389 align:start position:0%
+and you can see it completed
+successfully<00:01:00.570><c> and</c><00:01:01.020><c> now</c><00:01:01.410><c> all</c><00:01:01.710><c> of</c><00:01:01.829><c> our</c><00:01:01.949><c> comps</c>
+
+00:01:02.389 --> 00:01:02.399 align:start position:0%
+successfully and now all of our comps
+ 
+
+00:01:02.399 --> 00:01:05.240 align:start position:0%
+successfully and now all of our comps
+have<00:01:02.520><c> a</c><00:01:02.550><c> start</c><00:01:02.879><c> time</c><00:01:02.910><c> code</c><00:01:03.359><c> of</c><00:01:03.390><c> 0</c><00:01:03.930><c> now</c><00:01:04.860><c> we</c><00:01:04.920><c> have</c>
+
+00:01:05.240 --> 00:01:05.250 align:start position:0%
+have a start time code of 0 now we have
+ 
+
+00:01:05.250 --> 00:01:07.190 align:start position:0%
+have a start time code of 0 now we have
+a<00:01:05.489><c> text</c><00:01:06.030><c> layer</c><00:01:06.210><c> that</c><00:01:06.510><c> is</c><00:01:06.600><c> kind</c><00:01:06.840><c> of</c><00:01:06.900><c> hard</c><00:01:07.110><c> to</c>
+
+00:01:07.190 --> 00:01:07.200 align:start position:0%
+a text layer that is kind of hard to
+ 
+
+00:01:07.200 --> 00:01:09.590 align:start position:0%
+a text layer that is kind of hard to
+read<00:01:07.409><c> and</c><00:01:07.680><c> say</c><00:01:08.580><c> we</c><00:01:08.729><c> had</c><00:01:08.880><c> a</c><00:01:08.909><c> hundred</c><00:01:09.330><c> of</c><00:01:09.450><c> these</c>
+
+00:01:09.590 --> 00:01:09.600 align:start position:0%
+read and say we had a hundred of these
+ 
+
+00:01:09.600 --> 00:01:11.300 align:start position:0%
+read and say we had a hundred of these
+in<00:01:09.810><c> a</c><00:01:09.900><c> layer</c><00:01:10.140><c> and</c><00:01:10.409><c> we</c><00:01:10.740><c> didn't</c><00:01:10.979><c> want</c><00:01:11.100><c> to</c><00:01:11.159><c> go</c>
+
+00:01:11.300 --> 00:01:11.310 align:start position:0%
+in a layer and we didn't want to go
+ 
+
+00:01:11.310 --> 00:01:12.890 align:start position:0%
+in a layer and we didn't want to go
+through<00:01:11.549><c> and</c><00:01:11.700><c> change</c><00:01:11.880><c> each</c><00:01:12.180><c> of</c><00:01:12.360><c> them</c><00:01:12.479><c> this</c>
+
+00:01:12.890 --> 00:01:12.900 align:start position:0%
+through and change each of them this
+ 
+
+00:01:12.900 --> 00:01:14.630 align:start position:0%
+through and change each of them this
+would<00:01:13.110><c> be</c><00:01:13.200><c> super</c><00:01:13.560><c> useful</c><00:01:13.740><c> we</c><00:01:14.100><c> just</c><00:01:14.280><c> click</c><00:01:14.490><c> on</c>
+
+00:01:14.630 --> 00:01:14.640 align:start position:0%
+would be super useful we just click on
+ 
+
+00:01:14.640 --> 00:01:17.719 align:start position:0%
+would be super useful we just click on
+texture<00:01:15.200><c> completed</c><00:01:16.200><c> successfully</c><00:01:16.619><c> and</c><00:01:17.040><c> we've</c>
+
+00:01:17.719 --> 00:01:17.729 align:start position:0%
+texture completed successfully and we've
+ 
+
+00:01:17.729 --> 00:01:19.310 align:start position:0%
+texture completed successfully and we've
+changed<00:01:18.060><c> it</c><00:01:18.210><c> to</c><00:01:18.299><c> our</c><00:01:18.390><c> predefined</c><00:01:18.930><c> values</c>
+
+00:01:19.310 --> 00:01:19.320 align:start position:0%
+changed it to our predefined values
+ 
+
+00:01:19.320 --> 00:01:21.530 align:start position:0%
+changed it to our predefined values
+which<00:01:19.470><c> in</c><00:01:19.619><c> this</c><00:01:19.740><c> case</c><00:01:19.979><c> is</c><00:01:20.280><c> a</c><00:01:20.310><c> font</c><00:01:20.610><c> size</c><00:01:20.880><c> of</c><00:01:21.000><c> 68</c>
+
+00:01:21.530 --> 00:01:21.540 align:start position:0%
+which in this case is a font size of 68
+ 
+
+00:01:21.540 --> 00:01:24.649 align:start position:0%
+which in this case is a font size of 68
+a<00:01:21.750><c> white</c><00:01:22.229><c> fill</c><00:01:22.560><c> and</c><00:01:22.830><c> Times</c><00:01:23.700><c> New</c><00:01:23.820><c> Roman</c><00:01:23.939><c> now</c>
+
+00:01:24.649 --> 00:01:24.659 align:start position:0%
+a white fill and Times New Roman now
+ 
+
+00:01:24.659 --> 00:01:26.240 align:start position:0%
+a white fill and Times New Roman now
+we'll<00:01:24.869><c> move</c><00:01:24.990><c> over</c><00:01:25.140><c> to</c><00:01:25.320><c> this</c><00:01:25.530><c> comp</c><00:01:25.890><c> to</c><00:01:26.070><c> take</c><00:01:26.220><c> a</c>
+
+00:01:26.240 --> 00:01:26.250 align:start position:0%
+we'll move over to this comp to take a
+ 
+
+00:01:26.250 --> 00:01:28.249 align:start position:0%
+we'll move over to this comp to take a
+look<00:01:26.490><c> at</c><00:01:26.580><c> the</c><00:01:26.729><c> effects</c><00:01:27.119><c> and</c><00:01:27.390><c> scalar</c><00:01:27.810><c> options</c>
+
+00:01:28.249 --> 00:01:28.259 align:start position:0%
+look at the effects and scalar options
+ 
+
+00:01:28.259 --> 00:01:30.219 align:start position:0%
+look at the effects and scalar options
+if<00:01:28.860><c> we</c><00:01:28.950><c> click</c><00:01:29.159><c> on</c><00:01:29.280><c> effects</c>
+
+00:01:30.219 --> 00:01:30.229 align:start position:0%
+if we click on effects
+ 
+
+00:01:30.229 --> 00:01:33.260 align:start position:0%
+if we click on effects
+it<00:01:31.229><c> says</c><00:01:31.409><c> completed</c><00:01:31.920><c> successfully</c><00:01:32.280><c> and</c><00:01:32.700><c> now</c>
+
+00:01:33.260 --> 00:01:33.270 align:start position:0%
+it says completed successfully and now
+ 
+
+00:01:33.270 --> 00:01:34.969 align:start position:0%
+it says completed successfully and now
+if<00:01:33.360><c> we</c><00:01:33.450><c> go</c><00:01:33.509><c> into</c><00:01:33.630><c> our</c><00:01:33.900><c> effect</c><00:01:34.200><c> controls</c><00:01:34.680><c> and</c>
+
+00:01:34.969 --> 00:01:34.979 align:start position:0%
+if we go into our effect controls and
+ 
+
+00:01:34.979 --> 00:01:36.800 align:start position:0%
+if we go into our effect controls and
+select<00:01:35.369><c> each</c><00:01:35.579><c> one</c><00:01:35.610><c> of</c><00:01:35.909><c> our</c><00:01:36.030><c> layers</c><00:01:36.240><c> you</c><00:01:36.780><c> can</c>
+
+00:01:36.800 --> 00:01:36.810 align:start position:0%
+select each one of our layers you can
+ 
+
+00:01:36.810 --> 00:01:38.270 align:start position:0%
+select each one of our layers you can
+see<00:01:36.990><c> there</c><00:01:37.290><c> has</c><00:01:37.439><c> been</c><00:01:37.590><c> a</c><00:01:37.650><c> black</c><00:01:37.950><c> and</c><00:01:38.189><c> white</c>
+
+00:01:38.270 --> 00:01:38.280 align:start position:0%
+see there has been a black and white
+ 
+
+00:01:38.280 --> 00:01:40.999 align:start position:0%
+see there has been a black and white
+effect<00:01:38.430><c> applied</c><00:01:39.000><c> to</c><00:01:39.150><c> each</c><00:01:39.270><c> of</c><00:01:39.450><c> them</c><00:01:39.600><c> and</c><00:01:40.320><c> if</c><00:01:40.979><c> we</c>
+
+00:01:40.999 --> 00:01:41.009 align:start position:0%
+effect applied to each of them and if we
+ 
+
+00:01:41.009 --> 00:01:43.069 align:start position:0%
+effect applied to each of them and if we
+click<00:01:41.280><c> on</c><00:01:41.369><c> the</c><00:01:41.520><c> scalar</c><00:01:42.079><c> completed</c>
+
+00:01:43.069 --> 00:01:43.079 align:start position:0%
+click on the scalar completed
+ 
+
+00:01:43.079 --> 00:01:43.819 align:start position:0%
+click on the scalar completed
+successfully
+
+00:01:43.819 --> 00:01:43.829 align:start position:0%
+successfully
+ 
+
+00:01:43.829 --> 00:01:46.310 align:start position:0%
+successfully
+we've<00:01:44.549><c> now</c><00:01:44.729><c> scaled</c><00:01:45.090><c> our</c><00:01:45.240><c> layers</c><00:01:45.479><c> up</c><00:01:45.750><c> a</c><00:01:45.930><c> hundred</c>
+
+00:01:46.310 --> 00:01:46.320 align:start position:0%
+we've now scaled our layers up a hundred
+ 
+
+00:01:46.320 --> 00:01:48.889 align:start position:0%
+we've now scaled our layers up a hundred
+and<00:01:46.500><c> ten</c><00:01:46.680><c> percent</c><00:01:46.920><c> so</c><00:01:47.880><c> let's</c><00:01:48.360><c> go</c><00:01:48.509><c> ahead</c><00:01:48.630><c> and</c>
+
+00:01:48.889 --> 00:01:48.899 align:start position:0%
+and ten percent so let's go ahead and
+ 
+
+00:01:48.899 --> 00:01:50.359 align:start position:0%
+and ten percent so let's go ahead and
+get<00:01:48.960><c> started</c><00:01:49.439><c> in</c><00:01:49.560><c> creating</c><00:01:49.590><c> this</c><00:01:50.130><c> useful</c>
+
+00:01:50.359 --> 00:01:50.369 align:start position:0%
+get started in creating this useful
+ 
+
+00:01:50.369 --> 00:01:52.490 align:start position:0%
+get started in creating this useful
+script<00:01:50.880><c> that</c><00:01:51.329><c> can</c><00:01:51.450><c> help</c><00:01:51.570><c> save</c><00:01:51.869><c> you</c><00:01:52.020><c> a</c><00:01:52.049><c> ton</c><00:01:52.439><c> of</c>
+
+00:01:52.490 --> 00:01:52.500 align:start position:0%
+script that can help save you a ton of
+ 
+
+00:01:52.500 --> 00:01:55.010 align:start position:0%
+script that can help save you a ton of
+time<00:01:52.680><c> on</c><00:01:53.130><c> bigger</c><00:01:53.369><c> projects</c><00:01:53.939><c> so</c><00:01:54.750><c> I'll</c><00:01:54.840><c> go</c><00:01:54.990><c> ahead</c>
+
+00:01:55.010 --> 00:01:55.020 align:start position:0%
+time on bigger projects so I'll go ahead
+ 
+
+00:01:55.020 --> 00:01:57.709 align:start position:0%
+time on bigger projects so I'll go ahead
+and<00:01:55.409><c> snap</c><00:01:55.740><c> this</c><00:01:56.009><c> over</c><00:01:56.310><c> it</c><00:01:56.369><c> here</c><00:01:56.729><c> so</c><00:01:57.270><c> I</c><00:01:57.299><c> can</c><00:01:57.509><c> have</c>
+
+00:01:57.709 --> 00:01:57.719 align:start position:0%
+and snap this over it here so I can have
+ 
+
+00:01:57.719 --> 00:01:59.959 align:start position:0%
+and snap this over it here so I can have
+them<00:01:57.899><c> side-by-side</c><00:01:58.229><c> and</c><00:01:59.040><c> we</c><00:01:59.460><c> can</c><00:01:59.610><c> look</c><00:01:59.759><c> at</c><00:01:59.880><c> the</c>
+
+00:01:59.959 --> 00:01:59.969 align:start position:0%
+them side-by-side and we can look at the
+ 
+
+00:01:59.969 --> 00:02:02.780 align:start position:0%
+them side-by-side and we can look at the
+code<00:02:00.210><c> as</c><00:02:00.479><c> well</c><00:02:00.990><c> as</c><00:02:01.049><c> work</c><00:02:01.350><c> on</c><00:02:01.469><c> the</c><00:02:01.530><c> UI</c><00:02:01.799><c> inside</c><00:02:02.640><c> of</c>
+
+00:02:02.780 --> 00:02:02.790 align:start position:0%
+code as well as work on the UI inside of
+ 
+
+00:02:02.790 --> 00:02:05.480 align:start position:0%
+code as well as work on the UI inside of
+After<00:02:02.939><c> Effects</c><00:02:03.299><c> and</c><00:02:03.570><c> extend</c><00:02:04.020><c> script</c><00:02:04.460><c> before</c><00:02:05.460><c> I</c>
+
+00:02:05.480 --> 00:02:05.490 align:start position:0%
+After Effects and extend script before I
+ 
+
+00:02:05.490 --> 00:02:06.980 align:start position:0%
+After Effects and extend script before I
+begin<00:02:05.909><c> I</c><00:02:06.030><c> should</c><00:02:06.060><c> probably</c><00:02:06.390><c> mention</c><00:02:06.689><c> the</c>
+
+00:02:06.980 --> 00:02:06.990 align:start position:0%
+begin I should probably mention the
+ 
+
+00:02:06.990 --> 00:02:08.749 align:start position:0%
+begin I should probably mention the
+channel<00:02:07.409><c> name</c><00:02:07.560><c> change</c><00:02:07.890><c> from</c><00:02:08.340><c> Peregrine's</c>
+
+00:02:08.749 --> 00:02:08.759 align:start position:0%
+channel name change from Peregrine's
+ 
+
+00:02:08.759 --> 00:02:11.690 align:start position:0%
+channel name change from Peregrine's
+commando<00:02:09.179><c> 99</c><00:02:09.690><c> to</c><00:02:09.869><c> empty</c><00:02:10.200><c> productions</c><00:02:10.830><c> well</c>
+
+00:02:11.690 --> 00:02:11.700 align:start position:0%
+commando 99 to empty productions well
+ 
+
+00:02:11.700 --> 00:02:13.700 align:start position:0%
+commando 99 to empty productions well
+when<00:02:11.879><c> I</c><00:02:11.910><c> set</c><00:02:12.150><c> up</c><00:02:12.180><c> my</c><00:02:12.270><c> YouTube</c><00:02:12.629><c> in</c><00:02:12.780><c> 2009</c>
+
+00:02:13.700 --> 00:02:13.710 align:start position:0%
+when I set up my YouTube in 2009
+ 
+
+00:02:13.710 --> 00:02:15.740 align:start position:0%
+when I set up my YouTube in 2009
+I<00:02:13.770><c> kind</c><00:02:14.370><c> of</c><00:02:14.430><c> just</c><00:02:14.640><c> thought</c><00:02:14.880><c> it</c><00:02:15.210><c> was</c><00:02:15.330><c> for</c><00:02:15.540><c> fun</c>
+
+00:02:15.740 --> 00:02:15.750 align:start position:0%
+I kind of just thought it was for fun
+ 
+
+00:02:15.750 --> 00:02:18.800 align:start position:0%
+I kind of just thought it was for fun
+and<00:02:16.020><c> I</c><00:02:16.620><c> put</c><00:02:16.950><c> in</c><00:02:17.070><c> a</c><00:02:17.190><c> random</c><00:02:17.550><c> name</c><00:02:17.700><c> so</c><00:02:18.630><c> now</c><00:02:18.750><c> that</c>
+
+00:02:18.800 --> 00:02:18.810 align:start position:0%
+and I put in a random name so now that
+ 
+
+00:02:18.810 --> 00:02:20.540 align:start position:0%
+and I put in a random name so now that
+it's<00:02:19.080><c> been</c><00:02:19.230><c> a</c><00:02:19.260><c> while</c><00:02:19.470><c> and</c><00:02:19.710><c> I</c><00:02:19.740><c> want</c><00:02:19.890><c> to</c><00:02:20.100><c> be</c><00:02:20.190><c> a</c><00:02:20.220><c> bit</c>
+
+00:02:20.540 --> 00:02:20.550 align:start position:0%
+it's been a while and I want to be a bit
+ 
+
+00:02:20.550 --> 00:02:22.670 align:start position:0%
+it's been a while and I want to be a bit
+more<00:02:20.730><c> professional</c><00:02:20.910><c> I've</c><00:02:21.750><c> changed</c><00:02:22.200><c> it</c><00:02:22.260><c> to</c><00:02:22.380><c> NT</c>
+
+00:02:22.670 --> 00:02:22.680 align:start position:0%
+more professional I've changed it to NT
+ 
+
+00:02:22.680 --> 00:02:25.010 align:start position:0%
+more professional I've changed it to NT
+productions<00:02:23.280><c> but</c><00:02:24.210><c> hopefully</c><00:02:24.510><c> that</c><00:02:24.660><c> clears</c><00:02:24.900><c> up</c>
+
+00:02:25.010 --> 00:02:25.020 align:start position:0%
+productions but hopefully that clears up
+ 
+
+00:02:25.020 --> 00:02:26.600 align:start position:0%
+productions but hopefully that clears up
+any<00:02:25.170><c> confusion</c><00:02:25.710><c> you</c><00:02:25.740><c> had</c><00:02:25.980><c> if</c><00:02:26.220><c> you</c><00:02:26.400><c> saw</c><00:02:26.580><c> that</c>
+
+00:02:26.600 --> 00:02:26.610 align:start position:0%
+any confusion you had if you saw that
+ 
+
+00:02:26.610 --> 00:02:28.610 align:start position:0%
+any confusion you had if you saw that
+the<00:02:26.850><c> channel</c><00:02:27.180><c> name</c><00:02:27.270><c> changed</c><00:02:27.720><c> although</c><00:02:28.470><c> it</c>
+
+00:02:28.610 --> 00:02:28.620 align:start position:0%
+the channel name changed although it
+ 
+
+00:02:28.620 --> 00:02:29.990 align:start position:0%
+the channel name changed although it
+haven't<00:02:28.890><c> been</c><00:02:29.010><c> posting</c><00:02:29.370><c> videos</c><00:02:29.400><c> as</c><00:02:29.790><c> often</c>
+
+00:02:29.990 --> 00:02:30.000 align:start position:0%
+haven't been posting videos as often
+ 
+
+00:02:30.000 --> 00:02:32.030 align:start position:0%
+haven't been posting videos as often
+they<00:02:30.600><c> will</c><00:02:30.750><c> now</c><00:02:30.870><c> be</c><00:02:30.900><c> coming</c><00:02:31.230><c> out</c><00:02:31.440><c> weekly</c><00:02:31.860><c> every</c>
+
+00:02:32.030 --> 00:02:32.040 align:start position:0%
+they will now be coming out weekly every
+ 
+
+00:02:32.040 --> 00:02:35.120 align:start position:0%
+they will now be coming out weekly every
+Wednesday<00:02:32.790><c> so</c><00:02:33.570><c> this</c><00:02:33.870><c> script</c><00:02:34.140><c> is</c><00:02:34.320><c> less</c><00:02:34.590><c> than</c><00:02:34.830><c> 80</c>
+
+00:02:35.120 --> 00:02:35.130 align:start position:0%
+Wednesday so this script is less than 80
+ 
+
+00:02:35.130 --> 00:02:37.550 align:start position:0%
+Wednesday so this script is less than 80
+lines<00:02:35.430><c> or</c><00:02:35.640><c> so</c><00:02:35.790><c> of</c><00:02:35.910><c> code</c><00:02:36.180><c> so</c><00:02:36.690><c> let's</c><00:02:36.720><c> get</c><00:02:37.110><c> started</c>
+
+00:02:37.550 --> 00:02:37.560 align:start position:0%
+lines or so of code so let's get started
+ 
+
+00:02:37.560 --> 00:02:39.710 align:start position:0%
+lines or so of code so let's get started
+by<00:02:37.710><c> creating</c><00:02:37.770><c> a</c><00:02:38.220><c> new</c><00:02:38.400><c> JavaScript</c><00:02:38.790><c> file</c><00:02:39.240><c> inside</c>
+
+00:02:39.710 --> 00:02:39.720 align:start position:0%
+by creating a new JavaScript file inside
+ 
+
+00:02:39.720 --> 00:02:42.290 align:start position:0%
+by creating a new JavaScript file inside
+of<00:02:39.870><c> extend</c><00:02:40.260><c> script</c><00:02:40.590><c> so</c><00:02:41.550><c> to</c><00:02:41.760><c> start</c><00:02:41.970><c> off</c><00:02:42.090><c> we're</c>
+
+00:02:42.290 --> 00:02:42.300 align:start position:0%
+of extend script so to start off we're
+ 
+
+00:02:42.300 --> 00:02:44.090 align:start position:0%
+of extend script so to start off we're
+going<00:02:42.420><c> to</c><00:02:42.540><c> want</c><00:02:42.720><c> to</c><00:02:42.810><c> setup</c><00:02:43.110><c> our</c><00:02:43.320><c> project</c><00:02:43.920><c> and</c>
+
+00:02:44.090 --> 00:02:44.100 align:start position:0%
+going to want to setup our project and
+ 
+
+00:02:44.100 --> 00:02:45.980 align:start position:0%
+going to want to setup our project and
+comp<00:02:44.640><c> variables</c><00:02:45.240><c> so</c><00:02:45.600><c> I'll</c><00:02:45.660><c> just</c><00:02:45.810><c> make</c><00:02:45.960><c> a</c>
+
+00:02:45.980 --> 00:02:45.990 align:start position:0%
+comp variables so I'll just make a
+ 
+
+00:02:45.990 --> 00:02:48.260 align:start position:0%
+comp variables so I'll just make a
+variable<00:02:46.590><c> called</c><00:02:46.620><c> project</c><00:02:47.400><c> and</c><00:02:47.580><c> this</c><00:02:48.120><c> is</c>
+
+00:02:48.260 --> 00:02:48.270 align:start position:0%
+variable called project and this is
+ 
+
+00:02:48.270 --> 00:02:51.050 align:start position:0%
+variable called project and this is
+equal<00:02:48.570><c> to</c><00:02:48.720><c> the</c><00:02:48.870><c> application</c><00:02:49.560><c> project</c><00:02:50.430><c> and</c>
+
+00:02:51.050 --> 00:02:51.060 align:start position:0%
+equal to the application project and
+ 
+
+00:02:51.060 --> 00:02:52.550 align:start position:0%
+equal to the application project and
+that<00:02:51.180><c> will</c><00:02:51.300><c> just</c><00:02:51.480><c> reference</c><00:02:51.870><c> the</c><00:02:52.080><c> project</c>
+
+00:02:52.550 --> 00:02:52.560 align:start position:0%
+that will just reference the project
+ 
+
+00:02:52.560 --> 00:02:54.410 align:start position:0%
+that will just reference the project
+that<00:02:52.650><c> we</c><00:02:52.770><c> currently</c><00:02:52.950><c> have</c><00:02:53.220><c> open</c><00:02:53.550><c> whether</c><00:02:54.180><c> it's</c>
+
+00:02:54.410 --> 00:02:54.420 align:start position:0%
+that we currently have open whether it's
+ 
+
+00:02:54.420 --> 00:02:56.510 align:start position:0%
+that we currently have open whether it's
+saved<00:02:54.720><c> or</c><00:02:54.930><c> not</c><00:02:54.990><c> we'll</c><00:02:55.470><c> also</c><00:02:55.620><c> set</c><00:02:55.920><c> up</c><00:02:55.950><c> a</c><00:02:56.130><c> comp</c>
+
+00:02:56.510 --> 00:02:56.520 align:start position:0%
+saved or not we'll also set up a comp
+ 
+
+00:02:56.520 --> 00:02:58.730 align:start position:0%
+saved or not we'll also set up a comp
+variable<00:02:57.060><c> that</c><00:02:57.210><c> will</c><00:02:57.390><c> go</c><00:02:57.570><c> to</c><00:02:57.630><c> our</c><00:02:57.930><c> project</c><00:02:58.590><c> and</c>
+
+00:02:58.730 --> 00:02:58.740 align:start position:0%
+variable that will go to our project and
+ 
+
+00:02:58.740 --> 00:03:01.040 align:start position:0%
+variable that will go to our project and
+select<00:02:59.580><c> the</c><00:02:59.700><c> active</c><00:03:00.120><c> item</c><00:03:00.510><c> which</c><00:03:00.690><c> will</c><00:03:00.810><c> be</c><00:03:00.930><c> the</c>
+
+00:03:01.040 --> 00:03:01.050 align:start position:0%
+select the active item which will be the
+ 
+
+00:03:01.050 --> 00:03:03.890 align:start position:0%
+select the active item which will be the
+selected<00:03:01.530><c> comp</c><00:03:01.830><c> in</c><00:03:02.010><c> this</c><00:03:02.220><c> case</c><00:03:02.600><c> so</c><00:03:03.600><c> one</c><00:03:03.750><c> thing</c>
+
+00:03:03.890 --> 00:03:03.900 align:start position:0%
+selected comp in this case so one thing
+ 
+
+00:03:03.900 --> 00:03:05.210 align:start position:0%
+selected comp in this case so one thing
+to<00:03:03.930><c> note</c><00:03:04.200><c> is</c><00:03:04.380><c> say</c><00:03:04.560><c> that</c><00:03:04.710><c> you</c><00:03:04.800><c> have</c><00:03:04.890><c> a</c><00:03:04.920><c> bunch</c><00:03:05.160><c> of</c>
+
+00:03:05.210 --> 00:03:05.220 align:start position:0%
+to note is say that you have a bunch of
+ 
+
+00:03:05.220 --> 00:03:07.160 align:start position:0%
+to note is say that you have a bunch of
+different<00:03:05.370><c> layers</c><00:03:05.640><c> will</c><00:03:05.940><c> text</c><00:03:06.330><c> you</c><00:03:06.810><c> want</c><00:03:06.990><c> to</c>
+
+00:03:07.160 --> 00:03:07.170 align:start position:0%
+different layers will text you want to
+ 
+
+00:03:07.170 --> 00:03:08.330 align:start position:0%
+different layers will text you want to
+click<00:03:07.410><c> on</c><00:03:07.530><c> each</c><00:03:07.710><c> one</c><00:03:07.920><c> of</c><00:03:07.980><c> them</c><00:03:08.130><c> individually</c>
+
+00:03:08.330 --> 00:03:08.340 align:start position:0%
+click on each one of them individually
+ 
+
+00:03:08.340 --> 00:03:11.090 align:start position:0%
+click on each one of them individually
+run<00:03:09.270><c> the</c><00:03:09.390><c> script</c><00:03:09.720><c> then</c><00:03:10.140><c> go</c><00:03:10.380><c> to</c><00:03:10.440><c> the</c><00:03:10.650><c> next</c><00:03:10.860><c> one</c>
+
+00:03:11.090 --> 00:03:11.100 align:start position:0%
+run the script then go to the next one
+ 
+
+00:03:11.100 --> 00:03:11.930 align:start position:0%
+run the script then go to the next one
+and<00:03:11.280><c> click</c><00:03:11.490><c> on</c><00:03:11.670><c> it</c>
+
+00:03:11.930 --> 00:03:11.940 align:start position:0%
+and click on it
+ 
+
+00:03:11.940 --> 00:03:13.850 align:start position:0%
+and click on it
+run<00:03:12.120><c> the</c><00:03:12.270><c> script</c><00:03:12.390><c> because</c><00:03:13.290><c> when</c><00:03:13.470><c> the</c><00:03:13.560><c> script</c>
+
+00:03:13.850 --> 00:03:13.860 align:start position:0%
+run the script because when the script
+ 
+
+00:03:13.860 --> 00:03:16.520 align:start position:0%
+run the script because when the script
+initializes<00:03:14.610><c> it</c><00:03:14.760><c> sets</c><00:03:15.480><c> the</c><00:03:15.630><c> current</c><00:03:16.020><c> active</c>
+
+00:03:16.520 --> 00:03:16.530 align:start position:0%
+initializes it sets the current active
+ 
+
+00:03:16.530 --> 00:03:19.160 align:start position:0%
+initializes it sets the current active
+item<00:03:16.860><c> to</c><00:03:17.100><c> the</c><00:03:17.280><c> count</c><00:03:17.490><c> variable</c><00:03:17.780><c> of</c><00:03:18.780><c> course</c><00:03:19.050><c> you</c>
+
+00:03:19.160 --> 00:03:19.170 align:start position:0%
+item to the count variable of course you
+ 
+
+00:03:19.170 --> 00:03:20.720 align:start position:0%
+item to the count variable of course you
+could<00:03:19.320><c> code</c><00:03:19.530><c> this</c><00:03:19.710><c> to</c><00:03:19.890><c> change</c><00:03:20.280><c> as</c><00:03:20.550><c> you</c><00:03:20.580><c> change</c>
+
+00:03:20.720 --> 00:03:20.730 align:start position:0%
+could code this to change as you change
+ 
+
+00:03:20.730 --> 00:03:22.940 align:start position:0%
+could code this to change as you change
+the<00:03:21.060><c> compositions</c><00:03:21.780><c> but</c><00:03:22.260><c> we</c><00:03:22.410><c> won't</c><00:03:22.620><c> get</c><00:03:22.770><c> into</c>
+
+00:03:22.940 --> 00:03:22.950 align:start position:0%
+the compositions but we won't get into
+ 
+
+00:03:22.950 --> 00:03:25.220 align:start position:0%
+the compositions but we won't get into
+that<00:03:23.040><c> in</c><00:03:23.310><c> this</c><00:03:23.520><c> tutorial</c><00:03:23.730><c> so</c><00:03:24.690><c> next</c><00:03:24.870><c> up</c><00:03:25.050><c> we'll</c>
+
+00:03:25.220 --> 00:03:25.230 align:start position:0%
+that in this tutorial so next up we'll
+ 
+
+00:03:25.230 --> 00:03:27.890 align:start position:0%
+that in this tutorial so next up we'll
+want<00:03:25.380><c> to</c><00:03:25.500><c> setup</c><00:03:25.740><c> our</c><00:03:25.920><c> predefined</c><00:03:26.580><c> values</c><00:03:27.030><c> this</c>
+
+00:03:27.890 --> 00:03:27.900 align:start position:0%
+want to setup our predefined values this
+ 
+
+00:03:27.900 --> 00:03:29.570 align:start position:0%
+want to setup our predefined values this
+will<00:03:27.930><c> be</c><00:03:28.080><c> everything</c><00:03:28.590><c> from</c><00:03:28.740><c> text</c><00:03:29.250><c> color</c><00:03:29.460><c> to</c>
+
+00:03:29.570 --> 00:03:29.580 align:start position:0%
+will be everything from text color to
+ 
+
+00:03:29.580 --> 00:03:32.480 align:start position:0%
+will be everything from text color to
+text<00:03:30.150><c> size</c><00:03:30.360><c> to</c><00:03:30.690><c> effect</c><00:03:31.380><c> names</c><00:03:31.710><c> and</c><00:03:32.070><c> scale</c>
+
+00:03:32.480 --> 00:03:32.490 align:start position:0%
+text size to effect names and scale
+ 
+
+00:03:32.490 --> 00:03:34.670 align:start position:0%
+text size to effect names and scale
+percentages<00:03:33.030><c> so</c><00:03:33.900><c> the</c><00:03:34.020><c> different</c><00:03:34.320><c> variables</c>
+
+00:03:34.670 --> 00:03:34.680 align:start position:0%
+percentages so the different variables
+ 
+
+00:03:34.680 --> 00:03:37.430 align:start position:0%
+percentages so the different variables
+I'm<00:03:35.040><c> going</c><00:03:35.280><c> to</c><00:03:35.370><c> use</c><00:03:35.520><c> our</c><00:03:35.700><c> font</c><00:03:36.030><c> size</c><00:03:36.440><c> fill</c>
+
+00:03:37.430 --> 00:03:37.440 align:start position:0%
+I'm going to use our font size fill
+ 
+
+00:03:37.440 --> 00:03:45.230 align:start position:0%
+I'm going to use our font size fill
+color<00:03:38.990><c> stroke</c><00:03:39.990><c> color</c><00:03:41.060><c> font</c><00:03:43.340><c> the</c><00:03:44.340><c> effect</c><00:03:44.850><c> match</c>
+
+00:03:45.230 --> 00:03:45.240 align:start position:0%
+color stroke color font the effect match
+ 
+
+00:03:45.240 --> 00:03:51.230 align:start position:0%
+color stroke color font the effect match
+name<00:03:46.550><c> and</c><00:03:47.550><c> the</c><00:03:48.150><c> scale</c><00:03:48.570><c> percent</c><00:03:49.880><c> so</c><00:03:50.880><c> for</c><00:03:51.150><c> the</c>
+
+00:03:51.230 --> 00:03:51.240 align:start position:0%
+name and the scale percent so for the
+ 
+
+00:03:51.240 --> 00:03:52.610 align:start position:0%
+name and the scale percent so for the
+font<00:03:51.450><c> size</c><00:03:51.690><c> I'm</c><00:03:51.930><c> just</c><00:03:52.080><c> going</c><00:03:52.230><c> to</c><00:03:52.320><c> set</c><00:03:52.500><c> it</c><00:03:52.590><c> to</c>
+
+00:03:52.610 --> 00:03:52.620 align:start position:0%
+font size I'm just going to set it to
+ 
+
+00:03:52.620 --> 00:03:54.530 align:start position:0%
+font size I'm just going to set it to
+whatever<00:03:53.040><c> after-effects</c><00:03:53.760><c> usually</c><00:03:54.120><c> has</c><00:03:54.270><c> for</c>
+
+00:03:54.530 --> 00:03:54.540 align:start position:0%
+whatever after-effects usually has for
+ 
+
+00:03:54.540 --> 00:03:57.560 align:start position:0%
+whatever after-effects usually has for
+me<00:03:54.660><c> which</c><00:03:54.810><c> is</c><00:03:54.930><c> 68</c><00:03:55.760><c> the</c><00:03:56.760><c> fill</c><00:03:57.000><c> color</c><00:03:57.300><c> we're</c>
+
+00:03:57.560 --> 00:03:57.570 align:start position:0%
+me which is 68 the fill color we're
+ 
+
+00:03:57.570 --> 00:03:59.180 align:start position:0%
+me which is 68 the fill color we're
+going<00:03:57.780><c> to</c><00:03:57.870><c> make</c><00:03:58.080><c> an</c><00:03:58.230><c> array</c><00:03:58.500><c> because</c><00:03:58.770><c> we</c><00:03:59.070><c> need</c>
+
+00:03:59.180 --> 00:03:59.190 align:start position:0%
+going to make an array because we need
+ 
+
+00:03:59.190 --> 00:04:01.690 align:start position:0%
+going to make an array because we need
+to<00:03:59.280><c> have</c><00:03:59.430><c> an</c><00:03:59.580><c> RG</c><00:04:00.090><c> and</c><00:04:00.360><c> a</c><00:04:00.540><c> B</c><00:04:00.690><c> value</c><00:04:01.080><c> inside</c><00:04:01.410><c> of</c><00:04:01.530><c> it</c>
+
+00:04:01.690 --> 00:04:01.700 align:start position:0%
+to have an RG and a B value inside of it
+ 
+
+00:04:01.700 --> 00:04:04.340 align:start position:0%
+to have an RG and a B value inside of it
+so<00:04:02.700><c> I'll</c><00:04:02.850><c> make</c><00:04:03.000><c> the</c><00:04:03.180><c> fill</c><00:04:03.450><c> color</c><00:04:03.720><c> completely</c>
+
+00:04:04.340 --> 00:04:04.350 align:start position:0%
+so I'll make the fill color completely
+ 
+
+00:04:04.350 --> 00:04:07.400 align:start position:0%
+so I'll make the fill color completely
+white<00:04:04.560><c> by</c><00:04:04.740><c> putting</c><00:04:05.100><c> in</c><00:04:05.190><c> 1</c><00:04:05.430><c> 1</c><00:04:05.610><c> 1</c><00:04:05.820><c> and</c><00:04:06.380><c> same</c><00:04:07.380><c> thing</c>
+
+00:04:07.400 --> 00:04:07.410 align:start position:0%
+white by putting in 1 1 1 and same thing
+ 
+
+00:04:07.410 --> 00:04:10.010 align:start position:0%
+white by putting in 1 1 1 and same thing
+with<00:04:07.620><c> the</c><00:04:07.860><c> stroke</c><00:04:08.130><c> color</c><00:04:08.310><c> it</c><00:04:09.240><c> will</c><00:04:09.360><c> take</c><00:04:09.480><c> RGB</c>
+
+00:04:10.010 --> 00:04:10.020 align:start position:0%
+with the stroke color it will take RGB
+ 
+
+00:04:10.020 --> 00:04:11.660 align:start position:0%
+with the stroke color it will take RGB
+so<00:04:10.260><c> we're</c><00:04:10.410><c> going</c><00:04:10.530><c> to</c><00:04:10.650><c> put</c><00:04:10.860><c> in</c><00:04:10.950><c> values</c><00:04:11.130><c> for</c><00:04:11.580><c> that</c>
+
+00:04:11.660 --> 00:04:11.670 align:start position:0%
+so we're going to put in values for that
+ 
+
+00:04:11.670 --> 00:04:14.900 align:start position:0%
+so we're going to put in values for that
+and<00:04:12.240><c> we'll</c><00:04:13.050><c> make</c><00:04:13.170><c> it</c><00:04:13.290><c> black</c><00:04:13.530><c> by</c><00:04:13.800><c> putting</c><00:04:14.100><c> 0</c><00:04:14.370><c> 0</c><00:04:14.640><c> 0</c>
+
+00:04:14.900 --> 00:04:14.910 align:start position:0%
+and we'll make it black by putting 0 0 0
+ 
+
+00:04:14.910 --> 00:04:18.590 align:start position:0%
+and we'll make it black by putting 0 0 0
+the<00:04:15.870><c> font</c><00:04:16.200><c> will</c><00:04:16.440><c> take</c><00:04:16.650><c> a</c><00:04:16.890><c> sort</c><00:04:17.220><c> of</c><00:04:17.340><c> font</c><00:04:17.820><c> names</c>
+
+00:04:18.590 --> 00:04:18.600 align:start position:0%
+the font will take a sort of font names
+ 
+
+00:04:18.600 --> 00:04:20.300 align:start position:0%
+the font will take a sort of font names
+similar<00:04:18.870><c> to</c><00:04:19.200><c> the</c><00:04:19.320><c> effect</c><00:04:19.650><c> match</c><00:04:19.859><c> names</c><00:04:20.100><c> and</c>
+
+00:04:20.300 --> 00:04:20.310 align:start position:0%
+similar to the effect match names and
+ 
+
+00:04:20.310 --> 00:04:22.490 align:start position:0%
+similar to the effect match names and
+after<00:04:20.609><c> effects</c><00:04:20.880><c> I'll</c><00:04:21.239><c> link</c><00:04:21.660><c> to</c><00:04:21.870><c> a</c><00:04:21.900><c> list</c><00:04:22.140><c> of</c><00:04:22.320><c> all</c>
+
+00:04:22.490 --> 00:04:22.500 align:start position:0%
+after effects I'll link to a list of all
+ 
+
+00:04:22.500 --> 00:04:24.860 align:start position:0%
+after effects I'll link to a list of all
+the<00:04:22.650><c> fonts</c><00:04:23.010><c> and</c><00:04:23.190><c> effect</c><00:04:23.910><c> match</c><00:04:24.120><c> names</c><00:04:24.480><c> in</c><00:04:24.750><c> the</c>
+
+00:04:24.860 --> 00:04:24.870 align:start position:0%
+the fonts and effect match names in the
+ 
+
+00:04:24.870 --> 00:04:27.440 align:start position:0%
+the fonts and effect match names in the
+description<00:04:25.340><c> but</c><00:04:26.340><c> if</c><00:04:26.460><c> we</c><00:04:26.580><c> want</c><00:04:26.790><c> safer</c>
+
+00:04:27.440 --> 00:04:27.450 align:start position:0%
+description but if we want safer
+ 
+
+00:04:27.450 --> 00:04:29.120 align:start position:0%
+description but if we want safer
+both<00:04:27.690><c> times</c><00:04:27.900><c> new</c><00:04:28.170><c> roman''</c><00:04:28.530><c> we'll</c><00:04:28.710><c> just</c><00:04:28.890><c> put</c><00:04:29.040><c> in</c>
+
+00:04:29.120 --> 00:04:29.130 align:start position:0%
+both times new roman'' we'll just put in
+ 
+
+00:04:29.130 --> 00:04:32.720 align:start position:0%
+both times new roman'' we'll just put in
+times<00:04:29.370><c> new</c><00:04:29.610><c> roman'</c><00:04:29.940><c> psmt</c><00:04:31.370><c> for</c><00:04:32.370><c> the</c><00:04:32.460><c> effect</c>
+
+00:04:32.720 --> 00:04:32.730 align:start position:0%
+times new roman' psmt for the effect
+ 
+
+00:04:32.730 --> 00:04:33.980 align:start position:0%
+times new roman' psmt for the effect
+match<00:04:32.940><c> name</c><00:04:33.180><c> we're</c><00:04:33.450><c> just</c><00:04:33.600><c> going</c><00:04:33.780><c> to</c><00:04:33.810><c> use</c><00:04:33.960><c> a</c>
+
+00:04:33.980 --> 00:04:33.990 align:start position:0%
+match name we're just going to use a
+ 
+
+00:04:33.990 --> 00:04:38.030 align:start position:0%
+match name we're just going to use a
+black<00:04:34.440><c> and</c><00:04:34.650><c> white</c><00:04:34.770><c> effect</c><00:04:34.920><c> so</c><00:04:35.370><c> Adobe</c><00:04:37.040><c> black</c>
+
+00:04:38.030 --> 00:04:38.040 align:start position:0%
+black and white effect so Adobe black
+ 
+
+00:04:38.040 --> 00:04:41.000 align:start position:0%
+black and white effect so Adobe black
+and<00:04:38.250><c> white</c><00:04:38.460><c> and</c><00:04:39.080><c> the</c><00:04:40.080><c> scale</c><00:04:40.320><c> percentage</c><00:04:40.830><c> is</c>
+
+00:04:41.000 --> 00:04:41.010 align:start position:0%
+and white and the scale percentage is
+ 
+
+00:04:41.010 --> 00:04:42.830 align:start position:0%
+and white and the scale percentage is
+the<00:04:41.040><c> value</c><00:04:41.550><c> your</c><00:04:41.790><c> original</c><00:04:42.240><c> scale</c><00:04:42.540><c> of</c><00:04:42.720><c> each</c>
+
+00:04:42.830 --> 00:04:42.840 align:start position:0%
+the value your original scale of each
+ 
+
+00:04:42.840 --> 00:04:45.050 align:start position:0%
+the value your original scale of each
+layer<00:04:43.110><c> is</c><00:04:43.320><c> going</c><00:04:43.500><c> to</c><00:04:43.590><c> be</c><00:04:43.680><c> multiplied</c><00:04:44.220><c> by</c><00:04:44.250><c> to</c>
+
+00:04:45.050 --> 00:04:45.060 align:start position:0%
+layer is going to be multiplied by to
+ 
+
+00:04:45.060 --> 00:04:46.940 align:start position:0%
+layer is going to be multiplied by to
+give<00:04:45.210><c> you</c><00:04:45.330><c> the</c><00:04:45.480><c> new</c><00:04:45.630><c> scale</c><00:04:45.960><c> so</c><00:04:46.650><c> let's</c><00:04:46.800><c> go</c><00:04:46.890><c> ahead</c>
+
+00:04:46.940 --> 00:04:46.950 align:start position:0%
+give you the new scale so let's go ahead
+ 
+
+00:04:46.950 --> 00:04:49.460 align:start position:0%
+give you the new scale so let's go ahead
+and<00:04:47.040><c> put</c><00:04:47.220><c> in</c><00:04:47.340><c> 1.5</c><00:04:47.970><c> to</c><00:04:48.330><c> make</c><00:04:48.600><c> a</c><00:04:48.630><c> more</c><00:04:48.960><c> noticeable</c>
+
+00:04:49.460 --> 00:04:49.470 align:start position:0%
+and put in 1.5 to make a more noticeable
+ 
+
+00:04:49.470 --> 00:04:51.710 align:start position:0%
+and put in 1.5 to make a more noticeable
+scale<00:04:49.770><c> difference</c><00:04:50.190><c> so</c><00:04:50.850><c> if</c><00:04:50.940><c> you</c><00:04:51.060><c> had</c><00:04:51.270><c> a</c><00:04:51.300><c> layer</c>
+
+00:04:51.710 --> 00:04:51.720 align:start position:0%
+scale difference so if you had a layer
+ 
+
+00:04:51.720 --> 00:04:54.590 align:start position:0%
+scale difference so if you had a layer
+with<00:04:51.990><c> scale</c><00:04:52.380><c> 100</c><00:04:52.950><c> it</c><00:04:53.550><c> would</c><00:04:54.060><c> then</c><00:04:54.240><c> turn</c><00:04:54.390><c> into</c>
+
+00:04:54.590 --> 00:04:54.600 align:start position:0%
+with scale 100 it would then turn into
+ 
+
+00:04:54.600 --> 00:04:57.560 align:start position:0%
+with scale 100 it would then turn into
+150<00:04:55.560><c> now</c><00:04:56.310><c> we</c><00:04:56.370><c> can</c><00:04:56.670><c> go</c><00:04:56.820><c> ahead</c><00:04:56.910><c> and</c><00:04:57.270><c> create</c><00:04:57.480><c> our</c>
+
+00:04:57.560 --> 00:04:57.570 align:start position:0%
+150 now we can go ahead and create our
+ 
+
+00:04:57.570 --> 00:05:01.520 align:start position:0%
+150 now we can go ahead and create our
+UI<00:04:59.090><c> to</c><00:05:00.090><c> start</c><00:05:00.390><c> off</c><00:05:00.540><c> we</c><00:05:00.720><c> always</c><00:05:01.050><c> want</c><00:05:01.260><c> to</c><00:05:01.320><c> make</c><00:05:01.380><c> a</c>
+
+00:05:01.520 --> 00:05:01.530 align:start position:0%
+UI to start off we always want to make a
+ 
+
+00:05:01.530 --> 00:05:03.440 align:start position:0%
+UI to start off we always want to make a
+window<00:05:02.070><c> so</c><00:05:02.280><c> we'll</c><00:05:02.400><c> just</c><00:05:02.520><c> call</c><00:05:02.670><c> it</c><00:05:02.730><c> main</c><00:05:03.060><c> window</c>
+
+00:05:03.440 --> 00:05:03.450 align:start position:0%
+window so we'll just call it main window
+ 
+
+00:05:03.450 --> 00:05:05.810 align:start position:0%
+window so we'll just call it main window
+and<00:05:03.690><c> we'll</c><00:05:04.620><c> create</c><00:05:04.860><c> a</c><00:05:04.950><c> new</c><00:05:05.250><c> window</c><00:05:05.490><c> out</c><00:05:05.790><c> of</c>
+
+00:05:05.810 --> 00:05:05.820 align:start position:0%
+and we'll create a new window out of
+ 
+
+00:05:05.820 --> 00:05:07.910 align:start position:0%
+and we'll create a new window out of
+that<00:05:06.090><c> and</c><00:05:06.300><c> this</c><00:05:06.900><c> takes</c><00:05:07.170><c> usually</c><00:05:07.650><c> three</c>
+
+00:05:07.910 --> 00:05:07.920 align:start position:0%
+that and this takes usually three
+ 
+
+00:05:07.920 --> 00:05:10.220 align:start position:0%
+that and this takes usually three
+arguments<00:05:08.490><c> the</c><00:05:09.090><c> first</c><00:05:09.330><c> of</c><00:05:09.480><c> which</c><00:05:09.600><c> is</c><00:05:09.660><c> the</c><00:05:09.870><c> type</c>
+
+00:05:10.220 --> 00:05:10.230 align:start position:0%
+arguments the first of which is the type
+ 
+
+00:05:10.230 --> 00:05:12.080 align:start position:0%
+arguments the first of which is the type
+of<00:05:10.260><c> window</c><00:05:10.590><c> which</c><00:05:10.980><c> palette</c><00:05:11.310><c> usually</c><00:05:11.880><c> just</c>
+
+00:05:12.080 --> 00:05:12.090 align:start position:0%
+of window which palette usually just
+ 
+
+00:05:12.090 --> 00:05:12.800 align:start position:0%
+of window which palette usually just
+works<00:05:12.270><c> fine</c>
+
+00:05:12.800 --> 00:05:12.810 align:start position:0%
+works fine
+ 
+
+00:05:12.810 --> 00:05:16.670 align:start position:0%
+works fine
+the<00:05:13.470><c> second</c><00:05:13.920><c> is</c><00:05:14.070><c> the</c><00:05:14.310><c> name</c><00:05:14.580><c> and</c><00:05:15.230><c> the</c><00:05:16.230><c> third</c><00:05:16.470><c> is</c>
+
+00:05:16.670 --> 00:05:16.680 align:start position:0%
+the second is the name and the third is
+ 
+
+00:05:16.680 --> 00:05:19.100 align:start position:0%
+the second is the name and the third is
+any<00:05:17.070><c> x</c><00:05:17.460><c> and</c><00:05:17.760><c> y</c><00:05:17.850><c> values</c><00:05:17.880><c> but</c><00:05:18.660><c> we'll</c><00:05:18.870><c> go</c><00:05:18.990><c> ahead</c>
+
+00:05:19.100 --> 00:05:19.110 align:start position:0%
+any x and y values but we'll go ahead
+ 
+
+00:05:19.110 --> 00:05:21.110 align:start position:0%
+any x and y values but we'll go ahead
+and<00:05:19.200><c> put</c><00:05:19.290><c> this</c><00:05:19.410><c> as</c><00:05:19.470><c> undefined</c><00:05:20.190><c> so</c><00:05:20.700><c> as</c><00:05:20.880><c> we</c>
+
+00:05:21.110 --> 00:05:21.120 align:start position:0%
+and put this as undefined so as we
+ 
+
+00:05:21.120 --> 00:05:23.600 align:start position:0%
+and put this as undefined so as we
+create<00:05:21.660><c> elements</c><00:05:22.200><c> in</c><00:05:22.320><c> the</c><00:05:22.410><c> future</c><00:05:22.740><c> it</c><00:05:23.220><c> will</c><00:05:23.430><c> go</c>
+
+00:05:23.600 --> 00:05:23.610 align:start position:0%
+create elements in the future it will go
+ 
+
+00:05:23.610 --> 00:05:25.460 align:start position:0%
+create elements in the future it will go
+ahead<00:05:23.700><c> and</c><00:05:23.940><c> automatically</c><00:05:24.600><c> scale</c><00:05:24.960><c> the</c><00:05:25.140><c> window</c>
+
+00:05:25.460 --> 00:05:25.470 align:start position:0%
+ahead and automatically scale the window
+ 
+
+00:05:25.470 --> 00:05:27.710 align:start position:0%
+ahead and automatically scale the window
+properly<00:05:26.010><c> we're</c><00:05:26.700><c> also</c><00:05:26.850><c> going</c><00:05:27.120><c> to</c><00:05:27.270><c> want</c><00:05:27.450><c> to</c><00:05:27.480><c> set</c>
+
+00:05:27.710 --> 00:05:27.720 align:start position:0%
+properly we're also going to want to set
+ 
+
+00:05:27.720 --> 00:05:29.720 align:start position:0%
+properly we're also going to want to set
+up<00:05:27.810><c> the</c><00:05:27.900><c> orientation</c><00:05:28.680><c> of</c><00:05:28.830><c> the</c><00:05:29.040><c> main</c><00:05:29.190><c> window</c><00:05:29.400><c> by</c>
+
+00:05:29.720 --> 00:05:29.730 align:start position:0%
+up the orientation of the main window by
+ 
+
+00:05:29.730 --> 00:05:32.570 align:start position:0%
+up the orientation of the main window by
+doing<00:05:30.000><c> main</c><00:05:30.180><c> window</c><00:05:30.570><c> orientation</c><00:05:31.230><c> and</c><00:05:31.620><c> we're</c>
+
+00:05:32.570 --> 00:05:32.580 align:start position:0%
+doing main window orientation and we're
+ 
+
+00:05:32.580 --> 00:05:35.000 align:start position:0%
+doing main window orientation and we're
+going<00:05:32.730><c> to</c><00:05:32.850><c> set</c><00:05:33.060><c> this</c><00:05:33.210><c> to</c><00:05:33.540><c> column</c><00:05:34.080><c> so</c><00:05:34.710><c> that</c><00:05:34.860><c> way</c>
+
+00:05:35.000 --> 00:05:35.010 align:start position:0%
+going to set this to column so that way
+ 
+
+00:05:35.010 --> 00:05:36.830 align:start position:0%
+going to set this to column so that way
+every<00:05:35.400><c> group</c><00:05:35.640><c> we</c><00:05:35.820><c> add</c><00:05:36.000><c> within</c><00:05:36.420><c> the</c><00:05:36.540><c> window</c>
+
+00:05:36.830 --> 00:05:36.840 align:start position:0%
+every group we add within the window
+ 
+
+00:05:36.840 --> 00:05:38.810 align:start position:0%
+every group we add within the window
+will<00:05:37.050><c> go</c><00:05:37.170><c> from</c><00:05:37.350><c> top</c><00:05:37.590><c> to</c><00:05:37.620><c> bottom</c><00:05:37.800><c> and</c><00:05:38.700><c> what</c>
+
+00:05:38.810 --> 00:05:38.820 align:start position:0%
+will go from top to bottom and what
+ 
+
+00:05:38.820 --> 00:05:40.520 align:start position:0%
+will go from top to bottom and what
+we're<00:05:38.940><c> going</c><00:05:39.090><c> to</c><00:05:39.180><c> do</c><00:05:39.390><c> is</c><00:05:39.600><c> make</c><00:05:39.810><c> each</c><00:05:39.990><c> group</c><00:05:40.320><c> go</c>
+
+00:05:40.520 --> 00:05:40.530 align:start position:0%
+we're going to do is make each group go
+ 
+
+00:05:40.530 --> 00:05:42.680 align:start position:0%
+we're going to do is make each group go
+from<00:05:40.740><c> left</c><00:05:40.980><c> to</c><00:05:41.100><c> right</c><00:05:41.340><c> so</c><00:05:41.580><c> this</c><00:05:42.360><c> just</c><00:05:42.570><c> allows</c>
+
+00:05:42.680 --> 00:05:42.690 align:start position:0%
+from left to right so this just allows
+ 
+
+00:05:42.690 --> 00:05:45.140 align:start position:0%
+from left to right so this just allows
+us<00:05:42.960><c> to</c><00:05:43.080><c> really</c><00:05:43.230><c> organize</c><00:05:43.500><c> our</c><00:05:43.980><c> UI</c><00:05:44.190><c> so</c><00:05:44.970><c> now</c><00:05:45.090><c> we</c>
+
+00:05:45.140 --> 00:05:45.150 align:start position:0%
+us to really organize our UI so now we
+ 
+
+00:05:45.150 --> 00:05:46.820 align:start position:0%
+us to really organize our UI so now we
+can<00:05:45.390><c> start</c><00:05:45.480><c> creating</c><00:05:45.750><c> our</c><00:05:46.050><c> groups</c><00:05:46.320><c> and</c><00:05:46.530><c> thus</c>
+
+00:05:46.820 --> 00:05:46.830 align:start position:0%
+can start creating our groups and thus
+ 
+
+00:05:46.830 --> 00:05:49.430 align:start position:0%
+can start creating our groups and thus
+our<00:05:47.040><c> buttons</c><00:05:47.690><c> so</c><00:05:48.690><c> we'll</c><00:05:48.810><c> first</c><00:05:48.990><c> create</c><00:05:49.290><c> a</c>
+
+00:05:49.430 --> 00:05:49.440 align:start position:0%
+our buttons so we'll first create a
+ 
+
+00:05:49.440 --> 00:05:51.770 align:start position:0%
+our buttons so we'll first create a
+group<00:05:49.710><c> called</c><00:05:50.070><c> a</c><00:05:50.160><c> group</c><00:05:50.310><c> one</c><00:05:50.580><c> to</c><00:05:51.450><c> do</c><00:05:51.600><c> this</c>
+
+00:05:51.770 --> 00:05:51.780 align:start position:0%
+group called a group one to do this
+ 
+
+00:05:51.780 --> 00:05:53.270 align:start position:0%
+group called a group one to do this
+we'll<00:05:52.020><c> just</c><00:05:52.050><c> go</c><00:05:52.320><c> ahead</c><00:05:52.410><c> and</c><00:05:52.710><c> go</c><00:05:52.800><c> to</c><00:05:52.830><c> main</c>
+
+00:05:53.270 --> 00:05:53.280 align:start position:0%
+we'll just go ahead and go to main
+ 
+
+00:05:53.280 --> 00:05:55.430 align:start position:0%
+we'll just go ahead and go to main
+window<00:05:53.670><c> and</c><00:05:53.850><c> we're</c><00:05:54.570><c> going</c><00:05:54.750><c> to</c><00:05:54.780><c> be</c><00:05:54.930><c> adding</c><00:05:55.140><c> a</c>
+
+00:05:55.430 --> 00:05:55.440 align:start position:0%
+window and we're going to be adding a
+ 
+
+00:05:55.440 --> 00:05:57.650 align:start position:0%
+window and we're going to be adding a
+group<00:05:55.880><c> with</c><00:05:56.880><c> undefined</c>
+
+00:05:57.650 --> 00:05:57.660 align:start position:0%
+group with undefined
+ 
+
+00:05:57.660 --> 00:06:00.020 align:start position:0%
+group with undefined
+values<00:05:58.140><c> there</c><00:05:58.410><c> and</c><00:05:58.590><c> we'll</c><00:05:59.580><c> just</c><00:05:59.760><c> call</c><00:05:59.970><c> it</c>
+
+00:06:00.020 --> 00:06:00.030 align:start position:0%
+values there and we'll just call it
+ 
+
+00:06:00.030 --> 00:06:03.380 align:start position:0%
+values there and we'll just call it
+Group<00:06:00.300><c> one</c><00:06:01.610><c> we're</c><00:06:02.610><c> also</c><00:06:02.760><c> going</c><00:06:03.030><c> to</c><00:06:03.180><c> want</c><00:06:03.330><c> to</c>
+
+00:06:03.380 --> 00:06:03.390 align:start position:0%
+Group one we're also going to want to
+ 
+
+00:06:03.390 --> 00:06:06.860 align:start position:0%
+Group one we're also going to want to
+set<00:06:03.600><c> the</c><00:06:03.720><c> orientation</c><00:06:04.590><c> to</c><00:06:05.010><c> row</c><00:06:05.640><c> now</c><00:06:06.570><c> we</c><00:06:06.630><c> can</c>
+
+00:06:06.860 --> 00:06:06.870 align:start position:0%
+set the orientation to row now we can
+ 
+
+00:06:06.870 --> 00:06:08.600 align:start position:0%
+set the orientation to row now we can
+add<00:06:07.020><c> our</c><00:06:07.050><c> two</c><00:06:07.410><c> buttons</c><00:06:07.770><c> in</c><00:06:07.950><c> the</c><00:06:08.100><c> first</c><00:06:08.370><c> group</c>
+
+00:06:08.600 --> 00:06:08.610 align:start position:0%
+add our two buttons in the first group
+ 
+
+00:06:08.610 --> 00:06:11.990 align:start position:0%
+add our two buttons in the first group
+the<00:06:08.880><c> first</c><00:06:09.420><c> of</c><00:06:09.570><c> which</c><00:06:09.690><c> is</c><00:06:09.750><c> the</c><00:06:10.020><c> time</c><00:06:10.530><c> button</c><00:06:11.000><c> so</c>
+
+00:06:11.990 --> 00:06:12.000 align:start position:0%
+the first of which is the time button so
+ 
+
+00:06:12.000 --> 00:06:14.660 align:start position:0%
+the first of which is the time button so
+create<00:06:12.300><c> a</c><00:06:12.450><c> time</c><00:06:12.780><c> button</c><00:06:13.110><c> variable</c><00:06:13.740><c> and</c><00:06:13.980><c> this</c>
+
+00:06:14.660 --> 00:06:14.670 align:start position:0%
+create a time button variable and this
+ 
+
+00:06:14.670 --> 00:06:16.880 align:start position:0%
+create a time button variable and this
+is<00:06:14.820><c> going</c><00:06:15.030><c> to</c><00:06:15.150><c> be</c><00:06:15.330><c> group</c><00:06:15.810><c> one</c><00:06:16.110><c> and</c><00:06:16.350><c> we're</c><00:06:16.770><c> going</c>
+
+00:06:16.880 --> 00:06:16.890 align:start position:0%
+is going to be group one and we're going
+ 
+
+00:06:16.890 --> 00:06:19.940 align:start position:0%
+is going to be group one and we're going
+to<00:06:17.010><c> be</c><00:06:17.100><c> adding</c><00:06:17.310><c> a</c><00:06:17.520><c> button</c><00:06:18.320><c> again</c><00:06:19.320><c> undefined</c>
+
+00:06:19.940 --> 00:06:19.950 align:start position:0%
+to be adding a button again undefined
+ 
+
+00:06:19.950 --> 00:06:22.550 align:start position:0%
+to be adding a button again undefined
+values<00:06:20.310><c> there</c><00:06:20.580><c> and</c><00:06:20.820><c> we'll</c><00:06:21.600><c> just</c><00:06:21.630><c> call</c><00:06:21.990><c> it</c><00:06:22.200><c> t</c>
+
+00:06:22.550 --> 00:06:22.560 align:start position:0%
+values there and we'll just call it t
+ 
+
+00:06:22.560 --> 00:06:24.260 align:start position:0%
+values there and we'll just call it t
+zero<00:06:23.130><c> because</c><00:06:23.460><c> it's</c><00:06:23.580><c> changing</c><00:06:23.940><c> the</c><00:06:24.060><c> time</c>
+
+00:06:24.260 --> 00:06:24.270 align:start position:0%
+zero because it's changing the time
+ 
+
+00:06:24.270 --> 00:06:26.630 align:start position:0%
+zero because it's changing the time
+codes<00:06:24.540><c> to</c><00:06:24.750><c> zero</c><00:06:24.990><c> we'll</c><00:06:25.950><c> also</c><00:06:26.130><c> create</c><00:06:26.460><c> our</c>
+
+00:06:26.630 --> 00:06:26.640 align:start position:0%
+codes to zero we'll also create our
+ 
+
+00:06:26.640 --> 00:06:28.130 align:start position:0%
+codes to zero we'll also create our
+second<00:06:27.150><c> button</c><00:06:27.360><c> in</c><00:06:27.480><c> here</c><00:06:27.630><c> which</c><00:06:27.780><c> will</c><00:06:27.930><c> be</c><00:06:28.020><c> our</c>
+
+00:06:28.130 --> 00:06:28.140 align:start position:0%
+second button in here which will be our
+ 
+
+00:06:28.140 --> 00:06:30.290 align:start position:0%
+second button in here which will be our
+text<00:06:28.440><c> button</c><00:06:28.920><c> and</c><00:06:29.190><c> this</c><00:06:29.730><c> is</c><00:06:29.790><c> going</c><00:06:30.060><c> to</c><00:06:30.210><c> be</c>
+
+00:06:30.290 --> 00:06:30.300 align:start position:0%
+text button and this is going to be
+ 
+
+00:06:30.300 --> 00:06:32.930 align:start position:0%
+text button and this is going to be
+inside<00:06:30.660><c> of</c><00:06:30.720><c> Group</c><00:06:31.020><c> one</c><00:06:31.050><c> and</c><00:06:31.760><c> again</c><00:06:32.760><c> we're</c>
+
+00:06:32.930 --> 00:06:32.940 align:start position:0%
+inside of Group one and again we're
+ 
+
+00:06:32.940 --> 00:06:37.130 align:start position:0%
+inside of Group one and again we're
+adding<00:06:33.240><c> a</c><00:06:33.360><c> button</c><00:06:35.120><c> undefined</c><00:06:36.120><c> values</c><00:06:36.600><c> and</c>
+
+00:06:37.130 --> 00:06:37.140 align:start position:0%
+adding a button undefined values and
+ 
+
+00:06:37.140 --> 00:06:41.090 align:start position:0%
+adding a button undefined values and
+we'll<00:06:37.260><c> just</c><00:06:37.410><c> call</c><00:06:37.590><c> it</c><00:06:37.620><c> text</c><00:06:38.220><c> tool</c><00:06:39.740><c> now</c><00:06:40.740><c> if</c><00:06:40.980><c> we</c>
+
+00:06:41.090 --> 00:06:41.100 align:start position:0%
+we'll just call it text tool now if we
+ 
+
+00:06:41.100 --> 00:06:42.560 align:start position:0%
+we'll just call it text tool now if we
+want<00:06:41.280><c> to</c><00:06:41.310><c> actually</c><00:06:41.490><c> preview</c><00:06:42.030><c> this</c><00:06:42.210><c> it's</c><00:06:42.390><c> not</c>
+
+00:06:42.560 --> 00:06:42.570 align:start position:0%
+want to actually preview this it's not
+ 
+
+00:06:42.570 --> 00:06:44.120 align:start position:0%
+want to actually preview this it's not
+going<00:06:42.810><c> to</c><00:06:42.960><c> work</c><00:06:43.080><c> right</c><00:06:43.140><c> now</c><00:06:43.350><c> because</c><00:06:43.680><c> we</c><00:06:43.950><c> have</c>
+
+00:06:44.120 --> 00:06:44.130 align:start position:0%
+going to work right now because we have
+ 
+
+00:06:44.130 --> 00:06:47.120 align:start position:0%
+going to work right now because we have
+to<00:06:44.340><c> initialize</c><00:06:44.880><c> the</c><00:06:45.510><c> main</c><00:06:45.750><c> window</c><00:06:45.960><c> to</c><00:06:46.830><c> do</c><00:06:46.980><c> this</c>
+
+00:06:47.120 --> 00:06:47.130 align:start position:0%
+to initialize the main window to do this
+ 
+
+00:06:47.130 --> 00:06:48.950 align:start position:0%
+to initialize the main window to do this
+I'm<00:06:47.400><c> going</c><00:06:47.430><c> to</c><00:06:47.700><c> start</c><00:06:48.030><c> off</c><00:06:48.120><c> by</c><00:06:48.390><c> calling</c><00:06:48.720><c> the</c>
+
+00:06:48.950 --> 00:06:48.960 align:start position:0%
+I'm going to start off by calling the
+ 
+
+00:06:48.960 --> 00:06:51.050 align:start position:0%
+I'm going to start off by calling the
+main<00:06:49.110><c> window</c><00:06:49.470><c> and</c><00:06:49.650><c> we're</c><00:06:50.280><c> going</c><00:06:50.430><c> to</c><00:06:50.460><c> Center</c><00:06:50.970><c> it</c>
+
+00:06:51.050 --> 00:06:51.060 align:start position:0%
+main window and we're going to Center it
+ 
+
+00:06:51.060 --> 00:06:52.640 align:start position:0%
+main window and we're going to Center it
+first<00:06:51.330><c> so</c><00:06:51.720><c> when</c><00:06:51.870><c> we</c><00:06:51.990><c> run</c><00:06:52.260><c> it</c><00:06:52.350><c> it</c><00:06:52.470><c> doesn't</c>
+
+00:06:52.640 --> 00:06:52.650 align:start position:0%
+first so when we run it it doesn't
+ 
+
+00:06:52.650 --> 00:06:54.860 align:start position:0%
+first so when we run it it doesn't
+appear<00:06:53.010><c> in</c><00:06:53.040><c> the</c><00:06:53.220><c> value</c><00:06:53.610><c> 0</c><00:06:53.940><c> 0</c><00:06:54.210><c> which</c><00:06:54.480><c> is</c><00:06:54.630><c> up</c><00:06:54.750><c> in</c>
+
+00:06:54.860 --> 00:06:54.870 align:start position:0%
+appear in the value 0 0 which is up in
+ 
+
+00:06:54.870 --> 00:06:56.780 align:start position:0%
+appear in the value 0 0 which is up in
+the<00:06:54.960><c> corner</c><00:06:55.260><c> here</c><00:06:55.290><c> and</c><00:06:55.650><c> sometimes</c><00:06:56.250><c> you</c><00:06:56.550><c> can't</c>
+
+00:06:56.780 --> 00:06:56.790 align:start position:0%
+the corner here and sometimes you can't
+ 
+
+00:06:56.790 --> 00:06:58.780 align:start position:0%
+the corner here and sometimes you can't
+even<00:06:56.850><c> move</c><00:06:57.180><c> it</c><00:06:57.300><c> around</c><00:06:57.390><c> if</c><00:06:57.720><c> it</c><00:06:57.870><c> spawns</c><00:06:58.140><c> there</c>
+
+00:06:58.780 --> 00:06:58.790 align:start position:0%
+even move it around if it spawns there
+ 
+
+00:06:58.790 --> 00:07:01.610 align:start position:0%
+even move it around if it spawns there
+so<00:06:59.790><c> then</c><00:07:00.030><c> after</c><00:07:00.360><c> that</c><00:07:00.390><c> I'm</c><00:07:00.750><c> going</c><00:07:00.930><c> to</c><00:07:01.140><c> go</c><00:07:01.500><c> ahead</c>
+
+00:07:01.610 --> 00:07:01.620 align:start position:0%
+so then after that I'm going to go ahead
+ 
+
+00:07:01.620 --> 00:07:04.370 align:start position:0%
+so then after that I'm going to go ahead
+and<00:07:01.920><c> show</c><00:07:02.420><c> so</c><00:07:03.420><c> if</c><00:07:03.540><c> we</c><00:07:03.630><c> go</c><00:07:03.780><c> ahead</c><00:07:03.840><c> and</c><00:07:03.990><c> run</c><00:07:04.230><c> this</c>
+
+00:07:04.370 --> 00:07:04.380 align:start position:0%
+and show so if we go ahead and run this
+ 
+
+00:07:04.380 --> 00:07:05.870 align:start position:0%
+and show so if we go ahead and run this
+make<00:07:04.650><c> sure</c><00:07:04.680><c> we're</c><00:07:05.010><c> in</c><00:07:05.040><c> the</c><00:07:05.310><c> version</c><00:07:05.670><c> of</c><00:07:05.730><c> After</c>
+
+00:07:05.870 --> 00:07:05.880 align:start position:0%
+make sure we're in the version of After
+ 
+
+00:07:05.880 --> 00:07:08.900 align:start position:0%
+make sure we're in the version of After
+Effects<00:07:06.240><c> we</c><00:07:06.390><c> have</c><00:07:06.480><c> open</c><00:07:06.810><c> here</c><00:07:07.160><c> play</c><00:07:08.160><c> it</c><00:07:08.310><c> you</c>
+
+00:07:08.900 --> 00:07:08.910 align:start position:0%
+Effects we have open here play it you
+ 
+
+00:07:08.910 --> 00:07:10.850 align:start position:0%
+Effects we have open here play it you
+can<00:07:09.060><c> see</c><00:07:09.210><c> we</c><00:07:09.330><c> now</c><00:07:09.480><c> have</c><00:07:09.510><c> our</c><00:07:09.870><c> window</c><00:07:10.230><c> with</c><00:07:10.740><c> our</c>
+
+00:07:10.850 --> 00:07:10.860 align:start position:0%
+can see we now have our window with our
+ 
+
+00:07:10.860 --> 00:07:14.000 align:start position:0%
+can see we now have our window with our
+first<00:07:11.100><c> group</c><00:07:11.370><c> and</c><00:07:11.610><c> two</c><00:07:11.820><c> buttons</c><00:07:12.770><c> you</c><00:07:13.770><c> may</c><00:07:13.890><c> have</c>
+
+00:07:14.000 --> 00:07:14.010 align:start position:0%
+first group and two buttons you may have
+ 
+
+00:07:14.010 --> 00:07:15.530 align:start position:0%
+first group and two buttons you may have
+noticed<00:07:14.370><c> when</c><00:07:14.520><c> I</c><00:07:14.580><c> showed</c><00:07:14.850><c> off</c><00:07:15.030><c> this</c><00:07:15.240><c> in</c><00:07:15.450><c> the</c>
+
+00:07:15.530 --> 00:07:15.540 align:start position:0%
+noticed when I showed off this in the
+ 
+
+00:07:15.540 --> 00:07:17.570 align:start position:0%
+noticed when I showed off this in the
+beginning<00:07:15.840><c> whenever</c><00:07:16.500><c> I</c><00:07:16.710><c> highlighted</c><00:07:17.250><c> a</c>
+
+00:07:17.570 --> 00:07:17.580 align:start position:0%
+beginning whenever I highlighted a
+ 
+
+00:07:17.580 --> 00:07:18.800 align:start position:0%
+beginning whenever I highlighted a
+button<00:07:17.940><c> it</c><00:07:18.120><c> would</c><00:07:18.270><c> give</c><00:07:18.480><c> you</c><00:07:18.600><c> some</c>
+
+00:07:18.800 --> 00:07:18.810 align:start position:0%
+button it would give you some
+ 
+
+00:07:18.810 --> 00:07:21.440 align:start position:0%
+button it would give you some
+information<00:07:19.110><c> about</c><00:07:19.590><c> what</c><00:07:19.920><c> it</c><00:07:20.040><c> does</c><00:07:20.220><c> so</c><00:07:21.210><c> let's</c>
+
+00:07:21.440 --> 00:07:21.450 align:start position:0%
+information about what it does so let's
+ 
+
+00:07:21.450 --> 00:07:23.930 align:start position:0%
+information about what it does so let's
+go<00:07:21.600><c> ahead</c><00:07:21.690><c> and</c><00:07:21.960><c> put</c><00:07:22.110><c> in</c><00:07:22.200><c> those</c><00:07:22.320><c> values</c><00:07:22.770><c> to</c><00:07:23.760><c> do</c>
+
+00:07:23.930 --> 00:07:23.940 align:start position:0%
+go ahead and put in those values to do
+ 
+
+00:07:23.940 --> 00:07:25.820 align:start position:0%
+go ahead and put in those values to do
+that<00:07:24.120><c> we're</c><00:07:24.330><c> going</c><00:07:24.450><c> to</c><00:07:24.570><c> call</c><00:07:24.960><c> our</c><00:07:24.990><c> button</c><00:07:25.620><c> here</c>
+
+00:07:25.820 --> 00:07:25.830 align:start position:0%
+that we're going to call our button here
+ 
+
+00:07:25.830 --> 00:07:28.250 align:start position:0%
+that we're going to call our button here
+time<00:07:26.190><c> button</c><00:07:26.490><c> and</c><00:07:26.760><c> there's</c><00:07:27.750><c> a</c><00:07:27.840><c> thing</c><00:07:28.200><c> called</c>
+
+00:07:28.250 --> 00:07:28.260 align:start position:0%
+time button and there's a thing called
+ 
+
+00:07:28.260 --> 00:07:30.920 align:start position:0%
+time button and there's a thing called
+help<00:07:28.830><c> tip</c><00:07:29.160><c> and</c><00:07:29.460><c> this</c><00:07:30.210><c> will</c><00:07:30.360><c> display</c><00:07:30.750><c> any</c>
+
+00:07:30.920 --> 00:07:30.930 align:start position:0%
+help tip and this will display any
+ 
+
+00:07:30.930 --> 00:07:33.230 align:start position:0%
+help tip and this will display any
+string<00:07:31.440><c> that</c><00:07:31.590><c> we</c><00:07:31.740><c> put</c><00:07:31.980><c> in</c><00:07:32.070><c> here</c><00:07:32.310><c> so</c><00:07:32.940><c> let's</c><00:07:33.120><c> just</c>
+
+00:07:33.230 --> 00:07:33.240 align:start position:0%
+string that we put in here so let's just
+ 
+
+00:07:33.240 --> 00:07:35.330 align:start position:0%
+string that we put in here so let's just
+go<00:07:33.390><c> ahead</c><00:07:33.480><c> and</c><00:07:33.630><c> define</c><00:07:33.870><c> what</c><00:07:34.230><c> this</c><00:07:34.380><c> does</c><00:07:34.620><c> so</c>
+
+00:07:35.330 --> 00:07:35.340 align:start position:0%
+go ahead and define what this does so
+ 
+
+00:07:35.340 --> 00:07:36.920 align:start position:0%
+go ahead and define what this does so
+whenever<00:07:35.520><c> you</c><00:07:35.760><c> highlight</c><00:07:36.120><c> the</c><00:07:36.300><c> time</c><00:07:36.600><c> button</c>
+
+00:07:36.920 --> 00:07:36.930 align:start position:0%
+whenever you highlight the time button
+ 
+
+00:07:36.930 --> 00:07:40.820 align:start position:0%
+whenever you highlight the time button
+it's<00:07:37.110><c> going</c><00:07:37.320><c> to</c><00:07:37.440><c> say</c><00:07:38.120><c> sets</c><00:07:39.560><c> beginning</c><00:07:40.560><c> time</c>
+
+00:07:40.820 --> 00:07:40.830 align:start position:0%
+it's going to say sets beginning time
+ 
+
+00:07:40.830 --> 00:07:42.730 align:start position:0%
+it's going to say sets beginning time
+code<00:07:41.340><c> of</c><00:07:41.670><c> every</c>
+
+00:07:42.730 --> 00:07:42.740 align:start position:0%
+code of every
+ 
+
+00:07:42.740 --> 00:07:46.790 align:start position:0%
+code of every
+comp<00:07:43.740><c> to</c><00:07:44.310><c> zero</c><00:07:44.730><c> and</c><00:07:45.540><c> same</c><00:07:46.080><c> thing</c><00:07:46.290><c> for</c><00:07:46.440><c> the</c><00:07:46.530><c> text</c>
+
+00:07:46.790 --> 00:07:46.800 align:start position:0%
+comp to zero and same thing for the text
+ 
+
+00:07:46.800 --> 00:07:49.490 align:start position:0%
+comp to zero and same thing for the text
+button<00:07:47.010><c> we'll</c><00:07:47.400><c> add</c><00:07:47.550><c> a</c><00:07:47.580><c> help</c><00:07:47.850><c> tip</c><00:07:48.090><c> and</c><00:07:48.570><c> for</c><00:07:49.380><c> this</c>
+
+00:07:49.490 --> 00:07:49.500 align:start position:0%
+button we'll add a help tip and for this
+ 
+
+00:07:49.500 --> 00:07:53.480 align:start position:0%
+button we'll add a help tip and for this
+we'll<00:07:49.680><c> say</c><00:07:50.360><c> set</c><00:07:51.360><c> every</c><00:07:51.870><c> text</c><00:07:52.530><c> layer</c><00:07:52.770><c> in</c><00:07:53.100><c> the</c>
+
+00:07:53.480 --> 00:07:53.490 align:start position:0%
+we'll say set every text layer in the
+ 
+
+00:07:53.490 --> 00:07:59.570 align:start position:0%
+we'll say set every text layer in the
+selected<00:07:54.240><c> comp</c><00:07:55.820><c> predefined</c><00:07:56.820><c> values</c><00:07:58.580><c> all</c>
+
+00:07:59.570 --> 00:07:59.580 align:start position:0%
+selected comp predefined values all
+ 
+
+00:07:59.580 --> 00:08:01.910 align:start position:0%
+selected comp predefined values all
+right<00:07:59.820><c> so</c><00:08:00.540><c> now</c><00:08:00.690><c> when</c><00:08:00.840><c> we</c><00:08:00.960><c> run</c><00:08:01.140><c> it</c><00:08:01.290><c> if</c><00:08:01.800><c> we</c>
+
+00:08:01.910 --> 00:08:01.920 align:start position:0%
+right so now when we run it if we
+ 
+
+00:08:01.920 --> 00:08:03.290 align:start position:0%
+right so now when we run it if we
+highlight<00:08:02.190><c> over</c><00:08:02.520><c> one</c><00:08:02.670><c> of</c><00:08:02.760><c> these</c><00:08:02.880><c> we're</c><00:08:03.180><c> going</c>
+
+00:08:03.290 --> 00:08:03.300 align:start position:0%
+highlight over one of these we're going
+ 
+
+00:08:03.300 --> 00:08:05.540 align:start position:0%
+highlight over one of these we're going
+to<00:08:03.360><c> get</c><00:08:03.540><c> our</c><00:08:03.720><c> help</c><00:08:03.960><c> tip</c><00:08:04.230><c> so</c><00:08:04.800><c> now</c><00:08:05.160><c> let's</c><00:08:05.400><c> go</c>
+
+00:08:05.540 --> 00:08:05.550 align:start position:0%
+to get our help tip so now let's go
+ 
+
+00:08:05.550 --> 00:08:06.830 align:start position:0%
+to get our help tip so now let's go
+ahead<00:08:05.610><c> and</c><00:08:05.790><c> create</c><00:08:05.850><c> our</c><00:08:06.090><c> second</c><00:08:06.480><c> group</c><00:08:06.600><c> which</c>
+
+00:08:06.830 --> 00:08:06.840 align:start position:0%
+ahead and create our second group which
+ 
+
+00:08:06.840 --> 00:08:08.630 align:start position:0%
+ahead and create our second group which
+has<00:08:07.020><c> our</c><00:08:07.170><c> final</c><00:08:07.560><c> two</c><00:08:07.710><c> buttons</c><00:08:08.070><c> we'll</c><00:08:08.430><c> just</c>
+
+00:08:08.630 --> 00:08:08.640 align:start position:0%
+has our final two buttons we'll just
+ 
+
+00:08:08.640 --> 00:08:10.760 align:start position:0%
+has our final two buttons we'll just
+call<00:08:08.790><c> it</c><00:08:08.820><c> group</c><00:08:09.120><c> two</c><00:08:09.450><c> and</c><00:08:09.690><c> it's</c><00:08:10.470><c> going</c><00:08:10.590><c> to</c><00:08:10.680><c> be</c>
+
+00:08:10.760 --> 00:08:10.770 align:start position:0%
+call it group two and it's going to be
+ 
+
+00:08:10.770 --> 00:08:13.370 align:start position:0%
+call it group two and it's going to be
+inside<00:08:11.070><c> the</c><00:08:11.280><c> main</c><00:08:11.490><c> window</c><00:08:11.730><c> and</c><00:08:12.150><c> again</c><00:08:13.140><c> we're</c>
+
+00:08:13.370 --> 00:08:13.380 align:start position:0%
+inside the main window and again we're
+ 
+
+00:08:13.380 --> 00:08:17.270 align:start position:0%
+inside the main window and again we're
+adding<00:08:13.710><c> a</c><00:08:13.770><c> group</c><00:08:14.900><c> undefined</c><00:08:15.900><c> and</c><00:08:16.230><c> we'll</c><00:08:17.130><c> call</c>
+
+00:08:17.270 --> 00:08:17.280 align:start position:0%
+adding a group undefined and we'll call
+ 
+
+00:08:17.280 --> 00:08:20.420 align:start position:0%
+adding a group undefined and we'll call
+it<00:08:17.340><c> group</c><00:08:17.580><c> two</c><00:08:17.850><c> and</c><00:08:18.420><c> just</c><00:08:18.950><c> like</c><00:08:19.950><c> before</c><00:08:20.130><c> we're</c>
+
+00:08:20.420 --> 00:08:20.430 align:start position:0%
+it group two and just like before we're
+ 
+
+00:08:20.430 --> 00:08:22.340 align:start position:0%
+it group two and just like before we're
+going<00:08:20.550><c> to</c><00:08:20.640><c> want</c><00:08:20.850><c> to</c><00:08:20.880><c> set</c><00:08:21.150><c> the</c><00:08:21.270><c> orientation</c><00:08:21.540><c> to</c>
+
+00:08:22.340 --> 00:08:22.350 align:start position:0%
+going to want to set the orientation to
+ 
+
+00:08:22.350 --> 00:08:25.190 align:start position:0%
+going to want to set the orientation to
+row<00:08:22.530><c> and</c><00:08:23.330><c> now</c><00:08:24.330><c> let's</c><00:08:24.510><c> go</c><00:08:24.660><c> ahead</c><00:08:24.690><c> and</c><00:08:25.020><c> add</c><00:08:25.170><c> our</c>
+
+00:08:25.190 --> 00:08:25.200 align:start position:0%
+row and now let's go ahead and add our
+ 
+
+00:08:25.200 --> 00:08:27.050 align:start position:0%
+row and now let's go ahead and add our
+other<00:08:25.500><c> two</c><00:08:25.740><c> buttons</c><00:08:26.010><c> the</c><00:08:26.490><c> first</c><00:08:26.520><c> of</c><00:08:26.910><c> which</c><00:08:27.000><c> is</c>
+
+00:08:27.050 --> 00:08:27.060 align:start position:0%
+other two buttons the first of which is
+ 
+
+00:08:27.060 --> 00:08:29.690 align:start position:0%
+other two buttons the first of which is
+our<00:08:27.360><c> effects</c><00:08:27.750><c> button</c><00:08:28.080><c> and</c><00:08:28.740><c> this</c><00:08:29.400><c> will</c><00:08:29.580><c> be</c>
+
+00:08:29.690 --> 00:08:29.700 align:start position:0%
+our effects button and this will be
+ 
+
+00:08:29.700 --> 00:08:32.270 align:start position:0%
+our effects button and this will be
+added<00:08:30.000><c> to</c><00:08:30.030><c> group</c><00:08:30.360><c> two</c><00:08:30.660><c> and</c><00:08:31.440><c> we're</c><00:08:31.620><c> adding</c><00:08:31.800><c> a</c>
+
+00:08:32.270 --> 00:08:32.280 align:start position:0%
+added to group two and we're adding a
+ 
+
+00:08:32.280 --> 00:08:36.760 align:start position:0%
+added to group two and we're adding a
+button<00:08:33.349><c> undefined</c><00:08:34.349><c> and</c><00:08:34.740><c> we'll</c><00:08:35.520><c> call</c><00:08:35.760><c> it</c><00:08:35.969><c> a</c><00:08:36.120><c> sex</c>
+
+00:08:36.760 --> 00:08:36.770 align:start position:0%
+button undefined and we'll call it a sex
+ 
+
+00:08:36.770 --> 00:08:40.459 align:start position:0%
+button undefined and we'll call it a sex
+go<00:08:37.770><c> ahead</c><00:08:37.950><c> and</c><00:08:38.190><c> add</c><00:08:38.430><c> our</c><00:08:38.460><c> help</c><00:08:38.940><c> tip</c><00:08:39.210><c> here</c><00:08:39.479><c> which</c>
+
+00:08:40.459 --> 00:08:40.469 align:start position:0%
+go ahead and add our help tip here which
+ 
+
+00:08:40.469 --> 00:08:43.670 align:start position:0%
+go ahead and add our help tip here which
+will<00:08:40.680><c> say</c><00:08:40.920><c> add</c><00:08:41.790><c> and</c><00:08:42.599><c> then</c><00:08:43.410><c> we're</c><00:08:43.560><c> actually</c>
+
+00:08:43.670 --> 00:08:43.680 align:start position:0%
+will say add and then we're actually
+ 
+
+00:08:43.680 --> 00:08:45.560 align:start position:0%
+will say add and then we're actually
+going<00:08:43.890><c> to</c><00:08:44.040><c> put</c><00:08:44.130><c> in</c><00:08:44.400><c> our</c><00:08:44.490><c> variable</c><00:08:45.030><c> for</c><00:08:45.240><c> effect</c>
+
+00:08:45.560 --> 00:08:45.570 align:start position:0%
+going to put in our variable for effect
+ 
+
+00:08:45.570 --> 00:08:47.240 align:start position:0%
+going to put in our variable for effect
+match<00:08:45.810><c> name</c><00:08:46.080><c> here</c><00:08:46.350><c> so</c><00:08:46.530><c> they</c><00:08:46.680><c> can</c><00:08:46.830><c> see</c><00:08:47.040><c> what</c>
+
+00:08:47.240 --> 00:08:47.250 align:start position:0%
+match name here so they can see what
+ 
+
+00:08:47.250 --> 00:08:48.759 align:start position:0%
+match name here so they can see what
+it's<00:08:47.370><c> going</c><00:08:47.550><c> to</c><00:08:47.670><c> apply</c><00:08:47.910><c> so</c>
+
+00:08:48.759 --> 00:08:48.769 align:start position:0%
+it's going to apply so
+ 
+
+00:08:48.769 --> 00:08:56.040 align:start position:0%
+it's going to apply so
+that<00:08:49.660><c> to</c><00:08:51.670><c> every</c><00:08:52.670><c> layer</c><00:08:53.029><c> on</c><00:08:53.629><c> the</c><00:08:53.899><c> selected</c><00:08:54.649><c> comp</c>
+
+00:08:56.040 --> 00:08:56.050 align:start position:0%
+that to every layer on the selected comp
+ 
+
+00:08:56.050 --> 00:08:58.150 align:start position:0%
+that to every layer on the selected comp
+now<00:08:57.050><c> let's</c><00:08:57.230><c> go</c><00:08:57.350><c> ahead</c><00:08:57.439><c> and</c><00:08:57.679><c> add</c><00:08:57.800><c> our</c><00:08:57.829><c> final</c>
+
+00:08:58.150 --> 00:08:58.160 align:start position:0%
+now let's go ahead and add our final
+ 
+
+00:08:58.160 --> 00:09:01.239 align:start position:0%
+now let's go ahead and add our final
+button<00:08:58.579><c> which</c><00:08:58.730><c> is</c><00:08:58.879><c> our</c><00:08:58.999><c> scale</c><00:08:59.360><c> button</c><00:09:00.249><c> and</c>
+
+00:09:01.239 --> 00:09:01.249 align:start position:0%
+button which is our scale button and
+ 
+
+00:09:01.249 --> 00:09:03.369 align:start position:0%
+button which is our scale button and
+again<00:09:01.519><c> this</c><00:09:01.819><c> is</c><00:09:01.970><c> group</c><00:09:02.209><c> two</c><00:09:02.449><c> or</c><00:09:02.809><c> adding</c><00:09:03.259><c> a</c>
+
+00:09:03.369 --> 00:09:03.379 align:start position:0%
+again this is group two or adding a
+ 
+
+00:09:03.379 --> 00:09:05.650 align:start position:0%
+again this is group two or adding a
+button<00:09:04.299><c> undefined</c>
+
+00:09:05.650 --> 00:09:05.660 align:start position:0%
+button undefined
+ 
+
+00:09:05.660 --> 00:09:09.249 align:start position:0%
+button undefined
+we'll<00:09:05.989><c> just</c><00:09:06.110><c> call</c><00:09:06.290><c> this</c><00:09:06.470><c> scale</c><00:09:06.889><c> tool</c><00:09:07.189><c> and</c><00:09:08.259><c> of</c>
+
+00:09:09.249 --> 00:09:09.259 align:start position:0%
+we'll just call this scale tool and of
+ 
+
+00:09:09.259 --> 00:09:12.100 align:start position:0%
+we'll just call this scale tool and of
+course<00:09:09.499><c> we'll</c><00:09:09.709><c> add</c><00:09:09.860><c> in</c><00:09:10.069><c> our</c><00:09:10.220><c> health</c><00:09:10.429><c> tip</c><00:09:11.110><c> which</c>
+
+00:09:12.100 --> 00:09:12.110 align:start position:0%
+course we'll add in our health tip which
+ 
+
+00:09:12.110 --> 00:09:15.549 align:start position:0%
+course we'll add in our health tip which
+will<00:09:12.259><c> just</c><00:09:12.350><c> be</c><00:09:12.470><c> multiplies</c><00:09:13.749><c> the</c><00:09:14.749><c> scale</c><00:09:15.199><c> of</c>
+
+00:09:15.549 --> 00:09:15.559 align:start position:0%
+will just be multiplies the scale of
+ 
+
+00:09:15.559 --> 00:09:20.460 align:start position:0%
+will just be multiplies the scale of
+every<00:09:16.129><c> layer</c><00:09:16.459><c> and</c><00:09:17.449><c> we</c><00:09:17.989><c> selected</c><00:09:18.589><c> comp</c><00:09:19.129><c> by</c><00:09:19.790><c> and</c>
+
+00:09:20.460 --> 00:09:20.470 align:start position:0%
+every layer and we selected comp by and
+ 
+
+00:09:20.470 --> 00:09:24.579 align:start position:0%
+every layer and we selected comp by and
+we'll<00:09:21.470><c> put</c><00:09:21.709><c> in</c><00:09:21.829><c> our</c><00:09:22.009><c> scale</c><00:09:22.429><c> percent</c><00:09:23.499><c> so</c><00:09:24.499><c> now</c>
+
+00:09:24.579 --> 00:09:24.589 align:start position:0%
+we'll put in our scale percent so now
+ 
+
+00:09:24.589 --> 00:09:27.039 align:start position:0%
+we'll put in our scale percent so now
+when<00:09:24.739><c> we</c><00:09:24.769><c> run</c><00:09:25.009><c> it</c><00:09:25.299><c> got</c><00:09:26.299><c> all</c><00:09:26.449><c> of</c><00:09:26.600><c> our</c><00:09:26.689><c> buttons</c>
+
+00:09:27.039 --> 00:09:27.049 align:start position:0%
+when we run it got all of our buttons
+ 
+
+00:09:27.049 --> 00:09:29.679 align:start position:0%
+when we run it got all of our buttons
+and<00:09:27.379><c> all</c><00:09:28.309><c> of</c><00:09:28.459><c> our</c><00:09:28.579><c> tooltips</c><00:09:29.089><c> working</c><00:09:29.480><c> properly</c>
+
+00:09:29.679 --> 00:09:29.689 align:start position:0%
+and all of our tooltips working properly
+ 
+
+00:09:29.689 --> 00:09:32.229 align:start position:0%
+and all of our tooltips working properly
+so<00:09:30.369><c> now</c><00:09:31.369><c> we</c><00:09:31.429><c> just</c><00:09:31.519><c> need</c><00:09:31.670><c> to</c><00:09:31.850><c> set</c><00:09:32.029><c> up</c><00:09:32.059><c> the</c>
+
+00:09:32.229 --> 00:09:32.239 align:start position:0%
+so now we just need to set up the
+ 
+
+00:09:32.239 --> 00:09:33.639 align:start position:0%
+so now we just need to set up the
+functionality<00:09:32.899><c> of</c><00:09:32.929><c> the</c><00:09:33.110><c> script</c><00:09:33.410><c> and</c>
+
+00:09:33.639 --> 00:09:33.649 align:start position:0%
+functionality of the script and
+ 
+
+00:09:33.649 --> 00:09:39.939 align:start position:0%
+functionality of the script and
+basically<00:09:33.980><c> the</c><00:09:34.160><c> meat</c><00:09:37.899><c> main</c><00:09:38.899><c> so</c><00:09:39.619><c> the</c><00:09:39.769><c> first</c>
+
+00:09:39.939 --> 00:09:39.949 align:start position:0%
+basically the meat main so the first
+ 
+
+00:09:39.949 --> 00:09:41.379 align:start position:0%
+basically the meat main so the first
+thing<00:09:40.069><c> we're</c><00:09:40.189><c> going</c><00:09:40.339><c> to</c><00:09:40.429><c> want</c><00:09:40.549><c> to</c><00:09:40.699><c> do</c><00:09:40.879><c> is</c><00:09:41.149><c> go</c>
+
+00:09:41.379 --> 00:09:41.389 align:start position:0%
+thing we're going to want to do is go
+ 
+
+00:09:41.389 --> 00:09:42.989 align:start position:0%
+thing we're going to want to do is go
+ahead<00:09:41.480><c> and</c><00:09:41.749><c> add</c><00:09:41.839><c> our</c><00:09:41.869><c> functionality</c><00:09:42.470><c> again</c>
+
+00:09:42.989 --> 00:09:42.999 align:start position:0%
+ahead and add our functionality again
+ 
+
+00:09:42.999 --> 00:09:45.280 align:start position:0%
+ahead and add our functionality again
+we'll<00:09:43.999><c> start</c><00:09:44.149><c> off</c><00:09:44.389><c> with</c><00:09:44.569><c> our</c><00:09:44.600><c> first</c><00:09:44.720><c> button</c>
+
+00:09:45.280 --> 00:09:45.290 align:start position:0%
+we'll start off with our first button
+ 
+
+00:09:45.290 --> 00:09:48.220 align:start position:0%
+we'll start off with our first button
+which<00:09:45.439><c> is</c><00:09:45.589><c> our</c><00:09:45.709><c> time</c><00:09:46.009><c> button</c><00:09:46.249><c> and</c><00:09:47.119><c> whenever</c><00:09:47.899><c> we</c>
+
+00:09:48.220 --> 00:09:48.230 align:start position:0%
+which is our time button and whenever we
+ 
+
+00:09:48.230 --> 00:09:50.289 align:start position:0%
+which is our time button and whenever we
+click<00:09:48.499><c> it</c><00:09:48.769><c> so</c><00:09:48.980><c> on</c><00:09:49.160><c> click</c><00:09:49.549><c> we're</c><00:09:49.970><c> going</c><00:09:50.179><c> to</c>
+
+00:09:50.289 --> 00:09:50.299 align:start position:0%
+click it so on click we're going to
+ 
+
+00:09:50.299 --> 00:09:52.629 align:start position:0%
+click it so on click we're going to
+initialize<00:09:50.779><c> this</c><00:09:51.559><c> set</c><00:09:51.829><c> of</c><00:09:51.949><c> code</c><00:09:52.189><c> in</c><00:09:52.429><c> this</c>
+
+00:09:52.629 --> 00:09:52.639 align:start position:0%
+initialize this set of code in this
+ 
+
+00:09:52.639 --> 00:09:55.090 align:start position:0%
+initialize this set of code in this
+function<00:09:53.149><c> we'll</c><00:09:53.959><c> start</c><00:09:54.230><c> off</c><00:09:54.350><c> with</c><00:09:54.379><c> an</c><00:09:54.649><c> app</c><00:09:54.829><c> top</c>
+
+00:09:55.090 --> 00:09:55.100 align:start position:0%
+function we'll start off with an app top
+ 
+
+00:09:55.100 --> 00:09:57.069 align:start position:0%
+function we'll start off with an app top
+begin<00:09:55.519><c> on</c><00:09:55.759><c> do</c><00:09:55.970><c> group</c><00:09:56.209><c> which</c><00:09:56.749><c> will</c><00:09:56.899><c> basically</c>
+
+00:09:57.069 --> 00:09:57.079 align:start position:0%
+begin on do group which will basically
+ 
+
+00:09:57.079 --> 00:09:59.980 align:start position:0%
+begin on do group which will basically
+make<00:09:57.290><c> it</c><00:09:57.470><c> easier</c><00:09:57.949><c> for</c><00:09:57.980><c> the</c><00:09:58.279><c> user</c><00:09:58.519><c> to</c><00:09:58.779><c> undo</c><00:09:59.779><c> any</c>
+
+00:09:59.980 --> 00:09:59.990 align:start position:0%
+make it easier for the user to undo any
+ 
+
+00:09:59.990 --> 00:10:01.480 align:start position:0%
+make it easier for the user to undo any
+changes<00:10:00.079><c> that</c><00:10:00.529><c> they</c><00:10:00.740><c> make</c><00:10:00.920><c> so</c><00:10:01.220><c> if</c><00:10:01.279><c> there's</c><00:10:01.429><c> a</c>
+
+00:10:01.480 --> 00:10:01.490 align:start position:0%
+changes that they make so if there's a
+ 
+
+00:10:01.490 --> 00:10:02.949 align:start position:0%
+changes that they make so if there's a
+ton<00:10:01.730><c> of</c><00:10:01.759><c> text</c><00:10:02.119><c> layers</c><00:10:02.329><c> and</c><00:10:02.540><c> they</c><00:10:02.600><c> don't</c><00:10:02.749><c> have</c>
+
+00:10:02.949 --> 00:10:02.959 align:start position:0%
+ton of text layers and they don't have
+ 
+
+00:10:02.959 --> 00:10:05.199 align:start position:0%
+ton of text layers and they don't have
+to<00:10:03.049><c> hit</c><00:10:03.170><c> ctrl-v</c><00:10:03.649><c> hundred</c><00:10:04.220><c> times</c><00:10:04.429><c> this</c><00:10:05.029><c> will</c>
+
+00:10:05.199 --> 00:10:05.209 align:start position:0%
+to hit ctrl-v hundred times this will
+ 
+
+00:10:05.209 --> 00:10:07.239 align:start position:0%
+to hit ctrl-v hundred times this will
+make<00:10:05.299><c> it</c><00:10:05.420><c> easy</c><00:10:05.569><c> so</c><00:10:05.839><c> we</c><00:10:06.410><c> can</c><00:10:06.529><c> also</c><00:10:06.679><c> pass</c><00:10:06.949><c> their</c>
+
+00:10:07.239 --> 00:10:07.249 align:start position:0%
+make it easy so we can also pass their
+ 
+
+00:10:07.249 --> 00:10:08.859 align:start position:0%
+make it easy so we can also pass their
+an<00:10:07.339><c> argument</c><00:10:07.790><c> to</c><00:10:07.910><c> the</c><00:10:07.939><c> begin</c><00:10:08.329><c> under</c><00:10:08.660><c> group</c>
+
+00:10:08.859 --> 00:10:08.869 align:start position:0%
+an argument to the begin under group
+ 
+
+00:10:08.869 --> 00:10:10.509 align:start position:0%
+an argument to the begin under group
+that<00:10:09.079><c> says</c><00:10:09.290><c> what</c><00:10:09.559><c> the</c><00:10:09.740><c> under</c><00:10:10.040><c> group</c><00:10:10.279><c> does</c>
+
+00:10:10.509 --> 00:10:10.519 align:start position:0%
+that says what the under group does
+ 
+
+00:10:10.519 --> 00:10:13.900 align:start position:0%
+that says what the under group does
+we'll<00:10:11.240><c> just</c><00:10:11.480><c> go</c><00:10:11.629><c> ahead</c><00:10:11.779><c> and</c><00:10:11.929><c> say</c><00:10:12.429><c> comp</c><00:10:13.429><c> time</c>
+
+00:10:13.900 --> 00:10:13.910 align:start position:0%
+we'll just go ahead and say comp time
+ 
+
+00:10:13.910 --> 00:10:17.919 align:start position:0%
+we'll just go ahead and say comp time
+codes<00:10:14.269><c> to</c><00:10:14.720><c> zero</c><00:10:16.059><c> but</c><00:10:17.059><c> also</c><00:10:17.209><c> want</c><00:10:17.449><c> to</c><00:10:17.480><c> close</c><00:10:17.749><c> the</c>
+
+00:10:17.919 --> 00:10:17.929 align:start position:0%
+codes to zero but also want to close the
+ 
+
+00:10:17.929 --> 00:10:20.139 align:start position:0%
+codes to zero but also want to close the
+under<00:10:18.170><c> group</c><00:10:18.350><c> by</c><00:10:18.499><c> doing</c><00:10:18.740><c> app</c><00:10:18.949><c> dot</c><00:10:19.249><c> and</c><00:10:19.519><c> undo</c>
+
+00:10:20.139 --> 00:10:20.149 align:start position:0%
+under group by doing app dot and undo
+ 
+
+00:10:20.149 --> 00:10:22.119 align:start position:0%
+under group by doing app dot and undo
+group<00:10:20.389><c> and</c><00:10:20.660><c> we</c><00:10:21.379><c> don't</c><00:10:21.529><c> need</c><00:10:21.619><c> to</c><00:10:21.740><c> pass</c><00:10:21.889><c> any</c>
+
+00:10:22.119 --> 00:10:22.129 align:start position:0%
+group and we don't need to pass any
+ 
+
+00:10:22.129 --> 00:10:24.069 align:start position:0%
+group and we don't need to pass any
+arguments<00:10:22.610><c> through</c><00:10:22.790><c> there</c><00:10:22.939><c> so</c><00:10:23.839><c> now</c><00:10:23.959><c> we're</c>
+
+00:10:24.069 --> 00:10:24.079 align:start position:0%
+arguments through there so now we're
+ 
+
+00:10:24.079 --> 00:10:25.449 align:start position:0%
+arguments through there so now we're
+going<00:10:24.170><c> to</c><00:10:24.259><c> set</c><00:10:24.439><c> up</c><00:10:24.529><c> a</c><00:10:24.619><c> for</c><00:10:24.829><c> loop</c><00:10:25.009><c> so</c><00:10:25.040><c> we</c><00:10:25.189><c> can</c><00:10:25.339><c> go</c>
+
+00:10:25.449 --> 00:10:25.459 align:start position:0%
+going to set up a for loop so we can go
+ 
+
+00:10:25.459 --> 00:10:27.280 align:start position:0%
+going to set up a for loop so we can go
+through<00:10:25.639><c> each</c><00:10:25.850><c> composition</c><00:10:26.360><c> in</c><00:10:26.779><c> the</c><00:10:26.929><c> items</c>
+
+00:10:27.280 --> 00:10:27.290 align:start position:0%
+through each composition in the items
+ 
+
+00:10:27.290 --> 00:10:30.160 align:start position:0%
+through each composition in the items
+and<00:10:27.529><c> make</c><00:10:28.279><c> their</c><00:10:28.459><c> time</c><00:10:28.610><c> codes</c><00:10:28.910><c> zero</c><00:10:29.119><c> so</c><00:10:30.079><c> we'll</c>
+
+00:10:30.160 --> 00:10:30.170 align:start position:0%
+and make their time codes zero so we'll
+ 
+
+00:10:30.170 --> 00:10:33.999 align:start position:0%
+and make their time codes zero so we'll
+make<00:10:30.319><c> a</c><00:10:30.350><c> for</c><00:10:30.649><c> loop</c><00:10:32.049><c> we'll</c><00:10:33.049><c> just</c><00:10:33.259><c> do</c><00:10:33.379><c> jar</c><00:10:33.740><c> I</c>
+
+00:10:33.999 --> 00:10:34.009 align:start position:0%
+make a for loop we'll just do jar I
+ 
+
+00:10:34.009 --> 00:10:37.239 align:start position:0%
+make a for loop we'll just do jar I
+equals<00:10:34.699><c> one</c><00:10:34.939><c> and</c><00:10:35.209><c> that</c><00:10:36.079><c> for</c><00:10:36.410><c> I</c><00:10:36.439><c> is</c><00:10:36.649><c> less</c><00:10:37.189><c> than</c>
+
+00:10:37.239 --> 00:10:37.249 align:start position:0%
+equals one and that for I is less than
+ 
+
+00:10:37.249 --> 00:10:40.629 align:start position:0%
+equals one and that for I is less than
+or<00:10:37.490><c> equal</c><00:10:37.639><c> to</c><00:10:38.179><c> our</c><00:10:38.709><c> project</c><00:10:39.709><c> and</c><00:10:39.860><c> the</c><00:10:40.279><c> number</c>
+
+00:10:40.629 --> 00:10:40.639 align:start position:0%
+or equal to our project and the number
+ 
+
+00:10:40.639 --> 00:10:43.480 align:start position:0%
+or equal to our project and the number
+of<00:10:40.759><c> items</c><00:10:41.119><c> in</c><00:10:41.299><c> it</c><00:10:41.589><c> go</c><00:10:42.589><c> ahead</c><00:10:42.709><c> and</c><00:10:42.980><c> increment</c><00:10:43.399><c> I</c>
+
+00:10:43.480 --> 00:10:43.490 align:start position:0%
+of items in it go ahead and increment I
+ 
+
+00:10:43.490 --> 00:10:46.119 align:start position:0%
+of items in it go ahead and increment I
+and<00:10:43.850><c> now</c><00:10:44.540><c> for</c><00:10:45.230><c> each</c><00:10:45.379><c> one</c><00:10:45.589><c> of</c><00:10:45.619><c> the</c><00:10:45.739><c> times</c><00:10:45.949><c> it</c>
+
+00:10:46.119 --> 00:10:46.129 align:start position:0%
+and now for each one of the times it
+ 
+
+00:10:46.129 --> 00:10:47.439 align:start position:0%
+and now for each one of the times it
+goes<00:10:46.220><c> through</c><00:10:46.489><c> this</c><00:10:46.610><c> we</c><00:10:46.819><c> need</c><00:10:46.939><c> to</c><00:10:47.029><c> check</c><00:10:47.269><c> if</c>
+
+00:10:47.439 --> 00:10:47.449 align:start position:0%
+goes through this we need to check if
+ 
+
+00:10:47.449 --> 00:10:49.720 align:start position:0%
+goes through this we need to check if
+it's<00:10:47.629><c> a</c><00:10:47.720><c> composition</c><00:10:48.110><c> so</c><00:10:49.100><c> put</c><00:10:49.339><c> in</c><00:10:49.429><c> an</c><00:10:49.549><c> if</c>
+
+00:10:49.720 --> 00:10:49.730 align:start position:0%
+it's a composition so put in an if
+ 
+
+00:10:49.730 --> 00:10:51.639 align:start position:0%
+it's a composition so put in an if
+statement<00:10:49.970><c> and</c><00:10:50.689><c> this</c><00:10:50.959><c> is</c><00:10:51.110><c> going</c><00:10:51.319><c> to</c><00:10:51.410><c> check</c>
+
+00:10:51.639 --> 00:10:51.649 align:start position:0%
+statement and this is going to check
+ 
+
+00:10:51.649 --> 00:10:53.079 align:start position:0%
+statement and this is going to check
+whether<00:10:51.829><c> or</c><00:10:51.980><c> not</c><00:10:52.069><c> the</c><00:10:52.220><c> current</c><00:10:52.399><c> item</c><00:10:52.699><c> that</c><00:10:52.970><c> it</c>
+
+00:10:53.079 --> 00:10:53.089 align:start position:0%
+whether or not the current item that it
+ 
+
+00:10:53.089 --> 00:10:54.669 align:start position:0%
+whether or not the current item that it
+goes<00:10:53.239><c> through</c><00:10:53.509><c> these</c><00:10:53.959><c> right</c><00:10:54.259><c> here</c><00:10:54.499><c> is</c><00:10:54.619><c> a</c>
+
+00:10:54.669 --> 00:10:54.679 align:start position:0%
+goes through these right here is a
+ 
+
+00:10:54.679 --> 00:10:58.449 align:start position:0%
+goes through these right here is a
+composition<00:10:55.600><c> so</c><00:10:56.600><c> we'll</c><00:10:56.720><c> say</c><00:10:56.899><c> if</c><00:10:57.110><c> project</c><00:10:57.769><c> item</c>
+
+00:10:58.449 --> 00:10:58.459 align:start position:0%
+composition so we'll say if project item
+ 
+
+00:10:58.459 --> 00:11:01.350 align:start position:0%
+composition so we'll say if project item
+I<00:10:58.669><c> is</c><00:10:59.240><c> an</c><00:10:59.809><c> instance</c><00:11:00.319><c> of</c>
+
+00:11:01.350 --> 00:11:01.360 align:start position:0%
+I is an instance of
+ 
+
+00:11:01.360 --> 00:11:05.160 align:start position:0%
+I is an instance of
+a<00:11:01.420><c> comp</c><00:11:02.050><c> item</c><00:11:03.600><c> execute</c><00:11:04.600><c> whatever</c><00:11:04.779><c> codes</c>
+
+00:11:05.160 --> 00:11:05.170 align:start position:0%
+a comp item execute whatever codes
+ 
+
+00:11:05.170 --> 00:11:06.030 align:start position:0%
+a comp item execute whatever codes
+inside<00:11:05.529><c> of</c><00:11:05.680><c> here</c>
+
+00:11:06.030 --> 00:11:06.040 align:start position:0%
+inside of here
+ 
+
+00:11:06.040 --> 00:11:07.889 align:start position:0%
+inside of here
+so<00:11:06.640><c> it's</c><00:11:06.910><c> actually</c><00:11:07.180><c> just</c><00:11:07.329><c> one</c><00:11:07.510><c> line</c><00:11:07.720><c> of</c><00:11:07.870><c> code</c>
+
+00:11:07.889 --> 00:11:07.899 align:start position:0%
+so it's actually just one line of code
+ 
+
+00:11:07.899 --> 00:11:10.110 align:start position:0%
+so it's actually just one line of code
+we<00:11:08.230><c> need</c><00:11:08.260><c> to</c><00:11:08.529><c> set</c><00:11:08.709><c> the</c><00:11:08.800><c> time</c><00:11:08.950><c> code</c><00:11:09.220><c> to</c><00:11:09.370><c> zero</c><00:11:09.610><c> all</c>
+
+00:11:10.110 --> 00:11:10.120 align:start position:0%
+we need to set the time code to zero all
+ 
+
+00:11:10.120 --> 00:11:12.170 align:start position:0%
+we need to set the time code to zero all
+we<00:11:10.420><c> have</c><00:11:10.510><c> to</c><00:11:10.600><c> do</c><00:11:10.750><c> is</c><00:11:10.870><c> grab</c><00:11:11.079><c> the</c><00:11:11.260><c> current</c><00:11:11.589><c> item</c>
+
+00:11:12.170 --> 00:11:12.180 align:start position:0%
+we have to do is grab the current item
+ 
+
+00:11:12.180 --> 00:11:15.540 align:start position:0%
+we have to do is grab the current item
+which<00:11:13.180><c> will</c><00:11:13.300><c> be</c><00:11:13.450><c> project</c><00:11:13.899><c> item</c><00:11:14.350><c> I</c><00:11:14.529><c> and</c><00:11:14.769><c> again</c>
+
+00:11:15.540 --> 00:11:15.550 align:start position:0%
+which will be project item I and again
+ 
+
+00:11:15.550 --> 00:11:17.460 align:start position:0%
+which will be project item I and again
+we<00:11:15.820><c> just</c><00:11:16.029><c> check</c><00:11:16.240><c> to</c><00:11:16.360><c> go</c><00:11:16.480><c> to</c><00:11:16.540><c> the</c><00:11:16.630><c> comp</c><00:11:16.839><c> item</c><00:11:17.200><c> so</c>
+
+00:11:17.460 --> 00:11:17.470 align:start position:0%
+we just check to go to the comp item so
+ 
+
+00:11:17.470 --> 00:11:19.230 align:start position:0%
+we just check to go to the comp item so
+if<00:11:17.529><c> it</c><00:11:17.649><c> is</c><00:11:17.769><c> it's</c><00:11:18.040><c> going</c><00:11:18.279><c> to</c><00:11:18.370><c> execute</c><00:11:18.760><c> this</c><00:11:19.000><c> code</c>
+
+00:11:19.230 --> 00:11:19.240 align:start position:0%
+if it is it's going to execute this code
+ 
+
+00:11:19.240 --> 00:11:24.050 align:start position:0%
+if it is it's going to execute this code
+we'll<00:11:19.959><c> set</c><00:11:20.200><c> the</c><00:11:20.380><c> display</c><00:11:20.769><c> start</c><00:11:21.670><c> time</c><00:11:22.680><c> to</c><00:11:23.680><c> zero</c>
+
+00:11:24.050 --> 00:11:24.060 align:start position:0%
+we'll set the display start time to zero
+ 
+
+00:11:24.060 --> 00:11:27.329 align:start position:0%
+we'll set the display start time to zero
+simple<00:11:25.060><c> as</c><00:11:25.180><c> that</c><00:11:25.329><c> and</c><00:11:25.839><c> I'll</c><00:11:26.680><c> go</c><00:11:26.829><c> ahead</c><00:11:26.920><c> and</c><00:11:27.220><c> add</c>
+
+00:11:27.329 --> 00:11:27.339 align:start position:0%
+simple as that and I'll go ahead and add
+ 
+
+00:11:27.339 --> 00:11:29.280 align:start position:0%
+simple as that and I'll go ahead and add
+an<00:11:27.640><c> alert</c><00:11:27.970><c> after</c><00:11:28.209><c> it's</c><00:11:28.510><c> done</c><00:11:28.720><c> all</c><00:11:28.870><c> this</c><00:11:29.019><c> so</c>
+
+00:11:29.280 --> 00:11:29.290 align:start position:0%
+an alert after it's done all this so
+ 
+
+00:11:29.290 --> 00:11:30.660 align:start position:0%
+an alert after it's done all this so
+that<00:11:29.410><c> we</c><00:11:29.500><c> can</c><00:11:29.680><c> make</c><00:11:29.829><c> sure</c><00:11:30.010><c> it's</c><00:11:30.190><c> gone</c><00:11:30.399><c> through</c>
+
+00:11:30.660 --> 00:11:30.670 align:start position:0%
+that we can make sure it's gone through
+ 
+
+00:11:30.670 --> 00:11:34.470 align:start position:0%
+that we can make sure it's gone through
+properly<00:11:32.100><c> just</c><00:11:33.100><c> say</c><00:11:33.310><c> completed</c><00:11:33.910><c> successfully</c>
+
+00:11:34.470 --> 00:11:34.480 align:start position:0%
+properly just say completed successfully
+ 
+
+00:11:34.480 --> 00:11:38.100 align:start position:0%
+properly just say completed successfully
+and<00:11:35.019><c> now</c><00:11:36.180><c> we</c><00:11:37.180><c> can</c><00:11:37.390><c> move</c><00:11:37.480><c> on</c><00:11:37.660><c> to</c><00:11:37.810><c> our</c><00:11:37.899><c> next</c>
+
+00:11:38.100 --> 00:11:38.110 align:start position:0%
+and now we can move on to our next
+ 
+
+00:11:38.110 --> 00:11:38.730 align:start position:0%
+and now we can move on to our next
+button
+
+00:11:38.730 --> 00:11:38.740 align:start position:0%
+button
+ 
+
+00:11:38.740 --> 00:11:41.250 align:start position:0%
+button
+our<00:11:39.310><c> next</c><00:11:39.760><c> button</c><00:11:40.000><c> in</c><00:11:40.089><c> this</c><00:11:40.240><c> case</c><00:11:40.480><c> is</c><00:11:40.690><c> our</c><00:11:40.839><c> text</c>
+
+00:11:41.250 --> 00:11:41.260 align:start position:0%
+our next button in this case is our text
+ 
+
+00:11:41.260 --> 00:11:43.650 align:start position:0%
+our next button in this case is our text
+button<00:11:41.620><c> so</c><00:11:42.040><c> we'll</c><00:11:42.160><c> call</c><00:11:42.370><c> that</c><00:11:42.579><c> and</c><00:11:42.910><c> again</c>
+
+00:11:43.650 --> 00:11:43.660 align:start position:0%
+button so we'll call that and again
+ 
+
+00:11:43.660 --> 00:11:46.650 align:start position:0%
+button so we'll call that and again
+whenever<00:11:44.260><c> we</c><00:11:44.440><c> click</c><00:11:44.649><c> it</c><00:11:44.920><c> go</c><00:11:45.700><c> ahead</c><00:11:45.970><c> and</c><00:11:46.209><c> go</c>
+
+00:11:46.650 --> 00:11:46.660 align:start position:0%
+whenever we click it go ahead and go
+ 
+
+00:11:46.660 --> 00:11:48.780 align:start position:0%
+whenever we click it go ahead and go
+through<00:11:46.690><c> this</c><00:11:47.079><c> function</c><00:11:47.410><c> here</c><00:11:47.860><c> just</c><00:11:48.700><c> like</c>
+
+00:11:48.780 --> 00:11:48.790 align:start position:0%
+through this function here just like
+ 
+
+00:11:48.790 --> 00:11:49.889 align:start position:0%
+through this function here just like
+last<00:11:49.060><c> time</c><00:11:49.269><c> we're</c><00:11:49.420><c> going</c><00:11:49.600><c> to</c><00:11:49.690><c> make</c><00:11:49.870><c> a</c>
+
+00:11:49.889 --> 00:11:49.899 align:start position:0%
+last time we're going to make a
+ 
+
+00:11:49.899 --> 00:11:53.009 align:start position:0%
+last time we're going to make a
+beginning<00:11:50.170><c> and</c><00:11:50.740><c> end</c><00:11:50.890><c> under</c><00:11:51.310><c> group</c><00:11:51.519><c> here</c><00:11:52.019><c> call</c>
+
+00:11:53.009 --> 00:11:53.019 align:start position:0%
+beginning and end under group here call
+ 
+
+00:11:53.019 --> 00:11:56.579 align:start position:0%
+beginning and end under group here call
+it<00:11:53.140><c> change</c><00:11:53.500><c> all</c><00:11:53.769><c> text</c><00:11:54.130><c> layers</c><00:11:54.339><c> and</c><00:11:55.350><c> go</c><00:11:56.350><c> ahead</c>
+
+00:11:56.579 --> 00:11:56.589 align:start position:0%
+it change all text layers and go ahead
+ 
+
+00:11:56.589 --> 00:11:59.880 align:start position:0%
+it change all text layers and go ahead
+and<00:11:56.829><c> end</c><00:11:57.040><c> the</c><00:11:57.279><c> undo</c><00:11:57.610><c> group</c><00:11:58.500><c> so</c><00:11:59.500><c> now</c><00:11:59.620><c> within</c>
+
+00:11:59.880 --> 00:11:59.890 align:start position:0%
+and end the undo group so now within
+ 
+
+00:11:59.890 --> 00:12:01.800 align:start position:0%
+and end the undo group so now within
+this<00:12:00.160><c> code</c><00:12:00.399><c> just</c><00:12:00.640><c> like</c><00:12:01.029><c> before</c><00:12:01.329><c> we're</c><00:12:01.660><c> going</c>
+
+00:12:01.800 --> 00:12:01.810 align:start position:0%
+this code just like before we're going
+ 
+
+00:12:01.810 --> 00:12:05.400 align:start position:0%
+this code just like before we're going
+to<00:12:01.930><c> set</c><00:12:02.140><c> up</c><00:12:02.170><c> a</c><00:12:02.350><c> for</c><00:12:02.589><c> loop</c><00:12:03.990><c> this</c><00:12:04.990><c> time</c><00:12:05.230><c> I'm</c><00:12:05.380><c> just</c>
+
+00:12:05.400 --> 00:12:05.410 align:start position:0%
+to set up a for loop this time I'm just
+ 
+
+00:12:05.410 --> 00:12:06.750 align:start position:0%
+to set up a for loop this time I'm just
+going<00:12:05.589><c> to</c><00:12:05.740><c> use</c><00:12:05.829><c> a</c><00:12:05.860><c> different</c><00:12:06.130><c> variable</c><00:12:06.310><c> for</c>
+
+00:12:06.750 --> 00:12:06.760 align:start position:0%
+going to use a different variable for
+ 
+
+00:12:06.760 --> 00:12:09.810 align:start position:0%
+going to use a different variable for
+fun<00:12:06.940><c> we'll</c><00:12:07.839><c> set</c><00:12:08.019><c> equal</c><00:12:08.320><c> to</c><00:12:08.560><c> 1</c><00:12:08.860><c> and</c><00:12:09.070><c> as</c><00:12:09.430><c> E</c><00:12:09.790><c> is</c>
+
+00:12:09.810 --> 00:12:09.820 align:start position:0%
+fun we'll set equal to 1 and as E is
+ 
+
+00:12:09.820 --> 00:12:12.090 align:start position:0%
+fun we'll set equal to 1 and as E is
+less<00:12:10.089><c> than</c><00:12:10.149><c> or</c><00:12:10.449><c> equal</c><00:12:10.600><c> to</c><00:12:11.100><c> current</c>
+
+00:12:12.090 --> 00:12:12.100 align:start position:0%
+less than or equal to current
+ 
+
+00:12:12.100 --> 00:12:14.460 align:start position:0%
+less than or equal to current
+composition<00:12:12.760><c> we</c><00:12:12.850><c> selected</c><00:12:13.390><c> the</c><00:12:13.600><c> number</c><00:12:14.350><c> of</c>
+
+00:12:14.460 --> 00:12:14.470 align:start position:0%
+composition we selected the number of
+ 
+
+00:12:14.470 --> 00:12:16.949 align:start position:0%
+composition we selected the number of
+layers<00:12:14.740><c> which</c><00:12:15.640><c> in</c><00:12:15.850><c> this</c><00:12:16.000><c> case</c><00:12:16.240><c> people</c><00:12:16.750><c> get</c>
+
+00:12:16.949 --> 00:12:16.959 align:start position:0%
+layers which in this case people get
+ 
+
+00:12:16.959 --> 00:12:21.060 align:start position:0%
+layers which in this case people get
+this<00:12:17.079><c> comp</c><00:12:17.350><c> here</c><00:12:17.589><c> v1</c><00:12:18.149><c> this</c><00:12:19.149><c> one</c><00:12:19.420><c> would</c><00:12:19.540><c> be</c><00:12:19.570><c> 2</c><00:12:20.070><c> or</c>
+
+00:12:21.060 --> 00:12:21.070 align:start position:0%
+this comp here v1 this one would be 2 or
+ 
+
+00:12:21.070 --> 00:12:23.880 align:start position:0%
+this comp here v1 this one would be 2 or
+increment<00:12:21.370><c> e</c><00:12:21.640><c> and</c><00:12:22.029><c> we</c><00:12:22.779><c> need</c><00:12:22.930><c> to</c><00:12:23.050><c> now</c><00:12:23.199><c> check</c><00:12:23.589><c> if</c>
+
+00:12:23.880 --> 00:12:23.890 align:start position:0%
+increment e and we need to now check if
+ 
+
+00:12:23.890 --> 00:12:25.920 align:start position:0%
+increment e and we need to now check if
+the<00:12:23.949><c> current</c><00:12:24.640><c> selected</c><00:12:24.970><c> layer</c><00:12:25.269><c> is</c><00:12:25.480><c> a</c><00:12:25.510><c> text</c>
+
+00:12:25.920 --> 00:12:25.930 align:start position:0%
+the current selected layer is a text
+ 
+
+00:12:25.930 --> 00:12:28.560 align:start position:0%
+the current selected layer is a text
+layer<00:12:26.250><c> to</c><00:12:27.250><c> do</c><00:12:27.430><c> this</c><00:12:27.670><c> we're</c><00:12:28.060><c> going</c><00:12:28.180><c> to</c><00:12:28.300><c> put</c><00:12:28.480><c> in</c>
+
+00:12:28.560 --> 00:12:28.570 align:start position:0%
+layer to do this we're going to put in
+ 
+
+00:12:28.570 --> 00:12:31.800 align:start position:0%
+layer to do this we're going to put in
+an<00:12:28.750><c> if</c><00:12:28.899><c> statement</c><00:12:30.120><c> and</c><00:12:31.120><c> we're</c><00:12:31.329><c> going</c><00:12:31.480><c> to</c><00:12:31.540><c> say</c>
+
+00:12:31.800 --> 00:12:31.810 align:start position:0%
+an if statement and we're going to say
+ 
+
+00:12:31.810 --> 00:12:37.560 align:start position:0%
+an if statement and we're going to say
+if<00:12:32.050><c> comm</c><00:12:32.470><c> player</c><00:12:33.250><c> II</c><00:12:34.110><c> is</c><00:12:35.110><c> instance</c><00:12:35.740><c> of</c><00:12:36.010><c> a</c><00:12:36.570><c> text</c>
+
+00:12:37.560 --> 00:12:37.570 align:start position:0%
+if comm player II is instance of a text
+ 
+
+00:12:37.570 --> 00:12:39.750 align:start position:0%
+if comm player II is instance of a text
+layer<00:12:37.779><c> so</c><00:12:38.050><c> that</c><00:12:38.829><c> will</c><00:12:38.980><c> check</c><00:12:39.160><c> if</c><00:12:39.310><c> the</c><00:12:39.430><c> current</c>
+
+00:12:39.750 --> 00:12:39.760 align:start position:0%
+layer so that will check if the current
+ 
+
+00:12:39.760 --> 00:12:43.050 align:start position:0%
+layer so that will check if the current
+layer<00:12:40.209><c> is</c><00:12:40.449><c> a</c><00:12:40.480><c> text</c><00:12:40.899><c> layer</c><00:12:41.050><c> and</c><00:12:41.260><c> if</c><00:12:42.100><c> it</c><00:12:42.220><c> is</c><00:12:42.370><c> we</c>
+
+00:12:43.050 --> 00:12:43.060 align:start position:0%
+layer is a text layer and if it is we
+ 
+
+00:12:43.060 --> 00:12:45.030 align:start position:0%
+layer is a text layer and if it is we
+want<00:12:43.300><c> to</c><00:12:43.360><c> go</c><00:12:43.570><c> ahead</c><00:12:43.630><c> and</c><00:12:44.050><c> apply</c><00:12:44.440><c> this</c><00:12:44.500><c> code</c>
+
+00:12:45.030 --> 00:12:45.040 align:start position:0%
+want to go ahead and apply this code
+ 
+
+00:12:45.040 --> 00:12:47.519 align:start position:0%
+want to go ahead and apply this code
+inside<00:12:45.399><c> of</c><00:12:45.459><c> here</c><00:12:45.790><c> so</c><00:12:46.000><c> in</c><00:12:46.750><c> the</c><00:12:46.930><c> scripting</c><00:12:47.350><c> guide</c>
+
+00:12:47.519 --> 00:12:47.529 align:start position:0%
+inside of here so in the scripting guide
+ 
+
+00:12:47.529 --> 00:12:50.970 align:start position:0%
+inside of here so in the scripting guide
+on<00:12:47.769><c> about</c><00:12:48.010><c> page</c><00:12:48.339><c> 182</c><00:12:49.000><c> for</c><00:12:49.540><c> the</c><00:12:49.630><c> cs6</c><00:12:50.170><c> one</c><00:12:50.380><c> we</c>
+
+00:12:50.970 --> 00:12:50.980 align:start position:0%
+on about page 182 for the cs6 one we
+ 
+
+00:12:50.980 --> 00:12:53.069 align:start position:0%
+on about page 182 for the cs6 one we
+have<00:12:51.190><c> all</c><00:12:51.399><c> of</c><00:12:51.430><c> this</c><00:12:51.699><c> here</c><00:12:52.120><c> which</c><00:12:52.660><c> helps</c><00:12:52.990><c> us</c>
+
+00:12:53.069 --> 00:12:53.079 align:start position:0%
+have all of this here which helps us
+ 
+
+00:12:53.079 --> 00:12:54.689 align:start position:0%
+have all of this here which helps us
+figure<00:12:53.260><c> out</c><00:12:53.410><c> how</c><00:12:53.680><c> we</c><00:12:53.740><c> can</c><00:12:53.949><c> apply</c><00:12:54.339><c> different</c>
+
+00:12:54.689 --> 00:12:54.699 align:start position:0%
+figure out how we can apply different
+ 
+
+00:12:54.699 --> 00:12:57.509 align:start position:0%
+figure out how we can apply different
+types<00:12:55.060><c> of</c><00:12:55.240><c> text</c><00:12:55.570><c> options</c><00:12:55.959><c> to</c><00:12:56.199><c> a</c><00:12:56.230><c> text</c><00:12:56.589><c> layer</c><00:12:56.740><c> we</c>
+
+00:12:57.509 --> 00:12:57.519 align:start position:0%
+types of text options to a text layer we
+ 
+
+00:12:57.519 --> 00:12:58.949 align:start position:0%
+types of text options to a text layer we
+need<00:12:57.670><c> to</c><00:12:57.790><c> start</c><00:12:58.000><c> off</c><00:12:58.089><c> by</c><00:12:58.149><c> creating</c><00:12:58.480><c> a</c><00:12:58.660><c> variable</c>
+
+00:12:58.949 --> 00:12:58.959 align:start position:0%
+need to start off by creating a variable
+ 
+
+00:12:58.959 --> 00:13:00.689 align:start position:0%
+need to start off by creating a variable
+called<00:12:59.350><c> text</c><00:12:59.740><c> prop</c><00:12:59.949><c> or</c><00:13:00.160><c> something</c><00:13:00.519><c> like</c><00:13:00.640><c> that</c>
+
+00:13:00.689 --> 00:13:00.699 align:start position:0%
+called text prop or something like that
+ 
+
+00:13:00.699 --> 00:13:04.290 align:start position:0%
+called text prop or something like that
+and<00:13:01.060><c> this</c><00:13:01.690><c> is</c><00:13:01.750><c> going</c><00:13:01.899><c> to</c><00:13:02.140><c> be</c><00:13:02.260><c> equal</c><00:13:02.620><c> to</c><00:13:03.300><c> current</c>
+
+00:13:04.290 --> 00:13:04.300 align:start position:0%
+and this is going to be equal to current
+ 
+
+00:13:04.300 --> 00:13:07.769 align:start position:0%
+and this is going to be equal to current
+layer<00:13:04.570><c> so</c><00:13:05.440><c> combat</c><00:13:05.890><c> layer</c><00:13:06.130><c> E</c><00:13:06.339><c> and</c><00:13:06.880><c> it's</c>
+
+00:13:07.769 --> 00:13:07.779 align:start position:0%
+layer so combat layer E and it's
+ 
+
+00:13:07.779 --> 00:13:11.110 align:start position:0%
+layer so combat layer E and it's
+property<00:13:08.399><c> called</c><00:13:09.399><c> source</c><00:13:10.029><c> text</c>
+
+00:13:11.110 --> 00:13:11.120 align:start position:0%
+property called source text
+ 
+
+00:13:11.120 --> 00:13:13.480 align:start position:0%
+property called source text
+and<00:13:11.319><c> inside</c><00:13:12.319><c> of</c><00:13:12.470><c> After</c><00:13:12.620><c> Effects</c><00:13:12.980><c> if</c><00:13:13.160><c> you</c><00:13:13.249><c> go</c><00:13:13.430><c> to</c>
+
+00:13:13.480 --> 00:13:13.490 align:start position:0%
+and inside of After Effects if you go to
+ 
+
+00:13:13.490 --> 00:13:16.059 align:start position:0%
+and inside of After Effects if you go to
+a<00:13:13.639><c> text</c><00:13:14.059><c> layer</c><00:13:14.240><c> bring</c><00:13:14.870><c> it</c><00:13:15.019><c> down</c><00:13:15.199><c> to</c><00:13:15.470><c> text</c><00:13:15.860><c> here</c>
+
+00:13:16.059 --> 00:13:16.069 align:start position:0%
+a text layer bring it down to text here
+ 
+
+00:13:16.069 --> 00:13:18.059 align:start position:0%
+a text layer bring it down to text here
+you<00:13:16.519><c> can</c><00:13:16.670><c> see</c><00:13:16.850><c> this</c><00:13:16.970><c> is</c><00:13:17.149><c> our</c><00:13:17.269><c> source</c><00:13:17.540><c> text</c>
+
+00:13:18.059 --> 00:13:18.069 align:start position:0%
+you can see this is our source text
+ 
+
+00:13:18.069 --> 00:13:20.049 align:start position:0%
+you can see this is our source text
+which<00:13:19.069><c> contains</c><00:13:19.459><c> all</c><00:13:19.670><c> of</c><00:13:19.759><c> our</c><00:13:19.850><c> text</c>
+
+00:13:20.049 --> 00:13:20.059 align:start position:0%
+which contains all of our text
+ 
+
+00:13:20.059 --> 00:13:22.809 align:start position:0%
+which contains all of our text
+information<00:13:20.629><c> like</c><00:13:20.779><c> font</c><00:13:21.079><c> size</c><00:13:21.379><c> stroke</c><00:13:22.009><c> colors</c>
+
+00:13:22.809 --> 00:13:22.819 align:start position:0%
+information like font size stroke colors
+ 
+
+00:13:22.819 --> 00:13:25.119 align:start position:0%
+information like font size stroke colors
+and<00:13:23.089><c> font</c><00:13:23.439><c> so</c><00:13:24.439><c> then</c><00:13:24.589><c> we're</c><00:13:24.740><c> going</c><00:13:24.889><c> to</c><00:13:24.920><c> want</c><00:13:25.069><c> to</c>
+
+00:13:25.119 --> 00:13:25.129 align:start position:0%
+and font so then we're going to want to
+ 
+
+00:13:25.129 --> 00:13:27.189 align:start position:0%
+and font so then we're going to want to
+set<00:13:25.339><c> up</c><00:13:25.430><c> a</c><00:13:25.550><c> variable</c><00:13:25.970><c> called</c><00:13:26.209><c> text</c><00:13:26.660><c> document</c>
+
+00:13:27.189 --> 00:13:27.199 align:start position:0%
+set up a variable called text document
+ 
+
+00:13:27.199 --> 00:13:29.230 align:start position:0%
+set up a variable called text document
+or<00:13:27.410><c> something</c><00:13:27.620><c> of</c><00:13:27.860><c> that</c><00:13:27.889><c> sort</c><00:13:28.009><c> and</c><00:13:28.459><c> this</c><00:13:29.120><c> is</c>
+
+00:13:29.230 --> 00:13:29.240 align:start position:0%
+or something of that sort and this is
+ 
+
+00:13:29.240 --> 00:13:31.119 align:start position:0%
+or something of that sort and this is
+going<00:13:29.449><c> to</c><00:13:29.540><c> be</c><00:13:29.629><c> equal</c><00:13:29.959><c> to</c><00:13:30.110><c> our</c><00:13:30.139><c> text</c><00:13:30.649><c> property</c>
+
+00:13:31.119 --> 00:13:31.129 align:start position:0%
+going to be equal to our text property
+ 
+
+00:13:31.129 --> 00:13:33.610 align:start position:0%
+going to be equal to our text property
+and<00:13:31.790><c> its</c><00:13:32.059><c> value</c><00:13:32.389><c> and</c><00:13:32.959><c> now</c><00:13:33.259><c> we</c><00:13:33.319><c> can</c><00:13:33.499><c> go</c><00:13:33.559><c> ahead</c>
+
+00:13:33.610 --> 00:13:33.620 align:start position:0%
+and its value and now we can go ahead
+ 
+
+00:13:33.620 --> 00:13:35.199 align:start position:0%
+and its value and now we can go ahead
+and<00:13:33.769><c> set</c><00:13:33.949><c> all</c><00:13:34.100><c> of</c><00:13:34.189><c> our</c><00:13:34.279><c> text</c><00:13:34.610><c> properties</c><00:13:35.029><c> that</c>
+
+00:13:35.199 --> 00:13:35.209 align:start position:0%
+and set all of our text properties that
+ 
+
+00:13:35.209 --> 00:13:37.540 align:start position:0%
+and set all of our text properties that
+we<00:13:35.329><c> predefined</c><00:13:35.930><c> up</c><00:13:36.139><c> here</c><00:13:36.439><c> so</c><00:13:37.100><c> go</c><00:13:37.309><c> ahead</c><00:13:37.430><c> and</c>
+
+00:13:37.540 --> 00:13:37.550 align:start position:0%
+we predefined up here so go ahead and
+ 
+
+00:13:37.550 --> 00:13:39.579 align:start position:0%
+we predefined up here so go ahead and
+start<00:13:37.699><c> off</c><00:13:37.819><c> with</c><00:13:37.939><c> the</c><00:13:38.059><c> text</c><00:13:38.389><c> document</c><00:13:38.589><c> font</c>
+
+00:13:39.579 --> 00:13:39.589 align:start position:0%
+start off with the text document font
+ 
+
+00:13:39.589 --> 00:13:42.999 align:start position:0%
+start off with the text document font
+size<00:13:39.949><c> so</c><00:13:40.519><c> text</c><00:13:40.819><c> document</c><00:13:41.329><c> dot</c><00:13:41.720><c> font</c><00:13:42.230><c> size</c><00:13:42.589><c> and</c>
+
+00:13:42.999 --> 00:13:43.009 align:start position:0%
+size so text document dot font size and
+ 
+
+00:13:43.009 --> 00:13:45.519 align:start position:0%
+size so text document dot font size and
+we'll<00:13:43.910><c> set</c><00:13:44.059><c> this</c><00:13:44.149><c> equal</c><00:13:44.329><c> to</c><00:13:44.540><c> our</c><00:13:44.930><c> variable</c><00:13:45.410><c> up</c>
+
+00:13:45.519 --> 00:13:45.529 align:start position:0%
+we'll set this equal to our variable up
+ 
+
+00:13:45.529 --> 00:13:47.829 align:start position:0%
+we'll set this equal to our variable up
+top<00:13:45.769><c> called</c><00:13:46.129><c> font</c><00:13:46.399><c> size</c><00:13:46.670><c> which</c><00:13:46.879><c> is</c><00:13:47.059><c> set</c><00:13:47.209><c> to</c><00:13:47.240><c> 68</c>
+
+00:13:47.829 --> 00:13:47.839 align:start position:0%
+top called font size which is set to 68
+ 
+
+00:13:47.839 --> 00:13:50.049 align:start position:0%
+top called font size which is set to 68
+then<00:13:48.680><c> we'll</c><00:13:48.920><c> go</c><00:13:49.069><c> ahead</c><00:13:49.160><c> and</c><00:13:49.309><c> put</c><00:13:49.579><c> in</c><00:13:49.670><c> our</c><00:13:49.759><c> fill</c>
+
+00:13:50.049 --> 00:13:50.059 align:start position:0%
+then we'll go ahead and put in our fill
+ 
+
+00:13:50.059 --> 00:13:53.439 align:start position:0%
+then we'll go ahead and put in our fill
+color<00:13:51.069><c> set</c><00:13:52.069><c> that</c><00:13:52.220><c> equal</c><00:13:52.249><c> to</c><00:13:52.550><c> fill</c><00:13:52.910><c> color</c><00:13:53.209><c> up</c>
+
+00:13:53.439 --> 00:13:53.449 align:start position:0%
+color set that equal to fill color up
+ 
+
+00:13:53.449 --> 00:13:55.929 align:start position:0%
+color set that equal to fill color up
+there<00:13:53.689><c> which</c><00:13:54.110><c> is</c><00:13:54.230><c> that</c><00:13:54.410><c> an</c><00:13:54.649><c> array</c><00:13:54.860><c> we'll</c><00:13:55.790><c> also</c>
+
+00:13:55.929 --> 00:13:55.939 align:start position:0%
+there which is that an array we'll also
+ 
+
+00:13:55.939 --> 00:13:58.749 align:start position:0%
+there which is that an array we'll also
+do<00:13:56.240><c> our</c><00:13:56.449><c> stroke</c><00:13:56.809><c> color</c><00:13:57.050><c> here</c><00:13:57.379><c> and</c><00:13:57.499><c> of</c><00:13:58.490><c> course</c>
+
+00:13:58.749 --> 00:13:58.759 align:start position:0%
+do our stroke color here and of course
+ 
+
+00:13:58.759 --> 00:14:02.710 align:start position:0%
+do our stroke color here and of course
+our<00:13:59.059><c> font</c><00:13:59.449><c> text</c><00:14:00.319><c> document</c><00:14:00.769><c> clonk</c><00:14:01.399><c> equal</c><00:14:02.329><c> spots</c>
+
+00:14:02.710 --> 00:14:02.720 align:start position:0%
+our font text document clonk equal spots
+ 
+
+00:14:02.720 --> 00:14:04.809 align:start position:0%
+our font text document clonk equal spots
+which<00:14:03.199><c> will</c><00:14:03.470><c> refer</c><00:14:03.680><c> to</c><00:14:03.889><c> Times</c><00:14:04.129><c> New</c><00:14:04.279><c> Roman</c><00:14:04.399><c> up</c>
+
+00:14:04.809 --> 00:14:04.819 align:start position:0%
+which will refer to Times New Roman up
+ 
+
+00:14:04.819 --> 00:14:06.819 align:start position:0%
+which will refer to Times New Roman up
+here<00:14:05.029><c> and</c><00:14:05.749><c> finally</c><00:14:05.990><c> to</c><00:14:06.230><c> set</c><00:14:06.439><c> up</c><00:14:06.559><c> all</c><00:14:06.709><c> these</c>
+
+00:14:06.819 --> 00:14:06.829 align:start position:0%
+here and finally to set up all these
+ 
+
+00:14:06.829 --> 00:14:09.150 align:start position:0%
+here and finally to set up all these
+values<00:14:07.279><c> we're</c><00:14:07.819><c> going</c><00:14:07.999><c> to</c><00:14:08.089><c> put</c><00:14:08.240><c> in</c><00:14:08.360><c> text</c><00:14:08.720><c> prop</c>
+
+00:14:09.150 --> 00:14:09.160 align:start position:0%
+values we're going to put in text prop
+ 
+
+00:14:09.160 --> 00:14:13.509 align:start position:0%
+values we're going to put in text prop
+set<00:14:10.160><c> value</c><00:14:10.699><c> and</c><00:14:11.920><c> we'll</c><00:14:12.920><c> set</c><00:14:13.129><c> the</c><00:14:13.249><c> text</c>
+
+00:14:13.509 --> 00:14:13.519 align:start position:0%
+set value and we'll set the text
+ 
+
+00:14:13.519 --> 00:14:17.169 align:start position:0%
+set value and we'll set the text
+property<00:14:14.019><c> text</c><00:14:15.019><c> document</c><00:14:15.649><c> and</c><00:14:15.949><c> again</c><00:14:16.939><c> after</c>
+
+00:14:17.169 --> 00:14:17.179 align:start position:0%
+property text document and again after
+ 
+
+00:14:17.179 --> 00:14:19.210 align:start position:0%
+property text document and again after
+this<00:14:17.480><c> whole</c><00:14:17.720><c> thing</c><00:14:17.749><c> is</c><00:14:18.079><c> finished</c><00:14:18.470><c> I'm</c><00:14:18.980><c> going</c>
+
+00:14:19.210 --> 00:14:19.220 align:start position:0%
+this whole thing is finished I'm going
+ 
+
+00:14:19.220 --> 00:14:20.919 align:start position:0%
+this whole thing is finished I'm going
+to<00:14:19.339><c> send</c><00:14:19.579><c> out</c><00:14:19.730><c> an</c><00:14:19.879><c> alert</c><00:14:20.149><c> to</c><00:14:20.389><c> say</c><00:14:20.540><c> did</c><00:14:20.779><c> it</c>
+
+00:14:20.919 --> 00:14:20.929 align:start position:0%
+to send out an alert to say did it
+ 
+
+00:14:20.929 --> 00:14:23.470 align:start position:0%
+to send out an alert to say did it
+successfully<00:14:21.679><c> so</c><00:14:22.370><c> I'll</c><00:14:22.459><c> just</c><00:14:22.639><c> say</c><00:14:22.819><c> text</c>
+
+00:14:23.470 --> 00:14:23.480 align:start position:0%
+successfully so I'll just say text
+ 
+
+00:14:23.480 --> 00:14:27.220 align:start position:0%
+successfully so I'll just say text
+changed<00:14:24.230><c> successfully</c><00:14:25.509><c> all</c><00:14:26.509><c> right</c><00:14:26.870><c> now</c><00:14:27.050><c> let's</c>
+
+00:14:27.220 --> 00:14:27.230 align:start position:0%
+changed successfully all right now let's
+ 
+
+00:14:27.230 --> 00:14:29.590 align:start position:0%
+changed successfully all right now let's
+move<00:14:27.290><c> on</c><00:14:27.529><c> to</c><00:14:27.649><c> our</c><00:14:27.829><c> third</c><00:14:28.040><c> button</c><00:14:28.339><c> our</c><00:14:28.879><c> third</c>
+
+00:14:29.590 --> 00:14:29.600 align:start position:0%
+move on to our third button our third
+ 
+
+00:14:29.600 --> 00:14:32.400 align:start position:0%
+move on to our third button our third
+button<00:14:29.870><c> is</c><00:14:30.110><c> our</c><00:14:30.290><c> effects</c><00:14:30.709><c> button</c><00:14:31.160><c> and</c>
+
+00:14:32.400 --> 00:14:32.410 align:start position:0%
+button is our effects button and
+ 
+
+00:14:32.410 --> 00:14:34.480 align:start position:0%
+button is our effects button and
+whenever<00:14:33.410><c> we</c><00:14:33.709><c> click</c><00:14:34.009><c> on</c><00:14:34.189><c> it</c>
+
+00:14:34.480 --> 00:14:34.490 align:start position:0%
+whenever we click on it
+ 
+
+00:14:34.490 --> 00:14:36.699 align:start position:0%
+whenever we click on it
+I'm<00:14:35.089><c> going</c><00:14:35.329><c> to</c><00:14:35.449><c> initialize</c><00:14:35.870><c> this</c><00:14:36.170><c> function</c>
+
+00:14:36.699 --> 00:14:36.709 align:start position:0%
+I'm going to initialize this function
+ 
+
+00:14:36.709 --> 00:14:40.689 align:start position:0%
+I'm going to initialize this function
+here<00:14:37.660><c> start</c><00:14:38.660><c> off</c><00:14:38.749><c> with</c><00:14:38.959><c> a</c><00:14:38.990><c> nap</c><00:14:39.350><c> top</c><00:14:39.589><c> begin</c><00:14:40.040><c> undo</c>
+
+00:14:40.689 --> 00:14:40.699 align:start position:0%
+here start off with a nap top begin undo
+ 
+
+00:14:40.699 --> 00:14:44.470 align:start position:0%
+here start off with a nap top begin undo
+group<00:14:41.019><c> and</c><00:14:42.019><c> we'll</c><00:14:42.350><c> just</c><00:14:42.529><c> say</c><00:14:42.970><c> apply</c><00:14:43.970><c> effects</c>
+
+00:14:44.470 --> 00:14:44.480 align:start position:0%
+group and we'll just say apply effects
+ 
+
+00:14:44.480 --> 00:14:47.949 align:start position:0%
+group and we'll just say apply effects
+to<00:14:45.230><c> layers</c><00:14:45.470><c> and</c><00:14:46.089><c> we'll</c><00:14:47.089><c> go</c><00:14:47.240><c> ahead</c><00:14:47.360><c> and</c><00:14:47.720><c> undo</c>
+
+00:14:47.949 --> 00:14:47.959 align:start position:0%
+to layers and we'll go ahead and undo
+ 
+
+00:14:47.959 --> 00:14:50.530 align:start position:0%
+to layers and we'll go ahead and undo
+the<00:14:48.199><c> group</c><00:14:48.589><c> all</c><00:14:48.980><c> right</c><00:14:49.699><c> and</c><00:14:49.879><c> just</c><00:14:50.120><c> like</c><00:14:50.240><c> before</c>
+
+00:14:50.530 --> 00:14:50.540 align:start position:0%
+the group all right and just like before
+ 
+
+00:14:50.540 --> 00:14:51.730 align:start position:0%
+the group all right and just like before
+we're<00:14:50.749><c> going</c><00:14:50.870><c> to</c><00:14:50.959><c> want</c><00:14:51.199><c> to</c><00:14:51.290><c> go</c><00:14:51.410><c> ahead</c><00:14:51.470><c> and</c><00:14:51.559><c> put</c>
+
+00:14:51.730 --> 00:14:51.740 align:start position:0%
+we're going to want to go ahead and put
+ 
+
+00:14:51.740 --> 00:14:55.360 align:start position:0%
+we're going to want to go ahead and put
+in<00:14:51.829><c> a</c><00:14:51.920><c> for</c><00:14:52.189><c> loop</c><00:14:52.689><c> and</c><00:14:53.889><c> since</c><00:14:54.889><c> we're</c><00:14:55.069><c> applying</c>
+
+00:14:55.360 --> 00:14:55.370 align:start position:0%
+in a for loop and since we're applying
+ 
+
+00:14:55.370 --> 00:14:57.369 align:start position:0%
+in a for loop and since we're applying
+effects<00:14:55.730><c> to</c><00:14:55.939><c> layers</c><00:14:56.179><c> we're</c><00:14:56.779><c> going</c><00:14:56.990><c> to</c><00:14:57.110><c> want</c><00:14:57.290><c> to</c>
+
+00:14:57.369 --> 00:14:57.379 align:start position:0%
+effects to layers we're going to want to
+ 
+
+00:14:57.379 --> 00:14:59.739 align:start position:0%
+effects to layers we're going to want to
+get<00:14:57.470><c> the</c><00:14:57.589><c> number</c><00:14:57.860><c> of</c><00:14:57.949><c> layers</c><00:14:58.189><c> again</c><00:14:58.509><c> I'll</c><00:14:59.509><c> just</c>
+
+00:14:59.739 --> 00:14:59.749 align:start position:0%
+get the number of layers again I'll just
+ 
+
+00:14:59.749 --> 00:15:03.519 align:start position:0%
+get the number of layers again I'll just
+say<00:14:59.899><c> bar</c><00:15:00.199><c> Q</c><00:15:00.679><c> equals</c><00:15:01.160><c> 1</c><00:15:01.459><c> for</c><00:15:01.870><c> Q</c><00:15:02.870><c> is</c><00:15:03.019><c> less</c><00:15:03.170><c> than</c><00:15:03.230><c> or</c>
+
+00:15:03.519 --> 00:15:03.529 align:start position:0%
+say bar Q equals 1 for Q is less than or
+ 
+
+00:15:03.529 --> 00:15:06.369 align:start position:0%
+say bar Q equals 1 for Q is less than or
+equal<00:15:03.860><c> to</c><00:15:04.069><c> comp</c><00:15:04.519><c> number</c><00:15:05.360><c> layers</c><00:15:05.660><c> the</c><00:15:06.079><c> number</c>
+
+00:15:06.369 --> 00:15:06.379 align:start position:0%
+equal to comp number layers the number
+ 
+
+00:15:06.379 --> 00:15:09.489 align:start position:0%
+equal to comp number layers the number
+of<00:15:06.439><c> layers</c><00:15:06.679><c> in</c><00:15:06.889><c> a</c><00:15:06.949><c> composition</c><00:15:08.139><c> increment</c><00:15:09.139><c> Q</c>
+
+00:15:09.489 --> 00:15:09.499 align:start position:0%
+of layers in a composition increment Q
+ 
+
+00:15:09.499 --> 00:15:12.340 align:start position:0%
+of layers in a composition increment Q
+plus<00:15:09.829><c> 1</c><00:15:09.860><c> and</c><00:15:10.399><c> this</c><00:15:11.149><c> one</c><00:15:11.360><c> is</c><00:15:11.540><c> super</c><00:15:11.720><c> simple</c><00:15:12.019><c> to</c>
+
+00:15:12.340 --> 00:15:12.350 align:start position:0%
+plus 1 and this one is super simple to
+ 
+
+00:15:12.350 --> 00:15:14.079 align:start position:0%
+plus 1 and this one is super simple to
+just<00:15:12.379><c> a</c><00:15:12.740><c> one</c><00:15:12.949><c> line</c><00:15:13.160><c> of</c><00:15:13.309><c> code</c><00:15:13.550><c> you</c><00:15:13.579><c> get</c><00:15:13.939><c> the</c>
+
+00:15:14.079 --> 00:15:14.089 align:start position:0%
+just a one line of code you get the
+ 
+
+00:15:14.089 --> 00:15:16.090 align:start position:0%
+just a one line of code you get the
+effect<00:15:14.389><c> applied</c><00:15:14.720><c> we're</c><00:15:15.319><c> going</c><00:15:15.529><c> to</c><00:15:15.620><c> grab</c><00:15:15.889><c> the</c>
+
+00:15:16.090 --> 00:15:16.100 align:start position:0%
+effect applied we're going to grab the
+ 
+
+00:15:16.100 --> 00:15:19.030 align:start position:0%
+effect applied we're going to grab the
+current<00:15:16.490><c> layer</c><00:15:16.699><c> selected</c><00:15:17.269><c> or</c><00:15:17.509><c> comp</c><00:15:17.779><c> layer</c><00:15:18.079><c> Q</c>
+
+00:15:19.030 --> 00:15:19.040 align:start position:0%
+current layer selected or comp layer Q
+ 
+
+00:15:19.040 --> 00:15:22.250 align:start position:0%
+current layer selected or comp layer Q
+and<00:15:19.339><c> we're</c><00:15:20.209><c> going</c><00:15:20.389><c> to</c><00:15:20.449><c> access</c><00:15:20.929><c> the</c><00:15:21.110><c> effects</c>
+
+00:15:22.250 --> 00:15:22.260 align:start position:0%
+and we're going to access the effects
+ 
+
+00:15:22.260 --> 00:15:24.560 align:start position:0%
+and we're going to access the effects
+we're<00:15:22.890><c> going</c><00:15:23.070><c> to</c><00:15:23.160><c> add</c><00:15:23.340><c> a</c><00:15:23.370><c> property</c><00:15:23.730><c> or</c><00:15:24.180><c> add</c><00:15:24.360><c> an</c>
+
+00:15:24.560 --> 00:15:24.570 align:start position:0%
+we're going to add a property or add an
+ 
+
+00:15:24.570 --> 00:15:27.500 align:start position:0%
+we're going to add a property or add an
+effect<00:15:24.690><c> in</c><00:15:25.110><c> this</c><00:15:25.230><c> case</c><00:15:25.290><c> and</c><00:15:26.090><c> we</c><00:15:27.090><c> need</c><00:15:27.240><c> to</c><00:15:27.330><c> put</c>
+
+00:15:27.500 --> 00:15:27.510 align:start position:0%
+effect in this case and we need to put
+ 
+
+00:15:27.510 --> 00:15:29.570 align:start position:0%
+effect in this case and we need to put
+in<00:15:27.630><c> the</c><00:15:27.780><c> effect</c><00:15:28.080><c> match</c><00:15:28.320><c> name</c><00:15:28.620><c> which</c><00:15:29.280><c> we</c><00:15:29.490><c> have</c>
+
+00:15:29.570 --> 00:15:29.580 align:start position:0%
+in the effect match name which we have
+ 
+
+00:15:29.580 --> 00:15:31.610 align:start position:0%
+in the effect match name which we have
+predefined<00:15:30.090><c> up</c><00:15:30.240><c> here</c><00:15:30.450><c> as</c><00:15:30.630><c> a</c><00:15:30.660><c> sec</c><00:15:31.050><c> match</c><00:15:31.320><c> name</c>
+
+00:15:31.610 --> 00:15:31.620 align:start position:0%
+predefined up here as a sec match name
+ 
+
+00:15:31.620 --> 00:15:33.470 align:start position:0%
+predefined up here as a sec match name
+we'll<00:15:32.340><c> just</c><00:15:32.490><c> paste</c><00:15:32.730><c> that</c><00:15:32.850><c> in</c><00:15:32.970><c> there</c><00:15:33.270><c> and</c><00:15:33.450><c> that</c>
+
+00:15:33.470 --> 00:15:33.480 align:start position:0%
+we'll just paste that in there and that
+ 
+
+00:15:33.480 --> 00:15:36.050 align:start position:0%
+we'll just paste that in there and that
+will<00:15:34.470><c> apply</c><00:15:34.620><c> black</c><00:15:34.920><c> and</c><00:15:35.160><c> white</c><00:15:35.340><c> to</c><00:15:35.760><c> every</c>
+
+00:15:36.050 --> 00:15:36.060 align:start position:0%
+will apply black and white to every
+ 
+
+00:15:36.060 --> 00:15:37.930 align:start position:0%
+will apply black and white to every
+layer<00:15:36.270><c> recognized</c><00:15:36.840><c> in</c><00:15:37.020><c> the</c><00:15:37.140><c> selected</c><00:15:37.590><c> comp</c>
+
+00:15:37.930 --> 00:15:37.940 align:start position:0%
+layer recognized in the selected comp
+ 
+
+00:15:37.940 --> 00:15:40.370 align:start position:0%
+layer recognized in the selected comp
+again<00:15:38.940><c> I'll</c><00:15:39.150><c> add</c><00:15:39.330><c> an</c><00:15:39.510><c> alert</c><00:15:39.810><c> at</c><00:15:39.960><c> the</c><00:15:39.990><c> end</c><00:15:40.230><c> to</c>
+
+00:15:40.370 --> 00:15:40.380 align:start position:0%
+again I'll add an alert at the end to
+ 
+
+00:15:40.380 --> 00:15:42.560 align:start position:0%
+again I'll add an alert at the end to
+make<00:15:40.410><c> sure</c><00:15:40.560><c> it's</c><00:15:40.800><c> functioning</c><00:15:41.310><c> and</c><00:15:41.510><c> now</c><00:15:42.510><c> we</c>
+
+00:15:42.560 --> 00:15:42.570 align:start position:0%
+make sure it's functioning and now we
+ 
+
+00:15:42.570 --> 00:15:44.570 align:start position:0%
+make sure it's functioning and now we
+can<00:15:42.840><c> move</c><00:15:42.930><c> on</c><00:15:43.140><c> to</c><00:15:43.380><c> our</c><00:15:43.410><c> last</c><00:15:43.500><c> function</c><00:15:44.340><c> our</c>
+
+00:15:44.570 --> 00:15:44.580 align:start position:0%
+can move on to our last function our
+ 
+
+00:15:44.580 --> 00:15:47.660 align:start position:0%
+can move on to our last function our
+last<00:15:45.390><c> button</c><00:15:45.720><c> is</c><00:15:45.960><c> our</c><00:15:46.200><c> scale</c><00:15:46.530><c> button</c><00:15:46.800><c> so</c><00:15:47.370><c> again</c>
+
+00:15:47.660 --> 00:15:47.670 align:start position:0%
+last button is our scale button so again
+ 
+
+00:15:47.670 --> 00:15:49.970 align:start position:0%
+last button is our scale button so again
+we'll<00:15:47.850><c> call</c><00:15:48.150><c> that</c><00:15:48.360><c> and</c><00:15:48.750><c> we'll</c><00:15:49.290><c> say</c><00:15:49.440><c> on</c><00:15:49.650><c> click</c>
+
+00:15:49.970 --> 00:15:49.980 align:start position:0%
+we'll call that and we'll say on click
+ 
+
+00:15:49.980 --> 00:15:52.910 align:start position:0%
+we'll call that and we'll say on click
+equals<00:15:50.280><c> function</c><00:15:51.080><c> and</c><00:15:52.080><c> we'll</c><00:15:52.500><c> set</c><00:15:52.680><c> up</c><00:15:52.710><c> our</c>
+
+00:15:52.910 --> 00:15:52.920 align:start position:0%
+equals function and we'll set up our
+ 
+
+00:15:52.920 --> 00:15:56.600 align:start position:0%
+equals function and we'll set up our
+begin<00:15:53.370><c> and</c><00:15:53.550><c> end</c><00:15:53.730><c> under</c><00:15:54.120><c> groups</c><00:15:54.360><c> and</c><00:15:55.400><c> app</c><00:15:56.400><c> to</c>
+
+00:15:56.600 --> 00:15:56.610 align:start position:0%
+begin and end under groups and app to
+ 
+
+00:15:56.610 --> 00:15:59.300 align:start position:0%
+begin and end under groups and app to
+undo<00:15:57.090><c> group</c><00:15:57.330><c> and</c><00:15:57.660><c> again</c><00:15:58.500><c> just</c><00:15:58.920><c> like</c><00:15:59.130><c> usual</c>
+
+00:15:59.300 --> 00:15:59.310 align:start position:0%
+undo group and again just like usual
+ 
+
+00:15:59.310 --> 00:16:00.980 align:start position:0%
+undo group and again just like usual
+we're<00:15:59.640><c> going</c><00:15:59.850><c> to</c><00:15:59.940><c> want</c><00:16:00.030><c> to</c><00:16:00.090><c> set</c><00:16:00.330><c> up</c><00:16:00.420><c> four</c><00:16:00.750><c> loops</c>
+
+00:16:00.980 --> 00:16:00.990 align:start position:0%
+we're going to want to set up four loops
+ 
+
+00:16:00.990 --> 00:16:03.110 align:start position:0%
+we're going to want to set up four loops
+so<00:16:01.170><c> we</c><00:16:01.260><c> can</c><00:16:01.410><c> access</c><00:16:01.620><c> the</c><00:16:02.070><c> number</c><00:16:02.400><c> of</c><00:16:02.520><c> layers</c><00:16:02.760><c> in</c>
+
+00:16:03.110 --> 00:16:03.120 align:start position:0%
+so we can access the number of layers in
+ 
+
+00:16:03.120 --> 00:16:04.520 align:start position:0%
+so we can access the number of layers in
+the<00:16:03.210><c> composition</c><00:16:03.810><c> that</c><00:16:03.930><c> we</c><00:16:04.050><c> need</c><00:16:04.200><c> to</c><00:16:04.320><c> apply</c>
+
+00:16:04.520 --> 00:16:04.530 align:start position:0%
+the composition that we need to apply
+ 
+
+00:16:04.530 --> 00:16:07.250 align:start position:0%
+the composition that we need to apply
+this<00:16:04.800><c> scaling</c><00:16:05.160><c> to</c><00:16:05.600><c> so</c><00:16:06.600><c> we'll</c><00:16:06.810><c> just</c><00:16:06.960><c> set</c><00:16:07.110><c> up</c>
+
+00:16:07.250 --> 00:16:07.260 align:start position:0%
+this scaling to so we'll just set up
+ 
+
+00:16:07.260 --> 00:16:10.070 align:start position:0%
+this scaling to so we'll just set up
+another<00:16:07.470><c> variable</c><00:16:08.070><c> here</c><00:16:08.310><c> VAR</c><00:16:08.940><c> R</c><00:16:09.240><c> equals</c><00:16:09.840><c> one</c>
+
+00:16:10.070 --> 00:16:10.080 align:start position:0%
+another variable here VAR R equals one
+ 
+
+00:16:10.080 --> 00:16:13.580 align:start position:0%
+another variable here VAR R equals one
+so<00:16:10.710><c> R</c><00:16:10.950><c> is</c><00:16:11.340><c> less</c><00:16:11.760><c> than</c><00:16:12.030><c> or</c><00:16:12.180><c> equal</c><00:16:12.330><c> to</c><00:16:12.600><c> comp</c>
+
+00:16:13.580 --> 00:16:13.590 align:start position:0%
+so R is less than or equal to comp
+ 
+
+00:16:13.590 --> 00:16:17.240 align:start position:0%
+so R is less than or equal to comp
+number<00:16:14.370><c> of</c><00:16:14.460><c> layers</c><00:16:15.350><c> increment</c><00:16:16.350><c> R</c><00:16:16.590><c> plus</c><00:16:17.010><c> one</c>
+
+00:16:17.240 --> 00:16:17.250 align:start position:0%
+number of layers increment R plus one
+ 
+
+00:16:17.250 --> 00:16:19.490 align:start position:0%
+number of layers increment R plus one
+and<00:16:17.520><c> inside</c><00:16:18.480><c> of</c><00:16:18.510><c> here</c><00:16:18.600><c> we're</c><00:16:18.960><c> going</c><00:16:19.080><c> to</c><00:16:19.170><c> set</c><00:16:19.410><c> up</c>
+
+00:16:19.490 --> 00:16:19.500 align:start position:0%
+and inside of here we're going to set up
+ 
+
+00:16:19.500 --> 00:16:21.620 align:start position:0%
+and inside of here we're going to set up
+a<00:16:19.590><c> new</c><00:16:19.740><c> variable</c><00:16:20.100><c> called</c><00:16:20.520><c> current</c><00:16:20.970><c> scale</c><00:16:21.330><c> or</c>
+
+00:16:21.620 --> 00:16:21.630 align:start position:0%
+a new variable called current scale or
+ 
+
+00:16:21.630 --> 00:16:23.960 align:start position:0%
+a new variable called current scale or
+cur<00:16:21.870><c> scale</c><00:16:22.290><c> and</c><00:16:22.560><c> this</c><00:16:23.130><c> is</c><00:16:23.250><c> going</c><00:16:23.460><c> to</c><00:16:23.550><c> be</c><00:16:23.640><c> equal</c>
+
+00:16:23.960 --> 00:16:23.970 align:start position:0%
+cur scale and this is going to be equal
+ 
+
+00:16:23.970 --> 00:16:26.900 align:start position:0%
+cur scale and this is going to be equal
+to<00:16:24.210><c> our</c><00:16:24.450><c> current</c><00:16:25.380><c> layer</c><00:16:25.680><c> selected</c><00:16:26.310><c> socom</c>
+
+00:16:26.900 --> 00:16:26.910 align:start position:0%
+to our current layer selected socom
+ 
+
+00:16:26.910 --> 00:16:29.270 align:start position:0%
+to our current layer selected socom
+player<00:16:27.420><c> R</c><00:16:27.720><c> and</c><00:16:27.990><c> we're</c><00:16:28.770><c> going</c><00:16:28.950><c> to</c><00:16:28.980><c> want</c><00:16:29.190><c> to</c>
+
+00:16:29.270 --> 00:16:29.280 align:start position:0%
+player R and we're going to want to
+ 
+
+00:16:29.280 --> 00:16:32.360 align:start position:0%
+player R and we're going to want to
+access<00:16:29.730><c> the</c><00:16:29.880><c> property</c><00:16:30.420><c> called</c><00:16:30.660><c> scale</c><00:16:31.110><c> and</c><00:16:31.380><c> get</c>
+
+00:16:32.360 --> 00:16:32.370 align:start position:0%
+access the property called scale and get
+ 
+
+00:16:32.370 --> 00:16:34.550 align:start position:0%
+access the property called scale and get
+its<00:16:32.550><c> value</c><00:16:33.120><c> and</c><00:16:33.780><c> then</c><00:16:33.960><c> we're</c><00:16:34.140><c> going</c><00:16:34.320><c> to</c><00:16:34.380><c> want</c>
+
+00:16:34.550 --> 00:16:34.560 align:start position:0%
+its value and then we're going to want
+ 
+
+00:16:34.560 --> 00:16:36.320 align:start position:0%
+its value and then we're going to want
+to<00:16:34.650><c> set</c><00:16:34.800><c> up</c><00:16:34.830><c> a</c><00:16:35.070><c> variable</c><00:16:35.490><c> called</c><00:16:35.670><c> new</c><00:16:35.940><c> scale</c>
+
+00:16:36.320 --> 00:16:36.330 align:start position:0%
+to set up a variable called new scale
+ 
+
+00:16:36.330 --> 00:16:38.030 align:start position:0%
+to set up a variable called new scale
+which<00:16:36.810><c> is</c><00:16:36.840><c> going</c><00:16:37.080><c> to</c><00:16:37.200><c> be</c><00:16:37.320><c> our</c><00:16:37.470><c> calculated</c>
+
+00:16:38.030 --> 00:16:38.040 align:start position:0%
+which is going to be our calculated
+ 
+
+00:16:38.040 --> 00:16:40.850 align:start position:0%
+which is going to be our calculated
+scale<00:16:38.430><c> after</c><00:16:38.670><c> we</c><00:16:38.910><c> applied</c><00:16:39.210><c> our</c><00:16:39.390><c> multiplier</c><00:16:39.930><c> so</c>
+
+00:16:40.850 --> 00:16:40.860 align:start position:0%
+scale after we applied our multiplier so
+ 
+
+00:16:40.860 --> 00:16:43.660 align:start position:0%
+scale after we applied our multiplier so
+we'll<00:16:41.010><c> set</c><00:16:41.160><c> this</c><00:16:41.280><c> equal</c><00:16:41.430><c> to</c><00:16:41.610><c> cur</c><00:16:42.000><c> scale</c><00:16:42.560><c> times</c>
+
+00:16:43.660 --> 00:16:43.670 align:start position:0%
+we'll set this equal to cur scale times
+ 
+
+00:16:43.670 --> 00:16:46.700 align:start position:0%
+we'll set this equal to cur scale times
+our<00:16:44.670><c> scale</c><00:16:45.300><c> percent</c><00:16:45.750><c> that</c><00:16:45.900><c> we</c><00:16:45.990><c> predefined</c><00:16:46.560><c> up</c>
+
+00:16:46.700 --> 00:16:46.710 align:start position:0%
+our scale percent that we predefined up
+ 
+
+00:16:46.710 --> 00:16:48.860 align:start position:0%
+our scale percent that we predefined up
+here<00:16:46.920><c> and</c><00:16:47.280><c> then</c><00:16:47.730><c> finally</c><00:16:48.150><c> to</c><00:16:48.330><c> set</c><00:16:48.570><c> the</c><00:16:48.720><c> new</c>
+
+00:16:48.860 --> 00:16:48.870 align:start position:0%
+here and then finally to set the new
+ 
+
+00:16:48.870 --> 00:16:51.170 align:start position:0%
+here and then finally to set the new
+scale<00:16:49.200><c> on</c><00:16:49.440><c> our</c><00:16:49.590><c> layer</c><00:16:49.830><c> we'll</c><00:16:50.550><c> grab</c><00:16:50.790><c> our</c><00:16:50.940><c> layer</c>
+
+00:16:51.170 --> 00:16:51.180 align:start position:0%
+scale on our layer we'll grab our layer
+ 
+
+00:16:51.180 --> 00:16:54.080 align:start position:0%
+scale on our layer we'll grab our layer
+comp<00:16:52.020><c> dot</c><00:16:52.260><c> layer</c><00:16:52.470><c> R</c><00:16:52.770><c> and</c><00:16:53.550><c> we're</c><00:16:53.880><c> going</c><00:16:54.030><c> to</c>
+
+00:16:54.080 --> 00:16:54.090 align:start position:0%
+comp dot layer R and we're going to
+ 
+
+00:16:54.090 --> 00:16:56.000 align:start position:0%
+comp dot layer R and we're going to
+access<00:16:54.510><c> the</c><00:16:54.630><c> property</c><00:16:55.080><c> called</c><00:16:55.290><c> scale</c><00:16:55.650><c> again</c>
+
+00:16:56.000 --> 00:16:56.010 align:start position:0%
+access the property called scale again
+ 
+
+00:16:56.010 --> 00:16:58.820 align:start position:0%
+access the property called scale again
+and<00:16:56.190><c> we're</c><00:16:57.090><c> going</c><00:16:57.240><c> to</c><00:16:57.300><c> set</c><00:16:57.570><c> its</c><00:16:57.720><c> value</c><00:16:57.810><c> to</c><00:16:58.170><c> new</c>
+
+00:16:58.820 --> 00:16:58.830 align:start position:0%
+and we're going to set its value to new
+ 
+
+00:16:58.830 --> 00:17:01.580 align:start position:0%
+and we're going to set its value to new
+scale<00:16:59.330><c> so</c><00:17:00.330><c> it's</c><00:17:00.480><c> going</c><00:17:00.600><c> to</c><00:17:00.690><c> grab</c><00:17:00.930><c> the</c><00:17:01.110><c> original</c>
+
+00:17:01.580 --> 00:17:01.590 align:start position:0%
+scale so it's going to grab the original
+ 
+
+00:17:01.590 --> 00:17:04.190 align:start position:0%
+scale so it's going to grab the original
+scale<00:17:01.890><c> from</c><00:17:02.130><c> our</c><00:17:02.310><c> layer</c><00:17:02.720><c> then</c><00:17:03.720><c> it's</c><00:17:03.870><c> going</c><00:17:04.080><c> to</c>
+
+00:17:04.190 --> 00:17:04.200 align:start position:0%
+scale from our layer then it's going to
+ 
+
+00:17:04.200 --> 00:17:06.260 align:start position:0%
+scale from our layer then it's going to
+make<00:17:04.380><c> a</c><00:17:04.410><c> variable</c><00:17:04.800><c> that</c><00:17:05.130><c> is</c><00:17:05.310><c> equal</c><00:17:05.820><c> to</c><00:17:05.850><c> our</c>
+
+00:17:06.260 --> 00:17:06.270 align:start position:0%
+make a variable that is equal to our
+ 
+
+00:17:06.270 --> 00:17:08.900 align:start position:0%
+make a variable that is equal to our
+original<00:17:06.840><c> scale</c><00:17:07.350><c> times</c><00:17:07.980><c> our</c><00:17:08.220><c> scale</c><00:17:08.490><c> percent</c>
+
+00:17:08.900 --> 00:17:08.910 align:start position:0%
+original scale times our scale percent
+ 
+
+00:17:08.910 --> 00:17:10.730 align:start position:0%
+original scale times our scale percent
+that<00:17:09.030><c> we</c><00:17:09.120><c> predefined</c><00:17:09.690><c> and</c><00:17:09.960><c> then</c><00:17:10.470><c> it's</c><00:17:10.620><c> going</c>
+
+00:17:10.730 --> 00:17:10.740 align:start position:0%
+that we predefined and then it's going
+ 
+
+00:17:10.740 --> 00:17:12.560 align:start position:0%
+that we predefined and then it's going
+to<00:17:10.830><c> set</c><00:17:11.070><c> the</c><00:17:11.100><c> scale</c><00:17:11.430><c> value</c><00:17:11.790><c> to</c><00:17:11.970><c> our</c><00:17:12.120><c> new</c><00:17:12.240><c> scale</c>
+
+00:17:12.560 --> 00:17:12.570 align:start position:0%
+to set the scale value to our new scale
+ 
+
+00:17:12.570 --> 00:17:14.540 align:start position:0%
+to set the scale value to our new scale
+so<00:17:13.410><c> if</c><00:17:13.470><c> you</c><00:17:13.560><c> finish</c><00:17:13.830><c> it</c><00:17:13.920><c> off</c><00:17:14.040><c> we'll</c><00:17:14.250><c> just</c><00:17:14.400><c> add</c>
+
+00:17:14.540 --> 00:17:14.550 align:start position:0%
+so if you finish it off we'll just add
+ 
+
+00:17:14.550 --> 00:17:18.440 align:start position:0%
+so if you finish it off we'll just add
+our<00:17:14.730><c> alert</c><00:17:15.030><c> and</c><00:17:16.460><c> now</c><00:17:17.460><c> our</c><00:17:17.640><c> code</c><00:17:17.910><c> is</c><00:17:18.150><c> pretty</c>
+
+00:17:18.440 --> 00:17:18.450 align:start position:0%
+our alert and now our code is pretty
+ 
+
+00:17:18.450 --> 00:17:20.600 align:start position:0%
+our alert and now our code is pretty
+much<00:17:18.690><c> done</c><00:17:19.050><c> of</c><00:17:19.650><c> course</c><00:17:19.890><c> there</c><00:17:20.160><c> isn't</c><00:17:20.310><c> any</c>
+
+00:17:20.600 --> 00:17:20.610 align:start position:0%
+much done of course there isn't any
+ 
+
+00:17:20.610 --> 00:17:22.490 align:start position:0%
+much done of course there isn't any
+validation<00:17:21.090><c> or</c><00:17:21.390><c> bug</c><00:17:21.570><c> testing</c><00:17:21.810><c> done</c><00:17:22.230><c> in</c><00:17:22.380><c> this</c>
+
+00:17:22.490 --> 00:17:22.500 align:start position:0%
+validation or bug testing done in this
+ 
+
+00:17:22.500 --> 00:17:24.590 align:start position:0%
+validation or bug testing done in this
+script<00:17:22.830><c> so</c><00:17:23.340><c> you</c><00:17:23.400><c> will</c><00:17:23.640><c> find</c><00:17:23.880><c> problems</c><00:17:24.360><c> when</c>
+
+00:17:24.590 --> 00:17:24.600 align:start position:0%
+script so you will find problems when
+ 
+
+00:17:24.600 --> 00:17:26.180 align:start position:0%
+script so you will find problems when
+trying<00:17:24.900><c> to</c><00:17:24.960><c> change</c><00:17:25.320><c> the</c><00:17:25.560><c> scale</c><00:17:25.800><c> of</c><00:17:25.980><c> say</c><00:17:26.160><c> a</c>
+
+00:17:26.180 --> 00:17:26.190 align:start position:0%
+trying to change the scale of say a
+ 
+
+00:17:26.190 --> 00:17:28.490 align:start position:0%
+trying to change the scale of say a
+camera<00:17:26.850><c> or</c><00:17:27.030><c> applying</c><00:17:27.690><c> effects</c><00:17:28.050><c> to</c><00:17:28.230><c> layers</c>
+
+00:17:28.490 --> 00:17:28.500 align:start position:0%
+camera or applying effects to layers
+ 
+
+00:17:28.500 --> 00:17:30.080 align:start position:0%
+camera or applying effects to layers
+that<00:17:28.680><c> don't</c><00:17:28.890><c> accept</c><00:17:29.400><c> effects</c><00:17:29.820><c> such</c><00:17:30.060><c> as</c>
+
+00:17:30.080 --> 00:17:30.090 align:start position:0%
+that don't accept effects such as
+ 
+
+00:17:30.090 --> 00:17:33.020 align:start position:0%
+that don't accept effects such as
+cameras<00:17:30.690><c> or</c><00:17:30.990><c> no</c><00:17:31.380><c> objects</c><00:17:31.980><c> so</c><00:17:32.460><c> there</c><00:17:32.610><c> are</c><00:17:32.730><c> a</c><00:17:32.760><c> few</c>
+
+00:17:33.020 --> 00:17:33.030 align:start position:0%
+cameras or no objects so there are a few
+ 
+
+00:17:33.030 --> 00:17:34.970 align:start position:0%
+cameras or no objects so there are a few
+buggy<00:17:33.300><c> things</c><00:17:33.660><c> inside</c><00:17:33.990><c> of</c><00:17:34.140><c> it</c><00:17:34.290><c> but</c><00:17:34.680><c> let's</c><00:17:34.830><c> go</c>
+
+00:17:34.970 --> 00:17:34.980 align:start position:0%
+buggy things inside of it but let's go
+ 
+
+00:17:34.980 --> 00:17:36.060 align:start position:0%
+buggy things inside of it but let's go
+ahead<00:17:35.010><c> and</c><00:17:35.280><c> see</c><00:17:35.400><c> if</c><00:17:35.430><c> it</c><00:17:35.700><c> works</c>
+
+00:17:36.060 --> 00:17:36.070 align:start position:0%
+ahead and see if it works
+ 
+
+00:17:36.070 --> 00:17:38.190 align:start position:0%
+ahead and see if it works
+so<00:17:36.790><c> I've</c><00:17:37.000><c> gone</c><00:17:37.150><c> ahead</c><00:17:37.210><c> and</c><00:17:37.450><c> reloaded</c><00:17:38.080><c> the</c>
+
+00:17:38.190 --> 00:17:38.200 align:start position:0%
+so I've gone ahead and reloaded the
+ 
+
+00:17:38.200 --> 00:17:40.440 align:start position:0%
+so I've gone ahead and reloaded the
+project<00:17:38.680><c> and</c><00:17:38.890><c> I</c><00:17:39.640><c> will</c><00:17:39.760><c> select</c><00:17:39.940><c> this</c><00:17:40.240><c> first</c>
+
+00:17:40.440 --> 00:17:40.450 align:start position:0%
+project and I will select this first
+ 
+
+00:17:40.450 --> 00:17:42.930 align:start position:0%
+project and I will select this first
+composition<00:17:41.170><c> that</c><00:17:41.290><c> has</c><00:17:41.440><c> the</c><00:17:41.620><c> text</c><00:17:41.860><c> and</c><00:17:42.220><c> I'll</c>
+
+00:17:42.930 --> 00:17:42.940 align:start position:0%
+composition that has the text and I'll
+ 
+
+00:17:42.940 --> 00:17:45.120 align:start position:0%
+composition that has the text and I'll
+go<00:17:43.090><c> ahead</c><00:17:43.150><c> and</c><00:17:43.420><c> run</c><00:17:43.600><c> the</c><00:17:43.690><c> script</c><00:17:43.950><c> so</c><00:17:44.950><c> now</c><00:17:45.070><c> you</c>
+
+00:17:45.120 --> 00:17:45.130 align:start position:0%
+go ahead and run the script so now you
+ 
+
+00:17:45.130 --> 00:17:46.710 align:start position:0%
+go ahead and run the script so now you
+can<00:17:45.310><c> see</c><00:17:45.490><c> our</c><00:17:45.520><c> time</c><00:17:45.910><c> codes</c><00:17:46.180><c> are</c><00:17:46.360><c> not</c><00:17:46.510><c> at</c><00:17:46.690><c> zero</c>
+
+00:17:46.710 --> 00:17:46.720 align:start position:0%
+can see our time codes are not at zero
+ 
+
+00:17:46.720 --> 00:17:48.870 align:start position:0%
+can see our time codes are not at zero
+we'll<00:17:47.530><c> click</c><00:17:47.740><c> on</c><00:17:47.770><c> the</c><00:17:47.950><c> timecode</c><00:17:48.160><c> zero</c><00:17:48.670><c> button</c>
+
+00:17:48.870 --> 00:17:48.880 align:start position:0%
+we'll click on the timecode zero button
+ 
+
+00:17:48.880 --> 00:17:51.690 align:start position:0%
+we'll click on the timecode zero button
+and<00:17:49.120><c> it</c><00:17:49.990><c> completed</c><00:17:50.320><c> successfully</c><00:17:50.770><c> we</c><00:17:51.580><c> now</c>
+
+00:17:51.690 --> 00:17:51.700 align:start position:0%
+and it completed successfully we now
+ 
+
+00:17:51.700 --> 00:17:54.240 align:start position:0%
+and it completed successfully we now
+have<00:17:51.910><c> all</c><00:17:52.120><c> the</c><00:17:52.270><c> time</c><00:17:52.420><c> at</c><00:17:52.900><c> zero</c><00:17:53.230><c> let's</c><00:17:53.830><c> also</c><00:17:53.980><c> go</c>
+
+00:17:54.240 --> 00:17:54.250 align:start position:0%
+have all the time at zero let's also go
+ 
+
+00:17:54.250 --> 00:17:55.740 align:start position:0%
+have all the time at zero let's also go
+ahead<00:17:54.430><c> and</c><00:17:54.550><c> change</c><00:17:54.790><c> our</c><00:17:54.940><c> text</c><00:17:55.210><c> by</c><00:17:55.420><c> using</c><00:17:55.570><c> the</c>
+
+00:17:55.740 --> 00:17:55.750 align:start position:0%
+ahead and change our text by using the
+ 
+
+00:17:55.750 --> 00:17:58.980 align:start position:0%
+ahead and change our text by using the
+text<00:17:55.990><c> tool</c><00:17:56.140><c> and</c><00:17:57.420><c> it</c><00:17:58.420><c> looks</c><00:17:58.570><c> like</c><00:17:58.780><c> we're</c>
+
+00:17:58.980 --> 00:17:58.990 align:start position:0%
+text tool and it looks like we're
+ 
+
+00:17:58.990 --> 00:18:01.620 align:start position:0%
+text tool and it looks like we're
+getting<00:17:59.140><c> an</c><00:17:59.440><c> error</c><00:17:59.680><c> here</c><00:18:00.190><c> I</c><00:18:00.480><c> think</c><00:18:01.480><c> I</c><00:18:01.570><c> know</c>
+
+00:18:01.620 --> 00:18:01.630 align:start position:0%
+getting an error here I think I know
+ 
+
+00:18:01.630 --> 00:18:03.630 align:start position:0%
+getting an error here I think I know
+what<00:18:01.900><c> the</c><00:18:01.990><c> problem</c><00:18:02.290><c> is</c><00:18:02.410><c> we</c><00:18:02.830><c> need</c><00:18:03.040><c> to</c><00:18:03.250><c> get</c><00:18:03.490><c> rid</c>
+
+00:18:03.630 --> 00:18:03.640 align:start position:0%
+what the problem is we need to get rid
+ 
+
+00:18:03.640 --> 00:18:09.690 align:start position:0%
+what the problem is we need to get rid
+of<00:18:03.670><c> these</c><00:18:03.790><c> brackets</c><00:18:06.780><c> to</c><00:18:07.780><c> run</c><00:18:07.930><c> it</c><00:18:08.050><c> again</c><00:18:08.700><c> use</c>
+
+00:18:09.690 --> 00:18:09.700 align:start position:0%
+of these brackets to run it again use
+ 
+
+00:18:09.700 --> 00:18:12.600 align:start position:0%
+of these brackets to run it again use
+the<00:18:09.910><c> text</c><00:18:10.240><c> tool</c><00:18:10.680><c> text</c><00:18:11.680><c> change</c><00:18:11.980><c> successfully</c>
+
+00:18:12.600 --> 00:18:12.610 align:start position:0%
+the text tool text change successfully
+ 
+
+00:18:12.610 --> 00:18:14.400 align:start position:0%
+the text tool text change successfully
+and<00:18:12.790><c> now</c><00:18:13.270><c> we've</c><00:18:13.420><c> changed</c><00:18:13.690><c> it</c><00:18:13.840><c> to</c><00:18:13.960><c> Times</c><00:18:14.200><c> New</c>
+
+00:18:14.400 --> 00:18:14.410 align:start position:0%
+and now we've changed it to Times New
+ 
+
+00:18:14.410 --> 00:18:18.390 align:start position:0%
+and now we've changed it to Times New
+Roman<00:18:14.490><c> 68</c><00:18:15.490><c> font</c><00:18:15.760><c> size</c><00:18:16.030><c> and</c><00:18:16.360><c> white</c><00:18:17.020><c> text</c><00:18:17.560><c> now</c>
+
+00:18:18.390 --> 00:18:18.400 align:start position:0%
+Roman 68 font size and white text now
+ 
+
+00:18:18.400 --> 00:18:20.220 align:start position:0%
+Roman 68 font size and white text now
+again<00:18:18.670><c> like</c><00:18:18.880><c> I</c><00:18:19.000><c> said</c><00:18:19.060><c> this</c><00:18:19.420><c> is</c><00:18:19.570><c> kind</c><00:18:19.780><c> of</c><00:18:19.960><c> not</c><00:18:20.170><c> a</c>
+
+00:18:20.220 --> 00:18:20.230 align:start position:0%
+again like I said this is kind of not a
+ 
+
+00:18:20.230 --> 00:18:22.200 align:start position:0%
+again like I said this is kind of not a
+fully<00:18:20.560><c> tested</c><00:18:21.040><c> script</c><00:18:21.340><c> it</c><00:18:21.520><c> hasn't</c><00:18:21.790><c> been</c><00:18:21.910><c> bug</c>
+
+00:18:22.200 --> 00:18:22.210 align:start position:0%
+fully tested script it hasn't been bug
+ 
+
+00:18:22.210 --> 00:18:24.240 align:start position:0%
+fully tested script it hasn't been bug
+tested<00:18:22.660><c> or</c><00:18:22.780><c> validated</c><00:18:23.380><c> so</c><00:18:23.890><c> if</c><00:18:23.950><c> we</c><00:18:24.040><c> try</c><00:18:24.160><c> to</c>
+
+00:18:24.240 --> 00:18:24.250 align:start position:0%
+tested or validated so if we try to
+ 
+
+00:18:24.250 --> 00:18:26.100 align:start position:0%
+tested or validated so if we try to
+apply<00:18:24.520><c> the</c><00:18:24.640><c> effects</c><00:18:25.090><c> to</c><00:18:25.360><c> all</c><00:18:25.540><c> of</c><00:18:25.720><c> the</c><00:18:25.870><c> layers</c>
+
+00:18:26.100 --> 00:18:26.110 align:start position:0%
+apply the effects to all of the layers
+ 
+
+00:18:26.110 --> 00:18:28.020 align:start position:0%
+apply the effects to all of the layers
+in<00:18:26.320><c> this</c><00:18:26.410><c> composition</c><00:18:26.830><c> it's</c><00:18:27.550><c> not</c><00:18:27.760><c> going</c><00:18:27.970><c> to</c>
+
+00:18:28.020 --> 00:18:28.030 align:start position:0%
+in this composition it's not going to
+ 
+
+00:18:28.030 --> 00:18:30.300 align:start position:0%
+in this composition it's not going to
+work<00:18:28.120><c> because</c><00:18:28.330><c> we</c><00:18:28.600><c> have</c><00:18:28.750><c> this</c><00:18:28.870><c> camera</c><00:18:29.200><c> here</c><00:18:29.560><c> so</c>
+
+00:18:30.300 --> 00:18:30.310 align:start position:0%
+work because we have this camera here so
+ 
+
+00:18:30.310 --> 00:18:32.010 align:start position:0%
+work because we have this camera here so
+we'll<00:18:30.640><c> go</c><00:18:30.760><c> ahead</c><00:18:30.790><c> and</c><00:18:30.940><c> close</c><00:18:31.180><c> the</c><00:18:31.360><c> script</c><00:18:31.630><c> and</c>
+
+00:18:32.010 --> 00:18:32.020 align:start position:0%
+we'll go ahead and close the script and
+ 
+
+00:18:32.020 --> 00:18:33.750 align:start position:0%
+we'll go ahead and close the script and
+we'll<00:18:32.470><c> load</c><00:18:32.590><c> up</c><00:18:32.650><c> a</c><00:18:32.800><c> composition</c><00:18:33.370><c> that</c><00:18:33.400><c> doesn't</c>
+
+00:18:33.750 --> 00:18:33.760 align:start position:0%
+we'll load up a composition that doesn't
+ 
+
+00:18:33.760 --> 00:18:35.220 align:start position:0%
+we'll load up a composition that doesn't
+have<00:18:33.880><c> any</c><00:18:34.090><c> types</c><00:18:34.360><c> of</c><00:18:34.540><c> layers</c><00:18:34.810><c> that</c><00:18:34.990><c> don't</c>
+
+00:18:35.220 --> 00:18:35.230 align:start position:0%
+have any types of layers that don't
+ 
+
+00:18:35.230 --> 00:18:37.740 align:start position:0%
+have any types of layers that don't
+accept<00:18:35.500><c> effects</c><00:18:35.890><c> or</c><00:18:36.190><c> scale</c><00:18:36.490><c> changes</c><00:18:36.970><c> so</c><00:18:37.600><c> like</c>
+
+00:18:37.740 --> 00:18:37.750 align:start position:0%
+accept effects or scale changes so like
+ 
+
+00:18:37.750 --> 00:18:40.320 align:start position:0%
+accept effects or scale changes so like
+this<00:18:37.930><c> one</c><00:18:38.140><c> and</c><00:18:38.380><c> I'll</c><00:18:39.160><c> rerun</c><00:18:39.580><c> the</c><00:18:39.700><c> script</c><00:18:40.000><c> so</c>
+
+00:18:40.320 --> 00:18:40.330 align:start position:0%
+this one and I'll rerun the script so
+ 
+
+00:18:40.330 --> 00:18:42.420 align:start position:0%
+this one and I'll rerun the script so
+that<00:18:40.360><c> way</c><00:18:40.600><c> it</c><00:18:40.720><c> changes</c><00:18:41.140><c> the</c><00:18:41.320><c> active</c><00:18:41.800><c> comp</c><00:18:42.040><c> to</c>
+
+00:18:42.420 --> 00:18:42.430 align:start position:0%
+that way it changes the active comp to
+ 
+
+00:18:42.430 --> 00:18:44.670 align:start position:0%
+that way it changes the active comp to
+this<00:18:42.640><c> one</c><00:18:42.880><c> and</c><00:18:43.090><c> I'll</c><00:18:44.020><c> start</c><00:18:44.230><c> off</c><00:18:44.380><c> by</c><00:18:44.560><c> applying</c>
+
+00:18:44.670 --> 00:18:44.680 align:start position:0%
+this one and I'll start off by applying
+ 
+
+00:18:44.680 --> 00:18:47.910 align:start position:0%
+this one and I'll start off by applying
+my<00:18:45.100><c> effects</c><00:18:45.990><c> so</c><00:18:46.990><c> now</c><00:18:47.170><c> it's</c><00:18:47.320><c> all</c><00:18:47.470><c> black</c><00:18:47.740><c> and</c>
+
+00:18:47.910 --> 00:18:47.920 align:start position:0%
+my effects so now it's all black and
+ 
+
+00:18:47.920 --> 00:18:49.560 align:start position:0%
+my effects so now it's all black and
+white<00:18:48.010><c> we</c><00:18:48.370><c> have</c><00:18:48.520><c> black</c><00:18:48.760><c> and</c><00:18:48.790><c> white</c><00:18:49.030><c> applied</c><00:18:49.390><c> to</c>
+
+00:18:49.560 --> 00:18:49.570 align:start position:0%
+white we have black and white applied to
+ 
+
+00:18:49.570 --> 00:18:52.890 align:start position:0%
+white we have black and white applied to
+all<00:18:49.840><c> the</c><00:18:50.170><c> layers</c><00:18:50.410><c> and</c><00:18:51.000><c> now</c><00:18:52.000><c> we</c><00:18:52.060><c> can</c><00:18:52.300><c> also</c><00:18:52.450><c> scale</c>
+
+00:18:52.890 --> 00:18:52.900 align:start position:0%
+all the layers and now we can also scale
+ 
+
+00:18:52.900 --> 00:18:56.850 align:start position:0%
+all the layers and now we can also scale
+them<00:18:53.110><c> up</c><00:18:53.790><c> 150%</c><00:18:55.140><c> which</c><00:18:56.140><c> in</c><00:18:56.290><c> this</c><00:18:56.380><c> case</c><00:18:56.620><c> doesn't</c>
+
+00:18:56.850 --> 00:18:56.860 align:start position:0%
+them up 150% which in this case doesn't
+ 
+
+00:18:56.860 --> 00:18:58.920 align:start position:0%
+them up 150% which in this case doesn't
+look<00:18:57.070><c> too</c><00:18:57.280><c> great</c><00:18:57.400><c> but</c><00:18:57.520><c> the</c><00:18:58.180><c> concept</c><00:18:58.630><c> is</c><00:18:58.720><c> there</c>
+
+00:18:58.920 --> 00:18:58.930 align:start position:0%
+look too great but the concept is there
+ 
+
+00:18:58.930 --> 00:19:00.840 align:start position:0%
+look too great but the concept is there
+but<00:18:59.470><c> yeah</c><00:18:59.710><c> that</c><00:18:59.950><c> is</c><00:18:59.980><c> it</c><00:19:00.220><c> for</c><00:19:00.370><c> this</c><00:19:00.460><c> video</c><00:19:00.640><c> I</c>
+
+00:19:00.840 --> 00:19:00.850 align:start position:0%
+but yeah that is it for this video I
+ 
+
+00:19:00.850 --> 00:19:03.450 align:start position:0%
+but yeah that is it for this video I
+hope<00:19:01.030><c> you</c><00:19:01.390><c> guys</c><00:19:01.540><c> enjoyed</c><00:19:01.990><c> all</c><00:19:02.650><c> of</c><00:19:02.710><c> the</c><00:19:03.160><c> links</c>
+
+00:19:03.450 --> 00:19:03.460 align:start position:0%
+hope you guys enjoyed all of the links
+ 
+
+00:19:03.460 --> 00:19:05.040 align:start position:0%
+hope you guys enjoyed all of the links
+to<00:19:03.610><c> the</c><00:19:03.910><c> code</c><00:19:04.120><c> will</c><00:19:04.330><c> be</c><00:19:04.420><c> in</c><00:19:04.510><c> the</c><00:19:04.570><c> description</c>
+
+00:19:05.040 --> 00:19:05.050 align:start position:0%
+to the code will be in the description
+ 
+
+00:19:05.050 --> 00:19:07.140 align:start position:0%
+to the code will be in the description
+below<00:19:05.170><c> including</c><00:19:06.100><c> the</c><00:19:06.250><c> match</c><00:19:06.460><c> names</c><00:19:06.790><c> for</c><00:19:07.060><c> all</c>
+
+00:19:07.140 --> 00:19:07.150 align:start position:0%
+below including the match names for all
+ 
+
+00:19:07.150 --> 00:19:09.240 align:start position:0%
+below including the match names for all
+the<00:19:07.180><c> effects</c><00:19:07.570><c> and</c><00:19:07.810><c> after-effects</c><00:19:08.410><c> and</c><00:19:08.590><c> a</c>
+
+00:19:09.240 --> 00:19:09.250 align:start position:0%
+the effects and after-effects and a
+ 
+
+00:19:09.250 --> 00:19:11.550 align:start position:0%
+the effects and after-effects and a
+bunch<00:19:09.490><c> of</c><00:19:09.640><c> the</c><00:19:09.820><c> match</c><00:19:10.030><c> names</c><00:19:10.330><c> for</c><00:19:10.630><c> fonts</c><00:19:10.990><c> but</c>
+
+00:19:11.550 --> 00:19:11.560 align:start position:0%
+bunch of the match names for fonts but
+ 
+
+00:19:11.560 --> 00:19:13.350 align:start position:0%
+bunch of the match names for fonts but
+of<00:19:11.680><c> course</c><00:19:11.920><c> make</c><00:19:12.190><c> sure</c><00:19:12.340><c> you</c><00:19:12.460><c> subscribe</c><00:19:12.700><c> for</c>
+
+00:19:13.350 --> 00:19:13.360 align:start position:0%
+of course make sure you subscribe for
+ 
+
+00:19:13.360 --> 00:19:14.960 align:start position:0%
+of course make sure you subscribe for
+weekly<00:19:13.390><c> videos</c><00:19:14.020><c> coming</c><00:19:14.380><c> out</c><00:19:14.470><c> every</c><00:19:14.620><c> Wednesday</c>
+
+00:19:14.960 --> 00:19:14.970 align:start position:0%
+weekly videos coming out every Wednesday
+ 
+
+00:19:14.970 --> 00:19:17.040 align:start position:0%
+weekly videos coming out every Wednesday
+most<00:19:15.970><c> of</c><00:19:16.150><c> them</c><00:19:16.270><c> will</c><00:19:16.390><c> be</c><00:19:16.420><c> tutorials</c>
+
+00:19:17.040 --> 00:19:17.050 align:start position:0%
+most of them will be tutorials
+ 
+
+00:19:17.050 --> 00:19:18.750 align:start position:0%
+most of them will be tutorials
+occasionally<00:19:17.710><c> there</c><00:19:17.830><c> will</c><00:19:17.890><c> be</c><00:19:17.980><c> other</c><00:19:18.220><c> content</c>
+
+00:19:18.750 --> 00:19:18.760 align:start position:0%
+occasionally there will be other content
+ 
+
+00:19:18.760 --> 00:19:20.220 align:start position:0%
+occasionally there will be other content
+like<00:19:18.880><c> a</c><00:19:18.910><c> music</c><00:19:19.330><c> video</c><00:19:19.480><c> or</c><00:19:19.690><c> something</c><00:19:20.080><c> like</c>
+
+00:19:20.220 --> 00:19:20.230 align:start position:0%
+like a music video or something like
+ 
+
+00:19:20.230 --> 00:19:21.750 align:start position:0%
+like a music video or something like
+that<00:19:20.440><c> but</c><00:19:20.890><c> I'm</c><00:19:20.980><c> definitely</c><00:19:21.160><c> getting</c><00:19:21.640><c> back</c>
+
+00:19:21.750 --> 00:19:21.760 align:start position:0%
+that but I'm definitely getting back
+ 
+
+00:19:21.760 --> 00:19:23.820 align:start position:0%
+that but I'm definitely getting back
+into<00:19:22.060><c> YouTube</c><00:19:22.210><c> so</c><00:19:22.930><c> that</c><00:19:23.050><c> you</c><00:19:23.170><c> guys</c><00:19:23.350><c> can</c><00:19:23.680><c> enjoy</c>
+
+00:19:23.820 --> 00:19:23.830 align:start position:0%
+into YouTube so that you guys can enjoy
+ 
+
+00:19:23.830 --> 00:19:25.920 align:start position:0%
+into YouTube so that you guys can enjoy
+more<00:19:24.250><c> tutorials</c><00:19:24.790><c> and</c><00:19:24.880><c> there's</c><00:19:25.480><c> not</c><00:19:25.600><c> really</c><00:19:25.660><c> a</c>
+
+00:19:25.920 --> 00:19:25.930 align:start position:0%
+more tutorials and there's not really a
+ 
+
+00:19:25.930 --> 00:19:27.840 align:start position:0%
+more tutorials and there's not really a
+lot<00:19:26.080><c> of</c><00:19:26.260><c> scripting</c><00:19:26.590><c> tutorials</c><00:19:27.070><c> out</c><00:19:27.190><c> there</c><00:19:27.250><c> but</c>
+
+00:19:27.840 --> 00:19:27.850 align:start position:0%
+lot of scripting tutorials out there but
+ 
+
+00:19:27.850 --> 00:19:29.460 align:start position:0%
+lot of scripting tutorials out there but
+again<00:19:28.090><c> thanks</c><00:19:28.420><c> for</c><00:19:28.540><c> watching</c><00:19:28.870><c> guys</c><00:19:29.020><c> that's</c>
+
+00:19:29.460 --> 00:19:29.470 align:start position:0%
+again thanks for watching guys that's
+ 
+
+00:19:29.470 --> 00:19:31.020 align:start position:0%
+again thanks for watching guys that's
+how<00:19:29.590><c> you</c><00:19:29.650><c> create</c><00:19:29.770><c> a</c><00:19:29.890><c> batch</c><00:19:30.160><c> processing</c><00:19:30.790><c> script</c>
+
+00:19:31.020 --> 00:19:31.030 align:start position:0%
+how you create a batch processing script
+ 
+
+00:19:31.030 --> 00:19:32.880 align:start position:0%
+how you create a batch processing script
+for<00:19:31.300><c> After</c><00:19:31.660><c> Effects</c><00:19:31.930><c> that</c><00:19:32.380><c> has</c><00:19:32.530><c> a</c><00:19:32.560><c> lot</c><00:19:32.800><c> of</c>
+
+00:19:32.880 --> 00:19:32.890 align:start position:0%
+for After Effects that has a lot of
+ 
+
+00:19:32.890 --> 00:19:34.920 align:start position:0%
+for After Effects that has a lot of
+functionality<00:19:33.400><c> and</c><00:19:33.790><c> can</c><00:19:34.210><c> save</c><00:19:34.450><c> you</c><00:19:34.570><c> a</c><00:19:34.600><c> lot</c><00:19:34.870><c> of</c>
+
+00:19:34.920 --> 00:19:34.930 align:start position:0%
+functionality and can save you a lot of
+ 
+
+00:19:34.930 --> 00:19:37.260 align:start position:0%
+functionality and can save you a lot of
+time
+

@@ -1,0 +1,1704 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.040 --> 00:00:04.480
+En este video, aprenderás todo lo
+que necesitas saber sobre cómo probar tus
+
+00:00:04.480 --> 00:00:09.720
+aplicaciones React usando Playwright.  Playwright es una
+herramienta de prueba integral que le permite
+
+00:00:09.720 --> 00:00:14.960
+probar sus aplicaciones exactamente como lo haría un usuario real
+.  Y lo hace abriendo un navegador,
+
+00:00:14.960 --> 00:00:19.560
+ejecutando su aplicación, haciendo clic
+en elementos, escribiendo en campos de entrada y asegurándose de que
+
+00:00:19.560 --> 00:00:24.680
+su aplicación se comporte en su totalidad, es
+decir, incluyendo el frontend, el backend y la base de datos,
+
+00:00:24.680 --> 00:00:29.280
+exactamente como usted espera, y que no haya
+sorpresas no deseadas.  Así que prepárense, emociónense,
+
+00:00:29.280 --> 00:00:33.360
+porque van a aprender mucho en este video.
+Y por cierto, si quieres aprender a crear
+
+00:00:33.360 --> 00:00:38.280
+una aplicación grande y compleja con React siendo un
+principiante total sin necesidad de experiencia previa,
+
+00:00:38.280 --> 00:00:42.280
+echa un vistazo al Proyecto React en la descripción.
+Créeme, no te arrepentirás.  Entremos en materia
+
+00:00:42.280 --> 00:00:50.120
+.  Muy bien, aquí tengo una
+aplicación muy sencilla que se está ejecutando localmente.  Y
+
+00:00:50.120 --> 00:00:54.400
+ahora vamos a probar esta aplicación
+usando Playwright.  Obviamente, se trata de una aplicación muy sencilla
+
+00:00:54.400 --> 00:00:59.400
+.  Aquí tenemos la página de inicio.
+Tenemos esta etiqueta h1 que dice página de inicio.  Tenemos este
+
+00:00:59.400 --> 00:01:04.240
+formulario aquí, que es un enlace.  Si paso el cursor por encima,
+este se convierte en un puntero.  Y puedo hacer clic
+
+00:01:04.240 --> 00:01:09.400
+aquí.  Y me va a redirigir a la
+URL del formulario real aquí, barra form, donde podemos
+
+00:01:09.400 --> 00:01:14.040
+ver el formulario.  Y aquí tenemos un campo de entrada
+donde puedo escribir algo, por ejemplo, prueba.  Y
+
+00:01:14.040 --> 00:01:18.360
+puedo pulsar Añadir.  Y vamos a añadir ese elemento
+directamente aquí.  Y la entrada se va a
+
+00:01:18.360 --> 00:01:22.840
+borrar.  Repito, se trata de una aplicación muy sencilla.
+Y no vamos a analizar Playwright ni
+
+00:01:22.840 --> 00:01:27.400
+cómo escribir pruebas de integración para esta
+aplicación.  Para ello, vamos a ir aquí,
+
+00:01:27.400 --> 00:01:32.480
+a la documentación oficial de Playwright, que se encuentra
+en playwright.dev.  Y en este video, lo que
+
+00:01:32.480 --> 00:01:36.760
+voy a hacer es mostrarles
+cómo podríamos probar esta aplicación tan simple.
+
+00:01:36.760 --> 00:01:41.240
+Pero, lo que es más importante, también voy a
+explicarles mi proceso de pensamiento sobre qué probar,
+
+00:01:41.240 --> 00:01:45.400
+porque, desafortunadamente, muchos tutoriales no
+muestran esto, sino que les muestran cómo
+
+00:01:45.400 --> 00:01:49.600
+usar la herramienta en sí, en este caso Playwright,
+cómo escribir la prueba y todo eso.
+
+00:01:49.600 --> 00:01:53.520
+Pero nunca te enseñan los principios básicos de las
+pruebas ni por qué deberías probar algo en
+
+00:01:53.520 --> 00:01:58.800
+primer lugar.  Y, más concretamente, qué se debe analizar
+y qué no.  Como puede verse aquí,
+
+00:01:58.800 --> 00:02:04.080
+Playwright permite realizar pruebas integrales y fiables
+para aplicaciones web modernas.  Si no sabes
+
+00:02:04.080 --> 00:02:08.600
+qué es una prueba de extremo a extremo, a diferencia de
+una prueba unitaria, una prueba de extremo a extremo significa que
+
+00:02:08.600 --> 00:02:12.600
+tomas toda la aplicación y la
+ejecutas con todo el front-end, todo el
+
+00:02:12.600 --> 00:02:16.840
+back-end y una base de datos.  Y lo estás probando
+como lo haría un usuario real.  Entonces, estás ejecutando
+
+00:02:16.840 --> 00:02:21.400
+la aplicación completa, vas haciendo clic
+en cosas, escribiendo en entradas y viendo cómo se
+
+00:02:21.400 --> 00:02:25.840
+comporta la aplicación, a diferencia de una prueba unitaria,
+donde estás probando un componente o algo
+
+00:02:25.840 --> 00:02:30.640
+de forma aislada.  Esto es probar todo,
+la aplicación completa en su conjunto.  Así que comencemos
+
+00:02:30.640 --> 00:02:34.960
+.  Y vamos a venir aquí y hacer clic en el
+botón Empezar.  Esto nos llevará a
+
+00:02:34.960 --> 00:02:38.880
+la página de instalación de Playwright.  Y
+vamos a seguir estas instrucciones de aquí,
+
+00:02:38.880 --> 00:02:43.000
+que sinceramente son bastante sencillas.  Vamos a
+empezar instalando Playwright.  Y lo haremos
+
+00:02:43.000 --> 00:02:48.080
+instalándolo en una aplicación existente,
+que probablemente también será su caso.  En
+
+00:02:48.080 --> 00:02:53.200
+mi caso, estoy usando PNPM.  Así que voy a venir aquí
+y tomar este comando PNPM create Playwright.  Y voy
+
+00:02:53.200 --> 00:02:57.440
+a venir aquí a mi VS Code.  Este es el
+código real que ejecuta la aplicación.  Y voy
+
+00:02:57.440 --> 00:03:01.800
+a ejecutarlo aquí dentro de la terminal.
+Ahora me preguntará dónde quiero colocar
+
+00:03:01.800 --> 00:03:05.760
+mi prueba de extremo a extremo, quiero dejarla en
+la carpeta de prueba predeterminada, me preguntará
+
+00:03:05.760 --> 00:03:09.760
+si quiero configurar el flujo de trabajo de GitHub Actions,
+quiero hacerlo porque es una aplicación simple,
+
+00:03:09.760 --> 00:03:13.960
+no tenemos nada en GitHub, luego vamos a
+querer instalar los navegadores Playwright, vamos
+
+00:03:13.960 --> 00:03:18.520
+a dejar esto en predeterminado Playwright
+esencialmente ejecuta esta prueba en varios navegadores para
+
+00:03:18.520 --> 00:03:22.640
+asegurarse de que su aplicación se ejecute de la misma manera en
+diferentes navegadores, lo cual es algo realmente genial.
+
+00:03:22.640 --> 00:03:27.040
+Y después de eso, ejecutamos ese comando, tenemos este
+pequeño candado aquí, que nos indica que Playwright
+
+00:03:27.040 --> 00:03:31.960
+se ha inicializado correctamente en nuestro proyecto.  Y como
+podemos ver, si abrimos aquí, la página del Explorador
+
+00:03:31.960 --> 00:03:36.760
+a la derecha, tenemos dos carpetas nuevas, tenemos
+la carpeta de prueba aquí.  Y tenemos las
+
+00:03:36.760 --> 00:03:41.680
+carpetas de ejemplos de prueba.  Ahora la carpeta de prueba, si
+abro example.spec.ts y cierro esta
+
+00:03:41.680 --> 00:03:47.120
+terminal, este es solo un archivo de prueba de ejemplo simple
+que Playwright coloca automáticamente para que puedas
+
+00:03:47.120 --> 00:03:51.280
+comenzar.  Esto es genial, vamos a trabajar
+dentro de este archivo para agregar esta
+
+00:03:51.280 --> 00:03:56.600
+prueba específica de nuestra propia aplicación.  Pero también tenemos
+ejemplos de prueba.  Y aquí hay otro archivo
+
+00:03:56.600 --> 00:04:01.040
+que es realmente muy útil.  Como puedes
+ver, este archivo es muy grande, es mucho más grande
+
+00:04:01.040 --> 00:04:06.480
+que el primer archivo.  Y esto en realidad tiene todas
+las pruebas para una aplicación de demostración que Playwright
+
+00:04:06.480 --> 00:04:11.480
+construyó y alojó ellos mismos, puedes encontrarla aquí,
+HTTPS demo punto Playwright, déjame venir aquí
+
+00:04:11.480 --> 00:04:16.880
+y abrir esto en el navegador.  Si abrimos una nueva pestaña
+aquí, tenemos esta aplicación.  Y esta es una
+
+00:04:16.880 --> 00:04:21.480
+aplicación sencilla creada por los
+propios Playwright.  Entonces podemos agregar aquí una nueva tarea que
+
+00:04:21.480 --> 00:04:26.440
+podemos realizar, por ejemplo, presionar Enter, se
+agregará, podemos completarla, también podemos
+
+00:04:26.440 --> 00:04:31.920
+eliminarlas.  Y tenemos una aplicación que funciona perfectamente.  Y
+en este archivo tenemos todas las pruebas para esa
+
+00:04:31.920 --> 00:04:36.240
+aplicación para asegurarnos de que funciona correctamente.
+Y esto es realmente útil, porque si recién estás
+
+00:04:36.240 --> 00:04:40.400
+comenzando con Playwright y realmente no
+sabes cómo usarlo, puedes usar este archivo
+
+00:04:40.400 --> 00:04:44.840
+y puedes consultarlo y ver cómo
+recomiendan que hagas todas estas pruebas, ¿verdad?
+
+00:04:44.840 --> 00:04:48.880
+Tienes un montón de código aquí para probar
+diferentes cosas, que muy probablemente
+
+00:04:48.880 --> 00:04:52.600
+cubrirá algunas de las pruebas que estás tratando de hacer para
+tu propia aplicación.  Así que este es un
+
+00:04:52.600 --> 00:04:56.480
+archivo realmente muy útil.  Y les recomiendo encarecidamente que
+dediquen algo de tiempo a revisar esto porque
+
+00:04:56.480 --> 00:05:00.800
+hay muchísimas cosas que aprender aquí que
+pueden aplicar directamente a sus propios exámenes.  Ahora,
+
+00:05:00.800 --> 00:05:04.320
+en nuestro caso, no lo vamos a usar,
+simplemente&nbsp;vamos&nbsp;a trabajar en el&nbsp;archivo&nbsp;simple&nbsp;de
+
+00:05:04.320 --> 00:05:07.960
+aquí.  Y vamos a crear nuestras propias pruebas
+directamente.  Así que lo que voy a hacer es
+
+00:05:07.960 --> 00:05:11.880
+tomar todo esto y borrarlo
+porque queremos empezar de cero.  Y voy
+
+00:05:11.880 --> 00:05:15.520
+a dejar estas importaciones aquí
+porque las vamos a usar.  Así que, en primer lugar,
+
+00:05:15.520 --> 00:05:19.720
+pensemos en nuestra aplicación y en lo que
+realmente queremos probar en ella.  Así que aquí,
+
+00:05:19.720 --> 00:05:25.440
+déjenme ejecutar la aplicación de nuevo, pnpm dev,
+solo para que esté funcionando.  Y volvamos ahora a
+
+00:05:25.440 --> 00:05:29.760
+la página de inicio.  Y pensemos qué
+queremos probar porque nuestra aplicación es realmente
+
+00:05:29.760 --> 00:05:34.040
+simple, no necesitamos ninguna prueba sofisticada.
+Entonces, cuando iniciamos y cargamos la aplicación por primera vez,
+
+00:05:34.040 --> 00:05:37.960
+esta es la pantalla que vemos, esta es la
+pantalla de inicio.  Ahora esta pantalla de inicio solo tiene unos
+
+00:05:37.960 --> 00:05:42.280
+pocos elementos.  Así que realmente no hay mucho que
+probar.  Pero aun así, deberíamos comprobar que lo que
+
+00:05:42.280 --> 00:05:46.520
+vemos en la pantalla es exactamente lo que esperamos.
+Por ejemplo, deberíamos comprobar que tenemos un encabezado
+
+00:05:46.520 --> 00:05:50.440
+en esta página que diga página de inicio, ¿verdad?, porque lo estamos
+poniendo aquí, queremos asegurarnos de que
+
+00:05:50.440 --> 00:05:55.200
+realmente esté ahí y que tenga el
+texto correcto.  También tenemos este enlace de aquí que dice
+
+00:05:55.200 --> 00:05:59.920
+formulario, queremos probar eso primero que nada, el enlace
+está ahí.  Y que cuando hacemos clic en el enlace, somos
+
+00:05:59.920 --> 00:06:04.880
+redirigidos correctamente al formulario de barra diagonal.  Y aquí
+tengo un error, ¿por qué tengo un error?, ahí está
+
+00:06:04.880 --> 00:06:09.480
+, está solucionado, se redirigió correctamente
+al formulario real.  Eso es todo lo que queremos
+
+00:06:09.480 --> 00:06:13.800
+probar para esta página específica.  Y también tal vez
+que el título aquí sea soluciones causales,
+
+00:06:13.800 --> 00:06:18.240
+solo para asegurarnos de que el título sea también lo que
+esperamos.  Luego también tenemos la página del formulario, que
+
+00:06:18.240 --> 00:06:22.440
+tiene un poco más de funcionalidad.  Y aquí
+también, queremos escribir nuestros propios conjuntos de pruebas para probar
+
+00:06:22.440 --> 00:06:26.760
+la página específica, primero vamos a probar lo
+mismo que el formulario realmente está ahí.  Y
+
+00:06:26.760 --> 00:06:31.600
+también que el campo de entrada y el botón de añadir estén ahí,
+y que pueda escribir algo en el campo de entrada.  Y
+
+00:06:31.600 --> 00:06:36.600
+que cuando escribo en el campo de entrada, lo que sea que haya
+escrito termina aquí en una lista,
+
+00:06:36.600 --> 00:06:40.520
+y que luego se borra el campo de entrada, ¿verdad?
+Estamos probando la funcionalidad real de
+
+00:06:40.520 --> 00:06:45.160
+nuestra aplicación.  Y tenga en cuenta que esto
+no depende realmente de ninguna pieza individual,
+
+00:06:45.160 --> 00:06:49.600
+no depende solo del front-end, solo
+del back-end o solo de la base de datos.  Más bien,
+
+00:06:49.600 --> 00:06:54.320
+depende de que todas las piezas funcionen en conjunto.
+Porque digamos que tuviera un backend completo
+
+00:06:54.320 --> 00:06:58.840
+que guardara todo lo que escribo
+aquí, también
+
+00:06:58.840 --> 00:07:03.680
+probaremos que todo lo que escribimos aquí, cuando lo agregamos
+, va al backend y nos da una
+
+00:07:03.680 --> 00:07:07.560
+respuesta correcta.  Y lo vemos aquí en la pantalla.
+Esto es lo que llamamos una prueba de integración.  Ahora bien,
+
+00:07:07.560 --> 00:07:11.040
+por supuesto, en este sencillo ejemplo, en realidad
+no tenemos un back-end, todo se gestiona en
+
+00:07:11.040 --> 00:07:14.800
+el front-end.  Pero puedes imaginar que si
+tuviéramos un sistema de back-end, lo estaríamos probando indirectamente a
+
+00:07:14.800 --> 00:07:19.200
+través de esta prueba de integración.  Porque la
+única forma en que este elemento aparecería aquí es si
+
+00:07:19.200 --> 00:07:22.680
+el back-end también está funcionando, si el back-end
+está caído y no funciona, o si hay un
+
+00:07:22.680 --> 00:07:26.960
+error en el back-end, este elemento de prueba de aquí
+no aparecería.  Así que, al realizar estas pruebas, se
+
+00:07:26.960 --> 00:07:31.240
+prueba todo, desde el front-end hasta el back-end, y
+toda la prueba de integración.  Y así es como generalmente se debe
+
+00:07:31.240 --> 00:07:35.480
+abordar el pensamiento sobre las pruebas y
+qué probar, se toma cualquier pantalla que se tenga
+
+00:07:35.480 --> 00:07:39.480
+y se observa lo que el usuario puede hacer, lo que cualquier
+usuario puede hacer en la aplicación, lo que espera, lo que
+
+00:07:39.480 --> 00:07:43.720
+puede ver en la pantalla.  Y simplemente pruebas
+esos casos, esas rutas y te aseguras de que sean
+
+00:07:43.720 --> 00:07:48.160
+correctas.  Y también, si no son correctos, hay
+un error, asegúrese de que la aplicación
+
+00:07:48.160 --> 00:07:52.520
+responda de la manera que espera
+cuando haya algún error determinado.  En nuestro caso,
+
+00:07:52.520 --> 00:07:55.960
+esa es la forma, la funcionalidad del
+formulario y lo que vemos aquí.  Y eso es todo,
+
+00:07:55.960 --> 00:08:00.120
+no necesitamos probar nada más.  Y en la
+página de inicio, no tenemos interactividad, solo tenemos
+
+00:08:00.120 --> 00:08:04.360
+un montón de elementos.  Así que solo necesitamos comprobar que
+los elementos realmente existen.  Así que volvamos
+
+00:08:04.360 --> 00:08:08.400
+a nuestro VS Code y comencemos a escribir algunas
+pruebas.  En primer lugar, voy a hacer todo
+
+00:08:08.400 --> 00:08:13.680
+este trabajo en este archivo de ejemplo dot spec.ts,
+simplemente para mantener las cosas simples.  En una aplicación real, es recomendable
+
+00:08:13.680 --> 00:08:17.640
+dividir esto en varios
+archivos, cada uno relacionado con diferentes tipos de pruebas
+
+00:08:17.640 --> 00:08:21.800
+.  Pero vamos a hacerlo
+en un solo archivo para que todo sea muy sencillo.
+
+00:08:21.800 --> 00:08:25.960
+Y lo segundo es que vamos a tener dos
+grupos de pruebas diferentes, porque tenemos dos
+
+00:08:25.960 --> 00:08:30.520
+páginas diferentes, tenemos la página de inicio y tenemos
+la página del formulario.  Y generalmente es mejor
+
+00:08:30.520 --> 00:08:35.240
+agrupar esas cosas, porque las pruebas relacionadas
+suelen tener alguna funcionalidad común que debería
+
+00:08:35.240 --> 00:08:39.920
+ir en el mismo grupo.  Así que volvamos a VS Code
+y comencemos a escribir algunas pruebas.  Ahora bien, la
+
+00:08:39.920 --> 00:08:43.720
+forma en que vamos a hacer esto es, en primer lugar,
+voy a escribir todo en este único archivo
+
+00:08:43.720 --> 00:08:48.640
+example.spec.ts, solo para mantener las cosas simples
+para el video.  Pero idealmente, en un proyecto real,
+
+00:08:48.640 --> 00:08:52.800
+quizás convenga tener archivos separados, cada uno para un
+grupo diferente de pruebas relacionadas.  Lo segundo
+
+00:08:52.800 --> 00:08:57.040
+es que, aunque voy a poner todo esto en un solo
+archivo, voy a separar mis pruebas en dos grupos.
+
+00:08:57.040 --> 00:09:00.640
+Voy a tener un grupo para la página de inicio
+y otro para la página del formulario, solo para mantener las
+
+00:09:00.640 --> 00:09:04.640
+cosas un poco más organizadas, de modo que
+pondré todas las pruebas relacionadas con la página de inicio en
+
+00:09:04.640 --> 00:09:08.680
+un bloque y todas las pruebas relacionadas con la
+página del formulario en otro bloque.  Ahora en Playwright,
+
+00:09:08.680 --> 00:09:13.200
+puedes hacer eso, puedes crear grupos y lo
+haces usando un bloque de descripción.  Así que
+
+00:09:13.200 --> 00:09:17.600
+vengamos aquí y probemos dot describe.  Y aquí sí que
+podemos darle un nombre.  Por ejemplo,
+
+00:09:17.600 --> 00:09:22.800
+podemos hacer la página de inicio de esta manera, estas serán
+todas las pruebas relacionadas con la página de inicio,
+
+00:09:22.800 --> 00:09:26.840
+las pondremos dentro de este
+bloque describe, luego le damos una función aquí, una
+
+00:09:26.840 --> 00:09:31.040
+función flecha.  Y aquí dentro vamos
+a poner todas nuestras pruebas que están relacionadas con la
+
+00:09:31.040 --> 00:09:35.640
+página de inicio.  Lo único que hace este bloque de descripción
+es que, cuando tienes una interfaz de usuario real y
+
+00:09:35.640 --> 00:09:39.800
+ves que se ejecutan las pruebas, se
+agruparán bajo esta categoría para que te resulte
+
+00:09:39.800 --> 00:09:44.440
+más fácil organizarlas. Siempre me gusta
+hacer esto.  Y de nuevo, agrupe las pruebas relacionadas
+
+00:09:44.440 --> 00:09:48.280
+en un bloque de descripción, porque simplemente tiene más
+sentido.  Y aquí, de hecho, podemos escribir
+
+00:09:48.280 --> 00:09:52.640
+nuestras pruebas.  Entonces, la primera prueba que queremos hacer
+es si vuelvo aquí a la aplicación real,
+
+00:09:52.640 --> 00:09:57.640
+primero queremos abrir esta página de aquí.
+Entonces localhost 3000, porque tenemos que navegar
+
+00:09:57.640 --> 00:10:11.520
+manualmente hasta allí.  Y luego vamos a comprobar que...
+Así que vamos a empezar escribiendo una prueba.  Entonces
+
+00:10:11.520 --> 00:10:15.840
+podemos hacer pruebas como esta, ponerle un paréntesis, y
+luego necesitamos darle un título.  Y lo que vamos
+
+00:10:15.840 --> 00:10:25.800
+a hacer debe tener metadatos y elementos correctos.
+Siempre conviene darle a esta prueba un título descriptivo,
+
+00:10:25.800 --> 00:10:30.640
+un título descriptivo que represente realmente lo que la
+prueba está haciendo.  Entonces, debe tener los
+
+00:10:30.640 --> 00:10:35.840
+metadatos y elementos correctos, esto es muy claro en cuanto a
+lo que hace esta prueba.  Luego, como segundo argumento, le vamos
+
+00:10:35.840 --> 00:10:41.800
+a dar una función asíncrona.
+Así que vamos a hacerlo de forma asíncrona de esta manera.  Y esto va a
+
+00:10:41.800 --> 00:10:45.760
+tener un argumento, y va a haber
+un objeto.  Y a partir de ese objeto, vamos
+
+00:10:45.760 --> 00:10:50.080
+a obtener la propiedad de la página de esta manera, porque
+vamos a usar esta página dentro de nuestra
+
+00:10:50.080 --> 00:10:54.680
+prueba.  Entonces, en este bloque de aquí, creamos una
+prueba, le dimos un título, debería tener
+
+00:10:54.680 --> 00:10:59.400
+metadatos y elementos correctos.  Entonces, la segunda función
+es la función real que vamos a usar para
+
+00:10:59.400 --> 00:11:03.360
+probar.  Y esta página de aquí, la vamos a
+usar para acceder a diferentes cosas en
+
+00:11:03.360 --> 00:11:08.040
+esa página específica, como acceder al título, acceder a
+cualquier elemento y comprobar que son exactamente lo que
+
+00:11:08.040 --> 00:11:12.160
+esperamos.  Ahora, para comprobar el título, esto es lo que vamos
+a hacer.  Y por cierto, para ver realmente
+
+00:11:12.160 --> 00:11:16.680
+cómo hacer cualquiera de estas cosas, recuerde que
+tiene este panel de demostración para hacer la especificación de la aplicación aquí,
+
+00:11:16.680 --> 00:11:20.800
+puede echarle un vistazo.  Y puedes
+encontrar cómo obtienen el título real de una pantalla,
+
+00:11:20.800 --> 00:11:25.280
+cómo obtienen cualquier elemento individual, o puedes consultar
+la documentación real, aquí solo te estoy mostrando
+
+00:11:25.280 --> 00:11:29.000
+la versión simple de cómo hacer las cosas.  Pero si
+quieres profundizar un poco más y aprender algo
+
+00:11:29.000 --> 00:11:32.880
+más, tienes todos los recursos disponibles
+para poder hacerlo.  Entonces vamos a escribir
+
+00:11:32.880 --> 00:11:38.040
+un peso y luego esperar.  Así que vamos a
+esperar algo y esto viene directamente
+
+00:11:38.040 --> 00:11:42.920
+del dramaturgo en la prueba, esta es esta importación de
+aquí.  Y luego vamos a hacer la página.  Entonces
+
+00:11:42.920 --> 00:11:49.200
+vamos a esperar que el punto de la página y luego aquí hay
+una función auxiliar para tener el título.  Y le vamos
+
+00:11:49.200 --> 00:11:54.920
+a dar aquí el título que esperamos, que
+va a ser causado por soluciones como esta.  Entonces,
+
+00:11:54.920 --> 00:11:59.480
+ahora tenemos una prueba real y tenemos algo de código
+dentro de ella que va a esperar y luego
+
+00:11:59.480 --> 00:12:05.040
+va a esperar que la página tenga un título de causa
+y soluciones.  Esta es una prueba muy sencilla.  Así que,
+
+00:12:05.040 --> 00:12:09.840
+siempre y cuando abramos esta página de aquí
+y tengamos un título que diga "causa y soluciones", esta
+
+00:12:09.840 --> 00:12:13.840
+prueba va a funcionar.  Pero antes de que podamos
+probar eso, hay una cosa más que tenemos que
+
+00:12:13.840 --> 00:12:18.720
+hacer de antemano, que omití a propósito solo para que quede
+muy claro lo importante que es esto.
+
+00:12:18.720 --> 00:12:23.640
+En realidad no puedes esperar que la página tenga nada
+antes incluso de visitarla, ¿
+
+00:12:23.640 --> 00:12:27.680
+verdad?  En esta prueba, no le estamos
+indicando a esta prueba que vaya a ninguna
+
+00:12:27.680 --> 00:12:31.760
+página específica, simplemente estamos obteniendo la página de aquí.
+Y esperamos que tenga un título específico,
+
+00:12:31.760 --> 00:12:36.400
+pero no sabe qué URL abrir.
+En este caso, en realidad tenemos que hacerlo bien
+
+00:12:36.400 --> 00:12:41.320
+antes de probar algo, tenemos que navegar
+a esa página específica.  Y lo hacemos haciendo
+
+00:12:41.320 --> 00:12:47.200
+un peso y luego page.go to y esta es
+una función y aquí le damos una URL.  Por
+
+00:12:47.200 --> 00:12:54.760
+ejemplo, HTTP, barra diagonal barra diagonal local host, y luego
+3000, así, que es el punto final real en el que se
+
+00:12:54.760 --> 00:12:59.640
+ejecuta nuestra aplicación, tienes que darle
+esto a cada prueba, porque cada prueba, en primer lugar, se
+
+00:12:59.640 --> 00:13:04.760
+ejecuta de forma aislada.  Y cada prueba debe poder
+saber a qué página debe ir.  Primero,
+
+00:13:04.760 --> 00:13:09.160
+vamos a esa página específica que va a
+esperar hasta que la página se haya cargado por completo.  Y luego
+
+00:13:09.160 --> 00:13:12.600
+procederá a esta línea de aquí,
+que comprobará el título de la página
+
+00:13:12.600 --> 00:13:16.760
+y se asegurará de que el título esté causando exactamente
+soluciones, que es lo que esperamos.  Y con eso,
+
+00:13:16.760 --> 00:13:20.640
+tenemos todo lo que necesitamos para ejecutar
+esta prueba y ver si la supera.  Entonces, la forma en que
+
+00:13:20.640 --> 00:13:24.640
+ejecutas pruebas en Playwright es abrir la
+terminal aquí, voy a crear aquí una nueva
+
+00:13:24.640 --> 00:13:29.120
+terminal, porque tenemos que tener nuestra aplicación
+en ejecución, puedes configurar esto para que
+
+00:13:29.120 --> 00:13:33.400
+ejecute la aplicación automáticamente, está en la documentación, en
+nuestro caso, vamos a mantener las cosas simples, solo
+
+00:13:33.400 --> 00:13:39.200
+vamos a escribir NPX playwright test.  Y
+luego voy a poner este comando aquí,
+
+00:13:39.200 --> 00:13:43.680
+esto va a ejecutar tres pruebas usando tres
+trabajadores diferentes, porque ejecuta la prueba en
+
+00:13:43.680 --> 00:13:47.720
+diferentes navegadores.  Por eso tenemos diferentes
+pruebas.  Y todas estas pruebas se ejecutan en paralelo.
+
+00:13:47.720 --> 00:13:51.440
+Así que todos están funcionando al mismo tiempo.
+Pero como pueden ver aquí, realizamos tres pruebas,
+
+00:13:51.440 --> 00:13:56.120
+y las tres pruebas han resultado superadas.  Y podemos
+incluso tener un informe aquí, si quisiéramos,
+
+00:13:56.120 --> 00:14:00.560
+podemos simplemente hacer esto ejecutar este comando, esto
+nos mostrará aquí un informe, que
+
+00:14:00.560 --> 00:14:06.240
+podemos ver.  Y podemos ver que tenemos todas estas
+pruebas aquí ejecutándose, déjenme copiar
+
+00:14:06.240 --> 00:14:12.200
+esto y luego cerrarlo e ir a Chrome, porque
+me gusta grabar todo en Chrome.  Ahí vamos.
+
+00:14:12.200 --> 00:14:17.400
+Este es el informe real.  Por lo tanto, la página de inicio debe tener los
+metadatos y elementos correctos.  Funcionó en Chromium,
+
+00:14:17.400 --> 00:14:22.120
+pasó en Firefox, pasó en WebKit,
+pasó todas estas pruebas diferentes,
+
+00:14:22.120 --> 00:14:26.400
+y nos estamos asegurando de que nuestra aplicación al
+menos tenga el título correcto aquí, lo cual
+
+00:14:26.400 --> 00:14:30.640
+hace.  Esto pasa.  Excelente.  Otra cosa que
+podríamos hacer es ejecutar un comando diferente,
+
+00:14:30.640 --> 00:14:35.920
+podemos ejecutar el comando de prueba aquí con dash
+dash, y luego UI, esto realmente
+
+00:14:35.920 --> 00:14:39.920
+abrirá un navegador real.  Y va a estar
+aquí, abramos este navegador de aquí,
+
+00:14:39.920 --> 00:14:44.360
+déjame ajustarlo al tamaño correcto para ti.
+Permítanme quizás acercar un poco la imagen.  Y aquí
+
+00:14:44.360 --> 00:14:48.720
+tenemos una interfaz de usuario para ejecutar nuestras pruebas.
+Y aquí hay un botón verde que
+
+00:14:48.720 --> 00:14:52.880
+podemos pulsar.  Y eso ejecutará todas nuestras
+pruebas y todos nuestros archivos.  Y aquí, como pueden ver,
+
+00:14:52.880 --> 00:14:57.200
+tenemos la página de inicio.  Por cierto, este es el
+bloque de descripción de esta página de inicio de aquí, por eso lo
+
+00:14:57.200 --> 00:15:01.040
+estamos seleccionando.  Por eso es un
+grupo diferente debido al bloque describe.  Y dentro
+
+00:15:01.040 --> 00:15:06.400
+de aquí, deberíamos tener metadatos y
+elementos correctos.  Y aquí tenemos la prueba real, la
+
+00:15:06.400 --> 00:15:11.560
+página a la que vamos y luego esperamos que el título tenga y lo tuvo
+y pasó.  Y ya estamos listos.  Nuestra
+
+00:15:11.560 --> 00:15:15.840
+prueba fue superada.  Esta es una forma diferente de
+ejecutar la prueba.  Si desea
+
+00:15:15.840 --> 00:15:20.240
+ver visualmente cómo se ejecutan sus pruebas.  Excelente.
+Así que ahora, con esto, podemos continuar y
+
+00:15:20.240 --> 00:15:24.120
+completar las piezas que faltan de nuestra
+prueba.  Porque recuerden, no solo queremos
+
+00:15:24.120 --> 00:15:28.720
+probar que esto tenga un título correcto, también queremos
+probar que aquí tenemos el encabezado real
+
+00:15:28.720 --> 00:15:33.040
+que dice página de inicio, y que tenemos un formulario que
+es un enlace en el que realmente podemos hacer clic e ir a
+
+00:15:33.040 --> 00:15:36.720
+la página del formulario.  Así que escribamos esas pruebas.  Así que
+aquí, primero vamos a probar que tenemos un
+
+00:15:36.720 --> 00:15:42.120
+encabezado que es de tipo encabezado y que tiene la página de inicio en
+él.  Entonces vamos a hacer un peso y luego esperar
+
+00:15:42.120 --> 00:15:48.320
+página punto obtener por rol.  Y esto va a obtener un
+elemento por su función, a la que podemos asignarle
+
+00:15:48.320 --> 00:15:53.240
+un encabezado de función como este.  Y podemos
+darle algunas propiedades aquí, por ejemplo,
+
+00:15:53.240 --> 00:15:59.080
+el nombre, y vamos a darle a esta
+página de inicio, así.  Entonces, lo que esto va a
+
+00:15:59.080 --> 00:16:03.880
+hacer es esperar y luego va a
+esperar y luego page dot get by role, esto va a
+
+00:16:03.880 --> 00:16:09.320
+obtener cualquier elemento dentro de la página que tenga
+un rol de encabezado que también tenga el nombre homepage,
+
+00:16:09.320 --> 00:16:13.400
+que en realidad va a ser el texto dentro
+de ese encabezado.  Si tenemos esto, entonces podemos
+
+00:16:13.400 --> 00:16:17.720
+validar que realmente lo tenemos
+aquí.  Y además tiene el texto correcto.
+
+00:16:17.720 --> 00:16:22.000
+Porque si esto no tuviera una página de inicio,
+no obtendríamos este elemento aquí, ¿verdad?  Entonces, lo único
+
+00:16:22.000 --> 00:16:27.920
+que necesitamos hacer después de eso es
+llamar a que sea visible, porque necesitamos comprobar que
+
+00:16:27.920 --> 00:16:32.560
+este elemento sea realmente visible en la pantalla.
+Por lo tanto, esta prueba solo pasará si tenemos
+
+00:16:32.560 --> 00:16:37.640
+un encabezado visible en la pantalla que sea de tipo
+encabezado.  Y eso también tiene "página de inicio" como texto, ¿
+
+00:16:37.640 --> 00:16:42.160
+verdad?  En cualquier otro caso, no va a ser aprobado.
+Pero si tiene esto, va a aprobar.  Así que volvamos
+
+00:16:42.160 --> 00:16:47.040
+aquí a nuestra interfaz de usuario propiamente dicha.  Vamos a darle al botón de reproducir de
+nuevo y ver si nuestra prueba sigue siendo satisfactoria después de
+
+00:16:47.040 --> 00:16:51.720
+estos cambios.  Y sí, como pueden ver aquí, se
+espera que sea visible.  Y está resaltando
+
+00:16:51.720 --> 00:16:55.680
+la página de inicio aquí, está obteniendo el
+elemento de encabezado real y está comprobando que tenga
+
+00:16:55.680 --> 00:16:59.840
+el nombre correcto dentro.  Y para
+asegurarnos de que nuestras pruebas realmente funcionan,
+
+00:16:59.840 --> 00:17:03.320
+me gusta hacer esto a veces solo para
+asegurarme porque a veces nunca se sabe,
+
+00:17:03.320 --> 00:17:08.200
+vamos a venir aquí y agregar una E extra
+para que este sea un nombre no válido.  Y ahora veamos si
+
+00:17:08.200 --> 00:17:12.880
+nuestra prueba debería fallar.  Porque ahora mismo no
+tenemos un encabezado que tenga "página de inicio" con dos "E".  Por lo tanto,
+
+00:17:12.880 --> 00:17:16.880
+esta prueba debería fallar.  Entonces, si ejecutas
+esta prueba de aquí, veremos que
+
+00:17:16.880 --> 00:17:21.280
+tarda un poco más, porque cuando falla, vuelve a
+intentar la prueba.  Y dentro de poco, va
+
+00:17:21.280 --> 00:17:25.640
+a fracasar.  Y aquí se verá
+que la expectativa de ser visible ha fallado porque
+
+00:17:25.640 --> 00:17:30.800
+no tenemos un encabezado real con la página de inicio y para comer.&nbsp;  Así pues,
+ahora hemos confirmado que nuestra prueba se
+
+00:17:30.800 --> 00:17:35.200
+comporta como esperamos y que podemos confiar en que
+fallará cuando deba hacerlo.  Excelente.  Así que
+
+00:17:35.200 --> 00:17:38.680
+ahora, con esto, podemos volver, podemos arreglar
+esto aquí.  Y quitemos la
+
+00:17:38.680 --> 00:17:43.000
+E extra. Y probemos que nuestro enlace también sea
+visible.  Porque recuerden, tenemos un enlace
+
+00:17:43.000 --> 00:17:47.000
+aquí.  Y también queremos comprobar que esto
+sea visible y que tenga el texto correcto.
+
+00:17:47.000 --> 00:17:53.000
+Entonces vamos a hacer exactamente lo mismo, vamos
+a hacer await, expect y luego page.get
+
+00:17:53.000 --> 00:17:58.120
+por rol.  Y esta vez vamos a poner el enlace aquí
+.  Y también le vamos a dar un nombre,
+
+00:17:58.120 --> 00:18:03.840
+y va a tener forma como algunos y
+vamos a esperar y anticipar que sea visible.  Y vamos a
+
+00:18:03.840 --> 00:18:08.160
+esperar a que esto suceda y esperamos que sea
+visible.  Volvamos aquí a nuestra prueba.  Vamos a
+
+00:18:08.160 --> 00:18:13.240
+volver a ejecutar esto y deberíamos ver que todo está en verde y que la
+prueba ha finalizado correctamente.  Ahí vamos.  Nuestro enlace también es visible.
+
+00:18:13.240 --> 00:18:17.560
+Ahí lo tenemos, hemos completado con éxito nuestra
+primera prueba real para comprobar que deberíamos tener
+
+00:18:17.560 --> 00:18:22.040
+los metadatos y elementos correctos en esa
+pantalla específica.  Excelente.  Ahora, lo siguiente que queremos
+
+00:18:22.040 --> 00:18:26.640
+probar es que cuando hacemos clic en este enlace de aquí
+en este enlace del formulario, somos redirigidos a la
+
+00:18:26.640 --> 00:18:31.000
+página del formulario.  Porque si bien es genial que hayamos probado
+que este enlace está aquí y que dice formulario, en
+
+00:18:31.000 --> 00:18:35.200
+realidad no hemos probado que cuando hacemos clic en este
+formulario, nos lleva a la página esperada.  Y esto
+
+00:18:35.200 --> 00:18:39.280
+también es importante de probar porque el usuario
+podrá hacer clic en esto.  Y si
+
+00:18:39.280 --> 00:18:43.560
+no se les redirige al formulario, entonces tienes un error
+en tu aplicación.  Y tener una prueba para eso va a
+
+00:18:43.560 --> 00:18:47.480
+evitar ese error.  Así que vamos a venir
+aquí y para eso vamos a hacer una
+
+00:18:47.480 --> 00:18:51.280
+nueva prueba porque ahora esta es una prueba diferente, ya
+no estamos probando que tenemos los
+
+00:18:51.280 --> 00:18:55.760
+metadatos y elementos correctos, en realidad estamos probando que
+cuando hacemos clic en el enlace, nos redirige exactamente a
+
+00:18:55.760 --> 00:18:59.360
+lo que esperamos.  Así que vamos a tener que hacer
+una nueva prueba.  Así que vamos a venir aquí y hacer la
+
+00:18:59.360 --> 00:19:07.440
+prueba.  Y aquí vamos a darle un nombre que
+debería redirigir a la página del formulario al hacer clic así,
+
+00:19:07.440 --> 00:19:11.880
+clic, y también vamos a darle una sincronización
+y una función.  Y aquí vamos a
+
+00:19:11.880 --> 00:19:18.160
+dar la página y vamos a hacer exactamente lo
+mismo que hicimos antes.  Ahora bien, el problema es que
+
+00:19:18.160 --> 00:19:22.840
+también tendremos que escribir el mismo código
+aquí para navegar a esa
+
+00:19:22.840 --> 00:19:27.120
+página específica porque cada prueba en Playwright
+se ejecuta de forma aislada.  Y tienes una sesión completamente nueva
+
+00:19:27.120 --> 00:19:31.800
+cada vez, lo que significa que tienes que
+volver a abrir el navegador y vamos a la misma página en la que
+
+00:19:31.800 --> 00:19:36.000
+estabas antes.  Así que tenemos que escribir esto de nuevo
+para cada prueba que queramos que vaya a esta
+
+00:19:36.000 --> 00:19:40.360
+página.  Pero hacerlo de esta manera no es la
+forma recomendada porque te estás repitiendo, ¿verdad?,
+
+00:19:40.360 --> 00:19:44.240
+vas a tener que escribir esto en cada
+prueba en la que quieras navegar a esa misma página.
+
+00:19:44.240 --> 00:19:49.440
+Y la verdad es que en la página de inicio, en este
+bloque de descripción, la mayoría de nuestras pruebas, si no todas, tendrán que
+
+00:19:49.440 --> 00:19:54.480
+ir a la misma página.  Así que sería
+mejor si tuvieras una forma de ejecutar algo antes de
+
+00:19:54.480 --> 00:19:58.760
+cada prueba donde podamos poner este pequeño
+fragmento de código para hacernos la vida un poco
+
+00:19:58.760 --> 00:20:02.600
+más fácil y no tener que repetirnos. Y lo
+genial de Playwright es que realmente existe
+
+00:20:02.600 --> 00:20:07.080
+.  Podemos inyectar el hook antes de cada
+prueba, y podemos colocar este fragmento de código dentro de
+
+00:20:07.080 --> 00:20:11.280
+ese hook.  Y la forma en que lo hacemos es que venimos
+aquí, hacemos un poco de espacio, y dentro
+
+00:20:11.280 --> 00:20:15.920
+de este bloque describe, porque solo queremos que este
+gancho se aplique a cualquier prueba dentro de este bloque,
+
+00:20:15.920 --> 00:20:20.360
+que también es otro caso de uso para tener
+bloques describe, vamos a crear un gancho before each.
+
+00:20:20.360 --> 00:20:25.680
+Entonces vamos a hacer test.beforeEach, y vamos
+a darle aquí una función.  Así que esto va a
+
+00:20:25.680 --> 00:20:31.440
+ser asíncrono, de esta manera, y va a
+tomar la misma página que teníamos antes.  Y aquí,
+
+00:20:31.440 --> 00:20:35.400
+vamos a poner una función flecha,
+vamos a tomar este código de aquí
+
+00:20:35.400 --> 00:20:39.800
+y lo vamos a pegar dentro de este gancho de
+aquí.  Así que ahora no necesitamos tenerlo dentro
+
+00:20:39.800 --> 00:20:44.240
+de esta prueba individual.  Y tampoco necesitamos
+tenerlo dentro de esta prueba de aquí.  Y para
+
+00:20:44.240 --> 00:20:48.440
+demostrártelo, voy a comentar
+esta prueba.  Y voy a ejecutar la prueba
+
+00:20:48.440 --> 00:20:52.800
+aquí y ejecutar la misma prueba.  Y verás
+que aún pasa porque tenemos esto
+
+00:20:52.800 --> 00:20:57.440
+en el gancho.  Y esto se ejecuta antes de cada
+prueba individual.  Así que volvamos aquí, pulsemos reproducir.
+
+00:20:57.440 --> 00:21:01.440
+Y vamos a ver que esto seguirá
+funcionando, porque nuestro código es exactamente el mismo,
+
+00:21:01.440 --> 00:21:06.000
+ahora solo lo hemos puesto en su propio antes de cada
+gancho, lo que significa que si tenemos una segunda prueba,
+
+00:21:06.000 --> 00:21:10.240
+o cualquier otro número de pruebas, no tenemos que
+repetirnos cada vez.  Y finalmente,
+
+00:21:10.240 --> 00:21:14.240
+vamos a terminar y escribir nuestra prueba para
+comprobar la redirección en un enlace específico.  Así que vamos a
+
+00:21:14.240 --> 00:21:20.760
+esperar.  Y luego veamos, esperemos.
+Y luego esta va a ser la página que se obtiene por rol,
+
+00:21:20.760 --> 00:21:26.760
+vamos a dar este enlace de nuevo, vamos
+a dar este nombre, formulario.  Y luego, en lugar de ser
+
+00:21:26.760 --> 00:21:31.400
+visible, vamos a llamar a una función diferente,
+vamos a llamar a click de esta manera, que en
+
+00:21:31.400 --> 00:21:36.080
+realidad hará clic en esa entrada específica.&nbsp;  Entonces
+vamos a tener este clic.  Y vamos a
+
+00:21:36.080 --> 00:21:41.440
+esperar y a confiar en que estaremos en una
+página diferente en la página del formulario.  Así que vamos a esperar,
+
+00:21:41.440 --> 00:21:48.200
+esperamos que la página tenga título.  Y vamos a
+hacer este formulario de esta manera, porque cada vez que vayamos
+
+00:21:48.200 --> 00:21:52.640
+a la página del formulario real, verás que
+el título de la página cambia a formulario.  Así que vamos
+
+00:21:52.640 --> 00:21:57.160
+a comprobar que también podríamos comprobar la
+URL, podríamos comprobar esto de otra manera, si
+
+00:21:57.160 --> 00:22:01.800
+quisiéramos, vamos a mantener las cosas simples.  Y
+solo verifiquen si tenemos el formulario aquí,
+
+00:22:01.800 --> 00:22:05.720
+eso será suficiente.  Volvamos entonces
+a nuestro corredor principal.  Y vamos a realizar todas
+
+00:22:05.720 --> 00:22:09.440
+estas pruebas.  Y ahora vamos a realizar dos pruebas.
+Y vamos a ver que ambos aprueban.  Entonces,
+
+00:22:09.440 --> 00:22:13.920
+el primero todavía pasa, eso es genial.  Y el
+segundo también pasa, vamos a hacer clic y
+
+00:22:13.920 --> 00:22:17.680
+vamos a ver que encontró ese
+elemento real, el elemento del formulario en el que hacer clic, tienes este
+
+00:22:17.680 --> 00:22:22.040
+pequeño círculo rojo aquí, y lo hizo clic,
+y luego revisó la página real.  Y como ven,
+
+00:22:22.040 --> 00:22:26.520
+aquí estamos en forma, y ​​el título es forma.  Y
+esta prueba también fue superada.  Excelente.  Y con esto, nuestras
+
+00:22:26.520 --> 00:22:31.400
+pruebas están pasando, y podemos garantizar y
+asegurar que nuestra aplicación va a funcionar exactamente
+
+00:22:31.400 --> 00:22:36.120
+como esperamos ahora.  Y lo que es aún más importante, si en el futuro
+hacemos algún cambio en el código de la aplicación
+
+00:22:36.120 --> 00:22:40.720
+, tener estas pruebas aquí
+garantizará que si creamos algún código que
+
+00:22:40.720 --> 00:22:44.560
+realmente cause algún problema, una de estas pruebas fallará, lo sabremos
+
+
+00:22:44.560 --> 00:22:48.280
+y podremos solucionarlo.  Por eso es importante
+tener pruebas en tu aplicación para
+
+00:22:48.280 --> 00:22:52.720
+asegurarte de que funciona como se espera ahora
+y también en el futuro, si realizas algún cambio en
+
+00:22:52.720 --> 00:22:57.320
+ella.  Y tener esto en un ejecutor visual, donde
+realmente puedes inspeccionar cada prueba y acceder a
+
+00:22:57.320 --> 00:23:01.720
+ellas y ver la interfaz de usuario que se renderizó en
+cada paso específico y ver qué es lo que el ejecutor de pruebas está
+
+00:23:01.720 --> 00:23:06.080
+tratando de hacer clic es realmente muy útil.
+Y también es muy útil para la depuración, ¿verdad?,
+
+00:23:06.080 --> 00:23:10.400
+cuando estés desarrollando tus pruebas y
+poniéndolas, te recomendaría que uses esta interfaz de usuario
+
+00:23:10.400 --> 00:23:14.480
+porque es realmente útil.  Así que ahora, con esto,
+lo único que tenemos que hacer es
+
+00:23:14.480 --> 00:23:19.120
+escribir las pruebas para nuestra página de formulario aquí.
+Así que todas estas pruebas de aquí, y para esto,
+
+00:23:19.120 --> 00:23:22.840
+voy a saltarme un poco y ser más rápido,
+porque no quiero alargar este vídeo
+
+00:23:22.840 --> 00:23:26.720
+repitiendo las mismas cosas.  Pero les voy a mostrar
+cómo se ve realmente esto en la
+
+00:23:26.720 --> 00:23:30.960
+página del formulario.  Entonces, lo primero que queremos hacer es
+crear un nuevo bloque de descripción, porque ahora ya
+
+00:23:30.960 --> 00:23:34.200
+no estará en la página de inicio, sino
+en la página del formulario.  Así que vamos a
+
+00:23:34.200 --> 00:23:39.360
+venir aquí y hacer test.describir.  Y
+aquí vamos a hacer una página de formulario como esta, así que vamos
+
+00:23:39.360 --> 00:23:43.880
+a darle una función de nuevo, y
+vamos a poner algo de código aquí, también vamos
+
+00:23:43.880 --> 00:23:48.480
+a tomar el mismo bloque describe aquí, porque
+vamos a querer hacer exactamente el mismo principio
+
+00:23:48.480 --> 00:23:53.960
+aquí.  Pero en lugar de ir a localhost 2000,
+vamos a poner localhost 2000 y luego form
+
+00:23:53.960 --> 00:23:58.120
+para que cada prueba dentro de este
+bloque describe comience automáticamente en la página del formulario,
+
+00:23:58.120 --> 00:24:01.640
+que es lo que queremos.  Y luego vamos a
+venir aquí y escribir nuestra primera prueba, que va a
+
+00:24:01.640 --> 00:24:06.120
+ser literalmente la misma prueba que hicimos antes.  Entonces
+podemos incluso copiar esto directamente, podemos venir aquí,
+
+00:24:06.120 --> 00:24:11.000
+podemos pegar esto, también debería tener los
+metadatos y elementos correctos, pero solo para la página del formulario.
+
+00:24:11.000 --> 00:24:15.720
+En este caso, el título será formulario.
+Entonces vamos a poner su formulario así, el
+
+00:24:15.720 --> 00:24:20.480
+encabezado también va a tener formulario así,
+no va a tener página de inicio.  Así que vamos a
+
+00:24:20.480 --> 00:24:24.320
+guardar esto.  Y luego vamos a obtener en lugar
+de un enlace, porque en realidad no tenemos un enlace
+
+00:24:24.320 --> 00:24:30.720
+aquí, voy a obtener por marcador de posición.
+Y aquí, si abro el componente del formulario,
+
+00:24:30.720 --> 00:24:36.160
+tenemos este campo de entrada y un marcador de posición
+que dice "introducir elemento". Podemos obtener este campo de entrada usando
+
+00:24:36.160 --> 00:24:41.120
+su marcador de posición.  Y como este es el único
+que tiene este marcador de posición, es seguro usarlo para
+
+00:24:41.120 --> 00:24:44.720
+comprobar que realmente tenemos una
+entrada con este marcador de posición específico.  Así que vamos a usar un
+
+00:24:44.720 --> 00:24:48.720
+marcador de posición, esto solo requiere
+un argumento.  Así que vamos a eliminar el
+
+00:24:48.720 --> 00:24:53.840
+segundo argumento y vamos a poner "ingresar elemento"
+aquí.  Y esperamos que eso también
+
+00:24:53.840 --> 00:24:58.120
+sea visible.  Y finalmente, como también tenemos un
+botón aquí que dice agregar, vamos a hacer
+
+00:24:58.120 --> 00:25:04.160
+lo mismo, vamos a esperar, esperar
+página punto obtener por rol.  Y entonces ese va a
+
+00:25:04.160 --> 00:25:09.720
+ser el botón.  Y le vamos a dar tu nombre,
+y eso se va a agregar y luego se hará visible, así
+
+00:25:09.720 --> 00:25:14.440
+.  Y ahora tenemos la misma prueba que
+verifica que cada elemento en la pantalla
+
+00:25:14.440 --> 00:25:19.400
+también sea visible.  Si ejecutas esto, ahora tenemos nuestro
+nuevo bloque describe aquí.  Como puedes ver, está en
+
+00:25:19.400 --> 00:25:23.640
+una sección diferente.  Esa es una de las ventajas de
+usar los cuadernos de bitácora.  Y tenemos esta prueba que
+
+00:25:23.640 --> 00:25:28.520
+también pasa todos estos elementos son visibles y
+son exactamente lo que esperamos.  Excelente.  Ahora hay
+
+00:25:28.520 --> 00:25:32.640
+dos pruebas más que quiero realizar.  Y la primera va a
+ser que, inicialmente, cada vez que
+
+00:25:32.640 --> 00:25:37.000
+carguemos esta página y la actualicemos, no
+deberíamos tener ningún elemento mostrado aquí, ¿
+
+00:25:37.000 --> 00:25:40.800
+verdad?  Ese es nuestro estado inicial vacío.  Esa va a
+ser una prueba.  La segunda prueba consistirá en que,
+
+00:25:40.800 --> 00:25:45.160
+una vez que ingresemos un artículo,
+comprobaremos que realmente tenemos ese artículo aquí.
+
+00:25:45.160 --> 00:25:49.160
+Y que esta entrada sea clara, porque recuerden,
+si pongo prueba, vamos a agregar el elemento, va a
+
+00:25:49.160 --> 00:25:53.000
+estar aquí.  Y entonces esta entrada
+quedará clara.  Esa es nuestra segunda prueba.  Ahora,
+
+00:25:53.000 --> 00:25:56.560
+para poder hacer esto, vamos a tener que venir
+aquí a nuestro componente de formulario.  Y vamos a
+
+00:25:56.560 --> 00:26:00.800
+tener que agregar algunas propiedades a algunos elementos para
+poder referenciarlos en nuestra prueba y hacer
+
+00:26:00.800 --> 00:26:04.920
+algunas afirmaciones de expectativas sobre esos
+elementos específicos.  Y vamos a utilizar
+
+00:26:04.920 --> 00:26:09.640
+el atributo de ID de prueba de datos.  Entonces, el atributo ID de prueba de datos
+es un atributo que puedes colocar en
+
+00:26:09.640 --> 00:26:14.000
+cualquier elemento individual, es como cualquier
+propiedad normal aquí.  Y puedes darle un
+
+00:26:14.000 --> 00:26:18.840
+ID de prueba específico.  Y luego puedes usar ese ID de prueba para
+hacer referencia a esos elementos fuera de tu prueba y hacer
+
+00:26:18.840 --> 00:26:22.520
+cualquier cosa con ellos.  Entonces, por ejemplo, vamos
+a querer escribir nuestra prueba vacía, ¿verdad?,
+
+00:26:22.520 --> 00:26:27.680
+así que vamos a venir aquí y vamos a hacer la
+prueba.  Y eso significa que debería tener una
+
+00:26:27.680 --> 00:26:33.080
+lista de elementos vacía al principio, ¿verdad?  Así que vamos a darle a
+esto una función asíncrona que va a
+
+00:26:33.080 --> 00:26:37.800
+tomar la página de aquí.  Y esta va a ser
+nuestra prueba que se asegura y verifica que cada vez que
+
+00:26:37.800 --> 00:26:42.000
+cargamos esta página, inicialmente,
+tenemos una lista de elementos vacía, y debería estar
+
+00:26:42.000 --> 00:26:47.360
+vacía así.  Y para eso, vamos a necesitar
+obtener este elemento real por su ID de prueba, que
+
+00:26:47.360 --> 00:26:51.560
+tenemos que agregar aquí.  Entonces, vamos a querer
+agregarlo en esta etiqueta de lista desordenada de aquí,
+
+00:26:51.560 --> 00:26:55.880
+porque vamos a querer obtener este elemento
+y asegurarnos de que su contenido dentro de este mapa
+
+00:26:55.880 --> 00:27:00.600
+de aquí esté vacío y que no haya nada.  Entonces
+vamos a venir aquí, voy a hacer datos,
+
+00:27:00.600 --> 00:27:06.400
+probar ID, y vamos a dar esta
+lista de elementos de esta manera.  Ahora podremos
+
+00:27:06.400 --> 00:27:10.880
+entrar en nuestra prueba y usar ese ID de prueba para obtener este
+elemento y asegurarnos de comprobar que está vacío por
+
+00:27:10.880 --> 00:27:18.280
+dentro.  Entonces vamos a hacer que const items list sea
+igual a page obtenido por test ID, como puede ver aquí,
+
+00:27:18.280 --> 00:27:23.360
+y ahora vamos a darle a esta lista de elementos,
+que es el test ID que le dimos inicialmente
+
+00:27:23.360 --> 00:27:28.160
+en nuestro código aquí.  Y entonces lo único
+que tenemos que hacer es esperar a que la
+
+00:27:29.000 --> 00:27:35.640
+lista de elementos esté vacía, así que vamos a
+llamar a que esté vacía en la lista de elementos,
+
+00:27:35.640 --> 00:27:40.440
+también podríamos haber hecho cosas como esta, podríamos haber puesto
+cosas aquí, justo dentro de esto directamente,
+
+00:27:40.440 --> 00:27:43.680
+esto habría funcionado, solo les mostré
+la forma diferente, porque estamos trabajando
+
+00:27:43.680 --> 00:27:48.240
+en JavaScript y TypeScript.  Y podemos crear
+variables si así lo deseas.  Y a veces resulta
+
+00:27:48.240 --> 00:27:52.200
+útil si se desea reutilizar esta lista de elementos en
+otros lugares.  En esta prueba, quieres crear
+
+00:27:52.200 --> 00:27:55.920
+una variable separada para ello para que luego puedas
+reutilizarla.  Entonces, ahora si volvemos aquí a nuestra
+
+00:27:55.920 --> 00:28:00.040
+aplicación real, deberíamos ejecutar esta prueba y
+debería funcionar, va a obtener ese elemento
+
+00:28:00.040 --> 00:28:04.240
+por su ID de prueba.  Y ahí lo tenemos, obtuvo el
+elemento real y vio que estaba vacío,
+
+00:28:04.240 --> 00:28:09.000
+que es lo que espera nuestra prueba.  Así que superó nuestra
+prueba.  Ahí vamos.  Y finalmente, la última prueba que
+
+00:28:09.000 --> 00:28:13.160
+queremos hacer es comprobar que cada vez que
+introducimos un elemento y ponemos algo aquí,
+
+00:28:13.160 --> 00:28:17.960
+el elemento se añade realmente allí, y que
+tenemos un cuadro de entrada vacío aquí.  Ahora, para hacer eso,
+
+00:28:17.960 --> 00:28:21.760
+vamos a tener que volver aquí a nuestra forma habitual
+.  Y vamos a tener que agregar un elemento
+
+00:28:21.760 --> 00:28:26.360
+aquí a Li para, de nuevo, hacer que acceda a él en nuestra
+prueba y hacer algunas expectativas sobre la búsqueda
+
+00:28:26.360 --> 00:28:31.760
+y las comprobaciones al respecto.  Entonces vamos a hacer esto,
+voy a probar los datos del ID.  Y voy a dar
+
+00:28:31.760 --> 00:28:35.880
+este artículo así para que las cosas sean muy simples.
+Luego vamos a volver aquí a nuestra prueba,
+
+00:28:35.880 --> 00:28:42.040
+vamos a crear una nueva prueba que
+dirá que se debe agregar un elemento a la lista que será
+
+00:28:42.040 --> 00:28:47.920
+nuevamente una función, un sumidero, vamos a obtener
+esta página de esta manera.  Y luego vamos a venir
+
+00:28:47.920 --> 00:28:55.280
+aquí.  Y lo vamos a hacer, vamos a hacer
+const input equals page dot get by placeholder,
+
+00:28:55.280 --> 00:29:00.360
+vamos a darle a este elemento de entrada de esta manera.  Y
+luego vamos a llamar a una función en esta entrada,
+
+00:29:00.360 --> 00:29:05.280
+vamos a hacer un relleno de puntos de entrada ponderada.  Y
+esta va a ser una función que, como pueden ver
+
+00:29:05.280 --> 00:29:09.800
+aquí, establecerá un valor en el campo de entrada.
+Esto es lo que se usa cuando se quiere poner texto
+
+00:29:09.800 --> 00:29:14.680
+en un campo de entrada específico.  Así que vamos a hacer el
+punto uno, de esta manera.  Entonces, ahora esta entrada va a
+
+00:29:14.680 --> 00:29:19.760
+tener el elemento uno como su valor, luego vamos a
+venir aquí y vamos a esperar page.get
+
+00:29:19.760 --> 00:29:23.960
+por rol, vamos a obtener este botón, vamos
+a acceder a nuestro botón y realmente hacer clic en él
+
+00:29:23.960 --> 00:29:29.600
+.  Así que vamos a venir aquí y hacer el nombre.  Y
+lo que pasó, vamos a venir aquí y hacer nombre, agregar,
+
+00:29:29.600 --> 00:29:33.920
+y luego vamos a hacer clic así.  Y
+ahora esto hará clic en el botón real,
+
+00:29:33.920 --> 00:29:38.320
+y activará la funcionalidad real
+que tenemos en un botón con ese valor específico
+
+00:29:38.320 --> 00:29:42.640
+en el campo de entrada.  Entonces, después de hacer clic en el
+botón, deberíamos tener nuestro nuevo elemento en la pantalla.
+
+00:29:42.640 --> 00:29:46.840
+Entonces tenemos que conseguirlo y asegurarnos de que tenga el
+elemento uno, que es lo que pusimos aquí como nuestro
+
+00:29:46.840 --> 00:29:53.360
+texto.  Entonces vamos a hacer const item equals
+page dot get by test ID.  Y ahora vamos a
+
+00:29:53.360 --> 00:29:58.960
+darle este elemento que, de nuevo, recuerden, este es el
+ID de prueba, datos de ID de prueba, le dimos el elemento.  Y
+
+00:29:58.960 --> 00:30:04.640
+también vamos a hacer esto. Y luego vamos a poner cero
+porque aquí, esto va a ser una lista.  Entonces
+
+00:30:04.640 --> 00:30:09.560
+estamos mapeando sobre cada elemento, cada elemento
+va a tener el mismo ID de prueba, y podemos usar el
+
+00:30:09.560 --> 00:30:14.360
+enésimo.  Entonces, el enésimo elemento y acceder al primer elemento
+de esa lista.  Bien, ese va a ser nuestro
+
+00:30:14.360 --> 00:30:21.520
+artículo de aquí.  Y ahora que tenemos nuestro artículo, todo lo que
+tenemos que hacer es esperar, esperar que el artículo tenga
+
+00:30:21.520 --> 00:30:29.720
+texto y luego el artículo uno, así.  Y luego
+también vamos a esperar y luego esperar que la entrada esté
+
+00:30:29.720 --> 00:30:35.280
+vacía.  Así, porque recuerda, cada vez
+que escribimos algo y hacemos clic en este botón,
+
+00:30:35.280 --> 00:30:39.400
+nuestro campo de entrada debería volver a estar vacío para que
+podamos escribir otra cosa.  Así que esto es hacer
+
+00:30:39.400 --> 00:30:44.480
+esa comprobación.  Y luego comprobamos que el artículo
+tenga efectivamente el texto del artículo uno.  Y ahora, con esto,
+
+00:30:44.480 --> 00:30:48.760
+si vuelvo aquí, regreso a nuestro
+ejecutor de pruebas y repito todas las pruebas, deberíamos ver
+
+00:30:48.760 --> 00:30:53.600
+que todas y cada una de las pruebas de nuestra aplicación pasan.
+Y tenemos nuestro elemento que debemos agregar a la lista mientras
+
+00:30:53.600 --> 00:30:58.160
+pasamos, tenemos aquí, estamos llenando el
+texto, puede ver aquí que tenemos el elemento puesto aquí,
+
+00:30:58.160 --> 00:31:01.960
+luego hacemos clic en el botón, luego tenemos un
+elemento, lo estamos obteniendo y estamos comprobando que
+
+00:31:01.960 --> 00:31:06.360
+tiene el elemento uno.  Y además, comprobamos
+que la entrada esté realmente vacía.  Ahí lo tienes,
+
+00:31:06.360 --> 00:31:10.440
+estás probando toda la aplicación y absolutamente todo lo
+que el usuario puede hacer.  Y te
+
+00:31:10.440 --> 00:31:14.800
+aseguras de que tu aplicación se comporta
+exactamente como esperas de principio a fin,
+
+00:31:14.800 --> 00:31:19.440
+incluyendo la base de datos del front-end y del back-end.  Y que no haya
+sorpresas indeseadas.  Esto es genial.  Ahora bien,
+
+00:31:19.440 --> 00:31:23.800
+recuerden, esto fue muy simple, ¿verdad?
+Obviamente pueden hacer mucho más que esto. Les
+
+00:31:23.800 --> 00:31:28.000
+recomiendo encarecidamente que vengan aquí y vean
+esta aplicación de demostración y ejecuten la
+
+00:31:28.000 --> 00:31:31.960
+aplicación, realicen todas estas pruebas y
+observen realmente cómo hacen las cosas.  Están haciendo
+
+00:31:31.960 --> 00:31:36.200
+muchas más cosas de las que yo hice en este
+video tutorial.  Y tienen un montón de funciones auxiliares
+
+00:31:36.200 --> 00:31:40.120
+aquí que están usando en varios
+textos, están usando JSON, están haciendo todas
+
+00:31:40.120 --> 00:31:44.240
+esas cosas.  Y este es un recurso realmente excelente
+para comprobar y asegurarse de que
+
+00:31:44.240 --> 00:31:48.560
+está escribiendo su texto, su prueba correctamente, y de
+que está siguiendo todas las prácticas más profundas, lo
+
+00:31:48.560 --> 00:31:52.640
+recomiendo encarecidamente.  Además, también les
+recomiendo encarecidamente que consulten y
+
+00:31:52.640 --> 00:31:56.720
+lean la documentación de Playwright porque
+tienen muchos ejemplos, muchas API
+
+00:31:56.720 --> 00:32:00.760
+y documentación que pueden usar para
+escribir sus pruebas.  Al hacer todo esto, ya has
+
+00:32:00.760 --> 00:32:04.960
+aprendido cómo usar Playwright
+para escribir tu examen.  Y lo que es más importante,
+
+00:32:04.960 --> 00:32:10.000
+has aprendido a comprender qué probar y
+qué no probar.  Y ya han visto un ejemplo del mundo real
+
+00:32:10.000 --> 00:32:14.640
+de cómo abordaría el tema
+y cómo escribiría la prueba para una aplicación muy simple
+
+00:32:14.640 --> 00:32:18.880
+.  Y ahora ya puedes aplicar
+esto a tus propias aplicaciones React, escribir
+
+00:32:18.880 --> 00:32:23.400
+pruebas realmente geniales y tener
+aplicaciones realmente robustas que no tengan ni un solo
+
+00:32:23.400 --> 00:32:27.960
+error en producción.  Vamos.  Si te gustó este
+video y quieres ver más videos como
+
+00:32:27.960 --> 00:32:31.920
+este, no olvides darle un gran
+pulgar arriba.  También puedes hacer clic aquí para suscribirte.
+
+00:32:31.920 --> 00:32:35.640
+O puedes hacer clic aquí para ver otro vídeo
+mío que YouTube parece pensar que
+
+00:32:35.640 --> 00:32:39.960
+realmente te va a gustar.  Dicho esto,
+mi nombre es Darius Cosden, esto es Cosden
+
+00:32:39.960 --> 00:32:44.597
+Solutions, muchas gracias por ver este
+video y nos vemos en el próximo.  ¡Adiós!  ¡Adiós!
+

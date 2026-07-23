@@ -1,0 +1,2295 @@
+
+
+===== DOC: que-es-catalogo =====
+
+Developers
+API Docs
+Novedades
+Ingresar
+API Docs
+Qué es catálogo
+
+Documentación Mercado Libre
+
+Descubre toda la información que debes conocer sobre las APIs de Mercado Libre.
+
+Documentación
+
+Primeros pasos
+Autenticación y Autorización
+Crea una aplicación en Mercado Libre
+Permisos funcionales
+Gestiona tus aplicaciones
+Realiza pruebas
+Validador de publicaciones
+Buenas prácticas para uso de la plataforma
+Consideraciones de diseño
+Gestionar IPs de una aplicación
+Error 403
+Recursos de la API
+Usuarios
+Usuarios y Aplicaciones
+Bloqueo de aplicaciones
+Consulta usuarios
+Direcciones del usuario
+Preguntas frecuentes sobre validación de datos
+Validar datos de vendedores
+Favoritos
+Dominios y Categorías
+Ubicación y Monedas
+Ítems y Búsquedas
+Preguntas y Respuestas
+Pedidos y opiniones
+Atributos
+Notificaciones
+Comunicaciones
+Moderaciones
+Gestionar moderaciones
+Moderaciones con pausado
+Diagnóstico de imágenes
+Moderaciones de imágenes
+Brand Protection Program
+¿Qué es Brand Protection Program?
+Miembros del Programa
+Publicaciones denunciadas
+Developer Partner Program
+Developer Partner Program
+Seguridad - Desarrollo Seguro
+Guía de seguridad
+Introducción
+Infraestructura (Cifrado y TLS)
+Gestión de Identidades y Accesos (OAuth y Tokens)
+Autenticación segura
+Control de acceso y autorización
+Seguridad de aplicaciones
+Monitoreo
+Gestión de inicidentes
+Guía para productos
+Introducción
+Tipos de publicación
+Categorización
+Categorización de productos
+Compatibilidades entre ítems y productos de Autopartes
+Referencias de dominios, productos y atributos para Autopartes
+Publicar productos
+User Products
+User Products
+Precio por variación
+Stock distribuido
+Stock multi origen
+Descripción de productos
+Validaciones
+Precios y Costos
+Precios de productos
+Precio por cantidad
+Costos por vender
+Referencias de precios
+Automatizaciones de precios
+Precios netos por cantidad
+Imágenes
+Identificadores de productos
+Variaciones
+Republicar ítems
+Kits virtuales
+Guías de Talles
+Primeros pasos
+Gestionar guía de talles
+Validación de guía de talles
+Sincroniza y modifica publicaciones
+Convivencia Full/Flex (MLA y MLC)
+Catálogo
+Qué es catálogo
+Elegibilidad de catálogo
+Buscador de productos
+Publicar en catálogo
+Publicaciones requeridas
+Catálogo reacondicionados
+Competencia
+Envíos
+Gestión Mercado Envíos
+Mercado Envíos 1
+Mercado Envíos 1
+Estados de órdenes y seguimiento
+Flete dinámico
+Mercado Envíos 2
+Mercado Envíos 2
+Costos de envío
+Envíos en feriados opcionales
+Envíos Colecta y Places
+Agrupación de paquetes para la Colecta
+Envíos Flex
+Envíos Turbo
+Envíos Fulfillment
+Envíos Personalizados
+Central de promociones
+Gestionar promociones
+Campañas tradicionales
+Campañas co-fondeadas
+Campañas con descuento por cantidad
+Pre-acordado por ítem y liquidación stock Full
+Descuento individual
+Ofertas del día
+Ofertas relámpago
+Campañas del vendedor
+Co-fondeada automatizada y precios competitivos
+Cupones del vendedor
+Campaña co-fondeada para PIX
+Preguntas y respuestas
+Gestionar ventas
+Órdenes
+Packs
+Envíos
+Notas de Packs
+Pagos
+Feedback de una venta
+Notas en órdenes
+Facturación
+Descargar Facturas - Emisión MELI
+Datos de Facturación
+Cargar y Obtener Facturas - Emisión Propia
+Envío de Datos Fiscales
+Reportes de Facturación
+Buenas Prácticas para el Consumo de las APIs de Reportes de Facturación
+Reportes de Facturación
+Provisiones
+Pagos
+Descargas
+Percepciones
+Mensajería posventa
+Qué es mensajería
+Motivos para comunicarse
+Gestión de mensajes
+Mensajes pendientes
+Mensajes bloqueados
+Reclamos, Devoluciones y Cambios
+Reclamos
+Gestionar reclamos
+Gestionar mensajes de un reclamo
+Gestionar resolución de reclamos
+Gestionar evidencia de reclamos
+Errores
+Devoluciones
+Cambios
+Métricas y Tendencias
+Programa de Despegue y Beneficio de Reputación
+Reputación de vendedores
+Tendencias
+Más vendidos en Mercado Libre
+Opiniones de productos
+Calidad de publicaciones
+Experiencia de compra
+Visitas
+Carga de atributos
+MercadoLíder y Tiendas Oficiales
+Tiendas Oficiales
+Pharma
+Pharma - Recetados
+Guía para inmuebles
+Introducción guía de inmuebles
+Primeros pasos
+Configuración o requisitos previos
+Obtención del Access Token
+Consulta de usuarios
+Pasos rápidos para publicar un inmueble de prueba
+Categorías y atributos
+Categorías
+Atributos
+Localizar Inmuebles
+Gestionar paquetes de inmuebles
+Contratación de paquetes de publicación
+Paquetes y permisos para proyectos, desarrollos o emprendimientos inmobiliarios
+Publica Inmuebles
+Publicaciones de Tiendas Oficiales para Inmuebles
+Actualiza tus publicaciones
+Ciclo de vida de las publicaciones de Inmuebles
+Variaciones
+Actualización variación inmuebles
+Calidad de las Publicaciones
+Desarrollos inmobiliarios
+Leads
+Solicitud de visita
+Estadísticas de interacciones en Inmuebles
+Experiencia para inmuebles
+Glosario
+Guía para vehículos
+Introducción
+Consulta Usuarios
+Categorías y Atributos
+Localiza vehículos
+Gestiona paquetes de vehículos
+Publica vehículos
+Sincroniza publicaciones (vehículos)
+Gestiona preguntas y contactos
+Personas Interesadas
+Créditos pre aprobados
+Calidad de publicaciones (vehículos)
+Guía para servicios
+Introducción
+Consulta Usuarios
+Elige tipo de servicio
+Administra áreas de cobertura
+Publica servicios
+Sincroniza publicaciones
+Consultas avanzadas
+Guía para Mercado Ads
+Introducción a Mercado Ads
+Product Ads
+Brand Ads
+Display Ads
+Product Ads para Catálogo y User Products
+Bonificaciones para Product Ads
+MCP Mercado Libre
+Mercado Libre MCP Server
+FAQs
+Preguntas Frecuentes
+Rate Limit / Error 429
+Gestión de stock multiorigen / User Products
+ME1 / ME2 y envío gratis
+Mercado Envíos - Costos y cotizaciones
+Facturación / Billing info
+Imágenes y moderaciones
+Promotions / Pricing
+Items - Atributos de envío y dimensiones
+Última actualización 29/12/2025
+Qué es catálogo
+Nota:
+Este recurso está disponible para Argentina, México, Brasil, Colombia, Chile, Uruguay, Perú y Ecuador
+
+Los vendedores pueden crear publicaciones de catálogo con el contenido (títulos, fotos, descripciones y ficha técnica) provisto por Mercado Libre. Pueden realizarse publicaciones a partir de publicaciones actuales o creando una nueva publicación, y así competir con otros vendedores teniendo las mejores condiciones de venta para ganar la exposición en la Página de Producto (PdP). Estas páginas están posicionadas en los primeros lugares de los resultados de búsqueda.
+
+Conoce más información de catálogo y mira más detalles en el video:
+
+
+
+Si tienes más dudas sobre catálogo, consulta nuestra página de ayuda.
+
+Ahora, ¡desarrolla catálogo siguiendo esta guía!
+
+
+
+
+
+Siguiente: Elegibilidad de catálogo.
+
+Contenidos
+Qué es catálogo
+Denunciar
+Security Researchers
+Centro de Partners
+
+Copyright © 2026 MercadoLibre S.R.L.
+
+Términos y condiciones
+Cómo cuidamos vos privacidad
+Developer Partner Program
+
+===== DOC: publicacion-en-catalogo =====
+
+Developers
+API Docs
+Novedades
+Ingresar
+API Docs
+Publicar en catálogo
+
+Documentación Mercado Libre
+
+Descubre toda la información que debes conocer sobre las APIs de Mercado Libre.
+
+Documentación
+
+Primeros pasos
+Autenticación y Autorización
+Crea una aplicación en Mercado Libre
+Permisos funcionales
+Gestiona tus aplicaciones
+Realiza pruebas
+Validador de publicaciones
+Buenas prácticas para uso de la plataforma
+Consideraciones de diseño
+Gestionar IPs de una aplicación
+Error 403
+Recursos de la API
+Usuarios
+Usuarios y Aplicaciones
+Bloqueo de aplicaciones
+Consulta usuarios
+Direcciones del usuario
+Preguntas frecuentes sobre validación de datos
+Validar datos de vendedores
+Favoritos
+Dominios y Categorías
+Ubicación y Monedas
+Ítems y Búsquedas
+Preguntas y Respuestas
+Pedidos y opiniones
+Atributos
+Notificaciones
+Comunicaciones
+Moderaciones
+Gestionar moderaciones
+Moderaciones con pausado
+Diagnóstico de imágenes
+Moderaciones de imágenes
+Brand Protection Program
+¿Qué es Brand Protection Program?
+Miembros del Programa
+Publicaciones denunciadas
+Developer Partner Program
+Developer Partner Program
+Seguridad - Desarrollo Seguro
+Guía de seguridad
+Introducción
+Infraestructura (Cifrado y TLS)
+Gestión de Identidades y Accesos (OAuth y Tokens)
+Autenticación segura
+Control de acceso y autorización
+Seguridad de aplicaciones
+Monitoreo
+Gestión de inicidentes
+Guía para productos
+Introducción
+Tipos de publicación
+Categorización
+Categorización de productos
+Compatibilidades entre ítems y productos de Autopartes
+Referencias de dominios, productos y atributos para Autopartes
+Publicar productos
+User Products
+User Products
+Precio por variación
+Stock distribuido
+Stock multi origen
+Descripción de productos
+Validaciones
+Precios y Costos
+Precios de productos
+Precio por cantidad
+Costos por vender
+Referencias de precios
+Automatizaciones de precios
+Precios netos por cantidad
+Imágenes
+Identificadores de productos
+Variaciones
+Republicar ítems
+Kits virtuales
+Guías de Talles
+Primeros pasos
+Gestionar guía de talles
+Validación de guía de talles
+Sincroniza y modifica publicaciones
+Convivencia Full/Flex (MLA y MLC)
+Catálogo
+Qué es catálogo
+Elegibilidad de catálogo
+Buscador de productos
+Publicar en catálogo
+Publicaciones requeridas
+Catálogo reacondicionados
+Competencia
+Envíos
+Gestión Mercado Envíos
+Mercado Envíos 1
+Mercado Envíos 1
+Estados de órdenes y seguimiento
+Flete dinámico
+Mercado Envíos 2
+Mercado Envíos 2
+Costos de envío
+Envíos en feriados opcionales
+Envíos Colecta y Places
+Agrupación de paquetes para la Colecta
+Envíos Flex
+Envíos Turbo
+Envíos Fulfillment
+Envíos Personalizados
+Central de promociones
+Gestionar promociones
+Campañas tradicionales
+Campañas co-fondeadas
+Campañas con descuento por cantidad
+Pre-acordado por ítem y liquidación stock Full
+Descuento individual
+Ofertas del día
+Ofertas relámpago
+Campañas del vendedor
+Co-fondeada automatizada y precios competitivos
+Cupones del vendedor
+Campaña co-fondeada para PIX
+Preguntas y respuestas
+Gestionar ventas
+Órdenes
+Packs
+Envíos
+Notas de Packs
+Pagos
+Feedback de una venta
+Notas en órdenes
+Facturación
+Descargar Facturas - Emisión MELI
+Datos de Facturación
+Cargar y Obtener Facturas - Emisión Propia
+Envío de Datos Fiscales
+Reportes de Facturación
+Buenas Prácticas para el Consumo de las APIs de Reportes de Facturación
+Reportes de Facturación
+Provisiones
+Pagos
+Descargas
+Percepciones
+Mensajería posventa
+Qué es mensajería
+Motivos para comunicarse
+Gestión de mensajes
+Mensajes pendientes
+Mensajes bloqueados
+Reclamos, Devoluciones y Cambios
+Reclamos
+Gestionar reclamos
+Gestionar mensajes de un reclamo
+Gestionar resolución de reclamos
+Gestionar evidencia de reclamos
+Errores
+Devoluciones
+Cambios
+Métricas y Tendencias
+Programa de Despegue y Beneficio de Reputación
+Reputación de vendedores
+Tendencias
+Más vendidos en Mercado Libre
+Opiniones de productos
+Calidad de publicaciones
+Experiencia de compra
+Visitas
+Carga de atributos
+MercadoLíder y Tiendas Oficiales
+Tiendas Oficiales
+Pharma
+Pharma - Recetados
+Guía para inmuebles
+Introducción guía de inmuebles
+Primeros pasos
+Configuración o requisitos previos
+Obtención del Access Token
+Consulta de usuarios
+Pasos rápidos para publicar un inmueble de prueba
+Categorías y atributos
+Categorías
+Atributos
+Localizar Inmuebles
+Gestionar paquetes de inmuebles
+Contratación de paquetes de publicación
+Paquetes y permisos para proyectos, desarrollos o emprendimientos inmobiliarios
+Publica Inmuebles
+Publicaciones de Tiendas Oficiales para Inmuebles
+Actualiza tus publicaciones
+Ciclo de vida de las publicaciones de Inmuebles
+Variaciones
+Actualización variación inmuebles
+Calidad de las Publicaciones
+Desarrollos inmobiliarios
+Leads
+Solicitud de visita
+Estadísticas de interacciones en Inmuebles
+Experiencia para inmuebles
+Glosario
+Guía para vehículos
+Introducción
+Consulta Usuarios
+Categorías y Atributos
+Localiza vehículos
+Gestiona paquetes de vehículos
+Publica vehículos
+Sincroniza publicaciones (vehículos)
+Gestiona preguntas y contactos
+Personas Interesadas
+Créditos pre aprobados
+Calidad de publicaciones (vehículos)
+Guía para servicios
+Introducción
+Consulta Usuarios
+Elige tipo de servicio
+Administra áreas de cobertura
+Publica servicios
+Sincroniza publicaciones
+Consultas avanzadas
+Guía para Mercado Ads
+Introducción a Mercado Ads
+Product Ads
+Brand Ads
+Display Ads
+Product Ads para Catálogo y User Products
+Bonificaciones para Product Ads
+MCP Mercado Libre
+Mercado Libre MCP Server
+FAQs
+Preguntas Frecuentes
+Rate Limit / Error 429
+Gestión de stock multiorigen / User Products
+ME1 / ME2 y envío gratis
+Mercado Envíos - Costos y cotizaciones
+Facturación / Billing info
+Imágenes y moderaciones
+Promotions / Pricing
+Items - Atributos de envío y dimensiones
+Última actualización 02/01/2026
+Publicar en catálogo
+
+Hay diferentes formas de publicar en el catálogo:
+
+Publicar directamente
+Publicar a través de un optin a través de un ítem tradicional.
+Creación automática de ítems (auto-optin).
+
+Publicar directo
+
+No es necesario tener una publicación de marketplace para publicar en catálogo; pueden realizarse publicaciones directas. Para ello, debes utilizar el catalog_product_id de un producto de catálogo que se encuentre en estado activo o un producto inactivo habilitado que cumple con los estándares de calidad (Product Standards).
+
+Nota:
+Actualmente, la posibilidad de publicar con IDs inactivos está limitada al dominio de Autopartes.
+Importante:
+- El detalle de la ficha técnica del producto de catálogo es provisto por Mercado Libre. Por lo tanto, el vendedor es responsable de confirmar que el producto a crear coincida con las características específicas (ficha técnica) del catalog_product_id.
+- En caso de que exista una diferencia entre lo que el usuario compre y el producto asociado es posible, que se generen reclamos y/o cancelaciones que impactarán negativamente en su reputación y como consecuencia de esto la inhabilitación para publicar en catálogo, llevando eventualmente a la suspensión de la cuenta.
+
+Al momento de realizar el POST deberás enviar los siguientes valores para que se cree la publicación de catálogo:
+
+
+
+
+catalog_product_id: este valor debe ser confirmado con el recurso de search/product.
+catalog_listing: : es necesario enviar el valor en true para generar el ítem de catálogo.
+
+
+
+
+Llamada:
+
+curl -X POST -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/items
+Copiar
+
+Ejemplo acortado de una creación directa a catálogo:
+
+curl -X POST -H 'Authorization: Bearer $ACCESS_TOKEN' -H "Content-Type: application/json" -d
+'{
+    "site_id": "MLA",
+    "title": "Item de test no ofertar",
+    "category_id": "MLA1055",
+    "price": 10000000,
+    "currency_id": "ARS",
+    "available_quantity": 1,
+    "buying_mode": "buy_it_now",
+    "listing_type_id": "gold_special",
+    "pictures": [],
+    "attributes": [
+        {
+            "id": "CARRIER",
+            "name": "Compañía telefónica",
+            "value_id": "298335",
+            "value_name": "Liberado",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "ITEM_CONDITION",
+            "name": "Condición del ítem",
+            "value_id": "2230284",
+            "value_name": "Nuevo",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        }
+    ],
+    "catalog_product_id": "MLA6005934",
+    "catalog_listing": true
+}'
+https://api.mercadolibre.com/items
+Copiar
+
+Respuesta:
+
+{
+    "id": "MLA811894603",
+    "site_id": "MLA",
+    "title": "Apple iPhone iPhone 3g 8 Gb Negro 128 Mb Ram",
+    "subtitle": null,
+    "seller_id": 464161506,
+    "category_id": "MLA1055",
+    "official_store_id": null,
+    "price": 10000000,
+    "base_price": 10000000,
+    "original_price": null,
+    "inventory_id": null,
+    "currency_id": "ARS",
+    "initial_quantity": 1,
+    "available_quantity": 1,
+    "sold_quantity": 0,
+    "sale_terms": [],
+    "buying_mode": "buy_it_now",
+    "listing_type_id": "gold_special",
+    "start_time": "2019-08-29T14:49:42.945Z",
+    "historical_start_time": "2019-08-29T14:49:42.945Z",
+    "stop_time": "2039-08-24T04:00:00.000Z",
+    "end_time": "2039-08-24T04:00:00.000Z",
+    "expiration_time": "2019-11-17T14:49:42.987Z",
+    "condition": "new",
+    "permalink": "http://articulo.mercadolibre.com.ar/MLA-811894603-apple-iphone-iphone-3g-8-gb-negro-128-mb-ram-_JM",
+    "pictures": [
+        {
+            "id": "675782-MLA31138875214_062019",
+            "url": "http://mla-s1-p.mlstatic.com/675782-MLA31138875214_062019-O.jpg",
+            "secure_url": "https://mla-s1-p.mlstatic.com/675782-MLA31138875214_062019-O.jpg",
+            "size": "249x500",
+            "max_size": "598x1200",
+            "quality": ""
+        },
+        {
+            "id": "915001-MLA31138546867_062019",
+            "url": "http://mla-s2-p.mlstatic.com/915001-MLA31138546867_062019-O.jpg",
+            "secure_url": "https://mla-s2-p.mlstatic.com/915001-MLA31138546867_062019-O.jpg",
+            "size": "250x500",
+            "max_size": "600x1200",
+            "quality": ""
+        },
+        {
+            "id": "881441-MLA31138332972_062019",
+            "url": "http://mla-s2-p.mlstatic.com/881441-MLA31138332972_062019-O.jpg",
+            "secure_url": "https://mla-s2-p.mlstatic.com/881441-MLA31138332972_062019-O.jpg",
+            "size": "243x500",
+            "max_size": "585x1200",
+            "quality": ""
+        },
+        {
+            "id": "804666-MLA31139286536_062019",
+            "url": "http://mla-s1-p.mlstatic.com/804666-MLA31139286536_062019-O.jpg",
+            "secure_url": "https://mla-s1-p.mlstatic.com/804666-MLA31139286536_062019-O.jpg",
+            "size": "405x500",
+            "max_size": "836x1030",
+            "quality": ""
+        }
+    ],
+    "video_id": null,
+    "descriptions": [
+        {
+            "id": "MLA811894603-2265773390"
+        }
+    ],
+    "accepts_mercadopago": true,
+    "non_mercado_pago_payment_methods": [],
+    "shipping": {
+        "mode": "not_specified",
+        "local_pick_up": false,
+        "free_shipping": false,
+        "methods": [],
+        "dimensions": null,
+        "tags": [],
+        "logistic_type": "not_specified",
+        "store_pick_up": false
+    },
+    "international_delivery_mode": "none",
+    "seller_address": {
+        "id": 1061221617,
+        "comment": "",
+        "address_line": "Test Address 123",
+        "zip_code": "1414",
+        "city": {
+            "id": "",
+            "name": "Palermo"
+        },
+        "state": {
+            "id": "AR-C",
+            "name": "Capital Federal"
+        },
+        "country": {
+            "id": "AR",
+            "name": "Argentina"
+        },
+        "latitude": 38.11569,
+        "longitude": 13.3614868,
+        "search_location": {
+            "neighborhood": {
+                "id": "TUxBQlBBTDI1MTVa",
+                "name": "Palermo"
+            },
+            "city": {
+                "id": "TUxBQ0NBUGZlZG1sYQ",
+                "name": "Capital Federal"
+            },
+            "state": {
+                "id": "TUxBUENBUGw3M2E1",
+                "name": "Capital Federal"
+            }
+        }
+    },
+    "seller_contact": null,
+    "location": {},
+    "geolocation": {
+        "latitude": 38.11569,
+        "longitude": 13.3614868
+    },
+    "coverage_areas": [],
+    "attributes": [
+        {
+            "id": "CARRIER",
+            "name": "Compañía telefónica",
+            "value_id": "298335",
+            "value_name": "Liberado",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "ITEM_CONDITION",
+            "name": "Condición del ítem",
+            "value_id": "2230284",
+            "value_name": "Nuevo",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "BRAND",
+            "name": "Marca",
+            "value_id": "9344",
+            "value_name": "Apple",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "LINE",
+            "name": "Línea",
+            "value_id": "58993",
+            "value_name": "iPhone",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "MODEL",
+            "name": "Modelo",
+            "value_id": "14605",
+            "value_name": "iPhone 3G",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "IS_DUAL_SIM",
+            "name": "Es Dual SIM",
+            "value_id": "242084",
+            "value_name": "No",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "COLOR",
+            "name": "Color",
+            "value_id": "52049",
+            "value_name": "Negro",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "INTERNAL_MEMORY",
+            "name": "Memoria interna",
+            "value_id": "59566",
+            "value_name": "8 GB",
+            "value_struct": {
+                "number": 8,
+                "unit": "GB"
+            },
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "RAM",
+            "name": "Memoria RAM",
+            "value_id": "366239",
+            "value_name": "128 MB",
+            "value_struct": {
+                "number": 128,
+                "unit": "MB"
+            },
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "MAIN_COLOR",
+            "name": "Color principal",
+            "value_id": "2450295",
+            "value_name": "Negro",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "OPERATING_SYSTEM_NAME",
+            "name": "Nombre del sistema operativo",
+            "value_id": "7404961",
+            "value_name": "iOS",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "WITH_IMEI",
+            "name": "Con IMEI",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        }
+    ],
+    "warnings": [],
+    "listing_source": "",
+    "variations": [],
+    "thumbnail": "http://mla-s1-p.mlstatic.com/675782-MLA31138875214_062019-I.jpg",
+    "secure_thumbnail": "https://mla-s1-p.mlstatic.com/675782-MLA31138875214_062019-I.jpg",
+    "status": "active",
+    "sub_status": [],
+    "tags": [
+        "immediate_payment",
+        "test_item"
+    ],
+    "warranty": null,
+    "catalog_product_id": "MLA6005934",
+    "domain_id": "MLA-CELLPHONES",
+    "seller_custom_field": null,
+    "parent_item_id": null,
+    "differential_pricing": null,
+    "deal_ids": [],
+    "automatic_relist": false,
+    "date_created": "2019-08-29T14:49:43.099Z",
+    "last_updated": "2019-08-29T14:49:43.099Z",
+    "total_listing_fee": null,
+    "health": null,
+    "catalog_listing": true,
+    "item_relations": []
+}
+Copiar
+Optin desde un item tradicional
+
+Una vez valides que tu publicación existente es elegible para catálogo, obtengas el catalog_product_id activo, desde el recurso product search, y compruebes que la ficha técnica corresponde exactamente a lo que estás publicando, debes crear la publicación de catálogo (hacer el optin) con un POST a /items/catalog_listings..
+
+
+
+Variaciones en catálogo
+
+En los productos de catálogo, no se admite la creación de variaciones porque ya están asociadas a un valor específico, ejemplo: Apple iPad Air De 10.9 Wi-fi 256gb Oro Rosa (4ª Generación) donde el color oro rosa sería una variación de una publicación de marketplace.
+
+Por tanto, si tu publicación original tenía variaciones, tendrás una publicación de catálogo por cada una de ellas. La información relevante de tus variaciones, como el color del artículo, no se perderá sino que estará reflejada en los atributos del producto de catálogo.
+Si tu publicación de marketplace contiene variaciones, deberás hacer un POST por cada una de las mismas enviando el campo variation_id en el cuerpo del POST.
+
+
+
+
+Ejemplo sobre una publicación de marketplace con variaciones:
+
+curl -X POST -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/items/catalog_listings
+{
+   "item_id": "MLM1477978125",
+   "variation_id": 174997747229,
+   "catalog_product_id": "MLM15996654"
+
+}
+Copiar
+
+Ejemplo sobre una publicación de marketplace sin variaciones:
+
+curl -X POST -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/items/catalog_listings
+{
+   "item_id": "MLM1477978125",
+   "catalog_product_id": "MLM15996654"
+
+}
+Copiar
+
+Ejemplo acortado de respuesta a la creación de un producto de catálogo:
+
+{
+    "id": "MLM1477990462",
+    "site_id": "MLM",
+    "title": "Huawei Y6p Dual Sim 64 Gb Emerald Green 3 Gb Ram",
+    "subtitle": null,
+    "seller_id": 1008002397,
+    "category_id": "MLM1055",
+    "official_store_id": null,
+    "price": 9999,
+    "base_price": 9999,
+    "original_price": null,
+    "inventory_id": null,
+    "currency_id": "MXN",
+    "initial_quantity": 2,
+    "available_quantity": 2,
+    "sold_quantity": 0,
+    "sale_terms": [
+        {
+            "id": "WARRANTY_TYPE",
+            "name": "Tipo de garantía",
+            "value_id": "2230280",
+            "value_name": "Garantía del vendedor",
+            "value_struct": null,
+            "values": [
+                {
+                    "id": "2230280",
+                    "name": "Garantía del vendedor",
+                    "struct": null
+                }
+            ]
+        },
+        {
+            "id": "WARRANTY_TIME",
+            "name": "Tiempo de garantía",
+            "value_id": null,
+            "value_name": "3 meses",
+            "value_struct": {
+                "number": 3,
+                "unit": "meses"
+            },
+            "values": [
+                {
+                    "id": null,
+                    "name": "3 meses",
+                    "struct": {
+                        "number": 3,
+                        "unit": "meses"
+                    }
+                }
+            ]
+        }
+    ],
+    "buying_mode": "buy_it_now",
+    "listing_type_id": "gold_special",
+    "start_time": "2022-08-10T16:28:40.141Z",
+    "stop_time": "2042-08-05T04:00:00.000Z",
+    "end_time": "2042-08-05T04:00:00.000Z",
+    "expiration_time": "2022-10-29T16:28:40.255Z",
+    "condition": "new",
+    "permalink": "http://articulo.mercadolibre.com.mx/MLM-1477990462-huawei-y6p-dual-sim-64-gb-emerald-green-3-gb-ram-_JM",
+    "pictures": [
+        ...
+    ],
+    "video_id": null,
+    "descriptions": [],
+    "accepts_mercadopago": true,
+    "non_mercado_pago_payment_methods": [],
+    "shipping": {
+        "mode": "me2",
+        "local_pick_up": false,
+        "free_shipping": true,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+            "mandatory_free_shipping"
+        ],
+        "logistic_type": "drop_off",
+        "store_pick_up": false
+    },
+    "international_delivery_mode": "none",
+    "seller_address": {
+        ...
+    },
+    "seller_contact": null,
+    "location": {},
+    "geolocation": {
+        "latitude": 20.7846638,
+        "longitude": -103.4679048
+    },
+    "coverage_areas": [],
+    "attributes": [ ... ],
+    "warnings": [
+      ...
+    ],
+    "listing_source": "",
+    "variations": [],
+    "thumbnail_id": "753526-MLA49391002480_032022",
+    "thumbnail": "http://mlm-s1-p.mlstatic.com/753526-MLA49391002480_032022-I.jpg",
+    "secure_thumbnail": "https://mlm-s1-p.mlstatic.com/753526-MLA49391002480_032022-I.jpg",
+    "status": "active",
+    "sub_status": [],
+    "tags": [
+        "cart_eligible",
+        "immediate_payment",
+        "test_item"
+    ],
+    "warranty": "Garantía del vendedor: 3 meses",
+    "catalog_product_id": "MLM15996654",
+    "domain_id": "MLM-CELLPHONES",
+    "seller_custom_field": null,
+    "parent_item_id": null,
+    "differential_pricing": null,
+    "deal_ids": [],
+    "automatic_relist": false,
+    "date_created": "2022-08-10T16:28:40.371Z",
+    "last_updated": "2022-08-10T16:28:40.419Z",
+    "health": null,
+    "catalog_listing": true,
+    "item_relations": [
+        {
+            "id": "MLM1477978125",
+            "variation_id": 174997747229,
+            "stock_relation": 1
+        }
+    ],
+    "channels": [
+        "marketplace"
+    ]
+}
+Copiar
+
+Consideraciones
+
+Dentro de la información del producto/publicación de marketplace podrás encontrar el array item_relations el cual tendrá la información de la relación creada entre el item_id de la publicación, con su variación respectiva y el item_id del producto de catálogo creado a partir de ella.
+Si el request de creación de un producto de catálogo es enviado sin variaciones, pero la publicación de marketplace cuando sí las tiene, la respuesta será error:
+
+
+{
+   "message": "Validation error",
+   "error": "validation_error",
+   "status": 400,
+   "cause": [
+       {
+           "department": "items",
+           "cause_id": 216,
+           "type": "error",
+           "code": "item.variations.invalid",
+           "references": [
+               "variation_id"
+           ],
+           "message": "Item MLM1477978125 doesn't have a variation with id null"
+       }
+   ]
+}
+Copiar
+El campo catalog_product_id es obligatorio en el POST para publicaciones de marketplace con o sin variaciones.
+{
+   "message": "Validation error",
+   "error": "validation_error",
+   "status": 400,
+   "cause": [
+       {
+           "department": "items",
+           "cause_id": 369,
+           "type": "error",
+           "code": "body.required_fields",
+           "references": [
+               "body.invalid"
+           ],
+           "message": "The payload is missing the following properties: [catalog_product_id]"
+       }
+   ]
+}
+Copiar
+Si la publicación de marketplace no esta productizada, es decir, no tiene el campo correspondiente de catalog_product_id, la respuesta será error:
+{
+   "message": "Validation error",
+   "error": "validation_error",
+   "status": 400,
+   "cause": [
+       {
+           "department": "items",
+           "cause_id": 389,
+           "type": "error",
+           "code": "item.catalog_listing.not_eligible",
+           "references": [
+               "item.catalog_listing"
+           ],
+           "message": "Item cannot be catalog listing"
+       } 
+   ]
+}
+Copiar
+Sincroniza condiciones de venta
+
+La sincronización de las condiciones de venta como: precio, forma de entrega, stock, garantía, SKU, GTIN (PIs), atributos legales, campañas (ahora-5, etc) y listing_type de las publicaciones de marketplace asociadas a un producto de catálogo será automática y con las siguientes condiciones:
+
+
+
+El vendedor no podrá eliminar la sincronización (opt-out).
+Las publicaciones nuevas estarán sincronizadas desde el inicio.
+Las publicaciones existentes asociadas a un producto de catálogo, se sincronizan cuando el vendedor modifica alguna de las condiciones de venta de la publicación original.
+La sincronización será a partir de que se realice el primer cambio, es decir, que si el vendedor modifica primero la publicación de catálogo, actualizaremos automáticamente la publicación de marketplace, y viceversa.
+Notas:
+Los cambios, tanto de las publicaciones de marketplace como las publicaciones de catálogo, serán notificados a través del feed de ítems.
+
+
+Corrección de la sincronización de ítems
+
+Hay casos en que, los ítems tradicionales pueden perder la sincronización con su ítem en el catálogo, aunque continúen teniendo el campo "item_relation" conectado. Para ayudarte a resolver estos posibles errores, ponemos a tu disposición dos recursos:
+
+
+
+Consulta de sincronización de ítems
+
+Puedes verificar si tus ítems están sincronizados con su ítem de catálogo utilizando la siguiente consulta:
+
+curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/public/buybox/sync/$ITEM_ID
+
+Copiar
+
+Las respuestas posibles son las siguientes:
+
+
+
+
+Sincronizado
+
+HEADER x-public:True
+    {
+   "item_id": "MLA1318233236",
+   "status": "SYNC",
+   "timestamp": null,
+   "relations": [
+       "MLA1281648753"
+   ]
+}
+Copiar
+
+No está sincronizado
+
+HEADER x-public:True
+    {
+   "item_id": "MLA1361070453",
+   "status": "UNSYNC",
+   "timestamp": 1678116777461,
+   "relations": [
+       "MLA1361334302"
+   ]
+}
+Copiar
+Sincronización de ítems
+
+Si encuentras que un ítem activo no está sincronizado y desees corregirlo, puedes hacerlo mediante la siguiente llamada, enviando solo el "ítem_id" que deseas sincronizar en el cuerpo de la solicitud:
+
+curl -X POST -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/public/buybox/sync
+
+
+Copiar
+
+Body:
+
+HEADER: x-public:True
+{
+   "id": "MLA1361070453"
+}
+
+Copiar
+
+El servidor responderá con un código de estado 200 en caso de éxito o 422/500 en caso de error.
+
+
+
+Creación automática de ítems (Auto Optin)
+
+Mercado Libre evaluará las publicaciones de marketplace, en caso de que cumpla con todos los requisitos para realizar un optin efectivo, este se hará automáticamente. Ten en cuenta que la publicación original será actualizada con los attributes, variations.attributes o variations.attribute_combinations del producto de catálogo al cual fue asociado para que ambas publicaciones relacionadas sean consistentes.
+
+
+
+
+A continuación, puedes ver un producto de catálogo con optin automático. Reconoce las publicaciones que fueron optineadas automáticamente con el tag catalog_boost. Este tag únicamente lo podrás encontrar en la publicación de catálogo que fue creada por Mercado Libre.
+
+
+
+
+Ejemplo:
+
+curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/items/MLM1881484643
+Copiar
+
+Respuesta acortada:
+
+{
+    "id": "MLM1881484643",
+     "site_id": "MLM",
+     "title": "Multifuncional Hp Smart Tank 670 Tinta Continua Color Wi-fi Blanco/gris",
+     "category_id": "MLM1676",
+     "price": 599999,
+     "base_price": 599999,
+     "original_price": null,
+     "currency_id": "MXN",
+     "initial_quantity": 1,
+     "available_quantity": 1,
+     "sold_quantity": 0,
+    "tags": [
+         "catalog_boost",
+         "good_quality_thumbnail",
+         "test_item",
+         "immediate_payment",
+         "cart_eligible"
+     ],
+     "warranty": "Sin garantía",
+     "catalog_product_id": "MLM19441504",
+     "domain_id": "MLM-PRINTERS",
+     "parent_item_id": null,
+     "differential_pricing": null,
+     "deal_ids": [],
+     "automatic_relist": false,
+     "date_created": "2023-04-20T19:49:35.106Z",
+     "last_updated": "2023-04-20T19:58:31.478Z",
+     "health": null,
+     "catalog_listing": true,
+     "channels": [
+         "marketplace"
+     ]
+ }
+Copiar
+
+Podrás realizar una búsqueda por vendedor para identificar las publicaciones que estén marcadas con el tag catalog_boost utilizando el siguiente recurso:
+
+Ejemplo:
+
+curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/users/$SELLER_ID/items/search?status=active&tags=catalog_boost
+Copiar
+
+Te recomendamos utilizar este recurso, con el objetivo de informar a los sellers cuales de sus publicaciones fueron optineadas automáticamente por Mercado Libre.
+
+
+
+Mensajes de error
+
+Al momento de realizar publicaciones en catálogo, puedes obtener como respuesta mensajes de error, los cuales detallamos a continuación, con su respectiva solución:
+
+
+
+Code_id	Reason	code_name	code_message	Solución
+4400	catalog_product_id o GTIN
+obligatorios (detectamos producto en base a PKs).	body.required_fileds	Missing
+catalog_product_id or GTIN. It’s required at least one of them.	Enviar catalog_product_id
+o GTIN
+4402	No encontramos producto activo en base a
+catalog_product_id	item.catalog_product_id
+	The product $product_id
+is not active	Enviar un
+catalog_product_id activo o GTIN correcto
+417	catalog_product_id no se
+corresponde al category_id	item.catalog_product_id
+	The product $product_id
+does not belong to the catalog_domain of the category
+$category_id.	Enviar un
+catalog_product_id correcto
+418	El catalog_product_id es incorrecto ya que
+no concuerda con la información del parent_id o children_id relacionado.	item.catalog_product_id
+	Variation
+catalog_product_id $variation_product_id is not a child of
+item catalog_product_id $item_product_id.	Enviar un catalog_product_id a nivel ítem
+y variación que corresponda al parent_id relacionado.
+4310	Detectamos que en ocasiones anteriores el
+vendedor intentó publicar infringiendo nuestras políticas de propiedad intelectual, por eso no
+puede ofrecerlo de nuevo.	seller.optin.fake	Seller Optin is forbidden for seller
+[Seller_id] and parent product [product_id]	El vendedor no puede ofrecer este producto
+de nuevo.
+
+
+Publicaciones eliminadas automáticamente - OPTOUT
+
+Mercado Libre podrá modificar automáticamente el valor del atributo “status” o el "catalog_listing" de los ítems que actualmente están publicados en el catálogo, en casos en los que sea necesario eliminar un producto de la base actual, ya sea por inconsistencias en su especificación, por ser fraudulento o directamente es un ítem denunciado y presenta restricciones legales sobre sus ventas. Para no eliminar el historial de ventas y no afectar la reputación de los ítems, se seguirán dos flujos:
+
+Situación 1
+En los casos en los que el vendedor tenga ambos tipos de publicaciones para el mismo producto (tradicional y de catálogo), el ítem de catálogo pasará a tener el status "closed", mientras que el ítem tradicional seguirá activo.
+Situación 2:
+Cuando el vendedor únicamente tiene el ítem en el catálogo, dicho ítem, que tiene el campo "catalog_listing" establecido en "true", cambiará a "catalog_listing" establecido en "false". De esta manera, el vendedor podrá seguir vendiéndolo como un ítem tradicional.
+
+En ambas situaciones, podrás verificar los cambios en nuestro recurso de /items y recibirás notificaciones al respecto.
+
+
+
+
+Eliminar publicaciones
+
+Se puede pausar/eliminar las publicaciones de catálogo, realizando un PUT a la al api de /items/$ITEM_ID donde el ITEM_ID que se referencia es el id de la publicación de catálogo.
+
+
+
+
+Al pausar/eliminar la publicación de marketplace que se encuentra optineada, no estás pausando/eliminando la publicación de catálogo, por el contrario, la publicación de catálogo permanecerá activa e independiente y podrás continuar gestionándola, hasta que mediante el API de ítems se cambie de status ha pausado o cerrado.
+
+
+
+
+Siguiente: Publicaciones requeridas.
+
+Contenidos
+Publicar en catálogo
+Publicar directo
+Optin desde un item tradicional
+Variaciones en catálogo
+Sincroniza condiciones de venta
+Corrección de la sincronización de ítems
+Creación automática de ítems (Auto Optin)
+Mensajes de error
+Publicaciones eliminadas automáticamente - OPTOUT
+Eliminar publicaciones
+Denunciar
+Security Researchers
+Centro de Partners
+
+Copyright © 2026 MercadoLibre S.R.L.
+
+Términos y condiciones
+Cómo cuidamos vos privacidad
+Developer Partner Program
+
+===== DOC: competencia-en-catalogo =====
+
+Developers
+API Docs
+Novedades
+Ingresar
+API Docs
+Competencia
+
+Documentación Mercado Libre
+
+Descubre toda la información que debes conocer sobre las APIs de Mercado Libre.
+
+Documentación
+
+Primeros pasos
+Autenticación y Autorización
+Crea una aplicación en Mercado Libre
+Permisos funcionales
+Gestiona tus aplicaciones
+Realiza pruebas
+Validador de publicaciones
+Buenas prácticas para uso de la plataforma
+Consideraciones de diseño
+Gestionar IPs de una aplicación
+Error 403
+Recursos de la API
+Usuarios
+Usuarios y Aplicaciones
+Bloqueo de aplicaciones
+Consulta usuarios
+Direcciones del usuario
+Preguntas frecuentes sobre validación de datos
+Validar datos de vendedores
+Favoritos
+Dominios y Categorías
+Ubicación y Monedas
+Ítems y Búsquedas
+Preguntas y Respuestas
+Pedidos y opiniones
+Atributos
+Notificaciones
+Comunicaciones
+Moderaciones
+Gestionar moderaciones
+Moderaciones con pausado
+Diagnóstico de imágenes
+Moderaciones de imágenes
+Brand Protection Program
+¿Qué es Brand Protection Program?
+Miembros del Programa
+Publicaciones denunciadas
+Developer Partner Program
+Developer Partner Program
+Seguridad - Desarrollo Seguro
+Guía de seguridad
+Introducción
+Infraestructura (Cifrado y TLS)
+Gestión de Identidades y Accesos (OAuth y Tokens)
+Autenticación segura
+Control de acceso y autorización
+Seguridad de aplicaciones
+Monitoreo
+Gestión de inicidentes
+Guía para productos
+Introducción
+Tipos de publicación
+Categorización
+Categorización de productos
+Compatibilidades entre ítems y productos de Autopartes
+Referencias de dominios, productos y atributos para Autopartes
+Publicar productos
+User Products
+User Products
+Precio por variación
+Stock distribuido
+Stock multi origen
+Descripción de productos
+Validaciones
+Precios y Costos
+Precios de productos
+Precio por cantidad
+Costos por vender
+Referencias de precios
+Automatizaciones de precios
+Precios netos por cantidad
+Imágenes
+Identificadores de productos
+Variaciones
+Republicar ítems
+Kits virtuales
+Guías de Talles
+Primeros pasos
+Gestionar guía de talles
+Validación de guía de talles
+Sincroniza y modifica publicaciones
+Convivencia Full/Flex (MLA y MLC)
+Catálogo
+Qué es catálogo
+Elegibilidad de catálogo
+Buscador de productos
+Publicar en catálogo
+Publicaciones requeridas
+Catálogo reacondicionados
+Competencia
+Envíos
+Gestión Mercado Envíos
+Mercado Envíos 1
+Mercado Envíos 1
+Estados de órdenes y seguimiento
+Flete dinámico
+Mercado Envíos 2
+Mercado Envíos 2
+Costos de envío
+Envíos en feriados opcionales
+Envíos Colecta y Places
+Agrupación de paquetes para la Colecta
+Envíos Flex
+Envíos Turbo
+Envíos Fulfillment
+Envíos Personalizados
+Central de promociones
+Gestionar promociones
+Campañas tradicionales
+Campañas co-fondeadas
+Campañas con descuento por cantidad
+Pre-acordado por ítem y liquidación stock Full
+Descuento individual
+Ofertas del día
+Ofertas relámpago
+Campañas del vendedor
+Co-fondeada automatizada y precios competitivos
+Cupones del vendedor
+Campaña co-fondeada para PIX
+Preguntas y respuestas
+Gestionar ventas
+Órdenes
+Packs
+Envíos
+Notas de Packs
+Pagos
+Feedback de una venta
+Notas en órdenes
+Facturación
+Descargar Facturas - Emisión MELI
+Datos de Facturación
+Cargar y Obtener Facturas - Emisión Propia
+Envío de Datos Fiscales
+Reportes de Facturación
+Buenas Prácticas para el Consumo de las APIs de Reportes de Facturación
+Reportes de Facturación
+Provisiones
+Pagos
+Descargas
+Percepciones
+Mensajería posventa
+Qué es mensajería
+Motivos para comunicarse
+Gestión de mensajes
+Mensajes pendientes
+Mensajes bloqueados
+Reclamos, Devoluciones y Cambios
+Reclamos
+Gestionar reclamos
+Gestionar mensajes de un reclamo
+Gestionar resolución de reclamos
+Gestionar evidencia de reclamos
+Errores
+Devoluciones
+Cambios
+Métricas y Tendencias
+Programa de Despegue y Beneficio de Reputación
+Reputación de vendedores
+Tendencias
+Más vendidos en Mercado Libre
+Opiniones de productos
+Calidad de publicaciones
+Experiencia de compra
+Visitas
+Carga de atributos
+MercadoLíder y Tiendas Oficiales
+Tiendas Oficiales
+Pharma
+Pharma - Recetados
+Guía para inmuebles
+Introducción guía de inmuebles
+Primeros pasos
+Configuración o requisitos previos
+Obtención del Access Token
+Consulta de usuarios
+Pasos rápidos para publicar un inmueble de prueba
+Categorías y atributos
+Categorías
+Atributos
+Localizar Inmuebles
+Gestionar paquetes de inmuebles
+Contratación de paquetes de publicación
+Paquetes y permisos para proyectos, desarrollos o emprendimientos inmobiliarios
+Publica Inmuebles
+Publicaciones de Tiendas Oficiales para Inmuebles
+Actualiza tus publicaciones
+Ciclo de vida de las publicaciones de Inmuebles
+Variaciones
+Actualización variación inmuebles
+Calidad de las Publicaciones
+Desarrollos inmobiliarios
+Leads
+Solicitud de visita
+Estadísticas de interacciones en Inmuebles
+Experiencia para inmuebles
+Glosario
+Guía para vehículos
+Introducción
+Consulta Usuarios
+Categorías y Atributos
+Localiza vehículos
+Gestiona paquetes de vehículos
+Publica vehículos
+Sincroniza publicaciones (vehículos)
+Gestiona preguntas y contactos
+Personas Interesadas
+Créditos pre aprobados
+Calidad de publicaciones (vehículos)
+Guía para servicios
+Introducción
+Consulta Usuarios
+Elige tipo de servicio
+Administra áreas de cobertura
+Publica servicios
+Sincroniza publicaciones
+Consultas avanzadas
+Guía para Mercado Ads
+Introducción a Mercado Ads
+Product Ads
+Brand Ads
+Display Ads
+Product Ads para Catálogo y User Products
+Bonificaciones para Product Ads
+MCP Mercado Libre
+Mercado Libre MCP Server
+FAQs
+Preguntas Frecuentes
+Rate Limit / Error 429
+Gestión de stock multiorigen / User Products
+ME1 / ME2 y envío gratis
+Mercado Envíos - Costos y cotizaciones
+Facturación / Billing info
+Imágenes y moderaciones
+Promotions / Pricing
+Items - Atributos de envío y dimensiones
+Última actualización 29/12/2025
+Competencia
+
+En catálogo, las publicaciones compiten por obtener las ventas de la página de producto y un algoritmo determina quién será el ganador de esas ventas, con base en características de la publicación y del vendedor mismo, como precio de la publicación, cuotas sin interés y tipo de envío: full, gratis o en el día.
+
+Nota:
+Hablaremos del ganador en forma unívoca, aunque eventualmente el vendedor podría estar ganando en general, pero no en particular para ciertos usuarios (por ejemplo, si viven muy lejos y no obtendrían un envío en el mismo día de la compra).
+
+
+
+
+Notificaciones por cambio de estado
+
+Con el tópico Item competition podrás suscribirte y comenzar a recibir notificaciones sobre el cambio de estado de las publicaciones de catálogo, te permitirá reconocer la publicación que modifica su estado de competencia a ganador o viceversa.
+
+
+
+Detalle de la competencia
+
+Con este recurso puedes obtener toda la información sobre el detalle del estado de la publicación de un vendedor dentro de catálogo: puede estar ganando, compartiendo primer lugar, perdiendo o listada.
+
+
+
+
+Cuando una publicación está con estado de listada significa que no puede ganar dentro de catálogo porque incumple con ciertas razones que impiden que compita, pero, sigue siendo una publicación que un comprador puede adquirir y visualizar desde el buscador principal de Mercado Libre.
+
+
+
+
+Llamada:
+
+curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/items/$ITEM_ID/price_to_win?SITE_ID&version=v2
+Copiar
+
+Ejemplo de llamada para una publicación que está perdiendo en competencia:
+
+curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/items/MLA1234567/price_to_win?version=v2
+Copiar
+
+Respuesta con status: competing:
+
+{
+   "item_id": "MLA930793214",
+   "current_price": 267999,
+   "currency_id": "ARS",
+   "price_to_win": 267999,
+   "boosts": [
+       {
+           "id": "fulfillment",
+           "status": "opportunity",
+           "description": "Mercado Envíos Full"
+       },
+       {
+           "id": "free_installments",
+           "status": "opportunity",
+           "description": "Cuotas sin interés"
+       },
+       {
+           "id": "free_shipping",
+           "status": "boosted",
+           "description": "Envíos gratis por Mercado Envíos"
+       },
+       {
+           "id": "shipping_collect",
+           "status": "boosted",
+           "description": "Mercado Envíos Colecta"
+       },
+       {
+           "id": "same_day_shipping",
+           "status": "boosted",
+           "description": "Envíos en el día por Mercado Envíos"
+       }
+   ],
+   "status": "winning",
+   "consistent": true,
+   "visit_share": "maximum",
+   "competitors_sharing_first_place": 0,
+   "reason": [],
+   "catalog_product_id": "MLA16163648",
+   "winner": {
+       "item_id": "MLA930793214",
+       "price": 267999,
+       "currency_id": "ARS",
+       "boosts": [
+           {
+               "id": "fulfillment",
+               "status": "opportunity",
+               "description": "Mercado Envíos Full"
+           },
+           {
+               "id": "free_installments",
+               "status": "opportunity",
+               "description": "Cuotas sin interés"
+           },
+           {
+               "id": "free_shipping",
+               "status": "boosted",
+               "description": "Envíos gratis por Mercado Envíos"
+           },
+           {
+               "id": "shipping_collect",
+               "status": "boosted",
+               "description": "Mercado Envíos Colecta"
+           },
+           {
+               "id": "same_day_shipping",
+               "status": "boosted",
+               "description": "Envíos en el día por Mercado Envíos"
+           }
+       ]
+   }
+}
+Copiar
+
+Ejemplo de llamada para una publicación que está ganando en competencia:
+
+
+curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/items/MLA765432/price_to_win?version=v2
+Copiar
+
+Respuesta con status:winning:
+
+{
+   "item_id": "MLA930793214",
+   "current_price": 267999,
+   "currency_id": "ARS",
+   "price_to_win": 267999,
+   "boosts": [
+       {
+           "id": "fulfillment",
+           "status": "opportunity",
+           "description": "Mercado Envíos Full"
+       },
+       {
+           "id": "free_installments",
+           "status": "opportunity",
+           "description": "Cuotas sin interés"
+       },
+       {
+           "id": "free_shipping",
+           "status": "boosted",
+           "description": "Envíos gratis por Mercado Envíos"
+       },
+       {
+           "id": "shipping_collect",
+           "status": "boosted",
+           "description": "Mercado Envíos Colecta"
+       },
+       {
+           "id": "same_day_shipping",
+           "status": "boosted",
+           "description": "Envíos en el día por Mercado Envíos"
+       }
+   ],
+   "status": "winning",
+   "consistent": true,
+   "visit_share": "maximum",
+   "competitors_sharing_first_place": 0,
+   "reason": [],
+   "catalog_product_id": "MLA16163648",
+   "winner": {
+       "item_id": "MLA930793214",
+       "price": 267999,
+       "currency_id": "ARS",
+       "boosts": [
+           {
+               "id": "fulfillment",
+               "status": "opportunity",
+               "description": "Mercado Envíos Full"
+           },
+           {
+               "id": "free_installments",
+               "status": "opportunity",
+               "description": "Cuotas sin interés"
+           },
+           {
+               "id": "free_shipping",
+               "status": "boosted",
+               "description": "Envíos gratis por Mercado Envíos"
+           },
+           {
+               "id": "shipping_collect",
+               "status": "boosted",
+               "description": "Mercado Envíos Colecta"
+           },
+           {
+               "id": "same_day_shipping",
+               "status": "boosted",
+               "description": "Envíos en el día por Mercado Envíos"
+           }
+       ]
+   }
+}
+Copiar
+
+Ejemplo de llamada para una publicación que está compartiendo el primer lugar en competencia:
+
+Nota:
+El status:sharing_first_place identifica a todos los vendedores que según las condiciones de la oferta actualmente comparten el primer lugar como ganador.
+
+
+
+curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/items/MLA9876543/price_to_win?version=v2
+Copiar
+
+Respuesta con: sharing_first_place:
+
+{
+   "item_id": "MLA9876543",
+   "current_price": 493000,
+   "currency_id": "ARS",
+   "price_to_win": 485109,
+   "boosts": [
+       {
+           "id": "fulfillment",
+           "status": "opportunity",
+           "description": "Mercado Envíos Full"
+       },
+       {
+           "id": "free_installments",
+           "status": "opportunity",
+           "description": "Cuotas sin interés"
+       },
+       {
+           "id": "free_shipping",
+           "status": "boosted",
+           "description": "Envíos gratis por Mercado Envíos"
+       },
+       {
+           "id": "shipping_collect",
+           "status": "boosted",
+           "description": "Mercado Envíos Colecta"
+       },
+       {
+           "id": "same_day_shipping",
+           "status": "boosted",
+           "description": "Envíos en el día por Mercado Envíos"
+       }
+   ],
+   "status": "sharing_first_place",
+   "consistent": true,
+   "visit_share": "medium",
+   "competitors_sharing_first_place": 1,
+   "reason": [],
+   "catalog_product_id": "MLA15934914",
+   "winner": {
+       "item_id": "MLA765432",
+       "price": 48150,
+       "currency_id": "ARS",
+       "boosts": [
+           {
+               "id": "fulfillment",
+               "status": "opportunity",
+               "description": "Mercado Envíos Full"
+           },
+           {
+               "id": "free_installments",
+               "status": "opportunity",
+               "description": "Cuotas al mismo precio que publicaste"
+           },
+           {
+               "id": "free_shipping",
+               "status": "boosted",
+               "description": "Envíos gratis por Mercado Envíos"
+           },
+           {
+               "id": "shipping_collect",
+               "status": "boosted",
+               "description": "Mercado Envíos Colecta"
+           },
+           {
+               "id": "same_day_shipping",
+               "status": "opportunity",
+               "description": "Envíos en el día por Mercado Envíos"
+           }
+       ]
+   }
+}
+Copiar
+
+Ejemplo de llamada para una publicación que no está compitiendo:
+
+
+curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/items/MLA456789/price_to_win?version=v2
+Copiar
+
+Respuesta con status: listed:
+
+{
+   "item_id": "MLA456789",
+   "current_price": 239999,
+   "currency_id": "ARS",
+   "price_to_win": null,
+   "boosts": [
+       {
+           "id": "fulfillment",
+           "status": "opportunity",
+           "description": "Mercado Envíos Full"
+       },
+       {
+           "id": "free_installments",
+           "status": "opportunity",
+           "description": "Cuotas sin interés"
+       },
+       {
+           "id": "free_shipping",
+           "status": "boosted",
+           "description": "Envíos gratis por Mercado Envíos"
+       },
+       {
+           "id": "shipping_collect",
+           "status": "boosted",
+           "description": "Mercado Envíos Colecta"
+       },
+       {
+           "id": "same_day_shipping",
+           "status": "opportunity",
+           "description": "Envíos en el día por Mercado Envíos"
+       }
+   ],
+   "status": "listed",
+   "consistent": true,
+   "visit_share": "minimum",
+   "competitors_sharing_first_place": null,
+   "reason": [
+       "reputation_below_threshold"
+   ],
+   "catalog_product_id": "MLA15934914",
+   "winner": {
+       "item_id": "MLA765432",
+       "price": 48150,
+       "currency_id": "ARS",
+       "boosts": [
+           {
+               "id": "fulfillment",
+               "status": "opportunity",
+               "description": "Mercado Envíos Full"
+           },
+           {
+               "id": "free_installments",
+               "status": "opportunity",
+               "description": "Cuotas al mismo precio que publicaste"
+           },
+           {
+               "id": "free_shipping",
+               "status": "boosted",
+               "description": "Envíos gratis por Mercado Envíos"
+           },
+           {
+               "id": "shipping_collect",
+               "status": "boosted",
+               "description": "Mercado Envíos Colecta"
+           },
+           {
+               "id": "same_day_shipping",
+               "status": "opportunity",
+               "description": "Envíos en el día por Mercado Envíos"
+           }
+       ]
+   }
+
+Copiar
+Campos de la respuesta
+
+price_to_win: indica el precio (en la moneda actual de la publicación) para que tengas una publicación más competitiva, es decir, que realizando un PUT al recurso /items con el precio sugerido, su publicación tendrá un precio más competitivo en el Catálogo.
+boosts: indica as características da publicação que proporcionam chances de ganhar, tais como:
+
+fulfillment: Mercado Envíos Full.
+free_installments: cuotas sin interés.
+free_shipping: frete grátis con Mercado Envío.
+shipping_collect: Mercado Envíos Coleta.
+same_day_shipping: envíos en el mismo día de la compra con Mercado Envíos.
+
+Puedes reconocer dentro del campo boost el estado según corresponda:
+
+Estado del boost	Detalle
+boosted	Tiene la condición de venta y actualmente aplica el boost.
+not_boosted	Tiene la condición de venta pero no es un boost que mejora las posibilidades de ganar.
+opportunity	No tiene la condición de venta. Si se aplica, mejoraría las chances de ganar.
+not_apply	La condición de venta no aplica como boost en el producto donde compite el ítem.
+
+status: indica si el producto está ganando para el público general o para segmentos minoritarios, por ejemplo: quienes no aprovechan el envío en el mismo día. Cuando está ganando, el valor es winning, de lo contrario será competing índica que se encuentra perdiendo, adicionalmente el valor sharing_first_place para cuando se comparte primer lugar con otras publicaciones dentro de la página de producto.
+
+visit_share:: indica el nivel de visibilidad que tiene tu publicación en el catálogo. Estos valores pueden variar dependiendo los estados:
+
+Winning: siempre será maximum.
+Competing: siempre será maximum.
+Sharing_first_place: siempre será medium.
+
+competitors_sharing_first_place: indica la cantidad de vendedores que comparten el primer lugar. Por lo que dependerá también de los estados de las publicaciones:
+
+Winning: siempre será 0, ya que al ser ganador se lleva todas las ventas y visibilidad en el catálogo.
+Competing: siempre será null, pues al perder tiene que mejorar las condiciones para compartir el primer lugar o ganar.
+Listed: siempre será null, pues al perder tiene que mejorar las condiciones para compartir el primer lugar o ganar.
+Sharing_first_place: mostrará el valor de vendedores que se encuentren compitiendo por el primer lugar.
+
+reason: mostrará información únicamente cuando la publicación no esté compitiendo, permitiendo identificar el motivo por el cual no lo está haciendo y así realizar acciones de mejora.
+
+
+
+
+catalog_product_id: indica el ID de la página de producto a la que pertenece la publicación.
+
+
+
+
+winner: indica el detalle del producto que está actualmente como ganador, permitiendo realizar una comparación rápida, con el item_id de la publicación que estás consultando, mostrando campos como: item_id, price, currency_id y boosts.
+
+
+
+
+Razones
+
+Existen diferentes razones por las que una publicación no se encuentra compitiendo dentro de catálogo, a continuación listamos todos los posibles motivos que responderá el endpoint de endpoint de price_to_win en el atributo reason, que te permitirá realizar las diferentes acciones para mejorar tu publicación e ingresarla a la competencia.
+
+Reason	Explicación
+non_trusted_seller	El vendedor no puede competir porque se encuentra marcado como vendedor no confiable. Aparece en los listados al final.
+reputation_below_threshold	El vendedor no puede competir, ya que no alcanza la reputación requerida para poder ganar. Aparece en los listados.
+item_reputation_below_threshold	La publicación no puede competir, ya que no alcanza la reputación requerida para poder ganar. Aparece en los listados.
+winner_has_better_reputation	El vendedor tiene una reputación que podría competir, pero hay un ganador con mejor reputación. Por el momento, solo aparece en los listados (caso amarillo con winner verde).
+manufacturing_time	La publicación tiene manufacturing time, aparece en los listados y no puede ganar porque el ganador tiene stock inmediato.
+temporarily_winning_manufacturing_time	La publicación tiene manufacturing time, está ganando temporalmente porque no hay competidores en el mismo nivel de reputación sin manufacturing time.
+temporarily_competing_manufacturing_time	La publicación tiene manufacturing time, está compitiendo temporalmente porque no hay competidores en el mismo nivel de reputación sin manufacturing time, el ganador también tiene manufacturing time.
+temporarily_winning_best_reputation_available	El vendedor no es verde, pero cuenta con una reputación que puede ganar y es la mejor oferta disponible. Está ganando temporalmente. Si aparece una mejor oferta, deja de ganar.
+temporarily_competing_best_reputation_available	El vendedor no es verde, pero tiene la mejor reputación disponible, está compitiendo temporalmente. El ganador también es de la misma reputación. Si aparece un mejor vendedor, vuelve a estar únicamente listado.
+item_paused	La publicación está pausada, no puede listarse.
+item_not_opted_in	La publicación no ha hecho opt in, no puede listarse, se utilizó en la llamada un item_id de una publicación que no es de catálogo o es un ítem de test por eso no puede entrar a competir.
+shipping_mode	El vendedor no está compitiendo porque su método de envío es inferior al del ganador. ME2 > ME1 > Custom Shipping > Not Specified.
+newbie_program_seller	El vendedor ha alcanzado el límite de ventas definido por el programa de dosificación de despegue
+
+
+
+Publicación ganadora
+
+Usando el recurso de /products/{product_id}, podrás, además de conocer las características y estado del producto, reconocer mediante el campo buy_box_winner la publicación que está ganando la página de producto.
+
+
+
+
+Ejemplo de respuesta acotada, del detalle de una página de producto:
+
+{
+    "id": "MLM12345",
+    "status": "active",
+    "domain_id": "MLM-CELLPHONES",
+    "permalink": "https://www.mercadolibre.com.mx/apple-iphone-13-pro-128-gb-grafito,
+    "name": "Apple iPhone 13 Pro (128 GB) - Grafito",
+    "family_name": "Apple iPhone 13 Pro",
+    "buy_box_winner": {
+        "item_id": "MLM987654321",
+        "category_id": "MLM1055",
+        "seller_id": 1234567,
+        "price": 25219,
+        "currency_id": "MXN",
+        "available_quantity": 110,
+        "shipping": {
+            "mode": "me2",
+            "tags": [
+                "mandatory_free_shipping"
+            ],
+            "free_shipping": true,
+            "logistic_type": "fulfillment",
+            "store_pick_up": false
+        },
+        "warranty": "Garantía de fábrica: 12 meses",
+        "condition": "new",
+        "sale_terms": [...],
+        "official_store_id": 3953,
+        "original_price": 25999,
+        "listing_type_id": "gold_pro",
+        "accepts_mercadopago": true,
+        "seller_address": {...},
+        "international_delivery_mode": "none",
+        "tags": [...],
+        "item_override_attributes": [],
+        "seller": {
+            "reputation_level_id": "GREEN",
+            "tags": []
+        },
+        "deal_ids": [...],
+        "tier": "candidate",
+        "inventory_id": "DHEV26968",
+        "product_id": "MLM18494248",
+        "site_id": "MLM"
+    },
+    "buy_box_winner_price_range": {
+        "min": {
+            "price": 25219,
+            "currency_id": "MXN"
+        },
+        "max": {
+            "price": 38999,
+            "currency_id": "MXN"
+        }
+    },
+    "pickers": [ ... ],
+    "pictures": [ ... ],
+    "main_features": [ ... ],
+    "attributes": [ ... ],
+    "short_description": { ... },
+    "parent_id": "MLM18494246",
+    "children_ids": [],
+    "settings": { ... },
+    "buy_box_activation_date": "2022-04-22T15:20:15Z",
+    "date_created": "2021-09-27T18:13:54Z"
+}
+Copiar
+Listado de publicaciones de una página de producto (PDP)
+
+Si necesitas conocer cuáles son todas las publicaciones de catálogo (de todos los vendedores) que compiten por las ventas de una página de producto, puedes realizar la siguiente llamada:
+
+curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/products/$PRODUCT_ID/items
+Copiar
+
+Ejemplo:
+
+curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/products/MLA18494233/items
+Copiar
+
+Respuesta simplificada:
+
+{
+    "paging": {
+        "total": 41,
+        "offset": 0,
+        "limit": 100
+    },
+    "results": [
+        {
+            "item_id": "MLA1110011006",
+            "site_id": "MLA",
+            "seller_id": 1234567,
+            "accepts_mercadopago": true,
+            "price": 492499,
+            "category_id": "MLA1055",
+            "currency_id": "ARS",
+            "warranty": "Garantía de fábrica: 12 meses",
+            "condition": "new",
+            "listing_type_id": "gold_special",
+            "international_delivery_mode": "none",
+            "tier": "",
+            "inventory_id": "",
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "extended_warranty_eligible",
+                "immediate_payment",
+                "cart_eligible"
+            ],
+            "deal_ids": [],
+            "official_store_id": null,
+            "original_price": null,
+            "shipping": {
+                "free_shipping": true,
+                "store_pick_up": false,
+                "mode": "me2",
+                "logistic_type": "xd_drop_off",
+                "tags": [
+                    "self_service_in",
+                    "mandatory_free_shipping"
+                ]
+            },
+            "seller_address": {...
+            },
+            "sale_terms": [
+                {
+                    "value_struct": null,
+                    "id": "INVOICE",
+                    "name": "Facturación",
+                    "value_name": "Factura A",
+                    "value_id": "6891885"
+                },
+                {
+                    "value_struct": {
+                        "number": 12,
+                        "unit": "meses"
+                    },
+                    "id": "WARRANTY_TIME",
+                    "name": "Tiempo de garantía",
+                    "value_name": "12 meses",
+                    "value_id": null
+                },
+                {
+                    "value_struct": null,
+                    "id": "WARRANTY_TYPE",
+                    "name": "Tipo de garantía",
+                    "value_name": "Garantía de fábrica",
+                    "value_id": "2230279"
+                }
+            ]
+        },
+        {
+            "item_id": "MLA1150170600",
+            "site_id": "MLA",
+            "seller_id": 7654321,
+            "accepts_mercadopago": true,
+            "price": 493000,
+            "category_id": "MLA1055",
+            "currency_id": "ARS",
+            "warranty": "Garantía de fábrica: 12 meses",
+            "condition": "new",
+            "listing_type_id": "gold_special",
+            "international_delivery_mode": "none",
+            "tier": "",
+            "inventory_id": "",
+            "tags": [...
+            ],
+            "deal_ids": [],
+            "official_store_id": null,
+            "original_price": null,
+            "shipping": {
+              ...
+            },
+            "seller_address": {
+            ...
+            },
+            "sale_terms": [
+              ...
+            ]
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        },
+        {...
+        }
+    ],
+    "experiments": null
+}
+Copiar
+
+Ten en cuenta que results devolverá todas las publicaciones en la página de producto que están compitiendo para ganar ese producto.
+
+
+
+Usar filtros
+
+Puedes utilizar filtros para acotar la respuesta dentro del recurso /products/$PRODUCT_ID/items este filtrado funciona igual que en el recurso de Search /sites/{site}/search donde es posible utilizar los valores de available_filters como parámetro en la URL.
+Actualmente, cuentas con las siguientes opciones de filtrado:
+
+Parámetros	Valor	Explicación
+official_store	all	Muestra unicamente productos ganadores de Tiendas Oficiales.
+
+official_store_id	id	Muestra los productos ganadores de una Tienda Oficial.
+discount	10-100	Muestra productos ganadores con un descuento mayor o igual al 10%.
+price	100-200	Muestra productos ganadores donde su precio esté entre 100 y 200, dependiendo de la currency local.
+
+
+shipping	fulfillment	Muestra productos ganadores con logística fulfillment.
+shipping	mercadoenvios	Muestra productos ganadores sin logística fulfillment.
+shipping_cost	free	Muestra productos ganadores con envío gratis.
+shipping_time	sameday/ nextday	Debe ser usado junto con el query param b.buyer_zones el cual indica en qué zonas se encuentra el comprador.
+seller_id	id	Muestra productos por user_id.
+
+Ejemplo de llamada usando filtros:
+
+
+curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.mercadolibre.com/products/MLM123456789/items?shipping_cost=free
+Copiar
+
+Próxima: Brand Central.
+
+Contenidos
+Competencia
+Notificaciones por cambio de estado
+Detalle de la competencia
+Razones
+Publicación ganadora
+Listado de publicaciones de una página de producto (PDP)
+Usar filtros
+Denunciar
+Security Researchers
+Centro de Partners
+
+Copyright © 2026 MercadoLibre S.R.L.
+
+Términos y condiciones
+Cómo cuidamos vos privacidad
+Developer Partner Program

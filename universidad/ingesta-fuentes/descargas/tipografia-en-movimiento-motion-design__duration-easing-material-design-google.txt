@@ -1,0 +1,130 @@
+Duration & easing - Motion - Material Design
+Motion
+–
+Duration & easing
+search
+close
+Search
+Artboard
+Site feedback
+Privacy
+Terms
+Duration & easing
+Material in motion is responsive and natural. Use these easing curves and duration patterns to create smooth and consistent motion.
+Easing curves
+Standard curve
+Deceleration curve
+Acceleration curve
+Sharp curve
+Speed
+Expand and collapse content
+An arrow that points down when collapsed and points up when expanded.
+When elements move between positions or states, the movement should be fast enough that it doesn't cause waiting, but slow enough that the transition can be understood. Keep transitions short as users will see them frequently.
+Do.
+Animate quickly so that the user doesn’t have to wait for the animation to finish.
+Don’t.
+Don’t animate slowly as it creates unnecessary lag.
+Dynamic durations
+Expand and collapse content
+An arrow that points down when collapsed and points up when expanded.
+Rather than using a single duration for all animations, adjust each duration to accommodate the distance travelled, an element's velocity, and surface changes.
+Objects leaving the screen
+may have shorter durations, as they require less attention.
+Use longer durations when objects need to travel large distances or have dramatic changes in surface area.
+Use shorter durations when objects travel short distances or have minor changes in surface area, so that the movement doesn't appear too slow.
+Common durations
+Expand and collapse content
+An arrow that points down when collapsed and points up when expanded.
+Mobile
+Transitions on mobile typically occur over 300ms, within this margin of variance:
+Large, complex, full-screen transitions may have longer durations, occurring over 375ms
+Elements entering the screen occur over 225ms
+Elements leaving the screen occur over 195ms
+Transitions that exceed 400ms may feel too slow.
+Larger screens
+Elements travelling longer distances on larger screens have higher peak velocities than those going shorter distances over the same time period. Larger screens should have longer durations so that movements aren't too fast.
+Tablets
+Durations on tablet should be about 30% longer than on mobile. For example, a 300ms mobile duration would increase to 390ms on tablet.
+Wearables
+Durations on wearables should be about 30% shorter than those on mobile. For example, a 300ms mobile duration would be 210ms on wearables.
+Because material must move greater distances on larger devices, transitions may have slightly slower durations than on smaller devices.
+Desktop
+Desktop animations should be faster and simpler than their mobile counterparts. These animations should last 150ms to 200ms.
+Because desktop transitions may be less noticeable, they should be immediately responsive and faster than their mobile counterparts.
+Complex web transitions often result in dropped frames (unless they are built for GPU acceleration). Shorter durations will make these less noticeable because the animation completes faster.
+Transitions appear much faster on desktop.
+Natural easing curves
+Expand and collapse content
+An arrow that points down when collapsed and points up when expanded.
+These natural easing curves affect an element’s speed, opacity, and scale.
+Acceleration and deceleration changes should be smooth across the duration of an animation so that movement doesn't appear mechanical.
+Motion appears more natural and delightful when acceleration and deceleration occur asymmetrically.
+Easing curves
+Easing curves may be named differently depending on the platform or software used. These guidelines will refer to them as standard, deceleration, acceleration, and sharp curves.
+Standard curve
+The standard curve (also referred to as “ease in out”) is the most common easing curve. Elements quickly accelerate and slowly decelerate between on-screen locations. It applies to growing and shrinking material, among other property changes.
+See more in
+Movement within screen bounds
+.
+Platform
+Protocol
+Android
+FastOutSlowInInterpolator
+iOS
+[[CAMediaTimingFunction alloc] initWithControlPoints:0.4f:0.0f:0.2f:1.0f]
+CSS
+cubic-bezier(0.4, 0.0, 0.2, 1);
+After Effects
+Outgoing Velocity: 40%
+Incoming Velocity: 80%
+Deceleration curve
+Using the deceleration curve (also referred to as “ease out”) elements enter the screen at full velocity and slowly decelerate to a resting point.
+During deceleration, elements may scale up either in size (to 100%) or opacity (to 100%). In some cases, when elements enter the screen at 0% opacity, they may slightly shrink from a larger size upon entry.
+See more in
+Movement in and out of screen bounds
+.
+Platform
+Protocol
+Android
+LinearOutSlowInInterpolator
+iOS
+[[CAMediaTimingFunction alloc] initWithControlPoints:0.0f:0.0f:0.2f:1.0f]
+CSS
+cubic-bezier(0.0, 0.0, 0.2, 1);
+After Effects
+Outgoing Velocity: 0%
+Incoming Velocity: 80%
+Acceleration curve
+Using the acceleration curve (also referred to as “ease in”) elements leave the screen at full velocity. They do not decelerate when off-screen.
+They accelerate at the beginning of the animation and may scale down in either size (to 0%) or opacity (to 0%). In some cases, when elements leave the screen at 0% opacity, they may also slightly scale up or down in size.
+See more in
+Movement in and out of screen bounds
+.
+Platform
+Protocol
+Android
+FastOutLinearInInterpolator
+iOS
+[CAMediaTimingFunction alloc] initWithControlPoints:0.4f:0.0f:1.0f:1.0f]
+CSS
+cubic-bezier(0.4, 0.0, 1, 1);
+After Effects
+Outgoing Velocity: 40%
+Incoming Velocity: 0%
+Sharp curve
+Using the sharp curve (also referred to as “ease in out”) elements quickly accelerate and decelerate. It is used by exiting elements that may return to the screen at any time.
+Elements may quickly accelerate from a starting point on-screen, then quickly decelerate in a symmetrical curve to a resting point immediately off-screen. The deceleration is faster than the standard curve since it doesn't follow an exact path to the off-screen point. Elements may return from that point at any time.
+See more in
+Movement in and out of screen bounds
+.
+Platform
+Protocol
+Android
+-
+iOS
+-
+CSS
+cubic-bezier(0.4, 0.0, 0.6, 1);
+After Effects
+Outgoing Velocity: 40%
+Incoming Velocity: 40%

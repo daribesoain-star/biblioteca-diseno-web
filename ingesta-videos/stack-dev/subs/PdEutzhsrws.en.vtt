@@ -1,0 +1,2377 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.099
+I'm going to show you how to add
+
+00:00:01.099 --> 00:00:03.133
+authorization to an existing application
+
+00:00:03.133 --> 00:00:04.500
+using row-level security
+
+00:00:04.533 --> 00:00:06.233
+policies. We're going to be extending
+
+00:00:06.233 --> 00:00:07.133
+this email client
+
+00:00:07.133 --> 00:00:08.833
+application, originally built by Lee
+
+00:00:08.833 --> 00:00:10.633
+Robertson at Verselle, and we're going to
+
+00:00:10.633 --> 00:00:12.233
+be going pretty deep on the Postgres
+
+00:00:12.233 --> 00:00:12.966
+side. So we're going
+
+00:00:12.966 --> 00:00:14.633
+to be learning about functions, triggers,
+
+00:00:15.000 --> 00:00:16.066
+security definers on
+
+00:00:16.066 --> 00:00:17.699
+roles, and setting up one-to-one
+
+00:00:17.699 --> 00:00:19.833
+relationships across tables in different
+
+00:00:19.833 --> 00:00:21.699
+schemas. If you haven't been following
+
+00:00:21.699 --> 00:00:22.433
+along with the series,
+
+00:00:22.800 --> 00:00:24.166
+I'll leave a link to the full playlist in
+
+00:00:24.166 --> 00:00:25.133
+the description. But
+
+00:00:25.133 --> 00:00:25.966
+don't worry, this video can be
+
+00:00:25.966 --> 00:00:28.000
+watched without any context of what we've
+
+00:00:28.000 --> 00:00:29.333
+done so far, so long as
+
+00:00:29.333 --> 00:00:30.566
+you understand what an email
+
+00:00:30.566 --> 00:00:32.800
+client looks like. And even if you don't,
+
+00:00:32.800 --> 00:00:33.966
+this is it. We have a
+
+00:00:33.966 --> 00:00:35.400
+panel of folders on the left,
+
+00:00:35.400 --> 00:00:37.233
+a list of emails in those folders in the
+
+00:00:37.233 --> 00:00:38.300
+middle, and then if we click
+
+00:00:38.300 --> 00:00:39.500
+one of these emails, we see
+
+00:00:39.500 --> 00:00:41.433
+the content of the selected email on the
+
+00:00:41.433 --> 00:00:42.666
+right. We can send a new
+
+00:00:42.666 --> 00:00:44.466
+email or delete an existing one,
+
+00:00:44.466 --> 00:00:46.333
+and we've also added the ability to log
+
+00:00:46.333 --> 00:00:47.766
+in with GitHub. So if I log
+
+00:00:47.766 --> 00:00:49.166
+out, we'll see this "sign in
+
+00:00:49.166 --> 00:00:51.066
+with GitHub" page, and so if we try to go
+
+00:00:51.066 --> 00:00:52.366
+back to our landing page,
+
+00:00:52.366 --> 00:00:53.266
+you'll see we're automatically
+
+00:00:53.433 --> 00:00:55.333
+redirected to this login page, so we
+
+00:00:55.333 --> 00:00:57.233
+can't actually access our emails unless
+
+00:00:57.233 --> 00:00:58.533
+we sign in with GitHub.
+
+00:00:58.533 --> 00:01:00.066
+But we're not doing any filtering on
+
+00:01:00.066 --> 00:01:01.500
+these emails displayed. If we
+
+00:01:01.500 --> 00:01:02.533
+have a look at the Supabase
+
+00:01:02.533 --> 00:01:04.300
+dashboard, and then under the table
+
+00:01:04.300 --> 00:01:06.000
+editor and emails, we'll see
+
+00:01:06.000 --> 00:01:08.266
+the IDs for our sender and our
+
+00:01:08.266 --> 00:01:10.500
+recipient are ones and twos and threes
+
+00:01:10.500 --> 00:01:12.000
+and all the way up to ten. And
+
+00:01:12.000 --> 00:01:13.199
+if we have a look at our users
+
+00:01:13.199 --> 00:01:15.300
+table, we don't actually have a row for
+
+00:01:15.300 --> 00:01:17.199
+our John user. And if we go over to
+
+00:01:17.199 --> 00:01:18.599
+authentication and then
+
+00:01:18.633 --> 00:01:20.933
+users, we'll see there's only one user,
+
+00:01:20.933 --> 00:01:22.466
+which is John, who used the provider
+
+00:01:22.466 --> 00:01:23.933
+GitHub. So we have two
+
+00:01:23.933 --> 00:01:26.466
+separate users tables. We have the ones
+
+00:01:26.466 --> 00:01:27.433
+that have sent and received
+
+00:01:27.433 --> 00:01:28.833
+emails, and then we have the
+
+00:01:28.833 --> 00:01:30.599
+ones who have signed in with GitHub. And
+
+00:01:30.599 --> 00:01:31.866
+if we head over to database
+
+00:01:31.866 --> 00:01:33.733
+and then schema visualizer,
+
+00:01:33.733 --> 00:01:35.599
+we can see this very cool entity
+
+00:01:35.599 --> 00:01:37.966
+relationship diagram of all of our tables
+
+00:01:37.966 --> 00:01:38.966
+and their relationships
+
+00:01:38.966 --> 00:01:40.466
+to each other. I can just zoom out
+
+00:01:40.466 --> 00:01:42.433
+slightly so we can see all of it. So the
+
+00:01:42.433 --> 00:01:44.133
+ID on our users table has
+
+00:01:44.133 --> 00:01:46.266
+a relationship to the sender ID and the
+
+00:01:46.266 --> 00:01:48.633
+recipient ID in emails, and also a
+
+00:01:48.633 --> 00:01:49.566
+relationship to the user
+
+00:01:49.566 --> 00:01:51.766
+ID in our user folders table. So this is
+
+00:01:51.766 --> 00:01:53.866
+everything in the public schema or the
+
+00:01:53.866 --> 00:01:54.933
+tables we've created
+
+00:01:54.933 --> 00:01:56.633
+for our application. But there are a
+
+00:01:56.633 --> 00:01:57.866
+collection of other schemas
+
+00:01:57.866 --> 00:01:59.633
+being managed either by Supabase
+
+00:01:59.833 --> 00:02:02.133
+or any extensions that we have enabled.
+
+00:02:02.133 --> 00:02:03.033
+And if we have a look at the
+
+00:02:03.033 --> 00:02:04.400
+auth schema, this is all the
+
+00:02:04.400 --> 00:02:06.533
+complicated stuff Supabase uses to keep
+
+00:02:06.533 --> 00:02:08.666
+a track of our sessions and also our
+
+00:02:08.666 --> 00:02:09.800
+users. So this is the
+
+00:02:09.833 --> 00:02:12.000
+users table where our users are created
+
+00:02:12.000 --> 00:02:13.166
+when they sign in with
+
+00:02:13.166 --> 00:02:15.000
+GitHub. And then back over in our
+
+00:02:15.000 --> 00:02:17.199
+public schema, we have our users table
+
+00:02:17.199 --> 00:02:18.633
+that's linked to our emails
+
+00:02:18.633 --> 00:02:20.099
+and the rest of our application.
+
+00:02:20.466 --> 00:02:22.233
+So we want to set up a relationship
+
+00:02:22.233 --> 00:02:25.033
+across these schemas to link out to users
+
+00:02:25.033 --> 00:02:26.566
+tables. But the types
+
+00:02:26.699 --> 00:02:30.000
+for our IDs do not match our public users
+
+00:02:30.000 --> 00:02:32.866
+ID is an int for and in our
+
+00:02:32.866 --> 00:02:34.933
+auth schema, our users tables
+
+00:02:35.300 --> 00:02:38.266
+ID is a UUID. And you can only set up
+
+00:02:38.266 --> 00:02:39.333
+foreign key relationships
+
+00:02:39.333 --> 00:02:40.666
+between two columns that have
+
+00:02:40.666 --> 00:02:43.266
+the same type. So in order to link our
+
+00:02:43.266 --> 00:02:46.099
+public schemas users table to our auth
+
+00:02:46.099 --> 00:02:47.533
+schemas users table,
+
+00:02:47.533 --> 00:02:49.466
+we're going to create a new column for
+
+00:02:49.466 --> 00:02:52.333
+our public user that's of type UUID. So
+
+00:02:52.333 --> 00:02:53.300
+let's head over to the
+
+00:02:53.300 --> 00:02:55.199
+table editor. And then for our users
+
+00:02:55.199 --> 00:02:57.466
+table, we want to scroll across to the
+
+00:02:57.466 --> 00:02:58.833
+end and click this plus
+
+00:02:58.833 --> 00:03:00.933
+to add a new column. The name is going to
+
+00:03:00.933 --> 00:03:02.266
+be supabase_id.
+
+00:03:02.266 --> 00:03:03.666
+We're going to click here
+
+00:03:03.699 --> 00:03:06.466
+to add a foreign key relation to the auth
+
+00:03:06.466 --> 00:03:07.933
+schema. The table we want
+
+00:03:07.933 --> 00:03:10.233
+to reference is users and the
+
+00:03:10.233 --> 00:03:12.000
+column we want to reference in the
+
+00:03:12.000 --> 00:03:14.400
+auth.users table is the ID. If we scroll
+
+00:03:14.400 --> 00:03:15.766
+down, we can also set up
+
+00:03:15.766 --> 00:03:17.766
+the behavior for what we want to do if
+
+00:03:17.766 --> 00:03:19.933
+the row is updated in the auth.users
+
+00:03:19.933 --> 00:03:20.966
+table. So in this case,
+
+00:03:20.966 --> 00:03:22.500
+we don't want to do anything. So we want
+
+00:03:22.500 --> 00:03:24.333
+it to raise an error if it breaks
+
+00:03:24.333 --> 00:03:25.199
+something that's needed
+
+00:03:25.199 --> 00:03:27.233
+for that foreign key relationship. So if
+
+00:03:27.233 --> 00:03:28.866
+the ID has changed, which
+
+00:03:28.866 --> 00:03:30.433
+shouldn't ever happen, we want
+
+00:03:30.466 --> 00:03:32.366
+to get an error. However, if the
+
+00:03:32.366 --> 00:03:35.033
+auth.user is entirely removed, we could
+
+00:03:35.033 --> 00:03:36.300
+go with no action and
+
+00:03:36.300 --> 00:03:38.400
+raise an error or we could do cascade,
+
+00:03:38.699 --> 00:03:39.733
+meaning if a user is
+
+00:03:39.733 --> 00:03:41.533
+deleted from the auth.users table,
+
+00:03:41.866 --> 00:03:43.533
+we want to cascade those deletes to the
+
+00:03:43.533 --> 00:03:44.833
+public users table. So
+
+00:03:44.833 --> 00:03:46.033
+they would also be deleted,
+
+00:03:46.400 --> 00:03:48.000
+but then we'd need to cascade the deletes
+
+00:03:48.000 --> 00:03:49.933
+to all of their emails and
+
+00:03:49.933 --> 00:03:51.233
+all of the other tables where
+
+00:03:51.233 --> 00:03:53.666
+they're a recipient or a sender. And so
+
+00:03:53.666 --> 00:03:55.099
+it probably doesn't make sense for us to
+
+00:03:55.099 --> 00:03:56.199
+just nuke all of their
+
+00:03:56.233 --> 00:03:57.900
+existence from the entire database.
+
+00:03:58.433 --> 00:04:00.000
+Instead, we're just going to set this to
+
+00:04:00.000 --> 00:04:01.333
+null. So if the user is
+
+00:04:01.333 --> 00:04:03.066
+deleted from the auth.users table,
+
+00:04:03.333 --> 00:04:05.400
+nothing happens to our public user, which
+
+00:04:05.400 --> 00:04:06.400
+is linked to all of the
+
+00:04:06.400 --> 00:04:08.099
+data of our application. It just removes
+
+00:04:08.099 --> 00:04:08.766
+that link to the
+
+00:04:08.766 --> 00:04:10.866
+auth.users table. So our public user
+
+00:04:10.966 --> 00:04:13.500
+no longer has an auth.user. And then we
+
+00:04:13.500 --> 00:04:15.000
+can click save to set up that
+
+00:04:15.000 --> 00:04:16.199
+relationship. And if we
+
+00:04:16.199 --> 00:04:17.833
+scroll down a little bit, we can see the
+
+00:04:17.833 --> 00:04:19.866
+type has correctly been set to UUID,
+
+00:04:20.233 --> 00:04:20.933
+which is the type of
+
+00:04:20.933 --> 00:04:23.233
+our ID in the auth.users table. The
+
+00:04:23.233 --> 00:04:24.966
+default value is going to be null. So we
+
+00:04:24.966 --> 00:04:25.866
+need to make sure that
+
+00:04:25.900 --> 00:04:28.433
+allow nullable is enabled. We also want
+
+00:04:28.433 --> 00:04:29.800
+this column to be unique.
+
+00:04:30.366 --> 00:04:31.599
+So this sets up a one-to-one
+
+00:04:31.599 --> 00:04:33.199
+relationship between our public
+
+00:04:33.199 --> 00:04:35.300
+schemas.users table and our
+
+00:04:35.300 --> 00:04:37.333
+auth.schemas.users table. So there
+
+00:04:37.333 --> 00:04:39.400
+can only be one user in the public schema
+
+00:04:39.400 --> 00:04:40.566
+that references a
+
+00:04:40.566 --> 00:04:42.266
+particular user in the auth schema.
+
+00:04:42.699 --> 00:04:44.500
+So let's click save to create that new
+
+00:04:44.500 --> 00:04:46.133
+column. And now anytime a
+
+00:04:46.133 --> 00:04:48.099
+new user is created in the
+
+00:04:48.099 --> 00:04:50.966
+auth.schemas.users table. So when a new
+
+00:04:50.966 --> 00:04:52.366
+user signs into our
+
+00:04:52.366 --> 00:04:53.933
+Next.js application using GitHub,
+
+00:04:53.966 --> 00:04:56.233
+a row will automatically be added to this
+
+00:04:56.233 --> 00:04:57.166
+table. And when that
+
+00:04:57.166 --> 00:04:59.000
+happens, we want to automatically
+
+00:04:59.166 --> 00:05:01.366
+create a new user in our public
+
+00:05:01.366 --> 00:05:03.633
+schemas.users table and link them up
+
+00:05:03.633 --> 00:05:05.566
+using this Supabase ID column.
+
+00:05:05.833 --> 00:05:08.166
+And we can do exactly that with a trigger
+
+00:05:08.166 --> 00:05:09.533
+function. So let's head over
+
+00:05:09.533 --> 00:05:11.466
+to database and then functions
+
+00:05:11.666 --> 00:05:13.933
+and then create a new function. The name
+
+00:05:13.933 --> 00:05:15.366
+of this one can be handle
+
+00:05:15.366 --> 00:05:17.166
+public user. The schema will be
+
+00:05:17.166 --> 00:05:19.133
+public. The return type of this one will
+
+00:05:19.133 --> 00:05:20.533
+be a trigger. We don't
+
+00:05:20.533 --> 00:05:22.133
+need any arguments. And then
+
+00:05:22.166 --> 00:05:24.199
+in the definition of our function, we
+
+00:05:24.199 --> 00:05:26.366
+need a begin and an end. So
+
+00:05:26.366 --> 00:05:27.666
+you can learn all about begin
+
+00:05:27.666 --> 00:05:29.833
+and end and postgres functions and
+
+00:05:29.833 --> 00:05:31.666
+transactions in a video we did
+
+00:05:31.666 --> 00:05:33.366
+earlier in this series. Again,
+
+00:05:33.699 --> 00:05:35.266
+link to that playlist in the description.
+
+00:05:35.633 --> 00:05:36.733
+So inside the body of
+
+00:05:36.733 --> 00:05:38.133
+our function, we want to
+
+00:05:38.233 --> 00:05:41.400
+insert a new row into the public.users
+
+00:05:41.400 --> 00:05:43.066
+table. And we just want to set the
+
+00:05:43.066 --> 00:05:44.566
+supabase_id column
+
+00:05:44.699 --> 00:05:47.033
+and the user's email. So the
+
+00:05:47.033 --> 00:05:50.866
+values will be new.id. So this new
+
+00:05:50.866 --> 00:05:52.433
+variable is special to trigger
+
+00:05:52.466 --> 00:05:54.800
+functions and represents the entire row
+
+00:05:54.800 --> 00:05:56.466
+that's just been created in the
+
+00:05:56.466 --> 00:05:58.400
+auth.users table. So the
+
+00:05:58.466 --> 00:06:01.633
+new.id is the ID of the user who's just
+
+00:06:01.633 --> 00:06:03.133
+signed in with GitHub and been
+
+00:06:03.133 --> 00:06:04.400
+automatically added in the
+
+00:06:04.400 --> 00:06:06.666
+auth.users table. So to access their
+
+00:06:06.666 --> 00:06:07.866
+email, we can say
+
+00:06:07.866 --> 00:06:12.599
+new.raw_user_meta_data, which is a big
+
+00:06:12.633 --> 00:06:14.599
+JSON blob of all the information we get
+
+00:06:14.599 --> 00:06:16.933
+back from GitHub about this user. So we
+
+00:06:16.933 --> 00:06:18.266
+can access the email
+
+00:06:18.266 --> 00:06:20.266
+property using this dash greater than
+
+00:06:20.266 --> 00:06:22.199
+greater than symbol and then the string
+
+00:06:22.199 --> 00:06:23.400
+of the property in that
+
+00:06:23.400 --> 00:06:25.199
+big JSON blob. So in this case, that's
+
+00:06:25.199 --> 00:06:27.233
+email. And then we'll add a semicolon at
+
+00:06:27.233 --> 00:06:28.266
+the end and make sure
+
+00:06:28.300 --> 00:06:30.833
+we return that new variable. Now this
+
+00:06:30.833 --> 00:06:32.466
+will insert a new user into
+
+00:06:32.466 --> 00:06:34.166
+the public schema, but one may
+
+00:06:34.166 --> 00:06:35.766
+already exist if they've been the
+
+00:06:35.766 --> 00:06:38.766
+recipient of an existing email. This is
+
+00:06:38.766 --> 00:06:40.699
+tricky. I love it. So this
+
+00:06:40.733 --> 00:06:42.433
+means we need to use an upsert action,
+
+00:06:42.666 --> 00:06:44.633
+which first attempts to insert a new
+
+00:06:44.633 --> 00:06:45.933
+user, but if one already
+
+00:06:45.933 --> 00:06:48.066
+exists, it will instead update its
+
+00:06:48.066 --> 00:06:50.699
+supabase_id column to link it to that
+
+00:06:50.699 --> 00:06:51.933
+new user in the auth
+
+00:06:51.933 --> 00:06:54.333
+schema. The way we do upserts in Postgres
+
+00:06:54.333 --> 00:06:55.800
+is we first try to insert
+
+00:06:55.800 --> 00:06:57.099
+that new user with those
+
+00:06:57.099 --> 00:07:00.533
+values and then on conflict of the email
+
+00:07:00.533 --> 00:07:01.933
+column. So a user already
+
+00:07:01.933 --> 00:07:03.833
+exists in our public users table
+
+00:07:04.000 --> 00:07:06.099
+with that specific email. So in that
+
+00:07:06.099 --> 00:07:08.133
+case, we want to do an
+
+00:07:08.133 --> 00:07:11.233
+update and set the supabase_id
+
+00:07:11.233 --> 00:07:14.033
+column to equal our new .id. And the last
+
+00:07:14.033 --> 00:07:15.800
+thing we need to do is click show
+
+00:07:15.800 --> 00:07:17.033
+advanced settings and
+
+00:07:17.033 --> 00:07:19.000
+then change our type of security from
+
+00:07:19.000 --> 00:07:20.433
+security invoker, which
+
+00:07:20.433 --> 00:07:21.866
+we'll call it on behalf of our
+
+00:07:21.866 --> 00:07:24.333
+user. So RLS, which we'll look at soon
+
+00:07:24.333 --> 00:07:25.366
+will be enforced. We
+
+00:07:25.366 --> 00:07:26.533
+instead want to change this to
+
+00:07:26.533 --> 00:07:28.666
+security definer, which executes the
+
+00:07:28.666 --> 00:07:30.266
+function with our current level of
+
+00:07:30.266 --> 00:07:31.333
+privileges, which is the
+
+00:07:31.366 --> 00:07:33.199
+Postgres role, which we use for our
+
+00:07:33.199 --> 00:07:34.433
+Supabase dashboard. Again,
+
+00:07:34.433 --> 00:07:35.566
+we'll go into roles later,
+
+00:07:35.566 --> 00:07:36.966
+but basically if we're doing something on
+
+00:07:36.966 --> 00:07:38.066
+behalf of the user, then we
+
+00:07:38.066 --> 00:07:39.366
+want security invoker. But
+
+00:07:39.366 --> 00:07:41.566
+because this is a system action that's to
+
+00:07:41.566 --> 00:07:42.766
+do with the integrity of
+
+00:07:42.766 --> 00:07:44.066
+our database, we want to do
+
+00:07:44.066 --> 00:07:45.900
+security definer. So let's click confirm
+
+00:07:45.900 --> 00:07:47.833
+to create that function. And now we want
+
+00:07:47.833 --> 00:07:49.000
+to call that function
+
+00:07:49.033 --> 00:07:50.900
+when a new user is added to the
+
+00:07:50.900 --> 00:07:53.400
+auth.users table. So let's head over to
+
+00:07:53.400 --> 00:07:54.766
+the SQL editor and we can
+
+00:07:54.800 --> 00:07:56.966
+get Supabase AI to help us out. So let's
+
+00:07:56.966 --> 00:07:58.566
+say create a trigger
+
+00:07:58.566 --> 00:08:01.233
+that calls the handle_public_user
+
+00:08:01.266 --> 00:08:04.266
+function when a row is
+
+00:08:04.266 --> 00:08:06.099
+inserted into the
+
+00:08:06.099 --> 00:08:08.300
+auth.users table. And let's see what
+
+00:08:08.300 --> 00:08:10.000
+it comes up with. That looks pretty good.
+
+00:08:10.000 --> 00:08:11.300
+Let's accept that change.
+
+00:08:11.599 --> 00:08:13.000
+So we're creating a trigger
+
+00:08:13.033 --> 00:08:14.866
+called this. We probably don't want that
+
+00:08:14.866 --> 00:08:16.033
+to be the same name as our
+
+00:08:16.033 --> 00:08:17.433
+function. So maybe we'll call it
+
+00:08:17.433 --> 00:08:20.366
+on auth user created. So after that
+
+00:08:20.366 --> 00:08:22.233
+insert takes place on the auth.users
+
+00:08:22.233 --> 00:08:23.733
+table for each row that's
+
+00:08:23.766 --> 00:08:25.733
+affected by the statement. So for each
+
+00:08:25.733 --> 00:08:27.199
+user added to the auth.users
+
+00:08:27.199 --> 00:08:28.933
+table, we want to execute the
+
+00:08:28.933 --> 00:08:30.899
+function handle_public_user. So let's
+
+00:08:30.899 --> 00:08:31.966
+click run to create that
+
+00:08:31.966 --> 00:08:33.766
+trigger and we see success no rows
+
+00:08:33.766 --> 00:08:35.433
+returned. So everything's all good. So to
+
+00:08:35.433 --> 00:08:36.933
+test this out, we can go back to our
+
+00:08:36.933 --> 00:08:38.033
+application and then
+
+00:08:38.033 --> 00:08:39.899
+sign out our user. And then in the
+
+00:08:39.899 --> 00:08:41.266
+Supabase dashboard, go to
+
+00:08:41.266 --> 00:08:43.033
+authentication and then under
+
+00:08:43.033 --> 00:08:45.199
+users, we want to find our John user and
+
+00:08:45.199 --> 00:08:46.166
+click these three dots
+
+00:08:46.166 --> 00:08:47.833
+and say delete user. This is
+
+00:08:47.833 --> 00:08:49.199
+just a warning telling us that this is
+
+00:08:49.199 --> 00:08:50.766
+permanent. And so let's click delete.
+
+00:08:51.033 --> 00:08:51.800
+Now, if we go back to
+
+00:08:51.833 --> 00:08:53.766
+our application and sign in with GitHub
+
+00:08:53.766 --> 00:08:55.199
+again, we'll see that authentication
+
+00:08:55.199 --> 00:08:56.399
+process was successful.
+
+00:08:56.699 --> 00:08:58.300
+We can see our John user there. If we go
+
+00:08:58.300 --> 00:08:59.500
+back to the Supabase
+
+00:08:59.500 --> 00:09:01.733
+dashboard and then reload our users,
+
+00:09:02.000 --> 00:09:03.766
+we'll see that John user is back and has
+
+00:09:03.766 --> 00:09:05.199
+signed in with GitHub. And if
+
+00:09:05.199 --> 00:09:06.766
+we go over to the table editor
+
+00:09:06.866 --> 00:09:09.033
+and look at the users table, we can see
+
+00:09:09.033 --> 00:09:10.266
+our user has automatically
+
+00:09:10.266 --> 00:09:12.066
+been created and linked to the
+
+00:09:12.066 --> 00:09:14.633
+auth.users table with this Supabase ID
+
+00:09:14.633 --> 00:09:15.899
+column. But back over in
+
+00:09:15.899 --> 00:09:16.699
+our application, this still
+
+00:09:16.733 --> 00:09:18.966
+doesn't change the emails that our John
+
+00:09:18.966 --> 00:09:20.733
+user is able to see. So let's
+
+00:09:20.733 --> 00:09:21.866
+make it so that our John user
+
+00:09:21.866 --> 00:09:24.100
+is only able to see emails that he either
+
+00:09:24.100 --> 00:09:25.899
+sent or received. So let's
+
+00:09:25.899 --> 00:09:27.133
+head back over to authentication
+
+00:09:27.366 --> 00:09:29.433
+and then policies. And then we want to
+
+00:09:29.433 --> 00:09:31.100
+enable RLS or row level
+
+00:09:31.100 --> 00:09:32.933
+security for the emails table. Let's
+
+00:09:32.933 --> 00:09:35.300
+click enable RLS and confirm. And we'll
+
+00:09:35.300 --> 00:09:36.300
+see this one's now green
+
+00:09:36.300 --> 00:09:38.133
+instead of all this yellowy orange
+
+00:09:38.466 --> 00:09:40.300
+caution stuff. So we're on the right
+
+00:09:40.300 --> 00:09:41.966
+track. Now, by default, RLS
+
+00:09:41.966 --> 00:09:43.399
+automatically denies all requests
+
+00:09:43.500 --> 00:09:45.199
+to the table. So no one can select,
+
+00:09:45.399 --> 00:09:46.699
+insert, update or delete
+
+00:09:46.699 --> 00:09:48.566
+any of our emails. So if we go
+
+00:09:48.566 --> 00:09:50.500
+back to our application, we can still see
+
+00:09:50.500 --> 00:09:51.633
+those emails. So let's
+
+00:09:51.633 --> 00:09:53.733
+refresh and we can still see
+
+00:09:53.733 --> 00:09:55.733
+those emails. Wait, what? They're all
+
+00:09:55.733 --> 00:09:58.899
+still there. Is RLS not working? RLS is
+
+00:09:58.899 --> 00:09:59.899
+definitely enabled on
+
+00:09:59.899 --> 00:10:01.600
+the emails table and we haven't written
+
+00:10:01.600 --> 00:10:02.733
+any policies to enable
+
+00:10:02.733 --> 00:10:04.066
+any of those actions. So it
+
+00:10:04.066 --> 00:10:05.833
+should definitely be denying requests to
+
+00:10:05.833 --> 00:10:06.966
+select data from the emails
+
+00:10:06.966 --> 00:10:07.966
+table. But our application
+
+00:10:08.233 --> 00:10:10.699
+isn't actually using just emails table.
+
+00:10:10.966 --> 00:10:12.066
+We're using this view for
+
+00:10:12.066 --> 00:10:13.699
+the emails with folder and
+
+00:10:13.699 --> 00:10:15.933
+users. So this joins together all of the
+
+00:10:15.933 --> 00:10:17.566
+data about the email and
+
+00:10:17.566 --> 00:10:19.000
+then a big JSON blob for
+
+00:10:19.000 --> 00:10:20.933
+the recipient and the sender. And it also
+
+00:10:20.933 --> 00:10:22.100
+gives us the folder that
+
+00:10:22.100 --> 00:10:23.800
+they belong to. And by default,
+
+00:10:24.033 --> 00:10:26.600
+views bypass RLS. But we can fix this
+
+00:10:26.600 --> 00:10:27.766
+pretty easily. We can
+
+00:10:27.766 --> 00:10:29.500
+toggle between the data that's
+
+00:10:29.500 --> 00:10:31.533
+returned by our view and the definition,
+
+00:10:31.533 --> 00:10:33.100
+which gives us the SQL
+
+00:10:33.100 --> 00:10:34.933
+required to reconstruct that
+
+00:10:34.966 --> 00:10:37.033
+table from scratch. And we can open this
+
+00:10:37.033 --> 00:10:38.500
+one up directly in the SQL
+
+00:10:38.500 --> 00:10:39.733
+editor. And now we can make
+
+00:10:39.733 --> 00:10:42.366
+some changes by saying create or replace
+
+00:10:42.366 --> 00:10:44.233
+a view called emails with
+
+00:10:44.233 --> 00:10:45.366
+folder and users. And then we
+
+00:10:45.366 --> 00:10:48.000
+can add a with clause to set
+
+00:10:48.000 --> 00:10:50.666
+security_invoker equal to true. Now, if
+
+00:10:50.666 --> 00:10:51.533
+we run this statement,
+
+00:10:51.533 --> 00:10:53.800
+we see success, no rows returned. And if
+
+00:10:53.800 --> 00:10:55.399
+we go back to our application and
+
+00:10:55.399 --> 00:10:56.500
+refresh, we'll see our
+
+00:10:56.500 --> 00:10:58.533
+John user is no longer able to see any
+
+00:10:58.533 --> 00:10:59.766
+emails because the view
+
+00:10:59.766 --> 00:11:01.333
+that selects this data is now
+
+00:11:01.333 --> 00:11:04.233
+honoring RLS. So we can see the count for
+
+00:11:04.233 --> 00:11:05.533
+each of our folders is still
+
+00:11:05.533 --> 00:11:07.199
+bypassing RLS. And if we go
+
+00:11:07.199 --> 00:11:08.966
+back to the Supabase dashboard and
+
+00:11:08.966 --> 00:11:10.600
+then the table editor, we can see that's
+
+00:11:10.600 --> 00:11:11.833
+this view or folders
+
+00:11:11.899 --> 00:11:13.899
+with email count. And we can do the same
+
+00:11:13.899 --> 00:11:15.100
+thing by going over to the
+
+00:11:15.100 --> 00:11:16.866
+definition and opening it in the
+
+00:11:16.866 --> 00:11:19.333
+SQL editor and again saying create or
+
+00:11:19.333 --> 00:11:21.666
+replace the view called public dot
+
+00:11:21.666 --> 00:11:22.666
+folders with email count.
+
+00:11:22.666 --> 00:11:25.266
+And we can add our with clause to say we
+
+00:11:25.266 --> 00:11:26.600
+want to set
+
+00:11:26.600 --> 00:11:28.833
+security_invoker to equal true.
+
+00:11:28.899 --> 00:11:31.033
+And then if we run this one, we see
+
+00:11:31.033 --> 00:11:32.833
+success, no rows returned. And if we go
+
+00:11:32.833 --> 00:11:33.833
+back to our application
+
+00:11:34.066 --> 00:11:36.066
+and refresh, these folders are still
+
+00:11:36.066 --> 00:11:37.433
+getting that count for the
+
+00:11:37.433 --> 00:11:39.166
+number of all of the emails that
+
+00:11:39.166 --> 00:11:41.100
+exist within that folder for every user.
+
+00:11:41.100 --> 00:11:41.899
+And this is because if we
+
+00:11:41.899 --> 00:11:42.800
+have a look at our view,
+
+00:11:42.933 --> 00:11:45.800
+it's using the folders and the email
+
+00:11:45.800 --> 00:11:47.133
+folders tables, both of
+
+00:11:47.133 --> 00:11:49.033
+which still don't have RLS
+
+00:11:49.266 --> 00:11:51.266
+enabled. So we can see folders, email
+
+00:11:51.266 --> 00:11:53.366
+folders. So let's start by enabling RLS
+
+00:11:53.366 --> 00:11:54.666
+for the email_folders
+
+00:11:54.699 --> 00:11:56.399
+table. This is what's being used
+
+00:11:56.399 --> 00:11:57.699
+by our count. And now if we
+
+00:11:57.699 --> 00:11:58.566
+go back to our application,
+
+00:11:58.800 --> 00:12:01.066
+and refresh, we can see no more emails.
+
+00:12:01.533 --> 00:12:02.899
+And this is exactly what we
+
+00:12:02.899 --> 00:12:04.100
+want. This doesn't mean it's
+
+00:12:04.100 --> 00:12:06.600
+broken. It means it's working. Remember,
+
+00:12:06.699 --> 00:12:08.033
+RLS denies all select,
+
+00:12:08.033 --> 00:12:09.633
+insert, update or delete requests.
+
+00:12:10.066 --> 00:12:11.933
+So if we want to enable one of those, we
+
+00:12:11.933 --> 00:12:12.933
+just need to write a policy
+
+00:12:12.933 --> 00:12:14.699
+to back over in the Supabase
+
+00:12:14.699 --> 00:12:16.533
+dashboard under authentication and
+
+00:12:16.533 --> 00:12:18.433
+policies. Let's start with our emails
+
+00:12:18.433 --> 00:12:20.399
+table and write a new policy.
+
+00:12:20.399 --> 00:12:22.066
+There are some templates available to get
+
+00:12:22.066 --> 00:12:23.233
+you started, or you can use
+
+00:12:23.233 --> 00:12:24.600
+the Supabase AI assistant
+
+00:12:24.766 --> 00:12:26.266
+to write these for you. But we're going
+
+00:12:26.266 --> 00:12:27.433
+to create this one from
+
+00:12:27.433 --> 00:12:28.833
+scratch so that we can talk through
+
+00:12:28.833 --> 00:12:30.566
+exactly what's going on. So the name of
+
+00:12:30.566 --> 00:12:32.000
+our policy is going to be
+
+00:12:32.000 --> 00:12:34.699
+users can read their emails. So
+
+00:12:34.699 --> 00:12:36.199
+because this is about reading, we're
+
+00:12:36.199 --> 00:12:38.100
+going to enable the select action, we're
+
+00:12:38.100 --> 00:12:38.966
+going to leave the target
+
+00:12:38.966 --> 00:12:40.833
+roles as the default, which just applies
+
+00:12:40.833 --> 00:12:41.966
+to everyone. And then for
+
+00:12:41.966 --> 00:12:43.233
+our using expression, we
+
+00:12:43.233 --> 00:12:44.766
+need to provide a statement that either
+
+00:12:44.766 --> 00:12:47.066
+evaluates to true or false. If it
+
+00:12:47.066 --> 00:12:48.366
+evaluates to true, then the
+
+00:12:48.366 --> 00:12:50.300
+user will be able to select that email.
+
+00:12:50.533 --> 00:12:51.633
+And if it evaluates to
+
+00:12:51.633 --> 00:12:53.566
+false, then RLS will just continue
+
+00:12:53.733 --> 00:12:55.566
+denying it. So if we set this to true,
+
+00:12:55.766 --> 00:12:57.066
+and then scroll down and
+
+00:12:57.066 --> 00:12:58.533
+click review, this will show us
+
+00:12:58.533 --> 00:13:00.500
+the SQL that's been generated from each
+
+00:13:00.500 --> 00:13:01.733
+of those form fields. And
+
+00:13:01.733 --> 00:13:03.100
+then if we click Save Policy,
+
+00:13:03.166 --> 00:13:04.699
+it will run it against our Postgres
+
+00:13:04.699 --> 00:13:06.600
+database. So we can confirm that this
+
+00:13:06.600 --> 00:13:07.933
+policy is working by going
+
+00:13:07.933 --> 00:13:09.266
+back over to our application and
+
+00:13:09.266 --> 00:13:10.933
+refreshing. And we don't see anything.
+
+00:13:10.933 --> 00:13:12.199
+But if we go back to look
+
+00:13:12.233 --> 00:13:14.933
+at our view for emails with folder and
+
+00:13:14.933 --> 00:13:16.566
+users, and we can just look at the
+
+00:13:16.566 --> 00:13:17.699
+definition and see that
+
+00:13:17.699 --> 00:13:19.733
+it's using this email folders table,
+
+00:13:19.733 --> 00:13:21.699
+which also has RLS enabled. So let's go
+
+00:13:21.699 --> 00:13:22.366
+back to authentication
+
+00:13:22.899 --> 00:13:24.800
+and then policies. And for our email
+
+00:13:24.800 --> 00:13:26.066
+folders, let's write a new
+
+00:13:26.066 --> 00:13:27.066
+policy. Again, we'll do this
+
+00:13:27.066 --> 00:13:29.433
+one from scratch. This will be users can
+
+00:13:29.433 --> 00:13:31.566
+select email folders will
+
+00:13:31.566 --> 00:13:33.100
+enable the select action,
+
+00:13:33.100 --> 00:13:34.899
+leave the default role as public and then
+
+00:13:34.899 --> 00:13:36.333
+put true as the using
+
+00:13:36.333 --> 00:13:37.600
+expression. Now, if we scroll down
+
+00:13:37.766 --> 00:13:40.000
+and review and then save policy. Now,
+
+00:13:40.000 --> 00:13:40.899
+when we go back to our
+
+00:13:40.899 --> 00:13:42.866
+application and refresh, we see
+
+00:13:42.933 --> 00:13:44.833
+our emails are back, but our John user
+
+00:13:44.833 --> 00:13:46.466
+has just been created. So they
+
+00:13:46.466 --> 00:13:47.966
+aren't the sender or receiver
+
+00:13:48.166 --> 00:13:50.333
+of any of these emails. And we don't want
+
+00:13:50.333 --> 00:13:52.066
+everyone to be able to see everyone
+
+00:13:52.066 --> 00:13:53.399
+else's emails. That's
+
+00:13:53.399 --> 00:13:55.399
+not very secure. So instead of just
+
+00:13:55.399 --> 00:13:58.133
+returning true, we want to check that the
+
+00:13:58.133 --> 00:13:59.566
+recipient_id column
+
+00:13:59.666 --> 00:14:02.933
+is equal to our current user.
+
+00:14:02.933 --> 00:14:04.000
+And we can get our current
+
+00:14:04.000 --> 00:14:05.533
+user with a special Supabase
+
+00:14:05.533 --> 00:14:08.100
+function called auth.uid. But the problem
+
+00:14:08.100 --> 00:14:09.500
+is this will return us a
+
+00:14:09.500 --> 00:14:12.066
+UUID. And this is the integer ID
+
+00:14:12.066 --> 00:14:14.100
+that's used by our public schema. So
+
+00:14:14.100 --> 00:14:15.399
+we're going to use a sub
+
+00:14:15.399 --> 00:14:17.199
+query here to say the
+
+00:14:17.433 --> 00:14:20.199
+recipient_id is in the result set that
+
+00:14:20.199 --> 00:14:21.899
+comes back from selecting
+
+00:14:21.899 --> 00:14:24.866
+the ID from the public dot
+
+00:14:24.866 --> 00:14:27.399
+users table where the supabase_id
+
+00:14:27.399 --> 00:14:30.266
+is equal to the result of
+
+00:14:30.266 --> 00:14:32.000
+that auth.uid function.
+
+00:14:32.300 --> 00:14:34.500
+So we know our Supabase user, we know
+
+00:14:34.500 --> 00:14:36.966
+the ID of our public user.
+
+00:14:36.966 --> 00:14:38.566
+And so this will kind of glue
+
+00:14:38.566 --> 00:14:40.633
+those two together. And we also want the
+
+00:14:40.633 --> 00:14:42.066
+emails where they are the
+
+00:14:42.066 --> 00:14:43.066
+sender. So we can do the same
+
+00:14:43.100 --> 00:14:46.100
+thing and say or sender_id is
+
+00:14:46.100 --> 00:14:47.500
+in and then copy and paste
+
+00:14:47.500 --> 00:14:49.199
+that same sub query. And now
+
+00:14:49.199 --> 00:14:51.199
+if we click review, we'll see the SQL
+
+00:14:51.199 --> 00:14:52.633
+that's been generated to alter
+
+00:14:52.633 --> 00:14:54.533
+our policy and save policy to
+
+00:14:54.533 --> 00:14:56.633
+run that SQL against our database. And
+
+00:14:56.633 --> 00:14:57.699
+now if we go back to our
+
+00:14:57.699 --> 00:14:59.566
+application and refresh, we'll see
+
+00:14:59.666 --> 00:15:01.733
+no emails because our John user hasn't
+
+00:15:01.733 --> 00:15:03.333
+received or sent any emails.
+
+00:15:03.633 --> 00:15:04.933
+So we can go back over to the
+
+00:15:04.933 --> 00:15:07.699
+table editor and go to emails and change
+
+00:15:07.699 --> 00:15:09.333
+the sender for this first
+
+00:15:09.333 --> 00:15:11.066
+email to be our John user,
+
+00:15:11.266 --> 00:15:13.633
+and then change the recipient of this one
+
+00:15:13.633 --> 00:15:15.100
+to also be our John
+
+00:15:15.100 --> 00:15:16.500
+user. Now when we go back to
+
+00:15:16.533 --> 00:15:19.033
+our application and refresh, we see one
+
+00:15:19.033 --> 00:15:20.933
+email in our inbox, which is weird
+
+00:15:20.933 --> 00:15:21.633
+because it's sent both
+
+00:15:21.666 --> 00:15:23.600
+from me to me, but that's fine. And then
+
+00:15:23.600 --> 00:15:24.666
+if we look in our sent
+
+00:15:24.666 --> 00:15:26.600
+emails, we see one email that's been
+
+00:15:26.600 --> 00:15:28.566
+sent so we can see our numbers are still
+
+00:15:28.566 --> 00:15:29.666
+off for each of these
+
+00:15:29.666 --> 00:15:31.233
+folders. And that's because in our
+
+00:15:31.233 --> 00:15:34.033
+RLS policy, so over in authentication and
+
+00:15:34.033 --> 00:15:35.333
+then policies, our select
+
+00:15:35.333 --> 00:15:36.666
+policy on our email folders
+
+00:15:36.699 --> 00:15:39.500
+table is still just using the expression
+
+00:15:39.500 --> 00:15:41.066
+true. So since we always
+
+00:15:41.066 --> 00:15:42.666
+want the number of emails in
+
+00:15:42.666 --> 00:15:44.633
+that folder to match the number of emails
+
+00:15:44.633 --> 00:15:45.733
+we can select from that
+
+00:15:45.733 --> 00:15:47.166
+folder, we can actually use this
+
+00:15:47.166 --> 00:15:49.033
+little trick to enforce policies from
+
+00:15:49.033 --> 00:15:50.633
+another table. So we can
+
+00:15:50.633 --> 00:15:53.300
+say select star from emails
+
+00:15:53.500 --> 00:15:56.600
+where email_id matches the
+
+00:15:56.600 --> 00:15:58.600
+emails tables ID. And now
+
+00:15:58.600 --> 00:16:00.166
+since the RLS policies from
+
+00:16:00.166 --> 00:16:02.500
+the emails table are going to be enforced
+
+00:16:02.500 --> 00:16:04.166
+on this select statement,
+
+00:16:04.166 --> 00:16:05.466
+our user is only going to get
+
+00:16:05.500 --> 00:16:07.466
+back records that the policies on the
+
+00:16:07.466 --> 00:16:09.666
+emails table allows them to. So another
+
+00:16:09.666 --> 00:16:10.833
+little efficiency tip
+
+00:16:10.833 --> 00:16:12.433
+here is rather than actually selecting
+
+00:16:12.433 --> 00:16:13.366
+those columns, we can
+
+00:16:13.366 --> 00:16:15.000
+just select the number one,
+
+00:16:15.000 --> 00:16:16.633
+which represents true. And then we can
+
+00:16:16.633 --> 00:16:18.033
+wrap this in an exist
+
+00:16:18.033 --> 00:16:19.866
+statement. If we get back the value
+
+00:16:19.866 --> 00:16:21.566
+true from this select statement, then
+
+00:16:21.566 --> 00:16:23.733
+this entire policy will return true.
+
+00:16:23.733 --> 00:16:24.833
+Otherwise it will return
+
+00:16:24.833 --> 00:16:26.833
+false. Again, because this requires a
+
+00:16:26.833 --> 00:16:28.433
+user to be authenticated, we can set it
+
+00:16:28.433 --> 00:16:29.333
+to the authenticated
+
+00:16:29.333 --> 00:16:31.833
+role to ensure it only runs for users who
+
+00:16:31.833 --> 00:16:32.766
+are signed in. Now we can
+
+00:16:32.766 --> 00:16:34.199
+click review to see the SQL
+
+00:16:34.233 --> 00:16:36.600
+for our policy and save policy to run it.
+
+00:16:36.600 --> 00:16:37.433
+And now if we go back to
+
+00:16:37.433 --> 00:16:38.866
+our application and refresh,
+
+00:16:39.133 --> 00:16:41.199
+we'll see we only have that one email in
+
+00:16:41.199 --> 00:16:42.466
+our inbox, which is this one
+
+00:16:42.466 --> 00:16:43.933
+and that one email in our sent
+
+00:16:43.933 --> 00:16:46.300
+folder, which is this one. Wow, that was
+
+00:16:46.300 --> 00:16:47.633
+a little bit complex. If
+
+00:16:47.633 --> 00:16:49.533
+you're new to RLS, if it didn't
+
+00:16:49.533 --> 00:16:51.566
+quite click, just take the video back and
+
+00:16:51.566 --> 00:16:53.000
+watch it again. You can do
+
+00:16:53.000 --> 00:16:54.600
+that as many times as you want.
+
+00:16:55.166 --> 00:16:57.800
+Okay. So our users are able to select the
+
+00:16:57.800 --> 00:16:59.833
+emails that they are the sender or
+
+00:16:59.833 --> 00:17:01.233
+recipient of, but what
+
+00:17:01.266 --> 00:17:03.333
+if they try to delete an email? It looks
+
+00:17:03.333 --> 00:17:04.433
+like it's no longer selected
+
+00:17:04.433 --> 00:17:05.899
+here, but it still exists here
+
+00:17:05.899 --> 00:17:07.533
+and it still exists here. So I don't
+
+00:17:07.533 --> 00:17:08.733
+think it's actually gone. Let's try
+
+00:17:08.733 --> 00:17:09.933
+refreshing. Yep. Still
+
+00:17:09.933 --> 00:17:11.366
+there. And we can click it and still see
+
+00:17:11.366 --> 00:17:12.733
+its contents. So delete is
+
+00:17:12.733 --> 00:17:13.899
+not working. And you know
+
+00:17:13.899 --> 00:17:17.000
+why it's RLS. We wrote a select policy,
+
+00:17:17.000 --> 00:17:18.666
+but if we want to enable the delete
+
+00:17:18.666 --> 00:17:19.833
+action, we need to write
+
+00:17:19.833 --> 00:17:21.733
+a policy for it. So back over in the
+
+00:17:21.733 --> 00:17:23.566
+Supabase dashboard on our emails
+
+00:17:23.566 --> 00:17:24.866
+table, we want to create
+
+00:17:24.866 --> 00:17:26.500
+a new policy. Again, we'll do this one
+
+00:17:26.500 --> 00:17:28.366
+from scratch. The name is going to be
+
+00:17:28.366 --> 00:17:30.033
+user can delete their
+
+00:17:30.066 --> 00:17:32.199
+emails. It's going to enable the delete
+
+00:17:32.199 --> 00:17:34.033
+action. The target roles is going to be
+
+00:17:34.033 --> 00:17:35.000
+set to authenticated.
+
+00:17:35.433 --> 00:17:37.133
+And then for our using expression, it
+
+00:17:37.133 --> 00:17:38.433
+probably only makes sense
+
+00:17:38.433 --> 00:17:39.699
+for a user to be able to delete
+
+00:17:39.699 --> 00:17:41.300
+emails that they sent rather than
+
+00:17:41.300 --> 00:17:43.233
+received. So we want to check that the
+
+00:17:43.233 --> 00:17:45.399
+sender_id is in
+
+00:17:45.399 --> 00:17:47.766
+this sub query where we select the ID
+
+00:17:47.766 --> 00:17:50.899
+from the public dot users table where the
+
+00:17:50.899 --> 00:17:52.000
+supabase_id
+
+00:17:52.000 --> 00:17:54.899
+is equal to the auth.uid function. So
+
+00:17:54.899 --> 00:17:56.066
+let's scroll down, click
+
+00:17:56.066 --> 00:17:57.366
+review and then save policy.
+
+00:17:57.600 --> 00:17:59.300
+And if we go back to our application and
+
+00:17:59.300 --> 00:18:00.633
+try to delete this email
+
+00:18:00.633 --> 00:18:02.166
+in our inbox, it's not going
+
+00:18:02.166 --> 00:18:03.766
+to work because remember we are the
+
+00:18:03.766 --> 00:18:05.333
+recipient. But if we go to our sent
+
+00:18:05.333 --> 00:18:07.066
+emails and try to delete
+
+00:18:07.066 --> 00:18:08.600
+this one, let's click that little delete
+
+00:18:08.600 --> 00:18:09.800
+button again, it's no
+
+00:18:09.800 --> 00:18:11.266
+longer selected, but it's still
+
+00:18:11.266 --> 00:18:12.733
+here in our list. So what's going on
+
+00:18:12.733 --> 00:18:14.833
+here? Well, we've written a delete policy
+
+00:18:14.833 --> 00:18:15.833
+for the emails table.
+
+00:18:16.066 --> 00:18:17.933
+And if we have a look in the table editor
+
+00:18:17.933 --> 00:18:19.033
+for our email folders
+
+00:18:19.033 --> 00:18:21.666
+table, our email ID column has a
+
+00:18:21.666 --> 00:18:24.166
+foreign key relationship to our emails ID
+
+00:18:24.166 --> 00:18:25.833
+and on delete it's
+
+00:18:25.833 --> 00:18:27.233
+cascading. So whenever we delete
+
+00:18:27.300 --> 00:18:29.399
+a row from the emails table, it's going
+
+00:18:29.399 --> 00:18:31.899
+to cascade down to our email folders
+
+00:18:31.899 --> 00:18:33.166
+table. So we can go here
+
+00:18:33.166 --> 00:18:35.066
+to get back to our policies and then just
+
+00:18:35.066 --> 00:18:36.366
+remove this search term to
+
+00:18:36.366 --> 00:18:37.899
+see all of our tables. So if
+
+00:18:37.899 --> 00:18:40.333
+we have a policy for delete on our emails
+
+00:18:40.333 --> 00:18:42.000
+table, we also need a delete
+
+00:18:42.000 --> 00:18:43.533
+policy on our email folders
+
+00:18:43.533 --> 00:18:45.300
+table. So let's create a new policy.
+
+00:18:45.300 --> 00:18:46.666
+We'll do this one from scratch. It's
+
+00:18:46.666 --> 00:18:48.699
+going to enable delete for
+
+00:18:48.866 --> 00:18:50.600
+sender. It's going to enable the delete
+
+00:18:50.600 --> 00:18:52.666
+action. We're going to select the
+
+00:18:52.666 --> 00:18:53.633
+authenticated role and
+
+00:18:53.666 --> 00:18:55.666
+then for our using expression, we're
+
+00:18:55.666 --> 00:18:58.433
+going to select star from the emails
+
+00:18:58.433 --> 00:19:00.000
+table where the email_id
+
+00:19:00.066 --> 00:19:02.199
+column matches our
+
+00:19:02.199 --> 00:19:04.533
+emails.id. So this will give us back the
+
+00:19:04.533 --> 00:19:05.433
+email we're trying to
+
+00:19:05.433 --> 00:19:07.833
+delete. We then want to select the
+
+00:19:07.833 --> 00:19:09.500
+sender_id. So again,
+
+00:19:09.500 --> 00:19:11.833
+this is the integer ID from our
+
+00:19:11.833 --> 00:19:13.633
+public users table. So if we want to
+
+00:19:13.633 --> 00:19:14.733
+match that against our
+
+00:19:14.733 --> 00:19:16.300
+currently signed in user, we need to
+
+00:19:16.300 --> 00:19:18.100
+get their Supabase ID. So we'll come
+
+00:19:18.100 --> 00:19:19.266
+back to this one and say
+
+00:19:19.266 --> 00:19:21.533
+select supabase_id
+
+00:19:21.666 --> 00:19:24.566
+from the public dot users table where the
+
+00:19:24.566 --> 00:19:27.300
+ID is in this sub query,
+
+00:19:27.300 --> 00:19:29.033
+which will be this select. So we
+
+00:19:29.033 --> 00:19:31.500
+have the sender ID of the email. We're
+
+00:19:31.500 --> 00:19:33.633
+then looking up that ID in the public dot
+
+00:19:33.633 --> 00:19:34.699
+users table and then
+
+00:19:34.699 --> 00:19:36.166
+just pulling out the supabase_id
+
+00:19:36.166 --> 00:19:38.666
+column. So lastly, we just
+
+00:19:38.666 --> 00:19:39.566
+want to check is the
+
+00:19:39.566 --> 00:19:42.266
+result of the auth dot UID function in
+
+00:19:42.266 --> 00:19:44.333
+another sub query, which is going to be
+
+00:19:44.333 --> 00:19:45.500
+this whole select. So
+
+00:19:45.533 --> 00:19:48.933
+we can move this one inside this one and
+
+00:19:48.933 --> 00:19:50.033
+we can fix up our
+
+00:19:50.033 --> 00:19:52.233
+indentation. And now we're only
+
+00:19:52.233 --> 00:19:54.533
+enabling delete for the sender of that
+
+00:19:54.533 --> 00:19:55.866
+email. So let's scroll down,
+
+00:19:55.866 --> 00:19:57.266
+click review and save policy.
+
+00:19:57.500 --> 00:19:58.766
+And now when we go back to our
+
+00:19:58.766 --> 00:20:01.233
+application and select one of our emails
+
+00:20:01.233 --> 00:20:02.533
+in the send folder and
+
+00:20:02.533 --> 00:20:04.533
+attempt to delete it, we can see it's
+
+00:20:04.533 --> 00:20:06.000
+disappeared from our selected
+
+00:20:06.000 --> 00:20:07.333
+email. It's also disappeared
+
+00:20:07.333 --> 00:20:09.199
+from our list and our email folders.
+
+00:20:09.533 --> 00:20:11.233
+Awesome. We can select and we can delete
+
+00:20:11.233 --> 00:20:12.133
+emails, but what about
+
+00:20:12.233 --> 00:20:13.866
+sending a new one? Well, we're about to
+
+00:20:13.866 --> 00:20:15.133
+run into exactly the same
+
+00:20:15.133 --> 00:20:16.866
+problem with RLS. So we need a
+
+00:20:16.866 --> 00:20:18.866
+new policy for insert just to make this a
+
+00:20:18.866 --> 00:20:20.000
+little easier. We can edit
+
+00:20:20.000 --> 00:20:21.500
+our delete policy and copy
+
+00:20:21.666 --> 00:20:24.133
+our expression and then create a new
+
+00:20:24.133 --> 00:20:25.800
+policy again from scratch.
+
+00:20:25.800 --> 00:20:28.066
+This one will be users can insert
+
+00:20:28.233 --> 00:20:30.866
+their own emails. This will enable the
+
+00:20:30.866 --> 00:20:32.233
+insert action. The target
+
+00:20:32.233 --> 00:20:33.800
+role can be set to authenticated.
+
+00:20:34.066 --> 00:20:35.866
+And then for our with check expression,
+
+00:20:35.866 --> 00:20:37.199
+we want to check the same as
+
+00:20:37.199 --> 00:20:38.800
+our delete policy. So if the
+
+00:20:38.866 --> 00:20:41.133
+sender of the email is the same user as
+
+00:20:41.133 --> 00:20:42.166
+our currently signed in
+
+00:20:42.166 --> 00:20:43.399
+user, then we want to allow
+
+00:20:43.399 --> 00:20:44.966
+them to insert that row because it
+
+00:20:44.966 --> 00:20:46.433
+wouldn't make sense for them to send an
+
+00:20:46.433 --> 00:20:47.733
+email with someone else
+
+00:20:47.899 --> 00:20:50.066
+set as the sender. Let's review and save
+
+00:20:50.066 --> 00:20:51.066
+this policy and we can
+
+00:20:51.066 --> 00:20:52.266
+do the same for our email
+
+00:20:52.266 --> 00:20:54.433
+folders table. So let's edit our delete
+
+00:20:54.433 --> 00:20:55.699
+policy, copy this same
+
+00:20:55.699 --> 00:20:58.100
+expression, then create a new policy
+
+00:20:58.100 --> 00:21:00.933
+from scratch. That's going to allow user
+
+00:21:00.933 --> 00:21:04.133
+to insert email into folder. It's going
+
+00:21:04.133 --> 00:21:05.133
+to enable the insert
+
+00:21:05.166 --> 00:21:06.866
+action. The target role will be
+
+00:21:06.866 --> 00:21:08.699
+authenticated and then our with check
+
+00:21:08.699 --> 00:21:10.033
+expression will be the same as
+
+00:21:10.033 --> 00:21:11.500
+our delete policy. So again, we're
+
+00:21:11.500 --> 00:21:13.666
+walking back the relationship tree from
+
+00:21:13.666 --> 00:21:14.800
+our email folders table
+
+00:21:14.800 --> 00:21:17.300
+where we know the email ID that the user
+
+00:21:17.300 --> 00:21:18.266
+is currently trying to
+
+00:21:18.266 --> 00:21:19.933
+insert. We then work our way
+
+00:21:19.933 --> 00:21:22.699
+back up to the Supabase ID for that
+
+00:21:22.699 --> 00:21:24.766
+user and check if that's the user who's
+
+00:21:24.766 --> 00:21:25.766
+currently signed in.
+
+00:21:25.766 --> 00:21:28.033
+Let's click review and save policy. And
+
+00:21:28.033 --> 00:21:29.033
+one more thing before we
+
+00:21:29.033 --> 00:21:30.399
+can actually send our email,
+
+00:21:30.533 --> 00:21:32.666
+we need to go over to database and then
+
+00:21:32.666 --> 00:21:34.866
+functions. And then for our send email
+
+00:21:34.866 --> 00:21:35.833
+function, we want to
+
+00:21:35.833 --> 00:21:37.600
+click these three dots and edit our
+
+00:21:37.600 --> 00:21:39.466
+function. And if we scroll down, we can
+
+00:21:39.466 --> 00:21:40.566
+see the definition of
+
+00:21:40.566 --> 00:21:42.800
+our function and where we're inserting a
+
+00:21:42.800 --> 00:21:44.000
+new email, you can see
+
+00:21:44.000 --> 00:21:45.466
+we're setting the sender ID
+
+00:21:45.500 --> 00:21:48.033
+column to the static value one. And
+
+00:21:48.033 --> 00:21:48.833
+that's because in the
+
+00:21:48.833 --> 00:21:50.333
+initial template from Lee,
+
+00:21:50.333 --> 00:21:52.633
+we didn't have authentication yet. And so
+
+00:21:52.633 --> 00:21:53.966
+we could declare another
+
+00:21:53.966 --> 00:21:55.633
+variable like we did earlier to
+
+00:21:55.666 --> 00:21:57.800
+hold our sender's ID. But since we're
+
+00:21:57.800 --> 00:21:58.966
+super comfortable with
+
+00:21:58.966 --> 00:22:00.699
+sub queries, we can do this
+
+00:22:00.699 --> 00:22:04.133
+in line by selecting the ID from the
+
+00:22:04.133 --> 00:22:06.833
+users table where the supabase_id
+
+00:22:06.833 --> 00:22:08.666
+column matches
+
+00:22:08.666 --> 00:22:11.566
+the result of our auth.uid function. So
+
+00:22:11.566 --> 00:22:12.933
+again, we know our Supabase ID,
+
+00:22:12.933 --> 00:22:14.800
+but we want to look up
+
+00:22:14.800 --> 00:22:17.500
+our integer ID from the public schemas
+
+00:22:17.500 --> 00:22:18.899
+users table. So just to be
+
+00:22:18.899 --> 00:22:20.300
+more clear, we could prepend this
+
+00:22:20.399 --> 00:22:22.933
+with public dot users. And then this
+
+00:22:22.933 --> 00:22:25.766
+integer ID is what we want to insert as
+
+00:22:25.766 --> 00:22:26.899
+the sender ID column
+
+00:22:26.933 --> 00:22:28.800
+on the new email. And so let's click
+
+00:22:28.800 --> 00:22:31.266
+confirm to update our send email
+
+00:22:31.266 --> 00:22:32.566
+function. And then back over
+
+00:22:32.566 --> 00:22:34.866
+in our application, we can send a new
+
+00:22:34.866 --> 00:22:36.233
+email to a user who doesn't
+
+00:22:36.233 --> 00:22:37.566
+exist in our application yet. So
+
+00:22:37.566 --> 00:22:39.766
+we could say jon@supabase.io,
+
+00:22:39.766 --> 00:22:42.033
+the subject can be does this
+
+00:22:42.033 --> 00:22:44.233
+work and the body can be, I sure
+
+00:22:44.366 --> 00:22:46.966
+hope so. And when we click send, we'll
+
+00:22:46.966 --> 00:22:48.500
+see our send folder now has
+
+00:22:48.500 --> 00:22:49.800
+two items, one of which is
+
+00:22:49.833 --> 00:22:51.699
+our john user. And because we are the
+
+00:22:51.699 --> 00:22:53.333
+sender, we can delete this
+
+00:22:53.333 --> 00:22:54.833
+one and it disappears from our
+
+00:22:54.833 --> 00:22:57.366
+emails and also our number of sent
+
+00:22:57.366 --> 00:22:59.266
+emails. And this is only just
+
+00:22:59.266 --> 00:23:00.766
+scratching the surface of why
+
+00:23:00.766 --> 00:23:03.166
+RLS is awesome and how powerful it can be
+
+00:23:03.166 --> 00:23:03.800
+to implement
+
+00:23:03.800 --> 00:23:05.666
+authorization rules in the database
+
+00:23:05.666 --> 00:23:07.699
+itself. If you want to go deeper with
+
+00:23:07.699 --> 00:23:09.100
+RLS, I recommend you check
+
+00:23:09.100 --> 00:23:10.433
+out this video right here,
+
+00:23:10.433 --> 00:23:12.733
+we go through a bit more theory on RLS
+
+00:23:12.733 --> 00:23:14.000
+and slowly work up to a
+
+00:23:14.000 --> 00:23:15.966
+similar example of enforcing RLS
+
+00:23:15.966 --> 00:23:18.399
+policies from other tables. But until
+
+00:23:18.399 --> 00:23:20.533
+next time, keep building cool stuff.
+

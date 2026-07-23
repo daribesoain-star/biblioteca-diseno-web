@@ -1,0 +1,39 @@
+# YouTubeショートは本当に稼げるのかを検証します。7日間の挑戦
+**Fuente:** https://youtu.be/Z1uNCAu0y_8 | destilado 2026-07-22
+
+## Qué enseña (2-3 líneas)
+El creador abre un canal nuevo de YouTube Shorts en japonés, enfocado en animales (mascotas exóticas como momongas), y en 7 días logra 1,000,000+ reproducciones en un video, 400+ suscriptores y finalmente aprueba la monetización tras apelar un rechazo inicial por "contenido reutilizado". Demuestra que es posible crecer rápido en YouTube Shorts apuntando a nichos específicos (animales con fans de nicho) y usando herramientas de IA para edición rápida.
+
+## Lecciones accionables
+- **Selección de nicho:** Elige un nicho con alta demanda popular (animales) pero dentro de él busca un sub-nicho con menos competencia (ej. momongas en lugar de gatos/perros). El creador evitó gatos porque "todos los eligen" y optó por momongas, que tienen una base de fans leal pero menor saturación.
+- **Requisitos de monetización de YouTube Shorts:** Necesitas 1,000 suscriptores y 10 millones de reproducciones públicas en los últimos 90 días para aplicar al Programa de Socios de YouTube (YPP). El creador alcanzó 1M+ reproducciones en un video y 400 suscriptores en 7 días, pero para YPP necesitas más suscriptores; sin embargo, el video viral ayudó a cumplir el requisito de reproducciones.
+- **Frecuencia de publicación óptima:** No subas un nuevo video mientras el anterior sigue creciendo. Espera a que la gráfica de reproducciones se estabilice (se vuelva horizontal) antes de publicar el siguiente. El creador esperó 1-2 días después del primer video (que llegó a 13K vistas en día 2) antes de publicar más.
+- **Formato de video que funciona:** Videos de 5-10 segundos de duración (recopilados de otras fuentes) combinados con narración en off generada por IA (texto a voz). El creador usó clips cortos de momongas comiendo, etc., y los unió con un guion. La duración final del primer video fue 2 min 26 seg, pero la retención fue alta (1 min 52 seg promedio).
+- **Estrategia de pruebas A/B:** Crea lotes de 4-5 videos variando un parámetro cada vez: tipo de animal (raro vs. común), duración del video (corto vs. largo), presencia de texto en miniatura, etc. El creador hizo: video 2 = animal raro (ayuda mutua), video 3 = animal lindo común, video 4 = video largo con texto en miniatura, video 5 = solo animal lindo sin tema de ayuda.
+- **Herramientas de edición recomendadas:** Usa software con funciones de IA: extensión de video (slow motion + relleno de fotogramas), mejora de resolución (upscaling), eliminación de objetos/logos, y generación de voz desde texto. El creador usó "MORA" (probablemente una herramienta japonesa) que permite extender clips cortos hasta 8 segundos y mejorar calidad.
+- **Configuración de subida:** En YouTube, marca "No es contenido infantil" para evitar restricciones de audiencia y menores ingresos publicitarios. Marca "Contenido no modificado" si no usas IA generativa en las imágenes (solo edición). Usa hashtags relevantes (ej. #ペットのいる暮らし, #モモンガ) pero evita tags no relacionados aunque tengan alta puntuación.
+- **Miniatura:** Debe configurarse desde el móvil (no desde PC). Elige un fotograma del video que sea "clicable" (curioso, misterioso). Para el primer video, el creador usó una foto de "criatura misteriosa" y título "La verdad sobre la criatura que encontré por casualidad".
+- **Título:** Debe generar curiosidad y prometer un desenlace. Ejemplo: "偶然拾った生き物の正体" (La verdad sobre la criatura que encontré por casualidad).
+- **Zona segura de texto:** En Shorts, los subtítulos no deben superponerse con el título inferior ni los iconos laterales. Usa la guía de zona segura (safe zone) de cada plataforma (TikTok, YouTube, Instagram) para posicionar el texto.
+- **Manejo de rechazo de monetización:** Si YouTube rechaza por "contenido reutilizado", apela grabando un video que demuestre tu proceso de edición original (recopilación, narración, edición). El creador apeló dos veces y finalmente fue aprobado.
+- **Estimación de ingresos:** Tras la aprobación, el canal generó una estimación de 650,000 yenes (aprox. $4,300 USD) en ingresos publicitarios en el primer mes, según una herramienta de estimación (posiblemente inflada). El creador advierte que no es un ingreso estable mensual garantizado.
+
+## Reglas para agentes
+- **Publica máximo 1 video cada 1-2 días mientras el anterior siga creciendo.** No subas un nuevo Short si la gráfica de reproducciones del anterior sigue en ascenso. Espera a que se estabilice (horizontal) antes de publicar el siguiente.
+- **Nunca marques un video como "para niños" si quieres monetizar.** Esto restringe la audiencia y reduce drásticamente los ingresos publicitarios. Siempre selecciona "No, no es para niños".
+- **Nunca uses hashtags no relacionados con el contenido del video**, aunque tengan alta puntuación de búsqueda. Esto perjudica la relevancia y el algoritmo.
+- **La duración ideal de un Short para alta retención es entre 15 segundos y 2 minutos 30 segundos.** El video viral del creador duró 2 min 26 seg con una retención del 76% (1 min 52 seg promedio).
+- **Para monetización en YouTube Shorts, necesitas al menos 1,000 suscriptores Y 10 millones de reproducciones en los últimos 90 días.** Si no cumples ambos, no puedes aplicar al YPP.
+- **Si tu canal es nuevo, espera al menos 1 semana después de la creación antes de publicar el primer video.** El algoritmo necesita tiempo para indexar el canal. El creador usó un canal de 6 años de antigüedad (aunque sin actividad reciente).
+- **Invierte máximo 2 horas por video.** El creador produjo cada Short en 2 horas (incluyendo recopilación de素材, edición, narración AI, y subida). No dediques más tiempo a edición compleja.
+- **Prueba al menos 4 variaciones por lote de contenido.** Cambia un parámetro por video (tipo de animal, duración, miniatura con/sin texto, tema vs. solo cute) para identificar qué funciona mejor.
+
+## Errores comunes
+- **Marcar el video como "infantil" por error:** Reduce drásticamente la audiencia y los ingresos publicitarios. Siempre verifica que esté en "No es para niños".
+- **Subir un nuevo video mientras el anterior aún está creciendo:** Puede canibalizar las vistas y frenar el impulso viral. Espera a que la curva se aplane.
+- **Usar hashtags irrelevantes solo porque tienen alta puntuación:** El algoritmo penaliza la falta de coherencia temática. Usa solo tags directamente relacionados.
+- **Poner subtítulos en zonas donde se superponen con la interfaz de la plataforma:** Los subtítulos deben estar dentro de la "zona segura" (safe zone) para que sean legibles. No los coloques en la parte inferior (donde va el título) ni en los laterales (donde van los iconos).
+- **No apelar un rechazo de monetización:** YouTube a veces rechaza erróneamente por "contenido reutilizado". Si tu contenido tiene edición original (narración, recopilación, edición), apela con un video demostrativo del proceso. El creador fue aprobado en la segunda apelación.
+- **Elegir un nicho demasiado competitivo (ej. gatos, perros):** Aunque son populares, la saturación dificulta destacar. Busca sub-nichos con menos competencia pero con una base de fans leal (ej. momongas, erizos, hurones).
+- **Invertir demasiado tiempo en edición compleja o miniaturas elaboradas:** El creador no diseñó miniaturas personalizadas para el primer video; usó un fotograma aleatorio. La prioridad es la velocidad de publicación y la calidad del contenido (retención), no la estética.
+- **Confiar en estimaciones de ingresos de sitios externos:** Las herramientas de estimación (ej. "平瀬") pueden mostrar cifras infladas (650,000 yenes en este caso). Los ingresos reales pueden ser menores y no estables mes a mes.

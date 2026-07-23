@@ -1,0 +1,3952 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:02.070 align:start position:0%
+ 
+So,<00:00:00.320><c> you're</c><00:00:00.560><c> trying</c><00:00:00.800><c> to</c><00:00:00.960><c> make</c><00:00:01.120><c> an</c><00:00:01.360><c> AI</c><00:00:01.760><c> video,</c>
+
+00:00:02.070 --> 00:00:02.080 align:start position:0%
+So, you're trying to make an AI video,
+ 
+
+00:00:02.080 --> 00:00:03.669 align:start position:0%
+So, you're trying to make an AI video,
+but<00:00:02.320><c> it</c><00:00:02.560><c> just</c><00:00:02.800><c> doesn't</c><00:00:03.120><c> look</c><00:00:03.280><c> how</c><00:00:03.439><c> you</c>
+
+00:00:03.669 --> 00:00:03.679 align:start position:0%
+but it just doesn't look how you
+ 
+
+00:00:03.679 --> 00:00:06.230 align:start position:0%
+but it just doesn't look how you
+imagined,<00:00:04.160><c> right?</c><00:00:04.799><c> It's</c><00:00:05.120><c> not</c><00:00:05.279><c> your</c><00:00:05.520><c> prompts.</c>
+
+00:00:06.230 --> 00:00:06.240 align:start position:0%
+imagined, right? It's not your prompts.
+ 
+
+00:00:06.240 --> 00:00:08.310 align:start position:0%
+imagined, right? It's not your prompts.
+You're<00:00:06.560><c> probably</c><00:00:07.040><c> just</c><00:00:07.359><c> using</c><00:00:07.680><c> the</c><00:00:07.919><c> wrong</c>
+
+00:00:08.310 --> 00:00:08.320 align:start position:0%
+You're probably just using the wrong
+ 
+
+00:00:08.320 --> 00:00:10.230 align:start position:0%
+You're probably just using the wrong
+method.<00:00:08.960><c> So,</c><00:00:09.200><c> today</c><00:00:09.440><c> I'm</c><00:00:09.679><c> breaking</c><00:00:09.920><c> down</c>
+
+00:00:10.230 --> 00:00:10.240 align:start position:0%
+method. So, today I'm breaking down
+ 
+
+00:00:10.240 --> 00:00:12.070 align:start position:0%
+method. So, today I'm breaking down
+every<00:00:10.480><c> [music]</c><00:00:10.559><c> way</c><00:00:10.719><c> to</c><00:00:10.960><c> make</c><00:00:11.120><c> an</c><00:00:11.280><c> AI</c><00:00:11.679><c> video</c>
+
+00:00:12.070 --> 00:00:12.080 align:start position:0%
+every [music] way to make an AI video
+ 
+
+00:00:12.080 --> 00:00:14.230 align:start position:0%
+every [music] way to make an AI video
+from<00:00:12.400><c> using</c><00:00:12.639><c> just</c><00:00:12.880><c> simple</c><00:00:13.280><c> text</c><00:00:13.519><c> prompts</c><00:00:13.920><c> to</c><00:00:14.080><c> a</c>
+
+00:00:14.230 --> 00:00:14.240 align:start position:0%
+from using just simple text prompts to a
+ 
+
+00:00:14.240 --> 00:00:16.550 align:start position:0%
+from using just simple text prompts to a
+full-on<00:00:14.719><c> motion</c><00:00:15.040><c> capture</c><00:00:15.440><c> performance</c><00:00:16.240><c> and</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+full-on motion capture performance and
+ 
+
+00:00:16.560 --> 00:00:18.710 align:start position:0%
+full-on motion capture performance and
+show<00:00:16.800><c> you</c><00:00:17.039><c> which</c><00:00:17.440><c> method</c><00:00:17.840><c> is</c><00:00:18.000><c> the</c><00:00:18.240><c> right</c><00:00:18.480><c> one</c>
+
+00:00:18.710 --> 00:00:18.720 align:start position:0%
+show you which method is the right one
+ 
+
+00:00:18.720 --> 00:00:20.710 align:start position:0%
+show you which method is the right one
+to<00:00:18.960><c> use</c><00:00:18.995><c> [music]</c><00:00:19.439><c> to</c><00:00:19.760><c> actually</c><00:00:20.240><c> get</c><00:00:20.400><c> the</c>
+
+00:00:20.710 --> 00:00:20.720 align:start position:0%
+to use [music] to actually get the
+ 
+
+00:00:20.720 --> 00:00:23.830 align:start position:0%
+to use [music] to actually get the
+results<00:00:21.359><c> you're</c><00:00:21.680><c> imagining.</c>
+
+00:00:23.830 --> 00:00:23.840 align:start position:0%
+results you're imagining.
+ 
+
+00:00:23.840 --> 00:00:25.990 align:start position:0%
+results you're imagining.
+The<00:00:24.160><c> first</c><00:00:24.320><c> method</c><00:00:24.720><c> is</c><00:00:24.960><c> text</c><00:00:25.279><c> to</c><00:00:25.439><c> video</c><00:00:25.760><c> where</c>
+
+00:00:25.990 --> 00:00:26.000 align:start position:0%
+The first method is text to video where
+ 
+
+00:00:26.000 --> 00:00:28.310 align:start position:0%
+The first method is text to video where
+we're<00:00:26.320><c> creating</c><00:00:26.640><c> an</c><00:00:26.880><c> AI</c><00:00:27.279><c> video</c><00:00:27.680><c> starting</c><00:00:28.000><c> from</c>
+
+00:00:28.310 --> 00:00:28.320 align:start position:0%
+we're creating an AI video starting from
+ 
+
+00:00:28.320 --> 00:00:30.630 align:start position:0%
+we're creating an AI video starting from
+only<00:00:28.640><c> a</c><00:00:28.960><c> text</c><00:00:29.279><c> prompt.</c><00:00:29.840><c> Here's</c><00:00:30.080><c> a</c><00:00:30.240><c> dialogue</c>
+
+00:00:30.630 --> 00:00:30.640 align:start position:0%
+only a text prompt. Here's a dialogue
+ 
+
+00:00:30.640 --> 00:00:32.870 align:start position:0%
+only a text prompt. Here's a dialogue
+scene<00:00:30.880><c> I</c><00:00:31.119><c> created</c><00:00:31.279><c> in</c><00:00:31.519><c> Google</c><00:00:31.840><c> V3</c><00:00:32.399><c> using</c><00:00:32.640><c> only</c>
+
+00:00:32.870 --> 00:00:32.880 align:start position:0%
+scene I created in Google V3 using only
+ 
+
+00:00:32.880 --> 00:00:33.670 align:start position:0%
+scene I created in Google V3 using only
+a<00:00:33.040><c> text</c><00:00:33.280><c> route.</c>
+
+00:00:33.670 --> 00:00:33.680 align:start position:0%
+a text route.
+ 
+
+00:00:33.680 --> 00:00:35.030 align:start position:0%
+a text route.
+&gt;&gt; What<00:00:33.840><c> is</c><00:00:33.920><c> a</c><00:00:34.079><c> typical</c><00:00:34.320><c> day</c><00:00:34.480><c> like</c><00:00:34.719><c> here</c><00:00:34.800><c> on</c><00:00:34.960><c> the</c>
+
+00:00:35.030 --> 00:00:35.040 align:start position:0%
+&gt;&gt; What is a typical day like here on the
+ 
+
+00:00:35.040 --> 00:00:35.670 align:start position:0%
+&gt;&gt; What is a typical day like here on the
+colony?
+
+00:00:35.670 --> 00:00:35.680 align:start position:0%
+colony?
+ 
+
+00:00:35.680 --> 00:00:37.350 align:start position:0%
+colony?
+&gt;&gt; There's<00:00:35.920><c> nothing</c><00:00:36.160><c> typical</c><00:00:36.559><c> about</c><00:00:36.719><c> it.</c><00:00:36.960><c> It's</c><00:00:37.200><c> a</c>
+
+00:00:37.350 --> 00:00:37.360 align:start position:0%
+&gt;&gt; There's nothing typical about it. It's a
+ 
+
+00:00:37.360 --> 00:00:38.950 align:start position:0%
+&gt;&gt; There's nothing typical about it. It's a
+constant<00:00:37.760><c> grind</c><00:00:38.160><c> of</c><00:00:38.399><c> research,</c><00:00:38.645><c> [music]</c>
+
+00:00:38.950 --> 00:00:38.960 align:start position:0%
+constant grind of research, [music]
+ 
+
+00:00:38.960 --> 00:00:40.709 align:start position:0%
+constant grind of research, [music]
+maintenance,<00:00:39.360><c> and</c><00:00:39.520><c> training.</c><00:00:39.920><c> We</c><00:00:40.160><c> work</c><00:00:40.399><c> very</c>
+
+00:00:40.709 --> 00:00:40.719 align:start position:0%
+maintenance, and training. We work very
+ 
+
+00:00:40.719 --> 00:00:41.590 align:start position:0%
+maintenance, and training. We work very
+long<00:00:40.960><c> hours.</c>
+
+00:00:41.590 --> 00:00:41.600 align:start position:0%
+long hours.
+ 
+
+00:00:41.600 --> 00:00:43.190 align:start position:0%
+long hours.
+&gt;&gt; When<00:00:41.920><c> writing</c><00:00:42.239><c> text</c><00:00:42.480><c> prompts,</c><00:00:42.800><c> you</c><00:00:42.960><c> want</c><00:00:43.040><c> to</c>
+
+00:00:43.190 --> 00:00:43.200 align:start position:0%
+&gt;&gt; When writing text prompts, you want to
+ 
+
+00:00:43.200 --> 00:00:45.190 align:start position:0%
+&gt;&gt; When writing text prompts, you want to
+describe<00:00:43.520><c> the</c><00:00:43.760><c> scene,</c><00:00:44.399><c> the</c><00:00:44.640><c> characters,</c><00:00:45.040><c> and</c>
+
+00:00:45.190 --> 00:00:45.200 align:start position:0%
+describe the scene, the characters, and
+ 
+
+00:00:45.200 --> 00:00:47.270 align:start position:0%
+describe the scene, the characters, and
+the<00:00:45.360><c> action</c><00:00:45.680><c> that's</c><00:00:46.000><c> going</c><00:00:46.160><c> on.</c><00:00:46.800><c> Where</c><00:00:47.039><c> this</c>
+
+00:00:47.270 --> 00:00:47.280 align:start position:0%
+the action that's going on. Where this
+ 
+
+00:00:47.280 --> 00:00:49.190 align:start position:0%
+the action that's going on. Where this
+video<00:00:47.600><c> takes</c><00:00:47.840><c> place,</c><00:00:48.320><c> who's</c><00:00:48.559><c> in</c><00:00:48.719><c> the</c><00:00:48.879><c> video,</c>
+
+00:00:49.190 --> 00:00:49.200 align:start position:0%
+video takes place, who's in the video,
+ 
+
+00:00:49.200 --> 00:00:51.270 align:start position:0%
+video takes place, who's in the video,
+and<00:00:49.360><c> what</c><00:00:49.600><c> they're</c><00:00:49.840><c> doing.</c><00:00:50.399><c> And</c><00:00:50.559><c> to</c><00:00:50.800><c> use</c><00:00:51.039><c> text</c>
+
+00:00:51.270 --> 00:00:51.280 align:start position:0%
+and what they're doing. And to use text
+ 
+
+00:00:51.280 --> 00:00:53.110 align:start position:0%
+and what they're doing. And to use text
+to<00:00:51.440><c> video,</c><00:00:51.760><c> it's</c><00:00:52.000><c> usually</c><00:00:52.239><c> very</c><00:00:52.559><c> simple.</c><00:00:52.960><c> You</c>
+
+00:00:53.110 --> 00:00:53.120 align:start position:0%
+to video, it's usually very simple. You
+ 
+
+00:00:53.120 --> 00:00:55.350 align:start position:0%
+to video, it's usually very simple. You
+just<00:00:53.280><c> go</c><00:00:53.440><c> to</c><00:00:53.680><c> a</c><00:00:53.920><c> prompting</c><00:00:54.399><c> interface</c><00:00:55.120><c> like</c>
+
+00:00:55.350 --> 00:00:55.360 align:start position:0%
+just go to a prompting interface like
+ 
+
+00:00:55.360 --> 00:00:57.830 align:start position:0%
+just go to a prompting interface like
+this<00:00:55.520><c> one</c><00:00:55.760><c> in</c><00:00:56.079><c> Flow,</c><00:00:56.640><c> which</c><00:00:56.879><c> is</c><00:00:57.039><c> Google's</c><00:00:57.440><c> AI</c>
+
+00:00:57.830 --> 00:00:57.840 align:start position:0%
+this one in Flow, which is Google's AI
+ 
+
+00:00:57.840 --> 00:01:00.150 align:start position:0%
+this one in Flow, which is Google's AI
+video<00:00:58.160><c> studio.</c><00:00:59.039><c> And</c><00:00:59.199><c> inside</c><00:00:59.440><c> the</c><00:00:59.600><c> prompt</c><00:00:59.840><c> bar,</c>
+
+00:01:00.150 --> 00:01:00.160 align:start position:0%
+video studio. And inside the prompt bar,
+ 
+
+00:01:00.160 --> 00:01:01.750 align:start position:0%
+video studio. And inside the prompt bar,
+just<00:01:00.320><c> put</c><00:01:00.480><c> in</c><00:01:00.640><c> your</c><00:01:00.800><c> prompt.</c>
+
+00:01:01.750 --> 00:01:01.760 align:start position:0%
+just put in your prompt.
+ 
+
+00:01:01.760 --> 00:01:03.910 align:start position:0%
+just put in your prompt.
+&gt;&gt; The<00:01:02.000><c> colony</c><00:01:02.399><c> is</c><00:01:02.559><c> in</c><00:01:02.800><c> sight.</c><00:01:03.520><c> We</c><00:01:03.760><c> are</c>
+
+00:01:03.910 --> 00:01:03.920 align:start position:0%
+&gt;&gt; The colony is in sight. We are
+ 
+
+00:01:03.920 --> 00:01:05.490 align:start position:0%
+&gt;&gt; The colony is in sight. We are
+initiating<00:01:04.400><c> the</c><00:01:04.640><c> final</c><00:01:04.960><c> approach</c><00:01:05.360><c> sequence.</c>
+
+00:01:05.490 --> 00:01:05.500 align:start position:0%
+initiating the final approach sequence.
+ 
+
+00:01:05.500 --> 00:01:09.510 align:start position:0%
+initiating the final approach sequence.
+[music]<00:01:05.840><c> Now,</c><00:01:06.880><c> all</c><00:01:07.119><c> systems</c><00:01:07.520><c> are</c><00:01:07.760><c> green.</c>
+
+00:01:09.510 --> 00:01:09.520 align:start position:0%
+[music] Now, all systems are green.
+ 
+
+00:01:09.520 --> 00:01:10.870 align:start position:0%
+[music] Now, all systems are green.
+&gt;&gt; When<00:01:09.680><c> it</c><00:01:09.840><c> comes</c><00:01:10.000><c> to</c><00:01:10.159><c> writing</c><00:01:10.400><c> your</c><00:01:10.560><c> prompts,</c>
+
+00:01:10.870 --> 00:01:10.880 align:start position:0%
+&gt;&gt; When it comes to writing your prompts,
+ 
+
+00:01:10.880 --> 00:01:13.190 align:start position:0%
+&gt;&gt; When it comes to writing your prompts,
+you<00:01:11.119><c> also</c><00:01:11.280><c> want</c><00:01:11.439><c> to</c><00:01:11.600><c> adding</c><00:01:12.000><c> a</c><00:01:12.479><c> timeline</c><00:01:12.960><c> for</c>
+
+00:01:13.190 --> 00:01:13.200 align:start position:0%
+you also want to adding a timeline for
+ 
+
+00:01:13.200 --> 00:01:15.510 align:start position:0%
+you also want to adding a timeline for
+the<00:01:13.360><c> actions</c><00:01:13.840><c> that's</c><00:01:14.400><c> going</c><00:01:14.640><c> on.</c><00:01:15.360><c> There</c>
+
+00:01:15.510 --> 00:01:15.520 align:start position:0%
+the actions that's going on. There
+ 
+
+00:01:15.520 --> 00:01:17.190 align:start position:0%
+the actions that's going on. There
+should<00:01:15.680><c> be</c><00:01:15.760><c> a</c><00:01:16.000><c> sequence</c><00:01:16.320><c> of</c><00:01:16.560><c> events</c><00:01:16.799><c> that</c><00:01:17.040><c> are</c>
+
+00:01:17.190 --> 00:01:17.200 align:start position:0%
+should be a sequence of events that are
+ 
+
+00:01:17.200 --> 00:01:19.109 align:start position:0%
+should be a sequence of events that are
+happening.<00:01:17.680><c> For</c><00:01:18.000><c> this</c><00:01:18.159><c> scene,</c><00:01:18.479><c> I</c><00:01:18.720><c> described</c>
+
+00:01:19.109 --> 00:01:19.119 align:start position:0%
+happening. For this scene, I described
+ 
+
+00:01:19.119 --> 00:01:21.109 align:start position:0%
+happening. For this scene, I described
+that<00:01:19.280><c> a</c><00:01:19.520><c> space</c><00:01:19.840><c> battle</c><00:01:20.159><c> was</c><00:01:20.400><c> happening</c><00:01:20.720><c> inside</c>
+
+00:01:21.109 --> 00:01:21.119 align:start position:0%
+that a space battle was happening inside
+ 
+
+00:01:21.119 --> 00:01:24.149 align:start position:0%
+that a space battle was happening inside
+a<00:01:21.360><c> greenhouse</c><00:01:21.840><c> habitat</c><00:01:22.400><c> on</c><00:01:22.560><c> a</c><00:01:22.799><c> Mars</c><00:01:23.200><c> colony</c>
+
+00:01:24.149 --> 00:01:24.159 align:start position:0%
+a greenhouse habitat on a Mars colony
+ 
+
+00:01:24.159 --> 00:01:26.070 align:start position:0%
+a greenhouse habitat on a Mars colony
+and<00:01:24.479><c> we</c><00:01:24.720><c> see</c><00:01:24.880><c> the</c><00:01:25.040><c> astronaut</c><00:01:25.520><c> hiding</c><00:01:25.840><c> behind</c>
+
+00:01:26.070 --> 00:01:26.080 align:start position:0%
+and we see the astronaut hiding behind
+ 
+
+00:01:26.080 --> 00:01:28.390 align:start position:0%
+and we see the astronaut hiding behind
+the<00:01:26.240><c> plant.</c><00:01:26.960><c> She</c><00:01:27.200><c> then</c><00:01:27.520><c> fires</c><00:01:27.840><c> her</c><00:01:28.080><c> laser</c>
+
+00:01:28.390 --> 00:01:28.400 align:start position:0%
+the plant. She then fires her laser
+ 
+
+00:01:28.400 --> 00:01:30.630 align:start position:0%
+the plant. She then fires her laser
+blaster<00:01:28.799><c> at</c><00:01:28.960><c> a</c><00:01:29.119><c> robot</c><00:01:29.439><c> invader</c><00:01:30.000><c> and</c><00:01:30.240><c> finally</c>
+
+00:01:30.630 --> 00:01:30.640 align:start position:0%
+blaster at a robot invader and finally
+ 
+
+00:01:30.640 --> 00:01:32.390 align:start position:0%
+blaster at a robot invader and finally
+the<00:01:30.880><c> robot</c><00:01:31.200><c> shatters</c><00:01:31.680><c> with</c><00:01:31.920><c> sparks</c><00:01:32.240><c> and</c>
+
+00:01:32.390 --> 00:01:32.400 align:start position:0%
+the robot shatters with sparks and
+ 
+
+00:01:32.400 --> 00:01:34.230 align:start position:0%
+the robot shatters with sparks and
+crumbles.<00:01:33.119><c> And</c><00:01:33.280><c> by</c><00:01:33.439><c> describing</c><00:01:33.840><c> the</c><00:01:34.000><c> full</c>
+
+00:01:34.230 --> 00:01:34.240 align:start position:0%
+crumbles. And by describing the full
+ 
+
+00:01:34.240 --> 00:01:36.390 align:start position:0%
+crumbles. And by describing the full
+sequence<00:01:34.560><c> of</c><00:01:34.720><c> events,</c><00:01:35.119><c> it</c><00:01:35.280><c> gives</c><00:01:35.439><c> the</c><00:01:35.600><c> AI</c><00:01:36.079><c> a</c>
+
+00:01:36.390 --> 00:01:36.400 align:start position:0%
+sequence of events, it gives the AI a
+ 
+
+00:01:36.400 --> 00:01:38.469 align:start position:0%
+sequence of events, it gives the AI a
+good<00:01:36.640><c> idea</c><00:01:36.880><c> of</c><00:01:37.119><c> how</c><00:01:37.280><c> to</c><00:01:37.520><c> animate</c><00:01:37.840><c> the</c><00:01:38.000><c> scene.</c>
+
+00:01:38.469 --> 00:01:38.479 align:start position:0%
+good idea of how to animate the scene.
+ 
+
+00:01:38.479 --> 00:01:41.670 align:start position:0%
+good idea of how to animate the scene.
+The<00:01:38.640><c> Google</c><00:01:38.960><c> Veil</c><00:01:39.360><c> 3.1</c><00:01:40.320><c> video</c><00:01:40.720><c> model</c><00:01:41.360><c> is</c><00:01:41.600><c> going</c>
+
+00:01:41.670 --> 00:01:41.680 align:start position:0%
+The Google Veil 3.1 video model is going
+ 
+
+00:01:41.680 --> 00:01:43.670 align:start position:0%
+The Google Veil 3.1 video model is going
+to<00:01:41.840><c> be</c><00:01:41.920><c> your</c><00:01:42.159><c> best</c><00:01:42.400><c> option</c><00:01:42.880><c> when</c><00:01:43.119><c> it</c><00:01:43.280><c> comes</c><00:01:43.439><c> to</c>
+
+00:01:43.670 --> 00:01:43.680 align:start position:0%
+to be your best option when it comes to
+ 
+
+00:01:43.680 --> 00:01:45.749 align:start position:0%
+to be your best option when it comes to
+generating<00:01:44.240><c> character</c><00:01:44.640><c> dialogues</c><00:01:45.439><c> and</c><00:01:45.600><c> it</c>
+
+00:01:45.749 --> 00:01:45.759 align:start position:0%
+generating character dialogues and it
+ 
+
+00:01:45.759 --> 00:01:47.670 align:start position:0%
+generating character dialogues and it
+also<00:01:46.159><c> does</c><00:01:46.320><c> a</c><00:01:46.479><c> very,</c><00:01:46.640><c> very</c><00:01:46.960><c> good</c><00:01:47.119><c> job</c><00:01:47.360><c> at</c>
+
+00:01:47.670 --> 00:01:47.680 align:start position:0%
+also does a very, very good job at
+ 
+
+00:01:47.680 --> 00:01:49.030 align:start position:0%
+also does a very, very good job at
+following<00:01:48.000><c> your</c><00:01:48.240><c> prompts.</c>
+
+00:01:49.030 --> 00:01:49.040 align:start position:0%
+following your prompts.
+ 
+
+00:01:49.040 --> 00:01:51.590 align:start position:0%
+following your prompts.
+&gt;&gt; Hey<00:01:49.200><c> everyone,</c><00:01:49.759><c> Soul</c><00:01:50.320><c> 120</c><00:01:50.640><c> update.</c><00:01:51.360><c> The</c>
+
+00:01:51.590 --> 00:01:51.600 align:start position:0%
+&gt;&gt; Hey everyone, Soul 120 update. The
+ 
+
+00:01:51.600 --> 00:01:53.429 align:start position:0%
+&gt;&gt; Hey everyone, Soul 120 update. The
+tomatoes<00:01:52.159><c> are</c><00:01:52.399><c> thriving</c><00:01:52.960><c> in</c><00:01:53.200><c> the</c><00:01:53.280><c> new</c>
+
+00:01:53.429 --> 00:01:53.439 align:start position:0%
+tomatoes are thriving in the new
+ 
+
+00:01:53.439 --> 00:01:55.990 align:start position:0%
+tomatoes are thriving in the new
+hydroponics<00:01:54.240><c> bay.</c><00:01:54.880><c> It's</c><00:01:55.200><c> amazing</c><00:01:55.520><c> what</c><00:01:55.840><c> we</c>
+
+00:01:55.990 --> 00:01:56.000 align:start position:0%
+hydroponics bay. It's amazing what we
+ 
+
+00:01:56.000 --> 00:01:57.030 align:start position:0%
+hydroponics bay. It's amazing what we
+can<00:01:56.079><c> grow</c><00:01:56.399><c> here.</c>
+
+00:01:57.030 --> 00:01:57.040 align:start position:0%
+can grow here.
+ 
+
+00:01:57.040 --> 00:01:58.630 align:start position:0%
+can grow here.
+&gt;&gt; Some<00:01:57.280><c> other</c><00:01:57.439><c> decent</c><00:01:57.759><c> options</c><00:01:58.159><c> include</c><00:01:58.399><c> the</c>
+
+00:01:58.630 --> 00:01:58.640 align:start position:0%
+&gt;&gt; Some other decent options include the
+ 
+
+00:01:58.640 --> 00:02:01.670 align:start position:0%
+&gt;&gt; Some other decent options include the
+one<00:01:58.880><c> 2.5</c><00:01:59.439><c> AI</c><00:01:59.759><c> video</c><00:02:00.079><c> generator.</c><00:02:00.799><c> Sor</c><00:02:01.280><c> 2</c><00:02:01.439><c> is</c>
+
+00:02:01.670 --> 00:02:01.680 align:start position:0%
+one 2.5 AI video generator. Sor 2 is
+ 
+
+00:02:01.680 --> 00:02:03.350 align:start position:0%
+one 2.5 AI video generator. Sor 2 is
+also<00:02:02.000><c> really,</c><00:02:02.240><c> really</c><00:02:02.560><c> good</c><00:02:02.719><c> in</c><00:02:02.880><c> terms</c><00:02:03.040><c> of</c><00:02:03.119><c> the</c>
+
+00:02:03.350 --> 00:02:03.360 align:start position:0%
+also really, really good in terms of the
+ 
+
+00:02:03.360 --> 00:02:05.510 align:start position:0%
+also really, really good in terms of the
+realism,<00:02:03.840><c> but</c><00:02:04.079><c> it's</c><00:02:04.320><c> much</c><00:02:04.640><c> more</c><00:02:04.880><c> censored</c><00:02:05.280><c> and</c>
+
+00:02:05.510 --> 00:02:05.520 align:start position:0%
+realism, but it's much more censored and
+ 
+
+00:02:05.520 --> 00:02:07.670 align:start position:0%
+realism, but it's much more censored and
+a<00:02:05.680><c> lot</c><00:02:05.840><c> more</c><00:02:06.000><c> limited.</c><00:02:06.799><c> The</c><00:02:07.040><c> second</c><00:02:07.280><c> method</c><00:02:07.520><c> to</c>
+
+00:02:07.670 --> 00:02:07.680 align:start position:0%
+a lot more limited. The second method to
+ 
+
+00:02:07.680 --> 00:02:10.389 align:start position:0%
+a lot more limited. The second method to
+make<00:02:07.840><c> AI</c><00:02:08.239><c> videos</c><00:02:08.560><c> is</c><00:02:08.879><c> image</c><00:02:09.280><c> to</c><00:02:09.520><c> video.</c><00:02:10.160><c> In</c>
+
+00:02:10.389 --> 00:02:10.399 align:start position:0%
+make AI videos is image to video. In
+ 
+
+00:02:10.399 --> 00:02:11.510 align:start position:0%
+make AI videos is image to video. In
+this<00:02:10.560><c> case,</c><00:02:10.720><c> we're</c><00:02:10.959><c> actually</c><00:02:11.280><c> going</c><00:02:11.360><c> to</c>
+
+00:02:11.510 --> 00:02:11.520 align:start position:0%
+this case, we're actually going to
+ 
+
+00:02:11.520 --> 00:02:14.229 align:start position:0%
+this case, we're actually going to
+attach<00:02:11.840><c> a</c><00:02:12.160><c> reference</c><00:02:12.640><c> image</c><00:02:13.280><c> for</c><00:02:13.520><c> our</c><00:02:13.760><c> prompts</c>
+
+00:02:14.229 --> 00:02:14.239 align:start position:0%
+attach a reference image for our prompts
+ 
+
+00:02:14.239 --> 00:02:16.790 align:start position:0%
+attach a reference image for our prompts
+instead<00:02:14.560><c> of</c><00:02:14.800><c> only</c><00:02:15.200><c> just</c><00:02:15.440><c> using</c><00:02:15.760><c> the</c><00:02:16.000><c> text.</c><00:02:16.560><c> So,</c>
+
+00:02:16.790 --> 00:02:16.800 align:start position:0%
+instead of only just using the text. So,
+ 
+
+00:02:16.800 --> 00:02:19.110 align:start position:0%
+instead of only just using the text. So,
+a<00:02:17.040><c> simple</c><00:02:17.360><c> example</c><00:02:17.760><c> could</c><00:02:18.000><c> be</c><00:02:18.400><c> I</c><00:02:18.720><c> have</c><00:02:18.879><c> this</c>
+
+00:02:19.110 --> 00:02:19.120 align:start position:0%
+a simple example could be I have this
+ 
+
+00:02:19.120 --> 00:02:21.990 align:start position:0%
+a simple example could be I have this
+photo<00:02:19.520><c> taken</c><00:02:19.920><c> of</c><00:02:20.160><c> myself</c><00:02:20.640><c> in</c><00:02:20.879><c> my</c><00:02:21.040><c> room</c><00:02:21.520><c> and</c><00:02:21.760><c> I</c>
+
+00:02:21.990 --> 00:02:22.000 align:start position:0%
+photo taken of myself in my room and I
+ 
+
+00:02:22.000 --> 00:02:23.510 align:start position:0%
+photo taken of myself in my room and I
+can<00:02:22.239><c> tell</c><00:02:22.400><c> the</c><00:02:22.560><c> AI</c><00:02:22.959><c> to</c><00:02:23.120><c> create</c><00:02:23.360><c> some</c>
+
+00:02:23.510 --> 00:02:23.520 align:start position:0%
+can tell the AI to create some
+ 
+
+00:02:23.520 --> 00:02:25.990 align:start position:0%
+can tell the AI to create some
+animations<00:02:24.000><c> with</c><00:02:24.239><c> it,</c><00:02:24.480><c> like</c><00:02:24.879><c> adding</c><00:02:25.280><c> a</c><00:02:25.599><c> goblin</c>
+
+00:02:25.990 --> 00:02:26.000 align:start position:0%
+animations with it, like adding a goblin
+ 
+
+00:02:26.000 --> 00:02:28.150 align:start position:0%
+animations with it, like adding a goblin
+that<00:02:26.239><c> falls</c><00:02:26.560><c> through</c><00:02:26.800><c> the</c><00:02:27.040><c> ceiling.</c>
+
+00:02:28.150 --> 00:02:28.160 align:start position:0%
+that falls through the ceiling.
+ 
+
+00:02:28.160 --> 00:02:32.869 align:start position:0%
+that falls through the ceiling.
+&gt;&gt; Well,<00:02:28.400><c> hello</c><00:02:28.720><c> there.</c>
+
+00:02:32.869 --> 00:02:32.879 align:start position:0%
+ 
+ 
+
+00:02:32.879 --> 00:02:35.670 align:start position:0%
+ 
+&gt;&gt; Greetings<00:02:33.280><c> from</c><00:02:33.519><c> below.</c>
+
+00:02:35.670 --> 00:02:35.680 align:start position:0%
+&gt;&gt; Greetings from below.
+ 
+
+00:02:35.680 --> 00:02:37.990 align:start position:0%
+&gt;&gt; Greetings from below.
+But<00:02:36.080><c> besides</c><00:02:36.640><c> just</c><00:02:36.959><c> goofy</c><00:02:37.519><c> videos</c><00:02:37.840><c> of</c>
+
+00:02:37.990 --> 00:02:38.000 align:start position:0%
+But besides just goofy videos of
+ 
+
+00:02:38.000 --> 00:02:40.390 align:start position:0%
+But besides just goofy videos of
+ourselves,<00:02:38.720><c> image</c><00:02:39.040><c> to</c><00:02:39.280><c> video</c><00:02:39.519><c> is</c><00:02:39.760><c> actually</c><00:02:40.080><c> a</c>
+
+00:02:40.390 --> 00:02:40.400 align:start position:0%
+ourselves, image to video is actually a
+ 
+
+00:02:40.400 --> 00:02:42.630 align:start position:0%
+ourselves, image to video is actually a
+really,<00:02:40.720><c> really</c><00:02:41.120><c> useful</c><00:02:41.519><c> tool</c><00:02:42.080><c> when</c><00:02:42.319><c> it</c><00:02:42.480><c> comes</c>
+
+00:02:42.630 --> 00:02:42.640 align:start position:0%
+really, really useful tool when it comes
+ 
+
+00:02:42.640 --> 00:02:45.589 align:start position:0%
+really, really useful tool when it comes
+to<00:02:42.800><c> animating</c><00:02:43.519><c> more</c><00:02:43.920><c> complex</c><00:02:44.560><c> scenes.</c><00:02:45.360><c> Right</c>
+
+00:02:45.589 --> 00:02:45.599 align:start position:0%
+to animating more complex scenes. Right
+ 
+
+00:02:45.599 --> 00:02:47.110 align:start position:0%
+to animating more complex scenes. Right
+now,<00:02:45.760><c> it's</c><00:02:46.000><c> the</c><00:02:46.239><c> best</c><00:02:46.400><c> way</c><00:02:46.560><c> to</c><00:02:46.800><c> create</c>
+
+00:02:47.110 --> 00:02:47.120 align:start position:0%
+now, it's the best way to create
+ 
+
+00:02:47.120 --> 00:02:49.589 align:start position:0%
+now, it's the best way to create
+consistent<00:02:47.760><c> characters</c><00:02:48.239><c> and</c><00:02:48.480><c> scenes.</c><00:02:49.200><c> So,</c><00:02:49.360><c> if</c>
+
+00:02:49.589 --> 00:02:49.599 align:start position:0%
+consistent characters and scenes. So, if
+ 
+
+00:02:49.599 --> 00:02:51.430 align:start position:0%
+consistent characters and scenes. So, if
+you<00:02:49.680><c> have</c><00:02:49.920><c> a</c><00:02:50.160><c> reference</c><00:02:50.560><c> image</c><00:02:50.879><c> of</c><00:02:51.120><c> a</c>
+
+00:02:51.430 --> 00:02:51.440 align:start position:0%
+you have a reference image of a
+ 
+
+00:02:51.440 --> 00:02:53.750 align:start position:0%
+you have a reference image of a
+character<00:02:51.920><c> you'd</c><00:02:52.160><c> like</c><00:02:52.319><c> to</c><00:02:52.720><c> turn</c><00:02:52.959><c> into</c><00:02:53.200><c> an</c><00:02:53.360><c> AI</c>
+
+00:02:53.750 --> 00:02:53.760 align:start position:0%
+character you'd like to turn into an AI
+ 
+
+00:02:53.760 --> 00:02:55.830 align:start position:0%
+character you'd like to turn into an AI
+video<00:02:54.160><c> story,</c><00:02:54.800><c> what</c><00:02:54.959><c> you</c><00:02:55.200><c> can</c><00:02:55.280><c> do</c><00:02:55.360><c> is</c><00:02:55.599><c> use</c><00:02:55.680><c> an</c>
+
+00:02:55.830 --> 00:02:55.840 align:start position:0%
+video story, what you can do is use an
+ 
+
+00:02:55.840 --> 00:02:59.030 align:start position:0%
+video story, what you can do is use an
+AI<00:02:56.239><c> image</c><00:02:56.560><c> generator</c><00:02:57.120><c> like</c><00:02:57.440><c> Nano</c><00:02:57.920><c> Banana</c><00:02:58.720><c> and</c>
+
+00:02:59.030 --> 00:02:59.040 align:start position:0%
+AI image generator like Nano Banana and
+ 
+
+00:02:59.040 --> 00:03:01.589 align:start position:0%
+AI image generator like Nano Banana and
+create<00:02:59.440><c> more</c><00:02:59.840><c> shots</c><00:03:00.160><c> of</c><00:03:00.480><c> your</c><00:03:00.800><c> character</c>
+
+00:03:01.589 --> 00:03:01.599 align:start position:0%
+create more shots of your character
+ 
+
+00:03:01.599 --> 00:03:03.350 align:start position:0%
+create more shots of your character
+inside<00:03:01.920><c> a</c><00:03:02.239><c> different</c><00:03:02.400><c> scene.</c><00:03:02.800><c> So,</c><00:03:02.959><c> if</c><00:03:03.120><c> I</c><00:03:03.280><c> have</c>
+
+00:03:03.350 --> 00:03:03.360 align:start position:0%
+inside a different scene. So, if I have
+ 
+
+00:03:03.360 --> 00:03:05.910 align:start position:0%
+inside a different scene. So, if I have
+this<00:03:03.599><c> astronaut,</c><00:03:04.319><c> I</c><00:03:04.560><c> can</c><00:03:04.640><c> tell</c><00:03:04.879><c> Nano</c><00:03:05.280><c> Banana</c>
+
+00:03:05.910 --> 00:03:05.920 align:start position:0%
+this astronaut, I can tell Nano Banana
+ 
+
+00:03:05.920 --> 00:03:07.990 align:start position:0%
+this astronaut, I can tell Nano Banana
+to<00:03:06.239><c> create</c><00:03:06.400><c> a</c><00:03:06.560><c> shot</c><00:03:06.800><c> from</c><00:03:06.959><c> a</c><00:03:07.120><c> cinematic</c><00:03:07.680><c> film</c>
+
+00:03:07.990 --> 00:03:08.000 align:start position:0%
+to create a shot from a cinematic film
+ 
+
+00:03:08.000 --> 00:03:10.309 align:start position:0%
+to create a shot from a cinematic film
+of<00:03:08.159><c> the</c><00:03:08.400><c> female</c><00:03:08.879><c> astronaut</c><00:03:09.760><c> repairing</c><00:03:10.159><c> a</c>
+
+00:03:10.309 --> 00:03:10.319 align:start position:0%
+of the female astronaut repairing a
+ 
+
+00:03:10.319 --> 00:03:12.630 align:start position:0%
+of the female astronaut repairing a
+broken<00:03:10.640><c> down</c><00:03:10.879><c> space</c><00:03:11.200><c> rover</c><00:03:11.519><c> with</c><00:03:11.760><c> power</c><00:03:12.080><c> tools</c>
+
+00:03:12.630 --> 00:03:12.640 align:start position:0%
+broken down space rover with power tools
+ 
+
+00:03:12.640 --> 00:03:15.509 align:start position:0%
+broken down space rover with power tools
+inside<00:03:12.959><c> a</c><00:03:13.200><c> space</c><00:03:13.440><c> habitat</c><00:03:13.920><c> on</c><00:03:14.159><c> a</c><00:03:14.319><c> Mars</c><00:03:14.640><c> colony.</c>
+
+00:03:15.509 --> 00:03:15.519 align:start position:0%
+inside a space habitat on a Mars colony.
+ 
+
+00:03:15.519 --> 00:03:17.589 align:start position:0%
+inside a space habitat on a Mars colony.
+And<00:03:15.760><c> using</c><00:03:16.000><c> an</c><00:03:16.159><c> AI</c><00:03:16.480><c> image</c><00:03:16.800><c> generator,</c><00:03:17.280><c> we</c><00:03:17.440><c> can</c>
+
+00:03:17.589 --> 00:03:17.599 align:start position:0%
+And using an AI image generator, we can
+ 
+
+00:03:17.599 --> 00:03:20.070 align:start position:0%
+And using an AI image generator, we can
+create<00:03:18.000><c> multiple</c><00:03:18.640><c> shots</c><00:03:19.200><c> of</c><00:03:19.440><c> our</c><00:03:19.760><c> same</c>
+
+00:03:20.070 --> 00:03:20.080 align:start position:0%
+create multiple shots of our same
+ 
+
+00:03:20.080 --> 00:03:22.869 align:start position:0%
+create multiple shots of our same
+consistent<00:03:20.640><c> character</c><00:03:21.360><c> inside</c><00:03:21.920><c> the</c><00:03:22.480><c> space</c>
+
+00:03:22.869 --> 00:03:22.879 align:start position:0%
+consistent character inside the space
+ 
+
+00:03:22.879 --> 00:03:25.430 align:start position:0%
+consistent character inside the space
+habitat.<00:03:24.239><c> And</c><00:03:24.560><c> once</c><00:03:24.800><c> we</c><00:03:24.959><c> have</c><00:03:25.040><c> the</c><00:03:25.200><c> store</c>
+
+00:03:25.430 --> 00:03:25.440 align:start position:0%
+habitat. And once we have the store
+ 
+
+00:03:25.440 --> 00:03:27.190 align:start position:0%
+habitat. And once we have the store
+down,<00:03:25.680><c> we</c><00:03:25.840><c> can</c><00:03:25.920><c> simply</c><00:03:26.239><c> animate</c><00:03:26.640><c> them</c><00:03:26.879><c> using</c>
+
+00:03:27.190 --> 00:03:27.200 align:start position:0%
+down, we can simply animate them using
+ 
+
+00:03:27.200 --> 00:03:29.750 align:start position:0%
+down, we can simply animate them using
+an<00:03:27.440><c> AI</c><00:03:27.760><c> video</c><00:03:28.080><c> generator.</c>
+
+00:03:29.750 --> 00:03:29.760 align:start position:0%
+an AI video generator.
+ 
+
+00:03:29.760 --> 00:03:31.430 align:start position:0%
+an AI video generator.
+&gt;&gt; It's<00:03:30.000><c> time</c><00:03:30.159><c> for</c><00:03:30.319><c> the</c><00:03:30.480><c> daily</c><00:03:30.799><c> reconnaissance</c>
+
+00:03:31.430 --> 00:03:31.440 align:start position:0%
+&gt;&gt; It's time for the daily reconnaissance
+ 
+
+00:03:31.440 --> 00:03:33.910 align:start position:0%
+&gt;&gt; It's time for the daily reconnaissance
+mission<00:03:31.760><c> again.</c><00:03:32.159><c> Activating</c><00:03:33.200><c> the</c><00:03:33.360><c> air</c><00:03:33.599><c> lock</c>
+
+00:03:33.910 --> 00:03:33.920 align:start position:0%
+mission again. Activating the air lock
+ 
+
+00:03:33.920 --> 00:03:44.789 align:start position:0%
+mission again. Activating the air lock
+now.
+
+00:03:44.789 --> 00:03:44.799 align:start position:0%
+ 
+ 
+
+00:03:44.799 --> 00:03:46.630 align:start position:0%
+ 
+One<00:03:45.120><c> really</c><00:03:45.440><c> cool</c><00:03:45.760><c> prompting</c><00:03:46.239><c> technique</c>
+
+00:03:46.630 --> 00:03:46.640 align:start position:0%
+One really cool prompting technique
+ 
+
+00:03:46.640 --> 00:03:48.789 align:start position:0%
+One really cool prompting technique
+that's<00:03:46.879><c> available</c><00:03:47.280><c> now</c><00:03:47.599><c> is</c><00:03:47.920><c> timestamped</c>
+
+00:03:48.789 --> 00:03:48.799 align:start position:0%
+that's available now is timestamped
+ 
+
+00:03:48.799 --> 00:03:50.630 align:start position:0%
+that's available now is timestamped
+prompting.<00:03:49.680><c> In</c><00:03:49.920><c> this</c><00:03:50.080><c> case,</c><00:03:50.319><c> we</c><00:03:50.480><c> can</c>
+
+00:03:50.630 --> 00:03:50.640 align:start position:0%
+prompting. In this case, we can
+ 
+
+00:03:50.640 --> 00:03:53.589 align:start position:0%
+prompting. In this case, we can
+specifically<00:03:51.360><c> describe</c><00:03:52.480><c> what</c><00:03:52.879><c> actions</c><00:03:53.360><c> are</c>
+
+00:03:53.589 --> 00:03:53.599 align:start position:0%
+specifically describe what actions are
+ 
+
+00:03:53.599 --> 00:03:56.869 align:start position:0%
+specifically describe what actions are
+going<00:03:53.840><c> on</c><00:03:54.159><c> at</c><00:03:54.480><c> each</c><00:03:54.879><c> second</c><00:03:55.440><c> of</c><00:03:55.680><c> our</c><00:03:55.840><c> AI</c><00:03:56.319><c> video.</c>
+
+00:03:56.869 --> 00:03:56.879 align:start position:0%
+going on at each second of our AI video.
+ 
+
+00:03:56.879 --> 00:03:58.470 align:start position:0%
+going on at each second of our AI video.
+So<00:03:57.120><c> with</c><00:03:57.280><c> this</c><00:03:57.439><c> shot</c><00:03:57.599><c> of</c><00:03:57.840><c> my</c><00:03:57.920><c> astronaut</c>
+
+00:03:58.470 --> 00:03:58.480 align:start position:0%
+So with this shot of my astronaut
+ 
+
+00:03:58.480 --> 00:04:00.789 align:start position:0%
+So with this shot of my astronaut
+inspecting<00:03:58.959><c> her</c><00:03:59.200><c> tablet,</c><00:04:00.080><c> I</c><00:04:00.319><c> can</c><00:04:00.480><c> write</c><00:04:00.640><c> a</c>
+
+00:04:00.789 --> 00:04:00.799 align:start position:0%
+inspecting her tablet, I can write a
+ 
+
+00:04:00.799 --> 00:04:04.309 align:start position:0%
+inspecting her tablet, I can write a
+prompt<00:04:01.200><c> where</c><00:04:02.000><c> it</c><00:04:02.239><c> breaks</c><00:04:02.640><c> down</c><00:04:02.959><c> an</c><00:04:03.200><c> 8second</c>
+
+00:04:04.309 --> 00:04:04.319 align:start position:0%
+prompt where it breaks down an 8second
+ 
+
+00:04:04.319 --> 00:04:07.589 align:start position:0%
+prompt where it breaks down an 8second
+video<00:04:05.439><c> intersection.</c><00:04:06.239><c> So</c><00:04:06.400><c> for</c><00:04:06.640><c> the</c><00:04:06.799><c> first</c><00:04:07.280><c> 3</c>
+
+00:04:07.589 --> 00:04:07.599 align:start position:0%
+video intersection. So for the first 3
+ 
+
+00:04:07.599 --> 00:04:09.589 align:start position:0%
+video intersection. So for the first 3
+seconds,<00:04:08.239><c> she's</c><00:04:08.560><c> studying</c><00:04:08.959><c> the</c><00:04:09.200><c> glowing</c>
+
+00:04:09.589 --> 00:04:09.599 align:start position:0%
+seconds, she's studying the glowing
+ 
+
+00:04:09.599 --> 00:04:11.830 align:start position:0%
+seconds, she's studying the glowing
+tablet<00:04:10.080><c> and</c><00:04:10.239><c> a</c><00:04:10.400><c> hologram</c><00:04:10.879><c> of</c><00:04:11.040><c> a</c><00:04:11.200><c> spacecraft</c>
+
+00:04:11.830 --> 00:04:11.840 align:start position:0%
+tablet and a hologram of a spacecraft
+ 
+
+00:04:11.840 --> 00:04:15.110 align:start position:0%
+tablet and a hologram of a spacecraft
+pops<00:04:12.159><c> up.</c><00:04:12.720><c> Then</c><00:04:12.959><c> in</c><00:04:13.120><c> the</c><00:04:13.360><c> next</c><00:04:13.599><c> 3</c><00:04:13.840><c> seconds,</c><00:04:14.959><c> it</c>
+
+00:04:15.110 --> 00:04:15.120 align:start position:0%
+pops up. Then in the next 3 seconds, it
+ 
+
+00:04:15.120 --> 00:04:16.870 align:start position:0%
+pops up. Then in the next 3 seconds, it
+should<00:04:15.360><c> zoom</c><00:04:15.519><c> into</c><00:04:15.840><c> a</c><00:04:16.000><c> close-up</c><00:04:16.400><c> shot</c><00:04:16.560><c> on</c><00:04:16.799><c> the</c>
+
+00:04:16.870 --> 00:04:16.880 align:start position:0%
+should zoom into a close-up shot on the
+ 
+
+00:04:16.880 --> 00:04:18.789 align:start position:0%
+should zoom into a close-up shot on the
+astronaut's<00:04:17.440><c> furrowed</c><00:04:17.840><c> brow.</c><00:04:18.320><c> She</c><00:04:18.560><c> has</c><00:04:18.639><c> a</c>
+
+00:04:18.789 --> 00:04:18.799 align:start position:0%
+astronaut's furrowed brow. She has a
+ 
+
+00:04:18.799 --> 00:04:21.830 align:start position:0%
+astronaut's furrowed brow. She has a
+look<00:04:18.959><c> of</c><00:04:19.199><c> concern.</c><00:04:20.400><c> And</c><00:04:20.560><c> in</c><00:04:20.799><c> the</c><00:04:20.959><c> final</c><00:04:21.519><c> two</c>
+
+00:04:21.830 --> 00:04:21.840 align:start position:0%
+look of concern. And in the final two
+ 
+
+00:04:21.840 --> 00:04:24.310 align:start position:0%
+look of concern. And in the final two
+seconds<00:04:22.079><c> of</c><00:04:22.240><c> the</c><00:04:22.479><c> video,</c><00:04:23.280><c> a</c><00:04:23.600><c> low</c><00:04:23.919><c> rumble</c>
+
+00:04:24.310 --> 00:04:24.320 align:start position:0%
+seconds of the video, a low rumble
+ 
+
+00:04:24.320 --> 00:04:26.070 align:start position:0%
+seconds of the video, a low rumble
+shakes<00:04:24.639><c> the</c><00:04:24.800><c> habitat.</c><00:04:25.280><c> Maybe</c><00:04:25.520><c> an</c><00:04:25.680><c> earthquake</c>
+
+00:04:26.070 --> 00:04:26.080 align:start position:0%
+shakes the habitat. Maybe an earthquake
+ 
+
+00:04:26.080 --> 00:04:27.749 align:start position:0%
+shakes the habitat. Maybe an earthquake
+or<00:04:26.400><c> storm</c><00:04:26.720><c> is</c><00:04:26.880><c> happening</c><00:04:27.199><c> that</c><00:04:27.360><c> the</c><00:04:27.520><c> lights</c>
+
+00:04:27.749 --> 00:04:27.759 align:start position:0%
+or storm is happening that the lights
+ 
+
+00:04:27.759 --> 00:04:29.670 align:start position:0%
+or storm is happening that the lights
+flicker<00:04:28.160><c> and</c><00:04:28.400><c> the</c><00:04:28.560><c> astronaut</c><00:04:29.040><c> has</c><00:04:29.199><c> to</c><00:04:29.360><c> steady</c>
+
+00:04:29.670 --> 00:04:29.680 align:start position:0%
+flicker and the astronaut has to steady
+ 
+
+00:04:29.680 --> 00:04:33.670 align:start position:0%
+flicker and the astronaut has to steady
+herself.<00:04:30.560><c> So,</c><00:04:31.040><c> inside</c><00:04:31.840><c> Google</c><00:04:32.160><c> AI</c><00:04:32.639><c> Studio,</c>
+
+00:04:33.670 --> 00:04:33.680 align:start position:0%
+herself. So, inside Google AI Studio,
+ 
+
+00:04:33.680 --> 00:04:35.909 align:start position:0%
+herself. So, inside Google AI Studio,
+I'm<00:04:33.919><c> going</c><00:04:34.080><c> to</c><00:04:34.479><c> make</c><00:04:34.639><c> sure</c><00:04:34.800><c> I</c><00:04:35.040><c> select</c><00:04:35.440><c> Franks</c>
+
+00:04:35.909 --> 00:04:35.919 align:start position:0%
+I'm going to make sure I select Franks
+ 
+
+00:04:35.919 --> 00:04:38.230 align:start position:0%
+I'm going to make sure I select Franks
+to<00:04:36.080><c> video</c><00:04:36.320><c> this</c><00:04:36.560><c> time</c><00:04:36.800><c> instead</c><00:04:37.199><c> of</c><00:04:37.360><c> just</c><00:04:37.840><c> text</c>
+
+00:04:38.230 --> 00:04:38.240 align:start position:0%
+to video this time instead of just text
+ 
+
+00:04:38.240 --> 00:04:40.870 align:start position:0%
+to video this time instead of just text
+to<00:04:38.400><c> video.</c><00:04:39.360><c> Uh,</c><00:04:39.680><c> and</c><00:04:40.000><c> this</c><00:04:40.160><c> will</c><00:04:40.400><c> allow</c><00:04:40.639><c> me</c><00:04:40.720><c> to</c>
+
+00:04:40.870 --> 00:04:40.880 align:start position:0%
+to video. Uh, and this will allow me to
+ 
+
+00:04:40.880 --> 00:04:42.390 align:start position:0%
+to video. Uh, and this will allow me to
+attach<00:04:41.199><c> a</c><00:04:41.360><c> reference</c><00:04:41.680><c> image</c><00:04:41.919><c> of</c><00:04:42.160><c> the</c>
+
+00:04:42.390 --> 00:04:42.400 align:start position:0%
+attach a reference image of the
+ 
+
+00:04:42.400 --> 00:04:44.950 align:start position:0%
+attach a reference image of the
+astronaut<00:04:42.880><c> down</c><00:04:43.120><c> here.</c><00:04:43.840><c> And</c><00:04:44.080><c> so,</c><00:04:44.240><c> I've</c><00:04:44.560><c> put</c><00:04:44.720><c> in</c>
+
+00:04:44.950 --> 00:04:44.960 align:start position:0%
+astronaut down here. And so, I've put in
+ 
+
+00:04:44.960 --> 00:04:47.510 align:start position:0%
+astronaut down here. And so, I've put in
+that<00:04:45.280><c> picture</c><00:04:45.680><c> of</c><00:04:46.000><c> our</c><00:04:46.080><c> astronaut</c><00:04:46.639><c> inspecting</c>
+
+00:04:47.510 --> 00:04:47.520 align:start position:0%
+that picture of our astronaut inspecting
+ 
+
+00:04:47.520 --> 00:04:50.070 align:start position:0%
+that picture of our astronaut inspecting
+her<00:04:47.919><c> tablet.</c><00:04:49.040><c> And</c><00:04:49.199><c> then</c><00:04:49.360><c> I'll</c><00:04:49.600><c> paste</c><00:04:49.840><c> in</c><00:04:50.000><c> the</c>
+
+00:04:50.070 --> 00:04:50.080 align:start position:0%
+her tablet. And then I'll paste in the
+ 
+
+00:04:50.080 --> 00:04:52.870 align:start position:0%
+her tablet. And then I'll paste in the
+prompt<00:04:50.639><c> are</c><00:04:51.120><c> completed.</c><00:04:52.080><c> that</c><00:04:52.400><c> breaks</c><00:04:52.720><c> down</c>
+
+00:04:52.870 --> 00:04:52.880 align:start position:0%
+prompt are completed. that breaks down
+ 
+
+00:04:52.880 --> 00:04:55.990 align:start position:0%
+prompt are completed. that breaks down
+the<00:04:53.120><c> AI</c><00:04:54.000><c> scene</c><00:04:54.720><c> into</c><00:04:55.120><c> three</c><00:04:55.440><c> separate</c>
+
+00:04:55.990 --> 00:04:56.000 align:start position:0%
+the AI scene into three separate
+ 
+
+00:04:56.000 --> 00:05:04.950 align:start position:0%
+the AI scene into three separate
+sections.
+
+00:05:04.950 --> 00:05:04.960 align:start position:0%
+ 
+ 
+
+00:05:04.960 --> 00:05:07.510 align:start position:0%
+ 
+Using<00:05:05.360><c> image</c><00:05:05.680><c> to</c><00:05:06.000><c> video</c><00:05:06.320><c> is</c><00:05:06.639><c> also</c><00:05:06.960><c> the</c><00:05:07.280><c> best</c>
+
+00:05:07.510 --> 00:05:07.520 align:start position:0%
+Using image to video is also the best
+ 
+
+00:05:07.520 --> 00:05:09.830 align:start position:0%
+Using image to video is also the best
+way<00:05:07.759><c> to</c><00:05:08.000><c> preserve</c><00:05:08.479><c> a</c><00:05:08.800><c> consistent</c><00:05:09.440><c> visual</c>
+
+00:05:09.830 --> 00:05:09.840 align:start position:0%
+way to preserve a consistent visual
+ 
+
+00:05:09.840 --> 00:05:13.430 align:start position:0%
+way to preserve a consistent visual
+style.<00:05:10.479><c> If</c><00:05:10.720><c> I</c><00:05:10.880><c> have</c><00:05:10.960><c> a</c><00:05:11.199><c> very</c><00:05:11.600><c> very</c><00:05:12.720><c> uh</c><00:05:12.960><c> distinct</c>
+
+00:05:13.430 --> 00:05:13.440 align:start position:0%
+style. If I have a very very uh distinct
+ 
+
+00:05:13.440 --> 00:05:16.390 align:start position:0%
+style. If I have a very very uh distinct
+visual<00:05:13.840><c> style</c><00:05:14.560><c> like</c><00:05:14.800><c> this</c><00:05:15.120><c> shot</c><00:05:15.440><c> of</c><00:05:15.840><c> a</c><00:05:16.080><c> fairy</c>
+
+00:05:16.390 --> 00:05:16.400 align:start position:0%
+visual style like this shot of a fairy
+ 
+
+00:05:16.400 --> 00:05:18.790 align:start position:0%
+visual style like this shot of a fairy
+with<00:05:16.639><c> these</c><00:05:16.880><c> green</c><00:05:17.120><c> embers</c><00:05:17.600><c> glowing</c><00:05:18.560><c> all</c>
+
+00:05:18.790 --> 00:05:18.800 align:start position:0%
+with these green embers glowing all
+ 
+
+00:05:18.800 --> 00:05:20.950 align:start position:0%
+with these green embers glowing all
+around<00:05:19.120><c> her,</c><00:05:19.680><c> the</c><00:05:19.919><c> easiest</c><00:05:20.240><c> way</c><00:05:20.400><c> to</c><00:05:20.639><c> create</c>
+
+00:05:20.950 --> 00:05:20.960 align:start position:0%
+around her, the easiest way to create
+ 
+
+00:05:20.960 --> 00:05:23.029 align:start position:0%
+around her, the easiest way to create
+multiple<00:05:21.600><c> video</c><00:05:21.620><c> [music]</c><00:05:21.919><c> clips</c><00:05:22.479><c> that</c><00:05:22.800><c> have</c>
+
+00:05:23.029 --> 00:05:23.039 align:start position:0%
+multiple video [music] clips that have
+ 
+
+00:05:23.039 --> 00:05:26.070 align:start position:0%
+multiple video [music] clips that have
+the<00:05:23.360><c> same</c><00:05:23.680><c> consistent</c><00:05:24.240><c> style</c><00:05:25.199><c> is</c><00:05:25.520><c> to</c><00:05:25.759><c> actually</c>
+
+00:05:26.070 --> 00:05:26.080 align:start position:0%
+the same consistent style is to actually
+ 
+
+00:05:26.080 --> 00:05:28.390 align:start position:0%
+the same consistent style is to actually
+use<00:05:26.320><c> image</c><00:05:26.639><c> to</c><00:05:26.880><c> video</c><00:05:27.360><c> where</c><00:05:27.680><c> first</c><00:05:27.919><c> I</c><00:05:28.080><c> use</c><00:05:28.240><c> an</c>
+
+00:05:28.390 --> 00:05:28.400 align:start position:0%
+use image to video where first I use an
+ 
+
+00:05:28.400 --> 00:05:30.390 align:start position:0%
+use image to video where first I use an
+AI<00:05:28.720><c> image</c><00:05:29.039><c> generator.</c><00:05:29.520><c> In</c><00:05:29.680><c> this</c><00:05:29.840><c> case,</c><00:05:30.000><c> I</c><00:05:30.160><c> used</c>
+
+00:05:30.390 --> 00:05:30.400 align:start position:0%
+AI image generator. In this case, I used
+ 
+
+00:05:30.400 --> 00:05:32.550 align:start position:0%
+AI image generator. In this case, I used
+a<00:05:30.479><c> midjourney</c><00:05:31.039><c> style</c><00:05:31.360><c> reference</c><00:05:31.759><c> feature</c><00:05:32.320><c> to</c>
+
+00:05:32.550 --> 00:05:32.560 align:start position:0%
+a midjourney style reference feature to
+ 
+
+00:05:32.560 --> 00:05:34.950 align:start position:0%
+a midjourney style reference feature to
+create<00:05:32.880><c> multiple</c><00:05:33.600><c> scenes</c><00:05:34.000><c> from</c><00:05:34.240><c> my</c><00:05:34.479><c> story</c>
+
+00:05:34.950 --> 00:05:34.960 align:start position:0%
+create multiple scenes from my story
+ 
+
+00:05:34.960 --> 00:05:36.550 align:start position:0%
+create multiple scenes from my story
+that<00:05:35.280><c> had</c><00:05:35.440><c> the</c><00:05:35.600><c> same</c><00:05:35.759><c> consistent</c><00:05:36.240><c> visual</c>
+
+00:05:36.550 --> 00:05:36.560 align:start position:0%
+that had the same consistent visual
+ 
+
+00:05:36.560 --> 00:05:39.350 align:start position:0%
+that had the same consistent visual
+style<00:05:36.800><c> of</c><00:05:37.039><c> these</c><00:05:37.759><c> dark</c><00:05:38.320><c> backgrounds,</c><00:05:39.039><c> the</c>
+
+00:05:39.350 --> 00:05:39.360 align:start position:0%
+style of these dark backgrounds, the
+ 
+
+00:05:39.360 --> 00:05:42.310 align:start position:0%
+style of these dark backgrounds, the
+bright<00:05:39.680><c> green</c><00:05:40.000><c> embers,</c><00:05:40.880><c> like</c><00:05:41.199><c> a</c><00:05:41.520><c> dark</c><00:05:41.840><c> fantasy</c>
+
+00:05:42.310 --> 00:05:42.320 align:start position:0%
+bright green embers, like a dark fantasy
+ 
+
+00:05:42.320 --> 00:05:45.430 align:start position:0%
+bright green embers, like a dark fantasy
+style.<00:05:43.360><c> And</c><00:05:43.759><c> once</c><00:05:44.000><c> I</c><00:05:44.240><c> have</c><00:05:44.400><c> the</c><00:05:44.639><c> images</c><00:05:45.199><c> made</c>
+
+00:05:45.430 --> 00:05:45.440 align:start position:0%
+style. And once I have the images made
+ 
+
+00:05:45.440 --> 00:05:47.189 align:start position:0%
+style. And once I have the images made
+in<00:05:45.600><c> the</c><00:05:45.759><c> consistent</c><00:05:46.160><c> style,</c><00:05:46.479><c> what</c><00:05:46.639><c> I</c><00:05:46.800><c> did</c><00:05:46.880><c> is</c><00:05:47.039><c> I</c>
+
+00:05:47.189 --> 00:05:47.199 align:start position:0%
+in the consistent style, what I did is I
+ 
+
+00:05:47.199 --> 00:05:49.990 align:start position:0%
+in the consistent style, what I did is I
+used<00:05:47.440><c> Veo</c><00:05:48.000><c> 3</c><00:05:48.400><c> is</c><00:05:48.639><c> to</c><00:05:48.800><c> turn</c><00:05:48.880><c> these</c><00:05:49.120><c> AI</c><00:05:49.520><c> images</c><00:05:49.759><c> of</c>
+
+00:05:49.990 --> 00:05:50.000 align:start position:0%
+used Veo 3 is to turn these AI images of
+ 
+
+00:05:50.000 --> 00:05:51.990 align:start position:0%
+used Veo 3 is to turn these AI images of
+a<00:05:50.160><c> consistent</c><00:05:50.639><c> style</c><00:05:51.083><c> [music]</c><00:05:51.199><c> into</c><00:05:51.600><c> AI</c>
+
+00:05:51.990 --> 00:05:52.000 align:start position:0%
+a consistent style [music] into AI
+ 
+
+00:05:52.000 --> 00:05:53.830 align:start position:0%
+a consistent style [music] into AI
+videos<00:05:52.320><c> that</c><00:05:52.639><c> also</c><00:05:52.960><c> have</c><00:05:53.039><c> a</c><00:05:53.280><c> consistent</c>
+
+00:05:53.830 --> 00:05:53.840 align:start position:0%
+videos that also have a consistent
+ 
+
+00:05:53.840 --> 00:05:55.909 align:start position:0%
+videos that also have a consistent
+style.<00:05:54.320><c> For</c><00:05:54.560><c> image</c><00:05:54.880><c> to</c><00:05:55.039><c> video,</c><00:05:55.440><c> I</c><00:05:55.680><c> think</c>
+
+00:05:55.909 --> 00:05:55.919 align:start position:0%
+style. For image to video, I think
+ 
+
+00:05:55.919 --> 00:05:58.790 align:start position:0%
+style. For image to video, I think
+Google<00:05:56.240><c> Veil</c><00:05:56.560><c> 3.1</c><00:05:57.199><c> is</c><00:05:57.360><c> still</c><00:05:57.600><c> your</c><00:05:57.840><c> best</c><00:05:58.080><c> bet.</c>
+
+00:05:58.790 --> 00:05:58.800 align:start position:0%
+Google Veil 3.1 is still your best bet.
+ 
+
+00:05:58.800 --> 00:06:00.390 align:start position:0%
+Google Veil 3.1 is still your best bet.
+Although<00:05:59.120><c> it</c><00:05:59.280><c> is</c><00:05:59.440><c> one</c><00:05:59.520><c> of</c><00:05:59.600><c> the</c><00:05:59.759><c> more</c><00:06:00.000><c> expensive</c>
+
+00:06:00.390 --> 00:06:00.400 align:start position:0%
+Although it is one of the more expensive
+ 
+
+00:06:00.400 --> 00:06:03.110 align:start position:0%
+Although it is one of the more expensive
+options<00:06:00.720><c> at</c><00:06:00.960><c> up</c><00:06:01.120><c> to</c><00:06:01.600><c> a</c><00:06:01.919><c> dollar</c><00:06:02.160><c> for</c><00:06:02.400><c> an</c><00:06:02.639><c> 8second</c>
+
+00:06:03.110 --> 00:06:03.120 align:start position:0%
+options at up to a dollar for an 8second
+ 
+
+00:06:03.120 --> 00:06:05.590 align:start position:0%
+options at up to a dollar for an 8second
+video.<00:06:03.759><c> For</c><00:06:04.000><c> a</c><00:06:04.160><c> cheaper</c><00:06:04.479><c> option,</c><00:06:04.960><c> the</c><00:06:05.199><c> clean</c>
+
+00:06:05.590 --> 00:06:05.600 align:start position:0%
+video. For a cheaper option, the clean
+ 
+
+00:06:05.600 --> 00:06:09.189 align:start position:0%
+video. For a cheaper option, the clean
+2.5<00:06:06.240><c> turbo</c><00:06:06.639><c> model</c><00:06:07.280><c> is</c><00:06:07.759><c> also</c><00:06:08.240><c> quite</c><00:06:08.560><c> good.</c><00:06:08.960><c> One</c>
+
+00:06:09.189 --> 00:06:09.199 align:start position:0%
+2.5 turbo model is also quite good. One
+ 
+
+00:06:09.199 --> 00:06:10.870 align:start position:0%
+2.5 turbo model is also quite good. One
+of<00:06:09.280><c> the</c><00:06:09.360><c> coolest</c><00:06:09.680><c> ways</c><00:06:09.919><c> to</c><00:06:10.160><c> use</c><00:06:10.400><c> image</c><00:06:10.720><c> to</c>
+
+00:06:10.870 --> 00:06:10.880 align:start position:0%
+of the coolest ways to use image to
+ 
+
+00:06:10.880 --> 00:06:12.469 align:start position:0%
+of the coolest ways to use image to
+video<00:06:11.120><c> is</c><00:06:11.360><c> actually</c><00:06:11.759><c> something</c><00:06:12.080><c> called</c><00:06:12.240><c> a</c>
+
+00:06:12.469 --> 00:06:12.479 align:start position:0%
+video is actually something called a
+ 
+
+00:06:12.479 --> 00:06:14.390 align:start position:0%
+video is actually something called a
+start<00:06:12.720><c> and</c><00:06:12.880><c> end</c><00:06:13.199><c> frame</c><00:06:13.360><c> feature.</c><00:06:14.000><c> So</c><00:06:14.160><c> I</c><00:06:14.319><c> have</c>
+
+00:06:14.390 --> 00:06:14.400 align:start position:0%
+start and end frame feature. So I have
+ 
+
+00:06:14.400 --> 00:06:16.790 align:start position:0%
+start and end frame feature. So I have
+two<00:06:14.639><c> image</c><00:06:14.880><c> references</c><00:06:15.440><c> of</c><00:06:15.680><c> this</c><00:06:16.240><c> goblin</c>
+
+00:06:16.790 --> 00:06:16.800 align:start position:0%
+two image references of this goblin
+ 
+
+00:06:16.800 --> 00:06:19.110 align:start position:0%
+two image references of this goblin
+character.<00:06:17.440><c> One</c><00:06:17.600><c> of</c><00:06:17.759><c> him</c><00:06:18.000><c> seeing</c><00:06:18.319><c> from</c><00:06:18.479><c> behind</c>
+
+00:06:19.110 --> 00:06:19.120 align:start position:0%
+character. One of him seeing from behind
+ 
+
+00:06:19.120 --> 00:06:21.350 align:start position:0%
+character. One of him seeing from behind
+and<00:06:19.360><c> one</c><00:06:19.520><c> of</c><00:06:19.680><c> him</c><00:06:19.919><c> seeing</c><00:06:20.160><c> from</c><00:06:20.479><c> the</c><00:06:20.720><c> front.</c>
+
+00:06:21.350 --> 00:06:21.360 align:start position:0%
+and one of him seeing from the front.
+ 
+
+00:06:21.360 --> 00:06:23.590 align:start position:0%
+and one of him seeing from the front.
+These<00:06:21.680><c> are</c><00:06:21.759><c> going</c><00:06:21.840><c> to</c><00:06:21.919><c> be</c><00:06:22.080><c> the</c><00:06:22.880><c> first</c><00:06:23.199><c> frame</c>
+
+00:06:23.590 --> 00:06:23.600 align:start position:0%
+These are going to be the first frame
+ 
+
+00:06:23.600 --> 00:06:26.230 align:start position:0%
+These are going to be the first frame
+and<00:06:23.919><c> also</c><00:06:24.160><c> the</c><00:06:24.400><c> last</c><00:06:24.639><c> frame</c><00:06:24.880><c> of</c><00:06:25.120><c> my</c><00:06:25.280><c> AI</c><00:06:25.680><c> video.</c>
+
+00:06:26.230 --> 00:06:26.240 align:start position:0%
+and also the last frame of my AI video.
+ 
+
+00:06:26.240 --> 00:06:28.230 align:start position:0%
+and also the last frame of my AI video.
+And<00:06:26.400><c> I</c><00:06:26.639><c> can</c><00:06:26.800><c> actually</c><00:06:27.039><c> instruct</c><00:06:27.440><c> my</c><00:06:27.680><c> AI</c><00:06:28.000><c> video</c>
+
+00:06:28.230 --> 00:06:28.240 align:start position:0%
+And I can actually instruct my AI video
+ 
+
+00:06:28.240 --> 00:06:30.870 align:start position:0%
+And I can actually instruct my AI video
+generator<00:06:28.880><c> to</c><00:06:29.199><c> animate</c><00:06:29.600><c> a</c><00:06:29.840><c> orbiting</c><00:06:30.400><c> motion</c>
+
+00:06:30.870 --> 00:06:30.880 align:start position:0%
+generator to animate a orbiting motion
+ 
+
+00:06:30.880 --> 00:06:36.309 align:start position:0%
+generator to animate a orbiting motion
+in<00:06:31.199><c> a</c><00:06:31.680><c> 180°ree</c><00:06:32.720><c> movement</c><00:06:33.199><c> around</c><00:06:33.520><c> him.</c>
+
+00:06:36.309 --> 00:06:36.319 align:start position:0%
+in a 180°ree movement around him.
+ 
+
+00:06:36.319 --> 00:06:37.990 align:start position:0%
+in a 180°ree movement around him.
+Here's<00:06:36.639><c> another</c><00:06:36.960><c> example</c><00:06:37.280><c> of</c><00:06:37.440><c> the</c><00:06:37.680><c> type</c><00:06:37.840><c> of</c>
+
+00:06:37.990 --> 00:06:38.000 align:start position:0%
+Here's another example of the type of
+ 
+
+00:06:38.000 --> 00:06:39.909 align:start position:0%
+Here's another example of the type of
+video<00:06:38.240><c> we</c><00:06:38.479><c> can</c><00:06:38.639><c> animate.</c><00:06:39.199><c> In</c><00:06:39.360><c> this</c><00:06:39.520><c> case,</c><00:06:39.759><c> it's</c>
+
+00:06:39.909 --> 00:06:39.919 align:start position:0%
+video we can animate. In this case, it's
+ 
+
+00:06:39.919 --> 00:06:42.550 align:start position:0%
+video we can animate. In this case, it's
+going<00:06:40.000><c> to</c><00:06:40.080><c> be</c><00:06:40.160><c> a</c><00:06:40.400><c> transformation</c><00:06:41.120><c> of</c><00:06:41.440><c> my</c><00:06:42.080><c> bear</c>
+
+00:06:42.550 --> 00:06:42.560 align:start position:0%
+going to be a transformation of my bear
+ 
+
+00:06:42.560 --> 00:06:45.430 align:start position:0%
+going to be a transformation of my bear
+character<00:06:43.280><c> that</c><00:06:43.680><c> uh</c><00:06:43.840><c> shakes</c><00:06:44.160><c> off</c><00:06:44.319><c> its</c><00:06:44.560><c> fur</c><00:06:45.039><c> and</c>
+
+00:06:45.430 --> 00:06:45.440 align:start position:0%
+character that uh shakes off its fur and
+ 
+
+00:06:45.440 --> 00:06:55.350 align:start position:0%
+character that uh shakes off its fur and
+transforms<00:06:46.240><c> into</c><00:06:46.560><c> this</c><00:06:46.880><c> boy</c><00:06:47.440><c> elf.</c>
+
+00:06:55.350 --> 00:06:55.360 align:start position:0%
+ 
+ 
+
+00:06:55.360 --> 00:06:57.029 align:start position:0%
+ 
+The<00:06:55.600><c> best</c><00:06:55.840><c> version</c><00:06:56.160><c> of</c><00:06:56.319><c> the</c><00:06:56.479><c> start</c><00:06:56.639><c> and</c><00:06:56.800><c> end</c>
+
+00:06:57.029 --> 00:06:57.039 align:start position:0%
+The best version of the start and end
+ 
+
+00:06:57.039 --> 00:06:59.029 align:start position:0%
+The best version of the start and end
+frames<00:06:57.280><c> feature</c><00:06:57.680><c> is</c><00:06:57.919><c> going</c><00:06:58.000><c> to</c><00:06:58.160><c> be</c><00:06:58.319><c> in</c><00:06:58.639><c> cling</c>
+
+00:06:59.029 --> 00:06:59.039 align:start position:0%
+frames feature is going to be in cling
+ 
+
+00:06:59.039 --> 00:07:01.510 align:start position:0%
+frames feature is going to be in cling
+AI.<00:06:59.919><c> And</c><00:07:00.160><c> so</c><00:07:00.319><c> if</c><00:07:00.560><c> you</c><00:07:00.639><c> go</c><00:07:00.720><c> to</c><00:07:00.880><c> the</c><00:07:01.039><c> image</c><00:07:01.360><c> to</c>
+
+00:07:01.510 --> 00:07:01.520 align:start position:0%
+AI. And so if you go to the image to
+ 
+
+00:07:01.520 --> 00:07:04.150 align:start position:0%
+AI. And so if you go to the image to
+video<00:07:01.840><c> generator,</c><00:07:03.120><c> uh</c><00:07:03.280><c> you'll</c><00:07:03.680><c> have</c><00:07:03.840><c> this</c>
+
+00:07:04.150 --> 00:07:04.160 align:start position:0%
+video generator, uh you'll have this
+ 
+
+00:07:04.160 --> 00:07:07.830 align:start position:0%
+video generator, uh you'll have this
+option<00:07:05.199><c> to</c><00:07:05.919><c> adding</c><00:07:06.400><c> both</c><00:07:06.800><c> the</c><00:07:07.199><c> first</c><00:07:07.440><c> frame</c><00:07:07.759><c> of</c>
+
+00:07:07.830 --> 00:07:07.840 align:start position:0%
+option to adding both the first frame of
+ 
+
+00:07:07.840 --> 00:07:09.670 align:start position:0%
+option to adding both the first frame of
+the<00:07:08.000><c> video</c><00:07:08.240><c> and</c><00:07:08.479><c> also</c><00:07:08.720><c> the</c><00:07:08.960><c> last</c><00:07:09.120><c> frame</c><00:07:09.440><c> of</c><00:07:09.520><c> the</c>
+
+00:07:09.670 --> 00:07:09.680 align:start position:0%
+the video and also the last frame of the
+ 
+
+00:07:09.680 --> 00:07:11.909 align:start position:0%
+the video and also the last frame of the
+video.<00:07:10.400><c> So</c><00:07:10.639><c> for</c><00:07:10.880><c> the</c><00:07:11.120><c> first</c><00:07:11.280><c> frame,</c><00:07:11.680><c> I'm</c><00:07:11.840><c> going</c>
+
+00:07:11.909 --> 00:07:11.919 align:start position:0%
+video. So for the first frame, I'm going
+ 
+
+00:07:11.919 --> 00:07:14.629 align:start position:0%
+video. So for the first frame, I'm going
+to<00:07:12.160><c> have</c><00:07:12.720><c> the</c><00:07:13.120><c> picture</c><00:07:13.360><c> of</c><00:07:13.520><c> my</c><00:07:13.680><c> bear</c><00:07:14.240><c> and</c><00:07:14.479><c> for</c>
+
+00:07:14.629 --> 00:07:14.639 align:start position:0%
+to have the picture of my bear and for
+ 
+
+00:07:14.639 --> 00:07:15.909 align:start position:0%
+to have the picture of my bear and for
+the<00:07:14.800><c> end</c><00:07:14.960><c> frame,</c><00:07:15.199><c> I'm</c><00:07:15.360><c> going</c><00:07:15.440><c> to</c><00:07:15.599><c> have</c><00:07:15.680><c> the</c>
+
+00:07:15.909 --> 00:07:15.919 align:start position:0%
+the end frame, I'm going to have the
+ 
+
+00:07:15.919 --> 00:07:18.629 align:start position:0%
+the end frame, I'm going to have the
+picture<00:07:16.160><c> of</c><00:07:16.319><c> my</c><00:07:16.720><c> elf</c><00:07:16.880><c> boy.</c><00:07:17.919><c> And</c><00:07:18.160><c> then</c><00:07:18.400><c> it's</c>
+
+00:07:18.629 --> 00:07:18.639 align:start position:0%
+picture of my elf boy. And then it's
+ 
+
+00:07:18.639 --> 00:07:22.150 align:start position:0%
+picture of my elf boy. And then it's
+always<00:07:19.120><c> useful</c><00:07:20.080><c> uh</c><00:07:20.240><c> to</c><00:07:20.560><c> adding</c><00:07:21.199><c> a</c><00:07:21.520><c> prompt</c><00:07:21.840><c> that</c>
+
+00:07:22.150 --> 00:07:22.160 align:start position:0%
+always useful uh to adding a prompt that
+ 
+
+00:07:22.160 --> 00:07:24.469 align:start position:0%
+always useful uh to adding a prompt that
+describes<00:07:22.720><c> what</c><00:07:23.360><c> happens</c><00:07:23.680><c> in</c><00:07:23.919><c> the</c><00:07:24.080><c> scene</c><00:07:24.319><c> like</c>
+
+00:07:24.469 --> 00:07:24.479 align:start position:0%
+describes what happens in the scene like
+ 
+
+00:07:24.479 --> 00:07:26.309 align:start position:0%
+describes what happens in the scene like
+the<00:07:24.639><c> bear</c><00:07:25.120><c> is</c><00:07:25.440><c> going</c><00:07:25.520><c> to</c><00:07:25.599><c> shake</c><00:07:25.840><c> its</c><00:07:26.000><c> head</c><00:07:26.160><c> and</c>
+
+00:07:26.309 --> 00:07:26.319 align:start position:0%
+the bear is going to shake its head and
+ 
+
+00:07:26.319 --> 00:07:28.710 align:start position:0%
+the bear is going to shake its head and
+transform<00:07:26.800><c> into</c><00:07:27.120><c> the</c><00:07:27.280><c> boy.</c><00:07:28.080><c> Using</c><00:07:28.319><c> the</c><00:07:28.479><c> start</c>
+
+00:07:28.710 --> 00:07:28.720 align:start position:0%
+transform into the boy. Using the start
+ 
+
+00:07:28.720 --> 00:07:31.589 align:start position:0%
+transform into the boy. Using the start
+and<00:07:28.880><c> end</c><00:07:29.039><c> frames</c><00:07:29.360><c> feature,</c><00:07:29.759><c> I</c><00:07:30.000><c> can</c><00:07:30.240><c> exactly</c>
+
+00:07:31.589 --> 00:07:31.599 align:start position:0%
+and end frames feature, I can exactly
+ 
+
+00:07:31.599 --> 00:07:34.710 align:start position:0%
+and end frames feature, I can exactly
+determine<00:07:32.639><c> what</c><00:07:32.960><c> my</c><00:07:33.520><c> character</c><00:07:34.080><c> looks</c><00:07:34.400><c> like</c>
+
+00:07:34.710 --> 00:07:34.720 align:start position:0%
+determine what my character looks like
+ 
+
+00:07:34.720 --> 00:07:37.270 align:start position:0%
+determine what my character looks like
+throughout<00:07:35.280><c> the</c><00:07:35.599><c> entire</c><00:07:36.000><c> scene</c><00:07:36.479><c> and</c><00:07:36.720><c> also</c><00:07:37.039><c> the</c>
+
+00:07:37.270 --> 00:07:37.280 align:start position:0%
+throughout the entire scene and also the
+ 
+
+00:07:37.280 --> 00:07:39.990 align:start position:0%
+throughout the entire scene and also the
+exact<00:07:37.840><c> camera</c><00:07:38.240><c> movement</c><00:07:38.639><c> I</c><00:07:38.880><c> want</c><00:07:39.039><c> to</c><00:07:39.280><c> happen.</c>
+
+00:07:39.990 --> 00:07:40.000 align:start position:0%
+exact camera movement I want to happen.
+ 
+
+00:07:40.000 --> 00:07:41.670 align:start position:0%
+exact camera movement I want to happen.
+Method<00:07:40.479><c> number</c><00:07:40.800><c> three</c><00:07:41.120><c> when</c><00:07:41.280><c> it</c><00:07:41.360><c> comes</c><00:07:41.520><c> to</c>
+
+00:07:41.670 --> 00:07:41.680 align:start position:0%
+Method number three when it comes to
+ 
+
+00:07:41.680 --> 00:07:44.550 align:start position:0%
+Method number three when it comes to
+creating<00:07:41.919><c> AI</c><00:07:42.319><c> videos</c><00:07:42.720><c> is</c><00:07:43.199><c> video</c><00:07:43.759><c> to</c><00:07:44.000><c> video.</c>
+
+00:07:44.550 --> 00:07:44.560 align:start position:0%
+creating AI videos is video to video.
+ 
+
+00:07:44.560 --> 00:07:46.309 align:start position:0%
+creating AI videos is video to video.
+Now,<00:07:44.800><c> what</c><00:07:45.039><c> we're</c><00:07:45.199><c> doing</c><00:07:45.280><c> is</c><00:07:45.520><c> we're</c><00:07:45.759><c> taking</c><00:07:46.000><c> an</c>
+
+00:07:46.309 --> 00:07:46.319 align:start position:0%
+Now, what we're doing is we're taking an
+ 
+
+00:07:46.319 --> 00:07:50.150 align:start position:0%
+Now, what we're doing is we're taking an
+actual<00:07:47.360><c> real</c><00:07:48.000><c> recorded</c><00:07:48.639><c> video</c><00:07:49.440><c> and</c><00:07:49.840><c> we're</c>
+
+00:07:50.150 --> 00:07:50.160 align:start position:0%
+actual real recorded video and we're
+ 
+
+00:07:50.160 --> 00:07:53.110 align:start position:0%
+actual real recorded video and we're
+going<00:07:50.319><c> to</c><00:07:50.560><c> use</c><00:07:50.880><c> AI</c><00:07:51.360><c> to</c><00:07:51.680><c> transform</c><00:07:52.240><c> that</c><00:07:52.560><c> real</c>
+
+00:07:53.110 --> 00:07:53.120 align:start position:0%
+going to use AI to transform that real
+ 
+
+00:07:53.120 --> 00:07:55.589 align:start position:0%
+going to use AI to transform that real
+recorded<00:07:53.599><c> video</c><00:07:53.919><c> into</c><00:07:54.319><c> something</c><00:07:54.639><c> else.</c><00:07:55.280><c> So,</c>
+
+00:07:55.589 --> 00:07:55.599 align:start position:0%
+recorded video into something else. So,
+ 
+
+00:07:55.599 --> 00:07:57.749 align:start position:0%
+recorded video into something else. So,
+for<00:07:55.759><c> example,</c><00:07:56.240><c> I</c><00:07:56.479><c> have</c><00:07:56.639><c> this</c><00:07:56.960><c> recording</c><00:07:57.440><c> of</c>
+
+00:07:57.749 --> 00:07:57.759 align:start position:0%
+for example, I have this recording of
+ 
+
+00:07:57.759 --> 00:08:00.469 align:start position:0%
+for example, I have this recording of
+myself<00:07:58.240><c> acting</c><00:07:58.560><c> out</c><00:07:58.720><c> a</c><00:07:58.960><c> scene.</c><00:07:59.840><c> And</c><00:08:00.000><c> what</c><00:08:00.240><c> I</c>
+
+00:08:00.469 --> 00:08:00.479 align:start position:0%
+myself acting out a scene. And what I
+ 
+
+00:08:00.479 --> 00:08:04.070 align:start position:0%
+myself acting out a scene. And what I
+can<00:08:00.720><c> actually</c><00:08:01.199><c> do</c><00:08:01.759><c> is</c><00:08:02.160><c> actually</c><00:08:02.639><c> use</c><00:08:03.039><c> AI</c><00:08:03.680><c> to</c>
+
+00:08:04.070 --> 00:08:04.080 align:start position:0%
+can actually do is actually use AI to
+ 
+
+00:08:04.080 --> 00:08:07.270 align:start position:0%
+can actually do is actually use AI to
+transfer<00:08:04.879><c> my</c><00:08:05.280><c> movements</c><00:08:06.080><c> onto</c><00:08:06.560><c> an</c><00:08:06.800><c> AI</c>
+
+00:08:07.270 --> 00:08:07.280 align:start position:0%
+transfer my movements onto an AI
+ 
+
+00:08:07.280 --> 00:08:09.510 align:start position:0%
+transfer my movements onto an AI
+character<00:08:07.919><c> like</c><00:08:08.160><c> this.</c>
+
+00:08:09.510 --> 00:08:09.520 align:start position:0%
+character like this.
+ 
+
+00:08:09.520 --> 00:08:11.430 align:start position:0%
+character like this.
+This<00:08:09.759><c> gives</c><00:08:10.000><c> the</c><00:08:10.240><c> highest</c><00:08:10.479><c> amount</c><00:08:10.720><c> of</c><00:08:10.879><c> control</c>
+
+00:08:11.430 --> 00:08:11.440 align:start position:0%
+This gives the highest amount of control
+ 
+
+00:08:11.440 --> 00:08:13.510 align:start position:0%
+This gives the highest amount of control
+over<00:08:11.759><c> the</c><00:08:12.080><c> movements</c><00:08:12.400><c> and</c><00:08:12.639><c> the</c><00:08:12.879><c> dialogue</c><00:08:13.199><c> and</c>
+
+00:08:13.510 --> 00:08:13.520 align:start position:0%
+over the movements and the dialogue and
+ 
+
+00:08:13.520 --> 00:08:15.830 align:start position:0%
+over the movements and the dialogue and
+speech<00:08:13.840><c> of</c><00:08:14.160><c> a</c><00:08:14.400><c> character.</c><00:08:15.120><c> And</c><00:08:15.280><c> to</c><00:08:15.520><c> finish</c><00:08:15.680><c> it</c>
+
+00:08:15.830 --> 00:08:15.840 align:start position:0%
+speech of a character. And to finish it
+ 
+
+00:08:15.840 --> 00:08:18.469 align:start position:0%
+speech of a character. And to finish it
+off,<00:08:16.080><c> I</c><00:08:16.319><c> can</c><00:08:16.400><c> use</c><00:08:16.560><c> an</c><00:08:16.720><c> AI</c><00:08:17.199><c> voice</c><00:08:17.599><c> changer</c><00:08:18.160><c> to</c>
+
+00:08:18.469 --> 00:08:18.479 align:start position:0%
+off, I can use an AI voice changer to
+ 
+
+00:08:18.479 --> 00:08:20.869 align:start position:0%
+off, I can use an AI voice changer to
+change<00:08:18.800><c> my</c><00:08:19.039><c> voice</c><00:08:19.360><c> into</c><00:08:19.680><c> a</c><00:08:20.000><c> AI</c><00:08:20.400><c> voice</c><00:08:20.639><c> that</c>
+
+00:08:20.869 --> 00:08:20.879 align:start position:0%
+change my voice into a AI voice that
+ 
+
+00:08:20.879 --> 00:08:22.950 align:start position:0%
+change my voice into a AI voice that
+fits<00:08:21.199><c> the</c><00:08:21.440><c> characters</c><00:08:21.919><c> better.</c>
+
+00:08:22.950 --> 00:08:22.960 align:start position:0%
+fits the characters better.
+ 
+
+00:08:22.960 --> 00:08:26.710 align:start position:0%
+fits the characters better.
+&gt;&gt; Okay,<00:08:23.759><c> planned</c><00:08:24.160><c> is</c><00:08:24.400><c> kind</c><00:08:24.560><c> of</c><00:08:24.720><c> a</c><00:08:24.960><c> big</c><00:08:25.360><c> word.</c><00:08:26.400><c> I</c>
+
+00:08:26.710 --> 00:08:26.720 align:start position:0%
+&gt;&gt; Okay, planned is kind of a big word. I
+ 
+
+00:08:26.720 --> 00:08:30.150 align:start position:0%
+&gt;&gt; Okay, planned is kind of a big word. I
+just<00:08:27.280><c> saw</c><00:08:28.000><c> a</c><00:08:28.560><c> weak</c><00:08:28.879><c> fuel</c><00:08:29.280><c> route</c><00:08:29.759><c> that</c><00:08:30.000><c> was</c>
+
+00:08:30.150 --> 00:08:30.160 align:start position:0%
+just saw a weak fuel route that was
+ 
+
+00:08:30.160 --> 00:08:31.990 align:start position:0%
+just saw a weak fuel route that was
+running<00:08:30.479><c> light</c><00:08:30.639><c> on</c><00:08:30.879><c> guards,</c><00:08:31.280><c> so</c><00:08:31.520><c> I</c><00:08:31.840><c> thought</c>
+
+00:08:31.990 --> 00:08:32.000 align:start position:0%
+running light on guards, so I thought
+ 
+
+00:08:32.000 --> 00:08:34.469 align:start position:0%
+running light on guards, so I thought
+I'd<00:08:32.240><c> take</c><00:08:32.399><c> a</c><00:08:32.640><c> little</c><00:08:32.800><c> for</c><00:08:33.039><c> myself.</c><00:08:34.000><c> The</c><00:08:34.240><c> best</c>
+
+00:08:34.469 --> 00:08:34.479 align:start position:0%
+I'd take a little for myself. The best
+ 
+
+00:08:34.479 --> 00:08:36.709 align:start position:0%
+I'd take a little for myself. The best
+AI<00:08:34.800><c> model</c><00:08:34.959><c> for</c><00:08:35.200><c> doing</c><00:08:35.360><c> this</c><00:08:35.599><c> right</c><00:08:35.839><c> now</c><00:08:36.000><c> is</c><00:08:36.320><c> the</c>
+
+00:08:36.709 --> 00:08:36.719 align:start position:0%
+AI model for doing this right now is the
+ 
+
+00:08:36.719 --> 00:08:40.230 align:start position:0%
+AI model for doing this right now is the
+one<00:08:37.200><c> animate</c><00:08:37.839><c> model.</c><00:08:38.959><c> And</c><00:08:39.120><c> to</c><00:08:39.279><c> do</c><00:08:39.440><c> this</c><00:08:39.599><c> inside</c>
+
+00:08:40.230 --> 00:08:40.240 align:start position:0%
+one animate model. And to do this inside
+ 
+
+00:08:40.240 --> 00:08:42.310 align:start position:0%
+one animate model. And to do this inside
+one<00:08:40.479><c> animate,</c><00:08:41.440><c> you'll</c><00:08:41.760><c> need</c><00:08:41.919><c> to</c><00:08:42.080><c> make</c><00:08:42.240><c> sure</c>
+
+00:08:42.310 --> 00:08:42.320 align:start position:0%
+one animate, you'll need to make sure
+ 
+
+00:08:42.320 --> 00:08:44.630 align:start position:0%
+one animate, you'll need to make sure
+you<00:08:42.560><c> have</c><00:08:42.640><c> the</c><00:08:42.800><c> AI</c><00:08:43.440><c> avatar</c><00:08:43.919><c> tool</c><00:08:44.240><c> selected.</c>
+
+00:08:44.630 --> 00:08:44.640 align:start position:0%
+you have the AI avatar tool selected.
+ 
+
+00:08:44.640 --> 00:08:46.870 align:start position:0%
+you have the AI avatar tool selected.
+And<00:08:44.800><c> then</c><00:08:45.040><c> also</c><00:08:45.279><c> use</c><00:08:45.519><c> the</c><00:08:45.680><c> photo</c><00:08:46.080><c> animate</c><00:08:46.480><c> AI</c>
+
+00:08:46.870 --> 00:08:46.880 align:start position:0%
+And then also use the photo animate AI
+ 
+
+00:08:46.880 --> 00:08:49.110 align:start position:0%
+And then also use the photo animate AI
+tool.<00:08:47.440><c> Then</c><00:08:47.760><c> the</c><00:08:47.920><c> way</c><00:08:48.080><c> this</c><00:08:48.399><c> works</c><00:08:48.640><c> is</c><00:08:48.880><c> you'll</c>
+
+00:08:49.110 --> 00:08:49.120 align:start position:0%
+tool. Then the way this works is you'll
+ 
+
+00:08:49.120 --> 00:08:51.829 align:start position:0%
+tool. Then the way this works is you'll
+need<00:08:49.200><c> an</c><00:08:49.440><c> AI</c><00:08:49.839><c> character</c><00:08:50.240><c> image.</c><00:08:50.959><c> Uh</c><00:08:51.279><c> so</c><00:08:51.440><c> I</c><00:08:51.680><c> have</c>
+
+00:08:51.829 --> 00:08:51.839 align:start position:0%
+need an AI character image. Uh so I have
+ 
+
+00:08:51.839 --> 00:08:54.870 align:start position:0%
+need an AI character image. Uh so I have
+this<00:08:52.880><c> green</c><00:08:53.279><c> alien</c><00:08:53.920><c> sitting</c><00:08:54.240><c> inside</c><00:08:54.560><c> the</c>
+
+00:08:54.870 --> 00:08:54.880 align:start position:0%
+this green alien sitting inside the
+ 
+
+00:08:54.880 --> 00:08:58.070 align:start position:0%
+this green alien sitting inside the
+interrogation<00:08:55.519><c> room.</c><00:08:56.399><c> And</c><00:08:56.640><c> then</c><00:08:57.279><c> the</c><00:08:57.680><c> action</c>
+
+00:08:58.070 --> 00:08:58.080 align:start position:0%
+interrogation room. And then the action
+ 
+
+00:08:58.080 --> 00:09:00.710 align:start position:0%
+interrogation room. And then the action
+video.<00:08:58.800><c> And</c><00:08:59.040><c> so</c><00:08:59.279><c> this</c><00:08:59.519><c> action</c><00:08:59.920><c> video</c><00:09:00.320><c> is</c><00:09:00.560><c> the</c>
+
+00:09:00.710 --> 00:09:00.720 align:start position:0%
+video. And so this action video is the
+ 
+
+00:09:00.720 --> 00:09:03.829 align:start position:0%
+video. And so this action video is the
+one<00:09:00.959><c> of</c><00:09:01.200><c> me</c><00:09:02.160><c> talking</c><00:09:02.480><c> and</c><00:09:02.720><c> acting</c><00:09:03.120><c> up</c><00:09:03.600><c> the</c>
+
+00:09:03.829 --> 00:09:03.839 align:start position:0%
+one of me talking and acting up the
+ 
+
+00:09:03.839 --> 00:09:06.550 align:start position:0%
+one of me talking and acting up the
+scene.<00:09:04.640><c> And</c><00:09:05.360><c> right</c><00:09:05.600><c> now</c><00:09:05.760><c> the</c><00:09:05.920><c> action</c><00:09:06.240><c> video</c>
+
+00:09:06.550 --> 00:09:06.560 align:start position:0%
+scene. And right now the action video
+ 
+
+00:09:06.560 --> 00:09:09.110 align:start position:0%
+scene. And right now the action video
+can<00:09:06.720><c> be</c><00:09:06.800><c> up</c><00:09:06.959><c> to</c><00:09:07.200><c> 15</c><00:09:07.600><c> seconds.</c><00:09:08.399><c> So</c><00:09:08.720><c> if</c><00:09:08.880><c> you</c><00:09:09.040><c> have</c>
+
+00:09:09.110 --> 00:09:09.120 align:start position:0%
+can be up to 15 seconds. So if you have
+ 
+
+00:09:09.120 --> 00:09:11.110 align:start position:0%
+can be up to 15 seconds. So if you have
+a<00:09:09.360><c> longer</c><00:09:10.160><c> uh</c><00:09:10.399><c> sequence</c><00:09:10.720><c> you</c><00:09:10.880><c> want</c><00:09:10.959><c> to</c>
+
+00:09:11.110 --> 00:09:11.120 align:start position:0%
+a longer uh sequence you want to
+ 
+
+00:09:11.120 --> 00:09:12.870 align:start position:0%
+a longer uh sequence you want to
+animate,<00:09:11.519><c> you</c><00:09:11.680><c> need</c><00:09:11.760><c> to</c><00:09:12.000><c> break</c><00:09:12.160><c> it</c><00:09:12.320><c> up</c><00:09:12.480><c> into</c>
+
+00:09:12.870 --> 00:09:12.880 align:start position:0%
+animate, you need to break it up into
+ 
+
+00:09:12.880 --> 00:09:15.110 align:start position:0%
+animate, you need to break it up into
+smaller<00:09:13.279><c> sections.</c><00:09:14.000><c> Video</c><00:09:14.320><c> to</c><00:09:14.560><c> video</c><00:09:14.800><c> is</c><00:09:14.959><c> one</c>
+
+00:09:15.110 --> 00:09:15.120 align:start position:0%
+smaller sections. Video to video is one
+ 
+
+00:09:15.120 --> 00:09:17.190 align:start position:0%
+smaller sections. Video to video is one
+of<00:09:15.200><c> the</c><00:09:15.440><c> coolest</c><00:09:15.920><c> methods</c><00:09:16.240><c> for</c><00:09:16.480><c> making</c><00:09:16.640><c> an</c><00:09:16.800><c> AI</c>
+
+00:09:17.190 --> 00:09:17.200 align:start position:0%
+of the coolest methods for making an AI
+ 
+
+00:09:17.200 --> 00:09:19.190 align:start position:0%
+of the coolest methods for making an AI
+video.<00:09:17.600><c> It</c><00:09:17.839><c> is</c><00:09:18.000><c> more</c><00:09:18.240><c> unstable</c><00:09:18.800><c> compared</c><00:09:19.040><c> to</c>
+
+00:09:19.190 --> 00:09:19.200 align:start position:0%
+video. It is more unstable compared to
+ 
+
+00:09:19.200 --> 00:09:21.590 align:start position:0%
+video. It is more unstable compared to
+text<00:09:19.519><c> to</c><00:09:19.680><c> video</c><00:09:20.080><c> or</c><00:09:20.399><c> image</c><00:09:20.720><c> to</c><00:09:20.959><c> video.</c><00:09:21.279><c> If</c><00:09:21.440><c> we</c>
+
+00:09:21.590 --> 00:09:21.600 align:start position:0%
+text to video or image to video. If we
+ 
+
+00:09:21.600 --> 00:09:23.670 align:start position:0%
+text to video or image to video. If we
+take<00:09:21.680><c> a</c><00:09:21.839><c> look</c><00:09:22.000><c> at</c><00:09:22.240><c> some</c><00:09:22.399><c> of</c><00:09:22.480><c> these</c><00:09:22.720><c> shots,</c><00:09:23.440><c> the</c>
+
+00:09:23.670 --> 00:09:23.680 align:start position:0%
+take a look at some of these shots, the
+ 
+
+00:09:23.680 --> 00:09:25.829 align:start position:0%
+take a look at some of these shots, the
+wall<00:09:23.920><c> in</c><00:09:24.080><c> the</c><00:09:24.240><c> background</c><00:09:24.959><c> shift</c><00:09:25.279><c> and</c><00:09:25.519><c> move</c>
+
+00:09:25.829 --> 00:09:25.839 align:start position:0%
+wall in the background shift and move
+ 
+
+00:09:25.839 --> 00:09:28.310 align:start position:0%
+wall in the background shift and move
+around<00:09:26.399><c> a</c><00:09:26.720><c> little</c><00:09:26.880><c> bit.</c><00:09:27.600><c> uh</c><00:09:27.839><c> there's</c><00:09:28.080><c> some</c>
+
+00:09:28.310 --> 00:09:28.320 align:start position:0%
+around a little bit. uh there's some
+ 
+
+00:09:28.320 --> 00:09:31.350 align:start position:0%
+around a little bit. uh there's some
+light<00:09:28.720><c> flickering</c><00:09:29.360><c> back</c><00:09:29.680><c> there.</c>
+
+00:09:31.350 --> 00:09:31.360 align:start position:0%
+light flickering back there.
+ 
+
+00:09:31.360 --> 00:09:33.030 align:start position:0%
+light flickering back there.
+So,<00:09:31.600><c> while</c><00:09:31.920><c> it</c><00:09:32.080><c> does</c><00:09:32.240><c> a</c><00:09:32.480><c> good</c><00:09:32.640><c> job</c><00:09:32.800><c> of</c>
+
+00:09:33.030 --> 00:09:33.040 align:start position:0%
+So, while it does a good job of
+ 
+
+00:09:33.040 --> 00:09:34.790 align:start position:0%
+So, while it does a good job of
+animating<00:09:33.519><c> your</c><00:09:33.760><c> characters,</c><00:09:34.160><c> if</c><00:09:34.399><c> you</c><00:09:34.480><c> have</c><00:09:34.560><c> a</c>
+
+00:09:34.790 --> 00:09:34.800 align:start position:0%
+animating your characters, if you have a
+ 
+
+00:09:34.800 --> 00:09:37.269 align:start position:0%
+animating your characters, if you have a
+more<00:09:35.040><c> complex</c><00:09:35.600><c> background,</c><00:09:36.399><c> it</c><00:09:36.640><c> is</c><00:09:36.880><c> hard</c><00:09:37.040><c> to</c>
+
+00:09:37.269 --> 00:09:37.279 align:start position:0%
+more complex background, it is hard to
+ 
+
+00:09:37.279 --> 00:09:39.750 align:start position:0%
+more complex background, it is hard to
+keep<00:09:37.519><c> it</c><00:09:37.760><c> super</c><00:09:38.160><c> stable.</c><00:09:38.959><c> There</c><00:09:39.200><c> are</c><00:09:39.440><c> other</c>
+
+00:09:39.750 --> 00:09:39.760 align:start position:0%
+keep it super stable. There are other
+ 
+
+00:09:39.760 --> 00:09:41.829 align:start position:0%
+keep it super stable. There are other
+options<00:09:40.080><c> that</c><00:09:40.399><c> allow</c><00:09:40.800><c> videotovideo</c>
+
+00:09:41.829 --> 00:09:41.839 align:start position:0%
+options that allow videotovideo
+ 
+
+00:09:41.839 --> 00:09:44.310 align:start position:0%
+options that allow videotovideo
+transfer.<00:09:42.720><c> Luma's</c><00:09:43.200><c> AI</c><00:09:43.440><c> video</c><00:09:43.680><c> generator</c><00:09:44.160><c> has</c>
+
+00:09:44.310 --> 00:09:44.320 align:start position:0%
+transfer. Luma's AI video generator has
+ 
+
+00:09:44.320 --> 00:09:46.550 align:start position:0%
+transfer. Luma's AI video generator has
+this<00:09:44.560><c> feature</c><00:09:44.880><c> called</c><00:09:45.279><c> modify</c><00:09:46.080><c> where</c><00:09:46.320><c> you</c><00:09:46.480><c> can</c>
+
+00:09:46.550 --> 00:09:46.560 align:start position:0%
+this feature called modify where you can
+ 
+
+00:09:46.560 --> 00:09:48.070 align:start position:0%
+this feature called modify where you can
+have<00:09:46.720><c> someone</c><00:09:47.040><c> physically</c><00:09:47.440><c> acting</c><00:09:47.760><c> out</c><00:09:47.920><c> a</c>
+
+00:09:48.070 --> 00:09:48.080 align:start position:0%
+have someone physically acting out a
+ 
+
+00:09:48.080 --> 00:09:49.750 align:start position:0%
+have someone physically acting out a
+scene<00:09:48.320><c> and</c><00:09:48.560><c> transfer</c><00:09:48.959><c> all</c><00:09:49.200><c> the</c><00:09:49.440><c> movements</c>
+
+00:09:49.750 --> 00:09:49.760 align:start position:0%
+scene and transfer all the movements
+ 
+
+00:09:49.760 --> 00:09:52.630 align:start position:0%
+scene and transfer all the movements
+onto<00:09:50.000><c> an</c><00:09:50.160><c> AI</c><00:09:50.560><c> character.</c>
+
+00:09:52.630 --> 00:09:52.640 align:start position:0%
+onto an AI character.
+ 
+
+00:09:52.640 --> 00:09:54.790 align:start position:0%
+onto an AI character.
+So,<00:09:52.880><c> I</c><00:09:53.040><c> also</c><00:09:53.279><c> tried</c><00:09:53.440><c> this</c><00:09:53.600><c> for</c><00:09:53.839><c> myself.</c><00:09:54.320><c> I</c><00:09:54.560><c> took</c>
+
+00:09:54.790 --> 00:09:54.800 align:start position:0%
+So, I also tried this for myself. I took
+ 
+
+00:09:54.800 --> 00:09:57.430 align:start position:0%
+So, I also tried this for myself. I took
+a<00:09:54.959><c> video</c><00:09:55.279><c> recording</c><00:09:55.680><c> of</c><00:09:55.839><c> myself.</c><00:09:56.959><c> um</c><00:09:57.120><c> acting</c>
+
+00:09:57.430 --> 00:09:57.440 align:start position:0%
+a video recording of myself. um acting
+ 
+
+00:09:57.440 --> 00:09:59.750 align:start position:0%
+a video recording of myself. um acting
+out<00:09:57.680><c> of</c><00:09:57.760><c> scene</c><00:09:58.000><c> where</c><00:09:58.160><c> I'm</c><00:09:58.399><c> aiming</c><00:09:58.880><c> a</c><00:09:59.279><c> a</c>
+
+00:09:59.750 --> 00:09:59.760 align:start position:0%
+out of scene where I'm aiming a a
+ 
+
+00:09:59.760 --> 00:10:01.350 align:start position:0%
+out of scene where I'm aiming a a
+weapon.
+
+00:10:01.350 --> 00:10:01.360 align:start position:0%
+weapon.
+ 
+
+00:10:01.360 --> 00:10:05.269 align:start position:0%
+weapon.
+And<00:10:01.600><c> so</c><00:10:02.000><c> I'll</c><00:10:02.720><c> upload</c><00:10:03.200><c> that</c><00:10:03.600><c> video</c><00:10:03.839><c> of</c><00:10:04.000><c> myself</c>
+
+00:10:05.269 --> 00:10:05.279 align:start position:0%
+And so I'll upload that video of myself
+ 
+
+00:10:05.279 --> 00:10:08.949 align:start position:0%
+And so I'll upload that video of myself
+into<00:10:05.920><c> Luma</c><00:10:06.399><c> Labs.</c><00:10:07.440><c> And</c><00:10:07.760><c> with</c><00:10:08.080><c> the</c><00:10:08.560><c> video</c><00:10:08.800><c> of</c>
+
+00:10:08.949 --> 00:10:08.959 align:start position:0%
+into Luma Labs. And with the video of
+ 
+
+00:10:08.959 --> 00:10:12.070 align:start position:0%
+into Luma Labs. And with the video of
+myself<00:10:09.360><c> uploaded,</c><00:10:09.920><c> I</c><00:10:10.160><c> can</c><00:10:10.320><c> go</c><00:10:10.560><c> to</c><00:10:10.959><c> this</c><00:10:11.519><c> modify</c>
+
+00:10:12.070 --> 00:10:12.080 align:start position:0%
+myself uploaded, I can go to this modify
+ 
+
+00:10:12.080 --> 00:10:14.550 align:start position:0%
+myself uploaded, I can go to this modify
+feature,<00:10:13.279><c> which</c><00:10:13.600><c> is</c><00:10:13.839><c> going</c><00:10:14.000><c> to</c><00:10:14.160><c> let</c><00:10:14.399><c> me</c>
+
+00:10:14.550 --> 00:10:14.560 align:start position:0%
+feature, which is going to let me
+ 
+
+00:10:14.560 --> 00:10:16.150 align:start position:0%
+feature, which is going to let me
+transfer<00:10:14.880><c> my</c><00:10:15.120><c> movements</c><00:10:15.440><c> onto</c><00:10:15.680><c> an</c><00:10:15.839><c> AI</c>
+
+00:10:16.150 --> 00:10:16.160 align:start position:0%
+transfer my movements onto an AI
+ 
+
+00:10:16.160 --> 00:10:18.230 align:start position:0%
+transfer my movements onto an AI
+character.<00:10:16.800><c> Now,</c><00:10:17.120><c> before</c><00:10:17.279><c> I</c><00:10:17.440><c> can</c><00:10:17.600><c> do</c><00:10:17.680><c> this,</c><00:10:17.920><c> I</c>
+
+00:10:18.230 --> 00:10:18.240 align:start position:0%
+character. Now, before I can do this, I
+ 
+
+00:10:18.240 --> 00:10:22.069 align:start position:0%
+character. Now, before I can do this, I
+actually<00:10:18.800><c> need</c><00:10:19.200><c> a</c><00:10:19.600><c> AI</c><00:10:20.079><c> image</c><00:10:21.120><c> of</c><00:10:21.360><c> the</c><00:10:21.600><c> AI</c>
+
+00:10:22.069 --> 00:10:22.079 align:start position:0%
+actually need a AI image of the AI
+ 
+
+00:10:22.079 --> 00:10:24.150 align:start position:0%
+actually need a AI image of the AI
+character<00:10:22.720><c> that</c><00:10:23.040><c> I'm</c><00:10:23.279><c> going</c><00:10:23.360><c> to</c><00:10:23.440><c> transfer</c><00:10:23.920><c> my</c>
+
+00:10:24.150 --> 00:10:24.160 align:start position:0%
+character that I'm going to transfer my
+ 
+
+00:10:24.160 --> 00:10:26.710 align:start position:0%
+character that I'm going to transfer my
+movements<00:10:24.560><c> onto.</c><00:10:25.360><c> And</c><00:10:25.680><c> so</c><00:10:26.079><c> first</c><00:10:26.320><c> I</c><00:10:26.560><c> actually</c>
+
+00:10:26.710 --> 00:10:26.720 align:start position:0%
+movements onto. And so first I actually
+ 
+
+00:10:26.720 --> 00:10:30.389 align:start position:0%
+movements onto. And so first I actually
+need<00:10:26.880><c> to</c><00:10:27.040><c> get</c><00:10:27.120><c> the</c><00:10:27.440><c> start</c><00:10:27.839><c> frame</c><00:10:28.800><c> from</c><00:10:29.200><c> my</c><00:10:30.000><c> own</c>
+
+00:10:30.389 --> 00:10:30.399 align:start position:0%
+need to get the start frame from my own
+ 
+
+00:10:30.399 --> 00:10:32.550 align:start position:0%
+need to get the start frame from my own
+video<00:10:30.800><c> recording.</c><00:10:31.680><c> And</c><00:10:31.920><c> so</c><00:10:32.079><c> that's</c><00:10:32.399><c> just</c>
+
+00:10:32.550 --> 00:10:32.560 align:start position:0%
+video recording. And so that's just
+ 
+
+00:10:32.560 --> 00:10:35.990 align:start position:0%
+video recording. And so that's just
+going<00:10:32.640><c> to</c><00:10:32.800><c> look</c><00:10:32.959><c> like</c><00:10:33.360><c> me</c><00:10:34.079><c> uh</c><00:10:34.240><c> with</c><00:10:34.480><c> my</c><00:10:35.680><c> hand</c>
+
+00:10:35.990 --> 00:10:36.000 align:start position:0%
+going to look like me uh with my hand
+ 
+
+00:10:36.000 --> 00:10:38.550 align:start position:0%
+going to look like me uh with my hand
+pointed<00:10:36.399><c> in</c><00:10:36.560><c> the</c><00:10:36.720><c> air.</c><00:10:37.440><c> Then</c><00:10:37.680><c> I</c><00:10:37.839><c> used</c><00:10:38.000><c> the</c><00:10:38.160><c> Nano</c>
+
+00:10:38.550 --> 00:10:38.560 align:start position:0%
+pointed in the air. Then I used the Nano
+ 
+
+00:10:38.560 --> 00:10:41.110 align:start position:0%
+pointed in the air. Then I used the Nano
+Banana<00:10:38.959><c> AI</c><00:10:39.279><c> image</c><00:10:39.600><c> generator</c><00:10:40.079><c> to</c><00:10:40.640><c> create</c><00:10:40.959><c> an</c>
+
+00:10:41.110 --> 00:10:41.120 align:start position:0%
+Banana AI image generator to create an
+ 
+
+00:10:41.120 --> 00:10:43.750 align:start position:0%
+Banana AI image generator to create an
+AI<00:10:41.600><c> character</c><00:10:41.920><c> in</c><00:10:42.240><c> the</c><00:10:42.399><c> same</c><00:10:42.720><c> exact</c><00:10:43.279><c> pose</c><00:10:43.600><c> that</c>
+
+00:10:43.750 --> 00:10:43.760 align:start position:0%
+AI character in the same exact pose that
+ 
+
+00:10:43.760 --> 00:10:46.790 align:start position:0%
+AI character in the same exact pose that
+I'm<00:10:43.920><c> in</c><00:10:44.399><c> of</c><00:10:44.640><c> this</c><00:10:44.959><c> robot</c><00:10:45.440><c> holding</c><00:10:46.000><c> a</c><00:10:46.320><c> weapon</c><00:10:46.640><c> in</c>
+
+00:10:46.790 --> 00:10:46.800 align:start position:0%
+I'm in of this robot holding a weapon in
+ 
+
+00:10:46.800 --> 00:10:49.110 align:start position:0%
+I'm in of this robot holding a weapon in
+a<00:10:46.959><c> dystopian</c><00:10:47.680><c> landscape.</c><00:10:48.640><c> Then</c><00:10:48.800><c> I</c><00:10:48.880><c> need</c><00:10:49.040><c> to</c>
+
+00:10:49.110 --> 00:10:49.120 align:start position:0%
+a dystopian landscape. Then I need to
+ 
+
+00:10:49.120 --> 00:10:51.670 align:start position:0%
+a dystopian landscape. Then I need to
+pick<00:10:49.440><c> that</c><00:10:49.680><c> AI</c><00:10:50.079><c> robot</c><00:10:50.560><c> picture</c><00:10:50.880><c> as</c><00:10:51.120><c> a</c><00:10:51.360><c> start</c>
+
+00:10:51.670 --> 00:10:51.680 align:start position:0%
+pick that AI robot picture as a start
+ 
+
+00:10:51.680 --> 00:10:54.630 align:start position:0%
+pick that AI robot picture as a start
+frame<00:10:52.720><c> uh</c><00:10:52.880><c> of</c><00:10:53.120><c> the</c><00:10:53.279><c> video.</c><00:10:53.839><c> And</c><00:10:54.000><c> now</c><00:10:54.240><c> I'm</c><00:10:54.399><c> ready</c>
+
+00:10:54.630 --> 00:10:54.640 align:start position:0%
+frame uh of the video. And now I'm ready
+ 
+
+00:10:54.640 --> 00:10:56.550 align:start position:0%
+frame uh of the video. And now I'm ready
+to<00:10:54.880><c> use</c><00:10:55.120><c> the</c><00:10:55.440><c> video</c><00:10:55.760><c> to</c><00:10:55.920><c> video</c><00:10:56.160><c> motion</c>
+
+00:10:56.550 --> 00:10:56.560 align:start position:0%
+to use the video to video motion
+ 
+
+00:10:56.560 --> 00:10:58.790 align:start position:0%
+to use the video to video motion
+capture.<00:10:57.279><c> When</c><00:10:57.519><c> you</c><00:10:57.680><c> go</c><00:10:57.839><c> and</c><00:10:58.079><c> try</c><00:10:58.320><c> this</c><00:10:58.560><c> for</c>
+
+00:10:58.790 --> 00:10:58.800 align:start position:0%
+capture. When you go and try this for
+ 
+
+00:10:58.800 --> 00:11:01.430 align:start position:0%
+capture. When you go and try this for
+yourself,<00:11:00.160><c> just</c><00:11:00.399><c> keep</c><00:11:00.560><c> in</c><00:11:00.720><c> mind</c><00:11:00.880><c> that</c><00:11:01.120><c> video</c>
+
+00:11:01.430 --> 00:11:01.440 align:start position:0%
+yourself, just keep in mind that video
+ 
+
+00:11:01.440 --> 00:11:04.550 align:start position:0%
+yourself, just keep in mind that video
+to<00:11:01.680><c> video</c><00:11:02.079><c> is</c><00:11:02.480><c> still</c><00:11:03.040><c> less</c><00:11:03.440><c> developed</c><00:11:04.160><c> than</c>
+
+00:11:04.550 --> 00:11:04.560 align:start position:0%
+to video is still less developed than
+ 
+
+00:11:04.560 --> 00:11:06.470 align:start position:0%
+to video is still less developed than
+text<00:11:04.800><c> to</c><00:11:04.959><c> video</c><00:11:05.200><c> or</c><00:11:05.360><c> image</c><00:11:05.680><c> to</c><00:11:05.839><c> video.</c><00:11:06.320><c> The</c>
+
+00:11:06.470 --> 00:11:06.480 align:start position:0%
+text to video or image to video. The
+ 
+
+00:11:06.480 --> 00:11:08.870 align:start position:0%
+text to video or image to video. The
+main<00:11:06.640><c> thing</c><00:11:06.800><c> I'd</c><00:11:07.040><c> suggest</c><00:11:07.360><c> is</c><00:11:07.839><c> make</c><00:11:08.160><c> sure</c><00:11:08.480><c> your</c>
+
+00:11:08.870 --> 00:11:08.880 align:start position:0%
+main thing I'd suggest is make sure your
+ 
+
+00:11:08.880 --> 00:11:12.230 align:start position:0%
+main thing I'd suggest is make sure your
+character's<00:11:09.600><c> face</c><00:11:10.320><c> is</c><00:11:10.720><c> clearly</c><00:11:11.440><c> visible</c>
+
+00:11:12.230 --> 00:11:12.240 align:start position:0%
+character's face is clearly visible
+ 
+
+00:11:12.240 --> 00:11:13.509 align:start position:0%
+character's face is clearly visible
+throughout<00:11:12.560><c> the</c><00:11:12.720><c> scene.</c><00:11:13.040><c> You</c><00:11:13.279><c> don't</c><00:11:13.360><c> want</c>
+
+00:11:13.509 --> 00:11:13.519 align:start position:0%
+throughout the scene. You don't want
+ 
+
+00:11:13.519 --> 00:11:16.389 align:start position:0%
+throughout the scene. You don't want
+like<00:11:13.839><c> too</c><00:11:14.079><c> many</c><00:11:14.399><c> super</c><00:11:14.800><c> fast</c><00:11:15.279><c> movements.</c><00:11:16.160><c> It's</c>
+
+00:11:16.389 --> 00:11:16.399 align:start position:0%
+like too many super fast movements. It's
+ 
+
+00:11:16.399 --> 00:11:17.829 align:start position:0%
+like too many super fast movements. It's
+going<00:11:16.480><c> to</c><00:11:16.720><c> be</c><00:11:16.800><c> hard</c><00:11:16.959><c> for</c><00:11:17.120><c> the</c><00:11:17.200><c> AI</c><00:11:17.519><c> to</c><00:11:17.680><c> keep</c>
+
+00:11:17.829 --> 00:11:17.839 align:start position:0%
+going to be hard for the AI to keep
+ 
+
+00:11:17.839 --> 00:11:19.829 align:start position:0%
+going to be hard for the AI to keep
+track<00:11:18.000><c> of</c><00:11:18.240><c> everything.</c><00:11:18.959><c> Method</c><00:11:19.360><c> number</c><00:11:19.600><c> four</c>
+
+00:11:19.829 --> 00:11:19.839 align:start position:0%
+track of everything. Method number four
+ 
+
+00:11:19.839 --> 00:11:22.790 align:start position:0%
+track of everything. Method number four
+to<00:11:20.079><c> create</c><00:11:20.160><c> an</c><00:11:20.320><c> AI</c><00:11:20.720><c> video</c><00:11:21.200><c> is</c><00:11:21.519><c> lip</c><00:11:21.839><c> sync.</c><00:11:22.560><c> This</c>
+
+00:11:22.790 --> 00:11:22.800 align:start position:0%
+to create an AI video is lip sync. This
+ 
+
+00:11:22.800 --> 00:11:25.030 align:start position:0%
+to create an AI video is lip sync. This
+is<00:11:22.880><c> one</c><00:11:23.040><c> of</c><00:11:23.120><c> the</c><00:11:23.360><c> most</c><00:11:23.680><c> reliable</c><00:11:24.160><c> ways</c><00:11:24.640><c> to</c><00:11:24.880><c> make</c>
+
+00:11:25.030 --> 00:11:25.040 align:start position:0%
+is one of the most reliable ways to make
+ 
+
+00:11:25.040 --> 00:11:27.269 align:start position:0%
+is one of the most reliable ways to make
+an<00:11:25.200><c> AI</c><00:11:25.600><c> characters</c><00:11:26.000><c> for</c><00:11:26.240><c> your</c><00:11:26.399><c> films,</c><00:11:27.040><c> create</c>
+
+00:11:27.269 --> 00:11:27.279 align:start position:0%
+an AI characters for your films, create
+ 
+
+00:11:27.279 --> 00:11:30.310 align:start position:0%
+an AI characters for your films, create
+an<00:11:27.440><c> AI</c><00:11:27.839><c> avatar,</c><00:11:28.480><c> make</c><00:11:28.640><c> an</c><00:11:28.800><c> AI</c><00:11:29.200><c> music</c><00:11:29.600><c> video,</c>
+
+00:11:30.310 --> 00:11:30.320 align:start position:0%
+an AI avatar, make an AI music video,
+ 
+
+00:11:30.320 --> 00:11:32.069 align:start position:0%
+an AI avatar, make an AI music video,
+anything<00:11:30.720><c> where</c><00:11:30.959><c> you</c><00:11:31.120><c> want</c><00:11:31.200><c> the</c><00:11:31.519><c> character</c><00:11:31.839><c> to</c>
+
+00:11:32.069 --> 00:11:32.079 align:start position:0%
+anything where you want the character to
+ 
+
+00:11:32.079 --> 00:11:34.230 align:start position:0%
+anything where you want the character to
+speak.<00:11:32.720><c> The</c><00:11:32.959><c> how</c><00:11:33.120><c> lip</c><00:11:33.360><c> sync</c><00:11:33.680><c> works</c><00:11:33.839><c> is</c><00:11:34.000><c> you</c>
+
+00:11:34.230 --> 00:11:34.240 align:start position:0%
+speak. The how lip sync works is you
+ 
+
+00:11:34.240 --> 00:11:36.790 align:start position:0%
+speak. The how lip sync works is you
+have<00:11:34.399><c> just</c><00:11:34.720><c> a</c><00:11:35.040><c> audio</c><00:11:35.519><c> file</c><00:11:36.000><c> of</c><00:11:36.320><c> somebody</c>
+
+00:11:36.790 --> 00:11:36.800 align:start position:0%
+have just a audio file of somebody
+ 
+
+00:11:36.800 --> 00:11:39.190 align:start position:0%
+have just a audio file of somebody
+talking<00:11:37.519><c> and</c><00:11:37.760><c> you</c><00:11:38.000><c> can</c><00:11:38.160><c> use</c><00:11:38.320><c> that</c><00:11:38.560><c> to</c><00:11:38.800><c> animate</c>
+
+00:11:39.190 --> 00:11:39.200 align:start position:0%
+talking and you can use that to animate
+ 
+
+00:11:39.200 --> 00:11:41.750 align:start position:0%
+talking and you can use that to animate
+a<00:11:39.519><c> complete</c><00:11:39.920><c> AI</c><00:11:40.399><c> character.</c><00:11:41.200><c> What</c><00:11:41.360><c> if</c><00:11:41.440><c> I</c><00:11:41.600><c> told</c>
+
+00:11:41.750 --> 00:11:41.760 align:start position:0%
+a complete AI character. What if I told
+ 
+
+00:11:41.760 --> 00:11:44.310 align:start position:0%
+a complete AI character. What if I told
+you<00:11:41.920><c> this</c><00:11:42.160><c> entire</c><00:11:42.480><c> video</c><00:11:42.800><c> was</c><00:11:42.959><c> made</c><00:11:43.200><c> by</c><00:11:43.440><c> AI?</c>
+
+00:11:44.310 --> 00:11:44.320 align:start position:0%
+you this entire video was made by AI?
+ 
+
+00:11:44.320 --> 00:11:46.630 align:start position:0%
+you this entire video was made by AI?
+From<00:11:44.560><c> the</c><00:11:44.720><c> script</c><00:11:45.120><c> to</c><00:11:45.360><c> the</c><00:11:45.600><c> visuals</c><00:11:46.240><c> to</c><00:11:46.480><c> the</c>
+
+00:11:46.630 --> 00:11:46.640 align:start position:0%
+From the script to the visuals to the
+ 
+
+00:11:46.640 --> 00:11:48.710 align:start position:0%
+From the script to the visuals to the
+voice<00:11:46.959><c> you're</c><00:11:47.200><c> hearing</c><00:11:47.440><c> right</c><00:11:47.680><c> now,</c><00:11:48.399><c> we're</c>
+
+00:11:48.710 --> 00:11:48.720 align:start position:0%
+voice you're hearing right now, we're
+ 
+
+00:11:48.720 --> 00:11:50.310 align:start position:0%
+voice you're hearing right now, we're
+officially<00:11:49.040><c> in</c><00:11:49.200><c> the</c><00:11:49.440><c> era</c><00:11:49.600><c> where</c><00:11:49.760><c> one</c><00:11:50.000><c> creator</c>
+
+00:11:50.310 --> 00:11:50.320 align:start position:0%
+officially in the era where one creator
+ 
+
+00:11:50.320 --> 00:11:52.470 align:start position:0%
+officially in the era where one creator
+can<00:11:50.480><c> do</c><00:11:50.640><c> the</c><00:11:50.800><c> work</c><00:11:50.959><c> of</c><00:11:51.120><c> an</c><00:11:51.360><c> entire</c><00:11:51.760><c> studio.</c>
+
+00:11:52.470 --> 00:11:52.480 align:start position:0%
+can do the work of an entire studio.
+ 
+
+00:11:52.480 --> 00:11:54.710 align:start position:0%
+can do the work of an entire studio.
+&gt;&gt; I<00:11:52.720><c> made</c><00:11:52.880><c> this</c><00:11:53.040><c> guy</c><00:11:53.200><c> using</c><00:11:53.519><c> Hun's</c><00:11:54.000><c> Avatar</c><00:11:54.480><c> 4</c>
+
+00:11:54.710 --> 00:11:54.720 align:start position:0%
+&gt;&gt; I made this guy using Hun's Avatar 4
+ 
+
+00:11:54.720 --> 00:11:57.110 align:start position:0%
+&gt;&gt; I made this guy using Hun's Avatar 4
+model.<00:11:55.279><c> Not</c><00:11:55.519><c> only</c><00:11:55.680><c> do</c><00:11:55.839><c> the</c><00:11:56.000><c> lip</c><00:11:56.320><c> motions</c><00:11:56.800><c> match</c>
+
+00:11:57.110 --> 00:11:57.120 align:start position:0%
+model. Not only do the lip motions match
+ 
+
+00:11:57.120 --> 00:11:59.509 align:start position:0%
+model. Not only do the lip motions match
+the<00:11:57.279><c> audio</c><00:11:57.760><c> very,</c><00:11:58.000><c> very</c><00:11:58.320><c> well.</c><00:11:58.959><c> So</c><00:11:59.200><c> are</c><00:11:59.360><c> the</c>
+
+00:11:59.509 --> 00:11:59.519 align:start position:0%
+the audio very, very well. So are the
+ 
+
+00:11:59.519 --> 00:12:02.150 align:start position:0%
+the audio very, very well. So are the
+facial<00:11:59.920><c> expressions,</c><00:12:00.880><c> his</c><00:12:01.200><c> pose,</c><00:12:01.760><c> like</c><00:12:01.920><c> the</c>
+
+00:12:02.150 --> 00:12:02.160 align:start position:0%
+facial expressions, his pose, like the
+ 
+
+00:12:02.160 --> 00:12:04.069 align:start position:0%
+facial expressions, his pose, like the
+little<00:12:02.320><c> mannerisms,</c><00:12:03.440><c> everything</c><00:12:03.760><c> looks</c>
+
+00:12:04.069 --> 00:12:04.079 align:start position:0%
+little mannerisms, everything looks
+ 
+
+00:12:04.079 --> 00:12:06.629 align:start position:0%
+little mannerisms, everything looks
+very,<00:12:04.320><c> very</c><00:12:04.640><c> realistic.</c><00:12:05.519><c> Now,</c><00:12:05.839><c> we</c><00:12:06.079><c> also</c><00:12:06.399><c> do</c>
+
+00:12:06.629 --> 00:12:06.639 align:start position:0%
+very, very realistic. Now, we also do
+ 
+
+00:12:06.639 --> 00:12:08.230 align:start position:0%
+very, very realistic. Now, we also do
+have<00:12:06.800><c> the</c><00:12:06.959><c> option</c><00:12:07.279><c> of</c><00:12:07.519><c> animating</c><00:12:08.000><c> the</c>
+
+00:12:08.230 --> 00:12:08.240 align:start position:0%
+have the option of animating the
+ 
+
+00:12:08.240 --> 00:12:10.389 align:start position:0%
+have the option of animating the
+character<00:12:08.959><c> moving</c><00:12:09.360><c> around</c><00:12:09.680><c> and</c><00:12:09.920><c> engaging</c>
+
+00:12:10.389 --> 00:12:10.399 align:start position:0%
+character moving around and engaging
+ 
+
+00:12:10.399 --> 00:12:13.030 align:start position:0%
+character moving around and engaging
+with<00:12:10.639><c> their</c><00:12:10.880><c> environment</c><00:12:11.360><c> a</c><00:12:11.680><c> little</c><00:12:11.839><c> bit</c><00:12:12.000><c> more</c>
+
+00:12:13.030 --> 00:12:13.040 align:start position:0%
+with their environment a little bit more
+ 
+
+00:12:13.040 --> 00:12:16.150 align:start position:0%
+with their environment a little bit more
+while<00:12:13.600><c> lip-syncing.</c><00:12:14.480><c> So,</c><00:12:15.120><c> in</c><00:12:15.360><c> this</c><00:12:15.519><c> case,</c><00:12:15.839><c> I</c>
+
+00:12:16.150 --> 00:12:16.160 align:start position:0%
+while lip-syncing. So, in this case, I
+ 
+
+00:12:16.160 --> 00:12:17.990 align:start position:0%
+while lip-syncing. So, in this case, I
+actually<00:12:16.560><c> used</c><00:12:16.720><c> a</c><00:12:16.959><c> different</c><00:12:17.200><c> tool</c><00:12:17.519><c> called</c>
+
+00:12:17.990 --> 00:12:18.000 align:start position:0%
+actually used a different tool called
+ 
+
+00:12:18.000 --> 00:12:21.910 align:start position:0%
+actually used a different tool called
+Dina's<00:12:18.959><c> Omnihuman</c><00:12:19.680><c> 1.5</c><00:12:20.320><c> model</c><00:12:20.639><c> to</c><00:12:21.360><c> make</c><00:12:21.600><c> my</c>
+
+00:12:21.910 --> 00:12:21.920 align:start position:0%
+Dina's Omnihuman 1.5 model to make my
+ 
+
+00:12:21.920 --> 00:12:24.150 align:start position:0%
+Dina's Omnihuman 1.5 model to make my
+character<00:12:22.480><c> walk</c><00:12:22.800><c> forward</c><00:12:23.200><c> and</c><00:12:23.440><c> talk</c><00:12:23.680><c> at</c><00:12:24.000><c> the</c>
+
+00:12:24.150 --> 00:12:24.160 align:start position:0%
+character walk forward and talk at the
+ 
+
+00:12:24.160 --> 00:12:25.509 align:start position:0%
+character walk forward and talk at the
+same<00:12:24.399><c> time.</c>
+
+00:12:25.509 --> 00:12:25.519 align:start position:0%
+same time.
+ 
+
+00:12:25.519 --> 00:12:27.269 align:start position:0%
+same time.
+&gt;&gt; And<00:12:25.760><c> trying</c><00:12:26.000><c> not</c><00:12:26.160><c> to</c><00:12:26.320><c> trip</c><00:12:26.560><c> over</c><00:12:26.800><c> my</c><00:12:27.040><c> own</c>
+
+00:12:27.269 --> 00:12:27.279 align:start position:0%
+&gt;&gt; And trying not to trip over my own
+ 
+
+00:12:27.279 --> 00:12:31.030 align:start position:0%
+&gt;&gt; And trying not to trip over my own
+sword.<00:12:28.560><c> Glamorous</c><00:12:29.200><c> work</c><00:12:29.600><c> really.</c><00:12:30.480><c> Dreamina</c>
+
+00:12:31.030 --> 00:12:31.040 align:start position:0%
+sword. Glamorous work really. Dreamina
+ 
+
+00:12:31.040 --> 00:12:32.870 align:start position:0%
+sword. Glamorous work really. Dreamina
+does<00:12:31.200><c> have</c><00:12:31.360><c> one</c><00:12:31.600><c> of</c><00:12:31.680><c> the</c><00:12:31.839><c> cooler</c><00:12:32.160><c> lips</c><00:12:32.480><c> sync</c>
+
+00:12:32.870 --> 00:12:32.880 align:start position:0%
+does have one of the cooler lips sync
+ 
+
+00:12:32.880 --> 00:12:36.230 align:start position:0%
+does have one of the cooler lips sync
+tools<00:12:34.079><c> uh</c><00:12:34.320><c> where</c><00:12:34.560><c> we</c><00:12:34.880><c> can</c><00:12:35.279><c> take</c><00:12:35.519><c> our</c><00:12:35.839><c> AI</c>
+
+00:12:36.230 --> 00:12:36.240 align:start position:0%
+tools uh where we can take our AI
+ 
+
+00:12:36.240 --> 00:12:39.190 align:start position:0%
+tools uh where we can take our AI
+avatar.<00:12:37.360><c> I</c><00:12:37.600><c> have</c><00:12:37.760><c> this,</c><00:12:38.480><c> you</c><00:12:38.639><c> know,</c><00:12:38.800><c> photo</c><00:12:39.040><c> of</c>
+
+00:12:39.190 --> 00:12:39.200 align:start position:0%
+avatar. I have this, you know, photo of
+ 
+
+00:12:39.200 --> 00:12:43.430 align:start position:0%
+avatar. I have this, you know, photo of
+a<00:12:39.360><c> man</c><00:12:39.600><c> at</c><00:12:39.839><c> a</c><00:12:40.079><c> bar.</c><00:12:41.519><c> And</c><00:12:42.160><c> not</c><00:12:42.480><c> only</c><00:12:42.720><c> can</c><00:12:42.880><c> I</c>
+
+00:12:43.430 --> 00:12:43.440 align:start position:0%
+a man at a bar. And not only can I
+ 
+
+00:12:43.440 --> 00:12:46.790 align:start position:0%
+a man at a bar. And not only can I
+upload<00:12:43.920><c> an</c><00:12:44.320><c> AI</c><00:12:45.120><c> audio</c><00:12:45.600><c> file,</c><00:12:46.320><c> which</c><00:12:46.560><c> is</c><00:12:46.720><c> going</c>
+
+00:12:46.790 --> 00:12:46.800 align:start position:0%
+upload an AI audio file, which is going
+ 
+
+00:12:46.800 --> 00:12:48.389 align:start position:0%
+upload an AI audio file, which is going
+to<00:12:46.880><c> be</c><00:12:46.959><c> the</c><00:12:47.200><c> dialogue</c><00:12:47.519><c> that</c><00:12:47.680><c> I</c><00:12:47.839><c> want</c><00:12:48.000><c> him</c><00:12:48.160><c> to</c>
+
+00:12:48.389 --> 00:12:48.399 align:start position:0%
+to be the dialogue that I want him to
+ 
+
+00:12:48.399 --> 00:12:52.230 align:start position:0%
+to be the dialogue that I want him to
+say,<00:12:49.440><c> I</c><00:12:49.680><c> can</c><00:12:49.839><c> also</c><00:12:50.079><c> add</c><00:12:50.320><c> in</c><00:12:50.560><c> a</c><00:12:50.880><c> description</c><00:12:51.600><c> for</c>
+
+00:12:52.230 --> 00:12:52.240 align:start position:0%
+say, I can also add in a description for
+ 
+
+00:12:52.240 --> 00:12:54.790 align:start position:0%
+say, I can also add in a description for
+his<00:12:52.560><c> movements.</c><00:12:53.519><c> So,</c><00:12:53.760><c> he</c><00:12:54.000><c> points</c><00:12:54.320><c> his</c><00:12:54.560><c> finger</c>
+
+00:12:54.790 --> 00:12:54.800 align:start position:0%
+his movements. So, he points his finger
+ 
+
+00:12:54.800 --> 00:12:56.790 align:start position:0%
+his movements. So, he points his finger
+in<00:12:54.959><c> the</c><00:12:55.040><c> air</c><00:12:55.279><c> while</c><00:12:55.519><c> looking</c><00:12:55.760><c> to</c><00:12:55.920><c> the</c><00:12:56.079><c> side,</c>
+
+00:12:56.790 --> 00:12:56.800 align:start position:0%
+in the air while looking to the side,
+ 
+
+00:12:56.800 --> 00:12:59.190 align:start position:0%
+in the air while looking to the side,
+reminiscing<00:12:57.360><c> about</c><00:12:57.600><c> a</c><00:12:57.839><c> past</c><00:12:58.079><c> story.</c><00:12:58.720><c> I</c><00:12:58.959><c> once</c>
+
+00:12:59.190 --> 00:12:59.200 align:start position:0%
+reminiscing about a past story. I once
+ 
+
+00:12:59.200 --> 00:13:00.790 align:start position:0%
+reminiscing about a past story. I once
+asked<00:12:59.440><c> the</c><00:12:59.600><c> bartender</c><00:13:00.160><c> for</c><00:13:00.399><c> something</c><00:13:00.560><c> that</c>
+
+00:13:00.790 --> 00:13:00.800 align:start position:0%
+asked the bartender for something that
+ 
+
+00:13:00.800 --> 00:13:03.269 align:start position:0%
+asked the bartender for something that
+tastes<00:13:01.120><c> like</c><00:13:01.440><c> hope.</c><00:13:02.160><c> He</c><00:13:02.399><c> poured</c><00:13:02.720><c> this</c><00:13:02.880><c> amber</c>
+
+00:13:03.269 --> 00:13:03.279 align:start position:0%
+tastes like hope. He poured this amber
+ 
+
+00:13:03.279 --> 00:13:05.509 align:start position:0%
+tastes like hope. He poured this amber
+thing<00:13:03.519><c> and</c><00:13:03.760><c> said,</c><00:13:04.320><c> "That's</c><00:13:04.720><c> as</c><00:13:04.959><c> close</c><00:13:05.120><c> as</c><00:13:05.360><c> it</c>
+
+00:13:05.509 --> 00:13:05.519 align:start position:0%
+thing and said, "That's as close as it
+ 
+
+00:13:05.519 --> 00:13:08.069 align:start position:0%
+thing and said, "That's as close as it
+gets."<00:13:06.720><c> Turns</c><00:13:06.959><c> out</c><00:13:07.200><c> hope</c><00:13:07.600><c> tastes</c><00:13:07.920><c> like</c>
+
+00:13:08.069 --> 00:13:08.079 align:start position:0%
+gets." Turns out hope tastes like
+ 
+
+00:13:08.079 --> 00:13:11.110 align:start position:0%
+gets." Turns out hope tastes like
+oranges<00:13:08.560><c> and</c><00:13:08.800><c> mild</c><00:13:09.200><c> regret.</c><00:13:10.160><c> But</c><00:13:10.399><c> hey,</c><00:13:10.800><c> it's</c>
+
+00:13:11.110 --> 00:13:11.120 align:start position:0%
+oranges and mild regret. But hey, it's
+ 
+
+00:13:11.120 --> 00:13:12.310 align:start position:0%
+oranges and mild regret. But hey, it's
+better<00:13:11.360><c> than</c><00:13:11.519><c> water.</c>
+
+00:13:12.310 --> 00:13:12.320 align:start position:0%
+better than water.
+ 
+
+00:13:12.320 --> 00:13:13.750 align:start position:0%
+better than water.
+&gt;&gt; And<00:13:12.560><c> also,</c><00:13:12.800><c> if</c><00:13:13.040><c> you</c><00:13:13.120><c> have</c><00:13:13.279><c> multiple</c>
+
+00:13:13.750 --> 00:13:13.760 align:start position:0%
+&gt;&gt; And also, if you have multiple
+ 
+
+00:13:13.760 --> 00:13:15.670 align:start position:0%
+&gt;&gt; And also, if you have multiple
+characters<00:13:14.240><c> in</c><00:13:14.480><c> your</c><00:13:14.720><c> shot,</c><00:13:15.200><c> so</c><00:13:15.360><c> in</c><00:13:15.600><c> this</c>
+
+00:13:15.670 --> 00:13:15.680 align:start position:0%
+characters in your shot, so in this
+ 
+
+00:13:15.680 --> 00:13:19.750 align:start position:0%
+characters in your shot, so in this
+shot,<00:13:15.920><c> I</c><00:13:16.160><c> have</c><00:13:16.399><c> both</c><00:13:16.720><c> a</c><00:13:16.959><c> man</c><00:13:17.600><c> and</c><00:13:17.920><c> a</c><00:13:18.160><c> woman,</c>
+
+00:13:19.750 --> 00:13:19.760 align:start position:0%
+shot, I have both a man and a woman,
+ 
+
+00:13:19.760 --> 00:13:23.030 align:start position:0%
+shot, I have both a man and a woman,
+I<00:13:20.000><c> can</c><00:13:20.240><c> specifically</c><00:13:21.120><c> instruct</c><00:13:21.600><c> my</c><00:13:21.760><c> AI</c><00:13:22.560><c> to</c>
+
+00:13:23.030 --> 00:13:23.040 align:start position:0%
+I can specifically instruct my AI to
+ 
+
+00:13:23.040 --> 00:13:25.590 align:start position:0%
+I can specifically instruct my AI to
+pick<00:13:23.519><c> which</c><00:13:23.839><c> character</c><00:13:24.240><c> to</c><00:13:24.480><c> talk.</c><00:13:25.040><c> So,</c><00:13:25.200><c> I</c><00:13:25.440><c> can</c>
+
+00:13:25.590 --> 00:13:25.600 align:start position:0%
+pick which character to talk. So, I can
+ 
+
+00:13:25.600 --> 00:13:29.269 align:start position:0%
+pick which character to talk. So, I can
+make<00:13:25.760><c> the</c><00:13:25.920><c> man</c><00:13:26.240><c> talk</c><00:13:27.200><c> um</c><00:13:27.440><c> or</c><00:13:27.839><c> the</c><00:13:28.160><c> woman</c><00:13:28.560><c> talk.</c>
+
+00:13:29.269 --> 00:13:29.279 align:start position:0%
+make the man talk um or the woman talk.
+ 
+
+00:13:29.279 --> 00:13:32.069 align:start position:0%
+make the man talk um or the woman talk.
+So,<00:13:29.680><c> she's</c><00:13:30.000><c> character</c><00:13:30.399><c> two.</c><00:13:31.120><c> There's</c><00:13:31.440><c> also,</c><00:13:31.839><c> I</c>
+
+00:13:32.069 --> 00:13:32.079 align:start position:0%
+So, she's character two. There's also, I
+ 
+
+00:13:32.079 --> 00:13:34.550 align:start position:0%
+So, she's character two. There's also, I
+guess,<00:13:32.480><c> this</c><00:13:32.720><c> guy</c><00:13:32.959><c> in</c><00:13:33.200><c> the</c><00:13:33.360><c> background,</c><00:13:34.240><c> which</c>
+
+00:13:34.550 --> 00:13:34.560 align:start position:0%
+guess, this guy in the background, which
+ 
+
+00:13:34.560 --> 00:13:37.190 align:start position:0%
+guess, this guy in the background, which
+is<00:13:35.360><c> detected</c><00:13:35.839><c> as</c><00:13:36.079><c> character</c><00:13:36.560><c> three.</c>
+
+00:13:37.190 --> 00:13:37.200 align:start position:0%
+is detected as character three.
+ 
+
+00:13:37.200 --> 00:13:39.590 align:start position:0%
+is detected as character three.
+&gt;&gt; I've<00:13:37.519><c> been</c><00:13:37.760><c> trying</c><00:13:38.160><c> to</c><00:13:38.399><c> get</c><00:13:38.560><c> this</c><00:13:38.880><c> plant</c><00:13:39.279><c> to</c>
+
+00:13:39.590 --> 00:13:39.600 align:start position:0%
+&gt;&gt; I've been trying to get this plant to
+ 
+
+00:13:39.600 --> 00:13:42.470 align:start position:0%
+&gt;&gt; I've been trying to get this plant to
+grow<00:13:39.760><c> on</c><00:13:40.000><c> my</c><00:13:40.160><c> window</c><00:13:40.480><c> sill</c><00:13:40.800><c> for</c><00:13:41.040><c> like</c><00:13:41.839><c> 6</c><00:13:42.079><c> months</c>
+
+00:13:42.470 --> 00:13:42.480 align:start position:0%
+grow on my window sill for like 6 months
+ 
+
+00:13:42.480 --> 00:13:45.430 align:start position:0%
+grow on my window sill for like 6 months
+now.<00:13:43.680><c> It's</c><00:13:43.920><c> one</c><00:13:44.160><c> of</c><00:13:44.240><c> those</c><00:13:44.560><c> little</c><00:13:44.880><c> green</c><00:13:45.200><c> ones</c>
+
+00:13:45.430 --> 00:13:45.440 align:start position:0%
+now. It's one of those little green ones
+ 
+
+00:13:45.440 --> 00:13:47.829 align:start position:0%
+now. It's one of those little green ones
+with<00:13:45.680><c> the</c><00:13:45.839><c> waxy</c><00:13:46.320><c> leaves,</c><00:13:46.720><c> you</c><00:13:46.880><c> know.</c>
+
+00:13:47.829 --> 00:13:47.839 align:start position:0%
+with the waxy leaves, you know.
+ 
+
+00:13:47.839 --> 00:13:50.470 align:start position:0%
+with the waxy leaves, you know.
+So,<00:13:48.480><c> uh,</c><00:13:49.120><c> I</c><00:13:49.360><c> was</c><00:13:49.519><c> at</c><00:13:49.680><c> the</c><00:13:49.839><c> grocery</c><00:13:50.160><c> store</c>
+
+00:13:50.470 --> 00:13:50.480 align:start position:0%
+So, uh, I was at the grocery store
+ 
+
+00:13:50.480 --> 00:13:53.030 align:start position:0%
+So, uh, I was at the grocery store
+earlier<00:13:50.880><c> today,</c><00:13:51.760><c> the</c><00:13:52.000><c> one</c><00:13:52.240><c> down</c><00:13:52.399><c> by</c><00:13:52.639><c> the</c><00:13:52.800><c> train</c>
+
+00:13:53.030 --> 00:13:53.040 align:start position:0%
+earlier today, the one down by the train
+ 
+
+00:13:53.040 --> 00:13:55.350 align:start position:0%
+earlier today, the one down by the train
+station,<00:13:53.680><c> not</c><00:13:53.920><c> the</c><00:13:54.079><c> one</c><00:13:54.240><c> near</c><00:13:54.399><c> the</c><00:13:54.639><c> square,</c>
+
+00:13:55.350 --> 00:13:55.360 align:start position:0%
+station, not the one near the square,
+ 
+
+00:13:55.360 --> 00:13:56.790 align:start position:0%
+station, not the one near the square,
+because<00:13:55.600><c> that</c><00:13:55.839><c> one's</c><00:13:56.160><c> always</c><00:13:56.320><c> out</c><00:13:56.560><c> of</c><00:13:56.639><c> the</c>
+
+00:13:56.790 --> 00:13:56.800 align:start position:0%
+because that one's always out of the
+ 
+
+00:13:56.800 --> 00:13:58.470 align:start position:0%
+because that one's always out of the
+good<00:13:56.959><c> kind</c><00:13:57.120><c> of</c><00:13:57.279><c> mustard.</c><00:13:57.760><c> You</c><00:13:57.920><c> know,</c>
+
+00:13:58.470 --> 00:13:58.480 align:start position:0%
+good kind of mustard. You know,
+ 
+
+00:13:58.480 --> 00:14:00.870 align:start position:0%
+good kind of mustard. You know,
+&gt;&gt; it<00:13:58.800><c> does</c><00:13:59.440><c> come</c><00:13:59.680><c> with</c><00:13:59.839><c> some</c><00:14:00.079><c> trade-offs.</c><00:14:00.720><c> It</c>
+
+00:14:00.870 --> 00:14:00.880 align:start position:0%
+&gt;&gt; it does come with some trade-offs. It
+ 
+
+00:14:00.880 --> 00:14:03.269 align:start position:0%
+&gt;&gt; it does come with some trade-offs. It
+tends<00:14:01.120><c> to</c><00:14:01.199><c> have</c><00:14:01.360><c> a</c><00:14:01.519><c> hard</c><00:14:01.760><c> time</c><00:14:02.480><c> animating</c><00:14:03.040><c> the</c>
+
+00:14:03.269 --> 00:14:03.279 align:start position:0%
+tends to have a hard time animating the
+ 
+
+00:14:03.279 --> 00:14:05.350 align:start position:0%
+tends to have a hard time animating the
+hands<00:14:03.600><c> correctly.</c><00:14:04.399><c> In</c><00:14:04.639><c> this</c><00:14:04.880><c> shot</c><00:14:05.040><c> of</c><00:14:05.199><c> the</c>
+
+00:14:05.350 --> 00:14:05.360 align:start position:0%
+hands correctly. In this shot of the
+ 
+
+00:14:05.360 --> 00:14:07.430 align:start position:0%
+hands correctly. In this shot of the
+female<00:14:05.680><c> knight,</c><00:14:05.920><c> you'll</c><00:14:06.160><c> see</c><00:14:06.320><c> her</c><00:14:06.560><c> hands</c>
+
+00:14:07.430 --> 00:14:07.440 align:start position:0%
+female knight, you'll see her hands
+ 
+
+00:14:07.440 --> 00:14:10.310 align:start position:0%
+female knight, you'll see her hands
+changing<00:14:08.000><c> like</c><00:14:08.480><c> three</c><00:14:08.880><c> different</c><00:14:09.360><c> times</c>
+
+00:14:10.310 --> 00:14:10.320 align:start position:0%
+changing like three different times
+ 
+
+00:14:10.320 --> 00:14:13.350 align:start position:0%
+changing like three different times
+throughout<00:14:10.720><c> the</c><00:14:10.959><c> video</c><00:14:11.199><c> as</c><00:14:11.360><c> she's</c><00:14:11.680><c> speaking.</c>
+
+00:14:13.350 --> 00:14:13.360 align:start position:0%
+throughout the video as she's speaking.
+ 
+
+00:14:13.360 --> 00:14:15.990 align:start position:0%
+throughout the video as she's speaking.
+feeding<00:14:13.760><c> a</c><00:14:13.920><c> horse</c><00:14:14.160><c> that</c><00:14:14.399><c> hates</c><00:14:14.800><c> me</c><00:14:15.440><c> and</c><00:14:15.760><c> trying</c>
+
+00:14:15.990 --> 00:14:16.000 align:start position:0%
+feeding a horse that hates me and trying
+ 
+
+00:14:16.000 --> 00:14:19.269 align:start position:0%
+feeding a horse that hates me and trying
+not<00:14:16.160><c> to</c><00:14:16.320><c> trip</c><00:14:16.560><c> over</c><00:14:16.800><c> my</c><00:14:17.040><c> own</c><00:14:17.279><c> sword.</c><00:14:18.560><c> Glamorous</c>
+
+00:14:19.269 --> 00:14:19.279 align:start position:0%
+not to trip over my own sword. Glamorous
+ 
+
+00:14:19.279 --> 00:14:20.470 align:start position:0%
+not to trip over my own sword. Glamorous
+work,<00:14:19.680><c> really.</c>
+
+00:14:20.470 --> 00:14:20.480 align:start position:0%
+work, really.
+ 
+
+00:14:20.480 --> 00:14:22.790 align:start position:0%
+work, really.
+&gt;&gt; And<00:14:20.720><c> of</c><00:14:20.880><c> course,</c><00:14:21.279><c> this</c><00:14:21.519><c> also</c><00:14:21.920><c> works</c><00:14:22.399><c> with</c>
+
+00:14:22.790 --> 00:14:22.800 align:start position:0%
+&gt;&gt; And of course, this also works with
+ 
+
+00:14:22.800 --> 00:14:25.509 align:start position:0%
+&gt;&gt; And of course, this also works with
+music,<00:14:23.519><c> so</c><00:14:23.839><c> your</c><00:14:24.160><c> audio</c><00:14:24.560><c> file</c><00:14:24.880><c> can</c><00:14:25.120><c> actually</c>
+
+00:14:25.509 --> 00:14:25.519 align:start position:0%
+music, so your audio file can actually
+ 
+
+00:14:25.519 --> 00:14:28.230 align:start position:0%
+music, so your audio file can actually
+be<00:14:26.160><c> a</c><00:14:26.480><c> song</c><00:14:26.959><c> and</c><00:14:27.199><c> you</c><00:14:27.360><c> can</c><00:14:27.519><c> animate</c><00:14:27.920><c> the</c>
+
+00:14:28.230 --> 00:14:28.240 align:start position:0%
+be a song and you can animate the
+ 
+
+00:14:28.240 --> 00:14:30.710 align:start position:0%
+be a song and you can animate the
+character<00:14:28.800><c> singing</c><00:14:29.199><c> to</c><00:14:29.360><c> it.</c><00:14:30.399><c> But</c><00:14:30.504><c> [music]</c>
+
+00:14:30.710 --> 00:14:30.720 align:start position:0%
+character singing to it. But [music]
+ 
+
+00:14:30.720 --> 00:14:34.425 align:start position:0%
+character singing to it. But [music]
+even<00:14:31.199><c> through</c><00:14:31.760><c> the</c><00:14:32.160><c> tears,</c><00:14:33.120><c> I</c><00:14:33.440><c> can</c><00:14:33.680><c> see</c><00:14:34.240><c> the</c>
+
+00:14:34.425 --> 00:14:34.435 align:start position:0%
+even through the tears, I can see the
+ 
+
+00:14:34.435 --> 00:14:36.550 align:start position:0%
+even through the tears, I can see the
+[singing]<00:14:34.560><c> dawn.</c>
+
+00:14:36.550 --> 00:14:36.560 align:start position:0%
+[singing] dawn.
+ 
+
+00:14:36.560 --> 00:14:39.829 align:start position:0%
+[singing] dawn.
+A<00:14:36.800><c> tiny</c><00:14:37.360><c> flame</c><00:14:37.710><c> [music]</c><00:14:37.839><c> of</c><00:14:38.320><c> hope</c><00:14:39.199><c> still</c>
+
+00:14:39.829 --> 00:14:39.839 align:start position:0%
+A tiny flame [music] of hope still
+ 
+
+00:14:39.839 --> 00:14:43.030 align:start position:0%
+A tiny flame [music] of hope still
+carries<00:14:40.399><c> me</c><00:14:40.720><c> on.</c>
+
+00:14:43.030 --> 00:14:43.040 align:start position:0%
+carries me on.
+ 
+
+00:14:43.040 --> 00:14:45.189 align:start position:0%
+carries me on.
+Method<00:14:43.519><c> number</c><00:14:43.760><c> five</c><00:14:44.000><c> of</c><00:14:44.240><c> making</c><00:14:44.399><c> an</c><00:14:44.639><c> AI</c><00:14:44.959><c> video</c>
+
+00:14:45.189 --> 00:14:45.199 align:start position:0%
+Method number five of making an AI video
+ 
+
+00:14:45.199 --> 00:14:47.910 align:start position:0%
+Method number five of making an AI video
+is<00:14:45.600><c> ingredients</c><00:14:46.160><c> to</c><00:14:46.399><c> video.</c><00:14:47.279><c> Kind</c><00:14:47.440><c> of</c><00:14:47.600><c> similar</c>
+
+00:14:47.910 --> 00:14:47.920 align:start position:0%
+is ingredients to video. Kind of similar
+ 
+
+00:14:47.920 --> 00:14:49.829 align:start position:0%
+is ingredients to video. Kind of similar
+to<00:14:48.079><c> image</c><00:14:48.399><c> to</c><00:14:48.560><c> video</c><00:14:49.040><c> where</c><00:14:49.360><c> we're</c><00:14:49.600><c> starting</c>
+
+00:14:49.829 --> 00:14:49.839 align:start position:0%
+to image to video where we're starting
+ 
+
+00:14:49.839 --> 00:14:51.829 align:start position:0%
+to image to video where we're starting
+with<00:14:50.079><c> image</c><00:14:50.399><c> references,</c><00:14:51.120><c> but</c><00:14:51.360><c> instead</c><00:14:51.680><c> of</c>
+
+00:14:51.829 --> 00:14:51.839 align:start position:0%
+with image references, but instead of
+ 
+
+00:14:51.839 --> 00:14:54.230 align:start position:0%
+with image references, but instead of
+just<00:14:52.079><c> a</c><00:14:52.320><c> single</c><00:14:52.560><c> image,</c><00:14:53.199><c> we</c><00:14:53.519><c> can</c><00:14:53.839><c> take</c>
+
+00:14:54.230 --> 00:14:54.240 align:start position:0%
+just a single image, we can take
+ 
+
+00:14:54.240 --> 00:14:56.949 align:start position:0%
+just a single image, we can take
+elements<00:14:54.720><c> from</c><00:14:55.199><c> multiple</c><00:14:56.000><c> images</c><00:14:56.639><c> and</c>
+
+00:14:56.949 --> 00:14:56.959 align:start position:0%
+elements from multiple images and
+ 
+
+00:14:56.959 --> 00:15:00.230 align:start position:0%
+elements from multiple images and
+combine<00:14:57.440><c> them</c><00:14:57.760><c> together.</c><00:14:58.800><c> So,</c><00:14:59.120><c> I</c><00:14:59.440><c> have</c><00:15:00.000><c> three</c>
+
+00:15:00.230 --> 00:15:00.240 align:start position:0%
+combine them together. So, I have three
+ 
+
+00:15:00.240 --> 00:15:03.750 align:start position:0%
+combine them together. So, I have three
+images<00:15:00.639><c> here.</c><00:15:01.360><c> One</c><00:15:01.600><c> of</c><00:15:01.760><c> my</c><00:15:02.240><c> female</c><00:15:02.880><c> soldier,</c>
+
+00:15:03.750 --> 00:15:03.760 align:start position:0%
+images here. One of my female soldier,
+ 
+
+00:15:03.760 --> 00:15:07.189 align:start position:0%
+images here. One of my female soldier,
+one<00:15:04.000><c> of</c><00:15:04.240><c> my</c><00:15:04.800><c> orc</c><00:15:05.680><c> captain,</c><00:15:06.240><c> and</c><00:15:06.560><c> one</c><00:15:06.800><c> of</c><00:15:06.959><c> the</c>
+
+00:15:07.189 --> 00:15:07.199 align:start position:0%
+one of my orc captain, and one of the
+ 
+
+00:15:07.199 --> 00:15:09.750 align:start position:0%
+one of my orc captain, and one of the
+landscape.<00:15:08.399><c> And</c><00:15:08.560><c> what</c><00:15:08.720><c> I</c><00:15:08.880><c> can</c><00:15:08.959><c> do</c><00:15:09.120><c> is</c><00:15:09.360><c> actually</c>
+
+00:15:09.750 --> 00:15:09.760 align:start position:0%
+landscape. And what I can do is actually
+ 
+
+00:15:09.760 --> 00:15:12.470 align:start position:0%
+landscape. And what I can do is actually
+combine<00:15:10.240><c> these</c><00:15:10.720><c> three</c><00:15:11.040><c> elements</c><00:15:11.920><c> all</c><00:15:12.160><c> into</c>
+
+00:15:12.470 --> 00:15:12.480 align:start position:0%
+combine these three elements all into
+ 
+
+00:15:12.480 --> 00:15:15.189 align:start position:0%
+combine these three elements all into
+the<00:15:12.720><c> same</c><00:15:12.880><c> video</c><00:15:13.600><c> at</c><00:15:13.920><c> the</c><00:15:14.160><c> same</c><00:15:14.320><c> time</c><00:15:14.720><c> in</c><00:15:14.959><c> a</c>
+
+00:15:15.189 --> 00:15:15.199 align:start position:0%
+the same video at the same time in a
+ 
+
+00:15:15.199 --> 00:15:24.069 align:start position:0%
+the same video at the same time in a
+fight<00:15:15.440><c> scene.</c>
+
+00:15:24.069 --> 00:15:24.079 align:start position:0%
+ 
+ 
+
+00:15:24.079 --> 00:15:25.590 align:start position:0%
+ 
+This<00:15:24.240><c> is</c><00:15:24.399><c> definitely</c><00:15:24.720><c> a</c><00:15:24.959><c> quick</c><00:15:25.120><c> way</c><00:15:25.279><c> to</c><00:15:25.440><c> put</c>
+
+00:15:25.590 --> 00:15:25.600 align:start position:0%
+This is definitely a quick way to put
+ 
+
+00:15:25.600 --> 00:15:27.509 align:start position:0%
+This is definitely a quick way to put
+your<00:15:25.839><c> characters</c><00:15:26.240><c> together</c><00:15:26.880><c> and</c><00:15:27.120><c> have</c><00:15:27.360><c> them</c>
+
+00:15:27.509 --> 00:15:27.519 align:start position:0%
+your characters together and have them
+ 
+
+00:15:27.519 --> 00:15:29.670 align:start position:0%
+your characters together and have them
+interact<00:15:28.079><c> with</c><00:15:28.399><c> a</c><00:15:28.720><c> specific</c><00:15:29.279><c> environment</c>
+
+00:15:29.670 --> 00:15:29.680 align:start position:0%
+interact with a specific environment
+ 
+
+00:15:29.680 --> 00:15:31.990 align:start position:0%
+interact with a specific environment
+that<00:15:29.920><c> you</c><00:15:30.160><c> have</c><00:15:30.320><c> in</c><00:15:30.480><c> mind.</c><00:15:31.199><c> The</c><00:15:31.440><c> way</c><00:15:31.600><c> I</c><00:15:31.839><c> made</c>
+
+00:15:31.990 --> 00:15:32.000 align:start position:0%
+that you have in mind. The way I made
+ 
+
+00:15:32.000 --> 00:15:35.590 align:start position:0%
+that you have in mind. The way I made
+this<00:15:32.240><c> was</c><00:15:32.480><c> using</c><00:15:33.120><c> Google's</c><00:15:33.600><c> AI</c><00:15:34.480><c> video</c><00:15:34.880><c> studio.</c>
+
+00:15:35.590 --> 00:15:35.600 align:start position:0%
+this was using Google's AI video studio.
+ 
+
+00:15:35.600 --> 00:15:37.910 align:start position:0%
+this was using Google's AI video studio.
+And<00:15:35.839><c> so</c><00:15:36.320><c> you</c><00:15:36.480><c> need</c><00:15:36.639><c> to</c><00:15:36.959><c> select</c><00:15:37.440><c> this</c>
+
+00:15:37.910 --> 00:15:37.920 align:start position:0%
+And so you need to select this
+ 
+
+00:15:37.920 --> 00:15:40.069 align:start position:0%
+And so you need to select this
+ingredients<00:15:38.399><c> to</c><00:15:38.639><c> video</c><00:15:38.880><c> feature</c><00:15:39.680><c> and</c><00:15:39.920><c> then</c>
+
+00:15:40.069 --> 00:15:40.079 align:start position:0%
+ingredients to video feature and then
+ 
+
+00:15:40.079 --> 00:15:41.829 align:start position:0%
+ingredients to video feature and then
+upload<00:15:40.399><c> the</c><00:15:40.639><c> three</c><00:15:40.880><c> image</c><00:15:41.120><c> references.</c><00:15:41.680><c> One</c>
+
+00:15:41.829 --> 00:15:41.839 align:start position:0%
+upload the three image references. One
+ 
+
+00:15:41.839 --> 00:15:46.710 align:start position:0%
+upload the three image references. One
+of<00:15:42.000><c> my</c><00:15:42.160><c> female</c><00:15:42.880><c> soldier,</c><00:15:44.160><c> the</c><00:15:44.880><c> uh</c><00:15:45.360><c> goblin</c><00:15:45.839><c> guy,</c>
+
+00:15:46.710 --> 00:15:46.720 align:start position:0%
+of my female soldier, the uh goblin guy,
+ 
+
+00:15:46.720 --> 00:15:49.829 align:start position:0%
+of my female soldier, the uh goblin guy,
+and<00:15:47.040><c> also</c><00:15:47.360><c> the</c><00:15:47.839><c> landscape</c><00:15:48.399><c> behind</c><00:15:48.720><c> them.</c>
+
+00:15:49.829 --> 00:15:49.839 align:start position:0%
+and also the landscape behind them.
+ 
+
+00:15:49.839 --> 00:15:52.069 align:start position:0%
+and also the landscape behind them.
+And<00:15:50.079><c> then</c><00:15:50.160><c> in</c><00:15:50.399><c> the</c><00:15:50.639><c> prompt,</c><00:15:51.199><c> describe</c><00:15:51.600><c> how</c><00:15:51.839><c> the</c>
+
+00:15:52.069 --> 00:15:52.079 align:start position:0%
+And then in the prompt, describe how the
+ 
+
+00:15:52.079 --> 00:15:54.069 align:start position:0%
+And then in the prompt, describe how the
+different<00:15:52.480><c> elements</c><00:15:52.959><c> are</c><00:15:53.199><c> interacting</c><00:15:53.759><c> with</c>
+
+00:15:54.069 --> 00:15:54.079 align:start position:0%
+different elements are interacting with
+ 
+
+00:15:54.079 --> 00:15:56.069 align:start position:0%
+different elements are interacting with
+each<00:15:54.320><c> other.</c><00:15:54.800><c> So</c><00:15:55.040><c> I</c><00:15:55.199><c> told</c><00:15:55.360><c> her</c><00:15:55.519><c> to</c><00:15:55.759><c> create</c><00:15:55.920><c> a</c>
+
+00:15:56.069 --> 00:15:56.079 align:start position:0%
+each other. So I told her to create a
+ 
+
+00:15:56.079 --> 00:15:58.389 align:start position:0%
+each other. So I told her to create a
+fight<00:15:56.320><c> scene</c><00:15:56.639><c> between</c><00:15:56.880><c> the</c><00:15:57.120><c> female</c><00:15:57.519><c> warrior</c>
+
+00:15:58.389 --> 00:15:58.399 align:start position:0%
+fight scene between the female warrior
+ 
+
+00:15:58.399 --> 00:16:01.430 align:start position:0%
+fight scene between the female warrior
+and<00:15:58.639><c> the</c><00:15:58.880><c> orc</c><00:15:59.600><c> on</c><00:15:59.839><c> the</c><00:16:00.079><c> landscape.</c><00:16:01.040><c> They</c><00:16:01.279><c> are</c>
+
+00:16:01.430 --> 00:16:01.440 align:start position:0%
+and the orc on the landscape. They are
+ 
+
+00:16:01.440 --> 00:16:04.550 align:start position:0%
+and the orc on the landscape. They are
+in<00:16:01.600><c> a</c><00:16:01.839><c> sword</c><00:16:02.399><c> duel.</c><00:16:03.199><c> In</c><00:16:03.440><c> green</c><00:16:03.680><c> games</c><00:16:04.000><c> to</c><00:16:04.240><c> video</c>
+
+00:16:04.550 --> 00:16:04.560 align:start position:0%
+in a sword duel. In green games to video
+ 
+
+00:16:04.560 --> 00:16:07.269 align:start position:0%
+in a sword duel. In green games to video
+is<00:16:04.800><c> a</c><00:16:05.040><c> fun</c><00:16:05.440><c> concept</c><00:16:06.320><c> and</c><00:16:06.560><c> you</c><00:16:06.720><c> can</c><00:16:06.880><c> quickly</c><00:16:07.120><c> put</c>
+
+00:16:07.269 --> 00:16:07.279 align:start position:0%
+is a fun concept and you can quickly put
+ 
+
+00:16:07.279 --> 00:16:09.590 align:start position:0%
+is a fun concept and you can quickly put
+a<00:16:07.519><c> scene</c><00:16:07.759><c> together.</c><00:16:08.560><c> Here's</c><00:16:08.880><c> another</c><00:16:09.120><c> example</c>
+
+00:16:09.590 --> 00:16:09.600 align:start position:0%
+a scene together. Here's another example
+ 
+
+00:16:09.600 --> 00:16:12.550 align:start position:0%
+a scene together. Here's another example
+I<00:16:09.839><c> tried</c><00:16:10.480><c> where</c><00:16:10.720><c> I</c><00:16:10.880><c> have</c><00:16:11.040><c> this</c><00:16:11.519><c> green</c><00:16:12.079><c> alien</c>
+
+00:16:12.550 --> 00:16:12.560 align:start position:0%
+I tried where I have this green alien
+ 
+
+00:16:12.560 --> 00:16:16.069 align:start position:0%
+I tried where I have this green alien
+guy.<00:16:13.279><c> I</c><00:16:13.519><c> had</c><00:16:13.680><c> this</c><00:16:14.000><c> droid</c><00:16:14.959><c> um</c><00:16:15.040><c> and</c><00:16:15.279><c> then</c><00:16:15.519><c> this</c>
+
+00:16:16.069 --> 00:16:16.079 align:start position:0%
+guy. I had this droid um and then this
+ 
+
+00:16:16.079 --> 00:16:19.829 align:start position:0%
+guy. I had this droid um and then this
+kitchen<00:16:16.880><c> on</c><00:16:17.199><c> a</c><00:16:17.440><c> spaceship.</c><00:16:18.720><c> And</c><00:16:18.959><c> inside</c><00:16:19.600><c> the</c>
+
+00:16:19.829 --> 00:16:19.839 align:start position:0%
+kitchen on a spaceship. And inside the
+ 
+
+00:16:19.839 --> 00:16:21.590 align:start position:0%
+kitchen on a spaceship. And inside the
+prompt,<00:16:20.240><c> I</c><00:16:20.480><c> told</c><00:16:20.720><c> her</c><00:16:20.880><c> to</c><00:16:20.959><c> tell</c><00:16:21.120><c> the</c><00:16:21.279><c> alien</c>
+
+00:16:21.590 --> 00:16:21.600 align:start position:0%
+prompt, I told her to tell the alien
+ 
+
+00:16:21.600 --> 00:16:23.030 align:start position:0%
+prompt, I told her to tell the alien
+with<00:16:21.759><c> green</c><00:16:22.079><c> skin</c><00:16:22.320><c> to</c><00:16:22.480><c> walk</c><00:16:22.639><c> around</c><00:16:22.880><c> the</c>
+
+00:16:23.030 --> 00:16:23.040 align:start position:0%
+with green skin to walk around the
+ 
+
+00:16:23.040 --> 00:16:25.030 align:start position:0%
+with green skin to walk around the
+kitchen<00:16:23.360><c> while</c><00:16:23.600><c> preparing</c><00:16:23.920><c> a</c><00:16:24.079><c> meal.</c><00:16:24.639><c> And</c><00:16:24.800><c> he</c>
+
+00:16:25.030 --> 00:16:25.040 align:start position:0%
+kitchen while preparing a meal. And he
+ 
+
+00:16:25.040 --> 00:16:27.269 align:start position:0%
+kitchen while preparing a meal. And he
+complains<00:16:25.600><c> about</c><00:16:26.240><c> how</c><00:16:26.480><c> he's</c><00:16:26.720><c> been</c><00:16:26.880><c> assigned</c>
+
+00:16:27.269 --> 00:16:27.279 align:start position:0%
+complains about how he's been assigned
+ 
+
+00:16:27.279 --> 00:16:29.350 align:start position:0%
+complains about how he's been assigned
+to<00:16:27.440><c> kitchen</c><00:16:27.759><c> duty</c><00:16:28.240><c> while</c><00:16:28.560><c> the</c><00:16:28.720><c> droid</c><00:16:29.040><c> follows</c>
+
+00:16:29.350 --> 00:16:29.360 align:start position:0%
+to kitchen duty while the droid follows
+ 
+
+00:16:29.360 --> 00:16:30.949 align:start position:0%
+to kitchen duty while the droid follows
+him<00:16:29.519><c> around.</c>
+
+00:16:30.949 --> 00:16:30.959 align:start position:0%
+him around.
+ 
+
+00:16:30.959 --> 00:16:38.150 align:start position:0%
+him around.
+&gt;&gt; Kitchen<00:16:31.440><c> duty.</c><00:16:32.880><c> Really?</c><00:16:33.519><c> Really?</c>
+
+00:16:38.150 --> 00:16:38.160 align:start position:0%
+ 
+ 
+
+00:16:38.160 --> 00:16:40.870 align:start position:0%
+ 
+It<00:16:38.480><c> does</c><00:16:38.800><c> actually</c><00:16:39.199><c> do</c><00:16:39.360><c> a</c><00:16:39.600><c> decent</c><00:16:40.000><c> job</c><00:16:40.639><c> of</c>
+
+00:16:40.870 --> 00:16:40.880 align:start position:0%
+It does actually do a decent job of
+ 
+
+00:16:40.880 --> 00:16:42.230 align:start position:0%
+It does actually do a decent job of
+putting<00:16:41.120><c> your</c><00:16:41.440><c> characters</c><00:16:41.839><c> in</c><00:16:42.079><c> the</c>
+
+00:16:42.230 --> 00:16:42.240 align:start position:0%
+putting your characters in the
+ 
+
+00:16:42.240 --> 00:16:43.509 align:start position:0%
+putting your characters in the
+environment<00:16:42.560><c> you</c><00:16:42.800><c> want</c><00:16:42.880><c> and</c><00:16:43.120><c> having</c><00:16:43.360><c> them</c>
+
+00:16:43.509 --> 00:16:43.519 align:start position:0%
+environment you want and having them
+ 
+
+00:16:43.519 --> 00:16:46.230 align:start position:0%
+environment you want and having them
+interact.<00:16:44.560><c> Now,</c><00:16:44.880><c> the</c><00:16:45.040><c> main</c><00:16:45.360><c> drawback</c><00:16:45.839><c> of</c>
+
+00:16:46.230 --> 00:16:46.240 align:start position:0%
+interact. Now, the main drawback of
+ 
+
+00:16:46.240 --> 00:16:48.949 align:start position:0%
+interact. Now, the main drawback of
+ingredients<00:16:46.639><c> to</c><00:16:46.800><c> video</c><00:16:47.440><c> is</c><00:16:47.680><c> that</c><00:16:48.000><c> it's</c><00:16:48.560><c> not</c>
+
+00:16:48.949 --> 00:16:48.959 align:start position:0%
+ingredients to video is that it's not
+ 
+
+00:16:48.959 --> 00:16:50.710 align:start position:0%
+ingredients to video is that it's not
+going<00:16:49.120><c> to</c><00:16:49.279><c> give</c><00:16:49.440><c> you</c><00:16:49.600><c> the</c><00:16:49.839><c> most</c><00:16:50.160><c> dynamic</c>
+
+00:16:50.710 --> 00:16:50.720 align:start position:0%
+going to give you the most dynamic
+ 
+
+00:16:50.720 --> 00:16:53.670 align:start position:0%
+going to give you the most dynamic
+looking<00:16:51.040><c> videos.</c><00:16:52.000><c> So,</c><00:16:52.560><c> now</c><00:16:52.880><c> let's</c><00:16:53.120><c> say</c><00:16:53.360><c> I</c><00:16:53.600><c> want</c>
+
+00:16:53.670 --> 00:16:53.680 align:start position:0%
+looking videos. So, now let's say I want
+ 
+
+00:16:53.680 --> 00:16:56.870 align:start position:0%
+looking videos. So, now let's say I want
+to<00:16:53.839><c> have</c><00:16:54.000><c> my</c><00:16:54.240><c> green</c><00:16:54.560><c> alien</c><00:16:55.680><c> riding</c><00:16:56.000><c> in</c><00:16:56.240><c> that</c><00:16:56.720><c> uh</c>
+
+00:16:56.870 --> 00:16:56.880 align:start position:0%
+to have my green alien riding in that uh
+ 
+
+00:16:56.880 --> 00:16:59.990 align:start position:0%
+to have my green alien riding in that uh
+hover<00:16:57.360><c> vehicle</c><00:16:58.399><c> above</c><00:16:58.800><c> the</c><00:16:58.959><c> lake.</c><00:16:59.519><c> And</c><00:16:59.600><c> I</c><00:16:59.839><c> try</c>
+
+00:16:59.990 --> 00:17:00.000 align:start position:0%
+hover vehicle above the lake. And I try
+ 
+
+00:17:00.000 --> 00:17:03.749 align:start position:0%
+hover vehicle above the lake. And I try
+to<00:17:00.240><c> do</c><00:17:00.480><c> this</c><00:17:00.800><c> using</c><00:17:01.600><c> ingredients</c><00:17:02.079><c> to</c><00:17:02.399><c> video.</c>
+
+00:17:03.749 --> 00:17:03.759 align:start position:0%
+to do this using ingredients to video.
+ 
+
+00:17:03.759 --> 00:17:07.110 align:start position:0%
+to do this using ingredients to video.
+It<00:17:04.079><c> does</c><00:17:04.640><c> put</c><00:17:04.959><c> all</c><00:17:05.360><c> the</c><00:17:05.839><c> elements</c><00:17:06.400><c> together,</c>
+
+00:17:07.110 --> 00:17:07.120 align:start position:0%
+It does put all the elements together,
+ 
+
+00:17:07.120 --> 00:17:09.350 align:start position:0%
+It does put all the elements together,
+but<00:17:07.360><c> it's</c><00:17:07.679><c> kind</c><00:17:07.839><c> of</c><00:17:07.919><c> a</c><00:17:08.319><c> super</c><00:17:08.720><c> slow</c><00:17:09.039><c> paced</c>
+
+00:17:09.350 --> 00:17:09.360 align:start position:0%
+but it's kind of a super slow paced
+ 
+
+00:17:09.360 --> 00:17:12.230 align:start position:0%
+but it's kind of a super slow paced
+scene.<00:17:10.319><c> The</c><00:17:11.199><c> vehicle</c><00:17:11.600><c> is</c><00:17:11.760><c> kind</c><00:17:11.919><c> of</c><00:17:12.000><c> like</c>
+
+00:17:12.230 --> 00:17:12.240 align:start position:0%
+scene. The vehicle is kind of like
+ 
+
+00:17:12.240 --> 00:17:14.789 align:start position:0%
+scene. The vehicle is kind of like
+hovering<00:17:12.720><c> up</c><00:17:12.959><c> and</c><00:17:13.199><c> down.</c>
+
+00:17:14.789 --> 00:17:14.799 align:start position:0%
+hovering up and down.
+ 
+
+00:17:14.799 --> 00:17:17.510 align:start position:0%
+hovering up and down.
+Not<00:17:15.039><c> a</c><00:17:15.199><c> very</c><00:17:15.439><c> exciting</c><00:17:15.919><c> shot.</c><00:17:16.640><c> Instead,</c><00:17:17.120><c> if</c><00:17:17.280><c> I</c>
+
+00:17:17.510 --> 00:17:17.520 align:start position:0%
+Not a very exciting shot. Instead, if I
+ 
+
+00:17:17.520 --> 00:17:20.069 align:start position:0%
+Not a very exciting shot. Instead, if I
+take<00:17:17.760><c> the</c><00:17:18.079><c> image</c><00:17:18.400><c> to</c><00:17:18.640><c> video</c><00:17:19.039><c> approach</c><00:17:19.520><c> first,</c>
+
+00:17:20.069 --> 00:17:20.079 align:start position:0%
+take the image to video approach first,
+ 
+
+00:17:20.079 --> 00:17:21.990 align:start position:0%
+take the image to video approach first,
+where<00:17:20.480><c> first</c><00:17:20.720><c> I</c><00:17:20.959><c> combine</c><00:17:21.439><c> all</c><00:17:21.679><c> of</c><00:17:21.839><c> my</c>
+
+00:17:21.990 --> 00:17:22.000 align:start position:0%
+where first I combine all of my
+ 
+
+00:17:22.000 --> 00:17:24.309 align:start position:0%
+where first I combine all of my
+different<00:17:22.319><c> elements</c><00:17:22.799><c> together</c><00:17:23.600><c> inside</c><00:17:24.000><c> the</c>
+
+00:17:24.309 --> 00:17:24.319 align:start position:0%
+different elements together inside the
+ 
+
+00:17:24.319 --> 00:17:27.590 align:start position:0%
+different elements together inside the
+same<00:17:24.640><c> image.</c><00:17:25.839><c> In</c><00:17:26.079><c> this</c><00:17:26.240><c> case,</c><00:17:26.880><c> uh</c><00:17:26.959><c> I</c><00:17:27.199><c> used</c><00:17:27.520><c> a</c>
+
+00:17:27.590 --> 00:17:27.600 align:start position:0%
+same image. In this case, uh I used a
+ 
+
+00:17:27.600 --> 00:17:29.990 align:start position:0%
+same image. In this case, uh I used a
+nano<00:17:27.919><c> banana</c><00:17:28.720><c> to</c><00:17:29.039><c> combine</c><00:17:29.440><c> those</c><00:17:29.679><c> three</c>
+
+00:17:29.990 --> 00:17:30.000 align:start position:0%
+nano banana to combine those three
+ 
+
+00:17:30.000 --> 00:17:32.150 align:start position:0%
+nano banana to combine those three
+pictures<00:17:30.320><c> together.</c><00:17:30.880><c> And</c><00:17:31.120><c> if</c><00:17:31.280><c> I</c><00:17:31.520><c> animate</c><00:17:31.919><c> it</c>
+
+00:17:32.150 --> 00:17:32.160 align:start position:0%
+pictures together. And if I animate it
+ 
+
+00:17:32.160 --> 00:17:34.390 align:start position:0%
+pictures together. And if I animate it
+with<00:17:32.480><c> AI</c><00:17:32.960><c> video,</c><00:17:33.600><c> it's</c><00:17:33.840><c> going</c><00:17:33.919><c> to</c><00:17:34.000><c> give</c><00:17:34.160><c> me</c><00:17:34.240><c> a</c>
+
+00:17:34.390 --> 00:17:34.400 align:start position:0%
+with AI video, it's going to give me a
+ 
+
+00:17:34.400 --> 00:17:44.789 align:start position:0%
+with AI video, it's going to give me a
+way<00:17:34.559><c> more</c><00:17:34.799><c> dynamic,</c><00:17:35.360><c> action-packed</c><00:17:36.160><c> shot.</c>
+
+00:17:44.789 --> 00:17:44.799 align:start position:0%
+ 
+ 
+
+00:17:44.799 --> 00:17:46.549 align:start position:0%
+ 
+So,<00:17:45.120><c> even</c><00:17:45.360><c> though</c><00:17:45.600><c> ingredients</c><00:17:46.000><c> to</c><00:17:46.160><c> video</c><00:17:46.400><c> is</c>
+
+00:17:46.549 --> 00:17:46.559 align:start position:0%
+So, even though ingredients to video is
+ 
+
+00:17:46.559 --> 00:17:48.789 align:start position:0%
+So, even though ingredients to video is
+pretty<00:17:46.799><c> easy</c><00:17:46.960><c> to</c><00:17:47.200><c> use,</c><00:17:47.520><c> it's</c><00:17:47.760><c> fun,</c><00:17:48.320><c> uh</c><00:17:48.480><c> you</c><00:17:48.640><c> can</c>
+
+00:17:48.789 --> 00:17:48.799 align:start position:0%
+pretty easy to use, it's fun, uh you can
+ 
+
+00:17:48.799 --> 00:17:50.470 align:start position:0%
+pretty easy to use, it's fun, uh you can
+quickly<00:17:49.120><c> combine</c><00:17:49.600><c> characters</c><00:17:49.919><c> and</c><00:17:50.160><c> elements</c>
+
+00:17:50.470 --> 00:17:50.480 align:start position:0%
+quickly combine characters and elements
+ 
+
+00:17:50.480 --> 00:17:51.990 align:start position:0%
+quickly combine characters and elements
+together,<00:17:50.960><c> it's</c><00:17:51.200><c> not</c><00:17:51.360><c> going</c><00:17:51.440><c> to</c><00:17:51.520><c> give</c><00:17:51.679><c> you</c><00:17:51.760><c> the</c>
+
+00:17:51.990 --> 00:17:52.000 align:start position:0%
+together, it's not going to give you the
+ 
+
+00:17:52.000 --> 00:17:54.710 align:start position:0%
+together, it's not going to give you the
+most<00:17:52.160><c> realistic</c><00:17:53.039><c> or</c><00:17:53.520><c> dramatic</c><00:17:54.000><c> results.</c>
+
+00:17:54.710 --> 00:17:54.720 align:start position:0%
+most realistic or dramatic results.
+ 
+
+00:17:54.720 --> 00:17:56.230 align:start position:0%
+most realistic or dramatic results.
+Method<00:17:55.120><c> number</c><00:17:55.360><c> six</c><00:17:55.600><c> when</c><00:17:55.840><c> it</c><00:17:55.919><c> comes</c><00:17:56.080><c> to</c>
+
+00:17:56.230 --> 00:17:56.240 align:start position:0%
+Method number six when it comes to
+ 
+
+00:17:56.240 --> 00:17:59.270 align:start position:0%
+Method number six when it comes to
+making<00:17:56.559><c> AI</c><00:17:56.960><c> videos</c><00:17:57.440><c> is</c><00:17:58.080><c> chat</c><00:17:58.400><c> to</c><00:17:58.559><c> edit.</c><00:17:59.120><c> This</c>
+
+00:17:59.270 --> 00:17:59.280 align:start position:0%
+making AI videos is chat to edit. This
+ 
+
+00:17:59.280 --> 00:18:01.029 align:start position:0%
+making AI videos is chat to edit. This
+is<00:17:59.440><c> kind</c><00:17:59.600><c> of</c><00:17:59.760><c> similar</c><00:18:00.080><c> to</c><00:18:00.240><c> the</c><00:18:00.320><c> videotovideo</c>
+
+00:18:01.029 --> 00:18:01.039 align:start position:0%
+is kind of similar to the videotovideo
+ 
+
+00:18:01.039 --> 00:18:03.830 align:start position:0%
+is kind of similar to the videotovideo
+feature<00:18:02.000><c> except</c><00:18:02.559><c> now</c><00:18:02.880><c> we're</c><00:18:03.200><c> taking</c><00:18:03.440><c> an</c>
+
+00:18:03.830 --> 00:18:03.840 align:start position:0%
+feature except now we're taking an
+ 
+
+00:18:03.840 --> 00:18:07.190 align:start position:0%
+feature except now we're taking an
+existing<00:18:04.400><c> video</c><00:18:05.280><c> and</c><00:18:05.919><c> directly</c><00:18:06.640><c> changing</c>
+
+00:18:07.190 --> 00:18:07.200 align:start position:0%
+existing video and directly changing
+ 
+
+00:18:07.200 --> 00:18:10.310 align:start position:0%
+existing video and directly changing
+something<00:18:07.600><c> about</c><00:18:08.000><c> it</c><00:18:08.320><c> using</c><00:18:08.799><c> AI.</c><00:18:09.600><c> So</c><00:18:09.760><c> if</c><00:18:09.919><c> I</c><00:18:10.080><c> had</c>
+
+00:18:10.310 --> 00:18:10.320 align:start position:0%
+something about it using AI. So if I had
+ 
+
+00:18:10.320 --> 00:18:13.510 align:start position:0%
+something about it using AI. So if I had
+this<00:18:10.720><c> shot</c><00:18:11.679><c> um</c><00:18:11.840><c> of</c><00:18:12.080><c> my</c><00:18:12.480><c> night</c><00:18:12.880><c> inside</c><00:18:13.200><c> a</c>
+
+00:18:13.510 --> 00:18:13.520 align:start position:0%
+this shot um of my night inside a
+ 
+
+00:18:13.520 --> 00:18:15.830 align:start position:0%
+this shot um of my night inside a
+medieval<00:18:14.160><c> village,</c><00:18:15.039><c> what</c><00:18:15.280><c> I</c><00:18:15.440><c> can</c><00:18:15.520><c> do</c><00:18:15.600><c> is</c>
+
+00:18:15.830 --> 00:18:15.840 align:start position:0%
+medieval village, what I can do is
+ 
+
+00:18:15.840 --> 00:18:18.310 align:start position:0%
+medieval village, what I can do is
+actually<00:18:16.160><c> use</c><00:18:16.480><c> AI</c><00:18:16.880><c> video</c><00:18:17.200><c> to</c><00:18:17.520><c> directly</c><00:18:18.000><c> change</c>
+
+00:18:18.310 --> 00:18:18.320 align:start position:0%
+actually use AI video to directly change
+ 
+
+00:18:18.320 --> 00:18:20.870 align:start position:0%
+actually use AI video to directly change
+the<00:18:18.640><c> conditions.</c><00:18:19.200><c> For</c><00:18:19.280><c> example,</c><00:18:19.760><c> adding</c><00:18:20.080><c> in</c>
+
+00:18:20.870 --> 00:18:20.880 align:start position:0%
+the conditions. For example, adding in
+ 
+
+00:18:20.880 --> 00:18:23.190 align:start position:0%
+the conditions. For example, adding in
+new<00:18:21.200><c> weather</c><00:18:21.600><c> conditions</c><00:18:22.080><c> like</c><00:18:22.320><c> a</c><00:18:22.559><c> snowstorm</c>
+
+00:18:23.190 --> 00:18:23.200 align:start position:0%
+new weather conditions like a snowstorm
+ 
+
+00:18:23.200 --> 00:18:29.909 align:start position:0%
+new weather conditions like a snowstorm
+that<00:18:23.440><c> the</c><00:18:23.600><c> guy</c><00:18:23.760><c> is</c><00:18:23.919><c> in.</c>
+
+00:18:29.909 --> 00:18:29.919 align:start position:0%
+ 
+ 
+
+00:18:29.919 --> 00:18:31.990 align:start position:0%
+ 
+Or<00:18:30.240><c> I</c><00:18:30.480><c> could</c><00:18:30.559><c> change</c><00:18:30.799><c> the</c><00:18:31.120><c> time</c><00:18:31.280><c> of</c><00:18:31.440><c> day.</c><00:18:31.840><c> Maybe</c>
+
+00:18:31.990 --> 00:18:32.000 align:start position:0%
+Or I could change the time of day. Maybe
+ 
+
+00:18:32.000 --> 00:18:39.110 align:start position:0%
+Or I could change the time of day. Maybe
+it's<00:18:32.559><c> midnight</c><00:18:33.039><c> at</c><00:18:33.280><c> night</c><00:18:33.520><c> time.</c>
+
+00:18:39.110 --> 00:18:39.120 align:start position:0%
+ 
+ 
+
+00:18:39.120 --> 00:18:41.110 align:start position:0%
+ 
+So<00:18:39.280><c> now</c><00:18:39.520><c> what</c><00:18:39.679><c> we</c><00:18:39.840><c> were</c><00:18:40.000><c> doing</c><00:18:40.240><c> is</c><00:18:40.559><c> actually</c>
+
+00:18:41.110 --> 00:18:41.120 align:start position:0%
+So now what we were doing is actually
+ 
+
+00:18:41.120 --> 00:18:43.510 align:start position:0%
+So now what we were doing is actually
+changing<00:18:41.679><c> things</c><00:18:42.000><c> about</c><00:18:42.320><c> the</c><00:18:42.640><c> environment</c>
+
+00:18:43.510 --> 00:18:43.520 align:start position:0%
+changing things about the environment
+ 
+
+00:18:43.520 --> 00:18:45.669 align:start position:0%
+changing things about the environment
+that<00:18:43.840><c> the</c><00:18:44.160><c> video</c><00:18:44.400><c> is</c><00:18:44.640><c> taken</c><00:18:44.960><c> in.</c><00:18:45.280><c> Like</c><00:18:45.520><c> you</c>
+
+00:18:45.669 --> 00:18:45.679 align:start position:0%
+that the video is taken in. Like you
+ 
+
+00:18:45.679 --> 00:18:47.430 align:start position:0%
+that the video is taken in. Like you
+could<00:18:45.840><c> take</c><00:18:46.000><c> a</c><00:18:46.240><c> video</c><00:18:46.559><c> recording</c><00:18:46.960><c> of</c><00:18:47.120><c> you</c>
+
+00:18:47.430 --> 00:18:47.440 align:start position:0%
+could take a video recording of you
+ 
+
+00:18:47.440 --> 00:18:49.350 align:start position:0%
+could take a video recording of you
+acting<00:18:47.840><c> out</c><00:18:47.919><c> a</c><00:18:48.160><c> scene</c><00:18:48.559><c> and</c><00:18:48.799><c> if</c><00:18:48.960><c> you</c><00:18:49.039><c> want</c><00:18:49.120><c> it</c><00:18:49.280><c> to</c>
+
+00:18:49.350 --> 00:18:49.360 align:start position:0%
+acting out a scene and if you want it to
+ 
+
+00:18:49.360 --> 00:18:50.870 align:start position:0%
+acting out a scene and if you want it to
+be<00:18:49.520><c> in</c><00:18:49.679><c> snowy</c><00:18:50.080><c> weather,</c><00:18:50.400><c> you</c><00:18:50.559><c> can</c><00:18:50.720><c> just</c>
+
+00:18:50.870 --> 00:18:50.880 align:start position:0%
+be in snowy weather, you can just
+ 
+
+00:18:50.880 --> 00:18:54.150 align:start position:0%
+be in snowy weather, you can just
+directly<00:18:51.360><c> add</c><00:18:51.600><c> snow</c><00:18:51.919><c> in.</c><00:18:52.400><c> Runway</c><00:18:52.960><c> ML</c><00:18:53.600><c> is</c><00:18:53.919><c> a</c>
+
+00:18:54.150 --> 00:18:54.160 align:start position:0%
+directly add snow in. Runway ML is a
+ 
+
+00:18:54.160 --> 00:18:57.430 align:start position:0%
+directly add snow in. Runway ML is a
+platform<00:18:54.559><c> that</c><00:18:54.960><c> offers</c><00:18:56.160><c> this</c><00:18:56.559><c> functionality.</c>
+
+00:18:57.430 --> 00:18:57.440 align:start position:0%
+platform that offers this functionality.
+ 
+
+00:18:57.440 --> 00:18:59.750 align:start position:0%
+platform that offers this functionality.
+And<00:18:57.600><c> if</c><00:18:57.760><c> we</c><00:18:58.000><c> find</c><00:18:58.240><c> this</c><00:18:58.480><c> apps</c><00:18:59.120><c> menu</c><00:18:59.440><c> in</c><00:18:59.679><c> the</c>
+
+00:18:59.750 --> 00:18:59.760 align:start position:0%
+And if we find this apps menu in the
+ 
+
+00:18:59.760 --> 00:19:01.669 align:start position:0%
+And if we find this apps menu in the
+toolbar,<00:19:00.559><c> you'll</c><00:19:00.799><c> see</c><00:19:00.960><c> a</c><00:19:01.200><c> bunch</c><00:19:01.360><c> of</c><00:19:01.440><c> different</c>
+
+00:19:01.669 --> 00:19:01.679 align:start position:0%
+toolbar, you'll see a bunch of different
+ 
+
+00:19:01.679 --> 00:19:03.990 align:start position:0%
+toolbar, you'll see a bunch of different
+ways<00:19:01.840><c> that</c><00:19:02.160><c> you</c><00:19:02.400><c> can</c><00:19:03.039><c> change</c><00:19:03.280><c> up</c><00:19:03.440><c> the</c><00:19:03.600><c> video.</c>
+
+00:19:03.990 --> 00:19:04.000 align:start position:0%
+ways that you can change up the video.
+ 
+
+00:19:04.000 --> 00:19:06.310 align:start position:0%
+ways that you can change up the video.
+For<00:19:04.080><c> example,</c><00:19:05.200><c> changing</c><00:19:05.600><c> the</c><00:19:05.760><c> weather,</c><00:19:06.160><c> the</c>
+
+00:19:06.310 --> 00:19:06.320 align:start position:0%
+For example, changing the weather, the
+ 
+
+00:19:06.320 --> 00:19:09.590 align:start position:0%
+For example, changing the weather, the
+time<00:19:06.559><c> of</c><00:19:06.799><c> day,</c><00:19:07.520><c> the</c><00:19:07.840><c> lighting,</c><00:19:09.120><c> uh</c><00:19:09.280><c> the</c>
+
+00:19:09.590 --> 00:19:09.600 align:start position:0%
+time of day, the lighting, uh the
+ 
+
+00:19:09.600 --> 00:19:12.150 align:start position:0%
+time of day, the lighting, uh the
+backdrop.<00:19:10.720><c> First,</c><00:19:10.960><c> I</c><00:19:11.200><c> need</c><00:19:11.280><c> to</c><00:19:11.440><c> upload</c><00:19:11.760><c> the</c>
+
+00:19:12.150 --> 00:19:12.160 align:start position:0%
+backdrop. First, I need to upload the
+ 
+
+00:19:12.160 --> 00:19:17.350 align:start position:0%
+backdrop. First, I need to upload the
+original<00:19:12.640><c> video.</c><00:19:13.440><c> So,</c><00:19:13.679><c> here's</c><00:19:14.160><c> my</c><00:19:14.480><c> night.</c>
+
+00:19:17.350 --> 00:19:17.360 align:start position:0%
+original video. So, here's my night.
+ 
+
+00:19:17.360 --> 00:19:19.430 align:start position:0%
+original video. So, here's my night.
+And<00:19:17.600><c> then</c><00:19:17.760><c> down</c><00:19:18.080><c> here</c><00:19:18.640><c> there's</c><00:19:18.880><c> a</c><00:19:19.120><c> bunch</c><00:19:19.280><c> of</c>
+
+00:19:19.430 --> 00:19:19.440 align:start position:0%
+And then down here there's a bunch of
+ 
+
+00:19:19.440 --> 00:19:22.470 align:start position:0%
+And then down here there's a bunch of
+different<00:19:19.840><c> preset</c><00:19:20.400><c> options</c><00:19:21.520><c> uh</c><00:19:21.679><c> which</c><00:19:22.160><c> will</c>
+
+00:19:22.470 --> 00:19:22.480 align:start position:0%
+different preset options uh which will
+ 
+
+00:19:22.480 --> 00:19:24.950 align:start position:0%
+different preset options uh which will
+give<00:19:22.799><c> the</c><00:19:23.120><c> best</c><00:19:23.360><c> results.</c><00:19:24.160><c> So</c><00:19:24.320><c> I</c><00:19:24.559><c> can</c><00:19:24.720><c> change</c>
+
+00:19:24.950 --> 00:19:24.960 align:start position:0%
+give the best results. So I can change
+ 
+
+00:19:24.960 --> 00:19:27.590 align:start position:0%
+give the best results. So I can change
+the<00:19:25.280><c> lighting</c><00:19:25.919><c> to</c><00:19:26.160><c> a</c><00:19:26.400><c> warm</c><00:19:26.720><c> light</c><00:19:26.960><c> scene</c><00:19:27.360><c> and</c>
+
+00:19:27.590 --> 00:19:27.600 align:start position:0%
+the lighting to a warm light scene and
+ 
+
+00:19:27.600 --> 00:19:29.110 align:start position:0%
+the lighting to a warm light scene and
+it<00:19:27.760><c> changed</c><00:19:28.080><c> the</c><00:19:28.160><c> lighting</c><00:19:28.400><c> in</c><00:19:28.640><c> our</c><00:19:28.799><c> scene</c><00:19:28.960><c> to</c>
+
+00:19:29.110 --> 00:19:29.120 align:start position:0%
+it changed the lighting in our scene to
+ 
+
+00:19:29.120 --> 00:19:31.430 align:start position:0%
+it changed the lighting in our scene to
+a<00:19:29.280><c> golden</c><00:19:29.600><c> hour</c><00:19:29.919><c> glow.</c><00:19:30.559><c> This</c><00:19:30.799><c> does</c><00:19:31.039><c> only</c><00:19:31.280><c> work</c>
+
+00:19:31.430 --> 00:19:31.440 align:start position:0%
+a golden hour glow. This does only work
+ 
+
+00:19:31.440 --> 00:19:34.549 align:start position:0%
+a golden hour glow. This does only work
+with<00:19:31.679><c> the</c><00:19:32.080><c> first</c><00:19:32.720><c> 5</c><00:19:33.039><c> seconds</c><00:19:33.440><c> though.</c><00:19:34.160><c> Again,</c>
+
+00:19:34.549 --> 00:19:34.559 align:start position:0%
+with the first 5 seconds though. Again,
+ 
+
+00:19:34.559 --> 00:19:37.029 align:start position:0%
+with the first 5 seconds though. Again,
+when<00:19:34.720><c> it</c><00:19:34.880><c> comes</c><00:19:35.039><c> to</c><00:19:35.280><c> directly</c><00:19:35.760><c> applying</c><00:19:36.320><c> AI</c><00:19:36.799><c> on</c>
+
+00:19:37.029 --> 00:19:37.039 align:start position:0%
+when it comes to directly applying AI on
+ 
+
+00:19:37.039 --> 00:19:39.830 align:start position:0%
+when it comes to directly applying AI on
+top<00:19:37.120><c> of</c><00:19:37.360><c> an</c><00:19:37.679><c> already</c><00:19:38.080><c> existing</c><00:19:38.640><c> video,</c><00:19:39.440><c> it</c><00:19:39.679><c> is</c>
+
+00:19:39.830 --> 00:19:39.840 align:start position:0%
+top of an already existing video, it is
+ 
+
+00:19:39.840 --> 00:19:41.190 align:start position:0%
+top of an already existing video, it is
+one<00:19:40.080><c> of</c><00:19:40.160><c> the</c><00:19:40.320><c> harder</c><00:19:40.640><c> things</c><00:19:40.799><c> to</c><00:19:41.039><c> get</c>
+
+00:19:41.190 --> 00:19:41.200 align:start position:0%
+one of the harder things to get
+ 
+
+00:19:41.200 --> 00:19:43.430 align:start position:0%
+one of the harder things to get
+consistent<00:19:41.840><c> results</c><00:19:42.240><c> with.</c><00:19:42.640><c> I</c><00:19:42.880><c> also</c><00:19:43.120><c> tried</c>
+
+00:19:43.430 --> 00:19:43.440 align:start position:0%
+consistent results with. I also tried
+ 
+
+00:19:43.440 --> 00:19:46.789 align:start position:0%
+consistent results with. I also tried
+changing<00:19:43.760><c> the</c><00:19:44.000><c> time</c><00:19:44.160><c> of</c><00:19:44.400><c> day</c><00:19:44.799><c> to</c><00:19:45.200><c> noon</c><00:19:46.480><c> and</c>
+
+00:19:46.789 --> 00:19:46.799 align:start position:0%
+changing the time of day to noon and
+ 
+
+00:19:46.799 --> 00:19:49.270 align:start position:0%
+changing the time of day to noon and
+you'll<00:19:47.120><c> see</c><00:19:47.280><c> that</c><00:19:47.520><c> his</c><00:19:47.919><c> uniform</c><00:19:48.799><c> actually</c>
+
+00:19:49.270 --> 00:19:49.280 align:start position:0%
+you'll see that his uniform actually
+ 
+
+00:19:49.280 --> 00:19:51.669 align:start position:0%
+you'll see that his uniform actually
+changes.<00:19:49.760><c> His</c><00:19:50.000><c> face</c><00:19:50.240><c> also</c><00:19:50.559><c> a</c><00:19:50.880><c> little</c><00:19:50.960><c> bit</c><00:19:51.440><c> even</c>
+
+00:19:51.669 --> 00:19:51.679 align:start position:0%
+changes. His face also a little bit even
+ 
+
+00:19:51.679 --> 00:19:54.150 align:start position:0%
+changes. His face also a little bit even
+though<00:19:51.840><c> the</c><00:19:52.080><c> structure</c><00:19:52.400><c> of</c><00:19:52.559><c> the</c><00:19:52.799><c> scene</c><00:19:53.679><c> looks</c>
+
+00:19:54.150 --> 00:19:54.160 align:start position:0%
+though the structure of the scene looks
+ 
+
+00:19:54.160 --> 00:19:56.710 align:start position:0%
+though the structure of the scene looks
+pretty<00:19:54.480><c> similar</c><00:19:54.799><c> and</c><00:19:55.039><c> it</c><00:19:55.280><c> does</c><00:19:55.440><c> a</c><00:19:55.679><c> decent</c><00:19:56.160><c> job.</c>
+
+00:19:56.710 --> 00:19:56.720 align:start position:0%
+pretty similar and it does a decent job.
+ 
+
+00:19:56.720 --> 00:19:59.510 align:start position:0%
+pretty similar and it does a decent job.
+We<00:19:56.960><c> can</c><00:19:57.200><c> also</c><00:19:57.600><c> use</c><00:19:58.000><c> chat</c><00:19:58.320><c> to</c><00:19:58.480><c> edit</c><00:19:58.799><c> to</c><00:19:59.120><c> remove</c>
+
+00:19:59.510 --> 00:19:59.520 align:start position:0%
+We can also use chat to edit to remove
+ 
+
+00:19:59.520 --> 00:20:01.909 align:start position:0%
+We can also use chat to edit to remove
+certain<00:19:59.919><c> elements</c><00:20:00.400><c> from</c><00:20:00.640><c> the</c><00:20:00.880><c> scene.</c><00:20:01.440><c> So</c><00:20:01.679><c> for</c>
+
+00:20:01.909 --> 00:20:01.919 align:start position:0%
+certain elements from the scene. So for
+ 
+
+00:20:01.919 --> 00:20:05.430 align:start position:0%
+certain elements from the scene. So for
+my<00:20:02.160><c> video</c><00:20:02.960><c> um</c><00:20:03.039><c> I</c><00:20:03.280><c> want</c><00:20:03.440><c> to</c><00:20:03.600><c> remove</c><00:20:04.240><c> this</c><00:20:04.720><c> cart</c>
+
+00:20:05.430 --> 00:20:05.440 align:start position:0%
+my video um I want to remove this cart
+ 
+
+00:20:05.440 --> 00:20:08.950 align:start position:0%
+my video um I want to remove this cart
+in<00:20:06.000><c> the</c><00:20:06.400><c> background.</c><00:20:07.520><c> Taking</c><00:20:08.000><c> my</c><00:20:08.480><c> original</c>
+
+00:20:08.950 --> 00:20:08.960 align:start position:0%
+in the background. Taking my original
+ 
+
+00:20:08.960 --> 00:20:11.430 align:start position:0%
+in the background. Taking my original
+video,<00:20:09.600><c> I</c><00:20:09.840><c> can</c><00:20:09.919><c> tell</c><00:20:10.160><c> it</c><00:20:10.320><c> to</c><00:20:10.799><c> remove</c><00:20:11.200><c> the</c>
+
+00:20:11.430 --> 00:20:11.440 align:start position:0%
+video, I can tell it to remove the
+ 
+
+00:20:11.440 --> 00:20:15.430 align:start position:0%
+video, I can tell it to remove the
+wooden<00:20:11.840><c> cart</c><00:20:12.720><c> in</c><00:20:13.039><c> the</c><00:20:13.200><c> background.</c><00:20:14.320><c> It</c><00:20:14.640><c> does</c>
+
+00:20:15.430 --> 00:20:15.440 align:start position:0%
+wooden cart in the background. It does
+ 
+
+00:20:15.440 --> 00:20:17.909 align:start position:0%
+wooden cart in the background. It does
+sort<00:20:15.760><c> of</c><00:20:16.000><c> remove</c><00:20:16.240><c> the</c><00:20:16.480><c> wooden</c><00:20:16.799><c> cart.</c><00:20:17.520><c> Now,</c><00:20:17.679><c> if</c>
+
+00:20:17.909 --> 00:20:17.919 align:start position:0%
+sort of remove the wooden cart. Now, if
+ 
+
+00:20:17.919 --> 00:20:19.350 align:start position:0%
+sort of remove the wooden cart. Now, if
+we<00:20:18.000><c> look</c><00:20:18.160><c> at</c><00:20:18.320><c> the</c><00:20:18.480><c> bottom,</c><00:20:18.880><c> there's</c><00:20:19.120><c> still</c><00:20:19.200><c> a</c>
+
+00:20:19.350 --> 00:20:19.360 align:start position:0%
+we look at the bottom, there's still a
+ 
+
+00:20:19.360 --> 00:20:21.110 align:start position:0%
+we look at the bottom, there's still a
+couple<00:20:19.520><c> of</c><00:20:19.679><c> like</c><00:20:19.919><c> wooden</c><00:20:20.320><c> blocks</c><00:20:20.640><c> here</c><00:20:20.880><c> that</c>
+
+00:20:21.110 --> 00:20:21.120 align:start position:0%
+couple of like wooden blocks here that
+ 
+
+00:20:21.120 --> 00:20:23.350 align:start position:0%
+couple of like wooden blocks here that
+didn't<00:20:21.360><c> get</c><00:20:21.520><c> removed.</c><00:20:22.640><c> And</c><00:20:22.880><c> then</c><00:20:23.120><c> there's</c>
+
+00:20:23.350 --> 00:20:23.360 align:start position:0%
+didn't get removed. And then there's
+ 
+
+00:20:23.360 --> 00:20:26.870 align:start position:0%
+didn't get removed. And then there's
+also<00:20:23.679><c> this</c><00:20:24.320><c> like</c><00:20:24.799><c> mist</c><00:20:25.440><c> going</c><00:20:25.760><c> up,</c><00:20:26.559><c> even</c>
+
+00:20:26.870 --> 00:20:26.880 align:start position:0%
+also this like mist going up, even
+ 
+
+00:20:26.880 --> 00:20:28.710 align:start position:0%
+also this like mist going up, even
+though<00:20:27.600><c> it</c><00:20:27.840><c> doesn't</c><00:20:28.080><c> really</c><00:20:28.240><c> make</c><00:20:28.400><c> sense</c><00:20:28.559><c> for</c>
+
+00:20:28.710 --> 00:20:28.720 align:start position:0%
+though it doesn't really make sense for
+ 
+
+00:20:28.720 --> 00:20:31.350 align:start position:0%
+though it doesn't really make sense for
+that<00:20:28.960><c> to</c><00:20:29.039><c> be</c><00:20:29.200><c> there.</c><00:20:30.240><c> So,</c><00:20:30.559><c> those</c><00:20:30.799><c> are</c><00:20:30.960><c> all</c><00:20:31.120><c> the</c>
+
+00:20:31.350 --> 00:20:31.360 align:start position:0%
+that to be there. So, those are all the
+ 
+
+00:20:31.360 --> 00:20:33.750 align:start position:0%
+that to be there. So, those are all the
+methods<00:20:31.679><c> for</c><00:20:32.000><c> creating</c><00:20:32.320><c> an</c><00:20:32.480><c> AI</c><00:20:32.880><c> video.</c><00:20:33.520><c> Now,</c>
+
+00:20:33.750 --> 00:20:33.760 align:start position:0%
+methods for creating an AI video. Now,
+ 
+
+00:20:33.760 --> 00:20:35.430 align:start position:0%
+methods for creating an AI video. Now,
+if<00:20:33.919><c> you</c><00:20:34.080><c> want</c><00:20:34.159><c> to</c><00:20:34.320><c> learn</c><00:20:34.480><c> how</c><00:20:34.720><c> to</c><00:20:34.960><c> level</c><00:20:35.280><c> up</c>
+
+00:20:35.430 --> 00:20:35.440 align:start position:0%
+if you want to learn how to level up
+ 
+
+00:20:35.440 --> 00:20:37.990 align:start position:0%
+if you want to learn how to level up
+your<00:20:35.600><c> AI</c><00:20:35.919><c> video</c><00:20:36.159><c> game</c><00:20:36.720><c> from</c><00:20:36.960><c> a</c><00:20:37.200><c> beginner</c><00:20:37.760><c> all</c>
+
+00:20:37.990 --> 00:20:38.000 align:start position:0%
+your AI video game from a beginner all
+ 
+
+00:20:38.000 --> 00:20:39.909 align:start position:0%
+your AI video game from a beginner all
+the<00:20:38.159><c> way</c><00:20:38.240><c> up</c><00:20:38.400><c> to</c><00:20:38.559><c> a</c><00:20:38.799><c> pro,</c><00:20:39.280><c> I</c><00:20:39.520><c> made</c><00:20:39.679><c> this</c>
+
+00:20:39.909 --> 00:20:39.919 align:start position:0%
+the way up to a pro, I made this
+ 
+
+00:20:39.919 --> 00:20:41.590 align:start position:0%
+the way up to a pro, I made this
+tutorial<00:20:40.400><c> right</c><00:20:40.640><c> here</c><00:20:40.880><c> where</c><00:20:41.039><c> I</c><00:20:41.280><c> go</c><00:20:41.440><c> through</c>
+
+00:20:41.590 --> 00:20:41.600 align:start position:0%
+tutorial right here where I go through
+ 
+
+00:20:41.600 --> 00:20:43.990 align:start position:0%
+tutorial right here where I go through
+the<00:20:41.840><c> five</c><00:20:42.159><c> different</c><00:20:42.480><c> levels</c><00:20:42.880><c> of</c><00:20:43.200><c> creating</c><00:20:43.600><c> AI</c>
+
+00:20:43.990 --> 00:20:44.000 align:start position:0%
+the five different levels of creating AI
+ 
+
+00:20:44.000 --> 00:20:55.639 align:start position:0%
+the five different levels of creating AI
+videos.<00:20:44.640><c> Go</c><00:20:44.880><c> take</c><00:20:45.039><c> a</c><00:20:45.200><c> look.</c>
+
+00:20:55.639 --> 00:20:55.649 align:start position:0%
+ 
+ 
+
+00:20:55.649 --> 00:20:57.669 align:start position:0%
+ 
+[music]
+

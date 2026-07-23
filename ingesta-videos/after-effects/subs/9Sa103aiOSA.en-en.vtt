@@ -1,0 +1,934 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.920
+I'm going to teach you three levels of rain&nbsp;
+animation in After Effects. We are going to&nbsp;&nbsp;
+
+00:00:03.920 --> 00:00:09.280
+increase the difficulty level as we climb the&nbsp;
+evolutionary tree. Not only by using more advanced&nbsp;&nbsp;
+
+00:00:09.280 --> 00:00:18.000
+techniques, but by using basic techniques in&nbsp;
+smarter and smarter ways. [Music] So, in ape mode,&nbsp;&nbsp;
+
+00:00:18.000 --> 00:00:22.560
+we'll go over to our effects and presets panel&nbsp;
+and type in rain to see if anything comes up.&nbsp;&nbsp;
+
+00:00:22.560 --> 00:00:27.680
+And here we have CC rainfall. That sounds just&nbsp;
+like what we want. Let's add that to a black&nbsp;&nbsp;
+
+00:00:27.680 --> 00:00:33.200
+solid. And that's certainly rain, but we can make&nbsp;
+it look much better. Let's bump up the opacity to&nbsp;&nbsp;
+
+00:00:33.200 --> 00:00:38.240
+see it a little more. And the size, too. Now,&nbsp;
+it also reflects the background by default,&nbsp;&nbsp;
+
+00:00:38.240 --> 00:00:43.040
+which makes it a bit harder to see. So, let's&nbsp;
+turn that influence all the way down. And let's&nbsp;&nbsp;
+
+00:00:43.040 --> 00:00:48.560
+also put a lovely gradient behind our rain and&nbsp;
+change the rains blending mode from normal to&nbsp;&nbsp;
+
+00:00:48.560 --> 00:00:53.760
+screen to see behind it. Let's turn the drops&nbsp;
+quite a bit down as well. And this effect has&nbsp;&nbsp;
+
+00:00:53.760 --> 00:01:01.360
+two really amazing tricks up its sleeve. The first&nbsp;
+is speed. The speed controls how fast or how slow&nbsp;&nbsp;
+
+00:01:01.360 --> 00:01:07.040
+the raindrops fall and also their length as well.&nbsp;
+The faster they are, the more the raindrops smear&nbsp;&nbsp;
+
+00:01:07.040 --> 00:01:12.240
+and we get these bigger lines for the raindrops.&nbsp;
+When it's really slow, they are just circles.&nbsp;&nbsp;
+
+00:01:12.240 --> 00:01:16.800
+And we can animate this for a nice speed ramp.&nbsp;
+So, let's key frame this starting really high.&nbsp;&nbsp;
+
+00:01:16.800 --> 00:01:23.360
+Let's go to 15,000. There we go. Very fast. Key&nbsp;
+frame that there. And then about 2 seconds later,&nbsp;&nbsp;
+
+00:01:23.360 --> 00:01:30.640
+let's really lower it to maybe 150. Let's add a&nbsp;
+bit of easing. And look at that. And I'm also not&nbsp;&nbsp;
+
+00:01:30.640 --> 00:01:35.760
+too keen on the rain all going in very slightly&nbsp;
+different directions. So, let's turn the spread&nbsp;&nbsp;
+
+00:01:35.760 --> 00:01:41.040
+from six down to zero. So, now they're all going&nbsp;
+straight downwards. And at the really slow speed,&nbsp;&nbsp;
+
+00:01:41.040 --> 00:01:46.080
+we can see the second great thing about this&nbsp;
+effect, and that is that there is depth. Depth&nbsp;&nbsp;
+
+00:01:46.080 --> 00:01:52.160
+in 3D space. These drops have parallax. The drops&nbsp;
+that are closer are a little larger and they move&nbsp;&nbsp;
+
+00:01:52.160 --> 00:01:57.040
+faster, which is harder to see in the chaos, but&nbsp;
+you really do notice it once they start to slow&nbsp;&nbsp;
+
+00:01:57.040 --> 00:02:02.240
+down. And we can adjust that with the scene depth.&nbsp;
+Let's increase it a little bit more. Let's not go&nbsp;&nbsp;
+
+00:02:02.240 --> 00:02:08.640
+crazy. And in our extras, we can enhance that even&nbsp;
+more with the ground level percentage. So, if we&nbsp;&nbsp;
+
+00:02:08.640 --> 00:02:13.280
+adjust this, we can see some of the raindrops are&nbsp;
+disappearing. And this is where they would hit the&nbsp;&nbsp;
+
+00:02:13.280 --> 00:02:18.320
+ground and disappear. So, we get even extra depth&nbsp;
+there. And we can create a simple splash animation&nbsp;&nbsp;
+
+00:02:18.320 --> 00:02:23.120
+for each of these raindrops. So I'll grab my&nbsp;
+ellipse tool, create an ellipse, and animate it,&nbsp;&nbsp;
+
+00:02:23.120 --> 00:02:29.040
+increasing its size and fading out. And even at&nbsp;
+the a level, we know to animate an ellipse's size&nbsp;&nbsp;
+
+00:02:29.040 --> 00:02:33.920
+and not its scale. That way, we can keep it stroke&nbsp;
+width consistent. Now, we can trim that layer,&nbsp;&nbsp;
+
+00:02:33.920 --> 00:02:38.000
+place it where one of the raindrops disappears,&nbsp;
+and we've got a convincing little splash. Now,&nbsp;&nbsp;
+
+00:02:38.000 --> 00:02:42.720
+we can pre-ompose that splash and drag that&nbsp;
+wherever the drops disappear. There we get&nbsp;&nbsp;
+
+00:02:42.720 --> 00:02:49.200
+a lovely peaceful rainy scene with a speed ramp&nbsp;
+and lots of depth. Not bad for an ape. I will be&nbsp;&nbsp;
+
+00:02:49.200 --> 00:02:54.480
+honest though, timing all of those splashes&nbsp;
+took ages. So, I only did half the screen,&nbsp;&nbsp;
+
+00:02:54.480 --> 00:03:00.800
+which you can only really get away with if&nbsp;
+your animation is from the POV of a pirate.&nbsp;&nbsp;
+
+00:03:00.800 --> 00:03:09.680
+But you know what they say, you pay peanuts,&nbsp;
+you get monkeys. I know monkeys aren't apes.
+
+00:03:09.680 --> 00:03:15.280
+For the elevated ape, we're after a more cool and&nbsp;
+stylized rain effect. And much like our ancestors,&nbsp;&nbsp;
+
+00:03:15.280 --> 00:03:19.920
+we are leaving the trees and going to take&nbsp;
+our attention to the ground. How the raindrops&nbsp;&nbsp;
+
+00:03:19.920 --> 00:03:25.760
+interact with it, but this time in a much smarter&nbsp;
+way. We're evolving. I was inspired by this image,&nbsp;&nbsp;
+
+00:03:25.760 --> 00:03:30.560
+thinking that those two colors with the rings&nbsp;
+overlapping into the alternate color looked&nbsp;&nbsp;
+
+00:03:30.560 --> 00:03:35.440
+really cool. The first way I tried to do this&nbsp;
+was with a single ripple comp with three circles&nbsp;&nbsp;
+
+00:03:35.440 --> 00:03:39.520
+expanding then fading away. They each have&nbsp;
+a drop shadow, so there's a black and white&nbsp;&nbsp;
+
+00:03:39.520 --> 00:03:44.720
+version of each circle. I put a bunch of those&nbsp;
+comps in a line and then overy background. Then&nbsp;&nbsp;
+
+00:03:44.720 --> 00:03:50.080
+I added just a couple of effects, a threshold to&nbsp;
+restrict it to either black or white, and then a&nbsp;&nbsp;
+
+00:03:50.080 --> 00:03:55.600
+tint to recolor it. Now, this isn't too bad. The&nbsp;
+core idea is there, but it would need a fair bit&nbsp;&nbsp;
+
+00:03:55.600 --> 00:04:01.200
+more attention to get it looking the way I wanted.&nbsp;
+And I found an easier way. I discovered the effect&nbsp;&nbsp;
+
+00:04:01.200 --> 00:04:06.480
+CC drizzle. And this is what it looks like by&nbsp;
+default. It has all those ripples randomly and&nbsp;&nbsp;
+
+00:04:06.480 --> 00:04:11.120
+has that interaction when they overlap. Exactly&nbsp;
+what we want. Now, let's start from scratch in&nbsp;&nbsp;
+
+00:04:11.120 --> 00:04:16.000
+a new comp. We'll create a new solid with Ctrl +&nbsp;
+Y. We'll make it gray, but we'll make the height&nbsp;&nbsp;
+
+00:04:16.000 --> 00:04:20.720
+about three times larger than our comp. And I'll&nbsp;
+explain why soon. Add the drizzles to that. Uh,&nbsp;&nbsp;
+
+00:04:20.720 --> 00:04:25.600
+we'll increase the drip rate a little bit more&nbsp;
+to eight to fill up our larger solid. Open up the&nbsp;&nbsp;
+
+00:04:25.600 --> 00:04:30.960
+shading. And we'll increase the diffuse lighting&nbsp;
+to the max so we can see more of the detail of&nbsp;&nbsp;
+
+00:04:30.960 --> 00:04:36.160
+the ripples. And we will need this a bit darker.&nbsp;
+So let's take down the ambient light to maybe 15&nbsp;&nbsp;
+
+00:04:36.160 --> 00:04:41.280
+or so. Now to make these look like we are looking&nbsp;
+at them from a lower angle and not directly above,&nbsp;&nbsp;
+
+00:04:41.280 --> 00:04:46.640
+what we can do is unlink the scale of this layer&nbsp;
+and then lower the vertical scale squashing it.&nbsp;&nbsp;
+
+00:04:46.640 --> 00:04:51.120
+This is why we started with that comp being&nbsp;
+much taller so we can scale it down without a&nbsp;&nbsp;
+
+00:04:51.120 --> 00:04:56.640
+running out of layer. Then on a new adjustment&nbsp;
+layer which we are going to rename to effects&nbsp;&nbsp;
+
+00:04:56.640 --> 00:05:00.960
+because we always label our layers. Let's add the&nbsp;
+threshold effect. And this starts really shaping&nbsp;&nbsp;
+
+00:05:00.960 --> 00:05:06.720
+it into that final look we want that will just be&nbsp;
+two colors. Now I do want a clear separation of&nbsp;&nbsp;
+
+00:05:06.720 --> 00:05:11.840
+light and shadow in here. And we can do that by on&nbsp;
+our drizzle layer opening up the light properties&nbsp;&nbsp;
+
+00:05:11.840 --> 00:05:16.800
+and changing it from distant light which is kind&nbsp;
+of far away and lighting everything evenly to&nbsp;&nbsp;
+
+00:05:16.800 --> 00:05:21.120
+point light which lights only in a specific&nbsp;
+area. And let's move that light position to&nbsp;&nbsp;
+
+00:05:21.120 --> 00:05:26.640
+the very center of our comp. And we can lower the&nbsp;
+light height as well so it shines on a smaller and&nbsp;&nbsp;
+
+00:05:26.640 --> 00:05:31.600
+smaller area. And the light is still catching a&nbsp;
+lot of these ripples far away from the light. But&nbsp;&nbsp;
+
+00:05:31.600 --> 00:05:36.400
+if we do lower the ripple height, that should get&nbsp;
+rid of a lot of those. I don't want a few, but not&nbsp;&nbsp;
+
+00:05:36.400 --> 00:05:41.280
+too many. There. Now we're getting very close.&nbsp;
+And we can also adjust the light intensity as&nbsp;&nbsp;
+
+00:05:41.280 --> 00:05:46.640
+well to grow and shrink how much of that area is&nbsp;
+illuminated. And just tweak all of these values,&nbsp;&nbsp;
+
+00:05:46.640 --> 00:05:52.800
+the ambient light, the diffuse as well, just to&nbsp;
+hone in on the the look we want. I like it around&nbsp;&nbsp;
+
+00:05:52.800 --> 00:05:57.120
+this level. Now, to make it a bit more moody,&nbsp;
+let's add some more effects. a lot of my very&nbsp;&nbsp;
+
+00:05:57.120 --> 00:06:02.400
+frequently used favorites. Let's add a tint&nbsp;
+to recolor it. We'll map the black to a very,&nbsp;&nbsp;
+
+00:06:02.400 --> 00:06:08.880
+very dark gray and the white to a pure blue. We'll&nbsp;
+add a bit of gausian blur to soften it. And we'll&nbsp;&nbsp;
+
+00:06:08.880 --> 00:06:13.600
+treat ourselves to a deep glow. You do have to&nbsp;
+be subtle though. Homminids are more than capable&nbsp;&nbsp;
+
+00:06:13.600 --> 00:06:18.960
+to use tools very skillfully. So, do remember if&nbsp;
+you're walking upright, keep the glow light. And&nbsp;&nbsp;
+
+00:06:18.960 --> 00:06:24.000
+if you don't have deep glow, a few regular glows&nbsp;
+are just fine. We'll add a transform effect with a&nbsp;&nbsp;
+
+00:06:24.000 --> 00:06:28.480
+wiggle on the position property to add that tiny&nbsp;
+shake for some gate weave. I talked a lot about&nbsp;&nbsp;
+
+00:06:28.480 --> 00:06:33.760
+that in my last video. Good old posterized time&nbsp;
+to set the frame rate to 12 frames per second. And&nbsp;&nbsp;
+
+00:06:33.760 --> 00:06:38.960
+then some grain with some noise HLS auto. And for&nbsp;
+some extra atmosphere, let's add some raindrops&nbsp;&nbsp;
+
+00:06:38.960 --> 00:06:43.680
+falling that might catch this light. So I'll grab&nbsp;
+the pen tool and just draw a line coming straight&nbsp;&nbsp;
+
+00:06:43.680 --> 00:06:48.880
+down. We'll animate its shape path. We only need&nbsp;
+to do that over about three key frames. I'll say&nbsp;&nbsp;
+
+00:06:48.880 --> 00:06:53.360
+I'll make them all hold key frames so there's&nbsp;
+no blending in between them and we get something&nbsp;&nbsp;
+
+00:06:53.360 --> 00:06:58.320
+like that. And let's put that under the adjustment&nbsp;
+layer. And we'll set it blending mode from normal&nbsp;&nbsp;
+
+00:06:58.320 --> 00:07:03.200
+to difference. This way it'll show the inverse of&nbsp;
+what's underneath it. So when it's on top of black&nbsp;&nbsp;
+
+00:07:03.200 --> 00:07:08.080
+it'll become blue. And when it's on top of blue&nbsp;
+it'll become black. Well, it will all be black and&nbsp;&nbsp;
+
+00:07:08.080 --> 00:07:12.480
+white, but the the tint will be turning it into&nbsp;
+into blue or black. Now let's move the anchor&nbsp;&nbsp;
+
+00:07:12.480 --> 00:07:17.760
+point to the very bottom of that layer. hit R on&nbsp;
+our keyboard and adjust the rotation of that drop&nbsp;&nbsp;
+
+00:07:17.760 --> 00:07:22.400
+to have it coming in from any angle we like. And&nbsp;
+we can get really smart with this. Let's duplicate&nbsp;&nbsp;
+
+00:07:22.400 --> 00:07:27.040
+this layer. Let me just nudge that over for a&nbsp;
+second. And on the rotation of this raindrop, I'm&nbsp;&nbsp;
+
+00:07:27.040 --> 00:07:31.520
+simply going to get the pick whip and select the&nbsp;
+rotation of our first one. So now they are linked.&nbsp;&nbsp;
+
+00:07:31.520 --> 00:07:36.720
+And every duplicate I make, the rotation can be&nbsp;
+adjusted from that original one. So the direction&nbsp;&nbsp;
+
+00:07:36.720 --> 00:07:42.000
+will be consistent across every raindrop we make.&nbsp;
+Now that's evolution, baby. Let's spread them out&nbsp;&nbsp;
+
+00:07:42.000 --> 00:07:50.080
+across the scene there. I'm not trying to match&nbsp;
+the ripples, just match the vibe. [Music] Now,&nbsp;&nbsp;
+
+00:07:50.080 --> 00:07:55.120
+that's something I could lo-fi study and relax&nbsp;
+to. And if we turn that effects layer on and off,&nbsp;&nbsp;
+
+00:07:55.120 --> 00:08:00.400
+we can see just how much those effects are shaping&nbsp;
+the result. The threshold effect in particular,&nbsp;&nbsp;
+
+00:08:00.400 --> 00:08:05.680
+I am absolutely threshold pills at the moment.&nbsp;
+It's such a great effect for pulling interesting&nbsp;&nbsp;
+
+00:08:05.680 --> 00:08:11.520
+2D stylized looks out of 3D looking effects that&nbsp;
+just uh don't quite get there on their own. No&nbsp;&nbsp;
+
+00:08:11.520 --> 00:08:17.760
+disrespect to CC Drizzle, all my Drizzlers out&nbsp;
+there. And before we get to the very highest&nbsp;&nbsp;
+
+00:08:17.760 --> 00:08:22.880
+third evolutionary level of rain, let's split&nbsp;
+the evolutionary line where apes now have full&nbsp;&nbsp;
+
+00:08:22.880 --> 00:08:30.240
+control over the planet and take the core of this&nbsp;
+effect to push it even further. So, I thought this&nbsp;&nbsp;
+
+00:08:30.240 --> 00:08:35.680
+effect could make a really cool movie title for&nbsp;
+maybe an 80s horror film. So I slapped some text&nbsp;&nbsp;
+
+00:08:35.680 --> 00:08:40.240
+over the top. Change it blending mode again to&nbsp;
+difference. And when I tried a boulder weight,&nbsp;&nbsp;
+
+00:08:40.240 --> 00:08:44.960
+I loved how the ripples kind of came in and out&nbsp;
+of the text. The difference inverting them right&nbsp;&nbsp;
+
+00:08:44.960 --> 00:08:49.680
+next to one another made it look a bit kind&nbsp;
+of checkerboardy and not natural at all. But&nbsp;&nbsp;
+
+00:08:49.680 --> 00:08:54.000
+I knew I could do a much better job with just&nbsp;
+a few changes. So instead of laying the text&nbsp;&nbsp;
+
+00:08:54.000 --> 00:08:58.320
+over the ripples, let's use the shape of the&nbsp;
+ripples themselves to warp the letters using&nbsp;&nbsp;
+
+00:08:58.320 --> 00:09:03.920
+a displacement map. So let's change their blending&nbsp;
+mode back to normal. And we want to add the effect&nbsp;&nbsp;
+
+00:09:03.920 --> 00:09:09.120
+displacement map to that text layer. Now for our&nbsp;
+displacement map layer, we want to use our drizzle&nbsp;&nbsp;
+
+00:09:09.120 --> 00:09:14.720
+layer and make sure we use the effects and mask as&nbsp;
+the source because those ripples are being made by&nbsp;&nbsp;
+
+00:09:14.720 --> 00:09:19.440
+that drizzle effect. And now we can also hide&nbsp;
+that drizzle layer. We'll need a a background.&nbsp;&nbsp;
+
+00:09:19.440 --> 00:09:24.560
+I'll quickly make a black background with a solid.&nbsp;
+And we can also hide those raindrops for now. Can&nbsp;&nbsp;
+
+00:09:24.560 --> 00:09:29.280
+barely see it now, but if we increase the amount&nbsp;
+of horizontal displacement, we can start to see&nbsp;&nbsp;
+
+00:09:29.280 --> 00:09:34.320
+the effect working. the darker values in that&nbsp;
+drizzle layer warping our text layer to the right.&nbsp;&nbsp;
+
+00:09:34.320 --> 00:09:39.040
+It's technically using the red values for the&nbsp;
+displacement here. But because our drizzle layer&nbsp;&nbsp;
+
+00:09:39.040 --> 00:09:44.720
+is grayscale, the red, the green, the blue give&nbsp;
+the same result. True equality. And now it looks&nbsp;&nbsp;
+
+00:09:44.720 --> 00:09:49.520
+like our text is either on or underneath some&nbsp;
+water that is being disturbed by those ripples,&nbsp;&nbsp;
+
+00:09:49.520 --> 00:09:54.720
+which is exactly what we want. There is just two&nbsp;
+things we need to correct. First is that the pin&nbsp;&nbsp;
+
+00:09:54.720 --> 00:09:59.440
+light, which is making it brighter in the middle,&nbsp;
+is kind of warping the center. So on our drizzle&nbsp;&nbsp;
+
+00:09:59.440 --> 00:10:04.160
+layer, let's change that light from point light&nbsp;
+to distant light. We can hide it again. Put our&nbsp;&nbsp;
+
+00:10:04.160 --> 00:10:08.640
+effects back on. That sorts that out. And now our&nbsp;
+ripples are back to being perfect circles as seen&nbsp;&nbsp;
+
+00:10:08.640 --> 00:10:12.720
+from above, which is okay. That works fine if you&nbsp;
+want that. But I want these to appear at an angle.&nbsp;&nbsp;
+
+00:10:12.720 --> 00:10:17.760
+Now this is happening because our displacement&nbsp;
+map effect is not taking into account that we've&nbsp;&nbsp;
+
+00:10:17.760 --> 00:10:23.040
+squashed the scale on that uh drizzle layer. So we&nbsp;
+can easily fix that just by pre-mping this drizzle&nbsp;&nbsp;
+
+00:10:23.040 --> 00:10:27.280
+layer and making sure we move all attributes&nbsp;
+to the new composition. And now our ripples&nbsp;&nbsp;
+
+00:10:27.280 --> 00:10:31.600
+are nice and squashed because that displacement&nbsp;
+map is looking at a comp that has squashed layers&nbsp;&nbsp;
+
+00:10:31.600 --> 00:10:36.080
+inside it. Now we can tweak the ripples to get&nbsp;
+the effect we want there. Now it's looking really&nbsp;&nbsp;
+
+00:10:36.080 --> 00:10:39.920
+like it's under some water. Another thing you&nbsp;
+might have noticed is that the displacement map&nbsp;&nbsp;
+
+00:10:39.920 --> 00:10:44.400
+is pushing our layer out of the center a bit down&nbsp;
+and to the right. Now we could just nudge it back&nbsp;&nbsp;
+
+00:10:44.400 --> 00:10:48.880
+into the center and eyeball it to get it in the&nbsp;
+middle, but that wouldn't be very Dr. Zaius of us,&nbsp;&nbsp;
+
+00:10:48.880 --> 00:10:52.880
+now would it? To keep this and any other layers we&nbsp;
+might want to use in the center, all we need to do&nbsp;&nbsp;
+
+00:10:52.880 --> 00:10:57.760
+is go into that drizzle pre-MP and make this&nbsp;
+background a perfect 50% gray. At the moment,&nbsp;&nbsp;
+
+00:10:57.760 --> 00:11:02.240
+it is a little bit darker. So, it is displacing&nbsp;
+everything to the right. But if it's a completely&nbsp;&nbsp;
+
+00:11:02.240 --> 00:11:07.200
+neutral 50% gray, just the ripples will affect&nbsp;
+the text, not the darkness of the background. Now,&nbsp;&nbsp;
+
+00:11:07.200 --> 00:11:11.040
+I find the easiest way to do this is to&nbsp;
+just create a shape layer, make sure its&nbsp;&nbsp;
+
+00:11:11.040 --> 00:11:17.440
+color is exactly 50% gray, and then adjust the&nbsp;
+ambient shading on that drizzle to match. Now,&nbsp;&nbsp;
+
+00:11:17.440 --> 00:11:22.000
+as homminids, we have traded our night vision for&nbsp;
+incredible color perception. So, this should be&nbsp;&nbsp;
+
+00:11:22.000 --> 00:11:25.760
+no trouble at all. And now, we don't need the&nbsp;
+shape layer anymore. So, we can just fling that&nbsp;&nbsp;
+
+00:11:25.760 --> 00:11:30.880
+off onto looking bystanders. And back in our main&nbsp;
+comp, our text is centered beautifully. We can&nbsp;&nbsp;
+
+00:11:30.880 --> 00:11:35.440
+bring back those raindrops. Maybe move them into&nbsp;
+some new positions. I do want to make sure they&nbsp;&nbsp;
+
+00:11:35.440 --> 00:11:43.680
+are on top of our text as well. And then think&nbsp;
+of the perfect title for an 80s slasher movie.
+
+00:11:55.080 --> 00:11:56.080
+[Music]
+
+00:11:56.080 --> 00:12:01.520
+Now, the most important skill in any motion design&nbsp;
+project is problem solving. Figuring out what you&nbsp;&nbsp;
+
+00:12:01.520 --> 00:12:06.320
+want to communicate and how to achieve that with&nbsp;
+design and animation. Over the last 5 years,&nbsp;&nbsp;
+
+00:12:06.320 --> 00:12:11.040
+I've been teaching that to thousands of motion&nbsp;
+designers. I've created three courses that&nbsp;&nbsp;
+
+00:12:11.040 --> 00:12:15.440
+cover animation from absolute beginner to&nbsp;
+an advanced level and the design process in&nbsp;&nbsp;
+
+00:12:15.440 --> 00:12:20.640
+ridiculous detail as well. Not just executing&nbsp;
+like a motion designer, but thinking like one,&nbsp;&nbsp;
+
+00:12:20.640 --> 00:12:25.280
+too. If you want to level up your motion design&nbsp;
+skills, I've spent a year building each of these&nbsp;&nbsp;
+
+00:12:25.280 --> 00:12:29.920
+courses to help you do that as quickly and&nbsp;
+effectively as possible. I teach a structured&nbsp;&nbsp;
+
+00:12:29.920 --> 00:12:34.960
+format that builds on each skill while creating&nbsp;
+new projects for your portfolio at each stage.&nbsp;&nbsp;
+
+00:12:34.960 --> 00:12:39.520
+And we've created some incredible student collab&nbsp;
+projects as well. You'll also save hundreds of&nbsp;&nbsp;
+
+00:12:39.520 --> 00:12:44.320
+dollars when you bundle courses together. And&nbsp;
+in the end, you might just explode. They're&nbsp;&nbsp;
+
+00:12:44.320 --> 00:12:51.520
+all on www.BenMarriott.com. Come and learn motion&nbsp;
+design with me. And when our consciousness&nbsp;&nbsp;
+
+00:12:51.520 --> 00:12:56.240
+finally escapes its physical form and we can&nbsp;
+perceive every possible creation imaginable,&nbsp;&nbsp;
+
+00:12:56.240 --> 00:13:02.320
+we can achieve some pretty nice animation in&nbsp;
+After Effects. So, I recently made this chili&nbsp;&nbsp;
+
+00:13:02.320 --> 00:13:07.040
+animation. I painted this chili and animated&nbsp;
+over it to match the painterly texture. Uh,&nbsp;&nbsp;
+
+00:13:07.040 --> 00:13:11.920
+this was done frame by frame and took ages. So,&nbsp;
+I would not use that process again. Instead,&nbsp;&nbsp;
+
+00:13:11.920 --> 00:13:16.240
+for this video, I wanted to create something&nbsp;
+similar, but more detailed and with a bit more&nbsp;&nbsp;
+
+00:13:16.240 --> 00:13:20.480
+of a cleverer process in After Effects. If&nbsp;
+you're curious about this, here is the the&nbsp;&nbsp;
+
+00:13:20.480 --> 00:13:25.600
+202 process that I took. I did the roughs in&nbsp;
+Calipeg on my iPad. I wanted to do the cleanup&nbsp;&nbsp;
+
+00:13:25.600 --> 00:13:30.240
+in Procreate Dreams, but I forgot it didn't&nbsp;
+have a selection tool until it was too late,&nbsp;&nbsp;
+
+00:13:30.240 --> 00:13:35.440
+and I had already done a bunch. So, I then had to&nbsp;
+move it again into Photoshop to clean it up. Then&nbsp;&nbsp;
+
+00:13:35.440 --> 00:13:40.240
+I added text and texture in After Effects. This is&nbsp;
+also included in that project file if you want to&nbsp;&nbsp;
+
+00:13:40.240 --> 00:13:45.840
+dig around in there. So I found a nice satisfying&nbsp;
+slow motion raindrop video to use as a reference.&nbsp;&nbsp;
+
+00:13:45.840 --> 00:13:51.920
+And this really has two main components. The water&nbsp;
+drop falling and the ripples. The raindrop is just&nbsp;&nbsp;
+
+00:13:51.920 --> 00:13:56.480
+a circle with a gradient. And we also have a&nbsp;
+gradient background, too. I kept everything in&nbsp;&nbsp;
+
+00:13:56.480 --> 00:14:01.360
+grayscale because we can color those with effects&nbsp;
+later. For the ripples, I figured I could create a&nbsp;&nbsp;
+
+00:14:01.360 --> 00:14:05.520
+single one and then duplicate that for all the&nbsp;
+others. So, we'll start with that one first.&nbsp;&nbsp;
+
+00:14:05.520 --> 00:14:10.080
+This is what the final result of that looks like.&nbsp;
+And this was a bit of a repetitive process with a&nbsp;&nbsp;
+
+00:14:10.080 --> 00:14:14.880
+fair bit of experimentation to get this look.&nbsp;
+So, instead of going through it step by step,&nbsp;&nbsp;
+
+00:14:14.880 --> 00:14:17.920
+which would take much too long and be very&nbsp;
+boring, I'm going to walk you through what&nbsp;&nbsp;
+
+00:14:17.920 --> 00:14:21.760
+each one of these layers does and what they're&nbsp;
+adding to this effect. Again, everything is&nbsp;&nbsp;
+
+00:14:21.760 --> 00:14:25.600
+included in the project files. So, this is in&nbsp;
+a separate comp. Now, the background is gray,&nbsp;&nbsp;
+
+00:14:25.600 --> 00:14:29.760
+but that is just so we can see this clearly. If&nbsp;
+we turn the transparency on, we can see that it&nbsp;&nbsp;
+
+00:14:29.760 --> 00:14:33.520
+is just these ripples and their shading. That's&nbsp;
+so that when we start stacking the ripples so&nbsp;&nbsp;
+
+00:14:33.520 --> 00:14:37.360
+we can see the ones underneath. So let's remove&nbsp;
+everything back to the first layer. Pretty much&nbsp;&nbsp;
+
+00:14:37.360 --> 00:14:42.400
+the only animation in this whole thing which is a&nbsp;
+single ellipse increasing its size. And I've got a&nbsp;&nbsp;
+
+00:14:42.400 --> 00:14:47.520
+few key frames on it stroke width as well. Just&nbsp;
+expanding and easing in pretty slowly. I'll put&nbsp;&nbsp;
+
+00:14:47.520 --> 00:14:52.240
+the background back on. And I have two effects on&nbsp;
+that. I have a gausian blur just for some initial&nbsp;&nbsp;
+
+00:14:52.240 --> 00:14:56.480
+softening. And then I have a directional blur&nbsp;
+as well which softens it more horizontally. And&nbsp;&nbsp;
+
+00:14:56.480 --> 00:15:00.960
+that's to create a bit more of a tapering effect&nbsp;
+as this kind of rolls off the edges into the sort&nbsp;&nbsp;
+
+00:15:00.960 --> 00:15:05.120
+of the flat plane of the water or at least give&nbsp;
+that illusion. Then I created a duplicate version&nbsp;&nbsp;
+
+00:15:05.120 --> 00:15:09.680
+of that layer and lowered it down. So this sits&nbsp;
+underneath and is even more blurred to get more&nbsp;&nbsp;
+
+00:15:09.680 --> 00:15:13.520
+of that tapered look. So it's a bit sharper at the&nbsp;
+top and softer at the bottom. And that is the main&nbsp;&nbsp;
+
+00:15:13.520 --> 00:15:17.840
+shape we're working with. Then for a highlight,&nbsp;
+I added another duplicate. This time colored it&nbsp;&nbsp;
+
+00:15:17.840 --> 00:15:23.680
+white and really shrank down the stroke width. And&nbsp;
+for this one, I added two masks. So now only this&nbsp;&nbsp;
+
+00:15:23.680 --> 00:15:29.120
+top left section and this bottom right section of&nbsp;
+that highlight are visible. Those masks are also&nbsp;&nbsp;
+
+00:15:29.120 --> 00:15:33.920
+feathered as well, so we don't have a harsh line.&nbsp;
+This comp is all about keeping everything soft.&nbsp;&nbsp;
+
+00:15:33.920 --> 00:15:38.560
+Then some more blurs back on top of those. And&nbsp;
+then I did the same thing for the shading. This is&nbsp;&nbsp;
+
+00:15:38.560 --> 00:15:43.600
+just a dark layer this time lower down feathered&nbsp;
+masks as well in those same areas. And then blurs&nbsp;&nbsp;
+
+00:15:43.600 --> 00:15:48.960
+back on top. This I did set to preserve underlying&nbsp;
+transparency. So it is only affecting the pixels&nbsp;&nbsp;
+
+00:15:48.960 --> 00:15:53.280
+underneath. We turn transparency back on here.&nbsp;
+That is off. and it is sort of creating more&nbsp;&nbsp;
+
+00:15:53.280 --> 00:15:57.920
+pixels. But if we turn this on, it is restricted&nbsp;
+to just the existing pixels underneath. Everything&nbsp;&nbsp;
+
+00:15:57.920 --> 00:16:03.680
+else is transparent is preserved. Then I did two&nbsp;
+more versions of that layer. Each one moving it&nbsp;&nbsp;
+
+00:16:03.680 --> 00:16:09.120
+slightly down and making it a little bit softer.&nbsp;
+Then I put an adjustment layer over everything and&nbsp;&nbsp;
+
+00:16:09.120 --> 00:16:14.960
+animated a directional blur and a gausian blur to&nbsp;
+blur it out even more as it gets wider so it gets&nbsp;&nbsp;
+
+00:16:14.960 --> 00:16:19.600
+softer and softer flattening into the water. Now,&nbsp;
+the ultimate way to soften it was to actually add&nbsp;&nbsp;
+
+00:16:19.600 --> 00:16:24.320
+the gradient background from our main comp over&nbsp;
+the top of everything and then have that slowly&nbsp;&nbsp;
+
+00:16:24.320 --> 00:16:28.720
+fade in. So, by the end of this comp, it will&nbsp;
+look exactly like the background. And then a&nbsp;&nbsp;
+
+00:16:28.720 --> 00:16:33.600
+preserved underlying transparency on that so that&nbsp;
+again it only affects our ring and not the rest of&nbsp;&nbsp;
+
+00:16:33.600 --> 00:16:38.320
+the comp. And then the last thing to make it even&nbsp;
+softer was just to add a few more duplicates of&nbsp;&nbsp;
+
+00:16:38.320 --> 00:16:43.360
+layers and slightly darker grays which did expand&nbsp;
+out a little bit from the ring to kind of make it&nbsp;&nbsp;
+
+00:16:43.360 --> 00:16:47.680
+look like they are maybe casting shadows and just&nbsp;
+make it super super soft. And here's how that&nbsp;&nbsp;
+
+00:16:47.680 --> 00:16:53.360
+looks back in our main comp. It gets softer and&nbsp;
+then fades out nicely. Then it was time to animate&nbsp;&nbsp;
+
+00:16:53.360 --> 00:16:58.000
+the raindrop. First just falling down. And of&nbsp;
+course we want it to enter the water. So I added&nbsp;&nbsp;
+
+00:16:58.000 --> 00:17:02.960
+a mask which is just a shape layer with a slight&nbsp;
+blur on it and use that as a mat for our raindrop&nbsp;&nbsp;
+
+00:17:02.960 --> 00:17:08.320
+layer. I animated the position of our raindrop&nbsp;
+to jump up and down I think about three times and&nbsp;&nbsp;
+
+00:17:08.320 --> 00:17:13.440
+each time it jumps up and down it gets smaller.&nbsp;
+Just animating its scale so it loses some mass&nbsp;&nbsp;
+
+00:17:13.440 --> 00:17:17.200
+while it is underneath the water. And then on&nbsp;
+the last one it kind of lands on the surface&nbsp;&nbsp;
+
+00:17:17.200 --> 00:17:21.920
+of the water above the mat. And then I actually&nbsp;
+parented it to a null. Then animated that null&nbsp;&nbsp;
+
+00:17:21.920 --> 00:17:26.080
+scale to kind of squash and stretch as if it was&nbsp;
+just bouncing on the surface before it finally&nbsp;&nbsp;
+
+00:17:26.080 --> 00:17:30.800
+fades in under the water. I created duplicates&nbsp;
+of the ripples and lined them up for whenever the&nbsp;&nbsp;
+
+00:17:30.800 --> 00:17:35.680
+circle entered or exited the water. Now, having&nbsp;
+the ripple layer on top means that it covers the&nbsp;&nbsp;
+
+00:17:35.680 --> 00:17:40.800
+ripple layer underneath, which I did not want. So,&nbsp;
+to get around that, what I did was create a mask,&nbsp;&nbsp;
+
+00:17:40.800 --> 00:17:45.840
+which cuts that layer in half, feathered that&nbsp;
+mask a little bit, then duplicated that layer,&nbsp;&nbsp;
+
+00:17:45.840 --> 00:17:50.480
+inverted that mask, so now these two layers have&nbsp;
+either side of that ripple, and drag the ripple&nbsp;&nbsp;
+
+00:17:50.480 --> 00:17:55.440
+on the bottom underneath that previous layer in&nbsp;
+the layer stack. So, now it looks stacked in the&nbsp;&nbsp;
+
+00:17:55.440 --> 00:18:00.320
+uh the right order. I did that a whole bunch&nbsp;
+of times, adding extra ripples in between the&nbsp;&nbsp;
+
+00:18:00.320 --> 00:18:05.520
+bounces and just timing those to make sure they&nbsp;
+all aligned up nicely. That created a few extra&nbsp;&nbsp;
+
+00:18:05.520 --> 00:18:10.240
+layers, but nothing too out of hand. I also&nbsp;
+added a shadow to the raindrop, which is just an&nbsp;&nbsp;
+
+00:18:10.240 --> 00:18:14.560
+ellipse with some blurs on it. And for the final&nbsp;
+colors and effects, I added a gausian blur,&nbsp;&nbsp;
+
+00:18:14.560 --> 00:18:18.640
+and that just unifies that very sharp circle&nbsp;
+with everything underneath it. Some grainy&nbsp;&nbsp;
+
+00:18:18.640 --> 00:18:24.400
+noise with noise HLS auto. And then I colored it&nbsp;
+with CC toner. Now, another extra effect I tried&nbsp;&nbsp;
+
+00:18:24.400 --> 00:18:29.040
+and you might be after is a slight strobing to&nbsp;
+the whole animation. So, this is created with&nbsp;&nbsp;
+
+00:18:29.040 --> 00:18:32.960
+another adjustment on a layer over the top of&nbsp;
+everything. I have a curves effect on it and I&nbsp;&nbsp;
+
+00:18:32.960 --> 00:18:38.480
+have its opacity animated to go from 100 to zero&nbsp;
+back to 100 with a looping expression on that. And&nbsp;&nbsp;
+
+00:18:38.480 --> 00:18:43.600
+this curves effect is really subtle. We don't want&nbsp;
+to have to put a warning on our animation. And&nbsp;&nbsp;
+
+00:18:43.600 --> 00:18:48.160
+this kind of mimics a light source flickering when&nbsp;
+filmed with an extreme slow motion camera. I'm not&nbsp;&nbsp;
+
+00:18:48.160 --> 00:18:53.200
+sure if it's necessary for this animation, but it&nbsp;
+is a really useful strong visual cue that you're&nbsp;&nbsp;
+
+00:18:53.200 --> 00:18:57.040
+watching something in slow motion. So, a good and&nbsp;
+really simple trick to keep up your sleep if you&nbsp;&nbsp;
+
+00:18:57.040 --> 00:19:03.520
+ever want to lean into that. Most of these rain&nbsp;
+techniques and skills we've covered have so many&nbsp;&nbsp;
+
+00:19:03.520 --> 00:19:09.520
+applications beyond rain. Layers of feathered&nbsp;
+masks and blurs can create softer gradients and&nbsp;&nbsp;
+
+00:19:09.520 --> 00:19:15.280
+satisfying shading to anything. Displacement maps&nbsp;
+can warp any layer based on the values of another.&nbsp;&nbsp;
+
+00:19:15.280 --> 00:19:24.240
+threshold can turn gray messes into bold designs&nbsp;
+and CC rainfall can make rain fall. We have gone&nbsp;&nbsp;
+
+00:19:24.240 --> 00:19:30.320
+from knuckle dragging to neurons bragging and made&nbsp;
+a troop of friends along the way. Please let me&nbsp;&nbsp;
+
+00:19:30.320 --> 00:19:34.640
+know if you'd like me to tackle any other type&nbsp;
+of animation in three levels. And if you want to&nbsp;&nbsp;
+
+00:19:34.640 --> 00:19:44.800
+learn more techniques to put your motion design in&nbsp;
+a mode, check out this video. I love you, Dr. Zaius.
+
+00:19:44.800 --> 00:19:46.640
+Thank you. It's great to be
+

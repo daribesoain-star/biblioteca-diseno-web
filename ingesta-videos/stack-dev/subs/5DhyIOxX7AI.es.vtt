@@ -1,0 +1,3776 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.640 --> 00:00:03.030 align:start position:0%
+ 
+En <00:00:01.072><c>esta </c><00:00:01.504><c>decimotercera </c><00:00:01.936><c>parte, </c><00:00:02.368><c>aprenderemos </c><00:00:02.800><c>sobre</c>
+
+00:00:03.030 --> 00:00:03.040 align:start position:0%
+En esta decimotercera parte, aprenderemos sobre
+ 
+
+00:00:03.040 --> 00:00:04.950 align:start position:0%
+En esta decimotercera parte, aprenderemos sobre
+conceptos <00:00:03.460><c>avanzados </c><00:00:03.880><c>de </c><00:00:04.300><c>componentes </c><00:00:04.720><c>que</c>
+
+00:00:04.950 --> 00:00:04.960 align:start position:0%
+conceptos avanzados de componentes que
+ 
+
+00:00:04.960 --> 00:00:07.749 align:start position:0%
+conceptos avanzados de componentes que
+mejorarán <00:00:05.266><c>tus </c><00:00:05.572><c>habilidades </c><00:00:05.878><c>de </c><00:00:06.184><c>desarrollo </c><00:00:06.490><c>de </c><00:00:06.796><c>ortografía.</c>
+
+00:00:07.749 --> 00:00:07.759 align:start position:0%
+mejorarán tus habilidades de desarrollo de ortografía.
+ 
+
+00:00:07.759 --> 00:00:10.150 align:start position:0%
+mejorarán tus habilidades de desarrollo de ortografía.
+Exploraremos <00:00:08.010><c>el </c><00:00:08.261><c>ciclo </c><00:00:08.512><c>de </c><00:00:08.763><c>vida </c><00:00:09.014><c>de </c><00:00:09.265><c>los </c><00:00:09.516><c>componentes,</c>
+
+00:00:10.150 --> 00:00:10.160 align:start position:0%
+Exploraremos el ciclo de vida de los componentes,
+ 
+
+00:00:10.160 --> 00:00:12.230 align:start position:0%
+Exploraremos el ciclo de vida de los componentes,
+lo <00:00:10.364><c>que </c><00:00:10.568><c>nos </c><00:00:10.772><c>ayudará </c><00:00:10.976><c>a </c><00:00:11.180><c>comprender </c><00:00:11.384><c>cuándo </c><00:00:11.588><c>y </c><00:00:11.792><c>cómo </c><00:00:11.996><c>se</c>
+
+00:00:12.230 --> 00:00:12.240 align:start position:0%
+lo que nos ayudará a comprender cuándo y cómo se
+ 
+
+00:00:12.240 --> 00:00:13.990 align:start position:0%
+lo que nos ayudará a comprender cuándo y cómo se
+crean <00:00:12.527><c>y </c><00:00:12.814><c>se </c><00:00:13.101><c>destruyen </c><00:00:13.388><c>nuestros </c><00:00:13.675><c>componentes</c>
+
+00:00:13.990 --> 00:00:14.000 align:start position:0%
+crean y se destruyen nuestros componentes
+ 
+
+00:00:14.000 --> 00:00:16.390 align:start position:0%
+crean y se destruyen nuestros componentes
+.  <00:00:14.640><c>También </c><00:00:15.280><c>abordaremos </c><00:00:15.920><c>la</c>
+
+00:00:16.390 --> 00:00:16.400 align:start position:0%
+.  También abordaremos la
+ 
+
+00:00:16.400 --> 00:00:18.390 align:start position:0%
+.  También abordaremos la
+validación <00:00:16.605><c>de </c><00:00:16.810><c>propiedades </c><00:00:17.015><c>para </c><00:00:17.220><c>garantizar </c><00:00:17.425><c>que </c><00:00:17.630><c>nuestros </c><00:00:17.835><c>componentes</c>
+
+00:00:18.390 --> 00:00:18.400 align:start position:0%
+validación de propiedades para garantizar que nuestros componentes
+ 
+
+00:00:18.400 --> 00:00:20.710 align:start position:0%
+validación de propiedades para garantizar que nuestros componentes
+reciban <00:00:18.720><c>los </c><00:00:19.040><c>tipos </c><00:00:19.360><c>de </c><00:00:19.680><c>datos </c><00:00:20.000><c>correctos, </c><00:00:20.320><c>las</c>
+
+00:00:20.710 --> 00:00:20.720 align:start position:0%
+reciban los tipos de datos correctos, las
+ 
+
+00:00:20.720 --> 00:00:22.950 align:start position:0%
+reciban los tipos de datos correctos, las
+propiedades <00:00:20.925><c>predeterminadas </c><00:00:21.130><c>para </c><00:00:21.335><c>proporcionar </c><00:00:21.540><c>valores </c><00:00:21.745><c>de </c><00:00:21.950><c>reserva, </c><00:00:22.155><c>los</c>
+
+00:00:22.950 --> 00:00:22.960 align:start position:0%
+propiedades predeterminadas para proporcionar valores de reserva, los
+ 
+
+00:00:22.960 --> 00:00:24.710 align:start position:0%
+propiedades predeterminadas para proporcionar valores de reserva, los
+eventos <00:00:23.184><c>de </c><00:00:23.408><c>componentes </c><00:00:23.632><c>para </c><00:00:23.856><c>la </c><00:00:24.080><c>comunicación</c>
+
+00:00:24.710 --> 00:00:24.720 align:start position:0%
+eventos de componentes para la comunicación
+ 
+
+00:00:24.720 --> 00:00:27.109 align:start position:0%
+eventos de componentes para la comunicación
+entre <00:00:25.080><c>componentes </c><00:00:25.440><c>padre </c><00:00:25.800><c>e </c><00:00:26.160><c>hijo, </c><00:00:26.520><c>y </c><00:00:26.880><c>las</c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+entre componentes padre e hijo, y las
+ 
+
+00:00:27.119 --> 00:00:29.189 align:start position:0%
+entre componentes padre e hijo, y las
+vinculaciones <00:00:27.339><c>de </c><00:00:27.559><c>componentes </c><00:00:27.779><c>para </c><00:00:27.999><c>el </c><00:00:28.219><c>flujo </c><00:00:28.439><c>de </c><00:00:28.659><c>datos </c><00:00:28.879><c>bidireccional</c>
+
+00:00:29.189 --> 00:00:29.199 align:start position:0%
+vinculaciones de componentes para el flujo de datos bidireccional
+ 
+
+00:00:29.199 --> 00:00:32.069 align:start position:0%
+vinculaciones de componentes para el flujo de datos bidireccional
+.  <00:00:29.455><c>Empecemos </c><00:00:29.711><c>entonces </c><00:00:29.967><c>con </c><00:00:30.223><c>el </c><00:00:30.479><c>ciclo </c><00:00:30.735><c>de </c><00:00:30.991><c>vida </c><00:00:31.247><c>de </c><00:00:31.503><c>los </c><00:00:31.759><c>componentes</c>
+
+00:00:32.069 --> 00:00:32.079 align:start position:0%
+.  Empecemos entonces con el ciclo de vida de los componentes
+ 
+
+00:00:32.079 --> 00:00:34.790 align:start position:0%
+.  Empecemos entonces con el ciclo de vida de los componentes
+.  <00:00:32.328><c>El </c><00:00:32.577><c>ciclo </c><00:00:32.826><c>de </c><00:00:33.075><c>vida </c><00:00:33.324><c>del </c><00:00:33.573><c>componente </c><00:00:33.822><c>en </c><00:00:34.071><c>la </c><00:00:34.320><c>figura</c>
+
+00:00:34.790 --> 00:00:34.800 align:start position:0%
+.  El ciclo de vida del componente en la figura
+ 
+
+00:00:34.800 --> 00:00:36.870 align:start position:0%
+.  El ciclo de vida del componente en la figura
+5 <00:00:35.051><c>representa </c><00:00:35.302><c>las </c><00:00:35.553><c>diferentes </c><00:00:35.804><c>fases </c><00:00:36.055><c>por </c><00:00:36.306><c>las </c><00:00:36.557><c>que</c>
+
+00:00:36.870 --> 00:00:36.880 align:start position:0%
+5 representa las diferentes fases por las que
+ 
+
+00:00:36.880 --> 00:00:38.950 align:start position:0%
+5 representa las diferentes fases por las que
+pasa <00:00:37.142><c>un </c><00:00:37.404><c>componente </c><00:00:37.666><c>desde </c><00:00:37.928><c>su </c><00:00:38.190><c>creación </c><00:00:38.452><c>hasta </c><00:00:38.714><c>su</c>
+
+00:00:38.950 --> 00:00:38.960 align:start position:0%
+pasa un componente desde su creación hasta su
+ 
+
+00:00:38.960 --> 00:00:41.350 align:start position:0%
+pasa un componente desde su creación hasta su
+destrucción.  <00:00:39.599><c>Comprender </c><00:00:40.238><c>estas </c><00:00:40.877><c>fases</c>
+
+00:00:41.350 --> 00:00:41.360 align:start position:0%
+destrucción.  Comprender estas fases
+ 
+
+00:00:41.360 --> 00:00:43.830 align:start position:0%
+destrucción.  Comprender estas fases
+es <00:00:41.653><c>fundamental </c><00:00:41.946><c>para </c><00:00:42.239><c>gestionar </c><00:00:42.532><c>los </c><00:00:42.825><c>efectos </c><00:00:43.118><c>secundarios,</c>
+
+00:00:43.830 --> 00:00:43.840 align:start position:0%
+es fundamental para gestionar los efectos secundarios,
+ 
+
+00:00:43.840 --> 00:00:46.069 align:start position:0%
+es fundamental para gestionar los efectos secundarios,
+realizar <00:00:44.224><c>las </c><00:00:44.608><c>operaciones </c><00:00:44.992><c>de </c><00:00:45.376><c>limpieza </c><00:00:45.760><c>y</c>
+
+00:00:46.069 --> 00:00:46.079 align:start position:0%
+realizar las operaciones de limpieza y
+ 
+
+00:00:46.079 --> 00:00:48.630 align:start position:0%
+realizar las operaciones de limpieza y
+optimizar <00:00:46.639><c>el </c><00:00:47.199><c>rendimiento.  </c><00:00:47.759><c>Smeelt </c><00:00:48.319><c>5</c>
+
+00:00:48.630 --> 00:00:48.640 align:start position:0%
+optimizar el rendimiento.  Smeelt 5
+ 
+
+00:00:48.640 --> 00:00:50.630 align:start position:0%
+optimizar el rendimiento.  Smeelt 5
+proporciona <00:00:49.439><c>varias </c><00:00:50.238><c>funciones</c>
+
+00:00:50.630 --> 00:00:50.640 align:start position:0%
+proporciona varias funciones
+ 
+
+00:00:50.640 --> 00:00:52.470 align:start position:0%
+proporciona varias funciones
+y <00:00:50.799><c>runas </c><00:00:50.958><c>del </c><00:00:51.117><c>ciclo </c><00:00:51.276><c>de </c><00:00:51.435><c>vida </c><00:00:51.594><c>que </c><00:00:51.753><c>nos </c><00:00:51.912><c>permiten </c><00:00:52.071><c>intervenir </c><00:00:52.230><c>en</c>
+
+00:00:52.470 --> 00:00:52.480 align:start position:0%
+y runas del ciclo de vida que nos permiten intervenir en
+ 
+
+00:00:52.480 --> 00:00:54.790 align:start position:0%
+y runas del ciclo de vida que nos permiten intervenir en
+estas <00:00:52.840><c>fases </c><00:00:53.200><c>y </c><00:00:53.560><c>ejecutar </c><00:00:53.920><c>código </c><00:00:54.280><c>en </c><00:00:54.640><c>los</c>
+
+00:00:54.790 --> 00:00:54.800 align:start position:0%
+estas fases y ejecutar código en los
+ 
+
+00:00:54.800 --> 00:00:57.350 align:start position:0%
+estas fases y ejecutar código en los
+momentos <00:00:55.070><c>adecuados.  </c><00:00:55.340><c>Las </c><00:00:55.610><c>principales </c><00:00:55.880><c>herramientas </c><00:00:56.150><c>del </c><00:00:56.420><c>ciclo </c><00:00:56.690><c>de </c><00:00:56.960><c>vida</c>
+
+00:00:57.350 --> 00:00:57.360 align:start position:0%
+momentos adecuados.  Las principales herramientas del ciclo de vida
+ 
+
+00:00:57.360 --> 00:00:59.590 align:start position:0%
+momentos adecuados.  Las principales herramientas del ciclo de vida
+incluyen <00:00:57.609><c>onmount, </c><00:00:57.858><c>que </c><00:00:58.107><c>se </c><00:00:58.356><c>ejecuta </c><00:00:58.605><c>después </c><00:00:58.854><c>de </c><00:00:59.103><c>que </c><00:00:59.352><c>el</c>
+
+00:00:59.590 --> 00:00:59.600 align:start position:0%
+incluyen onmount, que se ejecuta después de que el
+ 
+
+00:00:59.600 --> 00:01:02.229 align:start position:0%
+incluyen onmount, que se ejecuta después de que el
+componente <00:00:59.810><c>se </c><00:01:00.020><c>renderiza </c><00:01:00.230><c>por </c><00:01:00.440><c>primera </c><00:01:00.650><c>vez </c><00:01:00.860><c>en </c><00:01:01.070><c>el </c><00:01:01.280><c>DOM,</c>
+
+00:01:02.229 --> 00:01:02.239 align:start position:0%
+componente se renderiza por primera vez en el DOM,
+ 
+
+00:01:02.239 --> 00:01:04.869 align:start position:0%
+componente se renderiza por primera vez en el DOM,
+effect.  <00:01:02.519><c>Que </c><00:01:02.799><c>se </c><00:01:03.079><c>ejecuta </c><00:01:03.359><c>antes </c><00:01:03.639><c>de </c><00:01:03.919><c>que </c><00:01:04.199><c>el </c><00:01:04.479><c>componente</c>
+
+00:01:04.869 --> 00:01:04.879 align:start position:0%
+effect.  Que se ejecuta antes de que el componente
+ 
+
+00:01:04.879 --> 00:01:07.910 align:start position:0%
+effect.  Que se ejecuta antes de que el componente
+se <00:01:05.222><c>actualice </c><00:01:05.565><c>debido </c><00:01:05.908><c>a </c><00:01:06.251><c>cambios </c><00:01:06.594><c>de </c><00:01:06.937><c>estado.  </c><00:01:07.280><c>efecto</c>
+
+00:01:07.910 --> 00:01:07.920 align:start position:0%
+se actualice debido a cambios de estado.  efecto
+ 
+
+00:01:07.920 --> 00:01:10.390 align:start position:0%
+se actualice debido a cambios de estado.  efecto
+que <00:01:08.088><c>se </c><00:01:08.256><c>ejecuta </c><00:01:08.424><c>después </c><00:01:08.592><c>de </c><00:01:08.760><c>que </c><00:01:08.928><c>el </c><00:01:09.096><c>componente </c><00:01:09.264><c>se </c><00:01:09.432><c>actualiza</c>
+
+00:01:10.390 --> 00:01:10.400 align:start position:0%
+que se ejecuta después de que el componente se actualiza
+ 
+
+00:01:10.400 --> 00:01:12.630 align:start position:0%
+que se ejecuta después de que el componente se actualiza
+y <00:01:10.659><c>en </c><00:01:10.918><c>la </c><00:01:11.177><c>destrucción </c><00:01:11.436><c>que </c><00:01:11.695><c>se </c><00:01:11.954><c>ejecuta </c><00:01:12.213><c>cuando </c><00:01:12.472><c>el</c>
+
+00:01:12.630 --> 00:01:12.640 align:start position:0%
+y en la destrucción que se ejecuta cuando el
+ 
+
+00:01:12.640 --> 00:01:15.030 align:start position:0%
+y en la destrucción que se ejecuta cuando el
+componente <00:01:13.040><c>se </c><00:01:13.440><c>elimina </c><00:01:13.840><c>del </c><00:01:14.240><c>DOM.</c>
+
+00:01:15.030 --> 00:01:15.040 align:start position:0%
+componente se elimina del DOM.
+ 
+
+00:01:15.040 --> 00:01:17.350 align:start position:0%
+componente se elimina del DOM.
+Estas <00:01:15.290><c>herramientas </c><00:01:15.540><c>de </c><00:01:15.790><c>ciclo </c><00:01:16.040><c>de </c><00:01:16.290><c>vida </c><00:01:16.540><c>son </c><00:01:16.790><c>esenciales </c><00:01:17.040><c>para</c>
+
+00:01:17.350 --> 00:01:17.360 align:start position:0%
+Estas herramientas de ciclo de vida son esenciales para
+ 
+
+00:01:17.360 --> 00:01:19.590 align:start position:0%
+Estas herramientas de ciclo de vida son esenciales para
+tareas <00:01:17.610><c>como </c><00:01:17.860><c>la </c><00:01:18.110><c>obtención </c><00:01:18.360><c>de </c><00:01:18.610><c>datos, </c><00:01:18.860><c>la </c><00:01:19.110><c>configuración </c><00:01:19.360><c>de</c>
+
+00:01:19.590 --> 00:01:19.600 align:start position:0%
+tareas como la obtención de datos, la configuración de
+ 
+
+00:01:19.600 --> 00:01:21.990 align:start position:0%
+tareas como la obtención de datos, la configuración de
+suscripciones, <00:01:20.020><c>la </c><00:01:20.440><c>limpieza </c><00:01:20.860><c>de </c><00:01:21.280><c>recursos</c>
+
+00:01:21.990 --> 00:01:22.000 align:start position:0%
+suscripciones, la limpieza de recursos
+ 
+
+00:01:22.000 --> 00:01:24.469 align:start position:0%
+suscripciones, la limpieza de recursos
+y <00:01:22.226><c>la </c><00:01:22.452><c>gestión </c><00:01:22.678><c>de </c><00:01:22.904><c>bibliotecas </c><00:01:23.130><c>de </c><00:01:23.356><c>terceros.</c>
+
+00:01:24.469 --> 00:01:24.479 align:start position:0%
+y la gestión de bibliotecas de terceros.
+ 
+
+00:01:24.479 --> 00:01:27.109 align:start position:0%
+y la gestión de bibliotecas de terceros.
+Vamos <00:01:24.696><c>a </c><00:01:24.913><c>entenderlo </c><00:01:25.130><c>con </c><00:01:25.347><c>un </c><00:01:25.564><c>ejemplo </c><00:01:25.781><c>de </c><00:01:25.998><c>código.</c>
+
+00:01:27.109 --> 00:01:27.119 align:start position:0%
+Vamos a entenderlo con un ejemplo de código.
+ 
+
+00:01:27.119 --> 00:01:29.749 align:start position:0%
+Vamos a entenderlo con un ejemplo de código.
+Primero, <00:01:27.535><c>crea </c><00:01:27.951><c>un </c><00:01:28.367><c>componente </c><00:01:28.783><c>en </c><00:01:29.199><c>la</c>
+
+00:01:29.749 --> 00:01:29.759 align:start position:0%
+Primero, crea un componente en la
+ 
+
+00:01:29.759 --> 00:01:33.190 align:start position:0%
+Primero, crea un componente en la
+carpeta <00:01:30.055><c>de </c><00:01:30.351><c>componentes.  </c><00:01:30.647><c>Crea </c><00:01:30.943><c>una </c><00:01:31.239><c>sección </c><00:01:31.535><c>de </c><00:01:31.831><c>script </c><00:01:32.127><c>dentro </c><00:01:32.423><c>de </c><00:01:32.719><c>ella.</c>
+
+00:01:33.190 --> 00:01:33.200 align:start position:0%
+carpeta de componentes.  Crea una sección de script dentro de ella.
+ 
+
+00:01:33.200 --> 00:01:35.429 align:start position:0%
+carpeta de componentes.  Crea una sección de script dentro de ella.
+Importar <00:01:33.533><c>al </c><00:01:33.866><c>montar </c><00:01:34.199><c>y </c><00:01:34.532><c>al </c><00:01:34.865><c>destruir </c><00:01:35.198><c>desde</c>
+
+00:01:35.429 --> 00:01:35.439 align:start position:0%
+Importar al montar y al destruir desde
+ 
+
+00:01:35.439 --> 00:01:37.670 align:start position:0%
+Importar al montar y al destruir desde
+espelta.  <00:01:35.713><c>Luego, </c><00:01:35.987><c>crea </c><00:01:36.261><c>una </c><00:01:36.535><c>variable </c><00:01:36.809><c>de </c><00:01:37.083><c>conteo </c><00:01:37.357><c>reactiva</c>
+
+00:01:37.670 --> 00:01:37.680 align:start position:0%
+espelta.  Luego, crea una variable de conteo reactiva
+ 
+
+00:01:37.680 --> 00:01:39.990 align:start position:0%
+espelta.  Luego, crea una variable de conteo reactiva
+y <00:01:38.095><c>establece </c><00:01:38.510><c>su </c><00:01:38.925><c>valor </c><00:01:39.340><c>inicial </c><00:01:39.755><c>en</c>
+
+00:01:39.990 --> 00:01:40.000 align:start position:0%
+y establece su valor inicial en
+ 
+
+00:01:40.000 --> 00:01:42.789 align:start position:0%
+y establece su valor inicial en
+cero.  <00:01:40.480><c>Crea </c><00:01:40.960><c>una </c><00:01:41.440><c>variable </c><00:01:41.920><c>montada </c><00:01:42.400><c>reactiva</c>
+
+00:01:42.789 --> 00:01:42.799 align:start position:0%
+cero.  Crea una variable montada reactiva
+ 
+
+00:01:42.799 --> 00:01:45.830 align:start position:0%
+cero.  Crea una variable montada reactiva
+y <00:01:43.215><c>establécela </c><00:01:43.631><c>en </c><00:01:44.047><c>falso.  </c><00:01:44.463><c>Crea </c><00:01:44.879><c>una</c>
+
+00:01:45.830 --> 00:01:45.840 align:start position:0%
+y establécela en falso.  Crea una
+ 
+
+00:01:45.840 --> 00:01:47.830 align:start position:0%
+y establécela en falso.  Crea una
+variable <00:01:46.050><c>de </c><00:01:46.260><c>conteo </c><00:01:46.470><c>anterior </c><00:01:46.680><c>no </c><00:01:46.890><c>reactiva </c><00:01:47.100><c>y </c><00:01:47.310><c>establece </c><00:01:47.520><c>su</c>
+
+00:01:47.830 --> 00:01:47.840 align:start position:0%
+variable de conteo anterior no reactiva y establece su
+ 
+
+00:01:47.840 --> 00:01:50.550 align:start position:0%
+variable de conteo anterior no reactiva y establece su
+valor <00:01:48.240><c>inicial </c><00:01:48.640><c>en </c><00:01:49.040><c>cero.  </c><00:01:49.440><c>Ahora </c><00:01:49.840><c>crea </c><00:01:50.240><c>la</c>
+
+00:01:50.550 --> 00:01:50.560 align:start position:0%
+valor inicial en cero.  Ahora crea la
+ 
+
+00:01:50.560 --> 00:01:53.270 align:start position:0%
+valor inicial en cero.  Ahora crea la
+función <00:01:50.914><c>de </c><00:01:51.268><c>desmontaje.  </c><00:01:51.622><c>Este </c><00:01:51.976><c>método </c><00:01:52.330><c>se </c><00:01:52.684><c>ejecuta </c><00:01:53.038><c>cuando</c>
+
+00:01:53.270 --> 00:01:53.280 align:start position:0%
+función de desmontaje.  Este método se ejecuta cuando
+ 
+
+00:01:53.280 --> 00:01:55.510 align:start position:0%
+función de desmontaje.  Este método se ejecuta cuando
+este <00:01:53.520><c>componente </c><00:01:53.760><c>se </c><00:01:54.000><c>renderiza </c><00:01:54.240><c>en </c><00:01:54.480><c>el </c><00:01:54.720><c>DOM.</c>
+
+00:01:55.510 --> 00:01:55.520 align:start position:0%
+este componente se renderiza en el DOM.
+ 
+
+00:01:55.520 --> 00:01:58.149 align:start position:0%
+este componente se renderiza en el DOM.
+En <00:01:55.828><c>su </c><00:01:56.136><c>interior, </c><00:01:56.444><c>imprime </c><00:01:56.752><c>un </c><00:01:57.060><c>mensaje </c><00:01:57.368><c>utilizando </c><00:01:57.676><c>el</c>
+
+00:01:58.149 --> 00:01:58.159 align:start position:0%
+En su interior, imprime un mensaje utilizando el
+ 
+
+00:01:58.159 --> 00:02:01.350 align:start position:0%
+En su interior, imprime un mensaje utilizando el
+método <00:01:58.559><c>console.log.  </c><00:01:58.959><c>Luego, </c><00:01:59.359><c>configure </c><00:01:59.759><c>montado </c><00:02:00.159><c>en </c><00:02:00.559><c>verdadero.</c>
+
+00:02:01.350 --> 00:02:01.360 align:start position:0%
+método console.log.  Luego, configure montado en verdadero.
+ 
+
+00:02:01.360 --> 00:02:03.670 align:start position:0%
+método console.log.  Luego, configure montado en verdadero.
+Este <00:02:01.590><c>método </c><00:02:01.820><c>también </c><00:02:02.050><c>puede </c><00:02:02.280><c>devolver </c><00:02:02.510><c>un </c><00:02:02.740><c>método </c><00:02:02.970><c>de </c><00:02:03.200><c>limpieza</c>
+
+00:02:03.670 --> 00:02:03.680 align:start position:0%
+Este método también puede devolver un método de limpieza
+ 
+
+00:02:03.680 --> 00:02:05.910 align:start position:0%
+Este método también puede devolver un método de limpieza
+como <00:02:04.346><c>este.  </c><00:02:05.012><c>Este </c><00:02:05.678><c>método</c>
+
+00:02:05.910 --> 00:02:05.920 align:start position:0%
+como este.  Este método
+ 
+
+00:02:05.920 --> 00:02:07.429 align:start position:0%
+como este.  Este método
+devolverá <00:02:06.119><c>un </c><00:02:06.318><c>valor </c><00:02:06.517><c>cuando </c><00:02:06.716><c>este </c><00:02:06.915><c>componente </c><00:02:07.114><c>se</c>
+
+00:02:07.429 --> 00:02:07.439 align:start position:0%
+devolverá un valor cuando este componente se
+ 
+
+00:02:07.439 --> 00:02:10.150 align:start position:0%
+devolverá un valor cuando este componente se
+desmonte <00:02:07.852><c>del </c><00:02:08.265><c>DOM.  </c><00:02:08.678><c>A </c><00:02:09.091><c>continuación, </c><00:02:09.504><c>tenemos </c><00:02:09.917><c>un</c>
+
+00:02:10.150 --> 00:02:10.160 align:start position:0%
+desmonte del DOM.  A continuación, tenemos un
+ 
+
+00:02:10.160 --> 00:02:12.710 align:start position:0%
+desmonte del DOM.  A continuación, tenemos un
+método <00:02:10.440><c>de </c><00:02:10.720><c>destrucción.  </c><00:02:11.000><c>Este </c><00:02:11.280><c>método </c><00:02:11.560><c>se </c><00:02:11.840><c>ejecuta </c><00:02:12.120><c>cuando </c><00:02:12.400><c>se</c>
+
+00:02:12.710 --> 00:02:12.720 align:start position:0%
+método de destrucción.  Este método se ejecuta cuando se
+ 
+
+00:02:12.720 --> 00:02:15.270 align:start position:0%
+método de destrucción.  Este método se ejecuta cuando se
+elimina <00:02:13.160><c>un </c><00:02:13.600><c>componente </c><00:02:14.040><c>del </c><00:02:14.480><c>DOM.</c>
+
+00:02:15.270 --> 00:02:15.280 align:start position:0%
+elimina un componente del DOM.
+ 
+
+00:02:15.280 --> 00:02:17.270 align:start position:0%
+elimina un componente del DOM.
+En <00:02:15.648><c>su </c><00:02:16.016><c>interior, </c><00:02:16.384><c>simplemente </c><00:02:16.752><c>imprimiremos </c><00:02:17.120><c>el</c>
+
+00:02:17.270 --> 00:02:17.280 align:start position:0%
+En su interior, simplemente imprimiremos el
+ 
+
+00:02:17.280 --> 00:02:19.830 align:start position:0%
+En su interior, simplemente imprimiremos el
+mensaje <00:02:17.611><c>para </c><00:02:17.942><c>ver </c><00:02:18.273><c>el </c><00:02:18.604><c>cambio.  </c><00:02:18.935><c>Existen </c><00:02:19.266><c>otros </c><00:02:19.597><c>dos</c>
+
+00:02:19.830 --> 00:02:19.840 align:start position:0%
+mensaje para ver el cambio.  Existen otros dos
+ 
+
+00:02:19.840 --> 00:02:21.910 align:start position:0%
+mensaje para ver el cambio.  Existen otros dos
+métodos <00:02:20.133><c>para </c><00:02:20.426><c>rastrear </c><00:02:20.719><c>los </c><00:02:21.012><c>cambios </c><00:02:21.305><c>mientras </c><00:02:21.598><c>el</c>
+
+00:02:21.910 --> 00:02:21.920 align:start position:0%
+métodos para rastrear los cambios mientras el
+ 
+
+00:02:21.920 --> 00:02:24.470 align:start position:0%
+métodos para rastrear los cambios mientras el
+componente <00:02:22.293><c>está </c><00:02:22.666><c>montado </c><00:02:23.039><c>en </c><00:02:23.412><c>el </c><00:02:23.785><c>DOM.  </c><00:02:24.158><c>Primero</c>
+
+00:02:24.470 --> 00:02:24.480 align:start position:0%
+componente está montado en el DOM.  Primero
+ 
+
+00:02:24.480 --> 00:02:27.750 align:start position:0%
+componente está montado en el DOM.  Primero
+está <00:02:24.850><c>la </c><00:02:25.220><c>función </c><00:02:25.590><c>effect.pre.  </c><00:02:25.960><c>Se </c><00:02:26.330><c>ejecuta </c><00:02:26.700><c>antes </c><00:02:27.070><c>de </c><00:02:27.440><c>que</c>
+
+00:02:27.750 --> 00:02:27.760 align:start position:0%
+está la función effect.pre.  Se ejecuta antes de que
+ 
+
+00:02:27.760 --> 00:02:29.589 align:start position:0%
+está la función effect.pre.  Se ejecuta antes de que
+el <00:02:28.064><c>componente </c><00:02:28.368><c>se </c><00:02:28.672><c>actualice </c><00:02:28.976><c>debido </c><00:02:29.280><c>a</c>
+
+00:02:29.589 --> 00:02:29.599 align:start position:0%
+el componente se actualice debido a
+ 
+
+00:02:29.599 --> 00:02:31.990 align:start position:0%
+el componente se actualice debido a
+cambios <00:02:29.907><c>de </c><00:02:30.215><c>estado.  </c><00:02:30.523><c>En </c><00:02:30.831><c>su </c><00:02:31.139><c>interior </c><00:02:31.447><c>imprimirá </c><00:02:31.755><c>el</c>
+
+00:02:31.990 --> 00:02:32.000 align:start position:0%
+cambios de estado.  En su interior imprimirá el
+ 
+
+00:02:32.000 --> 00:02:34.949 align:start position:0%
+cambios de estado.  En su interior imprimirá el
+valor <00:02:32.340><c>del </c><00:02:32.680><c>conteo </c><00:02:33.020><c>anterior </c><00:02:33.360><c>y </c><00:02:33.700><c>luego </c><00:02:34.040><c>asignará </c><00:02:34.380><c>el </c><00:02:34.720><c>nuevo</c>
+
+00:02:34.949 --> 00:02:34.959 align:start position:0%
+valor del conteo anterior y luego asignará el nuevo
+ 
+
+00:02:34.959 --> 00:02:37.750 align:start position:0%
+valor del conteo anterior y luego asignará el nuevo
+valor <00:02:35.169><c>del </c><00:02:35.379><c>conteo </c><00:02:35.589><c>a </c><00:02:35.799><c>la </c><00:02:36.009><c>variable </c><00:02:36.219><c>de </c><00:02:36.429><c>conteo </c><00:02:36.639><c>anterior.</c>
+
+00:02:37.750 --> 00:02:37.760 align:start position:0%
+valor del conteo a la variable de conteo anterior.
+ 
+
+00:02:37.760 --> 00:02:40.470 align:start position:0%
+valor del conteo a la variable de conteo anterior.
+La <00:02:38.069><c>siguiente </c><00:02:38.378><c>función </c><00:02:38.687><c>es </c><00:02:38.996><c>efecto.  </c><00:02:39.305><c>Se </c><00:02:39.614><c>ejecuta </c><00:02:39.923><c>después </c><00:02:40.232><c>de</c>
+
+00:02:40.470 --> 00:02:40.480 align:start position:0%
+La siguiente función es efecto.  Se ejecuta después de
+ 
+
+00:02:40.480 --> 00:02:42.550 align:start position:0%
+La siguiente función es efecto.  Se ejecuta después de
+las <00:02:40.773><c>actualizaciones </c><00:02:41.066><c>de </c><00:02:41.359><c>componentes </c><00:02:41.652><c>debido </c><00:02:41.945><c>a </c><00:02:42.238><c>algunos</c>
+
+00:02:42.550 --> 00:02:42.560 align:start position:0%
+las actualizaciones de componentes debido a algunos
+ 
+
+00:02:42.560 --> 00:02:45.589 align:start position:0%
+las actualizaciones de componentes debido a algunos
+cambios <00:02:42.910><c>de </c><00:02:43.260><c>estado.  </c><00:02:43.610><c>Dentro </c><00:02:43.960><c>de </c><00:02:44.310><c>él </c><00:02:44.660><c>simplemente </c><00:02:45.010><c>imprimimos </c><00:02:45.360><c>el</c>
+
+00:02:45.589 --> 00:02:45.599 align:start position:0%
+cambios de estado.  Dentro de él simplemente imprimimos el
+ 
+
+00:02:45.599 --> 00:02:49.509 align:start position:0%
+cambios de estado.  Dentro de él simplemente imprimimos el
+valor <00:02:45.719><c>del </c><00:02:45.839><c>conteo.</c>
+
+00:02:49.509 --> 00:02:49.519 align:start position:0%
+ 
+ 
+
+00:02:49.519 --> 00:02:52.470 align:start position:0%
+ 
+Ahora <00:02:49.903><c>crea </c><00:02:50.287><c>una </c><00:02:50.671><c>función </c><00:02:51.055><c>llamada </c><00:02:51.439><c>increment.</c>
+
+00:02:52.470 --> 00:02:52.480 align:start position:0%
+Ahora crea una función llamada increment.
+ 
+
+00:02:52.480 --> 00:02:56.309 align:start position:0%
+Ahora crea una función llamada increment.
+Dentro <00:02:52.754><c>de </c><00:02:53.028><c>él, </c><00:02:53.302><c>incrementa </c><00:02:53.576><c>el </c><00:02:53.850><c>valor </c><00:02:54.124><c>del </c><00:02:54.398><c>contador.</c>
+
+00:02:56.309 --> 00:02:56.319 align:start position:0%
+Dentro de él, incrementa el valor del contador.
+ 
+
+00:02:56.319 --> 00:02:58.470 align:start position:0%
+Dentro de él, incrementa el valor del contador.
+Ahora, <00:02:56.593><c>en </c><00:02:56.867><c>la </c><00:02:57.141><c>sección </c><00:02:57.415><c>de </c><00:02:57.689><c>plantillas, </c><00:02:57.963><c>cree </c><00:02:58.237><c>el</c>
+
+00:02:58.470 --> 00:02:58.480 align:start position:0%
+Ahora, en la sección de plantillas, cree el
+ 
+
+00:02:58.480 --> 00:03:04.630 align:start position:0%
+Ahora, en la sección de plantillas, cree el
+bloque.  <00:02:59.180><c>Dentro </c><00:02:59.880><c>crea </c><00:03:00.580><c>un </c><00:03:01.280><c>encabezado.</c>
+
+00:03:04.630 --> 00:03:04.640 align:start position:0%
+ 
+ 
+
+00:03:04.640 --> 00:03:08.229 align:start position:0%
+ 
+Luego, <00:03:04.868><c>imprime </c><00:03:05.096><c>el </c><00:03:05.324><c>valor </c><00:03:05.552><c>de </c><00:03:05.780><c>la </c><00:03:06.008><c>variable </c><00:03:06.236><c>count.</c>
+
+00:03:08.229 --> 00:03:08.239 align:start position:0%
+Luego, imprime el valor de la variable count.
+ 
+
+00:03:08.239 --> 00:03:10.550 align:start position:0%
+Luego, imprime el valor de la variable count.
+Luego, <00:03:08.545><c>crea </c><00:03:08.851><c>un </c><00:03:09.157><c>botón </c><00:03:09.463><c>y </c><00:03:09.769><c>llama </c><00:03:10.075><c>al</c>
+
+00:03:10.550 --> 00:03:10.560 align:start position:0%
+Luego, crea un botón y llama al
+ 
+
+00:03:10.560 --> 00:03:13.910 align:start position:0%
+Luego, crea un botón y llama al
+método <00:03:11.053><c>increment </c><00:03:11.546><c>al </c><00:03:12.039><c>hacer </c><00:03:12.532><c>clic.  </c><00:03:13.025><c>Dale </c><00:03:13.518><c>estilo</c>
+
+00:03:13.910 --> 00:03:13.920 align:start position:0%
+método increment al hacer clic.  Dale estilo
+ 
+
+00:03:13.920 --> 00:03:21.430 align:start position:0%
+método increment al hacer clic.  Dale estilo
+y <00:03:14.720><c>título.</c>
+
+00:03:21.430 --> 00:03:21.440 align:start position:0%
+ 
+ 
+
+00:03:21.440 --> 00:03:24.630 align:start position:0%
+ 
+Ahora <00:03:21.810><c>ve </c><00:03:22.180><c>a </c><00:03:22.550><c>la </c><00:03:22.920><c>página </c><00:03:23.290><c>principal </c><00:03:23.660><c>aquí.  </c><00:03:24.030><c>Importa </c><00:03:24.400><c>este</c>
+
+00:03:24.630 --> 00:03:24.640 align:start position:0%
+Ahora ve a la página principal aquí.  Importa este
+ 
+
+00:03:24.640 --> 00:03:27.509 align:start position:0%
+Ahora ve a la página principal aquí.  Importa este
+componente.  <00:03:24.970><c>Crea </c><00:03:25.300><c>una </c><00:03:25.630><c>variable </c><00:03:25.960><c>de </c><00:03:26.290><c>tipo </c><00:03:26.620><c>booleano </c><00:03:26.950><c>para </c><00:03:27.280><c>el</c>
+
+00:03:27.509 --> 00:03:27.519 align:start position:0%
+componente.  Crea una variable de tipo booleano para el
+ 
+
+00:03:27.519 --> 00:03:30.789 align:start position:0%
+componente.  Crea una variable de tipo booleano para el
+componente <00:03:27.799><c>de </c><00:03:28.079><c>visualización </c><00:03:28.359><c>y </c><00:03:28.639><c>establécela </c><00:03:28.919><c>en </c><00:03:29.199><c>verdadero.</c>
+
+00:03:30.789 --> 00:03:30.799 align:start position:0%
+componente de visualización y establécela en verdadero.
+ 
+
+00:03:30.799 --> 00:03:33.589 align:start position:0%
+componente de visualización y establécela en verdadero.
+Luego, <00:03:31.129><c>en </c><00:03:31.459><c>la </c><00:03:31.789><c>plantilla, </c><00:03:32.119><c>crea </c><00:03:32.449><c>un </c><00:03:32.779><c>botón, </c><00:03:33.109><c>pasa </c><00:03:33.439><c>un</c>
+
+00:03:33.589 --> 00:03:33.599 align:start position:0%
+Luego, en la plantilla, crea un botón, pasa un
+ 
+
+00:03:33.599 --> 00:03:35.990 align:start position:0%
+Luego, en la plantilla, crea un botón, pasa un
+método <00:03:33.932><c>a </c><00:03:34.265><c>la </c><00:03:34.598><c>propiedad </c><00:03:34.931><c>onclick </c><00:03:35.264><c>y </c><00:03:35.597><c>cambia</c>
+
+00:03:35.990 --> 00:03:36.000 align:start position:0%
+método a la propiedad onclick y cambia
+ 
+
+00:03:36.000 --> 00:03:38.070 align:start position:0%
+método a la propiedad onclick y cambia
+el <00:03:36.266><c>valor </c><00:03:36.532><c>de </c><00:03:36.798><c>la </c><00:03:37.064><c>variable </c><00:03:37.330><c>show </c><00:03:37.596><c>component</c>
+
+00:03:38.070 --> 00:03:38.080 align:start position:0%
+el valor de la variable show component
+ 
+
+00:03:38.080 --> 00:03:40.149 align:start position:0%
+el valor de la variable show component
+dentro <00:03:38.280><c>de </c><00:03:38.480><c>ella.</c>
+
+00:03:40.149 --> 00:03:40.159 align:start position:0%
+dentro de ella.
+ 
+
+00:03:40.159 --> 00:03:44.390 align:start position:0%
+dentro de ella.
+Luego, <00:03:40.639><c>aplícale </c><00:03:41.119><c>algunos </c><00:03:41.599><c>estilos.</c>
+
+00:03:44.390 --> 00:03:44.400 align:start position:0%
+Luego, aplícale algunos estilos.
+ 
+
+00:03:44.400 --> 00:03:46.869 align:start position:0%
+Luego, aplícale algunos estilos.
+Luego, <00:03:44.708><c>pasa </c><00:03:45.016><c>este </c><00:03:45.324><c>operador </c><00:03:45.632><c>giratorio </c><00:03:45.940><c>en </c><00:03:46.248><c>el </c><00:03:46.556><c>título</c>
+
+00:03:46.869 --> 00:03:46.879 align:start position:0%
+Luego, pasa este operador giratorio en el título
+ 
+
+00:03:46.879 --> 00:03:48.789 align:start position:0%
+Luego, pasa este operador giratorio en el título
+para <00:03:47.023><c>configurarlo </c><00:03:47.167><c>de </c><00:03:47.311><c>acuerdo </c><00:03:47.455><c>con </c><00:03:47.599><c>la </c><00:03:47.743><c>variable </c><00:03:47.887><c>del </c><00:03:48.031><c>componente </c><00:03:48.175><c>de </c><00:03:48.319><c>visualización</c>
+
+00:03:48.789 --> 00:03:48.799 align:start position:0%
+para configurarlo de acuerdo con la variable del componente de visualización
+ 
+
+00:03:48.799 --> 00:03:52.149 align:start position:0%
+para configurarlo de acuerdo con la variable del componente de visualización
+.
+
+00:03:52.149 --> 00:03:52.159 align:start position:0%
+ 
+ 
+
+00:03:52.159 --> 00:03:54.309 align:start position:0%
+ 
+Luego, <00:03:52.433><c>crea </c><00:03:52.707><c>un </c><00:03:52.981><c>bloque </c><00:03:53.255><c>if </c><00:03:53.529><c>y </c><00:03:53.803><c>comprueba </c><00:03:54.077><c>si</c>
+
+00:03:54.309 --> 00:03:54.319 align:start position:0%
+Luego, crea un bloque if y comprueba si
+ 
+
+00:03:54.319 --> 00:03:57.030 align:start position:0%
+Luego, crea un bloque if y comprueba si
+show <00:03:54.609><c>component </c><00:03:54.899><c>es </c><00:03:55.189><c>verdadero.  </c><00:03:55.479><c>Dentro </c><00:03:55.769><c>de </c><00:03:56.059><c>él </c><00:03:56.349><c>se </c><00:03:56.639><c>renderiza</c>
+
+00:03:57.030 --> 00:03:57.040 align:start position:0%
+show component es verdadero.  Dentro de él se renderiza
+ 
+
+00:03:57.040 --> 00:03:59.350 align:start position:0%
+show component es verdadero.  Dentro de él se renderiza
+nuestro <00:03:57.280><c>componente.</c>
+
+00:03:59.350 --> 00:03:59.360 align:start position:0%
+nuestro componente.
+ 
+
+00:03:59.360 --> 00:04:03.509 align:start position:0%
+nuestro componente.
+Ahora <00:03:59.600><c>ejecuta </c><00:03:59.840><c>la </c><00:04:00.080><c>aplicación.</c>
+
+00:04:03.509 --> 00:04:03.519 align:start position:0%
+ 
+ 
+
+00:04:03.519 --> 00:04:05.429 align:start position:0%
+ 
+Primero <00:04:03.799><c>abre </c><00:04:04.079><c>la </c><00:04:04.359><c>consola </c><00:04:04.639><c>para </c><00:04:04.919><c>ver </c><00:04:05.199><c>el</c>
+
+00:04:05.429 --> 00:04:05.439 align:start position:0%
+Primero abre la consola para ver el
+ 
+
+00:04:05.439 --> 00:04:08.789 align:start position:0%
+Primero abre la consola para ver el
+resultado.  <00:04:05.985><c>Ahora </c><00:04:06.531><c>actualiza </c><00:04:07.077><c>la </c><00:04:07.623><c>aplicación.  </c><00:04:08.169><c>Aquí </c><00:04:08.715><c>podemos</c>
+
+00:04:08.789 --> 00:04:08.799 align:start position:0%
+resultado.  Ahora actualiza la aplicación.  Aquí podemos
+ 
+
+00:04:08.799 --> 00:04:11.270 align:start position:0%
+resultado.  Ahora actualiza la aplicación.  Aquí podemos
+ver <00:04:09.107><c>que </c><00:04:09.415><c>el </c><00:04:09.723><c>método </c><00:04:10.031><c>effect.p </c><00:04:10.339><c>se </c><00:04:10.647><c>ejecuta </c><00:04:10.955><c>incluso</c>
+
+00:04:11.270 --> 00:04:11.280 align:start position:0%
+ver que el método effect.p se ejecuta incluso
+ 
+
+00:04:11.280 --> 00:04:13.830 align:start position:0%
+ver que el método effect.p se ejecuta incluso
+antes <00:04:11.599><c>del </c><00:04:11.918><c>método </c><00:04:12.237><c>onmount.  </c><00:04:12.556><c>Luego </c><00:04:12.875><c>se </c><00:04:13.194><c>ejecutó </c><00:04:13.513><c>el</c>
+
+00:04:13.830 --> 00:04:13.840 align:start position:0%
+antes del método onmount.  Luego se ejecutó el
+ 
+
+00:04:13.840 --> 00:04:16.390 align:start position:0%
+antes del método onmount.  Luego se ejecutó el
+método <00:04:14.024><c>de </c><00:04:14.208><c>montaje.  </c><00:04:14.392><c>Una </c><00:04:14.576><c>vez </c><00:04:14.760><c>que </c><00:04:14.944><c>el </c><00:04:15.128><c>componente </c><00:04:15.312><c>se </c><00:04:15.496><c>renderiza, </c><00:04:15.680><c>se</c>
+
+00:04:16.390 --> 00:04:16.400 align:start position:0%
+método de montaje.  Una vez que el componente se renderiza, se
+ 
+
+00:04:16.400 --> 00:04:19.349 align:start position:0%
+método de montaje.  Una vez que el componente se renderiza, se
+ejecuta <00:04:16.740><c>el </c><00:04:17.080><c>método </c><00:04:17.420><c>de </c><00:04:17.760><c>efecto.  </c><00:04:18.100><c>Aquí </c><00:04:18.440><c>en </c><00:04:18.780><c>la </c><00:04:19.120><c>plantilla</c>
+
+00:04:19.349 --> 00:04:19.359 align:start position:0%
+ejecuta el método de efecto.  Aquí en la plantilla
+ 
+
+00:04:19.359 --> 00:04:21.590 align:start position:0%
+ejecuta el método de efecto.  Aquí en la plantilla
+tenemos <00:04:19.619><c>un </c><00:04:19.879><c>botón </c><00:04:20.139><c>para </c><00:04:20.399><c>destruir </c><00:04:20.659><c>el </c><00:04:20.919><c>componente.  </c><00:04:21.179><c>Si </c><00:04:21.439><c>hacemos</c>
+
+00:04:21.590 --> 00:04:21.600 align:start position:0%
+tenemos un botón para destruir el componente.  Si hacemos
+ 
+
+00:04:21.600 --> 00:04:23.590 align:start position:0%
+tenemos un botón para destruir el componente.  Si hacemos
+clic <00:04:21.893><c>en </c><00:04:22.186><c>él, </c><00:04:22.479><c>la </c><00:04:22.772><c>función </c><00:04:23.065><c>de </c><00:04:23.358><c>limpieza</c>
+
+00:04:23.590 --> 00:04:23.600 align:start position:0%
+clic en él, la función de limpieza
+ 
+
+00:04:23.600 --> 00:04:26.070 align:start position:0%
+clic en él, la función de limpieza
+devuelve <00:04:23.848><c>un </c><00:04:24.096><c>resultado </c><00:04:24.344><c>de </c><00:04:24.592><c>la </c><00:04:24.840><c>función </c><00:04:25.088><c>onmount.  </c><00:04:25.336><c>Luego </c><00:04:25.584><c>se </c><00:04:25.832><c>ejecutó</c>
+
+00:04:26.070 --> 00:04:26.080 align:start position:0%
+devuelve un resultado de la función onmount.  Luego se ejecutó
+ 
+
+00:04:26.080 --> 00:04:28.469 align:start position:0%
+devuelve un resultado de la función onmount.  Luego se ejecutó
+la <00:04:26.453><c>función </c><00:04:26.826><c>on </c><00:04:27.199><c>destroy.  </c><00:04:27.572><c>Aquí </c><00:04:27.945><c>podemos </c><00:04:28.318><c>ver</c>
+
+00:04:28.469 --> 00:04:28.479 align:start position:0%
+la función on destroy.  Aquí podemos ver
+ 
+
+00:04:28.479 --> 00:04:31.110 align:start position:0%
+la función on destroy.  Aquí podemos ver
+el <00:04:28.865><c>resultado </c><00:04:29.251><c>de </c><00:04:29.637><c>estas </c><00:04:30.023><c>dos </c><00:04:30.409><c>funciones.  </c><00:04:30.795><c>Ahora</c>
+
+00:04:31.110 --> 00:04:31.120 align:start position:0%
+el resultado de estas dos funciones.  Ahora
+ 
+
+00:04:31.120 --> 00:04:33.030 align:start position:0%
+el resultado de estas dos funciones.  Ahora
+crea <00:04:31.386><c>este </c><00:04:31.652><c>componente </c><00:04:31.918><c>de </c><00:04:32.184><c>nuevo </c><00:04:32.450><c>haciendo </c><00:04:32.716><c>clic</c>
+
+00:04:33.030 --> 00:04:33.040 align:start position:0%
+crea este componente de nuevo haciendo clic
+ 
+
+00:04:33.040 --> 00:04:35.830 align:start position:0%
+crea este componente de nuevo haciendo clic
+en <00:04:33.405><c>este </c><00:04:33.770><c>botón.  </c><00:04:34.135><c>Ahora </c><00:04:34.500><c>podemos </c><00:04:34.865><c>ver </c><00:04:35.230><c>el </c><00:04:35.595><c>mismo</c>
+
+00:04:35.830 --> 00:04:35.840 align:start position:0%
+en este botón.  Ahora podemos ver el mismo
+ 
+
+00:04:35.840 --> 00:04:38.310 align:start position:0%
+en este botón.  Ahora podemos ver el mismo
+resultado <00:04:36.213><c>que </c><00:04:36.586><c>obtuvimos </c><00:04:36.959><c>la </c><00:04:37.332><c>primera </c><00:04:37.705><c>vez.  </c><00:04:38.078><c>Ahora</c>
+
+00:04:38.310 --> 00:04:38.320 align:start position:0%
+resultado que obtuvimos la primera vez.  Ahora
+ 
+
+00:04:38.320 --> 00:04:40.310 align:start position:0%
+resultado que obtuvimos la primera vez.  Ahora
+haga <00:04:38.560><c>clic </c><00:04:38.800><c>en </c><00:04:39.040><c>el </c><00:04:39.280><c>botón </c><00:04:39.520><c>de </c><00:04:39.760><c>incremento.  </c><00:04:40.000><c>Hay</c>
+
+00:04:40.310 --> 00:04:40.320 align:start position:0%
+haga clic en el botón de incremento.  Hay
+ 
+
+00:04:40.320 --> 00:04:42.070 align:start position:0%
+haga clic en el botón de incremento.  Hay
+un <00:04:40.666><c>problema </c><00:04:41.012><c>porque </c><00:04:41.358><c>la</c>
+
+00:04:42.070 --> 00:04:42.080 align:start position:0%
+un problema porque la
+ 
+
+00:04:42.080 --> 00:04:44.230 align:start position:0%
+un problema porque la
+prefunción <00:04:42.373><c>effect.p </c><00:04:42.666><c>está </c><00:04:42.959><c>mostrando </c><00:04:43.252><c>el </c><00:04:43.545><c>valor </c><00:04:43.838><c>actual</c>
+
+00:04:44.230 --> 00:04:44.240 align:start position:0%
+prefunción effect.p está mostrando el valor actual
+ 
+
+00:04:44.240 --> 00:04:47.670 align:start position:0%
+prefunción effect.p está mostrando el valor actual
+en <00:04:44.500><c>lugar </c><00:04:44.760><c>del </c><00:04:45.020><c>valor </c><00:04:45.280><c>anterior.</c>
+
+00:04:47.670 --> 00:04:47.680 align:start position:0%
+en lugar del valor anterior.
+ 
+
+00:04:47.680 --> 00:04:51.590 align:start position:0%
+en lugar del valor anterior.
+Vamos <00:04:47.893><c>a </c><00:04:48.106><c>solucionar </c><00:04:48.319><c>esto.</c>
+
+00:04:51.590 --> 00:04:51.600 align:start position:0%
+ 
+ 
+
+00:04:51.600 --> 00:04:53.830 align:start position:0%
+ 
+Ahora, <00:04:51.810><c>si </c><00:04:52.020><c>hacemos </c><00:04:52.230><c>clic </c><00:04:52.440><c>en </c><00:04:52.650><c>el </c><00:04:52.860><c>botón </c><00:04:53.070><c>de </c><00:04:53.280><c>incremento,</c>
+
+00:04:53.830 --> 00:04:53.840 align:start position:0%
+Ahora, si hacemos clic en el botón de incremento,
+ 
+
+00:04:53.840 --> 00:04:56.390 align:start position:0%
+Ahora, si hacemos clic en el botón de incremento,
+podemos <00:04:54.160><c>ver </c><00:04:54.480><c>que </c><00:04:54.800><c>la </c><00:04:55.120><c>prefunción </c><00:04:55.440><c>effect.p </c><00:04:55.760><c>se </c><00:04:56.080><c>ejecutó</c>
+
+00:04:56.390 --> 00:04:56.400 align:start position:0%
+podemos ver que la prefunción effect.p se ejecutó
+ 
+
+00:04:56.400 --> 00:04:58.950 align:start position:0%
+podemos ver que la prefunción effect.p se ejecutó
+primero <00:04:56.736><c>e </c><00:04:57.072><c>imprimió </c><00:04:57.408><c>el </c><00:04:57.744><c>valor </c><00:04:58.080><c>anterior,</c>
+
+00:04:58.950 --> 00:04:58.960 align:start position:0%
+primero e imprimió el valor anterior,
+ 
+
+00:04:58.960 --> 00:05:01.270 align:start position:0%
+primero e imprimió el valor anterior,
+luego <00:04:59.220><c>la </c><00:04:59.480><c>función </c><00:04:59.740><c>effect </c><00:05:00.000><c>se </c><00:05:00.260><c>ejecutó </c><00:05:00.520><c>e </c><00:05:00.780><c>imprimió </c><00:05:01.040><c>el</c>
+
+00:05:01.270 --> 00:05:01.280 align:start position:0%
+luego la función effect se ejecutó e imprimió el
+ 
+
+00:05:01.280 --> 00:05:04.070 align:start position:0%
+luego la función effect se ejecutó e imprimió el
+valor <00:05:01.792><c>actualizado.  </c><00:05:02.304><c>Ahora, </c><00:05:02.816><c>si </c><00:05:03.328><c>destruimos </c><00:05:03.840><c>el</c>
+
+00:05:04.070 --> 00:05:04.080 align:start position:0%
+valor actualizado.  Ahora, si destruimos el
+ 
+
+00:05:04.080 --> 00:05:06.310 align:start position:0%
+valor actualizado.  Ahora, si destruimos el
+componente, <00:05:04.386><c>se </c><00:05:04.692><c>devolvió </c><00:05:04.998><c>la </c><00:05:05.304><c>función </c><00:05:05.610><c>de </c><00:05:05.916><c>limpieza</c>
+
+00:05:06.310 --> 00:05:06.320 align:start position:0%
+componente, se devolvió la función de limpieza
+ 
+
+00:05:06.320 --> 00:05:08.950 align:start position:0%
+componente, se devolvió la función de limpieza
+y <00:05:06.609><c>luego </c><00:05:06.898><c>se </c><00:05:07.187><c>ejecutó </c><00:05:07.476><c>el </c><00:05:07.765><c>método </c><00:05:08.054><c>de </c><00:05:08.343><c>destrucción.  </c><00:05:08.632><c>Estos</c>
+
+00:05:08.950 --> 00:05:08.960 align:start position:0%
+y luego se ejecutó el método de destrucción.  Estos
+ 
+
+00:05:08.960 --> 00:05:11.110 align:start position:0%
+y luego se ejecutó el método de destrucción.  Estos
+son <00:05:09.200><c>los </c><00:05:09.440><c>ciclos </c><00:05:09.680><c>de </c><00:05:09.920><c>vida </c><00:05:10.160><c>de </c><00:05:10.400><c>un </c><00:05:10.640><c>componente </c><00:05:10.880><c>y</c>
+
+00:05:11.110 --> 00:05:11.120 align:start position:0%
+son los ciclos de vida de un componente y
+ 
+
+00:05:11.120 --> 00:05:12.870 align:start position:0%
+son los ciclos de vida de un componente y
+así <00:05:11.360><c>es </c><00:05:11.600><c>como </c><00:05:11.840><c>gestionamos </c><00:05:12.080><c>sus </c><00:05:12.320><c>diferentes </c><00:05:12.560><c>etapas</c>
+
+00:05:12.870 --> 00:05:12.880 align:start position:0%
+así es como gestionamos sus diferentes etapas
+ 
+
+00:05:12.880 --> 00:05:16.230 align:start position:0%
+así es como gestionamos sus diferentes etapas
+.  <00:05:13.620><c>Ahora </c><00:05:14.360><c>hablemos </c><00:05:15.100><c>de </c><00:05:15.840><c>la</c>
+
+00:05:16.230 --> 00:05:16.240 align:start position:0%
+.  Ahora hablemos de la
+ 
+
+00:05:16.240 --> 00:05:19.670 align:start position:0%
+.  Ahora hablemos de la
+validación <00:05:16.595><c>de </c><00:05:16.950><c>propiedades.  </c><00:05:17.305><c>La </c><00:05:17.660><c>validación </c><00:05:18.015><c>de </c><00:05:18.370><c>props </c><00:05:18.725><c>en </c><00:05:19.080><c>pelt </c><00:05:19.435><c>5</c>
+
+00:05:19.670 --> 00:05:19.680 align:start position:0%
+validación de propiedades.  La validación de props en pelt 5
+ 
+
+00:05:19.680 --> 00:05:21.990 align:start position:0%
+validación de propiedades.  La validación de props en pelt 5
+con <00:05:20.016><c>TypeScript </c><00:05:20.352><c>garantiza </c><00:05:20.688><c>que </c><00:05:21.024><c>los </c><00:05:21.360><c>componentes</c>
+
+00:05:21.990 --> 00:05:22.000 align:start position:0%
+con TypeScript garantiza que los componentes
+ 
+
+00:05:22.000 --> 00:05:24.070 align:start position:0%
+con TypeScript garantiza que los componentes
+reciban <00:05:22.319><c>los </c><00:05:22.638><c>tipos </c><00:05:22.957><c>de </c><00:05:23.276><c>datos </c><00:05:23.595><c>correctos </c><00:05:23.914><c>de</c>
+
+00:05:24.070 --> 00:05:24.080 align:start position:0%
+reciban los tipos de datos correctos de
+ 
+
+00:05:24.080 --> 00:05:26.150 align:start position:0%
+reciban los tipos de datos correctos de
+sus <00:05:24.447><c>componentes </c><00:05:24.814><c>padres.  </c><00:05:25.181><c>Esto </c><00:05:25.548><c>ayuda </c><00:05:25.915><c>a</c>
+
+00:05:26.150 --> 00:05:26.160 align:start position:0%
+sus componentes padres.  Esto ayuda a
+ 
+
+00:05:26.160 --> 00:05:27.990 align:start position:0%
+sus componentes padres.  Esto ayuda a
+detectar <00:05:26.359><c>errores </c><00:05:26.558><c>en </c><00:05:26.757><c>las </c><00:05:26.956><c>primeras </c><00:05:27.155><c>etapas </c><00:05:27.354><c>del </c><00:05:27.553><c>desarrollo </c><00:05:27.752><c>y</c>
+
+00:05:27.990 --> 00:05:28.000 align:start position:0%
+detectar errores en las primeras etapas del desarrollo y
+ 
+
+00:05:28.000 --> 00:05:30.070 align:start position:0%
+detectar errores en las primeras etapas del desarrollo y
+hace <00:05:28.240><c>que </c><00:05:28.480><c>los </c><00:05:28.720><c>componentes </c><00:05:28.960><c>sean </c><00:05:29.200><c>más </c><00:05:29.440><c>fiables </c><00:05:29.680><c>y</c>
+
+00:05:30.070 --> 00:05:30.080 align:start position:0%
+hace que los componentes sean más fiables y
+ 
+
+00:05:30.080 --> 00:05:32.629 align:start position:0%
+hace que los componentes sean más fiables y
+fáciles <00:05:30.600><c>de </c><00:05:31.120><c>depurar.  </c><00:05:31.640><c>TypeScript </c><00:05:32.160><c>proporciona</c>
+
+00:05:32.629 --> 00:05:32.639 align:start position:0%
+fáciles de depurar.  TypeScript proporciona
+ 
+
+00:05:32.639 --> 00:05:34.710 align:start position:0%
+fáciles de depurar.  TypeScript proporciona
+comprobación <00:05:32.823><c>de </c><00:05:33.007><c>tipos </c><00:05:33.191><c>en </c><00:05:33.375><c>tiempo </c><00:05:33.559><c>de </c><00:05:33.743><c>compilación, </c><00:05:33.927><c>lo </c><00:05:34.111><c>que </c><00:05:34.295><c>significa </c><00:05:34.479><c>que</c>
+
+00:05:34.710 --> 00:05:34.720 align:start position:0%
+comprobación de tipos en tiempo de compilación, lo que significa que
+ 
+
+00:05:34.720 --> 00:05:36.790 align:start position:0%
+comprobación de tipos en tiempo de compilación, lo que significa que
+obtendrás <00:05:35.013><c>errores </c><00:05:35.306><c>en </c><00:05:35.599><c>tu </c><00:05:35.892><c>IDE </c><00:05:36.185><c>antes </c><00:05:36.478><c>de</c>
+
+00:05:36.790 --> 00:05:36.800 align:start position:0%
+obtendrás errores en tu IDE antes de
+ 
+
+00:05:36.800 --> 00:05:38.710 align:start position:0%
+obtendrás errores en tu IDE antes de
+ejecutar <00:05:37.009><c>el </c><00:05:37.218><c>código </c><00:05:37.427><c>si </c><00:05:37.636><c>las </c><00:05:37.845><c>propiedades </c><00:05:38.054><c>no </c><00:05:38.263><c>coinciden </c><00:05:38.472><c>con</c>
+
+00:05:38.710 --> 00:05:38.720 align:start position:0%
+ejecutar el código si las propiedades no coinciden con
+ 
+
+00:05:38.720 --> 00:05:41.350 align:start position:0%
+ejecutar el código si las propiedades no coinciden con
+sus <00:05:39.215><c>tipos </c><00:05:39.710><c>esperados.  </c><00:05:40.205><c>Sin </c><00:05:40.700><c>embargo, </c><00:05:41.195><c>si</c>
+
+00:05:41.350 --> 00:05:41.360 align:start position:0%
+sus tipos esperados.  Sin embargo, si
+ 
+
+00:05:41.360 --> 00:05:43.990 align:start position:0%
+sus tipos esperados.  Sin embargo, si
+necesita <00:05:41.639><c>una </c><00:05:41.918><c>validación </c><00:05:42.197><c>más </c><00:05:42.476><c>avanzada </c><00:05:42.755><c>o </c><00:05:43.034><c>personalizada,</c>
+
+00:05:43.990 --> 00:05:44.000 align:start position:0%
+necesita una validación más avanzada o personalizada,
+ 
+
+00:05:44.000 --> 00:05:46.790 align:start position:0%
+necesita una validación más avanzada o personalizada,
+spelt <00:05:44.240><c>5 </c><00:05:44.480><c>también </c><00:05:44.720><c>admite </c><00:05:44.960><c>la </c><00:05:45.200><c>validación </c><00:05:45.440><c>en </c><00:05:45.680><c>tiempo </c><00:05:45.920><c>de </c><00:05:46.160><c>ejecución</c>
+
+00:05:46.790 --> 00:05:46.800 align:start position:0%
+spelt 5 también admite la validación en tiempo de ejecución
+ 
+
+00:05:46.800 --> 00:05:48.870 align:start position:0%
+spelt 5 también admite la validación en tiempo de ejecución
+mediante <00:05:46.982><c>funciones </c><00:05:47.164><c>de </c><00:05:47.346><c>validación </c><00:05:47.528><c>personalizadas, </c><00:05:47.710><c>lo </c><00:05:47.892><c>que </c><00:05:48.074><c>le</c>
+
+00:05:48.870 --> 00:05:48.880 align:start position:0%
+mediante funciones de validación personalizadas, lo que le
+ 
+
+00:05:48.880 --> 00:05:50.230 align:start position:0%
+mediante funciones de validación personalizadas, lo que le
+permite <00:05:49.399><c>crear </c><00:05:49.918><c>una</c>
+
+00:05:50.230 --> 00:05:50.240 align:start position:0%
+permite crear una
+ 
+
+00:05:50.240 --> 00:05:52.550 align:start position:0%
+permite crear una
+lógica <00:05:50.424><c>de </c><00:05:50.608><c>validación </c><00:05:50.792><c>más </c><00:05:50.976><c>sofisticada </c><00:05:51.160><c>que </c><00:05:51.344><c>va </c><00:05:51.528><c>más </c><00:05:51.712><c>allá </c><00:05:51.896><c>de </c><00:05:52.080><c>la</c>
+
+00:05:52.550 --> 00:05:52.560 align:start position:0%
+lógica de validación más sofisticada que va más allá de la
+ 
+
+00:05:52.560 --> 00:05:54.870 align:start position:0%
+lógica de validación más sofisticada que va más allá de la
+simple <00:05:52.773><c>comprobación </c><00:05:52.986><c>de </c><00:05:53.199><c>tipos.  </c><00:05:53.412><c>Una </c><00:05:53.625><c>validación </c><00:05:53.838><c>adecuada </c><00:05:54.051><c>de </c><00:05:54.264><c>las </c><00:05:54.477><c>propiedades</c>
+
+00:05:54.870 --> 00:05:54.880 align:start position:0%
+simple comprobación de tipos.  Una validación adecuada de las propiedades
+ 
+
+00:05:54.880 --> 00:05:56.790 align:start position:0%
+simple comprobación de tipos.  Una validación adecuada de las propiedades
+conduce <00:05:55.360><c>a </c><00:05:55.840><c>una </c><00:05:56.320><c>mejor</c>
+
+00:05:56.790 --> 00:05:56.800 align:start position:0%
+conduce a una mejor
+ 
+
+00:05:56.800 --> 00:05:59.510 align:start position:0%
+conduce a una mejor
+experiencia <00:05:57.025><c>para </c><00:05:57.250><c>el </c><00:05:57.475><c>desarrollador, </c><00:05:57.700><c>menos </c><00:05:57.925><c>errores </c><00:05:58.150><c>en </c><00:05:58.375><c>tiempo </c><00:05:58.600><c>de </c><00:05:58.825><c>ejecución </c><00:05:59.050><c>y </c><00:05:59.275><c>un</c>
+
+00:05:59.510 --> 00:05:59.520 align:start position:0%
+experiencia para el desarrollador, menos errores en tiempo de ejecución y un
+ 
+
+00:05:59.520 --> 00:06:01.909 align:start position:0%
+experiencia para el desarrollador, menos errores en tiempo de ejecución y un
+código <00:05:59.817><c>más </c><00:06:00.114><c>fácil </c><00:06:00.411><c>de </c><00:06:00.708><c>mantener.  </c><00:06:01.005><c>Vamos </c><00:06:01.302><c>a </c><00:06:01.599><c>entenderlo</c>
+
+00:06:01.909 --> 00:06:01.919 align:start position:0%
+código más fácil de mantener.  Vamos a entenderlo
+ 
+
+00:06:01.919 --> 00:06:04.870 align:start position:0%
+código más fácil de mantener.  Vamos a entenderlo
+con <00:06:02.296><c>un </c><00:06:02.673><c>ejemplo </c><00:06:03.050><c>de </c><00:06:03.427><c>código.  </c><00:06:03.804><c>Primero, </c><00:06:04.181><c>crea </c><00:06:04.558><c>un</c>
+
+00:06:04.870 --> 00:06:04.880 align:start position:0%
+con un ejemplo de código.  Primero, crea un
+ 
+
+00:06:04.880 --> 00:06:07.430 align:start position:0%
+con un ejemplo de código.  Primero, crea un
+componente <00:06:05.039><c>de </c><00:06:05.198><c>tarjeta.</c>
+
+00:06:07.430 --> 00:06:07.440 align:start position:0%
+componente de tarjeta.
+ 
+
+00:06:07.440 --> 00:06:10.469 align:start position:0%
+componente de tarjeta.
+Crear <00:06:07.828><c>sección </c><00:06:08.216><c>de </c><00:06:08.604><c>script.  </c><00:06:08.992><c>Dentro </c><00:06:09.380><c>de </c><00:06:09.768><c>ella, </c><00:06:10.156><c>crea</c>
+
+00:06:10.469 --> 00:06:10.479 align:start position:0%
+Crear sección de script.  Dentro de ella, crea
+ 
+
+00:06:10.479 --> 00:06:13.749 align:start position:0%
+Crear sección de script.  Dentro de ella, crea
+una <00:06:10.919><c>interfaz </c><00:06:11.359><c>llamada </c><00:06:11.799><c>props.  </c><00:06:12.239><c>Dentro </c><00:06:12.679><c>de </c><00:06:13.119><c>ella,</c>
+
+00:06:13.749 --> 00:06:13.759 align:start position:0%
+una interfaz llamada props.  Dentro de ella,
+ 
+
+00:06:13.759 --> 00:06:15.270 align:start position:0%
+una interfaz llamada props.  Dentro de ella,
+crea <00:06:14.099><c>las </c><00:06:14.439><c>propiedades </c><00:06:14.779><c>que </c><00:06:15.119><c>deseas</c>
+
+00:06:15.270 --> 00:06:15.280 align:start position:0%
+crea las propiedades que deseas
+ 
+
+00:06:15.280 --> 00:06:22.230 align:start position:0%
+crea las propiedades que deseas
+recibir <00:06:15.599><c>como </c><00:06:15.918><c>props.</c>
+
+00:06:22.230 --> 00:06:22.240 align:start position:0%
+ 
+ 
+
+00:06:22.240 --> 00:06:24.469 align:start position:0%
+ 
+Luego, <00:06:22.608><c>crea </c><00:06:22.976><c>variables </c><00:06:23.344><c>iguales </c><00:06:23.712><c>a </c><00:06:24.080><c>las</c>
+
+00:06:24.469 --> 00:06:24.479 align:start position:0%
+Luego, crea variables iguales a las
+ 
+
+00:06:24.479 --> 00:06:26.550 align:start position:0%
+Luego, crea variables iguales a las
+propiedades <00:06:24.719><c>de </c><00:06:24.959><c>props </c><00:06:25.199><c>y </c><00:06:25.439><c>establece </c><00:06:25.679><c>su </c><00:06:25.919><c>tipo </c><00:06:26.159><c>como</c>
+
+00:06:26.550 --> 00:06:26.560 align:start position:0%
+propiedades de props y establece su tipo como
+ 
+
+00:06:26.560 --> 00:06:28.950 align:start position:0%
+propiedades de props y establece su tipo como
+interfaz <00:06:26.893><c>de </c><00:06:27.226><c>props </c><00:06:27.559><c>e </c><00:06:27.892><c>inicialízalas </c><00:06:28.225><c>con </c><00:06:28.558><c>el</c>
+
+00:06:28.950 --> 00:06:28.960 align:start position:0%
+interfaz de props e inicialízalas con el
+ 
+
+00:06:28.960 --> 00:06:31.350 align:start position:0%
+interfaz de props e inicialízalas con el
+rune <00:06:29.245><c>de </c><00:06:29.530><c>props.  </c><00:06:29.815><c>Luego, </c><00:06:30.100><c>crea </c><00:06:30.385><c>una </c><00:06:30.670><c>función </c><00:06:30.955><c>llamada</c>
+
+00:06:31.350 --> 00:06:31.360 align:start position:0%
+rune de props.  Luego, crea una función llamada
+ 
+
+00:06:31.360 --> 00:06:34.309 align:start position:0%
+rune de props.  Luego, crea una función llamada
+validate <00:06:31.813><c>props.  </c><00:06:32.266><c>Dentro </c><00:06:32.719><c>de </c><00:06:33.172><c>ella, </c><00:06:33.625><c>utilice </c><00:06:34.078><c>una</c>
+
+00:06:34.309 --> 00:06:34.319 align:start position:0%
+validate props.  Dentro de ella, utilice una
+ 
+
+00:06:34.319 --> 00:06:36.150 align:start position:0%
+validate props.  Dentro de ella, utilice una
+instrucción <00:06:34.519><c>if </c><00:06:34.719><c>para </c><00:06:34.919><c>comprobar </c><00:06:35.119><c>si </c><00:06:35.319><c>la </c><00:06:35.519><c>calificación </c><00:06:35.719><c>es </c><00:06:35.919><c>menor</c>
+
+00:06:36.150 --> 00:06:36.160 align:start position:0%
+instrucción if para comprobar si la calificación es menor
+ 
+
+00:06:36.160 --> 00:06:38.950 align:start position:0%
+instrucción if para comprobar si la calificación es menor
+que <00:06:36.546><c>uno </c><00:06:36.932><c>o </c><00:06:37.318><c>mayor </c><00:06:37.704><c>que </c><00:06:38.090><c>cinco.  </c><00:06:38.476><c>Dentro</c>
+
+00:06:38.950 --> 00:06:38.960 align:start position:0%
+que uno o mayor que cinco.  Dentro
+ 
+
+00:06:38.960 --> 00:06:41.670 align:start position:0%
+que uno o mayor que cinco.  Dentro
+arroja <00:06:39.360><c>un </c><00:06:39.760><c>nuevo </c><00:06:40.160><c>error.  </c><00:06:40.560><c>Luego, </c><00:06:40.960><c>utilice </c><00:06:41.360><c>otra</c>
+
+00:06:41.670 --> 00:06:41.680 align:start position:0%
+arroja un nuevo error.  Luego, utilice otra
+ 
+
+00:06:41.680 --> 00:06:43.830 align:start position:0%
+arroja un nuevo error.  Luego, utilice otra
+instrucción <00:06:41.893><c>if </c><00:06:42.106><c>para </c><00:06:42.319><c>comprobar </c><00:06:42.532><c>si </c><00:06:42.745><c>el </c><00:06:42.958><c>título </c><00:06:43.171><c>es </c><00:06:43.384><c>menor </c><00:06:43.597><c>que</c>
+
+00:06:43.830 --> 00:06:43.840 align:start position:0%
+instrucción if para comprobar si el título es menor que
+ 
+
+00:06:43.840 --> 00:06:47.430 align:start position:0%
+instrucción if para comprobar si el título es menor que
+tres.  <00:06:44.200><c>En </c><00:06:44.560><c>su </c><00:06:44.920><c>interior </c><00:06:45.280><c>también </c><00:06:45.640><c>arroja </c><00:06:46.000><c>un </c><00:06:46.360><c>nuevo </c><00:06:46.720><c>error.</c>
+
+00:06:47.430 --> 00:06:47.440 align:start position:0%
+tres.  En su interior también arroja un nuevo error.
+ 
+
+00:06:47.440 --> 00:06:49.749 align:start position:0%
+tres.  En su interior también arroja un nuevo error.
+A <00:06:47.702><c>continuación, </c><00:06:47.964><c>llama </c><00:06:48.226><c>a </c><00:06:48.488><c>esta </c><00:06:48.750><c>función </c><00:06:49.012><c>en </c><00:06:49.274><c>el</c>
+
+00:06:49.749 --> 00:06:49.759 align:start position:0%
+A continuación, llama a esta función en el
+ 
+
+00:06:49.759 --> 00:06:53.270 align:start position:0%
+A continuación, llama a esta función en el
+bloque <00:06:50.105><c>de </c><00:06:50.451><c>scripts.  </c><00:06:50.797><c>Ahora, </c><00:06:51.143><c>en </c><00:06:51.489><c>la </c><00:06:51.835><c>plantilla, </c><00:06:52.181><c>crea </c><00:06:52.527><c>un </c><00:06:52.873><c>bloque</c>
+
+00:06:53.270 --> 00:06:53.280 align:start position:0%
+bloque de scripts.  Ahora, en la plantilla, crea un bloque
+ 
+
+00:06:53.280 --> 00:06:56.950 align:start position:0%
+bloque de scripts.  Ahora, en la plantilla, crea un bloque
+y <00:06:53.759><c>pásale </c><00:06:54.238><c>el </c><00:06:54.717><c>estilo, </c><00:06:55.196><c>y </c><00:06:55.675><c>también </c><00:06:56.154><c>establece </c><00:06:56.633><c>el</c>
+
+00:06:56.950 --> 00:06:56.960 align:start position:0%
+y pásale el estilo, y también establece el
+ 
+
+00:06:56.960 --> 00:06:58.629 align:start position:0%
+y pásale el estilo, y también establece el
+color <00:06:57.320><c>de </c><00:06:57.680><c>fondo </c><00:06:58.040><c>según </c><00:06:58.400><c>la</c>
+
+00:06:58.629 --> 00:06:58.639 align:start position:0%
+color de fondo según la
+ 
+
+00:06:58.639 --> 00:07:01.670 align:start position:0%
+color de fondo según la
+variable <00:06:58.839><c>"is </c><00:06:59.039><c>active".</c>
+
+00:07:01.670 --> 00:07:01.680 align:start position:0%
+variable "is active".
+ 
+
+00:07:01.680 --> 00:07:05.589 align:start position:0%
+variable "is active".
+Luego, <00:07:01.950><c>utilice </c><00:07:02.220><c>la </c><00:07:02.490><c>etiqueta </c><00:07:02.760><c>H3 </c><00:07:03.030><c>para </c><00:07:03.300><c>mostrar </c><00:07:03.570><c>el </c><00:07:03.840><c>título.</c>
+
+00:07:05.589 --> 00:07:05.599 align:start position:0%
+Luego, utilice la etiqueta H3 para mostrar el título.
+ 
+
+00:07:05.599 --> 00:07:07.430 align:start position:0%
+Luego, utilice la etiqueta H3 para mostrar el título.
+Luego, <00:07:05.839><c>utilice </c><00:07:06.079><c>un </c><00:07:06.319><c>párrafo </c><00:07:06.559><c>para </c><00:07:06.799><c>mostrar </c><00:07:07.039><c>la</c>
+
+00:07:07.430 --> 00:07:07.440 align:start position:0%
+Luego, utilice un párrafo para mostrar la
+ 
+
+00:07:07.440 --> 00:07:09.830 align:start position:0%
+Luego, utilice un párrafo para mostrar la
+descripción.
+
+00:07:09.830 --> 00:07:09.840 align:start position:0%
+descripción.
+ 
+
+00:07:09.840 --> 00:07:12.070 align:start position:0%
+descripción.
+Luego, <00:07:10.125><c>crea </c><00:07:10.410><c>un </c><00:07:10.695><c>bloque </c><00:07:10.980><c>div </c><00:07:11.265><c>y </c><00:07:11.550><c>dale </c><00:07:11.835><c>un</c>
+
+00:07:12.070 --> 00:07:12.080 align:start position:0%
+Luego, crea un bloque div y dale un
+ 
+
+00:07:12.080 --> 00:07:15.510 align:start position:0%
+Luego, crea un bloque div y dale un
+margen <00:07:12.525><c>superior.  </c><00:07:12.970><c>Dentro, </c><00:07:13.415><c>usa </c><00:07:13.860><c>la </c><00:07:14.305><c>etiqueta </c><00:07:14.750><c>span </c><00:07:15.195><c>y</c>
+
+00:07:15.510 --> 00:07:15.520 align:start position:0%
+margen superior.  Dentro, usa la etiqueta span y
+ 
+
+00:07:15.520 --> 00:07:18.469 align:start position:0%
+margen superior.  Dentro, usa la etiqueta span y
+establece <00:07:15.786><c>el </c><00:07:16.052><c>color </c><00:07:16.318><c>del </c><00:07:16.584><c>texto </c><00:07:16.850><c>en </c><00:07:17.116><c>amarillo.  </c><00:07:17.382><c>En </c><00:07:17.648><c>su </c><00:07:17.914><c>interior</c>
+
+00:07:18.469 --> 00:07:18.479 align:start position:0%
+establece el color del texto en amarillo.  En su interior
+ 
+
+00:07:18.479 --> 00:07:20.710 align:start position:0%
+establece el color del texto en amarillo.  En su interior
+se <00:07:18.729><c>muestra </c><00:07:18.979><c>un </c><00:07:19.229><c>emoji </c><00:07:19.479><c>de </c><00:07:19.729><c>corazón </c><00:07:19.979><c>y </c><00:07:20.229><c>se </c><00:07:20.479><c>repite</c>
+
+00:07:20.710 --> 00:07:20.720 align:start position:0%
+se muestra un emoji de corazón y se repite
+ 
+
+00:07:20.720 --> 00:07:23.110 align:start position:0%
+se muestra un emoji de corazón y se repite
+según <00:07:21.136><c>la </c><00:07:21.552><c>variable </c><00:07:21.968><c>de </c><00:07:22.384><c>calificación.  </c><00:07:22.800><c>Luego,</c>
+
+00:07:23.110 --> 00:07:23.120 align:start position:0%
+según la variable de calificación.  Luego,
+ 
+
+00:07:23.120 --> 00:07:25.510 align:start position:0%
+según la variable de calificación.  Luego,
+crea <00:07:23.351><c>otra </c><00:07:23.582><c>etiqueta </c><00:07:23.813><c>span </c><00:07:24.044><c>y </c><00:07:24.275><c>establece </c><00:07:24.506><c>el </c><00:07:24.737><c>color </c><00:07:24.968><c>del </c><00:07:25.199><c>texto</c>
+
+00:07:25.510 --> 00:07:25.520 align:start position:0%
+crea otra etiqueta span y establece el color del texto
+ 
+
+00:07:25.520 --> 00:07:28.710 align:start position:0%
+crea otra etiqueta span y establece el color del texto
+en <00:07:25.931><c>gris.  </c><00:07:26.342><c>En </c><00:07:26.753><c>su </c><00:07:27.164><c>interior </c><00:07:27.575><c>se </c><00:07:27.986><c>muestra </c><00:07:28.397><c>un</c>
+
+00:07:28.710 --> 00:07:28.720 align:start position:0%
+en gris.  En su interior se muestra un
+ 
+
+00:07:28.720 --> 00:07:31.029 align:start position:0%
+en gris.  En su interior se muestra un
+emoji <00:07:28.994><c>de </c><00:07:29.268><c>corazón </c><00:07:29.542><c>blanco </c><00:07:29.816><c>y </c><00:07:30.090><c>se </c><00:07:30.364><c>repite </c><00:07:30.638><c>cinco</c>
+
+00:07:31.029 --> 00:07:31.039 align:start position:0%
+emoji de corazón blanco y se repite cinco
+ 
+
+00:07:31.039 --> 00:07:33.430 align:start position:0%
+emoji de corazón blanco y se repite cinco
+veces <00:07:31.139><c>con </c><00:07:31.239><c>una </c><00:07:31.339><c>calificación </c><00:07:31.439><c>negativa.</c>
+
+00:07:33.430 --> 00:07:33.440 align:start position:0%
+veces con una calificación negativa.
+ 
+
+00:07:33.440 --> 00:07:35.990 align:start position:0%
+veces con una calificación negativa.
+Luego, <00:07:33.700><c>crea </c><00:07:33.960><c>una </c><00:07:34.220><c>etiqueta </c><00:07:34.480><c>de </c><00:07:34.740><c>párrafo </c><00:07:35.000><c>y </c><00:07:35.260><c>muestra </c><00:07:35.520><c>el</c>
+
+00:07:35.990 --> 00:07:36.000 align:start position:0%
+Luego, crea una etiqueta de párrafo y muestra el
+ 
+
+00:07:36.000 --> 00:07:38.070 align:start position:0%
+Luego, crea una etiqueta de párrafo y muestra el
+estado <00:07:36.533><c>activo </c><00:07:37.066><c>o </c><00:07:37.599><c>inactivo</c>
+
+00:07:38.070 --> 00:07:38.080 align:start position:0%
+estado activo o inactivo
+ 
+
+00:07:38.080 --> 00:07:40.870 align:start position:0%
+estado activo o inactivo
+según <00:07:38.380><c>la </c><00:07:38.680><c>variable </c><00:07:38.980><c>"is </c><00:07:39.280><c>active".</c>
+
+00:07:40.870 --> 00:07:40.880 align:start position:0%
+según la variable "is active".
+ 
+
+00:07:40.880 --> 00:07:43.830 align:start position:0%
+según la variable "is active".
+Luego <00:07:41.210><c>ve </c><00:07:41.540><c>a </c><00:07:41.870><c>la </c><00:07:42.200><c>página </c><00:07:42.530><c>principal </c><00:07:42.860><c>aquí.  </c><00:07:43.190><c>Importa </c><00:07:43.520><c>este</c>
+
+00:07:43.830 --> 00:07:43.840 align:start position:0%
+Luego ve a la página principal aquí.  Importa este
+ 
+
+00:07:43.840 --> 00:07:45.589 align:start position:0%
+Luego ve a la página principal aquí.  Importa este
+componente <00:07:43.960><c>de </c><00:07:44.080><c>tarjeta.</c>
+
+00:07:45.589 --> 00:07:45.599 align:start position:0%
+componente de tarjeta.
+ 
+
+00:07:45.599 --> 00:07:48.070 align:start position:0%
+componente de tarjeta.
+Luego, <00:07:45.848><c>muestra </c><00:07:46.097><c>el </c><00:07:46.346><c>componente </c><00:07:46.595><c>de </c><00:07:46.844><c>la </c><00:07:47.093><c>tarjeta </c><00:07:47.342><c>dos </c><00:07:47.591><c>veces </c><00:07:47.840><c>y</c>
+
+00:07:48.070 --> 00:07:48.080 align:start position:0%
+Luego, muestra el componente de la tarjeta dos veces y
+ 
+
+00:07:48.080 --> 00:07:57.909 align:start position:0%
+Luego, muestra el componente de la tarjeta dos veces y
+también <00:07:48.346><c>proporciona </c><00:07:48.612><c>las </c><00:07:48.878><c>propiedades.</c>
+
+00:07:57.909 --> 00:07:57.919 align:start position:0%
+ 
+ 
+
+00:07:57.919 --> 00:08:00.950 align:start position:0%
+ 
+Ahora <00:07:58.186><c>ejecuta </c><00:07:58.453><c>esta </c><00:07:58.720><c>aplicación.</c>
+
+00:08:00.950 --> 00:08:00.960 align:start position:0%
+Ahora ejecuta esta aplicación.
+ 
+
+00:08:00.960 --> 00:08:03.510 align:start position:0%
+Ahora ejecuta esta aplicación.
+Aquí <00:08:01.360><c>podemos </c><00:08:01.760><c>ver </c><00:08:02.160><c>las </c><00:08:02.560><c>cartas.  </c><00:08:02.960><c>Ahora </c><00:08:03.360><c>regresa</c>
+
+00:08:03.510 --> 00:08:03.520 align:start position:0%
+Aquí podemos ver las cartas.  Ahora regresa
+ 
+
+00:08:03.520 --> 00:08:07.270 align:start position:0%
+Aquí podemos ver las cartas.  Ahora regresa
+a <00:08:03.751><c>la </c><00:08:03.982><c>página </c><00:08:04.213><c>principal </c><00:08:04.444><c>y </c><00:08:04.675><c>otorga </c><00:08:04.906><c>una </c><00:08:05.137><c>calificación </c><00:08:05.368><c>de </c><00:08:05.599><c>seis.</c>
+
+00:08:07.270 --> 00:08:07.280 align:start position:0%
+a la página principal y otorga una calificación de seis.
+ 
+
+00:08:07.280 --> 00:08:09.670 align:start position:0%
+a la página principal y otorga una calificación de seis.
+Vamos <00:08:07.588><c>a </c><00:08:07.896><c>comprobar </c><00:08:08.204><c>el </c><00:08:08.512><c>resultado.  </c><00:08:08.820><c>Ahora </c><00:08:09.128><c>las </c><00:08:09.436><c>tarjetas</c>
+
+00:08:09.670 --> 00:08:09.680 align:start position:0%
+Vamos a comprobar el resultado.  Ahora las tarjetas
+ 
+
+00:08:09.680 --> 00:08:12.869 align:start position:0%
+Vamos a comprobar el resultado.  Ahora las tarjetas
+no <00:08:09.999><c>se </c><00:08:10.318><c>muestran.  </c><00:08:10.637><c>Para </c><00:08:10.956><c>comprobarlo, </c><00:08:11.275><c>abre </c><00:08:11.594><c>la </c><00:08:11.913><c>consola.</c>
+
+00:08:12.869 --> 00:08:12.879 align:start position:0%
+no se muestran.  Para comprobarlo, abre la consola.
+ 
+
+00:08:12.879 --> 00:08:15.110 align:start position:0%
+no se muestran.  Para comprobarlo, abre la consola.
+Aquí <00:08:13.119><c>podemos </c><00:08:13.359><c>ver </c><00:08:13.599><c>el </c><00:08:13.839><c>error </c><00:08:14.079><c>de </c><00:08:14.319><c>que </c><00:08:14.559><c>la </c><00:08:14.799><c>calificación</c>
+
+00:08:15.110 --> 00:08:15.120 align:start position:0%
+Aquí podemos ver el error de que la calificación
+ 
+
+00:08:15.120 --> 00:08:18.070 align:start position:0%
+Aquí podemos ver el error de que la calificación
+debe <00:08:15.404><c>estar </c><00:08:15.688><c>entre </c><00:08:15.972><c>1 </c><00:08:16.256><c>y </c><00:08:16.540><c>5. </c><00:08:16.824><c>No </c><00:08:17.108><c>es </c><00:08:17.392><c>ideal </c><00:08:17.676><c>que</c>
+
+00:08:18.070 --> 00:08:18.080 align:start position:0%
+debe estar entre 1 y 5. No es ideal que
+ 
+
+00:08:18.080 --> 00:08:19.830 align:start position:0%
+debe estar entre 1 y 5. No es ideal que
+aparezcan <00:08:18.383><c>errores </c><00:08:18.686><c>como </c><00:08:18.989><c>este, </c><00:08:19.292><c>pero </c><00:08:19.595><c>es</c>
+
+00:08:19.830 --> 00:08:19.840 align:start position:0%
+aparezcan errores como este, pero es
+ 
+
+00:08:19.840 --> 00:08:23.909 align:start position:0%
+aparezcan errores como este, pero es
+suficiente <00:08:20.022><c>para </c><00:08:20.204><c>mostrar </c><00:08:20.386><c>la </c><00:08:20.568><c>validación </c><00:08:20.750><c>de </c><00:08:20.932><c>las </c><00:08:21.114><c>propiedades.</c>
+
+00:08:23.909 --> 00:08:23.919 align:start position:0%
+suficiente para mostrar la validación de las propiedades.
+ 
+
+00:08:23.919 --> 00:08:26.550 align:start position:0%
+suficiente para mostrar la validación de las propiedades.
+Ahora <00:08:24.255><c>hablemos </c><00:08:24.591><c>de </c><00:08:24.927><c>las </c><00:08:25.263><c>propiedades </c><00:08:25.599><c>predeterminadas.</c>
+
+00:08:26.550 --> 00:08:26.560 align:start position:0%
+Ahora hablemos de las propiedades predeterminadas.
+ 
+
+00:08:26.560 --> 00:08:28.790 align:start position:0%
+Ahora hablemos de las propiedades predeterminadas.
+Las <00:08:26.866><c>propiedades </c><00:08:27.172><c>predeterminadas </c><00:08:27.478><c>en </c><00:08:27.784><c>spelt </c><00:08:28.090><c>5 </c><00:08:28.396><c>proporcionan</c>
+
+00:08:28.790 --> 00:08:28.800 align:start position:0%
+Las propiedades predeterminadas en spelt 5 proporcionan
+ 
+
+00:08:28.800 --> 00:08:31.110 align:start position:0%
+Las propiedades predeterminadas en spelt 5 proporcionan
+valores <00:08:29.106><c>alternativos </c><00:08:29.412><c>para </c><00:08:29.718><c>las </c><00:08:30.024><c>propiedades </c><00:08:30.330><c>del </c><00:08:30.636><c>componente</c>
+
+00:08:31.110 --> 00:08:31.120 align:start position:0%
+valores alternativos para las propiedades del componente
+ 
+
+00:08:31.120 --> 00:08:33.029 align:start position:0%
+valores alternativos para las propiedades del componente
+cuando <00:08:31.386><c>el </c><00:08:31.652><c>componente </c><00:08:31.918><c>padre </c><00:08:32.184><c>no </c><00:08:32.450><c>los </c><00:08:32.716><c>proporciona</c>
+
+00:08:33.029 --> 00:08:33.039 align:start position:0%
+cuando el componente padre no los proporciona
+ 
+
+00:08:33.039 --> 00:08:35.509 align:start position:0%
+cuando el componente padre no los proporciona
+.  <00:08:33.313><c>Esta </c><00:08:33.587><c>característica </c><00:08:33.861><c>hace </c><00:08:34.135><c>que </c><00:08:34.409><c>los </c><00:08:34.683><c>componentes </c><00:08:34.957><c>sean</c>
+
+00:08:35.509 --> 00:08:35.519 align:start position:0%
+.  Esta característica hace que los componentes sean
+ 
+
+00:08:35.519 --> 00:08:37.909 align:start position:0%
+.  Esta característica hace que los componentes sean
+más <00:08:35.816><c>flexibles </c><00:08:36.113><c>y </c><00:08:36.410><c>reduce </c><00:08:36.707><c>la </c><00:08:37.004><c>necesidad </c><00:08:37.301><c>de </c><00:08:37.598><c>una</c>
+
+00:08:37.909 --> 00:08:37.919 align:start position:0%
+más flexibles y reduce la necesidad de una
+ 
+
+00:08:37.919 --> 00:08:39.990 align:start position:0%
+más flexibles y reduce la necesidad de una
+lógica <00:08:38.379><c>condicional </c><00:08:38.839><c>compleja </c><00:08:39.299><c>dentro </c><00:08:39.759><c>del</c>
+
+00:08:39.990 --> 00:08:40.000 align:start position:0%
+lógica condicional compleja dentro del
+ 
+
+00:08:40.000 --> 00:08:41.990 align:start position:0%
+lógica condicional compleja dentro del
+componente.  <00:08:40.440><c>Las </c><00:08:40.880><c>propiedades </c><00:08:41.320><c>predeterminadas </c><00:08:41.760><c>son</c>
+
+00:08:41.990 --> 00:08:42.000 align:start position:0%
+componente.  Las propiedades predeterminadas son
+ 
+
+00:08:42.000 --> 00:08:44.389 align:start position:0%
+componente.  Las propiedades predeterminadas son
+especialmente <00:08:42.306><c>útiles </c><00:08:42.612><c>para </c><00:08:42.918><c>propiedades </c><00:08:43.224><c>de </c><00:08:43.530><c>estilo </c><00:08:43.836><c>opcionales</c>
+
+00:08:44.389 --> 00:08:44.399 align:start position:0%
+especialmente útiles para propiedades de estilo opcionales
+ 
+
+00:08:44.399 --> 00:08:46.949 align:start position:0%
+especialmente útiles para propiedades de estilo opcionales
+, <00:08:44.979><c>opciones </c><00:08:45.559><c>de </c><00:08:46.139><c>configuración </c><00:08:46.719><c>e</c>
+
+00:08:46.949 --> 00:08:46.959 align:start position:0%
+, opciones de configuración e
+ 
+
+00:08:46.959 --> 00:08:50.230 align:start position:0%
+, opciones de configuración e
+indicadores <00:08:47.359><c>de </c><00:08:47.759><c>comportamiento.  </c><00:08:48.159><c>En </c><00:08:48.559><c>la </c><00:08:48.959><c>versión </c><00:08:49.359><c>5, </c><00:08:49.759><c>las</c>
+
+00:08:50.230 --> 00:08:50.240 align:start position:0%
+indicadores de comportamiento.  En la versión 5, las
+ 
+
+00:08:50.240 --> 00:08:52.150 align:start position:0%
+indicadores de comportamiento.  En la versión 5, las
+propiedades <00:08:50.533><c>predeterminadas </c><00:08:50.826><c>se </c><00:08:51.119><c>declaran </c><00:08:51.412><c>directamente </c><00:08:51.705><c>en </c><00:08:51.998><c>la</c>
+
+00:08:52.150 --> 00:08:52.160 align:start position:0%
+propiedades predeterminadas se declaran directamente en la
+ 
+
+00:08:52.160 --> 00:08:54.070 align:start position:0%
+propiedades predeterminadas se declaran directamente en la
+asignación <00:08:52.540><c>de </c><00:08:52.920><c>estructuración </c><00:08:53.300><c>de </c><00:08:53.680><c>la</c>
+
+00:08:54.070 --> 00:08:54.080 align:start position:0%
+asignación de estructuración de la
+ 
+
+00:08:54.080 --> 00:08:56.550 align:start position:0%
+asignación de estructuración de la
+runa <00:08:54.431><c>de </c><00:08:54.782><c>propiedades, </c><00:08:55.133><c>estableciendo </c><00:08:55.484><c>expectativas </c><00:08:55.835><c>claras</c>
+
+00:08:56.550 --> 00:08:56.560 align:start position:0%
+runa de propiedades, estableciendo expectativas claras
+ 
+
+00:08:56.560 --> 00:08:58.710 align:start position:0%
+runa de propiedades, estableciendo expectativas claras
+para <00:08:56.720><c>el </c><00:08:56.880><c>comportamiento </c><00:08:57.040><c>del </c><00:08:57.200><c>componente </c><00:08:57.360><c>al </c><00:08:57.520><c>tiempo </c><00:08:57.680><c>que </c><00:08:57.840><c>se </c><00:08:58.000><c>mantiene </c><00:08:58.160><c>la</c>
+
+00:08:58.710 --> 00:08:58.720 align:start position:0%
+para el comportamiento del componente al tiempo que se mantiene la
+ 
+
+00:08:58.720 --> 00:09:01.110 align:start position:0%
+para el comportamiento del componente al tiempo que se mantiene la
+seguridad <00:08:58.890><c>de </c><00:08:59.060><c>tipos </c><00:08:59.230><c>completa </c><00:08:59.400><c>a </c><00:08:59.570><c>través </c><00:08:59.740><c>de </c><00:08:59.910><c>TypeScript.   </c><00:09:00.080><c>Las</c>
+
+00:09:01.110 --> 00:09:01.120 align:start position:0%
+seguridad de tipos completa a través de TypeScript.   Las
+ 
+
+00:09:01.120 --> 00:09:02.949 align:start position:0%
+seguridad de tipos completa a través de TypeScript.   Las
+propiedades <00:09:01.500><c>predeterminadas </c><00:09:01.880><c>ayudan </c><00:09:02.260><c>a </c><00:09:02.640><c>crear</c>
+
+00:09:02.949 --> 00:09:02.959 align:start position:0%
+propiedades predeterminadas ayudan a crear
+ 
+
+00:09:02.959 --> 00:09:04.790 align:start position:0%
+propiedades predeterminadas ayudan a crear
+componentes <00:09:03.199><c>más </c><00:09:03.439><c>fáciles </c><00:09:03.679><c>de </c><00:09:03.919><c>usar </c><00:09:04.159><c>que </c><00:09:04.399><c>funcionan </c><00:09:04.639><c>de</c>
+
+00:09:04.790 --> 00:09:04.800 align:start position:0%
+componentes más fáciles de usar que funcionan de
+ 
+
+00:09:04.800 --> 00:09:06.470 align:start position:0%
+componentes más fáciles de usar que funcionan de
+inmediato, <00:09:05.040><c>al </c><00:09:05.280><c>tiempo </c><00:09:05.520><c>que </c><00:09:05.760><c>permiten </c><00:09:06.000><c>la</c>
+
+00:09:06.470 --> 00:09:06.480 align:start position:0%
+inmediato, al tiempo que permiten la
+ 
+
+00:09:06.480 --> 00:09:09.110 align:start position:0%
+inmediato, al tiempo que permiten la
+personalización <00:09:06.866><c>cuando </c><00:09:07.252><c>sea </c><00:09:07.638><c>necesario.  </c><00:09:08.024><c>Ahora </c><00:09:08.410><c>vamos </c><00:09:08.796><c>a</c>
+
+00:09:09.110 --> 00:09:09.120 align:start position:0%
+personalización cuando sea necesario.  Ahora vamos a
+ 
+
+00:09:09.120 --> 00:09:11.910 align:start position:0%
+personalización cuando sea necesario.  Ahora vamos a
+entenderlo <00:09:09.479><c>con </c><00:09:09.838><c>un </c><00:09:10.197><c>ejemplo </c><00:09:10.556><c>de </c><00:09:10.915><c>código.  </c><00:09:11.274><c>Aquí,</c>
+
+00:09:11.910 --> 00:09:11.920 align:start position:0%
+entenderlo con un ejemplo de código.  Aquí,
+ 
+
+00:09:11.920 --> 00:09:15.509 align:start position:0%
+entenderlo con un ejemplo de código.  Aquí,
+crea <00:09:12.140><c>un </c><00:09:12.360><c>componente </c><00:09:12.580><c>de </c><00:09:12.800><c>tarjeta.</c>
+
+00:09:15.509 --> 00:09:15.519 align:start position:0%
+crea un componente de tarjeta.
+ 
+
+00:09:15.519 --> 00:09:18.070 align:start position:0%
+crea un componente de tarjeta.
+crea <00:09:15.827><c>una </c><00:09:16.135><c>sección </c><00:09:16.443><c>de </c><00:09:16.751><c>script </c><00:09:17.059><c>y </c><00:09:17.367><c>luego </c><00:09:17.675><c>una</c>
+
+00:09:18.070 --> 00:09:18.080 align:start position:0%
+crea una sección de script y luego una
+ 
+
+00:09:18.080 --> 00:09:21.509 align:start position:0%
+crea una sección de script y luego una
+interfaz <00:09:18.491><c>de </c><00:09:18.902><c>propiedades </c><00:09:19.313><c>dentro </c><00:09:19.724><c>de </c><00:09:20.135><c>ella.  </c><00:09:20.546><c>Crea </c><00:09:20.957><c>una</c>
+
+00:09:21.509 --> 00:09:21.519 align:start position:0%
+interfaz de propiedades dentro de ella.  Crea una
+ 
+
+00:09:21.519 --> 00:09:23.670 align:start position:0%
+interfaz de propiedades dentro de ella.  Crea una
+propiedad <00:09:21.732><c>de </c><00:09:21.945><c>tipo </c><00:09:22.158><c>anulable </c><00:09:22.371><c>usando </c><00:09:22.584><c>un </c><00:09:22.797><c>signo </c><00:09:23.010><c>de </c><00:09:23.223><c>interrogación </c><00:09:23.436><c>y</c>
+
+00:09:23.670 --> 00:09:23.680 align:start position:0%
+propiedad de tipo anulable usando un signo de interrogación y
+ 
+
+00:09:23.680 --> 00:09:25.910 align:start position:0%
+propiedad de tipo anulable usando un signo de interrogación y
+asigna <00:09:23.977><c>los </c><00:09:24.274><c>valores </c><00:09:24.571><c>de </c><00:09:24.868><c>cadena </c><00:09:25.165><c>permitidos </c><00:09:25.462><c>que </c><00:09:25.759><c>puede</c>
+
+00:09:25.910 --> 00:09:25.920 align:start position:0%
+asigna los valores de cadena permitidos que puede
+ 
+
+00:09:25.920 --> 00:09:28.310 align:start position:0%
+asigna los valores de cadena permitidos que puede
+tomar.  <00:09:26.142><c>Es </c><00:09:26.364><c>una </c><00:09:26.586><c>propiedad </c><00:09:26.808><c>de </c><00:09:27.030><c>tipo </c><00:09:27.252><c>unión </c><00:09:27.474><c>literal </c><00:09:27.696><c>de </c><00:09:27.918><c>cadena</c>
+
+00:09:28.310 --> 00:09:28.320 align:start position:0%
+tomar.  Es una propiedad de tipo unión literal de cadena
+ 
+
+00:09:28.320 --> 00:09:30.230 align:start position:0%
+tomar.  Es una propiedad de tipo unión literal de cadena
+y <00:09:28.853><c>solo </c><00:09:29.386><c>permite </c><00:09:29.919><c>los</c>
+
+00:09:30.230 --> 00:09:30.240 align:start position:0%
+y solo permite los
+ 
+
+00:09:30.240 --> 00:09:32.790 align:start position:0%
+y solo permite los
+valores <00:09:30.779><c>que </c><00:09:31.318><c>le </c><00:09:31.857><c>asignamos.  </c><00:09:32.396><c>Luego,</c>
+
+00:09:32.790 --> 00:09:32.800 align:start position:0%
+valores que le asignamos.  Luego,
+ 
+
+00:09:32.800 --> 00:09:34.870 align:start position:0%
+valores que le asignamos.  Luego,
+cree <00:09:33.152><c>una </c><00:09:33.504><c>propiedad </c><00:09:33.856><c>de </c><00:09:34.208><c>mensaje </c><00:09:34.560><c>de</c>
+
+00:09:34.870 --> 00:09:34.880 align:start position:0%
+cree una propiedad de mensaje de
+ 
+
+00:09:34.880 --> 00:09:37.750 align:start position:0%
+cree una propiedad de mensaje de
+tipo <00:09:35.160><c>cadena.  </c><00:09:35.440><c>Luego, </c><00:09:35.720><c>cree </c><00:09:36.000><c>una </c><00:09:36.280><c>propiedad </c><00:09:36.560><c>anulable </c><00:09:36.840><c>y </c><00:09:37.120><c>descartable</c>
+
+00:09:37.750 --> 00:09:37.760 align:start position:0%
+tipo cadena.  Luego, cree una propiedad anulable y descartable
+ 
+
+00:09:37.760 --> 00:09:40.790 align:start position:0%
+tipo cadena.  Luego, cree una propiedad anulable y descartable
+de <00:09:38.359><c>tipo </c><00:09:38.958><c>booleano.</c>
+
+00:09:40.790 --> 00:09:40.800 align:start position:0%
+de tipo booleano.
+ 
+
+00:09:40.800 --> 00:09:42.949 align:start position:0%
+de tipo booleano.
+Luego, <00:09:41.020><c>cree </c><00:09:41.240><c>una </c><00:09:41.460><c>variable </c><00:09:41.680><c>de </c><00:09:41.900><c>tipo </c><00:09:42.120><c>y </c><00:09:42.340><c>asígnele </c><00:09:42.560><c>la</c>
+
+00:09:42.949 --> 00:09:42.959 align:start position:0%
+Luego, cree una variable de tipo y asígnele la
+ 
+
+00:09:42.959 --> 00:09:45.509 align:start position:0%
+Luego, cree una variable de tipo y asígnele la
+cadena <00:09:43.519><c>de </c><00:09:44.079><c>información </c><00:09:44.639><c>predeterminada </c><00:09:45.199><c>como</c>
+
+00:09:45.509 --> 00:09:45.519 align:start position:0%
+cadena de información predeterminada como
+ 
+
+00:09:45.519 --> 00:09:48.070 align:start position:0%
+cadena de información predeterminada como
+cadena <00:09:45.850><c>permitida </c><00:09:46.181><c>para </c><00:09:46.512><c>la </c><00:09:46.843><c>información.  </c><00:09:47.174><c>Aquí </c><00:09:47.505><c>esta </c><00:09:47.836><c>cadena</c>
+
+00:09:48.070 --> 00:09:48.080 align:start position:0%
+cadena permitida para la información.  Aquí esta cadena
+ 
+
+00:09:48.080 --> 00:09:50.790 align:start position:0%
+cadena permitida para la información.  Aquí esta cadena
+actuará <00:09:48.400><c>como </c><00:09:48.720><c>valor </c><00:09:49.040><c>predeterminado.  </c><00:09:49.360><c>Si </c><00:09:49.680><c>el </c><00:09:50.000><c>usuario </c><00:09:50.320><c>no </c><00:09:50.640><c>le</c>
+
+00:09:50.790 --> 00:09:50.800 align:start position:0%
+actuará como valor predeterminado.  Si el usuario no le
+ 
+
+00:09:50.800 --> 00:09:52.870 align:start position:0%
+actuará como valor predeterminado.  Si el usuario no le
+pasa <00:09:51.360><c>ningún </c><00:09:51.920><c>valor, </c><00:09:52.480><c>se</c>
+
+00:09:52.870 --> 00:09:52.880 align:start position:0%
+pasa ningún valor, se
+ 
+
+00:09:52.880 --> 00:09:55.350 align:start position:0%
+pasa ningún valor, se
+utilizará <00:09:53.399><c>este </c><00:09:53.918><c>valor </c><00:09:54.437><c>predeterminado.  </c><00:09:54.956><c>Luego,</c>
+
+00:09:55.350 --> 00:09:55.360 align:start position:0%
+utilizará este valor predeterminado.  Luego,
+ 
+
+00:09:55.360 --> 00:09:57.430 align:start position:0%
+utilizará este valor predeterminado.  Luego,
+las <00:09:55.653><c>variables </c><00:09:55.946><c>de </c><00:09:56.239><c>mensaje </c><00:09:56.532><c>y </c><00:09:56.825><c>descartable </c><00:09:57.118><c>y</c>
+
+00:09:57.430 --> 00:09:57.440 align:start position:0%
+las variables de mensaje y descartable y
+ 
+
+00:09:57.440 --> 00:10:00.310 align:start position:0%
+las variables de mensaje y descartable y
+establecer <00:09:57.733><c>el </c><00:09:58.026><c>valor </c><00:09:58.319><c>predeterminado </c><00:09:58.612><c>falso </c><00:09:58.905><c>para </c><00:09:59.198><c>descartable.</c>
+
+00:10:00.310 --> 00:10:00.320 align:start position:0%
+establecer el valor predeterminado falso para descartable.
+ 
+
+00:10:00.320 --> 00:10:02.230 align:start position:0%
+establecer el valor predeterminado falso para descartable.
+Luego, <00:10:00.537><c>establezca </c><00:10:00.754><c>el </c><00:10:00.971><c>tipo </c><00:10:01.188><c>de </c><00:10:01.405><c>estos </c><00:10:01.622><c>como </c><00:10:01.839><c>props</c>
+
+00:10:02.230 --> 00:10:02.240 align:start position:0%
+Luego, establezca el tipo de estos como props
+ 
+
+00:10:02.240 --> 00:10:04.389 align:start position:0%
+Luego, establezca el tipo de estos como props
+interface <00:10:02.680><c>e </c><00:10:03.120><c>inicialícelo </c><00:10:03.560><c>con </c><00:10:04.000><c>props</c>
+
+00:10:04.389 --> 00:10:04.399 align:start position:0%
+interface e inicialícelo con props
+ 
+
+00:10:04.399 --> 00:10:07.110 align:start position:0%
+interface e inicialícelo con props
+rune.  <00:10:05.119><c>Luego, </c><00:10:05.839><c>crea </c><00:10:06.559><c>una</c>
+
+00:10:07.110 --> 00:10:07.120 align:start position:0%
+rune.  Luego, crea una
+ 
+
+00:10:07.120 --> 00:10:09.750 align:start position:0%
+rune.  Luego, crea una
+variable <00:10:07.451><c>booleana </c><00:10:07.782><c>reactiva </c><00:10:08.113><c>visible </c><00:10:08.444><c>usando </c><00:10:08.775><c>state </c><00:10:09.106><c>rune </c><00:10:09.437><c>y</c>
+
+00:10:09.750 --> 00:10:09.760 align:start position:0%
+variable booleana reactiva visible usando state rune y
+ 
+
+00:10:09.760 --> 00:10:12.710 align:start position:0%
+variable booleana reactiva visible usando state rune y
+establécela <00:10:10.050><c>en </c><00:10:10.340><c>falso.  </c><00:10:10.630><c>Luego, </c><00:10:10.920><c>crea </c><00:10:11.210><c>un </c><00:10:11.500><c>objeto </c><00:10:11.790><c>de </c><00:10:12.080><c>colores</c>
+
+00:10:12.710 --> 00:10:12.720 align:start position:0%
+establécela en falso.  Luego, crea un objeto de colores
+ 
+
+00:10:12.720 --> 00:10:15.110 align:start position:0%
+establécela en falso.  Luego, crea un objeto de colores
+y <00:10:13.040><c>dentro </c><00:10:13.360><c>de </c><00:10:13.680><c>él </c><00:10:14.000><c>crea </c><00:10:14.320><c>tres </c><00:10:14.640><c>propiedades</c>
+
+00:10:15.110 --> 00:10:15.120 align:start position:0%
+y dentro de él crea tres propiedades
+ 
+
+00:10:15.120 --> 00:10:18.389 align:start position:0%
+y dentro de él crea tres propiedades
+llamadas <00:10:15.626><c>info, </c><00:10:16.132><c>success </c><00:10:16.638><c>y </c><00:10:17.144><c>error, </c><00:10:17.650><c>y </c><00:10:18.156><c>pasa</c>
+
+00:10:18.389 --> 00:10:18.399 align:start position:0%
+llamadas info, success y error, y pasa
+ 
+
+00:10:18.399 --> 00:10:20.069 align:start position:0%
+llamadas info, success y error, y pasa
+estas <00:10:18.671><c>clases </c><00:10:18.943><c>de </c><00:10:19.215><c>tailwind </c><00:10:19.487><c>a </c><00:10:19.759><c>estas</c>
+
+00:10:20.069 --> 00:10:20.079 align:start position:0%
+estas clases de tailwind a estas
+ 
+
+00:10:20.079 --> 00:10:23.030 align:start position:0%
+estas clases de tailwind a estas
+propiedades.  <00:10:20.419><c>Luego, </c><00:10:20.759><c>en </c><00:10:21.099><c>la </c><00:10:21.439><c>sección </c><00:10:21.779><c>de </c><00:10:22.119><c>plantilla, </c><00:10:22.459><c>use </c><00:10:22.799><c>el</c>
+
+00:10:23.030 --> 00:10:23.040 align:start position:0%
+propiedades.  Luego, en la sección de plantilla, use el
+ 
+
+00:10:23.040 --> 00:10:25.269 align:start position:0%
+propiedades.  Luego, en la sección de plantilla, use el
+bloque <00:10:23.262><c>if </c><00:10:23.484><c>y </c><00:10:23.706><c>verifique </c><00:10:23.928><c>si </c><00:10:24.150><c>hay </c><00:10:24.372><c>alguna </c><00:10:24.594><c>variable </c><00:10:24.816><c>visible </c><00:10:25.038><c>en</c>
+
+00:10:25.269 --> 00:10:25.279 align:start position:0%
+bloque if y verifique si hay alguna variable visible en
+ 
+
+00:10:25.279 --> 00:10:27.990 align:start position:0%
+bloque if y verifique si hay alguna variable visible en
+él.  <00:10:25.589><c>dentro </c><00:10:25.899><c>de </c><00:10:26.209><c>él.  </c><00:10:26.519><c>Crea </c><00:10:26.829><c>un </c><00:10:27.139><c>bloque </c><00:10:27.449><c>y </c><00:10:27.759><c>usa</c>
+
+00:10:27.990 --> 00:10:28.000 align:start position:0%
+él.  dentro de él.  Crea un bloque y usa
+ 
+
+00:10:28.000 --> 00:10:30.069 align:start position:0%
+él.  dentro de él.  Crea un bloque y usa
+estas <00:10:28.319><c>clases </c><00:10:28.638><c>para </c><00:10:28.957><c>darle </c><00:10:29.276><c>relleno,</c>
+
+00:10:30.069 --> 00:10:30.079 align:start position:0%
+estas clases para darle relleno,
+ 
+
+00:10:30.079 --> 00:10:32.710 align:start position:0%
+estas clases para darle relleno,
+margen, <00:10:30.559><c>borde </c><00:10:31.039><c>y </c><00:10:31.519><c>esquinas </c><00:10:31.999><c>redondeadas, </c><00:10:32.479><c>y</c>
+
+00:10:32.710 --> 00:10:32.720 align:start position:0%
+margen, borde y esquinas redondeadas, y
+ 
+
+00:10:32.720 --> 00:10:35.509 align:start position:0%
+margen, borde y esquinas redondeadas, y
+pasa <00:10:32.933><c>el </c><00:10:33.146><c>objeto </c><00:10:33.359><c>de </c><00:10:33.572><c>colores </c><00:10:33.785><c>y </c><00:10:33.998><c>la </c><00:10:34.211><c>propiedad </c><00:10:34.424><c>de </c><00:10:34.637><c>tipo.</c>
+
+00:10:35.509 --> 00:10:35.519 align:start position:0%
+pasa el objeto de colores y la propiedad de tipo.
+ 
+
+00:10:35.519 --> 00:10:37.430 align:start position:0%
+pasa el objeto de colores y la propiedad de tipo.
+Esto <00:10:35.855><c>le </c><00:10:36.191><c>dará </c><00:10:36.527><c>color </c><00:10:36.863><c>según </c><00:10:37.199><c>el</c>
+
+00:10:37.430 --> 00:10:37.440 align:start position:0%
+Esto le dará color según el
+ 
+
+00:10:37.440 --> 00:10:39.829 align:start position:0%
+Esto le dará color según el
+tipo.  <00:10:37.760><c>Luego, </c><00:10:38.080><c>muestre </c><00:10:38.400><c>la </c><00:10:38.720><c>propiedad </c><00:10:39.040><c>del </c><00:10:39.360><c>mensaje</c>
+
+00:10:39.829 --> 00:10:39.839 align:start position:0%
+tipo.  Luego, muestre la propiedad del mensaje
+ 
+
+00:10:39.839 --> 00:10:43.269 align:start position:0%
+tipo.  Luego, muestre la propiedad del mensaje
+usando <00:10:40.273><c>la </c><00:10:40.707><c>etiqueta </c><00:10:41.141><c>de </c><00:10:41.575><c>párrafo.  </c><00:10:42.009><c>Luego, </c><00:10:42.443><c>crea </c><00:10:42.877><c>otro</c>
+
+00:10:43.269 --> 00:10:43.279 align:start position:0%
+usando la etiqueta de párrafo.  Luego, crea otro
+ 
+
+00:10:43.279 --> 00:10:46.150 align:start position:0%
+usando la etiqueta de párrafo.  Luego, crea otro
+bloque <00:10:43.599><c>if </c><00:10:43.919><c>y </c><00:10:44.239><c>verifica </c><00:10:44.559><c>la </c><00:10:44.879><c>propiedad </c><00:10:45.199><c>dismissible.</c>
+
+00:10:46.150 --> 00:10:46.160 align:start position:0%
+bloque if y verifica la propiedad dismissible.
+ 
+
+00:10:46.160 --> 00:10:49.430 align:start position:0%
+bloque if y verifica la propiedad dismissible.
+Dentro <00:10:46.560><c>crea </c><00:10:46.960><c>un </c><00:10:47.360><c>botón.</c>
+
+00:10:49.430 --> 00:10:49.440 align:start position:0%
+Dentro crea un botón.
+ 
+
+00:10:49.440 --> 00:10:51.509 align:start position:0%
+Dentro crea un botón.
+Luego, <00:10:49.792><c>pasa </c><00:10:50.144><c>esta </c><00:10:50.496><c>función </c><00:10:50.848><c>a </c><00:10:51.200><c>la</c>
+
+00:10:51.509 --> 00:10:51.519 align:start position:0%
+Luego, pasa esta función a la
+ 
+
+00:10:51.519 --> 00:10:53.829 align:start position:0%
+Luego, pasa esta función a la
+propiedad <00:10:51.816><c>onclick </c><00:10:52.113><c>y </c><00:10:52.410><c>establece </c><00:10:52.707><c>la </c><00:10:53.004><c>propiedad </c><00:10:53.301><c>visible </c><00:10:53.598><c>en</c>
+
+00:10:53.829 --> 00:10:53.839 align:start position:0%
+propiedad onclick y establece la propiedad visible en
+ 
+
+00:10:53.839 --> 00:10:56.310 align:start position:0%
+propiedad onclick y establece la propiedad visible en
+falso <00:10:54.119><c>dentro </c><00:10:54.399><c>de </c><00:10:54.679><c>ella.  </c><00:10:54.959><c>Luego, </c><00:10:55.239><c>pasa </c><00:10:55.519><c>estas </c><00:10:55.799><c>clases </c><00:10:56.079><c>para</c>
+
+00:10:56.310 --> 00:10:56.320 align:start position:0%
+falso dentro de ella.  Luego, pasa estas clases para
+ 
+
+00:10:56.320 --> 00:10:58.630 align:start position:0%
+falso dentro de ella.  Luego, pasa estas clases para
+darle <00:10:56.536><c>margen </c><00:10:56.752><c>superior </c><00:10:56.968><c>y </c><00:10:57.184><c>color </c><00:10:57.400><c>al </c><00:10:57.616><c>pasar </c><00:10:57.832><c>el </c><00:10:58.048><c>cursor </c><00:10:58.264><c>sobre </c><00:10:58.480><c>este</c>
+
+00:10:58.630 --> 00:10:58.640 align:start position:0%
+darle margen superior y color al pasar el cursor sobre este
+ 
+
+00:10:58.640 --> 00:11:00.230 align:start position:0%
+darle margen superior y color al pasar el cursor sobre este
+botón.
+
+00:11:00.230 --> 00:11:00.240 align:start position:0%
+botón.
+ 
+
+00:11:00.240 --> 00:11:03.430 align:start position:0%
+botón.
+Ahora <00:11:00.651><c>ve </c><00:11:01.062><c>a </c><00:11:01.473><c>la </c><00:11:01.884><c>página </c><00:11:02.295><c>principal </c><00:11:02.706><c>aquí.  </c><00:11:03.117><c>Importar</c>
+
+00:11:03.430 --> 00:11:03.440 align:start position:0%
+Ahora ve a la página principal aquí.  Importar
+ 
+
+00:11:03.440 --> 00:11:05.190 align:start position:0%
+Ahora ve a la página principal aquí.  Importar
+componente de tarjeta.
+
+00:11:05.190 --> 00:11:05.200 align:start position:0%
+componente de tarjeta.
+ 
+
+00:11:05.200 --> 00:11:07.430 align:start position:0%
+componente de tarjeta.
+Luego, <00:11:05.462><c>renderiza </c><00:11:05.724><c>la </c><00:11:05.986><c>tarjeta </c><00:11:06.248><c>y </c><00:11:06.510><c>pásale </c><00:11:06.772><c>solo </c><00:11:07.034><c>la</c>
+
+00:11:07.430 --> 00:11:07.440 align:start position:0%
+Luego, renderiza la tarjeta y pásale solo la
+ 
+
+00:11:07.440 --> 00:11:09.750 align:start position:0%
+Luego, renderiza la tarjeta y pásale solo la
+propiedad <00:11:07.773><c>message, </c><00:11:08.106><c>ya </c><00:11:08.439><c>que </c><00:11:08.772><c>es </c><00:11:09.105><c>necesaria.  </c><00:11:09.438><c>Luego,</c>
+
+00:11:09.750 --> 00:11:09.760 align:start position:0%
+propiedad message, ya que es necesaria.  Luego,
+ 
+
+00:11:09.760 --> 00:11:12.069 align:start position:0%
+propiedad message, ya que es necesaria.  Luego,
+renderiza <00:11:10.010><c>la </c><00:11:10.260><c>tarjeta </c><00:11:10.510><c>dos </c><00:11:10.760><c>veces </c><00:11:11.010><c>y </c><00:11:11.260><c>pásale </c><00:11:11.510><c>las </c><00:11:11.760><c>tres</c>
+
+00:11:12.069 --> 00:11:12.079 align:start position:0%
+renderiza la tarjeta dos veces y pásale las tres
+ 
+
+00:11:12.079 --> 00:11:17.829 align:start position:0%
+renderiza la tarjeta dos veces y pásale las tres
+propiedades.
+
+00:11:17.829 --> 00:11:17.839 align:start position:0%
+ 
+ 
+
+00:11:17.839 --> 00:11:20.710 align:start position:0%
+ 
+Ahora <00:11:18.204><c>ejecuta </c><00:11:18.569><c>la </c><00:11:18.934><c>aplicación.  </c><00:11:19.299><c>Aquí </c><00:11:19.664><c>podemos </c><00:11:20.029><c>ver </c><00:11:20.394><c>las</c>
+
+00:11:20.710 --> 00:11:20.720 align:start position:0%
+Ahora ejecuta la aplicación.  Aquí podemos ver las
+ 
+
+00:11:20.720 --> 00:11:23.750 align:start position:0%
+Ahora ejecuta la aplicación.  Aquí podemos ver las
+tres <00:11:21.160><c>cartas.  </c><00:11:21.600><c>La </c><00:11:22.040><c>primera </c><00:11:22.480><c>tarjeta </c><00:11:22.920><c>utiliza </c><00:11:23.360><c>el</c>
+
+00:11:23.750 --> 00:11:23.760 align:start position:0%
+tres cartas.  La primera tarjeta utiliza el
+ 
+
+00:11:23.760 --> 00:11:25.990 align:start position:0%
+tres cartas.  La primera tarjeta utiliza el
+valor <00:11:24.034><c>de </c><00:11:24.308><c>información </c><00:11:24.582><c>predeterminado </c><00:11:24.856><c>y </c><00:11:25.130><c>el </c><00:11:25.404><c>color </c><00:11:25.678><c>correspondiente</c>
+
+00:11:25.990 --> 00:11:26.000 align:start position:0%
+valor de información predeterminado y el color correspondiente
+ 
+
+00:11:26.000 --> 00:11:27.990 align:start position:0%
+valor de información predeterminado y el color correspondiente
+.  <00:11:26.459><c>Y </c><00:11:26.918><c>tampoco </c><00:11:27.377><c>tiene </c><00:11:27.836><c>un</c>
+
+00:11:27.990 --> 00:11:28.000 align:start position:0%
+.  Y tampoco tiene un
+ 
+
+00:11:28.000 --> 00:11:30.310 align:start position:0%
+.  Y tampoco tiene un
+botón <00:11:28.240><c>para </c><00:11:28.480><c>descartar, </c><00:11:28.720><c>ya </c><00:11:28.960><c>que </c><00:11:29.200><c>por </c><00:11:29.440><c>defecto </c><00:11:29.680><c>la</c>
+
+00:11:30.310 --> 00:11:30.320 align:start position:0%
+botón para descartar, ya que por defecto la
+ 
+
+00:11:30.320 --> 00:11:33.269 align:start position:0%
+botón para descartar, ya que por defecto la
+propiedad <00:11:30.604><c>dismissible </c><00:11:30.888><c>tiene </c><00:11:31.172><c>un </c><00:11:31.456><c>valor </c><00:11:31.740><c>falso.  </c><00:11:32.024><c>Las </c><00:11:32.308><c>dos </c><00:11:32.592><c>tarjetas </c><00:11:32.876><c>siguientes</c>
+
+00:11:33.269 --> 00:11:33.279 align:start position:0%
+propiedad dismissible tiene un valor falso.  Las dos tarjetas siguientes
+ 
+
+00:11:33.279 --> 00:11:35.110 align:start position:0%
+propiedad dismissible tiene un valor falso.  Las dos tarjetas siguientes
+tienen <00:11:33.599><c>colores </c><00:11:33.919><c>diferentes </c><00:11:34.239><c>y </c><00:11:34.559><c>también </c><00:11:34.879><c>tienen</c>
+
+00:11:35.110 --> 00:11:35.120 align:start position:0%
+tienen colores diferentes y también tienen
+ 
+
+00:11:35.120 --> 00:11:36.949 align:start position:0%
+tienen colores diferentes y también tienen
+botones <00:11:35.302><c>para </c><00:11:35.484><c>descartarlas, </c><00:11:35.666><c>ya </c><00:11:35.848><c>que </c><00:11:36.030><c>deliberadamente </c><00:11:36.212><c>les </c><00:11:36.394><c>hemos</c>
+
+00:11:36.949 --> 00:11:36.959 align:start position:0%
+botones para descartarlas, ya que deliberadamente les hemos
+ 
+
+00:11:36.959 --> 00:11:39.829 align:start position:0%
+botones para descartarlas, ya que deliberadamente les hemos
+pasado <00:11:37.412><c>todas </c><00:11:37.865><c>las </c><00:11:38.318><c>propiedades.  </c><00:11:38.771><c>Así </c><00:11:39.224><c>que </c><00:11:39.677><c>tienen</c>
+
+00:11:39.829 --> 00:11:39.839 align:start position:0%
+pasado todas las propiedades.  Así que tienen
+ 
+
+00:11:39.839 --> 00:11:42.310 align:start position:0%
+pasado todas las propiedades.  Así que tienen
+diferentes <00:11:40.225><c>colores </c><00:11:40.611><c>y </c><00:11:40.997><c>botones.  </c><00:11:41.383><c>Ahora, </c><00:11:41.769><c>si </c><00:11:42.155><c>hacemos</c>
+
+00:11:42.310 --> 00:11:42.320 align:start position:0%
+diferentes colores y botones.  Ahora, si hacemos
+ 
+
+00:11:42.320 --> 00:11:44.550 align:start position:0%
+diferentes colores y botones.  Ahora, si hacemos
+clic <00:11:42.570><c>en </c><00:11:42.820><c>el </c><00:11:43.070><c>botón </c><00:11:43.320><c>de </c><00:11:43.570><c>descartar, </c><00:11:43.820><c>esa </c><00:11:44.070><c>tarjeta </c><00:11:44.320><c>se</c>
+
+00:11:44.550 --> 00:11:44.560 align:start position:0%
+clic en el botón de descartar, esa tarjeta se
+ 
+
+00:11:44.560 --> 00:11:47.269 align:start position:0%
+clic en el botón de descartar, esa tarjeta se
+eliminará.  <00:11:44.902><c>Así </c><00:11:45.244><c>es </c><00:11:45.586><c>como </c><00:11:45.928><c>creamos </c><00:11:46.270><c>y </c><00:11:46.612><c>usamos </c><00:11:46.954><c>las</c>
+
+00:11:47.269 --> 00:11:47.279 align:start position:0%
+eliminará.  Así es como creamos y usamos las
+ 
+
+00:11:47.279 --> 00:11:49.509 align:start position:0%
+eliminará.  Así es como creamos y usamos las
+propiedades <00:11:47.680><c>predeterminadas.</c>
+
+00:11:49.509 --> 00:11:49.519 align:start position:0%
+propiedades predeterminadas.
+ 
+
+00:11:49.519 --> 00:11:52.310 align:start position:0%
+propiedades predeterminadas.
+Ahora <00:11:49.749><c>hablemos </c><00:11:49.979><c>de </c><00:11:50.209><c>los </c><00:11:50.439><c>eventos </c><00:11:50.669><c>de </c><00:11:50.899><c>los </c><00:11:51.129><c>componentes.   </c><00:11:51.359><c>Los</c>
+
+00:11:52.310 --> 00:11:52.320 align:start position:0%
+Ahora hablemos de los eventos de los componentes.   Los
+ 
+
+00:11:52.320 --> 00:11:55.110 align:start position:0%
+Ahora hablemos de los eventos de los componentes.   Los
+eventos <00:11:52.620><c>de </c><00:11:52.920><c>componentes </c><00:11:53.220><c>en </c><00:11:53.520><c>spelt </c><00:11:53.820><c>5 </c><00:11:54.120><c>permiten </c><00:11:54.420><c>que </c><00:11:54.720><c>los</c>
+
+00:11:55.110 --> 00:11:55.120 align:start position:0%
+eventos de componentes en spelt 5 permiten que los
+ 
+
+00:11:55.120 --> 00:11:56.630 align:start position:0%
+eventos de componentes en spelt 5 permiten que los
+componentes <00:11:55.392><c>hijos </c><00:11:55.664><c>se </c><00:11:55.936><c>comuniquen </c><00:11:56.208><c>con </c><00:11:56.480><c>sus</c>
+
+00:11:56.630 --> 00:11:56.640 align:start position:0%
+componentes hijos se comuniquen con sus
+ 
+
+00:11:56.640 --> 00:11:58.870 align:start position:0%
+componentes hijos se comuniquen con sus
+componentes <00:11:57.008><c>padres </c><00:11:57.376><c>mediante </c><00:11:57.744><c>el </c><00:11:58.112><c>envío </c><00:11:58.480><c>de</c>
+
+00:11:58.870 --> 00:11:58.880 align:start position:0%
+componentes padres mediante el envío de
+ 
+
+00:11:58.880 --> 00:12:01.430 align:start position:0%
+componentes padres mediante el envío de
+eventos <00:11:59.253><c>personalizados.  </c><00:11:59.626><c>Este </c><00:11:59.999><c>patrón </c><00:12:00.372><c>de </c><00:12:00.745><c>comunicación </c><00:12:01.118><c>es</c>
+
+00:12:01.430 --> 00:12:01.440 align:start position:0%
+eventos personalizados.  Este patrón de comunicación es
+ 
+
+00:12:01.440 --> 00:12:03.110 align:start position:0%
+eventos personalizados.  Este patrón de comunicación es
+esencial <00:12:01.960><c>para </c><00:12:02.480><c>crear</c>
+
+00:12:03.110 --> 00:12:03.120 align:start position:0%
+esencial para crear
+ 
+
+00:12:03.120 --> 00:12:05.509 align:start position:0%
+esencial para crear
+aplicaciones <00:12:03.380><c>interactivas </c><00:12:03.640><c>donde </c><00:12:03.900><c>las </c><00:12:04.160><c>acciones </c><00:12:04.420><c>del </c><00:12:04.680><c>usuario </c><00:12:04.940><c>en </c><00:12:05.200><c>los</c>
+
+00:12:05.509 --> 00:12:05.519 align:start position:0%
+aplicaciones interactivas donde las acciones del usuario en los
+ 
+
+00:12:05.519 --> 00:12:07.670 align:start position:0%
+aplicaciones interactivas donde las acciones del usuario en los
+componentes <00:12:05.839><c>secundarios </c><00:12:06.159><c>deben </c><00:12:06.479><c>desencadenar </c><00:12:06.799><c>respuestas </c><00:12:07.119><c>en </c><00:12:07.439><c>los</c>
+
+00:12:07.670 --> 00:12:07.680 align:start position:0%
+componentes secundarios deben desencadenar respuestas en los
+ 
+
+00:12:07.680 --> 00:12:09.350 align:start position:0%
+componentes secundarios deben desencadenar respuestas en los
+componentes <00:12:07.906><c>principales.  </c><00:12:08.132><c>Los </c><00:12:08.358><c>eventos </c><00:12:08.584><c>de </c><00:12:08.810><c>los </c><00:12:09.036><c>componentes</c>
+
+00:12:09.350 --> 00:12:09.360 align:start position:0%
+componentes principales.  Los eventos de los componentes
+ 
+
+00:12:09.360 --> 00:12:11.350 align:start position:0%
+componentes principales.  Los eventos de los componentes
+siguen <00:12:09.600><c>un </c><00:12:09.840><c>patrón </c><00:12:10.080><c>de </c><00:12:10.320><c>flujo </c><00:12:10.560><c>de </c><00:12:10.800><c>datos </c><00:12:11.040><c>unidireccional,</c>
+
+00:12:11.350 --> 00:12:11.360 align:start position:0%
+siguen un patrón de flujo de datos unidireccional,
+ 
+
+00:12:11.360 --> 00:12:13.190 align:start position:0%
+siguen un patrón de flujo de datos unidireccional,
+donde <00:12:11.759><c>las </c><00:12:12.158><c>propiedades </c><00:12:12.557><c>fluyen </c><00:12:12.956><c>de</c>
+
+00:12:13.190 --> 00:12:13.200 align:start position:0%
+donde las propiedades fluyen de
+ 
+
+00:12:13.200 --> 00:12:15.829 align:start position:0%
+donde las propiedades fluyen de
+padre <00:12:13.531><c>a </c><00:12:13.862><c>hijo </c><00:12:14.193><c>y </c><00:12:14.524><c>los </c><00:12:14.855><c>eventos </c><00:12:15.186><c>fluyen </c><00:12:15.517><c>de</c>
+
+00:12:15.829 --> 00:12:15.839 align:start position:0%
+padre a hijo y los eventos fluyen de
+ 
+
+00:12:15.839 --> 00:12:18.470 align:start position:0%
+padre a hijo y los eventos fluyen de
+hijo <00:12:16.172><c>a </c><00:12:16.505><c>padre.  </c><00:12:16.838><c>Este </c><00:12:17.171><c>enfoque </c><00:12:17.504><c>mantiene </c><00:12:17.837><c>una</c>
+
+00:12:18.470 --> 00:12:18.480 align:start position:0%
+hijo a padre.  Este enfoque mantiene una
+ 
+
+00:12:18.480 --> 00:12:20.550 align:start position:0%
+hijo a padre.  Este enfoque mantiene una
+clara <00:12:18.742><c>separación </c><00:12:19.004><c>de </c><00:12:19.266><c>responsabilidades </c><00:12:19.528><c>y </c><00:12:19.790><c>hace </c><00:12:20.052><c>que </c><00:12:20.314><c>los</c>
+
+00:12:20.550 --> 00:12:20.560 align:start position:0%
+clara separación de responsabilidades y hace que los
+ 
+
+00:12:20.560 --> 00:12:23.269 align:start position:0%
+clara separación de responsabilidades y hace que los
+componentes <00:12:20.811><c>sean </c><00:12:21.062><c>más </c><00:12:21.313><c>reutilizables </c><00:12:21.564><c>y </c><00:12:21.815><c>fáciles </c><00:12:22.066><c>de </c><00:12:22.317><c>probar.</c>
+
+00:12:23.269 --> 00:12:23.279 align:start position:0%
+componentes sean más reutilizables y fáciles de probar.
+ 
+
+00:12:23.279 --> 00:12:25.910 align:start position:0%
+componentes sean más reutilizables y fáciles de probar.
+Vamos <00:12:23.507><c>a </c><00:12:23.735><c>entenderlo </c><00:12:23.963><c>con </c><00:12:24.191><c>un </c><00:12:24.419><c>ejemplo </c><00:12:24.647><c>de </c><00:12:24.875><c>código.</c>
+
+00:12:25.910 --> 00:12:25.920 align:start position:0%
+Vamos a entenderlo con un ejemplo de código.
+ 
+
+00:12:25.920 --> 00:12:28.629 align:start position:0%
+Vamos a entenderlo con un ejemplo de código.
+Primero, <00:12:26.256><c>crea </c><00:12:26.592><c>el </c><00:12:26.928><c>componente </c><00:12:27.264><c>de </c><00:12:27.600><c>mensaje.</c>
+
+00:12:28.629 --> 00:12:28.639 align:start position:0%
+Primero, crea el componente de mensaje.
+ 
+
+00:12:28.639 --> 00:12:31.590 align:start position:0%
+Primero, crea el componente de mensaje.
+Dentro <00:12:29.079><c>crea </c><00:12:29.519><c>una </c><00:12:29.959><c>sección </c><00:12:30.399><c>de </c><00:12:30.839><c>script.  </c><00:12:31.279><c>Luego,</c>
+
+00:12:31.590 --> 00:12:31.600 align:start position:0%
+Dentro crea una sección de script.  Luego,
+ 
+
+00:12:31.600 --> 00:12:34.629 align:start position:0%
+Dentro crea una sección de script.  Luego,
+crea <00:12:31.942><c>una </c><00:12:32.284><c>interfaz </c><00:12:32.626><c>de </c><00:12:32.968><c>propiedades.  </c><00:12:33.310><c>Dentro </c><00:12:33.652><c>de </c><00:12:33.994><c>ella,</c>
+
+00:12:34.629 --> 00:12:34.639 align:start position:0%
+crea una interfaz de propiedades.  Dentro de ella,
+ 
+
+00:12:34.639 --> 00:12:36.629 align:start position:0%
+crea una interfaz de propiedades.  Dentro de ella,
+crea <00:12:34.902><c>una </c><00:12:35.165><c>propiedad </c><00:12:35.428><c>on </c><00:12:35.691><c>click </c><00:12:35.954><c>que </c><00:12:36.217><c>es </c><00:12:36.480><c>una</c>
+
+00:12:36.629 --> 00:12:36.639 align:start position:0%
+crea una propiedad on click que es una
+ 
+
+00:12:36.639 --> 00:12:38.230 align:start position:0%
+crea una propiedad on click que es una
+función <00:12:36.822><c>que </c><00:12:37.005><c>toma </c><00:12:37.188><c>un </c><00:12:37.371><c>parámetro </c><00:12:37.554><c>de </c><00:12:37.737><c>tipo </c><00:12:37.920><c>cadena</c>
+
+00:12:38.230 --> 00:12:38.240 align:start position:0%
+función que toma un parámetro de tipo cadena
+ 
+
+00:12:38.240 --> 00:12:41.670 align:start position:0%
+función que toma un parámetro de tipo cadena
+llamado <00:12:38.760><c>message </c><00:12:39.280><c>y </c><00:12:39.800><c>devuelve </c><00:12:40.320><c>void.</c>
+
+00:12:41.670 --> 00:12:41.680 align:start position:0%
+llamado message y devuelve void.
+ 
+
+00:12:41.680 --> 00:12:44.069 align:start position:0%
+llamado message y devuelve void.
+Luego, <00:12:41.977><c>crea </c><00:12:42.274><c>una </c><00:12:42.571><c>propiedad </c><00:12:42.868><c>on </c><00:12:43.165><c>click </c><00:12:43.462><c>de </c><00:12:43.759><c>tipo</c>
+
+00:12:44.069 --> 00:12:44.079 align:start position:0%
+Luego, crea una propiedad on click de tipo
+ 
+
+00:12:44.079 --> 00:12:46.550 align:start position:0%
+Luego, crea una propiedad on click de tipo
+props <00:12:44.495><c>interface </c><00:12:44.911><c>y </c><00:12:45.327><c>usa </c><00:12:45.743><c>props </c><00:12:46.159><c>rune</c>
+
+00:12:46.550 --> 00:12:46.560 align:start position:0%
+props interface y usa props rune
+ 
+
+00:12:46.560 --> 00:12:49.590 align:start position:0%
+props interface y usa props rune
+dstructure <00:12:47.120><c>para </c><00:12:47.680><c>las </c><00:12:48.240><c>props </c><00:12:48.800><c>entrantes.  </c><00:12:49.360><c>Aquí</c>
+
+00:12:49.590 --> 00:12:49.600 align:start position:0%
+dstructure para las props entrantes.  Aquí
+ 
+
+00:12:49.600 --> 00:12:51.350 align:start position:0%
+dstructure para las props entrantes.  Aquí
+estamos <00:12:49.853><c>tomando </c><00:12:50.106><c>una </c><00:12:50.359><c>función </c><00:12:50.612><c>void </c><00:12:50.865><c>con </c><00:12:51.118><c>un</c>
+
+00:12:51.350 --> 00:12:51.360 align:start position:0%
+estamos tomando una función void con un
+ 
+
+00:12:51.360 --> 00:12:54.470 align:start position:0%
+estamos tomando una función void con un
+parámetro <00:12:51.952><c>como </c><00:12:52.544><c>props.  </c><00:12:53.136><c>Después, </c><00:12:53.728><c>crea </c><00:12:54.320><c>una</c>
+
+00:12:54.470 --> 00:12:54.480 align:start position:0%
+parámetro como props.  Después, crea una
+ 
+
+00:12:54.480 --> 00:12:56.710 align:start position:0%
+parámetro como props.  Después, crea una
+función <00:12:54.879><c>y </c><00:12:55.278><c>nómbrala </c><00:12:55.677><c>como </c><00:12:56.076><c>quieras.</c>
+
+00:12:56.710 --> 00:12:56.720 align:start position:0%
+función y nómbrala como quieras.
+ 
+
+00:12:56.720 --> 00:12:59.110 align:start position:0%
+función y nómbrala como quieras.
+Dentro <00:12:56.928><c>de </c><00:12:57.136><c>ella, </c><00:12:57.344><c>llama </c><00:12:57.552><c>a </c><00:12:57.760><c>la </c><00:12:57.968><c>función </c><00:12:58.176><c>de </c><00:12:58.384><c>clic </c><00:12:58.592><c>y </c><00:12:58.800><c>le</c>
+
+00:12:59.110 --> 00:12:59.120 align:start position:0%
+Dentro de ella, llama a la función de clic y le
+ 
+
+00:12:59.120 --> 00:13:01.670 align:start position:0%
+Dentro de ella, llama a la función de clic y le
+pasa <00:12:59.453><c>el </c><00:12:59.786><c>mensaje </c><00:13:00.119><c>de </c><00:13:00.452><c>cadena </c><00:13:00.785><c>como </c><00:13:01.118><c>parámetro.</c>
+
+00:13:01.670 --> 00:13:01.680 align:start position:0%
+pasa el mensaje de cadena como parámetro.
+ 
+
+00:13:01.680 --> 00:13:03.670 align:start position:0%
+pasa el mensaje de cadena como parámetro.
+Puede <00:13:01.960><c>que </c><00:13:02.240><c>ahora </c><00:13:02.520><c>mismo </c><00:13:02.800><c>resulte </c><00:13:03.080><c>confuso, </c><00:13:03.360><c>pero</c>
+
+00:13:03.670 --> 00:13:03.680 align:start position:0%
+Puede que ahora mismo resulte confuso, pero
+ 
+
+00:13:03.680 --> 00:13:05.509 align:start position:0%
+Puede que ahora mismo resulte confuso, pero
+después <00:13:03.935><c>de </c><00:13:04.190><c>implementar </c><00:13:04.445><c>el </c><00:13:04.700><c>componente </c><00:13:04.955><c>padre</c>
+
+00:13:05.509 --> 00:13:05.519 align:start position:0%
+después de implementar el componente padre
+ 
+
+00:13:05.519 --> 00:13:07.670 align:start position:0%
+después de implementar el componente padre
+todo <00:13:05.793><c>quedará </c><00:13:06.067><c>claro.  </c><00:13:06.341><c>A </c><00:13:06.615><c>continuación, </c><00:13:06.889><c>ve </c><00:13:07.163><c>a </c><00:13:07.437><c>la</c>
+
+00:13:07.670 --> 00:13:07.680 align:start position:0%
+todo quedará claro.  A continuación, ve a la
+ 
+
+00:13:07.680 --> 00:13:09.750 align:start position:0%
+todo quedará claro.  A continuación, ve a la
+sección <00:13:07.973><c>de </c><00:13:08.266><c>plantillas </c><00:13:08.559><c>y </c><00:13:08.852><c>crea </c><00:13:09.145><c>un </c><00:13:09.438><c>botón</c>
+
+00:13:09.750 --> 00:13:09.760 align:start position:0%
+sección de plantillas y crea un botón
+ 
+
+00:13:09.760 --> 00:13:11.990 align:start position:0%
+sección de plantillas y crea un botón
+aquí.  <00:13:09.960><c>Llama </c><00:13:10.160><c>a </c><00:13:10.360><c>la </c><00:13:10.560><c>función </c><00:13:10.760><c>de </c><00:13:10.960><c>envío </c><00:13:11.160><c>de </c><00:13:11.360><c>mensajes </c><00:13:11.560><c>al </c><00:13:11.760><c>hacer</c>
+
+00:13:11.990 --> 00:13:12.000 align:start position:0%
+aquí.  Llama a la función de envío de mensajes al hacer
+ 
+
+00:13:12.000 --> 00:13:14.629 align:start position:0%
+aquí.  Llama a la función de envío de mensajes al hacer
+clic <00:13:12.280><c>en </c><00:13:12.560><c>el </c><00:13:12.840><c>botón </c><00:13:13.120><c>y </c><00:13:13.400><c>luego </c><00:13:13.680><c>aplica </c><00:13:13.960><c>algunos </c><00:13:14.240><c>estilos</c>
+
+00:13:14.629 --> 00:13:14.639 align:start position:0%
+clic en el botón y luego aplica algunos estilos
+ 
+
+00:13:14.639 --> 00:13:20.550 align:start position:0%
+clic en el botón y luego aplica algunos estilos
+al <00:13:14.959><c>botón.</c>
+
+00:13:20.550 --> 00:13:20.560 align:start position:0%
+ 
+ 
+
+00:13:20.560 --> 00:13:23.269 align:start position:0%
+ 
+Ahora <00:13:20.902><c>ven </c><00:13:21.244><c>a </c><00:13:21.586><c>la </c><00:13:21.928><c>página </c><00:13:22.270><c>principal </c><00:13:22.612><c>aquí.  </c><00:13:22.954><c>Importa</c>
+
+00:13:23.269 --> 00:13:23.279 align:start position:0%
+Ahora ven a la página principal aquí.  Importa
+ 
+
+00:13:23.279 --> 00:13:25.509 align:start position:0%
+Ahora ven a la página principal aquí.  Importa
+este <00:13:23.519><c>componente </c><00:13:23.759><c>de </c><00:13:23.999><c>mensaje.</c>
+
+00:13:25.509 --> 00:13:25.519 align:start position:0%
+este componente de mensaje.
+ 
+
+00:13:25.519 --> 00:13:28.069 align:start position:0%
+este componente de mensaje.
+A <00:13:25.839><c>continuación, </c><00:13:26.159><c>crea </c><00:13:26.479><c>una </c><00:13:26.799><c>variable </c><00:13:27.119><c>de </c><00:13:27.439><c>mensaje </c><00:13:27.759><c>de</c>
+
+00:13:28.069 --> 00:13:28.079 align:start position:0%
+A continuación, crea una variable de mensaje de
+ 
+
+00:13:28.079 --> 00:13:29.910 align:start position:0%
+A continuación, crea una variable de mensaje de
+tipo <00:13:28.383><c>cadena </c><00:13:28.687><c>e </c><00:13:28.991><c>inicialízala </c><00:13:29.295><c>con </c><00:13:29.599><c>un</c>
+
+00:13:29.910 --> 00:13:29.920 align:start position:0%
+tipo cadena e inicialízala con un
+ 
+
+00:13:29.920 --> 00:13:31.829 align:start position:0%
+tipo cadena e inicialízala con un
+valor <00:13:30.137><c>de </c><00:13:30.354><c>cadena.  </c><00:13:30.571><c>Luego, </c><00:13:30.788><c>crea </c><00:13:31.005><c>una </c><00:13:31.222><c>función </c><00:13:31.439><c>llamada</c>
+
+00:13:31.829 --> 00:13:31.839 align:start position:0%
+valor de cadena.  Luego, crea una función llamada
+ 
+
+00:13:31.839 --> 00:13:34.470 align:start position:0%
+valor de cadena.  Luego, crea una función llamada
+handleclick <00:13:32.087><c>y </c><00:13:32.335><c>pásale </c><00:13:32.583><c>un </c><00:13:32.831><c>parámetro </c><00:13:33.079><c>de </c><00:13:33.327><c>tipo </c><00:13:33.575><c>cadena </c><00:13:33.823><c>llamado </c><00:13:34.071><c>child</c>
+
+00:13:34.470 --> 00:13:34.480 align:start position:0%
+handleclick y pásale un parámetro de tipo cadena llamado child
+ 
+
+00:13:34.480 --> 00:13:36.870 align:start position:0%
+handleclick y pásale un parámetro de tipo cadena llamado child
+message.  <00:13:35.119><c>Dentro </c><00:13:35.758><c>de </c><00:13:36.397><c>él,</c>
+
+00:13:36.870 --> 00:13:36.880 align:start position:0%
+message.  Dentro de él,
+ 
+
+00:13:36.880 --> 00:13:38.949 align:start position:0%
+message.  Dentro de él,
+asigne <00:13:37.259><c>este </c><00:13:37.638><c>parámetro </c><00:13:38.017><c>a </c><00:13:38.396><c>la</c>
+
+00:13:38.949 --> 00:13:38.959 align:start position:0%
+asigne este parámetro a la
+ 
+
+00:13:38.959 --> 00:13:41.670 align:start position:0%
+asigne este parámetro a la
+variable <00:13:39.372><c>de </c><00:13:39.785><c>mensaje.  </c><00:13:40.198><c>Esta </c><00:13:40.611><c>función </c><00:13:41.024><c>sirve </c><00:13:41.437><c>de</c>
+
+00:13:41.670 --> 00:13:41.680 align:start position:0%
+variable de mensaje.  Esta función sirve de
+ 
+
+00:13:41.680 --> 00:13:43.350 align:start position:0%
+variable de mensaje.  Esta función sirve de
+puente <00:13:41.866><c>entre </c><00:13:42.052><c>el </c><00:13:42.238><c>evento </c><00:13:42.424><c>del </c><00:13:42.610><c>componente </c><00:13:42.796><c>hijo</c>
+
+00:13:43.350 --> 00:13:43.360 align:start position:0%
+puente entre el evento del componente hijo
+ 
+
+00:13:43.360 --> 00:13:45.829 align:start position:0%
+puente entre el evento del componente hijo
+y <00:13:43.668><c>el </c><00:13:43.976><c>estado </c><00:13:44.284><c>del </c><00:13:44.592><c>componente </c><00:13:44.900><c>padre.  </c><00:13:45.208><c>En </c><00:13:45.516><c>la</c>
+
+00:13:45.829 --> 00:13:45.839 align:start position:0%
+y el estado del componente padre.  En la
+ 
+
+00:13:45.839 --> 00:13:47.829 align:start position:0%
+y el estado del componente padre.  En la
+sección <00:13:46.239><c>de </c><00:13:46.639><c>plantilla, </c><00:13:47.039><c>renderiza </c><00:13:47.439><c>el</c>
+
+00:13:47.829 --> 00:13:47.839 align:start position:0%
+sección de plantilla, renderiza el
+ 
+
+00:13:47.839 --> 00:13:50.069 align:start position:0%
+sección de plantilla, renderiza el
+componente <00:13:48.031><c>de </c><00:13:48.223><c>mensaje </c><00:13:48.415><c>y </c><00:13:48.607><c>pasa </c><00:13:48.799><c>esta </c><00:13:48.991><c>función </c><00:13:49.183><c>de </c><00:13:49.375><c>control </c><00:13:49.567><c>de </c><00:13:49.759><c>clic</c>
+
+00:13:50.069 --> 00:13:50.079 align:start position:0%
+componente de mensaje y pasa esta función de control de clic
+ 
+
+00:13:50.079 --> 00:13:52.150 align:start position:0%
+componente de mensaje y pasa esta función de control de clic
+a <00:13:50.539><c>la </c><00:13:50.999><c>propiedad </c><00:13:51.459><c>onclick </c><00:13:51.919><c>del</c>
+
+00:13:52.150 --> 00:13:52.160 align:start position:0%
+a la propiedad onclick del
+ 
+
+00:13:52.160 --> 00:13:54.230 align:start position:0%
+a la propiedad onclick del
+componente <00:13:52.512><c>y </c><00:13:52.864><c>luego </c><00:13:53.216><c>muestra </c><00:13:53.568><c>el </c><00:13:53.920><c>mensaje</c>
+
+00:13:54.230 --> 00:13:54.240 align:start position:0%
+componente y luego muestra el mensaje
+ 
+
+00:13:54.240 --> 00:13:57.350 align:start position:0%
+componente y luego muestra el mensaje
+en <00:13:54.651><c>el </c><00:13:55.062><c>párrafo.  </c><00:13:55.473><c>Ahora </c><00:13:55.884><c>vamos </c><00:13:56.295><c>a </c><00:13:56.706><c>entender </c><00:13:57.117><c>qué</c>
+
+00:13:57.350 --> 00:13:57.360 align:start position:0%
+en el párrafo.  Ahora vamos a entender qué
+ 
+
+00:13:57.360 --> 00:13:59.990 align:start position:0%
+en el párrafo.  Ahora vamos a entender qué
+hicimos <00:13:57.840><c>aquí </c><00:13:58.320><c>en </c><00:13:58.800><c>el </c><00:13:59.280><c>componente </c><00:13:59.760><c>padre.</c>
+
+00:13:59.990 --> 00:14:00.000 align:start position:0%
+hicimos aquí en el componente padre.
+ 
+
+00:14:00.000 --> 00:14:01.990 align:start position:0%
+hicimos aquí en el componente padre.
+Creamos <00:14:00.293><c>una </c><00:14:00.586><c>variable </c><00:14:00.879><c>de </c><00:14:01.172><c>mensaje </c><00:14:01.465><c>con </c><00:14:01.758><c>un</c>
+
+00:14:01.990 --> 00:14:02.000 align:start position:0%
+Creamos una variable de mensaje con un
+ 
+
+00:14:02.000 --> 00:14:04.310 align:start position:0%
+Creamos una variable de mensaje con un
+valor <00:14:02.540><c>inicial.  </c><00:14:03.080><c>Luego </c><00:14:03.620><c>creamos </c><00:14:04.160><c>una</c>
+
+00:14:04.310 --> 00:14:04.320 align:start position:0%
+valor inicial.  Luego creamos una
+ 
+
+00:14:04.320 --> 00:14:06.310 align:start position:0%
+valor inicial.  Luego creamos una
+función <00:14:04.671><c>llamada </c><00:14:05.022><c>handle </c><00:14:05.373><c>click </c><00:14:05.724><c>que </c><00:14:06.075><c>toma</c>
+
+00:14:06.310 --> 00:14:06.320 align:start position:0%
+función llamada handle click que toma
+ 
+
+00:14:06.320 --> 00:14:08.790 align:start position:0%
+función llamada handle click que toma
+un <00:14:06.628><c>parámetro </c><00:14:06.936><c>de </c><00:14:07.244><c>tipo </c><00:14:07.552><c>cadena </c><00:14:07.860><c>y </c><00:14:08.168><c>asigna </c><00:14:08.476><c>este</c>
+
+00:14:08.790 --> 00:14:08.800 align:start position:0%
+un parámetro de tipo cadena y asigna este
+ 
+
+00:14:08.800 --> 00:14:11.430 align:start position:0%
+un parámetro de tipo cadena y asigna este
+parámetro <00:14:09.279><c>a </c><00:14:09.758><c>la </c><00:14:10.237><c>variable </c><00:14:10.716><c>message.  </c><00:14:11.195><c>Luego</c>
+
+00:14:11.430 --> 00:14:11.440 align:start position:0%
+parámetro a la variable message.  Luego
+ 
+
+00:14:11.440 --> 00:14:13.350 align:start position:0%
+parámetro a la variable message.  Luego
+pasamos <00:14:11.743><c>esta </c><00:14:12.046><c>función </c><00:14:12.349><c>al </c><00:14:12.652><c>componente </c><00:14:12.955><c>hijo</c>
+
+00:14:13.350 --> 00:14:13.360 align:start position:0%
+pasamos esta función al componente hijo
+ 
+
+00:14:13.360 --> 00:14:16.470 align:start position:0%
+pasamos esta función al componente hijo
+como <00:14:13.936><c>props.  </c><00:14:14.512><c>Dentro </c><00:14:15.088><c>del </c><00:14:15.664><c>componente </c><00:14:16.240><c>hijo</c>
+
+00:14:16.470 --> 00:14:16.480 align:start position:0%
+como props.  Dentro del componente hijo
+ 
+
+00:14:16.480 --> 00:14:18.629 align:start position:0%
+como props.  Dentro del componente hijo
+creamos <00:14:16.863><c>una </c><00:14:17.246><c>interfaz </c><00:14:17.629><c>que </c><00:14:18.012><c>declara </c><00:14:18.395><c>una</c>
+
+00:14:18.629 --> 00:14:18.639 align:start position:0%
+creamos una interfaz que declara una
+ 
+
+00:14:18.639 --> 00:14:21.189 align:start position:0%
+creamos una interfaz que declara una
+propiedad <00:14:19.025><c>de </c><00:14:19.411><c>tipo </c><00:14:19.797><c>función </c><00:14:20.183><c>llamada </c><00:14:20.569><c>onclick.  </c><00:14:20.955><c>Esta</c>
+
+00:14:21.189 --> 00:14:21.199 align:start position:0%
+propiedad de tipo función llamada onclick.  Esta
+ 
+
+00:14:21.199 --> 00:14:23.110 align:start position:0%
+propiedad de tipo función llamada onclick.  Esta
+función <00:14:21.389><c>toma </c><00:14:21.579><c>un </c><00:14:21.769><c>parámetro </c><00:14:21.959><c>de </c><00:14:22.149><c>tipo </c><00:14:22.339><c>cadena </c><00:14:22.529><c>llamado </c><00:14:22.719><c>mensaje</c>
+
+00:14:23.110 --> 00:14:23.120 align:start position:0%
+función toma un parámetro de tipo cadena llamado mensaje
+ 
+
+00:14:23.120 --> 00:14:25.910 align:start position:0%
+función toma un parámetro de tipo cadena llamado mensaje
+y <00:14:23.533><c>no </c><00:14:23.946><c>devuelve </c><00:14:24.359><c>ningún </c><00:14:24.772><c>valor.  </c><00:14:25.185><c>Luego </c><00:14:25.598><c>usamos</c>
+
+00:14:25.910 --> 00:14:25.920 align:start position:0%
+y no devuelve ningún valor.  Luego usamos
+ 
+
+00:14:25.920 --> 00:14:28.069 align:start position:0%
+y no devuelve ningún valor.  Luego usamos
+props <00:14:26.340><c>rune </c><00:14:26.760><c>para </c><00:14:27.180><c>desestructurar </c><00:14:27.600><c>las</c>
+
+00:14:28.069 --> 00:14:28.079 align:start position:0%
+props rune para desestructurar las
+ 
+
+00:14:28.079 --> 00:14:30.629 align:start position:0%
+props rune para desestructurar las
+props <00:14:28.465><c>entrantes.  </c><00:14:28.851><c>Después </c><00:14:29.237><c>de </c><00:14:29.623><c>eso, </c><00:14:30.009><c>creamos </c><00:14:30.395><c>la</c>
+
+00:14:30.629 --> 00:14:30.639 align:start position:0%
+props entrantes.  Después de eso, creamos la
+ 
+
+00:14:30.639 --> 00:14:33.110 align:start position:0%
+props entrantes.  Después de eso, creamos la
+función <00:14:30.896><c>de </c><00:14:31.153><c>envío </c><00:14:31.410><c>de </c><00:14:31.667><c>mensajes </c><00:14:31.924><c>y </c><00:14:32.181><c>dentro </c><00:14:32.438><c>de </c><00:14:32.695><c>ella </c><00:14:32.952><c>llamamos</c>
+
+00:14:33.110 --> 00:14:33.120 align:start position:0%
+función de envío de mensajes y dentro de ella llamamos
+ 
+
+00:14:33.120 --> 00:14:35.189 align:start position:0%
+función de envío de mensajes y dentro de ella llamamos
+a <00:14:33.306><c>la </c><00:14:33.492><c>función </c><00:14:33.678><c>al </c><00:14:33.864><c>hacer </c><00:14:34.050><c>clic </c><00:14:34.236><c>y </c><00:14:34.422><c>le </c><00:14:34.608><c>pasamos </c><00:14:34.794><c>un</c>
+
+00:14:35.189 --> 00:14:35.199 align:start position:0%
+a la función al hacer clic y le pasamos un
+ 
+
+00:14:35.199 --> 00:14:37.350 align:start position:0%
+a la función al hacer clic y le pasamos un
+valor <00:14:35.391><c>de </c><00:14:35.583><c>cadena, </c><00:14:35.775><c>ya </c><00:14:35.967><c>que </c><00:14:36.159><c>requiere </c><00:14:36.351><c>un </c><00:14:36.543><c>parámetro </c><00:14:36.735><c>de </c><00:14:36.927><c>tipo </c><00:14:37.119><c>cadena</c>
+
+00:14:37.350 --> 00:14:37.360 align:start position:0%
+valor de cadena, ya que requiere un parámetro de tipo cadena
+ 
+
+00:14:37.360 --> 00:14:39.829 align:start position:0%
+valor de cadena, ya que requiere un parámetro de tipo cadena
+.  <00:14:37.808><c>Luego </c><00:14:38.256><c>creamos </c><00:14:38.704><c>un </c><00:14:39.152><c>botón </c><00:14:39.600><c>y</c>
+
+00:14:39.829 --> 00:14:39.839 align:start position:0%
+.  Luego creamos un botón y
+ 
+
+00:14:39.839 --> 00:14:41.590 align:start position:0%
+.  Luego creamos un botón y
+llamamos <00:14:40.008><c>a </c><00:14:40.177><c>este </c><00:14:40.346><c>método </c><00:14:40.515><c>de </c><00:14:40.684><c>envío </c><00:14:40.853><c>de </c><00:14:41.022><c>mensajes </c><00:14:41.191><c>al </c><00:14:41.360><c>hacer</c>
+
+00:14:41.590 --> 00:14:41.600 align:start position:0%
+llamamos a este método de envío de mensajes al hacer
+ 
+
+00:14:41.600 --> 00:14:44.230 align:start position:0%
+llamamos a este método de envío de mensajes al hacer
+clic <00:14:41.825><c>en </c><00:14:42.050><c>el </c><00:14:42.275><c>botón.  </c><00:14:42.500><c>Ahora, </c><00:14:42.725><c>cuando </c><00:14:42.950><c>el </c><00:14:43.175><c>usuario </c><00:14:43.400><c>haga </c><00:14:43.625><c>clic </c><00:14:43.850><c>en </c><00:14:44.075><c>el</c>
+
+00:14:44.230 --> 00:14:44.240 align:start position:0%
+clic en el botón.  Ahora, cuando el usuario haga clic en el
+ 
+
+00:14:44.240 --> 00:14:46.389 align:start position:0%
+clic en el botón.  Ahora, cuando el usuario haga clic en el
+botón, <00:14:44.453><c>se </c><00:14:44.666><c>llamará </c><00:14:44.879><c>a </c><00:14:45.092><c>esta </c><00:14:45.305><c>función </c><00:14:45.518><c>de </c><00:14:45.731><c>envío </c><00:14:45.944><c>de </c><00:14:46.157><c>mensajes</c>
+
+00:14:46.389 --> 00:14:46.399 align:start position:0%
+botón, se llamará a esta función de envío de mensajes
+ 
+
+00:14:46.399 --> 00:14:48.389 align:start position:0%
+botón, se llamará a esta función de envío de mensajes
+.  <00:14:46.759><c>Luego, </c><00:14:47.119><c>llama </c><00:14:47.479><c>a </c><00:14:47.839><c>la</c>
+
+00:14:48.389 --> 00:14:48.399 align:start position:0%
+.  Luego, llama a la
+ 
+
+00:14:48.399 --> 00:14:50.710 align:start position:0%
+.  Luego, llama a la
+función <00:14:48.630><c>onclick </c><00:14:48.861><c>y </c><00:14:49.092><c>pasa </c><00:14:49.323><c>el </c><00:14:49.554><c>valor </c><00:14:49.785><c>de </c><00:14:50.016><c>la </c><00:14:50.247><c>cadena </c><00:14:50.478><c>a</c>
+
+00:14:50.710 --> 00:14:50.720 align:start position:0%
+función onclick y pasa el valor de la cadena a
+ 
+
+00:14:50.720 --> 00:14:53.430 align:start position:0%
+función onclick y pasa el valor de la cadena a
+este <00:14:51.120><c>mensaje.  </c><00:14:51.520><c>Luego, </c><00:14:51.920><c>este </c><00:14:52.320><c>valor </c><00:14:52.720><c>se </c><00:14:53.120><c>pasa</c>
+
+00:14:53.430 --> 00:14:53.440 align:start position:0%
+este mensaje.  Luego, este valor se pasa
+ 
+
+00:14:53.440 --> 00:14:55.189 align:start position:0%
+este mensaje.  Luego, este valor se pasa
+a <00:14:53.840><c>la </c><00:14:54.240><c>función </c><00:14:54.640><c>handleclick </c><00:14:55.040><c>del</c>
+
+00:14:55.189 --> 00:14:55.199 align:start position:0%
+a la función handleclick del
+ 
+
+00:14:55.199 --> 00:14:57.189 align:start position:0%
+a la función handleclick del
+componente <00:14:55.551><c>padre </c><00:14:55.903><c>porque </c><00:14:56.255><c>lo </c><00:14:56.607><c>pasamos </c><00:14:56.959><c>como</c>
+
+00:14:57.189 --> 00:14:57.199 align:start position:0%
+componente padre porque lo pasamos como
+ 
+
+00:14:57.199 --> 00:14:59.670 align:start position:0%
+componente padre porque lo pasamos como
+parámetro <00:14:57.759><c>al </c><00:14:58.319><c>componente </c><00:14:58.879><c>hijo.  </c><00:14:59.439><c>Luego,</c>
+
+00:14:59.670 --> 00:14:59.680 align:start position:0%
+parámetro al componente hijo.  Luego,
+ 
+
+00:14:59.680 --> 00:15:01.829 align:start position:0%
+parámetro al componente hijo.  Luego,
+esta <00:15:00.160><c>función </c><00:15:00.640><c>handleclick </c><00:15:01.120><c>asigna </c><00:15:01.600><c>el</c>
+
+00:15:01.829 --> 00:15:01.839 align:start position:0%
+esta función handleclick asigna el
+ 
+
+00:15:01.839 --> 00:15:04.710 align:start position:0%
+esta función handleclick asigna el
+valor <00:15:02.252><c>recibido </c><00:15:02.665><c>a </c><00:15:03.078><c>la </c><00:15:03.491><c>variable </c><00:15:03.904><c>message.  </c><00:15:04.317><c>Cuando</c>
+
+00:15:04.710 --> 00:15:04.720 align:start position:0%
+valor recibido a la variable message.  Cuando
+ 
+
+00:15:04.720 --> 00:15:07.350 align:start position:0%
+valor recibido a la variable message.  Cuando
+se <00:15:05.010><c>actualice </c><00:15:05.300><c>la </c><00:15:05.590><c>variable </c><00:15:05.880><c>de </c><00:15:06.170><c>mensaje, </c><00:15:06.460><c>el </c><00:15:06.750><c>valor </c><00:15:07.040><c>fechado</c>
+
+00:15:07.350 --> 00:15:07.360 align:start position:0%
+se actualice la variable de mensaje, el valor fechado
+ 
+
+00:15:07.360 --> 00:15:09.509 align:start position:0%
+se actualice la variable de mensaje, el valor fechado
+de <00:15:07.760><c>dicha </c><00:15:08.160><c>variable </c><00:15:08.560><c>se </c><00:15:08.960><c>mostrará </c><00:15:09.360><c>en</c>
+
+00:15:09.509 --> 00:15:09.519 align:start position:0%
+de dicha variable se mostrará en
+ 
+
+00:15:09.519 --> 00:15:11.910 align:start position:0%
+de dicha variable se mostrará en
+la <00:15:09.789><c>pantalla.  </c><00:15:10.059><c>Ahora </c><00:15:10.329><c>ejecuta </c><00:15:10.599><c>esta </c><00:15:10.869><c>aplicación </c><00:15:11.139><c>para </c><00:15:11.409><c>ver </c><00:15:11.679><c>el</c>
+
+00:15:11.910 --> 00:15:11.920 align:start position:0%
+la pantalla.  Ahora ejecuta esta aplicación para ver el
+ 
+
+00:15:11.920 --> 00:15:14.550 align:start position:0%
+la pantalla.  Ahora ejecuta esta aplicación para ver el
+resultado.  <00:15:12.320><c>Aquí </c><00:15:12.720><c>podemos </c><00:15:13.120><c>ver </c><00:15:13.520><c>el </c><00:15:13.920><c>botón </c><00:15:14.320><c>y</c>
+
+00:15:14.550 --> 00:15:14.560 align:start position:0%
+resultado.  Aquí podemos ver el botón y
+ 
+
+00:15:14.560 --> 00:15:16.230 align:start position:0%
+resultado.  Aquí podemos ver el botón y
+el <00:15:14.879><c>valor </c><00:15:15.198><c>inicial </c><00:15:15.517><c>de </c><00:15:15.836><c>la</c>
+
+00:15:16.230 --> 00:15:16.240 align:start position:0%
+el valor inicial de la
+ 
+
+00:15:16.240 --> 00:15:19.269 align:start position:0%
+el valor inicial de la
+variable <00:15:16.479><c>de </c><00:15:16.718><c>mensaje.  </c><00:15:16.957><c>Ahora, </c><00:15:17.196><c>al </c><00:15:17.435><c>hacer </c><00:15:17.674><c>clic </c><00:15:17.913><c>en </c><00:15:18.152><c>el </c><00:15:18.391><c>botón, </c><00:15:18.630><c>el</c>
+
+00:15:19.269 --> 00:15:19.279 align:start position:0%
+variable de mensaje.  Ahora, al hacer clic en el botón, el
+ 
+
+00:15:19.279 --> 00:15:21.269 align:start position:0%
+variable de mensaje.  Ahora, al hacer clic en el botón, el
+valor <00:15:19.559><c>se </c><00:15:19.839><c>actualiza </c><00:15:20.119><c>y </c><00:15:20.399><c>muestra </c><00:15:20.679><c>el </c><00:15:20.959><c>mensaje</c>
+
+00:15:21.269 --> 00:15:21.279 align:start position:0%
+valor se actualiza y muestra el mensaje
+ 
+
+00:15:21.279 --> 00:15:23.750 align:start position:0%
+valor se actualiza y muestra el mensaje
+que <00:15:21.665><c>enviamos </c><00:15:22.051><c>desde </c><00:15:22.437><c>el </c><00:15:22.823><c>componente </c><00:15:23.209><c>hijo.  </c><00:15:23.595><c>Así</c>
+
+00:15:23.750 --> 00:15:23.760 align:start position:0%
+que enviamos desde el componente hijo.  Así
+ 
+
+00:15:23.760 --> 00:15:27.670 align:start position:0%
+que enviamos desde el componente hijo.  Así
+es <00:15:23.990><c>como </c><00:15:24.220><c>gestionamos </c><00:15:24.450><c>los </c><00:15:24.680><c>eventos </c><00:15:24.910><c>de </c><00:15:25.140><c>hijo </c><00:15:25.370><c>a </c><00:15:25.600><c>padre.</c>
+
+00:15:27.670 --> 00:15:27.680 align:start position:0%
+es como gestionamos los eventos de hijo a padre.
+ 
+
+00:15:27.680 --> 00:15:30.550 align:start position:0%
+es como gestionamos los eventos de hijo a padre.
+Ahora <00:15:27.973><c>hablemos </c><00:15:28.266><c>de </c><00:15:28.559><c>las </c><00:15:28.852><c>vinculaciones </c><00:15:29.145><c>de </c><00:15:29.438><c>componentes.</c>
+
+00:15:30.550 --> 00:15:30.560 align:start position:0%
+Ahora hablemos de las vinculaciones de componentes.
+ 
+
+00:15:30.560 --> 00:15:33.110 align:start position:0%
+Ahora hablemos de las vinculaciones de componentes.
+En <00:15:30.819><c>Spelt </c><00:15:31.078><c>5, </c><00:15:31.337><c>las </c><00:15:31.596><c>vinculaciones </c><00:15:31.855><c>de </c><00:15:32.114><c>componentes </c><00:15:32.373><c>permiten </c><00:15:32.632><c>un</c>
+
+00:15:33.110 --> 00:15:33.120 align:start position:0%
+En Spelt 5, las vinculaciones de componentes permiten un
+ 
+
+00:15:33.120 --> 00:15:35.269 align:start position:0%
+En Spelt 5, las vinculaciones de componentes permiten un
+flujo <00:15:33.360><c>de </c><00:15:33.600><c>datos </c><00:15:33.840><c>bidireccional </c><00:15:34.080><c>entre </c><00:15:34.320><c>los </c><00:15:34.560><c>componentes </c><00:15:34.800><c>padre </c><00:15:35.040><c>e</c>
+
+00:15:35.269 --> 00:15:35.279 align:start position:0%
+flujo de datos bidireccional entre los componentes padre e
+ 
+
+00:15:35.279 --> 00:15:37.269 align:start position:0%
+flujo de datos bidireccional entre los componentes padre e
+hijo, <00:15:35.615><c>lo </c><00:15:35.951><c>que </c><00:15:36.287><c>permite </c><00:15:36.623><c>que </c><00:15:36.959><c>el</c>
+
+00:15:37.269 --> 00:15:37.279 align:start position:0%
+hijo, lo que permite que el
+ 
+
+00:15:37.279 --> 00:15:39.590 align:start position:0%
+hijo, lo que permite que el
+componente <00:15:37.695><c>hijo </c><00:15:38.111><c>modifique </c><00:15:38.527><c>directamente </c><00:15:38.943><c>los </c><00:15:39.359><c>valores</c>
+
+00:15:39.590 --> 00:15:39.600 align:start position:0%
+componente hijo modifique directamente los valores
+ 
+
+00:15:39.600 --> 00:15:41.350 align:start position:0%
+componente hijo modifique directamente los valores
+del <00:15:39.999><c>componente </c><00:15:40.398><c>padre.  </c><00:15:40.797><c>Esto </c><00:15:41.196><c>resulta</c>
+
+00:15:41.350 --> 00:15:41.360 align:start position:0%
+del componente padre.  Esto resulta
+ 
+
+00:15:41.360 --> 00:15:43.829 align:start position:0%
+del componente padre.  Esto resulta
+especialmente <00:15:41.696><c>útil </c><00:15:42.032><c>para </c><00:15:42.368><c>campos </c><00:15:42.704><c>de </c><00:15:43.040><c>formulario,</c>
+
+00:15:43.829 --> 00:15:43.839 align:start position:0%
+especialmente útil para campos de formulario,
+ 
+
+00:15:43.839 --> 00:15:46.389 align:start position:0%
+especialmente útil para campos de formulario,
+diálogos <00:15:44.287><c>modales </c><00:15:44.735><c>y </c><00:15:45.183><c>cualquier </c><00:15:45.631><c>componente </c><00:15:46.079><c>que</c>
+
+00:15:46.389 --> 00:15:46.399 align:start position:0%
+diálogos modales y cualquier componente que
+ 
+
+00:15:46.399 --> 00:15:48.230 align:start position:0%
+diálogos modales y cualquier componente que
+necesite <00:15:46.779><c>mantener </c><00:15:47.159><c>un </c><00:15:47.539><c>estado </c><00:15:47.919><c>sincronizado</c>
+
+00:15:48.230 --> 00:15:48.240 align:start position:0%
+necesite mantener un estado sincronizado
+ 
+
+00:15:48.240 --> 00:15:50.550 align:start position:0%
+necesite mantener un estado sincronizado
+con <00:15:48.480><c>su </c><00:15:48.720><c>componente </c><00:15:48.960><c>padre.  </c><00:15:49.200><c>Las </c><00:15:49.440><c>vinculaciones </c><00:15:49.680><c>de </c><00:15:49.920><c>componentes</c>
+
+00:15:50.550 --> 00:15:50.560 align:start position:0%
+con su componente padre.  Las vinculaciones de componentes
+ 
+
+00:15:50.560 --> 00:15:53.030 align:start position:0%
+con su componente padre.  Las vinculaciones de componentes
+establecen <00:15:50.857><c>un </c><00:15:51.154><c>flujo </c><00:15:51.451><c>de </c><00:15:51.748><c>datos </c><00:15:52.045><c>bidireccional </c><00:15:52.342><c>entre </c><00:15:52.639><c>los</c>
+
+00:15:53.030 --> 00:15:53.040 align:start position:0%
+establecen un flujo de datos bidireccional entre los
+ 
+
+00:15:53.040 --> 00:15:55.110 align:start position:0%
+establecen un flujo de datos bidireccional entre los
+componentes <00:15:53.423><c>padre </c><00:15:53.806><c>e </c><00:15:54.189><c>hijo </c><00:15:54.572><c>mediante </c><00:15:54.955><c>la</c>
+
+00:15:55.110 --> 00:15:55.120 align:start position:0%
+componentes padre e hijo mediante la
+ 
+
+00:15:55.120 --> 00:15:57.590 align:start position:0%
+componentes padre e hijo mediante la
+directiva <00:15:55.639><c>bind.  </c><00:15:56.158><c>Esta </c><00:15:56.677><c>potente </c><00:15:57.196><c>función</c>
+
+00:15:57.590 --> 00:15:57.600 align:start position:0%
+directiva bind.  Esta potente función
+ 
+
+00:15:57.600 --> 00:15:59.189 align:start position:0%
+directiva bind.  Esta potente función
+permite <00:15:57.871><c>que </c><00:15:58.142><c>los </c><00:15:58.413><c>componentes </c><00:15:58.684><c>padre </c><00:15:58.955><c>se</c>
+
+00:15:59.189 --> 00:15:59.199 align:start position:0%
+permite que los componentes padre se
+ 
+
+00:15:59.199 --> 00:16:01.110 align:start position:0%
+permite que los componentes padre se
+sincronicen <00:15:59.732><c>automáticamente </c><00:16:00.265><c>con </c><00:16:00.798><c>los</c>
+
+00:16:01.110 --> 00:16:01.120 align:start position:0%
+sincronicen automáticamente con los
+ 
+
+00:16:01.120 --> 00:16:03.749 align:start position:0%
+sincronicen automáticamente con los
+cambios <00:16:01.327><c>de </c><00:16:01.534><c>estado </c><00:16:01.741><c>dentro </c><00:16:01.948><c>de </c><00:16:02.155><c>los </c><00:16:02.362><c>componentes </c><00:16:02.569><c>hijo </c><00:16:02.776><c>sin </c><00:16:02.983><c>necesidad </c><00:16:03.190><c>de</c>
+
+00:16:03.749 --> 00:16:03.759 align:start position:0%
+cambios de estado dentro de los componentes hijo sin necesidad de
+ 
+
+00:16:03.759 --> 00:16:06.389 align:start position:0%
+cambios de estado dentro de los componentes hijo sin necesidad de
+código <00:16:04.056><c>repetitivo </c><00:16:04.353><c>para </c><00:16:04.650><c>los </c><00:16:04.947><c>eventos.  </c><00:16:05.244><c>El </c><00:16:05.541><c>componente </c><00:16:05.838><c>hijo</c>
+
+00:16:06.389 --> 00:16:06.399 align:start position:0%
+código repetitivo para los eventos.  El componente hijo
+ 
+
+00:16:06.399 --> 00:16:08.790 align:start position:0%
+código repetitivo para los eventos.  El componente hijo
+marca <00:16:06.831><c>propiedades </c><00:16:07.263><c>específicas </c><00:16:07.695><c>como </c><00:16:08.127><c>enlazables </c><00:16:08.559><c>mediante</c>
+
+00:16:08.790 --> 00:16:08.800 align:start position:0%
+marca propiedades específicas como enlazables mediante
+ 
+
+00:16:08.800 --> 00:16:11.670 align:start position:0%
+marca propiedades específicas como enlazables mediante
+la <00:16:09.264><c>runa </c><00:16:09.728><c>de </c><00:16:10.192><c>enlace, </c><00:16:10.656><c>exponiendo </c><00:16:11.120><c>su</c>
+
+00:16:11.670 --> 00:16:11.680 align:start position:0%
+la runa de enlace, exponiendo su
+ 
+
+00:16:11.680 --> 00:16:14.150 align:start position:0%
+la runa de enlace, exponiendo su
+estado <00:16:11.977><c>interno </c><00:16:12.274><c>para </c><00:16:12.571><c>el </c><00:16:12.868><c>enlace </c><00:16:13.165><c>directo.  </c><00:16:13.462><c>Este </c><00:16:13.759><c>patrón</c>
+
+00:16:14.150 --> 00:16:14.160 align:start position:0%
+estado interno para el enlace directo.  Este patrón
+ 
+
+00:16:14.160 --> 00:16:17.030 align:start position:0%
+estado interno para el enlace directo.  Este patrón
+resulta <00:16:14.640><c>invaluable </c><00:16:15.120><c>para </c><00:16:15.600><c>controles </c><00:16:16.080><c>de </c><00:16:16.560><c>formulario,</c>
+
+00:16:17.030 --> 00:16:17.040 align:start position:0%
+resulta invaluable para controles de formulario,
+ 
+
+00:16:17.040 --> 00:16:19.590 align:start position:0%
+resulta invaluable para controles de formulario,
+componentes <00:16:17.253><c>de </c><00:16:17.466><c>interfaz </c><00:16:17.679><c>de </c><00:16:17.892><c>usuario </c><00:16:18.105><c>complejos </c><00:16:18.318><c>o </c><00:16:18.531><c>cualquier </c><00:16:18.744><c>situación </c><00:16:18.957><c>que</c>
+
+00:16:19.590 --> 00:16:19.600 align:start position:0%
+componentes de interfaz de usuario complejos o cualquier situación que
+ 
+
+00:16:19.600 --> 00:16:21.350 align:start position:0%
+componentes de interfaz de usuario complejos o cualquier situación que
+requiera <00:16:19.871><c>un </c><00:16:20.142><c>acoplamiento </c><00:16:20.413><c>estrecho </c><00:16:20.684><c>entre </c><00:16:20.955><c>los</c>
+
+00:16:21.350 --> 00:16:21.360 align:start position:0%
+requiera un acoplamiento estrecho entre los
+ 
+
+00:16:21.360 --> 00:16:23.749 align:start position:0%
+requiera un acoplamiento estrecho entre los
+estados <00:16:21.634><c>de </c><00:16:21.908><c>los </c><00:16:22.182><c>componentes.  </c><00:16:22.456><c>Los </c><00:16:22.730><c>enlaces </c><00:16:23.004><c>mantienen </c><00:16:23.278><c>la</c>
+
+00:16:23.749 --> 00:16:23.759 align:start position:0%
+estados de los componentes.  Los enlaces mantienen la
+ 
+
+00:16:23.759 --> 00:16:25.829 align:start position:0%
+estados de los componentes.  Los enlaces mantienen la
+reactividad <00:16:24.559><c>mediante </c><00:16:25.359><c>el</c>
+
+00:16:25.829 --> 00:16:25.839 align:start position:0%
+reactividad mediante el
+ 
+
+00:16:25.839 --> 00:16:27.990 align:start position:0%
+reactividad mediante el
+seguimiento <00:16:26.023><c>automático </c><00:16:26.207><c>de </c><00:16:26.391><c>dependencias </c><00:16:26.575><c>de </c><00:16:26.759><c>spelt, </c><00:16:26.943><c>al </c><00:16:27.127><c>tiempo </c><00:16:27.311><c>que </c><00:16:27.495><c>proporcionan </c><00:16:27.679><c>la</c>
+
+00:16:27.990 --> 00:16:28.000 align:start position:0%
+seguimiento automático de dependencias de spelt, al tiempo que proporcionan la
+ 
+
+00:16:28.000 --> 00:16:31.110 align:start position:0%
+seguimiento automático de dependencias de spelt, al tiempo que proporcionan la
+misma <00:16:28.311><c>seguridad </c><00:16:28.622><c>de </c><00:16:28.933><c>tipos </c><00:16:29.244><c>que </c><00:16:29.555><c>las </c><00:16:29.866><c>props </c><00:16:30.177><c>normales.  </c><00:16:30.488><c>Vamos </c><00:16:30.799><c>a</c>
+
+00:16:31.110 --> 00:16:31.120 align:start position:0%
+misma seguridad de tipos que las props normales.  Vamos a
+ 
+
+00:16:31.120 --> 00:16:34.069 align:start position:0%
+misma seguridad de tipos que las props normales.  Vamos a
+entenderlo <00:16:31.493><c>con </c><00:16:31.866><c>un </c><00:16:32.239><c>ejemplo </c><00:16:32.612><c>de </c><00:16:32.985><c>código.  </c><00:16:33.358><c>Primero,</c>
+
+00:16:34.069 --> 00:16:34.079 align:start position:0%
+entenderlo con un ejemplo de código.  Primero,
+ 
+
+00:16:34.079 --> 00:16:37.749 align:start position:0%
+entenderlo con un ejemplo de código.  Primero,
+crea <00:16:34.426><c>un </c><00:16:34.773><c>componente </c><00:16:35.120><c>deslizante.</c>
+
+00:16:37.749 --> 00:16:37.759 align:start position:0%
+crea un componente deslizante.
+ 
+
+00:16:37.759 --> 00:16:41.189 align:start position:0%
+crea un componente deslizante.
+Crear <00:16:38.252><c>sección </c><00:16:38.745><c>de </c><00:16:39.238><c>script.  </c><00:16:39.731><c>Luego, </c><00:16:40.224><c>crea </c><00:16:40.717><c>la</c>
+
+00:16:41.189 --> 00:16:41.199 align:start position:0%
+Crear sección de script.  Luego, crea la
+ 
+
+00:16:41.199 --> 00:16:43.350 align:start position:0%
+Crear sección de script.  Luego, crea la
+interfaz <00:16:41.479><c>de </c><00:16:41.759><c>propiedades.  </c><00:16:42.039><c>Y </c><00:16:42.319><c>luego </c><00:16:42.599><c>crea </c><00:16:42.879><c>una</c>
+
+00:16:43.350 --> 00:16:43.360 align:start position:0%
+interfaz de propiedades.  Y luego crea una
+ 
+
+00:16:43.360 --> 00:16:45.990 align:start position:0%
+interfaz de propiedades.  Y luego crea una
+propiedad <00:16:43.657><c>de </c><00:16:43.954><c>valor </c><00:16:44.251><c>de </c><00:16:44.548><c>tipo </c><00:16:44.845><c>numérico.  </c><00:16:45.142><c>Luego, </c><00:16:45.439><c>estructura</c>
+
+00:16:45.990 --> 00:16:46.000 align:start position:0%
+propiedad de valor de tipo numérico.  Luego, estructura
+ 
+
+00:16:46.000 --> 00:16:48.550 align:start position:0%
+propiedad de valor de tipo numérico.  Luego, estructura
+los <00:16:46.540><c>objetos </c><00:16:47.080><c>usando </c><00:16:47.620><c>props </c><00:16:48.160><c>rune.</c>
+
+00:16:48.550 --> 00:16:48.560 align:start position:0%
+los objetos usando props rune.
+ 
+
+00:16:48.560 --> 00:16:50.870 align:start position:0%
+los objetos usando props rune.
+Lo <00:16:48.764><c>importante </c><00:16:48.968><c>es </c><00:16:49.172><c>hacer </c><00:16:49.376><c>que </c><00:16:49.580><c>esta </c><00:16:49.784><c>propiedad </c><00:16:49.988><c>de </c><00:16:50.192><c>valor </c><00:16:50.396><c>sea</c>
+
+00:16:50.870 --> 00:16:50.880 align:start position:0%
+Lo importante es hacer que esta propiedad de valor sea
+ 
+
+00:16:50.880 --> 00:16:53.430 align:start position:0%
+Lo importante es hacer que esta propiedad de valor sea
+enlazable <00:16:51.328><c>usando </c><00:16:51.776><c>la </c><00:16:52.224><c>directiva </c><00:16:52.672><c>bindable </c><00:16:53.120><c>y</c>
+
+00:16:53.430 --> 00:16:53.440 align:start position:0%
+enlazable usando la directiva bindable y
+ 
+
+00:16:53.440 --> 00:16:56.470 align:start position:0%
+enlazable usando la directiva bindable y
+establecer <00:16:53.853><c>el </c><00:16:54.266><c>valor </c><00:16:54.679><c>inicial </c><00:16:55.092><c>en </c><00:16:55.505><c>cero.  </c><00:16:55.918><c>La</c>
+
+00:16:56.470 --> 00:16:56.480 align:start position:0%
+establecer el valor inicial en cero.  La
+ 
+
+00:16:56.480 --> 00:16:58.550 align:start position:0%
+establecer el valor inicial en cero.  La
+directiva <00:16:56.693><c>bindable </c><00:16:56.906><c>le </c><00:16:57.119><c>indica </c><00:16:57.332><c>a </c><00:16:57.545><c>spelt </c><00:16:57.758><c>que </c><00:16:57.971><c>esta </c><00:16:58.184><c>propiedad </c><00:16:58.397><c>puede</c>
+
+00:16:58.550 --> 00:16:58.560 align:start position:0%
+directiva bindable le indica a spelt que esta propiedad puede
+ 
+
+00:16:58.560 --> 00:17:00.230 align:start position:0%
+directiva bindable le indica a spelt que esta propiedad puede
+vincularse <00:16:58.879><c>desde </c><00:16:59.198><c>el </c><00:16:59.517><c>componente </c><00:16:59.836><c>padre</c>
+
+00:17:00.230 --> 00:17:00.240 align:start position:0%
+vincularse desde el componente padre
+ 
+
+00:17:00.240 --> 00:17:02.949 align:start position:0%
+vincularse desde el componente padre
+y <00:17:00.546><c>proporciona </c><00:17:00.852><c>un </c><00:17:01.158><c>valor </c><00:17:01.464><c>predeterminado </c><00:17:01.770><c>de </c><00:17:02.076><c>cero.</c>
+
+00:17:02.949 --> 00:17:02.959 align:start position:0%
+y proporciona un valor predeterminado de cero.
+ 
+
+00:17:02.959 --> 00:17:05.829 align:start position:0%
+y proporciona un valor predeterminado de cero.
+Luego, <00:17:03.252><c>en </c><00:17:03.545><c>la </c><00:17:03.838><c>sección </c><00:17:04.131><c>de </c><00:17:04.424><c>plantilla, </c><00:17:04.717><c>cree </c><00:17:05.010><c>una </c><00:17:05.303><c>entrada </c><00:17:05.596><c>de</c>
+
+00:17:05.829 --> 00:17:05.839 align:start position:0%
+Luego, en la sección de plantilla, cree una entrada de
+ 
+
+00:17:05.839 --> 00:17:08.710 align:start position:0%
+Luego, en la sección de plantilla, cree una entrada de
+tipo <00:17:06.193><c>rango.  </c><00:17:06.547><c>Establece </c><00:17:06.901><c>el </c><00:17:07.255><c>valor </c><00:17:07.609><c>mínimo </c><00:17:07.963><c>en </c><00:17:08.317><c>cero</c>
+
+00:17:08.710 --> 00:17:08.720 align:start position:0%
+tipo rango.  Establece el valor mínimo en cero
+ 
+
+00:17:08.720 --> 00:17:11.829 align:start position:0%
+tipo rango.  Establece el valor mínimo en cero
+y <00:17:09.142><c>el </c><00:17:09.564><c>valor </c><00:17:09.986><c>máximo </c><00:17:10.408><c>en </c><00:17:10.830><c>100. </c><00:17:11.252><c>Además, </c><00:17:11.674><c>vincúlalo</c>
+
+00:17:11.829 --> 00:17:11.839 align:start position:0%
+y el valor máximo en 100. Además, vincúlalo
+ 
+
+00:17:11.839 --> 00:17:14.150 align:start position:0%
+y el valor máximo en 100. Además, vincúlalo
+con <00:17:12.124><c>la </c><00:17:12.409><c>propiedad </c><00:17:12.694><c>value </c><00:17:12.979><c>y </c><00:17:13.264><c>pasa </c><00:17:13.549><c>esta </c><00:17:13.834><c>clase</c>
+
+00:17:14.150 --> 00:17:14.160 align:start position:0%
+con la propiedad value y pasa esta clase
+ 
+
+00:17:14.160 --> 00:17:17.270 align:start position:0%
+con la propiedad value y pasa esta clase
+para <00:17:14.456><c>establecer </c><00:17:14.752><c>su </c><00:17:15.048><c>ancho.  </c><00:17:15.344><c>De </c><00:17:15.640><c>esta </c><00:17:15.936><c>forma, </c><00:17:16.232><c>el </c><00:17:16.528><c>valor </c><00:17:16.824><c>de </c><00:17:17.120><c>esta</c>
+
+00:17:17.270 --> 00:17:17.280 align:start position:0%
+para establecer su ancho.  De esta forma, el valor de esta
+ 
+
+00:17:17.280 --> 00:17:19.350 align:start position:0%
+para establecer su ancho.  De esta forma, el valor de esta
+propiedad <00:17:17.510><c>y </c><00:17:17.740><c>el </c><00:17:17.970><c>control </c><00:17:18.200><c>deslizante </c><00:17:18.430><c>de </c><00:17:18.660><c>rango </c><00:17:18.890><c>estarán </c><00:17:19.120><c>vinculados</c>
+
+00:17:19.350 --> 00:17:19.360 align:start position:0%
+propiedad y el control deslizante de rango estarán vinculados
+ 
+
+00:17:19.360 --> 00:17:21.750 align:start position:0%
+propiedad y el control deslizante de rango estarán vinculados
+entre <00:17:19.775><c>sí.  </c><00:17:20.190><c>Luego, </c><00:17:20.605><c>crea </c><00:17:21.020><c>un </c><00:17:21.435><c>bloque</c>
+
+00:17:21.750 --> 00:17:21.760 align:start position:0%
+entre sí.  Luego, crea un bloque
+ 
+
+00:17:21.760 --> 00:17:23.829 align:start position:0%
+entre sí.  Luego, crea un bloque
+y <00:17:22.079><c>pásale </c><00:17:22.398><c>estas </c><00:17:22.717><c>clases </c><00:17:23.036><c>para </c><00:17:23.355><c>centrar </c><00:17:23.674><c>el</c>
+
+00:17:23.829 --> 00:17:23.839 align:start position:0%
+y pásale estas clases para centrar el
+ 
+
+00:17:23.839 --> 00:17:26.630 align:start position:0%
+y pásale estas clases para centrar el
+contenido.  <00:17:24.639><c>Dentro </c><00:17:25.439><c>crea </c><00:17:26.239><c>tres</c>
+
+00:17:26.630 --> 00:17:26.640 align:start position:0%
+contenido.  Dentro crea tres
+ 
+
+00:17:26.640 --> 00:17:30.230 align:start position:0%
+contenido.  Dentro crea tres
+etiquetas <00:17:26.913><c>span.  </c><00:17:27.186><c>En </c><00:17:27.459><c>la </c><00:17:27.732><c>primera </c><00:17:28.005><c>etiqueta </c><00:17:28.278><c>se </c><00:17:28.551><c>muestra </c><00:17:28.824><c>cero, </c><00:17:29.097><c>en </c><00:17:29.370><c>la </c><00:17:29.643><c>segunda </c><00:17:29.916><c>el</c>
+
+00:17:30.230 --> 00:17:30.240 align:start position:0%
+etiquetas span.  En la primera etiqueta se muestra cero, en la segunda el
+ 
+
+00:17:30.240 --> 00:17:32.390 align:start position:0%
+etiquetas span.  En la primera etiqueta se muestra cero, en la segunda el
+valor <00:17:30.560><c>actual </c><00:17:30.880><c>y </c><00:17:31.200><c>también </c><00:17:31.520><c>se </c><00:17:31.840><c>pasan </c><00:17:32.160><c>estas</c>
+
+00:17:32.390 --> 00:17:32.400 align:start position:0%
+valor actual y también se pasan estas
+ 
+
+00:17:32.400 --> 00:17:35.750 align:start position:0%
+valor actual y también se pasan estas
+clases <00:17:32.700><c>para </c><00:17:33.000><c>agrandar </c><00:17:33.300><c>el </c><00:17:33.600><c>texto</c>
+
+00:17:35.750 --> 00:17:35.760 align:start position:0%
+clases para agrandar el texto
+ 
+
+00:17:35.760 --> 00:17:39.430 align:start position:0%
+clases para agrandar el texto
+y <00:17:36.124><c>en </c><00:17:36.488><c>la </c><00:17:36.852><c>tercera </c><00:17:37.216><c>etiqueta </c><00:17:37.580><c>se </c><00:17:37.944><c>muestra </c><00:17:38.308><c>100. </c><00:17:38.672><c>Estas </c><00:17:39.036><c>etiquetas</c>
+
+00:17:39.430 --> 00:17:39.440 align:start position:0%
+y en la tercera etiqueta se muestra 100. Estas etiquetas
+ 
+
+00:17:39.440 --> 00:17:41.990 align:start position:0%
+y en la tercera etiqueta se muestra 100. Estas etiquetas
+mostrarán <00:17:39.826><c>el </c><00:17:40.212><c>rango </c><00:17:40.598><c>del </c><00:17:40.984><c>control </c><00:17:41.370><c>deslizante.  </c><00:17:41.756><c>Ahora</c>
+
+00:17:41.990 --> 00:17:42.000 align:start position:0%
+mostrarán el rango del control deslizante.  Ahora
+ 
+
+00:17:42.000 --> 00:17:45.110 align:start position:0%
+mostrarán el rango del control deslizante.  Ahora
+ve <00:17:42.440><c>a </c><00:17:42.880><c>la </c><00:17:43.320><c>página </c><00:17:43.760><c>principal </c><00:17:44.200><c>aquí </c><00:17:44.640><c>importar</c>
+
+00:17:45.110 --> 00:17:45.120 align:start position:0%
+ve a la página principal aquí importar
+ 
+
+00:17:45.120 --> 00:17:48.150 align:start position:0%
+ve a la página principal aquí importar
+componente <00:17:45.759><c>deslizante.  </c><00:17:46.398><c>Luego, </c><00:17:47.037><c>crea </c><00:17:47.676><c>una</c>
+
+00:17:48.150 --> 00:17:48.160 align:start position:0%
+componente deslizante.  Luego, crea una
+ 
+
+00:17:48.160 --> 00:17:50.310 align:start position:0%
+componente deslizante.  Luego, crea una
+variable <00:17:48.355><c>de </c><00:17:48.550><c>valor </c><00:17:48.745><c>deslizante </c><00:17:48.940><c>reactiva </c><00:17:49.135><c>de </c><00:17:49.330><c>tipo </c><00:17:49.525><c>numérico </c><00:17:49.720><c>usando </c><00:17:49.915><c>la</c>
+
+00:17:50.310 --> 00:17:50.320 align:start position:0%
+variable de valor deslizante reactiva de tipo numérico usando la
+ 
+
+00:17:50.320 --> 00:17:53.830 align:start position:0%
+variable de valor deslizante reactiva de tipo numérico usando la
+runa <00:17:50.595><c>de </c><00:17:50.870><c>estado </c><00:17:51.145><c>y </c><00:17:51.420><c>establece </c><00:17:51.695><c>el </c><00:17:51.970><c>valor </c><00:17:52.245><c>inicial </c><00:17:52.520><c>en </c><00:17:52.795><c>30.</c>
+
+00:17:53.830 --> 00:17:53.840 align:start position:0%
+runa de estado y establece el valor inicial en 30.
+ 
+
+00:17:53.840 --> 00:17:56.150 align:start position:0%
+runa de estado y establece el valor inicial en 30.
+Luego, <00:17:54.102><c>crea </c><00:17:54.364><c>una </c><00:17:54.626><c>variable </c><00:17:54.888><c>de </c><00:17:55.150><c>valor </c><00:17:55.412><c>confirmado </c><00:17:55.674><c>reactiva</c>
+
+00:17:56.150 --> 00:17:56.160 align:start position:0%
+Luego, crea una variable de valor confirmado reactiva
+ 
+
+00:17:56.160 --> 00:17:58.630 align:start position:0%
+Luego, crea una variable de valor confirmado reactiva
+de <00:17:56.560><c>tipo </c><00:17:56.960><c>numérico </c><00:17:57.360><c>y </c><00:17:57.760><c>establece </c><00:17:58.160><c>el</c>
+
+00:17:58.630 --> 00:17:58.640 align:start position:0%
+de tipo numérico y establece el
+ 
+
+00:17:58.640 --> 00:18:01.830 align:start position:0%
+de tipo numérico y establece el
+valor <00:17:58.853><c>inicial </c><00:17:59.066><c>en </c><00:17:59.279><c>cero.</c>
+
+00:18:01.830 --> 00:18:01.840 align:start position:0%
+valor inicial en cero.
+ 
+
+00:18:01.840 --> 00:18:03.990 align:start position:0%
+valor inicial en cero.
+Luego, <00:18:02.114><c>renderiza </c><00:18:02.388><c>el </c><00:18:02.662><c>componente </c><00:18:02.936><c>deslizante </c><00:18:03.210><c>y </c><00:18:03.484><c>usa </c><00:18:03.758><c>la</c>
+
+00:18:03.990 --> 00:18:04.000 align:start position:0%
+Luego, renderiza el componente deslizante y usa la
+ 
+
+00:18:04.000 --> 00:18:05.909 align:start position:0%
+Luego, renderiza el componente deslizante y usa la
+directiva <00:18:04.304><c>bind </c><00:18:04.608><c>con </c><00:18:04.912><c>la </c><00:18:05.216><c>propiedad </c><00:18:05.520><c>value</c>
+
+00:18:05.909 --> 00:18:05.919 align:start position:0%
+directiva bind con la propiedad value
+ 
+
+00:18:05.919 --> 00:18:07.990 align:start position:0%
+directiva bind con la propiedad value
+del <00:18:06.239><c>componente </c><00:18:06.559><c>y </c><00:18:06.879><c>luego </c><00:18:07.199><c>pásale </c><00:18:07.519><c>la</c>
+
+00:18:07.990 --> 00:18:08.000 align:start position:0%
+del componente y luego pásale la
+ 
+
+00:18:08.000 --> 00:18:10.310 align:start position:0%
+del componente y luego pásale la
+variable <00:18:08.400><c>de </c><00:18:08.800><c>valor </c><00:18:09.200><c>del </c><00:18:09.600><c>deslizador.  </c><00:18:10.000><c>Esta</c>
+
+00:18:10.310 --> 00:18:10.320 align:start position:0%
+variable de valor del deslizador.  Esta
+ 
+
+00:18:10.320 --> 00:18:12.470 align:start position:0%
+variable de valor del deslizador.  Esta
+directiva <00:18:10.600><c>de </c><00:18:10.880><c>enlace </c><00:18:11.160><c>crea </c><00:18:11.440><c>un </c><00:18:11.720><c>enlace </c><00:18:12.000><c>bidireccional</c>
+
+00:18:12.470 --> 00:18:12.480 align:start position:0%
+directiva de enlace crea un enlace bidireccional
+ 
+
+00:18:12.480 --> 00:18:14.390 align:start position:0%
+directiva de enlace crea un enlace bidireccional
+entre <00:18:12.640><c>el </c><00:18:12.800><c>estado </c><00:18:12.960><c>del </c><00:18:13.120><c>valor </c><00:18:13.280><c>del </c><00:18:13.440><c>control </c><00:18:13.600><c>deslizante </c><00:18:13.760><c>del </c><00:18:13.920><c>componente </c><00:18:14.080><c>padre</c>
+
+00:18:14.390 --> 00:18:14.400 align:start position:0%
+entre el estado del valor del control deslizante del componente padre
+ 
+
+00:18:14.400 --> 00:18:16.710 align:start position:0%
+entre el estado del valor del control deslizante del componente padre
+y <00:18:14.628><c>la </c><00:18:14.856><c>propiedad </c><00:18:15.084><c>de </c><00:18:15.312><c>valor </c><00:18:15.540><c>del </c><00:18:15.768><c>componente </c><00:18:15.996><c>hijo.</c>
+
+00:18:16.710 --> 00:18:16.720 align:start position:0%
+y la propiedad de valor del componente hijo.
+ 
+
+00:18:16.720 --> 00:18:19.110 align:start position:0%
+y la propiedad de valor del componente hijo.
+Cuando <00:18:17.005><c>se </c><00:18:17.290><c>mueve </c><00:18:17.575><c>el </c><00:18:17.860><c>control </c><00:18:18.145><c>deslizante, </c><00:18:18.430><c>su </c><00:18:18.715><c>valor</c>
+
+00:18:19.110 --> 00:18:19.120 align:start position:0%
+Cuando se mueve el control deslizante, su valor
+ 
+
+00:18:19.120 --> 00:18:21.190 align:start position:0%
+Cuando se mueve el control deslizante, su valor
+se <00:18:19.599><c>actualiza </c><00:18:20.078><c>automáticamente.  </c><00:18:20.557><c>Y </c><00:18:21.036><c>si</c>
+
+00:18:21.190 --> 00:18:21.200 align:start position:0%
+se actualiza automáticamente.  Y si
+ 
+
+00:18:21.200 --> 00:18:23.270 align:start position:0%
+se actualiza automáticamente.  Y si
+cambiáramos <00:18:21.377><c>el </c><00:18:21.554><c>valor </c><00:18:21.731><c>del </c><00:18:21.908><c>control </c><00:18:22.085><c>deslizante </c><00:18:22.262><c>desde </c><00:18:22.439><c>el </c><00:18:22.616><c>elemento </c><00:18:22.793><c>padre,</c>
+
+00:18:23.270 --> 00:18:23.280 align:start position:0%
+cambiáramos el valor del control deslizante desde el elemento padre,
+ 
+
+00:18:23.280 --> 00:18:26.150 align:start position:0%
+cambiáramos el valor del control deslizante desde el elemento padre,
+la <00:18:23.531><c>posición </c><00:18:23.782><c>del </c><00:18:24.033><c>control </c><00:18:24.284><c>deslizante </c><00:18:24.535><c>también </c><00:18:24.786><c>se </c><00:18:25.037><c>actualizaría.</c>
+
+00:18:26.150 --> 00:18:26.160 align:start position:0%
+la posición del control deslizante también se actualizaría.
+ 
+
+00:18:26.160 --> 00:18:28.230 align:start position:0%
+la posición del control deslizante también se actualizaría.
+Luego, <00:18:26.528><c>crea </c><00:18:26.896><c>un </c><00:18:27.264><c>botón, </c><00:18:27.632><c>pásale </c><00:18:28.000><c>estas</c>
+
+00:18:28.230 --> 00:18:28.240 align:start position:0%
+Luego, crea un botón, pásale estas
+ 
+
+00:18:28.240 --> 00:18:32.070 align:start position:0%
+Luego, crea un botón, pásale estas
+clases
+
+00:18:32.070 --> 00:18:32.080 align:start position:0%
+ 
+ 
+
+00:18:32.080 --> 00:18:35.110 align:start position:0%
+ 
+y <00:18:32.426><c>establece </c><00:18:32.772><c>su </c><00:18:33.118><c>título.</c>
+
+00:18:35.110 --> 00:18:35.120 align:start position:0%
+y establece su título.
+ 
+
+00:18:35.120 --> 00:18:37.110 align:start position:0%
+y establece su título.
+Luego, <00:18:35.413><c>pasa </c><00:18:35.706><c>una </c><00:18:35.999><c>función </c><00:18:36.292><c>flecha </c><00:18:36.585><c>a </c><00:18:36.878><c>su</c>
+
+00:18:37.110 --> 00:18:37.120 align:start position:0%
+Luego, pasa una función flecha a su
+ 
+
+00:18:37.120 --> 00:18:40.390 align:start position:0%
+Luego, pasa una función flecha a su
+propiedad <00:18:37.586><c>onclick.  </c><00:18:38.052><c>Dentro </c><00:18:38.518><c>de </c><00:18:38.984><c>ella, </c><00:18:39.450><c>pasa </c><00:18:39.916><c>el</c>
+
+00:18:40.390 --> 00:18:40.400 align:start position:0%
+propiedad onclick.  Dentro de ella, pasa el
+ 
+
+00:18:40.400 --> 00:18:43.750 align:start position:0%
+propiedad onclick.  Dentro de ella, pasa el
+valor <00:18:40.577><c>del </c><00:18:40.754><c>control </c><00:18:40.931><c>deslizante </c><00:18:41.108><c>a </c><00:18:41.285><c>la </c><00:18:41.462><c>variable </c><00:18:41.639><c>de </c><00:18:41.816><c>valor </c><00:18:41.993><c>confirmado.</c>
+
+00:18:43.750 --> 00:18:43.760 align:start position:0%
+valor del control deslizante a la variable de valor confirmado.
+ 
+
+00:18:43.760 --> 00:18:46.310 align:start position:0%
+valor del control deslizante a la variable de valor confirmado.
+A <00:18:44.040><c>continuación, </c><00:18:44.320><c>crea </c><00:18:44.600><c>una </c><00:18:44.880><c>etiqueta </c><00:18:45.160><c>de </c><00:18:45.440><c>párrafo </c><00:18:45.720><c>y </c><00:18:46.000><c>muestra</c>
+
+00:18:46.310 --> 00:18:46.320 align:start position:0%
+A continuación, crea una etiqueta de párrafo y muestra
+ 
+
+00:18:46.320 --> 00:18:49.669 align:start position:0%
+A continuación, crea una etiqueta de párrafo y muestra
+el <00:18:46.624><c>valor </c><00:18:46.928><c>confirmado </c><00:18:47.232><c>dentro </c><00:18:47.536><c>de </c><00:18:47.840><c>ella.</c>
+
+00:18:49.669 --> 00:18:49.679 align:start position:0%
+el valor confirmado dentro de ella.
+ 
+
+00:18:49.679 --> 00:18:52.470 align:start position:0%
+el valor confirmado dentro de ella.
+Ahora <00:18:50.033><c>veamos </c><00:18:50.387><c>qué </c><00:18:50.741><c>sucede </c><00:18:51.095><c>aquí.  </c><00:18:51.449><c>Aquí, </c><00:18:51.803><c>en </c><00:18:52.157><c>el</c>
+
+00:18:52.470 --> 00:18:52.480 align:start position:0%
+Ahora veamos qué sucede aquí.  Aquí, en el
+ 
+
+00:18:52.480 --> 00:18:54.950 align:start position:0%
+Ahora veamos qué sucede aquí.  Aquí, en el
+componente <00:18:52.999><c>hijo, </c><00:18:53.518><c>declaramos </c><00:18:54.037><c>que </c><00:18:54.556><c>esta</c>
+
+00:18:54.950 --> 00:18:54.960 align:start position:0%
+componente hijo, declaramos que esta
+ 
+
+00:18:54.960 --> 00:18:56.870 align:start position:0%
+componente hijo, declaramos que esta
+propiedad <00:18:55.240><c>de </c><00:18:55.520><c>valor </c><00:18:55.800><c>es </c><00:18:56.080><c>enlazable </c><00:18:56.360><c>mediante </c><00:18:56.640><c>la</c>
+
+00:18:56.870 --> 00:18:56.880 align:start position:0%
+propiedad de valor es enlazable mediante la
+ 
+
+00:18:56.880 --> 00:18:59.430 align:start position:0%
+propiedad de valor es enlazable mediante la
+directiva <00:18:57.460><c>bindable.  </c><00:18:58.040><c>Luego </c><00:18:58.620><c>vinculamos </c><00:18:59.200><c>esta</c>
+
+00:18:59.430 --> 00:18:59.440 align:start position:0%
+directiva bindable.  Luego vinculamos esta
+ 
+
+00:18:59.440 --> 00:19:01.990 align:start position:0%
+directiva bindable.  Luego vinculamos esta
+propiedad <00:18:59.639><c>de </c><00:18:59.838><c>valor </c><00:19:00.037><c>con </c><00:19:00.236><c>este </c><00:19:00.435><c>control </c><00:19:00.634><c>deslizante </c><00:19:00.833><c>de </c><00:19:01.032><c>rango.</c>
+
+00:19:01.990 --> 00:19:02.000 align:start position:0%
+propiedad de valor con este control deslizante de rango.
+ 
+
+00:19:02.000 --> 00:19:04.390 align:start position:0%
+propiedad de valor con este control deslizante de rango.
+En <00:19:02.432><c>el </c><00:19:02.864><c>componente </c><00:19:03.296><c>padre, </c><00:19:03.728><c>declaramos </c><00:19:04.160><c>una</c>
+
+00:19:04.390 --> 00:19:04.400 align:start position:0%
+En el componente padre, declaramos una
+ 
+
+00:19:04.400 --> 00:19:06.789 align:start position:0%
+En el componente padre, declaramos una
+variable <00:19:04.624><c>de </c><00:19:04.848><c>valor </c><00:19:05.072><c>de </c><00:19:05.296><c>control </c><00:19:05.520><c>deslizante </c><00:19:05.744><c>reactiva </c><00:19:05.968><c>y </c><00:19:06.192><c>le </c><00:19:06.416><c>dimos </c><00:19:06.640><c>un</c>
+
+00:19:06.789 --> 00:19:06.799 align:start position:0%
+variable de valor de control deslizante reactiva y le dimos un
+ 
+
+00:19:06.799 --> 00:19:09.750 align:start position:0%
+variable de valor de control deslizante reactiva y le dimos un
+valor <00:19:07.327><c>inicial </c><00:19:07.855><c>de </c><00:19:08.383><c>30. </c><00:19:08.911><c>Luego, </c><00:19:09.439><c>renderizamos</c>
+
+00:19:09.750 --> 00:19:09.760 align:start position:0%
+valor inicial de 30. Luego, renderizamos
+ 
+
+00:19:09.760 --> 00:19:11.750 align:start position:0%
+valor inicial de 30. Luego, renderizamos
+el <00:19:10.011><c>componente </c><00:19:10.262><c>del </c><00:19:10.513><c>control </c><00:19:10.764><c>deslizante </c><00:19:11.015><c>y </c><00:19:11.266><c>pasamos </c><00:19:11.517><c>esta</c>
+
+00:19:11.750 --> 00:19:11.760 align:start position:0%
+el componente del control deslizante y pasamos esta
+ 
+
+00:19:11.760 --> 00:19:14.870 align:start position:0%
+el componente del control deslizante y pasamos esta
+variable <00:19:12.048><c>de </c><00:19:12.336><c>valor </c><00:19:12.624><c>del </c><00:19:12.912><c>control </c><00:19:13.200><c>deslizante </c><00:19:13.488><c>a </c><00:19:13.776><c>la </c><00:19:14.064><c>propiedad </c><00:19:14.352><c>value.  </c><00:19:14.640><c>Lo</c>
+
+00:19:14.870 --> 00:19:14.880 align:start position:0%
+variable de valor del control deslizante a la propiedad value.  Lo
+ 
+
+00:19:14.880 --> 00:19:16.870 align:start position:0%
+variable de valor del control deslizante a la propiedad value.  Lo
+importante <00:19:15.184><c>es </c><00:19:15.488><c>esta </c><00:19:15.792><c>directiva </c><00:19:16.096><c>de </c><00:19:16.400><c>enlace</c>
+
+00:19:16.870 --> 00:19:16.880 align:start position:0%
+importante es esta directiva de enlace
+ 
+
+00:19:16.880 --> 00:19:18.870 align:start position:0%
+importante es esta directiva de enlace
+que <00:19:17.186><c>permite </c><00:19:17.492><c>el </c><00:19:17.798><c>enlace </c><00:19:18.104><c>bidireccional </c><00:19:18.410><c>de </c><00:19:18.716><c>la</c>
+
+00:19:18.870 --> 00:19:18.880 align:start position:0%
+que permite el enlace bidireccional de la
+ 
+
+00:19:18.880 --> 00:19:21.590 align:start position:0%
+que permite el enlace bidireccional de la
+propiedad <00:19:19.105><c>y </c><00:19:19.330><c>la </c><00:19:19.555><c>variable </c><00:19:19.780><c>de </c><00:19:20.005><c>valor </c><00:19:20.230><c>del </c><00:19:20.455><c>control </c><00:19:20.680><c>deslizante.  </c><00:19:20.905><c>Es </c><00:19:21.130><c>así </c><00:19:21.355><c>de</c>
+
+00:19:21.590 --> 00:19:21.600 align:start position:0%
+propiedad y la variable de valor del control deslizante.  Es así de
+ 
+
+00:19:21.600 --> 00:19:24.230 align:start position:0%
+propiedad y la variable de valor del control deslizante.  Es así de
+simple.  <00:19:21.942><c>Ahora </c><00:19:22.284><c>ejecuta </c><00:19:22.626><c>la </c><00:19:22.968><c>aplicación </c><00:19:23.310><c>para </c><00:19:23.652><c>ver </c><00:19:23.994><c>el</c>
+
+00:19:24.230 --> 00:19:24.240 align:start position:0%
+simple.  Ahora ejecuta la aplicación para ver el
+ 
+
+00:19:24.240 --> 00:19:25.830 align:start position:0%
+simple.  Ahora ejecuta la aplicación para ver el
+resultado.
+
+00:19:25.830 --> 00:19:25.840 align:start position:0%
+resultado.
+ 
+
+00:19:25.840 --> 00:19:28.150 align:start position:0%
+resultado.
+Aquí <00:19:26.102><c>podemos </c><00:19:26.364><c>ver </c><00:19:26.626><c>el </c><00:19:26.888><c>control </c><00:19:27.150><c>deslizante </c><00:19:27.412><c>con </c><00:19:27.674><c>un</c>
+
+00:19:28.150 --> 00:19:28.160 align:start position:0%
+Aquí podemos ver el control deslizante con un
+ 
+
+00:19:28.160 --> 00:19:30.549 align:start position:0%
+Aquí podemos ver el control deslizante con un
+valor <00:19:28.493><c>inicial </c><00:19:28.826><c>de </c><00:19:29.159><c>30 </c><00:19:29.492><c>porque </c><00:19:29.825><c>establecimos </c><00:19:30.158><c>el</c>
+
+00:19:30.549 --> 00:19:30.559 align:start position:0%
+valor inicial de 30 porque establecimos el
+ 
+
+00:19:30.559 --> 00:19:33.430 align:start position:0%
+valor inicial de 30 porque establecimos el
+valor <00:19:30.762><c>inicial </c><00:19:30.965><c>de </c><00:19:31.168><c>la </c><00:19:31.371><c>variable </c><00:19:31.574><c>de </c><00:19:31.777><c>valor </c><00:19:31.980><c>del </c><00:19:32.183><c>control </c><00:19:32.386><c>deslizante </c><00:19:32.589><c>en </c><00:19:32.792><c>30 </c><00:19:32.995><c>en </c><00:19:33.198><c>el</c>
+
+00:19:33.430 --> 00:19:33.440 align:start position:0%
+valor inicial de la variable de valor del control deslizante en 30 en el
+ 
+
+00:19:33.440 --> 00:19:35.350 align:start position:0%
+valor inicial de la variable de valor del control deslizante en 30 en el
+componente <00:19:33.744><c>padre </c><00:19:34.048><c>y </c><00:19:34.352><c>vinculamos </c><00:19:34.656><c>esta </c><00:19:34.960><c>variable</c>
+
+00:19:35.350 --> 00:19:35.360 align:start position:0%
+componente padre y vinculamos esta variable
+ 
+
+00:19:35.360 --> 00:19:37.430 align:start position:0%
+componente padre y vinculamos esta variable
+con <00:19:35.622><c>la </c><00:19:35.884><c>propiedad </c><00:19:36.146><c>de </c><00:19:36.408><c>valor </c><00:19:36.670><c>al </c><00:19:36.932><c>renderizar </c><00:19:37.194><c>este</c>
+
+00:19:37.430 --> 00:19:37.440 align:start position:0%
+con la propiedad de valor al renderizar este
+ 
+
+00:19:37.440 --> 00:19:40.630 align:start position:0%
+con la propiedad de valor al renderizar este
+componente.  <00:19:37.820><c>Además, </c><00:19:38.200><c>el </c><00:19:38.580><c>valor </c><00:19:38.960><c>del </c><00:19:39.340><c>control </c><00:19:39.720><c>deslizante </c><00:19:40.100><c>y </c><00:19:40.480><c>el</c>
+
+00:19:40.630 --> 00:19:40.640 align:start position:0%
+componente.  Además, el valor del control deslizante y el
+ 
+
+00:19:40.640 --> 00:19:43.110 align:start position:0%
+componente.  Además, el valor del control deslizante y el
+valor <00:19:40.914><c>de </c><00:19:41.188><c>la </c><00:19:41.462><c>propiedad </c><00:19:41.736><c>`value` </c><00:19:42.010><c>están </c><00:19:42.284><c>vinculados.   </c><00:19:42.558><c>De</c>
+
+00:19:43.110 --> 00:19:43.120 align:start position:0%
+valor de la propiedad `value` están vinculados.   De
+ 
+
+00:19:43.120 --> 00:19:45.430 align:start position:0%
+valor de la propiedad `value` están vinculados.   De
+esta <00:19:43.382><c>forma, </c><00:19:43.644><c>el </c><00:19:43.906><c>valor </c><00:19:44.168><c>predeterminado </c><00:19:44.430><c>del </c><00:19:44.692><c>control </c><00:19:44.954><c>deslizante</c>
+
+00:19:45.430 --> 00:19:45.440 align:start position:0%
+esta forma, el valor predeterminado del control deslizante
+ 
+
+00:19:45.440 --> 00:19:48.789 align:start position:0%
+esta forma, el valor predeterminado del control deslizante
+se <00:19:45.696><c>convierte </c><00:19:45.952><c>en </c><00:19:46.208><c>30. </c><00:19:46.464><c>Ahora, </c><00:19:46.720><c>si </c><00:19:46.976><c>modificamos </c><00:19:47.232><c>el </c><00:19:47.488><c>control </c><00:19:47.744><c>deslizante, </c><00:19:48.000><c>el</c>
+
+00:19:48.789 --> 00:19:48.799 align:start position:0%
+se convierte en 30. Ahora, si modificamos el control deslizante, el
+ 
+
+00:19:48.799 --> 00:19:51.270 align:start position:0%
+se convierte en 30. Ahora, si modificamos el control deslizante, el
+valor <00:19:49.119><c>actual </c><00:19:49.439><c>también </c><00:19:49.759><c>cambia </c><00:19:50.079><c>en </c><00:19:50.399><c>consecuencia,</c>
+
+00:19:51.270 --> 00:19:51.280 align:start position:0%
+valor actual también cambia en consecuencia,
+ 
+
+00:19:51.280 --> 00:19:53.830 align:start position:0%
+valor actual también cambia en consecuencia,
+y <00:19:51.626><c>cuando </c><00:19:51.972><c>lo </c><00:19:52.318><c>confirmamos, </c><00:19:52.664><c>el </c><00:19:53.010><c>valor </c><00:19:53.356><c>confirmado</c>
+
+00:19:53.830 --> 00:19:53.840 align:start position:0%
+y cuando lo confirmamos, el valor confirmado
+ 
+
+00:19:53.840 --> 00:19:56.549 align:start position:0%
+y cuando lo confirmamos, el valor confirmado
+también <00:19:54.182><c>cambia.  </c><00:19:54.524><c>Y </c><00:19:54.866><c>así </c><00:19:55.208><c>es </c><00:19:55.550><c>como </c><00:19:55.892><c>unimos </c><00:19:56.234><c>los</c>
+
+00:19:56.549 --> 00:19:56.559 align:start position:0%
+también cambia.  Y así es como unimos los
+ 
+
+00:19:56.559 --> 00:19:58.950 align:start position:0%
+también cambia.  Y así es como unimos los
+componentes.  <00:19:57.599><c>Con </c><00:19:58.639><c>esto</c>
+
+00:19:58.950 --> 00:19:58.960 align:start position:0%
+componentes.  Con esto
+ 
+
+00:19:58.960 --> 00:20:02.559 align:start position:0%
+componentes.  Con esto
+queda <00:19:59.199><c>completa </c><00:19:59.438><c>esta </c><00:19:59.677><c>sección.</c>
+

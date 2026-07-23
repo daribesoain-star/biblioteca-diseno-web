@@ -1,0 +1,28 @@
+# 6 Blender Hard-Surface Modeling Tricks I Wish I Knew Earlier
+**Fuente:** CG Boost | https://youtu.be/Ml2t8uxPAQU
+
+## Qué enseña
+Seis técnicas de modelado hard-surface en Blender para lograr formas suaves con bordes definidos usando baja densidad de polígonos, modificadores y flujos de trabajo eficientes. Cubre desde la creación de geometría base hasta la integración perfecta de piezas separadas mediante datos de normales.
+
+## Técnicas accionables
+- **Modelado low-poly con Subdivision Surface:** Añade cilindro con **Shift+A > Mesh > Cylinder** (16 vértices). En Edit Mode (**Tab**), escala en Y con **S > Y**. Selecciona polígonos superior e inferior con **3** (poly select), presiona **I** para inset, luego clic derecho > **Bridge Faces**. Selecciona aristas en edge mode (**2**), presiona **Ctrl+B** para bevel. Para el frente, selecciona grupo de polígonos, **E** para extruir, **S > Y** para escalar. Con Loop Tools activado (Preferencias > Add-ons > Mesh: Loop Tools), clic derecho > **Loop Tools > Circle**, escala con **S**, **E** para extruir, **I** para inset, otra **E** hacia adentro.
+- **Subdivision y creases:** Añade modificador **Subdivision Surface** con **Ctrl+3**. En Edit Mode, selecciona una arista en edge mode, **Shift+G > Face Angles** para seleccionar aristas por ángulo. Ajusta el umbral en la esquina inferior izquierda. Presiona **Shift+E** para crear crease. Para aristas sin crease, selecciona el loop con **Alt+clic izquierdo**, **Shift+E** y arrastra a -1. Activa **Shade Smooth** (clic derecho en Object Mode). Oculta wireframes con **Alt+Shift+Z** (desactiva overlays).
+- **Bevel por peso:** En Edit Mode, selecciona arista con crease, **Shift+G > Crease** para seleccionar todas las creases. **Ctrl+E > Edge Bevel Weight**, asigna valor **1**. Añade modificador **Bevel**, establece **Limit Method > Weight**, activa **Shading > Harden Normals**.
+- **Pin de modificadores (Blender 4.2+):** Para mirror sin pinching, selecciona modificador **Bevel**, haz clic en el pin **Pin to Last** (icono de chincheta). Haz lo mismo con **Subdivision Surface**. Luego añade **Mirror** modifier: ocurrirá antes en la pila.
+- **Cables con curvas:** **Shift+A > Curve > Bezier**. En Edit Mode, selecciona todo (**A**), elimina vértices (**X > Delete Vertices**). Activa **Draw Mode** (icono de lápiz en la barra superior). En vista ortográfica (tecla **5** del teclado numérico), activa snap a vista (**Shift+Tab** para snap, elige **Face** y **Align Rotation to Target**). Dibuja la curva desde el cursor. En Edit Mode, activa **Surface** en la barra superior para dibujar sobre geometría existente.
+- **Uniones en ángulo recto:** Ten dos cilindros unidos como un solo objeto (**Ctrl+J**). Selecciona las aristas de los extremos, clic derecho > **Bridge Edge Loops**. Ajusta **Number of Cuts** (ej. 5) y **Smoothness**.
+- **Shrinkwrap + Data Transfer para piezas pegadas:** Asegura que el origen del objeto esté en la base: en Edit Mode, selecciona el loop inferior con **Alt+clic izquierdo**, **Shift+S > Cursor to Selected**. En Object Mode, **Object > Set Origin > Origin to 3D Cursor**. En snap options, activa **Face** y **Align Rotation to Target**. Mueve con **G**, mantén **Ctrl** para snap. En Edit Mode, selecciona los polígonos exteriores, ve a **Vertex Groups** (pestaña de datos del objeto), crea nuevo grupo, **Assign**. Añade modificador **Shrinkwrap**, target = objeto base, **Vertex Group** = el creado. Duplica con **Shift+D**. Añade modificador **Data Transfer**, source = objeto base, expande **Face Corner Data > Custom Normals**, método **Nearest Face Interpolated**. Activa **Vertex Group** para aislar el efecto. Selecciona los demás objetos, luego el que tiene Data Transfer, y en el menú desplegable del modificador elige **Copy to Selected**.
+
+## Reglas para el erudito
+- Usa **Shift+G > Face Angles** para seleccionar automáticamente aristas con bordes duros antes de aplicar creases con **Shift+E**.
+- Usa **Shift+G > Crease** para seleccionar todas las aristas con crease y luego asigna **Edge Bevel Weight** con **Ctrl+E** antes de añadir el modificador **Bevel** con **Limit Method > Weight**.
+- Usa **Pin to Last** en los modificadores **Bevel** y **Subdivision Surface** cuando añadas un **Mirror** modifier para evitar pinching en la línea de simetría.
+- Usa **Draw Mode** en curvas Bezier para trazar cables directamente sobre la superficie, activando **Surface** en Edit Mode para que se adhieran a la geometría.
+- Usa **Shrinkwrap** con un **Vertex Group** para pegar piezas a la superficie, y luego **Data Transfer** con **Custom Normals > Nearest Face Interpolated** para que la unión sea invisible.
+
+## Errores comunes / gotchas
+- Olvidar activar **Loop Tools** en Preferencias > Add-ons antes de usar **Loop Tools > Circle**; si no está activado, la opción no aparece en el menú contextual.
+- Aplicar **Mirror** modifier después de **Bevel** y **Subdivision Surface** causa pinching; la solución es usar **Pin to Last** en los modificadores para que el mirror ocurra antes en la pila.
+- No ajustar el origen del objeto al fondo antes de snap; sin **Set Origin to 3D Cursor** tras posicionar el cursor en el loop inferior, el snap no alinea correctamente la pieza.
+- Usar **Data Transfer** sin restringir con **Vertex Group** provoca que las normales se transfieran a toda la pieza, creando sombras no deseadas en áreas que no tocan la superficie objetivo.
+- No copiar el modificador **Data Transfer** a los duplicados con **Copy to Selected**; cada duplicado necesita su propio Data Transfer para que la unión sea consistente.

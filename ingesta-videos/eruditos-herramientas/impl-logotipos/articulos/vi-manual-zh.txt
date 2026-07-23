@@ -1,0 +1,17 @@
+FUENTE: https://www.secaiyun.com/docs/logo-design-brand-vi-guide-2026-05-10.html
+FUENTE: https://zhuanlan.zhihu.com/p/40810917
+FUENTE: https://www.duooo.net/vi/1136.html
+TEMA: Manual VI (中国/China) — normas de implementación del logo (标志规范)
+
+Confirmación multi-idioma (ZH) de la misma doctrina que EN/ES. El manual VI (视觉识别系统 / Visual Identity System) se divide en 基础系统 (sistema básico) y 应用系统 (sistema de aplicación).
+
+标志规范 (normas del logo) incluye:
+- 标准Logo (logo estándar / a color) · 反白Logo (versión invertida/negativa, blanco sobre fondo oscuro) · 单色Logo (versión monocroma, un solo color).
+- 安全空间 / Clear Space (安全空间): área en blanco que debe conservarse alrededor del logo para que ningún otro elemento lo comprima. Mismo concepto exacto que "clear space".
+- 最小使用尺寸 (tamaño mínimo de uso): límites mínimos tanto para impresión como para píxeles, para asegurar la claridad/legibilidad.
+- 标志制图规范 / 方格坐标制图 (norma de construcción por grilla / dibujo por coordenadas de cuadrícula): el logo se estandariza dibujándolo sobre una grilla de cuadrados. Equivale a la "grilla de construcción / logo grid" occidental.
+- 标志错误用法 (usos incorrectos): reglas que prohíben estirar (拉伸), comprimir (挤压) o deformar el logo.
+
+基本要素系统 (elementos básicos) del VI: 企业标志 (logo corporativo), 标准字体 (tipografía estándar), 标准色彩 (colores estándar), 象征图案 (patrón simbólico/auxiliar).
+
+CONCLUSIÓN: la doctrina de implementación (variantes color/negativo/mono, clear space, tamaño mínimo, construcción por grilla, usos incorrectos) es universal — idéntica en las guías chinas, en español y en inglés.

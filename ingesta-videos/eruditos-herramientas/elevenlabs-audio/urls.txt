@@ -1,0 +1,8 @@
+el_dubbing|https://elevenlabs.io/docs/overview/capabilities/dubbing
+el_modelos|https://elevenlabs.io/docs/models
+el_music_best_practices|https://elevenlabs.io/docs/overview/capabilities/music/best-practices
+el_sound_effects|https://elevenlabs.io/docs/overview/capabilities/sound-effects
+el_text_to_dialogue|https://elevenlabs.io/docs/overview/capabilities/text-to-dialogue
+el_tts_best_practices|https://elevenlabs.io/docs/overview/capabilities/text-to-speech/best-practices
+el_voice_changer|https://elevenlabs.io/docs/overview/capabilities/voice-changer
+el_voices_cloning|https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning

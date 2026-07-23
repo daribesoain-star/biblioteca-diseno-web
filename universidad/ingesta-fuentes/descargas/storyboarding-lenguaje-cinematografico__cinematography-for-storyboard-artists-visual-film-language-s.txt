@@ -1,0 +1,437 @@
+Cinematography for Storyboard Artists: Film Language Guide
+STORYBOARDART
+Storyboard Tutorials
+Intro to Storyboarding
+An overview of how to get started as a storyboard artist.
+Drawing Fundamentals
+The drawing and art skills every storyboard artist needs.
+Make a living as an artist
+Learn how to tell stories with your art for a living.
+Film Language for Story Artists
+Cinematography skills every visual artist should know.
+DISCORD COMMUNITY
+Join the conversation with other storytellers.
+View All Tutorials
+See more visual storytelling content...
+Courses
+Story Artist Mentorship
+Become A Professional Storyboard Artist In 1 Year Without Any Prior Industry Experience
+Intro To Storyboarding Course
+For people who love to draw and want to make a living with their art
+Get A Portfolio Review
+Upgrade your skills with a portfolio review from our storytelling team
+Drawing For Storyboards
+For Filmmakers, Animators, And Visual Artists
+Instructors
+Blog
+About
+Log In
+Join
+Share
+Share
+0
+Tweet
+0
+Share
+0
+Cinematography for Storyboard Artists: Visual Film Language
+March 21, 2022
+Damien Stuart Wood
+Home
+/
+Storyboard Tutorials
+/
+Cinematography for Storyboard Artists: Visual Film Language
+Table of Contents
+Heading 2 Example
+Heading 3 Example
+Heading 4 Example
+Heading 2 Example
+Heading 3 Example
+Heading 4 Example
+On your way to becoming a great storyboard artist, you must first understand what's involved in the creation of a visual story.
+These stories use visual elements, juxtaposed together in sequence and projected or displayed on the flat, two-dimensional screen of the theater, television, computer monitor, phone, or tablet.
+Basically, three-dimensional concepts on a two-dimensional surface.
+Since the beginning of motion pictures, a “film language” has been created to reference common traits specific to cinema that create the illusions of movement and depth on a flat surface. Since your storyboard images will serve as the building blocks of a feature film or animation, it's crucially important to understand this film language and how it’s used.
+Together with your
+storyboard drawing skills
+and cinematography skills, you’ll be able to create storyboards that bring the director's vision to life a lot faster.
+Let’s take a look at the fundamentals of film language:
+Film Language
+Film Language makes direct reference to a camera when discussing visual storytelling and shot choices. The camera determines the point of view of the story.
+As storyboard artists, we’ll look through the camera lens of our minds, and capture what we see in a drawn image.
+In the beginning, camera and cinema concepts may seem overly technical, but if you memorize and understand these techniques, you can draw on them when necessary to enhance your images. The exhilarating part happens when film language is second nature, and you can worry about the story content of the project you're working on.
+Achieving this level of mastery requires constant practice and discipline.
+Aspect Ratio
+The default framing box for a storyboard image is a horizontal rectangle. This box's aspect ratio determines how wide the image is by denominating horizontal width versus height. For example, the aspect ratio of 2.35:1 means the horizontal width is 2.35 times the height.
+Aspect ratio affects the composition of storyboards. Once the aspect ratio has been decided on a project, there are usually no changes in the format from then on. This way, storyboard artists can use the particular framing box for the compositions and move on to other visual storytelling concerns.
+Here are some of the most common formats:
+1.33:1
+Also known as 4:3 aspect ratio, this was the most common format for television productions, although the trend is now moving to a widescreen format. Most TV shows from the 1970s, ’80s, and ’90s were shot using this aspect ratio. Films such as
+Citizen Kane
+,
+The Wizard of Oz
+, and
+Gone With the Wind
+were shot in 1.33:1.
+1.66:1
+This is a common European widescreen standard. From the late 1980s to the early 2000s, Disney animated their features in 1.66:1 as a compromise between the 1.85:1 theatrical ratio and the 1.33:1 ratio used for home video.
+1.78:1
+Also known as 16:9, this is the most common widescreen format today for most media, including  video games and commercial advertisements.
+1.85:1
+1.85:1 is the U.S. and U.K. widescreen standard for theatrical film.
+2.35:1
+Also known as 35mm anamorphic projection, Panavision, or Cinemascope. Films such as
+Star Wars
+and
+Lawrence of Arabia
+were shot using 2.35:1.
+Shot Choice
+Shot choice refers to the camera’s location and angle relative to the subject of the story. Understanding the artistic significance of each type of shot is important to the emotion and vision you want to bring viewers.
+There are three main types of shots:
+W
+ide
+Medium
+Close-up
+Within these three choices, there are many variations. Here are some of the most common:
+Wide
+– Subjects in wide shots are very small on the screen. This is generally used to place a character within an environment. A wide shot is tight enough to discern action, but distant enough that the environment is still a prominent element of the shot.
+Full
+– The full shot is the tightest the framing can be while still allowing the audience to see both the head and feet of a character. The full shot is typically used where broad body language or the action of a character is highlighted.
+Medium
+– A medium shot shows the figure from the top of the head to the hips, allowing for a lot of expression from the face as well as broad gestures and actions with the hands and upper body. Slightly more intimate than a full shot. A hug, for example, might feel more meaningful to the audience if shown in a medium shot.
+Close-up shot
+– The most intimate shot is the close-up. It starts at the top of the head and ends at the base of the neck. It is usually used when trying to communicate very important personal information about a character.
+Extreme close-up
+– An extreme close-up is a shot from the bottom of the lips to the top of the eyebrows or closer. This is a special-case shot that really objectifies a subject, reducing him or her to mostly their attitude or surface details on their face. This can also be used to highlight an object for the audience.
+Over-the-shoulder
+– This shot is as if the camera is looking over the shoulder of a character. The shot can be used as a close‐up or medium shot, but there is always a foreground element of a character’s head or shoulders. This helps remind the viewer that both characters are interacting and the foreground character is there listening.
+POV
+– A point-of-view (POV) shot reflects the viewpoint of a character. This type of shot often comes after a close‐up of a character, cutting to their POV. Most often, this shot is medium or wide, but it can also be a close-up to punch in on a detail the character sees.
+Reverse
+– A reverse shot is one showing the opposite viewpoint of the previous shot. It is important to be mindful of screen direction when doing a reverse shot.
+Reaction
+– A reaction shot will show a character's emotion as they're exposed to a new detail or some information significant to the story. This type of shot is usually medium or close‐up.
+Insert
+– An insert shot can have many functions and often becomes the key shot in directing the attention of the audience. If we see a character looking at something, then the subsequent insert shot shows us what they see.
+Camera Position Affects Emotion
+The camera can be placed anywhere in the scene relative to the subject. Different camera positions can have different psychological effects on the viewer. Use this to your advantage by emphasizing the emotional importance of a character within the scene.
+The difference in camera height can be very subtle. By moving the camera slightly above or below a character, you give a different feeling of importance to the audience.
+It’s important to realize that where you place the camera is where you place the audience.
+In this sense, you can keep the audience closer and more involved in the action by placing the camera closer to the characters. Often, it doesn’t make sense to cut to a wide shot when your characters are involved in dramatic dialogue. This has the effect of pulling your audience away from the conversation.
+Intense action is better felt when the camera is in the middle of the scene. If you want to feel dynamic action, place the camera next to cars screaming down the highway, or alongside airplanes flying up in the clouds in an intense dogfight. If you need the audience to be engaged with the action, keep the camera close to the subject.
+Camera Movements
+Panning and Tilting
+Panning refers to horizontal pivots of the camera and tilting refers to vertical pivots. These movements feel like the movements of the head on the neck as it looks around.
+When we swivel the camera from right to left, the motion is called "pan left." Pivoting from left to right is known as "pan right."
+Pans and tilts are easily distinguishable from moving camera shots in that you see virtually no changes in the perspective of objects relative to each other. There is little parallax between objects (parallax is an apparent change in the position of an object when the camera looking at the object changes position– the perspective of objects will appear to change and move at different speeds).
+Pans and tilts are usually motivated by some action that catches our interest, like a bird flying across the screen or a person walking. Otherwise, the audience will feel as though their point of view (the camera) is drifting aimlessly. The exception to this rule is if the shot is from a character's point of view. The camera is understood to be "under control" of the character, and thus out of the audience's control.
+Generally speaking, every pan or tilt should begin with a static beginning position and end with a static ending position– it’s not favorable to cut into a pan or tilt, or to cut away in the middle of a pan or tilt.
+Moving Camera
+The motion in a traveling camera is of objects moving relative to each other (parallax). Moving camera shots will display a certain amount of parallax between the objects within the field of view. Any type of moving camera shot can be combined with a panning and tilting motion of the camera as well.
+Dolly
+A dolly or tracking shot is a moving camera shot where the camera is placed on linear or curving tracks and rolled through the scene. Imagine viewing a scene from a slow‐moving railroad cart. Dollies refer to horizontal movements of the camera.
+Push In / Pull Out
+A push in / pull out (also called truck in / truck out) refers to the camera moving toward or away from the subject.
+BooM
+A boom shot is a moving camera shot in which the camera is placed on the end of a boom arm attached to a fixed anchor. The boom arm can pivot as well as rise up or down. A boom arm can also be placed on a dolly and pushed through the scene to add a greater dimension of camera movement.
+Crane
+A crane shot is similar to the boom shot except a movie crane has a much larger field of view and its pivot arm can extend out as well as rotate. A crane can also travel on tracks and be pushed through the scene. This creates a large and sweeping camera movement that can begin on a close‐up or medium shot and end on an extreme wide shot or vice versa.
+Steady Cam
+A steady-cam shot has the cameraman following the action throughout a scene. A steady-cam shot can create an extended moving camera shot with multiple setups in a variety of compositions within the shot. The camera can also raise and lower on the steady-cam arm to create a lower- or higher-angle shot.
+Camera Lenses
+In addition to understanding how the camera moves, it’s important to understand the visual effects different camera lenses produce.
+Most productions will reference a physical camera and physical lenses when talking about shots and storyboards. It’s not necessary to understand technical photography, but the general difference between lenses is important to know.
+Let's identify the various lens types:
+Long (Narrow-angle) Lens
+Long lenses refer to lens measurements of 40 mm to 120 mm or more. Long-lens shots are typically shots filmed at a distance from the subject, but the image is magnified through the use of the lens. Because of this, space is compressed and the perspective seems flat, making objects appear close together.
+The depth of field, or potential range a subject can be in focus, is narrow with a long lens. This drives the background and foreground elements out of focus. This can create a feeling of claustrophobia. Long lenses can also be used in action scenes where subjects need to fight each other. Using a long lens will make it appear as though the subjects make contact, but in reality, they're physically far apart.
+Short (Wide-angle) Lens
+Short-lens shots refer to lens measurements of 15 mm to 40 mm. A wide‐angle can be used to show a location in an establishing shot. The lower the lens number, the more distortion the lens creates.
+This is often, but not always, unfavorable for doing close‐up shots. A wide‐angle lens can be used to exaggerate the speed and size change of a subject. These types of shots are often used in close‐ups of action sequences, such as a car chase or a martial-arts kick toward the camera.
+Fisheye
+An extremely short lens (18mm or less) creates an exaggeration of perspective and distortion of the image, similar to looking through a bowl of water. This will greatly exaggerate the size change of the subject. This can give a comedic feel to a scene or add an uneasy visual feeling in a suspense movie.
+Zoom In / Zoom Out
+A zooming shot uses a lens that can change from, for example, 50 mm to 100 mm. The resulting effect is it will appear the subject is growing. A zooming effect is used sparingly in modern films, but was used extensively in the 1960s and ’70s.
+Rack Focus
+Rack focus is the selective use of focus to emphasize one subject over another within the same shot. The depth of field of the camera lens is physically changed during the shot to blur out one element and focus on another. This type of shot helps in directing the viewer's eye to what is important in the scene.
+Screen Direction
+Most of the time in a scene, subjects will move around the set, creating the opportunity for a variety of shot choices. For every shot, you decide the direction from which the camera is viewing the scene (camera position). Where the subjects are placed in a composition is defined as being on the left or the right of the frame– “screen left” or “screen right.”
+If you establish a subject on screen right, you should maintain that character on the right throughout the scene unless you have a reason to switch positions. This helps the audience identify the subject according to their screen position. When you begin a scene, the decision to place a subject on one side or the other can be arbitrary. You might begin a scene with a wide establishing shot where subject A is placed on the left and subject B is on the right. As you close in, maintaining this in your compositions will improve clarity.
+The 180-degree Rule
+The 180-degree rule or "line of action" is a cinematic convention that helps orient the audience by maintaining a consistent screen direction between shots throughout a scene.
+"The line" is an imaginary line from one subject to another. All successive shots in a scene should only be viewed from one side of this imaginary line within a 180-degree radius to avoid confusing the audience– basically keeping each subject moving or facing a consistent direction.
+Three subjects create three imaginary axis lines and the 180-degree rule will apply to all three axis lines. What can help in this situation is grouping one set of subjects favored to one side of the screen, essentially removing one axis line.
+Selecting a new shot from the opposite side of the line without showing any kind of transition is called "jumping the line" and results in the jarring and confusing effect that the characters have suddenly traded places.
+As with all guidelines in filmmaking, there are exceptions to this rule. The reason for flopping screen direction should support the emotional beat in your story. If it's necessary, you can cross the 180-degree line in the following ways:
+Cut away to a neutral shot
+Move the subjects
+Move the camera
+Move both the subjects and the camera
+Cinematography Rules For Storyboard Artists
+In cinematography, there are five concepts you should know about: the five C’s of cinematography. These come from
+a book of the same name by acclaimed cinematographer Joseph Mascelli.
+1. Camera Angles
+Camera angles refer to the way the camera is positioned to film a particular scene. These are the eyes of the audience– you place the camera where you want to place the audience in the scene. This makes choosing the right camera angle hugely important.
+There are three types of camera angles:
+Objective
+Subjective
+Point-of-view
+The objective camera angle films from a sideline viewpoint. The audience views events through the eyes of an unseen observer.
+The subjective camera angle films from a personal viewpoint. The audience is placed in the action by the camera trading places with an actor in the scene.
+POV camera angles are from a particular scene participant’s viewpoint. This can also include an over-the-shoulder shot, as it gives the impression the audience is cheek-to-cheek with the character. POV shots can be used whenever you want to involve the viewer more closely with the event.
+There are five commonly used angles in cinematography:
+High-angle
+Low-angle
+Over-the-shoulder
+Bird’s eye
+Dutch angle / tilt
+Controlling the angle of your camera and the type of shot you use for a scene allows you to control the mood of your story.
+Framing A Shot
+Camera framing is the placement and position of the subjects in your shots. Shots are all about composition. Rather than pointing the camera at a subject from a random position, you have to compose an image that fulfills the story point needed at that moment and best shows the action required.
+You should frame for the focal point and subject of your shot. A key point to remember is to leave enough compositional space or “breathing room” around a subject so the shot is visually pleasing. One common mistake storyboard artists make is to frame characters and objects too tightly.
+Another common mistake is to crop characters and objects poorly. Cropping characters at joints such as the knees or ankles will read awkwardly for the audience.
+Framing a shot involves tapping your composition skills, so that all elements in the frame create a pleasing design and allow for the best communication of the story point.
+Creating Depth
+Creating the illusion of depth within a frame is difficult for any storyboard artist to master. The default tendency is to create flat images with little perspective or depth cues. As artists, we often talk about a scene having deep space or flat space.
+If a scene has a clear, expansive sense of space, it has deep space. If a scene features characters up against a wall or in front of a staged backdrop, limiting the distance our eyes can travel, it has flat space.
+Each spatial choice has a benefit when trying to describe dramatic or comedic moments and specific story points. These depth cues are a conscious choice to create a specific effect for the audience.
+Once you are conscious of different tricks to achieve depth and limit depth when necessary, it becomes easier to produce a convincing storyboard image.
+See our
+in-depth guide on drawing techniques
+for creating depth.
+Drawing Camera Lenses
+Most of the time when drawing storyboards, specific camera lenses will not be called out by the production. In this case, you can draw a general representation of a wide shot versus a close‐up and leave the lens choice to the final cinematographer. Other times, directors might specify a 20 mm lens or an 80 mm lens for a particular shot.
+No one will check to make sure the image you create is an exact representation, but it’s important to be able to draw the difference between a wide‐angle and a long-angle lens when necessary. For indicating the difference in lens choice, we go back to the wonderful and useful tool of perspective.
+You can vary the size of the lens you use in your drawing simply by adjusting the distance of your vanishing points on your horizon line. The further apart your vanishing points are, the longer the lens will appear. The closer together your vanishing points are, the shorter the lens will appear.
+On a 35mm film camera, a 50 mm lens is approximately what the human eye sees. Use this as the basis for your shots and adjust the distortion wider or narrower accordingly.
+You shouldn’t have more than one vanishing point inside the picture area or frame of the composition– two vanishing points represents too short a lens and too much visual distortion for most camera shots.
+Drawing A Long Lens
+Keep your vanishing points very far apart. With a longer lens, there is a short focal length, which means the foreground and background will most likely be out of focus. The subject in the middle-ground should appear more in focus to create the illusion of a longer camera lens.
+Drawing A Short Lens
+Keep your vanishing points relatively close together. The closer your vanishing points, the more fisheye distortion you can create. You can also add three‐point perspective to further the illusion of a short-angle lens. This type of lens will reveal more information in the foreground and background–  the objects in your foreground and background might all be in focus. The size change of your moving characters will be exaggerated as they come closer to the camera lens.
+Eye Line
+In terms of the camera placement when looking at a subject, the more frontal and direct the look of a character is to the camera, the more engaged the audience will be.
+We talk about this as being the subject’s eye line. Remember, the camera is a representation of the audience’s viewpoint. A subject staring directly into the camera should be treated as if the subject is looking directly at the audience. As the subject’s eye line moves further away from directly looking at the camera lens, toward a profile view, the less engaged the audience will be with the subject.
+Young storyboard artists default to near-profile views of subjects in medium or close‐up shots. A more engaging view would be 3/4 frontal views, with the subject's eye line looking slightly off to the right or left of the camera lens. We want objects to be coming directly toward or going away from the camera lens as much as possible to emphasize the size change of the object, which creates the sense of depth.
+2. Continuity
+While creating a film, filmmakers will take care to ensure continuity is logical and the audience doesn’t have trouble following the story. Events can move forward or backward and time can speed up or slow, or stop altogether, based on how you play with the continuity of your shots.
+Although you won’t be editing any films as a storyboard artist, the information you’ll document will have to reflect the continuity needs of the story. The shots have to be ordered in a certain way to make it work in the editing room.
+By now, you realize creating storyboards is not just about drawing, but also a knowledge of film language, including the timing and pacing of events you want for your audience. This is why it’s important to study films and understand how they’re constructed– we can apply that knowledge in our own work.
+By understanding concepts like screen direction, you will keep the action clear for the audience and this will create a solid continuity or progression of story beats.
+Continuity uses many of the concepts mentioned above, including:
+Eyeline match
+Matching action
+180-degree rule
+Cross-cutting
+Avoiding jump cuts
+Using flashbacks
+The order in which your shots appear matters a lot as far as effect you have on your audience and whether your story is clear and entertaining. The best training for understanding continuity is studying films and knowing your film history (discussed more below). There are times where a more traditional representation of continuity is best and other times where flashbacks and time manipulations will create great excitement for your story.
+3. Cutting
+Cutting and editorial choices are other tools at a filmmaker’s disposal.
+Cutting is the term for the order and timing in which you place your shots. As storyboard artists, we may not edit our own panels together, or the final footage, but in creating the images for a project, we’re doing a method of “pre-editing” or conceptualizing how final shots will be ordered.
+The order in which you show each shot will affect the story you’re trying to tell. It can also be just as impactful to leave details out as it is to show each story beat. The choices add up to a cutting style that will make your story come to life.
+The idea of cutting is to form your footage into a cohesive cinematic experience and use different techniques to reinforce certain ideas or create drama or suspense.
+In cinematography, there are 11 types of cutting techniques, each with their own pros and cons and specific use-cases:
+The hard cut
+The jump cut
+The match cut
+Split edits
+J-cut
+L-cut
+Cut-ins
+Montage
+Cross-cut
+The cutaway
+Smash cut
+Understanding these editorial methods will help you construct the shots in a story in a way that makes sense to the viewer and is exciting to watch. Are you creating a scene that has moving camera shots versus static shots? If so, this will influence your storyboards and what images you create to represent those shots.
+4. Close-ups
+Close-ups are among the most powerful storytelling devices available to filmmakers. They should be reserved for vital spots in a story, so they give the maximum intended visual impact to the audience.
+This is not just about showing a story detail up close, but also adding an emotional emphasis or punch needed for an action or moment.
+A punch feels that much stronger if we see it land in a tight close-up.
+Likewise, a character’s reaction will have that much more impact if the important reveal is done with a close-up.
+Key things to keep in mind are how close you put the camera to the subject and how you frame them. You still want to give “breathing room” or “headroom” above the character to allow them to move in a visually pleasing way.
+5. Composition
+Storyboard
+Film composition is essential to directing the viewer’s attention, framing specific scenes visually, and creating pleasing imagery within the film.
+Composition can also be used to convey information and context to the viewer. By controlling shapes and angles in a composition, we can hint to the viewer the underlying meaning and emotion within a scene.
+The rule of thirds is a guide to help avoid symmetry in your composition. Draw lines dividing the frame into thirds both vertically and horizontally.
+Symmetry tends to split composition and make it seem overly stiff and formal. Unless this is your intent, avoid putting areas of interest along the halfway line. In most cases, you should put the most interesting elements of a composition into areas where the image divides into thirds.
+You can align characters and objects with the lines themselves.
+Contrast can help define the focal point of a shot as well as create depth. The eye is attracted to what’s different– a light object will stand out if everything else is dark, for example. By contrasting shapes or isolating a color, you can easily create a focal point within your image.
+You can juxtapose different objects and elements in shape, color, value, size, and almost any other attribute you can think of.
+Value or color contrast is also a way to help achieve depth. Light images feel closer to us, while dark images recede. With color images, warm colors will feel closer and cool colors will recede. Things close to us appear to have a broader range of light to dark than things farther away. Our attention will always be drawn to the areas with the greatest amount of contrast.
+Another concept that needs to be clear within our images is the idea of visual appeal. Learning how to create visual appeal in storyboards requires understanding basic concepts of design and command of visual shapes.
+Sometimes, the simplest of lines and shapes can evoke great appeal.
+Sometimes, when you look at your drawings and something feels off, it might actually be that they lack appeal. Maybe the arrangement of shapes in a composition is too cluttered, or maybe a facial expression looks overworked. Sometimes, just understanding the concept can help you avoid creating a dull storyboard panel.
+Always remember, the goal of a composition is to control the focus of the audience. If you simply make a beautiful shot without a clear focus of what is important, the audience’s attention is going to scatter as they attempt to take everything in.
+Film History and Its Importance To Storyboard Artists
+Storyboard artists stand to learn a lot from the way movies have evolved over the years.
+Early films were shot with a single camera straight on to the actors, without the variety of cuts, framing, camera work, and editing techniques we use today. By studying film history, you’ll see how early filmmakers influenced the stories of today.
+Storytellers constantly reference and expand on previously established stories, tropes, and cannons. We can adapt all that came before us, using it to inspire the work we produce today. This is a huge, rich history that can ultimately help us make more creative and original work.
+In order to create an original car chase, for example, you can look at all the significant car chase scenes created before. Those will give a solid foundation to borrow from and get inspired by to create a new variation. The same concept applies to just about every kind of scene you can think of. Having solid knowledge of how films were constructed in the past is the trick to creating a great future film.
+Film Genres
+In the early days of film, the first genres of movies were very clearly defined and distinguishable from each other. When audiences went to the movies, they knew exactly what to expect when a certain film was labeled with a certain genre.
+Blake Snyder’s book
+Save the Cat!: The Last Book on Screenwriting You’ll Ever Need
+is a great resource on writing for the screen that goes into the topic of film genres extensively, but we can give you some basics.
+Some basic genres we use when classifying films are:
+Action
+Comedy
+Drama
+Fantasy
+Horror
+Mystery
+Romance
+Thriller
+Western
+Over time, filmmakers have broken out of these molds and incorporated elements from multiple genres into their work.
+Some of the resulting subgenres have found broader appeal with audiences. Here are some of the most popular film genres and their subgenres:
+Action
+War and military
+Spy and espionage
+Martial arts
+Western shoot ’em up
+Action hybrid
+Comedy
+Slapstick
+Screwball
+Parody
+Dark
+Horror
+Zombie
+Folk
+Body
+Found footage
+Sci-Fi
+Space travel
+Time travel
+Cerebral science
+Robot and monster
+Disaster and alien invasion
+Western
+Classic
+Revisionist and anti-western
+Contemporary and neo-western
+Fantasy and space
+Modern
+Romance
+Historical
+Romantic drama
+Romantic comedy
+Chick flick
+Paranormal
+Thriller
+Conspiracy
+Crime
+Legal
+Spy
+Supernatural
+Film References
+Film references are call-backs to earlier films that are extremely well-known and loved. They can add an element of humor, as the audience gets the reference and becomes in on the joke, so to speak.
+Inside jokes could include having a character say “I’ll be back” in a sinister voice, and you know they’re referencing Arnold Schwarzenneger’s famous line in Terminator. Another example is using dialog or phrases that reference famous Hitchcock films to convey suspense, usually with a “Duh, duh, DAH!!!!” series of notes after the reference.
+Watching the films of master directors and writers gives you more ideas to pull from, such as ideas for framing, continuity, and character expression. Knowing the names of these films, characters, and directors is a way to quickly convey your ideas to fellow cinematographers who are also steeped in film history and understand your references.
+Staging A Film Scene
+Staging refers to the arrangement of characters or objects within your scene and the corresponding character and camera movements. Choreographing your shots and characters in an exciting way creates efficiency with the scene and will bring even the dullest script to life.  Interesting staging can cover up bad dialogue and give needed visual interest to unappealing characters. Staging is arguably one of the most important skills for a storyboard artist to master.
+Use Depth To Support Your Staging
+A general rule of thumb is to use deep space for drama, and flat space for comedy. When you're staging a dramatic scene, an action scene, a mysterious scene, a scene of tension, an emotional acting type scene, etc., it will work better if you create depth within your staging.
+Place the camera in such a way as to avoid symmetry and to create diagonals within the frame.
+For a comedic scene, flat staging tends to work best. Think of a one-panel comic strip or a comedian on a stage. There is usually a limited amount of depth behind the character, so as not to distract from the funny performance.
+In a comedic scene, a character’s movement is either directly in front of the camera or moving parallel to where the camera is placed. Creating a sense of flattened space cues us that something is funny and enhances the feeling whenever you’re trying to present a comedic idea.
+Distance can also play an important part in both of these types of sequences. When you put the camera far enough back, even the most extreme action can become humorous. On the other hand, putting the camera far back from the action when a scene is supposed to be dramatic can hurt the tone of the scene. Being far back from the action has the effect of making you look at it in an uninvolved, dispassionate way.
+By combining depth choices and camera and character movements that reflect the emotional beat within your scene, your staging will be visually exciting to the audience. You may even be able to create an efficient series of shots that only requires two or three camera positions to deliver multiple pages of dialogue. With proper staging, you only need to cut when it's absolutely necessary. Each shot in turn will have more meaning, since each shot becomes new information revealed to the audience instead of cutting for cutting’s sake.
+Staging With Secondary Action
+A character can be engaged in an action that supports the story point, or contrasts their emotions or dialogue. Try a scene focused on two fast-food workers talking about weight loss while serving unhealthy food.
+The setup in a fast-food restaurant contrasts the point of the story, creating a visual irony. The characters could be anywhere talking about weight loss, but the "secondary action" of serving fast food creates the opportunity for unique camera setups.
+In addition, having the characters serve greasy French fries while talking about cutting calories may visually enhance the futility of their weight-loss goals.
+The opportunities for camera movement are much greater in the kitchen of a fast-food restaurant than they would be if the characters were sitting on a park bench. The camera could track with the characters as they move from the register to the French fryer to the grill.
+What about a scene between two politicians as they reveal insider information? You could put the characters in a closed boardroom as they debate the issues, but what if they were competing in a game of golf while debating the congressional bill instead? Having them play golf allows for secondary action during the scene, but it is the way they play their golf game that might enhance the story. One character might psych out the other by standing close behind him as he chooses his club.When you construct a scene, think of how you can approach the story point with the most interesting use of staging and secondary action to enhance the story. Give yourself some action to visually stage out. Don’t go overboard, though. Make it appropriate for the scene in question.
+Design In Your Scenes
+Visual design and story design have to come together to tell a great story. By understanding the emotional beats at a particular point within a story, you can design your shots with a visual motif to better communicate the emotional beats.
+This should begin at the storyboard phase of a production.
+By incorporating certain camera moves or compositions, you can affect the emotional weight in the story and help reveal deeper meanings about characters, or even foreshadow events yet to occur. In a story that has a large reversal, you may want to maintain slow and steady camera moves until the reversal happens, after which, the particular camera movements might change according to the chaotic nature of the reversal.
+Design should be reflected from sequence to sequence and, eventually, throughout the whole project. Just as there is a progression in story structure, there should also be a progression in visual design and story design.
+As storyboard artists, we do not always have the liberty to make changes to the script. What we do control are the visual elements presented as the story beats are revealed. This manipulation of the visual elements can be very powerful in influencing the content of a script. A storyboard artist can turn what would otherwise be a dull exchange of dialogue between two characters into an emotionally rich scene by injecting dynamic design.
+Creating A Dramatic ScenE
+When we talk about dramatic scenes, we often envision pivotal moments in the story. Whenever we think of a twist in a movie and emotional enlightenment or a mystery being revealed, we can say those are dramatic moments.
+The most important thing to remember when creating a dramatic scene is to properly control the timing. Often in visual story mediums, time seems to almost slow down for a dramatic scene. This is done with the intention of giving every action and word in that scene more weight. It also allows the audience more time to take in and ponder on the unraveling sequence.
+Creating A Comedic Scene
+Comedic scenes are some of the toughest to pull off. Comedy doesn’t have a certain set of rules you can follow to make people laugh, and even if it did, it would probably grow old rather quickly.
+There is a certain mystery about exactly what makes people laugh. It’s hard to know if something will be funny before you actually present it to the audience, and if it’s not, well, it’s too late to fix it at that point.
+Transitions
+How you carry the action from one scene to another in a smooth and unique way is the art of transitions. Some projects allow for more exaggerated transitions, but each transition should carry the audience smoothly from one story point to the next.
+Visual Transitions
+In a visual transition, you use the camera to lead the audience from one subject to another. Another technique is to cut to a similar composition or end on a similar shape as the preceding shot. Be creative using visual transitions– there are many examples throughout film history. Watch movies and take note of how filmmakers visually transition from one scene to another.
+Story-point Transitions
+A story-point transition happens when cutting to a similar subject matter in the next scene. Most often, you would cut to the action mentioned in the last line of dialogue. This can be as subtle or as shocking as we want it to be, but the goal is to set up expectations for the upcoming scene.
+Audio and Effects Transitions
+Audio transitions carry music from one scene to another. As storyboard artists, we don't often get to influence the audio or music, but in this case, we can make notes and written suggestions along with our panels. Sometimes, this can overlap with a visual transition as well.
+Fades, wipes, dissolves, and special effects are used to blend one scene to the next. Montage sequences and musical numbers can use effects transitions where objects within the composition transform into objects in the next scene. Effects transitions can be as creative as a project allows.
+What Is A Montage and When Do You Use It?
+A montage is a series of separate images, moving or still, edited together to create a continuous sequence. Filmmakers often resort to this technique when they want to achieve a certain artistic goal.
+This goal can be to:
+Speed up and/or save time
+Make the viewer laugh
+Develop characters
+Build a gestalt
+Combine multiple storylines
+When you started creating your storyboards, you probably thought it was just about the drawing. Hopefully, this article opens your eyes to the wide breadth of tools needed to create a visual story. We don’t want you to get overwhelmed with all the information an artist needs to become a master. Just remember, wherever you are in the process, it gets more fun the more you know about these various techniques. Stick with it and the results will show!
+Leave us a comment below and let us know your favorite moments in film.
+Share
+0
+Tweet
+0
+Share
+0
+{"email":"Email address invalid","url":"Website address invalid","required":"Required field missing"}
+Storyboardart photoshop presets free download
+Boost Your Storyboarding Workflow: Photoshop Action Commands for Panel Creation
+Sign up below to get this tools that will save you time and effort. Professional storyboarding made easy! This download includes Sergio Paez's action commands, presets and template file. Get your instant download now!
+I Want This!
+You'll receive a confirmation email with your personal Discord invite link.
+We won't sell, rent or share your info, ever.
+Storyboard Checklist free download
+A checklist to use when creating storyboards. avoid the most common storyboarding errors.
+Sign up below to get storyboard artist Sergio Paez's storyboard checklist PDF. Get your instant download now!
+I want this!
+You'll receive a confirmation email with your personal Discord invite link.
+We won't sell, rent or share your info, ever.
+Free Storyboard Templates
+Bring your creative vision to life with our free storyboard templates! Perfect for professionals and beginners alike. Editable file format PSD,PDF. Sign up now and start storyboarding!
+I WANT THIS!
+You'll receive a confirmation email with your personal Discord invite link.
+We won't sell, rent or share your info, ever.
+Learn more about
+visual storytelling
+What is a Storyboard
+Introduction to Storyboarding
+Fundamental Drawing and Art Skills
+Thumbnails vs. Final Boards
+Develop Good Drawing Habits
+Speed Up Your Drawing
+Sketching For Storyboards
+Choosing A Drawing Tablet
+Best Way To Stay healthy
+Supplies Every Storyboarding Beginners Needs
+Bad Habits To Avoid With Drawing
+Tips And Tricks for Storyboard Beginners
+How to Storyboard a Video
+Cinematography Skills Every Storyboard Artist Needs
+Camera Angles For Storyboard Artists
+Composition For Storyboards
+Continuity For Storyboards
+Film Editing For Storyboard Artists
+Story Structure and Writing for Storyboard Artists
+Join our Story Forums on Discord
+Get feedback on your work from StoryboardArt Community Members and fellow Story Artists.  Stay in touch with other members, post images, and direct message users.
+I want this!
+You'll receive a confirmation email with your personal Discord invite link.
+We won't sell, rent or share your info, ever.
+Take Your Storyboarding Career to the Next Level
+This guide covers the fundamentals — but if you're serious about working professionally, our courses are built specifically for storyboard artists. Learn at your own pace with step-by-step instruction from working professionals.
+Browse storyboard courses
+Close dialog
+Session expired
+Please log in again.
+The login page will open in a new tab. After logging in you can close it and return to this page.
+>

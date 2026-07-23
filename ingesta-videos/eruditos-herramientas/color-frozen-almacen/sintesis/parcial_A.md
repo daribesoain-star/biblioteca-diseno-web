@@ -1,0 +1,61 @@
+## Psicología del color en food retail (por color)
+
+### Rojo
+- **Qué evoca:** Pasión, calidez, peligro, agresión. Aumenta la frecuencia cardíaca y la respiración, genera energía. (Fuente: https://www.colorpsychology.org/red/)
+- **Estimula o corta el apetito:** Estimula el apetito de forma abrumadora. "Red overwhelmingly stimulates appetite and hunger psychologically." (Fuente: https://www.colorpsychology.org/red/) También acelera el ritmo cardíaco y realza impulsos nerviosos. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/)
+- **Cuándo usarlo en food retail:** Usar rojo brillante (crimson, scarlet) para comida rápida, congelados y productos para jóvenes. Usar rojo oscuro (burgundy, maroon, oxblood) para carnicerías premium y tiendas gourmet. Usar rojo suave (cherry, rose) para enfoque femenino o productos saludables. Usar como acento, nunca como color dominante en grandes superficies. (Fuente: https://www.colorpsychology.org/red/) También es efectivo para comunicar sabor fuerte y atractivo intenso, como en ketchup. (Fuente: https://www.glbc.com/blog/label-colour-psychology-food-and-beverage/)
+
+### Naranja
+- **Qué evoca:** Energía, calidez, entusiasmo, motivación, creatividad, amistad. (Fuente: https://blog.tubikstudio.com/color-in-design-influence-on-users-actions/) También se asocia con vitalidad y tradiciones otoñales. (Fuente: https://tracegains.com/blog/food-and-color-what-does-it-all-mean/)
+- **Estimula o corta el apetito:** Es un color apetitoso por naturaleza: "a blend of red and yellow, naturally lends itself to food as another appetizing color." (Fuente: https://jenndavid.com/colors-that-influence-food-sales-infographic/)
+- **Cuándo usarlo en food retail:** Ideal para productos de alta energía y divertidos, como bebidas deportivas. (Fuente: https://www.glbc.com/blog/label-colour-psychology-food-and-beverage/) También se usa para proyectar valor y asequibilidad, dando una apariencia más económica. (Fuente: https://tracegains.com/blog/food-and-color-what-does-it-all-mean/) Útil para snacks o alimentos para niños. (Fuente: https://blog.tubikstudio.com/color-in-design-influence-on-users-actions/)
+
+### Amarillo
+- **Qué evoca:** Felicidad, optimismo, calidez, creatividad, alegría. Es el color más rápido de procesar por el cerebro humano. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) El 52% lo asocia con alegría. (Fuente: https://www.shopify.com/blog/color-psychology)
+- **Estimula o corta el apetito:** Estimula el apetito. Libera serotonina ("the 'feel-good chemical'"). (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) Junto con el rojo, es uno de los "chief food colors" que estimulan el apetito. (Fuente: https://jenndavid.com/colors-that-influence-food-sales-infographic/)
+- **Cuándo usarlo en food retail:** Usar junto con rojo para fast food y estimular el apetito (ej: McDonald's, Burger King). (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) Sugiere que el producto es original, innovador, o menos costoso y divertido. Atrae a demográficos jóvenes. (Fuente: https://tracegains.com/blog/food-and-color-what-does-it-all-mean/) Usar con moderación para no generar ansiedad. (Fuente: https://blog.tubikstudio.com/color-in-design-influence-on-users-actions/)
+
+### Verde
+- **Qué evoca:** Naturaleza, frescura, crecimiento, salud, equilibrio, armonía. Es el color más relajante para el ojo humano. (Fuente: https://www.colorpsychology.org/green/) Es "almost synonymous with health and well-being when it comes to food." (Fuente: https://tracegains.com/blog/food-and-color-what-does-it-all-mean/)
+- **Estimula o corta el apetito:** No se menciona directamente que estimule el apetito. Se asocia con "abundance" y "sustenance" (sustento). (Fuente: https://www.colorpsychology.org/green/) Sin embargo, "green can be also unappetizing." (Fuente: https://jenndavid.com/colors-that-influence-food-sales-infographic/) Puede verse poco apetitoso, especialmente en niños (ej: Heinz green ketchup). (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/)
+- **Cuándo usarlo en food retail:** Para productos naturales, orgánicos, saludables, ecológicos. (Fuente: https://www.colorpsychology.org/green/) Usar en congelados de vegetales, alimentos limpios, jugos naturales. (Fuente: https://www.glbc.com/blog/label-colour-psychology-food-and-beverage/) Evitar como único color para productos "eco" porque la asociación está sobreutilizada. (Fuente: https://jenndavid.com/colors-that-influence-food-sales-infographic/)
+
+### Azul
+- **Qué evoca:** Confianza, fiabilidad, lealtad, serenidad, orden, tranquilidad. Es el color más común en la naturaleza (cielo, océano). (Fuente: https://www.colorpsychology.org/blue/)
+- **Estimula o corta el apetito:** Es el color menos apetitoso y un supresor del apetito. "Least appetizing color." Planes de pérdida de peso recomiendan platos azules. (Fuente: https://www.colorpsychology.org/blue/) Estudio de los 70s: consumidores reportaron pérdida de apetito al ver bistec teñido de azul. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/)
+- **Cuándo usarlo en food retail:** Para comunicar frescura, frío y limpieza en congelados y productos refrigerados. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) Para transmitir confianza en lácteos y agua. (Fuente: https://www.glbc.com/blog/label-colour-psychology-food-and-beverage/) Fachadas azules: "people are 15 percent more likely to go to stores that are painted in a hue such as blue." (Fuente: https://www.colorpsychology.org/blue/) Evitar como color dominante donde se busca estimular el apetito.
+
+### Blanco
+- **Qué evoca:** Limpieza, pureza, simplicidad, transparencia, modernidad. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) El 50% lo asocia con alivio. (Fuente: https://www.shopify.com/blog/color-psychology)
+- **Estimula o corta el apetito:** No se menciona efecto directo sobre el apetito. Da impresión de producto con pocos ingredientes. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/)
+- **Cuándo usarlo en food retail:** Ideal para lácteos (leche, yogur, queso suave, crema). (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) Para productos que busquen transmitir pureza, simplicidad y transparencia. (Fuente: https://www.glbc.com/blog/label-colour-psychology-food-and-beverage/) Para empaques de alimentos funcionales y clean-label, señalando pureza y minimalismo premium. (Fuente: https://tracegains.com/blog/food-and-color-what-does-it-all-mean/) Usar como fondo para legibilidad. (Fuente: https://blog.tubikstudio.com/color-in-design-influence-on-users-actions/)
+
+### Negro
+- **Qué evoca:** Lujo, exclusividad, sofisticación, elegancia, poder. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) El 51% lo asocia con tristeza. (Fuente: https://www.shopify.com/blog/color-psychology)
+- **Estimula o corta el apetito:** No se menciona efecto directo. Se asocia a sabores amargos: "black, and brown were associated with a bitter taste." (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/)
+- **Cuándo usarlo en food retail:** Para productos premium, de lujo, exclusivos. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) Para líneas gourmet o de alta gama (carnes maduradas, chocolates finos, productos importados). (Fuente: https://www.glbc.com/blog/label-colour-psychology-food-and-beverage/) Para helados de alta gama y empaques de chips premium. (Fuente: https://tracegains.com/blog/food-and-color-what-does-it-all-mean/) Usar con moderación junto a colores tranquilos para evitar sensación sombría. (Fuente: https://www.shopify.com/blog/color-psychology)
+
+### Café / Kraft / Terracota
+- **Qué evoca:** Natural, wholesome (sano/íntegro), ecológico, calidez, seguridad, confort. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) El 36% lo asocia con disgusto, pero también significa naturaleza y calma. (Fuente: https://www.shopify.com/blog/color-psychology)
+- **Estimula o corta el apetito:** Es un color apetitoso: "warm, appetizing, wholesome, natural." (Fuente: https://jenndavid.com/colors-that-influence-food-sales-infographic/) Se asocia a sabores de café, chocolate, cola. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/)
+- **Cuándo usarlo en food retail:** Para productos naturales, ecológicos, vintage o targeting masculino. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) Para comunicar naturalidad, pureza y sostenibilidad en productos orgánicos o de origen reciclado. (Fuente: https://tracegains.com/blog/food-and-color-what-does-it-all-mean/) En empaques de pan para evocar "home-baked and oven-freshness." (Fuente: https://en.wikipedia.org/wiki/Color_psychology) Evitar el look "earth tone" genérico porque está sobreexplotado en specialty food. (Fuente: https://jenndavid.com/colors-that-influence-food-sales-infographic/)
+
+---
+
+## Apetito vs frío (la tensión del rubro)
+
+### Colores que estimulan el hambre (rojo, naranja, amarillo)
+- **Rojo:** "Red overwhelmingly stimulates appetite and hunger psychologically." Las cadenas de comida rápida aprovechan este efecto. (Fuente: https://www.colorpsychology.org/red/) También acelera el ritmo cardíaco y realza impulsos nerviosos. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/)
+- **Naranja:** "A blend of red and yellow, naturally lends itself to food as another appetizing color." (Fuente: https://jenndavid.com/colors-that-influence-food-sales-infographic/)
+- **Amarillo:** Estimula el apetito y libera serotonina ("the 'feel-good chemical'"). (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) Junto con el rojo, son los "chief food colors" que "evoke the tastebuds and stimulate the appetite." (Fuente: https://jenndavid.com/colors-that-influence-food-sales-infographic/)
+- **Por qué funcionan:** Los colores cálidos (rojo, naranja, amarillo) se asocian con urgencia, acción, comodidad, calidez, energía y optimismo. En publicidad, invocan una sensación de urgencia para "reel in quickly" (atraer rápido). (Fuente: https://www.color-meanings.com/warm-cool-colors/)
+
+### Colores que dicen frío/frescura/limpieza (azul, blanco, plata) y su riesgo
+- **Azul:** Asociado a frescura, limpieza, frío. Ideal para productos refrigerados. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) Sin embargo, **suprime el apetito y reduce el hambre.** Es el "least appetizing color." (Fuente: https://www.colorpsychology.org/blue/) Estudio de los 70s: consumidores se enfermaron al ver bistec teñido de azul. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/)
+- **Blanco:** Representa limpieza, pureza, simplicidad. (Fuente: https://forty8creates.com/colour-psychology-of-food-drink/) Puede verse estéril o insípido si no se combina bien. (Fuente: https://jenndavid.com/colors-that-influence-food-sales-infographic/)
+- **Riesgo principal:** Los tonos fríos (azul, púrpura) "can be unappetizing if not done correctly" y "don't stimulate the appetite as much." (Fuente: https://jenndavid.com/colors-that-influence-food-sales-infographic/) El azul puro puede resultar poco apetecible si no se combina con colores cálidos.
+
+### Cómo se resuelve la tensión
+- **Combinar cálidos y fríos:** La combinación de colores cálidos y fríos es "the most powerful" y ofrece el "ideal balance" entre tonos acogedores (cálidos) y tonos naturales (fríos). (Fuente: https://www.color-meanings.com/warm-cool-colors/)
+- **Usar azul para señalizar frío, no para el alimento:** "Pale blue could work to signify frozen" combinado con amarillos cálidos y marrones para carne, o naranjas y rojos para carne. (Fuente: https://jenndavid.com/colors-that-influence-food-sales-infographic/)
+- **Estrategia por sección:** Usar colores cálidos en áreas de comida preparada, panadería y mostradores donde se busca estimular el apetito. Usar azul y blanco en secciones de congelados, lácteos y productos frescos para comunicar temperatura controlada y limpieza, pero siempre combinados con acentos cálidos en empaques para mantener el atractivo visual. (Fuente: https://www.colorpsychology.org/blue/)

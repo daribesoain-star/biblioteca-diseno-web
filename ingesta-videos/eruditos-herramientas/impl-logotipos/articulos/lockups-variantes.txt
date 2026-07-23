@@ -1,0 +1,19 @@
+FUENTE: https://www.akrivi.studio/learn/4-logo-variations
+FUENTE: https://www.akrivi.studio/learn/what-is-a-logo-lockup
+FUENTE: https://mojomox.com/how-to/mojomox-logo-lockups
+FUENTE: https://caslynbranding.com/6-logo-variations-your-brand-needs/
+TEMA: Lockups y sistema de variantes de logo (cuándo usar cada una)
+
+PROBLEMA QUE RESUELVEN LAS VARIANTES: la responsividad. Un solo logo no funciona perfecto en toda situación. Con Logo Primario + Logo Secundario + Brandmark (solo símbolo) + Favicon, la marca queda adaptable, responsiva y consistente en todas partes.
+
+LOCKUP HORIZONTAL: el logomark al lado del logotype. Muy común. Funciona cuando el símbolo (cuadrado, círculo, polígono) puede sentarse al lado del texto. Ideal para espacios anchos (tarjetas de visita, headers de redes sobre imagen).
+
+LOCKUP VERTICAL / STACKED: el símbolo arriba del texto. Funciona bien cuando el símbolo tiene forma triangular. Perfecto para espacios estrechos, presencia compacta.
+
+PRIMARIO VS SECUNDARIO:
+- Primario: la versión principal más detallada, con todos los elementos (símbolo, logotipo, y a veces tagline). Úsalo en los touchpoints principales con espacio (header del sitio, portada de folleto, tarjeta).
+- Secundario: si el primario es horizontal, el secundario suele ser vertical/stacked (o viceversa). Úsalo cuando el primario no calza el espacio. Los stacked suelen llevar solo icono + nombre, sin tagline, para más versatilidad.
+
+LOGO RESPONSIVO: cambia de complejidad según tamaño/uso — de logo completo (texto+icono) a solo el icono en pantallas pequeñas.
+
+CATÁLOGO DE VARIANTES: horizontal (con/sin tagline), vertical (con/sin tagline), "badge", "monogram", solo-icono, wordmark. El SUBMARK es una versión simplificada y condensada con los elementos más importantes, útil en espacios chicos donde el primario y el secundario no funcionan.

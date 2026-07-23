@@ -1,0 +1,2872 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:00.467 --> 00:00:02.802
+Welcome to my YouTube channel.
+
+00:00:02.802 --> 00:00:06.506
+In today's video,
+we're diving into the exciting world
+
+00:00:06.506 --> 00:00:09.109
+of After Effects expressions.
+
+00:00:09.109 --> 00:00:15.248
+If you're looking to take your animations
+to the next level and unlock a whole new
+
+00:00:15.248 --> 00:00:19.519
+realm of creative possibilities,
+you've come to the right place.
+
+00:00:20.020 --> 00:00:23.456
+In this comprehensive guide,
+I'll provide you
+
+00:00:23.456 --> 00:00:27.927
+with a solid introduction
+to expressions in After Effects,
+
+00:00:28.161 --> 00:00:31.765
+covering everything you need to know
+to get started
+
+00:00:31.965 --> 00:00:37.203
+from the basics of writing expressions
+to powerful techniques for automation,
+
+00:00:37.570 --> 00:00:41.174
+animation,
+and creating complex motion graphics.
+
+00:00:41.408 --> 00:00:45.945
+We've got you covered,
+so let's jump right in and explore
+
+00:00:46.079 --> 00:00:49.015
+the fascinating world of expressions
+
+00:00:49.015 --> 00:00:50.150
+in After Effects.
+
+00:00:55.922 --> 00:00:58.925
+So what are expressions?
+
+00:00:59.259 --> 00:01:03.696
+Expressions are a powerful
+scripting feature
+
+00:01:03.963 --> 00:01:09.135
+that allows you to automate animation,
+create complex motion graphics
+
+00:01:09.335 --> 00:01:12.572
+and link properties together dynamically.
+
+00:01:13.073 --> 00:01:17.844
+They are written in a scripting language
+based on JavaScript.
+
+00:01:18.011 --> 00:01:21.014
+Extending the functionality
+of the software
+
+00:01:21.247 --> 00:01:24.350
+beyond simple keyframe based animation.
+
+00:01:26.653 --> 00:01:28.188
+Now let's talk about
+
+00:01:28.188 --> 00:01:31.191
+expressions versus keyframes.
+
+00:01:31.191 --> 00:01:34.494
+Why should I use expressions
+and not keyframe?
+
+00:01:35.128 --> 00:01:40.200
+Well, keyframes provide manual control
+and precise adjustments,
+
+00:01:40.433 --> 00:01:44.437
+while expressions offer
+automation, adaptability,
+
+00:01:44.437 --> 00:01:48.775
+and the ability to create complex
+interactive animations.
+
+00:01:49.109 --> 00:01:51.911
+Both techniques have their strengths
+
+00:01:51.911 --> 00:01:55.548
+and using a combination of keyframes
+and expressions
+
+00:01:55.882 --> 00:01:58.551
+can empower you to create
+
+00:01:58.551 --> 00:02:02.255
+stunning and dynamic animations
+in After Effects.
+
+00:02:02.789 --> 00:02:06.493
+We don't use expressions
+to make our lives more difficult
+
+00:02:06.493 --> 00:02:08.561
+by having to learn more things.
+
+00:02:08.561 --> 00:02:12.232
+We use expressions
+to make our lives easier
+
+00:02:12.265 --> 00:02:15.468
+and have the code automate things for us.
+
+00:02:17.804 --> 00:02:19.072
+Expressions in
+
+00:02:19.072 --> 00:02:23.309
+After Effects are written in a language
+based on JavaScript.
+
+00:02:23.343 --> 00:02:27.514
+So spaces don't matter too much,
+but caps do.
+
+00:02:27.981 --> 00:02:31.017
+You need to write words exactly
+
+00:02:31.017 --> 00:02:34.187
+as they need to be,
+or the expression will not work.
+
+00:02:34.821 --> 00:02:38.324
+Here in After Effects,
+I already have a project
+
+00:02:38.324 --> 00:02:41.060
+which I called AE Expressions.
+
+00:02:41.060 --> 00:02:41.761
+It doesn't matter.
+
+00:02:41.761 --> 00:02:44.464
+Create a new project,
+call it whatever you want.
+
+00:02:44.464 --> 00:02:50.036
+Now I'm going to create a new composition
+that is control or command N
+
+00:02:51.738 --> 00:02:54.741
+and now I'm going to name this expressions
+
+00:02:55.808 --> 00:02:57.944
+and I'll leave the defaults.
+
+00:02:57.944 --> 00:03:02.515
+So 1920 by 1080 is good
+and 29 nine, seven as good as well.
+
+00:03:03.216 --> 00:03:05.618
+Now we need to have a layer to work with.
+
+00:03:05.618 --> 00:03:10.290
+So I'm going to grab my rectangle tool
+and I'm going to create
+
+00:03:10.523 --> 00:03:13.860
+a rectangle shape in here
+and green is fine.
+
+00:03:14.160 --> 00:03:15.528
+So here we go.
+
+00:03:15.528 --> 00:03:21.167
+I'll press and hold a shift key as I draw
+to constrain this to a perfect square.
+
+00:03:21.701 --> 00:03:22.468
+So here we go.
+
+00:03:22.468 --> 00:03:28.041
+I am going to select the selection tool,
+our present whole control,
+
+00:03:28.041 --> 00:03:31.044
+and now I'll double click
+the anchor point tool.
+
+00:03:31.044 --> 00:03:32.645
+And there you have it.
+
+00:03:32.645 --> 00:03:36.482
+Now, my anchor point is centered
+on this layer thing.
+
+00:03:36.549 --> 00:03:37.717
+That cool.
+
+00:03:37.717 --> 00:03:40.220
+All right, So now let's add
+
+00:03:40.220 --> 00:03:43.756
+an expression
+to the position of this layer.
+
+00:03:44.057 --> 00:03:47.660
+So select a layer, press P for position.
+
+00:03:47.894 --> 00:03:50.897
+And now let's add the expression.
+
+00:03:50.897 --> 00:03:54.701
+You can select position
+and then you can go to animation,
+
+00:03:55.168 --> 00:03:58.171
+add expression, but
+
+00:03:58.304 --> 00:04:02.475
+is so much more fun
+if you press and hold the alt key,
+
+00:04:02.775 --> 00:04:07.247
+which is option on the Mac
+and now click on the stopwatch
+
+00:04:08.014 --> 00:04:11.084
+as soon as you do that,
+a couple of things happen.
+
+00:04:11.517 --> 00:04:13.853
+Number one, your numbers turn red.
+
+00:04:13.853 --> 00:04:17.991
+What that means is that you are no longer
+in charge of these values.
+
+00:04:18.291 --> 00:04:19.492
+The expression is
+
+00:04:20.460 --> 00:04:20.994
+Now we
+
+00:04:20.994 --> 00:04:23.997
+have some other icons here at the bottom
+
+00:04:24.197 --> 00:04:27.867
+and we have a place
+to type here in the timeline.
+
+00:04:28.434 --> 00:04:31.938
+So the first thing we're going to do
+is talk about this.
+
+00:04:32.505 --> 00:04:36.242
+What this is saying
+is it's looking at itself
+
+00:04:36.276 --> 00:04:39.412
+is saying, hey,
+for the position of this layer,
+
+00:04:39.646 --> 00:04:45.118
+look at the position of this layer,
+because position is inside of transform.
+
+00:04:45.385 --> 00:04:49.856
+So if we were to collapse the layer
+and expand it again, notice
+
+00:04:49.989 --> 00:04:53.026
+that transform has anchor point,
+position, scale,
+
+00:04:53.026 --> 00:04:56.796
+rotation and opacity
+and the expression is in position.
+
+00:04:57.096 --> 00:05:00.833
+So the expression
+in language is saying, Hey,
+
+00:05:02.101 --> 00:05:04.103
+look at transform
+
+00:05:04.103 --> 00:05:07.573
+then position of this layer.
+
+00:05:07.740 --> 00:05:11.411
+In other words, is like looking at
+the mirror is saying, Hey,
+
+00:05:11.411 --> 00:05:14.414
+for the position of this layer,
+look at the position of this layer.
+
+00:05:14.414 --> 00:05:16.816
+It's doing nothing. But
+
+00:05:18.284 --> 00:05:18.985
+we can type
+
+00:05:18.985 --> 00:05:21.988
+now anything else we want to type.
+
+00:05:22.155 --> 00:05:26.626
+Let's start with a very simple wiggle
+expression.
+
+00:05:26.959 --> 00:05:29.962
+This is perhaps the expression
+that I use the most.
+
+00:05:30.296 --> 00:05:33.900
+So you can click on the word
+transform position and notice
+
+00:05:33.900 --> 00:05:35.101
+that they're all selected.
+
+00:05:35.101 --> 00:05:37.770
+I mean, you don't have to go again
+and select them again.
+
+00:05:37.770 --> 00:05:40.940
+They're already selected and now type
+
+00:05:40.940 --> 00:05:44.477
+the word wiggle all lowercase w
+
+00:05:44.477 --> 00:05:48.014
+i g g and you know, actually,
+
+00:05:48.314 --> 00:05:51.150
+before you even stop,
+
+00:05:51.150 --> 00:05:54.287
+before you even stop typing, here it is.
+
+00:05:54.287 --> 00:05:56.556
+You can simply double click it
+and there you go.
+
+00:05:56.556 --> 00:05:59.325
+It even gives you the parentheses. Now,
+
+00:05:59.325 --> 00:06:03.629
+a wiggle expression gives you
+random values
+
+00:06:03.796 --> 00:06:07.800
+based on two parameters frequency.
+
+00:06:08.368 --> 00:06:11.003
+How often should it give you these
+
+00:06:11.003 --> 00:06:14.073
+random values and magnitude?
+
+00:06:14.340 --> 00:06:17.343
+How much should they be?
+
+00:06:17.677 --> 00:06:20.947
+So frequency is measured
+in times per second,
+
+00:06:21.614 --> 00:06:26.452
+while magnitude is measured
+in whatever unit
+
+00:06:27.086 --> 00:06:29.455
+this property is using,
+
+00:06:29.455 --> 00:06:32.692
+position is measured on pixel coordinates.
+
+00:06:33.126 --> 00:06:36.729
+So if we were to type to give me
+
+00:06:36.729 --> 00:06:39.732
+random values two times per second,
+
+00:06:39.832 --> 00:06:43.569
+comma 200, it means go
+
+00:06:43.569 --> 00:06:48.775
+plus or -200 from both these numbers
+
+00:06:49.275 --> 00:06:52.245
+to commit to the expression
+click out of it.
+
+00:06:52.245 --> 00:06:55.748
+And now if you play,
+you're going to see that indeed,
+
+00:06:56.048 --> 00:06:59.986
+we are wiggling
+the position of this layer.
+
+00:07:01.254 --> 00:07:02.889
+Do you want to wiggle it faster?
+
+00:07:02.889 --> 00:07:05.224
+That's fine. Change the first number.
+
+00:07:05.224 --> 00:07:09.996
+I'll change it to a five
+and now it should wiggle a lot faster.
+
+00:07:10.630 --> 00:07:11.230
+All right.
+
+00:07:11.230 --> 00:07:15.668
+You want to wiggle it more less
+than change the magnitude number.
+
+00:07:16.102 --> 00:07:19.238
+So wiggle frequency. Magnitude.
+
+00:07:19.238 --> 00:07:22.241
+How often? How much?
+
+00:07:22.542 --> 00:07:27.880
+Now, there are different things
+that you need to know about expressions.
+
+00:07:27.880 --> 00:07:32.285
+And listen,
+we're just getting started here, so it's
+
+00:07:32.285 --> 00:07:36.489
+okay if you need to pause,
+you need to rewatch something.
+
+00:07:36.622 --> 00:07:40.993
+I have divided this already in chapters
+so you can go to a specific chapter
+
+00:07:41.093 --> 00:07:43.162
+and just watch that.
+
+00:07:43.162 --> 00:07:45.431
+So let's continue here.
+
+00:07:45.431 --> 00:07:49.235
+Let's talk about position
+having two numbers,
+
+00:07:49.769 --> 00:07:52.805
+one for X and one for Y.
+
+00:07:53.206 --> 00:07:56.576
+So imagine that you want to wiggle
+
+00:07:57.009 --> 00:08:00.680
+only the up and down,
+but not the side to side.
+
+00:08:00.980 --> 00:08:02.949
+What to do, what to do, what to do.
+
+00:08:02.949 --> 00:08:07.386
+Well, you can create variables.
+
+00:08:08.321 --> 00:08:08.955
+All right.
+
+00:08:08.955 --> 00:08:13.426
+So a variable is a placeholder
+for information.
+
+00:08:13.793 --> 00:08:17.363
+Now I'm going to go ahead and delete this.
+
+00:08:17.363 --> 00:08:20.366
+So present,
+hold alt click on the stopwatch.
+
+00:08:20.500 --> 00:08:25.738
+And now the same thing that added the
+expression lets me delete the expression.
+
+00:08:25.972 --> 00:08:26.973
+So here we go.
+
+00:08:26.973 --> 00:08:32.378
+If I right click the word position,
+I can separate the dimensions.
+
+00:08:32.445 --> 00:08:35.248
+So now I have X and I have Y.
+
+00:08:35.248 --> 00:08:36.682
+And you know what?
+
+00:08:36.682 --> 00:08:37.116
+Yeah.
+
+00:08:37.116 --> 00:08:40.853
+I could then add the wiggle to only the Y.
+
+00:08:41.120 --> 00:08:44.123
+But look what happens
+if you do it to scale.
+
+00:08:44.357 --> 00:08:48.628
+There is no way to separate
+the dimensions of scale.
+
+00:08:49.061 --> 00:08:51.864
+So I'm going to undo the separation
+
+00:08:51.864 --> 00:08:55.568
+of the dimensions
+and now I'm going to use variables.
+
+00:08:56.168 --> 00:09:00.006
+A variable is a place holder
+for information.
+
+00:09:00.606 --> 00:09:01.240
+All right?
+
+00:09:01.240 --> 00:09:04.243
+It's called variable because it changes.
+
+00:09:04.477 --> 00:09:08.247
+Like every time you look at a clock,
+it changes type.
+
+00:09:08.648 --> 00:09:10.149
+Go figure. Right.
+
+00:09:10.149 --> 00:09:14.453
+So that would be a variable
+that it shows you,
+
+00:09:14.453 --> 00:09:18.691
+whatever that container
+has at that moment in time.
+
+00:09:19.358 --> 00:09:21.127
+So here we go.
+
+00:09:21.127 --> 00:09:22.728
+Let's enable the expression,
+
+00:09:23.796 --> 00:09:24.864
+add the expression
+
+00:09:24.864 --> 00:09:27.867
+by pressing on holding alt,
+click on the stopwatch.
+
+00:09:28.634 --> 00:09:30.970
+We can name our variables
+
+00:09:30.970 --> 00:09:33.873
+anything we want to name them.
+
+00:09:33.873 --> 00:09:37.476
+I'm just going to keep it simple
+and I'm going to name my variable
+
+00:09:37.476 --> 00:09:41.981
+A, B, and C, so a space equals space.
+
+00:09:42.315 --> 00:09:45.585
+New line B Space equals space.
+
+00:09:45.585 --> 00:09:48.788
+New line C space equals space.
+
+00:09:50.056 --> 00:09:51.924
+Now, the reason
+
+00:09:51.924 --> 00:09:56.062
+why in this case we need to use a variable
+
+00:09:56.062 --> 00:09:59.131
+is because we want to separate the X
+from the Y.
+
+00:09:59.899 --> 00:10:02.234
+The reason for that is because
+
+00:10:02.234 --> 00:10:07.306
+position has two values or three really,
+if you're dealing with three D
+
+00:10:07.773 --> 00:10:10.776
+and that is known as an array
+
+00:10:12.278 --> 00:10:15.648
+position, zero will always be X
+
+00:10:15.848 --> 00:10:20.286
+side to side position
+one is going to be Y up and down
+
+00:10:20.553 --> 00:10:23.556
+and position two is going to be Z
+
+00:10:23.556 --> 00:10:26.559
+closer or farther from the camera.
+
+00:10:26.792 --> 00:10:30.396
+So right now we're not in 3D,
+
+00:10:30.563 --> 00:10:33.699
+so our array has two
+
+00:10:33.833 --> 00:10:37.603
+indexes, the zero and the one for X and Y.
+
+00:10:38.270 --> 00:10:40.072
+So here we go.
+
+00:10:40.072 --> 00:10:45.111
+Let's define the first variable,
+which I named A and by the way,
+
+00:10:45.111 --> 00:10:49.715
+we could have named it Luisa Blue Dog,
+Yellow Cat, Anything you want.
+
+00:10:50.516 --> 00:10:55.388
+You just can't name a variable
+with a key word.
+
+00:10:55.388 --> 00:10:59.859
+In other words,
+you can't name your variable wiggle.
+
+00:11:00.860 --> 00:11:02.361
+So it has to be a
+
+00:11:02.361 --> 00:11:05.831
+word that
+doesn't mean anything in the script.
+
+00:11:06.399 --> 00:11:08.234
+An A is just as good.
+
+00:11:08.234 --> 00:11:11.370
+We could have called it
+exposicion y position,
+
+00:11:11.604 --> 00:11:14.573
+something like that, but not position.
+
+00:11:14.573 --> 00:11:17.043
+All right, so here we go.
+
+00:11:17.043 --> 00:11:19.512
+Notice that we have a squiggly line,
+
+00:11:19.512 --> 00:11:24.316
+very similar, identical
+to the one for parenting.
+
+00:11:24.750 --> 00:11:29.021
+So with this squiggly line,
+we are going to point,
+
+00:11:29.021 --> 00:11:32.191
+we're going to click and drag
+and point to the x.
+
+00:11:32.625 --> 00:11:36.095
+Look where my insertion line is
+
+00:11:36.495 --> 00:11:39.632
+is right after the A, we're defining A
+
+00:11:39.999 --> 00:11:43.536
+So I'm going to click on this pick whip
+
+00:11:43.969 --> 00:11:49.408
+expression, pick whip,
+and I'm going to pointed to the x boom.
+
+00:11:50.409 --> 00:11:53.345
+It writes the variable for me.
+
+00:11:53.345 --> 00:11:57.049
+Look at the language transform position.
+
+00:11:57.049 --> 00:12:00.352
+We already saw that
+and it gives it the index number.
+
+00:12:00.553 --> 00:12:05.791
+Remember, we are pointing only at the X
+and that is index number zero.
+
+00:12:06.358 --> 00:12:12.431
+Now in expression language
+we end sentences with a semicolon.
+
+00:12:12.865 --> 00:12:13.866
+All right.
+
+00:12:13.866 --> 00:12:16.469
+So after we define that
+
+00:12:16.469 --> 00:12:19.638
+first variable
+and we go to the second line,
+
+00:12:20.439 --> 00:12:23.109
+right, we're going to put
+
+00:12:23.109 --> 00:12:25.377
+a little semicolon there at the end.
+
+00:12:27.313 --> 00:12:28.547
+I'm sorry I clicked out of it.
+
+00:12:28.547 --> 00:12:32.518
+And yes, I'm getting an expression error
+because I clicked out of it
+
+00:12:32.518 --> 00:12:35.521
+inadvertently
+and I wasn't done doing my expression.
+
+00:12:35.521 --> 00:12:38.591
+So After Effects, it's just saying,
+Hey, Luisa, what's going on here?
+
+00:12:38.591 --> 00:12:40.025
+This is not making any sense.
+
+00:12:40.025 --> 00:12:43.028
+All right, let's define B now.
+
+00:12:43.629 --> 00:12:45.564
+Click and drag it to the Y.
+
+00:12:45.564 --> 00:12:48.300
+See, it's identical, but it has a one
+
+00:12:48.300 --> 00:12:51.303
+because the Y has an index of one.
+
+00:12:51.771 --> 00:12:54.340
+The C is because I need
+
+00:12:54.340 --> 00:12:57.343
+to put these two together in the array.
+
+00:12:57.343 --> 00:12:59.345
+So square brackets,
+
+00:12:59.345 --> 00:13:02.982
+as soon as you open one After Effects,
+we've closed the other one.
+
+00:13:03.415 --> 00:13:06.051
+So inside A comma B
+
+00:13:06.051 --> 00:13:09.121
+and now the expression is working
+
+00:13:09.522 --> 00:13:13.526
+perfectly
+well of course is not doing anything yet.
+
+00:13:13.526 --> 00:13:14.260
+Right.
+
+00:13:14.260 --> 00:13:17.963
+Because we're just saying, hey,
+for the Y over this position,
+
+00:13:17.963 --> 00:13:20.966
+look at the Y of this position,
+for the X of this position,
+
+00:13:21.033 --> 00:13:24.236
+look at the X of this position
+and then put them together X and Y.
+
+00:13:25.037 --> 00:13:25.304
+Yeah.
+
+00:13:25.304 --> 00:13:30.476
+It's not doing anything but we're going to
+replace the B which is the Y,
+
+00:13:31.944 --> 00:13:34.847
+Don't grab the index with
+
+00:13:34.847 --> 00:13:38.818
+wiggle open parentheses these two comma.
+
+00:13:39.218 --> 00:13:43.489
+Oh let's do 250,
+click out of there for good measure
+
+00:13:43.856 --> 00:13:47.259
+and now it's wiggling
+
+00:13:47.827 --> 00:13:50.429
+only the Y.
+
+00:13:50.429 --> 00:13:52.431
+All right,
+
+00:13:52.431 --> 00:13:54.800
+imagine for a second
+
+00:13:54.800 --> 00:13:59.104
+that you want to do this with scale
+because we already saw.
+
+00:13:59.138 --> 00:14:02.575
+Hey, listen, you don't have to do
+these variables for position.
+
+00:14:02.875 --> 00:14:06.245
+Sometimes you do what you have to
+for scale.
+
+00:14:06.412 --> 00:14:09.648
+So let's go ahead and delete
+the expression here and let's
+
+00:14:09.648 --> 00:14:12.952
+go to scale press and hold alt or option.
+
+00:14:12.952 --> 00:14:14.386
+And now here we go.
+
+00:14:14.386 --> 00:14:16.222
+A Space equals space.
+
+00:14:16.222 --> 00:14:18.157
+B space equals space.
+
+00:14:18.157 --> 00:14:21.126
+See space equals space
+
+00:14:21.126 --> 00:14:23.529
+square brackets, A comma
+
+00:14:23.529 --> 00:14:26.498
+B, and there you go,
+
+00:14:26.532 --> 00:14:30.169
+point the x width with goes first
+
+00:14:31.637 --> 00:14:33.472
+point to the height,
+
+00:14:33.472 --> 00:14:37.643
+then height and width, semicolon
+for good measure.
+
+00:14:38.010 --> 00:14:42.214
+And now the expression again
+is not doing anything.
+
+00:14:42.748 --> 00:14:46.552
+Now let's do it to the width select
+transform, dot scale.
+
+00:14:46.785 --> 00:14:48.821
+And instead of telling it hey,
+
+00:14:48.821 --> 00:14:51.390
+for the width of this layer,
+look at the width of this layer,
+
+00:14:51.390 --> 00:14:54.593
+we're going to say, Hey,
+for the width of this layer, wiggle it,
+
+00:14:55.160 --> 00:14:57.696
+wiggle two times per
+
+00:14:57.696 --> 00:15:01.233
+second and let's say 50%
+
+00:15:02.368 --> 00:15:03.035
+and it's
+
+00:15:03.035 --> 00:15:07.373
+50% because
+scale is measured in percentages.
+
+00:15:07.773 --> 00:15:09.808
+So here we go. Done.
+
+00:15:09.808 --> 00:15:12.811
+And now it's wiggling the width.
+
+00:15:13.012 --> 00:15:14.013
+All right.
+
+00:15:14.013 --> 00:15:16.115
+So we have learned two important things.
+
+00:15:16.115 --> 00:15:20.419
+We've learned wiggle
+and we've learned well arrays
+
+00:15:20.686 --> 00:15:23.589
+and we have learned variables.
+
+00:15:23.589 --> 00:15:25.691
+Very, very important.
+
+00:15:25.691 --> 00:15:27.793
+All right. Let's go on now.
+
+00:15:27.793 --> 00:15:31.096
+Let's connect to properties
+
+00:15:31.230 --> 00:15:34.233
+that might be on connectable.
+
+00:15:34.633 --> 00:15:35.467
+All right.
+
+00:15:35.467 --> 00:15:36.502
+So here we go.
+
+00:15:36.502 --> 00:15:39.204
+I'm going to delete the shape layer,
+
+00:15:39.204 --> 00:15:43.642
+and I'm going to create a new one,
+which will be an ellipse.
+
+00:15:44.443 --> 00:15:48.113
+And in fact, let me make it a little bit
+
+00:15:48.247 --> 00:15:51.717
+taller, only so that we can see it in.
+
+00:15:51.717 --> 00:15:56.121
+Now, I will center that anchor point
+the same way that we did before
+
+00:15:56.422 --> 00:15:59.158
+with the selection tool Active Press
+
+00:15:59.158 --> 00:16:02.161
+and Hold Control and then double click
+the anchor point tool.
+
+00:16:02.361 --> 00:16:05.631
+And that centers
+that anchor point in that layer.
+
+00:16:06.265 --> 00:16:07.433
+So here we go.
+
+00:16:07.433 --> 00:16:13.806
+Let's keyframe the position of this layer
+so that it goes from left
+
+00:16:15.741 --> 00:16:18.744
+to right, right.
+
+00:16:19.778 --> 00:16:20.946
+And there it is.
+
+00:16:20.946 --> 00:16:23.849
+And maybe it's going to be going left
+and right and left and right.
+
+00:16:23.849 --> 00:16:25.517
+Maybe eventually a lot of wiggle.
+
+00:16:25.517 --> 00:16:27.453
+And whatever it is, it doesn't matter.
+
+00:16:27.453 --> 00:16:31.590
+What I want is asks this goes forward.
+
+00:16:32.391 --> 00:16:34.693
+I want for the layer to rotate
+
+00:16:34.693 --> 00:16:38.998
+and I want for the rotation
+to be controlled by the position
+
+00:16:38.998 --> 00:16:44.670
+of the layer more precisely
+by the x position of the layer.
+
+00:16:45.104 --> 00:16:51.043
+So position is still showing
+and we want it to show shift.
+
+00:16:51.243 --> 00:16:54.246
+R And now we show rotation
+
+00:16:54.713 --> 00:16:57.683
+press and hold alt click on the stopwatch
+
+00:16:57.683 --> 00:17:00.252
+and now we are going to point,
+
+00:17:00.252 --> 00:17:03.255
+we're going to use the pick whip to go
+
+00:17:03.622 --> 00:17:06.058
+not to the word position,
+
+00:17:06.058 --> 00:17:09.461
+not to the Y, but to the x x.
+
+00:17:09.461 --> 00:17:15.267
+So we are
+we are pick whipping to the x value set.
+
+00:17:16.268 --> 00:17:17.669
+And there you go.
+
+00:17:17.669 --> 00:17:20.672
+Now, if you look at this,
+
+00:17:21.573 --> 00:17:24.910
+it's indeed as it moves forward,
+
+00:17:25.110 --> 00:17:28.547
+as it moves to the right, is rotating.
+
+00:17:28.881 --> 00:17:34.119
+So this expression is letting me control
+
+00:17:35.387 --> 00:17:38.057
+the rotation of the layer
+
+00:17:38.057 --> 00:17:41.126
+with the position of the layer.
+
+00:17:41.960 --> 00:17:45.931
+Now it's rotating rather quickly.
+
+00:17:46.198 --> 00:17:47.666
+I mean, look at the numbers, right?
+
+00:17:47.666 --> 00:17:51.603
+So it starts with 214
+because this is 214 as it moves.
+
+00:17:51.603 --> 00:17:53.906
+See how this is 500.
+
+00:17:53.906 --> 00:17:56.408
+This is going to be 500.4.
+
+00:17:56.408 --> 00:18:00.546
+That's because it just leaves it at 360
+and then it puts a one, right.
+
+00:18:00.546 --> 00:18:02.815
+So that's how rotation works
+in After Effects.
+
+00:18:02.815 --> 00:18:03.949
+And here we go.
+
+00:18:03.949 --> 00:18:06.952
+Let's change this.
+
+00:18:07.653 --> 00:18:10.956
+The rate of change of the rotation
+
+00:18:12.024 --> 00:18:14.593
+is too high.
+
+00:18:14.593 --> 00:18:18.030
+So I'm going to go
+and I'm going to talk to the expression
+
+00:18:18.030 --> 00:18:21.066
+and I'm going to say, make it
+half, make it half.
+
+00:18:21.834 --> 00:18:26.872
+So I'm going to divide
+whatever value it gets from position.
+
+00:18:26.872 --> 00:18:31.176
+I'm going to divide it by two,
+and that's a forward slash to
+
+00:18:31.944 --> 00:18:35.714
+and now the rotation is slower.
+
+00:18:35.747 --> 00:18:36.181
+See it?
+
+00:18:37.649 --> 00:18:39.518
+I can even divide it by more.
+
+00:18:39.518 --> 00:18:42.521
+It doesn't have to be two,
+it could be 2.5.
+
+00:18:42.688 --> 00:18:46.758
+And that should give me something
+that is a little bit
+
+00:18:46.758 --> 00:18:51.497
+more realistic with this egg shaped thing
+rotating.
+
+00:18:51.864 --> 00:18:54.967
+Let's go ahead and delete these key frames
+
+00:18:54.967 --> 00:18:57.970
+and delete this
+
+00:18:58.270 --> 00:18:59.671
+this expression.
+
+00:18:59.671 --> 00:19:04.543
+And now let's interpolate things
+
+00:19:05.577 --> 00:19:08.847
+without using keyframes.
+
+00:19:09.581 --> 00:19:12.251
+So let's say we want to do position.
+
+00:19:12.251 --> 00:19:13.785
+We want to start here, right?
+
+00:19:13.785 --> 00:19:15.420
+It doesn't really matter.
+
+00:19:15.420 --> 00:19:18.357
+We're going to add the expression here
+And now
+
+00:19:18.357 --> 00:19:21.860
+let's talk
+about one of these little icons.
+
+00:19:22.194 --> 00:19:24.863
+These see this one
+that looks like a little play button.
+
+00:19:24.863 --> 00:19:28.267
+That is the expression language menu.
+
+00:19:28.767 --> 00:19:33.672
+Click here and you will see
+that there is an entire section
+
+00:19:33.672 --> 00:19:38.677
+for interpolation,
+gradual changes in a property.
+
+00:19:39.011 --> 00:19:43.148
+So we are going to go to easy
+
+00:19:43.582 --> 00:19:48.287
+ese this 1tt min t max value one.
+
+00:19:48.287 --> 00:19:52.958
+My value to
+all you need to do is click there ese.
+
+00:19:53.192 --> 00:19:56.361
+This is going to be an easy ese and again,
+
+00:19:56.361 --> 00:19:59.665
+I inadvertently clicked out of it
+and now it's giving me an error.
+
+00:20:00.432 --> 00:20:04.203
+That is because I need to change
+some of these things.
+
+00:20:04.369 --> 00:20:07.472
+The T is the property.
+
+00:20:07.873 --> 00:20:12.811
+The property
+that is going to control the interpolation
+
+00:20:13.378 --> 00:20:16.481
+in this case is going to be time.
+
+00:20:17.482 --> 00:20:18.016
+So the
+
+00:20:18.016 --> 00:20:21.019
+time in the time line
+
+00:20:21.220 --> 00:20:24.056
+will determine the interpolation.
+
+00:20:24.056 --> 00:20:29.861
+So time will control
+when the animation starts.
+
+00:20:30.128 --> 00:20:33.465
+So this is the time in
+when the animation ends.
+
+00:20:33.465 --> 00:20:37.936
+This is the T max
+I want the values at first will be
+
+00:20:37.936 --> 00:20:41.273
+and then what
+the values at the end will be.
+
+00:20:41.974 --> 00:20:45.277
+So we're going to start this at 2 seconds.
+
+00:20:45.277 --> 00:20:48.013
+We're going to end it at 5 seconds.
+
+00:20:48.013 --> 00:20:51.016
+So two comma five.
+
+00:20:51.016 --> 00:20:54.219
+The value at the beginning is
+this is an array.
+
+00:20:54.419 --> 00:20:54.886
+All right.
+
+00:20:54.886 --> 00:20:57.389
+So we got to put it in square brackets.
+
+00:20:57.389 --> 00:21:00.726
+Let's start it where it is right now,
+which is 230,
+
+00:21:00.959 --> 00:21:03.962
+comma, 438.
+
+00:21:04.096 --> 00:21:10.335
+And at the end, it's going to end at 430.
+
+00:21:10.802 --> 00:21:13.739
+And I don't want for the Y to change.
+
+00:21:13.739 --> 00:21:16.875
+So that's going to be 438.
+
+00:21:17.843 --> 00:21:19.278
+And there you have it.
+
+00:21:19.278 --> 00:21:22.314
+The expression will start at 2 seconds
+
+00:21:22.848 --> 00:21:25.817
+and then go all the way to 5 seconds
+
+00:21:25.884 --> 00:21:29.221
+and move the many pixels.
+
+00:21:29.454 --> 00:21:31.189
+Oh no, I needed to move more.
+
+00:21:31.189 --> 00:21:34.726
+Well then change that value and now
+
+00:21:34.726 --> 00:21:37.696
+is going to move much more.
+
+00:21:38.764 --> 00:21:40.632
+See it
+
+00:21:40.632 --> 00:21:42.334
+Now this is an ease
+
+00:21:42.334 --> 00:21:45.337
+and I am sure you saw it
+already in the interpolation,
+
+00:21:45.704 --> 00:21:51.777
+but let's go over
+some of the other icons that we see here.
+
+00:21:52.644 --> 00:21:55.647
+The first one here is an equal sign
+that is blue.
+
+00:21:56.248 --> 00:22:01.053
+This enables and disables the expression
+without having to delete it.
+
+00:22:01.420 --> 00:22:04.956
+So, oh, I want to see how it looks
+without the expression done.
+
+00:22:05.824 --> 00:22:09.328
+So you go, Oh,
+I want to see the expression again. Done
+
+00:22:10.495 --> 00:22:11.730
+this second icon.
+
+00:22:11.730 --> 00:22:16.134
+If you hover above it,
+it just says show post expression graph
+
+00:22:17.202 --> 00:22:20.138
+and you can
+click there and you don't see anything.
+
+00:22:20.138 --> 00:22:24.910
+But that's
+because we don't have a graph editor open.
+
+00:22:25.177 --> 00:22:28.347
+So here we go. That that's it.
+
+00:22:28.447 --> 00:22:33.952
+So you see the little curve here
+because it is an easy is
+
+00:22:34.953 --> 00:22:37.956
+we already saw this little squiggly line
+
+00:22:38.690 --> 00:22:43.395
+and we already saw the expression
+language menu.
+
+00:22:43.929 --> 00:22:47.432
+There is one more thing
+that I want to show you, and that is this.
+
+00:22:47.933 --> 00:22:51.002
+You can select the property
+and then go to animation
+
+00:22:51.470 --> 00:22:56.475
+keyframe assistant,
+convert expression to keyframes.
+
+00:22:56.708 --> 00:23:01.146
+So yes,
+sometimes you just want the keyframes.
+
+00:23:01.413 --> 00:23:04.149
+So maybe you had a wiggle
+
+00:23:04.149 --> 00:23:07.319
+and now you want the keyframes
+because you want to change them.
+
+00:23:07.319 --> 00:23:09.321
+Otherwise it doesn't really matter.
+
+00:23:09.321 --> 00:23:13.458
+You can convert the expression
+to keyframes.
+
+00:23:13.825 --> 00:23:19.331
+And now we have a gazillion keyframes
+instead of the expression.
+
+00:23:19.564 --> 00:23:23.335
+So the expression got disabled,
+it's still there. But
+
+00:23:24.302 --> 00:23:25.303
+what is creating the
+
+00:23:25.303 --> 00:23:29.174
+animation now is indeed the keyframes.
+
+00:23:29.508 --> 00:23:32.511
+All right.
+
+00:23:32.744 --> 00:23:35.514
+So let's talk a little bit
+
+00:23:35.514 --> 00:23:39.418
+about other values that we may have.
+
+00:23:40.051 --> 00:23:42.487
+Let's I will delete this
+
+00:23:42.487 --> 00:23:45.490
+and let's create a rectangle,
+
+00:23:46.324 --> 00:23:49.294
+and I'm going to create it
+horizontally like that.
+
+00:23:49.294 --> 00:23:53.198
+And same thing
+I want to center that anchor point.
+
+00:23:53.565 --> 00:23:55.500
+And there you go.
+
+00:23:55.500 --> 00:23:59.571
+Now let's go ahead and create
+
+00:24:00.105 --> 00:24:04.176
+a maybe a wiggle expression for rotation.
+
+00:24:04.176 --> 00:24:10.015
+So for rotation press and hold
+alt or option, click on the stopwatch.
+
+00:24:10.015 --> 00:24:15.587
+And now let's type
+wiggle to come let's say 60.
+
+00:24:16.521 --> 00:24:17.155
+Right?
+
+00:24:17.155 --> 00:24:20.025
+And there it is is doing its thing.
+
+00:24:20.025 --> 00:24:24.496
+But I want you to notice that the value
+and I stop at a random place.
+
+00:24:24.896 --> 00:24:27.999
+The value here is -50.5.
+
+00:24:28.567 --> 00:24:29.668
+All right.
+
+00:24:29.668 --> 00:24:34.940
+May be
+I want for all of these values to be
+
+00:24:37.209 --> 00:24:38.844
+even numbers.
+
+00:24:38.844 --> 00:24:40.879
+You know, I just want 50.
+
+00:24:40.879 --> 00:24:42.714
+I don't want 50.5.
+
+00:24:42.714 --> 00:24:46.251
+So I can round up I can round down
+
+00:24:47.018 --> 00:24:51.823
+or I can just round some numbers up
+and sum down depending on, you know,
+
+00:24:51.823 --> 00:24:56.761
+So five will go to the, to the top number
+and four we go to the bottom one.
+
+00:24:56.895 --> 00:24:57.395
+Right.
+
+00:24:57.395 --> 00:25:00.398
+So it would round it either up or down.
+
+00:25:00.899 --> 00:25:05.237
+If you click on this expression
+language menu,
+
+00:25:05.770 --> 00:25:10.475
+you can go to Java script math
+
+00:25:11.142 --> 00:25:15.447
+and you're going to see here
+a method called math
+
+00:25:16.481 --> 00:25:17.182
+math.
+
+00:25:17.182 --> 00:25:19.684
+So you have course a constant.
+
+00:25:19.684 --> 00:25:21.953
+So cosine, all of that.
+
+00:25:21.953 --> 00:25:27.659
+But look at these math round
+math seal and math floor.
+
+00:25:27.659 --> 00:25:32.597
+So if it's math floor,
+it will always round down.
+
+00:25:33.498 --> 00:25:38.303
+If it's math ceil ceiling,
+it will always round up
+
+00:25:38.870 --> 00:25:41.840
+and if it's math round
+
+00:25:42.007 --> 00:25:44.709
+it'll just go where it needs to go
+
+00:25:44.709 --> 00:25:48.480
+depending on what that decimal number is.
+
+00:25:48.880 --> 00:25:53.318
+So if we select math round there it is.
+
+00:25:53.618 --> 00:25:56.922
+Notice that the value is
+
+00:25:56.922 --> 00:26:00.759
+what needs to be edited,
+so the value is going to be wiggle
+
+00:26:02.127 --> 00:26:05.130
+to comma 60
+
+00:26:05.263 --> 00:26:08.800
+and now it doesn't matter where we are,
+
+00:26:09.200 --> 00:26:12.537
+that number here will be an even number
+
+00:26:12.804 --> 00:26:16.241
+and that will affect the animation
+a little bit.
+
+00:26:16.241 --> 00:26:19.377
+Notice that is a little bit more jagged
+
+00:26:19.544 --> 00:26:22.547
+because it's not going in between degrees.
+
+00:26:22.681 --> 00:26:23.248
+all right.
+
+00:26:23.248 --> 00:26:26.484
+So we have talked
+about how to add the expression, how
+
+00:26:26.484 --> 00:26:30.388
+to connect to different properties
+with the picked whip.
+
+00:26:30.388 --> 00:26:30.755
+Right.
+
+00:26:30.755 --> 00:26:34.059
+And we have talked about how to create
+a wiggle expression.
+
+00:26:34.059 --> 00:26:39.598
+We talked about variables, random numbers,
+and rounding these numbers.
+
+00:26:40.065 --> 00:26:43.001
+Now, I'd like to talk a little bit
+
+00:26:43.001 --> 00:26:46.738
+about using other types of expressions.
+
+00:26:47.772 --> 00:26:51.776
+For example, we can have something
+called an expression control.
+
+00:26:52.510 --> 00:26:56.881
+So let's go ahead
+and I'm just going to delete this
+
+00:26:56.881 --> 00:26:59.884
+and let's create a new
+
+00:27:00.919 --> 00:27:04.422
+circle here and P for position.
+
+00:27:04.422 --> 00:27:07.425
+Let's go ahead and add the expression
+
+00:27:08.026 --> 00:27:11.496
+to position and now type the wiggle
+
+00:27:13.198 --> 00:27:16.201
+to time, say 300.
+
+00:27:18.436 --> 00:27:21.106
+And there it is.
+
+00:27:21.106 --> 00:27:24.109
+So what if I want to keyframe this wiggle
+
+00:27:24.876 --> 00:27:28.947
+and I could do it in code, but
+let's pretend I don't know how to do it.
+
+00:27:29.414 --> 00:27:33.852
+All right,
+So how do I keyframe this expression? Yes.
+
+00:27:33.852 --> 00:27:34.552
+You know what?
+
+00:27:34.552 --> 00:27:38.790
+I could convert these to keyframes,
+and then I can do it like that.
+
+00:27:39.224 --> 00:27:41.960
+But there is a much easier way.
+
+00:27:41.960 --> 00:27:43.294
+Let's create a new layer.
+
+00:27:43.294 --> 00:27:46.131
+Layer new null object.
+
+00:27:46.131 --> 00:27:49.100
+A null object is a layer of nothingness.
+
+00:27:49.100 --> 00:27:52.871
+All right, So let's let's name
+this control layer
+
+00:27:54.639 --> 00:27:58.243
+to rename anything
+in After Effects selected press enter.
+
+00:27:58.243 --> 00:28:00.612
+Well, almost anything.
+
+00:28:00.612 --> 00:28:03.848
+So press ENTER type in the the new name
+and you got it.
+
+00:28:04.416 --> 00:28:08.553
+So now I'm going to select this
+layer and let's go to effect
+
+00:28:09.587 --> 00:28:13.024
+expression controls slider control.
+
+00:28:13.558 --> 00:28:15.126
+And there you have it.
+
+00:28:15.126 --> 00:28:21.866
+This slider control is going to help me
+keyframe this wiggle.
+
+00:28:22.167 --> 00:28:25.970
+So here we go, select the control layer
+in the timeline and press
+
+00:28:25.970 --> 00:28:29.674
+the letter E for effect,
+and then expand it
+
+00:28:29.674 --> 00:28:32.811
+so that you can see the slider here
+in the timeline.
+
+00:28:33.178 --> 00:28:33.545
+Okay.
+
+00:28:33.545 --> 00:28:39.150
+So I am going to keyframe the wiggle
+by keyframing the magnitude.
+
+00:28:39.584 --> 00:28:42.487
+All right. I could do it with a frequency.
+
+00:28:42.487 --> 00:28:47.292
+So instead of 2%, two times
+per second, zero times per second.
+
+00:28:47.692 --> 00:28:51.963
+But I'm going to do it with the magnitude
+simply double click
+
+00:28:51.963 --> 00:28:56.101
+that value that number and After Effects
+will select that for you.
+
+00:28:56.634 --> 00:29:00.538
+Now use the pick whip
+and point to the slider.
+
+00:29:01.806 --> 00:29:04.075
+All right, just click and drag
+
+00:29:04.075 --> 00:29:06.911
+and the expression gets written for you.
+
+00:29:06.911 --> 00:29:07.879
+Let's just look at it.
+
+00:29:07.879 --> 00:29:10.982
+This look the wiggle two times per second.
+
+00:29:10.982 --> 00:29:15.386
+And then for the magnitude,
+look at this comp layer control layer
+
+00:29:15.386 --> 00:29:18.556
+the effects slider
+control the property slider.
+
+00:29:19.991 --> 00:29:20.992
+There you go.
+
+00:29:20.992 --> 00:29:24.929
+The wiggle will not wiggle
+even if we play.
+
+00:29:25.096 --> 00:29:28.099
+And the reason for that
+is because the slider control is at zero.
+
+00:29:28.800 --> 00:29:30.602
+We can keyframe it. Now.
+
+00:29:30.602 --> 00:29:35.440
+So keyframe it here, move in time,
+move this value.
+
+00:29:35.774 --> 00:29:37.142
+And there you go.
+
+00:29:37.142 --> 00:29:41.279
+It's going to start at zero and then it's
+going to start doing its thing.
+
+00:29:41.613 --> 00:29:44.582
+We're going to keyframe it again,
+and now it's
+
+00:29:44.582 --> 00:29:47.552
+going to go back to zero.
+
+00:29:47.852 --> 00:29:50.622
+And we have in essence,
+
+00:29:50.622 --> 00:29:53.625
+keyframed this,
+
+00:29:54.926 --> 00:29:59.130
+Oh, what if I want to do it in code,
+I want to do this in code,
+
+00:29:59.497 --> 00:30:02.534
+So I'm going to delete this layer
+and now the expression is
+
+00:30:02.534 --> 00:30:07.305
+giving me an error because the expression
+is referring to a layer.
+
+00:30:07.305 --> 00:30:10.074
+And that, if fact, that doesn’t exist.
+
+00:30:10.074 --> 00:30:13.311
+So we want to keyframe, so
+
+00:30:13.311 --> 00:30:18.149
+to speak, this expression in the
+code, how to do that?
+
+00:30:18.616 --> 00:30:19.050
+Well,
+
+00:30:20.518 --> 00:30:21.252
+just like
+
+00:30:21.252 --> 00:30:24.255
+many other things, I have found as of late
+
+00:30:24.722 --> 00:30:27.725
+that ChatGPT can help me.
+
+00:30:28.560 --> 00:30:31.629
+Let's go to chatGPT and ask it.
+
+00:30:48.146 --> 00:30:51.649
+Can you write an After Effects expression
+
+00:30:52.951 --> 00:30:57.188
+that will start a wiggle
+at 2 seconds, at 2 seconds,
+
+00:30:57.355 --> 00:31:00.358
+and end it at 5 seconds?
+
+00:31:07.098 --> 00:31:09.901
+Copy the code
+
+00:31:09.901 --> 00:31:14.005
+and now let's paste it here.
+
+00:31:14.839 --> 00:31:16.908
+Look at the time,
+
+00:31:16.908 --> 00:31:19.043
+time, time, time.
+
+00:31:19.043 --> 00:31:21.646
+Boom. Look at this.
+
+00:31:21.646 --> 00:31:24.649
+Start to 2 seconds
+
+00:31:26.417 --> 00:31:29.387
+and end at 5 seconds.
+
+00:31:29.387 --> 00:31:32.724
+You already know how this wiggle is
+is working.
+
+00:31:32.724 --> 00:31:36.094
+So instead of ten,
+maybe I just want it to be two.
+
+00:31:36.361 --> 00:31:39.764
+And instead of 100, I want it to be 300.
+
+00:31:40.231 --> 00:31:42.066
+And there you have it.
+
+00:31:42.066 --> 00:31:44.002
+It will start at 2 seconds.
+
+00:31:44.002 --> 00:31:47.005
+And that 5 seconds and voila,
+
+00:31:47.105 --> 00:31:50.174
+our wiggle is keyframe.
+
+00:31:50.842 --> 00:31:51.509
+All right.
+
+00:31:51.509 --> 00:31:55.113
+So just like that,
+you can use ChatGPT to write
+
+00:31:55.113 --> 00:31:59.417
+many other expressions for you,
+but it helps if you understand
+
+00:31:59.417 --> 00:32:02.587
+the structure of the expression
+
+00:32:03.054 --> 00:32:06.057
+so that you can modify it accordingly.
+
+00:32:06.190 --> 00:32:06.858
+All right.
+
+00:32:06.858 --> 00:32:07.325
+Okay.
+
+00:32:07.325 --> 00:32:08.393
+Let's go on.
+
+00:32:08.393 --> 00:32:12.864
+Let's talk about
+some really useful expressions.
+
+00:32:13.064 --> 00:32:16.501
+So I'm going to go ahead
+and delete that expression.
+
+00:32:16.501 --> 00:32:19.504
+And now I'm just going to create
+a little bounce.
+
+00:32:19.671 --> 00:32:23.508
+So from here it'll go to here.
+
+00:32:24.142 --> 00:32:25.376
+All right.
+
+00:32:25.376 --> 00:32:28.880
+I want this to loop forever and a day.
+
+00:32:29.280 --> 00:32:31.616
+I want it to loop.
+
+00:32:31.616 --> 00:32:34.886
+So we're going to use a loop expression.
+
+00:32:35.086 --> 00:32:37.021
+So here we go.
+
+00:32:37.021 --> 00:32:40.792
+Alt click on the stopwatch option
+if you're on the Mac.
+
+00:32:41.125 --> 00:32:46.064
+And now you can go to the expression
+language menu, you can go to property
+
+00:32:46.064 --> 00:32:51.803
+and look at this loop in, loop out,
+loop in duration, etc., etc..
+
+00:32:52.136 --> 00:32:56.307
+So I'm just going to go to the loop out
+and notice
+
+00:32:56.307 --> 00:32:59.777
+that I have here a cycle cycle.
+
+00:33:00.278 --> 00:33:04.148
+Look at this left
+to right, boom, back to left.
+
+00:33:04.916 --> 00:33:05.350
+See it?
+
+00:33:07.618 --> 00:33:10.288
+So it's
+looping all I want it to go faster.
+
+00:33:10.288 --> 00:33:12.790
+Yeah.
+Move the keyframes closer to each other.
+
+00:33:12.790 --> 00:33:14.125
+Look at that.
+
+00:33:14.125 --> 00:33:17.128
+But it's still cycling,
+so it's like a typewriter, right?
+
+00:33:17.562 --> 00:33:20.064
+Boop, boop.
+
+00:33:20.064 --> 00:33:22.633
+I want it to go. Boing, boing,
+boing, boing.
+
+00:33:22.633 --> 00:33:27.238
+Instead of cycle, I want it to ping pong
+
+00:33:30.475 --> 00:33:33.011
+left and right and left.
+
+00:33:33.011 --> 00:33:33.644
+And you know what?
+
+00:33:33.644 --> 00:33:37.348
+I can even select the keyframes
+and go to animation.
+
+00:33:37.348 --> 00:33:39.083
+Keyframe assistant.
+
+00:33:39.083 --> 00:33:42.086
+Easy is.
+
+00:33:42.320 --> 00:33:44.956
+And it's just following the Easy, easy.
+
+00:33:44.956 --> 00:33:46.891
+Oh, I needed to go faster.
+
+00:33:46.891 --> 00:33:49.694
+Go faster.
+
+00:33:49.694 --> 00:33:50.561
+See what I mean?
+
+00:33:50.561 --> 00:33:55.033
+So this is what I mean with expressions
+Make our life easier.
+
+00:33:55.666 --> 00:34:00.338
+This is this a heck of a lot easier
+than key framing All those things mean.
+
+00:34:00.338 --> 00:34:02.006
+That's two key frames
+
+00:34:02.006 --> 00:34:05.576
+and it's just going back and forth
+and back and forth and back and forth.
+
+00:34:05.777 --> 00:34:09.947
+So let's go ahead and delete
+all those extra layers and let's have
+
+00:34:09.981 --> 00:34:13.251
+the composition completely clean
+and let's
+
+00:34:13.251 --> 00:34:16.254
+create a new layer here.
+
+00:34:16.320 --> 00:34:19.690
+So I'm going to use the rectangle tool.
+
+00:34:19.690 --> 00:34:24.128
+I'll just do about yay,
+and I don't want to stroke this time.
+
+00:34:24.128 --> 00:34:30.401
+So and also
+I want it to rotate here from the left.
+
+00:34:31.736 --> 00:34:33.137
+All right, so select the
+
+00:34:33.137 --> 00:34:36.908
+layer, press R for rotation
+
+00:34:37.708 --> 00:34:40.445
+and then enable the expression and type
+
+00:34:40.445 --> 00:34:43.448
+wiggle to come up.
+
+00:34:43.581 --> 00:34:46.551
+Let's say 60.
+
+00:34:46.951 --> 00:34:48.319
+So it's going to wiggle two times
+
+00:34:48.319 --> 00:34:51.322
+per second, 60 degrees.
+
+00:34:51.355 --> 00:34:53.758
+All right,
+
+00:34:53.758 --> 00:34:54.959
+perfect.
+
+00:34:54.959 --> 00:34:58.796
+Now we're going to clamp these values.
+
+00:34:59.697 --> 00:35:00.031
+All right?
+
+00:35:00.031 --> 00:35:02.867
+So we're going to clamp these values.
+
+00:35:02.867 --> 00:35:07.438
+So that they don't go any more
+than whatever or any less than whatever.
+
+00:35:07.672 --> 00:35:10.408
+And I'm using wiggle just to show you.
+
+00:35:10.408 --> 00:35:13.945
+But in reality,
+this can be with anything at all.
+
+00:35:14.112 --> 00:35:17.115
+So we're going to clamp these values,
+
+00:35:17.515 --> 00:35:20.184
+select that expression and cut it.
+
+00:35:20.184 --> 00:35:23.054
+Control or command X.
+
+00:35:23.054 --> 00:35:26.390
+Now we're going to type
+the following clamp.
+
+00:35:27.358 --> 00:35:29.660
+So just type in the word clamp.
+
+00:35:29.660 --> 00:35:32.897
+And even before you're done typing,
+there it is.
+
+00:35:32.897 --> 00:35:36.234
+Make sure it's selected and press enter.
+
+00:35:36.767 --> 00:35:38.002
+And there you go.
+
+00:35:38.002 --> 00:35:40.671
+So we are going to clamp
+
+00:35:42.373 --> 00:35:44.509
+the value.
+
+00:35:44.509 --> 00:35:44.909
+All right.
+
+00:35:44.909 --> 00:35:48.012
+So the
+value is going to be the wiggle, right?
+
+00:35:48.913 --> 00:35:51.916
+And then we are going to type it.
+
+00:35:52.250 --> 00:35:57.889
+We're going to clamp it to minus so comma,
+
+00:35:58.589 --> 00:36:01.893
+-45 and plus 45.
+
+00:36:01.926 --> 00:36:07.298
+So even though we're wiggling 60,
+we're clamping the value of this
+
+00:36:08.466 --> 00:36:11.269
+now, the 45 value
+
+00:36:11.269 --> 00:36:13.571
+and let's play it from the beginning
+
+00:36:13.571 --> 00:36:16.140
+and we don't see too much in here.
+
+00:36:16.140 --> 00:36:17.108
+And the reason for that,
+
+00:36:17.108 --> 00:36:20.811
+I mean, if you look at the values
+even up here, it's only doing 31.
+
+00:36:21.145 --> 00:36:22.446
+So you know what?
+
+00:36:22.446 --> 00:36:25.550
+Instead of 45,
+I'm going to clamp it at five.
+
+00:36:26.050 --> 00:36:28.653
+All right. And here we go.
+
+00:36:28.653 --> 00:36:31.789
+It's not going to go any higher
+
+00:36:31.789 --> 00:36:35.326
+than five or any lower than minus five,
+
+00:36:35.660 --> 00:36:38.596
+because I am clamping the values
+
+00:36:38.596 --> 00:36:42.800
+and because the wiggle
+is trying to make the values go more.
+
+00:36:43.000 --> 00:36:46.003
+That's why you see this just clamped
+
+00:36:46.470 --> 00:36:50.575
+but moving at seemingly random intervals.
+
+00:36:51.242 --> 00:36:51.576
+All right.
+
+00:36:51.576 --> 00:36:55.079
+So clamping the values is super useful.
+
+00:36:55.413 --> 00:36:56.781
+All right, let's go on.
+
+00:36:57.748 --> 00:37:00.184
+Let's create two solids.
+
+00:37:00.184 --> 00:37:03.187
+So delete whatever you have in there
+and let's create two solids.
+
+00:37:03.187 --> 00:37:06.724
+So controller command y, one red is good,
+
+00:37:07.158 --> 00:37:10.595
+and let's make the other one green
+because why not?
+
+00:37:11.229 --> 00:37:16.067
+Select both layers,
+ask for scale and let's making about Yay.
+
+00:37:16.901 --> 00:37:19.904
+And now we're going to just separate them.
+
+00:37:20.871 --> 00:37:23.541
+Like we don't
+really need to separate them,
+
+00:37:23.541 --> 00:37:26.544
+but let's just do it anyway.
+
+00:37:26.577 --> 00:37:28.579
+Let's talk to Green and add
+
+00:37:28.579 --> 00:37:32.049
+a wiggle expression
+to the position of green.
+
+00:37:32.550 --> 00:37:35.286
+All right, so all to our option.
+
+00:37:35.286 --> 00:37:41.525
+Click on the stopwatch and wiggle
+to comma 400, whatever.
+
+00:37:41.525 --> 00:37:43.461
+Right.
+
+00:37:43.461 --> 00:37:46.464
+So now Green is just wiggling left
+and right
+
+00:37:47.331 --> 00:37:48.733
+to red.
+
+00:37:48.733 --> 00:37:53.004
+Let's add an effect called layer control.
+
+00:37:53.504 --> 00:37:56.407
+So select the red, go to effect
+
+00:37:56.407 --> 00:37:59.777
+expression controls, layer control,
+
+00:38:00.444 --> 00:38:04.682
+and now the layer is going to be
+the green solid.
+
+00:38:04.682 --> 00:38:06.517
+See it here in the control panel,
+
+00:38:07.752 --> 00:38:09.186
+make it a little bit
+
+00:38:09.186 --> 00:38:11.856
+wider so you can see a better set.
+
+00:38:11.856 --> 00:38:16.327
+Now that in essence, is doing
+absolutely nothing.
+
+00:38:16.827 --> 00:38:21.666
+But now we're going to talk
+to the position
+
+00:38:22.967 --> 00:38:25.136
+of the red solid.
+
+00:38:25.136 --> 00:38:29.173
+So P4 position
+and we want to see the layer control
+
+00:38:29.573 --> 00:38:34.445
+and now we are going to add the expression
+to position
+
+00:38:34.845 --> 00:38:38.716
+and now we're going to pick,
+whip to layer.
+
+00:38:40.885 --> 00:38:41.285
+All right.
+
+00:38:41.285 --> 00:38:44.622
+So look what it says,
+effect, layer, control,
+
+00:38:45.122 --> 00:38:48.326
+layer Now dot
+
+00:38:49.327 --> 00:38:53.197
+transform
+and you don't have to finish typing
+
+00:38:53.497 --> 00:38:56.500
+and then dot position
+
+00:38:57.868 --> 00:38:59.837
+and there you have it.
+
+00:38:59.837 --> 00:39:02.073
+And now
+
+00:39:02.073 --> 00:39:04.608
+the two are going
+
+00:39:04.608 --> 00:39:07.611
+right on top of the other.
+
+00:39:08.946 --> 00:39:09.246
+Right?
+
+00:39:09.246 --> 00:39:13.284
+So right now, because of this effect,
+
+00:39:13.651 --> 00:39:17.955
+I'm having read follow whatever Green does
+
+00:39:18.689 --> 00:39:21.659
+now, I can offset this
+
+00:39:21.659 --> 00:39:24.662
+by saying a minus, say 300,
+
+00:39:25.429 --> 00:39:30.234
+and now you can see them side by side.
+
+00:39:30.868 --> 00:39:35.339
+So this is a really good way
+that you have it.
+
+00:39:35.940 --> 00:39:39.243
+And you can say,
+but you can do this with parenting.
+
+00:39:39.844 --> 00:39:42.847
+Parenting is not as flexible.
+
+00:39:43.047 --> 00:39:45.383
+Parenting is not as flexible.
+
+00:39:45.383 --> 00:39:48.052
+You can't write a conditional
+with parenting.
+
+00:39:48.052 --> 00:39:50.554
+And remember,
+parenting is either on or off.
+
+00:39:50.554 --> 00:39:53.391
+You can time this, you know, So
+
+00:39:53.391 --> 00:39:57.395
+this is kind of like parenting
+but with more power, right?
+
+00:39:57.395 --> 00:39:58.829
+And you can offset it by more.
+
+00:39:58.829 --> 00:40:00.798
+It doesn't have to be 300.
+
+00:40:00.798 --> 00:40:03.267
+It could be 600.
+
+00:40:03.267 --> 00:40:06.170
+And there you have it.
+They're doing exactly same thing.
+
+00:40:06.170 --> 00:40:09.306
+You can also use variables
+to separate the dimensions.
+
+00:40:09.306 --> 00:40:11.075
+So not too bad.
+
+00:40:11.075 --> 00:40:14.211
+now. Let's go ahead and delete
+the red layer
+
+00:40:14.845 --> 00:40:19.683
+and let's get rid of that expression
+on green and I'm
+
+00:40:19.683 --> 00:40:22.686
+just going to click and drag it to center
+it a little bit more.
+
+00:40:22.820 --> 00:40:25.923
+and let's go ahead and add the time
+
+00:40:26.123 --> 00:40:30.361
+value expression
+to the scale of this layer.
+
+00:40:30.961 --> 00:40:33.964
+So select the layer is for scale,
+
+00:40:34.432 --> 00:40:39.170
+add the expression,
+and in fact, let's use variables
+
+00:40:39.170 --> 00:40:42.339
+so that we do it to the width
+and not the height.
+
+00:40:42.440 --> 00:40:44.575
+So a space equals space.
+
+00:40:44.575 --> 00:40:47.511
+B space space equals space.
+
+00:40:47.511 --> 00:40:50.314
+See space equals space.
+
+00:40:50.314 --> 00:40:53.317
+And again, we're just going to do it
+the easy way,
+
+00:40:53.517 --> 00:40:59.990
+just point that itself
+and then put the array together like that.
+
+00:40:59.990 --> 00:41:04.161
+And don't forget the semicolons
+for good measure.
+
+00:41:04.462 --> 00:41:05.429
+All right.
+
+00:41:05.429 --> 00:41:08.232
+So right now this is doing nothing.
+
+00:41:08.232 --> 00:41:13.204
+But we separated the
+the dimensions already with the variables.
+
+00:41:13.204 --> 00:41:16.207
+So now it's going to become much easier.
+
+00:41:16.240 --> 00:41:20.778
+So with goes first
+a so zero will be the width.
+
+00:41:21.145 --> 00:41:23.047
+Let's go ahead and add
+
+00:41:24.215 --> 00:41:27.218
+that time,
+
+00:41:27.952 --> 00:41:32.356
+time asterisk value.
+
+00:41:32.990 --> 00:41:33.390
+All right.
+
+00:41:33.390 --> 00:41:36.894
+So time, asterisk value
+
+00:41:40.498 --> 00:41:43.501
+and look what happens.
+
+00:41:44.268 --> 00:41:46.971
+The width of the layer
+
+00:41:46.971 --> 00:41:49.607
+is controlled by the time.
+
+00:41:49.607 --> 00:41:52.977
+And when I say time, do
+I mean like abstract time?
+
+00:41:53.143 --> 00:41:55.779
+No, I mean the play head time.
+
+00:41:55.779 --> 00:42:00.551
+And if you find that,
+oh no, this is going to quickly it's going
+
+00:42:00.551 --> 00:42:05.155
+way too quickly,
+you can actually divide that value in two.
+
+00:42:05.523 --> 00:42:07.625
+So that is less.
+
+00:42:07.625 --> 00:42:10.628
+So you're changing the rate of change.
+
+00:42:10.794 --> 00:42:15.432
+You could also Clamp it
+and you can do math round.
+
+00:42:15.799 --> 00:42:18.602
+So don't forget you have all of those
+
+00:42:18.602 --> 00:42:21.605
+other tools at your disposal.
+
+00:42:21.605 --> 00:42:22.006
+All right.
+
+00:42:22.006 --> 00:42:26.644
+So there is also a ton of help online.
+
+00:42:27.077 --> 00:42:31.515
+So if you go help here,
+You can go to about After Effects,
+
+00:42:31.515 --> 00:42:36.554
+After Effects, help in app tutorials,
+online tutorials, scripting help.
+
+00:42:36.554 --> 00:42:40.691
+And the one that interests us
+is the expression reference.
+
+00:42:41.025 --> 00:42:44.895
+So you can simply go to help
+In the Adobe website.
+
+00:42:44.929 --> 00:42:48.933
+Let me maximize this look,
+you can loop with expressions.
+
+00:42:49.867 --> 00:42:54.572
+There are other in here,
+look at this JavaScript
+
+00:42:54.972 --> 00:43:00.611
+and there's a ton of things in here,
+including expression examples
+
+00:43:00.611 --> 00:43:03.614
+that you can see in here in this side menu
+
+00:43:04.114 --> 00:43:07.117
+and you can simply copy and paste them.
+
+00:43:07.484 --> 00:43:11.855
+Look at this wiggle to comma 30.
+
+00:43:12.489 --> 00:43:15.993
+so make sure that you use
+all of the available resources.
+
+00:43:15.993 --> 00:43:16.927
+And there's more.
+
+00:43:16.927 --> 00:43:20.965
+I mean, all you need to do is Google
+After Effects, expressions help.
+
+00:43:21.699 --> 00:43:24.902
+There's also Dan Ebberts who has a website
+
+00:43:25.269 --> 00:43:29.239
+and you can just look at the expressions
+that he has
+
+00:43:29.239 --> 00:43:34.011
+and when presented
+with an issue, and listen.
+
+00:43:34.011 --> 00:43:38.215
+If all else fails,
+you can always send me a message
+
+00:43:38.449 --> 00:43:43.187
+through through these messages on YouTube
+or simply email me
+
+00:43:43.654 --> 00:43:46.624
+and or anybody else.
+
+00:43:46.624 --> 00:43:47.057
+Right.
+
+00:43:47.057 --> 00:43:51.695
+So if I don't know the answer,
+I assure you I know who to ask.
+
+00:43:51.962 --> 00:43:55.466
+So, you know,
+we're not supposed to know everything.
+
+00:43:55.466 --> 00:43:59.670
+And asking for help is perfectly,
+perfectly acceptable and is perfectly
+
+00:43:59.670 --> 00:44:00.638
+fine.
+
+00:44:00.638 --> 00:44:03.574
+So let's go back to After Effects
+and let's
+
+00:44:03.574 --> 00:44:06.577
+do one more expression.
+
+00:44:06.777 --> 00:44:09.780
+But this time, let's use a text layer.
+
+00:44:09.847 --> 00:44:11.782
+So I'm going to grab my type tool.
+
+00:44:11.782 --> 00:44:12.716
+I'm just going to type.
+
+00:44:12.716 --> 00:44:15.719
+I am a text layer.
+
+00:44:16.053 --> 00:44:19.423
+I'll center this
+just by clicking and dragging.
+
+00:44:19.757 --> 00:44:22.760
+I will make it a little bit bigger
+so we can see it better.
+
+00:44:23.060 --> 00:44:24.161
+And in fact, you know what?
+
+00:44:24.161 --> 00:44:27.831
+Let me have it left align
+and there you have it.
+
+00:44:28.465 --> 00:44:32.236
+Now let's go ahead and add an animator
+for scale here.
+
+00:44:32.803 --> 00:44:38.175
+And it is in this scale
+that we're going to add expression.
+
+00:44:38.208 --> 00:44:42.980
+So I'm going to make this a little bit
+taller press and hold alt or option in.
+
+00:44:42.980 --> 00:44:45.849
+Now we're going to type the expression,
+
+00:44:46.817 --> 00:44:49.653
+We are going to have variables.
+
+00:44:49.653 --> 00:44:52.156
+The first one is going to be frequency.
+
+00:44:52.156 --> 00:44:55.526
+So frequency space equals space
+
+00:44:55.526 --> 00:44:59.830
+and then amplitude amp space equals space.
+
+00:45:00.264 --> 00:45:00.631
+All right.
+
+00:45:00.631 --> 00:45:05.135
+So let's say
+the frequency is going to be three.
+
+00:45:05.769 --> 00:45:07.771
+And this is a comment.
+
+00:45:07.771 --> 00:45:11.208
+So slash, slash is going to be
+a human comment
+
+00:45:11.642 --> 00:45:14.712
+that you can use
+to send you or other messages.
+
+00:45:14.745 --> 00:45:23.387
+So what it is that that line is doing,
+So frequency of the change is measured
+
+00:45:23.387 --> 00:45:26.390
+in times per second,
+
+00:45:28.492 --> 00:45:29.226
+right?
+
+00:45:29.226 --> 00:45:32.062
+Then amplitude, we're talking about scale.
+
+00:45:32.062 --> 00:45:35.666
+So I think I want to do at least a 75%.
+
+00:45:36.166 --> 00:45:39.169
+So slash, slash
+
+00:45:39.636 --> 00:45:43.874
+changes in the scale of this
+
+00:45:46.043 --> 00:45:50.547
+layer measured in percentages.
+
+00:45:50.814 --> 00:45:51.181
+All right.
+
+00:45:51.181 --> 00:45:54.785
+So I'm just sending myself messages.
+
+00:45:54.918 --> 00:45:55.285
+All right.
+
+00:45:55.285 --> 00:45:58.288
+So frequency amplitude.
+
+00:45:58.756 --> 00:46:02.693
+And now I need to put this together
+somehow.
+
+00:46:03.227 --> 00:46:08.699
+Now, I inadvertently clicked outside of
+this, and let's just do our
+
+00:46:09.666 --> 00:46:11.101
+variables here.
+
+00:46:11.101 --> 00:46:12.703
+Be space equals space.
+
+00:46:12.703 --> 00:46:17.541
+And C and this is just going to put A
+and B together.
+
+00:46:17.941 --> 00:46:20.944
+So A, it's going to look at itself,
+
+00:46:21.211 --> 00:46:24.047
+B is going to look at itself.
+
+00:46:24.047 --> 00:46:28.452
+And now is
+that we're going to add some things.
+
+00:46:29.586 --> 00:46:32.222
+So here at the end,
+
+00:46:32.222 --> 00:46:34.858
+plus amp.
+
+00:46:34.858 --> 00:46:36.059
+All right.
+
+00:46:36.059 --> 00:46:40.531
+And on the second line also plus amp,
+
+00:46:41.865 --> 00:46:44.101
+so plus amp.
+
+00:46:44.101 --> 00:46:45.202
+All right.
+
+00:46:45.202 --> 00:46:50.407
+Times times math
+
+00:46:51.542 --> 00:46:53.844
+dot sin.
+
+00:46:53.844 --> 00:46:56.847
+And then we're going to type
+
+00:46:57.247 --> 00:47:00.784
+frequency times time.
+
+00:47:01.752 --> 00:47:02.186
+All right.
+
+00:47:02.186 --> 00:47:07.558
+So we can actually copy that entire thing
+and we can paste it here.
+
+00:47:08.025 --> 00:47:10.894
+But instead of sin, it's
+going to be so sin us
+
+00:47:10.894 --> 00:47:14.164
+and sine is going to be cost us in cosine
+
+00:47:14.832 --> 00:47:17.835
+and then frequency plus time.
+
+00:47:17.935 --> 00:47:22.206
+And that should actually do the animation
+
+00:47:23.273 --> 00:47:26.276
+perfectly well.
+
+00:47:33.383 --> 00:47:35.953
+This just a little bit wavy, right?
+
+00:47:35.953 --> 00:47:39.790
+We can take that entire expression,
+we can cut it
+
+00:47:40.324 --> 00:47:45.362
+and we can now add
+to the scale of the layer itself
+
+00:47:47.030 --> 00:47:50.133
+and it works slightly different.
+
+00:47:51.268 --> 00:47:54.705
+The reason why it works different
+is because when you add an animator,
+
+00:47:54.705 --> 00:47:59.676
+as you already know, then it's
+working on the individual characters.
+
+00:47:59.977 --> 00:48:03.547
+So each and every character
+is going to have its own anchor point
+
+00:48:03.714 --> 00:48:06.917
+and it's going to change the scale
+according to that anchor point.
+
+00:48:07.184 --> 00:48:11.555
+Well, if you add it to the layer,
+then it's adding it to the layer
+
+00:48:12.723 --> 00:48:15.659
+based on the anchor point of the layer.
+
+00:48:15.659 --> 00:48:19.463
+So there you have it,
+a very wavy animation
+
+00:48:19.596 --> 00:48:23.133
+that you can use for whatever.
+
+00:48:29.806 --> 00:48:31.341
+Congratulations.
+
+00:48:31.341 --> 00:48:36.880
+You have now gained a solid understanding
+of expressions in After Effects.
+
+00:48:37.481 --> 00:48:42.586
+I hope this video has provided you
+with a strong foundation
+
+00:48:42.853 --> 00:48:47.424
+to start incorporating expressions
+into your motion design projects.
+
+00:48:47.891 --> 00:48:52.396
+Remember, Expressions offer
+incredible potential
+
+00:48:52.396 --> 00:48:57.367
+for automation, efficiency
+and dynamic control over your animations.
+
+00:48:57.734 --> 00:49:01.638
+Don't be afraid to experiment,
+explore further,
+
+00:49:01.805 --> 00:49:06.143
+and push the boundaries
+of what you can achieve with expressions.
+
+00:49:06.543 --> 00:49:09.680
+If you enjoyed this video,
+be sure to give it a thumbs up
+
+00:49:09.913 --> 00:49:11.648
+and subscribe to my channel.
+
+00:49:11.648 --> 00:49:14.251
+I publish weekly tutorials.
+
+00:49:14.251 --> 00:49:18.322
+Feel free to leave any questions
+or comments down below.
+
+00:49:18.822 --> 00:49:22.292
+Thanks for watching
+and we'll see you in the next video.
+

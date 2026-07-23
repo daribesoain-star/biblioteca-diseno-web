@@ -1,0 +1,3760 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.960 --> 00:00:03.230 align:start position:0%
+ 
+creating<00:00:01.740><c> a</c><00:00:02.040><c> database</c><00:00:02.399><c> design</c><00:00:02.700><c> for</c><00:00:03.120><c> an</c>
+
+00:00:03.230 --> 00:00:03.240 align:start position:0%
+creating a database design for an
+ 
+
+00:00:03.240 --> 00:00:05.030 align:start position:0%
+creating a database design for an
+e-commerce<00:00:03.659><c> website</c><00:00:04.080><c> is</c><00:00:04.440><c> a</c><00:00:04.620><c> great</c><00:00:04.740><c> exercise</c>
+
+00:00:05.030 --> 00:00:05.040 align:start position:0%
+e-commerce website is a great exercise
+ 
+
+00:00:05.040 --> 00:00:07.789 align:start position:0%
+e-commerce website is a great exercise
+to<00:00:05.460><c> help</c><00:00:05.580><c> you</c><00:00:05.759><c> practice</c><00:00:05.940><c> your</c><00:00:06.359><c> skills</c><00:00:07.200><c> in</c><00:00:07.620><c> this</c>
+
+00:00:07.789 --> 00:00:07.799 align:start position:0%
+to help you practice your skills in this
+ 
+
+00:00:07.799 --> 00:00:09.530 align:start position:0%
+to help you practice your skills in this
+video<00:00:07.919><c> I'll</c><00:00:08.340><c> show</c><00:00:08.519><c> you</c><00:00:08.639><c> a</c><00:00:08.880><c> database</c><00:00:09.240><c> design</c>
+
+00:00:09.530 --> 00:00:09.540 align:start position:0%
+video I'll show you a database design
+ 
+
+00:00:09.540 --> 00:00:11.570 align:start position:0%
+video I'll show you a database design
+for<00:00:09.900><c> an</c><00:00:10.080><c> e-commerce</c><00:00:10.500><c> website</c><00:00:10.920><c> the</c>
+
+00:00:11.570 --> 00:00:11.580 align:start position:0%
+for an e-commerce website the
+ 
+
+00:00:11.580 --> 00:00:13.610 align:start position:0%
+for an e-commerce website the
+requirements<00:00:12.059><c> it</c><00:00:12.179><c> meets</c><00:00:12.540><c> and</c><00:00:13.080><c> explain</c><00:00:13.200><c> each</c>
+
+00:00:13.610 --> 00:00:13.620 align:start position:0%
+requirements it meets and explain each
+ 
+
+00:00:13.620 --> 00:00:15.470 align:start position:0%
+requirements it meets and explain each
+of<00:00:13.799><c> the</c><00:00:13.920><c> tables</c><00:00:14.280><c> and</c><00:00:14.519><c> why</c><00:00:14.759><c> they</c><00:00:15.000><c> are</c><00:00:15.120><c> designed</c>
+
+00:00:15.470 --> 00:00:15.480 align:start position:0%
+of the tables and why they are designed
+ 
+
+00:00:15.480 --> 00:00:16.670 align:start position:0%
+of the tables and why they are designed
+in<00:00:15.599><c> this</c><00:00:15.719><c> way</c>
+
+00:00:16.670 --> 00:00:16.680 align:start position:0%
+in this way
+ 
+
+00:00:16.680 --> 00:00:18.290 align:start position:0%
+in this way
+there's<00:00:17.039><c> a</c><00:00:17.220><c> link</c><00:00:17.340><c> to</c><00:00:17.520><c> the</c><00:00:17.640><c> diagram</c><00:00:17.880><c> in</c><00:00:18.180><c> the</c>
+
+00:00:18.290 --> 00:00:18.300 align:start position:0%
+there's a link to the diagram in the
+ 
+
+00:00:18.300 --> 00:00:19.970 align:start position:0%
+there's a link to the diagram in the
+description<00:00:18.600><c> so</c><00:00:19.140><c> you</c><00:00:19.260><c> can</c><00:00:19.380><c> download</c><00:00:19.560><c> it</c><00:00:19.800><c> for</c>
+
+00:00:19.970 --> 00:00:19.980 align:start position:0%
+description so you can download it for
+ 
+
+00:00:19.980 --> 00:00:20.990 align:start position:0%
+description so you can download it for
+reference
+
+00:00:20.990 --> 00:00:21.000 align:start position:0%
+reference
+ 
+
+00:00:21.000 --> 00:00:22.849 align:start position:0%
+reference
+let's<00:00:21.420><c> get</c><00:00:21.600><c> into</c><00:00:21.720><c> it</c>
+
+00:00:22.849 --> 00:00:22.859 align:start position:0%
+let's get into it
+ 
+
+00:00:22.859 --> 00:00:24.590 align:start position:0%
+let's get into it
+welcome<00:00:23.279><c> to</c><00:00:23.519><c> the</c><00:00:23.640><c> database</c><00:00:24.060><c> star</c><00:00:24.300><c> YouTube</c>
+
+00:00:24.590 --> 00:00:24.600 align:start position:0%
+welcome to the database star YouTube
+ 
+
+00:00:24.600 --> 00:00:26.810 align:start position:0%
+welcome to the database star YouTube
+channel<00:00:24.960><c> the</c><00:00:25.680><c> place</c><00:00:25.859><c> for</c><00:00:26.099><c> developers</c><00:00:26.519><c> looking</c>
+
+00:00:26.810 --> 00:00:26.820 align:start position:0%
+channel the place for developers looking
+ 
+
+00:00:26.820 --> 00:00:30.230 align:start position:0%
+channel the place for developers looking
+to<00:00:27.060><c> improve</c><00:00:27.420><c> their</c><00:00:27.599><c> database</c><00:00:27.960><c> and</c><00:00:28.199><c> SQL</c><00:00:28.680><c> skills</c>
+
+00:00:30.230 --> 00:00:30.240 align:start position:0%
+to improve their database and SQL skills
+ 
+
+00:00:30.240 --> 00:00:31.849 align:start position:0%
+to improve their database and SQL skills
+we're<00:00:30.660><c> looking</c><00:00:30.900><c> at</c><00:00:31.080><c> a</c><00:00:31.260><c> design</c><00:00:31.380><c> of</c><00:00:31.679><c> an</c>
+
+00:00:31.849 --> 00:00:31.859 align:start position:0%
+we're looking at a design of an
+ 
+
+00:00:31.859 --> 00:00:33.650 align:start position:0%
+we're looking at a design of an
+e-commerce<00:00:32.279><c> database</c><00:00:32.759><c> because</c><00:00:33.180><c> it</c><00:00:33.420><c> can</c><00:00:33.540><c> help</c>
+
+00:00:33.650 --> 00:00:33.660 align:start position:0%
+e-commerce database because it can help
+ 
+
+00:00:33.660 --> 00:00:35.690 align:start position:0%
+e-commerce database because it can help
+you<00:00:33.840><c> design</c><00:00:34.079><c> your</c><00:00:34.440><c> own</c><00:00:34.559><c> database</c><00:00:35.040><c> whether</c>
+
+00:00:35.690 --> 00:00:35.700 align:start position:0%
+you design your own database whether
+ 
+
+00:00:35.700 --> 00:00:37.549 align:start position:0%
+you design your own database whether
+it's<00:00:35.940><c> a</c><00:00:36.120><c> similar</c><00:00:36.420><c> e-commerce</c><00:00:36.960><c> system</c><00:00:37.200><c> or</c>
+
+00:00:37.549 --> 00:00:37.559 align:start position:0%
+it's a similar e-commerce system or
+ 
+
+00:00:37.559 --> 00:00:38.810 align:start position:0%
+it's a similar e-commerce system or
+another<00:00:37.680><c> system</c>
+
+00:00:38.810 --> 00:00:38.820 align:start position:0%
+another system
+ 
+
+00:00:38.820 --> 00:00:40.970 align:start position:0%
+another system
+the<00:00:39.420><c> aim</c><00:00:39.660><c> is</c><00:00:39.780><c> to</c><00:00:39.899><c> help</c><00:00:40.020><c> you</c><00:00:40.140><c> understand</c><00:00:40.379><c> how</c>
+
+00:00:40.970 --> 00:00:40.980 align:start position:0%
+the aim is to help you understand how
+ 
+
+00:00:40.980 --> 00:00:44.090 align:start position:0%
+the aim is to help you understand how
+some<00:00:41.219><c> of</c><00:00:41.340><c> the</c><00:00:41.399><c> concepts</c><00:00:41.820><c> can</c><00:00:42.000><c> be</c><00:00:42.120><c> designed</c>
+
+00:00:44.090 --> 00:00:44.100 align:start position:0%
+some of the concepts can be designed
+ 
+
+00:00:44.100 --> 00:00:45.650 align:start position:0%
+some of the concepts can be designed
+before<00:00:44.460><c> we</c><00:00:44.700><c> get</c><00:00:44.760><c> into</c><00:00:44.940><c> the</c><00:00:45.120><c> design</c><00:00:45.239><c> of</c><00:00:45.480><c> the</c>
+
+00:00:45.650 --> 00:00:45.660 align:start position:0%
+before we get into the design of the
+ 
+
+00:00:45.660 --> 00:00:47.569 align:start position:0%
+before we get into the design of the
+database<00:00:46.020><c> let's</c><00:00:46.680><c> look</c><00:00:46.860><c> at</c><00:00:46.980><c> what</c><00:00:47.160><c> we</c><00:00:47.340><c> want</c><00:00:47.460><c> to</c>
+
+00:00:47.569 --> 00:00:47.579 align:start position:0%
+database let's look at what we want to
+ 
+
+00:00:47.579 --> 00:00:48.770 align:start position:0%
+database let's look at what we want to
+do<00:00:47.760><c> first</c>
+
+00:00:48.770 --> 00:00:48.780 align:start position:0%
+do first
+ 
+
+00:00:48.780 --> 00:00:51.229 align:start position:0%
+do first
+what<00:00:49.200><c> should</c><00:00:49.320><c> the</c><00:00:49.500><c> database</c><00:00:49.800><c> be</c><00:00:50.039><c> able</c><00:00:50.219><c> to</c><00:00:50.340><c> do</c>
+
+00:00:51.229 --> 00:00:51.239 align:start position:0%
+what should the database be able to do
+ 
+
+00:00:51.239 --> 00:00:52.970 align:start position:0%
+what should the database be able to do
+here<00:00:51.780><c> is</c><00:00:51.960><c> a</c><00:00:52.079><c> list</c><00:00:52.199><c> of</c><00:00:52.320><c> the</c><00:00:52.500><c> things</c><00:00:52.620><c> that</c><00:00:52.860><c> I</c>
+
+00:00:52.970 --> 00:00:52.980 align:start position:0%
+here is a list of the things that I
+ 
+
+00:00:52.980 --> 00:00:54.830 align:start position:0%
+here is a list of the things that I
+think<00:00:53.100><c> an</c><00:00:53.280><c> e-commerce</c><00:00:53.760><c> database</c><00:00:54.180><c> and</c><00:00:54.480><c> website</c>
+
+00:00:54.830 --> 00:00:54.840 align:start position:0%
+think an e-commerce database and website
+ 
+
+00:00:54.840 --> 00:00:56.450 align:start position:0%
+think an e-commerce database and website
+should<00:00:55.199><c> be</c><00:00:55.320><c> able</c><00:00:55.500><c> to</c><00:00:55.620><c> do</c>
+
+00:00:56.450 --> 00:00:56.460 align:start position:0%
+should be able to do
+ 
+
+00:00:56.460 --> 00:00:58.369 align:start position:0%
+should be able to do
+I've<00:00:56.879><c> based</c><00:00:57.239><c> this</c><00:00:57.300><c> on</c><00:00:57.480><c> a</c><00:00:57.600><c> bit</c><00:00:57.719><c> of</c><00:00:57.840><c> research</c><00:00:58.140><c> and</c>
+
+00:00:58.369 --> 00:00:58.379 align:start position:0%
+I've based this on a bit of research and
+ 
+
+00:00:58.379 --> 00:01:00.709 align:start position:0%
+I've based this on a bit of research and
+a<00:00:58.500><c> bit</c><00:00:58.559><c> of</c><00:00:58.739><c> experience</c><00:00:59.039><c> with</c><00:00:59.340><c> online</c><00:00:59.520><c> shopping</c>
+
+00:01:00.709 --> 00:01:00.719 align:start position:0%
+a bit of experience with online shopping
+ 
+
+00:01:00.719 --> 00:01:02.389 align:start position:0%
+a bit of experience with online shopping
+I'll<00:01:01.079><c> list</c><00:01:01.260><c> these</c><00:01:01.500><c> in</c><00:01:01.680><c> the</c><00:01:01.800><c> description</c><00:01:02.100><c> as</c>
+
+00:01:02.389 --> 00:01:02.399 align:start position:0%
+I'll list these in the description as
+ 
+
+00:01:02.399 --> 00:01:04.250 align:start position:0%
+I'll list these in the description as
+well<00:01:02.579><c> and</c><00:01:03.180><c> we'll</c><00:01:03.300><c> mention</c><00:01:03.480><c> them</c><00:01:03.719><c> as</c><00:01:03.960><c> we</c><00:01:04.140><c> go</c>
+
+00:01:04.250 --> 00:01:04.260 align:start position:0%
+well and we'll mention them as we go
+ 
+
+00:01:04.260 --> 00:01:06.289 align:start position:0%
+well and we'll mention them as we go
+through<00:01:04.439><c> the</c><00:01:04.619><c> design</c>
+
+00:01:06.289 --> 00:01:06.299 align:start position:0%
+through the design
+ 
+
+00:01:06.299 --> 00:01:08.929 align:start position:0%
+through the design
+in<00:01:06.960><c> summary</c><00:01:07.200><c> it</c><00:01:07.619><c> includes</c><00:01:07.979><c> functionality</c><00:01:08.640><c> for</c>
+
+00:01:08.929 --> 00:01:08.939 align:start position:0%
+in summary it includes functionality for
+ 
+
+00:01:08.939 --> 00:01:10.969 align:start position:0%
+in summary it includes functionality for
+creating<00:01:09.240><c> accounts</c><00:01:09.780><c> contact</c><00:01:10.320><c> details</c>
+
+00:01:10.969 --> 00:01:10.979 align:start position:0%
+creating accounts contact details
+ 
+
+00:01:10.979 --> 00:01:13.130 align:start position:0%
+creating accounts contact details
+multiple<00:01:11.700><c> addresses</c><00:01:12.240><c> and</c><00:01:12.420><c> payment</c><00:01:12.600><c> methods</c>
+
+00:01:13.130 --> 00:01:13.140 align:start position:0%
+multiple addresses and payment methods
+ 
+
+00:01:13.140 --> 00:01:15.469 align:start position:0%
+multiple addresses and payment methods
+products<00:01:13.979><c> and</c><00:01:14.100><c> product</c><00:01:14.280><c> categories</c><00:01:14.880><c> product</c>
+
+00:01:15.469 --> 00:01:15.479 align:start position:0%
+products and product categories product
+ 
+
+00:01:15.479 --> 00:01:17.810 align:start position:0%
+products and product categories product
+attributes<00:01:16.200><c> number</c><00:01:16.860><c> of</c><00:01:17.040><c> products</c><00:01:17.460><c> in</c><00:01:17.640><c> stock</c>
+
+00:01:17.810 --> 00:01:17.820 align:start position:0%
+attributes number of products in stock
+ 
+
+00:01:17.820 --> 00:01:20.210 align:start position:0%
+attributes number of products in stock
+shopping<00:01:18.420><c> carts</c><00:01:18.960><c> shipping</c><00:01:19.500><c> methods</c><00:01:19.920><c> order</c>
+
+00:01:20.210 --> 00:01:20.220 align:start position:0%
+shopping carts shipping methods order
+ 
+
+00:01:20.220 --> 00:01:22.190 align:start position:0%
+shopping carts shipping methods order
+processing<00:01:20.820><c> user</c><00:01:21.360><c> reviews</c><00:01:21.540><c> and</c><00:01:22.020><c> product</c>
+
+00:01:22.190 --> 00:01:22.200 align:start position:0%
+processing user reviews and product
+ 
+
+00:01:22.200 --> 00:01:23.390 align:start position:0%
+processing user reviews and product
+promotions
+
+00:01:23.390 --> 00:01:23.400 align:start position:0%
+promotions
+ 
+
+00:01:23.400 --> 00:01:25.310 align:start position:0%
+promotions
+let's<00:01:23.820><c> have</c><00:01:24.000><c> a</c><00:01:24.119><c> look</c><00:01:24.180><c> at</c><00:01:24.360><c> the</c><00:01:24.479><c> design</c>
+
+00:01:25.310 --> 00:01:25.320 align:start position:0%
+let's have a look at the design
+ 
+
+00:01:25.320 --> 00:01:27.830 align:start position:0%
+let's have a look at the design
+here<00:01:25.860><c> is</c><00:01:25.979><c> the</c><00:01:26.220><c> ERD</c><00:01:26.640><c> or</c><00:01:26.939><c> entity</c><00:01:27.240><c> relationship</c>
+
+00:01:27.830 --> 00:01:27.840 align:start position:0%
+here is the ERD or entity relationship
+ 
+
+00:01:27.840 --> 00:01:30.950 align:start position:0%
+here is the ERD or entity relationship
+diagram<00:01:28.259><c> of</c><00:01:28.560><c> the</c><00:01:28.740><c> e-commerce</c><00:01:29.280><c> database</c><00:01:30.240><c> as</c><00:01:30.780><c> I</c>
+
+00:01:30.950 --> 00:01:30.960 align:start position:0%
+diagram of the e-commerce database as I
+ 
+
+00:01:30.960 --> 00:01:32.690 align:start position:0%
+diagram of the e-commerce database as I
+mentioned<00:01:31.200><c> earlier</c><00:01:31.560><c> there's</c><00:01:32.040><c> a</c><00:01:32.280><c> link</c><00:01:32.340><c> to</c><00:01:32.520><c> an</c>
+
+00:01:32.690 --> 00:01:32.700 align:start position:0%
+mentioned earlier there's a link to an
+ 
+
+00:01:32.700 --> 00:01:34.370 align:start position:0%
+mentioned earlier there's a link to an
+image<00:01:32.880><c> of</c><00:01:33.060><c> this</c><00:01:33.240><c> in</c><00:01:33.479><c> the</c><00:01:33.600><c> description</c><00:01:33.840><c> if</c><00:01:34.259><c> you</c>
+
+00:01:34.370 --> 00:01:34.380 align:start position:0%
+image of this in the description if you
+ 
+
+00:01:34.380 --> 00:01:35.929 align:start position:0%
+image of this in the description if you
+want<00:01:34.500><c> your</c><00:01:34.680><c> own</c><00:01:34.799><c> copy</c>
+
+00:01:35.929 --> 00:01:35.939 align:start position:0%
+want your own copy
+ 
+
+00:01:35.939 --> 00:01:37.429 align:start position:0%
+want your own copy
+there<00:01:36.420><c> are</c><00:01:36.540><c> a</c><00:01:36.659><c> lot</c><00:01:36.720><c> of</c><00:01:36.840><c> tables</c><00:01:37.259><c> and</c>
+
+00:01:37.429 --> 00:01:37.439 align:start position:0%
+there are a lot of tables and
+ 
+
+00:01:37.439 --> 00:01:38.929 align:start position:0%
+there are a lot of tables and
+relationships<00:01:38.100><c> here</c>
+
+00:01:38.929 --> 00:01:38.939 align:start position:0%
+relationships here
+ 
+
+00:01:38.939 --> 00:01:40.910 align:start position:0%
+relationships here
+this<00:01:39.360><c> might</c><00:01:39.540><c> seem</c><00:01:39.780><c> a</c><00:01:39.900><c> bit</c><00:01:40.020><c> overwhelming</c><00:01:40.619><c> and</c>
+
+00:01:40.910 --> 00:01:40.920 align:start position:0%
+this might seem a bit overwhelming and
+ 
+
+00:01:40.920 --> 00:01:42.889 align:start position:0%
+this might seem a bit overwhelming and
+confusing<00:01:41.400><c> but</c><00:01:41.939><c> we'll</c><00:01:42.119><c> go</c><00:01:42.299><c> through</c><00:01:42.479><c> each</c><00:01:42.720><c> of</c>
+
+00:01:42.889 --> 00:01:42.899 align:start position:0%
+confusing but we'll go through each of
+ 
+
+00:01:42.899 --> 00:01:44.210 align:start position:0%
+confusing but we'll go through each of
+the<00:01:43.020><c> different</c><00:01:43.140><c> areas</c><00:01:43.619><c> and</c><00:01:43.920><c> I'll</c><00:01:43.979><c> explain</c>
+
+00:01:44.210 --> 00:01:44.220 align:start position:0%
+the different areas and I'll explain
+ 
+
+00:01:44.220 --> 00:01:45.889 align:start position:0%
+the different areas and I'll explain
+what<00:01:44.640><c> they</c><00:01:44.820><c> are</c>
+
+00:01:45.889 --> 00:01:45.899 align:start position:0%
+what they are
+ 
+
+00:01:45.899 --> 00:01:48.530 align:start position:0%
+what they are
+let's<00:01:46.259><c> start</c><00:01:46.439><c> with</c><00:01:46.740><c> the</c><00:01:46.860><c> site</c><00:01:47.040><c> user</c><00:01:47.520><c> table</c>
+
+00:01:48.530 --> 00:01:48.540 align:start position:0%
+let's start with the site user table
+ 
+
+00:01:48.540 --> 00:01:50.630 align:start position:0%
+let's start with the site user table
+this<00:01:48.960><c> represents</c><00:01:49.439><c> a</c><00:01:49.619><c> user</c><00:01:49.979><c> who</c><00:01:50.159><c> can</c><00:01:50.280><c> log</c><00:01:50.460><c> into</c>
+
+00:01:50.630 --> 00:01:50.640 align:start position:0%
+this represents a user who can log into
+ 
+
+00:01:50.640 --> 00:01:52.490 align:start position:0%
+this represents a user who can log into
+the<00:01:50.880><c> website</c><00:01:51.240><c> which</c><00:01:51.780><c> meets</c><00:01:52.079><c> requirement</c>
+
+00:01:52.490 --> 00:01:52.500 align:start position:0%
+the website which meets requirement
+ 
+
+00:01:52.500 --> 00:01:55.190 align:start position:0%
+the website which meets requirement
+number<00:01:52.740><c> one</c><00:01:53.040><c> users</c><00:01:53.939><c> can</c><00:01:54.240><c> create</c><00:01:54.420><c> accounts</c><00:01:55.020><c> and</c>
+
+00:01:55.190 --> 00:01:55.200 align:start position:0%
+number one users can create accounts and
+ 
+
+00:01:55.200 --> 00:01:56.929 align:start position:0%
+number one users can create accounts and
+log<00:01:55.320><c> into</c><00:01:55.500><c> the</c><00:01:55.680><c> website</c>
+
+00:01:56.929 --> 00:01:56.939 align:start position:0%
+log into the website
+ 
+
+00:01:56.939 --> 00:01:59.149 align:start position:0%
+log into the website
+will<00:01:57.479><c> store</c><00:01:57.719><c> an</c><00:01:57.899><c> ID</c><00:01:58.020><c> as</c><00:01:58.439><c> the</c><00:01:58.619><c> primary</c><00:01:58.920><c> key</c>
+
+00:01:59.149 --> 00:01:59.159 align:start position:0%
+will store an ID as the primary key
+ 
+
+00:01:59.159 --> 00:02:00.950 align:start position:0%
+will store an ID as the primary key
+which<00:01:59.520><c> is</c><00:01:59.640><c> used</c><00:01:59.820><c> to</c><00:02:00.060><c> relate</c><00:02:00.360><c> to</c><00:02:00.540><c> several</c><00:02:00.780><c> other</c>
+
+00:02:00.950 --> 00:02:00.960 align:start position:0%
+which is used to relate to several other
+ 
+
+00:02:00.960 --> 00:02:02.450 align:start position:0%
+which is used to relate to several other
+tables
+
+00:02:02.450 --> 00:02:02.460 align:start position:0%
+tables
+ 
+
+00:02:02.460 --> 00:02:04.730 align:start position:0%
+tables
+we'll<00:02:02.880><c> store</c><00:02:03.119><c> an</c><00:02:03.420><c> email</c><00:02:03.540><c> address</c><00:02:03.840><c> which</c><00:02:04.560><c> is</c>
+
+00:02:04.730 --> 00:02:04.740 align:start position:0%
+we'll store an email address which is
+ 
+
+00:02:04.740 --> 00:02:06.770 align:start position:0%
+we'll store an email address which is
+used<00:02:04.920><c> for</c><00:02:05.159><c> contacting</c><00:02:05.640><c> the</c><00:02:05.880><c> customer</c>
+
+00:02:06.770 --> 00:02:06.780 align:start position:0%
+used for contacting the customer
+ 
+
+00:02:06.780 --> 00:02:08.930 align:start position:0%
+used for contacting the customer
+this<00:02:07.259><c> assumes</c><00:02:07.740><c> that</c><00:02:07.860><c> the</c><00:02:08.039><c> user</c><00:02:08.340><c> can</c><00:02:08.520><c> also</c><00:02:08.759><c> use</c>
+
+00:02:08.930 --> 00:02:08.940 align:start position:0%
+this assumes that the user can also use
+ 
+
+00:02:08.940 --> 00:02:11.029 align:start position:0%
+this assumes that the user can also use
+their<00:02:09.179><c> email</c><00:02:09.360><c> address</c><00:02:09.599><c> to</c><00:02:09.959><c> log</c><00:02:10.080><c> in</c><00:02:10.259><c> so</c><00:02:10.860><c> we</c>
+
+00:02:11.029 --> 00:02:11.039 align:start position:0%
+their email address to log in so we
+ 
+
+00:02:11.039 --> 00:02:13.130 align:start position:0%
+their email address to log in so we
+haven't<00:02:11.220><c> added</c><00:02:11.580><c> a</c><00:02:11.700><c> username</c><00:02:12.120><c> field</c>
+
+00:02:13.130 --> 00:02:13.140 align:start position:0%
+haven't added a username field
+ 
+
+00:02:13.140 --> 00:02:14.869 align:start position:0%
+haven't added a username field
+but<00:02:13.500><c> if</c><00:02:13.800><c> you</c><00:02:13.860><c> want</c><00:02:14.040><c> to</c><00:02:14.160><c> you</c><00:02:14.459><c> can</c><00:02:14.580><c> add</c><00:02:14.700><c> a</c>
+
+00:02:14.869 --> 00:02:14.879 align:start position:0%
+but if you want to you can add a
+ 
+
+00:02:14.879 --> 00:02:17.510 align:start position:0%
+but if you want to you can add a
+username<00:02:15.239><c> field</c><00:02:15.480><c> as</c><00:02:15.720><c> well</c>
+
+00:02:17.510 --> 00:02:17.520 align:start position:0%
+username field as well
+ 
+
+00:02:17.520 --> 00:02:19.910 align:start position:0%
+username field as well
+we<00:02:17.940><c> also</c><00:02:18.239><c> add</c><00:02:18.420><c> a</c><00:02:18.599><c> phone</c><00:02:18.780><c> number</c><00:02:19.020><c> field</c><00:02:19.319><c> to</c><00:02:19.739><c> use</c>
+
+00:02:19.910 --> 00:02:19.920 align:start position:0%
+we also add a phone number field to use
+ 
+
+00:02:19.920 --> 00:02:22.729 align:start position:0%
+we also add a phone number field to use
+for<00:02:20.160><c> any</c><00:02:20.340><c> Communications</c><00:02:20.879><c> if</c><00:02:21.300><c> needed</c>
+
+00:02:22.729 --> 00:02:22.739 align:start position:0%
+for any Communications if needed
+ 
+
+00:02:22.739 --> 00:02:24.589 align:start position:0%
+for any Communications if needed
+this<00:02:23.280><c> table</c><00:02:23.459><c> will</c><00:02:23.879><c> allow</c><00:02:24.180><c> us</c><00:02:24.300><c> to</c><00:02:24.480><c> meet</c>
+
+00:02:24.589 --> 00:02:24.599 align:start position:0%
+this table will allow us to meet
+ 
+
+00:02:24.599 --> 00:02:26.449 align:start position:0%
+this table will allow us to meet
+requirement<00:02:25.080><c> number</c><00:02:25.319><c> two</c>
+
+00:02:26.449 --> 00:02:26.459 align:start position:0%
+requirement number two
+ 
+
+00:02:26.459 --> 00:02:29.690 align:start position:0%
+requirement number two
+finally<00:02:27.120><c> we</c><00:02:27.420><c> have</c><00:02:27.540><c> a</c><00:02:27.720><c> password</c><00:02:27.900><c> field</c><00:02:28.319><c> here</c><00:02:29.040><c> of</c>
+
+00:02:29.690 --> 00:02:29.700 align:start position:0%
+finally we have a password field here of
+ 
+
+00:02:29.700 --> 00:02:31.430 align:start position:0%
+finally we have a password field here of
+course<00:02:29.819><c> this</c><00:02:30.120><c> will</c><00:02:30.239><c> be</c><00:02:30.360><c> encrypted</c><00:02:30.840><c> and</c><00:02:31.260><c> not</c>
+
+00:02:31.430 --> 00:02:31.440 align:start position:0%
+course this will be encrypted and not
+ 
+
+00:02:31.440 --> 00:02:33.890 align:start position:0%
+course this will be encrypted and not
+stored<00:02:31.739><c> in</c><00:02:31.920><c> plain</c><00:02:32.160><c> text</c>
+
+00:02:33.890 --> 00:02:33.900 align:start position:0%
+stored in plain text
+ 
+
+00:02:33.900 --> 00:02:35.990 align:start position:0%
+stored in plain text
+we<00:02:34.620><c> have</c><00:02:34.739><c> the</c><00:02:34.920><c> address</c><00:02:35.040><c> table</c>
+
+00:02:35.990 --> 00:02:36.000 align:start position:0%
+we have the address table
+ 
+
+00:02:36.000 --> 00:02:38.330 align:start position:0%
+we have the address table
+we<00:02:36.480><c> also</c><00:02:36.720><c> have</c><00:02:36.900><c> an</c><00:02:37.080><c> ID</c><00:02:37.200><c> field</c><00:02:37.560><c> as</c><00:02:37.860><c> the</c><00:02:38.040><c> primary</c>
+
+00:02:38.330 --> 00:02:38.340 align:start position:0%
+we also have an ID field as the primary
+ 
+
+00:02:38.340 --> 00:02:40.790 align:start position:0%
+we also have an ID field as the primary
+key<00:02:38.580><c> which</c><00:02:39.300><c> as</c><00:02:39.540><c> you</c><00:02:39.660><c> may</c><00:02:39.840><c> see</c><00:02:40.019><c> is</c><00:02:40.319><c> a</c><00:02:40.500><c> convention</c>
+
+00:02:40.790 --> 00:02:40.800 align:start position:0%
+key which as you may see is a convention
+ 
+
+00:02:40.800 --> 00:02:42.650 align:start position:0%
+key which as you may see is a convention
+I've<00:02:41.099><c> taken</c><00:02:41.519><c> for</c><00:02:41.700><c> most</c><00:02:41.879><c> of</c><00:02:42.000><c> the</c><00:02:42.180><c> tables</c><00:02:42.480><c> in</c>
+
+00:02:42.650 --> 00:02:42.660 align:start position:0%
+I've taken for most of the tables in
+ 
+
+00:02:42.660 --> 00:02:44.390 align:start position:0%
+I've taken for most of the tables in
+this<00:02:42.780><c> database</c>
+
+00:02:44.390 --> 00:02:44.400 align:start position:0%
+this database
+ 
+
+00:02:44.400 --> 00:02:46.190 align:start position:0%
+this database
+we<00:02:44.700><c> have</c><00:02:44.760><c> a</c><00:02:44.940><c> range</c><00:02:45.120><c> for</c><00:02:45.300><c> other</c><00:02:45.480><c> fields</c><00:02:45.840><c> for</c><00:02:46.019><c> an</c>
+
+00:02:46.190 --> 00:02:46.200 align:start position:0%
+we have a range for other fields for an
+ 
+
+00:02:46.200 --> 00:02:48.530 align:start position:0%
+we have a range for other fields for an
+address<00:02:46.379><c> unit</c><00:02:47.280><c> number</c><00:02:47.640><c> Street</c><00:02:48.300><c> number</c>
+
+00:02:48.530 --> 00:02:48.540 align:start position:0%
+address unit number Street number
+ 
+
+00:02:48.540 --> 00:02:50.809 align:start position:0%
+address unit number Street number
+address<00:02:49.200><c> line</c><00:02:49.560><c> one</c><00:02:49.860><c> and</c><00:02:50.099><c> two</c>
+
+00:02:50.809 --> 00:02:50.819 align:start position:0%
+address line one and two
+ 
+
+00:02:50.819 --> 00:02:53.449 align:start position:0%
+address line one and two
+City<00:02:51.300><c> region</c><00:02:52.080><c> and</c><00:02:52.319><c> postal</c><00:02:52.680><c> code</c>
+
+00:02:53.449 --> 00:02:53.459 align:start position:0%
+City region and postal code
+ 
+
+00:02:53.459 --> 00:02:55.790 align:start position:0%
+City region and postal code
+we<00:02:53.879><c> have</c><00:02:53.940><c> a</c><00:02:54.120><c> separate</c><00:02:54.360><c> table</c><00:02:54.540><c> for</c><00:02:54.840><c> country</c><00:02:55.080><c> as</c>
+
+00:02:55.790 --> 00:02:55.800 align:start position:0%
+we have a separate table for country as
+ 
+
+00:02:55.800 --> 00:02:57.350 align:start position:0%
+we have a separate table for country as
+there<00:02:55.980><c> is</c><00:02:56.099><c> a</c><00:02:56.280><c> defined</c><00:02:56.640><c> list</c><00:02:56.879><c> of</c><00:02:57.120><c> a</c><00:02:57.239><c> couple</c>
+
+00:02:57.350 --> 00:02:57.360 align:start position:0%
+there is a defined list of a couple
+ 
+
+00:02:57.360 --> 00:02:59.869 align:start position:0%
+there is a defined list of a couple
+hundred<00:02:57.599><c> countries</c><00:02:58.140><c> and</c><00:02:58.860><c> this</c><00:02:59.040><c> is</c><00:02:59.159><c> related</c><00:02:59.640><c> to</c>
+
+00:02:59.869 --> 00:02:59.879 align:start position:0%
+hundred countries and this is related to
+ 
+
+00:02:59.879 --> 00:03:01.610 align:start position:0%
+hundred countries and this is related to
+the<00:03:00.000><c> address</c><00:03:00.120><c> using</c><00:03:00.659><c> the</c><00:03:00.840><c> primary</c><00:03:01.140><c> key</c><00:03:01.319><c> and</c>
+
+00:03:01.610 --> 00:03:01.620 align:start position:0%
+the address using the primary key and
+ 
+
+00:03:01.620 --> 00:03:03.530 align:start position:0%
+the address using the primary key and
+foreign<00:03:01.980><c> key</c>
+
+00:03:03.530 --> 00:03:03.540 align:start position:0%
+foreign key
+ 
+
+00:03:03.540 --> 00:03:05.750 align:start position:0%
+foreign key
+for<00:03:04.140><c> more</c><00:03:04.260><c> details</c><00:03:04.739><c> on</c><00:03:04.920><c> why</c><00:03:05.159><c> this</c><00:03:05.340><c> approach</c><00:03:05.640><c> is</c>
+
+00:03:05.750 --> 00:03:05.760 align:start position:0%
+for more details on why this approach is
+ 
+
+00:03:05.760 --> 00:03:08.030 align:start position:0%
+for more details on why this approach is
+taken<00:03:06.180><c> check</c><00:03:06.720><c> out</c><00:03:06.840><c> my</c><00:03:07.080><c> other</c><00:03:07.200><c> video</c><00:03:07.500><c> here</c><00:03:07.800><c> on</c>
+
+00:03:08.030 --> 00:03:08.040 align:start position:0%
+taken check out my other video here on
+ 
+
+00:03:08.040 --> 00:03:10.490 align:start position:0%
+taken check out my other video here on
+designing<00:03:08.400><c> address</c><00:03:08.580><c> fields</c>
+
+00:03:10.490 --> 00:03:10.500 align:start position:0%
+designing address fields
+ 
+
+00:03:10.500 --> 00:03:12.589 align:start position:0%
+designing address fields
+requirement<00:03:11.220><c> number</c><00:03:11.459><c> three</c><00:03:11.760><c> states</c><00:03:12.180><c> that</c><00:03:12.420><c> a</c>
+
+00:03:12.589 --> 00:03:12.599 align:start position:0%
+requirement number three states that a
+ 
+
+00:03:12.599 --> 00:03:14.270 align:start position:0%
+requirement number three states that a
+user<00:03:12.840><c> can</c><00:03:13.019><c> have</c><00:03:13.140><c> multiple</c><00:03:13.560><c> addresses</c><00:03:14.099><c> on</c>
+
+00:03:14.270 --> 00:03:14.280 align:start position:0%
+user can have multiple addresses on
+ 
+
+00:03:14.280 --> 00:03:17.030 align:start position:0%
+user can have multiple addresses on
+their<00:03:14.459><c> account</c><00:03:14.640><c> and</c><00:03:15.239><c> specify</c><00:03:15.659><c> a</c><00:03:15.840><c> default</c><00:03:16.200><c> so</c>
+
+00:03:17.030 --> 00:03:17.040 align:start position:0%
+their account and specify a default so
+ 
+
+00:03:17.040 --> 00:03:18.890 align:start position:0%
+their account and specify a default so
+we<00:03:17.220><c> have</c><00:03:17.340><c> a</c><00:03:17.519><c> joining</c><00:03:17.879><c> table</c><00:03:18.060><c> called</c><00:03:18.480><c> user</c>
+
+00:03:18.890 --> 00:03:18.900 align:start position:0%
+we have a joining table called user
+ 
+
+00:03:18.900 --> 00:03:20.210 align:start position:0%
+we have a joining table called user
+address
+
+00:03:20.210 --> 00:03:20.220 align:start position:0%
+address
+ 
+
+00:03:20.220 --> 00:03:22.070 align:start position:0%
+address
+this<00:03:20.700><c> assumes</c><00:03:21.120><c> that</c><00:03:21.239><c> an</c><00:03:21.480><c> address</c><00:03:21.540><c> can</c><00:03:21.900><c> be</c>
+
+00:03:22.070 --> 00:03:22.080 align:start position:0%
+this assumes that an address can be
+ 
+
+00:03:22.080 --> 00:03:24.229 align:start position:0%
+this assumes that an address can be
+applied<00:03:22.379><c> to</c><00:03:22.620><c> more</c><00:03:22.800><c> than</c><00:03:22.920><c> one</c><00:03:23.159><c> user</c>
+
+00:03:24.229 --> 00:03:24.239 align:start position:0%
+applied to more than one user
+ 
+
+00:03:24.239 --> 00:03:25.789 align:start position:0%
+applied to more than one user
+there<00:03:24.599><c> could</c><00:03:24.780><c> be</c><00:03:24.900><c> functionality</c><00:03:25.440><c> in</c><00:03:25.620><c> the</c>
+
+00:03:25.789 --> 00:03:25.799 align:start position:0%
+there could be functionality in the
+ 
+
+00:03:25.799 --> 00:03:27.890 align:start position:0%
+there could be functionality in the
+website<00:03:26.099><c> to</c><00:03:26.459><c> allow</c><00:03:26.760><c> an</c><00:03:27.000><c> existing</c><00:03:27.360><c> address</c><00:03:27.540><c> to</c>
+
+00:03:27.890 --> 00:03:27.900 align:start position:0%
+website to allow an existing address to
+ 
+
+00:03:27.900 --> 00:03:30.770 align:start position:0%
+website to allow an existing address to
+be<00:03:28.019><c> related</c><00:03:28.379><c> if</c><00:03:29.159><c> for</c><00:03:29.400><c> example</c><00:03:29.700><c> two</c><00:03:30.239><c> people</c><00:03:30.420><c> in</c>
+
+00:03:30.770 --> 00:03:30.780 align:start position:0%
+be related if for example two people in
+ 
+
+00:03:30.780 --> 00:03:32.630 align:start position:0%
+be related if for example two people in
+the<00:03:30.959><c> same</c><00:03:31.080><c> house</c><00:03:31.440><c> place</c><00:03:31.799><c> an</c><00:03:31.980><c> order</c><00:03:32.159><c> to</c><00:03:32.459><c> the</c>
+
+00:03:32.630 --> 00:03:32.640 align:start position:0%
+the same house place an order to the
+ 
+
+00:03:32.640 --> 00:03:33.770 align:start position:0%
+the same house place an order to the
+same<00:03:32.760><c> address</c>
+
+00:03:33.770 --> 00:03:33.780 align:start position:0%
+same address
+ 
+
+00:03:33.780 --> 00:03:35.690 align:start position:0%
+same address
+this<00:03:34.379><c> could</c><00:03:34.500><c> prevent</c><00:03:34.799><c> duplicate</c><00:03:35.280><c> addresses</c>
+
+00:03:35.690 --> 00:03:35.700 align:start position:0%
+this could prevent duplicate addresses
+ 
+
+00:03:35.700 --> 00:03:37.250 align:start position:0%
+this could prevent duplicate addresses
+in<00:03:35.879><c> the</c><00:03:36.000><c> table</c>
+
+00:03:37.250 --> 00:03:37.260 align:start position:0%
+in the table
+ 
+
+00:03:37.260 --> 00:03:39.470 align:start position:0%
+in the table
+so<00:03:37.739><c> the</c><00:03:37.980><c> user</c><00:03:38.220><c> address</c><00:03:38.400><c> table</c><00:03:38.760><c> has</c><00:03:39.060><c> a</c><00:03:39.180><c> link</c><00:03:39.299><c> to</c>
+
+00:03:39.470 --> 00:03:39.480 align:start position:0%
+so the user address table has a link to
+ 
+
+00:03:39.480 --> 00:03:41.809 align:start position:0%
+so the user address table has a link to
+the<00:03:39.659><c> user</c><00:03:39.959><c> table</c><00:03:40.080><c> and</c><00:03:40.440><c> the</c><00:03:40.560><c> address</c><00:03:40.739><c> table</c>
+
+00:03:41.809 --> 00:03:41.819 align:start position:0%
+the user table and the address table
+ 
+
+00:03:41.819 --> 00:03:44.390 align:start position:0%
+the user table and the address table
+we<00:03:42.299><c> also</c><00:03:42.540><c> have</c><00:03:42.720><c> an</c><00:03:42.900><c> is</c><00:03:43.019><c> default</c><00:03:43.500><c> column</c><00:03:43.920><c> which</c>
+
+00:03:44.390 --> 00:03:44.400 align:start position:0%
+we also have an is default column which
+ 
+
+00:03:44.400 --> 00:03:46.430 align:start position:0%
+we also have an is default column which
+will<00:03:44.580><c> allow</c><00:03:44.819><c> the</c><00:03:45.000><c> user</c><00:03:45.299><c> to</c><00:03:45.599><c> specify</c><00:03:45.959><c> which</c><00:03:46.260><c> of</c>
+
+00:03:46.430 --> 00:03:46.440 align:start position:0%
+will allow the user to specify which of
+ 
+
+00:03:46.440 --> 00:03:49.250 align:start position:0%
+will allow the user to specify which of
+their<00:03:46.560><c> addresses</c><00:03:47.040><c> are</c><00:03:47.220><c> the</c><00:03:47.340><c> default</c>
+
+00:03:49.250 --> 00:03:49.260 align:start position:0%
+their addresses are the default
+ 
+
+00:03:49.260 --> 00:03:51.170 align:start position:0%
+their addresses are the default
+this<00:03:49.680><c> would</c><00:03:49.799><c> be</c><00:03:49.920><c> some</c><00:03:50.220><c> kind</c><00:03:50.400><c> of</c><00:03:50.459><c> Boolean</c><00:03:50.940><c> value</c>
+
+00:03:51.170 --> 00:03:51.180 align:start position:0%
+this would be some kind of Boolean value
+ 
+
+00:03:51.180 --> 00:03:53.570 align:start position:0%
+this would be some kind of Boolean value
+and<00:03:51.599><c> set</c><00:03:51.780><c> for</c><00:03:52.019><c> a</c><00:03:52.200><c> single</c><00:03:52.500><c> address</c>
+
+00:03:53.570 --> 00:03:53.580 align:start position:0%
+and set for a single address
+ 
+
+00:03:53.580 --> 00:03:55.190 align:start position:0%
+and set for a single address
+next<00:03:54.060><c> we'll</c><00:03:54.239><c> take</c><00:03:54.480><c> a</c><00:03:54.599><c> look</c><00:03:54.720><c> at</c><00:03:54.900><c> the</c><00:03:55.080><c> payment</c>
+
+00:03:55.190 --> 00:03:55.200 align:start position:0%
+next we'll take a look at the payment
+ 
+
+00:03:55.200 --> 00:03:58.009 align:start position:0%
+next we'll take a look at the payment
+methods<00:03:55.939><c> requirement</c><00:03:56.939><c> number</c><00:03:57.180><c> four</c><00:03:57.480><c> says</c>
+
+00:03:58.009 --> 00:03:58.019 align:start position:0%
+methods requirement number four says
+ 
+
+00:03:58.019 --> 00:03:59.690 align:start position:0%
+methods requirement number four says
+users<00:03:58.319><c> can</c><00:03:58.620><c> add</c><00:03:58.860><c> one</c><00:03:59.159><c> or</c><00:03:59.340><c> more</c><00:03:59.519><c> payment</c>
+
+00:03:59.690 --> 00:03:59.700 align:start position:0%
+users can add one or more payment
+ 
+
+00:03:59.700 --> 00:04:01.850 align:start position:0%
+users can add one or more payment
+methods<00:04:00.239><c> to</c><00:04:00.420><c> their</c><00:04:00.599><c> account</c><00:04:00.780><c> and</c><00:04:01.319><c> can</c><00:04:01.439><c> set</c><00:04:01.680><c> a</c>
+
+00:04:01.850 --> 00:04:01.860 align:start position:0%
+methods to their account and can set a
+ 
+
+00:04:01.860 --> 00:04:03.589 align:start position:0%
+methods to their account and can set a
+default<00:04:02.099><c> payment</c><00:04:02.340><c> method</c>
+
+00:04:03.589 --> 00:04:03.599 align:start position:0%
+default payment method
+ 
+
+00:04:03.599 --> 00:04:05.690 align:start position:0%
+default payment method
+we<00:04:04.080><c> can</c><00:04:04.260><c> achieve</c><00:04:04.560><c> this</c><00:04:04.739><c> by</c><00:04:04.980><c> using</c><00:04:05.280><c> this</c><00:04:05.459><c> table</c>
+
+00:04:05.690 --> 00:04:05.700 align:start position:0%
+we can achieve this by using this table
+ 
+
+00:04:05.700 --> 00:04:08.330 align:start position:0%
+we can achieve this by using this table
+here<00:04:06.000><c> called</c><00:04:06.659><c> user</c><00:04:07.080><c> payment</c><00:04:07.260><c> method</c>
+
+00:04:08.330 --> 00:04:08.340 align:start position:0%
+here called user payment method
+ 
+
+00:04:08.340 --> 00:04:11.149 align:start position:0%
+here called user payment method
+it<00:04:08.819><c> has</c><00:04:09.000><c> an</c><00:04:09.180><c> ID</c><00:04:09.299><c> as</c><00:04:09.720><c> the</c><00:04:09.900><c> primary</c><00:04:10.200><c> key</c><00:04:10.439><c> and</c><00:04:11.040><c> a</c>
+
+00:04:11.149 --> 00:04:11.159 align:start position:0%
+it has an ID as the primary key and a
+ 
+
+00:04:11.159 --> 00:04:12.649 align:start position:0%
+it has an ID as the primary key and a
+link<00:04:11.340><c> to</c><00:04:11.519><c> the</c><00:04:11.640><c> user</c><00:04:11.939><c> that</c><00:04:12.180><c> sets</c><00:04:12.420><c> up</c><00:04:12.540><c> the</c>
+
+00:04:12.649 --> 00:04:12.659 align:start position:0%
+link to the user that sets up the
+ 
+
+00:04:12.659 --> 00:04:15.170 align:start position:0%
+link to the user that sets up the
+payment<00:04:12.780><c> method</c><00:04:13.739><c> it</c><00:04:14.159><c> has</c><00:04:14.280><c> a</c><00:04:14.459><c> foreign</c><00:04:14.700><c> key</c><00:04:14.879><c> of</c>
+
+00:04:15.170 --> 00:04:15.180 align:start position:0%
+payment method it has a foreign key of
+ 
+
+00:04:15.180 --> 00:04:17.509 align:start position:0%
+payment method it has a foreign key of
+payment<00:04:15.360><c> type</c><00:04:15.659><c> ID</c><00:04:16.019><c> which</c><00:04:16.799><c> is</c><00:04:16.919><c> linked</c><00:04:17.220><c> to</c><00:04:17.400><c> the</c>
+
+00:04:17.509 --> 00:04:17.519 align:start position:0%
+payment type ID which is linked to the
+ 
+
+00:04:17.519 --> 00:04:19.189 align:start position:0%
+payment type ID which is linked to the
+payment<00:04:17.639><c> type</c><00:04:18.000><c> table</c>
+
+00:04:19.189 --> 00:04:19.199 align:start position:0%
+payment type table
+ 
+
+00:04:19.199 --> 00:04:21.229 align:start position:0%
+payment type table
+this<00:04:19.680><c> table</c><00:04:19.859><c> would</c><00:04:20.220><c> include</c><00:04:20.519><c> values</c><00:04:20.880><c> such</c><00:04:21.120><c> as</c>
+
+00:04:21.229 --> 00:04:21.239 align:start position:0%
+this table would include values such as
+ 
+
+00:04:21.239 --> 00:04:23.270 align:start position:0%
+this table would include values such as
+credit<00:04:21.479><c> card</c><00:04:21.780><c> PayPal</c><00:04:22.560><c> or</c><00:04:22.979><c> other</c><00:04:23.100><c> payment</c>
+
+00:04:23.270 --> 00:04:23.280 align:start position:0%
+credit card PayPal or other payment
+ 
+
+00:04:23.280 --> 00:04:26.210 align:start position:0%
+credit card PayPal or other payment
+types<00:04:23.759><c> we</c><00:04:23.940><c> want</c><00:04:24.120><c> to</c><00:04:24.300><c> support</c>
+
+00:04:26.210 --> 00:04:26.220 align:start position:0%
+types we want to support
+ 
+
+00:04:26.220 --> 00:04:28.189 align:start position:0%
+types we want to support
+the<00:04:26.639><c> provider</c><00:04:27.060><c> field</c><00:04:27.180><c> may</c><00:04:27.540><c> be</c><00:04:27.660><c> something</c><00:04:27.840><c> like</c>
+
+00:04:28.189 --> 00:04:28.199 align:start position:0%
+the provider field may be something like
+ 
+
+00:04:28.199 --> 00:04:30.350 align:start position:0%
+the provider field may be something like
+Mastercard<00:04:28.800><c> or</c><00:04:29.040><c> VISA</c><00:04:29.520><c> or</c><00:04:29.880><c> another</c><00:04:30.060><c> company</c>
+
+00:04:30.350 --> 00:04:30.360 align:start position:0%
+Mastercard or VISA or another company
+ 
+
+00:04:30.360 --> 00:04:32.570 align:start position:0%
+Mastercard or VISA or another company
+who<00:04:30.720><c> provides</c><00:04:31.080><c> the</c><00:04:31.259><c> payment</c>
+
+00:04:32.570 --> 00:04:32.580 align:start position:0%
+who provides the payment
+ 
+
+00:04:32.580 --> 00:04:34.430 align:start position:0%
+who provides the payment
+account<00:04:33.060><c> number</c><00:04:33.360><c> is</c><00:04:33.660><c> the</c><00:04:33.840><c> number</c><00:04:33.900><c> used</c><00:04:34.199><c> for</c>
+
+00:04:34.430 --> 00:04:34.440 align:start position:0%
+account number is the number used for
+ 
+
+00:04:34.440 --> 00:04:36.830 align:start position:0%
+account number is the number used for
+payment<00:04:34.680><c> and</c><00:04:35.460><c> an</c><00:04:35.580><c> expiry</c><00:04:36.000><c> date</c><00:04:36.180><c> is</c><00:04:36.419><c> added</c><00:04:36.720><c> for</c>
+
+00:04:36.830 --> 00:04:36.840 align:start position:0%
+payment and an expiry date is added for
+ 
+
+00:04:36.840 --> 00:04:37.969 align:start position:0%
+payment and an expiry date is added for
+the<00:04:37.020><c> payment</c>
+
+00:04:37.969 --> 00:04:37.979 align:start position:0%
+the payment
+ 
+
+00:04:37.979 --> 00:04:40.610 align:start position:0%
+the payment
+finally<00:04:38.699><c> we</c><00:04:39.000><c> have</c><00:04:39.120><c> an</c><00:04:39.300><c> is</c><00:04:39.419><c> default</c><00:04:39.840><c> field</c><00:04:40.139><c> to</c>
+
+00:04:40.610 --> 00:04:40.620 align:start position:0%
+finally we have an is default field to
+ 
+
+00:04:40.620 --> 00:04:42.469 align:start position:0%
+finally we have an is default field to
+let<00:04:40.740><c> the</c><00:04:40.979><c> user</c><00:04:41.280><c> specify</c><00:04:41.639><c> that</c><00:04:42.000><c> one</c><00:04:42.240><c> of</c><00:04:42.360><c> their</c>
+
+00:04:42.469 --> 00:04:42.479 align:start position:0%
+let the user specify that one of their
+ 
+
+00:04:42.479 --> 00:04:44.450 align:start position:0%
+let the user specify that one of their
+payment<00:04:42.660><c> methods</c><00:04:43.139><c> is</c><00:04:43.320><c> the</c><00:04:43.440><c> default</c>
+
+00:04:44.450 --> 00:04:44.460 align:start position:0%
+payment methods is the default
+ 
+
+00:04:44.460 --> 00:04:46.430 align:start position:0%
+payment methods is the default
+there<00:04:45.060><c> are</c><00:04:45.180><c> a</c><00:04:45.300><c> range</c><00:04:45.479><c> of</c><00:04:45.660><c> regulations</c><00:04:46.080><c> that</c>
+
+00:04:46.430 --> 00:04:46.440 align:start position:0%
+there are a range of regulations that
+ 
+
+00:04:46.440 --> 00:04:47.870 align:start position:0%
+there are a range of regulations that
+need<00:04:46.560><c> to</c><00:04:46.680><c> be</c><00:04:46.800><c> followed</c><00:04:47.100><c> if</c><00:04:47.340><c> you</c><00:04:47.460><c> want</c><00:04:47.580><c> to</c><00:04:47.699><c> store</c>
+
+00:04:47.870 --> 00:04:47.880 align:start position:0%
+need to be followed if you want to store
+ 
+
+00:04:47.880 --> 00:04:49.670 align:start position:0%
+need to be followed if you want to store
+credit<00:04:48.240><c> card</c><00:04:48.479><c> information</c><00:04:48.720><c> in</c><00:04:49.259><c> the</c><00:04:49.320><c> database</c>
+
+00:04:49.670 --> 00:04:49.680 align:start position:0%
+credit card information in the database
+ 
+
+00:04:49.680 --> 00:04:51.650 align:start position:0%
+credit card information in the database
+there<00:04:50.400><c> may</c><00:04:50.520><c> be</c><00:04:50.639><c> other</c><00:04:50.820><c> solutions</c><00:04:51.180><c> for</c><00:04:51.479><c> this</c>
+
+00:04:51.650 --> 00:04:51.660 align:start position:0%
+there may be other solutions for this
+ 
+
+00:04:51.660 --> 00:04:53.990 align:start position:0%
+there may be other solutions for this
+such<00:04:52.259><c> as</c><00:04:52.440><c> allowing</c><00:04:52.860><c> another</c><00:04:53.100><c> provider</c><00:04:53.699><c> to</c>
+
+00:04:53.990 --> 00:04:54.000 align:start position:0%
+such as allowing another provider to
+ 
+
+00:04:54.000 --> 00:04:56.210 align:start position:0%
+such as allowing another provider to
+process<00:04:54.240><c> the</c><00:04:54.479><c> credit</c><00:04:54.660><c> card</c><00:04:54.900><c> transactions</c><00:04:55.680><c> so</c>
+
+00:04:56.210 --> 00:04:56.220 align:start position:0%
+process the credit card transactions so
+ 
+
+00:04:56.220 --> 00:04:57.590 align:start position:0%
+process the credit card transactions so
+we<00:04:56.400><c> don't</c><00:04:56.520><c> need</c><00:04:56.699><c> to</c><00:04:56.880><c> store</c><00:04:57.000><c> the</c><00:04:57.240><c> credit</c><00:04:57.360><c> card</c>
+
+00:04:57.590 --> 00:04:57.600 align:start position:0%
+we don't need to store the credit card
+ 
+
+00:04:57.600 --> 00:04:58.730 align:start position:0%
+we don't need to store the credit card
+information
+
+00:04:58.730 --> 00:04:58.740 align:start position:0%
+information
+ 
+
+00:04:58.740 --> 00:05:00.650 align:start position:0%
+information
+so<00:04:59.160><c> this</c><00:04:59.340><c> design</c><00:04:59.460><c> could</c><00:04:59.820><c> be</c><00:05:00.000><c> updated</c><00:05:00.300><c> if</c>
+
+00:05:00.650 --> 00:05:00.660 align:start position:0%
+so this design could be updated if
+ 
+
+00:05:00.660 --> 00:05:01.969 align:start position:0%
+so this design could be updated if
+that's<00:05:00.840><c> the</c><00:05:01.020><c> approach</c><00:05:01.320><c> we</c><00:05:01.500><c> want</c><00:05:01.680><c> to</c><00:05:01.800><c> take</c>
+
+00:05:01.969 --> 00:05:01.979 align:start position:0%
+that's the approach we want to take
+ 
+
+00:05:01.979 --> 00:05:04.490 align:start position:0%
+that's the approach we want to take
+let's<00:05:02.880><c> move</c><00:05:03.060><c> over</c><00:05:03.180><c> to</c><00:05:03.419><c> products</c>
+
+00:05:04.490 --> 00:05:04.500 align:start position:0%
+let's move over to products
+ 
+
+00:05:04.500 --> 00:05:07.010 align:start position:0%
+let's move over to products
+requirement<00:05:05.280><c> 5</c><00:05:05.580><c> and</c><00:05:05.880><c> 6</c><00:05:06.060><c> are</c><00:05:06.360><c> about</c><00:05:06.539><c> storing</c>
+
+00:05:07.010 --> 00:05:07.020 align:start position:0%
+requirement 5 and 6 are about storing
+ 
+
+00:05:07.020 --> 00:05:08.749 align:start position:0%
+requirement 5 and 6 are about storing
+products<00:05:07.440><c> and</c><00:05:07.620><c> that</c><00:05:07.800><c> categories</c><00:05:08.220><c> can</c><00:05:08.520><c> belong</c>
+
+00:05:08.749 --> 00:05:08.759 align:start position:0%
+products and that categories can belong
+ 
+
+00:05:08.759 --> 00:05:10.670 align:start position:0%
+products and that categories can belong
+to<00:05:08.940><c> other</c><00:05:09.060><c> categories</c>
+
+00:05:10.670 --> 00:05:10.680 align:start position:0%
+to other categories
+ 
+
+00:05:10.680 --> 00:05:12.890 align:start position:0%
+to other categories
+we<00:05:11.220><c> have</c><00:05:11.340><c> a</c><00:05:11.580><c> product</c><00:05:11.759><c> category</c><00:05:12.300><c> table</c><00:05:12.539><c> here</c>
+
+00:05:12.890 --> 00:05:12.900 align:start position:0%
+we have a product category table here
+ 
+
+00:05:12.900 --> 00:05:15.529 align:start position:0%
+we have a product category table here
+which<00:05:13.560><c> contains</c><00:05:13.919><c> an</c><00:05:14.100><c> ID</c><00:05:14.280><c> and</c><00:05:14.880><c> a</c><00:05:15.000><c> category</c><00:05:15.360><c> name</c>
+
+00:05:15.529 --> 00:05:15.539 align:start position:0%
+which contains an ID and a category name
+ 
+
+00:05:15.539 --> 00:05:17.689 align:start position:0%
+which contains an ID and a category name
+such<00:05:15.900><c> as</c><00:05:16.020><c> clothing</c><00:05:16.320><c> or</c><00:05:16.620><c> shoes</c>
+
+00:05:17.689 --> 00:05:17.699 align:start position:0%
+such as clothing or shoes
+ 
+
+00:05:17.699 --> 00:05:19.249 align:start position:0%
+such as clothing or shoes
+categories<00:05:18.479><c> can</c><00:05:18.660><c> belong</c><00:05:18.960><c> to</c><00:05:19.080><c> other</c>
+
+00:05:19.249 --> 00:05:19.259 align:start position:0%
+categories can belong to other
+ 
+
+00:05:19.259 --> 00:05:21.230 align:start position:0%
+categories can belong to other
+categories<00:05:19.800><c> and</c><00:05:20.340><c> the</c><00:05:20.520><c> way</c><00:05:20.639><c> we've</c><00:05:20.940><c> done</c><00:05:21.060><c> this</c>
+
+00:05:21.230 --> 00:05:21.240 align:start position:0%
+categories and the way we've done this
+ 
+
+00:05:21.240 --> 00:05:24.050 align:start position:0%
+categories and the way we've done this
+is<00:05:21.539><c> having</c><00:05:21.780><c> what's</c><00:05:22.080><c> called</c><00:05:22.380><c> a</c><00:05:22.620><c> self-join</c><00:05:23.220><c> this</c>
+
+00:05:24.050 --> 00:05:24.060 align:start position:0%
+is having what's called a self-join this
+ 
+
+00:05:24.060 --> 00:05:25.969 align:start position:0%
+is having what's called a self-join this
+means<00:05:24.300><c> that</c><00:05:24.419><c> a</c><00:05:24.600><c> category</c><00:05:24.960><c> has</c><00:05:25.440><c> a</c><00:05:25.620><c> foreign</c><00:05:25.860><c> key</c>
+
+00:05:25.969 --> 00:05:25.979 align:start position:0%
+means that a category has a foreign key
+ 
+
+00:05:25.979 --> 00:05:28.370 align:start position:0%
+means that a category has a foreign key
+to<00:05:26.280><c> another</c><00:05:26.400><c> category's</c><00:05:26.940><c> ID</c><00:05:27.180><c> record</c>
+
+00:05:28.370 --> 00:05:28.380 align:start position:0%
+to another category's ID record
+ 
+
+00:05:28.380 --> 00:05:30.350 align:start position:0%
+to another category's ID record
+this<00:05:28.860><c> allows</c><00:05:29.160><c> us</c><00:05:29.280><c> to</c><00:05:29.460><c> have</c><00:05:29.580><c> a</c><00:05:29.759><c> hierarchy</c><00:05:30.180><c> of</c>
+
+00:05:30.350 --> 00:05:30.360 align:start position:0%
+this allows us to have a hierarchy of
+ 
+
+00:05:30.360 --> 00:05:32.210 align:start position:0%
+this allows us to have a hierarchy of
+categories<00:05:30.780><c> and</c><00:05:31.380><c> we</c><00:05:31.560><c> don't</c><00:05:31.680><c> need</c><00:05:31.860><c> to</c><00:05:32.100><c> create</c>
+
+00:05:32.210 --> 00:05:32.220 align:start position:0%
+categories and we don't need to create
+ 
+
+00:05:32.220 --> 00:05:34.010 align:start position:0%
+categories and we don't need to create
+Separate<00:05:32.759><c> Tables</c><00:05:33.240><c> for</c><00:05:33.419><c> category</c><00:05:33.840><c> and</c>
+
+00:05:34.010 --> 00:05:34.020 align:start position:0%
+Separate Tables for category and
+ 
+
+00:05:34.020 --> 00:05:35.210 align:start position:0%
+Separate Tables for category and
+subcategory
+
+00:05:35.210 --> 00:05:35.220 align:start position:0%
+subcategory
+ 
+
+00:05:35.220 --> 00:05:37.249 align:start position:0%
+subcategory
+we<00:05:35.580><c> can</c><00:05:35.759><c> also</c><00:05:36.000><c> have</c><00:05:36.180><c> as</c><00:05:36.419><c> many</c><00:05:36.600><c> categories</c><00:05:37.080><c> as</c>
+
+00:05:37.249 --> 00:05:37.259 align:start position:0%
+we can also have as many categories as
+ 
+
+00:05:37.259 --> 00:05:39.830 align:start position:0%
+we can also have as many categories as
+we<00:05:37.440><c> need</c><00:05:37.620><c> we</c><00:05:38.460><c> aren't</c><00:05:38.580><c> limited</c><00:05:39.000><c> to</c><00:05:39.240><c> just</c><00:05:39.419><c> one</c><00:05:39.660><c> or</c>
+
+00:05:39.830 --> 00:05:39.840 align:start position:0%
+we need we aren't limited to just one or
+ 
+
+00:05:39.840 --> 00:05:41.029 align:start position:0%
+we need we aren't limited to just one or
+two
+
+00:05:41.029 --> 00:05:41.039 align:start position:0%
+two
+ 
+
+00:05:41.039 --> 00:05:42.469 align:start position:0%
+two
+we've<00:05:41.460><c> done</c><00:05:41.639><c> this</c><00:05:41.820><c> using</c><00:05:42.120><c> the</c><00:05:42.300><c> parent</c>
+
+00:05:42.469 --> 00:05:42.479 align:start position:0%
+we've done this using the parent
+ 
+
+00:05:42.479 --> 00:05:44.930 align:start position:0%
+we've done this using the parent
+category<00:05:43.080><c> ID</c><00:05:43.259><c> field</c><00:05:43.680><c> which</c><00:05:44.220><c> links</c><00:05:44.520><c> to</c><00:05:44.639><c> the</c><00:05:44.820><c> ID</c>
+
+00:05:44.930 --> 00:05:44.940 align:start position:0%
+category ID field which links to the ID
+ 
+
+00:05:44.940 --> 00:05:47.629 align:start position:0%
+category ID field which links to the ID
+field<00:05:45.300><c> in</c><00:05:45.780><c> the</c><00:05:45.900><c> product</c><00:05:46.020><c> category</c><00:05:46.560><c> table</c>
+
+00:05:47.629 --> 00:05:47.639 align:start position:0%
+field in the product category table
+ 
+
+00:05:47.639 --> 00:05:50.330 align:start position:0%
+field in the product category table
+let's<00:05:48.180><c> look</c><00:05:48.419><c> at</c><00:05:48.600><c> the</c><00:05:48.780><c> product</c><00:05:48.960><c> table</c><00:05:49.320><c> this</c><00:05:50.220><c> is</c>
+
+00:05:50.330 --> 00:05:50.340 align:start position:0%
+let's look at the product table this is
+ 
+
+00:05:50.340 --> 00:05:51.890 align:start position:0%
+let's look at the product table this is
+one<00:05:50.520><c> of</c><00:05:50.639><c> the</c><00:05:50.759><c> many</c><00:05:50.880><c> tables</c><00:05:51.360><c> that</c><00:05:51.539><c> we've</c><00:05:51.720><c> used</c>
+
+00:05:51.890 --> 00:05:51.900 align:start position:0%
+one of the many tables that we've used
+ 
+
+00:05:51.900 --> 00:05:53.930 align:start position:0%
+one of the many tables that we've used
+to<00:05:52.080><c> define</c><00:05:52.259><c> the</c><00:05:52.560><c> product</c><00:05:52.740><c> and</c><00:05:53.580><c> these</c><00:05:53.820><c> are</c>
+
+00:05:53.930 --> 00:05:53.940 align:start position:0%
+to define the product and these are
+ 
+
+00:05:53.940 --> 00:05:55.670 align:start position:0%
+to define the product and these are
+arguably<00:05:54.360><c> the</c><00:05:54.660><c> most</c><00:05:54.840><c> complex</c><00:05:55.139><c> of</c><00:05:55.380><c> the</c><00:05:55.560><c> whole</c>
+
+00:05:55.670 --> 00:05:55.680 align:start position:0%
+arguably the most complex of the whole
+ 
+
+00:05:55.680 --> 00:05:56.570 align:start position:0%
+arguably the most complex of the whole
+design
+
+00:05:56.570 --> 00:05:56.580 align:start position:0%
+design
+ 
+
+00:05:56.580 --> 00:05:59.330 align:start position:0%
+design
+let's<00:05:57.060><c> go</c><00:05:57.240><c> through</c><00:05:57.419><c> them</c><00:05:57.660><c> one</c><00:05:57.840><c> by</c><00:05:58.020><c> one</c>
+
+00:05:59.330 --> 00:05:59.340 align:start position:0%
+let's go through them one by one
+ 
+
+00:05:59.340 --> 00:06:01.610 align:start position:0%
+let's go through them one by one
+this<00:05:59.880><c> product</c><00:06:00.060><c> table</c><00:06:00.419><c> defines</c><00:06:01.020><c> what</c><00:06:01.259><c> is</c><00:06:01.380><c> shown</c>
+
+00:06:01.610 --> 00:06:01.620 align:start position:0%
+this product table defines what is shown
+ 
+
+00:06:01.620 --> 00:06:03.590 align:start position:0%
+this product table defines what is shown
+on<00:06:01.860><c> a</c><00:06:01.979><c> list</c><00:06:02.100><c> of</c><00:06:02.220><c> products</c><00:06:02.639><c> page</c>
+
+00:06:03.590 --> 00:06:03.600 align:start position:0%
+on a list of products page
+ 
+
+00:06:03.600 --> 00:06:05.749 align:start position:0%
+on a list of products page
+when<00:06:03.960><c> you</c><00:06:04.080><c> browse</c><00:06:04.380><c> an</c><00:06:04.500><c> online</c><00:06:04.680><c> store</c><00:06:05.100><c> you'll</c>
+
+00:06:05.749 --> 00:06:05.759 align:start position:0%
+when you browse an online store you'll
+ 
+
+00:06:05.759 --> 00:06:07.670 align:start position:0%
+when you browse an online store you'll
+see<00:06:05.880><c> a</c><00:06:06.000><c> range</c><00:06:06.180><c> of</c><00:06:06.300><c> products</c><00:06:06.720><c> probably</c><00:06:07.199><c> with</c><00:06:07.560><c> an</c>
+
+00:06:07.670 --> 00:06:07.680 align:start position:0%
+see a range of products probably with an
+ 
+
+00:06:07.680 --> 00:06:08.570 align:start position:0%
+see a range of products probably with an
+image
+
+00:06:08.570 --> 00:06:08.580 align:start position:0%
+image
+ 
+
+00:06:08.580 --> 00:06:11.090 align:start position:0%
+image
+a<00:06:09.060><c> product</c><00:06:09.180><c> such</c><00:06:09.840><c> as</c><00:06:09.960><c> Slim</c><00:06:10.380><c> t-shirt</c><00:06:10.740><c> would</c>
+
+00:06:11.090 --> 00:06:11.100 align:start position:0%
+a product such as Slim t-shirt would
+ 
+
+00:06:11.100 --> 00:06:13.430 align:start position:0%
+a product such as Slim t-shirt would
+only<00:06:11.340><c> be</c><00:06:11.460><c> shown</c><00:06:11.699><c> once</c><00:06:12.120><c> even</c><00:06:12.780><c> though</c><00:06:13.020><c> it</c><00:06:13.319><c> may</c>
+
+00:06:13.430 --> 00:06:13.440 align:start position:0%
+only be shown once even though it may
+ 
+
+00:06:13.440 --> 00:06:16.430 align:start position:0%
+only be shown once even though it may
+come<00:06:13.620><c> in</c><00:06:13.860><c> a</c><00:06:14.039><c> range</c><00:06:14.220><c> of</c><00:06:14.340><c> colors</c><00:06:14.699><c> and</c><00:06:14.880><c> sizes</c>
+
+00:06:16.430 --> 00:06:16.440 align:start position:0%
+come in a range of colors and sizes
+ 
+
+00:06:16.440 --> 00:06:18.890 align:start position:0%
+come in a range of colors and sizes
+in<00:06:16.919><c> this</c><00:06:17.039><c> table</c><00:06:17.220><c> we</c><00:06:17.580><c> have</c><00:06:17.699><c> an</c><00:06:17.880><c> ID</c><00:06:18.000><c> and</c><00:06:18.600><c> a</c><00:06:18.780><c> link</c>
+
+00:06:18.890 --> 00:06:18.900 align:start position:0%
+in this table we have an ID and a link
+ 
+
+00:06:18.900 --> 00:06:20.570 align:start position:0%
+in this table we have an ID and a link
+to<00:06:19.139><c> the</c><00:06:19.259><c> product</c><00:06:19.440><c> category</c>
+
+00:06:20.570 --> 00:06:20.580 align:start position:0%
+to the product category
+ 
+
+00:06:20.580 --> 00:06:22.610 align:start position:0%
+to the product category
+we<00:06:20.880><c> have</c><00:06:21.000><c> a</c><00:06:21.180><c> name</c><00:06:21.360><c> and</c><00:06:21.900><c> a</c><00:06:22.020><c> description</c><00:06:22.259><c> of</c><00:06:22.500><c> the</c>
+
+00:06:22.610 --> 00:06:22.620 align:start position:0%
+we have a name and a description of the
+ 
+
+00:06:22.620 --> 00:06:25.189 align:start position:0%
+we have a name and a description of the
+product<00:06:22.819><c> we</c><00:06:23.819><c> also</c><00:06:24.120><c> have</c><00:06:24.360><c> a</c><00:06:24.600><c> product</c><00:06:24.720><c> image</c>
+
+00:06:25.189 --> 00:06:25.199 align:start position:0%
+product we also have a product image
+ 
+
+00:06:25.199 --> 00:06:27.170 align:start position:0%
+product we also have a product image
+field<00:06:25.380><c> which</c><00:06:26.039><c> would</c><00:06:26.220><c> be</c><00:06:26.400><c> where</c><00:06:26.699><c> we</c><00:06:26.819><c> store</c><00:06:27.000><c> a</c>
+
+00:06:27.170 --> 00:06:27.180 align:start position:0%
+field which would be where we store a
+ 
+
+00:06:27.180 --> 00:06:28.909 align:start position:0%
+field which would be where we store a
+link<00:06:27.300><c> to</c><00:06:27.479><c> an</c><00:06:27.660><c> image</c><00:06:27.840><c> to</c><00:06:28.080><c> be</c><00:06:28.199><c> shown</c><00:06:28.380><c> on</c><00:06:28.620><c> the</c><00:06:28.740><c> list</c>
+
+00:06:28.909 --> 00:06:28.919 align:start position:0%
+link to an image to be shown on the list
+ 
+
+00:06:28.919 --> 00:06:30.469 align:start position:0%
+link to an image to be shown on the list
+page
+
+00:06:30.469 --> 00:06:30.479 align:start position:0%
+page
+ 
+
+00:06:30.479 --> 00:06:32.629 align:start position:0%
+page
+here's<00:06:31.199><c> an</c><00:06:31.319><c> example</c><00:06:31.560><c> of</c><00:06:31.860><c> what</c><00:06:32.100><c> could</c><00:06:32.280><c> be</c><00:06:32.400><c> shown</c>
+
+00:06:32.629 --> 00:06:32.639 align:start position:0%
+here's an example of what could be shown
+ 
+
+00:06:32.639 --> 00:06:34.850 align:start position:0%
+here's an example of what could be shown
+in<00:06:32.940><c> the</c><00:06:33.060><c> product</c><00:06:33.240><c> table</c><00:06:33.600><c> we've</c><00:06:34.500><c> got</c><00:06:34.620><c> a</c><00:06:34.740><c> couple</c>
+
+00:06:34.850 --> 00:06:34.860 align:start position:0%
+in the product table we've got a couple
+ 
+
+00:06:34.860 --> 00:06:37.010 align:start position:0%
+in the product table we've got a couple
+of<00:06:34.979><c> products</c><00:06:35.400><c> with</c><00:06:35.699><c> names</c><00:06:35.940><c> descriptions</c><00:06:36.720><c> and</c>
+
+00:06:37.010 --> 00:06:37.020 align:start position:0%
+of products with names descriptions and
+ 
+
+00:06:37.020 --> 00:06:38.270 align:start position:0%
+of products with names descriptions and
+links<00:06:37.319><c> to</c><00:06:37.440><c> images</c>
+
+00:06:38.270 --> 00:06:38.280 align:start position:0%
+links to images
+ 
+
+00:06:38.280 --> 00:06:40.430 align:start position:0%
+links to images
+the<00:06:38.759><c> table</c><00:06:38.880><c> to</c><00:06:39.120><c> the</c><00:06:39.240><c> left</c><00:06:39.360><c> is</c><00:06:39.600><c> product</c><00:06:39.840><c> item</c>
+
+00:06:40.430 --> 00:06:40.440 align:start position:0%
+the table to the left is product item
+ 
+
+00:06:40.440 --> 00:06:42.230 align:start position:0%
+the table to the left is product item
+but<00:06:40.979><c> we'll</c><00:06:41.160><c> come</c><00:06:41.280><c> back</c><00:06:41.400><c> to</c><00:06:41.520><c> that</c><00:06:41.699><c> as</c><00:06:41.940><c> we</c><00:06:42.120><c> need</c>
+
+00:06:42.230 --> 00:06:42.240 align:start position:0%
+but we'll come back to that as we need
+ 
+
+00:06:42.240 --> 00:06:45.529 align:start position:0%
+but we'll come back to that as we need
+to<00:06:42.419><c> look</c><00:06:42.539><c> at</c><00:06:42.720><c> a</c><00:06:42.900><c> few</c><00:06:43.020><c> other</c><00:06:43.199><c> tables</c><00:06:43.680><c> first</c>
+
+00:06:45.529 --> 00:06:45.539 align:start position:0%
+to look at a few other tables first
+ 
+
+00:06:45.539 --> 00:06:47.390 align:start position:0%
+to look at a few other tables first
+the<00:06:45.960><c> next</c><00:06:46.080><c> table</c><00:06:46.259><c> we'll</c><00:06:46.620><c> look</c><00:06:46.800><c> at</c><00:06:46.919><c> is</c><00:06:47.160><c> called</c>
+
+00:06:47.390 --> 00:06:47.400 align:start position:0%
+the next table we'll look at is called
+ 
+
+00:06:47.400 --> 00:06:48.770 align:start position:0%
+the next table we'll look at is called
+variation
+
+00:06:48.770 --> 00:06:48.780 align:start position:0%
+variation
+ 
+
+00:06:48.780 --> 00:06:51.170 align:start position:0%
+variation
+this<00:06:49.199><c> table</c><00:06:49.380><c> allows</c><00:06:49.919><c> us</c><00:06:50.099><c> to</c><00:06:50.400><c> specify</c><00:06:50.759><c> what</c>
+
+00:06:51.170 --> 00:06:51.180 align:start position:0%
+this table allows us to specify what
+ 
+
+00:06:51.180 --> 00:06:53.390 align:start position:0%
+this table allows us to specify what
+options<00:06:51.479><c> can</c><00:06:51.840><c> be</c><00:06:51.960><c> changed</c><00:06:52.319><c> on</c><00:06:52.440><c> a</c><00:06:52.620><c> product</c>
+
+00:06:53.390 --> 00:06:53.400 align:start position:0%
+options can be changed on a product
+ 
+
+00:06:53.400 --> 00:06:55.670 align:start position:0%
+options can be changed on a product
+for<00:06:53.880><c> example</c><00:06:54.180><c> a</c><00:06:54.479><c> product</c><00:06:54.660><c> of</c><00:06:54.960><c> slim</c><00:06:55.319><c> T-shirt</c>
+
+00:06:55.670 --> 00:06:55.680 align:start position:0%
+for example a product of slim T-shirt
+ 
+
+00:06:55.680 --> 00:06:58.790 align:start position:0%
+for example a product of slim T-shirt
+has<00:06:56.220><c> different</c><00:06:56.460><c> options</c><00:06:56.819><c> for</c><00:06:57.180><c> size</c><00:06:57.419><c> and</c><00:06:57.780><c> color</c>
+
+00:06:58.790 --> 00:06:58.800 align:start position:0%
+has different options for size and color
+ 
+
+00:06:58.800 --> 00:07:01.430 align:start position:0%
+has different options for size and color
+in<00:06:59.340><c> this</c><00:06:59.520><c> variation</c><00:06:59.940><c> table</c><00:07:00.300><c> we</c><00:07:00.900><c> have</c><00:07:01.020><c> an</c><00:07:01.199><c> entry</c>
+
+00:07:01.430 --> 00:07:01.440 align:start position:0%
+in this variation table we have an entry
+ 
+
+00:07:01.440 --> 00:07:03.950 align:start position:0%
+in this variation table we have an entry
+for<00:07:01.680><c> size</c><00:07:01.979><c> and</c><00:07:02.340><c> an</c><00:07:02.520><c> entry</c><00:07:02.759><c> for</c><00:07:02.940><c> color</c>
+
+00:07:03.950 --> 00:07:03.960 align:start position:0%
+for size and an entry for color
+ 
+
+00:07:03.960 --> 00:07:06.589 align:start position:0%
+for size and an entry for color
+this<00:07:04.620><c> table</c><00:07:04.800><c> includes</c><00:07:05.280><c> an</c><00:07:05.460><c> ID</c><00:07:05.639><c> and</c><00:07:06.180><c> a</c><00:07:06.300><c> link</c><00:07:06.479><c> to</c>
+
+00:07:06.589 --> 00:07:06.599 align:start position:0%
+this table includes an ID and a link to
+ 
+
+00:07:06.599 --> 00:07:08.749 align:start position:0%
+this table includes an ID and a link to
+the<00:07:06.780><c> category</c><00:07:07.139><c> table</c><00:07:07.380><c> and</c><00:07:08.099><c> the</c><00:07:08.280><c> name</c><00:07:08.400><c> of</c><00:07:08.639><c> the</c>
+
+00:07:08.749 --> 00:07:08.759 align:start position:0%
+the category table and the name of the
+ 
+
+00:07:08.759 --> 00:07:11.450 align:start position:0%
+the category table and the name of the
+variation<00:07:09.180><c> such</c><00:07:09.660><c> as</c><00:07:09.780><c> size</c><00:07:10.020><c> or</c><00:07:10.319><c> color</c>
+
+00:07:11.450 --> 00:07:11.460 align:start position:0%
+variation such as size or color
+ 
+
+00:07:11.460 --> 00:07:13.430 align:start position:0%
+variation such as size or color
+we've<00:07:11.880><c> linked</c><00:07:12.120><c> it</c><00:07:12.240><c> to</c><00:07:12.360><c> the</c><00:07:12.539><c> category</c><00:07:12.840><c> table</c><00:07:13.080><c> as</c>
+
+00:07:13.430 --> 00:07:13.440 align:start position:0%
+we've linked it to the category table as
+ 
+
+00:07:13.440 --> 00:07:14.930 align:start position:0%
+we've linked it to the category table as
+we<00:07:13.680><c> have</c><00:07:13.800><c> assumed</c><00:07:14.220><c> that</c><00:07:14.400><c> the</c><00:07:14.639><c> variation</c>
+
+00:07:14.930 --> 00:07:14.940 align:start position:0%
+we have assumed that the variation
+ 
+
+00:07:14.940 --> 00:07:16.909 align:start position:0%
+we have assumed that the variation
+applies<00:07:15.419><c> to</c><00:07:15.599><c> the</c><00:07:15.780><c> category</c>
+
+00:07:16.909 --> 00:07:16.919 align:start position:0%
+applies to the category
+ 
+
+00:07:16.919 --> 00:07:19.070 align:start position:0%
+applies to the category
+for<00:07:17.460><c> example</c><00:07:17.759><c> the</c><00:07:18.300><c> category</c><00:07:18.660><c> of</c><00:07:18.840><c> clothing</c>
+
+00:07:19.070 --> 00:07:19.080 align:start position:0%
+for example the category of clothing
+ 
+
+00:07:19.080 --> 00:07:22.249 align:start position:0%
+for example the category of clothing
+could<00:07:19.500><c> have</c><00:07:19.680><c> size</c><00:07:20.039><c> color</c><00:07:20.699><c> and</c><00:07:21.000><c> material</c>
+
+00:07:22.249 --> 00:07:22.259 align:start position:0%
+could have size color and material
+ 
+
+00:07:22.259 --> 00:07:24.170 align:start position:0%
+could have size color and material
+the<00:07:22.620><c> category</c><00:07:22.979><c> of</c><00:07:23.160><c> mobile</c><00:07:23.340><c> phone</c><00:07:23.639><c> could</c><00:07:24.000><c> have</c>
+
+00:07:24.170 --> 00:07:24.180 align:start position:0%
+the category of mobile phone could have
+ 
+
+00:07:24.180 --> 00:07:26.809 align:start position:0%
+the category of mobile phone could have
+variations<00:07:24.660><c> of</c><00:07:24.900><c> color</c><00:07:25.139><c> storage</c><00:07:25.860><c> capacity</c><00:07:26.460><c> and</c>
+
+00:07:26.809 --> 00:07:26.819 align:start position:0%
+variations of color storage capacity and
+ 
+
+00:07:26.819 --> 00:07:28.070 align:start position:0%
+variations of color storage capacity and
+screen<00:07:27.060><c> size</c>
+
+00:07:28.070 --> 00:07:28.080 align:start position:0%
+screen size
+ 
+
+00:07:28.080 --> 00:07:30.230 align:start position:0%
+screen size
+it<00:07:28.500><c> would</c><00:07:28.620><c> also</c><00:07:28.860><c> allow</c><00:07:29.160><c> us</c><00:07:29.220><c> to</c><00:07:29.460><c> Define</c><00:07:29.639><c> further</c>
+
+00:07:30.230 --> 00:07:30.240 align:start position:0%
+it would also allow us to Define further
+ 
+
+00:07:30.240 --> 00:07:32.390 align:start position:0%
+it would also allow us to Define further
+details<00:07:30.660><c> of</c><00:07:30.840><c> sizes</c><00:07:31.259><c> as</c><00:07:31.919><c> there</c><00:07:32.099><c> may</c><00:07:32.280><c> be</c>
+
+00:07:32.390 --> 00:07:32.400 align:start position:0%
+details of sizes as there may be
+ 
+
+00:07:32.400 --> 00:07:34.249 align:start position:0%
+details of sizes as there may be
+separate<00:07:32.759><c> sizes</c><00:07:33.180><c> for</c><00:07:33.479><c> men's</c><00:07:33.660><c> t-shirts</c>
+
+00:07:34.249 --> 00:07:34.259 align:start position:0%
+separate sizes for men's t-shirts
+ 
+
+00:07:34.259 --> 00:07:37.189 align:start position:0%
+separate sizes for men's t-shirts
+women's<00:07:34.740><c> pants</c><00:07:35.220><c> or</c><00:07:35.460><c> shoes</c><00:07:35.780><c> here's</c><00:07:36.780><c> an</c><00:07:36.900><c> example</c>
+
+00:07:37.189 --> 00:07:37.199 align:start position:0%
+women's pants or shoes here's an example
+ 
+
+00:07:37.199 --> 00:07:39.050 align:start position:0%
+women's pants or shoes here's an example
+of<00:07:37.440><c> some</c><00:07:37.680><c> data</c><00:07:38.099><c> that</c><00:07:38.340><c> would</c><00:07:38.460><c> go</c><00:07:38.639><c> into</c><00:07:38.759><c> this</c>
+
+00:07:39.050 --> 00:07:39.060 align:start position:0%
+of some data that would go into this
+ 
+
+00:07:39.060 --> 00:07:39.950 align:start position:0%
+of some data that would go into this
+table
+
+00:07:39.950 --> 00:07:39.960 align:start position:0%
+table
+ 
+
+00:07:39.960 --> 00:07:42.290 align:start position:0%
+table
+we<00:07:40.500><c> have</c><00:07:40.620><c> some</c><00:07:40.860><c> variations</c><00:07:41.280><c> for</c><00:07:41.699><c> one</c><00:07:41.880><c> category</c>
+
+00:07:42.290 --> 00:07:42.300 align:start position:0%
+we have some variations for one category
+ 
+
+00:07:42.300 --> 00:07:44.029 align:start position:0%
+we have some variations for one category
+which<00:07:42.599><c> could</c><00:07:42.780><c> be</c><00:07:42.900><c> clothing</c><00:07:43.139><c> and</c><00:07:43.860><c> another</c>
+
+00:07:44.029 --> 00:07:44.039 align:start position:0%
+which could be clothing and another
+ 
+
+00:07:44.039 --> 00:07:45.950 align:start position:0%
+which could be clothing and another
+category<00:07:44.520><c> which</c><00:07:44.879><c> could</c><00:07:45.000><c> be</c><00:07:45.180><c> mobile</c><00:07:45.419><c> phones</c>
+
+00:07:45.950 --> 00:07:45.960 align:start position:0%
+category which could be mobile phones
+ 
+
+00:07:45.960 --> 00:07:48.290 align:start position:0%
+category which could be mobile phones
+the<00:07:46.860><c> next</c><00:07:46.979><c> table</c><00:07:47.220><c> is</c><00:07:47.580><c> the</c><00:07:47.759><c> one</c><00:07:47.819><c> to</c><00:07:48.000><c> the</c><00:07:48.180><c> left</c>
+
+00:07:48.290 --> 00:07:48.300 align:start position:0%
+the next table is the one to the left
+ 
+
+00:07:48.300 --> 00:07:50.930 align:start position:0%
+the next table is the one to the left
+which<00:07:48.660><c> we've</c><00:07:48.840><c> called</c><00:07:49.080><c> variation</c><00:07:49.620><c> option</c>
+
+00:07:50.930 --> 00:07:50.940 align:start position:0%
+which we've called variation option
+ 
+
+00:07:50.940 --> 00:07:52.430 align:start position:0%
+which we've called variation option
+this<00:07:51.419><c> will</c><00:07:51.599><c> list</c><00:07:51.780><c> all</c><00:07:52.080><c> of</c><00:07:52.139><c> the</c><00:07:52.319><c> different</c>
+
+00:07:52.430 --> 00:07:52.440 align:start position:0%
+this will list all of the different
+ 
+
+00:07:52.440 --> 00:07:54.950 align:start position:0%
+this will list all of the different
+possible<00:07:52.860><c> values</c><00:07:53.340><c> for</c><00:07:53.580><c> each</c><00:07:53.699><c> variation</c>
+
+00:07:54.950 --> 00:07:54.960 align:start position:0%
+possible values for each variation
+ 
+
+00:07:54.960 --> 00:07:57.230 align:start position:0%
+possible values for each variation
+for<00:07:55.440><c> example</c><00:07:55.740><c> a</c><00:07:56.160><c> size</c><00:07:56.340><c> variation</c><00:07:56.879><c> for</c>
+
+00:07:57.230 --> 00:07:57.240 align:start position:0%
+for example a size variation for
+ 
+
+00:07:57.240 --> 00:07:59.210 align:start position:0%
+for example a size variation for
+clothing<00:07:57.539><c> could</c><00:07:58.139><c> contain</c><00:07:58.440><c> values</c><00:07:58.860><c> such</c><00:07:59.099><c> as</c>
+
+00:07:59.210 --> 00:07:59.220 align:start position:0%
+clothing could contain values such as
+ 
+
+00:07:59.220 --> 00:08:03.529 align:start position:0%
+clothing could contain values such as
+excess<00:07:59.699><c> s</c><00:08:00.660><c> m</c><00:08:01.500><c> l</c><00:08:02.039><c> and</c><00:08:02.280><c> XL</c>
+
+00:08:03.529 --> 00:08:03.539 align:start position:0%
+excess s m l and XL
+ 
+
+00:08:03.539 --> 00:08:05.869 align:start position:0%
+excess s m l and XL
+a<00:08:04.020><c> color</c><00:08:04.199><c> variation</c><00:08:04.740><c> option</c><00:08:05.280><c> for</c><00:08:05.580><c> phones</c>
+
+00:08:05.869 --> 00:08:05.879 align:start position:0%
+a color variation option for phones
+ 
+
+00:08:05.879 --> 00:08:09.409 align:start position:0%
+a color variation option for phones
+could<00:08:06.120><c> be</c><00:08:06.240><c> black</c><00:08:06.539><c> white</c><00:08:07.259><c> gray</c><00:08:07.800><c> and</c><00:08:08.039><c> blue</c>
+
+00:08:09.409 --> 00:08:09.419 align:start position:0%
+could be black white gray and blue
+ 
+
+00:08:09.419 --> 00:08:11.150 align:start position:0%
+could be black white gray and blue
+there's<00:08:09.840><c> a</c><00:08:10.020><c> link</c><00:08:10.139><c> to</c><00:08:10.319><c> the</c><00:08:10.440><c> variation</c><00:08:10.800><c> table</c>
+
+00:08:11.150 --> 00:08:11.160 align:start position:0%
+there's a link to the variation table
+ 
+
+00:08:11.160 --> 00:08:13.610 align:start position:0%
+there's a link to the variation table
+for<00:08:11.400><c> each</c><00:08:11.639><c> option</c><00:08:11.940><c> and</c><00:08:12.419><c> an</c><00:08:12.539><c> ID</c><00:08:12.720><c> column</c><00:08:13.259><c> and</c><00:08:13.500><c> the</c>
+
+00:08:13.610 --> 00:08:13.620 align:start position:0%
+for each option and an ID column and the
+ 
+
+00:08:13.620 --> 00:08:15.409 align:start position:0%
+for each option and an ID column and the
+value<00:08:13.800><c> to</c><00:08:14.039><c> use</c>
+
+00:08:15.409 --> 00:08:15.419 align:start position:0%
+value to use
+ 
+
+00:08:15.419 --> 00:08:17.450 align:start position:0%
+value to use
+here's<00:08:16.199><c> an</c><00:08:16.259><c> example</c><00:08:16.560><c> of</c><00:08:16.800><c> what</c><00:08:16.979><c> could</c><00:08:17.160><c> go</c><00:08:17.280><c> into</c>
+
+00:08:17.450 --> 00:08:17.460 align:start position:0%
+here's an example of what could go into
+ 
+
+00:08:17.460 --> 00:08:19.790 align:start position:0%
+here's an example of what could go into
+this<00:08:17.639><c> table</c><00:08:18.300><c> we</c><00:08:18.840><c> have</c><00:08:18.960><c> some</c><00:08:19.139><c> records</c><00:08:19.620><c> for</c>
+
+00:08:19.790 --> 00:08:19.800 align:start position:0%
+this table we have some records for
+ 
+
+00:08:19.800 --> 00:08:21.050 align:start position:0%
+this table we have some records for
+different<00:08:19.979><c> variations</c><00:08:20.460><c> and</c><00:08:20.879><c> different</c>
+
+00:08:21.050 --> 00:08:21.060 align:start position:0%
+different variations and different
+ 
+
+00:08:21.060 --> 00:08:23.150 align:start position:0%
+different variations and different
+values
+
+00:08:23.150 --> 00:08:23.160 align:start position:0%
+values
+ 
+
+00:08:23.160 --> 00:08:25.369 align:start position:0%
+values
+this<00:08:23.819><c> design</c><00:08:23.940><c> of</c><00:08:24.240><c> options</c><00:08:24.539><c> for</c><00:08:24.840><c> products</c><00:08:25.259><c> is</c>
+
+00:08:25.369 --> 00:08:25.379 align:start position:0%
+this design of options for products is
+ 
+
+00:08:25.379 --> 00:08:26.990 align:start position:0%
+this design of options for products is
+similar<00:08:25.740><c> to</c><00:08:25.860><c> an</c><00:08:26.039><c> entity</c><00:08:26.280><c> attribute</c><00:08:26.819><c> value</c>
+
+00:08:26.990 --> 00:08:27.000 align:start position:0%
+similar to an entity attribute value
+ 
+
+00:08:27.000 --> 00:08:28.969 align:start position:0%
+similar to an entity attribute value
+design<00:08:27.360><c> which</c><00:08:28.199><c> is</c><00:08:28.259><c> where</c><00:08:28.500><c> we</c><00:08:28.620><c> have</c><00:08:28.740><c> the</c>
+
+00:08:28.969 --> 00:08:28.979 align:start position:0%
+design which is where we have the
+ 
+
+00:08:28.979 --> 00:08:30.770 align:start position:0%
+design which is where we have the
+attribute<00:08:29.280><c> types</c><00:08:29.639><c> listed</c><00:08:30.000><c> in</c><00:08:30.240><c> the</c><00:08:30.360><c> variations</c>
+
+00:08:30.770 --> 00:08:30.780 align:start position:0%
+attribute types listed in the variations
+ 
+
+00:08:30.780 --> 00:08:33.529 align:start position:0%
+attribute types listed in the variations
+and<00:08:31.319><c> the</c><00:08:31.440><c> values</c><00:08:31.740><c> in</c><00:08:31.919><c> this</c><00:08:32.039><c> option</c><00:08:32.399><c> table</c>
+
+00:08:33.529 --> 00:08:33.539 align:start position:0%
+and the values in this option table
+ 
+
+00:08:33.539 --> 00:08:35.149 align:start position:0%
+and the values in this option table
+this<00:08:33.899><c> has</c><00:08:34.080><c> the</c><00:08:34.260><c> advantage</c><00:08:34.620><c> of</c><00:08:34.740><c> being</c><00:08:34.919><c> quite</c>
+
+00:08:35.149 --> 00:08:35.159 align:start position:0%
+this has the advantage of being quite
+ 
+
+00:08:35.159 --> 00:08:37.490 align:start position:0%
+this has the advantage of being quite
+flexible<00:08:35.640><c> but</c><00:08:36.300><c> we</c><00:08:36.479><c> lose</c><00:08:36.659><c> the</c><00:08:36.899><c> data</c><00:08:37.200><c> quality</c>
+
+00:08:37.490 --> 00:08:37.500 align:start position:0%
+flexible but we lose the data quality
+ 
+
+00:08:37.500 --> 00:08:39.110 align:start position:0%
+flexible but we lose the data quality
+checks<00:08:37.919><c> you</c><00:08:38.099><c> might</c><00:08:38.219><c> get</c><00:08:38.399><c> with</c><00:08:38.760><c> dedicated</c>
+
+00:08:39.110 --> 00:08:39.120 align:start position:0%
+checks you might get with dedicated
+ 
+
+00:08:39.120 --> 00:08:41.930 align:start position:0%
+checks you might get with dedicated
+tables<00:08:39.719><c> and</c><00:08:39.899><c> data</c><00:08:40.200><c> types</c><00:08:41.039><c> for</c><00:08:41.640><c> example</c>
+
+00:08:41.930 --> 00:08:41.940 align:start position:0%
+tables and data types for example
+ 
+
+00:08:41.940 --> 00:08:44.389 align:start position:0%
+tables and data types for example
+instead<00:08:42.779><c> of</c><00:08:42.839><c> storing</c><00:08:43.380><c> shoe</c><00:08:43.740><c> sizes</c><00:08:44.039><c> in</c><00:08:44.279><c> this</c>
+
+00:08:44.389 --> 00:08:44.399 align:start position:0%
+instead of storing shoe sizes in this
+ 
+
+00:08:44.399 --> 00:08:46.490 align:start position:0%
+instead of storing shoe sizes in this
+table<00:08:44.580><c> as</c><00:08:44.940><c> values</c><00:08:45.360><c> which</c><00:08:45.899><c> would</c><00:08:46.080><c> be</c><00:08:46.200><c> a</c><00:08:46.380><c> text</c>
+
+00:08:46.490 --> 00:08:46.500 align:start position:0%
+table as values which would be a text
+ 
+
+00:08:46.500 --> 00:08:49.070 align:start position:0%
+table as values which would be a text
+column<00:08:46.980><c> we</c><00:08:47.640><c> may</c><00:08:47.880><c> have</c><00:08:48.000><c> had</c><00:08:48.180><c> a</c><00:08:48.360><c> shoe</c><00:08:48.660><c> size</c><00:08:48.779><c> table</c>
+
+00:08:49.070 --> 00:08:49.080 align:start position:0%
+column we may have had a shoe size table
+ 
+
+00:08:49.080 --> 00:08:51.410 align:start position:0%
+column we may have had a shoe size table
+which<00:08:49.560><c> is</c><00:08:49.680><c> stored</c><00:08:50.040><c> as</c><00:08:50.160><c> numbers</c>
+
+00:08:51.410 --> 00:08:51.420 align:start position:0%
+which is stored as numbers
+ 
+
+00:08:51.420 --> 00:08:53.210 align:start position:0%
+which is stored as numbers
+I<00:08:51.959><c> went</c><00:08:52.080><c> with</c><00:08:52.260><c> the</c><00:08:52.440><c> approach</c><00:08:52.680><c> of</c><00:08:52.920><c> Separate</c>
+
+00:08:53.210 --> 00:08:53.220 align:start position:0%
+I went with the approach of Separate
+ 
+
+00:08:53.220 --> 00:08:54.710 align:start position:0%
+I went with the approach of Separate
+Tables<00:08:53.640><c> for</c><00:08:53.820><c> each</c><00:08:54.000><c> attribute</c><00:08:54.420><c> in</c><00:08:54.600><c> another</c>
+
+00:08:54.710 --> 00:08:54.720 align:start position:0%
+Tables for each attribute in another
+ 
+
+00:08:54.720 --> 00:08:56.810 align:start position:0%
+Tables for each attribute in another
+video<00:08:55.080><c> I</c><00:08:55.380><c> created</c><00:08:55.680><c> on</c><00:08:55.920><c> product</c><00:08:56.100><c> attributes</c>
+
+00:08:56.810 --> 00:08:56.820 align:start position:0%
+video I created on product attributes
+ 
+
+00:08:56.820 --> 00:08:59.210 align:start position:0%
+video I created on product attributes
+which<00:08:57.300><c> you</c><00:08:57.480><c> can</c><00:08:57.600><c> see</c><00:08:57.779><c> here</c><00:08:58.560><c> this</c><00:08:58.980><c> is</c><00:08:59.040><c> a</c>
+
+00:08:59.210 --> 00:08:59.220 align:start position:0%
+which you can see here this is a
+ 
+
+00:08:59.220 --> 00:09:00.710 align:start position:0%
+which you can see here this is a
+different<00:08:59.339><c> approach</c><00:08:59.760><c> which</c><00:09:00.060><c> may</c><00:09:00.240><c> work</c><00:09:00.480><c> better</c>
+
+00:09:00.710 --> 00:09:00.720 align:start position:0%
+different approach which may work better
+ 
+
+00:09:00.720 --> 00:09:03.710 align:start position:0%
+different approach which may work better
+for<00:09:01.140><c> a</c><00:09:01.260><c> larger</c><00:09:01.500><c> number</c><00:09:01.680><c> of</c><00:09:01.860><c> products</c>
+
+00:09:03.710 --> 00:09:03.720 align:start position:0%
+for a larger number of products
+ 
+
+00:09:03.720 --> 00:09:06.050 align:start position:0%
+for a larger number of products
+the<00:09:04.320><c> next</c><00:09:04.440><c> table</c><00:09:04.680><c> is</c><00:09:04.980><c> the</c><00:09:05.100><c> one</c><00:09:05.220><c> above</c><00:09:05.580><c> called</c>
+
+00:09:06.050 --> 00:09:06.060 align:start position:0%
+the next table is the one above called
+ 
+
+00:09:06.060 --> 00:09:07.730 align:start position:0%
+the next table is the one above called
+Product<00:09:06.360><c> item</c>
+
+00:09:07.730 --> 00:09:07.740 align:start position:0%
+Product item
+ 
+
+00:09:07.740 --> 00:09:09.650 align:start position:0%
+Product item
+this<00:09:08.100><c> is</c><00:09:08.220><c> the</c><00:09:08.399><c> instance</c><00:09:08.700><c> of</c><00:09:08.940><c> the</c><00:09:09.060><c> product</c><00:09:09.240><c> with</c>
+
+00:09:09.650 --> 00:09:09.660 align:start position:0%
+this is the instance of the product with
+ 
+
+00:09:09.660 --> 00:09:11.389 align:start position:0%
+this is the instance of the product with
+all<00:09:09.839><c> the</c><00:09:09.959><c> different</c><00:09:10.140><c> options</c>
+
+00:09:11.389 --> 00:09:11.399 align:start position:0%
+all the different options
+ 
+
+00:09:11.399 --> 00:09:13.370 align:start position:0%
+all the different options
+for<00:09:11.820><c> example</c><00:09:12.120><c> if</c><00:09:12.420><c> the</c><00:09:12.600><c> product</c><00:09:12.720><c> record</c><00:09:13.019><c> is</c>
+
+00:09:13.370 --> 00:09:13.380 align:start position:0%
+for example if the product record is
+ 
+
+00:09:13.380 --> 00:09:15.650 align:start position:0%
+for example if the product record is
+Slim<00:09:13.680><c> t-shirt</c><00:09:14.040><c> then</c><00:09:14.760><c> this</c><00:09:15.060><c> product</c><00:09:15.240><c> item</c>
+
+00:09:15.650 --> 00:09:15.660 align:start position:0%
+Slim t-shirt then this product item
+ 
+
+00:09:15.660 --> 00:09:17.570 align:start position:0%
+Slim t-shirt then this product item
+would<00:09:15.899><c> be</c><00:09:16.019><c> slim</c><00:09:16.320><c> t-shirt</c><00:09:16.680><c> in</c><00:09:17.100><c> a</c><00:09:17.220><c> color</c><00:09:17.339><c> of</c>
+
+00:09:17.570 --> 00:09:17.580 align:start position:0%
+would be slim t-shirt in a color of
+ 
+
+00:09:17.580 --> 00:09:20.030 align:start position:0%
+would be slim t-shirt in a color of
+black<00:09:17.760><c> and</c><00:09:18.060><c> a</c><00:09:18.240><c> size</c><00:09:18.360><c> of</c><00:09:18.600><c> M</c>
+
+00:09:20.030 --> 00:09:20.040 align:start position:0%
+black and a size of M
+ 
+
+00:09:20.040 --> 00:09:22.250 align:start position:0%
+black and a size of M
+for<00:09:20.519><c> this</c><00:09:20.640><c> combination</c><00:09:21.060><c> of</c><00:09:21.300><c> attributes</c><00:09:21.779><c> we</c>
+
+00:09:22.250 --> 00:09:22.260 align:start position:0%
+for this combination of attributes we
+ 
+
+00:09:22.260 --> 00:09:24.889 align:start position:0%
+for this combination of attributes we
+have<00:09:22.380><c> an</c><00:09:22.560><c> SKU</c><00:09:23.160><c> or</c><00:09:23.519><c> stock</c><00:09:23.700><c> keeping</c><00:09:24.120><c> unit</c><00:09:24.240><c> which</c>
+
+00:09:24.889 --> 00:09:24.899 align:start position:0%
+have an SKU or stock keeping unit which
+ 
+
+00:09:24.899 --> 00:09:26.570 align:start position:0%
+have an SKU or stock keeping unit which
+is<00:09:25.080><c> a</c><00:09:25.260><c> standard</c><00:09:25.560><c> identifier</c><00:09:26.100><c> in</c><00:09:26.459><c> the</c>
+
+00:09:26.570 --> 00:09:26.580 align:start position:0%
+is a standard identifier in the
+ 
+
+00:09:26.580 --> 00:09:28.070 align:start position:0%
+is a standard identifier in the
+e-commerce<00:09:27.000><c> world</c>
+
+00:09:28.070 --> 00:09:28.080 align:start position:0%
+e-commerce world
+ 
+
+00:09:28.080 --> 00:09:30.110 align:start position:0%
+e-commerce world
+we<00:09:28.620><c> also</c><00:09:28.860><c> store</c><00:09:29.100><c> the</c><00:09:29.339><c> quantity</c><00:09:29.640><c> that</c><00:09:29.880><c> we</c><00:09:30.000><c> have</c>
+
+00:09:30.110 --> 00:09:30.120 align:start position:0%
+we also store the quantity that we have
+ 
+
+00:09:30.120 --> 00:09:31.850 align:start position:0%
+we also store the quantity that we have
+in<00:09:30.300><c> stock</c><00:09:30.480><c> which</c><00:09:31.260><c> will</c><00:09:31.380><c> let</c><00:09:31.560><c> us</c><00:09:31.680><c> meet</c>
+
+00:09:31.850 --> 00:09:31.860 align:start position:0%
+in stock which will let us meet
+ 
+
+00:09:31.860 --> 00:09:33.470 align:start position:0%
+in stock which will let us meet
+requirement<00:09:32.399><c> number</c><00:09:32.580><c> eight</c><00:09:32.880><c> which</c><00:09:33.240><c> is</c><00:09:33.300><c> about</c>
+
+00:09:33.470 --> 00:09:33.480 align:start position:0%
+requirement number eight which is about
+ 
+
+00:09:33.480 --> 00:09:35.150 align:start position:0%
+requirement number eight which is about
+keeping<00:09:33.959><c> track</c><00:09:34.140><c> of</c><00:09:34.380><c> the</c><00:09:34.500><c> number</c><00:09:34.620><c> of</c><00:09:34.800><c> products</c>
+
+00:09:35.150 --> 00:09:35.160 align:start position:0%
+keeping track of the number of products
+ 
+
+00:09:35.160 --> 00:09:37.310 align:start position:0%
+keeping track of the number of products
+in<00:09:35.339><c> stock</c><00:09:35.519><c> we</c><00:09:36.240><c> have</c><00:09:36.360><c> a</c><00:09:36.540><c> product</c><00:09:36.720><c> image</c><00:09:37.140><c> field</c>
+
+00:09:37.310 --> 00:09:37.320 align:start position:0%
+in stock we have a product image field
+ 
+
+00:09:37.320 --> 00:09:39.650 align:start position:0%
+in stock we have a product image field
+which<00:09:37.980><c> could</c><00:09:38.160><c> be</c><00:09:38.339><c> used</c><00:09:38.519><c> if</c><00:09:38.820><c> we</c><00:09:38.940><c> want</c><00:09:39.060><c> to</c><00:09:39.240><c> show</c><00:09:39.360><c> a</c>
+
+00:09:39.650 --> 00:09:39.660 align:start position:0%
+which could be used if we want to show a
+ 
+
+00:09:39.660 --> 00:09:41.269 align:start position:0%
+which could be used if we want to show a
+different<00:09:39.779><c> image</c><00:09:40.140><c> on</c><00:09:40.380><c> the</c><00:09:40.500><c> product</c><00:09:40.620><c> page</c><00:09:41.040><c> for</c>
+
+00:09:41.269 --> 00:09:41.279 align:start position:0%
+different image on the product page for
+ 
+
+00:09:41.279 --> 00:09:42.410 align:start position:0%
+different image on the product page for
+each<00:09:41.399><c> attribute</c>
+
+00:09:42.410 --> 00:09:42.420 align:start position:0%
+each attribute
+ 
+
+00:09:42.420 --> 00:09:44.750 align:start position:0%
+each attribute
+for<00:09:42.839><c> example</c><00:09:43.140><c> different</c><00:09:43.800><c> colors</c><00:09:44.220><c> of</c><00:09:44.399><c> phones</c>
+
+00:09:44.750 --> 00:09:44.760 align:start position:0%
+for example different colors of phones
+ 
+
+00:09:44.760 --> 00:09:46.370 align:start position:0%
+for example different colors of phones
+or<00:09:45.000><c> t-shirts</c>
+
+00:09:46.370 --> 00:09:46.380 align:start position:0%
+or t-shirts
+ 
+
+00:09:46.380 --> 00:09:48.769 align:start position:0%
+or t-shirts
+finally<00:09:46.920><c> we</c><00:09:47.220><c> have</c><00:09:47.339><c> the</c><00:09:47.519><c> price</c><00:09:47.760><c> field</c><00:09:48.060><c> which</c><00:09:48.660><c> is</c>
+
+00:09:48.769 --> 00:09:48.779 align:start position:0%
+finally we have the price field which is
+ 
+
+00:09:48.779 --> 00:09:50.389 align:start position:0%
+finally we have the price field which is
+the<00:09:49.019><c> price</c><00:09:49.200><c> for</c><00:09:49.440><c> the</c><00:09:49.560><c> product</c>
+
+00:09:50.389 --> 00:09:50.399 align:start position:0%
+the price for the product
+ 
+
+00:09:50.399 --> 00:09:52.310 align:start position:0%
+the price for the product
+the<00:09:50.820><c> price</c><00:09:51.000><c> may</c><00:09:51.300><c> vary</c><00:09:51.540><c> depending</c><00:09:51.959><c> on</c><00:09:52.140><c> the</c>
+
+00:09:52.310 --> 00:09:52.320 align:start position:0%
+the price may vary depending on the
+ 
+
+00:09:52.320 --> 00:09:53.329 align:start position:0%
+the price may vary depending on the
+options
+
+00:09:53.329 --> 00:09:53.339 align:start position:0%
+options
+ 
+
+00:09:53.339 --> 00:09:55.370 align:start position:0%
+options
+for<00:09:53.820><c> t-shirts</c><00:09:54.360><c> they</c><00:09:54.540><c> may</c><00:09:54.720><c> all</c><00:09:54.839><c> be</c><00:09:55.019><c> the</c><00:09:55.200><c> same</c>
+
+00:09:55.370 --> 00:09:55.380 align:start position:0%
+for t-shirts they may all be the same
+ 
+
+00:09:55.380 --> 00:09:57.769 align:start position:0%
+for t-shirts they may all be the same
+price<00:09:55.620><c> but</c><00:09:56.220><c> for</c><00:09:56.459><c> phones</c><00:09:56.820><c> the</c><00:09:57.120><c> price</c><00:09:57.300><c> may</c><00:09:57.600><c> vary</c>
+
+00:09:57.769 --> 00:09:57.779 align:start position:0%
+price but for phones the price may vary
+ 
+
+00:09:57.779 --> 00:09:59.509 align:start position:0%
+price but for phones the price may vary
+depending<00:09:58.200><c> on</c><00:09:58.380><c> the</c><00:09:58.500><c> options</c>
+
+00:09:59.509 --> 00:09:59.519 align:start position:0%
+depending on the options
+ 
+
+00:09:59.519 --> 00:10:01.610 align:start position:0%
+depending on the options
+so<00:10:00.060><c> this</c><00:10:00.240><c> product</c><00:10:00.420><c> item</c><00:10:00.899><c> record</c><00:10:01.079><c> is</c><00:10:01.500><c> the</c>
+
+00:10:01.610 --> 00:10:01.620 align:start position:0%
+so this product item record is the
+ 
+
+00:10:01.620 --> 00:10:03.110 align:start position:0%
+so this product item record is the
+combination<00:10:02.040><c> of</c><00:10:02.339><c> all</c><00:10:02.519><c> of</c><00:10:02.640><c> the</c><00:10:02.820><c> variation</c>
+
+00:10:03.110 --> 00:10:03.120 align:start position:0%
+combination of all of the variation
+ 
+
+00:10:03.120 --> 00:10:04.130 align:start position:0%
+combination of all of the variation
+options
+
+00:10:04.130 --> 00:10:04.140 align:start position:0%
+options
+ 
+
+00:10:04.140 --> 00:10:06.889 align:start position:0%
+options
+how<00:10:04.620><c> do</c><00:10:04.740><c> we</c><00:10:04.860><c> specify</c><00:10:05.220><c> which</c><00:10:05.459><c> options</c><00:10:05.760><c> apply</c>
+
+00:10:06.889 --> 00:10:06.899 align:start position:0%
+how do we specify which options apply
+ 
+
+00:10:06.899 --> 00:10:08.690 align:start position:0%
+how do we specify which options apply
+how<00:10:07.320><c> do</c><00:10:07.440><c> we</c><00:10:07.560><c> know</c><00:10:07.680><c> that</c><00:10:07.920><c> the</c><00:10:08.040><c> product</c><00:10:08.220><c> item</c>
+
+00:10:08.690 --> 00:10:08.700 align:start position:0%
+how do we know that the product item
+ 
+
+00:10:08.700 --> 00:10:10.790 align:start position:0%
+how do we know that the product item
+with<00:10:09.000><c> an</c><00:10:09.180><c> ID</c><00:10:09.360><c> of</c><00:10:09.660><c> 5</c><00:10:09.779><c> is</c><00:10:10.079><c> in</c><00:10:10.260><c> the</c><00:10:10.380><c> color</c><00:10:10.500><c> black</c>
+
+00:10:10.790 --> 00:10:10.800 align:start position:0%
+with an ID of 5 is in the color black
+ 
+
+00:10:10.800 --> 00:10:13.310 align:start position:0%
+with an ID of 5 is in the color black
+and<00:10:11.160><c> a</c><00:10:11.339><c> size</c><00:10:11.519><c> of</c><00:10:11.700><c> M</c>
+
+00:10:13.310 --> 00:10:13.320 align:start position:0%
+and a size of M
+ 
+
+00:10:13.320 --> 00:10:15.170 align:start position:0%
+and a size of M
+we<00:10:13.740><c> do</c><00:10:13.860><c> this</c><00:10:14.040><c> by</c><00:10:14.220><c> joining</c><00:10:14.519><c> to</c><00:10:14.700><c> the</c><00:10:14.820><c> variation</c>
+
+00:10:15.170 --> 00:10:15.180 align:start position:0%
+we do this by joining to the variation
+ 
+
+00:10:15.180 --> 00:10:18.110 align:start position:0%
+we do this by joining to the variation
+option<00:10:15.600><c> table</c><00:10:15.920><c> however</c><00:10:16.920><c> a</c><00:10:17.279><c> product</c><00:10:17.399><c> item</c><00:10:17.880><c> can</c>
+
+00:10:18.110 --> 00:10:18.120 align:start position:0%
+option table however a product item can
+ 
+
+00:10:18.120 --> 00:10:20.509 align:start position:0%
+option table however a product item can
+have<00:10:18.300><c> many</c><00:10:18.540><c> variation</c><00:10:19.079><c> options</c><00:10:19.500><c> such</c><00:10:20.160><c> as</c><00:10:20.279><c> a</c>
+
+00:10:20.509 --> 00:10:20.519 align:start position:0%
+have many variation options such as a
+ 
+
+00:10:20.519 --> 00:10:22.310 align:start position:0%
+have many variation options such as a
+t-shirt<00:10:20.760><c> having</c><00:10:21.180><c> a</c><00:10:21.420><c> color</c><00:10:21.540><c> of</c><00:10:21.779><c> black</c><00:10:21.899><c> and</c><00:10:22.200><c> a</c>
+
+00:10:22.310 --> 00:10:22.320 align:start position:0%
+t-shirt having a color of black and a
+ 
+
+00:10:22.320 --> 00:10:23.990 align:start position:0%
+t-shirt having a color of black and a
+size<00:10:22.500><c> of</c><00:10:22.680><c> M</c>
+
+00:10:23.990 --> 00:10:24.000 align:start position:0%
+size of M
+ 
+
+00:10:24.000 --> 00:10:26.030 align:start position:0%
+size of M
+A<00:10:24.180><c> variation</c><00:10:24.600><c> option</c><00:10:25.079><c> can</c><00:10:25.380><c> also</c><00:10:25.680><c> have</c><00:10:25.800><c> many</c>
+
+00:10:26.030 --> 00:10:26.040 align:start position:0%
+A variation option can also have many
+ 
+
+00:10:26.040 --> 00:10:28.610 align:start position:0%
+A variation option can also have many
+product<00:10:26.399><c> items</c><00:10:27.000><c> there</c><00:10:27.839><c> can</c><00:10:27.959><c> be</c><00:10:28.140><c> more</c><00:10:28.260><c> than</c><00:10:28.440><c> one</c>
+
+00:10:28.610 --> 00:10:28.620 align:start position:0%
+product items there can be more than one
+ 
+
+00:10:28.620 --> 00:10:30.829 align:start position:0%
+product items there can be more than one
+T-shirt<00:10:28.920><c> with</c><00:10:29.339><c> the</c><00:10:29.519><c> size</c><00:10:29.640><c> of</c><00:10:29.820><c> M</c>
+
+00:10:30.829 --> 00:10:30.839 align:start position:0%
+T-shirt with the size of M
+ 
+
+00:10:30.839 --> 00:10:32.930 align:start position:0%
+T-shirt with the size of M
+so<00:10:31.380><c> we</c><00:10:31.620><c> have</c><00:10:31.740><c> a</c><00:10:31.860><c> many-to-many</c><00:10:32.459><c> relationship</c>
+
+00:10:32.930 --> 00:10:32.940 align:start position:0%
+so we have a many-to-many relationship
+ 
+
+00:10:32.940 --> 00:10:35.509 align:start position:0%
+so we have a many-to-many relationship
+and<00:10:33.540><c> need</c><00:10:33.779><c> a</c><00:10:33.959><c> joining</c><00:10:34.260><c> table</c><00:10:34.440><c> in</c><00:10:34.680><c> the</c><00:10:34.800><c> middle</c>
+
+00:10:35.509 --> 00:10:35.519 align:start position:0%
+and need a joining table in the middle
+ 
+
+00:10:35.519 --> 00:10:37.670 align:start position:0%
+and need a joining table in the middle
+I've<00:10:36.000><c> got</c><00:10:36.180><c> another</c><00:10:36.420><c> video</c><00:10:36.720><c> here</c><00:10:37.079><c> which</c><00:10:37.380><c> goes</c>
+
+00:10:37.670 --> 00:10:37.680 align:start position:0%
+I've got another video here which goes
+ 
+
+00:10:37.680 --> 00:10:39.410 align:start position:0%
+I've got another video here which goes
+into<00:10:37.860><c> more</c><00:10:38.160><c> detail</c><00:10:38.459><c> on</c><00:10:38.760><c> many-to-many</c>
+
+00:10:39.410 --> 00:10:39.420 align:start position:0%
+into more detail on many-to-many
+ 
+
+00:10:39.420 --> 00:10:41.630 align:start position:0%
+into more detail on many-to-many
+relationships<00:10:40.079><c> so</c><00:10:40.680><c> check</c><00:10:40.860><c> that</c><00:10:40.980><c> out</c><00:10:41.220><c> if</c><00:10:41.519><c> you</c>
+
+00:10:41.630 --> 00:10:41.640 align:start position:0%
+relationships so check that out if you
+ 
+
+00:10:41.640 --> 00:10:43.790 align:start position:0%
+relationships so check that out if you
+want<00:10:41.760><c> to</c><00:10:41.880><c> know</c><00:10:42.000><c> more</c><00:10:42.180><c> this</c><00:10:42.959><c> joining</c><00:10:43.320><c> table</c><00:10:43.440><c> is</c>
+
+00:10:43.790 --> 00:10:43.800 align:start position:0%
+want to know more this joining table is
+ 
+
+00:10:43.800 --> 00:10:45.949 align:start position:0%
+want to know more this joining table is
+called<00:10:43.980><c> Product</c><00:10:44.279><c> configuration</c>
+
+00:10:45.949 --> 00:10:45.959 align:start position:0%
+called Product configuration
+ 
+
+00:10:45.959 --> 00:10:47.690 align:start position:0%
+called Product configuration
+stores<00:10:46.320><c> the</c><00:10:46.620><c> combinations</c><00:10:47.040><c> of</c><00:10:47.399><c> the</c><00:10:47.579><c> product</c>
+
+00:10:47.690 --> 00:10:47.700 align:start position:0%
+stores the combinations of the product
+ 
+
+00:10:47.700 --> 00:10:49.970 align:start position:0%
+stores the combinations of the product
+item<00:10:48.180><c> and</c><00:10:48.480><c> variation</c><00:10:48.839><c> option</c>
+
+00:10:49.970 --> 00:10:49.980 align:start position:0%
+item and variation option
+ 
+
+00:10:49.980 --> 00:10:52.130 align:start position:0%
+item and variation option
+it<00:10:50.459><c> allows</c><00:10:50.760><c> us</c><00:10:50.880><c> to</c><00:10:51.120><c> specify</c><00:10:51.540><c> that</c><00:10:51.899><c> each</c>
+
+00:10:52.130 --> 00:10:52.140 align:start position:0%
+it allows us to specify that each
+ 
+
+00:10:52.140 --> 00:10:53.690 align:start position:0%
+it allows us to specify that each
+product<00:10:52.320><c> item</c><00:10:52.800><c> can</c><00:10:53.040><c> have</c><00:10:53.160><c> many</c><00:10:53.399><c> different</c>
+
+00:10:53.690 --> 00:10:53.700 align:start position:0%
+product item can have many different
+ 
+
+00:10:53.700 --> 00:10:55.550 align:start position:0%
+product item can have many different
+variation<00:10:54.240><c> options</c>
+
+00:10:55.550 --> 00:10:55.560 align:start position:0%
+variation options
+ 
+
+00:10:55.560 --> 00:10:57.650 align:start position:0%
+variation options
+it<00:10:55.980><c> will</c><00:10:56.100><c> be</c><00:10:56.220><c> used</c><00:10:56.399><c> on</c><00:10:56.640><c> the</c><00:10:56.760><c> page</c><00:10:56.940><c> that</c><00:10:57.300><c> allows</c>
+
+00:10:57.650 --> 00:10:57.660 align:start position:0%
+it will be used on the page that allows
+ 
+
+00:10:57.660 --> 00:10:59.690 align:start position:0%
+it will be used on the page that allows
+users<00:10:57.959><c> to</c><00:10:58.200><c> select</c><00:10:58.500><c> the</c><00:10:58.620><c> attributes</c><00:10:59.100><c> such</c><00:10:59.519><c> as</c>
+
+00:10:59.690 --> 00:10:59.700 align:start position:0%
+users to select the attributes such as
+ 
+
+00:10:59.700 --> 00:11:02.690 align:start position:0%
+users to select the attributes such as
+size<00:10:59.940><c> or</c><00:11:00.240><c> color</c><00:11:00.420><c> and</c><00:11:00.959><c> show</c><00:11:01.079><c> the</c><00:11:01.320><c> prices</c>
+
+00:11:02.690 --> 00:11:02.700 align:start position:0%
+size or color and show the prices
+ 
+
+00:11:02.700 --> 00:11:04.370 align:start position:0%
+size or color and show the prices
+now<00:11:03.240><c> that</c><00:11:03.420><c> we've</c><00:11:03.540><c> covered</c><00:11:03.779><c> the</c><00:11:03.899><c> product</c><00:11:04.019><c> part</c>
+
+00:11:04.370 --> 00:11:04.380 align:start position:0%
+now that we've covered the product part
+ 
+
+00:11:04.380 --> 00:11:06.050 align:start position:0%
+now that we've covered the product part
+let's<00:11:04.980><c> move</c><00:11:05.160><c> on</c><00:11:05.339><c> to</c><00:11:05.519><c> the</c><00:11:05.579><c> shopping</c><00:11:05.760><c> cart</c>
+
+00:11:06.050 --> 00:11:06.060 align:start position:0%
+let's move on to the shopping cart
+ 
+
+00:11:06.060 --> 00:11:07.850 align:start position:0%
+let's move on to the shopping cart
+feature
+
+00:11:07.850 --> 00:11:07.860 align:start position:0%
+feature
+ 
+
+00:11:07.860 --> 00:11:09.769 align:start position:0%
+feature
+requirement<00:11:08.579><c> number</c><00:11:08.760><c> nine</c><00:11:09.120><c> mentions</c><00:11:09.600><c> that</c>
+
+00:11:09.769 --> 00:11:09.779 align:start position:0%
+requirement number nine mentions that
+ 
+
+00:11:09.779 --> 00:11:11.810 align:start position:0%
+requirement number nine mentions that
+visitors<00:11:10.200><c> can</c><00:11:10.440><c> add</c><00:11:10.620><c> one</c><00:11:10.920><c> or</c><00:11:11.100><c> more</c><00:11:11.279><c> products</c><00:11:11.640><c> to</c>
+
+00:11:11.810 --> 00:11:11.820 align:start position:0%
+visitors can add one or more products to
+ 
+
+00:11:11.820 --> 00:11:13.310 align:start position:0%
+visitors can add one or more products to
+their<00:11:11.940><c> shopping</c><00:11:12.120><c> cart</c><00:11:12.420><c> as</c><00:11:12.839><c> part</c><00:11:13.019><c> of</c><00:11:13.200><c> their</c>
+
+00:11:13.310 --> 00:11:13.320 align:start position:0%
+their shopping cart as part of their
+ 
+
+00:11:13.320 --> 00:11:14.990 align:start position:0%
+their shopping cart as part of their
+shopping<00:11:13.500><c> experience</c>
+
+00:11:14.990 --> 00:11:15.000 align:start position:0%
+shopping experience
+ 
+
+00:11:15.000 --> 00:11:16.730 align:start position:0%
+shopping experience
+shopping<00:11:15.420><c> carts</c><00:11:15.899><c> are</c><00:11:16.019><c> not</c><00:11:16.200><c> saved</c><00:11:16.500><c> in</c><00:11:16.620><c> the</c>
+
+00:11:16.730 --> 00:11:16.740 align:start position:0%
+shopping carts are not saved in the
+ 
+
+00:11:16.740 --> 00:11:19.490 align:start position:0%
+shopping carts are not saved in the
+database<00:11:17.100><c> unless</c><00:11:17.579><c> they</c><00:11:17.760><c> are</c><00:11:17.880><c> logged</c><00:11:18.180><c> in</c>
+
+00:11:19.490 --> 00:11:19.500 align:start position:0%
+database unless they are logged in
+ 
+
+00:11:19.500 --> 00:11:21.230 align:start position:0%
+database unless they are logged in
+this<00:11:19.920><c> means</c><00:11:20.160><c> that</c><00:11:20.279><c> the</c><00:11:20.459><c> shopping</c><00:11:20.640><c> carts</c><00:11:21.120><c> are</c>
+
+00:11:21.230 --> 00:11:21.240 align:start position:0%
+this means that the shopping carts are
+ 
+
+00:11:21.240 --> 00:11:23.630 align:start position:0%
+this means that the shopping carts are
+related<00:11:21.540><c> to</c><00:11:21.779><c> users</c><00:11:22.140><c> and</c><00:11:22.740><c> won't</c><00:11:22.920><c> be</c><00:11:23.100><c> guests</c><00:11:23.519><c> or</c>
+
+00:11:23.630 --> 00:11:23.640 align:start position:0%
+related to users and won't be guests or
+ 
+
+00:11:23.640 --> 00:11:25.490 align:start position:0%
+related to users and won't be guests or
+Anonymous<00:11:24.060><c> users</c>
+
+00:11:25.490 --> 00:11:25.500 align:start position:0%
+Anonymous users
+ 
+
+00:11:25.500 --> 00:11:27.470 align:start position:0%
+Anonymous users
+so<00:11:25.860><c> we</c><00:11:26.100><c> have</c><00:11:26.220><c> a</c><00:11:26.339><c> shopping</c><00:11:26.519><c> cart</c><00:11:26.820><c> table</c><00:11:27.120><c> here</c>
+
+00:11:27.470 --> 00:11:27.480 align:start position:0%
+so we have a shopping cart table here
+ 
+
+00:11:27.480 --> 00:11:30.590 align:start position:0%
+so we have a shopping cart table here
+which<00:11:27.720><c> has</c><00:11:27.839><c> an</c><00:11:28.079><c> ID</c><00:11:28.200><c> and</c><00:11:28.860><c> a</c><00:11:29.040><c> related</c><00:11:29.339><c> user</c><00:11:29.760><c> ID</c>
+
+00:11:30.590 --> 00:11:30.600 align:start position:0%
+which has an ID and a related user ID
+ 
+
+00:11:30.600 --> 00:11:32.509 align:start position:0%
+which has an ID and a related user ID
+the<00:11:31.140><c> items</c><00:11:31.500><c> in</c><00:11:31.560><c> the</c><00:11:31.740><c> shopping</c><00:11:31.800><c> cart</c><00:11:32.100><c> are</c>
+
+00:11:32.509 --> 00:11:32.519 align:start position:0%
+the items in the shopping cart are
+ 
+
+00:11:32.519 --> 00:11:34.610 align:start position:0%
+the items in the shopping cart are
+stored<00:11:32.760><c> in</c><00:11:32.940><c> the</c><00:11:33.060><c> shopping</c><00:11:33.180><c> cart</c><00:11:33.420><c> item</c><00:11:33.899><c> table</c>
+
+00:11:34.610 --> 00:11:34.620 align:start position:0%
+stored in the shopping cart item table
+ 
+
+00:11:34.620 --> 00:11:36.949 align:start position:0%
+stored in the shopping cart item table
+this<00:11:35.160><c> has</c><00:11:35.339><c> an</c><00:11:35.579><c> ID</c><00:11:35.700><c> a</c><00:11:36.360><c> link</c><00:11:36.480><c> to</c><00:11:36.660><c> the</c><00:11:36.779><c> shopping</c>
+
+00:11:36.949 --> 00:11:36.959 align:start position:0%
+this has an ID a link to the shopping
+ 
+
+00:11:36.959 --> 00:11:39.590 align:start position:0%
+this has an ID a link to the shopping
+cart<00:11:37.200><c> table</c><00:11:37.560><c> as</c><00:11:37.860><c> a</c><00:11:38.040><c> cart</c><00:11:38.160><c> ID</c><00:11:38.519><c> and</c><00:11:39.180><c> a</c><00:11:39.300><c> link</c><00:11:39.420><c> to</c>
+
+00:11:39.590 --> 00:11:39.600 align:start position:0%
+cart table as a cart ID and a link to
+ 
+
+00:11:39.600 --> 00:11:41.690 align:start position:0%
+cart table as a cart ID and a link to
+the<00:11:39.720><c> product</c><00:11:39.839><c> item</c><00:11:40.320><c> that</c><00:11:40.500><c> was</c><00:11:40.620><c> added</c><00:11:40.920><c> and</c><00:11:41.519><c> the</c>
+
+00:11:41.690 --> 00:11:41.700 align:start position:0%
+the product item that was added and the
+ 
+
+00:11:41.700 --> 00:11:43.970 align:start position:0%
+the product item that was added and the
+quantity<00:11:42.000><c> that</c><00:11:42.240><c> is</c><00:11:42.360><c> in</c><00:11:42.540><c> the</c><00:11:42.660><c> shopping</c><00:11:42.779><c> cart</c>
+
+00:11:43.970 --> 00:11:43.980 align:start position:0%
+quantity that is in the shopping cart
+ 
+
+00:11:43.980 --> 00:11:45.949 align:start position:0%
+quantity that is in the shopping cart
+it's<00:11:44.399><c> saved</c><00:11:44.700><c> in</c><00:11:44.820><c> the</c><00:11:44.940><c> database</c><00:11:45.240><c> to</c><00:11:45.540><c> the</c><00:11:45.660><c> user</c>
+
+00:11:45.949 --> 00:11:45.959 align:start position:0%
+it's saved in the database to the user
+ 
+
+00:11:45.959 --> 00:11:47.750 align:start position:0%
+it's saved in the database to the user
+requirement<00:11:46.800><c> number</c><00:11:47.040><c> 10</c><00:11:47.279><c> is</c><00:11:47.640><c> about</c>
+
+00:11:47.750 --> 00:11:47.760 align:start position:0%
+requirement number 10 is about
+ 
+
+00:11:47.760 --> 00:11:49.730 align:start position:0%
+requirement number 10 is about
+specifying<00:11:48.480><c> payment</c><00:11:48.720><c> details</c><00:11:49.320><c> and</c><00:11:49.500><c> address</c>
+
+00:11:49.730 --> 00:11:49.740 align:start position:0%
+specifying payment details and address
+ 
+
+00:11:49.740 --> 00:11:51.829 align:start position:0%
+specifying payment details and address
+as<00:11:50.160><c> part</c><00:11:50.399><c> of</c><00:11:50.579><c> placing</c><00:11:50.940><c> an</c><00:11:51.060><c> order</c><00:11:51.240><c> so</c><00:11:51.660><c> let's</c>
+
+00:11:51.829 --> 00:11:51.839 align:start position:0%
+as part of placing an order so let's
+ 
+
+00:11:51.839 --> 00:11:53.569 align:start position:0%
+as part of placing an order so let's
+move<00:11:52.079><c> on</c><00:11:52.200><c> to</c><00:11:52.380><c> that</c>
+
+00:11:53.569 --> 00:11:53.579 align:start position:0%
+move on to that
+ 
+
+00:11:53.579 --> 00:11:55.490 align:start position:0%
+move on to that
+we<00:11:54.000><c> have</c><00:11:54.120><c> a</c><00:11:54.240><c> table</c><00:11:54.360><c> here</c><00:11:54.660><c> called</c><00:11:54.959><c> shop</c><00:11:55.200><c> order</c>
+
+00:11:55.490 --> 00:11:55.500 align:start position:0%
+we have a table here called shop order
+ 
+
+00:11:55.500 --> 00:11:57.710 align:start position:0%
+we have a table here called shop order
+which<00:11:56.279><c> captures</c><00:11:56.579><c> the</c><00:11:56.820><c> order</c><00:11:56.940><c> placed</c><00:11:57.420><c> by</c><00:11:57.540><c> the</c>
+
+00:11:57.710 --> 00:11:57.720 align:start position:0%
+which captures the order placed by the
+ 
+
+00:11:57.720 --> 00:11:58.730 align:start position:0%
+which captures the order placed by the
+user
+
+00:11:58.730 --> 00:11:58.740 align:start position:0%
+user
+ 
+
+00:11:58.740 --> 00:12:00.710 align:start position:0%
+user
+we've<00:11:59.160><c> called</c><00:11:59.339><c> it</c><00:11:59.519><c> shop</c><00:11:59.700><c> order</c><00:11:59.940><c> rather</c><00:12:00.480><c> than</c>
+
+00:12:00.710 --> 00:12:00.720 align:start position:0%
+we've called it shop order rather than
+ 
+
+00:12:00.720 --> 00:12:03.230 align:start position:0%
+we've called it shop order rather than
+order<00:12:00.959><c> because</c><00:12:01.620><c> order</c><00:12:01.980><c> is</c><00:12:02.279><c> an</c><00:12:02.459><c> SQL</c><00:12:02.880><c> keyword</c>
+
+00:12:03.230 --> 00:12:03.240 align:start position:0%
+order because order is an SQL keyword
+ 
+
+00:12:03.240 --> 00:12:05.329 align:start position:0%
+order because order is an SQL keyword
+and<00:12:03.540><c> it</c><00:12:03.720><c> could</c><00:12:03.839><c> get</c><00:12:04.019><c> confusing</c><00:12:04.500><c> in</c><00:12:04.740><c> our</c><00:12:04.860><c> SQL</c>
+
+00:12:05.329 --> 00:12:05.339 align:start position:0%
+and it could get confusing in our SQL
+ 
+
+00:12:05.339 --> 00:12:08.449 align:start position:0%
+and it could get confusing in our SQL
+scripts<00:12:05.700><c> this</c><00:12:06.540><c> table</c><00:12:06.720><c> has</c><00:12:07.019><c> an</c><00:12:07.200><c> ID</c><00:12:07.380><c> a</c><00:12:08.100><c> link</c><00:12:08.279><c> to</c>
+
+00:12:08.449 --> 00:12:08.459 align:start position:0%
+scripts this table has an ID a link to
+ 
+
+00:12:08.459 --> 00:12:10.730 align:start position:0%
+scripts this table has an ID a link to
+the<00:12:08.579><c> user</c><00:12:08.880><c> ID</c><00:12:09.000><c> that</c><00:12:09.360><c> created</c><00:12:09.660><c> the</c><00:12:09.839><c> order</c><00:12:10.019><c> and</c>
+
+00:12:10.730 --> 00:12:10.740 align:start position:0%
+the user ID that created the order and
+ 
+
+00:12:10.740 --> 00:12:12.410 align:start position:0%
+the user ID that created the order and
+an<00:12:10.920><c> order</c><00:12:11.040><c> date</c><00:12:11.339><c> which</c><00:12:11.639><c> captures</c><00:12:12.000><c> the</c><00:12:12.180><c> date</c>
+
+00:12:12.410 --> 00:12:12.420 align:start position:0%
+an order date which captures the date
+ 
+
+00:12:12.420 --> 00:12:15.170 align:start position:0%
+an order date which captures the date
+and<00:12:12.779><c> probably</c><00:12:12.959><c> the</c><00:12:13.260><c> time</c><00:12:13.440><c> it</c><00:12:13.680><c> was</c><00:12:13.800><c> placed</c>
+
+00:12:15.170 --> 00:12:15.180 align:start position:0%
+and probably the time it was placed
+ 
+
+00:12:15.180 --> 00:12:17.329 align:start position:0%
+and probably the time it was placed
+we<00:12:15.720><c> capture</c><00:12:15.959><c> the</c><00:12:16.139><c> payment</c><00:12:16.320><c> method</c><00:12:16.740><c> ID</c><00:12:16.920><c> which</c>
+
+00:12:17.329 --> 00:12:17.339 align:start position:0%
+we capture the payment method ID which
+ 
+
+00:12:17.339 --> 00:12:19.550 align:start position:0%
+we capture the payment method ID which
+was<00:12:17.459><c> used</c><00:12:17.760><c> which</c><00:12:18.360><c> is</c><00:12:18.480><c> a</c><00:12:18.660><c> link</c><00:12:18.839><c> to</c><00:12:19.079><c> the</c><00:12:19.260><c> existing</c>
+
+00:12:19.550 --> 00:12:19.560 align:start position:0%
+was used which is a link to the existing
+ 
+
+00:12:19.560 --> 00:12:21.470 align:start position:0%
+was used which is a link to the existing
+payment<00:12:19.800><c> method</c><00:12:20.279><c> table</c><00:12:20.519><c> we</c><00:12:20.880><c> covered</c><00:12:21.120><c> earlier</c>
+
+00:12:21.470 --> 00:12:21.480 align:start position:0%
+payment method table we covered earlier
+ 
+
+00:12:21.480 --> 00:12:23.389 align:start position:0%
+payment method table we covered earlier
+we<00:12:22.079><c> have</c><00:12:22.139><c> a</c><00:12:22.320><c> column</c><00:12:22.560><c> called</c><00:12:22.740><c> shipping</c><00:12:23.160><c> address</c>
+
+00:12:23.389 --> 00:12:23.399 align:start position:0%
+we have a column called shipping address
+ 
+
+00:12:23.399 --> 00:12:25.490 align:start position:0%
+we have a column called shipping address
+which<00:12:23.880><c> is</c><00:12:24.000><c> a</c><00:12:24.120><c> link</c><00:12:24.300><c> to</c><00:12:24.480><c> the</c><00:12:24.600><c> address</c><00:12:24.779><c> table</c><00:12:25.139><c> we</c>
+
+00:12:25.490 --> 00:12:25.500 align:start position:0%
+which is a link to the address table we
+ 
+
+00:12:25.500 --> 00:12:27.530 align:start position:0%
+which is a link to the address table we
+looked<00:12:25.740><c> at</c><00:12:25.800><c> earlier</c><00:12:26.100><c> too</c>
+
+00:12:27.530 --> 00:12:27.540 align:start position:0%
+looked at earlier too
+ 
+
+00:12:27.540 --> 00:12:29.990 align:start position:0%
+looked at earlier too
+the<00:12:28.019><c> next</c><00:12:28.139><c> field</c><00:12:28.320><c> is</c><00:12:28.620><c> shipping</c><00:12:29.040><c> method</c><00:12:29.339><c> which</c>
+
+00:12:29.990 --> 00:12:30.000 align:start position:0%
+the next field is shipping method which
+ 
+
+00:12:30.000 --> 00:12:32.030 align:start position:0%
+the next field is shipping method which
+allows<00:12:30.360><c> the</c><00:12:30.480><c> user</c><00:12:30.839><c> to</c><00:12:31.079><c> specify</c><00:12:31.500><c> things</c><00:12:31.800><c> like</c>
+
+00:12:32.030 --> 00:12:32.040 align:start position:0%
+allows the user to specify things like
+ 
+
+00:12:32.040 --> 00:12:34.790 align:start position:0%
+allows the user to specify things like
+standard<00:12:32.519><c> priority</c><00:12:33.180><c> Express</c><00:12:34.079><c> or</c><00:12:34.620><c> whatever</c>
+
+00:12:34.790 --> 00:12:34.800 align:start position:0%
+standard priority Express or whatever
+ 
+
+00:12:34.800 --> 00:12:36.530 align:start position:0%
+standard priority Express or whatever
+options<00:12:35.220><c> are</c><00:12:35.399><c> to</c><00:12:35.579><c> find</c>
+
+00:12:36.530 --> 00:12:36.540 align:start position:0%
+options are to find
+ 
+
+00:12:36.540 --> 00:12:38.150 align:start position:0%
+options are to find
+these<00:12:37.079><c> are</c><00:12:37.200><c> stored</c><00:12:37.440><c> in</c><00:12:37.620><c> a</c><00:12:37.740><c> separate</c><00:12:37.980><c> table</c>
+
+00:12:38.150 --> 00:12:38.160 align:start position:0%
+these are stored in a separate table
+ 
+
+00:12:38.160 --> 00:12:41.329 align:start position:0%
+these are stored in a separate table
+with<00:12:38.579><c> a</c><00:12:38.760><c> name</c><00:12:38.880><c> of</c><00:12:39.060><c> the</c><00:12:39.240><c> method</c><00:12:39.540><c> and</c><00:12:39.959><c> the</c><00:12:40.079><c> price</c>
+
+00:12:41.329 --> 00:12:41.339 align:start position:0%
+with a name of the method and the price
+ 
+
+00:12:41.339 --> 00:12:43.550 align:start position:0%
+with a name of the method and the price
+requirement<00:12:42.120><c> 11</c><00:12:42.360><c> mentions</c><00:12:42.959><c> these</c><00:12:43.260><c> can</c><00:12:43.380><c> be</c>
+
+00:12:43.550 --> 00:12:43.560 align:start position:0%
+requirement 11 mentions these can be
+ 
+
+00:12:43.560 --> 00:12:45.530 align:start position:0%
+requirement 11 mentions these can be
+selected<00:12:43.980><c> and</c><00:12:44.399><c> each</c><00:12:44.579><c> method</c><00:12:44.940><c> has</c><00:12:45.120><c> a</c><00:12:45.300><c> single</c>
+
+00:12:45.530 --> 00:12:45.540 align:start position:0%
+selected and each method has a single
+ 
+
+00:12:45.540 --> 00:12:46.970 align:start position:0%
+selected and each method has a single
+price
+
+00:12:46.970 --> 00:12:46.980 align:start position:0%
+price
+ 
+
+00:12:46.980 --> 00:12:49.850 align:start position:0%
+price
+we<00:12:47.760><c> have</c><00:12:47.880><c> an</c><00:12:48.000><c> order</c><00:12:48.180><c> total</c><00:12:48.600><c> field</c><00:12:48.839><c> which</c><00:12:49.500><c> is</c><00:12:49.680><c> a</c>
+
+00:12:49.850 --> 00:12:49.860 align:start position:0%
+we have an order total field which is a
+ 
+
+00:12:49.860 --> 00:12:51.590 align:start position:0%
+we have an order total field which is a
+calculation<00:12:50.220><c> of</c><00:12:50.459><c> the</c><00:12:50.639><c> product</c><00:12:50.820><c> prices</c><00:12:51.120><c> and</c>
+
+00:12:51.590 --> 00:12:51.600 align:start position:0%
+calculation of the product prices and
+ 
+
+00:12:51.600 --> 00:12:52.850 align:start position:0%
+calculation of the product prices and
+the<00:12:51.720><c> shipping</c><00:12:51.959><c> method</c>
+
+00:12:52.850 --> 00:12:52.860 align:start position:0%
+the shipping method
+ 
+
+00:12:52.860 --> 00:12:55.009 align:start position:0%
+the shipping method
+we<00:12:53.339><c> calculate</c><00:12:53.700><c> this</c><00:12:53.940><c> so</c><00:12:54.120><c> we</c><00:12:54.300><c> know</c><00:12:54.420><c> how</c><00:12:54.720><c> much</c><00:12:54.839><c> an</c>
+
+00:12:55.009 --> 00:12:55.019 align:start position:0%
+we calculate this so we know how much an
+ 
+
+00:12:55.019 --> 00:12:57.410 align:start position:0%
+we calculate this so we know how much an
+order<00:12:55.200><c> came</c><00:12:55.500><c> to</c><00:12:55.740><c> as</c><00:12:56.399><c> prices</c><00:12:56.639><c> for</c><00:12:57.000><c> products</c>
+
+00:12:57.410 --> 00:12:57.420 align:start position:0%
+order came to as prices for products
+ 
+
+00:12:57.420 --> 00:12:59.090 align:start position:0%
+order came to as prices for products
+could<00:12:57.660><c> change</c><00:12:57.899><c> in</c><00:12:58.139><c> the</c><00:12:58.260><c> future</c>
+
+00:12:59.090 --> 00:12:59.100 align:start position:0%
+could change in the future
+ 
+
+00:12:59.100 --> 00:13:01.069 align:start position:0%
+could change in the future
+finally<00:12:59.639><c> we</c><00:13:00.000><c> have</c><00:13:00.120><c> an</c><00:13:00.240><c> order</c><00:13:00.420><c> status</c><00:13:00.720><c> table</c>
+
+00:13:01.069 --> 00:13:01.079 align:start position:0%
+finally we have an order status table
+ 
+
+00:13:01.079 --> 00:13:03.230 align:start position:0%
+finally we have an order status table
+and<00:13:01.440><c> a</c><00:13:01.620><c> field</c><00:13:01.740><c> to</c><00:13:01.980><c> link</c><00:13:02.100><c> to</c><00:13:02.279><c> it</c>
+
+00:13:03.230 --> 00:13:03.240 align:start position:0%
+and a field to link to it
+ 
+
+00:13:03.240 --> 00:13:05.210 align:start position:0%
+and a field to link to it
+this<00:13:03.660><c> would</c><00:13:03.839><c> store</c><00:13:04.019><c> the</c><00:13:04.320><c> statuses</c><00:13:04.800><c> that</c><00:13:05.040><c> an</c>
+
+00:13:05.210 --> 00:13:05.220 align:start position:0%
+this would store the statuses that an
+ 
+
+00:13:05.220 --> 00:13:06.889 align:start position:0%
+this would store the statuses that an
+order<00:13:05.339><c> can</c><00:13:05.639><c> go</c><00:13:05.760><c> through</c><00:13:05.880><c> such</c><00:13:06.360><c> as</c><00:13:06.480><c> ordered</c>
+
+00:13:06.889 --> 00:13:06.899 align:start position:0%
+order can go through such as ordered
+ 
+
+00:13:06.899 --> 00:13:09.350 align:start position:0%
+order can go through such as ordered
+processing<00:13:07.680><c> and</c><00:13:07.800><c> delivered</c>
+
+00:13:09.350 --> 00:13:09.360 align:start position:0%
+processing and delivered
+ 
+
+00:13:09.360 --> 00:13:11.329 align:start position:0%
+processing and delivered
+this<00:13:09.839><c> design</c><00:13:09.959><c> assumes</c><00:13:10.620><c> that</c><00:13:10.740><c> a</c><00:13:10.920><c> shopping</c><00:13:11.040><c> cart</c>
+
+00:13:11.329 --> 00:13:11.339 align:start position:0%
+this design assumes that a shopping cart
+ 
+
+00:13:11.339 --> 00:13:13.850 align:start position:0%
+this design assumes that a shopping cart
+would<00:13:11.639><c> be</c><00:13:11.760><c> converted</c><00:13:12.240><c> to</c><00:13:12.480><c> a</c><00:13:12.600><c> shop</c><00:13:12.720><c> order</c><00:13:13.019><c> which</c>
+
+00:13:13.850 --> 00:13:13.860 align:start position:0%
+would be converted to a shop order which
+ 
+
+00:13:13.860 --> 00:13:16.069 align:start position:0%
+would be converted to a shop order which
+could<00:13:13.980><c> be</c><00:13:14.100><c> done</c><00:13:14.279><c> by</c><00:13:14.519><c> the</c><00:13:14.700><c> application</c>
+
+00:13:16.069 --> 00:13:16.079 align:start position:0%
+could be done by the application
+ 
+
+00:13:16.079 --> 00:13:17.990 align:start position:0%
+could be done by the application
+this<00:13:16.620><c> means</c><00:13:16.920><c> that</c><00:13:17.040><c> the</c><00:13:17.220><c> shopping</c><00:13:17.339><c> cart</c><00:13:17.639><c> table</c>
+
+00:13:17.990 --> 00:13:18.000 align:start position:0%
+this means that the shopping cart table
+ 
+
+00:13:18.000 --> 00:13:20.030 align:start position:0%
+this means that the shopping cart table
+is<00:13:18.300><c> separate</c><00:13:18.600><c> to</c><00:13:18.720><c> the</c><00:13:18.899><c> shop</c><00:13:19.019><c> order</c>
+
+00:13:20.030 --> 00:13:20.040 align:start position:0%
+is separate to the shop order
+ 
+
+00:13:20.040 --> 00:13:22.370 align:start position:0%
+is separate to the shop order
+we<00:13:20.579><c> could</c><00:13:20.700><c> use</c><00:13:20.880><c> an</c><00:13:21.120><c> alternative</c><00:13:21.480><c> design</c><00:13:21.779><c> where</c>
+
+00:13:22.370 --> 00:13:22.380 align:start position:0%
+we could use an alternative design where
+ 
+
+00:13:22.380 --> 00:13:23.990 align:start position:0%
+we could use an alternative design where
+there<00:13:22.560><c> was</c><00:13:22.680><c> only</c><00:13:22.860><c> one</c><00:13:23.160><c> shop</c><00:13:23.399><c> order</c><00:13:23.639><c> table</c>
+
+00:13:23.990 --> 00:13:24.000 align:start position:0%
+there was only one shop order table
+ 
+
+00:13:24.000 --> 00:13:25.910 align:start position:0%
+there was only one shop order table
+which<00:13:24.720><c> could</c><00:13:24.839><c> represent</c><00:13:25.260><c> the</c><00:13:25.440><c> shopping</c><00:13:25.620><c> cart</c>
+
+00:13:25.910 --> 00:13:25.920 align:start position:0%
+which could represent the shopping cart
+ 
+
+00:13:25.920 --> 00:13:27.769 align:start position:0%
+which could represent the shopping cart
+by<00:13:26.220><c> having</c><00:13:26.399><c> empty</c><00:13:26.820><c> values</c><00:13:27.180><c> for</c><00:13:27.420><c> things</c><00:13:27.600><c> like</c>
+
+00:13:27.769 --> 00:13:27.779 align:start position:0%
+by having empty values for things like
+ 
+
+00:13:27.779 --> 00:13:29.569 align:start position:0%
+by having empty values for things like
+order<00:13:27.959><c> date</c><00:13:28.260><c> and</c><00:13:28.440><c> address</c><00:13:28.680><c> which</c><00:13:29.339><c> I</c><00:13:29.519><c> think</c>
+
+00:13:29.569 --> 00:13:29.579 align:start position:0%
+order date and address which I think
+ 
+
+00:13:29.579 --> 00:13:31.069 align:start position:0%
+order date and address which I think
+could<00:13:29.820><c> work</c><00:13:30.000><c> as</c><00:13:30.180><c> well</c>
+
+00:13:31.069 --> 00:13:31.079 align:start position:0%
+could work as well
+ 
+
+00:13:31.079 --> 00:13:33.410 align:start position:0%
+could work as well
+an<00:13:31.560><c> order</c><00:13:31.680><c> has</c><00:13:31.980><c> many</c><00:13:32.160><c> products</c><00:13:32.639><c> and</c><00:13:33.120><c> these</c>
+
+00:13:33.410 --> 00:13:33.420 align:start position:0%
+an order has many products and these
+ 
+
+00:13:33.420 --> 00:13:34.970 align:start position:0%
+an order has many products and these
+products<00:13:33.720><c> are</c><00:13:33.899><c> stored</c><00:13:34.200><c> in</c><00:13:34.380><c> a</c><00:13:34.500><c> table</c><00:13:34.620><c> called</c>
+
+00:13:34.970 --> 00:13:34.980 align:start position:0%
+products are stored in a table called
+ 
+
+00:13:34.980 --> 00:13:36.110 align:start position:0%
+products are stored in a table called
+order<00:13:35.220><c> line</c>
+
+00:13:36.110 --> 00:13:36.120 align:start position:0%
+order line
+ 
+
+00:13:36.120 --> 00:13:38.750 align:start position:0%
+order line
+this<00:13:36.600><c> table</c><00:13:36.720><c> includes</c><00:13:37.260><c> an</c><00:13:37.440><c> ID</c><00:13:37.620><c> a</c><00:13:38.279><c> link</c><00:13:38.399><c> to</c><00:13:38.639><c> the</c>
+
+00:13:38.750 --> 00:13:38.760 align:start position:0%
+this table includes an ID a link to the
+ 
+
+00:13:38.760 --> 00:13:40.790 align:start position:0%
+this table includes an ID a link to the
+product<00:13:38.880><c> item</c><00:13:39.300><c> that</c><00:13:39.480><c> was</c><00:13:39.600><c> ordered</c><00:13:39.959><c> and</c><00:13:40.500><c> a</c><00:13:40.620><c> link</c>
+
+00:13:40.790 --> 00:13:40.800 align:start position:0%
+product item that was ordered and a link
+ 
+
+00:13:40.800 --> 00:13:42.650 align:start position:0%
+product item that was ordered and a link
+to<00:13:40.920><c> the</c><00:13:41.100><c> order</c><00:13:41.279><c> that</c><00:13:41.760><c> the</c><00:13:41.880><c> order</c><00:13:42.000><c> line</c><00:13:42.240><c> belongs</c>
+
+00:13:42.650 --> 00:13:42.660 align:start position:0%
+to the order that the order line belongs
+ 
+
+00:13:42.660 --> 00:13:43.610 align:start position:0%
+to the order that the order line belongs
+to
+
+00:13:43.610 --> 00:13:43.620 align:start position:0%
+to
+ 
+
+00:13:43.620 --> 00:13:45.710 align:start position:0%
+to
+it<00:13:44.100><c> also</c><00:13:44.339><c> includes</c><00:13:44.760><c> the</c><00:13:45.000><c> quantity</c><00:13:45.360><c> of</c><00:13:45.540><c> the</c>
+
+00:13:45.710 --> 00:13:45.720 align:start position:0%
+it also includes the quantity of the
+ 
+
+00:13:45.720 --> 00:13:47.569 align:start position:0%
+it also includes the quantity of the
+product<00:13:45.839><c> that</c><00:13:46.079><c> was</c><00:13:46.260><c> ordered</c><00:13:46.620><c> and</c><00:13:47.279><c> the</c><00:13:47.459><c> price</c>
+
+00:13:47.569 --> 00:13:47.579 align:start position:0%
+product that was ordered and the price
+ 
+
+00:13:47.579 --> 00:13:49.129 align:start position:0%
+product that was ordered and the price
+of<00:13:47.760><c> the</c><00:13:47.940><c> product</c><00:13:48.060><c> when</c><00:13:48.480><c> ordered</c><00:13:48.839><c> because</c>
+
+00:13:49.129 --> 00:13:49.139 align:start position:0%
+of the product when ordered because
+ 
+
+00:13:49.139 --> 00:13:51.290 align:start position:0%
+of the product when ordered because
+prices<00:13:49.560><c> can</c><00:13:49.980><c> change</c><00:13:50.160><c> over</c><00:13:50.459><c> time</c>
+
+00:13:51.290 --> 00:13:51.300 align:start position:0%
+prices can change over time
+ 
+
+00:13:51.300 --> 00:13:53.629 align:start position:0%
+prices can change over time
+this<00:13:51.899><c> order</c><00:13:52.079><c> and</c><00:13:52.380><c> order</c><00:13:52.560><c> line</c><00:13:52.860><c> design</c><00:13:53.160><c> is</c>
+
+00:13:53.629 --> 00:13:53.639 align:start position:0%
+this order and order line design is
+ 
+
+00:13:53.639 --> 00:13:56.629 align:start position:0%
+this order and order line design is
+quite<00:13:53.820><c> common</c><00:13:54.000><c> in</c><00:13:54.300><c> e-commerce</c><00:13:54.779><c> databases</c>
+
+00:13:56.629 --> 00:13:56.639 align:start position:0%
+quite common in e-commerce databases
+ 
+
+00:13:56.639 --> 00:13:58.189 align:start position:0%
+quite common in e-commerce databases
+the<00:13:57.060><c> next</c><00:13:57.180><c> feature</c><00:13:57.540><c> we'll</c><00:13:57.720><c> look</c><00:13:57.839><c> at</c><00:13:57.959><c> is</c>
+
+00:13:58.189 --> 00:13:58.199 align:start position:0%
+the next feature we'll look at is
+ 
+
+00:13:58.199 --> 00:13:59.509 align:start position:0%
+the next feature we'll look at is
+reviews
+
+00:13:59.509 --> 00:13:59.519 align:start position:0%
+reviews
+ 
+
+00:13:59.519 --> 00:14:01.970 align:start position:0%
+reviews
+requirement<00:14:00.240><c> 13</c><00:14:00.540><c> states</c><00:14:01.079><c> that</c><00:14:01.320><c> a</c><00:14:01.500><c> user</c><00:14:01.740><c> should</c>
+
+00:14:01.970 --> 00:14:01.980 align:start position:0%
+requirement 13 states that a user should
+ 
+
+00:14:01.980 --> 00:14:03.530 align:start position:0%
+requirement 13 states that a user should
+be<00:14:02.100><c> able</c><00:14:02.279><c> to</c><00:14:02.399><c> leave</c><00:14:02.579><c> a</c><00:14:02.880><c> review</c><00:14:03.000><c> for</c><00:14:03.300><c> a</c><00:14:03.480><c> product</c>
+
+00:14:03.530 --> 00:14:03.540 align:start position:0%
+be able to leave a review for a product
+ 
+
+00:14:03.540 --> 00:14:05.629 align:start position:0%
+be able to leave a review for a product
+they<00:14:03.839><c> have</c><00:14:04.019><c> purchased</c><00:14:04.500><c> which</c><00:14:05.100><c> includes</c><00:14:05.459><c> a</c>
+
+00:14:05.629 --> 00:14:05.639 align:start position:0%
+they have purchased which includes a
+ 
+
+00:14:05.639 --> 00:14:07.189 align:start position:0%
+they have purchased which includes a
+rating<00:14:05.880><c> from</c><00:14:06.120><c> one</c><00:14:06.300><c> to</c><00:14:06.480><c> five</c><00:14:06.660><c> and</c><00:14:06.899><c> a</c><00:14:07.079><c> text</c>
+
+00:14:07.189 --> 00:14:07.199 align:start position:0%
+rating from one to five and a text
+ 
+
+00:14:07.199 --> 00:14:08.629 align:start position:0%
+rating from one to five and a text
+comment
+
+00:14:08.629 --> 00:14:08.639 align:start position:0%
+comment
+ 
+
+00:14:08.639 --> 00:14:10.430 align:start position:0%
+comment
+we've<00:14:09.000><c> done</c><00:14:09.120><c> this</c><00:14:09.300><c> by</c><00:14:09.480><c> adding</c><00:14:09.779><c> a</c><00:14:09.959><c> user</c><00:14:10.260><c> review</c>
+
+00:14:10.430 --> 00:14:10.440 align:start position:0%
+we've done this by adding a user review
+ 
+
+00:14:10.440 --> 00:14:11.750 align:start position:0%
+we've done this by adding a user review
+table<00:14:10.800><c> here</c>
+
+00:14:11.750 --> 00:14:11.760 align:start position:0%
+table here
+ 
+
+00:14:11.760 --> 00:14:14.569 align:start position:0%
+table here
+this<00:14:12.180><c> includes</c><00:14:12.540><c> an</c><00:14:12.660><c> ID</c><00:14:12.839><c> as</c><00:14:13.199><c> the</c><00:14:13.320><c> primary</c><00:14:13.680><c> key</c><00:14:13.860><c> a</c>
+
+00:14:14.569 --> 00:14:14.579 align:start position:0%
+this includes an ID as the primary key a
+ 
+
+00:14:14.579 --> 00:14:16.550 align:start position:0%
+this includes an ID as the primary key a
+link<00:14:14.760><c> to</c><00:14:14.940><c> the</c><00:14:15.060><c> user</c><00:14:15.300><c> who</c><00:14:15.420><c> left</c><00:14:15.600><c> the</c><00:14:15.779><c> review</c><00:14:15.959><c> and</c>
+
+00:14:16.550 --> 00:14:16.560 align:start position:0%
+link to the user who left the review and
+ 
+
+00:14:16.560 --> 00:14:18.230 align:start position:0%
+link to the user who left the review and
+a<00:14:16.740><c> link</c><00:14:16.860><c> to</c><00:14:17.040><c> the</c><00:14:17.160><c> product</c><00:14:17.339><c> that</c><00:14:17.699><c> was</c><00:14:17.820><c> included</c>
+
+00:14:18.230 --> 00:14:18.240 align:start position:0%
+a link to the product that was included
+ 
+
+00:14:18.240 --> 00:14:19.550 align:start position:0%
+a link to the product that was included
+in<00:14:18.420><c> an</c><00:14:18.540><c> order</c>
+
+00:14:19.550 --> 00:14:19.560 align:start position:0%
+in an order
+ 
+
+00:14:19.560 --> 00:14:21.530 align:start position:0%
+in an order
+this<00:14:20.160><c> is</c><00:14:20.279><c> a</c><00:14:20.459><c> link</c><00:14:20.579><c> to</c><00:14:20.760><c> the</c><00:14:20.880><c> order</c><00:14:21.000><c> line</c><00:14:21.300><c> record</c>
+
+00:14:21.530 --> 00:14:21.540 align:start position:0%
+this is a link to the order line record
+ 
+
+00:14:21.540 --> 00:14:23.870 align:start position:0%
+this is a link to the order line record
+so<00:14:22.260><c> we</c><00:14:22.440><c> can</c><00:14:22.560><c> allow</c><00:14:22.860><c> reviews</c><00:14:23.040><c> to</c><00:14:23.399><c> be</c><00:14:23.519><c> left</c><00:14:23.639><c> for</c>
+
+00:14:23.870 --> 00:14:23.880 align:start position:0%
+so we can allow reviews to be left for
+ 
+
+00:14:23.880 --> 00:14:26.329 align:start position:0%
+so we can allow reviews to be left for
+products<00:14:24.240><c> that</c><00:14:24.480><c> a</c><00:14:24.600><c> user</c><00:14:24.899><c> has</c><00:14:25.019><c> ordered</c>
+
+00:14:26.329 --> 00:14:26.339 align:start position:0%
+products that a user has ordered
+ 
+
+00:14:26.339 --> 00:14:28.310 align:start position:0%
+products that a user has ordered
+we<00:14:26.940><c> have</c><00:14:27.060><c> a</c><00:14:27.180><c> rating</c><00:14:27.420><c> value</c><00:14:27.720><c> which</c><00:14:28.019><c> is</c><00:14:28.139><c> the</c>
+
+00:14:28.310 --> 00:14:28.320 align:start position:0%
+we have a rating value which is the
+ 
+
+00:14:28.320 --> 00:14:30.470 align:start position:0%
+we have a rating value which is the
+number<00:14:28.440><c> from</c><00:14:28.680><c> one</c><00:14:28.860><c> to</c><00:14:29.040><c> five</c><00:14:29.279><c> and</c><00:14:30.000><c> the</c><00:14:30.180><c> comment</c>
+
+00:14:30.470 --> 00:14:30.480 align:start position:0%
+number from one to five and the comment
+ 
+
+00:14:30.480 --> 00:14:32.210 align:start position:0%
+number from one to five and the comment
+is<00:14:30.660><c> the</c><00:14:30.779><c> text</c><00:14:30.959><c> comment</c><00:14:31.320><c> to</c><00:14:31.500><c> be</c><00:14:31.620><c> added</c><00:14:31.860><c> for</c><00:14:32.040><c> the</c>
+
+00:14:32.210 --> 00:14:32.220 align:start position:0%
+is the text comment to be added for the
+ 
+
+00:14:32.220 --> 00:14:34.310 align:start position:0%
+is the text comment to be added for the
+review
+
+00:14:34.310 --> 00:14:34.320 align:start position:0%
+review
+ 
+
+00:14:34.320 --> 00:14:36.889 align:start position:0%
+review
+the<00:14:34.680><c> final</c><00:14:34.800><c> requirement</c><00:14:35.279><c> number</c><00:14:35.579><c> 14</c><00:14:35.940><c> is</c><00:14:36.720><c> the</c>
+
+00:14:36.889 --> 00:14:36.899 align:start position:0%
+the final requirement number 14 is the
+ 
+
+00:14:36.899 --> 00:14:38.750 align:start position:0%
+the final requirement number 14 is the
+ability<00:14:37.139><c> for</c><00:14:37.500><c> promotions</c><00:14:37.920><c> or</c><00:14:38.160><c> sales</c><00:14:38.339><c> to</c><00:14:38.639><c> be</c>
+
+00:14:38.750 --> 00:14:38.760 align:start position:0%
+ability for promotions or sales to be
+ 
+
+00:14:38.760 --> 00:14:40.970 align:start position:0%
+ability for promotions or sales to be
+run<00:14:38.880><c> which</c><00:14:39.600><c> allows</c><00:14:39.959><c> for</c><00:14:40.199><c> one</c><00:14:40.440><c> or</c><00:14:40.620><c> more</c><00:14:40.800><c> product</c>
+
+00:14:40.970 --> 00:14:40.980 align:start position:0%
+run which allows for one or more product
+ 
+
+00:14:40.980 --> 00:14:42.710 align:start position:0%
+run which allows for one or more product
+categories<00:14:41.519><c> to</c><00:14:41.760><c> have</c><00:14:41.880><c> a</c><00:14:42.180><c> specific</c><00:14:42.420><c> discount</c>
+
+00:14:42.710 --> 00:14:42.720 align:start position:0%
+categories to have a specific discount
+ 
+
+00:14:42.720 --> 00:14:44.750 align:start position:0%
+categories to have a specific discount
+on<00:14:43.199><c> their</c><00:14:43.380><c> price</c>
+
+00:14:44.750 --> 00:14:44.760 align:start position:0%
+on their price
+ 
+
+00:14:44.760 --> 00:14:46.550 align:start position:0%
+on their price
+we<00:14:45.120><c> have</c><00:14:45.240><c> achieved</c><00:14:45.600><c> this</c><00:14:45.779><c> by</c><00:14:46.079><c> adding</c><00:14:46.320><c> the</c>
+
+00:14:46.550 --> 00:14:46.560 align:start position:0%
+we have achieved this by adding the
+ 
+
+00:14:46.560 --> 00:14:48.050 align:start position:0%
+we have achieved this by adding the
+promotion<00:14:46.920><c> table</c>
+
+00:14:48.050 --> 00:14:48.060 align:start position:0%
+promotion table
+ 
+
+00:14:48.060 --> 00:14:50.329 align:start position:0%
+promotion table
+this<00:14:48.480><c> includes</c><00:14:48.839><c> an</c><00:14:49.019><c> ID</c><00:14:49.199><c> a</c><00:14:49.860><c> name</c><00:14:50.040><c> of</c><00:14:50.220><c> the</c>
+
+00:14:50.329 --> 00:14:50.339 align:start position:0%
+this includes an ID a name of the
+ 
+
+00:14:50.339 --> 00:14:52.670 align:start position:0%
+this includes an ID a name of the
+promotion<00:14:50.820><c> and</c><00:14:51.480><c> a</c><00:14:51.600><c> description</c><00:14:51.899><c> if</c><00:14:52.199><c> one</c><00:14:52.380><c> needs</c>
+
+00:14:52.670 --> 00:14:52.680 align:start position:0%
+promotion and a description if one needs
+ 
+
+00:14:52.680 --> 00:14:53.990 align:start position:0%
+promotion and a description if one needs
+to<00:14:52.740><c> be</c><00:14:52.860><c> added</c>
+
+00:14:53.990 --> 00:14:54.000 align:start position:0%
+to be added
+ 
+
+00:14:54.000 --> 00:14:56.210 align:start position:0%
+to be added
+we<00:14:54.480><c> have</c><00:14:54.600><c> a</c><00:14:54.720><c> discount</c><00:14:54.899><c> rate</c><00:14:55.260><c> which</c><00:14:55.860><c> is</c><00:14:55.980><c> the</c>
+
+00:14:56.210 --> 00:14:56.220 align:start position:0%
+we have a discount rate which is the
+ 
+
+00:14:56.220 --> 00:14:57.769 align:start position:0%
+we have a discount rate which is the
+percentage<00:14:56.639><c> of</c><00:14:56.880><c> discount</c><00:14:57.060><c> applied</c><00:14:57.600><c> to</c>
+
+00:14:57.769 --> 00:14:57.779 align:start position:0%
+percentage of discount applied to
+ 
+
+00:14:57.779 --> 00:15:01.310 align:start position:0%
+percentage of discount applied to
+products<00:14:58.199><c> such</c><00:14:58.740><c> as</c><00:14:58.860><c> 10</c><00:14:59.040><c> or</c><00:14:59.639><c> 50</c><00:14:59.820><c> percent</c>
+
+00:15:01.310 --> 00:15:01.320 align:start position:0%
+products such as 10 or 50 percent
+ 
+
+00:15:01.320 --> 00:15:03.769 align:start position:0%
+products such as 10 or 50 percent
+we<00:15:01.920><c> also</c><00:15:02.220><c> have</c><00:15:02.459><c> a</c><00:15:02.699><c> start</c><00:15:02.820><c> date</c><00:15:03.120><c> and</c><00:15:03.360><c> end</c><00:15:03.540><c> date</c>
+
+00:15:03.769 --> 00:15:03.779 align:start position:0%
+we also have a start date and end date
+ 
+
+00:15:03.779 --> 00:15:06.230 align:start position:0%
+we also have a start date and end date
+which<00:15:04.380><c> the</c><00:15:04.620><c> website</c><00:15:04.980><c> may</c><00:15:05.279><c> want</c><00:15:05.459><c> to</c><00:15:05.579><c> display</c><00:15:05.760><c> or</c>
+
+00:15:06.230 --> 00:15:06.240 align:start position:0%
+which the website may want to display or
+ 
+
+00:15:06.240 --> 00:15:08.509 align:start position:0%
+which the website may want to display or
+communicate<00:15:06.660><c> to</c><00:15:06.899><c> customers</c>
+
+00:15:08.509 --> 00:15:08.519 align:start position:0%
+communicate to customers
+ 
+
+00:15:08.519 --> 00:15:10.970 align:start position:0%
+communicate to customers
+a<00:15:09.000><c> promotion</c><00:15:09.360><c> can</c><00:15:09.600><c> have</c><00:15:09.720><c> many</c><00:15:09.959><c> categories</c><00:15:10.440><c> and</c>
+
+00:15:10.970 --> 00:15:10.980 align:start position:0%
+a promotion can have many categories and
+ 
+
+00:15:10.980 --> 00:15:13.129 align:start position:0%
+a promotion can have many categories and
+a<00:15:11.100><c> category</c><00:15:11.399><c> can</c><00:15:11.579><c> have</c><00:15:11.699><c> many</c><00:15:11.880><c> promotions</c><00:15:12.420><c> so</c>
+
+00:15:13.129 --> 00:15:13.139 align:start position:0%
+a category can have many promotions so
+ 
+
+00:15:13.139 --> 00:15:15.050 align:start position:0%
+a category can have many promotions so
+we<00:15:13.440><c> need</c><00:15:13.560><c> a</c><00:15:13.680><c> joining</c><00:15:14.040><c> table</c><00:15:14.220><c> to</c><00:15:14.639><c> handle</c><00:15:14.880><c> this</c>
+
+00:15:15.050 --> 00:15:15.060 align:start position:0%
+we need a joining table to handle this
+ 
+
+00:15:15.060 --> 00:15:16.970 align:start position:0%
+we need a joining table to handle this
+many-to-many<00:15:15.779><c> relationship</c>
+
+00:15:16.970 --> 00:15:16.980 align:start position:0%
+many-to-many relationship
+ 
+
+00:15:16.980 --> 00:15:18.530 align:start position:0%
+many-to-many relationship
+we've<00:15:17.339><c> called</c><00:15:17.519><c> this</c><00:15:17.699><c> table</c><00:15:17.880><c> promotion</c>
+
+00:15:18.530 --> 00:15:18.540 align:start position:0%
+we've called this table promotion
+ 
+
+00:15:18.540 --> 00:15:20.750 align:start position:0%
+we've called this table promotion
+category<00:15:18.959><c> and</c><00:15:19.620><c> it</c><00:15:19.740><c> simply</c><00:15:20.040><c> includes</c><00:15:20.459><c> a</c><00:15:20.639><c> link</c>
+
+00:15:20.750 --> 00:15:20.760 align:start position:0%
+category and it simply includes a link
+ 
+
+00:15:20.760 --> 00:15:23.210 align:start position:0%
+category and it simply includes a link
+to<00:15:20.940><c> the</c><00:15:21.120><c> category</c><00:15:21.480><c> and</c><00:15:21.720><c> the</c><00:15:21.839><c> promotion</c>
+
+00:15:23.210 --> 00:15:23.220 align:start position:0%
+to the category and the promotion
+ 
+
+00:15:23.220 --> 00:15:24.590 align:start position:0%
+to the category and the promotion
+so<00:15:23.579><c> that's</c><00:15:23.699><c> how</c><00:15:23.880><c> we</c><00:15:24.060><c> can</c><00:15:24.180><c> meet</c><00:15:24.300><c> this</c>
+
+00:15:24.590 --> 00:15:24.600 align:start position:0%
+so that's how we can meet this
+ 
+
+00:15:24.600 --> 00:15:26.030 align:start position:0%
+so that's how we can meet this
+requirement<00:15:24.959><c> for</c><00:15:25.320><c> promotions</c><00:15:25.740><c> and</c>
+
+00:15:26.030 --> 00:15:26.040 align:start position:0%
+requirement for promotions and
+ 
+
+00:15:26.040 --> 00:15:27.290 align:start position:0%
+requirement for promotions and
+categories
+
+00:15:27.290 --> 00:15:27.300 align:start position:0%
+categories
+ 
+
+00:15:27.300 --> 00:15:29.269 align:start position:0%
+categories
+so<00:15:27.839><c> we've</c><00:15:28.079><c> covered</c><00:15:28.380><c> all</c><00:15:28.500><c> the</c><00:15:28.620><c> requirements</c><00:15:29.100><c> in</c>
+
+00:15:29.269 --> 00:15:29.279 align:start position:0%
+so we've covered all the requirements in
+ 
+
+00:15:29.279 --> 00:15:30.829 align:start position:0%
+so we've covered all the requirements in
+our<00:15:29.399><c> database</c><00:15:29.759><c> design</c>
+
+00:15:30.829 --> 00:15:30.839 align:start position:0%
+our database design
+ 
+
+00:15:30.839 --> 00:15:32.930 align:start position:0%
+our database design
+here's<00:15:31.380><c> the</c><00:15:31.500><c> full</c><00:15:31.680><c> design</c><00:15:31.920><c> again</c><00:15:32.220><c> which</c><00:15:32.820><c> you</c>
+
+00:15:32.930 --> 00:15:32.940 align:start position:0%
+here's the full design again which you
+ 
+
+00:15:32.940 --> 00:15:34.610 align:start position:0%
+here's the full design again which you
+can<00:15:33.120><c> get</c><00:15:33.240><c> an</c><00:15:33.420><c> image</c><00:15:33.660><c> of</c><00:15:33.779><c> using</c><00:15:34.199><c> the</c><00:15:34.259><c> link</c><00:15:34.440><c> in</c>
+
+00:15:34.610 --> 00:15:34.620 align:start position:0%
+can get an image of using the link in
+ 
+
+00:15:34.620 --> 00:15:35.990 align:start position:0%
+can get an image of using the link in
+the<00:15:34.740><c> description</c>
+
+00:15:35.990 --> 00:15:36.000 align:start position:0%
+the description
+ 
+
+00:15:36.000 --> 00:15:38.689 align:start position:0%
+the description
+what's<00:15:36.600><c> next</c><00:15:36.899><c> if</c><00:15:37.860><c> you</c><00:15:37.980><c> want</c><00:15:38.160><c> to</c><00:15:38.279><c> create</c><00:15:38.459><c> the</c>
+
+00:15:38.689 --> 00:15:38.699 align:start position:0%
+what's next if you want to create the
+ 
+
+00:15:38.699 --> 00:15:40.310 align:start position:0%
+what's next if you want to create the
+SQL<00:15:39.180><c> for</c><00:15:39.360><c> this</c><00:15:39.480><c> to</c><00:15:39.720><c> set</c><00:15:39.839><c> up</c><00:15:40.019><c> your</c><00:15:40.199><c> own</c>
+
+00:15:40.310 --> 00:15:40.320 align:start position:0%
+SQL for this to set up your own
+ 
+
+00:15:40.320 --> 00:15:42.530 align:start position:0%
+SQL for this to set up your own
+eCommerce<00:15:40.860><c> database</c><00:15:41.339><c> check</c><00:15:42.000><c> out</c><00:15:42.180><c> my</c><00:15:42.420><c> video</c>
+
+00:15:42.530 --> 00:15:42.540 align:start position:0%
+eCommerce database check out my video
+ 
+
+00:15:42.540 --> 00:15:44.689 align:start position:0%
+eCommerce database check out my video
+here<00:15:42.839><c> which</c><00:15:43.139><c> is</c><00:15:43.259><c> about</c><00:15:43.440><c> creating</c><00:15:43.980><c> an</c><00:15:44.220><c> SQL</c>
+
+00:15:44.689 --> 00:15:44.699 align:start position:0%
+here which is about creating an SQL
+ 
+
+00:15:44.699 --> 00:15:47.449 align:start position:0%
+here which is about creating an SQL
+database<00:15:45.120><c> based</c><00:15:45.720><c> on</c><00:15:45.779><c> a</c><00:15:45.899><c> database</c><00:15:46.320><c> design</c>
+
+00:15:47.449 --> 00:15:47.459 align:start position:0%
+database based on a database design
+ 
+
+00:15:47.459 --> 00:15:49.310 align:start position:0%
+database based on a database design
+I<00:15:47.880><c> don't</c><00:15:47.940><c> have</c><00:15:48.120><c> the</c><00:15:48.300><c> SQL</c><00:15:48.720><c> for</c><00:15:48.959><c> this</c><00:15:49.139><c> design</c>
+
+00:15:49.310 --> 00:15:49.320 align:start position:0%
+I don't have the SQL for this design
+ 
+
+00:15:49.320 --> 00:15:51.769 align:start position:0%
+I don't have the SQL for this design
+specifically<00:15:50.100><c> but</c><00:15:50.699><c> if</c><00:15:50.880><c> I</c><00:15:51.060><c> add</c><00:15:51.180><c> it</c><00:15:51.300><c> later</c><00:15:51.480><c> it</c>
+
+00:15:51.769 --> 00:15:51.779 align:start position:0%
+specifically but if I add it later it
+ 
+
+00:15:51.779 --> 00:15:53.689 align:start position:0%
+specifically but if I add it later it
+will<00:15:51.959><c> be</c><00:15:52.079><c> in</c><00:15:52.320><c> the</c><00:15:52.380><c> description</c>
+
+00:15:53.689 --> 00:15:53.699 align:start position:0%
+will be in the description
+ 
+
+00:15:53.699 --> 00:15:55.430 align:start position:0%
+will be in the description
+if<00:15:54.060><c> you</c><00:15:54.180><c> want</c><00:15:54.300><c> to</c><00:15:54.420><c> learn</c><00:15:54.540><c> more</c><00:15:54.720><c> about</c><00:15:54.899><c> database</c>
+
+00:15:55.430 --> 00:15:55.440 align:start position:0%
+if you want to learn more about database
+ 
+
+00:15:55.440 --> 00:15:57.889 align:start position:0%
+if you want to learn more about database
+design<00:15:55.680><c> and</c><00:15:56.040><c> SQL</c><00:15:56.519><c> visit</c><00:15:57.120><c> my</c><00:15:57.420><c> website</c><00:15:57.660><c> at</c>
+
+00:15:57.889 --> 00:15:57.899 align:start position:0%
+design and SQL visit my website at
+ 
+
+00:15:57.899 --> 00:15:59.689 align:start position:0%
+design and SQL visit my website at
+databasestar.com
+
+00:15:59.689 --> 00:15:59.699 align:start position:0%
+databasestar.com
+ 
+
+00:15:59.699 --> 00:16:01.430 align:start position:0%
+databasestar.com
+if<00:16:00.060><c> you</c><00:16:00.180><c> like</c><00:16:00.360><c> this</c><00:16:00.540><c> video</c><00:16:00.720><c> consider</c>
+
+00:16:01.430 --> 00:16:01.440 align:start position:0%
+if you like this video consider
+ 
+
+00:16:01.440 --> 00:16:02.870 align:start position:0%
+if you like this video consider
+subscribing<00:16:01.860><c> to</c><00:16:02.040><c> my</c><00:16:02.160><c> channel</c>
+
+00:16:02.870 --> 00:16:02.880 align:start position:0%
+subscribing to my channel
+ 
+
+00:16:02.880 --> 00:16:05.839 align:start position:0%
+subscribing to my channel
+thanks<00:16:03.300><c> for</c><00:16:03.480><c> watching</c>
+

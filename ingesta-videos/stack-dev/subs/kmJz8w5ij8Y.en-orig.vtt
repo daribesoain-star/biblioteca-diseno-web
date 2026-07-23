@@ -1,0 +1,2768 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.400 --> 00:00:02.470 align:start position:0%
+ 
+In<00:00:00.640><c> this</c><00:00:00.880><c> video,</c><00:00:01.120><c> we</c><00:00:01.280><c> will</c><00:00:01.439><c> look</c><00:00:01.600><c> at</c><00:00:01.839><c> 15</c>
+
+00:00:02.470 --> 00:00:02.480 align:start position:0%
+In this video, we will look at 15
+ 
+
+00:00:02.480 --> 00:00:04.870 align:start position:0%
+In this video, we will look at 15
+essential<00:00:02.879><c> best</c><00:00:03.200><c> practices</c><00:00:03.679><c> for</c><00:00:03.919><c> fast</c><00:00:04.240><c> API.</c>
+
+00:00:04.870 --> 00:00:04.880 align:start position:0%
+essential best practices for fast API.
+ 
+
+00:00:04.880 --> 00:00:07.190 align:start position:0%
+essential best practices for fast API.
+These<00:00:05.200><c> are</c><00:00:05.359><c> tips</c><00:00:05.680><c> every</c><00:00:06.000><c> Fast</c><00:00:06.240><c> API</c><00:00:06.720><c> developer</c>
+
+00:00:07.190 --> 00:00:07.200 align:start position:0%
+These are tips every Fast API developer
+ 
+
+00:00:07.200 --> 00:00:08.950 align:start position:0%
+These are tips every Fast API developer
+should<00:00:07.359><c> know,</c><00:00:07.680><c> covering</c><00:00:08.160><c> everything</c><00:00:08.559><c> from</c>
+
+00:00:08.950 --> 00:00:08.960 align:start position:0%
+should know, covering everything from
+ 
+
+00:00:08.960 --> 00:00:11.589 align:start position:0%
+should know, covering everything from
+async<00:00:09.440><c> rules</c><00:00:09.760><c> and</c><00:00:10.000><c> database</c><00:00:10.480><c> connections</c><00:00:11.280><c> to</c>
+
+00:00:11.589 --> 00:00:11.599 align:start position:0%
+async rules and database connections to
+ 
+
+00:00:11.599 --> 00:00:13.990 align:start position:0%
+async rules and database connections to
+logging,<00:00:12.240><c> background</c><00:00:12.719><c> tasks</c><00:00:13.360><c> and</c><00:00:13.679><c> even</c>
+
+00:00:13.990 --> 00:00:14.000 align:start position:0%
+logging, background tasks and even
+ 
+
+00:00:14.000 --> 00:00:15.829 align:start position:0%
+logging, background tasks and even
+deployments.<00:00:14.719><c> By</c><00:00:15.040><c> following</c><00:00:15.360><c> these,</c><00:00:15.599><c> you</c>
+
+00:00:15.829 --> 00:00:15.839 align:start position:0%
+deployments. By following these, you
+ 
+
+00:00:15.839 --> 00:00:17.510 align:start position:0%
+deployments. By following these, you
+will<00:00:15.920><c> be</c><00:00:16.000><c> able</c><00:00:16.240><c> to</c><00:00:16.320><c> avoid</c><00:00:16.640><c> common</c><00:00:16.960><c> mistakes</c>
+
+00:00:17.510 --> 00:00:17.520 align:start position:0%
+will be able to avoid common mistakes
+ 
+
+00:00:17.520 --> 00:00:19.670 align:start position:0%
+will be able to avoid common mistakes
+and<00:00:17.840><c> build</c><00:00:18.160><c> applications</c><00:00:18.800><c> that</c><00:00:19.119><c> are</c><00:00:19.359><c> both</c>
+
+00:00:19.670 --> 00:00:19.680 align:start position:0%
+and build applications that are both
+ 
+
+00:00:19.680 --> 00:00:21.830 align:start position:0%
+and build applications that are both
+higherforming<00:00:20.720><c> and</c><00:00:21.039><c> truly</c><00:00:21.439><c> production</c>
+
+00:00:21.830 --> 00:00:21.840 align:start position:0%
+higherforming and truly production
+ 
+
+00:00:21.840 --> 00:00:24.790 align:start position:0%
+higherforming and truly production
+ready.<00:00:22.480><c> Number</c><00:00:22.800><c> one,</c><00:00:23.439><c> never</c><00:00:23.840><c> use</c><00:00:24.160><c> async</c><00:00:24.560><c> deaf</c>
+
+00:00:24.790 --> 00:00:24.800 align:start position:0%
+ready. Number one, never use async deaf
+ 
+
+00:00:24.800 --> 00:00:26.870 align:start position:0%
+ready. Number one, never use async deaf
+for<00:00:25.039><c> blocking</c><00:00:25.359><c> operations.</c><00:00:26.160><c> In</c><00:00:26.400><c> Python,</c>
+
+00:00:26.870 --> 00:00:26.880 align:start position:0%
+for blocking operations. In Python,
+ 
+
+00:00:26.880 --> 00:00:29.029 align:start position:0%
+for blocking operations. In Python,
+blocking<00:00:27.279><c> operation</c><00:00:27.680><c> are</c><00:00:27.920><c> tasks</c><00:00:28.400><c> that</c><00:00:28.800><c> make</c>
+
+00:00:29.029 --> 00:00:29.039 align:start position:0%
+blocking operation are tasks that make
+ 
+
+00:00:29.039 --> 00:00:30.710 align:start position:0%
+blocking operation are tasks that make
+your<00:00:29.199><c> program</c><00:00:29.599><c> wait</c><00:00:30.000><c> until</c><00:00:30.320><c> they</c><00:00:30.480><c> are</c>
+
+00:00:30.710 --> 00:00:30.720 align:start position:0%
+your program wait until they are
+ 
+
+00:00:30.720 --> 00:00:32.870 align:start position:0%
+your program wait until they are
+finished<00:00:31.199><c> before</c><00:00:31.519><c> moving</c><00:00:31.760><c> on.</c><00:00:32.239><c> For</c><00:00:32.399><c> example,</c>
+
+00:00:32.870 --> 00:00:32.880 align:start position:0%
+finished before moving on. For example,
+ 
+
+00:00:32.880 --> 00:00:34.709 align:start position:0%
+finished before moving on. For example,
+times<00:00:33.360><c> sleep</c><00:00:33.600><c> will</c><00:00:33.760><c> pause</c><00:00:34.000><c> your</c><00:00:34.239><c> program</c><00:00:34.480><c> for</c>
+
+00:00:34.709 --> 00:00:34.719 align:start position:0%
+times sleep will pause your program for
+ 
+
+00:00:34.719 --> 00:00:37.030 align:start position:0%
+times sleep will pause your program for
+10<00:00:34.960><c> seconds.</c><00:00:35.600><c> Other</c><00:00:35.920><c> common</c><00:00:36.239><c> examples</c>
+
+00:00:37.030 --> 00:00:37.040 align:start position:0%
+10 seconds. Other common examples
+ 
+
+00:00:37.040 --> 00:00:39.030 align:start position:0%
+10 seconds. Other common examples
+include<00:00:37.680><c> reading</c><00:00:38.000><c> from</c><00:00:38.239><c> or</c><00:00:38.480><c> writing</c><00:00:38.800><c> to</c>
+
+00:00:39.030 --> 00:00:39.040 align:start position:0%
+include reading from or writing to
+ 
+
+00:00:39.040 --> 00:00:41.350 align:start position:0%
+include reading from or writing to
+files,<00:00:39.680><c> making</c><00:00:40.079><c> HTTP</c><00:00:40.640><c> requests</c><00:00:41.120><c> with</c>
+
+00:00:41.350 --> 00:00:41.360 align:start position:0%
+files, making HTTP requests with
+ 
+
+00:00:41.360 --> 00:00:43.670 align:start position:0%
+files, making HTTP requests with
+libraries<00:00:41.920><c> like</c><00:00:42.160><c> requests,</c><00:00:42.960><c> or</c><00:00:43.200><c> performing</c>
+
+00:00:43.670 --> 00:00:43.680 align:start position:0%
+libraries like requests, or performing
+ 
+
+00:00:43.680 --> 00:00:45.510 align:start position:0%
+libraries like requests, or performing
+database<00:00:44.160><c> queries</c><00:00:44.559><c> using</c><00:00:44.960><c> synchronous</c>
+
+00:00:45.510 --> 00:00:45.520 align:start position:0%
+database queries using synchronous
+ 
+
+00:00:45.520 --> 00:00:47.350 align:start position:0%
+database queries using synchronous
+clients<00:00:46.000><c> such</c><00:00:46.239><c> as</c><00:00:46.879><c> client</c><00:00:47.200><c> from</c>
+
+00:00:47.350 --> 00:00:47.360 align:start position:0%
+clients such as client from
+ 
+
+00:00:47.360 --> 00:00:50.150 align:start position:0%
+clients such as client from
+Pyongo.<00:00:48.480><c> Now,</c><00:00:48.719><c> here's</c><00:00:49.039><c> the</c><00:00:49.200><c> crucial</c><00:00:49.600><c> part.</c>
+
+00:00:50.150 --> 00:00:50.160 align:start position:0%
+Pyongo. Now, here's the crucial part.
+ 
+
+00:00:50.160 --> 00:00:52.869 align:start position:0%
+Pyongo. Now, here's the crucial part.
+Fast<00:00:50.480><c> API</c><00:00:50.960><c> runs</c><00:00:51.280><c> endpoint</c><00:00:51.840><c> functions</c><00:00:52.480><c> defined</c>
+
+00:00:52.869 --> 00:00:52.879 align:start position:0%
+Fast API runs endpoint functions defined
+ 
+
+00:00:52.879 --> 00:00:55.510 align:start position:0%
+Fast API runs endpoint functions defined
+with<00:00:53.199><c> asyndev</c><00:00:53.840><c> in</c><00:00:54.000><c> the</c><00:00:54.160><c> main</c><00:00:54.480><c> thread.</c><00:00:55.120><c> If</c><00:00:55.360><c> you</c>
+
+00:00:55.510 --> 00:00:55.520 align:start position:0%
+with asyndev in the main thread. If you
+ 
+
+00:00:55.520 --> 00:00:57.830 align:start position:0%
+with asyndev in the main thread. If you
+put<00:00:55.680><c> these</c><00:00:56.000><c> blocking</c><00:00:56.399><c> operations</c><00:00:56.960><c> inside</c><00:00:57.440><c> an</c>
+
+00:00:57.830 --> 00:00:57.840 align:start position:0%
+put these blocking operations inside an
+ 
+
+00:00:57.840 --> 00:00:59.990 align:start position:0%
+put these blocking operations inside an
+async<00:00:58.239><c> dev</c><00:00:58.480><c> function,</c><00:00:59.120><c> your</c><00:00:59.440><c> application</c>
+
+00:00:59.990 --> 00:01:00.000 align:start position:0%
+async dev function, your application
+ 
+
+00:01:00.000 --> 00:01:02.150 align:start position:0%
+async dev function, your application
+will<00:01:00.239><c> become</c><00:01:00.559><c> unresponsive.</c><00:01:01.680><c> It</c><00:01:01.840><c> won't</c><00:01:02.079><c> be</c>
+
+00:01:02.150 --> 00:01:02.160 align:start position:0%
+will become unresponsive. It won't be
+ 
+
+00:01:02.160 --> 00:01:04.390 align:start position:0%
+will become unresponsive. It won't be
+able<00:01:02.320><c> to</c><00:01:02.480><c> process</c><00:01:02.879><c> other</c><00:01:03.199><c> requests</c><00:01:03.840><c> until</c>
+
+00:01:04.390 --> 00:01:04.400 align:start position:0%
+able to process other requests until
+ 
+
+00:01:04.400 --> 00:01:06.630 align:start position:0%
+able to process other requests until
+that<00:01:04.720><c> blocking</c><00:01:05.199><c> operation</c><00:01:05.600><c> finishes.</c><00:01:06.400><c> The</c>
+
+00:01:06.630 --> 00:01:06.640 align:start position:0%
+that blocking operation finishes. The
+ 
+
+00:01:06.640 --> 00:01:08.550 align:start position:0%
+that blocking operation finishes. The
+solution<00:01:06.960><c> is</c><00:01:07.200><c> simple.</c><00:01:07.840><c> Define</c><00:01:08.159><c> these</c>
+
+00:01:08.550 --> 00:01:08.560 align:start position:0%
+solution is simple. Define these
+ 
+
+00:01:08.560 --> 00:01:10.390 align:start position:0%
+solution is simple. Define these
+functions<00:01:08.880><c> using</c><00:01:09.200><c> a</c><00:01:09.360><c> regular</c><00:01:09.760><c> defaf</c><00:01:10.000><c> keyword</c>
+
+00:01:10.390 --> 00:01:10.400 align:start position:0%
+functions using a regular defaf keyword
+ 
+
+00:01:10.400 --> 00:01:13.109 align:start position:0%
+functions using a regular defaf keyword
+instead<00:01:10.720><c> of</c><00:01:10.960><c> async</c><00:01:11.439><c> defaf.</c><00:01:12.240><c> Fast</c><00:01:12.560><c> API</c><00:01:12.960><c> is</c>
+
+00:01:13.109 --> 00:01:13.119 align:start position:0%
+instead of async defaf. Fast API is
+ 
+
+00:01:13.119 --> 00:01:14.950 align:start position:0%
+instead of async defaf. Fast API is
+designed<00:01:13.520><c> to</c><00:01:13.920><c> recognize</c><00:01:14.400><c> that</c><00:01:14.640><c> you</c><00:01:14.799><c> are</c>
+
+00:01:14.950 --> 00:01:14.960 align:start position:0%
+designed to recognize that you are
+ 
+
+00:01:14.960 --> 00:01:16.630 align:start position:0%
+designed to recognize that you are
+performing<00:01:15.439><c> blocking</c><00:01:15.840><c> operation</c><00:01:16.320><c> within</c>
+
+00:01:16.630 --> 00:01:16.640 align:start position:0%
+performing blocking operation within
+ 
+
+00:01:16.640 --> 00:01:18.870 align:start position:0%
+performing blocking operation within
+these<00:01:17.119><c> deaf</c><00:01:17.600><c> endpoints</c><00:01:18.320><c> and</c><00:01:18.560><c> it</c><00:01:18.720><c> will</c>
+
+00:01:18.870 --> 00:01:18.880 align:start position:0%
+these deaf endpoints and it will
+ 
+
+00:01:18.880 --> 00:01:20.550 align:start position:0%
+these deaf endpoints and it will
+intelligently<00:01:19.600><c> run</c><00:01:19.759><c> them</c><00:01:20.000><c> in</c><00:01:20.159><c> separate</c>
+
+00:01:20.550 --> 00:01:20.560 align:start position:0%
+intelligently run them in separate
+ 
+
+00:01:20.560 --> 00:01:22.550 align:start position:0%
+intelligently run them in separate
+threads.<00:01:21.280><c> This</c><00:01:21.520><c> way</c><00:01:21.680><c> your</c><00:01:21.920><c> fast</c><00:01:22.159><c> API</c>
+
+00:01:22.550 --> 00:01:22.560 align:start position:0%
+threads. This way your fast API
+ 
+
+00:01:22.560 --> 00:01:24.710 align:start position:0%
+threads. This way your fast API
+application<00:01:23.040><c> remains</c><00:01:23.439><c> responsive.</c><00:01:24.479><c> Number</c>
+
+00:01:24.710 --> 00:01:24.720 align:start position:0%
+application remains responsive. Number
+ 
+
+00:01:24.720 --> 00:01:27.270 align:start position:0%
+application remains responsive. Number
+two,<00:01:25.119><c> use</c><00:01:25.439><c> async</c><00:01:25.920><c> friendly</c><00:01:26.240><c> code</c><00:01:26.640><c> to</c><00:01:26.880><c> get</c><00:01:27.040><c> the</c>
+
+00:01:27.270 --> 00:01:27.280 align:start position:0%
+two, use async friendly code to get the
+ 
+
+00:01:27.280 --> 00:01:29.190 align:start position:0%
+two, use async friendly code to get the
+most<00:01:27.520><c> performance</c><00:01:28.000><c> out</c><00:01:28.159><c> of</c><00:01:28.240><c> your</c><00:01:28.400><c> fast</c><00:01:28.720><c> API</c>
+
+00:01:29.190 --> 00:01:29.200 align:start position:0%
+most performance out of your fast API
+ 
+
+00:01:29.200 --> 00:01:31.830 align:start position:0%
+most performance out of your fast API
+application.<00:01:30.080><c> Use</c><00:01:30.400><c> non-blocking</c><00:01:31.119><c> libraries</c>
+
+00:01:31.830 --> 00:01:31.840 align:start position:0%
+application. Use non-blocking libraries
+ 
+
+00:01:31.840 --> 00:01:33.910 align:start position:0%
+application. Use non-blocking libraries
+as<00:01:32.159><c> much</c><00:01:32.320><c> as</c><00:01:32.560><c> possible.</c><00:01:32.960><c> So</c><00:01:33.119><c> you</c><00:01:33.360><c> can</c><00:01:33.520><c> declare</c>
+
+00:01:33.910 --> 00:01:33.920 align:start position:0%
+as much as possible. So you can declare
+ 
+
+00:01:33.920 --> 00:01:36.550 align:start position:0%
+as much as possible. So you can declare
+your<00:01:34.079><c> endpoints</c><00:01:34.560><c> as</c><00:01:34.880><c> async</c><00:01:35.280><c> endpoints.</c><00:01:36.159><c> Use</c>
+
+00:01:36.550 --> 00:01:36.560 align:start position:0%
+your endpoints as async endpoints. Use
+ 
+
+00:01:36.560 --> 00:01:40.230 align:start position:0%
+your endpoints as async endpoints. Use
+async<00:01:37.040><c> io.sleep</c><00:01:37.680><c> instead</c><00:01:37.920><c> of</c><00:01:38.159><c> time.</c><00:01:39.200><c> HTTPx</c>
+
+00:01:40.230 --> 00:01:40.240 align:start position:0%
+async io.sleep instead of time. HTTPx
+ 
+
+00:01:40.240 --> 00:01:41.990 align:start position:0%
+async io.sleep instead of time. HTTPx
+async<00:01:40.640><c> client</c><00:01:40.960><c> instead</c><00:01:41.280><c> of</c><00:01:41.439><c> the</c><00:01:41.680><c> request</c>
+
+00:01:41.990 --> 00:01:42.000 align:start position:0%
+async client instead of the request
+ 
+
+00:01:42.000 --> 00:01:44.789 align:start position:0%
+async client instead of the request
+module<00:01:42.640><c> and</c><00:01:43.040><c> motor</c><00:01:43.360><c> instead</c><00:01:43.680><c> of</c><00:01:43.840><c> pyongo.</c><00:01:44.560><c> I</c>
+
+00:01:44.789 --> 00:01:44.799 align:start position:0%
+module and motor instead of pyongo. I
+ 
+
+00:01:44.799 --> 00:01:46.789 align:start position:0%
+module and motor instead of pyongo. I
+hope<00:01:44.960><c> you</c><00:01:45.119><c> get</c><00:01:45.280><c> the</c><00:01:45.439><c> idea.</c><00:01:46.079><c> Number</c><00:01:46.320><c> three,</c>
+
+00:01:46.789 --> 00:01:46.799 align:start position:0%
+hope you get the idea. Number three,
+ 
+
+00:01:46.799 --> 00:01:49.109 align:start position:0%
+hope you get the idea. Number three,
+don't<00:01:47.119><c> do</c><00:01:47.360><c> heavy</c><00:01:47.680><c> computation</c><00:01:48.079><c> in</c><00:01:48.320><c> fast</c><00:01:48.640><c> API</c>
+
+00:01:49.109 --> 00:01:49.119 align:start position:0%
+don't do heavy computation in fast API
+ 
+
+00:01:49.119 --> 00:01:51.429 align:start position:0%
+don't do heavy computation in fast API
+endpoints<00:01:49.759><c> or</c><00:01:50.000><c> you</c><00:01:50.240><c> will</c><00:01:50.399><c> block</c><00:01:50.640><c> your</c><00:01:50.799><c> server.</c>
+
+00:01:51.429 --> 00:01:51.439 align:start position:0%
+endpoints or you will block your server.
+ 
+
+00:01:51.439 --> 00:01:53.670 align:start position:0%
+endpoints or you will block your server.
+Fast<00:01:51.759><c> API</c><00:01:52.240><c> is</c><00:01:52.399><c> designed</c><00:01:52.720><c> for</c><00:01:52.960><c> IO</c><00:01:53.360><c> bound</c>
+
+00:01:53.670 --> 00:01:53.680 align:start position:0%
+Fast API is designed for IO bound
+ 
+
+00:01:53.680 --> 00:01:56.230 align:start position:0%
+Fast API is designed for IO bound
+workloads.<00:01:54.399><c> So</c><00:01:54.560><c> avoid</c><00:01:54.960><c> processing</c><00:01:55.439><c> images</c><00:01:55.920><c> or</c>
+
+00:01:56.230 --> 00:01:56.240 align:start position:0%
+workloads. So avoid processing images or
+ 
+
+00:01:56.240 --> 00:01:58.389 align:start position:0%
+workloads. So avoid processing images or
+videos<00:01:56.560><c> or</c><00:01:56.880><c> running</c><00:01:57.119><c> heavy</c><00:01:57.439><c> machine</c><00:01:57.759><c> learning</c>
+
+00:01:58.389 --> 00:01:58.399 align:start position:0%
+videos or running heavy machine learning
+ 
+
+00:01:58.399 --> 00:02:00.389 align:start position:0%
+videos or running heavy machine learning
+models<00:01:58.880><c> directly</c><00:01:59.200><c> in</c><00:01:59.439><c> your</c><00:01:59.600><c> endpoint.</c><00:02:00.159><c> The</c>
+
+00:02:00.389 --> 00:02:00.399 align:start position:0%
+models directly in your endpoint. The
+ 
+
+00:02:00.399 --> 00:02:02.149 align:start position:0%
+models directly in your endpoint. The
+reason<00:02:00.560><c> is</c><00:02:00.719><c> that</c><00:02:00.960><c> your</c><00:02:01.200><c> application</c><00:02:01.759><c> will</c><00:02:02.000><c> be</c>
+
+00:02:02.149 --> 00:02:02.159 align:start position:0%
+reason is that your application will be
+ 
+
+00:02:02.159 --> 00:02:03.830 align:start position:0%
+reason is that your application will be
+unresponsive<00:02:02.880><c> for</c><00:02:03.119><c> as</c><00:02:03.360><c> long</c><00:02:03.520><c> as</c><00:02:03.680><c> the</c>
+
+00:02:03.830 --> 00:02:03.840 align:start position:0%
+unresponsive for as long as the
+ 
+
+00:02:03.840 --> 00:02:05.510 align:start position:0%
+unresponsive for as long as the
+computation<00:02:04.320><c> runs.</c><00:02:04.880><c> What</c><00:02:05.040><c> should</c><00:02:05.200><c> you</c><00:02:05.439><c> do</c>
+
+00:02:05.510 --> 00:02:05.520 align:start position:0%
+computation runs. What should you do
+ 
+
+00:02:05.520 --> 00:02:08.070 align:start position:0%
+computation runs. What should you do
+instead?<00:02:06.079><c> If</c><00:02:06.240><c> your</c><00:02:06.399><c> ML</c><00:02:06.799><c> model</c><00:02:07.040><c> is</c><00:02:07.280><c> lightweight</c>
+
+00:02:08.070 --> 00:02:08.080 align:start position:0%
+instead? If your ML model is lightweight
+ 
+
+00:02:08.080 --> 00:02:10.630 align:start position:0%
+instead? If your ML model is lightweight
+and<00:02:08.399><c> inference</c><00:02:08.800><c> is</c><00:02:09.039><c> fast,</c><00:02:09.759><c> say</c><00:02:10.000><c> under</c><00:02:10.319><c> 100</c>
+
+00:02:10.630 --> 00:02:10.640 align:start position:0%
+and inference is fast, say under 100
+ 
+
+00:02:10.640 --> 00:02:13.110 align:start position:0%
+and inference is fast, say under 100
+milliseconds<00:02:11.440><c> with</c><00:02:11.680><c> low</c><00:02:12.000><c> traffic</c><00:02:12.560><c> or</c><00:02:12.800><c> if</c><00:02:12.959><c> you</c>
+
+00:02:13.110 --> 00:02:13.120 align:start position:0%
+milliseconds with low traffic or if you
+ 
+
+00:02:13.120 --> 00:02:15.190 align:start position:0%
+milliseconds with low traffic or if you
+are<00:02:13.280><c> just</c><00:02:13.599><c> prototyping,</c><00:02:14.640><c> uh</c><00:02:14.720><c> you</c><00:02:14.879><c> can</c><00:02:15.040><c> get</c>
+
+00:02:15.190 --> 00:02:15.200 align:start position:0%
+are just prototyping, uh you can get
+ 
+
+00:02:15.200 --> 00:02:17.270 align:start position:0%
+are just prototyping, uh you can get
+away<00:02:15.440><c> with</c><00:02:15.599><c> using</c><00:02:15.920><c> fast</c><00:02:16.160><c> API</c><00:02:16.640><c> directly.</c><00:02:17.040><c> But</c>
+
+00:02:17.270 --> 00:02:17.280 align:start position:0%
+away with using fast API directly. But
+ 
+
+00:02:17.280 --> 00:02:19.830 align:start position:0%
+away with using fast API directly. But
+for<00:02:17.520><c> heavier</c><00:02:17.920><c> ML</c><00:02:18.319><c> models,</c><00:02:19.040><c> use</c><00:02:19.280><c> dedicated</c>
+
+00:02:19.830 --> 00:02:19.840 align:start position:0%
+for heavier ML models, use dedicated
+ 
+
+00:02:19.840 --> 00:02:21.589 align:start position:0%
+for heavier ML models, use dedicated
+inference<00:02:20.239><c> engines</c><00:02:20.720><c> like</c><00:02:20.959><c> Triton,</c>
+
+00:02:21.589 --> 00:02:21.599 align:start position:0%
+inference engines like Triton,
+ 
+
+00:02:21.599 --> 00:02:23.990 align:start position:0%
+inference engines like Triton,
+TensorFlow<00:02:22.239><c> serving</c><00:02:22.720><c> or</c><00:02:23.040><c> torch</c><00:02:23.360><c> serve</c><00:02:23.760><c> and</c>
+
+00:02:23.990 --> 00:02:24.000 align:start position:0%
+TensorFlow serving or torch serve and
+ 
+
+00:02:24.000 --> 00:02:26.470 align:start position:0%
+TensorFlow serving or torch serve and
+then<00:02:24.160><c> use</c><00:02:24.480><c> fast</c><00:02:24.800><c> API</c><00:02:25.120><c> to</c><00:02:25.280><c> validate</c><00:02:25.760><c> inputs</c><00:02:26.160><c> and</c>
+
+00:02:26.470 --> 00:02:26.480 align:start position:0%
+then use fast API to validate inputs and
+ 
+
+00:02:26.480 --> 00:02:29.190 align:start position:0%
+then use fast API to validate inputs and
+route<00:02:26.800><c> the</c><00:02:27.040><c> request.</c><00:02:27.680><c> For</c><00:02:27.920><c> truly</c><00:02:28.480><c> longunning</c>
+
+00:02:29.190 --> 00:02:29.200 align:start position:0%
+route the request. For truly longunning
+ 
+
+00:02:29.200 --> 00:02:31.430 align:start position:0%
+route the request. For truly longunning
+computation,<00:02:29.760><c> use</c><00:02:29.920><c> a</c><00:02:30.080><c> Q</c><00:02:30.319><c> plus</c><00:02:30.640><c> worker</c><00:02:31.040><c> system.</c>
+
+00:02:31.430 --> 00:02:31.440 align:start position:0%
+computation, use a Q plus worker system.
+ 
+
+00:02:31.440 --> 00:02:33.830 align:start position:0%
+computation, use a Q plus worker system.
+When<00:02:31.760><c> client</c><00:02:32.000><c> sends</c><00:02:32.319><c> a</c><00:02:32.560><c> request</c><00:02:32.720><c> to</c><00:02:32.879><c> fast</c><00:02:33.200><c> API,</c>
+
+00:02:33.830 --> 00:02:33.840 align:start position:0%
+When client sends a request to fast API,
+ 
+
+00:02:33.840 --> 00:02:36.309 align:start position:0%
+When client sends a request to fast API,
+fast<00:02:34.160><c> API</c><00:02:34.480><c> ences</c><00:02:34.959><c> a</c><00:02:35.120><c> job</c><00:02:35.280><c> to</c><00:02:35.440><c> a</c><00:02:35.599><c> message</c><00:02:35.920><c> broker</c>
+
+00:02:36.309 --> 00:02:36.319 align:start position:0%
+fast API ences a job to a message broker
+ 
+
+00:02:36.319 --> 00:02:38.869 align:start position:0%
+fast API ences a job to a message broker
+like<00:02:36.640><c> Rabbit</c><00:02:37.040><c> MQ,</c><00:02:37.680><c> a</c><00:02:38.000><c> separate</c><00:02:38.319><c> worker,</c>
+
+00:02:38.869 --> 00:02:38.879 align:start position:0%
+like Rabbit MQ, a separate worker,
+ 
+
+00:02:38.879 --> 00:02:40.869 align:start position:0%
+like Rabbit MQ, a separate worker,
+example<00:02:39.360><c> salary,</c><00:02:39.840><c> pulls</c><00:02:40.080><c> the</c><00:02:40.319><c> job</c><00:02:40.560><c> from</c><00:02:40.720><c> the</c>
+
+00:02:40.869 --> 00:02:40.879 align:start position:0%
+example salary, pulls the job from the
+ 
+
+00:02:40.879 --> 00:02:43.110 align:start position:0%
+example salary, pulls the job from the
+queue,<00:02:41.280><c> runs</c><00:02:41.519><c> the</c><00:02:41.680><c> heavy</c><00:02:42.000><c> computation</c><00:02:42.480><c> on</c><00:02:42.720><c> CPU</c>
+
+00:02:43.110 --> 00:02:43.120 align:start position:0%
+queue, runs the heavy computation on CPU
+ 
+
+00:02:43.120 --> 00:02:45.589 align:start position:0%
+queue, runs the heavy computation on CPU
+or<00:02:43.360><c> GPU</c><00:02:43.680><c> nodes</c><00:02:44.319><c> and</c><00:02:44.640><c> stores</c><00:02:44.879><c> the</c><00:02:45.120><c> result</c><00:02:45.280><c> in</c><00:02:45.440><c> a</c>
+
+00:02:45.589 --> 00:02:45.599 align:start position:0%
+or GPU nodes and stores the result in a
+ 
+
+00:02:45.599 --> 00:02:47.670 align:start position:0%
+or GPU nodes and stores the result in a
+database.<00:02:46.239><c> By</c><00:02:46.480><c> the</c><00:02:46.560><c> way,</c><00:02:46.640><c> if</c><00:02:46.879><c> your</c><00:02:47.040><c> fast</c><00:02:47.360><c> API</c>
+
+00:02:47.670 --> 00:02:47.680 align:start position:0%
+database. By the way, if your fast API
+ 
+
+00:02:47.680 --> 00:02:49.509 align:start position:0%
+database. By the way, if your fast API
+app<00:02:47.840><c> is</c><00:02:48.080><c> slow,</c><00:02:48.400><c> you'd</c><00:02:48.720><c> like</c><00:02:48.879><c> me</c><00:02:49.040><c> to</c><00:02:49.200><c> take</c><00:02:49.360><c> a</c>
+
+00:02:49.509 --> 00:02:49.519 align:start position:0%
+app is slow, you'd like me to take a
+ 
+
+00:02:49.519 --> 00:02:51.750 align:start position:0%
+app is slow, you'd like me to take a
+load,<00:02:49.680><c> just</c><00:02:49.840><c> send</c><00:02:50.000><c> me</c><00:02:50.160><c> an</c><00:02:50.400><c> email</c><00:02:50.640><c> here.</c><00:02:51.519><c> Number</c>
+
+00:02:51.750 --> 00:02:51.760 align:start position:0%
+load, just send me an email here. Number
+ 
+
+00:02:51.760 --> 00:02:53.830 align:start position:0%
+load, just send me an email here. Number
+four,<00:02:52.160><c> the</c><00:02:52.400><c> previous</c><00:02:52.800><c> rules</c><00:02:53.040><c> for</c><00:02:53.280><c> endpoints</c>
+
+00:02:53.830 --> 00:02:53.840 align:start position:0%
+four, the previous rules for endpoints
+ 
+
+00:02:53.840 --> 00:02:56.470 align:start position:0%
+four, the previous rules for endpoints
+also<00:02:54.160><c> applies</c><00:02:54.480><c> to</c><00:02:54.640><c> fast</c><00:02:54.879><c> API</c><00:02:55.360><c> dependencies.</c>
+
+00:02:56.470 --> 00:02:56.480 align:start position:0%
+also applies to fast API dependencies.
+ 
+
+00:02:56.480 --> 00:02:58.630 align:start position:0%
+also applies to fast API dependencies.
+Define<00:02:56.800><c> your</c><00:02:57.120><c> dependency</c><00:02:57.680><c> with</c><00:02:57.920><c> defaf</c><00:02:58.239><c> if</c><00:02:58.480><c> you</c>
+
+00:02:58.630 --> 00:02:58.640 align:start position:0%
+Define your dependency with defaf if you
+ 
+
+00:02:58.640 --> 00:03:00.710 align:start position:0%
+Define your dependency with defaf if you
+are<00:02:58.800><c> doing</c><00:02:58.959><c> any</c><00:02:59.280><c> blocking</c><00:02:59.680><c> operation</c><00:03:00.000><c> inside.</c>
+
+00:03:00.710 --> 00:03:00.720 align:start position:0%
+are doing any blocking operation inside.
+ 
+
+00:03:00.720 --> 00:03:02.790 align:start position:0%
+are doing any blocking operation inside.
+Use<00:03:01.280><c> async</c><00:03:01.680><c> defaf</c><00:03:01.840><c> if</c><00:03:02.080><c> it's</c><00:03:02.239><c> lightweight,</c>
+
+00:03:02.790 --> 00:03:02.800 align:start position:0%
+Use async defaf if it's lightweight,
+ 
+
+00:03:02.800 --> 00:03:05.990 align:start position:0%
+Use async defaf if it's lightweight,
+CPUbound,<00:03:03.519><c> and</c><00:03:03.760><c> entirely</c><00:03:04.480><c> non-blocking</c><00:03:05.519><c> and</c>
+
+00:03:05.990 --> 00:03:06.000 align:start position:0%
+CPUbound, and entirely non-blocking and
+ 
+
+00:03:06.000 --> 00:03:07.589 align:start position:0%
+CPUbound, and entirely non-blocking and
+don't<00:03:06.319><c> perform</c><00:03:06.640><c> any</c><00:03:06.879><c> heavy</c><00:03:07.200><c> computation</c>
+
+00:03:07.589 --> 00:03:07.599 align:start position:0%
+don't perform any heavy computation
+ 
+
+00:03:07.599 --> 00:03:09.990 align:start position:0%
+don't perform any heavy computation
+inside<00:03:07.920><c> your</c><00:03:08.159><c> dependency.</c><00:03:09.200><c> Number</c><00:03:09.519><c> five,</c>
+
+00:03:09.990 --> 00:03:10.000 align:start position:0%
+inside your dependency. Number five,
+ 
+
+00:03:10.000 --> 00:03:12.229 align:start position:0%
+inside your dependency. Number five,
+don't<00:03:10.319><c> make</c><00:03:10.480><c> your</c><00:03:10.720><c> users</c><00:03:11.120><c> wet.</c><00:03:11.760><c> When</c><00:03:12.000><c> you</c><00:03:12.080><c> have</c>
+
+00:03:12.229 --> 00:03:12.239 align:start position:0%
+don't make your users wet. When you have
+ 
+
+00:03:12.239 --> 00:03:13.910 align:start position:0%
+don't make your users wet. When you have
+operation<00:03:12.720><c> that</c><00:03:12.959><c> don't</c><00:03:13.200><c> need</c><00:03:13.280><c> to</c><00:03:13.440><c> block</c><00:03:13.680><c> the</c>
+
+00:03:13.910 --> 00:03:13.920 align:start position:0%
+operation that don't need to block the
+ 
+
+00:03:13.920 --> 00:03:15.830 align:start position:0%
+operation that don't need to block the
+client<00:03:14.159><c> from</c><00:03:14.400><c> getting</c><00:03:14.640><c> a</c><00:03:14.800><c> response,</c><00:03:15.599><c> things</c>
+
+00:03:15.830 --> 00:03:15.840 align:start position:0%
+client from getting a response, things
+ 
+
+00:03:15.840 --> 00:03:17.750 align:start position:0%
+client from getting a response, things
+like<00:03:16.080><c> sending</c><00:03:16.400><c> a</c><00:03:16.640><c> confirmation</c><00:03:17.120><c> email</c><00:03:17.440><c> or</c>
+
+00:03:17.750 --> 00:03:17.760 align:start position:0%
+like sending a confirmation email or
+ 
+
+00:03:17.760 --> 00:03:19.990 align:start position:0%
+like sending a confirmation email or
+logging<00:03:18.159><c> event,</c><00:03:18.959><c> you</c><00:03:19.200><c> should</c><00:03:19.360><c> avoid</c><00:03:19.760><c> making</c>
+
+00:03:19.990 --> 00:03:20.000 align:start position:0%
+logging event, you should avoid making
+ 
+
+00:03:20.000 --> 00:03:21.910 align:start position:0%
+logging event, you should avoid making
+the<00:03:20.239><c> client</c><00:03:20.560><c> wait</c><00:03:20.879><c> by</c><00:03:21.120><c> doing</c><00:03:21.360><c> it</c><00:03:21.519><c> in</c><00:03:21.760><c> the</c>
+
+00:03:21.910 --> 00:03:21.920 align:start position:0%
+the client wait by doing it in the
+ 
+
+00:03:21.920 --> 00:03:24.550 align:start position:0%
+the client wait by doing it in the
+endpoint.<00:03:22.720><c> Instead,</c><00:03:23.280><c> use</c><00:03:23.519><c> fast</c><00:03:23.840><c> API</c><00:03:24.239><c> built-in</c>
+
+00:03:24.550 --> 00:03:24.560 align:start position:0%
+endpoint. Instead, use fast API built-in
+ 
+
+00:03:24.560 --> 00:03:26.309 align:start position:0%
+endpoint. Instead, use fast API built-in
+background<00:03:24.959><c> task.</c><00:03:25.280><c> They</c><00:03:25.519><c> are</c><00:03:25.680><c> perfect</c><00:03:26.000><c> for</c>
+
+00:03:26.309 --> 00:03:26.319 align:start position:0%
+background task. They are perfect for
+ 
+
+00:03:26.319 --> 00:03:28.149 align:start position:0%
+background task. They are perfect for
+small<00:03:26.640><c> non-critical</c><00:03:27.360><c> fire</c><00:03:27.599><c> and</c><00:03:27.840><c> forget</c>
+
+00:03:28.149 --> 00:03:28.159 align:start position:0%
+small non-critical fire and forget
+ 
+
+00:03:28.159 --> 00:03:30.470 align:start position:0%
+small non-critical fire and forget
+tasks.<00:03:28.879><c> Since</c><00:03:29.200><c> these</c><00:03:29.519><c> background</c><00:03:29.920><c> tasks</c><00:03:30.239><c> run</c>
+
+00:03:30.470 --> 00:03:30.480 align:start position:0%
+tasks. Since these background tasks run
+ 
+
+00:03:30.480 --> 00:03:32.309 align:start position:0%
+tasks. Since these background tasks run
+within<00:03:30.799><c> the</c><00:03:30.959><c> same</c><00:03:31.120><c> event</c><00:03:31.360><c> loop</c><00:03:31.680><c> as</c><00:03:31.840><c> your</c><00:03:32.080><c> main</c>
+
+00:03:32.309 --> 00:03:32.319 align:start position:0%
+within the same event loop as your main
+ 
+
+00:03:32.319 --> 00:03:34.149 align:start position:0%
+within the same event loop as your main
+application,<00:03:33.120><c> you</c><00:03:33.280><c> will</c><00:03:33.440><c> want</c><00:03:33.599><c> to</c><00:03:33.760><c> follow</c><00:03:34.000><c> the</c>
+
+00:03:34.149 --> 00:03:34.159 align:start position:0%
+application, you will want to follow the
+ 
+
+00:03:34.159 --> 00:03:36.309 align:start position:0%
+application, you will want to follow the
+same<00:03:34.319><c> rules</c><00:03:34.640><c> for</c><00:03:34.879><c> deciding</c><00:03:35.440><c> between</c><00:03:35.920><c> async</c>
+
+00:03:36.309 --> 00:03:36.319 align:start position:0%
+same rules for deciding between async
+ 
+
+00:03:36.319 --> 00:03:38.789 align:start position:0%
+same rules for deciding between async
+defaf<00:03:36.640><c> and</c><00:03:36.959><c> defaf</c><00:03:37.360><c> when</c><00:03:37.680><c> defining</c><00:03:38.080><c> them.</c>
+
+00:03:38.789 --> 00:03:38.799 align:start position:0%
+defaf and defaf when defining them.
+ 
+
+00:03:38.799 --> 00:03:40.789 align:start position:0%
+defaf and defaf when defining them.
+However,<00:03:39.360><c> it's</c><00:03:39.680><c> crucial</c><00:03:40.000><c> to</c><00:03:40.239><c> understand</c><00:03:40.560><c> the</c>
+
+00:03:40.789 --> 00:03:40.799 align:start position:0%
+However, it's crucial to understand the
+ 
+
+00:03:40.799 --> 00:03:43.110 align:start position:0%
+However, it's crucial to understand the
+limitation.<00:03:41.760><c> Don't</c><00:03:42.000><c> use</c><00:03:42.239><c> background</c><00:03:42.640><c> task</c>
+
+00:03:43.110 --> 00:03:43.120 align:start position:0%
+limitation. Don't use background task
+ 
+
+00:03:43.120 --> 00:03:45.110 align:start position:0%
+limitation. Don't use background task
+for<00:03:43.440><c> anything</c><00:03:43.840><c> requiring</c><00:03:44.560><c> guaranteed</c>
+
+00:03:45.110 --> 00:03:45.120 align:start position:0%
+for anything requiring guaranteed
+ 
+
+00:03:45.120 --> 00:03:47.830 align:start position:0%
+for anything requiring guaranteed
+delivery,<00:03:45.760><c> retries,</c><00:03:46.319><c> or</c><00:03:46.560><c> tasks</c><00:03:47.040><c> that</c><00:03:47.360><c> run</c><00:03:47.599><c> for</c>
+
+00:03:47.830 --> 00:03:47.840 align:start position:0%
+delivery, retries, or tasks that run for
+ 
+
+00:03:47.840 --> 00:03:50.070 align:start position:0%
+delivery, retries, or tasks that run for
+a<00:03:48.080><c> long</c><00:03:48.400><c> duration.</c><00:03:48.959><c> For</c><00:03:49.200><c> those</c><00:03:49.440><c> more</c><00:03:49.680><c> robust</c>
+
+00:03:50.070 --> 00:03:50.080 align:start position:0%
+a long duration. For those more robust
+ 
+
+00:03:50.080 --> 00:03:52.229 align:start position:0%
+a long duration. For those more robust
+needs,<00:03:50.480><c> a</c><00:03:50.720><c> dedicated</c><00:03:51.360><c> message</c><00:03:51.760><c> queue</c><00:03:52.000><c> and</c>
+
+00:03:52.229 --> 00:03:52.239 align:start position:0%
+needs, a dedicated message queue and
+ 
+
+00:03:52.239 --> 00:03:54.229 align:start position:0%
+needs, a dedicated message queue and
+worker<00:03:52.640><c> system</c><00:03:52.959><c> like</c><00:03:53.200><c> salaries</c><00:03:53.760><c> is</c><00:03:53.920><c> still</c><00:03:54.080><c> the</c>
+
+00:03:54.229 --> 00:03:54.239 align:start position:0%
+worker system like salaries is still the
+ 
+
+00:03:54.239 --> 00:03:55.910 align:start position:0%
+worker system like salaries is still the
+superior<00:03:54.640><c> choice.</c><00:03:55.040><c> Remember,</c><00:03:55.280><c> if</c><00:03:55.519><c> your</c><00:03:55.680><c> fast</c>
+
+00:03:55.910 --> 00:03:55.920 align:start position:0%
+superior choice. Remember, if your fast
+ 
+
+00:03:55.920 --> 00:03:58.149 align:start position:0%
+superior choice. Remember, if your fast
+API<00:03:56.319><c> process</c><00:03:56.640><c> crashes</c><00:03:57.200><c> before</c><00:03:57.439><c> a</c><00:03:57.760><c> background</c>
+
+00:03:58.149 --> 00:03:58.159 align:start position:0%
+API process crashes before a background
+ 
+
+00:03:58.159 --> 00:04:00.789 align:start position:0%
+API process crashes before a background
+task<00:03:58.480><c> completes,</c><00:03:59.280><c> that</c><00:03:59.599><c> task</c><00:03:59.920><c> will</c><00:04:00.239><c> fail.</c>
+
+00:04:00.789 --> 00:04:00.799 align:start position:0%
+task completes, that task will fail.
+ 
+
+00:04:00.799 --> 00:04:03.030 align:start position:0%
+task completes, that task will fail.
+Number<00:04:01.120><c> six,</c><00:04:01.439><c> don't</c><00:04:01.760><c> expose</c><00:04:02.400><c> fast</c><00:04:02.640><c> API</c>
+
+00:04:03.030 --> 00:04:03.040 align:start position:0%
+Number six, don't expose fast API
+ 
+
+00:04:03.040 --> 00:04:05.110 align:start position:0%
+Number six, don't expose fast API
+swagger<00:04:03.519><c> or</c><00:04:03.680><c> redoc</c><00:04:04.239><c> in</c><00:04:04.400><c> production</c><00:04:04.799><c> unless</c>
+
+00:04:05.110 --> 00:04:05.120 align:start position:0%
+swagger or redoc in production unless
+ 
+
+00:04:05.120 --> 00:04:07.429 align:start position:0%
+swagger or redoc in production unless
+your<00:04:05.280><c> API</c><00:04:05.680><c> is</c><00:04:05.840><c> public</c><00:04:06.080><c> facing.</c><00:04:06.720><c> Fast</c><00:04:07.040><c> API</c>
+
+00:04:07.429 --> 00:04:07.439 align:start position:0%
+your API is public facing. Fast API
+ 
+
+00:04:07.439 --> 00:04:09.190 align:start position:0%
+your API is public facing. Fast API
+automatically<00:04:08.000><c> generate</c><00:04:08.400><c> these</c><00:04:08.640><c> logs</c><00:04:09.040><c> which</c>
+
+00:04:09.190 --> 00:04:09.200 align:start position:0%
+automatically generate these logs which
+ 
+
+00:04:09.200 --> 00:04:11.190 align:start position:0%
+automatically generate these logs which
+is<00:04:09.360><c> great</c><00:04:09.760><c> during</c><00:04:10.239><c> development</c><00:04:10.799><c> but</c><00:04:11.040><c> in</c>
+
+00:04:11.190 --> 00:04:11.200 align:start position:0%
+is great during development but in
+ 
+
+00:04:11.200 --> 00:04:12.789 align:start position:0%
+is great during development but in
+production<00:04:11.599><c> they</c><00:04:11.840><c> can</c><00:04:11.920><c> reveal</c><00:04:12.239><c> endpoints</c>
+
+00:04:12.789 --> 00:04:12.799 align:start position:0%
+production they can reveal endpoints
+ 
+
+00:04:12.799 --> 00:04:14.869 align:start position:0%
+production they can reveal endpoints
+that<00:04:13.040><c> might</c><00:04:13.360><c> still</c><00:04:13.599><c> be</c><00:04:13.840><c> incomplete</c><00:04:14.400><c> or</c><00:04:14.560><c> lack</c>
+
+00:04:14.869 --> 00:04:14.879 align:start position:0%
+that might still be incomplete or lack
+ 
+
+00:04:14.879 --> 00:04:17.110 align:start position:0%
+that might still be incomplete or lack
+proper<00:04:15.280><c> security.</c><00:04:16.000><c> To</c><00:04:16.160><c> prevent</c><00:04:16.479><c> this</c><00:04:16.880><c> make</c>
+
+00:04:17.110 --> 00:04:17.120 align:start position:0%
+proper security. To prevent this make
+ 
+
+00:04:17.120 --> 00:04:20.629 align:start position:0%
+proper security. To prevent this make
+sure<00:04:17.280><c> to</c><00:04:17.440><c> set</c><00:04:17.759><c> docs</c><00:04:18.079><c> URL,</c><00:04:18.720><c> redoc</c><00:04:19.199><c> URL</c><00:04:19.840><c> and</c><00:04:20.239><c> open</c>
+
+00:04:20.629 --> 00:04:20.639 align:start position:0%
+sure to set docs URL, redoc URL and open
+ 
+
+00:04:20.639 --> 00:04:22.629 align:start position:0%
+sure to set docs URL, redoc URL and open
+API<00:04:21.120><c> URL</c><00:04:21.440><c> to</c><00:04:21.600><c> none</c><00:04:21.840><c> in</c><00:04:22.079><c> your</c><00:04:22.240><c> production</c>
+
+00:04:22.629 --> 00:04:22.639 align:start position:0%
+API URL to none in your production
+ 
+
+00:04:22.639 --> 00:04:25.670 align:start position:0%
+API URL to none in your production
+settings.<00:04:23.919><c> Create</c><00:04:24.240><c> a</c><00:04:24.479><c> custom</c><00:04:24.960><c> base</c><00:04:25.280><c> model</c><00:04:25.520><c> and</c>
+
+00:04:25.670 --> 00:04:25.680 align:start position:0%
+settings. Create a custom base model and
+ 
+
+00:04:25.680 --> 00:04:27.590 align:start position:0%
+settings. Create a custom base model and
+use<00:04:25.840><c> it</c><00:04:26.000><c> to</c><00:04:26.160><c> define</c><00:04:26.400><c> your</c><00:04:26.639><c> pedantic</c><00:04:27.120><c> models.</c>
+
+00:04:27.590 --> 00:04:27.600 align:start position:0%
+use it to define your pedantic models.
+ 
+
+00:04:27.600 --> 00:04:29.189 align:start position:0%
+use it to define your pedantic models.
+The<00:04:27.759><c> benefit</c><00:04:28.080><c> is</c><00:04:28.240><c> that</c><00:04:28.479><c> it's</c><00:04:28.800><c> easier</c><00:04:29.040><c> to</c>
+
+00:04:29.189 --> 00:04:29.199 align:start position:0%
+The benefit is that it's easier to
+ 
+
+00:04:29.199 --> 00:04:31.189 align:start position:0%
+The benefit is that it's easier to
+manage<00:04:29.520><c> your</c><00:04:29.680><c> global</c><00:04:30.080><c> configuration</c><00:04:30.720><c> in</c><00:04:30.960><c> one</c>
+
+00:04:31.189 --> 00:04:31.199 align:start position:0%
+manage your global configuration in one
+ 
+
+00:04:31.199 --> 00:04:32.950 align:start position:0%
+manage your global configuration in one
+place.<00:04:31.600><c> For</c><00:04:31.759><c> example,</c><00:04:32.160><c> if</c><00:04:32.320><c> you</c><00:04:32.479><c> want</c><00:04:32.639><c> to</c>
+
+00:04:32.950 --> 00:04:32.960 align:start position:0%
+place. For example, if you want to
+ 
+
+00:04:32.960 --> 00:04:34.790 align:start position:0%
+place. For example, if you want to
+return<00:04:33.280><c> camel</c><00:04:33.680><c> case</c><00:04:33.919><c> to</c><00:04:34.080><c> the</c><00:04:34.160><c> front</c><00:04:34.400><c> end</c><00:04:34.560><c> but</c>
+
+00:04:34.790 --> 00:04:34.800 align:start position:0%
+return camel case to the front end but
+ 
+
+00:04:34.800 --> 00:04:36.950 align:start position:0%
+return camel case to the front end but
+prefer<00:04:35.120><c> snack</c><00:04:35.440><c> c</c><00:04:35.680><c> in</c><00:04:35.840><c> Python,</c><00:04:36.320><c> you</c><00:04:36.560><c> can</c><00:04:36.639><c> set</c><00:04:36.800><c> an</c>
+
+00:04:36.950 --> 00:04:36.960 align:start position:0%
+prefer snack c in Python, you can set an
+ 
+
+00:04:36.960 --> 00:04:38.950 align:start position:0%
+prefer snack c in Python, you can set an
+alias<00:04:37.360><c> generator</c><00:04:37.759><c> to</c><00:04:38.000><c> handle</c><00:04:38.240><c> that.</c><00:04:38.639><c> Another</c>
+
+00:04:38.950 --> 00:04:38.960 align:start position:0%
+alias generator to handle that. Another
+ 
+
+00:04:38.960 --> 00:04:40.870 align:start position:0%
+alias generator to handle that. Another
+common<00:04:39.280><c> use</c><00:04:39.440><c> case</c><00:04:39.680><c> is</c><00:04:39.919><c> simplifying</c><00:04:40.479><c> JSON</c>
+
+00:04:40.870 --> 00:04:40.880 align:start position:0%
+common use case is simplifying JSON
+ 
+
+00:04:40.880 --> 00:04:43.430 align:start position:0%
+common use case is simplifying JSON
+encoding<00:04:41.600><c> when</c><00:04:41.919><c> returning</c><00:04:42.479><c> data.</c><00:04:42.880><c> If</c><00:04:43.040><c> you</c><00:04:43.280><c> try</c>
+
+00:04:43.430 --> 00:04:43.440 align:start position:0%
+encoding when returning data. If you try
+ 
+
+00:04:43.440 --> 00:04:45.590 align:start position:0%
+encoding when returning data. If you try
+to<00:04:43.680><c> return</c><00:04:43.919><c> a</c><00:04:44.160><c> date</c><00:04:44.400><c> time</c><00:04:44.560><c> or</c><00:04:44.800><c> decimal</c><00:04:45.199><c> object,</c>
+
+00:04:45.590 --> 00:04:45.600 align:start position:0%
+to return a date time or decimal object,
+ 
+
+00:04:45.600 --> 00:04:47.189 align:start position:0%
+to return a date time or decimal object,
+you<00:04:45.759><c> will</c><00:04:45.840><c> get</c><00:04:46.000><c> an</c><00:04:46.160><c> encoding</c><00:04:46.720><c> error.</c><00:04:47.040><c> So</c>
+
+00:04:47.189 --> 00:04:47.199 align:start position:0%
+you will get an encoding error. So
+ 
+
+00:04:47.199 --> 00:04:49.350 align:start position:0%
+you will get an encoding error. So
+define<00:04:47.520><c> your</c><00:04:47.840><c> encoders</c><00:04:48.479><c> globally.</c><00:04:49.120><c> You</c><00:04:49.280><c> can</c>
+
+00:04:49.350 --> 00:04:49.360 align:start position:0%
+define your encoders globally. You can
+ 
+
+00:04:49.360 --> 00:04:51.830 align:start position:0%
+define your encoders globally. You can
+format<00:04:49.919><c> that</c><00:04:50.000><c> time</c><00:04:50.160><c> object</c><00:04:50.560><c> as</c><00:04:50.960><c> strings,</c>
+
+00:04:51.830 --> 00:04:51.840 align:start position:0%
+format that time object as strings,
+ 
+
+00:04:51.840 --> 00:04:53.430 align:start position:0%
+format that time object as strings,
+convert<00:04:52.160><c> decimal</c><00:04:52.560><c> to</c><00:04:52.720><c> flawed.</c><00:04:53.040><c> And</c><00:04:53.199><c> if</c><00:04:53.360><c> you</c>
+
+00:04:53.430 --> 00:04:53.440 align:start position:0%
+convert decimal to flawed. And if you
+ 
+
+00:04:53.440 --> 00:04:55.590 align:start position:0%
+convert decimal to flawed. And if you
+are<00:04:53.600><c> working</c><00:04:53.919><c> with</c><00:04:54.240><c> MongoDB,</c><00:04:54.960><c> convert</c><00:04:55.280><c> object</c>
+
+00:04:55.590 --> 00:04:55.600 align:start position:0%
+are working with MongoDB, convert object
+ 
+
+00:04:55.600 --> 00:04:57.749 align:start position:0%
+are working with MongoDB, convert object
+ID<00:04:55.840><c> instances</c><00:04:56.320><c> to</c><00:04:56.560><c> strings.</c><00:04:57.120><c> Number</c><00:04:57.360><c> eight,</c>
+
+00:04:57.749 --> 00:04:57.759 align:start position:0%
+ID instances to strings. Number eight,
+ 
+
+00:04:57.759 --> 00:04:59.510 align:start position:0%
+ID instances to strings. Number eight,
+don't<00:04:58.000><c> manually</c><00:04:58.400><c> construct</c><00:04:58.800><c> response</c><00:04:59.199><c> model</c>
+
+00:04:59.510 --> 00:04:59.520 align:start position:0%
+don't manually construct response model
+ 
+
+00:04:59.520 --> 00:05:01.749 align:start position:0%
+don't manually construct response model
+and<00:04:59.680><c> your</c><00:04:59.840><c> fast</c><00:05:00.080><c> API</c><00:05:00.479><c> endpoints.</c><00:05:01.280><c> If</c><00:05:01.520><c> you</c><00:05:01.680><c> have</c>
+
+00:05:01.749 --> 00:05:01.759 align:start position:0%
+and your fast API endpoints. If you have
+ 
+
+00:05:01.759 --> 00:05:03.270 align:start position:0%
+and your fast API endpoints. If you have
+set<00:05:01.919><c> a</c><00:05:02.160><c> response</c><00:05:02.479><c> model,</c><00:05:02.880><c> there's</c><00:05:03.120><c> no</c>
+
+00:05:03.270 --> 00:05:03.280 align:start position:0%
+set a response model, there's no
+ 
+
+00:05:03.280 --> 00:05:04.790 align:start position:0%
+set a response model, there's no
+performance<00:05:03.680><c> benefit</c><00:05:04.000><c> to</c><00:05:04.240><c> creating</c><00:05:04.560><c> that</c>
+
+00:05:04.790 --> 00:05:04.800 align:start position:0%
+performance benefit to creating that
+ 
+
+00:05:04.800 --> 00:05:07.189 align:start position:0%
+performance benefit to creating that
+model<00:05:05.199><c> yourself</c><00:05:05.759><c> just</c><00:05:06.000><c> to</c><00:05:06.240><c> return</c><00:05:06.479><c> it.</c><00:05:06.960><c> Fast</c>
+
+00:05:07.189 --> 00:05:07.199 align:start position:0%
+model yourself just to return it. Fast
+ 
+
+00:05:07.199 --> 00:05:09.670 align:start position:0%
+model yourself just to return it. Fast
+API<00:05:07.680><c> will</c><00:05:07.919><c> do</c><00:05:08.080><c> it</c><00:05:08.240><c> anyway.</c><00:05:08.800><c> It</c><00:05:09.039><c> first</c><00:05:09.280><c> converts</c>
+
+00:05:09.670 --> 00:05:09.680 align:start position:0%
+API will do it anyway. It first converts
+ 
+
+00:05:09.680 --> 00:05:11.830 align:start position:0%
+API will do it anyway. It first converts
+your<00:05:09.919><c> return</c><00:05:10.160><c> value</c><00:05:10.479><c> to</c><00:05:10.720><c> a</c><00:05:10.880><c> dictionary</c><00:05:11.360><c> or</c><00:05:11.680><c> a</c>
+
+00:05:11.830 --> 00:05:11.840 align:start position:0%
+your return value to a dictionary or a
+ 
+
+00:05:11.840 --> 00:05:13.909 align:start position:0%
+your return value to a dictionary or a
+list,<00:05:12.320><c> validates</c><00:05:12.880><c> it</c><00:05:13.039><c> against</c><00:05:13.280><c> the</c><00:05:13.520><c> response</c>
+
+00:05:13.909 --> 00:05:13.919 align:start position:0%
+list, validates it against the response
+ 
+
+00:05:13.919 --> 00:05:16.550 align:start position:0%
+list, validates it against the response
+model<00:05:14.400><c> and</c><00:05:14.560><c> then</c><00:05:14.800><c> encords</c><00:05:15.280><c> it</c><00:05:15.440><c> to</c><00:05:15.600><c> JSON.</c><00:05:16.320><c> Just</c>
+
+00:05:16.550 --> 00:05:16.560 align:start position:0%
+model and then encords it to JSON. Just
+ 
+
+00:05:16.560 --> 00:05:18.390 align:start position:0%
+model and then encords it to JSON. Just
+return<00:05:16.800><c> a</c><00:05:16.960><c> plain</c><00:05:17.199><c> dictionary</c><00:05:17.600><c> and</c><00:05:17.840><c> let</c><00:05:18.080><c> fast</c>
+
+00:05:18.390 --> 00:05:18.400 align:start position:0%
+return a plain dictionary and let fast
+ 
+
+00:05:18.400 --> 00:05:20.790 align:start position:0%
+return a plain dictionary and let fast
+API<00:05:18.800><c> take</c><00:05:18.960><c> care</c><00:05:19.120><c> of</c><00:05:19.280><c> the</c><00:05:19.440><c> rest.</c><00:05:20.080><c> Number</c><00:05:20.400><c> nine,</c>
+
+00:05:20.790 --> 00:05:20.800 align:start position:0%
+API take care of the rest. Number nine,
+ 
+
+00:05:20.800 --> 00:05:23.110 align:start position:0%
+API take care of the rest. Number nine,
+validate<00:05:21.280><c> with</c><00:05:21.520><c> pedantic</c><00:05:22.240><c> and</c><00:05:22.479><c> not</c><00:05:22.800><c> your</c>
+
+00:05:23.110 --> 00:05:23.120 align:start position:0%
+validate with pedantic and not your
+ 
+
+00:05:23.120 --> 00:05:25.990 align:start position:0%
+validate with pedantic and not your
+code.<00:05:23.919><c> push</c><00:05:24.320><c> as</c><00:05:24.560><c> much</c><00:05:24.800><c> validation</c><00:05:25.600><c> and</c>
+
+00:05:25.990 --> 00:05:26.000 align:start position:0%
+code. push as much validation and
+ 
+
+00:05:26.000 --> 00:05:27.909 align:start position:0%
+code. push as much validation and
+structure<00:05:26.400><c> definition</c><00:05:26.960><c> as</c><00:05:27.199><c> possible</c><00:05:27.600><c> into</c>
+
+00:05:27.909 --> 00:05:27.919 align:start position:0%
+structure definition as possible into
+ 
+
+00:05:27.919 --> 00:05:29.749 align:start position:0%
+structure definition as possible into
+your<00:05:28.080><c> pedantic</c><00:05:28.639><c> model.</c><00:05:29.199><c> That's</c><00:05:29.440><c> what</c><00:05:29.600><c> they</c>
+
+00:05:29.749 --> 00:05:29.759 align:start position:0%
+your pedantic model. That's what they
+ 
+
+00:05:29.759 --> 00:05:31.350 align:start position:0%
+your pedantic model. That's what they
+are<00:05:29.919><c> built</c><00:05:30.080><c> for.</c><00:05:30.320><c> Don't</c><00:05:30.560><c> scatter</c><00:05:30.960><c> validation</c>
+
+00:05:31.350 --> 00:05:31.360 align:start position:0%
+are built for. Don't scatter validation
+ 
+
+00:05:31.360 --> 00:05:32.950 align:start position:0%
+are built for. Don't scatter validation
+across<00:05:31.680><c> your</c><00:05:31.840><c> route</c><00:05:32.160><c> function</c><00:05:32.400><c> with</c><00:05:32.639><c> if</c>
+
+00:05:32.950 --> 00:05:32.960 align:start position:0%
+across your route function with if
+ 
+
+00:05:32.960 --> 00:05:35.029 align:start position:0%
+across your route function with if
+statements<00:05:33.440><c> and</c><00:05:33.680><c> manual</c><00:05:34.000><c> checks.</c><00:05:34.560><c> It</c><00:05:34.800><c> might</c>
+
+00:05:35.029 --> 00:05:35.039 align:start position:0%
+statements and manual checks. It might
+ 
+
+00:05:35.039 --> 00:05:37.029 align:start position:0%
+statements and manual checks. It might
+seem<00:05:35.280><c> easier</c><00:05:35.520><c> at</c><00:05:35.840><c> first,</c><00:05:36.160><c> but</c><00:05:36.400><c> it</c><00:05:36.639><c> quickly</c>
+
+00:05:37.029 --> 00:05:37.039 align:start position:0%
+seem easier at first, but it quickly
+ 
+
+00:05:37.039 --> 00:05:39.350 align:start position:0%
+seem easier at first, but it quickly
+turns<00:05:37.360><c> into</c><00:05:37.600><c> a</c><00:05:37.759><c> mess.</c><00:05:38.320><c> You</c><00:05:38.560><c> lose</c><00:05:38.800><c> consistent</c>
+
+00:05:39.350 --> 00:05:39.360 align:start position:0%
+turns into a mess. You lose consistent
+ 
+
+00:05:39.360 --> 00:05:41.749 align:start position:0%
+turns into a mess. You lose consistent
+error<00:05:39.600><c> responses</c><00:05:40.160><c> and</c><00:05:40.479><c> clients</c><00:05:40.880><c> get</c><00:05:41.199><c> cryptic</c>
+
+00:05:41.749 --> 00:05:41.759 align:start position:0%
+error responses and clients get cryptic
+ 
+
+00:05:41.759 --> 00:05:43.670 align:start position:0%
+error responses and clients get cryptic
+for<00:05:41.919><c> hundreds</c><00:05:42.400><c> with</c><00:05:42.560><c> no</c><00:05:42.800><c> clue</c><00:05:43.039><c> why</c><00:05:43.280><c> their</c>
+
+00:05:43.670 --> 00:05:43.680 align:start position:0%
+for hundreds with no clue why their
+ 
+
+00:05:43.680 --> 00:05:45.430 align:start position:0%
+for hundreds with no clue why their
+request<00:05:44.000><c> failed.</c><00:05:44.400><c> You</c><00:05:44.560><c> end</c><00:05:44.720><c> up</c><00:05:44.880><c> repeating</c><00:05:45.199><c> the</c>
+
+00:05:45.430 --> 00:05:45.440 align:start position:0%
+request failed. You end up repeating the
+ 
+
+00:05:45.440 --> 00:05:47.749 align:start position:0%
+request failed. You end up repeating the
+same<00:05:45.600><c> logic</c><00:05:45.919><c> in</c><00:05:46.160><c> multiple</c><00:05:46.560><c> places</c><00:05:47.280><c> and</c><00:05:47.520><c> the</c>
+
+00:05:47.749 --> 00:05:47.759 align:start position:0%
+same logic in multiple places and the
+ 
+
+00:05:47.759 --> 00:05:50.390 align:start position:0%
+same logic in multiple places and the
+worst<00:05:48.000><c> part,</c><00:05:48.720><c> your</c><00:05:49.039><c> open</c><00:05:49.360><c> API</c><00:05:49.759><c> docs</c><00:05:50.080><c> won't</c>
+
+00:05:50.390 --> 00:05:50.400 align:start position:0%
+worst part, your open API docs won't
+ 
+
+00:05:50.400 --> 00:05:52.629 align:start position:0%
+worst part, your open API docs won't
+reflect<00:05:50.800><c> any</c><00:05:50.960><c> of</c><00:05:51.120><c> that</c><00:05:51.360><c> hidden</c><00:05:51.759><c> validation.</c>
+
+00:05:52.629 --> 00:05:52.639 align:start position:0%
+reflect any of that hidden validation.
+ 
+
+00:05:52.639 --> 00:05:54.150 align:start position:0%
+reflect any of that hidden validation.
+If<00:05:52.960><c> pedantic</c><00:05:53.520><c> doesn't</c><00:05:53.759><c> support</c><00:05:54.000><c> the</c>
+
+00:05:54.150 --> 00:05:54.160 align:start position:0%
+If pedantic doesn't support the
+ 
+
+00:05:54.160 --> 00:05:55.909 align:start position:0%
+If pedantic doesn't support the
+validation<00:05:54.639><c> unit,</c><00:05:55.039><c> don't</c><00:05:55.280><c> write</c><00:05:55.440><c> it</c><00:05:55.600><c> inside</c>
+
+00:05:55.909 --> 00:05:55.919 align:start position:0%
+validation unit, don't write it inside
+ 
+
+00:05:55.919 --> 00:05:57.990 align:start position:0%
+validation unit, don't write it inside
+the<00:05:56.160><c> endpoint</c><00:05:56.639><c> function.</c><00:05:57.360><c> Add</c><00:05:57.600><c> custom</c>
+
+00:05:57.990 --> 00:05:58.000 align:start position:0%
+the endpoint function. Add custom
+ 
+
+00:05:58.000 --> 00:06:00.230 align:start position:0%
+the endpoint function. Add custom
+validation<00:05:58.479><c> logic</c><00:05:58.880><c> directly</c><00:05:59.360><c> inside</c><00:05:59.759><c> the</c>
+
+00:06:00.230 --> 00:06:00.240 align:start position:0%
+validation logic directly inside the
+ 
+
+00:06:00.240 --> 00:06:02.070 align:start position:0%
+validation logic directly inside the
+model<00:06:00.560><c> instead.</c><00:06:01.199><c> Number</c><00:06:01.440><c> 10,</c><00:06:01.840><c> use</c>
+
+00:06:02.070 --> 00:06:02.080 align:start position:0%
+model instead. Number 10, use
+ 
+
+00:06:02.080 --> 00:06:04.790 align:start position:0%
+model instead. Number 10, use
+dependencies<00:06:02.720><c> for</c><00:06:02.960><c> DB</c><00:06:03.440><c> based</c><00:06:03.759><c> validation.</c><00:06:04.560><c> If</c>
+
+00:06:04.790 --> 00:06:04.800 align:start position:0%
+dependencies for DB based validation. If
+ 
+
+00:06:04.800 --> 00:06:06.629 align:start position:0%
+dependencies for DB based validation. If
+your<00:06:05.039><c> validation</c><00:06:05.520><c> logic</c><00:06:06.080><c> requires</c><00:06:06.479><c> a</c>
+
+00:06:06.629 --> 00:06:06.639 align:start position:0%
+your validation logic requires a
+ 
+
+00:06:06.639 --> 00:06:09.029 align:start position:0%
+your validation logic requires a
+database<00:06:07.120><c> query</c><00:06:07.759><c> like</c><00:06:08.160><c> checking</c><00:06:08.560><c> whether</c><00:06:08.880><c> a</c>
+
+00:06:09.029 --> 00:06:09.039 align:start position:0%
+database query like checking whether a
+ 
+
+00:06:09.039 --> 00:06:10.950 align:start position:0%
+database query like checking whether a
+resource<00:06:09.360><c> belong</c><00:06:09.680><c> to</c><00:06:09.919><c> the</c><00:06:10.240><c> current</c><00:06:10.560><c> user</c>
+
+00:06:10.950 --> 00:06:10.960 align:start position:0%
+resource belong to the current user
+ 
+
+00:06:10.960 --> 00:06:13.270 align:start position:0%
+resource belong to the current user
+before<00:06:11.280><c> allowing</c><00:06:11.680><c> changes,</c><00:06:12.479><c> don't</c><00:06:12.720><c> put</c><00:06:12.960><c> that</c>
+
+00:06:13.270 --> 00:06:13.280 align:start position:0%
+before allowing changes, don't put that
+ 
+
+00:06:13.280 --> 00:06:14.790 align:start position:0%
+before allowing changes, don't put that
+logic<00:06:13.680><c> directly</c><00:06:14.080><c> in</c><00:06:14.240><c> your</c><00:06:14.319><c> endpoint.</c>
+
+00:06:14.790 --> 00:06:14.800 align:start position:0%
+logic directly in your endpoint.
+ 
+
+00:06:14.800 --> 00:06:16.950 align:start position:0%
+logic directly in your endpoint.
+Instead,<00:06:15.120><c> create</c><00:06:15.360><c> a</c><00:06:15.600><c> dependency</c><00:06:16.000><c> and</c><00:06:16.240><c> use</c><00:06:16.400><c> it.</c>
+
+00:06:16.950 --> 00:06:16.960 align:start position:0%
+Instead, create a dependency and use it.
+ 
+
+00:06:16.960 --> 00:06:18.629 align:start position:0%
+Instead, create a dependency and use it.
+The<00:06:17.199><c> first</c><00:06:17.360><c> benefit</c><00:06:17.600><c> is</c><00:06:17.840><c> that</c><00:06:18.000><c> you</c><00:06:18.160><c> can</c><00:06:18.319><c> easily</c>
+
+00:06:18.629 --> 00:06:18.639 align:start position:0%
+The first benefit is that you can easily
+ 
+
+00:06:18.639 --> 00:06:20.629 align:start position:0%
+The first benefit is that you can easily
+reuse<00:06:18.880><c> the</c><00:06:19.120><c> dependency</c><00:06:19.600><c> across</c><00:06:20.240><c> multiple</c>
+
+00:06:20.629 --> 00:06:20.639 align:start position:0%
+reuse the dependency across multiple
+ 
+
+00:06:20.639 --> 00:06:22.150 align:start position:0%
+reuse the dependency across multiple
+endpoint<00:06:21.039><c> with</c><00:06:21.280><c> just</c><00:06:21.440><c> a</c><00:06:21.600><c> single</c><00:06:21.840><c> line</c><00:06:22.000><c> of</c>
+
+00:06:22.150 --> 00:06:22.160 align:start position:0%
+endpoint with just a single line of
+ 
+
+00:06:22.160 --> 00:06:23.990 align:start position:0%
+endpoint with just a single line of
+code.<00:06:22.720><c> And</c><00:06:22.880><c> there's</c><00:06:23.120><c> no</c><00:06:23.360><c> performance</c><00:06:23.759><c> yet.</c>
+
+00:06:23.990 --> 00:06:24.000 align:start position:0%
+code. And there's no performance yet.
+ 
+
+00:06:24.000 --> 00:06:26.230 align:start position:0%
+code. And there's no performance yet.
+Since<00:06:24.240><c> fast</c><00:06:24.479><c> API</c><00:06:24.880><c> caches</c><00:06:25.360><c> dependencies</c><00:06:26.000><c> per</c>
+
+00:06:26.230 --> 00:06:26.240 align:start position:0%
+Since fast API caches dependencies per
+ 
+
+00:06:26.240 --> 00:06:27.990 align:start position:0%
+Since fast API caches dependencies per
+request,<00:06:26.880><c> your</c><00:06:27.120><c> dependency</c><00:06:27.680><c> will</c><00:06:27.840><c> be</c>
+
+00:06:27.990 --> 00:06:28.000 align:start position:0%
+request, your dependency will be
+ 
+
+00:06:28.000 --> 00:06:30.230 align:start position:0%
+request, your dependency will be
+evaluated<00:06:28.639><c> only</c><00:06:28.960><c> once</c><00:06:29.280><c> in</c><00:06:29.440><c> a</c><00:06:29.680><c> request.</c>
+
+00:06:30.230 --> 00:06:30.240 align:start position:0%
+evaluated only once in a request.
+ 
+
+00:06:30.240 --> 00:06:32.230 align:start position:0%
+evaluated only once in a request.
+Overall,<00:06:30.639><c> it's</c><00:06:30.960><c> efficient</c><00:06:31.360><c> and</c><00:06:31.680><c> helps</c><00:06:32.000><c> keep</c>
+
+00:06:32.230 --> 00:06:32.240 align:start position:0%
+Overall, it's efficient and helps keep
+ 
+
+00:06:32.240 --> 00:06:35.110 align:start position:0%
+Overall, it's efficient and helps keep
+your<00:06:32.400><c> endpoint</c><00:06:32.880><c> clean.</c><00:06:33.520><c> Number</c><00:06:33.919><c> 11,</c><00:06:34.720><c> avoid</c>
+
+00:06:35.110 --> 00:06:35.120 align:start position:0%
+your endpoint clean. Number 11, avoid
+ 
+
+00:06:35.120 --> 00:06:36.950 align:start position:0%
+your endpoint clean. Number 11, avoid
+creating<00:06:35.440><c> a</c><00:06:35.680><c> new</c><00:06:35.840><c> database</c><00:06:36.319><c> connection</c><00:06:36.639><c> in</c>
+
+00:06:36.950 --> 00:06:36.960 align:start position:0%
+creating a new database connection in
+ 
+
+00:06:36.960 --> 00:06:38.950 align:start position:0%
+creating a new database connection in
+every<00:06:37.280><c> endpoint.</c><00:06:37.919><c> Instead,</c><00:06:38.319><c> you</c><00:06:38.560><c> should</c><00:06:38.720><c> use</c>
+
+00:06:38.950 --> 00:06:38.960 align:start position:0%
+every endpoint. Instead, you should use
+ 
+
+00:06:38.960 --> 00:06:40.629 align:start position:0%
+every endpoint. Instead, you should use
+a<00:06:39.120><c> connection</c><00:06:39.520><c> pool</c><00:06:39.759><c> and</c><00:06:40.000><c> access</c><00:06:40.319><c> these</c>
+
+00:06:40.629 --> 00:06:40.639 align:start position:0%
+a connection pool and access these
+ 
+
+00:06:40.639 --> 00:06:42.629 align:start position:0%
+a connection pool and access these
+connection<00:06:41.039><c> through</c><00:06:41.280><c> dependency</c><00:06:41.840><c> injection.</c>
+
+00:06:42.629 --> 00:06:42.639 align:start position:0%
+connection through dependency injection.
+ 
+
+00:06:42.639 --> 00:06:44.309 align:start position:0%
+connection through dependency injection.
+There<00:06:42.880><c> are</c><00:06:43.039><c> two</c><00:06:43.199><c> common</c><00:06:43.440><c> ways</c><00:06:43.680><c> to</c><00:06:43.919><c> do</c><00:06:44.000><c> this.</c>
+
+00:06:44.309 --> 00:06:44.319 align:start position:0%
+There are two common ways to do this.
+ 
+
+00:06:44.319 --> 00:06:46.070 align:start position:0%
+There are two common ways to do this.
+The<00:06:44.639><c> first</c><00:06:44.800><c> one</c><00:06:44.960><c> is</c><00:06:45.280><c> storing</c><00:06:45.520><c> the</c><00:06:45.759><c> DB</c>
+
+00:06:46.070 --> 00:06:46.080 align:start position:0%
+The first one is storing the DB
+ 
+
+00:06:46.080 --> 00:06:48.309 align:start position:0%
+The first one is storing the DB
+connections<00:06:46.479><c> pools</c><00:06:46.880><c> in</c><00:06:47.039><c> the</c><00:06:47.280><c> app</c><00:06:47.680><c> state.</c><00:06:48.080><c> You</c>
+
+00:06:48.309 --> 00:06:48.319 align:start position:0%
+connections pools in the app state. You
+ 
+
+00:06:48.319 --> 00:06:49.830 align:start position:0%
+connections pools in the app state. You
+initialize<00:06:48.800><c> the</c><00:06:48.960><c> connection</c><00:06:49.280><c> pool</c><00:06:49.600><c> within</c>
+
+00:06:49.830 --> 00:06:49.840 align:start position:0%
+initialize the connection pool within
+ 
+
+00:06:49.840 --> 00:06:52.070 align:start position:0%
+initialize the connection pool within
+the<00:06:50.000><c> lifespan</c><00:06:50.639><c> function</c><00:06:51.199><c> and</c><00:06:51.440><c> then</c><00:06:51.680><c> store</c><00:06:51.919><c> it</c>
+
+00:06:52.070 --> 00:06:52.080 align:start position:0%
+the lifespan function and then store it
+ 
+
+00:06:52.080 --> 00:06:54.150 align:start position:0%
+the lifespan function and then store it
+in<00:06:52.319><c> app</c><00:06:52.720><c> state.</c><00:06:53.120><c> After</c><00:06:53.360><c> that</c><00:06:53.600><c> you</c><00:06:53.759><c> create</c><00:06:54.000><c> a</c>
+
+00:06:54.150 --> 00:06:54.160 align:start position:0%
+in app state. After that you create a
+ 
+
+00:06:54.160 --> 00:06:56.309 align:start position:0%
+in app state. After that you create a
+dependency<00:06:54.720><c> that</c><00:06:55.120><c> retrieves</c><00:06:55.680><c> a</c><00:06:55.919><c> connection</c>
+
+00:06:56.309 --> 00:06:56.319 align:start position:0%
+dependency that retrieves a connection
+ 
+
+00:06:56.319 --> 00:06:58.150 align:start position:0%
+dependency that retrieves a connection
+from<00:06:56.560><c> this</c><00:06:56.720><c> pool.</c><00:06:57.039><c> You</c><00:06:57.199><c> will</c><00:06:57.360><c> typically</c><00:06:57.759><c> use</c>
+
+00:06:58.150 --> 00:06:58.160 align:start position:0%
+from this pool. You will typically use
+ 
+
+00:06:58.160 --> 00:06:59.909 align:start position:0%
+from this pool. You will typically use
+an<00:06:58.479><c> async</c><00:06:58.880><c> with</c><00:06:59.039><c> block</c><00:06:59.280><c> to</c><00:06:59.440><c> ensure</c><00:06:59.680><c> the</c>
+
+00:06:59.909 --> 00:06:59.919 align:start position:0%
+an async with block to ensure the
+ 
+
+00:06:59.919 --> 00:07:02.309 align:start position:0%
+an async with block to ensure the
+connection<00:07:00.240><c> is</c><00:07:00.720><c> properly</c><00:07:01.199><c> released.</c><00:07:02.080><c> This</c>
+
+00:07:02.309 --> 00:07:02.319 align:start position:0%
+connection is properly released. This
+ 
+
+00:07:02.319 --> 00:07:04.390 align:start position:0%
+connection is properly released. This
+method<00:07:02.639><c> makes</c><00:07:02.880><c> it</c><00:07:03.199><c> straightforward</c><00:07:03.840><c> to</c><00:07:04.160><c> clean</c>
+
+00:07:04.390 --> 00:07:04.400 align:start position:0%
+method makes it straightforward to clean
+ 
+
+00:07:04.400 --> 00:07:06.150 align:start position:0%
+method makes it straightforward to clean
+up<00:07:04.560><c> resources</c><00:07:05.039><c> during</c><00:07:05.360><c> shutdown</c><00:07:05.840><c> which</c><00:07:06.000><c> is</c>
+
+00:07:06.150 --> 00:07:06.160 align:start position:0%
+up resources during shutdown which is
+ 
+
+00:07:06.160 --> 00:07:08.150 align:start position:0%
+up resources during shutdown which is
+particularly<00:07:06.720><c> helpful</c><00:07:07.199><c> if</c><00:07:07.440><c> you</c><00:07:07.680><c> are</c><00:07:07.840><c> working</c>
+
+00:07:08.150 --> 00:07:08.160 align:start position:0%
+particularly helpful if you are working
+ 
+
+00:07:08.160 --> 00:07:10.469 align:start position:0%
+particularly helpful if you are working
+with<00:07:08.400><c> multiple</c><00:07:08.800><c> databases.</c><00:07:09.919><c> Second,</c><00:07:10.240><c> the</c>
+
+00:07:10.469 --> 00:07:10.479 align:start position:0%
+with multiple databases. Second, the
+ 
+
+00:07:10.479 --> 00:07:13.029 align:start position:0%
+with multiple databases. Second, the
+legacy<00:07:10.960><c> global</c><00:07:11.360><c> style</c><00:07:11.680><c> pool.</c><00:07:12.400><c> This</c><00:07:12.639><c> approach</c>
+
+00:07:13.029 --> 00:07:13.039 align:start position:0%
+legacy global style pool. This approach
+ 
+
+00:07:13.039 --> 00:07:15.270 align:start position:0%
+legacy global style pool. This approach
+involves<00:07:13.440><c> defining</c><00:07:13.840><c> the</c><00:07:14.080><c> connection</c><00:07:14.639><c> pool</c><00:07:15.039><c> as</c>
+
+00:07:15.270 --> 00:07:15.280 align:start position:0%
+involves defining the connection pool as
+ 
+
+00:07:15.280 --> 00:07:17.510 align:start position:0%
+involves defining the connection pool as
+a<00:07:15.599><c> global</c><00:07:15.919><c> variable</c><00:07:16.479><c> and</c><00:07:16.720><c> populating</c><00:07:17.199><c> it</c>
+
+00:07:17.510 --> 00:07:17.520 align:start position:0%
+a global variable and populating it
+ 
+
+00:07:17.520 --> 00:07:19.909 align:start position:0%
+a global variable and populating it
+during<00:07:17.840><c> the</c><00:07:18.240><c> app's</c><00:07:18.560><c> lifespan</c><00:07:19.199><c> event.</c><00:07:19.599><c> While</c>
+
+00:07:19.909 --> 00:07:19.919 align:start position:0%
+during the app's lifespan event. While
+ 
+
+00:07:19.919 --> 00:07:21.510 align:start position:0%
+during the app's lifespan event. While
+the<00:07:20.080><c> first</c><00:07:20.319><c> method</c><00:07:20.720><c> is</c><00:07:20.800><c> storing</c><00:07:21.039><c> an</c><00:07:21.199><c> app</c>
+
+00:07:21.510 --> 00:07:21.520 align:start position:0%
+the first method is storing an app
+ 
+
+00:07:21.520 --> 00:07:23.589 align:start position:0%
+the first method is storing an app
+status<00:07:22.000><c> recommended</c><00:07:22.560><c> approach,</c><00:07:22.960><c> you</c><00:07:23.199><c> will</c>
+
+00:07:23.589 --> 00:07:23.599 align:start position:0%
+status recommended approach, you will
+ 
+
+00:07:23.599 --> 00:07:25.029 align:start position:0%
+status recommended approach, you will
+still<00:07:23.840><c> frequently</c><00:07:24.240><c> encounter</c><00:07:24.560><c> the</c><00:07:24.720><c> global</c>
+
+00:07:25.029 --> 00:07:25.039 align:start position:0%
+still frequently encounter the global
+ 
+
+00:07:25.039 --> 00:07:27.430 align:start position:0%
+still frequently encounter the global
+style<00:07:25.360><c> pool</c><00:07:25.599><c> in</c><00:07:25.840><c> many</c><00:07:26.080><c> existing</c><00:07:26.479><c> code</c><00:07:26.720><c> bases.</c>
+
+00:07:27.430 --> 00:07:27.440 align:start position:0%
+style pool in many existing code bases.
+ 
+
+00:07:27.440 --> 00:07:30.230 align:start position:0%
+style pool in many existing code bases.
+Number<00:07:27.759><c> 12,</c><00:07:28.560><c> use</c><00:07:28.800><c> the</c><00:07:28.960><c> new</c><00:07:29.199><c> lifespan</c><00:07:29.840><c> event</c>
+
+00:07:30.230 --> 00:07:30.240 align:start position:0%
+Number 12, use the new lifespan event
+ 
+
+00:07:30.240 --> 00:07:32.790 align:start position:0%
+Number 12, use the new lifespan event
+for<00:07:30.479><c> managing</c><00:07:30.960><c> app</c><00:07:31.199><c> level</c><00:07:31.520><c> resources.</c><00:07:32.560><c> It's</c>
+
+00:07:32.790 --> 00:07:32.800 align:start position:0%
+for managing app level resources. It's
+ 
+
+00:07:32.800 --> 00:07:35.350 align:start position:0%
+for managing app level resources. It's
+better<00:07:32.960><c> to</c><00:07:33.120><c> use</c><00:07:33.440><c> fast</c><00:07:33.680><c> API</c><00:07:34.240><c> newer</c><00:07:34.800><c> lifespan</c>
+
+00:07:35.350 --> 00:07:35.360 align:start position:0%
+better to use fast API newer lifespan
+ 
+
+00:07:35.360 --> 00:07:37.029 align:start position:0%
+better to use fast API newer lifespan
+feature<00:07:35.599><c> instead</c><00:07:35.919><c> of</c><00:07:36.000><c> the</c><00:07:36.240><c> older</c><00:07:36.560><c> app</c><00:07:36.720><c> on</c>
+
+00:07:37.029 --> 00:07:37.039 align:start position:0%
+feature instead of the older app on
+ 
+
+00:07:37.039 --> 00:07:39.430 align:start position:0%
+feature instead of the older app on
+event<00:07:37.280><c> startup</c><00:07:37.840><c> and</c><00:07:38.240><c> app</c><00:07:38.479><c> on</c><00:07:39.039><c> shutdown</c>
+
+00:07:39.430 --> 00:07:39.440 align:start position:0%
+event startup and app on shutdown
+ 
+
+00:07:39.440 --> 00:07:42.230 align:start position:0%
+event startup and app on shutdown
+decorators.<00:07:40.400><c> Lifespan</c><00:07:41.199><c> gives</c><00:07:41.440><c> you</c><00:07:41.599><c> a</c><00:07:41.840><c> single</c>
+
+00:07:42.230 --> 00:07:42.240 align:start position:0%
+decorators. Lifespan gives you a single
+ 
+
+00:07:42.240 --> 00:07:44.790 align:start position:0%
+decorators. Lifespan gives you a single
+unified<00:07:42.720><c> context</c><00:07:43.199><c> to</c><00:07:43.599><c> handle</c><00:07:44.000><c> setup</c><00:07:44.560><c> like</c>
+
+00:07:44.790 --> 00:07:44.800 align:start position:0%
+unified context to handle setup like
+ 
+
+00:07:44.800 --> 00:07:46.870 align:start position:0%
+unified context to handle setup like
+initializing<00:07:45.440><c> database</c><00:07:45.919><c> connections,</c><00:07:46.560><c> cache</c>
+
+00:07:46.870 --> 00:07:46.880 align:start position:0%
+initializing database connections, cache
+ 
+
+00:07:46.880 --> 00:07:49.350 align:start position:0%
+initializing database connections, cache
+clients<00:07:47.520><c> or</c><00:07:47.840><c> starting</c><00:07:48.319><c> background</c><00:07:48.800><c> tasks</c><00:07:49.199><c> and</c>
+
+00:07:49.350 --> 00:07:49.360 align:start position:0%
+clients or starting background tasks and
+ 
+
+00:07:49.360 --> 00:07:51.510 align:start position:0%
+clients or starting background tasks and
+cleanup<00:07:49.840><c> when</c><00:07:50.000><c> the</c><00:07:50.160><c> app</c><00:07:50.479><c> shuts</c><00:07:50.800><c> down.</c><00:07:51.280><c> It</c>
+
+00:07:51.510 --> 00:07:51.520 align:start position:0%
+cleanup when the app shuts down. It
+ 
+
+00:07:51.520 --> 00:07:53.110 align:start position:0%
+cleanup when the app shuts down. It
+keeps<00:07:51.680><c> your</c><00:07:51.919><c> startup</c><00:07:52.240><c> and</c><00:07:52.479><c> shutdown</c><00:07:52.800><c> logic</c>
+
+00:07:53.110 --> 00:07:53.120 align:start position:0%
+keeps your startup and shutdown logic
+ 
+
+00:07:53.120 --> 00:07:54.869 align:start position:0%
+keeps your startup and shutdown logic
+together<00:07:53.520><c> which</c><00:07:53.840><c> makes</c><00:07:54.080><c> things</c><00:07:54.400><c> easier</c><00:07:54.720><c> to</c>
+
+00:07:54.869 --> 00:07:54.879 align:start position:0%
+together which makes things easier to
+ 
+
+00:07:54.879 --> 00:07:56.469 align:start position:0%
+together which makes things easier to
+manage<00:07:55.120><c> and</c><00:07:55.360><c> reduces</c><00:07:55.759><c> the</c><00:07:55.919><c> chance</c><00:07:56.160><c> you</c><00:07:56.319><c> will</c>
+
+00:07:56.469 --> 00:07:56.479 align:start position:0%
+manage and reduces the chance you will
+ 
+
+00:07:56.479 --> 00:07:58.309 align:start position:0%
+manage and reduces the chance you will
+forget<00:07:56.800><c> to</c><00:07:57.039><c> clean</c><00:07:57.280><c> something</c><00:07:57.599><c> up.</c><00:07:57.840><c> And</c><00:07:58.000><c> if</c><00:07:58.240><c> you</c>
+
+00:07:58.309 --> 00:07:58.319 align:start position:0%
+forget to clean something up. And if you
+ 
+
+00:07:58.319 --> 00:08:00.309 align:start position:0%
+forget to clean something up. And if you
+start<00:07:58.400><c> a</c><00:07:58.560><c> fails</c><00:07:58.879><c> lifespan</c><00:07:59.599><c> still</c><00:07:59.840><c> ensures</c>
+
+00:08:00.309 --> 00:08:00.319 align:start position:0%
+start a fails lifespan still ensures
+ 
+
+00:08:00.319 --> 00:08:01.990 align:start position:0%
+start a fails lifespan still ensures
+cleanup<00:08:00.720><c> happens</c><00:08:01.039><c> which</c><00:08:01.280><c> isn't</c><00:08:01.599><c> currented</c>
+
+00:08:01.990 --> 00:08:02.000 align:start position:0%
+cleanup happens which isn't currented
+ 
+
+00:08:02.000 --> 00:08:03.830 align:start position:0%
+cleanup happens which isn't currented
+with<00:08:02.080><c> the</c><00:08:02.240><c> old</c><00:08:02.400><c> way.</c><00:08:02.960><c> Number</c><00:08:03.199><c> 13,</c><00:08:03.599><c> don't</c>
+
+00:08:03.830 --> 00:08:03.840 align:start position:0%
+with the old way. Number 13, don't
+ 
+
+00:08:03.840 --> 00:08:05.990 align:start position:0%
+with the old way. Number 13, don't
+hardcode<00:08:04.400><c> secrets</c><00:08:04.800><c> in</c><00:08:04.960><c> your</c><00:08:05.039><c> code.</c><00:08:05.360><c> Use</c><00:08:05.599><c> em</c>
+
+00:08:05.990 --> 00:08:06.000 align:start position:0%
+hardcode secrets in your code. Use em
+ 
+
+00:08:06.000 --> 00:08:08.550 align:start position:0%
+hardcode secrets in your code. Use em
+files<00:08:06.319><c> and</c><00:08:06.560><c> config</c><00:08:06.960><c> classes</c><00:08:07.360><c> to</c><00:08:07.520><c> access</c><00:08:07.840><c> them.</c>
+
+00:08:08.550 --> 00:08:08.560 align:start position:0%
+files and config classes to access them.
+ 
+
+00:08:08.560 --> 00:08:10.390 align:start position:0%
+files and config classes to access them.
+Never<00:08:08.879><c> hardcore</c><00:08:09.360><c> values</c><00:08:09.680><c> like</c><00:08:09.919><c> passwords,</c>
+
+00:08:10.390 --> 00:08:10.400 align:start position:0%
+Never hardcore values like passwords,
+ 
+
+00:08:10.400 --> 00:08:13.189 align:start position:0%
+Never hardcore values like passwords,
+API<00:08:10.800><c> keys,</c><00:08:11.199><c> tokens,</c><00:08:11.919><c> etc.</c><00:08:12.240><c> directly</c><00:08:12.639><c> in</c><00:08:12.879><c> your</c>
+
+00:08:13.189 --> 00:08:13.199 align:start position:0%
+API keys, tokens, etc. directly in your
+ 
+
+00:08:13.199 --> 00:08:16.070 align:start position:0%
+API keys, tokens, etc. directly in your
+source<00:08:13.520><c> code.</c><00:08:13.919><c> Instead,</c><00:08:14.319><c> use</c><00:08:14.560><c> AENV</c><00:08:15.440><c> file</c><00:08:15.840><c> and</c>
+
+00:08:16.070 --> 00:08:16.080 align:start position:0%
+source code. Instead, use AENV file and
+ 
+
+00:08:16.080 --> 00:08:19.589 align:start position:0%
+source code. Instead, use AENV file and
+make<00:08:16.319><c> sure</c><00:08:16.479><c> to</c><00:08:16.639><c> add</c><00:08:17.680><c> to</c><00:08:17.919><c> your</c><00:08:18.720><c> getit</c><00:08:18.960><c> ignore</c><00:08:19.440><c> so</c>
+
+00:08:19.589 --> 00:08:19.599 align:start position:0%
+make sure to add to your getit ignore so
+ 
+
+00:08:19.599 --> 00:08:21.510 align:start position:0%
+make sure to add to your getit ignore so
+it<00:08:19.840><c> doesn't</c><00:08:20.080><c> end</c><00:08:20.240><c> up</c><00:08:20.400><c> in</c><00:08:20.560><c> version</c><00:08:20.879><c> control.</c>
+
+00:08:21.510 --> 00:08:21.520 align:start position:0%
+it doesn't end up in version control.
+ 
+
+00:08:21.520 --> 00:08:24.150 align:start position:0%
+it doesn't end up in version control.
+It's<00:08:21.759><c> a</c><00:08:21.919><c> good</c><00:08:22.000><c> idea</c><00:08:22.319><c> to</c><00:08:22.479><c> include</c><00:08:22.720><c> av.ample</c>
+
+00:08:24.150 --> 00:08:24.160 align:start position:0%
+It's a good idea to include av.ample
+ 
+
+00:08:24.160 --> 00:08:26.390 align:start position:0%
+It's a good idea to include av.ample
+file<00:08:24.400><c> in</c><00:08:24.560><c> your</c><00:08:24.879><c> repo.</c><00:08:25.440><c> This</c><00:08:25.680><c> acts</c><00:08:26.000><c> as</c><00:08:26.160><c> a</c>
+
+00:08:26.390 --> 00:08:26.400 align:start position:0%
+file in your repo. This acts as a
+ 
+
+00:08:26.400 --> 00:08:27.830 align:start position:0%
+file in your repo. This acts as a
+template<00:08:26.879><c> showing</c><00:08:27.199><c> what</c><00:08:27.440><c> environment</c>
+
+00:08:27.830 --> 00:08:27.840 align:start position:0%
+template showing what environment
+ 
+
+00:08:27.840 --> 00:08:29.909 align:start position:0%
+template showing what environment
+variables<00:08:28.240><c> are</c><00:08:28.479><c> expected</c><00:08:28.960><c> without</c><00:08:29.360><c> exposing</c>
+
+00:08:29.909 --> 00:08:29.919 align:start position:0%
+variables are expected without exposing
+ 
+
+00:08:29.919 --> 00:08:32.389 align:start position:0%
+variables are expected without exposing
+any<00:08:30.240><c> real</c><00:08:30.479><c> secrets.</c><00:08:31.199><c> Keep</c><00:08:31.360><c> it</c><00:08:31.599><c> up</c><00:08:31.759><c> to</c><00:08:31.919><c> date.</c><00:08:32.240><c> It</c>
+
+00:08:32.389 --> 00:08:32.399 align:start position:0%
+any real secrets. Keep it up to date. It
+ 
+
+00:08:32.399 --> 00:08:34.310 align:start position:0%
+any real secrets. Keep it up to date. It
+should<00:08:32.640><c> closely</c><00:08:32.959><c> mirror</c><00:08:33.279><c> the</c><00:08:33.440><c> actual</c>
+
+00:08:34.310 --> 00:08:34.320 align:start position:0%
+should closely mirror the actual
+ 
+
+00:08:34.320 --> 00:08:36.149 align:start position:0%
+should closely mirror the actual
+structure.<00:08:34.959><c> That</c><00:08:35.279><c> said,</c><00:08:35.519><c> try</c><00:08:35.760><c> not</c><00:08:36.000><c> to</c>
+
+00:08:36.149 --> 00:08:36.159 align:start position:0%
+structure. That said, try not to
+ 
+
+00:08:36.159 --> 00:08:38.389 align:start position:0%
+structure. That said, try not to
+overload<00:08:36.640><c> your</c><00:08:37.120><c> MB</c><00:08:37.440><c> file</c><00:08:37.599><c> with</c><00:08:37.839><c> things</c><00:08:38.159><c> that</c>
+
+00:08:38.389 --> 00:08:38.399 align:start position:0%
+overload your MB file with things that
+ 
+
+00:08:38.399 --> 00:08:40.469 align:start position:0%
+overload your MB file with things that
+control<00:08:38.800><c> business</c><00:08:39.200><c> logic</c><00:08:39.680><c> or</c><00:08:40.000><c> complex</c>
+
+00:08:40.469 --> 00:08:40.479 align:start position:0%
+control business logic or complex
+ 
+
+00:08:40.479 --> 00:08:42.469 align:start position:0%
+control business logic or complex
+behavior.<00:08:40.959><c> Keep</c><00:08:41.200><c> it</c><00:08:41.360><c> focused</c><00:08:41.760><c> on</c><00:08:42.000><c> the</c><00:08:42.159><c> static</c>
+
+00:08:42.469 --> 00:08:42.479 align:start position:0%
+behavior. Keep it focused on the static
+ 
+
+00:08:42.479 --> 00:08:44.550 align:start position:0%
+behavior. Keep it focused on the static
+configuration<00:08:43.440><c> stuff</c><00:08:43.680><c> like</c><00:08:43.919><c> port</c><00:08:44.159><c> numbers,</c>
+
+00:08:44.550 --> 00:08:44.560 align:start position:0%
+configuration stuff like port numbers,
+ 
+
+00:08:44.560 --> 00:08:47.190 align:start position:0%
+configuration stuff like port numbers,
+DB<00:08:44.880><c> URLs,</c><00:08:45.440><c> credentials,</c><00:08:46.160><c> and</c><00:08:46.399><c> simple</c><00:08:46.720><c> toggles</c>
+
+00:08:47.190 --> 00:08:47.200 align:start position:0%
+DB URLs, credentials, and simple toggles
+ 
+
+00:08:47.200 --> 00:08:49.750 align:start position:0%
+DB URLs, credentials, and simple toggles
+like<00:08:47.600><c> debug</c><00:08:48.000><c> equals</c><00:08:48.399><c> true.</c><00:08:49.040><c> Anything</c><00:08:49.440><c> more</c>
+
+00:08:49.750 --> 00:08:49.760 align:start position:0%
+like debug equals true. Anything more
+ 
+
+00:08:49.760 --> 00:08:51.990 align:start position:0%
+like debug equals true. Anything more
+dynamic<00:08:50.160><c> is</c><00:08:50.480><c> usually</c><00:08:50.880><c> better</c><00:08:51.200><c> off</c><00:08:51.360><c> handled</c>
+
+00:08:51.990 --> 00:08:52.000 align:start position:0%
+dynamic is usually better off handled
+ 
+
+00:08:52.000 --> 00:08:54.550 align:start position:0%
+dynamic is usually better off handled
+directly<00:08:52.399><c> in</c><00:08:52.640><c> code.</c><00:08:53.360><c> Also,</c><00:08:53.680><c> avoid</c><00:08:54.080><c> accessing</c>
+
+00:08:54.550 --> 00:08:54.560 align:start position:0%
+directly in code. Also, avoid accessing
+ 
+
+00:08:54.560 --> 00:08:57.269 align:start position:0%
+directly in code. Also, avoid accessing
+os.invir<00:08:55.600><c> run</c><00:08:55.920><c> all</c><00:08:56.080><c> over</c><00:08:56.240><c> your</c><00:08:56.480><c> codebase.</c><00:08:57.040><c> It</c>
+
+00:08:57.269 --> 00:08:57.279 align:start position:0%
+os.invir run all over your codebase. It
+ 
+
+00:08:57.279 --> 00:08:59.430 align:start position:0%
+os.invir run all over your codebase. It
+gets<00:08:57.600><c> messy</c><00:08:58.000><c> fast.</c><00:08:58.320><c> A</c><00:08:58.480><c> better</c><00:08:58.720><c> approach</c><00:08:59.040><c> is</c><00:08:59.200><c> to</c>
+
+00:08:59.430 --> 00:08:59.440 align:start position:0%
+gets messy fast. A better approach is to
+ 
+
+00:08:59.440 --> 00:09:01.750 align:start position:0%
+gets messy fast. A better approach is to
+centralize<00:09:00.000><c> everything</c><00:09:00.320><c> in</c><00:09:00.480><c> a</c><00:09:00.640><c> config</c><00:09:01.040><c> class,</c>
+
+00:09:01.750 --> 00:09:01.760 align:start position:0%
+centralize everything in a config class,
+ 
+
+00:09:01.760 --> 00:09:03.750 align:start position:0%
+centralize everything in a config class,
+something<00:09:02.000><c> like</c><00:09:02.160><c> a</c><00:09:02.480><c> settings</c><00:09:02.800><c> class.</c><00:09:03.279><c> In</c><00:09:03.519><c> my</c>
+
+00:09:03.750 --> 00:09:03.760 align:start position:0%
+something like a settings class. In my
+ 
+
+00:09:03.760 --> 00:09:05.990 align:start position:0%
+something like a settings class. In my
+project,<00:09:04.080><c> I</c><00:09:04.320><c> use</c><00:09:04.480><c> pedantics</c><00:09:05.200><c> best</c><00:09:05.440><c> settings.</c>
+
+00:09:05.990 --> 00:09:06.000 align:start position:0%
+project, I use pedantics best settings.
+ 
+
+00:09:06.000 --> 00:09:07.509 align:start position:0%
+project, I use pedantics best settings.
+It<00:09:06.160><c> validates</c><00:09:06.720><c> all</c><00:09:06.880><c> your</c><00:09:07.120><c> environment</c>
+
+00:09:07.509 --> 00:09:07.519 align:start position:0%
+It validates all your environment
+ 
+
+00:09:07.519 --> 00:09:09.190 align:start position:0%
+It validates all your environment
+variables<00:09:08.000><c> up</c><00:09:08.160><c> front.</c><00:09:08.480><c> If</c><00:09:08.640><c> something</c><00:09:08.959><c> missing</c>
+
+00:09:09.190 --> 00:09:09.200 align:start position:0%
+variables up front. If something missing
+ 
+
+00:09:09.200 --> 00:09:11.350 align:start position:0%
+variables up front. If something missing
+or<00:09:09.440><c> misconfigured,</c><00:09:10.160><c> it</c><00:09:10.399><c> fails</c><00:09:10.720><c> early</c><00:09:11.120><c> right</c>
+
+00:09:11.350 --> 00:09:11.360 align:start position:0%
+or misconfigured, it fails early right
+ 
+
+00:09:11.360 --> 00:09:13.430 align:start position:0%
+or misconfigured, it fails early right
+when<00:09:11.600><c> the</c><00:09:11.760><c> server</c><00:09:12.160><c> starts</c><00:09:12.800><c> and</c><00:09:12.959><c> it</c><00:09:13.200><c> makes</c>
+
+00:09:13.430 --> 00:09:13.440 align:start position:0%
+when the server starts and it makes
+ 
+
+00:09:13.440 --> 00:09:14.870 align:start position:0%
+when the server starts and it makes
+switching<00:09:13.839><c> between</c><00:09:14.080><c> development</c><00:09:14.640><c> and</c>
+
+00:09:14.870 --> 00:09:14.880 align:start position:0%
+switching between development and
+ 
+
+00:09:14.880 --> 00:09:17.269 align:start position:0%
+switching between development and
+production<00:09:15.279><c> environment</c><00:09:15.760><c> a</c><00:09:16.000><c> lot</c><00:09:16.320><c> smoother.</c>
+
+00:09:17.269 --> 00:09:17.279 align:start position:0%
+production environment a lot smoother.
+ 
+
+00:09:17.279 --> 00:09:19.430 align:start position:0%
+production environment a lot smoother.
+Another<00:09:17.680><c> solid</c><00:09:18.000><c> option</c><00:09:18.160><c> is</c><00:09:18.320><c> Dino.</c><00:09:19.040><c> It's</c><00:09:19.200><c> more</c>
+
+00:09:19.430 --> 00:09:19.440 align:start position:0%
+Another solid option is Dino. It's more
+ 
+
+00:09:19.440 --> 00:09:21.110 align:start position:0%
+Another solid option is Dino. It's more
+flexible<00:09:19.839><c> and</c><00:09:20.080><c> support</c><00:09:20.480><c> things</c><00:09:20.720><c> like</c>
+
+00:09:21.110 --> 00:09:21.120 align:start position:0%
+flexible and support things like
+ 
+
+00:09:21.120 --> 00:09:22.949 align:start position:0%
+flexible and support things like
+multiple<00:09:21.519><c> environments</c><00:09:22.160><c> and</c><00:09:22.560><c> layered</c>
+
+00:09:22.949 --> 00:09:22.959 align:start position:0%
+multiple environments and layered
+ 
+
+00:09:22.959 --> 00:09:25.910 align:start position:0%
+multiple environments and layered
+settings.<00:09:24.000><c> Number</c><00:09:24.320><c> 14,</c><00:09:24.880><c> use</c><00:09:25.200><c> structured</c>
+
+00:09:25.910 --> 00:09:25.920 align:start position:0%
+settings. Number 14, use structured
+ 
+
+00:09:25.920 --> 00:09:28.230 align:start position:0%
+settings. Number 14, use structured
+logging<00:09:26.399><c> and</c><00:09:26.720><c> avoid</c><00:09:27.120><c> relying</c><00:09:27.519><c> on</c><00:09:27.760><c> simple</c>
+
+00:09:28.230 --> 00:09:28.240 align:start position:0%
+logging and avoid relying on simple
+ 
+
+00:09:28.240 --> 00:09:30.310 align:start position:0%
+logging and avoid relying on simple
+print<00:09:28.560><c> statements</c><00:09:28.959><c> for</c><00:09:29.120><c> logging.</c><00:09:29.760><c> The</c><00:09:30.080><c> print</c>
+
+00:09:30.310 --> 00:09:30.320 align:start position:0%
+print statements for logging. The print
+ 
+
+00:09:30.320 --> 00:09:31.829 align:start position:0%
+print statements for logging. The print
+function<00:09:30.720><c> simply</c><00:09:31.040><c> doesn't</c><00:09:31.360><c> offer</c><00:09:31.600><c> the</c>
+
+00:09:31.829 --> 00:09:31.839 align:start position:0%
+function simply doesn't offer the
+ 
+
+00:09:31.839 --> 00:09:33.910 align:start position:0%
+function simply doesn't offer the
+control<00:09:32.160><c> and</c><00:09:32.480><c> flexibility</c><00:09:33.120><c> we</c><00:09:33.360><c> need.</c><00:09:33.760><c> For</c>
+
+00:09:33.910 --> 00:09:33.920 align:start position:0%
+control and flexibility we need. For
+ 
+
+00:09:33.920 --> 00:09:35.509 align:start position:0%
+control and flexibility we need. For
+instance,<00:09:34.240><c> there's</c><00:09:34.480><c> no</c><00:09:34.640><c> built-in</c><00:09:35.040><c> way</c><00:09:35.200><c> to</c>
+
+00:09:35.509 --> 00:09:35.519 align:start position:0%
+instance, there's no built-in way to
+ 
+
+00:09:35.519 --> 00:09:37.829 align:start position:0%
+instance, there's no built-in way to
+specify<00:09:35.920><c> a</c><00:09:36.080><c> log</c><00:09:36.320><c> level</c><00:09:36.560><c> or</c><00:09:36.800><c> automatically</c><00:09:37.519><c> add</c>
+
+00:09:37.829 --> 00:09:37.839 align:start position:0%
+specify a log level or automatically add
+ 
+
+00:09:37.839 --> 00:09:40.230 align:start position:0%
+specify a log level or automatically add
+context<00:09:38.240><c> like</c><00:09:38.480><c> request</c><00:09:38.880><c> ID,</c><00:09:39.120><c> timestamps.</c>
+
+00:09:40.230 --> 00:09:40.240 align:start position:0%
+context like request ID, timestamps.
+ 
+
+00:09:40.240 --> 00:09:42.070 align:start position:0%
+context like request ID, timestamps.
+Debugging<00:09:40.800><c> with</c><00:09:40.959><c> print</c><00:09:41.279><c> can</c><00:09:41.519><c> quickly</c><00:09:41.839><c> become</c>
+
+00:09:42.070 --> 00:09:42.080 align:start position:0%
+Debugging with print can quickly become
+ 
+
+00:09:42.080 --> 00:09:43.990 align:start position:0%
+Debugging with print can quickly become
+a<00:09:42.240><c> nightmare</c><00:09:42.880><c> because</c><00:09:43.200><c> you</c><00:09:43.519><c> can't</c><00:09:43.680><c> easily</c>
+
+00:09:43.990 --> 00:09:44.000 align:start position:0%
+a nightmare because you can't easily
+ 
+
+00:09:44.000 --> 00:09:46.070 align:start position:0%
+a nightmare because you can't easily
+filter<00:09:44.320><c> out</c><00:09:44.560><c> irrelevant</c><00:09:45.120><c> messages.</c><00:09:45.839><c> Every</c>
+
+00:09:46.070 --> 00:09:46.080 align:start position:0%
+filter out irrelevant messages. Every
+ 
+
+00:09:46.080 --> 00:09:47.990 align:start position:0%
+filter out irrelevant messages. Every
+print<00:09:46.399><c> statement</c><00:09:46.800><c> has</c><00:09:46.959><c> the</c><00:09:47.120><c> same</c><00:09:47.279><c> visibility.</c>
+
+00:09:47.990 --> 00:09:48.000 align:start position:0%
+print statement has the same visibility.
+ 
+
+00:09:48.000 --> 00:09:50.150 align:start position:0%
+print statement has the same visibility.
+Instead,<00:09:48.399><c> I</c><00:09:48.640><c> highly</c><00:09:48.959><c> recommend</c><00:09:49.279><c> using</c><00:09:49.680><c> Python</c>
+
+00:09:50.150 --> 00:09:50.160 align:start position:0%
+Instead, I highly recommend using Python
+ 
+
+00:09:50.160 --> 00:09:51.910 align:start position:0%
+Instead, I highly recommend using Python
+the<00:09:50.320><c> standard</c><00:09:50.640><c> logging</c><00:09:51.040><c> module</c><00:09:51.360><c> often</c><00:09:51.680><c> paired</c>
+
+00:09:51.910 --> 00:09:51.920 align:start position:0%
+the standard logging module often paired
+ 
+
+00:09:51.920 --> 00:09:54.389 align:start position:0%
+the standard logging module often paired
+with<00:09:52.080><c> powerful</c><00:09:52.399><c> libraries</c><00:09:52.880><c> like</c><00:09:53.120><c> log</c><00:09:53.440><c> guru</c><00:09:53.920><c> or</c>
+
+00:09:54.389 --> 00:09:54.399 align:start position:0%
+with powerful libraries like log guru or
+ 
+
+00:09:54.399 --> 00:09:56.470 align:start position:0%
+with powerful libraries like log guru or
+struck<00:09:54.720><c> log.</c><00:09:55.040><c> These</c><00:09:55.279><c> libraries</c><00:09:55.839><c> allow</c><00:09:56.080><c> you</c><00:09:56.240><c> to</c>
+
+00:09:56.470 --> 00:09:56.480 align:start position:0%
+struck log. These libraries allow you to
+ 
+
+00:09:56.480 --> 00:09:58.630 align:start position:0%
+struck log. These libraries allow you to
+assign<00:09:56.800><c> a</c><00:09:57.040><c> criticality</c><00:09:57.680><c> to</c><00:09:57.920><c> your</c><00:09:58.160><c> logs.</c>
+
+00:09:58.630 --> 00:09:58.640 align:start position:0%
+assign a criticality to your logs.
+ 
+
+00:09:58.640 --> 00:10:00.230 align:start position:0%
+assign a criticality to your logs.
+Whether<00:09:58.959><c> it's</c><00:09:59.200><c> something</c><00:09:59.440><c> for</c><00:09:59.680><c> debugging,</c>
+
+00:10:00.230 --> 00:10:00.240 align:start position:0%
+Whether it's something for debugging,
+ 
+
+00:10:00.240 --> 00:10:02.790 align:start position:0%
+Whether it's something for debugging,
+anformational<00:10:00.959><c> message,</c><00:10:01.680><c> a</c><00:10:01.920><c> warning,</c><00:10:02.399><c> an</c>
+
+00:10:02.790 --> 00:10:02.800 align:start position:0%
+anformational message, a warning, an
+ 
+
+00:10:02.800 --> 00:10:05.590 align:start position:0%
+anformational message, a warning, an
+error,<00:10:03.200><c> or</c><00:10:03.440><c> a</c><00:10:03.680><c> critical</c><00:10:04.080><c> alert.</c><00:10:04.880><c> This</c><00:10:05.200><c> becomes</c>
+
+00:10:05.590 --> 00:10:05.600 align:start position:0%
+error, or a critical alert. This becomes
+ 
+
+00:10:05.600 --> 00:10:07.350 align:start position:0%
+error, or a critical alert. This becomes
+incredibly<00:10:06.240><c> useful</c><00:10:06.560><c> when</c><00:10:06.800><c> you</c><00:10:06.959><c> are</c><00:10:07.120><c> running</c>
+
+00:10:07.350 --> 00:10:07.360 align:start position:0%
+incredibly useful when you are running
+ 
+
+00:10:07.360 --> 00:10:09.110 align:start position:0%
+incredibly useful when you are running
+your<00:10:07.680><c> application.</c><00:10:08.480><c> Depending</c><00:10:08.800><c> on</c><00:10:08.959><c> the</c>
+
+00:10:09.110 --> 00:10:09.120 align:start position:0%
+your application. Depending on the
+ 
+
+00:10:09.120 --> 00:10:11.030 align:start position:0%
+your application. Depending on the
+environment,<00:10:09.600><c> whether</c><00:10:09.839><c> it's</c><00:10:10.160><c> development</c><00:10:10.720><c> or</c>
+
+00:10:11.030 --> 00:10:11.040 align:start position:0%
+environment, whether it's development or
+ 
+
+00:10:11.040 --> 00:10:13.190 align:start position:0%
+environment, whether it's development or
+production,<00:10:11.440><c> you</c><00:10:11.680><c> can</c><00:10:11.760><c> set</c><00:10:12.000><c> the</c><00:10:12.320><c> log</c><00:10:12.640><c> level.</c>
+
+00:10:13.190 --> 00:10:13.200 align:start position:0%
+production, you can set the log level.
+ 
+
+00:10:13.200 --> 00:10:15.030 align:start position:0%
+production, you can set the log level.
+For<00:10:13.279><c> example,</c><00:10:13.680><c> you</c><00:10:13.839><c> might</c><00:10:14.079><c> set</c><00:10:14.240><c> it</c><00:10:14.399><c> to</c><00:10:14.560><c> debug</c>
+
+00:10:15.030 --> 00:10:15.040 align:start position:0%
+For example, you might set it to debug
+ 
+
+00:10:15.040 --> 00:10:17.509 align:start position:0%
+For example, you might set it to debug
+or<00:10:15.279><c> info</c><00:10:15.680><c> or</c><00:10:16.079><c> error,</c><00:10:16.560><c> which</c><00:10:16.800><c> gives</c><00:10:16.959><c> you</c><00:10:17.200><c> fine</c>
+
+00:10:17.509 --> 00:10:17.519 align:start position:0%
+or info or error, which gives you fine
+ 
+
+00:10:17.519 --> 00:10:19.509 align:start position:0%
+or info or error, which gives you fine
+grain<00:10:17.839><c> control</c><00:10:18.240><c> over</c><00:10:18.560><c> what</c><00:10:18.880><c> messages</c><00:10:19.360><c> you</c>
+
+00:10:19.509 --> 00:10:19.519 align:start position:0%
+grain control over what messages you
+ 
+
+00:10:19.519 --> 00:10:21.269 align:start position:0%
+grain control over what messages you
+see.<00:10:19.920><c> In</c><00:10:20.160><c> development,</c><00:10:20.720><c> you</c><00:10:20.880><c> will</c><00:10:21.040><c> likely</c>
+
+00:10:21.269 --> 00:10:21.279 align:start position:0%
+see. In development, you will likely
+ 
+
+00:10:21.279 --> 00:10:22.790 align:start position:0%
+see. In development, you will likely
+want<00:10:21.440><c> to</c><00:10:21.519><c> see</c><00:10:21.760><c> everything.</c><00:10:22.160><c> So,</c><00:10:22.399><c> setting</c><00:10:22.640><c> the</c>
+
+00:10:22.790 --> 00:10:22.800 align:start position:0%
+want to see everything. So, setting the
+ 
+
+00:10:22.800 --> 00:10:25.110 align:start position:0%
+want to see everything. So, setting the
+log<00:10:23.040><c> level</c><00:10:23.279><c> to</c><00:10:23.440><c> debug</c><00:10:24.000><c> is</c><00:10:24.320><c> common.</c><00:10:24.720><c> However,</c>
+
+00:10:25.110 --> 00:10:25.120 align:start position:0%
+log level to debug is common. However,
+ 
+
+00:10:25.120 --> 00:10:26.949 align:start position:0%
+log level to debug is common. However,
+in<00:10:25.360><c> production,</c><00:10:26.079><c> you</c><00:10:26.240><c> would</c><00:10:26.399><c> probably</c><00:10:26.800><c> want</c>
+
+00:10:26.949 --> 00:10:26.959 align:start position:0%
+in production, you would probably want
+ 
+
+00:10:26.959 --> 00:10:29.190 align:start position:0%
+in production, you would probably want
+to<00:10:27.200><c> set</c><00:10:27.360><c> the</c><00:10:27.600><c> log</c><00:10:27.839><c> level</c><00:10:28.160><c> higher,</c><00:10:28.640><c> perhaps</c><00:10:28.959><c> to</c>
+
+00:10:29.190 --> 00:10:29.200 align:start position:0%
+to set the log level higher, perhaps to
+ 
+
+00:10:29.200 --> 00:10:31.509 align:start position:0%
+to set the log level higher, perhaps to
+info<00:10:29.600><c> or</c><00:10:29.920><c> error</c><00:10:30.399><c> based</c><00:10:30.720><c> on</c><00:10:30.880><c> your</c><00:10:31.200><c> specific</c>
+
+00:10:31.509 --> 00:10:31.519 align:start position:0%
+info or error based on your specific
+ 
+
+00:10:31.519 --> 00:10:33.670 align:start position:0%
+info or error based on your specific
+operational<00:10:32.079><c> needs.</c><00:10:32.720><c> Another</c><00:10:33.040><c> incredibly</c>
+
+00:10:33.670 --> 00:10:33.680 align:start position:0%
+operational needs. Another incredibly
+ 
+
+00:10:33.680 --> 00:10:35.829 align:start position:0%
+operational needs. Another incredibly
+useful<00:10:34.079><c> practice</c><00:10:34.480><c> is</c><00:10:34.640><c> to</c><00:10:34.880><c> add</c><00:10:35.120><c> contextual</c>
+
+00:10:35.829 --> 00:10:35.839 align:start position:0%
+useful practice is to add contextual
+ 
+
+00:10:35.839 --> 00:10:38.630 align:start position:0%
+useful practice is to add contextual
+information<00:10:36.480><c> to</c><00:10:36.959><c> each</c><00:10:37.279><c> log,</c><00:10:37.839><c> such</c><00:10:38.000><c> as</c><00:10:38.240><c> request</c>
+
+00:10:38.630 --> 00:10:38.640 align:start position:0%
+information to each log, such as request
+ 
+
+00:10:38.640 --> 00:10:40.790 align:start position:0%
+information to each log, such as request
+ID.<00:10:39.120><c> Unlike</c><00:10:39.440><c> print</c><00:10:39.839><c> statements</c><00:10:40.320><c> where</c><00:10:40.560><c> you</c>
+
+00:10:40.790 --> 00:10:40.800 align:start position:0%
+ID. Unlike print statements where you
+ 
+
+00:10:40.800 --> 00:10:42.230 align:start position:0%
+ID. Unlike print statements where you
+have<00:10:40.880><c> to</c><00:10:41.040><c> manually</c><00:10:41.440><c> add</c><00:10:41.600><c> this</c><00:10:41.839><c> to</c><00:10:42.000><c> every</c>
+
+00:10:42.230 --> 00:10:42.240 align:start position:0%
+have to manually add this to every
+ 
+
+00:10:42.240 --> 00:10:44.630 align:start position:0%
+have to manually add this to every
+single<00:10:42.480><c> one,</c><00:10:43.040><c> libraries</c><00:10:43.600><c> like</c><00:10:43.920><c> strruct</c><00:10:44.240><c> log</c>
+
+00:10:44.630 --> 00:10:44.640 align:start position:0%
+single one, libraries like strruct log
+ 
+
+00:10:44.640 --> 00:10:46.710 align:start position:0%
+single one, libraries like strruct log
+allow<00:10:44.959><c> you</c><00:10:45.120><c> to</c><00:10:45.279><c> create</c><00:10:45.440><c> a</c><00:10:45.680><c> middleware</c><00:10:46.240><c> that</c>
+
+00:10:46.710 --> 00:10:46.720 align:start position:0%
+allow you to create a middleware that
+ 
+
+00:10:46.720 --> 00:10:48.949 align:start position:0%
+allow you to create a middleware that
+stores<00:10:47.040><c> context</c><00:10:47.440><c> variables,</c><00:10:48.240><c> these</c><00:10:48.560><c> context</c>
+
+00:10:48.949 --> 00:10:48.959 align:start position:0%
+stores context variables, these context
+ 
+
+00:10:48.959 --> 00:10:51.269 align:start position:0%
+stores context variables, these context
+variables<00:10:49.440><c> safely</c><00:10:49.839><c> pass</c><00:10:50.160><c> request</c><00:10:50.800><c> specific</c>
+
+00:10:51.269 --> 00:10:51.279 align:start position:0%
+variables safely pass request specific
+ 
+
+00:10:51.279 --> 00:10:53.190 align:start position:0%
+variables safely pass request specific
+data<00:10:51.600><c> across</c><00:10:52.000><c> synchronous</c><00:10:52.480><c> calls.</c><00:10:52.959><c> Then</c>
+
+00:10:53.190 --> 00:10:53.200 align:start position:0%
+data across synchronous calls. Then
+ 
+
+00:10:53.200 --> 00:10:54.710 align:start position:0%
+data across synchronous calls. Then
+within<00:10:53.440><c> your</c><00:10:53.600><c> logger</c><00:10:54.000><c> configuration,</c><00:10:54.560><c> you</c>
+
+00:10:54.710 --> 00:10:54.720 align:start position:0%
+within your logger configuration, you
+ 
+
+00:10:54.720 --> 00:10:56.710 align:start position:0%
+within your logger configuration, you
+can<00:10:54.880><c> configure</c><00:10:55.279><c> it</c><00:10:55.440><c> to</c><00:10:55.680><c> include</c><00:10:56.079><c> the</c><00:10:56.240><c> context</c>
+
+00:10:56.710 --> 00:10:56.720 align:start position:0%
+can configure it to include the context
+ 
+
+00:10:56.720 --> 00:10:59.190 align:start position:0%
+can configure it to include the context
+variables,<00:10:57.760><c> time,</c><00:10:58.079><c> log</c><00:10:58.399><c> level,</c><00:10:58.720><c> and</c><00:10:58.959><c> the</c>
+
+00:10:59.190 --> 00:10:59.200 align:start position:0%
+variables, time, log level, and the
+ 
+
+00:10:59.200 --> 00:11:01.430 align:start position:0%
+variables, time, log level, and the
+actual<00:10:59.519><c> message.</c><00:11:00.160><c> The</c><00:11:00.320><c> request</c><00:11:00.720><c> ID</c><00:11:00.959><c> is</c><00:11:01.120><c> just</c><00:11:01.279><c> a</c>
+
+00:11:01.430 --> 00:11:01.440 align:start position:0%
+actual message. The request ID is just a
+ 
+
+00:11:01.440 --> 00:11:03.030 align:start position:0%
+actual message. The request ID is just a
+simple<00:11:01.680><c> example.</c><00:11:02.240><c> You</c><00:11:02.399><c> might</c><00:11:02.560><c> also</c><00:11:02.800><c> want</c><00:11:02.880><c> to</c>
+
+00:11:03.030 --> 00:11:03.040 align:start position:0%
+simple example. You might also want to
+ 
+
+00:11:03.040 --> 00:11:05.269 align:start position:0%
+simple example. You might also want to
+log<00:11:03.360><c> other</c><00:11:03.760><c> contextual</c><00:11:04.480><c> information</c><00:11:05.040><c> like</c>
+
+00:11:05.269 --> 00:11:05.279 align:start position:0%
+log other contextual information like
+ 
+
+00:11:05.279 --> 00:11:07.430 align:start position:0%
+log other contextual information like
+the<00:11:05.519><c> user</c><00:11:05.839><c> ID.</c><00:11:06.480><c> Just</c><00:11:06.800><c> make</c><00:11:06.959><c> sure</c><00:11:07.120><c> you</c><00:11:07.279><c> are</c>
+
+00:11:07.430 --> 00:11:07.440 align:start position:0%
+the user ID. Just make sure you are
+ 
+
+00:11:07.440 --> 00:11:08.949 align:start position:0%
+the user ID. Just make sure you are
+never<00:11:07.680><c> logging</c><00:11:08.000><c> anything</c><00:11:08.320><c> sensitive</c><00:11:08.800><c> like</c>
+
+00:11:08.949 --> 00:11:08.959 align:start position:0%
+never logging anything sensitive like
+ 
+
+00:11:08.959 --> 00:11:11.670 align:start position:0%
+never logging anything sensitive like
+database<00:11:09.519><c> credentials</c><00:11:10.240><c> or</c><00:11:10.560><c> API</c><00:11:11.040><c> keys.</c>
+
+00:11:11.670 --> 00:11:11.680 align:start position:0%
+database credentials or API keys.
+ 
+
+00:11:11.680 --> 00:11:12.949 align:start position:0%
+database credentials or API keys.
+Finally,<00:11:12.000><c> if</c><00:11:12.160><c> you</c><00:11:12.320><c> are</c><00:11:12.399><c> running</c><00:11:12.640><c> multiple</c>
+
+00:11:12.949 --> 00:11:12.959 align:start position:0%
+Finally, if you are running multiple
+ 
+
+00:11:12.959 --> 00:11:14.870 align:start position:0%
+Finally, if you are running multiple
+instances<00:11:13.440><c> of</c><00:11:13.600><c> your</c><00:11:13.760><c> application,</c><00:11:14.480><c> it's</c><00:11:14.720><c> a</c>
+
+00:11:14.870 --> 00:11:14.880 align:start position:0%
+instances of your application, it's a
+ 
+
+00:11:14.880 --> 00:11:16.790 align:start position:0%
+instances of your application, it's a
+good<00:11:15.040><c> practice</c><00:11:15.440><c> to</c><00:11:15.600><c> centralize</c><00:11:16.160><c> your</c><00:11:16.320><c> logs.</c>
+
+00:11:16.790 --> 00:11:16.800 align:start position:0%
+good practice to centralize your logs.
+ 
+
+00:11:16.800 --> 00:11:18.630 align:start position:0%
+good practice to centralize your logs.
+To<00:11:17.040><c> do</c><00:11:17.120><c> this,</c><00:11:17.279><c> you</c><00:11:17.440><c> will</c><00:11:17.600><c> likely</c><00:11:17.920><c> want</c><00:11:18.079><c> to</c><00:11:18.240><c> push</c>
+
+00:11:18.630 --> 00:11:18.640 align:start position:0%
+To do this, you will likely want to push
+ 
+
+00:11:18.640 --> 00:11:21.750 align:start position:0%
+To do this, you will likely want to push
+these<00:11:18.959><c> JSON</c><00:11:19.440><c> logs</c><00:11:19.920><c> using</c><00:11:20.399><c> 5B</c><00:11:20.959><c> to</c><00:11:21.279><c> elastic</c>
+
+00:11:21.750 --> 00:11:21.760 align:start position:0%
+these JSON logs using 5B to elastic
+ 
+
+00:11:21.760 --> 00:11:23.990 align:start position:0%
+these JSON logs using 5B to elastic
+search<00:11:22.079><c> for</c><00:11:22.320><c> centralized</c><00:11:23.279><c> storage</c><00:11:23.680><c> and</c>
+
+00:11:23.990 --> 00:11:24.000 align:start position:0%
+search for centralized storage and
+ 
+
+00:11:24.000 --> 00:11:26.550 align:start position:0%
+search for centralized storage and
+analysis.<00:11:24.959><c> And</c><00:11:25.200><c> for</c><00:11:25.360><c> our</c><00:11:25.600><c> last</c><00:11:25.839><c> point,</c><00:11:26.240><c> number</c>
+
+00:11:26.550 --> 00:11:26.560 align:start position:0%
+analysis. And for our last point, number
+ 
+
+00:11:26.560 --> 00:11:28.310 align:start position:0%
+analysis. And for our last point, number
+15,<00:11:26.959><c> we</c><00:11:27.120><c> are</c><00:11:27.360><c> talking</c><00:11:27.519><c> about</c><00:11:27.760><c> the</c><00:11:28.000><c> best</c>
+
+00:11:28.310 --> 00:11:28.320 align:start position:0%
+15, we are talking about the best
+ 
+
+00:11:28.320 --> 00:11:30.550 align:start position:0%
+15, we are talking about the best
+practices<00:11:28.800><c> for</c><00:11:29.040><c> deploying</c><00:11:29.440><c> fast</c><00:11:29.680><c> API</c><00:11:30.240><c> for</c>
+
+00:11:30.550 --> 00:11:30.560 align:start position:0%
+practices for deploying fast API for
+ 
+
+00:11:30.560 --> 00:11:32.470 align:start position:0%
+practices for deploying fast API for
+local<00:11:30.880><c> development.</c><00:11:31.279><c> Uicon</c><00:11:31.839><c> on</c><00:11:32.000><c> its</c><00:11:32.160><c> own</c><00:11:32.240><c> is</c>
+
+00:11:32.470 --> 00:11:32.480 align:start position:0%
+local development. Uicon on its own is
+ 
+
+00:11:32.480 --> 00:11:34.470 align:start position:0%
+local development. Uicon on its own is
+perfectly<00:11:32.880><c> fine.</c><00:11:33.440><c> However,</c><00:11:33.920><c> when</c><00:11:34.160><c> you</c><00:11:34.320><c> move</c>
+
+00:11:34.470 --> 00:11:34.480 align:start position:0%
+perfectly fine. However, when you move
+ 
+
+00:11:34.480 --> 00:11:35.990 align:start position:0%
+perfectly fine. However, when you move
+to<00:11:34.640><c> a</c><00:11:34.880><c> production</c><00:11:35.200><c> environment,</c><00:11:35.680><c> you</c><00:11:35.839><c> should</c>
+
+00:11:35.990 --> 00:11:36.000 align:start position:0%
+to a production environment, you should
+ 
+
+00:11:36.000 --> 00:11:38.310 align:start position:0%
+to a production environment, you should
+run<00:11:36.480><c> uicon</c><00:11:36.880><c> with</c><00:11:37.040><c> Konicon,</c><00:11:37.680><c> specifically</c>
+
+00:11:38.310 --> 00:11:38.320 align:start position:0%
+run uicon with Konicon, specifically
+ 
+
+00:11:38.320 --> 00:11:41.269 align:start position:0%
+run uicon with Konicon, specifically
+using<00:11:38.560><c> the</c><00:11:38.880><c> uvicon</c><00:11:39.519><c> worker</c><00:11:39.920><c> class.</c><00:11:40.800><c> Next,</c>
+
+00:11:41.269 --> 00:11:41.279 align:start position:0%
+using the uvicon worker class. Next,
+ 
+
+00:11:41.279 --> 00:11:43.269 align:start position:0%
+using the uvicon worker class. Next,
+make<00:11:41.519><c> sure</c><00:11:41.680><c> to</c><00:11:41.839><c> install</c><00:11:42.079><c> UV</c><00:11:42.480><c> loop</c><00:11:42.880><c> in</c><00:11:43.120><c> your</c>
+
+00:11:43.269 --> 00:11:43.279 align:start position:0%
+make sure to install UV loop in your
+ 
+
+00:11:43.279 --> 00:11:45.110 align:start position:0%
+make sure to install UV loop in your
+Python<00:11:43.680><c> virtual</c><00:11:44.000><c> environment.</c><00:11:44.480><c> First</c><00:11:44.720><c> API</c>
+
+00:11:45.110 --> 00:11:45.120 align:start position:0%
+Python virtual environment. First API
+ 
+
+00:11:45.120 --> 00:11:46.949 align:start position:0%
+Python virtual environment. First API
+will<00:11:45.279><c> automatically</c><00:11:45.839><c> detect</c><00:11:46.160><c> and</c><00:11:46.399><c> use</c><00:11:46.640><c> UV</c>
+
+00:11:46.949 --> 00:11:46.959 align:start position:0%
+will automatically detect and use UV
+ 
+
+00:11:46.959 --> 00:11:49.829 align:start position:0%
+will automatically detect and use UV
+loop<00:11:47.440><c> instead</c><00:11:47.839><c> of</c><00:11:48.000><c> the</c><00:11:48.240><c> default</c><00:11:49.040><c> as</c><00:11:49.200><c> sync</c><00:11:49.440><c> IO</c>
+
+00:11:49.829 --> 00:11:49.839 align:start position:0%
+loop instead of the default as sync IO
+ 
+
+00:11:49.839 --> 00:11:51.269 align:start position:0%
+loop instead of the default as sync IO
+event<00:11:50.079><c> loop</c><00:11:50.399><c> which</c><00:11:50.640><c> can</c><00:11:50.800><c> provide</c><00:11:51.040><c> a</c>
+
+00:11:51.269 --> 00:11:51.279 align:start position:0%
+event loop which can provide a
+ 
+
+00:11:51.279 --> 00:11:53.430 align:start position:0%
+event loop which can provide a
+significant<00:11:51.839><c> performance</c><00:11:52.240><c> boost.</c><00:11:53.040><c> Finally,</c>
+
+00:11:53.430 --> 00:11:53.440 align:start position:0%
+significant performance boost. Finally,
+ 
+
+00:11:53.440 --> 00:11:54.949 align:start position:0%
+significant performance boost. Finally,
+you<00:11:53.600><c> will</c><00:11:53.760><c> want</c><00:11:53.920><c> to</c><00:11:54.160><c> tune</c><00:11:54.480><c> the</c><00:11:54.640><c> number</c><00:11:54.800><c> of</c>
+
+00:11:54.949 --> 00:11:54.959 align:start position:0%
+you will want to tune the number of
+ 
+
+00:11:54.959 --> 00:11:56.949 align:start position:0%
+you will want to tune the number of
+workers<00:11:55.360><c> to</c><00:11:55.519><c> match</c><00:11:55.760><c> your</c><00:11:55.920><c> server</c><00:11:56.320><c> CPU.</c><00:11:56.720><c> A</c>
+
+00:11:56.949 --> 00:11:56.959 align:start position:0%
+workers to match your server CPU. A
+ 
+
+00:11:56.959 --> 00:11:58.949 align:start position:0%
+workers to match your server CPU. A
+common<00:11:57.200><c> starting</c><00:11:57.519><c> point</c><00:11:57.680><c> is</c><00:11:57.920><c> to</c><00:11:58.079><c> set</c><00:11:58.480><c> worker</c>
+
+00:11:58.949 --> 00:11:58.959 align:start position:0%
+common starting point is to set worker
+ 
+
+00:11:58.959 --> 00:12:01.670 align:start position:0%
+common starting point is to set worker
+equal<00:11:59.200><c> to</c><00:11:59.440><c> CPU</c><00:11:59.839><c> cores*</c><00:12:00.399><c> 2</c><00:12:00.640><c> plus</c><00:12:00.800><c> one.</c><00:12:01.279><c> However,</c>
+
+00:12:01.670 --> 00:12:01.680 align:start position:0%
+equal to CPU cores* 2 plus one. However,
+ 
+
+00:12:01.680 --> 00:12:03.509 align:start position:0%
+equal to CPU cores* 2 plus one. However,
+this<00:12:01.839><c> isn't</c><00:12:02.160><c> a</c><00:12:02.320><c> hard</c><00:12:02.480><c> and</c><00:12:02.720><c> fast</c><00:12:02.880><c> rule.</c><00:12:03.360><c> You</c>
+
+00:12:03.509 --> 00:12:03.519 align:start position:0%
+this isn't a hard and fast rule. You
+ 
+
+00:12:03.519 --> 00:12:05.670 align:start position:0%
+this isn't a hard and fast rule. You
+should<00:12:03.680><c> experiment</c><00:12:04.240><c> and</c><00:12:04.480><c> benchmark</c><00:12:05.120><c> to</c><00:12:05.440><c> find</c>
+
+00:12:05.670 --> 00:12:05.680 align:start position:0%
+should experiment and benchmark to find
+ 
+
+00:12:05.680 --> 00:12:07.990 align:start position:0%
+should experiment and benchmark to find
+the<00:12:05.920><c> optimal</c><00:12:06.399><c> number</c><00:12:06.639><c> that</c><00:12:07.040><c> maximizes</c><00:12:07.680><c> your</c>
+
+00:12:07.990 --> 00:12:08.000 align:start position:0%
+the optimal number that maximizes your
+ 
+
+00:12:08.000 --> 00:12:09.829 align:start position:0%
+the optimal number that maximizes your
+server<00:12:08.320><c> performance.</c><00:12:09.120><c> If</c><00:12:09.360><c> you</c><00:12:09.519><c> are</c><00:12:09.680><c> looking</c>
+
+00:12:09.829 --> 00:12:09.839 align:start position:0%
+server performance. If you are looking
+ 
+
+00:12:09.839 --> 00:12:11.509 align:start position:0%
+server performance. If you are looking
+to<00:12:10.000><c> scale</c><00:12:10.240><c> your</c><00:12:10.480><c> application</c><00:12:10.880><c> further,</c>
+
+00:12:11.509 --> 00:12:11.519 align:start position:0%
+to scale your application further,
+ 
+
+00:12:11.519 --> 00:12:14.230 align:start position:0%
+to scale your application further,
+consider<00:12:11.920><c> containerizing</c><00:12:12.720><c> it</c><00:12:13.040><c> using</c><00:12:13.360><c> Docker.</c>
+
+00:12:14.230 --> 00:12:14.240 align:start position:0%
+consider containerizing it using Docker.
+ 
+
+00:12:14.240 --> 00:12:16.150 align:start position:0%
+consider containerizing it using Docker.
+Don't<00:12:14.399><c> forget</c><00:12:14.720><c> to</c><00:12:14.959><c> drop</c><00:12:15.200><c> me</c><00:12:15.279><c> an</c><00:12:15.519><c> email</c><00:12:15.760><c> here</c><00:12:15.920><c> if</c>
+
+00:12:16.150 --> 00:12:16.160 align:start position:0%
+Don't forget to drop me an email here if
+ 
+
+00:12:16.160 --> 00:12:20.000 align:start position:0%
+Don't forget to drop me an email here if
+you<00:12:16.320><c> want</c><00:12:16.480><c> me</c><00:12:16.639><c> to</c><00:12:16.720><c> review</c><00:12:17.040><c> your</c><00:12:17.360><c> application.</c>
+

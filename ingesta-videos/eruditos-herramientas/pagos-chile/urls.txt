@@ -1,0 +1,8 @@
+mp_checkout_pro|https://www.mercadopago.cl/developers/es/docs/checkout-pro/overview
+mp_comisiones|https://www.mercadopago.cl/costs-section
+flow_api|https://www.flow.cl/docs/api.html
+fintoc_overview|https://docs.fintoc.com/docs/payments-overview
+transbank_webpay|https://www.transbankdevelopers.cl/documentacion/webpay-plus
+laudus_top5_pasarelas|https://laudus.cl/contenidos/gestion-erp/top-5-pasarelas-de-pago-en-chile/
+vendercontarjeta_alternativas|https://vendercontarjeta.cl/webpay-plus-alternativas/
+fintoc_payments|https://docs.fintoc.com/docs/overview-payment-initiation.md

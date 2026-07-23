@@ -1,0 +1,2622 @@
+WEBVTT
+Kind: captions
+Language: en
+
+1
+00:00:00.010 --> 00:00:02.000
+A lovely cup of coffee, cheers!
+
+2
+00:00:05.370 --> 00:00:06.900
+Oh god that's cold!
+
+3
+00:00:07.670 --> 00:00:12.900
+If only it could be kept warm… or
+better yet, grow legs, make itself
+
+4
+00:00:12.910 --> 00:00:14.820
+and walk on over to where I am!
+
+5
+00:00:15.470 --> 00:00:16.460
+Now that would be cool!
+
+6
+00:00:17.150 --> 00:00:20.860
+Hi, I'm Louie, one of the CG Boost
+instructors, and in this video
+
+7
+00:00:20.870 --> 00:00:23.680
+we'll be talking through some
+fundamental hard surface modelling
+
+8
+00:00:23.690 --> 00:00:27.640
+techniques that allow us to keep a
+low poly controllable mesh with a
+
+9
+00:00:27.650 --> 00:00:29.400
+high poly rendered result.
+
+10
+00:00:29.810 --> 00:00:30.040
+We'll
+
+11
+00:00:30.050 --> 00:00:32.240
+be using
+Vanilla Blender, so although paid
+
+12
+00:00:32.250 --> 00:00:35.060
+add -ons like Hard Ops, Box
+Cutter, Mesh Machine are
+
+13
+00:00:35.070 --> 00:00:38.020
+huge time
+savers, you'll only need a copy of
+
+14
+00:00:38.030 --> 00:00:40.420
+Blender to get started, so let's
+jump in!
+
+15
+00:00:41.150 --> 00:00:45.700
+Ok, let's start building our cup
+bot, and before we jump in, let's
+
+16
+00:00:45.710 --> 00:00:49.440
+just move our cursor up to the
+very top right of our 3D viewport
+
+17
+00:00:49.450 --> 00:00:54.440
+here and drag out a new window,
+changing it from 3D viewport to
+
+18
+00:00:54.450 --> 00:00:55.900
+Image Editor.
+
+19
+00:00:56.570 --> 00:00:58.460
+And now we can open our concept
+
+20
+00:00:58.470 --> 00:01:02.560
+sketch like so, and just have this
+off on the side there.
+
+21
+00:01:02.810 --> 00:01:06.440
+Now we're going to start modelling
+the actual cup shape itself, but
+
+22
+00:01:06.450 --> 00:01:09.260
+before we do, we're going to
+activate an add -on that gives us
+
+23
+00:01:09.270 --> 00:01:11.380
+a few extra objects to work with.
+
+24
+00:01:11.750 --> 00:01:14.320
+So to do so, let's go up to Edit –
+
+25
+00:01:14.330 --> 00:01:19.700
+Preferences, and just search under
+our add -ons tab here for Extra,
+
+26
+00:01:20.250 --> 00:01:22.620
+and here you can see Add Mesh –
+Extra Objects.
+
+27
+00:01:22.710 --> 00:01:24.360
+Let's just activate that.
+
+28
+00:01:24.930 --> 00:01:26.720
+Now let's clear up our space here
+
+29
+00:01:26.730 --> 00:01:30.540
+a little bit by hitting
+A, and then X to delete all of the items.
+
+30
+00:01:31.090 --> 00:01:35.040
+Now we can do SHIFT
+A, and under Mesh we can move down
+
+31
+00:01:35.050 --> 00:01:37.480
+to Round Cube, this is what we want.
+
+32
+00:01:38.190 --> 00:01:39.460
+Now let's toggle up our options
+
+33
+00:01:39.470 --> 00:01:45.120
+here, and the operator preset we
+want is Quad Sphere, and we don't
+
+34
+00:01:45.130 --> 00:01:47.680
+actually need that many
+subdivisions here, so let's just
+
+35
+00:01:47.690 --> 00:01:48.720
+go with 4.
+
+36
+00:01:49.070 --> 00:01:50.440
+Now we have a sphere that is all
+
+37
+00:01:50.450 --> 00:01:54.280
+quads which will serve us well
+when subdividing for a smoother result.
+
+38
+00:01:54.430 --> 00:01:56.900
+Now we just need to make it look a
+little bit more cup like.
+
+39
+00:01:57.290 --> 00:02:01.320
+So to achieve that shape, let's
+just select it and go into edit
+
+40
+00:02:01.330 --> 00:02:05.220
+mode, and I'm also going to go
+into wireframe mode, which we can
+
+41
+00:02:05.230 --> 00:02:09.400
+select up here, or just hit Z on
+the keyboard and go to wireframe.
+
+42
+00:02:09.410 --> 00:02:15.120
+Now we can move up to our poly
+select option up here, or again 3
+
+43
+00:02:15.130 --> 00:02:19.200
+on the number row, and just select
+the top polys like so.
+
+44
+00:02:19.830 --> 00:02:22.680
+And here we can just hit X and
+delete the faces.
+
+45
+00:02:23.250 --> 00:02:28.440
+Now over on our edge mode, or 2 on
+the number row, we can ALT and
+
+46
+00:02:28.450 --> 00:02:35.480
+left click this loop of edges, hit
+E, and then Z and move it up, and
+
+47
+00:02:35.490 --> 00:02:38.460
+I think you can start to see the
+shape we're getting here.
+
+48
+00:02:38.470 --> 00:02:45.100
+Ok, jumping out of edit mode, and
+back into solid view, it's looking
+
+49
+00:02:45.110 --> 00:02:49.820
+a little bit faceted, a little bit
+low polygon, so the first thing we
+
+50
+00:02:49.830 --> 00:02:51.800
+can do is add a sub d modifier.
+
+51
+00:02:52.250 --> 00:02:54.120
+Now if we jump over here to our
+
+52
+00:02:54.130 --> 00:02:58.520
+options, you can see our modify
+options are here, and we can add
+
+53
+00:02:58.530 --> 00:03:03.640
+subdivision surface, and let's
+give it viewport level 2 to match
+
+54
+00:03:03.650 --> 00:03:04.680
+the render level.
+
+55
+00:03:05.090 --> 00:03:06.260
+That's looking better, but we're
+
+56
+00:03:06.270 --> 00:03:10.240
+still getting this faceted look,
+so over in our 3D viewport, let's
+
+57
+00:03:10.250 --> 00:03:12.820
+right click, and shade smooth auto.
+
+58
+00:03:13.110 --> 00:03:14.240
+Now we can look at adding our
+
+59
+00:03:14.250 --> 00:03:15.200
+other modifiers.
+
+60
+00:03:15.570 --> 00:03:17.080
+Firstly, in order to give it some
+
+61
+00:03:17.090 --> 00:03:21.620
+thickness, let's go over and add a solidify.
+
+62
+00:03:22.150 --> 00:03:24.580
+And thickness wise, let's move it
+
+63
+00:03:24.590 --> 00:03:29.460
+so it is an inset, something like
+that looks good to me.
+
+64
+00:03:29.770 --> 00:03:35.800
+I'm just going to toggle these
+down, and lastly, we want to add a bevel.
+
+65
+00:03:36.230 --> 00:03:39.760
+Let's just move in a little bit
+closer to the top here, and start
+
+66
+00:03:39.770 --> 00:03:40.800
+reducing the amount.
+
+67
+00:03:41.090 --> 00:03:43.180
+Something like that looks nice,
+
+68
+00:03:43.450 --> 00:03:47.500
+but we're not done yet, let's just
+give it a few more segments, and
+
+69
+00:03:47.510 --> 00:03:52.800
+to avoid this sort of blurred
+normal look here, we can go over
+
+70
+00:03:52.810 --> 00:03:57.100
+to our shading toggle down, and
+hit harden normals which removes
+
+71
+00:03:57.110 --> 00:03:58.120
+some of that softening.
+
+72
+00:03:59.010 --> 00:04:01.580
+Now to continue this, we want to
+
+73
+00:04:01.590 --> 00:04:06.960
+create a nice insert for our mug,
+a smoother surface in size, and
+
+74
+00:04:06.970 --> 00:04:08.820
+just to add a little bit more
+visual detail.
+
+75
+00:04:09.270 --> 00:04:15.120
+So in object mode, let's duplicate
+our object, and right click to drop.
+
+76
+00:04:15.630 --> 00:04:20.000
+Go into edit mode with tab, select
+all on our keyboard, and then alt
+
+77
+00:04:20.010 --> 00:04:25.140
+and s and move it in so it's flush
+like so.
+
+78
+00:04:25.410 --> 00:04:29.380
+Now deselecting with alt and a,
+going into edge mode
+
+79
+00:04:29.390 --> 00:04:31.420
+with 2
+along the number row, let's alt
+
+80
+00:04:31.430 --> 00:04:35.700
+and left click to select that loop
+of edges here.
+
+81
+00:04:35.950 --> 00:04:41.020
+Now we can hit e to extrude out
+the edges, right click to drop,
+
+82
+00:04:41.290 --> 00:04:46.060
+and then s to scale them out so we
+have a nice lip here to the cup.
+
+83
+00:04:46.470 --> 00:04:51.280
+Ok, let's left click to select,
+now this lip is a little bit thick
+
+84
+00:04:51.290 --> 00:04:55.880
+for my liking, so we can jump back
+into our modifier stack here, and
+
+85
+00:04:55.890 --> 00:04:59.480
+just reduce our solidify like so.
+
+86
+00:04:59.970 --> 00:05:01.160
+Now the only thing that is
+
+87
+00:05:01.170 --> 00:05:05.720
+remaining is this nice slice
+through the middle here, and we
+
+88
+00:05:05.730 --> 00:05:10.820
+can do that just by selecting our
+outer shell, jumping into edit
+
+89
+00:05:10.830 --> 00:05:16.760
+mode here, and ctrl and r to
+create a loop cut, let's put it
+
+90
+00:05:16.770 --> 00:05:20.680
+somewhere lower like here, there
+looks good.
+
+91
+00:05:21.090 --> 00:05:26.360
+And now over in poly select mode,
+or 3 along the number row, we can
+
+92
+00:05:26.370 --> 00:05:31.620
+alt and left click one of these
+edges here, and this just selects
+
+93
+00:05:31.630 --> 00:05:32.740
+that loop of polygons.
+
+94
+00:05:33.110 --> 00:05:34.980
+And now all we need to do is tap y
+
+95
+00:05:34.990 --> 00:05:39.620
+on the keyboard to separate that
+selection from the rest of the mesh.
+
+96
+00:05:40.230 --> 00:05:44.500
+Now we can go back out into object
+mode, and we have our cup shape.
+
+97
+00:05:44.510 --> 00:05:47.080
+So, let's move on to creating the handle.
+
+98
+00:05:47.870 --> 00:05:49.900
+Ok, we have our nice cup shape,
+
+99
+00:05:49.990 --> 00:05:52.900
+but it's difficult to pick up
+without a handle, so let's look at
+
+100
+00:05:52.910 --> 00:05:53.940
+remedying that.
+
+101
+00:05:54.310 --> 00:05:56.220
+Firstly, let's select the outer
+
+102
+00:05:56.230 --> 00:06:01.340
+shell, jump into edit mode, and
+then select a vertices along the
+
+103
+00:06:01.350 --> 00:06:02.760
+x axis here.
+
+104
+00:06:03.370 --> 00:06:05.300
+Let's go with just that one here.
+
+105
+00:06:05.710 --> 00:06:11.340
+And now we can snap our cursor to
+it with shift and s, cursor to selected.
+
+106
+00:06:11.880 --> 00:06:16.260
+Now back out into object mode,
+we're going to create an object
+
+107
+00:06:16.270 --> 00:06:21.280
+right here by shift and a, and
+then go with cube.
+
+108
+00:06:21.910 --> 00:06:26.160
+Let's scale it roughly down into
+place like so.
+
+109
+00:06:26.210 --> 00:06:30.320
+I'm just going to switch to
+orthographic mode here, and snap
+
+110
+00:06:30.330 --> 00:06:33.340
+it on the side by holding down alt
+as well.
+
+111
+00:06:33.630 --> 00:06:38.220
+And here we can just move it
+roughly out into place, and scale
+
+112
+00:06:38.230 --> 00:06:41.420
+it roughly the size of the handle
+we want.
+
+113
+00:06:42.050 --> 00:06:46.060
+Something like that looks good,
+not forgetting to scale it down
+
+114
+00:06:46.070 --> 00:06:48.280
+along the y axis too.
+
+115
+00:06:48.750 --> 00:06:50.200
+And before we can continue
+
+116
+00:06:50.430 --> 00:06:55.320
+, we need to apply the scale here
+as it's all gone a bit awry, so to
+
+117
+00:06:55.330 --> 00:07:00.780
+do so we can ctrl and a, apply
+rotation and scale, so that
+
+118
+00:07:00.790 --> 00:07:04.260
+modifiers like bevel work
+proportionately on all axes.
+
+119
+00:07:04.270 --> 00:07:09.940
+Now in edit mode with tab, we can
+select our faces or polys here
+
+120
+00:07:09.950 --> 00:07:14.500
+with 3 on the number row, and just
+select the front and back.
+
+121
+00:07:14.510 --> 00:07:19.960
+Now we can hit i to inset like so,
+and then with it still selected,
+
+122
+00:07:19.970 --> 00:07:23.040
+right click, bridge faces.
+
+123
+00:07:23.050 --> 00:07:25.080
+You can see where we're going here.
+
+124
+00:07:25.090 --> 00:07:31.100
+Now we can, still in poly mode,
+alt and left click this loop of
+
+125
+00:07:31.110 --> 00:07:34.580
+polys here, and then hit x and
+delete faces.
+
+126
+00:07:34.590 --> 00:07:40.680
+Now all we really need to do is
+select these end bits here with 2
+
+127
+00:07:40.690 --> 00:07:45.420
+for edge mode, and alt click and
+shift and alt click, and we can
+
+128
+00:07:45.430 --> 00:07:51.300
+scale along the x, 0, and then hit
+g and move it back a bit.
+
+129
+00:07:51.310 --> 00:07:54.740
+Now if we were to add a sub d
+modifier onto this, again we could
+
+130
+00:07:54.750 --> 00:07:58.300
+do it by jumping over to our
+modifier options.
+
+131
+00:07:58.310 --> 00:08:03.280
+We can also over the 3D viewport,
+hold down ctrl and 2, and this
+
+132
+00:08:03.290 --> 00:08:06.320
+automatically adds a sub d modifier.
+
+133
+00:08:06.330 --> 00:08:08.240
+But we want more of an angular
+
+134
+00:08:08.250 --> 00:08:12.820
+shape here, so let's jump into
+edit mode, and again into edge
+
+135
+00:08:13.250 --> 00:08:16.220
+select, and we're going to alt
+click this edge, shift and alt
+
+136
+00:08:16.230 --> 00:08:23.160
+click this edge, and ctrl and b to
+add a little bit of a bevel, like so.
+
+137
+00:08:23.170 --> 00:08:24.580
+That
+'s looking good.
+
+138
+00:08:24.590 --> 00:08:30.360
+Now we want a hard edge along the
+side here, so we can alt and click
+
+139
+00:08:30.370 --> 00:08:36.260
+to select these edge loops on both
+sides, and then with shift and e
+
+140
+00:08:36.270 --> 00:08:39.120
+we create a crease, like so.
+
+141
+00:08:39.130 --> 00:08:41.640
+Ok, looks good, and let's give it
+
+142
+00:08:41.650 --> 00:08:46.500
+the shade smooth treatment with
+right click, shade auto smooth,
+
+143
+00:08:46.510 --> 00:08:51.780
+and also add a bevel modifier
+after our sub d modifier.
+
+144
+00:08:51.790 --> 00:08:54.800
+I'm just going to reduce this
+number down
+
+145
+00:08:54.810 --> 00:09:01.600
+a little bit, add another segment,
+go to shading, harder normals.
+
+146
+00:09:01.610 --> 00:09:04.940
+Now we still get a little bit of
+faceting here, so I think we can
+
+147
+00:09:04.950 --> 00:09:09.200
+increase our sub d level just one
+more time in both the viewport and
+
+148
+00:09:09.630 --> 00:09:10.260
+the render.
+
+149
+00:09:10.270 --> 00:09:11.920
+Ok, looks good, but we don't have
+
+150
+00:09:11.930 --> 00:09:14.100
+it attached to our mug here.
+
+151
+00:09:14.610 --> 00:09:17.080
+So firstly, let's just fill this
+
+152
+00:09:17.090 --> 00:09:21.920
+gap by selecting the top and
+bottom edge and hitting f, and
+
+153
+00:09:22.450 --> 00:09:25.140
+likewise f, and then shift
+selecting both of these polygons
+
+154
+00:09:25.150 --> 00:09:27.400
+and making sure they are both
+fully creased.
+
+155
+00:09:27.410 --> 00:09:31.680
+Now in order to give ourselves a
+little bit of control resolution
+
+156
+00:09:31.690 --> 00:09:36.420
+to snap to this surface, we can
+hit ctrl and r and just create a
+
+157
+00:09:36.430 --> 00:09:38.600
+loop cut along the middle, like so.
+
+158
+00:09:38.610 --> 00:09:41.400
+Now we can shrink wrap our handle
+
+159
+00:09:41.410 --> 00:09:42.460
+to the cup.
+
+160
+00:09:42.470 --> 00:09:44.320
+So in order to do so, I'm just
+
+161
+00:09:44.330 --> 00:09:49.260
+going to collapse these down and
+load in a shrink wrap modifier,
+
+162
+00:09:49.270 --> 00:09:54.420
+and what we want to shrink wrap to
+is our cup.
+
+163
+00:09:54.430 --> 00:09:57.840
+Now it's done exactly what it says
+on the tin, and it's just
+
+164
+00:09:57.850 --> 00:09:59.860
+flattened everything against the mug.
+
+165
+00:09:59.870 --> 00:10:01.880
+However, we only really want to
+
+166
+00:10:01.890 --> 00:10:04.600
+snap the ends of the handle here.
+
+167
+00:10:04.610 --> 00:10:06.620
+So jumping into edit mode, we can
+
+168
+00:10:06.630 --> 00:10:11.620
+select these four polygons here,
+go over to our vertex options and
+
+169
+00:10:11.630 --> 00:10:15.860
+just add a group, and leave it as
+group, and then just click assign.
+
+170
+00:10:15.870 --> 00:10:20.000
+Now jumping out into object mode,
+going back over to our modifiers,
+
+171
+00:10:20.010 --> 00:10:24.540
+we can select that group, vertex
+group, named group, and here now
+
+172
+00:10:24.550 --> 00:10:29.560
+we have only those vertices
+snapping, but it's not doing so in
+
+173
+00:10:29.570 --> 00:10:34.120
+a massively elegant way, so let's
+just change the nearest surface
+
+174
+00:10:34.130 --> 00:10:39.440
+method to project, and we want it
+on one axis only, and that is our
+
+175
+00:10:39.970 --> 00:10:43.500
+x axis, so we can check that, and
+that's much more elegant.
+
+176
+00:10:43.510 --> 00:10:47.640
+Now we can jump into edit mode,
+select all, and just move things a
+
+177
+00:10:47.650 --> 00:10:49.680
+little bit closer.
+
+178
+00:10:49.690 --> 00:10:52.420
+Excellent, that looks pretty good.
+
+179
+00:10:52.430 --> 00:10:56.840
+Now if yours is anything like
+mine, it is intersecting ever so
+
+180
+00:10:56.850 --> 00:11:00.320
+slightly, so you may need to play
+with the offset value down here,
+
+181
+00:11:00.330 --> 00:11:04.680
+which we can tweak, holding down
+shift to move it out ever
+
+182
+00:11:05.210 --> 00:11:06.060
+so slightly.
+
+183
+00:11:06.070 --> 00:11:08.200
+Ok, looks good, that is our handle
+
+184
+00:11:08.210 --> 00:11:10.460
+done, let's move on.
+
+185
+00:11:10.470 --> 00:11:11.480
+I just thought I'd let you know
+
+186
+00:11:11.490 --> 00:11:15.480
+that the Robotic Planet course is
+available now on CG Boost if you
+
+187
+00:11:15.490 --> 00:11:16.960
+like doing this kind of stuff.
+
+188
+00:11:16.970 --> 00:11:19.020
+Ok, let's get back to it.
+
+189
+00:11:19.030 --> 00:11:22.640
+Ok, it's time to create our eye,
+and we're going to be using a
+
+190
+00:11:22.650 --> 00:11:27.940
+similar method to our handle here,
+but instead of selecting a bit of
+
+191
+00:11:27.950 --> 00:11:31.460
+geometry and snapping our cursor
+to it, we're just going to hold
+
+192
+00:11:31.470 --> 00:11:36.180
+shift and right click to place it
+roughly where we want the eye to be.
+
+193
+00:11:36.190 --> 00:11:39.340
+I'm going to go with something
+like that, looks good.
+
+194
+00:11:39.350 --> 00:11:42.000
+And then we can hit shift and
+A
+
+195
+00:11:42.190 --> 00:11:44.860
+, add mesh, and this time cylinder.
+
+196
+00:11:44.870 --> 00:11:46.400
+Now we don't need this many
+
+197
+00:11:46.410 --> 00:11:51.120
+vertices, so I'm going to turn
+this down to 16, and we can scale
+
+198
+00:11:51.130 --> 00:11:56.000
+it roughly down into place, and
+then rotate it about the x,
+
+199
+00:11:56.010 --> 00:12:02.500
+holding down the ctrl key to snap
+to 5 degrees until we are at minus 90.
+
+200
+00:12:02.510 --> 00:12:06.160
+And I'm just going to switch off
+perspective into orthographic here
+
+201
+00:12:06.170 --> 00:12:12.380
+so we can kind of line it up where
+we want it, scaling a bit more as well.
+
+202
+00:12:12.390 --> 00:12:14.660
+That looks reasonably good to me.
+
+203
+00:12:14.670 --> 00:12:17.020
+And after we're happy, again, we
+
+204
+00:12:17.030 --> 00:12:21.000
+can apply scale with ctrl and
+A, rotation and scale
+
+205
+00:12:21.010 --> 00:12:21.320
+.
+
+206
+00:12:21.330 --> 00:12:23.080
+And then in edit mode, I'm just
+
+207
+00:12:23.090 --> 00:12:29.000
+going to hit G and move it out
+along the y, and scale it along
+
+208
+00:12:29.010 --> 00:12:32.300
+the y, and move it back like so.
+
+209
+00:12:32.310 --> 00:12:34.480
+Now we can jump into our poly mode
+
+210
+00:12:34.490 --> 00:12:37.180
+if you haven't done so already.
+
+211
+00:12:37.190 --> 00:12:41.320
+Select the front most polygon, hit
+
+212
+00:12:41.630 --> 00:12:46.220
+I, inset like so, and then hit E
+to extrude inwards, but not going
+
+213
+00:12:46.230 --> 00:12:48.220
+beyond the back of our geometry here.
+
+214
+00:12:48.230 --> 00:12:50.720
+We want to use this selection as a
+
+215
+00:12:51.170 --> 00:12:52.280
+front element as well.
+
+216
+00:12:52.290 --> 00:12:54.620
+So let's just shift and D, and
+
+217
+00:12:54.630 --> 00:12:57.360
+then Y and move out the surface here.
+
+218
+00:12:57.370 --> 00:12:58.980
+And with it still selected, we're
+
+219
+00:12:58.990 --> 00:13:02.260
+going to hit X and delete faces only.
+
+220
+00:13:02.270 --> 00:13:04.780
+And this affords us to select our
+
+221
+00:13:04.790 --> 00:13:09.760
+edges with two along the number
+row, alt and left click, and then
+
+222
+00:13:09.770 --> 00:13:13.220
+ctrl F, and this time grid fill
+like so.
+
+223
+00:13:13.230 --> 00:13:17.260
+And we can just click the offset
+here just to make sure that it is
+
+224
+00:13:17.410 --> 00:13:18.440
+level with everything.
+
+225
+00:13:18.450 --> 00:13:21.640
+Okay, then E to extrude, and then
+
+226
+00:13:21.650 --> 00:13:25.900
+hit L over our mesh to select
+everything and then G and move it
+
+227
+00:13:25.910 --> 00:13:26.540
+back into place.
+
+228
+00:13:26.550 --> 00:13:29.340
+And this will function as our lens.
+
+229
+00:13:29.350 --> 00:13:33.380
+Okay, jumping back out into object
+mode, let's add our subdivision
+
+230
+00:13:33.390 --> 00:13:34.880
+surface with ctrl and 2.
+
+231
+00:13:34.890 --> 00:13:37.940
+Now let's go into edit mode and
+
+232
+00:13:37.950 --> 00:13:40.340
+start selecting edge loops in
+order to add a crease.
+
+233
+00:13:40.350 --> 00:13:45.820
+And a quick way to do this is
+holding ctrl alt and left click,
+
+234
+00:13:45.830 --> 00:13:49.260
+which selects a loop of edges, but
+laterally in the different direction.
+
+235
+00:13:49.270 --> 00:13:54.280
+And then we can go up to select,
+select loops, edge loops.
+
+236
+00:13:54.290 --> 00:14:01.180
+Now all we need to do is shift and
+E and drag it out until we're
+
+237
+00:14:01.190 --> 00:14:01.780
+happy, like so.
+
+238
+00:14:01.790 --> 00:14:04.580
+Now again, we can right click,
+
+239
+00:14:04.590 --> 00:14:07.060
+shade auto smooth, add modifier bevel.
+
+240
+00:14:07.070 --> 00:14:09.280
+And this time we have a small
+
+241
+00:14:09.290 --> 00:14:13.280
+bevel, which is being restricted
+by our geometry clamp here.
+
+242
+00:14:13.290 --> 00:14:17.480
+So if we uncheck clamp overlap,
+and start turning down the amount,
+
+243
+00:14:17.490 --> 00:14:20.700
+we can get to something we're a
+bit more happy with.
+
+244
+00:14:20.710 --> 00:14:24.320
+And you'll note that we're also
+affecting the lens element inside.
+
+245
+00:14:24.330 --> 00:14:30.240
+So in order to avoid that, we can
+increase our angle here until
+
+246
+00:14:30.630 --> 00:14:32.000
+we're way above 50.
+
+247
+00:14:32.010 --> 00:14:33.760
+Okay, looks good to me.
+
+248
+00:14:33.770 --> 00:14:38.380
+Let's add another segment and
+again go down to shading and
+
+249
+00:14:38.390 --> 00:14:38.820
+harden normals.
+
+250
+00:14:38.830 --> 00:14:41.060
+Okay, that is our lens element.
+
+251
+00:14:41.070 --> 00:14:46.140
+Now let's do as we did with the
+handle and snap it to the back here.
+
+252
+00:14:46.150 --> 00:14:51.860
+So to do so, we can go into poly
+mode, select our back polygon, go
+
+253
+00:14:51.870 --> 00:14:56.860
+over to a vertex options and add
+like we did before a new group and
+
+254
+00:14:56.870 --> 00:14:59.600
+just assign that poly to the group.
+
+255
+00:14:59.610 --> 00:15:00.620
+Now again, back out into object
+
+256
+00:15:00.630 --> 00:15:07.160
+mode, we can go to our modifiers,
+collapsing these down and add a
+
+257
+00:15:07.170 --> 00:15:08.000
+shrink wrap.
+
+258
+00:15:08.010 --> 00:15:10.800
+This time using our vertex group,
+
+259
+00:15:10.810 --> 00:15:13.700
+selecting our target once again as
+the cup.
+
+260
+00:15:13.710 --> 00:15:17.380
+And once again, we're going to
+project using our wrap method and
+
+261
+00:15:17.390 --> 00:15:22.080
+we only need it along the y. Still
+not working, well, we need to
+
+262
+00:15:22.090 --> 00:15:25.080
+switch it to negative like so.
+
+263
+00:15:25.090 --> 00:15:26.700
+And again, I'm going to give this
+
+264
+00:15:26.710 --> 00:15:28.660
+a tiny little bit of an offset.
+
+265
+00:15:28.670 --> 00:15:31.220
+There we go and move it below our bevel.
+
+266
+00:15:31.230 --> 00:15:36.440
+In fact, if we didn't do so here,
+we can do that also now.
+
+267
+00:15:36.450 --> 00:15:37.300
+Okay, looks good.
+
+268
+00:15:37.310 --> 00:15:38.540
+This is protruding a little bit
+
+269
+00:15:38.550 --> 00:15:42.220
+too much for my liking, but let's
+just go into edit mode, select all
+
+270
+00:15:42.230 --> 00:15:44.760
+and hit G and move it back.
+
+271
+00:15:44.770 --> 00:15:45.340
+Much better.
+
+272
+00:15:45.350 --> 00:15:47.320
+Okay, that is our eye done.
+
+273
+00:15:47.330 --> 00:15:50.380
+Let's move on to the legs.
+
+274
+00:15:50.390 --> 00:15:53.680
+Okay, moving on to the legs, but
+before we do that, we're going to
+
+275
+00:15:53.690 --> 00:15:54.640
+move everything up a little bit.
+
+276
+00:15:54.650 --> 00:15:55.920
+So if we hit
+
+277
+00:15:55.930 --> 00:16:01.500
+A on the keyboard here and then G
+and Z, we can move everything up
+
+278
+00:16:01.510 --> 00:16:01.860
+like so.
+
+279
+00:16:01.870 --> 00:16:03.000
+And this just gives us a little
+
+280
+00:16:03.010 --> 00:16:04.960
+bit more room to work with.
+
+281
+00:16:04.970 --> 00:16:07.620
+Now the first element we have here
+
+282
+00:16:07.630 --> 00:16:08.840
+is the joins.
+
+283
+00:16:08.850 --> 00:16:10.080
+So the little cylindrical joins
+
+284
+00:16:10.090 --> 00:16:12.620
+here, and that's pretty easy to
+put together.
+
+285
+00:16:12.630 --> 00:16:17.480
+So let's just jump into edit mode
+and we want to select a vertex
+
+286
+00:16:17.490 --> 00:16:22.580
+here on one side and snap our
+cursor to it with shift and S,
+
+287
+00:16:22.590 --> 00:16:26.480
+cursor to selected, back out into
+object mode, shift
+
+288
+00:16:26.490 --> 00:16:28.540
+A, and add a cylinder.
+
+289
+00:16:28.550 --> 00:16:30.320
+And because the cylinder is
+
+290
+00:16:30.330 --> 00:16:34.580
+considerably smaller, we can
+reduce our vertices down even more
+
+291
+00:16:34.590 --> 00:16:40.120
+to eight and then scale it down,
+rotate it along the Y 90 degrees.
+
+292
+00:16:40.130 --> 00:16:44.820
+So let's scale it a little bit
+more and then scale it out along
+
+293
+00:16:44.830 --> 00:16:45.500
+the X axis.
+
+294
+00:16:45.510 --> 00:16:48.280
+Once we're happy with that, we'll
+
+295
+00:16:48.470 --> 00:16:49.080
+apply rotation and scale.
+
+296
+00:16:49.090 --> 00:16:51.160
+So we don't have any weird
+
+297
+00:16:51.170 --> 00:16:55.900
+artefacts going on when we start
+adding modifiers and do our sub D
+
+298
+00:16:56.450 --> 00:16:57.280
+with control and two.
+
+299
+00:16:57.290 --> 00:16:59.300
+And I'm going to go into isolation
+
+300
+00:16:59.310 --> 00:17:02.920
+mode here, you can do so with
+forward slash on the keyboard and
+
+301
+00:17:03.410 --> 00:17:07.920
+then into edit mode, poly select,
+select our two ends and add a
+
+302
+00:17:07.930 --> 00:17:11.580
+crease with shift and E. Now just
+for a little bit of extra detail,
+
+303
+00:17:11.590 --> 00:17:15.720
+I'm going to create a loop cut
+with control and R along the
+
+304
+00:17:15.730 --> 00:17:21.380
+middle and then control and B to
+pull out a bevel and then alt and
+
+305
+00:17:21.390 --> 00:17:23.220
+E to extrude faces along the normals.
+
+306
+00:17:23.230 --> 00:17:25.400
+So we can have a tiny little bit
+
+307
+00:17:26.210 --> 00:17:27.160
+of an inset here.
+
+308
+00:17:27.170 --> 00:17:29.200
+And once again, we want to select
+
+309
+00:17:29.210 --> 00:17:31.980
+all of these edges and control E.
+
+310
+00:17:32.330 --> 00:17:32.880
+Okay, that looks good.
+
+311
+00:17:32.890 --> 00:17:38.440
+Let's go over to our modifier and
+do a bevel, right click and shade
+
+312
+00:17:38.630 --> 00:17:39.020
+auto smooth.
+
+313
+00:17:39.030 --> 00:17:41.020
+And again, let's add one more
+
+314
+00:17:41.030 --> 00:17:43.260
+segment, go to shading and hard normals.
+
+315
+00:17:43.270 --> 00:17:44.940
+Now jumping out of isolation mode,
+
+316
+00:17:44.950 --> 00:17:49.300
+we have our first section here and
+we want to create the first upper
+
+317
+00:17:49.310 --> 00:17:53.920
+leg element, and we can do so
+quite easily with an add primitive tool.
+
+318
+00:17:53.930 --> 00:17:58.500
+So if we select here and choose
+add cube, you can see that we can
+
+319
+00:17:58.510 --> 00:18:01.700
+choose the angle in which we drag
+out this cube shape.
+
+320
+00:18:01.710 --> 00:18:07.900
+So I'm going to go with something
+like that and just drag out a
+
+321
+00:18:07.910 --> 00:18:11.760
+cube, release, extrude up
+a little bit and left click down
+
+322
+00:18:11.770 --> 00:18:12.560
+to commit.
+
+323
+00:18:12.570 --> 00:18:16.780
+Okay, that is our leg at the wireframe.
+
+324
+00:18:16.790 --> 00:18:19.520
+So we can see what we're doing better.
+
+325
+00:18:19.530 --> 00:18:20.820
+Also switch off perspective and
+
+326
+00:18:20.910 --> 00:18:22.520
+snap to the front.
+
+327
+00:18:22.530 --> 00:18:23.440
+Not too bad.
+
+328
+00:18:23.450 --> 00:18:30.360
+Let's just scale it down along the
+X and move it along the X, snap to
+
+329
+00:18:30.370 --> 00:18:36.060
+the other orthographic view and
+move it into position like so.
+
+330
+00:18:36.070 --> 00:18:39.560
+I think the upper leg is
+considerably long at this stage.
+
+331
+00:18:39.570 --> 00:18:44.160
+So let's go into a poly select,
+select the bottom poly, hit G
+
+332
+00:18:44.170 --> 00:18:47.000
+twice to slide it back along the edges.
+
+333
+00:18:47.010 --> 00:18:48.040
+Okay, looks reasonably good to me.
+
+334
+00:18:48.050 --> 00:18:52.940
+And we can jump back out into
+solid mode and apply our scale.
+
+335
+00:18:52.950 --> 00:18:57.880
+And this time we don't really need
+to add any sub demodifier as there
+
+336
+00:18:57.890 --> 00:18:59.880
+is no curved surfaces whatsoever.
+
+337
+00:18:59.890 --> 00:19:03.660
+So we can jump straight to adding
+
+338
+00:19:03.670 --> 00:19:04.360
+a bevel
+modifier.
+
+339
+00:19:04.370 --> 00:19:08.900
+And let's just turn down the
+effect here, give it two segments
+
+340
+00:19:08.910 --> 00:19:11.920
+again, harden the normals on the
+shading, but making sure to right
+
+341
+00:19:11.930 --> 00:19:14.580
+click and shade auto smooth.
+
+342
+00:19:14.890 --> 00:19:15.620
+Okay, that looks good.
+
+343
+00:19:15.630 --> 00:19:19.080
+Next, I think it could be nice to
+add a little bit of sci -fi
+
+344
+00:19:19.090 --> 00:19:21.540
+detailing, almost like a cut
+through like that.
+
+345
+00:19:21.550 --> 00:19:26.840
+And to do so we can use our add
+primitive tool with a boolean operation.
+
+346
+00:19:26.850 --> 00:19:32.660
+Okay, so let's just draw out
+another cube here, making sure it
+
+347
+00:19:32.670 --> 00:19:37.800
+intersects like so, and then jump
+in to edit mode, control R to
+
+348
+00:19:38.010 --> 00:19:38.840
+create a loop cut.
+
+349
+00:19:38.850 --> 00:19:41.160
+And this time scrolling up one.
+
+350
+00:19:41.170 --> 00:19:43.400
+So we have two loop cuts like that.
+
+351
+00:19:43.410 --> 00:19:45.340
+And then we can hit three on the
+
+352
+00:19:45.350 --> 00:19:50.520
+keyboard to select our poly mode
+and then G and X to move it down
+
+353
+00:19:50.530 --> 00:19:53.400
+until we're happy with the angle.
+
+354
+00:19:53.410 --> 00:19:54.840
+Just going to scale everything
+
+355
+00:19:55.690 --> 00:19:58.360
+a little bit here, move it in.
+
+356
+00:19:58.370 --> 00:19:59.200
+I'm just hitting
+
+357
+00:19:59.210 --> 00:20:02.360
+X twice to move into our local
+coordinate space.
+
+358
+00:20:02.370 --> 00:20:05.720
+And I think that's reasonably good.
+
+359
+00:20:05.730 --> 00:20:08.220
+Okay, now in order to create our
+
+360
+00:20:08.230 --> 00:20:11.860
+boolean operation, we can do so
+over in our modifier here, or we
+
+361
+00:20:11.870 --> 00:20:16.520
+could take advantage of another
+add -on that ships with Blender
+
+362
+00:20:16.530 --> 00:20:17.080
+called bool tool.
+
+363
+00:20:17.090 --> 00:20:19.000
+So in order to enable that, we'll
+
+364
+00:20:19.010 --> 00:20:25.000
+go up to preferences here, add
+-ons, and this time let's search
+
+365
+00:20:25.010 --> 00:20:28.140
+for bool and activate the bool tool.
+
+366
+00:20:28.150 --> 00:20:31.180
+And this just enables us to select
+
+367
+00:20:31.190 --> 00:20:35.140
+our cutter here, select the thing
+we want to cut and then control
+
+368
+00:20:35.610 --> 00:20:37.700
+and shift and B, and then we
+activate our bool tool.
+
+369
+00:20:37.710 --> 00:20:41.220
+And this time we want to use the
+brush boolean, which is the non
+
+370
+00:20:41.230 --> 00:20:45.920
+-destructive way of doing this and
+select slice.
+
+371
+00:20:45.930 --> 00:20:50.860
+Now we have two elements to our
+leg here, and you can see the
+
+372
+00:20:50.870 --> 00:20:53.300
+bevel doesn't make it all the way around.
+
+373
+00:20:53.310 --> 00:20:55.060
+So to fix that, we just want to
+
+374
+00:20:55.070 --> 00:20:58.880
+make sure our bevel is below our
+boolean cut.
+
+375
+00:20:59.630 --> 00:21:01.440
+And one more time.
+
+376
+00:21:01.450 --> 00:21:01.620
+Excellent.
+
+377
+00:21:01.630 --> 00:21:03.140
+That's exactly what we want.
+
+378
+00:21:03.150 --> 00:21:03.300
+Okay.
+
+379
+00:21:03.310 --> 00:21:07.820
+Now that we have completed that,
+we can take this whole assembly here.
+
+380
+00:21:07.830 --> 00:21:12.700
+So just shift clicking everything
+and I'm going to snap to the side
+
+381
+00:21:12.710 --> 00:21:17.860
+view and hit Alt and D to
+duplicate it with linked object data.
+
+382
+00:21:17.870 --> 00:21:23.600
+So the duplicates effectively have
+the same mesh and then place it
+
+383
+00:21:23.610 --> 00:21:27.260
+like so, then shift and right
+click our cursor in the middle
+
+384
+00:21:27.270 --> 00:21:32.620
+here and make sure we are rotating
+about our 3d cursor and just move
+
+385
+00:21:33.150 --> 00:21:34.260
+it roughly into position.
+
+386
+00:21:34.270 --> 00:21:34.520
+Okay.
+
+387
+00:21:34.530 --> 00:21:35.100
+Looks good.
+
+388
+00:21:35.110 --> 00:21:37.620
+Let's take our little cylindrical
+
+389
+00:21:37.630 --> 00:21:41.460
+element here again, do Alt and D
+and move it down.
+
+390
+00:21:41.470 --> 00:21:45.400
+And you can see we are building up
+our leg nicely.
+
+391
+00:21:45.410 --> 00:21:48.900
+The only thing we really need to
+do is add a foot and we can make
+
+392
+00:21:48.910 --> 00:21:53.660
+that just a simple cube again,
+using our add primitive tool like
+
+393
+00:21:53.670 --> 00:21:57.440
+so, snapping to the side view and
+moving into place.
+
+394
+00:21:57.450 --> 00:22:01.000
+Just going to switch back to our
+bounding box here.
+
+395
+00:22:01.010 --> 00:22:06.880
+And a quick way to copy across our
+modifiers is to just with our foot
+
+396
+00:22:06.890 --> 00:22:11.780
+selected, shift and click our leg
+segment and then move over to our
+
+397
+00:22:11.790 --> 00:22:12.280
+modifiers here.
+
+398
+00:22:12.290 --> 00:22:14.840
+And for the bevel, we want to just
+
+399
+00:22:14.850 --> 00:22:16.840
+copy to selected like so.
+
+400
+00:22:16.850 --> 00:22:17.200
+Okay.
+
+401
+00:22:17.210 --> 00:22:21.560
+Let's shade auto smooth that, and
+we have our leg already in place.
+
+402
+00:22:21.570 --> 00:22:23.580
+So let's select all of these elements.
+
+403
+00:22:23.590 --> 00:22:26.120
+I'm just going to move mine in a
+
+404
+00:22:26.370 --> 00:22:30.800
+little bit like so, as well as up
+a little bit, so it rests on the
+
+405
+00:22:30.810 --> 00:22:34.500
+ground and we're ready to create
+the second leg, which thankfully
+
+406
+00:22:34.510 --> 00:22:34.960
+is pretty easy.
+
+407
+00:22:34.970 --> 00:22:37.880
+All we need to do is snap our
+
+408
+00:22:37.890 --> 00:22:43.860
+cursor into world origin with
+shift and S, select all of our leg
+
+409
+00:22:43.870 --> 00:22:44.580
+elements like so.
+
+410
+00:22:44.590 --> 00:22:48.000
+Make sure that our transform pivot
+
+411
+00:22:48.010 --> 00:22:53.220
+space is on 3D cursor and then ALT
+and D to duplicate all of our
+
+412
+00:22:53.230 --> 00:22:59.320
+elements, right click to drop and
+then CTRL and M and then X to flip
+
+413
+00:22:59.330 --> 00:23:01.720
+that about our X axis.
+
+414
+00:23:01.730 --> 00:23:02.680
+Okay, cool.
+
+415
+00:23:02.690 --> 00:23:03.140
+Looking really good.
+
+416
+00:23:03.150 --> 00:23:05.080
+And we only have one thing
+
+417
+00:23:05.090 --> 00:23:11.440
+remaining and that is our little
+C1 decal here, which we'll look at next.
+
+418
+00:23:11.450 --> 00:23:11.980
+Okay.
+
+419
+00:23:12.110 --> 00:23:13.140
+This is comparatively simple, really.
+
+420
+00:23:13.150 --> 00:23:17.020
+All we need to do is add a plane
+into the scene.
+
+421
+00:23:17.130 --> 00:23:19.820
+So shift and A, mesh plane.
+
+422
+00:23:19.830 --> 00:23:22.340
+We're going to rotate it along the
+
+423
+00:23:22.350 --> 00:23:24.820
+Y axis here.
+
+424
+00:23:24.830 --> 00:23:28.780
+So R, Y, 90 degrees like so, and
+
+425
+00:23:28.890 --> 00:23:29.540
+we'll move it up.
+
+426
+00:23:29.550 --> 00:23:31.640
+Just going to snap into
+
+427
+00:23:31.650 --> 00:23:36.060
+orthographic view here and to the
+side like this.
+
+428
+00:23:36.310 --> 00:23:41.280
+Now with it selected, we can jump
+into edit mode, right click and subdivide.
+
+429
+00:23:41.290 --> 00:23:44.680
+Again, down in our tool tip, down
+in the bottom left here, we can
+
+430
+00:23:44.690 --> 00:23:47.960
+give it quite a few subdivisions.
+
+431
+00:23:48.330 --> 00:23:49.020
+Let's go with 10.
+
+432
+00:23:49.030 --> 00:23:53.360
+And now it's just a case of
+drawing out the shape we want.
+
+433
+00:23:53.370 --> 00:23:58.120
+So for a C here, just going to
+draw out a C like that.
+
+434
+00:23:58.130 --> 00:24:01.780
+And then a one is going to be
+really simple like that.
+
+435
+00:24:01.790 --> 00:24:06.860
+And then all we need to do is
+invert that selection, hit X and
+
+436
+00:24:06.870 --> 00:24:07.000
+delete faces.
+
+437
+00:24:07.010 --> 00:24:08.500
+Now, if you want to be fancy, you
+
+438
+00:24:08.510 --> 00:24:12.140
+could add a little bit of corner
+detailing here.
+
+439
+00:24:12.150 --> 00:24:17.780
+I might just add some vertex
+bevels by selecting these
+
+440
+00:24:17.790 --> 00:24:19.900
+vertices, right click, bevel vertices.
+
+441
+00:24:19.910 --> 00:24:22.200
+You can see that gives quite a
+
+442
+00:24:22.210 --> 00:24:23.020
+cool look.
+
+443
+00:24:23.030 --> 00:24:23.220
+Okay.
+
+444
+00:24:23.230 --> 00:24:28.440
+Let's again jump into orthographic
+mode and just scale it down and
+
+445
+00:24:28.450 --> 00:24:30.140
+put it roughly where we want it.
+
+446
+00:24:30.150 --> 00:24:31.980
+Just going to switch back to
+
+447
+00:24:31.990 --> 00:24:35.840
+bounding box center here and move
+everything a little bit.
+
+448
+00:24:35.850 --> 00:24:36.040
+Okay.
+
+449
+00:24:36.050 --> 00:24:37.520
+That looks good to me.
+
+450
+00:24:37.530 --> 00:24:42.320
+So let's jump back out into object
+mode and over in our modifiers
+
+451
+00:24:42.330 --> 00:24:46.960
+here, let's add a subdivision
+surface, but this time let's keep
+
+452
+00:24:46.970 --> 00:24:47.540
+it at simple.
+
+453
+00:24:47.550 --> 00:24:49.160
+This just gives us a little bit
+
+454
+00:24:49.170 --> 00:24:54.160
+more geometry to do our next
+modifier, which is shrink wrap.
+
+455
+00:24:54.170 --> 00:24:59.140
+And again, we want to shrink wrap
+to our surface here like so, but
+
+456
+00:24:59.750 --> 00:25:02.200
+we want to project.
+
+457
+00:25:02.210 --> 00:25:02.660
+So again, project.
+
+458
+00:25:02.670 --> 00:25:07.740
+We want to do it on our X
+coordinates and negatively, it's
+
+459
+00:25:07.750 --> 00:25:08.140
+not working.
+
+460
+00:25:08.150 --> 00:25:10.480
+This is because we forgot to apply
+
+461
+00:25:10.650 --> 00:25:11.440
+our rotation and scale.
+
+462
+00:25:11.710 --> 00:25:13.260
+So let's do that.
+
+463
+00:25:13.270 --> 00:25:13.660
+Now it's working.
+
+464
+00:25:13.670 --> 00:25:15.940
+Now all we need to do, just move
+
+465
+00:25:15.950 --> 00:25:21.520
+down to the bottom here and offset
+it ever so slightly.
+
+466
+00:25:21.530 --> 00:25:22.820
+There we go.
+
+467
+00:25:22.830 --> 00:25:23.200
+Looking good.
+
+468
+00:25:23.210 --> 00:25:23.560
+Okay.
+
+469
+00:25:23.570 --> 00:25:24.500
+That is our decal done.
+
+470
+00:25:24.510 --> 00:25:28.460
+Now we can just look at surfacing,
+which is going to be pretty quick.
+
+471
+00:25:28.490 --> 00:25:31.980
+And for our materials, we're just
+going to use this standard BSDF.
+
+472
+00:25:31.990 --> 00:25:36.780
+So in order to do so, let's switch
+into our rendered view here.
+
+473
+00:25:36.790 --> 00:25:40.900
+Doesn't look particularly exciting
+until we introduce an HDRI, but
+
+474
+00:25:40.910 --> 00:25:47.140
+let's jump over to shader editor,
+go world and load in an HDRI.
+
+475
+00:25:47.150 --> 00:25:53.840
+Let's do an environment texture
+and the HDRI that I'm going to use
+
+476
+00:25:53.850 --> 00:25:57.220
+is available from Polyhaven and
+called large corridor.
+
+477
+00:25:57.230 --> 00:25:59.880
+So we can just download a 2K HDR.
+
+478
+00:25:59.890 --> 00:26:01.240
+That should be
+
+479
+00:26:01.250 --> 00:26:02.360
+more than fine.
+
+480
+00:26:02.370 --> 00:26:04.700
+Then connect this to our colour
+
+481
+00:26:04.710 --> 00:26:10.860
+input of our background and open
+the newly downloaded HDR.
+
+482
+00:26:10.870 --> 00:26:12.320
+Loading that in looks good.
+
+483
+00:26:12.330 --> 00:26:13.620
+However, we don't want to see it
+
+484
+00:26:13.630 --> 00:26:15.020
+in the background.
+
+485
+00:26:15.030 --> 00:26:19.100
+So let's add a second background
+
+486
+00:26:19.110 --> 00:26:24.920
+and a mix shader like so
+connecting it up to our second
+
+487
+00:26:24.930 --> 00:26:31.880
+input and the factor can be light
+path camera ray like that.
+
+488
+00:26:31.890 --> 00:26:34.560
+Now we have one for our
+background, which I'm just going
+
+489
+00:26:34.570 --> 00:26:40.420
+to reduce to a dark grey and one
+for our HDRI, which gets picked up
+
+490
+00:26:40.450 --> 00:26:40.960
+by the shaders.
+
+491
+00:26:41.130 --> 00:26:41.880
+Okay, it looks good.
+
+492
+00:26:41.890 --> 00:26:46.320
+Now we can move over to our render
+options and make sure we check
+
+493
+00:26:46.330 --> 00:26:46.660
+ambient occlusion.
+
+494
+00:26:46.670 --> 00:26:46.940
+Just going
+
+495
+00:26:46.950 --> 00:26:51.340
+to turn this up to one and start
+building our materials.
+
+496
+00:26:51.350 --> 00:26:54.900
+Firstly, for the cup itself, I
+think we can go with something simple.
+
+497
+00:26:54.910 --> 00:27:00.560
+So I'm just going to go cup here
+and give it a sort of a beige off
+
+498
+00:27:01.010 --> 00:27:05.700
+white colour like so, and a
+roughness value quite low, I think
+
+499
+00:27:05.710 --> 00:27:06.240
+that looks nice.
+
+500
+00:27:06.250 --> 00:27:06.460
+It
+
+501
+00:27:06.470 --> 00:27:10.980
+'s going to switch our world to
+object here so we can see what
+
+502
+00:27:10.990 --> 00:27:11.680
+we're doing.
+
+503
+00:27:11.690 --> 00:27:12.120
+We
+
+504
+00:27:12.370 --> 00:27:14.180
+want another colour here too.
+
+505
+00:27:14.190 --> 00:27:16.360
+So let's just create
+
+506
+00:27:16.370 --> 00:27:21.400
+a new material slot and call it
+cup two and give that an orangey colour
+
+507
+00:27:21.410 --> 00:27:21.720
+.
+
+508
+00:27:21.730 --> 00:27:24.660
+And then we can go into edit mode
+
+509
+00:27:24.670 --> 00:27:28.460
+and select that bottom half, just click
+assign like that.
+
+510
+00:27:28.470 --> 00:27:29.900
+I like that orange colour.
+
+511
+00:27:29.910 --> 00:27:32.300
+So let's have that for our text here.
+
+512
+00:27:32.310 --> 00:27:36.620
+So we can add a material slot and
+just select our cup two.
+
+513
+00:27:36.630 --> 00:27:40.660
+And again for the legs, new
+material slot, cup two.
+
+514
+00:27:40.670 --> 00:27:45.160
+And that automatically populates
+because we have linked the object
+
+515
+00:27:45.170 --> 00:27:46.660
+data when we duplicated.
+
+516
+00:27:46.670 --> 00:27:49.380
+And for our feet, cup two looks good.
+
+517
+00:27:49.450 --> 00:27:53.320
+Now for the joining elements here,
+I think it'd be nice to have some metal.
+
+518
+00:27:53.330 --> 00:27:59.080
+So let's create a new material and
+just call this metal and crank up
+
+519
+00:27:59.090 --> 00:28:04.040
+the metallic and crank down the
+roughness a little bit like so.
+
+520
+00:28:04.050 --> 00:28:08.740
+Our little eye here can also have
+that metal material, just jumping
+
+521
+00:28:08.750 --> 00:28:13.400
+into edit mode here, but also more
+of a lens material for the front here.
+
+522
+00:28:14.350 --> 00:28:19.320
+So let's create a new material,
+call it lens, and we'll just go with
+
+523
+00:28:19.330 --> 00:28:22.920
+a very shiny dark blue, reducing
+that roughness down and then
+
+524
+00:28:22.930 --> 00:28:26.320
+assign with it selected in our
+model view.
+
+525
+00:28:26.570 --> 00:28:26.820
+Okay, cool.
+
+526
+00:28:26.830 --> 00:28:28.880
+Now for the handle, we can just
+
+527
+00:28:28.890 --> 00:28:32.720
+have that as our very off white
+initial colour.
+
+528
+00:28:32.850 --> 00:28:36.160
+And for the inset part here, we
+can use our cup two.
+
+529
+00:28:36.170 --> 00:28:39.800
+Now to breathe a little bit more
+life into it, we can add a bit of
+
+530
+00:28:39.810 --> 00:28:41.700
+a pupil here.
+
+531
+00:28:41.710 --> 00:28:44.720
+So let's just jump in and select
+
+532
+00:28:44.730 --> 00:28:49.100
+our front element, hitting L,
+shift and D and move it out, scale
+
+533
+00:28:49.110 --> 00:28:52.780
+it down and just move it back a
+little bit.
+
+534
+00:28:52.790 --> 00:28:54.120
+So it's roughly there.
+
+535
+00:28:54.130 --> 00:28:55.860
+Create a new material.
+
+536
+00:28:55.870 --> 00:28:56.780
+Let's call it pupil.
+
+537
+00:28:56.790 --> 00:28:56.920
+Okay.
+
+538
+00:28:56.930 --> 00:28:59.040
+And we want it to be pretty much
+like the lens.
+
+539
+00:28:59.050 --> 00:29:04.420
+So we can copy that and paste it
+to our pupil material, except for emission.
+
+540
+00:29:04.430 --> 00:29:07.740
+We want that to be a really nice
+blue here.
+
+541
+00:29:07.750 --> 00:29:13.080
+So let's just assign that to our
+model, to our newly created pupil mesh.
+
+542
+00:29:13.090 --> 00:29:13.420
+Looks good.
+
+543
+00:29:13.430 --> 00:29:14.500
+And emission strength, let's go
+
+544
+00:29:15.050 --> 00:29:18.420
+all the way up to three, which
+affords us the ability to go into
+
+545
+00:29:18.430 --> 00:29:23.880
+our render options and switch on
+bloom for this nice sort of glow effect.
+
+546
+00:29:23.890 --> 00:29:24.460
+Okay, cool.
+
+547
+00:29:24.470 --> 00:29:26.520
+Now we have our model here and in
+
+548
+00:29:26.530 --> 00:29:30.480
+order to render, we can quickly
+add a camera by firstly making
+
+549
+00:29:30.490 --> 00:29:34.200
+sure our cursor is in the world origin.
+
+550
+00:29:34.210 --> 00:29:37.520
+So shift S, cursor to world
+
+551
+00:29:37.530 --> 00:29:40.540
+origin, and then add shift
+A camera.
+
+552
+00:29:40.550 --> 00:29:46.280
+Now, if we line up roughly where
+we want our camera with just the
+
+553
+00:29:46.290 --> 00:29:52.580
+normal 3d viewport navigation
+tools, we can then go up to view,
+
+554
+00:29:52.590 --> 00:29:54.580
+align view, align active camera to view.
+
+555
+00:29:54.590 --> 00:29:59.420
+And this is assuming that the
+
+556
+00:29:59.430 --> 00:30:00.480
+camera is still selected.
+
+557
+00:30:00.490 --> 00:30:00.700
+Excellent.
+
+558
+00:30:00.710 --> 00:30:02.680
+Now we can just adjust it by hand
+a little bit.
+
+559
+00:30:02.690 --> 00:30:08.940
+I'm just going to hit G and Z
+twice to move it back along its
+
+560
+00:30:08.950 --> 00:30:09.640
+own axis, like so.
+
+561
+00:30:09.650 --> 00:30:13.620
+And then I'm going to make up for
+
+562
+00:30:13.630 --> 00:30:19.600
+the framing here by increasing the
+focal length to more of a portrait
+
+563
+00:30:19.610 --> 00:30:19.840
+style lens.
+
+564
+00:30:19.850 --> 00:30:19.960
+Okay.
+
+565
+00:30:19.970 --> 00:30:23.260
+And now we can just hit F12.
+
+566
+00:30:23.270 --> 00:30:25.240
+Okay, we have our cup bot done and
+
+567
+00:30:25.250 --> 00:30:28.400
+I'm going to fill mine with some
+life giving coffee.
+
+568
+00:30:28.410 --> 00:30:31.000
+However, I urge you to make it
+your own.
+
+569
+00:30:31.010 --> 00:30:33.900
+Maybe you prefer tea or hot
+chocolate and hell, it's just a receptacle.
+
+570
+00:30:33.910 --> 00:30:38.240
+So maybe you want to fill it with
+pencils or make it a plant pot or
+
+571
+00:30:38.250 --> 00:30:38.880
+something completely different.
+
+572
+00:30:38.890 --> 00:30:41.400
+And if you do make sure to share
+
+573
+00:30:41.410 --> 00:30:46.320
+it with us at CGBoost, the CGBoost
+community or on the various social channels.
+
+574
+00:30:46.330 --> 00:30:49.100
+Also, if you had fun with this and want
+a little bit more of a challenge,
+
+575
+00:30:49.110 --> 00:30:53.560
+you might want to check out the
+Robot Planet course, where we
+
+576
+00:30:53.710 --> 00:30:56.240
+cover more advanced procedural
+shaders, rigging, animation, and a
+
+577
+00:30:56.250 --> 00:30:56.680
+whole lot more.
+
+578
+00:30:56.690 --> 00:30:58.440
+Check it out in the link in the
+
+579
+00:30:58.450 --> 00:31:01.116
+description and I hope to see you there.
+

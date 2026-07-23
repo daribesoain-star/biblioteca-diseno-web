@@ -1,0 +1,45 @@
+[youtube] Extracting URL: https://youtu.be/MCrkItqdRRI
+[youtube] MCrkItqdRRI: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] MCrkItqdRRI: Downloading android vr player API JSON
+[info] MCrkItqdRRI: Downloading subtitles: en-ar, en-orig, en, en-fr, en-de-DE, en-hi, en-it, en-pt, en-es-ES, es-ES, es-ar, es, es-fr, es-de-DE, es-hi, es-it, es-pt, es-es-ES
+[info] MCrkItqdRRI: Downloading 1 format(s): 401+251
+[info] Writing video subtitles to: MCrkItqdRRI.en-ar.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en-ar': HTTP Error 429: Too Many Requests
+[youtube] Extracting URL: https://youtu.be/Vs6vJwmJL0Y
+[youtube] Vs6vJwmJL0Y: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] Vs6vJwmJL0Y: Downloading android vr player API JSON
+[info] Vs6vJwmJL0Y: Downloading subtitles: en-ar, en-orig, en, en-de-DE, en-hi, en-it, en-pt, en-es-ES, es-ES, es-ar, es, es-de-DE, es-hi, es-it, es-pt, es-es-ES
+[info] Vs6vJwmJL0Y: Downloading 1 format(s): 401+251
+[info] Writing video subtitles to: Vs6vJwmJL0Y.en-ar.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en-ar': HTTP Error 429: Too Many Requests
+[youtube] Extracting URL: https://youtu.be/jLKl_QP9Ick
+[youtube] jLKl_QP9Ick: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] jLKl_QP9Ick: Downloading android vr player API JSON
+[info] jLKl_QP9Ick: Downloading subtitles: en, es
+[info] jLKl_QP9Ick: Downloading 1 format(s): 271+251
+[info] Writing video subtitles to: jLKl_QP9Ick.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+[youtube] Extracting URL: https://youtu.be/rQe7i3iBMsk
+[youtube] rQe7i3iBMsk: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] rQe7i3iBMsk: Downloading android vr player API JSON
+[info] rQe7i3iBMsk: Downloading subtitles: en, es-orig, es
+[info] rQe7i3iBMsk: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: rQe7i3iBMsk.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+[youtube] Extracting URL: https://youtu.be/sWwKzbk2jYk
+[youtube] sWwKzbk2jYk: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] sWwKzbk2jYk: Downloading android vr player API JSON
+[info] sWwKzbk2jYk: Downloading subtitles: en, es-orig, es
+[info] sWwKzbk2jYk: Downloading 1 format(s): 401+251
+[info] Writing video subtitles to: sWwKzbk2jYk.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests

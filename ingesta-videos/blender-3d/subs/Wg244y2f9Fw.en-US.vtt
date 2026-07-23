@@ -1,0 +1,1425 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:00.160 --> 00:00:05.360
+This is Part 1 of a 2-part Blender tutorial&nbsp;
+covering the very basics of setting up materials&nbsp;&nbsp;
+
+00:00:05.360 --> 00:00:09.840
+and shading in Blender. I’ll give a thorough&nbsp;
+overview of how to add materials, how basic&nbsp;&nbsp;
+
+00:00:09.840 --> 00:00:14.720
+material nodes work, and we’ll cover some of&nbsp;
+the more common nodes you’ll use. In part 2,&nbsp;&nbsp;
+
+00:00:14.720 --> 00:00:18.800
+we will get in to PBR texture materials&nbsp;
+which are super realistic materials.&nbsp;&nbsp;
+
+00:00:18.800 --> 00:00:22.720
+I’ll save some quick but valuable tips&nbsp;
+for the end. If nodes are confusing,&nbsp;&nbsp;
+
+00:00:22.720 --> 00:00:26.560
+I promise this should demystify&nbsp;
+a lot of it for you. Let’s go.&nbsp;
+
+00:00:26.560 --> 00:00:31.360
+A quick note, I will be doing everything&nbsp;
+in Cycles. These materials will work&nbsp;&nbsp;
+
+00:00:31.360 --> 00:00:35.680
+in Eevee too but sometimes the settings are a&nbsp;
+little bit off between the two render engines.
+
+00:00:36.560 --> 00:00:41.760
+We start with materials at the material properties&nbsp;
+panel. With an object selected, this panel&nbsp;&nbsp;
+
+00:00:41.760 --> 00:00:46.800
+displays materials assigned to the object.&nbsp;
+This is a default material that’s assigned.&nbsp;
+
+00:00:46.800 --> 00:00:51.200
+Objects can have more than one material&nbsp;
+assigned to them in these material slots.&nbsp;&nbsp;
+
+00:00:51.200 --> 00:00:55.760
+Pressing the plus icon adds a new material&nbsp;
+slot but there’s no material in the second&nbsp;&nbsp;
+
+00:00:55.760 --> 00:01:00.000
+slot yet. We can either use this&nbsp;
+drop down box to choose a material&nbsp;&nbsp;
+
+00:01:00.000 --> 00:01:04.240
+already in our Blender scene or we can press&nbsp;
+“New” to create a new one. Let’s do that.&nbsp;
+
+00:01:04.880 --> 00:01:10.640
+With the new material selected, a few tabs get&nbsp;
+added below. We have preview, surface, volume,&nbsp;&nbsp;
+
+00:01:10.640 --> 00:01:15.040
+displacement, settings and a few more.
+By default, there will be nothing in the&nbsp;&nbsp;
+
+00:01:15.040 --> 00:01:19.200
+displacement, nothing in the volume, but under&nbsp;
+surface we have a whole bunch of settings.&nbsp;
+
+00:01:19.840 --> 00:01:23.760
+And preview is just the preview of the&nbsp;
+material. You can choose different shapes&nbsp;&nbsp;
+
+00:01:23.760 --> 00:01:27.520
+to have the material previewed on.
+But these three - the surface,&nbsp;&nbsp;
+
+00:01:27.520 --> 00:01:31.040
+volume and displacement are the&nbsp;
+three channels a material can have.&nbsp;
+
+00:01:31.600 --> 00:01:36.320
+Surface is everything on the outside surface&nbsp;
+of the object. Like paint, wood, metal,&nbsp;&nbsp;
+
+00:01:36.320 --> 00:01:41.680
+etc. It’s what you’re going to use the most.
+Volume is how you want the three dimensional&nbsp;&nbsp;
+
+00:01:41.680 --> 00:01:46.960
+space inside the object to be filled. You’d&nbsp;
+use this if you wanted to make smoke or fog&nbsp;&nbsp;
+
+00:01:46.960 --> 00:01:50.880
+inside of an object. You’d also use it&nbsp;
+for liquids, clouds, things like that.&nbsp;
+
+00:01:51.600 --> 00:01:55.360
+Displacement is physical movement,&nbsp;
+or displacement, of the mesh.&nbsp;&nbsp;
+
+00:01:55.360 --> 00:02:00.240
+An example of when you’d use this is if you had a&nbsp;
+brick wall and you wanted it so detailed that the&nbsp;&nbsp;
+
+00:02:00.240 --> 00:02:05.120
+mesh actually popped outwards on the bricks&nbsp;
+and sunk in where the mortar was. There are&nbsp;&nbsp;
+
+00:02:05.120 --> 00:02:09.920
+other ways to fake this look and we’ll get into&nbsp;
+that in part 2, but that’s what displacement is.&nbsp;
+
+00:02:10.640 --> 00:02:15.200
+Let’s look at surface for now. Everything on&nbsp;
+this panel is basically a summary of what’s&nbsp;&nbsp;
+
+00:02:15.200 --> 00:02:20.560
+actually been created using nodes in the shader&nbsp;
+editor. For simple materials, you can handle all&nbsp;&nbsp;
+
+00:02:20.560 --> 00:02:24.960
+the settings right here, but once they get more&nbsp;
+complex you’ll want to jump over to the nodes.&nbsp;
+
+00:02:25.600 --> 00:02:31.680
+At the top, it says surface and then it says&nbsp;
+“Principled BSDF.” The principled BSDF is the&nbsp;&nbsp;
+
+00:02:31.680 --> 00:02:37.040
+default shader for materials in Blender. It is&nbsp;
+a very versatile shader that can create many of&nbsp;&nbsp;
+
+00:02:37.040 --> 00:02:42.480
+the things you’ll want to make. What is a shader&nbsp;
+by the way? A shader is a calculation of how to&nbsp;&nbsp;
+
+00:02:42.480 --> 00:02:47.200
+output materials and how those materials&nbsp;
+will interact with light in your scene.&nbsp;
+
+00:02:47.200 --> 00:02:51.360
+If we click the name of the shader, we can&nbsp;
+choose from a long list of other shaders.&nbsp;&nbsp;
+
+00:02:51.360 --> 00:02:55.760
+We aren’t going to cover them all and you won’t&nbsp;
+use very many of them. This shader doesn’t have&nbsp;&nbsp;
+
+00:02:55.760 --> 00:03:00.720
+many options, but the Principled BSDF has a lot&nbsp;
+more settings because it can do a lot more stuff.&nbsp;
+
+00:03:01.280 --> 00:03:05.920
+Remember how we added the second material. Well,&nbsp;
+the first material is the material currently&nbsp;&nbsp;
+
+00:03:05.920 --> 00:03:11.440
+assigned to the plane by default. When a material&nbsp;
+is placed in the first slot, it gets assigned to&nbsp;&nbsp;
+
+00:03:11.440 --> 00:03:16.640
+the entire object. To change materials, we can go&nbsp;
+into edit mode, select the portion of the mesh we&nbsp;&nbsp;
+
+00:03:16.640 --> 00:03:22.800
+want to assign the second material to. Select the&nbsp;
+material and then press “assign.” We could select&nbsp;&nbsp;
+
+00:03:22.800 --> 00:03:26.800
+different parts of the mesh and assign different&nbsp;
+materials to different parts in this way.&nbsp;
+
+00:03:28.400 --> 00:03:31.840
+We can select the material slot&nbsp;
+and press minus to remove the slot.&nbsp;&nbsp;
+
+00:03:32.400 --> 00:03:38.240
+The removed material will still be available&nbsp;
+to add to objects later until we close Blender.&nbsp;
+
+00:03:38.240 --> 00:03:40.480
+We can double click on the material in the slot,&nbsp;&nbsp;
+
+00:03:40.480 --> 00:03:46.160
+or down here and rename it. I’ll rename it to&nbsp;
+“Subscribe” just as a little reminder for you&nbsp;&nbsp;
+
+00:03:46.160 --> 00:03:50.240
+to subscribe and turn on notifications&nbsp;
+so you don’t miss future tutorials.&nbsp;
+
+00:03:50.240 --> 00:03:54.720
+This is as far as we are going right here.&nbsp;
+We are now heading over to the Shader Editor.&nbsp;&nbsp;
+
+00:03:54.720 --> 00:03:58.160
+The best way to get there is to change&nbsp;
+to the shading workspace at the top.
+
+00:03:58.800 --> 00:04:03.040
+Before we go any farther, there is an addon in&nbsp;
+Blender called “Node Wrangler” that you want&nbsp;&nbsp;
+
+00:04:03.040 --> 00:04:08.000
+to have turned on pretty much all the&nbsp;
+time. Go to edit, preferences, add ons&nbsp;&nbsp;
+
+00:04:08.000 --> 00:04:12.160
+and search for node wrangler. Check&nbsp;
+the box next to it to activate it.&nbsp;&nbsp;
+
+00:04:12.160 --> 00:04:16.400
+This addon enables a lot of things you can&nbsp;
+do with the nodes. It should really just be&nbsp;&nbsp;
+
+00:04:16.400 --> 00:04:19.840
+incorporated into Blender by default&nbsp;
+but for technical reasons it’s not.
+
+00:04:21.120 --> 00:04:24.160
+If your workspace isn’t&nbsp;
+exactly like mine, don’t worry.&nbsp;&nbsp;
+
+00:04:24.160 --> 00:04:28.640
+The important things are you should have&nbsp;
+a 3D viewport set to material preview mode&nbsp;&nbsp;
+
+00:04:28.640 --> 00:04:32.560
+and you should have this big area known&nbsp;
+as the shader editor. The properties&nbsp;&nbsp;
+
+00:04:32.560 --> 00:04:36.560
+panel should be over here on the side.
+Let’s just cover a few basic things about&nbsp;&nbsp;
+
+00:04:36.560 --> 00:04:41.280
+the shader editor. In the top left, we&nbsp;
+see a drop down box that says “object.”&nbsp;&nbsp;
+
+00:04:41.280 --> 00:04:45.920
+This means the shader editor is set to work&nbsp;
+on object materials, which is what we want.&nbsp;&nbsp;
+
+00:04:45.920 --> 00:04:51.120
+But we can change this to work on shading of the&nbsp;
+world - which is the background of the scene, the&nbsp;&nbsp;
+
+00:04:51.120 --> 00:04:57.200
+sky etc. This is how you could add an HDR image&nbsp;
+to light your scene or to serve as a background.&nbsp;
+
+00:04:57.920 --> 00:05:01.520
+Up here we have some of the same&nbsp;
+controls from the materials panel.&nbsp;&nbsp;
+
+00:05:01.520 --> 00:05:06.960
+It shows our material slots and the materials&nbsp;
+assigned to them. Now let’s talk about nodes.
+
+00:05:07.760 --> 00:05:14.000
+We have the principled BSDF node assigned to this&nbsp;
+material. This large node is the principled bsdf&nbsp;&nbsp;
+
+00:05:14.000 --> 00:05:16.960
+with all the same options we&nbsp;
+saw in the materials panel.&nbsp;
+
+00:05:16.960 --> 00:05:22.160
+But, you will always have this material output&nbsp;
+node as well. You can select a node and press&nbsp;&nbsp;
+
+00:05:22.160 --> 00:05:27.200
+“G” to move it around or just click and drag it.&nbsp;
+Many of the same shortcuts of Blender work in the&nbsp;&nbsp;
+
+00:05:27.200 --> 00:05:33.680
+shader editor. If I have a node selected, Shift+D&nbsp;
+duplicates it. Shift+A is how we add a new node.&nbsp;&nbsp;
+
+00:05:34.720 --> 00:05:38.240
+And X deletes a node.
+The material output node&nbsp;&nbsp;
+
+00:05:38.240 --> 00:05:43.440
+is the final output of whatever information&nbsp;
+your nodes create. It has three channels. I&nbsp;&nbsp;
+
+00:05:43.440 --> 00:05:48.320
+mentioned these earlier. The Principled BSDF&nbsp;
+is a surface shader so it’s plugged into the&nbsp;&nbsp;
+
+00:05:48.320 --> 00:05:54.240
+surface input of this final output node.
+All information in node editors flows from&nbsp;&nbsp;
+
+00:05:54.240 --> 00:05:59.680
+theleft to the right. So you put information into&nbsp;
+the nodes on the left side, the nodes do something&nbsp;&nbsp;
+
+00:05:59.680 --> 00:06:04.960
+with that information and put out new information&nbsp;
+on the right. Because the material output node is&nbsp;&nbsp;
+
+00:06:04.960 --> 00:06:11.040
+the final output where all the nodes end, it only&nbsp;
+has inputs on the left side. These dots for inputs&nbsp;&nbsp;
+
+00:06:11.040 --> 00:06:16.320
+and outputs are called sockets. The principled&nbsp;
+BSDF node has a whole bunch of input sockets on&nbsp;&nbsp;
+
+00:06:16.320 --> 00:06:21.680
+the left but only one output socket on the right.
+You’ll notice the sockets are different colors.&nbsp;&nbsp;
+
+00:06:21.680 --> 00:06:26.960
+A green socket represents complete shader&nbsp;
+information. If a node has a green output on it,&nbsp;&nbsp;
+
+00:06:26.960 --> 00:06:31.760
+it is considered a “shader” meaning it can&nbsp;
+be an end product that can be plugged into&nbsp;&nbsp;
+
+00:06:31.760 --> 00:06:36.320
+the final output node. You’ll often hear&nbsp;
+“node” and “shader” used interchangeably,&nbsp;&nbsp;
+
+00:06:36.320 --> 00:06:40.640
+but technically only some nodes - the nodes&nbsp;
+with green outputs - are actually shaders.&nbsp;
+
+00:06:41.280 --> 00:06:46.000
+Yellow sockets indicate color information.&nbsp;
+So, this base color for example,&nbsp;&nbsp;
+
+00:06:46.000 --> 00:06:50.880
+we could plug any sort of color information&nbsp;
+into this and the socket will recognize it&nbsp;&nbsp;
+
+00:06:50.880 --> 00:06:56.560
+as color. This could be a color image.
+The grey sockets are value inputs. These&nbsp;&nbsp;
+
+00:06:56.560 --> 00:07:02.720
+could be numerical values of any kind, but often&nbsp;
+range between zero and one. Many of these settings&nbsp;&nbsp;
+
+00:07:02.720 --> 00:07:08.400
+on the BSDF have values that range from zero to&nbsp;
+one. Zero means there’s none of the effect and&nbsp;&nbsp;
+
+00:07:08.400 --> 00:07:13.520
+one means the effect is turned all the way up.
+Let’s look at roughness as an example. Roughness&nbsp;&nbsp;
+
+00:07:13.520 --> 00:07:17.520
+is how rough a material’s surface is&nbsp;
+and it affects the reflection of light.&nbsp;&nbsp;
+
+00:07:17.520 --> 00:07:22.880
+Zero would be a completely smooth surface which&nbsp;
+is unrealistic for most materials. One would be&nbsp;&nbsp;
+
+00:07:22.880 --> 00:07:28.240
+very rough. You can actually click this value and&nbsp;
+type in a value higher than one if you want to.&nbsp;
+
+00:07:28.240 --> 00:07:33.040
+These grey sockets can also accept black&nbsp;
+and white or grey scale values. Why are&nbsp;&nbsp;
+
+00:07:33.040 --> 00:07:38.080
+black and white or grey scale images important?
+Well it’s unlikely that you’ll want a material to&nbsp;&nbsp;
+
+00:07:38.080 --> 00:07:43.280
+be exactly the same roughness everywhere.&nbsp;
+So, these zero to one values allow us to&nbsp;&nbsp;
+
+00:07:43.280 --> 00:07:48.560
+map values to different areas of the material&nbsp;
+using black and white or gray scale coloring.&nbsp;
+
+00:07:48.560 --> 00:07:53.200
+Here’s an example of a roughness map that can&nbsp;
+be plugged into this socket. Zero is represented&nbsp;&nbsp;
+
+00:07:53.200 --> 00:07:57.680
+by black. One is represented by white and&nbsp;
+everything in between is represented by a&nbsp;&nbsp;
+
+00:07:57.680 --> 00:08:03.120
+shade of grey. The darker the gray, the closer&nbsp;
+it is to zero so the lower the effect will be&nbsp;&nbsp;
+
+00:08:03.120 --> 00:08:07.840
+in that part of the material. And the lighter&nbsp;
+it is, the closer it is to one so the effect&nbsp;&nbsp;
+
+00:08:07.840 --> 00:08:12.960
+will be stronger there. This image plugged into&nbsp;
+this roughness socket would use grey scale data&nbsp;&nbsp;
+
+00:08:12.960 --> 00:08:17.760
+to map out roughness values over the object.
+So, that’s what the grey sockets are - they’re&nbsp;&nbsp;
+
+00:08:17.760 --> 00:08:21.520
+value inputs that can also be&nbsp;
+mapped with grey scale images.&nbsp;
+
+00:08:21.520 --> 00:08:27.040
+This concept will be important in both procedural&nbsp;
+and PBR texturing that we cover in part two.&nbsp;
+
+00:08:27.040 --> 00:08:32.400
+The last color here is purple. Purple sockets deal&nbsp;
+with vector information which is information that&nbsp;&nbsp;
+
+00:08:32.400 --> 00:08:37.360
+either tells Blender where to map something or&nbsp;
+where to move something. It’s hard to explain,&nbsp;&nbsp;
+
+00:08:37.360 --> 00:08:42.320
+but you’ll see this mostly with normal maps&nbsp;
+and material mapping which we will cover soon.&nbsp;
+
+00:08:42.320 --> 00:08:48.080
+For the most part, you usually plug outputs&nbsp;
+into like-colored input sockets. So, green&nbsp;&nbsp;
+
+00:08:48.080 --> 00:08:54.000
+always needs to go to green, purple into&nbsp;
+purple, etc. This is not 100% always the&nbsp;&nbsp;
+
+00:08:54.000 --> 00:08:58.000
+case with yellows and greys. Sometimes you&nbsp;
+have a black and white output that you’re&nbsp;&nbsp;
+
+00:08:58.000 --> 00:09:03.680
+going to use in a color socket and vice versa.&nbsp;
+But, yellows are looking for color information&nbsp;&nbsp;
+
+00:09:03.680 --> 00:09:08.400
+and greys won’t recognize color information&nbsp;
+other than black, white and grey scale.
+
+00:09:09.520 --> 00:09:14.160
+So the Principled BSDF shader in Blender has a&nbsp;
+lot of settings. Probably more than any other&nbsp;&nbsp;
+
+00:09:14.160 --> 00:09:18.720
+because it does a lot of things. This was only&nbsp;
+added to Blender a few years ago and before,&nbsp;&nbsp;
+
+00:09:18.720 --> 00:09:23.840
+you actually had to combine a lot of nodes to&nbsp;
+be able to do what this node can do by itself.&nbsp;&nbsp;
+
+00:09:23.840 --> 00:09:27.360
+It’s important enough to go over a&nbsp;
+lot of these settings. I’ll be honest,&nbsp;&nbsp;
+
+00:09:27.360 --> 00:09:31.120
+some of them I’ve never used and am not&nbsp;
+going to be able to adequately explain.&nbsp;
+
+00:09:31.120 --> 00:09:36.160
+But, base color is pretty self-explanatory. It’s&nbsp;
+the starting color of the material without any&nbsp;&nbsp;
+
+00:09:36.160 --> 00:09:39.040
+effects like reflectiveness&nbsp;
+or roughness added to it.&nbsp;
+
+00:09:39.040 --> 00:09:43.520
+The next three are for subsurface scattering&nbsp;
+which is what happens to light that penetrates&nbsp;&nbsp;
+
+00:09:43.520 --> 00:09:48.160
+the surface and scatters underneath it. The&nbsp;
+best example of this is human skin. When light&nbsp;&nbsp;
+
+00:09:48.160 --> 00:09:53.760
+hits skin, some of it goes through and scatters&nbsp;
+underneath giving it a pinkish hue. The subsurface&nbsp;&nbsp;
+
+00:09:53.760 --> 00:09:58.880
+scattering settings can replicate that effect.
+Metallic. I’ll try to explain this as best I&nbsp;&nbsp;
+
+00:09:58.880 --> 00:10:04.240
+can. Materials that are truly metal have a&nbsp;
+reflective property but also have their own color,&nbsp;&nbsp;
+
+00:10:04.240 --> 00:10:09.360
+so it’s different than say a glass mirror.&nbsp;
+There are two basic workflows for shading that&nbsp;&nbsp;
+
+00:10:09.360 --> 00:10:14.960
+you’ll see and they are a metalness workflow and a&nbsp;
+specular workflow. Some artists choose to use the&nbsp;&nbsp;
+
+00:10:14.960 --> 00:10:20.320
+metallic input and some the specular, depending&nbsp;
+on the material and their personal preferences.&nbsp;&nbsp;
+
+00:10:20.320 --> 00:10:25.200
+These are different from each other but are both&nbsp;
+ways of giving a material reflective properties.&nbsp;
+
+00:10:25.920 --> 00:10:30.720
+Roughness we kind of covered, but it’s&nbsp;
+how rough the surface is on a very tiny,&nbsp;&nbsp;
+
+00:10:30.720 --> 00:10:35.840
+nearly microscopic level and affects the&nbsp;
+reflection. Paper has a high roughness value.&nbsp;&nbsp;
+
+00:10:35.840 --> 00:10:41.280
+On a microscopic level, it is not smooth and that&nbsp;
+roughness will make it not reflect light as well.&nbsp;&nbsp;
+
+00:10:41.280 --> 00:10:45.840
+Most glass will have a very low roughness and&nbsp;
+even at the microscopic level is very smooth.&nbsp;
+
+00:10:46.720 --> 00:10:51.200
+Anistropic, sheen and clearcoat are some&nbsp;
+advanced characteristics you can give&nbsp;&nbsp;
+
+00:10:51.200 --> 00:10:55.040
+a material that we aren’t going to cover&nbsp;
+right now. Transmission is how much light&nbsp;&nbsp;
+
+00:10:55.040 --> 00:10:58.960
+is allowed to pass through the material&nbsp;
+rather than be reflected off of it.&nbsp;
+
+00:10:58.960 --> 00:11:03.680
+Emission is light that the material actually&nbsp;
+emits from itself. You can give the emitted&nbsp;&nbsp;
+
+00:11:03.680 --> 00:11:09.280
+light its own color and strength. You can actually&nbsp;
+use this to have objects light your scene or for a&nbsp;&nbsp;
+
+00:11:09.280 --> 00:11:14.000
+variety of effects. If you’re emitting light&nbsp;
+from a material it’s usually going to drown&nbsp;&nbsp;
+
+00:11:14.000 --> 00:11:18.080
+out any other settings you have up&nbsp;
+here so this is usually used by itself.&nbsp;&nbsp;
+
+00:11:18.080 --> 00:11:22.400
+There’s also an emission shader that only&nbsp;
+does emission if you want to use that instead.&nbsp;
+
+00:11:23.040 --> 00:11:28.160
+Alpha is transparency. Wherever you see the&nbsp;
+word alpha in pretty much any graphics software,&nbsp;&nbsp;
+
+00:11:28.160 --> 00:11:33.840
+it’s referring to the transparent quality. One&nbsp;
+is no transparency (a little backwards it seems)&nbsp;&nbsp;
+
+00:11:33.840 --> 00:11:38.560
+and zero is full transparency. That’s&nbsp;
+just how alpha values work. Of course,&nbsp;&nbsp;
+
+00:11:38.560 --> 00:11:43.120
+this and all these other settings can be mapped&nbsp;
+to an object so you could have parts of your&nbsp;&nbsp;
+
+00:11:43.120 --> 00:11:48.240
+material transparent and parts not transparent.&nbsp;
+You would use a grey scale map for to do this.&nbsp;
+
+00:11:50.720 --> 00:11:56.240
+The normal input is for a normal map. Normal&nbsp;
+maps are a way to fake depth and shadows in&nbsp;&nbsp;
+
+00:11:56.240 --> 00:12:01.120
+your material without actually changing the&nbsp;
+geometry of the mesh. They are very useful.&nbsp;&nbsp;
+
+00:12:01.120 --> 00:12:05.760
+Here’s an image of a surface with no normal&nbsp;
+map. And here’s an image with the normal&nbsp;&nbsp;
+
+00:12:05.760 --> 00:12:11.360
+map. No difference in the actual mesh, just using&nbsp;
+normal data to fake the look of depth and height.&nbsp;
+
+00:12:12.400 --> 00:12:16.640
+Alright, so let’s look at some other node&nbsp;
+options in the Blender shader editor.
+
+00:12:17.440 --> 00:12:21.920
+To add a node in the shader editor, you&nbsp;
+press Shift+A and you get this menu. The&nbsp;&nbsp;
+
+00:12:21.920 --> 00:12:25.840
+nodes are all categorized into groups and&nbsp;
+there are quite a few of them. Often you’ll&nbsp;&nbsp;
+
+00:12:25.840 --> 00:12:29.840
+know what node you’re looking for and can&nbsp;
+search for it by name in the search field.&nbsp;
+
+00:12:30.400 --> 00:12:35.360
+You’ll see a category called “shader.” Remember&nbsp;
+a shader is a node with a finished output ready&nbsp;&nbsp;
+
+00:12:35.360 --> 00:12:39.440
+to be plugged into the output node.
+Some of them are for surfaces,&nbsp;&nbsp;
+
+00:12:39.440 --> 00:12:44.320
+some are for volume. You can also go over here&nbsp;
+in the shader properties and see the options for&nbsp;&nbsp;
+
+00:12:44.320 --> 00:12:49.520
+different shaders. Most of them are very simple,&nbsp;
+don’t have a lot of inputs or are designed to do&nbsp;&nbsp;
+
+00:12:49.520 --> 00:12:54.480
+one very specific thing. Like the glass&nbsp;
+shader. The Principled BSDF is so useful&nbsp;&nbsp;
+
+00:12:54.480 --> 00:12:59.440
+that it’s almost always what you start with.
+The mix shader can be added to combine two&nbsp;&nbsp;
+
+00:12:59.440 --> 00:13:04.560
+shaders together. I will duplicate this&nbsp;
+shader and show you how to mix two shaders.&nbsp;&nbsp;
+
+00:13:04.560 --> 00:13:08.400
+I’ll give one a red base color and one&nbsp;
+a blue base color for demonstration.&nbsp;
+
+00:13:09.040 --> 00:13:15.360
+To connect sockets, you can drag the output socket&nbsp;
+of one node over to the input socket of another&nbsp;&nbsp;
+
+00:13:15.360 --> 00:13:19.840
+and when it’s connected, this line will appear&nbsp;
+to show the path of the information. There are&nbsp;&nbsp;
+
+00:13:19.840 --> 00:13:24.960
+a few ways to disconnect a shader and one of&nbsp;
+them is to just click the output connection,&nbsp;&nbsp;
+
+00:13:24.960 --> 00:13:29.840
+drag it off and let go. I’ve got a faster way&nbsp;
+as one of my tips at the end of the video.&nbsp;
+
+00:13:29.840 --> 00:13:33.040
+By the way, I would love to get a like&nbsp;
+on this video if you’ve made it this far,&nbsp;&nbsp;
+
+00:13:33.040 --> 00:13:36.800
+it really helps and is really, really&nbsp;
+appreciated. Thank you so much!&nbsp;
+
+00:13:36.800 --> 00:13:40.880
+If you drag and drop a node onto a&nbsp;
+connection, Blender will insert it for you&nbsp;&nbsp;
+
+00:13:40.880 --> 00:13:45.840
+between the two nodes - if it can, meaning if&nbsp;
+there are appropriate sockets to plug into.&nbsp;
+
+00:13:45.840 --> 00:13:49.440
+So back to the mix shader. It has&nbsp;
+two green inputs for you to connect&nbsp;&nbsp;
+
+00:13:49.440 --> 00:13:53.600
+two shaders you want to combine. The&nbsp;
+factor, which you will see a lot,&nbsp;&nbsp;
+
+00:13:53.600 --> 00:13:58.320
+is how you want the shaders combined. With this&nbsp;
+setup, turning it all the way to zero will be&nbsp;&nbsp;
+
+00:13:58.320 --> 00:14:03.680
+100% the top shader. Turning it all the&nbsp;
+way to one will be 100% the bottom shader.&nbsp;&nbsp;
+
+00:14:03.680 --> 00:14:08.000
+Putting it somewhere in the middle will&nbsp;
+be a faded combination of both shaders.&nbsp;
+
+00:14:08.000 --> 00:14:13.520
+But, you notice the factor shader has a grey&nbsp;
+input node. This means we can map this factor.&nbsp;&nbsp;
+
+00:14:13.520 --> 00:14:19.040
+If we plugged in a grey scale map or a node&nbsp;
+that maps values from zero to one, we would&nbsp;&nbsp;
+
+00:14:19.040 --> 00:14:24.240
+tell Blender to put the top shader where there is&nbsp;
+black and the bottom shader where there is white&nbsp;&nbsp;
+
+00:14:24.240 --> 00:14:29.040
+and to mix the two together where there is grey.
+I’m going to leave these two shaders connected.&nbsp;&nbsp;
+
+00:14:29.040 --> 00:14:31.920
+And we are going to look at a few other&nbsp;
+important nodes that come into play.
+
+00:14:32.640 --> 00:14:38.560
+We’ll press shift+a and in the search bar, type&nbsp;
+in “color” and choose the color ramp node. You&nbsp;&nbsp;
+
+00:14:38.560 --> 00:14:44.480
+will use this node a lot. It’s a gradient node.&nbsp;
+It defaults with two gradient points, a black on&nbsp;&nbsp;
+
+00:14:44.480 --> 00:14:49.520
+the far left and a white on the far right with a&nbsp;
+completely smooth and linear transition between.&nbsp;&nbsp;
+
+00:14:49.520 --> 00:14:53.600
+There are different settings to choose for how&nbsp;
+the gradient is interpolated - that means how it&nbsp;&nbsp;
+
+00:14:53.600 --> 00:14:59.040
+transitions or fades from one point to another.
+It also has a factor input on the left and on&nbsp;&nbsp;
+
+00:14:59.040 --> 00:15:04.080
+the right, it has both a color output and&nbsp;
+an alpha output. The color ramp can generate&nbsp;&nbsp;
+
+00:15:04.080 --> 00:15:09.360
+color information. You can select one of these&nbsp;
+points and choose a color. This can be used for&nbsp;&nbsp;
+
+00:15:09.360 --> 00:15:14.880
+all sorts of gradients in your materials. You can&nbsp;
+click the plus icon to add a control point. This&nbsp;&nbsp;
+
+00:15:14.880 --> 00:15:18.880
+could allow you to add a new color to the&nbsp;
+gradient or just use it for more control.&nbsp;
+
+00:15:19.440 --> 00:15:24.400
+The color ramp is often used as a factor input&nbsp;
+and this is one of those times where you will&nbsp;&nbsp;
+
+00:15:24.400 --> 00:15:28.960
+actually plug a yellow color output&nbsp;
+into a grey input socket. IF.. your&nbsp;&nbsp;
+
+00:15:28.960 --> 00:15:32.880
+colors are all going to be grey scale.
+We will see the color ramp again soon.
+
+00:15:34.080 --> 00:15:37.680
+One category of material nodes&nbsp;
+in Blender is texture nodes.&nbsp;&nbsp;
+
+00:15:37.680 --> 00:15:42.720
+Shift+A to add a node and find the category&nbsp;
+labeled texture. These are a bunch of different&nbsp;&nbsp;
+
+00:15:42.720 --> 00:15:47.760
+ways to procedurally create black and white or&nbsp;
+grey scale textures that can later be combined&nbsp;&nbsp;
+
+00:15:47.760 --> 00:15:52.880
+and tweaked to get procedural looks that you want.
+We’ll look at the musgrave texture first, which is&nbsp;&nbsp;
+
+00:15:52.880 --> 00:15:58.480
+commonly used to add procedural grunge effects.&nbsp;
+I’ll plug the height output into the color input&nbsp;&nbsp;
+
+00:15:58.480 --> 00:16:03.360
+of the Principled BSDF just to show you what it&nbsp;
+looks like. Since Musgrave is outputting black&nbsp;&nbsp;
+
+00:16:03.360 --> 00:16:07.840
+and white color, it’s ok to plug it into the&nbsp;
+color input socket so long as we understand we&nbsp;&nbsp;
+
+00:16:07.840 --> 00:16:12.240
+are only getting black and white out of it.
+This is the basic musgrave texture pattern.&nbsp;&nbsp;
+
+00:16:12.240 --> 00:16:16.880
+There are different types of musgrave you can&nbsp;
+choose from here. Where it says 3D, you can&nbsp;&nbsp;
+
+00:16:16.880 --> 00:16:22.080
+choose other dimensions, I almost always leave&nbsp;
+it at 3D although 2D would work since the plane&nbsp;&nbsp;
+
+00:16:22.800 --> 00:16:29.440
+is a 2D object. Choosing 4D adds a W value down&nbsp;
+here and whenever you see the W value in shading,&nbsp;&nbsp;
+
+00:16:29.440 --> 00:16:34.320
+it’s an animation factor. It can make&nbsp;
+the texture move over time. Change the W&nbsp;&nbsp;
+
+00:16:34.320 --> 00:16:40.560
+and the texture moves. You can keyframe this value&nbsp;
+to have the texture be animated which is awesome.&nbsp;
+
+00:16:40.560 --> 00:16:43.600
+The other settings also adjust&nbsp;
+the look of the musgrave. Scale&nbsp;&nbsp;
+
+00:16:43.600 --> 00:16:48.480
+and detail are probably the most helpful.
+A very, very common use of the color ramp&nbsp;&nbsp;
+
+00:16:48.480 --> 00:16:54.240
+that we looked at before is to add it after a&nbsp;
+texture node, so let’s do that. Shift+A and we&nbsp;&nbsp;
+
+00:16:54.240 --> 00:16:59.520
+find the color ramp under converter. For nodes you&nbsp;
+use repeatedly, I’ve got some tips to add them to&nbsp;&nbsp;
+
+00:16:59.520 --> 00:17:04.240
+the editor faster at the end of this video.
+So let’s drop the color ramp in between the&nbsp;&nbsp;
+
+00:17:04.240 --> 00:17:09.360
+musgrave texture and the principled shader.&nbsp;
+Notice this now has a grey socket into a grey&nbsp;&nbsp;
+
+00:17:09.360 --> 00:17:14.560
+socket on the left and yellow into a yellow on&nbsp;
+the right. It’s almost like it was meant to be.&nbsp;
+
+00:17:15.120 --> 00:17:20.320
+The colorramp now acts as a gradient control for&nbsp;
+the transitioning between black and white areas&nbsp;&nbsp;
+
+00:17:20.320 --> 00:17:25.600
+in the texture node. If we move the white closer&nbsp;
+to the black, it shortens the transitional fade&nbsp;&nbsp;
+
+00:17:25.600 --> 00:17:30.880
+between black and white on the texture. Moving&nbsp;
+the black up will remove some of the white.&nbsp;&nbsp;
+
+00:17:30.880 --> 00:17:35.840
+Another trick is to select the white, then use&nbsp;
+the color selector here. Darken the white and it&nbsp;&nbsp;
+
+00:17:35.840 --> 00:17:40.080
+subdues the texture pattern everywhere.
+And lastly, since the color ramp does&nbsp;&nbsp;
+
+00:17:40.080 --> 00:17:45.200
+output RGB colors, we can change the colors to&nbsp;
+actually output a colored texture if we want.&nbsp;
+
+00:17:45.760 --> 00:17:48.480
+I’ll quickly show you some other&nbsp;
+texture nodes and we’ll move on.&nbsp;&nbsp;
+
+00:17:49.040 --> 00:17:55.440
+Voronoi, voronoi, voronoi is a useful texture&nbsp;
+that you can get a lot of cool looks out of.&nbsp;&nbsp;
+
+00:17:57.520 --> 00:18:00.240
+The brick texture allows you&nbsp;
+to make procedural bricks or&nbsp;&nbsp;
+
+00:18:00.240 --> 00:18:07.600
+blocky textures. Lots of settings on this one.
+The wave texture allows you to add bands or rings.&nbsp;
+
+00:18:07.600 --> 00:18:12.640
+Here’s the really interesting part. These&nbsp;
+textures can be used as inputs for other textures.&nbsp;&nbsp;
+
+00:18:12.640 --> 00:18:18.880
+I could plug the voronoi into the wave scale&nbsp;
+and get this. I could plug the musgrave into&nbsp;&nbsp;
+
+00:18:18.880 --> 00:18:25.200
+the scale and get this. Or plug the voronoi&nbsp;
+into the musgrave and get something like this.&nbsp;&nbsp;
+
+00:18:25.760 --> 00:18:30.000
+There are endless combinations of these you&nbsp;
+can use to get different effects. And there&nbsp;&nbsp;
+
+00:18:30.000 --> 00:18:34.400
+are countless Blender tutorials out there that&nbsp;
+show you different ways to play around with this.
+
+00:18:35.440 --> 00:18:39.600
+Another way to mix and combine texturing&nbsp;
+effects or colors is using the Mix&nbsp;&nbsp;
+
+00:18:39.600 --> 00:18:44.720
+RGB node. The Mix RGB node in Blender acts&nbsp;
+just like the Mix Shader we looked at earlier&nbsp;&nbsp;
+
+00:18:44.720 --> 00:18:49.600
+but instead of being for shader outputs, it’s&nbsp;
+for color - including greyscale color values.&nbsp;
+
+00:18:49.600 --> 00:18:55.280
+I’ll add a Mix RGB node. I’ll plug a musgrave&nbsp;
+texture into one yellow socket and a voronoi&nbsp;&nbsp;
+
+00:18:55.280 --> 00:19:01.200
+texture into another. Again, we have this factor&nbsp;
+setting that controls how much of each one we get.&nbsp;
+
+00:19:01.200 --> 00:19:05.200
+For this one, we also have a lot of different&nbsp;
+Blending modes. If you’ve used other graphics&nbsp;&nbsp;
+
+00:19:05.200 --> 00:19:09.280
+software like Photoshop or whatever, you’ve&nbsp;
+probably seen these before. They are different&nbsp;&nbsp;
+
+00:19:09.280 --> 00:19:13.440
+formulas for how to blend colors together.&nbsp;
+Not gonna go into a lot of detail in here,&nbsp;&nbsp;
+
+00:19:13.440 --> 00:19:17.680
+but the default mix might give you a&nbsp;
+very different effect than “add” or&nbsp;&nbsp;
+
+00:19:17.680 --> 00:19:22.080
+“multiply” would and depending on what you’re&nbsp;
+going for, you may use different blend modes.&nbsp;
+
+00:19:22.080 --> 00:19:26.800
+For demonstration, I’m going to add a wave&nbsp;
+texture and plug it into the factor to control&nbsp;&nbsp;
+
+00:19:26.800 --> 00:19:31.520
+how these two textures are mixed together.&nbsp;
+You see the bands from the wave texture have&nbsp;&nbsp;
+
+00:19:31.520 --> 00:19:37.280
+separated where the musgrave and voronoi show up.
+Of course adding a color ramp in here can give us&nbsp;&nbsp;
+
+00:19:37.280 --> 00:19:43.360
+even more control. Or we could add color to&nbsp;
+this. We’ve used one texture node as a map&nbsp;&nbsp;
+
+00:19:43.360 --> 00:19:47.600
+for how to combine two other texture&nbsp;
+nodes. And this is a very simple setup.&nbsp;&nbsp;
+
+00:19:47.600 --> 00:19:51.360
+There are endless combinations of how you&nbsp;
+can mix and match textures to get all sorts&nbsp;&nbsp;
+
+00:19:51.360 --> 00:19:55.200
+of procedural effects. And again there are&nbsp;
+tons of tutorials on different ways to do it.
+
+00:19:56.000 --> 00:20:00.240
+So now let’s talk about mapping textures&nbsp;
+onto an object. With this simple texture,&nbsp;&nbsp;
+
+00:20:00.240 --> 00:20:04.720
+it isn’t that big of a deal but it will be&nbsp;
+with a more complicated and when we get into&nbsp;&nbsp;
+
+00:20:04.720 --> 00:20:10.720
+PBR texturing in part 2. To add a texture mapping&nbsp;
+setup to this, we actually have to add two nodes.&nbsp;
+
+00:20:10.720 --> 00:20:15.040
+The first is a mapping node. This node’s&nbsp;
+purple vector output will plug into the&nbsp;&nbsp;
+
+00:20:15.040 --> 00:20:19.840
+purple vector input here. And we immediately&nbsp;
+notice that the entire texture disappears.&nbsp;
+
+00:20:20.400 --> 00:20:24.240
+This node is a control node with all&nbsp;
+the mapping controls. But it doesn’t&nbsp;&nbsp;
+
+00:20:24.240 --> 00:20:28.560
+even know where to start without the help of&nbsp;
+another node, the texture coordinate node.&nbsp;
+
+00:20:29.120 --> 00:20:33.040
+The texture coordinate node has a bunch of&nbsp;
+different ways that the texture can be told&nbsp;&nbsp;
+
+00:20:33.040 --> 00:20:38.000
+how to be mapped in Blender. Different uses may&nbsp;
+require different outputs here. Generally for&nbsp;&nbsp;
+
+00:20:38.000 --> 00:20:42.720
+procedural things, Object is going to be your&nbsp;
+best bet. But, you see this has adjusted the&nbsp;&nbsp;
+
+00:20:42.720 --> 00:20:47.760
+material based on the size of the object. So, an&nbsp;
+alternative could be the “generated” which is kind&nbsp;&nbsp;
+
+00:20:47.760 --> 00:20:53.120
+of just the default. When we get to PBR stuff,&nbsp;
+where we will actually be using images that may&nbsp;&nbsp;
+
+00:20:53.120 --> 00:20:57.920
+need to be placed on very specific parts of the&nbsp;
+mesh, as well as multiple images which need to be&nbsp;&nbsp;
+
+00:20:57.920 --> 00:21:03.360
+placed in the exact same way, we will use UV.
+So this mapping node gives us all sorts of&nbsp;&nbsp;
+
+00:21:03.360 --> 00:21:08.480
+control on where this texture is mapped on&nbsp;
+the object. We can change the location along&nbsp;&nbsp;
+
+00:21:08.480 --> 00:21:13.360
+all three axes. This is only a 2 dimensional&nbsp;
+object, so some of this isn’t as important.&nbsp;&nbsp;
+
+00:21:13.360 --> 00:21:18.640
+We can rotate the material and we can scale&nbsp;
+the material along each of the three axes.
+
+00:21:19.280 --> 00:21:23.920
+One main point on nodes we should mention&nbsp;
+here is an output can go into many inputs,&nbsp;&nbsp;
+
+00:21:26.960 --> 00:21:30.400
+but an input can only have&nbsp;
+one connection going into it.&nbsp;
+
+00:21:30.400 --> 00:21:34.640
+Often, we’ll use the same mapping setup&nbsp;
+and feed it into multiple different nodes.&nbsp;&nbsp;
+
+00:21:34.640 --> 00:21:38.080
+But, if we try to feed two nodes into&nbsp;
+one input, it’s not going to work.
+
+00:21:38.960 --> 00:21:44.080
+Another node you will see used a lot is the math&nbsp;
+node. I hate math, but this node isn’t too bad.&nbsp;&nbsp;
+
+00:21:44.080 --> 00:21:49.200
+It could be plugged in between two other nodes and&nbsp;
+then it can run a simple math formula on the data&nbsp;&nbsp;
+
+00:21:49.200 --> 00:21:53.760
+before it gets to the second node. Remember&nbsp;
+black and white values have values of zero&nbsp;&nbsp;
+
+00:21:53.760 --> 00:21:58.880
+and one respectively. Well, maybe you want&nbsp;
+to amplify those values by multiplying them.&nbsp;&nbsp;
+
+00:21:58.880 --> 00:22:04.240
+Or maybe you want to take two values and add them&nbsp;
+together. The math node does this and a lot more.
+
+00:22:05.120 --> 00:22:09.040
+Sometimes in Blender, you want something&nbsp;
+to be transparent or translucent.&nbsp;&nbsp;
+
+00:22:09.040 --> 00:22:12.880
+There are both transparent and translucent&nbsp;
+shaders in Blender that can be combined&nbsp;&nbsp;
+
+00:22:12.880 --> 00:22:17.920
+with other shaders or used by themselves.
+More often, I find the glass shader useful.&nbsp;&nbsp;
+
+00:22:18.720 --> 00:22:25.040
+On this, you’ll see an IOR setting. Whenever you&nbsp;
+see IOR it means Index of Refraction, which is one&nbsp;&nbsp;
+
+00:22:25.040 --> 00:22:29.840
+of the terms I cover in my Blender Terminology&nbsp;
+video that I recommend beginners check out.&nbsp;
+
+00:22:29.840 --> 00:22:36.400
+Different materials reflect light at different&nbsp;
+angles. Your regular glass has an IOR of 1.45&nbsp;&nbsp;
+
+00:22:36.400 --> 00:22:41.040
+which is the default value for this node.&nbsp;
+Other materials like plastic, water,&nbsp;&nbsp;
+
+00:22:41.040 --> 00:22:45.520
+thicker or thinner glass will have different&nbsp;
+IOR’s. So the glass shader can actually be&nbsp;&nbsp;
+
+00:22:45.520 --> 00:22:49.680
+used for more than just glass. The roughness&nbsp;
+value can be adjusted and this is a good&nbsp;&nbsp;
+
+00:22:49.680 --> 00:22:54.880
+demonstration of what roughness does. Higher is&nbsp;
+less reflective while lower is more reflective.
+
+00:22:56.400 --> 00:23:00.720
+Everything we’ve covered so far has dealt with&nbsp;
+the surface channel of materials but volume is&nbsp;&nbsp;
+
+00:23:00.720 --> 00:23:04.640
+something you might want to use as well. There&nbsp;
+are only a handful of volume shaders and I’ll&nbsp;&nbsp;
+
+00:23:04.640 --> 00:23:09.680
+need a 3 dimensional object to demonstrate this.&nbsp;
+So I’ll add a cube and give it a new material.&nbsp;&nbsp;
+
+00:23:09.680 --> 00:23:14.240
+I’ll delete the principled shader because I don’t&nbsp;
+want this object to have a surface, I just want it&nbsp;&nbsp;
+
+00:23:14.240 --> 00:23:18.720
+to have volume. The object turns black until&nbsp;
+you plug something into the volume channel.&nbsp;
+
+00:23:19.280 --> 00:23:24.240
+Volume absorption means the volume will absorb&nbsp;
+light as it passes through an object. This is kind&nbsp;&nbsp;
+
+00:23:24.240 --> 00:23:28.480
+of what happens when you’re looking into a pond&nbsp;
+and light starts to disappear as it gets deeper.&nbsp;
+
+00:23:29.040 --> 00:23:33.360
+Volume scatter is more like what you see&nbsp;
+with fog and every scene is better with a&nbsp;&nbsp;
+
+00:23:33.360 --> 00:23:38.480
+little fog in it. With volume scatter, light&nbsp;
+hits the volume and bounces around. This can&nbsp;&nbsp;
+
+00:23:38.480 --> 00:23:43.120
+be very demanding on a computer to calculate so&nbsp;
+if your computer struggles with Blender, volume&nbsp;&nbsp;
+
+00:23:43.120 --> 00:23:47.840
+shading might not work for you at the moment.
+There’s also the principled volume shader which&nbsp;&nbsp;
+
+00:23:47.840 --> 00:23:52.240
+combines the two in the most realistic way&nbsp;
+possible and it’s probably the one to use&nbsp;&nbsp;
+
+00:23:52.240 --> 00:23:55.760
+most of the time. It also hasn’t been&nbsp;
+around forever and before you had to&nbsp;&nbsp;
+
+00:23:55.760 --> 00:24:00.480
+mix a scatter and absorption node together&nbsp;
+got get what this node can do by itself.&nbsp;
+
+00:24:00.480 --> 00:24:06.240
+We plug the volume into the volume channel and&nbsp;
+we get this, some pretty dense fog. We can slide&nbsp;&nbsp;
+
+00:24:06.240 --> 00:24:11.200
+the density down to reduce the fog, but notice&nbsp;
+it’s a very uniform fog throughout the object.&nbsp;
+
+00:24:11.760 --> 00:24:15.840
+Using texture nodes, color ramps and other&nbsp;
+things we can tweak this density value to&nbsp;&nbsp;
+
+00:24:15.840 --> 00:24:20.640
+get really cool effects. I’ll add a noise texture,&nbsp;
+which we didn’t really cover, but it’s similar to&nbsp;&nbsp;
+
+00:24:20.640 --> 00:24:25.840
+the musgrave texture node. This one has a factor&nbsp;
+output which we can plug into the density input of&nbsp;&nbsp;
+
+00:24:25.840 --> 00:24:31.680
+the volume shader. It might be difficult to see,&nbsp;
+but as we adjust the scale of this noise texture,&nbsp;&nbsp;
+
+00:24:31.680 --> 00:24:36.240
+there are sort of noisy pockets of&nbsp;
+fog that we can adjust the size of.&nbsp;
+
+00:24:36.240 --> 00:24:40.400
+We could add a color ramp between these&nbsp;
+two to adjust the fog similarly to how&nbsp;&nbsp;
+
+00:24:40.400 --> 00:24:42.240
+we adjusted things with the surface material.&nbsp;&nbsp;
+
+00:24:44.560 --> 00:24:50.560
+We can change the color of the volume which might&nbsp;
+make this easier to see. We can have the fog give&nbsp;&nbsp;
+
+00:24:50.560 --> 00:24:55.040
+off its own light which isn’t really realistic&nbsp;
+but it can create a cool effect. There are a&nbsp;&nbsp;
+
+00:24:55.040 --> 00:24:59.520
+lot of other things to play around with here too.
+And I should point out we see a new color socket&nbsp;&nbsp;
+
+00:24:59.520 --> 00:25:04.080
+here. These blue sockets are for attribute&nbsp;
+inputs which is, as of this recording,&nbsp;&nbsp;
+
+00:25:04.080 --> 00:25:08.240
+a fairly new feature of Blender that I haven’t&nbsp;
+fully wrapped my head around yet. They’re useful&nbsp;&nbsp;
+
+00:25:08.240 --> 00:25:14.240
+in geometry nodes which are an entirely different&nbsp;
+use of nodes that this video is not getting into.&nbsp;
+
+00:25:14.240 --> 00:25:18.400
+What you could do with this object is to make&nbsp;
+the object huge and have it encompass your entire&nbsp;&nbsp;
+
+00:25:18.400 --> 00:25:23.360
+scene to add fog to it, but remember volume is&nbsp;
+very demanding when rendering so use with caution&nbsp;&nbsp;
+
+00:25:23.360 --> 00:25:28.080
+and don’t go crazier than you need to with it.
+Since we are using a noise texture to control&nbsp;&nbsp;
+
+00:25:28.080 --> 00:25:34.320
+the fog density here, we could change it to 4D&nbsp;
+which gives us that W value we discussed before.&nbsp;&nbsp;
+
+00:25:34.320 --> 00:25:38.080
+We could use that along with keyframes&nbsp;
+to animate the density of the fog.&nbsp;&nbsp;
+
+00:25:38.640 --> 00:25:42.560
+Hard to see in preview mode but it could&nbsp;
+look something like this when rendered out.
+
+00:25:44.000 --> 00:25:47.600
+I promised some helpful tips at&nbsp;
+the end of Part 1 so here we go.
+
+00:25:47.600 --> 00:25:52.400
+When you find yourself adding the same node to a&nbsp;
+lot of materials. Like the color ramp for example,&nbsp;&nbsp;
+
+00:25:52.400 --> 00:25:57.680
+you can speed this up two ways. Press Shift+A&nbsp;
+to add a material. Find the node you want and&nbsp;&nbsp;
+
+00:25:57.680 --> 00:26:02.800
+right-click it. You can either add a shortcut&nbsp;
+for the node. By doing this, you’ll be prompted&nbsp;&nbsp;
+
+00:26:02.800 --> 00:26:07.440
+to press a key to create a shortcut. But,&nbsp;
+how many keys do you have on your keyboard?&nbsp;
+
+00:26:07.440 --> 00:26:11.760
+Some useless trivia - the standard&nbsp;
+keyboard actually has 101 keys on it.&nbsp;&nbsp;
+
+00:26:11.760 --> 00:26:15.920
+I didn’t count them, I Googled it.
+What I prefer is to add nodes to my&nbsp;&nbsp;
+
+00:26:15.920 --> 00:26:19.920
+quick favorites menu. Right click the&nbsp;
+node and choose add to quick favorites.&nbsp;&nbsp;
+
+00:26:20.560 --> 00:26:25.520
+Now, when in the shader editor, we can press “Q”&nbsp;
+and a short menu of your favorite nodes appear.
+
+00:26:26.880 --> 00:26:31.920
+With the node wrangler addon enabled you can do&nbsp;
+so many things and here are just a few of them.&nbsp;&nbsp;
+
+00:26:31.920 --> 00:26:34.480
+Make sure you remember to turn&nbsp;
+on the node wrangler addon.
+
+00:26:35.200 --> 00:26:38.320
+If you want to disconnect a&nbsp;
+node connection, press control&nbsp;&nbsp;
+
+00:26:38.320 --> 00:26:42.640
+and then right click on your mouse. With those&nbsp;
+pressed, just cut through the connections you&nbsp;&nbsp;
+
+00:26:42.640 --> 00:26:46.880
+want to disconnect and they’re gone. You can&nbsp;
+do this across multiple connections at once.
+
+00:26:47.840 --> 00:26:53.120
+In Blender, it’s often useful to see what one&nbsp;
+single node in your node tree is contributing.&nbsp;&nbsp;
+
+00:26:53.120 --> 00:26:58.240
+You can do this as long as node wrangler is turned&nbsp;
+on. Hold down Control Shift on your keyboard and&nbsp;&nbsp;
+
+00:26:58.240 --> 00:27:04.160
+then click on a node. It connects that node into&nbsp;
+this viewer node and then into the final output.&nbsp;&nbsp;
+
+00:27:04.160 --> 00:27:09.280
+So you can Control Shift click around to see&nbsp;
+what your nodes all look like by themselves.&nbsp;&nbsp;
+
+00:27:09.280 --> 00:27:13.040
+When you’re done, Control Shift Click the&nbsp;
+final shader node and it’ll go back to normal.
+
+00:27:14.080 --> 00:27:18.320
+When you have a texture node in your editor&nbsp;
+and want to connect it to a mapping and texture&nbsp;&nbsp;
+
+00:27:18.320 --> 00:27:23.440
+coordinate node, you can save a lot of time&nbsp;
+by selecting the node and pressing Control T.&nbsp;&nbsp;
+
+00:27:23.440 --> 00:27:25.680
+It automatically sets up the connection for you.
+
+00:27:27.120 --> 00:27:31.920
+Here are a few ways to organize your nodes. You&nbsp;
+can drag with your mouse to select several nodes&nbsp;&nbsp;
+
+00:27:31.920 --> 00:27:38.160
+and then press CONTROL + J and it will frame these&nbsp;
+nodes. You can click the frame and drag the entire&nbsp;&nbsp;
+
+00:27:38.160 --> 00:27:42.400
+frame around. You can still move nodes around&nbsp;
+within the frame and the frame will adjust its&nbsp;&nbsp;
+
+00:27:42.400 --> 00:27:47.200
+size as needed. Press “N” on your keyboard&nbsp;
+to open up a sidebar in the shader editor.&nbsp;&nbsp;
+
+00:27:47.200 --> 00:27:50.640
+Here you can label the frame, let’s give&nbsp;
+it a nice name that you should remember.&nbsp;&nbsp;
+
+00:27:51.440 --> 00:27:56.160
+You can check color and give it a color&nbsp;
+background. Under properties, you can&nbsp;&nbsp;
+
+00:27:56.160 --> 00:28:02.160
+increase the size of the label up to 64 font.&nbsp;
+This is a great way to organize large node trees.
+
+00:28:02.160 --> 00:28:06.720
+You can also create node groups. Let’s&nbsp;
+say we wanted this node and this node to&nbsp;&nbsp;
+
+00:28:06.720 --> 00:28:12.320
+be condensed into one single node. Select them&nbsp;
+and press Control+G. Whoa, what just happened?&nbsp;&nbsp;
+
+00:28:12.320 --> 00:28:18.240
+Blender created a node group with a group input,&nbsp;
+then the two nodes and then a group output. Press&nbsp;&nbsp;
+
+00:28:18.240 --> 00:28:23.760
+“tab” to go back to our node tree. Here, the two&nbsp;
+nodes have been combined into one node group.&nbsp;&nbsp;
+
+00:28:23.760 --> 00:28:27.920
+We can again name the group, give it a&nbsp;
+color and pressing tab while it’s selected&nbsp;&nbsp;
+
+00:28:27.920 --> 00:28:32.480
+will take us back into the node group.
+If we had a value inside the node group&nbsp;&nbsp;
+
+00:28:32.480 --> 00:28:37.040
+that we wanted controlled without having to&nbsp;
+tab into the node group, we can connect the&nbsp;&nbsp;
+
+00:28:37.040 --> 00:28:43.520
+empty socket on the group input into the value&nbsp;
+we want to control. Now tab out, and we see we&nbsp;&nbsp;
+
+00:28:43.520 --> 00:28:48.480
+can control that strength value right here from&nbsp;
+the group node. Super useful to stay organized.
+
+00:28:49.040 --> 00:28:54.480
+In Part 2 of this Blender tutorial, I’m gonna&nbsp;
+cover PBR textures which use images to create&nbsp;&nbsp;
+
+00:28:54.480 --> 00:28:58.800
+super realistic materials. I’ll have more&nbsp;
+quick tips at the end of Part 2 as well.
+
+00:28:58.800 --> 00:29:01.280
+My name is Brandon and I’m&nbsp;
+a Blender Artist. Thank you,&nbsp;&nbsp;
+
+00:29:01.280 --> 00:29:05.040
+thank you, thank you for all your support&nbsp;
+and I’ll see you in Part 2. Stay creative!
+

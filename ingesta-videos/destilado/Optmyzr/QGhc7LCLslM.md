@@ -1,0 +1,29 @@
+# AI in PPC: Strong Case… But Some Weak Matches 
+**Fuente:** Optmyzr | https://youtu.be/QGhc7LCLslM
+
+## Qué enseña (2-3 líneas)
+Anthony Higman, fundador de AdJustice Squire (PPC para bufetes de abogados), expone por qué la automatización y AI de Google (especialmente Performance Max) perjudican a categorías publicitarias sensibles como la abogacía de lesiones personales, eliminando control, ocultando datos accionables y homogeneizando verticales especializadas. También contrasta su escepticismo con casos prácticos de uso creativo de AI (vibe coding, transcripción de reuniones como prompts) y analiza el impacto en la contratación de talento junior.
+
+## Lecciones accionables
+- **Para evitar que Performance Max homogeneice verticales sensibles:** No uses PMax en categorías como "personal injury", "pharmaceutical" o "financial instruments" sin supervisión extrema. PMax tiende a convertir cualquier nicho legal en "lawyer" o "law firm", generando leads irrelevantes (ej: llamadas de disputas landlord-tenant para un bufete de accidentes de camión). En su lugar, mantén campañas manuales con control granular de keywords y audiencias.
+- **Para recuperar control sobre datos de audiencia:** Exige a Google (o a tu plataforma) más palancas sobre first-party data. Anthony propone: "Give me more control on the audience data... make first-party data more like keywords". Es decir, trata los segmentos de audiencia como si fueran keywords: puedes incluirlos, excluirlos, ajustar pujas por segmento.
+- **Para detectar señales de conversación en chatbots:** Cuando recibas leads de ChatGPT/Claude, no intentes replicar la conversación completa. Anthony sugiere: "Bring back broad match modified. I'm going to be saying these words need to be included in the conversational path". Traduce: usa modified broad match con palabras clave obligatorias para capturar la intención conversacional sin perder control.
+- **Para usar AI en reuniones como generador de contenido:** Después de una reunión, toma la transcripción completa y pásala a un LLM con el prompt: "What could I blog about this? What are some ideas that could benefit the industry as a whole?" Esto convierte reuniones internas en activos de marketing.
+- **Para crear prototipos de productos sin developers:** Usa "vibe coding" (ej: clonar funcionalidades específicas de Udemy para un curso propio). Anthony lo describe como: "I bought code, a lightweight clone of Udemy... if you really think about what you need, it's two features from Udemy, and those are pretty easy to replicate".
+- **Para auditar el rendimiento a nivel granular:** Usa la API de Google Ads para generar reportes a nivel "keyword + ad text", combinación que Google no expone en UI. Esto permite detectar qué combinaciones específicas están funcionando, más allá del nivel de ad group.
+
+## Reglas para agentes
+- **Nunca** uses Performance Max en categorías publicitarias sensibles (personal injury, pharma, financial instruments) sin un proceso de revisión manual diario de search terms y llamadas entrantes. PMax tiende a homogeneizar verticales especializadas al "lowest common denominator".
+- **Siempre** que recibas un lead de ChatGPT/Claude, trátalo como señal de "conversational path" y configura campañas con modified broad match que exijan palabras clave obligatorias en la ruta conversacional.
+- **Nunca** confíes en que Google va a exponer todos los datos de matching en AI Mode o Performance Max. Asume que el sistema es una "black box" y que los insights accionables se ocultan deliberadamente.
+- **Siempre** que automatices una tarea (pujas, notas de reuniones, generación de anuncios), programa una revisión periódica manual. Anthony advierte: "What gets automated, less attention gets paid to it... more BS gets pushed in when things stop being paid attention to".
+- **Nunca** uses AI para generar copy de anuncios en verticales reguladas sin un abogado o compliance officer revisando cada variación. Las alucinaciones de LLMs pueden generar afirmaciones ilegales (ej: "everything is confidential" en un contexto donde Google graba llamadas).
+- **Siempre** que contrates, prioriza personas con "curiosidad por pelar la cebolla" (peel the onion) sobre experiencia técnica específica. Anthony cambió de contratar juniors a seniors porque la AI elimina el trabajo de entrada, pero los seniors son más valiosos para revisar outputs de AI.
+
+## Errores comunes que evita o menciona
+- **Error:** Usar Performance Max en verticales sensibles esperando que Google respete los matices. Realidad: PMax convierte "medical malpractice" en "lawyer" genérico, generando leads irrelevantes y caros (cientos de dólares por clic).
+- **Error:** Asumir que la automatización "libera tiempo" sin tener un plan para ese tiempo. Anthony critica: "What are you going to do with your more time?" La mayoría se queda sin ideas creativas más allá de replicar lo que ya existía.
+- **Error:** Confiar en que Google va a exponer datos de matching en AI Mode. Anthony señala: "The really valuable insights seem to be getting hidden more and more... it's very black box".
+- **Error:** Usar AI note-takers y no revisar las notas. Anthony observa: "The amount of time that people actually go back to their AI note-taker dwindles down". Esto permite que "crap searches" y manipulaciones pasen desapercibidas.
+- **Error:** Ignorar que Google tiene una cláusula en T&C que dice "we can do whatever we want at any time and there's no recourse for you". No asumas que hay protección contractual contra cambios abruptos en la plataforma.
+- **Error:** Creer que los leads de ChatGPT son fáciles de escalar. Anthony advierte que las plataformas de AI (ChatGPT, Claude) no están mostrando anuncios en categorías sensibles por miedo a alucinaciones y pesadillas mediáticas.

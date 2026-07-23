@@ -1,0 +1,7 @@
+ml_publica|https://developers.mercadolibre.com.ar/es_ar/publica-productos
+ml_preguntas|https://developers.mercadolibre.cl/es_ar/preguntas-y-respuestas
+ml_catalogo|https://developers.mercadolibre.cl/es_ar/que-es-catalogo
+ml_envios|https://developers.mercadolibre.com.ar/es_ar/mercado-envios
+ml_intro_mercado_ads|https://developers.mercadolibre.cl/es_cl/introduccion-a-mercado-ads
+ml_product_ads|https://developers.mercadolibre.cl (guía Product Ads)
+ml_reputacion|https://developers.mercadolibre.cl/es_ar/reputacion-de-vendedores

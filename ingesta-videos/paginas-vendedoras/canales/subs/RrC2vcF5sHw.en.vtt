@@ -1,0 +1,2964 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.490 align:start position:0%
+ 
+Hey <00:00:00.162><c>everyone, </c><00:00:00.324><c>how </c><00:00:00.486><c>are </c><00:00:00.648><c>you? </c><00:00:00.810><c>I'm </c><00:00:00.972><c>Dalto, </c><00:00:01.134><c>a</c>
+
+00:00:01.490 --> 00:00:01.500 align:start position:0%
+Hey everyone, how are you? I'm Dalto, a
+ 
+
+00:00:01.500 --> 00:00:03.560 align:start position:0%
+Hey everyone, how are you? I'm Dalto, a
+web <00:00:01.755><c>developer, </c><00:00:02.010><c>and </c><00:00:02.265><c>in </c><00:00:02.520><c>this </c><00:00:02.775><c>video, </c><00:00:03.030><c>I'm </c><00:00:03.285><c>going </c><00:00:03.540><c>to</c>
+
+00:00:03.560 --> 00:00:03.570 align:start position:0%
+web developer, and in this video, I'm going to
+ 
+
+00:00:03.570 --> 00:00:05.690 align:start position:0%
+web developer, and in this video, I'm going to
+tell <00:00:03.821><c>you </c><00:00:04.072><c>some </c><00:00:04.323><c>things </c><00:00:04.574><c>you </c><00:00:04.825><c>should </c><00:00:05.076><c>keep </c><00:00:05.327><c>in </c><00:00:05.578><c>mind</c>
+
+00:00:05.690 --> 00:00:05.700 align:start position:0%
+tell you some things you should keep in mind
+ 
+
+00:00:05.700 --> 00:00:07.670 align:start position:0%
+tell you some things you should keep in mind
+before <00:00:06.023><c>creating </c><00:00:06.346><c>a </c><00:00:06.669><c>website. </c><00:00:06.992><c>But </c><00:00:07.315><c>wait,</c>
+
+00:00:07.670 --> 00:00:07.680 align:start position:0%
+before creating a website. But wait,
+ 
+
+00:00:07.680 --> 00:00:10.040 align:start position:0%
+before creating a website. But wait,
+because <00:00:08.167><c>this </c><00:00:08.654><c>is </c><00:00:09.141><c>super </c><00:00:09.628><c>essential!</c>
+
+00:00:10.040 --> 00:00:10.050 align:start position:0%
+because this is super essential!
+ 
+
+00:00:10.050 --> 00:00:12.020 align:start position:0%
+because this is super essential!
+Many <00:00:10.499><c>of </c><00:00:10.948><c>you </c><00:00:11.397><c>build </c><00:00:11.846><c>websites</c>
+
+00:00:12.020 --> 00:00:12.030 align:start position:0%
+Many of you build websites
+ 
+
+00:00:12.030 --> 00:00:14.330 align:start position:0%
+Many of you build websites
+without <00:00:12.325><c>even </c><00:00:12.620><c>knowing </c><00:00:12.915><c>a </c><00:00:13.210><c>bunch </c><00:00:13.505><c>of </c><00:00:13.800><c>things </c><00:00:14.095><c>you</c>
+
+00:00:14.330 --> 00:00:14.340 align:start position:0%
+without even knowing a bunch of things you
+ 
+
+00:00:14.340 --> 00:00:16.430 align:start position:0%
+without even knowing a bunch of things you
+should <00:00:14.614><c>be </c><00:00:14.888><c>aware </c><00:00:15.162><c>of. </c><00:00:15.436><c>It's </c><00:00:15.710><c>not </c><00:00:15.984><c>just </c><00:00:16.258><c>a</c>
+
+00:00:16.430 --> 00:00:16.440 align:start position:0%
+should be aware of. It's not just a
+ 
+
+00:00:16.440 --> 00:00:19.340 align:start position:0%
+should be aware of. It's not just a
+whim <00:00:16.706><c>anymore; </c><00:00:16.972><c>it's </c><00:00:17.238><c>a </c><00:00:17.504><c>requirement. </c><00:00:17.770><c>We </c><00:00:18.036><c>can't </c><00:00:18.302><c>just </c><00:00:18.568><c>say, </c><00:00:18.834><c>"</c>
+
+00:00:19.340 --> 00:00:21.620 align:start position:0%
+whim anymore; it's a requirement. We can't just say, "
+ 
+
+00:00:21.620 --> 00:00:21.630 align:start position:0%
+ 
+ 
+
+00:00:21.630 --> 00:00:23.240 align:start position:0%
+ 
+Okay, <00:00:21.945><c>let's </c><00:00:22.260><c>start </c><00:00:22.575><c>a </c><00:00:22.890><c>business,"</c>
+
+00:00:23.240 --> 00:00:23.250 align:start position:0%
+Okay, let's start a business,"
+ 
+
+00:00:23.250 --> 00:00:25.220 align:start position:0%
+Okay, let's start a business,"
+without <00:00:23.467><c>knowing </c><00:00:23.684><c>what </c><00:00:23.901><c>it's </c><00:00:24.118><c>about. </c><00:00:24.335><c>We </c><00:00:24.552><c>can't </c><00:00:24.769><c>say, </c><00:00:24.986><c>"</c>
+
+00:00:25.220 --> 00:00:25.230 align:start position:0%
+without knowing what it's about. We can't say, "
+ 
+
+00:00:25.230 --> 00:00:27.560 align:start position:0%
+without knowing what it's about. We can't say, "
+Okay, <00:00:25.551><c>let's </c><00:00:25.872><c>go </c><00:00:26.193><c>to </c><00:00:26.514><c>a </c><00:00:26.835><c>bar," </c><00:00:27.156><c>without </c><00:00:27.477><c>even</c>
+
+00:00:27.560 --> 00:00:27.570 align:start position:0%
+Okay, let's go to a bar," without even
+ 
+
+00:00:27.570 --> 00:00:29.210 align:start position:0%
+Okay, let's go to a bar," without even
+knowing <00:00:27.799><c>if </c><00:00:28.028><c>we </c><00:00:28.257><c>have </c><00:00:28.486><c>the </c><00:00:28.715><c>money. </c><00:00:28.944><c>We</c>
+
+00:00:29.210 --> 00:00:29.220 align:start position:0%
+knowing if we have the money. We
+ 
+
+00:00:29.220 --> 00:00:31.009 align:start position:0%
+knowing if we have the money. We
+have <00:00:30.929><c>to</c>
+
+00:00:31.009 --> 00:00:31.019 align:start position:0%
+have to
+ 
+
+00:00:31.019 --> 00:00:33.620 align:start position:0%
+have to
+do <00:00:31.272><c>things </c><00:00:31.525><c>step </c><00:00:31.778><c>by </c><00:00:32.031><c>step, </c><00:00:32.284><c>just </c><00:00:32.537><c>like </c><00:00:32.790><c>everything </c><00:00:33.043><c>else </c><00:00:33.296><c>we</c>
+
+00:00:33.620 --> 00:00:33.630 align:start position:0%
+do things step by step, just like everything else we
+ 
+
+00:00:33.630 --> 00:00:35.900 align:start position:0%
+do things step by step, just like everything else we
+do <00:00:34.230><c>in </c><00:00:34.830><c>life </c><00:00:35.430><c>has</c>
+
+00:00:35.900 --> 00:00:35.910 align:start position:0%
+do in life has
+ 
+
+00:00:35.910 --> 00:00:38.119 align:start position:0%
+do in life has
+different <00:00:36.840><c>paths </c><00:00:37.770><c>to</c>
+
+00:00:38.119 --> 00:00:38.129 align:start position:0%
+different paths to
+ 
+
+00:00:38.129 --> 00:00:40.100 align:start position:0%
+different paths to
+achieve <00:00:38.526><c>different </c><00:00:38.923><c>things. </c><00:00:39.320><c>This </c><00:00:39.717><c>also</c>
+
+00:00:40.100 --> 00:00:40.110 align:start position:0%
+achieve different things. This also
+ 
+
+00:00:40.110 --> 00:00:42.380 align:start position:0%
+achieve different things. This also
+has <00:00:40.317><c>its </c><00:00:40.524><c>process, </c><00:00:40.731><c>and </c><00:00:40.938><c>there </c><00:00:41.145><c>are </c><00:00:41.352><c>many </c><00:00:41.559><c>things </c><00:00:41.766><c>that </c><00:00:41.973><c>most </c><00:00:42.180><c>people</c>
+
+00:00:42.380 --> 00:00:44.510 align:start position:0%
+has its process, and there are many things that most people
+ 
+
+00:00:44.510 --> 00:00:44.520 align:start position:0%
+ 
+ 
+
+00:00:44.520 --> 00:00:46.430 align:start position:0%
+ 
+forget. <00:00:44.940><c>We've </c><00:00:45.360><c>learned </c><00:00:45.780><c>what </c><00:00:46.200><c>most</c>
+
+00:00:46.430 --> 00:00:46.440 align:start position:0%
+forget. We've learned what most
+ 
+
+00:00:46.440 --> 00:00:49.369 align:start position:0%
+forget. We've learned what most
+people <00:00:46.626><c>don't </c><00:00:46.812><c>know, </c><00:00:46.998><c>so </c><00:00:47.184><c>we </c><00:00:47.370><c>have </c><00:00:47.556><c>to </c><00:00:47.742><c>keep </c><00:00:47.928><c>this </c><00:00:48.114><c>in </c><00:00:48.300><c>mind. </c><00:00:48.486><c>You're </c><00:00:48.672><c>going </c><00:00:48.858><c>to </c><00:00:49.044><c>learn </c><00:00:49.230><c>it</c>
+
+00:00:49.369 --> 00:00:51.290 align:start position:0%
+people don't know, so we have to keep this in mind. You're going to learn it
+ 
+
+00:00:51.290 --> 00:00:53.060 align:start position:0%
+ 
+ 
+
+00:00:53.060 --> 00:00:53.070 align:start position:0%
+ 
+ 
+
+00:00:53.070 --> 00:00:55.430 align:start position:0%
+ 
+in <00:00:53.602><c>this </c><00:00:54.134><c>video. </c><00:00:54.666><c>You'll </c><00:00:55.198><c>leave</c>
+
+00:00:55.430 --> 00:00:55.440 align:start position:0%
+in this video. You'll leave
+ 
+
+00:00:55.440 --> 00:00:57.889 align:start position:0%
+in this video. You'll leave
+with <00:00:55.824><c>knowledge </c><00:00:56.208><c>that </c><00:00:56.592><c>I'm </c><00:00:56.976><c>very, </c><00:00:57.360><c>very</c>
+
+00:00:57.889 --> 00:00:57.899 align:start position:0%
+with knowledge that I'm very, very
+ 
+
+00:00:57.899 --> 00:00:59.420 align:start position:0%
+with knowledge that I'm very, very
+sure <00:00:58.154><c>will </c><00:00:58.409><c>be </c><00:00:58.664><c>incredibly </c><00:00:58.919><c>useful</c>
+
+00:00:59.420 --> 00:00:59.430 align:start position:0%
+sure will be incredibly useful
+ 
+
+00:00:59.430 --> 00:01:01.639 align:start position:0%
+sure will be incredibly useful
+because <00:00:59.894><c>it's </c><00:01:00.358><c>something </c><00:01:00.822><c>no </c><00:01:01.286><c>one</c>
+
+00:01:01.639 --> 00:01:01.649 align:start position:0%
+because it's something no one
+ 
+
+00:01:01.649 --> 00:01:03.529 align:start position:0%
+because it's something no one
+has <00:01:01.794><c>talked </c><00:01:01.939><c>about </c><00:01:02.084><c>on </c><00:01:02.229><c>YouTube, </c><00:01:02.374><c>and </c><00:01:02.519><c>I'd </c><00:01:02.664><c>like </c><00:01:02.809><c>to </c><00:01:02.954><c>be </c><00:01:03.099><c>the </c><00:01:03.244><c>one </c><00:01:03.389><c>to</c>
+
+00:01:03.529 --> 00:01:03.539 align:start position:0%
+has talked about on YouTube, and I'd like to be the one to
+ 
+
+00:01:03.539 --> 00:01:04.880 align:start position:0%
+has talked about on YouTube, and I'd like to be the one to
+talk <00:01:03.714><c>about </c><00:01:03.889><c>it </c><00:01:04.064><c>because </c><00:01:04.239><c>it's </c><00:01:04.414><c>something </c><00:01:04.589><c>that...</c>
+
+00:01:04.880 --> 00:01:04.890 align:start position:0%
+talk about it because it's something that...
+ 
+
+00:01:04.890 --> 00:01:06.910 align:start position:0%
+talk about it because it's something that...
+The <00:01:05.382><c>methodology </c><00:01:05.874><c>we </c><00:01:06.366><c>have </c><00:01:06.858><c>for</c>
+
+00:01:06.910 --> 00:01:06.920 align:start position:0%
+The methodology we have for
+ 
+
+00:01:06.920 --> 00:01:09.039 align:start position:0%
+The methodology we have for
+work <00:01:07.136><c>adds </c><00:01:07.352><c>a </c><00:01:07.568><c>lot; </c><00:01:07.784><c>it </c><00:01:08.000><c>even </c><00:01:08.216><c>increases </c><00:01:08.432><c>the </c><00:01:08.648><c>level </c><00:01:08.864><c>of</c>
+
+00:01:09.039 --> 00:01:09.049 align:start position:0%
+work adds a lot; it even increases the level of
+ 
+
+00:01:09.049 --> 00:01:11.050 align:start position:0%
+work adds a lot; it even increases the level of
+our <00:01:09.689><c>page </c><00:01:10.329><c>in </c><00:01:10.969><c>SEO,</c>
+
+00:01:11.050 --> 00:01:11.060 align:start position:0%
+our page in SEO,
+ 
+
+00:01:11.060 --> 00:01:13.180 align:start position:0%
+our page in SEO,
+conversions, <00:01:11.304><c>and </c><00:01:11.548><c>whatever </c><00:01:11.792><c>else </c><00:01:12.036><c>we </c><00:01:12.280><c>can </c><00:01:12.524><c>think </c><00:01:12.768><c>of,</c>
+
+00:01:13.180 --> 00:01:13.190 align:start position:0%
+conversions, and whatever else we can think of,
+ 
+
+00:01:13.190 --> 00:01:14.950 align:start position:0%
+conversions, and whatever else we can think of,
+since <00:01:13.407><c>we </c><00:01:13.624><c>would </c><00:01:13.841><c>meet </c><00:01:14.058><c>each </c><00:01:14.275><c>and </c><00:01:14.492><c>every </c><00:01:14.709><c>one </c><00:01:14.926><c>of</c>
+
+00:01:14.950 --> 00:01:14.960 align:start position:0%
+since we would meet each and every one of
+ 
+
+00:01:14.960 --> 00:01:16.539 align:start position:0%
+since we would meet each and every one of
+our <00:01:15.390><c>objectives. </c><00:01:15.820><c>Before </c><00:01:16.250><c>starting</c>
+
+00:01:16.539 --> 00:01:16.549 align:start position:0%
+our objectives. Before starting
+ 
+
+00:01:16.549 --> 00:01:17.620 align:start position:0%
+our objectives. Before starting
+this <00:01:16.709><c>video, </c><00:01:16.869><c>which </c><00:01:17.029><c>Esther </c><00:01:17.189><c>and </c><00:01:17.349><c>several </c><00:01:17.509><c>others</c>
+
+00:01:17.620 --> 00:01:17.630 align:start position:0%
+this video, which Esther and several others
+ 
+
+00:01:17.630 --> 00:01:18.490 align:start position:0%
+this video, which Esther and several others
+on <00:01:17.759><c>Instagram </c><00:01:17.888><c>mention, </c><00:01:18.017><c>if </c><00:01:18.146><c>you </c><00:01:18.275><c>have </c><00:01:18.404><c>any</c>
+
+00:01:18.490 --> 00:01:18.500 align:start position:0%
+on Instagram mention, if you have any
+ 
+
+00:01:18.500 --> 00:01:20.289 align:start position:0%
+on Instagram mention, if you have any
+questions, <00:01:18.693><c>anything </c><00:01:18.886><c>at </c><00:01:19.079><c>all, </c><00:01:19.272><c>I </c><00:01:19.465><c>know </c><00:01:19.658><c>you're </c><00:01:19.851><c>going </c><00:01:20.044><c>to </c><00:01:20.237><c>skip</c>
+
+00:01:20.289 --> 00:01:20.299 align:start position:0%
+questions, anything at all, I know you're going to skip
+ 
+
+00:01:20.299 --> 00:01:21.609 align:start position:0%
+questions, anything at all, I know you're going to skip
+this <00:01:20.614><c>part </c><00:01:20.929><c>because </c><00:01:21.244><c>it's </c><00:01:21.559><c>really</c>
+
+00:01:21.609 --> 00:01:21.619 align:start position:0%
+this part because it's really
+ 
+
+00:01:21.619 --> 00:01:24.040 align:start position:0%
+this part because it's really
+annoying, <00:01:21.791><c>and </c><00:01:21.963><c>you're </c><00:01:22.135><c>not </c><00:01:22.307><c>going </c><00:01:22.479><c>to </c><00:01:22.651><c>skip </c><00:01:22.823><c>this </c><00:01:22.995><c>part. </c><00:01:23.167><c>Like </c><00:01:23.339><c>I </c><00:01:23.511><c>said, </c><00:01:23.683><c>it's</c>
+
+00:01:24.040 --> 00:01:24.050 align:start position:0%
+annoying, and you're not going to skip this part. Like I said, it's
+ 
+
+00:01:24.050 --> 00:01:25.660 align:start position:0%
+annoying, and you're not going to skip this part. Like I said, it's
+not <00:01:24.402><c>a </c><00:01:24.754><c>regular </c><00:01:25.106><c>YouTube </c><00:01:25.458><c>ad.</c>
+
+00:01:25.660 --> 00:01:25.670 align:start position:0%
+not a regular YouTube ad.
+ 
+
+00:01:25.670 --> 00:01:28.450 align:start position:0%
+not a regular YouTube ad.
+First <00:01:26.045><c>of </c><00:01:26.420><c>all, </c><00:01:26.795><c>no, </c><00:01:27.170><c>I'm </c><00:01:27.545><c>a </c><00:01:27.920><c>site</c>
+
+00:01:28.450 --> 00:01:28.460 align:start position:0%
+First of all, no, I'm a site
+ 
+
+00:01:28.460 --> 00:01:30.249 align:start position:0%
+First of all, no, I'm a site
+created <00:01:28.590><c>for </c><00:01:28.720><c>educational </c><00:01:28.850><c>content, </c><00:01:28.980><c>and </c><00:01:29.110><c>secondly, </c><00:01:29.240><c>no, </c><00:01:29.370><c>it's </c><00:01:29.500><c>not </c><00:01:29.630><c>just </c><00:01:29.760><c>any </c><00:01:29.890><c>old</c>
+
+00:01:30.249 --> 00:01:30.259 align:start position:0%
+created for educational content, and secondly, no, it's not just any old
+ 
+
+00:01:30.259 --> 00:01:31.960 align:start position:0%
+created for educational content, and secondly, no, it's not just any old
+list. <00:01:31.024><c>It's </c><00:01:31.789><c>the</c>
+
+00:01:31.960 --> 00:01:31.970 align:start position:0%
+list. It's the
+ 
+
+00:01:31.970 --> 00:01:34.330 align:start position:0%
+list. It's the
+most <00:01:32.342><c>promoted </c><00:01:32.714><c>programming </c><00:01:33.086><c>Instagram </c><00:01:33.458><c>account </c><00:01:33.830><c>there</c>
+
+00:01:34.330 --> 00:01:34.340 align:start position:0%
+most promoted programming Instagram account there
+ 
+
+00:01:34.340 --> 00:01:36.100 align:start position:0%
+most promoted programming Instagram account there
+is, <00:01:34.920><c>the </c><00:01:35.500><c>ordinary </c><00:01:36.080><c>and</c>
+
+00:01:36.100 --> 00:01:36.110 align:start position:0%
+is, the ordinary and
+ 
+
+00:01:36.110 --> 00:01:37.480 align:start position:0%
+is, the ordinary and
+promotional <00:01:36.324><c>one, </c><00:01:36.538><c>both </c><00:01:36.752><c>her </c><00:01:36.966><c>Instagram </c><00:01:37.180><c>and </c><00:01:37.394><c>mine.</c>
+
+00:01:37.480 --> 00:01:37.490 align:start position:0%
+promotional one, both her Instagram and mine.
+ 
+
+00:01:37.490 --> 00:01:38.980 align:start position:0%
+promotional one, both her Instagram and mine.
+So <00:01:37.655><c>if </c><00:01:37.820><c>you're </c><00:01:37.985><c>not </c><00:01:38.150><c>following </c><00:01:38.315><c>me, </c><00:01:38.480><c>follow </c><00:01:38.645><c>some </c><00:01:38.810><c>other</c>
+
+00:01:38.980 --> 00:01:38.990 align:start position:0%
+So if you're not following me, follow some other
+ 
+
+00:01:38.990 --> 00:01:46.380 align:start position:0%
+So if you're not following me, follow some other
+obscure <00:01:39.127><c>type </c><00:01:39.264><c>of </c><00:01:39.401><c>account </c><00:01:39.538><c>that </c><00:01:39.675><c>exists.</c>
+
+00:01:46.380 --> 00:01:46.390 align:start position:0%
+ 
+ 
+
+00:01:46.390 --> 00:01:48.300 align:start position:0%
+ 
+
+
+00:01:48.300 --> 00:01:48.310 align:start position:0%
+ 
+ 
+
+00:01:48.310 --> 00:02:01.070 align:start position:0%
+ 
+
+
+00:02:01.070 --> 00:02:01.080 align:start position:0%
+ 
+ 
+
+00:02:01.080 --> 00:02:02.190 align:start position:0%
+ 
+[Music]
+
+00:02:02.190 --> 00:02:02.200 align:start position:0%
+[Music]
+ 
+
+00:02:02.200 --> 00:02:04.719 align:start position:0%
+[Music]
+Surely <00:02:02.664><c>you've </c><00:02:03.128><c>just </c><00:02:03.592><c>completed </c><00:02:04.056><c>the </c><00:02:04.520><c>first</c>
+
+00:02:04.719 --> 00:02:04.729 align:start position:0%
+Surely you've just completed the first
+ 
+
+00:02:04.729 --> 00:02:06.340 align:start position:0%
+Surely you've just completed the first
+and <00:02:04.930><c>most </c><00:02:05.131><c>important </c><00:02:05.332><c>step </c><00:02:05.533><c>of </c><00:02:05.734><c>the </c><00:02:05.935><c>whole </c><00:02:06.136><c>video:</c>
+
+00:02:06.340 --> 00:02:06.350 align:start position:0%
+and most important step of the whole video:
+ 
+
+00:02:06.350 --> 00:02:07.780 align:start position:0%
+and most important step of the whole video:
+follow <00:02:06.530><c>the </c><00:02:06.710><c>tennis </c><00:02:06.890><c>player </c><00:02:07.070><c>Cámaras, </c><00:02:07.250><c>and </c><00:02:07.430><c>he's </c><00:02:07.610><c>an</c>
+
+00:02:07.780 --> 00:02:07.790 align:start position:0%
+follow the tennis player Cámaras, and he's an
+ 
+
+00:02:07.790 --> 00:02:14.140 align:start position:0%
+follow the tennis player Cámaras, and he's an
+incredible <00:02:08.435><c>programmer. </c><00:02:09.080><c>And</c>
+
+00:02:14.140 --> 00:02:14.150 align:start position:0%
+ 
+ 
+
+00:02:14.150 --> 00:02:17.089 align:start position:0%
+ 
+well, <00:02:14.716><c>the </c><00:02:15.282><c>people </c><00:02:15.848><c>from </c><00:02:16.414><c>Deloitte </c><00:02:16.980><c>just</c>
+
+00:02:17.089 --> 00:02:17.099 align:start position:0%
+well, the people from Deloitte just
+ 
+
+00:02:17.099 --> 00:02:19.070 align:start position:0%
+well, the people from Deloitte just
+interrupted <00:02:17.471><c>us, </c><00:02:17.843><c>so, </c><00:02:18.215><c>well, </c><00:02:18.587><c>now </c><00:02:18.959><c>let's</c>
+
+00:02:19.070 --> 00:02:19.080 align:start position:0%
+interrupted us, so, well, now let's
+ 
+
+00:02:19.080 --> 00:02:20.960 align:start position:0%
+interrupted us, so, well, now let's
+continue. <00:02:19.315><c>And </c><00:02:19.550><c>the </c><00:02:19.785><c>first </c><00:02:20.020><c>thing </c><00:02:20.255><c>we </c><00:02:20.490><c>have </c><00:02:20.725><c>to</c>
+
+00:02:20.960 --> 00:02:20.970 align:start position:0%
+continue. And the first thing we have to
+ 
+
+00:02:20.970 --> 00:02:22.729 align:start position:0%
+continue. And the first thing we have to
+do <00:02:21.375><c>before </c><00:02:21.780><c>starting </c><00:02:22.185><c>a </c><00:02:22.590><c>website</c>
+
+00:02:22.729 --> 00:02:22.739 align:start position:0%
+do before starting a website
+ 
+
+00:02:22.739 --> 00:02:24.470 align:start position:0%
+do before starting a website
+is <00:02:23.144><c>to </c><00:02:23.549><c>define </c><00:02:23.954><c>the </c><00:02:24.359><c>objective</c>
+
+00:02:24.470 --> 00:02:24.480 align:start position:0%
+is to define the objective
+ 
+
+00:02:24.480 --> 00:02:26.660 align:start position:0%
+is to define the objective
+because, <00:02:24.800><c>as </c><00:02:25.120><c>you </c><00:02:25.440><c>know, </c><00:02:25.760><c>as </c><00:02:26.080><c>a </c><00:02:26.400><c>good</c>
+
+00:02:26.660 --> 00:02:26.670 align:start position:0%
+because, as you know, as a good
+ 
+
+00:02:26.670 --> 00:02:28.400 align:start position:0%
+because, as you know, as a good
+web <00:02:27.180><c>developer </c><00:02:27.690><c>knows, </c><00:02:28.200><c>every</c>
+
+00:02:28.400 --> 00:02:28.410 align:start position:0%
+web developer knows, every
+ 
+
+00:02:28.410 --> 00:02:30.530 align:start position:0%
+web developer knows, every
+website <00:02:28.705><c>has </c><00:02:29.000><c>an </c><00:02:29.295><c>objective.  </c><00:02:29.590><c>Websites </c><00:02:29.885><c>that </c><00:02:30.180><c>are</c>
+
+00:02:30.530 --> 00:02:30.540 align:start position:0%
+website has an objective.  Websites that are
+ 
+
+00:02:30.540 --> 00:02:31.970 align:start position:0%
+website has an objective.  Websites that are
+simply <00:02:30.862><c>meant </c><00:02:31.184><c>to </c><00:02:31.506><c>have </c><00:02:31.828><c>a</c>
+
+00:02:31.970 --> 00:02:31.980 align:start position:0%
+simply meant to have a
+ 
+
+00:02:31.980 --> 00:02:33.410 align:start position:0%
+simply meant to have a
+specific <00:02:32.420><c>function, </c><00:02:32.860><c>such </c><00:02:33.300><c>as</c>
+
+00:02:33.410 --> 00:02:33.420 align:start position:0%
+specific function, such as
+ 
+
+00:02:33.420 --> 00:02:35.630 align:start position:0%
+specific function, such as
+some <00:02:33.929><c>managers, </c><00:02:34.438><c>which, </c><00:02:34.947><c>while </c><00:02:35.456><c>they</c>
+
+00:02:35.630 --> 00:02:35.640 align:start position:0%
+some managers, which, while they
+ 
+
+00:02:35.640 --> 00:02:38.030 align:start position:0%
+some managers, which, while they
+need <00:02:36.059><c>to </c><00:02:36.478><c>be </c><00:02:36.897><c>informative, </c><00:02:37.316><c>also </c><00:02:37.735><c>need</c>
+
+00:02:38.030 --> 00:02:38.040 align:start position:0%
+need to be informative, also need
+ 
+
+00:02:38.040 --> 00:02:40.670 align:start position:0%
+need to be informative, also need
+a <00:02:38.640><c>design </c><00:02:39.240><c>standard, </c><00:02:39.840><c>are </c><00:02:40.440><c>primarily</c>
+
+00:02:40.670 --> 00:02:40.680 align:start position:0%
+a design standard, are primarily
+ 
+
+00:02:40.680 --> 00:02:42.259 align:start position:0%
+a design standard, are primarily
+for <00:02:41.032><c>functionality. </c><00:02:41.384><c>Then </c><00:02:41.736><c>we </c><00:02:42.088><c>have</c>
+
+00:02:42.259 --> 00:02:42.269 align:start position:0%
+for functionality. Then we have
+ 
+
+00:02:42.269 --> 00:02:43.670 align:start position:0%
+for functionality. Then we have
+another <00:02:42.491><c>type </c><00:02:42.713><c>of </c><00:02:42.935><c>website, </c><00:02:43.157><c>such </c><00:02:43.379><c>as</c>
+
+00:02:43.670 --> 00:02:43.680 align:start position:0%
+another type of website, such as
+ 
+
+00:02:43.680 --> 00:02:45.080 align:start position:0%
+another type of website, such as
+landing <00:02:43.987><c>pages. </c><00:02:44.294><c>These </c><00:02:44.601><c>are </c><00:02:44.908><c>websites</c>
+
+00:02:45.080 --> 00:02:45.090 align:start position:0%
+landing pages. These are websites
+ 
+
+00:02:45.090 --> 00:02:46.910 align:start position:0%
+landing pages. These are websites
+where <00:02:45.502><c>people </c><00:02:45.914><c>convert, </c><00:02:46.326><c>where </c><00:02:46.738><c>we</c>
+
+00:02:46.910 --> 00:02:46.920 align:start position:0%
+where people convert, where we
+ 
+
+00:02:46.920 --> 00:02:48.470 align:start position:0%
+where people convert, where we
+have <00:02:47.415><c>a </c><00:02:47.910><c>system</c>
+
+00:02:48.470 --> 00:02:48.480 align:start position:0%
+have a system
+ 
+
+00:02:48.480 --> 00:02:49.910 align:start position:0%
+have a system
+ideally <00:02:48.762><c>prepared </c><00:02:49.044><c>for </c><00:02:49.326><c>people </c><00:02:49.608><c>who </c><00:02:49.890><c>already</c>
+
+00:02:49.910 --> 00:02:49.920 align:start position:0%
+ideally prepared for people who already
+ 
+
+00:02:49.920 --> 00:02:51.949 align:start position:0%
+ideally prepared for people who already
+know <00:02:50.134><c>about </c><00:02:50.348><c>the </c><00:02:50.562><c>product </c><00:02:50.776><c>to </c><00:02:50.990><c>make </c><00:02:51.204><c>a </c><00:02:51.418><c>purchase.</c>
+
+00:02:51.949 --> 00:02:51.959 align:start position:0%
+know about the product to make a purchase.
+ 
+
+00:02:51.959 --> 00:02:53.840 align:start position:0%
+know about the product to make a purchase.
+Then <00:02:52.271><c>we </c><00:02:52.583><c>have </c><00:02:52.895><c>informational </c><00:02:53.207><c>sites, </c><00:02:53.519><c>which</c>
+
+00:02:53.840 --> 00:02:53.850 align:start position:0%
+Then we have informational sites, which
+ 
+
+00:02:53.850 --> 00:02:55.039 align:start position:0%
+Then we have informational sites, which
+basically <00:02:54.270><c>have </c><00:02:54.690><c>an</c>
+
+00:02:55.039 --> 00:02:55.049 align:start position:0%
+basically have an
+ 
+
+00:02:55.049 --> 00:02:57.140 align:start position:0%
+basically have an
+informative <00:02:55.285><c>objective, </c><00:02:55.521><c>and </c><00:02:55.757><c>so </c><00:02:55.993><c>on </c><00:02:56.229><c>with </c><00:02:56.465><c>each </c><00:02:56.701><c>website. </c><00:02:56.937><c>The</c>
+
+00:02:57.140 --> 00:02:57.150 align:start position:0%
+informative objective, and so on with each website. The
+ 
+
+00:02:57.150 --> 00:02:58.729 align:start position:0%
+informative objective, and so on with each website. The
+first <00:02:57.321><c>thing </c><00:02:57.492><c>we </c><00:02:57.663><c>have </c><00:02:57.834><c>to </c><00:02:58.005><c>do </c><00:02:58.176><c>is </c><00:02:58.347><c>define</c>
+
+00:02:58.729 --> 00:02:58.739 align:start position:0%
+first thing we have to do is define
+ 
+
+00:02:58.739 --> 00:03:01.670 align:start position:0%
+first thing we have to do is define
+a <00:02:59.699><c>website </c><00:03:00.659><c>type. </c><00:03:01.619><c>In</c>
+
+00:03:01.670 --> 00:03:01.680 align:start position:0%
+a website type. In
+ 
+
+00:03:01.680 --> 00:03:03.320 align:start position:0%
+a website type. In
+this <00:03:01.890><c>case, </c><00:03:02.100><c>let's </c><00:03:02.310><c>suppose </c><00:03:02.520><c>we </c><00:03:02.730><c>want </c><00:03:02.940><c>to </c><00:03:03.150><c>create</c>
+
+00:03:03.320 --> 00:03:03.330 align:start position:0%
+this case, let's suppose we want to create
+ 
+
+00:03:03.330 --> 00:03:04.910 align:start position:0%
+this case, let's suppose we want to create
+a <00:03:03.564><c>landing </c><00:03:03.798><c>page. </c><00:03:04.032><c>The </c><00:03:04.266><c>objective </c><00:03:04.500><c>is </c><00:03:04.734><c>to</c>
+
+00:03:04.910 --> 00:03:04.920 align:start position:0%
+a landing page. The objective is to
+ 
+
+00:03:04.920 --> 00:03:06.650 align:start position:0%
+a landing page. The objective is to
+convert; <00:03:05.155><c>the </c><00:03:05.390><c>objective </c><00:03:05.625><c>is </c><00:03:05.860><c>to </c><00:03:06.095><c>ensure </c><00:03:06.330><c>that </c><00:03:06.565><c>the</c>
+
+00:03:06.650 --> 00:03:06.660 align:start position:0%
+convert; the objective is to ensure that the
+ 
+
+00:03:06.660 --> 00:03:09.020 align:start position:0%
+convert; the objective is to ensure that the
+person <00:03:06.964><c>who </c><00:03:07.268><c>enters </c><00:03:07.572><c>doesn't </c><00:03:07.876><c>leave </c><00:03:08.180><c>without </c><00:03:08.484><c>having </c><00:03:08.788><c>taken</c>
+
+00:03:09.020 --> 00:03:09.030 align:start position:0%
+person who enters doesn't leave without having taken
+ 
+
+00:03:09.030 --> 00:03:10.880 align:start position:0%
+person who enters doesn't leave without having taken
+the <00:03:09.274><c>action </c><00:03:09.518><c>we </c><00:03:09.762><c>want </c><00:03:10.006><c>them </c><00:03:10.250><c>to </c><00:03:10.494><c>take. </c><00:03:10.738><c>For</c>
+
+00:03:10.880 --> 00:03:10.890 align:start position:0%
+the action we want them to take. For
+ 
+
+00:03:10.890 --> 00:03:12.710 align:start position:0%
+the action we want them to take. For
+example, <00:03:11.317><c>they </c><00:03:11.744><c>might </c><00:03:12.171><c>buy </c><00:03:12.598><c>a</c>
+
+00:03:12.710 --> 00:03:12.720 align:start position:0%
+example, they might buy a
+ 
+
+00:03:12.720 --> 00:03:14.570 align:start position:0%
+example, they might buy a
+product, <00:03:12.967><c>acquire </c><00:03:13.214><c>a </c><00:03:13.461><c>subscription, </c><00:03:13.708><c>or</c>
+
+00:03:14.570 --> 00:03:14.580 align:start position:0%
+product, acquire a subscription, or
+ 
+
+00:03:14.580 --> 00:03:17.390 align:start position:0%
+product, acquire a subscription, or
+even <00:03:15.045><c>leave </c><00:03:15.510><c>their </c><00:03:15.975><c>completed </c><00:03:16.440><c>form</c>
+
+00:03:17.390 --> 00:03:17.400 align:start position:0%
+even leave their completed form
+ 
+
+00:03:17.400 --> 00:03:19.760 align:start position:0%
+even leave their completed form
+with <00:03:17.802><c>all </c><00:03:18.204><c>the </c><00:03:18.606><c>data </c><00:03:19.008><c>that </c><00:03:19.410><c>counts</c>
+
+00:03:19.760 --> 00:03:19.770 align:start position:0%
+with all the data that counts
+ 
+
+00:03:19.770 --> 00:03:21.500 align:start position:0%
+with all the data that counts
+as <00:03:19.975><c>an </c><00:03:20.180><c>action. </c><00:03:20.385><c>This </c><00:03:20.590><c>is </c><00:03:20.795><c>super </c><00:03:21.000><c>important</c>
+
+00:03:21.500 --> 00:03:21.510 align:start position:0%
+as an action. This is super important
+ 
+
+00:03:21.510 --> 00:03:23.960 align:start position:0%
+as an action. This is super important
+because <00:03:21.731><c>it </c><00:03:21.952><c>defines </c><00:03:22.173><c>everything. </c><00:03:22.394><c>Without </c><00:03:22.615><c>an </c><00:03:22.836><c>objective, </c><00:03:23.057><c>we </c><00:03:23.278><c>can't</c>
+
+00:03:23.960 --> 00:03:23.970 align:start position:0%
+because it defines everything. Without an objective, we can't
+ 
+
+00:03:23.970 --> 00:03:26.000 align:start position:0%
+because it defines everything. Without an objective, we can't
+know <00:03:24.292><c>anything </c><00:03:24.614><c>about </c><00:03:24.936><c>the </c><00:03:25.258><c>following:</c>
+
+00:03:26.000 --> 00:03:26.010 align:start position:0%
+know anything about the following:
+ 
+
+00:03:26.010 --> 00:03:27.740 align:start position:0%
+know anything about the following:
+defining <00:03:26.286><c>the </c><00:03:26.562><c>functionalities </c><00:03:26.838><c>of </c><00:03:27.114><c>the </c><00:03:27.390><c>page.</c>
+
+00:03:27.740 --> 00:03:27.750 align:start position:0%
+defining the functionalities of the page.
+ 
+
+00:03:27.750 --> 00:03:29.420 align:start position:0%
+defining the functionalities of the page.
+A <00:03:28.087><c>page </c><00:03:28.424><c>has </c><00:03:28.761><c>functionalities; </c><00:03:29.098><c>for</c>
+
+00:03:29.420 --> 00:03:29.430 align:start position:0%
+A page has functionalities; for
+ 
+
+00:03:29.430 --> 00:03:31.190 align:start position:0%
+A page has functionalities; for
+example, <00:03:29.610><c>we </c><00:03:29.790><c>want </c><00:03:29.970><c>the </c><00:03:30.150><c>user </c><00:03:30.330><c>to </c><00:03:30.510><c>be</c>
+
+00:03:31.190 --> 00:03:31.200 align:start position:0%
+example, we want the user to be
+ 
+
+00:03:31.200 --> 00:03:32.870 align:start position:0%
+example, we want the user to be
+able <00:03:31.935><c>to </c><00:03:32.670><c>buy,</c>
+
+00:03:32.870 --> 00:03:32.880 align:start position:0%
+able to buy,
+ 
+
+00:03:32.880 --> 00:03:34.580 align:start position:0%
+able to buy,
+integrate <00:03:33.255><c>with </c><00:03:33.630><c>payment </c><00:03:34.005><c>methods, </c><00:03:34.380><c>for</c>
+
+00:03:34.580 --> 00:03:34.590 align:start position:0%
+integrate with payment methods, for
+ 
+
+00:03:34.590 --> 00:03:36.020 align:start position:0%
+integrate with payment methods, for
+example, <00:03:34.713><c>we </c><00:03:34.836><c>want </c><00:03:34.959><c>the </c><00:03:35.082><c>user </c><00:03:35.205><c>to </c><00:03:35.328><c>be </c><00:03:35.451><c>able </c><00:03:35.574><c>to</c>
+
+00:03:36.020 --> 00:03:36.030 align:start position:0%
+example, we want the user to be able to
+ 
+
+00:03:36.030 --> 00:03:37.640 align:start position:0%
+example, we want the user to be able to
+pay <00:03:36.530><c>with </c><00:03:37.030><c>PayPal </c><00:03:37.530><c>or</c>
+
+00:03:37.640 --> 00:03:37.650 align:start position:0%
+pay with PayPal or
+ 
+
+00:03:37.650 --> 00:03:39.620 align:start position:0%
+pay with PayPal or
+Mercado <00:03:37.962><c>Pago, </c><00:03:38.274><c>or...  </c><00:03:38.586><c>With </c><00:03:38.898><c>credit </c><00:03:39.210><c>or</c>
+
+00:03:39.620 --> 00:03:39.630 align:start position:0%
+Mercado Pago, or...  With credit or
+ 
+
+00:03:39.630 --> 00:03:41.270 align:start position:0%
+Mercado Pago, or...  With credit or
+debit <00:03:39.870><c>cards, </c><00:03:40.110><c>this </c><00:03:40.350><c>is </c><00:03:40.590><c>a </c><00:03:40.830><c>feature </c><00:03:41.070><c>we</c>
+
+00:03:41.270 --> 00:03:41.280 align:start position:0%
+debit cards, this is a feature we
+ 
+
+00:03:41.280 --> 00:03:42.410 align:start position:0%
+debit cards, this is a feature we
+also <00:03:41.520><c>need </c><00:03:41.760><c>to </c><00:03:42.000><c>consider.</c>
+
+00:03:42.410 --> 00:03:42.420 align:start position:0%
+also need to consider.
+ 
+
+00:03:42.420 --> 00:03:44.210 align:start position:0%
+also need to consider.
+We <00:03:42.712><c>want </c><00:03:43.004><c>users </c><00:03:43.296><c>to </c><00:03:43.588><c>leave</c>
+
+00:03:44.210 --> 00:03:44.220 align:start position:0%
+We want users to leave
+ 
+
+00:03:44.220 --> 00:03:46.580 align:start position:0%
+We want users to leave
+their <00:03:44.540><c>information </c><00:03:44.860><c>so </c><00:03:45.180><c>we </c><00:03:45.500><c>can </c><00:03:45.820><c>use </c><00:03:46.140><c>email</c>
+
+00:03:46.580 --> 00:03:46.590 align:start position:0%
+their information so we can use email
+ 
+
+00:03:46.590 --> 00:03:47.930 align:start position:0%
+their information so we can use email
+marketing <00:03:46.882><c>later, </c><00:03:47.174><c>if </c><00:03:47.466><c>necessary, </c><00:03:47.758><c>for</c>
+
+00:03:47.930 --> 00:03:49.820 align:start position:0%
+marketing later, if necessary, for
+ 
+
+00:03:49.820 --> 00:03:49.830 align:start position:0%
+ 
+ 
+
+00:03:49.830 --> 00:03:51.770 align:start position:0%
+ 
+remarketing <00:03:50.350><c>purposes, </c><00:03:50.870><c>to </c><00:03:51.390><c>retain</c>
+
+00:03:51.770 --> 00:03:51.780 align:start position:0%
+remarketing purposes, to retain
+ 
+
+00:03:51.780 --> 00:03:53.120 align:start position:0%
+remarketing purposes, to retain
+customers <00:03:52.095><c>or </c><00:03:52.410><c>even </c><00:03:52.725><c>provide </c><00:03:53.040><c>a</c>
+
+00:03:53.120 --> 00:03:53.130 align:start position:0%
+customers or even provide a
+ 
+
+00:03:53.130 --> 00:03:54.410 align:start position:0%
+customers or even provide a
+better <00:03:53.415><c>user </c><00:03:53.700><c>experience, </c><00:03:53.985><c>among </c><00:03:54.270><c>other</c>
+
+00:03:54.410 --> 00:03:54.420 align:start position:0%
+better user experience, among other
+ 
+
+00:03:54.420 --> 00:03:56.060 align:start position:0%
+better user experience, among other
+reasons. <00:03:54.870><c>So, </c><00:03:55.320><c>it's </c><00:03:55.770><c>super</c>
+
+00:03:56.060 --> 00:03:56.070 align:start position:0%
+reasons. So, it's super
+ 
+
+00:03:56.070 --> 00:03:57.680 align:start position:0%
+reasons. So, it's super
+important <00:03:56.445><c>to </c><00:03:56.820><c>define </c><00:03:57.195><c>all </c><00:03:57.570><c>the</c>
+
+00:03:57.680 --> 00:03:57.690 align:start position:0%
+important to define all the
+ 
+
+00:03:57.690 --> 00:03:58.940 align:start position:0%
+important to define all the
+features <00:03:57.967><c>our </c><00:03:58.244><c>website </c><00:03:58.521><c>will </c><00:03:58.798><c>have.</c>
+
+00:03:58.940 --> 00:03:58.950 align:start position:0%
+features our website will have.
+ 
+
+00:03:58.950 --> 00:04:00.620 align:start position:0%
+features our website will have.
+Once <00:03:59.420><c>we </c><00:03:59.890><c>have </c><00:04:00.360><c>the</c>
+
+00:04:00.620 --> 00:04:00.630 align:start position:0%
+Once we have the
+ 
+
+00:04:00.630 --> 00:04:02.870 align:start position:0%
+Once we have the
+features <00:04:01.560><c>well-defined, </c><00:04:02.490><c>we</c>
+
+00:04:02.870 --> 00:04:02.880 align:start position:0%
+features well-defined, we
+ 
+
+00:04:02.880 --> 00:04:04.130 align:start position:0%
+features well-defined, we
+can <00:04:03.025><c>move </c><00:04:03.170><c>on </c><00:04:03.315><c>to </c><00:04:03.460><c>the </c><00:04:03.605><c>next </c><00:04:03.750><c>steps.</c>
+
+00:04:04.130 --> 00:04:04.140 align:start position:0%
+can move on to the next steps.
+ 
+
+00:04:04.140 --> 00:04:05.600 align:start position:0%
+can move on to the next steps.
+But <00:04:04.610><c>the </c><00:04:05.080><c>features </c><00:04:05.550><c>must</c>
+
+00:04:05.600 --> 00:04:05.610 align:start position:0%
+But the features must
+ 
+
+00:04:05.610 --> 00:04:06.890 align:start position:0%
+But the features must
+always
+
+00:04:06.890 --> 00:04:06.900 align:start position:0%
+always
+ 
+
+00:04:06.900 --> 00:04:08.690 align:start position:0%
+always
+be <00:04:07.134><c>defined </c><00:04:07.368><c>by </c><00:04:07.602><c>what </c><00:04:07.836><c>converts </c><00:04:08.070><c>best</c>
+
+00:04:08.690 --> 00:04:08.700 align:start position:0%
+be defined by what converts best
+ 
+
+00:04:08.700 --> 00:04:10.970 align:start position:0%
+be defined by what converts best
+and <00:04:09.084><c>combined </c><00:04:09.468><c>with </c><00:04:09.852><c>professionalism. </c><00:04:10.236><c>That </c><00:04:10.620><c>is,</c>
+
+00:04:10.970 --> 00:04:10.980 align:start position:0%
+and combined with professionalism. That is,
+ 
+
+00:04:10.980 --> 00:04:13.550 align:start position:0%
+and combined with professionalism. That is,
+if <00:04:11.475><c>a </c><00:04:11.970><c>landing </c><00:04:12.465><c>page </c><00:04:12.960><c>has</c>
+
+00:04:13.550 --> 00:04:13.560 align:start position:0%
+if a landing page has
+ 
+
+00:04:13.560 --> 00:04:14.840 align:start position:0%
+if a landing page has
+features <00:04:14.760><c>that</c>
+
+00:04:14.840 --> 00:04:14.850 align:start position:0%
+features that
+ 
+
+00:04:14.850 --> 00:04:16.670 align:start position:0%
+features that
+convert <00:04:15.063><c>best, </c><00:04:15.276><c>we </c><00:04:15.489><c>should </c><00:04:15.702><c>focus </c><00:04:15.915><c>on </c><00:04:16.128><c>those. </c><00:04:16.341><c>We </c><00:04:16.554><c>shouldn't</c>
+
+00:04:16.670 --> 00:04:16.680 align:start position:0%
+convert best, we should focus on those. We shouldn't
+ 
+
+00:04:16.680 --> 00:04:18.470 align:start position:0%
+convert best, we should focus on those. We shouldn't
+do <00:04:17.069><c>whatever </c><00:04:17.458><c>we </c><00:04:17.847><c>want. </c><00:04:18.236><c>A</c>
+
+00:04:18.470 --> 00:04:18.480 align:start position:0%
+do whatever we want. A
+ 
+
+00:04:18.480 --> 00:04:20.539 align:start position:0%
+do whatever we want. A
+good <00:04:18.967><c>website </c><00:04:19.454><c>isn't </c><00:04:19.941><c>one </c><00:04:20.428><c>we</c>
+
+00:04:20.539 --> 00:04:20.549 align:start position:0%
+good website isn't one we
+ 
+
+00:04:20.549 --> 00:04:22.550 align:start position:0%
+good website isn't one we
+create <00:04:20.989><c>simply </c><00:04:21.429><c>because </c><00:04:21.869><c>we</c>
+
+00:04:22.550 --> 00:04:22.560 align:start position:0%
+create simply because we
+ 
+
+00:04:22.560 --> 00:04:24.260 align:start position:0%
+create simply because we
+think <00:04:22.730><c>it </c><00:04:22.900><c>should </c><00:04:23.070><c>be </c><00:04:23.240><c>that </c><00:04:23.410><c>way </c><00:04:23.580><c>or </c><00:04:23.750><c>because </c><00:04:23.920><c>we </c><00:04:24.090><c>have</c>
+
+00:04:24.260 --> 00:04:24.270 align:start position:0%
+think it should be that way or because we have
+ 
+
+00:04:24.270 --> 00:04:26.249 align:start position:0%
+think it should be that way or because we have
+experience. <00:04:24.638><c>A </c><00:04:25.006><c>good </c><00:04:25.374><c>website </c><00:04:25.742><c>is </c><00:04:26.110><c>one</c>
+
+00:04:26.249 --> 00:04:26.259 align:start position:0%
+experience. A good website is one
+ 
+
+00:04:26.259 --> 00:04:28.590 align:start position:0%
+experience. A good website is one
+that <00:04:26.799><c>is </c><00:04:27.339><c>optimized </c><00:04:27.879><c>so </c><00:04:28.419><c>that</c>
+
+00:04:28.590 --> 00:04:28.600 align:start position:0%
+that is optimized so that
+ 
+
+00:04:28.600 --> 00:04:30.390 align:start position:0%
+that is optimized so that
+customers <00:04:28.937><c>behave </c><00:04:29.274><c>in </c><00:04:29.611><c>a </c><00:04:29.948><c>way</c>
+
+00:04:30.390 --> 00:04:30.400 align:start position:0%
+customers behave in a way
+ 
+
+00:04:30.400 --> 00:04:31.860 align:start position:0%
+customers behave in a way
+that <00:04:30.730><c>fulfills </c><00:04:31.060><c>the </c><00:04:31.390><c>objective </c><00:04:31.720><c>we</c>
+
+00:04:31.860 --> 00:04:31.870 align:start position:0%
+that fulfills the objective we
+ 
+
+00:04:31.870 --> 00:04:33.629 align:start position:0%
+that fulfills the objective we
+set <00:04:32.176><c>at </c><00:04:32.482><c>the </c><00:04:32.788><c>beginning. </c><00:04:33.094><c>A </c><00:04:33.400><c>good</c>
+
+00:04:33.629 --> 00:04:33.639 align:start position:0%
+set at the beginning. A good
+ 
+
+00:04:33.639 --> 00:04:35.610 align:start position:0%
+set at the beginning. A good
+website <00:04:33.987><c>isn't </c><00:04:34.335><c>necessarily </c><00:04:34.683><c>the </c><00:04:35.031><c>prettiest; </c><00:04:35.379><c>our</c>
+
+00:04:35.610 --> 00:04:35.620 align:start position:0%
+website isn't necessarily the prettiest; our
+ 
+
+00:04:35.620 --> 00:04:37.200 align:start position:0%
+website isn't necessarily the prettiest; our
+objective <00:04:35.790><c>is </c><00:04:35.960><c>to </c><00:04:36.130><c>sell. </c><00:04:36.300><c>A </c><00:04:36.470><c>good </c><00:04:36.640><c>website </c><00:04:36.810><c>is </c><00:04:36.980><c>one </c><00:04:37.150><c>that</c>
+
+00:04:37.200 --> 00:04:37.210 align:start position:0%
+objective is to sell. A good website is one that
+ 
+
+00:04:37.210 --> 00:04:39.029 align:start position:0%
+objective is to sell. A good website is one that
+is <00:04:37.377><c>optimized.  </c><00:04:37.544><c>At </c><00:04:37.711><c>each </c><00:04:37.878><c>point, </c><00:04:38.045><c>not </c><00:04:38.212><c>so </c><00:04:38.379><c>that </c><00:04:38.546><c>it's </c><00:04:38.713><c>not, </c><00:04:38.880><c>let's</c>
+
+00:04:39.029 --> 00:04:39.039 align:start position:0%
+is optimized.  At each point, not so that it's not, let's
+ 
+
+00:04:39.039 --> 00:04:41.070 align:start position:0%
+is optimized.  At each point, not so that it's not, let's
+say, <00:04:40.840><c>a</c>
+
+00:04:41.070 --> 00:04:41.080 align:start position:0%
+say, a
+ 
+
+00:04:41.080 --> 00:04:42.719 align:start position:0%
+say, a
+website <00:04:41.271><c>with </c><00:04:41.462><c>meaning, </c><00:04:41.653><c>there </c><00:04:41.844><c>are </c><00:04:42.035><c>things </c><00:04:42.226><c>that </c><00:04:42.417><c>don't </c><00:04:42.608><c>make</c>
+
+00:04:42.719 --> 00:04:42.729 align:start position:0%
+website with meaning, there are things that don't make
+ 
+
+00:04:42.729 --> 00:04:44.279 align:start position:0%
+website with meaning, there are things that don't make
+sense, <00:04:43.023><c>yet </c><00:04:43.317><c>they </c><00:04:43.611><c>help </c><00:04:43.905><c>us </c><00:04:44.199><c>achieve</c>
+
+00:04:44.279 --> 00:04:44.289 align:start position:0%
+sense, yet they help us achieve
+ 
+
+00:04:44.289 --> 00:04:45.689 align:start position:0%
+sense, yet they help us achieve
+our <00:04:45.160><c>objective.</c>
+
+00:04:45.689 --> 00:04:45.699 align:start position:0%
+our objective.
+ 
+
+00:04:45.699 --> 00:04:47.610 align:start position:0%
+our objective.
+Specific <00:04:45.987><c>words, </c><00:04:46.275><c>specific </c><00:04:46.563><c>positions </c><00:04:46.851><c>of </c><00:04:47.139><c>elements—</c>
+
+00:04:47.610 --> 00:04:47.620 align:start position:0%
+Specific words, specific positions of elements—
+ 
+
+00:04:47.620 --> 00:04:49.710 align:start position:0%
+Specific words, specific positions of elements—
+that's <00:04:48.025><c>what </c><00:04:48.430><c>brings </c><00:04:48.835><c>us </c><00:04:49.240><c>closer</c>
+
+00:04:49.710 --> 00:04:49.720 align:start position:0%
+that's what brings us closer
+ 
+
+00:04:49.720 --> 00:04:50.760 align:start position:0%
+that's what brings us closer
+to <00:04:49.906><c>achieving </c><00:04:50.092><c>our </c><00:04:50.278><c>goal. </c><00:04:50.464><c>These </c><00:04:50.650><c>are</c>
+
+00:04:50.760 --> 00:04:50.770 align:start position:0%
+to achieving our goal. These are
+ 
+
+00:04:50.770 --> 00:04:52.409 align:start position:0%
+to achieving our goal. These are
+things <00:04:51.160><c>we </c><00:04:51.550><c>can </c><00:04:51.940><c>extract </c><00:04:52.330><c>from</c>
+
+00:04:52.409 --> 00:04:52.419 align:start position:0%
+things we can extract from
+ 
+
+00:04:52.419 --> 00:04:54.719 align:start position:0%
+things we can extract from
+statistics. <00:04:52.797><c>For </c><00:04:53.175><c>example, </c><00:04:53.553><c>in </c><00:04:53.931><c>each </c><00:04:54.309><c>country,</c>
+
+00:04:54.719 --> 00:04:54.729 align:start position:0%
+statistics. For example, in each country,
+ 
+
+00:04:54.729 --> 00:04:56.189 align:start position:0%
+statistics. For example, in each country,
+companies <00:04:55.109><c>use </c><00:04:55.489><c>different </c><00:04:55.869><c>words.</c>
+
+00:04:56.189 --> 00:04:56.199 align:start position:0%
+companies use different words.
+ 
+
+00:04:56.199 --> 00:04:58.460 align:start position:0%
+companies use different words.
+For <00:04:56.595><c>instance, </c><00:04:56.991><c>maybe </c><00:04:57.387><c>in </c><00:04:57.783><c>one </c><00:04:58.179><c>country</c>
+
+00:04:58.460 --> 00:04:58.470 align:start position:0%
+For instance, maybe in one country
+ 
+
+00:04:58.470 --> 00:05:01.200 align:start position:0%
+For instance, maybe in one country
+they <00:04:58.822><c>use </c><00:04:59.174><c>the </c><00:04:59.526><c>word </c><00:04:59.878><c>"opten," </c><00:05:00.230><c>in </c><00:05:00.582><c>another </c><00:05:00.934><c>country</c>
+
+00:05:01.200 --> 00:05:01.210 align:start position:0%
+they use the word "opten," in another country
+ 
+
+00:05:01.210 --> 00:05:03.659 align:start position:0%
+they use the word "opten," in another country
+they <00:05:01.544><c>use </c><00:05:01.878><c>the </c><00:05:02.212><c>word </c><00:05:02.546><c>"acquire," </c><00:05:02.880><c>and </c><00:05:03.214><c>so </c><00:05:03.548><c>on.</c>
+
+00:05:03.659 --> 00:05:03.669 align:start position:0%
+they use the word "acquire," and so on.
+ 
+
+00:05:03.669 --> 00:05:05.430 align:start position:0%
+they use the word "acquire," and so on.
+And <00:05:03.917><c>the </c><00:05:04.165><c>first </c><00:05:04.413><c>one </c><00:05:04.661><c>creates </c><00:05:04.909><c>that, </c><00:05:05.157><c>which </c><00:05:05.405><c>helps</c>
+
+00:05:05.430 --> 00:05:05.440 align:start position:0%
+And the first one creates that, which helps
+ 
+
+00:05:05.440 --> 00:05:07.560 align:start position:0%
+And the first one creates that, which helps
+share <00:05:05.829><c>more. </c><00:05:06.218><c>So, </c><00:05:06.607><c>if </c><00:05:06.996><c>I'm </c><00:05:07.385><c>in</c>
+
+00:05:07.560 --> 00:05:07.570 align:start position:0%
+share more. So, if I'm in
+ 
+
+00:05:07.570 --> 00:05:10.110 align:start position:0%
+share more. So, if I'm in
+Mexico <00:05:07.816><c>and </c><00:05:08.062><c>I </c><00:05:08.308><c>read </c><00:05:08.554><c>"acquire," </c><00:05:08.800><c>I </c><00:05:09.046><c>like </c><00:05:09.292><c>it </c><00:05:09.538><c>more </c><00:05:09.784><c>than </c><00:05:10.030><c>"</c>
+
+00:05:10.110 --> 00:05:10.120 align:start position:0%
+Mexico and I read "acquire," I like it more than "
+ 
+
+00:05:10.120 --> 00:05:11.730 align:start position:0%
+Mexico and I read "acquire," I like it more than "
+obtain," <00:05:10.378><c>but </c><00:05:10.636><c>it </c><00:05:10.894><c>converts </c><00:05:11.152><c>more. </c><00:05:11.410><c>So</c>
+
+00:05:11.730 --> 00:05:11.740 align:start position:0%
+obtain," but it converts more. So
+ 
+
+00:05:11.740 --> 00:05:13.020 align:start position:0%
+obtain," but it converts more. So
+sometimes <00:05:11.935><c>it's </c><00:05:12.130><c>not </c><00:05:12.325><c>the </c><00:05:12.520><c>best, </c><00:05:12.715><c>but </c><00:05:12.910><c>what</c>
+
+00:05:13.020 --> 00:05:13.030 align:start position:0%
+sometimes it's not the best, but what
+ 
+
+00:05:13.030 --> 00:05:14.760 align:start position:0%
+sometimes it's not the best, but what
+converts <00:05:13.171><c>the </c><00:05:13.312><c>most. </c><00:05:13.453><c>This </c><00:05:13.594><c>is </c><00:05:13.735><c>super </c><00:05:13.876><c>important </c><00:05:14.017><c>to </c><00:05:14.158><c>keep </c><00:05:14.299><c>in </c><00:05:14.440><c>mind.</c>
+
+00:05:14.760 --> 00:05:14.770 align:start position:0%
+converts the most. This is super important to keep in mind.
+ 
+
+00:05:14.770 --> 00:05:16.529 align:start position:0%
+converts the most. This is super important to keep in mind.
+Now <00:05:15.160><c>let's </c><00:05:15.550><c>move </c><00:05:15.940><c>on </c><00:05:16.330><c>to</c>
+
+00:05:16.529 --> 00:05:16.539 align:start position:0%
+Now let's move on to
+ 
+
+00:05:16.539 --> 00:05:18.360 align:start position:0%
+Now let's move on to
+the <00:05:16.736><c>next </c><00:05:16.933><c>ones: </c><00:05:17.130><c>the </c><00:05:17.327><c>carrizal, </c><00:05:17.524><c>the </c><00:05:17.721><c>dad, </c><00:05:17.918><c>the</c>
+
+00:05:18.360 --> 00:05:18.370 align:start position:0%
+the next ones: the carrizal, the dad, the
+ 
+
+00:05:18.370 --> 00:05:20.129 align:start position:0%
+the next ones: the carrizal, the dad, the
+keyboard <00:05:18.850><c>research, </c><00:05:19.330><c>which</c>
+
+00:05:20.129 --> 00:05:20.139 align:start position:0%
+keyboard research, which
+ 
+
+00:05:20.139 --> 00:05:21.659 align:start position:0%
+keyboard research, which
+is <00:05:20.374><c>abbreviated </c><00:05:20.609><c>here </c><00:05:20.844><c>as </c><00:05:21.079><c>double </c><00:05:21.314><c>event </c><00:05:21.549><c>research.</c>
+
+00:05:21.659 --> 00:05:21.669 align:start position:0%
+is abbreviated here as double event research.
+ 
+
+00:05:21.669 --> 00:05:23.430 align:start position:0%
+is abbreviated here as double event research.
+Basically, <00:05:22.074><c>it's </c><00:05:22.479><c>a </c><00:05:22.884><c>search </c><00:05:23.289><c>for</c>
+
+00:05:23.430 --> 00:05:23.440 align:start position:0%
+Basically, it's a search for
+ 
+
+00:05:23.440 --> 00:05:26.040 align:start position:0%
+Basically, it's a search for
+keywords <00:05:24.047><c>that </c><00:05:24.654><c>will </c><00:05:25.261><c>allow </c><00:05:25.868><c>our</c>
+
+00:05:26.040 --> 00:05:26.050 align:start position:0%
+keywords that will allow our
+ 
+
+00:05:26.050 --> 00:05:28.110 align:start position:0%
+keywords that will allow our
+website <00:05:26.552><c>to </c><00:05:27.054><c>appear </c><00:05:27.556><c>correctly </c><00:05:28.058><c>in</c>
+
+00:05:28.110 --> 00:05:28.120 align:start position:0%
+website to appear correctly in
+ 
+
+00:05:28.120 --> 00:05:30.149 align:start position:0%
+website to appear correctly in
+search <00:05:28.342><c>engines </c><00:05:28.564><c>because </c><00:05:28.786><c>that's </c><00:05:29.008><c>what </c><00:05:29.230><c>it's </c><00:05:29.452><c>about: </c><00:05:29.674><c>doing</c>
+
+00:05:30.149 --> 00:05:30.159 align:start position:0%
+search engines because that's what it's about: doing
+ 
+
+00:05:30.159 --> 00:05:32.610 align:start position:0%
+search engines because that's what it's about: doing
+a <00:05:30.561><c>search </c><00:05:30.963><c>for </c><00:05:31.365><c>all </c><00:05:31.767><c>the </c><00:05:32.169><c>keywords</c>
+
+00:05:32.610 --> 00:05:32.620 align:start position:0%
+a search for all the keywords
+ 
+
+00:05:32.620 --> 00:05:34.620 align:start position:0%
+a search for all the keywords
+that <00:05:32.894><c>we're </c><00:05:33.168><c>going </c><00:05:33.442><c>to </c><00:05:33.716><c>have </c><00:05:33.990><c>to </c><00:05:34.264><c>use </c><00:05:34.538><c>on</c>
+
+00:05:34.620 --> 00:05:34.630 align:start position:0%
+that we're going to have to use on
+ 
+
+00:05:34.630 --> 00:05:36.480 align:start position:0%
+that we're going to have to use on
+our <00:05:34.948><c>website. </c><00:05:35.266><c>For </c><00:05:35.584><c>example, </c><00:05:35.902><c>in </c><00:05:36.220><c>our</c>
+
+00:05:36.480 --> 00:05:36.490 align:start position:0%
+our website. For example, in our
+ 
+
+00:05:36.490 --> 00:05:38.520 align:start position:0%
+our website. For example, in our
+objective <00:05:36.734><c>of </c><00:05:36.978><c>selling </c><00:05:37.222><c>furniture, </c><00:05:37.466><c>okay, </c><00:05:37.710><c>we </c><00:05:37.954><c>have </c><00:05:38.198><c>to</c>
+
+00:05:38.520 --> 00:05:38.530 align:start position:0%
+objective of selling furniture, okay, we have to
+ 
+
+00:05:38.530 --> 00:05:40.380 align:start position:0%
+objective of selling furniture, okay, we have to
+learn <00:05:38.800><c>to </c><00:05:39.070><c>use </c><00:05:39.340><c>a </c><00:05:39.610><c>word </c><00:05:39.880><c>search </c><00:05:40.150><c>engine</c>
+
+00:05:40.380 --> 00:05:40.390 align:start position:0%
+learn to use a word search engine
+ 
+
+00:05:40.390 --> 00:05:42.930 align:start position:0%
+learn to use a word search engine
+with <00:05:40.828><c>many </c><00:05:41.266><c>words </c><00:05:41.704><c>that...  </c><00:05:42.142><c>Associated </c><00:05:42.580><c>with</c>
+
+00:05:42.930 --> 00:05:42.940 align:start position:0%
+with many words that...  Associated with
+ 
+
+00:05:42.940 --> 00:05:44.280 align:start position:0%
+with many words that...  Associated with
+furniture, <00:05:43.198><c>there </c><00:05:43.456><c>are </c><00:05:43.714><c>tools </c><00:05:43.972><c>like </c><00:05:44.230><c>the</c>
+
+00:05:44.280 --> 00:05:44.290 align:start position:0%
+furniture, there are tools like the
+ 
+
+00:05:44.290 --> 00:05:45.720 align:start position:0%
+furniture, there are tools like the
+keyword <00:05:44.890><c>planner </c><00:05:45.490><c>or</c>
+
+00:05:45.720 --> 00:05:45.730 align:start position:0%
+keyword planner or
+ 
+
+00:05:45.730 --> 00:05:47.070 align:start position:0%
+keyword planner or
+Google's <00:05:46.360><c>suggestions </c><00:05:46.990><c>where</c>
+
+00:05:47.070 --> 00:05:47.080 align:start position:0%
+Google's suggestions where
+ 
+
+00:05:47.080 --> 00:05:48.930 align:start position:0%
+Google's suggestions where
+we <00:05:47.462><c>can </c><00:05:47.844><c>add </c><00:05:48.226><c>search </c><00:05:48.608><c>operators</c>
+
+00:05:48.930 --> 00:05:48.940 align:start position:0%
+we can add search operators
+ 
+
+00:05:48.940 --> 00:05:50.610 align:start position:0%
+we can add search operators
+like <00:05:49.252><c>the </c><00:05:49.564><c>asterisk </c><00:05:49.876><c>(*) </c><00:05:50.188><c>or </c><00:05:50.500><c>the</c>
+
+00:05:50.610 --> 00:05:50.620 align:start position:0%
+like the asterisk (*) or the
+ 
+
+00:05:50.620 --> 00:05:51.780 align:start position:0%
+like the asterisk (*) or the
+best <00:05:50.800><c>ones </c><00:05:50.980><c>for </c><00:05:51.160><c>certain </c><00:05:51.340><c>types </c><00:05:51.520><c>of</c>
+
+00:05:51.780 --> 00:05:51.790 align:start position:0%
+best ones for certain types of
+ 
+
+00:05:51.790 --> 00:05:54.030 align:start position:0%
+best ones for certain types of
+searches. <00:05:52.090><c>This </c><00:05:52.390><c>allows </c><00:05:52.690><c>us </c><00:05:52.990><c>to </c><00:05:53.290><c>see </c><00:05:53.590><c>which</c>
+
+00:05:54.030 --> 00:05:54.040 align:start position:0%
+searches. This allows us to see which
+ 
+
+00:05:54.040 --> 00:05:54.960 align:start position:0%
+searches. This allows us to see which
+words <00:05:54.320><c>we </c><00:05:54.600><c>need </c><00:05:54.880><c>to</c>
+
+00:05:54.960 --> 00:05:54.970 align:start position:0%
+words we need to
+ 
+
+00:05:54.970 --> 00:05:56.250 align:start position:0%
+words we need to
+use <00:05:55.360><c>to </c><00:05:55.750><c>rank</c>
+
+00:05:56.250 --> 00:05:56.260 align:start position:0%
+use to rank
+ 
+
+00:05:56.260 --> 00:05:57.930 align:start position:0%
+use to rank
+correctly. <00:05:56.730><c>Once </c><00:05:57.200><c>we </c><00:05:57.670><c>have</c>
+
+00:05:57.930 --> 00:05:57.940 align:start position:0%
+correctly. Once we have
+ 
+
+00:05:57.940 --> 00:05:59.730 align:start position:0%
+correctly. Once we have
+the <00:05:58.228><c>entire </c><00:05:58.516><c>list </c><00:05:58.804><c>of </c><00:05:59.092><c>words, </c><00:05:59.380><c>we</c>
+
+00:05:59.730 --> 00:05:59.740 align:start position:0%
+the entire list of words, we
+ 
+
+00:05:59.740 --> 00:06:02.460 align:start position:0%
+the entire list of words, we
+order <00:06:00.130><c>them </c><00:06:00.520><c>from </c><00:06:00.910><c>highest </c><00:06:01.300><c>to </c><00:06:01.690><c>lowest</c>
+
+00:06:02.460 --> 00:06:02.470 align:start position:0%
+order them from highest to lowest
+ 
+
+00:06:02.470 --> 00:06:04.110 align:start position:0%
+order them from highest to lowest
+priority. <00:06:02.822><c>Some </c><00:06:03.174><c>words </c><00:06:03.526><c>will </c><00:06:03.878><c>carry</c>
+
+00:06:04.110 --> 00:06:04.120 align:start position:0%
+priority. Some words will carry
+ 
+
+00:06:04.120 --> 00:06:05.550 align:start position:0%
+priority. Some words will carry
+much <00:06:04.258><c>more </c><00:06:04.396><c>weight, </c><00:06:04.534><c>while </c><00:06:04.672><c>others, </c><00:06:04.810><c>like </c><00:06:04.948><c>"erc </c><00:06:05.086><c>anna," </c><00:06:05.224><c>will </c><00:06:05.362><c>carry </c><00:06:05.500><c>much</c>
+
+00:06:05.550 --> 00:06:05.560 align:start position:0%
+much more weight, while others, like "erc anna," will carry much
+ 
+
+00:06:05.560 --> 00:06:07.020 align:start position:0%
+much more weight, while others, like "erc anna," will carry much
+less. <00:06:05.830><c>Therefore, </c><00:06:06.100><c>we'll </c><00:06:06.370><c>give </c><00:06:06.640><c>them </c><00:06:06.910><c>more</c>
+
+00:06:07.020 --> 00:06:07.030 align:start position:0%
+less. Therefore, we'll give them more
+ 
+
+00:06:07.030 --> 00:06:08.430 align:start position:0%
+less. Therefore, we'll give them more
+importance <00:06:07.460><c>in </c><00:06:07.890><c>tags </c><00:06:08.320><c>like</c>
+
+00:06:08.430 --> 00:06:08.440 align:start position:0%
+importance in tags like
+ 
+
+00:06:08.440 --> 00:06:10.860 align:start position:0%
+importance in tags like
+H1 <00:06:08.757><c>and </c><00:06:09.074><c>H2, </c><00:06:09.391><c>and </c><00:06:09.708><c>for </c><00:06:10.025><c>others, </c><00:06:10.342><c>we'll </c><00:06:10.659><c>use</c>
+
+00:06:10.860 --> 00:06:10.870 align:start position:0%
+H1 and H2, and for others, we'll use
+ 
+
+00:06:10.870 --> 00:06:12.840 align:start position:0%
+H1 and H2, and for others, we'll use
+tags <00:06:11.207><c>that </c><00:06:11.544><c>aren't </c><00:06:11.881><c>as </c><00:06:12.218><c>powerful</c>
+
+00:06:12.840 --> 00:06:12.850 align:start position:0%
+tags that aren't as powerful
+ 
+
+00:06:12.850 --> 00:06:14.460 align:start position:0%
+tags that aren't as powerful
+but <00:06:13.217><c>still </c><00:06:13.584><c>help </c><00:06:13.951><c>us </c><00:06:14.318><c>create</c>
+
+00:06:14.460 --> 00:06:14.470 align:start position:0%
+but still help us create
+ 
+
+00:06:14.470 --> 00:06:15.900 align:start position:0%
+but still help us create
+content <00:06:15.040><c>that </c><00:06:15.610><c>Google</c>
+
+00:06:15.900 --> 00:06:15.910 align:start position:0%
+content that Google
+ 
+
+00:06:15.910 --> 00:06:17.640 align:start position:0%
+content that Google
+understands <00:06:16.228><c>is </c><00:06:16.546><c>relevant </c><00:06:16.864><c>both </c><00:06:17.182><c>to </c><00:06:17.500><c>the</c>
+
+00:06:17.640 --> 00:06:17.650 align:start position:0%
+understands is relevant both to the
+ 
+
+00:06:17.650 --> 00:06:19.860 align:start position:0%
+understands is relevant both to the
+user <00:06:18.300><c>and </c><00:06:18.950><c>to </c><00:06:19.600><c>our</c>
+
+00:06:19.860 --> 00:06:19.870 align:start position:0%
+user and to our
+ 
+
+00:06:19.870 --> 00:06:21.840 align:start position:0%
+user and to our
+search <00:06:20.252><c>engine </c><00:06:20.634><c>ranking. </c><00:06:21.016><c>So, </c><00:06:21.398><c>it</c>
+
+00:06:21.840 --> 00:06:21.850 align:start position:0%
+search engine ranking. So, it
+ 
+
+00:06:21.850 --> 00:06:23.880 align:start position:0%
+search engine ranking. So, it
+'s <00:06:22.240><c>super </c><00:06:22.630><c>important </c><00:06:23.020><c>to </c><00:06:23.410><c>do </c><00:06:23.800><c>good</c>
+
+00:06:23.880 --> 00:06:23.890 align:start position:0%
+'s super important to do good
+ 
+
+00:06:23.890 --> 00:06:26.730 align:start position:0%
+'s super important to do good
+keyword <00:06:24.388><c>research; </c><00:06:24.886><c>it's </c><00:06:25.384><c>everything </c><00:06:25.882><c>because </c><00:06:26.380><c>it</c>
+
+00:06:26.730 --> 00:06:26.740 align:start position:0%
+keyword research; it's everything because it
+ 
+
+00:06:26.740 --> 00:06:28.050 align:start position:0%
+keyword research; it's everything because it
+allows <00:06:27.040><c>us </c><00:06:27.340><c>to </c><00:06:27.640><c>design </c><00:06:27.940><c>our</c>
+
+00:06:28.050 --> 00:06:28.060 align:start position:0%
+allows us to design our
+ 
+
+00:06:28.060 --> 00:06:29.760 align:start position:0%
+allows us to design our
+website <00:06:28.360><c>magnificently. </c><00:06:28.660><c>It's </c><00:06:28.960><c>not </c><00:06:29.260><c>just </c><00:06:29.560><c>about</c>
+
+00:06:29.760 --> 00:06:29.770 align:start position:0%
+website magnificently. It's not just about
+ 
+
+00:06:29.770 --> 00:06:31.830 align:start position:0%
+website magnificently. It's not just about
+structure, <00:06:30.670><c>links, </c><00:06:31.570><c>and</c>
+
+00:06:31.830 --> 00:06:31.840 align:start position:0%
+structure, links, and
+ 
+
+00:06:31.840 --> 00:06:34.440 align:start position:0%
+structure, links, and
+traffic; <00:06:32.185><c>there </c><00:06:32.530><c>are </c><00:06:32.875><c>very </c><00:06:33.220><c>important </c><00:06:33.565><c>things </c><00:06:33.910><c>like</c>
+
+00:06:34.440 --> 00:06:34.450 align:start position:0%
+traffic; there are very important things like
+ 
+
+00:06:34.450 --> 00:06:36.510 align:start position:0%
+traffic; there are very important things like
+keyboard <00:06:34.765><c>search, </c><00:06:35.080><c>which </c><00:06:35.395><c>allows </c><00:06:35.710><c>us </c><00:06:36.025><c>to </c><00:06:36.340><c>do</c>
+
+00:06:36.510 --> 00:06:36.520 align:start position:0%
+keyboard search, which allows us to do
+ 
+
+00:06:36.520 --> 00:06:38.550 align:start position:0%
+keyboard search, which allows us to do
+good <00:06:37.007><c>English </c><00:06:37.494><c>copyright </c><00:06:37.981><c>research. </c><00:06:38.468><c>When</c>
+
+00:06:38.550 --> 00:06:38.560 align:start position:0%
+good English copyright research. When
+ 
+
+00:06:38.560 --> 00:06:39.990 align:start position:0%
+good English copyright research. When
+we <00:06:38.805><c>already </c><00:06:39.050><c>have </c><00:06:39.295><c>the </c><00:06:39.540><c>functionalities </c><00:06:39.785><c>of</c>
+
+00:06:39.990 --> 00:06:40.000 align:start position:0%
+we already have the functionalities of
+ 
+
+00:06:40.000 --> 00:06:42.059 align:start position:0%
+we already have the functionalities of
+the <00:06:40.319><c>target </c><00:06:40.638><c>page </c><00:06:40.957><c>or </c><00:06:41.276><c>the </c><00:06:41.595><c>one </c><00:06:41.914><c>we're</c>
+
+00:06:42.059 --> 00:06:42.069 align:start position:0%
+the target page or the one we're
+ 
+
+00:06:42.069 --> 00:06:43.409 align:start position:0%
+the target page or the one we're
+going <00:06:42.384><c>to </c><00:06:42.699><c>use, </c><00:06:43.014><c>we </c><00:06:43.329><c>have...</c>
+
+00:06:43.409 --> 00:06:43.419 align:start position:0%
+going to use, we have...
+ 
+
+00:06:43.419 --> 00:06:44.610 align:start position:0%
+going to use, we have...
+Learning <00:06:43.534><c>how </c><00:06:43.649><c>to </c><00:06:43.764><c>create </c><00:06:43.879><c>a </c><00:06:43.994><c>good </c><00:06:44.109><c>copyright</c>
+
+00:06:44.610 --> 00:06:44.620 align:start position:0%
+Learning how to create a good copyright
+ 
+
+00:06:44.620 --> 00:06:45.990 align:start position:0%
+Learning how to create a good copyright
+notice, <00:06:44.829><c>I </c><00:06:45.038><c>think </c><00:06:45.247><c>the </c><00:06:45.456><c>website </c><00:06:45.665><c>will </c><00:06:45.874><c>have</c>
+
+00:06:45.990 --> 00:06:46.000 align:start position:0%
+notice, I think the website will have
+ 
+
+00:06:46.000 --> 00:06:48.390 align:start position:0%
+notice, I think the website will have
+this <00:06:48.069><c>section,</c>
+
+00:06:48.390 --> 00:06:48.400 align:start position:0%
+this section,
+ 
+
+00:06:48.400 --> 00:06:50.100 align:start position:0%
+this section,
+we <00:06:48.510><c>already </c><00:06:48.620><c>know </c><00:06:48.730><c>more </c><00:06:48.840><c>or </c><00:06:48.950><c>less </c><00:06:49.060><c>how </c><00:06:49.170><c>everything </c><00:06:49.280><c>will </c><00:06:49.390><c>be, </c><00:06:49.500><c>what </c><00:06:49.610><c>it </c><00:06:49.720><c>will </c><00:06:49.830><c>have</c>
+
+00:06:50.100 --> 00:06:50.110 align:start position:0%
+we already know more or less how everything will be, what it will have
+ 
+
+00:06:50.110 --> 00:06:51.600 align:start position:0%
+we already know more or less how everything will be, what it will have
+and <00:06:50.590><c>so </c><00:06:51.070><c>on. </c><00:06:51.550><c>What</c>
+
+00:06:51.600 --> 00:06:51.610 align:start position:0%
+and so on. What
+ 
+
+00:06:51.610 --> 00:06:53.040 align:start position:0%
+and so on. What
+we <00:06:51.730><c>have </c><00:06:51.850><c>to </c><00:06:51.970><c>do </c><00:06:52.090><c>is </c><00:06:52.210><c>put </c><00:06:52.330><c>together </c><00:06:52.450><c>the </c><00:06:52.570><c>texts, </c><00:06:52.690><c>the</c>
+
+00:06:53.040 --> 00:06:53.050 align:start position:0%
+we have to do is put together the texts, the
+ 
+
+00:06:53.050 --> 00:06:54.990 align:start position:0%
+we have to do is put together the texts, the
+copyright <00:06:53.949><c>notices, </c><00:06:54.848><c>which</c>
+
+00:06:54.990 --> 00:06:55.000 align:start position:0%
+copyright notices, which
+ 
+
+00:06:55.000 --> 00:06:57.119 align:start position:0%
+copyright notices, which
+is <00:06:55.244><c>basically </c><00:06:55.488><c>a </c><00:06:55.732><c>technique </c><00:06:55.976><c>that </c><00:06:56.220><c>helps </c><00:06:56.464><c>us </c><00:06:56.708><c>to,</c>
+
+00:06:57.119 --> 00:06:57.129 align:start position:0%
+is basically a technique that helps us to,
+ 
+
+00:06:57.129 --> 00:06:59.219 align:start position:0%
+is basically a technique that helps us to,
+in <00:06:57.779><c>quotes, </c><00:06:58.429><c>persuade, </c><00:06:59.079><c>not</c>
+
+00:06:59.219 --> 00:06:59.229 align:start position:0%
+in quotes, persuade, not
+ 
+
+00:06:59.229 --> 00:07:00.629 align:start position:0%
+in quotes, persuade, not
+only <00:06:59.439><c>personally, </c><00:06:59.649><c>it's </c><00:06:59.859><c>much </c><00:07:00.069><c>more </c><00:07:00.279><c>than </c><00:07:00.489><c>that,</c>
+
+00:07:00.629 --> 00:07:00.639 align:start position:0%
+only personally, it's much more than that,
+ 
+
+00:07:00.639 --> 00:07:02.760 align:start position:0%
+only personally, it's much more than that,
+the <00:07:00.954><c>Scott </c><00:07:01.269><c>Redding </c><00:07:01.584><c>method, </c><00:07:01.899><c>but </c><00:07:02.214><c>to </c><00:07:02.529><c>make</c>
+
+00:07:02.760 --> 00:07:02.770 align:start position:0%
+the Scott Redding method, but to make
+ 
+
+00:07:02.770 --> 00:07:04.860 align:start position:0%
+the Scott Redding method, but to make
+the <00:07:03.440><c>person </c><00:07:04.110><c>entering </c><00:07:04.780><c>your</c>
+
+00:07:04.860 --> 00:07:04.870 align:start position:0%
+the person entering your
+ 
+
+00:07:04.870 --> 00:07:07.320 align:start position:0%
+the person entering your
+website <00:07:05.275><c>behave </c><00:07:05.680><c>in </c><00:07:06.085><c>a </c><00:07:06.490><c>way </c><00:07:06.895><c>that </c><00:07:07.300><c>helps</c>
+
+00:07:07.320 --> 00:07:07.330 align:start position:0%
+website behave in a way that helps
+ 
+
+00:07:07.330 --> 00:07:08.790 align:start position:0%
+website behave in a way that helps
+us <00:07:08.020><c>achieve </c><00:07:08.710><c>the</c>
+
+00:07:08.790 --> 00:07:08.800 align:start position:0%
+us achieve the
+ 
+
+00:07:08.800 --> 00:07:10.050 align:start position:0%
+us achieve the
+objective <00:07:09.092><c>we </c><00:07:09.384><c>set </c><00:07:09.676><c>at </c><00:07:09.968><c>the</c>
+
+00:07:10.050 --> 00:07:10.060 align:start position:0%
+objective we set at the
+ 
+
+00:07:10.060 --> 00:07:11.790 align:start position:0%
+objective we set at the
+beginning, <00:07:10.336><c>that </c><00:07:10.612><c>is, </c><00:07:10.888><c>a </c><00:07:11.164><c>good </c><00:07:11.440><c>copyright</c>
+
+00:07:11.790 --> 00:07:11.800 align:start position:0%
+beginning, that is, a good copyright
+ 
+
+00:07:11.800 --> 00:07:13.499 align:start position:0%
+beginning, that is, a good copyright
+team. <00:07:11.984><c>So </c><00:07:12.168><c>if </c><00:07:12.352><c>our </c><00:07:12.536><c>objective </c><00:07:12.720><c>is </c><00:07:12.904><c>to</c>
+
+00:07:13.499 --> 00:07:13.509 align:start position:0%
+team. So if our objective is to
+ 
+
+00:07:13.509 --> 00:07:15.510 align:start position:0%
+team. So if our objective is to
+sell, <00:07:13.791><c>the </c><00:07:14.073><c>people </c><00:07:14.355><c>who </c><00:07:14.637><c>enter </c><00:07:14.919><c>can</c>
+
+00:07:15.510 --> 00:07:15.520 align:start position:0%
+sell, the people who enter can
+ 
+
+00:07:15.520 --> 00:07:17.159 align:start position:0%
+sell, the people who enter can
+buy <00:07:15.760><c>from </c><00:07:16.000><c>us, </c><00:07:16.240><c>so </c><00:07:16.480><c>the </c><00:07:16.720><c>objective </c><00:07:16.960><c>is</c>
+
+00:07:17.159 --> 00:07:17.169 align:start position:0%
+buy from us, so the objective is
+ 
+
+00:07:17.169 --> 00:07:18.959 align:start position:0%
+buy from us, so the objective is
+met, <00:07:17.419><c>while </c><00:07:17.669><c>if </c><00:07:17.919><c>the </c><00:07:18.169><c>objective </c><00:07:18.419><c>is </c><00:07:18.669><c>to</c>
+
+00:07:18.959 --> 00:07:18.969 align:start position:0%
+met, while if the objective is to
+ 
+
+00:07:18.969 --> 00:07:21.089 align:start position:0%
+met, while if the objective is to
+inform, <00:07:19.441><c>the </c><00:07:19.913><c>copyright </c><00:07:20.385><c>notice </c><00:07:20.857><c>makes</c>
+
+00:07:21.089 --> 00:07:21.099 align:start position:0%
+inform, the copyright notice makes
+ 
+
+00:07:21.099 --> 00:07:22.619 align:start position:0%
+inform, the copyright notice makes
+the <00:07:21.361><c>person </c><00:07:21.623><c>end </c><00:07:21.885><c>up </c><00:07:22.147><c>being</c>
+
+00:07:22.619 --> 00:07:22.629 align:start position:0%
+the person end up being
+ 
+
+00:07:22.629 --> 00:07:24.209 align:start position:0%
+the person end up being
+correctly <00:07:22.800><c>informed. </c><00:07:22.971><c>The </c><00:07:23.142><c>objective </c><00:07:23.313><c>is </c><00:07:23.484><c>not </c><00:07:23.655><c>only </c><00:07:23.826><c>to</c>
+
+00:07:24.209 --> 00:07:24.219 align:start position:0%
+correctly informed. The objective is not only to
+ 
+
+00:07:24.219 --> 00:07:25.830 align:start position:0%
+correctly informed. The objective is not only to
+sell, <00:07:24.469><c>although </c><00:07:24.719><c>well, </c><00:07:24.969><c>that's </c><00:07:25.219><c>still </c><00:07:25.469><c>too </c><00:07:25.719><c>much</c>
+
+00:07:25.830 --> 00:07:25.840 align:start position:0%
+sell, although well, that's still too much
+ 
+
+00:07:25.840 --> 00:07:27.779 align:start position:0%
+sell, although well, that's still too much
+and <00:07:26.188><c>it's </c><00:07:26.536><c>what </c><00:07:26.884><c>pays </c><00:07:27.232><c>best, </c><00:07:27.580><c>the</c>
+
+00:07:27.779 --> 00:07:27.789 align:start position:0%
+and it's what pays best, the
+ 
+
+00:07:27.789 --> 00:07:29.550 align:start position:0%
+and it's what pays best, the
+plural, <00:07:27.972><c>and </c><00:07:28.155><c>not </c><00:07:28.338><c>just </c><00:07:28.521><c>to </c><00:07:28.704><c>be </c><00:07:28.887><c>able </c><00:07:29.070><c>to </c><00:07:29.253><c>sell. </c><00:07:29.436><c>So,</c>
+
+00:07:29.550 --> 00:07:29.560 align:start position:0%
+plural, and not just to be able to sell. So,
+ 
+
+00:07:29.560 --> 00:07:30.930 align:start position:0%
+plural, and not just to be able to sell. So,
+learning <00:07:29.731><c>how </c><00:07:29.902><c>to </c><00:07:30.073><c>create </c><00:07:30.244><c>a </c><00:07:30.415><c>good </c><00:07:30.586><c>copyright </c><00:07:30.757><c>notice,</c>
+
+00:07:30.930 --> 00:07:30.940 align:start position:0%
+learning how to create a good copyright notice,
+ 
+
+00:07:30.940 --> 00:07:32.580 align:start position:0%
+learning how to create a good copyright notice,
+on <00:07:31.145><c>the </c><00:07:31.350><c>secondary </c><00:07:31.555><c>channel </c><00:07:31.760><c>I </c><00:07:31.965><c>have </c><00:07:32.170><c>a </c><00:07:32.375><c>video</c>
+
+00:07:32.580 --> 00:07:32.590 align:start position:0%
+on the secondary channel I have a video
+ 
+
+00:07:32.590 --> 00:07:33.930 align:start position:0%
+on the secondary channel I have a video
+about <00:07:32.713><c>that, </c><00:07:32.836><c>so </c><00:07:32.959><c>if </c><00:07:33.082><c>you </c><00:07:33.205><c>want </c><00:07:33.328><c>to </c><00:07:33.451><c>go </c><00:07:33.574><c>see </c><00:07:33.697><c>it,</c>
+
+00:07:33.930 --> 00:07:33.940 align:start position:0%
+about that, so if you want to go see it,
+ 
+
+00:07:33.940 --> 00:07:35.520 align:start position:0%
+about that, so if you want to go see it,
+this <00:07:34.076><c>one </c><00:07:34.212><c>that's </c><00:07:34.348><c>here, </c><00:07:34.484><c>I'll </c><00:07:34.620><c>leave </c><00:07:34.756><c>it </c><00:07:34.892><c>here </c><00:07:35.028><c>above </c><00:07:35.164><c>in</c>
+
+00:07:35.520 --> 00:07:35.530 align:start position:0%
+this one that's here, I'll leave it here above in
+ 
+
+00:07:35.530 --> 00:07:37.469 align:start position:0%
+this one that's here, I'll leave it here above in
+a <00:07:35.787><c>little </c><00:07:36.044><c>card, </c><00:07:36.301><c>you'll </c><00:07:36.558><c>see </c><00:07:36.815><c>it  </c><00:07:37.072><c>It's </c><00:07:37.329><c>really</c>
+
+00:07:37.469 --> 00:07:37.479 align:start position:0%
+a little card, you'll see it  It's really
+ 
+
+00:07:37.479 --> 00:07:39.870 align:start position:0%
+a little card, you'll see it  It's really
+good. <00:07:38.139><c>I'm </c><00:07:38.799><c>watching </c><00:07:39.459><c>a</c>
+
+00:07:39.870 --> 00:07:39.880 align:start position:0%
+good. I'm watching a
+ 
+
+00:07:39.880 --> 00:07:41.610 align:start position:0%
+good. I'm watching a
+bit <00:07:40.043><c>of </c><00:07:40.206><c>the </c><00:07:40.369><c>video </c><00:07:40.532><c>here, </c><00:07:40.695><c>so </c><00:07:40.858><c>I </c><00:07:41.021><c>imagine </c><00:07:41.184><c>you </c><00:07:41.347><c>wo</c>
+
+00:07:41.610 --> 00:07:41.620 align:start position:0%
+bit of the video here, so I imagine you wo
+ 
+
+00:07:41.620 --> 00:07:43.170 align:start position:0%
+bit of the video here, so I imagine you wo
+n't <00:07:41.867><c>have </c><00:07:42.114><c>any </c><00:07:42.361><c>problem </c><00:07:42.608><c>realizing</c>
+
+00:07:43.170 --> 00:07:43.180 align:start position:0%
+n't have any problem realizing
+ 
+
+00:07:43.180 --> 00:07:44.430 align:start position:0%
+n't have any problem realizing
+that <00:07:43.354><c>when </c><00:07:43.528><c>you </c><00:07:43.702><c>go </c><00:07:43.876><c>into </c><00:07:44.050><c>the </c><00:07:44.224><c>video,</c>
+
+00:07:44.430 --> 00:07:44.440 align:start position:0%
+that when you go into the video,
+ 
+
+00:07:44.440 --> 00:07:45.990 align:start position:0%
+that when you go into the video,
+once <00:07:44.740><c>we </c><00:07:45.040><c>have </c><00:07:45.340><c>the </c><00:07:45.640><c>copyright </c><00:07:45.940><c>in</c>
+
+00:07:45.990 --> 00:07:46.000 align:start position:0%
+once we have the copyright in
+ 
+
+00:07:46.000 --> 00:07:47.909 align:start position:0%
+once we have the copyright in
+place, <00:07:46.310><c>okay, </c><00:07:46.620><c>and </c><00:07:46.930><c>we </c><00:07:47.240><c>also </c><00:07:47.550><c>have </c><00:07:47.860><c>the</c>
+
+00:07:47.909 --> 00:07:47.919 align:start position:0%
+place, okay, and we also have the
+ 
+
+00:07:47.919 --> 00:07:49.620 align:start position:0%
+place, okay, and we also have the
+objective <00:07:48.110><c>ready, </c><00:07:48.301><c>and </c><00:07:48.492><c>we </c><00:07:48.683><c>have </c><00:07:48.874><c>everything </c><00:07:49.065><c>ready. </c><00:07:49.256><c>We </c><00:07:49.447><c>have</c>
+
+00:07:49.620 --> 00:07:49.630 align:start position:0%
+objective ready, and we have everything ready. We have
+ 
+
+00:07:49.630 --> 00:07:51.570 align:start position:0%
+objective ready, and we have everything ready. We have
+the <00:07:50.099><c>functionalities, </c><00:07:50.568><c>we </c><00:07:51.037><c>have</c>
+
+00:07:51.570 --> 00:07:51.580 align:start position:0%
+the functionalities, we have
+ 
+
+00:07:51.580 --> 00:07:53.580 align:start position:0%
+the functionalities, we have
+the <00:07:51.824><c>objective, </c><00:07:52.068><c>we </c><00:07:52.312><c>have </c><00:07:52.556><c>the </c><00:07:52.800><c>texts, </c><00:07:53.044><c>we </c><00:07:53.288><c>have</c>
+
+00:07:53.580 --> 00:07:53.590 align:start position:0%
+the objective, we have the texts, we have
+ 
+
+00:07:53.590 --> 00:07:54.420 align:start position:0%
+the objective, we have the texts, we have
+all <00:07:53.850><c>the </c><00:07:54.110><c>keywords </c><00:07:54.370><c>we</c>
+
+00:07:54.420 --> 00:07:54.430 align:start position:0%
+all the keywords we
+ 
+
+00:07:54.430 --> 00:07:55.830 align:start position:0%
+all the keywords we
+need <00:07:54.694><c>to </c><00:07:54.958><c>use. </c><00:07:55.222><c>Now, </c><00:07:55.486><c>one </c><00:07:55.750><c>of</c>
+
+00:07:55.830 --> 00:07:55.840 align:start position:0%
+need to use. Now, one of
+ 
+
+00:07:55.840 --> 00:07:57.839 align:start position:0%
+need to use. Now, one of
+the <00:07:56.217><c>best </c><00:07:56.594><c>things </c><00:07:56.971><c>there </c><00:07:57.348><c>is </c><00:07:57.725><c>is</c>
+
+00:07:57.839 --> 00:07:57.849 align:start position:0%
+the best things there is is
+ 
+
+00:07:57.849 --> 00:08:00.270 align:start position:0%
+the best things there is is
+creating <00:07:58.199><c>a </c><00:07:58.549><c>ride </c><00:07:58.899><c>frame, </c><00:07:59.249><c>okay, </c><00:07:59.599><c>or </c><00:07:59.949><c>basically</c>
+
+00:08:00.270 --> 00:08:00.280 align:start position:0%
+creating a ride frame, okay, or basically
+ 
+
+00:08:00.280 --> 00:08:01.860 align:start position:0%
+creating a ride frame, okay, or basically
+creating <00:08:00.520><c>the </c><00:08:00.760><c>sketches </c><00:08:01.000><c>of </c><00:08:01.240><c>our </c><00:08:01.480><c>website. </c><00:08:01.720><c>We</c>
+
+00:08:01.860 --> 00:08:01.870 align:start position:0%
+creating the sketches of our website. We
+ 
+
+00:08:01.870 --> 00:08:03.779 align:start position:0%
+creating the sketches of our website. We
+have <00:08:02.420><c>all </c><00:08:02.970><c>the </c><00:08:03.520><c>content,</c>
+
+00:08:03.779 --> 00:08:03.789 align:start position:0%
+have all the content,
+ 
+
+00:08:03.789 --> 00:08:05.370 align:start position:0%
+have all the content,
+we <00:08:03.972><c>have </c><00:08:04.155><c>to </c><00:08:04.338><c>add </c><00:08:04.521><c>the </c><00:08:04.704><c>images, </c><00:08:04.887><c>we </c><00:08:05.070><c>have </c><00:08:05.253><c>the</c>
+
+00:08:05.370 --> 00:08:05.380 align:start position:0%
+we have to add the images, we have the
+ 
+
+00:08:05.380 --> 00:08:06.450 align:start position:0%
+we have to add the images, we have the
+logo, <00:08:05.566><c>we </c><00:08:05.752><c>have </c><00:08:05.938><c>everything </c><00:08:06.124><c>we </c><00:08:06.310><c>need</c>
+
+00:08:06.450 --> 00:08:06.460 align:start position:0%
+logo, we have everything we need
+ 
+
+00:08:06.460 --> 00:08:09.659 align:start position:0%
+logo, we have everything we need
+to <00:08:06.858><c>bring </c><00:08:07.256><c>our </c><00:08:07.654><c>website </c><00:08:08.052><c>to </c><00:08:08.450><c>life. </c><00:08:08.848><c>We're </c><00:08:09.246><c>missing,</c>
+
+00:08:09.659 --> 00:08:09.669 align:start position:0%
+to bring our website to life. We're missing,
+ 
+
+00:08:09.669 --> 00:08:10.830 align:start position:0%
+to bring our website to life. We're missing,
+like, <00:08:09.969><c>how </c><00:08:10.269><c>to </c><00:08:10.569><c>apply</c>
+
+00:08:10.830 --> 00:08:10.840 align:start position:0%
+like, how to apply
+ 
+
+00:08:10.840 --> 00:08:14.100 align:start position:0%
+like, how to apply
+experience <00:08:11.255><c>and </c><00:08:11.670><c>what </c><00:08:12.085><c>the </c><00:08:12.500><c>interface </c><00:08:12.915><c>will </c><00:08:13.330><c>be </c><00:08:13.745><c>like.</c>
+
+00:08:14.100 --> 00:08:14.110 align:start position:0%
+experience and what the interface will be like.
+ 
+
+00:08:14.110 --> 00:08:16.050 align:start position:0%
+experience and what the interface will be like.
+We <00:08:14.552><c>see </c><00:08:14.994><c>all </c><00:08:15.436><c>these </c><00:08:15.878><c>things</c>
+
+00:08:16.050 --> 00:08:16.060 align:start position:0%
+We see all these things
+ 
+
+00:08:16.060 --> 00:08:17.999 align:start position:0%
+We see all these things
+at <00:08:16.425><c>this </c><00:08:16.790><c>point, </c><00:08:17.155><c>the </c><00:08:17.520><c>website </c><00:08:17.885><c>sketch.</c>
+
+00:08:17.999 --> 00:08:18.009 align:start position:0%
+at this point, the website sketch.
+ 
+
+00:08:18.009 --> 00:08:20.100 align:start position:0%
+at this point, the website sketch.
+There <00:08:18.339><c>are </c><00:08:18.669><c>a </c><00:08:18.999><c>lot </c><00:08:19.329><c>of </c><00:08:19.659><c>tools </c><00:08:19.989><c>that</c>
+
+00:08:20.100 --> 00:08:20.110 align:start position:0%
+There are a lot of tools that
+ 
+
+00:08:20.110 --> 00:08:21.240 align:start position:0%
+There are a lot of tools that
+allow <00:08:20.290><c>us </c><00:08:20.470><c>to </c><00:08:20.650><c>do </c><00:08:20.830><c>this. </c><00:08:21.010><c>For </c><00:08:21.190><c>example,</c>
+
+00:08:21.240 --> 00:08:21.250 align:start position:0%
+allow us to do this. For example,
+ 
+
+00:08:21.250 --> 00:08:23.640 align:start position:0%
+allow us to do this. For example,
+I <00:08:21.498><c>recommend </c><00:08:21.746><c>a </c><00:08:21.994><c>very </c><00:08:22.242><c>good </c><00:08:22.490><c>one </c><00:08:22.738><c>called </c><00:08:22.986><c>Mobile.</c>
+
+00:08:23.640 --> 00:08:23.650 align:start position:0%
+I recommend a very good one called Mobile.
+ 
+
+00:08:23.650 --> 00:08:24.990 align:start position:0%
+I recommend a very good one called Mobile.
+This <00:08:23.834><c>platform, </c><00:08:24.018><c>along </c><00:08:24.202><c>with </c><00:08:24.386><c>its </c><00:08:24.570><c>sibling, </c><00:08:24.754><c>is </c><00:08:24.938><c>a</c>
+
+00:08:24.990 --> 00:08:25.000 align:start position:0%
+This platform, along with its sibling, is a
+ 
+
+00:08:25.000 --> 00:08:26.850 align:start position:0%
+This platform, along with its sibling, is a
+design <00:08:25.294><c>draft </c><00:08:25.588><c>or </c><00:08:25.882><c>a </c><00:08:26.176><c>sketchbook </c><00:08:26.470><c>of</c>
+
+00:08:26.850 --> 00:08:26.860 align:start position:0%
+design draft or a sketchbook of
+ 
+
+00:08:26.860 --> 00:08:28.860 align:start position:0%
+design draft or a sketchbook of
+what <00:08:27.155><c>you </c><00:08:27.450><c>want </c><00:08:27.745><c>to </c><00:08:28.040><c>create </c><00:08:28.335><c>on </c><00:08:28.630><c>your</c>
+
+00:08:28.860 --> 00:08:28.870 align:start position:0%
+what you want to create on your
+ 
+
+00:08:28.870 --> 00:08:30.510 align:start position:0%
+what you want to create on your
+website. <00:08:29.090><c>It </c><00:08:29.310><c>basically </c><00:08:29.530><c>gives </c><00:08:29.750><c>you </c><00:08:29.970><c>several </c><00:08:30.190><c>things</c>
+
+00:08:30.510 --> 00:08:30.520 align:start position:0%
+website. It basically gives you several things
+ 
+
+00:08:30.520 --> 00:08:32.870 align:start position:0%
+website. It basically gives you several things
+like <00:08:31.249><c>prototype </c><00:08:31.978><c>design, </c><00:08:32.707><c>flowcharts,</c>
+
+00:08:32.870 --> 00:08:32.880 align:start position:0%
+like prototype design, flowcharts,
+ 
+
+00:08:32.880 --> 00:08:36.389 align:start position:0%
+like prototype design, flowcharts,
+and <00:08:33.401><c>even </c><00:08:33.922><c>mind </c><00:08:34.443><c>maps. </c><00:08:34.964><c>The </c><00:08:35.485><c>prototypes </c><00:08:36.006><c>are</c>
+
+00:08:36.389 --> 00:08:36.399 align:start position:0%
+and even mind maps. The prototypes are
+ 
+
+00:08:36.399 --> 00:08:39.029 align:start position:0%
+and even mind maps. The prototypes are
+interactive <00:08:36.746><c>and </c><00:08:37.093><c>animated, </c><00:08:37.440><c>so </c><00:08:37.787><c>there </c><00:08:38.134><c>you </c><00:08:38.481><c>have </c><00:08:38.828><c>it.</c>
+
+00:08:39.029 --> 00:08:39.039 align:start position:0%
+interactive and animated, so there you have it.
+ 
+
+00:08:39.039 --> 00:08:40.560 align:start position:0%
+interactive and animated, so there you have it.
+You <00:08:39.244><c>can </c><00:08:39.449><c>unleash </c><00:08:39.654><c>your </c><00:08:39.859><c>creativity </c><00:08:40.064><c>and </c><00:08:40.269><c>even</c>
+
+00:08:40.560 --> 00:08:40.570 align:start position:0%
+You can unleash your creativity and even
+ 
+
+00:08:40.570 --> 00:08:42.029 align:start position:0%
+You can unleash your creativity and even
+highlight <00:08:41.919><c>several</c>
+
+00:08:42.029 --> 00:08:42.039 align:start position:0%
+highlight several
+ 
+
+00:08:42.039 --> 00:08:44.249 align:start position:0%
+highlight several
+important <00:08:42.351><c>concepts </c><00:08:42.663><c>within </c><00:08:42.975><c>the </c><00:08:43.287><c>site. </c><00:08:43.599><c>Besides</c>
+
+00:08:44.249 --> 00:08:44.259 align:start position:0%
+important concepts within the site. Besides
+ 
+
+00:08:44.259 --> 00:08:46.439 align:start position:0%
+important concepts within the site. Besides
+attracting <00:08:44.739><c>these </c><00:08:45.219><c>clients, </c><00:08:45.699><c>you </c><00:08:46.179><c>can</c>
+
+00:08:46.439 --> 00:08:46.449 align:start position:0%
+attracting these clients, you can
+ 
+
+00:08:46.449 --> 00:08:48.420 align:start position:0%
+attracting these clients, you can
+create, <00:08:46.815><c>for </c><00:08:47.181><c>example, </c><00:08:47.547><c>pixel </c><00:08:47.913><c>icons </c><00:08:48.279><c>that</c>
+
+00:08:48.420 --> 00:08:48.430 align:start position:0%
+create, for example, pixel icons that
+ 
+
+00:08:48.430 --> 00:08:50.460 align:start position:0%
+create, for example, pixel icons that
+are <00:08:50.199><c>perfect,</c>
+
+00:08:50.460 --> 00:08:50.470 align:start position:0%
+are perfect,
+ 
+
+00:08:50.470 --> 00:08:52.680 align:start position:0%
+are perfect,
+scalable <00:08:50.781><c>graphics. </c><00:08:51.092><c>These </c><00:08:51.403><c>are </c><00:08:51.714><c>basically </c><00:08:52.025><c>images</c>
+
+00:08:52.680 --> 00:08:52.690 align:start position:0%
+scalable graphics. These are basically images
+ 
+
+00:08:52.690 --> 00:08:54.360 align:start position:0%
+scalable graphics. These are basically images
+that, <00:08:52.930><c>when </c><00:08:53.170><c>they're </c><00:08:53.410><c>not </c><00:08:53.650><c>images, </c><00:08:53.890><c>are </c><00:08:54.130><c>the</c>
+
+00:08:54.360 --> 00:08:54.370 align:start position:0%
+that, when they're not images, are the
+ 
+
+00:08:54.370 --> 00:08:56.100 align:start position:0%
+that, when they're not images, are the
+results <00:08:54.820><c>of </c><00:08:55.270><c>mathematical </c><00:08:55.720><c>formulas.</c>
+
+00:08:56.100 --> 00:08:56.110 align:start position:0%
+results of mathematical formulas.
+ 
+
+00:08:56.110 --> 00:08:57.840 align:start position:0%
+results of mathematical formulas.
+When <00:08:56.422><c>we </c><00:08:56.734><c>enlarge </c><00:08:57.046><c>them, </c><00:08:57.358><c>they </c><00:08:57.670><c>don't</c>
+
+00:08:57.840 --> 00:08:57.850 align:start position:0%
+When we enlarge them, they don't
+ 
+
+00:08:57.850 --> 00:08:59.759 align:start position:0%
+When we enlarge them, they don't
+lose <00:08:58.277><c>quality </c><00:08:58.704><c>because </c><00:08:59.131><c>they </c><00:08:59.558><c>are</c>
+
+00:08:59.759 --> 00:08:59.769 align:start position:0%
+lose quality because they are
+ 
+
+00:08:59.769 --> 00:09:01.499 align:start position:0%
+lose quality because they are
+vector <00:09:00.279><c>graphics—they're </c><00:09:00.789><c>vectors, </c><00:09:01.299><c>not</c>
+
+00:09:01.499 --> 00:09:01.509 align:start position:0%
+vector graphics—they're vectors, not
+ 
+
+00:09:01.509 --> 00:09:03.269 align:start position:0%
+vector graphics—they're vectors, not
+images <00:09:02.049><c>or </c><00:09:02.589><c>pixels, </c><00:09:03.129><c>but</c>
+
+00:09:03.269 --> 00:09:03.279 align:start position:0%
+images or pixels, but
+ 
+
+00:09:03.279 --> 00:09:04.829 align:start position:0%
+images or pixels, but
+mathematical <00:09:03.759><c>vectors. </c><00:09:04.239><c>And </c><00:09:04.719><c>you</c>
+
+00:09:04.829 --> 00:09:04.839 align:start position:0%
+mathematical vectors. And you
+ 
+
+00:09:04.839 --> 00:09:05.850 align:start position:0%
+mathematical vectors. And you
+can <00:09:05.129><c>also </c><00:09:05.419><c>create </c><00:09:05.709><c>those</c>
+
+00:09:05.850 --> 00:09:05.860 align:start position:0%
+can also create those
+ 
+
+00:09:05.860 --> 00:09:08.340 align:start position:0%
+can also create those
+mind <00:09:06.124><c>maps </c><00:09:06.388><c>I </c><00:09:06.652><c>mentioned </c><00:09:06.916><c>with </c><00:09:07.180><c>more </c><00:09:07.444><c>structured</c>
+
+00:09:08.340 --> 00:09:08.350 align:start position:0%
+mind maps I mentioned with more structured
+ 
+
+00:09:08.350 --> 00:09:10.860 align:start position:0%
+mind maps I mentioned with more structured
+styles. <00:09:08.824><c>All </c><00:09:09.298><c>of </c><00:09:09.772><c>this </c><00:09:10.246><c>is </c><00:09:10.720><c>so</c>
+
+00:09:10.860 --> 00:09:10.870 align:start position:0%
+styles. All of this is so
+ 
+
+00:09:10.870 --> 00:09:12.180 align:start position:0%
+styles. All of this is so
+you <00:09:11.011><c>can </c><00:09:11.152><c>clearly </c><00:09:11.293><c>convey </c><00:09:11.434><c>what </c><00:09:11.575><c>you </c><00:09:11.716><c>want </c><00:09:11.857><c>to</c>
+
+00:09:12.180 --> 00:09:12.190 align:start position:0%
+you can clearly convey what you want to
+ 
+
+00:09:12.190 --> 00:09:13.920 align:start position:0%
+you can clearly convey what you want to
+communicate. <00:09:13.269><c>Because</c>
+
+00:09:13.920 --> 00:09:13.930 align:start position:0%
+communicate. Because
+ 
+
+00:09:13.930 --> 00:09:15.900 align:start position:0%
+communicate. Because
+when <00:09:14.117><c>you're </c><00:09:14.304><c>trying </c><00:09:14.491><c>to </c><00:09:14.678><c>communicate </c><00:09:14.865><c>with </c><00:09:15.052><c>the </c><00:09:15.239><c>user, </c><00:09:15.426><c>you</c>
+
+00:09:15.900 --> 00:09:15.910 align:start position:0%
+when you're trying to communicate with the user, you
+ 
+
+00:09:15.910 --> 00:09:17.309 align:start position:0%
+when you're trying to communicate with the user, you
+need <00:09:16.570><c>tools </c><00:09:17.230><c>that</c>
+
+00:09:17.309 --> 00:09:17.319 align:start position:0%
+need tools that
+ 
+
+00:09:17.319 --> 00:09:19.170 align:start position:0%
+need tools that
+allow <00:09:17.563><c>you </c><00:09:17.807><c>to </c><00:09:18.051><c>do </c><00:09:18.295><c>so. </c><00:09:18.539><c>This </c><00:09:18.783><c>is </c><00:09:19.027><c>a</c>
+
+00:09:19.170 --> 00:09:19.180 align:start position:0%
+allow you to do so. This is a
+ 
+
+00:09:19.180 --> 00:09:20.460 align:start position:0%
+allow you to do so. This is a
+great <00:09:19.645><c>tool </c><00:09:20.110><c>because</c>
+
+00:09:20.460 --> 00:09:20.470 align:start position:0%
+great tool because
+ 
+
+00:09:20.470 --> 00:09:22.379 align:start position:0%
+great tool because
+you <00:09:20.694><c>can </c><00:09:20.918><c>convey </c><00:09:21.142><c>what </c><00:09:21.366><c>you </c><00:09:21.590><c>need </c><00:09:21.814><c>to</c>
+
+00:09:22.379 --> 00:09:22.389 align:start position:0%
+you can convey what you need to
+ 
+
+00:09:22.389 --> 00:09:24.569 align:start position:0%
+you can convey what you need to
+convey <00:09:22.699><c>to </c><00:09:23.009><c>the </c><00:09:23.319><c>user. </c><00:09:23.629><c>It's </c><00:09:23.939><c>also </c><00:09:24.249><c>useful</c>
+
+00:09:24.569 --> 00:09:24.579 align:start position:0%
+convey to the user. It's also useful
+ 
+
+00:09:24.579 --> 00:09:25.980 align:start position:0%
+convey to the user. It's also useful
+for
+
+00:09:25.980 --> 00:09:25.990 align:start position:0%
+for
+ 
+
+00:09:25.990 --> 00:09:27.780 align:start position:0%
+for
+teamwork. <00:09:26.410><c>When </c><00:09:26.830><c>you </c><00:09:27.250><c>share </c><00:09:27.670><c>your</c>
+
+00:09:27.780 --> 00:09:27.790 align:start position:0%
+teamwork. When you share your
+ 
+
+00:09:27.790 --> 00:09:29.939 align:start position:0%
+teamwork. When you share your
+sketchbook, <00:09:28.197><c>you </c><00:09:28.604><c>can </c><00:09:29.011><c>see </c><00:09:29.418><c>comments </c><00:09:29.825><c>in</c>
+
+00:09:29.939 --> 00:09:29.949 align:start position:0%
+sketchbook, you can see comments in
+ 
+
+00:09:29.949 --> 00:09:32.340 align:start position:0%
+sketchbook, you can see comments in
+real <00:09:30.459><c>time, </c><00:09:30.969><c>add </c><00:09:31.479><c>and </c><00:09:31.989><c>remove</c>
+
+00:09:32.340 --> 00:09:32.350 align:start position:0%
+real time, add and remove
+ 
+
+00:09:32.350 --> 00:09:34.470 align:start position:0%
+real time, add and remove
+administrators <00:09:33.325><c>and </c><00:09:34.300><c>modifiers,</c>
+
+00:09:34.470 --> 00:09:34.480 align:start position:0%
+administrators and modifiers,
+ 
+
+00:09:34.480 --> 00:09:35.309 align:start position:0%
+administrators and modifiers,
+
+
+00:09:35.309 --> 00:09:35.319 align:start position:0%
+ 
+ 
+
+00:09:35.319 --> 00:09:37.110 align:start position:0%
+ 
+and <00:09:36.069><c>have </c><00:09:36.819><c>hierarchical</c>
+
+00:09:37.110 --> 00:09:37.120 align:start position:0%
+and have hierarchical
+ 
+
+00:09:37.120 --> 00:09:39.180 align:start position:0%
+and have hierarchical
+folder <00:09:37.316><c>structures. </c><00:09:37.512><c>You </c><00:09:37.708><c>can </c><00:09:37.904><c>give </c><00:09:38.100><c>permissions </c><00:09:38.296><c>to </c><00:09:38.492><c>one </c><00:09:38.688><c>folder </c><00:09:38.884><c>to</c>
+
+00:09:39.180 --> 00:09:39.190 align:start position:0%
+folder structures. You can give permissions to one folder to
+ 
+
+00:09:39.190 --> 00:09:40.590 align:start position:0%
+folder structures. You can give permissions to one folder to
+another. <00:09:39.569><c>It's </c><00:09:39.948><c>been </c><00:09:40.327><c>quite</c>
+
+00:09:40.590 --> 00:09:40.600 align:start position:0%
+another. It's been quite
+ 
+
+00:09:40.600 --> 00:09:42.329 align:start position:0%
+another. It's been quite
+addictive; <00:09:40.801><c>it's </c><00:09:41.002><c>a </c><00:09:41.203><c>very </c><00:09:41.404><c>good </c><00:09:41.605><c>way </c><00:09:41.806><c>to... </c><00:09:42.007><c>best</c>
+
+00:09:42.329 --> 00:09:42.339 align:start position:0%
+addictive; it's a very good way to... best
+ 
+
+00:09:42.339 --> 00:09:43.530 align:start position:0%
+addictive; it's a very good way to... best
+of <00:09:42.567><c>all, </c><00:09:42.795><c>its </c><00:09:43.023><c>learning </c><00:09:43.251><c>curve </c><00:09:43.479><c>is</c>
+
+00:09:43.530 --> 00:09:43.540 align:start position:0%
+of all, its learning curve is
+ 
+
+00:09:43.540 --> 00:09:47.040 align:start position:0%
+of all, its learning curve is
+safe, <00:09:44.327><c>meaning </c><00:09:45.114><c>it's </c><00:09:45.901><c>super </c><00:09:46.688><c>intuitive.</c>
+
+00:09:47.040 --> 00:09:47.050 align:start position:0%
+safe, meaning it's super intuitive.
+ 
+
+00:09:47.050 --> 00:09:48.269 align:start position:0%
+safe, meaning it's super intuitive.
+Beginners <00:09:47.217><c>and </c><00:09:47.384><c>experts </c><00:09:47.551><c>alike </c><00:09:47.718><c>can </c><00:09:47.885><c>do</c>
+
+00:09:48.269 --> 00:09:48.279 align:start position:0%
+Beginners and experts alike can do
+ 
+
+00:09:48.279 --> 00:09:49.980 align:start position:0%
+Beginners and experts alike can do
+anything <00:09:48.549><c>they </c><00:09:48.819><c>have </c><00:09:49.089><c>no </c><00:09:49.359><c>idea </c><00:09:49.629><c>about,</c>
+
+00:09:49.980 --> 00:09:49.990 align:start position:0%
+anything they have no idea about,
+ 
+
+00:09:49.990 --> 00:09:52.139 align:start position:0%
+anything they have no idea about,
+and <00:09:50.226><c>it's </c><00:09:50.462><c>a </c><00:09:50.698><c>real </c><00:09:50.934><c>engine. </c><00:09:51.170><c>You </c><00:09:51.406><c>don't </c><00:09:51.642><c>need </c><00:09:51.878><c>to</c>
+
+00:09:52.139 --> 00:09:52.149 align:start position:0%
+and it's a real engine. You don't need to
+ 
+
+00:09:52.149 --> 00:09:53.940 align:start position:0%
+and it's a real engine. You don't need to
+take <00:09:52.275><c>a </c><00:09:52.401><c>course </c><00:09:52.527><c>anymore; </c><00:09:52.653><c>just </c><00:09:52.779><c>click</c>
+
+00:09:53.940 --> 00:09:53.950 align:start position:0%
+take a course anymore; just click
+ 
+
+00:09:53.950 --> 00:09:56.160 align:start position:0%
+take a course anymore; just click
+the <00:09:54.670><c>link </c><00:09:55.390><c>in </c><00:09:56.110><c>the</c>
+
+00:09:56.160 --> 00:09:56.170 align:start position:0%
+the link in the
+ 
+
+00:09:56.170 --> 00:09:59.040 align:start position:0%
+the link in the
+description <00:09:56.500><c>right </c><00:09:56.830><c>now, </c><00:09:57.160><c>and </c><00:09:57.490><c>you </c><00:09:57.820><c>can </c><00:09:58.150><c>do </c><00:09:58.480><c>it</c>
+
+00:09:59.040 --> 00:09:59.050 align:start position:0%
+description right now, and you can do it
+ 
+
+00:09:59.050 --> 00:10:01.530 align:start position:0%
+description right now, and you can do it
+without <00:09:59.650><c>any </c><00:10:00.250><c>problems </c><00:10:00.850><c>or </c><00:10:01.450><c>prior</c>
+
+00:10:01.530 --> 00:10:01.540 align:start position:0%
+without any problems or prior
+ 
+
+00:10:01.540 --> 00:10:03.840 align:start position:0%
+without any problems or prior
+knowledge. <00:10:01.887><c>It's </c><00:10:02.234><c>super </c><00:10:02.581><c>easy, </c><00:10:02.928><c>a </c><00:10:03.275><c>great</c>
+
+00:10:03.840 --> 00:10:03.850 align:start position:0%
+knowledge. It's super easy, a great
+ 
+
+00:10:03.850 --> 00:10:05.430 align:start position:0%
+knowledge. It's super easy, a great
+appetizer, <00:10:04.330><c>and </c><00:10:04.810><c>it </c><00:10:05.290><c>serves</c>
+
+00:10:05.430 --> 00:10:05.440 align:start position:0%
+appetizer, and it serves
+ 
+
+00:10:05.440 --> 00:10:07.139 align:start position:0%
+appetizer, and it serves
+as <00:10:05.695><c>a </c><00:10:05.950><c>reference </c><00:10:06.205><c>point </c><00:10:06.460><c>for </c><00:10:06.715><c>everything </c><00:10:06.970><c>I</c>
+
+00:10:07.139 --> 00:10:07.149 align:start position:0%
+as a reference point for everything I
+ 
+
+00:10:07.149 --> 00:10:08.850 align:start position:0%
+as a reference point for everything I
+was <00:10:07.516><c>talking </c><00:10:07.883><c>about. </c><00:10:08.250><c>There </c><00:10:08.617><c>are</c>
+
+00:10:08.850 --> 00:10:08.860 align:start position:0%
+was talking about. There are
+ 
+
+00:10:08.860 --> 00:10:11.160 align:start position:0%
+was talking about. There are
+even <00:10:09.225><c>tips, </c><00:10:09.590><c>I </c><00:10:09.955><c>mean, </c><00:10:10.320><c>they </c><00:10:10.685><c>give </c><00:10:11.050><c>you</c>
+
+00:10:11.160 --> 00:10:11.170 align:start position:0%
+even tips, I mean, they give you
+ 
+
+00:10:11.170 --> 00:10:13.079 align:start position:0%
+even tips, I mean, they give you
+cool <00:10:11.406><c>advice, </c><00:10:11.642><c>Jona's </c><00:10:11.878><c>tips. </c><00:10:12.114><c>You </c><00:10:12.350><c>don't </c><00:10:12.586><c>even </c><00:10:12.822><c>have </c><00:10:13.058><c>to</c>
+
+00:10:13.079 --> 00:10:13.089 align:start position:0%
+cool advice, Jona's tips. You don't even have to
+ 
+
+00:10:13.089 --> 00:10:15.570 align:start position:0%
+cool advice, Jona's tips. You don't even have to
+pay <00:10:13.384><c>for </c><00:10:13.679><c>a </c><00:10:13.974><c>course; </c><00:10:14.269><c>you </c><00:10:14.564><c>just </c><00:10:14.859><c>go </c><00:10:15.154><c>and</c>
+
+00:10:15.570 --> 00:10:15.580 align:start position:0%
+pay for a course; you just go and
+ 
+
+00:10:15.580 --> 00:10:17.610 align:start position:0%
+pay for a course; you just go and
+learn <00:10:15.916><c>right </c><00:10:16.252><c>there, </c><00:10:16.588><c>not </c><00:10:16.924><c>only </c><00:10:17.260><c>about</c>
+
+00:10:17.610 --> 00:10:17.620 align:start position:0%
+learn right there, not only about
+ 
+
+00:10:17.620 --> 00:10:19.050 align:start position:0%
+learn right there, not only about
+how <00:10:17.758><c>to </c><00:10:17.896><c>use </c><00:10:18.034><c>those </c><00:10:18.172><c>tools, </c><00:10:18.310><c>which </c><00:10:18.448><c>you </c><00:10:18.586><c>don't </c><00:10:18.724><c>even</c>
+
+00:10:19.050 --> 00:10:19.060 align:start position:0%
+how to use those tools, which you don't even
+ 
+
+00:10:19.060 --> 00:10:20.760 align:start position:0%
+how to use those tools, which you don't even
+need <00:10:19.174><c>much </c><00:10:19.288><c>of </c><00:10:19.402><c>because </c><00:10:19.516><c>it's </c><00:10:19.630><c>so </c><00:10:19.744><c>easy, </c><00:10:19.858><c>but </c><00:10:19.972><c>also </c><00:10:20.086><c>about </c><00:10:20.200><c>what </c><00:10:20.314><c>you</c>
+
+00:10:20.760 --> 00:10:20.770 align:start position:0%
+need much of because it's so easy, but also about what you
+ 
+
+00:10:20.770 --> 00:10:22.860 align:start position:0%
+need much of because it's so easy, but also about what you
+should <00:10:21.235><c>do. </c><00:10:21.700><c>These </c><00:10:22.165><c>exes </c><00:10:22.630><c>and</c>
+
+00:10:22.860 --> 00:10:22.870 align:start position:0%
+should do. These exes and
+ 
+
+00:10:22.870 --> 00:10:25.920 align:start position:0%
+should do. These exes and
+I <00:10:23.218><c>were, </c><00:10:23.566><c>and </c><00:10:23.914><c>why </c><00:10:24.262><c>use </c><00:10:24.610><c>this </c><00:10:24.958><c>mobile </c><00:10:25.306><c>phone, </c><00:10:25.654><c>but</c>
+
+00:10:25.920 --> 00:10:25.930 align:start position:0%
+I were, and why use this mobile phone, but
+ 
+
+00:10:25.930 --> 00:10:28.199 align:start position:0%
+I were, and why use this mobile phone, but
+why <00:10:26.131><c>use </c><00:10:26.332><c>it </c><00:10:26.533><c>without </c><00:10:26.734><c>a </c><00:10:26.935><c>topic. </c><00:10:27.136><c>I </c><00:10:27.337><c>mean, </c><00:10:27.538><c>it's </c><00:10:27.739><c>very </c><00:10:27.940><c>good,</c>
+
+00:10:28.199 --> 00:10:28.209 align:start position:0%
+why use it without a topic. I mean, it's very good,
+ 
+
+00:10:28.209 --> 00:10:29.730 align:start position:0%
+why use it without a topic. I mean, it's very good,
+everything <00:10:28.399><c>they </c><00:10:28.589><c>mention </c><00:10:28.779><c>is </c><00:10:28.969><c>totally </c><00:10:29.159><c>worth </c><00:10:29.349><c>it.</c>
+
+00:10:29.730 --> 00:10:29.740 align:start position:0%
+everything they mention is totally worth it.
+ 
+
+00:10:29.740 --> 00:10:31.740 align:start position:0%
+everything they mention is totally worth it.
+One <00:10:30.020><c>thing </c><00:10:30.300><c>is, </c><00:10:30.580><c>they've </c><00:10:30.860><c>worked </c><00:10:31.140><c>with </c><00:10:31.420><c>Google,</c>
+
+00:10:31.740 --> 00:10:31.750 align:start position:0%
+One thing is, they've worked with Google,
+ 
+
+00:10:31.750 --> 00:10:34.650 align:start position:0%
+One thing is, they've worked with Google,
+Apple, <00:10:32.650><c>PayPal, </c><00:10:33.550><c>IBM, </c><00:10:34.450><c>and</c>
+
+00:10:34.650 --> 00:10:34.660 align:start position:0%
+Apple, PayPal, IBM, and
+ 
+
+00:10:34.660 --> 00:10:36.990 align:start position:0%
+Apple, PayPal, IBM, and
+they've <00:10:35.162><c>worked </c><00:10:35.664><c>with </c><00:10:36.166><c>Uber. </c><00:10:36.668><c>They're</c>
+
+00:10:36.990 --> 00:10:37.000 align:start position:0%
+they've worked with Uber. They're
+ 
+
+00:10:37.000 --> 00:10:39.329 align:start position:0%
+they've worked with Uber. They're
+very <00:10:37.223><c>good, </c><00:10:37.446><c>and </c><00:10:37.669><c>on </c><00:10:37.892><c>top </c><00:10:38.115><c>of </c><00:10:38.338><c>that, </c><00:10:38.561><c>they've </c><00:10:38.784><c>worked </c><00:10:39.007><c>with</c>
+
+00:10:39.329 --> 00:10:39.339 align:start position:0%
+very good, and on top of that, they've worked with
+ 
+
+00:10:39.339 --> 00:10:41.340 align:start position:0%
+very good, and on top of that, they've worked with
+someone <00:10:39.657><c>who's </c><00:10:39.975><c>magical—I </c><00:10:40.293><c>mean, </c><00:10:40.611><c>there </c><00:10:40.929><c>are</c>
+
+00:10:41.340 --> 00:10:41.350 align:start position:0%
+someone who's magical—I mean, there are
+ 
+
+00:10:41.350 --> 00:10:44.160 align:start position:0%
+someone who's magical—I mean, there are
+seven <00:10:41.650><c>of </c><00:10:41.950><c>them. </c><00:10:42.250><c>It's </c><00:10:42.550><c>fantastic </c><00:10:42.850><c>because, </c><00:10:43.150><c>if </c><00:10:43.450><c>you </c><00:10:43.750><c>give </c><00:10:44.050><c>the</c>
+
+00:10:44.160 --> 00:10:44.170 align:start position:0%
+seven of them. It's fantastic because, if you give the
+ 
+
+00:10:44.170 --> 00:10:45.480 align:start position:0%
+seven of them. It's fantastic because, if you give the
+tennis <00:10:44.315><c>player </c><00:10:44.460><c>a </c><00:10:44.605><c>procedure, </c><00:10:44.750><c>speaking </c><00:10:44.895><c>of </c><00:10:45.040><c>the </c><00:10:45.185><c>kings,</c>
+
+00:10:45.480 --> 00:10:45.490 align:start position:0%
+tennis player a procedure, speaking of the kings,
+ 
+
+00:10:45.490 --> 00:10:47.070 align:start position:0%
+tennis player a procedure, speaking of the kings,
+exactly, <00:10:45.681><c>they're </c><00:10:45.872><c>going </c><00:10:46.063><c>to </c><00:10:46.254><c>work </c><00:10:46.445><c>with </c><00:10:46.636><c>quite </c><00:10:46.827><c>a </c><00:10:47.018><c>lot.</c>
+
+00:10:47.070 --> 00:10:47.080 align:start position:0%
+exactly, they're going to work with quite a lot.
+ 
+
+00:10:47.080 --> 00:10:49.410 align:start position:0%
+exactly, they're going to work with quite a lot.
+Click <00:10:47.354><c>on </c><00:10:47.628><c>the </c><00:10:47.902><c>description, </c><00:10:48.176><c>it </c><00:10:48.450><c>uses </c><00:10:48.724><c>it, </c><00:10:48.998><c>it</c>
+
+00:10:49.410 --> 00:10:49.420 align:start position:0%
+Click on the description, it uses it, it
+ 
+
+00:10:49.420 --> 00:10:51.150 align:start position:0%
+Click on the description, it uses it, it
+'s <00:10:49.622><c>really </c><00:10:49.824><c>beautiful.  </c><00:10:50.026><c>And </c><00:10:50.228><c>so, </c><00:10:50.430><c>folks, </c><00:10:50.632><c>now </c><00:10:50.834><c>that </c><00:10:51.036><c>you've</c>
+
+00:10:51.150 --> 00:10:51.160 align:start position:0%
+'s really beautiful.  And so, folks, now that you've
+ 
+
+00:10:51.160 --> 00:10:52.710 align:start position:0%
+'s really beautiful.  And so, folks, now that you've
+considered <00:10:51.535><c>everything </c><00:10:51.910><c>you </c><00:10:52.285><c>need </c><00:10:52.660><c>to</c>
+
+00:10:52.710 --> 00:10:52.720 align:start position:0%
+considered everything you need to
+ 
+
+00:10:52.720 --> 00:10:55.319 align:start position:0%
+considered everything you need to
+do <00:10:53.058><c>to </c><00:10:53.396><c>start </c><00:10:53.734><c>a </c><00:10:54.072><c>website—in </c><00:10:54.410><c>fact, </c><00:10:54.748><c>to </c><00:10:55.086><c>actually</c>
+
+00:10:55.319 --> 00:10:55.329 align:start position:0%
+do to start a website—in fact, to actually
+ 
+
+00:10:55.329 --> 00:10:57.570 align:start position:0%
+do to start a website—in fact, to actually
+start <00:10:55.854><c>a </c><00:10:56.379><c>website—I </c><00:10:56.904><c>can </c><00:10:57.429><c>leave</c>
+
+00:10:57.570 --> 00:10:57.580 align:start position:0%
+start a website—I can leave
+ 
+
+00:10:57.580 --> 00:10:59.220 align:start position:0%
+start a website—I can leave
+without <00:10:57.892><c>a </c><00:10:58.204><c>problem </c><00:10:58.516><c>because </c><00:10:58.828><c>I've </c><00:10:59.140><c>just</c>
+
+00:10:59.220 --> 00:10:59.230 align:start position:0%
+without a problem because I've just
+ 
+
+00:10:59.230 --> 00:11:00.750 align:start position:0%
+without a problem because I've just
+accomplished <00:10:59.362><c>my </c><00:10:59.494><c>goal, </c><00:10:59.626><c>which </c><00:10:59.758><c>was </c><00:10:59.890><c>to </c><00:11:00.022><c>teach </c><00:11:00.154><c>you.</c>
+
+00:11:00.750 --> 00:11:00.760 align:start position:0%
+accomplished my goal, which was to teach you.
+ 
+
+00:11:00.760 --> 00:11:01.710 align:start position:0%
+accomplished my goal, which was to teach you.
+So <00:11:00.890><c>you </c><00:11:01.020><c>already </c><00:11:01.150><c>have </c><00:11:01.280><c>all </c><00:11:01.410><c>the </c><00:11:01.540><c>basics:</c>
+
+00:11:01.710 --> 00:11:01.720 align:start position:0%
+So you already have all the basics:
+ 
+
+00:11:01.720 --> 00:11:03.150 align:start position:0%
+So you already have all the basics:
+define <00:11:02.057><c>the </c><00:11:02.394><c>objective, </c><00:11:02.731><c>define </c><00:11:03.068><c>the</c>
+
+00:11:03.150 --> 00:11:03.160 align:start position:0%
+define the objective, define the
+ 
+
+00:11:03.160 --> 00:11:04.470 align:start position:0%
+define the objective, define the
+functionalities <00:11:03.407><c>of </c><00:11:03.654><c>being </c><00:11:03.901><c>a </c><00:11:04.148><c>keyword</c>
+
+00:11:04.470 --> 00:11:04.480 align:start position:0%
+functionalities of being a keyword
+ 
+
+00:11:04.480 --> 00:11:05.730 align:start position:0%
+functionalities of being a keyword
+researcher, <00:11:04.757><c>apply </c><00:11:05.034><c>the </c><00:11:05.311><c>copyright-free </c><00:11:05.588><c>tutorial,</c>
+
+00:11:05.730 --> 00:11:05.740 align:start position:0%
+researcher, apply the copyright-free tutorial,
+ 
+
+00:11:05.740 --> 00:11:07.650 align:start position:0%
+researcher, apply the copyright-free tutorial,
+and <00:11:06.230><c>then </c><00:11:06.720><c>you </c><00:11:07.210><c>can</c>
+
+00:11:07.650 --> 00:11:07.660 align:start position:0%
+and then you can
+ 
+
+00:11:07.660 --> 00:11:08.820 align:start position:0%
+and then you can
+work <00:11:07.810><c>on </c><00:11:07.960><c>the </c><00:11:08.110><c>War </c><00:11:08.260><c>Frank, </c><00:11:08.410><c>which </c><00:11:08.560><c>are </c><00:11:08.710><c>the</c>
+
+00:11:08.820 --> 00:11:08.830 align:start position:0%
+work on the War Frank, which are the
+ 
+
+00:11:08.830 --> 00:11:10.410 align:start position:0%
+work on the War Frank, which are the
+sketches <00:11:08.990><c>that </c><00:11:09.150><c>will </c><00:11:09.310><c>allow </c><00:11:09.470><c>you </c><00:11:09.630><c>to </c><00:11:09.790><c>understand</c>
+
+00:11:10.410 --> 00:11:10.420 align:start position:0%
+sketches that will allow you to understand
+ 
+
+00:11:10.420 --> 00:11:12.240 align:start position:0%
+sketches that will allow you to understand
+the <00:11:10.600><c>design, </c><00:11:10.780><c>the </c><00:11:10.960><c>user </c><00:11:11.140><c>experience, </c><00:11:11.320><c>and </c><00:11:11.500><c>so </c><00:11:11.680><c>on, </c><00:11:11.860><c>so </c><00:11:12.040><c>you</c>
+
+00:11:12.240 --> 00:11:12.250 align:start position:0%
+the design, the user experience, and so on, so you
+ 
+
+00:11:12.250 --> 00:11:13.890 align:start position:0%
+the design, the user experience, and so on, so you
+can <00:11:12.655><c>later </c><00:11:13.060><c>implement </c><00:11:13.465><c>it </c><00:11:13.870><c>in</c>
+
+00:11:13.890 --> 00:11:13.900 align:start position:0%
+can later implement it in
+ 
+
+00:11:13.900 --> 00:11:15.660 align:start position:0%
+can later implement it in
+production. <00:11:14.224><c>With </c><00:11:14.548><c>all </c><00:11:14.872><c>that, </c><00:11:15.196><c>you'll </c><00:11:15.520><c>know</c>
+
+00:11:15.660 --> 00:11:15.670 align:start position:0%
+production. With all that, you'll know
+ 
+
+00:11:15.670 --> 00:11:18.240 align:start position:0%
+production. With all that, you'll know
+without <00:11:15.858><c>problems </c><00:11:16.046><c>how </c><00:11:16.234><c>to </c><00:11:16.422><c>make </c><00:11:16.610><c>your </c><00:11:16.798><c>website. </c><00:11:16.986><c>You </c><00:11:17.174><c>won't </c><00:11:17.362><c>run </c><00:11:17.550><c>into </c><00:11:17.738><c>any</c>
+
+00:11:18.240 --> 00:11:18.250 align:start position:0%
+without problems how to make your website. You won't run into any
+ 
+
+00:11:18.250 --> 00:11:19.290 align:start position:0%
+without problems how to make your website. You won't run into any
+problems <00:11:19.270><c>because</c>
+
+00:11:19.290 --> 00:11:19.300 align:start position:0%
+problems because
+ 
+
+00:11:19.300 --> 00:11:20.970 align:start position:0%
+problems because
+everything <00:11:19.514><c>will </c><00:11:19.728><c>be </c><00:11:19.942><c>planned. </c><00:11:20.156><c>You </c><00:11:20.370><c>just </c><00:11:20.584><c>have </c><00:11:20.798><c>to</c>
+
+00:11:20.970 --> 00:11:20.980 align:start position:0%
+everything will be planned. You just have to
+ 
+
+00:11:20.980 --> 00:11:22.260 align:start position:0%
+everything will be planned. You just have to
+see <00:11:21.175><c>how </c><00:11:21.370><c>to </c><00:11:21.565><c>handle </c><00:11:21.760><c>the </c><00:11:21.955><c>code. </c><00:11:22.150><c>No</c>
+
+00:11:22.260 --> 00:11:22.270 align:start position:0%
+see how to handle the code. No
+ 
+
+00:11:22.270 --> 00:11:23.490 align:start position:0%
+see how to handle the code. No
+problems <00:11:22.445><c>will </c><00:11:22.620><c>arise </c><00:11:22.795><c>because </c><00:11:22.970><c>everything </c><00:11:23.145><c>is </c><00:11:23.320><c>ready.</c>
+
+00:11:23.490 --> 00:11:23.500 align:start position:0%
+problems will arise because everything is ready.
+ 
+
+00:11:23.500 --> 00:11:25.410 align:start position:0%
+problems will arise because everything is ready.
+Now <00:11:23.691><c>all </c><00:11:23.882><c>that's </c><00:11:24.073><c>left </c><00:11:24.264><c>is </c><00:11:24.455><c>to </c><00:11:24.646><c>put </c><00:11:24.837><c>it </c><00:11:25.028><c>into</c>
+
+00:11:25.410 --> 00:11:25.420 align:start position:0%
+Now all that's left is to put it into
+ 
+
+00:11:25.420 --> 00:11:26.910 align:start position:0%
+Now all that's left is to put it into
+code, <00:11:25.573><c>and </c><00:11:25.726><c>if </c><00:11:25.879><c>you </c><00:11:26.032><c>don't </c><00:11:26.185><c>know </c><00:11:26.338><c>code, </c><00:11:26.491><c>you </c><00:11:26.644><c>have </c><00:11:26.797><c>the</c>
+
+00:11:26.910 --> 00:11:26.920 align:start position:0%
+code, and if you don't know code, you have the
+ 
+
+00:11:26.920 --> 00:11:28.170 align:start position:0%
+code, and if you don't know code, you have the
+top-
+
+00:11:28.170 --> 00:11:28.180 align:start position:0%
+top-
+ 
+
+00:11:28.180 --> 00:11:29.520 align:start position:0%
+top-
+ranked <00:11:28.347><c>courses, </c><00:11:28.514><c>and </c><00:11:28.681><c>all </c><00:11:28.848><c>of </c><00:11:29.015><c>YouTube, </c><00:11:29.182><c>on </c><00:11:29.349><c>the</c>
+
+00:11:29.520 --> 00:11:29.530 align:start position:0%
+ranked courses, and all of YouTube, on the
+ 
+
+00:11:29.530 --> 00:11:30.660 align:start position:0%
+ranked courses, and all of YouTube, on the
+biggest <00:11:29.710><c>programming </c><00:11:29.890><c>and </c><00:11:30.070><c>theater </c><00:11:30.250><c>channel </c><00:11:30.430><c>in</c>
+
+00:11:30.660 --> 00:11:30.670 align:start position:0%
+biggest programming and theater channel in
+ 
+
+00:11:30.670 --> 00:11:32.520 align:start position:0%
+biggest programming and theater channel in
+Argentina, <00:11:30.930><c>so </c><00:11:31.190><c>you </c><00:11:31.450><c>can </c><00:11:31.710><c>learn </c><00:11:31.970><c>to </c><00:11:32.230><c>program.</c>
+
+00:11:32.520 --> 00:11:32.530 align:start position:0%
+Argentina, so you can learn to program.
+ 
+
+00:11:32.530 --> 00:11:33.990 align:start position:0%
+Argentina, so you can learn to program.
+So, <00:11:32.755><c>folks, </c><00:11:32.980><c>I'm </c><00:11:33.205><c>going </c><00:11:33.430><c>to </c><00:11:33.655><c>say </c><00:11:33.880><c>goodbye,</c>
+
+00:11:33.990 --> 00:11:34.000 align:start position:0%
+So, folks, I'm going to say goodbye,
+ 
+
+00:11:34.000 --> 00:11:36.000 align:start position:0%
+So, folks, I'm going to say goodbye,
+and <00:11:34.590><c>even </c><00:11:35.180><c>though </c><00:11:35.770><c>all</c>
+
+00:11:36.000 --> 00:11:36.010 align:start position:0%
+and even though all
+ 
+
+00:11:36.010 --> 00:11:37.110 align:start position:0%
+and even though all
+the <00:11:36.205><c>ads, </c><00:11:36.400><c>you </c><00:11:36.595><c>still </c><00:11:36.790><c>haven't</c>
+
+00:11:37.110 --> 00:11:37.120 align:start position:0%
+the ads, you still haven't
+ 
+
+00:11:37.120 --> 00:11:39.440 align:start position:0%
+the ads, you still haven't
+installed <00:11:37.390><c>anything, </c><00:11:37.660><c>obviously.</c>
+
+00:11:39.440 --> 00:11:39.450 align:start position:0%
+installed anything, obviously.
+ 
+
+00:11:39.450 --> 00:11:41.770 align:start position:0%
+installed anything, obviously.
+Nothing <00:11:39.862><c>will </c><00:11:40.274><c>ever </c><00:11:40.686><c>make </c><00:11:41.098><c>you</c>
+
+00:11:41.770 --> 00:11:41.780 align:start position:0%
+Nothing will ever make you
+ 
+
+00:11:41.780 --> 00:11:44.660 align:start position:0%
+Nothing will ever make you
+a <00:11:42.304><c>good </c><00:11:42.828><c>programmer. </c><00:11:43.352><c>And </c><00:11:43.876><c>now </c><00:11:44.400><c>I'll</c>
+
+00:11:44.660 --> 00:11:44.670 align:start position:0%
+a good programmer. And now I'll
+ 
+
+00:11:44.670 --> 00:11:46.310 align:start position:0%
+a good programmer. And now I'll
+leave <00:11:44.835><c>you.  </c><00:11:45.000><c>A </c><00:11:45.165><c>phrase </c><00:11:45.330><c>you </c><00:11:45.495><c>have </c><00:11:45.660><c>to </c><00:11:45.825><c>think </c><00:11:45.990><c>about</c>
+
+00:11:46.310 --> 00:11:46.320 align:start position:0%
+leave you.  A phrase you have to think about
+ 
+
+00:11:46.320 --> 00:11:48.470 align:start position:0%
+leave you.  A phrase you have to think about
+to <00:11:46.555><c>solve </c><00:11:46.790><c>a </c><00:11:47.025><c>lot </c><00:11:47.260><c>of </c><00:11:47.495><c>things </c><00:11:47.730><c>is: </c><00:11:47.965><c>after</c>
+
+00:11:48.470 --> 00:11:48.480 align:start position:0%
+to solve a lot of things is: after
+ 
+
+00:11:48.480 --> 00:11:50.270 align:start position:0%
+to solve a lot of things is: after
+being <00:11:48.700><c>a </c><00:11:48.920><c>minister, </c><00:11:49.140><c>she </c><00:11:49.360><c>puts </c><00:11:49.580><c>into </c><00:11:49.800><c>practice</c>
+
+00:11:50.270 --> 00:11:50.280 align:start position:0%
+being a minister, she puts into practice
+ 
+
+00:11:50.280 --> 00:11:51.760 align:start position:0%
+being a minister, she puts into practice
+programs <00:11:50.710><c>to </c><00:11:51.140><c>solve </c><00:11:51.570><c>problems,</c>
+
+00:11:51.760 --> 00:11:51.770 align:start position:0%
+programs to solve problems,
+ 
+
+00:11:51.770 --> 00:11:54.440 align:start position:0%
+programs to solve problems,
+programs <00:11:52.323><c>to </c><00:11:52.876><c>create </c><00:11:53.429><c>solutions.</c>
+
+00:11:54.440 --> 00:11:54.450 align:start position:0%
+programs to create solutions.
+ 
+
+00:11:54.450 --> 00:11:58.190 align:start position:0%
+programs to create solutions.
+I'm <00:11:54.690><c>Dalto, </c><00:11:54.930><c>and </c><00:11:55.170><c>see </c><00:11:55.410><c>you </c><00:11:55.650><c>next </c><00:11:55.890><c>time.</c>
+

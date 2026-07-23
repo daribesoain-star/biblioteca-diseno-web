@@ -1,0 +1,673 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.728
+Welcome to this video tutorial where I'm going to show
+
+00:00:02.728 --> 00:00:04.960
+you how to use the Pydantic module in Python.
+
+00:00:04.960 --> 00:00:08.319
+One of the biggest issues with Python as a programming
+
+00:00:08.319 --> 00:00:10.640
+language is the lack of static typing.
+
+00:00:10.640 --> 00:00:13.021
+Python uses dynamic typing, which means that
+
+00:00:13.021 --> 00:00:15.456
+when you create a variable, you don't have to
+
+00:00:15.456 --> 00:00:17.680
+declare its type, like this x for example.
+
+00:00:17.680 --> 00:00:20.146
+Compare this to something like Java or C where
+
+00:00:20.146 --> 00:00:22.560
+you actually have to declare the type upfront.
+
+00:00:22.560 --> 00:00:25.572
+Once a Python variable is created, you can also override
+
+00:00:25.572 --> 00:00:28.480
+it with a different type than what you created it with.
+
+00:00:28.480 --> 00:00:31.694
+So here if I create x = 10, in the next line I can
+
+00:00:31.694 --> 00:00:34.720
+override that with the word "hello" as a string.
+
+00:00:34.720 --> 00:00:37.192
+And Python allows you to do this. This does
+
+00:00:37.192 --> 00:00:39.607
+make it easier to get started with Python,
+
+00:00:39.607 --> 00:00:42.080
+but it can cause a lot of problems later on.
+
+00:00:42.080 --> 00:00:44.633
+For example, as your app gets bigger, it becomes
+
+00:00:44.633 --> 00:00:46.927
+harder and harder to keep track of all your
+
+00:00:46.927 --> 00:00:48.960
+variables and what type they should be.
+
+00:00:48.960 --> 00:00:51.780
+It's also difficult when you have to work with functions
+
+00:00:51.780 --> 00:00:53.760
+where the argument types aren't obvious.
+
+00:00:53.760 --> 00:00:57.040
+For example, what is this "rect" argument supposed to be here?
+
+00:00:57.040 --> 00:00:59.956
+It could be a tuple, but then it doesn't tell you
+
+00:00:59.956 --> 00:01:02.640
+if the x-axis or the y-axis should come first.
+
+00:01:02.640 --> 00:01:06.569
+But the biggest downside of using dynamic types by far is that
+
+00:01:06.569 --> 00:01:10.000
+it allows you to accidentally create an invalid object.
+
+00:01:10.000 --> 00:01:14.080
+By that, I mean an object with values that it shouldn't be allowed to have.
+
+00:01:14.080 --> 00:01:16.529
+For example, here I'm trying to create a person
+
+00:01:16.529 --> 00:01:18.519
+and the second argument is supposed to
+
+00:01:18.519 --> 00:01:20.560
+be age, so it's supposed to be a number.
+
+00:01:20.560 --> 00:01:24.420
+In the first example, I created correctly with 24 as an integer,
+
+00:01:24.420 --> 00:01:27.920
+but in the second example, I created with 24 as a string.
+
+00:01:27.920 --> 00:01:30.951
+And both of them might work at the beginning. Python will allow
+
+00:01:30.951 --> 00:01:33.840
+you to do this and things can actually seem fine for a while.
+
+00:01:33.840 --> 00:01:39.120
+But eventually, when you do try to use that age variable as a number, it will fail.
+
+00:01:39.120 --> 00:01:42.174
+This can be really hard to debug because the failure
+
+00:01:42.174 --> 00:01:44.480
+could occur at any time in your program.
+
+00:01:44.480 --> 00:01:49.200
+And it could be hard to associate that failure with the actual cause.
+
+00:01:49.200 --> 00:01:53.920
+Luckily, these days, Python has a lot of tools you can use to solve these problems.
+
+00:01:53.920 --> 00:01:58.480
+This includes dataclasses and type-hinting, like in this code example here.
+
+00:01:58.480 --> 00:02:01.120
+But today, we're going to be taking a look at Pydantic.
+
+00:02:01.120 --> 00:02:03.630
+It's an external library and it gives you powerful
+
+00:02:03.630 --> 00:02:05.993
+tools to model your data and solve all of these
+
+00:02:05.993 --> 00:02:08.160
+problems that we've just been talking about.
+
+00:02:08.160 --> 00:02:15.040
+Pydantic is a data validation library in Python.
+
+00:02:15.040 --> 00:02:18.705
+It's used by some of the top Python modules out there,
+
+00:02:18.705 --> 00:02:21.760
+notably HuggingFace, FastAPI, and LangChain.
+
+00:02:21.760 --> 00:02:25.335
+Its main benefits are that by modeling your data, you get
+
+00:02:25.335 --> 00:02:28.480
+better IDE support for type-hints and autocomplete.
+
+00:02:28.480 --> 00:02:31.180
+You can also validate your data so that when
+
+00:02:31.180 --> 00:02:34.060
+you create an object, you can be 100% sure that
+
+00:02:34.060 --> 00:02:36.400
+it's valid and it won't fail you later.
+
+00:02:36.400 --> 00:02:39.078
+And finally, if you ever need your data to be
+
+00:02:39.078 --> 00:02:41.874
+in a universal format like JSON, Pydantic gives
+
+00:02:41.874 --> 00:02:44.320
+you an easy way to serialize your objects.
+
+00:02:44.320 --> 00:02:46.913
+This really comes in handy if you need your Python
+
+00:02:46.913 --> 00:02:49.049
+app to talk to other apps on the internet,
+
+00:02:49.049 --> 00:02:51.440
+or if you just want to save your data to disk.
+
+00:02:51.440 --> 00:02:53.760
+Let's take a look at how all of that works.
+
+00:02:53.760 --> 00:02:56.602
+First, make sure that you've installed Pydantic into your
+
+00:02:56.602 --> 00:02:59.200
+Python environment. You can do it using this command.
+
+00:02:59.200 --> 00:03:02.591
+To create a Pydantic model, first define a class
+
+00:03:02.591 --> 00:03:05.360
+that inherits from the base model class.
+
+00:03:05.360 --> 00:03:09.520
+Inside the class, define the fields of the model as class variables.
+
+00:03:09.520 --> 00:03:12.280
+In this example, I'm creating a user model and
+
+00:03:12.280 --> 00:03:14.629
+it's got three fields, a name, which is
+
+00:03:14.629 --> 00:03:17.565
+a string, an email, also a string, and an account
+
+00:03:17.565 --> 00:03:19.680
+ID, which is going to be an integer.
+
+00:03:19.680 --> 00:03:22.814
+You can create an instance of the model like this and
+
+00:03:22.814 --> 00:03:25.600
+then just pass in the data as keyword arguments.
+
+00:03:25.600 --> 00:03:28.480
+You can also do this by unpacking a dictionary.
+
+00:03:28.480 --> 00:03:30.709
+So this works well if you already have the data
+
+00:03:30.709 --> 00:03:32.800
+and you just want to put it inside the model.
+
+00:03:32.800 --> 00:03:36.400
+For example, you have a response from an external API.
+
+00:03:36.400 --> 00:03:38.917
+If the data that you've passed in is valid, then
+
+00:03:38.917 --> 00:03:41.280
+this user object will be successfully created.
+
+00:03:41.280 --> 00:03:45.600
+You can then access each of the attributes of the user object like this.
+
+00:03:45.600 --> 00:03:49.440
+I'm going to head over to my IDE so I can show you how this works in action.
+
+00:03:49.440 --> 00:03:53.047
+I have my user model defined here and I think by
+
+00:03:53.047 --> 00:03:56.360
+far the most useful feature of modeling your
+
+00:03:56.360 --> 00:03:59.600
+data is that you get type hints in your IDE.
+
+00:03:59.600 --> 00:04:03.031
+So what I mean is if I start typing out my user, I get
+
+00:04:03.031 --> 00:04:06.400
+autocomplete and auto suggestions based on this model.
+
+00:04:06.400 --> 00:04:09.688
+So here I've created this user object and I haven't
+
+00:04:09.688 --> 00:04:12.661
+filled in the data yet, but if I mouse over it,
+
+00:04:12.661 --> 00:04:15.760
+it actually tells me which arguments it accepts.
+
+00:04:15.760 --> 00:04:19.738
+And here I can fill it in with the examples you saw earlier,
+
+00:04:19.738 --> 00:04:23.120
+so a valid name, a valid email, and an account ID.
+
+00:04:24.960 --> 00:04:27.661
+And now if I print the user, you can see that all of
+
+00:04:27.661 --> 00:04:30.160
+this information is contained in this one object.
+
+00:04:30.160 --> 00:04:33.301
+And of course the type hinting makes it easier to work with
+
+00:04:33.301 --> 00:04:35.920
+when you actually need to use one of these models.
+
+00:04:35.920 --> 00:04:38.317
+So for example here, if I'm printing the user,
+
+00:04:38.317 --> 00:04:40.766
+I can just press a dot and then I get a list of
+
+00:04:40.766 --> 00:04:42.960
+all the valid variables associated with it.
+
+00:04:42.960 --> 00:04:45.907
+So for example, if I wanted email, I just start typing
+
+00:04:45.907 --> 00:04:48.640
+and it knows that this user has an email attribute.
+
+00:04:48.640 --> 00:04:51.895
+With type hints, your code becomes much easier to work with
+
+00:04:51.895 --> 00:04:54.880
+because you don't have to remember everything yourself.
+
+00:04:54.880 --> 00:04:57.943
+Your IDE does it for you, and this is especially useful
+
+00:04:57.943 --> 00:05:00.515
+if you're working with really large code bases
+
+00:05:00.515 --> 00:05:03.360
+or if you need to collaborate with other developers.
+
+00:05:03.360 --> 00:05:08.080
+Pydantic also provides data validation right out of the box.
+
+00:05:08.080 --> 00:05:11.053
+This means that if you try to create an object with the
+
+00:05:11.053 --> 00:05:13.920
+wrong type of data, it will fail right then and there.
+
+00:05:13.920 --> 00:05:17.138
+This is good because if your software has to fail, then
+
+00:05:17.138 --> 00:05:19.840
+it's better that it fails as early as possible.
+
+00:05:19.840 --> 00:05:22.080
+This will make it easier to debug.
+
+00:05:22.080 --> 00:05:24.720
+So let's go back to our example here and see how that works.
+
+00:05:24.720 --> 00:05:27.992
+If I try to create this user with an account ID that's
+
+00:05:27.992 --> 00:05:31.265
+not an integer, for example if I turn it into a string
+
+00:05:31.265 --> 00:05:34.240
+and I try to run it, I now get a validation error.
+
+00:05:34.240 --> 00:05:36.858
+So I can see immediately that I tried to create
+
+00:05:36.858 --> 00:05:39.040
+this object with the wrong type of data.
+
+00:05:39.040 --> 00:05:42.021
+And in cases like these, I much rather it fail
+
+00:05:42.021 --> 00:05:44.431
+right away with the descriptive error
+
+00:05:44.431 --> 00:05:47.286
+message than silently succeed, but then fail
+
+00:05:47.286 --> 00:05:49.760
+at some point much later down the line.
+
+00:05:49.760 --> 00:05:52.880
+You can also validate more complex types of data.
+
+00:05:52.880 --> 00:05:55.388
+For example, let's say I wanted to validate
+
+00:05:55.388 --> 00:05:57.840
+that this string is actually a valid email.
+
+00:05:57.840 --> 00:06:02.880
+First, let's change it to an invalid email, for example just Jack on its own.
+
+00:06:02.880 --> 00:06:05.973
+So this is no longer an email, and if I run this it still
+
+00:06:05.973 --> 00:06:08.960
+works because all this checks for is that it's a string.
+
+00:06:08.960 --> 00:06:13.440
+But I can actually import a special data type called email string from Pydantic.
+
+00:06:13.440 --> 00:06:16.332
+And if I replace this instead and run this again,
+
+00:06:16.332 --> 00:06:19.225
+you'll now see that I get this validation error
+
+00:06:19.225 --> 00:06:22.000
+and that this string here is not a valid email.
+
+00:06:22.000 --> 00:06:25.200
+So let me change this back to a valid email again and see if that works.
+
+00:06:25.200 --> 00:06:30.240
+And after fixing this value, the validation passes.
+
+00:06:30.240 --> 00:06:33.678
+So I have an easy way to assert that this email
+
+00:06:33.678 --> 00:06:36.400
+field always has a valid email string.
+
+00:06:36.400 --> 00:06:39.709
+If none of the inbuilt validation types cover your needs,
+
+00:06:39.709 --> 00:06:42.960
+you can also add custom validation logic to your model.
+
+00:06:43.440 --> 00:06:46.626
+For example, let's say that we want to enforce that
+
+00:06:46.626 --> 00:06:49.200
+all account IDs must be a positive number.
+
+00:06:49.200 --> 00:06:52.400
+So we don't accept negative integers for our account ID.
+
+00:06:52.400 --> 00:06:54.880
+This is what we can add to our class to make that happen.
+
+00:06:54.880 --> 00:06:58.640
+First, we'll have to use this validator decorator from Pydantic.
+
+00:06:58.640 --> 00:07:00.400
+And then we write a custom function.
+
+00:07:00.400 --> 00:07:02.080
+This is going to be a class function.
+
+00:07:02.080 --> 00:07:04.604
+And then inside the function, we can check if
+
+00:07:04.604 --> 00:07:06.800
+the value is less than or equal to zero.
+
+00:07:06.800 --> 00:07:09.496
+And if it is, we can raise a value error saying
+
+00:07:09.496 --> 00:07:12.080
+that this is not a valid value for this field.
+
+00:07:12.080 --> 00:07:14.240
+But if it is, we can return the value.
+
+00:07:14.240 --> 00:07:16.640
+So let's go back to our code editor and try that out.
+
+00:07:16.640 --> 00:07:20.320
+And here I've imported this validator decorator.
+
+00:07:20.320 --> 00:07:25.360
+And this is the validation logic I'm adding as a class function of this user model.
+
+00:07:25.360 --> 00:07:28.198
+And here you can change this validation condition
+
+00:07:28.198 --> 00:07:30.640
+to whatever you want it to be for your app.
+
+00:07:30.640 --> 00:07:33.920
+But in this case, I'm just checking that it's greater than zero.
+
+00:07:33.920 --> 00:07:36.640
+So if I run this with my current data, it should still work.
+
+00:07:36.640 --> 00:07:38.960
+And here you can see that it's fine.
+
+00:07:38.960 --> 00:07:42.160
+But if I change this to a negative number, let's see what happens.
+
+00:07:42.160 --> 00:07:45.428
+Now it fails with that validation error and
+
+00:07:45.428 --> 00:07:48.400
+it says the account ID must be positive.
+
+00:07:48.400 --> 00:07:50.594
+And here we can actually make the error message
+
+00:07:50.594 --> 00:07:52.834
+really descriptive because we can print anything
+
+00:07:52.834 --> 00:07:54.937
+we want here. And we can even print the value
+
+00:07:54.937 --> 00:07:57.040
+that the user tried to create this model with.
+
+00:07:57.040 --> 00:08:00.560
+Another great thing about Pydantic is that it provides
+
+00:08:00.560 --> 00:08:03.120
+built-in support for JSON serialization.
+
+00:08:03.120 --> 00:08:07.840
+Makes it really easy to convert Pydantic models to or from JSON.
+
+00:08:07.840 --> 00:08:10.826
+To convert a Pydantic model to JSON, you can
+
+00:08:10.826 --> 00:08:13.680
+call the JSON method on the model instance.
+
+00:08:13.680 --> 00:08:18.160
+This will return a JSON string representation of the model's data.
+
+00:08:18.160 --> 00:08:20.800
+So if you print it out, you'll see something like this.
+
+00:08:20.800 --> 00:08:23.742
+And if you don't want a JSON string, but you
+
+00:08:23.742 --> 00:08:26.554
+just want a plain Python dictionary object
+
+00:08:26.554 --> 00:08:29.040
+instead, you can use this dict method.
+
+00:08:29.040 --> 00:08:32.917
+If you have a JSON string that you want to convert back into
+
+00:08:32.917 --> 00:08:36.160
+a Pydantic model, you can use the parse_raw method.
+
+00:08:36.960 --> 00:08:39.695
+And since JSON is widely used and understood
+
+00:08:39.695 --> 00:08:42.369
+across every major tech stack, this feature
+
+00:08:42.369 --> 00:08:45.408
+will make it really easy to integrate your Python
+
+00:08:45.408 --> 00:08:47.840
+code with external applications or APIs.
+
+00:08:47.840 --> 00:08:52.005
+Finally, let's see how Pydantic compares to dataclasses, which
+
+00:08:52.005 --> 00:08:55.840
+is Python's built-in module that solves a similar problem.
+
+00:08:55.840 --> 00:08:59.815
+As great as Pydantic sounds, Python actually does ship with some
+
+00:08:59.815 --> 00:09:03.179
+data modeling and type hinting capabilities on its own.
+
+00:09:03.179 --> 00:09:06.272
+For example, you can already specify type hints
+
+00:09:06.272 --> 00:09:09.043
+like this, and most IDEs should pick it up.
+
+00:09:09.043 --> 00:09:12.135
+There's also an inbuilt module called "dataclass" in
+
+00:09:12.135 --> 00:09:14.937
+Python that lets you create a class with fields.
+
+00:09:14.937 --> 00:09:18.916
+So if you haven't used it before, this is what the syntax looks like.
+
+00:09:18.916 --> 00:09:21.974
+It's very similar to Pydantic, except instead
+
+00:09:21.974 --> 00:09:24.967
+of extending from a base model class, you're
+
+00:09:24.967 --> 00:09:27.760
+using this "@dataclass" decorator instead.
+
+00:09:27.760 --> 00:09:30.400
+As you can see, it's also really easy to use.
+
+00:09:30.960 --> 00:09:33.360
+So how does this compare to Pydantic? Well, let's
+
+00:09:33.360 --> 00:09:35.280
+take a look at some of the top criteria.
+
+00:09:35.280 --> 00:09:39.101
+They actually both give you type hints in the IDE, which personally
+
+00:09:39.101 --> 00:09:42.136
+is the biggest reason for using these libraries to me.
+
+00:09:42.136 --> 00:09:43.793
+So both of them tick that box.
+
+00:09:43.793 --> 00:09:47.820
+Dataclasses, however, does not give you any easy validation
+
+00:09:47.820 --> 00:09:50.640
+or deep JSON serialization out of the box.
+
+00:09:50.640 --> 00:09:53.305
+Now, if validation is a big deal for you, for example,
+
+00:09:53.305 --> 00:09:55.477
+you have a lot of emails or you have a lot
+
+00:09:55.477 --> 00:09:57.797
+of fields where the data type is very specific,
+
+00:09:57.797 --> 00:09:59.920
+then you probably should go with Pydantic.
+
+00:09:59.920 --> 00:10:03.266
+If you're using dataclass, then your JSON serialization
+
+00:10:03.266 --> 00:10:06.373
+capability isn't as good out of the box as Pydantic.
+
+00:10:06.373 --> 00:10:09.651
+But if your data is simple enough, you can still do some
+
+00:10:09.651 --> 00:10:12.354
+basic serialization with a one-liner like this.
+
+00:10:12.354 --> 00:10:15.909
+The one major advantage that dataclasses have over Pydantic
+
+00:10:15.909 --> 00:10:18.635
+is that they're in-built into Python directly.
+
+00:10:18.635 --> 00:10:22.528
+That means that it's more lightweight and you don't even have to install it.
+
+00:10:22.528 --> 00:10:24.472
+For many users, this may be enough.
+
+00:10:24.472 --> 00:10:27.156
+If you want some rough guidance as to which
+
+00:10:27.156 --> 00:10:30.145
+module you should use, then I recommend Pydantic
+
+00:10:30.145 --> 00:10:32.524
+if you have complex data models or you
+
+00:10:32.524 --> 00:10:35.086
+need to do a lot of JSON serialization or
+
+00:10:35.086 --> 00:10:37.832
+you need to work with a lot of external APIs.
+
+00:10:37.832 --> 00:10:41.634
+But if data validation isn't important to you and your data
+
+00:10:41.634 --> 00:10:45.120
+isn't super complex, you can get away with dataclasses.
+
+00:10:45.120 --> 00:10:46.380
+And that's it for Pydantic.
+
+00:10:46.380 --> 00:10:50.110
+If you haven't used it yet, then give it a try and let me know what you think.
+
+00:10:50.110 --> 00:10:53.310
+If you've enjoyed this video and want to see more tutorials
+
+00:10:53.310 --> 00:10:55.870
+like this, then please subscribe to the channel
+
+00:10:55.870 --> 00:10:58.271
+and let me know in the comments what type of
+
+00:10:58.271 --> 00:11:00.885
+topics or modules you'd like to see covered next.
+
+00:11:00.885 --> 00:11:06.640
+Otherwise, I hope you found this useful and thank you for watching.
+

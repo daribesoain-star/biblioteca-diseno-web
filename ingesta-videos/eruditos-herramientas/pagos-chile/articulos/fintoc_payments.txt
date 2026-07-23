@@ -1,0 +1,1467 @@
+
+
+===== DOC: overview-payment-initiation =====
+
+# Overview
+
+Our Checkout Session API allows users to pay with their bank accounts or cards from within your application or website.
+
+Here are some use cases:
+
+* You have an e-commerce and want your users to pay using bank transfers or cards
+* You have a payment platform and want to have multiple payment options to offer to your users
+* You have a wallet or digital bank-type application and want to let your users add funds to their account
+* You have an application and want your users to transfer money between them (*peer-to-peer* transfers)
+
+<Image align="center" border={false} caption="Payment flow of the bank transfer method" src="https://files.readme.io/b74507ca23aa905686c3688390f73f0fabf23bb8e6c911ccd4b5d9756598342a-pantallas_idp.png" />
+
+===== DOC: quickstart-payments =====
+
+# Quickstart
+
+Try the Checkout Session API in less than 10 minutes
+
+To start using Fintoc's Checkout Session API, you just need to create an account on our Dashboard and follow these five steps:
+
+1. Get your test API Keys
+2. Create a Checkout Session
+3. Redirect your user to the Fintoc-hosted checkout page
+4. Handle post-payments events
+5. Make your first payment
+
+# Step 1: Initial Setup
+
+## Get your test API Keys
+
+Every interaction with the Fintoc API must be authenticated with the [API Keys](https://docs.fintoc.com/docs/api-keys) of your Fintoc account. If an interaction with the API does not include your API Key or includes an incorrect API Key, Fintoc will return an error.
+
+Every Fintoc account has two key pairs: one corresponds to the [test mode](), while the other corresponds to the actual API environment. Every resource is stored either in [test mode or in live mode](https://docs.fintoc.com/docs/test-mode), and resources from one environment cannot be manipulated by resources from the other environment.
+
+Your API Keys will be available in the [Dashboard](https://app.fintoc.com). First you need to create an account on the Fintoc Dashboard. Once your Fintoc account has been created, you will be able to get your API Keys. In this case, you must use the **Public Key** and  **Secret Key** from [test mode](https://docs.fintoc.com/docs/sandbox). To easily identify them, we added the prefix **pk*test*** and **sk*test***, respectively.
+
+## Optional: Install Fintoc's backend SDK
+
+<Tabs>
+  <Tab title="Python">
+    If you’re using Python, you can install our [Python SDK](https://github.com/fintoc-com/fintoc-python) to make it easier to interact with our API. The SDK automatically handles pagination, lets you easily verify Fintoc's webhooks, and offers many other helpful features.
+
+````
+```
+pip install fintoc
+```
+````
+
+  </Tab>
+
+  <Tab title="Node">
+    If you’re using Node, you can install our [Node SDK](https://github.com/fintoc-com/fintoc-node) to make it easier to interact with our API. The SDK automatically handles pagination, lets you easily verify Fintoc's webhooks, and offers many other helpful features.
+
+````
+```
+npm install fintoc
+```
+````
+
+  </Tab>
+</Tabs>
+
+# Step 2: Create a Checkout Session
+
+Using your test **Secret Key**, create a Checkout Session from your backend with the amount and currency of the payment. Always create the Checkout Session from your backend, or a malicious user could alter any of those fields.
+
+If you plan on using the Refunds product, you must include a `customer_email` in the Checkout Session request.
+
+Here's an example of creating a Checkout Session for Chile:
+
+```curl
+curl --request POST "https://api.fintoc.com/v2/checkout_sessions" \
+  --header "Authorization: YOUR_TEST_SECRET_API_KEY" \
+  --header "Content-Type: application/json" \
+  --data-raw '{
+    "amount": 2476,
+    "currency": "CLP",
+    "customer_email": "name@example.com",
+    "success_url": "https://merchant.com/success",
+    "cancel_url": "https://merchant.com/987654321"
+  }'
+```
+```javascript Node
+const { Fintoc } = require('fintoc');
+
+const fintoc = new Fintoc('YOUR_TEST_SECRET_API_KEY');
+
+const checkoutSession = await fintoc.checkoutSessions.create({
+  amount: 1000,
+  currency: 'mxn',
+  customer_email: 'name@example.com'
+});
+```
+```python
+from fintoc import Fintoc
+
+client = Fintoc('YOUR_TEST_SECRET_API_KEY')
+
+checkout_session = client.checkout_sessions.create(
+  amount=1000,
+  currency='clp',
+  customer_email='name@example.com'
+)
+```
+```ruby
+require 'net/http'
+require 'uri'
+require 'json'
+
+checkout_session = {
+  amount: 1000,
+  currency: 'clp',
+  customer_email: 'name@example.com'
+}
+
+uri = URI("https://api.fintoc.com/v2/checkout_sessions")
+
+header = {
+  Accept: 'application/json', Authorization: 'YOUR_TEST_SECRET_API_KEY'
+}
+
+http = Net::HTTP.new(uri.host, uri.port)
+request = Net::HTTP::Post.new(uri.request_uri, header)
+request.body = checkout_session.to_json
+
+response = http.request(request)
+```
+
+If you want to create a Checkout Session for Mexico, change the currency to `MXN`.
+
+> 🚧 Currencies are represented as integers
+>
+> The Fintoc API represents currencies in its smallest possible units with no decimals (as an integer). That means that an **amount of MXN 10.29 gets represented by Fintoc as 1029**. You can read more about currencies [here](https://docs.fintoc.com/docs/currencies).
+
+The response should look like this:
+
+```json
+{
+  "id": "cs_li5531onlFDi235",
+  "object": "checkout_session",
+  "mode": "test",
+  "status": "created",
+  "amount": 350000,
+  "currency": "CLP",
+  "created_at": "2024-06-04T15:32:46.721Z",
+  "updated_at": "2024-06-04T15:32:46.721Z",
+  "success_url": "https://merchant.com/success",
+  "cancel_url": "https://merchant.com/987654321",
+  "redirect_url": "https://checkout.fintoc.com/checkout_session_01HXY3Z7X5YQ54V8G2E1KJQAVF",
+  "metadata": {},
+  "customer": {}
+}
+```
+
+# Step 3: Redirect your user to the Fintoc-hosted checkout page
+
+Your new created `checkout_session` should contain the `redirect_url` attribute. You must redirect your user to this url to complete the payment flow.
+
+<Image align="center" caption="Payment flow when the user selects &#x22;Paga con tu banco&#x22;" src="https://files.readme.io/d39b082fafc3431f6752955cfa1bb4825fd80b45c0ec19ab071cb35768529c65-bank-transfer-payment-flow.png" />
+
+# Step 4: Handle post-payment events
+
+Fintoc sends a `checkout_session.finished` event when the payment related to a session is completed. Use the [webhook guide](https://docs.fintoc.com/docs/webhooks-walkthrough) to receive these events and run actions, such as sending an order confirmation email to your customer, logging the sale in a database, or starting a shipping workflow.
+
+Listen for these events rather than waiting on a callback from the client. From the client side, On the client, the customer could close the browser window or quit the app before the callback executes, and malicious clients could manipulate the response.
+
+We recommend handling the following events:
+
+| Event                       | Description                                                                                                                                             | Action                                                                                                                 |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------- |
+| `checkout_session.finished` | Sent when a customer has completed a payment. The webhook contains information about the Payment including its final status.                            | Depending on the final status of the related payment, confirm the order to the customer or offer to retry the payment. |
+| `checkout_session.expired`  | Triggers when a customer leaves the payment flow before finishing                                                                                       | Offer the customer another attempt to pay.                                                                             |
+| `payment_intent.succeeded`  | Sent when the payment related to a checkout session succeeds. It's useful for confirming payments that were previously in pending status                | Confirm the customer's order                                                                                           |
+| `payment_intent.failed`     | Sent when the payment related to a checkout session fails. It's used to determinate the final status of payments that were previously in pending status | Offer the customer another attempt to pay.                                                                             |
+
+> 📘 Learn more about webhooks
+>
+> To learn more about how to create your own webhook endpoint, test your webhook endpoint and security best practices read our [Webhooks guide](https://docs.fintoc.com/docs/webhooks-walkthrough).
+
+# Step 5: Make your first payment
+
+Once the you access the Fintoc-hosted checkout page, follow the payment flow using [Fintoc's test special values](https://docs.fintoc.com/docs/payment-initiation-test-your-integration). For a successful payment, you can use one of these values:
+
+* In Chile, select any bank and login using the `41614850-3` rut and `jonsnow` password. Once you are logged in to the bank, select the account with the number `422159212`. After you select that account, wait 5 seconds and the payment should be successful.
+* For Mexico, select any bank and write the number `5555555555`. Wait 5 seconds and the payment should be successful.
+
+You should have received a `checkout_session.finished` event containing a successful payment in your webhook endpoint.
+
+Congratulations! You just made your first Fintoc payment! To test different payment flows, see [Fintoc's test special values](https://docs.fintoc.com/docs/payment-initiation-test-your-integration).
+
+===== DOC: payment-initiation-countries-and-institutions =====
+
+# Countries and Institutions
+
+# Chile 🇨🇱
+
+## Available Sender Banks
+
+The Payment Initiation module supports the following banks in Chile:
+
+| Bank Name                       | Fintoc Bank ID           |
+| :------------------------------ | :----------------------- |
+| Banco Estado                    | `cl_banco_estado`        |
+| Banco BCI                       | `cl_banco_bci`           |
+| Banco BICE                      | `cl_banco_bice`          |
+| Banco de Chile - Edwards - Citi | `cl_banco_de_chile`      |
+| Banco Falabella                 | `cl_banco_falabella`     |
+| Banco Itaú                      | `cl_banco_itau`          |
+| Banco Ripley                    | `cl_banco_ripley`        |
+| Banco Santander                 | `cl_banco_santander`     |
+| Banco Consorcio                 | `cl_banco_consorcio`     |
+| Scotiabank                      | `cl_banco_scotiabank`    |
+| Mercado Pago                    | `cl_mercado_pago`        |
+| Mach                            | `cl_mach`                |
+| Tenpo                           | `cl_tenpo`               |
+| Banco Security                  | `cl_banco_security`      |
+| Tapp                            | `cl_tapp_caja_los_andes` |
+| Banco Internacional             | `cl_banco_internacional` |
+| Coopeuch - Dale                 | `cl_banco_coopeuch`      |
+| Copec Pay                       | `cl_copec_pay`           |
+| Prepago Los Heroes              | `cl_prepago_los_heroes`  |
+| BBVA                            | `cl_banco_bbva`          |
+| HSBC                            | `cl_banco_hsbc`          |
+
+# Mexico 🇲🇽
+
+## Available Sender Banks
+
+The Payments module supports all institutions participating in SPEI.
+
+===== DOC: transaction-limits =====
+
+# Transaction limits
+
+Transaction limits vary depending on the country you are operating in. These are constantly changing, so contact us if your experience differences from the information below.
+
+# Chile 🇨🇱
+
+In Chile, banks have certain daily limits when dealing with payments that may have an impact on your business. These limits vary based on the type of Multi-Factor Authentication (MFA) chosen by the user, the type of account, and whether the payment is to a new or existing recipient.
+
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        **Bank**
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        **New recipient**
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        **Existing recipient**
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        **Minimum Amount**
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **Banco BCI**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        MultiPass (MFA): $250.000
+
+        BciPass (MFA): $600.000
+
+        (Maximum 1 transaction in the first 24h)
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        MultiPass (MFA): $5.000.000
+
+        BciPass (MFA): $7.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $1
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **Banco de Chile**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $350.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        DigiPass/Mi Pass (MFA): $5.000.000
+
+        DigiCard (MFA): $2.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $1
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **Banco Santander**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $250.000
+
+        (Maximum 1 transaction in the first 24h)
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $5.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $1.000
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **Banco Estado**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        From Cuenta Rut: $100.000
+
+        Other accounts: $250.000
+
+        (Maximum 1 transaction in the first 24h)
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        From Cuenta Rut: $1.000.000
+
+        Other accounts: $5.000.000
+
+        From Cuenta Rut to a digital account like Tenpo/Mach/Tapp: $100.000
+
+        From other accounts to Tenpo/Mach: $250.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $1
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **Banco Itaú**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $300.000
+
+        (Maximum 1 transaction in the first 24h)
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $7.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $1
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **Banco Falabella**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        To Banco Estado: $200.000
+
+        Other Accounts: $1.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        To Cuenta Vista: $2.000.000
+
+        To Cuenta Corriente: $7.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $1
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **Scotiabank**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $300.000
+
+        (Maximum 1 transaction in the first 24h)
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $5.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $1
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **BICE**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $250.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        From Cuenta BICE GO (Daily accumulated total): $5.000.000
+
+        From Cuenta BICE GO (In a single transfer): $2.500.000
+
+        From Cuenta Corriente: $7.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $1
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **Banco Ripley**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $250.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Daily accumulated total: $7.000.000
+
+        In a single transfer: $2.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $1
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+# Mexico 🇲🇽
+
+There are currently no single transaction or daily amount limits for transactions in México.
+
+===== DOC: payments-use-cases =====
+
+# Payment scenarios
+
+Learn how Fintoc supports your use case
+
+Fintoc supports two payment scenarios depending on the countries you operate in. Start with the type of business you are building the integration for and use the table below to identify the best type of integration.
+
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        Payment scenario
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Description
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Best for
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Supported in
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Fintoc collects
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        When your customer makes a payment, the money goes to a bank account managed by Fintoc. Then, based on your selected payout schedule, Fintoc sends the money to your bank account.
+
+        Fintoc is **in** the flow of funds.
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        E-commerces or any company selling goods or services online
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Chile and Mexico
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Direct payments
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        When your customer makes a bank transfer payment, the money goes directly to your specified bank account.
+
+        Fintoc is **not in** the flow of funds.
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Fintech companies like wallets, neo banks, and p2p applications
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Chile
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+# Fintoc collects
+
+<Image align="center" border={false} src="https://files.readme.io/0fac3f9acb607dd7538a40beef4aaad0d7bcca8b579c85c4e7d52a65ad53ac21-Presentacion_sin_titulo.png" />
+
+When Fintoc collects your payments, the money goes to a bank account managed by Fintoc. Fintoc tracks and matches when the payments settle on the account. We also handle any external payment —payments using an external channel, such as a regular bank transfer— to this account for you. Then, depending on your [payout schedule](https://docs.fintoc.com/docs/payment-initiation-receiving-payouts), Fintoc sends the funds to your bank account. Fintoc discounts your [application fees](https://docs.fintoc.com/docs/payment-initiation-receiving-payouts#billing) directly from your payouts.
+
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Advantage
+      </th>
+
+      <th>
+        Disadvantage
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Simple to operate with.
+
+        You don't need to track and match the Fintoc payments you receive in your account, nor handle external bank transfers. Fintoc does this for you.
+      </td>
+
+      <td>
+        Funds arrive in your bank account with a delay. Usually the next business day. See the [receiving payouts guide](https://docs.fintoc.com/docs/payment-initiation-receiving-payouts) for more information.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+We recommend this type of integration for e-commerces or any company that wants to receive payments but doesn't want to handle complex operations or edge cases.
+
+# Direct payments
+
+<Image align="center" border={false} src="https://files.readme.io/a6be80ca2e738f6b406394f665e597130002c5ea81a4b6e844173fbe94dd4ef9-Presentacion_sin_titulo_1.png" />
+
+> 📘 Only available in Chile and for bank transfer payments
+>
+> For now direct payments is only available in Chile and for payments of the method bank transfer.
+
+In direct payments, the money flows directly from your customer's bank account to the recipient account you specify.
+
+If you collect the money in a single bank account, you'll need to periodically download your bank statement, run a reconciliation process to track and match Fintoc payments and handle any external bank transfers you may receive.
+
+| Advantage                                                   | Disadvantage                                                                                                             |
+| :---------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
+| The funds arrive instantly in the recipient's bank account. | You need to run complex reconciliation processes to handle external bank transfers, and track and match Fintoc payments. |
+
+===== DOC: accept-a-payment =====
+
+# Accept a payment
+
+Accept one-time payments in CLP or MXN through a Fintoc-hosted checkout page
+
+Build a payment flow that collects one-time payments in CLP or MXN through a Fintoc-hosted checkout page.
+
+To accept payments with Fintoc, you complete three steps:
+
+1. On your backend, create a `Checkout Session` using your [Secret Key](https://docs.fintoc.com/docs/api-keys)
+2. Redirect your customer to complete the payment on the Fintoc-hosted checkout page
+3. Handle post-payment events
+
+The following diagram shows how Fintoc interacts with both your backend and your frontend:
+
+<Image src="https://files.readme.io/40e0b1888c86590031351e94422f1d5e23207fcb2f795a93eb76cbb6c780a9eb-accept-payment-diagram.png" align="center" />
+
+## Optional: install the backend SDK
+
+<Tabs>
+  <Tab title="Python">
+    If you’re using Python, you can install our [Python SDK](https://github.com/fintoc-com/fintoc-python) to make it easier to interact with our API. The SDK automatically handles pagination, lets you easily verify Fintoc's webhooks, and offers many other helpful features.
+
+````
+```
+pip install fintoc
+```
+````
+
+  </Tab>
+
+  <Tab title="Node">
+    If you’re using Node, you can install our [Node SDK](https://github.com/fintoc-com/fintoc-node) to make it easier to interact with our API. The SDK automatically handles pagination, lets you easily verify Fintoc's webhooks, and offers many other helpful features.
+
+````
+```
+npm install fintoc
+```
+````
+
+  </Tab>
+</Tabs>
+
+## Create a session
+
+The [Checkout Session](https://docs.fintoc.com/reference/checkout-session-object) object represents your intent to collect a payment from a customer and tracks state changes throughout the payment process.
+
+Using your [Secret Key](https://docs.fintoc.com/docs/api-keys), create a `Checkout Session` from your backend with the required parameters: `amount`, `currency`, `success_url`, and `cancel_url`, like the example below:
+
+**Server**
+
+```curl
+curl --request POST "https://api.fintoc.com/v2/checkout_sessions" \
+  --header "Authorization: YOUR_TEST_SECRET_API_KEY" \
+  --header "Content-Type: application/json" \
+  --data-raw '{
+    "amount": 350000,
+    "currency": "CLP",
+    "success_url": "https://merchant.com/success",
+    "cancel_url": "https://merchant.com/cancel",
+    "customer_data": {
+      "tax_id": {
+        "type": "cl_rut",
+        "value": "11.111.111-1"
+      },
+      "name": "Felipe Castro",
+      "email": "jon@snow.com",
+      "metadata": {}
+    },
+    "metadata": {
+      "order": "987654321"
+    }
+  }'
+```
+```javascript Node
+const { Fintoc } = require('fintoc');
+
+const fintoc = new Fintoc('YOUR_TEST_SECRET_API_KEY');
+
+const checkoutSession = await fintoc.checkoutSessions.create({
+  amount: 350000,
+  currency: 'CLP',
+  success_url: 'https://merchant.com/success',
+  cancel_url: 'https://merchant.com/cancel',
+  customer_data: {
+    tax_id: {
+      type: 'cl_rut',
+      value: '11.111.111-1'
+    },
+    name: 'Felipe Castro',
+    email: 'jon@snow.com',
+    metadata: {}
+  },
+  metadata: {
+    order: '987654321'
+  }
+});
+```
+```python
+from fintoc import Fintoc
+
+client = Fintoc('YOUR_TEST_SECRET_API_KEY')
+
+checkout_session = client.checkout_sessions.create(
+    amount=350000,
+    currency='CLP',
+    success_url='https://merchant.com/success',
+    cancel_url='https://merchant.com/cancel',
+    customer_data={
+        'tax_id': {
+            'type': 'cl_rut',
+            'value': '11.111.111-1'
+        },
+        'name': 'Felipe Castro',
+        'email': 'jon@snow.com',
+        'metadata': {}
+    },
+    metadata={
+        'order': '987654321'
+    }
+)
+```
+
+Fintoc responds with the created `Checkout Session` object, including the `redirect_url` you use to send the customer to the payment:
+
+```json
+{
+  "id": "cs_li5531onlFDi235",
+  "object": "checkout_session",
+  "mode": "test",
+  "status": "created",
+  "amount": 350000,
+  "currency": "CLP",
+  "created_at": "2024-06-04T15:32:46.721Z",
+  "updated_at": "2024-06-04T15:32:46.721Z",
+  "success_url": "https://merchant.com/success",
+  "cancel_url": "https://merchant.com/cancel",
+  "redirect_url": "https://pay.fintoc.com/checkout/cs_li5531onlFDi235",
+  "metadata": {
+    "order": "987654321"
+  },
+  "customer": {
+    "id": "cus_3B2bODrQFje7ZVkT69xyaTSDwXQ",
+    "object": "customer",
+    "name": "Felipe Castro",
+    "email": "jon@snow.com",
+    "metadata": {},
+    "tax_id": {
+      "type": "cl_rut",
+      "value": "11.111.111-1"
+    }
+  }
+}
+```
+
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
+
+      <th>
+        Example
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        `amount`
+      </td>
+
+      <td>
+        350000
+      </td>
+
+      <td>
+        **Required.** A positive integer representing the amount to charge, in the smallest currency unit. CLP has no minor unit, so `350000` means CLP 350000. MXN uses centavos, so `350000` means MXN 3500.00. [Read more about currencies](https://docs.fintoc.com/docs/currencies).
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `currency`
+      </td>
+
+      <td>
+        CLP or MXN
+      </td>
+
+      <td>
+        **Required.** Three-letter ISO 4217 currency code. Fintoc supports `CLP` and `MXN`; see the [supported currencies](https://docs.fintoc.com/docs/currencies) for the full list.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `success_url`
+      </td>
+
+      <td>
+        `https://merchant.com/success`
+      </td>
+
+      <td>
+        **Required.** URL Fintoc redirects the customer to after a successful payment.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `cancel_url`
+      </td>
+
+      <td>
+        `https://merchant.com/cancel`
+      </td>
+
+      <td>
+        **Required.** URL Fintoc redirects the customer to if they cancel the payment and return to your website.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `metadata`
+      </td>
+
+      <td>
+        `{"order": "987654321"}`
+      </td>
+
+      <td>
+        Set of key-value pairs you can attach to an object, useful for storing additional information in a structured format.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+### Business profile (optional)
+
+> 📘 Send the Business Profile object if you are processing payments for a submerchant
+>
+> You can also add the `business_profile` object when creating a session to customize the name displayed as the "Recipient" on the payment flow.
+>
+> [Read here to learn more](https://docs.fintoc.com/reference/checkout-sessions-create).
+
+### Include customer data (optional)
+
+When creating a `Checkout Session`, you can include customer information by sending a `customer_data` object (or `customer` with the `id` of an existing `Customer`). This information allows Fintoc to display only the payment methods available for that specific customer. For example, Fintoc hides a bank when the amount exceeds its [transaction limit](https://docs.fintoc.com/docs/transaction-limits).
+
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Attribute
+      </th>
+
+      <th>
+        Type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        `tax_id`
+      </td>
+
+      <td>
+        `object`
+      </td>
+
+      <td>
+        **Required if no `email`.** Object that identifies the customer at a fiscal or regulatory level.
+
+        It includes a `type` field indicating the format or country-specific identifier, for example, `cl_rut` for a Chilean tax ID (RUT) or `mx_rfc` for a Mexican tax ID (RFC). It also includes a `value` field that contains the tax identifier as a string.
+
+        If a `Customer` with the same `tax_id` already exists, the request returns a `409 Conflict` error. To reuse an existing `Customer`, send its `id` in `customer` instead of `customer_data`.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `name`
+      </td>
+
+      <td>
+        `string`
+      </td>
+
+      <td>
+        Full name of the customer.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `email`
+      </td>
+
+      <td>
+        `string`
+      </td>
+
+      <td>
+        **Required if no `tax_id`.** Email address of the customer.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `metadata`
+      </td>
+
+      <td>
+        `object`
+      </td>
+
+      <td>
+        Custom data that stores additional information about the customer, such as internal IDs, CRM references, or tags.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+> 📘 Bank specific payment flows for business accounts and high amounts
+>
+> In Chile, some `bank_transfer` payments require banks with special payment flows: Banco Estado, Banco de Chile, and Banco Santander. Fintoc limits the session to these banks when the payment exceeds the [transaction limits](https://docs.fintoc.com/docs/transaction-limits) or the `customer` has a `tax_id.value` of a business instead of a natural person. You can test this flow with [these credentials](https://docs.fintoc.com/docs/payment-initiation-test-your-integration#testing-with-banco-estados-compraqui-payment-flow).
+
+### Include a list of items (optional)
+
+When creating a `Checkout Session`, you can also send the `line_items`, including information about the items of the session. This enables Fintoc to display this information on the checkout page and show only the payment methods available for specific products.
+
+Each item should have:
+
+| Attribute    | Type      | Description                                                              |
+| :----------- | :-------- | :----------------------------------------------------------------------- |
+| `quantity`   | `integer` | **Required.** Number of units of this item being purchased.              |
+| `price_data` | `object`  | **Required.** Object with the price of the item and its product details. |
+
+#### The `price_data` object
+
+| Attribute      | Type      | Description                                                                                                                   |
+| :------------- | :-------- | :---------------------------------------------------------------------------------------------------------------------------- |
+| `product_data` | `object`  | **Required.** Object with information about the product, such as its name and image.                                          |
+| `currency`     | `string`  | **Required.** Three-letter ISO 4217 currency code (for example, `CLP`, `MXN`).                                                |
+| `unit_amount`  | `integer` | **Required.** Price per unit of the item, in the smallest currency unit. CLP has no minor unit, so `350000` means CLP 350000. |
+
+#### The `product_data` object
+
+The `price_data` object contains a `product_data` object with product information:
+
+| Attribute   | Type     | Description                                                                     |
+| :---------- | :------- | :------------------------------------------------------------------------------ |
+| `name`      | `string` | **Required.** Name of the product or service being purchased.                   |
+| `image_url` | `string` | Image URL for the product. Must be an HTTPS URL. Recommended aspect ratio: 9:4. |
+
+The example below creates a `Checkout Session` with a single line item:
+
+**Server**
+
+```curl
+curl --request POST "https://api.fintoc.com/v2/checkout_sessions" \
+  --header "Authorization: YOUR_TEST_SECRET_API_KEY" \
+  --header "Content-Type: application/json" \
+  --data-raw '{
+    "amount": 350000,
+    "currency": "CLP",
+    "success_url": "https://merchant.com/success",
+    "cancel_url": "https://merchant.com/cancel",
+    "line_items": [
+      {
+        "quantity": 1,
+        "price_data": {
+          "currency": "CLP",
+          "unit_amount": 350000,
+          "product_data": {
+            "name": "Annual subscription",
+            "image_url": "https://merchant.com/images/annual-subscription.png"
+          }
+        }
+      }
+    ]
+  }'
+```
+```javascript Node
+const { Fintoc } = require('fintoc');
+
+const fintoc = new Fintoc('YOUR_TEST_SECRET_API_KEY');
+
+const checkoutSession = await fintoc.checkoutSessions.create({
+  amount: 350000,
+  currency: 'CLP',
+  success_url: 'https://merchant.com/success',
+  cancel_url: 'https://merchant.com/cancel',
+  line_items: [
+    {
+      quantity: 1,
+      price_data: {
+        currency: 'CLP',
+        unit_amount: 350000,
+        product_data: {
+          name: 'Annual subscription',
+          image_url: 'https://merchant.com/images/annual-subscription.png'
+        }
+      }
+    }
+  ]
+});
+```
+```python
+from fintoc import Fintoc
+
+client = Fintoc('YOUR_TEST_SECRET_API_KEY')
+
+checkout_session = client.checkout_sessions.create(
+    amount=350000,
+    currency='CLP',
+    success_url='https://merchant.com/success',
+    cancel_url='https://merchant.com/cancel',
+    line_items=[
+        {
+            'quantity': 1,
+            'price_data': {
+                'currency': 'CLP',
+                'unit_amount': 350000,
+                'product_data': {
+                    'name': 'Annual subscription',
+                    'image_url': 'https://merchant.com/images/annual-subscription.png'
+                }
+            }
+        }
+    ]
+)
+```
+
+Fintoc responds with the created `Checkout Session` object, echoing the `line_items` you sent:
+
+```json
+{
+  "id": "cs_li5531onlFDi235",
+  "object": "checkout_session",
+  "mode": "test",
+  "status": "created",
+  "amount": 350000,
+  "currency": "CLP",
+  "created_at": "2024-06-04T15:32:46.721Z",
+  "updated_at": "2024-06-04T15:32:46.721Z",
+  "success_url": "https://merchant.com/success",
+  "cancel_url": "https://merchant.com/cancel",
+  "redirect_url": "https://pay.fintoc.com/checkout/cs_li5531onlFDi235",
+  "metadata": {},
+  "line_items": [
+    {
+      "quantity": 1,
+      "price_data": {
+        "currency": "CLP",
+        "unit_amount": 350000,
+        "product_data": {
+          "name": "Annual subscription",
+          "image_url": "https://merchant.com/images/annual-subscription.png"
+        }
+      }
+    }
+  ]
+}
+```
+
+### Pre-select a payment method (optional)
+
+You can create a `Checkout Session` without specifying payment methods. In this case, customers can select from all available options on the Fintoc-hosted checkout page, based on the session parameters (`amount`, `customer`, `currency`) and the payment methods you have enabled in Fintoc.
+
+Alternatively, you can explicitly define the payment method type(s) for the session. For example, the request below sets the `bank_transfer` method and uses `payment_method_options` to pre-select the institution `cl_banco_estado` for the customer. In this scenario, the payment flow presented to the customer is limited to this specific method and bank.
+
+**Server**
+
+```curl
+curl --request POST "https://api.fintoc.com/v2/checkout_sessions" \
+    --header "Authorization: YOUR_TEST_SECRET_API_KEY" \
+    --header "Content-Type: application/json" \
+    --data-raw '{
+      "amount": 350000,
+      "currency": "CLP",
+      "success_url": "https://merchant.com/success",
+      "cancel_url": "https://merchant.com/cancel",
+      "payment_method_types": ["bank_transfer"],
+      "payment_method_options": {
+        "bank_transfer": {
+          "sender_account": {
+            "institution_id": {
+              "value": "cl_banco_estado"
+            }
+          }
+        }
+      },
+      "customer_data": {
+        "tax_id": {
+          "type": "cl_rut",
+          "value": "11.111.111-1"
+        },
+        "name": "Felipe Castro",
+        "email": "jon@snow.com",
+        "metadata": {}
+      }
+    }'
+```
+```javascript Node
+const { Fintoc } = require('fintoc');
+
+const fintoc = new Fintoc('YOUR_TEST_SECRET_API_KEY');
+
+const checkoutSession = await fintoc.checkoutSessions.create({
+  amount: 350000,
+  currency: 'CLP',
+  success_url: 'https://merchant.com/success',
+  cancel_url: 'https://merchant.com/cancel',
+  payment_method_types: ['bank_transfer'],
+  payment_method_options: {
+    bank_transfer: {
+      sender_account: {
+        institution_id: {
+          value: 'cl_banco_estado'
+        }
+      }
+    }
+  },
+  customer_data: {
+    tax_id: {
+      type: 'cl_rut',
+      value: '11.111.111-1'
+    },
+    name: 'Felipe Castro',
+    email: 'jon@snow.com',
+    metadata: {}
+  }
+});
+```
+```python
+from fintoc import Fintoc
+
+client = Fintoc('YOUR_TEST_SECRET_API_KEY')
+
+checkout_session = client.checkout_sessions.create(
+    amount=350000,
+    currency='CLP',
+    success_url='https://merchant.com/success',
+    cancel_url='https://merchant.com/cancel',
+    payment_method_types=['bank_transfer'],
+    payment_method_options={
+        'bank_transfer': {
+            'sender_account': {
+                'institution_id': {
+                    'value': 'cl_banco_estado'
+                }
+            }
+        }
+    },
+    customer_data={
+        'tax_id': {
+            'type': 'cl_rut',
+            'value': '11.111.111-1'
+        },
+        'name': 'Felipe Castro',
+        'email': 'jon@snow.com',
+        'metadata': {}
+    }
+)
+```
+
+| Attribute                | Type               | Description                                                                                     |
+| :----------------------- | :----------------- | :---------------------------------------------------------------------------------------------- |
+| `payment_method_types`   | `array of strings` | List of payment method types available for the session. One or more of `bank_transfer`, `card`. |
+| `payment_method_options` | `object`           | Set of settings for each available payment method.                                              |
+
+Fintoc responds with the created `Checkout Session` object, echoing the pre-selected method and institution:
+
+```json
+{
+  "id": "cs_li5531onlFDi235",
+  "object": "checkout_session",
+  "mode": "test",
+  "status": "created",
+  "amount": 350000,
+  "currency": "CLP",
+  "created_at": "2024-06-04T15:32:46.721Z",
+  "updated_at": "2024-06-04T15:32:46.721Z",
+  "success_url": "https://merchant.com/success",
+  "cancel_url": "https://merchant.com/cancel",
+  "redirect_url": "https://pay.fintoc.com/checkout/cs_li5531onlFDi235",
+  "metadata": {},
+  "payment_method_types": [
+    "bank_transfer"
+  ],
+  "payment_method_options": {
+    "bank_transfer": {
+      "sender_account": {
+        "institution_id": {
+          "value": "cl_banco_estado"
+        }
+      }
+    }
+  },
+  "customer": {
+    "id": "cus_3B2bODrQFje7ZVkT69xyaTSDwXQ",
+    "object": "customer",
+    "name": "Felipe Castro",
+    "email": "jon@snow.com",
+    "metadata": {},
+    "tax_id": {
+      "type": "cl_rut",
+      "value": "11.111.111-1"
+    }
+  }
+}
+```
+
+<Image src="https://files.readme.io/14f9be8089f64e7247ce874ee2bdca674fa9ccc1f9b479c2e499b6e31f592b35-payment-methods-pre-selected.png" align="center" width="500px" caption="**Left**: Default view showing all available methods in Chile (bank transfer and cards) when no `payment_method_types` parameter is set. **Center**: Pre-selected `bank_transfer` flow for Banco Estado, displaying the institution-specific payment form directly. **Right**: Pre-selected `card` flow." />
+
+> 📘 Using your own Checkout Page
+>
+> When you have your own checkout page, you should set the `payment_method_types` to redirect customers to the Fintoc-hosted checkout after they've already selected their preferred payment method.
+>
+> This skips Fintoc's payment method selection screen and directs customers straight to the specific payment flow, instead of letting Fintoc manage the full checkout experience.
+
+### Response when creating a Checkout Session
+
+After you make the request to create the [Checkout Session](https://docs.fintoc.com/reference/checkout-session-object), Fintoc responds with the session object:
+
+```json
+{
+  "id": "cs_li5531onlFDi235",
+  "object": "checkout_session",
+  "mode": "test",
+  "status": "created",
+  "amount": 350000,
+  "currency": "CLP",
+  "created_at": "2024-06-04T15:32:46.721Z",
+  "updated_at": "2024-06-04T15:32:46.721Z",
+  "success_url": "https://merchant.com/success",
+  "cancel_url": "https://merchant.com/cancel",
+  "redirect_url": "https://pay.fintoc.com/checkout/cs_li5531onlFDi235",
+  "metadata": {},
+  "customer": {
+    "id": "cus_3B2bODrQFje7ZVkT69xyaTSDwXQ",
+    "object": "customer",
+    "name": "Felipe Castro",
+    "email": "jon@snow.com",
+    "metadata": {},
+    "tax_id": {
+      "type": "cl_rut",
+      "value": "11.111.111-1"
+    }
+  }
+}
+```
+
+The response includes the `redirect_url` attribute. In the following step, you'll use this attribute to redirect the customer to complete the payment.
+
+## Redirect the customer to complete the payment
+
+Next, redirect customers to the Fintoc-hosted checkout page. After they complete the payment, Fintoc automatically redirects them back to your site: to the `success_url` after a successful payment, or to the `cancel_url` if they cancel.
+
+**Client**
+
+```javascript
+window.location.assign(REDIRECT_URL_FROM_YOUR_BACKEND);
+```
+
+## Handle post-payment events
+
+Once a `Checkout Session` finishes, you handle the payment result in your frontend and complete the payment in your backend. On your backend, use the events that Fintoc sends through webhooks.
+
+### Complete the payment on your backend
+
+Fintoc sends a `checkout_session.finished` and a `payment_intent.succeeded` event when the session completes and the payment is successful. Follow the [webhook guide](https://docs.fintoc.com/docs/webhooks-walkthrough) to receive these events and run actions, such as sending an order confirmation email to your customer, logging the sale in a database, or starting a shipping workflow.
+
+The `checkout_session.finished` event includes information about the session and the `payment_intent`:
+
+```json
+{
+  "id": "evt_a4xK32BanKWYn",
+  "object": "event",
+  "type": "checkout_session.finished",
+  "data": {
+    "id": "cs_li5531onlFDi235",
+    "mode": "test",
+    "amount": 350000,
+    "object": "checkout_session",
+    "status": "finished",
+    "flow": "payment",
+    "currency": "CLP",
+    "metadata": {},
+    "cancel_url": "https://merchant.com/cancel",
+    "created_at": "2026-01-13T18:48:25Z",
+    "expires_at": "2026-01-14T18:48:25Z",
+    "success_url": "https://merchant.com/success",
+    "redirect_url": "https://pay.fintoc.com/checkout/cs_li5531onlFDi235",
+    "session_token": null,
+    "customer_email": null,
+    "customer": {
+      "id": "cus_3B2bODrQFje7ZVkT69xyaTSDwXQ",
+      "object": "customer",
+      "name": "Felipe Castro",
+      "email": "jon@snow.com",
+      "metadata": {},
+      "tax_id": {
+        "type": "cl_rut",
+        "value": "11.111.111-1"
+      }
+    },
+    "payment_method_types": [
+      "bank_transfer"
+    ],
+    "business_profile": {},
+    "payment_resource": {
+      "payment_intent": {
+        "id": "pi_38DNJo3rbvGUzKFvCGZ6dxR1Kxx",
+        "mode": "test",
+        "amount": 350000,
+        "object": "payment_intent",
+        "status": "succeeded",
+        "currency": "CLP",
+        "metadata": {},
+        "created_at": "2026-01-13T18:48:31Z",
+        "expires_at": "2026-01-14T18:48:25Z",
+        "error_reason": null,
+        "payment_type": "bank_transfer",
+        "reference_id": null,
+        "widget_token": null,
+        "customer_email": null,
+        "sender_account": {
+          "type": "checking_account",
+          "number": "813990168",
+          "holder_id": "11.111.111-1",
+          "institution_id": "cl_banco_falabella"
+        },
+        "business_profile": {},
+        "transaction_date": null,
+        "recipient_account": null,
+        "payment_type_options": {}
+      }
+    },
+    "payment_method_options": {}
+  }
+}
+
+```
+
+Fintoc emits these events across the payment lifecycle, including the failure and pending paths. Handle each one:
+
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Event
+      </th>
+
+      <th>
+        Description
+      </th>
+
+      <th>
+        Action
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        `checkout_session.finished`
+      </td>
+
+      <td>
+        Sent when a `Checkout Session` reaches a final state. The associated payment may still be pending, for example `requires_action`.
+      </td>
+
+      <td>
+        Complete the order based on the payment's status.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `checkout_session.expired`
+      </td>
+
+      <td>
+        Sent when a `Checkout Session` expires.
+      </td>
+
+      <td>
+        Offer the customer another attempt to pay.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `payment_intent.succeeded`
+      </td>
+
+      <td>
+        Sent when the payment related to a `Checkout Session` succeeds.
+      </td>
+
+      <td>
+        Confirm the customer's order.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `payment_intent.failed`
+      </td>
+
+      <td>
+        Sent when the payment related to a `Checkout Session` fails.
+      </td>
+
+      <td>
+        Offer the customer another attempt to pay.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `payment_intent.requires_action`
+      </td>
+
+      <td>
+        Sent when the payment related to a `Checkout Session` needs an action from the customer.
+
+        You receive this event when a `bank_transfer` payment from a business account requires approval from more than one representative.
+      </td>
+
+      <td>
+        Inform your customer of the action needed to approve the payment, based on the `next_action` field in the webhook event.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+> 📘 Handling async payments after the `Checkout Session` ends
+>
+> In some cases, the `Checkout Session` may finish with a payment that does not yet have a final status, such as `requires_action`. This can happen, for example, when a bank transfer from a business account requires approval from more than one representative.
+>
+> In these cases, when you receive the `payment_intent.requires_action` event, inform the customer that the payment is pending approval. Once you receive either the `payment_intent.succeeded` or `payment_intent.failed` event, you should notify the customer of the final payment status as soon as it is confirmed.
+
+## Test your integration
+
+Using your [test mode API Secret Key](https://docs.fintoc.com/docs/test-mode), you can create payments that simulate successful and failed outcomes without moving any money.
+
+This lets you validate your full payment flow end-to-end:
+
+* Your backend API requests (creating sessions and handling responses)
+* The redirect flow from your frontend to the `redirect_url` and back to the `success_url` or `cancel_url` after the payment
+* The webhooks for post-payment events
+
+A successful test session reaches `status` `finished` and triggers the `checkout_session.finished` and `payment_intent.succeeded` webhooks; a failed one triggers `payment_intent.failed`. To trigger specific scenarios, use the **test credentials** and special test values described in our [testing guide](https://docs.fintoc.com/docs/payment-initiation-test-your-integration).
+
+<br />

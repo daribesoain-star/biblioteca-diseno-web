@@ -1,0 +1,951 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:00.160 --> 00:00:04.480
+Welcome to Part 2 of my Blender Tutorial&nbsp;
+on material shading. If you stumbled across&nbsp;&nbsp;
+
+00:00:04.480 --> 00:00:09.360
+this video first, there is a Part 1 that covers&nbsp;
+the absolute basics of shading in Blender. Part&nbsp;&nbsp;
+
+00:00:09.360 --> 00:00:13.840
+2 is all about PBR materials. What they are,&nbsp;
+where you get them and how to set them up.&nbsp;&nbsp;
+
+00:00:13.840 --> 00:00:16.720
+With a bunch of extra tips&nbsp;
+along the way and at the end.&nbsp;
+
+00:00:16.720 --> 00:00:21.040
+I will be using Cycles for this tutorial. Most&nbsp;
+of this will work in Eevee too so let’s go.
+
+00:00:21.040 --> 00:00:24.640
+The PBR in “PBR materials” stands&nbsp;
+for Physically Based Rendering.&nbsp;&nbsp;
+
+00:00:24.640 --> 00:00:29.520
+It’s a workflow for using physical information&nbsp;
+- images - to generate textures. You could make&nbsp;&nbsp;
+
+00:00:29.520 --> 00:00:33.120
+your own PBR textures, but don’t because&nbsp;
+there are tons of them already out there.&nbsp;&nbsp;
+
+00:00:33.120 --> 00:00:38.080
+PBR textures are generally going to look much more&nbsp;
+realistic than procedural textures which are made&nbsp;&nbsp;
+
+00:00:38.080 --> 00:00:42.480
+by combining inputs like we did in part one.
+When you obtain a PBR texture, you’re going to&nbsp;&nbsp;
+
+00:00:42.480 --> 00:00:47.680
+get a series of images with specific labels. Each&nbsp;
+image controls a different effect of the material.&nbsp;
+
+00:00:47.680 --> 00:00:52.560
+So where do you get PBR materials? Lots of&nbsp;
+places. I often use Poliigon which has both&nbsp;&nbsp;
+
+00:00:52.560 --> 00:00:56.080
+free and paid materials. I’ve been happy&nbsp;
+with them and will include an affiliate&nbsp;&nbsp;
+
+00:00:56.080 --> 00:01:00.240
+link in the description. But, there are other&nbsp;
+places to get free PBR materials for Blender.&nbsp;
+
+00:01:00.240 --> 00:01:04.720
+Ambient CG is one place I would check out, but I’m&nbsp;
+going to be using Poliigon. You can see they have&nbsp;&nbsp;
+
+00:01:04.720 --> 00:01:09.920
+a pretty large library of really good materials.
+When you choose a PBR material, also referred to&nbsp;&nbsp;
+
+00:01:09.920 --> 00:01:15.680
+as a PBR texture, you have different resolution&nbsp;
+options. For example here, we have from 1K all&nbsp;&nbsp;
+
+00:01:15.680 --> 00:01:22.000
+the way up to 16K. Poliigon uses PNG images, but&nbsp;
+some sites have JPEG’s which are smaller files but&nbsp;&nbsp;
+
+00:01:22.000 --> 00:01:26.800
+can be lower quality. Which size you choose will&nbsp;
+generally be based on how far away the material&nbsp;&nbsp;
+
+00:01:26.800 --> 00:01:30.880
+is going to be in your scene. For things in the&nbsp;
+background and honestly for most of your scene,&nbsp;&nbsp;
+
+00:01:30.880 --> 00:01:36.240
+1K is probably fine. If it’s going to be close up&nbsp;
+to the camera, consider going up a size or two.&nbsp;&nbsp;
+
+00:01:36.240 --> 00:01:40.800
+Generally I find 3K to be fine for almost&nbsp;
+anything. The larger the resolution,&nbsp;&nbsp;
+
+00:01:40.800 --> 00:01:45.840
+the more it adds to memory draw and render time.
+These are all the different maps the texture comes&nbsp;&nbsp;
+
+00:01:45.840 --> 00:01:50.800
+with. I know I won’t use all of them, in fact&nbsp;
+the two bump maps and two displacement maps are&nbsp;&nbsp;
+
+00:01:50.800 --> 00:01:55.760
+just different size options you can use with this&nbsp;
+material. But they don’t cost any extra, so I’ll&nbsp;&nbsp;
+
+00:01:55.760 --> 00:02:00.880
+just download them all. They’ll all download into&nbsp;
+a zip file which you can unzip on your computer.&nbsp;&nbsp;
+
+00:02:00.880 --> 00:02:05.920
+It’s generally a good idea to store all of your&nbsp;
+PBR textures in an organized file system. You can&nbsp;&nbsp;
+
+00:02:05.920 --> 00:02:10.240
+change the names of the folders but don’t rename&nbsp;
+the actual images themselves. They’re named the&nbsp;&nbsp;
+
+00:02:10.240 --> 00:02:13.840
+way they are so that they can be recognized&nbsp;
+by certain addons which we’ll see later.&nbsp;
+
+00:02:14.560 --> 00:02:19.280
+Let’s go back into Blender and just start with&nbsp;
+a new plane with a new material. I’ll name it&nbsp;&nbsp;
+
+00:02:19.280 --> 00:02:24.960
+Poliigon, then let’s go into the shader editor.
+We’ve got our default Principled BSDF shader.&nbsp;&nbsp;
+
+00:02:25.600 --> 00:02:30.160
+I also have the file folder open with&nbsp;
+the files I downloaded from Poliigon.com.&nbsp;
+
+00:02:30.160 --> 00:02:34.000
+We can bring these files into the shader&nbsp;
+editor a number of ways. We could press&nbsp;&nbsp;
+
+00:02:34.000 --> 00:02:38.800
+Shift+A and add an image texture. This is&nbsp;
+the node that plugs images into your node&nbsp;&nbsp;
+
+00:02:38.800 --> 00:02:43.360
+tree. We can press “open” and navigate to&nbsp;
+the folder where the material files are.&nbsp;&nbsp;
+
+00:02:43.920 --> 00:02:49.360
+Or, if we have the folder open, we can simply&nbsp;
+drag and drop an image into the shader editor.&nbsp;&nbsp;
+
+00:02:49.360 --> 00:02:52.960
+Blender will automatically add&nbsp;
+it into an image texture node.&nbsp;&nbsp;
+
+00:02:52.960 --> 00:02:58.080
+A side note, you can navigate to and open these&nbsp;
+image files even if they’re not extracted. But,&nbsp;&nbsp;
+
+00:02:58.080 --> 00:03:02.880
+dragging and dropping the files won’t work unless&nbsp;
+you extract the zip file. That’s good to know.
+
+00:03:02.880 --> 00:03:06.800
+The first file we are going to start with is the&nbsp;
+one labeled “color.” Actually, there are different&nbsp;&nbsp;
+
+00:03:06.800 --> 00:03:10.960
+variations provided with this material. These are&nbsp;
+just slightly different color options you have&nbsp;&nbsp;
+
+00:03:10.960 --> 00:03:15.520
+with this material. I’ll pick one and I’ll drag&nbsp;
+it into Blender. Since this is our base color,&nbsp;&nbsp;
+
+00:03:15.520 --> 00:03:19.760
+we are going to drag the color output (the&nbsp;
+yellow) into the base color input of the&nbsp;&nbsp;
+
+00:03:19.760 --> 00:03:24.080
+Principled shader (which is also yellow).&nbsp;
+Now, we’ve got our PBR base color laid out.
+
+00:03:24.720 --> 00:03:25.760
+If you’ve made it this far,&nbsp;&nbsp;
+
+00:03:25.760 --> 00:03:28.880
+please hit that like button - it would&nbsp;
+mean the world to me. Thank you so much!
+
+00:03:29.600 --> 00:03:33.680
+Next we’re going to work on our specular&nbsp;
+input. Remember in part one I said there&nbsp;&nbsp;
+
+00:03:33.680 --> 00:03:37.840
+are two workflows, specular and metallic.
+Let me just go back to Poliigon for a&nbsp;&nbsp;
+
+00:03:37.840 --> 00:03:41.600
+second. For certain metal materials,&nbsp;
+you’ll see an option for workflow.&nbsp;&nbsp;
+
+00:03:41.600 --> 00:03:46.480
+You can choose “metalness” or specular. These are&nbsp;
+the two workflows I mentioned in part 1. There&nbsp;&nbsp;
+
+00:03:46.480 --> 00:03:51.520
+are different reasons to use each one, it seems&nbsp;
+metalness is more popular for metal materials.&nbsp;&nbsp;
+
+00:03:51.520 --> 00:03:55.680
+Either one you want to use is fine, it’ll&nbsp;
+just change one map that you have to plug in.&nbsp;
+
+00:03:55.680 --> 00:04:00.160
+But for materials that are not metal, you won’t&nbsp;
+see a metalness map and you’ll use a specular&nbsp;&nbsp;
+
+00:04:00.160 --> 00:04:06.080
+map. But notice we don’t have an image labeled&nbsp;
+specular here either. Sometimes specular maps&nbsp;&nbsp;
+
+00:04:06.080 --> 00:04:10.640
+are called “reflection” maps. We do have&nbsp;
+a map labeled “reflection” and that’s the&nbsp;&nbsp;
+
+00:04:10.640 --> 00:04:14.640
+one we’re going to use right here. Drag the&nbsp;
+reflection map into Blender and connect it to&nbsp;&nbsp;
+
+00:04:14.640 --> 00:04:20.240
+the specular socket. Reflection equals specular.
+Now, we have an issue here. We just plugged a&nbsp;&nbsp;
+
+00:04:20.240 --> 00:04:25.360
+yellow socket into a grey socket. This isn’t the&nbsp;
+end of the world, but when using an image texture&nbsp;&nbsp;
+
+00:04:25.360 --> 00:04:30.880
+but NOT using it for color data, we need&nbsp;
+to change this drop down box from “sRGB”&nbsp;&nbsp;
+
+00:04:30.880 --> 00:04:36.080
+which means color, to “non-color.” This tells&nbsp;
+Blender that even though this is a yellow output,&nbsp;&nbsp;
+
+00:04:36.080 --> 00:04:40.560
+it’s not putting out color information with&nbsp;
+this particular map. The end result will&nbsp;&nbsp;
+
+00:04:40.560 --> 00:04:44.640
+usually be just a little off if you don’t&nbsp;
+change this setting for non-color maps.
+
+00:04:45.360 --> 00:04:49.280
+There’s one step we’ve missed here though.&nbsp;
+And that is the mapping we covered in part 1.&nbsp;&nbsp;
+
+00:04:49.280 --> 00:04:53.840
+We want to make sure these image maps are being&nbsp;
+mapped properly to the object. We need to add&nbsp;&nbsp;
+
+00:04:53.840 --> 00:04:58.320
+both a mapping node and a texture coordinate&nbsp;
+node. Luckily, since we have the node wrangler&nbsp;&nbsp;
+
+00:04:58.320 --> 00:05:02.480
+addon activated, there’s a shortcut. Select&nbsp;
+one of the image textures and press “Control+T”&nbsp;&nbsp;
+
+00:05:03.360 --> 00:05:07.200
+and it automatically adds both nodes.&nbsp;
+And it told the texture coordinate node&nbsp;&nbsp;
+
+00:05:07.200 --> 00:05:12.400
+to use the UV mapping which is what we want.
+I will very quickly explain UV’s. When we take&nbsp;&nbsp;
+
+00:05:12.400 --> 00:05:16.880
+a 2 dimensional texture and place it on a 3&nbsp;
+dimensional object, we need to essentially&nbsp;&nbsp;
+
+00:05:16.880 --> 00:05:21.680
+unwrap the object. Imagine printing a&nbsp;
+label directly onto a cylindrical soda can.&nbsp;&nbsp;
+
+00:05:21.680 --> 00:05:26.560
+UV unwrapping would be like cutting the soda&nbsp;
+can open to lay it out flat so that a printer&nbsp;&nbsp;
+
+00:05:26.560 --> 00:05:32.480
+can print on it. The U and the V represent the 2&nbsp;
+axes of the 2 dimensional texture because the 3D&nbsp;&nbsp;
+
+00:05:32.480 --> 00:05:38.000
+object already has the X, Y and Z axes labeled.
+Unwrapping a plane is pretty much unnecessary&nbsp;&nbsp;
+
+00:05:38.000 --> 00:05:43.200
+but it’s absolutely necessary for more complex&nbsp;
+objects. To unwrap an object, we go into edit&nbsp;&nbsp;
+
+00:05:43.200 --> 00:05:47.520
+mode, select what we want to unwrap. (You&nbsp;
+CAN unwrap different parts separately).&nbsp;&nbsp;
+
+00:05:47.520 --> 00:05:52.320
+Go to UV at the top and there are actually&nbsp;
+different ways to unwrap an object. Usually,&nbsp;&nbsp;
+
+00:05:52.320 --> 00:05:56.880
+I recommend “Smart UV Project.” Select&nbsp;
+that. It has some options. Normally you&nbsp;&nbsp;
+
+00:05:56.880 --> 00:06:01.520
+don’t have to change anything. Press OK.
+We don’t actually need to do this here,&nbsp;&nbsp;
+
+00:06:01.520 --> 00:06:07.600
+but if you wanted to edit your UV map, you can go&nbsp;
+to the UV Editing workspace. This is our UV. It’s&nbsp;&nbsp;
+
+00:06:07.600 --> 00:06:12.800
+a very, very simple UV, but a UV nonetheless.&nbsp;
+There are plenty of Blender tutorials for UV&nbsp;&nbsp;
+
+00:06:12.800 --> 00:06:17.840
+unwrapping, this was just the bare minimum to&nbsp;
+understand. So let’s go back to our shader editor.&nbsp;
+
+00:06:17.840 --> 00:06:22.160
+So this color image is mapped through the&nbsp;
+mapping node and this specular map is not.&nbsp;&nbsp;
+
+00:06:22.160 --> 00:06:26.160
+We want to connect this mapping node&nbsp;
+to the specular map as well. Remember&nbsp;&nbsp;
+
+00:06:26.160 --> 00:06:32.000
+an output can go to multiple inputs, but only&nbsp;
+one output can go into a single input socket.
+
+00:06:32.000 --> 00:06:36.720
+Back to our material files, the next thing we&nbsp;
+want to map is our roughness. But again, there&nbsp;&nbsp;
+
+00:06:36.720 --> 00:06:42.480
+is no map labeled roughness. It’s because other&nbsp;
+softwares use “gloss” maps instead of roughness -&nbsp;&nbsp;
+
+00:06:42.480 --> 00:06:46.880
+so you don’t always get a roughness map. But it’s&nbsp;
+ok, I’ll show you how to work with this gloss map.&nbsp;
+
+00:06:46.880 --> 00:06:52.640
+Let’s drag the gloss map into the shader editor.&nbsp;
+We will again change “sRGB” to “non-color” because&nbsp;&nbsp;
+
+00:06:52.640 --> 00:06:56.880
+this isn’t providing color information to the&nbsp;
+Principled Shader. It’s providing black and white&nbsp;&nbsp;
+
+00:06:56.880 --> 00:07:01.360
+data. And we’ll also connect it to the mapping&nbsp;
+node. All of the image textures we use will&nbsp;&nbsp;
+
+00:07:01.360 --> 00:07:05.440
+get plugged into the same mapping node because&nbsp;
+we need them to all line up with one another.&nbsp;
+
+00:07:05.440 --> 00:07:09.520
+Now when we connect this gloss map to the&nbsp;
+roughness socket, we see a noticeable difference&nbsp;&nbsp;
+
+00:07:09.520 --> 00:07:13.840
+in the material - that is if we’re in render&nbsp;
+preview mode. A roughness map will make a material&nbsp;&nbsp;
+
+00:07:13.840 --> 00:07:18.480
+look more realistic. But there’s a problem&nbsp;
+because the gloss map is actually the inverse&nbsp;&nbsp;
+
+00:07:18.480 --> 00:07:23.920
+of a roughness map. What’s black on a gloss map is&nbsp;
+white on the roughness map and vice versa. So the&nbsp;&nbsp;
+
+00:07:23.920 --> 00:07:28.400
+parts that are supposed to be rough are not rough&nbsp;
+and the parts that are not supposed to be rough&nbsp;&nbsp;
+
+00:07:28.400 --> 00:07:33.760
+are rough. To fix this there’s a handy node we can&nbsp;
+add between the gloss map and the roughness input&nbsp;&nbsp;
+
+00:07:33.760 --> 00:07:39.520
+that flips this all around. It’s called an invert&nbsp;
+node. Shift+A and search for “invert” Drop this&nbsp;&nbsp;
+
+00:07:39.520 --> 00:07:45.120
+right between the two nodes. This node takes data&nbsp;
+in from the left - like all nodes do. It flips,&nbsp;&nbsp;
+
+00:07:45.120 --> 00:07:49.600
+or inverts, the black and white values. Then&nbsp;
+it spits out the new information on the right.
+
+00:07:50.240 --> 00:07:54.320
+There’s another map in this pack that will add&nbsp;
+a lot of realism. And that’s the normal map.&nbsp;&nbsp;
+
+00:07:54.320 --> 00:07:59.760
+Normal maps, as mentioned in part 1, fake depth&nbsp;
+by manipulating how light hits the material.&nbsp;&nbsp;
+
+00:07:59.760 --> 00:08:02.960
+They are not very draining on your&nbsp;
+computer but add enough realism to&nbsp;&nbsp;
+
+00:08:02.960 --> 00:08:05.600
+be used as long as they’re not&nbsp;
+right up in front of the camera.&nbsp;&nbsp;
+
+00:08:05.600 --> 00:08:09.760
+The normal map is this purple map. It’s&nbsp;
+a specific type of color mapping that I&nbsp;&nbsp;
+
+00:08:09.760 --> 00:08:14.720
+don’t fully understand but that Blender does. So&nbsp;
+let’s drop the normal map into the shader editor.&nbsp;
+
+00:08:14.720 --> 00:08:20.080
+We again need to connect this to our mapping node&nbsp;
+and we again need to change it to non-color data.&nbsp;&nbsp;
+
+00:08:20.720 --> 00:08:25.600
+This normal map needs to be plugged into the&nbsp;
+normal input of the principled shader. But look,&nbsp;&nbsp;
+
+00:08:25.600 --> 00:08:30.240
+we have a different problem here. We have a&nbsp;
+yellow going into a purple and that’s a no-no.&nbsp;
+
+00:08:30.240 --> 00:08:36.720
+So what we drop between these nodes is a normal&nbsp;
+map node. Shift+A and search for normal map. This&nbsp;&nbsp;
+
+00:08:36.720 --> 00:08:41.520
+node takes yellow socket color information and&nbsp;
+turns it into a purple output specifically for&nbsp;&nbsp;
+
+00:08:41.520 --> 00:08:47.040
+normal maps. This is the strength of the normal&nbsp;
+map. Let’s click on it and change it to ten to&nbsp;&nbsp;
+
+00:08:47.040 --> 00:08:52.480
+really emphasize what this normal map is doing.
+Boom. Did you see that? How much realism the&nbsp;&nbsp;
+
+00:08:52.480 --> 00:08:56.800
+normal map added when we turned the strength&nbsp;
+up. This is one area where these materials&nbsp;&nbsp;
+
+00:08:56.800 --> 00:09:00.880
+work a lot better in Cycles than they do in&nbsp;
+Eevee. If we turned this strength up in Eevee,&nbsp;&nbsp;
+
+00:09:00.880 --> 00:09:05.600
+it really won’t do anything. Cycles is just&nbsp;
+much more capable of handling details like this.
+
+00:09:06.560 --> 00:09:11.520
+A quick break because Youtube pays me practically&nbsp;
+nothing for these videos. Topaz Studio is one of&nbsp;&nbsp;
+
+00:09:11.520 --> 00:09:16.080
+my favorite tools to use after I render in&nbsp;
+Bleder. It’s a collection of very powerful&nbsp;&nbsp;
+
+00:09:16.080 --> 00:09:20.640
+filters. I use it on every single render. Here’s&nbsp;
+an example of a render straight out of Blender&nbsp;&nbsp;
+
+00:09:20.640 --> 00:09:24.880
+and here’s what it looked like after using&nbsp;
+Topaz Studio. I am not sponsored but I made an&nbsp;&nbsp;
+
+00:09:24.880 --> 00:09:28.640
+entire video on Topaz Studio and have an&nbsp;
+affiliate link in the description. There&nbsp;&nbsp;
+
+00:09:28.640 --> 00:09:31.680
+are endless adjustments you can make&nbsp;
+to improve your render and the best&nbsp;&nbsp;
+
+00:09:31.680 --> 00:09:34.800
+part - it’s a one time purchase&nbsp;
+with no ongoing subscription.&nbsp;&nbsp;
+
+00:09:34.800 --> 00:09:38.400
+Please support my channel by checking it out with&nbsp;
+the affiliate link in the description. Thank you!
+
+00:09:40.080 --> 00:09:44.800
+Displacement maps in Blender give you another&nbsp;
+level of realism. I’m going to turn down the&nbsp;&nbsp;
+
+00:09:44.800 --> 00:09:50.400
+normal value to demonstrate this. We can drag&nbsp;
+the displacement map into the scene, change it&nbsp;&nbsp;
+
+00:09:50.400 --> 00:09:55.120
+to non-color data because it’s not going into&nbsp;
+a color socket. We also want to map this to our&nbsp;&nbsp;
+
+00:09:55.120 --> 00:10:00.240
+UV by connecting it to the mapping node. Now, this&nbsp;
+map is going to run into the displacement channel,&nbsp;&nbsp;
+
+00:10:00.240 --> 00:10:04.160
+not the surface channel like the others.
+If we drag it directly into the displacement&nbsp;&nbsp;
+
+00:10:04.160 --> 00:10:07.920
+channel, it’s not going to work because&nbsp;
+we have a yellow going into a purple.&nbsp;
+
+00:10:07.920 --> 00:10:12.320
+Similar to the normal map, we need a specific&nbsp;
+converter to change the information from this&nbsp;&nbsp;
+
+00:10:12.320 --> 00:10:17.760
+greyscale image into the information Blender needs&nbsp;
+to make this displacement work. This time we are&nbsp;&nbsp;
+
+00:10:17.760 --> 00:10:22.800
+going to use a displacement node and drop it&nbsp;
+between the displacement map and the final output&nbsp;&nbsp;
+
+00:10:22.800 --> 00:10:27.920
+shader. But, this automatically plugs the input&nbsp;
+into the normal socket. We actually want this&nbsp;&nbsp;
+
+00:10:27.920 --> 00:10:32.400
+image, with black and white color information,&nbsp;
+to affect the height of the displacement - not&nbsp;&nbsp;
+
+00:10:32.400 --> 00:10:36.480
+the normal because it isn’t a normal map.
+To actually see the changes for this,&nbsp;&nbsp;
+
+00:10:36.480 --> 00:10:40.400
+we need to be in render preview mode.&nbsp;
+They won’t show up in material preview.&nbsp;
+
+00:10:40.400 --> 00:10:44.880
+When we plug the displacement into the socket,&nbsp;
+a couple things happen. We do see more detail&nbsp;&nbsp;
+
+00:10:44.880 --> 00:10:49.840
+in the “bump” of the material. Also, you might&nbsp;
+have noticed the entire object kind of shifted.&nbsp;&nbsp;
+
+00:10:49.840 --> 00:10:54.400
+The shifting is because of this midlevel&nbsp;
+setting. It offsets the entire geometry and&nbsp;&nbsp;
+
+00:10:54.400 --> 00:10:58.560
+most of the time, I’ve found I don’t want&nbsp;
+it to do that so I change this to zero.&nbsp;
+
+00:10:58.560 --> 00:11:03.760
+Ok, this added a little bit of bump but what’s the&nbsp;
+big deal? Well, to really show you the power of&nbsp;&nbsp;
+
+00:11:03.760 --> 00:11:09.200
+displacement, I’m going to duplicate this plane.&nbsp;
+Let’s go to the material panel and scroll down&nbsp;&nbsp;
+
+00:11:09.200 --> 00:11:14.320
+until we see the settings tab. Open settings and&nbsp;
+under surface, we find a setting for displacement.&nbsp;
+
+00:11:14.320 --> 00:11:18.560
+This setting tells Blender how to use&nbsp;
+this displacement map either as a true&nbsp;&nbsp;
+
+00:11:18.560 --> 00:11:23.040
+displacement map or something called a bump&nbsp;
+map - which is similar to a normal map as far&nbsp;&nbsp;
+
+00:11:23.040 --> 00:11:27.520
+as the end result. There’s also an option to&nbsp;
+use both bump and displacement which is going&nbsp;&nbsp;
+
+00:11:27.520 --> 00:11:32.320
+to give you the most realistic effect probably.
+What it defaults to is the bump map, which is what&nbsp;&nbsp;
+
+00:11:32.320 --> 00:11:38.400
+we see here, a little more detail without any more&nbsp;
+geometry needed. Let’s change to displacement.&nbsp;&nbsp;
+
+00:11:38.400 --> 00:11:43.040
+Nothing really happens. This is because true&nbsp;
+displacement uses the geometry of the mesh&nbsp;&nbsp;
+
+00:11:43.040 --> 00:11:47.120
+and this plane only has one face on it.&nbsp;
+Let’s select this plane, tab into edit&nbsp;&nbsp;
+
+00:11:47.120 --> 00:11:52.080
+mode and subdivide the plane a few times.
+Now when we tab into object mode we see&nbsp;&nbsp;
+
+00:11:52.080 --> 00:11:57.280
+the displacement has done something but this is&nbsp;
+not right. On the displacement node, this scale&nbsp;&nbsp;
+
+00:11:57.280 --> 00:12:02.080
+setting affects how strong the displacement is&nbsp;
+and the default of one is just way too high.&nbsp;&nbsp;
+
+00:12:02.080 --> 00:12:07.280
+Changing it to .1 is probably more appropriate.
+But it’s still not great because we only have so&nbsp;&nbsp;
+
+00:12:07.280 --> 00:12:12.800
+much geometry here. Adding a subdvision surface&nbsp;
+modifier will help and we should change it from&nbsp;&nbsp;
+
+00:12:12.800 --> 00:12:17.200
+catmull to simple because we don’t need&nbsp;
+the smoothing that the catmull provides,&nbsp;&nbsp;
+
+00:12:17.200 --> 00:12:21.680
+just the geometry. This is alright. There&nbsp;
+are a couple ways to make it better. We could&nbsp;&nbsp;
+
+00:12:21.680 --> 00:12:26.240
+use more subdivisions or a higher resolution&nbsp;
+displacement map. But realize that now we are&nbsp;&nbsp;
+
+00:12:26.240 --> 00:12:30.960
+significantly impacting the performance. We’ve&nbsp;
+added a ton of geometry to this plane already.&nbsp;
+
+00:12:30.960 --> 00:12:36.880
+The absolute best way to do this is actually&nbsp;
+to use adaptive subdivision. And I fear this&nbsp;&nbsp;
+
+00:12:36.880 --> 00:12:41.440
+section of the tutorial is already dragging&nbsp;
+on way too long. But, adaptive subdivision is&nbsp;&nbsp;
+
+00:12:41.440 --> 00:12:46.320
+intelligent subdivision that subdivides the&nbsp;
+mesh more the closer it is to the camera&nbsp;&nbsp;
+
+00:12:46.320 --> 00:12:50.240
+and it’s perfect for this. To use it, you&nbsp;
+have to be in cycles, you have to turn on&nbsp;&nbsp;
+
+00:12:50.240 --> 00:12:53.840
+“experimental” in the render settings and&nbsp;
+then on your subdivision surface, you’ll&nbsp;&nbsp;
+
+00:12:53.840 --> 00:12:58.080
+have an option for adaptive subdivision. Check&nbsp;
+that and you’re going to have this displacement&nbsp;&nbsp;
+
+00:12:58.080 --> 00:13:01.920
+be about as realistic as you can get it.
+For a lot of things, normal maps and bump&nbsp;&nbsp;
+
+00:13:01.920 --> 00:13:05.840
+maps are going to be just fine but this&nbsp;
+was an overview of displacement for you.
+
+00:13:06.880 --> 00:13:10.480
+Hey, remember to hit that like button&nbsp;
+if you’re still here. Thank you so much!
+
+00:13:10.480 --> 00:13:16.480
+Ok, so we’ve just created a basic PBR texture.&nbsp;
+Let’s say this texture was either too big or too&nbsp;&nbsp;
+
+00:13:16.480 --> 00:13:21.280
+small for what we wanted. We can go back to our&nbsp;
+mapping node and adjust the scale. We generally&nbsp;&nbsp;
+
+00:13:21.280 --> 00:13:26.560
+want to adjust the scale uniformly across all&nbsp;
+axes. It’d be annoying to have to adjust all three&nbsp;&nbsp;
+
+00:13:26.560 --> 00:13:31.120
+of these values so we can do one of two things.
+Under scale, either click the top value and drag&nbsp;&nbsp;
+
+00:13:31.120 --> 00:13:35.920
+down. This will allow you to type in a number on&nbsp;
+the top and have it applied to all three numbers.&nbsp;&nbsp;
+
+00:13:35.920 --> 00:13:41.520
+Or what I prefer to do is Shift+A and add a&nbsp;
+value node. Plug it into the scale of the input.&nbsp;&nbsp;
+
+00:13:41.520 --> 00:13:46.400
+And now you can slide the value of this up and&nbsp;
+down or type in a value. The larger the scale,&nbsp;&nbsp;
+
+00:13:46.400 --> 00:13:50.240
+the smaller the texture gets and it will&nbsp;
+eventually start to repeat. Smaller scale&nbsp;&nbsp;
+
+00:13:50.240 --> 00:13:54.880
+will make the texture bigger on the object.
+But, understand that we may have this texture&nbsp;&nbsp;
+
+00:13:54.880 --> 00:13:59.760
+applied to multiple objects and making it bigger&nbsp;
+or smaller right here will change the settings&nbsp;&nbsp;
+
+00:13:59.760 --> 00:14:03.840
+on every object that is using this material.&nbsp;
+So an alternative, and probably the way you&nbsp;&nbsp;
+
+00:14:03.840 --> 00:14:09.200
+should do it, is to go into the UV editor and&nbsp;
+adjust the scale of the object’s UV instead.&nbsp;
+
+00:14:09.200 --> 00:14:12.800
+This on the left is our UV for what&nbsp;
+we have selected. In this case,&nbsp;&nbsp;
+
+00:14:12.800 --> 00:14:17.440
+it’s the entire object’s mesh. We can press&nbsp;
+“A” to make sure everything is selected.&nbsp;&nbsp;
+
+00:14:17.440 --> 00:14:22.800
+Then press “S” to scale the UV instead of the&nbsp;
+actual material. This will only affect the scale&nbsp;&nbsp;
+
+00:14:22.800 --> 00:14:27.760
+of the material on this object and actually only&nbsp;
+on the portion of the object you have selected.&nbsp;&nbsp;
+
+00:14:27.760 --> 00:14:32.080
+Pressing G will allow you to move it around&nbsp;
+if you want to line it up how you want.&nbsp;&nbsp;
+
+00:14:32.080 --> 00:14:36.880
+And R will let you rotate the UV - again&nbsp;
+not affecting the actual material itself.
+
+00:14:37.840 --> 00:14:41.920
+That was a ton of work just to set up&nbsp;
+one PBR. And it was a lot to remember.&nbsp;&nbsp;
+
+00:14:41.920 --> 00:14:46.320
+Well it’s important that you got a basic&nbsp;
+understanding of PBR material setups,&nbsp;&nbsp;
+
+00:14:46.320 --> 00:14:51.120
+but you don’t need to do this every single time&nbsp;
+you set up a new material in Blender. Let’s remove&nbsp;&nbsp;
+
+00:14:51.120 --> 00:14:55.520
+this material and start from scratch with a new&nbsp;
+Principled shader. This is only going to work&nbsp;&nbsp;
+
+00:14:55.520 --> 00:15:00.240
+with node wrangler activated in the preferences,&nbsp;
+which we discussed in part 1 but as a reminder,&nbsp;&nbsp;
+
+00:15:00.240 --> 00:15:04.720
+make sure you go into your preferences - addons&nbsp;
+and check on the box next to “node wrangler.”&nbsp;
+
+00:15:05.280 --> 00:15:10.960
+Select the Principled BSDF shader by clicking&nbsp;
+on it. Press “Control Shift T” and this file&nbsp;&nbsp;
+
+00:15:10.960 --> 00:15:16.080
+navigator opens. Navigate to the folder where&nbsp;
+your PBR texture files are. Select the maps&nbsp;&nbsp;
+
+00:15:16.080 --> 00:15:21.040
+that you want to add. I’ll choose color,&nbsp;
+gloss, reflection, normal and displacement.&nbsp;&nbsp;
+
+00:15:21.040 --> 00:15:26.480
+Press Principled Texture Setup.
+Amazing. Blender just added all these&nbsp;&nbsp;
+
+00:15:26.480 --> 00:15:31.360
+maps into the shader editor and connected them&nbsp;
+exactly as I already showed you how to before.&nbsp;&nbsp;
+
+00:15:31.360 --> 00:15:35.200
+It even organized the textures into&nbsp;
+frames and added a reroute node.&nbsp;&nbsp;
+
+00:15:35.200 --> 00:15:40.000
+It inverted the gloss and added the normal map.&nbsp;
+It changed the appropriate image textures to&nbsp;&nbsp;
+
+00:15:40.000 --> 00:15:45.120
+non-color for us. Super easy. And that’s&nbsp;
+really how you add PBR materials in Blender.
+
+00:15:46.000 --> 00:15:50.640
+And as I promised, here are a few extra tips as&nbsp;
+a reward for making it this far in the video.
+
+00:15:50.640 --> 00:15:55.040
+Once you have your PBR texture set up, there&nbsp;
+are a few common but optional things you can do.&nbsp;&nbsp;
+
+00:15:55.040 --> 00:15:58.080
+For some of these black and white&nbsp;
+nodes like roughness and specular,&nbsp;&nbsp;
+
+00:15:58.080 --> 00:16:02.480
+you can feed them through a colorramp node. This&nbsp;
+will give you some control over how reflective the&nbsp;&nbsp;
+
+00:16:02.480 --> 00:16:07.040
+material is by either sliding the control points&nbsp;
+or darkening the white values. You could put them&nbsp;&nbsp;
+
+00:16:07.040 --> 00:16:11.120
+through separate colorramp nodes or through a&nbsp;
+single node to control both of them together.&nbsp;
+
+00:16:11.120 --> 00:16:14.720
+When you have color information traveling&nbsp;
+from one node to another, there are a few&nbsp;&nbsp;
+
+00:16:14.720 --> 00:16:19.040
+nodes that you can actually use to adjust the&nbsp;
+colors. Let’s first start with a hue/saturation&nbsp;&nbsp;
+
+00:16:19.040 --> 00:16:23.680
+node and plug it in here. Changing the hue&nbsp;
+could give a stylized look to the material.&nbsp;&nbsp;
+
+00:16:23.680 --> 00:16:28.800
+The saturation setting can add saturation to&nbsp;
+the base color or lower it to have a more black&nbsp;&nbsp;
+
+00:16:28.800 --> 00:16:33.680
+and white look. And with the value slider, you&nbsp;
+can lower the value to make the material darker&nbsp;&nbsp;
+
+00:16:33.680 --> 00:16:37.840
+or increase it to make it lighter.
+With any node selected, you can press&nbsp;&nbsp;
+
+00:16:37.840 --> 00:16:42.560
+“M” on your keyboard to mute the node. This&nbsp;
+removes all of that node’s calculations without&nbsp;&nbsp;
+
+00:16:42.560 --> 00:16:47.360
+having to remove the node itself. It’s a good way&nbsp;
+to quickly see if you prefer the material with or&nbsp;&nbsp;
+
+00:16:47.360 --> 00:16:51.840
+without the changes made by this node.
+Another node you can add here is an RGB&nbsp;&nbsp;
+
+00:16:51.840 --> 00:16:56.480
+curves node. You may or may not be familiar&nbsp;
+with using curves for color correction,&nbsp;&nbsp;
+
+00:16:56.480 --> 00:17:00.720
+but in short there’s a red, green and blue&nbsp;
+channel as well as a combined channel that&nbsp;&nbsp;
+
+00:17:00.720 --> 00:17:04.640
+controls all of them at once. There’s&nbsp;
+an entire science behind using curves to&nbsp;&nbsp;
+
+00:17:04.640 --> 00:17:09.680
+adjust colors if you wanted to look into that.
+These reroute nodes are handy when you have one&nbsp;&nbsp;
+
+00:17:09.680 --> 00:17:14.880
+output going to multiple inputs. You can add one&nbsp;
+by pressing Shift+A and searching for “reroute.”&nbsp;&nbsp;
+
+00:17:15.520 --> 00:17:18.880
+Or if your nodes are already connected&nbsp;
+and you have node wrangler turned on,&nbsp;&nbsp;
+
+00:17:18.880 --> 00:17:23.520
+you can hold down shift, click and drag across&nbsp;
+the multiple connections and Blender will add&nbsp;&nbsp;
+
+00:17:23.520 --> 00:17:28.160
+a reroute node for you. If you want to move the&nbsp;
+reroute node, you need to select it and press G&nbsp;&nbsp;
+
+00:17:28.160 --> 00:17:32.400
+to move it round like you would with an object.
+If you want these nodes to take up less space,&nbsp;&nbsp;
+
+00:17:32.400 --> 00:17:37.360
+you can click this expand arrow at the top left&nbsp;
+of a node, to collapse it down to just this.&nbsp;&nbsp;
+
+00:17:37.360 --> 00:17:41.200
+It removes clutter but you can quickly&nbsp;
+expand it back out when you need it.&nbsp;
+
+00:17:41.200 --> 00:17:46.000
+When you have a big node like the Principled&nbsp;
+BSDF, but you’re not using all of the sockets,&nbsp;&nbsp;
+
+00:17:46.000 --> 00:17:50.880
+you can select the node and go to Node - Toggle&nbsp;
+Hidden Node Sockets (or you can press Control+H)&nbsp;&nbsp;
+
+00:17:51.440 --> 00:17:56.000
+and it hides the sockets you’re not using.
+These connections, that are also called&nbsp;&nbsp;
+
+00:17:56.000 --> 00:17:59.280
+“noodles” by the way in Blender. You&nbsp;
+can control how straight or curvy&nbsp;&nbsp;
+
+00:17:59.280 --> 00:18:03.120
+they are. I think they might actually be&nbsp;
+straight by default but I don’t remember.&nbsp;&nbsp;
+
+00:18:03.120 --> 00:18:09.680
+Go to edit - preferences - themes - then find node&nbsp;
+editor and expand this part. Go all the way down&nbsp;&nbsp;
+
+00:18:09.680 --> 00:18:14.560
+to the bottom and there’s a setting called “noodle&nbsp;
+curving.” I have it set to four. Changing it to&nbsp;&nbsp;
+
+00:18:14.560 --> 00:18:19.280
+zero will make the noodles completely straight.&nbsp;
+Increasing it will change the curviness of the&nbsp;&nbsp;
+
+00:18:19.280 --> 00:18:23.600
+noodle, you can adjust to your own liking.
+My name is Brandon, don’t forget to hit that&nbsp;&nbsp;
+
+00:18:23.600 --> 00:18:27.360
+like button and subscribe if you haven’t&nbsp;
+already. Thank you so much for watching!
+

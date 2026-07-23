@@ -1,0 +1,240 @@
+What Is ABV? Meaning & How to Measure - WebstaurantStore
+Categories
+Coupon Codes
+Archives
+Advertising & Marketing ( 24 )
+Bakeries ( 67 )
+Bars & Breweries ( 99 )
+Catering Tips ( 13 )
+Cleaning Tips ( 9 )
+Coffee & Tea ( 34 )
+Company Information ( 14 )
+Eco-Friendly Tips ( 12 )
+Facility Design & Decor ( 11 )
+Food Safety ( 23 )
+Food Trucks & Concessions ( 14 )
+Foodservice Trends ( 55 )
+Holidays ( 37 )
+Infographics ( 8 )
+Interviews ( 5 )
+Kitchen & Cooking Tips ( 228 )
+Management & Operation ( 90 )
+Menu Tips ( 69 )
+Product Spotlights ( 45 )
+Recipes ( 124 )
+Seasonal ( 40 )
+Restaurant Supply Blog
+Coupon Codes Toggle navigation
+WebstaurantStore /
+Food Service Resources /
+Blog
+Bars & Breweries
+What Is ABV?
+Last updated on Jan 14, 2026
+Kevin Singhel
+Alcohol by volume (ABV) is a metric used to determine the alcohol content in an alcoholic beverage. The measurement shows what percentage of the beverage’s total volume is pure alcohol.
+Knowing the ABV of an alcoholic beverage is important, especially if you’re just opening a new bar or are starting a new brewery and plan on making your own alcohol. Small differences in ABV affect factors such as taste and likelihood of intoxication, meaning that understanding ABV and how it affects drinks is key to keeping your patrons safe and happy.
+Use these links to learn more about important aspects of ABV:
+ABV in Different Types of Alcohol
+How to Calculate ABV
+Alcohol Serving Size
+Additional Alcohol Measurements
+ABV in Different Types of Alcohol
+ABV in alcoholic beverages varies wildly depending on what type of alcohol you’re using. Although there may also be variance in each type of alcohol, most forms of alcohol have standard ABV ranges that you can come to expect.
+Beer ABV
+When it comes to ABV, beer is typically the alcoholic beverage with some of the lowest alcohol levels. That being said, ABV varies between different types of beer . Usually, beers have an ABV between 3.5% - 7%, but there are outliers with higher or lower ABVs. Some beers may have an ABV of less than 1%, while some IPAs might have an ABV well above 10%. Beers that have lower ABVs are typically much lighter and have many great food pairings , while beers with higher ABVs will have a much stronger and acquired taste.
+Hard Cider ABV
+Hard cider is often confused as a type of beer, but it is actually made from fermented fruit juice rather than malt. The ABV of hard cider is generally relatively similar to the ABV of beer, as you’ll commonly find hard ciders with an ABV between 4.5% - 7%. Unlike beers, hard ciders don’t have that much variance in their ABV levels, so most hard ciders you find will be in this range.
+Wine ABV
+Although not quite as strong as some other types of alcohol, the ABV of wine is still relatively high. The average ABV of wine is around 12%, meaning on average wine has more alcohol content than beers and hard ciders. There are some outliers to these numbers, as sparkling wines and white wines tend to have a slightly lower ABV of around 10%, while red wines and orange wines usually have a little more alcohol content than other wines with an ABV of around 14%.
+The wines with the highest ABV are known as fortified wines. These wines have distilled grape spirits included in the fermentation process, boosting ABV to around 20%.
+Liquor ABV
+When discussing liquor, the measurement known as proof is usually brought up, but ABV levels are often still included on liquor labels. Liquor has some of the highest ABV levels of alcoholic beverages, with most liquors falling somewhere between 40% - 50% ABV. Compared to other alcoholic beverages like beer and wine, this is a stark contrast and is why liquor is notorious for its strong taste.
+Due to the profound taste of liquor, it is sometimes matched with non-alcoholic beverages or muddled ingredients to create mixed drinks. In doing so, you’re diluting the strong taste of liquor as well as lessening the amount of alcohol you’re taking in. There are many different types of liquor and the ABV levels vary between each type. However, regardless of whether you’re serving vodka or a type of whiskey , make sure you consider liquor’s high ABV levels.
+Alcohol Serving Size
+When it comes to measuring how much alcohol is in a beverage, you'll need to multiply a drink’s ABV by the drink’s total volume. For example, a 12. oz beer with 5% ABV contains 0.6 oz. of alcohol. Conversely, a 5 oz. glass of 12% ABV wine also contains 0.6 oz. of alcohol. To figure out the total amount of alcohol in a standard alcoholic beverage like wine or beer the formula should read:
+ABV Percentage * Total Volume of Beverage = Total Alcohol in Beverage
+Since higher ABV beverages will have more alcohol in them, they are often drunk in smaller serving sizes. This is why glasses of wine are usually drunk in smaller 5 oz. servings, while liquor is typically taken in smaller shots of around 1.25 oz.
+How to Calculate ABV
+Although alcoholic beverages that you purchase are labeled with their ABV level, that isn’t the case when you’re making your own alcohol. In this scenario, the most common way to figure out ABV is by subtracting a drink’s original gravity from the final gravity and multiply your answer by 131.25. This means your ABV formula should read:
+(Final gravity - Original gravity) X 131.25
+The relationship between original gravity and final gravity isn’t completely linear, meaning it may not be precise when measuring higher ABV beverages. If you’re confused about how to find the numbers for this formula or what they mean, here's everything you need to know:
+Original Gravity: The hydrometer reading before yeast is pitched.
+Final Gravity: The hydrometer reading after the fermentation process is complete.
+131.25: This number is the conversion factor for the relative density of alcohol and water, and is reached through the use of stoichiometry calculations.
+ABV Calculator
+For the more serious brewmasters that want a more precise measurement of their beverage’s ABV, there are plenty of third-party websites that offer ABV calculators. These calculators use more complex and precise formulas, yet all you need to do is plug in the information and let the application do the ABV calculations for you. A common formula these calculators use is:
+ABV = (76.08 * (orignal gravity-final gravity) / (1.775 - original gravity)) * (final gravity / 0.794)
+The formula may seem complex at first, but when plugging it into an ABV calculator the calculations should take no time at all. Although such a complex formula usually isn’t required, it does come in handy for those that are serious about brewing their own alcohol, especially if they are making potent alcoholic beverages.
+Additional Alcohol Measurements
+Although ABV may be one of the most common measurements for how much alcohol is in a beverage, it might not be the only alcohol measurement that you come across. There are several other measurements of alcohol that you’re likely to see on various beverage labels. Understanding how to recognize these different measurements and how they relate to ABV is key to preventing major mix-ups and creating quality alcoholic beverages.
+Proof vs ABV
+Other than ABV, proof is likely one of the most common alcohol measurements you will see. In the United States, the difference between proof and ABV is simple to grasp. Proof is twice the percentage of alcohol by volume, meaning that a beverage with 40% ABV would have a proof of 80.
+Proof is primarily used to measure the alcohol content of liquor, and the name stems back from the early days of the American alcohol trade. Alcohol traders would water down their goods, so it was required for traders to mix their alcohol with gunpowder to prove it was legitimate. If the alcohol caught fire then it was a legitimate product with a high proof, and if it didn’t consumers could tell it had been watered down.
+ABW vs ABV
+Although ABV is what you’ll commonly find listed on labels in the United States, you may sometimes come across a beverage measured with alcohol by weight. In other parts of the world and select areas of the U.S, alcohol by weight is used, but if you find an unlabeled percentage listed on a U.S beverage, it's safe to assume it's the beverage’s ABV.
+A drink’s ABW is lower than its ABV, meaning a drink with 5% ABW is a drink with a higher than 5% ABV. When purchasing alcoholic beverages for your bar, make sure you’re double-checking labels to see how the alcohol content is measured, just so you know exactly how much alcohol is in a particular drink.
+Knowing the amount of alcohol in a particular drink is an important part of serving alcohol and creating mixed drinks . You need to know how much alcohol is in a particular drink to identify aspects such as taste and viscosity. Whether you’re buying alcohol from another source or making it yourself, always keep ABV and its effects in mind to create the best possible alcoholic beverages.
+Share Pin It Tweet
+The information provided on this website does not, and is not intended to, constitute legal advice. Please refer to our Content Policy for more details.
+Related Resources
+How to Set Drink Prices In Your Bar or Restaurant
+Setting bar drink prices can be a challenging part of managing a bar. Customers may be deterred by overly high prices, but the business will struggle to thrive if prices are too low. Factors such as rent and overhead costs need to be factored in when determining pricing, along with industry standards that can guide you in setting the right prices for your establishment. Use our guide to calculate drink prices at your bar to encourage purchases and maintain a steady profit.
+How to Price Cocktails
+Pricing cocktails and other drinks requires a few simple equations. When considering how many different types and brands of liquors are used, follow these steps to help you estimate the price of the drinks at your establishment.
+Liquor cost calculation: Bottle Price / Ounces in Bottle = Liquor Cost per Ounce
+Pour and beverage cost calculation: Cost to Make the Drink / Price You Sell It for = Pour Cost. Industry-standard pour costs range between 20% to 25%, but adjust the percentage to match your business.
+Drink price calculation: Liquor Cost / Pour Cost in Decimals = Drink Price
+Add garnish prices: Some bars calculate the cost of each ingredient and price them accordingly, while others set a flat rate and add it to the cocktail price.
+Calculate shrinkage variance: Most bars will add an additional fee of approximately 20% to cover the cost of lost products due to expiration or damage.
+Round total price to the nearest quarter: To make the calculated price more visually appealing, round to the nearest quarter to create a cleaner drink menu.
+Evaluate and adjust: The prices you come to may not always be the most cost-effective price for your demographic. You can use a profit and loss statement to make adjustments and track the impact it has on your clientele to find the best menu pricing for your establishment to be profitable.
+Drink Cost Calculation Example
+We walk through the pricing breakdown of a basic drink to provide a visual of the calculation above. In this example, a 25-ounce liquor bottle costs $22.
+Liquor cost: $22 purchase cost / 25 oz. per bottle = $0.88 per ounce
+Pour cost: We’ll use 20%, or 0.2, as a standard.
+Drink cost: $0.88 liquor cost / .2 pour cost = $4.40
+Garnish cost: We’ll use a flat rate of $0.50. Therefore, $4.40 + $0.50 = $4.90
+Shrinkage cost: We use the shrinkage rate of 20%, or 0.2. Therefore, $4.90 drink total x .2 shrinkage = $0.98 shrinkage cost.
+Final calculation: $4.90 drink total + $0.98 shrinkage cost = $5.88 new drink total
+Round to the quarter: The final drink price is $6.00.
+Drink Pricing Tips
+Experienced professionals use several tricks to help them accurately determine drink prices, specifically regarding recipe and pour costs. While most locations will set the pour cost at 20% to 25%, others will use 22% for wine, 20% for beer, and 14% for liquor. You can adjust the percentage to what works best for your establishment.
+Since most drinks do not consist of just one type of liquor or ingredient, price out your ingredients the same way you calculated the liquor cost and add them all together. Multiply the liquor cost according to how many ounces of that particular liquor you used in the cocktail. Then, use that recipe total instead of the liquor cost during the drink cost step.
+How to Price Liquor
+Liquor pricing is determined by a four-tier organizational system that allows you to adjust your pour cost according to the liquor quality. Organizing your bottle brands into these four categories can provide a quick reference system when setting drink prices.
+Well: These brands earn their name because they sit in the well behind the bar. Well drinks are made with the cheapest liquors in your establishment and traditionally mixed with multiple liquors and drink mixes. They will have the highest pour cost, set at approximately 30%.
+Call: These brands are the most popular in your establishment and are usually located directly behind the bartender. Customers can generally call them by name when asking for a drink. They will have a pour cost set at approximately 25%.
+Premium: These brands will usually be located on the lowest shelf behind the bar and will be the highest quality certain brands have to offer. They will have a pour cost set at approximately 20%.
+Super-premium: These brands are considered top-shelf bottles and will be the liquors with the highest quality in your establishment. They are generally liquors that have been aged and distilled. They will have the lowest pour cost, set at approximately 15%.
+Creating Standard Recipes
+Establishing standard recipes for each drink is important to ensure consistency and quality. If each bartender makes cocktails differently, your customers receive different types of margaritas and your effort to price the beverage is essentially useless.
+When standardizing recipes it's also important to stress the necessity of avoiding over-pouring to your bartenders. Over-pouring costs bars thousands of dollars annually, but you can help prevent that by adding measured pourers behind the bar.
+Factors That Impact Drink Prices
+Drink prices are impacted by factors besides their ingredients, such as your location and competition.
+Demographic
+Setting drink prices goes beyond calculations. Consider your location’s demographic to set prices your customers will accept. Consider the age, gender, occupation, and income of the people in your surrounding neighborhood.
+If your bar is in a bustling city with higher rent rates, customers may accept and expect higher-priced drinks. However, if you’re in a rural town or near a college community where the population has lower available income, higher-priced drinks won’t sell very well. Evaluate how your customers respond to your drink prices by tracking your bar sales and adjusting your prices accordingly.
+Checking Out the Competition
+Knowing your competition's pricing and promotions is vital to your success. If your drinks are priced significantly higher than the bar around the corner, you might slowly lose business and see financial effects. Vice versa, bar drink prices that are too low won't cover the costs of staff, rent, and electricity. Many bars choose a technique in which they try to meet the prices of their competition or beat them if possible.
+However, not all bars are the same. If your bar or restaurant features an upscale ambiance, customers will expect your drinks to be the same price as the casual dining bar around the corner. Your atmosphere will also impact the discount of your happy hour drinks if you choose to have a happy hour. A sports bar serving a happy hour may see a 30% pour cost, while an upper-class martini bar keeps its beverage cost at 18%.
+Determining your pricing will be influenced by factors such as the cost of alcohol, market competition, target customer base, and desired profits. Proper calculation of drink prices is a cornerstone of your establishment's success. Strive to strike a balance and set reasonable prices for your food and drink menus to keep happy customers returning.
+Types of Liquor
+There are six primary types of liquor, each with its own distinct characteristics and uses in the bar industry: vodka, rum, tequila, gin, whiskey, and brandy. Vodka is a versatile spirit that can be used in a wide range of cocktails, while rum is often used in tropical drinks and baking. Tequila is a key ingredient in margaritas and other Mexican-inspired cocktails, and gin is known for its botanical flavors in classic cocktails like the martini. Whiskey encompasses various styles such as bourbon, scotch, and rye, each offering unique flavors for sipping or mixing. Lastly, brandy is a popular choice for after-dinner drinks and cooking applications. We deep dive into each of these distilled spirits, exploring their nuances, uses, and the different types within each category, so you can stock your bar with the foundational liquors you need to make your signature cocktails.
+Click any of the links below to skip to a specific type of liquor:
+Tequila
+Brandy
+Vodka
+Whiskey
+Gin
+Rum
+Liquor FAQs
+What Is Liquor?
+Liquor is an alcoholic beverage that is produced through the fermentation and distillation of grains, fruits, vegetables, or sugar. What sets liquor apart from wine and beer is the distillation process it undergoes. Distillation involves heating the fermented liquid to separate alcohol from water and other components. This concentration process increases the alcohol content of the liquid, giving liquor a higher alcohol proof compared to beer and wine.
+Liquor vs Liqueur
+Liquors are primarily distilled from high-starch plants and have a high alcohol by volume (ABV) content, with most starting at 80 proof and increasing from there. Liqueurs are a subset of spirits with a lower ABV, typically falling between 15 and 60 proof. They are distilled from organic compounds such as herbs, berries, fruits, and nuts, resulting in often sweet and flavorful final products that can add depth and complexity to drinks. They also serve as aperitifs or digestifs, enjoyed before or after a meal to stimulate the appetite or aid in digestion.
+Different Types of Liquor
+Whiskey, vodka, rum, tequila, gin, and brandy are the main types of liquor. Each offers unique flavors and characteristics that cater to different preferences and cocktail recipes.
+1. Tequila
+Tequila is a unique spirit distilled from the agave plant, specifically the Weber Blue Agave, which is a cactus-like plant from the lily family. Premium tequila must be made from 100 percent Weber Blue Agave, while tequilas with less than 100 percent agave are known as mixtos, which are typically less expensive and lower in quality. The best tequilas are crafted from agaves that are eight to twelve years old. To be labeled as tequila, the spirit must originate from specific regions in Mexico, with the most notable being the city of Tequila in the state of Jalisco. Tequila can also be produced in Guanajuato, Michoacan, Nayarit, and Tamaulipas.
+By law, all tequilas must undergo a double distillation process, although there are exceptions, such as the award-winning organic Casa Noble tequilas, which are triple distilled. Distillers use stainless steel copper pot stills or larger column stills to achieve the desired flavor profile before aging the tequila in barrels. There are five main types of tequila you can use in a tasting. Blanco tequila, also known as silver or platinum tequila, is unaged and offers a crisp, fresh agave flavor. Joven, also known as &ldquo;gold&rdquo; tequila, is a blend of blanco and reposado tequilas, often but not always mixed with additional coloring and flavoring. Reposado tequila, meaning "rested," is aged for a minimum of two months in stainless steel tanks or barrels, with a maximum aging period of 11 months. Anejo tequila must be barrel-aged for a minimum of one year but no longer than three years; if aged for more than three years, it is classified as extra anejo tequila.
+What Does Tequila Taste Like? Sweet agave with notes of citrus, soil, and pepper
+Is Tequila White or Brown Liquor? Unaged blanco is white liquor. Reposado and anejo are brown liquors.
+Types of Tequila: Blanco (silver) tequila, Joven (gold) tequila, Reposado tequila, Anejo tequila, Extra anejo tequila
+Popular Tequila Cocktails: Margarita, Paloma, Tequila Sunrise, Rosita, Ranch Water, El Diablo
+Mezcal vs Tequila
+Mezcal and tequila are both popular Mexican spirits, but they are two unique beverages. Mezcal is made from various types of agave plants, while tequila is specifically made from blue agave, resulting in a more earthy and herbal taste. Mezcal is typically produced using traditional methods, including roasting the agave in underground pits, giving it a smoky quality that enhances spicy drinks, like our spicy grapefruit mezcal margarita recipe.
+2. Brandy
+Brandy is a single-distilled wine-based spirit aged in barrels, which imparts oaky, caramel, and vanilla essences into the fruity base flavor. The main types of brandy include grape brandy, fruit brandy, and pomace brandy. Grape brandy, made from fermented grapes, is the most common type. Fruit brandy, produced from fruits like apples, cherries, or pears, offers a diverse range of flavors. Pomace brandy, also known as grappa, is made from the leftover grape skins, seeds, and stems after winemaking, resulting in a bold and distinctive taste. Unlike some spirits that are tied to specific regions, Brandy can be produced anywhere, allowing for a diverse range of styles and expressions to emerge in the market.
+The name "brandy" is derived from the old Dutch word brantwijn, which translates to "burnt wine." This term originated from the practice of distilling grape juice with fire, or more accurately, with enough heat to bring the liquid to a boil. During the seventeenth century, brandy became so popular that the anglicized word "brandywine" found its way into many early American folk songs, particularly those from the Appalachian region. Eventually, the name was shortened to simply "brandy." Over time, this drink evolved into the fruit-forward sweet spirit we now know today.
+What Does Brandy Taste Like? Fruity and sweet with notes of caramel, vanilla, and oak
+Is Brandy White or Brown Liquor? Brandy is considered a brown liquor.
+Types of Brandy: Grape brandy, Fruit brandy, Pomace brandy
+Popular Brandy Cocktails: Sidecar, Brandy Alexander, Vieux Carre, Brandy Smash
+Cognac vs Brandy
+Cognac (pronounced as "kown-yak") and brandy are both types of distilled spirits that originate from wine. Cognac is a specific type of brandy that must be produced in the Cognac region of France and adhere to strict regulations. It is typically aged in oak barrels, resulting in a smooth, complex flavor profile with notes of fruit, spice, and oak. Brandy, on the other hand, is a broad category of spirits made by distilling wine or fermented fruit juice. It is single-distilled, whereas cognac undergoes a double distillation process.
+3. Vodka
+Vodka is a clear, colorless liquor that is typically made from fermented grains such as wheat, rye, or barley. Vodka can also be made from potatoes, grapes, or other fruits. Unlike brown liquors such as whiskey or rum, vodka is not aged in barrels. Instead, it is typically distilled multiple times to achieve a smooth and neutral flavor profile. This makes vodka an ideal base for a wide range of cocktails and mixed drinks. Flavored vodka is a popular variation that involves infusing the spirit with additional ingredients like fruits, herbs, or spices, and sometimes sweetening or coloring it to create a distinct taste. Liquor connoisseurs debate whether Russia or Poland can claim its place of origin. Regardless of where it came from, vodka is now produced across the globe and stands as the most favored spirit in the United States.
+The name "vodka" itself comes from the Slavic word voda, meaning water. The water used in the distillation process greatly affects vodka's flavor, as it comprises 60 percent of vodka's composition. Some of the most expensive vodkas on the market are made from the purest global waters, such as the Blue Spring of New Zealand and Agua Clara Spring in the Andes Mountains of Chile. In addition to water quality, the distillation technique and types of filtration used in the production process also play a significant role in shaping vodka's flavor profile. These factors contribute to the wide range of flavors and qualities found in different vodkas on the market today.
+What Does Vodka Taste Like? Clean and neutral with subtle notes of almond, citrus, apple, or pepper, depending on the starch and water used
+Is Vodka White or Brown Liquor? Vodka is a white liquor
+Types of Vodka: Wheat vodka, Rye vodka, Potato vodka, Flavored vodka, Fruit vodka, Barley vodka
+Popular Vodka Cocktails: Moscow Mule, Cosmopolitan, Bloody Mary, Vodka Martini, Espresso Martini, Screwdriver, White Russian, Vodka Cranberry
+Tequila vs Vodka
+Tequila is a distilled spirit made from the blue agave plant, primarily produced in Mexico, known for its earthy and robust flavors. On the other hand, vodka is a colorless and odorless spirit that can be made from various ingredients such as grains or potatoes, offering a neutral taste profile. Tequila is often used in cocktails like margaritas and palomas, adding a distinct flavor, while vodka serves as a versatile base for a wide range of mixed drinks due to its neutral taste.
+4. Whiskey
+Whiskey is an amber-colored distilled alcoholic beverage made from fermented grain mash, such as corn, barley, rye, and wheat. It is typically aged in wooden casks and has a minimum alcohol by volume (ABV) of 40%. The term whiskey encompasses diverse whiskey varieties, each with its own distinct characteristics and production methods. Single malt whiskey, for example, is made from 100% malted barley at a single distillery, often in Scotland, where it is known as Scotch whiskey. A single malt is a pot-distilled spirit that comes from one single distillery and is aged in oak barrels. On the other hand, a Scotch blend is comprised of several single malts from different distilleries that are blended. Grain whiskies are another category commonly used in Scotch whiskey blends to link the various single malts together. Irish whiskeys are typically triple-pot distilled, giving them lighter and mellower flavors. Unlike Scottish distillers, most Irish distilleries do not burn peat to dry their malted barley, resulting in a lack of smoky characteristics.
+Japanese whiskies have been gaining global traction, and Japan is now the second-largest producer of single malt whiskey worldwide. The terroir of the volcanic soil in Japan imparts a smoky, dry sweetness to their whiskies. Bourbon, a uniquely American invention, is a type of corn whiskey that comes in single-barrel and small-batch varieties. Tennessee whiskey, similar to bourbon, must be made from a mash bill containing at least 51% corn and aged in new charred American white oak barrels. However, Tennessee whiskey is distinguished by an additional step where the distillate is filtered or mellowed through a 10-foot column of sugar maple wood charcoal. Distilled from a mash bill containing a minimum of 51% rye grain, aged in new charred oak barrels, and bottled at least 80 proof, rye whiskey is beloved for its bold, peppery taste. Canadian whiskey is crafted from fermented grains such as corn, rye, and barley and undergoes a maturation process of at least three years in wooden barrels. Since it typically has a higher corn than rye blend, Canadian whiskey is recognized for its smooth and light profile. Additionally, it is permissible for Canadian whisky to incorporate caramel coloring and other flavorings prior to bottling, further enriching its taste profile.
+What Does Whiskey Taste Like? With so many varieties, whiskey&rsquo;s flavor profile ranges from spicy, woody, and smoky, to sweet, caramel, vanilla, and fruity
+Is Whiskey White or Brown Liquor? Most whiskeys are brown liquors. The exception is unaged, white whiskey.
+Types of Whiskey: Bourbon whiskey, Tennessee whiskey, Rye whiskey, Scotch whisky, Irish whiskey, Canadian whiskey
+Popular Whiskey Cocktails: Old Fashioned, Manhattan, Whiskey Sour, John Collins, Irish Coffee, Mint Julep, Vieux Carre, Highball, Lynchburg Lemonade, Sazerac
+Whiskey vs Bourbon
+Whiskey is a broad category that includes various styles such as Scotch, Irish, and Canadian whiskey. It is typically made from a fermented grain mash and aged in wooden barrels. On the other hand, bourbon is a specific type of whiskey that must be made in the United States, primarily from corn, and aged in new charred oak barrels. Bourbon tends to have a sweeter flavor profile compared to other types of whiskey due to its high corn content.
+Whiskey vs Whisky
+The main difference between whisky and whiskey lies in the spelling, reflecting their original Scots- and Gaelic-derived names, uisge beatha, meaning "Water of Life". American &lsquo;whiskey&rsquo; acquired the 'e' due to Irish immigration in the 18th century, while Scotch whisky is always spelled without the 'e.' To be officially called Scotch whisky, the spirit must mature in oak for at least three years and undergo production and maturation in Scotland. Single malt Scotch whisky must be crafted from 100% malted barley. Irish whiskey, on the other hand, is always spelled with the 'e,' and it distinguishes itself by using little to no peat, resulting in a lack of smokiness. Irish whiskey may contain a blend of malt distillate, barley distillate, and grain spirit, and it is distilled three times. Similar to Scotch whisky, Irish whiskey must mature for a legal minimum of three years.
+5. Gin
+Originally known as genever, which is Dutch for juniper, gin derives its name from its dominant flavoring ingredient. While genever is the predecessor of modern gin, it is characterized by a maltier and richer flavor profile, reminiscent of whiskey. The process of making gin involves infusing or macerating a variety of botanicals with a neutral grain spirit, which is then pot distilled. To be classified as gin, the final product must contain at least 37.5% pure alcohol in the total volume of liquid (ABV). Juniper must be the predominant flavor in gin; without it, the liquor cannot be considered gin. Gin has a rich history dating back to the 1500s in Holland. It gained popularity in America during the prohibition era, as it was used in home distillation due to its status as an unaged spirit. Today, mixologists enjoy playing with the spirit&rsquo;s varied botanical qualities.
+The flavor of gin is derived from the types of botanicals used in the distillation process. While juniper forms the base, additional natural ingredients such as coriander, orange peel, angelica, lemon peel, and cardamom are commonly added to create a complex flavor profile. London Dry Gin, distilled from corn, offers a smoother version of the Dutch gin made with malted barley, boasting a strong juniper flavor and a dry finish. Old Tom Gin, a historical style of gin, is slightly sweeter than London Dry, offering a unique twist on the classic spirit. Navy Strength Gin, with a minimum of 57% ABV, packs a punch with its higher proof, catering to those seeking a more robust drinking experience. Plymouth Gin, a specific style produced in Plymouth, England, is known for its softer and earthier flavor compared to London Dry. Flavored gins, such as pink gin, are infused with fruit, floral, and herbal flavors after distillation, offering a refreshing and aromatic twist on the traditional spirit.
+What Does Gin Taste Like? Piney, herbal juniper berries are the dominant flavor, accompanied by other botanicals.
+Is Gin White or Brown Liquor? Gin is an unaged white liquor
+Types of Gin: London dry gin, Plymouth gin, Old Tom gin, Navy strength gin, Modern craft gins
+Popular Gin Cocktails: Gin and Tonic, Negroni, Martini, French 75, Bees Knees, Gin Fizz
+Gin vs Vodka
+Gin is a clear spirit that is primarily flavored with juniper berries, giving it a unique botanical taste. It is commonly used in classic cocktails like the gin and tonic or the Negroni. On the other hand, vodka is a neutral spirit that is typically distilled multiple times to achieve a smooth and clean flavor profile. Vodka is versatile and can be mixed with a wide range of ingredients, making it a staple in many cocktails and mixed drinks.
+Gin vs Whiskey
+Gin, a clear spirit flavored with botanicals like juniper berries, offers a versatile base for classic cocktails such as the martini or gin and tonic. On the other hand, whiskey, a distilled alcoholic beverage made from fermented grain mash, provides a complex and rich flavor profile that is ideal for sipping neat or in cocktails like the Old Fashioned or Manhattan.
+6. Rum
+Rum is a sugar cane distillate beloved for its balmy Caribbean image, making it a popular choice for tiki bar drinks. While rum is often associated with the West Indies, it is produced in various regions around the world, from South Africa to South America to Asia. To make rum, sugar cane is harvested and crushed to extract the juice from the stalks. This sweet juice is then fermented with yeast before being distilled in a column still, pot still, or a combination of both methods. Some rums are made by cooking sugar cane juice first, creating a syrup or molasses that results in a heartier flavor profile.
+Once associated with pirates, rum has evolved from its historical roots to become a refined beverage better suited to a yacht than Queen Anne's Revenge. Today, there are three main types of rum: light, gold, and dark, with a few sweet, spiced rums typically reserved for cocktails. Light or white rums are aged in steel tanks or uncharred barrels to maintain their clarity. Gold rums undergo barrel aging, though not as extensively as dark rums. Dark rums are distilled from caramelized molasses derived from burnt sugar cane and are aged in charred barrels for a deeper color and a more robust flavor.
+What Does Rum Taste Like? Ranges from sweet, mild, and verdant flavored light rums, to decadent, spicy, and nuanced flavored dark rums
+Is Rum White or Brown Liquor? Rum can be classified as either white or dark liquor, depending on the aging process and ingredients used.
+Types of Rum: Light rum, Gold rum, Dark rum, Spiced rum
+Popular Rum Cocktails: Mojito, Pina Colada, Daiquiri, Dark n&rsquo; Stormy, Mai Tai, Cuba Libre, Rum Punch, Hurricane, Rum Runner, Zombie, Jungle Bird
+Rum vs Whiskey
+Rum is made from sugarcane byproducts, such as molasses or sugarcane juice, and is typically aged in oak barrels. It has a sweet and tropical flavor profile, making it a versatile choice for cocktails. On the other hand, whiskey is made from fermented grain mash and aged in wooden casks, giving it a complex and robust taste with notes of caramel, vanilla, and spice.
+Cachaca vs Rum
+Cachaca (pronounced as "kuh-chaa-kuh") is a Brazilian spirit made from fermented sugarcane juice, giving it a unique grassy flavor. It is the key ingredient in the famous Caipirinha cocktail. Rum, on the other hand, is made from either sugarcane juice or molasses and is produced in various countries. Rum comes in different styles, such as light, dark, and spiced, each offering its own flavor profile.
+Back to Top
+Liquor FAQs
+Now that you're familiar with the most foundational liquor categories, we answer some common questions you may still have about distilled spirits below.
+What Is Hard Liquor?
+Hard liquor, also known as spirits or distilled spirits, is a type of alcoholic beverage that is produced through the process of distillation. Distillation involves heating a fermented liquid to create vapor, which is then condensed back into liquid form to increase the alcohol content and remove impurities. Examples of hard liquor include vodka, rum, whiskey, tequila, gin, and brandy. Hard liquor typically has a higher ABV than beer or wine, making it a popular choice for creating strong and flavorful cocktails.
+What Is Brown Liquor?
+Brown liquor, also known as dark liquor, encompasses a variety of spirits aged in oak barrels, creating their distinctive dark hues and rich flavors. Examples of brown liquor include bourbon, whiskey, rum, and brandy. These spirits are often enjoyed neat, on the rocks, or as the base for classic cocktails like an Old Fashioned and Manhattan.
+What Are Distilled Spirits?
+Distilled spirits, also known as hard liquors, are alcoholic beverages produced by distilling fermented grains, fruits, or vegetables. The distillation process involves heating the liquid to create steam, which is then cooled and collected as a concentrated form of alcohol. Distilled spirits typically have a higher alcohol content than other types of alcoholic beverages, such as beer or wine, ranging from 40% to 50% alcohol by volume. Common types of distilled spirits include vodka, rum, whiskey, tequila, gin, and brandy. Each type of spirit has its own unique flavor profile and is often enjoyed neat, on the rocks, or as a base for cocktails.
+Spirits vs Liquor
+The terms liquor and spirits are interchangeable, representing the wide range of distilled alcoholic drinks available for commercial use. Liquor, also known as spirits, refers to alcoholic beverages made from grains or other plants that are fermented and distilled into "hard alcohols."
+Understanding the types of liquor is essential for any commercial business or bartender. It allows businesses to offer a diverse selection of drinks to cater to different customer preferences and trends. For bartenders, knowing the characteristics and uses of various liquors can enhance their mixology skills and provide a better customer experience. Whether you want to become a bartender or update your cocktail menu, a solid understanding of liquor types is crucial in the commercial beverage industry.
+How to Measure Liquor
+If you’re an aspiring bartender, you must learn how to pour an accurate amount of liquor fast. From measuring liquor in a jigger to using measured pourers, there are multiple methods bartenders can use to serve precise amounts of alcohol for shots and cocktails. To keep up in busy nightlife environments, use our guide to the different ways to measure liquor, and learn how to apply each method with our liquor pouring video tutorial. Shop All Liquor Pourers Click below to learn more about pouring liquor: Ways to Measure Alcohol Liquor Measurement FAQ How to Free Pour How Do Bartenders Measure Liquor <iframe itemprop="embedURL" width="560" height="315" src="https://www.youtube.com/embed/G8NFtBS90vY?si=stZK2JPNT-hdkwCI?rel=0" frameborder="0" allowfullscreen></iframe> There are several bartending tools and methods you can use to measure liquor. Discover the different ways you can measure liquor, along with each strategy's pros and cons, below: 1. Jiggers A jigger is a measurement tool that helps bartenders obtain equal shots of liquor for their drinks. The pros and cons of measuring liquor with a jigger are as follows: Ensures consistency - Your drinks will come out the same every time. Cuts costs - By guaranteeing how much liquor is going into each drink, jiggers can reduce revenue loss. Takes longer - Measuring liquor in a jigger is more time-consuming than other pouring methods. 2. Free Pouring Free pouring is the art of pouring liquor and counting down to gauge the correct amount. The pros and cons of free pouring are as follows: Saves time - It is much faster to free pour liquor than to measure it in a jigger. The ability to serve more drinks may increase your bar’s profit margins and the number of tips you’ll earn. Multi-tasking - Because free pouring only requires one hand, you can use your free hand to prepare other drinks. Visually enticing - Free pouring adds an element of showmanship to the drink-making process. Can yield flavor inconsistencies - Free pouring liquor can produce inconsistent amounts of alcohol, throwing off the flavor of drinks. Can lead to revenue loss - It’s easy to overpour liquor when you don’t use a formal measurement system, leading to lost revenue. 3. Measured Pourers Measured liquor pourers are designed to accurately dispense certain pour increments, making it easy for bartenders to quickly serve precise amounts of liquor. The pros and cons of measuring liquor with a measured pourer are as follows. Liquor inventory management - Controls how much liquor goes into each drink and prevents heavy-handed liquor pours. Flavor control - Ensures your cocktails offer the same delicious flavor every time they’re ordered. Must purchase multiple - Because measured pourers deliver preset amounts of liquor, you’ll require multiple and will have to switch them out to accommodate different drink orders. 4. Precision Pour Bottle Rack Systems Precision pour bottle rack systems provide quick, accurate results for measuring liquor. You install your liquor bottle to the pourer head, and then mount the entire unit upside down. This allows your liquor to flow freely when you dispense it by pressing the rim of your glass against the bottom of the head. Like measured pourers, precision pour rack systems dispense preset amounts of liquor. The pros and cons of measuring liquor with precision pour rack systems are as follows: Accurate - Ensures the right amount of liquor is dispensed every time. Fast - Eliminates the extra step of measuring liquor. Multi-Bottle Units Available - Many precision pour bottle rack systems allow you to load multiple liquor bottles into the same unit for convenience. May slow bartenders down - If you have to wait for another bartender to finish using the station to access the bottle you need, it will slow your drink-making process. Less visually stimulating - For craft cocktail bars, doling out liquor from an upside-down pourer is less exciting for customers to watch than a bartender measuring or counting out their drink. Back to Top Liquor Pouring FAQ Get answers to the most common questions about pouring liquor below. What Is the Standard Pour in a Single Mixer Cocktail? The standard pour for single mixer cocktails is 1 1/2 fl. oz. of liquor. How Many Counts Is a Shot? A 3-count liquor pour equals one shot. Each count delivers 1/2 a fl. oz., so it takes 3 counts to create the standard 1 1/2 fl. oz. shot. How Many Counts for Neat/on the Rocks Drinks? A 4-count pour is standard for liquor served neat/on the rocks with no mixers. You’ll want to give patrons who order a fine whiskey a generous 2 fl. oz. pour. How Many Tablespoons in a Shot? There are three tablespoons in a shot. How Many Teaspoons Are in a Shot Glass? There are nine teaspoons in a shot. How Many Shots in a Cup? There are 8 shots in a cup. 8 fl. oz. is a standard volume cup, and a standard shot varies between 1 and 1 1/2 fl. oz. How Many Seconds Is a 2 Oz. Pour? It takes 4 seconds to pour 2 fl. oz. of alcohol. You can gauge seconds passing by counting them out. How Many Seconds Is a 1 Oz. Pour? It takes 2 seconds to pour 1 fl. oz. of liquor. How Many Shots in a Liquor Bottle? There are approximately 16 shots in a botte of liquor. Back to Top How to Free Pour Liquor To free pour, bartenders top liquor bottles with speed pourers. Also known as pour spouts, speed pourers regulate how much air goes into the bottle they’re placed into which facilitates a steady stream of liquor. With a speed pourer on hand, use the following steps to free pour liquor: Place the speed pourer on the bottle. Consider which hand you’ll be pouring with and face the speed pourer’s spout towards the cup. Hold the liquor bottle by its neck. This provides greater control over the bottle. It also prevents heat transfer from your hand to the alcohol. Turn the bottle upside down. Keeping the bottle straight and holding it upside down ensures an even stream of liquor, so you can keep an accurate count while you pour. Count out your pour. Each count should equal 1/2 a fl. oz. of liquor. Count each pour with “one one-thousand". Cut the liquor. Flip your wrist to turn the liquor bottle right side up and stop the liquor from pouring. If you gradually turn the bottle, liquor will continue to pour after you’ve stopped counting. An alternate way to cut liquor: Once you’re ready to stop the liquor flow, jerk the bottle to cut it off before turning. This method increases speed so you can pour more drinks. How to Free Pour without a Stopper While many newly hired bartenders wish they could free pour without a stopper/speed pourer, it is impossible to dispense accurate amounts of alcohol without a pourer spout. You must purchase a speed pourer if you want to count liquor measurements without a jigger. How to Count Liquor To get comfortable counting liquor, practice free pouring into a jigger and counting while you do it. This will give you confidence in how quickly you should be counting. The classic “one one-thousand" is a good way to count liquor, but you must practice your pacing to perfect your free pour. Once you feel confident in your counting cadence, follow these steps to practice counting liquor: Free pour four counts of liquor into your cup, and then cut the liquor. Test your accuracy by pouring the cup’s contents into your jigger. If it reaches the 2 fl. oz. line on the jigger, congratulations, you have mastered free pouring. If the liquor comes under or above the 2 fl. oz. line, continue practicing your counts. How to Count Ounces When Pouring The best way to count fl. oz.'s when pouring alcohol is to say “one one-thousand" for each pour count. Your cadence should allow for a 1/2 fl. oz. of liquor to dispense per each "one one-thousand". Perfecting how fast you count requires practice. Pour Counts for Bartending When calculating pour counts for bartending, keep in mind that each count should equal 1/2 a fl. oz. of liquor. We provide a cheat sheet that breaks down how high you should count to pour popular quantities of liquor below. 1 count pour = 1/2 fl. oz. 2 count pour = 1 fl. oz. 3 count pour = 1 1/2 fl. oz. 4 count pour = 2 fl. oz. 5 count pour = 2 1/2 fl. oz. 6 count pour = 3 fl. oz. 7 count pour = 3 1/2 fl. oz. 8 count pour = 4 fl. oz. Back to Top If you're deciding between getting experience or going to bartender school, practicing measuring and pouring liquor will help prepare you for either environment. Reference back to our liquor pouring guide the next time you want to create the perfect distilled drink.
+Check us out, we're social!
+Shop Now
+Restaurant Equipment
+Food & Beverage
+Janitorial Supplies
+Industrial Equipment
+Coffee Shop Supplies
+Bakery Supplies
+Bar Supplies
+Ice Cream Shop Supplies
+Archives
+July 2026
+June 2026
+May 2026
+April 2026
+March 2026
+February 2026
+January 2026
+December 2025
+Enter your email to receive coupon codes and more!
+Sign Up
+All content © 2026 WebstaurantStore
+Contact • About Us • WebstaurantPlus
+Articles
+In-depth information and tips for running a successful restaurant
+Read Articles
+Buying Guides
+Tools to help you find the perfect product for your business
+Learn More

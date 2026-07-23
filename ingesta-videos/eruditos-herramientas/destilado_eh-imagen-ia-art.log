@@ -1,0 +1,23 @@
+CORTO bfl_flux1_prompting (0 palabras)
+ok:deepseek-chat
+15:01:56 OK imagen-ia/bfl_flux2_prompting p1
+ok:deepseek-chat
+15:02:28 OK imagen-ia/gemini_image_docs p1
+ok:deepseek-chat
+15:02:48 OK imagen-ia/ideogram_prompt_structure p1
+ok:deepseek-chat
+15:03:05 OK imagen-ia/ideogram_prompting p1
+ok:deepseek-chat
+15:03:40 OK imagen-ia/ideogram_texto_tipografia p1
+reintento deepseek-chat: timeout
+ok:deepseek-chat
+15:09:45 OK imagen-ia/recraft_docs p1
+ok:deepseek-chat
+15:10:34 OK imagen-ia/replicate_t2i_collection p1
+=== eh-imagen-ia-art: 7 destilados ===
+CORTO bfl_flux1_prompting (0 palabras)
+ok:deepseek-chat
+16:03:37 OK imagen-ia/higgsfield_image_models p1
+ok:deepseek-chat
+16:03:47 OK imagen-ia/openai_gpt_image_docs p1
+=== eh-imagen-ia-art: 9 destilados ===

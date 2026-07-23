@@ -1,0 +1,15 @@
+FUENTE: https://kokolv.medium.com/how-to-design-clear-space-for-a-logo-291359020819
+FUENTE: https://www.memphis.edu/communications/brand/clearances.php
+FUENTE: https://inkbotdesign.com/logo-placement/
+TEMA: Clear space (zona de exclusión) y tamaño mínimo del logo
+
+CLEAR SPACE / EXCLUSION ZONE: área vacía protegida que debe rodear el logo en todo momento; ningún texto, gráfico o elemento decorativo puede entrar en esa zona.
+
+SISTEMA DE UNIDAD "X": el tamaño real del logo es flexible, así que se define un RATIO usando un elemento ya presente en el logo (una letra, un espacio, una altura). Métodos comunes:
+1. Basado en letra (el más común): altura de una letra del wordmark, normalmente una mayúscula ("X" o la inicial de la marca). Si la letra mide 20px, el clear space en los cuatro lados es 20px. Google usa la "G" como X; PayPal usa la "P".
+2. X-height: si el logotipo tiene minúsculas, usar la x-height (altura de las minúsculas sin ascendentes ni descendentes). Da un clear space en rango relativamente pequeño.
+3. Basado en el icono/símbolo: una medida derivada del propio símbolo (ancho de una forma o de un trazo del mark). Común en identidades con mucho icono.
+
+PRINCIPIO CLAVE: el clear space se expresa como RATIO relativo a un elemento repetible del logo, NUNCA como valor fijo en px o mm. 20px alrededor de un logo de 200px es proporcionado; los mismos 20px alrededor de un favicon de 40px no son nada.
+
+TAMAÑO MÍNIMO: definir un mínimo tanto para digital (px) como para impresión (mm/pulgadas) por debajo del cual el logo pierde legibilidad. Es parte obligatoria del manual de uso, junto al clear space.

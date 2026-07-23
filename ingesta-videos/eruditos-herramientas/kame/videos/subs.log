@@ -1,0 +1,98 @@
+[youtube] Extracting URL: https://youtu.be/bAGZR4y53s8
+[youtube] bAGZR4y53s8: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] bAGZR4y53s8: Downloading android vr player API JSON
+[youtube] Sleeping 4.0 seconds ...
+[youtube] bAGZR4y53s8: Downloading web embedded client config
+[youtube] Sleeping 4.0 seconds ...
+[youtube] bAGZR4y53s8: Downloading player 882a803a-main
+[youtube] Sleeping 4.0 seconds ...
+[youtube] bAGZR4y53s8: Downloading web embedded player API JSON
+[youtube] [jsc:deno] Solving JS challenges using deno
+[info] bAGZR4y53s8: Downloading 1 format(s): 137+251
+[info] There are no subtitles for the requested languages
+[youtube] Extracting URL: https://youtu.be/CLrr9SEt2Yk
+[youtube] CLrr9SEt2Yk: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] CLrr9SEt2Yk: Downloading android vr player API JSON
+[info] CLrr9SEt2Yk: Downloading subtitles: es-orig, es, en
+[info] CLrr9SEt2Yk: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: CLrr9SEt2Yk.es-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: CLrr9SEt2Yk.es-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at    5.45MiB/s (00:00:00)[download]   63.00KiB at    6.56MiB/s (00:00:00)[download]   65.42KiB at    6.53MiB/s (00:00:00)[download] 100% of   65.42KiB in 00:00:00 at 1.01MiB/s
+[info] Writing video subtitles to: CLrr9SEt2Yk.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: CLrr9SEt2Yk.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    6.49MiB/s (00:00:00)[download]   15.00KiB at   12.09MiB/s (00:00:00)[download]   31.00KiB at   22.16MiB/s (00:00:00)[download]   63.00KiB at   38.60MiB/s (00:00:00)[download]   65.42KiB at   36.61MiB/s (00:00:00)[download] 100% of   65.42KiB in 00:00:00 at 2.63MiB/s
+[info] Writing video subtitles to: CLrr9SEt2Yk.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+[youtube] Extracting URL: https://youtu.be/2HcY4EwX_Wk
+[youtube] 2HcY4EwX_Wk: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 2HcY4EwX_Wk: Downloading android vr player API JSON
+[info] 2HcY4EwX_Wk: Downloading subtitles: es-orig, es, en
+[info] 2HcY4EwX_Wk: Downloading 1 format(s): 135+251
+[info] Writing video subtitles to: 2HcY4EwX_Wk.es-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 2HcY4EwX_Wk.es-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   11.56MiB/s (00:00:00)[download]  119.65KiB at   11.48MiB/s (00:00:00)[download] 100% of  119.65KiB in 00:00:00 at 1.50MiB/s
+[info] Writing video subtitles to: 2HcY4EwX_Wk.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 2HcY4EwX_Wk.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   59.51MiB/s (00:00:00)[download]  119.65KiB at   40.66MiB/s (00:00:00)[download] 100% of  119.65KiB in 00:00:00 at 2.37MiB/s
+[info] Writing video subtitles to: 2HcY4EwX_Wk.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+[youtube] Extracting URL: https://youtu.be/VsZE3OJ0K6A
+[youtube] VsZE3OJ0K6A: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] VsZE3OJ0K6A: Downloading android vr player API JSON
+[info] VsZE3OJ0K6A: Downloading subtitles: es-orig, es, en
+[info] VsZE3OJ0K6A: Downloading 1 format(s): 136+251
+[info] Writing video subtitles to: VsZE3OJ0K6A.es-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: VsZE3OJ0K6A.es-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at    9.31MiB/s (00:00:00)[download]   63.00KiB at   16.54MiB/s (00:00:00)[download]  127.00KiB at    9.39MiB/s (00:00:00)[download]  255.00KiB at   11.58MiB/s (00:00:00)[download]  347.10KiB at   12.45MiB/s (00:00:00)[download] 100% of  347.10KiB in 00:00:00 at 3.37MiB/s
+[info] Writing video subtitles to: VsZE3OJ0K6A.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: VsZE3OJ0K6A.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at  Unknown B/s (00:00:00)[download]  127.00KiB at  109.01MiB/s (00:00:00)[download]  255.00KiB at   26.54MiB/s (00:00:00)[download]  347.10KiB at   24.81MiB/s (00:00:00)[download] 100% of  347.10KiB in 00:00:00 at 5.38MiB/s
+[info] Writing video subtitles to: VsZE3OJ0K6A.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+[youtube] Extracting URL: https://youtu.be/ECHW1qnhhLE
+[youtube] ECHW1qnhhLE: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] ECHW1qnhhLE: Downloading android vr player API JSON
+[info] ECHW1qnhhLE: Downloading subtitles: es-orig, es, en
+[info] ECHW1qnhhLE: Downloading 1 format(s): 299+251
+[info] Writing video subtitles to: ECHW1qnhhLE.es-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: ECHW1qnhhLE.es-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at   20.95MiB/s (00:00:00)[download]   43.51KiB at   24.03MiB/s (00:00:00)[download] 100% of   43.51KiB in 00:00:00 at 560.98KiB/s
+[info] Writing video subtitles to: ECHW1qnhhLE.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: ECHW1qnhhLE.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at    7.31MiB/s (00:00:00)[download]   31.00KiB at   13.72MiB/s (00:00:00)[download]   43.51KiB at    7.70MiB/s (00:00:00)[download] 100% of   43.51KiB in 00:00:00 at 1.88MiB/s
+[info] Writing video subtitles to: ECHW1qnhhLE.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+[youtube] Extracting URL: https://youtu.be/E9Sggwln4-o
+[youtube] E9Sggwln4-o: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] E9Sggwln4-o: Downloading android vr player API JSON
+[info] E9Sggwln4-o: Downloading subtitles: es-orig, es, en
+[info] E9Sggwln4-o: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: E9Sggwln4-o.es-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: E9Sggwln4-o.es-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    2.47MiB/s (00:00:00)[download]   15.00KiB at    4.83MiB/s (00:00:00)[download]   31.00KiB at    7.02MiB/s (00:00:00)[download]   63.00KiB at    7.09MiB/s (00:00:00)[download]  127.00KiB at    6.70MiB/s (00:00:00)[download]  255.00KiB at    9.28MiB/s (00:00:00)[download]  308.13KiB at   10.80MiB/s (00:00:00)[download] 100% of  308.13KiB in 00:00:00 at 3.11MiB/s
+[info] Writing video subtitles to: E9Sggwln4-o.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: E9Sggwln4-o.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at  Unknown B/s (00:00:00)[download]  127.00KiB at   60.44MiB/s (00:00:00)[download]  255.00KiB at   53.96MiB/s (00:00:00)[download]  308.13KiB at   30.19MiB/s (00:00:00)[download] 100% of  308.13KiB in 00:00:00 at 5.59MiB/s
+[info] Writing video subtitles to: E9Sggwln4-o.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests

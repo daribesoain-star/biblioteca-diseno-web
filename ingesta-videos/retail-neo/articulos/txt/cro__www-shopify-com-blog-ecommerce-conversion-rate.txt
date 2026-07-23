@@ -1,0 +1,447 @@
+URL_FUENTE: https://www.shopify.com/blog/ecommerce-conversion-rate
+How to Improve Ecommerce Conversion Rates (2026) - Shopify Skip to Content
+Why Shopify
+Back Get started fast
+You could be selling by tomorrow.
+Switch to Shopify
+Get more customers. Make more sales.
+Trusted by enterprise brands
+No matter your size, complexity, or ambition.
+Built into every store
+World's best checkout
+Proven to convert better.
+Sidekick
+Your commerce-obsessed AI assistant.
+Products
+Back Build your website
+Website Builder
+Themes
+Domains
+Customer Accounts
+Sidekick
+Sell anywhere
+Online
+AI Chats
+Point of Sale
+Shop App
+Social & Marketplaces
+Global
+B2B
+Across Markets
+Marketing & analytics
+Advertising & Campaigns
+Email & Customer Chat
+Discounts
+Analytics
+Run your business
+Orders & Inventory
+Shipping
+Finances & Funding
+Workflow Automation
+Mobile
+Get paid
+Checkout
+Payments
+Taxes
+Customize & extend Shopify
+Commerce for Agents
+Build with our agent tools
+Shopify App Store
+Largest commerce ecosystem
+Shopify.dev
+Dev docs, CLI, and more
+Non-stop innovation
+Shopify Editions
+150+ updates to Shopify, twice a year.
+Latest updates
+Agentic Storefronts
+Campaign Autopilot
+Shopify AI Toolkit for devs
+Pricing
+Enterprise
+Spring '26 Edition
+Log in
+Start for free
+Start for free
+Blog
+Ecommerce Guide
+How to Start
+AI Tools for Ecommerce
+Shopify Tutorial
+More Ecommerce Store Checklist
+Best Ecommerce Platforms
+Ecommerce Strategy
+Ecommerce Marketing
+Ecommerce Merchandising
+Ecommerce Checkout
+Ecommerce Conversion
+International Ecommerce
+Search Type something you're looking for
+Log in
+Start for free
+Start selling with Shopify today
+Start your free trial with Shopify today—then use these resources to guide you through every step of the process.
+Start for free How does Shopify work
+blog • Conversion How to Improve Ecommerce Conversion Rates
+A good ecommerce conversion rate is crucial to your store’s success. Learn what benchmarks to aim for and proven strategies to improve performance.
+by Brinda Gulati Feb 4, 2026 • 15 min read
+On this page
+What is a conversion?
+Average ecommerce website conversion rate benchmarks
+What is an ecommerce conversion rate?
+What is a conversion rate?
+Common ecommerce conversion rate misconceptions
+How are ecommerce conversion rates measured?
+Ecommerce conversion rate benchmarks
+How to calculate conversion rates
+How to improve your ecommerce site conversion rate
+Ecommerce conversion rate FAQ
+Start your online business today.
+For free.
+Start for free
+If your store gets traffic but sales are softer than they should be, your ecommerce conversion rate is doing the talking. It’s one of the clearest signals of how well you’re turning customers’ interest into action, and where small issues may be costing you revenue.
+Ahead, you’ll learn how to benchmark your conversion rate, spot the friction points killing sales momentum, and make practical improvements that lead to more checkouts.
+What is a conversion?
+A conversion occurs when someone takes an action on your website that you wanted them to take. Every website and its digital marketing team decides what they define as a conversion.
+For example, a conversion could be a potential customer engaging with a pop-up on your site. It could also be when they sign up for your newsletter or order a product. What counts as a conversion is up to you.
+Typically, businesses define ecommerce conversions as actions that measurably impact their online business. This most often includes completed orders, but can also cover actions like signing up for a newsletter, which allows you to continue to market to potential customers.
+Average ecommerce website conversion rate benchmarks
+Average ecommerce conversion rates can be useful benchmarks, but only if you understand them in a greater context.
+For example, according to Statista, 1.6% of global ecommerce visits converted into purchases in Q3 2025. Other sources, like Dynamic Yield, put the global average at 2.95% . These numbers are better at giving you a rough baseline than helping to set your performance targets.
+That’s because conversion rates vary widely depending on what you sell, how much it costs, how often people buy it, and how they shop. A store selling supplements mainly on mobile shouldn’t expect the same numbers as a desktop traffic-heavy fashion brand or a pet food subscription.
+If you look at average conversion rates across industries over the past 12 months, the spread is significant:
+Multi-brand retail: 3.93%
+Consumer goods: 2.85%
+Food and beverage: 6.22%
+Pet care and veterinary services: 3.28%
+Home and furniture: 1.41%
+Fashion, accessories, and apparel: 3.06%
+Beauty and personal care: 4.94%
+Luxury and jewelry: 0.94%
+This is about purchase friction: consumables and replenishable products convert higher because the decision is familiar and repeatable; furniture and luxury convert lower because the stakes are higher, the research cycle is longer, and the purchase is often deferred across devices or sessions.
+So instead of benchmarking yourself to global averages, ask:
+“Is my conversion rate strong for my category, price point, and customer behavior—and is it improving over time?”
+What is an ecommerce conversion rate?
+An ecommerce conversion rate refers to the conversion rate of orders from an online store. The formula to calculate this is:
+Ecommerce conversion rate = Orders / Visits to your website
+So if you have 1,000 visits to your site, and in 50 of those visits someone makes an order, your ecommerce conversion rate is 50 / 1,000 = .05 or 5%.
+Depending on what data source you’re looking at, you may see this metric called something different. Google Analytics refers to it as “ecommerce conversion rate,” so this has become the most common name.
+Shopify’s Analytics calls it an “online store conversion rate” and other analytics tools may refer to it as the “transaction rate” or “order rate.”
+The specific terms may vary, but they all mean the same thing.
+What is a conversion rate?
+A conversion rate is the percentage of the total number of visits to a website that result in a conversion action. It’s expressed as a percentage and calculated via a simple formula:
+Conversion rate = Number of specific actions taken in a period of time / Total number of visits to your site in the same period of time
+So if your conversion action is subscriptions to your newsletter, and in a period you have 1,000 visits to your site and 100 newsletter subscriptions, your conversion rate is 100 / 1,000 = 0.1, or 10%.
+Common ecommerce conversion rate misconceptions
+There are a few common misunderstandings people have when defining ecommerce conversion rate:
+Sessions (visits), not users
+When someone visits your website, most analytics tools refer to this as a session and identify the person (or their device) as a user. If you visit a website on Sunday, then come back again on Monday, you would be one user who had two sessions.
+Ecommerce conversion rate is calculated using the number of orders and sessions in a period, not the number of users.
+If you report ecommerce conversion rate using users, the rate will be inflated. Some marketers have begun advocating the use of users instead of sessions, especially for high-priced stores where most users need multiple sessions before converting, but the industry norm continues to be sessions.
+Using overall conversion rate
+A website’s overall conversion rate is the percentage of visits (sessions) that take any conversion action. This includes orders but can also include actions like newsletter subscriptions, presale signups, or add to carts.
+A website’s overall conversion rate will typically be higher than its ecommerce conversion rate, which refers only to orders.
+How are ecommerce conversion rates measured?
+A website’s ecommerce conversion rate can be measured through a website analytics tool. Google Analytics is the most common and focuses on website-only data, though there are other useful tools to track your metrics:
+Segment . This aggregates data from multiple sources, such as Facebook and Instagram Ads.
+Heap . Similar to Segment, Heap aggregates data from multiple sources, and allows for more customization in event tracking than Google Analytics.
+Triple Whale . This analytics tool tracks all of a customer’s touch points with a brand, including social media and search activity.
+Most analytics tools work the same way: they provide a snippet of code for you to add to your site, which (with input from a marketer or developer) interprets when a session starts and finishes and when an order occurs.
+If your conversion rate looks different in every dashboard, it doesn’t mean something’s broken. Analytics tools don’t all measure the same thing. They disagree on what counts as a session, where credit is assigned, which orders are included, and which channels are counted—so the numbers naturally drift.
+That doesn’t mean one tool is “wrong,” it just means each one is answering a different question.
+Instead of hunting for a single “correct” conversion rate, choose one tool as your source of truth. Use it to consistently track trends over time, and use other tools for added context.
+Your 24/7 Shopify expert is here
+From daily tasks to strategic planning, Sidekick delivers instant help the moment you ask. Learn how your AI assistant makes it easier to start, run and grow your business on Shopify.
+Meet Sidekick
+Over what period do I measure my ecommerce conversion rate?
+Most marketers will choose regular intervals to measure their ecommerce conversion rate. Setting a regular review cadence helps you avoid overreacting to fluctuations and understand trends.
+Here are common review cadences of ecommerce conversion rates:
+Weekly monitoring
+Review only to see if there are any major dips or spikes that might indicate something on the site is broken. (A spike could mean, for example, a product is accidentally listed as “free.”)
+Monthly optimization
+Review for opportunities to improve conversion rate. This includes reviewing whether certain product categories or landing pages have higher conversion rates, whether there are new features (such as review apps) that could improve conversion rates, or areas to A/B test .
+Quarterly/yearly strategy
+Review for opportunities to make strategic, larger differences in the conversion rate. This can include strategies for better communicating the store’s value proposition , rebranding, redesigning the user experience, or involving time-sensitive sales and product releases.
+Campaign retro
+The exception to a regular interval of review is after a large marketing campaign . This could be a holiday sale, new product release, or large influencer collaboration. Marketers can learn more about the impact of the campaign by comparing it to previous campaigns or to non-campaign periods.
+Ecommerce conversion rate benchmarks
+The idea of a universal benchmark for ecommerce conversion rates is a fallacy. Your conversion rate isn’t a reflection of how “good” your store is—and a higher number isn’t always better.
+Many of the forces that shape conversion rate sit outside your direct control: how often people buy your products, how long they need to decide on a purchase, and how they typically shop. Benchmarks only make sense once you account for those variables.
+Here are the main factors that should shape how you benchmark your ecommerce conversion rate:
+Traffic sources
+Stores that drive a large share of traffic from paid ads, SEO content, or top-of-funnel blog posts will almost always see lower conversion rates than stores fueled by returning customers, email lists, or loyal social followers. That doesn’t make the strategy worse; it just means you’re introducing your brand to more first-time visitors who aren’t ready to buy yet.
+The device people are visiting your website from compounds this effect. Mobile phones now dominate global ecommerce behavior. As of Q3 2025, smartphones accounted for roughly 78% of retail site visits worldwide and generated about 70% of all online shopping orders, according to Statista.
+So if your store is mobile-heavy or traffic-led, a lower conversion rate may often reflect who you’re reaching and where they are in the buying cycle.
+Price point
+Sites with more expensive products will typically have lower conversion rates than those with inexpensive ones—and that’s a natural reflection of buying behavior.
+Making a bigger purchase requires more consideration on the part of the consumer than a cheaper impulse purchase might, since it requires a larger share of their income. As prices rise, shoppers tend to slow down and compare options before clicking Buy.
+Purchase type
+Stores built around subscriptions typically see lower upfront conversion rates than those selling one-time purchases. That’s expected.
+Subscriptions introduce commitment: ongoing cost, cancellation anxiety, and a longer decision window. Subscription brands also tend to attract more first-time visitors and fewer quick-return buyers, which further pulls conversion down.
+Product category compounds this effect. Industry benchmark data shows that low-price, repeat purchase categories tend to convert higher, while high-value, considered purchase categories convert lower. For example, global conversion rates in 2025 were highest for:
+Food and beverage (6.2%)
+Beauty and personal care (4.9%)
+Multibrand retail (4.9%)
+Categories that sat on the lower end of the spectrum include:
+Home & furniture (1.4%)
+Luxury and jewelry (0.9%)
+That’s why benchmarking against an overall average can still be useful, but only as orientation, not judgment. Instead of fixating on a single conversion rate, break it down:
+Where do visitors drop off: product page, cart, checkout ?
+How does your mobile conversion rate compare to desktop?
+Are subscribers hesitating earlier in the journey than one-time buyers?
+The real insight comes from looking inside your ecommerce funnel , where you can track these metrics:
+Online store conversion rate. Your headline metric; use it to track trends over time.
+Product page conversion rate. This shows whether your product pages are doing their job: clarity, pricing, imagery, trust.
+Add-to-cart rate. A strong signal of intent; drops here usually point to offer mismatch or hesitation.
+Checkout conversion rate. This is where friction shows up; shipping costs, payment options, trust, or technical issues.
+Conversion rate by device. This is essential context; mobile drives volume , desktop drives efficiency, and blending the two hides problems.
+How to calculate conversion rates
+Ecommerce businesses mostly refer to conversions as a completed sale. You could also consider a newsletter signup a conversion, but for the sake of this walkthrough, a conversion will be an ecommerce sale.
+To calculate your conversion rate:
+1. Track your total number of visitors
+Look at the total number of visitors on your website over a period of time. You can use tools like Google Analytics to track your site traffic. Include all visitors, regardless of whether they made a purchase or not, and remember that visitors should be determined by number of overall sessions, not users.
+2. Monitor your total number of conversions
+Track the total number of completed sales over a desired time frame. You can find this number in your Sales report in the Shopify admin .
+3. Calculate conversion rate
+Now, calculate the conversion rate by using the following formula:
+Conversion rate = (Total conversions / Total visitors) x 100
+For example, if you had 1,000 visitors on your website and 20 of them made a purchase, your conversion rate would be (20 / 1,000) x 100 = 2%.
+Remember to be consistent with the time frame you’re analyzing. If you’re calculating the conversion rate for a particular month, ensure both the number of visitors and conversions are for that same month.
+📚Read more:  How To Calculate Conversion Rate (2025)
+How to improve your ecommerce site conversion rate
+Ecommerce conversion rate optimization (CRO) is an incredibly in-depth subject deserving of its own guide . But if you’re just getting started with CRO, here are some conversion rate optimization strategies organized by impact area.
+Some focus on reducing buying friction, others on building trust, improving clarity, or helping shoppers move through the decision with more confidence. This structure makes it easier to prioritize changes that actually move conversion rate, instead of chasing surface-level tweaks.
+Develop a value proposition
+Your value proposition —or unique selling proposition (USP) —is one of the strongest drivers of conversion rate. If your product solves a real problem and the value is immediately clear, shoppers will often tolerate friction elsewhere in the experience.
+That’s why it’s worth reviewing your homepage and product pages with fresh eyes. Assume the visitor knows nothing about your brand, and ask yourself:
+Is it instantly clear what this product is?
+Is it obvious who it’s for and why it’s better than the alternatives?
+If a first-time visitor has to work to figure out what you sell or why it matters, conversion suffers, no matter how polished the rest of the site is.
+Reduce friction
+Friction refers to any part of the user experience that is overly difficult or confusing. This includes everything from a poor checkout process to unclear shipping fees. Any individual piece of unneeded friction can drastically affect a site’s conversion rate.
+Common sources of friction include:
+Unexpected shipping costs or delivery timelines
+Overly long or confusing checkout flows
+Forced account creation
+Limited or unfamiliar payment options
+Unclear return or refund policies
+Slow page load times, especially on mobile
+Because friction often hides in plain sight, it’s worth conducting a checkout flow audit. Walk through your store as a first-time customer, ideally on mobile, and note where hesitation or confusion creeps in. Every step that feels unnecessary is a chance to lose a sale.
+Reduce the buyer’s anxiety
+This is particularly important for newer sites and brands. Customers can’t see or touch the product you’re selling ahead of time, so they need extra assurances about quality before making a purchase. Stores can address customer anxiety with clear return/guarantee policies, social proof such as reviews, or immersive AR shopping experiences .
+Reduce cart abandonment
+Long checkouts, surprise costs, or unnecessary gates give shoppers a reason to pause—and paused shoppers often disappear.
+Start with the basics:
+Keep the checkout flow as short as possible.
+Be upfront about shipping, taxes, and delivery timelines.
+Make sure guest checkout is enabled so buyers don’t have to commit before they’re ready.
+On Shopify, abandoned cart recovery emails are built into your store. That means you can enable an automated abandoned checkout email that goes out to shoppers who entered their email but left before completing their purchase, and you can customize the subject, content, and timing to reflect your brand. These emails include a direct link back to the customer’s cart to help recover otherwise lost sales.
+Optimize for mobile devices
+Mobile now drives the majority of ecommerce traffic, so navigation should be simple, pages should load quickly, and calls to action (CTAs) should be clear and easy to tap.
+Offering popular mobile payment options helps remove last-minute friction at checkout:
+Apple Pay and Google Pay reduce form fatigue by auto-filling shipping and payment details.
+Buy now, pay later options (like Klarna or Afterpay) lower upfront cost anxiety for higher-priced purchases.
+Shop Pay speeds up checkout for returning shoppers with saved information.
+Track the right KPIs
+Identify and monitor key performance indicators that align with your objectives.
+Start with core KPIs that reflect real buying behavior, such as:
+Conversion rate
+Average order value (AOV)
+Cart and checkout abandonment rates
+Customer lifetime value (CLV)
+But a single blended number only tells part of the story. To understand where problems actually exist, break down these overall metrics into different segments:
+By device (mobile vs. desktop)
+By traffic source (paid, organic, email, direct)
+By new vs. returning visitors
+By product or category
+Use customer testimonials
+Leverage the power of social proof by showcasing customer reviews. Authentic reviews and ratings not only build trust with potential buyers but also highlight the value of your product to website visitors.
+Invest in heat map tools
+Use heat map tools to visualize customer interactions on your website. These tools can reveal hot and cold areas, showing where visitors click, scroll, or linger the most, helping you optimize your site design for improved user experience and more conversions.
+Here are some great options you can find on the Shopify App Store :
+Hotjar . Click, scroll, and movement heat maps plus session recordings and on-site feedback.
+Crazy Egg . Heat maps, scrollmaps, and A/B testing to understand engagement and layout performance.
+Microsoft Clarity . Free session recordings and heat maps, useful for spotting rage clicks and dead zones.
+Lucky Orange . Heat maps combined with session replays and live chat for real-time insight.
+Strengthen trust signals throughout your site
+Most shoppers don’t consciously think, “Do I trust this store?” But if they don’t see clear trust signals, they pause—and may end up leaving.
+That hesitation usually shows up in the same places: product pages, the cart, and checkout. Trust signals work when they remove doubt at those moments.
+Effective trust signals are concrete:
+Secure checkout and SSL indicators that reassure shoppers their payment details are safe.
+Recognizable payment options (cards, wallets, Shop Pay) that signal legitimacy.
+Straightforward policies for shipping and returns.
+Reviews and social proof placed near pricing and CTAs, where decisions actually happen.
+External validation like press mentions, certifications, or awards.
+If you want help improving conversion rates, Shopify’s Growth Services can assist. CRO experts work with you to identify friction across your storefront and checkout, then turn insights into measurable improvements.
+Investing in ecommerce conversion rate optimization
+Tracking your conversion rate is simple, but improving it takes ongoing work.
+At a basic level, measuring your ecommerce conversion rate is as straightforward as counting the number of orders in a period relative to the sessions. But using it strategically means looking at that number in context—how it changes by device, traffic source, product type, and price point—and monitoring it over time.
+When you make it an ongoing practice, conversion rate optimization becomes a meaningful growth level for your business. Merchants who invest in this approach have clearer benchmarks, better visibility into friction, and a more reliable way to turn insights into revenue growth.
+Build your dream online store today
+Join the ranks of the world’s best online stores with Shopify’s powerful tools and features. With the highest-converting checkout, Shopify stores sell more products, lower your costs, and save you time.
+Learn more
+Read more
+70+ Ecommerce KPIs for Tracking Business Success
+How To Make Money With Pay-Per-Click Advertising
+Top Barcode Generator Apps for Small Businesses
+AI Agents: How They’re Transforming Ecommerce in 2025
+What Is Conversion Rate Optimization (CRO)? Strategies and Tools
+Ecommerce Shopping Cart: Definition, Options, and How To Choose
+Gen Z Purchasing Behavior: 5 Trends + Brand Examples
+What Does a UX Designer Do? How To Develop UX Design Skills
+The Beginner's Guide to Using Shopify Reports and Analytics
+9 Best Ecommerce Payment Gateways & How They Work (2025)
+Ecommerce conversion rate FAQ
+What is a good ecommerce conversion rate?
+A “good” ecommerce conversion rate depends on context. Globally, average conversion rates tend to sit around 2% to 3%, but that number varies widely by industry, price point, device mix, and traffic source.
+How is ecommerce conversion rate calculated?
+The ecommerce conversion rate is calculated by dividing the total number of orders placed by the total number of unique visits to your website. For example, if your website had 500 unique visits and 10 orders were placed, your ecommerce conversion rate would be 2% (500 visits / 10 orders = 0.02 or 2%).
+What factors affect ecommerce conversion rates the most?
+The biggest drivers of conversion rate tend to be:
+Traffic quality and source (paid versus organic versus returning customers)
+Device mix (mobile versus desktop behavior)
+Product category and price point
+Purchase type (one-time versus subscription)
+Checkout friction (cost transparency, payment options, guest checkout)
+Clarity of value proposition and trust signals
+How can conversion rate be improved for an ecommerce store?
+The most effective improvements focus on reducing friction and increasing clarity, which usually means:
+Making your value proposition immediately clear on home and product pages.
+Simplifying checkout and enabling guest checkout.
+Being transparent about pricing, shipping, and returns.
+Optimizing the mobile experience and offering mobile-friendly payment options.
+Tracking conversion rate by device, channel, and funnel stage to see where drop-off actually happens.
+by Brinda Gulati Updated on Feb 4, 2026
+Share article
+Share on Facebook
+Share on X
+Share on LinkedIn
+by Brinda Gulati Feb 4, 2026 • 15 min read
+The newsletter for entrepreneurs
+Join millions of self-starters in getting business resources, tips, and inspiring stories in your inbox.
+Enter email
+Unsubscribe anytime. By entering your email, you agree to receive marketing emails from Shopify. By proceeding, you agree to the Terms and Conditions and Privacy Policy .
+popular posts
+Social Media Optimization
+How To Make Money on Instagram in 2025 (9 Actionable Ideas)
+Starting Up
+How To Start an Ecommerce Business: Guide for 2025
+Guides
+What Is Dropshipping and How Does It Work? (2025)
+Find an Idea
+What Is Print on Demand & How To Start a Business (2025)
+The point of sale for every sale.
+Start for free
+popular posts
+Sell Online
+How To Create a Website in 9 Steps (2025)
+Starting Up
+How To Start an Online Store in 2025 (Step-by-Step Guide)
+Find an Idea
+How To Make and Sell Merch Your Fans Will Love (2025)
+Sell Online
+10 Best Ecommerce Website Builders for Your Online Store (2025)
+popular posts
+Social Media Optimization How To Make Money on Instagram in 2025 (9 Actionable Ideas) 2023-11-08
+Starting Up How To Start an Ecommerce Business: Guide for 2025 2023-09-01
+Guides What Is Dropshipping and How Does It Work? (2025) 2023-12-05
+Find an Idea What Is Print on Demand & How To Start a Business (2025) 2023-11-09
+Sell Online How To Create a Website in 9 Steps (2025) 2023-09-20
+Starting Up How To Start an Online Store in 2025 (Step-by-Step Guide) 2023-11-23
+Find an Idea How To Make and Sell Merch Your Fans Will Love (2025) 2023-12-02
+Sell Online 10 Best Ecommerce Website Builders for Your Online Store (2025) 2023-11-06
+The newsletter for entrepreneurs
+Join millions of self-starters in getting business resources, tips, and inspiring stories in your inbox.
+Enter email Subscribe
+Unsubscribe anytime. By entering your email, you agree to receive marketing emails from Shopify. By proceeding, you agree to the Terms and Conditions and Privacy Policy .
+Sell anywhere with Shopify
+Learn on the go. Try Shopify for free, and explore all the tools you need to start, run, and grow your business.
+Start for free
+Start free then enjoy 3 months for $1/month
+Shopify
+What is Shopify?
+Shopify Editions
+Careers
+Investors
+Newsroom
+Sustainability
+Ecosystem
+Developer Docs
+Theme Store
+App Store
+Partners
+Affiliates
+Resources
+Blog
+Compare Shopify
+Guides
+Courses
+Free Tools
+Changelog
+Support
+Shopify Help Center
+Community Forum
+Hire a Partner
+Service Status
+USA | English Australia
+English
+Canada
+English
+Hong Kong SAR
+English
+Indonesia
+English
+Ireland
+English
+Italy
+Italiano
+Malaysia
+English
+New Zealand
+English
+Nigeria
+English
+Philippines
+English
+Singapore
+English
+South Africa
+English
+UK
+English
+USA
+English | Español (Intl.)
+USA | English Choose a region & language
+Australia
+English
+Canada
+English
+Hong Kong SAR
+English
+Indonesia
+English
+Ireland
+English
+Italy
+Italiano
+Malaysia
+English
+New Zealand
+English
+Nigeria
+English
+Philippines
+English
+Singapore
+English
+South Africa
+English
+UK
+English
+USA
+English | Español (Intl.)
+Terms of Service
+Legal
+Privacy Policy
+Sitemap
+Your Privacy Choices

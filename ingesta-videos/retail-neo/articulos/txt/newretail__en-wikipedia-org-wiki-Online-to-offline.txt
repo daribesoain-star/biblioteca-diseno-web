@@ -1,0 +1,49 @@
+URL_FUENTE: https://en.wikipedia.org/wiki/Online_to_offline
+{{Multiple issues|
+{{Tone|date=July 2025}}
+{{More citations needed|date=July 2025}}
+}}
+'''Online to offline''', commonly abbreviated to '''O2O''',<ref name="Sarkar Sarkar2020">{{cite book|author1=Biswajit Sarkar|author2=Mitali Sarkar|title=Application of Optimization in Production, Logistics, Inventory, Supply Chain Management and Block Chain|url=https://books.google.com/books?id=6F3eDwAAQBAJ&pg=PA367|date=23 April 2020|publisher=[[MDPI]]|isbn=978-3-03928-522-8|pages=367–}}</ref> is a phrase that is used in [[digital marketing]] to describe systems enticing consumers within a digital environment to make purchases of goods or services from physical businesses.
+
+The significance of O2O is noteworthy, as, despite the surge in [[e-commerce]], over 80% of retail transactions still occur offline.<ref>{{Cite web |title=U.S. Retail sales share by sales channel 2028 |url=https://www.statista.com/statistics/829220/share-of-retail-sales-by-channel-us/ |access-date=2024-11-04 |website=Statista |language=en}}</ref><ref name=":0">{{Cite web |title=Online To Offline Advertising: The Fight For Footfall + New 2025 Data |url=https://criterionglobal.com/online-to-offline-advertising-attribution-2025-data-takeaways/ |access-date=2024-11-04 |website=criterionglobal.com/ |date=28 October 2024 |language=en-US}}</ref> This indicates the continued significance of physical retail locations, particularly for industries like Consumer Packaged Goods (CPG), where many products require in-store purchase or consumption.<ref name=":0" />
+{{Marketing}}
+
+== What's O2O ==
+
+''O2O'' means "Online To Offline" but also "Offline to Online", indicating the two-way flow between the online and the physical world, especially retail and ecommerce, but also between brand marketing and shopper or point-of-sale marketing efforts to influence purchase decisions. For example, consumers could see an ad online and be driven to visit the store, or be in a physical store but ultimately purchase online for a variety of reasons (selection, price, convenience, etc.). There are many aspects to O2O, and businesses are increasingly challenged to satisfy consumers' expectations of a frictionless flow. 
+
+Initially, the term was applied to [[QR code]] marketing efforts, but has since evolved.  It is often confused with omni-channel, which refers to companies with an online store as well as physical retail locations.
+
+Often, O2O implies an online trigger which prompts the customer to go to a physical location to complete their purchase, but it can also be the other way around: One aspect of newer O2O initiatives is the ability to pay online and then pick up a product in an offline place, such as the retailers' physical store or 3rd party locations.  Another O2O feature is returning items purchased online to the retailers' offline location.
+
+In the [[Startup ecosystem|startup world]], we are used to hearing about "Offline to Online" strategies as investors do not usually adhere to any other business models such as Online to Offline.
+
+== Criticism ==
+In its early use, the phrase received criticism as illogical. However, its mass adoption has dulled much of this criticism.
+
+Additionally, much criticism has been made of the privacy impact of technologies in digital marketing that enable online to offline measurement. For instance, the widespread use of [[Software development kit|SDKs]], or Software Development Kits, readily enable location-based tracking of mobile phone users. Online to offline measurement often works to "match" an online user - which may be logged-in to a non-mobile device like laptop or desktop computer, and "matching" that profile or identify to the real world movement of users on mobile devices. This matching of online (exposure on laptop) to offline, real-world foot traffic is the target of privacy advocates, however [[Ad tech|adtech]] companies enabling this tracking would argue the "offline" conversion recorded is stripped of PII, or [[Personally Identifiable Information]]. 
+
+== New Reality since March 2020 ==
+During [[COVID-19 pandemic|COVID-19]], industries that were enabled to take online orders and provide "offline" goods and to lesser degree services were advantaged over those that relied on "offline" distribution alone. Worldwide, in-person businesses were shuttered or restricted to stop the spread of the COVID-19 virus. An example of rampant success in online-to-offline was rapid-delivery grocery shopping apps. Such apps were a nascent technology prior to the global pandemic, however, with millions of customers unable to access grocery stores, or unwilling to risk infection through exposure, delivery apps grew in popularity. One online to offline grocer, [[Gorillas (company)|Gorillas]], grew from its primary market of Berlin by delivering 16M+ orders in less than 9 months, launching in 50+ global cities – including Amsterdam, London, Paris, Madrid, New York, Milan and Munich, and ultimately its [https://criterionglobal.com/cases/growth-marketing-agency-for-gorillas-grocery-delivery/ US market expansion] - and within 18 months of its founding, sold for $1.2 billion.<ref>{{Cite web |title=Growth Marketing Agency Case Study: Europe's Fastest Unicorn |url=https://criterionglobal.com/cases/growth-marketing-agency-for-gorillas-grocery-delivery/ |access-date=2024-11-04 |website=criterionglobal.com/ |date=7 September 2022 |language=en-US}}</ref> 
+
+Since the pandemic, online to offline commerce has continued to grow, however at a pace unmatched by that of the 2020 COVID-19 pandemic. Additionally, in the US, where Apple iPhones have the majority of mobile phone marketshare, privacy features within Apple's [[IOS 14|iOS14.5]] update severely impacted the cross-device tracking necessary to match online ad exposures to offline visitation activity. Online to offline is still a critical part of marketing measurement by large advertisers like brick-and-mortar retailers, car dealership networks, healthcare facilities, grocery retailers, and QSRs ([[Quick service restaurants|Quick Service Restaurants]]), however measurement methodology is more reliant on presumptive, estimated, probabilistic models of attribution, often using [[Artificial intelligence marketing|Artificial Intelligence]]. 
+
+Some industries adopted this way of thinking:
+* [[Print on demand]]
+* [[3D printing]]
+
+== See also ==
+* [[Digital marketing system]]
+* [[Mobile marketing]]
+* [[Online advertising]]
+* [[Consumer-to-business]]
+* [[Production to consumer]]
+* [[Customer to customer]]
+* [[Business-to-business]]
+* [[Phygital]]
+* [[user experience]]
+
+== References ==
+{{reflist}}
+{{Marketing topics}}
+[[Category:Digital marketing]]

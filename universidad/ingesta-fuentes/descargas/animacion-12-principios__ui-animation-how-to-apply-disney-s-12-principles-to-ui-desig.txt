@@ -1,0 +1,429 @@
+UI Animation—How to Apply Disney’s 12 Principles of Animation to UI Design | IxDF
+Why Sign Up?
+Reviews
+About IxDF
+Contact Us
+Last Chance! Make Your User Research Indispensable
+Last Chance! How to Make Your User Research Indispensable Master Class
+UI Animation—How to Apply Disney’s 12 Principles of Animation to UI Design
+by
+Laia Tremosa
+•
+2 months ago
+• 20 min read
+890 Shares
+Share this Article
+Cite this Article
+Save
+Cite This article
+UI Animation
+is a valuable skill in a designer’s toolkit. You can use UI animation effects to
+reduce
+cognitive load
+and
+add personality and charm to an interface
+. More importantly, animation will help you overcome language and cultural barriers in
+interaction design
+. However, if done poorly, animation can seem distracting and even nauseating! So, how can we ensure we use animation effectively? Who better to learn from than Disney, the pioneers of computer animation. Here, we look at Disney's 12 Principles of Animation and how you can apply them to user interfaces.
+As a UI designer, you need to master the principles of animation to create experiences that feel familiar, intuitive and real. The secret to successful animations, therefore, is to generate emotions.
+Arguably, no one knows this better than Disney.
+The “try not to smile” video compilation by Disney.
+©
+The Walt Disney Company
+, Fair Use
+What are Disney’s 12 Principles of Animation?
+What seems real to the mind can be as important as any material fact. We live by the spirit and the imagination as well as by our senses. Cartoon animation can give fantasy the same reality as those things we can touch and see and hear.
+— Walt Disney
+Disney animators Ollie Johnston and Frank Thomas developed the 12 Principles of Animation to produce more realistic animations. They published them in 1981 in the book,
+The
+Illusion
+of Life: Disney Animation
+which is often referred to as the “Bible of Animation.”
+Disney Animation: The Illusion of Life is a book by Frank Thomas and Ollie Johnston.
+© The Walt Disney Company, Fair Use.
+Those 12 principles combine the fundamental laws of physics—that all animations need to follow to be believable—with
+cognitive psychology
+principles, intended to generate emotion.
+So, how can you apply Disney’s lead to take your animation and UI design skills to the next level?
+1. Squash and Stretch
+The squash and stretch principle is essential to creating animations with the illusion of gravity, weight, mass and flexibility. A bouncing ball commonly exemplifies this principle; it stretches when it travels up and down and squishes when it hits the ground. How much it stretches and squishes depends on the material the ball is supposed to be made of. The effect will be very pronounced if the ball is made of rubber, whereas if it emulates a bowling ball, it will be very subtle.
+© Interaction Design Foundation, CC BY-SA 4.0
+In digital interfaces, the squash and stretch principle makes elements feel tactile and gives
+visual cues
+or feedback regarding available
+affordances
+. For example, if you’d like your users to effectuate a purchase, you can use the squash and stretch principle to animate the pay button to draw the users' attention and entice them to “press” the button.
+When using squash and stretch, keeping the object's volume consistent is essential. So, when you stretch something, it needs to get thinner, and when you squash something, it needs to get wider.
+2. Anticipation
+Anticipation helps to prepare the viewer for what's about to happen, and it’s key to making any motion feel real. Can you tell someone is about to jump right before they do it? In most cases, yes, because they’re bending their knees and moving their arms in a particular way. The same phenomenon happens with most motions. There are many anticipatory movements that our brain processes at a subconscious level.
+© Interaction Design Foundation, CC BY-SA 4.0
+In digital interfaces, you can use the anticipation principle to inform the user about what will happen if they perform a particular action. One of the main applications of this principle is hover animations: if users hover over a button, it moves to show the users it is interactive.
+3. Staging
+The staging principle describes motions that guide the viewer's eye and draw attention to what's important within the scene.
+© Interaction Design Foundation, CC BY-SA 4.0
+Imagine you were designing an interface with lots of animations. It would probably confuse the user if all the elements are competing for attention. Use animation to show your user where to focus within the interface and keep the motion of everything else (that’s not as important) to a minimum.
+4. Straight-Ahead Action and Pose to Pose
+This principle refers to two different approaches to animation. Straight-ahead animation is created, drawing frame-by-frame from start to finish.
+The pose-to-pose technique involves creating the key frame first—a frame in the beginning, middle and end. Then, in the case of computer animation, the animation software completes the rest automatically for you.
+© Interaction Design Foundation, CC BY-SA 4.0
+In UI design, you will most likely use the pose-to-pose method—for instance, to create component states—except if you’re looking to animate something unusual.
+5. Follow Through and Overlapping Action
+This principle reflects the fact that not all parts of an object move at the same time. For instance, look at yourself in the mirror and shake your head. If you have longer hair, you’ll see your hair movement is a bit delayed to the movement of your head, and your eyes might move differently (an overlapping action). This phenomenon is critical when objects come to a standstill after being in motion. In the same example, your hair might still be in motion slightly after you’ve stopped moving your head (follow through).
+© Interaction Design Foundation, CC BY-SA 3.0
+In UI animation design, you can have
+elements that are related to each other but that may move at different rates
+. For example, you may have an image, a title and a description. The initiator of the movement will be the most crucial element, in this case, the image. Then the title and description follow. This principle helps you establish a hierarchy in an interface.
+6. Slow In and Slow Out
+The best way to understand this principle is to imagine how a car starts and stops. Any vehicle starts moving slowly before accelerating and speeding up, and the reverse happens when the car brakes. Add more frames at the beginning and end of a motion sequence to achieve this effect.
+© Interaction Design Foundation, CC BY-SA 4.0
+This principle is vital to make any motion in your design feel natural and authentic. Without easing in and out, your animations will feel robotic.
+7. Arc
+In the physical world, most objects move following a slight arc. Think of how you walk or the motion of a ball you toss into the air.
+© Interaction Design Foundation, CC BY-SA 4.0
+In UI animation design, you can
+breathe life into your animations
+by using arcs as animation paths
+instead of straight lines. A great example of this principle is the Mac’s dock bar hover animation, which makes
+navigation
+through the different apps anchored in the dock intuitive and fun.
+8. Secondary Action
+Secondary actions are used to support or emphasize the main action going on within a scene. The addition of secondary actions adds another dimension to your animations.
+© Interaction Design Foundation, CC BY-SA 4.0
+In UI design, you can use secondary actions to elicit emotions in your users. Imagine your user has submitted a very long form. You can animate the submit button to have a secondary celebratory animation (for instance, confetti) to congratulate your user for completing a time-consuming task.
+9. Timing
+How quickly or slowly an object moves gives us a lot of information. If we saw a snail moving fast, we would be puzzled and maybe think we’ve discovered a new species!
+© Interaction Design Foundation, CC BY-SA 4.0
+In UI design, you can use timing to inform your users. For instance, you can link the speed of a file-loading animation to how big the file is. This will give your user a sense of how long the process will take and why—so the upload will be slower if you’re uploading a big file and much quicker if it’s a small file.
+10. Exaggeration
+This principle gives the animations a fun character and helps the viewer focus on what’s important.
+© Interaction Design Foundation, CC BY-SA 4.0
+In UI animation design, you can exaggerate certain elements to make it clear to users how they are supposed to interact with the interface. In addition, exaggeration always adds an entertaining aspect to the design. How much you can exaggerate an element will depend on the purpose of the product and its overall look and feel.
+A good animation effect will be invisible to the viewer. However, if you exaggerate too much, it may annoy users. If that happens, consider making the animation more subtle.
+11. Solid Drawing
+Understanding the basics of drawing—or in the case of UI, the principles of
+visual design
+—will help you design more successful animations.
+© Interaction Design Foundation, CC BY-SA 4.0
+Imagine you design a button with a shadow, and the shadow doesn’t follow a proper perspective. The user would immediately think that there was something wrong with the app.
+This phenomenon is even more evident in
+skeuomorphic
+design, where elements imitate their real-world counterparts.
+While you can push the limits here, it's essential to remain consistent, and any distortion in your design needs to be justified and feel intentional to the user.
+12. Appeal
+Animations need to appeal to the viewer. There is no mathematical formula to get this right, but any animation should trigger the viewer's attention and create a pull. Research and testing are vital aspects of getting the appeal of your animations just right.
+© Interaction Design Foundation, CC BY-SA 4.0
+In UI design, the appeal is critical to stand out. Many products will compete with yours. You can use animation to define your product's personality and create an emotional connection with the user.
+Some digital products like Mailchimp create actual animated characters to add personality and visual appeal to their interfaces, and that can create a deeper connection with the user.
+The Take Away
+UI animation is an essential part of UI design. Great animation can bring your digital interfaces to life, help your products stand out and build a more intuitive and captivating experience for your users.
+However, getting it wrong, and creating an animation for the sake of animation will result in a poor
+user interface
+.
+So, as a UI designer, use Disney’s 12 principles of animation as a foundation to create meaningful animations that engage your users and enhance your product's success.
+References and Where to Learn More
+Read the book
+The Illusion of Life: Disney Animation
+by Frank Thomas and Ollie Johnston to learn more about Disney’s 12 principles of animation.
+Watch Rafael Hernandez’s Master Class,
+How to Break into UI Design: Design Skills That Make You Irreplaceable by AI
+.
+Learn more about visual design in the IxDF
+Visual Design: The Ultimate Guide course
+.
+Hero image: © Interaction Design Foundation, CC BY-SA 4.0
+Learn More in This Course:
+Visual Design: The Ultimate Guide
+Closes in:
+5 days
+57
+Lessons
+View Course
+Learn Design From the Best
+Get one powerful email each week, like 316,781 others.
+Next email in:
+7
+days
+10
+hrs
+53
+mins
+36
+secs
+Name
+Your email
+Go
+Please enter a valid email address.
+Topics in This Article
+Design Guidelines
+User Interface (UI) Design
+UI Animation
+Learn More in This Course:
+Visual Design: The Ultimate Guide
+Closes in:
+5 days
+57
+Lessons
+View Course
+Learn Design From the Best
+Get one powerful email each week, like 316,781 others.
+Next email in:
+7
+days
+10
+hrs
+53
+mins
+36
+secs
+Name
+Your email
+Go
+Please enter a valid email address.
+What You Should
+Read Next
+Read full article
+10 Great Sites for UI Design Patterns
+You don’t want to spend your whole life redesigning the wheel, do you? No, neither do we. If you are looking for a design that solves a problem that has been solved with a different application before, then the template for your wheel is probably already out there. This lets you save time and make a
+Social shares
+1.4k
+Published
+4 mths ago
+Read Article
+Read full article
+Shneiderman’s Eight Golden Rules Will Help You Design Better Interfaces
+Follow Ben Shneiderman’s 'Eight Golden Rules of Interface Design' if you want to design great, productive and frustration-free user interfaces. Apple, Google and Microsoft are among some of the highly successful companies whose well-designed products reflect Shneiderman’s rules. The characteristics
+Social shares
+1.4k
+Published
+1 year ago
+Read Article
+Read full article
+User Interface Design Guidelines: 10 Rules of Thumb
+Learn to design with your user’s needs and expectations in mind by applying Jakob Nielsen and Rolf Molich’s Ten User Interface Guidelines. These heuristics have been reflected in many of the products designed by some of the most successful companies in the world such as Apple, Google, and Adobe. Fur
+Social shares
+1.4k
+Published
+4 mths ago
+Read Article
+Read full article
+Repetition, Pattern, and Rhythm
+Let’s look at three subjects that, at first glance, may strike you as being incredibly basic and self-explanatory. However, although they may seem like they should need no introduction, we should study them. By understanding these concepts, you’ll be able to apply them more effectively to captivate
+Social shares
+1.4k
+Published
+1 year ago
+Read Article
+Read full article
+The Grid System: Building a Solid Design Layout
+Now that we’ve seen some grids at work in the Rule of Thirds article, let’s examine them a little more deeply. As a concept that deals so fundamentally with the fabric and background of our work as designers, it’s easy to overlook the power of grids and think more about the elements we want to creat
+Social shares
+1.4k
+Published
+6 years ago
+Read Article
+Read full article
+The Golden Ratio - Principles of form and layout
+Now, we’re going to look at a subject that comes directly from mathematics and that we can also find all around us – the golden ratio. Don’t worry; we’re not going back into the classroom for long. We will examine what this concept is and exactly how much it is a fundamental part of making designs p
+Social shares
+1.4k
+Published
+5 years ago
+Read Article
+Read full article
+10 Free-to-Use Wireframing Tools for UX Designers in 2026
+Wireframes help you quickly ideate and test your ideas. While paper wireframes are the fastest to create, digital wireframes look more polished and presentable. If you are looking for a pocket-friendly wireframing tool, look no further.Whether you prefer browser-based apps or offline desktop tools,
+Social shares
+1.3k
+Published
+4 mths ago
+Read Article
+Read full article
+Principle of Consistency and Standards in User Interface Design
+Learn to design with consistency and standards in mind and understand the reasons why they’re important to incorporate them into your work. Derived from Jakob Nielsen and Rolf Molich’s Ten User Interface (UI) Guidelines, ‘Consistency and Standards’ are evident in many of the widely-used produc
+Social shares
+1.3k
+Published
+5 years ago
+Read Article
+Read full article
+Adaptive vs. Responsive Design
+The differences between responsive and adaptive design approaches spotlight important options for us as web and app designers. Choosing with insight can empower you to plan and execute your designs with better aim, purpose and results.With the pervasiveness and diversity of mobile devices, as design
+Social shares
+1.3k
+Published
+5 years ago
+Read Article
+Read full article
+Visual Hierarchy: Organizing content to follow natural eye movement patterns
+Let’s look at a topic that deals with, oddly enough, how we look at designs. Once you understand how the human eye processes these, you’ll find yourself better able to arrange your elements more effectively.Content in any digital page layout will follow a specific hierarchy. Headers appear above bod
+Social shares
+1.3k
+Published
+5 years ago
+Read Article
+Top Articles
+Read full article
+The 5 Stages in the Design Thinking Process
+2k shares
+Read full article
+What is Design Thinking and Why Is It So Popular?
+1.6k shares
+Read full article
+Personas – A Simple Introduction
+1.6k shares
+Read full article
+Bad Design vs. Good Design: 5 Examples We Can Learn From
+1.5k shares
+Read full article
+What is Interaction Design?
+1.5k shares
+Top Topic Definitions
+Read full topic
+Design Thinking
+51 articles
+10 videos
+Read full topic
+User Experience Design
+157 articles
+8 videos
+Read full topic
+Graphic Design
+19 articles
+3 videos
+Read full topic
+Color Theory
+7 articles
+5 videos
+Read full topic
+User Interface (UI) Design
+65 articles
+8 videos
+39% of Today's Skills Will Change by 2030
+The World Economic Forum expects 39% of today's skills to be transformed or become outdated by 2030.
+The good news is that jobs in UX / UI design and AI are among the fastest-growing professions globally.
+See How Design Skills Turn Into Job Options
+Open privacy settings
+Privacy Settings
+Close privacy settings
+By using this site, you accept our
+Cookie Policy
+and
+Terms of Use
+.
+Customize
+Customize
+Our digital services use necessary tracking technologies, including third-party cookies,
+        for security, functionality, and to uphold user rights.
+        Optional cookies offer enhanced features, and analytics.
+Essential
+Experience the full potential of our site that remembers your preferences and supports secure sign-in.
+Security
+Security
+Governs the storage of data necessary for maintaining website security, user authentication, and fraud prevention mechanisms.
+Enhanced Functionality
+Enhanced Functionality
+Saves your settings and preferences, like your location, for a more personalized experience.
+Referral Program
+Referral Program
+We use cookies to enable our referral program, giving you and your friends discounts.
+Error Reporting
+Error Reporting
+We share user ID with Bugsnag and NewRelic to help us track errors and fix issues.
+Analytics
+Optimize your experience by allowing us to monitor site usage. You'll enjoy a smoother, more personalized journey without compromising your privacy.
+Analytics Storage
+Analytics Storage
+Collects anonymous data on how you navigate and interact, helping us make informed improvements.
+Google
+Google
+Differentiates real visitors from automated bots, ensuring accurate usage data and improving your website experience.
+Personalization
+Lets us tailor your digital ads to match your interests, making them more relevant and useful to you.
+Advertising Storage
+Advertising Storage
+Stores information for better-targeted advertising, enhancing your online ad experience.
+Personalization Storage
+Personalization Storage
+Permits storing data to personalize content and ads across Google services based on user behavior, enhancing overall user experience.
+Advertising Personalization
+Advertising Personalization
+Allows for content and ad personalization across Google services based on user behavior. This consent enhances user experiences.
+User Data
+User Data
+Enables personalizing ads based on user data and interactions, allowing for more relevant advertising experiences across Google services.
+Advertising
+Receive more relevant advertisements by sharing your interests and behavior with our trusted advertising partners.
+Meta Pixel
+Meta Pixel
+Enables better ad targeting and measurement on Meta platforms, making ads you see more relevant.
+Meta CAPI
+Meta CAPI
+Allows for improved ad effectiveness and measurement through Meta&#039;s Conversions API, ensuring privacy-compliant data sharing.
+LinkedIn Insights
+LinkedIn Insights
+Tracks conversions, retargeting, and web analytics for LinkedIn ad campaigns, enhancing ad relevance and performance.
+LinkedIn CAPI
+LinkedIn CAPI
+Enhances LinkedIn advertising through server-side event tracking, offering more accurate measurement and personalization.
+Google Ads Tag
+Google Ads Tag
+Tracks ad performance and user engagement, helping deliver ads that are most useful to you.
+Accept all
+Accept all
+Save Settings
+Be the One Who
+Inspires
+People remember who shares great ideas.
+Share on:
+Shareable Link
+Copy Link
+Academic
+Credibility
+— On Autopilot
+Don't waste time googling citation formats. Just copy, paste and look legit in seconds.
+Citation Format
+APA (recommended)
+MLA
+IEEE
+ACM
+What Is This?
+Tremosa, L.
+                    (2026, April 12).
+UI Animation—How to Apply Disney’s 12 Principles of Animation to UI Design
+.
+                    IxDF - Interaction Design Foundation.
+Tremosa, Laia.
+“UI Animation—How to Apply Disney’s 12 Principles of Animation to UI Design”
+IxDF - Interaction Design Foundation.
+                    8 Jul. 2026
+L. Tremosa.
+“UI Animation—How to Apply Disney’s 12 Principles of Animation to UI Design”
+IxDF - Interaction Design Foundation.
+(accessed Jul. 8, 2026).
+Laia Tremosa.
+                    2026.
+UI Animation—How to Apply Disney’s 12 Principles of Animation to UI Design
+Retrieved July 8, 2026
+                    from
+Cite selection
+Cite selection
+Copy Citation
+Copied to clipboard!
+Learn Design From the Best
+Get one powerful email each week, like
+316,781
+others.
+Next email in:
+7
+days
+10
+hrs
+53
+mins
+36
+secs
+Name
+Your email
+Join
+Please enter a valid email address.
+Feedback

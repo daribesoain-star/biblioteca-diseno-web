@@ -1,0 +1,735 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.085 --> 00:00:11.440
+[Music] hey Jon from Supabase here and in this&nbsp;
+video we're going to learn all about row level&nbsp;&nbsp;
+
+00:00:11.440 --> 00:00:16.800
+policies now this is a concept that does trip up&nbsp;
+a lot of people especially if they're new to sql&nbsp;&nbsp;
+
+00:00:16.800 --> 00:00:22.000
+or even just writing authorization rules at this&nbsp;
+layer but i promise it's not as scary as it seems&nbsp;&nbsp;
+
+00:00:22.000 --> 00:00:26.720
+so let's learn how so most people have this mental&nbsp;
+model of this kind of three-piece architecture&nbsp;&nbsp;
+
+00:00:26.720 --> 00:00:32.000
+where you have a client an api and a database and&nbsp;
+the client is only able to directly communicate&nbsp;&nbsp;
+
+00:00:32.000 --> 00:00:36.880
+with the api and the api is the only thing that's&nbsp;
+allowed to talk directly to the database so if the&nbsp;&nbsp;
+
+00:00:36.880 --> 00:00:41.200
+client wants records that are in the database they&nbsp;
+have to go to the api and they have to say this is&nbsp;&nbsp;
+
+00:00:41.200 --> 00:00:46.560
+who i am and then the api decides do i trust you&nbsp;
+or don't i trust you and if they do they're the&nbsp;&nbsp;
+
+00:00:46.560 --> 00:00:51.440
+only ones that have a special key to the database&nbsp;
+so they go up to the database get those records um&nbsp;&nbsp;
+
+00:00:51.440 --> 00:00:56.560
+and then send them back to the client now in the&nbsp;
+row level security architecture the client can&nbsp;&nbsp;
+
+00:00:56.560 --> 00:01:01.600
+talk directly to the database and so there's&nbsp;
+no actual need to have that api in the middle&nbsp;&nbsp;
+
+00:01:01.600 --> 00:01:06.400
+the client just sends across their authorization&nbsp;
+token or says who they are to the database&nbsp;&nbsp;
+
+00:01:06.400 --> 00:01:10.560
+and then the database decides based on those&nbsp;
+row-level policies should the user have access&nbsp;&nbsp;
+
+00:01:10.560 --> 00:01:14.960
+to this data or should they not if they should&nbsp;
+then it can send those results directly to the&nbsp;&nbsp;
+
+00:01:14.960 --> 00:01:18.720
+client so not only can this make your queries&nbsp;
+a little bit more efficient because you don't&nbsp;&nbsp;
+
+00:01:18.720 --> 00:01:24.080
+need to go that extra hop through the api but you&nbsp;
+also protect yourself from writing some bad logic&nbsp;&nbsp;
+
+00:01:24.080 --> 00:01:29.200
+in the api that potentially exposes some data from&nbsp;
+your database by writing the access rules for the&nbsp;&nbsp;
+
+00:01:29.200 --> 00:01:34.560
+data in the database itself it makes it very hard&nbsp;
+to accidentally leak out that data because only&nbsp;&nbsp;
+
+00:01:34.560 --> 00:01:39.040
+the people who should have access to it can have&nbsp;
+access so let's see how we might implement row&nbsp;&nbsp;
+
+00:01:39.040 --> 00:01:44.880
+level policies in our own application here i have&nbsp;
+a blog project that i'm building on Supabase it&nbsp;&nbsp;
+
+00:01:44.880 --> 00:01:52.800
+has two tables so a post and a comment each post&nbsp;
+has an id a title the content of the post user id&nbsp;&nbsp;
+
+00:01:52.800 --> 00:01:58.000
+and so this is the user that authored the blog we&nbsp;
+then have a created at timestamp and whether or&nbsp;&nbsp;
+
+00:01:58.000 --> 00:02:04.560
+not the blog is published currently we then have a&nbsp;
+comment table and again this has an id and content&nbsp;&nbsp;
+
+00:02:04.560 --> 00:02:10.640
+it has the user that authored the comment a&nbsp;
+timestamp and then the post that it's associated&nbsp;&nbsp;
+
+00:02:10.640 --> 00:02:16.240
+with so this just models a fairly common&nbsp;
+one-to-many relationship where each post has many&nbsp;&nbsp;
+
+00:02:16.240 --> 00:02:21.360
+comments and every comment belongs to a post so&nbsp;
+let's have a look at the application that's using&nbsp;&nbsp;
+
+00:02:21.360 --> 00:02:29.120
+it so here i have a Supabase application i'm going&nbsp;
+to sign up for a new account as ash pokemon.com&nbsp;&nbsp;
+
+00:02:29.760 --> 00:02:35.440
+and he can have the super secure password&nbsp;
+password on the right here we're going to&nbsp;&nbsp;
+
+00:02:35.440 --> 00:02:41.840
+sign up a second user and so obviously we're&nbsp;
+going to sign up ash's rival gary at pokemon.com&nbsp;&nbsp;
+
+00:02:43.040 --> 00:02:46.800
+and he's going to have the same password&nbsp;
+because i don't think they're very&nbsp;&nbsp;
+
+00:02:46.800 --> 00:02:52.880
+security conscious over in violet town now ash&nbsp;
+is going to create a new post so he can give this&nbsp;&nbsp;
+
+00:02:52.880 --> 00:02:57.680
+post a title and then write about the adventure&nbsp;
+of his first pokemon and now he's not quite ready&nbsp;&nbsp;
+
+00:02:57.680 --> 00:03:01.680
+to publish this he thinks that maybe he can add a&nbsp;
+little bit more to this story so he's just going&nbsp;&nbsp;
+
+00:03:01.680 --> 00:03:06.640
+to click save and come back to it later and so ash&nbsp;
+can now see this post he could continue editing it&nbsp;&nbsp;
+
+00:03:06.640 --> 00:03:11.440
+if he wanted he could delete it if he decides this&nbsp;
+story isn't worth telling the world and if he goes&nbsp;&nbsp;
+
+00:03:11.440 --> 00:03:16.480
+back to all posts he can see his post listed there&nbsp;
+which is what we'd expect because even though it&nbsp;&nbsp;
+
+00:03:16.480 --> 00:03:20.480
+hasn't been published ash should still be able&nbsp;
+to see it and be able to continue working on it&nbsp;&nbsp;
+
+00:03:21.120 --> 00:03:26.160
+the problem is if we come over here and refresh&nbsp;
+on gary's side gary can also see the blog even&nbsp;&nbsp;
+
+00:03:26.160 --> 00:03:30.800
+though it hasn't been published yet and so&nbsp;
+let's fix this up using a row level policy&nbsp;&nbsp;
+
+00:03:30.800 --> 00:03:35.600
+so ash should be the only one that's able to&nbsp;
+see his unpublished blog and definitely the&nbsp;&nbsp;
+
+00:03:35.600 --> 00:03:40.640
+only one that's able to edit or delete it so&nbsp;
+let's head back over to our Supabase dashboard&nbsp;&nbsp;
+
+00:03:40.640 --> 00:03:46.080
+and go to authentication and then policies&nbsp;
+and you'll see that rls or row level security&nbsp;&nbsp;
+
+00:03:46.080 --> 00:03:51.520
+is disabled on tables by default and so let's&nbsp;
+enable that for our post table and the first thing&nbsp;&nbsp;
+
+00:03:51.520 --> 00:03:56.000
+we'll notice is if we go back to our application&nbsp;
+and try and view all posts now you'll see that&nbsp;&nbsp;
+
+00:03:56.000 --> 00:04:02.000
+even ash is not able to see his post and if we&nbsp;
+refresh on gary's side he obviously can't see it&nbsp;&nbsp;
+
+00:04:02.000 --> 00:04:07.280
+and that's because by default row level security&nbsp;
+is going to entirely lock down that table so it's&nbsp;&nbsp;
+
+00:04:07.280 --> 00:04:13.520
+going to automatically deny any request to select&nbsp;
+insert update or delete any row in that table and&nbsp;&nbsp;
+
+00:04:13.520 --> 00:04:19.920
+the only way to unlock those actions again is to&nbsp;
+create a new policy so here we can create a policy&nbsp;&nbsp;
+
+00:04:19.920 --> 00:04:24.080
+from a template or from scratch i'm going to show&nbsp;
+what it looks like if we do it from a template&nbsp;&nbsp;
+
+00:04:25.040 --> 00:04:30.400
+if we go down to this bottom option so enable&nbsp;
+delete access for users based on their user id&nbsp;&nbsp;
+
+00:04:30.400 --> 00:04:34.560
+and so this sounds similar to what we want we&nbsp;
+want to enable all actions instead of just delete&nbsp;&nbsp;
+
+00:04:34.560 --> 00:04:40.000
+but we definitely want it to be based on the&nbsp;
+currently logged in user and so if we say we&nbsp;&nbsp;
+
+00:04:40.000 --> 00:04:44.560
+want to use this template we can then change&nbsp;
+whether we want it to be for select insert&nbsp;&nbsp;
+
+00:04:44.560 --> 00:04:48.880
+update delete or all and so all is going&nbsp;
+to contain all four of these actions&nbsp;&nbsp;
+
+00:04:49.520 --> 00:04:55.840
+we can then update the name to just say&nbsp;
+enable all actions for users based on user id&nbsp;&nbsp;
+
+00:04:56.640 --> 00:05:00.880
+and now if we have a look at the policy that we're&nbsp;
+actually creating here this is just a conditional&nbsp;&nbsp;
+
+00:05:01.520 --> 00:05:07.520
+so a good way to think about this is like a&nbsp;
+where clause in regular sql so if we wanted&nbsp;&nbsp;
+
+00:05:07.520 --> 00:05:14.160
+to select all the columns from post where the user&nbsp;
+id column is set to the currently logged in user&nbsp;&nbsp;
+
+00:05:14.880 --> 00:05:20.080
+what we're specifying in the row level policy is&nbsp;
+just this where clause so this where clause is&nbsp;&nbsp;
+
+00:05:20.080 --> 00:05:25.040
+going to automatically be attached to any insert&nbsp;
+select update or delete statement that we're&nbsp;&nbsp;
+
+00:05:25.040 --> 00:05:31.280
+trying to do and so we don't need to remember&nbsp;
+to do that ourselves at the api level if you're&nbsp;&nbsp;
+
+00:05:31.280 --> 00:05:37.360
+not super familiar with sql syntax then this is&nbsp;
+similar to a filter statement in javascript so if&nbsp;&nbsp;
+
+00:05:37.360 --> 00:05:44.160
+we had a list of all of our posts and we wanted to&nbsp;
+filter any posts where the post.userid is equal to&nbsp;&nbsp;
+
+00:05:44.160 --> 00:05:49.200
+the currently logged in user's id then we would&nbsp;
+get back an array from this so this would be&nbsp;&nbsp;
+
+00:05:49.200 --> 00:05:57.440
+like filtered posts and this would only contain&nbsp;
+posts where this condition was true and so that's&nbsp;&nbsp;
+
+00:05:57.440 --> 00:06:02.480
+what we're doing in our policy here with this&nbsp;
+condition we're saying we want to basically&nbsp;&nbsp;
+
+00:06:02.480 --> 00:06:07.360
+filter out any of the results where auth.userid&nbsp;
+which is a special function that gives us back the&nbsp;&nbsp;
+
+00:06:07.360 --> 00:06:12.640
+currently logged in user so this is provided to us&nbsp;
+by Supabase and we're checking whether that user&nbsp;&nbsp;
+
+00:06:12.640 --> 00:06:19.200
+id is equal to the column in this table for user&nbsp;
+id and so remember this is the person who authored&nbsp;&nbsp;
+
+00:06:19.200 --> 00:06:25.520
+this post so we're saying if the currently logged&nbsp;
+in user is equal to the post dot user id column&nbsp;&nbsp;
+
+00:06:25.520 --> 00:06:30.720
+then this is all good this returns true and it&nbsp;
+is all good to select it insert it update it or&nbsp;&nbsp;
+
+00:06:30.720 --> 00:06:38.480
+delete it now because we have included update&nbsp;
+here we also need to add a width check and so&nbsp;&nbsp;
+
+00:06:38.480 --> 00:06:42.560
+we can just copy and paste the same condition here&nbsp;
+so we just want to check whether the currently&nbsp;&nbsp;
+
+00:06:42.560 --> 00:06:48.000
+logged in user is equal to the user id column and&nbsp;
+then we can click review and if we have a look at&nbsp;&nbsp;
+
+00:06:48.000 --> 00:06:52.320
+this there's nothing magical going on this is&nbsp;
+just creating the sql behind the scenes for&nbsp;&nbsp;
+
+00:06:52.320 --> 00:06:58.800
+us so we could actually just copy this entire&nbsp;
+sql statement and come over to our sql editor&nbsp;&nbsp;
+
+00:06:58.800 --> 00:07:02.880
+and run this manually and it would do exactly&nbsp;
+the same thing but all we're doing is creating&nbsp;&nbsp;
+
+00:07:02.880 --> 00:07:07.600
+a policy with the name enable all actions for&nbsp;
+users based on their user id we're setting this&nbsp;&nbsp;
+
+00:07:07.600 --> 00:07:15.920
+on the public.post table and we want to run this&nbsp;
+condition so auth.uid is equal to user id anytime&nbsp;&nbsp;
+
+00:07:15.920 --> 00:07:21.040
+we try to perform one of those actions so now we&nbsp;
+can click save policy and so now if we go back to&nbsp;&nbsp;
+
+00:07:21.040 --> 00:07:27.120
+our application and refresh on ash's side he will&nbsp;
+now be able to see that post and he can click&nbsp;&nbsp;
+
+00:07:27.120 --> 00:07:35.440
+into it to get some more information about it he&nbsp;
+could edit the post and say i can't wait to tell&nbsp;&nbsp;
+
+00:07:35.440 --> 00:07:41.600
+gary and then he could even say okay i'm ready&nbsp;
+to publish this post and click save but now even&nbsp;&nbsp;
+
+00:07:41.600 --> 00:07:46.800
+though that post is now published if we come&nbsp;
+over to gary's side and refresh you'll see we&nbsp;&nbsp;
+
+00:07:46.800 --> 00:07:51.440
+still can't see that post and that's because we&nbsp;
+created a policy so that the person who authored&nbsp;&nbsp;
+
+00:07:51.440 --> 00:07:57.680
+the blog could see it but we still haven't enabled&nbsp;
+access for anyone else so let's create a policy&nbsp;&nbsp;
+
+00:07:57.680 --> 00:08:03.520
+for anyone to be able to see a published post so&nbsp;
+let's come back over to Supabase and create a new&nbsp;&nbsp;
+
+00:08:03.520 --> 00:08:08.080
+policy and this time we're going to create&nbsp;
+it from scratch so we can see how easy it is&nbsp;&nbsp;
+
+00:08:08.880 --> 00:08:18.560
+for this policy we want to enable user to select&nbsp;
+a published post and we want to set this on select&nbsp;&nbsp;
+
+00:08:18.560 --> 00:08:24.480
+and then all we want to do here is say if is&nbsp;
+published is equal to true then we want to&nbsp;&nbsp;
+
+00:08:24.480 --> 00:08:31.360
+display this post so let's review and save that&nbsp;
+policy and now when we come back to gary's side&nbsp;&nbsp;
+
+00:08:31.360 --> 00:08:36.720
+and refresh he can now see that post which is&nbsp;
+awesome uh but now if ash decided that he didn't&nbsp;&nbsp;
+
+00:08:36.720 --> 00:08:42.080
+want that post published anymore he could come&nbsp;
+over here and untick is published and then if gary&nbsp;&nbsp;
+
+00:08:42.080 --> 00:08:49.120
+refreshes he can no longer see that post awesome&nbsp;
+so our policy is working the way we expect it if&nbsp;&nbsp;
+
+00:08:49.120 --> 00:08:56.400
+i come back here and edit and republish this post&nbsp;
+a cool thing to note is that if i copy this url to&nbsp;&nbsp;
+
+00:08:56.400 --> 00:09:03.520
+edit uh this blog post and paste it over here for&nbsp;
+gary he's able to see this page because we haven't&nbsp;&nbsp;
+
+00:09:03.520 --> 00:09:08.240
+implemented any logic in our application to stop&nbsp;
+that and if he decided he wanted to be extra&nbsp;&nbsp;
+
+00:09:08.240 --> 00:09:12.720
+malicious and come down and delete his rival's&nbsp;
+post it looks like everything went well we didn't&nbsp;&nbsp;
+
+00:09:12.720 --> 00:09:17.600
+get an error message but now we've been redirected&nbsp;
+to the landing page and the post is still there so&nbsp;&nbsp;
+
+00:09:17.600 --> 00:09:22.400
+it hasn't been deleted and that's the real power&nbsp;
+of row level policies we completely forgot about&nbsp;&nbsp;
+
+00:09:22.400 --> 00:09:27.520
+this edge case in our application but because we&nbsp;
+wrote that policy at the database layer it still&nbsp;&nbsp;
+
+00:09:27.520 --> 00:09:33.120
+wouldn't let us perform that action so no matter&nbsp;
+how bad the code is we write at the api layer and&nbsp;&nbsp;
+
+00:09:33.120 --> 00:09:38.000
+how much power we think we've given people to&nbsp;
+do malicious things our data is still safe and&nbsp;&nbsp;
+
+00:09:38.000 --> 00:09:43.120
+that's what's most important so this is looking&nbsp;
+good let's have a look at how we might enable&nbsp;&nbsp;
+
+00:09:43.120 --> 00:09:50.400
+comments so if we click into one of our posts and&nbsp;
+if we come to the same post on ash's side we see&nbsp;&nbsp;
+
+00:09:50.400 --> 00:09:57.440
+we've got this comment section and now gary might&nbsp;
+add a comment saying nice work ash so proud of you
+
+00:09:59.680 --> 00:10:02.720
+and now he adds that comment and we&nbsp;
+can see it there if we refresh on&nbsp;&nbsp;
+
+00:10:02.720 --> 00:10:09.840
+ash's side we can see that comment and&nbsp;
+we can say wow thanks gary great guy
+
+00:10:12.320 --> 00:10:17.280
+and again if we come over to gary's&nbsp;
+side and refresh we can see that very&nbsp;&nbsp;
+
+00:10:17.280 --> 00:10:22.800
+kind message from ash there so let's enable&nbsp;
+row level security for the comments table
+
+00:10:25.200 --> 00:10:29.440
+and again we can check that if we come back&nbsp;
+here and refresh we can't see anything for&nbsp;&nbsp;
+
+00:10:29.440 --> 00:10:35.040
+either user so let's write a policy to be able&nbsp;
+to see these comments again now if we have a&nbsp;&nbsp;
+
+00:10:35.040 --> 00:10:39.840
+think about what kinds of comments we should be&nbsp;
+able to see it's kind of directly linked to the&nbsp;&nbsp;
+
+00:10:39.840 --> 00:10:45.680
+posts that we can see if we can see a post it&nbsp;
+makes sense that we can see all of its comments&nbsp;&nbsp;
+
+00:10:45.680 --> 00:10:49.920
+and it doesn't really make sense for us to see a&nbsp;
+comment for a post that we're not allowed to see&nbsp;&nbsp;
+
+00:10:49.920 --> 00:10:54.720
+so let's have a look at selecting data from&nbsp;
+another table within our policy to determine&nbsp;&nbsp;
+
+00:10:54.720 --> 00:11:00.000
+whether we should see that comment or not let's&nbsp;
+start off by creating a new policy on the comment&nbsp;&nbsp;
+
+00:11:00.000 --> 00:11:04.720
+table and again we're going to create this one&nbsp;
+from scratch we're going to be looking at select&nbsp;&nbsp;
+
+00:11:04.720 --> 00:11:11.760
+and this policy is enabling a&nbsp;
+user to view comments for posts&nbsp;&nbsp;
+
+00:11:12.400 --> 00:11:18.080
+they can view so rather than just re-implementing&nbsp;
+the same policies that we have on the post table&nbsp;&nbsp;
+
+00:11:18.080 --> 00:11:22.720
+we can use a little trick here to say well for&nbsp;
+this comment that i'm currently trying to select&nbsp;&nbsp;
+
+00:11:22.720 --> 00:11:28.000
+i know which post it belongs to and so if i&nbsp;
+go and write a select statement for that post&nbsp;&nbsp;
+
+00:11:28.000 --> 00:11:32.160
+if i'm able to see it then it means that i&nbsp;
+should be able to see this comment as well&nbsp;&nbsp;
+
+00:11:32.800 --> 00:11:43.280
+so we can do that by saying select star from post&nbsp;
+where post dot id is equal to the current comments&nbsp;&nbsp;
+
+00:11:43.280 --> 00:11:48.960
+dot post id so this is going to take the comment&nbsp;
+we're currently trying to select it's going to&nbsp;&nbsp;
+
+00:11:48.960 --> 00:11:54.880
+look at which post it belongs to and then it's&nbsp;
+going to go and look up a post with that post id&nbsp;&nbsp;
+
+00:11:55.440 --> 00:12:00.720
+from the post table and then if it's able to&nbsp;
+select that post it's going to return us all&nbsp;&nbsp;
+
+00:12:00.720 --> 00:12:04.560
+of the columns and so we don't actually care&nbsp;
+about the columns we don't actually care about&nbsp;&nbsp;
+
+00:12:04.560 --> 00:12:08.640
+the data that's in there we just care whether&nbsp;
+we can select it or not so we can replace this&nbsp;&nbsp;
+
+00:12:08.640 --> 00:12:13.600
+with a 1 and then that's just going to return&nbsp;
+us true rather than returning us the values&nbsp;&nbsp;
+
+00:12:13.600 --> 00:12:18.400
+of the columns so if we can select this post&nbsp;
+we're just going to get back the value true&nbsp;&nbsp;
+
+00:12:18.400 --> 00:12:23.840
+and that means we can wrap this select statement&nbsp;
+in another statement to see whether it exists
+
+00:12:27.280 --> 00:12:32.880
+so now if this select statement returns true&nbsp;
+then this policy will return true and we will&nbsp;&nbsp;
+
+00:12:32.880 --> 00:12:40.960
+be able to select that comment and so now if we go&nbsp;
+back to our application and refresh on ash's side&nbsp;&nbsp;
+
+00:12:40.960 --> 00:12:45.520
+we should see those two comments and if we refresh&nbsp;
+on gary's side we should see those two comments&nbsp;&nbsp;
+
+00:12:45.520 --> 00:12:51.280
+and so now as gary if i try to say thanks ash&nbsp;
+and add a new comment we're going to get an&nbsp;&nbsp;
+
+00:12:51.280 --> 00:12:55.840
+error that this violates a row level security&nbsp;
+policy and so that's because we haven't added&nbsp;&nbsp;
+
+00:12:55.840 --> 00:13:01.360
+a rule for insert yet so let's go and do that&nbsp;
+and so let's create a new policy and again we&nbsp;&nbsp;
+
+00:13:01.360 --> 00:13:09.280
+can create it from scratch this is going to be&nbsp;
+insert so allow users to insert comments on posts&nbsp;&nbsp;
+
+00:13:09.840 --> 00:13:14.960
+they can see and this policy is going to be&nbsp;
+very similar to our select policy so we only&nbsp;&nbsp;
+
+00:13:14.960 --> 00:13:18.400
+want to be able to insert comments&nbsp;
+for posts that we're allowed to see&nbsp;&nbsp;
+
+00:13:19.200 --> 00:13:24.400
+but if we have a think about this this is actually&nbsp;
+going to allow us to insert a comment with someone&nbsp;&nbsp;
+
+00:13:24.400 --> 00:13:29.680
+else's user id attached to it and so we probably&nbsp;
+want to protect that so only a user can only&nbsp;&nbsp;
+
+00:13:29.680 --> 00:13:36.320
+insert a comment for themselves so let's chain&nbsp;
+on an and here so we can specify a second clause&nbsp;&nbsp;
+
+00:13:36.320 --> 00:13:45.200
+and let's say we want the auth dot user id to&nbsp;
+equal the comment dot user id and so let's review&nbsp;&nbsp;
+
+00:13:45.200 --> 00:13:52.400
+and save that policy and now gary should be able&nbsp;
+to leave that very important comment thanking ash&nbsp;&nbsp;
+
+00:13:52.400 --> 00:13:57.920
+and if we refresh on ash's side we can now&nbsp;
+see that comment so let's add policies for&nbsp;&nbsp;
+
+00:13:57.920 --> 00:14:03.040
+our remaining two actions so we want to be able to&nbsp;
+update and delete and these policies are going to&nbsp;&nbsp;
+
+00:14:03.040 --> 00:14:11.440
+be exactly the same as our insert so for update&nbsp;
+we want to be able to update comment that we can&nbsp;&nbsp;
+
+00:14:11.440 --> 00:14:19.120
+view post for and that we own and then we're&nbsp;
+going to paste that exact same condition both&nbsp;&nbsp;
+
+00:14:19.120 --> 00:14:29.840
+in using and with check and we're going to click&nbsp;
+review and save policy and the same for delete
+
+00:14:31.120 --> 00:14:37.120
+awesome so if we go back to our application we can&nbsp;
+see that gary can delete uh comments that he made&nbsp;&nbsp;
+
+00:14:37.120 --> 00:14:43.280
+on ash's post but he can't delete ash's comment&nbsp;
+so if we try deleting this thanks ash comment&nbsp;&nbsp;
+
+00:14:43.280 --> 00:14:48.720
+and then we go and refresh on ash's side we'll see&nbsp;
+that that's gone so that's good but one thing that&nbsp;&nbsp;
+
+00:14:48.720 --> 00:14:53.680
+we would want to be able to do is the person who&nbsp;
+owns the post should probably be able to moderate&nbsp;&nbsp;
+
+00:14:53.680 --> 00:14:58.240
+the comments that are on it and so ash should be&nbsp;
+able to delete gary's comments but gary should not&nbsp;&nbsp;
+
+00:14:58.240 --> 00:15:02.720
+be able to delete ash's comments so if we have&nbsp;
+a look here our application is assuming that so&nbsp;&nbsp;
+
+00:15:02.720 --> 00:15:08.720
+if i come down and try to delete gary's comment&nbsp;
+you'll see that it looks like it's gone but again&nbsp;&nbsp;
+
+00:15:08.720 --> 00:15:14.240
+if i refresh it's back again and that's because&nbsp;
+our row level security is not letting us perform&nbsp;&nbsp;
+
+00:15:14.240 --> 00:15:19.680
+that action that we haven't written a policy for&nbsp;
+and so let's write that now new policy create from&nbsp;&nbsp;
+
+00:15:19.680 --> 00:15:27.600
+scratch and this one is for delete and we can&nbsp;
+say user can moderate comments on their posts&nbsp;&nbsp;
+
+00:15:27.600 --> 00:15:32.080
+and so for this one we're also going to want&nbsp;
+to look up the associated post so we can say&nbsp;&nbsp;
+
+00:15:32.080 --> 00:15:42.400
+select star from post where post dot id is equal&nbsp;
+to comment dot post id and so similarly to the&nbsp;&nbsp;
+
+00:15:42.400 --> 00:15:48.560
+previous example we want to look up the post id&nbsp;
+for that comment in the post table but this time&nbsp;&nbsp;
+
+00:15:48.560 --> 00:15:53.120
+we do actually care about the data that comes&nbsp;
+back because we want to only allow this action&nbsp;&nbsp;
+
+00:15:53.120 --> 00:15:59.200
+for people who own the post so in this case&nbsp;
+we could actually select the user id column&nbsp;&nbsp;
+
+00:15:59.200 --> 00:16:07.840
+and then we could wrap this in a statement that&nbsp;
+checks whether auth.uid is in this subquery&nbsp;&nbsp;
+
+00:16:08.880 --> 00:16:12.880
+so if the user who's currently logged&nbsp;
+in is the user who created the post&nbsp;&nbsp;
+
+00:16:12.880 --> 00:16:16.880
+for the comment that we're currently trying&nbsp;
+to delete then we should be able to delete it
+
+00:16:18.960 --> 00:16:25.040
+and if we go back to our application and again try&nbsp;
+and delete that comment from gary and refresh it's&nbsp;&nbsp;
+
+00:16:25.040 --> 00:16:30.000
+still deleted and if we go and refresh on gary's&nbsp;
+side he may be a little bit annoyed but that&nbsp;&nbsp;
+
+00:16:30.000 --> 00:16:35.120
+comment is also gone from there so we now have&nbsp;
+a blog that works the way that we would expect&nbsp;&nbsp;
+
+00:16:35.120 --> 00:16:43.040
+we can create a new post and if it's not published&nbsp;
+no one else will be able to see it and when we&nbsp;&nbsp;
+
+00:16:43.040 --> 00:16:49.840
+publish a post our other users will be able to&nbsp;
+read it and we can add comments to that post&nbsp;&nbsp;
+
+00:16:51.760 --> 00:16:55.920
+we can view comments that other people&nbsp;
+have made on the post that we can see&nbsp;&nbsp;
+
+00:16:55.920 --> 00:17:02.560
+we can moderate those comments and even delete&nbsp;
+the post that we own and then our other users&nbsp;&nbsp;
+
+00:17:02.560 --> 00:17:06.640
+will no longer be able to see it awesome and&nbsp;
+that's how easy it is to implement row level&nbsp;&nbsp;
+
+00:17:06.640 --> 00:17:12.880
+policies in postgres using Supabase we'll have a&nbsp;
+link to the auth documentation in the description&nbsp;&nbsp;
+
+00:17:12.880 --> 00:17:16.880
+below in case you want to dig a little bit&nbsp;
+deeper make sure you check out our youtube&nbsp;&nbsp;
+
+00:17:16.880 --> 00:17:21.920
+channel for more awesome videos just like this&nbsp;
+one give us a follow on twitter and also check&nbsp;&nbsp;
+
+00:17:21.920 --> 00:17:26.480
+out our new discord there are some very cool&nbsp;
+folks over there and come tell us what you're&nbsp;&nbsp;
+
+00:17:26.480 --> 00:17:31.840
+building with superbass we would absolutely&nbsp;
+love to hear about it thanks for watching
+
+00:17:31.840 --> 00:17:32.150
+[Music]
+

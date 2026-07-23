@@ -1,0 +1,390 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:00.080 --> 00:00:03.760
+In filmmaking AI characters&nbsp;
+are finally consistent.&nbsp;
+
+00:00:03.760 --> 00:00:05.440
+That’s not the problem anymore.&nbsp;
+
+00:00:05.440 --> 00:00:09.920
+You don't need multiple tools — or&nbsp;
+rebuild your character every time.&nbsp;
+
+00:00:09.920 --> 00:00:15.040
+With Google Flow, you create a&nbsp;
+character once, I mean face, voice and&nbsp;&nbsp;
+
+00:00:15.040 --> 00:00:19.520
+identity... and just reuse it.
+Same person in every scene.&nbsp;
+
+00:00:19.520 --> 00:00:26.720
+Let’s start by creating a&nbsp;
+character that looks real.
+
+00:00:26.720 --> 00:00:28.480
+Create a new project.&nbsp;
+
+00:00:28.480 --> 00:00:32.720
+You'll have access to both image&nbsp;
+and video generation tools.&nbsp;
+
+00:00:32.720 --> 00:00:36.480
+Now, if you want to create videos&nbsp;
+with consistent characters,&nbsp;&nbsp;
+
+00:00:36.480 --> 00:00:42.400
+don't jump straight to video generation.
+First, start by creating your characters.&nbsp;
+
+00:00:42.400 --> 00:00:48.080
+Head over to the Characters section and build&nbsp;
+your characters there before moving on to the next step.
+
+00:00:48.080 --> 00:00:51.360
+To create a character, you have four options.
+
+00:00:51.360 --> 00:00:54.480
+First one is using the built-in templates.&nbsp;
+
+00:00:54.480 --> 00:01:01.040
+Every time you click a template, it generates&nbsp;
+a new prompt and a completely new character.
+
+00:01:01.040 --> 00:01:06.880
+The second option is writing your own prompt.
+For this, I'm using a Claude skill.
+
+00:01:06.880 --> 00:01:10.320
+A skill is basically a system that teaches AI how&nbsp;&nbsp;
+
+00:01:10.320 --> 00:01:14.240
+to build prompts properly.
+You create the logic once,&nbsp;&nbsp;
+
+00:01:14.240 --> 00:01:18.880
+then you just give it your inputs.
+I simply upload the skill to Claude,&nbsp;&nbsp;
+
+00:01:18.880 --> 00:01:22.880
+describe the character I want, and&nbsp;
+let it generate the prompt for me.
+
+00:01:22.880 --> 00:01:26.080
+Review prompt info and if needed update them.&nbsp;
+
+00:01:26.080 --> 00:01:34.080
+Otherwise confirm them.
+Copy the prompt and paste it here.
+
+00:01:34.080 --> 00:01:38.400
+If you don't like the result, you can&nbsp;
+delete it and generate another one.
+
+00:01:38.400 --> 00:01:44.640
+The third option is using an image from your&nbsp;
+current Flow project—or even another project.&nbsp;
+
+00:01:44.640 --> 00:01:48.720
+Then click Add to Character button&nbsp;
+to continue creating your character.&nbsp;
+
+00:01:48.720 --> 00:01:51.840
+And finally, the option I'm going to use:&nbsp;&nbsp;
+
+00:01:51.840 --> 00:01:55.600
+uploading a character image&nbsp;
+that I've already created.
+
+00:01:55.600 --> 00:02:00.720
+First, give your character a name.
+One quick tip: avoid names that are&nbsp;&nbsp;
+
+00:02:00.720 --> 00:02:06.720
+too common or tied to famous people. Sometimes&nbsp;
+the model can pull from existing knowledge and&nbsp;&nbsp;
+
+00:02:06.720 --> 00:02:10.640
+that can affect the results.
+Next, let's set up the voice.&nbsp;
+
+00:02:10.640 --> 00:02:14.240
+You can either pick a voice from&nbsp;
+the list or create your own.&nbsp;
+
+00:02:14.240 --> 00:02:19.360
+To create a custom voice, start&nbsp;
+by selecting a base voice.&nbsp;
+
+00:02:24.640 --> 00:02:30.720
+Then give it a name, describe how you want it to&nbsp;
+sound, and add a sample line for the AI to read.&nbsp;
+
+00:02:30.720 --> 00:02:33.000
+Generate the voice and listen to it.
+
+00:02:41.360 --> 00:02:43.760
+If you don't like the result, adjust
+
+00:02:43.760 --> 00:02:49.920
+the voice description and generate it again.
+Once you're happy with it, click Save New Voice.&nbsp;
+
+00:02:49.920 --> 00:02:54.320
+Now your custom voice is ready and&nbsp;
+you can use it across all your video&nbsp;&nbsp;
+
+00:02:54.320 --> 00:02:59.600
+generations for this character.
+Next, we have Character Info.&nbsp;
+
+00:02:59.600 --> 00:03:04.400
+This part is optional, but it can help&nbsp;
+Flow understand your character better.&nbsp;
+
+00:03:04.400 --> 00:03:08.800
+Think about their personality, how&nbsp;
+they speak, and how they usually react.&nbsp;
+
+00:03:08.800 --> 00:03:13.280
+The more clearly you define your character's&nbsp;
+personality, the easier it is to keep&nbsp;&nbsp;
+
+00:03:13.280 --> 00:03:19.520
+them consistent across different scenes.
+Next, let's talk about editing your character.&nbsp;
+
+00:03:19.520 --> 00:03:25.000
+If you want to make changes, like changing the&nbsp;
+hairstyle, or hair color you can do it right here.&nbsp;
+
+00:03:28.080 --> 00:03:34.880
+When you click the plus button, Flow automatically&nbsp;
+creates a prompt for generating a character sheet.&nbsp;
+
+00:03:34.880 --> 00:03:39.680
+This gives the model extra views of your&nbsp;
+character, helping it stay more consistent&nbsp;&nbsp;
+
+00:03:39.680 --> 00:03:44.480
+across different images and videos.
+You can describe the outfit,&nbsp;&nbsp;
+
+00:03:44.480 --> 00:03:51.040
+and body here or change all the prompt, then&nbsp;
+let Flow generate the character sheet for you.&nbsp;
+
+00:03:51.040 --> 00:03:56.720
+Personally, I prefer creating the&nbsp;
+character sheet with ChatGPT's image model.&nbsp;
+
+00:03:56.720 --> 00:04:01.680
+I simply provide the original character&nbsp;
+image and a character sheet template,&nbsp;&nbsp;
+
+00:04:01.680 --> 00:04:05.760
+then ask it to generate matching&nbsp;
+views of the same character.&nbsp;
+
+00:04:05.760 --> 00:04:11.120
+You can make your own template in&nbsp;
+Paint, Canva, or any design tool.&nbsp;
+
+00:04:11.120 --> 00:04:17.000
+Just update the hairstyle and clothing description&nbsp;
+to match your character, and generate the sheet.&nbsp;
+
+00:04:19.920 --> 00:04:25.280
+if the result looks good,&nbsp;
+download it and upload into Flow.&nbsp;
+
+00:04:25.280 --> 00:04:30.960
+Once everything looks right, click Done and your&nbsp;
+character will be added to the Characters section.&nbsp;
+
+00:04:30.960 --> 00:04:36.080
+From there, you can add it directly to your&nbsp;
+prompts or remove it whenever you want.&nbsp;
+
+00:04:36.080 --> 00:04:42.000
+And if you ever want to update the voice,&nbsp;
+character info, or reference images,&nbsp;&nbsp;
+
+00:04:42.000 --> 00:04:46.800
+just open the character, make your&nbsp;
+changes, and click Done again.&nbsp;
+
+00:04:46.800 --> 00:04:52.800
+If you want more characters, just&nbsp;
+repeat the same steps for each one.
+
+00:04:55.200 --> 00:05:00.960
+First, let's see how to use a character in image&nbsp;
+generation, and then we'll move on to videos.&nbsp;
+
+00:05:00.960 --> 00:05:04.800
+For the first example, I have a&nbsp;
+location image and a dog image,&nbsp;&nbsp;
+
+00:05:04.800 --> 00:05:11.760
+and I want to place my character in that scene.
+This is a very simple image generation workflow.&nbsp;
+
+00:05:11.760 --> 00:05:16.960
+To use your character, just type @ and&nbsp;
+select it from the Characters section.&nbsp;
+
+00:05:16.960 --> 00:05:21.120
+You can even import a character&nbsp;
+from another project if needed.&nbsp;
+
+00:05:21.120 --> 00:05:26.640
+I asked for a full body shot of Rose&nbsp;
+walking along this path with her dog.&nbsp;
+
+00:05:26.640 --> 00:05:32.800
+As you can see, Flow keeps the character&nbsp;
+consistent while placing her into the new scene.&nbsp;
+
+00:05:32.800 --> 00:05:36.560
+For the next example, I'm&nbsp;
+not using any source images.&nbsp;
+
+00:05:36.560 --> 00:05:40.960
+Instead, I'm going to generate a&nbsp;
+scene using only a simple prompt.&nbsp;
+
+00:05:40.960 --> 00:05:45.200
+In this case, I want Rose&nbsp;
+climbing a rocky mountain trail.&nbsp;
+
+00:05:45.200 --> 00:05:50.000
+If you're not sure how to write a prompt,&nbsp;
+just describe your idea in ChatGPT or&nbsp;&nbsp;
+
+00:05:50.000 --> 00:05:54.800
+Claude and let it help you create one.
+Then simply mention your character in the&nbsp;&nbsp;
+
+00:05:54.800 --> 00:06:00.000
+prompt and run the generation.
+And here's the final result.&nbsp;
+
+00:06:00.000 --> 00:06:05.000
+Same character into a new environment&nbsp;
+while keeping her consistent.
+
+00:06:07.760 --> 00:06:12.400
+Now let's see how to use the same&nbsp;
+character in video generation.&nbsp;
+
+00:06:12.400 --> 00:06:16.400
+The first method is generating&nbsp;
+a video from an image.&nbsp;
+
+00:06:16.400 --> 00:06:20.800
+This is useful when you want to place&nbsp;
+your character in a specific environment&nbsp;&nbsp;
+
+00:06:20.800 --> 00:06:27.440
+or combine them with other reference images.
+Start by adding your image to the prompt box.&nbsp;
+
+00:06:27.440 --> 00:06:31.520
+Then write a prompt describing what&nbsp;
+you want to happen in the scene.&nbsp;
+
+00:06:31.520 --> 00:06:36.640
+After that, mention your character.&nbsp;
+
+00:06:36.640 --> 00:06:41.000
+For this example, I'm using&nbsp;Omni Flash
+the newest video model.&nbsp;
+
+00:06:41.840 --> 00:06:48.000
+Depending on your settings, you can generate&nbsp;
+videos between 4 and 10 seconds long.
+
+00:06:59.200 --> 00:07:05.040
+Flow gives you two types of references for&nbsp;
+video generation: Frames and Ingredients.&nbsp;
+
+00:07:05.040 --> 00:07:10.320
+Ingredients help keep characters and&nbsp;
+objects consistent across generations.&nbsp;
+
+00:07:10.320 --> 00:07:13.760
+However, they don't lock the&nbsp;
+first frame of your image.&nbsp;
+
+00:07:13.760 --> 00:07:19.440
+If you need the video to start from&nbsp;
+an exact image, use Frames instead.&nbsp;
+
+00:07:19.440 --> 00:07:23.520
+The second method is generating&nbsp;
+a video from a text prompt.&nbsp;
+
+00:07:23.520 --> 00:07:30.000
+For this example, I'm using a multi-shot prompt.
+Mention the character in your prompt to use it.&nbsp;
+
+00:07:45.360 --> 00:07:51.040
+As you can see, the model generates&nbsp;
+multiple shots based on the prompt.&nbsp;
+
+00:07:51.040 --> 00:07:56.800
+You can trim the result or combine it with&nbsp;
+additional clips to create a longer video.&nbsp;
+
+00:07:56.800 --> 00:08:02.560
+At the moment, Omni Flash doesn't support&nbsp;
+extending generated videos directly.&nbsp;
+
+00:08:02.560 --> 00:08:07.280
+Instead, I save the last frame of the&nbsp;
+video and use it to start a new clip.&nbsp;
+
+00:08:07.280 --> 00:08:10.320
+You can save a frame from here.&nbsp;
+
+00:08:10.320 --> 00:08:14.960
+Then drag it into the prompt area and&nbsp;
+write a new prompt for the next scene.&nbsp;
+
+00:08:14.960 --> 00:08:16.515
+Don't forget to mention your character again.
+
+00:08:19.000 --> 00:08:22.000
+Generate the new clip and check the result.
+
+00:08:30.800 --> 00:08:36.000
+If you're happy with it, go back to the first&nbsp;
+video and add the new clip to the timeline.&nbsp;
+
+00:08:56.320 --> 00:09:00.640
+You can trim part of the video to&nbsp;
+make everything feel more natural.&nbsp;
+
+00:09:00.640 --> 00:09:04.960
+When you press Done, Flow saves&nbsp;
+all the clips as a single video.&nbsp;
+
+00:09:04.960 --> 00:09:08.160
+You can find the final&nbsp;
+result in the Scenes section.&nbsp;
+
+00:09:08.160 --> 00:09:14.880
+when you click on it, you can continue editing&nbsp;
+the video or add more clips whenever you want.&nbsp;
+
+00:09:14.880 --> 00:09:19.520
+At the time of recording, all of these&nbsp;
+features are available on the free plan.&nbsp;
+
+00:09:19.520 --> 00:09:23.680
+Give it a try and let me know what you think.
+

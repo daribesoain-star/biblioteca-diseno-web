@@ -1,0 +1,5 @@
+# Cierre 2026-07-16 (verificado con Playwright headless):
+cro|https://cxl.com/blog/ecommerce-conversion-optimization/|404 URL muerta (title: Page not found - CXL)
+newretail|https://www.alizila.com/tag/new-retail/|página tag/listado sin artículo (timeout networkidle, sin main)
+newretail|https://www.mckinsey.com/industries/retail/our-insights/the-next-frontier-of-retail-media|anti-bot (ERR_CONNECTION_CLOSED, requiere mano de Dari)
+newretail|https://www.mckinsey.com/cn/our-insights|anti-bot (mismo dominio McKinsey)

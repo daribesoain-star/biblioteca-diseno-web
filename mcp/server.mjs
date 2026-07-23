@@ -138,6 +138,12 @@ server.registerTool(
         if (JSON.stringify(e).toLowerCase().includes(needle) && e.reglas_para_agentes)
           out.push({ origen: `materias/${e.id}`, materia: e.titulo, reglas: e.reglas_para_agentes, errores_comunes: e.errores_comunes });
       }
+    const v = cargar("videos");
+    if (v)
+      for (const e of v.entradas) {
+        if (JSON.stringify(e).toLowerCase().includes(needle) && e.reglas_para_agentes)
+          out.push({ origen: `videos/${e.id}`, materia: e.titulo, reglas: e.reglas_para_agentes, errores_comunes: e.errores_comunes });
+      }
     return texto(out.length ? out : { resultado: `sin reglas para: ${tema}. Prueba kb_search o un tema más general.` });
   }
 );

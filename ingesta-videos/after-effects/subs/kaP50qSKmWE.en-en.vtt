@@ -1,0 +1,356 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:04.200
+This motion graphics video is the perfect&nbsp;
+example of how some simple effects can really&nbsp;&nbsp;
+
+00:00:04.200 --> 00:00:08.040
+improve a “basic” animation and help to sell&nbsp;
+it as more interesting than what actually is.&nbsp;
+
+00:00:08.040 --> 00:00:11.520
+In this video I want to recreate some&nbsp;
+oh these compositions and share with&nbsp;&nbsp;
+
+00:00:11.520 --> 00:00:13.620
+you some simple effects combinations that we can&nbsp;&nbsp;
+
+00:00:13.620 --> 00:00:17.160
+add to any animation to create that&nbsp;
+extra layer of care and attention..
+
+00:00:19.740 --> 00:00:22.920
+this video in sponsored by celwizard&nbsp;
+frame by frame animation library,&nbsp;&nbsp;
+
+00:00:22.920 --> 00:00:25.200
+but more about that after the tutorial
+
+00:00:25.920 --> 00:00:28.140
+the first effect is deform at impact.
+
+00:00:28.860 --> 00:00:33.060
+I have a normal bouncing ball, but it’s not&nbsp;
+really convincing. It's a little bit stiff,&nbsp;&nbsp;
+
+00:00:33.060 --> 00:00:36.660
+I could improve it with some squash&nbsp;
+and stretch, but sometimes squash and&nbsp;&nbsp;
+
+00:00:36.660 --> 00:00:40.320
+stretch can be a little too cartoony so&nbsp;
+here's an alternative that you can try…
+
+00:00:40.980 --> 00:00:44.280
+create an adjustment layer and&nbsp;
+position it above the element that&nbsp;&nbsp;
+
+00:00:44.280 --> 00:00:50.160
+is going to be deformed by the impact.
+apply the effect “liquify” and select&nbsp;&nbsp;
+
+00:00:50.160 --> 00:00:54.840
+the brush tool, adjust the dimension&nbsp;
+and now you can distort your layer.
+
+00:01:04.020 --> 00:01:08.700
+Then add a keyframe to the distortion&nbsp;
+percentage and set it at 100 at the&nbsp;&nbsp;
+
+00:01:08.700 --> 00:01:11.700
+moment of the impact, set it&nbsp;
+to zero at the frame before,&nbsp;&nbsp;
+
+00:01:23.760 --> 00:01:28.800
+and zero again after more or&nbsp;
+less half second after the impact
+
+00:01:30.720 --> 00:01:34.200
+ok, now I want to smooth the curve&nbsp;
+a little bit and I'm copying these&nbsp;&nbsp;
+
+00:01:34.200 --> 00:01:37.860
+keyframes for every bounce, where&nbsp;
+I've put the keyframe in red.
+
+00:01:52.380 --> 00:02:00.120
+Since the sphere loses kinetic energy&nbsp;
+at every bounce we have to lower the&nbsp;&nbsp;
+
+00:02:00.120 --> 00:02:05.100
+percentage of the distortion. I'm setting&nbsp;
+the second bounce at 70 instead of 100,&nbsp;&nbsp;
+
+00:02:19.620 --> 00:02:21.960
+and the third bounce only at 20.
+
+00:02:35.452 --> 00:02:37.380
+reactive light and shadows..
+
+00:02:37.380 --> 00:02:42.120
+this is a very popular one, maybe because it’s&nbsp;
+really cool while also really easy to make..&nbsp;
+
+00:02:42.120 --> 00:02:46.200
+I have this composition with my sphere&nbsp;
+that moves around this grid of panels.&nbsp;
+
+00:02:46.200 --> 00:02:50.040
+the only animations at the moment&nbsp;
+are just a few position keyframes&nbsp;&nbsp;
+
+00:02:50.040 --> 00:02:53.520
+on the sphere that move between the&nbsp;
+panels.. and i also animated the&nbsp;&nbsp;
+
+00:02:53.520 --> 00:02:56.579
+position of the panels to make some&nbsp;
+room when the sphere passes through.
+
+00:02:56.579 --> 00:02:59.340
+ the first thing to do is to duplicate&nbsp;&nbsp;
+
+00:02:59.340 --> 00:03:04.920
+the composition where you have all of your&nbsp;
+environment and apply the effect RADIAL FAST BLUR
+
+00:03:04.920 --> 00:03:08.820
+then you have to select the center of&nbsp;
+the effect and position it on the sphere,&nbsp;&nbsp;
+
+00:03:10.320 --> 00:03:15.660
+then select the center property pickwhip&nbsp;
+and parent it to the position of the sphere.&nbsp;&nbsp;
+
+00:03:15.660 --> 00:03:19.800
+now the center of the radial fast blur&nbsp;
+will follow the position of the sphere.
+
+00:03:22.020 --> 00:03:26.940
+I want to increase the amount of radial&nbsp;
+blur a little bit, let’say to 90.. and&nbsp;&nbsp;
+
+00:03:26.940 --> 00:03:31.740
+I also want to have it in a uniform color so&nbsp;
+I'm applying a fill effect to make it blue..
+
+00:03:37.680 --> 00:03:45.180
+we are done with the shadows, no&nbsp;
+we need some dynamic light so we&nbsp;&nbsp;
+
+00:03:45.180 --> 00:03:49.680
+can duplicate our environment layer
+apply a brightness effect on it.&nbsp;
+
+00:03:52.860 --> 00:03:56.760
+then we create a new solid layer and&nbsp;
+use a mask to create a faded circle&nbsp;&nbsp;
+
+00:04:10.140 --> 00:04:15.240
+and we’ll use this circle as a matte&nbsp;
+for the brighter environment comp.&nbsp;
+
+00:04:17.040 --> 00:04:20.160
+Then if we parent our faded circle to your sphere,&nbsp;&nbsp;
+
+00:04:20.160 --> 00:04:24.660
+the matte will follow the sphere position and&nbsp;
+that’s it. Now we have a light and shadow system&nbsp;&nbsp;
+
+00:04:24.660 --> 00:04:28.620
+that follows your elements and create a really&nbsp;
+cool interaction with the graphics around it.
+
+00:04:34.620 --> 00:04:37.147
+last effect is revealing lenses
+
+00:04:37.147 --> 00:04:37.410
+I think it’s really cool&nbsp;
+to show something through a&nbsp;&nbsp;
+
+00:04:37.410 --> 00:04:38.460
+sliding of something transparent, like a&nbsp;
+sort of lens that shows a hidden layer.
+
+00:04:38.460 --> 00:04:42.000
+First thing I recreated a similar comp to&nbsp;
+my video reference but you can obviously&nbsp;&nbsp;
+
+00:04:42.000 --> 00:04:48.360
+it in any different type of context.. I have some&nbsp;
+concentric circles, one with a 4 gradient effect.&nbsp;
+
+00:04:50.640 --> 00:04:54.240
+another circle, some graphics and an&nbsp;
+adjustment layer with a blur effect,&nbsp;&nbsp;
+
+00:04:54.240 --> 00:04:58.620
+a brightness affect and some mask.
+i have the usual blue sphere that&nbsp;&nbsp;
+
+00:04:58.620 --> 00:05:03.900
+rotate inside the circle and scale to the center.
+and lastly parented to the sphere i have a comp
+
+00:05:03.900 --> 00:05:08.700
+with an animation of floating object that will&nbsp;
+be the hidden layer that is inside of the sphere.&nbsp;
+
+00:05:08.700 --> 00:05:13.260
+Now we have to set up our lenses&nbsp;
+to reveal the hidden layer…
+
+00:05:13.260 --> 00:05:18.360
+First of all we create a new adjustment layer,&nbsp;
+and we apply a gaussian blur effect on it,&nbsp;&nbsp;
+
+00:05:21.720 --> 00:05:25.980
+we create a circular mask and increase&nbsp;
+the blur effect and we already can start&nbsp;&nbsp;to see that this is the right direction..
+
+00:05:38.287 --> 00:05:45.960
+In my case I want to create a round shape&nbsp;&nbsp;layer because I want a stroke around my lens,&nbsp;
+so I'm parenting a round shape layer to my&nbsp;&nbsp;
+
+00:05:45.960 --> 00:05:49.980
+adjustment layer, but you can skip this part,&nbsp;
+depending on the aesthetic of your project.
+
+00:05:49.980 --> 00:05:55.620
+then we need to create a second circle for the&nbsp;
+second lens and we need to have this new circle&nbsp;&nbsp;
+
+00:05:55.620 --> 00:06:04.080
+cancel out the blur of the first one.
+Like if by aligning the second lens it creates a focus and removes the blurriness of the first lens.
+
+00:06:14.880 --> 00:06:18.715
+so we select the first circle and set the new one as a matte.
+
+00:06:18.715 --> 00:06:22.215
+after that we click on this icon to invert tha matte
+
+00:06:22.215 --> 00:06:25.519
+so that the blurriness of the first lens is only outside the second one
+
+00:06:26.869 --> 00:06:33.070
+ok perfect now we have a second circle that work as revealer, and where it moves cancels&nbsp;&nbsp;the blur effect
+
+00:06:33.960 --> 00:06:37.939
+Now it’s time to play a little bit with the&nbsp;
+position of our lenses,
+
+00:06:37.939 --> 00:06:40.500
+so in this case i’m&nbsp;&nbsp;moving the lens position to the side
+
+00:06:40.500 --> 00:06:45.060
+I want to apply the same position&nbsp;
+animation also to the first lens,&nbsp;&nbsp;
+
+00:06:45.060 --> 00:06:46.920
+add some ease to smooth the movement.
+
+00:06:52.920 --> 00:06:57.480
+along with the position i also&nbsp;
+want to animate the dimension
+
+00:06:57.480 --> 00:07:01.020
+of the lenses so that they scale up&nbsp;
+while moving toward the center
+
+00:07:01.980 --> 00:07:06.600
+I also need to animate the stroke thickness to&nbsp;
+keep it consistent during the scale but that's&nbsp;&nbsp;
+
+00:07:06.600 --> 00:07:11.580
+only because I choose to add that stroke to&nbsp;
+frame my lens and you can totally avoid that..
+
+00:07:13.080 --> 00:07:18.420
+ok we animated the position and scale of the&nbsp;
+lens going into the scene, now we can just&nbsp;&nbsp;
+
+00:07:18.420 --> 00:07:23.640
+copy the keyframe to make them going out.
+I also want to add some rotation around the&nbsp;&nbsp;
+
+00:07:23.640 --> 00:07:27.480
+center so I'm going to add a Null object&nbsp;
+that will be the center of the rotation..&nbsp;
+
+00:07:27.693 --> 00:07:31.800
+Then we can then parent our lenses&nbsp;
+to this new null object and if we&nbsp;&nbsp;
+
+00:07:31.800 --> 00:07:35.700
+keyframe the null rotation giving him a&nbsp;
+couple of rounds the lenses will follow…
+
+00:07:36.660 --> 00:07:39.660
+to create a more dynamic scene we can also set&nbsp;&nbsp;
+
+00:07:39.660 --> 00:07:42.900
+some offset between the scale&nbsp;
+and position of the two lenses.&nbsp;
+
+00:07:42.900 --> 00:07:46.800
+we just need to select all the keyframes&nbsp;
+from the first layer and move them&nbsp;&nbsp;
+
+00:07:46.800 --> 00:07:52.020
+slightly along the timeline.. I would say&nbsp;
+something around just 5 or 10 frames..
+
+00:07:58.140 --> 00:08:01.560
+i want to separate a little bit&nbsp;
+the two layer so i’m adding a&nbsp;&nbsp;
+
+00:08:01.560 --> 00:08:04.200
+drop shadow effect and setting it very light
+
+00:08:11.880 --> 00:08:16.860
+here you go three cool effect that you can try&nbsp;
+when a client ask you for some “wow effect”
+
+00:08:18.716 --> 00:08:21.618
+also this video was sponsored by Celwizard.com,&nbsp;
+that is actually a business of mine,&nbsp;&nbsp;
+
+00:08:21.618 --> 00:08:24.720
+one of the biggest project of my career.. it's&nbsp;
+a library of editable elements for after effect,&nbsp;&nbsp;
+
+00:08:24.720 --> 00:08:28.920
+but the really cool thing is that all&nbsp;
+these elements are not the usual flat&nbsp;&nbsp;
+
+00:08:29.640 --> 00:08:34.140
+motion graphics icons but are animated frame&nbsp;
+by frame, so that they rotate on themself,&nbsp;&nbsp;
+
+00:08:34.140 --> 00:08:38.520
+they morph and they are way more organic&nbsp;
+than other motion graphics preset…&nbsp;
+
+00:08:38.520 --> 00:08:42.900
+They are modular so that they can be combined&nbsp;
+to create different animation sequences and are&nbsp;&nbsp;
+
+00:08:42.900 --> 00:08:46.620
+also fully editable so that you can have them&nbsp;
+match your aesthetic and your visual style.&nbsp;
+
+00:08:46.620 --> 00:08:50.820
+If you are curious check it out at&nbsp;
+celwizard.com, there’s a link in the description.&nbsp;
+
+00:08:51.480 --> 00:08:54.780
+Subscribe for the next tutorial and if&nbsp;
+there is something about animation or&nbsp;&nbsp;
+
+00:08:54.780 --> 00:08:58.560
+motion graphics you would like to see, please let me know in the comments… bye
+ 
+

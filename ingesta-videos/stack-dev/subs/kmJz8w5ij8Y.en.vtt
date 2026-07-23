@@ -1,0 +1,1171 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.720
+In this video, we'll look at
+
+00:00:01.720 --> 00:00:04.879
+15 essential best practices for FastAPI.
+
+00:00:04.879 --> 00:00:07.080
+These are tips every FastAPI developer
+
+00:00:07.080 --> 00:00:09.359
+should know, covering everything from `async`
+
+00:00:09.359 --> 00:00:12.199
+rules and database connections to logging,
+
+00:00:12.199 --> 00:00:14.759
+background tasks, and even deployments.
+
+00:00:14.759 --> 00:00:16.120
+By following these, you'll be able
+
+00:00:16.120 --> 00:00:18.280
+to avoid common mistakes and build
+
+00:00:18.280 --> 00:00:21.039
+applications that are both high-performing and
+
+00:00:21.039 --> 00:00:22.359
+truly production-ready.
+
+00:00:22.359 --> 00:00:24.719
+Number One: Never use async def
+
+00:00:24.719 --> 00:00:26.199
+for blocking operations.
+
+00:00:26.199 --> 00:00:28.399
+In Python, blocking operations are tasks
+
+00:00:28.399 --> 00:00:30.120
+that make your program wait until
+
+00:00:30.120 --> 00:00:32.280
+they're finished before moving on. For
+
+00:00:32.280 --> 00:00:34.399
+example, time.sleep(10) will pause your program
+
+00:00:34.399 --> 00:00:35.640
+for 10 seconds.
+
+00:00:35.640 --> 00:00:38.439
+Other common examples include reading from
+
+00:00:38.439 --> 00:00:39.600
+or writing to files
+
+00:00:39.600 --> 00:00:42.159
+making HTTP requests with libraries like
+
+00:00:42.159 --> 00:00:42.960
+requests
+
+00:00:42.960 --> 00:00:45.399
+or performing database queries using synchronous
+
+00:00:45.399 --> 00:00:48.399
+clients such as MongoClient from pymongo.
+
+00:00:48.399 --> 00:00:50.560
+Now, here's the crucial part: FastAPI
+
+00:00:50.560 --> 00:00:53.799
+runs endpoint functions defined with async
+
+00:00:53.799 --> 00:00:55.079
+def in the main thread.
+
+00:00:55.079 --> 00:00:56.960
+If you put these blocking operations
+
+00:00:56.960 --> 00:00:59.439
+inside an async def function, your
+
+00:00:59.439 --> 00:01:02.000
+application will become unresponsive. It won't
+
+00:01:02.000 --> 00:01:03.799
+be able to process other requests
+
+00:01:03.799 --> 00:01:06.319
+until that blocking operation finishes.
+
+00:01:06.319 --> 00:01:08.439
+The solution is simple: define these
+
+00:01:08.439 --> 00:01:10.519
+functions using a regular def keyword
+
+00:01:10.519 --> 00:01:12.239
+instead of async def.
+
+00:01:12.239 --> 00:01:14.760
+FastAPI is designed to recognize that
+
+00:01:14.760 --> 00:01:16.920
+you're performing blocking operations within these
+
+00:01:16.920 --> 00:01:19.719
+def endpoints and will intelligently run
+
+00:01:19.719 --> 00:01:21.640
+them in separate threads. This way,
+
+00:01:21.640 --> 00:01:24.400
+your FastAPI application remains responsive.
+
+00:01:24.400 --> 00:01:26.640
+Number two, use async friendly code.
+
+00:01:26.640 --> 00:01:28.120
+To get the most performance out
+
+00:01:28.120 --> 00:01:30.920
+of your FastAPI application, use non-blocking
+
+00:01:30.920 --> 00:01:33.159
+libraries as much as possible so
+
+00:01:33.159 --> 00:01:34.840
+you can declare your endpoints as
+
+00:01:34.840 --> 00:01:36.079
+async endpoints.
+
+00:01:36.079 --> 00:01:39.120
+Use asyncio.sleep instead of time.sleep
+
+00:01:39.120 --> 00:01:42.640
+httpx.AsyncClient instead of the requests module
+
+00:01:42.640 --> 00:01:44.519
+and motor instead of pymongo. I
+
+00:01:44.519 --> 00:01:46.000
+hope you get the idea.
+
+00:01:46.000 --> 00:01:48.200
+Number three, don't do heavy computation
+
+00:01:48.200 --> 00:01:50.519
+in FastAPI endpoints, or you'll block
+
+00:01:50.519 --> 00:01:51.400
+your server.
+
+00:01:51.400 --> 00:01:54.359
+FastAPI is built for I/O-bound workloads.
+
+00:01:54.359 --> 00:01:55.959
+So, avoid processing images
+
+00:01:55.959 --> 00:01:56.680
+or videos
+
+00:01:56.680 --> 00:01:58.319
+or running heavy machine learning models
+
+00:01:58.319 --> 00:02:00.120
+directly in your endpoints.
+
+00:02:00.120 --> 00:02:01.719
+The reason is that your application
+
+00:02:01.719 --> 00:02:03.719
+will be unresponsive for as long
+
+00:02:03.719 --> 00:02:04.799
+as the computation runs.
+
+00:02:04.799 --> 00:02:06.079
+What should you do instead?
+
+00:02:06.079 --> 00:02:08.080
+If your ML model is lightweight
+
+00:02:08.080 --> 00:02:11.439
+and inference is fast—say, under 100ms
+
+00:02:11.439 --> 00:02:12.639
+with low traffic
+
+00:02:12.639 --> 00:02:14.800
+or if you're just prototyping, you
+
+00:02:14.800 --> 00:02:16.479
+can get away with using FastAPI
+
+00:02:16.479 --> 00:02:16.879
+directly.
+
+00:02:16.879 --> 00:02:18.919
+But for heavier ML models
+
+00:02:18.919 --> 00:02:21.479
+use dedicated inference engines like Triton,
+
+00:02:21.479 --> 00:02:23.800
+TensorFlow Serving, or TorchServe
+
+00:02:23.800 --> 00:02:25.759
+and then use FastAPI to validate
+
+00:02:25.759 --> 00:02:27.639
+inputs and route the request.
+
+00:02:27.639 --> 00:02:29.960
+For truly long-running computations, use a
+
+00:02:29.960 --> 00:02:31.319
+queue-plus-worker system.
+
+00:02:31.319 --> 00:02:32.800
+When the client sends a request
+
+00:02:32.800 --> 00:02:33.800
+to FastAPI
+
+00:02:33.800 --> 00:02:35.319
+FastAPI enqueues a job to a
+
+00:02:35.319 --> 00:02:37.680
+message broker like RabbitMQ.
+
+00:02:37.680 --> 00:02:40.120
+A separate worker (e.g., Celery) pulls
+
+00:02:40.120 --> 00:02:41.520
+the job from the queue, runs
+
+00:02:41.520 --> 00:02:43.280
+the heavy computation (on CPU or
+
+00:02:43.280 --> 00:02:44.280
+GPU nodes)
+
+00:02:44.280 --> 00:02:45.439
+and stores the result in a
+
+00:02:45.439 --> 00:02:46.120
+database.
+
+00:02:46.120 --> 00:02:47.719
+By the way if your FastAPI
+
+00:02:47.719 --> 00:02:48.319
+app is slow
+
+00:02:48.319 --> 00:02:49.280
+and you'd like me to take
+
+00:02:49.280 --> 00:02:49.520
+a look
+
+00:02:49.520 --> 00:02:51.439
+just send me an email here.
+
+00:02:51.439 --> 00:02:53.400
+Number four, the previous rules for
+
+00:02:53.400 --> 00:02:55.879
+endpoints also applies to Fastapi dependencies.
+
+00:02:55.879 --> 00:02:58.159
+Define your dependency with def if
+
+00:02:58.159 --> 00:03:01.159
+you're doing any blocking operation inside.
+
+00:03:01.159 --> 00:03:02.639
+Use async def if it's light,
+
+00:03:02.639 --> 00:03:05.439
+CPU-bound, and entirely non-blocking.
+
+00:03:05.439 --> 00:03:07.520
+And don't perform any heavy computation
+
+00:03:07.520 --> 00:03:09.080
+inside your dependency.
+
+00:03:09.080 --> 00:03:11.039
+Number Five, Don't make your users
+
+00:03:11.039 --> 00:03:11.319
+wait.
+
+00:03:11.319 --> 00:03:13.240
+When you have operations that don't
+
+00:03:13.240 --> 00:03:14.280
+need to block the client from
+
+00:03:14.280 --> 00:03:15.800
+getting a response—things
+
+00:03:15.800 --> 00:03:17.719
+like sending a confirmation email
+
+00:03:17.719 --> 00:03:18.520
+or logging event
+
+00:03:18.520 --> 00:03:20.400
+you should avoid making the client
+
+00:03:20.400 --> 00:03:21.680
+wait by doing it in the
+
+00:03:21.680 --> 00:03:22.639
+endpoint.
+
+00:03:22.639 --> 00:03:25.439
+Instead, use FastAPI's built-in BackgroundTasks. They're
+
+00:03:25.439 --> 00:03:28.400
+perfect for small, non-critical, "fire-and-forget" tasks.
+
+00:03:28.400 --> 00:03:30.639
+Since these background tasks run within
+
+00:03:30.639 --> 00:03:32.000
+the same event loop as your
+
+00:03:32.000 --> 00:03:33.080
+main application
+
+00:03:33.080 --> 00:03:34.280
+you'll want to follow the same
+
+00:03:34.280 --> 00:03:36.680
+rules for deciding between async def
+
+00:03:36.680 --> 00:03:38.159
+and def when defining them.
+
+00:03:38.159 --> 00:03:40.800
+However, it's crucial to understand the
+
+00:03:40.800 --> 00:03:43.800
+limitations: don't use BackgroundTasks for anything
+
+00:03:43.800 --> 00:03:46.960
+requiring guaranteed delivery, retries, or tasks
+
+00:03:46.960 --> 00:03:48.800
+that run for a long duration.
+
+00:03:48.800 --> 00:03:50.639
+For those more robust needs, a
+
+00:03:50.639 --> 00:03:52.879
+dedicated message queue and worker system
+
+00:03:52.879 --> 00:03:54.520
+(like Celery) is still the superior
+
+00:03:54.520 --> 00:03:56.599
+choice. Remember, if your FastAPI process
+
+00:03:56.599 --> 00:03:58.960
+crashes before a background task completes,
+
+00:03:58.960 --> 00:04:00.639
+that task will fail.
+
+00:04:00.639 --> 00:04:03.280
+Number six, don't expose Fastapi Swagger
+
+00:04:03.280 --> 00:04:05.319
+or ReDoc in production unless your
+
+00:04:05.319 --> 00:04:08.360
+API is public-facing. FastAPI automatically generates
+
+00:04:08.360 --> 00:04:10.120
+these docs, which is great during
+
+00:04:10.120 --> 00:04:10.719
+development.
+
+00:04:10.719 --> 00:04:12.159
+But in production, they can reveal
+
+00:04:12.159 --> 00:04:14.000
+endpoints that might still be incomplete
+
+00:04:14.000 --> 00:04:15.680
+or lack proper security.
+
+00:04:15.680 --> 00:04:17.240
+To prevent this, make sure to
+
+00:04:17.240 --> 00:04:21.480
+set docs_url, redoc_url, and openapi_url to
+
+00:04:21.480 --> 00:04:22.959
+None in your production settings.
+
+00:04:22.959 --> 00:04:25.600
+Create a custom base model and
+
+00:04:25.600 --> 00:04:26.839
+use it to define your Pydantic
+
+00:04:26.839 --> 00:04:27.399
+models.
+
+00:04:27.399 --> 00:04:29.040
+The benefit is that it's easier
+
+00:04:29.040 --> 00:04:30.920
+to manage your global configuration in
+
+00:04:30.920 --> 00:04:31.480
+one place.
+
+00:04:31.480 --> 00:04:32.560
+For example, if you want to
+
+00:04:32.560 --> 00:04:34.680
+return camelCase to the frontend but
+
+00:04:34.680 --> 00:04:36.120
+prefer snake_case in Python, you can
+
+00:04:36.120 --> 00:04:38.360
+set an alias generator to handle
+
+00:04:38.360 --> 00:04:38.600
+that.
+
+00:04:38.600 --> 00:04:40.439
+Another common use case is simplifying
+
+00:04:40.439 --> 00:04:42.720
+JSON encoding when returning data. If
+
+00:04:42.720 --> 00:04:44.680
+you try to return a datetime
+
+00:04:44.680 --> 00:04:46.079
+or Decimal object, you'll get an
+
+00:04:46.079 --> 00:04:48.319
+encoding error. So, define your encoders
+
+00:04:48.319 --> 00:04:48.800
+globally.
+
+00:04:48.800 --> 00:04:50.720
+You can format datetime objects as
+
+00:04:50.720 --> 00:04:51.439
+strings,
+
+00:04:51.439 --> 00:04:52.920
+convert Decimal to float,
+
+00:04:52.920 --> 00:04:54.800
+and if you're working with MongoDB,
+
+00:04:54.800 --> 00:04:56.839
+convert ObjectId instances to strings.
+
+00:04:56.839 --> 00:04:59.120
+Number eight, don't manually construct response
+
+00:04:59.120 --> 00:05:00.920
+models in your FastAPI endpoints.
+
+00:05:00.920 --> 00:05:03.120
+If you've set a response_model, there's
+
+00:05:03.120 --> 00:05:03.959
+no performance benefit
+
+00:05:03.959 --> 00:05:05.959
+to creating that model yourself just
+
+00:05:05.959 --> 00:05:06.800
+to return it.
+
+00:05:06.800 --> 00:05:08.439
+FastAPI will do it anyway.
+
+00:05:08.439 --> 00:05:10.439
+It first converts your return value
+
+00:05:10.439 --> 00:05:11.959
+to a dictionary or a list
+
+00:05:11.959 --> 00:05:14.079
+validates it against the response_model
+
+00:05:14.079 --> 00:05:15.920
+and then encodes it to JSON.
+
+00:05:15.920 --> 00:05:17.959
+Just return a plain dictionary, and
+
+00:05:17.959 --> 00:05:19.120
+let FastAPI take care of the
+
+00:05:19.120 --> 00:05:19.560
+rest.
+
+00:05:19.560 --> 00:05:22.000
+Number nine, validate with Pydantic and
+
+00:05:22.000 --> 00:05:23.639
+Not Your Code.
+
+00:05:23.639 --> 00:05:26.160
+Push as much validation and structure
+
+00:05:26.160 --> 00:05:28.319
+definition as possible into your Pydantic
+
+00:05:28.319 --> 00:05:30.240
+models. That's what they're built for.
+
+00:05:30.240 --> 00:05:31.879
+Don't scatter validation across your route
+
+00:05:31.879 --> 00:05:33.879
+functions with if statements and manual
+
+00:05:33.879 --> 00:05:35.560
+checks. It might seem easier at
+
+00:05:35.560 --> 00:05:37.399
+first, but it quickly turns into
+
+00:05:37.399 --> 00:05:39.480
+a mess. You lose consistent error
+
+00:05:39.480 --> 00:05:42.319
+responses, and clients get cryptic 400s
+
+00:05:42.319 --> 00:05:43.959
+with no clue why their request
+
+00:05:43.959 --> 00:05:45.120
+failed. You end up repeating the
+
+00:05:45.120 --> 00:05:47.439
+same logic in multiple places. And
+
+00:05:47.439 --> 00:05:50.360
+the worst part—your OpenAPI docs won't
+
+00:05:50.360 --> 00:05:52.160
+reflect any of that hidden validation.
+
+00:05:52.160 --> 00:05:54.519
+If Pydantic doesn't support the validation
+
+00:05:54.519 --> 00:05:56.000
+you need, don't write it inside
+
+00:05:56.000 --> 00:05:58.800
+the endpoint function—add custom validation logic
+
+00:05:58.800 --> 00:06:00.920
+directly inside the model instead.
+
+00:06:00.920 --> 00:06:03.639
+Number ten, Use dependencies for DB-based
+
+00:06:03.639 --> 00:06:04.240
+validation.
+
+00:06:04.240 --> 00:06:06.560
+If your validation logic requires a
+
+00:06:06.560 --> 00:06:09.240
+database query—like checking whether a resource
+
+00:06:09.240 --> 00:06:11.000
+belongs to the current user before
+
+00:06:11.000 --> 00:06:13.920
+allowing changes—don't put that logic directly
+
+00:06:13.920 --> 00:06:14.600
+in your endpoint.
+
+00:06:14.600 --> 00:06:16.439
+Instead, create a dependency and use
+
+00:06:16.439 --> 00:06:16.879
+it.
+
+00:06:16.879 --> 00:06:18.000
+The first benefit is that you
+
+00:06:18.000 --> 00:06:20.160
+can easily reuse the dependency across
+
+00:06:20.160 --> 00:06:21.600
+multiple endpoints with just a single
+
+00:06:21.600 --> 00:06:22.560
+line of code.
+
+00:06:22.560 --> 00:06:24.160
+And there's no performance hit, since
+
+00:06:24.160 --> 00:06:26.720
+FastAPI caches dependencies per request
+
+00:06:26.720 --> 00:06:28.959
+your dependency will be evaluated only
+
+00:06:28.959 --> 00:06:30.959
+once in a request. Overall, it's
+
+00:06:30.959 --> 00:06:32.720
+efficient and helps keep your endpoints
+
+00:06:32.720 --> 00:06:33.000
+clean.
+
+00:06:33.000 --> 00:06:35.759
+Number eleven, avoid creating a new
+
+00:06:35.759 --> 00:06:37.879
+database connection in every endpoint.
+
+00:06:37.879 --> 00:06:39.439
+Instead, you should use a connection
+
+00:06:39.439 --> 00:06:41.360
+pool and access these connections through
+
+00:06:41.360 --> 00:06:43.000
+dependency injection. There are two common
+
+00:06:43.000 --> 00:06:44.319
+ways to do this:
+
+00:06:44.319 --> 00:06:45.680
+The first one is storing the
+
+00:06:45.680 --> 00:06:47.399
+db connections pool in the app
+
+00:06:47.399 --> 00:06:49.279
+state. You initialize the connection pool
+
+00:06:49.279 --> 00:06:51.439
+within the lifespan function and then
+
+00:06:51.439 --> 00:06:52.839
+store it in app.state.
+
+00:06:52.839 --> 00:06:54.800
+After that, you create a dependency
+
+00:06:54.800 --> 00:06:56.639
+that retrieves a connection from this
+
+00:06:56.639 --> 00:06:58.800
+pool. You'll typically use an async
+
+00:06:58.800 --> 00:07:00.319
+with block to ensure the connection
+
+00:07:00.319 --> 00:07:02.800
+is properly released. This method makes
+
+00:07:02.800 --> 00:07:04.920
+it straightforward to clean up resources
+
+00:07:04.920 --> 00:07:07.319
+during shutdown, which is particularly helpful
+
+00:07:07.319 --> 00:07:09.319
+if you're working with multiple databases.
+
+00:07:09.319 --> 00:07:12.680
+Second, the legacy global-style pool. This
+
+00:07:12.680 --> 00:07:14.959
+approach involves defining the connection pool
+
+00:07:14.959 --> 00:07:17.199
+as a global variable and populating
+
+00:07:17.199 --> 00:07:19.519
+it during the app's lifespan event.
+
+00:07:19.519 --> 00:07:21.079
+While the first method (storing in
+
+00:07:21.079 --> 00:07:22.519
+app state) is the recommended approach,
+
+00:07:22.519 --> 00:07:25.199
+you'll still frequently encounter the global-style
+
+00:07:25.199 --> 00:07:27.000
+pool in many existing codebases.
+
+00:07:27.000 --> 00:07:29.720
+Number twelve, use the new lifespan
+
+00:07:29.720 --> 00:07:32.000
+event for managing app level resources.
+
+00:07:32.000 --> 00:07:34.720
+It's better to use FastAPI's newer
+
+00:07:34.720 --> 00:07:35.560
+lifespan feature
+
+00:07:35.560 --> 00:07:37.959
+instead of the older @app.on_event("startup") and
+
+00:07:37.959 --> 00:07:40.240
+@app.on_event("shutdown") decorators.
+
+00:07:40.240 --> 00:07:42.519
+Lifespan gives you a single, unified
+
+00:07:42.519 --> 00:07:45.800
+context to handle setup—like initializing database
+
+00:07:45.800 --> 00:07:48.639
+connections, cache clients, or starting background
+
+00:07:48.639 --> 00:07:50.759
+tasks—and cleanup when the app shuts
+
+00:07:50.759 --> 00:07:52.360
+down. It keeps your startup and
+
+00:07:52.360 --> 00:07:54.319
+shutdown logic together, which makes things
+
+00:07:54.319 --> 00:07:55.759
+easier to manage and reduces the
+
+00:07:55.759 --> 00:07:57.639
+chance you'll forget to clean something
+
+00:07:57.639 --> 00:07:57.759
+up.
+
+00:07:57.759 --> 00:07:59.439
+And if startup fails, lifespan still
+
+00:07:59.439 --> 00:08:01.959
+ensures cleanup happens—which isn't guaranteed with
+
+00:08:01.959 --> 00:08:02.680
+the old way.
+
+00:08:02.680 --> 00:08:04.920
+Number thirteen, don't hardcode secrets in
+
+00:08:04.920 --> 00:08:05.480
+your code
+
+00:08:05.480 --> 00:08:07.240
+use env files and config classes
+
+00:08:07.240 --> 00:08:07.959
+to access them.
+
+00:08:07.959 --> 00:08:10.680
+Never hardcode values like passwords, API
+
+00:08:10.680 --> 00:08:12.439
+keys, tokens , et cetera directly
+
+00:08:12.439 --> 00:08:13.680
+in your source code.
+
+00:08:13.680 --> 00:08:16.439
+Instead, use a .env file—and make
+
+00:08:16.439 --> 00:08:16.879
+sure to
+
+00:08:16.879 --> 00:08:19.160
+add .env to your .gitignore so
+
+00:08:19.160 --> 00:08:21.160
+it doesn't end up in version
+
+00:08:21.160 --> 00:08:21.439
+control.
+
+00:08:21.439 --> 00:08:22.800
+It's a good idea to include
+
+00:08:22.800 --> 00:08:25.160
+a .env.example file in your repo.
+
+00:08:25.160 --> 00:08:27.120
+This acts as a template, showing
+
+00:08:27.120 --> 00:08:29.439
+what environment variables are expected, without
+
+00:08:29.439 --> 00:08:31.480
+exposing any real secrets. Keep it
+
+00:08:31.480 --> 00:08:33.159
+up to date—it should closely mirror
+
+00:08:33.159 --> 00:08:34.519
+the actual .env structure.
+
+00:08:34.519 --> 00:08:36.759
+That said, try not to overload
+
+00:08:36.759 --> 00:08:38.279
+your .env file with things that
+
+00:08:38.279 --> 00:08:40.879
+control business logic or complex behavior.
+
+00:08:40.879 --> 00:08:43.559
+Keep it focused on static configuration—stuff
+
+00:08:43.559 --> 00:08:46.039
+like port numbers, DB URLs, credentials,
+
+00:08:46.039 --> 00:08:49.639
+and simple toggles like DEBUG=true. Anything
+
+00:08:49.639 --> 00:08:51.159
+more dynamic is usually better off
+
+00:08:51.159 --> 00:08:52.759
+handled directly in code.
+
+00:08:52.759 --> 00:08:55.759
+Also, avoid accessing os.environ all over
+
+00:08:55.759 --> 00:08:58.360
+your codebase. It gets messy fast.
+
+00:08:58.360 --> 00:08:59.840
+A better approach is to centralize
+
+00:08:59.840 --> 00:09:02.240
+everything in a config class—something like
+
+00:09:02.240 --> 00:09:03.919
+a Settings class. In my projects,
+
+00:09:03.919 --> 00:09:06.600
+I use Pydantic's BaseSettings. It validates
+
+00:09:06.600 --> 00:09:08.440
+all your environment variables upfront. If
+
+00:09:08.440 --> 00:09:10.600
+something's missing or misconfigured, it fails
+
+00:09:10.600 --> 00:09:12.360
+early right when the server starts,
+
+00:09:12.360 --> 00:09:14.320
+and it makes switching between development
+
+00:09:14.320 --> 00:09:16.559
+and production environments a lot smoother.
+
+00:09:16.559 --> 00:09:19.039
+Another solid option is Dynaconf. It's
+
+00:09:19.039 --> 00:09:20.879
+more flexible and supports things like
+
+00:09:20.879 --> 00:09:23.360
+multiple environments and layered settings
+
+00:09:23.360 --> 00:09:26.320
+Number fourteen, use structured logging and
+
+00:09:26.320 --> 00:09:28.919
+avoid relying on simple print statements
+
+00:09:28.919 --> 00:09:29.559
+for logging.
+
+00:09:29.559 --> 00:09:31.600
+The print() function simply doesn't offer
+
+00:09:31.600 --> 00:09:33.440
+the control and flexibility we need.
+
+00:09:33.440 --> 00:09:35.159
+For instance, there's no built-in way
+
+00:09:35.159 --> 00:09:36.679
+to specify a log level or
+
+00:09:36.679 --> 00:09:39.000
+automatically add context like request id,
+
+00:09:39.000 --> 00:09:41.679
+timestamps. Debugging with print() can quickly
+
+00:09:41.679 --> 00:09:43.799
+become a nightmare because you can't
+
+00:09:43.799 --> 00:09:46.080
+easily filter out irrelevant messages—every print
+
+00:09:46.080 --> 00:09:47.960
+statement has the same visibility.
+
+00:09:47.960 --> 00:09:50.240
+Instead, I highly recommend using Python's
+
+00:09:50.240 --> 00:09:52.000
+standard logging module, often paired with
+
+00:09:52.000 --> 00:09:54.840
+powerful libraries like Loguru or Structlog.
+
+00:09:54.840 --> 00:09:56.919
+These libraries allow you to assign
+
+00:09:56.919 --> 00:09:58.759
+a criticality to your logs, whether
+
+00:09:58.759 --> 00:10:00.759
+it's something for debugging, an informational
+
+00:10:00.759 --> 00:10:03.480
+message, a warning, an error, or
+
+00:10:03.480 --> 00:10:05.960
+a critical alert. This becomes incredibly
+
+00:10:05.960 --> 00:10:08.240
+useful when you're running your application.
+
+00:10:08.240 --> 00:10:10.000
+Depending on the environment, whether it's
+
+00:10:10.000 --> 00:10:11.879
+development or production, you can set
+
+00:10:11.879 --> 00:10:13.720
+the log level. For example, you
+
+00:10:13.720 --> 00:10:15.799
+might set it to DEBUG or
+
+00:10:15.799 --> 00:10:17.080
+INFO or ERROR, which gives you
+
+00:10:17.080 --> 00:10:19.600
+fine-grained control over what messages you
+
+00:10:19.600 --> 00:10:19.919
+see.
+
+00:10:19.919 --> 00:10:21.600
+In development, you'll likely want to
+
+00:10:21.600 --> 00:10:22.879
+see everything, so setting the log
+
+00:10:22.879 --> 00:10:24.559
+level to DEBUG is common.
+
+00:10:24.559 --> 00:10:26.919
+However, in production, you'll probably want
+
+00:10:26.919 --> 00:10:28.519
+to set the log level higher,
+
+00:10:28.519 --> 00:10:30.600
+perhaps to INFO or ERROR, based
+
+00:10:30.600 --> 00:10:32.320
+on your specific operational needs.
+
+00:10:32.320 --> 00:10:34.919
+Another incredibly useful practice is to
+
+00:10:34.919 --> 00:10:37.519
+add contextual information to each log,
+
+00:10:37.519 --> 00:10:39.720
+such as request ID. Unlike print()
+
+00:10:39.720 --> 00:10:41.320
+statements, where you'd have to manually
+
+00:10:41.320 --> 00:10:42.799
+add this to every single one
+
+00:10:42.799 --> 00:10:45.159
+libraries like Structlog allow you to
+
+00:10:45.159 --> 00:10:47.320
+create a middleware that stores context
+
+00:10:47.320 --> 00:10:50.159
+variables. These context variables safely pass
+
+00:10:50.159 --> 00:10:51.559
+request-specific data across
+
+00:10:51.559 --> 00:10:52.720
+asynchronous calls.
+
+00:10:52.720 --> 00:10:54.759
+Then, within your logger configuration, you
+
+00:10:54.759 --> 00:10:56.120
+can configure it to include the
+
+00:10:56.120 --> 00:10:58.919
+context variables, time, log level, and
+
+00:10:58.919 --> 00:10:59.960
+the actual message.
+
+00:10:59.960 --> 00:11:01.120
+The request ID is just a
+
+00:11:01.120 --> 00:11:02.879
+simple example. You might also want
+
+00:11:02.879 --> 00:11:05.240
+to log other contextual information like
+
+00:11:05.240 --> 00:11:06.200
+the user ID.
+
+00:11:06.200 --> 00:11:07.840
+Just make sure you're never logging
+
+00:11:07.840 --> 00:11:10.639
+anything sensitive, like database credentials or
+
+00:11:10.639 --> 00:11:11.279
+API keys.
+
+00:11:11.279 --> 00:11:13.440
+Finally, if you're running multiple instances
+
+00:11:13.440 --> 00:11:14.960
+of your application, it's a good
+
+00:11:14.960 --> 00:11:16.759
+practice to centralize your logs. To
+
+00:11:16.759 --> 00:11:18.120
+do this, you'll likely want to
+
+00:11:18.120 --> 00:11:20.799
+push these JSON logs using Filebeat
+
+00:11:20.799 --> 00:11:23.639
+to Elasticsearch for centralized storage and
+
+00:11:23.639 --> 00:11:24.519
+analysis.
+
+00:11:24.519 --> 00:11:26.320
+And for our last point, number
+
+00:11:26.320 --> 00:11:28.120
+15, we're talking about the best
+
+00:11:28.120 --> 00:11:29.960
+practices for deploying FastAPI.
+
+00:11:29.960 --> 00:11:32.320
+For local development, Uvicorn on its
+
+00:11:32.320 --> 00:11:33.879
+own is perfectly fine. However, when
+
+00:11:33.879 --> 00:11:35.519
+you move to a production environment,
+
+00:11:35.519 --> 00:11:37.320
+you should run Uvicorn with Gunicorn,
+
+00:11:37.320 --> 00:11:40.279
+specifically using the UvicornWorker class.
+
+00:11:40.279 --> 00:11:42.519
+Next, make sure to install uvloop
+
+00:11:42.519 --> 00:11:44.960
+in your Python virtual environment. FastAPI
+
+00:11:44.960 --> 00:11:47.000
+will automatically detect and use uvloop
+
+00:11:47.000 --> 00:11:49.960
+instead of the default asyncio event
+
+00:11:49.960 --> 00:11:51.679
+loop, which can provide a significant
+
+00:11:51.679 --> 00:11:52.440
+performance boost.
+
+00:11:52.440 --> 00:11:54.480
+Finally, you'll want to tune the
+
+00:11:54.480 --> 00:11:55.600
+number of workers to match your
+
+00:11:55.600 --> 00:11:57.799
+server's CPU. A common starting point
+
+00:11:57.799 --> 00:11:59.159
+is to set workers equal to
+
+00:11:59.159 --> 00:12:00.879
+(CPU cores * 2) + 1.
+
+00:12:00.879 --> 00:12:02.519
+However, this isn't a hard and
+
+00:12:02.519 --> 00:12:04.399
+fast rule; you should experiment and
+
+00:12:04.399 --> 00:12:06.600
+benchmark to find the optimal number
+
+00:12:06.600 --> 00:12:08.720
+that maximizes your server's performance.
+
+00:12:08.720 --> 00:12:10.399
+If you're looking to scale your
+
+00:12:10.399 --> 00:12:13.279
+application further, consider containerizing it using
+
+00:12:13.279 --> 00:12:13.720
+Docker.
+
+00:12:13.720 --> 00:12:15.320
+Don't forget to drop me an
+
+00:12:15.320 --> 00:12:16.559
+email here, if you want me
+
+00:12:16.559 --> 00:12:18.240
+to review your application
+

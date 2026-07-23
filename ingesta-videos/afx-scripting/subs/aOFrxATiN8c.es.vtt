@@ -1,0 +1,1264 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.240 --> 00:00:02.389 align:start position:0%
+ 
+Hola <00:00:00.525><c>a </c><00:00:00.810><c>todos, </c><00:00:01.095><c>en </c><00:00:01.380><c>este </c><00:00:01.665><c>tutorial </c><00:00:01.950><c>les </c><00:00:02.235><c>mostraré</c>
+
+00:00:02.389 --> 00:00:02.399 align:start position:0%
+Hola a todos, en este tutorial les mostraré
+ 
+
+00:00:02.399 --> 00:00:04.470 align:start position:0%
+Hola a todos, en este tutorial les mostraré
+cómo <00:00:02.583><c>crear </c><00:00:02.767><c>su </c><00:00:02.951><c>propio </c><00:00:03.135><c>panel </c><00:00:03.319><c>de </c><00:00:03.503><c>interfaz </c><00:00:03.687><c>de </c><00:00:03.871><c>usuario </c><00:00:04.055><c>en </c><00:00:04.239><c>After</c>
+
+00:00:04.470 --> 00:00:04.480 align:start position:0%
+cómo crear su propio panel de interfaz de usuario en After
+ 
+
+00:00:04.480 --> 00:00:06.550 align:start position:0%
+cómo crear su propio panel de interfaz de usuario en After
+Effects <00:00:04.720><c>con </c><00:00:04.960><c>todos </c><00:00:05.200><c>sus </c><00:00:05.440><c>ajustes </c><00:00:05.680><c>preestablecidos </c><00:00:05.920><c>favoritos</c>
+
+00:00:06.550 --> 00:00:06.560 align:start position:0%
+Effects con todos sus ajustes preestablecidos favoritos
+ 
+
+00:00:06.560 --> 00:00:08.629 align:start position:0%
+Effects con todos sus ajustes preestablecidos favoritos
+en <00:00:06.834><c>cuestión </c><00:00:07.108><c>de </c><00:00:07.382><c>segundos </c><00:00:07.656><c>y </c><00:00:07.930><c>todo </c><00:00:08.204><c>gratis.  </c><00:00:08.478><c>Aquí</c>
+
+00:00:08.629 --> 00:00:08.639 align:start position:0%
+en cuestión de segundos y todo gratis.  Aquí
+ 
+
+00:00:08.639 --> 00:00:10.870 align:start position:0%
+en cuestión de segundos y todo gratis.  Aquí
+tengo <00:00:08.855><c>mi </c><00:00:09.071><c>panel </c><00:00:09.287><c>de </c><00:00:09.503><c>interfaz </c><00:00:09.719><c>de </c><00:00:09.935><c>usuario </c><00:00:10.151><c>con </c><00:00:10.367><c>mis </c><00:00:10.583><c>efectos.  </c><00:00:10.799><c>Como</c>
+
+00:00:10.870 --> 00:00:10.880 align:start position:0%
+tengo mi panel de interfaz de usuario con mis efectos.  Como
+ 
+
+00:00:10.880 --> 00:00:13.110 align:start position:0%
+tengo mi panel de interfaz de usuario con mis efectos.  Como
+puedes <00:00:11.130><c>ver, </c><00:00:11.380><c>si </c><00:00:11.630><c>hago </c><00:00:11.880><c>clic </c><00:00:12.130><c>en </c><00:00:12.380><c>cualquier </c><00:00:12.630><c>efecto, </c><00:00:12.880><c>se</c>
+
+00:00:13.110 --> 00:00:13.120 align:start position:0%
+puedes ver, si hago clic en cualquier efecto, se
+ 
+
+00:00:13.120 --> 00:00:15.270 align:start position:0%
+puedes ver, si hago clic en cualquier efecto, se
+aplica <00:00:13.423><c>al </c><00:00:13.726><c>instante.  </c><00:00:14.029><c>Ahorra </c><00:00:14.332><c>muchísimo </c><00:00:14.635><c>tiempo</c>
+
+00:00:15.270 --> 00:00:15.280 align:start position:0%
+aplica al instante.  Ahorra muchísimo tiempo
+ 
+
+00:00:15.280 --> 00:00:16.870 align:start position:0%
+aplica al instante.  Ahorra muchísimo tiempo
+y <00:00:15.568><c>seguro </c><00:00:15.856><c>que </c><00:00:16.144><c>estarás </c><00:00:16.432><c>de </c><00:00:16.720><c>acuerdo.</c>
+
+00:00:16.870 --> 00:00:16.880 align:start position:0%
+y seguro que estarás de acuerdo.
+ 
+
+00:00:16.880 --> 00:00:18.310 align:start position:0%
+y seguro que estarás de acuerdo.
+También <00:00:17.062><c>puedes </c><00:00:17.244><c>añadir </c><00:00:17.426><c>un </c><00:00:17.608><c>botón </c><00:00:17.790><c>al </c><00:00:17.972><c>panel </c><00:00:18.154><c>para</c>
+
+00:00:18.310 --> 00:00:18.320 align:start position:0%
+También puedes añadir un botón al panel para
+ 
+
+00:00:18.320 --> 00:00:20.150 align:start position:0%
+También puedes añadir un botón al panel para
+crear <00:00:18.586><c>un </c><00:00:18.852><c>nuevo </c><00:00:19.118><c>sólido.  </c><00:00:19.384><c>Al </c><00:00:19.650><c>hacer </c><00:00:19.916><c>clic,</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+crear un nuevo sólido.  Al hacer clic,
+ 
+
+00:00:20.160 --> 00:00:21.830 align:start position:0%
+crear un nuevo sólido.  Al hacer clic,
+se <00:00:20.386><c>añadirá </c><00:00:20.612><c>automáticamente </c><00:00:20.838><c>una </c><00:00:21.064><c>nueva </c><00:00:21.290><c>capa </c><00:00:21.516><c>sólida</c>
+
+00:00:21.830 --> 00:00:21.840 align:start position:0%
+se añadirá automáticamente una nueva capa sólida
+ 
+
+00:00:21.840 --> 00:00:23.670 align:start position:0%
+se añadirá automáticamente una nueva capa sólida
+.  <00:00:22.179><c>Para </c><00:00:22.518><c>crear </c><00:00:22.857><c>este </c><00:00:23.196><c>panel,</c>
+
+00:00:23.670 --> 00:00:23.680 align:start position:0%
+.  Para crear este panel,
+ 
+
+00:00:23.680 --> 00:00:25.429 align:start position:0%
+.  Para crear este panel,
+necesitarás <00:00:23.946><c>un </c><00:00:24.212><c>pequeño </c><00:00:24.478><c>fragmento </c><00:00:24.744><c>de </c><00:00:25.010><c>código </c><00:00:25.276><c>que</c>
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+necesitarás un pequeño fragmento de código que
+ 
+
+00:00:25.439 --> 00:00:27.189 align:start position:0%
+necesitarás un pequeño fragmento de código que
+ya <00:00:25.759><c>he </c><00:00:26.079><c>preparado </c><00:00:26.399><c>para </c><00:00:26.719><c>ti.  </c><00:00:27.039><c>Puedes</c>
+
+00:00:27.189 --> 00:00:27.199 align:start position:0%
+ya he preparado para ti.  Puedes
+ 
+
+00:00:27.199 --> 00:00:28.550 align:start position:0%
+ya he preparado para ti.  Puedes
+encontrar <00:00:27.319><c>el </c><00:00:27.439><c>código </c><00:00:27.559><c>en </c><00:00:27.679><c>la </c><00:00:27.799><c>descripción </c><00:00:27.919><c>de </c><00:00:28.039><c>este </c><00:00:28.159><c>vídeo</c>
+
+00:00:28.550 --> 00:00:28.560 align:start position:0%
+encontrar el código en la descripción de este vídeo
+ 
+
+00:00:28.560 --> 00:00:29.830 align:start position:0%
+encontrar el código en la descripción de este vídeo
+.  <00:00:28.933><c>Empecemos </c><00:00:29.306><c>con </c><00:00:29.679><c>los</c>
+
+00:00:29.830 --> 00:00:29.840 align:start position:0%
+.  Empecemos con los
+ 
+
+00:00:29.840 --> 00:00:32.069 align:start position:0%
+.  Empecemos con los
+ajustes <00:00:29.981><c>preestablecidos.  </c><00:00:30.122><c>Para </c><00:00:30.263><c>añadir </c><00:00:30.404><c>cualquier </c><00:00:30.545><c>ajuste </c><00:00:30.686><c>preestablecido </c><00:00:30.827><c>a </c><00:00:30.968><c>tu </c><00:00:31.109><c>panel </c><00:00:31.250><c>de </c><00:00:31.391><c>interfaz </c><00:00:31.532><c>de </c><00:00:31.673><c>usuario</c>
+
+00:00:32.069 --> 00:00:32.079 align:start position:0%
+ajustes preestablecidos.  Para añadir cualquier ajuste preestablecido a tu panel de interfaz de usuario
+ 
+
+00:00:32.079 --> 00:00:33.910 align:start position:0%
+ajustes preestablecidos.  Para añadir cualquier ajuste preestablecido a tu panel de interfaz de usuario
+, <00:00:32.415><c>primero </c><00:00:32.751><c>debes </c><00:00:33.087><c>guardar </c><00:00:33.423><c>el </c><00:00:33.759><c>efecto</c>
+
+00:00:33.910 --> 00:00:33.920 align:start position:0%
+, primero debes guardar el efecto
+ 
+
+00:00:33.920 --> 00:00:35.990 align:start position:0%
+, primero debes guardar el efecto
+en <00:00:34.194><c>tu </c><00:00:34.468><c>PC </c><00:00:34.742><c>en </c><00:00:35.016><c>una </c><00:00:35.290><c>ubicación </c><00:00:35.564><c>segura </c><00:00:35.838><c>donde</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+en tu PC en una ubicación segura donde
+ 
+
+00:00:36.000 --> 00:00:37.670 align:start position:0%
+en tu PC en una ubicación segura donde
+no <00:00:36.400><c>se </c><00:00:36.800><c>borre </c><00:00:37.200><c>accidentalmente.  </c><00:00:37.600><c>Por</c>
+
+00:00:37.670 --> 00:00:37.680 align:start position:0%
+no se borre accidentalmente.  Por
+ 
+
+00:00:37.680 --> 00:00:39.590 align:start position:0%
+no se borre accidentalmente.  Por
+ejemplo, <00:00:37.960><c>apliquemos </c><00:00:38.240><c>el </c><00:00:38.520><c>efecto </c><00:00:38.800><c>de </c><00:00:39.080><c>color </c><00:00:39.360><c>Lummetry</c>
+
+00:00:39.590 --> 00:00:39.600 align:start position:0%
+ejemplo, apliquemos el efecto de color Lummetry
+ 
+
+00:00:39.600 --> 00:00:41.590 align:start position:0%
+ejemplo, apliquemos el efecto de color Lummetry
+a <00:00:39.874><c>una </c><00:00:40.148><c>capa.  </c><00:00:40.422><c>Para </c><00:00:40.696><c>guardar </c><00:00:40.970><c>Lummetry </c><00:00:41.244><c>como </c><00:00:41.518><c>un</c>
+
+00:00:41.590 --> 00:00:41.600 align:start position:0%
+a una capa.  Para guardar Lummetry como un
+ 
+
+00:00:41.600 --> 00:00:43.670 align:start position:0%
+a una capa.  Para guardar Lummetry como un
+ajuste <00:00:41.804><c>preestablecido </c><00:00:42.008><c>en </c><00:00:42.212><c>su </c><00:00:42.416><c>PC, </c><00:00:42.620><c>asegúrese </c><00:00:42.824><c>de </c><00:00:43.028><c>que </c><00:00:43.232><c>el </c><00:00:43.436><c>efecto</c>
+
+00:00:43.670 --> 00:00:43.680 align:start position:0%
+ajuste preestablecido en su PC, asegúrese de que el efecto
+ 
+
+00:00:43.680 --> 00:00:45.750 align:start position:0%
+ajuste preestablecido en su PC, asegúrese de que el efecto
+esté <00:00:43.942><c>seleccionado.  </c><00:00:44.204><c>Luego </c><00:00:44.466><c>ve </c><00:00:44.728><c>a </c><00:00:44.990><c>Animación </c><00:00:45.252><c>y </c><00:00:45.514><c>haz</c>
+
+00:00:45.750 --> 00:00:45.760 align:start position:0%
+esté seleccionado.  Luego ve a Animación y haz
+ 
+
+00:00:45.760 --> 00:00:47.750 align:start position:0%
+esté seleccionado.  Luego ve a Animación y haz
+clic <00:00:45.980><c>en </c><00:00:46.200><c>Guardar </c><00:00:46.420><c>ajuste </c><00:00:46.640><c>preestablecido </c><00:00:46.860><c>de </c><00:00:47.080><c>animación.  </c><00:00:47.300><c>Ahora, </c><00:00:47.520><c>elige</c>
+
+00:00:47.750 --> 00:00:47.760 align:start position:0%
+clic en Guardar ajuste preestablecido de animación.  Ahora, elige
+ 
+
+00:00:47.760 --> 00:00:49.190 align:start position:0%
+clic en Guardar ajuste preestablecido de animación.  Ahora, elige
+la <00:00:48.015><c>carpeta </c><00:00:48.270><c>donde </c><00:00:48.525><c>deseas </c><00:00:48.780><c>guardar </c><00:00:49.035><c>el</c>
+
+00:00:49.190 --> 00:00:49.200 align:start position:0%
+la carpeta donde deseas guardar el
+ 
+
+00:00:49.200 --> 00:00:51.990 align:start position:0%
+la carpeta donde deseas guardar el
+ajuste <00:00:49.464><c>preestablecido.  </c><00:00:49.728><c>Ponle </c><00:00:49.992><c>un </c><00:00:50.256><c>nombre.  </c><00:00:50.520><c>Dado </c><00:00:50.784><c>que </c><00:00:51.048><c>se </c><00:00:51.312><c>trata </c><00:00:51.576><c>de </c><00:00:51.840><c>un</c>
+
+00:00:51.990 --> 00:00:52.000 align:start position:0%
+ajuste preestablecido.  Ponle un nombre.  Dado que se trata de un
+ 
+
+00:00:52.000 --> 00:00:53.830 align:start position:0%
+ajuste preestablecido.  Ponle un nombre.  Dado que se trata de un
+efecto <00:00:52.280><c>de </c><00:00:52.560><c>color </c><00:00:52.840><c>de </c><00:00:53.120><c>luminometría, </c><00:00:53.400><c>lo </c><00:00:53.680><c>llamaré</c>
+
+00:00:53.830 --> 00:00:53.840 align:start position:0%
+efecto de color de luminometría, lo llamaré
+ 
+
+00:00:53.840 --> 00:00:56.150 align:start position:0%
+efecto de color de luminometría, lo llamaré
+lmetry <00:00:54.100><c>y </c><00:00:54.360><c>luego </c><00:00:54.620><c>haré </c><00:00:54.880><c>clic </c><00:00:55.140><c>en </c><00:00:55.400><c>guardar.  </c><00:00:55.660><c>Puedes </c><00:00:55.920><c>guardar</c>
+
+00:00:56.150 --> 00:00:56.160 align:start position:0%
+lmetry y luego haré clic en guardar.  Puedes guardar
+ 
+
+00:00:56.160 --> 00:00:57.830 align:start position:0%
+lmetry y luego haré clic en guardar.  Puedes guardar
+tantos <00:00:56.464><c>efectos </c><00:00:56.768><c>como </c><00:00:57.072><c>quieras, </c><00:00:57.376><c>pero </c><00:00:57.680><c>para</c>
+
+00:00:57.830 --> 00:00:57.840 align:start position:0%
+tantos efectos como quieras, pero para
+ 
+
+00:00:57.840 --> 00:00:59.750 align:start position:0%
+tantos efectos como quieras, pero para
+este <00:00:58.192><c>breve </c><00:00:58.544><c>tutorial, </c><00:00:58.896><c>solo </c><00:00:59.248><c>guardaré </c><00:00:59.600><c>el</c>
+
+00:00:59.750 --> 00:00:59.760 align:start position:0%
+este breve tutorial, solo guardaré el
+ 
+
+00:00:59.760 --> 00:01:01.510 align:start position:0%
+este breve tutorial, solo guardaré el
+efecto <00:01:00.079><c>de </c><00:01:00.398><c>luminometría.  </c><00:01:00.717><c>Al </c><00:01:01.036><c>final </c><00:01:01.355><c>del</c>
+
+00:01:01.510 --> 00:01:01.520 align:start position:0%
+efecto de luminometría.  Al final del
+ 
+
+00:01:01.520 --> 00:01:03.349 align:start position:0%
+efecto de luminometría.  Al final del
+vídeo, <00:01:01.840><c>te </c><00:01:02.160><c>mostraré </c><00:01:02.480><c>cómo </c><00:01:02.800><c>añadir </c><00:01:03.120><c>más</c>
+
+00:01:03.349 --> 00:01:03.359 align:start position:0%
+vídeo, te mostraré cómo añadir más
+ 
+
+00:01:03.359 --> 00:01:05.350 align:start position:0%
+vídeo, te mostraré cómo añadir más
+efectos <00:01:03.519><c>a </c><00:01:03.679><c>tu </c><00:01:03.839><c>panel </c><00:01:03.999><c>de </c><00:01:04.159><c>interfaz </c><00:01:04.319><c>de </c><00:01:04.479><c>usuario.  </c><00:01:04.639><c>Una </c><00:01:04.799><c>vez </c><00:01:04.959><c>que </c><00:01:05.119><c>hayas</c>
+
+00:01:05.350 --> 00:01:05.360 align:start position:0%
+efectos a tu panel de interfaz de usuario.  Una vez que hayas
+ 
+
+00:01:05.360 --> 00:01:07.030 align:start position:0%
+efectos a tu panel de interfaz de usuario.  Una vez que hayas
+terminado <00:01:05.586><c>de </c><00:01:05.812><c>guardar </c><00:01:06.038><c>tus </c><00:01:06.264><c>ajustes </c><00:01:06.490><c>preestablecidos, </c><00:01:06.716><c>cierra</c>
+
+00:01:07.030 --> 00:01:07.040 align:start position:0%
+terminado de guardar tus ajustes preestablecidos, cierra
+ 
+
+00:01:07.040 --> 00:01:09.190 align:start position:0%
+terminado de guardar tus ajustes preestablecidos, cierra
+After <00:01:07.346><c>Effects.  </c><00:01:07.652><c>Ahora, </c><00:01:07.958><c>ve </c><00:01:08.264><c>a </c><00:01:08.570><c>la </c><00:01:08.876><c>carpeta</c>
+
+00:01:09.190 --> 00:01:09.200 align:start position:0%
+After Effects.  Ahora, ve a la carpeta
+ 
+
+00:01:09.200 --> 00:01:10.870 align:start position:0%
+After Effects.  Ahora, ve a la carpeta
+donde <00:01:09.560><c>guardaste </c><00:01:09.920><c>el </c><00:01:10.280><c>preajuste, </c><00:01:10.640><c>porque</c>
+
+00:01:10.870 --> 00:01:10.880 align:start position:0%
+donde guardaste el preajuste, porque
+ 
+
+00:01:10.880 --> 00:01:12.870 align:start position:0%
+donde guardaste el preajuste, porque
+en <00:01:11.142><c>un </c><00:01:11.404><c>momento </c><00:01:11.666><c>necesitaremos </c><00:01:11.928><c>copiar </c><00:01:12.190><c>su </c><00:01:12.452><c>ruta.  </c><00:01:12.714><c>Pero</c>
+
+00:01:12.870 --> 00:01:12.880 align:start position:0%
+en un momento necesitaremos copiar su ruta.  Pero
+ 
+
+00:01:12.880 --> 00:01:14.550 align:start position:0%
+en un momento necesitaremos copiar su ruta.  Pero
+primero, <00:01:13.106><c>abramos </c><00:01:13.332><c>el </c><00:01:13.558><c>texto </c><00:01:13.784><c>que </c><00:01:14.010><c>he </c><00:01:14.236><c>creado</c>
+
+00:01:14.550 --> 00:01:14.560 align:start position:0%
+primero, abramos el texto que he creado
+ 
+
+00:01:14.560 --> 00:01:16.550 align:start position:0%
+primero, abramos el texto que he creado
+para <00:01:14.822><c>ti.  </c><00:01:15.084><c>Puedes </c><00:01:15.346><c>encontrar </c><00:01:15.608><c>este </c><00:01:15.870><c>texto </c><00:01:16.132><c>en </c><00:01:16.394><c>la</c>
+
+00:01:16.550 --> 00:01:16.560 align:start position:0%
+para ti.  Puedes encontrar este texto en la
+ 
+
+00:01:16.560 --> 00:01:18.469 align:start position:0%
+para ti.  Puedes encontrar este texto en la
+descripción <00:01:16.813><c>de </c><00:01:17.066><c>este </c><00:01:17.319><c>vídeo.  </c><00:01:17.572><c>En </c><00:01:17.825><c>este </c><00:01:18.078><c>texto,</c>
+
+00:01:18.469 --> 00:01:18.479 align:start position:0%
+descripción de este vídeo.  En este texto,
+ 
+
+00:01:18.479 --> 00:01:20.469 align:start position:0%
+descripción de este vídeo.  En este texto,
+verás <00:01:18.742><c>una </c><00:01:19.005><c>línea </c><00:01:19.268><c>que </c><00:01:19.531><c>dice: </c><00:01:19.794><c>"Esta </c><00:01:20.057><c>es </c><00:01:20.320><c>la</c>
+
+00:01:20.469 --> 00:01:20.479 align:start position:0%
+verás una línea que dice: "Esta es la
+ 
+
+00:01:20.479 --> 00:01:22.310 align:start position:0%
+verás una línea que dice: "Esta es la
+ubicación <00:01:20.759><c>de </c><00:01:21.039><c>mis </c><00:01:21.319><c>preajustes".  </c><00:01:21.599><c>Aquí </c><00:01:21.879><c>es </c><00:01:22.159><c>donde</c>
+
+00:01:22.310 --> 00:01:22.320 align:start position:0%
+ubicación de mis preajustes".  Aquí es donde
+ 
+
+00:01:22.320 --> 00:01:23.590 align:start position:0%
+ubicación de mis preajustes".  Aquí es donde
+debes <00:01:22.506><c>agregar </c><00:01:22.692><c>la </c><00:01:22.878><c>ruta </c><00:01:23.064><c>de </c><00:01:23.250><c>tus </c><00:01:23.436><c>propios</c>
+
+00:01:23.590 --> 00:01:23.600 align:start position:0%
+debes agregar la ruta de tus propios
+ 
+
+00:01:23.600 --> 00:01:25.510 align:start position:0%
+debes agregar la ruta de tus propios
+ajustes <00:01:23.851><c>preestablecidos.  </c><00:01:24.102><c>Simplemente </c><00:01:24.353><c>ve </c><00:01:24.604><c>a </c><00:01:24.855><c>la </c><00:01:25.106><c>carpeta </c><00:01:25.357><c>donde</c>
+
+00:01:25.510 --> 00:01:25.520 align:start position:0%
+ajustes preestablecidos.  Simplemente ve a la carpeta donde
+ 
+
+00:01:25.520 --> 00:01:27.350 align:start position:0%
+ajustes preestablecidos.  Simplemente ve a la carpeta donde
+guardaste <00:01:25.856><c>tus </c><00:01:26.192><c>ajustes </c><00:01:26.528><c>preestablecidos.  </c><00:01:26.864><c>Copia </c><00:01:27.200><c>la</c>
+
+00:01:27.350 --> 00:01:27.360 align:start position:0%
+guardaste tus ajustes preestablecidos.  Copia la
+ 
+
+00:01:27.360 --> 00:01:29.429 align:start position:0%
+guardaste tus ajustes preestablecidos.  Copia la
+ruta <00:01:27.573><c>completa </c><00:01:27.786><c>de </c><00:01:27.999><c>la </c><00:01:28.212><c>carpeta </c><00:01:28.425><c>y </c><00:01:28.638><c>pégala </c><00:01:28.851><c>aquí </c><00:01:29.064><c>mismo </c><00:01:29.277><c>en</c>
+
+00:01:29.429 --> 00:01:29.439 align:start position:0%
+ruta completa de la carpeta y pégala aquí mismo en
+ 
+
+00:01:29.439 --> 00:01:31.270 align:start position:0%
+ruta completa de la carpeta y pégala aquí mismo en
+el <00:01:29.705><c>texto.  </c><00:01:29.971><c>Además, </c><00:01:30.237><c>tómese </c><00:01:30.503><c>un </c><00:01:30.769><c>momento </c><00:01:31.035><c>para</c>
+
+00:01:31.270 --> 00:01:31.280 align:start position:0%
+el texto.  Además, tómese un momento para
+ 
+
+00:01:31.280 --> 00:01:32.390 align:start position:0%
+el texto.  Además, tómese un momento para
+revisar <00:01:31.472><c>el </c><00:01:31.664><c>guion </c><00:01:31.856><c>y </c><00:01:32.048><c>leer </c><00:01:32.240><c>las</c>
+
+00:01:32.390 --> 00:01:32.400 align:start position:0%
+revisar el guion y leer las
+ 
+
+00:01:32.400 --> 00:01:34.469 align:start position:0%
+revisar el guion y leer las
+instrucciones <00:01:32.592><c>para </c><00:01:32.784><c>la </c><00:01:32.976><c>configuración </c><00:01:33.168><c>del </c><00:01:33.360><c>panel </c><00:01:33.552><c>de </c><00:01:33.744><c>la </c><00:01:33.936><c>interfaz </c><00:01:34.128><c>de </c><00:01:34.320><c>usuario.</c>
+
+00:01:34.469 --> 00:01:34.479 align:start position:0%
+instrucciones para la configuración del panel de la interfaz de usuario.
+ 
+
+00:01:34.479 --> 00:01:35.830 align:start position:0%
+instrucciones para la configuración del panel de la interfaz de usuario.
+Puedes <00:01:34.759><c>ajustar </c><00:01:35.039><c>la </c><00:01:35.319><c>configuración </c><00:01:35.599><c>como</c>
+
+00:01:35.830 --> 00:01:35.840 align:start position:0%
+Puedes ajustar la configuración como
+ 
+
+00:01:35.840 --> 00:01:37.590 align:start position:0%
+Puedes ajustar la configuración como
+quieras, <00:01:36.144><c>pero </c><00:01:36.448><c>esta </c><00:01:36.752><c>configuración </c><00:01:37.056><c>predeterminada </c><00:01:37.360><c>funciona</c>
+
+00:01:37.590 --> 00:01:37.600 align:start position:0%
+quieras, pero esta configuración predeterminada funciona
+ 
+
+00:01:37.600 --> 00:01:39.590 align:start position:0%
+quieras, pero esta configuración predeterminada funciona
+bien.  <00:01:37.817><c>Los </c><00:01:38.034><c>he </c><00:01:38.251><c>estado </c><00:01:38.468><c>probando </c><00:01:38.685><c>todo </c><00:01:38.902><c>el </c><00:01:39.119><c>día.</c>
+
+00:01:39.590 --> 00:01:39.600 align:start position:0%
+bien.  Los he estado probando todo el día.
+ 
+
+00:01:39.600 --> 00:01:41.270 align:start position:0%
+bien.  Los he estado probando todo el día.
+También <00:01:39.853><c>verás </c><00:01:40.106><c>líneas </c><00:01:40.359><c>en </c><00:01:40.612><c>el </c><00:01:40.865><c>texto </c><00:01:41.118><c>donde</c>
+
+00:01:41.270 --> 00:01:41.280 align:start position:0%
+También verás líneas en el texto donde
+ 
+
+00:01:41.280 --> 00:01:43.190 align:start position:0%
+También verás líneas en el texto donde
+he <00:01:41.474><c>añadido </c><00:01:41.668><c>botones </c><00:01:41.862><c>etiquetados </c><00:01:42.056><c>como </c><00:01:42.250><c>"nuevo </c><00:01:42.444><c>sólido", </c><00:01:42.638><c>"</c>
+
+00:01:43.190 --> 00:01:43.200 align:start position:0%
+he añadido botones etiquetados como "nuevo sólido", "
+ 
+
+00:01:43.200 --> 00:01:45.270 align:start position:0%
+he añadido botones etiquetados como "nuevo sólido", "
+nueva <00:01:43.485><c>cámara" </c><00:01:43.770><c>y </c><00:01:44.055><c>"fácil </c><00:01:44.340><c>de </c><00:01:44.625><c>usar".  </c><00:01:44.910><c>Si </c><00:01:45.195><c>no</c>
+
+00:01:45.270 --> 00:01:45.280 align:start position:0%
+nueva cámara" y "fácil de usar".  Si no
+ 
+
+00:01:45.280 --> 00:01:46.870 align:start position:0%
+nueva cámara" y "fácil de usar".  Si no
+necesitas <00:01:45.583><c>ninguno </c><00:01:45.886><c>de </c><00:01:46.189><c>estos </c><00:01:46.492><c>botones, </c><00:01:46.795><c>puedes</c>
+
+00:01:46.870 --> 00:01:46.880 align:start position:0%
+necesitas ninguno de estos botones, puedes
+ 
+
+00:01:46.880 --> 00:01:48.389 align:start position:0%
+necesitas ninguno de estos botones, puedes
+eliminarlos <00:01:47.152><c>o </c><00:01:47.424><c>puedes </c><00:01:47.696><c>añadir </c><00:01:47.968><c>tus </c><00:01:48.240><c>propios</c>
+
+00:01:48.389 --> 00:01:48.399 align:start position:0%
+eliminarlos o puedes añadir tus propios
+ 
+
+00:01:48.399 --> 00:01:50.149 align:start position:0%
+eliminarlos o puedes añadir tus propios
+botones <00:01:48.799><c>personalizados </c><00:01:49.199><c>escribiendo </c><00:01:49.599><c>aquí, </c><00:01:49.999><c>como</c>
+
+00:01:50.149 --> 00:01:50.159 align:start position:0%
+botones personalizados escribiendo aquí, como
+ 
+
+00:01:50.159 --> 00:01:51.910 align:start position:0%
+botones personalizados escribiendo aquí, como
+hice <00:01:50.328><c>yo.  </c><00:01:50.497><c>Una </c><00:01:50.666><c>vez </c><00:01:50.835><c>que </c><00:01:51.004><c>hayas </c><00:01:51.173><c>ajustado </c><00:01:51.342><c>el </c><00:01:51.511><c>texto </c><00:01:51.680><c>y</c>
+
+00:01:51.910 --> 00:01:51.920 align:start position:0%
+hice yo.  Una vez que hayas ajustado el texto y
+ 
+
+00:01:51.920 --> 00:01:53.830 align:start position:0%
+hice yo.  Una vez que hayas ajustado el texto y
+añadido <00:01:52.240><c>los </c><00:01:52.560><c>botones, </c><00:01:52.880><c>copia </c><00:01:53.200><c>todo </c><00:01:53.520><c>el</c>
+
+00:01:53.830 --> 00:01:53.840 align:start position:0%
+añadido los botones, copia todo el
+ 
+
+00:01:53.840 --> 00:01:56.630 align:start position:0%
+añadido los botones, copia todo el
+texto.  <00:01:54.205><c>Luego </c><00:01:54.570><c>abre </c><00:01:54.935><c>Chat </c><00:01:55.300><c>GPT.  </c><00:01:55.665><c>Pega </c><00:01:56.030><c>el </c><00:01:56.395><c>texto</c>
+
+00:01:56.630 --> 00:01:56.640 align:start position:0%
+texto.  Luego abre Chat GPT.  Pega el texto
+ 
+
+00:01:56.640 --> 00:01:58.630 align:start position:0%
+texto.  Luego abre Chat GPT.  Pega el texto
+en <00:01:56.946><c>Chat </c><00:01:57.252><c>GPT </c><00:01:57.558><c>y </c><00:01:57.864><c>espera </c><00:01:58.170><c>a </c><00:01:58.476><c>que</c>
+
+00:01:58.630 --> 00:01:58.640 align:start position:0%
+en Chat GPT y espera a que
+ 
+
+00:01:58.640 --> 00:02:01.350 align:start position:0%
+en Chat GPT y espera a que
+genere <00:01:58.773><c>el </c><00:01:58.906><c>script </c><00:01:59.039><c>del </c><00:01:59.172><c>panel </c><00:01:59.305><c>de </c><00:01:59.438><c>la </c><00:01:59.571><c>interfaz </c><00:01:59.704><c>de </c><00:01:59.837><c>usuario.</c>
+
+00:02:01.350 --> 00:02:01.360 align:start position:0%
+genere el script del panel de la interfaz de usuario.
+ 
+
+00:02:01.360 --> 00:02:03.270 align:start position:0%
+genere el script del panel de la interfaz de usuario.
+Una <00:02:01.599><c>vez </c><00:02:01.838><c>finalizado </c><00:02:02.077><c>el </c><00:02:02.316><c>proceso, </c><00:02:02.555><c>copie </c><00:02:02.794><c>el</c>
+
+00:02:03.270 --> 00:02:03.280 align:start position:0%
+Una vez finalizado el proceso, copie el
+ 
+
+00:02:03.280 --> 00:02:05.429 align:start position:0%
+Una vez finalizado el proceso, copie el
+script <00:02:03.463><c>generado </c><00:02:03.646><c>haciendo </c><00:02:03.829><c>clic </c><00:02:04.012><c>en </c><00:02:04.195><c>el </c><00:02:04.378><c>icono </c><00:02:04.561><c>de </c><00:02:04.744><c>copiar.  </c><00:02:04.927><c>A </c><00:02:05.110><c>continuación,</c>
+
+00:02:05.429 --> 00:02:05.439 align:start position:0%
+script generado haciendo clic en el icono de copiar.  A continuación,
+ 
+
+00:02:05.439 --> 00:02:07.350 align:start position:0%
+script generado haciendo clic en el icono de copiar.  A continuación,
+en <00:02:05.775><c>tu </c><00:02:06.111><c>escritorio, </c><00:02:06.447><c>crea </c><00:02:06.783><c>un </c><00:02:07.119><c>nuevo</c>
+
+00:02:07.350 --> 00:02:07.360 align:start position:0%
+en tu escritorio, crea un nuevo
+ 
+
+00:02:07.360 --> 00:02:10.550 align:start position:0%
+en tu escritorio, crea un nuevo
+documento <00:02:07.579><c>de </c><00:02:07.798><c>texto </c><00:02:08.017><c>y </c><00:02:08.236><c>ábrelo.</c>
+
+00:02:10.550 --> 00:02:10.560 align:start position:0%
+documento de texto y ábrelo.
+ 
+
+00:02:10.560 --> 00:02:12.470 align:start position:0%
+documento de texto y ábrelo.
+Pega <00:02:10.839><c>el </c><00:02:11.118><c>script </c><00:02:11.397><c>en </c><00:02:11.676><c>el </c><00:02:11.955><c>documento.  </c><00:02:12.234><c>Luego</c>
+
+00:02:12.470 --> 00:02:12.480 align:start position:0%
+Pega el script en el documento.  Luego
+ 
+
+00:02:12.480 --> 00:02:14.949 align:start position:0%
+Pega el script en el documento.  Luego
+ve <00:02:12.737><c>a </c><00:02:12.994><c>Archivo </c><00:02:13.251><c>y </c><00:02:13.508><c>haz </c><00:02:13.765><c>clic </c><00:02:14.022><c>en </c><00:02:14.279><c>Guardar </c><00:02:14.536><c>como.  </c><00:02:14.793><c>Dale</c>
+
+00:02:14.949 --> 00:02:14.959 align:start position:0%
+ve a Archivo y haz clic en Guardar como.  Dale
+ 
+
+00:02:14.959 --> 00:02:17.750 align:start position:0%
+ve a Archivo y haz clic en Guardar como.  Dale
+un <00:02:15.252><c>nombre </c><00:02:15.545><c>al </c><00:02:15.838><c>archivo </c><00:02:16.131><c>y </c><00:02:16.424><c>asegúrate </c><00:02:16.717><c>de </c><00:02:17.010><c>añadir </c><00:02:17.303><c>JSX </c><00:02:17.596><c>al</c>
+
+00:02:17.750 --> 00:02:17.760 align:start position:0%
+un nombre al archivo y asegúrate de añadir JSX al
+ 
+
+00:02:17.760 --> 00:02:19.750 align:start position:0%
+un nombre al archivo y asegúrate de añadir JSX al
+final <00:02:18.053><c>del </c><00:02:18.346><c>nombre; </c><00:02:18.639><c>de ​​</c><00:02:18.932><c>lo </c><00:02:19.225><c>contrario, </c><00:02:19.518><c>el</c>
+
+00:02:19.750 --> 00:02:19.760 align:start position:0%
+final del nombre; de ​​lo contrario, el
+ 
+
+00:02:19.760 --> 00:02:21.589 align:start position:0%
+final del nombre; de ​​lo contrario, el
+script <00:02:20.040><c>no </c><00:02:20.320><c>funcionará.  </c><00:02:20.600><c>Ya </c><00:02:20.880><c>puedes </c><00:02:21.160><c>cerrar </c><00:02:21.440><c>el</c>
+
+00:02:21.589 --> 00:02:21.599 align:start position:0%
+script no funcionará.  Ya puedes cerrar el
+ 
+
+00:02:21.599 --> 00:02:23.830 align:start position:0%
+script no funcionará.  Ya puedes cerrar el
+documento <00:02:21.873><c>de </c><00:02:22.147><c>texto, </c><00:02:22.421><c>ya </c><00:02:22.695><c>que </c><00:02:22.969><c>no </c><00:02:23.243><c>lo </c><00:02:23.517><c>necesitamos.</c>
+
+00:02:23.830 --> 00:02:23.840 align:start position:0%
+documento de texto, ya que no lo necesitamos.
+ 
+
+00:02:23.840 --> 00:02:26.150 align:start position:0%
+documento de texto, ya que no lo necesitamos.
+Aquí <00:02:24.137><c>tienes </c><00:02:24.434><c>tu </c><00:02:24.731><c>archivo </c><00:02:25.028><c>JSX </c><00:02:25.325><c>y </c><00:02:25.622><c>ya </c><00:02:25.919><c>podemos</c>
+
+00:02:26.150 --> 00:02:26.160 align:start position:0%
+Aquí tienes tu archivo JSX y ya podemos
+ 
+
+00:02:26.160 --> 00:02:28.470 align:start position:0%
+Aquí tienes tu archivo JSX y ya podemos
+instalarlo.  <00:02:26.493><c>Ve </c><00:02:26.826><c>a </c><00:02:27.159><c>tu </c><00:02:27.492><c>disco </c><00:02:27.825><c>C, </c><00:02:28.158><c>abre</c>
+
+00:02:28.470 --> 00:02:28.480 align:start position:0%
+instalarlo.  Ve a tu disco C, abre
+ 
+
+00:02:28.480 --> 00:02:30.869 align:start position:0%
+instalarlo.  Ve a tu disco C, abre
+Archivos <00:02:28.800><c>de </c><00:02:29.120><c>programa, </c><00:02:29.440><c>luego </c><00:02:29.760><c>Adobe, </c><00:02:30.080><c>luego </c><00:02:30.400><c>Adobe</c>
+
+00:02:30.869 --> 00:02:30.879 align:start position:0%
+Archivos de programa, luego Adobe, luego Adobe
+ 
+
+00:02:30.879 --> 00:02:33.030 align:start position:0%
+Archivos de programa, luego Adobe, luego Adobe
+After <00:02:31.145><c>Effects </c><00:02:31.411><c>y </c><00:02:31.677><c>luego </c><00:02:31.943><c>Archivos </c><00:02:32.209><c>de </c><00:02:32.475><c>soporte.</c>
+
+00:02:33.030 --> 00:02:33.040 align:start position:0%
+After Effects y luego Archivos de soporte.
+ 
+
+00:02:33.040 --> 00:02:35.509 align:start position:0%
+After Effects y luego Archivos de soporte.
+Dentro, <00:02:33.360><c>localiza </c><00:02:33.680><c>la </c><00:02:34.000><c>carpeta </c><00:02:34.320><c>de </c><00:02:34.640><c>scripts </c><00:02:34.960><c>y </c><00:02:35.280><c>abre</c>
+
+00:02:35.509 --> 00:02:35.519 align:start position:0%
+Dentro, localiza la carpeta de scripts y abre
+ 
+
+00:02:35.519 --> 00:02:37.830 align:start position:0%
+Dentro, localiza la carpeta de scripts y abre
+la <00:02:35.699><c>carpeta </c><00:02:35.879><c>de </c><00:02:36.059><c>paneles </c><00:02:36.239><c>de </c><00:02:36.419><c>la </c><00:02:36.599><c>interfaz </c><00:02:36.779><c>de </c><00:02:36.959><c>usuario </c><00:02:37.139><c>de </c><00:02:37.319><c>scripts.  </c><00:02:37.499><c>Como </c><00:02:37.679><c>puedes</c>
+
+00:02:37.830 --> 00:02:37.840 align:start position:0%
+la carpeta de paneles de la interfaz de usuario de scripts.  Como puedes
+ 
+
+00:02:37.840 --> 00:02:40.470 align:start position:0%
+la carpeta de paneles de la interfaz de usuario de scripts.  Como puedes
+ver, <00:02:38.058><c>ya </c><00:02:38.276><c>tengo </c><00:02:38.494><c>mi </c><00:02:38.712><c>panel </c><00:02:38.930><c>de </c><00:02:39.148><c>interfaz </c><00:02:39.366><c>de </c><00:02:39.584><c>usuario </c><00:02:39.802><c>aquí, </c><00:02:40.020><c>así </c><00:02:40.238><c>que</c>
+
+00:02:40.470 --> 00:02:40.480 align:start position:0%
+ver, ya tengo mi panel de interfaz de usuario aquí, así que
+ 
+
+00:02:40.480 --> 00:02:42.710 align:start position:0%
+ver, ya tengo mi panel de interfaz de usuario aquí, así que
+lo <00:02:40.768><c>borraré </c><00:02:41.056><c>para </c><00:02:41.344><c>instalar </c><00:02:41.632><c>el </c><00:02:41.920><c>nuevo.</c>
+
+00:02:42.710 --> 00:02:42.720 align:start position:0%
+lo borraré para instalar el nuevo.
+ 
+
+00:02:42.720 --> 00:02:45.030 align:start position:0%
+lo borraré para instalar el nuevo.
+Ahora, <00:02:42.959><c>arrastra </c><00:02:43.198><c>y </c><00:02:43.437><c>suelta </c><00:02:43.676><c>el </c><00:02:43.915><c>archivo </c><00:02:44.154><c>JSX </c><00:02:44.393><c>que </c><00:02:44.632><c>acabamos </c><00:02:44.871><c>de</c>
+
+00:02:45.030 --> 00:02:45.040 align:start position:0%
+Ahora, arrastra y suelta el archivo JSX que acabamos de
+ 
+
+00:02:45.040 --> 00:02:46.949 align:start position:0%
+Ahora, arrastra y suelta el archivo JSX que acabamos de
+guardar <00:02:45.360><c>en </c><00:02:45.680><c>esta </c><00:02:46.000><c>carpeta.  </c><00:02:46.320><c>Una </c><00:02:46.640><c>vez</c>
+
+00:02:46.949 --> 00:02:46.959 align:start position:0%
+guardar en esta carpeta.  Una vez
+ 
+
+00:02:46.959 --> 00:02:52.150 align:start position:0%
+guardar en esta carpeta.  Una vez
+hecho <00:02:47.199><c>esto, </c><00:02:47.439><c>podemos </c><00:02:47.679><c>abrir </c><00:02:47.919><c>After </c><00:02:48.159><c>Effects.</c>
+
+00:02:52.150 --> 00:02:52.160 align:start position:0%
+ 
+ 
+
+00:02:52.160 --> 00:02:54.390 align:start position:0%
+ 
+Y <00:02:52.336><c>aquí </c><00:02:52.512><c>vamos.  </c><00:02:52.688><c>Aquí </c><00:02:52.864><c>está </c><00:02:53.040><c>nuestro </c><00:02:53.216><c>panel </c><00:02:53.392><c>de </c><00:02:53.568><c>interfaz </c><00:02:53.744><c>de </c><00:02:53.920><c>usuario</c>
+
+00:02:54.390 --> 00:02:54.400 align:start position:0%
+Y aquí vamos.  Aquí está nuestro panel de interfaz de usuario
+ 
+
+00:02:54.400 --> 00:02:55.990 align:start position:0%
+Y aquí vamos.  Aquí está nuestro panel de interfaz de usuario
+completo <00:02:54.605><c>con </c><00:02:54.810><c>la </c><00:02:55.015><c>configuración </c><00:02:55.220><c>preestablecida </c><00:02:55.425><c>que </c><00:02:55.630><c>guardamos </c><00:02:55.835><c>y</c>
+
+00:02:55.990 --> 00:02:56.000 align:start position:0%
+completo con la configuración preestablecida que guardamos y
+ 
+
+00:02:56.000 --> 00:02:57.750 align:start position:0%
+completo con la configuración preestablecida que guardamos y
+los <00:02:56.253><c>botones </c><00:02:56.506><c>que </c><00:02:56.759><c>agregamos.  </c><00:02:57.012><c>Si </c><00:02:57.265><c>abres </c><00:02:57.518><c>After</c>
+
+00:02:57.750 --> 00:02:57.760 align:start position:0%
+los botones que agregamos.  Si abres After
+ 
+
+00:02:57.760 --> 00:02:59.589 align:start position:0%
+los botones que agregamos.  Si abres After
+Effects <00:02:57.904><c>y </c><00:02:58.048><c>no </c><00:02:58.192><c>ves </c><00:02:58.336><c>el </c><00:02:58.480><c>panel </c><00:02:58.624><c>de </c><00:02:58.768><c>interfaz </c><00:02:58.912><c>de </c><00:02:59.056><c>usuario </c><00:02:59.200><c>personalizado</c>
+
+00:02:59.589 --> 00:02:59.599 align:start position:0%
+Effects y no ves el panel de interfaz de usuario personalizado
+ 
+
+00:02:59.599 --> 00:03:01.350 align:start position:0%
+Effects y no ves el panel de interfaz de usuario personalizado
+, <00:02:59.799><c>no </c><00:02:59.999><c>te </c><00:03:00.199><c>preocupes.  </c><00:03:00.399><c>Solo </c><00:03:00.599><c>tienes </c><00:03:00.799><c>que </c><00:03:00.999><c>ir </c><00:03:01.199><c>al</c>
+
+00:03:01.350 --> 00:03:01.360 align:start position:0%
+, no te preocupes.  Solo tienes que ir al
+ 
+
+00:03:01.360 --> 00:03:03.430 align:start position:0%
+, no te preocupes.  Solo tienes que ir al
+menú <00:03:01.622><c>de </c><00:03:01.884><c>la </c><00:03:02.146><c>ventana, </c><00:03:02.408><c>desplazarte </c><00:03:02.670><c>hacia </c><00:03:02.932><c>abajo </c><00:03:03.194><c>y</c>
+
+00:03:03.430 --> 00:03:03.440 align:start position:0%
+menú de la ventana, desplazarte hacia abajo y
+ 
+
+00:03:03.440 --> 00:03:05.190 align:start position:0%
+menú de la ventana, desplazarte hacia abajo y
+encontrarás <00:03:03.585><c>tu </c><00:03:03.730><c>panel </c><00:03:03.875><c>de </c><00:03:04.020><c>interfaz </c><00:03:04.165><c>de </c><00:03:04.310><c>usuario </c><00:03:04.455><c>con </c><00:03:04.600><c>el </c><00:03:04.745><c>nombre </c><00:03:04.890><c>que </c><00:03:05.035><c>le</c>
+
+00:03:05.190 --> 00:03:05.200 align:start position:0%
+encontrarás tu panel de interfaz de usuario con el nombre que le
+ 
+
+00:03:05.200 --> 00:03:07.030 align:start position:0%
+encontrarás tu panel de interfaz de usuario con el nombre que le
+diste.  <00:03:05.479><c>Haz </c><00:03:05.758><c>clic </c><00:03:06.037><c>en </c><00:03:06.316><c>él </c><00:03:06.595><c>y </c><00:03:06.874><c>se</c>
+
+00:03:07.030 --> 00:03:07.040 align:start position:0%
+diste.  Haz clic en él y se
+ 
+
+00:03:07.040 --> 00:03:08.869 align:start position:0%
+diste.  Haz clic en él y se
+abrirá <00:03:07.344><c>en </c><00:03:07.648><c>After </c><00:03:07.952><c>Effects.  </c><00:03:08.256><c>Vamos </c><00:03:08.560><c>a</c>
+
+00:03:08.869 --> 00:03:08.879 align:start position:0%
+abrirá en After Effects.  Vamos a
+ 
+
+00:03:08.879 --> 00:03:10.869 align:start position:0%
+abrirá en After Effects.  Vamos a
+probarlo <00:03:09.142><c>rápidamente.  </c><00:03:09.405><c>Haré </c><00:03:09.668><c>clic </c><00:03:09.931><c>en </c><00:03:10.194><c>"Nueva </c><00:03:10.457><c>cámara" </c><00:03:10.720><c>para</c>
+
+00:03:10.869 --> 00:03:10.879 align:start position:0%
+probarlo rápidamente.  Haré clic en "Nueva cámara" para
+ 
+
+00:03:10.879 --> 00:03:13.030 align:start position:0%
+probarlo rápidamente.  Haré clic en "Nueva cámara" para
+ver <00:03:11.092><c>si </c><00:03:11.305><c>se </c><00:03:11.518><c>agrega </c><00:03:11.731><c>una </c><00:03:11.944><c>nueva </c><00:03:12.157><c>capa </c><00:03:12.370><c>de </c><00:03:12.583><c>cámara.  </c><00:03:12.796><c>Como</c>
+
+00:03:13.030 --> 00:03:13.040 align:start position:0%
+ver si se agrega una nueva capa de cámara.  Como
+ 
+
+00:03:13.040 --> 00:03:15.750 align:start position:0%
+ver si se agrega una nueva capa de cámara.  Como
+pueden <00:03:13.239><c>ver, </c><00:03:13.438><c>todo </c><00:03:13.637><c>funciona </c><00:03:13.836><c>a </c><00:03:14.035><c>la </c><00:03:14.234><c>perfección.</c>
+
+00:03:15.750 --> 00:03:15.760 align:start position:0%
+pueden ver, todo funciona a la perfección.
+ 
+
+00:03:15.760 --> 00:03:17.670 align:start position:0%
+pueden ver, todo funciona a la perfección.
+Ahora, <00:03:16.064><c>probemos </c><00:03:16.368><c>la </c><00:03:16.672><c>opción </c><00:03:16.976><c>de </c><00:03:17.280><c>facilidad.</c>
+
+00:03:17.670 --> 00:03:17.680 align:start position:0%
+Ahora, probemos la opción de facilidad.
+ 
+
+00:03:17.680 --> 00:03:19.670 align:start position:0%
+Ahora, probemos la opción de facilidad.
+Añadiré <00:03:18.000><c>rápidamente </c><00:03:18.320><c>fotogramas </c><00:03:18.640><c>clave </c><00:03:18.960><c>y </c><00:03:19.280><c>animaré</c>
+
+00:03:19.670 --> 00:03:19.680 align:start position:0%
+Añadiré rápidamente fotogramas clave y animaré
+ 
+
+00:03:19.680 --> 00:03:22.229 align:start position:0%
+Añadiré rápidamente fotogramas clave y animaré
+la <00:03:20.000><c>posición </c><00:03:20.320><c>en </c><00:03:20.640><c>una </c><00:03:20.960><c>capa.  </c><00:03:21.280><c>A </c><00:03:21.600><c>continuación, </c><00:03:21.920><c>seleccione</c>
+
+00:03:22.229 --> 00:03:22.239 align:start position:0%
+la posición en una capa.  A continuación, seleccione
+ 
+
+00:03:22.239 --> 00:03:24.309 align:start position:0%
+la posición en una capa.  A continuación, seleccione
+ambos <00:03:22.461><c>fotogramas </c><00:03:22.683><c>clave </c><00:03:22.905><c>y </c><00:03:23.127><c>haga </c><00:03:23.349><c>clic </c><00:03:23.571><c>en </c><00:03:23.793><c>"Suavizado </c><00:03:24.015><c>fácil" </c><00:03:24.237><c>en</c>
+
+00:03:24.309 --> 00:03:24.319 align:start position:0%
+ambos fotogramas clave y haga clic en "Suavizado fácil" en
+ 
+
+00:03:24.319 --> 00:03:26.149 align:start position:0%
+ambos fotogramas clave y haga clic en "Suavizado fácil" en
+el <00:03:24.547><c>panel.  </c><00:03:24.775><c>Y </c><00:03:25.003><c>aquí </c><00:03:25.231><c>vamos.  </c><00:03:25.459><c>Funciona </c><00:03:25.687><c>a </c><00:03:25.915><c>la</c>
+
+00:03:26.149 --> 00:03:26.159 align:start position:0%
+el panel.  Y aquí vamos.  Funciona a la
+ 
+
+00:03:26.159 --> 00:03:27.830 align:start position:0%
+el panel.  Y aquí vamos.  Funciona a la
+perfección.  <00:03:26.519><c>Puedes </c><00:03:26.879><c>dejar </c><00:03:27.239><c>el </c><00:03:27.599><c>panel</c>
+
+00:03:27.830 --> 00:03:27.840 align:start position:0%
+perfección.  Puedes dejar el panel
+ 
+
+00:03:27.840 --> 00:03:29.589 align:start position:0%
+perfección.  Puedes dejar el panel
+flotando <00:03:28.128><c>y </c><00:03:28.416><c>arrastrarlo </c><00:03:28.704><c>a </c><00:03:28.992><c>donde </c><00:03:29.280><c>quieras,</c>
+
+00:03:29.589 --> 00:03:29.599 align:start position:0%
+flotando y arrastrarlo a donde quieras,
+ 
+
+00:03:29.599 --> 00:03:31.430 align:start position:0%
+flotando y arrastrarlo a donde quieras,
+o <00:03:29.939><c>puedes </c><00:03:30.279><c>acoplarlo </c><00:03:30.619><c>donde </c><00:03:30.959><c>prefieras.</c>
+
+00:03:31.430 --> 00:03:31.440 align:start position:0%
+o puedes acoplarlo donde prefieras.
+ 
+
+00:03:31.440 --> 00:03:33.190 align:start position:0%
+o puedes acoplarlo donde prefieras.
+Por <00:03:31.743><c>ejemplo, </c><00:03:32.046><c>lo </c><00:03:32.349><c>acoplaré </c><00:03:32.652><c>en </c><00:03:32.955><c>el</c>
+
+00:03:33.190 --> 00:03:33.200 align:start position:0%
+Por ejemplo, lo acoplaré en el
+ 
+
+00:03:33.200 --> 00:03:35.430 align:start position:0%
+Por ejemplo, lo acoplaré en el
+lado <00:03:33.451><c>derecho </c><00:03:33.702><c>de </c><00:03:33.953><c>After </c><00:03:34.204><c>Effects.  </c><00:03:34.455><c>Una </c><00:03:34.706><c>vez </c><00:03:34.957><c>acoplado,</c>
+
+00:03:35.430 --> 00:03:35.440 align:start position:0%
+lado derecho de After Effects.  Una vez acoplado,
+ 
+
+00:03:35.440 --> 00:03:37.270 align:start position:0%
+lado derecho de After Effects.  Una vez acoplado,
+podrás <00:03:35.680><c>acceder </c><00:03:35.920><c>a </c><00:03:36.160><c>todas </c><00:03:36.400><c>tus </c><00:03:36.640><c>herramientas </c><00:03:36.880><c>desde </c><00:03:37.120><c>un</c>
+
+00:03:37.270 --> 00:03:37.280 align:start position:0%
+podrás acceder a todas tus herramientas desde un
+ 
+
+00:03:37.280 --> 00:03:39.110 align:start position:0%
+podrás acceder a todas tus herramientas desde un
+único <00:03:37.615><c>lugar.  </c><00:03:37.950><c>Ahora, </c><00:03:38.285><c>les </c><00:03:38.620><c>mostraré </c><00:03:38.955><c>cómo</c>
+
+00:03:39.110 --> 00:03:39.120 align:start position:0%
+único lugar.  Ahora, les mostraré cómo
+ 
+
+00:03:39.120 --> 00:03:40.949 align:start position:0%
+único lugar.  Ahora, les mostraré cómo
+agregar <00:03:39.333><c>más </c><00:03:39.546><c>ajustes </c><00:03:39.759><c>preestablecidos </c><00:03:39.972><c>a </c><00:03:40.185><c>su </c><00:03:40.398><c>panel.</c>
+
+00:03:40.949 --> 00:03:40.959 align:start position:0%
+agregar más ajustes preestablecidos a su panel.
+ 
+
+00:03:40.959 --> 00:03:43.030 align:start position:0%
+agregar más ajustes preestablecidos a su panel.
+Primero, <00:03:41.279><c>aplica </c><00:03:41.599><c>cualquier </c><00:03:41.919><c>efecto </c><00:03:42.239><c>a </c><00:03:42.559><c>una </c><00:03:42.879><c>capa.</c>
+
+00:03:43.030 --> 00:03:43.040 align:start position:0%
+Primero, aplica cualquier efecto a una capa.
+ 
+
+00:03:43.040 --> 00:03:44.470 align:start position:0%
+Primero, aplica cualquier efecto a una capa.
+Asegúrese <00:03:43.199><c>de </c><00:03:43.358><c>que </c><00:03:43.517><c>el </c><00:03:43.676><c>efecto </c><00:03:43.835><c>esté </c><00:03:43.994><c>seleccionado </c><00:03:44.153><c>en </c><00:03:44.312><c>el</c>
+
+00:03:44.470 --> 00:03:44.480 align:start position:0%
+Asegúrese de que el efecto esté seleccionado en el
+ 
+
+00:03:44.480 --> 00:03:46.390 align:start position:0%
+Asegúrese de que el efecto esté seleccionado en el
+panel <00:03:44.768><c>de </c><00:03:45.056><c>efectos.  </c><00:03:45.344><c>Luego, </c><00:03:45.632><c>ve </c><00:03:45.920><c>al</c>
+
+00:03:46.390 --> 00:03:46.400 align:start position:0%
+panel de efectos.  Luego, ve al
+ 
+
+00:03:46.400 --> 00:03:48.470 align:start position:0%
+panel de efectos.  Luego, ve al
+menú <00:03:46.552><c>de </c><00:03:46.704><c>animación </c><00:03:46.856><c>y </c><00:03:47.008><c>haz </c><00:03:47.160><c>clic </c><00:03:47.312><c>en </c><00:03:47.464><c>guardar </c><00:03:47.616><c>preajuste </c><00:03:47.768><c>de </c><00:03:47.920><c>animación.</c>
+
+00:03:48.470 --> 00:03:48.480 align:start position:0%
+menú de animación y haz clic en guardar preajuste de animación.
+ 
+
+00:03:48.480 --> 00:03:50.070 align:start position:0%
+menú de animación y haz clic en guardar preajuste de animación.
+Guárdalo <00:03:48.752><c>en </c><00:03:49.024><c>la </c><00:03:49.296><c>misma </c><00:03:49.568><c>carpeta </c><00:03:49.840><c>donde</c>
+
+00:03:50.070 --> 00:03:50.080 align:start position:0%
+Guárdalo en la misma carpeta donde
+ 
+
+00:03:50.080 --> 00:03:51.910 align:start position:0%
+Guárdalo en la misma carpeta donde
+tienes <00:03:50.290><c>almacenados </c><00:03:50.500><c>tus </c><00:03:50.710><c>otros </c><00:03:50.920><c>ajustes </c><00:03:51.130><c>preestablecidos </c><00:03:51.340><c>y </c><00:03:51.550><c>asígnale </c><00:03:51.760><c>un</c>
+
+00:03:51.910 --> 00:03:51.920 align:start position:0%
+tienes almacenados tus otros ajustes preestablecidos y asígnale un
+ 
+
+00:03:51.920 --> 00:03:53.589 align:start position:0%
+tienes almacenados tus otros ajustes preestablecidos y asígnale un
+nombre.  <00:03:52.110><c>Para </c><00:03:52.300><c>que </c><00:03:52.490><c>el </c><00:03:52.680><c>nuevo </c><00:03:52.870><c>ajuste </c><00:03:53.060><c>preestablecido </c><00:03:53.250><c>aparezca </c><00:03:53.440><c>en</c>
+
+00:03:53.589 --> 00:03:53.599 align:start position:0%
+nombre.  Para que el nuevo ajuste preestablecido aparezca en
+ 
+
+00:03:53.599 --> 00:03:55.430 align:start position:0%
+nombre.  Para que el nuevo ajuste preestablecido aparezca en
+tu <00:03:53.903><c>panel, </c><00:03:54.207><c>tendrás </c><00:03:54.511><c>que </c><00:03:54.815><c>reiniciar </c><00:03:55.119><c>After</c>
+
+00:03:55.430 --> 00:03:55.440 align:start position:0%
+tu panel, tendrás que reiniciar After
+ 
+
+00:03:55.440 --> 00:03:58.470 align:start position:0%
+tu panel, tendrás que reiniciar After
+Effects.
+
+00:03:58.470 --> 00:03:58.480 align:start position:0%
+ 
+ 
+
+00:03:58.480 --> 00:04:00.309 align:start position:0%
+ 
+Y <00:03:58.731><c>ahí </c><00:03:58.982><c>está.  </c><00:03:59.233><c>Nuestro </c><00:03:59.484><c>nuevo </c><00:03:59.735><c>efecto </c><00:03:59.986><c>se </c><00:04:00.237><c>ha</c>
+
+00:04:00.309 --> 00:04:00.319 align:start position:0%
+Y ahí está.  Nuestro nuevo efecto se ha
+ 
+
+00:04:00.319 --> 00:04:02.149 align:start position:0%
+Y ahí está.  Nuestro nuevo efecto se ha
+añadido <00:04:00.655><c>al </c><00:04:00.991><c>panel.  </c><00:04:01.327><c>Ahora, </c><00:04:01.663><c>probemos </c><00:04:01.999><c>los</c>
+
+00:04:02.149 --> 00:04:02.159 align:start position:0%
+añadido al panel.  Ahora, probemos los
+ 
+
+00:04:02.159 --> 00:04:04.149 align:start position:0%
+añadido al panel.  Ahora, probemos los
+efectos.  <00:04:02.387><c>Es </c><00:04:02.615><c>posible </c><00:04:02.843><c>que </c><00:04:03.071><c>al </c><00:04:03.299><c>principio </c><00:04:03.527><c>no </c><00:04:03.755><c>funcione</c>
+
+00:04:04.149 --> 00:04:04.159 align:start position:0%
+efectos.  Es posible que al principio no funcione
+ 
+
+00:04:04.159 --> 00:04:06.229 align:start position:0%
+efectos.  Es posible que al principio no funcione
+porque <00:04:04.422><c>el </c><00:04:04.685><c>chat </c><00:04:04.948><c>GPT </c><00:04:05.211><c>a </c><00:04:05.474><c>veces </c><00:04:05.737><c>puede </c><00:04:06.000><c>cometer</c>
+
+00:04:06.229 --> 00:04:06.239 align:start position:0%
+porque el chat GPT a veces puede cometer
+ 
+
+00:04:06.239 --> 00:04:07.990 align:start position:0%
+porque el chat GPT a veces puede cometer
+pequeños <00:04:06.467><c>errores </c><00:04:06.695><c>en </c><00:04:06.923><c>el </c><00:04:07.151><c>script.  </c><00:04:07.379><c>Pero </c><00:04:07.607><c>no </c><00:04:07.835><c>se</c>
+
+00:04:07.990 --> 00:04:08.000 align:start position:0%
+pequeños errores en el script.  Pero no se
+ 
+
+00:04:08.000 --> 00:04:10.390 align:start position:0%
+pequeños errores en el script.  Pero no se
+preocupe, <00:04:08.447><c>podemos </c><00:04:08.894><c>solucionarlo </c><00:04:09.341><c>rápidamente.  </c><00:04:09.788><c>Como </c><00:04:10.235><c>puedes</c>
+
+00:04:10.390 --> 00:04:10.400 align:start position:0%
+preocupe, podemos solucionarlo rápidamente.  Como puedes
+ 
+
+00:04:10.400 --> 00:04:12.229 align:start position:0%
+preocupe, podemos solucionarlo rápidamente.  Como puedes
+ver, <00:04:10.600><c>el </c><00:04:10.800><c>efecto </c><00:04:11.000><c>no </c><00:04:11.200><c>se </c><00:04:11.400><c>está </c><00:04:11.600><c>aplicando </c><00:04:11.800><c>a </c><00:04:12.000><c>la</c>
+
+00:04:12.229 --> 00:04:12.239 align:start position:0%
+ver, el efecto no se está aplicando a la
+ 
+
+00:04:12.239 --> 00:04:14.390 align:start position:0%
+ver, el efecto no se está aplicando a la
+capa.  <00:04:12.502><c>Vamos </c><00:04:12.765><c>a </c><00:04:13.028><c>arreglarlo.  </c><00:04:13.291><c>En </c><00:04:13.554><c>realidad </c><00:04:13.817><c>es </c><00:04:14.080><c>muy</c>
+
+00:04:14.390 --> 00:04:14.400 align:start position:0%
+capa.  Vamos a arreglarlo.  En realidad es muy
+ 
+
+00:04:14.400 --> 00:04:17.030 align:start position:0%
+capa.  Vamos a arreglarlo.  En realidad es muy
+fácil.  <00:04:14.699><c>Primero, </c><00:04:14.998><c>vuelve </c><00:04:15.297><c>a </c><00:04:15.596><c>abrir </c><00:04:15.895><c>el </c><00:04:16.194><c>chat </c><00:04:16.493><c>GPT </c><00:04:16.792><c>y</c>
+
+00:04:17.030 --> 00:04:17.040 align:start position:0%
+fácil.  Primero, vuelve a abrir el chat GPT y
+ 
+
+00:04:17.040 --> 00:04:18.469 align:start position:0%
+fácil.  Primero, vuelve a abrir el chat GPT y
+luego <00:04:17.279><c>le </c><00:04:17.518><c>daremos </c><00:04:17.757><c>las </c><00:04:17.996><c>instrucciones </c><00:04:18.235><c>para</c>
+
+00:04:18.469 --> 00:04:18.479 align:start position:0%
+luego le daremos las instrucciones para
+ 
+
+00:04:18.479 --> 00:04:20.069 align:start position:0%
+luego le daremos las instrucciones para
+corregir <00:04:18.684><c>el </c><00:04:18.889><c>script.  </c><00:04:19.094><c>Cuando </c><00:04:19.299><c>hago </c><00:04:19.504><c>clic </c><00:04:19.709><c>en </c><00:04:19.914><c>el</c>
+
+00:04:20.069 --> 00:04:20.079 align:start position:0%
+corregir el script.  Cuando hago clic en el
+ 
+
+00:04:20.079 --> 00:04:22.469 align:start position:0%
+corregir el script.  Cuando hago clic en el
+nombre <00:04:20.349><c>del </c><00:04:20.619><c>preajuste, </c><00:04:20.889><c>los </c><00:04:21.159><c>preajustes </c><00:04:21.429><c>no </c><00:04:21.699><c>se </c><00:04:21.969><c>aplican.  </c><00:04:22.239><c>Pulsa</c>
+
+00:04:22.469 --> 00:04:22.479 align:start position:0%
+nombre del preajuste, los preajustes no se aplican.  Pulsa
+ 
+
+00:04:22.479 --> 00:04:25.670 align:start position:0%
+nombre del preajuste, los preajustes no se aplican.  Pulsa
+Enter <00:04:22.692><c>y </c><00:04:22.905><c>espera </c><00:04:23.118><c>a </c><00:04:23.331><c>que </c><00:04:23.544><c>se </c><00:04:23.757><c>solucione.</c>
+
+00:04:25.670 --> 00:04:25.680 align:start position:0%
+Enter y espera a que se solucione.
+ 
+
+00:04:25.680 --> 00:04:28.310 align:start position:0%
+Enter y espera a que se solucione.
+Incluso <00:04:25.880><c>en </c><00:04:26.080><c>el </c><00:04:26.280><c>chat </c><00:04:26.480><c>de </c><00:04:26.680><c>GPT </c><00:04:26.880><c>les </c><00:04:27.080><c>pareció </c><00:04:27.280><c>gracioso </c><00:04:27.480><c>el </c><00:04:27.680><c>problema,</c>
+
+00:04:28.310 --> 00:04:28.320 align:start position:0%
+Incluso en el chat de GPT les pareció gracioso el problema,
+ 
+
+00:04:28.320 --> 00:04:30.629 align:start position:0%
+Incluso en el chat de GPT les pareció gracioso el problema,
+pero <00:04:28.628><c>ahora </c><00:04:28.936><c>está </c><00:04:29.244><c>solucionado.  </c><00:04:29.552><c>También </c><00:04:29.860><c>puede </c><00:04:30.168><c>preguntarte </c><00:04:30.476><c>si</c>
+
+00:04:30.629 --> 00:04:30.639 align:start position:0%
+pero ahora está solucionado.  También puede preguntarte si
+ 
+
+00:04:30.639 --> 00:04:32.550 align:start position:0%
+pero ahora está solucionado.  También puede preguntarte si
+deseas <00:04:30.999><c>reescribir </c><00:04:31.359><c>todo </c><00:04:31.719><c>el </c><00:04:32.079><c>guion.</c>
+
+00:04:32.550 --> 00:04:32.560 align:start position:0%
+deseas reescribir todo el guion.
+ 
+
+00:04:32.560 --> 00:04:34.390 align:start position:0%
+deseas reescribir todo el guion.
+Así <00:04:32.786><c>que, </c><00:04:33.012><c>asegúrate </c><00:04:33.238><c>de </c><00:04:33.464><c>resaltar </c><00:04:33.690><c>la </c><00:04:33.916><c>pregunta.</c>
+
+00:04:34.390 --> 00:04:34.400 align:start position:0%
+Así que, asegúrate de resaltar la pregunta.
+ 
+
+00:04:34.400 --> 00:04:37.270 align:start position:0%
+Así que, asegúrate de resaltar la pregunta.
+Haz <00:04:34.657><c>clic </c><00:04:34.914><c>en </c><00:04:35.171><c>preguntar </c><00:04:35.428><c>a </c><00:04:35.685><c>chatgpt </c><00:04:35.942><c>y </c><00:04:36.199><c>simplemente </c><00:04:36.456><c>escribe </c><00:04:36.713><c>sí.</c>
+
+00:04:37.270 --> 00:04:37.280 align:start position:0%
+Haz clic en preguntar a chatgpt y simplemente escribe sí.
+ 
+
+00:04:37.280 --> 00:04:39.430 align:start position:0%
+Haz clic en preguntar a chatgpt y simplemente escribe sí.
+Luego, <00:04:37.502><c>espere </c><00:04:37.724><c>a </c><00:04:37.946><c>que </c><00:04:38.168><c>se </c><00:04:38.390><c>genere </c><00:04:38.612><c>su </c><00:04:38.834><c>nuevo </c><00:04:39.056><c>script </c><00:04:39.278><c>actualizado</c>
+
+00:04:39.430 --> 00:04:39.440 align:start position:0%
+Luego, espere a que se genere su nuevo script actualizado
+ 
+
+00:04:39.440 --> 00:04:42.469 align:start position:0%
+Luego, espere a que se genere su nuevo script actualizado
+.  <00:04:39.840><c>Una </c><00:04:40.240><c>vez </c><00:04:40.640><c>que </c><00:04:41.040><c>esté </c><00:04:41.440><c>listo, </c><00:04:41.840><c>copie </c><00:04:42.240><c>de</c>
+
+00:04:42.469 --> 00:04:42.479 align:start position:0%
+.  Una vez que esté listo, copie de
+ 
+
+00:04:42.479 --> 00:04:44.469 align:start position:0%
+.  Una vez que esté listo, copie de
+nuevo <00:04:42.772><c>todo </c><00:04:43.065><c>el </c><00:04:43.358><c>script.  </c><00:04:43.651><c>Ahora, </c><00:04:43.944><c>asegúrate </c><00:04:44.237><c>de</c>
+
+00:04:44.469 --> 00:04:44.479 align:start position:0%
+nuevo todo el script.  Ahora, asegúrate de
+ 
+
+00:04:44.479 --> 00:04:46.469 align:start position:0%
+nuevo todo el script.  Ahora, asegúrate de
+cerrar <00:04:44.785><c>After </c><00:04:45.091><c>Effects.  </c><00:04:45.397><c>Luego, </c><00:04:45.703><c>ve </c><00:04:46.009><c>a </c><00:04:46.315><c>la</c>
+
+00:04:46.469 --> 00:04:46.479 align:start position:0%
+cerrar After Effects.  Luego, ve a la
+ 
+
+00:04:46.479 --> 00:04:48.390 align:start position:0%
+cerrar After Effects.  Luego, ve a la
+carpeta <00:04:46.631><c>de </c><00:04:46.783><c>paneles </c><00:04:46.935><c>de </c><00:04:47.087><c>la </c><00:04:47.239><c>interfaz </c><00:04:47.391><c>de </c><00:04:47.543><c>usuario </c><00:04:47.695><c>del </c><00:04:47.847><c>script </c><00:04:47.999><c>donde </c><00:04:48.151><c>guardaste</c>
+
+00:04:48.390 --> 00:04:48.400 align:start position:0%
+carpeta de paneles de la interfaz de usuario del script donde guardaste
+ 
+
+00:04:48.400 --> 00:04:50.710 align:start position:0%
+carpeta de paneles de la interfaz de usuario del script donde guardaste
+el <00:04:48.573><c>archivo </c><00:04:48.746><c>JSX.  </c><00:04:48.919><c>Haz </c><00:04:49.092><c>clic </c><00:04:49.265><c>con </c><00:04:49.438><c>el </c><00:04:49.611><c>botón </c><00:04:49.784><c>derecho </c><00:04:49.957><c>en </c><00:04:50.130><c>el </c><00:04:50.303><c>archivo </c><00:04:50.476><c>y</c>
+
+00:04:50.710 --> 00:04:50.720 align:start position:0%
+el archivo JSX.  Haz clic con el botón derecho en el archivo y
+ 
+
+00:04:50.720 --> 00:04:52.710 align:start position:0%
+el archivo JSX.  Haz clic con el botón derecho en el archivo y
+selecciona <00:04:50.971><c>"Editar </c><00:04:51.222><c>en </c><00:04:51.473><c>el </c><00:04:51.724><c>Bloc </c><00:04:51.975><c>de </c><00:04:52.226><c>notas".  </c><00:04:52.477><c>Borra</c>
+
+00:04:52.710 --> 00:04:52.720 align:start position:0%
+selecciona "Editar en el Bloc de notas".  Borra
+ 
+
+00:04:52.720 --> 00:04:54.790 align:start position:0%
+selecciona "Editar en el Bloc de notas".  Borra
+todo <00:04:52.971><c>el </c><00:04:53.222><c>script </c><00:04:53.473><c>del </c><00:04:53.724><c>archivo </c><00:04:53.975><c>y </c><00:04:54.226><c>luego </c><00:04:54.477><c>pega</c>
+
+00:04:54.790 --> 00:04:54.800 align:start position:0%
+todo el script del archivo y luego pega
+ 
+
+00:04:54.800 --> 00:04:56.629 align:start position:0%
+todo el script del archivo y luego pega
+el <00:04:55.009><c>nuevo </c><00:04:55.218><c>script </c><00:04:55.427><c>que </c><00:04:55.636><c>acabas </c><00:04:55.845><c>de </c><00:04:56.054><c>copiar.  </c><00:04:56.263><c>Ve </c><00:04:56.472><c>a</c>
+
+00:04:56.629 --> 00:04:56.639 align:start position:0%
+el nuevo script que acabas de copiar.  Ve a
+ 
+
+00:04:56.639 --> 00:04:59.670 align:start position:0%
+el nuevo script que acabas de copiar.  Ve a
+Archivo <00:04:56.872><c>y </c><00:04:57.105><c>haz </c><00:04:57.338><c>clic </c><00:04:57.571><c>en </c><00:04:57.804><c>Guardar.  </c><00:04:58.037><c>Cierra </c><00:04:58.270><c>el </c><00:04:58.503><c>Bloc </c><00:04:58.736><c>de </c><00:04:58.969><c>notas </c><00:04:59.202><c>y </c><00:04:59.435><c>luego</c>
+
+00:04:59.670 --> 00:04:59.680 align:start position:0%
+Archivo y haz clic en Guardar.  Cierra el Bloc de notas y luego
+ 
+
+00:04:59.680 --> 00:05:02.550 align:start position:0%
+Archivo y haz clic en Guardar.  Cierra el Bloc de notas y luego
+abre <00:05:00.133><c>After </c><00:05:00.586><c>Effects.  </c><00:05:01.039><c>Ahora, </c><00:05:01.492><c>vamos </c><00:05:01.945><c>a </c><00:05:02.398><c>probarlo</c>
+
+00:05:02.550 --> 00:05:02.560 align:start position:0%
+abre After Effects.  Ahora, vamos a probarlo
+ 
+
+00:05:02.560 --> 00:05:04.469 align:start position:0%
+abre After Effects.  Ahora, vamos a probarlo
+.
+
+00:05:04.469 --> 00:05:04.479 align:start position:0%
+.
+ 
+
+00:05:04.479 --> 00:05:06.870 align:start position:0%
+.
+Y <00:05:04.799><c>aquí </c><00:05:05.119><c>vamos.</c>
+
+00:05:06.870 --> 00:05:06.880 align:start position:0%
+Y aquí vamos.
+ 
+
+00:05:06.880 --> 00:05:08.629 align:start position:0%
+Y aquí vamos.
+Todo <00:05:07.279><c>funciona </c><00:05:07.678><c>perfectamente.  </c><00:05:08.077><c>Acabamos </c><00:05:08.476><c>de</c>
+
+00:05:08.629 --> 00:05:08.639 align:start position:0%
+Todo funciona perfectamente.  Acabamos de
+ 
+
+00:05:08.639 --> 00:05:10.550 align:start position:0%
+Todo funciona perfectamente.  Acabamos de
+crear <00:05:08.816><c>nuestro </c><00:05:08.993><c>propio </c><00:05:09.170><c>panel </c><00:05:09.347><c>de </c><00:05:09.524><c>interfaz </c><00:05:09.701><c>de </c><00:05:09.878><c>usuario </c><00:05:10.055><c>tipo </c><00:05:10.232><c>plugin</c>
+
+00:05:10.550 --> 00:05:10.560 align:start position:0%
+crear nuestro propio panel de interfaz de usuario tipo plugin
+ 
+
+00:05:10.560 --> 00:05:12.790 align:start position:0%
+crear nuestro propio panel de interfaz de usuario tipo plugin
+en <00:05:11.039><c>After </c><00:05:11.518><c>Effects, </c><00:05:11.997><c>completamente </c><00:05:12.476><c>gratis</c>
+
+00:05:12.790 --> 00:05:12.800 align:start position:0%
+en After Effects, completamente gratis
+ 
+
+00:05:12.800 --> 00:05:14.469 align:start position:0%
+en After Effects, completamente gratis
+y <00:05:13.017><c>en </c><00:05:13.234><c>tan </c><00:05:13.451><c>solo </c><00:05:13.668><c>unos </c><00:05:13.885><c>minutos.  </c><00:05:14.102><c>Espero </c><00:05:14.319><c>que</c>
+
+00:05:14.469 --> 00:05:14.479 align:start position:0%
+y en tan solo unos minutos.  Espero que
+ 
+
+00:05:14.479 --> 00:05:16.629 align:start position:0%
+y en tan solo unos minutos.  Espero que
+este <00:05:14.699><c>tutorial </c><00:05:14.919><c>te </c><00:05:15.139><c>haya </c><00:05:15.359><c>resultado </c><00:05:15.579><c>útil.  </c><00:05:15.799><c>Si </c><00:05:16.019><c>lo </c><00:05:16.239><c>hiciste,</c>
+
+00:05:16.629 --> 00:05:16.639 align:start position:0%
+este tutorial te haya resultado útil.  Si lo hiciste,
+ 
+
+00:05:16.639 --> 00:05:18.390 align:start position:0%
+este tutorial te haya resultado útil.  Si lo hiciste,
+no <00:05:16.892><c>olvides </c><00:05:17.145><c>darle </c><00:05:17.398><c>"Me </c><00:05:17.651><c>gusta".  </c><00:05:17.904><c>Gracias </c><00:05:18.157><c>por</c>
+
+00:05:18.390 --> 00:05:18.400 align:start position:0%
+no olvides darle "Me gusta".  Gracias por
+ 
+
+00:05:18.400 --> 00:05:19.909 align:start position:0%
+no olvides darle "Me gusta".  Gracias por
+ver <00:05:18.569><c>el </c><00:05:18.738><c>vídeo </c><00:05:18.907><c>y </c><00:05:19.076><c>nos </c><00:05:19.245><c>vemos </c><00:05:19.414><c>en </c><00:05:19.583><c>el </c><00:05:19.752><c>próximo</c>
+
+00:05:19.909 --> 00:05:19.919 align:start position:0%
+ver el vídeo y nos vemos en el próximo
+ 
+
+00:05:19.919 --> 00:05:22.919 align:start position:0%
+ver el vídeo y nos vemos en el próximo
+tutorial.
+

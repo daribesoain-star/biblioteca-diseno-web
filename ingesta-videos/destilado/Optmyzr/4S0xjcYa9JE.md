@@ -1,0 +1,26 @@
+# Everything You Need to Manage Your Q4 Shopping Campaigns for 2023
+**Fuente:** Optmyzr | https://youtu.be/4S0xjcYa9JE
+
+## Qué enseña
+Este video enseña a usar las herramientas de Optmyzr para auditar feeds de productos, crear y gestionar campañas de Shopping y Performance Max basadas en rendimiento, y automatizar la exclusión de productos o términos de búsqueda de bajo rendimiento durante la temporada de Q4. Se enfoca en preparar el feed, segmentar campañas por rendimiento y usar reglas automatizadas para mantener la eficiencia.
+
+## Lecciones accionables
+- **Auditar el feed con "Shopping Feed Audit":** Desde el dashboard de Optmyzr, ve a "Audits and insights" > "Shopping feed audits". Crea una plantilla seleccionando qué verificar: "product disapprovals" con razón, "expensive product groups/listing groups", "price competitiveness" contra "benchmark price" de Google, y "basic product data" vacío. Guarda la plantilla, prográmala para recibirla por correo periódicamente, o ejecútala inmediatamente. Exporta resultados como PDF o Excel para compartir.
+- **Crear campañas Performance Max por rendimiento:** En "Management and optimizations" > "Shopping and PMax retail", haz clic en "Create new campaign". Selecciona el merchant feed y elige "Create multiple campaigns by performance". Haz clic en "Customize performance buckets". Define criterios: para productos de bajo rendimiento usa "Impressions is low" y "non-converting products", asigna bajo presupuesto y "Target ROAS" alto. Para productos cerca del objetivo usa "ROAS is close to Target ROAS". Para los mejores usa "ROAS is high" con más presupuesto y ROAS variable. Añade un "catch-all campaign" para productos sin datos. Guarda y luego añade niveles adicionales como "asset groups" o "ad groups by brand". La estructura termina en "listing group" o "product group" con "item ID". Previsualiza y haz clic en "Upload campaigns" para enviar a Google Ads.
+- **Automatizar actualizaciones con el "Refresher":** Después de subir las campañas, activa el "Refresher" para que revise diaria o semanalmente el contenido del merchant feed. Optimizer eliminará productos que ya no estén en el feed y añadirá los nuevos automáticamente, manteniendo la estructura de campañas sincronizada sin cambios manuales.
+- **Excluir términos de búsqueda no convertidores con el "Rule Engine":** Ve al "Rule Engine" y selecciona "Create a rule strategy" desde la biblioteca de estrategias preconstruidas. Busca en la sección "Shopping campaigns". Elige una estrategia que encuentre "non-converting search queries" con alto costo y sin conversiones o con ROAS muy bajo. Personaliza la lógica (umbrales de costo, período de tiempo). Configúrala para que solo envíe notificaciones ("send notifications") en lugar de aplicar cambios automáticos. Revisa las sugerencias en Optimizer y aplica los cambios manualmente.
+- **Excluir listing groups de bajo rendimiento en PMax:** En el "Rule Engine", crea una estrategia que identifique "listing groups that are top spenders without driving conversions" dentro de campañas Performance Max. Decide si excluir esos listing groups automáticamente o solo recibir una alerta para revisión manual.
+
+## Reglas para agentes
+- Usa "Shopping Feed Audit" antes de lanzar cualquier campaña nueva en Q4 para verificar disapprovals, precios no competitivos y datos faltantes.
+- Cuando crees campañas por rendimiento, define siempre un "catch-all campaign" para productos sin datos históricos, así reciben tráfico y generan métricas para futura reclasificación.
+- Activa el "Refresher" con frecuencia diaria o semanal después de subir campañas para mantener la sincronización automática con el feed.
+- Para términos de búsqueda no convertidores, configura la regla en modo "notifications only" antes de aplicar cambios automáticos, para revisar sugerencias manualmente.
+- Nunca uses ROAS como única métrica para segmentar campañas; combínala con datos de margen de beneficio de tu negocio para evitar decisiones que perjudiquen la rentabilidad.
+
+## Errores comunes que evita o menciona
+- **No auditar el feed antes de Q4:** El video enfatiza que "audit your feed" es el mantra para prepararse, ya que productos rechazados o datos incompletos arruinan campañas.
+- **Usar solo ROAS sin considerar ganancias:** Se advierte que enfocarse solo en ROAS puede "shoot yourself in the foot" porque ignora la diferencia entre ingresos y beneficio real.
+- **Depender de soluciones de feed suplementarias complejas:** La nueva función de campañas por rendimiento evita la necesidad de integraciones técnicas costosas, facilitando la escalabilidad.
+- **No tener un catch-all campaign:** Si solo creas campañas para productos con rendimiento conocido, los productos nuevos sin datos nunca recibirán tráfico ni generarán métricas para ser reclasificados.
+- **Aplicar automatizaciones sin revisión previa:** El video recomienda empezar con notificaciones en lugar de cambios automáticos para evitar errores, especialmente en cuentas nuevas o con datos inconsistentes.

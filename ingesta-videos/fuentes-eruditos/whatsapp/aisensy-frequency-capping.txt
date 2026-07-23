@@ -1,0 +1,197 @@
+Meta's Frequency Capping for WhatsApp Marketing (2026 Guide)
+Pricing
+Product
+Features
+Industries
+WhatsApp AI Agents
+AI Meta Ads Manager
+AI WhatsApp Chatbot
+Resources
+Learning Hub
+Blog
+Whatsapp Business API
+API Docs
+Case Studies
+Template Library
+Become a Partner
+Download on Android
+Download on ioS
+Youtube
+Integrations
+App Marketplace
+Whatsapp Links
+Whatsapp Button
+Login
+Signup For FREE
+Pricing
+Product
+Features
+Industries
+WhatsApp AI Agents
+AI Meta Ads Manager
+AI WhatsApp Chatbot
+Resources
+Learning Hub
+Blog
+Whatsapp Business API
+API Docs
+Case Studies
+Template Library
+Become a Partner
+Download on Android
+Download on ioS
+Youtube
+Integrations
+App Marketplace
+Whatsapp Links
+Whatsapp Button
+Login
+Signup For FREE
+Meta's Frequency Capping for WhatsApp Marketing (2026 Guide)
+published on 02 June 2026
+Summarise this post with:
+Sending marketing messages on WhatsApp using WhatsApp Business API but receiving a high failure rate? Getting errors like “Unhealthy system activity” or “Spam rate limit hit” even after using approved WhatsApp templates?
+Don't worry! You're not the only one.
+All businesses sending messages to users across the globe are facing this issue of failed marketing messages termed as frequency capping by Meta.
+Meta introduced frequency capping to prevent WhatsApp users from receiving too many promotional messages in a short period. As a result, even businesses sending messages to opt-in users may experience failed broadcasts and lower delivery rates.
+In the message failure reason of some contacts, you will see the contact marked with " Unhealthy system activity " indicating that the message failed to send due to the frequency capping placed by Meta.
+What is Meta's Frequency Capping?
+Meta Frequency capping is an update rolled out by Meta to protect WhatsApp users from spam messages, ensuring that users receive a limited number of promotional messages on WhatsApp over a defined timeframe.
+For example, let's say a user is receiving promotional messages from various businesses within a rolling period of 24-48 hours. However, the user is not responding or engaging with those messages. In this case, after a certain message limit (e.g. 15), the new promotional messages sent by these businesses will fail to reach the user.
+The main goal of this feature is to prevent message fatigue and build a positive experience on WhatsApp, allowing users to receive fewer but more meaningful messages.
+Here's the official documentation by Meta regarding frequency capping.
+As per Meta,
+WhatsApp may limit the number of marketing template messages a person receives from any business in a given period of time, starting with a small number of conversations that are less likely to be read. Soon, we will also start to deliver fewer marketing conversations to those users who are less likely to engage with them.
+Official documentation by Meta Meta states that since launching frequency capping, they have seen significant improvements in user read rates for WhatsApp messages. This limit is helping WhatsApp users find business messaging more valuable without making them feel like they receive too many business messages.
+Note : Frequency capping is a per-user limit, not a per-business limit, meaning this limitation only applies to user accounts, not businesses sending these messages.
+What Does “Unhealthy System Activity” Mean in WhatsApp API?
+If your WhatsApp marketing messages are failing with the error “Unhealthy system activity,” it usually indicates that Meta has temporarily restricted the delivery of your promotional messages due to frequency capping.
+This does not necessarily mean your WhatsApp number is banned or your account has violated WhatsApp policies. Instead, it means the user you are trying to reach has likely received a high number of marketing messages from multiple businesses within a short time period.
+To maintain a healthy messaging ecosystem and prevent spam, Meta may stop delivering additional promotional messages to that user temporarily. As a result, businesses may notice:
+failed WhatsApp broadcasts,
+lower delivery rates,
+or “Spam rate limit hit” errors inside WhatsApp API platforms.
+This issue is more common with marketing templates and cold broadcasts, especially when users are not actively engaging with promotional messages.
+The best way to reduce “Unhealthy system activity WhatsApp API ” failures is to:
+send messages only to opted-in users,
+avoid excessive broadcasting,
+segment your audience,
+send engaging content instead of repetitive promotions,
+and retry failed messages after 24-48 hours.
+By improving message quality and user engagement, businesses can gradually improve WhatsApp message delivery rates despite Meta’s frequency capping system.
+You may be affected by Meta frequency capping if:
+your WhatsApp broadcasts are failing,
+delivery rates suddenly dropped,
+you see “Unhealthy system activity,”
+or “Spam rate limit hit” errors.
+Here's an example of a contact to whom promotional message failed to deliver due to frequency capping. In the below image, you can see the reason of failed message to be " Unhealthy system activity ", indicating the message failed to deliver due to capping placed by Meta for this user.
+Meta's Frequency Capping - "Unhealthy System Activity"
+Why has Meta implemented Frequency Capping?
+To ensure WhatsApp doesn't turn into Email (a spamming tool) & prevent this message fatigue among users, Meta has introduced frequency capping to ensure only limited number of promotional messages reach a user's WhatsApp.
+Key Impact of Meta's Frequency Capping on Businesses
+Reduces over-communication: Frequency capping ensures users aren't bombarded with promotional messages on WhatsApp, which might hinder their experience & lead to low engagement rates.  Talking about engagement, frequency capping enables👇
+Enhances Engagement: How does frequency capping increase engagement? Well, with a finite number of messages landing on their WhatsApp, users are much more likely to view those messages & connect with businesses.
+Operational Adjustments : Businesses need to tweak their WhatsApp marketing strategy to counter frequency capping. Move to the next section  to know the best practices for higher delivery rates.
+Marketing Limitations: Frequency capping only applies to promotional messages sent on WhatsApp. It doesn't affect service (user-initiated conversations) and Click to WhatsApp Ads-based messages .
+Country-wise Impact : Many online sources state that Frequency capping is active only for Indian users. However, it's not true. It's applicable for messages sent to users across the globe using WhatsApp.
+How to bypass Meta Frequency Capping using AiSensy Retry Campaigns
+With AiSensy's Failed Retries feature, you can maximize the delivery of your WhatsApp messages by automatically retrying failed messages up to three times. You can schedule these retries within a 24-hour window from the time the original campaign is sent, helping improve overall delivery rates.
+Follow these simple steps to set up a Retry Campaign while sending a WhatsApp Broadcast:
+Step 1: Select the Contacts for Your Broadcast
+Go to the Contacts page and select the contacts you want to send your WhatsApp broadcast to.
+Step 2: Enter Campaign Details
+Enter a Campaign Name and select your pre-approved WhatsApp Template Message.
+Note: If you need help creating a template, check out our WhatsApp Template Message Guide .
+Step 3: Enable Retry Campaign
+Scroll down and turn on the "Retry Campaign" toggle.
+Step 4: Configure Retry Attempts
+Set up to three retry attempts for failed messages. You can choose delays between retries, provided all retries are scheduled within 24 hours of the original campaign.
+Step 5: Monitor Retry Performance
+To track the success of your retry campaign:
+Campaigns → Select Campaign → Scheduled Retries
+Here, you can monitor retry progress and view completion status for all scheduled retries.
+That's It!
+Your failed messages will now be automatically retried based on your configured settings, helping maximize campaign reach and delivery.
+Still have questions? Reach out to us via Live Chat or email us at support@aisensy.com .
+Best practices to counter Meta's Frequency Capping
+1. Get Opt-in from new users : Inform leads before sending them broadcasts on WhatsApp. Mention in all your contact forms that the number the user is sharing might be used to send them notifications on WhatsApp. This ensures that the user can expect messages from your brand, prompting them not to block your contact, increasing your delivery rates.
+2. Don't immediately try resending messages to failed contacts : If messages are failing to send, wait for 24-48 hours before trying to reach them again. It might be that these users have already received their quota of promotional messages from other businesses, leading to failure of your messages.
+In AiSensy , you can simply go to Campaigns👉🏻Select the campaign with failed contacts👉🏻Go to failed section & resend your broadcasts. Just doing this can boost your delivery rates by 20-30%
+3. Send broadcasts with a way to unsubscribe : Always mention in the footer of your message how users can unsubscribe from your WhatsApp notifications. This gives Meta a signal that your broadcasts are genuine, prompting higher delivery rates.
+With AiSensy, you can simply allow users to opt-out from your notifications by adding specific keywords. E.g. STOP .
+For more info, checkout this WhatsApp optin management guide
+4. Don't schedule too many messages in a short duration : More messages do not necessarily mean more conversions. On the contrary, this might irritate users causing them to block you.
+5. Don't just sell, send content that engages users : Another thing you can try to achieve higher delivery rates is sending messages that don't just focus on selling, rather they focus on engaging the users. Higher engagement gives Meta a signal that your business is sending quality messages, leading to higher delivery rates.
+6. Send limited cold broadcasts on WhatsApp : Sending a large number of cold broadcasts is the best way to get your number blocked by a mass audience, that not only reduces your quality rating but also gives Meta a signal that you are sending broadcasts without proper opt-in, causing high failure rate.
+Limit the number of cold broadcasting you do every month!
+The Verdict
+While there's no easy solution to Meta's frequency capping, following the above listed practices might just work out for you, like it has for many of our clients.
+Frequency capping gives an insight that Meta does not want user's WhatsApp turning into a junk box.
+This might be the your best chance to upgrade your WhatsApp engagement strategy.
+In the words of Vijay Shekhar Sharma,
+Don't use WhatsApp just for selling, use WhatsApp for your business' marketing.
+Simply sending offers on WhatsApp might not work. It's the connection you create with the end user which matters the most.
+To understand more about scaling customer engagement with WhatsApp marketing, get started with AiSensy .
+Here are the most burning questions asked by users on Meta's Frequency capping👇
+Meta's Frequency Capping FAQs
+Q. Is frequency capping only for messages sent to users in India?
+No. Meta's frequency capping affects WhatsApp users globally. Businesses across different countries may experience failed marketing messages with remarks like "This message was not delivered to maintain healthy ecosystem engagement."
+Q. Why are my WhatsApp marketing messages failing to send?
+Your messages may be failing due to Meta's frequency capping system, which limits how many promotional messages a user can receive within a certain time period. Users who receive excessive marketing broadcasts may temporarily stop receiving additional promotional messages.
+Q. What is "Spam rate limit hit" or "Unhealthy system activity"?
+These are common WhatsApp API delivery failure reasons that indicate Meta has temporarily restricted your marketing message delivery due to frequency capping or excessive promotional activity. Platforms like AiSensy may show these errors when promotional messages fail to reach users who have already received a high number of marketing broadcasts. This does not necessarily mean your WhatsApp account is banned.
+Q. How many promotional messages can a user receive in a particular day?
+Meta has not officially defined a fixed number. However, WhatsApp may limit how many promotional messages a user receives within 24 hours depending on user engagement, message quality, and the total number of marketing messages the user has already received.
+Q. I am sending messages to opt-in users only, yet they are failing. Why?
+Even if users have opted in, Meta may still restrict message delivery if the user has already received multiple promotional messages from other businesses within a short period of time.
+Q. Are utility templates affected by frequency capping?
+Utility templates are generally exempt because they include important service-related updates like order confirmations, payment reminders, and delivery notifications. However, in rare cases, some utility messages may still experience delivery issues.
+Q. Are authentication templates capped by Meta?
+No. Authentication templates such as OTPs, login codes, and verification messages are generally exempt from frequency capping because they are critical for account security and user verification.
+Q. Are session messages affected by frequency capping?
+No. Businesses can freely reply to users within the 24-hour customer service window after receiving a user message. These free-form session messages are not affected in the same way as marketing template messages.
+Q. Does Meta's frequency capping affect existing marketing conversations?
+No. Frequency capping mainly affects the initiation of new marketing conversations. Existing active conversations are generally not impacted.
+Q. Does frequency capping apply to all WhatsApp Business Accounts?
+Yes. Meta's frequency capping policies apply to businesses using the WhatsApp Business Platform globally, regardless of company size or industry.
+Q. Can businesses bypass frequency capping using multiple phone numbers?
+No. Frequency capping is primarily applied at the user level, not just the business number level. Using multiple phone numbers does not guarantee higher message delivery rates.
+Q. How can businesses improve WhatsApp delivery rates despite frequency capping?
+Businesses can improve delivery rates by collecting proper opt-ins, sending high-quality and engaging content, avoiding excessive broadcasts, segmenting audiences, retrying failed messages after 24–48 hours, and allowing users to opt out easily.
+Read more
+Webhooks do WhatsApp para Não Desenvolvedores (Guia)
+AiSensy Free Forever Plan - WhatsApp API Access for Life
+10 Unique WhatsApp API Benefits you need to know in 2026
+Get 500 FREE AD Credits
+Connect Your Facebook Ad Account with AiSensy today
+Get Started Now
+#1 Whatsapp Marketing, CRM & Chatbot Platform
+Platform
+Features
+Use-Cases
+Pricing
+Blog
+Contact Us
+Request A Demo
+Resources
+Learning Hub
+WhatsApp Business API
+Experience Notifications
+Create Whatsapp Link
+Whatsapp Button
+Integrations
+Learn Chatbot Development
+Connect
+Apply for the API
+Login
+support@aisensy.com
+Privacy Policy
+Terms of Service
+All
+Marketing Strategies
+Use Cases
+Template Messages
+Guides
+Comparison
+Industry News
+Português

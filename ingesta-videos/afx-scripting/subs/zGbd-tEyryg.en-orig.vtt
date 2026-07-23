@@ -1,0 +1,3136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.610 align:start position:0%
+ 
+hello<00:00:00.269><c> everyone</c><00:00:00.570><c> in</c><00:00:00.750><c> this</c><00:00:00.960><c> week's</c><00:00:01.170><c> After</c>
+
+00:00:01.610 --> 00:00:01.620 align:start position:0%
+hello everyone in this week's After
+ 
+
+00:00:01.620 --> 00:00:03.530 align:start position:0%
+hello everyone in this week's After
+Effects<00:00:01.890><c> scripting</c><00:00:02.490><c> tutorial</c><00:00:02.639><c> I'm</c><00:00:03.179><c> gonna</c><00:00:03.389><c> be</c>
+
+00:00:03.530 --> 00:00:03.540 align:start position:0%
+Effects scripting tutorial I'm gonna be
+ 
+
+00:00:03.540 --> 00:00:05.420 align:start position:0%
+Effects scripting tutorial I'm gonna be
+showing<00:00:03.899><c> you</c><00:00:03.990><c> how</c><00:00:04.020><c> to</c><00:00:04.140><c> recreate</c><00:00:04.799><c> shape</c><00:00:05.130><c> layers</c>
+
+00:00:05.420 --> 00:00:05.430 align:start position:0%
+showing you how to recreate shape layers
+ 
+
+00:00:05.430 --> 00:00:07.849 align:start position:0%
+showing you how to recreate shape layers
+using<00:00:06.210><c> a</c><00:00:06.330><c> script</c><00:00:06.660><c> I'll</c><00:00:07.290><c> be</c><00:00:07.560><c> using</c><00:00:07.649><c> a</c><00:00:07.830><c> few</c>
+
+00:00:07.849 --> 00:00:07.859 align:start position:0%
+using a script I'll be using a few
+ 
+
+00:00:07.859 --> 00:00:09.650 align:start position:0%
+using a script I'll be using a few
+different<00:00:08.099><c> techniques</c><00:00:08.460><c> to</c><00:00:08.940><c> go</c><00:00:09.090><c> through</c><00:00:09.450><c> and</c>
+
+00:00:09.650 --> 00:00:09.660 align:start position:0%
+different techniques to go through and
+ 
+
+00:00:09.660 --> 00:00:12.320 align:start position:0%
+different techniques to go through and
+add<00:00:10.110><c> custom</c><00:00:10.620><c> contents</c><00:00:11.340><c> with</c><00:00:11.880><c> things</c><00:00:12.120><c> like</c>
+
+00:00:12.320 --> 00:00:12.330 align:start position:0%
+add custom contents with things like
+ 
+
+00:00:12.330 --> 00:00:14.749 align:start position:0%
+add custom contents with things like
+rounded<00:00:12.809><c> corners</c><00:00:13.259><c> and</c><00:00:13.740><c> adding</c><00:00:14.099><c> custom</c><00:00:14.280><c> shapes</c>
+
+00:00:14.749 --> 00:00:14.759 align:start position:0%
+rounded corners and adding custom shapes
+ 
+
+00:00:14.759 --> 00:00:17.210 align:start position:0%
+rounded corners and adding custom shapes
+with<00:00:15.089><c> the</c><00:00:15.120><c> stroke</c><00:00:15.540><c> and</c><00:00:15.750><c> a</c><00:00:15.780><c> fill</c><00:00:15.809><c> and</c><00:00:16.260><c> basically</c>
+
+00:00:17.210 --> 00:00:17.220 align:start position:0%
+with the stroke and a fill and basically
+ 
+
+00:00:17.220 --> 00:00:19.130 align:start position:0%
+with the stroke and a fill and basically
+reverse<00:00:17.640><c> engineering</c><00:00:18.150><c> these</c><00:00:18.330><c> will</c><00:00:18.869><c> allow</c><00:00:18.990><c> you</c>
+
+00:00:19.130 --> 00:00:19.140 align:start position:0%
+reverse engineering these will allow you
+ 
+
+00:00:19.140 --> 00:00:21.410 align:start position:0%
+reverse engineering these will allow you
+to<00:00:19.470><c> create</c><00:00:19.920><c> any</c><00:00:20.130><c> kind</c><00:00:20.400><c> of</c><00:00:20.550><c> shape</c><00:00:21.000><c> layer</c><00:00:21.240><c> you</c>
+
+00:00:21.410 --> 00:00:21.420 align:start position:0%
+to create any kind of shape layer you
+ 
+
+00:00:21.420 --> 00:00:23.870 align:start position:0%
+to create any kind of shape layer you
+want<00:00:21.689><c> from</c><00:00:21.990><c> scratch</c><00:00:22.350><c> is</c><00:00:22.830><c> just</c><00:00:23.189><c> a</c><00:00:23.279><c> few</c><00:00:23.460><c> lines</c><00:00:23.640><c> of</c>
+
+00:00:23.870 --> 00:00:23.880 align:start position:0%
+want from scratch is just a few lines of
+ 
+
+00:00:23.880 --> 00:00:26.359 align:start position:0%
+want from scratch is just a few lines of
+code<00:00:23.939><c> from</c><00:00:24.720><c> a</c><00:00:24.869><c> script</c><00:00:25.170><c> after</c><00:00:25.769><c> you</c><00:00:26.070><c> learn</c><00:00:26.189><c> these</c>
+
+00:00:26.359 --> 00:00:26.369 align:start position:0%
+code from a script after you learn these
+ 
+
+00:00:26.369 --> 00:00:27.710 align:start position:0%
+code from a script after you learn these
+techniques<00:00:26.580><c> you'll</c><00:00:27.029><c> be</c><00:00:27.119><c> able</c><00:00:27.210><c> to</c><00:00:27.359><c> recreate</c>
+
+00:00:27.710 --> 00:00:27.720 align:start position:0%
+techniques you'll be able to recreate
+ 
+
+00:00:27.720 --> 00:00:29.630 align:start position:0%
+techniques you'll be able to recreate
+pretty<00:00:28.019><c> much</c><00:00:28.199><c> any</c><00:00:28.439><c> shape</c><00:00:28.740><c> layer</c><00:00:28.980><c> you</c><00:00:29.130><c> want</c><00:00:29.310><c> and</c>
+
+00:00:29.630 --> 00:00:29.640 align:start position:0%
+pretty much any shape layer you want and
+ 
+
+00:00:29.640 --> 00:00:32.299 align:start position:0%
+pretty much any shape layer you want and
+learn<00:00:30.210><c> how</c><00:00:30.420><c> to</c><00:00:30.449><c> basically</c><00:00:31.309><c> reverse-engineer</c>
+
+00:00:32.299 --> 00:00:32.309 align:start position:0%
+learn how to basically reverse-engineer
+ 
+
+00:00:32.309 --> 00:00:34.069 align:start position:0%
+learn how to basically reverse-engineer
+any<00:00:32.550><c> of</c><00:00:33.059><c> these</c><00:00:33.180><c> properties</c><00:00:33.630><c> that</c><00:00:33.809><c> we've</c>
+
+00:00:34.069 --> 00:00:34.079 align:start position:0%
+any of these properties that we've
+ 
+
+00:00:34.079 --> 00:00:36.229 align:start position:0%
+any of these properties that we've
+applied<00:00:34.440><c> so</c><00:00:35.280><c> I'm</c><00:00:35.340><c> going</c><00:00:35.460><c> to</c><00:00:35.489><c> get</c><00:00:35.640><c> started</c><00:00:35.940><c> by</c>
+
+00:00:36.229 --> 00:00:36.239 align:start position:0%
+applied so I'm going to get started by
+ 
+
+00:00:36.239 --> 00:00:39.229 align:start position:0%
+applied so I'm going to get started by
+opening<00:00:36.270><c> a</c><00:00:36.840><c> new</c><00:00:36.870><c> JavaScript</c><00:00:37.530><c> file</c><00:00:38.100><c> and</c><00:00:38.399><c> we're</c>
+
+00:00:39.229 --> 00:00:39.239 align:start position:0%
+opening a new JavaScript file and we're
+ 
+
+00:00:39.239 --> 00:00:41.780 align:start position:0%
+opening a new JavaScript file and we're
+just<00:00:39.360><c> going</c><00:00:39.570><c> to</c><00:00:39.629><c> start</c><00:00:39.989><c> by</c><00:00:40.680><c> looking</c><00:00:41.250><c> at</c><00:00:41.640><c> our</c>
+
+00:00:41.780 --> 00:00:41.790 align:start position:0%
+just going to start by looking at our
+ 
+
+00:00:41.790 --> 00:00:44.389 align:start position:0%
+just going to start by looking at our
+layer<00:00:42.300><c> inside</c><00:00:42.960><c> of</c><00:00:43.170><c> After</c><00:00:43.350><c> Effects</c><00:00:43.770><c> we're</c>
+
+00:00:44.389 --> 00:00:44.399 align:start position:0%
+layer inside of After Effects we're
+ 
+
+00:00:44.399 --> 00:00:46.250 align:start position:0%
+layer inside of After Effects we're
+gonna<00:00:44.520><c> start</c><00:00:44.879><c> with</c><00:00:45.000><c> this</c><00:00:45.149><c> hexagon</c><00:00:45.840><c> shaped</c>
+
+00:00:46.250 --> 00:00:46.260 align:start position:0%
+gonna start with this hexagon shaped
+ 
+
+00:00:46.260 --> 00:00:48.740 align:start position:0%
+gonna start with this hexagon shaped
+layer<00:00:46.530><c> we</c><00:00:47.309><c> basically</c><00:00:47.670><c> have</c><00:00:48.059><c> a</c><00:00:48.090><c> couple</c><00:00:48.600><c> things</c>
+
+00:00:48.740 --> 00:00:48.750 align:start position:0%
+layer we basically have a couple things
+ 
+
+00:00:48.750 --> 00:00:52.610 align:start position:0%
+layer we basically have a couple things
+it's<00:00:49.620><c> a</c><00:00:49.860><c> standard</c><00:00:50.850><c> shaped</c><00:00:51.120><c> layer</c><00:00:51.390><c> and</c><00:00:51.629><c> it</c><00:00:52.469><c> has</c>
+
+00:00:52.610 --> 00:00:52.620 align:start position:0%
+it's a standard shaped layer and it has
+ 
+
+00:00:52.620 --> 00:00:55.100 align:start position:0%
+it's a standard shaped layer and it has
+a<00:00:52.649><c> hexagon</c><00:00:53.309><c> inside</c><00:00:53.730><c> of</c><00:00:53.820><c> the</c><00:00:53.879><c> contents</c><00:00:54.510><c> with</c>
+
+00:00:55.100 --> 00:00:55.110 align:start position:0%
+a hexagon inside of the contents with
+ 
+
+00:00:55.110 --> 00:00:57.260 align:start position:0%
+a hexagon inside of the contents with
+the<00:00:55.199><c> poly</c><00:00:55.469><c> star</c><00:00:55.829><c> path</c><00:00:56.100><c> which</c><00:00:56.489><c> refers</c><00:00:56.879><c> to</c><00:00:56.910><c> how</c>
+
+00:00:57.260 --> 00:00:57.270 align:start position:0%
+the poly star path which refers to how
+ 
+
+00:00:57.270 --> 00:01:00.830 align:start position:0%
+the poly star path which refers to how
+many<00:00:57.920><c> sides</c><00:00:58.920><c> everything</c><00:00:59.520><c> has</c><00:00:59.670><c> basically</c><00:01:00.300><c> so</c>
+
+00:01:00.830 --> 00:01:00.840 align:start position:0%
+many sides everything has basically so
+ 
+
+00:01:00.840 --> 00:01:02.209 align:start position:0%
+many sides everything has basically so
+we<00:01:00.930><c> can</c><00:01:01.079><c> change</c><00:01:01.289><c> what</c><00:01:01.469><c> kind</c><00:01:01.649><c> of</c><00:01:01.680><c> shape</c><00:01:01.920><c> it</c><00:01:02.070><c> is</c>
+
+00:01:02.209 --> 00:01:02.219 align:start position:0%
+we can change what kind of shape it is
+ 
+
+00:01:02.219 --> 00:01:04.609 align:start position:0%
+we can change what kind of shape it is
+and<00:01:02.460><c> this</c><00:01:02.910><c> also</c><00:01:03.120><c> contains</c><00:01:03.600><c> information</c><00:01:03.840><c> like</c>
+
+00:01:04.609 --> 00:01:04.619 align:start position:0%
+and this also contains information like
+ 
+
+00:01:04.619 --> 00:01:08.330 align:start position:0%
+and this also contains information like
+the<00:01:04.799><c> position</c><00:01:05.339><c> rotation</c><00:01:06.060><c> and</c><00:01:06.750><c> radius</c><00:01:07.200><c> so</c><00:01:08.040><c> if</c>
+
+00:01:08.330 --> 00:01:08.340 align:start position:0%
+the position rotation and radius so if
+ 
+
+00:01:08.340 --> 00:01:10.789 align:start position:0%
+the position rotation and radius so if
+any<00:01:08.549><c> of</c><00:01:08.670><c> these</c><00:01:08.760><c> values</c><00:01:09.000><c> are</c><00:01:09.450><c> changed</c><00:01:10.049><c> and</c><00:01:10.229><c> you</c>
+
+00:01:10.789 --> 00:01:10.799 align:start position:0%
+any of these values are changed and you
+ 
+
+00:01:10.799 --> 00:01:12.800 align:start position:0%
+any of these values are changed and you
+want<00:01:11.040><c> to</c><00:01:11.280><c> make</c><00:01:11.700><c> them</c><00:01:11.850><c> custom</c><00:01:12.360><c> when</c><00:01:12.630><c> we're</c>
+
+00:01:12.800 --> 00:01:12.810 align:start position:0%
+want to make them custom when we're
+ 
+
+00:01:12.810 --> 00:01:15.230 align:start position:0%
+want to make them custom when we're
+creating<00:01:13.290><c> this</c><00:01:13.439><c> we</c><00:01:14.100><c> can</c><00:01:14.280><c> basically</c><00:01:14.520><c> change</c>
+
+00:01:15.230 --> 00:01:15.240 align:start position:0%
+creating this we can basically change
+ 
+
+00:01:15.240 --> 00:01:17.090 align:start position:0%
+creating this we can basically change
+any<00:01:15.570><c> of</c><00:01:15.689><c> the</c><00:01:15.900><c> points</c><00:01:16.290><c> position</c><00:01:16.740><c> or</c><00:01:16.830><c> any</c><00:01:16.979><c> of</c>
+
+00:01:17.090 --> 00:01:17.100 align:start position:0%
+any of the points position or any of
+ 
+
+00:01:17.100 --> 00:01:19.130 align:start position:0%
+any of the points position or any of
+these<00:01:17.189><c> values</c><00:01:17.369><c> we</c><00:01:17.700><c> want</c><00:01:17.939><c> so</c><00:01:18.479><c> the</c><00:01:18.750><c> first</c><00:01:18.930><c> thing</c>
+
+00:01:19.130 --> 00:01:19.140 align:start position:0%
+these values we want so the first thing
+ 
+
+00:01:19.140 --> 00:01:21.950 align:start position:0%
+these values we want so the first thing
+I'm<00:01:19.259><c> going</c><00:01:19.350><c> to</c><00:01:19.470><c> do</c><00:01:19.619><c> is</c><00:01:19.830><c> go</c><00:01:20.400><c> ahead</c><00:01:20.520><c> and</c><00:01:20.780><c> create</c><00:01:21.780><c> a</c>
+
+00:01:21.950 --> 00:01:21.960 align:start position:0%
+I'm going to do is go ahead and create a
+ 
+
+00:01:21.960 --> 00:01:24.050 align:start position:0%
+I'm going to do is go ahead and create a
+few<00:01:22.140><c> lines</c><00:01:22.320><c> of</c><00:01:22.500><c> code</c><00:01:22.560><c> to</c><00:01:23.009><c> represent</c><00:01:23.549><c> standard</c>
+
+00:01:24.050 --> 00:01:24.060 align:start position:0%
+few lines of code to represent standard
+ 
+
+00:01:24.060 --> 00:01:26.300 align:start position:0%
+few lines of code to represent standard
+variables<00:01:24.509><c> inside</c><00:01:24.930><c> of</c><00:01:25.110><c> After</c><00:01:25.439><c> Effects</c><00:01:25.710><c> we're</c>
+
+00:01:26.300 --> 00:01:26.310 align:start position:0%
+variables inside of After Effects we're
+ 
+
+00:01:26.310 --> 00:01:27.920 align:start position:0%
+variables inside of After Effects we're
+going<00:01:26.430><c> to</c><00:01:26.490><c> need</c><00:01:26.580><c> one</c><00:01:26.640><c> for</c><00:01:27.060><c> the</c><00:01:27.119><c> project</c><00:01:27.689><c> and</c>
+
+00:01:27.920 --> 00:01:27.930 align:start position:0%
+going to need one for the project and
+ 
+
+00:01:27.930 --> 00:01:30.770 align:start position:0%
+going to need one for the project and
+one<00:01:28.560><c> for</c><00:01:28.829><c> the</c><00:01:28.920><c> composition</c><00:01:29.340><c> so</c><00:01:30.329><c> for</c><00:01:30.720><c> the</c>
+
+00:01:30.770 --> 00:01:30.780 align:start position:0%
+one for the composition so for the
+ 
+
+00:01:30.780 --> 00:01:32.240 align:start position:0%
+one for the composition so for the
+project<00:01:31.290><c> we're</c><00:01:31.470><c> going</c><00:01:31.560><c> to</c><00:01:31.619><c> say</c><00:01:31.860><c> that's</c><00:01:32.070><c> going</c>
+
+00:01:32.240 --> 00:01:32.250 align:start position:0%
+project we're going to say that's going
+ 
+
+00:01:32.250 --> 00:01:35.060 align:start position:0%
+project we're going to say that's going
+to<00:01:32.310><c> be</c><00:01:32.400><c> equal</c><00:01:32.670><c> to</c><00:01:32.700><c> AB</c><00:01:33.119><c> dot</c><00:01:33.360><c> projects</c><00:01:34.110><c> and</c><00:01:34.320><c> then</c>
+
+00:01:35.060 --> 00:01:35.070 align:start position:0%
+to be equal to AB dot projects and then
+ 
+
+00:01:35.070 --> 00:01:36.920 align:start position:0%
+to be equal to AB dot projects and then
+a<00:01:35.100><c> composition</c><00:01:35.850><c> we're</c><00:01:36.299><c> going</c><00:01:36.509><c> to</c><00:01:36.600><c> assume</c>
+
+00:01:36.920 --> 00:01:36.930 align:start position:0%
+a composition we're going to assume
+ 
+
+00:01:36.930 --> 00:01:39.530 align:start position:0%
+a composition we're going to assume
+there's<00:01:37.350><c> a</c><00:01:37.409><c> composition</c><00:01:38.130><c> open</c><00:01:38.549><c> so</c><00:01:39.150><c> we'll</c><00:01:39.329><c> say</c>
+
+00:01:39.530 --> 00:01:39.540 align:start position:0%
+there's a composition open so we'll say
+ 
+
+00:01:39.540 --> 00:01:42.740 align:start position:0%
+there's a composition open so we'll say
+our<00:01:39.570><c> project</c><00:01:40.409><c> and</c><00:01:40.650><c> the</c><00:01:41.130><c> active</c><00:01:41.579><c> item</c><00:01:42.000><c> so</c>
+
+00:01:42.740 --> 00:01:42.750 align:start position:0%
+our project and the active item so
+ 
+
+00:01:42.750 --> 00:01:44.270 align:start position:0%
+our project and the active item so
+before<00:01:43.229><c> we</c><00:01:43.320><c> run</c><00:01:43.470><c> the</c><00:01:43.590><c> script</c><00:01:43.860><c> we</c><00:01:43.979><c> want</c><00:01:44.130><c> to</c><00:01:44.189><c> make</c>
+
+00:01:44.270 --> 00:01:44.280 align:start position:0%
+before we run the script we want to make
+ 
+
+00:01:44.280 --> 00:01:47.200 align:start position:0%
+before we run the script we want to make
+sure<00:01:44.310><c> we</c><00:01:44.579><c> have</c><00:01:44.820><c> a</c><00:01:45.060><c> comp</c><00:01:45.720><c> selected</c><00:01:46.290><c> and</c><00:01:46.530><c> active</c>
+
+00:01:47.200 --> 00:01:47.210 align:start position:0%
+sure we have a comp selected and active
+ 
+
+00:01:47.210 --> 00:01:49.789 align:start position:0%
+sure we have a comp selected and active
+you<00:01:48.210><c> also</c><00:01:48.360><c> have</c><00:01:48.570><c> the</c><00:01:48.720><c> option</c><00:01:49.110><c> of</c><00:01:49.229><c> saying</c><00:01:49.470><c> after</c>
+
+00:01:49.789 --> 00:01:49.799 align:start position:0%
+you also have the option of saying after
+ 
+
+00:01:49.799 --> 00:01:52.490 align:start position:0%
+you also have the option of saying after
+this<00:01:49.979><c> well</c><00:01:50.939><c> what</c><00:01:51.270><c> if</c><00:01:51.390><c> it's</c><00:01:51.540><c> not</c><00:01:51.720><c> active</c><00:01:52.259><c> if</c>
+
+00:01:52.490 --> 00:01:52.500 align:start position:0%
+this well what if it's not active if
+ 
+
+00:01:52.500 --> 00:01:54.530 align:start position:0%
+this well what if it's not active if
+comp<00:01:53.040><c> is</c><00:01:53.490><c> equal</c><00:01:53.909><c> to</c><00:01:54.090><c> null</c>
+
+00:01:54.530 --> 00:01:54.540 align:start position:0%
+comp is equal to null
+ 
+
+00:01:54.540 --> 00:01:58.490 align:start position:0%
+comp is equal to null
+basically<00:01:55.409><c> if</c><00:01:56.149><c> this</c><00:01:57.149><c> variable</c><00:01:57.420><c> our</c><00:01:58.049><c> active</c>
+
+00:01:58.490 --> 00:01:58.500 align:start position:0%
+basically if this variable our active
+ 
+
+00:01:58.500 --> 00:02:00.200 align:start position:0%
+basically if this variable our active
+item<00:01:58.770><c> ends</c><00:01:59.009><c> up</c><00:01:59.070><c> being</c><00:01:59.280><c> null</c><00:01:59.549><c> that</c><00:02:00.030><c> means</c>
+
+00:02:00.200 --> 00:02:00.210 align:start position:0%
+item ends up being null that means
+ 
+
+00:02:00.210 --> 00:02:02.270 align:start position:0%
+item ends up being null that means
+there's<00:02:00.390><c> nothing</c><00:02:00.630><c> selected</c><00:02:01.020><c> if</c><00:02:01.530><c> that's</c><00:02:02.070><c> the</c>
+
+00:02:02.270 --> 00:02:02.280 align:start position:0%
+there's nothing selected if that's the
+ 
+
+00:02:02.280 --> 00:02:04.789 align:start position:0%
+there's nothing selected if that's the
+case<00:02:02.490><c> let's</c><00:02:03.060><c> create</c><00:02:03.420><c> a</c><00:02:03.570><c> new</c><00:02:03.630><c> comp</c><00:02:04.200><c> so</c><00:02:04.710><c> I'm</c>
+
+00:02:04.789 --> 00:02:04.799 align:start position:0%
+case let's create a new comp so I'm
+ 
+
+00:02:04.799 --> 00:02:07.580 align:start position:0%
+case let's create a new comp so I'm
+going<00:02:04.920><c> to</c><00:02:04.979><c> say</c><00:02:05.070><c> comp</c><00:02:05.430><c> equals</c><00:02:05.969><c> our</c><00:02:06.590><c> project</c>
+
+00:02:07.580 --> 00:02:07.590 align:start position:0%
+going to say comp equals our project
+ 
+
+00:02:07.590 --> 00:02:11.240 align:start position:0%
+going to say comp equals our project
+items<00:02:08.280><c> we're</c><00:02:09.030><c> gonna</c><00:02:09.149><c> add</c><00:02:09.360><c> a</c><00:02:09.390><c> comp</c><00:02:09.810><c> and</c><00:02:10.679><c> now's</c><00:02:11.220><c> a</c>
+
+00:02:11.240 --> 00:02:11.250 align:start position:0%
+items we're gonna add a comp and now's a
+ 
+
+00:02:11.250 --> 00:02:13.070 align:start position:0%
+items we're gonna add a comp and now's a
+good<00:02:11.520><c> time</c><00:02:11.580><c> to</c><00:02:12.000><c> break</c><00:02:12.180><c> open</c><00:02:12.390><c> the</c><00:02:12.690><c> scripting</c>
+
+00:02:13.070 --> 00:02:13.080 align:start position:0%
+good time to break open the scripting
+ 
+
+00:02:13.080 --> 00:02:13.770 align:start position:0%
+good time to break open the scripting
+guide
+
+00:02:13.770 --> 00:02:13.780 align:start position:0%
+guide
+ 
+
+00:02:13.780 --> 00:02:16.950 align:start position:0%
+guide
+we'll<00:02:14.470><c> just</c><00:02:14.680><c> type</c><00:02:14.860><c> in</c><00:02:15.100><c> addcom</c><00:02:15.880><c> and</c><00:02:16.150><c> we</c><00:02:16.720><c> need</c><00:02:16.930><c> a</c>
+
+00:02:16.950 --> 00:02:16.960 align:start position:0%
+we'll just type in addcom and we need a
+ 
+
+00:02:16.960 --> 00:02:20.010 align:start position:0%
+we'll just type in addcom and we need a
+couple<00:02:17.320><c> of</c><00:02:17.500><c> things</c><00:02:17.740><c> here</c><00:02:18.040><c> need</c><00:02:18.640><c> the</c><00:02:18.790><c> name</c><00:02:19.060><c> so</c>
+
+00:02:20.010 --> 00:02:20.020 align:start position:0%
+couple of things here need the name so
+ 
+
+00:02:20.020 --> 00:02:23.730 align:start position:0%
+couple of things here need the name so
+we'll<00:02:20.140><c> just</c><00:02:20.350><c> call</c><00:02:20.530><c> this</c><00:02:20.910><c> test</c><00:02:21.910><c> comm</c><00:02:22.440><c> the</c><00:02:23.440><c> width</c>
+
+00:02:23.730 --> 00:02:23.740 align:start position:0%
+we'll just call this test comm the width
+ 
+
+00:02:23.740 --> 00:02:27.410 align:start position:0%
+we'll just call this test comm the width
+the<00:02:24.400><c> height</c><00:02:24.430><c> the</c><00:02:24.970><c> pixel</c><00:02:25.390><c> aspect</c><00:02:25.540><c> ratio</c><00:02:25.870><c> the</c>
+
+00:02:27.410 --> 00:02:27.420 align:start position:0%
+the height the pixel aspect ratio the
+ 
+
+00:02:27.420 --> 00:02:31.080 align:start position:0%
+the height the pixel aspect ratio the
+duration<00:02:28.420><c> and</c><00:02:28.660><c> the</c><00:02:28.720><c> frame</c><00:02:29.380><c> rate</c><00:02:29.730><c> so</c><00:02:30.730><c> basically</c>
+
+00:02:31.080 --> 00:02:31.090 align:start position:0%
+duration and the frame rate so basically
+ 
+
+00:02:31.090 --> 00:02:32.700 align:start position:0%
+duration and the frame rate so basically
+when<00:02:31.360><c> you</c><00:02:31.450><c> run</c><00:02:31.630><c> the</c><00:02:31.810><c> script</c><00:02:31.960><c> the</c><00:02:32.260><c> first</c><00:02:32.290><c> time</c>
+
+00:02:32.700 --> 00:02:32.710 align:start position:0%
+when you run the script the first time
+ 
+
+00:02:32.710 --> 00:02:34.320 align:start position:0%
+when you run the script the first time
+it's<00:02:33.190><c> going</c><00:02:33.280><c> to</c><00:02:33.370><c> check</c><00:02:33.640><c> if</c><00:02:33.820><c> there's</c><00:02:34.000><c> something</c>
+
+00:02:34.320 --> 00:02:34.330 align:start position:0%
+it's going to check if there's something
+ 
+
+00:02:34.330 --> 00:02:36.420 align:start position:0%
+it's going to check if there's something
+active<00:02:34.960><c> if</c><00:02:35.200><c> there's</c><00:02:35.410><c> a</c><00:02:35.470><c> composition</c><00:02:36.040><c> active</c>
+
+00:02:36.420 --> 00:02:36.430 align:start position:0%
+active if there's a composition active
+ 
+
+00:02:36.430 --> 00:02:39.510 align:start position:0%
+active if there's a composition active
+if<00:02:36.820><c> there</c><00:02:37.270><c> isn't</c><00:02:37.450><c> if</c><00:02:38.020><c> it's</c><00:02:38.470><c> no</c><00:02:38.680><c> if</c><00:02:39.250><c> there's</c>
+
+00:02:39.510 --> 00:02:39.520 align:start position:0%
+if there isn't if it's no if there's
+ 
+
+00:02:39.520 --> 00:02:41.370 align:start position:0%
+if there isn't if it's no if there's
+nothing<00:02:39.700><c> really</c><00:02:40.030><c> in</c><00:02:40.120><c> that</c><00:02:40.300><c> variable</c><00:02:40.840><c> we're</c>
+
+00:02:41.370 --> 00:02:41.380 align:start position:0%
+nothing really in that variable we're
+ 
+
+00:02:41.380 --> 00:02:43.610 align:start position:0%
+nothing really in that variable we're
+gonna<00:02:41.500><c> add</c><00:02:41.740><c> a</c><00:02:41.770><c> composition</c><00:02:42.580><c> ourselves</c><00:02:43.180><c> and</c>
+
+00:02:43.610 --> 00:02:43.620 align:start position:0%
+gonna add a composition ourselves and
+ 
+
+00:02:43.620 --> 00:02:46.080 align:start position:0%
+gonna add a composition ourselves and
+now<00:02:44.620><c> we</c><00:02:44.680><c> can</c><00:02:44.980><c> go</c><00:02:45.100><c> ahead</c><00:02:45.220><c> and</c><00:02:45.370><c> grab</c><00:02:45.550><c> our</c><00:02:45.760><c> comp</c>
+
+00:02:46.080 --> 00:02:46.090 align:start position:0%
+now we can go ahead and grab our comp
+ 
+
+00:02:46.090 --> 00:02:49.050 align:start position:0%
+now we can go ahead and grab our comp
+and<00:02:46.450><c> say</c><00:02:46.600><c> open</c><00:02:46.810><c> in</c><00:02:47.260><c> viewer</c><00:02:47.709><c> and</c><00:02:48.010><c> this</c><00:02:48.910><c> will</c>
+
+00:02:49.050 --> 00:02:49.060 align:start position:0%
+and say open in viewer and this will
+ 
+
+00:02:49.060 --> 00:02:50.070 align:start position:0%
+and say open in viewer and this will
+basically<00:02:49.150><c> ensure</c><00:02:49.630><c> that</c><00:02:49.780><c> we</c><00:02:49.900><c> have</c><00:02:50.050><c> a</c>
+
+00:02:50.070 --> 00:02:50.080 align:start position:0%
+basically ensure that we have a
+ 
+
+00:02:50.080 --> 00:02:52.260 align:start position:0%
+basically ensure that we have a
+composition<00:02:50.530><c> ready</c><00:02:50.980><c> to</c><00:02:51.459><c> add</c><00:02:51.580><c> our</c><00:02:51.610><c> shape</c><00:02:52.000><c> layer</c>
+
+00:02:52.260 --> 00:02:52.270 align:start position:0%
+composition ready to add our shape layer
+ 
+
+00:02:52.270 --> 00:02:54.510 align:start position:0%
+composition ready to add our shape layer
+into<00:02:52.660><c> so</c><00:02:53.530><c> now</c><00:02:53.620><c> if</c><00:02:53.770><c> I</c><00:02:53.860><c> go</c><00:02:53.890><c> back</c><00:02:54.220><c> into</c><00:02:54.400><c> the</c>
+
+00:02:54.510 --> 00:02:54.520 align:start position:0%
+into so now if I go back into the
+ 
+
+00:02:54.520 --> 00:02:58.140 align:start position:0%
+into so now if I go back into the
+scripting<00:02:54.910><c> guide</c><00:02:55.090><c> and</c><00:02:55.420><c> type</c><00:02:55.600><c> in</c><00:02:55.810><c> add</c><00:02:56.080><c> shape</c><00:02:57.150><c> we</c>
+
+00:02:58.140 --> 00:02:58.150 align:start position:0%
+scripting guide and type in add shape we
+ 
+
+00:02:58.150 --> 00:03:01.350 align:start position:0%
+scripting guide and type in add shape we
+can<00:02:58.180><c> use</c><00:02:58.540><c> this</c><00:02:58.840><c> to</c><00:02:59.260><c> add</c><00:02:59.500><c> our</c><00:02:59.680><c> shape</c><00:02:59.950><c> layer</c><00:03:00.360><c> so</c>
+
+00:03:01.350 --> 00:03:01.360 align:start position:0%
+can use this to add our shape layer so
+ 
+
+00:03:01.360 --> 00:03:04.470 align:start position:0%
+can use this to add our shape layer so
+I'll<00:03:01.540><c> grab</c><00:03:01.810><c> my</c><00:03:02.130><c> composition</c><00:03:03.130><c> and</c><00:03:03.580><c> I'll</c><00:03:04.150><c> say</c>
+
+00:03:04.470 --> 00:03:04.480 align:start position:0%
+I'll grab my composition and I'll say
+ 
+
+00:03:04.480 --> 00:03:08.490 align:start position:0%
+I'll grab my composition and I'll say
+add<00:03:05.370><c> or</c><00:03:06.370><c> I'll</c><00:03:06.490><c> say</c><00:03:06.670><c> comp</c><00:03:07.000><c> dot</c><00:03:07.390><c> layers</c><00:03:07.840><c> that</c><00:03:08.290><c> add</c>
+
+00:03:08.490 --> 00:03:08.500 align:start position:0%
+add or I'll say comp dot layers that add
+ 
+
+00:03:08.500 --> 00:03:11.610 align:start position:0%
+add or I'll say comp dot layers that add
+shape<00:03:09.010><c> and</c><00:03:09.430><c> there's</c><00:03:10.360><c> actually</c><00:03:10.750><c> no</c><00:03:11.080><c> argument</c>
+
+00:03:11.610 --> 00:03:11.620 align:start position:0%
+shape and there's actually no argument
+ 
+
+00:03:11.620 --> 00:03:14.010 align:start position:0%
+shape and there's actually no argument
+required<00:03:11.980><c> because</c><00:03:12.520><c> there's</c><00:03:12.820><c> a</c><00:03:13.090><c> lot</c><00:03:13.420><c> of</c><00:03:13.510><c> custom</c>
+
+00:03:14.010 --> 00:03:14.020 align:start position:0%
+required because there's a lot of custom
+ 
+
+00:03:14.020 --> 00:03:15.990 align:start position:0%
+required because there's a lot of custom
+things<00:03:14.230><c> we</c><00:03:14.380><c> can</c><00:03:14.530><c> do</c><00:03:14.709><c> with</c><00:03:14.830><c> this</c><00:03:15.010><c> shape</c><00:03:15.280><c> we</c>
+
+00:03:15.990 --> 00:03:16.000 align:start position:0%
+things we can do with this shape we
+ 
+
+00:03:16.000 --> 00:03:17.670 align:start position:0%
+things we can do with this shape we
+basically<00:03:16.240><c> need</c><00:03:16.480><c> to</c><00:03:16.510><c> go</c><00:03:16.630><c> in</c><00:03:16.959><c> and</c><00:03:17.140><c> add</c><00:03:17.290><c> our</c><00:03:17.320><c> own</c>
+
+00:03:17.670 --> 00:03:17.680 align:start position:0%
+basically need to go in and add our own
+ 
+
+00:03:17.680 --> 00:03:20.250 align:start position:0%
+basically need to go in and add our own
+properties<00:03:18.400><c> inside</c><00:03:19.150><c> of</c><00:03:19.300><c> this</c><00:03:19.420><c> now</c><00:03:19.840><c> empty</c>
+
+00:03:20.250 --> 00:03:20.260 align:start position:0%
+properties inside of this now empty
+ 
+
+00:03:20.260 --> 00:03:22.320 align:start position:0%
+properties inside of this now empty
+shape<00:03:20.530><c> layer</c><00:03:20.800><c> we</c><00:03:21.580><c> also</c><00:03:21.760><c> want</c><00:03:21.970><c> to</c><00:03:22.000><c> give</c><00:03:22.150><c> this</c><00:03:22.269><c> a</c>
+
+00:03:22.320 --> 00:03:22.330 align:start position:0%
+shape layer we also want to give this a
+ 
+
+00:03:22.330 --> 00:03:24.720 align:start position:0%
+shape layer we also want to give this a
+variable<00:03:22.900><c> so</c><00:03:23.080><c> I'll</c><00:03:23.170><c> just</c><00:03:23.350><c> say</c><00:03:23.530><c> shape</c><00:03:23.890><c> layer</c><00:03:24.160><c> is</c>
+
+00:03:24.720 --> 00:03:24.730 align:start position:0%
+variable so I'll just say shape layer is
+ 
+
+00:03:24.730 --> 00:03:27.540 align:start position:0%
+variable so I'll just say shape layer is
+equal<00:03:24.880><c> to</c><00:03:25.090><c> comp</c><00:03:25.540><c> dot</c><00:03:25.780><c> layers</c><00:03:25.989><c> to</c><00:03:26.230><c> add</c><00:03:26.410><c> shape</c><00:03:26.739><c> we</c>
+
+00:03:27.540 --> 00:03:27.550 align:start position:0%
+equal to comp dot layers to add shape we
+ 
+
+00:03:27.550 --> 00:03:30.990 align:start position:0%
+equal to comp dot layers to add shape we
+can<00:03:27.700><c> also</c><00:03:27.910><c> give</c><00:03:28.269><c> it</c><00:03:28.300><c> a</c><00:03:28.480><c> name</c><00:03:29.040><c> so</c><00:03:30.040><c> the</c><00:03:30.700><c> shape</c>
+
+00:03:30.990 --> 00:03:31.000 align:start position:0%
+can also give it a name so the shape
+ 
+
+00:03:31.000 --> 00:03:33.270 align:start position:0%
+can also give it a name so the shape
+layer<00:03:31.239><c> name</c><00:03:31.750><c> and</c><00:03:31.959><c> referring</c><00:03:32.769><c> back</c><00:03:32.950><c> to</c><00:03:33.010><c> our</c>
+
+00:03:33.270 --> 00:03:33.280 align:start position:0%
+layer name and referring back to our
+ 
+
+00:03:33.280 --> 00:03:36.990 align:start position:0%
+layer name and referring back to our
+project<00:03:33.790><c> here</c><00:03:34.090><c> we</c><00:03:34.750><c> have</c><00:03:34.959><c> just</c><00:03:35.170><c> a</c><00:03:35.260><c> hexagon</c><00:03:36.000><c> so</c>
+
+00:03:36.990 --> 00:03:37.000 align:start position:0%
+project here we have just a hexagon so
+ 
+
+00:03:37.000 --> 00:03:39.000 align:start position:0%
+project here we have just a hexagon so
+we're<00:03:37.120><c> gonna</c><00:03:37.209><c> be</c><00:03:37.390><c> recreating</c><00:03:37.780><c> a</c><00:03:38.019><c> hexagon</c><00:03:38.590><c> as</c><00:03:38.800><c> a</c>
+
+00:03:39.000 --> 00:03:39.010 align:start position:0%
+we're gonna be recreating a hexagon as a
+ 
+
+00:03:39.010 --> 00:03:41.580 align:start position:0%
+we're gonna be recreating a hexagon as a
+first<00:03:39.400><c> shape</c><00:03:39.640><c> layer</c><00:03:39.910><c> so</c><00:03:40.630><c> what</c><00:03:41.110><c> we</c><00:03:41.200><c> need</c><00:03:41.320><c> to</c><00:03:41.350><c> do</c>
+
+00:03:41.580 --> 00:03:41.590 align:start position:0%
+first shape layer so what we need to do
+ 
+
+00:03:41.590 --> 00:03:43.949 align:start position:0%
+first shape layer so what we need to do
+now<00:03:41.769><c> is</c><00:03:42.010><c> learn</c><00:03:42.730><c> how</c><00:03:42.790><c> we</c><00:03:43.000><c> can</c><00:03:43.239><c> sort</c><00:03:43.510><c> of</c><00:03:43.630><c> look</c>
+
+00:03:43.949 --> 00:03:43.959 align:start position:0%
+now is learn how we can sort of look
+ 
+
+00:03:43.959 --> 00:03:45.479 align:start position:0%
+now is learn how we can sort of look
+into<00:03:44.110><c> this</c><00:03:44.350><c> project</c><00:03:44.860><c> here</c><00:03:45.130><c> in</c><00:03:45.220><c> reverse</c>
+
+00:03:45.479 --> 00:03:45.489 align:start position:0%
+into this project here in reverse
+ 
+
+00:03:45.489 --> 00:03:47.910 align:start position:0%
+into this project here in reverse
+engineer<00:03:46.090><c> it</c><00:03:46.209><c> so</c><00:03:46.420><c> what</c><00:03:47.019><c> I'm</c><00:03:47.110><c> gonna</c><00:03:47.200><c> do</c><00:03:47.500><c> is</c><00:03:47.650><c> open</c>
+
+00:03:47.910 --> 00:03:47.920 align:start position:0%
+engineer it so what I'm gonna do is open
+ 
+
+00:03:47.920 --> 00:03:50.430 align:start position:0%
+engineer it so what I'm gonna do is open
+up<00:03:48.010><c> a</c><00:03:48.100><c> new</c><00:03:48.130><c> JavaScript</c><00:03:48.880><c> file</c><00:03:49.090><c> again</c><00:03:49.570><c> and</c><00:03:49.750><c> I'm</c>
+
+00:03:50.430 --> 00:03:50.440 align:start position:0%
+up a new JavaScript file again and I'm
+ 
+
+00:03:50.440 --> 00:03:51.690 align:start position:0%
+up a new JavaScript file again and I'm
+gonna<00:03:50.590><c> make</c><00:03:50.769><c> sure</c><00:03:50.799><c> it's</c><00:03:51.100><c> linked</c><00:03:51.549><c> to</c>
+
+00:03:51.690 --> 00:03:51.700 align:start position:0%
+gonna make sure it's linked to
+ 
+
+00:03:51.700 --> 00:03:54.960 align:start position:0%
+gonna make sure it's linked to
+after-effects<00:03:52.480><c> and</c><00:03:53.010><c> now</c><00:03:54.010><c> the</c><00:03:54.070><c> same</c><00:03:54.430><c> thing</c><00:03:54.760><c> I'm</c>
+
+00:03:54.960 --> 00:03:54.970 align:start position:0%
+after-effects and now the same thing I'm
+ 
+
+00:03:54.970 --> 00:03:56.970 align:start position:0%
+after-effects and now the same thing I'm
+gonna<00:03:55.090><c> make</c><00:03:55.330><c> a</c><00:03:55.360><c> variable</c><00:03:56.170><c> for</c><00:03:56.380><c> the</c><00:03:56.440><c> project</c>
+
+00:03:56.970 --> 00:03:56.980 align:start position:0%
+gonna make a variable for the project
+ 
+
+00:03:56.980 --> 00:04:01.199 align:start position:0%
+gonna make a variable for the project
+and<00:03:57.910><c> one</c><00:03:58.150><c> for</c><00:03:58.420><c> the</c><00:03:58.480><c> composition</c><00:03:59.260><c> and</c><00:03:59.440><c> then</c><00:04:00.220><c> to</c>
+
+00:04:01.199 --> 00:04:01.209 align:start position:0%
+and one for the composition and then to
+ 
+
+00:04:01.209 --> 00:04:03.210 align:start position:0%
+and one for the composition and then to
+start<00:04:01.450><c> reverse</c><00:04:01.840><c> engineering</c><00:04:02.470><c> we</c><00:04:02.769><c> need</c><00:04:02.950><c> to</c><00:04:03.040><c> get</c>
+
+00:04:03.210 --> 00:04:03.220 align:start position:0%
+start reverse engineering we need to get
+ 
+
+00:04:03.220 --> 00:04:06.150 align:start position:0%
+start reverse engineering we need to get
+our<00:04:03.400><c> hexagon</c><00:04:04.030><c> layer</c><00:04:04.450><c> as</c><00:04:04.660><c> well</c><00:04:04.930><c> so</c><00:04:05.530><c> it's</c><00:04:05.860><c> layer</c>
+
+00:04:06.150 --> 00:04:06.160 align:start position:0%
+our hexagon layer as well so it's layer
+ 
+
+00:04:06.160 --> 00:04:08.520 align:start position:0%
+our hexagon layer as well so it's layer
+number<00:04:06.519><c> three</c><00:04:06.850><c> so</c><00:04:07.780><c> we're</c><00:04:07.900><c> going</c><00:04:08.080><c> to</c><00:04:08.170><c> say</c><00:04:08.260><c> layer</c>
+
+00:04:08.520 --> 00:04:08.530 align:start position:0%
+number three so we're going to say layer
+ 
+
+00:04:08.530 --> 00:04:11.520 align:start position:0%
+number three so we're going to say layer
+equals<00:04:09.040><c> comm</c><00:04:09.430><c> player</c><00:04:10.090><c> three</c><00:04:10.660><c> and</c><00:04:11.230><c> just</c><00:04:11.380><c> to</c>
+
+00:04:11.520 --> 00:04:11.530 align:start position:0%
+equals comm player three and just to
+ 
+
+00:04:11.530 --> 00:04:13.530 align:start position:0%
+equals comm player three and just to
+make<00:04:11.650><c> sure</c><00:04:11.950><c> we're</c><00:04:12.160><c> getting</c><00:04:12.280><c> the</c><00:04:12.459><c> right</c><00:04:12.640><c> layer</c>
+
+00:04:13.530 --> 00:04:13.540 align:start position:0%
+make sure we're getting the right layer
+ 
+
+00:04:13.540 --> 00:04:16.229 align:start position:0%
+make sure we're getting the right layer
+here<00:04:14.019><c> we're</c><00:04:14.530><c> going</c><00:04:14.739><c> to</c><00:04:14.860><c> alert</c><00:04:15.310><c> the</c><00:04:15.730><c> layer</c><00:04:15.940><c> name</c>
+
+00:04:16.229 --> 00:04:16.239 align:start position:0%
+here we're going to alert the layer name
+ 
+
+00:04:16.239 --> 00:04:18.270 align:start position:0%
+here we're going to alert the layer name
+and<00:04:16.720><c> you</c><00:04:16.989><c> can</c><00:04:17.109><c> see</c><00:04:17.290><c> we're</c><00:04:17.470><c> getting</c><00:04:17.590><c> hexagons</c>
+
+00:04:18.270 --> 00:04:18.280 align:start position:0%
+and you can see we're getting hexagons
+ 
+
+00:04:18.280 --> 00:04:22.230 align:start position:0%
+and you can see we're getting hexagons
+layer<00:04:18.850><c> one</c><00:04:19.239><c> so</c><00:04:20.109><c> now</c><00:04:20.530><c> we</c><00:04:20.590><c> can</c><00:04:20.799><c> go</c><00:04:20.950><c> ahead</c><00:04:20.979><c> and</c><00:04:21.340><c> go</c>
+
+00:04:22.230 --> 00:04:22.240 align:start position:0%
+layer one so now we can go ahead and go
+ 
+
+00:04:22.240 --> 00:04:23.969 align:start position:0%
+layer one so now we can go ahead and go
+deeper<00:04:22.720><c> into</c><00:04:22.870><c> the</c><00:04:23.050><c> hexagons</c><00:04:23.500><c> layer</c><00:04:23.710><c> into</c><00:04:23.890><c> the</c>
+
+00:04:23.969 --> 00:04:23.979 align:start position:0%
+deeper into the hexagons layer into the
+ 
+
+00:04:23.979 --> 00:04:26.960 align:start position:0%
+deeper into the hexagons layer into the
+contents<00:04:24.669><c> and</c><00:04:25.110><c> reverse</c><00:04:26.110><c> engineer</c>
+
+00:04:26.960 --> 00:04:26.970 align:start position:0%
+contents and reverse engineer
+ 
+
+00:04:26.970 --> 00:04:28.670 align:start position:0%
+contents and reverse engineer
+so<00:04:27.720><c> now</c><00:04:27.930><c> I'm</c><00:04:27.990><c> going</c><00:04:28.080><c> to</c><00:04:28.170><c> go</c><00:04:28.260><c> ahead</c><00:04:28.320><c> and</c><00:04:28.470><c> test</c>
+
+00:04:28.670 --> 00:04:28.680 align:start position:0%
+so now I'm going to go ahead and test
+ 
+
+00:04:28.680 --> 00:04:30.140 align:start position:0%
+so now I'm going to go ahead and test
+this<00:04:28.920><c> original</c><00:04:29.400><c> script</c><00:04:29.700><c> to</c><00:04:29.820><c> see</c><00:04:30.000><c> what</c><00:04:30.120><c> our</c>
+
+00:04:30.140 --> 00:04:30.150 align:start position:0%
+this original script to see what our
+ 
+
+00:04:30.150 --> 00:04:32.270 align:start position:0%
+this original script to see what our
+empty<00:04:30.570><c> shape</c><00:04:30.810><c> layer</c><00:04:31.080><c> looks</c><00:04:31.320><c> like</c><00:04:31.530><c> I'm</c><00:04:32.130><c> going</c>
+
+00:04:32.270 --> 00:04:32.280 align:start position:0%
+empty shape layer looks like I'm going
+ 
+
+00:04:32.280 --> 00:04:35.480 align:start position:0%
+empty shape layer looks like I'm going
+to<00:04:32.310><c> run</c><00:04:32.490><c> it</c><00:04:32.670><c> and</c><00:04:33.200><c> you</c><00:04:34.200><c> can</c><00:04:34.380><c> see</c><00:04:34.710><c> we</c><00:04:35.250><c> have</c><00:04:35.460><c> our</c>
+
+00:04:35.480 --> 00:04:35.490 align:start position:0%
+to run it and you can see we have our
+ 
+
+00:04:35.490 --> 00:04:38.330 align:start position:0%
+to run it and you can see we have our
+hexagon<00:04:36.090><c> layer</c><00:04:36.510><c> here</c><00:04:36.870><c> if</c><00:04:37.350><c> I</c><00:04:37.500><c> make</c><00:04:37.710><c> sure</c><00:04:37.740><c> I</c><00:04:37.950><c> have</c>
+
+00:04:38.330 --> 00:04:38.340 align:start position:0%
+hexagon layer here if I make sure I have
+ 
+
+00:04:38.340 --> 00:04:41.390 align:start position:0%
+hexagon layer here if I make sure I have
+a<00:04:38.370><c> no</c><00:04:38.850><c> comp</c><00:04:39.150><c> selected</c><00:04:39.780><c> and</c><00:04:39.990><c> I</c><00:04:40.470><c> run</c><00:04:40.710><c> it</c><00:04:40.830><c> you</c><00:04:41.250><c> can</c>
+
+00:04:41.390 --> 00:04:41.400 align:start position:0%
+a no comp selected and I run it you can
+ 
+
+00:04:41.400 --> 00:04:43.100 align:start position:0%
+a no comp selected and I run it you can
+see<00:04:41.640><c> it's</c><00:04:41.820><c> going</c><00:04:41.910><c> to</c><00:04:41.970><c> open</c><00:04:42.240><c> a</c><00:04:42.330><c> new</c><00:04:42.480><c> comp</c><00:04:42.810><c> and</c>
+
+00:04:43.100 --> 00:04:43.110 align:start position:0%
+see it's going to open a new comp and
+ 
+
+00:04:43.110 --> 00:04:45.740 align:start position:0%
+see it's going to open a new comp and
+create<00:04:43.800><c> our</c><00:04:43.830><c> hexagon</c><00:04:44.460><c> shape</c><00:04:44.880><c> layer</c><00:04:45.150><c> which</c><00:04:45.630><c> is</c>
+
+00:04:45.740 --> 00:04:45.750 align:start position:0%
+create our hexagon shape layer which is
+ 
+
+00:04:45.750 --> 00:04:47.600 align:start position:0%
+create our hexagon shape layer which is
+currently<00:04:46.110><c> empty</c><00:04:46.440><c> it</c><00:04:46.860><c> does</c><00:04:47.160><c> have</c><00:04:47.400><c> the</c>
+
+00:04:47.600 --> 00:04:47.610 align:start position:0%
+currently empty it does have the
+ 
+
+00:04:47.610 --> 00:04:49.910 align:start position:0%
+currently empty it does have the
+contents<00:04:48.270><c> but</c><00:04:48.780><c> if</c><00:04:48.870><c> we</c><00:04:48.990><c> look</c><00:04:49.230><c> at</c><00:04:49.350><c> our</c><00:04:49.500><c> other</c><00:04:49.680><c> one</c>
+
+00:04:49.910 --> 00:04:49.920 align:start position:0%
+contents but if we look at our other one
+ 
+
+00:04:49.920 --> 00:04:52.700 align:start position:0%
+contents but if we look at our other one
+it<00:04:50.310><c> doesn't</c><00:04:50.610><c> have</c><00:04:50.760><c> this</c><00:04:51.180><c> hexagon</c><00:04:51.930><c> or</c><00:04:52.290><c> the</c><00:04:52.440><c> poly</c>
+
+00:04:52.700 --> 00:04:52.710 align:start position:0%
+it doesn't have this hexagon or the poly
+ 
+
+00:04:52.710 --> 00:04:54.740 align:start position:0%
+it doesn't have this hexagon or the poly
+star<00:04:53.100><c> path</c><00:04:53.370><c> and</c><00:04:53.700><c> these</c><00:04:54.180><c> are</c><00:04:54.300><c> the</c><00:04:54.360><c> properties</c>
+
+00:04:54.740 --> 00:04:54.750 align:start position:0%
+star path and these are the properties
+ 
+
+00:04:54.750 --> 00:04:57.350 align:start position:0%
+star path and these are the properties
+we<00:04:54.990><c> need</c><00:04:55.020><c> to</c><00:04:55.290><c> engineer</c><00:04:55.890><c> essentially</c><00:04:56.580><c> now</c><00:04:56.730><c> so</c>
+
+00:04:57.350 --> 00:04:57.360 align:start position:0%
+we need to engineer essentially now so
+ 
+
+00:04:57.360 --> 00:04:59.540 align:start position:0%
+we need to engineer essentially now so
+let's<00:04:57.690><c> go</c><00:04:57.870><c> ahead</c><00:04:57.960><c> and</c><00:04:58.320><c> see</c><00:04:59.070><c> how</c><00:04:59.100><c> we</c><00:04:59.250><c> can</c><00:04:59.430><c> do</c>
+
+00:04:59.540 --> 00:04:59.550 align:start position:0%
+let's go ahead and see how we can do
+ 
+
+00:04:59.550 --> 00:05:01.640 align:start position:0%
+let's go ahead and see how we can do
+this<00:04:59.730><c> back</c><00:05:00.060><c> on</c><00:05:00.270><c> our</c><00:05:00.390><c> other</c><00:05:00.570><c> one</c><00:05:00.810><c> since</c><00:05:01.350><c> we</c><00:05:01.470><c> have</c>
+
+00:05:01.640 --> 00:05:01.650 align:start position:0%
+this back on our other one since we have
+ 
+
+00:05:01.650 --> 00:05:04.280 align:start position:0%
+this back on our other one since we have
+a<00:05:01.680><c> layer</c><00:05:02.130><c> variable</c><00:05:02.970><c> we</c><00:05:03.360><c> can</c><00:05:03.510><c> now</c><00:05:03.720><c> go</c><00:05:03.960><c> in</c><00:05:04.140><c> and</c>
+
+00:05:04.280 --> 00:05:04.290 align:start position:0%
+a layer variable we can now go in and
+ 
+
+00:05:04.290 --> 00:05:06.830 align:start position:0%
+a layer variable we can now go in and
+check<00:05:04.680><c> out</c><00:05:04.860><c> what</c><00:05:05.310><c> the</c><00:05:05.430><c> values</c><00:05:05.850><c> and</c><00:05:06.120><c> properties</c>
+
+00:05:06.830 --> 00:05:06.840 align:start position:0%
+check out what the values and properties
+ 
+
+00:05:06.840 --> 00:05:09.290 align:start position:0%
+check out what the values and properties
+are<00:05:06.870><c> of</c><00:05:07.170><c> our</c><00:05:07.680><c> layer</c><00:05:07.890><c> so</c><00:05:08.760><c> we're</c><00:05:08.910><c> talking</c><00:05:09.060><c> about</c>
+
+00:05:09.290 --> 00:05:09.300 align:start position:0%
+are of our layer so we're talking about
+ 
+
+00:05:09.300 --> 00:05:11.300 align:start position:0%
+are of our layer so we're talking about
+our<00:05:09.510><c> hexagon</c><00:05:09.780><c> layer</c><00:05:10.110><c> here</c><00:05:10.440><c> and</c><00:05:10.650><c> we</c><00:05:11.070><c> want</c><00:05:11.220><c> to</c>
+
+00:05:11.300 --> 00:05:11.310 align:start position:0%
+our hexagon layer here and we want to
+ 
+
+00:05:11.310 --> 00:05:14.000 align:start position:0%
+our hexagon layer here and we want to
+first<00:05:11.520><c> to</c><00:05:11.640><c> check</c><00:05:11.880><c> out</c><00:05:12.030><c> the</c><00:05:12.210><c> contents</c><00:05:12.840><c> so</c><00:05:13.020><c> what</c>
+
+00:05:14.000 --> 00:05:14.010 align:start position:0%
+first to check out the contents so what
+ 
+
+00:05:14.010 --> 00:05:15.500 align:start position:0%
+first to check out the contents so what
+I'm<00:05:14.100><c> about</c><00:05:14.130><c> to</c><00:05:14.280><c> explain</c><00:05:14.730><c> is</c><00:05:14.910><c> essentially</c><00:05:15.390><c> the</c>
+
+00:05:15.500 --> 00:05:15.510 align:start position:0%
+I'm about to explain is essentially the
+ 
+
+00:05:15.510 --> 00:05:17.810 align:start position:0%
+I'm about to explain is essentially the
+way<00:05:15.660><c> I</c><00:05:15.690><c> reverse</c><00:05:16.500><c> engineer</c><00:05:16.950><c> all</c><00:05:17.130><c> this</c><00:05:17.340><c> stuff</c><00:05:17.640><c> if</c>
+
+00:05:17.810 --> 00:05:17.820 align:start position:0%
+way I reverse engineer all this stuff if
+ 
+
+00:05:17.820 --> 00:05:20.180 align:start position:0%
+way I reverse engineer all this stuff if
+I<00:05:18.000><c> want</c><00:05:18.180><c> to</c><00:05:18.240><c> learn</c><00:05:18.360><c> how</c><00:05:18.540><c> to</c><00:05:18.570><c> add</c><00:05:19.080><c> a</c><00:05:19.110><c> hexagon</c><00:05:19.740><c> or</c>
+
+00:05:20.180 --> 00:05:20.190 align:start position:0%
+I want to learn how to add a hexagon or
+ 
+
+00:05:20.190 --> 00:05:21.650 align:start position:0%
+I want to learn how to add a hexagon or
+I<00:05:20.280><c> want</c><00:05:20.400><c> to</c><00:05:20.430><c> learn</c><00:05:20.580><c> how</c><00:05:20.730><c> to</c><00:05:20.790><c> add</c><00:05:20.940><c> a</c><00:05:20.970><c> poly</c><00:05:21.360><c> star</c>
+
+00:05:21.650 --> 00:05:21.660 align:start position:0%
+I want to learn how to add a poly star
+ 
+
+00:05:21.660 --> 00:05:24.650 align:start position:0%
+I want to learn how to add a poly star
+path<00:05:21.900><c> property</c><00:05:22.500><c> this</c><00:05:22.950><c> is</c><00:05:23.130><c> how</c><00:05:23.310><c> you</c><00:05:23.370><c> do</c><00:05:23.700><c> it</c><00:05:23.730><c> you</c>
+
+00:05:24.650 --> 00:05:24.660 align:start position:0%
+path property this is how you do it you
+ 
+
+00:05:24.660 --> 00:05:26.120 align:start position:0%
+path property this is how you do it you
+first<00:05:24.930><c> want</c><00:05:25.080><c> to</c><00:05:25.170><c> grab</c><00:05:25.440><c> your</c><00:05:25.650><c> layer</c><00:05:25.860><c> or</c>
+
+00:05:26.120 --> 00:05:26.130 align:start position:0%
+first want to grab your layer or
+ 
+
+00:05:26.130 --> 00:05:28.070 align:start position:0%
+first want to grab your layer or
+whatever<00:05:26.670><c> object</c><00:05:27.210><c> you</c><00:05:27.330><c> want</c><00:05:27.480><c> to</c><00:05:27.570><c> grab</c><00:05:27.930><c> the</c>
+
+00:05:28.070 --> 00:05:28.080 align:start position:0%
+whatever object you want to grab the
+ 
+
+00:05:28.080 --> 00:05:30.470 align:start position:0%
+whatever object you want to grab the
+property<00:05:28.530><c> for</c><00:05:28.710><c> now</c><00:05:29.250><c> we're</c><00:05:29.400><c> gonna</c><00:05:29.490><c> go</c><00:05:29.790><c> level</c><00:05:30.300><c> by</c>
+
+00:05:30.470 --> 00:05:30.480 align:start position:0%
+property for now we're gonna go level by
+ 
+
+00:05:30.480 --> 00:05:32.630 align:start position:0%
+property for now we're gonna go level by
+level<00:05:30.840><c> down</c><00:05:31.620><c> until</c><00:05:32.040><c> we</c><00:05:32.160><c> get</c><00:05:32.310><c> all</c><00:05:32.490><c> the</c>
+
+00:05:32.630 --> 00:05:32.640 align:start position:0%
+level down until we get all the
+ 
+
+00:05:32.640 --> 00:05:35.060 align:start position:0%
+level down until we get all the
+properties<00:05:33.120><c> we</c><00:05:33.300><c> want</c><00:05:33.540><c> so</c><00:05:34.050><c> what</c><00:05:34.680><c> I'm</c><00:05:34.770><c> gonna</c><00:05:34.860><c> do</c>
+
+00:05:35.060 --> 00:05:35.070 align:start position:0%
+properties we want so what I'm gonna do
+ 
+
+00:05:35.070 --> 00:05:36.830 align:start position:0%
+properties we want so what I'm gonna do
+instead<00:05:35.190><c> of</c><00:05:35.460><c> alerting</c><00:05:35.940><c> it</c><00:05:36.210><c> is</c><00:05:36.360><c> I'm</c><00:05:36.510><c> gonna</c><00:05:36.630><c> say</c>
+
+00:05:36.830 --> 00:05:36.840 align:start position:0%
+instead of alerting it is I'm gonna say
+ 
+
+00:05:36.840 --> 00:05:39.080 align:start position:0%
+instead of alerting it is I'm gonna say
+write<00:05:37.830><c> line</c><00:05:38.130><c> so</c><00:05:38.460><c> we</c><00:05:38.550><c> can</c><00:05:38.580><c> see</c><00:05:38.880><c> in</c><00:05:39.000><c> the</c>
+
+00:05:39.080 --> 00:05:39.090 align:start position:0%
+write line so we can see in the
+ 
+
+00:05:39.090 --> 00:05:41.270 align:start position:0%
+write line so we can see in the
+JavaScript<00:05:39.660><c> console</c><00:05:40.110><c> and</c><00:05:40.350><c> copy</c><00:05:40.680><c> and</c><00:05:40.890><c> paste</c><00:05:41.070><c> it</c>
+
+00:05:41.270 --> 00:05:41.280 align:start position:0%
+JavaScript console and copy and paste it
+ 
+
+00:05:41.280 --> 00:05:43.400 align:start position:0%
+JavaScript console and copy and paste it
+if<00:05:41.370><c> we</c><00:05:41.520><c> need</c><00:05:41.700><c> so</c><00:05:42.570><c> I'm</c><00:05:42.840><c> gonna</c><00:05:42.960><c> say</c><00:05:43.110><c> the</c><00:05:43.200><c> layer</c>
+
+00:05:43.400 --> 00:05:43.410 align:start position:0%
+if we need so I'm gonna say the layer
+ 
+
+00:05:43.410 --> 00:05:45.830 align:start position:0%
+if we need so I'm gonna say the layer
+dot<00:05:43.650><c> property</c><00:05:44.250><c> and</c><00:05:44.490><c> the</c><00:05:44.940><c> first</c><00:05:45.090><c> property</c><00:05:45.630><c> we</c>
+
+00:05:45.830 --> 00:05:45.840 align:start position:0%
+dot property and the first property we
+ 
+
+00:05:45.840 --> 00:05:48.680 align:start position:0%
+dot property and the first property we
+want<00:05:45.960><c> to</c><00:05:46.080><c> go</c><00:05:46.230><c> down</c><00:05:46.410><c> into</c><00:05:46.650><c> is</c><00:05:47.010><c> our</c><00:05:47.190><c> contents</c><00:05:47.880><c> so</c>
+
+00:05:48.680 --> 00:05:48.690 align:start position:0%
+want to go down into is our contents so
+ 
+
+00:05:48.690 --> 00:05:50.870 align:start position:0%
+want to go down into is our contents so
+I'll<00:05:48.750><c> type</c><00:05:48.960><c> in</c><00:05:49.140><c> contents</c><00:05:49.770><c> and</c><00:05:50.340><c> I'm</c><00:05:50.610><c> just</c><00:05:50.760><c> gonna</c>
+
+00:05:50.870 --> 00:05:50.880 align:start position:0%
+I'll type in contents and I'm just gonna
+ 
+
+00:05:50.880 --> 00:05:52.220 align:start position:0%
+I'll type in contents and I'm just gonna
+go<00:05:51.180><c> ahead</c><00:05:51.240><c> and</c><00:05:51.360><c> run</c><00:05:51.540><c> this</c><00:05:51.720><c> and</c><00:05:51.780><c> see</c><00:05:52.050><c> what</c><00:05:52.140><c> it</c>
+
+00:05:52.220 --> 00:05:52.230 align:start position:0%
+go ahead and run this and see what it
+ 
+
+00:05:52.230 --> 00:05:54.590 align:start position:0%
+go ahead and run this and see what it
+gives<00:05:52.350><c> me</c><00:05:52.560><c> you</c><00:05:53.040><c> can</c><00:05:53.220><c> see</c><00:05:53.430><c> we</c><00:05:53.580><c> get</c><00:05:53.760><c> an</c><00:05:53.940><c> object</c>
+
+00:05:54.590 --> 00:05:54.600 align:start position:0%
+gives me you can see we get an object
+ 
+
+00:05:54.600 --> 00:05:56.930 align:start position:0%
+gives me you can see we get an object
+property<00:05:55.260><c> group</c><00:05:55.470><c> this</c><00:05:56.130><c> is</c><00:05:56.310><c> telling</c><00:05:56.640><c> us</c><00:05:56.760><c> that</c>
+
+00:05:56.930 --> 00:05:56.940 align:start position:0%
+property group this is telling us that
+ 
+
+00:05:56.940 --> 00:05:58.940 align:start position:0%
+property group this is telling us that
+something<00:05:57.150><c> is</c><00:05:57.450><c> indeed</c><00:05:57.720><c> there</c><00:05:57.990><c> and</c><00:05:58.230><c> we</c><00:05:58.770><c> can</c>
+
+00:05:58.940 --> 00:05:58.950 align:start position:0%
+something is indeed there and we can
+ 
+
+00:05:58.950 --> 00:06:01.850 align:start position:0%
+something is indeed there and we can
+even<00:05:59.160><c> say</c><00:05:59.550><c> dot</c><00:06:00.090><c> name</c><00:06:00.540><c> and</c><00:06:00.840><c> we</c><00:06:01.350><c> should</c><00:06:01.620><c> get</c>
+
+00:06:01.850 --> 00:06:01.860 align:start position:0%
+even say dot name and we should get
+ 
+
+00:06:01.860 --> 00:06:04.340 align:start position:0%
+even say dot name and we should get
+contents<00:06:02.640><c> yep</c><00:06:03.240><c> we're</c><00:06:03.540><c> getting</c><00:06:03.750><c> contents</c>
+
+00:06:04.340 --> 00:06:04.350 align:start position:0%
+contents yep we're getting contents
+ 
+
+00:06:04.350 --> 00:06:05.930 align:start position:0%
+contents yep we're getting contents
+because<00:06:04.680><c> that's</c><00:06:04.860><c> obviously</c><00:06:05.280><c> the</c><00:06:05.370><c> contents</c>
+
+00:06:05.930 --> 00:06:05.940 align:start position:0%
+because that's obviously the contents
+ 
+
+00:06:05.940 --> 00:06:08.000 align:start position:0%
+because that's obviously the contents
+property<00:06:06.480><c> now</c><00:06:07.169><c> we</c><00:06:07.230><c> need</c><00:06:07.440><c> to</c><00:06:07.530><c> actually</c><00:06:07.680><c> get</c>
+
+00:06:08.000 --> 00:06:08.010 align:start position:0%
+property now we need to actually get
+ 
+
+00:06:08.010 --> 00:06:09.800 align:start position:0%
+property now we need to actually get
+what's<00:06:08.220><c> called</c><00:06:08.400><c> the</c><00:06:08.700><c> match</c><00:06:08.910><c> name</c><00:06:09.270><c> if</c><00:06:09.630><c> you're</c>
+
+00:06:09.800 --> 00:06:09.810 align:start position:0%
+what's called the match name if you're
+ 
+
+00:06:09.810 --> 00:06:11.690 align:start position:0%
+what's called the match name if you're
+not<00:06:09.930><c> familiar</c><00:06:10.080><c> the</c><00:06:10.590><c> match</c><00:06:10.800><c> name</c><00:06:11.130><c> is</c><00:06:11.340><c> sort</c><00:06:11.610><c> of</c>
+
+00:06:11.690 --> 00:06:11.700 align:start position:0%
+not familiar the match name is sort of
+ 
+
+00:06:11.700 --> 00:06:14.330 align:start position:0%
+not familiar the match name is sort of
+the<00:06:11.940><c> built-in</c><00:06:12.810><c> after-effects</c><00:06:13.710><c> language</c>
+
+00:06:14.330 --> 00:06:14.340 align:start position:0%
+the built-in after-effects language
+ 
+
+00:06:14.340 --> 00:06:17.150 align:start position:0%
+the built-in after-effects language
+version<00:06:15.030><c> of</c><00:06:15.210><c> what</c><00:06:15.900><c> anything</c><00:06:16.169><c> is</c><00:06:16.470><c> when</c><00:06:17.040><c> you're</c>
+
+00:06:17.150 --> 00:06:17.160 align:start position:0%
+version of what anything is when you're
+ 
+
+00:06:17.160 --> 00:06:19.670 align:start position:0%
+version of what anything is when you're
+applying<00:06:17.370><c> effects</c><00:06:18.000><c> or</c><00:06:18.300><c> fonts</c><00:06:18.960><c> to</c><00:06:19.169><c> things</c><00:06:19.410><c> with</c>
+
+00:06:19.670 --> 00:06:19.680 align:start position:0%
+applying effects or fonts to things with
+ 
+
+00:06:19.680 --> 00:06:21.920 align:start position:0%
+applying effects or fonts to things with
+scripts<00:06:20.070><c> and</c><00:06:20.460><c> after-effects</c><00:06:21.150><c> you</c><00:06:21.660><c> need</c><00:06:21.810><c> to</c>
+
+00:06:21.920 --> 00:06:21.930 align:start position:0%
+scripts and after-effects you need to
+ 
+
+00:06:21.930 --> 00:06:24.280 align:start position:0%
+scripts and after-effects you need to
+use<00:06:22.080><c> the</c><00:06:22.260><c> match</c><00:06:22.470><c> names</c><00:06:22.860><c> that</c><00:06:23.550><c> way</c><00:06:23.850><c> I</c>
+
+00:06:24.280 --> 00:06:24.290 align:start position:0%
+use the match names that way I
+ 
+
+00:06:24.290 --> 00:06:26.600 align:start position:0%
+use the match names that way I
+essentially<00:06:25.290><c> recognizes</c><00:06:25.950><c> it</c><00:06:26.100><c> and</c><00:06:26.250><c> applies</c><00:06:26.580><c> it</c>
+
+00:06:26.600 --> 00:06:26.610 align:start position:0%
+essentially recognizes it and applies it
+ 
+
+00:06:26.610 --> 00:06:28.700 align:start position:0%
+essentially recognizes it and applies it
+properly<00:06:27.240><c> so</c><00:06:27.870><c> if</c><00:06:27.930><c> we</c><00:06:28.020><c> wanted</c><00:06:28.230><c> to</c><00:06:28.350><c> say</c><00:06:28.500><c> add</c>
+
+00:06:28.700 --> 00:06:28.710 align:start position:0%
+properly so if we wanted to say add
+ 
+
+00:06:28.710 --> 00:06:31.130 align:start position:0%
+properly so if we wanted to say add
+these<00:06:28.980><c> contents</c><00:06:29.760><c> add</c><00:06:29.880><c> another</c><00:06:30.450><c> contents</c>
+
+00:06:31.130 --> 00:06:31.140 align:start position:0%
+these contents add another contents
+ 
+
+00:06:31.140 --> 00:06:33.260 align:start position:0%
+these contents add another contents
+property<00:06:31.680><c> we</c><00:06:32.220><c> couldn't</c><00:06:32.550><c> say</c><00:06:32.730><c> dot</c><00:06:33.060><c> add</c>
+
+00:06:33.260 --> 00:06:33.270 align:start position:0%
+property we couldn't say dot add
+ 
+
+00:06:33.270 --> 00:06:35.570 align:start position:0%
+property we couldn't say dot add
+contents<00:06:34.050><c> we</c><00:06:34.530><c> need</c><00:06:34.650><c> to</c><00:06:34.740><c> actually</c><00:06:34.890><c> know</c><00:06:35.370><c> what</c>
+
+00:06:35.570 --> 00:06:35.580 align:start position:0%
+contents we need to actually know what
+ 
+
+00:06:35.580 --> 00:06:37.760 align:start position:0%
+contents we need to actually know what
+the<00:06:35.729><c> match</c><00:06:36.030><c> name</c><00:06:36.450><c> is</c><00:06:36.660><c> not</c><00:06:36.900><c> the</c><00:06:37.110><c> regular</c><00:06:37.530><c> name</c>
+
+00:06:37.760 --> 00:06:37.770 align:start position:0%
+the match name is not the regular name
+ 
+
+00:06:37.770 --> 00:06:39.770 align:start position:0%
+the match name is not the regular name
+so<00:06:38.310><c> if</c><00:06:38.370><c> I</c><00:06:38.490><c> run</c><00:06:38.700><c> this</c><00:06:38.940><c> you</c><00:06:39.180><c> can</c><00:06:39.330><c> see</c><00:06:39.510><c> we</c><00:06:39.660><c> get</c>
+
+00:06:39.770 --> 00:06:39.780 align:start position:0%
+so if I run this you can see we get
+ 
+
+00:06:39.780 --> 00:06:40.690 align:start position:0%
+so if I run this you can see we get
+something<00:06:40.020><c> called</c><00:06:40.380><c> a</c>
+
+00:06:40.690 --> 00:06:40.700 align:start position:0%
+something called a
+ 
+
+00:06:40.700 --> 00:06:42.910 align:start position:0%
+something called a
+Doby<00:06:41.000><c> root</c><00:06:41.330><c> vectors</c><00:06:41.990><c> a</c><00:06:42.080><c> group</c><00:06:42.380><c> so</c><00:06:42.800><c> that's</c>
+
+00:06:42.910 --> 00:06:42.920 align:start position:0%
+Doby root vectors a group so that's
+ 
+
+00:06:42.920 --> 00:06:45.280 align:start position:0%
+Doby root vectors a group so that's
+actually<00:06:43.580><c> what</c><00:06:43.850><c> the</c><00:06:44.240><c> contents</c><00:06:44.900><c> group</c><00:06:45.140><c> is</c>
+
+00:06:45.280 --> 00:06:45.290 align:start position:0%
+actually what the contents group is
+ 
+
+00:06:45.290 --> 00:06:47.740 align:start position:0%
+actually what the contents group is
+really<00:06:45.590><c> called</c><00:06:45.890><c> if</c><00:06:46.190><c> we</c><00:06:46.550><c> ever</c><00:06:46.790><c> wanted</c><00:06:47.180><c> to</c><00:06:47.420><c> do</c>
+
+00:06:47.740 --> 00:06:47.750 align:start position:0%
+really called if we ever wanted to do
+ 
+
+00:06:47.750 --> 00:06:49.090 align:start position:0%
+really called if we ever wanted to do
+something<00:06:48.110><c> with</c><00:06:48.200><c> it</c><00:06:48.410><c> we</c><00:06:48.560><c> need</c><00:06:48.680><c> to</c><00:06:48.770><c> refer</c><00:06:49.070><c> to</c>
+
+00:06:49.090 --> 00:06:49.100 align:start position:0%
+something with it we need to refer to
+ 
+
+00:06:49.100 --> 00:06:51.970 align:start position:0%
+something with it we need to refer to
+this<00:06:49.520><c> not</c><00:06:50.300><c> the</c><00:06:50.540><c> name</c><00:06:50.750><c> that</c><00:06:50.780><c> we</c><00:06:51.110><c> see</c><00:06:51.350><c> as</c><00:06:51.560><c> a</c><00:06:51.830><c> user</c>
+
+00:06:51.970 --> 00:06:51.980 align:start position:0%
+this not the name that we see as a user
+ 
+
+00:06:51.980 --> 00:06:54.580 align:start position:0%
+this not the name that we see as a user
+but<00:06:52.670><c> the</c><00:06:52.880><c> contents</c><00:06:53.360><c> group</c><00:06:53.540><c> already</c><00:06:53.930><c> exists</c><00:06:54.470><c> so</c>
+
+00:06:54.580 --> 00:06:54.590 align:start position:0%
+but the contents group already exists so
+ 
+
+00:06:54.590 --> 00:06:56.980 align:start position:0%
+but the contents group already exists so
+we<00:06:54.740><c> need</c><00:06:54.920><c> to</c><00:06:55.040><c> continue</c><00:06:55.220><c> diving</c><00:06:55.880><c> deeper</c><00:06:56.330><c> to</c><00:06:56.840><c> get</c>
+
+00:06:56.980 --> 00:06:56.990 align:start position:0%
+we need to continue diving deeper to get
+ 
+
+00:06:56.990 --> 00:06:59.560 align:start position:0%
+we need to continue diving deeper to get
+the<00:06:57.260><c> next</c><00:06:57.500><c> properties</c><00:06:58.100><c> and</c><00:06:58.370><c> you</c><00:06:58.940><c> can</c><00:06:59.090><c> see</c><00:06:59.330><c> the</c>
+
+00:06:59.560 --> 00:06:59.570 align:start position:0%
+the next properties and you can see the
+ 
+
+00:06:59.570 --> 00:07:01.870 align:start position:0%
+the next properties and you can see the
+hexagon<00:07:00.140><c> which</c><00:07:00.740><c> we</c><00:07:00.920><c> need</c><00:07:01.040><c> to</c><00:07:01.100><c> recreate</c><00:07:01.520><c> is</c><00:07:01.700><c> the</c>
+
+00:07:01.870 --> 00:07:01.880 align:start position:0%
+hexagon which we need to recreate is the
+ 
+
+00:07:01.880 --> 00:07:04.420 align:start position:0%
+hexagon which we need to recreate is the
+actual<00:07:02.270><c> next</c><00:07:02.570><c> property</c><00:07:03.050><c> so</c><00:07:03.650><c> we</c><00:07:03.800><c> can</c><00:07:03.830><c> do</c><00:07:04.010><c> now</c><00:07:04.190><c> is</c>
+
+00:07:04.420 --> 00:07:04.430 align:start position:0%
+actual next property so we can do now is
+ 
+
+00:07:04.430 --> 00:07:07.270 align:start position:0%
+actual next property so we can do now is
+move<00:07:05.360><c> on</c><00:07:05.570><c> from</c><00:07:05.870><c> contents</c><00:07:06.470><c> and</c><00:07:06.620><c> grab</c><00:07:06.830><c> the</c><00:07:07.010><c> next</c>
+
+00:07:07.270 --> 00:07:07.280 align:start position:0%
+move on from contents and grab the next
+ 
+
+00:07:07.280 --> 00:07:09.700 align:start position:0%
+move on from contents and grab the next
+property<00:07:07.630><c> because</c><00:07:08.630><c> I'm</c><00:07:08.810><c> not</c><00:07:08.990><c> sure</c><00:07:09.260><c> what</c><00:07:09.560><c> the</c>
+
+00:07:09.700 --> 00:07:09.710 align:start position:0%
+property because I'm not sure what the
+ 
+
+00:07:09.710 --> 00:07:11.530 align:start position:0%
+property because I'm not sure what the
+property<00:07:10.160><c> might</c><00:07:10.310><c> be</c><00:07:10.460><c> called</c><00:07:10.730><c> it's</c><00:07:11.150><c> obviously</c>
+
+00:07:11.530 --> 00:07:11.540 align:start position:0%
+property might be called it's obviously
+ 
+
+00:07:11.540 --> 00:07:13.390 align:start position:0%
+property might be called it's obviously
+called<00:07:11.810><c> hexagon</c><00:07:12.350><c> but</c><00:07:12.650><c> there</c><00:07:13.070><c> might</c><00:07:13.220><c> be</c><00:07:13.280><c> a</c>
+
+00:07:13.390 --> 00:07:13.400 align:start position:0%
+called hexagon but there might be a
+ 
+
+00:07:13.400 --> 00:07:15.640 align:start position:0%
+called hexagon but there might be a
+hidden<00:07:13.640><c> property</c><00:07:14.180><c> as</c><00:07:14.270><c> well</c><00:07:14.510><c> so</c><00:07:14.840><c> let's</c><00:07:15.380><c> grab</c>
+
+00:07:15.640 --> 00:07:15.650 align:start position:0%
+hidden property as well so let's grab
+ 
+
+00:07:15.650 --> 00:07:18.580 align:start position:0%
+hidden property as well so let's grab
+property<00:07:16.220><c> one</c><00:07:16.550><c> and</c><00:07:16.790><c> grab</c><00:07:17.360><c> the</c><00:07:17.630><c> name</c><00:07:17.870><c> so</c><00:07:18.440><c> now</c>
+
+00:07:18.580 --> 00:07:18.590 align:start position:0%
+property one and grab the name so now
+ 
+
+00:07:18.590 --> 00:07:20.260 align:start position:0%
+property one and grab the name so now
+we're<00:07:18.740><c> going</c><00:07:18.860><c> down</c><00:07:19.130><c> into</c><00:07:19.340><c> the</c><00:07:19.430><c> contents</c><00:07:20.060><c> and</c>
+
+00:07:20.260 --> 00:07:20.270 align:start position:0%
+we're going down into the contents and
+ 
+
+00:07:20.270 --> 00:07:22.420 align:start position:0%
+we're going down into the contents and
+whatever<00:07:20.840><c> the</c><00:07:21.080><c> first</c><00:07:21.290><c> property</c><00:07:21.830><c> is</c><00:07:22.010><c> one</c><00:07:22.310><c> of</c>
+
+00:07:22.420 --> 00:07:22.430 align:start position:0%
+whatever the first property is one of
+ 
+
+00:07:22.430 --> 00:07:24.100 align:start position:0%
+whatever the first property is one of
+these<00:07:22.550><c> I'm</c><00:07:22.760><c> guessing</c><00:07:23.150><c> let's</c><00:07:23.630><c> get</c><00:07:23.810><c> the</c><00:07:23.930><c> name</c><00:07:24.080><c> of</c>
+
+00:07:24.100 --> 00:07:24.110 align:start position:0%
+these I'm guessing let's get the name of
+ 
+
+00:07:24.110 --> 00:07:26.890 align:start position:0%
+these I'm guessing let's get the name of
+it<00:07:24.440><c> so</c><00:07:25.400><c> you</c><00:07:25.490><c> can</c><00:07:25.640><c> see</c><00:07:25.820><c> we're</c><00:07:25.970><c> getting</c><00:07:26.060><c> hexagons</c>
+
+00:07:26.890 --> 00:07:26.900 align:start position:0%
+it so you can see we're getting hexagons
+ 
+
+00:07:26.900 --> 00:07:30.070 align:start position:0%
+it so you can see we're getting hexagons
+as<00:07:27.110><c> I</c><00:07:27.590><c> predicted</c><00:07:27.850><c> well</c><00:07:28.850><c> let's</c><00:07:29.420><c> go</c><00:07:29.600><c> ahead</c><00:07:29.870><c> and</c>
+
+00:07:30.070 --> 00:07:30.080 align:start position:0%
+as I predicted well let's go ahead and
+ 
+
+00:07:30.080 --> 00:07:32.140 align:start position:0%
+as I predicted well let's go ahead and
+get<00:07:30.260><c> the</c><00:07:30.410><c> match</c><00:07:30.620><c> name</c><00:07:30.920><c> for</c><00:07:31.130><c> that</c><00:07:31.250><c> so</c><00:07:31.910><c> we</c><00:07:32.000><c> can</c>
+
+00:07:32.140 --> 00:07:32.150 align:start position:0%
+get the match name for that so we can
+ 
+
+00:07:32.150 --> 00:07:34.090 align:start position:0%
+get the match name for that so we can
+recreate<00:07:32.630><c> it</c><00:07:32.840><c> it</c><00:07:33.530><c> looks</c><00:07:33.710><c> like</c><00:07:33.770><c> it's</c><00:07:34.040><c> just</c>
+
+00:07:34.090 --> 00:07:34.100 align:start position:0%
+recreate it it looks like it's just
+ 
+
+00:07:34.100 --> 00:07:36.970 align:start position:0%
+recreate it it looks like it's just
+called<00:07:34.490><c> Adobe</c><00:07:34.940><c> vector</c><00:07:35.660><c> group</c><00:07:35.900><c> which</c><00:07:36.770><c> is</c>
+
+00:07:36.970 --> 00:07:36.980 align:start position:0%
+called Adobe vector group which is
+ 
+
+00:07:36.980 --> 00:07:38.680 align:start position:0%
+called Adobe vector group which is
+accurate<00:07:37.190><c> because</c><00:07:37.670><c> this</c><00:07:37.880><c> is</c><00:07:38.030><c> essentially</c>
+
+00:07:38.680 --> 00:07:38.690 align:start position:0%
+accurate because this is essentially
+ 
+
+00:07:38.690 --> 00:07:40.960 align:start position:0%
+accurate because this is essentially
+just<00:07:38.720><c> a</c><00:07:39.050><c> group</c><00:07:39.320><c> holding</c><00:07:39.920><c> a</c><00:07:40.040><c> bunch</c><00:07:40.250><c> of</c><00:07:40.430><c> stroke</c>
+
+00:07:40.960 --> 00:07:40.970 align:start position:0%
+just a group holding a bunch of stroke
+ 
+
+00:07:40.970 --> 00:07:43.210 align:start position:0%
+just a group holding a bunch of stroke
+and<00:07:41.240><c> path</c><00:07:41.840><c> information</c><00:07:42.590><c> which</c><00:07:42.740><c> creates</c><00:07:43.070><c> the</c>
+
+00:07:43.210 --> 00:07:43.220 align:start position:0%
+and path information which creates the
+ 
+
+00:07:43.220 --> 00:07:45.700 align:start position:0%
+and path information which creates the
+shape<00:07:43.250><c> so</c><00:07:43.910><c> to</c><00:07:44.660><c> recreate</c><00:07:44.990><c> it</c><00:07:45.200><c> the</c><00:07:45.290><c> first</c><00:07:45.530><c> thing</c>
+
+00:07:45.700 --> 00:07:45.710 align:start position:0%
+shape so to recreate it the first thing
+ 
+
+00:07:45.710 --> 00:07:47.740 align:start position:0%
+shape so to recreate it the first thing
+we're<00:07:45.890><c> going</c><00:07:46.010><c> to</c><00:07:46.160><c> need</c><00:07:46.310><c> is</c><00:07:46.550><c> to</c><00:07:46.940><c> add</c><00:07:47.060><c> an</c><00:07:47.300><c> Adobe</c>
+
+00:07:47.740 --> 00:07:47.750 align:start position:0%
+we're going to need is to add an Adobe
+ 
+
+00:07:47.750 --> 00:07:49.660 align:start position:0%
+we're going to need is to add an Adobe
+vector<00:07:48.170><c> group</c><00:07:48.410><c> and</c><00:07:48.650><c> we</c><00:07:49.070><c> need</c><00:07:49.220><c> to</c><00:07:49.310><c> name</c><00:07:49.520><c> it</c>
+
+00:07:49.660 --> 00:07:49.670 align:start position:0%
+vector group and we need to name it
+ 
+
+00:07:49.670 --> 00:07:51.340 align:start position:0%
+vector group and we need to name it
+hexagon<00:07:50.330><c> so</c><00:07:50.630><c> what</c><00:07:50.750><c> I'm</c><00:07:50.810><c> going</c><00:07:50.900><c> to</c><00:07:50.960><c> do</c><00:07:51.080><c> is</c><00:07:51.200><c> go</c>
+
+00:07:51.340 --> 00:07:51.350 align:start position:0%
+hexagon so what I'm going to do is go
+ 
+
+00:07:51.350 --> 00:07:53.140 align:start position:0%
+hexagon so what I'm going to do is go
+back<00:07:51.380><c> into</c><00:07:51.740><c> my</c><00:07:51.860><c> main</c><00:07:52.130><c> script</c><00:07:52.550><c> here</c><00:07:52.820><c> where</c><00:07:53.030><c> I'm</c>
+
+00:07:53.140 --> 00:07:53.150 align:start position:0%
+back into my main script here where I'm
+ 
+
+00:07:53.150 --> 00:07:55.690 align:start position:0%
+back into my main script here where I'm
+recreating<00:07:53.570><c> it</c><00:07:54.020><c> and</c><00:07:54.260><c> with</c><00:07:55.040><c> our</c><00:07:55.190><c> shape</c><00:07:55.430><c> layer</c>
+
+00:07:55.690 --> 00:07:55.700 align:start position:0%
+recreating it and with our shape layer
+ 
+
+00:07:55.700 --> 00:07:57.520 align:start position:0%
+recreating it and with our shape layer
+selected<00:07:56.270><c> I'm</c><00:07:56.450><c> going</c><00:07:56.810><c> to</c><00:07:57.080><c> create</c><00:07:57.230><c> a</c><00:07:57.350><c> new</c>
+
+00:07:57.520 --> 00:07:57.530 align:start position:0%
+selected I'm going to create a new
+ 
+
+00:07:57.530 --> 00:08:00.910 align:start position:0%
+selected I'm going to create a new
+variable<00:07:57.770><c> called</c><00:07:58.660><c> hexagon</c><00:07:59.660><c> group</c><00:08:00.260><c> this</c><00:08:00.800><c> is</c>
+
+00:08:00.910 --> 00:08:00.920 align:start position:0%
+variable called hexagon group this is
+ 
+
+00:08:00.920 --> 00:08:03.250 align:start position:0%
+variable called hexagon group this is
+going<00:08:01.070><c> to</c><00:08:01.130><c> be</c><00:08:01.250><c> representative</c><00:08:01.940><c> of</c><00:08:02.330><c> this</c><00:08:02.930><c> group</c>
+
+00:08:03.250 --> 00:08:03.260 align:start position:0%
+going to be representative of this group
+ 
+
+00:08:03.260 --> 00:08:05.290 align:start position:0%
+going to be representative of this group
+right<00:08:03.440><c> here</c><00:08:03.500><c> with</c><00:08:03.980><c> our</c><00:08:04.100><c> hexagon</c><00:08:04.460><c> in</c><00:08:04.850><c> it</c><00:08:05.060><c> and</c>
+
+00:08:05.290 --> 00:08:05.300 align:start position:0%
+right here with our hexagon in it and
+ 
+
+00:08:05.300 --> 00:08:07.090 align:start position:0%
+right here with our hexagon in it and
+then<00:08:05.720><c> I'm</c><00:08:05.930><c> going</c><00:08:06.110><c> to</c><00:08:06.230><c> say</c><00:08:06.410><c> this</c><00:08:06.590><c> is</c><00:08:06.710><c> equal</c><00:08:07.070><c> to</c>
+
+00:08:07.090 --> 00:08:07.100 align:start position:0%
+then I'm going to say this is equal to
+ 
+
+00:08:07.100 --> 00:08:09.460 align:start position:0%
+then I'm going to say this is equal to
+our<00:08:07.280><c> shape</c><00:08:07.700><c> layer</c><00:08:08.030><c> and</c><00:08:08.690><c> we're</c><00:08:08.960><c> going</c><00:08:08.990><c> to</c><00:08:09.170><c> go</c>
+
+00:08:09.460 --> 00:08:09.470 align:start position:0%
+our shape layer and we're going to go
+ 
+
+00:08:09.470 --> 00:08:13.090 align:start position:0%
+our shape layer and we're going to go
+into<00:08:09.650><c> the</c><00:08:09.860><c> property</c><00:08:10.460><c> contents</c><00:08:11.180><c> and</c><00:08:12.100><c> again</c>
+
+00:08:13.090 --> 00:08:13.100 align:start position:0%
+into the property contents and again
+ 
+
+00:08:13.100 --> 00:08:15.280 align:start position:0%
+into the property contents and again
+this<00:08:13.250><c> exists</c><00:08:13.790><c> already</c><00:08:13.940><c> and</c><00:08:14.840><c> what</c><00:08:14.960><c> we</c><00:08:15.050><c> want</c><00:08:15.230><c> to</c>
+
+00:08:15.280 --> 00:08:15.290 align:start position:0%
+this exists already and what we want to
+ 
+
+00:08:15.290 --> 00:08:18.250 align:start position:0%
+this exists already and what we want to
+do<00:08:15.530><c> is</c><00:08:15.770><c> add</c><00:08:16.340><c> that</c><00:08:16.730><c> Adobe</c><00:08:17.180><c> vector</c><00:08:17.540><c> group</c><00:08:17.750><c> so</c><00:08:18.110><c> I'm</c>
+
+00:08:18.250 --> 00:08:18.260 align:start position:0%
+do is add that Adobe vector group so I'm
+ 
+
+00:08:18.260 --> 00:08:20.290 align:start position:0%
+do is add that Adobe vector group so I'm
+going<00:08:18.470><c> to</c><00:08:18.590><c> copy</c><00:08:18.860><c> and</c><00:08:19.010><c> paste</c><00:08:19.130><c> this</c><00:08:19.670><c> match</c><00:08:20.000><c> name</c>
+
+00:08:20.290 --> 00:08:20.300 align:start position:0%
+going to copy and paste this match name
+ 
+
+00:08:20.300 --> 00:08:22.720 align:start position:0%
+going to copy and paste this match name
+and<00:08:20.510><c> for</c><00:08:21.470><c> the</c><00:08:21.530><c> contents</c><00:08:22.100><c> I'm</c><00:08:22.220><c> gonna</c><00:08:22.490><c> add</c><00:08:22.700><c> a</c>
+
+00:08:22.720 --> 00:08:22.730 align:start position:0%
+and for the contents I'm gonna add a
+ 
+
+00:08:22.730 --> 00:08:25.870 align:start position:0%
+and for the contents I'm gonna add a
+property<00:08:23.420><c> called</c><00:08:24.020><c> Adobe</c><00:08:24.470><c> vector</c><00:08:24.950><c> group</c><00:08:25.160><c> so</c>
+
+00:08:25.870 --> 00:08:25.880 align:start position:0%
+property called Adobe vector group so
+ 
+
+00:08:25.880 --> 00:08:27.160 align:start position:0%
+property called Adobe vector group so
+we're<00:08:26.000><c> gonna</c><00:08:26.090><c> basically</c><00:08:26.300><c> take</c><00:08:26.780><c> our</c><00:08:26.930><c> shape</c>
+
+00:08:27.160 --> 00:08:27.170 align:start position:0%
+we're gonna basically take our shape
+ 
+
+00:08:27.170 --> 00:08:29.650 align:start position:0%
+we're gonna basically take our shape
+layer<00:08:27.410><c> go</c><00:08:27.890><c> down</c><00:08:28.130><c> to</c><00:08:28.310><c> the</c><00:08:28.430><c> contents</c><00:08:29.000><c> and</c><00:08:29.150><c> add</c>
+
+00:08:29.650 --> 00:08:29.660 align:start position:0%
+layer go down to the contents and add
+ 
+
+00:08:29.660 --> 00:08:32.050 align:start position:0%
+layer go down to the contents and add
+something<00:08:30.410><c> called</c><00:08:30.590><c> an</c><00:08:31.040><c> Adobe</c><00:08:31.490><c> vector</c><00:08:31.850><c> group</c>
+
+00:08:32.050 --> 00:08:32.060 align:start position:0%
+something called an Adobe vector group
+ 
+
+00:08:32.060 --> 00:08:34.120 align:start position:0%
+something called an Adobe vector group
+it's<00:08:32.540><c> not</c><00:08:32.720><c> going</c><00:08:32.900><c> to</c><00:08:32.960><c> be</c><00:08:33.050><c> called</c><00:08:33.260><c> hexagon</c><00:08:33.860><c> yet</c>
+
+00:08:34.120 --> 00:08:34.130 align:start position:0%
+it's not going to be called hexagon yet
+ 
+
+00:08:34.130 --> 00:08:36.700 align:start position:0%
+it's not going to be called hexagon yet
+so<00:08:34.640><c> to</c><00:08:35.120><c> actually</c><00:08:35.450><c> show</c><00:08:35.690><c> this</c><00:08:35.900><c> we</c><00:08:36.200><c> can</c><00:08:36.349><c> run</c><00:08:36.560><c> it</c>
+
+00:08:36.700 --> 00:08:36.710 align:start position:0%
+so to actually show this we can run it
+ 
+
+00:08:36.710 --> 00:08:39.010 align:start position:0%
+so to actually show this we can run it
+and<00:08:36.860><c> if</c><00:08:37.250><c> we</c><00:08:37.340><c> scroll</c><00:08:37.640><c> down</c><00:08:37.700><c> here</c><00:08:37.910><c> to</c><00:08:38.240><c> contents</c>
+
+00:08:39.010 --> 00:08:39.020 align:start position:0%
+and if we scroll down here to contents
+ 
+
+00:08:39.020 --> 00:08:41.350 align:start position:0%
+and if we scroll down here to contents
+we<00:08:39.200><c> now</c><00:08:39.320><c> have</c><00:08:39.560><c> a</c><00:08:39.590><c> group</c><00:08:39.890><c> with</c><00:08:40.490><c> transform</c><00:08:41.210><c> and</c>
+
+00:08:41.350 --> 00:08:41.360 align:start position:0%
+we now have a group with transform and
+ 
+
+00:08:41.360 --> 00:08:43.450 align:start position:0%
+we now have a group with transform and
+material<00:08:41.810><c> options</c><00:08:42.229><c> within</c><00:08:42.440><c> it</c><00:08:42.710><c> but</c><00:08:43.220><c> we</c><00:08:43.340><c> need</c>
+
+00:08:43.450 --> 00:08:43.460 align:start position:0%
+material options within it but we need
+ 
+
+00:08:43.460 --> 00:08:45.160 align:start position:0%
+material options within it but we need
+to<00:08:43.580><c> actually</c><00:08:43.729><c> change</c><00:08:43.940><c> the</c><00:08:44.420><c> name</c><00:08:44.570><c> of</c><00:08:44.750><c> this</c><00:08:44.870><c> to</c>
+
+00:08:45.160 --> 00:08:45.170 align:start position:0%
+to actually change the name of this to
+ 
+
+00:08:45.170 --> 00:08:48.550 align:start position:0%
+to actually change the name of this to
+be<00:08:45.320><c> hexagon</c><00:08:46.010><c> within</c><00:08:46.760><c> our</c><00:08:46.880><c> script</c><00:08:47.240><c> and</c><00:08:47.510><c> also</c><00:08:48.380><c> so</c>
+
+00:08:48.550 --> 00:08:48.560 align:start position:0%
+be hexagon within our script and also so
+ 
+
+00:08:48.560 --> 00:08:50.170 align:start position:0%
+be hexagon within our script and also so
+I<00:08:48.620><c> don't</c><00:08:48.800><c> have</c><00:08:48.920><c> to</c><00:08:49.070><c> undo</c><00:08:49.490><c> each</c><00:08:49.790><c> of</c><00:08:50.030><c> these</c><00:08:50.120><c> a</c>
+
+00:08:50.170 --> 00:08:50.180 align:start position:0%
+I don't have to undo each of these a
+ 
+
+00:08:50.180 --> 00:08:52.600 align:start position:0%
+I don't have to undo each of these a
+thousand<00:08:50.810><c> times</c><00:08:51.020><c> over</c><00:08:51.260><c> and</c><00:08:51.530><c> over</c><00:08:51.800><c> I'm</c><00:08:52.100><c> going</c>
+
+00:08:52.600 --> 00:08:52.610 align:start position:0%
+thousand times over and over I'm going
+ 
+
+00:08:52.610 --> 00:08:53.440 align:start position:0%
+thousand times over and over I'm going
+to<00:08:52.730><c> add</c>
+
+00:08:53.440 --> 00:08:53.450 align:start position:0%
+to add
+ 
+
+00:08:53.450 --> 00:08:57.040 align:start position:0%
+to add
+an<00:08:53.510><c> app</c><00:08:54.280><c> beacon</c><00:08:55.280><c> undo</c><00:08:55.790><c> group</c><00:08:56.030><c> and</c><00:08:56.720><c> of</c><00:08:56.840><c> course</c>
+
+00:08:57.040 --> 00:08:57.050 align:start position:0%
+an app beacon undo group and of course
+ 
+
+00:08:57.050 --> 00:08:58.960 align:start position:0%
+an app beacon undo group and of course
+I'm<00:08:57.200><c> going</c><00:08:57.290><c> to</c><00:08:57.350><c> add</c><00:08:57.500><c> an</c><00:08:57.710><c> app</c><00:08:57.890><c> dot</c><00:08:58.130><c> end</c><00:08:58.430><c> undo</c>
+
+00:08:58.960 --> 00:08:58.970 align:start position:0%
+I'm going to add an app dot end undo
+ 
+
+00:08:58.970 --> 00:09:00.700 align:start position:0%
+I'm going to add an app dot end undo
+group<00:08:59.240><c> we</c><00:08:59.750><c> should</c><00:08:59.930><c> be</c><00:09:00.080><c> creating</c><00:09:00.200><c> a</c><00:09:00.440><c> separate</c>
+
+00:09:00.700 --> 00:09:00.710 align:start position:0%
+group we should be creating a separate
+ 
+
+00:09:00.710 --> 00:09:02.590 align:start position:0%
+group we should be creating a separate
+function<00:09:01.100><c> to</c><00:09:01.310><c> run</c><00:09:01.430><c> all</c><00:09:01.580><c> this</c><00:09:01.760><c> but</c><00:09:02.060><c> we're</c><00:09:02.330><c> fine</c>
+
+00:09:02.590 --> 00:09:02.600 align:start position:0%
+function to run all this but we're fine
+ 
+
+00:09:02.600 --> 00:09:05.020 align:start position:0%
+function to run all this but we're fine
+in<00:09:02.780><c> this</c><00:09:02.900><c> case</c><00:09:03.170><c> so</c><00:09:03.980><c> now</c><00:09:04.130><c> we</c><00:09:04.190><c> have</c><00:09:04.460><c> our</c><00:09:04.610><c> hexagon</c>
+
+00:09:05.020 --> 00:09:05.030 align:start position:0%
+in this case so now we have our hexagon
+ 
+
+00:09:05.030 --> 00:09:07.660 align:start position:0%
+in this case so now we have our hexagon
+group<00:09:05.570><c> added</c><00:09:06.260><c> what</c><00:09:06.800><c> we</c><00:09:06.830><c> can</c><00:09:07.070><c> do</c><00:09:07.220><c> to</c><00:09:07.370><c> simply</c>
+
+00:09:07.660 --> 00:09:07.670 align:start position:0%
+group added what we can do to simply
+ 
+
+00:09:07.670 --> 00:09:09.430 align:start position:0%
+group added what we can do to simply
+change<00:09:07.970><c> the</c><00:09:08.150><c> name</c><00:09:08.360><c> is</c><00:09:08.570><c> take</c><00:09:08.930><c> the</c><00:09:09.080><c> variable</c>
+
+00:09:09.430 --> 00:09:09.440 align:start position:0%
+change the name is take the variable
+ 
+
+00:09:09.440 --> 00:09:12.070 align:start position:0%
+change the name is take the variable
+hexagon<00:09:10.220><c> group</c><00:09:10.610><c> and</c><00:09:10.850><c> I'm</c><00:09:11.690><c> gonna</c><00:09:11.810><c> say</c><00:09:11.960><c> the</c><00:09:12.050><c> name</c>
+
+00:09:12.070 --> 00:09:12.080 align:start position:0%
+hexagon group and I'm gonna say the name
+ 
+
+00:09:12.080 --> 00:09:14.920 align:start position:0%
+hexagon group and I'm gonna say the name
+is<00:09:12.440><c> equal</c><00:09:12.680><c> to</c><00:09:12.860><c> hexagon</c><00:09:13.610><c> and</c><00:09:13.820><c> now</c><00:09:14.510><c> if</c><00:09:14.630><c> we</c><00:09:14.750><c> go</c>
+
+00:09:14.920 --> 00:09:14.930 align:start position:0%
+is equal to hexagon and now if we go
+ 
+
+00:09:14.930 --> 00:09:17.800 align:start position:0%
+is equal to hexagon and now if we go
+back<00:09:14.960><c> we</c><00:09:15.680><c> now</c><00:09:15.890><c> need</c><00:09:16.130><c> to</c><00:09:16.160><c> get</c><00:09:16.490><c> a</c><00:09:16.790><c> poly</c><00:09:17.210><c> star</c><00:09:17.570><c> path</c>
+
+00:09:17.800 --> 00:09:17.810 align:start position:0%
+back we now need to get a poly star path
+ 
+
+00:09:17.810 --> 00:09:21.520 align:start position:0%
+back we now need to get a poly star path
+1<00:09:18.200><c> a</c><00:09:18.440><c> stroke</c><00:09:19.040><c> 1</c><00:09:19.310><c> and</c><00:09:19.550><c> a</c><00:09:19.610><c> fill</c><00:09:19.940><c> 1</c><00:09:20.210><c> and</c><00:09:20.480><c> a</c><00:09:21.170><c> rounded</c>
+
+00:09:21.520 --> 00:09:21.530 align:start position:0%
+1 a stroke 1 and a fill 1 and a rounded
+ 
+
+00:09:21.530 --> 00:09:24.160 align:start position:0%
+1 a stroke 1 and a fill 1 and a rounded
+corners<00:09:22.040><c> property</c><00:09:22.550><c> on</c><00:09:22.700><c> this</c><00:09:22.970><c> shape</c><00:09:23.300><c> layer</c><00:09:23.540><c> how</c>
+
+00:09:24.160 --> 00:09:24.170 align:start position:0%
+corners property on this shape layer how
+ 
+
+00:09:24.170 --> 00:09:25.600 align:start position:0%
+corners property on this shape layer how
+are<00:09:24.230><c> we</c><00:09:24.350><c> gonna</c><00:09:24.440><c> do</c><00:09:24.710><c> that</c><00:09:24.920><c> well</c><00:09:25.400><c> we're</c><00:09:25.520><c> gonna</c>
+
+00:09:25.600 --> 00:09:25.610 align:start position:0%
+are we gonna do that well we're gonna
+ 
+
+00:09:25.610 --> 00:09:27.550 align:start position:0%
+are we gonna do that well we're gonna
+dive<00:09:25.910><c> back</c><00:09:26.180><c> in</c><00:09:26.390><c> to</c><00:09:26.660><c> our</c><00:09:26.750><c> other</c><00:09:26.900><c> script</c><00:09:27.350><c> and</c>
+
+00:09:27.550 --> 00:09:27.560 align:start position:0%
+dive back in to our other script and
+ 
+
+00:09:27.560 --> 00:09:29.860 align:start position:0%
+dive back in to our other script and
+keep<00:09:27.800><c> going</c><00:09:28.010><c> levels</c><00:09:28.490><c> deep</c><00:09:28.790><c> so</c><00:09:29.570><c> we</c><00:09:29.720><c> know</c>
+
+00:09:29.860 --> 00:09:29.870 align:start position:0%
+keep going levels deep so we know
+ 
+
+00:09:29.870 --> 00:09:33.160 align:start position:0%
+keep going levels deep so we know
+property<00:09:30.740><c> 1</c><00:09:30.950><c> now</c><00:09:31.190><c> is</c><00:09:31.520><c> called</c><00:09:31.820><c> hexagon</c><00:09:32.390><c> so</c><00:09:33.050><c> we</c>
+
+00:09:33.160 --> 00:09:33.170 align:start position:0%
+property 1 now is called hexagon so we
+ 
+
+00:09:33.170 --> 00:09:34.840 align:start position:0%
+property 1 now is called hexagon so we
+don't<00:09:33.320><c> have</c><00:09:33.440><c> to</c><00:09:33.560><c> refer</c><00:09:33.770><c> to</c><00:09:33.800><c> it</c><00:09:34.010><c> as</c><00:09:34.130><c> property</c><00:09:34.670><c> 1</c>
+
+00:09:34.840 --> 00:09:34.850 align:start position:0%
+don't have to refer to it as property 1
+ 
+
+00:09:34.850 --> 00:09:37.240 align:start position:0%
+don't have to refer to it as property 1
+so<00:09:35.120><c> we</c><00:09:35.210><c> don't</c><00:09:35.360><c> get</c><00:09:35.450><c> confused</c><00:09:35.630><c> as</c><00:09:36.290><c> we</c><00:09:36.440><c> go</c><00:09:36.620><c> deeper</c>
+
+00:09:37.240 --> 00:09:37.250 align:start position:0%
+so we don't get confused as we go deeper
+ 
+
+00:09:37.250 --> 00:09:40.000 align:start position:0%
+so we don't get confused as we go deeper
+and<00:09:37.370><c> deeper</c><00:09:37.700><c> into</c><00:09:37.820><c> the</c><00:09:38.060><c> layer</c><00:09:38.840><c> stack</c><00:09:39.170><c> here</c><00:09:39.440><c> so</c>
+
+00:09:40.000 --> 00:09:40.010 align:start position:0%
+and deeper into the layer stack here so
+ 
+
+00:09:40.010 --> 00:09:41.920 align:start position:0%
+and deeper into the layer stack here so
+now<00:09:40.190><c> we're</c><00:09:40.490><c> gonna</c><00:09:40.640><c> be</c><00:09:40.850><c> in</c><00:09:41.090><c> contents</c><00:09:41.780><c> and</c>
+
+00:09:41.920 --> 00:09:41.930 align:start position:0%
+now we're gonna be in contents and
+ 
+
+00:09:41.930 --> 00:09:44.500 align:start position:0%
+now we're gonna be in contents and
+hexagons<00:09:42.800><c> let's</c><00:09:43.520><c> see</c><00:09:43.760><c> what</c><00:09:44.060><c> the</c><00:09:44.180><c> next</c>
+
+00:09:44.500 --> 00:09:44.510 align:start position:0%
+hexagons let's see what the next
+ 
+
+00:09:44.510 --> 00:09:46.390 align:start position:0%
+hexagons let's see what the next
+property<00:09:44.750><c> down</c><00:09:45.200><c> is</c><00:09:45.410><c> calls</c><00:09:45.710><c> so</c><00:09:46.070><c> I'm</c><00:09:46.130><c> gonna</c><00:09:46.250><c> grab</c>
+
+00:09:46.390 --> 00:09:46.400 align:start position:0%
+property down is calls so I'm gonna grab
+ 
+
+00:09:46.400 --> 00:09:48.310 align:start position:0%
+property down is calls so I'm gonna grab
+property<00:09:46.910><c> 1</c><00:09:47.090><c> after</c><00:09:47.240><c> that</c><00:09:47.540><c> and</c><00:09:47.750><c> grab</c><00:09:47.930><c> the</c><00:09:48.110><c> name</c>
+
+00:09:48.310 --> 00:09:48.320 align:start position:0%
+property 1 after that and grab the name
+ 
+
+00:09:48.320 --> 00:09:51.700 align:start position:0%
+property 1 after that and grab the name
+and<00:09:48.710><c> I'll</c><00:09:49.550><c> go</c><00:09:49.700><c> ahead</c><00:09:49.820><c> and</c><00:09:50.180><c> run</c><00:09:50.420><c> this</c><00:09:50.630><c> so</c><00:09:51.560><c> now</c>
+
+00:09:51.700 --> 00:09:51.710 align:start position:0%
+and I'll go ahead and run this so now
+ 
+
+00:09:51.710 --> 00:09:55.300 align:start position:0%
+and I'll go ahead and run this so now
+we're<00:09:51.890><c> getting</c><00:09:52.040><c> the</c><00:09:52.820><c> name</c><00:09:53.030><c> blend</c><00:09:53.570><c> mode</c><00:09:53.930><c> and</c><00:09:54.310><c> I</c>
+
+00:09:55.300 --> 00:09:55.310 align:start position:0%
+we're getting the name blend mode and I
+ 
+
+00:09:55.310 --> 00:09:57.490 align:start position:0%
+we're getting the name blend mode and I
+don't<00:09:55.460><c> actually</c><00:09:55.820><c> see</c><00:09:56.330><c> anything</c><00:09:56.720><c> called</c><00:09:57.170><c> blend</c>
+
+00:09:57.490 --> 00:09:57.500 align:start position:0%
+don't actually see anything called blend
+ 
+
+00:09:57.500 --> 00:10:00.010 align:start position:0%
+don't actually see anything called blend
+mode<00:09:57.800><c> so</c><00:09:58.550><c> what</c><00:09:58.820><c> that</c><00:09:58.970><c> means</c><00:09:59.210><c> is</c><00:09:59.480><c> it's</c><00:09:59.750><c> a</c><00:09:59.810><c> hidden</c>
+
+00:10:00.010 --> 00:10:00.020 align:start position:0%
+mode so what that means is it's a hidden
+ 
+
+00:10:00.020 --> 00:10:02.140 align:start position:0%
+mode so what that means is it's a hidden
+property<00:10:00.590><c> and</c><00:10:00.830><c> it's</c><00:10:01.370><c> actually</c><00:10:01.670><c> one</c><00:10:01.820><c> we</c><00:10:01.940><c> don't</c>
+
+00:10:02.140 --> 00:10:02.150 align:start position:0%
+property and it's actually one we don't
+ 
+
+00:10:02.150 --> 00:10:04.330 align:start position:0%
+property and it's actually one we don't
+want<00:10:02.420><c> so</c><00:10:03.050><c> instead</c><00:10:03.380><c> let's</c><00:10:03.440><c> go</c><00:10:03.860><c> to</c><00:10:03.920><c> the</c><00:10:04.070><c> next</c>
+
+00:10:04.330 --> 00:10:04.340 align:start position:0%
+want so instead let's go to the next
+ 
+
+00:10:04.340 --> 00:10:06.670 align:start position:0%
+want so instead let's go to the next
+number<00:10:04.640><c> and</c><00:10:04.700><c> try</c><00:10:04.850><c> it</c><00:10:04.970><c> property</c><00:10:05.510><c> to</c><00:10:05.780><c> property</c><00:10:06.260><c> 2</c>
+
+00:10:06.670 --> 00:10:06.680 align:start position:0%
+number and try it property to property 2
+ 
+
+00:10:06.680 --> 00:10:09.550 align:start position:0%
+number and try it property to property 2
+gives<00:10:06.980><c> us</c><00:10:07.100><c> contents</c><00:10:07.820><c> again</c><00:10:08.210><c> and</c><00:10:09.170><c> there's</c><00:10:09.350><c> not</c>
+
+00:10:09.550 --> 00:10:09.560 align:start position:0%
+gives us contents again and there's not
+ 
+
+00:10:09.560 --> 00:10:11.200 align:start position:0%
+gives us contents again and there's not
+really<00:10:09.710><c> any</c><00:10:09.920><c> contents</c><00:10:10.460><c> inside</c><00:10:10.580><c> of</c><00:10:10.790><c> here</c><00:10:10.940><c> I</c><00:10:10.970><c> can</c>
+
+00:10:11.200 --> 00:10:11.210 align:start position:0%
+really any contents inside of here I can
+ 
+
+00:10:11.210 --> 00:10:14.020 align:start position:0%
+really any contents inside of here I can
+see<00:10:11.510><c> if</c><00:10:12.290><c> we</c><00:10:12.380><c> try</c><00:10:12.560><c> 3</c><00:10:12.980><c> we're</c><00:10:13.730><c> gonna</c><00:10:13.790><c> get</c>
+
+00:10:14.020 --> 00:10:14.030 align:start position:0%
+see if we try 3 we're gonna get
+ 
+
+00:10:14.030 --> 00:10:16.570 align:start position:0%
+see if we try 3 we're gonna get
+transform<00:10:14.810><c> which</c><00:10:15.680><c> looks</c><00:10:15.980><c> like</c><00:10:16.220><c> is</c><00:10:16.400><c> this</c>
+
+00:10:16.570 --> 00:10:16.580 align:start position:0%
+transform which looks like is this
+ 
+
+00:10:16.580 --> 00:10:19.180 align:start position:0%
+transform which looks like is this
+property<00:10:17.150><c> right</c><00:10:17.300><c> here</c><00:10:17.630><c> if</c><00:10:17.930><c> we</c><00:10:17.990><c> try</c><00:10:18.290><c> 4</c><00:10:18.620><c> we're</c>
+
+00:10:19.180 --> 00:10:19.190 align:start position:0%
+property right here if we try 4 we're
+ 
+
+00:10:19.190 --> 00:10:21.370 align:start position:0%
+property right here if we try 4 we're
+gonna<00:10:19.310><c> get</c><00:10:19.460><c> material</c><00:10:20.060><c> options</c><00:10:20.510><c> which</c><00:10:21.230><c> are</c>
+
+00:10:21.370 --> 00:10:21.380 align:start position:0%
+gonna get material options which are
+ 
+
+00:10:21.380 --> 00:10:23.680 align:start position:0%
+gonna get material options which are
+also<00:10:21.740><c> another</c><00:10:21.980><c> hidden</c><00:10:22.280><c> thing</c><00:10:23.030><c> that</c><00:10:23.270><c> involve</c>
+
+00:10:23.680 --> 00:10:23.690 align:start position:0%
+also another hidden thing that involve
+ 
+
+00:10:23.690 --> 00:10:27.340 align:start position:0%
+also another hidden thing that involve
+3d<00:10:24.500><c> layers</c><00:10:24.800><c> if</c><00:10:25.400><c> we</c><00:10:25.490><c> try</c><00:10:25.670><c> 5</c><00:10:26.060><c> it</c><00:10:26.780><c> looks</c><00:10:26.960><c> like</c><00:10:27.140><c> it's</c>
+
+00:10:27.340 --> 00:10:27.350 align:start position:0%
+3d layers if we try 5 it looks like it's
+ 
+
+00:10:27.350 --> 00:10:28.570 align:start position:0%
+3d layers if we try 5 it looks like it's
+out<00:10:27.530><c> of</c><00:10:27.560><c> range</c><00:10:27.950><c> and</c><00:10:28.100><c> there's</c><00:10:28.250><c> no</c><00:10:28.400><c> more</c>
+
+00:10:28.570 --> 00:10:28.580 align:start position:0%
+out of range and there's no more
+ 
+
+00:10:28.580 --> 00:10:30.910 align:start position:0%
+out of range and there's no more
+properties<00:10:29.120><c> so</c><00:10:29.720><c> out</c><00:10:29.900><c> of</c><00:10:29.930><c> all</c><00:10:30.260><c> of</c><00:10:30.290><c> these</c><00:10:30.620><c> which</c>
+
+00:10:30.910 --> 00:10:30.920 align:start position:0%
+properties so out of all of these which
+ 
+
+00:10:30.920 --> 00:10:32.470 align:start position:0%
+properties so out of all of these which
+of<00:10:31.130><c> the</c><00:10:31.280><c> ones</c><00:10:31.400><c> do</c><00:10:31.670><c> we</c><00:10:31.760><c> think</c><00:10:32.000><c> we</c><00:10:32.120><c> need</c><00:10:32.240><c> to</c><00:10:32.360><c> go</c>
+
+00:10:32.470 --> 00:10:32.480 align:start position:0%
+of the ones do we think we need to go
+ 
+
+00:10:32.480 --> 00:10:34.840 align:start position:0%
+of the ones do we think we need to go
+into<00:10:32.810><c> to</c><00:10:33.260><c> get</c><00:10:33.440><c> more</c><00:10:33.710><c> properties</c><00:10:34.250><c> like</c><00:10:34.520><c> the</c>
+
+00:10:34.840 --> 00:10:34.850 align:start position:0%
+into to get more properties like the
+ 
+
+00:10:34.850 --> 00:10:37.120 align:start position:0%
+into to get more properties like the
+fill<00:10:35.420><c> and</c><00:10:35.600><c> stroke</c><00:10:35.960><c> well</c><00:10:36.350><c> the</c><00:10:36.530><c> transform</c><00:10:37.010><c> is</c>
+
+00:10:37.120 --> 00:10:37.130 align:start position:0%
+fill and stroke well the transform is
+ 
+
+00:10:37.130 --> 00:10:38.260 align:start position:0%
+fill and stroke well the transform is
+probably<00:10:37.430><c> not</c><00:10:37.550><c> going</c><00:10:37.640><c> to</c><00:10:37.700><c> have</c><00:10:37.880><c> that</c><00:10:38.090><c> and</c><00:10:38.210><c> the</c>
+
+00:10:38.260 --> 00:10:38.270 align:start position:0%
+probably not going to have that and the
+ 
+
+00:10:38.270 --> 00:10:40.240 align:start position:0%
+probably not going to have that and the
+blending<00:10:38.720><c> mode</c><00:10:38.870><c> not</c><00:10:39.140><c> so</c><00:10:39.500><c> let's</c><00:10:39.740><c> go</c><00:10:39.950><c> into</c><00:10:40.160><c> the</c>
+
+00:10:40.240 --> 00:10:40.250 align:start position:0%
+blending mode not so let's go into the
+ 
+
+00:10:40.250 --> 00:10:44.680 align:start position:0%
+blending mode not so let's go into the
+contents<00:10:40.880><c> that</c><00:10:41.510><c> was</c><00:10:41.630><c> property</c><00:10:42.140><c> -</c><00:10:42.950><c> yes</c><00:10:43.690><c> so</c>
+
+00:10:44.680 --> 00:10:44.690 align:start position:0%
+contents that was property - yes so
+ 
+
+00:10:44.690 --> 00:10:46.690 align:start position:0%
+contents that was property - yes so
+let's<00:10:44.870><c> get</c><00:10:44.990><c> the</c><00:10:45.140><c> mash</c><00:10:45.380><c> name</c><00:10:45.650><c> and</c><00:10:45.890><c> it's</c><00:10:46.550><c> just</c>
+
+00:10:46.690 --> 00:10:46.700 align:start position:0%
+let's get the mash name and it's just
+ 
+
+00:10:46.700 --> 00:10:49.300 align:start position:0%
+let's get the mash name and it's just
+called<00:10:46.940><c> Adobe</c><00:10:47.270><c> vector</c><00:10:47.810><c> groups</c><00:10:48.050><c> as</c><00:10:48.230><c> well</c><00:10:48.650><c> so</c>
+
+00:10:49.300 --> 00:10:49.310 align:start position:0%
+called Adobe vector groups as well so
+ 
+
+00:10:49.310 --> 00:10:52.840 align:start position:0%
+called Adobe vector groups as well so
+I'm<00:10:49.400><c> gonna</c><00:10:49.520><c> replace</c><00:10:49.850><c> 2</c><00:10:50.270><c> here</c><00:10:50.630><c> with</c><00:10:51.850><c> contents</c>
+
+00:10:52.840 --> 00:10:52.850 align:start position:0%
+I'm gonna replace 2 here with contents
+ 
+
+00:10:52.850 --> 00:10:55.060 align:start position:0%
+I'm gonna replace 2 here with contents
+again<00:10:53.180><c> and</c><00:10:53.450><c> I'm</c><00:10:53.990><c> just</c><00:10:54.140><c> gonna</c><00:10:54.230><c> keep</c><00:10:54.500><c> diving</c><00:10:54.770><c> in</c>
+
+00:10:55.060 --> 00:10:55.070 align:start position:0%
+again and I'm just gonna keep diving in
+ 
+
+00:10:55.070 --> 00:10:56.890 align:start position:0%
+again and I'm just gonna keep diving in
+here<00:10:55.280><c> and</c><00:10:55.430><c> until</c><00:10:55.820><c> I</c><00:10:55.850><c> see</c><00:10:55.970><c> something</c><00:10:56.750><c> that</c><00:10:56.870><c> I</c>
+
+00:10:56.890 --> 00:10:56.900 align:start position:0%
+here and until I see something that I
+ 
+
+00:10:56.900 --> 00:10:58.840 align:start position:0%
+here and until I see something that I
+recognize<00:10:57.440><c> because</c><00:10:57.980><c> I</c><00:10:58.190><c> need</c><00:10:58.340><c> to</c><00:10:58.370><c> see</c><00:10:58.700><c> either</c>
+
+00:10:58.840 --> 00:10:58.850 align:start position:0%
+recognize because I need to see either
+ 
+
+00:10:58.850 --> 00:11:01.960 align:start position:0%
+recognize because I need to see either
+poly<00:10:59.270><c> star</c><00:10:59.600><c> path</c><00:10:59.840><c> or</c><00:11:00.200><c> stroke</c><00:11:00.530><c> or</c><00:11:00.740><c> fill</c><00:11:00.880><c> so</c><00:11:01.880><c> I'm</c>
+
+00:11:01.960 --> 00:11:01.970 align:start position:0%
+poly star path or stroke or fill so I'm
+ 
+
+00:11:01.970 --> 00:11:03.670 align:start position:0%
+poly star path or stroke or fill so I'm
+going<00:11:02.090><c> to</c><00:11:02.150><c> go</c><00:11:02.300><c> down</c><00:11:02.540><c> at</c><00:11:02.750><c> another</c><00:11:02.990><c> level</c><00:11:03.260><c> into</c>
+
+00:11:03.670 --> 00:11:03.680 align:start position:0%
+going to go down at another level into
+ 
+
+00:11:03.680 --> 00:11:05.500 align:start position:0%
+going to go down at another level into
+the<00:11:03.800><c> next</c><00:11:04.130><c> contents</c><00:11:04.700><c> and</c><00:11:04.970><c> now</c><00:11:05.300><c> I'm</c><00:11:05.390><c> getting</c>
+
+00:11:05.500 --> 00:11:05.510 align:start position:0%
+the next contents and now I'm getting
+ 
+
+00:11:05.510 --> 00:11:06.850 align:start position:0%
+the next contents and now I'm getting
+poly<00:11:05.930><c> star</c><00:11:06.260><c> path</c>
+
+00:11:06.850 --> 00:11:06.860 align:start position:0%
+poly star path
+ 
+
+00:11:06.860 --> 00:11:08.740 align:start position:0%
+poly star path
+so<00:11:07.070><c> what</c><00:11:07.460><c> this</c><00:11:07.550><c> is</c><00:11:07.700><c> basically</c><00:11:07.880><c> saying</c><00:11:08.210><c> is</c><00:11:08.720><c> that</c>
+
+00:11:08.740 --> 00:11:08.750 align:start position:0%
+so what this is basically saying is that
+ 
+
+00:11:08.750 --> 00:11:12.250 align:start position:0%
+so what this is basically saying is that
+we<00:11:09.560><c> added</c><00:11:09.890><c> this</c><00:11:10.010><c> first</c><00:11:10.430><c> hexagon</c><00:11:11.090><c> group</c><00:11:11.480><c> but</c>
+
+00:11:12.250 --> 00:11:12.260 align:start position:0%
+we added this first hexagon group but
+ 
+
+00:11:12.260 --> 00:11:14.080 align:start position:0%
+we added this first hexagon group but
+within<00:11:12.470><c> the</c><00:11:12.740><c> hexagon</c><00:11:13.220><c> group</c><00:11:13.460><c> there's</c><00:11:13.760><c> sort</c><00:11:13.970><c> of</c>
+
+00:11:14.080 --> 00:11:14.090 align:start position:0%
+within the hexagon group there's sort of
+ 
+
+00:11:14.090 --> 00:11:16.360 align:start position:0%
+within the hexagon group there's sort of
+another<00:11:14.570><c> hidden</c><00:11:14.900><c> group</c><00:11:15.290><c> called</c><00:11:15.590><c> contents</c>
+
+00:11:16.360 --> 00:11:16.370 align:start position:0%
+another hidden group called contents
+ 
+
+00:11:16.370 --> 00:11:18.970 align:start position:0%
+another hidden group called contents
+which<00:11:16.910><c> is</c><00:11:17.120><c> containing</c><00:11:17.540><c> poly</c><00:11:18.140><c> star</c><00:11:18.440><c> path</c><00:11:18.680><c> and</c>
+
+00:11:18.970 --> 00:11:18.980 align:start position:0%
+which is containing poly star path and
+ 
+
+00:11:18.980 --> 00:11:21.820 align:start position:0%
+which is containing poly star path and
+all<00:11:19.100><c> of</c><00:11:19.250><c> this</c><00:11:19.460><c> so</c><00:11:20.360><c> I</c><00:11:20.750><c> don't</c><00:11:21.110><c> think</c><00:11:21.590><c> when</c><00:11:21.710><c> we</c>
+
+00:11:21.820 --> 00:11:21.830 align:start position:0%
+all of this so I don't think when we
+ 
+
+00:11:21.830 --> 00:11:23.410 align:start position:0%
+all of this so I don't think when we
+recreate<00:11:22.310><c> it</c><00:11:22.430><c> we</c><00:11:22.520><c> need</c><00:11:22.670><c> to</c><00:11:22.790><c> add</c><00:11:22.910><c> this</c><00:11:23.150><c> other</c>
+
+00:11:23.410 --> 00:11:23.420 align:start position:0%
+recreate it we need to add this other
+ 
+
+00:11:23.420 --> 00:11:25.900 align:start position:0%
+recreate it we need to add this other
+contents<00:11:24.170><c> but</c><00:11:24.710><c> we</c><00:11:24.800><c> do</c><00:11:24.980><c> need</c><00:11:25.100><c> to</c><00:11:25.160><c> reference</c><00:11:25.490><c> it</c>
+
+00:11:25.900 --> 00:11:25.910 align:start position:0%
+contents but we do need to reference it
+ 
+
+00:11:25.910 --> 00:11:30.010 align:start position:0%
+contents but we do need to reference it
+so<00:11:26.890><c> to</c><00:11:27.890><c> get</c><00:11:27.980><c> the</c><00:11:28.100><c> poly</c><00:11:28.310><c> star</c><00:11:28.580><c> path</c><00:11:28.880><c> let's</c><00:11:29.870><c> get</c>
+
+00:11:30.010 --> 00:11:30.020 align:start position:0%
+so to get the poly star path let's get
+ 
+
+00:11:30.020 --> 00:11:31.570 align:start position:0%
+so to get the poly star path let's get
+the<00:11:30.140><c> match</c><00:11:30.380><c> name</c><00:11:30.680><c> instead</c><00:11:31.070><c> of</c><00:11:31.130><c> the</c><00:11:31.250><c> regular</c>
+
+00:11:31.570 --> 00:11:31.580 align:start position:0%
+the match name instead of the regular
+ 
+
+00:11:31.580 --> 00:11:33.580 align:start position:0%
+the match name instead of the regular
+name<00:11:32.060><c> so</c><00:11:32.270><c> we</c><00:11:32.390><c> can</c><00:11:32.540><c> add</c><00:11:32.750><c> it</c><00:11:32.930><c> like</c><00:11:33.140><c> we</c><00:11:33.290><c> did</c><00:11:33.410><c> before</c>
+
+00:11:33.580 --> 00:11:33.590 align:start position:0%
+name so we can add it like we did before
+ 
+
+00:11:33.590 --> 00:11:36.490 align:start position:0%
+name so we can add it like we did before
+and<00:11:33.920><c> that</c><00:11:34.820><c> name</c><00:11:35.060><c> is</c><00:11:35.240><c> Adobe</c><00:11:35.660><c> vector</c><00:11:35.960><c> shape</c><00:11:36.200><c> -</c>
+
+00:11:36.490 --> 00:11:36.500 align:start position:0%
+and that name is Adobe vector shape -
+ 
+
+00:11:36.500 --> 00:11:38.920 align:start position:0%
+and that name is Adobe vector shape -
+star<00:11:36.920><c> now</c><00:11:37.490><c> I'm</c><00:11:37.610><c> gonna</c><00:11:37.730><c> go</c><00:11:38.000><c> on</c><00:11:38.270><c> to</c><00:11:38.630><c> the</c><00:11:38.660><c> next</c>
+
+00:11:38.920 --> 00:11:38.930 align:start position:0%
+star now I'm gonna go on to the next
+ 
+
+00:11:38.930 --> 00:11:40.750 align:start position:0%
+star now I'm gonna go on to the next
+couple<00:11:39.350><c> properties</c><00:11:39.530><c> you</c><00:11:40.190><c> can</c><00:11:40.370><c> see</c><00:11:40.520><c> we</c><00:11:40.640><c> have</c>
+
+00:11:40.750 --> 00:11:40.760 align:start position:0%
+couple properties you can see we have
+ 
+
+00:11:40.760 --> 00:11:43.240 align:start position:0%
+couple properties you can see we have
+stroke<00:11:41.150><c> one</c><00:11:41.420><c> stroke</c><00:11:42.380><c> one</c><00:11:42.620><c> which</c><00:11:42.770><c> is</c><00:11:42.920><c> property</c>
+
+00:11:43.240 --> 00:11:43.250 align:start position:0%
+stroke one stroke one which is property
+ 
+
+00:11:43.250 --> 00:11:45.550 align:start position:0%
+stroke one stroke one which is property
+two<00:11:43.550><c> and</c><00:11:43.850><c> fill</c><00:11:44.210><c> one</c><00:11:44.420><c> which</c><00:11:44.600><c> is</c><00:11:44.720><c> property</c><00:11:45.140><c> three</c>
+
+00:11:45.550 --> 00:11:45.560 align:start position:0%
+two and fill one which is property three
+ 
+
+00:11:45.560 --> 00:11:47.860 align:start position:0%
+two and fill one which is property three
+so<00:11:46.160><c> let's</c><00:11:46.460><c> go</c><00:11:46.880><c> ahead</c><00:11:46.940><c> and</c><00:11:47.060><c> grab</c><00:11:47.270><c> those</c><00:11:47.540><c> match</c>
+
+00:11:47.860 --> 00:11:47.870 align:start position:0%
+so let's go ahead and grab those match
+ 
+
+00:11:47.870 --> 00:11:50.200 align:start position:0%
+so let's go ahead and grab those match
+names<00:11:48.170><c> too</c><00:11:48.500><c> and</c><00:11:48.740><c> then</c><00:11:49.430><c> we</c><00:11:49.550><c> should</c><00:11:49.760><c> be</c><00:11:49.910><c> off</c><00:11:50.060><c> to</c>
+
+00:11:50.200 --> 00:11:50.210 align:start position:0%
+names too and then we should be off to
+ 
+
+00:11:50.210 --> 00:11:52.960 align:start position:0%
+names too and then we should be off to
+the<00:11:50.330><c> races</c><00:11:50.480><c> to</c><00:11:50.870><c> add</c><00:11:50.960><c> these</c><00:11:51.430><c> so</c><00:11:52.430><c> the</c><00:11:52.580><c> mash</c><00:11:52.760><c> name</c>
+
+00:11:52.960 --> 00:11:52.970 align:start position:0%
+the races to add these so the mash name
+ 
+
+00:11:52.970 --> 00:11:55.090 align:start position:0%
+the races to add these so the mash name
+for<00:11:53.150><c> stroke</c><00:11:53.420><c> is</c><00:11:53.660><c> Adobe</c><00:11:54.140><c> vector</c><00:11:54.470><c> graphic</c><00:11:54.890><c> -</c>
+
+00:11:55.090 --> 00:11:55.100 align:start position:0%
+for stroke is Adobe vector graphic -
+ 
+
+00:11:55.100 --> 00:11:57.400 align:start position:0%
+for stroke is Adobe vector graphic -
+stroke<00:11:55.520><c> and</c><00:11:56.090><c> I</c><00:11:56.180><c> imagine</c><00:11:56.660><c> Phil</c><00:11:56.960><c> is</c><00:11:57.140><c> very</c>
+
+00:11:57.400 --> 00:11:57.410 align:start position:0%
+stroke and I imagine Phil is very
+ 
+
+00:11:57.410 --> 00:11:58.060 align:start position:0%
+stroke and I imagine Phil is very
+similar
+
+00:11:58.060 --> 00:11:58.070 align:start position:0%
+similar
+ 
+
+00:11:58.070 --> 00:12:01.720 align:start position:0%
+similar
+yes<00:11:59.000><c> very</c><00:11:59.270><c> much</c><00:11:59.390><c> the</c><00:11:59.690><c> same</c><00:11:59.870><c> so</c><00:12:00.860><c> now</c><00:12:00.890><c> what</c><00:12:01.610><c> we</c>
+
+00:12:01.720 --> 00:12:01.730 align:start position:0%
+yes very much the same so now what we
+ 
+
+00:12:01.730 --> 00:12:03.280 align:start position:0%
+yes very much the same so now what we
+can<00:12:01.910><c> do</c><00:12:02.090><c> is</c><00:12:02.210><c> create</c><00:12:02.390><c> a</c><00:12:02.510><c> couple</c><00:12:02.810><c> of</c><00:12:02.900><c> variables</c>
+
+00:12:03.280 --> 00:12:03.290 align:start position:0%
+can do is create a couple of variables
+ 
+
+00:12:03.290 --> 00:12:05.110 align:start position:0%
+can do is create a couple of variables
+for<00:12:03.530><c> each</c><00:12:03.650><c> of</c><00:12:03.800><c> these</c><00:12:03.950><c> we</c><00:12:04.310><c> need</c><00:12:04.430><c> one</c><00:12:04.640><c> to</c><00:12:04.790><c> control</c>
+
+00:12:05.110 --> 00:12:05.120 align:start position:0%
+for each of these we need one to control
+ 
+
+00:12:05.120 --> 00:12:06.940 align:start position:0%
+for each of these we need one to control
+the<00:12:05.210><c> poly</c><00:12:05.420><c> star</c><00:12:05.750><c> path</c><00:12:05.990><c> the</c><00:12:06.350><c> stroke</c><00:12:06.680><c> and</c><00:12:06.830><c> the</c>
+
+00:12:06.940 --> 00:12:06.950 align:start position:0%
+the poly star path the stroke and the
+ 
+
+00:12:06.950 --> 00:12:09.550 align:start position:0%
+the poly star path the stroke and the
+fill<00:12:07.360><c> so</c><00:12:08.360><c> I'll</c><00:12:08.480><c> create</c><00:12:08.750><c> one</c><00:12:08.810><c> called</c>
+
+00:12:09.550 --> 00:12:09.560 align:start position:0%
+fill so I'll create one called
+ 
+
+00:12:09.560 --> 00:12:14.140 align:start position:0%
+fill so I'll create one called
+path<00:12:10.550><c> group</c><00:12:10.940><c> one</c><00:12:11.630><c> called</c><00:12:12.260><c> stroke</c><00:12:12.890><c> group</c><00:12:13.280><c> and</c>
+
+00:12:14.140 --> 00:12:14.150 align:start position:0%
+path group one called stroke group and
+ 
+
+00:12:14.150 --> 00:12:16.780 align:start position:0%
+path group one called stroke group and
+one<00:12:14.360><c> called</c><00:12:14.690><c> fill</c><00:12:15.170><c> group</c><00:12:15.470><c> and</c><00:12:16.400><c> for</c><00:12:16.550><c> each</c><00:12:16.640><c> of</c>
+
+00:12:16.780 --> 00:12:16.790 align:start position:0%
+one called fill group and for each of
+ 
+
+00:12:16.790 --> 00:12:18.160 align:start position:0%
+one called fill group and for each of
+these<00:12:16.880><c> I'm</c><00:12:17.150><c> going</c><00:12:17.420><c> to</c><00:12:17.540><c> do</c><00:12:17.630><c> something</c><00:12:17.870><c> very</c>
+
+00:12:18.160 --> 00:12:18.170 align:start position:0%
+these I'm going to do something very
+ 
+
+00:12:18.170 --> 00:12:21.250 align:start position:0%
+these I'm going to do something very
+similar<00:12:18.440><c> take</c><00:12:19.400><c> my</c><00:12:19.580><c> shape</c><00:12:19.910><c> layer</c><00:12:20.210><c> contents</c><00:12:20.990><c> and</c>
+
+00:12:21.250 --> 00:12:21.260 align:start position:0%
+similar take my shape layer contents and
+ 
+
+00:12:21.260 --> 00:12:23.440 align:start position:0%
+similar take my shape layer contents and
+then<00:12:22.190><c> we</c><00:12:22.400><c> need</c><00:12:22.520><c> to</c><00:12:22.640><c> go</c><00:12:22.790><c> a</c><00:12:22.820><c> couple</c><00:12:23.300><c> layers</c>
+
+00:12:23.440 --> 00:12:23.450 align:start position:0%
+then we need to go a couple layers
+ 
+
+00:12:23.450 --> 00:12:25.780 align:start position:0%
+then we need to go a couple layers
+deeper<00:12:23.900><c> remember</c><00:12:24.320><c> it</c><00:12:24.560><c> goes</c><00:12:24.740><c> contents</c><00:12:25.490><c> and</c>
+
+00:12:25.780 --> 00:12:25.790 align:start position:0%
+deeper remember it goes contents and
+ 
+
+00:12:25.790 --> 00:12:28.510 align:start position:0%
+deeper remember it goes contents and
+then<00:12:26.630><c> at</c><00:12:27.020><c> this</c><00:12:27.200><c> point</c><00:12:27.440><c> it's</c><00:12:27.650><c> called</c><00:12:27.860><c> hexagon</c>
+
+00:12:28.510 --> 00:12:28.520 align:start position:0%
+then at this point it's called hexagon
+ 
+
+00:12:28.520 --> 00:12:31.780 align:start position:0%
+then at this point it's called hexagon
+and<00:12:28.790><c> then</c><00:12:29.390><c> after</c><00:12:30.230><c> the</c><00:12:30.380><c> hexagon</c><00:12:30.950><c> group</c><00:12:31.250><c> again</c>
+
+00:12:31.780 --> 00:12:31.790 align:start position:0%
+and then after the hexagon group again
+ 
+
+00:12:31.790 --> 00:12:33.580 align:start position:0%
+and then after the hexagon group again
+there's<00:12:32.030><c> kind</c><00:12:32.570><c> of</c><00:12:32.630><c> like</c><00:12:32.780><c> an</c><00:12:32.930><c> invisible</c><00:12:33.200><c> when</c>
+
+00:12:33.580 --> 00:12:33.590 align:start position:0%
+there's kind of like an invisible when
+ 
+
+00:12:33.590 --> 00:12:36.010 align:start position:0%
+there's kind of like an invisible when
+we<00:12:33.740><c> discovered</c><00:12:34.250><c> called</c><00:12:34.430><c> contents</c><00:12:35.120><c> again</c><00:12:35.390><c> so</c>
+
+00:12:36.010 --> 00:12:36.020 align:start position:0%
+we discovered called contents again so
+ 
+
+00:12:36.020 --> 00:12:40.090 align:start position:0%
+we discovered called contents again so
+let's<00:12:36.320><c> say</c><00:12:36.680><c> dot</c><00:12:36.950><c> property</c><00:12:38.290><c> contents</c><00:12:39.290><c> now</c>
+
+00:12:40.090 --> 00:12:40.100 align:start position:0%
+let's say dot property contents now
+ 
+
+00:12:40.100 --> 00:12:42.130 align:start position:0%
+let's say dot property contents now
+inside<00:12:40.490><c> of</c><00:12:40.550><c> these</c><00:12:40.760><c> contents</c><00:12:41.420><c> to</c><00:12:41.540><c> add</c><00:12:41.690><c> our</c><00:12:41.870><c> poly</c>
+
+00:12:42.130 --> 00:12:42.140 align:start position:0%
+inside of these contents to add our poly
+ 
+
+00:12:42.140 --> 00:12:43.840 align:start position:0%
+inside of these contents to add our poly
+star<00:12:42.500><c> path</c><00:12:42.740><c> we're</c><00:12:43.070><c> going</c><00:12:43.100><c> to</c><00:12:43.250><c> add</c><00:12:43.400><c> a</c><00:12:43.430><c> property</c>
+
+00:12:43.840 --> 00:12:43.850 align:start position:0%
+star path we're going to add a property
+ 
+
+00:12:43.850 --> 00:12:47.950 align:start position:0%
+star path we're going to add a property
+and<00:12:44.360><c> the</c><00:12:45.080><c> name</c><00:12:45.260><c> for</c><00:12:45.530><c> that</c><00:12:45.560><c> was</c><00:12:46.630><c> Adobe</c><00:12:47.630><c> vector</c>
+
+00:12:47.950 --> 00:12:47.960 align:start position:0%
+and the name for that was Adobe vector
+ 
+
+00:12:47.960 --> 00:12:50.740 align:start position:0%
+and the name for that was Adobe vector
+shape<00:12:48.230><c> star</c><00:12:48.950><c> so</c><00:12:49.640><c> we'll</c><00:12:49.790><c> add</c><00:12:49.910><c> that</c><00:12:50.180><c> property</c>
+
+00:12:50.740 --> 00:12:50.750 align:start position:0%
+shape star so we'll add that property
+ 
+
+00:12:50.750 --> 00:12:53.890 align:start position:0%
+shape star so we'll add that property
+and<00:12:50.990><c> close</c><00:12:51.920><c> out</c><00:12:52.100><c> the</c><00:12:52.250><c> brackets</c><00:12:52.670><c> then</c><00:12:53.660><c> we'll</c><00:12:53.780><c> do</c>
+
+00:12:53.890 --> 00:12:53.900 align:start position:0%
+and close out the brackets then we'll do
+ 
+
+00:12:53.900 --> 00:12:55.630 align:start position:0%
+and close out the brackets then we'll do
+the<00:12:53.990><c> same</c><00:12:54.170><c> thing</c><00:12:54.440><c> for</c><00:12:54.680><c> the</c><00:12:54.800><c> stroke</c><00:12:55.160><c> and</c><00:12:55.430><c> fill</c>
+
+00:12:55.630 --> 00:12:55.640 align:start position:0%
+the same thing for the stroke and fill
+ 
+
+00:12:55.640 --> 00:12:58.510 align:start position:0%
+the same thing for the stroke and fill
+group<00:12:55.910><c> only</c><00:12:56.540><c> difference</c><00:12:57.140><c> being</c><00:12:57.380><c> this</c><00:12:58.040><c> time</c><00:12:58.310><c> we</c>
+
+00:12:58.510 --> 00:12:58.520 align:start position:0%
+group only difference being this time we
+ 
+
+00:12:58.520 --> 00:13:01.000 align:start position:0%
+group only difference being this time we
+need<00:12:58.670><c> to</c><00:12:58.700><c> add</c><00:12:59.080><c> these</c><00:13:00.080><c> match</c><00:13:00.380><c> names</c><00:13:00.680><c> rather</c>
+
+00:13:01.000 --> 00:13:01.010 align:start position:0%
+need to add these match names rather
+ 
+
+00:13:01.010 --> 00:13:03.460 align:start position:0%
+need to add these match names rather
+than<00:13:01.280><c> the</c><00:13:01.940><c> star</c><00:13:02.300><c> alright</c><00:13:02.990><c> so</c><00:13:03.140><c> let's</c><00:13:03.320><c> do</c><00:13:03.440><c> a</c>
+
+00:13:03.460 --> 00:13:03.470 align:start position:0%
+than the star alright so let's do a
+ 
+
+00:13:03.470 --> 00:13:05.590 align:start position:0%
+than the star alright so let's do a
+quick<00:13:03.740><c> test</c><00:13:03.980><c> run</c><00:13:04.280><c> and</c><00:13:04.490><c> see</c><00:13:04.760><c> how</c><00:13:05.060><c> far</c><00:13:05.390><c> we've</c>
+
+00:13:05.590 --> 00:13:05.600 align:start position:0%
+quick test run and see how far we've
+ 
+
+00:13:05.600 --> 00:13:08.140 align:start position:0%
+quick test run and see how far we've
+gone<00:13:05.810><c> so</c><00:13:06.590><c> now</c><00:13:06.740><c> we</c><00:13:06.800><c> actually</c><00:13:07.100><c> have</c><00:13:07.460><c> a</c><00:13:07.760><c> star</c>
+
+00:13:08.140 --> 00:13:08.150 align:start position:0%
+gone so now we actually have a star
+ 
+
+00:13:08.150 --> 00:13:10.510 align:start position:0%
+gone so now we actually have a star
+appearing<00:13:08.630><c> if</c><00:13:09.110><c> we</c><00:13:09.290><c> go</c><00:13:09.470><c> down</c><00:13:09.680><c> into</c><00:13:10.100><c> our</c><00:13:10.220><c> content</c>
+
+00:13:10.510 --> 00:13:10.520 align:start position:0%
+appearing if we go down into our content
+ 
+
+00:13:10.520 --> 00:13:13.090 align:start position:0%
+appearing if we go down into our content
+options<00:13:11.300><c> we</c><00:13:11.450><c> have</c><00:13:11.540><c> our</c><00:13:11.660><c> hexagon</c><00:13:12.020><c> our</c><00:13:12.500><c> poly</c>
+
+00:13:13.090 --> 00:13:13.100 align:start position:0%
+options we have our hexagon our poly
+ 
+
+00:13:13.100 --> 00:13:15.790 align:start position:0%
+options we have our hexagon our poly
+star<00:13:13.400><c> path</c><00:13:13.700><c> our</c><00:13:14.030><c> stroke</c><00:13:14.720><c> and</c><00:13:14.960><c> our</c><00:13:15.200><c> fill</c><00:13:15.500><c> now</c>
+
+00:13:15.790 --> 00:13:15.800 align:start position:0%
+star path our stroke and our fill now
+ 
+
+00:13:15.800 --> 00:13:17.770 align:start position:0%
+star path our stroke and our fill now
+the<00:13:15.860><c> final</c><00:13:16.490><c> thing</c><00:13:16.520><c> that's</c><00:13:16.790><c> left</c><00:13:17.030><c> to</c><00:13:17.150><c> do</c><00:13:17.390><c> after</c>
+
+00:13:17.770 --> 00:13:17.780 align:start position:0%
+the final thing that's left to do after
+ 
+
+00:13:17.780 --> 00:13:20.350 align:start position:0%
+the final thing that's left to do after
+we've<00:13:17.930><c> done</c><00:13:18.590><c> the</c><00:13:18.770><c> basic</c><00:13:19.160><c> reverse</c><00:13:19.460><c> engineering</c>
+
+00:13:20.350 --> 00:13:20.360 align:start position:0%
+we've done the basic reverse engineering
+ 
+
+00:13:20.360 --> 00:13:22.720 align:start position:0%
+we've done the basic reverse engineering
+all<00:13:20.600><c> the</c><00:13:20.779><c> groups</c><00:13:20.990><c> and</c><00:13:21.290><c> things</c><00:13:21.500><c> now</c><00:13:22.250><c> we</c><00:13:22.310><c> need</c><00:13:22.610><c> to</c>
+
+00:13:22.720 --> 00:13:22.730 align:start position:0%
+all the groups and things now we need to
+ 
+
+00:13:22.730 --> 00:13:25.240 align:start position:0%
+all the groups and things now we need to
+do<00:13:22.940><c> is</c><00:13:23.180><c> adjust</c><00:13:23.660><c> any</c><00:13:24.110><c> of</c><00:13:24.200><c> the</c><00:13:24.380><c> values</c><00:13:24.800><c> as</c><00:13:24.980><c> we</c>
+
+00:13:25.240 --> 00:13:25.250 align:start position:0%
+do is adjust any of the values as we
+ 
+
+00:13:25.250 --> 00:13:27.519 align:start position:0%
+do is adjust any of the values as we
+wanted<00:13:25.730><c> this</c><00:13:26.180><c> is</c><00:13:26.360><c> a</c><00:13:26.390><c> star</c><00:13:26.839><c> right</c><00:13:27.079><c> now</c><00:13:27.110><c> it</c>
+
+00:13:27.519 --> 00:13:27.529 align:start position:0%
+wanted this is a star right now it
+ 
+
+00:13:27.529 --> 00:13:30.220 align:start position:0%
+wanted this is a star right now it
+obviously<00:13:27.890><c> needs</c><00:13:27.950><c> to</c><00:13:28.220><c> be</c><00:13:28.250><c> a</c><00:13:28.370><c> hexagon</c><00:13:29.209><c> so</c><00:13:29.839><c> the</c>
+
+00:13:30.220 --> 00:13:30.230 align:start position:0%
+obviously needs to be a hexagon so the
+ 
+
+00:13:30.230 --> 00:13:32.110 align:start position:0%
+obviously needs to be a hexagon so the
+next<00:13:30.440><c> thing</c><00:13:30.860><c> in</c><00:13:30.950><c> the</c><00:13:31.040><c> process</c><00:13:31.490><c> is</c><00:13:31.730><c> we</c><00:13:31.880><c> need</c><00:13:32.029><c> to</c>
+
+00:13:32.110 --> 00:13:32.120 align:start position:0%
+next thing in the process is we need to
+ 
+
+00:13:32.120 --> 00:13:34.600 align:start position:0%
+next thing in the process is we need to
+take<00:13:32.269><c> our</c><00:13:32.480><c> poly</c><00:13:32.810><c> star</c><00:13:33.170><c> path</c><00:13:33.440><c> group</c><00:13:33.769><c> and</c><00:13:33.980><c> change</c>
+
+00:13:34.600 --> 00:13:34.610 align:start position:0%
+take our poly star path group and change
+ 
+
+00:13:34.610 --> 00:13:37.360 align:start position:0%
+take our poly star path group and change
+star<00:13:35.000><c> to</c><00:13:35.240><c> polygon</c><00:13:35.779><c> and</c><00:13:36.050><c> then</c><00:13:36.680><c> to</c><00:13:37.130><c> get</c><00:13:37.339><c> a</c>
+
+00:13:37.360 --> 00:13:37.370 align:start position:0%
+star to polygon and then to get a
+ 
+
+00:13:37.370 --> 00:13:41.110 align:start position:0%
+star to polygon and then to get a
+hexagon<00:13:37.970><c> of</c><00:13:38.209><c> course</c><00:13:38.750><c> we</c><00:13:38.990><c> need</c><00:13:39.140><c> six</c><00:13:39.680><c> sides</c><00:13:40.310><c> so</c>
+
+00:13:41.110 --> 00:13:41.120 align:start position:0%
+hexagon of course we need six sides so
+ 
+
+00:13:41.120 --> 00:13:42.850 align:start position:0%
+hexagon of course we need six sides so
+we<00:13:41.240><c> need</c><00:13:41.360><c> to</c><00:13:41.480><c> change</c><00:13:41.660><c> those</c><00:13:41.990><c> two</c><00:13:42.170><c> values</c><00:13:42.380><c> and</c>
+
+00:13:42.850 --> 00:13:42.860 align:start position:0%
+we need to change those two values and
+ 
+
+00:13:42.860 --> 00:13:44.829 align:start position:0%
+we need to change those two values and
+then<00:13:43.459><c> we</c><00:13:43.610><c> should</c><00:13:43.670><c> be</c><00:13:43.940><c> good</c><00:13:43.970><c> unless</c><00:13:44.480><c> you</c><00:13:44.570><c> want</c>
+
+00:13:44.829 --> 00:13:44.839 align:start position:0%
+then we should be good unless you want
+ 
+
+00:13:44.839 --> 00:13:47.050 align:start position:0%
+then we should be good unless you want
+to<00:13:44.959><c> go</c><00:13:45.110><c> and</c><00:13:45.260><c> further</c><00:13:45.529><c> and</c><00:13:45.829><c> change</c><00:13:46.490><c> things</c><00:13:46.760><c> like</c>
+
+00:13:47.050 --> 00:13:47.060 align:start position:0%
+to go and further and change things like
+ 
+
+00:13:47.060 --> 00:13:49.750 align:start position:0%
+to go and further and change things like
+the<00:13:47.269><c> color</c><00:13:47.510><c> of</c><00:13:47.810><c> the</c><00:13:48.140><c> fill</c><00:13:48.380><c> so</c><00:13:49.100><c> what</c><00:13:49.250><c> I</c><00:13:49.279><c> can</c><00:13:49.370><c> do</c>
+
+00:13:49.750 --> 00:13:49.760 align:start position:0%
+the color of the fill so what I can do
+ 
+
+00:13:49.760 --> 00:13:52.780 align:start position:0%
+the color of the fill so what I can do
+is<00:13:49.970><c> after</c><00:13:50.630><c> I</c><00:13:51.260><c> have</c><00:13:51.470><c> created</c><00:13:51.920><c> in</c><00:13:51.980><c> my</c><00:13:52.100><c> path</c><00:13:52.399><c> group</c>
+
+00:13:52.780 --> 00:13:52.790 align:start position:0%
+is after I have created in my path group
+ 
+
+00:13:52.790 --> 00:13:54.940 align:start position:0%
+is after I have created in my path group
+I'm<00:13:52.970><c> going</c><00:13:53.269><c> to</c><00:13:53.420><c> grab</c><00:13:53.720><c> path</c><00:13:54.200><c> group</c><00:13:54.500><c> which</c>
+
+00:13:54.940 --> 00:13:54.950 align:start position:0%
+I'm going to grab path group which
+ 
+
+00:13:54.950 --> 00:13:58.060 align:start position:0%
+I'm going to grab path group which
+references<00:13:55.610><c> our</c><00:13:56.060><c> poly</c><00:13:56.779><c> star</c><00:13:57.170><c> path</c><00:13:57.440><c> one</c><00:13:57.829><c> and</c>
+
+00:13:58.060 --> 00:13:58.070 align:start position:0%
+references our poly star path one and
+ 
+
+00:13:58.070 --> 00:14:00.430 align:start position:0%
+references our poly star path one and
+now<00:13:58.640><c> we</c><00:13:58.700><c> can</c><00:13:58.940><c> go</c><00:13:59.120><c> down</c><00:13:59.390><c> into</c><00:13:59.690><c> the</c><00:13:59.930><c> poly</c><00:14:00.170><c> star</c>
+
+00:14:00.430 --> 00:14:00.440 align:start position:0%
+now we can go down into the poly star
+ 
+
+00:14:00.440 --> 00:14:02.680 align:start position:0%
+now we can go down into the poly star
+path<00:14:00.649><c> properties</c><00:14:01.310><c> and</c><00:14:01.519><c> just</c><00:14:01.910><c> set</c><00:14:02.149><c> the</c><00:14:02.329><c> values</c>
+
+00:14:02.680 --> 00:14:02.690 align:start position:0%
+path properties and just set the values
+ 
+
+00:14:02.690 --> 00:14:04.509 align:start position:0%
+path properties and just set the values
+like<00:14:02.839><c> we</c><00:14:02.990><c> would</c><00:14:03.170><c> with</c><00:14:03.440><c> position</c><00:14:04.010><c> or</c><00:14:04.190><c> anything</c>
+
+00:14:04.509 --> 00:14:04.519 align:start position:0%
+like we would with position or anything
+ 
+
+00:14:04.519 --> 00:14:06.430 align:start position:0%
+like we would with position or anything
+normal<00:14:04.790><c> and</c><00:14:05.089><c> after-effects</c><00:14:05.660><c> so</c><00:14:06.170><c> I'll</c><00:14:06.230><c> grab</c>
+
+00:14:06.430 --> 00:14:06.440 align:start position:0%
+normal and after-effects so I'll grab
+ 
+
+00:14:06.440 --> 00:14:08.519 align:start position:0%
+normal and after-effects so I'll grab
+path<00:14:06.680><c> group</c><00:14:07.010><c> and</c><00:14:07.220><c> I'll</c><00:14:07.339><c> grab</c><00:14:07.550><c> the</c><00:14:07.700><c> property</c>
+
+00:14:08.519 --> 00:14:08.529 align:start position:0%
+path group and I'll grab the property
+ 
+
+00:14:08.529 --> 00:14:11.860 align:start position:0%
+path group and I'll grab the property
+called<00:14:09.529><c> type</c><00:14:09.950><c> and</c><00:14:10.550><c> I'm</c><00:14:11.149><c> gonna</c><00:14:11.269><c> set</c><00:14:11.450><c> the</c><00:14:11.570><c> value</c>
+
+00:14:11.860 --> 00:14:11.870 align:start position:0%
+called type and I'm gonna set the value
+ 
+
+00:14:11.870 --> 00:14:14.050 align:start position:0%
+called type and I'm gonna set the value
+to<00:14:12.019><c> something</c><00:14:12.260><c> and</c><00:14:12.620><c> since</c><00:14:13.339><c> it's</c><00:14:13.490><c> a</c><00:14:13.579><c> drop-down</c>
+
+00:14:14.050 --> 00:14:14.060 align:start position:0%
+to something and since it's a drop-down
+ 
+
+00:14:14.060 --> 00:14:15.670 align:start position:0%
+to something and since it's a drop-down
+we're<00:14:14.420><c> going</c><00:14:14.540><c> to</c><00:14:14.600><c> set</c><00:14:14.779><c> it</c><00:14:14.899><c> to</c><00:14:14.930><c> either</c><00:14:15.260><c> one</c><00:14:15.649><c> or</c>
+
+00:14:15.670 --> 00:14:15.680 align:start position:0%
+we're going to set it to either one or
+ 
+
+00:14:15.680 --> 00:14:17.889 align:start position:0%
+we're going to set it to either one or
+two<00:14:15.890><c> in</c><00:14:16.250><c> this</c><00:14:16.430><c> case</c><00:14:16.670><c> and</c><00:14:17.029><c> we</c><00:14:17.089><c> want</c><00:14:17.300><c> it</c><00:14:17.360><c> to</c><00:14:17.480><c> be</c><00:14:17.600><c> 2</c>
+
+00:14:17.889 --> 00:14:17.899 align:start position:0%
+two in this case and we want it to be 2
+ 
+
+00:14:17.899 --> 00:14:20.710 align:start position:0%
+two in this case and we want it to be 2
+so<00:14:18.529><c> it's</c><00:14:18.680><c> a</c><00:14:18.740><c> polygon</c><00:14:19.220><c> and</c><00:14:19.640><c> then</c><00:14:20.209><c> we</c><00:14:20.300><c> also</c><00:14:20.450><c> want</c>
+
+00:14:20.710 --> 00:14:20.720 align:start position:0%
+so it's a polygon and then we also want
+ 
+
+00:14:20.720 --> 00:14:22.990 align:start position:0%
+so it's a polygon and then we also want
+to<00:14:20.779><c> change</c><00:14:21.050><c> the</c><00:14:21.200><c> number</c><00:14:21.589><c> of</c><00:14:21.620><c> points</c><00:14:21.950><c> so</c><00:14:22.880><c> I'm</c>
+
+00:14:22.990 --> 00:14:23.000 align:start position:0%
+to change the number of points so I'm
+ 
+
+00:14:23.000 --> 00:14:25.509 align:start position:0%
+to change the number of points so I'm
+going<00:14:23.209><c> to</c><00:14:23.329><c> duplicate</c><00:14:23.839><c> this</c><00:14:24.019><c> line</c><00:14:24.320><c> change</c><00:14:25.190><c> type</c>
+
+00:14:25.509 --> 00:14:25.519 align:start position:0%
+going to duplicate this line change type
+ 
+
+00:14:25.519 --> 00:14:28.750 align:start position:0%
+going to duplicate this line change type
+two<00:14:25.970><c> points</c><00:14:26.510><c> and</c><00:14:26.720><c> change</c><00:14:27.589><c> it</c><00:14:27.740><c> from</c><00:14:27.860><c> two</c><00:14:28.190><c> I</c><00:14:28.459><c> mean</c>
+
+00:14:28.750 --> 00:14:28.760 align:start position:0%
+two points and change it from two I mean
+ 
+
+00:14:28.760 --> 00:14:31.420 align:start position:0%
+two points and change it from two I mean
+since<00:14:28.910><c> it's</c><00:14:29.060><c> a</c><00:14:29.120><c> hexagon</c><00:14:29.269><c> we</c><00:14:29.720><c> want</c><00:14:29.899><c> six</c><00:14:30.430><c> alright</c>
+
+00:14:31.420 --> 00:14:31.430 align:start position:0%
+since it's a hexagon we want six alright
+ 
+
+00:14:31.430 --> 00:14:33.009 align:start position:0%
+since it's a hexagon we want six alright
+so<00:14:31.640><c> now</c><00:14:31.760><c> let's</c><00:14:31.790><c> finally</c><00:14:32.390><c> test</c><00:14:32.690><c> this</c><00:14:32.810><c> out</c><00:14:32.959><c> and</c>
+
+00:14:33.009 --> 00:14:33.019 align:start position:0%
+so now let's finally test this out and
+ 
+
+00:14:33.019 --> 00:14:34.750 align:start position:0%
+so now let's finally test this out and
+see<00:14:33.410><c> if</c><00:14:33.560><c> they're</c><00:14:33.740><c> working</c><00:14:33.860><c> alright</c><00:14:34.310><c> go</c><00:14:34.730><c> ahead</c>
+
+00:14:34.750 --> 00:14:34.760 align:start position:0%
+see if they're working alright go ahead
+ 
+
+00:14:34.760 --> 00:14:36.790 align:start position:0%
+see if they're working alright go ahead
+and<00:14:34.970><c> run</c><00:14:35.120><c> it</c><00:14:35.149><c> and</c><00:14:35.420><c> now</c><00:14:35.870><c> we're</c><00:14:36.140><c> accurately</c>
+
+00:14:36.790 --> 00:14:36.800 align:start position:0%
+and run it and now we're accurately
+ 
+
+00:14:36.800 --> 00:14:40.210 align:start position:0%
+and run it and now we're accurately
+getting<00:14:37.160><c> our</c><00:14:37.480><c> hexagon</c><00:14:38.480><c> here</c><00:14:39.019><c> it's</c><00:14:39.709><c> got</c><00:14:40.010><c> the</c>
+
+00:14:40.210 --> 00:14:40.220 align:start position:0%
+getting our hexagon here it's got the
+ 
+
+00:14:40.220 --> 00:14:42.550 align:start position:0%
+getting our hexagon here it's got the
+proper<00:14:40.640><c> properties</c><00:14:41.420><c> inside</c><00:14:41.779><c> of</c><00:14:41.959><c> it</c><00:14:42.079><c> it's</c>
+
+00:14:42.550 --> 00:14:42.560 align:start position:0%
+proper properties inside of it it's
+ 
+
+00:14:42.560 --> 00:14:45.189 align:start position:0%
+proper properties inside of it it's
+turned<00:14:42.769><c> into</c><00:14:42.890><c> a</c><00:14:43.040><c> six-sided</c><00:14:43.790><c> polygon</c><00:14:43.970><c> and</c><00:14:44.510><c> any</c>
+
+00:14:45.189 --> 00:14:45.199 align:start position:0%
+turned into a six-sided polygon and any
+ 
+
+00:14:45.199 --> 00:14:46.720 align:start position:0%
+turned into a six-sided polygon and any
+other<00:14:45.380><c> properties</c><00:14:45.860><c> you</c><00:14:45.890><c> wanted</c><00:14:46.279><c> to</c><00:14:46.339><c> go</c><00:14:46.459><c> in</c><00:14:46.579><c> and</c>
+
+00:14:46.720 --> 00:14:46.730 align:start position:0%
+other properties you wanted to go in and
+ 
+
+00:14:46.730 --> 00:14:49.449 align:start position:0%
+other properties you wanted to go in and
+fix<00:14:46.970><c> you</c><00:14:47.480><c> could</c><00:14:47.690><c> simply</c><00:14:48.140><c> go</c><00:14:48.350><c> in</c><00:14:48.529><c> and</c><00:14:48.769><c> do</c><00:14:48.949><c> things</c>
+
+00:14:49.449 --> 00:14:49.459 align:start position:0%
+fix you could simply go in and do things
+ 
+
+00:14:49.459 --> 00:14:51.790 align:start position:0%
+fix you could simply go in and do things
+like<00:14:49.640><c> change</c><00:14:49.910><c> the</c><00:14:50.120><c> fill</c><00:14:50.390><c> add</c><00:14:50.660><c> expressions</c><00:14:51.620><c> to</c>
+
+00:14:51.790 --> 00:14:51.800 align:start position:0%
+like change the fill add expressions to
+ 
+
+00:14:51.800 --> 00:14:53.319 align:start position:0%
+like change the fill add expressions to
+things<00:14:52.070><c> and</c><00:14:52.339><c> do</c><00:14:52.490><c> whatever</c><00:14:52.670><c> you</c><00:14:52.880><c> want</c><00:14:53.089><c> to</c>
+
+00:14:53.319 --> 00:14:53.329 align:start position:0%
+things and do whatever you want to
+ 
+
+00:14:53.329 --> 00:14:55.449 align:start position:0%
+things and do whatever you want to
+recreate<00:14:53.750><c> it</c><00:14:53.899><c> entirely</c><00:14:54.410><c> but</c><00:14:55.100><c> that's</c><00:14:55.279><c> the</c>
+
+00:14:55.449 --> 00:14:55.459 align:start position:0%
+recreate it entirely but that's the
+ 
+
+00:14:55.459 --> 00:14:57.430 align:start position:0%
+recreate it entirely but that's the
+basic<00:14:55.820><c> concept</c><00:14:56.000><c> of</c><00:14:56.540><c> how</c><00:14:56.899><c> you</c><00:14:56.930><c> can</c><00:14:57.170><c> reverse</c>
+
+00:14:57.430 --> 00:14:57.440 align:start position:0%
+basic concept of how you can reverse
+ 
+
+00:14:57.440 --> 00:14:59.889 align:start position:0%
+basic concept of how you can reverse
+engineer<00:14:57.649><c> anything</c><00:14:58.160><c> by</c><00:14:58.880><c> going</c><00:14:59.180><c> down</c><00:14:59.420><c> into</c><00:14:59.630><c> the</c>
+
+00:14:59.889 --> 00:14:59.899 align:start position:0%
+engineer anything by going down into the
+ 
+
+00:14:59.899 --> 00:15:02.050 align:start position:0%
+engineer anything by going down into the
+properties<00:15:00.529><c> itself</c><00:15:00.980><c> and</c><00:15:01.220><c> checking</c><00:15:01.850><c> out</c><00:15:01.940><c> what</c>
+
+00:15:02.050 --> 00:15:02.060 align:start position:0%
+properties itself and checking out what
+ 
+
+00:15:02.060 --> 00:15:04.180 align:start position:0%
+properties itself and checking out what
+the<00:15:02.180><c> mash</c><00:15:02.390><c> names</c><00:15:02.720><c> are</c><00:15:02.959><c> and</c><00:15:03.170><c> exploring</c><00:15:04.040><c> what</c>
+
+00:15:04.180 --> 00:15:04.190 align:start position:0%
+the mash names are and exploring what
+ 
+
+00:15:04.190 --> 00:15:05.230 align:start position:0%
+the mash names are and exploring what
+the<00:15:04.220><c> different</c><00:15:04.550><c> properties</c><00:15:04.760><c> in</c><00:15:05.120><c> their</c>
+
+00:15:05.230 --> 00:15:05.240 align:start position:0%
+the different properties in their
+ 
+
+00:15:05.240 --> 00:15:07.240 align:start position:0%
+the different properties in their
+relationship<00:15:05.839><c> are</c><00:15:06.110><c> but</c><00:15:06.800><c> yeah</c><00:15:06.890><c> that's</c><00:15:07.040><c> going</c>
+
+00:15:07.240 --> 00:15:07.250 align:start position:0%
+relationship are but yeah that's going
+ 
+
+00:15:07.250 --> 00:15:08.620 align:start position:0%
+relationship are but yeah that's going
+to<00:15:07.310><c> do</c><00:15:07.430><c> it</c><00:15:07.490><c> for</c><00:15:07.610><c> this</c><00:15:07.699><c> week's</c><00:15:07.880><c> After</c><00:15:08.360><c> Effects</c>
+
+00:15:08.620 --> 00:15:08.630 align:start position:0%
+to do it for this week's After Effects
+ 
+
+00:15:08.630 --> 00:15:10.300 align:start position:0%
+to do it for this week's After Effects
+description<00:15:09.170><c> tutorial</c><00:15:09.589><c> guys</c><00:15:09.740><c> I</c><00:15:09.769><c> hope</c><00:15:10.160><c> you</c>
+
+00:15:10.300 --> 00:15:10.310 align:start position:0%
+description tutorial guys I hope you
+ 
+
+00:15:10.310 --> 00:15:11.949 align:start position:0%
+description tutorial guys I hope you
+enjoyed<00:15:10.670><c> if</c><00:15:11.089><c> you</c><00:15:11.209><c> enjoyed</c><00:15:11.510><c> the</c><00:15:11.660><c> video</c><00:15:11.779><c> make</c>
+
+00:15:11.949 --> 00:15:11.959 align:start position:0%
+enjoyed if you enjoyed the video make
+ 
+
+00:15:11.959 --> 00:15:13.720 align:start position:0%
+enjoyed if you enjoyed the video make
+sure<00:15:12.170><c> to</c><00:15:12.290><c> smash</c><00:15:12.560><c> the</c><00:15:12.920><c> thumbs</c><00:15:12.949><c> up</c><00:15:13.339><c> button</c><00:15:13.550><c> and</c>
+
+00:15:13.720 --> 00:15:13.730 align:start position:0%
+sure to smash the thumbs up button and
+ 
+
+00:15:13.730 --> 00:15:16.000 align:start position:0%
+sure to smash the thumbs up button and
+to<00:15:14.269><c> be</c><00:15:14.360><c> notified</c><00:15:14.660><c> of</c><00:15:14.990><c> new</c><00:15:15.019><c> videos</c><00:15:15.529><c> coming</c><00:15:15.860><c> out</c>
+
+00:15:16.000 --> 00:15:16.010 align:start position:0%
+to be notified of new videos coming out
+ 
+
+00:15:16.010 --> 00:15:18.100 align:start position:0%
+to be notified of new videos coming out
+every<00:15:16.070><c> Monday</c><00:15:16.760><c> and</c><00:15:16.940><c> Thursday</c><00:15:17.000><c> make</c><00:15:17.839><c> sure</c><00:15:18.019><c> to</c>
+
+00:15:18.100 --> 00:15:18.110 align:start position:0%
+every Monday and Thursday make sure to
+ 
+
+00:15:18.110 --> 00:15:19.780 align:start position:0%
+every Monday and Thursday make sure to
+hit<00:15:18.199><c> the</c><00:15:18.260><c> subscribe</c><00:15:18.380><c> button</c><00:15:18.829><c> and</c><00:15:19.250><c> the</c><00:15:19.640><c> bell</c>
+
+00:15:19.780 --> 00:15:19.790 align:start position:0%
+hit the subscribe button and the bell
+ 
+
+00:15:19.790 --> 00:15:21.730 align:start position:0%
+hit the subscribe button and the bell
+icon<00:15:20.000><c> to</c><00:15:20.390><c> be</c><00:15:20.480><c> notified</c><00:15:20.750><c> of</c><00:15:20.959><c> when</c><00:15:21.260><c> those</c><00:15:21.380><c> come</c>
+
+00:15:21.730 --> 00:15:21.740 align:start position:0%
+icon to be notified of when those come
+ 
+
+00:15:21.740 --> 00:15:23.620 align:start position:0%
+icon to be notified of when those come
+but<00:15:22.250><c> thanks</c><00:15:22.490><c> again</c><00:15:22.670><c> for</c><00:15:22.850><c> watching</c><00:15:22.910><c> guys</c><00:15:23.240><c> and</c>
+
+00:15:23.620 --> 00:15:23.630 align:start position:0%
+but thanks again for watching guys and
+ 
+
+00:15:23.630 --> 00:15:27.130 align:start position:0%
+but thanks again for watching guys and
+we'll<00:15:23.720><c> see</c><00:15:24.200><c> you</c><00:15:24.320><c> in</c><00:15:24.530><c> the</c><00:15:24.650><c> next</c><00:15:24.950><c> one</c>
+

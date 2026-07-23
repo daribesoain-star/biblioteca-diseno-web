@@ -1,0 +1,44 @@
+# Higgsfield — catálogo REAL de modelos de imagen (via MCP higgsfield models_explore, 2026-07-16)
+Fuente: MCP higgsfield models_explore (action=list, type=image) — https://docs.higgsfield.ai
+
+Higgsfield es una PASARELA multi-modelo: expone modelos propios (Soul) + los mejores de terceros (Google, OpenAI, Bytedance, BFL, xAI, Kling, Recraft, Tongyi). Se consulta por API, nunca de memoria. Resoluciones y aspect ratios por modelo. Modelos con parámetro "quality"/"resolution" afectan el costo en créditos.
+
+## Modelos PROPIOS de Higgsfield (fortaleza real)
+- soul_2 / soul_v2 (Higgsfield Soul 2.0): UGC realista, moda editorial y generación de personaje. Quality 1.5k o 2k (default 2k). Acepta soul_id para identidad personalizada (personaje consistente). 1 imagen de referencia. Tags: ugc, fashion, editorial, realistic, character, portrait.
+- soul_cinematic (Soul Cinema): stills grado cine y concept art. Quality 1.5k/2k. soul_id para personaje cinematográfico. Tags: cinematic, dramatic, concept-art, lighting, film.
+- soul_cast (Soul Cast): identidad de personaje cinematográfico consistente. budget 10-500 (default 50).
+- soul_location (Soul Location): generación de entornos y ubicaciones/fondos/paisajes.
+- cinematic_studio_2_5 (Cinema Studio Image 2.5): stills cinematográficos hasta 4K. resolution 1k/2k/4k.
+- marketing_studio_image (Marketing Studio Image): imágenes de producto para ads sociales, one-click. resolution 1k/2k/4k, aspect auto.
+- ms_image (DTC Ads): ads DTC brand-kit-aware con avatares, productos y formatos de ad curados. REQUIERE style_id (llamar show_marketing_studio type=image_style ANTES; sin style_id = error). brand_kit_id opcional (logo/colores/fuentes/tono). batch_size 1-20, hasta 4 product_ids, hasta 14 imágenes de referencia.
+- image_auto (Auto): auto-selecciona el mejor modelo de imagen según la intención del prompt.
+- autosprite (AutoSprite Animation): anima una imagen de personaje en sprite sheet PNG game-ready (idle/walk/run/attack/jump + isométricas). frame_count 2-64 (default 25), frame_size 32-512 (default 256), video_tier turbo/pro/max, remove_bg default/ultra.
+
+## Modelos de TERCEROS accesibles vía Higgsfield (mismo rol que cada modelo nativo)
+- nano_banana (Google): imágenes realistas, budget-friendly (barato). text-to-image + image-to-image.
+- nano_banana_2 (Google): next-gen alta calidad, rápido. resolution 1k/2k/4k.
+- nano_banana_pro (Google): calidad ULTIMATE, TEXTO y DIAGRAMAS, fotorrealista, 4k. resolution 1k/2k/4k. El mejor para text-rendering + diagramas.
+- nano_banana_2_lite (Google): lite next-gen. thinking MINIMAL/HIGH (profundidad de razonamiento antes de generar).
+- gpt_image_2 (OpenAI): GPT Image next-gen, 1k/2k/4k, quality low/medium/high. Tags: text-rendering, editing, typography, photorealistic, high-resolution.
+- openai_hazel (OpenAI): edición potente, MEJOR text rendering. Tags: text-rendering, editing, typography, logos, diagram, infographic. quality low/medium/high.
+- seedream_v4_5 (Bytedance): 4K, control preciso, transformaciones. quality basic (~4K) / high (~6K).
+- seedream_v5_lite / seedream_v5_pro (Bytedance): razonamiento visual, edición por instrucción. Pro hasta 2K.
+- flux_2 (Black Forest Labs): variantes pro/flex/max, adherencia PRECISA al prompt. resolution 1k/2k.
+- flux_kontext (Black Forest Labs): edición context-aware y transferencia de estilo, typography, remix.
+- kling_omni_image (Kling O1 Image): fotorrealista versátil, wide aspect ratio.
+- grok_image (xAI): expresivo, alto contraste, edición. mode std/quality.
+- z_image (Tongyi-MAI): super rápido, estilizado, budget.
+- recraft_v4_1 (Recraft): model_type standard/vector/utility/utility_vector. vector = logos/tipografía/iconos/SVG; utility = product shots/mockups planos; colors hasta 10 (#RRGGBB), background_color. text-to-image.
+
+## Utilidades de post (edición técnica en Higgsfield)
+- image_background_remover: quita fondo.
+- outpaint: expande/descuadra la imagen (uncrop).
+- topaz_image: upscale con variantes Standard V2 / Low Resolution V2 / CGI / High Fidelity V2 / Text Refine; sharpen/denoise 0-1, face_enhancement.
+- topaz_image_generative: upscale generativo (Standard MAX/Redefine/Recovery), creativity 1-6, texture 1-5.
+- bytedance_image_upscale: upscale a 2k/4k.
+
+## Reglas para agentes
+- Higgsfield tiene plan PAGADO de Dari: verificar saldo con MCP higgsfield `balance` ANTES de generar (regla del arsenal).
+- Personaje consistente en Higgsfield = Soul + soul_id (soul_cast/soul_cinematic/soul_2). Es su ventaja diferencial real vs generadores sueltos.
+- Ads de producto rápidos = marketing_studio_image o ms_image (este último exige style_id vía show_marketing_studio).
+- Cuando no se sabe qué modelo, usar image_auto o llamar models_explore action=recommend con el objetivo + contexto de input.

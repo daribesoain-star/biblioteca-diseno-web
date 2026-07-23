@@ -1,0 +1,140 @@
+Mike Rhodes — AI for Google Ads pros & small business
+Mike Rhodes
+Open main menu
+Get Started AdsToAI 8020agent 8020brain Scripts Mastermind Courses Mike Help Member Login
+Negative Keyword Script
+Find wasted spend hiding in your search terms
+Automated analysis of search terms to identify negative keyword opportunities. Reduce wasted spend without manual search term reviews.
+$109 one-time • Unlimited uses • Free updates
+What It Does
+The Negative Keyword Script analyzes your search terms automatically and surfaces optimization opportunities you're likely missing in manual reviews.
+Three types of findings:
+• Low-performing terms eating budget
+• Redundant negative keywords you can clean up
+• Pattern analysis showing broader negative keyword opportunities
+The Analysis
+Performance Thresholds
+Performance thresholds flag search terms that meet your criteria:
+Low CTR (default: below 0.25% with 10+ impressions)
+Identifies terms unlikely to convert.
+High CPA (default: 1.5x your target)
+Shows expensive conversions consuming budget on poor-fit searches.
+Low ROAS (default: 0.5x your target)
+Highlights unprofitable search traffic in e-commerce accounts.
+All thresholds configurable based on your account performance.
+Bucket Classification
+Categorizes terms for easier decision-making:
+• High conversion: Performing well, leave alone
+• Low conversion: Converting but expensively, review carefully
+• Zero conversion: Clicks without conversions, likely candidates
+N-gram Patterns
+Analyze 1, 2, and 3-word combinations across low-performing terms. Spots common words appearing in multiple poor performers—helps identify broad negatives that apply across search terms.
+Redundant Negative Detection
+Your negative keyword lists grow over time. Some negatives no longer receive impressions. Others overlap. Some could consolidate.
+The script identifies redundant negatives:
+• No longer receiving impressions
+• Overlapping with other negatives in the same list
+• Could be consolidated into fewer, broader negatives
+Auto-pause option available (off by default). You control when to clean up.
+AI Recommendations (Optional)
+Enable AI analysis for up to 200 prioritized negative keyword suggestions.
+Requires your OpenAI or Anthropic API key (bring your own). AI reviews search term patterns, performance metrics, bucket distributions, and n-gram data—then provides prioritized suggestions with reasoning.
+Optional feature. Works with or without AI.
+Setup
+Single Account
+Copy template (or let script auto-create), add script, run. Review recommendations.
+MCC (6 steps)
+Copy master template, configure account settings, add script to MCC, run initial collection, review recommendations, schedule if desired.
+Both setups quick. Documentation included.
+What's Required
+• Account access: Standard or Admin permissions
+• Spend threshold: Minimum $500 in last 30 days for reliable recommendations
+• Google Sheets: Same email for Ads and Sheets
+• Analysis period: Default 7 days (configurable)
+Runs fast even on large accounts—typically completes in minutes.
+What's Included
+Unlimited use
+On unlimited accounts. No per-account fees.
+Free updates for life
+New versions based on community feedback. Download from member area when ready.
+Personal support from Mike Rhodes
+Questions answered at mikerhodes.circle.so/c/help/. Custom code modifications not supported.
+Auto-generated template
+Creates on first run, or copy manually if preferred.
+Configuration options
+Analysis period, thresholds, auto-pause setting, AI toggle, CPA or ROAS mode.
+Pricing
+$109 one-time payment
+No recurring fees. No per-account charges. No support contracts. Buy once, use forever.
+How To Use It
+Initial run
+Review all recommendations manually. Understand what the script flags and why.
+Implementation
+Add negative keywords you agree with. Ignore recommendations you disagree with. You maintain full control.
+Ongoing
+Run weekly or bi-weekly. Or schedule to run automatically and review results periodically.
+Redundant cleanup
+Use redundant negative detection quarterly to clean up lists.
+Common Questions
+Will it add negatives automatically?
+No. Provides recommendations only. You review and implement.
+Can I change the thresholds?
+Yes. All thresholds configurable for your account performance.
+Does it work with Shopping?
+Yes. Analyzes search terms across all campaign types.
+What if I spend less than $500/month?
+Script runs but recommendations less reliable with limited data volume.
+How often should I run it?
+Weekly or bi-weekly for active accounts. Monthly for smaller accounts.
+Do I need an AI API key?
+No. AI recommendations are optional. Script works without AI.
+Support included?
+Yes. Mike answers questions in member community. Custom modifications not supported.
+Updates cost extra?
+No. Free lifetime updates. Download new versions from member community.
+Ready to get started?
+$109 • One-time payment • Unlimited accounts • Lifetime updates
+Get Instant Access Questions? Visit the help community
+$109
+One-time payment • Lifetime updates • No subscription
+Get Instant Access Unlimited uses • No ongoing fees
+Works with single accounts & MCCs
+Fast execution, typically completes in minutes
+Need PMax Insights Too?
+Get comprehensive Performance Max campaign analysis with the PMax Script.
+View PMax Script →
+Get Started
+New to Ads to AI? Start here to discover your learning path and set up your AI automation system.
+Onboarding Assistant Discover your phase and create a personalized learning path Brain Setup Guide Install your version of the 8020brain system Google Ads API Setup Connect Google Ads API and MCP to your brain
+Mike Rhodes
+Entrepreneur, teacher, and builder. I help marketing professionals and small businesses use AI to make better decisions, faster.
+Connect on LinkedIn
+Products
+AdsToAI Community
+8020agent Tool
+8020brain System
+Members Portal
+8020skill Demo
+Own The Agent
+AI Optimization
+Scripts
+All Scripts
+PMax Script
+PMax MCC Script
+Negative Keywords
+The 4Cs Framework
+Free Scripts
+Script Help & Docs
+Courses
+All Courses
+Scripts & Sheets Mastery
+Build the Agent
+AI Fundamentals
+Claude Code
+About
+About Mike
+Why Work With Me
+Speaking
+© 2026 Mike Rhodes. All rights reserved.
+Ask AI about me:
+Terms v 1.2.50

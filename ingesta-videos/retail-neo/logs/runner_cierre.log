@@ -1,0 +1,27 @@
+15:30:06 retry final retail_cro We5SVniZgto
+15:30:51 OK-SCRIBE retail_cro We5SVniZgto — 提高2倍着陆页转化率的秘密：开启用户心智之联想法应用（2025终极指南）
+15:30:51 eje cro cerrado → síntesis
+[cro] 23 destilados
+  chunk 1 (12) →       85 líneas
+  chunk 2 (11) →       39 líneas
+  [cro] REDUCE →       97 líneas
+=== SINTESIS RETAIL LISTA ===
+-rw-r--r--  1 daribesoain  staff  17790 Jul 16 15:32 /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/retail-neo/sintesis/cro.md
+15:32:36 eje social cerrado → síntesis
+[social] 23 destilados
+  chunk 1 (12) →       40 líneas
+  chunk 2 (11) →       21 líneas
+  [social] REDUCE →       81 líneas
+=== SINTESIS RETAIL LISTA ===
+-rw-r--r--  1 daribesoain  staff  17790 Jul 16 15:32 /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/retail-neo/sintesis/cro.md
+-rw-r--r--  1 daribesoain  staff  14604 Jul 16 15:33 /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/retail-neo/sintesis/social.md
+15:33:40 eje newretail cerrado → síntesis
+[newretail] 22 destilados
+  chunk 1 (12) →       24 líneas
+  chunk 2 (10) →       25 líneas
+  [newretail] REDUCE →       82 líneas
+=== SINTESIS RETAIL LISTA ===
+-rw-r--r--  1 daribesoain  staff  17790 Jul 16 15:32 /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/retail-neo/sintesis/cro.md
+-rw-r--r--  1 daribesoain  staff  16558 Jul 16 15:34 /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/retail-neo/sintesis/newretail.md
+-rw-r--r--  1 daribesoain  staff  14604 Jul 16 15:33 /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/retail-neo/sintesis/social.md
+15:34:42 RUNNER-CIERRE-DONE

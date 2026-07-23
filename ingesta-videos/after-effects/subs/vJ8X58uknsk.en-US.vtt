@@ -1,0 +1,412 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:00.000 --> 00:00:01.418
+Compositing is the act of
+
+00:00:01.418 --> 00:00:02.085
+combining two
+
+00:00:02.085 --> 00:00:03.169
+or more visual elements
+
+00:00:03.169 --> 00:00:04.254
+to create the illusion
+
+00:00:04.254 --> 00:00:06.006
+of a single, cohesive image,
+
+00:00:06.006 --> 00:00:07.007
+and is easily
+
+00:00:07.007 --> 00:00:08.466
+one of the most important aspects
+
+00:00:08.466 --> 00:00:10.093
+of any visual effects shot.
+
+00:00:10.093 --> 00:00:11.678
+This technique has existed nearly
+
+00:00:11.678 --> 00:00:12.804
+as long as film itself,
+
+00:00:12.804 --> 00:00:14.472
+with techniques like multiple exposure
+
+00:00:14.472 --> 00:00:15.265
+and traveling mattes
+
+00:00:15.265 --> 00:00:16.683
+being used very early on.
+
+00:00:16.683 --> 00:00:18.268
+Thankfully, with digital compositing
+
+00:00:18.268 --> 00:00:19.894
+and software like After Effects,
+
+00:00:19.894 --> 00:00:21.104
+achieving great visual effects
+
+00:00:21.104 --> 00:00:22.439
+is more accessible than ever.
+
+00:00:22.439 --> 00:00:23.356
+So today, we're going to be looking
+
+00:00:23.356 --> 00:00:24.399
+at five compositing
+
+00:00:24.399 --> 00:00:24.983
+tips to help
+
+00:00:24.983 --> 00:00:27.110
+you create a more convincing final image.
+
+00:00:28.528 --> 00:00:29.237
+We have an After Effects
+
+00:00:29.237 --> 00:00:30.780
+project here with a few elements
+
+00:00:30.780 --> 00:00:31.448
+to composite,
+
+00:00:31.448 --> 00:00:32.282
+and our first step
+
+00:00:32.282 --> 00:00:32.866
+is going to be
+
+00:00:32.866 --> 00:00:34.534
+to make sure our assets are properly
+
+00:00:34.534 --> 00:00:36.036
+color matched to their environment.
+
+00:00:36.036 --> 00:00:37.287
+To help this process, click
+
+00:00:37.287 --> 00:00:38.997
+this red/green/blue icon
+
+00:00:38.997 --> 00:00:40.331
+underneath your preview image.
+
+00:00:40.331 --> 00:00:41.583
+Now you can view your footage
+
+00:00:41.583 --> 00:00:42.333
+in separate red,
+
+00:00:42.333 --> 00:00:44.169
+green, and blue color channels.
+
+00:00:44.169 --> 00:00:45.628
+Now drop on a Curves effect
+
+00:00:45.628 --> 00:00:46.588
+and change the curves
+
+00:00:46.588 --> 00:00:48.131
+channel to match the color channel
+
+00:00:48.131 --> 00:00:49.883
+set on your composition window.
+
+00:00:49.883 --> 00:00:51.468
+Then tweak the respective channels
+
+00:00:51.468 --> 00:00:52.427
+to match the background
+
+00:00:52.427 --> 00:00:53.636
+as closely as possible.
+
+00:00:53.636 --> 00:00:54.637
+Once you set your channel
+
+00:00:54.637 --> 00:00:55.889
+back to RGB mode,
+
+00:00:55.889 --> 00:00:56.514
+you're going to notice
+
+00:00:56.514 --> 00:00:57.390
+how much better
+
+00:00:57.390 --> 00:00:59.225
+your assets are matching the environment.
+
+00:00:59.225 --> 00:01:00.643
+However, this only works
+
+00:01:00.643 --> 00:01:02.062
+if the lighting of your background
+
+00:01:02.062 --> 00:01:03.521
+matches the foreground element,
+
+00:01:03.521 --> 00:01:05.190
+which leads to our next tip.
+
+00:01:06.483 --> 00:01:07.567
+Matching the angle of light
+
+00:01:07.567 --> 00:01:09.652
+is crucial for any compositing shot.
+
+00:01:09.652 --> 00:01:10.278
+For example,
+
+00:01:10.278 --> 00:01:12.113
+if your background has overhead lights
+
+00:01:12.113 --> 00:01:13.740
+but your subject is lit from underneath,
+
+00:01:13.740 --> 00:01:14.908
+you're going to end up with something
+
+00:01:14.908 --> 00:01:16.201
+that feels disconnected
+
+00:01:16.201 --> 00:01:17.243
+no matter what you do.
+
+00:01:17.243 --> 00:01:18.411
+And that's why planning out
+
+00:01:18.411 --> 00:01:19.204
+your VFX shots
+
+00:01:19.204 --> 00:01:20.413
+in advance is so important.
+
+00:01:20.413 --> 00:01:20.872
+Of course,
+
+00:01:20.872 --> 00:01:21.664
+if you are building
+
+00:01:21.664 --> 00:01:22.874
+your background in 3D, 
+
+00:01:22.874 --> 00:01:23.583
+that helps a ton.
+
+00:01:23.583 --> 00:01:24.459
+But either way, 
+
+00:01:24.459 --> 00:01:25.543
+thinking about what you want
+
+00:01:25.543 --> 00:01:26.711
+your end result to be
+
+00:01:26.711 --> 00:01:28.922
+before you touch a camera is a must.
+
+00:01:28.922 --> 00:01:30.340
+So if you do know what your background
+
+00:01:30.340 --> 00:01:31.466
+is going to be before you shoot,
+
+00:01:31.466 --> 00:01:32.842
+you can have that on hand
+
+00:01:32.842 --> 00:01:34.511
+and light your subject to match.
+
+00:01:35.720 --> 00:01:36.262
+Another thing
+
+00:01:36.262 --> 00:01:37.430
+that will break your composite
+
+00:01:37.430 --> 00:01:38.598
+and sometimes can leave
+
+00:01:38.598 --> 00:01:39.808
+your composite feeling off
+
+00:01:39.808 --> 00:01:41.184
+without you fully being able
+
+00:01:41.184 --> 00:01:42.352
+to put a finger on why
+
+00:01:42.352 --> 00:01:43.394
+is your black levels.
+
+00:01:43.394 --> 00:01:44.437
+Like the angle of light,
+
+00:01:44.437 --> 00:01:45.647
+this will be a dead giveaway
+
+00:01:45.647 --> 00:01:46.439
+that your assets
+
+00:01:46.439 --> 00:01:47.732
+live in different worlds.
+
+00:01:47.732 --> 00:01:48.525
+And like I said,
+
+00:01:48.525 --> 00:01:50.193
+it can be hard to diagnose
+
+00:01:50.193 --> 00:01:52.195
+sometimes if the issue is subtle enough.
+
+00:01:52.195 --> 00:01:53.113
+So to correct this,
+
+00:01:53.113 --> 00:01:54.155
+we'll go to Window &gt;
+
+00:01:54.155 --> 00:01:55.156
+Lumetri Scopes,
+
+00:01:55.156 --> 00:01:56.616
+and now you'll have a better view
+
+00:01:56.616 --> 00:01:57.534
+of your black levels.
+
+00:01:57.534 --> 00:01:59.369
+So now using this as our guide,
+
+00:01:59.369 --> 00:02:00.954
+we'll use our curves to adjust
+
+00:02:00.954 --> 00:02:02.163
+and get one step closer
+
+00:02:02.163 --> 00:02:03.706
+to that convincing shot.
+
+00:02:04.958 --> 00:02:05.792
+This next one doesn't
+
+00:02:05.792 --> 00:02:06.835
+apply to all projects,
+
+00:02:06.835 --> 00:02:08.336
+but if you are masking an element
+
+00:02:08.336 --> 00:02:10.046
+with hard and soft edges,
+
+00:02:10.046 --> 00:02:11.381
+using the regular pen tool
+
+00:02:11.381 --> 00:02:13.216
+can lead to inconsistent feathering.
+
+00:02:13.216 --> 00:02:14.175
+The fix this, once you
+
+00:02:14.175 --> 00:02:15.426
+have your asset masked out,
+
+00:02:15.426 --> 00:02:16.761
+you can hold down the Pen Tool
+
+00:02:16.761 --> 00:02:18.555
+and select the Mask Feather Tool.
+
+00:02:18.555 --> 00:02:20.181
+Now you can add feather gradients
+
+00:02:20.181 --> 00:02:22.100
+to different areas of the mask to help
+
+00:02:22.100 --> 00:02:23.560
+match the varied edges,
+
+00:02:23.560 --> 00:02:25.687
+leading to a more natural effect.
+
+00:02:26.980 --> 00:02:28.690
+Our last tip is using a spill suppressor
+
+00:02:28.690 --> 00:02:29.274
+to remove
+
+00:02:29.274 --> 00:02:31.151
+any of your original background color
+
+00:02:31.151 --> 00:02:32.527
+that leaked into the foreground.
+
+00:02:32.527 --> 00:02:33.194
+You can add this
+
+00:02:33.194 --> 00:02:34.445
+by going up to Effects &gt;
+
+00:02:34.445 --> 00:02:35.613
+Keying, and clicking
+
+00:02:35.613 --> 00:02:37.157
+Advanced Spill Suppressor.
+
+00:02:37.157 --> 00:02:39.117
+You can keep your method at Standard
+
+00:02:39.117 --> 00:02:40.160
+if that works for you,
+
+00:02:40.160 --> 00:02:41.786
+or you can change it to Ultra.
+
+00:02:41.786 --> 00:02:43.329
+Then select your key color.
+
+00:02:43.329 --> 00:02:44.205
+to finish it all off.
+
+00:02:44.205 --> 00:02:45.123
+You can add some grain
+
+00:02:45.123 --> 00:02:46.499
+to glue everything together
+
+00:02:46.499 --> 00:02:48.459
+and you will have your composited shot.
+
+00:02:48.459 --> 00:02:48.960
+But there you have it.
+
+00:02:48.960 --> 00:02:49.586
+A few tips
+
+00:02:49.586 --> 00:02:51.171
+to sell your compositing effects.
+
+00:02:51.171 --> 00:02:52.005
+And if you have something
+
+00:02:52.005 --> 00:02:53.423
+you'd like to see us cover in the future,
+
+00:02:53.423 --> 00:02:55.175
+feel free to drop a comment below.
+
+00:02:55.300 --> 00:02:56.718
+And don't forget to like and subscribe,
+
+00:02:56.718 --> 00:02:58.261
+because honey never spoils.
+
+00:02:58.261 --> 00:03:00.180
+Even after thousands of years.
+
+00:03:00.180 --> 00:03:01.306
+And you're my honey.
+

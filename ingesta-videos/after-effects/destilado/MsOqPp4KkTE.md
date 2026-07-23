@@ -1,0 +1,39 @@
+# DUIK ANGELA: Character Walk Cycle Animation in After Effects Tutorials
+**Fuente:** Nijat Ibrahimli | https://youtu.be/MsOqPp4KkTE
+
+## Qué enseña (2-3 líneas)
+Este tutorial enseña a crear un ciclo de caminata (walk cycle) para un personaje 2D usando el plugin DUIK Angela en After Effects. Cubre la creación manual de huesos con la herramienta Pluma, el rigging mediante el panel HumanIK de DUIK, y la animación cíclica con keyframes y expresiones de loop.
+
+## Técnicas accionables
+- **Creación de huesos para rigging:** Seleccionar las capas de pie (foot one, two, three), presionar `T` para abrir opacidad y cambiarla a 50% para ver a través. Usar la **herramienta Pluma (Pen Tool)** para dibujar líneas que representan huesos sobre la pierna. No presionar `S` (Scale) al terminar.
+- **Vinculación con DUIK Angela:** Ir a `Window > Duik Angela` para abrir el panel. Seleccionar los huesos dibujados, ir a la pestaña **HumanIK**, hacer clic en **Leg** para asignar la configuración de pierna. Renombrar los huesos como "one", "two", "three". Seleccionar cada capa de pie y usar el menú desplegable **Link to** para vincularla al hueso correspondiente (foot one → Bone one, etc.).
+- **Auto-rigging con DUIK:** Seleccionar todos los huesos (bone one, two, three) y el controlador B (Bone controller). En el panel DUIK, hacer clic en **Auto** para generar automáticamente los controladores IK.
+- **Ajuste de escala del controlador:** Si el controlador aparece en posición incorrecta, seleccionarlo, ir a la propiedad `Scale` (S) y cambiar a `-100%` para invertir la dirección. Luego usar el ícono de **Icon** en DUIK para mover el controlador a la posición deseada (izquierda o derecha).
+- **Organización de capas:** Activar **Toggle Switches/Modes** (icono de interruptor en la línea de tiempo). Usar el ícono de **Hide for all layers** (ocultar) en los huesos y controladores para mantener solo los controladores visibles. Renombrar los controladores como "foot left" y "foot right".
+- **Vinculación del cuerpo:** Seleccionar la capa "body down", ir a `Solo`, usar la herramienta **Pen Behind** (Y) para mover el punto de anclaje hacia abajo. Desvincular el solo. Seleccionar "body", ir a `Solo`, mover su punto de anclaje hacia abajo con Pen Behind. Desvincular solo. Vincular "body" a "body down" (menú Link to). Seleccionar "body down" y presionar `R` para verificar rotación.
+- **Vinculación de manos y cabeza:** Vincular "hand left" y "hand right" a "body". Vincular "head" a "body". Vincular "eyes" a "head". Vincular "head" a "body down". Presionar `R` para verificar rotación.
+- **Vinculación de huesos al cuerpo:** Mostrar capas ocultas (icono de ojo). Seleccionar "bone one" de cada pierna y vincularlos a "body down". Ocultar nuevamente.
+- **Animación del ciclo de caminata (body down):** Seleccionar "body down", presionar `P` para abrir Posición. Crear un keyframe en el frame 0. Ir al frame 6 usando `+6` en el cuadro de tiempo. Mover "body down" hacia abajo ligeramente. Copiar el primer keyframe y pegarlo en el frame 12. Seleccionar todos los keyframes, presionar `F9` para suavizar (Easy Ease). Para loop infinito: mantener `Alt` y hacer clic en el cronómetro de Posición, luego arrastrar al `play button property` y seleccionar `loopOutDuration("cycle")`.
+- **Animación de pies (controladores):** Seleccionar los controladores "foot left" y "foot right", presionar `P`. Crear keyframe en frame 0. Mover "foot left" a la izquierda y "foot right" a la derecha. Ir 10 frames adelante (usar `Shift + Page Down` para 10 frames). Crear nuevos keyframes. Copiar los keyframes del frame 0 y pegarlos en el frame 20. Ir al frame 10 (mitad). Seleccionar "foot right", copiar su posición (`Ctrl+C`), seleccionar el controlador y pegar (`Ctrl+V`, `Enter`). Repetir para "foot left" en el frame 10. En el frame 10, mover "foot left" hacia arriba para el paso. En el frame 0, mover "foot left" hacia arriba también. Presionar `B` para inicio del work area y `N` para final. Presionar `F9` en keyframes seleccionados.
+- **Rotación de pies:** Seleccionar controlador de pie, mantener `Shift` y presionar `R` para abrir Rotación. Crear keyframe en frame 0. Ir al frame 10, cambiar rotación (ej. inclinar). Volver al frame 0, rotación a 0. Seleccionar keyframes, `F9`. Mover el keyframe del medio hacia arriba en la línea de tiempo. Copiar keyframes de rotación y pegarlos en frames siguientes para loop.
+- **Animación de manos:** Seleccionar "hand left", ir a `Solo`, mover punto de anclaje hacia arriba con Pen Behind. Desvincular solo. Repetir para "hand right". Presionar `R` para abrir Rotación. Crear keyframes en frame 0. Rotar "hand left" hacia adelante, "hand right" hacia atrás. Mover "hand right" detrás de las capas de pie. Ir 10 frames adelante, cambiar rotaciones. Copiar primeros keyframes, pegar en frame 20. Seleccionar keyframes, `F9`. Añadir expresión: `Alt + clic` en cronómetro de rotación, arrastrar a `play button property`, seleccionar `loopOut("cycle")`.
+- **Animación de cabeza:** Seleccionar "head", ir a `Solo`, mover punto de anclaje hacia abajo con Pen Behind. Desvincular solo. Presionar `R`, crear keyframe de rotación. Rotar ligeramente. Ir a frame 10, rotar al otro lado. Copiar primer keyframe, pegar en frame 20. `F9`. Añadir expresión `loopOut("cycle")`.
+- **Parpadeo de ojos:** Seleccionar "eyes", presionar `S` para Escala. Crear keyframe. Ir 3 frames adelante (`Page Down` tres veces), cambiar escala Y a 5%. Ir 3 frames adelante, escala Y a 100%. `F9`. Copiar estos keyframes y pegarlos más adelante para parpadeo aleatorio.
+- **Rotación de cuerpo:** Seleccionar "body", presionar `R`. Crear keyframe de rotación (ej. 2 grados). Ir 10 frames adelante, rotación -2 grados. Ir 10 frames más, copiar primer keyframe. `F9`. Añadir expresión `loopOut("cycle")`. Para más realismo, seleccionar dos keyframes y moverlos hacia la izquierda manteniendo `Alt` para aleatorizar.
+
+## Reglas para el erudito (imperativas y verificables)
+- Usa **Pen Tool** para dibujar huesos, no la herramienta Shape Layer; los huesos deben ser líneas simples.
+- Cuando uses **Auto-rigging** en DUIK, selecciona **siempre** todos los huesos y el controlador B antes de hacer clic en Auto.
+- Si el controlador IK aparece invertido, cambia su **Scale a -100%** en el eje correspondiente antes de reposicionarlo con el ícono Icon.
+- Para moverte 10 frames exactos en la línea de tiempo, usa **Shift + Page Down** (no solo Page Down).
+- Para copiar valores de posición de un controlador a otro, usa **Ctrl+C** en el keyframe origen y **Ctrl+V** en el keyframe destino, luego presiona **Enter** para confirmar.
+- Aplica **Easy Ease (F9)** a todos los keyframes de posición y rotación antes de añadir expresiones de loop.
+- Para loop infinito, usa la expresión **`loopOutDuration("cycle")`** en posición y **`loopOut("cycle")`** en rotación y escala.
+- Para el parpadeo de ojos, usa keyframes de **Escala (S)** en el eje Y: 100% → 5% → 100% en intervalos de 3 frames.
+
+## Errores comunes que evita o menciona
+- **No presionar S (Scale) después de dibujar huesos con la Pluma**, ya que esto escalaría la línea en lugar de mantenerla como hueso.
+- **No olvidar ocultar las capas de hueso** después del rigging usando el ícono de Hide; solo deben quedar visibles los controladores.
+- **No mover el controlador IK antes de ajustar su escala** si aparece en posición incorrecta; primero cambia Scale a -100% y luego reposiciona con Icon.
+- **No omitir la vinculación de "bone one" de cada pierna a "body down"** después del rigging, o el cuerpo no seguirá el movimiento de las piernas.
+- **No usar Page Down solo para avanzar 10 frames**; usa Shift + Page Down para saltos exactos de 10 frames.

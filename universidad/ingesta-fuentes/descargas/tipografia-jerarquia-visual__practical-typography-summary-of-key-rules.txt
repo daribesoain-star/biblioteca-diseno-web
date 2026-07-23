@@ -1,0 +1,138 @@
+Summary of key rules | Butterick’s Practical Typography
+Summary of key rules
+The four most im­por­tant ty­po­graphic con­sid­er­a­tions for body text are
+point size
+,
+line spac­ing
+,
+line length
+, and font (see
+font rec­om­men­da­tions
+), be­cause those choices de­ter­mine how the
+body text
+looks.
+Point size
+should be 10–12 points in printed doc­u­ments, 15-25 pix­els on the web.
+Line spac­ing
+should be 120–145% of the point
+size.
+The av­er­age
+line length
+should be 45–90 char­ac­ters (in­clud­ing spaces).
+The eas­i­est and most vis­i­ble im­prove­ment you can make to your ty­pog­ra­phy is to use a pro­fes­sional font, like those found in
+font rec­om­men­da­tions
+.
+Avoid
+goofy fonts
+,
+mono­spaced fonts
+, most
+free fonts
+, and
+sys­tem fonts
+—es­pe­cially
+Times New Ro­man
+and
+Ar­ial
+.
+Use curly quo­ta­tion marks, not straight ones (see
+straight and curly quotes
+).
+Use
+bold or italic
+as lit­tle as pos­si­ble, and not
+together.
+Never
+un­der­line
+, ex­cept per­haps for web links.
+All caps
+are fine for less than one line of
+text.
+Use
+cen­tered text
+sparingly.
+Put only
+one space be­tween sen­tences
+.
+Don’t use mul­ti­ple
+word spaces
+or other
+white-space char­ac­ters
+in a
+row.
+If you don’t have real
+small caps
+, don’t use them at
+all.
+Use 5–12% ex­tra
+let­terspac­ing
+with
+all caps
+and
+small caps
+.
+Kern­ing
+should al­ways be turned on.
+Use
+first-line in­dents
+that are one to four times the
+point size
+of the text, or use 4–10 points of
+space be­tween para­graphs
+. Don’t use
+both.
+Al­ways use
+hy­phen­ation
+with
+jus­ti­fied text
+.
+Don’t con­fuse
+hy­phens and dashes
+, and don’t use mul­ti­ple hy­phens as a
+dash.
+Use
+am­per­sands
+spar­ingly, un­less in­cluded in a proper
+name.
+Use proper
+trade­mark and copy­right sym­bols
+—not al­pha­betic
+approximations.
+In a doc­u­ment longer than three pages, one ex­cla­ma­tion point is plenty (see
+ques­tion marks and ex­cla­ma­tion points
+).
+Put a
+non­break­ing space
+af­ter
+para­graph and sec­tion marks
+.
+Make
+el­lipses
+us­ing the proper char­ac­ter, not pe­ri­ods and
+spaces.
+Apos­tro­phes
+point
+downward.
+Make sure
+foot and inch marks
+are straight, not
+curly.
+undock
+
+move
+
+Heliotrope
+Equity
+Valkyrie
+Century Supra
+Concourse
+Triplicate
+buy font
+
+close
+
+←
+Typography in ten minutes
+top
+Introduction
+→

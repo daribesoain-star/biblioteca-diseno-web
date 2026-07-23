@@ -1,0 +1,1064 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.299 --> 00:00:01.850 align:start position:0%
+ 
+have<00:00:00.719><c> you</c><00:00:00.840><c> ever</c><00:00:00.960><c> tried</c><00:00:01.199><c> to</c><00:00:01.319><c> import</c><00:00:01.500><c> a</c><00:00:01.680><c> model</c>
+
+00:00:01.850 --> 00:00:01.860 align:start position:0%
+have you ever tried to import a model
+ 
+
+00:00:01.860 --> 00:00:03.350 align:start position:0%
+have you ever tried to import a model
+from<00:00:02.040><c> blender</c><00:00:02.340><c> only</c><00:00:02.580><c> to</c><00:00:02.820><c> have</c><00:00:02.940><c> it</c><00:00:03.060><c> come</c><00:00:03.179><c> with</c>
+
+00:00:03.350 --> 00:00:03.360 align:start position:0%
+from blender only to have it come with
+ 
+
+00:00:03.360 --> 00:00:05.450 align:start position:0%
+from blender only to have it come with
+weird<00:00:03.600><c> rotations</c><00:00:04.020><c> and</c><00:00:04.319><c> scale</c><00:00:04.560><c> here's</c><00:00:05.160><c> how</c><00:00:05.339><c> you</c>
+
+00:00:05.450 --> 00:00:05.460 align:start position:0%
+weird rotations and scale here's how you
+ 
+
+00:00:05.460 --> 00:00:07.010 align:start position:0%
+weird rotations and scale here's how you
+can<00:00:05.580><c> easily</c><00:00:05.819><c> fix</c><00:00:06.000><c> that</c><00:00:06.240><c> issue</c><00:00:06.540><c> as</c><00:00:06.720><c> well</c><00:00:06.899><c> as</c>
+
+00:00:07.010 --> 00:00:07.020 align:start position:0%
+can easily fix that issue as well as
+ 
+
+00:00:07.020 --> 00:00:08.270 align:start position:0%
+can easily fix that issue as well as
+what<00:00:07.319><c> you</c><00:00:07.500><c> should</c><00:00:07.620><c> care</c><00:00:07.799><c> about</c><00:00:07.980><c> when</c>
+
+00:00:08.270 --> 00:00:08.280 align:start position:0%
+what you should care about when
+ 
+
+00:00:08.280 --> 00:00:10.730 align:start position:0%
+what you should care about when
+exporting<00:00:08.820><c> your</c><00:00:08.940><c> models</c><00:00:09.960><c> I</c><00:00:10.440><c> have</c><00:00:10.500><c> a</c><00:00:10.679><c> simple</c>
+
+00:00:10.730 --> 00:00:10.740 align:start position:0%
+exporting your models I have a simple
+ 
+
+00:00:10.740 --> 00:00:13.129 align:start position:0%
+exporting your models I have a simple
+shoot<00:00:11.040><c> model</c><00:00:11.280><c> here</c><00:00:11.639><c> first</c><00:00:12.360><c> make</c><00:00:12.840><c> sure</c><00:00:13.019><c> you</c>
+
+00:00:13.129 --> 00:00:13.139 align:start position:0%
+shoot model here first make sure you
+ 
+
+00:00:13.139 --> 00:00:14.690 align:start position:0%
+shoot model here first make sure you
+have<00:00:13.259><c> applied</c><00:00:13.500><c> your</c><00:00:13.679><c> transforms</c><00:00:14.219><c> to</c><00:00:14.400><c> have</c><00:00:14.519><c> the</c>
+
+00:00:14.690 --> 00:00:14.700 align:start position:0%
+have applied your transforms to have the
+ 
+
+00:00:14.700 --> 00:00:16.310 align:start position:0%
+have applied your transforms to have the
+correct<00:00:14.880><c> rotation</c><00:00:15.240><c> and</c><00:00:15.540><c> scales</c><00:00:15.960><c> for</c><00:00:16.139><c> your</c>
+
+00:00:16.310 --> 00:00:16.320 align:start position:0%
+correct rotation and scales for your
+ 
+
+00:00:16.320 --> 00:00:19.070 align:start position:0%
+correct rotation and scales for your
+object<00:00:16.800><c> select</c><00:00:17.520><c> the</c><00:00:17.699><c> object</c><00:00:17.940><c> press</c><00:00:18.359><c> Ctrl</c><00:00:18.900><c> a</c>
+
+00:00:19.070 --> 00:00:19.080 align:start position:0%
+object select the object press Ctrl a
+ 
+
+00:00:19.080 --> 00:00:21.109 align:start position:0%
+object select the object press Ctrl a
+and<00:00:19.320><c> select</c><00:00:19.560><c> rotation</c><00:00:19.980><c> and</c><00:00:20.220><c> scale</c>
+
+00:00:21.109 --> 00:00:21.119 align:start position:0%
+and select rotation and scale
+ 
+
+00:00:21.119 --> 00:00:23.029 align:start position:0%
+and select rotation and scale
+to<00:00:21.480><c> export</c><00:00:21.720><c> the</c><00:00:21.900><c> model</c><00:00:22.080><c> make</c><00:00:22.439><c> sure</c><00:00:22.619><c> the</c><00:00:22.740><c> object</c>
+
+00:00:23.029 --> 00:00:23.039 align:start position:0%
+to export the model make sure the object
+ 
+
+00:00:23.039 --> 00:00:25.429 align:start position:0%
+to export the model make sure the object
+is<00:00:23.160><c> selected</c><00:00:23.580><c> go</c><00:00:23.820><c> into</c><00:00:24.000><c> file</c><00:00:24.300><c> export</c><00:00:25.019><c> and</c>
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+is selected go into file export and
+ 
+
+00:00:25.439 --> 00:00:28.849 align:start position:0%
+is selected go into file export and
+choose<00:00:25.680><c> fbx</c>
+
+00:00:28.849 --> 00:00:28.859 align:start position:0%
+ 
+ 
+
+00:00:28.859 --> 00:00:31.070 align:start position:0%
+ 
+turn<00:00:29.340><c> on</c><00:00:29.580><c> selected</c><00:00:30.000><c> objects</c><00:00:30.359><c> to</c><00:00:30.539><c> export</c><00:00:30.840><c> only</c>
+
+00:00:31.070 --> 00:00:31.080 align:start position:0%
+turn on selected objects to export only
+ 
+
+00:00:31.080 --> 00:00:33.110 align:start position:0%
+turn on selected objects to export only
+the<00:00:31.260><c> selected</c><00:00:31.679><c> objects</c><00:00:32.040><c> then</c><00:00:32.460><c> click</c><00:00:32.640><c> on</c><00:00:32.820><c> mesh</c>
+
+00:00:33.110 --> 00:00:33.120 align:start position:0%
+the selected objects then click on mesh
+ 
+
+00:00:33.120 --> 00:00:34.310 align:start position:0%
+the selected objects then click on mesh
+to<00:00:33.180><c> make</c><00:00:33.360><c> sure</c><00:00:33.420><c> you</c><00:00:33.600><c> are</c><00:00:33.719><c> supporting</c><00:00:34.079><c> all</c><00:00:34.200><c> the</c>
+
+00:00:34.310 --> 00:00:34.320 align:start position:0%
+to make sure you are supporting all the
+ 
+
+00:00:34.320 --> 00:00:36.410 align:start position:0%
+to make sure you are supporting all the
+meshes<00:00:34.680><c> under</c><00:00:35.040><c> transform</c><00:00:35.520><c> select</c><00:00:36.059><c> apply</c>
+
+00:00:36.410 --> 00:00:36.420 align:start position:0%
+meshes under transform select apply
+ 
+
+00:00:36.420 --> 00:00:38.090 align:start position:0%
+meshes under transform select apply
+transform<00:00:36.780><c> this</c><00:00:37.200><c> will</c><00:00:37.380><c> fix</c><00:00:37.559><c> the</c><00:00:37.680><c> scaling</c>
+
+00:00:38.090 --> 00:00:38.100 align:start position:0%
+transform this will fix the scaling
+ 
+
+00:00:38.100 --> 00:00:39.770 align:start position:0%
+transform this will fix the scaling
+rotations<00:00:38.520><c> from</c><00:00:38.760><c> the</c><00:00:38.880><c> models</c><00:00:39.180><c> inside</c><00:00:39.300><c> Unity</c>
+
+00:00:39.770 --> 00:00:39.780 align:start position:0%
+rotations from the models inside Unity
+ 
+
+00:00:39.780 --> 00:00:42.229 align:start position:0%
+rotations from the models inside Unity
+if<00:00:40.559><c> your</c><00:00:40.680><c> object</c><00:00:41.040><c> is</c><00:00:41.219><c> facing</c><00:00:41.640><c> blender's</c><00:00:42.120><c> front</c>
+
+00:00:42.229 --> 00:00:42.239 align:start position:0%
+if your object is facing blender's front
+ 
+
+00:00:42.239 --> 00:00:44.150 align:start position:0%
+if your object is facing blender's front
+camera<00:00:42.480><c> you</c><00:00:42.899><c> don't</c><00:00:42.960><c> need</c><00:00:43.140><c> to</c><00:00:43.260><c> change</c><00:00:43.320><c> the</c><00:00:43.559><c> z4's</c>
+
+00:00:44.150 --> 00:00:44.160 align:start position:0%
+camera you don't need to change the z4's
+ 
+
+00:00:44.160 --> 00:00:46.010 align:start position:0%
+camera you don't need to change the z4's
+direction<00:00:44.340><c> you</c><00:00:45.300><c> can</c><00:00:45.420><c> deselect</c><00:00:45.840><c> big</c>
+
+00:00:46.010 --> 00:00:46.020 align:start position:0%
+direction you can deselect big
+ 
+
+00:00:46.020 --> 00:00:47.690 align:start position:0%
+direction you can deselect big
+animations<00:00:46.440><c> if</c><00:00:46.739><c> you</c><00:00:46.860><c> have</c><00:00:47.100><c> animations</c><00:00:47.399><c> you</c>
+
+00:00:47.690 --> 00:00:47.700 align:start position:0%
+animations if you have animations you
+ 
+
+00:00:47.700 --> 00:00:49.310 align:start position:0%
+animations if you have animations you
+don't<00:00:47.820><c> want</c><00:00:47.940><c> to</c><00:00:48.120><c> export</c><00:00:48.360><c> you</c><00:00:48.960><c> can</c><00:00:49.079><c> leave</c><00:00:49.140><c> the</c>
+
+00:00:49.310 --> 00:00:49.320 align:start position:0%
+don't want to export you can leave the
+ 
+
+00:00:49.320 --> 00:00:51.049 align:start position:0%
+don't want to export you can leave the
+other<00:00:49.440><c> options</c><00:00:49.860><c> as</c><00:00:50.039><c> they</c><00:00:50.219><c> are</c><00:00:50.340><c> just</c><00:00:50.640><c> make</c><00:00:50.879><c> sure</c>
+
+00:00:51.049 --> 00:00:51.059 align:start position:0%
+other options as they are just make sure
+ 
+
+00:00:51.059 --> 00:00:52.790 align:start position:0%
+other options as they are just make sure
+that<00:00:51.300><c> in</c><00:00:51.480><c> Geometry</c><00:00:51.780><c> you</c><00:00:52.440><c> have</c><00:00:52.559><c> appointment</c>
+
+00:00:52.790 --> 00:00:52.800 align:start position:0%
+that in Geometry you have appointment
+ 
+
+00:00:52.800 --> 00:00:54.410 align:start position:0%
+that in Geometry you have appointment
+fires<00:00:53.460><c> turned</c><00:00:53.760><c> on</c>
+
+00:00:54.410 --> 00:00:54.420 align:start position:0%
+fires turned on
+ 
+
+00:00:54.420 --> 00:00:56.029 align:start position:0%
+fires turned on
+you<00:00:54.840><c> can</c><00:00:54.899><c> press</c><00:00:55.079><c> the</c><00:00:55.260><c> plus</c><00:00:55.440><c> button</c><00:00:55.800><c> under</c>
+
+00:00:56.029 --> 00:00:56.039 align:start position:0%
+you can press the plus button under
+ 
+
+00:00:56.039 --> 00:00:57.950 align:start position:0%
+you can press the plus button under
+operator<00:00:56.579><c> presets</c><00:00:57.120><c> to</c><00:00:57.420><c> save</c><00:00:57.539><c> the</c><00:00:57.780><c> settings</c>
+
+00:00:57.950 --> 00:00:57.960 align:start position:0%
+operator presets to save the settings
+ 
+
+00:00:57.960 --> 00:00:59.270 align:start position:0%
+operator presets to save the settings
+for<00:00:58.260><c> later</c>
+
+00:00:59.270 --> 00:00:59.280 align:start position:0%
+for later
+ 
+
+00:00:59.280 --> 00:01:01.310 align:start position:0%
+for later
+you<00:00:59.699><c> can</c><00:00:59.820><c> click</c><00:01:00.120><c> the</c><00:01:00.239><c> operator</c><00:01:00.539><c> presets</c><00:01:01.020><c> to</c>
+
+00:01:01.310 --> 00:01:01.320 align:start position:0%
+you can click the operator presets to
+ 
+
+00:01:01.320 --> 00:01:03.229 align:start position:0%
+you can click the operator presets to
+reset<00:01:01.559><c> the</c><00:01:01.680><c> default</c><00:01:01.920><c> values</c><00:01:02.340><c> or</c><00:01:02.879><c> select</c><00:01:03.180><c> the</c>
+
+00:01:03.229 --> 00:01:03.239 align:start position:0%
+reset the default values or select the
+ 
+
+00:01:03.239 --> 00:01:05.750 align:start position:0%
+reset the default values or select the
+preset<00:01:03.600><c> you</c><00:01:03.719><c> just</c><00:01:03.960><c> saved</c><00:01:04.199><c> to</c><00:01:04.320><c> load</c><00:01:04.559><c> in</c><00:01:04.739><c> hit</c><00:01:05.580><c> the</c>
+
+00:01:05.750 --> 00:01:05.760 align:start position:0%
+preset you just saved to load in hit the
+ 
+
+00:01:05.760 --> 00:01:08.510 align:start position:0%
+preset you just saved to load in hit the
+sport<00:01:06.000><c> xbx</c><00:01:06.540><c> button</c><00:01:06.840><c> to</c><00:01:06.960><c> save</c><00:01:07.140><c> it</c><00:01:07.799><c> drop</c><00:01:08.100><c> the</c><00:01:08.340><c> F</c>
+
+00:01:08.510 --> 00:01:08.520 align:start position:0%
+sport xbx button to save it drop the F
+ 
+
+00:01:08.520 --> 00:01:10.490 align:start position:0%
+sport xbx button to save it drop the F
+backs<00:01:08.820><c> inside</c><00:01:08.880><c> your</c><00:01:09.119><c> Unity</c><00:01:09.479><c> project</c><00:01:09.720><c> and</c><00:01:10.320><c> drag</c>
+
+00:01:10.490 --> 00:01:10.500 align:start position:0%
+backs inside your Unity project and drag
+ 
+
+00:01:10.500 --> 00:01:11.630 align:start position:0%
+backs inside your Unity project and drag
+it<00:01:10.680><c> to</c><00:01:10.799><c> the</c><00:01:10.920><c> scene</c>
+
+00:01:11.630 --> 00:01:11.640 align:start position:0%
+it to the scene
+ 
+
+00:01:11.640 --> 00:01:13.370 align:start position:0%
+it to the scene
+if<00:01:12.060><c> you</c><00:01:12.180><c> have</c><00:01:12.299><c> your</c><00:01:12.420><c> object</c><00:01:12.780><c> being</c><00:01:12.960><c> put</c><00:01:13.200><c> inside</c>
+
+00:01:13.370 --> 00:01:13.380 align:start position:0%
+if you have your object being put inside
+ 
+
+00:01:13.380 --> 00:01:15.050 align:start position:0%
+if you have your object being put inside
+the<00:01:13.619><c> planet</c><00:01:13.740><c> like</c><00:01:14.100><c> this</c><00:01:14.220><c> make</c><00:01:14.580><c> sure</c><00:01:14.760><c> you</c><00:01:14.939><c> have</c>
+
+00:01:15.050 --> 00:01:15.060 align:start position:0%
+the planet like this make sure you have
+ 
+
+00:01:15.060 --> 00:01:17.149 align:start position:0%
+the planet like this make sure you have
+the<00:01:15.299><c> center</c><00:01:15.420><c> point</c><00:01:15.659><c> position</c><00:01:15.900><c> set</c><00:01:16.320><c> up</c><00:01:16.439><c> here</c><00:01:16.619><c> if</c>
+
+00:01:17.149 --> 00:01:17.159 align:start position:0%
+the center point position set up here if
+ 
+
+00:01:17.159 --> 00:01:18.830 align:start position:0%
+the center point position set up here if
+you<00:01:17.280><c> have</c><00:01:17.400><c> excited</c><00:01:17.880><c> to</c><00:01:18.000><c> the</c><00:01:18.119><c> object's</c><00:01:18.479><c> pivot</c>
+
+00:01:18.830 --> 00:01:18.840 align:start position:0%
+you have excited to the object's pivot
+ 
+
+00:01:18.840 --> 00:01:20.630 align:start position:0%
+you have excited to the object's pivot
+position<00:01:19.080><c> it</c><00:01:19.680><c> will</c><00:01:19.799><c> try</c><00:01:19.979><c> to</c><00:01:20.100><c> put</c><00:01:20.220><c> the</c><00:01:20.400><c> pivot</c>
+
+00:01:20.630 --> 00:01:20.640 align:start position:0%
+position it will try to put the pivot
+ 
+
+00:01:20.640 --> 00:01:22.429 align:start position:0%
+position it will try to put the pivot
+position<00:01:20.880><c> where</c><00:01:21.240><c> it</c><00:01:21.479><c> hits</c><00:01:21.600><c> the</c><00:01:21.780><c> plane</c><00:01:22.020><c> as</c><00:01:22.320><c> you</c>
+
+00:01:22.429 --> 00:01:22.439 align:start position:0%
+position where it hits the plane as you
+ 
+
+00:01:22.439 --> 00:01:23.870 align:start position:0%
+position where it hits the plane as you
+can<00:01:22.560><c> see</c><00:01:22.619><c> the</c><00:01:22.860><c> rotational</c><00:01:23.159><c> and</c><00:01:23.460><c> scales</c><00:01:23.759><c> are</c>
+
+00:01:23.870 --> 00:01:23.880 align:start position:0%
+can see the rotational and scales are
+ 
+
+00:01:23.880 --> 00:01:25.670 align:start position:0%
+can see the rotational and scales are
+properly<00:01:24.240><c> set</c><00:01:24.479><c> up</c><00:01:24.659><c> as</c><00:01:24.960><c> well</c><00:01:25.140><c> as</c><00:01:25.259><c> the</c><00:01:25.500><c> model</c>
+
+00:01:25.670 --> 00:01:25.680 align:start position:0%
+properly set up as well as the model
+ 
+
+00:01:25.680 --> 00:01:28.070 align:start position:0%
+properly set up as well as the model
+thumbnails<00:01:26.400><c> let's</c><00:01:26.939><c> select</c><00:01:27.240><c> local</c><00:01:27.479><c> transforms</c>
+
+00:01:28.070 --> 00:01:28.080 align:start position:0%
+thumbnails let's select local transforms
+ 
+
+00:01:28.080 --> 00:01:29.630 align:start position:0%
+thumbnails let's select local transforms
+to<00:01:28.200><c> show</c><00:01:28.320><c> the</c><00:01:28.500><c> local</c><00:01:28.619><c> object</c><00:01:28.920><c> rotation</c><00:01:29.400><c> as</c>
+
+00:01:29.630 --> 00:01:29.640 align:start position:0%
+to show the local object rotation as
+ 
+
+00:01:29.640 --> 00:01:30.770 align:start position:0%
+to show the local object rotation as
+well
+
+00:01:30.770 --> 00:01:30.780 align:start position:0%
+well
+ 
+
+00:01:30.780 --> 00:01:32.270 align:start position:0%
+well
+the<00:01:31.140><c> blue</c><00:01:31.259><c> arrow</c><00:01:31.619><c> is</c><00:01:31.740><c> unit's</c><00:01:32.159><c> forward</c>
+
+00:01:32.270 --> 00:01:32.280 align:start position:0%
+the blue arrow is unit's forward
+ 
+
+00:01:32.280 --> 00:01:34.070 align:start position:0%
+the blue arrow is unit's forward
+direction<00:01:32.640><c> that</c><00:01:33.240><c> you</c><00:01:33.360><c> get</c><00:01:33.540><c> when</c><00:01:33.720><c> you're</c><00:01:33.840><c> using</c>
+
+00:01:34.070 --> 00:01:34.080 align:start position:0%
+direction that you get when you're using
+ 
+
+00:01:34.080 --> 00:01:36.170 align:start position:0%
+direction that you get when you're using
+transform<00:01:34.500><c> but</c><00:01:34.799><c> forward</c><00:01:35.040><c> so</c><00:01:35.700><c> it's</c><00:01:35.820><c> important</c>
+
+00:01:36.170 --> 00:01:36.180 align:start position:0%
+transform but forward so it's important
+ 
+
+00:01:36.180 --> 00:01:37.429 align:start position:0%
+transform but forward so it's important
+that<00:01:36.420><c> it's</c><00:01:36.600><c> pointing</c><00:01:36.960><c> to</c><00:01:37.140><c> the</c><00:01:37.259><c> directions</c>
+
+00:01:37.429 --> 00:01:37.439 align:start position:0%
+that it's pointing to the directions
+ 
+
+00:01:37.439 --> 00:01:39.890 align:start position:0%
+that it's pointing to the directions
+that<00:01:37.860><c> you</c><00:01:37.979><c> expect</c><00:01:38.159><c> now</c><00:01:39.119><c> let's</c><00:01:39.360><c> export</c><00:01:39.720><c> the</c>
+
+00:01:39.890 --> 00:01:39.900 align:start position:0%
+that you expect now let's export the
+ 
+
+00:01:39.900 --> 00:01:41.569 align:start position:0%
+that you expect now let's export the
+model<00:01:40.079><c> that</c><00:01:40.320><c> uses</c><00:01:40.619><c> multiple</c><00:01:41.040><c> materials</c><00:01:41.460><c> and</c>
+
+00:01:41.569 --> 00:01:41.579 align:start position:0%
+model that uses multiple materials and
+ 
+
+00:01:41.579 --> 00:01:43.069 align:start position:0%
+model that uses multiple materials and
+textures
+
+00:01:43.069 --> 00:01:43.079 align:start position:0%
+textures
+ 
+
+00:01:43.079 --> 00:01:44.990 align:start position:0%
+textures
+repeat<00:01:43.560><c> the</c><00:01:43.860><c> same</c><00:01:43.979><c> steps</c><00:01:44.340><c> and</c><00:01:44.579><c> load</c><00:01:44.880><c> your</c>
+
+00:01:44.990 --> 00:01:45.000 align:start position:0%
+repeat the same steps and load your
+ 
+
+00:01:45.000 --> 00:01:47.569 align:start position:0%
+repeat the same steps and load your
+export<00:01:45.360><c> fbx</c><00:01:45.840><c> presets</c><00:01:46.259><c> you</c><00:01:46.799><c> can</c><00:01:46.860><c> save</c><00:01:47.040><c> the</c><00:01:47.220><c> fbx</c>
+
+00:01:47.569 --> 00:01:47.579 align:start position:0%
+export fbx presets you can save the fbx
+ 
+
+00:01:47.579 --> 00:01:49.370 align:start position:0%
+export fbx presets you can save the fbx
+and<00:01:47.759><c> manually</c><00:01:48.060><c> cop</c><00:01:48.299><c> these</c><00:01:48.540><c> textures</c><00:01:48.900><c> to</c><00:01:49.200><c> unit</c>
+
+00:01:49.370 --> 00:01:49.380 align:start position:0%
+and manually cop these textures to unit
+ 
+
+00:01:49.380 --> 00:01:51.170 align:start position:0%
+and manually cop these textures to unit
+later<00:01:49.740><c> or</c><00:01:50.220><c> if</c><00:01:50.340><c> you</c><00:01:50.460><c> don't</c><00:01:50.640><c> know</c><00:01:50.759><c> where</c><00:01:51.000><c> the</c>
+
+00:01:51.170 --> 00:01:51.180 align:start position:0%
+later or if you don't know where the
+ 
+
+00:01:51.180 --> 00:01:52.670 align:start position:0%
+later or if you don't know where the
+textures<00:01:51.479><c> are</c><00:01:51.659><c> you</c><00:01:51.960><c> can</c><00:01:52.020><c> select</c><00:01:52.320><c> the</c><00:01:52.439><c> path</c>
+
+00:01:52.670 --> 00:01:52.680 align:start position:0%
+textures are you can select the path
+ 
+
+00:01:52.680 --> 00:01:54.710 align:start position:0%
+textures are you can select the path
+mode<00:01:52.920><c> to</c><00:01:53.100><c> copy</c><00:01:53.460><c> and</c><00:01:53.880><c> it</c><00:01:54.060><c> will</c><00:01:54.180><c> copy</c><00:01:54.479><c> all</c><00:01:54.540><c> the</c>
+
+00:01:54.710 --> 00:01:54.720 align:start position:0%
+mode to copy and it will copy all the
+ 
+
+00:01:54.720 --> 00:01:56.090 align:start position:0%
+mode to copy and it will copy all the
+textures<00:01:55.020><c> into</c><00:01:55.200><c> a</c><00:01:55.380><c> folder</c><00:01:55.619><c> with</c><00:01:55.799><c> the</c><00:01:55.920><c> same</c>
+
+00:01:56.090 --> 00:01:56.100 align:start position:0%
+textures into a folder with the same
+ 
+
+00:01:56.100 --> 00:01:58.249 align:start position:0%
+textures into a folder with the same
+name<00:01:56.220><c> as</c><00:01:56.399><c> the</c><00:01:56.520><c> file</c>
+
+00:01:58.249 --> 00:01:58.259 align:start position:0%
+name as the file
+ 
+
+00:01:58.259 --> 00:02:00.170 align:start position:0%
+name as the file
+pressing<00:01:58.799><c> this</c><00:01:58.920><c> icon</c><00:01:59.159><c> will</c><00:01:59.340><c> instead</c><00:01:59.759><c> embed</c>
+
+00:02:00.170 --> 00:02:00.180 align:start position:0%
+pressing this icon will instead embed
+ 
+
+00:02:00.180 --> 00:02:03.230 align:start position:0%
+pressing this icon will instead embed
+the<00:02:00.360><c> textures</c><00:02:00.720><c> inside</c><00:02:00.899><c> the</c><00:02:01.140><c> fbx</c>
+
+00:02:03.230 --> 00:02:03.240 align:start position:0%
+the textures inside the fbx
+ 
+
+00:02:03.240 --> 00:02:05.030 align:start position:0%
+the textures inside the fbx
+back<00:02:03.540><c> into</c><00:02:03.720><c> Unity</c><00:02:04.140><c> you'll</c><00:02:04.500><c> see</c><00:02:04.680><c> that</c><00:02:04.799><c> we</c><00:02:04.920><c> don't</c>
+
+00:02:05.030 --> 00:02:05.040 align:start position:0%
+back into Unity you'll see that we don't
+ 
+
+00:02:05.040 --> 00:02:07.130 align:start position:0%
+back into Unity you'll see that we don't
+have<00:02:05.159><c> the</c><00:02:05.340><c> textures</c><00:02:05.640><c> yet</c><00:02:05.880><c> you</c><00:02:06.780><c> can</c><00:02:06.840><c> manually</c>
+
+00:02:07.130 --> 00:02:07.140 align:start position:0%
+have the textures yet you can manually
+ 
+
+00:02:07.140 --> 00:02:09.229 align:start position:0%
+have the textures yet you can manually
+copy<00:02:07.560><c> them</c><00:02:07.680><c> to</c><00:02:07.920><c> the</c><00:02:08.039><c> folder</c><00:02:08.340><c> and</c><00:02:08.520><c> have</c><00:02:08.759><c> the</c><00:02:08.880><c> fbx</c>
+
+00:02:09.229 --> 00:02:09.239 align:start position:0%
+copy them to the folder and have the fbx
+ 
+
+00:02:09.239 --> 00:02:10.790 align:start position:0%
+copy them to the folder and have the fbx
+try<00:02:09.420><c> to</c><00:02:09.599><c> Auto</c><00:02:09.720><c> detect</c><00:02:10.020><c> them</c><00:02:10.200><c> or</c><00:02:10.560><c> you</c><00:02:10.679><c> can</c>
+
+00:02:10.790 --> 00:02:10.800 align:start position:0%
+try to Auto detect them or you can
+ 
+
+00:02:10.800 --> 00:02:12.650 align:start position:0%
+try to Auto detect them or you can
+extract<00:02:11.099><c> the</c><00:02:11.280><c> materials</c><00:02:11.819><c> and</c><00:02:12.000><c> manually</c><00:02:12.360><c> set</c>
+
+00:02:12.650 --> 00:02:12.660 align:start position:0%
+extract the materials and manually set
+ 
+
+00:02:12.660 --> 00:02:15.350 align:start position:0%
+extract the materials and manually set
+the<00:02:12.780><c> textures</c><00:02:13.080><c> yourself</c><00:02:13.260><c> inside</c><00:02:13.680><c> materials</c>
+
+00:02:15.350 --> 00:02:15.360 align:start position:0%
+the textures yourself inside materials
+ 
+
+00:02:15.360 --> 00:02:16.850 align:start position:0%
+the textures yourself inside materials
+if<00:02:15.720><c> you</c><00:02:15.840><c> choose</c><00:02:16.020><c> the</c><00:02:16.200><c> embedded</c><00:02:16.500><c> options</c>
+
+00:02:16.850 --> 00:02:16.860 align:start position:0%
+if you choose the embedded options
+ 
+
+00:02:16.860 --> 00:02:18.290 align:start position:0%
+if you choose the embedded options
+you'll<00:02:17.220><c> need</c><00:02:17.340><c> to</c><00:02:17.400><c> select</c><00:02:17.700><c> the</c><00:02:17.760><c> model</c><00:02:17.940><c> and</c>
+
+00:02:18.290 --> 00:02:18.300 align:start position:0%
+you'll need to select the model and
+ 
+
+00:02:18.300 --> 00:02:20.990 align:start position:0%
+you'll need to select the model and
+click<00:02:18.480><c> unpack</c><00:02:18.840><c> texture</c><00:02:19.340><c> this</c><00:02:20.340><c> will</c><00:02:20.520><c> copy</c><00:02:20.879><c> the</c>
+
+00:02:20.990 --> 00:02:21.000 align:start position:0%
+click unpack texture this will copy the
+ 
+
+00:02:21.000 --> 00:02:22.850 align:start position:0%
+click unpack texture this will copy the
+textures<00:02:21.300><c> from</c><00:02:21.540><c> the</c><00:02:21.599><c> fbx</c><00:02:22.020><c> into</c><00:02:22.200><c> a</c><00:02:22.440><c> folder</c><00:02:22.739><c> for</c>
+
+00:02:22.850 --> 00:02:22.860 align:start position:0%
+textures from the fbx into a folder for
+ 
+
+00:02:22.860 --> 00:02:25.130 align:start position:0%
+textures from the fbx into a folder for
+you<00:02:22.980><c> to</c><00:02:23.160><c> use</c><00:02:23.340><c> you</c><00:02:24.120><c> might</c><00:02:24.239><c> get</c><00:02:24.420><c> this</c><00:02:24.540><c> warning</c><00:02:24.959><c> if</c>
+
+00:02:25.130 --> 00:02:25.140 align:start position:0%
+you to use you might get this warning if
+ 
+
+00:02:25.140 --> 00:02:27.290 align:start position:0%
+you to use you might get this warning if
+you<00:02:25.260><c> have</c><00:02:25.440><c> normal</c><00:02:25.620><c> textures</c><00:02:26.220><c> hit</c><00:02:26.520><c> fix</c><00:02:26.760><c> now</c><00:02:27.000><c> and</c>
+
+00:02:27.290 --> 00:02:27.300 align:start position:0%
+you have normal textures hit fix now and
+ 
+
+00:02:27.300 --> 00:02:29.809 align:start position:0%
+you have normal textures hit fix now and
+it<00:02:27.540><c> will</c><00:02:27.660><c> set</c><00:02:27.840><c> the</c><00:02:27.959><c> image</c><00:02:28.140><c> type</c><00:02:28.319><c> to</c><00:02:28.560><c> normal</c>
+
+00:02:29.809 --> 00:02:29.819 align:start position:0%
+it will set the image type to normal
+ 
+
+00:02:29.819 --> 00:02:32.210 align:start position:0%
+it will set the image type to normal
+now<00:02:30.360><c> let's</c><00:02:30.540><c> export</c><00:02:30.900><c> multiple</c><00:02:31.379><c> models</c><00:02:31.800><c> with</c>
+
+00:02:32.210 --> 00:02:32.220 align:start position:0%
+now let's export multiple models with
+ 
+
+00:02:32.220 --> 00:02:33.650 align:start position:0%
+now let's export multiple models with
+the<00:02:32.340><c> object</c><00:02:32.580><c> selected</c><00:02:33.060><c> click</c><00:02:33.480><c> on</c><00:02:33.540><c> the</c>
+
+00:02:33.650 --> 00:02:33.660 align:start position:0%
+the object selected click on the
+ 
+
+00:02:33.660 --> 00:02:35.089 align:start position:0%
+the object selected click on the
+transform<00:02:33.900><c> tool</c><00:02:34.319><c> and</c><00:02:34.440><c> set</c><00:02:34.680><c> the</c><00:02:34.800><c> option</c><00:02:34.980><c> to</c>
+
+00:02:35.089 --> 00:02:35.099 align:start position:0%
+transform tool and set the option to
+ 
+
+00:02:35.099 --> 00:02:35.990 align:start position:0%
+transform tool and set the option to
+local
+
+00:02:35.990 --> 00:02:36.000 align:start position:0%
+local
+ 
+
+00:02:36.000 --> 00:02:37.790 align:start position:0%
+local
+this<00:02:36.480><c> will</c><00:02:36.660><c> allow</c><00:02:37.020><c> you</c><00:02:37.080><c> to</c><00:02:37.200><c> see</c><00:02:37.319><c> the</c><00:02:37.560><c> object</c>
+
+00:02:37.790 --> 00:02:37.800 align:start position:0%
+this will allow you to see the object
+ 
+
+00:02:37.800 --> 00:02:40.190 align:start position:0%
+this will allow you to see the object
+axis<00:02:38.700><c> by</c><00:02:39.120><c> default</c><00:02:39.420><c> you</c><00:02:39.720><c> notice</c><00:02:39.959><c> forward</c>
+
+00:02:40.190 --> 00:02:40.200 align:start position:0%
+axis by default you notice forward
+ 
+
+00:02:40.200 --> 00:02:42.050 align:start position:0%
+axis by default you notice forward
+direction<00:02:40.500><c> will</c><00:02:40.860><c> be</c><00:02:41.040><c> blenders</c><00:02:41.459><c> minus</c><00:02:41.879><c> y</c>
+
+00:02:42.050 --> 00:02:42.060 align:start position:0%
+direction will be blenders minus y
+ 
+
+00:02:42.060 --> 00:02:43.910 align:start position:0%
+direction will be blenders minus y
+direction<00:02:42.300><c> here</c><00:02:43.140><c> The</c><00:02:43.440><c> Shield</c><00:02:43.620><c> is</c><00:02:43.800><c> still</c>
+
+00:02:43.910 --> 00:02:43.920 align:start position:0%
+direction here The Shield is still
+ 
+
+00:02:43.920 --> 00:02:45.410 align:start position:0%
+direction here The Shield is still
+pointing<00:02:44.280><c> forward</c><00:02:44.400><c> but</c><00:02:44.760><c> their</c><00:02:44.940><c> spear</c><00:02:45.300><c> Point</c>
+
+00:02:45.410 --> 00:02:45.420 align:start position:0%
+pointing forward but their spear Point
+ 
+
+00:02:45.420 --> 00:02:47.990 align:start position:0%
+pointing forward but their spear Point
+has<00:02:45.660><c> its</c><00:02:45.900><c> four</c><00:02:46.019><c> Direction</c><00:02:46.319><c> upwards</c><00:02:47.580><c> select</c>
+
+00:02:47.990 --> 00:02:48.000 align:start position:0%
+has its four Direction upwards select
+ 
+
+00:02:48.000 --> 00:02:50.990 align:start position:0%
+has its four Direction upwards select
+both<00:02:48.180><c> objects</c><00:02:48.720><c> and</c><00:02:48.900><c> Export</c><00:02:49.379><c> them</c><00:02:49.560><c> as</c><00:02:49.800><c> usual</c>
+
+00:02:50.990 --> 00:02:51.000 align:start position:0%
+both objects and Export them as usual
+ 
+
+00:02:51.000 --> 00:02:53.030 align:start position:0%
+both objects and Export them as usual
+multiple<00:02:51.540><c> objects</c><00:02:51.900><c> will</c><00:02:52.080><c> always</c><00:02:52.260><c> be</c><00:02:52.560><c> parented</c>
+
+00:02:53.030 --> 00:02:53.040 align:start position:0%
+multiple objects will always be parented
+ 
+
+00:02:53.040 --> 00:02:55.190 align:start position:0%
+multiple objects will always be parented
+when<00:02:53.160><c> object</c><00:02:53.580><c> facing</c><00:02:53.940><c> forwards</c><00:02:54.360><c> even</c><00:02:54.840><c> if</c><00:02:55.080><c> you</c>
+
+00:02:55.190 --> 00:02:55.200 align:start position:0%
+when object facing forwards even if you
+ 
+
+00:02:55.200 --> 00:02:56.390 align:start position:0%
+when object facing forwards even if you
+change<00:02:55.319><c> the</c><00:02:55.500><c> forward</c><00:02:55.680><c> Direction</c><00:02:55.980><c> in</c><00:02:56.280><c> the</c>
+
+00:02:56.390 --> 00:02:56.400 align:start position:0%
+change the forward Direction in the
+ 
+
+00:02:56.400 --> 00:02:58.250 align:start position:0%
+change the forward Direction in the
+export<00:02:56.640><c> settings</c><00:02:56.940><c> it</c><00:02:57.360><c> will</c><00:02:57.540><c> only</c><00:02:57.720><c> affect</c><00:02:58.080><c> the</c>
+
+00:02:58.250 --> 00:02:58.260 align:start position:0%
+export settings it will only affect the
+ 
+
+00:02:58.260 --> 00:02:59.630 align:start position:0%
+export settings it will only affect the
+direction<00:02:58.440><c> of</c><00:02:58.739><c> the</c><00:02:58.860><c> individual</c><00:02:59.099><c> objects</c>
+
+00:02:59.630 --> 00:02:59.640 align:start position:0%
+direction of the individual objects
+ 
+
+00:02:59.640 --> 00:03:02.570 align:start position:0%
+direction of the individual objects
+inside<00:02:59.819><c> and</c><00:03:00.660><c> inside</c><00:03:00.840><c> you</c><00:03:01.800><c> have</c><00:03:02.040><c> the</c><00:03:02.220><c> objects</c>
+
+00:03:02.570 --> 00:03:02.580 align:start position:0%
+inside and inside you have the objects
+ 
+
+00:03:02.580 --> 00:03:05.869 align:start position:0%
+inside and inside you have the objects
+with<00:03:02.760><c> their</c><00:03:03.000><c> own</c><00:03:03.120><c> local</c><00:03:03.300><c> rotations</c>
+
+00:03:05.869 --> 00:03:05.879 align:start position:0%
+ 
+ 
+
+00:03:05.879 --> 00:03:07.970 align:start position:0%
+ 
+finally<00:03:06.599><c> let's</c><00:03:06.900><c> talk</c><00:03:07.140><c> about</c><00:03:07.319><c> characters</c><00:03:07.680><c> with</c>
+
+00:03:07.970 --> 00:03:07.980 align:start position:0%
+finally let's talk about characters with
+ 
+
+00:03:07.980 --> 00:03:10.430 align:start position:0%
+finally let's talk about characters with
+amateurs<00:03:08.519><c> and</c><00:03:08.640><c> animations</c><00:03:09.060><c> here</c><00:03:09.840><c> I</c><00:03:10.200><c> have</c><00:03:10.319><c> a</c>
+
+00:03:10.430 --> 00:03:10.440 align:start position:0%
+amateurs and animations here I have a
+ 
+
+00:03:10.440 --> 00:03:11.809 align:start position:0%
+amateurs and animations here I have a
+model<00:03:10.560><c> with</c><00:03:10.800><c> several</c><00:03:11.159><c> actions</c><00:03:11.519><c> for</c><00:03:11.640><c> each</c>
+
+00:03:11.809 --> 00:03:11.819 align:start position:0%
+model with several actions for each
+ 
+
+00:03:11.819 --> 00:03:13.009 align:start position:0%
+model with several actions for each
+animation
+
+00:03:13.009 --> 00:03:13.019 align:start position:0%
+animation
+ 
+
+00:03:13.019 --> 00:03:14.750 align:start position:0%
+animation
+make<00:03:13.440><c> sure</c><00:03:13.560><c> to</c><00:03:13.739><c> select</c><00:03:13.980><c> both</c><00:03:14.159><c> the</c><00:03:14.340><c> Armature</c>
+
+00:03:14.750 --> 00:03:14.760 align:start position:0%
+make sure to select both the Armature
+ 
+
+00:03:14.760 --> 00:03:16.430 align:start position:0%
+make sure to select both the Armature
+and<00:03:14.940><c> the</c><00:03:15.060><c> mesh</c>
+
+00:03:16.430 --> 00:03:16.440 align:start position:0%
+and the mesh
+ 
+
+00:03:16.440 --> 00:03:18.770 align:start position:0%
+and the mesh
+you<00:03:16.860><c> can</c><00:03:16.920><c> shift</c><00:03:17.159><c> click</c><00:03:17.519><c> select</c><00:03:17.819><c> both</c><00:03:18.000><c> or</c><00:03:18.420><c> right</c>
+
+00:03:18.770 --> 00:03:18.780 align:start position:0%
+you can shift click select both or right
+ 
+
+00:03:18.780 --> 00:03:20.750 align:start position:0%
+you can shift click select both or right
+click<00:03:19.080><c> and</c><00:03:19.260><c> select</c><00:03:19.500><c> higher</c><00:03:19.920><c> make</c><00:03:20.459><c> sure</c><00:03:20.580><c> to</c>
+
+00:03:20.750 --> 00:03:20.760 align:start position:0%
+click and select higher make sure to
+ 
+
+00:03:20.760 --> 00:03:25.190 align:start position:0%
+click and select higher make sure to
+select<00:03:21.000><c> both</c><00:03:21.120><c> the</c><00:03:21.300><c> Armature</c><00:03:21.720><c> and</c><00:03:21.959><c> the</c><00:03:22.080><c> mesh</c>
+
+00:03:25.190 --> 00:03:25.200 align:start position:0%
+ 
+ 
+
+00:03:25.200 --> 00:03:27.350 align:start position:0%
+ 
+make<00:03:25.620><c> sure</c><00:03:25.800><c> big</c><00:03:26.220><c> animations</c><00:03:26.700><c> is</c><00:03:27.000><c> turned</c><00:03:27.300><c> on</c>
+
+00:03:27.350 --> 00:03:27.360 align:start position:0%
+make sure big animations is turned on
+ 
+
+00:03:27.360 --> 00:03:29.869 align:start position:0%
+make sure big animations is turned on
+and<00:03:27.840><c> disable</c><00:03:28.140><c> nla</c><00:03:28.680><c> strips</c><00:03:29.040><c> this</c><00:03:29.580><c> will</c><00:03:29.760><c> make</c>
+
+00:03:29.869 --> 00:03:29.879 align:start position:0%
+and disable nla strips this will make
+ 
+
+00:03:29.879 --> 00:03:31.670 align:start position:0%
+and disable nla strips this will make
+sure<00:03:30.000><c> that</c><00:03:30.180><c> nla's</c><00:03:30.840><c> are</c><00:03:30.900><c> not</c><00:03:30.959><c> baited</c><00:03:31.319><c> into</c><00:03:31.500><c> an</c>
+
+00:03:31.670 --> 00:03:31.680 align:start position:0%
+sure that nla's are not baited into an
+ 
+
+00:03:31.680 --> 00:03:35.149 align:start position:0%
+sure that nla's are not baited into an
+actual<00:03:32.040><c> layer</c><00:03:32.280><c> if</c><00:03:32.459><c> you</c><00:03:32.580><c> have</c><00:03:32.700><c> them</c>
+
+00:03:35.149 --> 00:03:35.159 align:start position:0%
+ 
+ 
+
+00:03:35.159 --> 00:03:37.309 align:start position:0%
+ 
+on<00:03:35.640><c> Armature</c><00:03:36.239><c> make</c><00:03:36.540><c> sure</c><00:03:36.659><c> to</c><00:03:36.840><c> disable</c><00:03:37.080><c> add</c>
+
+00:03:37.309 --> 00:03:37.319 align:start position:0%
+on Armature make sure to disable add
+ 
+
+00:03:37.319 --> 00:03:39.290 align:start position:0%
+on Armature make sure to disable add
+Leaf<00:03:37.680><c> bones</c><00:03:37.920><c> this</c><00:03:38.220><c> will</c><00:03:38.400><c> add</c><00:03:38.640><c> an</c><00:03:38.879><c> extra</c><00:03:39.000><c> bone</c>
+
+00:03:39.290 --> 00:03:39.300 align:start position:0%
+Leaf bones this will add an extra bone
+ 
+
+00:03:39.300 --> 00:03:40.729 align:start position:0%
+Leaf bones this will add an extra bone
+to<00:03:39.480><c> healthy</c><00:03:39.780><c> bone</c><00:03:39.959><c> endings</c><00:03:40.379><c> some</c>
+
+00:03:40.729 --> 00:03:40.739 align:start position:0%
+to healthy bone endings some
+ 
+
+00:03:40.739 --> 00:03:42.530 align:start position:0%
+to healthy bone endings some
+applications<00:03:41.099><c> require</c><00:03:41.400><c> this</c><00:03:41.760><c> but</c><00:03:42.239><c> game</c>
+
+00:03:42.530 --> 00:03:42.540 align:start position:0%
+applications require this but game
+ 
+
+00:03:42.540 --> 00:03:44.570 align:start position:0%
+applications require this but game
+engines<00:03:42.900><c> don't</c><00:03:43.200><c> need</c><00:03:43.379><c> this</c><00:03:43.560><c> and</c><00:03:43.980><c> it</c><00:03:44.280><c> will</c><00:03:44.400><c> just</c>
+
+00:03:44.570 --> 00:03:44.580 align:start position:0%
+engines don't need this and it will just
+ 
+
+00:03:44.580 --> 00:03:46.369 align:start position:0%
+engines don't need this and it will just
+add<00:03:44.819><c> up</c><00:03:45.000><c> to</c><00:03:45.120><c> our</c><00:03:45.299><c> performance</c><00:03:45.720><c> for</c><00:03:46.019><c> the</c><00:03:46.140><c> extra</c>
+
+00:03:46.369 --> 00:03:46.379 align:start position:0%
+add up to our performance for the extra
+ 
+
+00:03:46.379 --> 00:03:48.289 align:start position:0%
+add up to our performance for the extra
+empty<00:03:46.860><c> gaming</c><00:03:47.099><c> objects</c><00:03:47.459><c> they</c><00:03:47.819><c> only</c><00:03:48.000><c> the</c><00:03:48.120><c> farm</c>
+
+00:03:48.289 --> 00:03:48.299 align:start position:0%
+empty gaming objects they only the farm
+ 
+
+00:03:48.299 --> 00:03:49.729 align:start position:0%
+empty gaming objects they only the farm
+Bond<00:03:48.599><c> options</c><00:03:48.840><c> will</c><00:03:49.019><c> remove</c><00:03:49.200><c> all</c><00:03:49.440><c> the</c><00:03:49.560><c> bones</c>
+
+00:03:49.729 --> 00:03:49.739 align:start position:0%
+Bond options will remove all the bones
+ 
+
+00:03:49.739 --> 00:03:51.350 align:start position:0%
+Bond options will remove all the bones
+except<00:03:50.040><c> for</c><00:03:50.159><c> the</c><00:03:50.340><c> bones</c><00:03:50.519><c> that</c><00:03:50.760><c> deform</c><00:03:51.180><c> the</c>
+
+00:03:51.350 --> 00:03:51.360 align:start position:0%
+except for the bones that deform the
+ 
+
+00:03:51.360 --> 00:03:53.030 align:start position:0%
+except for the bones that deform the
+mesh<00:03:51.659><c> you</c><00:03:52.140><c> can</c><00:03:52.260><c> use</c><00:03:52.440><c> this</c><00:03:52.620><c> to</c><00:03:52.799><c> make</c><00:03:52.920><c> sure</c>
+
+00:03:53.030 --> 00:03:53.040 align:start position:0%
+mesh you can use this to make sure
+ 
+
+00:03:53.040 --> 00:03:54.589 align:start position:0%
+mesh you can use this to make sure
+you're<00:03:53.220><c> not</c><00:03:53.400><c> exporting</c><00:03:53.879><c> Bones</c><00:03:54.120><c> from</c><00:03:54.360><c> your</c>
+
+00:03:54.589 --> 00:03:54.599 align:start position:0%
+you're not exporting Bones from your
+ 
+
+00:03:54.599 --> 00:03:56.630 align:start position:0%
+you're not exporting Bones from your
+control<00:03:54.840><c> rig</c><00:03:55.260><c> but</c><00:03:55.680><c> this</c><00:03:55.860><c> can</c><00:03:56.040><c> cause</c><00:03:56.159><c> problems</c>
+
+00:03:56.630 --> 00:03:56.640 align:start position:0%
+control rig but this can cause problems
+ 
+
+00:03:56.640 --> 00:03:58.369 align:start position:0%
+control rig but this can cause problems
+if<00:03:56.760><c> your</c><00:03:56.879><c> deformed</c><00:03:57.360><c> bones</c><00:03:57.540><c> are</c><00:03:57.659><c> based</c><00:03:58.019><c> on</c><00:03:58.080><c> the</c>
+
+00:03:58.369 --> 00:03:58.379 align:start position:0%
+if your deformed bones are based on the
+ 
+
+00:03:58.379 --> 00:04:01.070 align:start position:0%
+if your deformed bones are based on the
+non<00:03:58.560><c> different</c><00:03:58.739><c> bonds</c><00:03:59.220><c> like</c><00:03:59.340><c> ring</c><00:03:59.580><c> 5</c><00:03:59.760><c> rigs</c>
+
+00:04:01.070 --> 00:04:01.080 align:start position:0%
+non different bonds like ring 5 rigs
+ 
+
+00:04:01.080 --> 00:04:03.710 align:start position:0%
+non different bonds like ring 5 rigs
+having<00:04:01.560><c> done</c><00:04:01.860><c> all</c><00:04:02.040><c> that</c><00:04:02.220><c> hit</c><00:04:02.340><c> export</c><00:04:02.819><c> now</c><00:04:03.540><c> into</c>
+
+00:04:03.710 --> 00:04:03.720 align:start position:0%
+having done all that hit export now into
+ 
+
+00:04:03.720 --> 00:04:06.170 align:start position:0%
+having done all that hit export now into
+Unity<00:04:04.140><c> you</c><00:04:04.440><c> can</c><00:04:04.500><c> see</c><00:04:04.620><c> the</c><00:04:04.739><c> model</c><00:04:04.860><c> working</c>
+
+00:04:06.170 --> 00:04:06.180 align:start position:0%
+Unity you can see the model working
+ 
+
+00:04:06.180 --> 00:04:07.970 align:start position:0%
+Unity you can see the model working
+if<00:04:06.480><c> you</c><00:04:06.599><c> select</c><00:04:06.840><c> the</c><00:04:06.959><c> animation</c><00:04:07.200><c> tab</c><00:04:07.620><c> you'll</c>
+
+00:04:07.970 --> 00:04:07.980 align:start position:0%
+if you select the animation tab you'll
+ 
+
+00:04:07.980 --> 00:04:09.289 align:start position:0%
+if you select the animation tab you'll
+see<00:04:08.040><c> all</c><00:04:08.220><c> the</c><00:04:08.340><c> animations</c><00:04:08.640><c> were</c><00:04:09.000><c> properly</c>
+
+00:04:09.289 --> 00:04:09.299 align:start position:0%
+see all the animations were properly
+ 
+
+00:04:09.299 --> 00:04:11.330 align:start position:0%
+see all the animations were properly
+exported<00:04:09.900><c> with</c><00:04:10.080><c> the</c><00:04:10.200><c> fbx</c>
+
+00:04:11.330 --> 00:04:11.340 align:start position:0%
+exported with the fbx
+ 
+
+00:04:11.340 --> 00:04:13.970 align:start position:0%
+exported with the fbx
+and<00:04:11.819><c> that's</c><00:04:11.939><c> it</c><00:04:12.599><c> I</c><00:04:13.019><c> hope</c><00:04:13.140><c> this</c><00:04:13.319><c> helps</c><00:04:13.620><c> clarify</c>
+
+00:04:13.970 --> 00:04:13.980 align:start position:0%
+and that's it I hope this helps clarify
+ 
+
+00:04:13.980 --> 00:04:15.649 align:start position:0%
+and that's it I hope this helps clarify
+how<00:04:14.220><c> to</c><00:04:14.340><c> correctly</c><00:04:14.640><c> import</c><00:04:14.819><c> blender</c><00:04:15.299><c> models</c>
+
+00:04:15.649 --> 00:04:15.659 align:start position:0%
+how to correctly import blender models
+ 
+
+00:04:15.659 --> 00:04:16.909 align:start position:0%
+how to correctly import blender models
+into<00:04:15.780><c> Unity</c>
+
+00:04:16.909 --> 00:04:16.919 align:start position:0%
+into Unity
+ 
+
+00:04:16.919 --> 00:04:18.590 align:start position:0%
+into Unity
+thank<00:04:17.220><c> you</c><00:04:17.340><c> for</c><00:04:17.459><c> watching</c>
+
+00:04:18.590 --> 00:04:18.600 align:start position:0%
+thank you for watching
+ 
+
+00:04:18.600 --> 00:04:21.500 align:start position:0%
+thank you for watching
+until<00:04:18.959><c> next</c><00:04:19.320><c> time</c>
+

@@ -1,0 +1,78 @@
+peSv5IT5Ve4|507.0|1204460|NA|RoBuilder|ABSOLUTE Beginner Basics.. Blender For Noobs 2025
+6RKL-j1k4Dc|774.0|310628|NA|Film Stop|The 36 Best Blender Tutorials for Beginners
+z-Xl9tGqH14|15550.0|1526942|NA|Blender Guru|Beginner Blender Tutorial (2026)
+SVl_tlbGrh4|1386.0|469077|NA|CBaileyFilm|Beginner Modelling Tutorial Blender
+W337AL7n3dc|2060.0|888504|NA|SmartyRBX|The ULTIMATE Blender Modeling Guide for Noobs! (Make Assets For Games!)
+nsTjnQ067sw|1866.0|599624|NA|CG Boost|Blender Hard-Surface Modeling Fundamentals #b3d #tutorial
+SLgJgxs1bNM|697.0|60720|NA|MK Graphics|How to use PBR Textures in Blender 3.0  Cycles and Eevee
+5ajQHT6SIqM|525.0|220643|NA|Comfee Mug|Turning Photo Realistic Textures into Anime Style Shaders in Blender [EEVEE] - Comfee Tutorial
+Wg244y2f9Fw|1746.0|690814|NA|Brandon 3D|Learn the BASICS of Material Shading in BLENDER (Part 1)
+GdfyTXHBsyE|19.0|617822|NA|Quick Tech Tips|Blender 3.4 - Instantly Set Up PBR Materials
+a5KOdVft93E|537.0|130744|NA|CGMatter|Blender 2.8 How to use PBR textures with principled bsdf Cycles/Eevee
+jBT6MD7IzHU|1108.0|156733|NA|Brandon 3D|Blender PBR Material Shading (Material Series Part 2)
+si7UAgvBd4Y|896.0|225887|NA|Polyfjord|Tutorial: Cinematic Lighting in Blender
+XcJyW5iBKlU|372.0|176335|NA|RenderRides|Master Lighting in Blender Under 6 Minutes!
+XTrZyOXeqZg|361.0|93208|NA|Gleb Alexandrov|Cinematic Lighting in Blender | Promo Video
+Hyhew7kuhgA|121.0|245330|NA|Poly Playground|Easy Blender Lighting HACK [Blender Tutorial]
+ElMM3u2MO5k|604.0|601524|NA|Kaizen|The Power of LIGHTING in Blender!
+WreZ_VKDn4M|485.0|93750|NA|Extra 3d|Realistic Product Lighting In Blender
+aO0eUnu0hO0|848.0|954524|NA|Blender Guru|Blender Tutorial: Geometry Nodes for Beginners - Part 1
+ETOXG3qdMKg|398.0|46080|NA|Yesway™|How to Understand Geometry Nodes | Blender for Beginners
+BOIsEYWeXoI|2978.0|71319|NA|Aura Prods|🔥 Geometry Nodes Course - Blender in Spanish 2025
+aTeLyeVO0Dc|2002.0|168593|NA|SharpWind|The ONLY Geometry Nodes Tutorial You'll Ever Need!
+188IeRY-ch0|5406.0|14366|NA|Ryan King Art|Geometry Nodes for Beginners (Blender Tutorial)
+CwOHqH60X-0|1324.0|101032|NA|Blender Made Easy|Blender Tutorial - Procedural Chainlink Fence (Geometry Nodes)
+GAIZkIfXXjQ|769.0|1883616|NA|Joey Carlino|Character animation for impatient people - Blender Tutorial
+DDeB4tDVCGY|602.0|1491540|NA|Joey Carlino|Rigging for impatient people - Blender Tutorial
+1khSuB6sER0|641.0|777566|NA|ProductionCrate|How to Rig and Animate in BLENDER!
+4O3OKhYxNx8|1170.0|161667|NA|Crashsune Academy|Rig Your Character in 8 minutes! ✨ Blender 3D Character Modeling Tutorial - Part 9 [2024]
+2nlMZx0vp6E|537.0|191341|NA|Grant Abbitt (Gabbitt)|Character Rigging in Blender : Easy Setup for Beginners
+_zKnaVeSYhk|59.0|487178|NA|BlenderVitals|Create a Character Rig in Blender in 1 Minute!
+kYOsR9Kb8Ek|375.0|191183|NA|CGMatter|Render 2995x faster in Cycles // Blender Tutorial
+kIW648Cfo18|541.0|450546|NA|Blender Guru|10 Easy Ways to Render Faster in Blender
+pkICXEWc1kM|1171.0|44147|NA|Kaizen|20X Faster Rendering in Cycles (Blender Render Guide)
+-R_JtWnI3Ds|287.0|39528|NA|Extra 3d|How To Render Faster In Blender Cycles
+MzJ-w6Zmpco|553.0|26414|NA|Robin Squares|Cycles optimization - render like a pro
+EKb5G_Efunw|207.0|45918|NA|Afternoon CG|Best Cycles Render Settings Explained in 3 Minutes (Blender 4.5 Tutorial)
+uCplB3zvQks|303.0|140644|NA|Comfee Mug|New Anime Cel/Toon Shader for Blender 4.2 and Beyond [EEVEE] - PART 1 Comfee Tutorial
+aDA-BCOaqFY|443.0|20871|NA|Arrietty 3D|Toon shading and line art for characters/Blender tutorial
+AtetvOEcZt8|1008.0|488980|NA|Joey Carlino|2d style materials in 3d animation
+7Pi5AUwyIJU|205.0|175680|NA|TheSicklyWizard|Stop Using Color Ramps For Toon Shaders
+aZAqFJKMtjs|1096.0|7586|NA|Motion Slickness|Blender 5 Toon Shader Tutorial — Fast, Clean, Stylized NPR
+8HHQUD3HxdY|60.0|335695|NA|BlenderVitals|Create a Toon Shader in Blender in 1 Minute!
+2Kzo68liq78|1179.0|518066|NA|Jens|How to make Game Models (For Beginners) from Start to Finish (blender)
+dQWHU8yDpAo|264.0|121502|NA|Octodemy|Export 3D models to Unity | Blender FBX settings
+qYgGqh8ZL20|612.0|22|NA|Aidan Schneider|MI103 Tutorial  |  Blender to Unity Pipeline
+gW5ceMbaZEo|32654.0|30684|NA|designersoup|The All-In-One Game Asset Pipeline (Full 9-Hour Blender Course)
+jQXG9IbwHwI|269.0|6414|NA|Alex Pearce|Blender to Unity with Materials: AP GameTools!
+HZX7ZERI55Q|677.0|184|NA|LumberZack|How to Create Game Assets for Unity Simplified (From Blender to Substance Painter to Unity)
+nsTjnQ067sw|1866.0|599651|NA|CG Boost|Blender Hard-Surface Modeling Fundamentals #b3d #tutorial
+k2vTtHj0MME|220.0|39020|NA|Aaron Van de Weijenberg|Easy hard surface sci-fi panels in Blender
+Ml2t8uxPAQU|572.0|707030|NA|CG Boost|6 Blender Hard-Surface Modeling Tricks I Wish I Knew Earlier
+B9bNxUH_kZo|487.0|292251|NA|CG Loop|The Only 3D Modeling Tutorial You'll Ever Need.
+F9y1rD3bhJg|2120.0|95410|NA|Aryan|The Perfect Hard Surface Modeling tutorial for Beginners
+kEm6D0gC_Go|1408.0|117230|NA|Aryan|Modeling a Holo Sight in Blender - Hard Surface Modeling Tutorial
+Lxem4yMs5Dg|3249.0|561655|NA|Ryan King Art|Sculpting for Complete Beginners! (Blender Tutorial)
+9N87-yRR5aE|1997.0|756432|NA|Grant Abbitt (Gabbitt)|Sculpting in Blender: A Complete Beginner's Guide
+J2_uiUEcY7w|2148.0|1112264|NA|Bran Sculpts|Blocking Out - Blender Character Sculpt Tutorial part 1
+HJSGoKbNBnQ|1638.0|1524426|NA|Keelan Jon|Blender Sculpting Tutorial for Beginners - Stylized Head Sculpt Blender Tutorial
+KURuPAVJ6hM|13195.0|731052|NA|CG Boost|Sculpting in Blender for Beginners (Full Course/Tutorial) #b3d
+tQfFlzHJJ88|3193.0|929523|NA|CG Boost|Blender Sculpting Tutorial: Full Advanced Creature Creation Workflow
+8IFssDRIiPY|113.0|569|NA|Wingfox|UE5风格化场景《阁楼画室》建模材质渲染全流程#Blender #blendertutorial #blender教程  #ue5tutorial  #ue5
+Tx3tnlSkLiU|607.0|444|NA|Ian1恩|blender新手要了解的：blender顶点绘制这么添加到模型做材质好渲染输出？什么样的模型在blender适合用顶点绘制做材质？
+--MILvEAvNA|659.0|33620|NA|太阳鸽鸽|【Blender教程】AI建模如何帮你十倍效率提升？保姆级全流程！
+TRqCviW7Rak|1121.0|690|NA|浩克肥虫 HulkFatZerg|【 第一季 】Blender强势入门-模型编辑
+Wj3bmaQI7T0|910.0|5597|NA|3D設計人|【Blender教學】搞懂PBR材質與節點運用｜從零開始學會真實質感設定！ #Blender教學 #PBR材質 #節點教學
+d-87aOyziCU|716.0|43185|NA|太阳鸽鸽|Blender教程 - AI建模又进化了？Blender+Hyper3D光速建模绑定全流程！
+PwuqP6YpVSE|712.0|924|NA|3D全大拿|让我们学习Blender！ #7：灯光与渲染！
+dP_LDNFjT3k|765.0|5790|NA|ZACK 3D|讓作品更好看！Blender新手燈光指南（12組燈光模板下載）
+Px3KAKE7AcY|326.0|64|NA|沃泽创想|5分钟快速掌握blender灯光
+FMa-C_m1SaY|2251.0|23629|NA|黃亞貓動畫 HuangYaMao_Animation|Blender初學者中文教學|6打光工具_37分鐘詳細解說(Blender beginner tutorial in Chinese / Lighting Tools)
+AaF9EcPB9kQ|525.0|133|NA|Blender china community BlenderCN|第二阶段学习开启 04 完成灯光与渲染设置
+ky5oFBSRBqo|1315.0|332|NA|柔石SRTV|P21 【Blender】案例4耳机渲染灯光材质出图
+yPekIQMoKYM|1001.0|56269|NA|The Blenderender|The Only Product Lighting Video You'll Ever Need (Blender Tutorial)
+4Uy2SzB-Kuk|93.0|162375|NA|blenderisms|Three Point Lighting Tutorial | Blender Product Rendering Series
+ZYk3OOf-gBk|635.0|59978|NA|Digitalist|8 Lighting Tricks I Wish I Knew Earlier (Blender Product Lighting Tutorial)
+2XIwlPcZ6iQ|75.0|15950|NA|blenderisms|How to Make Simple Studio Lighting | Blender Product Rendering Series
+5UCc3Z_-ibs|1435.0|985263|NA|Blender Guru|How to Make Studio Lighting in Blender
+oOCmYxEakjs|3834.0|53596|NA|Interactiv|The COMPLETE Guide to Creating CG Product Renders

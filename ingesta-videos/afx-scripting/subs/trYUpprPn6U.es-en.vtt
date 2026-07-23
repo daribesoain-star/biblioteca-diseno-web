@@ -1,0 +1,286 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.250 --> 00:00:03.449
+Hola a todos, en el tutorial de scripting de After Effects de esta semana les
+
+00:00:03.449 --> 00:00:10.560
+voy a mostrar cómo aprender mejor a programar en After Effects por su cuenta, y algunos pasos que yo seguiría y recomendaría para hacerlo.
+
+00:00:10.560 --> 00:00:15.120
+Como la mayoría de ustedes saben, la programación en After Effects puede ser muy complicada en ocasiones.  Por eso, a
+
+00:00:15.879 --> 00:00:19.079
+veces puede parecer realmente difícil aprenderlo.
+
+00:00:19.359 --> 00:00:24.389
+Solo quería repasar algunos consejos y darles algunos trucos y consejos sobre cómo aprendí.
+
+00:00:25.090 --> 00:00:32.250
+Por lo tanto, lo primero es consultar siempre la guía de scripting y la guía de interfaz de usuario.  En la descripción encontrarán todos los recursos,
+
+00:00:32.559 --> 00:00:33.780
+incluidos estos enlaces.
+
+00:00:33.780 --> 00:00:38.520
+Pero básicamente debes asegurarte de estar siempre aprendiendo sobre el contenido de la guía de scripting.
+
+00:00:38.620 --> 00:00:45.090
+Asegúrate de revisar las versiones antiguas y nuevas para ver qué funciones se han implementado recientemente o cuáles han quedado obsoletas.
+
+00:00:45.399 --> 00:00:47.399
+La guía de scripting es muy útil porque
+
+00:00:47.410 --> 00:00:54.779
+todo está organizado en modo objeto, de modo que podemos ver la jerarquía de cómo funciona todo dentro de After Effects, desde el
+
+00:00:54.910 --> 00:00:59.129
+nivel de la aplicación hasta el nivel de propiedad o parámetro.
+
+00:00:59.129 --> 00:01:03.719
+Y también existen estas interfaces de usuario basadas en scripts, diseñadas específicamente para InDesign.
+
+00:01:03.909 --> 00:01:07.469
+Pero esto también se aplica a cualquier otro tipo de guiones que puedas estar creando.
+
+00:01:08.080 --> 00:01:15.479
+Este documento básicamente nos permitirá aprender todo lo que necesitamos saber sobre la creación de interfaces de usuario.  Incluso incluye
+
+00:01:16.060 --> 00:01:22.560
+ejemplos de código e imágenes que muestran lo que hace cada parte del código.  Así que, de nuevo, esto también estará en la descripción.
+
+00:01:23.500 --> 00:01:30.150
+Lo siguiente que recomendaría es la revisión constante del código.  Si no lees un idioma mientras lo aprendes,
+
+00:01:30.150 --> 00:01:35.549
+no podrás hablarlo ni escribirlo.  Por lo tanto, es importante revisar siempre al menos una parte del
+
+00:01:35.680 --> 00:01:37.180
+código.
+
+00:01:37.180 --> 00:01:43.619
+Ya sea sintáctico y ni siquiera JavaScript, o simplemente JavaScript extendido para After Effects.
+
+00:01:44.710 --> 00:01:49.680
+Dentro de cada versión de After Effects, dentro de tus archivos de soporte.
+
+00:01:50.500 --> 00:01:54.299
+After Effects incluye multitud de scripts sin codificar que puedes cargar,
+
+00:01:54.840 --> 00:01:59.600
+examinar el código que contienen y aprender todo sobre la programación de scripts.
+
+00:01:59.620 --> 00:02:06.420
+Otra cosa importante es la depuración.  Depurar un código es como volver a aprender a uno mismo o
+
+00:02:06.420 --> 00:02:13.500
+eliminar malos hábitos de programación.  Y lo principal que debes hacer al depurar es simplemente encontrar errores generales en tu código.
+
+00:02:13.500 --> 00:02:16.440
+Podemos hacerlo mediante medidas como las alertas.
+
+00:02:16.460 --> 00:02:23.340
+O incluso podemos usar la función integrada $.writeln() y podemos informar al usuario
+
+00:02:24.230 --> 00:02:30.759
+mientras avanza en el script.  Y para ver una alerta, aparecerá automáticamente en la pantalla.  Pero para ver un
+
+00:02:30.980 --> 00:02:35.940
+sistema writeln() necesitamos ir a Ventana y Consola de Javascript.
+
+00:02:36.120 --> 00:02:41.940
+Y cualquier mensaje a nivel del sistema se mostrará dentro de esta consola.
+
+00:02:41.940 --> 00:02:46.240
+Además de depurar, también querrás depurar con diferentes versiones del código que estás desarrollando.
+
+00:02:46.520 --> 00:02:53.740
+Si tienes un script que solo has usado en Adobe After Effects 2018, es posible que no funcione en versiones como
+
+00:02:54.110 --> 00:02:56.139
+CS6 o CC 2014.
+
+00:02:56.600 --> 00:03:03.939
+Hay algunas funciones que no están implementadas en las versiones anteriores de After Effects y que se han añadido recientemente.  Así que asegúrate siempre de hacer
+
+00:03:03.940 --> 00:03:09.669
+pruebas.  No solo en ExtendScript, sino también en las versiones de After Effects con las que esperas trabajar.
+
+00:03:10.250 --> 00:03:15.549
+Además, no solo en Windows, sino también en Mac.
+
+00:03:16.340 --> 00:03:23.530
+Porque a menudo algunos códigos no funcionan en Mac.  Especialmente si utilizas estructuras de carpetas.  El siguiente consejo que
+
+00:03:23.530 --> 00:03:28.390
+podría darte es que visites cualquier foro sobre programación de scripts para After Effects.
+
+00:03:28.459 --> 00:03:34.449
+Estos son los lugares más útiles a los que acudir si no encuentras las respuestas en tu cabeza,
+
+00:03:34.549 --> 00:03:40.599
+en la guía de la interfaz de usuario, en la guía de scripting o simplemente hablando con amigos cercanos que sepan de scripting.
+
+00:03:41.239 --> 00:03:46.059
+Me doy cuenta de que incluso cuando no se me ocurre nada después de días de práctica, ensayo y error,
+
+00:03:46.220 --> 00:03:52.089
+o de hablar con mis amigos, el último lugar donde se encuentran la mayoría de las respuestas es aquí.
+
+00:03:52.670 --> 00:03:54.440
+Por supuesto, antes de publicar algo,
+
+00:03:54.440 --> 00:04:00.339
+asegúrese de buscar primero en los formularios.  Si publicas algo y ese tema ya existe en algún lugar,
+
+00:04:00.739 --> 00:04:03.339
+no vas a recibir la mejor bienvenida a la comunidad.
+
+00:04:04.130 --> 00:04:07.869
+Otro aspecto sumamente importante es utilizar el pensamiento a nivel de objeto.
+
+00:04:08.810 --> 00:04:12.519
+Dentro de ExtendScript podemos cargar el Visor del Modelo de Objetos (OMV),
+
+00:04:12.650 --> 00:04:16.959
+que para nosotros describirá todas las clases principales de JavaScript integradas en JavaScript Extended.
+
+00:04:17.630 --> 00:04:21.700
+Además, podemos tener acceso a clases de interfaz de usuario de scripts
+
+00:04:22.490 --> 00:04:24.490
+y a clases específicas del programa.
+
+00:04:24.650 --> 00:04:26.500
+Esto es muy importante porque
+
+00:04:26.500 --> 00:04:32.529
+podemos entrar aquí y decir: "Mira, si quiero acceder a un archivo, puedo ver todos los constructores,
+
+00:04:32.780 --> 00:04:34.809
+instancias y clases involucradas con él".
+
+00:04:35.020 --> 00:04:42.700
+Todos los atributos y propiedades que puedo llamar, leer y escribir desde él.  Además, puedes ver las acciones que podemos aplicarle.
+
+00:04:42.760 --> 00:04:50.740
+Es increíblemente importante saber cómo funcionan los diferentes niveles de objetos en After Effects, porque a menudo me encuentro cometiendo errores en líneas de código debido a que, sin querer,
+
+00:04:51.140 --> 00:04:56.979
+malinterpreté parte de la guía de scripting o cómo funciona el modelo de objetos.  Por ejemplo, si tuviera una
+
+00:04:57.350 --> 00:05:01.480
+composición y quisiera agregarle una capa como un sólido,
+
+00:05:01.480 --> 00:05:04.299
+normalmente diría simplemente comp.addSolid(),
+
+00:05:04.610 --> 00:05:12.070
+pero cualquiera que haya usado scripts de After Effects sabe que eso no funcionaría porque necesitamos tener comp.layers.addSolid();
+
+00:05:12.290 --> 00:05:19.359
+Lo mismo se aplica a cualquier cosa a nivel de proyecto de aplicación.  Si quisiéramos, por ejemplo, agregar un elemento audiovisual o algo similar,
+
+00:05:19.669 --> 00:05:24.369
+eso no funcionaría, porque también necesitamos hacer referencia a los elementos del proyecto.
+
+00:05:24.740 --> 00:05:27.280
+Por lo tanto, es importante conocer el nivel de los objetos
+
+00:05:27.280 --> 00:05:32.769
+y cómo está organizado todo, lo cual también se puede ver en la guía de scripting.
+
+00:05:33.169 --> 00:05:39.728
+Aquí tiene una buena vista del modelo de objetos, y también dentro del visor del modelo de objetos dentro del script extendido,
+
+00:05:39.740 --> 00:05:42.820
+también podemos ver esto para las clases de la interfaz de usuario y otras.
+
+00:05:44.030 --> 00:05:48.160
+Otra forma de aprender, aunque mucho más difícil, es viendo tutoriales.
+
+00:05:48.160 --> 00:05:53.979
+Los únicos que puedo recomendar son los míos y los de David Torno, que creo que tienen unos 19 tutoriales
+
+00:05:53.980 --> 00:05:57.880
+en su página web.  videoprocoalition.com
+
+00:05:57.980 --> 00:06:02.500
+Pero querrás ver muchos tutoriales, no solo para aprender sino también para obtener ideas.
+
+00:06:03.020 --> 00:06:08.109
+También puedes obtenerlos en sitios web como VideoHive, en la categoría de scripts para After Effects.
+
+00:06:08.240 --> 00:06:15.700
+Pero por supuesto, no roben a estos artistas.  Simplemente busca ideas y mira si puedes crear algo más original que ellas.
+
+00:06:16.400 --> 00:06:18.920
+El último consejo que puedo darles es que
+
+00:06:23.520 --> 00:06:29.300
+la mejor manera de aprender cualquier cosa es hacerlo por uno mismo y obligarse a hacerlo.
+
+00:06:29.300 --> 00:06:36.110
+La forma en que inicialmente aprendí a usar los scripts de After Effects fue simplemente fijándome una meta y trabajando poco a poco para alcanzarla.  Lo
+
+00:06:36.110 --> 00:06:42.080
+primero que pensé fue: "Vale, quiero tener un script que pueda activar y desactivar todas mis capas".  ¿
+
+00:06:42.630 --> 00:06:44.630
+Qué es lo primero que debo hacer?
+
+00:06:44.940 --> 00:06:51.200
+Bueno, lo primero que probablemente debería hacer es aprender cómo desactivar una capa y activar una capa con el script.
+
+00:06:51.690 --> 00:06:55.459
+Entonces necesito averiguar cómo puedo hacerlo en varias capas.
+
+00:06:55.950 --> 00:07:03.020
+En este caso, todos ellos.  Y lo más importante es superar cualquier dificultad que tengas, esa es la parte divertida,
+
+00:07:03.320 --> 00:07:05.460
+y la parte difícil de la programación es la
+
+00:07:05.620 --> 00:07:07.060
+resolución de problemas.
+
+00:07:07.220 --> 00:07:11.980
+Aunque ahora mismo no estemos haciendo matemáticas avanzadas ni informática dentro de JavaScript, seguirá habiendo
+
+00:07:12.660 --> 00:07:14.280
+muchos
+
+00:07:14.280 --> 00:07:16.549
+problemas y algunos errores de código que tardarán una
+
+00:07:16.550 --> 00:07:23.270
+eternidad en solucionarse, y cuando te des cuenta de que solo hay una coma o un punto de más, te sentirás muy tonto después.
+
+00:07:23.700 --> 00:07:28.759
+Pero así ya lo sabrás para la próxima vez a tenerlo en cuenta.  Y son esas pequeñas cosas que aprendes por el camino
+
+00:07:28.890 --> 00:07:33.679
+las que te ayudarán a convertirte en un programador mucho mejor.  Bueno, eso es todo por este tutorial, chicos.
+
+00:07:33.680 --> 00:07:39.169
+Espero que lo hayas disfrutado.  Así es como puedes aprender por tu cuenta o empezar a aprender a programar scripts para After Effects por tu cuenta.
+
+00:07:39.600 --> 00:07:43.369
+Si les gustaron estos consejos, no olviden darle al botón de "Me gusta".
+
+00:07:43.590 --> 00:07:49.250
+Además, pulsa el botón de suscripción que tiene el icono de la campana al lado para recibir notificaciones de las nuevas subidas que se realizan cada lunes.
+
+00:07:49.919 --> 00:07:54.499
+Si tienes alguna pregunta o comentario, déjalos abajo en la sección de comentarios.
+
+00:07:54.570 --> 00:07:59.599
+Y no olviden echar un vistazo a todos los demás vídeos de los que he hablado hoy, que encontrarán en la descripción a continuación.  Muy bien,
+
+00:08:00.510 --> 00:08:04.819
+chicos.  Con esto terminamos este video.  La semana que viene retomaremos los tutoriales.
+
+00:08:05.910 --> 00:08:08.390
+Gracias de nuevo por vernos y nos vemos entonces.
+

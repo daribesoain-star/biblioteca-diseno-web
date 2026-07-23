@@ -1,0 +1,2288 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.440 --> 00:00:02.110 align:start position:0%
+ 
+If<00:00:00.600><c> you're</c><00:00:00.720><c> using</c><00:00:01.040><c> Superbase,</c><00:00:01.560><c> chances</c><00:00:01.960><c> are</c>
+
+00:00:02.110 --> 00:00:02.120 align:start position:0%
+If you're using Superbase, chances are
+ 
+
+00:00:02.120 --> 00:00:04.030 align:start position:0%
+If you're using Superbase, chances are
+you<00:00:02.320><c> are</c><00:00:02.480><c> already</c><00:00:02.720><c> using</c><00:00:03.080><c> Superbase</c><00:00:03.560><c> Auth.</c>
+
+00:00:04.030 --> 00:00:04.040 align:start position:0%
+you are already using Superbase Auth.
+ 
+
+00:00:04.040 --> 00:00:05.590 align:start position:0%
+you are already using Superbase Auth.
+Every<00:00:04.240><c> single</c><00:00:04.560><c> app</c><00:00:04.840><c> out</c><00:00:04.960><c> there</c><00:00:05.160><c> pretty</c><00:00:05.360><c> much</c>
+
+00:00:05.590 --> 00:00:05.600 align:start position:0%
+Every single app out there pretty much
+ 
+
+00:00:05.600 --> 00:00:07.750 align:start position:0%
+Every single app out there pretty much
+needs<00:00:06.160><c> Auth,</c><00:00:06.600><c> but</c><00:00:06.960><c> do</c><00:00:07.040><c> you</c><00:00:07.080><c> know</c><00:00:07.240><c> what</c><00:00:07.520><c> Auth</c>
+
+00:00:07.750 --> 00:00:07.760 align:start position:0%
+needs Auth, but do you know what Auth
+ 
+
+00:00:07.760 --> 00:00:09.510 align:start position:0%
+needs Auth, but do you know what Auth
+means?<00:00:08.480><c> Did</c><00:00:08.600><c> you</c><00:00:08.640><c> know</c><00:00:08.760><c> that</c><00:00:08.960><c> you</c><00:00:09.120><c> could</c><00:00:09.320><c> use</c>
+
+00:00:09.510 --> 00:00:09.520 align:start position:0%
+means? Did you know that you could use
+ 
+
+00:00:09.520 --> 00:00:11.230 align:start position:0%
+means? Did you know that you could use
+Superbase<00:00:09.960><c> Auth</c><00:00:10.280><c> with</c><00:00:10.480><c> non-Superbase</c>
+
+00:00:11.230 --> 00:00:11.240 align:start position:0%
+Superbase Auth with non-Superbase
+ 
+
+00:00:11.240 --> 00:00:13.190 align:start position:0%
+Superbase Auth with non-Superbase
+services?<00:00:12.360><c> Do</c><00:00:12.480><c> you</c><00:00:12.560><c> know</c><00:00:12.880><c> all</c><00:00:13.120><c> the</c>
+
+00:00:13.190 --> 00:00:13.200 align:start position:0%
+services? Do you know all the
+ 
+
+00:00:13.200 --> 00:00:14.790 align:start position:0%
+services? Do you know all the
+authentication<00:00:13.800><c> methods</c><00:00:14.240><c> available</c><00:00:14.680><c> to</c>
+
+00:00:14.790 --> 00:00:14.800 align:start position:0%
+authentication methods available to
+ 
+
+00:00:14.800 --> 00:00:17.310 align:start position:0%
+authentication methods available to
+Superbase?<00:00:15.520><c> I'll</c><00:00:15.720><c> be</c><00:00:15.960><c> covering</c><00:00:16.520><c> all</c><00:00:16.760><c> these</c><00:00:17.160><c> in</c>
+
+00:00:17.310 --> 00:00:17.320 align:start position:0%
+Superbase? I'll be covering all these in
+ 
+
+00:00:17.320 --> 00:00:19.150 align:start position:0%
+Superbase? I'll be covering all these in
+this<00:00:17.600><c> getting</c><00:00:17.880><c> started</c><00:00:18.240><c> with</c><00:00:18.480><c> Superbase</c><00:00:18.920><c> Auth</c>
+
+00:00:19.150 --> 00:00:19.160 align:start position:0%
+this getting started with Superbase Auth
+ 
+
+00:00:19.160 --> 00:00:20.190 align:start position:0%
+this getting started with Superbase Auth
+video.
+
+00:00:20.190 --> 00:00:20.200 align:start position:0%
+video.
+ 
+
+00:00:20.200 --> 00:00:21.830 align:start position:0%
+video.
+And<00:00:20.360><c> what</c><00:00:20.480><c> is</c><00:00:20.640><c> this</c><00:00:20.880><c> name</c><00:00:21.080><c> tag</c><00:00:21.320><c> doing</c><00:00:21.560><c> around</c>
+
+00:00:21.830 --> 00:00:21.840 align:start position:0%
+And what is this name tag doing around
+ 
+
+00:00:21.840 --> 00:00:23.350 align:start position:0%
+And what is this name tag doing around
+my<00:00:21.960><c> neck?</c>
+
+00:00:23.350 --> 00:00:23.360 align:start position:0%
+my neck?
+ 
+
+00:00:23.360 --> 00:00:25.310 align:start position:0%
+my neck?
+Before<00:00:23.600><c> we</c><00:00:23.720><c> dive</c><00:00:24.000><c> into</c><00:00:24.280><c> anything</c><00:00:24.640><c> specific</c><00:00:25.200><c> to</c>
+
+00:00:25.310 --> 00:00:25.320 align:start position:0%
+Before we dive into anything specific to
+ 
+
+00:00:25.320 --> 00:00:27.230 align:start position:0%
+Before we dive into anything specific to
+Superbase<00:00:25.800><c> Auth,</c><00:00:26.120><c> let's</c><00:00:26.360><c> talk</c><00:00:26.560><c> about</c><00:00:26.880><c> Auth</c><00:00:27.120><c> in</c>
+
+00:00:27.230 --> 00:00:27.240 align:start position:0%
+Superbase Auth, let's talk about Auth in
+ 
+
+00:00:27.240 --> 00:00:29.870 align:start position:0%
+Superbase Auth, let's talk about Auth in
+general.<00:00:27.920><c> Auth</c><00:00:28.280><c> has</c><00:00:28.560><c> two</c><00:00:28.760><c> components.</c>
+
+00:00:29.870 --> 00:00:29.880 align:start position:0%
+general. Auth has two components.
+ 
+
+00:00:29.880 --> 00:00:32.589 align:start position:0%
+general. Auth has two components.
+Authentication<00:00:30.880><c> and</c><00:00:31.080><c> authorization.</c>
+
+00:00:32.589 --> 00:00:32.599 align:start position:0%
+Authentication and authorization.
+ 
+
+00:00:32.599 --> 00:00:34.390 align:start position:0%
+Authentication and authorization.
+Authentication<00:00:33.200><c> is</c><00:00:33.360><c> the</c><00:00:33.480><c> process</c><00:00:34.200><c> of</c>
+
+00:00:34.390 --> 00:00:34.400 align:start position:0%
+Authentication is the process of
+ 
+
+00:00:34.400 --> 00:00:37.110 align:start position:0%
+Authentication is the process of
+verifying<00:00:35.120><c> who</c><00:00:35.280><c> the</c><00:00:35.440><c> user</c><00:00:35.800><c> is.</c><00:00:36.760><c> It's</c><00:00:36.880><c> like</c>
+
+00:00:37.110 --> 00:00:37.120 align:start position:0%
+verifying who the user is. It's like
+ 
+
+00:00:37.120 --> 00:00:38.710 align:start position:0%
+verifying who the user is. It's like
+when<00:00:37.240><c> you</c><00:00:37.320><c> go</c><00:00:37.440><c> to</c><00:00:37.560><c> a</c><00:00:37.640><c> tech</c><00:00:37.880><c> conference,</c><00:00:38.560><c> you</c>
+
+00:00:38.710 --> 00:00:38.720 align:start position:0%
+when you go to a tech conference, you
+ 
+
+00:00:38.720 --> 00:00:41.550 align:start position:0%
+when you go to a tech conference, you
+fill<00:00:38.920><c> out</c><00:00:39.040><c> a</c><00:00:39.080><c> form</c><00:00:39.520><c> to</c><00:00:40.000><c> get</c><00:00:40.280><c> your</c><00:00:41.040><c> ID</c><00:00:41.280><c> badge,</c>
+
+00:00:41.550 --> 00:00:41.560 align:start position:0%
+fill out a form to get your ID badge,
+ 
+
+00:00:41.560 --> 00:00:42.630 align:start position:0%
+fill out a form to get your ID badge,
+right?
+
+00:00:42.630 --> 00:00:42.640 align:start position:0%
+right?
+ 
+
+00:00:42.640 --> 00:00:45.110 align:start position:0%
+right?
+That's<00:00:43.400><c> authentication,</c><00:00:44.200><c> the</c><00:00:44.320><c> process</c><00:00:44.920><c> of</c>
+
+00:00:45.110 --> 00:00:45.120 align:start position:0%
+That's authentication, the process of
+ 
+
+00:00:45.120 --> 00:00:47.430 align:start position:0%
+That's authentication, the process of
+obtaining<00:00:45.800><c> your</c><00:00:45.960><c> ID</c><00:00:46.200><c> badge.</c>
+
+00:00:47.430 --> 00:00:47.440 align:start position:0%
+obtaining your ID badge.
+ 
+
+00:00:47.440 --> 00:00:49.150 align:start position:0%
+obtaining your ID badge.
+And<00:00:47.560><c> authorization</c><00:00:48.320><c> is</c><00:00:48.440><c> the</c><00:00:48.560><c> process</c><00:00:49.040><c> of</c>
+
+00:00:49.150 --> 00:00:49.160 align:start position:0%
+And authorization is the process of
+ 
+
+00:00:49.160 --> 00:00:51.270 align:start position:0%
+And authorization is the process of
+verifying<00:00:49.640><c> that</c><00:00:49.760><c> the</c><00:00:49.880><c> user</c><00:00:50.480><c> is</c><00:00:50.840><c> who</c><00:00:51.080><c> they</c>
+
+00:00:51.270 --> 00:00:51.280 align:start position:0%
+verifying that the user is who they
+ 
+
+00:00:51.280 --> 00:00:52.630 align:start position:0%
+verifying that the user is who they
+claim<00:00:51.640><c> to</c><00:00:51.760><c> be.</c>
+
+00:00:52.630 --> 00:00:52.640 align:start position:0%
+claim to be.
+ 
+
+00:00:52.640 --> 00:00:54.550 align:start position:0%
+claim to be.
+This<00:00:52.760><c> is</c><00:00:52.840><c> like</c><00:00:53.160><c> tapping</c><00:00:53.560><c> your</c><00:00:53.680><c> ID</c><00:00:53.960><c> badge</c><00:00:54.440><c> at</c>
+
+00:00:54.550 --> 00:00:54.560 align:start position:0%
+This is like tapping your ID badge at
+ 
+
+00:00:54.560 --> 00:00:56.670 align:start position:0%
+This is like tapping your ID badge at
+the<00:00:54.640><c> entrance</c><00:00:55.000><c> gate,</c><00:00:55.720><c> or</c><00:00:55.920><c> the</c><00:00:56.040><c> security</c><00:00:56.440><c> guard</c>
+
+00:00:56.670 --> 00:00:56.680 align:start position:0%
+the entrance gate, or the security guard
+ 
+
+00:00:56.680 --> 00:00:59.150 align:start position:0%
+the entrance gate, or the security guard
+taking<00:00:57.000><c> a</c><00:00:57.040><c> look</c><00:00:57.240><c> at</c><00:00:57.320><c> your</c><00:00:57.520><c> photo</c><00:00:58.160><c> to</c><00:00:58.560><c> make</c><00:00:58.880><c> sure</c>
+
+00:00:59.150 --> 00:00:59.160 align:start position:0%
+taking a look at your photo to make sure
+ 
+
+00:00:59.160 --> 00:01:01.150 align:start position:0%
+taking a look at your photo to make sure
+you<00:00:59.360><c> look</c><00:00:59.600><c> like</c><00:00:59.880><c> the</c><00:01:00.000><c> person</c><00:01:00.400><c> on</c><00:01:00.640><c> this</c><00:01:00.920><c> ID</c>
+
+00:01:01.150 --> 00:01:01.160 align:start position:0%
+you look like the person on this ID
+ 
+
+00:01:01.160 --> 00:01:02.550 align:start position:0%
+you look like the person on this ID
+badge.
+
+00:01:02.550 --> 00:01:02.560 align:start position:0%
+badge.
+ 
+
+00:01:02.560 --> 00:01:03.870 align:start position:0%
+badge.
+So,<00:01:02.680><c> let's</c><00:01:02.880><c> take</c><00:01:03.040><c> a</c><00:01:03.080><c> look</c><00:01:03.240><c> at</c><00:01:03.360><c> what</c><00:01:03.520><c> that</c><00:01:03.640><c> looks</c>
+
+00:01:03.870 --> 00:01:03.880 align:start position:0%
+So, let's take a look at what that looks
+ 
+
+00:01:03.880 --> 00:01:06.310 align:start position:0%
+So, let's take a look at what that looks
+like<00:01:04.280><c> with</c><00:01:04.559><c> Superbase.</c>
+
+00:01:06.310 --> 00:01:06.320 align:start position:0%
+like with Superbase.
+ 
+
+00:01:06.320 --> 00:01:08.870 align:start position:0%
+like with Superbase.
+Now,<00:01:06.840><c> I</c><00:01:06.920><c> want</c><00:01:07.040><c> to</c><00:01:07.160><c> show</c><00:01:07.440><c> you</c><00:01:07.680><c> one</c><00:01:08.160><c> cool</c><00:01:08.600><c> thing</c>
+
+00:01:08.870 --> 00:01:08.880 align:start position:0%
+Now, I want to show you one cool thing
+ 
+
+00:01:08.880 --> 00:01:10.990 align:start position:0%
+Now, I want to show you one cool thing
+about<00:01:09.200><c> Superbase,</c><00:01:09.760><c> and</c><00:01:10.000><c> that's</c><00:01:10.560><c> where</c><00:01:10.800><c> we</c>
+
+00:01:10.990 --> 00:01:11.000 align:start position:0%
+about Superbase, and that's where we
+ 
+
+00:01:11.000 --> 00:01:13.550 align:start position:0%
+about Superbase, and that's where we
+store<00:01:11.400><c> Auth-related</c><00:01:12.040><c> information.</c><00:01:13.080><c> So,</c><00:01:13.400><c> I've</c>
+
+00:01:13.550 --> 00:01:13.560 align:start position:0%
+store Auth-related information. So, I've
+ 
+
+00:01:13.560 --> 00:01:15.550 align:start position:0%
+store Auth-related information. So, I've
+gone<00:01:13.800><c> into</c><00:01:14.120><c> the</c><00:01:14.240><c> table</c><00:01:14.520><c> editor.</c>
+
+00:01:15.550 --> 00:01:15.560 align:start position:0%
+gone into the table editor.
+ 
+
+00:01:15.560 --> 00:01:19.750 align:start position:0%
+gone into the table editor.
+And<00:01:15.960><c> in</c><00:01:16.200><c> here,</c><00:01:16.760><c> we</c><00:01:17.080><c> have</c><00:01:17.520><c> a</c><00:01:17.800><c> Auth</c><00:01:18.360><c> schema.</c><00:01:19.560><c> And</c>
+
+00:01:19.750 --> 00:01:19.760 align:start position:0%
+And in here, we have a Auth schema. And
+ 
+
+00:01:19.760 --> 00:01:21.910 align:start position:0%
+And in here, we have a Auth schema. And
+this<00:01:20.000><c> is</c><00:01:20.160><c> where</c><00:01:20.720><c> all</c><00:01:21.080><c> the</c><00:01:21.280><c> Auth-related</c>
+
+00:01:21.910 --> 00:01:21.920 align:start position:0%
+this is where all the Auth-related
+ 
+
+00:01:21.920 --> 00:01:23.510 align:start position:0%
+this is where all the Auth-related
+information
+
+00:01:23.510 --> 00:01:23.520 align:start position:0%
+information
+ 
+
+00:01:23.520 --> 00:01:25.950 align:start position:0%
+information
+regarding<00:01:24.080><c> this</c><00:01:24.480><c> project</c><00:01:25.080><c> is</c><00:01:25.240><c> stored,</c><00:01:25.640><c> and</c><00:01:25.880><c> we</c>
+
+00:01:25.950 --> 00:01:25.960 align:start position:0%
+regarding this project is stored, and we
+ 
+
+00:01:25.960 --> 00:01:28.310 align:start position:0%
+regarding this project is stored, and we
+don't<00:01:26.320><c> hide</c><00:01:26.760><c> anything</c><00:01:27.240><c> behind</c><00:01:27.680><c> the</c><00:01:27.760><c> scenes.</c>
+
+00:01:28.310 --> 00:01:28.320 align:start position:0%
+don't hide anything behind the scenes.
+ 
+
+00:01:28.320 --> 00:01:31.270 align:start position:0%
+don't hide anything behind the scenes.
+It's<00:01:28.680><c> all</c><00:01:29.040><c> stored</c><00:01:29.560><c> on</c><00:01:29.800><c> the</c><00:01:29.920><c> Postgres</c><00:01:30.360><c> database</c>
+
+00:01:31.270 --> 00:01:31.280 align:start position:0%
+It's all stored on the Postgres database
+ 
+
+00:01:31.280 --> 00:01:33.070 align:start position:0%
+It's all stored on the Postgres database
+that<00:01:31.480><c> comes</c><00:01:31.760><c> with</c><00:01:31.920><c> your</c><00:01:32.040><c> project.</c><00:01:32.800><c> And</c><00:01:32.920><c> that</c>
+
+00:01:33.070 --> 00:01:33.080 align:start position:0%
+that comes with your project. And that
+ 
+
+00:01:33.080 --> 00:01:35.030 align:start position:0%
+that comes with your project. And that
+means<00:01:33.440><c> you</c><00:01:33.560><c> have</c><00:01:33.720><c> full</c><00:01:33.960><c> control</c><00:01:34.440><c> over</c><00:01:34.760><c> any</c>
+
+00:01:35.030 --> 00:01:35.040 align:start position:0%
+means you have full control over any
+ 
+
+00:01:35.040 --> 00:01:37.590 align:start position:0%
+means you have full control over any
+Auth-related<00:01:35.640><c> data,</c><00:01:36.040><c> making</c><00:01:36.560><c> migrating</c><00:01:37.200><c> in</c>
+
+00:01:37.590 --> 00:01:37.600 align:start position:0%
+Auth-related data, making migrating in
+ 
+
+00:01:37.600 --> 00:01:40.430 align:start position:0%
+Auth-related data, making migrating in
+and<00:01:37.760><c> out</c><00:01:37.920><c> of</c><00:01:38.040><c> Superbase</c><00:01:38.480><c> Auth</c><00:01:39.000><c> very</c><00:01:39.280><c> easy.</c>
+
+00:01:40.430 --> 00:01:40.440 align:start position:0%
+and out of Superbase Auth very easy.
+ 
+
+00:01:40.440 --> 00:01:42.590 align:start position:0%
+and out of Superbase Auth very easy.
+So,<00:01:40.800><c> I</c><00:01:40.840><c> have</c><00:01:41.000><c> this</c><00:01:41.200><c> simple</c><00:01:41.560><c> web</c><00:01:41.800><c> app</c><00:01:42.280><c> that</c>
+
+00:01:42.590 --> 00:01:42.600 align:start position:0%
+So, I have this simple web app that
+ 
+
+00:01:42.600 --> 00:01:45.070 align:start position:0%
+So, I have this simple web app that
+performs<00:01:43.120><c> a</c><00:01:43.240><c> sign-in,</c><00:01:44.200><c> and</c><00:01:44.520><c> when</c><00:01:44.640><c> the</c><00:01:44.760><c> user</c>
+
+00:01:45.070 --> 00:01:45.080 align:start position:0%
+performs a sign-in, and when the user
+ 
+
+00:01:45.080 --> 00:01:47.670 align:start position:0%
+performs a sign-in, and when the user
+signs<00:01:45.600><c> in,</c><00:01:45.920><c> we</c><00:01:46.240><c> are</c><00:01:46.480><c> console</c><00:01:46.840><c> logging</c><00:01:47.360><c> the</c>
+
+00:01:47.670 --> 00:01:47.680 align:start position:0%
+signs in, we are console logging the
+ 
+
+00:01:47.680 --> 00:01:49.350 align:start position:0%
+signs in, we are console logging the
+session<00:01:48.240><c> data.</c>
+
+00:01:49.350 --> 00:01:49.360 align:start position:0%
+session data.
+ 
+
+00:01:49.360 --> 00:01:51.790 align:start position:0%
+session data.
+So,<00:01:49.480><c> let's</c><00:01:49.760><c> go</c><00:01:49.920><c> ahead</c><00:01:50.320><c> and</c><00:01:50.600><c> log</c><00:01:50.960><c> in</c><00:01:51.240><c> from</c><00:01:51.600><c> this</c>
+
+00:01:51.790 --> 00:01:51.800 align:start position:0%
+So, let's go ahead and log in from this
+ 
+
+00:01:51.800 --> 00:01:53.670 align:start position:0%
+So, let's go ahead and log in from this
+web<00:01:52.000><c> app.</c>
+
+00:01:53.670 --> 00:01:53.680 align:start position:0%
+web app.
+ 
+
+00:01:53.680 --> 00:01:56.190 align:start position:0%
+web app.
+And<00:01:53.800><c> upon</c><00:01:54.200><c> pressing</c><00:01:54.760><c> sign-in,</c>
+
+00:01:56.190 --> 00:01:56.200 align:start position:0%
+And upon pressing sign-in,
+ 
+
+00:01:56.200 --> 00:01:59.350 align:start position:0%
+And upon pressing sign-in,
+we<00:01:56.320><c> get</c><00:01:56.560><c> the</c><00:01:56.680><c> session</c><00:01:57.400><c> and</c><00:01:57.840><c> the</c><00:01:58.280><c> console</c><00:01:58.640><c> log.</c>
+
+00:01:59.350 --> 00:01:59.360 align:start position:0%
+we get the session and the console log.
+ 
+
+00:01:59.360 --> 00:02:01.470 align:start position:0%
+we get the session and the console log.
+Now,<00:01:59.480><c> the</c><00:01:59.560><c> session</c><00:02:00.000><c> has</c><00:02:00.240><c> various</c><00:02:00.600><c> information</c>
+
+00:02:01.470 --> 00:02:01.480 align:start position:0%
+Now, the session has various information
+ 
+
+00:02:01.480 --> 00:02:05.070 align:start position:0%
+Now, the session has various information
+like<00:02:01.880><c> the</c><00:02:02.000><c> user</c><00:02:02.360><c> IDs</c><00:02:02.840><c> or</c><00:02:02.960><c> user</c><00:02:03.280><c> information.</c>
+
+00:02:05.070 --> 00:02:05.080 align:start position:0%
+like the user IDs or user information.
+ 
+
+00:02:05.080 --> 00:02:07.950 align:start position:0%
+like the user IDs or user information.
+But,<00:02:05.600><c> what</c><00:02:05.800><c> we</c><00:02:05.920><c> want</c><00:02:06.200><c> to</c><00:02:06.400><c> see</c><00:02:06.680><c> is</c><00:02:06.920><c> this</c><00:02:07.560><c> access</c>
+
+00:02:07.950 --> 00:02:07.960 align:start position:0%
+But, what we want to see is this access
+ 
+
+00:02:07.960 --> 00:02:11.390 align:start position:0%
+But, what we want to see is this access
+token,<00:02:08.640><c> and</c><00:02:08.920><c> this</c><00:02:09.160><c> is</c><00:02:09.360><c> a</c><00:02:09.440><c> standard</c><00:02:10.399><c> JWT</c><00:02:11.240><c> or</c>
+
+00:02:11.390 --> 00:02:11.400 align:start position:0%
+token, and this is a standard JWT or
+ 
+
+00:02:11.400 --> 00:02:14.390 align:start position:0%
+token, and this is a standard JWT or
+JSON<00:02:11.920><c> web</c><00:02:12.160><c> token,</c><00:02:13.120><c> and</c><00:02:13.240><c> we</c><00:02:13.360><c> can</c><00:02:13.560><c> decode</c><00:02:13.960><c> it</c><00:02:14.240><c> by</c>
+
+00:02:14.390 --> 00:02:14.400 align:start position:0%
+JSON web token, and we can decode it by
+ 
+
+00:02:14.400 --> 00:02:17.310 align:start position:0%
+JSON web token, and we can decode it by
+heading<00:02:14.720><c> over</c><00:02:14.920><c> to</c><00:02:15.360><c> jwt.io.</c>
+
+00:02:17.310 --> 00:02:17.320 align:start position:0%
+heading over to jwt.io.
+ 
+
+00:02:17.320 --> 00:02:19.510 align:start position:0%
+heading over to jwt.io.
+For<00:02:17.480><c> those</c><00:02:17.840><c> who</c><00:02:17.960><c> don't</c><00:02:18.080><c> know</c><00:02:18.200><c> what</c><00:02:18.400><c> JWTs</c><00:02:19.120><c> are,</c>
+
+00:02:19.510 --> 00:02:19.520 align:start position:0%
+For those who don't know what JWTs are,
+ 
+
+00:02:19.520 --> 00:02:20.870 align:start position:0%
+For those who don't know what JWTs are,
+they're<00:02:19.720><c> essentially</c><00:02:20.200><c> just</c><00:02:20.440><c> a</c><00:02:20.520><c> piece</c><00:02:20.760><c> of</c>
+
+00:02:20.870 --> 00:02:20.880 align:start position:0%
+they're essentially just a piece of
+ 
+
+00:02:20.880 --> 00:02:22.910 align:start position:0%
+they're essentially just a piece of
+encoded<00:02:21.360><c> string</c><00:02:21.680><c> that</c><00:02:21.880><c> contains</c><00:02:22.640><c> user</c>
+
+00:02:22.910 --> 00:02:22.920 align:start position:0%
+encoded string that contains user
+ 
+
+00:02:22.920 --> 00:02:25.070 align:start position:0%
+encoded string that contains user
+information<00:02:23.640><c> like</c><00:02:23.880><c> user</c><00:02:24.160><c> IDs</c><00:02:24.600><c> or</c><00:02:24.760><c> email</c>
+
+00:02:25.070 --> 00:02:25.080 align:start position:0%
+information like user IDs or email
+ 
+
+00:02:25.080 --> 00:02:27.110 align:start position:0%
+information like user IDs or email
+addresses<00:02:26.080><c> that</c><00:02:26.240><c> can</c><00:02:26.440><c> be</c><00:02:26.640><c> used</c><00:02:26.920><c> on</c><00:02:27.040><c> the</c>
+
+00:02:27.110 --> 00:02:27.120 align:start position:0%
+addresses that can be used on the
+ 
+
+00:02:27.120 --> 00:02:30.310 align:start position:0%
+addresses that can be used on the
+server-side<00:02:28.080><c> to</c><00:02:28.440><c> verify</c><00:02:28.960><c> who</c><00:02:29.120><c> the</c><00:02:29.240><c> user</c><00:02:29.600><c> is.</c>
+
+00:02:30.310 --> 00:02:30.320 align:start position:0%
+server-side to verify who the user is.
+ 
+
+00:02:30.320 --> 00:02:31.710 align:start position:0%
+server-side to verify who the user is.
+What's<00:02:30.440><c> nice</c><00:02:30.680><c> about</c><00:02:30.880><c> these</c><00:02:31.040><c> tokens</c><00:02:31.400><c> is</c><00:02:31.480><c> that</c>
+
+00:02:31.710 --> 00:02:31.720 align:start position:0%
+What's nice about these tokens is that
+ 
+
+00:02:31.720 --> 00:02:33.670 align:start position:0%
+What's nice about these tokens is that
+any<00:02:31.920><c> server</c><00:02:32.200><c> can</c><00:02:32.440><c> easily</c><00:02:32.920><c> verify</c><00:02:33.400><c> that</c><00:02:33.600><c> the</c>
+
+00:02:33.670 --> 00:02:33.680 align:start position:0%
+any server can easily verify that the
+ 
+
+00:02:33.680 --> 00:02:36.310 align:start position:0%
+any server can easily verify that the
+token<00:02:34.080><c> was</c><00:02:34.280><c> generated</c><00:02:34.920><c> by</c><00:02:35.080><c> a</c><00:02:35.200><c> trusted</c><00:02:35.680><c> party</c>
+
+00:02:36.310 --> 00:02:36.320 align:start position:0%
+token was generated by a trusted party
+ 
+
+00:02:36.320 --> 00:02:39.070 align:start position:0%
+token was generated by a trusted party
+like<00:02:36.600><c> Superbase.</c><00:02:37.800><c> I've</c><00:02:38.040><c> pasted</c><00:02:38.400><c> in</c><00:02:38.560><c> my</c><00:02:38.720><c> access</c>
+
+00:02:39.070 --> 00:02:39.080 align:start position:0%
+like Superbase. I've pasted in my access
+ 
+
+00:02:39.080 --> 00:02:42.470 align:start position:0%
+like Superbase. I've pasted in my access
+token,<00:02:40.080><c> and</c><00:02:40.320><c> in</c><00:02:40.440><c> the</c><00:02:40.560><c> header,</c><00:02:41.000><c> we</c><00:02:41.240><c> have</c><00:02:41.640><c> the</c>
+
+00:02:42.470 --> 00:02:42.480 align:start position:0%
+token, and in the header, we have the
+ 
+
+00:02:42.480 --> 00:02:44.710 align:start position:0%
+token, and in the header, we have the
+information<00:02:43.400><c> we</c><00:02:43.520><c> have</c><00:02:43.640><c> the</c><00:02:43.760><c> information</c><00:02:44.360><c> like</c>
+
+00:02:44.710 --> 00:02:44.720 align:start position:0%
+information we have the information like
+ 
+
+00:02:44.720 --> 00:02:47.190 align:start position:0%
+information we have the information like
+what<00:02:45.000><c> algorithm</c><00:02:45.520><c> is</c><00:02:45.720><c> used</c><00:02:46.200><c> to</c><00:02:46.520><c> sign</c><00:02:46.880><c> this</c>
+
+00:02:47.190 --> 00:02:47.200 align:start position:0%
+what algorithm is used to sign this
+ 
+
+00:02:47.200 --> 00:02:51.030 align:start position:0%
+what algorithm is used to sign this
+token.<00:02:48.400><c> And</c><00:02:48.560><c> then</c><00:02:48.880><c> in</c><00:02:49.120><c> the</c><00:02:49.280><c> body,</c><00:02:49.880><c> we</c><00:02:50.160><c> have</c><00:02:50.640><c> the</c>
+
+00:02:51.030 --> 00:02:51.040 align:start position:0%
+token. And then in the body, we have the
+ 
+
+00:02:51.040 --> 00:02:53.270 align:start position:0%
+token. And then in the body, we have the
+main<00:02:51.360><c> information</c><00:02:52.120><c> like</c><00:02:52.360><c> user</c><00:02:52.640><c> information,</c>
+
+00:02:53.270 --> 00:02:53.280 align:start position:0%
+main information like user information,
+ 
+
+00:02:53.280 --> 00:02:55.030 align:start position:0%
+main information like user information,
+the<00:02:53.400><c> user</c><00:02:53.840><c> ID,</c>
+
+00:02:55.030 --> 00:02:55.040 align:start position:0%
+the user ID,
+ 
+
+00:02:55.040 --> 00:02:56.870 align:start position:0%
+the user ID,
+uh<00:02:55.120><c> the</c><00:02:55.320><c> email</c><00:02:55.760><c> address,</c><00:02:56.160><c> whether</c><00:02:56.440><c> the</c><00:02:56.560><c> user</c>
+
+00:02:56.870 --> 00:02:56.880 align:start position:0%
+uh the email address, whether the user
+ 
+
+00:02:56.880 --> 00:02:59.190 align:start position:0%
+uh the email address, whether the user
+is<00:02:57.040><c> verified,</c><00:02:57.720><c> and</c><00:02:57.840><c> whatnot.</c><00:02:58.920><c> And</c><00:02:59.000><c> at</c><00:02:59.080><c> the</c>
+
+00:02:59.190 --> 00:02:59.200 align:start position:0%
+is verified, and whatnot. And at the
+ 
+
+00:02:59.200 --> 00:03:01.310 align:start position:0%
+is verified, and whatnot. And at the
+very<00:02:59.560><c> bottom</c><00:02:59.920><c> section,</c><00:03:00.360><c> we</c><00:03:00.520><c> can</c><00:03:00.920><c> view</c><00:03:01.200><c> the</c>
+
+00:03:01.310 --> 00:03:01.320 align:start position:0%
+very bottom section, we can view the
+ 
+
+00:03:01.320 --> 00:03:03.710 align:start position:0%
+very bottom section, we can view the
+public<00:03:01.680><c> key</c><00:03:02.000><c> that</c><00:03:02.320><c> was</c><00:03:02.600><c> used</c><00:03:03.040><c> to</c><00:03:03.160><c> sign</c><00:03:03.480><c> this</c>
+
+00:03:03.710 --> 00:03:03.720 align:start position:0%
+public key that was used to sign this
+ 
+
+00:03:03.720 --> 00:03:06.230 align:start position:0%
+public key that was used to sign this
+JWT,<00:03:04.880><c> and</c><00:03:05.040><c> we</c><00:03:05.160><c> can</c><00:03:05.360><c> head</c><00:03:05.600><c> over</c><00:03:05.840><c> to</c><00:03:06.120><c> our</c>
+
+00:03:06.230 --> 00:03:06.240 align:start position:0%
+JWT, and we can head over to our
+ 
+
+00:03:06.240 --> 00:03:08.990 align:start position:0%
+JWT, and we can head over to our
+Superbase<00:03:06.760><c> project,</c><00:03:07.960><c> go</c><00:03:08.080><c> to</c><00:03:08.240><c> the</c><00:03:08.400><c> settings</c>
+
+00:03:08.990 --> 00:03:09.000 align:start position:0%
+Superbase project, go to the settings
+ 
+
+00:03:09.000 --> 00:03:12.350 align:start position:0%
+Superbase project, go to the settings
+and<00:03:09.160><c> JWT</c><00:03:09.840><c> keys,</c><00:03:10.680><c> and</c><00:03:11.160><c> view</c><00:03:11.400><c> the</c><00:03:11.520><c> public</c><00:03:11.920><c> key</c>
+
+00:03:12.350 --> 00:03:12.360 align:start position:0%
+and JWT keys, and view the public key
+ 
+
+00:03:12.360 --> 00:03:16.990 align:start position:0%
+and JWT keys, and view the public key
+that<00:03:12.520><c> was</c><00:03:12.800><c> used</c><00:03:13.320><c> to</c><00:03:13.480><c> sign</c><00:03:14.200><c> our</c><00:03:15.160><c> JWT</c><00:03:16.040><c> token,</c><00:03:16.760><c> and</c>
+
+00:03:16.990 --> 00:03:17.000 align:start position:0%
+that was used to sign our JWT token, and
+ 
+
+00:03:17.000 --> 00:03:19.630 align:start position:0%
+that was used to sign our JWT token, and
+we<00:03:17.120><c> can</c><00:03:17.280><c> verify</c><00:03:17.720><c> that</c><00:03:17.960><c> these</c><00:03:18.240><c> two</c><00:03:18.360><c> matches</c><00:03:18.960><c> by,</c>
+
+00:03:19.630 --> 00:03:19.640 align:start position:0%
+we can verify that these two matches by,
+ 
+
+00:03:19.640 --> 00:03:21.110 align:start position:0%
+we can verify that these two matches by,
+I<00:03:19.680><c> don't</c><00:03:19.800><c> know,</c><00:03:19.840><c> like</c><00:03:20.000><c> copying</c><00:03:20.440><c> and</c><00:03:20.520><c> pasting</c>
+
+00:03:21.110 --> 00:03:21.120 align:start position:0%
+I don't know, like copying and pasting
+ 
+
+00:03:21.120 --> 00:03:23.350 align:start position:0%
+I don't know, like copying and pasting
+and<00:03:21.320><c> make</c><00:03:21.520><c> sure</c><00:03:21.640><c> it</c><00:03:22.000><c> matches.</c><00:03:22.880><c> Let's</c><00:03:23.080><c> say</c><00:03:23.200><c> we</c>
+
+00:03:23.350 --> 00:03:23.360 align:start position:0%
+and make sure it matches. Let's say we
+ 
+
+00:03:23.360 --> 00:03:25.230 align:start position:0%
+and make sure it matches. Let's say we
+have<00:03:23.480><c> an</c><00:03:23.640><c> app,</c><00:03:24.120><c> and</c><00:03:24.280><c> we</c><00:03:24.400><c> have</c><00:03:24.640><c> the</c><00:03:24.800><c> Superbase</c>
+
+00:03:25.230 --> 00:03:25.240 align:start position:0%
+have an app, and we have the Superbase
+ 
+
+00:03:25.240 --> 00:03:27.470 align:start position:0%
+have an app, and we have the Superbase
+Auth.<00:03:26.040><c> Now,</c><00:03:26.120><c> the</c><00:03:26.280><c> app</c><00:03:26.600><c> makes</c><00:03:26.960><c> a</c><00:03:27.080><c> sign-in</c>
+
+00:03:27.470 --> 00:03:27.480 align:start position:0%
+Auth. Now, the app makes a sign-in
+ 
+
+00:03:27.480 --> 00:03:29.950 align:start position:0%
+Auth. Now, the app makes a sign-in
+request<00:03:28.000><c> to</c><00:03:28.280><c> Superbase</c><00:03:28.800><c> Auth</c><00:03:29.520><c> using</c><00:03:29.800><c> the</c>
+
+00:03:29.950 --> 00:03:29.960 align:start position:0%
+request to Superbase Auth using the
+ 
+
+00:03:29.960 --> 00:03:31.670 align:start position:0%
+request to Superbase Auth using the
+client<00:03:30.320><c> library.</c>
+
+00:03:31.670 --> 00:03:31.680 align:start position:0%
+client library.
+ 
+
+00:03:31.680 --> 00:03:34.470 align:start position:0%
+client library.
+Now,<00:03:31.880><c> Superbase</c><00:03:32.400><c> Auth</c><00:03:32.960><c> says,</c><00:03:33.520><c> "Okay,</c><00:03:33.920><c> got</c><00:03:34.240><c> it.</c>
+
+00:03:34.470 --> 00:03:34.480 align:start position:0%
+Now, Superbase Auth says, "Okay, got it.
+ 
+
+00:03:34.480 --> 00:03:36.190 align:start position:0%
+Now, Superbase Auth says, "Okay, got it.
+We<00:03:34.600><c> can</c><00:03:34.720><c> verify</c><00:03:35.120><c> that</c><00:03:35.320><c> the</c><00:03:35.400><c> user</c><00:03:35.720><c> is</c><00:03:35.920><c> legit,</c>
+
+00:03:36.190 --> 00:03:36.200 align:start position:0%
+We can verify that the user is legit,
+ 
+
+00:03:36.200 --> 00:03:38.390 align:start position:0%
+We can verify that the user is legit,
+the<00:03:36.320><c> password</c><00:03:36.760><c> is</c><00:03:36.920><c> legit.</c><00:03:37.640><c> We'll</c><00:03:37.880><c> issue</c><00:03:38.280><c> a</c>
+
+00:03:38.390 --> 00:03:38.400 align:start position:0%
+the password is legit. We'll issue a
+ 
+
+00:03:38.400 --> 00:03:40.790 align:start position:0%
+the password is legit. We'll issue a
+JWT."
+
+00:03:40.790 --> 00:03:40.800 align:start position:0%
+JWT."
+ 
+
+00:03:40.800 --> 00:03:43.470 align:start position:0%
+JWT."
+Now,<00:03:41.120><c> the</c><00:03:41.280><c> app</c><00:03:41.440><c> can</c><00:03:41.600><c> take</c><00:03:41.840><c> this</c><00:03:42.040><c> JWT</c><00:03:43.000><c> and</c><00:03:43.160><c> make</c>
+
+00:03:43.470 --> 00:03:43.480 align:start position:0%
+Now, the app can take this JWT and make
+ 
+
+00:03:43.480 --> 00:03:45.790 align:start position:0%
+Now, the app can take this JWT and make
+requests<00:03:44.000><c> to</c><00:03:44.520><c> other</c><00:03:44.720><c> Superbase</c><00:03:45.240><c> services</c>
+
+00:03:45.790 --> 00:03:45.800 align:start position:0%
+requests to other Superbase services
+ 
+
+00:03:45.800 --> 00:03:48.750 align:start position:0%
+requests to other Superbase services
+like<00:03:46.120><c> the</c><00:03:46.280><c> data</c><00:03:46.640><c> API</c><00:03:47.280><c> or</c><00:03:47.520><c> Superbase</c><00:03:47.920><c> storage.</c>
+
+00:03:48.750 --> 00:03:48.760 align:start position:0%
+like the data API or Superbase storage.
+ 
+
+00:03:48.760 --> 00:03:50.390 align:start position:0%
+like the data API or Superbase storage.
+Every<00:03:48.960><c> time</c><00:03:49.120><c> these</c><00:03:49.360><c> requests</c><00:03:49.760><c> are</c><00:03:49.840><c> made,</c><00:03:50.280><c> the</c>
+
+00:03:50.390 --> 00:03:50.400 align:start position:0%
+Every time these requests are made, the
+ 
+
+00:03:50.400 --> 00:03:52.990 align:start position:0%
+Every time these requests are made, the
+JWT<00:03:51.080><c> is</c><00:03:51.360><c> always</c><00:03:51.680><c> attached</c><00:03:52.240><c> to</c><00:03:52.440><c> the</c><00:03:52.560><c> request</c>
+
+00:03:52.990 --> 00:03:53.000 align:start position:0%
+JWT is always attached to the request
+ 
+
+00:03:53.000 --> 00:03:54.870 align:start position:0%
+JWT is always attached to the request
+header.<00:03:53.720><c> What's</c><00:03:53.960><c> nice</c><00:03:54.160><c> is</c><00:03:54.280><c> that</c><00:03:54.600><c> since</c>
+
+00:03:54.870 --> 00:03:54.880 align:start position:0%
+header. What's nice is that since
+ 
+
+00:03:54.880 --> 00:03:57.390 align:start position:0%
+header. What's nice is that since
+Superbase<00:03:55.320><c> just</c><00:03:55.560><c> uses</c><00:03:55.880><c> standard</c><00:03:56.320><c> JWT,</c><00:03:57.200><c> its</c>
+
+00:03:57.390 --> 00:03:57.400 align:start position:0%
+Superbase just uses standard JWT, its
+ 
+
+00:03:57.400 --> 00:03:59.750 align:start position:0%
+Superbase just uses standard JWT, its
+usage<00:03:57.760><c> is</c><00:03:58.000><c> not</c><00:03:58.320><c> limited</c><00:03:58.760><c> to</c><00:03:58.920><c> just</c><00:03:59.280><c> Superbase</c>
+
+00:03:59.750 --> 00:03:59.760 align:start position:0%
+usage is not limited to just Superbase
+ 
+
+00:03:59.760 --> 00:04:01.950 align:start position:0%
+usage is not limited to just Superbase
+services.<00:04:00.640><c> For</c><00:04:00.800><c> example,</c><00:04:01.280><c> if</c><00:04:01.440><c> you</c><00:04:01.560><c> have</c><00:04:01.800><c> your</c>
+
+00:04:01.950 --> 00:04:01.960 align:start position:0%
+services. For example, if you have your
+ 
+
+00:04:01.960 --> 00:04:04.430 align:start position:0%
+services. For example, if you have your
+own<00:04:02.160><c> back-end,</c><00:04:03.120><c> you</c><00:04:03.280><c> can</c><00:04:03.480><c> totally</c><00:04:03.920><c> get</c><00:04:04.240><c> the</c>
+
+00:04:04.430 --> 00:04:04.440 align:start position:0%
+own back-end, you can totally get the
+ 
+
+00:04:04.440 --> 00:04:07.670 align:start position:0%
+own back-end, you can totally get the
+JWT<00:04:05.120><c> from</c><00:04:05.400><c> Superbase</c><00:04:05.880><c> Auth</c><00:04:06.720><c> and</c><00:04:07.120><c> send</c><00:04:07.400><c> it</c>
+
+00:04:07.670 --> 00:04:07.680 align:start position:0%
+JWT from Superbase Auth and send it
+ 
+
+00:04:07.680 --> 00:04:09.710 align:start position:0%
+JWT from Superbase Auth and send it
+along<00:04:08.120><c> with</c><00:04:08.440><c> a</c><00:04:08.520><c> request</c><00:04:09.160><c> to</c><00:04:09.360><c> your</c><00:04:09.520><c> own</c>
+
+00:04:09.710 --> 00:04:09.720 align:start position:0%
+along with a request to your own
+ 
+
+00:04:09.720 --> 00:04:12.630 align:start position:0%
+along with a request to your own
+back-end,<00:04:10.640><c> and</c><00:04:10.880><c> you</c><00:04:10.960><c> can</c><00:04:11.240><c> easily</c><00:04:11.800><c> decode</c><00:04:12.440><c> this</c>
+
+00:04:12.630 --> 00:04:12.640 align:start position:0%
+back-end, and you can easily decode this
+ 
+
+00:04:12.640 --> 00:04:15.190 align:start position:0%
+back-end, and you can easily decode this
+JWT<00:04:13.280><c> using</c><00:04:13.680><c> a</c><00:04:13.720><c> standard</c><00:04:14.240><c> library</c><00:04:14.920><c> of</c><00:04:15.080><c> your</c>
+
+00:04:15.190 --> 00:04:15.200 align:start position:0%
+JWT using a standard library of your
+ 
+
+00:04:15.200 --> 00:04:17.430 align:start position:0%
+JWT using a standard library of your
+choice,<00:04:15.960><c> and</c><00:04:16.120><c> verify</c><00:04:16.480><c> that</c><00:04:16.720><c> the</c><00:04:16.799><c> request</c><00:04:17.200><c> does</c>
+
+00:04:17.430 --> 00:04:17.440 align:start position:0%
+choice, and verify that the request does
+ 
+
+00:04:17.440 --> 00:04:19.870 align:start position:0%
+choice, and verify that the request does
+contain<00:04:17.920><c> a</c><00:04:18.000><c> legitimate</c><00:04:18.560><c> JWT</c><00:04:19.359><c> signed</c><00:04:19.720><c> by</c>
+
+00:04:19.870 --> 00:04:19.880 align:start position:0%
+contain a legitimate JWT signed by
+ 
+
+00:04:19.880 --> 00:04:21.750 align:start position:0%
+contain a legitimate JWT signed by
+Superbase.<00:04:21.040><c> So,</c><00:04:21.120><c> that's</c><00:04:21.400><c> how</c><00:04:21.600><c> our</c>
+
+00:04:21.750 --> 00:04:21.760 align:start position:0%
+Superbase. So, that's how our
+ 
+
+00:04:21.760 --> 00:04:23.910 align:start position:0%
+Superbase. So, that's how our
+authentication<00:04:22.400><c> works</c><00:04:22.880><c> with</c><00:04:23.120><c> Superbase</c><00:04:23.760><c> in</c><00:04:23.880><c> a</c>
+
+00:04:23.910 --> 00:04:23.920 align:start position:0%
+authentication works with Superbase in a
+ 
+
+00:04:23.920 --> 00:04:25.790 align:start position:0%
+authentication works with Superbase in a
+nutshell.<00:04:24.640><c> Now,</c><00:04:24.840><c> let's</c><00:04:25.000><c> take</c><00:04:25.200><c> a</c><00:04:25.240><c> look</c><00:04:25.480><c> at</c>
+
+00:04:25.790 --> 00:04:25.800 align:start position:0%
+nutshell. Now, let's take a look at
+ 
+
+00:04:25.800 --> 00:04:27.390 align:start position:0%
+nutshell. Now, let's take a look at
+various<00:04:26.200><c> authentication</c><00:04:26.800><c> methods</c><00:04:27.160><c> that</c>
+
+00:04:27.390 --> 00:04:27.400 align:start position:0%
+various authentication methods that
+ 
+
+00:04:27.400 --> 00:04:29.590 align:start position:0%
+various authentication methods that
+Superbase<00:04:27.840><c> offers.</c><00:04:28.720><c> The</c><00:04:28.800><c> first</c><00:04:29.080><c> one</c><00:04:29.360><c> is</c>
+
+00:04:29.590 --> 00:04:29.600 align:start position:0%
+Superbase offers. The first one is
+ 
+
+00:04:29.600 --> 00:04:31.950 align:start position:0%
+Superbase offers. The first one is
+standard<00:04:30.040><c> email</c><00:04:30.360><c> plus</c><00:04:30.600><c> password.</c><00:04:31.360><c> You</c><00:04:31.560><c> can</c>
+
+00:04:31.950 --> 00:04:31.960 align:start position:0%
+standard email plus password. You can
+ 
+
+00:04:31.960 --> 00:04:33.830 align:start position:0%
+standard email plus password. You can
+create<00:04:32.320><c> a</c><00:04:32.360><c> new</c><00:04:32.600><c> user</c><00:04:32.960><c> by</c><00:04:33.160><c> calling</c><00:04:33.560><c> the</c>
+
+00:04:33.830 --> 00:04:33.840 align:start position:0%
+create a new user by calling the
+ 
+
+00:04:33.840 --> 00:04:36.350 align:start position:0%
+create a new user by calling the
+auth.sign<00:04:34.920><c> up</c><00:04:35.080><c> method</c><00:04:35.520><c> and</c><00:04:35.680><c> passing</c><00:04:36.200><c> the</c>
+
+00:04:36.350 --> 00:04:36.360 align:start position:0%
+auth.sign up method and passing the
+ 
+
+00:04:36.360 --> 00:04:39.390 align:start position:0%
+auth.sign up method and passing the
+email<00:04:36.800><c> and</c><00:04:36.960><c> password.</c><00:04:37.800><c> You</c><00:04:37.920><c> can</c><00:04:38.120><c> sign</c><00:04:38.640><c> in</c><00:04:39.240><c> as</c>
+
+00:04:39.390 --> 00:04:39.400 align:start position:0%
+email and password. You can sign in as
+ 
+
+00:04:39.400 --> 00:04:42.910 align:start position:0%
+email and password. You can sign in as
+an<00:04:39.560><c> existing</c><00:04:40.120><c> user</c><00:04:41.040><c> by</c><00:04:41.160><c> calling</c><00:04:41.720><c> the</c><00:04:42.120><c> sign-in</c>
+
+00:04:42.910 --> 00:04:42.920 align:start position:0%
+an existing user by calling the sign-in
+ 
+
+00:04:42.920 --> 00:04:45.670 align:start position:0%
+an existing user by calling the sign-in
+with<00:04:43.240><c> password</c><00:04:43.880><c> method,</c><00:04:44.400><c> passing</c><00:04:44.920><c> the</c><00:04:45.160><c> email</c>
+
+00:04:45.670 --> 00:04:45.680 align:start position:0%
+with password method, passing the email
+ 
+
+00:04:45.680 --> 00:04:47.590 align:start position:0%
+with password method, passing the email
+and<00:04:45.960><c> password.</c>
+
+00:04:47.590 --> 00:04:47.600 align:start position:0%
+and password.
+ 
+
+00:04:47.600 --> 00:04:49.590 align:start position:0%
+and password.
+And<00:04:47.680><c> of</c><00:04:47.760><c> course,</c><00:04:48.000><c> Superbase</c><00:04:48.520><c> has</c><00:04:49.080><c> countless</c>
+
+00:04:49.590 --> 00:04:49.600 align:start position:0%
+And of course, Superbase has countless
+ 
+
+00:04:49.600 --> 00:04:51.790 align:start position:0%
+And of course, Superbase has countless
+options<00:04:50.240><c> for</c><00:04:50.480><c> various</c><00:04:50.800><c> social</c><00:04:51.160><c> logins.</c><00:04:51.640><c> I</c>
+
+00:04:51.790 --> 00:04:51.800 align:start position:0%
+options for various social logins. I
+ 
+
+00:04:51.800 --> 00:04:53.910 align:start position:0%
+options for various social logins. I
+counted<00:04:52.360><c> actually,</c><00:04:52.920><c> and</c><00:04:53.200><c> we</c><00:04:53.320><c> have</c><00:04:53.560><c> 20</c>
+
+00:04:53.910 --> 00:04:53.920 align:start position:0%
+counted actually, and we have 20
+ 
+
+00:04:53.920 --> 00:04:56.190 align:start position:0%
+counted actually, and we have 20
+different<00:04:54.280><c> options.</c><00:04:55.320><c> You</c><00:04:55.400><c> can</c><00:04:55.520><c> just</c><00:04:55.760><c> call</c>
+
+00:04:56.190 --> 00:04:56.200 align:start position:0%
+different options. You can just call
+ 
+
+00:04:56.200 --> 00:04:58.390 align:start position:0%
+different options. You can just call
+sign-in<00:04:56.800><c> with</c><00:04:57.040><c> OAuth</c><00:04:57.560><c> to</c><00:04:57.840><c> complete</c><00:04:58.240><c> your</c>
+
+00:04:58.390 --> 00:04:58.400 align:start position:0%
+sign-in with OAuth to complete your
+ 
+
+00:04:58.400 --> 00:05:00.070 align:start position:0%
+sign-in with OAuth to complete your
+sign-in<00:04:58.880><c> process.</c>
+
+00:05:00.070 --> 00:05:00.080 align:start position:0%
+sign-in process.
+ 
+
+00:05:00.080 --> 00:05:02.870 align:start position:0%
+sign-in process.
+And<00:05:00.200><c> my</c><00:05:00.400><c> favorite,</c><00:05:01.000><c> sign-in</c><00:05:01.840><c> anonymously.</c>
+
+00:05:02.870 --> 00:05:02.880 align:start position:0%
+And my favorite, sign-in anonymously.
+ 
+
+00:05:02.880 --> 00:05:04.430 align:start position:0%
+And my favorite, sign-in anonymously.
+This<00:05:03.200><c> essentially</c><00:05:03.800><c> is</c><00:05:03.960><c> kind</c><00:05:04.160><c> of</c><00:05:04.240><c> like</c>
+
+00:05:04.430 --> 00:05:04.440 align:start position:0%
+This essentially is kind of like
+ 
+
+00:05:04.440 --> 00:05:06.990 align:start position:0%
+This essentially is kind of like
+continuous<00:05:05.200><c> guest,</c><00:05:05.680><c> where</c><00:05:06.120><c> your</c><00:05:06.400><c> app</c><00:05:06.640><c> can</c>
+
+00:05:06.990 --> 00:05:07.000 align:start position:0%
+continuous guest, where your app can
+ 
+
+00:05:07.000 --> 00:05:09.630 align:start position:0%
+continuous guest, where your app can
+just<00:05:07.560><c> in</c><00:05:07.680><c> the</c><00:05:07.800><c> background</c><00:05:08.560><c> or</c><00:05:09.040><c> when</c><00:05:09.240><c> the</c><00:05:09.360><c> user</c>
+
+00:05:09.630 --> 00:05:09.640 align:start position:0%
+just in the background or when the user
+ 
+
+00:05:09.640 --> 00:05:11.790 align:start position:0%
+just in the background or when the user
+presses<00:05:10.200><c> a</c><00:05:10.280><c> continuous</c><00:05:10.880><c> guest</c><00:05:11.280><c> button,</c><00:05:11.680><c> for</c>
+
+00:05:11.790 --> 00:05:11.800 align:start position:0%
+presses a continuous guest button, for
+ 
+
+00:05:11.800 --> 00:05:14.870 align:start position:0%
+presses a continuous guest button, for
+example,<00:05:12.600><c> you</c><00:05:12.720><c> can</c><00:05:12.840><c> just</c><00:05:13.120><c> sign</c><00:05:13.640><c> them</c><00:05:13.960><c> in.</c><00:05:14.760><c> And</c>
+
+00:05:14.870 --> 00:05:14.880 align:start position:0%
+example, you can just sign them in. And
+ 
+
+00:05:14.880 --> 00:05:17.950 align:start position:0%
+example, you can just sign them in. And
+this<00:05:15.680><c> essentially</c><00:05:16.280><c> just</c><00:05:16.640><c> generates</c><00:05:17.160><c> a</c><00:05:17.240><c> JWT,</c>
+
+00:05:17.950 --> 00:05:17.960 align:start position:0%
+this essentially just generates a JWT,
+ 
+
+00:05:17.960 --> 00:05:19.750 align:start position:0%
+this essentially just generates a JWT,
+and<00:05:18.200><c> that</c><00:05:18.440><c> gets</c><00:05:18.680><c> stored</c><00:05:19.040><c> on</c><00:05:19.160><c> your</c><00:05:19.280><c> device,</c>
+
+00:05:19.750 --> 00:05:19.760 align:start position:0%
+and that gets stored on your device,
+ 
+
+00:05:19.760 --> 00:05:21.670 align:start position:0%
+and that gets stored on your device,
+kind<00:05:19.920><c> of</c><00:05:19.960><c> like</c><00:05:20.160><c> standard</c><00:05:20.680><c> authentication,</c><00:05:21.520><c> no</c>
+
+00:05:21.670 --> 00:05:21.680 align:start position:0%
+kind of like standard authentication, no
+ 
+
+00:05:21.680 --> 00:05:23.590 align:start position:0%
+kind of like standard authentication, no
+difference<00:05:22.120><c> there.</c><00:05:22.920><c> But,</c><00:05:23.000><c> the</c><00:05:23.080><c> difference</c><00:05:23.480><c> is</c>
+
+00:05:23.590 --> 00:05:23.600 align:start position:0%
+difference there. But, the difference is
+ 
+
+00:05:23.600 --> 00:05:24.990 align:start position:0%
+difference there. But, the difference is
+that<00:05:23.760><c> you</c><00:05:23.880><c> can</c><00:05:24.080><c> provide</c><00:05:24.440><c> a</c><00:05:24.520><c> seamless</c>
+
+00:05:24.990 --> 00:05:25.000 align:start position:0%
+that you can provide a seamless
+ 
+
+00:05:25.000 --> 00:05:27.270 align:start position:0%
+that you can provide a seamless
+experience<00:05:25.600><c> to</c><00:05:25.640><c> your</c><00:05:25.840><c> users</c><00:05:26.600><c> while</c><00:05:27.000><c> not</c>
+
+00:05:27.270 --> 00:05:27.280 align:start position:0%
+experience to your users while not
+ 
+
+00:05:27.280 --> 00:05:29.510 align:start position:0%
+experience to your users while not
+compromising<00:05:28.200><c> security.</c>
+
+00:05:29.510 --> 00:05:29.520 align:start position:0%
+compromising security.
+ 
+
+00:05:29.520 --> 00:05:30.990 align:start position:0%
+compromising security.
+If<00:05:29.640><c> you're</c><00:05:29.760><c> working</c><00:05:30.200><c> on</c><00:05:30.320><c> an</c><00:05:30.480><c> e-commerce</c>
+
+00:05:30.990 --> 00:05:31.000 align:start position:0%
+If you're working on an e-commerce
+ 
+
+00:05:31.000 --> 00:05:33.070 align:start position:0%
+If you're working on an e-commerce
+application,<00:05:31.760><c> you</c><00:05:31.920><c> could</c><00:05:32.120><c> just</c><00:05:32.520><c> sign</c><00:05:32.960><c> the</c>
+
+00:05:33.070 --> 00:05:33.080 align:start position:0%
+application, you could just sign the
+ 
+
+00:05:33.080 --> 00:05:35.390 align:start position:0%
+application, you could just sign the
+user<00:05:33.440><c> in</c><00:05:33.600><c> anonymously</c><00:05:34.400><c> when</c><00:05:34.640><c> they</c><00:05:34.800><c> first</c><00:05:35.120><c> land</c>
+
+00:05:35.390 --> 00:05:35.400 align:start position:0%
+user in anonymously when they first land
+ 
+
+00:05:35.400 --> 00:05:38.030 align:start position:0%
+user in anonymously when they first land
+on<00:05:35.520><c> your</c><00:05:35.640><c> website,</c><00:05:36.720><c> and</c><00:05:36.880><c> then</c><00:05:37.160><c> keep</c><00:05:37.480><c> track</c><00:05:37.880><c> of</c>
+
+00:05:38.030 --> 00:05:38.040 align:start position:0%
+on your website, and then keep track of
+ 
+
+00:05:38.040 --> 00:05:40.790 align:start position:0%
+on your website, and then keep track of
+their<00:05:38.440><c> shopping</c><00:05:38.920><c> cart,</c><00:05:39.440><c> and</c><00:05:39.720><c> then</c><00:05:40.160><c> when</c><00:05:40.560><c> they</c>
+
+00:05:40.790 --> 00:05:40.800 align:start position:0%
+their shopping cart, and then when they
+ 
+
+00:05:40.800 --> 00:05:42.830 align:start position:0%
+their shopping cart, and then when they
+are<00:05:40.920><c> ready</c><00:05:41.160><c> to</c><00:05:41.280><c> check</c><00:05:41.560><c> out,</c><00:05:42.080><c> they</c><00:05:42.240><c> can</c><00:05:42.440><c> either</c>
+
+00:05:42.830 --> 00:05:42.840 align:start position:0%
+are ready to check out, they can either
+ 
+
+00:05:42.840 --> 00:05:44.870 align:start position:0%
+are ready to check out, they can either
+make<00:05:43.120><c> the</c><00:05:43.200><c> decision</c><00:05:43.840><c> of</c><00:05:44.080><c> upgrading</c><00:05:44.640><c> to</c><00:05:44.800><c> a</c>
+
+00:05:44.870 --> 00:05:44.880 align:start position:0%
+make the decision of upgrading to a
+ 
+
+00:05:44.880 --> 00:05:47.270 align:start position:0%
+make the decision of upgrading to a
+regular<00:05:45.280><c> user</c><00:05:46.000><c> or</c><00:05:46.120><c> just</c><00:05:46.320><c> staying</c><00:05:46.880><c> as</c><00:05:47.080><c> an</c>
+
+00:05:47.270 --> 00:05:47.280 align:start position:0%
+regular user or just staying as an
+ 
+
+00:05:47.280 --> 00:05:49.070 align:start position:0%
+regular user or just staying as an
+anonymous<00:05:47.720><c> user</c><00:05:48.080><c> and</c><00:05:48.280><c> still</c><00:05:48.560><c> get</c><00:05:48.720><c> the</c><00:05:48.800><c> full</c>
+
+00:05:49.070 --> 00:05:49.080 align:start position:0%
+anonymous user and still get the full
+ 
+
+00:05:49.080 --> 00:05:50.430 align:start position:0%
+anonymous user and still get the full
+experience.
+
+00:05:50.430 --> 00:05:50.440 align:start position:0%
+experience.
+ 
+
+00:05:50.440 --> 00:05:51.950 align:start position:0%
+experience.
+When<00:05:50.520><c> you</c><00:05:50.600><c> want</c><00:05:50.760><c> to</c><00:05:50.920><c> upgrade</c><00:05:51.360><c> existing</c>
+
+00:05:51.950 --> 00:05:51.960 align:start position:0%
+When you want to upgrade existing
+ 
+
+00:05:51.960 --> 00:05:54.190 align:start position:0%
+When you want to upgrade existing
+anonymous<00:05:52.440><c> user</c><00:05:52.760><c> to</c><00:05:53.040><c> a</c><00:05:53.120><c> social</c><00:05:53.480><c> login</c><00:05:53.840><c> user,</c>
+
+00:05:54.190 --> 00:05:54.200 align:start position:0%
+anonymous user to a social login user,
+ 
+
+00:05:54.200 --> 00:05:55.950 align:start position:0%
+anonymous user to a social login user,
+you<00:05:54.320><c> could</c><00:05:54.480><c> just</c><00:05:54.680><c> call</c><00:05:54.920><c> the</c><00:05:55.120><c> link</c><00:05:55.480><c> identity</c>
+
+00:05:55.950 --> 00:05:55.960 align:start position:0%
+you could just call the link identity
+ 
+
+00:05:55.960 --> 00:05:57.670 align:start position:0%
+you could just call the link identity
+method.
+
+00:05:57.670 --> 00:05:57.680 align:start position:0%
+method.
+ 
+
+00:05:57.680 --> 00:05:59.350 align:start position:0%
+method.
+If<00:05:57.800><c> you</c><00:05:57.880><c> want</c><00:05:58.000><c> to</c><00:05:58.080><c> upgrade</c><00:05:58.440><c> them</c><00:05:58.760><c> to</c><00:05:59.000><c> an</c><00:05:59.120><c> email</c>
+
+00:05:59.350 --> 00:05:59.360 align:start position:0%
+If you want to upgrade them to an email
+ 
+
+00:05:59.360 --> 00:06:01.510 align:start position:0%
+If you want to upgrade them to an email
+plus<00:05:59.560><c> password</c><00:06:00.040><c> user,</c><00:06:00.400><c> you</c><00:06:00.600><c> can</c><00:06:00.840><c> call</c><00:06:01.240><c> the</c>
+
+00:06:01.510 --> 00:06:01.520 align:start position:0%
+plus password user, you can call the
+ 
+
+00:06:01.520 --> 00:06:04.270 align:start position:0%
+plus password user, you can call the
+update<00:06:01.920><c> user</c><00:06:02.200><c> method</c><00:06:02.760><c> to</c><00:06:03.040><c> first</c><00:06:03.440><c> set</c><00:06:03.760><c> a</c><00:06:03.920><c> email</c>
+
+00:06:04.270 --> 00:06:04.280 align:start position:0%
+update user method to first set a email
+ 
+
+00:06:04.280 --> 00:06:06.070 align:start position:0%
+update user method to first set a email
+address.<00:06:05.000><c> This</c><00:06:05.120><c> is</c><00:06:05.240><c> going</c><00:06:05.440><c> to</c><00:06:05.600><c> send</c><00:06:06.000><c> a</c>
+
+00:06:06.070 --> 00:06:06.080 align:start position:0%
+address. This is going to send a
+ 
+
+00:06:06.080 --> 00:06:07.630 align:start position:0%
+address. This is going to send a
+verification<00:06:06.760><c> email</c><00:06:07.080><c> to</c><00:06:07.240><c> their</c><00:06:07.400><c> email</c>
+
+00:06:07.630 --> 00:06:07.640 align:start position:0%
+verification email to their email
+ 
+
+00:06:07.640 --> 00:06:09.670 align:start position:0%
+verification email to their email
+address.<00:06:08.560><c> And</c><00:06:08.680><c> once</c><00:06:08.880><c> they</c><00:06:09.040><c> have</c><00:06:09.240><c> verified</c>
+
+00:06:09.670 --> 00:06:09.680 align:start position:0%
+address. And once they have verified
+ 
+
+00:06:09.680 --> 00:06:11.550 align:start position:0%
+address. And once they have verified
+their<00:06:09.840><c> email</c><00:06:10.160><c> address,</c><00:06:10.640><c> you</c><00:06:10.800><c> can</c><00:06:11.040><c> call</c><00:06:11.440><c> the</c>
+
+00:06:11.550 --> 00:06:11.560 align:start position:0%
+their email address, you can call the
+ 
+
+00:06:11.560 --> 00:06:13.550 align:start position:0%
+their email address, you can call the
+update<00:06:12.000><c> user</c><00:06:12.280><c> method</c><00:06:12.600><c> again,</c><00:06:13.000><c> this</c><00:06:13.280><c> time</c>
+
+00:06:13.550 --> 00:06:13.560 align:start position:0%
+update user method again, this time
+ 
+
+00:06:13.560 --> 00:06:15.870 align:start position:0%
+update user method again, this time
+setting<00:06:14.080><c> a</c><00:06:14.200><c> password.</c><00:06:15.320><c> I</c><00:06:15.440><c> also</c><00:06:15.680><c> want</c><00:06:15.800><c> to</c>
+
+00:06:15.870 --> 00:06:15.880 align:start position:0%
+setting a password. I also want to
+ 
+
+00:06:15.880 --> 00:06:18.350 align:start position:0%
+setting a password. I also want to
+mention<00:06:16.240><c> that</c><00:06:16.440><c> Superbase</c><00:06:16.920><c> does</c><00:06:17.160><c> support</c><00:06:17.680><c> MFA</c>
+
+00:06:18.350 --> 00:06:18.360 align:start position:0%
+mention that Superbase does support MFA
+ 
+
+00:06:18.360 --> 00:06:20.310 align:start position:0%
+mention that Superbase does support MFA
+as<00:06:18.560><c> well</c><00:06:18.720><c> as</c><00:06:18.960><c> SAML</c><00:06:19.360><c> login</c><00:06:19.880><c> for</c><00:06:20.080><c> more</c>
+
+00:06:20.310 --> 00:06:20.320 align:start position:0%
+as well as SAML login for more
+ 
+
+00:06:20.320 --> 00:06:22.590 align:start position:0%
+as well as SAML login for more
+enterprise<00:06:20.800><c> use</c><00:06:21.000><c> cases</c><00:06:21.440><c> as</c><00:06:21.600><c> well.</c>
+
+00:06:22.590 --> 00:06:22.600 align:start position:0%
+enterprise use cases as well.
+ 
+
+00:06:22.600 --> 00:06:25.230 align:start position:0%
+enterprise use cases as well.
+Now,<00:06:22.920><c> that</c><00:06:23.080><c> was</c><00:06:23.200><c> a</c><00:06:23.280><c> lot,</c><00:06:23.880><c> but</c><00:06:24.360><c> remember,</c><00:06:25.000><c> all</c>
+
+00:06:25.230 --> 00:06:25.240 align:start position:0%
+Now, that was a lot, but remember, all
+ 
+
+00:06:25.240 --> 00:06:26.870 align:start position:0%
+Now, that was a lot, but remember, all
+these<00:06:25.480><c> authentication</c><00:06:26.160><c> methods,</c><00:06:26.680><c> all</c>
+
+00:06:26.870 --> 00:06:26.880 align:start position:0%
+these authentication methods, all
+ 
+
+00:06:26.880 --> 00:06:29.270 align:start position:0%
+these authentication methods, all
+they're<00:06:27.040><c> doing</c><00:06:27.520><c> is</c><00:06:27.880><c> obtaining</c><00:06:28.480><c> a</c><00:06:28.560><c> JSON</c><00:06:29.040><c> web</c>
+
+00:06:29.270 --> 00:06:29.280 align:start position:0%
+they're doing is obtaining a JSON web
+ 
+
+00:06:29.280 --> 00:06:32.070 align:start position:0%
+they're doing is obtaining a JSON web
+token<00:06:30.200><c> from</c><00:06:30.440><c> Superbase</c><00:06:30.960><c> Auth.</c><00:06:31.640><c> And</c><00:06:31.800><c> what</c>
+
+00:06:32.070 --> 00:06:32.080 align:start position:0%
+token from Superbase Auth. And what
+ 
+
+00:06:32.080 --> 00:06:34.350 align:start position:0%
+token from Superbase Auth. And what
+happens<00:06:32.680><c> after</c><00:06:33.120><c> they</c><00:06:33.320><c> obtain</c><00:06:33.760><c> a</c><00:06:33.800><c> JSON</c><00:06:34.160><c> web</c>
+
+00:06:34.350 --> 00:06:34.360 align:start position:0%
+happens after they obtain a JSON web
+ 
+
+00:06:34.360 --> 00:06:36.870 align:start position:0%
+happens after they obtain a JSON web
+token<00:06:35.120><c> is</c><00:06:35.320><c> all</c><00:06:35.440><c> the</c><00:06:35.520><c> same.</c>
+
+00:06:36.870 --> 00:06:36.880 align:start position:0%
+token is all the same.
+ 
+
+00:06:36.880 --> 00:06:39.390 align:start position:0%
+token is all the same.
+Let's<00:06:37.080><c> now</c><00:06:37.240><c> talk</c><00:06:37.480><c> about</c><00:06:37.760><c> authorization.</c>
+
+00:06:39.390 --> 00:06:39.400 align:start position:0%
+Let's now talk about authorization.
+ 
+
+00:06:39.400 --> 00:06:41.430 align:start position:0%
+Let's now talk about authorization.
+So,<00:06:39.480><c> I'm</c><00:06:39.680><c> in</c><00:06:39.920><c> this</c><00:06:40.160><c> policy</c><00:06:40.560><c> creation</c><00:06:41.040><c> page</c>
+
+00:06:41.430 --> 00:06:41.440 align:start position:0%
+So, I'm in this policy creation page
+ 
+
+00:06:41.440 --> 00:06:43.470 align:start position:0%
+So, I'm in this policy creation page
+within<00:06:41.720><c> the</c><00:06:41.800><c> Superbase</c><00:06:42.240><c> dashboard,</c><00:06:42.960><c> and</c><00:06:43.360><c> I'll</c>
+
+00:06:43.470 --> 00:06:43.480 align:start position:0%
+within the Superbase dashboard, and I'll
+ 
+
+00:06:43.480 --> 00:06:45.310 align:start position:0%
+within the Superbase dashboard, and I'll
+be<00:06:43.640><c> talking</c><00:06:44.000><c> about</c><00:06:44.360><c> row-level</c><00:06:44.880><c> security</c>
+
+00:06:45.310 --> 00:06:45.320 align:start position:0%
+be talking about row-level security
+ 
+
+00:06:45.320 --> 00:06:47.190 align:start position:0%
+be talking about row-level security
+policies<00:06:45.840><c> because</c><00:06:46.160><c> that's</c><00:06:46.480><c> how</c><00:06:46.640><c> Superbase</c>
+
+00:06:47.190 --> 00:06:47.200 align:start position:0%
+policies because that's how Superbase
+ 
+
+00:06:47.200 --> 00:06:49.190 align:start position:0%
+policies because that's how Superbase
+does<00:06:47.600><c> authorization.</c><00:06:48.600><c> But,</c><00:06:48.720><c> that's</c><00:06:48.920><c> not</c><00:06:49.080><c> the</c>
+
+00:06:49.190 --> 00:06:49.200 align:start position:0%
+does authorization. But, that's not the
+ 
+
+00:06:49.200 --> 00:06:51.670 align:start position:0%
+does authorization. But, that's not the
+only<00:06:49.440><c> way.</c><00:06:50.080><c> As</c><00:06:50.320><c> we</c><00:06:50.480><c> looked</c><00:06:50.840><c> earlier,</c><00:06:51.360><c> you</c><00:06:51.520><c> can</c>
+
+00:06:51.670 --> 00:06:51.680 align:start position:0%
+only way. As we looked earlier, you can
+ 
+
+00:06:51.680 --> 00:06:54.110 align:start position:0%
+only way. As we looked earlier, you can
+just<00:06:51.920><c> have</c><00:06:52.120><c> your</c><00:06:52.280><c> own</c><00:06:52.480><c> regular</c><00:06:52.760><c> server</c><00:06:53.720><c> and</c>
+
+00:06:54.110 --> 00:06:54.120 align:start position:0%
+just have your own regular server and
+ 
+
+00:06:54.120 --> 00:06:56.670 align:start position:0%
+just have your own regular server and
+use<00:06:54.360><c> a</c><00:06:54.480><c> regular</c><00:06:54.840><c> JWT</c><00:06:55.520><c> verification</c><00:06:56.160><c> methods</c>
+
+00:06:56.670 --> 00:06:56.680 align:start position:0%
+use a regular JWT verification methods
+ 
+
+00:06:56.680 --> 00:06:59.190 align:start position:0%
+use a regular JWT verification methods
+to<00:06:56.920><c> authorize</c><00:06:57.640><c> a</c><00:06:57.720><c> user.</c>
+
+00:06:59.190 --> 00:06:59.200 align:start position:0%
+to authorize a user.
+ 
+
+00:06:59.200 --> 00:07:01.590 align:start position:0%
+to authorize a user.
+But,<00:06:59.640><c> with</c><00:06:59.880><c> row-level</c><00:07:00.280><c> security</c><00:07:00.640><c> policies,</c>
+
+00:07:01.590 --> 00:07:01.600 align:start position:0%
+But, with row-level security policies,
+ 
+
+00:07:01.600 --> 00:07:03.710 align:start position:0%
+But, with row-level security policies,
+there<00:07:01.880><c> are</c><00:07:02.120><c> four</c><00:07:02.520><c> types</c><00:07:02.920><c> of</c><00:07:03.040><c> policies.</c>
+
+00:07:03.710 --> 00:07:03.720 align:start position:0%
+there are four types of policies.
+ 
+
+00:07:03.720 --> 00:07:06.030 align:start position:0%
+there are four types of policies.
+There's<00:07:04.000><c> select,</c><00:07:04.480><c> insert,</c><00:07:04.880><c> update,</c><00:07:05.280><c> delete,</c>
+
+00:07:06.030 --> 00:07:06.040 align:start position:0%
+There's select, insert, update, delete,
+ 
+
+00:07:06.040 --> 00:07:08.310 align:start position:0%
+There's select, insert, update, delete,
+and<00:07:06.200><c> I</c><00:07:06.280><c> lied,</c><00:07:06.640><c> there's</c><00:07:06.920><c> five,</c><00:07:07.320><c> there's</c><00:07:07.720><c> all</c><00:07:08.120><c> as</c>
+
+00:07:08.310 --> 00:07:08.320 align:start position:0%
+and I lied, there's five, there's all as
+ 
+
+00:07:08.320 --> 00:07:10.990 align:start position:0%
+and I lied, there's five, there's all as
+well.<00:07:09.040><c> But,</c><00:07:09.200><c> it's</c><00:07:09.480><c> best</c><00:07:09.920><c> not</c><00:07:10.200><c> to</c><00:07:10.280><c> use</c><00:07:10.720><c> all.</c>
+
+00:07:10.990 --> 00:07:11.000 align:start position:0%
+well. But, it's best not to use all.
+ 
+
+00:07:11.000 --> 00:07:13.150 align:start position:0%
+well. But, it's best not to use all.
+Let's<00:07:11.200><c> just</c><00:07:11.480><c> stick</c><00:07:11.880><c> with</c><00:07:12.320><c> select,</c><00:07:12.720><c> insert,</c>
+
+00:07:13.150 --> 00:07:13.160 align:start position:0%
+Let's just stick with select, insert,
+ 
+
+00:07:13.160 --> 00:07:15.590 align:start position:0%
+Let's just stick with select, insert,
+update,<00:07:13.640><c> and</c><00:07:13.880><c> delete</c><00:07:14.520><c> because</c><00:07:14.920><c> you</c><00:07:15.120><c> have</c><00:07:15.360><c> more</c>
+
+00:07:15.590 --> 00:07:15.600 align:start position:0%
+update, and delete because you have more
+ 
+
+00:07:15.600 --> 00:07:18.430 align:start position:0%
+update, and delete because you have more
+granular<00:07:16.080><c> control</c><00:07:16.680><c> of</c><00:07:17.520><c> how</c><00:07:17.840><c> your</c><00:07:18.040><c> users</c>
+
+00:07:18.430 --> 00:07:18.440 align:start position:0%
+granular control of how your users
+ 
+
+00:07:18.440 --> 00:07:21.070 align:start position:0%
+granular control of how your users
+should<00:07:18.640><c> be</c><00:07:18.760><c> accessing</c><00:07:19.400><c> your</c><00:07:19.560><c> service.</c>
+
+00:07:21.070 --> 00:07:21.080 align:start position:0%
+should be accessing your service.
+ 
+
+00:07:21.080 --> 00:07:23.150 align:start position:0%
+should be accessing your service.
+Now,<00:07:21.440><c> as</c><00:07:21.640><c> I</c><00:07:21.760><c> create</c><00:07:22.200><c> my</c><00:07:22.360><c> row-level</c><00:07:22.800><c> security</c>
+
+00:07:23.150 --> 00:07:23.160 align:start position:0%
+Now, as I create my row-level security
+ 
+
+00:07:23.160 --> 00:07:25.830 align:start position:0%
+Now, as I create my row-level security
+policy,<00:07:23.480><c> we</c><00:07:23.680><c> could</c><00:07:24.200><c> do</c><00:07:24.480><c> something</c><00:07:24.880><c> like</c><00:07:25.680><c> uh</c>
+
+00:07:25.830 --> 00:07:25.840 align:start position:0%
+policy, we could do something like uh
+ 
+
+00:07:25.840 --> 00:07:29.990 align:start position:0%
+policy, we could do something like uh
+select<00:07:27.120><c> auth.uid</c>
+
+00:07:29.990 --> 00:07:30.000 align:start position:0%
+select auth.uid
+ 
+
+00:07:30.000 --> 00:07:31.990 align:start position:0%
+select auth.uid
+is<00:07:30.400><c> equal</c><00:07:30.720><c> to</c>
+
+00:07:31.990 --> 00:07:32.000 align:start position:0%
+is equal to
+ 
+
+00:07:32.000 --> 00:07:34.670 align:start position:0%
+is equal to
+user<00:07:32.400><c> ID</c><00:07:32.640><c> column</c><00:07:32.960><c> from</c><00:07:33.280><c> the</c><00:07:33.400><c> table.</c>
+
+00:07:34.670 --> 00:07:34.680 align:start position:0%
+user ID column from the table.
+ 
+
+00:07:34.680 --> 00:07:37.150 align:start position:0%
+user ID column from the table.
+Now,<00:07:35.320><c> if</c><00:07:35.680><c> I'm</c><00:07:36.040><c> selecting</c><00:07:36.560><c> the</c><00:07:36.680><c> select</c>
+
+00:07:37.150 --> 00:07:37.160 align:start position:0%
+Now, if I'm selecting the select
+ 
+
+00:07:37.160 --> 00:07:39.950 align:start position:0%
+Now, if I'm selecting the select
+statement,<00:07:38.200><c> we</c><00:07:38.520><c> notice</c><00:07:38.920><c> that</c><00:07:39.440><c> this</c><00:07:39.720><c> whole</c>
+
+00:07:39.950 --> 00:07:39.960 align:start position:0%
+statement, we notice that this whole
+ 
+
+00:07:39.960 --> 00:07:41.870 align:start position:0%
+statement, we notice that this whole
+statement<00:07:40.520><c> is</c>
+
+00:07:41.870 --> 00:07:41.880 align:start position:0%
+statement is
+ 
+
+00:07:41.880 --> 00:07:44.670 align:start position:0%
+statement is
+wrapped<00:07:42.240><c> around</c><00:07:42.720><c> a</c><00:07:42.800><c> using</c><00:07:43.280><c> statement.</c><00:07:44.360><c> Now,</c>
+
+00:07:44.670 --> 00:07:44.680 align:start position:0%
+wrapped around a using statement. Now,
+ 
+
+00:07:44.680 --> 00:07:47.550 align:start position:0%
+wrapped around a using statement. Now,
+if<00:07:44.840><c> I</c><00:07:44.920><c> go</c><00:07:45.080><c> to</c><00:07:45.280><c> insert,</c><00:07:46.120><c> it</c><00:07:46.320><c> changes</c><00:07:46.960><c> to</c><00:07:47.120><c> with</c>
+
+00:07:47.550 --> 00:07:47.560 align:start position:0%
+if I go to insert, it changes to with
+ 
+
+00:07:47.560 --> 00:07:50.230 align:start position:0%
+if I go to insert, it changes to with
+check,<00:07:48.080><c> and</c><00:07:48.520><c> update,</c><00:07:49.520><c> there's</c><00:07:50.000><c> two</c>
+
+00:07:50.230 --> 00:07:50.240 align:start position:0%
+check, and update, there's two
+ 
+
+00:07:50.240 --> 00:07:52.150 align:start position:0%
+check, and update, there's two
+conditions,<00:07:50.840><c> there's</c><00:07:51.160><c> using</c><00:07:51.720><c> and</c><00:07:51.920><c> with</c>
+
+00:07:52.150 --> 00:07:52.160 align:start position:0%
+conditions, there's using and with
+ 
+
+00:07:52.160 --> 00:07:55.150 align:start position:0%
+conditions, there's using and with
+check,<00:07:52.640><c> and</c><00:07:52.920><c> delete,</c><00:07:53.440><c> there's</c><00:07:53.840><c> using.</c>
+
+00:07:55.150 --> 00:07:55.160 align:start position:0%
+check, and delete, there's using.
+ 
+
+00:07:55.160 --> 00:07:57.150 align:start position:0%
+check, and delete, there's using.
+The<00:07:55.240><c> way</c><00:07:55.480><c> I</c><00:07:55.560><c> typically</c><00:07:56.000><c> think</c><00:07:56.240><c> about</c><00:07:56.520><c> this</c><00:07:56.840><c> is</c>
+
+00:07:57.150 --> 00:07:57.160 align:start position:0%
+The way I typically think about this is
+ 
+
+00:07:57.160 --> 00:07:59.510 align:start position:0%
+The way I typically think about this is
+using<00:07:57.840><c> is</c><00:07:58.280><c> to</c><00:07:58.480><c> compare</c><00:07:58.880><c> the</c><00:07:58.960><c> condition</c>
+
+00:07:59.510 --> 00:07:59.520 align:start position:0%
+using is to compare the condition
+ 
+
+00:07:59.520 --> 00:08:01.670 align:start position:0%
+using is to compare the condition
+against<00:08:00.000><c> existing</c><00:08:00.520><c> data,</c><00:08:00.960><c> and</c><00:08:01.080><c> then</c><00:08:01.320><c> with</c>
+
+00:08:01.670 --> 00:08:01.680 align:start position:0%
+against existing data, and then with
+ 
+
+00:08:01.680 --> 00:08:03.350 align:start position:0%
+against existing data, and then with
+check<00:08:02.080><c> is</c><00:08:02.320><c> to</c><00:08:02.440><c> compare</c><00:08:02.760><c> the</c><00:08:02.840><c> condition</c>
+
+00:08:03.350 --> 00:08:03.360 align:start position:0%
+check is to compare the condition
+ 
+
+00:08:03.360 --> 00:08:06.870 align:start position:0%
+check is to compare the condition
+against<00:08:04.400><c> future</c><00:08:04.800><c> data</c><00:08:05.400><c> after</c><00:08:06.000><c> the</c><00:08:06.200><c> change</c><00:08:06.680><c> has</c>
+
+00:08:06.870 --> 00:08:06.880 align:start position:0%
+against future data after the change has
+ 
+
+00:08:06.880 --> 00:08:09.350 align:start position:0%
+against future data after the change has
+happened,<00:08:07.360><c> if</c><00:08:07.600><c> it</c><00:08:07.840><c> were</c><00:08:08.040><c> to</c><00:08:08.200><c> happen.</c><00:08:09.120><c> But,</c>
+
+00:08:09.350 --> 00:08:09.360 align:start position:0%
+happened, if it were to happen. But,
+ 
+
+00:08:09.360 --> 00:08:10.870 align:start position:0%
+happened, if it were to happen. But,
+otherwise,<00:08:09.960><c> all</c><00:08:10.080><c> these</c><00:08:10.280><c> statements</c><00:08:10.760><c> are</c>
+
+00:08:10.870 --> 00:08:10.880 align:start position:0%
+otherwise, all these statements are
+ 
+
+00:08:10.880 --> 00:08:12.630 align:start position:0%
+otherwise, all these statements are
+pretty<00:08:11.120><c> similar</c><00:08:11.600><c> in</c><00:08:11.760><c> a</c><00:08:11.840><c> way</c><00:08:12.120><c> that</c><00:08:12.400><c> this</c>
+
+00:08:12.630 --> 00:08:12.640 align:start position:0%
+pretty similar in a way that this
+ 
+
+00:08:12.640 --> 00:08:14.390 align:start position:0%
+pretty similar in a way that this
+statement<00:08:13.120><c> where</c><00:08:13.280><c> it</c><00:08:13.400><c> compares</c><00:08:14.000><c> the</c>
+
+00:08:14.390 --> 00:08:14.400 align:start position:0%
+statement where it compares the
+ 
+
+00:08:14.400 --> 00:08:16.390 align:start position:0%
+statement where it compares the
+authentication<00:08:15.160><c> user</c><00:08:15.520><c> ID</c><00:08:15.880><c> against</c><00:08:16.320><c> the</c>
+
+00:08:16.390 --> 00:08:16.400 align:start position:0%
+authentication user ID against the
+ 
+
+00:08:16.400 --> 00:08:19.790 align:start position:0%
+authentication user ID against the
+existing<00:08:16.960><c> user</c><00:08:17.200><c> ID</c><00:08:17.400><c> column</c><00:08:18.200><c> can</c><00:08:18.320><c> be</c><00:08:18.480><c> used</c><00:08:19.440><c> in</c><00:08:19.640><c> a</c>
+
+00:08:19.790 --> 00:08:19.800 align:start position:0%
+existing user ID column can be used in a
+ 
+
+00:08:19.800 --> 00:08:22.310 align:start position:0%
+existing user ID column can be used in a
+select<00:08:20.280><c> policy</c><00:08:20.880><c> or</c><00:08:21.040><c> insert</c><00:08:21.400><c> policy</c><00:08:21.920><c> or</c><00:08:22.000><c> update</c>
+
+00:08:22.310 --> 00:08:22.320 align:start position:0%
+select policy or insert policy or update
+ 
+
+00:08:22.320 --> 00:08:23.430 align:start position:0%
+select policy or insert policy or update
+policy,
+
+00:08:23.430 --> 00:08:23.440 align:start position:0%
+policy,
+ 
+
+00:08:23.440 --> 00:08:25.630 align:start position:0%
+policy,
+understanding<00:08:24.000><c> that</c><00:08:24.720><c> uh</c><00:08:24.800><c> what</c><00:08:25.000><c> you</c><00:08:25.240><c> want</c><00:08:25.520><c> to</c>
+
+00:08:25.630 --> 00:08:25.640 align:start position:0%
+understanding that uh what you want to
+ 
+
+00:08:25.640 --> 00:08:29.030 align:start position:0%
+understanding that uh what you want to
+do<00:08:25.880><c> is</c><00:08:26.080><c> limit</c><00:08:26.480><c> the</c><00:08:26.760><c> insert</c><00:08:27.800><c> for</c><00:08:27.960><c> user,</c><00:08:28.520><c> whereas</c>
+
+00:08:29.030 --> 00:08:29.040 align:start position:0%
+do is limit the insert for user, whereas
+ 
+
+00:08:29.040 --> 00:08:30.750 align:start position:0%
+do is limit the insert for user, whereas
+if<00:08:29.280><c> you're</c><00:08:29.480><c> creating</c><00:08:29.840><c> a</c><00:08:29.920><c> select</c><00:08:30.240><c> policy,</c>
+
+00:08:30.750 --> 00:08:30.760 align:start position:0%
+if you're creating a select policy,
+ 
+
+00:08:30.760 --> 00:08:34.149 align:start position:0%
+if you're creating a select policy,
+you're<00:08:30.960><c> limiting</c><00:08:31.400><c> the</c><00:08:31.640><c> select</c><00:08:32.080><c> ability</c><00:08:33.080><c> um</c><00:08:33.919><c> of</c>
+
+00:08:34.149 --> 00:08:34.159 align:start position:0%
+you're limiting the select ability um of
+ 
+
+00:08:34.159 --> 00:08:36.589 align:start position:0%
+you're limiting the select ability um of
+the<00:08:34.599><c> of</c><00:08:34.719><c> the</c><00:08:34.800><c> data</c><00:08:35.240><c> of</c><00:08:35.360><c> the</c><00:08:35.479><c> table.</c>
+
+00:08:36.589 --> 00:08:36.599 align:start position:0%
+the of the data of the table.
+ 
+
+00:08:36.599 --> 00:08:37.950 align:start position:0%
+the of the data of the table.
+But,<00:08:36.719><c> with</c><00:08:36.880><c> that</c><00:08:37.080><c> in</c><00:08:37.200><c> mind,</c><00:08:37.440><c> let's</c><00:08:37.640><c> look</c><00:08:37.800><c> at</c>
+
+00:08:37.950 --> 00:08:37.960 align:start position:0%
+But, with that in mind, let's look at
+ 
+
+00:08:37.960 --> 00:08:40.190 align:start position:0%
+But, with that in mind, let's look at
+some<00:08:38.320><c> typically</c><00:08:38.840><c> used</c><00:08:39.400><c> row-level</c><00:08:39.840><c> security</c>
+
+00:08:40.190 --> 00:08:40.200 align:start position:0%
+some typically used row-level security
+ 
+
+00:08:40.200 --> 00:08:43.670 align:start position:0%
+some typically used row-level security
+policy<00:08:40.560><c> examples.</c><00:08:41.960><c> For</c><00:08:42.120><c> a</c><00:08:42.240><c> basic</c><00:08:42.680><c> use</c><00:08:42.880><c> case,</c><00:08:43.440><c> I</c>
+
+00:08:43.670 --> 00:08:43.680 align:start position:0%
+policy examples. For a basic use case, I
+ 
+
+00:08:43.680 --> 00:08:46.590 align:start position:0%
+policy examples. For a basic use case, I
+think<00:08:44.039><c> there</c><00:08:44.280><c> are</c><00:08:44.440><c> three</c><00:08:45.120><c> example</c><00:08:45.960><c> policies</c>
+
+00:08:46.590 --> 00:08:46.600 align:start position:0%
+think there are three example policies
+ 
+
+00:08:46.600 --> 00:08:48.390 align:start position:0%
+think there are three example policies
+that<00:08:46.720><c> we</c><00:08:46.840><c> could</c><00:08:47.000><c> talk</c><00:08:47.280><c> about.</c><00:08:47.880><c> The</c><00:08:48.000><c> first</c><00:08:48.240><c> one</c>
+
+00:08:48.390 --> 00:08:48.400 align:start position:0%
+that we could talk about. The first one
+ 
+
+00:08:48.400 --> 00:08:51.990 align:start position:0%
+that we could talk about. The first one
+is<00:08:49.280><c> just</c><00:08:49.720><c> true.</c><00:08:50.360><c> This</c><00:08:51.080><c> should</c><00:08:51.600><c> pretty</c><00:08:51.800><c> much</c>
+
+00:08:51.990 --> 00:08:52.000 align:start position:0%
+is just true. This should pretty much
+ 
+
+00:08:52.000 --> 00:08:55.190 align:start position:0%
+is just true. This should pretty much
+only<00:08:52.280><c> be</c><00:08:52.440><c> used</c><00:08:52.920><c> for</c><00:08:53.160><c> a</c><00:08:53.200><c> select</c><00:08:53.520><c> statement,</c><00:08:54.640><c> but</c>
+
+00:08:55.190 --> 00:08:55.200 align:start position:0%
+only be used for a select statement, but
+ 
+
+00:08:55.200 --> 00:08:58.150 align:start position:0%
+only be used for a select statement, but
+it's<00:08:55.480><c> used</c><00:08:55.840><c> when</c><00:08:56.480><c> your</c><00:08:56.880><c> data</c><00:08:57.200><c> can</c><00:08:57.600><c> be</c><00:08:57.800><c> just</c>
+
+00:08:58.150 --> 00:08:58.160 align:start position:0%
+it's used when your data can be just
+ 
+
+00:08:58.160 --> 00:09:00.350 align:start position:0%
+it's used when your data can be just
+publicly<00:08:58.640><c> available</c><00:08:59.160><c> and</c><00:08:59.360><c> can</c><00:08:59.600><c> be</c><00:08:59.760><c> viewed</c><00:09:00.080><c> by</c>
+
+00:09:00.350 --> 00:09:00.360 align:start position:0%
+publicly available and can be viewed by
+ 
+
+00:09:00.360 --> 00:09:01.550 align:start position:0%
+publicly available and can be viewed by
+anybody.
+
+00:09:01.550 --> 00:09:01.560 align:start position:0%
+anybody.
+ 
+
+00:09:01.560 --> 00:09:03.910 align:start position:0%
+anybody.
+And<00:09:01.640><c> the</c><00:09:01.720><c> second</c><00:09:02.000><c> example</c><00:09:02.520><c> is</c><00:09:03.120><c> comparing</c><00:09:03.640><c> the</c>
+
+00:09:03.910 --> 00:09:03.920 align:start position:0%
+And the second example is comparing the
+ 
+
+00:09:03.920 --> 00:09:07.310 align:start position:0%
+And the second example is comparing the
+auth.uid<00:09:05.200><c> against</c><00:09:05.680><c> the</c><00:09:05.760><c> existing</c><00:09:06.560><c> user</c><00:09:07.040><c> ID</c>
+
+00:09:07.310 --> 00:09:07.320 align:start position:0%
+auth.uid against the existing user ID
+ 
+
+00:09:07.320 --> 00:09:10.030 align:start position:0%
+auth.uid against the existing user ID
+column.<00:09:08.240><c> So,</c><00:09:08.480><c> if</c><00:09:08.680><c> you</c><00:09:08.800><c> have</c><00:09:09.040><c> a</c><00:09:09.120><c> user</c><00:09:09.480><c> ID</c><00:09:09.720><c> column</c>
+
+00:09:10.030 --> 00:09:10.040 align:start position:0%
+column. So, if you have a user ID column
+ 
+
+00:09:10.040 --> 00:09:11.350 align:start position:0%
+column. So, if you have a user ID column
+in<00:09:10.120><c> your</c><00:09:10.240><c> table,</c>
+
+00:09:11.350 --> 00:09:11.360 align:start position:0%
+in your table,
+ 
+
+00:09:11.360 --> 00:09:12.910 align:start position:0%
+in your table,
+and<00:09:11.480><c> you</c><00:09:11.560><c> want</c><00:09:11.720><c> to</c><00:09:11.760><c> make</c><00:09:11.960><c> sure</c><00:09:12.200><c> that</c><00:09:12.560><c> only</c><00:09:12.800><c> the</c>
+
+00:09:12.910 --> 00:09:12.920 align:start position:0%
+and you want to make sure that only the
+ 
+
+00:09:12.920 --> 00:09:14.550 align:start position:0%
+and you want to make sure that only the
+owner<00:09:13.200><c> of</c><00:09:13.280><c> those</c><00:09:13.520><c> columns</c><00:09:13.960><c> can</c><00:09:14.240><c> view</c><00:09:14.440><c> the</c>
+
+00:09:14.550 --> 00:09:14.560 align:start position:0%
+owner of those columns can view the
+ 
+
+00:09:14.560 --> 00:09:15.710 align:start position:0%
+owner of those columns can view the
+data,
+
+00:09:15.710 --> 00:09:15.720 align:start position:0%
+data,
+ 
+
+00:09:15.720 --> 00:09:17.870 align:start position:0%
+data,
+then<00:09:16.120><c> you</c><00:09:16.240><c> can</c><00:09:16.440><c> set</c><00:09:16.760><c> a</c><00:09:16.840><c> policy</c><00:09:17.200><c> like</c><00:09:17.400><c> this.</c><00:09:17.720><c> Of</c>
+
+00:09:17.870 --> 00:09:17.880 align:start position:0%
+then you can set a policy like this. Of
+ 
+
+00:09:17.880 --> 00:09:19.670 align:start position:0%
+then you can set a policy like this. Of
+course,<00:09:18.120><c> you</c><00:09:18.240><c> can</c><00:09:18.440><c> change</c><00:09:18.920><c> this</c><00:09:19.080><c> policy</c><00:09:19.520><c> from</c>
+
+00:09:19.670 --> 00:09:19.680 align:start position:0%
+course, you can change this policy from
+ 
+
+00:09:19.680 --> 00:09:21.950 align:start position:0%
+course, you can change this policy from
+a<00:09:19.760><c> select</c><00:09:20.240><c> policy</c><00:09:20.720><c> to</c><00:09:20.880><c> insert</c><00:09:21.320><c> or</c><00:09:21.440><c> update</c><00:09:21.840><c> or</c>
+
+00:09:21.950 --> 00:09:21.960 align:start position:0%
+a select policy to insert or update or
+ 
+
+00:09:21.960 --> 00:09:24.670 align:start position:0%
+a select policy to insert or update or
+delete<00:09:22.320><c> policy</c><00:09:23.360><c> to</c><00:09:23.480><c> enforce</c><00:09:23.840><c> the</c><00:09:23.920><c> same</c><00:09:24.160><c> thing</c>
+
+00:09:24.670 --> 00:09:24.680 align:start position:0%
+delete policy to enforce the same thing
+ 
+
+00:09:24.680 --> 00:09:27.790 align:start position:0%
+delete policy to enforce the same thing
+against<00:09:25.120><c> various</c><00:09:25.480><c> actions.</c>
+
+00:09:27.790 --> 00:09:27.800 align:start position:0%
+against various actions.
+ 
+
+00:09:27.800 --> 00:09:31.030 align:start position:0%
+against various actions.
+Now,<00:09:28.080><c> the</c><00:09:28.200><c> third</c><00:09:28.600><c> example</c><00:09:29.400><c> is</c><00:09:29.760><c> this</c><00:09:30.440><c> um</c>
+
+00:09:31.030 --> 00:09:31.040 align:start position:0%
+Now, the third example is this um
+ 
+
+00:09:31.040 --> 00:09:34.630 align:start position:0%
+Now, the third example is this um
+group<00:09:31.440><c> ID,</c><00:09:31.880><c> team</c><00:09:32.280><c> ID,</c><00:09:32.640><c> company</c><00:09:33.160><c> ID</c><00:09:33.440><c> type</c><00:09:33.840><c> of</c>
+
+00:09:34.630 --> 00:09:34.640 align:start position:0%
+group ID, team ID, company ID type of
+ 
+
+00:09:34.640 --> 00:09:38.270 align:start position:0%
+group ID, team ID, company ID type of
+format,<00:09:35.320><c> where</c><00:09:36.200><c> a</c><00:09:36.360><c> group</c><00:09:36.760><c> of</c><00:09:36.920><c> people</c><00:09:37.800><c> is</c>
+
+00:09:38.270 --> 00:09:38.280 align:start position:0%
+format, where a group of people is
+ 
+
+00:09:38.280 --> 00:09:40.790 align:start position:0%
+format, where a group of people is
+allowed<00:09:38.840><c> to</c><00:09:39.360><c> take</c><00:09:39.600><c> an</c><00:09:39.760><c> action</c><00:09:40.280><c> against</c><00:09:40.720><c> the</c>
+
+00:09:40.790 --> 00:09:40.800 align:start position:0%
+allowed to take an action against the
+ 
+
+00:09:40.800 --> 00:09:42.230 align:start position:0%
+allowed to take an action against the
+database.
+
+00:09:42.230 --> 00:09:42.240 align:start position:0%
+database.
+ 
+
+00:09:42.240 --> 00:09:44.830 align:start position:0%
+database.
+In<00:09:42.400><c> this</c><00:09:42.600><c> setup,</c><00:09:43.160><c> we</c><00:09:43.360><c> need</c><00:09:43.880><c> three</c><00:09:44.200><c> tables.</c><00:09:44.680><c> We</c>
+
+00:09:44.830 --> 00:09:44.840 align:start position:0%
+In this setup, we need three tables. We
+ 
+
+00:09:44.840 --> 00:09:47.590 align:start position:0%
+In this setup, we need three tables. We
+have<00:09:45.080><c> a</c><00:09:45.200><c> post</c><00:09:45.680><c> table,</c><00:09:46.240><c> and</c><00:09:46.360><c> this</c><00:09:46.560><c> post</c><00:09:46.880><c> table</c>
+
+00:09:47.590 --> 00:09:47.600 align:start position:0%
+have a post table, and this post table
+ 
+
+00:09:47.600 --> 00:09:50.710 align:start position:0%
+have a post table, and this post table
+has<00:09:47.920><c> a</c><00:09:48.040><c> team</c><00:09:48.760><c> ID</c><00:09:49.240><c> column.</c><00:09:50.120><c> And</c><00:09:50.240><c> let's</c><00:09:50.400><c> say</c><00:09:50.560><c> we</c>
+
+00:09:50.710 --> 00:09:50.720 align:start position:0%
+has a team ID column. And let's say we
+ 
+
+00:09:50.720 --> 00:09:53.190 align:start position:0%
+has a team ID column. And let's say we
+have<00:09:50.880><c> this</c><00:09:51.080><c> team</c><00:09:51.400><c> situation,</c><00:09:52.040><c> and</c><00:09:52.360><c> those</c><00:09:52.720><c> team</c>
+
+00:09:53.190 --> 00:09:53.200 align:start position:0%
+have this team situation, and those team
+ 
+
+00:09:53.200 --> 00:09:56.310 align:start position:0%
+have this team situation, and those team
+can<00:09:53.480><c> view</c><00:09:53.680><c> their</c><00:09:53.840><c> own</c><00:09:54.000><c> data.</c><00:09:54.720><c> Now,</c><00:09:55.200><c> we</c><00:09:55.440><c> need</c><00:09:55.960><c> a</c>
+
+00:09:56.310 --> 00:09:56.320 align:start position:0%
+can view their own data. Now, we need a
+ 
+
+00:09:56.320 --> 00:09:59.070 align:start position:0%
+can view their own data. Now, we need a
+teams<00:09:56.880><c> table.</c><00:09:57.680><c> This</c><00:09:57.880><c> teams</c><00:09:58.200><c> table</c><00:09:58.640><c> basically</c>
+
+00:09:59.070 --> 00:09:59.080 align:start position:0%
+teams table. This teams table basically
+ 
+
+00:09:59.080 --> 00:10:01.190 align:start position:0%
+teams table. This teams table basically
+holds<00:09:59.400><c> the</c><00:09:59.480><c> information</c><00:09:59.920><c> about</c><00:10:00.680><c> what</c><00:10:00.880><c> teams</c>
+
+00:10:01.190 --> 00:10:01.200 align:start position:0%
+holds the information about what teams
+ 
+
+00:10:01.200 --> 00:10:03.470 align:start position:0%
+holds the information about what teams
+they<00:10:01.360><c> are.</c><00:10:01.600><c> We</c><00:10:01.800><c> have</c><00:10:02.080><c> a</c><00:10:02.160><c> fire,</c><00:10:02.760><c> water,</c><00:10:03.200><c> and</c>
+
+00:10:03.470 --> 00:10:03.480 align:start position:0%
+they are. We have a fire, water, and
+ 
+
+00:10:03.480 --> 00:10:06.710 align:start position:0%
+they are. We have a fire, water, and
+leaf<00:10:04.160><c> team</c><00:10:04.800><c> with</c><00:10:05.360><c> uh</c><00:10:05.440><c> their</c><00:10:05.680><c> ID.</c>
+
+00:10:06.710 --> 00:10:06.720 align:start position:0%
+leaf team with uh their ID.
+ 
+
+00:10:06.720 --> 00:10:10.030 align:start position:0%
+leaf team with uh their ID.
+And<00:10:06.760><c> then</c><00:10:06.880><c> we</c><00:10:07.080><c> have</c><00:10:07.600><c> a</c><00:10:07.800><c> team</c><00:10:08.680><c> user</c><00:10:09.120><c> table.</c><00:10:09.880><c> So,</c>
+
+00:10:10.030 --> 00:10:10.040 align:start position:0%
+And then we have a team user table. So,
+ 
+
+00:10:10.040 --> 00:10:13.110 align:start position:0%
+And then we have a team user table. So,
+this<00:10:10.240><c> table</c><00:10:10.680><c> holds</c><00:10:11.240><c> information</c><00:10:11.880><c> of</c><00:10:12.640><c> what</c>
+
+00:10:13.110 --> 00:10:13.120 align:start position:0%
+this table holds information of what
+ 
+
+00:10:13.120 --> 00:10:16.710 align:start position:0%
+this table holds information of what
+user<00:10:13.760><c> is</c><00:10:14.680><c> a</c><00:10:14.760><c> part</c><00:10:15.040><c> of</c><00:10:15.160><c> what</c><00:10:15.440><c> team.</c><00:10:16.360><c> Let's</c><00:10:16.560><c> say</c>
+
+00:10:16.710 --> 00:10:16.720 align:start position:0%
+user is a part of what team. Let's say
+ 
+
+00:10:16.720 --> 00:10:20.110 align:start position:0%
+user is a part of what team. Let's say
+my<00:10:16.880><c> user</c><00:10:17.200><c> ID</c><00:10:17.440><c> is</c><00:10:17.840><c> this</c><00:10:18.080><c> 96021.</c>
+
+00:10:20.110 --> 00:10:20.120 align:start position:0%
+my user ID is this 96021.
+ 
+
+00:10:20.120 --> 00:10:23.590 align:start position:0%
+my user ID is this 96021.
+Then<00:10:20.320><c> you</c><00:10:20.440><c> can</c><00:10:20.640><c> say</c><00:10:21.000><c> that</c><00:10:21.800><c> I</c><00:10:22.120><c> am</c><00:10:22.360><c> part</c><00:10:22.720><c> of</c><00:10:23.200><c> team</c>
+
+00:10:23.590 --> 00:10:23.600 align:start position:0%
+Then you can say that I am part of team
+ 
+
+00:10:23.600 --> 00:10:25.750 align:start position:0%
+Then you can say that I am part of team
+one.<00:10:24.400><c> And</c><00:10:24.560><c> if</c><00:10:24.720><c> you</c><00:10:24.800><c> remember</c><00:10:25.160><c> what</c><00:10:25.320><c> team</c><00:10:25.600><c> one</c>
+
+00:10:25.750 --> 00:10:25.760 align:start position:0%
+one. And if you remember what team one
+ 
+
+00:10:25.760 --> 00:10:28.830 align:start position:0%
+one. And if you remember what team one
+was,<00:10:26.520><c> team</c><00:10:26.880><c> one</c><00:10:27.080><c> is</c><00:10:27.400><c> the</c><00:10:27.520><c> fire</c><00:10:27.800><c> team.</c>
+
+00:10:28.830 --> 00:10:28.840 align:start position:0%
+was, team one is the fire team.
+ 
+
+00:10:28.840 --> 00:10:31.350 align:start position:0%
+was, team one is the fire team.
+Because<00:10:29.160><c> I'm</c><00:10:29.520><c> part</c><00:10:29.760><c> of</c><00:10:29.880><c> team</c><00:10:30.200><c> one,</c><00:10:30.880><c> I</c><00:10:31.000><c> can</c><00:10:31.160><c> view</c>
+
+00:10:31.350 --> 00:10:31.360 align:start position:0%
+Because I'm part of team one, I can view
+ 
+
+00:10:31.360 --> 00:10:33.950 align:start position:0%
+Because I'm part of team one, I can view
+the<00:10:31.480><c> post</c><00:10:31.920><c> that</c><00:10:32.080><c> are</c><00:10:32.160><c> assigned</c><00:10:32.520><c> to</c><00:10:32.640><c> team</c><00:10:33.000><c> one.</c>
+
+00:10:33.950 --> 00:10:33.960 align:start position:0%
+the post that are assigned to team one.
+ 
+
+00:10:33.960 --> 00:10:36.150 align:start position:0%
+the post that are assigned to team one.
+And<00:10:34.120><c> one</c><00:10:34.320><c> thing</c><00:10:34.520><c> I</c><00:10:34.600><c> want</c><00:10:34.760><c> to</c><00:10:34.800><c> note</c><00:10:35.160><c> is</c><00:10:35.800><c> although</c>
+
+00:10:36.150 --> 00:10:36.160 align:start position:0%
+And one thing I want to note is although
+ 
+
+00:10:36.160 --> 00:10:39.030 align:start position:0%
+And one thing I want to note is although
+row-level<00:10:36.600><c> security</c><00:10:36.960><c> policies</c><00:10:37.640><c> do</c><00:10:38.040><c> act</c><00:10:38.600><c> as</c>
+
+00:10:39.030 --> 00:10:39.040 align:start position:0%
+row-level security policies do act as
+ 
+
+00:10:39.040 --> 00:10:42.030 align:start position:0%
+row-level security policies do act as
+filters,<00:10:40.160><c> ideally,</c><00:10:41.000><c> you</c><00:10:41.200><c> want</c><00:10:41.440><c> to</c><00:10:41.600><c> add</c><00:10:41.920><c> the</c>
+
+00:10:42.030 --> 00:10:42.040 align:start position:0%
+filters, ideally, you want to add the
+ 
+
+00:10:42.040 --> 00:10:44.030 align:start position:0%
+filters, ideally, you want to add the
+filter<00:10:42.800><c> that</c><00:10:43.160><c> the</c><00:10:43.280><c> row-level</c><00:10:43.680><c> security</c>
+
+00:10:44.030 --> 00:10:44.040 align:start position:0%
+filter that the row-level security
+ 
+
+00:10:44.040 --> 00:10:46.750 align:start position:0%
+filter that the row-level security
+policy<00:10:44.560><c> will</c><00:10:44.840><c> enforce</c><00:10:45.520><c> anyway.</c><00:10:46.280><c> So,</c><00:10:46.520><c> in</c><00:10:46.680><c> an</c>
+
+00:10:46.750 --> 00:10:46.760 align:start position:0%
+policy will enforce anyway. So, in an
+ 
+
+00:10:46.760 --> 00:10:48.950 align:start position:0%
+policy will enforce anyway. So, in an
+example<00:10:47.200><c> like</c><00:10:47.400><c> this,</c><00:10:47.960><c> you</c><00:10:48.120><c> want</c><00:10:48.360><c> to</c><00:10:48.440><c> append</c><00:10:48.800><c> a</c>
+
+00:10:48.950 --> 00:10:48.960 align:start position:0%
+example like this, you want to append a
+ 
+
+00:10:48.960 --> 00:10:51.550 align:start position:0%
+example like this, you want to append a
+EQ<00:10:49.360><c> filter</c><00:10:49.840><c> restricting</c><00:10:50.440><c> the</c><00:10:50.560><c> team</c><00:10:50.880><c> ID</c><00:10:51.160><c> to</c><00:10:51.360><c> be</c>
+
+00:10:51.550 --> 00:10:51.560 align:start position:0%
+EQ filter restricting the team ID to be
+ 
+
+00:10:51.560 --> 00:10:52.630 align:start position:0%
+EQ filter restricting the team ID to be
+one.
+
+00:10:52.630 --> 00:10:52.640 align:start position:0%
+one.
+ 
+
+00:10:52.640 --> 00:10:54.350 align:start position:0%
+one.
+This<00:10:52.760><c> makes</c><00:10:53.000><c> Postgres</c><00:10:53.440><c> more</c><00:10:53.600><c> efficient,</c><00:10:54.200><c> and</c>
+
+00:10:54.350 --> 00:10:54.360 align:start position:0%
+This makes Postgres more efficient, and
+ 
+
+00:10:54.360 --> 00:10:56.630 align:start position:0%
+This makes Postgres more efficient, and
+you<00:10:54.480><c> get</c><00:10:54.800><c> a</c><00:10:54.920><c> free</c><00:10:55.200><c> performance</c><00:10:55.680><c> boost.</c><00:10:56.360><c> And</c>
+
+00:10:56.630 --> 00:10:56.640 align:start position:0%
+you get a free performance boost. And
+ 
+
+00:10:56.640 --> 00:10:57.990 align:start position:0%
+you get a free performance boost. And
+that's<00:10:56.960><c> how</c><00:10:57.080><c> you</c><00:10:57.200><c> can</c><00:10:57.320><c> get</c><00:10:57.520><c> started</c><00:10:57.840><c> with</c>
+
+00:10:57.990 --> 00:10:58.000 align:start position:0%
+that's how you can get started with
+ 
+
+00:10:58.000 --> 00:10:59.630 align:start position:0%
+that's how you can get started with
+Supabase<00:10:58.560><c> auth.</c><00:10:59.080><c> Let</c><00:10:59.240><c> me</c><00:10:59.320><c> know</c><00:10:59.440><c> in</c><00:10:59.520><c> the</c>
+
+00:10:59.630 --> 00:10:59.640 align:start position:0%
+Supabase auth. Let me know in the
+ 
+
+00:10:59.640 --> 00:11:01.829 align:start position:0%
+Supabase auth. Let me know in the
+comments<00:11:00.320><c> which</c><00:11:00.680><c> Supabase</c><00:11:01.160><c> product</c><00:11:01.520><c> I</c><00:11:01.600><c> should</c>
+
+00:11:01.829 --> 00:11:01.839 align:start position:0%
+comments which Supabase product I should
+ 
+
+00:11:01.839 --> 00:11:03.790 align:start position:0%
+comments which Supabase product I should
+cover<00:11:02.120><c> next</c><00:11:02.560><c> in</c><00:11:02.839><c> the</c><00:11:02.960><c> upcoming</c><00:11:03.520><c> getting</c>
+
+00:11:03.790 --> 00:11:03.800 align:start position:0%
+cover next in the upcoming getting
+ 
+
+00:11:03.800 --> 00:11:07.440 align:start position:0%
+cover next in the upcoming getting
+started<00:11:04.120><c> with</c><00:11:04.320><c> Supabase</c><00:11:04.800><c> series.</c>
+

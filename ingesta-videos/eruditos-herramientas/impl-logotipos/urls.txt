@@ -1,0 +1,11 @@
+favicon-evilmartians|https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
+pwa-manifest-webdev|https://web.dev/articles/add-manifest
+maskable-icon-webdev|https://web.dev/articles/maskable-icon
+apple-hig-appicons|https://developer.apple.com/design/human-interface-guidelines/app-icons
+android-adaptive-icons|https://developer.android.com/develop/ui/views/launch/icon_design_adaptive
+clear-space-minsize|https://kokolv.medium.com/how-to-design-clear-space-for-a-logo-291359020819
+vectorizar-logo|https://vectosolve.com/blog/how-to-vectorize-logo-step-by-step
+entrega-formatos-brandkit|https://looka.com/blog/logo-file-formats/
+mockups-aplicacion|https://phlearn.com/tutorial/replace-sign-for-mockups-photoshop/
+lockups-variantes|https://www.akrivi.studio/learn/what-is-a-logo-lockup
+vi-manual-zh|https://www.secaiyun.com/docs/logo-design-brand-vi-guide-2026-05-10.html

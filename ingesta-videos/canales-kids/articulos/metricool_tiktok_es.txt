@@ -1,0 +1,351 @@
+URL_FUENTE: https://metricool.com/es/algoritmo-tiktok/
+Cómo Funciona el Algoritmo de TikTok en 2026
+[NUEVO] Qué Funciona en Instagram en 2026: Formatos, Estrategia y Datos  ➔
+Producto
+Reporting
+Metricool Studio
+Campaign Dashboard
+Informes
+Looker Studio
+Hashtag Tracker
+Planificación y ejecución
+Planificador
+Sistema de Aprobación
+SmartLinks
+Asistente de Inteligencia Artificial
+Inbox
+Analítica y crecimiento
+Analítica
+Competidores
+Anuncios
+Integraciones
+Nuevas funcionalidades
+MCP Metricool
+Redes sociales
+Instagram
+TikTok
+YouTube
+Threads
+Twitter
+Twitch
+Google Perfil de Empresa
+Bluesky
+Facebook
+Pinterest
+LinkedIn
+Precios
+Agencias
+Metrischool
+Cursos
+Certificación
+Social Summer School
+Social Media School
+TikTokSchool
+InstaSchool
+Curso LinkedIn Growth
+MetriLAB AI
+Recursos
+Tutoriales
+Recursos
+Estudios
+Masterclass
+Noticias
+Blog
+Newsletter
+en es fr it nl
+Entra
+Regístrate
+Regístrate
+Blog
+Guía
+Guías de marketing
+Guías de publicidad
+Social Media Marketing
+Instagram
+TikTok
+YouTube
+Threads
+Twitter
+Twitch
+Google Business Profile
+Bluesky
+Facebook
+Pinterest
+LinkedIn
+Categorías
+Analítica digital
+Marketing de Influencers
+Marketing de contenidos
+IA en Marketing
+Publicidad Online
+Estudios
+Noticias
+Regístrate
+Home / Algoritmo de TikTok en 2026: ¿Cómo Funciona?
+Algoritmo de TikTok en 2026: ¿Cómo Funciona?
+Sara Martín
+10 julio 2026
+TikTok
+Toggle
+Qué es el Algoritmo de TikTok
+Cómo Funciona el Algoritmo de TikTok
+Principales Factores de Clasificación del Algoritmo de TikTok en 2026
+Cómo Personalizar tu Página Para Ti
+Consejos Para Ganar Visibilidad con el Algoritmo de TikTok
+¿Se Puede Reiniciar el Algoritmo de TikTok?
+Conseguir visibilidad en TikTok no va de trucos secretos. Va de entender cómo funciona su algoritmo y qué señales tiene en cuenta para mostrar un vídeo.
+En este artículo te explicamos cómo funciona el algoritmo de TikTok y cómo aprovecharlo para mejorar el alcance de tu contenido.
+Qué es el Algoritmo de TikTok
+El algoritmo de TikTok es un sistema avanzado de inteligencia artificial que personaliza la experiencia del usuario en la plataforma .
+Su sistema de recomendación selecciona y muestra contenido en la página Para ti de cada usuario, creando un feed único y personalizado. Para conseguirlo, tiene en cuenta estas señales:
+Interacciones del usuario con la app (videos que le gustan, comentarios, búsquedas).
+Información del video (descripciones, hashtags).
+Detalles técnicos del dispositivo y red del usuario.
+El objetivo del algoritmo de TikTok es ofrecer el contenido que cree que más puede interesar a cada usuario en concreto​.
+Cómo Funciona el Algoritmo de TikTok
+El algoritmo de TikTok es el encargado de decidir qué vídeos aparecen en el feed Para ti de cada persona. Y no, no muestra lo mismo a todo el mundo.
+Cuando entras en TikTok, no ves los vídeos por orden ni al azar. Ves contenido que la plataforma cree que puede encajarte, basándose en cómo usas la app.
+TikTok se fija en señales muy concretas: qué vídeos ves hasta el final, cuáles vuelves a ver, con qué contenidos interactúas y cuáles pasas sin prestarles atención. Y con esa información, el algoritmo va ajustando poco a poco qué tipo de vídeos te muestra.
+De hecho, para despejar las dudas, TikTok decidió hacer pública la clasificación de contenido que utilizan para la sección Para ti y qué criterios utiliza.
+Además, según el Estudio de TikTok 2026 de Metricool, el 73% de las visualizaciones de una publicación llega desde la página Para ti . Es decir, TikTok sigue siendo una plataforma dominada por la recomendación algorítmica.
+Fuente: Estudio de TikTok 2026 de Metricool
+Principales Factores de Clasificación del Algoritmo de TikTok en 2026
+Te explicamos de manera sencilla a qué aspectos les da importancia, por orden de prioridad:
+✅ Interacción del usuario
+Es el factor que más peso tiene. TikTok se fija en cómo interactúas dentro de la app y usa esas señales para decidir qué vídeos mostrarte en el Para ti.
+Estos son los aspectos que tiene en cuenta:
+Los contenidos a los que das like.
+Los contenidos que compartes.
+Los comentarios.
+Los contenidos que ves hasta el final o prefieres omitir.
+Las cuentas que sigues.
+El contenido que creas.
+Por eso, cuando interactúas varias veces con una cuenta o ves sus vídeos completos, es habitual que su contenido empiece a aparecerte con más frecuencia en el feed.
+Y aquí está la clave: cuanto más tiempo consigues retener a quien te ve, más opciones tiene tu vídeo de ganar visibilidad. Cada señal positiva suma y hace que TikTok siga mostrándolo a nuevas personas.
+✅ Información del contenido
+El algoritmo también analiza el propio contenido del vídeo para entender de qué trata y a quién puede interesarle.
+Aquí, se fija en elementos como:
+La descripción y los subtítulos.
+Los hashtags.
+El sonido o la música utilizada.
+El texto en pantalla.
+El número de visualizaciones.
+El país en el que se ha publicado.
+Por eso, cuando interactúas con un tipo de contenido o buscas un tema concreto, empiezan a aparecerte vídeos similares en el feed Para ti . Y es que TikTok detecta patrones y conecta los contenidos con los intereses del usuario.
+✅ Configuración del dispositivo y de la cuenta
+Este grupo de señales tiene menos peso, pero también influye:
+La preferencia del idioma.
+La configuración de país.
+El tipo de dispositivo.
+Ajustes del dispositivo.
+La ubicación.
+La zona horaria.
+Todo esto explica por qué el tamaño de la cuenta no es lo más importante.
+Aunque tener seguidores puede ayudar en el arranque, TikTok ha dejado claro que no es un factor directo del algoritmo. Lo que marca la diferencia es cómo reaccionan las personas que ven el vídeo: si se quedan, interactúan o pasan de largo.
+Un escenario más saturado en TikTok
+TikTok sigue siendo una de las plataformas con más potencial, pero en 2026 el contexto es más competitivo.
+Según el estudio de Metricool:
+El volumen de contenido creció casi un 80%.
+Las visualizaciones medias bajaron un 31%.
+El alcance cayó un 29%.
+Las interacciones descendieron un 31%.
+Los comentarios bajaron un 45%.
+Los compartidos cayeron un 30%.
+Fuente: Estudio de TikTok 2026 de Metricool
+Esto no significa que TikTok haya dejado de funcionar. Significa que ahora hay más contenido compitiendo por la misma atención.
+La buena noticia es que TikTok sigue ofreciendo mejores oportunidades de crecimiento que otras plataformas.
+Leer el Estudio de TikTok 2026
+Cómo Personalizar tu Página Para Ti
+La página Para ti no es aleatoria. TikTok la construye en función de tus intereses y de cómo usas la app, así que sí puedes influir en los vídeos que te aparecen.
+#1. Elige tus intereses
+Cuando creas tu cuenta, TikTok te pide que selecciones las temáticas que más te interesan. Esa primera elección sirve como punto de partida para mostrarte contenido relacionado con esos temas.
+A partir de ahí, el feed irá ajustándose con el tiempo según tu comportamiento.
+#2. Personaliza con tus acciones
+El algoritmo aprende con cada acción que haces en la app.
+Los vídeos que ves hasta el final, los que compartes, los likes que das o las cuentas con las que interactúas influyen directamente en cómo se va formando tu Para ti.
+Aunque TikTok también introduce contenido nuevo para probar intereses distintos, la mayor parte de tu feed se construye a partir de tus interacciones.
+#3. Ajusta el algoritmo de TikTok
+Además de aprender de tus interacciones, TikTok te da cierto control sobre lo que ves.
+No puedes eliminar temas por completo, pero sí decirle a la plataforma qué tipos de contenido te interesan más (o menos), para que el feed se adapte mejor a tus gustos.
+Fuente: TikTok
+Si quieres ver paso a paso cómo hacerlo y qué impacto tiene en tu contenido y en tu visibilidad, aquí te lo explicamos:
+Cómo personalizar el algoritmo de TikTok
+Consejos Para Ganar Visibilidad con el Algoritmo de TikTok
+Prioriza la retención frente a la duración
+En TikTok no importa tanto cuánto dura un vídeo, sino cuánto tiempo se queda la gente viéndolo.
+Un vídeo corto con baja retención funcionará peor que uno más largo que se vea casi completo.
+Antes de decidir la duración, pregúntate si el contenido justifica ese tiempo y si mantiene el interés hasta el final.
+Cuida los primeros segundos
+Los primeros segundos marcan la diferencia. Ahí el usuario decide si se queda o pasa al siguiente vídeo.
+En un contexto de mayor competencia, captar la atención desde el inicio es clave para que el algoritmo siga impulsando el contenido.
+Un inicio claro, directo y sin rodeos aumenta las probabilidades de retención y, por tanto, de que el algoritmo amplíe la distribución del contenido.
+Hooks virales para vídeos cortos
+Haz que el contenido se entienda rápido
+TikTok funciona mejor cuando el usuario entiende enseguida:
+De qué va el vídeo
+Qué va a obtener si se queda hasta el final
+El texto en pantalla, los subtítulos y el contexto visual ayudan a reducir esa fricción inicial y a mantener la atención desde el primer momento.
+Los hashtags siguen importando.
+Según el Estudio de TikTok 2026 de Metricool, el tráfico desde hashtags creció un 114% respecto al año anterior. Además, las publicaciones que incluyen hashtags consiguen casi un 5% más de visualizaciones y casi un 10% más de interacciones .
+Pero no se trata de llenar la descripción de etiquetas. Lo ideal es usar 1 o 2 hashtags específicos , y no más de 5.
+Evita etiquetas genéricas como #fyp o #viral si no aportan contexto real. Mejor usar hashtags que ayuden a TikTok a entender de qué trata tu contenido.
+Haz preguntas para generar comentarios
+Las preguntas funcionan especialmente bien para activar la conversación.
+Según el estudio, las publicaciones que incluyen una pregunta consiguen un 26% más de comentarios que aquellas que no la incluyen.
+No es lo mismo cerrar un vídeo con “dale like” que con una pregunta concreta.
+❌ Mal:  “Dale like si te ha gustado.”
+✅ Mejor:  “¿Te ha pasado alguna vez esto?”
+La segunda opción abre conversación.
+Cuidado con los CTA
+No todos los CTA funcionan igual. Según el estudio, los CTA que piden comentarios pueden aumentar la conversación un 14 %, mientras que pedir likes puede tener el efecto contrario (-60 %).
+Tiene sentido. Comentar hace que la persona participe. Dar like es una acción más pasiva. En TikTok, si quieres comunidad, pide opinión, no pidas favores.
+Repite lo que funciona y analiza patrones
+Si un formato, duración o temática retiene bien, no es casualidad. Repítelo.
+En un entorno donde hay más vídeos compitiendo por atención, la consistencia suele dar mejores resultados que cambiar de enfoque en cada publicación.
+Analizar el rendimiento de varios vídeos te permitirá detectar patrones y ajustar la estrategia con criterio.
+Para tomar este tipo de decisiones, consulta las estadísticas de TikTok o utiliza herramientas de análisis gratuitas como Metricool para:
+Medir el rendimiento de tus contenidos a nivel de alcance, engagement, compartidos o visualizaciones.
+Ver qué formatos mantienen mejor la retención.
+Conocer cuál es la fuente de impresión de tus vídeos.
+Crea tu cuenta gratis en Metricool
+Además, si necesitas un análisis más profundo, con las Analíticas Avanzadas de TikTok en Metricool (disponibles en los planes Advanced), puedes ir un paso más allá: acceder a un análisis detallado de los 15 primeros días de vida de tus publicaciones para entender qué está funcionando desde el principio, identificar el contenido que mejor rendimiento tiene y aplicar ese aprendizaje en tu estrategia.
+Aprovecha la ventana de los primeros 10 días
+Según el Estudio de TikTok 2026, una publicación alcanza el 96% de su alcance total y casi el 98% de sus interacciones en los primeros 10 días.
+Esto significa que la fase inicial es clave. Durante esos primeros días, TikTok prueba el contenido con distintas audiencias y decide si lo sigue amplificando.
+Por eso es importante publicar con intención desde el principio:
+Buen gancho.
+Tema claro.
+Hashtags específicos.
+Hora adecuada.
+CTA conversacional.
+Publica en las mejores horas
+La hora importa. Según el estudio, el intervalo con más visualizaciones en TikTok se sitúa entre las 18:00 y las 21:00 , siendo las 20:00 la hora de mayor actividad.
+Pero son medias globales. Lo ideal es revisar tus propias analíticas para saber cuándo está activa tu audiencia concreta. En el planificador de Metricool lo puedes comprobar.
+Súmate a tendencias y challenges
+Al igual que los hashtags, los sonidos y los challenges ayudan a dar contexto al contenido y a facilitar que TikTok lo muestre a más personas interesadas en ese tipo de vídeos.
+Cuando usas un sonido que está en tendencia, TikTok ya sabe cómo suele reaccionar la gente a ese formato. Eso puede darte un pequeño empujón al principio, sobre todo en la fase inicial de distribución.
+Eso sí, no se trata de subirse a todo lo que esté de moda. La clave está en adaptar las tendencias a tu estilo y a tu contenido.
+TikTok Trends
+Aplica SEO dentro de TikTok
+TikTok funciona como un buscador más. Esto significa que el algoritmo necesita entender de qué trata tu vídeo para saber a quién mostrárselo y cuándo recomendarlo.
+Para ponérselo fácil, es importante dejar claro el tema desde el propio contenido:
+Explica el tema principal de forma clara en el vídeo.
+Usa texto en pantalla y subtítulos que refuercen el mensaje.
+Da contexto en la descripción.
+Utiliza hashtags relacionados con el contenido.
+Cuanto más claro sea el tema del vídeo, más fácil será para TikTok relacionarlo con una búsqueda concreta o con una audiencia interesada.
+Esto no asegura visibilidad por sí solo, pero sí aumenta las opciones de que el contenido llegue a las personas adecuadas.
+Guía para hacer SEO en TikTok
+¿Se Puede Reiniciar el Algoritmo de TikTok?
+Piensa que es algo externo a ti. Y como tal, no puedes controlar al algoritmo programado por sus creadores. Lo que sí puedes hacer es influir en el tipo de contenido que te muestra cambiando tus señales dentro de la app.
+Para «resetear» o reiniciar el algoritmo de TikTok en 2026, puedes seguir estos pasos:
+Elimina el historial de comentarios, vídeos vistos y búsqueda : Desde tu perfil, entra en Ajustes y privacidad y accede al historial. Borrar estos datos ayuda a reducir el peso de contenidos que ya no te interesan.
+Sigue nuevas cuentas : Empieza a seguir perfiles con temáticas distintas. TikTok utiliza estas acciones para ajustar las recomendaciones que te muestra.
+Usa la opción “No me interesa” : Cuando aparezca un vídeo que no encaja contigo, mantenlo pulsado y selecciona No me interesa . Es una señal clara para que ese tipo de contenido aparezca con menos frecuencia.
+Ajusta el algoritmo de TikTok. Como ya hemos visto, puedes moldear tu feed con funciones como la gestión de temas o los filtros para palabras clave.
+Ahora que ya sabes cómo funciona el algoritmo de TikTok, es el momento de ponerse manos a la obra para triunfar con tu estrategia de contenidos.
+Y si quieres saber algo más sobre la red social, te dejamos este artículo:
+Guía de marketing en TikTok
+Analiza tu cuenta de TikTok con Metricool
+Métricas claras para mejorar tu alcance
+Regístrate GRATIS aquí
+¡Comparte este artículo a quien le pueda interesar!
+Despega tu cuenta de TikTok con Metricool
+Programa tus vídeos, encuentra los hashtags que hacen match con tu contenido, mide y analiza los resultados sin salir de la herramienta
+Únete GRATIS a Metricool
+Deja tu comentario
+1 comentarios
+Eduardo dice:
+12 abril, 2023 a las 2:15 am
+Necesito dar un nuevo impulso a mi cuenta de TikTok
+Carlos Bravo dice:
+12 abril, 2023 a las 8:40 am
+¡Hola Eduardo!
+Te dejamos un post que te resultará interesante para crecer y dar un impulso a tu cuenta de TikTok: https://metricool.com/es/ganar-seguidores-en-tiktok/ .
+¡Saludos!
+carlos cruz dice:
+15 diciembre, 2022 a las 5:51 am
+una pregunta cuanto tiene k pasar para q tiktok le quite toda visibilidad a una cuenta que ha tenido un par de videos con buen recibimiento?
+Carlos Bravo dice:
+15 diciembre, 2022 a las 9:12 am
+¡Hola!
+Lo sentimos pero no entendemos a qué te refieres, Carlos, ¿podrías contarnos un poco más?
+¡Saludos!
+Carolina dice:
+5 noviembre, 2021 a las 2:09 am
+Excelente aporte, muchas gracias!
+Paula dice:
+4 junio, 2022 a las 12:42 pm
+Gracias! Una pregunta: ¿te penaliza tiktok si quitas un vídeo y lo vuelves a poner a una hora de más audiencia?
+Carlos Bravo dice:
+6 junio, 2022 a las 9:26 am
+Hola Paula.
+Así es, lo mejor es dejar el video tal cual lo publicaste.
+¡Saludos!
+MARCIA dice:
+25 febrero, 2021 a las 2:09 pm
+GRACIAS
+Los comentarios están desactivados.
+Artículos relacionados
+TikTok
+Consejos para tu foto de perfil de TikTok
+Añadir una foto o video de perfil a TikTok es imprescindible para completar el perfil de tu cuenta. Aquí vas a aprender cómo añadir una, cambiarla y qué tamaño o dimensiones necesitas.
+Leer más
+TikTok
+Cómo gestionar los mensajes de TikTok
+Descubre en este post cómo gestionar los mensajes de TikTok: aprende cómo enviarlos, a quién, cómo recuperar algunos borrados. Aquí aprenderás todo lo que necesitas saber sobre los mensajes de TikTok.
+Leer más
+Instagram
+TikTok
+Instagram Reels vs. TikTok: Diferencias, Datos y Cuál Elegir
+¿Qué diferencias hay entre Reels y TikTok? A pesar de que el formato de videos cortos que ofrecen ambas aplicaciones es el mismo, hay algunas diferencias entre Instagram Reels y TikTok. Aquí te las contamos.
+Leer más
+Analítica Web
+TikTok
+Analítica de los videos de TikTok con Metricool
+Con tu perfil business tienes métricas sobre la fuente de impresiones: si vienen de para ti, de siguiendo, hashtag, sonido, perfil o búsqueda.
+Leer más
+Producto
+Mejor hora para publicar en redes sociales
+Programar Instagram
+Programar en X (Twitter)
+Programar en TikTok
+Programar en Facebook
+Programar en YouTube
+Extensión de Chrome
+Novedades
+Integraciones
+Recursos
+Metricool: Mega tutorial
+Herramientas gratis para redes sociales
+Calendario CM 2026 España
+Calendario CM 2026 México
+Marca Blanca
+Integradores
+Autolistas
+Newsletter
+Comparativa Metricool
+Estudios
+Estudio Instagram 2026
+Estudio TikTok 2026
+Estudio LinkedIn 2026
+Estudio Bienestar Social Media 2026
+Estudio Redes Sociales 2026
+Estudio IA en Redes Sociales 2025
+Estudio Social Ads 2025
+Estudio Videos Cortos 2025
+Empresa
+Contacto
+Programa de afiliados
+Opiniones
+Trabaja con nosotros
+Sobre Nosotros
+Metricool
+Metricool
+Términos y Condiciones
+Política de privacidad
+Política de cookies
+Aviso Legal
+Canal de denuncias Whistleblowing
+Send this to a friend
+Send Cancel

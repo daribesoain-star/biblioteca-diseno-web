@@ -1,0 +1,1536 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:01.550 align:start position:0%
+ 
+today<00:00:00.520><c> we're</c><00:00:00.680><c> going</c><00:00:00.760><c> to</c><00:00:00.880><c> check</c><00:00:01.000><c> out</c><00:00:01.160><c> Runway</c>
+
+00:00:01.550 --> 00:00:01.560 align:start position:0%
+today we're going to check out Runway
+ 
+
+00:00:01.560 --> 00:00:04.309 align:start position:0%
+today we're going to check out Runway
+ml's<00:00:02.360><c> camera</c><00:00:02.960><c> control</c><00:00:03.480><c> feature</c><00:00:04.000><c> and</c><00:00:04.160><c> take</c>
+
+00:00:04.309 --> 00:00:04.319 align:start position:0%
+ml's camera control feature and take
+ 
+
+00:00:04.319 --> 00:00:06.349 align:start position:0%
+ml's camera control feature and take
+more<00:00:04.560><c> control</c><00:00:05.000><c> over</c><00:00:05.240><c> our</c><00:00:05.480><c> AI</c><00:00:05.799><c> generated</c>
+
+00:00:06.349 --> 00:00:06.359 align:start position:0%
+more control over our AI generated
+ 
+
+00:00:06.359 --> 00:00:08.110 align:start position:0%
+more control over our AI generated
+videos<00:00:06.919><c> so</c><00:00:07.200><c> last</c><00:00:07.359><c> time</c><00:00:07.520><c> we</c><00:00:07.680><c> covered</c><00:00:07.960><c> the</c>
+
+00:00:08.110 --> 00:00:08.120 align:start position:0%
+videos so last time we covered the
+ 
+
+00:00:08.120 --> 00:00:10.390 align:start position:0%
+videos so last time we covered the
+basics<00:00:08.480><c> of</c><00:00:08.800><c> uh</c><00:00:08.920><c> image</c><00:00:09.200><c> to</c><00:00:09.360><c> video</c><00:00:10.040><c> but</c><00:00:10.160><c> today</c>
+
+00:00:10.390 --> 00:00:10.400 align:start position:0%
+basics of uh image to video but today
+ 
+
+00:00:10.400 --> 00:00:12.070 align:start position:0%
+basics of uh image to video but today
+we're<00:00:10.480><c> going</c><00:00:10.599><c> to</c><00:00:10.679><c> log</c><00:00:10.880><c> in</c><00:00:11.599><c> head</c><00:00:11.759><c> down</c><00:00:11.880><c> to</c>
+
+00:00:12.070 --> 00:00:12.080 align:start position:0%
+we're going to log in head down to
+ 
+
+00:00:12.080 --> 00:00:14.470 align:start position:0%
+we're going to log in head down to
+generative<00:00:13.040><c> session</c><00:00:14.040><c> and</c><00:00:14.120><c> we're</c><00:00:14.240><c> going</c><00:00:14.360><c> to</c>
+
+00:00:14.470 --> 00:00:14.480 align:start position:0%
+generative session and we're going to
+ 
+
+00:00:14.480 --> 00:00:16.550 align:start position:0%
+generative session and we're going to
+come<00:00:14.679><c> here</c><00:00:14.799><c> to</c><00:00:15.240><c> camera</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+come here to camera
+ 
+
+00:00:16.560 --> 00:00:18.750 align:start position:0%
+come here to camera
+control<00:00:17.560><c> so</c><00:00:17.720><c> what</c><00:00:17.800><c> we</c><00:00:17.920><c> need</c><00:00:18.039><c> to</c><00:00:18.119><c> do</c><00:00:18.279><c> now</c><00:00:18.439><c> is</c><00:00:18.600><c> add</c>
+
+00:00:18.750 --> 00:00:18.760 align:start position:0%
+control so what we need to do now is add
+ 
+
+00:00:18.760 --> 00:00:20.710 align:start position:0%
+control so what we need to do now is add
+an<00:00:18.960><c> image</c><00:00:19.359><c> and</c><00:00:19.600><c> basically</c><00:00:20.039><c> describe</c><00:00:20.560><c> our</c>
+
+00:00:20.710 --> 00:00:20.720 align:start position:0%
+an image and basically describe our
+ 
+
+00:00:20.720 --> 00:00:22.109 align:start position:0%
+an image and basically describe our
+shots<00:00:21.039><c> so</c><00:00:21.119><c> I'm</c><00:00:21.199><c> going</c><00:00:21.279><c> to</c><00:00:21.400><c> go</c><00:00:21.560><c> select</c><00:00:21.840><c> from</c>
+
+00:00:22.109 --> 00:00:22.119 align:start position:0%
+shots so I'm going to go select from
+ 
+
+00:00:22.119 --> 00:00:24.790 align:start position:0%
+shots so I'm going to go select from
+assets<00:00:23.119><c> and</c><00:00:23.279><c> go</c><00:00:23.519><c> back</c><00:00:23.640><c> to</c><00:00:23.960><c> this</c><00:00:24.199><c> image</c><00:00:24.560><c> we</c>
+
+00:00:24.790 --> 00:00:24.800 align:start position:0%
+assets and go back to this image we
+ 
+
+00:00:24.800 --> 00:00:26.589 align:start position:0%
+assets and go back to this image we
+played<00:00:25.080><c> with</c><00:00:25.199><c> in</c><00:00:25.279><c> the</c><00:00:25.439><c> last</c><00:00:25.680><c> video</c><00:00:26.279><c> double</c>
+
+00:00:26.589 --> 00:00:26.599 align:start position:0%
+played with in the last video double
+ 
+
+00:00:26.599 --> 00:00:28.870 align:start position:0%
+played with in the last video double
+click<00:00:27.039><c> I'm</c><00:00:27.119><c> going</c><00:00:27.240><c> to</c><00:00:27.519><c> add</c><00:00:28.119><c> a</c><00:00:28.320><c> description</c><00:00:28.760><c> or</c>
+
+00:00:28.870 --> 00:00:28.880 align:start position:0%
+click I'm going to add a description or
+ 
+
+00:00:28.880 --> 00:00:30.910 align:start position:0%
+click I'm going to add a description or
+a<00:00:29.039><c> prompt</c><00:00:29.960><c> I</c><00:00:30.080><c> have</c><00:00:30.160><c> a</c><00:00:30.240><c> woman</c><00:00:30.439><c> surrounded</c><00:00:30.840><c> by</c>
+
+00:00:30.910 --> 00:00:30.920 align:start position:0%
+a prompt I have a woman surrounded by
+ 
+
+00:00:30.920 --> 00:00:32.589 align:start position:0%
+a prompt I have a woman surrounded by
+burning<00:00:31.199><c> temples</c><00:00:31.679><c> looking</c><00:00:32.000><c> around</c><00:00:32.279><c> at</c><00:00:32.439><c> the</c>
+
+00:00:32.589 --> 00:00:32.599 align:start position:0%
+burning temples looking around at the
+ 
+
+00:00:32.599 --> 00:00:35.470 align:start position:0%
+burning temples looking around at the
+fire<00:00:33.480><c> so</c><00:00:33.640><c> you'll</c><00:00:33.840><c> see</c><00:00:34.320><c> here</c><00:00:34.920><c> we</c><00:00:35.079><c> have</c><00:00:35.200><c> a</c><00:00:35.280><c> bit</c><00:00:35.399><c> of</c>
+
+00:00:35.470 --> 00:00:35.480 align:start position:0%
+fire so you'll see here we have a bit of
+ 
+
+00:00:35.480 --> 00:00:37.950 align:start position:0%
+fire so you'll see here we have a bit of
+a<00:00:35.680><c> guide</c><00:00:36.040><c> as</c><00:00:36.160><c> to</c><00:00:36.320><c> what</c><00:00:36.480><c> this</c><00:00:36.680><c> does</c><00:00:37.399><c> I</c><00:00:37.520><c> can</c><00:00:37.640><c> also</c>
+
+00:00:37.950 --> 00:00:37.960 align:start position:0%
+a guide as to what this does I can also
+ 
+
+00:00:37.960 --> 00:00:40.389 align:start position:0%
+a guide as to what this does I can also
+click<00:00:38.239><c> here</c><00:00:39.120><c> and</c><00:00:39.280><c> there's</c><00:00:39.520><c> actually</c><00:00:39.800><c> some</c>
+
+00:00:40.389 --> 00:00:40.399 align:start position:0%
+click here and there's actually some
+ 
+
+00:00:40.399 --> 00:00:43.709 align:start position:0%
+click here and there's actually some
+keys<00:00:41.399><c> some</c><00:00:41.559><c> shortcut</c><00:00:42.039><c> keys</c><00:00:42.280><c> we</c><00:00:42.360><c> can</c><00:00:42.600><c> use</c><00:00:43.440><c> for</c>
+
+00:00:43.709 --> 00:00:43.719 align:start position:0%
+keys some shortcut keys we can use for
+ 
+
+00:00:43.719 --> 00:00:46.670 align:start position:0%
+keys some shortcut keys we can use for
+this<00:00:43.960><c> particular</c><00:00:44.680><c> video</c><00:00:45.680><c> but</c><00:00:46.160><c> simply</c><00:00:46.480><c> by</c>
+
+00:00:46.670 --> 00:00:46.680 align:start position:0%
+this particular video but simply by
+ 
+
+00:00:46.680 --> 00:00:49.709 align:start position:0%
+this particular video but simply by
+coming<00:00:47.000><c> down</c><00:00:47.280><c> to</c><00:00:47.600><c> here</c><00:00:48.039><c> we</c><00:00:48.120><c> can</c><00:00:48.399><c> also</c><00:00:48.960><c> work</c><00:00:49.360><c> on</c>
+
+00:00:49.709 --> 00:00:49.719 align:start position:0%
+coming down to here we can also work on
+ 
+
+00:00:49.719 --> 00:00:51.670 align:start position:0%
+coming down to here we can also work on
+moving<00:00:50.320><c> left</c><00:00:50.520><c> and</c><00:00:50.719><c> right</c><00:00:50.879><c> so</c><00:00:51.039><c> if</c><00:00:51.160><c> I</c><00:00:51.280><c> go</c><00:00:51.480><c> a</c>
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+moving left and right so if I go a
+ 
+
+00:00:51.680 --> 00:00:53.709 align:start position:0%
+moving left and right so if I go a
+horizontal<00:00:52.520><c> pan</c><00:00:52.840><c> across</c><00:00:53.199><c> I</c><00:00:53.239><c> can</c><00:00:53.399><c> have</c><00:00:53.559><c> the</c>
+
+00:00:53.709 --> 00:00:53.719 align:start position:0%
+horizontal pan across I can have the
+ 
+
+00:00:53.719 --> 00:00:56.830 align:start position:0%
+horizontal pan across I can have the
+camera<00:00:54.640><c> move</c><00:00:55.079><c> across</c><00:00:55.879><c> so</c><00:00:56.079><c> she's</c><00:00:56.399><c> currently</c><00:00:56.719><c> in</c>
+
+00:00:56.830 --> 00:00:56.840 align:start position:0%
+camera move across so she's currently in
+ 
+
+00:00:56.840 --> 00:00:59.349 align:start position:0%
+camera move across so she's currently in
+the<00:00:56.960><c> center</c><00:00:57.480><c> maybe</c><00:00:57.760><c> I</c><00:00:57.960><c> have</c><00:00:58.239><c> her</c><00:00:58.800><c> move</c><00:00:59.079><c> off</c><00:00:59.239><c> to</c>
+
+00:00:59.349 --> 00:00:59.359 align:start position:0%
+the center maybe I have her move off to
+ 
+
+00:00:59.359 --> 00:01:02.150 align:start position:0%
+the center maybe I have her move off to
+the<00:00:59.519><c> left</c><00:00:59.760><c> hand</c><00:01:00.120><c> inside</c><00:01:01.120><c> I</c><00:01:01.199><c> can</c><00:01:01.359><c> also</c><00:01:01.719><c> tilt</c><00:01:02.079><c> a</c>
+
+00:01:02.150 --> 00:01:02.160 align:start position:0%
+the left hand inside I can also tilt a
+ 
+
+00:01:02.160 --> 00:01:03.990 align:start position:0%
+the left hand inside I can also tilt a
+little<00:01:02.359><c> bit</c><00:01:02.640><c> so</c><00:01:03.079><c> since</c><00:01:03.280><c> I</c><00:01:03.399><c> kind</c><00:01:03.519><c> of</c><00:01:03.640><c> want</c><00:01:03.760><c> to</c>
+
+00:01:03.990 --> 00:01:04.000 align:start position:0%
+little bit so since I kind of want to
+ 
+
+00:01:04.000 --> 00:01:06.469 align:start position:0%
+little bit so since I kind of want to
+look<00:01:04.119><c> at</c><00:01:04.479><c> her</c><00:01:05.479><c> can</c><00:01:05.640><c> sort</c><00:01:05.760><c> of</c><00:01:05.880><c> look</c><00:01:06.119><c> past</c><00:01:06.360><c> a</c>
+
+00:01:06.469 --> 00:01:06.479 align:start position:0%
+look at her can sort of look past a
+ 
+
+00:01:06.479 --> 00:01:08.910 align:start position:0%
+look at her can sort of look past a
+little<00:01:06.640><c> bit</c><00:01:06.840><c> maybe</c><00:01:07.119><c> I</c><00:01:07.400><c> decide</c><00:01:07.759><c> to</c><00:01:08.080><c> tilt</c><00:01:08.479><c> out</c>
+
+00:01:08.910 --> 00:01:08.920 align:start position:0%
+little bit maybe I decide to tilt out
+ 
+
+00:01:08.920 --> 00:01:11.990 align:start position:0%
+little bit maybe I decide to tilt out
+this<00:01:09.159><c> way</c><00:01:10.000><c> so</c><00:01:10.280><c> she's</c><00:01:10.600><c> actually</c><00:01:10.960><c> kind</c><00:01:11.080><c> of</c><00:01:11.799><c> we're</c>
+
+00:01:11.990 --> 00:01:12.000 align:start position:0%
+this way so she's actually kind of we're
+ 
+
+00:01:12.000 --> 00:01:13.429 align:start position:0%
+this way so she's actually kind of we're
+actually<00:01:12.200><c> kind</c><00:01:12.320><c> of</c><00:01:12.439><c> looking</c><00:01:12.720><c> away</c><00:01:13.159><c> a</c><00:01:13.240><c> little</c>
+
+00:01:13.429 --> 00:01:13.439 align:start position:0%
+actually kind of looking away a little
+ 
+
+00:01:13.439 --> 00:01:16.270 align:start position:0%
+actually kind of looking away a little
+bit<00:01:13.759><c> more</c><00:01:14.759><c> but</c><00:01:14.880><c> we</c><00:01:14.960><c> can</c><00:01:15.119><c> also</c><00:01:15.360><c> tilt</c><00:01:15.880><c> and</c><00:01:16.040><c> look</c>
+
+00:01:16.270 --> 00:01:16.280 align:start position:0%
+bit more but we can also tilt and look
+ 
+
+00:01:16.280 --> 00:01:18.190 align:start position:0%
+bit more but we can also tilt and look
+up<00:01:16.720><c> or</c><00:01:17.000><c> down</c><00:01:17.280><c> I'm</c><00:01:17.360><c> going</c><00:01:17.479><c> to</c><00:01:17.560><c> sort</c><00:01:17.720><c> of</c><00:01:17.840><c> look</c>
+
+00:01:18.190 --> 00:01:18.200 align:start position:0%
+up or down I'm going to sort of look
+ 
+
+00:01:18.200 --> 00:01:19.710 align:start position:0%
+up or down I'm going to sort of look
+down<00:01:18.600><c> just</c><00:01:18.720><c> a</c><00:01:18.880><c> little</c><00:01:19.080><c> bit</c><00:01:19.280><c> so</c><00:01:19.400><c> you</c><00:01:19.479><c> can</c><00:01:19.560><c> see</c>
+
+00:01:19.710 --> 00:01:19.720 align:start position:0%
+down just a little bit so you can see
+ 
+
+00:01:19.720 --> 00:01:22.030 align:start position:0%
+down just a little bit so you can see
+how<00:01:19.840><c> we</c><00:01:20.040><c> change</c><00:01:20.560><c> that</c><00:01:20.720><c> angle</c><00:01:21.600><c> and</c><00:01:21.680><c> we</c><00:01:21.799><c> also</c>
+
+00:01:22.030 --> 00:01:22.040 align:start position:0%
+how we change that angle and we also
+ 
+
+00:01:22.040 --> 00:01:24.429 align:start position:0%
+how we change that angle and we also
+have<00:01:22.400><c> vertical</c><00:01:23.040><c> I</c><00:01:23.159><c> can</c><00:01:23.320><c> look</c><00:01:23.560><c> down</c><00:01:23.799><c> or</c><00:01:24.040><c> up</c><00:01:24.320><c> that</c>
+
+00:01:24.429 --> 00:01:24.439 align:start position:0%
+have vertical I can look down or up that
+ 
+
+00:01:24.439 --> 00:01:26.510 align:start position:0%
+have vertical I can look down or up that
+way<00:01:24.640><c> as</c><00:01:24.799><c> well</c><00:01:25.320><c> so</c><00:01:25.439><c> you</c><00:01:25.520><c> can</c><00:01:25.640><c> see</c><00:01:25.880><c> already</c><00:01:26.320><c> just</c>
+
+00:01:26.510 --> 00:01:26.520 align:start position:0%
+way as well so you can see already just
+ 
+
+00:01:26.520 --> 00:01:28.749 align:start position:0%
+way as well so you can see already just
+how<00:01:26.759><c> easily</c><00:01:27.119><c> the</c><00:01:27.280><c> movement</c><00:01:27.759><c> influences</c><00:01:28.600><c> the</c>
+
+00:01:28.749 --> 00:01:28.759 align:start position:0%
+how easily the movement influences the
+ 
+
+00:01:28.759 --> 00:01:31.510 align:start position:0%
+how easily the movement influences the
+framing<00:01:29.360><c> with</c><00:01:29.520><c> this</c><00:01:29.640><c> little</c><00:01:30.079><c> guide</c><00:01:30.400><c> here</c><00:01:31.360><c> but</c>
+
+00:01:31.510 --> 00:01:31.520 align:start position:0%
+framing with this little guide here but
+ 
+
+00:01:31.520 --> 00:01:33.270 align:start position:0%
+framing with this little guide here but
+I<00:01:31.600><c> can</c><00:01:31.759><c> also</c><00:01:31.960><c> do</c><00:01:32.159><c> things</c><00:01:32.360><c> like</c><00:01:32.560><c> roll</c><00:01:33.000><c> if</c><00:01:33.079><c> I</c><00:01:33.159><c> want</c>
+
+00:01:33.270 --> 00:01:33.280 align:start position:0%
+I can also do things like roll if I want
+ 
+
+00:01:33.280 --> 00:01:36.230 align:start position:0%
+I can also do things like roll if I want
+to<00:01:33.560><c> kind</c><00:01:33.680><c> of</c><00:01:34.000><c> roll</c><00:01:34.520><c> the</c><00:01:34.720><c> camera</c><00:01:35.399><c> we</c><00:01:35.920><c> I'll</c><00:01:36.079><c> just</c>
+
+00:01:36.230 --> 00:01:36.240 align:start position:0%
+to kind of roll the camera we I'll just
+ 
+
+00:01:36.240 --> 00:01:37.990 align:start position:0%
+to kind of roll the camera we I'll just
+have<00:01:36.479><c> like</c><00:01:36.600><c> a</c><00:01:36.759><c> minor</c><00:01:37.119><c> roll</c><00:01:37.439><c> here</c><00:01:37.560><c> and</c><00:01:37.680><c> I</c><00:01:37.759><c> can</c>
+
+00:01:37.990 --> 00:01:38.000 align:start position:0%
+have like a minor roll here and I can
+ 
+
+00:01:38.000 --> 00:01:40.990 align:start position:0%
+have like a minor roll here and I can
+also<00:01:38.799><c> zoom</c><00:01:39.399><c> in</c><00:01:39.799><c> or</c><00:01:40.200><c> out</c><00:01:40.600><c> I'm</c><00:01:40.680><c> going</c><00:01:40.799><c> to</c>
+
+00:01:40.990 --> 00:01:41.000 align:start position:0%
+also zoom in or out I'm going to
+ 
+
+00:01:41.000 --> 00:01:43.109 align:start position:0%
+also zoom in or out I'm going to
+actually<00:01:41.439><c> zoom</c><00:01:41.920><c> out</c><00:01:42.240><c> a</c><00:01:42.360><c> little</c><00:01:42.560><c> bit</c><00:01:42.759><c> to</c><00:01:42.960><c> sort</c>
+
+00:01:43.109 --> 00:01:43.119 align:start position:0%
+actually zoom out a little bit to sort
+ 
+
+00:01:43.119 --> 00:01:46.270 align:start position:0%
+actually zoom out a little bit to sort
+of<00:01:43.439><c> see</c><00:01:43.720><c> more</c><00:01:43.880><c> of</c><00:01:44.040><c> the</c><00:01:44.600><c> scene</c><00:01:45.600><c> so</c><00:01:45.799><c> you</c><00:01:45.920><c> can</c><00:01:46.000><c> see</c>
+
+00:01:46.270 --> 00:01:46.280 align:start position:0%
+of see more of the scene so you can see
+ 
+
+00:01:46.280 --> 00:01:48.149 align:start position:0%
+of see more of the scene so you can see
+already<00:01:47.119><c> what</c><00:01:47.240><c> we've</c><00:01:47.399><c> been</c><00:01:47.520><c> able</c><00:01:47.719><c> to</c><00:01:47.840><c> do</c><00:01:48.000><c> with</c>
+
+00:01:48.149 --> 00:01:48.159 align:start position:0%
+already what we've been able to do with
+ 
+
+00:01:48.159 --> 00:01:49.990 align:start position:0%
+already what we've been able to do with
+camera<00:01:48.439><c> control</c><00:01:48.759><c> to</c><00:01:48.920><c> influence</c><00:01:49.360><c> our</c><00:01:49.560><c> image</c>
+
+00:01:49.990 --> 00:01:50.000 align:start position:0%
+camera control to influence our image
+ 
+
+00:01:50.000 --> 00:01:52.590 align:start position:0%
+camera control to influence our image
+I've<00:01:50.200><c> done</c><00:01:50.640><c> a</c><00:01:50.840><c> whole</c><00:01:51.280><c> bunch</c><00:01:52.079><c> I've</c><00:01:52.200><c> changed</c><00:01:52.520><c> a</c>
+
+00:01:52.590 --> 00:01:52.600 align:start position:0%
+I've done a whole bunch I've changed a
+ 
+
+00:01:52.600 --> 00:01:54.469 align:start position:0%
+I've done a whole bunch I've changed a
+whole<00:01:52.799><c> bunch</c><00:01:52.960><c> of</c><00:01:53.079><c> settings</c><00:01:53.479><c> here</c><00:01:54.200><c> let's</c>
+
+00:01:54.469 --> 00:01:54.479 align:start position:0%
+whole bunch of settings here let's
+ 
+
+00:01:54.479 --> 00:01:57.670 align:start position:0%
+whole bunch of settings here let's
+generate<00:01:55.200><c> got</c><00:01:55.320><c> a</c><00:01:55.439><c> 10-second</c><00:01:55.920><c> video</c><00:01:56.759><c> and</c><00:01:56.960><c> see</c>
+
+00:01:57.670 --> 00:01:57.680 align:start position:0%
+generate got a 10-second video and see
+ 
+
+00:01:57.680 --> 00:02:02.389 align:start position:0%
+generate got a 10-second video and see
+what<00:01:57.840><c> Runway</c><00:01:58.320><c> produces</c>
+
+00:02:02.389 --> 00:02:02.399 align:start position:0%
+ 
+ 
+
+00:02:02.399 --> 00:02:04.230 align:start position:0%
+ 
+and<00:02:02.520><c> now</c><00:02:02.680><c> our</c><00:02:02.880><c> video</c><00:02:03.200><c> has</c><00:02:03.320><c> been</c><00:02:03.479><c> generated</c><00:02:04.119><c> I'm</c>
+
+00:02:04.230 --> 00:02:04.240 align:start position:0%
+and now our video has been generated I'm
+ 
+
+00:02:04.240 --> 00:02:05.789 align:start position:0%
+and now our video has been generated I'm
+going<00:02:04.320><c> to</c><00:02:04.479><c> hit</c>
+
+00:02:05.789 --> 00:02:05.799 align:start position:0%
+going to hit
+ 
+
+00:02:05.799 --> 00:02:08.790 align:start position:0%
+going to hit
+play<00:02:06.799><c> you</c><00:02:06.880><c> can</c><00:02:07.079><c> see</c><00:02:07.560><c> just</c><00:02:07.880><c> how</c><00:02:08.160><c> Dynamic</c><00:02:08.640><c> that</c>
+
+00:02:08.790 --> 00:02:08.800 align:start position:0%
+play you can see just how Dynamic that
+ 
+
+00:02:08.800 --> 00:02:11.750 align:start position:0%
+play you can see just how Dynamic that
+shot<00:02:09.080><c> is</c><00:02:09.239><c> and</c><00:02:09.440><c> how</c><00:02:09.640><c> well</c><00:02:09.879><c> the</c><00:02:10.119><c> AI</c><00:02:10.640><c> has</c><00:02:10.920><c> adapted</c>
+
+00:02:11.750 --> 00:02:11.760 align:start position:0%
+shot is and how well the AI has adapted
+ 
+
+00:02:11.760 --> 00:02:14.270 align:start position:0%
+shot is and how well the AI has adapted
+to<00:02:11.920><c> the</c><00:02:12.160><c> scene</c><00:02:13.160><c> it's</c><00:02:13.319><c> even</c><00:02:13.560><c> added</c><00:02:13.840><c> elements</c><00:02:14.120><c> in</c>
+
+00:02:14.270 --> 00:02:14.280 align:start position:0%
+to the scene it's even added elements in
+ 
+
+00:02:14.280 --> 00:02:16.150 align:start position:0%
+to the scene it's even added elements in
+the<00:02:14.360><c> background</c><00:02:14.800><c> pretty</c><00:02:15.040><c> successfully</c><00:02:15.959><c> but</c>
+
+00:02:16.150 --> 00:02:16.160 align:start position:0%
+the background pretty successfully but
+ 
+
+00:02:16.160 --> 00:02:18.190 align:start position:0%
+the background pretty successfully but
+this<00:02:16.280><c> was</c><00:02:16.440><c> the</c><00:02:16.640><c> video</c><00:02:17.120><c> that</c><00:02:17.239><c> we</c><00:02:17.440><c> created</c><00:02:17.920><c> last</c>
+
+00:02:18.190 --> 00:02:18.200 align:start position:0%
+this was the video that we created last
+ 
+
+00:02:18.200 --> 00:02:20.509 align:start position:0%
+this was the video that we created last
+time<00:02:18.519><c> to</c><00:02:18.680><c> show</c><00:02:18.879><c> you</c><00:02:19.000><c> the</c><00:02:19.239><c> difference</c><00:02:20.239><c> nothing</c>
+
+00:02:20.509 --> 00:02:20.519 align:start position:0%
+time to show you the difference nothing
+ 
+
+00:02:20.519 --> 00:02:23.229 align:start position:0%
+time to show you the difference nothing
+too<00:02:20.760><c> crazy</c><00:02:21.319><c> but</c><00:02:21.519><c> back</c><00:02:21.680><c> to</c><00:02:21.840><c> our</c><00:02:22.080><c> new</c><00:02:22.319><c> one</c><00:02:23.120><c> and</c>
+
+00:02:23.229 --> 00:02:23.239 align:start position:0%
+too crazy but back to our new one and
+ 
+
+00:02:23.239 --> 00:02:24.589 align:start position:0%
+too crazy but back to our new one and
+you<00:02:23.319><c> can</c><00:02:23.440><c> see</c><00:02:23.640><c> how</c><00:02:23.760><c> much</c><00:02:24.000><c> more</c><00:02:24.319><c> camera</c>
+
+00:02:24.589 --> 00:02:24.599 align:start position:0%
+you can see how much more camera
+ 
+
+00:02:24.599 --> 00:02:27.110 align:start position:0%
+you can see how much more camera
+movement<00:02:25.000><c> we've</c><00:02:25.239><c> got</c><00:02:26.040><c> and</c><00:02:26.200><c> coming</c><00:02:26.480><c> back</c><00:02:26.680><c> over</c>
+
+00:02:27.110 --> 00:02:27.120 align:start position:0%
+movement we've got and coming back over
+ 
+
+00:02:27.120 --> 00:02:29.150 align:start position:0%
+movement we've got and coming back over
+there's<00:02:27.319><c> also</c><00:02:27.519><c> a</c><00:02:27.800><c> static</c><00:02:28.120><c> mode</c><00:02:28.519><c> so</c><00:02:28.680><c> you</c><00:02:28.920><c> keep</c>
+
+00:02:29.150 --> 00:02:29.160 align:start position:0%
+there's also a static mode so you keep
+ 
+
+00:02:29.160 --> 00:02:31.190 align:start position:0%
+there's also a static mode so you keep
+the<00:02:29.280><c> camera</c><00:02:29.599><c> as</c><00:02:29.959><c> still</c><00:02:30.200><c> as</c><00:02:30.440><c> possible</c><00:02:30.879><c> if</c><00:02:31.000><c> I</c>
+
+00:02:31.190 --> 00:02:31.200 align:start position:0%
+the camera as still as possible if I
+ 
+
+00:02:31.200 --> 00:02:33.430 align:start position:0%
+the camera as still as possible if I
+click<00:02:31.560><c> that</c><00:02:31.920><c> essentially</c><00:02:32.599><c> this</c><00:02:32.959><c> will</c><00:02:33.160><c> keep</c><00:02:33.319><c> it</c>
+
+00:02:33.430 --> 00:02:33.440 align:start position:0%
+click that essentially this will keep it
+ 
+
+00:02:33.440 --> 00:02:35.270 align:start position:0%
+click that essentially this will keep it
+locked<00:02:33.720><c> in</c><00:02:33.920><c> position</c><00:02:34.400><c> and</c><00:02:34.560><c> this</c><00:02:34.680><c> is</c><00:02:34.800><c> a</c><00:02:35.000><c> great</c>
+
+00:02:35.270 --> 00:02:35.280 align:start position:0%
+locked in position and this is a great
+ 
+
+00:02:35.280 --> 00:02:37.110 align:start position:0%
+locked in position and this is a great
+way<00:02:35.480><c> to</c><00:02:35.959><c> stop</c><00:02:36.319><c> the</c><00:02:36.440><c> camera</c><00:02:36.720><c> from</c><00:02:36.840><c> moving</c>
+
+00:02:37.110 --> 00:02:37.120 align:start position:0%
+way to stop the camera from moving
+ 
+
+00:02:37.120 --> 00:02:39.390 align:start position:0%
+way to stop the camera from moving
+around<00:02:37.360><c> so</c><00:02:37.560><c> much</c><00:02:38.519><c> so</c><00:02:38.720><c> I'm</c><00:02:38.840><c> going</c><00:02:39.000><c> to</c><00:02:39.239><c> hit</c>
+
+00:02:39.390 --> 00:02:39.400 align:start position:0%
+around so much so I'm going to hit
+ 
+
+00:02:39.400 --> 00:02:41.309 align:start position:0%
+around so much so I'm going to hit
+generate<00:02:39.879><c> again</c><00:02:40.040><c> to</c><00:02:40.200><c> compare</c><00:02:40.560><c> the</c><00:02:40.680><c> two</c><00:02:41.239><c> and</c>
+
+00:02:41.309 --> 00:02:41.319 align:start position:0%
+generate again to compare the two and
+ 
+
+00:02:41.319 --> 00:02:42.990 align:start position:0%
+generate again to compare the two and
+you<00:02:41.480><c> see</c><00:02:41.680><c> just</c><00:02:41.840><c> how</c><00:02:41.959><c> still</c><00:02:42.319><c> the</c><00:02:42.440><c> camera</c><00:02:42.720><c> is</c><00:02:42.879><c> and</c>
+
+00:02:42.990 --> 00:02:43.000 align:start position:0%
+you see just how still the camera is and
+ 
+
+00:02:43.000 --> 00:02:45.509 align:start position:0%
+you see just how still the camera is and
+she's<00:02:43.319><c> moving</c><00:02:43.959><c> in</c><00:02:44.040><c> a</c><00:02:44.239><c> very</c><00:02:44.560><c> minimal</c><00:02:45.080><c> way</c><00:02:45.319><c> just</c>
+
+00:02:45.509 --> 00:02:45.519 align:start position:0%
+she's moving in a very minimal way just
+ 
+
+00:02:45.519 --> 00:02:47.910 align:start position:0%
+she's moving in a very minimal way just
+kind<00:02:45.680><c> of</c><00:02:46.040><c> looking</c><00:02:46.440><c> around</c><00:02:47.000><c> so</c><00:02:47.440><c> I</c><00:02:47.519><c> do</c><00:02:47.720><c> think</c>
+
+00:02:47.910 --> 00:02:47.920 align:start position:0%
+kind of looking around so I do think
+ 
+
+00:02:47.920 --> 00:02:49.390 align:start position:0%
+kind of looking around so I do think
+moving<00:02:48.280><c> the</c><00:02:48.400><c> camera</c><00:02:48.720><c> is</c><00:02:48.840><c> definitely</c><00:02:49.120><c> a</c><00:02:49.200><c> better</c>
+
+00:02:49.390 --> 00:02:49.400 align:start position:0%
+moving the camera is definitely a better
+ 
+
+00:02:49.400 --> 00:02:50.830 align:start position:0%
+moving the camera is definitely a better
+result<00:02:49.720><c> but</c><00:02:49.840><c> this</c><00:02:50.000><c> just</c><00:02:50.120><c> sort</c><00:02:50.280><c> of</c><00:02:50.400><c> shows</c><00:02:50.720><c> how</c>
+
+00:02:50.830 --> 00:02:50.840 align:start position:0%
+result but this just sort of shows how
+ 
+
+00:02:50.840 --> 00:02:52.470 align:start position:0%
+result but this just sort of shows how
+you<00:02:50.920><c> can</c><00:02:51.120><c> use</c><00:02:51.360><c> that</c><00:02:51.560><c> the</c><00:02:51.720><c> little</c><00:02:51.920><c> hair</c><00:02:52.080><c> flicker</c>
+
+00:02:52.470 --> 00:02:52.480 align:start position:0%
+you can use that the little hair flicker
+ 
+
+00:02:52.480 --> 00:02:54.229 align:start position:0%
+you can use that the little hair flicker
+I<00:02:52.560><c> think</c><00:02:52.640><c> is</c><00:02:52.760><c> a</c><00:02:52.920><c> nice</c><00:02:53.120><c> touch</c><00:02:53.640><c> so</c><00:02:53.800><c> it</c><00:02:53.879><c> does</c><00:02:54.040><c> do</c><00:02:54.159><c> a</c>
+
+00:02:54.229 --> 00:02:54.239 align:start position:0%
+I think is a nice touch so it does do a
+ 
+
+00:02:54.239 --> 00:02:55.830 align:start position:0%
+I think is a nice touch so it does do a
+pretty<00:02:54.440><c> good</c><00:02:54.599><c> job</c><00:02:54.840><c> with</c><00:02:55.000><c> what</c><00:02:55.120><c> you</c><00:02:55.239><c> give</c><00:02:55.360><c> it</c><00:02:55.680><c> so</c>
+
+00:02:55.830 --> 00:02:55.840 align:start position:0%
+pretty good job with what you give it so
+ 
+
+00:02:55.840 --> 00:02:57.149 align:start position:0%
+pretty good job with what you give it so
+coming<00:02:56.080><c> back</c><00:02:56.239><c> over</c><00:02:56.519><c> again</c><00:02:56.720><c> I'm</c><00:02:56.840><c> going</c><00:02:56.920><c> to</c><00:02:57.040><c> go</c>
+
+00:02:57.149 --> 00:02:57.159 align:start position:0%
+coming back over again I'm going to go
+ 
+
+00:02:57.159 --> 00:02:59.550 align:start position:0%
+coming back over again I'm going to go
+to<00:02:57.319><c> static</c><00:02:57.640><c> mode</c><00:02:57.920><c> turn</c><00:02:58.200><c> that</c><00:02:58.400><c> off</c><00:02:59.280><c> this</c><00:02:59.440><c> time</c>
+
+00:02:59.550 --> 00:02:59.560 align:start position:0%
+to static mode turn that off this time
+ 
+
+00:02:59.560 --> 00:03:01.110 align:start position:0%
+to static mode turn that off this time
+I'm<00:02:59.640><c> going</c><00:02:59.720><c> to</c><00:02:59.959><c> try</c><00:03:00.120><c> something</c><00:03:00.360><c> a</c><00:03:00.440><c> little</c><00:03:00.640><c> bit</c>
+
+00:03:01.110 --> 00:03:01.120 align:start position:0%
+I'm going to try something a little bit
+ 
+
+00:03:01.120 --> 00:03:03.470 align:start position:0%
+I'm going to try something a little bit
+different<00:03:02.120><c> with</c><00:03:02.280><c> the</c><00:03:02.480><c> zoom</c><00:03:02.959><c> we're</c><00:03:03.120><c> going</c><00:03:03.280><c> to</c>
+
+00:03:03.470 --> 00:03:03.480 align:start position:0%
+different with the zoom we're going to
+ 
+
+00:03:03.480 --> 00:03:06.190 align:start position:0%
+different with the zoom we're going to
+actually<00:03:03.720><c> try</c><00:03:03.920><c> to</c><00:03:04.159><c> zoom</c><00:03:04.599><c> right</c><00:03:04.879><c> in</c><00:03:05.879><c> and</c><00:03:06.040><c> keep</c>
+
+00:03:06.190 --> 00:03:06.200 align:start position:0%
+actually try to zoom right in and keep
+ 
+
+00:03:06.200 --> 00:03:08.990 align:start position:0%
+actually try to zoom right in and keep
+in<00:03:06.360><c> mind</c><00:03:06.599><c> I</c><00:03:06.680><c> can</c><00:03:06.840><c> actually</c>
+
+00:03:08.990 --> 00:03:09.000 align:start position:0%
+in mind I can actually
+ 
+
+00:03:09.000 --> 00:03:11.750 align:start position:0%
+in mind I can actually
+grab<00:03:10.000><c> this</c><00:03:10.200><c> area</c><00:03:10.519><c> up</c><00:03:10.720><c> here</c><00:03:10.879><c> and</c><00:03:11.120><c> move</c><00:03:11.480><c> things</c>
+
+00:03:11.750 --> 00:03:11.760 align:start position:0%
+grab this area up here and move things
+ 
+
+00:03:11.760 --> 00:03:13.430 align:start position:0%
+grab this area up here and move things
+around<00:03:12.040><c> so</c><00:03:12.200><c> if</c><00:03:12.319><c> I</c><00:03:12.519><c> really</c><00:03:12.760><c> decide</c><00:03:13.080><c> that</c><00:03:13.200><c> I</c><00:03:13.319><c> want</c>
+
+00:03:13.430 --> 00:03:13.440 align:start position:0%
+around so if I really decide that I want
+ 
+
+00:03:13.440 --> 00:03:16.229 align:start position:0%
+around so if I really decide that I want
+to<00:03:13.640><c> zoom</c><00:03:13.920><c> in</c><00:03:14.599><c> close</c><00:03:14.879><c> to</c><00:03:15.120><c> the</c><00:03:15.360><c> face</c><00:03:15.680><c> here</c><00:03:15.959><c> I</c><00:03:16.040><c> can</c>
+
+00:03:16.229 --> 00:03:16.239 align:start position:0%
+to zoom in close to the face here I can
+ 
+
+00:03:16.239 --> 00:03:19.110 align:start position:0%
+to zoom in close to the face here I can
+do<00:03:16.519><c> that</c><00:03:17.239><c> I</c><00:03:17.319><c> can</c><00:03:17.519><c> even</c><00:03:17.799><c> roll</c><00:03:18.519><c> let's</c><00:03:18.760><c> just</c><00:03:18.920><c> get</c>
+
+00:03:19.110 --> 00:03:19.120 align:start position:0%
+do that I can even roll let's just get
+ 
+
+00:03:19.120 --> 00:03:20.789 align:start position:0%
+do that I can even roll let's just get
+like<00:03:19.239><c> a</c><00:03:19.440><c> real</c><00:03:19.799><c> sort</c><00:03:20.000><c> of</c><00:03:20.159><c> different</c><00:03:20.480><c> kind</c><00:03:20.599><c> of</c>
+
+00:03:20.789 --> 00:03:20.799 align:start position:0%
+like a real sort of different kind of
+ 
+
+00:03:20.799 --> 00:03:21.990 align:start position:0%
+like a real sort of different kind of
+roll
+
+00:03:21.990 --> 00:03:22.000 align:start position:0%
+roll
+ 
+
+00:03:22.000 --> 00:03:26.149 align:start position:0%
+roll
+here<00:03:23.000><c> I'm</c><00:03:23.120><c> going</c><00:03:23.200><c> to</c><00:03:23.360><c> try</c><00:03:23.519><c> and</c><00:03:23.799><c> tilt</c><00:03:24.680><c> down</c><00:03:25.680><c> move</c>
+
+00:03:26.149 --> 00:03:26.159 align:start position:0%
+here I'm going to try and tilt down move
+ 
+
+00:03:26.159 --> 00:03:31.030 align:start position:0%
+here I'm going to try and tilt down move
+up<00:03:26.920><c> and</c><00:03:27.120><c> kind</c><00:03:27.239><c> of</c><00:03:27.440><c> Point</c><00:03:27.879><c> down</c><00:03:28.640><c> at</c><00:03:28.920><c> the</c>
+
+00:03:31.030 --> 00:03:31.040 align:start position:0%
+up and kind of Point down at the
+ 
+
+00:03:31.040 --> 00:03:32.710 align:start position:0%
+up and kind of Point down at the
+top<00:03:31.239><c> of</c><00:03:31.319><c> her</c>
+
+00:03:32.710 --> 00:03:32.720 align:start position:0%
+top of her
+ 
+
+00:03:32.720 --> 00:03:35.670 align:start position:0%
+top of her
+head<00:03:33.720><c> so</c><00:03:33.959><c> now</c><00:03:34.120><c> we're</c><00:03:34.360><c> really</c><00:03:34.760><c> experimenting</c>
+
+00:03:35.670 --> 00:03:35.680 align:start position:0%
+head so now we're really experimenting
+ 
+
+00:03:35.680 --> 00:03:38.710 align:start position:0%
+head so now we're really experimenting
+with<00:03:35.879><c> the</c><00:03:36.360><c> 3D</c><00:03:37.120><c> space</c><00:03:37.840><c> of</c><00:03:38.040><c> what</c><00:03:38.159><c> we're</c><00:03:38.319><c> doing</c>
+
+00:03:38.710 --> 00:03:38.720 align:start position:0%
+with the 3D space of what we're doing
+ 
+
+00:03:38.720 --> 00:03:40.910 align:start position:0%
+with the 3D space of what we're doing
+here<00:03:39.360><c> and</c><00:03:39.519><c> again</c><00:03:39.720><c> with</c><00:03:39.840><c> the</c><00:03:40.000><c> pan</c><00:03:40.439><c> we</c><00:03:40.560><c> can</c><00:03:40.680><c> still</c>
+
+00:03:40.910 --> 00:03:40.920 align:start position:0%
+here and again with the pan we can still
+ 
+
+00:03:40.920 --> 00:03:42.390 align:start position:0%
+here and again with the pan we can still
+pan<00:03:41.239><c> around</c><00:03:41.480><c> a</c><00:03:41.560><c> little</c><00:03:41.720><c> bit</c><00:03:41.920><c> so</c><00:03:42.080><c> it</c><00:03:42.239><c> can</c>
+
+00:03:42.390 --> 00:03:42.400 align:start position:0%
+pan around a little bit so it can
+ 
+
+00:03:42.400 --> 00:03:44.990 align:start position:0%
+pan around a little bit so it can
+actually<00:03:42.640><c> kind</c><00:03:42.720><c> of</c><00:03:42.879><c> be</c><00:03:43.519><c> facing</c><00:03:44.519><c> the</c><00:03:44.720><c> top</c><00:03:44.879><c> of</c>
+
+00:03:44.990 --> 00:03:45.000 align:start position:0%
+actually kind of be facing the top of
+ 
+
+00:03:45.000 --> 00:03:48.710 align:start position:0%
+actually kind of be facing the top of
+her<00:03:45.319><c> head</c><00:03:46.319><c> looking</c><00:03:46.879><c> down</c><00:03:47.360><c> sort</c><00:03:47.560><c> of</c><00:03:47.720><c> towards</c>
+
+00:03:48.710 --> 00:03:48.720 align:start position:0%
+her head looking down sort of towards
+ 
+
+00:03:48.720 --> 00:03:50.910 align:start position:0%
+her head looking down sort of towards
+from<00:03:48.959><c> this</c><00:03:49.239><c> angle</c><00:03:50.239><c> and</c><00:03:50.360><c> of</c><00:03:50.480><c> course</c><00:03:50.640><c> we</c><00:03:50.760><c> can</c>
+
+00:03:50.910 --> 00:03:50.920 align:start position:0%
+from this angle and of course we can
+ 
+
+00:03:50.920 --> 00:03:52.830 align:start position:0%
+from this angle and of course we can
+move<00:03:51.159><c> horizontal</c><00:03:52.120><c> but</c><00:03:52.280><c> for</c><00:03:52.400><c> now</c><00:03:52.560><c> I'm</c><00:03:52.640><c> going</c><00:03:52.760><c> to</c>
+
+00:03:52.830 --> 00:03:52.840 align:start position:0%
+move horizontal but for now I'm going to
+ 
+
+00:03:52.840 --> 00:03:54.990 align:start position:0%
+move horizontal but for now I'm going to
+leave<00:03:53.040><c> this</c><00:03:53.200><c> as</c><00:03:53.319><c> it</c><00:03:53.480><c> is</c><00:03:54.400><c> and</c><00:03:54.519><c> then</c><00:03:54.640><c> I'm</c><00:03:54.799><c> also</c>
+
+00:03:54.990 --> 00:03:55.000 align:start position:0%
+leave this as it is and then I'm also
+ 
+
+00:03:55.000 --> 00:03:57.470 align:start position:0%
+leave this as it is and then I'm also
+going<00:03:55.159><c> to</c><00:03:55.360><c> add</c><00:03:55.599><c> something</c><00:03:56.200><c> here</c><00:03:56.439><c> such</c><00:03:56.760><c> as</c>
+
+00:03:57.470 --> 00:03:57.480 align:start position:0%
+going to add something here such as
+ 
+
+00:03:57.480 --> 00:04:00.470 align:start position:0%
+going to add something here such as
+smiling<00:03:58.480><c> which</c><00:03:58.640><c> seems</c><00:03:58.840><c> a</c><00:03:58.959><c> little</c><00:03:59.519><c> B</c><00:04:00.040><c> crazy</c>
+
+00:04:00.470 --> 00:04:00.480 align:start position:0%
+smiling which seems a little B crazy
+ 
+
+00:04:00.480 --> 00:04:02.149 align:start position:0%
+smiling which seems a little B crazy
+considering<00:04:00.840><c> the</c><00:04:00.959><c> scene</c><00:04:01.680><c> but</c><00:04:01.840><c> because</c><00:04:02.040><c> she</c>
+
+00:04:02.149 --> 00:04:02.159 align:start position:0%
+considering the scene but because she
+ 
+
+00:04:02.159 --> 00:04:03.789 align:start position:0%
+considering the scene but because she
+looks<00:04:02.360><c> so</c><00:04:02.560><c> serious</c><00:04:02.959><c> I</c><00:04:03.040><c> just</c><00:04:03.120><c> want</c><00:04:03.239><c> to</c><00:04:03.360><c> see</c><00:04:03.640><c> how</c>
+
+00:04:03.789 --> 00:04:03.799 align:start position:0%
+looks so serious I just want to see how
+ 
+
+00:04:03.799 --> 00:04:06.270 align:start position:0%
+looks so serious I just want to see how
+well<00:04:04.040><c> Runway</c><00:04:04.519><c> handles</c><00:04:04.840><c> The</c><00:04:05.040><c> Smiling</c><00:04:05.760><c> whilst</c>
+
+00:04:06.270 --> 00:04:06.280 align:start position:0%
+well Runway handles The Smiling whilst
+ 
+
+00:04:06.280 --> 00:04:09.350 align:start position:0%
+well Runway handles The Smiling whilst
+doing<00:04:06.879><c> the</c><00:04:07.040><c> camera</c><00:04:07.360><c> movement</c><00:04:08.239><c> she</c><00:04:08.959><c> gets</c><00:04:09.200><c> out</c>
+
+00:04:09.350 --> 00:04:09.360 align:start position:0%
+doing the camera movement she gets out
+ 
+
+00:04:09.360 --> 00:04:13.030 align:start position:0%
+doing the camera movement she gets out
+of<00:04:09.560><c> view</c><00:04:10.280><c> and</c><00:04:10.400><c> then</c><00:04:10.599><c> just</c><00:04:10.879><c> appears</c><00:04:12.040><c> smiling</c>
+
+00:04:13.030 --> 00:04:13.040 align:start position:0%
+of view and then just appears smiling
+ 
+
+00:04:13.040 --> 00:04:14.390 align:start position:0%
+of view and then just appears smiling
+that<00:04:13.159><c> is</c><00:04:13.239><c> a</c><00:04:13.319><c> little</c><00:04:13.439><c> bit</c><00:04:13.599><c> creepy</c><00:04:13.959><c> not</c><00:04:14.079><c> exactly</c>
+
+00:04:14.390 --> 00:04:14.400 align:start position:0%
+that is a little bit creepy not exactly
+ 
+
+00:04:14.400 --> 00:04:15.910 align:start position:0%
+that is a little bit creepy not exactly
+the<00:04:14.519><c> best</c><00:04:14.720><c> result</c><00:04:15.239><c> but</c><00:04:15.400><c> with</c><00:04:15.560><c> a</c><00:04:15.640><c> little</c><00:04:15.799><c> bit</c>
+
+00:04:15.910 --> 00:04:15.920 align:start position:0%
+the best result but with a little bit
+ 
+
+00:04:15.920 --> 00:04:17.030 align:start position:0%
+the best result but with a little bit
+more<00:04:16.040><c> adjustment</c><00:04:16.400><c> you</c><00:04:16.479><c> could</c><00:04:16.600><c> probably</c><00:04:16.880><c> make</c>
+
+00:04:17.030 --> 00:04:17.040 align:start position:0%
+more adjustment you could probably make
+ 
+
+00:04:17.040 --> 00:04:19.590 align:start position:0%
+more adjustment you could probably make
+it<00:04:17.519><c> work</c><00:04:18.519><c> so</c><00:04:18.759><c> now</c><00:04:18.959><c> we're</c><00:04:19.079><c> going</c><00:04:19.199><c> to</c><00:04:19.320><c> try</c>
+
+00:04:19.590 --> 00:04:19.600 align:start position:0%
+it work so now we're going to try
+ 
+
+00:04:19.600 --> 00:04:21.390 align:start position:0%
+it work so now we're going to try
+something<00:04:19.959><c> different</c><00:04:20.359><c> I've</c><00:04:20.479><c> got</c><00:04:20.680><c> out</c><00:04:20.919><c> my</c><00:04:21.160><c> dog</c>
+
+00:04:21.390 --> 00:04:21.400 align:start position:0%
+something different I've got out my dog
+ 
+
+00:04:21.400 --> 00:04:23.110 align:start position:0%
+something different I've got out my dog
+image<00:04:21.720><c> here</c><00:04:21.840><c> which</c><00:04:21.959><c> I've</c><00:04:22.120><c> used</c><00:04:22.440><c> previously</c>
+
+00:04:23.110 --> 00:04:23.120 align:start position:0%
+image here which I've used previously
+ 
+
+00:04:23.120 --> 00:04:25.550 align:start position:0%
+image here which I've used previously
+I'm<00:04:23.199><c> going</c><00:04:23.360><c> to</c><00:04:23.759><c> clear</c><00:04:24.199><c> all</c><00:04:24.400><c> these</c>
+
+00:04:25.550 --> 00:04:25.560 align:start position:0%
+I'm going to clear all these
+ 
+
+00:04:25.560 --> 00:04:27.710 align:start position:0%
+I'm going to clear all these
+settings<00:04:26.560><c> and</c><00:04:26.840><c> what</c><00:04:26.919><c> I'm</c><00:04:27.040><c> going</c><00:04:27.160><c> to</c><00:04:27.280><c> do</c><00:04:27.440><c> is</c><00:04:27.600><c> the</c>
+
+00:04:27.710 --> 00:04:27.720 align:start position:0%
+settings and what I'm going to do is the
+ 
+
+00:04:27.720 --> 00:04:29.469 align:start position:0%
+settings and what I'm going to do is the
+dog<00:04:27.880><c> is</c><00:04:28.040><c> looking</c><00:04:28.320><c> around</c><00:04:28.680><c> I'm</c><00:04:28.800><c> going</c><00:04:28.880><c> to</c><00:04:29.080><c> move</c>
+
+00:04:29.469 --> 00:04:29.479 align:start position:0%
+dog is looking around I'm going to move
+ 
+
+00:04:29.479 --> 00:04:31.270 align:start position:0%
+dog is looking around I'm going to move
+the<00:04:29.800><c> camera</c><00:04:30.160><c> and</c><00:04:30.280><c> I</c><00:04:30.360><c> want</c><00:04:30.479><c> to</c><00:04:30.720><c> kind</c><00:04:30.840><c> of</c><00:04:31.039><c> like</c>
+
+00:04:31.270 --> 00:04:31.280 align:start position:0%
+the camera and I want to kind of like
+ 
+
+00:04:31.280 --> 00:04:32.909 align:start position:0%
+the camera and I want to kind of like
+tilt<00:04:31.600><c> the</c><00:04:31.720><c> camera</c><00:04:32.000><c> to</c><00:04:32.120><c> be</c><00:04:32.280><c> looking</c><00:04:32.639><c> off</c><00:04:32.800><c> in</c>
+
+00:04:32.909 --> 00:04:32.919 align:start position:0%
+tilt the camera to be looking off in
+ 
+
+00:04:32.919 --> 00:04:34.070 align:start position:0%
+tilt the camera to be looking off in
+this<00:04:33.080><c> other</c><00:04:33.280><c> direction</c><00:04:33.600><c> at</c><00:04:33.759><c> some</c><00:04:33.880><c> of</c><00:04:34.000><c> the</c>
+
+00:04:34.070 --> 00:04:34.080 align:start position:0%
+this other direction at some of the
+ 
+
+00:04:34.080 --> 00:04:35.710 align:start position:0%
+this other direction at some of the
+buildings<00:04:34.720><c> so</c><00:04:34.840><c> I'm</c><00:04:35.039><c> going</c><00:04:35.120><c> to</c><00:04:35.240><c> remove</c><00:04:35.560><c> my</c>
+
+00:04:35.710 --> 00:04:35.720 align:start position:0%
+buildings so I'm going to remove my
+ 
+
+00:04:35.720 --> 00:04:37.670 align:start position:0%
+buildings so I'm going to remove my
+prompt<00:04:36.039><c> and</c><00:04:36.199><c> just</c><00:04:36.400><c> essentially</c><00:04:36.919><c> adjust</c><00:04:37.520><c> to</c>
+
+00:04:37.670 --> 00:04:37.680 align:start position:0%
+prompt and just essentially adjust to
+ 
+
+00:04:37.680 --> 00:04:40.749 align:start position:0%
+prompt and just essentially adjust to
+try<00:04:37.880><c> and</c><00:04:38.000><c> get</c><00:04:38.199><c> this</c><00:04:38.400><c> camera</c><00:04:38.800><c> to</c><00:04:38.960><c> look</c><00:04:39.520><c> away</c><00:04:40.520><c> now</c>
+
+00:04:40.749 --> 00:04:40.759 align:start position:0%
+try and get this camera to look away now
+ 
+
+00:04:40.759 --> 00:04:42.990 align:start position:0%
+try and get this camera to look away now
+I'm<00:04:41.039><c> going</c><00:04:41.120><c> to</c><00:04:41.320><c> try</c><00:04:41.680><c> this</c><00:04:41.960><c> without</c><00:04:42.520><c> adding</c><00:04:42.800><c> a</c>
+
+00:04:42.990 --> 00:04:43.000 align:start position:0%
+I'm going to try this without adding a
+ 
+
+00:04:43.000 --> 00:04:44.870 align:start position:0%
+I'm going to try this without adding a
+prompt<00:04:43.600><c> just</c><00:04:43.720><c> to</c><00:04:43.840><c> see</c><00:04:44.080><c> how</c><00:04:44.240><c> well</c><00:04:44.440><c> Runway</c>
+
+00:04:44.870 --> 00:04:44.880 align:start position:0%
+prompt just to see how well Runway
+ 
+
+00:04:44.880 --> 00:04:47.029 align:start position:0%
+prompt just to see how well Runway
+handles<00:04:45.199><c> it</c><00:04:45.840><c> but</c><00:04:45.919><c> I'm</c><00:04:46.000><c> going</c><00:04:46.120><c> to</c><00:04:46.280><c> stick</c><00:04:46.600><c> to</c><00:04:46.800><c> a</c>
+
+00:04:47.029 --> 00:04:47.039 align:start position:0%
+handles it but I'm going to stick to a
+ 
+
+00:04:47.039 --> 00:04:49.590 align:start position:0%
+handles it but I'm going to stick to a
+5-second<00:04:47.960><c> video</c><00:04:48.960><c> just</c><00:04:49.120><c> so</c><00:04:49.280><c> we</c><00:04:49.360><c> can</c><00:04:49.479><c> get</c>
+
+00:04:49.590 --> 00:04:49.600 align:start position:0%
+5-second video just so we can get
+ 
+
+00:04:49.600 --> 00:04:51.070 align:start position:0%
+5-second video just so we can get
+through<00:04:49.759><c> this</c><00:04:49.840><c> a</c><00:04:49.960><c> bit</c><00:04:50.120><c> quicker</c><00:04:50.720><c> I'm</c><00:04:50.840><c> going</c><00:04:50.919><c> to</c>
+
+00:04:51.070 --> 00:04:51.080 align:start position:0%
+through this a bit quicker I'm going to
+ 
+
+00:04:51.080 --> 00:04:53.230 align:start position:0%
+through this a bit quicker I'm going to
+hit<00:04:51.479><c> generate</c><00:04:52.479><c> and</c><00:04:52.639><c> again</c><00:04:52.800><c> we</c><00:04:52.919><c> got</c><00:04:53.039><c> a</c><00:04:53.120><c> little</c>
+
+00:04:53.230 --> 00:04:53.240 align:start position:0%
+hit generate and again we got a little
+ 
+
+00:04:53.240 --> 00:04:55.749 align:start position:0%
+hit generate and again we got a little
+bit<00:04:53.360><c> more</c><00:04:53.560><c> Dynamic</c><00:04:54.240><c> movement</c><00:04:55.240><c> but</c><00:04:55.360><c> I</c><00:04:55.520><c> kind</c><00:04:55.639><c> of</c>
+
+00:04:55.749 --> 00:04:55.759 align:start position:0%
+bit more Dynamic movement but I kind of
+ 
+
+00:04:55.759 --> 00:04:57.469 align:start position:0%
+bit more Dynamic movement but I kind of
+wanted<00:04:56.000><c> to</c><00:04:56.120><c> look</c><00:04:56.280><c> away</c><00:04:56.560><c> a</c><00:04:56.680><c> little</c><00:04:56.840><c> bit</c><00:04:57.000><c> more</c><00:04:57.320><c> so</c>
+
+00:04:57.469 --> 00:04:57.479 align:start position:0%
+wanted to look away a little bit more so
+ 
+
+00:04:57.479 --> 00:05:00.710 align:start position:0%
+wanted to look away a little bit more so
+I'm<00:04:57.639><c> going</c><00:04:57.800><c> to</c><00:04:58.759><c> type</c><00:04:59.039><c> in</c><00:04:59.280><c> here</c><00:05:00.120><c> a</c><00:05:00.280><c> dog</c><00:05:00.440><c> in</c><00:05:00.560><c> a</c>
+
+00:05:00.710 --> 00:05:00.720 align:start position:0%
+I'm going to type in here a dog in a
+ 
+
+00:05:00.720 --> 00:05:02.629 align:start position:0%
+I'm going to type in here a dog in a
+post-apocalyptic<00:05:01.520><c> City</c><00:05:01.880><c> panning</c><00:05:02.280><c> away</c><00:05:02.520><c> to</c>
+
+00:05:02.629 --> 00:05:02.639 align:start position:0%
+post-apocalyptic City panning away to
+ 
+
+00:05:02.639 --> 00:05:03.590 align:start position:0%
+post-apocalyptic City panning away to
+look<00:05:02.759><c> at</c><00:05:02.880><c> the</c>
+
+00:05:03.590 --> 00:05:03.600 align:start position:0%
+look at the
+ 
+
+00:05:03.600 --> 00:05:05.830 align:start position:0%
+look at the
+buildings<00:05:04.600><c> I'm</c><00:05:04.759><c> going</c><00:05:04.919><c> to</c>
+
+00:05:05.830 --> 00:05:05.840 align:start position:0%
+buildings I'm going to
+ 
+
+00:05:05.840 --> 00:05:09.550 align:start position:0%
+buildings I'm going to
+change<00:05:06.840><c> the</c><00:05:07.160><c> pan</c><00:05:07.880><c> to</c><00:05:08.080><c> the</c><00:05:08.280><c> other</c>
+
+00:05:09.550 --> 00:05:09.560 align:start position:0%
+change the pan to the other
+ 
+
+00:05:09.560 --> 00:05:12.110 align:start position:0%
+change the pan to the other
+direction<00:05:10.560><c> just</c><00:05:10.720><c> to</c><00:05:10.919><c> see</c><00:05:11.360><c> what</c><00:05:11.560><c> results</c><00:05:11.880><c> we</c>
+
+00:05:12.110 --> 00:05:12.120 align:start position:0%
+direction just to see what results we
+ 
+
+00:05:12.120 --> 00:05:14.670 align:start position:0%
+direction just to see what results we
+get<00:05:13.039><c> now</c><00:05:13.199><c> it's</c><00:05:13.360><c> still</c><00:05:13.600><c> zooming</c><00:05:13.960><c> out</c><00:05:14.160><c> but</c><00:05:14.360><c> kept</c>
+
+00:05:14.670 --> 00:05:14.680 align:start position:0%
+get now it's still zooming out but kept
+ 
+
+00:05:14.680 --> 00:05:16.670 align:start position:0%
+get now it's still zooming out but kept
+focus<00:05:15.000><c> on</c><00:05:15.160><c> the</c><00:05:15.280><c> images</c><00:05:15.759><c> provided</c><00:05:16.160><c> so</c><00:05:16.320><c> turning</c>
+
+00:05:16.670 --> 00:05:16.680 align:start position:0%
+focus on the images provided so turning
+ 
+
+00:05:16.680 --> 00:05:18.110 align:start position:0%
+focus on the images provided so turning
+away<00:05:17.000><c> seems</c><00:05:17.240><c> to</c><00:05:17.320><c> be</c><00:05:17.440><c> a</c><00:05:17.479><c> little</c><00:05:17.600><c> bit</c><00:05:17.720><c> more</c>
+
+00:05:18.110 --> 00:05:18.120 align:start position:0%
+away seems to be a little bit more
+ 
+
+00:05:18.120 --> 00:05:19.790 align:start position:0%
+away seems to be a little bit more
+difficult<00:05:18.400><c> but</c><00:05:19.000><c> it</c><00:05:19.160><c> just</c><00:05:19.280><c> goes</c><00:05:19.479><c> to</c><00:05:19.560><c> show</c><00:05:19.720><c> you</c>
+
+00:05:19.790 --> 00:05:19.800 align:start position:0%
+difficult but it just goes to show you
+ 
+
+00:05:19.800 --> 00:05:20.909 align:start position:0%
+difficult but it just goes to show you
+when<00:05:19.919><c> you're</c><00:05:20.080><c> experiment</c><00:05:20.520><c> with</c><00:05:20.639><c> this</c><00:05:20.759><c> stuff</c>
+
+00:05:20.909 --> 00:05:20.919 align:start position:0%
+when you're experiment with this stuff
+ 
+
+00:05:20.919 --> 00:05:21.909 align:start position:0%
+when you're experiment with this stuff
+you<00:05:21.000><c> can</c><00:05:21.120><c> kind</c><00:05:21.240><c> of</c><00:05:21.360><c> find</c><00:05:21.520><c> out</c><00:05:21.680><c> where</c><00:05:21.800><c> the</c>
+
+00:05:21.909 --> 00:05:21.919 align:start position:0%
+you can kind of find out where the
+ 
+
+00:05:21.919 --> 00:05:23.909 align:start position:0%
+you can kind of find out where the
+limitations<00:05:22.560><c> are</c><00:05:23.080><c> but</c><00:05:23.199><c> for</c><00:05:23.360><c> now</c><00:05:23.520><c> let's</c><00:05:23.720><c> move</c>
+
+00:05:23.909 --> 00:05:23.919 align:start position:0%
+limitations are but for now let's move
+ 
+
+00:05:23.919 --> 00:05:26.550 align:start position:0%
+limitations are but for now let's move
+on<00:05:24.080><c> to</c><00:05:24.479><c> this</c><00:05:24.680><c> image</c><00:05:25.199><c> which</c><00:05:25.319><c> we</c><00:05:25.520><c> used</c><00:05:25.919><c> in</c><00:05:26.120><c> the</c>
+
+00:05:26.550 --> 00:05:26.560 align:start position:0%
+on to this image which we used in the
+ 
+
+00:05:26.560 --> 00:05:28.749 align:start position:0%
+on to this image which we used in the
+last<00:05:27.160><c> video</c><00:05:27.759><c> and</c><00:05:27.880><c> I</c><00:05:27.960><c> was</c><00:05:28.080><c> able</c><00:05:28.280><c> to</c><00:05:28.400><c> get</c><00:05:28.600><c> this</c>
+
+00:05:28.749 --> 00:05:28.759 align:start position:0%
+last video and I was able to get this
+ 
+
+00:05:28.759 --> 00:05:30.990 align:start position:0%
+last video and I was able to get this
+result<00:05:29.120><c> last</c><00:05:29.280><c> time</c><00:05:29.440><c> with</c><00:05:29.759><c> the</c><00:05:29.919><c> simple</c><00:05:30.440><c> image</c>
+
+00:05:30.990 --> 00:05:31.000 align:start position:0%
+result last time with the simple image
+ 
+
+00:05:31.000 --> 00:05:34.150 align:start position:0%
+result last time with the simple image
+to<00:05:31.280><c> video</c><00:05:31.919><c> function</c><00:05:32.759><c> slowly</c><00:05:33.240><c> zooming</c><00:05:33.720><c> through</c>
+
+00:05:34.150 --> 00:05:34.160 align:start position:0%
+to video function slowly zooming through
+ 
+
+00:05:34.160 --> 00:05:36.830 align:start position:0%
+to video function slowly zooming through
+the<00:05:34.280><c> scene</c><00:05:34.759><c> and</c><00:05:34.960><c> kind</c><00:05:35.080><c> of</c><00:05:35.240><c> exploring</c>
+
+00:05:36.830 --> 00:05:36.840 align:start position:0%
+the scene and kind of exploring
+ 
+
+00:05:36.840 --> 00:05:39.670 align:start position:0%
+the scene and kind of exploring
+inward<00:05:37.840><c> I'm</c><00:05:38.000><c> essentially</c><00:05:38.759><c> going</c><00:05:39.039><c> to</c><00:05:39.240><c> use</c><00:05:39.520><c> the</c>
+
+00:05:39.670 --> 00:05:39.680 align:start position:0%
+inward I'm essentially going to use the
+ 
+
+00:05:39.680 --> 00:05:41.189 align:start position:0%
+inward I'm essentially going to use the
+settings<00:05:40.120><c> instead</c><00:05:40.360><c> of</c><00:05:40.479><c> zooming</c><00:05:40.800><c> in</c><00:05:40.919><c> I'm</c><00:05:41.039><c> going</c>
+
+00:05:41.189 --> 00:05:41.199 align:start position:0%
+settings instead of zooming in I'm going
+ 
+
+00:05:41.199 --> 00:05:43.270 align:start position:0%
+settings instead of zooming in I'm going
+to<00:05:41.319><c> try</c><00:05:41.520><c> to</c><00:05:41.840><c> zoom</c>
+
+00:05:43.270 --> 00:05:43.280 align:start position:0%
+to try to zoom
+ 
+
+00:05:43.280 --> 00:05:46.670 align:start position:0%
+to try to zoom
+out<00:05:44.280><c> and</c><00:05:44.360><c> we're</c><00:05:44.520><c> going</c><00:05:44.600><c> to</c><00:05:44.840><c> also</c><00:05:45.280><c> roll</c><00:05:45.800><c> a</c><00:05:45.919><c> bit</c>
+
+00:05:46.670 --> 00:05:46.680 align:start position:0%
+out and we're going to also roll a bit
+ 
+
+00:05:46.680 --> 00:05:50.029 align:start position:0%
+out and we're going to also roll a bit
+and<00:05:46.840><c> just</c><00:05:47.080><c> kind</c><00:05:47.199><c> of</c><00:05:47.560><c> move</c><00:05:48.319><c> off</c><00:05:49.319><c> to</c><00:05:49.520><c> look</c><00:05:49.720><c> up</c><00:05:49.840><c> to</c>
+
+00:05:50.029 --> 00:05:50.039 align:start position:0%
+and just kind of move off to look up to
+ 
+
+00:05:50.039 --> 00:05:52.150 align:start position:0%
+and just kind of move off to look up to
+the<00:05:50.280><c> sky</c><00:05:50.560><c> so</c><00:05:50.720><c> we're</c><00:05:50.840><c> going</c><00:05:50.960><c> to</c><00:05:51.199><c> really</c><00:05:51.560><c> tilt</c><00:05:51.960><c> up</c>
+
+00:05:52.150 --> 00:05:52.160 align:start position:0%
+the sky so we're going to really tilt up
+ 
+
+00:05:52.160 --> 00:05:53.830 align:start position:0%
+the sky so we're going to really tilt up
+to<00:05:52.280><c> try</c><00:05:52.479><c> and</c><00:05:52.960><c> focus</c><00:05:53.240><c> a</c><00:05:53.319><c> little</c><00:05:53.440><c> bit</c><00:05:53.560><c> more</c><00:05:53.680><c> of</c>
+
+00:05:53.830 --> 00:05:53.840 align:start position:0%
+to try and focus a little bit more of
+ 
+
+00:05:53.840 --> 00:05:55.430 align:start position:0%
+to try and focus a little bit more of
+these<00:05:53.960><c> jellyfish</c><00:05:54.840><c> I'm</c><00:05:54.960><c> going</c><00:05:55.039><c> to</c><00:05:55.160><c> add</c><00:05:55.280><c> a</c>
+
+00:05:55.430 --> 00:05:55.440 align:start position:0%
+these jellyfish I'm going to add a
+ 
+
+00:05:55.440 --> 00:05:58.270 align:start position:0%
+these jellyfish I'm going to add a
+prompt<00:05:56.280><c> I</c><00:05:56.440><c> have</c><00:05:56.840><c> tilt</c><00:05:57.160><c> up</c><00:05:57.319><c> to</c><00:05:57.479><c> the</c><00:05:57.680><c> sky</c><00:05:57.919><c> to</c><00:05:58.039><c> see</c>
+
+00:05:58.270 --> 00:05:58.280 align:start position:0%
+prompt I have tilt up to the sky to see
+ 
+
+00:05:58.280 --> 00:06:01.309 align:start position:0%
+prompt I have tilt up to the sky to see
+jellyfish<00:05:58.800><c> flying</c><00:05:59.280><c> upward</c><00:05:59.680><c> woods</c><00:06:00.520><c> and</c><00:06:00.639><c> it's</c>
+
+00:06:01.309 --> 00:06:01.319 align:start position:0%
+jellyfish flying upward woods and it's
+ 
+
+00:06:01.319 --> 00:06:03.430 align:start position:0%
+jellyfish flying upward woods and it's
+popped<00:06:01.639><c> a</c><00:06:01.919><c> jellyfish</c><00:06:02.919><c> right</c><00:06:03.080><c> in</c><00:06:03.160><c> the</c><00:06:03.240><c> middle</c>
+
+00:06:03.430 --> 00:06:03.440 align:start position:0%
+popped a jellyfish right in the middle
+ 
+
+00:06:03.440 --> 00:06:06.270 align:start position:0%
+popped a jellyfish right in the middle
+of<00:06:03.520><c> the</c><00:06:03.840><c> scene</c><00:06:04.840><c> it's</c><00:06:05.120><c> not</c><00:06:05.560><c> really</c><00:06:05.880><c> what</c><00:06:06.000><c> I</c><00:06:06.120><c> was</c>
+
+00:06:06.270 --> 00:06:06.280 align:start position:0%
+of the scene it's not really what I was
+ 
+
+00:06:06.280 --> 00:06:08.469 align:start position:0%
+of the scene it's not really what I was
+looking<00:06:06.520><c> for</c><00:06:07.199><c> but</c><00:06:07.360><c> the</c><00:06:07.440><c> video</c><00:06:07.840><c> otherwise</c><00:06:08.280><c> is</c>
+
+00:06:08.469 --> 00:06:08.479 align:start position:0%
+looking for but the video otherwise is
+ 
+
+00:06:08.479 --> 00:06:09.830 align:start position:0%
+looking for but the video otherwise is
+pretty
+
+00:06:09.830 --> 00:06:09.840 align:start position:0%
+pretty
+ 
+
+00:06:09.840 --> 00:06:12.189 align:start position:0%
+pretty
+solid<00:06:10.840><c> let's</c><00:06:11.039><c> just</c><00:06:11.199><c> remove</c><00:06:11.520><c> the</c><00:06:11.639><c> prompt</c><00:06:12.000><c> this</c>
+
+00:06:12.189 --> 00:06:12.199 align:start position:0%
+solid let's just remove the prompt this
+ 
+
+00:06:12.199 --> 00:06:14.270 align:start position:0%
+solid let's just remove the prompt this
+time<00:06:12.880><c> try</c><00:06:13.160><c> one</c><00:06:13.319><c> more</c>
+
+00:06:14.270 --> 00:06:14.280 align:start position:0%
+time try one more
+ 
+
+00:06:14.280 --> 00:06:16.550 align:start position:0%
+time try one more
+time<00:06:15.280><c> and</c><00:06:15.479><c> this</c><00:06:15.680><c> instance</c><00:06:15.960><c> we</c><00:06:16.120><c> got</c><00:06:16.199><c> a</c><00:06:16.319><c> much</c>
+
+00:06:16.550 --> 00:06:16.560 align:start position:0%
+time and this instance we got a much
+ 
+
+00:06:16.560 --> 00:06:19.830 align:start position:0%
+time and this instance we got a much
+better<00:06:16.919><c> result</c><00:06:17.639><c> by</c><00:06:17.880><c> not</c><00:06:18.319><c> adding</c><00:06:18.599><c> a</c><00:06:18.800><c> prompt</c><00:06:19.680><c> so</c>
+
+00:06:19.830 --> 00:06:19.840 align:start position:0%
+better result by not adding a prompt so
+ 
+
+00:06:19.840 --> 00:06:21.309 align:start position:0%
+better result by not adding a prompt so
+you<00:06:19.919><c> can</c><00:06:20.000><c> see</c><00:06:20.360><c> sometimes</c><00:06:20.560><c> adding</c><00:06:20.759><c> a</c><00:06:20.880><c> prompt</c><00:06:21.160><c> is</c>
+
+00:06:21.309 --> 00:06:21.319 align:start position:0%
+you can see sometimes adding a prompt is
+ 
+
+00:06:21.319 --> 00:06:22.749 align:start position:0%
+you can see sometimes adding a prompt is
+good<00:06:22.000><c> sometimes</c><00:06:22.240><c> you</c><00:06:22.360><c> can</c><00:06:22.479><c> get</c><00:06:22.599><c> some</c>
+
+00:06:22.749 --> 00:06:22.759 align:start position:0%
+good sometimes you can get some
+ 
+
+00:06:22.759 --> 00:06:25.710 align:start position:0%
+good sometimes you can get some
+undesirable<00:06:23.759><c> results</c><00:06:24.759><c> so</c><00:06:25.160><c> this</c><00:06:25.280><c> can</c><00:06:25.440><c> be</c><00:06:25.560><c> a</c>
+
+00:06:25.710 --> 00:06:25.720 align:start position:0%
+undesirable results so this can be a
+ 
+
+00:06:25.720 --> 00:06:27.670 align:start position:0%
+undesirable results so this can be a
+great<00:06:25.960><c> way</c><00:06:26.120><c> to</c><00:06:26.360><c> experiment</c><00:06:27.039><c> and</c><00:06:27.319><c> have</c><00:06:27.440><c> a</c><00:06:27.520><c> bit</c>
+
+00:06:27.670 --> 00:06:27.680 align:start position:0%
+great way to experiment and have a bit
+ 
+
+00:06:27.680 --> 00:06:30.510 align:start position:0%
+great way to experiment and have a bit
+of<00:06:27.840><c> fun</c><00:06:28.440><c> with</c><00:06:28.599><c> Runway</c>
+
+00:06:30.510 --> 00:06:30.520 align:start position:0%
+of fun with Runway
+ 
+
+00:06:30.520 --> 00:06:32.270 align:start position:0%
+of fun with Runway
+so<00:06:30.759><c> playing</c><00:06:31.080><c> around</c><00:06:31.319><c> with</c><00:06:31.479><c> these</c><00:06:31.680><c> settings</c>
+
+00:06:32.270 --> 00:06:32.280 align:start position:0%
+so playing around with these settings
+ 
+
+00:06:32.280 --> 00:06:34.110 align:start position:0%
+so playing around with these settings
+using<00:06:32.599><c> the</c><00:06:32.800><c> visual</c><00:06:33.199><c> guide</c><00:06:33.520><c> can</c><00:06:33.680><c> help</c><00:06:33.880><c> you</c>
+
+00:06:34.110 --> 00:06:34.120 align:start position:0%
+using the visual guide can help you
+ 
+
+00:06:34.120 --> 00:06:36.390 align:start position:0%
+using the visual guide can help you
+position<00:06:34.440><c> the</c><00:06:34.639><c> camera</c><00:06:35.240><c> but</c><00:06:35.360><c> it's</c><00:06:35.560><c> not</c><00:06:35.800><c> a</c><00:06:36.039><c> solid</c>
+
+00:06:36.390 --> 00:06:36.400 align:start position:0%
+position the camera but it's not a solid
+ 
+
+00:06:36.400 --> 00:06:38.550 align:start position:0%
+position the camera but it's not a solid
+and<00:06:36.639><c> exact</c><00:06:37.000><c> science</c><00:06:37.639><c> you</c><00:06:37.759><c> need</c><00:06:37.880><c> to</c><00:06:38.080><c> recognize</c>
+
+00:06:38.550 --> 00:06:38.560 align:start position:0%
+and exact science you need to recognize
+ 
+
+00:06:38.560 --> 00:06:41.710 align:start position:0%
+and exact science you need to recognize
+the<00:06:38.720><c> limitations</c><00:06:39.680><c> of</c><00:06:40.080><c> the</c><00:06:40.240><c> AI</c><00:06:40.560><c> video</c><00:06:40.880><c> feature</c>
+
+00:06:41.710 --> 00:06:41.720 align:start position:0%
+the limitations of the AI video feature
+ 
+
+00:06:41.720 --> 00:06:43.749 align:start position:0%
+the limitations of the AI video feature
+definitely<00:06:42.520><c> getting</c><00:06:42.800><c> too</c><00:06:43.160><c> creative</c><00:06:43.639><c> with</c>
+
+00:06:43.749 --> 00:06:43.759 align:start position:0%
+definitely getting too creative with
+ 
+
+00:06:43.759 --> 00:06:45.909 align:start position:0%
+definitely getting too creative with
+your<00:06:43.919><c> prompt</c><00:06:44.479><c> can</c><00:06:44.759><c> make</c><00:06:45.000><c> things</c><00:06:45.240><c> a</c><00:06:45.400><c> lot</c><00:06:45.639><c> better</c>
+
+00:06:45.909 --> 00:06:45.919 align:start position:0%
+your prompt can make things a lot better
+ 
+
+00:06:45.919 --> 00:06:47.790 align:start position:0%
+your prompt can make things a lot better
+or<00:06:46.080><c> a</c><00:06:46.199><c> lot</c><00:06:46.440><c> worse</c><00:06:47.000><c> but</c><00:06:47.120><c> I</c><00:06:47.240><c> highly</c><00:06:47.440><c> recommend</c>
+
+00:06:47.790 --> 00:06:47.800 align:start position:0%
+or a lot worse but I highly recommend
+ 
+
+00:06:47.800 --> 00:06:49.270 align:start position:0%
+or a lot worse but I highly recommend
+going<00:06:47.960><c> in</c><00:06:48.080><c> and</c><00:06:48.199><c> having</c><00:06:48.360><c> a</c><00:06:48.520><c> play</c><00:06:48.800><c> to</c><00:06:48.880><c> see</c><00:06:49.120><c> what</c>
+
+00:06:49.270 --> 00:06:49.280 align:start position:0%
+going in and having a play to see what
+ 
+
+00:06:49.280 --> 00:06:50.990 align:start position:0%
+going in and having a play to see what
+you<00:06:49.440><c> can</c><00:06:49.639><c> make</c><00:06:49.880><c> happen</c><00:06:50.280><c> with</c><00:06:50.479><c> this</c><00:06:50.680><c> and</c><00:06:50.800><c> if</c><00:06:50.919><c> you</c>
+
+00:06:50.990 --> 00:06:51.000 align:start position:0%
+you can make happen with this and if you
+ 
+
+00:06:51.000 --> 00:06:53.309 align:start position:0%
+you can make happen with this and if you
+want<00:06:51.319><c> more</c><00:06:52.039><c> coverage</c><00:06:52.400><c> on</c><00:06:52.560><c> Runway</c><00:06:53.000><c> features</c>
+
+00:06:53.309 --> 00:06:53.319 align:start position:0%
+want more coverage on Runway features
+ 
+
+00:06:53.319 --> 00:06:55.710 align:start position:0%
+want more coverage on Runway features
+and<00:06:53.560><c> how</c><00:06:53.680><c> to</c><00:06:53.800><c> use</c><00:06:54.000><c> Runway</c><00:06:54.759><c> leave</c><00:06:55.000><c> a</c><00:06:55.319><c> comment</c>
+
+00:06:55.710 --> 00:06:55.720 align:start position:0%
+and how to use Runway leave a comment
+ 
+
+00:06:55.720 --> 00:06:57.510 align:start position:0%
+and how to use Runway leave a comment
+below<00:06:56.400><c> and</c><00:06:56.720><c> I</c><00:06:56.800><c> hope</c><00:06:56.919><c> you</c><00:06:57.000><c> have</c><00:06:57.120><c> a</c><00:06:57.160><c> bit</c><00:06:57.280><c> of</c><00:06:57.360><c> fun</c>
+
+00:06:57.510 --> 00:06:57.520 align:start position:0%
+below and I hope you have a bit of fun
+ 
+
+00:06:57.520 --> 00:06:59.749 align:start position:0%
+below and I hope you have a bit of fun
+playing<00:06:57.759><c> with</c><00:06:57.919><c> this</c><00:06:58.080><c> as</c><00:06:58.240><c> I</c><00:06:58.400><c> did</c><00:06:58.759><c> and</c><00:06:59.120><c> uh</c><00:06:59.599><c> so</c>
+
+00:06:59.749 --> 00:06:59.759 align:start position:0%
+playing with this as I did and uh so
+ 
+
+00:06:59.759 --> 00:07:01.749 align:start position:0%
+playing with this as I did and uh so
+check<00:06:59.960><c> it</c><00:07:00.120><c> out</c><00:07:00.639><c> and</c><00:07:00.800><c> if</c><00:07:00.879><c> you</c><00:07:01.000><c> like</c><00:07:01.199><c> the</c><00:07:01.319><c> video</c>
+
+00:07:01.749 --> 00:07:01.759 align:start position:0%
+check it out and if you like the video
+ 
+
+00:07:01.759 --> 00:07:03.150 align:start position:0%
+check it out and if you like the video
+please<00:07:02.000><c> consider</c><00:07:02.280><c> giving</c><00:07:02.479><c> it</c><00:07:02.560><c> a</c><00:07:02.720><c> like</c><00:07:02.960><c> that</c><00:07:03.039><c> is</c>
+
+00:07:03.150 --> 00:07:03.160 align:start position:0%
+please consider giving it a like that is
+ 
+
+00:07:03.160 --> 00:07:04.589 align:start position:0%
+please consider giving it a like that is
+the<00:07:03.280><c> video</c><00:07:03.479><c> for</c><00:07:03.680><c> today</c><00:07:04.000><c> guys</c><00:07:04.199><c> hope</c><00:07:04.319><c> to</c><00:07:04.400><c> see</c><00:07:04.520><c> you</c>
+
+00:07:04.589 --> 00:07:04.599 align:start position:0%
+the video for today guys hope to see you
+ 
+
+00:07:04.599 --> 00:07:06.510 align:start position:0%
+the video for today guys hope to see you
+again<00:07:04.800><c> next</c><00:07:05.000><c> time</c><00:07:05.240><c> thanks</c><00:07:05.440><c> for</c><00:07:05.599><c> watching</c><00:07:06.400><c> have</c>
+
+00:07:06.510 --> 00:07:06.520 align:start position:0%
+again next time thanks for watching have
+ 
+
+00:07:06.520 --> 00:07:09.919 align:start position:0%
+again next time thanks for watching have
+a<00:07:06.680><c> great</c><00:07:06.919><c> day</c>
+

@@ -1,0 +1,27 @@
+# 📜 General Account Build SOP for eCommerce
+**Fuente:** SolutionsUno | https://youtu.be/uDbje0ey75Q
+
+## Qué enseña (2-3 líneas)
+Este video presenta un template estructurado para construir cuentas de Google Ads eCommerce, donde Performance Max (PMax) debe mantenerse al 20% o menos del gasto total mensual, complementado con campañas inbound (Standard Shopping, Brand Search, DSA) y outbound (YouTube, YouTube Shorts). Enseña a evaluar el riesgo "omnichannel" (tráfico externo como Facebook) que puede distorsionar el rendimiento de PMax, y cómo asignar presupuesto según el contexto del cliente.
+
+## Lecciones accionables
+- **Mantener PMax ≤20% del gasto total mensual**: Usar el template para limitar la exposición de PMax a tráfico omnichannel externo (Facebook, mailers, orgánico, influencers). Si el cliente gasta $5K/mes y solo usa Google, PMax puede subir al 20%; si gasta $100K/mes con múltiples canales, mantenerlo bajo control.
+- **Identificar el riesgo omnichannel en PMax**: Revisar en el "insights tab" de PMax si las conversiones vienen de "search categories" (inbound) vs. "listing groups" (shopping). Si hay 30 conversiones en listing groups y 30 en search categories (total 60 reportadas pero solo 30 reales), significa que PMax está capturando búsquedas de marca y shopping simultáneamente — señal de que el tráfico externo (Facebook) está generando búsquedas de marca que PMax absorbe.
+- **Usar YouTube Shorts con bidding de conversiones**: Crear una campaña de YouTube con estrategia de puja "Conversions" (leads o ventas), segmentada solo a usuarios móviles con un video vertical (vertical video asset). Esto funciona como tráfico outbound "tipo Facebook" para top of funnel frío.
+- **Evaluar si agregar Display Remarketing**: Si PMax tiene un CPA de $15 y 28 de 34 conversiones ocurren en <1 día (un click, una venta), no hay necesidad de remarketing display. Pero si el remarketing display logra un CPA menor a $15 y no canibaliza las conversiones de PMax (revisar MER: "all cash in / all cash out"), entonces agregarlo como 5-10% del presupuesto total.
+- **Ajustar presupuestos según el contexto del cliente**: Preguntar: ¿Hay tráfico de competidores? ¿El cliente tiene videos propios? ¿Cuál es el ROAS objetivo (ej. 300-400%)? Si el AOV es alto ($500+), priorizar Standard Shopping (control de CAC y ROAS) sobre DSA (CPC más caro). Si no hay videos, asignar ese presupuesto a PMax para que explore Display, Discover, YouTube y Gmail.
+- **Template de asignación de presupuesto (ejemplo con $100)**: Brand Search (10%), YouTube Top of Funnel (0% si no hay videos), Extensive DSA (15%), Standard Shopping (30%), PMax (20%), Inbound Search (25%). Ajustar según ROAS objetivo y disponibilidad de assets.
+
+## Reglas para agentes
+- **Usa PMax al 20% del gasto total mensual cuando el cliente tenga tráfico omnichannel externo significativo (Facebook, mailers, orgánico, influencers) para evitar que PMax dependa de ese tráfico y muera si se pausa.**
+- **Nunca confíes en que PMax no está haciendo remarketing dinámico**: aunque no configures targeting de warm traffic, PMax remarketea automáticamente a visitantes del sitio. Si el tráfico externo es de baja calidad, PMax gastará presupuesto en remarketear a usuarios no interesados.
+- **Verifica siempre la atribución en PMax**: si en el "insights tab" ves conversiones en "search categories" y en "listing groups" que suman más que las conversiones totales, es señal de que PMax está duplicando atribución entre búsqueda de marca y shopping — reduce el presupuesto de PMax o agrega una campaña de Brand Search separada.
+- **Usa la regla de "un click, una venta" para decidir si agregar remarketing**: si más del 80% de las conversiones ocurren en menos de 1 día (días hasta conversión), no necesitas remarketing display; si hay conversiones que toman 2-5 días, considera remarketing al 5-10% del presupuesto.
+- **Nunca asignes más del 10% del presupuesto a pruebas de remarketing o nuevos tipos de campaña (YouTube Shorts, Display) sin antes aislarlas y medir el impacto en el MER global (all cash in / all cash out).**
+
+## Errores comunes que evita o menciona
+- **Dependencia excesiva de PMax en tráfico omnichannel**: Si Facebook genera 100K visitas/mes de baja calidad, PMax gastará presupuesto en remarketear a esos usuarios no interesados, arruinando el ROAS. Solución: mantener PMax ≤20% para limitar el impacto.
+- **Atribución incorrecta en PMax**: PMax puede reportar 60 conversiones cuando solo hay 30 reales, porque atribuye la misma conversión a "search categories" (búsqueda de marca) y "listing groups" (shopping) simultáneamente. Esto infla el rendimiento percibido.
+- **Asumir que PMax no hace remarketing**: Aunque no se configure targeting de warm traffic, PMax remarketea dinámicamente hasta el 60% de su actividad en YouTube a audiencias de remarketing. Si el tráfico externo es malo, ese 60% será desperdicio.
+- **No considerar el "días hasta conversión"**: Si la mayoría de conversiones ocurren en <1 día, el remarketing es innecesario y puede aumentar el CPA sin beneficio. Revisar esta métrica antes de agregar campañas de remarketing.
+- **Ignorar el MER (Marketing Efficiency Ratio)**: No evaluar "all cash in / all cash out" globalmente. Una campaña de remarketing puede tener buen CPA pero canibalizar conversiones de PMax, reduciendo el ROAS total.

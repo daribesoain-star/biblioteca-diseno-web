@@ -1,0 +1,574 @@
+WhatsApp frequency capping: What you need to know  – Infobip
+Skip to main content
+Service status
+External connectivity status
+Startups
+Support center
+Site language:
+en
+English
+Spanish
+German
+Arabic
+Italian
+Japanese
+Korean
+Portuguese
+Login
+Products
+Solutions
+Telecoms
+Partnerships
+Developers
+Company
+Pricing
+Try for free
+Contact us
+AGENTIC AI
+Agentic AI platform
+AgentOS
+NEW
+Journey orchestration
+AI agents
+AI chatbot builder
+Cloud contact center
+Customer data platform
+Conversational AI
+Customer engagement
+Insights and analytics
+Programmable Channels
+SMS
+API
+RCS
+API
+Email
+API
+MMS
+API
+Voice
+API
+Live Chat
+API
+Video
+API
+In-app messaging
+Mobile push
+API
+WhatsApp
+API
+Viber for Business
+API
+Messenger
+API
+Instagram
+API
+Telegram
+Apple
+Kakao Business
+Line
+Zalo
+Platform functionality
+Smart Messaging
+Optimize your messaging costs with the most efficient channel mix
+Infobip Signals
+Block fraudulent OTP traffic
+CPaaS X
+API
+Modular API stack to help platforms scale exponentially
+Authentication
+API
+Customer authentication and verification
+Mobile identity
+API
+Protect and identify your users
+Number lookup
+API
+Root out invalid numbers
+Numbers
+10 DLC
+Business segments
+B2B Platforms
+Enable your clients to send traffic at scale
+Digital Natives
+Disrupt the world through digital innovation
+Enterprise
+Transform your communication globally
+Wholesale
+Expand your channel offering at scale
+Industry verticals
+Finance
+Reassure customers with secure interactions
+Retail & eCommerce
+Boost conversion and increase customer loyalty
+Telecoms
+Build superior CX solutions across the entire telecom customer journey
+Healthcare
+Deliver a fast, convenient patient experience in-person or at home
+Transportation
+Deliver superior transportation and logistics customer experience
+Government solutions
+Transforming citizen engagement with AI
+Sport & entertainment
+Fan engagement solutions to excite audiences and grow loyalty
+Department
+Marketing
+Unleash the power of omnichannel marketing automation
+Sales
+Optimize your sales with intelligent automation
+Customer service
+Provide efficient customer service on the most popular channels
+Our services
+CX consulting
+Maximize return on your CX investments
+Professional services
+Ensure early and sustainable ROI on your CX investments
+CX maturity assessment
+Find out how to reach your full conversational potential
+Solutions for telecoms
+The Infobip advantage for telcos
+See why leading telecoms around the world choose Infobip to transform their network
+Telecom CPaaS partnerships
+Create new B2B revenue streams with our omnichannel communications platform
+Telecom CX solutions
+Build superior CX solutions across the entire telecom customer journey
+Telecom core & security
+Anam Protect Firewall
+Secure your network from SMS and Voice fraud with our firewall that protects 120+ operators
+SMS Firewall
+Ensure all A2P SMS traffic is properly charged and eliminate revenue leakage with our SMS Firewall
+Networks APIs
+Tap into the core of telecom networks, and deliver unparalleled customer experiences
+RCS Connectivity and Infobip MaaP
+Gain full control, visibility, and billing efficiency
+Featured cases
+Unlock the power of network APIs: How CAMARA transforms Telco innovation
+How AI is transforming the telecom industry
+The future of conversational messaging with RCS: A look ahead with BT
+API & TOOLS
+API Reference
+API Status
+Change Log
+SDKs
+Postman
+Community & Resources
+Shiftmag
+Newsletter & magazine for developers
+Shift conference
+Leading developers conference in Southern Europe
+GitHub
+Integrations
+Documentation
+Infobip Developers Discord
+About us
+Our story
+Leadership
+Our values
+Global presence
+Careers
+Resources
+Blog
+Downloads
+Customer stories
+Spotlight
+Guides
+Academy
+Documentation
+Product updates
+News Center
+Newsroom
+Analyst reports
+Events
+Media kit
+Media inquiries
+Featured content
+Harvard Business Review
+Messaging Trends 2026
+CX maturity report
+Generational Messaging Trends
+Products
+AGENTIC AI
+Agentic AI platform
+AgentOS
+NEW
+Journey orchestration
+AI agents
+AI chatbot builder
+Cloud contact center
+Customer data platform
+Conversational AI
+Customer engagement
+Insights and analytics
+Programmable Channels
+SMS
+API
+RCS
+API
+Email
+API
+MMS
+API
+Voice
+API
+Live Chat
+API
+Video
+API
+In-app messaging
+Mobile push
+API
+WhatsApp
+API
+Viber for Business
+API
+Messenger
+API
+Instagram
+API
+Telegram
+Apple
+Kakao Business
+Line
+Zalo
+Platform functionality
+Smart Messaging
+Optimize your messaging costs with the most efficient channel mix
+Infobip Signals
+Block fraudulent OTP traffic
+CPaaS X
+API
+Modular API stack to help platforms scale exponentially
+Authentication
+API
+Customer authentication and verification
+Mobile identity
+API
+Protect and identify your users
+Number lookup
+API
+Root out invalid numbers
+Numbers
+10 DLC
+Solutions
+Business segments
+B2B Platforms
+Enable your clients to send traffic at scale
+Digital Natives
+Disrupt the world through digital innovation
+Enterprise
+Transform your communication globally
+Wholesale
+Expand your channel offering at scale
+Industry verticals
+Finance
+Reassure customers with secure interactions
+Retail & eCommerce
+Boost conversion and increase customer loyalty
+Telecoms
+Build superior CX solutions across the entire telecom customer journey
+Healthcare
+Deliver a fast, convenient patient experience in-person or at home
+Transportation
+Deliver superior transportation and logistics customer experience
+Government solutions
+Transforming citizen engagement with AI
+Sport & entertainment
+Fan engagement solutions to excite audiences and grow loyalty
+Department
+Marketing
+Unleash the power of omnichannel marketing automation
+Sales
+Optimize your sales with intelligent automation
+Customer service
+Provide efficient customer service on the most popular channels
+Our services
+CX consulting
+Maximize return on your CX investments
+Professional services
+Ensure early and sustainable ROI on your CX investments
+CX maturity assessment
+Find out how to reach your full conversational potential
+Telecoms
+Solutions for telecoms
+The Infobip advantage for telcos
+See why leading telecoms around the world choose Infobip to transform their network
+Telecom CPaaS partnerships
+Create new B2B revenue streams with our omnichannel communications platform
+Telecom CX solutions
+Build superior CX solutions across the entire telecom customer journey
+Telecom core & security
+Anam Protect Firewall
+Secure your network from SMS and Voice fraud with our firewall that protects 120+ operators
+SMS Firewall
+Ensure all A2P SMS traffic is properly charged and eliminate revenue leakage with our SMS Firewall
+Networks APIs
+Tap into the core of telecom networks, and deliver unparalleled customer experiences
+RCS Connectivity and Infobip MaaP
+Gain full control, visibility, and billing efficiency
+Featured cases
+Unlock the power of network APIs: How CAMARA transforms Telco innovation
+How AI is transforming the telecom industry
+The future of conversational messaging with RCS: A look ahead with BT
+Partnerships
+Developers
+API & TOOLS
+API Reference
+API Status
+Change Log
+SDKs
+Postman
+Community & Resources
+Shiftmag
+Newsletter & magazine for developers
+Shift conference
+Leading developers conference in Southern Europe
+GitHub
+Integrations
+Documentation
+Infobip Developers Discord
+Company
+About us
+Our story
+Leadership
+Our values
+Global presence
+Careers
+Resources
+Blog
+Downloads
+Customer stories
+Spotlight
+Guides
+Academy
+Documentation
+Product updates
+News Center
+Newsroom
+Analyst reports
+Events
+Media kit
+Media inquiries
+Featured content
+Harvard Business Review
+Messaging Trends 2026
+CX maturity report
+Generational Messaging Trends
+Pricing
+Support center
+Try for free
+Contact us
+All
+Resources
+Posts
+Posts
+Pages
+Campaigns
+News Stories
+Cases
+Webinars
+Scale Up & Up Episodes
+Podcasts
+Glossaries
+Events
+Guides
+Product Updates
+Job Openings
+Engineering Stories
+Downloads
+Publications
+Offices
+Success Stories
+Analyst Reports
+Authors
+FAQs
+Customers
+Telecoms
+View all results
+Date
+Title
+WhatsApp frequency capping: What you need to know
+Businesses are using WhatsApp messages to connect with their customers, but frequency capping is changing the rules. This blog will explain frequency capping, why it matters, and how to adapt your WhatsApp marketing to make every message count.
+Nina Vresnik
+Content Marketing Specialist
+Article info
+Skip to table of contents
+The days of blasting out endless marketing messages on WhatsApp are over. Meta has stepped in with new limits to protect users, and that means businesses need to rethink how they use the WhatsApp Business API. Whether you run one campaign or manage several WhatsApp Business Accounts, you need to understand frequency capping. It can help you build real engagement, or, if ignored, cause your messages to fail.
+What Is WhatsApp frequency capping?
+WhatsApp frequency capping is a limit set by Meta to prevent users from receiving too many marketing messages. Businesses can send only two marketing template messages to the same user in a 24 hour period. Any additional marketing messages in that time will fail.
+The limit only applies to marketing templates. Other types of WhatsApp messages follow different rules.
+We cover these exceptions in detail later, but the key point is this: not every message you send is counted toward the cap.
+In short, frequency capping prevents businesses from spamming and protects users from overcrowded inboxes. For marketers, it means campaigns must be planned more carefully because ignoring the limits will only lead to failed delivery and wasted effort.
+WhatsApp frequency capping explained
+Imagine a customer opening WhatsApp to find multiple offers and reminders from different brands. Instead of engaging, they mute or block the sender. The outcome is predictable: lower quality ratings, a weaker customer experience, and declining delivery rates. This improved with Meta introducing frequency capping, which limits the number of marketing messages a user can receive in a day.
+Businesses can now send only two templated messages within 24 hours to the same WhatsApp user. Any additional attempts will be blocked once the cap is reached.
+The purpose is not to work against businesses but to:
+Improve the overall user experience
+Encourage more thoughtful WhatsApp marketing
+Protect WhatsApp Business Platform from being treated like spam-heavy channels of the past
+While the cap sounds strict, it only applies to certain kinds of messages. Others still give you flexibility to engage customers.
+Messages affected by frequency capping
+Every message type on WhatsApp has its own rules. Some fall under Meta’s cap, while others are treated separately because they are essential for service or user initiated. Understanding these categories makes it easier to design campaigns that stay within the limits but still keep conversations active.
+So which messages are capped, and which ones are not? The table below gives a simple breakdown.
+Message type
+Frequency / Restriction
+Marketing templated
+Maximum of 2 messages per user in 24 hours. A new marketing communication can start only after 24 hours.
+Utility templated
+Exempt. Examples include order updates, delivery confirmations, reminders, and other service-related notifications.
+Authentication templated
+Exempt. Examples include login codes and one-time passwords and other identity verification messages.
+Free-form
+Not limited. Businesses can reply freely within 24 hours after a user sends a message.
+Optimized marketing templates (Marketing Messages Lite)
+Exempt in some cases. When sent through the Marketing Messages Lite API, highly rated templates may be delivered above the standard frequency cap.
+How frequency capping works
+Meta enforces frequency capping at the user level, not per business. This means if a single phone number receives too many marketing messages from different brands in one day, later ones will fail even if your brand has not reached its own quota.
+When this happens, it can look like a delivery issue, but in reality the message has been blocked because of frequency limits. Tracking delivery performance and monitoring conversation health helps you spot when caps are the cause.
+Why this matters for marketing
+Before these limits, businesses often faced high delivery failure rates due to over-messaging. Now the rules force brands to rethink how they increase messaging impact:
+Prioritize high-value content over volume
+Align send times with when users are most active
+Focus on campaigns that spark replies and initiate conversations
+Preserve strong open rates and click through rates by being relevant, not repetitive
+In short: two well-designed messages will take you further than five generic ones.
+Best practices to stay effective
+Here are key practices to help your WhatsApp campaigns stay impactful over time.
+Design for conversation : Use campaigns that naturally spark replies, such as offers that require confirmation or quick choices. This extends engagement beyond capped templates.
+Plan campaigns strategically : Map out which audiences get which message, and avoid sending multiple promotions too close together. This helps reduce the risk of hitting caps.
+Use Click to WhatsApp ads for growth : Drive new sessions through ads and guide users into structured flows. This creates more opportunities outside capped messaging.
+Track health over time : Monitoring delivery is useful, but it should not be the only focus. To understand the real impact of your WhatsApp campaigns, keep an eye on quality ratings, phone number status, and long-term performance trends. Most importantly, measure engagement through seen rates and click rates, since these reveal whether your messages are being noticed and acted on.
+Keep content fresh : Regularly update your templates with new wording, formats, and media. This avoids user fatigue and signals high quality to Meta.
+Common scenarios
+Think of frequency capping like traffic lights in a busy city. Without them, every driver would rush forward at once, leading to chaos and gridlock. With them, the flow is slower but safer, and everyone eventually gets where they need to go.
+The same is true for WhatsApp: frequency capping keeps communication moving smoothly, but if you do not plan your messages carefully, you may find yourself stuck at a red light.
+One important detail to remember is that frequency capping applies across all brands . If a user reaches their daily limit from multiple businesses, later messages will be blocked even if your brand has not yet sent two.
+The following scenarios show how this plays out in practice:
+The morning rush : A retailer kicks off a holiday sale with a morning push, only to find the second message blocked later in the day. The catch? The customer had already hit their limit after receiving campaigns from other brands.
+Solution: Segment audiences and prioritize your most valuable users first. Spread out campaigns to reduce overlap with other brands.
+The lost reminder : You plan a two-step flash sale: one message to announce it, another as a reminder. The first goes through, but the second never arrives because the user’s 24 hour cap has been reached. Since templates cannot be retried until the window resets, the reminder is lost and so is the extra engagement.
+Solution: Make your first message strong enough to stand alone. Encourage a quick reply to open a 24 hour session where follow-ups are not capped.
+The silent chatbot : An automated chatbot sends follow-up templates after a user does not respond. Instead of sparking a communication, the messages are blocked by capping. Without the right tracking, it looks like a system error. In reality, the cap is doing exactly what it was designed to do—protect the user from too many messages.
+Solution: Spot frequency capping easily by tracking results in Meta’s WhatsApp Manager or directly through Infobip’s platform. Then adjust automation rules so follow-ups depend on engagement instead of sending repeated outbound templates.
+Compliance checklist
+Following Meta’s rules is not just about avoiding blocked messages. It is also about keeping trust with your audience and protecting the long-term value of your WhatsApp Business Account.
+A few simple practices go a long way in making sure your campaigns are delivered, your quality ratings stay high, and your customers continue to see WhatsApp as a channel they can rely on.
+Compliance item
+Requirement / Benefit
+Collect opt-ins
+Mandatory before starting marketing conversations on WhatsApp.
+Use approved templates
+Mandatory. All marketing templates must be approved by Meta before use. Approval ensures compliance, prevents rejections, and supports higher delivery rates.
+Provide opt-out options
+Improves customer experience and gives users control.
+Monitor quality ratings
+Maintains good standing for your WhatsApp Business Account.
+Final thoughts: Turning frequency capping into stronger engagement
+Meta’s decision to cap the number of messages in a 24-hour window changes how businesses run WhatsApp campaigns. For marketers, it’s less about sending more and more about sending smarter.
+The best WhatsApp marketing strategies are now built on relevance, timing, and interaction. If you keep the customer experience at the center, you will not only maintain strong quality ratings but also unlock better customer engagement and higher returns from every conversation.
+FAQs on WhatsApp frequency capping
+How many WhatsApp marketing messages can a business send in 24 hours?
+Under WhatsApp frequency capping, a user can receive a maximum of two marketing template messages from all businesses in a 24-hour period.
+Are session messages affected by frequency capping?
+No. Free-form messages are not limited. They can be sent within 24 hours after a user initiates or responds to a conversation, allowing chatbots and agents to continue the interaction without restriction.
+Are utility templates limited by frequency capping?
+No. Utility templates are not capped, so order updates, reminders, and delivery confirmations are always delivered.
+Are authentication templates capped?
+No. Authentication templates, such as one-time passwords and login codes, are exempt from frequency capping and are always delivered.
+Does frequency capping apply to all WhatsApp Business Accounts?
+Yes. Frequency capping applies across all WhatsApp Business Accounts at the user level.
+Can a business bypass frequency capping by using multiple phone numbers?
+No. Frequency capping applies to the WhatsApp user, not to the phone number or business account. This rule is enforced across the entire WhatsApp Business Platform, so using multiple numbers does not bypass the limit.
+What happens if a business tries to send more than two messages in 24 hours?
+The extra messages will fail and show an error because of frequency capping.
+Which error codes indicate failed messages due to frequency capping?
+When frequency capping blocks a message, the Cloud API may return error code 131049 . On Infobip’s platform, these cases appear as error code 7032 , making it easy to spot and adjust your campaigns. Tracking these codes helps you understand when limits are reached and how to optimize your messaging strategy.
+How can a business continue messaging after the 24-hour limit?
+They must wait until the 24-hour window closes or encourage the user to reply, which opens a new session.
+Infobip: Official WhatsApp Business Platform solution provider
+Benefits of WhatsApp with Infobip
+Share
+Share to Facebook
+Share to X (formerly Twitter)
+Share to LinkedIn
+Sep 25th, 2025
+8 min read
+Article info
+Share
+Share to Facebook
+Share to X (formerly Twitter)
+Share to LinkedIn
+Sep 25th, 2025
+8 min read
+Nina Vresnik
+Content Marketing Specialist
+Business
+All products
+AgentOS
+Journey orchestration
+AI Agents
+AI chatbot builder
+Customer data platform
+Blogs
+Documentation
+Downloads
+Startup Tribe
+Solutions
+B2B platforms
+Digital natives
+Enterprise
+Wholesale
+Government
+Transportation
+Healthcare
+Financial services
+Retail & e-Commerce
+Company
+About us
+Certificates
+News & press
+Offices
+Policies
+Privacy
+Law enforcement requests
+Infobip Foundation
+Careers
+Infobip Research Projects
+Code of conduct
+Infobip position paper
+Service status
+External connectivity status
+Infrastructure
+Brandbook
+Glossary
+Contact
+Copyright @ 2006-2026 Infobip ltd.
+Legal
+Terms & Conditions
+Privacy Notice
+Short Code
+Terms of Use
+UK Tax Strategy
+Facebook
+X (formerly Twitter)
+LinkedIn
+YouTube
+Instagram
+Site language:
+English
+English
+Spanish
+German
+Arabic
+Italian
+Japanese
+Korean
+Portuguese
+Pause
+Play
+% buffered
+00:00
+Unmute
+Mute
+Disable captions
+Enable captions
+Exit fullscreen
+Enter fullscreen

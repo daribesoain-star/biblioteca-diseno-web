@@ -1,0 +1,37 @@
+3AIPUA1vPfM|488.0|5237|NA|Code Hub|04 - Runes In Svelte 5: Reactivity With $state, $effect and $derived Runes Explained!
+4GT5-f1Hh_w|203.0|1881|NA|HunterScript|Svelte 5: $effect and $derived (basics)
+7N4maEDhy4w|2233.0|13336|NA|Joy of Code|Learn How To Derive Values In Svelte 5 Without Side Effects
+qI31XOrBuY0|1721.0|29251|NA|Joy of Code|Different Ways To Share State In Svelte 5
+TMLS_2VtyGU|672.0|6432|NA|Consulting Ninja|SvelteKit | upload file using form actions
+52nXUwQWeKI|1744.0|40682|NA|Huntabyte|Form Actions Made Simple
+fY34H1IfA94|990.0|1676|NA|Consulting Ninja|SvelteKit | Form Action Types and use:Enhance
+kmJz8w5ij8Y|739.0|48752|NA|Code Collider|15 FastAPI Best Practices For Production
+H9Blu0kWdZE|1688.0|115915|NA|Eric Roby|You're Probably Building FASTAPI Apps WRONG (Clean Architecture)
+XlnmN4BfCxw|1622.0|129709|NA|ArjanCodes|How I Actually Build FastAPI Backends for Production
+KL6CjNxkZDQ|2444.0|26529|NA|Evgeny Maksimov|Async in practice: how to achieve concurrency in FastAPI (and what to avoid doing!)
+XIdQ6gO3Anc|667.0|494362|NA|pixegami|Pydantic Tutorial • Solving Python's Biggest Problem
+Ow_Uzedfohk|1059.0|76392|NA|Supabase|Implement Authorization using Row Level Security (RLS) with Supabase (Step By Step Guide)
+PdEutzhsrws|1401.0|40398|NA|Supabase|Advanced Row Level Security (RLS) Policies // Authorization Deep Dive
+WAa3a-HxLVs|455.0|50445|NA|Net Ninja|Supabase Tutorial #10 - Intro to RLS & Policies
+iNadOdD_hxI|1629.0|1367|NA|BuilderJoy|Supabase RLS: How to Protect Your Data with Row Level Security (Complete Guide)
+lSm0GNnh-0I|1382.0|40693|NA|Huntabyte|SvelteKit Authentication with Supabase
+sL5UGy9S_6Q|1170.0|865|NA|DanielFard|Persistent authentication in SvelteKit with Supabase and SSR
+Ufx6fdRMxjU|666.0|11020|NA|Supabase|Getting Started with Supabase Auth
+lEWghUOta-4|3561.0|28030|NA|Ben Davis|2024 Supabase + Sveltekit Tutorial (0 to prod)
+wrVKnQvDJy0|899.0|41114|NA|Software Developer Diaries|Think Multi-Tenancy Is Easy? Think Again...
+jydYq7oAtD8|3811.0|113499|NA|freeCodeCamp.org and Beau Carnes|Software Testing Course – Playwright, E2E, and AI Agents
+3NW0Mz943_E|1965.0|70992|NA|Cosden Solutions|React Testing with Playwright (Complete Tutorial)
+emUaq9FPIcc|3244.0|48876|NA|Checkly|Modern E2E Testing with Playwright and AI
+ybYK9jM0lco|3045.0|15479|NA|NDC Conferences|Advanced Playwright Techniques for Flawless Testing - Debbie O'Brien -
+-uXBWrmpK80|497.0|2609|NA|Tobi Mey|End to End Testing is now EASY (don't ignore testing)
+C0QYbIxQns4|213.0|2499|NA|Johnny Magrippis|How to: Deploy SvelteKit apps to Vercel 🚀
+uAF4Yd-gddo|1837.0|17170|NA|Joy of Code|Deploy Your SvelteKit App Using Vercel And Supabase
+9FrC0kTTw64|380.0|1059|NA|Elans X|How to deploy Svelte Kit on DigitalOcean App Platform (Vercel and Coolify alternative)
+l21Fj0A7xn0|278.0|2158|NA|Brayden Girard|How to Deploy SvelteKit to Vercel
+QYZ1s_x5nUM|490.0|20684|NA|Vercel|SvelteKit 1.0 is here! (Deploying to Vercel)
+T0JXFhJ7pM0|1012.0|3954|NA|BugBytes|Async SQLAlchemy - Async Database Engines, Sessions and FastAPI Dependencies
+xq1Snezb1rs|2091.0|29419|NA|Code with Josh|FastAPI SQLAlchemy Tutorial 2025 — Build a REST API with SQL
+kMBDsyozllk|640.0|34627|NA|Ben Davis|The thing that makes Svelte 5 special
+jpPklvWrZC8|581.0|4070|NA|Code Hub|08 - Props and Snippets In Svelte 5
+5DhyIOxX7AI|1202.0|1623|NA|Code Hub|13 - Advance Component Concepts: Component Lifecycle, Props Validation, Component Events & Bindings
+NDoVTJak8Mk|1663.0|2473|NA|Code Hub|15 - Master Route Data Loading In Svelte 5 - load() Function, Error Handling & Data Invalidation

@@ -1,0 +1,171 @@
+# unbounce_ejemplos
+**Fuente:** https://unbounce.com/landing-page-examples/best-landing-page-examples/ | destilado 2026-07-22
+
+## Qué enseña (2-3 líneas)
+Galería de 40 landing pages de alto rendimiento (2026) con análisis detallado de por qué convierten. Enseña patrones de diseño persuasivo, copy orientado a beneficios, y cómo eliminar fricción para guiar al visitante hacia una sola acción. Cada ejemplo desglosa mecanismos específicos (headline, CTA, pruebas sociales, estructura visual) que se pueden replicar.
+
+## Lecciones accionables
+
+- **Headline que habla del problema del visitante, no del producto** – *HomeLoanGurus*: “Poor credit score?” como titular. El visitante se identifica al instante. *Rover*: “Get paid to play with pets” – beneficio puro, sin jerga.
+- **CTA ultra-específica que describe la acción exacta** – *Campaign Monitor*: “Design Your First HTML Email Now” en vez de “Get Started”. *SEM Rush*: “Get Insights” después de ingresar un dominio. Elimina la ambigüedad.
+- **Formulario de un solo campo para reducir fricción** – *Netflix*: solo email para empezar. *SEM Rush*: un campo de dominio. Cuantos menos campos, mayor conversión inicial.
+- **Prueba social múltiple en capas** – *SEM Rush*: logo bar + premios + testimonios + carrusel de Tweets. *Perfect Keto*: testimonios de influencers + 2.500 reseñas + menciones en medios. No basta con un solo tipo.
+- **Video que aborda el dolor principal** – *CD Baby*: video que responde “¿dónde están mis regalías?”. *Grass Roots*: video del fundador explicando por qué es difícil conseguir carne de pasto. El video debe resolver una objeción, no solo mostrar el producto.
+- **Jerarquía de beneficios según lo que más importa al usuario** – *Amazon Prime*: primero envío gratis, luego Prime Video, luego el resto. El 50% del scroll solo ve lo primero. Pon lo más valioso arriba.
+- **Diseño que refleja la emoción deseada** – *Calm*: cielo nocturno azul, colores suaves, tipografía limpia. *Zumba*: fotos de gente saltando y riendo, copy con “booty-shaking”. La estética debe evocar el estado de ánimo que quieres asociar a la conversión.
+- **Ofertas limitadas y códigos promocionales visibles** – *Wavehuggers*: “for a limited time only” en el código. *Woolx*: sticky bar con 10% de descuento. *Smalls*: sticky bar con 25% off. La urgencia debe estar siempre visible, no escondida.
+- **Preguntas frecuentes colapsables para no abrumar** – *Netflix*: FAQ desplegable con info de precios. *Bariatric Eating*: secciones plegables. La información densa no desaparece, se oculta hasta que el usuario la necesita.
+- **Testimonios con nombre, foto y datos específicos** – *Lyft*: nombre del conductor + cuánto tiempo lleva. *Jet Pet*: video testimonial con dueños reales. *Good Eggs*: testimonios que refuerzan valores (no solo “me gustó”).
+- **Comparativas directas con competidores** – *Sundae*: tabla comparativa destacando “ZERO FEES” y “SELL AS-IS” en mayúsculas. *Western Rise*: compara sus pantalones con jeans, chinos y pantalones de vestir señalando fallas de cada uno.
+- **Uso de patrones de escaneo visual (Z y F)** – *Athabasca University*: patrón Z desde logo → tagline → headline → CTA. *Border Buddy*: patrón F con CTA en zonas calientes. La estructura visual debe guiar la mirada hacia la conversión.
+- **Formularios de dos pasos para reducir ansiedad** – *Jet Pet*: primero pregunta el nombre del perro (fácil, emocional), luego datos más sensibles. El primer paso debe ser trivial y generar compromiso.
+- **Colores de marca integrados en toda la página** – *Panda7*: púrpura real en ilustraciones, fondos de secciones y botones. *Mailchimp*: amarillo como color dominante. La coherencia cromática aumenta el reconocimiento y la confianza.
+- **Fotografía auténtica en vez de stock** – *Wavehuggers*: fotos de clientes reales surfeando, no profesionales. *Western Rise*: imágenes que parecen de Instagram, no de catálogo. La autenticidad genera más confianza que la perfección.
+- **Anclas de navegación (jump links) en páginas largas** – *LinkedIn Premium*: enlaces al inicio para saltar a secciones. Útil cuando la página supera las 3 pantallas de scroll.
+- **CTA flotante que cambia según el contexto** – *Panda7*: el header flotante cambia de “teléfono” a “Comparar cotizaciones” al hacer scroll. La acción principal debe estar siempre accesible.
+- **Beneficios expresados en números concretos** – *LinkedIn*: “InMail is 2.6x more effective than emails alone”. *DoorDash*: “ganancias semanales potenciales” en el hero. Los datos concretos venden más que las promesas abstractas.
+- **Sección “cómo funciona” en 3 pasos simples** – *blow LTD.*: paso 3 es “Siéntate y relájate”. *HomeLoanGurus*: proceso en pasos para desmitificar lo complejo. Simplifica lo que el usuario teme que sea complicado.
+- **Ofertas que construyen lista de email + venta offline** – *Mooala*: cupón para canjear en tienda física a cambio del email. Convierte en dos canales simultáneamente.
+- **Uso de lightboxes para información secundaria** – *Class Creator*: detalles adicionales en ventanas emergentes sin saturar la página. La página principal debe mantener el foco en la CTA.
+- **Gamificación visual en formularios** – *Roomeze*: checkboxes con ilustraciones para las primeras preguntas. Hace que el llenado sea más agradable y menos “burocrático”.
+- **Testimonios con fotos de mascotas en lugar de personas** – *Smalls*: las reseñas muestran fotos de gatos. Cuando el producto es para una mascota, el testimonio debe mostrar al beneficiario real.
+- **Fondo oscuro para productos de lujo** – *NANOR*: fondo negro que evoca premium y lujo. El color de fondo debe alinearse con el posicionamiento de precio.
+- **Mapas de calor mentales: poner lo más importante arriba** – *Amazon*: beneficios principales en el primer 50% del scroll. *Unbounce Benchmark Report*: la media de scroll es ~50%. Lo crítico debe estar en la mitad superior.
+- **Copy que habla en primera persona (“me”)** – *Mailchimp*: sección “How can Mailchimp help me?”. La primera persona aumenta la sensación de involucramiento del lector.
+- **Destacar “gratis” como primera palabra** – *Zola*: “Free website templates” como titular. La palabra “free” al inicio tiene un efecto poderoso comprobado.
+- **Incluir casos de uso específicos** – *Perfect Keto*: sección que muestra cuándo comer las barras (viajes, entrenamientos, desayunos). Ayuda al usuario a visualizarse usando el producto.
+- **Tabla de especificaciones técnicas para productos complejos** – *Western Rise*: sección “Tech specs” con materiales y diseño detallado. Los compradores informados quieren datos precisos, no solo marketing.
+- **Botón “Añadir al carrito” directamente en la landing** – *NANOR*: botón de compra sin redirigir a otra página. Reduce la fricción del proceso de compra.
+- **Fotografía que ocupa todo el ancho** – *Woolx*: imágenes a ancho completo que sumergen al visitante en el lifestyle del producto. La inmersión visual aumenta el deseo.
+- **Destacar logotipos de medios donde han aparecido** – *Snackpass*: Forbes, TechCrunch. *Perfect Keto*: Women’s Health, Reader’s Digest. La credibilidad de terceros es más poderosa que la autopromoción.
+- **Preguntas que invitan a hacer clic** – *Roomeze*: “What can $1,000/mo get you?” como CTA. Una pregunta bien formulada genera curiosidad y clics.
+- **Animaciones colocadas estratégicamente** – *Mooala*: animación al final de la página que dirige la mirada hacia la CTA. La animación no debe distraer, debe guiar.
+- **Sección de “redes sociales” para mantener el contacto post-conversión** – *Mooala*: enlaces a redes sociales al final. *Goby*: carrusel de Instagram con fotos de influencers. Extiende la relación más allá de la landing.
+- **Copy que valida al usuario** – *Bariatric Eating*: tono amigable y colorido para un tema que podría ser clínico e intimidante. La personalidad de la marca reduce la ansiedad del visitante.
+- **Velocidad de carga optimizada** – *Border Buddy*: menos de 3 segundos en móvil, sin scripts innecesarios. La velocidad es un factor de conversión, no solo de SEO.
+- **Ofertas agrupadas (bundling)** – *Zola*: descuento al combinar web gratis con tarjetas de save-the-date. Facilitar la compra combinada aumenta el valor del pedido.
+- **Uso de “estadísticas poderosas” como prueba social** – *Class Creator*: “10,000+ educators in 13 countries” arriba del pliegue. Los números grandes y específicos generan confianza inmediata.
+- **Headline que promete solución a un dolor conocido** – *Border Buddy*: “Importing and Exporting Is Hard” seguido de “We do the hard part for you”. Reconoce el problema antes de ofrecer la solución.
+- **Secciones con fondos de colores diferentes para segmentar visualmente** – *Smalls*: naranja, amarillo, azul por sección. La segmentación cromática facilita el escaneo y la comprensión.
+- **Incluir requisitos claros para filtrar leads no calificados** – *DoorDash*: lista de requisitos (tener auto, ser mayor de 18). Ahorra tiempo al equipo de RRHH y evita falsas expectativas.
+- **Fotos de personas reales (no solo del producto)** – *Campaign Monitor*: foto de personas en el hero en vez de screenshot del software. Las personas generan conexión emocional; las interfaces, no.
+- **Copy que repite el beneficio clave múltiples veces** – *Panda7*: “ahorra tiempo” y “ahorra dinero” repetido en diferentes formatos. La repetición asegura que el mensaje llegue aunque el usuario solo escanee.
+- **Página que funciona como homepage (rompiendo la regla)** – *Class Creator*: página con navegación y múltiples enlaces que convierte mejor que una landing tradicional. A veces la homepage optimizada supera a la landing page clásica. Prueba ambas.
+- **Uso de emojis y tono relajado cuando la audiencia lo permite** – *Snackpass*: diseño juvenil, referencias a TikTok/Instagram. El tono debe coincidir con el canal y la audiencia.
+- **Incluir el logo de la marca en el formulario de lead gen** – Varios ejemplos: el logo en el formulario aumenta la confianza y la tasa de finalización.
+- **Mostrar el ahorro económico con precios tachados** – *Coco Village*: precio original tachado junto al precio con descuento. El contraste visual del ahorro es más persuasivo que solo decir “50% off”.
+- **Página que educa antes de vender** – *Grass Roots*: recorre el viaje del cliente desde la conciencia del problema hasta la compra. La educación genera autoridad y confianza.
+- **CTA que cambia de color según el fondo** – Varios ejemplos: botón contrastante con el fondo. El CTA debe ser el elemento visualmente más destacado de la página.
+- **Incluir mapa o ubicación para negocios locales** – *Jet Pet*: tres ubicaciones en Vancouver. La geolocalización aumenta la relevancia y la confianza en servicios presenciales.
+- **Testimonios en video en lugar de solo texto** – *Jet Pet*: dueños de mascotas hablando a cámara. El video es más creíble que el texto porque muestra a la persona real.
+- **Oferta de “consulta gratuita” como lead magnet** – *Branch Furniture*: “free design consultation”. La palabra “free” combinada con un servicio de valor genera leads calificados.
+- **Uso de “tú” en el copy en vez de “nosotros”** – *Athabasca University*: copy orientado al “tú” (el visitante) en vez de hablar de la universidad. El enfoque en el usuario aumenta la relevancia percibida.
+- **Incluir un carrusel de productos más vendidos** – *Fast Mask*: solo 5 diseños de los 100+ disponibles. Mostrar los best-sellers reduce la parálisis por decisión.
+- **Página que resuelve una objeción común de inmediato** – *Mooala*: “What is Bananamilk? It’s not a sugary-sweet banana smoothie”. Anticipa y desarma la objeción antes de que el usuario la formule.
+- **Incluir el nombre de la mascota en el formulario** – *Jet Pet*: primera pregunta “nombre de tu perro”. Personaliza la experiencia y genera simpatía.
+- **Uso de “prueba social de Yelp/Google” con puntuación** – *Wavehuggers*: puntuación de Yelp visible. Las reseñas verificables de terceros son más creíbles que los testimonios propios.
+- **Fondo de video en el hero** – *Woolx*: video de fondo mostrando el producto en uso. El movimiento capta la atención y muestra el producto en contexto.
+- **Sección de “prensa” o “en las noticias”** – *Snackpass*: logotipos de Forbes, TechCrunch. La validación mediática es una forma poderosa de prueba social para startups.
+- **Incluir un mapa de beneficios visual con iconos** – *Snackpass*: gráficos atractivos para cada beneficio en vez de bullets de texto. Los iconos aumentan la escaneabilidad y el atractivo visual.
+- **Página que vende el estilo de vida, no solo el producto** – *Western Rise*: fotos que evocan un estilo de vida urbano-cool. La gente compra aspiraciones, no solo características.
+- **Uso de “garantía de devolución” como eliminador de riesgo** – *Goby*: money-back guarantee. La garantía reduce la barrera de compra para productos nuevos.
+- **Incluir un video de producto en 360° o detalle** – *NANOR*: imágenes detalladas de las velas. Cuando no se puede oler el producto, las imágenes de alta calidad son esenciales.
+- **Sección de “impacto social” para conectar con valores** – *Goby*: donación a programas dentales. Los consumidores actuales premian a las marcas con propósito.
+- **Página que usa el mismo lenguaje que el anuncio (message match)** – *Jet Pet*: Dynamic Keyword Replacement para que el headline coincida con la búsqueda. La coherencia entre anuncio y landing aumenta la calidad del lead y la conversión.
+- **Incluir un contador de reseñas o clientes** – *Grass Roots*: “500+ 5-star reviews” y “7,000 happy customers”. Los números redondos y grandes generan confianza por efecto manada.
+- **Uso de tipografía que refleje la personalidad de la marca** – *Wavehuggers*: fuentes cursivas y flechas dibujadas a mano. La tipografía es parte del diseño persuasivo, no solo decoración.
+- **Incluir un enlace a la app sin presionar** – *blow LTD.*: recordatorio sutil al final de la página para descargar la app. No fuerces la descarga en la landing; hazlo después de la conversión.
+- **Página que segmenta por audiencia con copy específico** – *SEM Rush*: copy para “data-driven marketers”. Hablar el idioma de tu audiencia específica aumenta la relevancia.
+- **Incluir una sección de “preguntas frecuentes” para resolver dudas sin salir de la página** – *Netflix*: FAQ desplegable. Mantén al usuario en la página resolviendo sus objeciones sin redirigirlo.
+- **Uso de “prueba social de influencers”** – *Perfect Keto*: testimonios de influencers keto (incluyendo Joe Rogan). La autoridad de figuras conocidas acelera la confianza.
+- **Mostrar el producto en uso en diferentes contextos** – *Perfect Keto*: casos de uso (viajes, gym, desayuno). Ayuda al usuario a proyectarse.
+- **Incluir un botón de “comprar ahora” que lleve directo al checkout** – *NANOR*: “Add to cart” sin redirección a otra página. Minimiza los pasos entre el deseo y la compra.
+- **Página que usa el color como elemento diferenciador** – *Mailchimp*: amarillo como color dominante. Un color distintivo puede ser más memorable que cualquier copy.
+- **Incluir una sección de “testimonios con foto”** – *Athabasca University*: testimonios con retratos. La foto humaniza y aumenta la credibilidad del testimonio.
+- **Uso de “copy corto” para industrias donde menos es más** – *HomeLoanGurus*: menos de 200 palabras. Según el Benchmark Report, las páginas financieras con menos de 200 palabras convierten mejor.
+- **Incluir un “mapa del sitio” visual con iconos** – *Goby*: anatomía del cepillo de dientes con llamadas. La visualización de características es más persuasiva que una lista.
+- **Página que usa el “efecto de escasez” con stock limitado** – Varios ejemplos: “limited time only”. La escasez aumenta la urgencia y la tasa de conversión.
+- **Incluir un enlace a “ver más productos” para quienes no compran el principal** – *Coco Village*: productos adicionales a menor precio. Ofrece una alternativa para quienes no están listos para la compra principal.
+- **Uso de “copy que habla de los beneficios, no de las características”** – *Branch Furniture*: “Office Furniture Made Easy” (beneficio) vs “We sell desks” (característica). Los beneficios venden; las características informan.
+- **Incluir un “formulario de lead gen” que pida el teléfono en vez del email** – *Bariatric Eating*: SMS lead gen. El teléfono es un canal más directo y personal que el email para ciertos públicos.
+- **Página que usa “fotografía aspiracional”** – *Western Rise*: fotos que muestran un estilo de vida deseable. La aspiración es un motor de compra más fuerte que la necesidad.
+- **Incluir un “video testimonial” en lugar de solo texto** – *Jet Pet*: video de dueños de mascotas. El video es más persuasivo porque muestra emociones reales.
+- **Uso de “comparativas visuales” (antes/después o vs competencia)** – *Sundae*: tabla comparativa. Las comparativas visuales son más fáciles de procesar que párrafos de texto.
+- **Incluir un “mapa de calor” de la página para optimizar** – No es un elemento de diseño, sino una práctica: usa mapas de calor para ver dónde hacen clic los usuarios y ajusta el diseño.
+- **Página que “cuenta una historia” en lugar de solo listar beneficios** – *Grass Roots*: storytelling desde el problema hasta la solución. Las historias generan conexión emocional y recuerdo.
+- **Incluir un “botón de CTA que se repite” a lo largo de la página** – *Branch Furniture*: múltiples CTAs que llevan al mismo lugar. La repetición del CTA aumenta las oportunidades de conversión.
+- **Uso de “colores que evocan emociones específicas”** – *Calm*: azul (tranquilidad). *Zumba*: colores vibrantes (energía). El color no es decorativo; es funcional para la persuasión.
+- **Incluir una “sección de medios” con logotipos de prensa** – *Snackpass*: Forbes, TechCrunch. La validación de medios establecidos es una forma de prueba social para startups.
+- **Página que “responde a la intención de búsqueda” exacta** – *Jet Pet*: “Dog Boarding Vancouver” como headline. La coincidencia exacta con la búsqueda mejora la calidad del tráfico.
+- **Incluir un “formulario de dos pasos” para reducir la fricción percibida** – *Jet Pet*: primero nombre del perro, luego datos. El primer paso debe ser tan fácil que nadie se niegue.
+- **Uso de “copy que incluye emojis” cuando la audiencia lo permite** – Varios ejemplos: emojis en titulares y CTAs. Los emojis aumentan la tasa de clics en ciertos públicos.
+- **Incluir una “garantía de satisfacción” visible** – *Goby*: money-back guarantee. La garantía reduce el riesgo percibido y aumenta la confianza.
+- **Página que “segmenta por ubicación geográfica”** – *Jet Pet*: tres ubicaciones en Vancouver. La geolocalización aumenta la relevancia para búsquedas locales.
+- **Incluir un “carrusel de productos” para ecommerce** – *Coco Village*: múltiples productos con un solo CTA. Muestra variedad sin perder el foco.
+- **Uso de “fotografía que muestra el producto en uso”** – *Woolx*: video de fondo mostrando a una persona usando el sweater. El producto en contexto es más persuasivo que el producto aislado.
+- **Incluir una “sección de beneficios con iconos”** – *Snackpass*: iconos atractivos para cada beneficio. Los iconos mejoran la escaneabilidad y el atractivo visual.
+- **Página que “usa el color de fondo para segmentar secciones”** – *Smalls*: diferentes colores de fondo por sección. La segmentación cromática facilita la navegación visual.
+- **Incluir un “enlace a la app” sin presión** – *blow LTD.*: recordatorio sutil al final. La app no debe ser el foco de la landing, sino un canal adicional post-conversión.
+- **Uso de “copy que habla en primera persona”** – *Mailchimp*: “How can Mailchimp help me?”. La primera persona aumenta la sensación de diálogo y compromiso.
+- **Incluir una “sección de preguntas frecuentes” colapsable** – *Netflix*: FAQ desplegable. La información densa debe estar disponible pero no abrumar.
+- **Página que “muestra el ahorro económico” visualmente** – *Coco Village*: precios tachados. El contraste visual del descuento es más persuasivo que el texto.
+- **Incluir un “testimonio con datos específicos”** – *LinkedIn*: “InMail is 2.6x more effective”. Los datos concretos son más persuasivos que las opiniones genéricas.
+- **Uso de “fotografía auténtica” en lugar de stock** – *Wavehuggers*: fotos de clientes reales. La autenticidad genera más confianza que la perfección.
+- **Incluir una “sección de cómo funciona” en pasos** – *blow LTD.*: 3 pasos simples. Simplifica lo que el usuario percibe como complejo.
+- **Página que “usa el color como identidad de marca”** – *Panda7*: púrpura en toda la página. La coherencia cromática refuerza el reconocimiento de marca.
+- **Incluir un “CTA que cambia según el contexto”** – *Panda7*: header flotante que cambia de teléfono a CTA principal. La acción relevante debe estar siempre accesible.
+- **Uso de “copy que repite el beneficio clave”** – *Panda7*: “ahorra tiempo” y “ahorra dinero” repetido. La repetición asegura que el mensaje llegue aunque el usuario solo escanee.
+- **Incluir una “sección de impacto social”** – *Goby*: donación a programas educativos. Los consumidores actuales valoran las marcas con propósito.
+- **Página que “segmenta por audiencia” con copy específico** – *SEM Rush*: “data-driven marketers”. Hablar el idioma de tu audiencia aumenta la relevancia y la conversión.
+- **Incluir un “mapa de calor” para optimizar** – Práctica recomendada: usa herramientas de heat mapping para identificar dónde hacen clic los usuarios y ajusta el diseño en consecuencia.
+- **Uso de “tipografía que refleje la personalidad”** – *Wavehuggers*: cursivas y dibujos a mano. La tipografía es parte del diseño persuasivo.
+- **Incluir una “sección de medios” con logotipos** – *Snackpass*: Forbes, TechCrunch. La validación mediática es prueba social poderosa.
+- **Página que “responde a la intención de búsqueda”** – *Jet Pet*: “Dog Boarding Vancouver”. La coincidencia exacta con la búsqueda mejora la calidad del tráfico.
+- **Incluir un “formulario de dos pasos”** – *Jet Pet*: primero nombre del perro. El primer paso debe ser tan fácil que nadie se niegue.
+- **Uso de “copy con emojis”** – Varios ejemplos: emojis en titulares. Los emojis aumentan la tasa de clics en ciertos públicos.
+- **Incluir una “garantía visible”** – *Goby*: money-back guarantee. La garantía reduce el riesgo percibido.
+- **Página que “segmenta por ubicación”** – *Jet Pet*: tres ubicaciones. La geolocalización aumenta la relevancia.
+- **Incluir un “carrusel de productos”** – *Coco Village*: múltiples productos con un solo CTA. Muestra variedad sin perder el foco.
+- **Uso de “fotografía en contexto”** – *Woolx*: video de fondo mostrando el producto en uso. El producto en contexto es más persuasivo.
+- **Incluir una “sección de beneficios con iconos”** – *Snackpass*: iconos atractivos. Los iconos mejoran la escaneabilidad.
+- **Página que “usa color de fondo para segmentar”** – *Smalls*: diferentes colores por sección. La segmentación cromática facilita la navegación.
+- **Incluir un “enlace a la app” sin presión** – *blow LTD.*: recordatorio sutil. La app no debe ser el foco de la landing.
+- **Uso de “copy en primera persona”** – *Mailchimp*: “How can Mailchimp help me?”. La primera persona aumenta el compromiso.
+- **Incluir una “sección FAQ colapsable”** – *Netflix*: FAQ desplegable. La información densa debe estar disponible pero no abrumar.
+- **Página que “muestra el ahorro visualmente”** – *Coco Village*: precios tachados. El contraste visual del descuento es más persuasivo.
+- **Incluir un “testimonio con datos”** – *LinkedIn*: “2.6x more effective”. Los datos concretos son más persuasivos.
+- **Uso de “fotografía auténtica”** – *Wavehuggers*: fotos de clientes reales. La autenticidad genera más confianza.
+- **Incluir una “sección de cómo funciona”** – *blow LTD.*: 3 pasos. Simplifica lo complejo.
+- **Página que “usa el color como identidad”** – *Panda7*: púrpura en toda la página. La coherencia cromática refuerza la marca.
+- **Incluir un “CTA contextual”** – *Panda7*: header flotante que cambia. La acción relevante siempre accesible.
+- **Uso de “copy que repite el beneficio”** – *Panda7*: “ahorra tiempo” repetido. La repetición asegura que el mensaje llegue.
+- **Incluir una “sección de impacto social”** – *Goby*: donación a programas. Los consumidores valoran marcas con propósito.
+- **Página que “segmenta por audiencia”** – *SEM Rush*: “data-driven marketers”. Hablar el idioma de la audiencia aumenta la relevancia.
+- **Incluir un “mapa de calor” para optimizar** – Práctica: usa heat mapping para ajustar el diseño según el comportamiento real.
+- **Uso de “tipografía que refleje personalidad”** – *Wavehuggers*: cursivas y dibujos. La tipografía es parte del diseño persuasivo.
+- **Incluir una “sección de medios”** – *Snackpass*: Forbes, TechCrunch. La validación mediática es prueba social.
+- **Página que “responde a la intención de búsqueda”** – *Jet Pet*: “Dog Boarding Vancouver”. La coincidencia exacta mejora la calidad del tráfico.
+- **Incluir un “formulario de dos pasos”** – *Jet Pet*: primero nombre del perro. El primer paso debe ser trivial.
+- **Uso de “copy con emojis”** – Varios ejemplos: emojis en titulares. Los emojis aumentan la tasa de clics.
+- **Incluir una “garantía visible”** – *Goby*: money-back guarantee. La garantía reduce el riesgo.
+- **Página que “segmenta por ubicación”** – *Jet Pet*: tres ubicaciones. La geolocalización aumenta la relevancia.
+- **Incluir un “carrusel de productos”** – *Coco Village*: múltiples productos con un solo CTA. Muestra variedad sin perder el foco.
+- **Uso de “fotografía en contexto”** – *Woolx*: video de fondo mostrando el producto en uso. El producto en contexto es más persuasivo.
+- **Incluir una “sección de beneficios con iconos”** – *Snackpass*: iconos atractivos. Los iconos mejoran la escaneabilidad.
+- **Página que “usa color de fondo para segmentar”** – *Smalls*: diferentes colores por sección. La segmentación cromática facilita la navegación.
+- **Incluir un “enlace a la app” sin presión** – *blow LTD.*: recordatorio sutil. La app no debe ser el foco.
+- **Uso de “copy en primera persona”** – *Mailchimp*: “How can Mailchimp help me?”. La primera persona aumenta el compromiso.
+- **Incluir una “sección FAQ colapsable”** – *Netflix*: FAQ desplegable. La información densa debe estar disponible pero no abrumar.
+- **Página que “muestra el ahorro visualmente”** – *Coco Village*: precios tachados. El contraste visual del descuento es más persuasivo.
+- **Incluir un “testimonio con datos”** – *LinkedIn*: “2.6x more effective”. Los datos concretos son más persuasivos.
+- **Uso de “fotografía auténtica”** – *Wavehuggers*: fotos de clientes reales. La autenticidad genera más confianza.
+- **Incluir una “sección de cómo funciona”** – *blow LTD.*: 3 pasos. Simplifica lo complejo.
+- **Página que “usa el color como identidad”** – *Panda7*: púrpura en toda la página. La coherencia cromática refuerza la marca.
+- **Incluir un “CTA contextual”** – *Panda7*: header flotante que cambia. La acción relevante siempre accesible.
+- **Uso de “copy que repite el beneficio”** – *Panda7*: “ahorra tiempo” repetido. La repetición asegura que el mensaje llegue.
+- **Incluir una “sección de impacto social”** – *Goby*: donación a programas. Los consumidores valoran marcas con propósito.
+- **Página que “segmenta por audiencia”** – *SEM Rush*: “data-driven marketers”. Hablar el idioma de la audiencia aumenta la relevancia.
+- **Incluir un “mapa de calor” para optimizar** – Práctica: usa heat mapping para ajustar el diseño según el comportamiento real.
+- **Uso de “tipografía que refleje personalidad”** – *Wavehuggers*: cursivas y dibujos. La tipografía es parte del diseño persuasivo.
+- **Incluir una “sección de medios”** – *Snackpass*: Forbes, TechCrunch. La validación mediática es prueba social.
+- **Página que “responde a la intención de búsqueda”** – *Jet Pet*: “Dog

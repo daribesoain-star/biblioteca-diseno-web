@@ -1,0 +1,664 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:10.960 align:start position:0%
+ 
+[Music]
+
+00:00:10.960 --> 00:00:10.970 align:start position:0%
+ 
+ 
+
+00:00:10.970 --> 00:00:18.310 align:start position:0%
+ 
+[Music]
+
+00:00:18.310 --> 00:00:18.320 align:start position:0%
+ 
+ 
+
+00:00:18.320 --> 00:00:26.790 align:start position:0%
+ 
+[Music]
+
+00:00:26.790 --> 00:00:26.800 align:start position:0%
+ 
+ 
+
+00:00:26.800 --> 00:00:28.910 align:start position:0%
+ 
+Welcome<00:00:27.119><c> to</c><00:00:27.320><c> our</c><00:00:27.560><c> tutorial</c><00:00:28.119><c> on</c><00:00:28.400><c> introduction</c>
+
+00:00:28.910 --> 00:00:28.920 align:start position:0%
+Welcome to our tutorial on introduction
+ 
+
+00:00:28.920 --> 00:00:31.950 align:start position:0%
+Welcome to our tutorial on introduction
+to<00:00:29.119><c> scripting</c><00:00:29.519><c> in</c><00:00:29.720><c> after</c><00:00:30.439><c> effects</c><00:00:31.439><c> if</c><00:00:31.599><c> you</c><00:00:31.759><c> are</c>
+
+00:00:31.950 --> 00:00:31.960 align:start position:0%
+to scripting in after effects if you are
+ 
+
+00:00:31.960 --> 00:00:34.190 align:start position:0%
+to scripting in after effects if you are
+looking<00:00:32.239><c> to</c><00:00:32.480><c> automate</c><00:00:33.000><c> your</c><00:00:33.200><c> workflow</c>
+
+00:00:34.190 --> 00:00:34.200 align:start position:0%
+looking to automate your workflow
+ 
+
+00:00:34.200 --> 00:00:36.950 align:start position:0%
+looking to automate your workflow
+perform<00:00:34.719><c> complex</c><00:00:35.280><c> calculations</c><00:00:36.280><c> or</c><00:00:36.559><c> access</c>
+
+00:00:36.950 --> 00:00:36.960 align:start position:0%
+perform complex calculations or access
+ 
+
+00:00:36.960 --> 00:00:39.350 align:start position:0%
+perform complex calculations or access
+features<00:00:37.719><c> not</c><00:00:38.120><c> directly</c><00:00:38.600><c> available</c><00:00:39.079><c> through</c>
+
+00:00:39.350 --> 00:00:39.360 align:start position:0%
+features not directly available through
+ 
+
+00:00:39.360 --> 00:00:42.150 align:start position:0%
+features not directly available through
+the<00:00:39.840><c> graphical</c><00:00:40.320><c> user</c><00:00:40.680><c> interface</c><00:00:41.680><c> you</c><00:00:41.840><c> are</c><00:00:42.000><c> in</c>
+
+00:00:42.150 --> 00:00:42.160 align:start position:0%
+the graphical user interface you are in
+ 
+
+00:00:42.160 --> 00:00:45.750 align:start position:0%
+the graphical user interface you are in
+the<00:00:42.399><c> right</c><00:00:42.960><c> place</c><00:00:43.960><c> today</c><00:00:44.760><c> we</c><00:00:44.879><c> are</c><00:00:45.079><c> diving</c><00:00:45.480><c> into</c>
+
+00:00:45.750 --> 00:00:45.760 align:start position:0%
+the right place today we are diving into
+ 
+
+00:00:45.760 --> 00:00:48.350 align:start position:0%
+the right place today we are diving into
+the<00:00:46.399><c> basics</c><00:00:46.840><c> of</c><00:00:47.039><c> scripting</c><00:00:47.520><c> in</c><00:00:47.719><c> Adobe</c><00:00:48.079><c> After</c>
+
+00:00:48.350 --> 00:00:48.360 align:start position:0%
+the basics of scripting in Adobe After
+ 
+
+00:00:48.360 --> 00:00:53.310 align:start position:0%
+the basics of scripting in Adobe After
+Effects<00:00:49.360><c> a</c><00:00:49.960><c> powerful</c><00:00:50.480><c> tool</c><00:00:51.160><c> to</c><00:00:51.960><c> enhance</c><00:00:52.960><c> your</c>
+
+00:00:53.310 --> 00:00:53.320 align:start position:0%
+Effects a powerful tool to enhance your
+ 
+
+00:00:53.320 --> 00:00:56.510 align:start position:0%
+Effects a powerful tool to enhance your
+productivity<00:00:54.160><c> and</c>
+
+00:00:56.510 --> 00:00:56.520 align:start position:0%
+ 
+ 
+
+00:00:56.520 --> 00:00:58.950 align:start position:0%
+ 
+creativity<00:00:57.520><c> scripts</c><00:00:57.960><c> are</c><00:00:58.199><c> essentially</c><00:00:58.760><c> a</c>
+
+00:00:58.950 --> 00:00:58.960 align:start position:0%
+creativity scripts are essentially a
+ 
+
+00:00:58.960 --> 00:01:01.709 align:start position:0%
+creativity scripts are essentially a
+series<00:00:59.320><c> of</c><00:00:59.600><c> commands</c><00:01:00.160><c> s</c><00:01:00.800><c> that</c><00:01:01.079><c> direct</c><00:01:01.440><c> an</c>
+
+00:01:01.709 --> 00:01:01.719 align:start position:0%
+series of commands s that direct an
+ 
+
+00:01:01.719 --> 00:01:03.750 align:start position:0%
+series of commands s that direct an
+application<00:01:02.440><c> to</c><00:01:02.719><c> perform</c><00:01:03.079><c> our</c><00:01:03.359><c> various</c>
+
+00:01:03.750 --> 00:01:03.760 align:start position:0%
+application to perform our various
+ 
+
+00:01:03.760 --> 00:01:06.310 align:start position:0%
+application to perform our various
+operations<00:01:04.640><c> in</c><00:01:04.879><c> Adobe</c><00:01:05.239><c> After</c><00:01:05.519><c> Effects</c>
+
+00:01:06.310 --> 00:01:06.320 align:start position:0%
+operations in Adobe After Effects
+ 
+
+00:01:06.320 --> 00:01:09.910 align:start position:0%
+operations in Adobe After Effects
+scripts<00:01:06.840><c> can</c><00:01:07.400><c> do</c><00:01:08.040><c> wers</c><00:01:09.040><c> from</c><00:01:09.360><c> reordering</c>
+
+00:01:09.910 --> 00:01:09.920 align:start position:0%
+scripts can do wers from reordering
+ 
+
+00:01:09.920 --> 00:01:13.070 align:start position:0%
+scripts can do wers from reordering
+layers<00:01:10.840><c> within</c><00:01:11.119><c> a</c><00:01:11.479><c> composition</c><00:01:12.479><c> replacing</c>
+
+00:01:13.070 --> 00:01:13.080 align:start position:0%
+layers within a composition replacing
+ 
+
+00:01:13.080 --> 00:01:15.910 align:start position:0%
+layers within a composition replacing
+text<00:01:13.400><c> in</c><00:01:13.640><c> text</c><00:01:13.880><c> layers</c><00:01:14.680><c> to</c><00:01:14.960><c> even</c><00:01:15.200><c> sending</c><00:01:15.600><c> an</c>
+
+00:01:15.910 --> 00:01:15.920 align:start position:0%
+text in text layers to even sending an
+ 
+
+00:01:15.920 --> 00:01:19.149 align:start position:0%
+text in text layers to even sending an
+email<00:01:16.799><c> when</c><00:01:17.040><c> your</c><00:01:17.240><c> are</c><00:01:17.439><c> rendering</c><00:01:18.159><c> completes</c>
+
+00:01:19.149 --> 00:01:19.159 align:start position:0%
+email when your are rendering completes
+ 
+
+00:01:19.159 --> 00:01:21.830 align:start position:0%
+email when your are rendering completes
+scripting<00:01:19.799><c> expands</c><00:01:20.320><c> your</c><00:01:20.560><c> control</c><00:01:21.400><c> beyond</c>
+
+00:01:21.830 --> 00:01:21.840 align:start position:0%
+scripting expands your control beyond
+ 
+
+00:01:21.840 --> 00:01:23.310 align:start position:0%
+scripting expands your control beyond
+the<00:01:22.000><c> conventional</c>
+
+00:01:23.310 --> 00:01:23.320 align:start position:0%
+the conventional
+ 
+
+00:01:23.320 --> 00:01:27.190 align:start position:0%
+the conventional
+interface<00:01:24.320><c> while</c><00:01:25.159><c> after</c><00:01:25.479><c> effect</c><00:01:25.840><c> uses</c><00:01:26.720><c> both</c>
+
+00:01:27.190 --> 00:01:27.200 align:start position:0%
+interface while after effect uses both
+ 
+
+00:01:27.200 --> 00:01:29.230 align:start position:0%
+interface while after effect uses both
+expressions<00:01:27.960><c> and</c><00:01:28.240><c> the</c><00:01:28.439><c> extend</c><00:01:28.880><c> script</c>
+
+00:01:29.230 --> 00:01:29.240 align:start position:0%
+expressions and the extend script
+ 
+
+00:01:29.240 --> 00:01:31.630 align:start position:0%
+expressions and the extend script
+scripting<00:01:29.600><c> langu</c><00:01:29.920><c> language</c><00:01:30.600><c> rooted</c><00:01:31.079><c> in</c>
+
+00:01:31.630 --> 00:01:31.640 align:start position:0%
+scripting langu language rooted in
+ 
+
+00:01:31.640 --> 00:01:33.990 align:start position:0%
+scripting langu language rooted in
+JavaScript<00:01:32.640><c> it's</c><00:01:32.880><c> crucial</c><00:01:33.240><c> to</c><00:01:33.680><c> understand</c>
+
+00:01:33.990 --> 00:01:34.000 align:start position:0%
+JavaScript it's crucial to understand
+ 
+
+00:01:34.000 --> 00:01:36.590 align:start position:0%
+JavaScript it's crucial to understand
+that<00:01:34.360><c> expressions</c><00:01:35.360><c> and</c><00:01:35.600><c> scripting</c><00:01:36.079><c> serves</c>
+
+00:01:36.590 --> 00:01:36.600 align:start position:0%
+that expressions and scripting serves
+ 
+
+00:01:36.600 --> 00:01:37.469 align:start position:0%
+that expressions and scripting serves
+different
+
+00:01:37.469 --> 00:01:37.479 align:start position:0%
+different
+ 
+
+00:01:37.479 --> 00:01:40.510 align:start position:0%
+different
+purposes<00:01:38.479><c> Expressions</c><00:01:39.119><c> Define</c><00:01:40.119><c> what</c><00:01:40.280><c> a</c>
+
+00:01:40.510 --> 00:01:40.520 align:start position:0%
+purposes Expressions Define what a
+ 
+
+00:01:40.520 --> 00:01:43.030 align:start position:0%
+purposes Expressions Define what a
+property<00:01:40.960><c> is</c><00:01:41.479><c> whereas</c><00:01:41.920><c> scripts</c><00:01:42.360><c> command</c><00:01:42.840><c> the</c>
+
+00:01:43.030 --> 00:01:43.040 align:start position:0%
+property is whereas scripts command the
+ 
+
+00:01:43.040 --> 00:01:46.109 align:start position:0%
+property is whereas scripts command the
+application<00:01:43.520><c> to</c><00:01:43.720><c> perform</c><00:01:44.680><c> actions</c><00:01:45.680><c> despite</c>
+
+00:01:46.109 --> 00:01:46.119 align:start position:0%
+application to perform actions despite
+ 
+
+00:01:46.119 --> 00:01:48.469 align:start position:0%
+application to perform actions despite
+their<00:01:46.439><c> differences</c><00:01:47.439><c> having</c><00:01:47.680><c> a</c><00:01:47.880><c> grasp</c><00:01:48.240><c> on</c>
+
+00:01:48.469 --> 00:01:48.479 align:start position:0%
+their differences having a grasp on
+ 
+
+00:01:48.479 --> 00:01:50.510 align:start position:0%
+their differences having a grasp on
+javascript's<00:01:49.240><c> fundamentals</c><00:01:49.920><c> can</c>
+
+00:01:50.510 --> 00:01:50.520 align:start position:0%
+javascript's fundamentals can
+ 
+
+00:01:50.520 --> 00:01:53.350 align:start position:0%
+javascript's fundamentals can
+significantly<00:01:51.520><c> help</c><00:01:51.840><c> in</c><00:01:52.399><c> understanding</c><00:01:52.759><c> both</c>
+
+00:01:53.350 --> 00:01:53.360 align:start position:0%
+significantly help in understanding both
+ 
+
+00:01:53.360 --> 00:01:55.830 align:start position:0%
+significantly help in understanding both
+expressions<00:01:54.159><c> and</c><00:01:54.360><c> scripting</c><00:01:55.159><c> within</c><00:01:55.520><c> After</c>
+
+00:01:55.830 --> 00:01:55.840 align:start position:0%
+expressions and scripting within After
+ 
+
+00:01:55.840 --> 00:01:58.469 align:start position:0%
+expressions and scripting within After
+Effects<00:01:56.719><c> the</c><00:01:56.920><c> core</c><00:01:57.159><c> of</c><00:01:57.320><c> scripting</c><00:01:58.000><c> in</c><00:01:58.200><c> After</c>
+
+00:01:58.469 --> 00:01:58.479 align:start position:0%
+Effects the core of scripting in After
+ 
+
+00:01:58.479 --> 00:02:01.190 align:start position:0%
+Effects the core of scripting in After
+Effects<00:01:59.079><c> is</c><00:01:59.240><c> its</c><00:01:59.479><c> object</c><00:02:00.039><c> model</c><00:02:00.960><c> which</c>
+
+00:02:01.190 --> 00:02:01.200 align:start position:0%
+Effects is its object model which
+ 
+
+00:02:01.200 --> 00:02:04.510 align:start position:0%
+Effects is its object model which
+includes<00:02:01.799><c> projects</c><00:02:02.840><c> compositions</c><00:02:03.840><c> render</c>
+
+00:02:04.510 --> 00:02:04.520 align:start position:0%
+includes projects compositions render
+ 
+
+00:02:04.520 --> 00:02:07.310 align:start position:0%
+includes projects compositions render
+items<00:02:05.200><c> and</c><00:02:05.439><c> all</c><00:02:05.719><c> their</c><00:02:06.000><c> elements</c><00:02:06.600><c> like</c>
+
+00:02:07.310 --> 00:02:07.320 align:start position:0%
+items and all their elements like
+ 
+
+00:02:07.320 --> 00:02:12.190 align:start position:0%
+items and all their elements like
+footage<00:02:08.319><c> layers</c><00:02:09.319><c> masks</c><00:02:10.160><c> and</c><00:02:10.560><c> effects</c><00:02:11.560><c> each</c><00:02:11.920><c> of</c>
+
+00:02:12.190 --> 00:02:12.200 align:start position:0%
+footage layers masks and effects each of
+ 
+
+00:02:12.200 --> 00:02:15.589 align:start position:0%
+footage layers masks and effects each of
+these<00:02:12.480><c> elements</c><00:02:13.360><c> is</c><00:02:13.520><c> an</c><00:02:13.920><c> object</c><00:02:14.920><c> with</c><00:02:15.120><c> unique</c>
+
+00:02:15.589 --> 00:02:15.599 align:start position:0%
+these elements is an object with unique
+ 
+
+00:02:15.599 --> 00:02:19.070 align:start position:0%
+these elements is an object with unique
+attributes<00:02:16.280><c> and</c><00:02:16.560><c> an</c><00:02:17.319><c> identity</c><00:02:17.920><c> within</c><00:02:18.239><c> your</c>
+
+00:02:19.070 --> 00:02:19.080 align:start position:0%
+attributes and an identity within your
+ 
+
+00:02:19.080 --> 00:02:21.790 align:start position:0%
+attributes and an identity within your
+project<00:02:20.080><c> understanding</c><00:02:20.480><c> this</c><00:02:20.800><c> object</c><00:02:21.160><c> model</c>
+
+00:02:21.790 --> 00:02:21.800 align:start position:0%
+project understanding this object model
+ 
+
+00:02:21.800 --> 00:02:24.509 align:start position:0%
+project understanding this object model
+is<00:02:22.040><c> key</c><00:02:22.280><c> to</c><00:02:22.480><c> mastering</c><00:02:23.440><c> scripting</c><00:02:24.000><c> in</c><00:02:24.200><c> After</c>
+
+00:02:24.509 --> 00:02:24.519 align:start position:0%
+is key to mastering scripting in After
+ 
+
+00:02:24.519 --> 00:02:26.910 align:start position:0%
+is key to mastering scripting in After
+Effects<00:02:25.239><c> the</c><00:02:25.440><c> after</c><00:02:25.720><c> effects</c><00:02:26.200><c> object</c><00:02:26.519><c> model</c>
+
+00:02:26.910 --> 00:02:26.920 align:start position:0%
+Effects the after effects object model
+ 
+
+00:02:26.920 --> 00:02:30.830 align:start position:0%
+Effects the after effects object model
+is<00:02:27.160><c> vast</c><00:02:28.040><c> comprising</c><00:02:28.760><c> projects</c><00:02:29.519><c> I</c><00:02:29.840><c> items</c>
+
+00:02:30.830 --> 00:02:30.840 align:start position:0%
+is vast comprising projects I items
+ 
+
+00:02:30.840 --> 00:02:35.070 align:start position:0%
+is vast comprising projects I items
+compositions<00:02:31.879><c> layers</c><00:02:32.879><c> and</c><00:02:33.360><c> render</c><00:02:33.840><c> que</c><00:02:34.120><c> items</c>
+
+00:02:35.070 --> 00:02:35.080 align:start position:0%
+compositions layers and render que items
+ 
+
+00:02:35.080 --> 00:02:37.150 align:start position:0%
+compositions layers and render que items
+each<00:02:35.360><c> with</c><00:02:35.640><c> special</c><00:02:36.080><c> attributes</c><00:02:36.879><c> it's</c>
+
+00:02:37.150 --> 00:02:37.160 align:start position:0%
+each with special attributes it's
+ 
+
+00:02:37.160 --> 00:02:39.309 align:start position:0%
+each with special attributes it's
+essential<00:02:37.519><c> to</c><00:02:37.840><c> familiarize</c><00:02:38.599><c> yourself</c><00:02:39.120><c> with</c>
+
+00:02:39.309 --> 00:02:39.319 align:start position:0%
+essential to familiarize yourself with
+ 
+
+00:02:39.319 --> 00:02:41.270 align:start position:0%
+essential to familiarize yourself with
+the<00:02:39.519><c> structure</c><00:02:40.159><c> to</c><00:02:40.400><c> effectively</c><00:02:40.920><c> write</c>
+
+00:02:41.270 --> 00:02:41.280 align:start position:0%
+the structure to effectively write
+ 
+
+00:02:41.280 --> 00:02:44.270 align:start position:0%
+the structure to effectively write
+scripts<00:02:42.040><c> that</c><00:02:42.239><c> can</c><00:02:42.879><c> navigate</c><00:02:43.480><c> and</c><00:02:43.680><c> manipulate</c>
+
+00:02:44.270 --> 00:02:44.280 align:start position:0%
+scripts that can navigate and manipulate
+ 
+
+00:02:44.280 --> 00:02:45.149 align:start position:0%
+scripts that can navigate and manipulate
+these
+
+00:02:45.149 --> 00:02:45.159 align:start position:0%
+these
+ 
+
+00:02:45.159 --> 00:02:49.149 align:start position:0%
+these
+objects<00:02:46.159><c> note</c><00:02:46.599><c> that</c><00:02:47.280><c> in</c><00:02:47.599><c> scripting</c><00:02:48.599><c> what</c><00:02:48.800><c> are</c>
+
+00:02:49.149 --> 00:02:49.159 align:start position:0%
+objects note that in scripting what are
+ 
+
+00:02:49.159 --> 00:02:51.430 align:start position:0%
+objects note that in scripting what are
+typically<00:02:49.599><c> known</c><00:02:49.959><c> as</c><00:02:50.280><c> properties</c><00:02:51.159><c> in</c>
+
+00:02:51.430 --> 00:02:51.440 align:start position:0%
+typically known as properties in
+ 
+
+00:02:51.440 --> 00:02:53.710 align:start position:0%
+typically known as properties in
+javascripts<00:02:52.239><c> are</c><00:02:52.519><c> referred</c><00:02:52.920><c> to</c><00:02:53.159><c> as</c>
+
+00:02:53.710 --> 00:02:53.720 align:start position:0%
+javascripts are referred to as
+ 
+
+00:02:53.720 --> 00:02:56.910 align:start position:0%
+javascripts are referred to as
+attributes<00:02:54.400><c> here</c><00:02:55.239><c> to</c><00:02:55.480><c> avoid</c><00:02:55.840><c> confusion</c><00:02:56.680><c> with</c>
+
+00:02:56.910 --> 00:02:56.920 align:start position:0%
+attributes here to avoid confusion with
+ 
+
+00:02:56.920 --> 00:02:59.790 align:start position:0%
+attributes here to avoid confusion with
+After<00:02:57.239><c> Effects</c><00:02:57.959><c> definition</c><00:02:58.480><c> of</c><00:02:58.680><c> a</c><00:02:58.879><c> property</c>
+
+00:02:59.790 --> 00:02:59.800 align:start position:0%
+After Effects definition of a property
+ 
+
+00:02:59.800 --> 00:03:03.270 align:start position:0%
+After Effects definition of a property
+such<00:03:00.040><c> as</c><00:03:00.680><c> animatable</c><00:03:01.680><c> values</c><00:03:02.159><c> of</c><00:03:02.400><c> effects</c><00:03:03.000><c> or</c>
+
+00:03:03.270 --> 00:03:03.280 align:start position:0%
+such as animatable values of effects or
+ 
+
+00:03:03.280 --> 00:03:07.309 align:start position:0%
+such as animatable values of effects or
+masks<00:03:04.120><c> nearly</c><00:03:04.840><c> all</c><00:03:05.680><c> operations</c><00:03:06.680><c> achievable</c>
+
+00:03:07.309 --> 00:03:07.319 align:start position:0%
+masks nearly all operations achievable
+ 
+
+00:03:07.319 --> 00:03:10.070 align:start position:0%
+masks nearly all operations achievable
+through<00:03:07.840><c> scripting</c><00:03:08.440><c> can</c><00:03:08.760><c> also</c><00:03:09.040><c> be</c><00:03:09.280><c> performed</c>
+
+00:03:10.070 --> 00:03:10.080 align:start position:0%
+through scripting can also be performed
+ 
+
+00:03:10.080 --> 00:03:12.589 align:start position:0%
+through scripting can also be performed
+manually<00:03:11.000><c> via</c><00:03:11.319><c> the</c><00:03:11.480><c> after</c><00:03:11.799><c> effects</c><00:03:12.159><c> graphical</c>
+
+00:03:12.589 --> 00:03:12.599 align:start position:0%
+manually via the after effects graphical
+ 
+
+00:03:12.599 --> 00:03:13.430 align:start position:0%
+manually via the after effects graphical
+user
+
+00:03:13.430 --> 00:03:13.440 align:start position:0%
+user
+ 
+
+00:03:13.440 --> 00:03:17.229 align:start position:0%
+user
+interface<00:03:14.440><c> this</c><00:03:14.640><c> means</c><00:03:15.280><c> having</c><00:03:15.519><c> a</c><00:03:16.239><c> solid</c>
+
+00:03:17.229 --> 00:03:17.239 align:start position:0%
+interface this means having a solid
+ 
+
+00:03:17.239 --> 00:03:19.229 align:start position:0%
+interface this means having a solid
+understanding<00:03:17.519><c> of</c><00:03:17.799><c> After</c><00:03:18.120><c> Effects</c><00:03:18.560><c> itself</c><00:03:19.080><c> is</c>
+
+00:03:19.229 --> 00:03:19.239 align:start position:0%
+understanding of After Effects itself is
+ 
+
+00:03:19.239 --> 00:03:21.630 align:start position:0%
+understanding of After Effects itself is
+a<00:03:19.440><c> crucial</c><00:03:19.799><c> for</c><00:03:20.400><c> leveraging</c><00:03:20.959><c> scripting</c><00:03:21.440><c> to</c>
+
+00:03:21.630 --> 00:03:21.640 align:start position:0%
+a crucial for leveraging scripting to
+ 
+
+00:03:21.640 --> 00:03:24.350 align:start position:0%
+a crucial for leveraging scripting to
+its<00:03:21.799><c> full</c><00:03:22.120><c> potential</c><00:03:23.120><c> before</c><00:03:23.360><c> we</c><00:03:23.519><c> wrap</c><00:03:23.879><c> up</c>
+
+00:03:24.350 --> 00:03:24.360 align:start position:0%
+its full potential before we wrap up
+ 
+
+00:03:24.360 --> 00:03:26.630 align:start position:0%
+its full potential before we wrap up
+remember<00:03:24.799><c> to</c><00:03:25.080><c> like</c><00:03:25.480><c> subscribe</c><00:03:26.080><c> and</c><00:03:26.280><c> hit</c><00:03:26.480><c> the</c>
+
+00:03:26.630 --> 00:03:26.640 align:start position:0%
+remember to like subscribe and hit the
+ 
+
+00:03:26.640 --> 00:03:28.869 align:start position:0%
+remember to like subscribe and hit the
+notification<00:03:27.200><c> Bell</c><00:03:27.480><c> to</c><00:03:27.959><c> stay</c><00:03:28.239><c> updated</c><00:03:28.720><c> with</c>
+
+00:03:28.869 --> 00:03:28.879 align:start position:0%
+notification Bell to stay updated with
+ 
+
+00:03:28.879 --> 00:03:31.670 align:start position:0%
+notification Bell to stay updated with
+our<00:03:29.080><c> series</c><00:03:30.080><c> sharing</c><00:03:30.599><c> this</c><00:03:30.760><c> video</c><00:03:31.080><c> can</c><00:03:31.360><c> help</c>
+
+00:03:31.670 --> 00:03:31.680 align:start position:0%
+our series sharing this video can help
+ 
+
+00:03:31.680 --> 00:03:33.949 align:start position:0%
+our series sharing this video can help
+others<00:03:32.640><c> discover</c><00:03:32.879><c> the</c><00:03:33.120><c> power</c><00:03:33.360><c> of</c><00:03:33.519><c> scripting</c>
+
+00:03:33.949 --> 00:03:33.959 align:start position:0%
+others discover the power of scripting
+ 
+
+00:03:33.959 --> 00:03:37.350 align:start position:0%
+others discover the power of scripting
+in<00:03:34.159><c> After</c><00:03:34.720><c> Effects</c><00:03:35.720><c> your</c><00:03:36.000><c> support</c><00:03:36.640><c> helps</c>
+
+00:03:37.350 --> 00:03:37.360 align:start position:0%
+in After Effects your support helps
+ 
+
+00:03:37.360 --> 00:03:40.190 align:start position:0%
+in After Effects your support helps
+create<00:03:37.799><c> more</c><00:03:38.080><c> content</c><00:03:38.599><c> like</c>
+
+00:03:40.190 --> 00:03:40.200 align:start position:0%
+create more content like
+ 
+
+00:03:40.200 --> 00:03:42.270 align:start position:0%
+create more content like
+this<00:03:41.200><c> thank</c><00:03:41.400><c> you</c><00:03:41.519><c> for</c><00:03:41.760><c> watching</c><00:03:42.040><c> our</c>
+
+00:03:42.270 --> 00:03:42.280 align:start position:0%
+this thank you for watching our
+ 
+
+00:03:42.280 --> 00:03:43.789 align:start position:0%
+this thank you for watching our
+introduction<00:03:42.760><c> to</c><00:03:42.879><c> scripting</c><00:03:43.319><c> in</c><00:03:43.480><c> After</c>
+
+00:03:43.789 --> 00:03:43.799 align:start position:0%
+introduction to scripting in After
+ 
+
+00:03:43.799 --> 00:03:46.949 align:start position:0%
+introduction to scripting in After
+Effects<00:03:44.640><c> stay</c><00:03:44.920><c> tuned</c><00:03:45.560><c> for</c><00:03:45.840><c> more</c><00:03:46.080><c> tutorials</c>
+
+00:03:46.949 --> 00:03:46.959 align:start position:0%
+Effects stay tuned for more tutorials
+ 
+
+00:03:46.959 --> 00:03:49.030 align:start position:0%
+Effects stay tuned for more tutorials
+where<00:03:47.159><c> we</c><00:03:47.280><c> will</c><00:03:47.599><c> dive</c><00:03:47.920><c> deeper</c><00:03:48.239><c> into</c><00:03:48.519><c> scripting</c>
+
+00:03:49.030 --> 00:03:49.040 align:start position:0%
+where we will dive deeper into scripting
+ 
+
+00:03:49.040 --> 00:03:52.069 align:start position:0%
+where we will dive deeper into scripting
+Concepts<00:03:49.560><c> and</c><00:03:49.760><c> techniques</c><00:03:50.720><c> until</c><00:03:51.080><c> next</c><00:03:51.360><c> time</c>
+
+00:03:52.069 --> 00:03:52.079 align:start position:0%
+Concepts and techniques until next time
+ 
+
+00:03:52.079 --> 00:03:54.390 align:start position:0%
+Concepts and techniques until next time
+keep<00:03:52.480><c> experimenting</c><00:03:53.480><c> and</c><00:03:53.760><c> exploring</c><00:03:54.239><c> the</c>
+
+00:03:54.390 --> 00:03:54.400 align:start position:0%
+keep experimenting and exploring the
+ 
+
+00:03:54.400 --> 00:03:58.670 align:start position:0%
+keep experimenting and exploring the
+endless<00:03:54.959><c> possibilities</c><00:03:55.879><c> with</c><00:03:56.159><c> After</c><00:03:56.480><c> Effects</c>
+
+00:03:58.670 --> 00:03:58.680 align:start position:0%
+endless possibilities with After Effects
+ 
+
+00:03:58.680 --> 00:04:02.410 align:start position:0%
+endless possibilities with After Effects
+goodbye
+
+00:04:02.410 --> 00:04:02.420 align:start position:0%
+ 
+ 
+
+00:04:02.420 --> 00:04:12.410 align:start position:0%
+ 
+[Music]
+
+00:04:12.410 --> 00:04:12.420 align:start position:0%
+ 
+ 
+
+00:04:12.420 --> 00:04:18.189 align:start position:0%
+ 
+[Music]
+

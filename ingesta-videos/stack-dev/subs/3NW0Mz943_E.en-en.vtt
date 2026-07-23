@@ -1,0 +1,1704 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.040 --> 00:00:04.480
+In this video, you are going to learn everything&nbsp;
+that you need to know about testing your React&nbsp;&nbsp;
+
+00:00:04.480 --> 00:00:09.720
+applications using Playwright. Playwright is an&nbsp;
+end-to-end testing tool that literally allows you&nbsp;&nbsp;
+
+00:00:09.720 --> 00:00:14.960
+to test your applications exactly as a real user&nbsp;
+would. And it does that by spinning up a browser,&nbsp;&nbsp;
+
+00:00:14.960 --> 00:00:19.560
+running your application, and going and clicking&nbsp;
+on things, typing on inputs, and making sure that&nbsp;&nbsp;
+
+00:00:19.560 --> 00:00:24.680
+your application behaves in its entirety, that&nbsp;
+means frontend, backend, and database included,&nbsp;&nbsp;
+
+00:00:24.680 --> 00:00:29.280
+exactly as you expect, and that there's no&nbsp;
+unwanted surprises. So get ready, get excited,&nbsp;&nbsp;
+
+00:00:29.280 --> 00:00:33.360
+because you're going to learn a lot in this video.&nbsp;
+And by the way, if you want to learn how to build&nbsp;&nbsp;
+
+00:00:33.360 --> 00:00:38.280
+a big and complex application with React as a&nbsp;
+total beginner with no prior experience needed,&nbsp;&nbsp;
+
+00:00:38.280 --> 00:00:42.280
+check out Project React in the description.&nbsp;
+Trust me, you will not regret it. Let's get&nbsp;&nbsp;
+
+00:00:42.280 --> 00:00:50.120
+into it. All right, so over here, I have a very&nbsp;
+simple application that's running locally. And&nbsp;&nbsp;
+
+00:00:50.120 --> 00:00:54.400
+now we're going to want to test this application&nbsp;
+using Playwright. This is obviously a very simple&nbsp;&nbsp;
+
+00:00:54.400 --> 00:00:59.400
+application. We have the homepage over here. We&nbsp;
+have this h1 tag that says homepage. We have this&nbsp;&nbsp;
+
+00:00:59.400 --> 00:01:04.240
+form over here, which is a link. If I hover it,&nbsp;
+my cursor turns into a pointer. And I can click&nbsp;&nbsp;
+
+00:01:04.240 --> 00:01:09.400
+this. And it's going to redirect me to the actual&nbsp;
+form URL over here, slash form, where we get to&nbsp;&nbsp;
+
+00:01:09.400 --> 00:01:14.040
+see the form. And we have an input field over here&nbsp;
+where I can type something, for example, test. And&nbsp;&nbsp;
+
+00:01:14.040 --> 00:01:18.360
+I can press Add. And we're going to add that item&nbsp;
+directly in here. And the input is going to be&nbsp;&nbsp;
+
+00:01:18.360 --> 00:01:22.840
+cleared. Again, this is a very simple application.&nbsp;
+And we're not going to look at Playwright and&nbsp;&nbsp;
+
+00:01:22.840 --> 00:01:27.400
+how to write tests integration tests for this&nbsp;
+application. So to do that, we're going to go here&nbsp;&nbsp;
+
+00:01:27.400 --> 00:01:32.480
+to the actual documentation of Playwright that is&nbsp;
+going to be at playwright.dev. And in this video,&nbsp;&nbsp;
+
+00:01:32.480 --> 00:01:36.760
+what I'm going to do is I'm going to show you&nbsp;
+how we could test this very simple application.&nbsp;&nbsp;
+
+00:01:36.760 --> 00:01:41.240
+But more importantly, I'm also going to walk&nbsp;
+you through my thought process of what to test&nbsp;&nbsp;
+
+00:01:41.240 --> 00:01:45.400
+because unfortunately, a lot of tutorials don't&nbsp;
+actually show this to you, they show you how to&nbsp;&nbsp;
+
+00:01:45.400 --> 00:01:49.600
+use the actual tool in this case, Playwright, they&nbsp;
+show you how to write the test and all of that.&nbsp;&nbsp;
+
+00:01:49.600 --> 00:01:53.520
+But they never teach you the core principles of&nbsp;
+testing and why you should test something in the&nbsp;&nbsp;
+
+00:01:53.520 --> 00:01:58.800
+first place. And more specifically what to test&nbsp;
+versus what not to test. So as you can see here,&nbsp;&nbsp;
+
+00:01:58.800 --> 00:02:04.080
+Playwright enables reliable end to end testing&nbsp;
+for modern web applications. If you don't know&nbsp;&nbsp;
+
+00:02:04.080 --> 00:02:08.600
+what end to end testing is, as opposed to unit&nbsp;
+testing, end to end testing means that you're&nbsp;&nbsp;
+
+00:02:08.600 --> 00:02:12.600
+taking the entire application and you're actually&nbsp;
+running it with the whole front end with the whole&nbsp;&nbsp;
+
+00:02:12.600 --> 00:02:16.840
+back end and a database. And you're testing&nbsp;
+it as a real user would. So you're running&nbsp;&nbsp;
+
+00:02:16.840 --> 00:02:21.400
+the entire application, you're going and clicking&nbsp;
+on things, typing on inputs, and seeing how the&nbsp;&nbsp;
+
+00:02:21.400 --> 00:02:25.840
+application behaves as opposed to a unit test,&nbsp;
+where you're testing a component or something&nbsp;&nbsp;
+
+00:02:25.840 --> 00:02:30.640
+in isolation. This you're testing everything&nbsp;
+the entire application as a whole. So let's&nbsp;&nbsp;
+
+00:02:30.640 --> 00:02:34.960
+get started. And let's come here and click on the&nbsp;
+Get Started button. This is going to take us to&nbsp;&nbsp;
+
+00:02:34.960 --> 00:02:38.880
+the installation page of Playwright. And we're&nbsp;
+going to follow these instructions over here,&nbsp;&nbsp;
+
+00:02:38.880 --> 00:02:43.000
+which honestly are pretty simple. We're going to&nbsp;
+start by installing Playwright. And we're going to&nbsp;&nbsp;
+
+00:02:43.000 --> 00:02:48.080
+do it by installing it in an existing application,&nbsp;
+which probably is also going to be your case. In&nbsp;&nbsp;
+
+00:02:48.080 --> 00:02:53.200
+my case, I'm using PNPM. So I'm going to come here&nbsp;
+and take this command PNPM create Playwright. And&nbsp;&nbsp;
+
+00:02:53.200 --> 00:02:57.440
+I'm going to come here to my VS code. This is the&nbsp;
+actual code that's running the application. And&nbsp;&nbsp;
+
+00:02:57.440 --> 00:03:01.800
+I'm going to run it here inside of the terminal.&nbsp;
+This is now going to ask me where I want to put&nbsp;&nbsp;
+
+00:03:01.800 --> 00:03:05.760
+my end to end test, I want to leave this in&nbsp;
+the default test folder, it's going to ask me&nbsp;&nbsp;
+
+00:03:05.760 --> 00:03:09.760
+if I want to set up GitHub actions workflow,&nbsp;
+I want because this is a simple application,&nbsp;&nbsp;
+
+00:03:09.760 --> 00:03:13.960
+we don't have anything on GitHub, then we're&nbsp;
+going to want to install the Playwright browsers,&nbsp;&nbsp;
+
+00:03:13.960 --> 00:03:18.520
+we're going to leave this to default Playwright&nbsp;
+essentially runs this test on multiple browsers to&nbsp;&nbsp;
+
+00:03:18.520 --> 00:03:22.640
+make sure that your application runs the same on&nbsp;
+different browsers, which is a really cool thing.&nbsp;&nbsp;
+
+00:03:22.640 --> 00:03:27.040
+And after that, we run that command, we have this&nbsp;
+nice little lock here, telling us that Playwright&nbsp;&nbsp;
+
+00:03:27.040 --> 00:03:31.960
+is successfully initialized in our project. And as&nbsp;
+we can see, if we open up here, the Explorer page&nbsp;&nbsp;
+
+00:03:31.960 --> 00:03:36.760
+on the right, we have two new folders, we have&nbsp;
+the test folder over here. And we have the test&nbsp;&nbsp;
+
+00:03:36.760 --> 00:03:41.680
+examples folders. Now the test folder, if I open&nbsp;
+up example dot spec.ts, and actually close this&nbsp;&nbsp;
+
+00:03:41.680 --> 00:03:47.120
+terminal, this is just a simple example test file&nbsp;
+that Playwright automatically puts to get yourself&nbsp;&nbsp;
+
+00:03:47.120 --> 00:03:51.280
+started. This is cool, we're going to be working&nbsp;
+within this file to actually add this specific&nbsp;&nbsp;
+
+00:03:51.280 --> 00:03:56.600
+test of our own application. But then we also have&nbsp;
+test examples. And this has a different file over&nbsp;&nbsp;
+
+00:03:56.600 --> 00:04:01.040
+here that is really, really useful. As you can&nbsp;
+see, this file is very big, it's much bigger&nbsp;&nbsp;
+
+00:04:01.040 --> 00:04:06.480
+than the first file. And this actually has all of&nbsp;
+the tests for a demo application that Playwright&nbsp;&nbsp;
+
+00:04:06.480 --> 00:04:11.480
+built and hosted themselves, you can find it here,&nbsp;
+HTTPS demo dot Playwright, let me just come here&nbsp;&nbsp;
+
+00:04:11.480 --> 00:04:16.880
+and open this in the browser. If we open a new tab&nbsp;
+over here, we have this application. And this is a&nbsp;&nbsp;
+
+00:04:16.880 --> 00:04:21.480
+simple to do application created by Playwright&nbsp;
+themselves. So we can add here a new to do we&nbsp;&nbsp;
+
+00:04:21.480 --> 00:04:26.440
+can do test, for example, press Enter, it's going&nbsp;
+to add it, we can complete it, we can also delete&nbsp;&nbsp;
+
+00:04:26.440 --> 00:04:31.920
+them. And we have a fully working application. And&nbsp;
+in this file, we have all of the tests for that&nbsp;&nbsp;
+
+00:04:31.920 --> 00:04:36.240
+application to make sure that it works correctly.&nbsp;
+And this is really useful, because if you're just&nbsp;&nbsp;
+
+00:04:36.240 --> 00:04:40.400
+starting out with Playwright, and you don't really&nbsp;
+know how to actually use it, you can use this file&nbsp;&nbsp;
+
+00:04:40.400 --> 00:04:44.840
+and you can refer to it and see how they actually&nbsp;
+recommend that you do all of these tests, right,&nbsp;&nbsp;
+
+00:04:44.840 --> 00:04:48.880
+you have a bunch of code over here for testing&nbsp;
+different things, that most likely is going to&nbsp;&nbsp;
+
+00:04:48.880 --> 00:04:52.600
+cover some tests that you're trying to do for&nbsp;
+your own application. So this is a really, really&nbsp;&nbsp;
+
+00:04:52.600 --> 00:04:56.480
+useful file. And I would highly recommend that&nbsp;
+you spend some time looking through this because&nbsp;&nbsp;
+
+00:04:56.480 --> 00:05:00.800
+there's a ton of things to learn over here that&nbsp;
+you can apply directly to your own tests. Now,&nbsp;&nbsp;
+
+00:05:00.800 --> 00:05:04.320
+in our case, we're not going to use it, we're&nbsp;
+just going to be working in the simple file over&nbsp;&nbsp;
+
+00:05:04.320 --> 00:05:07.960
+here. And we're going to create our own tests&nbsp;
+directly. So what I'm going to do actually is&nbsp;&nbsp;
+
+00:05:07.960 --> 00:05:11.880
+I'm just going to take all of this and delete&nbsp;
+this because we want to start fresh. And I'm&nbsp;&nbsp;
+
+00:05:11.880 --> 00:05:15.520
+still going to leave these imports over here&nbsp;
+because we are going to use them. So now first,&nbsp;&nbsp;
+
+00:05:15.520 --> 00:05:19.720
+let's think about our application and what we&nbsp;
+actually want to test in our application. So here,&nbsp;&nbsp;
+
+00:05:19.720 --> 00:05:25.440
+let me just run the application again, pnpm dev,&nbsp;
+just to have it running. And let's go back now to&nbsp;&nbsp;
+
+00:05:25.440 --> 00:05:29.760
+the actual homepage. And let's think what do we&nbsp;
+want to test because our application is really&nbsp;&nbsp;
+
+00:05:29.760 --> 00:05:34.040
+simple, we don't need to have any fancy tests.&nbsp;
+So when we first start and load the application,&nbsp;&nbsp;
+
+00:05:34.040 --> 00:05:37.960
+this is the screen that we're seeing this is the&nbsp;
+home screen. Now this home screen on only has a&nbsp;&nbsp;
+
+00:05:37.960 --> 00:05:42.280
+few elements. So there's not really that much to&nbsp;
+test. But still, we should test that what we're&nbsp;&nbsp;
+
+00:05:42.280 --> 00:05:46.520
+seeing on the screen is exactly what we expect.&nbsp;
+For example, we should test that we have a heading&nbsp;&nbsp;
+
+00:05:46.520 --> 00:05:50.440
+on this page that says homepage, right, because&nbsp;
+we're putting this here, we want to make sure that&nbsp;&nbsp;
+
+00:05:50.440 --> 00:05:55.200
+it actually is there, and that it has the correct&nbsp;
+text. We also have this link over here that says&nbsp;&nbsp;
+
+00:05:55.200 --> 00:05:59.920
+form, we want to test that first of all, the link&nbsp;
+is there. And that when we click the link, we are&nbsp;&nbsp;
+
+00:05:59.920 --> 00:06:04.880
+successfully redirected to slash form. And here&nbsp;
+I have an error, why do I have an error, there we&nbsp;&nbsp;
+
+00:06:04.880 --> 00:06:09.480
+go, it's fixed, that was successfully redirected&nbsp;
+to the actual form. That's all that we want to&nbsp;&nbsp;
+
+00:06:09.480 --> 00:06:13.800
+test for this specific page. And also maybe&nbsp;
+that the title over here is causal solutions,&nbsp;&nbsp;
+
+00:06:13.800 --> 00:06:18.240
+just for good measure that the title is also what&nbsp;
+we expect. Then we also have the form page, which&nbsp;&nbsp;
+
+00:06:18.240 --> 00:06:22.440
+has a little bit more functionality. And here as&nbsp;
+well, we want to write our own test suites to test&nbsp;&nbsp;
+
+00:06:22.440 --> 00:06:26.760
+the specific page, we're going to first test the&nbsp;
+same thing that the form is actually there. And&nbsp;&nbsp;
+
+00:06:26.760 --> 00:06:31.600
+also that the input and the add button is there,&nbsp;
+and that I can type something on the input. And&nbsp;&nbsp;
+
+00:06:31.600 --> 00:06:36.600
+that when I type on the input, that whatever&nbsp;
+I typed actually ends up over here in a list,&nbsp;&nbsp;
+
+00:06:36.600 --> 00:06:40.520
+and that the input is then cleared, right,&nbsp;
+we're testing the actual functionality of&nbsp;&nbsp;
+
+00:06:40.520 --> 00:06:45.160
+our actual application. And note here that this&nbsp;
+doesn't depend really on any individual piece,&nbsp;&nbsp;
+
+00:06:45.160 --> 00:06:49.600
+it doesn't depend on just the front end, on just&nbsp;
+the back end, or just the database. But rather,&nbsp;&nbsp;
+
+00:06:49.600 --> 00:06:54.320
+it depends on all of the pieces working together.&nbsp;
+Because let's say that I did have a whole back end&nbsp;&nbsp;
+
+00:06:54.320 --> 00:06:58.840
+that would actually save everything that I type&nbsp;
+in here, we will also be testing that we will be&nbsp;&nbsp;
+
+00:06:58.840 --> 00:07:03.680
+testing that whatever we type in here, when we add&nbsp;
+it, it goes to the back end, it gives us a correct&nbsp;&nbsp;
+
+00:07:03.680 --> 00:07:07.560
+response. And we see it here on the screen.&nbsp;
+This is what we call an integration test. Now,&nbsp;&nbsp;
+
+00:07:07.560 --> 00:07:11.040
+of course, in this simple example, we actually&nbsp;
+don't have a back end, everything is handled on&nbsp;&nbsp;
+
+00:07:11.040 --> 00:07:14.800
+the front end. But you can imagine that if we&nbsp;
+had a back end, we would be indirectly testing&nbsp;&nbsp;
+
+00:07:14.800 --> 00:07:19.200
+that through this integration test. Because the&nbsp;
+only way that this item would show up here is if&nbsp;&nbsp;
+
+00:07:19.200 --> 00:07:22.680
+the back end is also working, if the back end&nbsp;
+is down, and it doesn't work, or if there's an&nbsp;&nbsp;
+
+00:07:22.680 --> 00:07:26.960
+error in the back end, this test item over here&nbsp;
+would not show up. So doing these tests actually&nbsp;&nbsp;
+
+00:07:26.960 --> 00:07:31.240
+test everything from front end to back end and the&nbsp;
+whole integration test. And that's generally how&nbsp;&nbsp;
+
+00:07:31.240 --> 00:07:35.480
+you want to approach thinking about testing and&nbsp;
+what to test, you take any screen that you have,&nbsp;&nbsp;
+
+00:07:35.480 --> 00:07:39.480
+and you look at what the user can do what any&nbsp;
+user can do in your application, what they expect&nbsp;&nbsp;
+
+00:07:39.480 --> 00:07:43.720
+what they can see on the screen. And you just test&nbsp;
+those cases those paths and make sure that they're&nbsp;&nbsp;
+
+00:07:43.720 --> 00:07:48.160
+correct. And also, if they're not correct, there's&nbsp;
+an error, you make sure that the application your&nbsp;&nbsp;
+
+00:07:48.160 --> 00:07:52.520
+application response in a way that you expect&nbsp;
+whenever there's any given error. So in our case,&nbsp;&nbsp;
+
+00:07:52.520 --> 00:07:55.960
+that's the form, the functionality of the&nbsp;
+form and what we see here. And that's it,&nbsp;&nbsp;
+
+00:07:55.960 --> 00:08:00.120
+we don't need to test anything else. And in the&nbsp;
+homepage, we have no interactivity, we just have&nbsp;&nbsp;
+
+00:08:00.120 --> 00:08:04.360
+a bunch of elements. So we just need to test that&nbsp;
+the elements are actually there. So let's go back&nbsp;&nbsp;
+
+00:08:04.360 --> 00:08:08.400
+to our VS code and actually start writing some&nbsp;
+tests. So first of all, I'm going to do all of&nbsp;&nbsp;
+
+00:08:08.400 --> 00:08:13.680
+this work in this one example dot spec.ts file,&nbsp;
+just to keep things simple. In a real application,&nbsp;&nbsp;
+
+00:08:13.680 --> 00:08:17.640
+you might want to split this up into multiple&nbsp;
+files, each related to different types of tests,&nbsp;&nbsp;
+
+00:08:17.640 --> 00:08:21.800
+that's totally recommended. But we're going to do&nbsp;
+this in one file just to keep things very simple.&nbsp;&nbsp;
+
+00:08:21.800 --> 00:08:25.960
+And the second thing is, we're going to have two&nbsp;
+different groups of tests, because we have two&nbsp;&nbsp;
+
+00:08:25.960 --> 00:08:30.520
+different pages, we have the homepage, and we have&nbsp;
+the form page. And it's generally a better idea to&nbsp;&nbsp;
+
+00:08:30.520 --> 00:08:35.240
+group those things together, because related tests&nbsp;
+usually have some common functionality that should&nbsp;&nbsp;
+
+00:08:35.240 --> 00:08:39.920
+go in the same group. So let's go back to VS code&nbsp;
+and actually start writing some tests. Now the&nbsp;&nbsp;
+
+00:08:39.920 --> 00:08:43.720
+way that we're going to do this is first of all,&nbsp;
+I'm going to write everything in this one file&nbsp;&nbsp;
+
+00:08:43.720 --> 00:08:48.640
+example dot spec.ts, just to keep things simple&nbsp;
+for the video. But ideally, in a real project,&nbsp;&nbsp;
+
+00:08:48.640 --> 00:08:52.800
+you might want to have separate files, each for a&nbsp;
+different group of related tests. The second thing&nbsp;&nbsp;
+
+00:08:52.800 --> 00:08:57.040
+is, even though I'm putting all of this in one&nbsp;
+file, I will separate my tests into two groups,&nbsp;&nbsp;
+
+00:08:57.040 --> 00:09:00.640
+I'm going to have one group for the homepage&nbsp;
+and one group for the form page just to keep&nbsp;&nbsp;
+
+00:09:00.640 --> 00:09:04.640
+things a little bit more organized, so that I&nbsp;
+put all of the tests related to the homepage in&nbsp;&nbsp;
+
+00:09:04.640 --> 00:09:08.680
+one block and all of the tests related to the&nbsp;
+form page in another block. Now in playwright,&nbsp;&nbsp;
+
+00:09:08.680 --> 00:09:13.200
+you can actually do that you can create groups and&nbsp;
+you do that by using a describe block. So let's&nbsp;&nbsp;
+
+00:09:13.200 --> 00:09:17.600
+come here and let's test dot describe. And here&nbsp;
+we can actually give it a name. So for example,&nbsp;&nbsp;
+
+00:09:17.600 --> 00:09:22.800
+we can do home page like this, this is going to be&nbsp;
+all of the tests that are related to the homepage,&nbsp;&nbsp;
+
+00:09:22.800 --> 00:09:26.840
+we're going to put them inside of this describe&nbsp;
+block, then we give this a function over here,&nbsp;&nbsp;
+
+00:09:26.840 --> 00:09:31.040
+an arrow function. And inside of here, we're going&nbsp;
+to put all of our tests that are related to the&nbsp;&nbsp;
+
+00:09:31.040 --> 00:09:35.640
+homepage. The only thing that this describe block&nbsp;
+actually does is when you have an actual UI, and&nbsp;&nbsp;
+
+00:09:35.640 --> 00:09:39.800
+when you see the actual tests being run, they're&nbsp;
+going to be grouped under this category to make it&nbsp;&nbsp;
+
+00:09:39.800 --> 00:09:44.440
+easier for yourself to organize, I always like to&nbsp;
+do this. And again, group related tests together&nbsp;&nbsp;
+
+00:09:44.440 --> 00:09:48.280
+in a describe block, because it just makes more&nbsp;
+sense. And then in here, we can actually write&nbsp;&nbsp;
+
+00:09:48.280 --> 00:09:52.640
+our tests. So the first test that we want to do&nbsp;
+is if I go back here to the actual application&nbsp;&nbsp;
+
+00:09:52.640 --> 00:09:57.640
+is we want to first open up this page over here.&nbsp;
+So localhost 3000, because we do have to navigate&nbsp;&nbsp;
+
+00:09:57.640 --> 00:10:11.520
+manually to it. And then we're going to check that&nbsp;
+theSo we're going to start by writing a test. So&nbsp;&nbsp;
+
+00:10:11.520 --> 00:10:15.840
+we can do tests like this, give it a parenthesis,&nbsp;
+then we need to give it a title. And we're going&nbsp;&nbsp;
+
+00:10:15.840 --> 00:10:25.800
+to do should have correct metadata and elements.&nbsp;
+You always want to give this a descriptive test,&nbsp;&nbsp;
+
+00:10:25.800 --> 00:10:30.640
+a descriptive title to actually represent what the&nbsp;
+test is actually doing. So should have the correct&nbsp;&nbsp;
+
+00:10:30.640 --> 00:10:35.840
+metadata and elements, this is very clear as to&nbsp;
+what this test does. Then as the second argument,&nbsp;&nbsp;
+
+00:10:35.840 --> 00:10:41.800
+we're going to give this an asynchronous function.&nbsp;
+So we're going to do async like this. And this is&nbsp;&nbsp;
+
+00:10:41.800 --> 00:10:45.760
+going to have one argument, and there's going to&nbsp;
+be an object. And from that object, we're actually&nbsp;&nbsp;
+
+00:10:45.760 --> 00:10:50.080
+going to get the page property like so, because&nbsp;
+we're going to be using this page inside of our&nbsp;&nbsp;
+
+00:10:50.080 --> 00:10:54.680
+test. So in this block over here, we created a&nbsp;
+test, we gave it a title, should have correct&nbsp;&nbsp;
+
+00:10:54.680 --> 00:10:59.400
+metadata and elements. Then as the second function&nbsp;
+is the actual function that we're going to use to&nbsp;&nbsp;
+
+00:10:59.400 --> 00:11:03.360
+test. And this page over here, we're going&nbsp;
+to actually use to access different things on&nbsp;&nbsp;
+
+00:11:03.360 --> 00:11:08.040
+that specific page, like access the title, access&nbsp;
+any elements and check that they're exactly what&nbsp;&nbsp;
+
+00:11:08.040 --> 00:11:12.160
+we expect. Now to check the title, this is what&nbsp;
+we're going to do. And by the way, to really see&nbsp;&nbsp;
+
+00:11:12.160 --> 00:11:16.680
+how to do any of these things, remember that you&nbsp;
+have this demo dash to do is app spec over here,&nbsp;&nbsp;
+
+00:11:16.680 --> 00:11:20.800
+you can actually look at this. And you can&nbsp;
+find how they get the actual title of a screen,&nbsp;&nbsp;
+
+00:11:20.800 --> 00:11:25.280
+how they get any single element, or you can look&nbsp;
+at the actual documentation, I'm only showing you&nbsp;&nbsp;
+
+00:11:25.280 --> 00:11:29.000
+here the simple version of doing things. But if&nbsp;
+you want to go a bit deeper and learn a little&nbsp;&nbsp;
+
+00:11:29.000 --> 00:11:32.880
+bit more, you have all of the resources available&nbsp;
+to be able to do that. So we're going to write&nbsp;&nbsp;
+
+00:11:32.880 --> 00:11:38.040
+a weight and then expect. So we are going to be&nbsp;
+expecting something and this is coming directly&nbsp;&nbsp;
+
+00:11:38.040 --> 00:11:42.920
+from playwright at test, this is this import over&nbsp;
+here. And then we're going to do page. So we're&nbsp;&nbsp;
+
+00:11:42.920 --> 00:11:49.200
+going to expect that the page dot and then here's&nbsp;
+a helper function to have title. And we're going&nbsp;&nbsp;
+
+00:11:49.200 --> 00:11:54.920
+to give it here the title that we expect, which&nbsp;
+is going to be caused in solutions like this. So&nbsp;&nbsp;
+
+00:11:54.920 --> 00:11:59.480
+now we have an actual test and we have some code&nbsp;
+inside of it that is going to wait and then it's&nbsp;&nbsp;
+
+00:11:59.480 --> 00:12:05.040
+going to expect the page to have a title of cause&nbsp;
+and solutions. This is a very simple test. So as&nbsp;&nbsp;
+
+00:12:05.040 --> 00:12:09.840
+long as we actually open up this page over here,&nbsp;
+and that we have a title cause and solutions, this&nbsp;&nbsp;
+
+00:12:09.840 --> 00:12:13.840
+test is going to work. But before we can actually&nbsp;
+test that there's one more thing that we have to&nbsp;&nbsp;
+
+00:12:13.840 --> 00:12:18.720
+do beforehand that I left out on purpose just to&nbsp;
+make it really obvious how important this is. You&nbsp;&nbsp;
+
+00:12:18.720 --> 00:12:23.640
+cannot actually expect the page to have anything&nbsp;
+before even visiting the page in the first place,&nbsp;&nbsp;
+
+00:12:23.640 --> 00:12:27.680
+right? In this test, there's nothing that we're&nbsp;
+telling this test to actually go to any specific&nbsp;&nbsp;
+
+00:12:27.680 --> 00:12:31.760
+page, we're just getting the page over here.&nbsp;
+And we're expecting it to have a specific title,&nbsp;&nbsp;
+
+00:12:31.760 --> 00:12:36.400
+but what page it doesn't know what URL to open.&nbsp;
+In this case, we actually have to give it right&nbsp;&nbsp;
+
+00:12:36.400 --> 00:12:41.320
+before we test something, we have to navigate&nbsp;
+to that specific page. And we do that by doing&nbsp;&nbsp;
+
+00:12:41.320 --> 00:12:47.200
+a weight and then page dot go to and this is&nbsp;
+a function and here we give it a URL. So for&nbsp;&nbsp;
+
+00:12:47.200 --> 00:12:54.760
+example, HTTP, slash slash local host, and then&nbsp;
+3000, like so, which is the actual endpoint that&nbsp;&nbsp;
+
+00:12:54.760 --> 00:12:59.640
+our application is running in, you have to give&nbsp;
+this to each test, because each test first of all&nbsp;&nbsp;
+
+00:12:59.640 --> 00:13:04.760
+runs in isolation. And each test needs to be able&nbsp;
+to know what page to actually go to. So first,&nbsp;&nbsp;
+
+00:13:04.760 --> 00:13:09.160
+we go to that specific page that is going to&nbsp;
+wait until the page is actually loaded. And then&nbsp;&nbsp;
+
+00:13:09.160 --> 00:13:12.600
+it's going to proceed to this line over here,&nbsp;
+which is going to check the title of the page&nbsp;&nbsp;
+
+00:13:12.600 --> 00:13:16.760
+and make sure that the title is exactly causing&nbsp;
+solutions, which is what we expect. And with that,&nbsp;&nbsp;
+
+00:13:16.760 --> 00:13:20.640
+we have everything that we need to actually run&nbsp;
+this test and see if it passes. So the way that&nbsp;&nbsp;
+
+00:13:20.640 --> 00:13:24.640
+you run tests in playwright is you open up the&nbsp;
+terminal over here, I'm going to create here a new&nbsp;&nbsp;
+
+00:13:24.640 --> 00:13:29.120
+terminal, because we have to have our application&nbsp;
+running, you can configure this to automatically&nbsp;&nbsp;
+
+00:13:29.120 --> 00:13:33.400
+run the application, it's in the documentation, in&nbsp;
+our case, we're just going to keep things simple,&nbsp;&nbsp;
+
+00:13:33.400 --> 00:13:39.200
+we're just going to write NPX playwright test. And&nbsp;
+then I'm just going to put this command over here,&nbsp;&nbsp;
+
+00:13:39.200 --> 00:13:43.680
+this is going to run three tests using three&nbsp;
+different workers, because it runs the test on&nbsp;&nbsp;
+
+00:13:43.680 --> 00:13:47.720
+different browsers. That's why we have different&nbsp;
+tests. And all of these tests are run in parallel.&nbsp;&nbsp;
+
+00:13:47.720 --> 00:13:51.440
+So they're all running at the same time.&nbsp;
+But as you can see here, we run three tests,&nbsp;&nbsp;
+
+00:13:51.440 --> 00:13:56.120
+and three tests actually have passed. And we can&nbsp;
+even have a report over here, if we wanted to,&nbsp;&nbsp;
+
+00:13:56.120 --> 00:14:00.560
+we can just do this run this command, this is&nbsp;
+going to actually show us here a report, which we&nbsp;&nbsp;
+
+00:14:00.560 --> 00:14:06.240
+can see. And we can see that we have all of these&nbsp;
+tests over here actually running, let me just copy&nbsp;&nbsp;
+
+00:14:06.240 --> 00:14:12.200
+this and then close it and go to Chrome, because&nbsp;
+I like to film everything in Chrome. There we go.&nbsp;&nbsp;
+
+00:14:12.200 --> 00:14:17.400
+This is the actual report. So homepage should have&nbsp;
+correct metadata and elements. It ran on Chromium,&nbsp;&nbsp;
+
+00:14:17.400 --> 00:14:22.120
+it passed on Firefox, it passed on WebKit,&nbsp;
+it passed all of these different tests pass,&nbsp;&nbsp;
+
+00:14:22.120 --> 00:14:26.400
+and we're making sure that our application at&nbsp;
+least has the correct title over here, which it&nbsp;&nbsp;
+
+00:14:26.400 --> 00:14:30.640
+does. This passes. Great. Something else that&nbsp;
+we could do is we can run a different command,&nbsp;&nbsp;
+
+00:14:30.640 --> 00:14:35.920
+we can run the test command over here with dash&nbsp;
+dash, and then UI, this is actually going to spin&nbsp;&nbsp;
+
+00:14:35.920 --> 00:14:39.920
+up a real browser. And it's going to be over&nbsp;
+here, let's open up this browser over here,&nbsp;&nbsp;
+
+00:14:39.920 --> 00:14:44.360
+let me just make it the correct size for you.&nbsp;
+Let me maybe zoom in a little bit. And here&nbsp;&nbsp;
+
+00:14:44.360 --> 00:14:48.720
+we actually have a UI to actually run our tests.&nbsp;
+And there's this green button over here, which we&nbsp;&nbsp;
+
+00:14:48.720 --> 00:14:52.880
+can press. And that is going to run all of our&nbsp;
+tests and all of our files. And you see here,&nbsp;&nbsp;
+
+00:14:52.880 --> 00:14:57.200
+we have the homepage. This is by the way, the&nbsp;
+describe block this homepage over here, that's why&nbsp;&nbsp;
+
+00:14:57.200 --> 00:15:01.040
+we're selecting it. That's why it's a different&nbsp;
+group because of the describe block. And inside&nbsp;&nbsp;
+
+00:15:01.040 --> 00:15:06.400
+of here, we have should have correct metadata and&nbsp;
+elements. And we have the actual test over here,&nbsp;&nbsp;
+
+00:15:06.400 --> 00:15:11.560
+page go to and then expect title to have and it&nbsp;
+did and it passed. And we are good to go. Our&nbsp;&nbsp;
+
+00:15:11.560 --> 00:15:15.840
+test actually passed. This is a different way to&nbsp;
+actually run your test. If you want to visually&nbsp;&nbsp;
+
+00:15:15.840 --> 00:15:20.240
+see how you're actually test are being run. Great.&nbsp;
+So now with this, we can actually continue and&nbsp;&nbsp;
+
+00:15:20.240 --> 00:15:24.120
+fill up the rest of the missing pieces of our&nbsp;
+test. Because remember, we don't only want to&nbsp;&nbsp;
+
+00:15:24.120 --> 00:15:28.720
+test that this has a correct title, we also want&nbsp;
+to test that over here, we have the actual heading&nbsp;&nbsp;
+
+00:15:28.720 --> 00:15:33.040
+that says homepage, and that we have a form that&nbsp;
+is a link that we can actually click to and go to&nbsp;&nbsp;
+
+00:15:33.040 --> 00:15:36.720
+the form page. So let's write those tests. So over&nbsp;
+here, we're going to test first that we have a&nbsp;&nbsp;
+
+00:15:36.720 --> 00:15:42.120
+heading that is a type heading and has homepage in&nbsp;
+it. So we're going to do a weight and then expect&nbsp;&nbsp;
+
+00:15:42.120 --> 00:15:48.320
+page dot get by role. And this is going to get an&nbsp;
+element by its role, which we can actually give&nbsp;&nbsp;
+
+00:15:48.320 --> 00:15:53.240
+it a role heading like this. And we can actually&nbsp;
+give it some properties over here, for example,&nbsp;&nbsp;
+
+00:15:53.240 --> 00:15:59.080
+the name, and we're going to give this here&nbsp;
+home page, like so. So what this is going&nbsp;&nbsp;
+
+00:15:59.080 --> 00:16:03.880
+to do is it's going to await and then it's going&nbsp;
+to expect and then page dot get by role, this is&nbsp;&nbsp;
+
+00:16:03.880 --> 00:16:09.320
+going to get any element within the page that has&nbsp;
+a role of heading that also has name homepage,&nbsp;&nbsp;
+
+00:16:09.320 --> 00:16:13.400
+which is actually going to be the text inside&nbsp;
+of that heading. If we have this, then we can&nbsp;&nbsp;
+
+00:16:13.400 --> 00:16:17.720
+actually validate that we actually do have this&nbsp;
+over here. And then it also has the correct text.&nbsp;&nbsp;
+
+00:16:17.720 --> 00:16:22.000
+Because if this did not have homepage, we will&nbsp;
+not get this element over here, right. So the only&nbsp;&nbsp;
+
+00:16:22.000 --> 00:16:27.920
+thing that we need to do after that is we need to&nbsp;
+call to be visible, because we need to check that&nbsp;&nbsp;
+
+00:16:27.920 --> 00:16:32.560
+this element is actually visible on the screen.&nbsp;
+So this test is only going to pass if we have&nbsp;&nbsp;
+
+00:16:32.560 --> 00:16:37.640
+a heading visible on the screen that is of type&nbsp;
+heading. And that also has homepage as the text,&nbsp;&nbsp;
+
+00:16:37.640 --> 00:16:42.160
+right? In any other case, it's not going to pass.&nbsp;
+But if it has this, it is going to pass. So let's&nbsp;&nbsp;
+
+00:16:42.160 --> 00:16:47.040
+come back here to our actual UI. And let's press&nbsp;
+play again, and see if our test still passes after&nbsp;&nbsp;
+
+00:16:47.040 --> 00:16:51.720
+these changes. And it does, you can see here,&nbsp;
+expect to be visible. And it's even highlighting&nbsp;&nbsp;
+
+00:16:51.720 --> 00:16:55.680
+the homepage over here, it's getting the actual&nbsp;
+heading element, and it's checking that it has&nbsp;&nbsp;
+
+00:16:55.680 --> 00:16:59.840
+the correct name inside of it. And just to be&nbsp;
+sure that our tests are actually need working,&nbsp;&nbsp;
+
+00:16:59.840 --> 00:17:03.320
+I like to do this sometime just to really&nbsp;
+make sure because sometimes you never know,&nbsp;&nbsp;
+
+00:17:03.320 --> 00:17:08.200
+let's come here and let's actually add an extra E&nbsp;
+to make this an invalid name. And now let's see if&nbsp;&nbsp;
+
+00:17:08.200 --> 00:17:12.880
+our test should fail. Because right now, we don't&nbsp;
+have a heading that has homepage with two E's. So&nbsp;&nbsp;
+
+00:17:12.880 --> 00:17:16.880
+this test should actually fail. So if you play&nbsp;
+this test over here, we're going to see that it&nbsp;&nbsp;
+
+00:17:16.880 --> 00:17:21.280
+takes a little longer, because when it fails, it&nbsp;
+actually retries the test. And in a short while,&nbsp;&nbsp;
+
+00:17:21.280 --> 00:17:25.640
+it is going to fail. And it's going to see here&nbsp;
+that expect to be visible has failed because we&nbsp;&nbsp;
+
+00:17:25.640 --> 00:17:30.800
+have no actual heading with homepage and to eat.&nbsp;
+So now we've confirmed that our test is actually&nbsp;&nbsp;
+
+00:17:30.800 --> 00:17:35.200
+behaving as we expect, and that we can rely on&nbsp;
+it to actually fail when it should. Great. So&nbsp;&nbsp;
+
+00:17:35.200 --> 00:17:38.680
+now with this, we can come back, we can fix&nbsp;
+this over here. And let's remove the extra&nbsp;&nbsp;
+
+00:17:38.680 --> 00:17:43.000
+E. And let's just test that our link is also&nbsp;
+visible. Because remember, we do have a link&nbsp;&nbsp;
+
+00:17:43.000 --> 00:17:47.000
+over here. And we also want to check that this&nbsp;
+is visible and that it has the correct text.&nbsp;&nbsp;
+
+00:17:47.000 --> 00:17:53.000
+So we're going to do the exact same thing, we're&nbsp;
+going to do await, expect, and then page dot get&nbsp;&nbsp;
+
+00:17:53.000 --> 00:17:58.120
+by by role. And we're going to give it here link&nbsp;
+this time. And we're also going to give it name,&nbsp;&nbsp;
+
+00:17:58.120 --> 00:18:03.840
+and it's going to be form like some and we're&nbsp;
+going to await and expect to be visible. And&nbsp;&nbsp;
+
+00:18:03.840 --> 00:18:08.160
+we're going to wait for this and expect it to be&nbsp;
+visible. Let's come back here to our test. Let's&nbsp;&nbsp;
+
+00:18:08.160 --> 00:18:13.240
+rerun this and we should see all green passing&nbsp;
+test. There we go. Our link is also visible.&nbsp;&nbsp;
+
+00:18:13.240 --> 00:18:17.560
+There we go, we have successfully completed our&nbsp;
+first actual test testing that we should have&nbsp;&nbsp;
+
+00:18:17.560 --> 00:18:22.040
+the correct metadata and elements on that specific&nbsp;
+screen. Great. Now the next thing that we want to&nbsp;&nbsp;
+
+00:18:22.040 --> 00:18:26.640
+test is that when we click on this link over here&nbsp;
+in this form link, we are redirected to the form&nbsp;&nbsp;
+
+00:18:26.640 --> 00:18:31.000
+page. Because while it's cool that we did test&nbsp;
+that this link is over here and that it says form,&nbsp;&nbsp;
+
+00:18:31.000 --> 00:18:35.200
+we did not actually test that when we click this&nbsp;
+form, it brings us to the expected page. And this&nbsp;&nbsp;
+
+00:18:35.200 --> 00:18:39.280
+is also important to test because the user is&nbsp;
+going to be able to click on this. And if they're&nbsp;&nbsp;
+
+00:18:39.280 --> 00:18:43.560
+not redirected to the form, then you have a bug&nbsp;
+in your application. And having a test for that is&nbsp;&nbsp;
+
+00:18:43.560 --> 00:18:47.480
+going to prevent that bug. So we're going to come&nbsp;
+here and for that we're actually going to make a&nbsp;&nbsp;
+
+00:18:47.480 --> 00:18:51.280
+new test because now this is a different test,&nbsp;
+we're no longer testing that we have the correct&nbsp;&nbsp;
+
+00:18:51.280 --> 00:18:55.760
+metadata and elements, we're actually testing that&nbsp;
+when we click the link, it redirects us to exactly&nbsp;&nbsp;
+
+00:18:55.760 --> 00:18:59.360
+what we expect. So we're going to have to make&nbsp;
+a new test. So we're going to come here and do&nbsp;&nbsp;
+
+00:18:59.360 --> 00:19:07.440
+test. And here we're going to give this as a name&nbsp;
+should redirect to form page on click like this,&nbsp;&nbsp;
+
+00:19:07.440 --> 00:19:11.880
+click, and we're going to give this a sync&nbsp;
+as well a function. And here we're going to&nbsp;&nbsp;
+
+00:19:11.880 --> 00:19:18.160
+give the page and we're going to do the exact&nbsp;
+same thing as we did before. Now the thing is,&nbsp;&nbsp;
+
+00:19:18.160 --> 00:19:22.840
+we're also going to have to write the same code&nbsp;
+over here to actually navigate to that specific&nbsp;&nbsp;
+
+00:19:22.840 --> 00:19:27.120
+page because every single test in playwright&nbsp;
+runs in isolation. And you have a whole new&nbsp;&nbsp;
+
+00:19:27.120 --> 00:19:31.800
+session every single time, which means you have to&nbsp;
+reopen the browser and we go to the same page that&nbsp;&nbsp;
+
+00:19:31.800 --> 00:19:36.000
+you were before. So we have to write this again&nbsp;
+for every single test that we want to go to this&nbsp;&nbsp;
+
+00:19:36.000 --> 00:19:40.360
+page. But doing it this way is not the recommended&nbsp;
+way because you are repeating yourself, right,&nbsp;&nbsp;
+
+00:19:40.360 --> 00:19:44.240
+you're going to have to write this on every single&nbsp;
+test that you want to navigate to that same page.&nbsp;&nbsp;
+
+00:19:44.240 --> 00:19:49.440
+And the truth is on the homepage in this describe&nbsp;
+block, most of our tests, if not all of them are&nbsp;&nbsp;
+
+00:19:49.440 --> 00:19:54.480
+going to need to go to the same page. So it would&nbsp;
+be better if you had a way to run something before&nbsp;&nbsp;
+
+00:19:54.480 --> 00:19:58.760
+every single test where we can put this little&nbsp;
+piece of code to to make our life a little bit&nbsp;&nbsp;
+
+00:19:58.760 --> 00:20:02.600
+easier and not have to repeat ourselves.And the&nbsp;
+cool thing about Playwright is that there actually&nbsp;&nbsp;
+
+00:20:02.600 --> 00:20:07.080
+is. We can inject the hook before every single&nbsp;
+test, and we can put this piece of code inside of&nbsp;&nbsp;
+
+00:20:07.080 --> 00:20:11.280
+that hook. And the way that we do that is we come&nbsp;
+here, we make a little bit of space, and inside&nbsp;&nbsp;
+
+00:20:11.280 --> 00:20:15.920
+of this describe block, because we only want this&nbsp;
+hook to apply to any test inside of this block,&nbsp;&nbsp;
+
+00:20:15.920 --> 00:20:20.360
+that's also another use case for having describe&nbsp;
+blocks, we're going to create a before each hook.&nbsp;&nbsp;
+
+00:20:20.360 --> 00:20:25.680
+So we're going to do test.beforeEach, and we're&nbsp;
+going to give this here a function. So this is&nbsp;&nbsp;
+
+00:20:25.680 --> 00:20:31.440
+going to be async, like this, and it's going to&nbsp;
+take the same page as we had before. And here,&nbsp;&nbsp;
+
+00:20:31.440 --> 00:20:35.400
+we're just going to put an arrow function,&nbsp;
+and we're going to take this code over here,&nbsp;&nbsp;
+
+00:20:35.400 --> 00:20:39.800
+and we're going to paste it inside of this hook&nbsp;
+over here. So now we don't need to have it inside&nbsp;&nbsp;
+
+00:20:39.800 --> 00:20:44.240
+of this individual test. And we also don't need&nbsp;
+to have it inside of this test over here. And&nbsp;&nbsp;
+
+00:20:44.240 --> 00:20:48.440
+just to prove this to you, I'm going to comment&nbsp;
+out this test. And I'm just going to run the test&nbsp;&nbsp;
+
+00:20:48.440 --> 00:20:52.800
+over here and run the same test. And you're going&nbsp;
+to see that it still passes because we have this&nbsp;&nbsp;
+
+00:20:52.800 --> 00:20:57.440
+in the hook. And this runs before each individual&nbsp;
+test. So let's come back here, let's press play.&nbsp;&nbsp;
+
+00:20:57.440 --> 00:21:01.440
+And we're going to see that this is still going&nbsp;
+to work, because our code is exactly the same,&nbsp;&nbsp;
+
+00:21:01.440 --> 00:21:06.000
+we've now just put this in its own before each&nbsp;
+hook, which means that if we have a second test,&nbsp;&nbsp;
+
+00:21:06.000 --> 00:21:10.240
+or any other number of tests, we don't have to&nbsp;
+repeat ourselves every single time. And finally,&nbsp;&nbsp;
+
+00:21:10.240 --> 00:21:14.240
+let's finish up and write our test to actually&nbsp;
+check the redirect on a specific link. So we're&nbsp;&nbsp;
+
+00:21:14.240 --> 00:21:20.760
+going to do a wait. And then let's see a wait.&nbsp;
+And then this is going to be page get by role,&nbsp;&nbsp;
+
+00:21:20.760 --> 00:21:26.760
+we're going to give this link again, we're going&nbsp;
+to give this name, form. And then instead of to be&nbsp;&nbsp;
+
+00:21:26.760 --> 00:21:31.400
+visible, we're going to call a different function,&nbsp;
+we're going to call click like this, which is&nbsp;&nbsp;
+
+00:21:31.400 --> 00:21:36.080
+actually going to click on that specific input.&nbsp;
+So then we're going to have this click. And we're&nbsp;&nbsp;
+
+00:21:36.080 --> 00:21:41.440
+going to await and expect to be on a different&nbsp;
+page on the form page. So we're going to await,&nbsp;&nbsp;
+
+00:21:41.440 --> 00:21:48.200
+expect page to have title. And we're going to&nbsp;
+do here form like this, because whenever we go&nbsp;&nbsp;
+
+00:21:48.200 --> 00:21:52.640
+to the actual form page, you're going to see that&nbsp;
+the page title actually changes to form. So we're&nbsp;&nbsp;
+
+00:21:52.640 --> 00:21:57.160
+just going to check that we could also check the&nbsp;
+URL, we could check this in a different way, if we&nbsp;&nbsp;
+
+00:21:57.160 --> 00:22:01.800
+wanted to, we're going to keep things simple. And&nbsp;
+just check if we have the actual form over here,&nbsp;&nbsp;
+
+00:22:01.800 --> 00:22:05.720
+that's going to be enough. So let's come back&nbsp;
+here to our actual runner. And let's run all of&nbsp;&nbsp;
+
+00:22:05.720 --> 00:22:09.440
+these tests. And now we're going to run two tests.&nbsp;
+And we're going to see that both of them pass. So&nbsp;&nbsp;
+
+00:22:09.440 --> 00:22:13.920
+the first one still passes, that's great. And the&nbsp;
+second one also passes, we're going to click and&nbsp;&nbsp;
+
+00:22:13.920 --> 00:22:17.680
+we're actually going to see it found that actual&nbsp;
+element, the form element to click, you have this&nbsp;&nbsp;
+
+00:22:17.680 --> 00:22:22.040
+red little circle over here, and it clicked it,&nbsp;
+and then it checked the actual page. And you see&nbsp;&nbsp;
+
+00:22:22.040 --> 00:22:26.520
+here we're on form, and the title is form. And&nbsp;
+this test also passed. Great. And with this, our&nbsp;&nbsp;
+
+00:22:26.520 --> 00:22:31.400
+tests are passing, and we can guarantee and make&nbsp;
+sure that our application is going to work exactly&nbsp;&nbsp;
+
+00:22:31.400 --> 00:22:36.120
+as we expect now. And even more importantly, if we&nbsp;
+ever make a change to any code in the application&nbsp;&nbsp;
+
+00:22:36.120 --> 00:22:40.720
+in the future, having these tests over here is&nbsp;
+going to make sure that if we made some code that&nbsp;&nbsp;
+
+00:22:40.720 --> 00:22:44.560
+actually break something, one of these tests is&nbsp;
+going to break, and we're going to know about it,&nbsp;&nbsp;
+
+00:22:44.560 --> 00:22:48.280
+and we're going to be able to fix it. That's why&nbsp;
+you want to have tests in your application to make&nbsp;&nbsp;
+
+00:22:48.280 --> 00:22:52.720
+sure that your application works as expected now,&nbsp;
+and also in the future, if you make any changes to&nbsp;&nbsp;
+
+00:22:52.720 --> 00:22:57.320
+it. And having this in a visual runner, where you&nbsp;
+can actually inspect every single test and go to&nbsp;&nbsp;
+
+00:22:57.320 --> 00:23:01.720
+them and actually see the UI that was rendered at&nbsp;
+each specific step and see what the test runner is&nbsp;&nbsp;
+
+00:23:01.720 --> 00:23:06.080
+trying to click through is really, really useful.&nbsp;
+And it's also very useful for debugging, right,&nbsp;&nbsp;
+
+00:23:06.080 --> 00:23:10.400
+whenever you're actually developing your tests and&nbsp;
+putting them, I would recommend they use this UI&nbsp;&nbsp;
+
+00:23:10.400 --> 00:23:14.480
+because it is really useful. So now with this,&nbsp;
+the only thing that we have to do is actually&nbsp;&nbsp;
+
+00:23:14.480 --> 00:23:19.120
+write the tests for our form page over here.&nbsp;
+So all of these tests over here, and for this,&nbsp;&nbsp;
+
+00:23:19.120 --> 00:23:22.840
+I'm going to skip a little bit and just be faster,&nbsp;
+because I don't want to drag this video on by just&nbsp;&nbsp;
+
+00:23:22.840 --> 00:23:26.720
+repeating the same things. But I'm going to show&nbsp;
+you what this actually looks like for the form&nbsp;&nbsp;
+
+00:23:26.720 --> 00:23:30.960
+page. So the first thing that we want to do is we&nbsp;
+want to create a new describe block, because now&nbsp;&nbsp;
+
+00:23:30.960 --> 00:23:34.200
+it's no longer going to be on the homepage,&nbsp;
+it's going to be on the form page. So we're&nbsp;&nbsp;
+
+00:23:34.200 --> 00:23:39.360
+going to come here and do test dot describe. And&nbsp;
+here we're going to do a form page like so we're&nbsp;&nbsp;
+
+00:23:39.360 --> 00:23:43.880
+going to give this a function again, and we're&nbsp;
+going to put some code in here, we're also going&nbsp;&nbsp;
+
+00:23:43.880 --> 00:23:48.480
+to take the same describe block over here, because&nbsp;
+we're going to want to do the same exact principle&nbsp;&nbsp;
+
+00:23:48.480 --> 00:23:53.960
+in here. But instead of going to localhost 2000,&nbsp;
+we're going to put local host 2000 and then form&nbsp;&nbsp;
+
+00:23:53.960 --> 00:23:58.120
+so that every single test inside of this describe&nbsp;
+block automatically starts on the form page,&nbsp;&nbsp;
+
+00:23:58.120 --> 00:24:01.640
+which is what we want. And then we're going to&nbsp;
+come here and write our first test, which is going&nbsp;&nbsp;
+
+00:24:01.640 --> 00:24:06.120
+to be literally the same test as we had before. So&nbsp;
+we can even copy this directly, we can come here,&nbsp;&nbsp;
+
+00:24:06.120 --> 00:24:11.000
+we can paste this, it should also have the correct&nbsp;
+metadata and elements, but just for the form page.&nbsp;&nbsp;
+
+00:24:11.000 --> 00:24:15.720
+So in this case, the title is going to be form.&nbsp;
+So we're going to put your form like this, the&nbsp;&nbsp;
+
+00:24:15.720 --> 00:24:20.480
+heading is going to have also form like this, it's&nbsp;
+not going to have home page. So so we're going to&nbsp;&nbsp;
+
+00:24:20.480 --> 00:24:24.320
+save this. And then we're going to get instead&nbsp;
+of a link, because we actually don't have a link&nbsp;&nbsp;
+
+00:24:24.320 --> 00:24:30.720
+in here, I'm going to get get by placeholder.&nbsp;
+And over here, if I open up the form component,&nbsp;&nbsp;
+
+00:24:30.720 --> 00:24:36.160
+we have here this input, and we have a placeholder&nbsp;
+that says enter item, we can get this input using&nbsp;&nbsp;
+
+00:24:36.160 --> 00:24:41.120
+its placeholder. And because this is the only one&nbsp;
+that has this placeholder, this is safe to use to&nbsp;&nbsp;
+
+00:24:41.120 --> 00:24:44.720
+actually check that it is there that we have an&nbsp;
+input with this specific placeholder. So we're&nbsp;&nbsp;
+
+00:24:44.720 --> 00:24:48.720
+going to do get by placeholder, this only takes&nbsp;
+one argument. So we're just going to remove the&nbsp;&nbsp;
+
+00:24:48.720 --> 00:24:53.840
+second argument, and we're going to put enter item&nbsp;
+over here. And we're going to expect that to also&nbsp;&nbsp;
+
+00:24:53.840 --> 00:24:58.120
+be visible. And finally, because we also have a&nbsp;
+button over here that has add, we're going to do&nbsp;&nbsp;
+
+00:24:58.120 --> 00:25:04.160
+the same thing, we're going to do a wait, expect&nbsp;
+page dot get by role. And then that's going to&nbsp;&nbsp;
+
+00:25:04.160 --> 00:25:09.720
+be button. And we're going to give it your name,&nbsp;
+and that's going to be add and then to be visible,&nbsp;&nbsp;
+
+00:25:09.720 --> 00:25:14.440
+like so. And now we have the same test that is&nbsp;
+testing that every single element on the screen&nbsp;&nbsp;
+
+00:25:14.440 --> 00:25:19.400
+is also visible. If you run this, we have now our&nbsp;
+new describe block over here. So you see it's in&nbsp;&nbsp;
+
+00:25:19.400 --> 00:25:23.640
+a different section. That's one of the benefits of&nbsp;
+using the scribe logs. And we have this test that&nbsp;&nbsp;
+
+00:25:23.640 --> 00:25:28.520
+also passes all of these elements are visible, and&nbsp;
+they're exactly what we expect. Great. Now there's&nbsp;&nbsp;
+
+00:25:28.520 --> 00:25:32.640
+two more tests that I want to run. And the first&nbsp;
+one is going to be that initially, whenever we&nbsp;&nbsp;
+
+00:25:32.640 --> 00:25:37.000
+load this page and refresh, refresh into it,&nbsp;
+we should have no items displayed over here,&nbsp;&nbsp;
+
+00:25:37.000 --> 00:25:40.800
+right? That's our initial empty state. So that's&nbsp;
+going to be one test. The second test is going to&nbsp;&nbsp;
+
+00:25:40.800 --> 00:25:45.160
+be once we actually enter an item, we're going to&nbsp;
+check that we actually have that item over here.&nbsp;&nbsp;
+
+00:25:45.160 --> 00:25:49.160
+And that this input is clear, because remember,&nbsp;
+if I put test, we're going to add the item,&nbsp;&nbsp;
+
+00:25:49.160 --> 00:25:53.000
+it's going to be here. And then this input is&nbsp;
+going to be clear. That is our second test. Now&nbsp;&nbsp;
+
+00:25:53.000 --> 00:25:56.560
+to be able to do this, we're going to have to come&nbsp;
+in here to our form component. And we're going to&nbsp;&nbsp;
+
+00:25:56.560 --> 00:26:00.800
+have to add a few properties to some elements to&nbsp;
+be able to reference them in our test and make&nbsp;&nbsp;
+
+00:26:00.800 --> 00:26:04.920
+some expectations assertions on those specific&nbsp;
+elements. And we're going to be making use of&nbsp;&nbsp;
+
+00:26:04.920 --> 00:26:09.640
+the data test ID attribute. So the data test ID&nbsp;
+attribute is an attribute that you can place on&nbsp;&nbsp;
+
+00:26:09.640 --> 00:26:14.000
+any single element, it is just like any normal&nbsp;
+prop over here. And you can give it a specific&nbsp;&nbsp;
+
+00:26:14.000 --> 00:26:18.840
+test ID. And then you can use that test ID to&nbsp;
+reference that elements out of your test and do&nbsp;&nbsp;
+
+00:26:18.840 --> 00:26:22.520
+any single thing to it. So for example, we're&nbsp;
+going to want to write our empty test, right,&nbsp;&nbsp;
+
+00:26:22.520 --> 00:26:27.680
+so we're going to come here and we're going to do&nbsp;
+test. And that is going to be should have empty&nbsp;&nbsp;
+
+00:26:27.680 --> 00:26:33.080
+items list on start, right. So we're going to give&nbsp;
+this an asynchronous function that is going to&nbsp;&nbsp;
+
+00:26:33.080 --> 00:26:37.800
+take the page over here. And this is going to be&nbsp;
+our test that makes sure and check that whenever&nbsp;&nbsp;
+
+00:26:37.800 --> 00:26:42.000
+we're actually loading this page, initially,&nbsp;
+we have an empty items list, and this should be&nbsp;&nbsp;
+
+00:26:42.000 --> 00:26:47.360
+empty like this. And for that, we're going to want&nbsp;
+to get this actual element by its test ID, which&nbsp;&nbsp;
+
+00:26:47.360 --> 00:26:51.560
+we have to add over here. So we're going to want&nbsp;
+to add it on this unordered list tag over here,&nbsp;&nbsp;
+
+00:26:51.560 --> 00:26:55.880
+because we're going to want to get this element&nbsp;
+and make sure that its contents inside this map&nbsp;&nbsp;
+
+00:26:55.880 --> 00:27:00.600
+over here is empty, and that there's nothing. So&nbsp;
+we're going to come here, I'm going to do data,&nbsp;&nbsp;
+
+00:27:00.600 --> 00:27:06.400
+test ID, and we're going to give this items&nbsp;
+list like so. Now we're going to be able to&nbsp;&nbsp;
+
+00:27:06.400 --> 00:27:10.880
+come in our test and use that test ID to get this&nbsp;
+element and make sure and check that it's empty&nbsp;&nbsp;
+
+00:27:10.880 --> 00:27:18.280
+inside. So we're going to do const items list&nbsp;
+equals page get by test ID, as you can see here,&nbsp;&nbsp;
+
+00:27:18.280 --> 00:27:23.360
+and now we're going to give this items list,&nbsp;
+which is the test ID that we gave it in initially&nbsp;&nbsp;
+
+00:27:23.360 --> 00:27:28.160
+in our code over here. And then the only thing&nbsp;
+that we have to do is we have to await expect&nbsp;&nbsp;
+
+00:27:29.000 --> 00:27:35.640
+items list dot to be empty, like so we're going to&nbsp;
+call the to be empty on the items list, we could&nbsp;&nbsp;
+
+00:27:35.640 --> 00:27:40.440
+have also done things like this, we could have put&nbsp;
+things over here, right inside of this directly,&nbsp;&nbsp;
+
+00:27:40.440 --> 00:27:43.680
+this would have worked, I just showed you&nbsp;
+the different way, because we are working&nbsp;&nbsp;
+
+00:27:43.680 --> 00:27:48.240
+in JavaScript and TypeScript. And we can create&nbsp;
+variables if you wanted to. And sometimes it is&nbsp;&nbsp;
+
+00:27:48.240 --> 00:27:52.200
+useful if you want to reuse this item list in&nbsp;
+other places. In this test, you want to create&nbsp;&nbsp;
+
+00:27:52.200 --> 00:27:55.920
+a separate variable for it so that you can then&nbsp;
+just reuse it. So now if you go back here to our&nbsp;&nbsp;
+
+00:27:55.920 --> 00:28:00.040
+actual application, we should run this test and&nbsp;
+it should work, it's going to get that element&nbsp;&nbsp;
+
+00:28:00.040 --> 00:28:04.240
+by its test ID. And there we go, it got the&nbsp;
+actual element, and it saw that it was empty,&nbsp;&nbsp;
+
+00:28:04.240 --> 00:28:09.000
+which is what our test expects. So it passed our&nbsp;
+test. There we go. And finally, the last test that&nbsp;&nbsp;
+
+00:28:09.000 --> 00:28:13.160
+we want to do is we want to check that whenever&nbsp;
+we enter an item, and we put something in here,&nbsp;&nbsp;
+
+00:28:13.160 --> 00:28:17.960
+the item is actually added over there, and that we&nbsp;
+have an empty input box over here. Now to do that,&nbsp;&nbsp;
+
+00:28:17.960 --> 00:28:21.760
+we're going to have to come in here to our form&nbsp;
+again. And we're going to have to add an item over&nbsp;&nbsp;
+
+00:28:21.760 --> 00:28:26.360
+here to Li to again, get it access it in our&nbsp;
+test and make some expectations on the search&nbsp;&nbsp;
+
+00:28:26.360 --> 00:28:31.760
+and checks to it. So we're going to do this, I'm&nbsp;
+going to data test ID. And I'm just going to give&nbsp;&nbsp;
+
+00:28:31.760 --> 00:28:35.880
+this item like this to keep things very simple.&nbsp;
+Then we're going to come back here to our test,&nbsp;&nbsp;
+
+00:28:35.880 --> 00:28:42.040
+we're going to create a new test test that is&nbsp;
+going to say should add item to list that is going&nbsp;&nbsp;
+
+00:28:42.040 --> 00:28:47.920
+to be again a function a sink, we're going to get&nbsp;
+this page like this. And then we're going to come&nbsp;&nbsp;
+
+00:28:47.920 --> 00:28:55.280
+here. And we're going to do so we're going to do&nbsp;
+const input equals page dot get by placeholder,&nbsp;&nbsp;
+
+00:28:55.280 --> 00:29:00.360
+we're going to give this enter item like so. And&nbsp;
+then we're going to call a function on this input,&nbsp;&nbsp;
+
+00:29:00.360 --> 00:29:05.280
+we're going to do a weight input dot fill. And&nbsp;
+this is going to be a function that as you can see&nbsp;&nbsp;
+
+00:29:05.280 --> 00:29:09.800
+over here, we'll set a value on the input field.&nbsp;
+This is what you use whenever you want to put text&nbsp;&nbsp;
+
+00:29:09.800 --> 00:29:14.680
+on a specific input field. So we're going to do&nbsp;
+item one, like so. So now this input is going to&nbsp;&nbsp;
+
+00:29:14.680 --> 00:29:19.760
+have item one as its value, then we're going to&nbsp;
+come here and we're going to await page dot get&nbsp;&nbsp;
+
+00:29:19.760 --> 00:29:23.960
+by role, we're going to get this button, we're&nbsp;
+going to access our button and actually click&nbsp;&nbsp;
+
+00:29:23.960 --> 00:29:29.600
+it. So we're going to come here and do name. And&nbsp;
+what happened, let's come here and do name, add,&nbsp;&nbsp;
+
+00:29:29.600 --> 00:29:33.920
+and then we're going to do click like so. And&nbsp;
+now this is going to click the actual button,&nbsp;&nbsp;
+
+00:29:33.920 --> 00:29:38.320
+and it's going to trigger the actual functionality&nbsp;
+that we have on a button with that specific value&nbsp;&nbsp;
+
+00:29:38.320 --> 00:29:42.640
+in the input field. So then after we click the&nbsp;
+button, we should have our new item on the screen.&nbsp;&nbsp;
+
+00:29:42.640 --> 00:29:46.840
+So we have to get it and make sure that it has&nbsp;
+item one, which is what we put over here as our&nbsp;&nbsp;
+
+00:29:46.840 --> 00:29:53.360
+text. So we're going to do const item equals&nbsp;
+page dot get by test ID. And now we're going to&nbsp;&nbsp;
+
+00:29:53.360 --> 00:29:58.960
+give this item which again, remember, this is the&nbsp;
+test ID data test ID, we gave it item. And we're&nbsp;&nbsp;
+
+00:29:58.960 --> 00:30:04.640
+also going to doAnd then we're going to put zero&nbsp;
+because over here, this is going to be a list. So&nbsp;&nbsp;
+
+00:30:04.640 --> 00:30:09.560
+we're mapping over every single item, each item is&nbsp;
+going to have the same test ID, and we can use the&nbsp;&nbsp;
+
+00:30:09.560 --> 00:30:14.360
+nth one. So the nth item and access the first item&nbsp;
+in that list. So right, so that's going to be our&nbsp;&nbsp;
+
+00:30:14.360 --> 00:30:21.520
+item over here. And now that we have our item, all&nbsp;
+we have to do is just await, expect item to have&nbsp;&nbsp;
+
+00:30:21.520 --> 00:30:29.720
+text and then item one, like so. And then we're&nbsp;
+also going to await and then expect input to be&nbsp;&nbsp;
+
+00:30:29.720 --> 00:30:35.280
+empty. Like so because remember, every single time&nbsp;
+that we type something that we click this button,&nbsp;&nbsp;
+
+00:30:35.280 --> 00:30:39.400
+our input should go back to being empty so that&nbsp;
+we can type something else. So this is making&nbsp;&nbsp;
+
+00:30:39.400 --> 00:30:44.480
+that check. And then we're checking that the item&nbsp;
+has indeed the item one text. And now with this,&nbsp;&nbsp;
+
+00:30:44.480 --> 00:30:48.760
+if I come back over here, go back to our test&nbsp;
+runner and replay all of the tests, we should see&nbsp;&nbsp;
+
+00:30:48.760 --> 00:30:53.600
+that every single test in our application passes.&nbsp;
+And we have our should add item to the list as&nbsp;&nbsp;
+
+00:30:53.600 --> 00:30:58.160
+passing we have over here, we're filling the&nbsp;
+text, you can see here we have item put over here,&nbsp;&nbsp;
+
+00:30:58.160 --> 00:31:01.960
+then we're clicking the button, then we have an&nbsp;
+item, we're getting it and we're checking that&nbsp;&nbsp;
+
+00:31:01.960 --> 00:31:06.360
+it has item one. And then we're also checking&nbsp;
+that the input is actually empty. There you go,&nbsp;&nbsp;
+
+00:31:06.360 --> 00:31:10.440
+you are testing the entire application and every&nbsp;
+single thing that the user can do. And you're&nbsp;&nbsp;
+
+00:31:10.440 --> 00:31:14.800
+making sure that your application is behaving&nbsp;
+exactly as you expect end to end front end back&nbsp;&nbsp;
+
+00:31:14.800 --> 00:31:19.440
+end database involved. And that there are no&nbsp;
+unwanted surprises. This is great. Now again,&nbsp;&nbsp;
+
+00:31:19.440 --> 00:31:23.800
+remember, this was very simple, right, you can&nbsp;
+obviously do a lot more than this, I would highly,&nbsp;&nbsp;
+
+00:31:23.800 --> 00:31:28.000
+highly recommend that you come here and you look&nbsp;
+at this demo app over here and actually run the&nbsp;&nbsp;
+
+00:31:28.000 --> 00:31:31.960
+application, run all of these tests, and really&nbsp;
+look at how they're doing things. They're doing&nbsp;&nbsp;
+
+00:31:31.960 --> 00:31:36.200
+a lot more things that I did in this tutorial&nbsp;
+video. And they have a bunch of helper functions&nbsp;&nbsp;
+
+00:31:36.200 --> 00:31:40.120
+over here that they're using across multiple&nbsp;
+text, they're using JSON, they're doing all&nbsp;&nbsp;
+
+00:31:40.120 --> 00:31:44.240
+of those things. And this is a really great&nbsp;
+resource to actually check and make sure that&nbsp;&nbsp;
+
+00:31:44.240 --> 00:31:48.560
+you're writing your text, your test properly, and&nbsp;
+that you're following all the deepest practices,&nbsp;&nbsp;
+
+00:31:48.560 --> 00:31:52.640
+I would highly, highly recommend this. And also,&nbsp;
+I would also highly recommend that you look and&nbsp;&nbsp;
+
+00:31:52.640 --> 00:31:56.720
+read the documentation of playwright because they&nbsp;
+have a lot of examples, they have a lot of APIs&nbsp;&nbsp;
+
+00:31:56.720 --> 00:32:00.760
+and documentations that you can use to actually&nbsp;
+write your test. Doing all of these things,&nbsp;&nbsp;
+
+00:32:00.760 --> 00:32:04.960
+you've now learned how to actually use playwright&nbsp;
+to write your test. And more importantly,&nbsp;&nbsp;
+
+00:32:04.960 --> 00:32:10.000
+you've learned how to understand what to test and&nbsp;
+what not to test. And you've seen a real world&nbsp;&nbsp;
+
+00:32:10.000 --> 00:32:14.640
+example of how I would approach thinking about&nbsp;
+this and writing the actual test for a very simple&nbsp;&nbsp;
+
+00:32:14.640 --> 00:32:18.880
+application. And now you're good to go to apply&nbsp;
+this to your own react applications and write&nbsp;&nbsp;
+
+00:32:18.880 --> 00:32:23.400
+some really cool tests and have some really&nbsp;
+robust applications that have not one single&nbsp;&nbsp;
+
+00:32:23.400 --> 00:32:27.960
+bug in production. Let's go. If you enjoyed this&nbsp;
+video, and you want to see more videos just like&nbsp;&nbsp;
+
+00:32:27.960 --> 00:32:31.920
+this one, make sure to leave this video a big&nbsp;
+thumbs up. You can also click here to subscribe.&nbsp;&nbsp;
+
+00:32:31.920 --> 00:32:35.640
+Or you can click here to watch a different video&nbsp;
+of mine that YouTube seems to think that you're&nbsp;&nbsp;
+
+00:32:35.640 --> 00:32:39.960
+really going to enjoy. And with that being said,&nbsp;
+my name has been Darius Cosden, this is Cosden&nbsp;&nbsp;
+
+00:32:39.960 --> 00:32:44.597
+Solutions, thank you so much for watching, and&nbsp;
+I will see you in the next video. Ciao! Ciao!
+

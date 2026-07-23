@@ -1,0 +1,920 @@
+The 2025
+
+Benchmark
+
+     Report
+   20
+
+   25
+
+
+
+
+Email and SMS performance data  
+to guide your marketing strategy
+Introduction section
+
+
+
+
+Learn from benchmarks based on similar businesses                                     Contents
+
+Data is a marketer’s 
+                                                                01         How to use this guide
+
+best friend—particularly                                                              02         Key takeaways for 2025
+performance data.
+In this 2025 benchmarks report, we
+share data based on a selection of
+                                          In this report, you’ll learn what “good”
+                                          and “great” look like based on real
+                                                                                      03         Email and SMS campaign data
+billions of emails and text messages to   results from Klaviyo, specific to your
+help marketers across verticals           industry vertical. Plus, you’ll hear from
+including apparel & accessories,          experts to guide your own best
+health & beauty, and more.
+               practices and drive more revenue and
+                                          power smarter digital relationships.
+                                                                                      04         Automated email flow
+Whether you want to understand how                                                               performance
+your current metrics stack up next to
+industry averages or you’re looking for
+inspiration on what types of emails
+and texts yield the highest revenue
+                                                                                      05         Better than your average
+per recipient, this report is for you.                                                           benchmark report
+02
+How to use this guide
+
+
+
+
+              How to use 
+
+              this guide
+              As you browse these key performance
+              indicators (KPIs), here’s how you can
+              get the most from this report:
+
+
+
+
+03
+How to use this guide
+
+
+
+
+Separate apples         You’ll notice this report breaks down KPIs by type 
+
+                        of message.
+
+
+from oranges            That’s because benchmarks only work when you’re
+                        comparing apples to apples. If you compare a welcome
+                        email click rate to an abandoned cart email click rate,
+                        you’ll get an inaccurate sense of your performance.
+
+                        Make sure you’re looking at the most closely aligned
+                        metric and industry when comparing your own
+                        performance.
+
+                          WANT TO GO DEEPER?
+
+                          The data in this report is high-level, and shows benchmarks across
+                          all ecommerce industries. Use our interactive version to compare
+                          your metrics to your industry-specific benchmarks.
+                           Get the interactive version
+
+
+
+
+04
+How to use this guide
+
+
+
+
+Prioritize areas        This guide includes both average performance and
+                        performance of the top 10% of businesses.
+
+
+where you want          Based on your goals, you might want to hit the top 10%
+                        for your abandoned cart series, but maybe you feel okay
+to excel                sitting on par with the average for your welcome flow.
+
+                        Or, if your broader business and marketing goals include
+                        driving loyalty, you’ll probably want to see if your post-
+                        purchase flow is in the top 10%—and learn how to
+                        improve it if not.
+
+
+
+
+
+05
+How to use this guide
+
+
+
+
+Make a concrete         For the areas you want to focus on improving, take
+                        the advice of Klaviyo customers and partners who
+
+list of next steps      rank impressively high on these benchmarks.
+
+                        Then, from your list of next steps, choose 1–2 ideas
+                        to act on immediately.
+
+
+
+
+
+06
+How to use this guide
+
+
+
+
+Learn more about        Open Rate:
+
+                        number of people who open email / total recipients
+
+KPIs and terms
+
+                        Note: due to Apple’s iOS 15 update in 2021, open rates are a less reliable measure and may be inflated.
+
+
+                        Click Rate:
+
+
+
+
+in this report
+                        number of people who click a link in email 
+
+                        or text / total recipients
+                        Note: Klaviyo has excluded bot clicks from both email and SMS when reporting this data.
+
+                        PLACED ORDER Rate:
+
+                        number of people who place an order from an email
+                        or text / total recipients
+                        Unsubscribe rate:
+
+                        number of people who unsubscribed after receiving
+                        an email or text / total recipients
+                        Revenue per recipient (RPR):
+
+                        total amount in USD from purchases made from
+                        an email or text / total recipients
+07
+Key takeaways for 2025
+
+
+
+
+              Key takeaways
+
+              for 2025
+08
+Key takeaways for 2025
+
+
+
+
+01                       These days, shoppers expect sales all year,
+                         not just on Black Friday. Year-round, brands
+                         often compete for consumer attention with
+                         clever discounts and limited-time offers. But
+                         spending extra time to find the campaign
+                         dates and messages that will most resonate
+
+Campaign                 with your audience, or segments of your
+                         audience, really matters.
+
+relevance matters        Campaign order rates are more than 5x higher for the top 10%
+                         of campaigns across both email and SMS. RPR for the top 10%
+
+
+
+to consumers, and
+                         of campaigns is even higher at 7x the average. 
+
+                         Brands that want to excel beyond the status quo need to go
+                         beyond discounts to develop smarter digital relationships.
+
+
+your bottom line.
+                         Effectively using customer data for smarter segmentation and
+                         better personalization is key to standing out. (Keep an eye out—
+                         more tactical advice on this later in the report.)
+
+
+
+09
+Key takeaways for 2025
+
+
+
+
+02                       While one-time email and SMS campaigns
+                         often get the glory, automated flows (like
+                         abandoned cart or post-purchase messages)
+                         generate up to 30x more RPR* than campaigns
+                         because they are so timely and targeted.
+                         Of course, campaigns still drive plenty of purchases, and they can
+
+
+Automation is the
+                         be even more effective with smart segmentation. But marketers
+                         who want to drive revenue while they sleep will do well to focus on
+                         their flows.
+
+
+
+conversion-driven        *Based on the difference between average RPR for email campaigns ($0.10) and average
+                         RPR for abandoned cart flows ($3.07)
+
+
+
+
+marketer’s secret
+advantage.
+10
+Key takeaways for 2025
+
+
+
+
+03
+                         Average RPR for SMS campaigns was slightly
+                         higher than average email RPR across all
+                         ecommerce industries—and that represents
+                         exciting things for marketers currently leading
+                         the way with this relatively new channel.
+
+SMS has the              This is especially true in specific verticals, including apparel &
+                         accessories, health & beauty, jewelry, and toys & hobbies. 
+
+
+
+potential to drive       Texting is already proving ROI for high-intent buyers. As SMS
+                         marketing strategies get more sophisticated and marketers
+
+
+
+even more revenue
+                         integrate them even more effectively with email best practices,
+                         the potential for texting-driven revenue could be significant.
+
+
+
+
+
+per recipient 
+
+than email.
+11
+Section 1: Email and SMS campaigns
+
+
+
+
+
+               Email and SMS 
+
+               campaigns
+12
+  Section 1: Email and SMS campaigns
+
+
+
+
+
+ Dive into campaign                                                                         To set the scene for this section,
+                                                                                            let’s clarify what a campaign is:
+                                                                                                                                                                                                       But not all campaigns are created equally. A
+                                                                                                                                                                                                       message sent to your entire marketing list will
+                                                                                                                                                                                                       almost certainly have lower engagement and
+
+
+ performance data
+                                                                                            email and SMS campaigns are one-                                                                           conversion than a highly targeted campaign
+                                                                                            off sends to a specific marketing                                                                          sent only to VIP customers, for example.
+
+
+
+
+ for your industry.
+                                                                                            list (whereas an automation, or                                                                            In this section, you’ll see how “good” and “great”
+                                                                                            flow, triggers automatically based                                                                         email and SMS campaigns perform—plus how
+                                                                                                                                                                                                       experts recommend using segmentation to
+                                                                                            on a subscriber’s behavior).                                                                               target messages and drive more revenue.
+
+
+
+
+  Email C ampaign                                                                   SMS CA M PAIGN                                                                                                                  EM AIL AND SMS CA M PAIGN
+  Engagement R ate s                                                                E NGAG EME NT RAT ES                                                                                                            R E V E NU E P E R R E CIPI E NT
+
+                                         Average   Top 10%                                                                        Average        Top 10%                                                                                                Average       Top 10%
+                                                                                                                                                                                                                     $1.00                                                                  $0.97
+
+                                                              37.93%                                                                     5.76%
+       Open Rate                                                                          Click Rate
+                                                                                                                                                                                              14.89%                                                $0.81
+                                                                       54.78%
+                                                                                                                                                                                                                     $0.75
+                       1.29%
+       Click Rate
+                               4.74%                                                                   0.10%
+                                                                                         Order Rate
+                                                                                                           0.64%                                                                                                    $0.50
+                    0.08%
+Placed Order Rate
+                       0.44%
+                                                                                                                 1.23%                                                                                               $0.25
+                                                                                   Unsubscribe Rate
+                    0.35%                                                                                0.27%
+Unsubscribe Rate                                                                                                                                                                                                                      $0.11                                     $0.10
+                    0.11%
+
+                                                                                                                                                                                                                     $0.00
+               0.00%                   20.00%                40.00%       60.00%                 0.00%                         5.00%                         10.00%                       15.00%                                   SMS Revenue Per Recipient              Email Revenue Per Recipient
+
+
+
+
+  13                                                                                                   Note: Your product price point influences the positioning of your metrics relative to RPR. RPR may not be an accurate benchmark if your product prices deviate from the average within your industry.
+Section 1: Email and SMS campaigns
+
+
+
+
+
+Key takeaways                          01   There’s high variability between the average and top
+                                            10% of performance for email and SMS campaigns.
+
+                                            The norm is easy to follow—but the industry-leading top 10% emails
+Based on the performance data of all        convert 5x more subscribers and drive 9x more RPR. For SMS, the top
+aggregated ecommerce industries,            10% of messages drive 7x RPR versus the average. 
+
+here are two key learnings:                 This likely comes down to the difference between batch-and-blast
+                                            tactics vs. highly segmented campaigns designed to be ultra-relevant
+                                            for a specific audience.
+
+
+
+
+                                       02   On average, SMS marketing returns slightly more
+                                            RPR, though the top 10% benchmarks show that
+                                            high-performing SMS campaigns yielded slightly
+                                            less RPR than email.
+
+                                            This signals a gap where marketers have room to evolve their strategy
+                                            to be as advanced as it is for email—and take home the resulting
+                                            paycheck.
+
+
+
+
+14
+Section 1: Email and SMS campaigns
+
+
+
+
+
+How to improve                                                            “
+email campaign
+                                         “As a marketer, you should remove these phrases
+                                         from your vocabulary: ‘batch and blast,’ ‘full send,’
+
+performance
+                                         or anything else implying sending a piece of
+                                         content to every active profile on your email list.
+                                         The power of Klaviyo’s segmentation functions is in
+The key to an effective email campaign   identifying users that may receive a message
+is combining smarter segmentation        using any of literally hundreds of data points. Why
+with highly targeted content.            is that important? It allows you to personalize so
+                                         deeply. One of the reasons automated flows
+                                         generate up to 30x more RPR is because they're
+                                         personalized and timed to meet the customer
+                                         where they are in their journey."
+                                         Ben Zettler, founder, Zettler Digital
+
+
+
+
+15
+Section 1: Email and SMS campaigns
+
+
+
+
+
+How to improve                                                          “
+SMS campaign
+                                      “Implementing two-way SMS goes beyond
+                                      customer experience. You can use it to educate
+
+performance
+                                      consumers on products and to re-engage lapsing
+                                      subscribers. SMS is a conversational channel and
+                                      should be treated as such. SMS will always be great
+                                      for flash sales and time-sensitive communications,
+                                      but there’s so much more opportunity in this
+                                      channel. Two-way SMS distinguishes the channel’s
+                                      capabilities even more from email marketing.”
+                                      David Retter, operating partner, Stride Consumer
+
+
+
+
+
+16
+Section 2: Automated email flows
+
+
+
+
+
+               Automated 
+
+               email flows
+17
+Section 2: Automated email flows
+
+
+
+
+
+See both high-level                           Because flows are based on what’s                                                               As you’ll see in this section, top-performing flows
+                                              important and relevant to customers,                                                            can convert 3x more recipients* than average
+                                                                                                                                              flows—so there’s a high degree of variability
+                                              they’re incredibly effective at driving
+
+
+and flow-specific
+                                                                                                                                              between what a “good” and “great” flow can mean
+                                              engagement and revenue.
+                                                                        for your bottom line.
+
+                                              Personalization = engagement. 
+                                                                 Use the benchmarks and guidance in this section
+
+
+
+benchmarks.
+                                              Nothing new there, right?                                                                       to break into the top 10% of automations. Your
+                                                                                                                                              revenue will thank you for it.
+
+
+                                                                                                                                                                     Average      Top 10%
+                                              Automated email flow
+                                              en g a g ement rate
+While email campaigns are sent to a                                                                 Open rate
+                                                                                                                                                                                            48.57%
+                                                                                                                                                                                                               65.74%
+
+targeted audience, an automated flow is an                                                           Click rate
+                                                                                                                          4.67%
+
+email triggered when a subscriber takes a
+                                                                                                                                         12.21%
+
+
+                                                                                                                   1.42%
+certain action—like subscribing, visiting a                                                         Order rate             4.93%
+
+
+product page, or making a purchase.                                                           Unsubscribe rate
+                                                                                                                  9.81%
+                                                                                                                  0.04%
+
+                                                                                                             0.00%                                20.00%                       40.00%                 60.00%                    80.00%
+
+
+
+                                                                                                                                                                     Average      Top 10%
+                                              Email flow revenue                                       $30.00
+                                              per recipient by                                                                                                                     $27.12
+                                              flow type
+                                                                                                                                                            $20.92
+                                                                                                       $20.00
+                                                                                                                                   $16.15
+
+                                                                                                       $10.00
+                                                                                                                                                                                                      $7.05
+                                                                                                                                                                                                                        $5.27
+                                                                                                                                                    $2.35                 $3.07
+                                                                                                                      $1.68                                                                   $0.95            $0.38
+                                                                                                        $0.00
+                                                                                                                           Email flows                 Welcome            Abandoned cart          Browse        Post-purchase
+                                                                                                                                                        flows                 flows            abandonment          flows
+18                                                                                                                                                                                                 flows
+                                              *As measured by the performance of the median placed order rate (1.42%) compared to the top 10% placed order rate (4.93%) for all flows across all industries
+Section 2: Automated email flows
+
+
+
+
+
+Key takeaways                          01   Flows are the secret advantage of 
+
+                                            a conversion-driven marketer.
+                                            Compared to campaigns, flows generate more engagement at every
+Based on the performance data of all        stage of the funnel, all the way to placing an order.
+
+aggregated ecommerce industries,            While campaigns often get the acclaim, a well-segmented, highly
+here are two key learnings:                 relevant flow continues to engage a consumer throughout their
+                                            lifecycle with your company. Flows are how marketers send the right
+                                            message to the right person, at the right time––without over-
+                                            extending their team.
+
+
+
+
+                                       02   Certain flows tend to drive higher revenue.
+                                            These flows tend to drive the highest average RPR across
+                                            all combined ecommerce industries:
+                                            1   Abandoned cart flow: $3.07
+
+                                            2   Welcome flow: $2.35
+
+                                            3   Browse abandonment flow: $0.95
+
+                                            4   Post-purchase flow: $0.38
+
+
+
+
+19
+  Section 2: Automated email flows
+
+
+
+
+
+ Deeper analysis:                                                                                Key takeaways
+ Welcome flow                                                                                    Based on the performance data of all aggregated ecommerce
+                                                                                                 industries, here are two key learnings:
+
+                                                                                                 01
+  Welcome Flow
+
+                                                   Average    Top 10%                                      A welcome series is the second-highest converting flow
+       Open rate
+                                                                        51.26%                             overall, with an average placed order rate of 1.97%.
+                                                                                      74.19%
+
+
+
+
+                                                                                                 02
+                         4.92%
+       Click rate
+                                         15.69%
+                                                                                                           Starting off strong can make all the difference. The top 10%
+Placed Order rate
+                      1.97%
+                                 9.89%
+                                                                                                           of welcome flows convert 5x as many people as the average
+                      0.96%
+                                                                                                           (9.89% vs. 1.97% placed order rate). 
+
+Unsubscribe rate
+                    0.00%
+                                                                                                           To break into this high-revenue group, make sure your welcome emails are
+                0.00%                     20.00%         40.00%              60.00%     80.00%
+                                                                                                           personalized to your new customer or subscriber to push performance from the
+                                                                                                           average—an already healthy nearly 2% conversion—to as high as nearly 10%.
+
+                                                                                                              Want to s ee t h i s in action ?
+
+                                                                                                              See how Otherland’s welcome flow “has the biggest impact on our
+                                                                                                              business,” Otherland’s brand manager Jenna Catalon Songer.
+
+  20
+Section 2: Automated email flows
+
+
+
+
+
+
+Advice 
+                                                              “
+to improve
+                                     “Collect zero-party data in sign-up forms and
+                                     serve content in a welcome flow that personalizes
+
+performance
+                                     messaging based on subscriber responses. Sell
+                                     coffee? Ask people if they prefer whole beans,
+                                     grounds, cups, or decaf. Showcase content in-
+                                     message based on what potential customers tell
+                                     you they’re most interested in.”
+                                     Ben Zettler, founder, Zettler Digital
+
+
+
+
+21
+ Section 2: Automated email flows
+
+
+
+
+
+ Deeper analysis:                                                                                    Key takeaways
+ Abandoned cart                                                                                      Based on the performance data of all aggregated ecommerce
+
+ flow
+                                                                                                     industries, here are two key learnings:
+                                                                                                               Abandoned cart flows drive the highest RPR and
+
+ Abandoned cart flow
+                                                                                                      01       average placed order rate of all flows.
+
+
+                                                 Average   Top 10%
+                                                                                                               If you’re looking for a single flow to set up to drive revenue, you’ve
+                                                                                                               found it in the abandoned cart series.
+                                                                 46.97%
+       Open rate
+                                                                                   63.59%
+
+
+                         5.21%
+                                                                                                               But compared to other flows, abandoned cart flows show
+                                                                                                     02
+       Click rate
+                                    12.35%
+
+
+                       2.68%
+                                                                                                               the least disparity between the median and top 10% of
+                                                                                                               conversions—which suggests that few abandoned cart
+Placed Order rate
+                            6.97%
+
+
+
+Unsubscribe rate
+                     0.58%
+                    0.00%
+                                                                                                               flows diverge from the status quo. 
+
+               0.00%                    20.00%         40.00%             60.00%            80.00%             It may also signal that you can't go wrong with even a basic abandoned cart flow.
+
+                                                                                                                  L   ooking to differentiate the flow that’s probably your No. 1 revenue driver?
+
+                                                                                                                  Get inspired by how Manly Bands uses a survey in their abandoned cart
+                                                                                                                  flow to see a 4.8x median order rate.
+
+ 22
+Section 2: Automated email flows
+
+
+
+
+
+
+Advice 
+                                                              “
+                                     “If you’re an ecommerce brand and you don’t have
+to improve                           an abandoned cart flow set up, you’re leaving
+                                     money on the table. When a customer adds a
+performance                          product to their cart, they’re showing the highest
+                                     level of buying intent among all of your website
+                                     visitors. If that customer leaves your site before
+                                     completing their purchase, it’s important to reach
+                                     out to them while they’re still in that buying
+                                     mindset. Capitalize on one of the highest-
+                                     converting flows by sending a personalized
+                                     message that reminds the customer about the
+                                     items they left behind, and incentivize them to
+                                     return to complete their purchase.”
+                                     Ashley Ismailovski, director of email marketing, SmartSites
+
+
+
+
+
+23
+ Section 2: Automated email flows
+
+
+
+
+
+ Deeper analysis:                                                                                  Key takeaways
+ Browse                                                                                            Based on the performance data of all aggregated ecommerce
+
+ abandonment
+                                                                                                   industries, here are two key learnings:
+
+
+ flow                                                                                               01       This flow shines in bringing people back to your site over
+
+                                                                                                             generating immediate purchases.
+
+
+
+                                                                                                             Perhaps considered more of a nice-to-have than the 3 other flows in this report,
+
+                                                                                                             the browse abandonment flow yields an impressive average click rate (nearly 5%)
+
+
+ Browse abandonment flow                                                                                     that shows subscribers value it enough to engage.
+
+
+
+
+                                                   Average   Top 10%                                         Since a browser's intent to buy is lower than a new subscriber's or a cart
+
+
+                                                                       54.10%                                abandoner's, it makes sense that clicks are more likely than purchases.Make sure
+       Open rate
+                                                                                 69.72%
+                                                                                                             your own flow answers this need by including education and reasons to tempt
+
+
+                         4.74%                                                                               subscribers to purchase.
+       Click rate
+                                 11.08%
+
+
+
+
+                                                                                                   02        While ranked 3rd out of the 4 flows in placed order rate,
+                     0.82%
+Placed Order rate
+                        3.02%
+
+
+
+Unsubscribe rate
+                     0.41%
+                    0.00%
+                                                                                                             the browse abandonment flow still converts.
+
+               0.00%                      20.00%         40.00%         60.00%            80.00%
+                                                                                                             When comparing placed order rate, browse abandonment emails still pull in
+                                                                                                             10x higher conversion rates than a standard email campaign (placed order
+                                                                                                             rate of 0.82% vs. campaigns at 0.08%).
+ 24
+Section 2: Automated email flows
+
+
+
+
+
+
+Advice
+                                                                   “
+                                     “Bringing customers back to browse your site is no
+
+to improve                           easy task, but abandon browse flows have a 0.92%
+                                     conversion rate—10x higher than the average
+
+performance                          email campaign. So, it’s a message well worth
+                                     sending. Consider these strategies for building out
+                                     your best browse abandonment flow:
+                                        Personalize your email with the top products someone viewed
+                                        Optimize cadence and frequency by sending the first email or SMS
+                                        touchpoint 4–24 hours after site activity, and be sure to send 2–3 more
+                                        touchpoints over the next few days
+                                        Increase 1:1 personalization by adding Klaviyo AI-powered product
+                                        recommendations to the emails.
+
+
+                                     Once you’ve established baselines, test an
+                                     incentive. In the second or third message, try
+                                     giving the customer 10% off or free shipping.”
+
+                                     Michael Pattison, lead digital strategist, Klaviyo
+
+
+
+
+25
+ Section 2: Automated email flows
+
+
+
+
+
+ Deeper analysis:                                                                     Key takeaways
+ Post-purchase                                                                        Based on the performance data of all aggregated ecommerce
+
+ flow
+                                                                                      industries, here are two key learnings:
+
+
+ Post-purchase flow
+                                                                                       01       Post-purchase flows have the highest average flow open rate
+                                                                                                (59.77%) but the lowest average placed order rate (0.48%). 
+
+                                                                                                The immediate post-purchase experience is more about driving loyalty with your
+                                             Average   Top 10%                                  new customers than driving immediate purchases—though it's worth noting that
+                                                                    51.26%
+                                                                                                average placed order rate is still significantly higher than that of email campaigns.
+       Open rate
+                                                                             74.19%
+
+
+
+       Click rate
+
+
+
+
+Placed Order rate
+                        3.48%
+
+
+
+
+                     0.48%
+                       2.00%
+                                12.19%
+
+
+                                                                                      02        The top 10% of performers have unlocked 4x more purchases
+                                                                                                with a 2% placed order rate. So up-selling isn’t impossible.
+
+                                                                                                Bottom line: In the post-purchase flow, you have your new customer’s attention.
+Unsubscribe rate
+                     0.46%
+                    0.00%
+                                                                                                While an immediate additional purchase isn’t going to happen every time, the
+                                                                                                post-purchase flow is certainly an opportunity to frame up- and cross-sell
+                                                                                                messages—in a sensitive and timely manner, so as to not appear overly pushy.
+               0.00%                20.00%         40.00%        60.00%      80.00%
+
+
+
+
+                                                                                                   See how Freshly Cosmetics drives 136% increase in revenue through
+                                                                                                   their post-purchase flow.
+ 26
+Section 2: Automated email flows
+
+
+
+
+
+
+Advice 
+                                                         “
+                                     “With the highest average flow open rate, the post-
+
+to improve                           purchase flow is the best opportunity to get in
+                                     front of a first-time shopper and turn them into a
+
+performance                          loyal customer. Include educational content for
+                                     your customer and start to plant the seed for
+                                     repeat purchases. Just bought a new skincare
+                                     product? Tell them how to best make it part of
+                                     their routine. Coffee beans? Barista tips and
+                                     recipes. A vacuum cleaner? Tips on cleaning the
+                                     filter. Build out your post-purchase flow with
+                                     conditional splits based on the collection(s) or
+                                     product(s) purchased to focus on delivering highly
+                                     relevant and personalized recommendations.”
+                                     David Visser, CEO, Zyber
+
+
+
+
+
+27
+Better than your average benchmark report
+
+
+
+
+Better than 
+                               Want ongoing suggestions based on your performance?
+
+                                            Try Klaviyo’s personalized benchmarks to find out how you
+
+
+
+
+your average
+                                            compare to the 100 businesses most similar to yours—and
+                                            where you can take steps to improve.
+                                              Try Klaviyo’s personalized benchmarks
+
+
+
+
+benchmark 
+
+report
+28
+

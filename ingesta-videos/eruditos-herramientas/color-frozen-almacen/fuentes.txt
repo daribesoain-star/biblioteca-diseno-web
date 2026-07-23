@@ -1,0 +1,62 @@
+# FUENTES — Ingesta Color Frozen + Almacén (formato: url|slug|subtema|motivo)
+# Subtemas: FROZEN (marcas de congelados), CONVENIENCE (minimarket/tienda de conveniencia),
+# PSICO (psicología del color en food retail), COMBO (combinaciones frío+cálido), CARNE (carne+frío)
+
+# --- PSICOLOGÍA DEL COLOR EN FOOD / RETAIL ---
+https://www.canva.com/learn/color-meanings/|canva-color-meanings|PSICO|significado de cada color aplicado a marca
+https://www.shopify.com/blog/color-psychology|shopify-color-psy|PSICO|psicología del color en marcas y retail
+https://blog.hubspot.com/the-hustle/psychology-of-color|hubspot-color-psy|PSICO|colores y decisión de compra
+https://en.wikipedia.org/wiki/Color_psychology|wiki-color-psy|PSICO|base academica de asociaciones de color
+https://www.verywellmind.com/color-psychology-2795824|verywell-color|PSICO|efectos psicologicos por color
+https://www.colorpsychology.org/green/|colorpsy-green|PSICO|verde: naturaleza salud frescura
+https://www.colorpsychology.org/blue/|colorpsy-blue|PSICO|azul: frio confianza limpieza
+https://www.colorpsychology.org/red/|colorpsy-red|PSICO|rojo: apetito urgencia carne
+
+# --- COLOR EN FOOD BRANDING / RESTAURANTES / APETITO ---
+https://www.webstaurantstore.com/blog/3620/restaurant-color-schemes.html|webstaurant-restaurant-colors|PSICO|colores que estimulan apetito en food
+https://www.designrush.com/best-designs/websites/trends/color-psychology-food-industry|designrush-food-color|PSICO|color en industria alimentaria
+https://blog.tubikstudio.com/color-in-design-influence-on-users-actions/|tubik-color|PSICO|color e influencia en usuarios
+
+# --- MARCAS DE CONGELADOS ---
+https://en.wikipedia.org/wiki/Birds_Eye|wiki-birdseye|FROZEN|marca de congelados clasica (azul)
+https://en.wikipedia.org/wiki/Iceland_(supermarket)|wiki-iceland|FROZEN|supermercado de congelados UK (rojo)
+https://en.wikipedia.org/wiki/McCain_Foods|wiki-mccain|FROZEN|papas congeladas lider mundial
+https://en.wikipedia.org/wiki/Picard_(brand)|wiki-picard|FROZEN|congelados premium Francia
+https://en.wikipedia.org/wiki/Findus|wiki-findus|FROZEN|congelados Europa
+https://en.wikipedia.org/wiki/Frozen_food|wiki-frozenfood|FROZEN|categoria congelados contexto
+
+# --- ALMACEN / CONVENIENCE / MINIMARKET ---
+https://en.wikipedia.org/wiki/Trader_Joe%27s|wiki-traderjoes|CONVENIENCE|almacen de barrio identidad calida
+https://en.wikipedia.org/wiki/Whole_Foods_Market|wiki-wholefoods|CONVENIENCE|verde natural premium alimentacion
+https://en.wikipedia.org/wiki/7-Eleven|wiki-7eleven|CONVENIENCE|convenience naranja verde rojo
+https://en.wikipedia.org/wiki/Oxxo|wiki-oxxo|CONVENIENCE|convenience LatAm rojo amarillo
+
+# --- COMBINACIONES / TEORIA COLOR MARCA ---
+https://www.interaction-design.org/literature/topics/color-theory|ixdf-color-theory|COMBO|teoria del color combinaciones
+https://99designs.com/blog/tips/how-color-impacts-emotions-actions/|99d-color-emotions|COMBO|combinar colores por emocion
+
+# --- REFUERZOS (ronda 2): combo frio+calido, tendencias, LatAm, mas marcas ---
+https://en.wikipedia.org/wiki/Frosta_AG|wiki-frosta|FROZEN|congelados Alemania sostenible
+https://en.wikipedia.org/wiki/Stouffer%27s|wiki-stouffers|FROZEN|comidas congeladas USA (naranja/rojo)
+https://en.wikipedia.org/wiki/Ben_%26_Jerry%27s|wiki-benjerry|FROZEN|helados congelados marca calida
+https://en.wikipedia.org/wiki/Haagen-Dazs|wiki-haagendazs|FROZEN|helado premium negro/burdeos
+https://en.wikipedia.org/wiki/Aldi|wiki-aldi|CONVENIENCE|discounter economico azul/naranja/amarillo
+https://en.wikipedia.org/wiki/Lidl|wiki-lidl|CONVENIENCE|discounter azul rojo amarillo
+https://en.wikipedia.org/wiki/Kroger|wiki-kroger|CONVENIENCE|supermercado USA azul
+https://en.wikipedia.org/wiki/Grocery_store|wiki-grocery|CONVENIENCE|categoria tienda de comestibles
+https://en.wikipedia.org/wiki/Butcher|wiki-butcher|CARNE|carniceria contexto rojo/blanco
+https://www.shopify.com/blog/branding-colors|shopify-branding-colors|COMBO|elegir paleta de marca combinaciones
+https://looka.com/blog/color-combinations/|looka-color-combos|COMBO|combinaciones de color de marca
+https://www.color-meanings.com/warm-cool-colors/|colormeanings-warmcool|COMBO|colores calidos vs frios
+https://www.crazyegg.com/blog/psychology-of-color-conversions/|crazyegg-color|PSICO|color y conversion
+
+# --- REFUERZOS (ronda 3): tendencias 2025 + frozen packaging (verificadas por WebSearch) ---
+https://glerup.com/blog/2025-color-trends-in-specialty-food-packaging/|glerup-2025trends|COMBO|tendencias color packaging 2025 verde+terracota
+https://revereflexpak.com/color-trends-in-food-packaging/|revere-2025trends|COMBO|tendencias color food packaging 2025
+https://ibexpackaging.com/frozen-food-packaging-design/|ibex-frozen-pkg|FROZEN|diseno packaging congelados azul/blanco frio
+https://www.glbc.com/blog/label-colour-psychology-food-and-beverage/|glbc-label-color|PSICO|psicologia color etiquetas food&bev
+https://forty8creates.com/colour-psychology-of-food-drink/|forty8-food-color|PSICO|psicologia color comida y bebida
+https://pouchespack.com/custom-frozen-food-packaging-for-brand/|pouches-frozen|FROZEN|packaging congelados diferenciacion marca
+https://www.greatergood-brands.com/insights/frozen-food-packaging-design-5-key-considerations/|greatergood-frozen|FROZEN|consideraciones diseno congelados
+https://jenndavid.com/colors-that-influence-food-sales-infographic/|jenndavid-foodsales|PSICO|colores que influyen ventas de comida
+https://tracegains.com/blog/food-and-color-what-does-it-all-mean/|tracegains-foodcolor|PSICO|significado color en alimentos

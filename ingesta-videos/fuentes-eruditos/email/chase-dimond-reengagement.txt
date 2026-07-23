@@ -1,0 +1,1026 @@
+20+ Re-Engagement Email Examples to Win Back Inactive Subscribers & Customers
+Chase Dimond - The Best Email Marketer You Don't Know But You Need
+Chase Dimond - The Best Email Marketer You Don't Know But You Need
+Chase Dimond, a world-renowned email marketer. Learn expert tips, strategies, and insights to help you grow and scale with email marketing.
+Re-engagement Email Examples: 20+ Win-Back Campaigns That Revive Inactive Subscribers and Lapsed Customers
+Re-engagement emails achieve 12% average open rates and can recover 5-15% of inactive subscribers—yet 63% of brands never attempt to win back disengaged users, leaving millions in revenue on the table.
+The difference between re-engagement campaigns that successfully revive dormant subscribers and those that get ignored comes down to timing, compelling incentives, and understanding why users disengaged in the first place.
+I'm Chase Dimond, and over my career managing $200+ million in eCommerce email campaigns for 7-figure, 8-figure, and 9-figure brands, I've developed re-engagement strategies that recover 8-15% of inactive users and generate 5-10% of total email revenue. The best re-engagement emails don't just ask users to come back—they give them compelling reasons to re-engage and make it irresistibly easy.
+In this comprehensive guide, I'll share 20+ proven re-engagement email examples, break down the psychology of winning back inactive users, and show you how to build win-back campaigns that turn dormant subscribers into active customers. Plus, I'll reveal how top brands use competitive intelligence tools like Inboox.ai to analyze competitor re-engagement strategies and create campaigns that outperform their market.
+Table of Contents
+What Are Re-engagement Emails and Why Do They Matter?
+The Chase Dimond Re-engagement Framework
+When to Send Re-engagement Emails
+Incentive-Based Re-engagement Examples
+Feedback-Driven Re-engagement Examples
+Preference Center Re-engagement Examples
+Content-Value Re-engagement Examples
+Final Goodbye Re-engagement Examples
+List Hygiene and Sunset Strategies
+Common Re-engagement Mistakes
+FAQ: Re-engagement Email Best Practices
+What Are Re-engagement Emails and Why Do They Matter?
+Re-engagement emails (also called win-back emails) are strategic campaigns designed to reactivate subscribers who have stopped engaging with your emails. They're your last attempt to revive the relationship before removing inactive users from your list.
+Signs a subscriber needs re-engagement:
+No email opens in 60-90 days
+No clicks in 90-120 days
+No purchases in 90-180 days (ecommerce)
+No app usage in 30-60 days
+No website visits from email in 90+ days
+Why Re-engagement Emails Are Critical
+Business impact:
+Revenue recovery : Win-back campaigns generate 5-10% of total email revenue
+Reactivation rates : Well-executed campaigns recover 8-15% of inactive users
+List health : Removing non-engagers improves deliverability by 15-25%
+Cost savings : Reactivating existing subscribers costs 5x less than acquiring new ones
+Sender reputation : Clean lists protect email deliverability
+Throughout my work with 7-figure, 8-figure, and 9-figure eCommerce brands , I've found that brands with systematic re-engagement programs have 20-30% better overall email performance due to improved list quality and sender reputation.
+The Cost of Ignoring Inactive Subscribers
+What happens when you don't re-engage:
+Deliverability decline : ISPs see low engagement, send more emails to spam
+Revenue loss : Miss opportunity to recover 8-15% of inactive users
+List decay : Inactive subscribers become dead weight
+Wasted sends : Paying to email people who never open
+Reputation damage : High inactive percentage hurts all campaigns
+Chase's Re-engagement Principle : "Inactive subscribers are expensive liabilities or untapped revenue opportunities. The difference is whether you try to win them back before giving up. Always try to reactivate before removing."
+The Chase Dimond Re-engagement Framework
+After developing win-back campaigns for dozens of high-revenue brands, I've created a systematic approach:
+The 4-Stage Re-engagement System
+Stage 1: Early Warning (30-60 days inactive)
+Identify declining engagement
+Send subtle re-engagement nudge
+Offer value or content reminder
+No aggressive tactics yet
+Stage 2: Direct Re-engagement (60-90 days inactive)
+Clear "we miss you" messaging
+Meaningful incentive offered
+Ask what went wrong
+Make comeback easy
+Stage 3: Last Chance (90-120 days inactive)
+Final opportunity messaging
+Best offer you can give
+Clear consequence (removal)
+Preference center option
+Stage 4: Sunset (120+ days inactive)
+Remove from active list
+Move to suppression list
+Final goodbye option to stay
+Clean list for better performance
+The Chase Dimond Reactivation Value Formula : Reactivation Value = (Recovery Rate × Average Customer LTV) - (Cost of Inactive Sends × Inactive Duration). Optimize recovery rate while minimizing inactive send costs.
+Re-engagement Timing Strategy
+Based on my $200+ million in campaigns, here's optimal timing by subscriber type:
+Ecommerce customers:
+60 days: Early nudge
+90 days: Direct win-back with incentive
+120 days: Final chance
+150 days: Sunset/remove
+Newsletter subscribers:
+45 days: Early nudge
+90 days: Direct re-engagement
+120 days: Final chance
+150 days: Sunset/remove
+SaaS/App users:
+30 days: Early nudge (shorter cycle)
+60 days: Direct re-engagement
+90 days: Final chance
+120 days: Sunset/remove
+Key insight : Higher-value customers get longer grace periods and more aggressive win-back attempts.
+When to Send Re-engagement Emails
+Defining "Inactive"
+Engagement-based definition (most common):
+No opens in past 60-90 days
+No clicks in past 90-120 days
+No conversions in past 90-180 days
+Behavior-based definition (more sophisticated):
+Historical engagement decline >50%
+No website visits from email in 90+ days
+Repeated email ignoring (received 10+ emails, opened 0)
+Value-based definition (for high-value customers):
+Different thresholds based on customer lifetime value
+VIP customers: 120+ days before re-engagement
+Regular customers: 90+ days
+Low-value: 60+ days
+Chase's Inactive Definition Rule : "Define inactive based on your typical purchase/engagement cycle. B2C fashion: 60-90 days. High-ticket B2B: 180+ days. Match your re-engagement timing to your customer behavior patterns."
+Segmenting Your Re-engagement Campaigns
+Segment by engagement history:
+Previously highly engaged (50%+ open rate)
+Previously moderate (20-50% open rate)
+Never really engaged (<20% open rate)
+Segment by customer value:
+VIP/high LTV customers (aggressive win-back)
+Regular customers (standard win-back)
+One-time buyers (gentle win-back)
+Never purchased (remove faster)
+Segment by reason for inactivity (if known):
+Subscription fatigue (too many emails)
+Content irrelevance (wrong fit)
+Life circumstances (moved, changed jobs)
+Competitive defection (went to competitor)
+Incentive-Based Re-engagement Examples
+Incentive-driven campaigns use offers to motivate comeback.
+Example 1: The Generous Discount Win-Back
+Use case : Lapsed ecommerce customers (90+ days)
+Email structure:
+━━━━━━━━━━━━━━━━━━━━━━━━
+We miss you, [First Name]
+It's been a while since you last shopped with us.
+━━━━━━━━━━━━━━━━━━━━━━━━
+WELCOME BACK GIFT
+━━━━━━━━━━━━━━━━━━━━━━━━
+Here's 25% off to say we're sorry:
+━━━━━━━━━━━━━━
+CODE: COMEBACK25
+Expires in 7 days
+━━━━━━━━━━━━━━
+[Shop Now Button]
+━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT YOU'VE MISSED:
+━━━━━━━━━━━━━━━━━━━━━━━━
+Since you've been gone, we've added:
+✓ [New product category/feature]
+✓ [Improvement or update]
+✓ [Customer-requested addition]
+━━━━━━━━━━━━━━━━━━━━━━━━
+BESTSELLERS RIGHT NOW:
+━━━━━━━━━━━━━━━━━━━━━━━━
+[Product 1] [Product 2] [Product 3]
+[Images and prices]
+━━━━━━━━━━━━━━━━━━━━━━━━
+NOT INTERESTED?
+━━━━━━━━━━━━━━━━━━━━━━━━
+[Update email preferences]
+[Unsubscribe]
+No hard feelings if we're not a fit anymore.
+━━━━━━━━━━━━━━━━━━━━━━━━
+What makes it effective:
+Generous offer : 25% is hard to ignore
+No excuses : "We're sorry" acknowledges absence
+What's new : Shows progression since they left
+Product showcase : Reminds of what they're missing
+Easy exit : Respectful unsubscribe option
+Performance benchmarks:
+Open rate: 10-15%
+Click rate: 4-7%
+Conversion rate: 2-5%
+Reactivation rate: 8-12%
+Key elements:
+Significant discount (20-30% range)
+Time-limited offer (creates urgency)
+"What's new" section (shows progress)
+Featured products (specific comeback targets)
+Preferences/unsubscribe (respects their choice)
+When to send : 90 days of inactivity
+Example 2: The Free Shipping Comeback
+Use case : Shipping-sensitive customers
+Email structure:
+━━━━━━━━━━━━━━━━━━━━━━━━
+Free shipping. No minimum. Just for you.
+[First Name], we want you back.
+━━━━━━━━━━━━━━━━━━━━━━━━
+YOUR EXCLUSIVE OFFER
+━━━━━━━━━━━━━━━━━━━━━━━━
+FREE SHIPPING
+No minimum purchase required
+━━━━━━━━━━━━━━
+CODE: FREESHIP
+Valid for 5 days
+━━━━━━━━━━━━━━
+[Start Shopping Button]
+━━━━━━━━━━━━━━━━━━━━━━━━
+THIS WEEK'S FAVORITES:
+━━━━━━━━━━━━━━━━━━━━━━━━
+[Curated product selection]
+━━━━━━━━━━━━━━━━━━━━━━━━
+RISK-FREE RETURNS
+━━━━━━━━━━━━━━━━━━━━━━━━
+Not sure about coming back? We offer:
+✓ 30-day free returns
+✓ Free return shipping
+✓ Full refund, no questions asked
+━━━━━━━━━━━━━━━━━━━━━━━━
+What makes it effective:
+High-value offer : Free shipping often beats % discount
+No minimum : Lower barrier to entry
+Risk reduction : Returns policy removes hesitation
+Curated selection : Easier than browsing full catalog
+Short window : 5 days creates urgency
+Performance benchmarks:
+Reactivation rate: 6-10%
+Average order value: Often lower (no minimum)
+Repeat purchase rate: Similar to discount win-backs
+Example 3: The Mystery Discount
+Use case : Gamification for re-engagement
+Email structure:
+━━━━━━━━━━━━━━━━━━━━━━━━
+🎁 Your mystery discount awaits
+We miss you, [First Name]!
+Click to reveal your special comeback offer:
+━━━━━━━━━━━━━━━━━━━━━━━━
+[Scratch-off graphic or reveal button]
+YOUR DISCOUNT IS:
+[Click to Reveal Button]
+━━━━━━━━━━━━━━━━━━━━━━━━
+Possibilities:
+• 15% off
+• 20% off
+• 25% off
+• Free shipping
+• Buy 1 Get 1 Free
+━━━━━━━━━━━━━━━━━━━━━━━━
+REVEAL YOUR OFFER NOW
+━━━━━━━━━━━━━━━━━━━━━━━━
+[Reveal My Discount Button]
+Offer expires in 72 hours
+━━━━━━━━━━━━━━━━━━━━━━━━
+What makes it effective:
+Curiosity : Must click to see offer
+Gamification : Fun, interactive experience
+Guaranteed value : All outcomes are good
+Urgency : 72-hour expiration
+Engagement boost : Drives clicks to see offer
+Performance benchmarks:
+Open rate: 12-18% (curiosity subject line)
+Click rate: 8-15% (must click to reveal)
+Conversion rate: 3-6%
+Technical implementation : Link goes to landing page that reveals their specific discount code.
+Feedback-Driven Re-engagement Examples
+Feedback campaigns ask why they left and show you care.
+Example 4: The "We Miss You, What Went Wrong?" Email
+Use case : Understanding disengagement reasons
+Email structure:
+━━━━━━━━━━━━━━━━━━━━━━━━
+[First Name], we noticed you're gone
+Hi [First Name],
+You haven't opened our emails in a while, and
+we're wondering why.
+━━━━━━━━━━━━━━━━━━━━━━━━
+QUICK QUESTION (takes 5 seconds):
+━━━━━━━━━━━━━━━━━━━━━━━━
+Why did you stop engaging?
+[One-click feedback buttons:]
+→ Emails too frequent
+→ Content not relevant
+→ Found what I needed elsewhere
+→ Too expensive
+→ Just browsing, not ready to buy
+→ Other reason (tell us)
+Your feedback helps us improve.
+━━━━━━━━━━━━━━━━━━━━━━━━
+WANT TO GIVE US ANOTHER CHANCE?
+━━━━━━━━━━━━━━━━━━━━━━━━
+Here's 20% off if you're willing to come back:
+CODE: COMEBACK20
+[Shop Now Button]
+━━━━━━━━━━━━━━━━━━━━━━━━
+NOT INTERESTED?
+━━━━━━━━━━━━━━━━━━━━━━━━
+[Update preferences] or [Unsubscribe]
+━━━━━━━━━━━━━━━━━━━━━━━━
+What makes it effective:
+Shows you care : Genuinely wants feedback
+Easy response : One-click options
+Multiple touchpoints : Feedback + incentive + exit
+Actionable data : Learn why people leave
+Respectful tone : No guilt or pressure
+Performance benchmarks:
+Open rate: 10-14%
+Feedback rate: 20-30% of openers
+Reactivation rate: 5-8%
+Key insight : Feedback data is valuable even if they don't reactivate. Use it to improve for current subscribers.
+Example 5: The Personalized "Did We Do Something Wrong?"
+Use case : Previously high-value customers
+Email structure:
+━━━━━━━━━━━━━━━━━━━━━━━━
+[First Name], did we let you down?
+Hi [First Name],
+I noticed you haven't been back since [Date of
+last purchase/engagement].
+As someone who [previous positive behavior - e.g.,
+"bought from us 5 times"], your absence matters to us.
+━━━━━━━━━━━━━━━━━━━━━━━━
+DID SOMETHING GO WRONG?
+━━━━━━━━━━━━━━━━━━━━━━━━
+If you had a bad experience, I want to make it
+right. Hit reply and tell me what happened.
+━━━━━━━━━━━━━━━━━━━━━━━━
+OR, LET US WIN YOU BACK:
+━━━━━━━━━━━━━━━━━━━━━━━━
+30% off your next order - our best offer ever
+CODE: VIPCOMEBACK
+[Shop Now Button]
+━━━━━━━━━━━━━━━━━━━━━━━━
+JUST NOT A FIT ANYMORE?
+━━━━━━━━━━━━━━━━━━━━━━━━
+That's okay. [Unsubscribe link]
+Thanks for being a customer.
+Best,
+[Founder/Team Member Name]
+[Title]
+━━━━━━━━━━━━━━━━━━━━━━━━
+What makes it effective:
+Personal tone : From real person, not brand
+Acknowledges history : References past relationship
+Problem-solving : Offers to fix issues
+Best offer : 30% for high-value customers
+Graceful exit : Respectful goodbye option
+Performance benchmarks:
+Open rate: 15-20% (personal from-name helps)
+Reply rate: 5-10% (some share issues)
+Reactivation rate: 10-15%
+Best practice : Use for customers with 3+ previous purchases or high lifetime value.
+Preference Center Re-engagement Examples
+Preference-based campaigns give control to subscribers.
+Example 6: The "Too Many Emails?" Solution
+Use case : Frequency fatigue
+Email structure:
+━━━━━━━━━━━━━━━━━━━━━━━━
+Are we emailing you too much?
+Hi [First Name],
+We noticed you haven't been opening our emails
+lately. Maybe we're emailing too often?
+━━━━━━━━━━━━━━━━━━━━━━━━
+LET'S FIX THIS:
+━━━━━━━━━━━━━━━━━━━━━━━━
+How often would you like to hear from us?
+□ Daily (what we send now)
+□ 2-3x per week
+□ Once a week
+□ Monthly highlights only
+[Update My Preferences Button]
+━━━━━━━━━━━━━━━━━━━━━━━━
+OR, TELL US WHAT YOU WANT:
+━━━━━━━━━━━━━━━━━━━━━━━━
+Select the content you want:
+□ New arrivals
+□ Sales and promotions
+□ Style tips and inspiration
+□ Exclusive subscriber perks
+□ Product launches
+[Save My Preferences Button]
+━━━━━━━━━━━━━━━━━━━━━━━━
+NOT INTERESTED AT ALL?
+━━━━━━━━━━━━━━━━━━━━━━━━
+[Unsubscribe] - We'll miss you!
+━━━━━━━━━━━━━━━━━━━━━━━━
+What makes it effective:
+Acknowledges problem : Too many emails
+Gives control : Multiple frequency options
+Content selection : Choose what matters
+Easy to update : Simple preference interface
+Saves relationship : Rather than losing them
+Performance benchmarks:
+Open rate: 12-18%
+Preference update rate: 25-35%
+Unsubscribe rate: 15-20% (but better than ignoring)
+Re-engagement rate: 40-50% of preference updaters
+Key insight : Many "inactive" subscribers just want fewer emails, not zero emails.
+Example 7: The Content Preferences Reset
+Use case : Content relevance issues
+Email structure:
+━━━━━━━━━━━━━━━━━━━━━━━━
+Let's start over, [First Name]
+We haven't been sending you relevant content.
+Let's fix that.
+━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT INTERESTS YOU?
+━━━━━━━━━━━━━━━━━━━━━━━━
+(Select all that apply)
+□ [Interest/category 1]
+□ [Interest/category 2]
+□ [Interest/category 3]
+□ [Interest/category 4]
+□ [Interest/category 5]
+[Update My Interests Button]
+━━━━━━━━━━━━━━━━━━━━━━━━
+TELL US MORE ABOUT YOU:
+━━━━━━━━━━━━━━━━━━━━━━━━
+I'm interested in:
+□ Products for [demographic 1]
+□ Products for [demographic 2]
+□ Products for [demographic 3]
+My budget range:
+□ Under $50
+□ $50-$100
+□ $100-$200
+□ $200+
+━━━━━━━━━━━━━━━━━━━━━━━━
+ONE MORE THING:
+━━━━━━━━━━━━━━━━━━━━━━━━
+As a thank you for updating your preferences,
+here's 15% off your next order.
+CODE: NEWSTART15
+[Save & Shop Button]
+━━━━━━━━━━━━━━━━━━━━━━━━
+What makes it effective:
+Fresh start : "Start over" is appealing
+Comprehensive profiling : Multiple preference types
+Relevance promise : Will send better content
+Incentive : Discount for updating
+Personalization : Better emails going forward
+Performance benchmarks:
+Preference update rate: 30-40%
+Re-engagement rate: 45-55% of updaters
+Content-Value Re-engagement Examples
+Value-driven campaigns remind of benefits without selling.
+Example 8: The "Here's What You're Missing" Email
+Use case : Demonstrating ongoing value
+Email structure:
+━━━━━━━━━━━━━━━━━━━━━━━━
+You're missing out, [First Name]
+Since you last opened our emails, here's what
+other subscribers have loved:
+━━━━━━━━━━━━━━━━━━━━━━━━
+TOP 3 ARTICLES:
+━━━━━━━━━━━━━━━━━━━━━━━━
+1. [Article headline]
+[Brief teaser]
+[Read now →]
+2. [Article headline]
+[Brief teaser]
+[Read now →]
+3. [Article headline]
+[Brief teaser]
+[Read now →]
+━━━━━━━━━━━━━━━━━━━━━━━━
+MOST POPULAR PRODUCTS:
+━━━━━━━━━━━━━━━━━━━━━━━━
+[Product 1] [Product 2] [Product 3]
+★★★★★ (500) ★★★★★ (400) ★★★★★ (350)
+"Best purchase "Love it!" "Amazing"
+ever!"
+━━━━━━━━━━━━━━━━━━━━━━━━
+EXCLUSIVE SUBSCRIBER PERKS:
+━━━━━━━━━━━━━━━━━━━━━━━━
+Here's what you still have access to:
+✓ Early access to sales
+✓ Exclusive subscriber discounts
+✓ Free shipping on $X+ orders
+✓ Birthday month 20% off
+━━━━━━━━━━━━━━━━━━━━━━━━
+[Continue Getting Value Button]
+Not interested? [Unsubscribe]
+━━━━━━━━━━━━━━━━━━━━━━━━
+What makes it effective:
+FOMO : Shows what they missed
+Social proof : Popular content/products
+Value reminder : Subscriber benefits list
+No hard sell : Value-first approach
+Choice : Continue or unsubscribe
+Performance benchmarks:
+Open rate: 8-12%
+Click rate: 3-6%
+Re-engagement rate: 5-8%
+Example 9: The Educational Value Reminder
+Use case : Newsletter/content-driven lists
+Email structure:
+━━━━━━━━━━━━━━━━━━━━━━━━
+We miss you in our community, [First Name]
+You haven't been reading lately, and we wanted
+to remind you why you joined...
+━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT YOU SIGNED UP FOR:
+━━━━━━━━━━━━━━━━━━━━━━━━
+[List original value proposition that got them
+to subscribe]
+━━━━━━━━━━━━━━━━━━━━━━━━
+OUR PROMISE TO YOU:
+━━━━━━━━━━━━━━━━━━━━━━━━
+Every week, we deliver:
+✓ [Value point 1]
+✓ [Value point 2]
+✓ [Value point 3]
+No fluff. Just actionable insights.
+━━━━━━━━━━━━━━━━━━━━━━━━
+RECENT FAVORITE:
+━━━━━━━━━━━━━━━━━━━━━━━━
+[Featured high-performing piece of content]
+[Read This Now →]
+━━━━━━━━━━━━━━━━━━━━━━━━
+GIVE US ONE MORE CHANCE:
+━━━━━━━━━━━━━━━━━━━━━━━━
+[Continue My Subscription Button]
+Or [update how often you hear from us]
+━━━━━━━━━━━━━━━━━━━━━━━━
+What makes it effective:
+Reminds of intent : Why they originally subscribed
+Reaffirms value : What they get
+Best content : Showcase high-quality example
+Frequency option : Maybe too frequent
+No sales pitch : Pure value focus
+Performance benchmarks:
+Open rate: 10-15%
+Re-engagement rate: 6-10%
+Final Goodbye Re-engagement Examples
+Last-chance campaigns before removal.
+Example 10: The Final Goodbye Email
+Use case : Last attempt before removal (120+ days)
+Email structure:
+━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: This is goodbye, [First Name]
+━━━━━━━━━━━━━━━━━━━━━━━━
+Hi [First Name],
+This is our final email to you.
+━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT'S HAPPENING:
+━━━━━━━━━━━━━━━━━━━━━━━━
+You haven't opened our emails in [X] days, so
+we're going to remove you from our list in
+7 days.
+We respect your inbox and don't want to send
+unwanted emails.
+━━━━━━━━━━━━━━━━━━━━━━━━
+WANT TO STAY?
+━━━━━━━━━━━━━━━━━━━━━━━━
+Click below to stay subscribed:
+[Yes, Keep Me Subscribed Button]
+━━━━━━━━━━━━━━━━━━━━━━━━
+AS A FINAL GIFT:
+━━━━━━━━━━━━━━━━━━━━━━━━
+If you stay, here's 30% off:
+CODE: FINALCHANCE30
+Valid for 7 days
+[Stay Subscribed & Shop Button]
+━━━━━━━━━━━━━━━━━━━━━━━━
+GOODBYE:
+━━━━━━━━━━━━━━━━━━━━━━━━
+If we don't hear from you, you'll be removed
+in 7 days.
+Thanks for being part of our community.
+Best,
+[Brand Team]
+P.S. - You can always re-subscribe later at
+[Website URL]
+━━━━━━━━━━━━━━━━━━━━━━━━
+What makes it effective:
+Clear consequence : Removal in 7 days
+Respectful tone : No guilt or pressure
+Final incentive : Best offer (30%)
+Easy to stay : Single click
+Graceful exit : Thanks for past engagement
+Performance benchmarks:
+Open rate: 8-12% (curiosity about goodbye)
+Reactivation rate: 4-8%
+Actual removal: 92-96% (most don't respond)
+Key insight : This email has dual purpose—last chance reactivation + list cleaning announcement.
+Example 11: The "Break-Up" Email
+Use case : Humorous final goodbye
+Email structure:
+━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: It's not you, it's... actually, it's you
+━━━━━━━━━━━━━━━━━━━━━━━━
+Dear [First Name],
+We need to talk.
+You haven't opened an email from us in months.
+We've sent you [X] emails. You opened zero.
+We get it. You're just not that into us.
+━━━━━━━━━━━━━━━━━━━━━━━━
+SO HERE'S THE DEAL:
+━━━━━━━━━━━━━━━━━━━━━━━━
+We're going to stop emailing you.
+Not because we don't care, but because we
+respect your inbox.
+━━━━━━━━━━━━━━━━━━━━━━━━
+UNLESS...
+━━━━━━━━━━━━━━━━━━━━━━━━
+You click this button in the next 5 days:
+[I Actually Want Your Emails Button]
+━━━━━━━━━━━━━━━━━━━━━━━━
+AND IF YOU DO CLICK:
+━━━━━━━━━━━━━━━━━━━━━━━━
+Here's 25% off for giving us another shot:
+CODE: SECONDCHANCE
+━━━━━━━━━━━━━━━━━━━━━━━━
+READY TO PART WAYS?
+━━━━━━━━━━━━━━━━━━━━━━━━
+That's okay. We'll miss you.
+You can always come back: [Website URL]
+Goodbye,
+[Brand Team]
+━━━━━━━━━━━━━━━━━━━━━━━━
+What makes it effective:
+Humorous tone : Breaks pattern, gets attention
+Direct language : Acknowledges reality
+Clear deadline : 5 days to respond
+Incentive : 25% off for staying
+No hard feelings : Friendly goodbye
+Performance benchmarks:
+Open rate: 12-18% (subject line curiosity)
+Reactivation rate: 6-12%
+Best for : Brands with casual, humorous voice. Not appropriate for luxury/serious brands.
+List Hygiene and Sunset Strategies
+The Sunset Policy Framework
+What is a sunset policy? A systematic process for identifying and removing persistently inactive subscribers to maintain list health.
+The Chase Dimond Sunset Timeline:
+60 days inactive:
+Identify declining engagement
+Send early re-engagement nudge
+No removal yet
+90 days inactive:
+Send main win-back campaign (3-email sequence)
+Offer significant incentive
+Ask for feedback
+120 days inactive:
+Send final goodbye email
+Give 7-day window to stay
+Best offer possible
+127 days inactive (7 days after goodbye):
+Remove from active list
+Move to suppression/sunset segment
+Stop all email sends
+Exception for high-value customers:
+Extend timeline by 30-60 days
+More aggressive win-back attempts
+Personal outreach from team
+Sunset Segment Strategy
+What to do with sunset subscribers:
+Option 1: Complete Removal
+Remove from all lists
+Add to suppression list (never email again)
+Use for: Never-purchased, low-value subscribers
+Option 2: Reduced Frequency
+Quarterly re-engagement attempts
+Send only major promotions
+Use for: Previously engaged, moderate value
+Option 3: Indefinite Suppression
+Never email again unless they re-subscribe
+Keep in database for re-targeting (ads)
+Use for: Explicitly unengaged after multiple win-backs
+Chase's Sunset Philosophy : "A clean list of 10,000 engaged subscribers is infinitely more valuable than 50,000 subscribers where 30,000 never open. Protect your sender reputation by removing dead weight ruthlessly."
+List Hygiene Benefits
+Deliverability improvements:
+15-25% better inbox placement
+Lower spam complaint rates
+Improved sender reputation
+ISPs reward engagement
+Performance improvements:
+20-30% higher open rates (denominator shrinks)
+15-20% higher click rates
+More accurate performance data
+Better segmentation insights
+Cost savings:
+Lower ESP costs (charged per subscriber)
+Reduced waste on dead addresses
+Better ROI per send
+Common Re-engagement Mistakes
+After analyzing thousands of win-back campaigns through Inboox.ai , here are the most common mistakes:
+Mistake 1: Waiting Too Long
+The mistake : Not attempting re-engagement until 180+ days inactive
+Why it fails:
+Relationship too cold
+They've completely forgotten you
+Lower recovery rates
+Wasted sends in meantime
+The fix:
+Start at 60-90 days
+Multiple touchpoints over 60 days
+Earlier intervention = higher recovery
+Data : 90-day inactive users reactivate at 10-12%. 180-day users reactivate at 2-4%.
+Mistake 2: Weak Incentives
+The mistake : Offering same 10% off as regular promotions
+Why it fails:
+Not compelling enough to overcome inertia
+Doesn't match inactivity "cost"
+Same as what active subscribers get
+The fix:
+20-30% off (meaningfully better)
+Free shipping no minimum
+Exclusive "win-back only" offers
+Best discount you can afford
+Chase's Incentive Rule : "Win-back offers should be noticeably better than regular promotions. If an inactive subscriber can get the same deal by waiting, you've failed."
+Mistake 3: No Feedback Request
+The mistake : Just trying to sell, not understanding why they left
+Why it fails:
+Miss learning opportunity
+Can't fix underlying problems
+Repeat same mistakes
+No improvements for active subscribers
+The fix:
+Ask "why did you stop engaging?"
+One-click feedback options
+Actually use feedback to improve
+Share what you learned/changed
+Mistake 4: Guilt-Tripping Language
+The mistake : Making subscribers feel bad for not engaging
+Why it fails:
+Pushes people away
+Creates negative association
+Feels manipulative
+Increases unsubscribes
+Bad examples:
+"Why don't you love us anymore?"
+"You're breaking our heart"
+"We thought we had something special"
+The fix:
+Respectful, understanding tone
+Acknowledge their choice
+No pressure or guilt
+Graceful exit option
+Mistake 5: No Clear Next Step
+The mistake : Vague "come back" without specific action
+Why it fails:
+Unclear what to do
+No compelling reason
+No urgency
+Easy to ignore
+The fix:
+Single clear CTA
+Specific action (shop, update preferences, click to stay)
+Time-limited offer
+Easy to execute
+Mistake 6: Never Cleaning Your List
+The mistake : Keeping inactive subscribers forever
+Why it fails:
+Kills deliverability
+Wastes money
+Skews metrics
+Damages sender reputation
+The fix:
+Systematic sunset policy
+Remove after final win-back attempt
+Clean list quarterly
+Protect engaged subscribers' experience
+Impact : List cleaning improves deliverability by 15-25% for remaining subscribers.
+Analyzing Competitor Re-engagement Strategies
+Want to see how competitors win back inactive users? Use Inboox.ai to analyze competitor re-engagement campaigns.
+Inboox.ai allows you to track competitor email strategies including their win-back sequences. This gives you:
+Re-engagement timing (when they attempt win-back)
+Incentive strategies (discount depth, offers)
+Messaging approaches (tone, language)
+Sequence length (how many attempts)
+Design and formatting choices
+I recommend using Inboox.ai to analyze 10-15 competitor re-engagement campaigns to identify:
+Industry standards for win-back timing
+Incentive benchmarks (typical discount depths)
+Messaging approaches that resonate
+Sequence sophistication (single email vs. multi-touch)
+Opportunities to differentiate
+For more re-engagement strategies, subscribe to my email marketing newsletter where I break down winning win-back campaigns.
+FAQ: Re-engagement Email Best Practices
+When should I send re-engagement emails?
+Optimal timing by subscriber type:
+Ecommerce customers:
+60 days: First gentle nudge
+90 days: Main win-back campaign
+120 days: Final chance
+150 days: Remove from list
+Newsletter subscribers:
+45 days: First nudge (shorter cycle)
+90 days: Win-back campaign
+120 days: Final chance
+150 days: Remove
+SaaS/app users:
+30 days: Early intervention (shorter cycle)
+60 days: Win-back
+90 days: Final chance
+120 days: Remove
+High-value customers: Add 30-60 days to each stage.
+Chase's Timing Rule : "Start re-engagement at 2x your average purchase/engagement cycle. If customers typically buy every 30 days, re-engage at 60 days of inactivity."
+How many re-engagement emails should I send?
+Recommended sequence:
+Minimum (basic program):
+1 email at 90 days
+1 final goodbye at 120 days
+Total: 2 emails
+Standard (most brands):
+1 email at 60 days
+1 email at 90 days
+1 final goodbye at 120 days
+Total: 3 emails
+Aggressive (high-value customers):
+1 email at 60 days
+2-3 emails at 90 days (spaced 7-10 days apart)
+1 final goodbye at 120 days
+Total: 4-5 emails
+Don't overdo it : More than 5 win-back emails risks annoying recipients and damaging reputation.
+What incentive should I offer in win-back emails?
+Incentive benchmarks by type:
+Discount-based:
+Regular win-back: 20-25% off
+Final chance: 25-30% off
+VIP customers: 30-40% off
+Non-discount alternatives:
+Free shipping (no minimum)
+Buy one get one free
+Free gift with purchase
+Early access to sale
+Exclusive product access
+Choosing incentive depth:
+Higher than regular promotions (15-20% min better)
+Based on customer lifetime value (more for VIPs)
+Competitive with acquisition costs
+Best you can afford for final attempt
+Chase's Incentive Formula : Win-back discount should be (Regular Promotion % + 10%) minimum. If you typically offer 15% off, win-back should be 25%+.
+Should I remove subscribers who don't re-engage?
+Yes, absolutely.
+Why you must remove inactive subscribers:
+Deliverability protection:
+ISPs track engagement rates
+Low engagement = spam folder
+Hurts ALL your emails
+Damages sender reputation
+Cost savings:
+ESP pricing based on list size
+Stop paying for dead addresses
+Redirect budget to engaged users
+Accurate metrics:
+True performance visibility
+Better segmentation
+Improved testing
+Real ROI calculations
+When to remove:
+After 120-150 days inactive
+After final goodbye email (7-day grace period)
+Immediately if hard bounce
+After 2-3 win-back attempts fail
+Exception : High lifetime value customers can get longer grace period (180+ days).
+Can I re-subscribe someone who was removed?
+Yes, but with important caveats:
+If they unsubscribed:
+Never re-subscribe without explicit opt-in
+CAN-SPAM violation
+Heavy fines possible
+Reputation damage
+If you sunset them (inactivity removal):
+Can re-subscribe if they explicitly opt in again
+Must use same signup process as new subscribers
+Clear about what they're signing up for
+Not automatic or implied
+Best practice:
+Make re-subscription easy (signup form on website)
+Don't automatically re-add
+Treat as new subscriber
+Fresh start with onboarding
+How do I know if my re-engagement campaign is working?
+Key performance indicators:
+Reactivation rate:
+Formula: (Subscribers who re-engage / Total recipients) × 100
+Good: 8-15%
+Average: 5-8%
+Poor: <5%
+Revenue recovery:
+Purchases from reactivated subscribers
+Compare to acquisition cost
+Track 30-day post-reactivation value
+List health improvement:
+Overall open rate improvement after cleaning
+Deliverability metrics
+Spam complaint rate reduction
+Engagement sustainability:
+30-day retention of reactivated users
+Do they stay engaged?
+Or fall off again quickly?
+Cost-benefit analysis:
+Reactivation Value = (Reactivation Rate × Average LTV) - (Campaign Cost + Inactive Send Costs)
+Chase's Success Metric : "A successful re-engagement program reactivates 8-12% of inactive users at a cost lower than new acquisition. Plus, improved deliverability for remaining list."
+What's the best subject line for re-engagement emails?
+High-performing subject line patterns:
+Direct approach:
+"We miss you, [First Name]"
+"[First Name], are you still there?"
+"It's been a while..."
+Incentive-led:
+"Here's 25% off to come back"
+"Your exclusive win-back offer"
+"We want you back - 30% off inside"
+Curiosity:
+"Is this goodbye, [First Name]?"
+"One last thing before you go..."
+"Final email from us"
+Feedback:
+"Quick question for you"
+"Did we do something wrong?"
+"Why did you stop opening our emails?"
+Best performers : Direct + incentive combination Example: "We miss you - here's 25% off"
+Avoid :
+Generic "We miss you" (overused)
+Guilt-tripping language
+ALL CAPS or excessive punctuation
+Misleading clickbait
+Key Takeaways: Re-engagement Email Success
+Essential principles for high-performing win-back campaigns:
+✅ Start at 60-90 days : Don't wait too long
+✅ Meaningful incentives : 20-30% off minimum
+✅ Multi-touch sequence : 2-3 attempts over 60 days
+✅ Ask for feedback : Learn why they left
+✅ Respect their choice : Easy exit option
+✅ Clean your list : Remove after final attempt
+✅ Measure reactivation : Track recovery rate
+✅ Learn from competitors : Use Inboox.ai for benchmarking
+Final Thoughts
+Re-engagement emails are your last opportunity to recover inactive subscribers before they become permanent list dead weight. Well-executed win-back campaigns can recover 8-15% of inactive users while cleaning your list improves deliverability by 15-25% for engaged subscribers.
+The re-engagement strategies I've shared have helped brands recover millions in revenue from dormant subscribers while simultaneously improving their email program performance through better list hygiene. These are the same approaches behind $200+ million in managed campaigns for 7-figure, 8-figure, and 9-figure brands.
+The brands that win with re-engagement are those that:
+Act early : Start at 60-90 days, not 180+
+Offer generously : Win-back incentives beat regular promotions
+Listen actively : Ask for and use feedback
+Respect boundaries : Make unsubscribing easy
+Clean ruthlessly : Remove non-engagers to protect deliverability
+Learn continuously : Use Inboox.ai for competitive intelligence
+Ready to build win-back campaigns that recover inactive subscribers? Subscribe to my newsletter for weekly re-engagement strategies, win-back sequence breakdowns, and list hygiene tactics.
+And if you want to see how competitors handle re-engagement and benchmark your win-back offers, check out Inboox.ai —it's the competitive intelligence tool I use to analyze re-engagement campaigns and identify best practices.
+Now go win back those inactive subscribers. Every dormant user is either a revenue recovery opportunity or list health liability. Make sure you try to reactivate before removing, but always remove before they damage your deliverability.
+About Chase Dimond
+Chase Dimond is an email marketing expert who has managed over $200+ million in eCommerce email campaigns for 7-figure, 8-figure, and 9-figure brands. He specializes in building re-engagement programs that recover inactive subscribers, improve list health, and maximize email program ROI. Subscribe to his newsletter for weekly re-engagement strategies and email marketing insights.
+[email protected]
+Weekly Email Marketing Newsletter My Background Privacy Policy
+ChaseDimond.com is powered by Boundless Labs and EmailUp
+CHASE DIMOND
+New to Email Marketing?
+How to Run an Email Campaign
+HOW TO LEARN ▾
+Welcome Series Guide for
+Non-Buyers
+Klaviyo Subscriber Enrichment
+Guide
+0 to 500K Email
+Subscribers in 10 Months
+FREE TOOLS ▾
+Free Gmail Generator Tool
+Free Email Generator Tool
+Free Email Checker Tool
+AI Email Writer Tool
+EMAIL INSPIRATION
+Email Marketing Course
+☰
+New to Email Marketing?
+How to Run an Email Campaign
+Welcome Series Guide for Non-Buyers
+Klaviyo Subscriber Enrichment Guide
+0 to 500K Email Subscribers in 10
+Months
+Free Gmail Generator Tool
+Free Email Generator Tool
+AI Email Writer Tool
+EMAIL INSPIRATION
+BLOG
+Email Marketing Course
+FEATURED ON
+HERE'S WHAT THEY HAVE TO SAY
+"
+The quality is solid and it's very comprehensive. Chase covers everything from A-Z which is incredibly helpful.
+Jesse Hernandez
+"
+This course is LEGIT. No fluff, just everything you need in order to do email marketing successfully.
+SHANE ROSTAD
+"
+Really good stuff. I love how much you love email. I thought I was the only one.
+JOSHUA BEHR
+"
+Highly recommend it for anyone looking to take their email marketing to the next level!
+SEBASTIAN RAVITZ
+"
+Taking your course atm. Your email flows have been transformative to my business.
+JORDAN BAYLOR
+"
+Your course is great btw. I gotten so much value and it's more than paid for itself.
+DENNARD CRAWFORD
+A Few Recent Podcasts I've Been On
+"At 27, Chase Dimond is already considered a marketing veteran. If you’re...
+View Podcast Episode
+"Chase is a mastermind when it comes to email marketing for e-commerce. He is...
+View Podcast Episode
+“Chase chats with us about how he got started in the marketing world at the...
+View Podcast Episode
+"Our second episode welcomes one of the World's top email marketers. The reason...
+View Podcast Episode
+"Chase brings a unique and advantageous perspective to email marketing having...
+View Podcast Episode
+"Chase has used cold email to scale a product he built, marketed, and managed...
+View Podcast Episode
+From the Blog
+Email Newsletter
+Copywriting
+Frameworks
+ChatGPT Copywriting
+Frameworks
+How to Test Email Deliverability
+How to Add Email Contacts
+Thank You Message Professional
+Can You Unsend an Email
+How to Format an Email
+Popular Posts
+Abandoned Checkout Flow
+Email Marketing Course
+Best Time of Day to Send Marketing Emails
+Email Etiquette Rules
+CC and BCC Meaning in Email
+Email Storytelling Examples
+Why InbooxAI Is the Better Email Intelligence Platform
+Resources
+Blog
+Privacy Policy
+My Background
+Free Tools
+Email Generator
+Gmail Generator
+Email Checker
+AI Email Writer
+Popular Posts
+How to Format an Email
+ChatGPT Copywriting Prompts
+Proven Copywriting Frameworks
+Thank You Message for Appreciation
+Browse Abandonment Email Examples
+Contact
+[email protected]
+© Chase Dimond

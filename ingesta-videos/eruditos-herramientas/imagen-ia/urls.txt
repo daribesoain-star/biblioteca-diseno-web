@@ -1,0 +1,10 @@
+bfl_flux1_prompting|https://docs.bfl.ml/guides/prompting_guide_flux1
+bfl_flux2_prompting|https://docs.bfl.ml/guides/prompting_guide_flux2
+ideogram_prompting|https://docs.ideogram.ai/using-ideogram/getting-started/prompting-guide
+ideogram_prompt_structure|https://docs.ideogram.ai/using-ideogram/getting-started/prompting-guide/3-prompt-structure
+ideogram_texto_tipografia|https://docs.ideogram.ai/using-ideogram/getting-started/prompting-guide/2-prompting-fundamentals/text-and-typography
+gemini_image_docs|https://ai.google.dev/gemini-api/docs/image-generation
+replicate_t2i_collection|https://replicate.com/collections/text-to-image
+recraft_docs|https://www.recraft.ai/docs
+openai_gpt_image_docs|https://developers.openai.com/api/docs/guides/image-generation
+higgsfield_image_models|https://docs.higgsfield.ai

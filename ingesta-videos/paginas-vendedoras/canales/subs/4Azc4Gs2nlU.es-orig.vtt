@@ -1,0 +1,2560 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:01.850 align:start position:0%
+ 
+ideas<00:00:00.840><c> más</c><00:00:01.079><c> buenas</c><00:00:01.199><c> se</c><00:00:01.380><c> me</c><00:00:01.439><c> ha</c><00:00:01.560><c> ocurrido</c><00:00:01.620><c> me</c>
+
+00:00:01.850 --> 00:00:01.860 align:start position:0%
+ideas más buenas se me ha ocurrido me
+ 
+
+00:00:01.860 --> 00:00:05.090 align:start position:0%
+ideas más buenas se me ha ocurrido me
+voy<00:00:01.979><c> a</c><00:00:01.979><c> poner</c><00:00:02.100><c> a</c><00:00:02.399><c> programarla</c><00:00:03.259><c> error</c><00:00:04.259><c> Este</c><00:00:04.799><c> es</c>
+
+00:00:05.090 --> 00:00:05.100 align:start position:0%
+voy a poner a programarla error Este es
+ 
+
+00:00:05.100 --> 00:00:06.530 align:start position:0%
+voy a poner a programarla error Este es
+un<00:00:05.220><c> sentimiento</c><00:00:05.400><c> muy</c><00:00:05.819><c> habitual</c><00:00:06.180><c> cuando</c>
+
+00:00:06.530 --> 00:00:06.540 align:start position:0%
+un sentimiento muy habitual cuando
+ 
+
+00:00:06.540 --> 00:00:08.210 align:start position:0%
+un sentimiento muy habitual cuando
+queremos<00:00:06.839><c> comenzar</c><00:00:07.379><c> un</c><00:00:07.620><c> proyecto</c><00:00:07.799><c> pero</c><00:00:08.040><c> de</c>
+
+00:00:08.210 --> 00:00:08.220 align:start position:0%
+queremos comenzar un proyecto pero de
+ 
+
+00:00:08.220 --> 00:00:09.710 align:start position:0%
+queremos comenzar un proyecto pero de
+verdad<00:00:08.280><c> estamos</c><00:00:08.639><c> preparados</c><00:00:09.120><c> para</c><00:00:09.360><c> comenzar</c>
+
+00:00:09.710 --> 00:00:09.720 align:start position:0%
+verdad estamos preparados para comenzar
+ 
+
+00:00:09.720 --> 00:00:11.509 align:start position:0%
+verdad estamos preparados para comenzar
+con<00:00:10.080><c> la</c><00:00:10.260><c> parte</c><00:00:10.320><c> de</c><00:00:10.500><c> programación</c><00:00:10.860><c> el</c><00:00:11.280><c> proceso</c>
+
+00:00:11.509 --> 00:00:11.519 align:start position:0%
+con la parte de programación el proceso
+ 
+
+00:00:11.519 --> 00:00:13.190 align:start position:0%
+con la parte de programación el proceso
+de<00:00:11.940><c> desarrollo</c><00:00:12.120><c> de</c><00:00:12.420><c> software</c><00:00:12.780><c> no</c><00:00:13.019><c> solo</c>
+
+00:00:13.190 --> 00:00:13.200 align:start position:0%
+de desarrollo de software no solo
+ 
+
+00:00:13.200 --> 00:00:14.450 align:start position:0%
+de desarrollo de software no solo
+contempla<00:00:13.679><c> la</c><00:00:13.920><c> implementación</c><00:00:14.160><c> también</c>
+
+00:00:14.450 --> 00:00:14.460 align:start position:0%
+contempla la implementación también
+ 
+
+00:00:14.460 --> 00:00:16.790 align:start position:0%
+contempla la implementación también
+otros<00:00:15.120><c> procesos</c><00:00:15.420><c> como</c><00:00:15.719><c> el</c><00:00:16.080><c> análisis</c><00:00:16.260><c> o</c><00:00:16.619><c> del</c>
+
+00:00:16.790 --> 00:00:16.800 align:start position:0%
+otros procesos como el análisis o del
+ 
+
+00:00:16.800 --> 00:00:18.590 align:start position:0%
+otros procesos como el análisis o del
+que<00:00:16.920><c> te</c><00:00:17.039><c> voy</c><00:00:17.160><c> a</c><00:00:17.460><c> hablar</c><00:00:17.460><c> hoy</c><00:00:17.640><c> el</c><00:00:17.940><c> diseño</c><00:00:18.180><c> en</c>
+
+00:00:18.590 --> 00:00:18.600 align:start position:0%
+que te voy a hablar hoy el diseño en
+ 
+
+00:00:18.600 --> 00:00:20.450 align:start position:0%
+que te voy a hablar hoy el diseño en
+concreto<00:00:18.779><c> el</c><00:00:19.140><c> prototipado</c><00:00:19.740><c> por</c><00:00:19.920><c> eso</c><00:00:20.039><c> hoy</c><00:00:20.279><c> Te</c>
+
+00:00:20.450 --> 00:00:20.460 align:start position:0%
+concreto el prototipado por eso hoy Te
+ 
+
+00:00:20.460 --> 00:00:22.130 align:start position:0%
+concreto el prototipado por eso hoy Te
+hablaré<00:00:20.699><c> de</c><00:00:20.880><c> miro</c><00:00:21.119><c> la</c><00:00:21.359><c> herramienta</c><00:00:21.660><c> que</c><00:00:21.900><c> yo</c>
+
+00:00:22.130 --> 00:00:22.140 align:start position:0%
+hablaré de miro la herramienta que yo
+ 
+
+00:00:22.140 --> 00:00:24.230 align:start position:0%
+hablaré de miro la herramienta que yo
+utilizo<00:00:22.380><c> para</c><00:00:22.619><c> crear</c><00:00:22.920><c> estos</c><00:00:23.460><c> prototipos</c><00:00:23.939><c> así</c>
+
+00:00:24.230 --> 00:00:24.240 align:start position:0%
+utilizo para crear estos prototipos así
+ 
+
+00:00:24.240 --> 00:00:27.109 align:start position:0%
+utilizo para crear estos prototipos así
+que<00:00:24.420><c> comenzamos</c><00:00:25.199><c> a</c><00:00:25.560><c> picar</c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+que comenzamos a picar
+ 
+
+00:00:27.119 --> 00:00:30.130 align:start position:0%
+que comenzamos a picar
+Bienvenidos<00:00:27.840><c> a</c><00:00:28.439><c> moreted</c><00:00:29.220><c> by</c><00:00:29.699><c> price</c>
+
+00:00:30.130 --> 00:00:30.140 align:start position:0%
+Bienvenidos a moreted by price
+ 
+
+00:00:30.140 --> 00:00:32.150 align:start position:0%
+Bienvenidos a moreted by price
+tutoriales<00:00:31.140><c> de</c><00:00:31.380><c> programación</c><00:00:31.679><c> y</c><00:00:31.980><c> desarrollo</c>
+
+00:00:32.150 --> 00:00:32.160 align:start position:0%
+tutoriales de programación y desarrollo
+ 
+
+00:00:32.160 --> 00:00:35.990 align:start position:0%
+tutoriales de programación y desarrollo
+de<00:00:32.399><c> App</c><00:00:32.640><c> iOS</c><00:00:33.059><c> y</c><00:00:33.420><c> Android</c><00:00:33.920><c> Mi</c><00:00:34.920><c> nombre</c><00:00:35.100><c> es</c><00:00:35.340><c> Mauri</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+de App iOS y Android Mi nombre es Mauri
+ 
+
+00:00:36.000 --> 00:00:37.729 align:start position:0%
+de App iOS y Android Mi nombre es Mauri
+Soy<00:00:36.180><c> ingeniero</c><00:00:36.719><c> de</c><00:00:36.899><c> software</c><00:00:37.200><c> desde</c><00:00:37.380><c> hace</c><00:00:37.620><c> más</c>
+
+00:00:37.729 --> 00:00:37.739 align:start position:0%
+Soy ingeniero de software desde hace más
+ 
+
+00:00:37.739 --> 00:00:39.410 align:start position:0%
+Soy ingeniero de software desde hace más
+de<00:00:37.860><c> 12</c><00:00:37.980><c> años</c><00:00:38.100><c> nos</c><00:00:38.579><c> pasa</c><00:00:38.820><c> más</c><00:00:38.940><c> de</c><00:00:39.120><c> lo</c><00:00:39.239><c> que</c><00:00:39.300><c> nos</c>
+
+00:00:39.410 --> 00:00:39.420 align:start position:0%
+de 12 años nos pasa más de lo que nos
+ 
+
+00:00:39.420 --> 00:00:41.090 align:start position:0%
+de 12 años nos pasa más de lo que nos
+gusta<00:00:39.600><c> reconocer</c><00:00:39.899><c> si</c><00:00:40.320><c> estamos</c><00:00:40.500><c> en</c><00:00:40.980><c> la</c><00:00:41.040><c> parte</c>
+
+00:00:41.090 --> 00:00:41.100 align:start position:0%
+gusta reconocer si estamos en la parte
+ 
+
+00:00:41.100 --> 00:00:42.709 align:start position:0%
+gusta reconocer si estamos en la parte
+de<00:00:41.280><c> programación</c><00:00:41.640><c> le</c><00:00:42.120><c> quitamos</c><00:00:42.239><c> importancia</c>
+
+00:00:42.709 --> 00:00:42.719 align:start position:0%
+de programación le quitamos importancia
+ 
+
+00:00:42.719 --> 00:00:44.869 align:start position:0%
+de programación le quitamos importancia
+al<00:00:43.140><c> diseño</c><00:00:43.379><c> y</c><00:00:43.620><c> este</c><00:00:43.860><c> es</c><00:00:44.040><c> un</c><00:00:44.340><c> error</c><00:00:44.520><c> muy</c><00:00:44.700><c> grave</c>
+
+00:00:44.869 --> 00:00:44.879 align:start position:0%
+al diseño y este es un error muy grave
+ 
+
+00:00:44.879 --> 00:00:46.310 align:start position:0%
+al diseño y este es un error muy grave
+por<00:00:45.180><c> nuestra</c><00:00:45.420><c> parte</c><00:00:45.600><c> puede</c><00:00:45.960><c> que</c><00:00:46.200><c> una</c>
+
+00:00:46.310 --> 00:00:46.320 align:start position:0%
+por nuestra parte puede que una
+ 
+
+00:00:46.320 --> 00:00:47.869 align:start position:0%
+por nuestra parte puede que una
+aplicación<00:00:46.379><c> una</c><00:00:47.040><c> web</c><00:00:47.219><c> esté</c><00:00:47.640><c> muy</c><00:00:47.760><c> bien</c>
+
+00:00:47.869 --> 00:00:47.879 align:start position:0%
+aplicación una web esté muy bien
+ 
+
+00:00:47.879 --> 00:00:49.729 align:start position:0%
+aplicación una web esté muy bien
+implementada<00:00:48.480><c> a</c><00:00:48.840><c> nivel</c><00:00:48.960><c> técnico</c><00:00:49.200><c> Pero</c><00:00:49.500><c> qué</c>
+
+00:00:49.729 --> 00:00:49.739 align:start position:0%
+implementada a nivel técnico Pero qué
+ 
+
+00:00:49.739 --> 00:00:51.410 align:start position:0%
+implementada a nivel técnico Pero qué
+pasa<00:00:49.860><c> si</c><00:00:50.160><c> descuidamos</c><00:00:50.460><c> temas</c><00:00:50.820><c> como</c><00:00:51.059><c> el</c><00:00:51.239><c> diseño</c>
+
+00:00:51.410 --> 00:00:51.420 align:start position:0%
+pasa si descuidamos temas como el diseño
+ 
+
+00:00:51.420 --> 00:00:54.770 align:start position:0%
+pasa si descuidamos temas como el diseño
+o<00:00:51.899><c> la</c><00:00:52.200><c> usabilidad</c><00:00:52.500><c> los</c><00:00:52.920><c> llamados</c><00:00:53.480><c> Pues</c><00:00:54.480><c> que</c><00:00:54.600><c> es</c>
+
+00:00:54.770 --> 00:00:54.780 align:start position:0%
+o la usabilidad los llamados Pues que es
+ 
+
+00:00:54.780 --> 00:00:56.630 align:start position:0%
+o la usabilidad los llamados Pues que es
+muy<00:00:54.840><c> posible</c><00:00:54.960><c> que</c><00:00:55.260><c> nuestro</c><00:00:55.680><c> usuario</c><00:00:55.920><c> decida</c>
+
+00:00:56.630 --> 00:00:56.640 align:start position:0%
+muy posible que nuestro usuario decida
+ 
+
+00:00:56.640 --> 00:00:58.549 align:start position:0%
+muy posible que nuestro usuario decida
+no<00:00:56.940><c> utilizarla</c><00:00:57.300><c> y</c><00:00:57.600><c> da</c><00:00:57.780><c> igual</c><00:00:57.899><c> lo</c><00:00:58.260><c> bien</c><00:00:58.379><c> que</c>
+
+00:00:58.549 --> 00:00:58.559 align:start position:0%
+no utilizarla y da igual lo bien que
+ 
+
+00:00:58.559 --> 00:01:00.410 align:start position:0%
+no utilizarla y da igual lo bien que
+esté<00:00:58.860><c> implementado</c><00:00:59.160><c> el</c><00:00:59.340><c> código</c><00:00:59.520><c> Esta</c><00:01:00.059><c> es</c><00:01:00.180><c> una</c>
+
+00:01:00.410 --> 00:01:00.420 align:start position:0%
+esté implementado el código Esta es una
+ 
+
+00:01:00.420 --> 00:01:02.209 align:start position:0%
+esté implementado el código Esta es una
+realidad<00:01:00.600><c> el</c><00:01:01.020><c> proceso</c><00:01:01.260><c> de</c><00:01:01.739><c> desarrollo</c><00:01:01.860><c> de</c>
+
+00:01:02.209 --> 00:01:02.219 align:start position:0%
+realidad el proceso de desarrollo de
+ 
+
+00:01:02.219 --> 00:01:03.770 align:start position:0%
+realidad el proceso de desarrollo de
+software<00:01:02.460><c> está</c><00:01:02.820><c> formado</c><00:01:03.000><c> por</c><00:01:03.300><c> muchas</c><00:01:03.539><c> piezas</c>
+
+00:01:03.770 --> 00:01:03.780 align:start position:0%
+software está formado por muchas piezas
+ 
+
+00:01:03.780 --> 00:01:06.050 align:start position:0%
+software está formado por muchas piezas
+y<00:01:04.080><c> todas</c><00:01:04.379><c> tienen</c><00:01:04.619><c> igual</c><00:01:05.040><c> importancia</c><00:01:05.400><c> y</c><00:01:05.880><c> a</c>
+
+00:01:06.050 --> 00:01:06.060 align:start position:0%
+y todas tienen igual importancia y a
+ 
+
+00:01:06.060 --> 00:01:07.670 align:start position:0%
+y todas tienen igual importancia y a
+cada<00:01:06.119><c> una</c><00:01:06.299><c> de</c><00:01:06.420><c> ellas</c><00:01:06.600><c> le</c><00:01:06.840><c> debemos</c><00:01:06.960><c> dedicar</c><00:01:07.380><c> el</c>
+
+00:01:07.670 --> 00:01:07.680 align:start position:0%
+cada una de ellas le debemos dedicar el
+ 
+
+00:01:07.680 --> 00:01:09.530 align:start position:0%
+cada una de ellas le debemos dedicar el
+tiempo<00:01:07.920><c> suficiente</c><00:01:08.220><c> debemos</c><00:01:08.760><c> comenzar</c><00:01:09.119><c> con</c>
+
+00:01:09.530 --> 00:01:09.540 align:start position:0%
+tiempo suficiente debemos comenzar con
+ 
+
+00:01:09.540 --> 00:01:11.510 align:start position:0%
+tiempo suficiente debemos comenzar con
+un<00:01:09.900><c> análisis</c><00:01:10.020><c> aterrizando</c><00:01:10.680><c> cada</c><00:01:11.040><c> una</c><00:01:11.220><c> de</c><00:01:11.400><c> las</c>
+
+00:01:11.510 --> 00:01:11.520 align:start position:0%
+un análisis aterrizando cada una de las
+ 
+
+00:01:11.520 --> 00:01:13.370 align:start position:0%
+un análisis aterrizando cada una de las
+ideas<00:01:11.640><c> que</c><00:01:11.820><c> tenemos</c><00:01:11.939><c> dejando</c><00:01:12.600><c> claro</c><00:01:12.840><c> Cuál</c><00:01:13.320><c> es</c>
+
+00:01:13.370 --> 00:01:13.380 align:start position:0%
+ideas que tenemos dejando claro Cuál es
+ 
+
+00:01:13.380 --> 00:01:14.690 align:start position:0%
+ideas que tenemos dejando claro Cuál es
+el<00:01:13.560><c> enfoque</c><00:01:13.740><c> principal</c><00:01:14.040><c> de</c><00:01:14.400><c> nuestra</c>
+
+00:01:14.690 --> 00:01:14.700 align:start position:0%
+el enfoque principal de nuestra
+ 
+
+00:01:14.700 --> 00:01:16.850 align:start position:0%
+el enfoque principal de nuestra
+aplicación<00:01:14.939><c> y</c><00:01:15.299><c> dirigir</c><00:01:15.659><c> todas</c><00:01:16.080><c> estas</c><00:01:16.619><c> ideas</c>
+
+00:01:16.850 --> 00:01:16.860 align:start position:0%
+aplicación y dirigir todas estas ideas
+ 
+
+00:01:16.860 --> 00:01:19.429 align:start position:0%
+aplicación y dirigir todas estas ideas
+hacia<00:01:17.400><c> un</c><00:01:17.820><c> mvp</c><00:01:18.119><c> el</c><00:01:18.360><c> llamado</c><00:01:18.540><c> mínimo</c><00:01:18.960><c> producto</c>
+
+00:01:19.429 --> 00:01:19.439 align:start position:0%
+hacia un mvp el llamado mínimo producto
+ 
+
+00:01:19.439 --> 00:01:21.770 align:start position:0%
+hacia un mvp el llamado mínimo producto
+viable<00:01:19.740><c> es</c><00:01:20.100><c> mejor</c><00:01:20.220><c> crear</c><00:01:20.520><c> algo</c><00:01:20.939><c> pequeño</c><00:01:21.479><c> y</c>
+
+00:01:21.770 --> 00:01:21.780 align:start position:0%
+viable es mejor crear algo pequeño y
+ 
+
+00:01:21.780 --> 00:01:23.749 align:start position:0%
+viable es mejor crear algo pequeño y
+funcional<00:01:22.080><c> un</c><00:01:22.619><c> producto</c><00:01:22.799><c> muy</c><00:01:23.040><c> grande</c><00:01:23.220><c> que</c><00:01:23.520><c> no</c>
+
+00:01:23.749 --> 00:01:23.759 align:start position:0%
+funcional un producto muy grande que no
+ 
+
+00:01:23.759 --> 00:01:25.070 align:start position:0%
+funcional un producto muy grande que no
+sabemos<00:01:23.939><c> Hacia</c><00:01:24.360><c> dónde</c><00:01:24.600><c> va</c><00:01:24.780><c> a</c><00:01:24.840><c> ir</c><00:01:24.840><c> teniendo</c>
+
+00:01:25.070 --> 00:01:25.080 align:start position:0%
+sabemos Hacia dónde va a ir teniendo
+ 
+
+00:01:25.080 --> 00:01:27.050 align:start position:0%
+sabemos Hacia dónde va a ir teniendo
+claro<00:01:25.380><c> esto</c><00:01:25.619><c> es</c><00:01:25.920><c> el</c><00:01:26.100><c> momento</c><00:01:26.280><c> de</c><00:01:26.520><c> comenzar</c>
+
+00:01:27.050 --> 00:01:27.060 align:start position:0%
+claro esto es el momento de comenzar
+ 
+
+00:01:27.060 --> 00:01:29.210 align:start position:0%
+claro esto es el momento de comenzar
+hacer<00:01:27.720><c> realidad</c><00:01:27.900><c> todas</c><00:01:28.500><c> estas</c><00:01:28.619><c> ideas</c><00:01:28.799><c> y</c><00:01:28.979><c> sobre</c>
+
+00:01:29.210 --> 00:01:29.220 align:start position:0%
+hacer realidad todas estas ideas y sobre
+ 
+
+00:01:29.220 --> 00:01:31.070 align:start position:0%
+hacer realidad todas estas ideas y sobre
+todo<00:01:29.340><c> si</c><00:01:29.640><c> hablamos</c><00:01:29.759><c> de</c><00:01:30.000><c> proyectos</c><00:01:30.360><c> pequeños</c><00:01:30.659><c> o</c>
+
+00:01:31.070 --> 00:01:31.080 align:start position:0%
+todo si hablamos de proyectos pequeños o
+ 
+
+00:01:31.080 --> 00:01:32.870 align:start position:0%
+todo si hablamos de proyectos pequeños o
+individuales<00:01:31.500><c> nos</c><00:01:32.159><c> solemos</c><00:01:32.520><c> ir</c><00:01:32.640><c> directamente</c>
+
+00:01:32.870 --> 00:01:32.880 align:start position:0%
+individuales nos solemos ir directamente
+ 
+
+00:01:32.880 --> 00:01:34.910 align:start position:0%
+individuales nos solemos ir directamente
+a<00:01:33.360><c> la</c><00:01:33.420><c> parte</c><00:01:33.540><c> de</c><00:01:33.659><c> programación</c><00:01:34.020><c> y</c><00:01:34.320><c> como</c><00:01:34.500><c> ya</c><00:01:34.740><c> he</c>
+
+00:01:34.910 --> 00:01:34.920 align:start position:0%
+a la parte de programación y como ya he
+ 
+
+00:01:34.920 --> 00:01:36.950 align:start position:0%
+a la parte de programación y como ya he
+dicho<00:01:34.979><c> esto</c><00:01:35.520><c> no</c><00:01:35.820><c> debe</c><00:01:36.000><c> de</c><00:01:36.180><c> ser</c><00:01:36.299><c> así</c><00:01:36.420><c> y</c><00:01:36.659><c> te</c><00:01:36.780><c> voy</c><00:01:36.840><c> a</c>
+
+00:01:36.950 --> 00:01:36.960 align:start position:0%
+dicho esto no debe de ser así y te voy a
+ 
+
+00:01:36.960 --> 00:01:38.690 align:start position:0%
+dicho esto no debe de ser así y te voy a
+contar<00:01:37.140><c> el</c><00:01:37.439><c> porqué</c><00:01:37.799><c> si</c><00:01:38.100><c> hablamos</c><00:01:38.159><c> de</c><00:01:38.579><c> la</c><00:01:38.640><c> parte</c>
+
+00:01:38.690 --> 00:01:38.700 align:start position:0%
+contar el porqué si hablamos de la parte
+ 
+
+00:01:38.700 --> 00:01:40.370 align:start position:0%
+contar el porqué si hablamos de la parte
+gráfica<00:01:39.060><c> ponernos</c><00:01:39.840><c> a</c><00:01:39.960><c> programar</c><00:01:40.140><c> algo</c>
+
+00:01:40.370 --> 00:01:40.380 align:start position:0%
+gráfica ponernos a programar algo
+ 
+
+00:01:40.380 --> 00:01:42.289 align:start position:0%
+gráfica ponernos a programar algo
+directamente<00:01:40.799><c> lo</c><00:01:41.340><c> que</c><00:01:41.520><c> va</c><00:01:41.700><c> a</c><00:01:41.820><c> hacer</c><00:01:41.820><c> es</c><00:01:42.119><c> que</c>
+
+00:01:42.289 --> 00:01:42.299 align:start position:0%
+directamente lo que va a hacer es que
+ 
+
+00:01:42.299 --> 00:01:44.749 align:start position:0%
+directamente lo que va a hacer es que
+perdamos<00:01:42.540><c> tiempo</c><00:01:43.020><c> y</c><00:01:43.320><c> dinero</c><00:01:43.500><c> ya</c><00:01:43.799><c> que</c><00:01:44.040><c> vamos</c><00:01:44.159><c> ir</c>
+
+00:01:44.749 --> 00:01:44.759 align:start position:0%
+perdamos tiempo y dinero ya que vamos ir
+ 
+
+00:01:44.759 --> 00:01:47.090 align:start position:0%
+perdamos tiempo y dinero ya que vamos ir
+diseñando<00:01:45.119><c> a</c><00:01:45.780><c> la</c><00:01:45.840><c> par</c><00:01:46.020><c> que</c><00:01:46.200><c> programamos</c><00:01:46.619><c> esto</c>
+
+00:01:47.090 --> 00:01:47.100 align:start position:0%
+diseñando a la par que programamos esto
+ 
+
+00:01:47.100 --> 00:01:49.010 align:start position:0%
+diseñando a la par que programamos esto
+implica<00:01:47.340><c> no</c><00:01:47.700><c> tener</c><00:01:47.820><c> conceptos</c><00:01:48.299><c> claros</c><00:01:48.720><c> y</c>
+
+00:01:49.010 --> 00:01:49.020 align:start position:0%
+implica no tener conceptos claros y
+ 
+
+00:01:49.020 --> 00:01:51.230 align:start position:0%
+implica no tener conceptos claros y
+tener<00:01:49.200><c> que</c><00:01:49.380><c> estar</c><00:01:49.619><c> continuamente</c><00:01:50.040><c> haciendo</c><00:01:50.880><c> y</c>
+
+00:01:51.230 --> 00:01:51.240 align:start position:0%
+tener que estar continuamente haciendo y
+ 
+
+00:01:51.240 --> 00:01:52.789 align:start position:0%
+tener que estar continuamente haciendo y
+rehaciendo<00:01:51.540><c> por</c><00:01:51.780><c> eso</c><00:01:51.960><c> es</c><00:01:52.200><c> tan</c><00:01:52.200><c> importante</c><00:01:52.439><c> la</c>
+
+00:01:52.789 --> 00:01:52.799 align:start position:0%
+rehaciendo por eso es tan importante la
+ 
+
+00:01:52.799 --> 00:01:54.530 align:start position:0%
+rehaciendo por eso es tan importante la
+fase<00:01:53.040><c> de</c><00:01:53.220><c> diseño</c><00:01:53.399><c> Comenzando</c><00:01:53.939><c> por</c><00:01:54.240><c> lo</c><00:01:54.420><c> que</c>
+
+00:01:54.530 --> 00:01:54.540 align:start position:0%
+fase de diseño Comenzando por lo que
+ 
+
+00:01:54.540 --> 00:01:56.210 align:start position:0%
+fase de diseño Comenzando por lo que
+vamos<00:01:54.659><c> a</c><00:01:54.780><c> ver</c><00:01:54.899><c> hoy</c><00:01:55.020><c> el</c><00:01:55.259><c> prototipado</c><00:01:55.799><c> Esa</c>
+
+00:01:56.210 --> 00:01:56.220 align:start position:0%
+vamos a ver hoy el prototipado Esa
+ 
+
+00:01:56.220 --> 00:01:58.490 align:start position:0%
+vamos a ver hoy el prototipado Esa
+primera<00:01:56.460><c> etapa</c><00:01:56.640><c> de</c><00:01:56.939><c> diseño</c><00:01:57.240><c> de</c><00:01:57.479><c> joayuux</c><00:01:58.259><c> donde</c>
+
+00:01:58.490 --> 00:01:58.500 align:start position:0%
+primera etapa de diseño de joayuux donde
+ 
+
+00:01:58.500 --> 00:02:00.889 align:start position:0%
+primera etapa de diseño de joayuux donde
+nosotros<00:01:58.680><c> comenzamos</c><00:01:59.280><c> a</c><00:01:59.880><c> idear</c><00:02:00.119><c> cómo</c><00:02:00.420><c> se</c><00:02:00.600><c> va</c><00:02:00.720><c> a</c>
+
+00:02:00.889 --> 00:02:00.899 align:start position:0%
+nosotros comenzamos a idear cómo se va a
+ 
+
+00:02:00.899 --> 00:02:02.030 align:start position:0%
+nosotros comenzamos a idear cómo se va a
+ver nuestra<00:02:01.079><c> un</c><00:02:01.500><c> esquema</c><00:02:01.680><c> de</c><00:02:01.920><c> lo</c><00:02:02.040><c> que</c>
+
+00:02:02.030 --> 00:02:02.040 align:start position:0%
+ver nuestra un esquema de lo que
+ 
+
+00:02:02.040 --> 00:02:04.249 align:start position:0%
+ver nuestra un esquema de lo que
+nosotros<00:02:02.220><c> vamos</c><00:02:02.640><c> a</c><00:02:03.060><c> acabar</c><00:02:03.180><c> programando</c><00:02:03.720><c> es</c>
+
+00:02:04.249 --> 00:02:04.259 align:start position:0%
+nosotros vamos a acabar programando es
+ 
+
+00:02:04.259 --> 00:02:05.929 align:start position:0%
+nosotros vamos a acabar programando es
+posible<00:02:04.380><c> que</c><00:02:04.799><c> utilices</c><00:02:05.100><c> una</c><00:02:05.280><c> libreta</c><00:02:05.520><c> y</c><00:02:05.759><c> que</c>
+
+00:02:05.929 --> 00:02:05.939 align:start position:0%
+posible que utilices una libreta y que
+ 
+
+00:02:05.939 --> 00:02:07.789 align:start position:0%
+posible que utilices una libreta y que
+en<00:02:06.060><c> ella</c><00:02:06.119><c> vayas</c><00:02:06.540><c> tomando</c><00:02:06.780><c> diferentes</c><00:02:07.380><c> notas</c>
+
+00:02:07.789 --> 00:02:07.799 align:start position:0%
+en ella vayas tomando diferentes notas
+ 
+
+00:02:07.799 --> 00:02:09.830 align:start position:0%
+en ella vayas tomando diferentes notas
+pero<00:02:08.220><c> en</c><00:02:08.399><c> mi</c><00:02:08.459><c> caso</c><00:02:08.520><c> personalmente</c><00:02:08.940><c> me</c><00:02:09.360><c> pasa</c><00:02:09.599><c> lo</c>
+
+00:02:09.830 --> 00:02:09.840 align:start position:0%
+pero en mi caso personalmente me pasa lo
+ 
+
+00:02:09.840 --> 00:02:10.969 align:start position:0%
+pero en mi caso personalmente me pasa lo
+siguiente<00:02:10.020><c> Este</c><00:02:10.319><c> es</c><00:02:10.500><c> un</c><00:02:10.500><c> proceso</c><00:02:10.619><c> de</c>
+
+00:02:10.969 --> 00:02:10.979 align:start position:0%
+siguiente Este es un proceso de
+ 
+
+00:02:10.979 --> 00:02:12.589 align:start position:0%
+siguiente Este es un proceso de
+desarrollo<00:02:11.220><c> de</c><00:02:11.459><c> ideas</c><00:02:11.700><c> por</c><00:02:12.000><c> lo</c><00:02:12.120><c> que</c><00:02:12.180><c> vamos</c><00:02:12.360><c> a</c>
+
+00:02:12.589 --> 00:02:12.599 align:start position:0%
+desarrollo de ideas por lo que vamos a
+ 
+
+00:02:12.599 --> 00:02:14.089 align:start position:0%
+desarrollo de ideas por lo que vamos a
+estar<00:02:12.660><c> continuamente</c><00:02:13.080><c> realizando</c><00:02:13.680><c> cambios</c>
+
+00:02:14.089 --> 00:02:14.099 align:start position:0%
+estar continuamente realizando cambios
+ 
+
+00:02:14.099 --> 00:02:16.309 align:start position:0%
+estar continuamente realizando cambios
+esto<00:02:14.520><c> acaba</c><00:02:15.000><c> derivando</c><00:02:15.420><c> en</c><00:02:15.660><c> que</c><00:02:15.780><c> no</c><00:02:16.020><c> soy</c><00:02:16.140><c> capaz</c>
+
+00:02:16.309 --> 00:02:16.319 align:start position:0%
+esto acaba derivando en que no soy capaz
+ 
+
+00:02:16.319 --> 00:02:18.050 align:start position:0%
+esto acaba derivando en que no soy capaz
+de<00:02:16.500><c> organizarme</c><00:02:16.920><c> bien</c><00:02:17.099><c> Me</c><00:02:17.400><c> cuesta</c><00:02:17.580><c> un</c><00:02:17.879><c> montón</c>
+
+00:02:18.050 --> 00:02:18.060 align:start position:0%
+de organizarme bien Me cuesta un montón
+ 
+
+00:02:18.060 --> 00:02:20.150 align:start position:0%
+de organizarme bien Me cuesta un montón
+encontrar<00:02:18.599><c> cosas</c><00:02:18.840><c> y</c><00:02:19.200><c> sobre</c><00:02:19.440><c> todo</c><00:02:19.560><c> es</c><00:02:19.980><c> muy</c>
+
+00:02:20.150 --> 00:02:20.160 align:start position:0%
+encontrar cosas y sobre todo es muy
+ 
+
+00:02:20.160 --> 00:02:21.890 align:start position:0%
+encontrar cosas y sobre todo es muy
+difícil<00:02:20.340><c> literal</c><00:02:20.940><c> cada</c><00:02:21.180><c> vez</c><00:02:21.300><c> que</c><00:02:21.480><c> tenemos</c><00:02:21.660><c> que</c>
+
+00:02:21.890 --> 00:02:21.900 align:start position:0%
+difícil literal cada vez que tenemos que
+ 
+
+00:02:21.900 --> 00:02:24.110 align:start position:0%
+difícil literal cada vez que tenemos que
+hacer<00:02:22.020><c> un</c><00:02:22.200><c> cambio</c><00:02:22.379><c> debemos</c><00:02:22.920><c> tachar</c><00:02:23.520><c> y</c><00:02:23.819><c> al</c>
+
+00:02:24.110 --> 00:02:24.120 align:start position:0%
+hacer un cambio debemos tachar y al
+ 
+
+00:02:24.120 --> 00:02:25.910 align:start position:0%
+hacer un cambio debemos tachar y al
+final<00:02:24.239><c> lo</c><00:02:24.720><c> que</c><00:02:24.780><c> acabamos</c><00:02:24.959><c> haciendo</c><00:02:25.200><c> es</c><00:02:25.739><c> esto</c>
+
+00:02:25.910 --> 00:02:25.920 align:start position:0%
+final lo que acabamos haciendo es esto
+ 
+
+00:02:25.920 --> 00:02:28.430 align:start position:0%
+final lo que acabamos haciendo es esto
+por<00:02:26.520><c> eso</c><00:02:26.640><c> te</c><00:02:27.000><c> contar</c><00:02:27.660><c> Cómo</c><00:02:27.959><c> realizar</c><00:02:28.200><c> este</c>
+
+00:02:28.430 --> 00:02:28.440 align:start position:0%
+por eso te contar Cómo realizar este
+ 
+
+00:02:28.440 --> 00:02:29.930 align:start position:0%
+por eso te contar Cómo realizar este
+proceso<00:02:28.680><c> con</c><00:02:29.040><c> la</c><00:02:29.280><c> herramienta</c><00:02:29.459><c> que</c><00:02:29.700><c> yo</c>
+
+00:02:29.930 --> 00:02:29.940 align:start position:0%
+proceso con la herramienta que yo
+ 
+
+00:02:29.940 --> 00:02:31.430 align:start position:0%
+proceso con la herramienta que yo
+utilicé<00:02:30.420><c> te</c><00:02:30.540><c> enseñaré</c><00:02:30.780><c> todas</c><00:02:31.260><c> sus</c>
+
+00:02:31.430 --> 00:02:31.440 align:start position:0%
+utilicé te enseñaré todas sus
+ 
+
+00:02:31.440 --> 00:02:32.750 align:start position:0%
+utilicé te enseñaré todas sus
+características<00:02:31.560><c> y</c><00:02:32.160><c> aprenderemos</c><00:02:32.520><c> a</c>
+
+00:02:32.750 --> 00:02:32.760 align:start position:0%
+características y aprenderemos a
+ 
+
+00:02:32.760 --> 00:02:34.430 align:start position:0%
+características y aprenderemos a
+utilizarla<00:02:33.300><c> como</c><00:02:33.599><c> un</c><00:02:33.780><c> diseño</c><00:02:33.840><c> real</c><00:02:34.200><c> por</c>
+
+00:02:34.430 --> 00:02:34.440 align:start position:0%
+utilizarla como un diseño real por
+ 
+
+00:02:34.440 --> 00:02:36.229 align:start position:0%
+utilizarla como un diseño real por
+supuesto<00:02:34.500><c> y</c><00:02:34.980><c> que</c><00:02:35.160><c> quede</c><00:02:35.340><c> muy</c><00:02:35.520><c> claro</c><00:02:35.640><c> en</c><00:02:36.060><c> ningún</c>
+
+00:02:36.229 --> 00:02:36.239 align:start position:0%
+supuesto y que quede muy claro en ningún
+ 
+
+00:02:36.239 --> 00:02:38.210 align:start position:0%
+supuesto y que quede muy claro en ningún
+momento<00:02:36.420><c> hablo</c><00:02:37.140><c> de</c><00:02:37.260><c> no</c><00:02:37.440><c> tener</c><00:02:37.560><c> en</c><00:02:37.739><c> cuenta</c><00:02:37.860><c> la</c>
+
+00:02:38.210 --> 00:02:38.220 align:start position:0%
+momento hablo de no tener en cuenta la
+ 
+
+00:02:38.220 --> 00:02:39.830 align:start position:0%
+momento hablo de no tener en cuenta la
+figura<00:02:38.400><c> del</c><00:02:38.640><c> diseñador</c><00:02:38.879><c> o</c><00:02:39.360><c> diseñadora</c><00:02:39.599><c> Cuando</c>
+
+00:02:39.830 --> 00:02:39.840 align:start position:0%
+figura del diseñador o diseñadora Cuando
+ 
+
+00:02:39.840 --> 00:02:41.570 align:start position:0%
+figura del diseñador o diseñadora Cuando
+somos<00:02:40.080><c> programadores</c><00:02:40.620><c> pero</c><00:02:40.920><c> en</c><00:02:41.220><c> el</c><00:02:41.280><c> caso</c><00:02:41.400><c> de</c>
+
+00:02:41.570 --> 00:02:41.580 align:start position:0%
+somos programadores pero en el caso de
+ 
+
+00:02:41.580 --> 00:02:43.309 align:start position:0%
+somos programadores pero en el caso de
+que<00:02:41.760><c> no</c><00:02:41.819><c> tengamos</c><00:02:42.060><c> esta</c><00:02:42.540><c> figura</c><00:02:42.720><c> o</c><00:02:43.019><c> hablemos</c>
+
+00:02:43.309 --> 00:02:43.319 align:start position:0%
+que no tengamos esta figura o hablemos
+ 
+
+00:02:43.319 --> 00:02:44.990 align:start position:0%
+que no tengamos esta figura o hablemos
+de<00:02:43.560><c> proyectos</c><00:02:43.860><c> individuales</c><00:02:44.280><c> Tendremos</c><00:02:44.760><c> que</c>
+
+00:02:44.990 --> 00:02:45.000 align:start position:0%
+de proyectos individuales Tendremos que
+ 
+
+00:02:45.000 --> 00:02:46.250 align:start position:0%
+de proyectos individuales Tendremos que
+hacerlo<00:02:45.300><c> nosotros</c><00:02:45.599><c> mismos</c><00:02:45.959><c> como</c>
+
+00:02:46.250 --> 00:02:46.260 align:start position:0%
+hacerlo nosotros mismos como
+ 
+
+00:02:46.260 --> 00:02:48.050 align:start position:0%
+hacerlo nosotros mismos como
+programadores<00:02:46.739><c> aunque</c><00:02:47.099><c> como</c><00:02:47.519><c> es</c><00:02:47.819><c> en</c><00:02:47.940><c> mi</c><00:02:48.060><c> caso</c>
+
+00:02:48.050 --> 00:02:48.060 align:start position:0%
+programadores aunque como es en mi caso
+ 
+
+00:02:48.060 --> 00:02:49.670 align:start position:0%
+programadores aunque como es en mi caso
+no<00:02:48.300><c> tengamos</c><00:02:48.480><c> unos</c><00:02:49.019><c> grandes</c><00:02:49.260><c> conocimientos</c>
+
+00:02:49.670 --> 00:02:49.680 align:start position:0%
+no tengamos unos grandes conocimientos
+ 
+
+00:02:49.680 --> 00:02:51.650 align:start position:0%
+no tengamos unos grandes conocimientos
+de<00:02:49.980><c> diseño</c><00:02:50.220><c> también</c><00:02:50.519><c> quiero</c><00:02:50.879><c> recordarte</c><00:02:51.480><c> que</c>
+
+00:02:51.650 --> 00:02:51.660 align:start position:0%
+de diseño también quiero recordarte que
+ 
+
+00:02:51.660 --> 00:02:53.390 align:start position:0%
+de diseño también quiero recordarte que
+yo<00:02:51.900><c> nunca</c><00:02:52.080><c> me</c><00:02:52.260><c> llamaré</c><00:02:52.560><c> a</c><00:02:52.739><c> mi</c><00:02:52.920><c> mismo</c><00:02:53.040><c> diseñador</c>
+
+00:02:53.390 --> 00:02:53.400 align:start position:0%
+yo nunca me llamaré a mi mismo diseñador
+ 
+
+00:02:53.400 --> 00:02:54.890 align:start position:0%
+yo nunca me llamaré a mi mismo diseñador
+pero<00:02:53.640><c> que</c><00:02:53.819><c> sí</c><00:02:54.060><c> a</c><00:02:54.360><c> lo</c><00:02:54.480><c> largo</c><00:02:54.540><c> de</c><00:02:54.720><c> los</c><00:02:54.780><c> años</c>
+
+00:02:54.890 --> 00:02:54.900 align:start position:0%
+pero que sí a lo largo de los años
+ 
+
+00:02:54.900 --> 00:02:56.630 align:start position:0%
+pero que sí a lo largo de los años
+debemos<00:02:55.260><c> interesarnos</c><00:02:55.980><c> por</c><00:02:56.160><c> ello</c><00:02:56.340><c> tener</c>
+
+00:02:56.630 --> 00:02:56.640 align:start position:0%
+debemos interesarnos por ello tener
+ 
+
+00:02:56.640 --> 00:02:59.449 align:start position:0%
+debemos interesarnos por ello tener
+conocimiento<00:02:57.239><c> sobre</c><00:02:57.560><c> yux</c><00:02:58.560><c> nos</c><00:02:58.860><c> va</c><00:02:58.980><c> a</c><00:02:59.099><c> ayudar</c><00:02:59.099><c> a</c>
+
+00:02:59.449 --> 00:02:59.459 align:start position:0%
+conocimiento sobre yux nos va a ayudar a
+ 
+
+00:02:59.459 --> 00:03:00.830 align:start position:0%
+conocimiento sobre yux nos va a ayudar a
+crecer<00:02:59.640><c> como</c><00:02:59.940><c> profesionales</c><00:03:00.360><c> son</c>
+
+00:03:00.830 --> 00:03:00.840 align:start position:0%
+crecer como profesionales son
+ 
+
+00:03:00.840 --> 00:03:02.210 align:start position:0%
+crecer como profesionales son
+habilidades<00:03:01.200><c> que</c><00:03:01.560><c> se</c><00:03:01.800><c> complementan</c>
+
+00:03:02.210 --> 00:03:02.220 align:start position:0%
+habilidades que se complementan
+ 
+
+00:03:02.220 --> 00:03:04.309 align:start position:0%
+habilidades que se complementan
+perfectamente<00:03:02.640><c> con</c><00:03:03.300><c> la</c><00:03:03.540><c> parte</c><00:03:03.660><c> técnica</c><00:03:03.959><c> como</c>
+
+00:03:04.309 --> 00:03:04.319 align:start position:0%
+perfectamente con la parte técnica como
+ 
+
+00:03:04.319 --> 00:03:06.050 align:start position:0%
+perfectamente con la parte técnica como
+te<00:03:04.560><c> decía</c><00:03:04.739><c> la</c><00:03:05.160><c> herramienta</c><00:03:05.400><c> que</c><00:03:05.640><c> yo</c><00:03:05.819><c> utilizo</c>
+
+00:03:06.050 --> 00:03:06.060 align:start position:0%
+te decía la herramienta que yo utilizo
+ 
+
+00:03:06.060 --> 00:03:08.630 align:start position:0%
+te decía la herramienta que yo utilizo
+se<00:03:06.420><c> llama</c><00:03:06.540><c> miro</c><00:03:06.840><c> la</c><00:03:07.140><c> encontrarás</c><00:03:07.500><c> en</c><00:03:07.860><c> miro.com</c>
+
+00:03:08.630 --> 00:03:08.640 align:start position:0%
+se llama miro la encontrarás en miro.com
+ 
+
+00:03:08.640 --> 00:03:10.490 align:start position:0%
+se llama miro la encontrarás en miro.com
+tratándose<00:03:09.360><c> básicamente</c><00:03:09.720><c> de</c><00:03:10.200><c> una</c>
+
+00:03:10.490 --> 00:03:10.500 align:start position:0%
+tratándose básicamente de una
+ 
+
+00:03:10.500 --> 00:03:11.869 align:start position:0%
+tratándose básicamente de una
+herramienta<00:03:10.739><c> que</c><00:03:10.980><c> nos</c><00:03:11.220><c> va</c><00:03:11.340><c> a</c><00:03:11.519><c> ayudar</c><00:03:11.519><c> durante</c>
+
+00:03:11.869 --> 00:03:11.879 align:start position:0%
+herramienta que nos va a ayudar durante
+ 
+
+00:03:11.879 --> 00:03:13.970 align:start position:0%
+herramienta que nos va a ayudar durante
+el<00:03:12.120><c> proceso</c><00:03:12.300><c> de</c><00:03:12.599><c> planificación</c><00:03:13.140><c> y</c><00:03:13.560><c> desarrollo</c>
+
+00:03:13.970 --> 00:03:13.980 align:start position:0%
+el proceso de planificación y desarrollo
+ 
+
+00:03:13.980 --> 00:03:16.009 align:start position:0%
+el proceso de planificación y desarrollo
+de<00:03:14.220><c> proyectos</c><00:03:14.519><c> siendo</c><00:03:15.000><c> una</c><00:03:15.659><c> de</c><00:03:15.900><c> sus</c>
+
+00:03:16.009 --> 00:03:16.019 align:start position:0%
+de proyectos siendo una de sus
+ 
+
+00:03:16.019 --> 00:03:17.330 align:start position:0%
+de proyectos siendo una de sus
+principales<00:03:16.140><c> características</c><00:03:16.680><c> la</c>
+
+00:03:17.330 --> 00:03:17.340 align:start position:0%
+principales características la
+ 
+
+00:03:17.340 --> 00:03:18.949 align:start position:0%
+principales características la
+posibilidad<00:03:17.640><c> de</c><00:03:18.060><c> utilizar</c><00:03:18.360><c> tableros</c>
+
+00:03:18.949 --> 00:03:18.959 align:start position:0%
+posibilidad de utilizar tableros
+ 
+
+00:03:18.959 --> 00:03:21.170 align:start position:0%
+posibilidad de utilizar tableros
+adaptados<00:03:19.620><c> para</c><00:03:19.800><c> nuestras</c><00:03:20.459><c> necesidades</c><00:03:20.700><c> y</c>
+
+00:03:21.170 --> 00:03:21.180 align:start position:0%
+adaptados para nuestras necesidades y
+ 
+
+00:03:21.180 --> 00:03:23.089 align:start position:0%
+adaptados para nuestras necesidades y
+pensados<00:03:21.659><c> para</c><00:03:21.900><c> todo</c><00:03:22.260><c> tipo</c><00:03:22.500><c> de</c><00:03:22.800><c> perfiles</c>
+
+00:03:23.089 --> 00:03:23.099 align:start position:0%
+pensados para todo tipo de perfiles
+ 
+
+00:03:23.099 --> 00:03:25.610 align:start position:0%
+pensados para todo tipo de perfiles
+tanto<00:03:23.760><c> a</c><00:03:24.239><c> nivel</c><00:03:24.300><c> técnico</c><00:03:24.659><c> como</c><00:03:25.019><c> de</c><00:03:25.379><c> diseño</c>
+
+00:03:25.610 --> 00:03:25.620 align:start position:0%
+tanto a nivel técnico como de diseño
+ 
+
+00:03:25.620 --> 00:03:28.550 align:start position:0%
+tanto a nivel técnico como de diseño
+gestión<00:03:26.220><c> o</c><00:03:26.940><c> posee</c><00:03:27.900><c> integración</c><00:03:28.080><c> con</c><00:03:28.260><c> un</c>
+
+00:03:28.550 --> 00:03:28.560 align:start position:0%
+gestión o posee integración con un
+ 
+
+00:03:28.560 --> 00:03:30.530 align:start position:0%
+gestión o posee integración con un
+montón<00:03:28.739><c> de</c><00:03:28.980><c> herramientas</c><00:03:29.400><c> y</c><00:03:29.879><c> podrás</c><00:03:30.300><c> utilizar</c>
+
+00:03:30.530 --> 00:03:30.540 align:start position:0%
+montón de herramientas y podrás utilizar
+ 
+
+00:03:30.540 --> 00:03:32.210 align:start position:0%
+montón de herramientas y podrás utilizar
+de<00:03:30.900><c> manera</c><00:03:31.019><c> colaborativa</c><00:03:31.680><c> incluso</c>
+
+00:03:32.210 --> 00:03:32.220 align:start position:0%
+de manera colaborativa incluso
+ 
+
+00:03:32.220 --> 00:03:34.610 align:start position:0%
+de manera colaborativa incluso
+trabajando<00:03:32.879><c> a</c><00:03:33.180><c> la</c><00:03:33.300><c> vez</c><00:03:33.360><c> en</c><00:03:33.659><c> tiempo</c><00:03:33.900><c> real</c><00:03:34.140><c> en</c><00:03:34.379><c> un</c>
+
+00:03:34.610 --> 00:03:34.620 align:start position:0%
+trabajando a la vez en tiempo real en un
+ 
+
+00:03:34.620 --> 00:03:36.290 align:start position:0%
+trabajando a la vez en tiempo real en un
+mismo<00:03:34.739><c> proyecto</c><00:03:34.980><c> registrarte</c><00:03:35.879><c> es</c><00:03:36.120><c> totalmente</c>
+
+00:03:36.290 --> 00:03:36.300 align:start position:0%
+mismo proyecto registrarte es totalmente
+ 
+
+00:03:36.300 --> 00:03:38.149 align:start position:0%
+mismo proyecto registrarte es totalmente
+gratis<00:03:36.659><c> al</c><00:03:37.200><c> igual</c><00:03:37.319><c> que</c><00:03:37.500><c> usar</c><00:03:37.739><c> la</c><00:03:37.980><c> aplicación</c>
+
+00:03:38.149 --> 00:03:38.159 align:start position:0%
+gratis al igual que usar la aplicación
+ 
+
+00:03:38.159 --> 00:03:40.309 align:start position:0%
+gratis al igual que usar la aplicación
+sin<00:03:38.760><c> límite</c><00:03:38.940><c> de</c><00:03:39.120><c> usuarios</c><00:03:39.360><c> también</c><00:03:39.840><c> dispones</c>
+
+00:03:40.309 --> 00:03:40.319 align:start position:0%
+sin límite de usuarios también dispones
+ 
+
+00:03:40.319 --> 00:03:41.930 align:start position:0%
+sin límite de usuarios también dispones
+de<00:03:40.560><c> diferentes</c><00:03:40.799><c> planes</c><00:03:41.280><c> de</c><00:03:41.459><c> precio</c><00:03:41.700><c> para</c>
+
+00:03:41.930 --> 00:03:41.940 align:start position:0%
+de diferentes planes de precio para
+ 
+
+00:03:41.940 --> 00:03:43.490 align:start position:0%
+de diferentes planes de precio para
+poder<00:03:42.299><c> acceder</c><00:03:42.599><c> a</c><00:03:42.959><c> otras</c><00:03:43.260><c> características</c>
+
+00:03:43.490 --> 00:03:43.500 align:start position:0%
+poder acceder a otras características
+ 
+
+00:03:43.500 --> 00:03:45.589 align:start position:0%
+poder acceder a otras características
+pero<00:03:44.040><c> si</c><00:03:44.400><c> vas</c><00:03:44.519><c> a</c><00:03:44.640><c> trabajar</c><00:03:44.760><c> en</c><00:03:45.120><c> tus</c><00:03:45.420><c> propios</c>
+
+00:03:45.589 --> 00:03:45.599 align:start position:0%
+pero si vas a trabajar en tus propios
+ 
+
+00:03:45.599 --> 00:03:47.690 align:start position:0%
+pero si vas a trabajar en tus propios
+proyectos<00:03:45.900><c> la</c><00:03:46.319><c> versión</c><00:03:46.500><c> gratuita</c><00:03:46.860><c> es</c><00:03:47.220><c> más</c><00:03:47.519><c> que</c>
+
+00:03:47.690 --> 00:03:47.700 align:start position:0%
+proyectos la versión gratuita es más que
+ 
+
+00:03:47.700 --> 00:03:49.190 align:start position:0%
+proyectos la versión gratuita es más que
+suficiente<00:03:47.940><c> también</c><00:03:48.299><c> decirte</c><00:03:48.780><c> que</c><00:03:48.959><c> puedes</c>
+
+00:03:49.190 --> 00:03:49.200 align:start position:0%
+suficiente también decirte que puedes
+ 
+
+00:03:49.200 --> 00:03:51.170 align:start position:0%
+suficiente también decirte que puedes
+utilizarlo<00:03:49.739><c> directamente</c><00:03:50.159><c> desde</c><00:03:50.580><c> la</c><00:03:50.819><c> web</c><00:03:51.000><c> o</c>
+
+00:03:51.170 --> 00:03:51.180 align:start position:0%
+utilizarlo directamente desde la web o
+ 
+
+00:03:51.180 --> 00:03:52.729 align:start position:0%
+utilizarlo directamente desde la web o
+descargarte<00:03:51.659><c> la</c><00:03:51.780><c> aplicación</c><00:03:51.900><c> para</c><00:03:52.260><c> Windows</c>
+
+00:03:52.729 --> 00:03:52.739 align:start position:0%
+descargarte la aplicación para Windows
+ 
+
+00:03:52.739 --> 00:03:55.550 align:start position:0%
+descargarte la aplicación para Windows
+Mac<00:03:53.400><c> iOS</c><00:03:53.819><c> y</c><00:03:54.060><c> Android</c><00:03:54.299><c> y</c><00:03:54.599><c> así</c><00:03:54.720><c> acceder</c><00:03:55.200><c> a</c><00:03:55.440><c> ella</c>
+
+00:03:55.550 --> 00:03:55.560 align:start position:0%
+Mac iOS y Android y así acceder a ella
+ 
+
+00:03:55.560 --> 00:03:57.289 align:start position:0%
+Mac iOS y Android y así acceder a ella
+de<00:03:55.739><c> una</c><00:03:55.920><c> forma</c><00:03:55.980><c> más</c><00:03:56.220><c> cómoda</c><00:03:56.459><c> Mira</c><00:03:56.819><c> tiene</c><00:03:57.060><c> un</c>
+
+00:03:57.289 --> 00:03:57.299 align:start position:0%
+de una forma más cómoda Mira tiene un
+ 
+
+00:03:57.299 --> 00:03:58.910 align:start position:0%
+de una forma más cómoda Mira tiene un
+montón<00:03:57.480><c> de</c><00:03:57.720><c> posibilidades</c><00:03:58.080><c> pero</c><00:03:58.440><c> vamos</c><00:03:58.680><c> a</c>
+
+00:03:58.910 --> 00:03:58.920 align:start position:0%
+montón de posibilidades pero vamos a
+ 
+
+00:03:58.920 --> 00:04:00.530 align:start position:0%
+montón de posibilidades pero vamos a
+centrarnos<00:03:59.280><c> sobre</c><00:03:59.519><c> todo</c><00:03:59.700><c> en</c><00:04:00.120><c> su</c><00:04:00.360><c> herramienta</c>
+
+00:04:00.530 --> 00:04:00.540 align:start position:0%
+centrarnos sobre todo en su herramienta
+ 
+
+00:04:00.540 --> 00:04:02.630 align:start position:0%
+centrarnos sobre todo en su herramienta
+para<00:04:00.720><c> crear</c><00:04:00.959><c> warframes</c><00:04:01.860><c> Esa</c><00:04:02.220><c> primera</c><00:04:02.459><c> etapa</c>
+
+00:04:02.630 --> 00:04:02.640 align:start position:0%
+para crear warframes Esa primera etapa
+ 
+
+00:04:02.640 --> 00:04:04.970 align:start position:0%
+para crear warframes Esa primera etapa
+del<00:04:02.940><c> proceso</c><00:04:03.120><c> de</c><00:04:03.480><c> diseño</c><00:04:03.720><c> de</c><00:04:04.080><c> aplicaciones</c><00:04:04.500><c> y</c>
+
+00:04:04.970 --> 00:04:04.980 align:start position:0%
+del proceso de diseño de aplicaciones y
+ 
+
+00:04:04.980 --> 00:04:07.130 align:start position:0%
+del proceso de diseño de aplicaciones y
+webs<00:04:05.280><c> tan</c><00:04:05.519><c> importante</c><00:04:05.819><c> un</c><00:04:06.360><c> White</c><00:04:06.720><c> frame</c><00:04:06.900><c> Es</c>
+
+00:04:07.130 --> 00:04:07.140 align:start position:0%
+webs tan importante un White frame Es
+ 
+
+00:04:07.140 --> 00:04:09.350 align:start position:0%
+webs tan importante un White frame Es
+una<00:04:07.500><c> representación</c><00:04:07.799><c> visual</c><00:04:08.459><c> Y</c><00:04:08.819><c> esquemática</c>
+
+00:04:09.350 --> 00:04:09.360 align:start position:0%
+una representación visual Y esquemática
+ 
+
+00:04:09.360 --> 00:04:11.089 align:start position:0%
+una representación visual Y esquemática
+de<00:04:09.720><c> lo</c><00:04:09.840><c> que</c><00:04:09.959><c> va</c><00:04:10.080><c> a</c><00:04:10.260><c> ser</c><00:04:10.319><c> nuestra</c><00:04:10.560><c> lo</c><00:04:10.920><c> que</c><00:04:10.980><c> yo</c>
+
+00:04:11.089 --> 00:04:11.099 align:start position:0%
+de lo que va a ser nuestra lo que yo
+ 
+
+00:04:11.099 --> 00:04:13.369 align:start position:0%
+de lo que va a ser nuestra lo que yo
+muchas<00:04:11.459><c> veces</c><00:04:11.640><c> llamo</c><00:04:11.939><c> prototipo</c><00:04:12.540><c> miro</c><00:04:13.019><c> nos</c><00:04:13.200><c> va</c>
+
+00:04:13.369 --> 00:04:13.379 align:start position:0%
+muchas veces llamo prototipo miro nos va
+ 
+
+00:04:13.379 --> 00:04:15.170 align:start position:0%
+muchas veces llamo prototipo miro nos va
+a<00:04:13.500><c> permitir</c><00:04:13.620><c> crearlos</c><00:04:14.280><c> de</c><00:04:14.459><c> una</c><00:04:14.580><c> forma</c><00:04:14.760><c> súper</c>
+
+00:04:15.170 --> 00:04:15.180 align:start position:0%
+a permitir crearlos de una forma súper
+ 
+
+00:04:15.180 --> 00:04:16.969 align:start position:0%
+a permitir crearlos de una forma súper
+rápida<00:04:15.420><c> y</c><00:04:15.720><c> fácil</c><00:04:15.959><c> ya</c><00:04:16.199><c> que</c><00:04:16.380><c> una</c><00:04:16.620><c> de</c><00:04:16.859><c> sus</c>
+
+00:04:16.969 --> 00:04:16.979 align:start position:0%
+rápida y fácil ya que una de sus
+ 
+
+00:04:16.979 --> 00:04:18.590 align:start position:0%
+rápida y fácil ya que una de sus
+principales<00:04:17.100><c> características</c><00:04:17.519><c> es</c><00:04:18.180><c> la</c><00:04:18.419><c> gran</c>
+
+00:04:18.590 --> 00:04:18.600 align:start position:0%
+principales características es la gran
+ 
+
+00:04:18.600 --> 00:04:20.210 align:start position:0%
+principales características es la gran
+cantidad<00:04:18.720><c> de</c><00:04:18.959><c> plantillas</c><00:04:19.320><c> que</c><00:04:19.500><c> posee</c><00:04:19.859><c> y</c><00:04:19.979><c> todas</c>
+
+00:04:20.210 --> 00:04:20.220 align:start position:0%
+cantidad de plantillas que posee y todas
+ 
+
+00:04:20.220 --> 00:04:22.069 align:start position:0%
+cantidad de plantillas que posee y todas
+las<00:04:20.519><c> características</c><00:04:20.699><c> adicionales</c><00:04:21.419><c> que</c><00:04:21.780><c> nos</c>
+
+00:04:22.069 --> 00:04:22.079 align:start position:0%
+las características adicionales que nos
+ 
+
+00:04:22.079 --> 00:04:23.689 align:start position:0%
+las características adicionales que nos
+van<00:04:22.260><c> a</c><00:04:22.500><c> ayudar</c><00:04:22.560><c> en</c><00:04:22.740><c> el</c><00:04:22.860><c> proceso</c><00:04:23.040><c> así</c><00:04:23.340><c> que</c><00:04:23.460><c> vamos</c>
+
+00:04:23.689 --> 00:04:23.699 align:start position:0%
+van a ayudar en el proceso así que vamos
+ 
+
+00:04:23.699 --> 00:04:25.490 align:start position:0%
+van a ayudar en el proceso así que vamos
+a<00:04:23.940><c> aprender</c><00:04:24.000><c> cómo</c><00:04:24.360><c> funciona</c><00:04:24.720><c> con</c><00:04:25.259><c> un</c><00:04:25.380><c> ejemplo</c>
+
+00:04:25.490 --> 00:04:25.500 align:start position:0%
+a aprender cómo funciona con un ejemplo
+ 
+
+00:04:25.500 --> 00:04:27.710 align:start position:0%
+a aprender cómo funciona con un ejemplo
+práctico<00:04:25.979><c> aquí</c><00:04:26.220><c> tenemos</c><00:04:26.400><c> la</c><00:04:26.880><c> de</c><00:04:27.600><c> escritorio</c>
+
+00:04:27.710 --> 00:04:27.720 align:start position:0%
+práctico aquí tenemos la de escritorio
+ 
+
+00:04:27.720 --> 00:04:29.210 align:start position:0%
+práctico aquí tenemos la de escritorio
+de<00:04:27.780><c> miro</c><00:04:28.020><c> Recuerda</c><00:04:28.320><c> que</c><00:04:28.500><c> también</c><00:04:28.620><c> lo</c><00:04:28.919><c> puedes</c>
+
+00:04:29.210 --> 00:04:29.220 align:start position:0%
+de miro Recuerda que también lo puedes
+ 
+
+00:04:29.220 --> 00:04:30.590 align:start position:0%
+de miro Recuerda que también lo puedes
+utilizar<00:04:29.340><c> desde</c><00:04:29.699><c> web</c><00:04:30.000><c> pero</c><00:04:30.180><c> en</c><00:04:30.300><c> mi</c><00:04:30.360><c> caso</c><00:04:30.419><c> la</c>
+
+00:04:30.590 --> 00:04:30.600 align:start position:0%
+utilizar desde web pero en mi caso la
+ 
+
+00:04:30.600 --> 00:04:32.210 align:start position:0%
+utilizar desde web pero en mi caso la
+tengo<00:04:30.720><c> descargada</c><00:04:31.080><c> para</c><00:04:31.259><c> poder</c><00:04:31.560><c> trabajar</c><00:04:31.800><c> de</c>
+
+00:04:32.210 --> 00:04:32.220 align:start position:0%
+tengo descargada para poder trabajar de
+ 
+
+00:04:32.220 --> 00:04:33.530 align:start position:0%
+tengo descargada para poder trabajar de
+forma<00:04:32.400><c> más</c><00:04:32.639><c> rápida</c><00:04:32.759><c> por</c><00:04:33.060><c> supuesto</c><00:04:33.180><c> podemos</c>
+
+00:04:33.530 --> 00:04:33.540 align:start position:0%
+forma más rápida por supuesto podemos
+ 
+
+00:04:33.540 --> 00:04:35.090 align:start position:0%
+forma más rápida por supuesto podemos
+crear<00:04:33.900><c> nuestro</c><00:04:34.259><c> primer</c><00:04:34.500><c> proyecto</c><00:04:34.800><c> pero</c>
+
+00:04:35.090 --> 00:04:35.100 align:start position:0%
+crear nuestro primer proyecto pero
+ 
+
+00:04:35.100 --> 00:04:36.350 align:start position:0%
+crear nuestro primer proyecto pero
+también<00:04:35.280><c> te</c><00:04:35.580><c> he</c><00:04:35.699><c> dicho</c><00:04:35.699><c> que</c><00:04:36.000><c> una</c><00:04:36.180><c> de</c><00:04:36.300><c> las</c>
+
+00:04:36.350 --> 00:04:36.360 align:start position:0%
+también te he dicho que una de las
+ 
+
+00:04:36.360 --> 00:04:37.969 align:start position:0%
+también te he dicho que una de las
+características<00:04:36.540><c> más</c><00:04:37.020><c> potentes</c><00:04:37.380><c> son</c><00:04:37.740><c> las</c>
+
+00:04:37.969 --> 00:04:37.979 align:start position:0%
+características más potentes son las
+ 
+
+00:04:37.979 --> 00:04:39.409 align:start position:0%
+características más potentes son las
+plantillas<00:04:38.160><c> aquí</c><00:04:38.580><c> podrás</c><00:04:38.820><c> ver</c><00:04:39.060><c> rápidamente</c>
+
+00:04:39.409 --> 00:04:39.419 align:start position:0%
+plantillas aquí podrás ver rápidamente
+ 
+
+00:04:39.419 --> 00:04:41.330 align:start position:0%
+plantillas aquí podrás ver rápidamente
+todas<00:04:40.199><c> las</c><00:04:40.380><c> posibilidades</c><00:04:40.560><c> de</c><00:04:41.040><c> esta</c>
+
+00:04:41.330 --> 00:04:41.340 align:start position:0%
+todas las posibilidades de esta
+ 
+
+00:04:41.340 --> 00:04:42.770 align:start position:0%
+todas las posibilidades de esta
+herramienta<00:04:41.580><c> mucho</c><00:04:41.880><c> más</c><00:04:42.120><c> allá</c><00:04:42.300><c> de</c><00:04:42.600><c> las</c>
+
+00:04:42.770 --> 00:04:42.780 align:start position:0%
+herramienta mucho más allá de las
+ 
+
+00:04:42.780 --> 00:04:44.210 align:start position:0%
+herramienta mucho más allá de las
+actividades<00:04:42.900><c> de</c><00:04:43.259><c> diseño</c><00:04:43.500><c> hablamos</c><00:04:43.860><c> al</c>
+
+00:04:44.210 --> 00:04:44.220 align:start position:0%
+actividades de diseño hablamos al
+ 
+
+00:04:44.220 --> 00:04:46.070 align:start position:0%
+actividades de diseño hablamos al
+principio<00:04:44.460><c> del</c><00:04:44.820><c> proceso</c><00:04:45.060><c> de</c><00:04:45.360><c> análisis</c><00:04:45.600><c> Aquí</c>
+
+00:04:46.070 --> 00:04:46.080 align:start position:0%
+principio del proceso de análisis Aquí
+ 
+
+00:04:46.080 --> 00:04:47.810 align:start position:0%
+principio del proceso de análisis Aquí
+encontrarás<00:04:46.680><c> plantillas</c><00:04:47.040><c> para</c><00:04:47.220><c> crear</c><00:04:47.520><c> por</c>
+
+00:04:47.810 --> 00:04:47.820 align:start position:0%
+encontrarás plantillas para crear por
+ 
+
+00:04:47.820 --> 00:04:49.969 align:start position:0%
+encontrarás plantillas para crear por
+ejemplo<00:04:48.000><c> mapas</c><00:04:48.540><c> mentales</c><00:04:48.900><c> posits</c><00:04:49.740><c> con</c><00:04:49.800><c> ideas</c>
+
+00:04:49.969 --> 00:04:49.979 align:start position:0%
+ejemplo mapas mentales posits con ideas
+ 
+
+00:04:49.979 --> 00:04:52.430 align:start position:0%
+ejemplo mapas mentales posits con ideas
+o<00:04:50.520><c> métodos</c><00:04:50.759><c> para</c><00:04:51.000><c> priorizar</c><00:04:51.419><c> diagramas</c><00:04:52.139><c> de</c>
+
+00:04:52.430 --> 00:04:52.440 align:start position:0%
+o métodos para priorizar diagramas de
+ 
+
+00:04:52.440 --> 00:04:54.590 align:start position:0%
+o métodos para priorizar diagramas de
+flujo<00:04:52.740><c> o</c><00:04:53.100><c> devolución</c><00:04:53.460><c> y</c><00:04:53.820><c> hasta</c><00:04:54.120><c> tableros</c><00:04:54.419><c> para</c>
+
+00:04:54.590 --> 00:04:54.600 align:start position:0%
+flujo o devolución y hasta tableros para
+ 
+
+00:04:54.600 --> 00:04:56.030 align:start position:0%
+flujo o devolución y hasta tableros para
+llevar<00:04:54.840><c> a</c><00:04:55.080><c> cabo</c><00:04:55.259><c> el</c><00:04:55.500><c> seguimiento</c><00:04:55.800><c> del</c>
+
+00:04:56.030 --> 00:04:56.040 align:start position:0%
+llevar a cabo el seguimiento del
+ 
+
+00:04:56.040 --> 00:04:58.129 align:start position:0%
+llevar a cabo el seguimiento del
+proyecto<00:04:56.400><c> por</c><00:04:56.699><c> ejemplo</c><00:04:56.880><c> este</c><00:04:57.479><c> marco</c><00:04:57.720><c> kanban</c>
+
+00:04:58.129 --> 00:04:58.139 align:start position:0%
+proyecto por ejemplo este marco kanban
+ 
+
+00:04:58.139 --> 00:04:59.749 align:start position:0%
+proyecto por ejemplo este marco kanban
+puedes<00:04:58.500><c> pinchar</c><00:04:58.680><c> en</c><00:04:59.160><c> cualquiera</c><00:04:59.400><c> de</c><00:04:59.580><c> las</c>
+
+00:04:59.749 --> 00:04:59.759 align:start position:0%
+puedes pinchar en cualquiera de las
+ 
+
+00:04:59.759 --> 00:05:01.670 align:start position:0%
+puedes pinchar en cualquiera de las
+plantillas<00:05:00.060><c> y</c><00:05:00.360><c> visualizar</c><00:05:00.840><c> lo</c><00:05:01.199><c> que</c><00:05:01.320><c> te</c><00:05:01.500><c> vas</c><00:05:01.620><c> a</c>
+
+00:05:01.670 --> 00:05:01.680 align:start position:0%
+plantillas y visualizar lo que te vas a
+ 
+
+00:05:01.680 --> 00:05:03.110 align:start position:0%
+plantillas y visualizar lo que te vas a
+encontrar<00:05:01.800><c> y</c><00:05:02.160><c> aprender</c><00:05:02.400><c> Para</c><00:05:02.639><c> qué</c><00:05:03.000><c> se</c>
+
+00:05:03.110 --> 00:05:03.120 align:start position:0%
+encontrar y aprender Para qué se
+ 
+
+00:05:03.120 --> 00:05:04.610 align:start position:0%
+encontrar y aprender Para qué se
+utilizan<00:05:03.479><c> en</c><00:05:03.720><c> concreto</c><00:05:03.900><c> en</c><00:05:04.320><c> nuestro</c><00:05:04.500><c> caso</c>
+
+00:05:04.610 --> 00:05:04.620 align:start position:0%
+utilizan en concreto en nuestro caso
+ 
+
+00:05:04.620 --> 00:05:06.230 align:start position:0%
+utilizan en concreto en nuestro caso
+vamos<00:05:04.919><c> a</c><00:05:05.160><c> crear</c><00:05:05.280><c> un</c><00:05:05.580><c> proyecto</c><00:05:05.880><c> en</c><00:05:06.120><c> blanco</c>
+
+00:05:06.230 --> 00:05:06.240 align:start position:0%
+vamos a crear un proyecto en blanco
+ 
+
+00:05:06.240 --> 00:05:08.090 align:start position:0%
+vamos a crear un proyecto en blanco
+encontrándonos<00:05:06.960><c> en</c><00:05:07.199><c> primer</c><00:05:07.380><c> lugar</c><00:05:07.500><c> el</c><00:05:07.979><c> área</c>
+
+00:05:08.090 --> 00:05:08.100 align:start position:0%
+encontrándonos en primer lugar el área
+ 
+
+00:05:08.100 --> 00:05:10.010 align:start position:0%
+encontrándonos en primer lugar el área
+de<00:05:08.340><c> trabajo</c><00:05:08.639><c> podremos</c><00:05:09.000><c> darle</c><00:05:09.240><c> un</c><00:05:09.600><c> nombre</c><00:05:09.840><c> al</c>
+
+00:05:10.010 --> 00:05:10.020 align:start position:0%
+de trabajo podremos darle un nombre al
+ 
+
+00:05:10.020 --> 00:05:11.749 align:start position:0%
+de trabajo podremos darle un nombre al
+proyecto<00:05:10.199><c> y</c><00:05:10.380><c> elegir</c><00:05:10.740><c> una</c><00:05:11.160><c> miniatura</c><00:05:11.340><c> para</c>
+
+00:05:11.749 --> 00:05:11.759 align:start position:0%
+proyecto y elegir una miniatura para
+ 
+
+00:05:11.759 --> 00:05:13.249 align:start position:0%
+proyecto y elegir una miniatura para
+desplazarte<00:05:12.240><c> con</c><00:05:12.360><c> el</c><00:05:12.479><c> Lienzo</c><00:05:12.780><c> lo</c><00:05:13.080><c> podrás</c>
+
+00:05:13.249 --> 00:05:13.259 align:start position:0%
+desplazarte con el Lienzo lo podrás
+ 
+
+00:05:13.259 --> 00:05:15.110 align:start position:0%
+desplazarte con el Lienzo lo podrás
+hacer<00:05:13.380><c> con</c><00:05:13.680><c> el</c><00:05:13.800><c> botón</c><00:05:13.979><c> derecho</c><00:05:14.280><c> del</c><00:05:14.699><c> Ratón</c><00:05:14.820><c> o</c>
+
+00:05:15.110 --> 00:05:15.120 align:start position:0%
+hacer con el botón derecho del Ratón o
+ 
+
+00:05:15.120 --> 00:05:16.909 align:start position:0%
+hacer con el botón derecho del Ratón o
+incluso<00:05:15.360><c> con</c><00:05:15.600><c> el</c><00:05:15.720><c> central</c><00:05:15.960><c> simplemente</c><00:05:16.440><c> debes</c>
+
+00:05:16.909 --> 00:05:16.919 align:start position:0%
+incluso con el central simplemente debes
+ 
+
+00:05:16.919 --> 00:05:18.469 align:start position:0%
+incluso con el central simplemente debes
+de<00:05:17.160><c> situarte</c><00:05:17.520><c> en</c><00:05:18.000><c> la</c><00:05:18.060><c> herramienta</c><00:05:18.180><c> de</c>
+
+00:05:18.469 --> 00:05:18.479 align:start position:0%
+de situarte en la herramienta de
+ 
+
+00:05:18.479 --> 00:05:20.030 align:start position:0%
+de situarte en la herramienta de
+selección<00:05:18.660><c> otra</c><00:05:18.960><c> característica</c><00:05:19.500><c> es</c><00:05:19.919><c> que</c>
+
+00:05:20.030 --> 00:05:20.040 align:start position:0%
+selección otra característica es que
+ 
+
+00:05:20.040 --> 00:05:21.950 align:start position:0%
+selección otra característica es que
+puedes<00:05:20.400><c> compartir</c><00:05:20.880><c> este</c><00:05:21.360><c> espacio</c><00:05:21.600><c> de</c><00:05:21.780><c> trabajo</c>
+
+00:05:21.950 --> 00:05:21.960 align:start position:0%
+puedes compartir este espacio de trabajo
+ 
+
+00:05:21.960 --> 00:05:24.110 align:start position:0%
+puedes compartir este espacio de trabajo
+para<00:05:22.199><c> así</c><00:05:22.680><c> interactuar</c><00:05:23.220><c> en</c><00:05:23.460><c> él</c><00:05:23.699><c> en</c><00:05:23.880><c> tiempo</c>
+
+00:05:24.110 --> 00:05:24.120 align:start position:0%
+para así interactuar en él en tiempo
+ 
+
+00:05:24.120 --> 00:05:25.730 align:start position:0%
+para así interactuar en él en tiempo
+real<00:05:24.240><c> o</c><00:05:24.600><c> hasta</c><00:05:24.840><c> hacer</c><00:05:25.020><c> una</c><00:05:25.380><c> videollamada</c>
+
+00:05:25.730 --> 00:05:25.740 align:start position:0%
+real o hasta hacer una videollamada
+ 
+
+00:05:25.740 --> 00:05:27.650 align:start position:0%
+real o hasta hacer una videollamada
+desde<00:05:26.100><c> el</c><00:05:26.340><c> propio</c><00:05:26.520><c> mi</c><00:05:26.820><c> mientras</c><00:05:27.419><c> estáis</c>
+
+00:05:27.650 --> 00:05:27.660 align:start position:0%
+desde el propio mi mientras estáis
+ 
+
+00:05:27.660 --> 00:05:29.450 align:start position:0%
+desde el propio mi mientras estáis
+trabajando<00:05:27.780><c> miro</c><00:05:28.560><c> se</c><00:05:28.800><c> integra</c><00:05:28.919><c> con</c><00:05:29.160><c> un</c><00:05:29.340><c> montón</c>
+
+00:05:29.450 --> 00:05:29.460 align:start position:0%
+trabajando miro se integra con un montón
+ 
+
+00:05:29.460 --> 00:05:31.370 align:start position:0%
+trabajando miro se integra con un montón
+de<00:05:29.639><c> aplicaciones</c><00:05:29.960><c> revisalas</c><00:05:30.960><c> ya</c><00:05:31.080><c> que</c><00:05:31.199><c> puede</c>
+
+00:05:31.370 --> 00:05:31.380 align:start position:0%
+de aplicaciones revisalas ya que puede
+ 
+
+00:05:31.380 --> 00:05:33.050 align:start position:0%
+de aplicaciones revisalas ya que puede
+que<00:05:31.560><c> ya</c><00:05:31.860><c> estés</c><00:05:31.979><c> trabajando</c><00:05:32.160><c> con</c><00:05:32.520><c> alguna</c><00:05:32.940><c> de</c>
+
+00:05:33.050 --> 00:05:33.060 align:start position:0%
+que ya estés trabajando con alguna de
+ 
+
+00:05:33.060 --> 00:05:34.490 align:start position:0%
+que ya estés trabajando con alguna de
+ellas<00:05:33.180><c> antes</c><00:05:33.479><c> de</c><00:05:33.720><c> hablarte</c><00:05:34.139><c> de</c><00:05:34.380><c> las</c>
+
+00:05:34.490 --> 00:05:34.500 align:start position:0%
+ellas antes de hablarte de las
+ 
+
+00:05:34.500 --> 00:05:36.290 align:start position:0%
+ellas antes de hablarte de las
+herramientas<00:05:34.620><c> de</c><00:05:34.860><c> diseño</c><00:05:35.160><c> hablarte</c><00:05:35.880><c> de</c><00:05:36.000><c> las</c>
+
+00:05:36.290 --> 00:05:36.300 align:start position:0%
+herramientas de diseño hablarte de las
+ 
+
+00:05:36.300 --> 00:05:38.210 align:start position:0%
+herramientas de diseño hablarte de las
+siguientes<00:05:36.419><c> Cómo</c><00:05:36.840><c> puedes</c><00:05:37.020><c> crear</c><00:05:37.380><c> cronómetros</c>
+
+00:05:38.210 --> 00:05:38.220 align:start position:0%
+siguientes Cómo puedes crear cronómetros
+ 
+
+00:05:38.220 --> 00:05:39.909 align:start position:0%
+siguientes Cómo puedes crear cronómetros
+votaciones<00:05:39.000><c> grabar</c><00:05:39.539><c> la</c><00:05:39.720><c> pantalla</c>
+
+00:05:39.909 --> 00:05:39.919 align:start position:0%
+votaciones grabar la pantalla
+ 
+
+00:05:39.919 --> 00:05:42.230 align:start position:0%
+votaciones grabar la pantalla
+presentarla<00:05:40.919><c> reunirte</c><00:05:41.520><c> con</c><00:05:41.940><c> los</c><00:05:42.120><c> miembros</c>
+
+00:05:42.230 --> 00:05:42.240 align:start position:0%
+presentarla reunirte con los miembros
+ 
+
+00:05:42.240 --> 00:05:44.450 align:start position:0%
+presentarla reunirte con los miembros
+del<00:05:42.539><c> equipo</c><00:05:42.660><c> crear</c><00:05:43.259><c> notas</c><00:05:43.680><c> y</c><00:05:44.160><c> hasta</c>
+
+00:05:44.450 --> 00:05:44.460 align:start position:0%
+del equipo crear notas y hasta
+ 
+
+00:05:44.460 --> 00:05:46.730 align:start position:0%
+del equipo crear notas y hasta
+estimaciones<00:05:45.060><c> estas</c><00:05:45.780><c> entre</c><00:05:46.259><c> algunas</c><00:05:46.500><c> otras</c>
+
+00:05:46.730 --> 00:05:46.740 align:start position:0%
+estimaciones estas entre algunas otras
+ 
+
+00:05:46.740 --> 00:05:48.409 align:start position:0%
+estimaciones estas entre algunas otras
+aparte<00:05:47.160><c> de</c><00:05:47.520><c> desplazarte</c><00:05:47.880><c> también</c><00:05:48.120><c> puedes</c>
+
+00:05:48.409 --> 00:05:48.419 align:start position:0%
+aparte de desplazarte también puedes
+ 
+
+00:05:48.419 --> 00:05:50.390 align:start position:0%
+aparte de desplazarte también puedes
+hacer<00:05:48.660><c> zoom</c><00:05:48.960><c> y</c><00:05:49.199><c> consultar</c><00:05:49.440><c> desde</c><00:05:49.919><c> esta</c><00:05:50.220><c> barra</c>
+
+00:05:50.390 --> 00:05:50.400 align:start position:0%
+hacer zoom y consultar desde esta barra
+ 
+
+00:05:50.400 --> 00:05:52.730 align:start position:0%
+hacer zoom y consultar desde esta barra
+lateral<00:05:50.759><c> el</c><00:05:51.180><c> estado</c><00:05:51.360><c> de</c><00:05:51.780><c> tu</c><00:05:51.960><c> proyecto</c><00:05:52.199><c> todos</c>
+
+00:05:52.730 --> 00:05:52.740 align:start position:0%
+lateral el estado de tu proyecto todos
+ 
+
+00:05:52.740 --> 00:05:54.529 align:start position:0%
+lateral el estado de tu proyecto todos
+los<00:05:52.860><c> elementos</c><00:05:52.979><c> gráficos</c><00:05:53.460><c> que</c><00:05:53.699><c> tienes</c><00:05:54.120><c> en</c><00:05:54.300><c> él</c>
+
+00:05:54.529 --> 00:05:54.539 align:start position:0%
+los elementos gráficos que tienes en él
+ 
+
+00:05:54.539 --> 00:05:56.570 align:start position:0%
+los elementos gráficos que tienes en él
+comentarios<00:05:55.020><c> y</c><00:05:55.500><c> menciones</c><00:05:55.800><c> Y</c><00:05:56.160><c> por</c><00:05:56.400><c> supuesto</c>
+
+00:05:56.570 --> 00:05:56.580 align:start position:0%
+comentarios y menciones Y por supuesto
+ 
+
+00:05:56.580 --> 00:05:58.550 align:start position:0%
+comentarios y menciones Y por supuesto
+el<00:05:57.240><c> historial</c><00:05:57.360><c> de</c><00:05:57.600><c> cambios</c><00:05:57.840><c> para</c><00:05:58.020><c> que</c><00:05:58.259><c> vuelvas</c>
+
+00:05:58.550 --> 00:05:58.560 align:start position:0%
+el historial de cambios para que vuelvas
+ 
+
+00:05:58.560 --> 00:06:00.110 align:start position:0%
+el historial de cambios para que vuelvas
+al<00:05:58.800><c> Estado</c><00:05:58.919><c> que</c><00:05:59.160><c> tú</c><00:05:59.340><c> quieras</c><00:05:59.460><c> pero</c><00:05:59.820><c> venga</c>
+
+00:06:00.110 --> 00:06:00.120 align:start position:0%
+al Estado que tú quieras pero venga
+ 
+
+00:06:00.120 --> 00:06:01.790 align:start position:0%
+al Estado que tú quieras pero venga
+vamos<00:06:00.360><c> a</c><00:06:00.780><c> lo</c><00:06:00.840><c> importante</c><00:06:00.960><c> Cuáles</c><00:06:01.320><c> son</c><00:06:01.380><c> las</c>
+
+00:06:01.790 --> 00:06:01.800 align:start position:0%
+vamos a lo importante Cuáles son las
+ 
+
+00:06:01.800 --> 00:06:03.350 align:start position:0%
+vamos a lo importante Cuáles son las
+herramientas<00:06:01.919><c> gráficas</c><00:06:02.400><c> para</c><00:06:02.639><c> empezar</c><00:06:02.940><c> a</c>
+
+00:06:03.350 --> 00:06:03.360 align:start position:0%
+herramientas gráficas para empezar a
+ 
+
+00:06:03.360 --> 00:06:05.150 align:start position:0%
+herramientas gráficas para empezar a
+crear<00:06:03.539><c> nuestros</c><00:06:03.960><c> diseños</c><00:06:04.139><c> podrás</c><00:06:04.680><c> crear</c>
+
+00:06:05.150 --> 00:06:05.160 align:start position:0%
+crear nuestros diseños podrás crear
+ 
+
+00:06:05.160 --> 00:06:06.950 align:start position:0%
+crear nuestros diseños podrás crear
+textos<00:06:05.400><c> bloques</c><00:06:06.060><c> de</c><00:06:06.240><c> código</c><00:06:06.419><c> diferentes</c>
+
+00:06:06.950 --> 00:06:06.960 align:start position:0%
+textos bloques de código diferentes
+ 
+
+00:06:06.960 --> 00:06:09.050 align:start position:0%
+textos bloques de código diferentes
+post-its<00:06:07.680><c> formas</c><00:06:08.220><c> a</c><00:06:08.520><c> tu</c><00:06:08.639><c> libre</c><00:06:08.759><c> elección</c>
+
+00:06:09.050 --> 00:06:09.060 align:start position:0%
+post-its formas a tu libre elección
+ 
+
+00:06:09.060 --> 00:06:11.990 align:start position:0%
+post-its formas a tu libre elección
+dibujar<00:06:09.720><c> en</c><00:06:10.020><c> el</c><00:06:10.259><c> Lienzo</c><00:06:10.560><c> dejar</c><00:06:11.039><c> comentarios</c><00:06:11.580><c> y</c>
+
+00:06:11.990 --> 00:06:12.000 align:start position:0%
+dibujar en el Lienzo dejar comentarios y
+ 
+
+00:06:12.000 --> 00:06:14.450 align:start position:0%
+dibujar en el Lienzo dejar comentarios y
+un<00:06:12.240><c> montón</c><00:06:12.419><c> de</c><00:06:12.660><c> cosas</c><00:06:12.900><c> más</c><00:06:13.080><c> si</c><00:06:13.680><c> hay</c><00:06:13.919><c> alguna</c><00:06:14.280><c> de</c>
+
+00:06:14.450 --> 00:06:14.460 align:start position:0%
+un montón de cosas más si hay alguna de
+ 
+
+00:06:14.460 --> 00:06:15.890 align:start position:0%
+un montón de cosas más si hay alguna de
+estas<00:06:14.639><c> opciones</c><00:06:14.820><c> que</c><00:06:15.120><c> usas</c><00:06:15.479><c> mucho</c>
+
+00:06:15.890 --> 00:06:15.900 align:start position:0%
+estas opciones que usas mucho
+ 
+
+00:06:15.900 --> 00:06:17.930 align:start position:0%
+estas opciones que usas mucho
+simplemente<00:06:16.320><c> la</c><00:06:16.740><c> puedes</c><00:06:16.919><c> colocar</c><00:06:17.160><c> en</c><00:06:17.520><c> el</c><00:06:17.699><c> menú</c>
+
+00:06:17.930 --> 00:06:17.940 align:start position:0%
+simplemente la puedes colocar en el menú
+ 
+
+00:06:17.940 --> 00:06:19.790 align:start position:0%
+simplemente la puedes colocar en el menú
+principal<00:06:18.180><c> y</c><00:06:18.479><c> organizar</c><00:06:18.900><c> todas</c><00:06:19.259><c> como</c><00:06:19.560><c> quieras</c>
+
+00:06:19.790 --> 00:06:19.800 align:start position:0%
+principal y organizar todas como quieras
+ 
+
+00:06:19.800 --> 00:06:22.189 align:start position:0%
+principal y organizar todas como quieras
+que<00:06:20.220><c> quieres</c><00:06:20.460><c> hacer</c><00:06:21.060><c> o</c><00:06:21.360><c> rehacer</c><00:06:21.600><c> cambios</c><00:06:21.900><c> sin</c>
+
+00:06:22.189 --> 00:06:22.199 align:start position:0%
+que quieres hacer o rehacer cambios sin
+ 
+
+00:06:22.199 --> 00:06:23.689 align:start position:0%
+que quieres hacer o rehacer cambios sin
+ningún<00:06:22.380><c> problema</c><00:06:22.560><c> tienes</c><00:06:23.039><c> esta</c><00:06:23.520><c> posibilidad</c>
+
+00:06:23.689 --> 00:06:23.699 align:start position:0%
+ningún problema tienes esta posibilidad
+ 
+
+00:06:23.699 --> 00:06:26.029 align:start position:0%
+ningún problema tienes esta posibilidad
+a<00:06:24.419><c> un</c><00:06:24.539><c> clic</c><00:06:24.660><c> hemos</c><00:06:25.020><c> hablado</c><00:06:25.199><c> de</c><00:06:25.620><c> prototipado</c>
+
+00:06:26.029 --> 00:06:26.039 align:start position:0%
+a un clic hemos hablado de prototipado
+ 
+
+00:06:26.039 --> 00:06:28.010 align:start position:0%
+a un clic hemos hablado de prototipado
+por<00:06:26.280><c> lo</c><00:06:26.400><c> que</c><00:06:26.460><c> si</c><00:06:26.759><c> a</c><00:06:27.360><c> la</c><00:06:27.419><c> opción</c><00:06:27.479><c> de</c><00:06:27.539><c> plantillas</c>
+
+00:06:28.010 --> 00:06:28.020 align:start position:0%
+por lo que si a la opción de plantillas
+ 
+
+00:06:28.020 --> 00:06:30.050 align:start position:0%
+por lo que si a la opción de plantillas
+Ya<00:06:28.380><c> tendrás</c><00:06:28.620><c> algunas</c><00:06:29.160><c> creadas</c><00:06:29.520><c> voy</c><00:06:29.940><c> a</c>
+
+00:06:30.050 --> 00:06:30.060 align:start position:0%
+Ya tendrás algunas creadas voy a
+ 
+
+00:06:30.060 --> 00:06:31.909 align:start position:0%
+Ya tendrás algunas creadas voy a
+escribir<00:06:30.180><c> la</c><00:06:30.539><c> palabra</c><00:06:30.680><c> wireframe</c><00:06:31.680><c> en</c><00:06:31.800><c> el</c>
+
+00:06:31.909 --> 00:06:31.919 align:start position:0%
+escribir la palabra wireframe en el
+ 
+
+00:06:31.919 --> 00:06:33.590 align:start position:0%
+escribir la palabra wireframe en el
+buscador<00:06:32.160><c> y</c><00:06:32.400><c> aquí</c><00:06:32.580><c> ya</c><00:06:32.819><c> podrías</c><00:06:33.240><c> importar</c>
+
+00:06:33.590 --> 00:06:33.600 align:start position:0%
+buscador y aquí ya podrías importar
+ 
+
+00:06:33.600 --> 00:06:35.210 align:start position:0%
+buscador y aquí ya podrías importar
+diferentes<00:06:34.080><c> plantillas</c><00:06:34.560><c> para</c><00:06:34.800><c> crear</c>
+
+00:06:35.210 --> 00:06:35.220 align:start position:0%
+diferentes plantillas para crear
+ 
+
+00:06:35.220 --> 00:06:37.309 align:start position:0%
+diferentes plantillas para crear
+aplicaciones<00:06:35.819><c> móviles</c><00:06:36.300><c> lo</c><00:06:37.020><c> tienes</c><00:06:37.199><c> que</c>
+
+00:06:37.309 --> 00:06:37.319 align:start position:0%
+aplicaciones móviles lo tienes que
+ 
+
+00:06:37.319 --> 00:06:39.230 align:start position:0%
+aplicaciones móviles lo tienes que
+seleccionar<00:06:37.620><c> una</c><00:06:37.979><c> y</c><00:06:38.280><c> pulsar</c><00:06:38.639><c> en</c><00:06:38.940><c> usar</c>
+
+00:06:39.230 --> 00:06:39.240 align:start position:0%
+seleccionar una y pulsar en usar
+ 
+
+00:06:39.240 --> 00:06:40.730 align:start position:0%
+seleccionar una y pulsar en usar
+plantilla<00:06:39.660><c> pero</c><00:06:39.900><c> en</c><00:06:40.139><c> nuestro</c><00:06:40.139><c> caso</c><00:06:40.319><c> veamos</c>
+
+00:06:40.730 --> 00:06:40.740 align:start position:0%
+plantilla pero en nuestro caso veamos
+ 
+
+00:06:40.740 --> 00:06:42.350 align:start position:0%
+plantilla pero en nuestro caso veamos
+cómo<00:06:40.919><c> hacerlo</c><00:06:41.160><c> desde</c><00:06:41.460><c> cero</c><00:06:41.639><c> para</c><00:06:41.880><c> entenderlo</c>
+
+00:06:42.350 --> 00:06:42.360 align:start position:0%
+cómo hacerlo desde cero para entenderlo
+ 
+
+00:06:42.360 --> 00:06:44.390 align:start position:0%
+cómo hacerlo desde cero para entenderlo
+fácil<00:06:42.539><c> que</c><00:06:42.780><c> resulta</c><00:06:43.080><c> conmigo</c><00:06:43.440><c> me</c><00:06:43.680><c> voy</c><00:06:43.800><c> a</c><00:06:43.919><c> ir</c><00:06:43.979><c> a</c>
+
+00:06:44.390 --> 00:06:44.400 align:start position:0%
+fácil que resulta conmigo me voy a ir a
+ 
+
+00:06:44.400 --> 00:06:46.550 align:start position:0%
+fácil que resulta conmigo me voy a ir a
+la<00:06:44.460><c> aplicación</c><00:06:44.639><c> que</c><00:06:44.940><c> se</c><00:06:45.180><c> llama</c><00:06:45.300><c> biblioteca</c><00:06:46.139><c> de</c>
+
+00:06:46.550 --> 00:06:46.560 align:start position:0%
+la aplicación que se llama biblioteca de
+ 
+
+00:06:46.560 --> 00:06:48.830 align:start position:0%
+la aplicación que se llama biblioteca de
+wifi<00:06:46.919><c> si</c><00:06:47.400><c> pincho</c><00:06:47.639><c> en</c><00:06:47.819><c> ella</c><00:06:48.060><c> se</c><00:06:48.240><c> desplegará</c><00:06:48.660><c> lo</c>
+
+00:06:48.830 --> 00:06:48.840 align:start position:0%
+wifi si pincho en ella se desplegará lo
+ 
+
+00:06:48.840 --> 00:06:50.510 align:start position:0%
+wifi si pincho en ella se desplegará lo
+siguiente<00:06:48.960><c> un</c><00:06:49.259><c> montón</c><00:06:49.440><c> de</c><00:06:49.620><c> componentes</c><00:06:50.039><c> ya</c>
+
+00:06:50.510 --> 00:06:50.520 align:start position:0%
+siguiente un montón de componentes ya
+ 
+
+00:06:50.520 --> 00:06:52.850 align:start position:0%
+siguiente un montón de componentes ya
+creados<00:06:50.880><c> para</c><00:06:51.180><c> sin</c><00:06:51.600><c> más</c><00:06:51.900><c> seleccionar</c><00:06:52.199><c> y</c>
+
+00:06:52.850 --> 00:06:52.860 align:start position:0%
+creados para sin más seleccionar y
+ 
+
+00:06:52.860 --> 00:06:54.650 align:start position:0%
+creados para sin más seleccionar y
+arrastrar<00:06:53.220><c> tan</c><00:06:53.580><c> fácil</c><00:06:53.759><c> como</c><00:06:54.060><c> esto</c><00:06:54.300><c> que</c>
+
+00:06:54.650 --> 00:06:54.660 align:start position:0%
+arrastrar tan fácil como esto que
+ 
+
+00:06:54.660 --> 00:06:56.090 align:start position:0%
+arrastrar tan fácil como esto que
+quieres<00:06:54.840><c> Un</c><00:06:55.020><c> diseño</c><00:06:55.199><c> también</c><00:06:55.560><c> para</c><00:06:55.800><c> un</c>
+
+00:06:56.090 --> 00:06:56.100 align:start position:0%
+quieres Un diseño también para un
+ 
+
+00:06:56.100 --> 00:06:57.830 align:start position:0%
+quieres Un diseño también para un
+navegador<00:06:56.280><c> no</c><00:06:56.759><c> importa</c><00:06:57.000><c> o</c><00:06:57.360><c> incluso</c><00:06:57.539><c> también</c>
+
+00:06:57.830 --> 00:06:57.840 align:start position:0%
+navegador no importa o incluso también
+ 
+
+00:06:57.840 --> 00:06:59.749 align:start position:0%
+navegador no importa o incluso también
+para<00:06:58.020><c> una</c><00:06:58.319><c> tablet</c><00:06:58.440><c> pero</c><00:06:58.800><c> vamos</c><00:06:58.979><c> a</c><00:06:59.100><c> ver</c><00:06:59.280><c> cómo</c><00:06:59.460><c> es</c>
+
+00:06:59.749 --> 00:06:59.759 align:start position:0%
+para una tablet pero vamos a ver cómo es
+ 
+
+00:06:59.759 --> 00:07:01.249 align:start position:0%
+para una tablet pero vamos a ver cómo es
+el<00:06:59.819><c> proceso</c><00:06:59.880><c> de</c><00:07:00.120><c> prototipado</c><00:07:00.660><c> pensemos</c><00:07:01.080><c> en</c>
+
+00:07:01.249 --> 00:07:01.259 align:start position:0%
+el proceso de prototipado pensemos en
+ 
+
+00:07:01.259 --> 00:07:02.870 align:start position:0%
+el proceso de prototipado pensemos en
+una<00:07:01.500><c> aplicación</c><00:07:01.620><c> por</c><00:07:02.039><c> ejemplo</c><00:07:02.220><c> como</c><00:07:02.580><c> YouTube</c>
+
+00:07:02.870 --> 00:07:02.880 align:start position:0%
+una aplicación por ejemplo como YouTube
+ 
+
+00:07:02.880 --> 00:07:04.790 align:start position:0%
+una aplicación por ejemplo como YouTube
+de<00:07:03.180><c> consumo</c><00:07:03.419><c> de</c><00:07:03.660><c> vídeos</c><00:07:03.900><c> y</c><00:07:04.080><c> entendamos</c><00:07:04.500><c> la</c>
+
+00:07:04.790 --> 00:07:04.800 align:start position:0%
+de consumo de vídeos y entendamos la
+ 
+
+00:07:04.800 --> 00:07:06.469 align:start position:0%
+de consumo de vídeos y entendamos la
+importancia<00:07:05.100><c> de</c><00:07:05.639><c> dedicarle</c><00:07:06.000><c> el</c><00:07:06.180><c> tiempo</c>
+
+00:07:06.469 --> 00:07:06.479 align:start position:0%
+importancia de dedicarle el tiempo
+ 
+
+00:07:06.479 --> 00:07:08.629 align:start position:0%
+importancia de dedicarle el tiempo
+suficiente<00:07:06.840><c> al</c><00:07:07.440><c> diseño</c><00:07:07.740><c> y</c><00:07:07.979><c> al</c><00:07:08.220><c> prototipado</c>
+
+00:07:08.629 --> 00:07:08.639 align:start position:0%
+suficiente al diseño y al prototipado
+ 
+
+00:07:08.639 --> 00:07:10.370 align:start position:0%
+suficiente al diseño y al prototipado
+Quiero<00:07:08.880><c> una</c><00:07:09.060><c> imagen</c><00:07:09.180><c> de</c><00:07:09.479><c> cabecera</c><00:07:10.020><c> para</c><00:07:10.199><c> el</c>
+
+00:07:10.370 --> 00:07:10.380 align:start position:0%
+Quiero una imagen de cabecera para el
+ 
+
+00:07:10.380 --> 00:07:12.650 align:start position:0%
+Quiero una imagen de cabecera para el
+canal<00:07:10.500><c> simplemente</c><00:07:10.979><c> la</c><00:07:11.819><c> arrastro</c><00:07:12.060><c> ya</c><00:07:12.300><c> ves</c><00:07:12.479><c> que</c>
+
+00:07:12.650 --> 00:07:12.660 align:start position:0%
+canal simplemente la arrastro ya ves que
+ 
+
+00:07:12.660 --> 00:07:14.150 align:start position:0%
+canal simplemente la arrastro ya ves que
+tendrás<00:07:12.960><c> diferentes</c><00:07:13.319><c> marcos</c><00:07:13.740><c> para</c><00:07:13.919><c> poder</c>
+
+00:07:14.150 --> 00:07:14.160 align:start position:0%
+tendrás diferentes marcos para poder
+ 
+
+00:07:14.160 --> 00:07:16.249 align:start position:0%
+tendrás diferentes marcos para poder
+situarla<00:07:14.819><c> como</c><00:07:15.060><c> tú</c><00:07:15.180><c> quieras</c><00:07:15.360><c> y</c><00:07:15.780><c> guías</c><00:07:16.080><c> para</c>
+
+00:07:16.249 --> 00:07:16.259 align:start position:0%
+situarla como tú quieras y guías para
+ 
+
+00:07:16.259 --> 00:07:18.350 align:start position:0%
+situarla como tú quieras y guías para
+centrar<00:07:16.620><c> o</c><00:07:16.979><c> alinear</c><00:07:17.340><c> esta</c><00:07:17.699><c> imagen</c><00:07:17.880><c> de</c><00:07:18.180><c> portada</c>
+
+00:07:18.350 --> 00:07:18.360 align:start position:0%
+centrar o alinear esta imagen de portada
+ 
+
+00:07:18.360 --> 00:07:20.629 align:start position:0%
+centrar o alinear esta imagen de portada
+puede<00:07:18.720><c> tener</c><00:07:18.900><c> por</c><00:07:19.139><c> ejemplo</c><00:07:19.319><c> un</c><00:07:19.979><c> avatar</c><00:07:20.220><c> aquí</c>
+
+00:07:20.629 --> 00:07:20.639 align:start position:0%
+puede tener por ejemplo un avatar aquí
+ 
+
+00:07:20.639 --> 00:07:22.309 align:start position:0%
+puede tener por ejemplo un avatar aquí
+en<00:07:20.819><c> el</c><00:07:20.819><c> centro</c><00:07:21.000><c> un</c><00:07:21.300><c> texto</c><00:07:21.479><c> para</c><00:07:21.720><c> el</c><00:07:21.960><c> título</c><00:07:22.139><c> del</c>
+
+00:07:22.309 --> 00:07:22.319 align:start position:0%
+en el centro un texto para el título del
+ 
+
+00:07:22.319 --> 00:07:24.110 align:start position:0%
+en el centro un texto para el título del
+vídeo<00:07:22.500><c> y</c><00:07:22.800><c> una</c><00:07:23.099><c> descripción</c><00:07:23.340><c> para</c><00:07:23.580><c> este</c><00:07:23.819><c> un</c>
+
+00:07:24.110 --> 00:07:24.120 align:start position:0%
+vídeo y una descripción para este un
+ 
+
+00:07:24.120 --> 00:07:26.150 align:start position:0%
+vídeo y una descripción para este un
+botón<00:07:24.360><c> para</c><00:07:24.599><c> suscribirnos</c><00:07:25.259><c> y</c><00:07:25.560><c> un</c><00:07:25.800><c> listado</c><00:07:25.919><c> de</c>
+
+00:07:26.150 --> 00:07:26.160 align:start position:0%
+botón para suscribirnos y un listado de
+ 
+
+00:07:26.160 --> 00:07:28.490 align:start position:0%
+botón para suscribirnos y un listado de
+videos<00:07:26.699><c> lista</c><00:07:27.360><c> de</c><00:07:27.419><c> vídeos</c><00:07:27.599><c> también</c><00:07:27.780><c> con</c><00:07:28.319><c> un</c>
+
+00:07:28.490 --> 00:07:28.500 align:start position:0%
+videos lista de vídeos también con un
+ 
+
+00:07:28.500 --> 00:07:30.050 align:start position:0%
+videos lista de vídeos también con un
+título<00:07:28.620><c> y</c><00:07:28.979><c> una</c><00:07:29.280><c> descripción</c><00:07:29.460><c> lo</c><00:07:29.880><c> podemos</c>
+
+00:07:30.050 --> 00:07:30.060 align:start position:0%
+título y una descripción lo podemos
+ 
+
+00:07:30.060 --> 00:07:32.089 align:start position:0%
+título y una descripción lo podemos
+seleccionar<00:07:30.419><c> y</c><00:07:30.840><c> lo</c><00:07:31.080><c> podemos</c><00:07:31.199><c> duplicar</c><00:07:31.500><c> ya</c><00:07:31.979><c> ves</c>
+
+00:07:32.089 --> 00:07:32.099 align:start position:0%
+seleccionar y lo podemos duplicar ya ves
+ 
+
+00:07:32.099 --> 00:07:33.830 align:start position:0%
+seleccionar y lo podemos duplicar ya ves
+que<00:07:32.280><c> tenemos</c><00:07:32.400><c> guías</c><00:07:32.880><c> para</c><00:07:33.120><c> incluso</c><00:07:33.419><c> hasta</c>
+
+00:07:33.830 --> 00:07:33.840 align:start position:0%
+que tenemos guías para incluso hasta
+ 
+
+00:07:33.840 --> 00:07:35.510 align:start position:0%
+que tenemos guías para incluso hasta
+dejar<00:07:34.080><c> el</c><00:07:34.380><c> mismo</c><00:07:34.560><c> espacio</c><00:07:34.860><c> entre</c><00:07:35.280><c> elemento</c>
+
+00:07:35.510 --> 00:07:35.520 align:start position:0%
+dejar el mismo espacio entre elemento
+ 
+
+00:07:35.520 --> 00:07:36.890 align:start position:0%
+dejar el mismo espacio entre elemento
+por<00:07:35.819><c> lo</c><00:07:35.940><c> que</c><00:07:36.060><c> estaremos</c><00:07:36.300><c> hablando</c><00:07:36.539><c> de</c>
+
+00:07:36.890 --> 00:07:36.900 align:start position:0%
+por lo que estaremos hablando de
+ 
+
+00:07:36.900 --> 00:07:39.469 align:start position:0%
+por lo que estaremos hablando de
+prototipado<00:07:37.560><c> pero</c><00:07:37.860><c> siguiendo</c><00:07:38.580><c> unas</c><00:07:39.120><c> guías</c><00:07:39.360><c> de</c>
+
+00:07:39.469 --> 00:07:39.479 align:start position:0%
+prototipado pero siguiendo unas guías de
+ 
+
+00:07:39.479 --> 00:07:41.330 align:start position:0%
+prototipado pero siguiendo unas guías de
+diseño<00:07:39.720><c> bastante</c><00:07:40.080><c> sólidas</c><00:07:40.440><c> cuánto</c><00:07:41.039><c> nos</c><00:07:41.220><c> ha</c>
+
+00:07:41.330 --> 00:07:41.340 align:start position:0%
+diseño bastante sólidas cuánto nos ha
+ 
+
+00:07:41.340 --> 00:07:43.430 align:start position:0%
+diseño bastante sólidas cuánto nos ha
+llevado<00:07:41.460><c> diseñar</c><00:07:42.000><c> esta</c><00:07:42.300><c> pantalla</c><00:07:42.539><c> un</c><00:07:43.259><c> minuto</c>
+
+00:07:43.430 --> 00:07:43.440 align:start position:0%
+llevado diseñar esta pantalla un minuto
+ 
+
+00:07:43.440 --> 00:07:45.110 align:start position:0%
+llevado diseñar esta pantalla un minuto
+aquí<00:07:43.800><c> es</c><00:07:43.979><c> donde</c><00:07:44.099><c> podemos</c><00:07:44.280><c> ver</c><00:07:44.460><c> la</c><00:07:44.819><c> verdadera</c>
+
+00:07:45.110 --> 00:07:45.120 align:start position:0%
+aquí es donde podemos ver la verdadera
+ 
+
+00:07:45.120 --> 00:07:47.150 align:start position:0%
+aquí es donde podemos ver la verdadera
+Potencia<00:07:45.479><c> de</c><00:07:45.660><c> miro</c><00:07:45.960><c> ya</c><00:07:46.139><c> tenemos</c><00:07:46.319><c> una</c><00:07:46.860><c> idea</c>
+
+00:07:47.150 --> 00:07:47.160 align:start position:0%
+Potencia de miro ya tenemos una idea
+ 
+
+00:07:47.160 --> 00:07:49.249 align:start position:0%
+Potencia de miro ya tenemos una idea
+visual<00:07:47.400><c> de</c><00:07:47.699><c> cómo</c><00:07:48.000><c> podría</c><00:07:48.300><c> ser</c><00:07:48.660><c> nuestra</c><00:07:48.900><c> y</c>
+
+00:07:49.249 --> 00:07:49.259 align:start position:0%
+visual de cómo podría ser nuestra y
+ 
+
+00:07:49.259 --> 00:07:50.809 align:start position:0%
+visual de cómo podría ser nuestra y
+tomar<00:07:49.440><c> decisiones</c><00:07:49.860><c> sobre</c><00:07:50.220><c> ella</c><00:07:50.460><c> muy</c>
+
+00:07:50.809 --> 00:07:50.819 align:start position:0%
+tomar decisiones sobre ella muy
+ 
+
+00:07:50.819 --> 00:07:52.490 align:start position:0%
+tomar decisiones sobre ella muy
+rápidamente<00:07:51.060><c> que</c><00:07:51.660><c> queremos</c><00:07:51.840><c> que</c><00:07:52.139><c> el</c><00:07:52.319><c> título</c>
+
+00:07:52.490 --> 00:07:52.500 align:start position:0%
+rápidamente que queremos que el título
+ 
+
+00:07:52.500 --> 00:07:54.409 align:start position:0%
+rápidamente que queremos que el título
+sea<00:07:52.740><c> más</c><00:07:52.919><c> grande</c><00:07:53.039><c> o</c><00:07:53.520><c> simplemente</c><00:07:53.699><c> nos</c><00:07:54.060><c> vamos</c><00:07:54.240><c> a</c>
+
+00:07:54.409 --> 00:07:54.419 align:start position:0%
+sea más grande o simplemente nos vamos a
+ 
+
+00:07:54.419 --> 00:07:56.029 align:start position:0%
+sea más grande o simplemente nos vamos a
+él<00:07:54.599><c> y</c><00:07:54.840><c> lo</c><00:07:55.080><c> incrementamos</c><00:07:55.319><c> hasta</c><00:07:55.680><c> ya</c><00:07:55.919><c> podemos</c>
+
+00:07:56.029 --> 00:07:56.039 align:start position:0%
+él y lo incrementamos hasta ya podemos
+ 
+
+00:07:56.039 --> 00:07:58.010 align:start position:0%
+él y lo incrementamos hasta ya podemos
+jugar<00:07:56.280><c> con</c><00:07:56.580><c> elementos</c><00:07:57.000><c> propiamente</c><00:07:57.599><c> de</c>
+
+00:07:58.010 --> 00:07:58.020 align:start position:0%
+jugar con elementos propiamente de
+ 
+
+00:07:58.020 --> 00:07:59.390 align:start position:0%
+jugar con elementos propiamente de
+diseño<00:07:58.199><c> como</c><00:07:58.440><c> pueden</c><00:07:58.740><c> ser</c><00:07:58.979><c> los</c><00:07:59.220><c> colores</c>
+
+00:07:59.390 --> 00:07:59.400 align:start position:0%
+diseño como pueden ser los colores
+ 
+
+00:07:59.400 --> 00:08:01.370 align:start position:0%
+diseño como pueden ser los colores
+también<00:07:59.819><c> podríamos</c><00:08:00.360><c> trabajar</c><00:08:00.599><c> con</c><00:08:01.080><c> imágenes</c>
+
+00:08:01.370 --> 00:08:01.380 align:start position:0%
+también podríamos trabajar con imágenes
+ 
+
+00:08:01.380 --> 00:08:03.589 align:start position:0%
+también podríamos trabajar con imágenes
+reales<00:08:01.740><c> y</c><00:08:02.099><c> por</c><00:08:02.340><c> supuesto</c><00:08:02.520><c> Añadir</c><00:08:02.940><c> todos</c><00:08:03.419><c> los</c>
+
+00:08:03.589 --> 00:08:03.599 align:start position:0%
+reales y por supuesto Añadir todos los
+ 
+
+00:08:03.599 --> 00:08:05.210 align:start position:0%
+reales y por supuesto Añadir todos los
+iconos<00:08:03.720><c> que</c><00:08:03.960><c> queramos</c><00:08:04.199><c> Imagínate</c><00:08:04.860><c> que</c><00:08:05.039><c> la</c>
+
+00:08:05.210 --> 00:08:05.220 align:start position:0%
+iconos que queramos Imagínate que la
+ 
+
+00:08:05.220 --> 00:08:06.950 align:start position:0%
+iconos que queramos Imagínate que la
+portada<00:08:05.400><c> también</c><00:08:05.639><c> tuviéramos</c><00:08:06.180><c> enlaces</c><00:08:06.660><c> a</c>
+
+00:08:06.950 --> 00:08:06.960 align:start position:0%
+portada también tuviéramos enlaces a
+ 
+
+00:08:06.960 --> 00:08:08.809 align:start position:0%
+portada también tuviéramos enlaces a
+diferentes<00:08:07.259><c> redes</c><00:08:07.680><c> sociales</c><00:08:07.919><c> pues</c><00:08:08.340><c> sin</c><00:08:08.639><c> más</c>
+
+00:08:08.809 --> 00:08:08.819 align:start position:0%
+diferentes redes sociales pues sin más
+ 
+
+00:08:08.819 --> 00:08:10.570 align:start position:0%
+diferentes redes sociales pues sin más
+las<00:08:09.060><c> añado</c><00:08:09.360><c> puedo</c><00:08:09.780><c> seleccionarlas</c><00:08:10.380><c> todas</c>
+
+00:08:10.570 --> 00:08:10.580 align:start position:0%
+las añado puedo seleccionarlas todas
+ 
+
+00:08:10.580 --> 00:08:13.010 align:start position:0%
+las añado puedo seleccionarlas todas
+cambiarlas<00:08:11.580><c> de</c><00:08:11.699><c> tamaño</c><00:08:11.880><c> y</c><00:08:12.180><c> posicionarlas</c>
+
+00:08:13.010 --> 00:08:13.020 align:start position:0%
+cambiarlas de tamaño y posicionarlas
+ 
+
+00:08:13.020 --> 00:08:14.809 align:start position:0%
+cambiarlas de tamaño y posicionarlas
+donde<00:08:13.259><c> yo</c><00:08:13.380><c> quiera</c><00:08:13.560><c> si</c><00:08:13.860><c> nos</c><00:08:13.979><c> vamos</c><00:08:14.039><c> a</c><00:08:14.460><c> la</c><00:08:14.639><c> barra</c>
+
+00:08:14.809 --> 00:08:14.819 align:start position:0%
+donde yo quiera si nos vamos a la barra
+ 
+
+00:08:14.819 --> 00:08:16.730 align:start position:0%
+donde yo quiera si nos vamos a la barra
+lateral<00:08:15.060><c> podremos</c><00:08:15.539><c> ver</c><00:08:15.720><c> cada</c><00:08:16.080><c> uno</c><00:08:16.319><c> de</c><00:08:16.560><c> los</c>
+
+00:08:16.730 --> 00:08:16.740 align:start position:0%
+lateral podremos ver cada uno de los
+ 
+
+00:08:16.740 --> 00:08:18.529 align:start position:0%
+lateral podremos ver cada uno de los
+llamados<00:08:16.979><c> Marcos</c><00:08:17.280><c> elementos</c><00:08:17.819><c> que</c><00:08:18.120><c> suponen</c>
+
+00:08:18.529 --> 00:08:18.539 align:start position:0%
+llamados Marcos elementos que suponen
+ 
+
+00:08:18.539 --> 00:08:20.450 align:start position:0%
+llamados Marcos elementos que suponen
+una<00:08:18.960><c> entidad</c><00:08:19.139><c> en</c><00:08:19.560><c> nuestro</c><00:08:19.740><c> diseño</c><00:08:19.919><c> como</c><00:08:20.220><c> puede</c>
+
+00:08:20.450 --> 00:08:20.460 align:start position:0%
+una entidad en nuestro diseño como puede
+ 
+
+00:08:20.460 --> 00:08:22.309 align:start position:0%
+una entidad en nuestro diseño como puede
+ser<00:08:20.639><c> esta</c><00:08:21.060><c> pantalla</c><00:08:21.300><c> que</c><00:08:21.660><c> podría</c><00:08:21.900><c> renombrar</c>
+
+00:08:22.309 --> 00:08:22.319 align:start position:0%
+ser esta pantalla que podría renombrar
+ 
+
+00:08:22.319 --> 00:08:24.770 align:start position:0%
+ser esta pantalla que podría renombrar
+por<00:08:22.560><c> ejemplo</c><00:08:22.740><c> con</c><00:08:23.160><c> canal</c><00:08:23.580><c> Piénsalo</c><00:08:24.419><c> fácil</c><00:08:24.539><c> que</c>
+
+00:08:24.770 --> 00:08:24.780 align:start position:0%
+por ejemplo con canal Piénsalo fácil que
+ 
+
+00:08:24.780 --> 00:08:26.629 align:start position:0%
+por ejemplo con canal Piénsalo fácil que
+es<00:08:25.199><c> realizar</c><00:08:25.379><c> cambios</c><00:08:25.740><c> sobre</c><00:08:26.099><c> este</c><00:08:26.400><c> diseño</c>
+
+00:08:26.629 --> 00:08:26.639 align:start position:0%
+es realizar cambios sobre este diseño
+ 
+
+00:08:26.639 --> 00:08:28.490 align:start position:0%
+es realizar cambios sobre este diseño
+sobre<00:08:27.240><c> hacerte</c><00:08:27.539><c> una</c><00:08:27.660><c> idea</c><00:08:27.720><c> de</c><00:08:27.840><c> cómo</c><00:08:28.080><c> se</c><00:08:28.259><c> va</c><00:08:28.379><c> a</c>
+
+00:08:28.490 --> 00:08:28.500 align:start position:0%
+sobre hacerte una idea de cómo se va a
+ 
+
+00:08:28.500 --> 00:08:29.990 align:start position:0%
+sobre hacerte una idea de cómo se va a
+ver<00:08:28.560><c> y</c><00:08:28.740><c> lo</c><00:08:28.979><c> sencillo</c><00:08:29.099><c> que</c><00:08:29.280><c> nos</c><00:08:29.520><c> va</c><00:08:29.699><c> a</c><00:08:29.879><c> resultar</c>
+
+00:08:29.990 --> 00:08:30.000 align:start position:0%
+ver y lo sencillo que nos va a resultar
+ 
+
+00:08:30.000 --> 00:08:31.790 align:start position:0%
+ver y lo sencillo que nos va a resultar
+identificar<00:08:30.599><c> elementos</c><00:08:31.139><c> antes</c><00:08:31.620><c> de</c>
+
+00:08:31.790 --> 00:08:31.800 align:start position:0%
+identificar elementos antes de
+ 
+
+00:08:31.800 --> 00:08:33.769 align:start position:0%
+identificar elementos antes de
+programarlos<00:08:32.339><c> un</c><00:08:32.700><c> buen</c><00:08:32.880><c> prototipo</c><00:08:33.180><c> es</c><00:08:33.539><c> la</c>
+
+00:08:33.769 --> 00:08:33.779 align:start position:0%
+programarlos un buen prototipo es la
+ 
+
+00:08:33.779 --> 00:08:35.389 align:start position:0%
+programarlos un buen prototipo es la
+primera<00:08:33.959><c> base</c><00:08:34.260><c> para</c><00:08:34.500><c> una</c><00:08:34.860><c> buena</c><00:08:35.039><c> programación</c>
+
+00:08:35.389 --> 00:08:35.399 align:start position:0%
+primera base para una buena programación
+ 
+
+00:08:35.399 --> 00:08:37.969 align:start position:0%
+primera base para una buena programación
+por<00:08:35.820><c> supuesto</c><00:08:36.000><c> yo</c><00:08:36.419><c> podría</c><00:08:36.719><c> Añadir</c><00:08:37.200><c> notas</c><00:08:37.620><c> y</c>
+
+00:08:37.969 --> 00:08:37.979 align:start position:0%
+por supuesto yo podría Añadir notas y
+ 
+
+00:08:37.979 --> 00:08:39.829 align:start position:0%
+por supuesto yo podría Añadir notas y
+utilizar<00:08:38.279><c> los</c><00:08:38.640><c> diferentes</c><00:08:38.880><c> elementos</c><00:08:39.479><c> de</c>
+
+00:08:39.829 --> 00:08:39.839 align:start position:0%
+utilizar los diferentes elementos de
+ 
+
+00:08:39.839 --> 00:08:42.230 align:start position:0%
+utilizar los diferentes elementos de
+miro<00:08:40.200><c> para</c><00:08:40.320><c> relacionarlos</c><00:08:41.039><c> anotaciones</c><00:08:41.700><c> a</c>
+
+00:08:42.230 --> 00:08:42.240 align:start position:0%
+miro para relacionarlos anotaciones a
+ 
+
+00:08:42.240 --> 00:08:43.850 align:start position:0%
+miro para relacionarlos anotaciones a
+nivel<00:08:42.360><c> de</c><00:08:42.539><c> código</c><00:08:42.719><c> y</c><00:08:42.959><c> cualquier</c><00:08:43.320><c> tipo</c><00:08:43.680><c> de</c>
+
+00:08:43.850 --> 00:08:43.860 align:start position:0%
+nivel de código y cualquier tipo de
+ 
+
+00:08:43.860 --> 00:08:45.650 align:start position:0%
+nivel de código y cualquier tipo de
+comentario<00:08:44.219><c> Si</c><00:08:44.640><c> yo</c><00:08:44.760><c> tuviera</c><00:08:44.940><c> más</c><00:08:45.300><c> pantallas</c>
+
+00:08:45.650 --> 00:08:45.660 align:start position:0%
+comentario Si yo tuviera más pantallas
+ 
+
+00:08:45.660 --> 00:08:47.150 align:start position:0%
+comentario Si yo tuviera más pantallas
+podrías<00:08:46.200><c> relacionarlas</c><00:08:46.860><c> entre</c><00:08:46.980><c> ellas</c>
+
+00:08:47.150 --> 00:08:47.160 align:start position:0%
+podrías relacionarlas entre ellas
+ 
+
+00:08:47.160 --> 00:08:48.829 align:start position:0%
+podrías relacionarlas entre ellas
+diciendo<00:08:47.459><c> que</c><00:08:47.700><c> yo</c><00:08:47.880><c> por</c><00:08:48.120><c> ejemplo</c><00:08:48.240><c> Voy</c><00:08:48.540><c> a</c>
+
+00:08:48.829 --> 00:08:48.839 align:start position:0%
+diciendo que yo por ejemplo Voy a
+ 
+
+00:08:48.839 --> 00:08:50.810 align:start position:0%
+diciendo que yo por ejemplo Voy a
+navegar<00:08:48.959><c> de</c><00:08:49.260><c> una</c><00:08:49.500><c> a</c><00:08:49.620><c> otra</c><00:08:49.620><c> al</c><00:08:49.980><c> seleccionar</c><00:08:50.279><c> uno</c>
+
+00:08:50.810 --> 00:08:50.820 align:start position:0%
+navegar de una a otra al seleccionar uno
+ 
+
+00:08:50.820 --> 00:08:52.850 align:start position:0%
+navegar de una a otra al seleccionar uno
+de<00:08:50.940><c> estos</c><00:08:51.060><c> vídeos</c><00:08:51.240><c> y</c><00:08:51.540><c> todo</c><00:08:51.720><c> esto</c><00:08:51.959><c> agruparlo</c>
+
+00:08:52.850 --> 00:08:52.860 align:start position:0%
+de estos vídeos y todo esto agruparlo
+ 
+
+00:08:52.860 --> 00:08:54.410 align:start position:0%
+de estos vídeos y todo esto agruparlo
+dentro<00:08:53.220><c> de</c><00:08:53.459><c> un</c><00:08:53.580><c> barco</c><00:08:53.760><c> pudiendo</c><00:08:54.120><c> por</c><00:08:54.300><c> ejemplo</c>
+
+00:08:54.410 --> 00:08:54.420 align:start position:0%
+dentro de un barco pudiendo por ejemplo
+ 
+
+00:08:54.420 --> 00:08:56.509 align:start position:0%
+dentro de un barco pudiendo por ejemplo
+desplazarnos<00:08:55.380><c> entre</c><00:08:55.740><c> cada</c><00:08:56.040><c> uno</c><00:08:56.220><c> de</c><00:08:56.339><c> ellos</c>
+
+00:08:56.509 --> 00:08:56.519 align:start position:0%
+desplazarnos entre cada uno de ellos
+ 
+
+00:08:56.519 --> 00:08:57.889 align:start position:0%
+desplazarnos entre cada uno de ellos
+estas<00:08:57.060><c> solo</c><00:08:57.240><c> son</c><00:08:57.420><c> unas</c><00:08:57.720><c> pocas</c>
+
+00:08:57.889 --> 00:08:57.899 align:start position:0%
+estas solo son unas pocas
+ 
+
+00:08:57.899 --> 00:09:00.050 align:start position:0%
+estas solo son unas pocas
+características<00:08:58.200><c> simplemente</c><00:08:59.040><c> piensa</c><00:08:59.640><c> en</c>
+
+00:09:00.050 --> 00:09:00.060 align:start position:0%
+características simplemente piensa en
+ 
+
+00:09:00.060 --> 00:09:01.790 align:start position:0%
+características simplemente piensa en
+todo<00:09:00.300><c> el</c><00:09:00.360><c> tiempo</c><00:09:00.420><c> que</c><00:09:00.779><c> nos</c><00:09:01.080><c> hemos</c><00:09:01.260><c> ahorrado</c><00:09:01.500><c> y</c>
+
+00:09:01.790 --> 00:09:01.800 align:start position:0%
+todo el tiempo que nos hemos ahorrado y
+ 
+
+00:09:01.800 --> 00:09:03.230 align:start position:0%
+todo el tiempo que nos hemos ahorrado y
+como<00:09:02.040><c> ahora</c><00:09:02.220><c> teniendo</c><00:09:02.640><c> nuestro</c><00:09:02.880><c> prototipo</c>
+
+00:09:03.230 --> 00:09:03.240 align:start position:0%
+como ahora teniendo nuestro prototipo
+ 
+
+00:09:03.240 --> 00:09:05.750 align:start position:0%
+como ahora teniendo nuestro prototipo
+podríamos<00:09:04.019><c> trabajar</c><00:09:04.260><c> sobre</c><00:09:04.560><c> él</c><00:09:04.980><c> y</c><00:09:05.399><c> tirarlo</c>
+
+00:09:05.750 --> 00:09:05.760 align:start position:0%
+podríamos trabajar sobre él y tirarlo
+ 
+
+00:09:05.760 --> 00:09:08.030 align:start position:0%
+podríamos trabajar sobre él y tirarlo
+mejorarlo<00:09:06.420><c> y</c><00:09:06.660><c> acabar</c><00:09:07.019><c> exportándolo</c><00:09:07.920><c> para</c>
+
+00:09:08.030 --> 00:09:08.040 align:start position:0%
+mejorarlo y acabar exportándolo para
+ 
+
+00:09:08.040 --> 00:09:10.430 align:start position:0%
+mejorarlo y acabar exportándolo para
+continuar<00:09:08.399><c> con</c><00:09:08.700><c> una</c><00:09:09.060><c> fase</c><00:09:09.240><c> de</c><00:09:09.480><c> refinado</c><00:09:09.899><c> ya</c><00:09:10.320><c> en</c>
+
+00:09:10.430 --> 00:09:10.440 align:start position:0%
+continuar con una fase de refinado ya en
+ 
+
+00:09:10.440 --> 00:09:11.570 align:start position:0%
+continuar con una fase de refinado ya en
+diseño<00:09:10.620><c> en</c><00:09:10.920><c> la</c><00:09:11.040><c> descripción</c><00:09:11.160><c> del</c><00:09:11.399><c> vídeo</c>
+
+00:09:11.570 --> 00:09:11.580 align:start position:0%
+diseño en la descripción del vídeo
+ 
+
+00:09:11.580 --> 00:09:13.130 align:start position:0%
+diseño en la descripción del vídeo
+tienes<00:09:12.000><c> un</c><00:09:12.240><c> enlace</c><00:09:12.420><c> con</c><00:09:12.839><c> más</c><00:09:13.019><c> información</c>
+
+00:09:13.130 --> 00:09:13.140 align:start position:0%
+tienes un enlace con más información
+ 
+
+00:09:13.140 --> 00:09:15.050 align:start position:0%
+tienes un enlace con más información
+déjame<00:09:13.740><c> en</c><00:09:14.040><c> comentarios</c><00:09:14.220><c> que</c><00:09:14.580><c> te</c><00:09:14.760><c> ha</c><00:09:14.880><c> parecido</c>
+
+00:09:15.050 --> 00:09:15.060 align:start position:0%
+déjame en comentarios que te ha parecido
+ 
+
+00:09:15.060 --> 00:09:17.269 align:start position:0%
+déjame en comentarios que te ha parecido
+esta<00:09:15.360><c> herramienta</c><00:09:15.600><c> y</c><00:09:16.080><c> si</c><00:09:16.260><c> no</c><00:09:16.320><c> la</c><00:09:16.500><c> conocías</c><00:09:16.980><c> si</c>
+
+00:09:17.269 --> 00:09:17.279 align:start position:0%
+esta herramienta y si no la conocías si
+ 
+
+00:09:17.279 --> 00:09:18.769 align:start position:0%
+esta herramienta y si no la conocías si
+de<00:09:17.399><c> verdad</c><00:09:17.459><c> crees</c><00:09:17.820><c> que</c><00:09:18.060><c> te</c><00:09:18.180><c> puede</c><00:09:18.360><c> ayudar</c><00:09:18.480><c> en</c>
+
+00:09:18.769 --> 00:09:18.779 align:start position:0%
+de verdad crees que te puede ayudar en
+ 
+
+00:09:18.779 --> 00:09:20.570 align:start position:0%
+de verdad crees que te puede ayudar en
+tu<00:09:18.899><c> día</c><00:09:19.080><c> a</c><00:09:19.200><c> día</c><00:09:19.260><c> teniendo</c><00:09:19.500><c> una</c><00:09:19.800><c> idea</c><00:09:19.980><c> tan</c><00:09:20.339><c> Clara</c>
+
+00:09:20.570 --> 00:09:20.580 align:start position:0%
+tu día a día teniendo una idea tan Clara
+ 
+
+00:09:20.580 --> 00:09:22.730 align:start position:0%
+tu día a día teniendo una idea tan Clara
+y<00:09:20.820><c> visual</c><00:09:21.180><c> de</c><00:09:21.420><c> cómo</c><00:09:21.600><c> será</c><00:09:21.899><c> nuestra</c><00:09:22.260><c> app</c><00:09:22.560><c> web</c>
+
+00:09:22.730 --> 00:09:22.740 align:start position:0%
+y visual de cómo será nuestra app web
+ 
+
+00:09:22.740 --> 00:09:24.650 align:start position:0%
+y visual de cómo será nuestra app web
+será<00:09:23.040><c> mucho</c><00:09:23.339><c> más</c><00:09:23.519><c> fácil</c><00:09:23.640><c> programarla</c><00:09:24.240><c> ya</c><00:09:24.480><c> que</c>
+
+00:09:24.650 --> 00:09:24.660 align:start position:0%
+será mucho más fácil programarla ya que
+ 
+
+00:09:24.660 --> 00:09:26.509 align:start position:0%
+será mucho más fácil programarla ya que
+no<00:09:24.779><c> tendrás</c><00:09:25.019><c> que</c><00:09:25.260><c> enfrentarte</c><00:09:25.620><c> continuamente</c>
+
+00:09:26.509 --> 00:09:26.519 align:start position:0%
+no tendrás que enfrentarte continuamente
+ 
+
+00:09:26.519 --> 00:09:29.150 align:start position:0%
+no tendrás que enfrentarte continuamente
+toma<00:09:27.120><c> de</c><00:09:27.300><c> decisiones</c><00:09:27.540><c> relacionadas</c><00:09:28.019><c> con</c><00:09:28.200><c> yux</c>
+
+00:09:29.150 --> 00:09:29.160 align:start position:0%
+toma de decisiones relacionadas con yux
+ 
+
+00:09:29.160 --> 00:09:30.710 align:start position:0%
+toma de decisiones relacionadas con yux
+esto<00:09:29.519><c> es</c><00:09:29.640><c> algo</c><00:09:29.760><c> que</c><00:09:29.880><c> ya</c><00:09:30.240><c> vamos</c><00:09:30.420><c> a</c><00:09:30.540><c> dejar</c>
+
+00:09:30.710 --> 00:09:30.720 align:start position:0%
+esto es algo que ya vamos a dejar
+ 
+
+00:09:30.720 --> 00:09:32.509 align:start position:0%
+esto es algo que ya vamos a dejar
+solventado<00:09:31.260><c> en</c><00:09:31.440><c> este</c><00:09:31.740><c> paso</c><00:09:31.920><c> Espero</c><00:09:32.160><c> que</c><00:09:32.339><c> de</c>
+
+00:09:32.509 --> 00:09:32.519 align:start position:0%
+solventado en este paso Espero que de
+ 
+
+00:09:32.519 --> 00:09:34.250 align:start position:0%
+solventado en este paso Espero que de
+verdad<00:09:32.580><c> este</c><00:09:33.240><c> tutorial</c><00:09:33.420><c> te</c><00:09:33.959><c> haya</c><00:09:34.140><c> resultado</c>
+
+00:09:34.250 --> 00:09:34.260 align:start position:0%
+verdad este tutorial te haya resultado
+ 
+
+00:09:34.260 --> 00:09:36.170 align:start position:0%
+verdad este tutorial te haya resultado
+muy<00:09:34.440><c> útil</c><00:09:34.680><c> ya</c><00:09:34.980><c> sabes</c><00:09:35.100><c> que</c><00:09:35.339><c> puedes</c><00:09:35.519><c> apoyar</c><00:09:35.940><c> este</c>
+
+00:09:36.170 --> 00:09:36.180 align:start position:0%
+muy útil ya sabes que puedes apoyar este
+ 
+
+00:09:36.180 --> 00:09:37.910 align:start position:0%
+muy útil ya sabes que puedes apoyar este
+contenido<00:09:36.420><c> suscribiéndote</c><00:09:37.380><c> al</c><00:09:37.560><c> Canal</c><00:09:37.740><c> y</c>
+
+00:09:37.910 --> 00:09:37.920 align:start position:0%
+contenido suscribiéndote al Canal y
+ 
+
+00:09:37.920 --> 00:09:39.889 align:start position:0%
+contenido suscribiéndote al Canal y
+activando<00:09:38.279><c> la</c><00:09:38.459><c> campanita</c><00:09:38.700><c> cada</c><00:09:39.000><c> semana</c><00:09:39.240><c> subo</c>
+
+00:09:39.889 --> 00:09:39.899 align:start position:0%
+activando la campanita cada semana subo
+ 
+
+00:09:39.899 --> 00:09:41.389 align:start position:0%
+activando la campanita cada semana subo
+un<00:09:40.140><c> nuevo</c><00:09:40.320><c> vídeo</c><00:09:40.500><c> también</c><00:09:40.800><c> recuerda</c><00:09:41.160><c> que</c>
+
+00:09:41.389 --> 00:09:41.399 align:start position:0%
+un nuevo vídeo también recuerda que
+ 
+
+00:09:41.399 --> 00:09:43.250 align:start position:0%
+un nuevo vídeo también recuerda que
+realizo<00:09:41.880><c> transmisións</c><00:09:42.540><c> en</c><00:09:42.600><c> directo</c><00:09:42.779><c> de</c><00:09:43.140><c> lunes</c>
+
+00:09:43.250 --> 00:09:43.260 align:start position:0%
+realizo transmisións en directo de lunes
+ 
+
+00:09:43.260 --> 00:09:45.050 align:start position:0%
+realizo transmisións en directo de lunes
+a<00:09:43.380><c> viernes</c><00:09:43.560><c> y</c><00:09:43.800><c> que</c><00:09:43.980><c> todos</c><00:09:44.279><c> los</c><00:09:44.580><c> enlaces</c><00:09:44.760><c> de</c>
+
+00:09:45.050 --> 00:09:45.060 align:start position:0%
+a viernes y que todos los enlaces de
+ 
+
+00:09:45.060 --> 00:09:46.310 align:start position:0%
+a viernes y que todos los enlaces de
+interés<00:09:45.180><c> de</c><00:09:45.360><c> la</c><00:09:45.420><c> comunidad</c><00:09:45.600><c> los</c><00:09:46.019><c> puedes</c>
+
+00:09:46.310 --> 00:09:46.320 align:start position:0%
+interés de la comunidad los puedes
+ 
+
+00:09:46.320 --> 00:09:48.650 align:start position:0%
+interés de la comunidad los puedes
+encontrar<00:09:46.560><c> en</c><00:09:46.980><c> maure.t</c><00:09:47.940><c> Ahora</c><00:09:48.120><c> sí</c><00:09:48.360><c> nos</c><00:09:48.540><c> vemos</c>
+
+00:09:48.650 --> 00:09:48.660 align:start position:0%
+encontrar en maure.t Ahora sí nos vemos
+ 
+
+00:09:48.660 --> 00:09:50.389 align:start position:0%
+encontrar en maure.t Ahora sí nos vemos
+la<00:09:48.959><c> próxima</c><00:09:49.200><c> semana</c><00:09:49.440><c> Recuerda</c><00:09:49.920><c> que</c><00:09:50.160><c> aunque</c>
+
+00:09:50.389 --> 00:09:50.399 align:start position:0%
+la próxima semana Recuerda que aunque
+ 
+
+00:09:50.399 --> 00:09:52.070 align:start position:0%
+la próxima semana Recuerda que aunque
+nos<00:09:50.760><c> encante</c><00:09:51.000><c> programar</c><00:09:51.360><c> debemos</c><00:09:51.660><c> de</c><00:09:51.899><c> darle</c>
+
+00:09:52.070 --> 00:09:52.080 align:start position:0%
+nos encante programar debemos de darle
+ 
+
+00:09:52.080 --> 00:09:53.750 align:start position:0%
+nos encante programar debemos de darle
+toda<00:09:52.440><c> la</c><00:09:52.680><c> importancia</c><00:09:52.740><c> que</c><00:09:52.980><c> se</c><00:09:53.160><c> merece</c><00:09:53.399><c> al</c>
+
+00:09:53.750 --> 00:09:53.760 align:start position:0%
+toda la importancia que se merece al
+ 
+
+00:09:53.760 --> 00:09:55.190 align:start position:0%
+toda la importancia que se merece al
+proceso<00:09:53.940><c> de</c><00:09:54.180><c> diseño</c><00:09:54.420><c> nos</c><00:09:54.660><c> vemos</c><00:09:54.779><c> en</c><00:09:55.019><c> el</c>
+
+00:09:55.190 --> 00:09:55.200 align:start position:0%
+proceso de diseño nos vemos en el
+ 
+
+00:09:55.200 --> 00:09:57.970 align:start position:0%
+proceso de diseño nos vemos en el
+próximo<00:09:55.380><c> vídeo</c><00:09:55.620><c> hasta</c><00:09:56.160><c> luego</c>
+
+00:09:57.970 --> 00:09:57.980 align:start position:0%
+próximo vídeo hasta luego
+ 
+
+00:09:57.980 --> 00:10:10.130 align:start position:0%
+próximo vídeo hasta luego
+[Música]
+
+00:10:10.130 --> 00:10:10.140 align:start position:0%
+ 
+ 
+
+00:10:10.140 --> 00:10:13.320 align:start position:0%
+ 
+[Música]
+

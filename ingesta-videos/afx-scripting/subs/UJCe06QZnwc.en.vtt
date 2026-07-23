@@ -1,0 +1,229 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.620 --> 00:00:06.210
+Hello World and welcome to Coding Effects extend(ing) the script series and in
+
+00:00:06.210 --> 00:00:10.550
+this series i want to talk about ExtendScript for After Effects of course and
+
+00:00:10.550 --> 00:00:15.570
+if you follow my channel you know I go
+into details about how to write
+
+00:00:15.570 --> 00:00:22.050
+Expression and how to use it well in
+this series of course I'm going to go
+
+00:00:22.050 --> 00:00:27.330
+into detail on how to use the ExtendScript and if you're wondering what's the
+
+00:00:27.330 --> 00:00:31.740
+difference between the two basically
+when you're using Expression you're
+
+00:00:31.740 --> 00:00:39.050
+changing the properties or automating
+animation from the layer's property and
+
+00:00:39.050 --> 00:00:45.320
+with Expression you can't really access
+certain things so you can access the
+
+00:00:45.320 --> 00:00:51.600
+composition menu you can't create a new
+composition nor can you control things
+
+00:00:51.600 --> 00:00:57.719
+like the timeline or the time indicator
+or anything beyond that layer property
+
+00:00:57.719 --> 00:01:02.609
+with ExtendScript you can just about
+access anything inside of After Effects
+
+00:01:02.609 --> 00:01:09.570
+and control it and code it in a way that
+it does what you want it to do so in
+
+00:01:09.570 --> 00:01:16.320
+short if you just want to make some
+animation and you want to do it in an
+
+00:01:16.320 --> 00:01:22.500
+automatic way you're better off using
+Expression unless you're doing something
+
+00:01:22.500 --> 00:01:27.840
+more complicated we're involved creating
+new layers or you're creating something
+
+00:01:27.840 --> 00:01:36.500
+beyond that layer property so the
+even access ExtendScript you will go
+
+00:01:36.500 --> 00:01:44.490
+inside of the file menu and you would go
+into import no no no script down here
+
+00:01:44.490 --> 00:01:50.939
+I'm crazy and you would go to open
+script editor but for whatever reason if
+
+00:01:50.939 --> 00:01:57.500
+I try to do it it give me some problems
+so I would have to open it up from a
+
+00:01:57.500 --> 00:02:04.290
+shortcut on my desktop you might have to
+do that too but just know that this
+
+00:02:04.290 --> 00:02:07.909
+might be a common problem I don't know
+
+00:02:13.520 --> 00:02:19.440
+so right now we're in ExtendScript toolkit
+which is really hard to say for me for
+
+00:02:19.440 --> 00:02:25.800
+whatever reason and what we're going to
+do is we're gonna write a simple "Hello
+
+00:02:25.800 --> 00:02:34.500
+World" something people usually do when
+they're learning a new language so if I
+
+00:02:34.500 --> 00:02:47.370
+type in alert now this might look weird
+but I'm pretty sure you've seen alert
+
+00:02:47.370 --> 00:02:52.350
+before maybe on some type of annoying
+website where you go to the site and
+
+00:02:52.350 --> 00:03:00.180
+forever reason they use a pop-up box and
+now I want you to leave that site we're
+
+00:03:00.180 --> 00:03:09.920
+gonna use the same type of code or
+function in here by writing alert and
+
+00:03:09.920 --> 00:03:17.220
+inside these parentheses and quotes
+writing "Hello World" so if I write that
+
+00:03:17.220 --> 00:03:26.190
+and go to this little play button I get
+hello world this is cool but as you know
+
+00:03:26.190 --> 00:03:31.769
+this is only working inside of ExtendScript and what we really want to do we
+
+00:03:31.769 --> 00:03:35.209
+want this application to talk to After
+Effects
+
+00:03:35.209 --> 00:03:42.030
+so in able to do that we're going to
+go up to here and we're gonna change
+
+00:03:42.030 --> 00:03:51.060
+this into our After Effects version and
+right now even though I got 2018 I'm
+
+00:03:51.060 --> 00:04:01.590
+using 2017 mostly because of some GUI
+issues so if I was to go back to this
+
+00:04:01.590 --> 00:04:07.859
+little play button and run the script
+now go back to After Effects I get
+
+00:04:07.859 --> 00:04:12.680
+nothing
+that's weird
+
+00:04:12.680 --> 00:04:18.870
+now if I click on this run script I'll
+go back to After Effects and I get "Hello
+
+00:04:18.870 --> 00:04:27.600
+World" right here and there's a few other
+ways I can talk to After Effects and as far
+
+00:04:27.600 --> 00:04:39.600
+as text I could get rid of this and
+write write and push play and if I go on
+
+00:04:39.600 --> 00:04:50.670
+my Windows and go into info
+something should have been written there
+
+00:04:50.670 --> 00:05:00.300
+let me push play again and I get
+"Hello World" and I push it twice and I
+
+00:05:00.300 --> 00:05:04.290
+don't know why I didn't come up the
+first time but I got "Hello World" twice
+
+00:05:04.290 --> 00:05:14.640
+and if I was to go in here and type in
+"L" capitalize "N" for write line and I
+
+00:05:14.640 --> 00:05:21.990
+push play I'll go back in After Effects this
+should have been a new line but it's not
+
+00:05:21.990 --> 00:05:27.570
+giving me a new line
+so let me see if I push play again there
+
+00:05:27.570 --> 00:05:36.600
+we go and let me write something else and it
+doesn't have to be words or in a string
+
+00:05:36.600 --> 00:05:44.010
+in order for you to actually use it you
+can put 5 plus 5 and it should give me
+
+00:05:44.010 --> 00:05:56.970
+10. Yep, there we go and one more thing if
+I want to get rid of this that's on this
+
+00:05:56.970 --> 00:06:09.510
+information panel or window I go in here
+and I type in clear output with a
+
+00:06:09.510 --> 00:06:12.110
+capital o
+
+00:06:14.560 --> 00:06:20.750
+semicolon push play again
+go back to After Effects and this is all
+
+00:06:20.750 --> 00:06:28.250
+clear and that's really the basics of
+running ExtendScript and of course there's
+
+00:06:28.250 --> 00:06:33.680
+more stuff that ExtendScript and do then
+write "Hello World" and write in the
+
+00:06:33.680 --> 00:06:39.500
+information window and I'll go over that
+more in the future tutorial but this is
+
+00:06:39.500 --> 00:06:45.140
+just to get you started and so you can
+kind of understand what's going on I hope
+
+00:06:45.140 --> 00:06:49.720
+that you enjoy the video and if you do
+I hope you check out my previous videos
+
+00:06:49.720 --> 00:06:53.980
+into the next time peace out world
+

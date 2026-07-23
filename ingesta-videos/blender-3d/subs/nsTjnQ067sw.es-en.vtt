@@ -1,0 +1,2043 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.010 --> 00:00:02.000
+¡Una taza de café deliciosa, saludos!  ¡
+
+00:00:05.370 --> 00:00:06.900
+Oh, Dios mío, qué frío!  ¡
+
+00:00:07.670 --> 00:00:12.900
+Ojalá pudiera mantenerse caliente... o
+mejor aún, que le salieran piernas, se creara por sí mismo
+
+00:00:12.910 --> 00:00:14.820
+y viniera caminando hasta donde estoy!  ¡
+
+00:00:15.470 --> 00:00:16.460
+Eso sería genial!
+
+00:00:17.150 --> 00:00:20.860
+Hola, soy Louie, uno de los instructores de CG Boost
+, y en este video
+
+00:00:20.870 --> 00:00:23.680
+hablaremos sobre algunas técnicas
+fundamentales de modelado de superficies duras
+
+00:00:23.690 --> 00:00:27.640
+que nos permiten mantener una
+malla controlable de baja poligonalidad con un
+
+00:00:27.650 --> 00:00:29.400
+resultado renderizado de alta poligonalidad.
+
+00:00:29.810 --> 00:00:30.040
+Usaremos
+
+00:00:30.050 --> 00:00:32.240
+ 
+Blender sin modificaciones, así que aunque los
+
+00:00:32.250 --> 00:00:35.060
+complementos de pago como Hard Ops, Box
+Cutter y Mesh Machine ahorran
+
+00:00:35.070 --> 00:00:38.020
+muchísimo tiempo
+, solo necesitarás una copia de
+
+00:00:38.030 --> 00:00:40.420
+Blender para empezar. ¡
+Comencemos!
+
+00:00:41.150 --> 00:00:45.700
+Bien, comencemos a construir nuestro
+robot de tazas, y antes de empezar,
+
+00:00:45.710 --> 00:00:49.440
+movamos el cursor a la esquina superior
+derecha de nuestra ventana gráfica 3D
+
+00:00:49.450 --> 00:00:54.440
+y arrastremos para abrir una nueva ventana,
+cambiándola de ventana gráfica 3D a
+
+00:00:54.450 --> 00:00:55.900
+editor de imágenes.
+
+00:00:56.570 --> 00:00:58.460
+Y ahora podemos abrir nuestro
+
+00:00:58.470 --> 00:01:02.560
+boceto conceptual así, y simplemente
+dejar esto a un lado.
+
+00:01:02.810 --> 00:01:06.440
+Ahora vamos a empezar a modelar
+la forma de la taza en sí, pero
+
+00:01:06.450 --> 00:01:09.260
+antes vamos a
+activar un complemento que nos proporciona
+
+00:01:09.270 --> 00:01:11.380
+algunos objetos adicionales con los que trabajar.
+
+00:01:11.750 --> 00:01:14.320
+Para ello, vayamos a Editar –
+
+00:01:14.330 --> 00:01:19.700
+Preferencias y busquemos en la
+pestaña de complementos "Extra", donde
+
+00:01:20.250 --> 00:01:22.620
+veremos Agregar malla –
+Objetos adicionales.
+
+00:01:22.710 --> 00:01:24.360
+Vamos a activarlo.
+
+00:01:24.930 --> 00:01:26.720
+Ahora vamos a despejar
+
+00:01:26.730 --> 00:01:30.540
+un poco este espacio pulsando
+A, y luego X para eliminar todos los elementos.
+
+00:01:31.090 --> 00:01:35.040
+Ahora podemos pulsar SHIFT +
+A, y en Malla podemos bajar
+
+00:01:35.050 --> 00:01:37.480
+hasta Cubo Redondo, esto es lo que queremos.
+
+00:01:38.190 --> 00:01:39.460
+Ahora vamos a activar las opciones.
+
+00:01:39.470 --> 00:01:45.120
+El operador preestablecido que
+queremos es Esfera Cuadrada, y como no
+
+00:01:45.130 --> 00:01:47.680
+necesitamos tantas
+subdivisiones, vamos a usar
+
+00:01:47.690 --> 00:01:48.720
+4.
+
+00:01:49.070 --> 00:01:50.440
+Ahora tenemos una esfera compuesta únicamente por
+
+00:01:50.450 --> 00:01:54.280
+cuadriláteros, lo que nos será muy útil
+al subdividirla para obtener un resultado más uniforme.
+
+00:01:54.430 --> 00:01:56.900
+Ahora solo necesitamos que se parezca un
+poco más a una taza.
+
+00:01:57.290 --> 00:02:01.320
+Para conseguir esa forma, vamos a
+seleccionarla y entrar en el
+
+00:02:01.330 --> 00:02:05.220
+modo de edición, y también voy a entrar
+en el modo de estructura alámbrica, que podemos
+
+00:02:05.230 --> 00:02:09.400
+seleccionar aquí arriba, o simplemente pulsar la tecla Z
+del teclado e ir a la estructura alámbrica.
+
+00:02:09.410 --> 00:02:15.120
+Ahora podemos pasar a nuestra
+opción de selección de polígonos aquí arriba, o de nuevo 3
+
+00:02:15.130 --> 00:02:19.200
+en la fila de números, y simplemente seleccionar
+los polígonos superiores de esta manera.
+
+00:02:19.830 --> 00:02:22.680
+Y aquí podemos simplemente pulsar la X y
+borrar las caras.
+
+00:02:23.250 --> 00:02:28.440
+Ahora, en nuestro modo de borde, o 2 en
+la fila numérica, podemos presionar ALT y hacer
+
+00:02:28.450 --> 00:02:35.480
+clic izquierdo en este bucle de bordes, presionar
+E, luego Z y moverlo hacia arriba, y
+
+00:02:35.490 --> 00:02:38.460
+creo que pueden comenzar a ver la
+forma que estamos obteniendo aquí.
+
+00:02:38.470 --> 00:02:45.100
+Bien, saliendo del modo de edición y
+volviendo a la vista sólida, se ve
+
+00:02:45.110 --> 00:02:49.820
+un poco facetado, con pocos
+polígonos, así que lo primero que
+
+00:02:49.830 --> 00:02:51.800
+podemos hacer es agregar un modificador de subdivisión.
+
+00:02:52.250 --> 00:02:54.120
+Ahora, si pasamos a nuestras
+
+00:02:54.130 --> 00:02:58.520
+opciones, pueden ver que nuestras
+opciones de modificación están aquí, y podemos agregar una
+
+00:02:58.530 --> 00:03:03.640
+superficie de subdivisión, y vamos a
+darle un nivel de ventana gráfica de 2 para que coincida con
+
+00:03:03.650 --> 00:03:04.680
+el nivel de renderizado.
+
+00:03:05.090 --> 00:03:06.260
+Eso tiene mejor aspecto, pero seguimos
+
+00:03:06.270 --> 00:03:10.240
+teniendo ese aspecto facetado,
+así que en nuestra ventana gráfica 3D, hagamos
+
+00:03:10.250 --> 00:03:12.820
+clic con el botón derecho y seleccionemos "Sombreado suave automático".
+
+00:03:13.110 --> 00:03:14.240
+Ahora podemos ver cómo agregar nuestros
+
+00:03:14.250 --> 00:03:15.200
+otros modificadores.
+
+00:03:15.570 --> 00:03:17.080
+En primer lugar, para darle algo de
+
+00:03:17.090 --> 00:03:21.620
+grosor, vamos a añadirle una capa de solidificación.
+
+00:03:22.150 --> 00:03:24.580
+Y en cuanto al grosor, vamos a moverlo
+
+00:03:24.590 --> 00:03:29.460
+para que quede como un hueco, algo así
+me parece bien.  Voy
+
+00:03:29.770 --> 00:03:35.800
+a
+desactivarlos y, por último, vamos a añadir un bisel.
+
+00:03:36.230 --> 00:03:39.760
+Vamos a acercarnos un poco más
+a la parte superior y a empezar a
+
+00:03:39.770 --> 00:03:40.800
+reducir la cantidad.
+
+00:03:41.090 --> 00:03:43.180
+Algo así se ve bien,
+
+00:03:43.450 --> 00:03:47.500
+pero aún no hemos terminado, vamos a
+añadirle algunos segmentos más, y
+
+00:03:47.510 --> 00:03:52.800
+para evitar este
+aspecto normal borroso, podemos ir
+
+00:03:52.810 --> 00:03:57.100
+a la opción de sombreado y
+pulsar "endurecer normales", lo que elimina
+
+00:03:57.110 --> 00:03:58.120
+parte de ese suavizado.
+
+00:03:59.010 --> 00:04:01.580
+Ahora, para continuar con esto, queremos
+
+00:04:01.590 --> 00:04:06.960
+crear un bonito inserto para nuestra taza, con
+una superficie más lisa y de un tamaño más adecuado, y
+
+00:04:06.970 --> 00:04:08.820
+simplemente añadir un poco más de
+detalle visual.
+
+00:04:09.270 --> 00:04:15.120
+En el modo objeto, dupliquemos
+nuestro objeto y hagamos clic con el botón derecho para soltarlo.
+
+00:04:15.630 --> 00:04:20.000
+Entra en modo de edición con la tecla Tab, selecciona
+todo con el teclado y luego presiona Alt
+
+00:04:20.010 --> 00:04:25.140
+y S y muévelo para que quede alineado así
+.
+
+00:04:25.410 --> 00:04:29.380
+Ahora, deseleccionando con alt y a,
+entrando en el modo de borde
+
+00:04:29.390 --> 00:04:31.420
+con 2
+en la fila numérica, vamos a alt
+
+00:04:31.430 --> 00:04:35.700
+y clic izquierdo para seleccionar ese bucle
+de bordes de aquí.
+
+00:04:35.950 --> 00:04:41.020
+Ahora podemos pulsar la tecla e para extruir
+los bordes, hacer clic con el botón derecho para soltarlos
+
+00:04:41.290 --> 00:04:46.060
+y, a continuación, la tecla s para ampliarlos y así
+conseguir un borde bonito en la taza.
+
+00:04:46.470 --> 00:04:51.280
+Bien, hagamos clic izquierdo para seleccionar,
+ahora este borde es un poco grueso
+
+00:04:51.290 --> 00:04:55.880
+para mi gusto, así que podemos volver
+a nuestra pila de modificadores aquí, y
+
+00:04:55.890 --> 00:04:59.480
+simplemente reducir nuestra solidificación de esta manera.
+
+00:04:59.970 --> 00:05:01.160
+Ahora lo único que
+
+00:05:01.170 --> 00:05:05.720
+queda es este bonito corte
+por el medio, y
+
+00:05:05.730 --> 00:05:10.820
+podemos hacerlo simplemente seleccionando nuestra
+capa exterior, entrando en el
+
+00:05:10.830 --> 00:05:16.760
+modo de edición aquí, y ctrl + r para
+crear un corte en bucle, pongámoslo en
+
+00:05:16.770 --> 00:05:20.680
+algún lugar más abajo como aquí, ahí se
+ve bien.
+
+00:05:21.090 --> 00:05:26.360
+Y ahora, en el modo de selección de polígonos,
+o en el número 3 de la fila numérica, podemos mantener presionada la tecla
+
+00:05:26.370 --> 00:05:31.620
+Alt y hacer clic con el botón izquierdo en uno de estos
+bordes, y esto simplemente selecciona
+
+00:05:31.630 --> 00:05:32.740
+ese bucle de polígonos.
+
+00:05:33.110 --> 00:05:34.980
+Y ahora todo lo que tenemos que hacer es pulsar la tecla "y"
+
+00:05:34.990 --> 00:05:39.620
+del teclado para separar esa
+selección del resto de la malla.
+
+00:05:40.230 --> 00:05:44.500
+Ahora podemos volver al
+modo objeto y ya tenemos la forma de taza.
+
+00:05:44.510 --> 00:05:47.080
+Así pues, pasemos a crear el asa.
+
+00:05:47.870 --> 00:05:49.900
+Vale, tenemos una taza con una forma bonita,
+
+00:05:49.990 --> 00:05:52.900
+pero es difícil de [ __ ]
+sin asa, así que vamos a ver cómo
+
+00:05:52.910 --> 00:05:53.940
+solucionarlo.
+
+00:05:54.310 --> 00:05:56.220
+En primer lugar, seleccionemos la
+
+00:05:56.230 --> 00:06:01.340
+capa exterior, entremos en el modo de edición y, a
+continuación, seleccionemos los vértices a lo largo del
+
+00:06:01.350 --> 00:06:02.760
+eje x.
+
+00:06:03.370 --> 00:06:05.300
+Vamos a quedarnos solo con ese.
+
+00:06:05.710 --> 00:06:11.340
+Y ahora podemos colocar el cursor sobre
+él con shift y s, cursor a seleccionado.
+
+00:06:11.880 --> 00:06:16.260
+Ahora volvamos al modo objeto,
+vamos a crear un objeto
+
+00:06:16.270 --> 00:06:21.280
+aquí mismo con shift y a, y
+luego vamos a usar cube.
+
+00:06:21.910 --> 00:06:26.160
+Vamos a reducirlo aproximadamente a su
+lugar de esta manera.
+
+00:06:26.210 --> 00:06:30.320
+Voy a cambiar al
+modo ortográfico y ajustarlo
+
+00:06:30.330 --> 00:06:33.340
+al lateral manteniendo pulsada la tecla Alt
+.
+
+00:06:33.630 --> 00:06:38.220
+Y aquí podemos simplemente desplazarlo
+aproximadamente hasta su posición final y ajustar
+
+00:06:38.230 --> 00:06:41.420
+su tamaño al tamaño aproximado del mango que
+deseamos.
+
+00:06:42.050 --> 00:06:46.060
+Algo así se ve bien,
+sin olvidar reducirlo
+
+00:06:46.070 --> 00:06:48.280
+también a lo largo del eje Y.
+
+00:06:48.750 --> 00:06:50.200
+Y antes de poder continuar
+
+00:06:50.430 --> 00:06:55.320
+, necesitamos aplicar la escala aquí,
+ya que todo se ha descontrolado un poco, así que para
+
+00:06:55.330 --> 00:07:00.780
+hacerlo podemos presionar Ctrl+A, aplicar
+rotación y escala, de modo que los
+
+00:07:00.790 --> 00:07:04.260
+modificadores como el bisel funcionen
+proporcionalmente en todos los ejes.
+
+00:07:04.270 --> 00:07:09.940
+Ahora, en el modo de edición con la tecla Tab, podemos
+seleccionar nuestras caras o polígonos aquí
+
+00:07:09.950 --> 00:07:14.500
+con el 3 en la fila numérica, y simplemente
+seleccionar el frente y la parte posterior.
+
+00:07:14.510 --> 00:07:19.960
+Ahora podemos pulsar la tecla i para insertar de esta forma,
+y ​​luego, con ella aún seleccionada, hacer
+
+00:07:19.970 --> 00:07:23.040
+clic con el botón derecho y seleccionar caras de puente.  Ya
+
+00:07:23.050 --> 00:07:25.080
+puedes ver a dónde queremos llegar.
+
+00:07:25.090 --> 00:07:31.100
+Ahora podemos, todavía en modo poligonal,
+hacer clic con la tecla Alt y el botón izquierdo del ratón en este bucle de
+
+00:07:31.110 --> 00:07:34.580
+polígonos, y luego pulsar la X y
+eliminar las caras.
+
+00:07:34.590 --> 00:07:40.680
+Ahora todo lo que realmente necesitamos hacer es
+seleccionar estos extremos aquí con 2
+
+00:07:40.690 --> 00:07:45.420
+para el modo de borde, y hacer clic con Alt y
+Shift y clic con Alt, y podemos
+
+00:07:45.430 --> 00:07:51.300
+escalar a lo largo de x, 0, y luego presionar
+g y moverlo un poco hacia atrás.
+
+00:07:51.310 --> 00:07:54.740
+Ahora bien, si quisiéramos agregar un modificador sub d
+a esto, nuevamente podríamos
+
+00:07:54.750 --> 00:07:58.300
+hacerlo pasando a nuestras
+opciones de modificadores.
+
+00:07:58.310 --> 00:08:03.280
+También podemos, sobre la ventana gráfica 3D,
+mantener presionadas las teclas Ctrl y 2, y esto
+
+00:08:03.290 --> 00:08:06.320
+agrega automáticamente un modificador de subdivisión.
+
+00:08:06.330 --> 00:08:08.240
+Pero aquí queremos una forma más angular
+
+00:08:08.250 --> 00:08:12.820
+, así que entremos en el
+modo de edición, y de nuevo en la
+
+00:08:13.250 --> 00:08:16.220
+selección de bordes, y vamos a hacer
+clic con Alt en este borde, Shift y Alt en
+
+00:08:16.230 --> 00:08:23.160
+este borde, y Ctrl y B para
+añadir un poco de bisel, así.
+
+00:08:23.170 --> 00:08:24.580
+Eso tiene
+buena pinta.
+
+00:08:24.590 --> 00:08:30.360
+Ahora queremos un borde duro a lo largo de este lado
+, así que podemos usar Alt y hacer clic
+
+00:08:30.370 --> 00:08:36.260
+para seleccionar estos bucles de bordes en ambos
+lados, y luego con Shift y E
+
+00:08:36.270 --> 00:08:39.120
+creamos un pliegue, así.
+
+00:08:39.130 --> 00:08:41.640
+Vale, tiene buena pinta, y vamos a darle
+
+00:08:41.650 --> 00:08:46.500
+un tratamiento de suavizado de sombras con el
+botón derecho del ratón, suavizado automático de sombras,
+
+00:08:46.510 --> 00:08:51.780
+y también añadir un modificador de bisel
+después de nuestro modificador sub D.
+
+00:08:51.790 --> 00:08:54.800
+Voy a reducir
+
+
+00:08:54.810 --> 00:09:01.600
+un poco este número, añadir otro segmento,
+ir a sombreado, normales más duras.
+
+00:09:01.610 --> 00:09:04.940
+Todavía vemos un poco de
+facetado aquí, así que creo que podemos
+
+00:09:04.950 --> 00:09:09.200
+aumentar nuestro nivel de subdivisión una vez
+más tanto en la ventana gráfica como en
+
+00:09:09.630 --> 00:09:10.260
+el renderizado.
+
+00:09:10.270 --> 00:09:11.920
+Vale, tiene buena pinta, pero no lo tenemos
+
+00:09:11.930 --> 00:09:14.100
+pegado a nuestra taza aquí.  En
+
+00:09:14.610 --> 00:09:17.080
+primer lugar, vamos a rellenar este
+
+00:09:17.090 --> 00:09:21.920
+hueco seleccionando el borde superior e
+inferior y pulsando f, y de
+
+00:09:22.450 --> 00:09:25.140
+igual forma f, y luego
+seleccionando ambos polígonos con shift
+
+00:09:25.150 --> 00:09:27.400
+y asegurándonos de que ambos estén
+completamente plegados.
+
+00:09:27.410 --> 00:09:31.680
+Ahora, para tener un
+poco más de control y
+
+00:09:31.690 --> 00:09:36.420
+ajustarnos a esta superficie, podemos
+presionar Ctrl y R y crear un
+
+00:09:36.430 --> 00:09:38.600
+corte en bucle por la mitad, así.
+
+00:09:38.610 --> 00:09:41.400
+Ahora podemos envolver el asa
+
+00:09:41.410 --> 00:09:42.460
+de la taza con plástico termoencogible.
+
+00:09:42.470 --> 00:09:44.320
+Para ello,
+
+00:09:44.330 --> 00:09:49.260
+voy a colapsar estos elementos y
+cargar un modificador de envoltura retráctil,
+
+00:09:49.270 --> 00:09:54.420
+y lo que queremos envolver
+es nuestra taza.
+
+00:09:54.430 --> 00:09:57.840
+Ahora ha hecho exactamente lo que prometía
+, y simplemente ha
+
+00:09:57.850 --> 00:09:59.860
+aplastado todo contra la taza.
+
+00:09:59.870 --> 00:10:01.880
+Sin embargo, en realidad solo queremos
+
+00:10:01.890 --> 00:10:04.600
+romper los extremos del mango aquí.
+
+00:10:04.610 --> 00:10:06.620
+Así que, entrando en el modo de edición, podemos
+
+00:10:06.630 --> 00:10:11.620
+seleccionar estos cuatro polígonos,
+ir a las opciones de vértice y
+
+00:10:11.630 --> 00:10:15.860
+simplemente agregar un grupo, dejarlo como
+grupo y luego simplemente hacer clic en asignar.
+
+00:10:15.870 --> 00:10:20.000
+Ahora, pasando al modo objeto,
+volviendo a nuestros modificadores,
+
+00:10:20.010 --> 00:10:24.540
+podemos seleccionar ese grupo,
+grupo de vértices, grupo con nombre, y aquí ahora
+
+00:10:24.550 --> 00:10:29.560
+tenemos solo esos vértices
+ajustándose, pero no lo está haciendo de una
+
+00:10:29.570 --> 00:10:34.120
+manera muy elegante, así que vamos a
+cambiar el método de superficie más cercana
+
+00:10:34.130 --> 00:10:39.440
+a proyectar, y lo queremos
+en un solo eje, y ese es nuestro
+
+00:10:39.970 --> 00:10:43.500
+eje x, así que podemos marcar eso, y
+eso es mucho más elegante.
+
+00:10:43.510 --> 00:10:47.640
+Ahora podemos entrar en el modo de edición,
+seleccionar todo y acercar un
+
+00:10:47.650 --> 00:10:49.680
+poco más los elementos.
+
+00:10:49.690 --> 00:10:52.420
+Excelente, se ve muy bien.
+
+00:10:52.430 --> 00:10:56.840
+Ahora bien, si el tuyo es parecido al
+mío, se intersecta
+
+00:10:56.850 --> 00:11:00.320
+ligeramente, así que puede que tengas que jugar
+con el valor de desplazamiento que hay aquí abajo,
+
+00:11:00.330 --> 00:11:04.680
+que podemos ajustar manteniendo pulsada la tecla Shift
+para moverlo ligeramente hacia afuera
+
+00:11:05.210 --> 00:11:06.060
+.
+
+00:11:06.070 --> 00:11:08.200
+Vale, tiene buena pinta, ya tenemos el mango
+
+00:11:08.210 --> 00:11:10.460
+listo, continuemos.
+
+00:11:10.470 --> 00:11:11.480
+Solo quería avisarte
+
+00:11:11.490 --> 00:11:15.480
+de que el curso Robotic Planet
+ya está disponible en CG Boost si te
+
+00:11:15.490 --> 00:11:16.960
+gusta hacer este tipo de cosas.
+
+00:11:16.970 --> 00:11:19.020
+Bien, volvamos a ello.
+
+00:11:19.030 --> 00:11:22.640
+Bien, es hora de crear nuestro ojo,
+y vamos a usar un
+
+00:11:22.650 --> 00:11:27.940
+método similar al de nuestro mango,
+pero en lugar de seleccionar un trozo de
+
+00:11:27.950 --> 00:11:31.460
+geometría y colocar el cursor
+sobre él, simplemente mantendremos pulsada la tecla
+
+00:11:31.470 --> 00:11:36.180
+Shift y haremos clic con el botón derecho para colocarlo
+aproximadamente donde queremos que esté el ojo.
+
+00:11:36.190 --> 00:11:39.340
+Voy a optar por algo así
+, se ve bien.
+
+00:11:39.350 --> 00:11:42.000
+Y luego podemos presionar shift y
+A
+
+00:11:42.190 --> 00:11:44.860
+, agregar malla y esta vez cilindro.
+
+00:11:44.870 --> 00:11:46.400
+Ahora no necesitamos tantos
+
+00:11:46.410 --> 00:11:51.120
+vértices, así que voy a reducirlo
+a 16, y podemos
+
+00:11:51.130 --> 00:11:56.000
+escalarlo aproximadamente hasta su posición, y
+luego rotarlo alrededor del eje x,
+
+00:11:56.010 --> 00:12:02.500
+manteniendo presionada la tecla Ctrl para ajustarlo
+a 5 grados hasta que estemos en -90.
+
+00:12:02.510 --> 00:12:06.160
+Y voy a cambiar la
+perspectiva a ortográfica aquí
+
+00:12:06.170 --> 00:12:12.380
+para que podamos alinearlo donde
+queremos, escalándolo un poco más también.  Me
+
+00:12:12.390 --> 00:12:14.660
+parece bastante bien.
+
+00:12:14.670 --> 00:12:17.020
+Y una vez que estemos satisfechos, nuevamente,
+
+00:12:17.030 --> 00:12:21.000
+podemos aplicar escala con Ctrl y
+A, rotación y escala
+
+00:12:21.010 --> 00:12:21.320
+.
+
+00:12:21.330 --> 00:12:23.080
+Y luego, en el modo de edición, simplemente
+
+00:12:23.090 --> 00:12:29.000
+voy a presionar G y moverlo hacia afuera a
+lo largo del eje y, y escalarlo a lo largo
+
+00:12:29.010 --> 00:12:32.300
+del eje y, y moverlo de vuelta de esta manera.
+
+00:12:32.310 --> 00:12:34.480
+Ahora podemos pasar a nuestro modo poliamoroso
+
+00:12:34.490 --> 00:12:37.180
+si aún no lo has hecho.
+
+00:12:37.190 --> 00:12:41.320
+Seleccione el polígono más frontal, pulse
+
+00:12:41.630 --> 00:12:46.220
+I, inserte como se muestra y, a continuación, pulse E
+para extruir hacia adentro, pero sin ir
+
+00:12:46.230 --> 00:12:48.220
+más allá de la parte posterior de nuestra geometría.  También
+
+00:12:48.230 --> 00:12:50.720
+queremos utilizar esta selección como
+
+00:12:51.170 --> 00:12:52.280
+elemento frontal.
+
+00:12:52.290 --> 00:12:54.620
+Así que vamos a desplazar D, y
+
+00:12:54.630 --> 00:12:57.360
+luego Y y mover la superficie aquí.
+
+00:12:57.370 --> 00:12:58.980
+Y con ella aún seleccionada, vamos
+
+00:12:58.990 --> 00:13:02.260
+a pulsar la X y a eliminar solo las caras.
+
+00:13:02.270 --> 00:13:04.780
+Y esto nos permite seleccionar nuestros
+
+00:13:04.790 --> 00:13:09.760
+bordes con dos a lo largo de la
+fila numérica, alt y clic izquierdo, y luego
+
+00:13:09.770 --> 00:13:13.220
+ctrl F, y esta vez rellenar la cuadrícula de esta manera
+.
+
+00:13:13.230 --> 00:13:17.260
+Y podemos hacer clic
+aquí para asegurarnos de que esté
+
+00:13:17.410 --> 00:13:18.440
+nivelado con todo.
+
+00:13:18.450 --> 00:13:21.640
+Bien, luego E para extruir, luego
+
+00:13:21.650 --> 00:13:25.900
+pulsa L sobre nuestra malla para seleccionar
+todo y luego G para
+
+00:13:25.910 --> 00:13:26.540
+volver a colocarlo en su sitio.
+
+00:13:26.550 --> 00:13:29.340
+Y esto funcionará como nuestra lente.
+
+00:13:29.350 --> 00:13:33.380
+Bien, volviendo al
+modo objeto, agreguemos nuestra
+
+00:13:33.390 --> 00:13:34.880
+superficie de subdivisión con Ctrl + 2.
+
+00:13:34.890 --> 00:13:37.940
+Ahora entremos en el modo edición y
+
+00:13:37.950 --> 00:13:40.340
+comencemos a seleccionar bucles de aristas
+para agregar un pliegue.
+
+00:13:40.350 --> 00:13:45.820
+Una forma rápida de hacerlo es
+manteniendo pulsadas las teclas Ctrl+Alt y haciendo clic con el botón izquierdo del ratón,
+
+00:13:45.830 --> 00:13:49.260
+lo que selecciona un bucle de aristas, pero
+lateralmente en una dirección diferente.
+
+00:13:49.270 --> 00:13:54.280
+Y luego podemos subir para seleccionar,
+seleccionar bucles, bucles de aristas.
+
+00:13:54.290 --> 00:14:01.180
+Ahora todo lo que tenemos que hacer es presionar Shift y
+E y alargarlo hasta que estemos
+
+00:14:01.190 --> 00:14:01.780
+satisfechos, así.
+
+00:14:01.790 --> 00:14:04.580
+Ahora, nuevamente, podemos hacer clic derecho,
+
+00:14:04.590 --> 00:14:07.060
+suavizado automático de sombreado, agregar modificador de bisel.
+
+00:14:07.070 --> 00:14:09.280
+Y en esta ocasión tenemos un pequeño
+
+00:14:09.290 --> 00:14:13.280
+bisel, que está siendo restringido
+por nuestra abrazadera geométrica.
+
+00:14:13.290 --> 00:14:17.480
+Así que, si desactivamos la opción de superposición de la abrazadera
+y empezamos a reducir la cantidad,
+
+00:14:17.490 --> 00:14:20.700
+podemos conseguir un resultado que nos
+satisfaga un poco más.
+
+00:14:20.710 --> 00:14:24.320
+Y observarán que también estamos
+afectando al elemento de la lente en su interior.
+
+00:14:24.330 --> 00:14:30.240
+Para evitar eso, podemos
+aumentar el ángulo hasta que
+
+00:14:30.630 --> 00:14:32.000
+supere los 50 grados.
+
+00:14:32.010 --> 00:14:33.760
+De acuerdo, me parece bien.
+
+00:14:33.770 --> 00:14:38.380
+Añadamos otro segmento y
+volvamos a bajar hasta el sombreado y
+
+00:14:38.390 --> 00:14:38.820
+endurecer las normales.
+
+00:14:38.830 --> 00:14:41.060
+Bien, ese es nuestro elemento de lente.
+
+00:14:41.070 --> 00:14:46.140
+Ahora hagamos lo mismo que hicimos con el
+asa y engánchela aquí atrás.
+
+00:14:46.150 --> 00:14:51.860
+Para ello, podemos entrar en el
+modo poligonal, seleccionar nuestro polígono trasero, ir
+
+00:14:51.870 --> 00:14:56.860
+a las opciones de vértice y añadir,
+como hicimos antes, un nuevo grupo y
+
+00:14:56.870 --> 00:14:59.600
+simplemente asignar ese polígono al grupo.
+
+00:14:59.610 --> 00:15:00.620
+Ahora, volviendo al
+
+00:15:00.630 --> 00:15:07.160
+modo objeto, podemos ir a nuestros modificadores,
+contraerlos y agregar un ajuste de
+
+00:15:07.170 --> 00:15:08.000
+texto.
+
+00:15:08.010 --> 00:15:10.800
+Esta vez, utilizando nuestro grupo de vértices,
+
+00:15:10.810 --> 00:15:13.700
+seleccionamos nuevamente la taza como nuestro objetivo
+.
+
+00:15:13.710 --> 00:15:17.380
+Y una vez más, vamos a
+proyectar usando nuestro método wrap y
+
+00:15:17.390 --> 00:15:22.080
+solo lo necesitamos a lo largo del eje y.  Todavía
+no funciona, bueno, tenemos que
+
+00:15:22.090 --> 00:15:25.080
+cambiarlo a negativo así.
+
+00:15:25.090 --> 00:15:26.700
+Y de nuevo, voy a darle
+
+00:15:26.710 --> 00:15:28.660
+un pequeño desplazamiento.
+
+00:15:28.670 --> 00:15:31.220
+Ahí vamos y lo movemos debajo de nuestro bisel.
+
+00:15:31.230 --> 00:15:36.440
+De hecho, si no lo hicimos aquí,
+podemos hacerlo ahora también.
+
+00:15:36.450 --> 00:15:37.300
+Vale, tiene buena pinta.
+
+00:15:37.310 --> 00:15:38.540
+Esto sobresale un poco
+
+00:15:38.550 --> 00:15:42.220
+demasiado para mi gusto, pero
+entremos en modo de edición, seleccionemos todo,
+
+00:15:42.230 --> 00:15:44.760
+pulsemos G y volvámoslo a colocar en su sitio.
+
+00:15:44.770 --> 00:15:45.340
+Mucho mejor.
+
+00:15:45.350 --> 00:15:47.320
+Bien, con esto terminamos con el ojo.  Pasemos ahora
+
+00:15:47.330 --> 00:15:50.380
+a las piernas.
+
+00:15:50.390 --> 00:15:53.680
+Bien, pasemos a las piernas, pero
+antes vamos a
+
+00:15:53.690 --> 00:15:54.640
+subir un poco todo.
+
+00:15:54.650 --> 00:15:55.920
+Entonces, si presionamos
+
+00:15:55.930 --> 00:16:01.500
+A en el teclado aquí y luego G
+y Z, podemos mover todo hacia arriba de esta manera
+
+00:16:01.510 --> 00:16:01.860
+.
+
+00:16:01.870 --> 00:16:03.000
+Y esto nos da un poco
+
+00:16:03.010 --> 00:16:04.960
+más de margen de maniobra.
+
+00:16:04.970 --> 00:16:07.620
+El primer elemento que tenemos aquí
+
+00:16:07.630 --> 00:16:08.840
+son las uniones.
+
+00:16:08.850 --> 00:16:10.080
+Así que las pequeñas uniones cilíndricas se hacen
+
+00:16:10.090 --> 00:16:12.620
+aquí, y eso es bastante fácil de
+armar.
+
+00:16:12.630 --> 00:16:17.480
+Así que vamos a entrar en el modo de edición
+y queremos seleccionar un vértice
+
+00:16:17.490 --> 00:16:22.580
+aquí en un lado y ajustar nuestro
+cursor a él con shift y S,
+
+00:16:22.590 --> 00:16:26.480
+cursor a seleccionado, volver al
+modo objeto, shift
+
+00:16:26.490 --> 00:16:28.540
+A, y agregar un cilindro.
+
+00:16:28.550 --> 00:16:30.320
+Y como el cilindro es
+
+00:16:30.330 --> 00:16:34.580
+considerablemente más pequeño, podemos
+reducir aún más sus vértices
+
+00:16:34.590 --> 00:16:40.120
+a ocho y luego reducir su tamaño y
+rotarlo 90 grados sobre el eje Y.
+
+00:16:40.130 --> 00:16:44.820
+Así que vamos a ampliarlo un poco
+más y luego a extenderlo a lo largo
+
+00:16:44.830 --> 00:16:45.500
+del eje X.
+
+00:16:45.510 --> 00:16:48.280
+Una vez que estemos satisfechos con eso,
+
+00:16:48.470 --> 00:16:49.080
+aplicaremos la rotación y la escala.
+
+00:16:49.090 --> 00:16:51.160
+Así que no tenemos ningún
+
+00:16:51.170 --> 00:16:55.900
+artefacto extraño cuando empezamos a
+añadir modificadores y hacemos nuestra sub D
+
+00:16:56.450 --> 00:16:57.280
+con control y dos.
+
+00:16:57.290 --> 00:16:59.300
+Y voy a entrar en
+
+00:16:59.310 --> 00:17:02.920
+modo de aislamiento aquí, puedes hacerlo con la
+barra inclinada del teclado y
+
+00:17:03.410 --> 00:17:07.920
+luego en modo de edición, selección poligonal,
+selecciona nuestros dos extremos y agrega un
+
+00:17:07.930 --> 00:17:11.580
+pliegue con Shift y E. Ahora, solo
+para un poco más de detalle,
+
+00:17:11.590 --> 00:17:15.720
+voy a crear un corte de bucle
+con Control y R a lo largo del
+
+00:17:15.730 --> 00:17:21.380
+medio y luego Control y B para
+extraer un bisel y luego Alt y
+
+00:17:21.390 --> 00:17:23.220
+E para extruir caras a lo largo de las normales.
+
+00:17:23.230 --> 00:17:25.400
+Así que podemos tener un pequeño
+
+00:17:26.210 --> 00:17:27.160
+recuadro aquí.
+
+00:17:27.170 --> 00:17:29.200
+Y una vez más, queremos seleccionar
+
+00:17:29.210 --> 00:17:31.980
+todos estos bordes y controlar E.
+
+00:17:32.330 --> 00:17:32.880
+Bien, eso se ve bien.
+
+00:17:32.890 --> 00:17:38.440
+Vamos a nuestro modificador y
+hagamos un bisel, clic derecho y sombreado
+
+00:17:38.630 --> 00:17:39.020
+suave automático.
+
+00:17:39.030 --> 00:17:41.020
+Y de nuevo, agreguemos un
+
+00:17:41.030 --> 00:17:43.260
+segmento más, vayamos a sombreado y normales duras.
+
+00:17:43.270 --> 00:17:44.940
+Ahora, saliendo del modo de aislamiento,
+
+00:17:44.950 --> 00:17:49.300
+tenemos nuestra primera sección aquí y
+queremos crear el primer
+
+00:17:49.310 --> 00:17:53.920
+elemento de la parte superior de la pierna, y podemos hacerlo con
+bastante facilidad con una herramienta de añadir primitivas.
+
+00:17:53.930 --> 00:17:58.500
+Entonces, si seleccionamos aquí y elegimos
+agregar cubo, podemos ver que podemos
+
+00:17:58.510 --> 00:18:01.700
+elegir el ángulo en el que arrastramos
+esta forma de cubo.
+
+00:18:01.710 --> 00:18:07.900
+Así que voy a hacer algo así
+y simplemente arrastrar un
+
+00:18:07.910 --> 00:18:11.760
+cubo, soltarlo, extruir
+un poco hacia arriba y hacer clic izquierdo hacia abajo
+
+00:18:11.770 --> 00:18:12.560
+para confirmar.
+
+00:18:12.570 --> 00:18:16.780
+Bien, esa es nuestra pierna en el modelo alámbrico.
+
+00:18:16.790 --> 00:18:19.520
+Así podremos ver mejor qué estamos haciendo.
+
+00:18:19.530 --> 00:18:20.820
+También desactiva la perspectiva y el
+
+00:18:20.910 --> 00:18:22.520
+ajuste al frente.
+
+00:18:22.530 --> 00:18:23.440
+No está mal.
+
+00:18:23.450 --> 00:18:30.360
+Vamos a reducir su tamaño a lo largo del eje
+X y moverlo a lo largo del eje X, ajustarlo a
+
+00:18:30.370 --> 00:18:36.060
+la otra vista ortográfica y
+colocarlo en la posición deseada.
+
+00:18:36.070 --> 00:18:39.560
+Creo que la parte superior de la pierna es
+considerablemente larga en esta etapa.
+
+00:18:39.570 --> 00:18:44.160
+Entonces, entremos en la selección de polígonos,
+seleccionemos el polígono inferior, presionemos G
+
+00:18:44.170 --> 00:18:47.000
+dos veces para deslizarlo hacia atrás a lo largo de los bordes.
+
+00:18:47.010 --> 00:18:48.040
+Vale, me parece bastante bien.
+
+00:18:48.050 --> 00:18:52.940
+Y podemos volver al
+modo sólido y aplicar nuestra escala.
+
+00:18:52.950 --> 00:18:57.880
+Y esta vez realmente no necesitamos
+agregar ningún submodificador, ya que
+
+00:18:57.890 --> 00:18:59.880
+no hay superficies curvas de ningún tipo.
+
+00:18:59.890 --> 00:19:03.660
+Así que podemos pasar directamente a añadir
+
+00:19:03.670 --> 00:19:04.360
+un
+modificador de bisel.
+
+00:19:04.370 --> 00:19:08.900
+Y vamos a bajarle un poco el
+efecto aquí, darle dos segmentos
+
+00:19:08.910 --> 00:19:11.920
+de nuevo, endurecer las normales en el
+sombreado, pero asegurándonos de hacer
+
+00:19:11.930 --> 00:19:14.580
+clic derecho y sombrear suavizado automático.
+
+00:19:14.890 --> 00:19:15.620
+Vale, eso tiene buena pinta.
+
+00:19:15.630 --> 00:19:19.080
+A continuación, creo que estaría bien
+añadir algunos detalles de ciencia ficción
+
+00:19:19.090 --> 00:19:21.540
+, casi como un corte
+transversal.
+
+00:19:21.550 --> 00:19:26.840
+Y para ello podemos utilizar nuestra
+herramienta de suma primitiva con una operación booleana.
+
+00:19:26.850 --> 00:19:32.660
+Bien, dibujemos
+otro cubo aquí, asegurándonos de que se
+
+00:19:32.670 --> 00:19:37.800
+interseque de esta manera, y luego pasemos
+al modo de edición, control R para
+
+00:19:38.010 --> 00:19:38.840
+crear un corte en bucle.
+
+00:19:38.850 --> 00:19:41.160
+Y esta vez desplazándose hacia arriba uno.
+
+00:19:41.170 --> 00:19:43.400
+Así que tenemos dos cortes de bucle como ese.
+
+00:19:43.410 --> 00:19:45.340
+Luego podemos pulsar la tecla tres del
+
+00:19:45.350 --> 00:19:50.520
+teclado para seleccionar nuestro modo poligonal
+y después G y X para moverlo hacia abajo
+
+00:19:50.530 --> 00:19:53.400
+hasta que estemos satisfechos con el ángulo.
+
+00:19:53.410 --> 00:19:54.840
+Voy a ajustar
+
+00:19:55.690 --> 00:19:58.360
+un poco la escala de todo, a acercarlo.
+
+00:19:58.370 --> 00:19:59.200
+Solo presiono la tecla
+
+00:19:59.210 --> 00:20:02.360
+X dos veces para moverlo a nuestro
+espacio de coordenadas local.
+
+00:20:02.370 --> 00:20:05.720
+Y creo que eso está bastante bien.
+
+00:20:05.730 --> 00:20:08.220
+Bien, ahora para crear nuestra
+
+00:20:08.230 --> 00:20:11.860
+operación booleana, podemos hacerlo
+en nuestro modificador aquí, o
+
+00:20:11.870 --> 00:20:16.520
+podríamos aprovechar otro
+complemento que viene con Blender
+
+00:20:16.530 --> 00:20:17.080
+llamado bool tool.
+
+00:20:17.090 --> 00:20:19.000
+Para habilitarlo,
+
+00:20:19.010 --> 00:20:25.000
+iremos a preferencias,
+complementos y, esta vez, buscaremos
+
+00:20:25.010 --> 00:20:28.140
+bool y activaremos la herramienta bool.
+
+00:20:28.150 --> 00:20:31.180
+Y esto simplemente nos permite seleccionar
+
+00:20:31.190 --> 00:20:35.140
+nuestra herramienta de corte aquí, seleccionar lo que
+queremos cortar y luego Control
+
+00:20:35.610 --> 00:20:37.700
++ Shift + B, y luego
+activamos nuestra herramienta booleana.
+
+00:20:37.710 --> 00:20:41.220
+Y esta vez queremos usar el
+pincel booleano, que es la
+
+00:20:41.230 --> 00:20:45.920
+forma no destructiva de hacerlo y
+seleccionar la sección.
+
+00:20:45.930 --> 00:20:50.860
+Ahora tenemos dos elementos en nuestra
+pierna, y se puede ver que el
+
+00:20:50.870 --> 00:20:53.300
+bisel no llega hasta el final.
+
+00:20:53.310 --> 00:20:55.060
+Para solucionar eso, solo tenemos que
+
+00:20:55.070 --> 00:20:58.880
+asegurarnos de que nuestro bisel esté por debajo de nuestro
+corte booleano.
+
+00:20:59.630 --> 00:21:01.440
+Y una vez más.
+
+00:21:01.450 --> 00:21:01.620
+Excelente.
+
+00:21:01.630 --> 00:21:03.140
+Eso es exactamente lo que queremos.
+
+00:21:03.150 --> 00:21:03.300
+Bueno.
+
+00:21:03.310 --> 00:21:07.820
+Ahora que hemos terminado eso,
+podemos llevarnos todo este conjunto.
+
+00:21:07.830 --> 00:21:12.700
+Así que simplemente hago clic con la tecla Shift en todo
+y voy a ajustar a la
+
+00:21:12.710 --> 00:21:17.860
+vista lateral y presionar Alt y D para
+duplicarlo con los datos del objeto vinculado.
+
+00:21:17.870 --> 00:21:23.600
+Entonces, los duplicados efectivamente tienen
+la misma malla y luego colóquelo así
+
+00:21:23.610 --> 00:21:27.260
+, luego mantenga presionada la tecla Shift y haga
+clic derecho con el cursor en el medio
+
+00:21:27.270 --> 00:21:32.620
+y asegúrese de que estamos girando
+alrededor de nuestro cursor 3D y simplemente muévalo
+
+00:21:33.150 --> 00:21:34.260
+aproximadamente a la posición.
+
+00:21:34.270 --> 00:21:34.520
+Bueno.  Se ve
+
+00:21:34.530 --> 00:21:35.100
+bien.
+
+00:21:35.110 --> 00:21:37.620
+Volvamos a tomar nuestro pequeño
+
+00:21:37.630 --> 00:21:41.460
+elemento cilíndrico, presionemos Alt y D
+y movámoslo hacia abajo.
+
+00:21:41.470 --> 00:21:45.400
+Y como pueden ver, estamos fortaleciendo
+bien nuestra pierna.
+
+00:21:45.410 --> 00:21:48.900
+Lo único que realmente necesitamos
+hacer es agregar un pie y podemos convertirlo
+
+00:21:48.910 --> 00:21:53.660
+nuevamente en un simple cubo,
+usando nuestra herramienta de agregar primitivas de esta manera
+
+00:21:53.670 --> 00:21:57.440
+, ajustándola a la vista lateral y
+moviéndola a su lugar.
+
+00:21:57.450 --> 00:22:01.000
+Vamos a volver a usar nuestro
+cuadro delimitador.
+
+00:22:01.010 --> 00:22:06.880
+Y una forma rápida de copiar nuestros
+modificadores es simplemente tener el pie
+
+00:22:06.890 --> 00:22:11.780
+seleccionado, presionar Shift y hacer clic en el
+segmento de la pierna y luego movernos a nuestros
+
+00:22:11.790 --> 00:22:12.280
+modificadores aquí.
+
+00:22:12.290 --> 00:22:14.840
+Y para el bisel, simplemente queremos
+
+00:22:14.850 --> 00:22:16.840
+copiarlo a la selección de esta manera.
+
+00:22:16.850 --> 00:22:17.200
+Bueno.
+
+00:22:17.210 --> 00:22:21.560
+Vamos a suavizar automáticamente esa zona, y
+ya tenemos la pierna en su sitio.
+
+00:22:21.570 --> 00:22:23.580
+Así que seleccionemos todos estos elementos.
+
+00:22:23.590 --> 00:22:26.120
+Voy a mover la mía un
+
+00:22:26.370 --> 00:22:30.800
+poco hacia adentro, así, y también
+un poco hacia arriba, para que descanse en el
+
+00:22:30.810 --> 00:22:34.500
+suelo y estemos listos para crear
+la segunda pata, lo cual, por suerte,
+
+00:22:34.510 --> 00:22:34.960
+es bastante fácil.
+
+00:22:34.970 --> 00:22:37.880
+Todo lo que tenemos que hacer es colocar nuestro
+
+00:22:37.890 --> 00:22:43.860
+cursor en el origen del mundo con
+shift y S, y seleccionar todos los elementos de nuestra pierna de esta manera
+
+00:22:43.870 --> 00:22:44.580
+.
+
+00:22:44.590 --> 00:22:48.000
+Asegúrese de que nuestro espacio de pivote de transformación
+
+00:22:48.010 --> 00:22:53.220
+esté en el cursor 3D y luego ALT
+y D para duplicar todos nuestros
+
+00:22:53.230 --> 00:22:59.320
+elementos, haga clic con el botón derecho para soltar y
+luego CTRL y M y luego X para voltearlo
+
+00:22:59.330 --> 00:23:01.720
+alrededor de nuestro eje X.
+
+00:23:01.730 --> 00:23:02.680
+Vale, genial.
+
+00:23:02.690 --> 00:23:03.140
+Tiene muy buen aspecto.
+
+00:23:03.150 --> 00:23:05.080
+Y solo nos queda una cosa,
+
+00:23:05.090 --> 00:23:11.440
+que es nuestra pequeña
+calcomanía C1, que veremos a continuación.
+
+00:23:11.450 --> 00:23:11.980
+Bueno.  En
+
+00:23:12.110 --> 00:23:13.140
+realidad, esto es relativamente sencillo.  Lo único que tenemos que
+
+00:23:13.150 --> 00:23:17.020
+hacer es añadir un avión
+a la escena.
+
+00:23:17.130 --> 00:23:19.820
+Entonces, desplazar y A, plano de malla.  Vamos
+
+00:23:19.830 --> 00:23:22.340
+a rotarlo sobre el
+
+00:23:22.350 --> 00:23:24.820
+eje Y.
+
+00:23:24.830 --> 00:23:28.780
+Entonces R, Y, 90 grados así, y lo
+
+00:23:28.890 --> 00:23:29.540
+moveremos hacia arriba.
+
+00:23:29.550 --> 00:23:31.640
+Voy a ponerme en
+
+00:23:31.650 --> 00:23:36.060
+vista ortográfica aquí y a un
+lado así.
+
+00:23:36.310 --> 00:23:41.280
+Ahora que lo tenemos seleccionado, podemos entrar
+en el modo de edición, hacer clic con el botón derecho y subdividir.
+
+00:23:41.290 --> 00:23:44.680
+De nuevo, en la información sobre herramientas,
+aquí abajo a la izquierda, podemos
+
+00:23:44.690 --> 00:23:47.960
+añadirle bastantes subdivisiones.
+
+00:23:48.330 --> 00:23:49.020
+Vamos con 10.
+
+00:23:49.030 --> 00:23:53.360
+Y ahora solo queda
+dibujar la forma que queremos.
+
+00:23:53.370 --> 00:23:58.120
+Así que para una C aquí, simplemente voy a
+dibujar una C de esa manera.
+
+00:23:58.130 --> 00:24:01.780
+Y entonces uno va a ser
+realmente simple como ese.
+
+00:24:01.790 --> 00:24:06.860
+Y entonces lo único que tenemos que hacer es
+invertir esa selección, pulsar la X y
+
+00:24:06.870 --> 00:24:07.000
+eliminar las caras.
+
+00:24:07.010 --> 00:24:08.500
+Ahora bien, si quieres darle un toque más sofisticado,
+
+00:24:08.510 --> 00:24:12.140
+podrías añadir algún
+detalle en las esquinas.
+
+00:24:12.150 --> 00:24:17.780
+Podría simplemente agregar algunos
+biseles de vértice seleccionando estos
+
+00:24:17.790 --> 00:24:19.900
+vértices, haciendo clic con el botón derecho y luego biselando vértices.  Como
+
+00:24:19.910 --> 00:24:22.200
+puedes ver, eso le da un
+
+00:24:22.210 --> 00:24:23.020
+aspecto bastante genial.
+
+00:24:23.030 --> 00:24:23.220
+Bueno.
+
+00:24:23.230 --> 00:24:28.440
+Volvamos al
+modo ortográfico, reduzcamos su tamaño y
+
+00:24:28.450 --> 00:24:30.140
+coloquémoslo aproximadamente donde lo deseamos.
+
+00:24:30.150 --> 00:24:31.980
+Voy a volver a
+
+00:24:31.990 --> 00:24:35.840
+centrar el cuadro delimitador y mover
+todo un poco.
+
+00:24:35.850 --> 00:24:36.040
+Bueno.
+
+00:24:36.050 --> 00:24:37.520
+Eso me parece bien.
+
+00:24:37.530 --> 00:24:42.320
+Así que volvamos al
+modo objeto y, en nuestros modificadores
+
+00:24:42.330 --> 00:24:46.960
+, agreguemos una
+superficie de subdivisión, pero esta vez
+
+00:24:46.970 --> 00:24:47.540
+mantengámosla simple.
+
+00:24:47.550 --> 00:24:49.160
+Esto nos da un poco
+
+00:24:49.170 --> 00:24:54.160
+más de geometría para hacer nuestro siguiente
+modificador, que es el ajuste de contracción.
+
+00:24:54.170 --> 00:24:59.140
+Y de nuevo, queremos envolverlo
+contra nuestra superficie de esta manera, pero
+
+00:24:59.750 --> 00:25:02.200
+queremos proyectarlo.  Así que de
+
+00:25:02.210 --> 00:25:02.660
+nuevo, proyecto.
+
+00:25:02.670 --> 00:25:07.740
+Queremos hacerlo en nuestras
+coordenadas X y, negativamente,
+
+00:25:07.750 --> 00:25:08.140
+no funciona.
+
+00:25:08.150 --> 00:25:10.480
+Esto se debe a que olvidamos aplicar la
+
+00:25:10.650 --> 00:25:11.440
+rotación y la escala.  Así que hagámoslo
+
+00:25:11.710 --> 00:25:13.260
+.
+
+00:25:13.270 --> 00:25:13.660
+Ahora funciona.
+
+00:25:13.670 --> 00:25:15.940
+Ahora, lo único que tenemos que hacer es
+
+00:25:15.950 --> 00:25:21.520
+bajar hasta el final y desplazarlo
+ligeramente.
+
+00:25:21.530 --> 00:25:22.820
+Ahí vamos.
+
+00:25:22.830 --> 00:25:23.200
+Tiene buen aspecto.
+
+00:25:23.210 --> 00:25:23.560
+Bueno.  Ya hemos terminado con la calcomanía
+
+00:25:23.570 --> 00:25:24.500
+.
+
+00:25:24.510 --> 00:25:28.460
+Ahora podemos centrarnos en el acabado superficial,
+que será bastante rápido.
+
+00:25:28.490 --> 00:25:31.980
+Y para nuestros materiales, simplemente vamos
+a usar este estándar BSDF.  Para ello
+
+00:25:31.990 --> 00:25:36.780
+, cambiemos
+a la vista renderizada.
+
+00:25:36.790 --> 00:25:40.900
+No parece especialmente emocionante
+hasta que introduzcamos un HDRI, pero
+
+00:25:40.910 --> 00:25:47.140
+pasemos al editor de sombreadores,
+vayamos al mundo y carguemos un HDRI.
+
+00:25:47.150 --> 00:25:53.840
+Vamos a crear una textura de entorno
+y el HDRI que voy a usar
+
+00:25:53.850 --> 00:25:57.220
+está disponible en Polyhaven y se
+llama large running.
+
+00:25:57.230 --> 00:25:59.880
+Así que podemos descargar un archivo 2K HDR.
+
+00:25:59.890 --> 00:26:01.240
+Eso debería estar
+
+00:26:01.250 --> 00:26:02.360
+más que bien.
+
+00:26:02.370 --> 00:26:04.700
+Luego, conecta esto a la
+
+00:26:04.710 --> 00:26:10.860
+entrada de color de nuestro fondo y abre
+el archivo HDR recién descargado.
+
+00:26:10.870 --> 00:26:12.320
+Cargar eso se ve bien.
+
+00:26:12.330 --> 00:26:13.620
+Sin embargo, no queremos verlo
+
+00:26:13.630 --> 00:26:15.020
+en segundo plano.
+
+00:26:15.030 --> 00:26:19.100
+Entonces agreguemos un segundo fondo
+
+00:26:19.110 --> 00:26:24.920
+y un sombreador de mezcla como este
+conectándolo a nuestra segunda
+
+00:26:24.930 --> 00:26:31.880
+entrada y el factor puede ser el
+rayo de la cámara de la trayectoria de la luz de esa manera.
+
+00:26:31.890 --> 00:26:34.560
+Ahora tenemos uno para nuestro
+fondo, que voy
+
+00:26:34.570 --> 00:26:40.420
+a reducir a un gris oscuro, y otro
+para nuestro HDRI, que es el que toman
+
+00:26:40.450 --> 00:26:40.960
+los sombreadores.
+
+00:26:41.130 --> 00:26:41.880
+Vale, tiene buena pinta.
+
+00:26:41.890 --> 00:26:46.320
+Ahora podemos pasar a las
+opciones de renderizado y asegurarnos de que la
+
+00:26:46.330 --> 00:26:46.660
+oclusión ambiental esté marcada.
+
+00:26:46.670 --> 00:26:46.940
+Voy
+
+00:26:46.950 --> 00:26:51.340
+a subir el volumen a uno y empezar a
+construir nuestros materiales.
+
+00:26:51.350 --> 00:26:54.900
+En primer lugar, para la taza en sí,
+creo que podemos optar por algo sencillo.
+
+00:26:54.910 --> 00:27:00.560
+Así que voy a aplicar la técnica de cuproníquel aquí
+y darle una especie de
+
+00:27:01.010 --> 00:27:05.700
+color blanco roto beige, así, y un
+valor de rugosidad bastante bajo, creo que se
+
+00:27:05.710 --> 00:27:06.240
+ve bien.
+
+00:27:06.250 --> 00:27:06.460
+Esto
+
+00:27:06.470 --> 00:27:10.980
+va a cambiar nuestro mundo a un
+objeto aquí para que podamos ver lo que
+
+00:27:10.990 --> 00:27:11.680
+estamos haciendo.
+
+00:27:11.690 --> 00:27:12.120
+
+
+00:27:12.370 --> 00:27:14.180
+Aquí también queremos otro color.
+
+00:27:14.190 --> 00:27:16.360
+Así que vamos a crear
+
+00:27:16.370 --> 00:27:21.400
+una nueva ranura de material y llamarla
+taza dos y darle un color anaranjado
+
+00:27:21.410 --> 00:27:21.720
+.
+
+00:27:21.730 --> 00:27:24.660
+Y luego podemos entrar en modo de edición
+
+00:27:24.670 --> 00:27:28.460
+y seleccionar esa mitad inferior, simplemente haz clic en
+asignar de esa manera.
+
+00:27:28.470 --> 00:27:29.900
+Me gusta ese color naranja.
+
+00:27:29.910 --> 00:27:32.300
+Así que pongamos eso en nuestro texto.
+
+00:27:32.310 --> 00:27:36.620
+Así que podemos añadir una ranura de material y
+simplemente seleccionar nuestra taza dos.
+
+00:27:36.630 --> 00:27:40.660
+Y de nuevo para las piernas, nueva
+ranura de material, copa dos.
+
+00:27:40.670 --> 00:27:45.160
+Y eso se rellena automáticamente
+porque hemos vinculado los
+
+00:27:45.170 --> 00:27:46.660
+datos del objeto cuando lo duplicamos.
+
+00:27:46.670 --> 00:27:49.380
+Y para nuestros pies, la copa dos parece adecuada.
+
+00:27:49.450 --> 00:27:53.320
+Ahora bien, en cuanto a los elementos de unión,
+creo que sería bueno tener algo de metal.
+
+00:27:53.330 --> 00:27:59.080
+Así que vamos a crear un nuevo material y
+llamarlo simplemente metal, y aumentar
+
+00:27:59.090 --> 00:28:04.040
+el aspecto metálico y disminuir
+un poco la rugosidad, así.
+
+00:28:04.050 --> 00:28:08.740
+Nuestro pequeño ojo aquí también puede tener
+ese material metálico, simplemente entrando
+
+00:28:08.750 --> 00:28:13.400
+en modo de edición aquí, pero también más bien
+un material de lente para el frente aquí.
+
+00:28:14.350 --> 00:28:19.320
+Así que vamos a crear un nuevo material,
+llamémoslo lente, y vamos a usar
+
+00:28:19.330 --> 00:28:22.920
+un azul oscuro muy brillante, reduciendo
+esa rugosidad y luego
+
+00:28:22.930 --> 00:28:26.320
+asignándolo con él seleccionado en nuestra
+vista de modelo.
+
+00:28:26.570 --> 00:28:26.820
+Vale, genial.
+
+00:28:26.830 --> 00:28:28.880
+Ahora, para el mango, podemos
+
+00:28:28.890 --> 00:28:32.720
+usar simplemente ese color como nuestro
+color inicial blanco roto.
+
+00:28:32.850 --> 00:28:36.160
+Y para la parte insertada aquí,
+podemos usar nuestra taza número dos.
+
+00:28:36.170 --> 00:28:39.800
+Ahora, para darle un poco más de
+vida, podemos añadirle
+
+00:28:39.810 --> 00:28:41.700
+una pupila aquí.
+
+00:28:41.710 --> 00:28:44.720
+Así que vamos a entrar y seleccionar
+
+00:28:44.730 --> 00:28:49.100
+nuestro elemento frontal, pulsando L,
+shift y D y moverlo hacia afuera, reducir su tamaño
+
+00:28:49.110 --> 00:28:52.780
+y volver a moverlo un
+poco hacia atrás.
+
+00:28:52.790 --> 00:28:54.120
+Así que, más o menos, está ahí.
+
+00:28:54.130 --> 00:28:55.860
+Crear un nuevo material.
+
+00:28:55.870 --> 00:28:56.780
+Llamémoslo alumno.
+
+00:28:56.790 --> 00:28:56.920
+Bueno.
+
+00:28:56.930 --> 00:28:59.040
+Y queremos que sea prácticamente igual que
+la lente.
+
+00:28:59.050 --> 00:29:04.420
+Así que podemos copiar eso y pegarlo
+en nuestro material de pupila, excepto la emisión.
+
+00:29:04.430 --> 00:29:07.740
+Queremos que sea un azul realmente bonito
+aquí.
+
+00:29:07.750 --> 00:29:13.080
+Así que asignémoslo a nuestro
+modelo, a nuestra malla de pupila recién creada.  Se ve
+
+00:29:13.090 --> 00:29:13.420
+bien.
+
+00:29:13.430 --> 00:29:14.500
+Y en cuanto a la intensidad de la emisión, vamos a subirla
+
+00:29:15.050 --> 00:29:18.420
+hasta tres, lo que
+nos permite acceder a las
+
+00:29:18.430 --> 00:29:23.880
+opciones de renderizado y activar el efecto
+bloom para conseguir ese bonito efecto de brillo.
+
+00:29:23.890 --> 00:29:24.460
+Vale, genial.
+
+00:29:24.470 --> 00:29:26.520
+Ahora que tenemos nuestro modelo aquí,
+
+00:29:26.530 --> 00:29:30.480
+para renderizarlo, podemos
+añadir rápidamente una cámara asegurándonos primero de que el
+
+00:29:30.490 --> 00:29:34.200
+cursor esté en el origen del mundo.
+
+00:29:34.210 --> 00:29:37.520
+Entonces, presiona Shift + S, mueve el cursor al
+
+00:29:37.530 --> 00:29:40.540
+origen del mundo y luego agrega Shift +
+A para la cámara.
+
+00:29:40.550 --> 00:29:46.280
+Ahora bien, si colocamos la cámara aproximadamente donde la
+queremos utilizando las herramientas de
+
+00:29:46.290 --> 00:29:52.580
+navegación normales de la ventana gráfica 3D
+, podemos ir a la vista,
+
+00:29:52.590 --> 00:29:54.580
+alinear la vista y alinear la cámara activa con la vista.
+
+00:29:54.590 --> 00:29:59.420
+Y esto suponiendo que la
+
+00:29:59.430 --> 00:30:00.480
+cámara siga seleccionada.
+
+00:30:00.490 --> 00:30:00.700
+Excelente.
+
+00:30:00.710 --> 00:30:02.680
+Ahora podemos ajustarlo
+un poco a mano.
+
+00:30:02.690 --> 00:30:08.940
+Voy a pulsar G y Z
+dos veces para moverlo de vuelta sobre su
+
+00:30:08.950 --> 00:30:09.640
+propio eje, así.
+
+00:30:09.650 --> 00:30:13.620
+Y luego voy a compensar
+
+00:30:13.630 --> 00:30:19.600
+el encuadre aumentando la
+distancia focal a un objetivo más adecuado para retratos
+
+00:30:19.610 --> 00:30:19.840
+.
+
+00:30:19.850 --> 00:30:19.960
+Bueno.
+
+00:30:19.970 --> 00:30:23.260
+Y ahora podemos simplemente pulsar F12.
+
+00:30:23.270 --> 00:30:25.240
+Vale, ya tenemos listo nuestro robot de tazas y
+
+00:30:25.250 --> 00:30:28.400
+voy a llenar el mío con un
+café que me dé vida.
+
+00:30:28.410 --> 00:30:31.000
+Sin embargo, les animo a que lo hagan
+suyo.
+
+00:30:31.010 --> 00:30:33.900
+Quizás prefieras té o
+chocolate caliente y, bueno, al fin y al cabo, solo es un recipiente.
+
+00:30:33.910 --> 00:30:38.240
+Así que quizás quieras llenarlo de
+lápices, convertirlo en una maceta o
+
+00:30:38.250 --> 00:30:38.880
+algo completamente diferente.
+
+00:30:38.890 --> 00:30:41.400
+Y si lo haces, asegúrate de compartirlo
+
+00:30:41.410 --> 00:30:46.320
+con nosotros en CGBoost, con la
+comunidad de CGBoost o en los distintos canales de redes sociales.
+
+00:30:46.330 --> 00:30:49.100
+Además, si te has divertido con esto y quieres
+un reto mayor,
+
+00:30:49.110 --> 00:30:53.560
+te recomendamos que eches un vistazo al
+curso de Robot Planet, donde
+
+00:30:53.710 --> 00:30:56.240
+cubrimos temas más avanzados como
+sombreadores procedimentales, rigging, animación y
+
+00:30:56.250 --> 00:30:56.680
+mucho más.  Puedes
+
+00:30:56.690 --> 00:30:58.440
+consultar el enlace en la
+
+00:30:58.450 --> 00:31:00.716
+descripción y espero verte allí.
+

@@ -1,0 +1,1705 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:00.000 --> 00:00:03.760
+I've covered FastAPI several times in my previous videos.
+
+00:00:03.760 --> 00:00:06.840
+Today, I'd like to dive in a bit deeper and talk about
+
+00:00:06.840 --> 00:00:08.560
+a few things that you typically won't
+
+00:00:08.560 --> 00:00:10.920
+find in most API tutorials online.
+
+00:00:10.920 --> 00:00:13.440
+I'm going to cover four things that will help you,
+
+00:00:13.440 --> 00:00:15.080
+especially if you want to create a backend
+
+00:00:15.080 --> 00:00:17.080
+that's used in a production setting.
+
+00:00:17.080 --> 00:00:18.959
+This video is sponsored by Pulumi,
+
+00:00:18.959 --> 00:00:21.639
+which is an infrastructure as code solution.
+
+00:00:21.639 --> 00:00:24.000
+I'll talk more about them later in the video.
+
+00:00:24.000 --> 00:00:26.360
+Now, let's dive into FastAPI.
+
+00:00:26.360 --> 00:00:28.520
+The example that I'm going to cover today is
+
+00:00:28.559 --> 00:00:30.920
+a simple FastAPI backend
+
+00:00:30.920 --> 00:00:35.080
+that has both items and automations.
+
+00:00:35.080 --> 00:00:37.799
+The items are just simple things
+
+00:00:37.799 --> 00:00:39.119
+that you can put in a database.
+
+00:00:39.119 --> 00:00:40.480
+So there are create, read, update,
+
+00:00:40.480 --> 00:00:42.520
+and delete operations on them.
+
+00:00:42.520 --> 00:00:45.720
+Next to that, you have automations that you can run
+
+00:00:45.720 --> 00:00:48.480
+whenever something happens to an item.
+
+00:00:48.480 --> 00:00:51.799
+And I've added a feature here where if you update the item,
+
+00:00:51.799 --> 00:00:54.520
+then some sort of automation is going to be run.
+
+00:00:54.520 --> 00:00:57.360
+And the idea of the automation is also pretty simple.
+
+00:00:57.360 --> 00:01:00.040
+It just runs a piece of Python code.
+
+00:01:00.040 --> 00:01:02.000
+You can, of course, build out these automations
+
+00:01:02.000 --> 00:01:05.680
+more by adding things like triggers, webhooks,
+
+00:01:05.680 --> 00:01:08.480
+different paths, depending on certain conditions, et cetera.
+
+00:01:08.480 --> 00:01:09.639
+I'm not going to do that today.
+
+00:01:09.639 --> 00:01:11.599
+I'm going to keep it really simple.
+
+00:01:11.599 --> 00:01:13.199
+Here's a quick overview of the code.
+
+00:01:13.199 --> 00:01:14.720
+So we have a FastAPI app.
+
+00:01:14.720 --> 00:01:15.760
+It includes some routers.
+
+00:01:15.760 --> 00:01:17.440
+I'm going to talk about that in a minute.
+
+00:01:17.440 --> 00:01:19.599
+And one part of the API
+
+00:01:19.599 --> 00:01:21.480
+is that there is a simple get request
+
+00:01:21.480 --> 00:01:24.559
+that just returns a response that the server is running.
+
+00:01:24.559 --> 00:01:27.080
+So I can start the server with uvcorn,
+
+00:01:27.080 --> 00:01:29.239
+which is a server running tool.
+
+00:01:29.239 --> 00:01:30.320
+It's very useful.
+
+00:01:30.320 --> 00:01:33.519
+And now it's running on localhost on port 8000.
+
+00:01:33.519 --> 00:01:35.559
+When I open the root URL in the browser,
+
+00:01:35.559 --> 00:01:37.239
+then this is what you get.
+
+00:01:37.239 --> 00:01:40.360
+Now, like I said, this has both items and automations.
+
+00:01:40.360 --> 00:01:43.000
+That's actually pretty easy to read items as well
+
+00:01:43.000 --> 00:01:43.839
+in the browser.
+
+00:01:43.839 --> 00:01:47.400
+So I can simply type, for example, items one,
+
+00:01:47.400 --> 00:01:49.720
+and then it's going to return a JSON structure
+
+00:01:49.720 --> 00:01:51.320
+representing a particular item,
+
+00:01:51.320 --> 00:01:52.839
+in this case, a coffee machine.
+
+00:01:52.839 --> 00:01:54.480
+I'll cover the automation aspect
+
+00:01:54.480 --> 00:01:56.839
+of this API later on in the video.
+
+00:01:57.599 --> 00:01:58.919
+Now, the first thing that I want to show you
+
+00:01:58.919 --> 00:02:00.919
+is that if you have multiple endpoints,
+
+00:02:00.919 --> 00:02:04.720
+like items, automations, users, whatever,
+
+00:02:04.720 --> 00:02:05.879
+then it's going to be helpful
+
+00:02:05.879 --> 00:02:08.919
+to split these things up in different routes.
+
+00:02:08.919 --> 00:02:12.000
+And FastAPI has a router mechanism for that.
+
+00:02:12.000 --> 00:02:13.199
+And what this is going to do for you
+
+00:02:13.199 --> 00:02:16.160
+is that this will avoid you having to put all the routes
+
+00:02:16.160 --> 00:02:17.839
+into a single file.
+
+00:02:17.839 --> 00:02:21.080
+And unfortunately, most examples online
+
+00:02:21.080 --> 00:02:23.320
+explaining how to get started with FastAPI
+
+00:02:23.320 --> 00:02:24.440
+don't use routers.
+
+00:02:24.440 --> 00:02:26.440
+They simply put everything in the main file.
+
+00:02:26.759 --> 00:02:29.720
+So if you want to build a more complex API application,
+
+00:02:29.720 --> 00:02:30.639
+this is not going to work
+
+00:02:30.639 --> 00:02:33.080
+because your main file is going to be huge.
+
+00:02:33.080 --> 00:02:36.759
+So routers are a really good way of organizing this.
+
+00:02:36.759 --> 00:02:37.600
+So in the main file,
+
+00:02:37.600 --> 00:02:41.600
+you can see that I have here two routers that I've imported.
+
+00:02:41.600 --> 00:02:43.080
+There's the items router
+
+00:02:43.080 --> 00:02:45.479
+and there's the automations router.
+
+00:02:45.479 --> 00:02:48.960
+So these represent each a group of endpoints.
+
+00:02:48.960 --> 00:02:50.399
+And then in order to use them,
+
+00:02:50.399 --> 00:02:51.919
+I simply include them in the app
+
+00:02:51.919 --> 00:02:54.160
+using the include router methods.
+
+00:02:54.160 --> 00:02:55.839
+And then it knows these endpoints.
+
+00:02:56.000 --> 00:02:57.479
+And what I've created in the API
+
+00:02:57.479 --> 00:03:00.479
+is that I have here a routers folder
+
+00:03:00.479 --> 00:03:02.559
+where I have my various routers.
+
+00:03:02.559 --> 00:03:04.520
+So there's, for example, the items router,
+
+00:03:04.520 --> 00:03:05.919
+which looks like this.
+
+00:03:05.919 --> 00:03:06.960
+And there's some other things in here
+
+00:03:06.960 --> 00:03:08.880
+that I'm going to cover in a minute as well.
+
+00:03:08.880 --> 00:03:09.880
+So the first thing that you see
+
+00:03:09.880 --> 00:03:12.679
+is that I create a router, API router.
+
+00:03:12.679 --> 00:03:16.119
+This is a feature of FastAPI and I give it a prefix.
+
+00:03:16.119 --> 00:03:19.360
+So now any endpoints that are part of this router
+
+00:03:19.360 --> 00:03:21.919
+fall under this prefix.
+
+00:03:21.919 --> 00:03:24.639
+That means, for example, if I have a get method,
+
+00:03:24.639 --> 00:03:26.039
+and then the item ID,
+
+00:03:26.039 --> 00:03:28.279
+it means you can get this by navigating
+
+00:03:28.279 --> 00:03:32.119
+to root URL slash items slash the ID.
+
+00:03:32.119 --> 00:03:35.000
+So slash item is put in front of every endpoint.
+
+00:03:35.000 --> 00:03:37.080
+And then each route simply contains the code
+
+00:03:37.080 --> 00:03:39.720
+that needs to be run when you call that endpoint.
+
+00:03:39.720 --> 00:03:42.440
+So it's creating an item, there's reading an item,
+
+00:03:42.440 --> 00:03:45.440
+there's reading item automations.
+
+00:03:45.440 --> 00:03:47.039
+So this reads the automations
+
+00:03:47.039 --> 00:03:49.320
+that are associated with an item.
+
+00:03:49.320 --> 00:03:51.679
+We have an update item function
+
+00:03:51.679 --> 00:03:54.800
+and we have a delete item endpoint.
+
+00:03:54.800 --> 00:03:57.880
+So that's how the items router is set up.
+
+00:03:57.880 --> 00:04:01.240
+And if you take a look at the automations router,
+
+00:04:01.240 --> 00:04:03.280
+is that actually pretty similar,
+
+00:04:03.280 --> 00:04:07.080
+except we have a different router with a different prefix.
+
+00:04:07.080 --> 00:04:10.560
+So here it's not slash items, but it's slash automations.
+
+00:04:10.560 --> 00:04:12.960
+And also here we have a create automation,
+
+00:04:12.960 --> 00:04:14.560
+read automation,
+
+00:04:14.560 --> 00:04:15.800
+oh, scrolling too far,
+
+00:04:15.800 --> 00:04:19.000
+update automation and delete automation.
+
+00:04:19.000 --> 00:04:20.480
+And actually here's an error,
+
+00:04:20.480 --> 00:04:22.879
+this should be automation.
+
+00:04:22.879 --> 00:04:25.160
+Actually, FastAPI doesn't really care
+
+00:04:25.160 --> 00:04:26.760
+what the names of these functions are,
+
+00:04:26.760 --> 00:04:28.980
+but of course we should call this correctly.
+
+00:04:28.980 --> 00:04:30.619
+And it's all set up in a very similar way
+
+00:04:30.640 --> 00:04:32.560
+to how the items router is set up.
+
+00:04:32.560 --> 00:04:34.519
+That's why this function was called delete item
+
+00:04:34.519 --> 00:04:36.320
+because I just copy pasted everything.
+
+00:04:36.320 --> 00:04:37.839
+So in the items route, for example,
+
+00:04:37.839 --> 00:04:41.879
+create item needs an item create objects
+
+00:04:41.879 --> 00:04:44.120
+that contains all the information about the item.
+
+00:04:44.120 --> 00:04:45.339
+I'll show that in a minute.
+
+00:04:45.339 --> 00:04:48.460
+Then getting an item simply needs an item ID,
+
+00:04:48.460 --> 00:04:50.560
+which is in this case an integer.
+
+00:04:50.560 --> 00:04:54.879
+And reading item automations also only needs an item ID.
+
+00:04:54.879 --> 00:04:57.679
+And then it's going to return a list of automations.
+
+00:04:57.679 --> 00:05:00.480
+Updating an item needs an item update object,
+
+00:05:01.339 --> 00:05:02.420
+which contains information about the item.
+
+00:05:02.420 --> 00:05:03.740
+That'll also show in a minute.
+
+00:05:03.740 --> 00:05:05.460
+And then finally we have deleting the item
+
+00:05:05.460 --> 00:05:07.140
+that simply needs an item ID.
+
+00:05:07.140 --> 00:05:08.299
+And for automations,
+
+00:05:08.299 --> 00:05:10.420
+the way to set up is exactly the same.
+
+00:05:10.420 --> 00:05:13.100
+So if you create an API that has multiple groups
+
+00:05:13.100 --> 00:05:15.339
+of endpoints, like items, automations used,
+
+00:05:15.339 --> 00:05:17.759
+I really recommend that you use routers for this.
+
+00:05:17.759 --> 00:05:19.060
+So that's the first thing
+
+00:05:19.060 --> 00:05:21.619
+that's going to help you organize your code better.
+
+00:05:21.619 --> 00:05:23.500
+The second thing that you're not going to see
+
+00:05:23.500 --> 00:05:27.379
+in most examples online is that directly write the code
+
+00:05:27.379 --> 00:05:29.259
+that should happen if you call the endpoint
+
+00:05:29.259 --> 00:05:31.519
+inside the endpoint function.
+
+00:05:31.519 --> 00:05:34.759
+And if you're creating a more complex API application,
+
+00:05:34.759 --> 00:05:37.199
+that's not really a good way to do things.
+
+00:05:37.199 --> 00:05:40.799
+For one, the endpoint will then contain everything,
+
+00:05:40.799 --> 00:05:42.799
+which makes it harder to test.
+
+00:05:42.799 --> 00:05:44.560
+The second thing is that you're actually,
+
+00:05:44.560 --> 00:05:45.400
+if you're doing that,
+
+00:05:45.400 --> 00:05:47.740
+you're mixing up two responsibilities.
+
+00:05:47.740 --> 00:05:50.119
+You're mixing up routing,
+
+00:05:50.119 --> 00:05:53.119
+which is organizing where which endpoint is
+
+00:05:53.119 --> 00:05:54.400
+and how you should call it,
+
+00:05:54.400 --> 00:05:58.299
+together with the actual behavior of the endpoint code.
+
+00:05:58.299 --> 00:05:59.799
+And next to making things harder to test,
+
+00:05:59.799 --> 00:06:01.640
+that's also going to make things harder to read,
+
+00:06:01.640 --> 00:06:02.600
+because then, again,
+
+00:06:02.600 --> 00:06:05.079
+your files that contain all the routes
+
+00:06:05.079 --> 00:06:07.479
+for a particular router are going to get very long.
+
+00:06:07.479 --> 00:06:08.680
+And finally, you're not a problem
+
+00:06:08.680 --> 00:06:12.719
+with writing all that code in your endpoint function.
+
+00:06:12.719 --> 00:06:14.480
+That also means that if, let's say,
+
+00:06:14.480 --> 00:06:16.799
+you ever want to create a command line application,
+
+00:06:16.799 --> 00:06:20.159
+for example, that does the same things as your backend,
+
+00:06:20.159 --> 00:06:22.719
+then you have to copy paste all of that code,
+
+00:06:22.719 --> 00:06:24.680
+or you have to do a lot of refactoring work.
+
+00:06:24.680 --> 00:06:27.240
+So if you want to create a more complex API
+
+00:06:27.260 --> 00:06:29.579
+with lots of route groups
+
+00:06:29.579 --> 00:06:31.460
+containing lots of different routes,
+
+00:06:31.460 --> 00:06:34.700
+then you should also separate the routing part
+
+00:06:34.700 --> 00:06:38.019
+of your application from the actual operations.
+
+00:06:38.019 --> 00:06:39.900
+And this is actually what I've done here.
+
+00:06:39.900 --> 00:06:42.219
+So if you look at, let's say,
+
+00:06:42.219 --> 00:06:46.180
+let's take creating an item, which is here.
+
+00:06:46.180 --> 00:06:47.620
+So creating an item,
+
+00:06:47.620 --> 00:06:51.100
+the endpoint function is basically almost empty, right?
+
+00:06:51.100 --> 00:06:53.260
+It calls a create database item,
+
+00:06:53.260 --> 00:06:55.180
+which is the actual operation.
+
+00:06:55.200 --> 00:06:57.560
+It passes the item create object,
+
+00:06:57.560 --> 00:06:59.279
+show you what that is in a minute,
+
+00:06:59.279 --> 00:07:02.560
+and it also passes a link to the session,
+
+00:07:02.560 --> 00:07:04.320
+the database session.
+
+00:07:04.320 --> 00:07:05.919
+And then once that's done,
+
+00:07:05.919 --> 00:07:08.879
+then we have a database item object
+
+00:07:08.879 --> 00:07:10.999
+that create database item gives us,
+
+00:07:10.999 --> 00:07:13.120
+and then we transform that into something
+
+00:07:13.120 --> 00:07:16.439
+that FastAPI can return as a JSON structure.
+
+00:07:16.439 --> 00:07:19.400
+So the operation, which is all in this function,
+
+00:07:19.400 --> 00:07:22.200
+is completely separate from the actual endpoint.
+
+00:07:22.200 --> 00:07:23.680
+And I'm using another thing here
+
+00:07:23.700 --> 00:07:27.100
+that's also a really important part of FastAPI,
+
+00:07:27.100 --> 00:07:28.540
+which is dependency injection.
+
+00:07:28.540 --> 00:07:32.620
+So I provide a database session to the endpoint.
+
+00:07:32.620 --> 00:07:35.180
+And that means that I can write tests
+
+00:07:35.180 --> 00:07:37.100
+for this endpoint more easily.
+
+00:07:37.100 --> 00:07:38.460
+So how does this actually work?
+
+00:07:38.460 --> 00:07:42.740
+So in FastAPI, if I go to the database section of the code,
+
+00:07:42.740 --> 00:07:46.700
+what you can do is that I have here a basic database setup.
+
+00:07:46.700 --> 00:07:49.040
+So as you can see from the imports,
+
+00:07:49.040 --> 00:07:50.900
+this part is actually independent
+
+00:07:50.900 --> 00:07:53.139
+from the FastAPI tool, right?
+
+00:07:53.600 --> 00:07:56.680
+It has some typing imports and it uses SQLAlchemy,
+
+00:07:56.680 --> 00:07:59.240
+which is an ORM to interact with the database.
+
+00:07:59.240 --> 00:08:00.240
+So it's completely separate
+
+00:08:00.240 --> 00:08:01.960
+from the routing aspect of the system,
+
+00:08:01.960 --> 00:08:03.480
+which is really important.
+
+00:08:03.480 --> 00:08:06.439
+So here I just use a simple SQLite database.
+
+00:08:06.439 --> 00:08:07.840
+So it contains a test database.
+
+00:08:07.840 --> 00:08:10.639
+You can change this to a SQL connection string
+
+00:08:10.639 --> 00:08:11.840
+if you want to,
+
+00:08:11.840 --> 00:08:13.279
+but then you'd have to make sure
+
+00:08:13.279 --> 00:08:15.400
+to not include the credentials in the code
+
+00:08:15.400 --> 00:08:17.319
+that should be in environment variables.
+
+00:08:17.319 --> 00:08:19.479
+So then using SQLAlchemy,
+
+00:08:19.479 --> 00:08:23.660
+I specify the models that are part of this database setup.
+
+00:08:23.660 --> 00:08:25.380
+So we have a declarative base,
+
+00:08:25.380 --> 00:08:27.620
+which is the core of SQLAlchemy.
+
+00:08:27.620 --> 00:08:28.900
+And then we have two things.
+
+00:08:28.900 --> 00:08:31.220
+We have a database item.
+
+00:08:31.220 --> 00:08:34.919
+So that corresponds to an items table in the database.
+
+00:08:34.919 --> 00:08:39.180
+And an item simply has an ID, a name, and a description.
+
+00:08:39.180 --> 00:08:40.019
+And that's it.
+
+00:08:40.019 --> 00:08:43.560
+And ID is a primary key and it's also an index.
+
+00:08:43.560 --> 00:08:45.800
+So that's database item, very basic.
+
+00:08:45.800 --> 00:08:47.160
+And then we have an automation.
+
+00:08:47.160 --> 00:08:49.040
+It's also very simple.
+
+00:08:49.040 --> 00:08:52.200
+We have an ID, which is again an integer.
+
+00:08:52.200 --> 00:08:55.360
+So it maps to a table automations.
+
+00:08:55.360 --> 00:08:56.640
+Forgot to mention that.
+
+00:08:56.640 --> 00:08:59.140
+So ID is also a primary key.
+
+00:08:59.140 --> 00:09:01.720
+And then we have the item ID,
+
+00:09:01.720 --> 00:09:03.680
+which is a reference to the item
+
+00:09:03.680 --> 00:09:05.439
+that the automation belongs to.
+
+00:09:05.439 --> 00:09:06.640
+And I simply specified it.
+
+00:09:06.640 --> 00:09:08.040
+This is a foreign key.
+
+00:09:08.040 --> 00:09:11.480
+It corresponds to the ID in the items table.
+
+00:09:11.480 --> 00:09:13.279
+And finally we have code.
+
+00:09:13.279 --> 00:09:15.279
+So this is the code that should be run
+
+00:09:15.279 --> 00:09:17.400
+when we want to run the automation.
+
+00:09:17.400 --> 00:09:18.640
+So that's all there is to it.
+
+00:09:18.640 --> 00:09:20.199
+That's the setup of the database.
+
+00:09:20.199 --> 00:09:22.080
+And then we have the part where we create
+
+00:09:22.080 --> 00:09:24.359
+the connection with the database
+
+00:09:24.359 --> 00:09:26.359
+so that we can use that connection,
+
+00:09:26.359 --> 00:09:28.280
+use the session in FastAPI.
+
+00:09:28.280 --> 00:09:31.159
+So first we need to create a database engine.
+
+00:09:31.159 --> 00:09:33.560
+Then we need a session maker,
+
+00:09:33.560 --> 00:09:36.199
+something that can create sessions for us.
+
+00:09:36.199 --> 00:09:37.600
+And then we create the binding
+
+00:09:37.600 --> 00:09:39.960
+so that the engine knows that these models
+
+00:09:39.960 --> 00:09:41.640
+are actually going to be used
+
+00:09:41.640 --> 00:09:45.319
+in order to interact with the database by SQL Alchemy.
+
+00:09:45.319 --> 00:09:49.519
+And then finally we have a very simple dependency.
+
+00:09:49.519 --> 00:09:52.040
+So this is a function getDatabase
+
+00:09:52.040 --> 00:09:54.920
+that actually gives a database session.
+
+00:09:54.920 --> 00:09:56.759
+And I'm using a generator for this
+
+00:09:56.759 --> 00:09:59.439
+so that we can close the database automatically
+
+00:09:59.439 --> 00:10:00.479
+when we're done.
+
+00:10:00.479 --> 00:10:03.000
+And that's what this try finally block does here.
+
+00:10:03.000 --> 00:10:06.519
+So we yield the database session that we create here.
+
+00:10:06.519 --> 00:10:07.920
+And then finally,
+
+00:10:07.920 --> 00:10:10.100
+whether you get an exception or not doesn't matter.
+
+00:10:10.100 --> 00:10:11.979
+We're going to close the database.
+
+00:10:11.979 --> 00:10:13.180
+And that's good practice
+
+00:10:13.180 --> 00:10:14.659
+to always close database connections
+
+00:10:14.659 --> 00:10:15.500
+when you don't need them
+
+00:10:15.500 --> 00:10:17.380
+because these connections start to pile up
+
+00:10:17.380 --> 00:10:19.140
+and it's gonna slow down your database
+
+00:10:19.140 --> 00:10:20.299
+if you're not careful.
+
+00:10:20.299 --> 00:10:23.180
+So then how do we set up this dependency in FastAPI?
+
+00:10:23.180 --> 00:10:25.699
+Well, if you go, for example, to the items router,
+
+00:10:25.699 --> 00:10:30.699
+you see that we import the getDatabase function from here,
+
+00:10:31.259 --> 00:10:34.780
+and then we provide it as a dependency to the function.
+
+00:10:34.780 --> 00:10:36.339
+And then FastAPI will make sure
+
+00:10:36.339 --> 00:10:37.979
+that this function gets called
+
+00:10:37.979 --> 00:10:39.579
+whenever the endpoint is called.
+
+00:10:39.579 --> 00:10:42.339
+And that way we have always a database session.
+
+00:10:42.339 --> 00:10:44.740
+You also see that I pass the database session
+
+00:10:44.740 --> 00:10:47.299
+to the createDatabaseItem operation.
+
+00:10:47.299 --> 00:10:50.699
+So this function is what's doing the actual work
+
+00:10:50.699 --> 00:10:51.580
+in the database.
+
+00:10:51.580 --> 00:10:52.860
+And of course that makes sense
+
+00:10:52.860 --> 00:10:54.860
+because you can't work in database
+
+00:10:54.860 --> 00:10:56.819
+if you don't have a database session.
+
+00:10:56.819 --> 00:10:59.399
+So if you look at the actual implementation
+
+00:10:59.399 --> 00:11:01.060
+of these operations,
+
+00:11:01.060 --> 00:11:02.819
+that's actually what's happening here
+
+00:11:02.819 --> 00:11:06.440
+in items.pi under the DB folder.
+
+00:11:06.440 --> 00:11:09.839
+So we have here a couple of pedantic models
+
+00:11:09.839 --> 00:11:11.759
+that specify the information we need
+
+00:11:11.759 --> 00:11:15.119
+in order to communicate with this part of the application.
+
+00:11:15.119 --> 00:11:18.160
+So there is an item, which has an ID, name, and description.
+
+00:11:18.160 --> 00:11:21.319
+And by the way, these classes are also used by FastAPI
+
+00:11:21.319 --> 00:11:25.880
+to return JSON structures or read JSON data.
+
+00:11:25.880 --> 00:11:28.199
+So item, ID, name, and description,
+
+00:11:28.199 --> 00:11:31.000
+very similar to how the database has been set up.
+
+00:11:31.000 --> 00:11:34.520
+And then we also have item create and item update.
+
+00:11:34.520 --> 00:11:35.920
+So in order to create an item,
+
+00:11:36.360 --> 00:11:38.039
+we need to provide a name and description.
+
+00:11:38.039 --> 00:11:40.119
+Description is optional, it's not necessary.
+
+00:11:40.119 --> 00:11:41.720
+And if we update an item,
+
+00:11:41.720 --> 00:11:44.080
+we can provide either a name or description.
+
+00:11:44.080 --> 00:11:45.800
+So we can update either one of them.
+
+00:11:45.800 --> 00:11:48.119
+And then we have the actual operation.
+
+00:11:48.119 --> 00:11:50.880
+So createDatabaseItem, for example,
+
+00:11:50.880 --> 00:11:53.839
+well, it creates a DB item object.
+
+00:11:53.839 --> 00:11:54.679
+So that's...
+
+00:11:54.679 --> 00:12:01.479
+an actual ORM model and then it uses the session to create this database item and it also returns
+
+00:12:01.479 --> 00:12:06.839
+this as a result. So you can read it and do something with it. Updating a database item
+
+00:12:06.839 --> 00:12:11.478
+also has its own code for performing that operation. So I'm first reading the database
+
+00:12:11.478 --> 00:12:16.439
+item and I'm actually reusing another operation for that. So that's the one that's here. So this
+
+00:12:16.999 --> 00:12:23.238
+queries the database and then filters it on the item ID, returns the first one. If it's not found
+
+00:12:23.238 --> 00:12:28.999
+it raises a not found error. Then updating the database item, use that to get the database item,
+
+00:12:28.999 --> 00:12:34.519
+it sets the attributes and then commits that in a session. And finally what this update
+
+00:12:34.519 --> 00:12:39.239
+operation also does is that it runs the automations, which is another part of the
+
+00:12:39.239 --> 00:12:42.759
+system that I mentioned in the beginning. So I'll just include this as a simple example.
+
+00:12:42.759 --> 00:12:47.559
+You may want to run automations in different places as well but this allows you, for example,
+
+00:12:47.559 --> 00:12:52.438
+to execute some custom code whenever an item in a database is updated. And that can be helpful,
+
+00:12:52.438 --> 00:12:57.239
+for example, if you build a webshop then if an item in the database is updated then maybe you
+
+00:12:57.239 --> 00:13:02.278
+want to run automatically some code that also updates the item's description on your website.
+
+00:13:02.278 --> 00:13:08.598
+Just a minor design remark and that's more about where you place the boundaries. So what I've done
+
+00:13:08.598 --> 00:13:15.719
+here is that the input of these functions is a pedantic base model. It's an item create or an
+
+00:13:15.719 --> 00:13:22.198
+item update or simply an integer, right? Item ID. But it returns a database item in a way that
+
+00:13:22.198 --> 00:13:26.359
+doesn't make a lot of sense because you would expect actually that this thing would then also
+
+00:13:26.359 --> 00:13:32.999
+return an item, right? It should return something of this base model because then if you call the
+
+00:13:32.999 --> 00:13:37.558
+function you don't deal with the database at all. It's completely hidden. So I haven't done that in
+
+00:13:37.558 --> 00:13:43.558
+this particular example because I'm reusing read database item and using that in other functions
+
+00:13:43.638 --> 00:13:49.638
+as well. But probably it would be even better if each of these functions returns actually an
+
+00:13:50.439 --> 00:13:52.439
+item and not a database item.
+
+00:13:52.439 --> 00:13:58.939
+And then I would simply create an internal function to read a database item that I can reuse in these endpoints.
+
+00:13:58.939 --> 00:14:06.439
+That would probably be better because then in the routers, I also wouldn't need to do this conversion step here
+
+00:14:06.439 --> 00:14:10.939
+and knowing about how database items are being implemented.
+
+00:14:10.939 --> 00:14:13.439
+So in the current implementation, this is not ideal.
+
+00:14:13.439 --> 00:14:15.439
+But this is actually something that's really easy to fix.
+
+00:14:15.439 --> 00:14:17.439
+For example, let's take this function.
+
+00:14:17.439 --> 00:14:23.119
+and make a copy of that and then let's just keep this for internal use and now
+
+00:14:23.119 --> 00:14:26.679
+this one we can change so that it returns an item and what we then can
+
+00:14:26.679 --> 00:14:31.359
+simply do is take part of the read item code
+
+00:14:31.359 --> 00:14:34.719
+like this, and then let's...
+
+00:14:34.719 --> 00:14:43.479
+change this so that it returns this and then here I'm simply going to use the
+
+00:14:43.479 --> 00:14:47.639
+readDatabaseItem that passes the item ID and the session.
+
+00:14:47.639 --> 00:14:49.719
+So now I have this new function
+
+00:14:49.719 --> 00:14:52.119
+that already converts this to an item.
+
+00:14:52.119 --> 00:14:55.639
+And then in my router, I don't need to do this anymore.
+
+00:14:55.639 --> 00:14:56.899
+I can simply do this.
+
+00:14:56.899 --> 00:15:05.899
+like so. And now this is even simpler. And then of course you can change the other endpoints as well, so that it works like this.
+
+00:15:05.899 --> 00:15:12.899
+So for example, creating a database item, I can also simply return the item, like so.
+
+00:15:12.899 --> 00:15:18.819
+and then in the router I can simply do this.
+
+00:15:18.819 --> 00:15:21.819
+And you can do the same thing for the other operations as well.
+
+00:15:21.819 --> 00:15:26.819
+So you can imagine that sometimes it can be hard to determine what the exact boundaries are...
+
+00:15:26.819 --> 00:15:31.819
+...of what an operation should get as input and what it should return as a result...
+
+00:15:31.819 --> 00:15:36.819
+...and how it interacts with the database and what routers should or shouldn't know.
+
+00:15:36.819 --> 00:15:41.819
+Because there might also be a disadvantage to actually returning items and not database items.
+
+00:15:41.819 --> 00:15:45.819
+For example, if you combine different operations in your router endpoints...
+
+00:15:45.819 --> 00:15:51.819
+...then you may want to pass a database item between the operations for efficiency purposes.
+
+00:15:51.819 --> 00:15:53.819
+If you return an item, you can't do that.
+
+00:15:53.819 --> 00:15:58.819
+You then might need to do multiple database requests to get the information that you actually need.
+
+00:15:58.819 --> 00:16:02.819
+A third thing that you won't see in many examples online...
+
+00:16:02.819 --> 00:16:06.819
+...is that they don't really talk about deployment all that much.
+
+00:16:06.819 --> 00:16:11.819
+So whenever you start working on a new application, you may not even think about that yourself...
+
+00:16:11.819 --> 00:16:16.819
+...and then think, you know, I first build the thing and then I'll start thinking about how to actually deploy it.
+
+00:16:16.819 --> 00:16:18.819
+Actually, what I like to do is the other way around.
+
+00:16:18.819 --> 00:16:25.819
+I like to set up the scaffolding first before actually doing too much in the code.
+
+00:16:25.819 --> 00:16:31.819
+So typically what I would do if I, let's say, I want to create a new back-end API that I want to host in the cloud...
+
+00:16:31.819 --> 00:16:35.819
+...so what I will do is that I won't build out the complete API locally...
+
+00:16:35.819 --> 00:16:42.819
+...but I'll first start with, let's say, only the health check endpoints, just an empty GET request...
+
+00:16:42.819 --> 00:16:48.819
+...and then set up the whole scaffolding, including the whole deployment, CICD pipeline...
+
+00:16:48.819 --> 00:16:53.819
+...settings that you need in the cloud, everything to actually run this API...
+
+00:16:53.819 --> 00:16:58.819
+...and deploy it to the cloud whenever you push a new version to the main branch.
+
+00:16:58.819 --> 00:17:03.819
+And the reason why I do it that way, why I don't build out the complete API and then think about deployment...
+
+00:17:03.819 --> 00:17:06.819
+...is that I want to make sure that all the pieces fit together.
+
+00:17:06.819 --> 00:17:12.819
+And in my experience, this part, setting up the scaffolding and deployment and everything...
+
+00:17:12.819 --> 00:17:15.819
+...is often the most tricky to get right.
+
+00:17:15.819 --> 00:17:22.819
+Because you will have to create things like Docker files with the various imports and dependencies...
+
+00:17:22.819 --> 00:17:24.819
+...and there's many things that can go wrong.
+
+00:17:24.819 --> 00:17:28.819
+There's also many things that can go wrong with setting secrets up correctly...
+
+00:17:28.819 --> 00:17:30.819
+...so that you have access to the right credentials.
+
+00:17:30.819 --> 00:17:37.819
+Enabling APIs in your cloud provider so that you can actually host your API in the way that you want to in the cloud.
+
+00:17:37.819 --> 00:17:41.819
+So there's lots of things that can go wrong, lots of things that you need to set up...
+
+00:17:41.819 --> 00:17:45.819
+...and it can be very frustrating if you wait with that until the last minute.
+
+00:17:45.819 --> 00:17:48.819
+Because it's possible that due to some dependency that you're using...
+
+00:17:48.819 --> 00:17:52.819
+...that it actually blocks being able to deploy it properly to the cloud.
+
+00:17:52.819 --> 00:17:55.819
+So I find it's important to set this up as soon as possible...
+
+00:17:55.819 --> 00:17:59.819
+...and basically deal with the potential problems as soon as possible.
+
+00:17:59.819 --> 00:18:05.819
+So that afterwards, once it's set up, then it's pretty easy to build out the API and add more features to it.
+
+00:18:05.819 --> 00:18:07.819
+For deployment, you can use different tools.
+
+00:18:07.819 --> 00:18:09.819
+One that I'd like to use is Pulumi.
+
+00:18:09.819 --> 00:18:11.819
+They're also the sponsor of this video.
+
+00:18:11.819 --> 00:18:14.819
+Pulumi is what's called an infrastructure as code tool.
+
+00:18:14.819 --> 00:18:18.819
+And that means you can define what your cloud infrastructure looks like...
+
+00:18:18.819 --> 00:18:22.819
+...and handle provisioning those resources by actually writing code...
+
+00:18:22.819 --> 00:18:24.819
+...using your favorite programming language.
+
+00:18:24.819 --> 00:18:28.819
+So you can use Python, for example, to define what your infrastructure looks like.
+
+00:18:28.819 --> 00:18:30.819
+And I find that really helpful.
+
+00:18:30.819 --> 00:18:33.819
+In this particular API, what I've done is I've created a Dockerfile.
+
+00:18:33.819 --> 00:18:34.819
+So that's what I see here.
+
+00:18:34.819 --> 00:18:36.819
+So it's built on Python 3.11.
+
+00:18:36.819 --> 00:18:38.819
+And actually, the Dockerfile is pretty basic.
+
+00:18:38.819 --> 00:18:42.819
+So I simply install the dependencies, I copy the scripts to the folder...
+
+00:18:42.819 --> 00:18:47.819
+...and then I simply start the server just like I would do on my local machine.
+
+00:18:47.819 --> 00:18:51.819
+But then I have a main file, which is a Python file...
+
+00:18:51.819 --> 00:18:55.819
+...that actually specifies how to create the resources in the cloud.
+
+00:18:55.819 --> 00:18:58.819
+And being able to do this in Python, I find this very helpful...
+
+00:18:58.819 --> 00:19:01.819
+...because it simplifies the workflow a lot, in my opinion.
+
+00:19:01.819 --> 00:19:05.819
+So there's a couple of helper functions, like creating a registry...
+
+00:19:05.819 --> 00:19:08.819
+...where we're going to host the Docker image that we're going to build.
+
+00:19:08.819 --> 00:19:11.819
+Then we have a function for building an image.
+
+00:19:11.819 --> 00:19:15.819
+So this all relies on Pulumi's libraries.
+
+00:19:15.819 --> 00:19:18.819
+This uses Pulumi Docker, for example, so it creates an image.
+
+00:19:18.819 --> 00:19:20.819
+And I'm also passing some build arguments...
+
+00:19:20.819 --> 00:19:24.819
+...because I'm running this on a Mac which has Apple Silicon.
+
+00:19:24.819 --> 00:19:28.819
+So I need to make sure that it builds for Linux AMD64 processors...
+
+00:19:28.819 --> 00:19:30.819
+...otherwise it won't work.
+
+00:19:30.819 --> 00:19:32.819
+And then I'm hosting this application in the cloud...
+
+00:19:32.819 --> 00:19:34.819
+...using Google's CloudRum service.
+
+00:19:34.819 --> 00:19:37.819
+So here I'm using the Pulumi package for Google Cloud.
+
+00:19:37.819 --> 00:19:40.819
+Then I have a function that sets the right access policy...
+
+00:19:40.819 --> 00:19:42.819
+...so that it's actually publicly available.
+
+00:19:42.819 --> 00:19:46.819
+And finally, I have a main file where I call these functions...
+
+00:19:46.819 --> 00:19:48.819
+...and deploy the actual application.
+
+00:19:48.819 --> 00:19:50.819
+So I create a registry.
+
+00:19:50.819 --> 00:19:54.819
+Then I'm going to get the information about the registry, build an image...
+
+00:19:54.819 --> 00:19:57.819
+...create the CloudRum service, create the access policy...
+
+00:19:57.819 --> 00:19:59.819
+...and then export the important information...
+
+00:19:59.819 --> 00:20:03.819
+...like what is the URL of the CloudRum service, for example...
+
+00:20:03.819 --> 00:20:05.819
+...or what was the image name that was generated...
+
+00:20:05.819 --> 00:20:07.819
+...so I can find it back easily.
+
+00:20:07.819 --> 00:20:09.819
+And then what's really nice with Pulumi is that it's really easy...
+
+00:20:09.819 --> 00:20:11.819
+...to then deploy your application to the cloud.
+
+00:20:11.819 --> 00:20:14.819
+So you simply write Pulumi up...
+
+00:20:14.819 --> 00:20:17.819
+...and then it will set up all these things in the cloud for you.
+
+00:20:17.819 --> 00:20:19.819
+What's nice about an infrastructure-as-code solution...
+
+00:20:19.819 --> 00:20:22.819
+...is that you can do things with it that aren't possible...
+
+00:20:22.819 --> 00:20:24.819
+...if you define your infrastructure statically.
+
+00:20:24.819 --> 00:20:28.819
+And this is actually how I built the automation part of this example.
+
+00:20:28.819 --> 00:20:30.819
+So here you see what the code looks like...
+
+00:20:30.819 --> 00:20:33.819
+...when I want to run an actual automation from code in the cloud.
+
+00:20:33.819 --> 00:20:36.819
+And what I'm doing is that on the fly...
+
+00:20:36.819 --> 00:20:38.819
+...whenever I want to run a piece of code...
+
+00:20:38.819 --> 00:20:41.819
+...I create a sandbox environment, a serverless function in the cloud...
+
+00:20:41.819 --> 00:20:43.819
+...that actually runs that code.
+
+00:20:43.819 --> 00:20:46.819
+And then right after that, I immediately destroy the function again.
+
+00:20:46.819 --> 00:20:50.819
+So this allows me to run code in an isolated environment...
+
+00:20:50.819 --> 00:20:52.819
+...and then destroy that environment immediately...
+
+00:20:52.819 --> 00:20:56.819
+...so it doesn't affect other parts of my backend.
+
+00:20:56.819 --> 00:20:58.819
+If you were to run automation code directly in your backend...
+
+00:20:58.819 --> 00:20:59.819
+...it might be dangerous...
+
+00:20:59.819 --> 00:21:01.819
+...because if that code breaks your backend server...
+
+00:21:01.819 --> 00:21:03.819
+...then, well, you have a problem.
+
+00:21:03.819 --> 00:21:06.819
+So if you do it in an isolated environment, that's much better.
+
+00:21:06.819 --> 00:21:07.819
+And that's actually what I'm doing here.
+
+00:21:07.819 --> 00:21:09.819
+So the first step is, again, some scaffolding work...
+
+00:21:09.819 --> 00:21:11.819
+...preparing a virtual environment.
+
+00:21:11.819 --> 00:21:14.819
+So as you can see, I'm directly calling Python here to create a VM.
+
+00:21:14.819 --> 00:21:15.819
+And then I install the requirements.
+
+00:21:15.819 --> 00:21:18.819
+And then I have the function that runs all the automations.
+
+00:21:18.819 --> 00:21:20.819
+So I get the code from the automation...
+
+00:21:20.819 --> 00:21:23.819
+...and then I'm using Pulumi's automation framework...
+
+00:21:23.819 --> 00:21:27.819
+...to actually, on the fly, create a cloud resource.
+
+00:21:27.819 --> 00:21:28.819
+So that's what's happening here.
+
+00:21:28.819 --> 00:21:31.819
+So I prepare a virtual environment by calling that function.
+
+00:21:31.819 --> 00:21:33.819
+Then I create a new stack.
+
+00:21:33.819 --> 00:21:35.819
+So Pulumi works with different stacks...
+
+00:21:35.819 --> 00:21:37.819
+...like a development stack or a production stack.
+
+00:21:37.819 --> 00:21:39.819
+In this case, I create a development stack.
+
+00:21:39.819 --> 00:21:41.819
+And then I'm updating the stack.
+
+00:21:41.819 --> 00:21:44.819
+So this is going to create the resources in the cloud for me.
+
+00:21:44.819 --> 00:21:49.819
+And then what I get as a result from doing that is a function URL.
+
+00:21:49.819 --> 00:21:52.819
+So I create a cloud function, and this gives me a URL.
+
+00:21:52.819 --> 00:21:55.819
+And then next step is that I actually invoke the function...
+
+00:21:55.819 --> 00:21:58.819
+...passing the code of the automation.
+
+00:21:58.819 --> 00:22:01.819
+And then as a final step, I destroy the stack again.
+
+00:22:01.819 --> 00:22:03.819
+And how I've set this up is that next to the API...
+
+00:22:03.819 --> 00:22:06.819
+...I have a simple code runner setup...
+
+00:22:06.819 --> 00:22:10.819
+...which is basically another service that has a very simple main file...
+
+00:22:10.819 --> 00:22:13.819
+...that basically has a run code function...
+
+00:22:13.819 --> 00:22:16.819
+...that gets the actual code to run from JSON.
+
+00:22:16.819 --> 00:22:20.819
+It captures whatever we write to the standard out or standard error.
+
+00:22:20.819 --> 00:22:22.819
+And then it returns that as a result.
+
+00:22:22.819 --> 00:22:25.819
+And this is simply another infrastructure as code setup...
+
+00:22:25.819 --> 00:22:29.819
+...that deploys a cloud function using Pulumi.
+
+00:22:29.819 --> 00:22:32.819
+And then when you actually update an item and run the automation...
+
+00:22:32.819 --> 00:22:36.819
+...you see that it actually runs the code part of the automations...
+
+00:22:36.819 --> 00:22:39.819
+...in the cloud function and returns that as a result.
+
+00:22:39.819 --> 00:22:42.819
+So infrastructure as code allows you to do these kind of things dynamically...
+
+00:22:42.819 --> 00:22:44.819
+...and it opens up a lot of possibilities.
+
+00:22:44.819 --> 00:22:46.819
+If you want to try out Pulumi, it's free.
+
+00:22:46.819 --> 00:22:48.819
+You can simply go to pulumi.com.
+
+00:22:48.819 --> 00:22:50.819
+The link is also in the description of this video.
+
+00:22:50.819 --> 00:22:54.819
+A final important thing to think about is that when you deploy your API...
+
+00:22:54.819 --> 00:22:57.819
+...you also need to make sure that people can't abuse it.
+
+00:22:57.819 --> 00:22:59.819
+There are several things you can do.
+
+00:22:59.819 --> 00:23:02.819
+One is that you can create an authentication flow using OAuth...
+
+00:23:02.819 --> 00:23:05.819
+...and bearer tokens and API keys so that you know who it is.
+
+00:23:05.819 --> 00:23:07.819
+You can restrict access using scopes.
+
+00:23:07.819 --> 00:23:10.819
+That's all part of the OAuth standard.
+
+00:23:10.819 --> 00:23:13.819
+And that's one way to make sure that your users don't have access...
+
+00:23:13.819 --> 00:23:15.819
+...to things that they shouldn't have access to.
+
+00:23:15.819 --> 00:23:19.819
+So whenever you're creating a more complicated production-level API...
+
+00:23:19.819 --> 00:23:23.819
+...you should definitely also add some sort of authentication flow.
+
+00:23:23.819 --> 00:23:25.819
+And authentication flows are a whole other topic.
+
+00:23:25.819 --> 00:23:29.819
+If you'd like me to do a video about that, let me know in the comments.
+
+00:23:29.819 --> 00:23:32.819
+So adding authentication is important, but that's not the only thing you should do.
+
+00:23:32.819 --> 00:23:36.819
+Because A, that doesn't help if you're developing a public API...
+
+00:23:36.819 --> 00:23:38.819
+...or if your API has public endpoints.
+
+00:23:38.819 --> 00:23:44.819
+And B, it also doesn't preclude users from sending out way too many requests in a row.
+
+00:23:44.819 --> 00:23:47.819
+And if you want to deal with that, the best thing to do...
+
+00:23:47.819 --> 00:23:50.819
+...is to add a rate limiter to your backend API...
+
+00:23:50.819 --> 00:23:56.819
+...so that you can restrict the number of times users or anybody can call your endpoints.
+
+00:23:56.819 --> 00:23:58.819
+So how does a rate limiter typically work?
+
+00:23:58.819 --> 00:24:03.819
+Well, it's going to look at things like the ID of your machine, the IP address...
+
+00:24:03.819 --> 00:24:06.819
+...things like that to make sure you're not from a single machine...
+
+00:24:06.819 --> 00:24:09.819
+...sending thousands of requests per second.
+
+00:24:09.819 --> 00:24:13.819
+So FastAPI doesn't have direct built-in support for rate limiting...
+
+00:24:13.819 --> 00:24:16.819
+...but there are packages that integrate really well with FastAPI.
+
+00:24:16.819 --> 00:24:20.819
+And one of them is SlowAPI, and that's actually the rate limiter that I'm using here.
+
+00:24:20.819 --> 00:24:22.819
+So setting up SlowAPI is really simple.
+
+00:24:22.819 --> 00:24:26.819
+You just need to add an exception handler for RateLimitExceeded.
+
+00:24:26.819 --> 00:24:28.819
+That's an error type from SlowAPI.
+
+00:24:28.819 --> 00:24:32.819
+And then you need to pass it the handler that handles that particular error.
+
+00:24:32.819 --> 00:24:37.819
+And then what you can do in your routers or in your simple endpoints...
+
+00:24:37.819 --> 00:24:39.819
+...is that you can add limiters.
+
+00:24:39.819 --> 00:24:40.819
+So here's how that's set up.
+
+00:24:40.819 --> 00:24:43.819
+So SlowAPI has a limiter class.
+
+00:24:43.819 --> 00:24:46.819
+And we can indicate how we want to determine...
+
+00:24:46.819 --> 00:24:51.819
+...how the limiter is going to detect that a request comes from a different user.
+
+00:24:51.819 --> 00:24:55.819
+And I'm using the GetRemoteAddress function for that...
+
+00:24:55.819 --> 00:24:59.819
+...that looks at the remote address of the machine that's doing the API call.
+
+00:24:59.819 --> 00:25:01.819
+So that creates the limiter.
+
+00:25:01.819 --> 00:25:04.819
+And then in my router, I import this limiter.
+
+00:25:04.819 --> 00:25:08.819
+And then I'm using it as a decorator to define how often we can request that.
+
+00:25:08.819 --> 00:25:12.819
+And here we put a limit of one per second.
+
+00:25:12.819 --> 00:25:16.819
+And since the limiter needs to access the actual request in order to extract the information...
+
+00:25:16.819 --> 00:25:21.819
+...you need to also make sure to pass it as an argument to your endpoint function.
+
+00:25:21.819 --> 00:25:22.819
+Otherwise, this doesn't work.
+
+00:25:22.819 --> 00:25:27.819
+So this way, we've now defined a limiter for this particular endpoint.
+
+00:25:27.819 --> 00:25:29.819
+And then you can do this for every endpoint.
+
+00:25:29.819 --> 00:25:31.819
+And you can specify different types of limits.
+
+00:25:31.819 --> 00:25:36.819
+So, for example, if you want creating an item to be one request per second...
+
+00:25:36.819 --> 00:25:39.819
+...but reading an item, you may want to do that more.
+
+00:25:39.819 --> 00:25:41.819
+So you want to put the limits maybe a bit higher.
+
+00:25:41.819 --> 00:25:47.819
+At 10 per second, it's really easy to change this in the limiter specification.
+
+00:25:47.819 --> 00:25:49.819
+There's one minor caveat to take into account.
+
+00:25:49.819 --> 00:25:53.819
+It's that you need to specify these decorators in the right order.
+
+00:25:53.819 --> 00:25:57.819
+So limiter needs to be below the router.getDecorator.
+
+00:25:57.819 --> 00:25:59.819
+Otherwise, this won't work correctly.
+
+00:25:59.819 --> 00:26:03.819
+So these are just some of the things you need to think about when you create a production API.
+
+00:26:03.819 --> 00:26:07.819
+So, first, split your endpoints into separate routers...
+
+00:26:07.819 --> 00:26:10.819
+...so that the code becomes more manageable.
+
+00:26:10.819 --> 00:26:14.819
+Also, move operations out of the endpoint functions...
+
+00:26:14.819 --> 00:26:16.819
+...so that you can more easily test them...
+
+00:26:16.819 --> 00:26:19.819
+...and more easily reuse them in other types of applications...
+
+00:26:19.819 --> 00:26:21.819
+...such as a command line interface.
+
+00:26:21.819 --> 00:26:24.819
+The third point is that you need to think about deployment of your application.
+
+00:26:24.819 --> 00:26:28.819
+Set up the scaffolding first, because that's going to lead to most of the issues.
+
+00:26:28.819 --> 00:26:29.819
+It's going to take up most of the time.
+
+00:26:29.819 --> 00:26:31.819
+So do that as the first step.
+
+00:26:31.819 --> 00:26:33.819
+And the fourth one is that you need some way to control access.
+
+00:26:33.819 --> 00:26:37.819
+So whether that's an authentication flow, or using a limiter, or both...
+
+00:26:37.819 --> 00:26:42.819
+...that's really important to think about in order to make your APIs scalable and safe.
+
+00:26:42.819 --> 00:26:45.819
+Now, the fifth thing that I didn't talk about at all in this video...
+
+00:26:45.819 --> 00:26:48.819
+...is that you need to actually write software tests.
+
+00:26:48.819 --> 00:26:50.819
+When you write your test for your FastAPI backend...
+
+00:26:50.819 --> 00:26:53.819
+...there are a couple of things you can do to make your life a lot easier.
+
+00:26:53.819 --> 00:26:58.819
+If you want to learn about that, watch this video next, where I dive into the details.
+
+00:26:58.819 --> 00:27:00.819
+Thanks for watching, and see you soon.
+

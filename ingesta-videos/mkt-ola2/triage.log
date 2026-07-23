@@ -1,0 +1,3 @@
+Listo. Escribí [canales/keep.txt](/Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/mkt-ola2/canales/keep.txt) con 21 entradas.
+
+Validado: sin IDs duplicados, duraciones 180-3600s, máximo 8 por dominio, mínimo 18 total, y todas las líneas provienen exactamente de `canales/inv_dedup.txt`.

@@ -1,0 +1,57 @@
+# Learn VFX Workflows - After Effects and 3D Tutorial!
+**Fuente:** ProductionCrate | https://youtu.be/sGjODH6e2BM
+
+## Qué enseña
+Este tutorial enseña el flujo de trabajo completo para crear un efecto de explosión de coche en una toma de acción real, combinando elementos 3D renderizados (Cinema 4D) con assets pre-renderizados de ProductionCrate y técnicas de composición en After Effects. Cubre desde la planificación de la toma hasta la corrección de color final, incluyendo tracking, rotoscopia y matching de color.
+
+## Técnicas accionables
+- **Planificación de toma:** Usar un animatic en Cinema 4D para determinar timing y detectar problemas de ángulo de cámara e iluminación antes de filmar.
+- **Point tracking con Mocha AE:** Seleccionar la toma, añadir efecto Mocha AE, lanzar el panel, dibujar forma con la herramienta X spline alrededor de un punto de contraste en la carretera, analizar hacia adelante. Al recibir error "tracking terminated prematurely", hacer clic en OK. Salir y presionar Save. Crear un Null Object (Layer > New > Null Object). En Effects Controls del clip, ir a Tracking Data dropdown, hacer clic en Create Track Data, cambiar Export Option de Corner Pin a Transform, Layer Export de None al null creado, hacer clic en Apply. Ir al último frame trackeado, seleccionar el null, presionar U en el teclado para mostrar keyframes, eliminar todos los keyframes posteriores. Usar Page Up y Page Down para avanzar frame a frame y ajustar manualmente la posición del null.
+- **Exportar frame como placa de fondo:** Composition > Save Frame As > File. Cambiar output de Photoshop Sequence a PNG. Asignar destino y nombre (ej. "back plate"), hacer clic en Render.
+- **Configuración en Cinema 4D:** Presionar Shift + C para abrir búsqueda, escribir "background" y añadir Background object. Crear Classic Material (Create > Classic Materials > New Standard Material), renombrarlo a "BG", en pestaña Color asignar la textura con la placa renderizada. Asignar material al Background object. Crear nueva cámara y activarla. Posicionar la cuadrícula para alinear con la carretera usando Alt + clic izquierdo y clic medio.
+- **Importar modelo 3D:** Arrastrar FBX del modelo a la escena. Si se suelta sin Shift, se abre en nuevo proyecto; mantener Shift presionado antes de soltar para añadirlo al proyecto existente.
+- **Ajustar escala y posición del coche:** Usar herramienta Scale para escalar el coche. Añadir un plano (Plane primitive), escalarlo y extenderlo en eje Z. Ajustar posición del coche en Y para que las ruedas no atraviesen el suelo. En la vista de cámara, empujar el coche en Z hacia atrás.
+- **Sincronizar frame rate:** En After Effects, Composition > Composition Settings, verificar frame rate (23.976). En Cinema 4D, Ctrl + D para Project Settings, cambiar FPS de 30 a 24.
+- **Animar el coche en Cinema 4D:** Ir al frame inicial, seleccionar el coche, crear keyframe (clic en diamante junto a X, Y, Z). Ir al frame donde explota (ej. frame 63), mover el coche hacia adelante en la carretera, crear otro keyframe. En el mismo frame 63, crear keyframes para rotación H, P, B. Ir al final del timeline, mover el coche hacia arriba y rotarlo para que salga del cuadro, crear keyframes.
+- **Ajustar curvas de animación (F-Curves):** Seleccionar el cuerpo del coche, clic derecho > Show F-Curves. Para la curva de posición Z, seleccionar el keyframe final y arrastrar el handle bezier hacia abajo para que la velocidad sea constante. Para posición Y, seleccionar el keyframe final, mantener Ctrl y arrastrar el handle hacia adentro para que el ascenso sea un golpe rápido.
+- **Renderizar desde Cinema 4D:** Activar la cámara. En Render Settings, cambiar Output width/height al mismo tamaño que la composición de AE, Frame Rate a 24, Current Frame a All Frames. En pestaña Save, asignar destino, activar Alpha Channel, elegir formato Open EXR.
+- **Importar render en After Effects:** Arrastrar el render a la composición sobre el footage. Presionar Ctrl + Alt + F para ajustar al tamaño del fotograma automáticamente. Usar el pick whip para parentearlo al null del tracking inicial.
+- **Corrección de color con Levels:** Añadir efecto Levels. Cambiar visualización a canal Red (clic en botón de canal), ajustar niveles para que coincida con el color de referencia (ej. la sudadera del actor). Repetir para Green y Blue. Volver a RGB.
+- **Matching de desenfoque de fondo:** Añadir efecto Camera Lens Blur, ajustar Blur Radius a aproximadamente 3.
+- **Corrección de saturación:** Añadir efecto Hue/Saturation, reducir Saturation si el reflejo del cielo no coincide.
+- **Rotoscopia con Rotobrush 3:** Duplicar el footage original (Ctrl + D), eliminar Mocha AE del panel de efectos. Solo la capa duplicada. Seleccionar Rotobrush tool en la barra de herramientas, asegurar resolución en Full. Hacer doble clic en el footage para abrirlo. Dibujar formas sobre el actor para seleccionarlo. Para restar selección, mantener Alt (cambia a menos). Avanzar frame a frame corrigiendo la selección. Cuando esté correcto, hacer clic en Freeze (se vuelve color púrpura/azul). Colapsar la capa (clic en flecha), renombrarla a "roto", arrastrarla sobre los renders del coche. Activar "Use Motion Blur" en la capa roto.
+- **Añadir explosión:** Importar asset de explosión (ej. Ultimate Explosion 14). Arrastrarlo sobre el render del coche. Ajustar timing para que coincida con el impacto. Activar Motion Blur en el asset. Añadir Levels y ajustar canal por canal referenciando las partes oscuras de la sudadera y las partes brillantes del cielo.
+- **Añadir fogonazo (muzzle flash):** Importar Energy Magic Burst. Ajustar timing. Clic derecho > Time > Time Stretch, cambiar a 10%. Cambiar Transfer Mode a Screen. Añadir Hue/Saturation, ajustar Master Hue Rotation a naranja. Añadir CC Radial Fast Blur, Amount a 85. Importar Aerial Smoke Burst, colocarlo debajo del Energy Burst, ajustar timing, parentearlo al null.
+- **Crear granada (proyectil):** Ctrl + Y para crear un solid. Usar pick whip para seleccionar un color de sombra del actor. Con la herramienta Circular Mask, dibujar forma oblonga. Cambiar a Rectangular Mask tool y recortar la parte trasera. Parentear al null. Escalar y posicionar cerca del arma en el momento del disparo. Presionar P, luego Shift + R, luego Shift + S para mostrar Position, Rotation y Scale. Crear keyframes. Ir al frame de la explosión, mover el solid a la base del coche, escalar a casi invisible, rotar hacia abajo. Para dar arco a la trayectoria, Ctrl + Alt + clic y arrastrar en el primer keyframe de Position. Activar Motion Blur.
+- **Precomponer y añadir cámara shake:** Ctrl + A para seleccionar todo, Ctrl + Shift + C para precomponer. Ir a Window > Production Crate Camera Shake (si está instalado el script). Seleccionar "Jolt". Ir al frame de la explosión, hacer clic en Jolt. Ajustar Amplitude a 1.8, Frequency a 0.6, volver a hacer clic en Jolt.
+- **Corrección de color final:** Ctrl + Alt + Y para Adjustment Layer. Añadir efecto Lumetri Color. En Basic Corrections, ajustar Contraste, Temperatura (calentar), Blacks (aplastar), Whites (subir). En Creative, seleccionar LUT (ej. Kodak), Intensity a 50%.
+- **Añadir glow a la explosión:** Duplicar la capa precompuesta (Ctrl + D). Añadir efecto Keylight a la copia superior. Ocultar Adjustment Layer. Con el color picker, seleccionar el naranja de la explosión. Cambiar Keylight de Final Result a Combined Matte. En Screen Matte settings, ajustar Clip White y Clip Black hasta que solo se vea el naranja. Añadir efecto Invert. Añadir Production Crate Easy Glow, cambiar preset a Sunset. Cambiar Blend Mode de la capa a Screen. Reactivar Adjustment Layer.
+
+## Reglas para el erudito
+- **Usa Mocha AE para point tracking** cuando la cámara no tiene movimiento 3D complejo (solo whip pan), evitando solves de cámara 3D innecesarios.
+- **Nunca** uses los keyframes de tracking de Mocha directamente sin eliminar los que fallan después del error "tracking terminated prematurely"; ajústalos manualmente frame a frame con Page Up/Page Down.
+- **Usa Ctrl + Alt + F** para escalar un layer al tamaño del fotograma automáticamente en lugar de escalar manualmente.
+- **Usa el canal de color de Levels** (Red, Green, Blue por separado) para matching de color, referenciando siempre un elemento de la toma real (ej. la sudadera del actor para sombras, el cielo para altas luces).
+- **Usa Camera Lens Blur** con Blur Radius alrededor de 3 para simular desenfoque de fondo cuando la cámara está enfocada en el primer plano.
+- **Usa Rotobrush 3** con resolución Full y Freeze al terminar; activa "Use Motion Blur" en la capa roto para suavizar bordes.
+- **Usa Time Stretch al 10%** para acelerar assets de energía/explosión que deben ser muy rápidos (muzzle flash).
+- **Usa Transfer Mode Screen** para assets de fuego/energía/explosión que deben mezclarse con la toma base.
+- **Usa CC Radial Fast Blur con Amount 85** para desenfocar radialmente el fogonazo.
+- **Usa el script Production Crate Camera Shake** con modo Jolt (no Shake) para impactos puntuales; valores recomendados: Amplitude 1.8, Frequency 0.6.
+- **Usa Keylight + Invert + Easy Glow** para aislar el color naranja de la explosión y añadir glow solo a esa área; blend mode Screen.
+- **Usa Ctrl + Alt + clic y arrastrar** en un keyframe de Position para crear un arco en la trayectoria de una capa.
+
+## Errores comunes que evita o menciona
+- **No planificar la toma con el asset en mente:** El tutorial enfatiza elegir el asset (ángulo bajo, iluminación soleada) antes de filmar, no después, para que coincida naturalmente.
+- **No verificar el ángulo de cámara del asset:** Si el asset está filmado desde un ángulo bajo, no funcionará compuesto en una toma desde un tejado (vista superior).
+- **No verificar la iluminación del asset:** El asset debe estar en un entorno brillante y soleado si la toma real también lo está.
+- **Usar keyframes de tracking sin eliminar los fallidos:** Mocha da error cuando pierde el track; hay que eliminar los keyframes posteriores y ajustar manualmente.
+- **No ajustar las curvas de animación (F-Curves) en 3D:** El movimiento por defecto tiene demasiado ease; hay que aplanar las curvas para que la explosión sea un golpe seco, no flotante.
+- **No escalar el asset correctamente:** Tanto el coche 3D como el asset pre-renderizado pueden parecer "coche de payaso" si no se escalan adecuadamente.
+- **No hacer matching de color canal por canal:** Ajustar solo RGB global no es suficiente; hay que ajustar Red, Green y Blue individualmente en Levels.
+- **No añadir desenfoque de fondo:** Si la cámara real está enfocada en el actor, el asset debe tener desenfoque (Camera Lens Blur) para integrarse.
+- **No corregir la saturación del reflejo del cielo:** El asset puede reflejar un cielo de color diferente al de la toma real; hay que reducir la saturación con Hue/Saturation.
+- **No usar Freeze en Rotobrush:** Si no se congela, el rotobrush sigue actualizándose en segundo plano y ralentiza el rendimiento.
+- **No activar Motion Blur en la capa roto:** Sin él, los bordes del rotoscopio pueden verse duros al moverse.
+- **No precomponer antes de añadir camera shake:** El shake debe aplicarse a todo el composite, no a capas individuales.
+- **No usar el modo Jolt en lugar de Shake:** Shake afecta toda la línea de tiempo; Jolt solo el momento del impacto.

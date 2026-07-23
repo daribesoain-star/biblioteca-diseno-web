@@ -1,0 +1,972 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.030
+In this video, I'm gonna show
+you the only five web design
+
+00:00:03.030 --> 00:00:05.070
+skills that actually matter.
+
+00:00:05.130 --> 00:00:08.760
+You can usually tell right away
+if a site was built by a pro or by
+
+00:00:08.760 --> 00:00:11.880
+somebody who's still kind of figuring
+it out, and it's easy to think that
+
+00:00:11.880 --> 00:00:13.830
+that takes a ton of different skills.
+
+00:00:13.860 --> 00:00:18.450
+After 10 years of reading books, taking
+courses, and plain old building a ton
+
+00:00:18.450 --> 00:00:22.470
+of websites, I can actually tell you
+there are really just five things you
+
+00:00:22.470 --> 00:00:24.270
+need to know by the end of this video.
+
+00:00:24.305 --> 00:00:27.634
+You're gonna know exactly what
+to focus on to level up fast.
+
+00:00:27.634 --> 00:00:30.515
+And finally, feel confident
+as a web designer.
+
+00:00:30.545 --> 00:00:31.175
+Are you ready?
+
+00:00:31.355 --> 00:00:31.895
+Let's go.
+
+00:00:34.085 --> 00:00:37.205
+First up, are your typography
+skills outside of white space?
+
+00:00:37.265 --> 00:00:43.025
+Text takes up the most real estate on
+your website, but 99% of web designers
+
+00:00:43.085 --> 00:00:47.795
+can't tell the difference between bad
+type choices and good type choices.
+
+00:00:47.855 --> 00:00:50.105
+They might be able to feel
+when something's off, but
+
+00:00:50.105 --> 00:00:51.185
+it just kind of stops.
+
+00:00:51.220 --> 00:00:51.760
+There.
+
+00:00:51.790 --> 00:00:52.780
+But here's the good news.
+
+00:00:52.810 --> 00:00:56.260
+You actually only need to
+answer two questions to master
+
+00:00:56.260 --> 00:00:58.210
+typography for websites.
+
+00:00:58.450 --> 00:01:01.570
+And when you can do that confidently
+on every project, you'll be in
+
+00:01:01.570 --> 00:01:04.000
+the top 1% of web designers.
+
+00:01:04.239 --> 00:01:09.220
+So question number one is, how do I
+pick the right fonts for my project?
+
+00:01:09.280 --> 00:01:12.235
+Most web designers use
+the same free fonts.
+
+00:01:12.820 --> 00:01:14.200
+Over and over again.
+
+00:01:14.290 --> 00:01:18.280
+And when you use those same fonts as
+everyone else, your designs start to
+
+00:01:18.280 --> 00:01:23.410
+blend in, not stand out, so you gotta find
+fonts from places that aren't overused.
+
+00:01:23.440 --> 00:01:30.130
+Two of my favorite resources are
+font share.com and uncut.wtf.
+
+00:01:30.970 --> 00:01:35.710
+Font share is clean, high
+quality, and completely free to
+
+00:01:35.710 --> 00:01:37.975
+use while uncut is a bit more.
+
+00:01:38.370 --> 00:01:44.160
+Experimental, but they're both packed with
+personality and tons of free fonts to use.
+
+00:01:44.190 --> 00:01:48.060
+Oh, and I've got a running list
+of free and affordable fonts
+
+00:01:48.060 --> 00:01:50.100
+that I found out in the wild.
+
+00:01:50.130 --> 00:01:52.680
+Every one of them are Chefs Kiss.
+
+00:01:52.710 --> 00:01:57.390
+So you're gonna find the link to that
+list in the description of this video.
+
+00:01:57.420 --> 00:01:59.095
+Oh, and by the way,
+make sure that you like.
+
+00:01:59.395 --> 00:02:02.095
+And subscribe so you don't
+miss another episode.
+
+00:02:02.095 --> 00:02:05.634
+And if you want the slides that I use
+to teach these five skills, there's
+
+00:02:05.634 --> 00:02:07.645
+a link for those in the description.
+
+00:02:07.735 --> 00:02:12.325
+Question number two is, how do you
+set up your fonts in such a way that
+
+00:02:12.325 --> 00:02:16.075
+it actually improves your design
+and makes your site easier to use?
+
+00:02:16.465 --> 00:02:20.275
+If you've ever looked at a site
+that was designed by a true web pro,
+
+00:02:20.275 --> 00:02:21.715
+you're gonna notice something, right?
+
+00:02:21.715 --> 00:02:22.615
+All the text fields.
+
+00:02:22.975 --> 00:02:27.715
+Cohesive yet predictable without
+feeling super robotic, like you're
+
+00:02:27.715 --> 00:02:29.575
+kind of reading a Wikipedia page.
+
+00:02:30.234 --> 00:02:34.644
+That's because pro designers use
+something called a type scale system,
+
+00:02:34.674 --> 00:02:38.334
+and it's just a simple set of rules
+that determines things like font
+
+00:02:38.334 --> 00:02:41.125
+sizes, letter spacing, and line height.
+
+00:02:41.125 --> 00:02:44.620
+And once you've set it up, your
+typography starts to feel intentional
+
+00:02:44.650 --> 00:02:46.435
+instead of just eyeballed.
+
+00:02:46.465 --> 00:02:48.415
+Let's start with font size.
+
+00:02:48.760 --> 00:02:54.250
+What you wanna do is pick a base
+font size for your paragraph text.
+
+00:02:54.370 --> 00:02:59.440
+Typically, people start with about 16
+pixels, and then you use a scale to
+
+00:02:59.440 --> 00:03:02.080
+make your headings consistently larger.
+
+00:03:02.110 --> 00:03:05.890
+A popular one is called the Major Third
+Scale, and if you've ever learned.
+
+00:03:06.205 --> 00:03:09.175
+An instrument, this might
+sound a little bit familiar.
+
+00:03:09.535 --> 00:03:14.965
+All it means is that you're actually
+going to scale up in size from
+
+00:03:15.055 --> 00:03:18.235
+one text to the next by about 25%.
+
+00:03:18.235 --> 00:03:21.506
+So if your base size is
+16, your H six would be.
+
+00:03:22.080 --> 00:03:27.450
+20, and then your H five would be
+25, so on and, and so forth until you
+
+00:03:27.450 --> 00:03:32.130
+reach your H ones and you actually
+don't have to calculate this manually.
+
+00:03:32.190 --> 00:03:37.410
+Instead of using pixels, just use
+the REM values, it does all the
+
+00:03:37.410 --> 00:03:39.750
+calculations right there for you.
+
+00:03:39.960 --> 00:03:43.140
+Next up is letter spacing
+for, for body text.
+
+00:03:43.140 --> 00:03:44.070
+Don't touch it, right?
+
+00:03:44.070 --> 00:03:47.640
+We want that to be super legible
+and so just keep it the default.
+
+00:03:48.030 --> 00:03:50.790
+But for headings, you wanna
+tighten it up a little bit.
+
+00:03:50.825 --> 00:03:55.174
+As they get bigger, as text gets
+larger, it often looks cleaner
+
+00:03:55.174 --> 00:03:57.185
+with slightly reduced spacing.
+
+00:03:57.304 --> 00:04:00.725
+And then finally, line
+height for paragraphs go with
+
+00:04:00.725 --> 00:04:03.725
+about 150% of the font size.
+
+00:04:03.725 --> 00:04:08.885
+So if the font size is 16 pixels, then
+you would take that and then multiply it
+
+00:04:08.885 --> 00:04:13.039
+by 1.5 to get your line height that gives
+the text room to breathe and makes it.
+
+00:04:13.330 --> 00:04:14.410
+Easier to read.
+
+00:04:14.410 --> 00:04:18.490
+And then as text gets bigger, like
+with headings, you can tighten up
+
+00:04:18.490 --> 00:04:22.540
+the line height a bit to make it feel
+a bit more impactful and scannable.
+
+00:04:22.600 --> 00:04:25.480
+Now, if all that sounds like
+a lot, here's a shortcut.
+
+00:04:25.540 --> 00:04:27.160
+Go to type scale.net.
+
+00:04:27.310 --> 00:04:28.630
+You pick your base size.
+
+00:04:29.060 --> 00:04:33.410
+Choose a ratio and then it just
+generates the whole system for you.
+
+00:04:33.410 --> 00:04:36.950
+It takes two minutes and makes
+your typography look like a pro.
+
+00:04:36.980 --> 00:04:37.610
+Set it up.
+
+00:04:37.790 --> 00:04:39.230
+Next up is layout.
+
+00:04:39.500 --> 00:04:43.970
+Most new web designers just kind of
+drag things around until it feels right,
+
+00:04:43.970 --> 00:04:47.570
+and hey, you might even be following
+some design rules without realizing,
+
+00:04:47.900 --> 00:04:51.770
+but pro designers don't guess about
+where things should go on the page.
+
+00:04:51.950 --> 00:04:53.750
+They have systems that guarantee it.
+
+00:04:53.914 --> 00:04:57.094
+Every time, and you actually don't
+need to memorize a ton of layout rules.
+
+00:04:57.125 --> 00:04:58.685
+You just need three things.
+
+00:04:58.745 --> 00:05:03.335
+A grid system for structure, a spacing
+system for rhythm between elements
+
+00:05:03.335 --> 00:05:08.104
+and even vertical spacing, and then
+visual hierarchy to guide the eye.
+
+00:05:08.465 --> 00:05:10.145
+Let's start with the grid.
+
+00:05:10.175 --> 00:05:12.635
+Think of this as your layouts foundation.
+
+00:05:12.664 --> 00:05:14.650
+I like to use a 12
+column layout on desktop.
+
+00:05:15.155 --> 00:05:19.475
+Eight columns on tablets and
+then four columns on mobile.
+
+00:05:19.805 --> 00:05:20.555
+Why is that?
+
+00:05:20.555 --> 00:05:24.844
+Well, because it's super flexible
+to divide evenly to where you don't
+
+00:05:24.844 --> 00:05:27.125
+have to have 12 columns specifically.
+
+00:05:27.125 --> 00:05:30.125
+It could be two columns that
+take up six columns on the right
+
+00:05:30.125 --> 00:05:31.355
+and six columns on the left.
+
+00:05:31.715 --> 00:05:33.695
+And then you can make it three or four.
+
+00:05:33.695 --> 00:05:35.525
+It's just easy to work with.
+
+00:05:35.585 --> 00:05:38.435
+FMA actually makes this
+super simple to set up.
+
+00:05:38.495 --> 00:05:42.605
+All you have to do is select your
+frame, come all the way down to layout
+
+00:05:42.605 --> 00:05:46.685
+guide, add the plus sign, change grid
+to columns, and then add the amount of
+
+00:05:46.685 --> 00:05:48.575
+columns that you're wanting to work with.
+
+00:05:48.914 --> 00:05:53.625
+Next up is spacing, and this is what
+gives your design room to breathe.
+
+00:05:53.715 --> 00:05:57.734
+I use what's called an eight point grid
+system, and it just means that your
+
+00:05:57.734 --> 00:06:04.905
+spacing is always multiples of eight,
+like 8, 16, 24, 32, so on and so forth.
+
+00:06:04.935 --> 00:06:10.365
+It's the same approach that's used by
+Google for material design and Apple
+
+00:06:10.365 --> 00:06:12.525
+in in their design systems as well.
+
+00:06:12.525 --> 00:06:15.044
+And if major players like
+Google and Apple are using it.
+
+00:06:15.380 --> 00:06:17.210
+Then you know you can't ignore it.
+
+00:06:17.270 --> 00:06:19.580
+This is also super easy to set up.
+
+00:06:19.580 --> 00:06:23.390
+You do the same thing in Figma as if
+you're setting up columns, but then
+
+00:06:23.390 --> 00:06:28.070
+when you add a guide, you just remain
+on grid and then change the size of the
+
+00:06:28.070 --> 00:06:30.470
+grid to whatever you're wanting to use.
+
+00:06:30.590 --> 00:06:33.590
+The last piece is visual
+hierarchy, because here's the
+
+00:06:33.590 --> 00:06:35.870
+truth, people don't read websites.
+
+00:06:35.930 --> 00:06:36.410
+They scan them.
+
+00:06:37.050 --> 00:06:40.020
+So your layout needs to guide
+the eyes from the things that
+
+00:06:40.020 --> 00:06:44.160
+are most important to things that
+maybe don't matter all that much.
+
+00:06:44.190 --> 00:06:46.890
+Here are a few quick
+principles to do just that.
+
+00:06:46.890 --> 00:06:51.720
+Use proximity, so keep related
+things close together as if they're
+
+00:06:51.720 --> 00:06:54.390
+in the same space on a page.
+
+00:06:54.840 --> 00:06:59.760
+Then use size to tell users what's
+more important or least important.
+
+00:06:59.760 --> 00:07:03.960
+You can see that this website's done
+a good job with that on their big.
+
+00:07:04.020 --> 00:07:08.549
+Text and the big image down
+here use contrast, right?
+
+00:07:08.549 --> 00:07:13.380
+You can use size, weight, or color, and
+you can see that this website's done
+
+00:07:13.380 --> 00:07:18.120
+that really well with the opacity of
+their headers versus their body text.
+
+00:07:18.120 --> 00:07:21.930
+So they're signaling to you that they
+really want you to read this and this
+
+00:07:21.930 --> 00:07:24.479
+other stuff might not be that important.
+
+00:07:24.510 --> 00:07:28.680
+And then alignment, because
+clean lines always equal.
+
+00:07:28.720 --> 00:07:30.250
+A clear structure.
+
+00:07:30.310 --> 00:07:33.760
+When you use those four together,
+you're gonna build a layout that feels
+
+00:07:33.760 --> 00:07:38.050
+effortless to navigate, and that's what
+separates the pros from the beginners.
+
+00:07:38.140 --> 00:07:39.790
+Next up, let's talk about color.
+
+00:07:39.850 --> 00:07:43.240
+For a lot of designers, this is
+where things start to feel really
+
+00:07:43.240 --> 00:07:46.390
+overwhelming because there are
+millions of colors out there.
+
+00:07:46.390 --> 00:07:48.070
+So how do you know what works?
+
+00:07:48.340 --> 00:07:49.270
+Here's the secret.
+
+00:07:49.600 --> 00:07:52.150
+Pro designers don't use more color.
+
+00:07:52.210 --> 00:07:54.640
+They use color more intentionally.
+
+00:07:54.700 --> 00:07:58.540
+Let me show you some quick wins that are
+gonna instantly level up your color game.
+
+00:07:58.570 --> 00:08:01.720
+First, you want to limit
+your color palette, right?
+
+00:08:01.720 --> 00:08:07.270
+You don't need more than like two or three
+different colors for any project that
+
+00:08:07.270 --> 00:08:09.580
+you're working on, but here's the key.
+
+00:08:09.700 --> 00:08:12.190
+Each one should have a specific.
+
+00:08:12.230 --> 00:08:12.920
+Job.
+
+00:08:13.250 --> 00:08:16.100
+One of the most popular systems
+for creating visual balance
+
+00:08:16.100 --> 00:08:18.710
+is called the 60 30 10 rule.
+
+00:08:18.710 --> 00:08:22.100
+So 60% are your neutral colors.
+
+00:08:22.100 --> 00:08:24.290
+Those are things like your
+whites and your blacks.
+
+00:08:24.290 --> 00:08:27.050
+You use that for your
+background and your text.
+
+00:08:27.050 --> 00:08:30.915
+30% are your secondary colors, and
+you use those for maybe different.
+
+00:08:31.230 --> 00:08:34.170
+Backgrounds or cards, headers or visuals.
+
+00:08:34.289 --> 00:08:39.300
+And then finally, the 10% is your
+accent colors, and that's what you
+
+00:08:39.300 --> 00:08:43.500
+use if you want something to really
+stand out like buttons or CTAs.
+
+00:08:43.590 --> 00:08:44.880
+But that's all you need really.
+
+00:08:44.880 --> 00:08:48.150
+As you get more confident with
+color, you can expand your palettes,
+
+00:08:48.150 --> 00:08:50.100
+but don't feel like you need to.
+
+00:08:50.160 --> 00:08:54.510
+Another tip is use opacity
+rather than adding more colors.
+
+00:08:54.555 --> 00:08:55.635
+To your palette.
+
+00:08:55.635 --> 00:09:00.224
+So take your primary color, like
+this yellow here, and then just
+
+00:09:00.224 --> 00:09:04.875
+scroll down on the opacity to
+create different color layers.
+
+00:09:04.995 --> 00:09:07.724
+This is something that I actually
+learned when I was looking through
+
+00:09:07.755 --> 00:09:11.594
+Google's material design and noticed
+that they used opacity to create a
+
+00:09:11.594 --> 00:09:13.214
+lot of different color variations.
+
+00:09:13.214 --> 00:09:16.520
+So one good color used well
+beats five random colors.
+
+00:09:16.945 --> 00:09:17.545
+Any day.
+
+00:09:17.785 --> 00:09:21.835
+Next, you wanna prioritize contrast,
+and this one's huge and it's one
+
+00:09:21.835 --> 00:09:23.575
+that a lot of new designers miss.
+
+00:09:23.605 --> 00:09:27.475
+Your color combo might look nice,
+but if your users can't read it,
+
+00:09:27.475 --> 00:09:29.275
+it doesn't matter how pretty it is.
+
+00:09:29.275 --> 00:09:32.185
+So always check your color Contrast.
+
+00:09:32.215 --> 00:09:36.295
+Color contrast is the contrast
+between your foreground text and.
+
+00:09:36.770 --> 00:09:40.970
+Background color that it sits on and,
+and you can see here that passable
+
+00:09:40.970 --> 00:09:47.210
+contrast is three to one on larger
+text and 4.5 to one on smaller text.
+
+00:09:47.270 --> 00:09:51.020
+Figma has a contrast checker
+baked right into its color system.
+
+00:09:51.110 --> 00:09:54.860
+All you gotta do is select the text
+that you want to check, go to fill,
+
+00:09:54.980 --> 00:09:58.490
+and then there's a contrast icon
+right in the top right hand corner.
+
+00:09:58.520 --> 00:10:01.400
+It'll tell you whether or
+not it passes or doesn't.
+
+00:10:01.430 --> 00:10:02.390
+It's a great tool.
+
+00:10:02.450 --> 00:10:04.820
+Finally, don't build color
+palettes from scratch.
+
+00:10:04.880 --> 00:10:07.610
+Most great color palettes
+weren't made out of thin air.
+
+00:10:07.640 --> 00:10:09.770
+They were borrowed and then refined.
+
+00:10:09.800 --> 00:10:14.330
+You can actually find any sites color
+palette with a tool called CSS Overview.
+
+00:10:14.450 --> 00:10:19.100
+All you've gotta do is go to Chrome
+Developer Tools and then select
+
+00:10:19.130 --> 00:10:22.575
+the three dot option right here
+in the top right hand corner.
+
+00:10:22.905 --> 00:10:26.895
+Scroll down, go to more tools,
+and then you'll see CSS overview.
+
+00:10:27.194 --> 00:10:31.785
+Capture the overview, and then it'll give
+you all the colors for that specific site.
+
+00:10:31.785 --> 00:10:35.475
+It even gives you fonts,
+it gives you size settings.
+
+00:10:35.475 --> 00:10:37.095
+It gives you the type scale system.
+
+00:10:37.125 --> 00:10:39.015
+It's such a great tool to use.
+
+00:10:39.075 --> 00:10:40.305
+Now let's talk code.
+
+00:10:40.365 --> 00:10:44.025
+And I know code Boo hiss,
+we don't need that anymore.
+
+00:10:44.055 --> 00:10:45.015
+But here's the truth.
+
+00:10:45.075 --> 00:10:48.045
+If you want to be better than 99%
+of the other web designers out
+
+00:10:48.045 --> 00:10:51.495
+there, you're gonna need to at
+least get comfortable with it.
+
+00:10:51.495 --> 00:10:54.075
+But you don't need to know
+how to build a full web app.
+
+00:10:54.135 --> 00:10:56.730
+You just need to know the basics
+and then know how to use the right.
+
+00:10:57.080 --> 00:10:59.750
+Tools to get you the rest of the way.
+
+00:10:59.780 --> 00:11:01.880
+Start with the essentials, right?
+
+00:11:01.880 --> 00:11:05.570
+You've got HTML for
+structure, CSS for style.
+
+00:11:05.780 --> 00:11:08.120
+Then there's JavaScript for interaction.
+
+00:11:08.120 --> 00:11:13.220
+And if you're working with platforms like
+WordPress, PHP Basics can go a long way.
+
+00:11:13.250 --> 00:11:16.490
+That alone is gonna take you
+further than most web designers.
+
+00:11:16.535 --> 00:11:17.495
+Would ever go.
+
+00:11:17.525 --> 00:11:21.635
+I started with free courses on Code
+Academy and then I would learn more as
+
+00:11:21.635 --> 00:11:23.675
+projects that I worked on needed it.
+
+00:11:23.704 --> 00:11:26.735
+And once you get the basics
+down, here's the real trick.
+
+00:11:26.765 --> 00:11:32.255
+Find solutions that are about 80% of the
+way there, and then vibe, code, the rest.
+
+00:11:32.855 --> 00:11:33.995
+So what do I mean by that?
+
+00:11:34.025 --> 00:11:37.595
+Use code pens or snippets,
+even chat GPT, right?
+
+00:11:37.595 --> 00:11:40.475
+Whatever gets you close, and
+then you just tweak it until
+
+00:11:40.475 --> 00:11:41.855
+it does what you want it to do.
+
+00:11:41.915 --> 00:11:45.935
+I had a friend who's not a developer
+who customized WordPress WooCommerce
+
+00:11:45.935 --> 00:11:50.495
+plugin to have a custom checkout
+process for his wife's website.
+
+00:11:50.525 --> 00:11:52.625
+You don't need to be a
+full stack developer.
+
+00:11:52.685 --> 00:11:54.155
+You just learn by doing.
+
+00:11:54.265 --> 00:11:57.715
+Don't overthink it and use the
+tools that are available to you.
+
+00:11:57.775 --> 00:12:02.335
+And finally, the fifth skill to
+stand out as the top 1% of all
+
+00:12:02.335 --> 00:12:04.735
+web designers conversion skills.
+
+00:12:05.245 --> 00:12:10.255
+Most designers design for looks,
+but pro designers design for action.
+
+00:12:10.314 --> 00:12:14.785
+Early in my career, I redesigned
+a client's website from the ground
+
+00:12:14.785 --> 00:12:16.765
+up and it looked amazing, right?
+
+00:12:16.824 --> 00:12:19.465
+Way better than the original.
+
+00:12:19.465 --> 00:12:20.350
+But here's the problem.
+
+00:12:21.330 --> 00:12:24.540
+After we launched, their sales plummeted.
+
+00:12:24.900 --> 00:12:25.439
+Why?
+
+00:12:25.620 --> 00:12:31.050
+Because I had focused so much on the
+design that I ignored the user journey,
+
+00:12:31.439 --> 00:12:34.980
+and that was a turning point for me
+and a really hard lesson to learn.
+
+00:12:34.980 --> 00:12:39.000
+So let's talk about what
+conversion thinking really means.
+
+00:12:39.450 --> 00:12:41.605
+First, every page needs to have.
+
+00:12:41.970 --> 00:12:44.310
+Just one goal, right?
+
+00:12:44.550 --> 00:12:45.180
+That's it.
+
+00:12:45.180 --> 00:12:46.980
+And that goal should be simple.
+
+00:12:46.980 --> 00:12:50.880
+You either want somebody to buy a
+product, sign up for a phone call,
+
+00:12:50.880 --> 00:12:53.790
+or get a lead magnet, and that's it.
+
+00:12:54.060 --> 00:12:57.900
+You lose users when you're
+trying to do too much at once.
+
+00:12:57.930 --> 00:12:58.440
+Second.
+
+00:12:58.475 --> 00:12:58.775
+You.
+
+00:12:58.775 --> 00:13:04.625
+You need to have clear strategic CTAs
+and they need to be visible within
+
+00:13:04.625 --> 00:13:07.445
+seconds of someone landing on the page.
+
+00:13:07.685 --> 00:13:11.885
+I like to include a clear CTA
+in the hero section, one in the
+
+00:13:11.885 --> 00:13:17.195
+navigation, and then one about every
+two or three seconds as a user.
+
+00:13:17.195 --> 00:13:17.915
+Scroll down.
+
+00:13:18.165 --> 00:13:23.685
+Third, it's about trust, clarity,
+and maybe most importantly feelings.
+
+00:13:24.135 --> 00:13:28.125
+You probably heard it said that
+people buy from brands that
+
+00:13:28.125 --> 00:13:30.465
+they know, like, and trust.
+
+00:13:30.825 --> 00:13:33.045
+But I like to take it one step further.
+
+00:13:33.105 --> 00:13:37.755
+They need to know, like, trust
+and feel something from you.
+
+00:13:37.875 --> 00:13:40.065
+Your site has to speak
+to real motivations.
+
+00:13:40.075 --> 00:13:42.985
+Clearly explain what they're
+getting and it needs to show
+
+00:13:42.985 --> 00:13:44.605
+them that they're not alone.
+
+00:13:44.635 --> 00:13:47.455
+And that's where things like
+testimonials and reviews and social
+
+00:13:47.455 --> 00:13:49.555
+proof can really come in handy.
+
+00:13:49.735 --> 00:13:50.485
+So there you go.
+
+00:13:50.485 --> 00:13:55.705
+Those are the five skills that separate
+beginner designers from the top 1%.
+
+00:13:55.705 --> 00:13:58.255
+And if you're still trying to
+learn absolutely everything.
+
+00:13:58.270 --> 00:14:01.180
+Take this as your permission to just stop.
+
+00:14:01.210 --> 00:14:03.100
+Focus on these, right?
+
+00:14:03.130 --> 00:14:07.630
+Build around them, and you'll grow way
+faster than chasing every single trend.
+
+00:14:07.660 --> 00:14:09.610
+Hey, I hope this video was helpful.
+
+00:14:09.610 --> 00:14:13.300
+If it was, make sure to hit that like
+button and subscribe so you don't miss
+
+00:14:13.300 --> 00:14:17.740
+another episode that we've got coming
+out and hey, go design something great.
+
+00:14:18.100 --> 00:14:20.829
+Don't forget, if you don't quit, you win.
+

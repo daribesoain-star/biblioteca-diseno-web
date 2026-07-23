@@ -1,0 +1,60 @@
+UutXfHp9KDg|2148.0|36148|NA|Code and Motion|After Effects Scripting for Absolute Beginners - ExtendScript Tutorial
+_hpsV2q9M2Q|431.0|6060|NA|NT Productions|After Effects Scripting QuickTip - Practical Scripting Examples
+UJCe06QZnwc|413.0|7129|NA|Coding After Effects|ExtendScript Beginner Tutorial for After Effects
+zGbd-tEyryg|926.0|6539|NA|NT Productions|After Effects Scripting Tutorial: Recreate Shape Layers
+JKEMijMjddE|1130.0|2978|NA|NT Productions|After Effects Scripting Tutorial: Script Template Combination
+DTBtfFiyjNU|2740.0|46304|NA|NT Productions|After Effects Scripting For Beginners [2022]
+UutXfHp9KDg|2148.0|36148|NA|Code and Motion|After Effects Scripting for Absolute Beginners - ExtendScript Tutorial
+UJCe06QZnwc|413.0|7129|NA|Coding After Effects|ExtendScript Beginner Tutorial for After Effects
+Or1z-J8KOlM|601.0|1259|NA|NT Productions|ExtendScript Tutorial: Read All Installed Effects
+_hpsV2q9M2Q|431.0|6060|NA|NT Productions|After Effects Scripting QuickTip - Practical Scripting Examples
+YzxvlAWTJXk|10.0|437|NA|Keiji Namba|[After Effects] Rendering by ExtendScript | Test Movie
+zqlOqRcU4bc|231.0|4431|NA|aescripts + aeplugins|Claude Scripter for After Effects v1.2 Tutorial
+DJcNU2dXJnQ|444.0|26951|NA|Plainly|How to Work Faster in After Effects
+iEXhPPqolNI|258.0|207|NA|Digital Magician - VFX & Mograph Tutorials|Introduction to Scripting in After Effects | Automate Your Workflow | Episode 2
+UutXfHp9KDg|2148.0|36148|NA|Code and Motion|After Effects Scripting for Absolute Beginners - ExtendScript Tutorial
+DTBtfFiyjNU|2740.0|46304|NA|NT Productions|After Effects Scripting For Beginners [2022]
+kQRqdwRxhtw|192.0|365|NA|Digital Magician - VFX & Mograph Tutorials|Welcome to the Ultimate Guide to After Effects Scripting | Step-by-Step Tutorial Series | Episode 1
+6PW9hQoy8_U|627.0|1739|NA|NT Productions|After Effects Scripting QuickTip - Automate Script Creation
+aOFrxATiN8c|325.0|11733|NA|AM Film|Create Your Own Plugin in After Effects (Free & Easy ScriptUI Panel Method)
+8pzWPQAScuc|681.0|9837|NA|NT Productions|After Effects Scripting Tutorial [QuickTip]: Script UI Layout Guide
+pVOyj3d0bw0|1115.0|1350|NA|Constantin Maier|Workflower for After Effects Tutorial 2: Installation & Using the ScriptUI Panel
+zGbd-tEyryg|926.0|6539|NA|NT Productions|After Effects Scripting Tutorial: Recreate Shape Layers
+DTBtfFiyjNU|2740.0|46304|NA|NT Productions|After Effects Scripting For Beginners [2022]
+N_42-DTDuHI|267.0|9723|NA|Plainly|How to write any After Effects script using ChatGPT
+_hpsV2q9M2Q|431.0|6060|NA|NT Productions|After Effects Scripting QuickTip - Practical Scripting Examples
+6PW9hQoy8_U|627.0|1739|NA|NT Productions|After Effects Scripting QuickTip - Automate Script Creation
+Knp2S_gs-Rc|12065.0|92462|NA|Clear Code|An introduction to programming in After Effects
+hlaQUFFjSwg|145.0|3951|NA|Motion Developer|How to write an Expression Library for After Effects (.jsx file)
+N_42-DTDuHI|267.0|9723|NA|Plainly|How to write any After Effects script using ChatGPT
+trYUpprPn6U|490.0|10508|NA|NT Productions|After Effects Scripting Tutorial: Teach Yourself Scripting
+bFwFVR1xu-o|102.0|420|NA|三叔視務所3SU Visual Studio|AERender 01 renderer setting
+eKdxONCLy3Y|196.0|566|NA|Vidiots Channel|Speed Up After Effects 💯w/ One Command - Opening, Workflow & Rendering
+1DI9lZwKjk4|1015.0|36010|NA|Filipe Deschamps|After Effects scripting com JavaScript (ExtendScript) e renderizar no Terminal (command line render)
+MawgwAWka4w|365.0|121799|NA|Jake In Motion|Claude AI changed how I work in After Effects FOREVER
+vAenMHvAHQI|292.0|11104|NA|Workbench|Tutorial 21: Using aerender
+HjeqG_MjpWA|188.0|6052|NA|Marcos Salvi|Terminal rendering in After Effects
+zGFMxweemcI|294.0|2792|NA|Adam Nix|Comp Replicator: CSV Driven Batch Comps - Quickstart Guide Tutorial -  Spreadsheets to After Effects
+BTuLbNaWPaA|623.0|2676|NA|NT Productions|After Effects Scripting Tutorial [QuickTip]: Batch Text Automation
+OUS0PMIwZyE|1177.0|15540|NA|NT Productions|After Effects Scripting Tutorial: How to Make a Batch Processing Script
+_6rNE8gBrhY|94.0|5430|NA|HyperMation|How to Batch Create Videos from Excel/CSV in After Effects | AE Batch Tools v1.3.1
+A6GDN6SDS9M|1303.0|4218|NA|Emily Gentile|Automate Your Workflow: Batch Editing Compositions in After Effects with This Powerful Script!
+WyNpq9U-Rno|1048.0|822|NA|NT Productions|Adobe Scripting Tutorial: Batch Search Comps and Footage
+iKscIEdRcII|1801.0|35956|NA|NT Productions|Adobe UXP plugin Tutorial
+Qq3WLeMs9vc|1604.0|20712|NA|AIAnimation - Jon Draper|Use AI to Build Adobe AE Extensions, Make Animation Plugins That Sell
+gilpHirsXQA|1988.0|24335|NA|NT Productions|Adobe After Effects Full Plugin Tutorial
+EjIPJ5CRdL8|1236.0|814|NA|NT Productions|After Effects Plugin Tutorial: SmartFX
+aOFrxATiN8c|325.0|11738|NA|AM Film|Create Your Own Plugin in After Effects (Free & Easy ScriptUI Panel Method)
+kdRC-jAfKjU|675.0|1545|NA|NT Productions|When is UXP Coming to After Effects?
+m7NLUH2Pqk0|14.0|79|NA|水墨轩|中文汉化水墨轩AE脚本管理器
+vKK-dqo7ZQw|563.0|21931|NA|NT Productions|How to Run Scripts In After Effects & Premiere
+9DtdO0I7yOA|216.0|19980|NA|Vakago|Premiere Pro Automation - ExtendScript Developer Tools
+N_42-DTDuHI|267.0|9723|NA|Plainly|How to write any After Effects script using ChatGPT
+C-UxZ4AfINI|44.0|5850|NA|aescripts + aeplugins|Claude Scripter for After Effects
+lYE5c85zA-k|917.0|18253|NA|Dope Motions|Codex Built My ₹10,000 After Effects Script
+cVwTjtupiNQ|193.0|1760|NA|Byron Cortez|Aprende a utilizar scripts en After Effects ⎹ Scale Composition ⎹ Tutorial
+GlSIm60P4xA|612.0|1926|NA|NT Productions|After Effects Scripting Tutorial:  Embed Project Info in a Script
+mECK4JMBc3k|166.0|64096|NA|ShiveringCactus: VFX|How to install a Script in After Effects
+lqyIDUiUrVk|2011.0|1908|NA|Batch Frame|Scripting for After Effects   Part 2
+rXo-WiUmyNY|70.0|77513|NA|Yat Fung Leung|Depth | After Effects Script
+GT0XX29HR4I|1864.0|5104|NA|NT Productions|After Effects Scripting Tutorial: Create a Custom Workflow Script

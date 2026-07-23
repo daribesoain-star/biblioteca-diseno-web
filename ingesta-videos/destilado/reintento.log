@@ -1,0 +1,527 @@
+=== REINTENTO — inicio Sat Jul 11 12:50:57 -04 2026 ===
+>>> [aputure] bajando (ytsearch10:Aputure cinematic lighting tutorial three point) 12:50:57
+[youtube:search] Extracting URL: ytsearch10:Aputure cinematic lighting tutorial three point
+[download] Downloading playlist: Aputure cinematic lighting tutorial three point
+[youtube:search] query "Aputure cinematic lighting tutorial three point": Downloading web client config
+[youtube:search] Sleeping 8.0 seconds ...
+[youtube:search] query "Aputure cinematic lighting tutorial three point" page 1: Downloading API JSON
+[info] Writing playlist metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/Aputure cinematic lighting tutorial three point.info.json
+[youtube:search] Playlist Aputure cinematic lighting tutorial three point: Downloading 10 items
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=nqMQZG68Wkc
+[youtube] Sleeping 8.0 seconds ...
+[youtube] nqMQZG68Wkc: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] nqMQZG68Wkc: Downloading android vr player API JSON
+[info] nqMQZG68Wkc: Downloading subtitles: en, es, zh-Hans
+[info] nqMQZG68Wkc: Downloading 1 format(s): 399+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/nqMQZG68Wkc.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/nqMQZG68Wkc.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   41.75KiB at  Unknown B/s (00:00:00)[download] 100% of   41.75KiB in 00:00:00 at 933.13KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/nqMQZG68Wkc.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'es': HTTP Error 429: Too Many Requests
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/nqMQZG68Wkc.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'zh-Hans': HTTP Error 429: Too Many Requests
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/nqMQZG68Wkc.info.json
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=z-jiawVYfz0
+[youtube] Sleeping 8.0 seconds ...
+[youtube] z-jiawVYfz0: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] z-jiawVYfz0: Downloading android vr player API JSON
+[info] z-jiawVYfz0: Downloading subtitles: en, es, zh-Hans
+[info] z-jiawVYfz0: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/z-jiawVYfz0.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/z-jiawVYfz0.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at  Unknown B/s (00:00:00)[download]   72.90KiB at  Unknown B/s (00:00:00)[download] 100% of   72.90KiB in 00:00:00 at 935.11KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/z-jiawVYfz0.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'es': HTTP Error 429: Too Many Requests
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/z-jiawVYfz0.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'zh-Hans': HTTP Error 429: Too Many Requests
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/z-jiawVYfz0.info.json
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=glec0wpRIDc
+[youtube] Sleeping 8.0 seconds ...
+[youtube] glec0wpRIDc: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] glec0wpRIDc: Downloading android vr player API JSON
+[info] glec0wpRIDc: Downloading subtitles: es
+[info] glec0wpRIDc: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/glec0wpRIDc.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/glec0wpRIDc.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    3.85KiB at  Unknown B/s (00:00:00)[download] 100% of    3.85KiB in 00:00:00 at 57.73KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/glec0wpRIDc.info.json
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Byit_resfdo
+[youtube] Sleeping 8.0 seconds ...
+[youtube] Byit_resfdo: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] Byit_resfdo: Downloading android vr player API JSON
+[info] Byit_resfdo: Downloading subtitles: en, es, zh-Hans
+[info] Byit_resfdo: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/Byit_resfdo.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/Byit_resfdo.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at   22.58MiB/s (00:00:00)[download]   48.37KiB at   10.45MiB/s (00:00:00)[download] 100% of   48.37KiB in 00:00:00 at 649.36KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/Byit_resfdo.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/Byit_resfdo.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    2.76MiB/s (00:00:00)[download]    7.00KiB at    5.14MiB/s (00:00:00)[download]   15.00KiB at    9.10MiB/s (00:00:00)[download]   31.00KiB at   15.60MiB/s (00:00:00)[download]   48.59KiB at   19.98MiB/s (00:00:00)[download] 100% of   48.59KiB in 00:00:00 at 132.57KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/Byit_resfdo.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/Byit_resfdo.zh-Hans.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at   27.52MiB/s (00:00:00)[download]   46.35KiB at   33.01MiB/s (00:00:00)[download] 100% of   46.35KiB in 00:00:00 at 157.33KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/Byit_resfdo.info.json
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=26hthjg8rrw
+[youtube] Sleeping 8.0 seconds ...
+[youtube] 26hthjg8rrw: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] 26hthjg8rrw: Downloading android vr player API JSON
+[info] 26hthjg8rrw: Downloading subtitles: en, es, zh-Hans
+[info] 26hthjg8rrw: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/26hthjg8rrw.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/26hthjg8rrw.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   29.68KiB at  Unknown B/s (00:00:00)[download] 100% of   29.68KiB in 00:00:00 at 574.24KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/26hthjg8rrw.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/26hthjg8rrw.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    2.62MiB/s (00:00:00)[download]    7.00KiB at    4.96MiB/s (00:00:00)[download]   15.00KiB at    8.97MiB/s (00:00:00)[download]   30.60KiB at   14.94MiB/s (00:00:00)[download] 100% of   30.60KiB in 00:00:00 at 71.88KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/26hthjg8rrw.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/26hthjg8rrw.zh-Hans.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.71MiB/s (00:00:00)[download]    7.00KiB at    3.12MiB/s (00:00:00)[download]   15.00KiB at    5.85MiB/s (00:00:00)[download]   29.96KiB at    9.75MiB/s (00:00:00)[download] 100% of   29.96KiB in 00:00:00 at 142.54KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/26hthjg8rrw.info.json
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=j_Sov3xmgwg
+[youtube] Sleeping 8.0 seconds ...
+[youtube] j_Sov3xmgwg: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] j_Sov3xmgwg: Downloading android vr player API JSON
+[info] j_Sov3xmgwg: Downloading subtitles: en, es, zh-Hans
+[info] j_Sov3xmgwg: Downloading 1 format(s): 399+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/j_Sov3xmgwg.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/j_Sov3xmgwg.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    6.40MiB/s (00:00:00)[download]   15.00KiB at    7.69MiB/s (00:00:00)[download]   31.00KiB at   13.76MiB/s (00:00:00)[download]   63.00KiB at   23.24MiB/s (00:00:00)[download]   89.30KiB at   28.65MiB/s (00:00:00)[download] 100% of   89.30KiB in 00:00:00 at 437.92KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/j_Sov3xmgwg.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/j_Sov3xmgwg.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    6.27MiB/s (00:00:00)[download]   15.00KiB at   10.80MiB/s (00:00:00)[download]   31.00KiB at   18.70MiB/s (00:00:00)[download]   63.00KiB at   21.45MiB/s (00:00:00)[download]   90.68KiB at   15.41MiB/s (00:00:00)[download] 100% of   90.68KiB in 00:00:00 at 302.03KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/j_Sov3xmgwg.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/j_Sov3xmgwg.zh-Hans.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    5.37MiB/s (00:00:00)[download]   15.00KiB at    9.47MiB/s (00:00:00)[download]   31.00KiB at   16.62MiB/s (00:00:00)[download]   63.00KiB at   27.45MiB/s (00:00:00)[download]   94.19KiB at   33.91MiB/s (00:00:00)[download] 100% of   94.19KiB in 00:00:00 at 327.52KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/j_Sov3xmgwg.info.json
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=9A45ZUsckFQ
+[youtube] Sleeping 8.0 seconds ...
+[youtube] 9A45ZUsckFQ: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] 9A45ZUsckFQ: Downloading android vr player API JSON
+[info] 9A45ZUsckFQ: Downloading subtitles: en, es, zh-Hans
+[info] 9A45ZUsckFQ: Downloading 1 format(s): 401+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/9A45ZUsckFQ.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/9A45ZUsckFQ.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at  Unknown B/s (00:00:00)[download]  110.64KiB at   31.09MiB/s (00:00:00)[download] 100% of  110.64KiB in 00:00:00 at 1.47MiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/9A45ZUsckFQ.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/9A45ZUsckFQ.es.vtt
+[download]    1.00KiB at  880.42KiB/s (00:00:00)[download]    3.00KiB at    1.49MiB/s (00:00:00)[download]    7.00KiB at    2.94MiB/s (00:00:00)[download]   15.00KiB at    5.54MiB/s (00:00:00)[download]   31.00KiB at   10.09MiB/s (00:00:00)[download]   63.00KiB at   17.50MiB/s (00:00:00)[download]  113.24KiB at   26.52MiB/s (00:00:00)[download] 100% of  113.24KiB in 00:00:00 at 391.61KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/9A45ZUsckFQ.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/9A45ZUsckFQ.zh-Hans.vtt
+[download]    1.00KiB at  729.95KiB/s (00:00:00)[download]    3.00KiB at  909.37KiB/s (00:00:00)[download]    7.00KiB at  844.29KiB/s (00:00:00)[download]   15.00KiB at    1.69MiB/s (00:00:00)[download]   31.00KiB at    3.38MiB/s (00:00:00)[download]   63.00KiB at    6.55MiB/s (00:00:00)[download]  102.45KiB at   10.14MiB/s (00:00:00)[download] 100% of  102.45KiB in 00:00:00 at 285.12KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/9A45ZUsckFQ.info.json
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=tdl6Sm_iBIo
+[youtube] Sleeping 8.0 seconds ...
+[youtube] tdl6Sm_iBIo: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] tdl6Sm_iBIo: Downloading android vr player API JSON
+[info] tdl6Sm_iBIo: Downloading subtitles: en, es, zh-Hans
+[info] tdl6Sm_iBIo: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/tdl6Sm_iBIo.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/tdl6Sm_iBIo.en.vtt
+[download]    1.00KiB at  703.74KiB/s (00:00:00)[download]    3.00KiB at    1.67MiB/s (00:00:00)[download]    7.00KiB at  931.21KiB/s (00:00:00)[download]   15.00KiB at    1.89MiB/s (00:00:00)[download]   31.00KiB at    3.80MiB/s (00:00:00)[download]   51.49KiB at    5.76MiB/s (00:00:00)[download] 100% of   51.49KiB in 00:00:00 at 337.85KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/tdl6Sm_iBIo.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/tdl6Sm_iBIo.es.vtt
+[download]    1.00KiB at  982.27KiB/s (00:00:00)[download]    3.00KiB at    1.39MiB/s (00:00:00)[download]    7.00KiB at    2.75MiB/s (00:00:00)[download]   15.00KiB at    5.25MiB/s (00:00:00)[download]   31.00KiB at    9.86MiB/s (00:00:00)[download]   50.46KiB at   13.98MiB/s (00:00:00)[download] 100% of   50.46KiB in 00:00:00 at 105.82KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/tdl6Sm_iBIo.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/tdl6Sm_iBIo.zh-Hans.vtt
+[download]    1.00KiB at  667.03KiB/s (00:00:00)[download]    3.00KiB at    1.32MiB/s (00:00:00)[download]    7.00KiB at    1.52MiB/s (00:00:00)[download]   15.00KiB at    2.97MiB/s (00:00:00)[download]   31.00KiB at    5.77MiB/s (00:00:00)[download]   50.44KiB at    8.40MiB/s (00:00:00)[download] 100% of   50.44KiB in 00:00:00 at 191.03KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/tdl6Sm_iBIo.info.json
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=DWaF-knIt0s
+[youtube] Sleeping 8.0 seconds ...
+[youtube] DWaF-knIt0s: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] DWaF-knIt0s: Downloading android vr player API JSON
+[info] DWaF-knIt0s: Downloading subtitles: en, es, zh-Hans
+[info] DWaF-knIt0s: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/DWaF-knIt0s.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/DWaF-knIt0s.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   60.79KiB at   24.29MiB/s (00:00:00)[download] 100% of   60.79KiB in 00:00:00 at 503.94KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/DWaF-knIt0s.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/DWaF-knIt0s.es.vtt
+[download]    1.00KiB at  952.39KiB/s (00:00:00)[download]    3.00KiB at    1.44MiB/s (00:00:00)[download]    7.00KiB at    2.67MiB/s (00:00:00)[download]   15.00KiB at    4.89MiB/s (00:00:00)[download]   31.00KiB at    8.88MiB/s (00:00:00)[download]   60.02KiB at   14.26MiB/s (00:00:00)[download] 100% of   60.02KiB in 00:00:00 at 178.69KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/DWaF-knIt0s.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/DWaF-knIt0s.zh-Hans.vtt
+[download]    1.00KiB at  516.79KiB/s (00:00:00)[download]    3.00KiB at    1.06MiB/s (00:00:00)[download]    7.00KiB at    2.14MiB/s (00:00:00)[download]   15.00KiB at    4.10MiB/s (00:00:00)[download]   31.00KiB at    7.66MiB/s (00:00:00)[download]   57.71KiB at   12.32MiB/s (00:00:00)[download] 100% of   57.71KiB in 00:00:00 at 175.03KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/DWaF-knIt0s.info.json
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=G7JXt9Un9m0
+[youtube] Sleeping 8.0 seconds ...
+[youtube] G7JXt9Un9m0: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] G7JXt9Un9m0: Downloading android vr player API JSON
+[info] G7JXt9Un9m0: Downloading subtitles: en, es, zh-Hans
+[info] G7JXt9Un9m0: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/G7JXt9Un9m0.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/G7JXt9Un9m0.en.vtt
+[download]    1.00KiB at  347.56KiB/s (00:00:00)[download]    3.00KiB at  971.13KiB/s (00:00:00)[download]    7.00KiB at    2.13MiB/s (00:00:00)[download]   15.00KiB at    4.42MiB/s (00:00:00)[download]   31.00KiB at    8.86MiB/s (00:00:00)[download]   63.00KiB at   17.20MiB/s (00:00:00)[download]  127.00KiB at   32.94MiB/s (00:00:00)[download]  137.63KiB at   34.15MiB/s (00:00:00)[download] 100% of  137.63KiB in 00:00:00 at 1.28MiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/G7JXt9Un9m0.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'es': HTTP Error 429: Too Many Requests
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/G7JXt9Un9m0.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'zh-Hans': HTTP Error 429: Too Many Requests
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/G7JXt9Un9m0.info.json
+[info] Writing updated playlist metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/aputure/Aputure cinematic lighting tutorial three point.info.json
+[download] Finished downloading playlist: Aputure cinematic lighting tutorial three point
+>>> [aputure] subs: 22
+>>> [mattihaapoja] bajando (ytsearch8:Matti Haapoja cinematic b-roll camera movement tutorial) 12:54:04
+[youtube:search] Extracting URL: ytsearch8:Matti Haapoja cinematic b-roll camera movement tutorial
+[download] Downloading playlist: Matti Haapoja cinematic b-roll camera movement tutorial
+[youtube:search] query "Matti Haapoja cinematic b-roll camera movement tutorial": Downloading web client config
+[youtube:search] Sleeping 8.0 seconds ...
+[youtube:search] query "Matti Haapoja cinematic b-roll camera movement tutorial" page 1: Downloading API JSON
+[info] Writing playlist metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/Matti Haapoja cinematic b-roll camera movement tutorial.info.json
+[youtube:search] Playlist Matti Haapoja cinematic b-roll camera movement tutorial: Downloading 8 items
+[download] Downloading item 1 of 8
+[youtube] Extracting URL: https://www.youtube.com/watch?v=XMcqHveCpmY
+[youtube] Sleeping 8.0 seconds ...
+[youtube] XMcqHveCpmY: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] XMcqHveCpmY: Downloading android vr player API JSON
+[info] XMcqHveCpmY: Downloading subtitles: en, es, zh-Hans
+[info] XMcqHveCpmY: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XMcqHveCpmY.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XMcqHveCpmY.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   56.60MiB/s (00:00:00)[download]   63.95KiB at   49.89MiB/s (00:00:00)[download] 100% of   63.95KiB in 00:00:00 at 994.70KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XMcqHveCpmY.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'es': HTTP Error 429: Too Many Requests
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XMcqHveCpmY.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'zh-Hans': HTTP Error 429: Too Many Requests
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XMcqHveCpmY.info.json
+[download] Downloading item 2 of 8
+[youtube] Extracting URL: https://www.youtube.com/watch?v=2GKbqtyoeHM
+[youtube] Sleeping 8.0 seconds ...
+[youtube] 2GKbqtyoeHM: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] 2GKbqtyoeHM: Downloading android vr player API JSON
+[info] 2GKbqtyoeHM: Downloading subtitles: en, es, zh-Hans
+[info] 2GKbqtyoeHM: Downloading 1 format(s): 313+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/2GKbqtyoeHM.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/2GKbqtyoeHM.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   51.92MiB/s (00:00:00)[download]  125.31KiB at    6.79MiB/s (00:00:00)[download] 100% of  125.31KiB in 00:00:00 at 1.00MiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/2GKbqtyoeHM.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'es': HTTP Error 429: Too Many Requests
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/2GKbqtyoeHM.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'zh-Hans': HTTP Error 429: Too Many Requests
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/2GKbqtyoeHM.info.json
+[download] Downloading item 3 of 8
+[youtube] Extracting URL: https://www.youtube.com/watch?v=_XJ-qcCf-VQ
+[youtube] Sleeping 8.0 seconds ...
+[youtube] _XJ-qcCf-VQ: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] _XJ-qcCf-VQ: Downloading android vr player API JSON
+[info] _XJ-qcCf-VQ: Downloading subtitles: en, es, zh-Hans
+[info] _XJ-qcCf-VQ: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/_XJ-qcCf-VQ.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/_XJ-qcCf-VQ.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at   16.22MiB/s (00:00:00)[download]   63.00KiB at   12.28MiB/s (00:00:00)[download]   70.65KiB at   13.32MiB/s (00:00:00)[download] 100% of   70.65KiB in 00:00:00 at 1.02MiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/_XJ-qcCf-VQ.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/_XJ-qcCf-VQ.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.83MiB/s (00:00:00)[download]    7.00KiB at    3.11MiB/s (00:00:00)[download]   15.00KiB at    5.82MiB/s (00:00:00)[download]   31.00KiB at   10.74MiB/s (00:00:00)[download]   63.00KiB at   19.12MiB/s (00:00:00)[download]   70.79KiB at   19.54MiB/s (00:00:00)[download] 100% of   70.79KiB in 00:00:00 at 252.18KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/_XJ-qcCf-VQ.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/_XJ-qcCf-VQ.zh-Hans.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.58MiB/s (00:00:00)[download]    7.00KiB at    2.95MiB/s (00:00:00)[download]   15.00KiB at    5.42MiB/s (00:00:00)[download]   31.00KiB at    9.74MiB/s (00:00:00)[download]   63.00KiB at   16.83MiB/s (00:00:00)[download]   69.02KiB at   16.30MiB/s (00:00:00)[download] 100% of   69.02KiB in 00:00:00 at 194.11KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/_XJ-qcCf-VQ.info.json
+[download] Downloading item 4 of 8
+[youtube] Extracting URL: https://www.youtube.com/watch?v=IcDo9_Ucwro
+[youtube] Sleeping 8.0 seconds ...
+[youtube] IcDo9_Ucwro: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] IcDo9_Ucwro: Downloading android vr player API JSON
+[info] IcDo9_Ucwro: Downloading subtitles: en, es, zh-Hans
+[info] IcDo9_Ucwro: Downloading 1 format(s): 313+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/IcDo9_Ucwro.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/IcDo9_Ucwro.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   32.25MiB/s (00:00:00)[download]   70.07KiB at   32.66MiB/s (00:00:00)[download] 100% of   70.07KiB in 00:00:00 at 1012.95KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/IcDo9_Ucwro.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/IcDo9_Ucwro.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.80MiB/s (00:00:00)[download]    7.00KiB at    3.41MiB/s (00:00:00)[download]   15.00KiB at    6.26MiB/s (00:00:00)[download]   31.00KiB at   11.23MiB/s (00:00:00)[download]   63.00KiB at   19.95MiB/s (00:00:00)[download]   71.33KiB at   19.95MiB/s (00:00:00)[download] 100% of   71.33KiB in 00:00:00 at 258.25KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/IcDo9_Ucwro.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/IcDo9_Ucwro.zh-Hans.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    2.00MiB/s (00:00:00)[download]    7.00KiB at    3.82MiB/s (00:00:00)[download]   15.00KiB at    6.95MiB/s (00:00:00)[download]   31.00KiB at   12.49MiB/s (00:00:00)[download]   63.00KiB at   21.66MiB/s (00:00:00)[download]   69.26KiB at   20.54MiB/s (00:00:00)[download] 100% of   69.26KiB in 00:00:00 at 178.59KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/IcDo9_Ucwro.info.json
+[download] Downloading item 5 of 8
+[youtube] Extracting URL: https://www.youtube.com/watch?v=XteIVz0sbZE
+[youtube] Sleeping 8.0 seconds ...
+[youtube] XteIVz0sbZE: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] XteIVz0sbZE: Downloading android vr player API JSON
+[info] XteIVz0sbZE: Downloading subtitles: en, es, zh-Hans
+[info] XteIVz0sbZE: Downloading 1 format(s): 401+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XteIVz0sbZE.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XteIVz0sbZE.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   42.34MiB/s (00:00:00)[download]   84.65KiB at   28.59MiB/s (00:00:00)[download] 100% of   84.65KiB in 00:00:00 at 1.04MiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XteIVz0sbZE.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XteIVz0sbZE.es.vtt
+[download]    1.00KiB at  944.24KiB/s (00:00:00)[download]    3.00KiB at    1.48MiB/s (00:00:00)[download]    7.00KiB at    2.93MiB/s (00:00:00)[download]   15.00KiB at    5.56MiB/s (00:00:00)[download]   31.00KiB at   10.31MiB/s (00:00:00)[download]   63.00KiB at   18.51MiB/s (00:00:00)[download]   84.02KiB at   21.32MiB/s (00:00:00)[download] 100% of   84.02KiB in 00:00:00 at 323.35KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XteIVz0sbZE.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XteIVz0sbZE.zh-Hans.vtt
+[download]    1.00KiB at  586.53KiB/s (00:00:00)[download]    3.00KiB at    1.18MiB/s (00:00:00)[download]    7.00KiB at    2.31MiB/s (00:00:00)[download]   15.00KiB at    4.45MiB/s (00:00:00)[download]   31.00KiB at    8.46MiB/s (00:00:00)[download]   63.00KiB at   15.69MiB/s (00:00:00)[download]   84.87KiB at   18.89MiB/s (00:00:00)[download] 100% of   84.87KiB in 00:00:00 at 199.85KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XteIVz0sbZE.info.json
+[download] Downloading item 6 of 8
+[youtube] Extracting URL: https://www.youtube.com/watch?v=cZcMJQEqZ6Y
+[youtube] Sleeping 8.0 seconds ...
+[youtube] cZcMJQEqZ6Y: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] cZcMJQEqZ6Y: Downloading android vr player API JSON
+[info] cZcMJQEqZ6Y: Downloading subtitles: en, es, zh-Hans
+[info] cZcMJQEqZ6Y: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/cZcMJQEqZ6Y.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/cZcMJQEqZ6Y.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at   13.52MiB/s (00:00:00)[download]   63.00KiB at   25.60MiB/s (00:00:00)[download]   92.57KiB at   34.88MiB/s (00:00:00)[download] 100% of   92.57KiB in 00:00:00 at 869.95KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/cZcMJQEqZ6Y.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/cZcMJQEqZ6Y.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at   14.36MiB/s (00:00:00)[download]   31.00KiB at   25.83MiB/s (00:00:00)[download]   63.00KiB at   17.41MiB/s (00:00:00)[download]   93.70KiB at   23.46MiB/s (00:00:00)[download] 100% of   93.70KiB in 00:00:00 at 366.57KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/cZcMJQEqZ6Y.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/cZcMJQEqZ6Y.zh-Hans.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at   11.87MiB/s (00:00:00)[download]   31.00KiB at   20.02MiB/s (00:00:00)[download]   63.00KiB at   33.64MiB/s (00:00:00)[download]   88.12KiB at   38.30MiB/s (00:00:00)[download] 100% of   88.12KiB in 00:00:00 at 255.74KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/cZcMJQEqZ6Y.info.json
+[download] Downloading item 7 of 8
+[youtube] Extracting URL: https://www.youtube.com/watch?v=XJxZn5tCSKE
+[youtube] Sleeping 8.0 seconds ...
+[youtube] XJxZn5tCSKE: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] XJxZn5tCSKE: Downloading android vr player API JSON
+[info] XJxZn5tCSKE: Downloading subtitles: en, es, zh-Hans
+[info] XJxZn5tCSKE: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XJxZn5tCSKE.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XJxZn5tCSKE.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at   12.90MiB/s (00:00:00)[download]   31.00KiB at   23.15MiB/s (00:00:00)[download]   63.00KiB at   39.98MiB/s (00:00:00)[download]   95.87KiB at   51.33MiB/s (00:00:00)[download] 100% of   95.87KiB in 00:00:00 at 837.64KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XJxZn5tCSKE.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XJxZn5tCSKE.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at   12.62MiB/s (00:00:00)[download]   31.00KiB at   21.79MiB/s (00:00:00)[download]   63.00KiB at   36.58MiB/s (00:00:00)[download]   98.33KiB at   39.24MiB/s (00:00:00)[download] 100% of   98.33KiB in 00:00:00 at 355.62KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XJxZn5tCSKE.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XJxZn5tCSKE.zh-Hans.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    2.53MiB/s (00:00:00)[download]    7.00KiB at    4.81MiB/s (00:00:00)[download]   15.00KiB at    8.88MiB/s (00:00:00)[download]   31.00KiB at   16.13MiB/s (00:00:00)[download]   63.00KiB at   28.30MiB/s (00:00:00)[download]   92.65KiB at   34.64MiB/s (00:00:00)[download] 100% of   92.65KiB in 00:00:00 at 264.15KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/XJxZn5tCSKE.info.json
+[download] Downloading item 8 of 8
+[youtube] Extracting URL: https://www.youtube.com/watch?v=e_r8StcQS1g
+[youtube] Sleeping 8.0 seconds ...
+[youtube] e_r8StcQS1g: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] e_r8StcQS1g: Downloading android vr player API JSON
+[info] e_r8StcQS1g: Downloading subtitles: en, es, zh-Hans
+[info] e_r8StcQS1g: Downloading 1 format(s): 137+251
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/e_r8StcQS1g.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/e_r8StcQS1g.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   59.38MiB/s (00:00:00)[download]   86.03KiB at   66.98MiB/s (00:00:00)[download] 100% of   86.03KiB in 00:00:00 at 769.73KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/e_r8StcQS1g.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/e_r8StcQS1g.es.vtt
+[download]    1.00KiB at  992.97KiB/s (00:00:00)[download]    3.00KiB at    1.01MiB/s (00:00:00)[download]    7.00KiB at    2.04MiB/s (00:00:00)[download]   15.00KiB at    4.05MiB/s (00:00:00)[download]   31.00KiB at    7.82MiB/s (00:00:00)[download]   63.00KiB at   14.79MiB/s (00:00:00)[download]   83.24KiB at   17.90MiB/s (00:00:00)[download] 100% of   83.24KiB in 00:00:00 at 328.38KiB/s
+[info] Writing video subtitles to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/e_r8StcQS1g.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/e_r8StcQS1g.zh-Hans.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    2.24MiB/s (00:00:00)[download]    7.00KiB at    4.28MiB/s (00:00:00)[download]   15.00KiB at    7.73MiB/s (00:00:00)[download]   31.00KiB at   13.86MiB/s (00:00:00)[download]   63.00KiB at   24.34MiB/s (00:00:00)[download]   81.80KiB at   26.77MiB/s (00:00:00)[download] 100% of   81.80KiB in 00:00:00 at 213.65KiB/s
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/e_r8StcQS1g.info.json
+[info] Writing updated playlist metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/mattihaapoja/Matti Haapoja cinematic b-roll camera movement tutorial.info.json
+[download] Finished downloading playlist: Matti Haapoja cinematic b-roll camera movement tutorial
+>>> [mattihaapoja] subs: 20
+>>> [zh_jingtou] bajando (ytsearch10:镜头语言 电影 摄影 教程 运镜) 12:56:35
+[youtube:search] Extracting URL: ytsearch10:镜头语言 电影 摄影 教程 运镜
+[download] Downloading playlist: 镜头语言 电影 摄影 教程 运镜
+[youtube:search] query "镜头语言 电影 摄影 教程 运镜": Downloading web client config
+[youtube:search] Sleeping 8.0 seconds ...
+[youtube:search] query "镜头语言 电影 摄影 教程 运镜" page 1: Downloading API JSON
+[info] Writing playlist metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/zh_jingtou/镜头语言 电影 摄影 教程 运镜.info.json
+[youtube:search] Playlist 镜头语言 电影 摄影 教程 运镜: Downloading 10 items
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=UdAt5PIF3YA
+[youtube] Sleeping 8.0 seconds ...
+[youtube] UdAt5PIF3YA: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] UdAt5PIF3YA: Downloading android vr player API JSON
+[info] UdAt5PIF3YA: Downloading 1 format(s): 137+251
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/zh_jingtou/UdAt5PIF3YA.info.json
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=hy5LOx2WH_0
+[youtube] Sleeping 8.0 seconds ...
+[youtube] hy5LOx2WH_0: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] hy5LOx2WH_0: Downloading android vr player API JSON
+[info] hy5LOx2WH_0: Downloading 1 format(s): 137+251
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/zh_jingtou/hy5LOx2WH_0.info.json
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=LOAY7TLjCHM
+[youtube] Sleeping 8.0 seconds ...
+[youtube] LOAY7TLjCHM: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] LOAY7TLjCHM: Downloading android vr player API JSON
+[info] LOAY7TLjCHM: Downloading 1 format(s): 137+251
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/zh_jingtou/LOAY7TLjCHM.info.json
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=cNKYmnGLYp4
+[youtube] Sleeping 8.0 seconds ...
+[youtube] cNKYmnGLYp4: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] cNKYmnGLYp4: Downloading android vr player API JSON
+[info] cNKYmnGLYp4: Downloading 1 format(s): 137+251
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/zh_jingtou/cNKYmnGLYp4.info.json
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=iO-6IRJuzOg
+[youtube] Sleeping 8.0 seconds ...
+[youtube] iO-6IRJuzOg: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] iO-6IRJuzOg: Downloading android vr player API JSON
+[info] iO-6IRJuzOg: Downloading 1 format(s): 137+251
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/zh_jingtou/iO-6IRJuzOg.info.json
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=QJOah9KFvVs
+[youtube] Sleeping 8.0 seconds ...
+[youtube] QJOah9KFvVs: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] QJOah9KFvVs: Downloading android vr player API JSON
+[info] QJOah9KFvVs: Downloading 1 format(s): 137+251
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/zh_jingtou/QJOah9KFvVs.info.json
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=4VIrGbhpoZU
+[youtube] Sleeping 8.0 seconds ...
+[youtube] 4VIrGbhpoZU: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] 4VIrGbhpoZU: Downloading android vr player API JSON
+[info] 4VIrGbhpoZU: Downloading 1 format(s): 137+251
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/zh_jingtou/4VIrGbhpoZU.info.json
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=FvFPt6kVmtY
+[youtube] Sleeping 8.0 seconds ...
+[youtube] FvFPt6kVmtY: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] FvFPt6kVmtY: Downloading android vr player API JSON
+[info] FvFPt6kVmtY: Downloading 1 format(s): 137+251
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/zh_jingtou/FvFPt6kVmtY.info.json
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=1OKa54rYm2Y
+[youtube] Sleeping 8.0 seconds ...
+[youtube] 1OKa54rYm2Y: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] 1OKa54rYm2Y: Downloading android vr player API JSON
+[info] 1OKa54rYm2Y: Downloading 1 format(s): 137+251
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/zh_jingtou/1OKa54rYm2Y.info.json
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=I9OjBvVh37U
+[youtube] Sleeping 8.0 seconds ...
+[youtube] I9OjBvVh37U: Downloading webpage
+[youtube] Sleeping 8.0 seconds ...
+[youtube] I9OjBvVh37U: Downloading android vr player API JSON
+[info] I9OjBvVh37U: Downloading 1 format(s): 137+251
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/zh_jingtou/I9OjBvVh37U.info.json
+[info] Writing updated playlist metadata as JSON to: /Users/daribesoain/Projects/biblioteca-diseno-web/ingesta-videos/canales/zh_jingtou/镜头语言 电影 摄影 教程 运镜.info.json
+[download] Finished downloading playlist: 镜头语言 电影 摄影 教程 运镜
+>>> [zh_jingtou] subs: 10
+>>> [aputure] destilando 12:59:33
+12:59:48 OK 26hthjg8rrw — When You SHOULD NOT Use Three-Point Lighting
+13:00:06 OK 9A45ZUsckFQ — Cinematic Lighting 101: Three Point Lighting
+13:00:20 OK Aputure cinematic lighting tutorial three point — Aputure cinematic lighting tutorial three point
+13:00:35 OK Byit_resfdo — How to Create the Most Natural Daylight | Cinematography Tips
+13:00:51 OK DWaF-knIt0s — The Cinematography of Romance | 3 Cinematic Lighting Setups
+13:01:16 OK G7JXt9Un9m0 — How to Light Romantic Scenes | 3 Cinematography Techniques
+CORTO glec0wpRIDc
+13:01:33 OK j_Sov3xmgwg — Filmmaking 101 - Three Point Lighting Tutorial
+13:01:46 OK nqMQZG68Wkc — Lighting 101: Intro to Light Placement
+13:02:04 OK tdl6Sm_iBIo — Lighting Cinematic Introductions | 3 Creative Techniques
+13:02:26 OK z-jiawVYfz0 — 3 Lighting Setups for Narrative Filmmaking
+=== aputure: 10 destilados (KB total: 115) ===
+>>> [mattihaapoja] destilando 13:02:26
+13:02:47 OK 2GKbqtyoeHM — BEST CINEMATIC GIMBAL MOVES Feat. Daniel Schiffer
+13:03:01 OK IcDo9_Ucwro — The KEY To Making EPIC BROLL EDITS - COVERAGE!
+13:03:20 OK Matti Haapoja cinematic b-roll camera movement tutorial — Matti Haapoja cinematic b-roll camera movement tutorial
+13:03:36 OK XJxZn5tCSKE — CINEMATIC BROLL In TERRIBLE Conditions (Bright Sunlight)
+13:03:50 OK XMcqHveCpmY — How To Create Cinematic Movement Part 1
+13:04:07 OK XteIVz0sbZE — 9 Filmmaking "Transitions" You Need To Know
+13:04:22 OK _XJ-qcCf-VQ — 5 TIPS For FILMING SLOW MOTION BROLL! 120FPS 👌
+13:04:36 OK cZcMJQEqZ6Y — Buttery SMOOTH MOVEMENT WITHOUT Expensive GIMBALS
+13:04:58 OK e_r8StcQS1g — MOST CINEMATIC GIMBAL MOVES + TIPS
+=== mattihaapoja: 9 destilados (KB total: 124) ===
+>>> [zh_jingtou] destilando 13:04:58
+13:05:10 OK 1OKa54rYm2Y — 分享几招能轻松学会的好莱坞镜头语言
+13:05:25 OK 2tcdfLqDNqU — 【每天一个电影镜头】过肩镜头（Over The Shoulder）外反打
+13:05:39 OK 4VIrGbhpoZU — 【电影和运镜】9 环移镜头
+13:05:56 OK FvFPt6kVmtY — 光影 | 色彩 | 镜头语言「南门录像厅」
+13:06:16 OK I9OjBvVh37U — 【陶匠教學】影像基本課程#9 基本運鏡｜拍影片必備的小常識｜十種運鏡技巧｜新手向-
+13:06:41 OK LOAY7TLjCHM — 三、拍摄篇之3 基础镜头语言——运镜
+13:06:54 OK QJOah9KFvVs — 【知识分享官】推拉摇移跟！镜头运动「极简·视听语言012」
+13:07:09 OK UdAt5PIF3YA — 【拍摄教程】分镜干货，电影导演7分钟讲解景别与镜头类别 Everything About Shot Types and Shot Sizes in 7 Min
+13:07:25 OK V_8XlaM195U — 8.01.镜头语言-理解景别和如何拍摄画面 | Adobe Premiere 2020教程
+13:07:43 OK cNKYmnGLYp4 — 3分钟学会电影级运镜 油管大神都在用 丰富你的视频画面 | 摄影实战12
+13:08:03 OK hy5LOx2WH_0 — 100种电影镜头拍摄解析
+13:08:18 OK iO-6IRJuzOg — 【电影和运镜】1 固定镜头
+13:08:37 OK nfT-nUMRrnc — 【艺普】有趣易懂的镜头语言之4种叙事蒙太奇
+13:08:49 OK on-jd6q5gjs — 《导演思维看电影》— 听导演杨超解读视听语言
+13:09:01 OK 镜头语言 电影 摄影 教程 运镜 — 镜头语言 电影 摄影 教程 运镜
+13:09:18 OK 镜头语言 电影 摄影 教程 — 镜头语言 电影 摄影 教程
+=== zh_jingtou: 16 destilados (KB total: 137) ===
+=== REINTENTO FIN Sat Jul 11 13:09:18 -04 2026. KB total: 137 ===

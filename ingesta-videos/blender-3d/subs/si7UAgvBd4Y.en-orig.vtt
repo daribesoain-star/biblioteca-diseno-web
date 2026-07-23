@@ -1,0 +1,3352 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.990 align:start position:0%
+ 
+this<00:00:00.240><c> video</c><00:00:00.640><c> is</c><00:00:00.719><c> the</c><00:00:00.880><c> first</c><00:00:01.199><c> video</c><00:00:01.680><c> in</c><00:00:01.839><c> a</c>
+
+00:00:01.990 --> 00:00:02.000 align:start position:0%
+this video is the first video in a
+ 
+
+00:00:02.000 --> 00:00:04.470 align:start position:0%
+this video is the first video in a
+series<00:00:02.320><c> of</c><00:00:02.480><c> tutorials</c><00:00:03.120><c> about</c><00:00:03.520><c> cinematography</c>
+
+00:00:04.470 --> 00:00:04.480 align:start position:0%
+series of tutorials about cinematography
+ 
+
+00:00:04.480 --> 00:00:06.230 align:start position:0%
+series of tutorials about cinematography
+and<00:00:04.640><c> photorealism</c><00:00:05.520><c> and</c><00:00:05.680><c> in</c><00:00:05.839><c> this</c><00:00:06.000><c> first</c>
+
+00:00:06.230 --> 00:00:06.240 align:start position:0%
+and photorealism and in this first
+ 
+
+00:00:06.240 --> 00:00:08.470 align:start position:0%
+and photorealism and in this first
+episode<00:00:06.879><c> we're</c><00:00:07.120><c> going</c><00:00:07.279><c> to</c><00:00:07.359><c> take</c><00:00:07.520><c> a</c><00:00:07.600><c> look</c><00:00:07.919><c> at</c><00:00:08.160><c> my</c>
+
+00:00:08.470 --> 00:00:08.480 align:start position:0%
+episode we're going to take a look at my
+ 
+
+00:00:08.480 --> 00:00:10.549 align:start position:0%
+episode we're going to take a look at my
+favorite<00:00:08.960><c> lighting</c><00:00:09.280><c> setup</c><00:00:09.840><c> it's</c><00:00:10.000><c> a</c><00:00:10.160><c> very</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+favorite lighting setup it's a very
+ 
+
+00:00:10.559 --> 00:00:12.549 align:start position:0%
+favorite lighting setup it's a very
+simple<00:00:11.200><c> one-point</c><00:00:11.679><c> lighting</c><00:00:12.000><c> setup</c><00:00:12.400><c> we're</c>
+
+00:00:12.549 --> 00:00:12.559 align:start position:0%
+simple one-point lighting setup we're
+ 
+
+00:00:12.559 --> 00:00:14.470 align:start position:0%
+simple one-point lighting setup we're
+going<00:00:12.719><c> to</c><00:00:12.880><c> build</c><00:00:13.280><c> this</c><00:00:13.599><c> entire</c><00:00:14.080><c> scene</c><00:00:14.400><c> and</c>
+
+00:00:14.470 --> 00:00:14.480 align:start position:0%
+going to build this entire scene and
+ 
+
+00:00:14.480 --> 00:00:16.070 align:start position:0%
+going to build this entire scene and
+then<00:00:14.639><c> i'm</c><00:00:14.719><c> going</c><00:00:14.880><c> to</c><00:00:15.040><c> talk</c><00:00:15.280><c> about</c><00:00:15.599><c> things</c><00:00:15.920><c> i</c>
+
+00:00:16.070 --> 00:00:16.080 align:start position:0%
+then i'm going to talk about things i
+ 
+
+00:00:16.080 --> 00:00:21.030 align:start position:0%
+then i'm going to talk about things i
+think<00:00:16.400><c> are</c><00:00:16.560><c> important</c><00:00:17.279><c> for</c><00:00:17.440><c> cinematography</c>
+
+00:00:21.030 --> 00:00:21.040 align:start position:0%
+ 
+ 
+
+00:00:21.040 --> 00:00:31.429 align:start position:0%
+ 
+[Music]
+
+00:00:31.429 --> 00:00:31.439 align:start position:0%
+ 
+ 
+
+00:00:31.439 --> 00:00:33.670 align:start position:0%
+ 
+so<00:00:31.760><c> here</c><00:00:31.920><c> we</c><00:00:32.079><c> are</c><00:00:32.160><c> in</c><00:00:32.239><c> blender</c><00:00:32.640><c> version</c><00:00:32.960><c> 3.1</c>
+
+00:00:33.670 --> 00:00:33.680 align:start position:0%
+so here we are in blender version 3.1
+ 
+
+00:00:33.680 --> 00:00:35.030 align:start position:0%
+so here we are in blender version 3.1
+and<00:00:33.760><c> we're</c><00:00:33.920><c> going</c><00:00:34.000><c> to</c><00:00:34.079><c> start</c><00:00:34.320><c> off</c><00:00:34.399><c> by</c><00:00:34.640><c> deleting</c>
+
+00:00:35.030 --> 00:00:35.040 align:start position:0%
+and we're going to start off by deleting
+ 
+
+00:00:35.040 --> 00:00:37.510 align:start position:0%
+and we're going to start off by deleting
+everything<00:00:35.520><c> and</c><00:00:35.760><c> let's</c><00:00:36.000><c> go</c><00:00:36.239><c> to</c><00:00:36.719><c> mxaml</c><00:00:37.360><c> we're</c>
+
+00:00:37.510 --> 00:00:37.520 align:start position:0%
+everything and let's go to mxaml we're
+ 
+
+00:00:37.520 --> 00:00:40.229 align:start position:0%
+everything and let's go to mxaml we're
+going<00:00:37.600><c> to</c><00:00:37.680><c> use</c><00:00:37.920><c> this</c><00:00:38.160><c> model</c><00:00:38.559><c> called</c><00:00:39.360><c> why</c><00:00:39.600><c> bot</c>
+
+00:00:40.229 --> 00:00:40.239 align:start position:0%
+going to use this model called why bot
+ 
+
+00:00:40.239 --> 00:00:41.910 align:start position:0%
+going to use this model called why bot
+let<00:00:40.399><c> me</c><00:00:40.480><c> just</c><00:00:40.719><c> disable</c><00:00:41.120><c> myself</c><00:00:41.520><c> here</c><00:00:41.680><c> so</c><00:00:41.840><c> you</c>
+
+00:00:41.910 --> 00:00:41.920 align:start position:0%
+let me just disable myself here so you
+ 
+
+00:00:41.920 --> 00:00:44.709 align:start position:0%
+let me just disable myself here so you
+can<00:00:42.079><c> see</c><00:00:42.399><c> we</c><00:00:42.640><c> are</c><00:00:42.800><c> choosing</c><00:00:43.200><c> the</c><00:00:43.600><c> look</c><00:00:43.920><c> around</c>
+
+00:00:44.709 --> 00:00:44.719 align:start position:0%
+can see we are choosing the look around
+ 
+
+00:00:44.719 --> 00:00:46.389 align:start position:0%
+can see we are choosing the look around
+animation<00:00:45.440><c> yeah</c><00:00:45.680><c> so</c><00:00:45.840><c> this</c><00:00:46.000><c> is</c><00:00:46.079><c> a</c><00:00:46.160><c> cool</c>
+
+00:00:46.389 --> 00:00:46.399 align:start position:0%
+animation yeah so this is a cool
+ 
+
+00:00:46.399 --> 00:00:47.910 align:start position:0%
+animation yeah so this is a cool
+animation<00:00:46.960><c> and</c><00:00:47.200><c> you</c><00:00:47.280><c> can</c><00:00:47.520><c> increase</c><00:00:47.840><c> the</c>
+
+00:00:47.910 --> 00:00:47.920 align:start position:0%
+animation and you can increase the
+ 
+
+00:00:47.920 --> 00:00:49.750 align:start position:0%
+animation and you can increase the
+character<00:00:48.399><c> arm</c><00:00:48.640><c> space</c><00:00:49.120><c> just</c><00:00:49.280><c> a</c><00:00:49.360><c> little</c><00:00:49.520><c> bit</c>
+
+00:00:49.750 --> 00:00:49.760 align:start position:0%
+character arm space just a little bit
+ 
+
+00:00:49.760 --> 00:00:52.150 align:start position:0%
+character arm space just a little bit
+because<00:00:50.079><c> it's</c><00:00:50.239><c> clipping</c>
+
+00:00:52.150 --> 00:00:52.160 align:start position:0%
+because it's clipping
+ 
+
+00:00:52.160 --> 00:00:54.389 align:start position:0%
+because it's clipping
+so<00:00:52.399><c> let's</c><00:00:52.559><c> go</c><00:00:52.719><c> ahead</c><00:00:52.800><c> and</c><00:00:52.960><c> click</c><00:00:53.199><c> download</c><00:00:53.840><c> and</c>
+
+00:00:54.389 --> 00:00:54.399 align:start position:0%
+so let's go ahead and click download and
+ 
+
+00:00:54.399 --> 00:00:57.590 align:start position:0%
+so let's go ahead and click download and
+fbx<00:00:55.199><c> is</c><00:00:55.360><c> good</c><00:00:56.000><c> and</c><00:00:56.239><c> just</c><00:00:56.800><c> download</c><00:00:57.280><c> so</c><00:00:57.520><c> in</c>
+
+00:00:57.590 --> 00:00:57.600 align:start position:0%
+fbx is good and just download so in
+ 
+
+00:00:57.600 --> 00:01:02.630 align:start position:0%
+fbx is good and just download so in
+blender<00:00:58.079><c> let's</c><00:00:58.320><c> go</c><00:00:58.719><c> f4</c><00:00:59.760><c> import</c><00:01:00.399><c> fbx</c><00:01:01.440><c> and</c><00:01:01.520><c> then</c>
+
+00:01:02.630 --> 00:01:02.640 align:start position:0%
+blender let's go f4 import fbx and then
+ 
+
+00:01:02.640 --> 00:01:04.469 align:start position:0%
+blender let's go f4 import fbx and then
+find<00:01:02.879><c> your</c><00:01:03.120><c> motion</c><00:01:03.359><c> capture</c>
+
+00:01:04.469 --> 00:01:04.479 align:start position:0%
+find your motion capture
+ 
+
+00:01:04.479 --> 00:01:06.550 align:start position:0%
+find your motion capture
+import<00:01:05.199><c> so</c><00:01:05.519><c> here</c><00:01:05.760><c> you</c><00:01:05.840><c> can</c><00:01:05.920><c> see</c><00:01:06.159><c> you</c><00:01:06.240><c> have</c><00:01:06.400><c> the</c>
+
+00:01:06.550 --> 00:01:06.560 align:start position:0%
+import so here you can see you have the
+ 
+
+00:01:06.560 --> 00:01:08.789 align:start position:0%
+import so here you can see you have the
+animated<00:01:07.040><c> version</c><00:01:07.520><c> in</c><00:01:07.680><c> blender</c><00:01:08.240><c> i</c><00:01:08.400><c> realize</c>
+
+00:01:08.789 --> 00:01:08.799 align:start position:0%
+animated version in blender i realize
+ 
+
+00:01:08.799 --> 00:01:10.149 align:start position:0%
+animated version in blender i realize
+i'm<00:01:08.960><c> using</c><00:01:09.200><c> this</c><00:01:09.360><c> model</c><00:01:09.680><c> for</c><00:01:09.840><c> everything</c>
+
+00:01:10.149 --> 00:01:10.159 align:start position:0%
+i'm using this model for everything
+ 
+
+00:01:10.159 --> 00:01:12.390 align:start position:0%
+i'm using this model for everything
+nowadays<00:01:10.560><c> but</c><00:01:10.799><c> i</c><00:01:10.880><c> just</c><00:01:11.040><c> really</c><00:01:11.280><c> like</c><00:01:11.520><c> it</c><00:01:12.080><c> let's</c>
+
+00:01:12.390 --> 00:01:12.400 align:start position:0%
+nowadays but i just really like it let's
+ 
+
+00:01:12.400 --> 00:01:15.350 align:start position:0%
+nowadays but i just really like it let's
+create<00:01:12.880><c> a</c><00:01:13.360><c> ground</c><00:01:13.760><c> plane</c><00:01:14.159><c> so</c><00:01:14.479><c> shift</c><00:01:14.799><c> a</c><00:01:15.119><c> let's</c>
+
+00:01:15.350 --> 00:01:15.360 align:start position:0%
+create a ground plane so shift a let's
+ 
+
+00:01:15.360 --> 00:01:16.630 align:start position:0%
+create a ground plane so shift a let's
+create<00:01:15.600><c> a</c><00:01:15.680><c> plane</c>
+
+00:01:16.630 --> 00:01:16.640 align:start position:0%
+create a plane
+ 
+
+00:01:16.640 --> 00:01:18.149 align:start position:0%
+create a plane
+let's<00:01:16.880><c> scale</c><00:01:17.200><c> this</c><00:01:17.360><c> up</c><00:01:17.439><c> a</c><00:01:17.520><c> little</c><00:01:17.680><c> bit</c><00:01:18.000><c> and</c>
+
+00:01:18.149 --> 00:01:18.159 align:start position:0%
+let's scale this up a little bit and
+ 
+
+00:01:18.159 --> 00:01:20.230 align:start position:0%
+let's scale this up a little bit and
+let's<00:01:18.320><c> go</c><00:01:18.479><c> to</c><00:01:18.640><c> edit</c><00:01:18.880><c> mode</c><00:01:19.119><c> by</c><00:01:19.280><c> pressing</c><00:01:19.600><c> tab</c>
+
+00:01:20.230 --> 00:01:20.240 align:start position:0%
+let's go to edit mode by pressing tab
+ 
+
+00:01:20.240 --> 00:01:21.590 align:start position:0%
+let's go to edit mode by pressing tab
+and<00:01:20.479><c> you</c><00:01:20.560><c> can</c><00:01:20.720><c> click</c><00:01:20.880><c> and</c><00:01:21.040><c> drag</c><00:01:21.200><c> and</c><00:01:21.280><c> select</c>
+
+00:01:21.590 --> 00:01:21.600 align:start position:0%
+and you can click and drag and select
+ 
+
+00:01:21.600 --> 00:01:23.429 align:start position:0%
+and you can click and drag and select
+these<00:01:21.840><c> two</c><00:01:22.159><c> vertices</c><00:01:22.640><c> behind</c><00:01:22.960><c> here</c><00:01:23.200><c> and</c><00:01:23.280><c> let's</c>
+
+00:01:23.429 --> 00:01:23.439 align:start position:0%
+these two vertices behind here and let's
+ 
+
+00:01:23.439 --> 00:01:26.390 align:start position:0%
+these two vertices behind here and let's
+press<00:01:23.759><c> e</c><00:01:24.000><c> to</c><00:01:24.159><c> extrude</c><00:01:24.720><c> on</c><00:01:24.799><c> the</c><00:01:24.960><c> z-axis</c>
+
+00:01:26.390 --> 00:01:26.400 align:start position:0%
+press e to extrude on the z-axis
+ 
+
+00:01:26.400 --> 00:01:27.749 align:start position:0%
+press e to extrude on the z-axis
+so<00:01:26.560><c> now</c><00:01:26.720><c> we</c><00:01:26.799><c> want</c><00:01:26.960><c> to</c><00:01:27.040><c> make</c><00:01:27.200><c> this</c><00:01:27.360><c> into</c><00:01:27.600><c> a</c>
+
+00:01:27.749 --> 00:01:27.759 align:start position:0%
+so now we want to make this into a
+ 
+
+00:01:27.759 --> 00:01:30.390 align:start position:0%
+so now we want to make this into a
+smooth<00:01:28.320><c> studio</c><00:01:28.799><c> backdrop</c><00:01:29.680><c> so</c><00:01:29.920><c> let's</c><00:01:30.079><c> go</c><00:01:30.240><c> back</c>
+
+00:01:30.390 --> 00:01:30.400 align:start position:0%
+smooth studio backdrop so let's go back
+ 
+
+00:01:30.400 --> 00:01:32.870 align:start position:0%
+smooth studio backdrop so let's go back
+to<00:01:30.560><c> object</c><00:01:30.880><c> mode</c><00:01:31.360><c> and</c><00:01:31.520><c> let's</c><00:01:31.680><c> go</c><00:01:31.920><c> to</c><00:01:32.400><c> modifier</c>
+
+00:01:32.870 --> 00:01:32.880 align:start position:0%
+to object mode and let's go to modifier
+ 
+
+00:01:32.880 --> 00:01:33.910 align:start position:0%
+to object mode and let's go to modifier
+properties
+
+00:01:33.910 --> 00:01:33.920 align:start position:0%
+properties
+ 
+
+00:01:33.920 --> 00:01:36.789 align:start position:0%
+properties
+add<00:01:34.240><c> modifier</c><00:01:35.200><c> bevel</c><00:01:36.000><c> and</c><00:01:36.079><c> then</c><00:01:36.320><c> you</c><00:01:36.400><c> can</c><00:01:36.560><c> just</c>
+
+00:01:36.789 --> 00:01:36.799 align:start position:0%
+add modifier bevel and then you can just
+ 
+
+00:01:36.799 --> 00:01:38.630 align:start position:0%
+add modifier bevel and then you can just
+increase<00:01:37.280><c> the</c><00:01:37.360><c> amount</c><00:01:37.680><c> of</c><00:01:37.840><c> this</c>
+
+00:01:38.630 --> 00:01:38.640 align:start position:0%
+increase the amount of this
+ 
+
+00:01:38.640 --> 00:01:41.990 align:start position:0%
+increase the amount of this
+just<00:01:38.880><c> go</c><00:01:39.119><c> crazy</c><00:01:39.920><c> and</c><00:01:40.159><c> increase</c><00:01:40.479><c> the</c><00:01:40.640><c> segments</c>
+
+00:01:41.990 --> 00:01:42.000 align:start position:0%
+just go crazy and increase the segments
+ 
+
+00:01:42.000 --> 00:01:45.350 align:start position:0%
+just go crazy and increase the segments
+let's<00:01:42.320><c> move</c><00:01:42.479><c> this</c><00:01:42.720><c> back</c><00:01:43.040><c> a</c><00:01:43.119><c> little</c><00:01:43.280><c> bit</c>
+
+00:01:45.350 --> 00:01:45.360 align:start position:0%
+let's move this back a little bit
+ 
+
+00:01:45.360 --> 00:01:46.710 align:start position:0%
+let's move this back a little bit
+perfect<00:01:45.840><c> and</c><00:01:45.920><c> then</c><00:01:46.079><c> you</c><00:01:46.159><c> can</c><00:01:46.240><c> see</c><00:01:46.399><c> all</c><00:01:46.479><c> these</c>
+
+00:01:46.710 --> 00:01:46.720 align:start position:0%
+perfect and then you can see all these
+ 
+
+00:01:46.720 --> 00:01:48.149 align:start position:0%
+perfect and then you can see all these
+little<00:01:46.960><c> lines</c><00:01:47.200><c> so</c><00:01:47.360><c> we</c><00:01:47.439><c> want</c><00:01:47.600><c> to</c><00:01:47.680><c> right</c><00:01:47.920><c> click</c>
+
+00:01:48.149 --> 00:01:48.159 align:start position:0%
+little lines so we want to right click
+ 
+
+00:01:48.159 --> 00:01:49.749 align:start position:0%
+little lines so we want to right click
+and<00:01:48.240><c> set</c><00:01:48.399><c> the</c><00:01:48.560><c> shading</c><00:01:48.799><c> to</c><00:01:48.960><c> smooth</c><00:01:49.360><c> so</c><00:01:49.520><c> now</c><00:01:49.680><c> we</c>
+
+00:01:49.749 --> 00:01:49.759 align:start position:0%
+and set the shading to smooth so now we
+ 
+
+00:01:49.759 --> 00:01:51.910 align:start position:0%
+and set the shading to smooth so now we
+have<00:01:50.000><c> a</c><00:01:50.159><c> smooth</c><00:01:50.560><c> studio</c><00:01:50.960><c> backdrop</c><00:01:51.680><c> let's</c>
+
+00:01:51.910 --> 00:01:51.920 align:start position:0%
+have a smooth studio backdrop let's
+ 
+
+00:01:51.920 --> 00:01:53.510 align:start position:0%
+have a smooth studio backdrop let's
+actually<00:01:52.240><c> scale</c><00:01:52.479><c> this</c><00:01:52.640><c> up</c><00:01:52.799><c> on</c><00:01:52.880><c> the</c><00:01:53.040><c> x</c><00:01:53.280><c> axis</c><00:01:53.520><c> a</c>
+
+00:01:53.510 --> 00:01:53.520 align:start position:0%
+actually scale this up on the x axis a
+ 
+
+00:01:53.520 --> 00:01:54.389 align:start position:0%
+actually scale this up on the x axis a
+little<00:01:53.680><c> bit</c>
+
+00:01:54.389 --> 00:01:54.399 align:start position:0%
+little bit
+ 
+
+00:01:54.399 --> 00:01:56.950 align:start position:0%
+little bit
+and<00:01:54.560><c> now</c><00:01:54.799><c> let's</c><00:01:55.040><c> create</c><00:01:55.439><c> our</c><00:01:55.759><c> camera</c><00:01:56.320><c> shift</c><00:01:56.640><c> a</c>
+
+00:01:56.950 --> 00:01:56.960 align:start position:0%
+and now let's create our camera shift a
+ 
+
+00:01:56.960 --> 00:01:59.270 align:start position:0%
+and now let's create our camera shift a
+and<00:01:57.119><c> let's</c><00:01:57.360><c> create</c><00:01:57.600><c> a</c><00:01:57.759><c> camera</c><00:01:58.399><c> and</c><00:01:58.640><c> i</c><00:01:58.799><c> think</c>
+
+00:01:59.270 --> 00:01:59.280 align:start position:0%
+and let's create a camera and i think
+ 
+
+00:01:59.280 --> 00:02:02.149 align:start position:0%
+and let's create a camera and i think
+this<00:01:59.920><c> angle</c><00:02:00.640><c> is</c><00:02:00.880><c> quite</c><00:02:01.119><c> good</c><00:02:01.520><c> so</c><00:02:01.680><c> let's</c><00:02:01.840><c> go</c>
+
+00:02:02.149 --> 00:02:02.159 align:start position:0%
+this angle is quite good so let's go
+ 
+
+00:02:02.159 --> 00:02:04.789 align:start position:0%
+this angle is quite good so let's go
+view<00:02:02.880><c> align</c><00:02:03.360><c> view</c><00:02:03.759><c> align</c><00:02:04.159><c> active</c><00:02:04.399><c> camera</c><00:02:04.640><c> to</c>
+
+00:02:04.789 --> 00:02:04.799 align:start position:0%
+view align view align active camera to
+ 
+
+00:02:04.799 --> 00:02:06.630 align:start position:0%
+view align view align active camera to
+view<00:02:05.119><c> so</c><00:02:05.280><c> now</c><00:02:05.520><c> our</c><00:02:05.680><c> camera</c><00:02:06.000><c> will</c><00:02:06.159><c> see</c><00:02:06.320><c> what</c><00:02:06.479><c> we</c>
+
+00:02:06.630 --> 00:02:06.640 align:start position:0%
+view so now our camera will see what we
+ 
+
+00:02:06.640 --> 00:02:08.309 align:start position:0%
+view so now our camera will see what we
+are<00:02:06.719><c> seeing</c><00:02:07.200><c> and</c><00:02:07.280><c> you</c><00:02:07.439><c> can</c><00:02:07.520><c> press</c><00:02:07.759><c> g</c><00:02:08.000><c> to</c><00:02:08.160><c> move</c>
+
+00:02:08.309 --> 00:02:08.319 align:start position:0%
+are seeing and you can press g to move
+ 
+
+00:02:08.319 --> 00:02:10.949 align:start position:0%
+are seeing and you can press g to move
+the<00:02:08.399><c> camera</c><00:02:09.119><c> and</c><00:02:09.200><c> then</c><00:02:09.440><c> let's</c><00:02:09.679><c> press</c><00:02:10.319><c> z</c><00:02:10.720><c> two</c>
+
+00:02:10.949 --> 00:02:10.959 align:start position:0%
+the camera and then let's press z two
+ 
+
+00:02:10.959 --> 00:02:11.830 align:start position:0%
+the camera and then let's press z two
+times
+
+00:02:11.830 --> 00:02:11.840 align:start position:0%
+times
+ 
+
+00:02:11.840 --> 00:02:13.110 align:start position:0%
+times
+you<00:02:11.920><c> can</c><00:02:12.080><c> move</c><00:02:12.239><c> it</c><00:02:12.319><c> back</c><00:02:12.480><c> a</c><00:02:12.560><c> little</c><00:02:12.720><c> bit</c><00:02:12.959><c> on</c><00:02:13.040><c> the</c>
+
+00:02:13.110 --> 00:02:13.120 align:start position:0%
+you can move it back a little bit on the
+ 
+
+00:02:13.120 --> 00:02:15.750 align:start position:0%
+you can move it back a little bit on the
+local<00:02:13.440><c> z-axis</c>
+
+00:02:15.750 --> 00:02:15.760 align:start position:0%
+local z-axis
+ 
+
+00:02:15.760 --> 00:02:18.470 align:start position:0%
+local z-axis
+let's<00:02:16.160><c> enable</c><00:02:16.800><c> the</c><00:02:17.120><c> cycles</c><00:02:17.599><c> render</c><00:02:17.920><c> engine</c>
+
+00:02:18.470 --> 00:02:18.480 align:start position:0%
+let's enable the cycles render engine
+ 
+
+00:02:18.480 --> 00:02:20.550 align:start position:0%
+let's enable the cycles render engine
+let's<00:02:18.640><c> go</c><00:02:18.879><c> to</c><00:02:19.440><c> render</c><00:02:19.760><c> properties</c><00:02:20.239><c> and</c><00:02:20.400><c> set</c>
+
+00:02:20.550 --> 00:02:20.560 align:start position:0%
+let's go to render properties and set
+ 
+
+00:02:20.560 --> 00:02:22.550 align:start position:0%
+let's go to render properties and set
+the<00:02:20.640><c> render</c><00:02:20.959><c> engine</c><00:02:21.280><c> to</c><00:02:21.599><c> cycles</c><00:02:22.239><c> i'm</c><00:02:22.400><c> going</c><00:02:22.480><c> to</c>
+
+00:02:22.550 --> 00:02:22.560 align:start position:0%
+the render engine to cycles i'm going to
+ 
+
+00:02:22.560 --> 00:02:23.750 align:start position:0%
+the render engine to cycles i'm going to
+show<00:02:22.720><c> something</c><00:02:22.959><c> cool</c><00:02:23.040><c> i</c><00:02:23.120><c> got</c><00:02:23.280><c> the</c><00:02:23.360><c> windows</c>
+
+00:02:23.750 --> 00:02:23.760 align:start position:0%
+show something cool i got the windows
+ 
+
+00:02:23.760 --> 00:02:25.830 align:start position:0%
+show something cool i got the windows
+power<00:02:24.160><c> toys</c><00:02:24.480><c> so</c><00:02:24.560><c> you</c><00:02:24.640><c> can</c><00:02:24.720><c> do</c><00:02:24.879><c> like</c><00:02:25.040><c> this</c>
+
+00:02:25.830 --> 00:02:25.840 align:start position:0%
+power toys so you can do like this
+ 
+
+00:02:25.840 --> 00:02:27.750 align:start position:0%
+power toys so you can do like this
+press<00:02:26.080><c> ctrl</c><00:02:26.480><c> two</c><00:02:26.720><c> times</c><00:02:27.040><c> and</c><00:02:27.120><c> you</c><00:02:27.200><c> can</c><00:02:27.280><c> do</c><00:02:27.440><c> this</c>
+
+00:02:27.750 --> 00:02:27.760 align:start position:0%
+press ctrl two times and you can do this
+ 
+
+00:02:27.760 --> 00:02:31.270 align:start position:0%
+press ctrl two times and you can do this
+so<00:02:28.239><c> we're</c><00:02:28.400><c> going</c><00:02:28.560><c> to</c><00:02:28.640><c> go</c><00:02:28.959><c> to</c><00:02:29.120><c> the</c><00:02:29.599><c> render</c><00:02:30.239><c> view</c>
+
+00:02:31.270 --> 00:02:31.280 align:start position:0%
+so we're going to go to the render view
+ 
+
+00:02:31.280 --> 00:02:32.309 align:start position:0%
+so we're going to go to the render view
+boom
+
+00:02:32.309 --> 00:02:32.319 align:start position:0%
+boom
+ 
+
+00:02:32.319 --> 00:02:33.910 align:start position:0%
+boom
+is<00:02:32.480><c> that</c><00:02:32.560><c> annoying</c><00:02:32.959><c> or</c><00:02:33.040><c> is</c><00:02:33.200><c> it</c><00:02:33.360><c> good</c><00:02:33.680><c> i</c><00:02:33.760><c> don't</c>
+
+00:02:33.910 --> 00:02:33.920 align:start position:0%
+is that annoying or is it good i don't
+ 
+
+00:02:33.920 --> 00:02:35.910 align:start position:0%
+is that annoying or is it good i don't
+know<00:02:34.239><c> so</c><00:02:34.480><c> we're</c><00:02:34.640><c> in</c><00:02:34.720><c> a</c><00:02:34.800><c> rendered</c><00:02:35.120><c> view</c><00:02:35.440><c> and</c><00:02:35.680><c> now</c>
+
+00:02:35.910 --> 00:02:35.920 align:start position:0%
+know so we're in a rendered view and now
+ 
+
+00:02:35.920 --> 00:02:38.229 align:start position:0%
+know so we're in a rendered view and now
+you<00:02:36.000><c> can</c><00:02:36.160><c> see</c><00:02:36.640><c> just</c><00:02:36.879><c> this</c><00:02:37.200><c> shadow</c>
+
+00:02:38.229 --> 00:02:38.239 align:start position:0%
+you can see just this shadow
+ 
+
+00:02:38.239 --> 00:02:40.390 align:start position:0%
+you can see just this shadow
+is<00:02:38.400><c> just</c><00:02:39.120><c> automatically</c><00:02:39.680><c> appearing</c><00:02:40.080><c> here</c><00:02:40.319><c> and</c>
+
+00:02:40.390 --> 00:02:40.400 align:start position:0%
+is just automatically appearing here and
+ 
+
+00:02:40.400 --> 00:02:41.990 align:start position:0%
+is just automatically appearing here and
+this<00:02:40.640><c> is</c><00:02:40.720><c> just</c><00:02:40.959><c> the</c><00:02:41.040><c> ambient</c><00:02:41.440><c> occlusion</c><00:02:41.840><c> that</c>
+
+00:02:41.990 --> 00:02:42.000 align:start position:0%
+this is just the ambient occlusion that
+ 
+
+00:02:42.000 --> 00:02:43.830 align:start position:0%
+this is just the ambient occlusion that
+just<00:02:42.160><c> works</c><00:02:42.480><c> really</c><00:02:42.720><c> nice</c><00:02:42.879><c> in</c><00:02:43.040><c> cycles</c><00:02:43.519><c> you</c><00:02:43.680><c> can</c>
+
+00:02:43.830 --> 00:02:43.840 align:start position:0%
+just works really nice in cycles you can
+ 
+
+00:02:43.840 --> 00:02:45.589 align:start position:0%
+just works really nice in cycles you can
+see<00:02:44.000><c> with</c><00:02:44.160><c> this</c><00:02:44.319><c> ambient</c><00:02:44.720><c> occlusion</c><00:02:45.120><c> that</c>
+
+00:02:45.589 --> 00:02:45.599 align:start position:0%
+see with this ambient occlusion that
+ 
+
+00:02:45.599 --> 00:02:46.949 align:start position:0%
+see with this ambient occlusion that
+this<00:02:45.840><c> character</c><00:02:46.160><c> is</c><00:02:46.239><c> actually</c><00:02:46.480><c> levitating</c><00:02:46.879><c> a</c>
+
+00:02:46.949 --> 00:02:46.959 align:start position:0%
+this character is actually levitating a
+ 
+
+00:02:46.959 --> 00:02:48.790 align:start position:0%
+this character is actually levitating a
+little<00:02:47.120><c> bit</c><00:02:47.280><c> so</c><00:02:47.440><c> let's</c><00:02:47.599><c> select</c><00:02:47.920><c> the</c><00:02:48.000><c> bones</c><00:02:48.720><c> and</c>
+
+00:02:48.790 --> 00:02:48.800 align:start position:0%
+little bit so let's select the bones and
+ 
+
+00:02:48.800 --> 00:02:50.309 align:start position:0%
+little bit so let's select the bones and
+then<00:02:48.959><c> let's</c><00:02:49.200><c> move</c><00:02:49.440><c> it</c><00:02:49.599><c> a</c><00:02:49.680><c> little</c><00:02:49.840><c> bit</c><00:02:50.000><c> down</c><00:02:50.239><c> on</c>
+
+00:02:50.309 --> 00:02:50.319 align:start position:0%
+then let's move it a little bit down on
+ 
+
+00:02:50.319 --> 00:02:51.589 align:start position:0%
+then let's move it a little bit down on
+the<00:02:50.480><c> z-axis</c>
+
+00:02:51.589 --> 00:02:51.599 align:start position:0%
+the z-axis
+ 
+
+00:02:51.599 --> 00:02:53.110 align:start position:0%
+the z-axis
+it<00:02:51.680><c> looks</c><00:02:51.920><c> like</c><00:02:52.080><c> it's</c><00:02:52.319><c> standing</c><00:02:52.879><c> on</c><00:02:52.959><c> the</c>
+
+00:02:53.110 --> 00:02:53.120 align:start position:0%
+it looks like it's standing on the
+ 
+
+00:02:53.120 --> 00:02:54.710 align:start position:0%
+it looks like it's standing on the
+ground<00:02:53.360><c> and</c><00:02:53.440><c> then</c><00:02:53.760><c> if</c><00:02:53.840><c> you</c><00:02:54.000><c> like</c><00:02:54.239><c> you</c><00:02:54.319><c> can</c><00:02:54.480><c> just</c>
+
+00:02:54.710 --> 00:02:54.720 align:start position:0%
+ground and then if you like you can just
+ 
+
+00:02:54.720 --> 00:02:56.309 align:start position:0%
+ground and then if you like you can just
+go<00:02:54.879><c> ahead</c><00:02:55.040><c> and</c><00:02:55.200><c> hide</c><00:02:55.440><c> the</c><00:02:55.599><c> bones</c><00:02:55.920><c> because</c><00:02:56.160><c> we</c>
+
+00:02:56.309 --> 00:02:56.319 align:start position:0%
+go ahead and hide the bones because we
+ 
+
+00:02:56.319 --> 00:02:57.670 align:start position:0%
+go ahead and hide the bones because we
+don't<00:02:56.400><c> need</c><00:02:56.640><c> them</c><00:02:56.720><c> anymore</c><00:02:57.040><c> so</c><00:02:57.200><c> just</c><00:02:57.360><c> select</c>
+
+00:02:57.670 --> 00:02:57.680 align:start position:0%
+don't need them anymore so just select
+ 
+
+00:02:57.680 --> 00:02:59.910 align:start position:0%
+don't need them anymore so just select
+the<00:02:58.000><c> armature</c><00:02:58.560><c> and</c><00:02:58.720><c> press</c><00:02:59.040><c> h</c><00:02:59.200><c> to</c><00:02:59.360><c> hide</c><00:02:59.760><c> by</c><00:02:59.920><c> the</c>
+
+00:02:59.910 --> 00:02:59.920 align:start position:0%
+the armature and press h to hide by the
+ 
+
+00:02:59.920 --> 00:03:01.430 align:start position:0%
+the armature and press h to hide by the
+way<00:03:00.080><c> if</c><00:03:00.159><c> you</c><00:03:00.239><c> hold</c><00:03:00.400><c> down</c><00:03:00.640><c> z</c><00:03:00.879><c> you</c><00:03:00.959><c> can</c><00:03:01.040><c> do</c><00:03:01.200><c> this</c>
+
+00:03:01.430 --> 00:03:01.440 align:start position:0%
+way if you hold down z you can do this
+ 
+
+00:03:01.440 --> 00:03:03.990 align:start position:0%
+way if you hold down z you can do this
+pi<00:03:01.680><c> menu</c><00:03:02.239><c> to</c><00:03:02.480><c> just</c><00:03:02.800><c> see</c><00:03:03.200><c> render</c><00:03:03.519><c> view</c><00:03:03.840><c> right</c>
+
+00:03:03.990 --> 00:03:04.000 align:start position:0%
+pi menu to just see render view right
+ 
+
+00:03:04.000 --> 00:03:06.390 align:start position:0%
+pi menu to just see render view right
+away<00:03:04.319><c> so</c><00:03:04.480><c> you</c><00:03:04.560><c> can</c><00:03:04.720><c> just</c><00:03:04.879><c> press</c><00:03:05.360><c> z</c><00:03:05.680><c> and</c><00:03:05.760><c> drag</c><00:03:06.080><c> up</c>
+
+00:03:06.390 --> 00:03:06.400 align:start position:0%
+away so you can just press z and drag up
+ 
+
+00:03:06.400 --> 00:03:07.830 align:start position:0%
+away so you can just press z and drag up
+which<00:03:06.560><c> is</c><00:03:06.720><c> a</c><00:03:06.800><c> really</c><00:03:07.040><c> fast</c><00:03:07.360><c> way</c><00:03:07.519><c> to</c><00:03:07.599><c> go</c><00:03:07.760><c> to</c>
+
+00:03:07.830 --> 00:03:07.840 align:start position:0%
+which is a really fast way to go to
+ 
+
+00:03:07.840 --> 00:03:10.149 align:start position:0%
+which is a really fast way to go to
+render<00:03:08.080><c> view</c><00:03:08.400><c> or</c><00:03:08.640><c> solid</c><00:03:09.040><c> or</c><00:03:09.200><c> material</c><00:03:09.840><c> okay</c><00:03:10.000><c> so</c>
+
+00:03:10.149 --> 00:03:10.159 align:start position:0%
+render view or solid or material okay so
+ 
+
+00:03:10.159 --> 00:03:11.750 align:start position:0%
+render view or solid or material okay so
+now<00:03:10.319><c> we're</c><00:03:10.400><c> done</c><00:03:10.560><c> with</c><00:03:10.720><c> the</c><00:03:10.800><c> boring</c><00:03:11.120><c> part</c>
+
+00:03:11.750 --> 00:03:11.760 align:start position:0%
+now we're done with the boring part
+ 
+
+00:03:11.760 --> 00:03:13.670 align:start position:0%
+now we're done with the boring part
+let's<00:03:12.080><c> start</c><00:03:12.319><c> focus</c><00:03:12.640><c> on</c><00:03:12.720><c> the</c><00:03:12.879><c> lighting</c><00:03:13.360><c> and</c><00:03:13.519><c> i</c>
+
+00:03:13.670 --> 00:03:13.680 align:start position:0%
+let's start focus on the lighting and i
+ 
+
+00:03:13.680 --> 00:03:15.830 align:start position:0%
+let's start focus on the lighting and i
+want<00:03:13.840><c> you</c><00:03:14.000><c> to</c><00:03:14.159><c> ask</c><00:03:14.400><c> yourself</c><00:03:15.280><c> why</c><00:03:15.599><c> are</c><00:03:15.680><c> we</c>
+
+00:03:15.830 --> 00:03:15.840 align:start position:0%
+want you to ask yourself why are we
+ 
+
+00:03:15.840 --> 00:03:17.990 align:start position:0%
+want you to ask yourself why are we
+adding<00:03:16.159><c> light</c><00:03:16.560><c> in</c><00:03:16.640><c> this</c><00:03:16.800><c> scene</c><00:03:17.280><c> are</c><00:03:17.440><c> we</c><00:03:17.599><c> adding</c>
+
+00:03:17.990 --> 00:03:18.000 align:start position:0%
+adding light in this scene are we adding
+ 
+
+00:03:18.000 --> 00:03:20.309 align:start position:0%
+adding light in this scene are we adding
+light<00:03:18.480><c> because</c><00:03:18.800><c> it's</c><00:03:19.040><c> too</c><00:03:19.280><c> dark</c>
+
+00:03:20.309 --> 00:03:20.319 align:start position:0%
+light because it's too dark
+ 
+
+00:03:20.319 --> 00:03:22.229 align:start position:0%
+light because it's too dark
+so<00:03:20.480><c> we</c><00:03:20.640><c> just</c><00:03:20.800><c> need</c><00:03:21.040><c> to</c><00:03:21.200><c> see</c><00:03:21.440><c> what's</c><00:03:21.680><c> happening</c>
+
+00:03:22.229 --> 00:03:22.239 align:start position:0%
+so we just need to see what's happening
+ 
+
+00:03:22.239 --> 00:03:23.830 align:start position:0%
+so we just need to see what's happening
+so<00:03:22.400><c> here</c><00:03:22.560><c> is</c><00:03:22.800><c> an</c><00:03:22.959><c> interesting</c><00:03:23.280><c> mindset</c><00:03:23.680><c> that</c><00:03:23.760><c> i</c>
+
+00:03:23.830 --> 00:03:23.840 align:start position:0%
+so here is an interesting mindset that i
+ 
+
+00:03:23.840 --> 00:03:25.350 align:start position:0%
+so here is an interesting mindset that i
+would<00:03:24.000><c> recommend</c><00:03:24.319><c> that</c><00:03:24.480><c> you</c><00:03:24.560><c> try</c><00:03:24.959><c> instead</c><00:03:25.200><c> of</c>
+
+00:03:25.350 --> 00:03:25.360 align:start position:0%
+would recommend that you try instead of
+ 
+
+00:03:25.360 --> 00:03:27.430 align:start position:0%
+would recommend that you try instead of
+thinking<00:03:25.680><c> that</c><00:03:25.920><c> i</c><00:03:26.159><c> need</c><00:03:26.319><c> to</c><00:03:26.560><c> illuminate</c><00:03:27.120><c> my</c>
+
+00:03:27.430 --> 00:03:27.440 align:start position:0%
+thinking that i need to illuminate my
+ 
+
+00:03:27.440 --> 00:03:29.750 align:start position:0%
+thinking that i need to illuminate my
+scene<00:03:28.000><c> therefore</c><00:03:28.480><c> i'm</c><00:03:28.720><c> adding</c><00:03:28.959><c> a</c><00:03:29.040><c> light</c><00:03:29.599><c> try</c>
+
+00:03:29.750 --> 00:03:29.760 align:start position:0%
+scene therefore i'm adding a light try
+ 
+
+00:03:29.760 --> 00:03:33.509 align:start position:0%
+scene therefore i'm adding a light try
+and<00:03:29.920><c> think</c><00:03:30.560><c> my</c><00:03:30.879><c> scene</c><00:03:31.599><c> needs</c><00:03:32.239><c> shadows</c><00:03:33.200><c> so</c><00:03:33.440><c> i</c>
+
+00:03:33.509 --> 00:03:33.519 align:start position:0%
+and think my scene needs shadows so i
+ 
+
+00:03:33.519 --> 00:03:35.910 align:start position:0%
+and think my scene needs shadows so i
+can<00:03:33.680><c> emphasize</c><00:03:34.560><c> the</c><00:03:34.720><c> shape</c><00:03:35.040><c> of</c><00:03:35.120><c> this</c><00:03:35.360><c> object</c>
+
+00:03:35.910 --> 00:03:35.920 align:start position:0%
+can emphasize the shape of this object
+ 
+
+00:03:35.920 --> 00:03:37.509 align:start position:0%
+can emphasize the shape of this object
+and<00:03:36.080><c> once</c><00:03:36.319><c> you</c><00:03:36.480><c> start</c><00:03:36.720><c> thinking</c><00:03:37.040><c> that</c><00:03:37.280><c> it's</c>
+
+00:03:37.509 --> 00:03:37.519 align:start position:0%
+and once you start thinking that it's
+ 
+
+00:03:37.519 --> 00:03:40.470 align:start position:0%
+and once you start thinking that it's
+incredibly<00:03:38.080><c> easy</c><00:03:38.799><c> to</c><00:03:38.959><c> just</c><00:03:39.519><c> place</c><00:03:39.840><c> the</c><00:03:40.000><c> light</c>
+
+00:03:40.470 --> 00:03:40.480 align:start position:0%
+incredibly easy to just place the light
+ 
+
+00:03:40.480 --> 00:03:42.470 align:start position:0%
+incredibly easy to just place the light
+so<00:03:40.879><c> let's</c><00:03:41.200><c> first</c><00:03:41.599><c> start</c><00:03:41.920><c> with</c><00:03:42.159><c> the</c><00:03:42.239><c> first</c>
+
+00:03:42.470 --> 00:03:42.480 align:start position:0%
+so let's first start with the first
+ 
+
+00:03:42.480 --> 00:03:44.470 align:start position:0%
+so let's first start with the first
+mindset<00:03:43.040><c> my</c><00:03:43.280><c> scene</c><00:03:43.599><c> is</c><00:03:43.680><c> too</c><00:03:43.840><c> dark</c><00:03:44.159><c> i</c><00:03:44.239><c> need</c><00:03:44.400><c> to</c>
+
+00:03:44.470 --> 00:03:44.480 align:start position:0%
+mindset my scene is too dark i need to
+ 
+
+00:03:44.480 --> 00:03:46.710 align:start position:0%
+mindset my scene is too dark i need to
+add<00:03:44.640><c> some</c><00:03:44.879><c> light</c><00:03:45.120><c> so</c><00:03:45.440><c> let's</c><00:03:45.680><c> go</c><00:03:45.920><c> shift</c><00:03:46.319><c> a</c><00:03:46.640><c> and</c>
+
+00:03:46.710 --> 00:03:46.720 align:start position:0%
+add some light so let's go shift a and
+ 
+
+00:03:46.720 --> 00:03:48.949 align:start position:0%
+add some light so let's go shift a and
+let's<00:03:46.959><c> add</c><00:03:47.200><c> a</c><00:03:47.440><c> point</c><00:03:47.760><c> light</c><00:03:48.159><c> because</c><00:03:48.640><c> that's</c>
+
+00:03:48.949 --> 00:03:48.959 align:start position:0%
+let's add a point light because that's
+ 
+
+00:03:48.959 --> 00:03:51.030 align:start position:0%
+let's add a point light because that's
+going<00:03:49.120><c> to</c><00:03:49.440><c> create</c><00:03:49.840><c> light</c><00:03:50.080><c> in</c><00:03:50.239><c> all</c><00:03:50.400><c> directions</c>
+
+00:03:51.030 --> 00:03:51.040 align:start position:0%
+going to create light in all directions
+ 
+
+00:03:51.040 --> 00:03:52.630 align:start position:0%
+going to create light in all directions
+which<00:03:51.280><c> is</c><00:03:51.519><c> good</c><00:03:51.760><c> right</c><00:03:51.920><c> we</c><00:03:52.080><c> want</c><00:03:52.239><c> this</c><00:03:52.400><c> to</c><00:03:52.480><c> be</c>
+
+00:03:52.630 --> 00:03:52.640 align:start position:0%
+which is good right we want this to be
+ 
+
+00:03:52.640 --> 00:03:54.710 align:start position:0%
+which is good right we want this to be
+brighter<00:03:53.120><c> so</c><00:03:53.360><c> let's</c><00:03:53.760><c> press</c><00:03:54.000><c> g</c><00:03:54.239><c> and</c><00:03:54.319><c> move</c><00:03:54.480><c> this</c>
+
+00:03:54.710 --> 00:03:54.720 align:start position:0%
+brighter so let's press g and move this
+ 
+
+00:03:54.720 --> 00:03:56.789 align:start position:0%
+brighter so let's press g and move this
+over<00:03:54.879><c> here</c><00:03:55.280><c> and</c><00:03:55.599><c> let's</c><00:03:55.920><c> right</c><00:03:56.159><c> click</c><00:03:56.560><c> and</c>
+
+00:03:56.789 --> 00:03:56.799 align:start position:0%
+over here and let's right click and
+ 
+
+00:03:56.799 --> 00:03:58.630 align:start position:0%
+over here and let's right click and
+adjust<00:03:57.120><c> the</c><00:03:57.280><c> light</c><00:03:57.519><c> power</c><00:03:57.920><c> so</c><00:03:58.080><c> now</c><00:03:58.239><c> you</c><00:03:58.400><c> can</c>
+
+00:03:58.630 --> 00:03:58.640 align:start position:0%
+adjust the light power so now you can
+ 
+
+00:03:58.640 --> 00:03:59.429 align:start position:0%
+adjust the light power so now you can
+see
+
+00:03:59.429 --> 00:03:59.439 align:start position:0%
+see
+ 
+
+00:03:59.439 --> 00:04:01.589 align:start position:0%
+see
+we<00:03:59.680><c> are</c><00:03:59.840><c> getting</c><00:04:00.400><c> more</c><00:04:00.640><c> light</c><00:04:00.879><c> in</c><00:04:01.040><c> our</c><00:04:01.200><c> scene</c>
+
+00:04:01.589 --> 00:04:01.599 align:start position:0%
+we are getting more light in our scene
+ 
+
+00:04:01.599 --> 00:04:03.190 align:start position:0%
+we are getting more light in our scene
+and<00:04:01.680><c> that's</c><00:04:01.920><c> good</c><00:04:02.159><c> right</c><00:04:02.560><c> we</c><00:04:02.799><c> wanted</c><00:04:03.120><c> to</c>
+
+00:04:03.190 --> 00:04:03.200 align:start position:0%
+and that's good right we wanted to
+ 
+
+00:04:03.200 --> 00:04:05.030 align:start position:0%
+and that's good right we wanted to
+illuminate<00:04:03.680><c> our</c><00:04:03.840><c> object</c><00:04:04.319><c> so</c><00:04:04.480><c> here's</c><00:04:04.799><c> how</c><00:04:04.959><c> the</c>
+
+00:04:05.030 --> 00:04:05.040 align:start position:0%
+illuminate our object so here's how the
+ 
+
+00:04:05.040 --> 00:04:06.949 align:start position:0%
+illuminate our object so here's how the
+other<00:04:05.280><c> mindset</c><00:04:05.680><c> comes</c><00:04:06.000><c> into</c><00:04:06.159><c> play</c>
+
+00:04:06.949 --> 00:04:06.959 align:start position:0%
+other mindset comes into play
+ 
+
+00:04:06.959 --> 00:04:08.390 align:start position:0%
+other mindset comes into play
+let's<00:04:07.200><c> view</c><00:04:07.439><c> this</c><00:04:07.599><c> from</c><00:04:07.760><c> the</c><00:04:07.920><c> side</c><00:04:08.239><c> by</c>
+
+00:04:08.390 --> 00:04:08.400 align:start position:0%
+let's view this from the side by
+ 
+
+00:04:08.400 --> 00:04:10.710 align:start position:0%
+let's view this from the side by
+pressing<00:04:08.720><c> this</c><00:04:08.879><c> widget</c><00:04:09.280><c> and</c><00:04:09.439><c> minus</c><00:04:09.840><c> x</c><00:04:10.319><c> let's</c>
+
+00:04:10.710 --> 00:04:10.720 align:start position:0%
+pressing this widget and minus x let's
+ 
+
+00:04:10.720 --> 00:04:12.070 align:start position:0%
+pressing this widget and minus x let's
+reset<00:04:11.120><c> the</c><00:04:11.200><c> position</c><00:04:11.599><c> of</c><00:04:11.680><c> the</c><00:04:11.760><c> light</c><00:04:11.920><c> by</c>
+
+00:04:12.070 --> 00:04:12.080 align:start position:0%
+reset the position of the light by
+ 
+
+00:04:12.080 --> 00:04:13.509 align:start position:0%
+reset the position of the light by
+pressing<00:04:12.319><c> alt</c><00:04:12.640><c> g</c>
+
+00:04:13.509 --> 00:04:13.519 align:start position:0%
+pressing alt g
+ 
+
+00:04:13.519 --> 00:04:16.069 align:start position:0%
+pressing alt g
+and<00:04:13.680><c> now</c><00:04:14.080><c> let's</c><00:04:14.400><c> try</c><00:04:14.640><c> and</c><00:04:14.879><c> move</c><00:04:15.120><c> this</c><00:04:15.680><c> so</c><00:04:15.840><c> that</c>
+
+00:04:16.069 --> 00:04:16.079 align:start position:0%
+and now let's try and move this so that
+ 
+
+00:04:16.079 --> 00:04:18.550 align:start position:0%
+and now let's try and move this so that
+it<00:04:16.320><c> creates</c><00:04:16.880><c> as</c><00:04:17.040><c> much</c><00:04:17.440><c> shadow</c><00:04:17.759><c> as</c><00:04:17.919><c> possible</c>
+
+00:04:18.550 --> 00:04:18.560 align:start position:0%
+it creates as much shadow as possible
+ 
+
+00:04:18.560 --> 00:04:21.110 align:start position:0%
+it creates as much shadow as possible
+and<00:04:18.799><c> i</c><00:04:18.959><c> want</c><00:04:19.120><c> to</c><00:04:19.280><c> see</c><00:04:19.600><c> shadows</c><00:04:20.479><c> here</c><00:04:20.880><c> in</c><00:04:20.959><c> the</c>
+
+00:04:21.110 --> 00:04:21.120 align:start position:0%
+and i want to see shadows here in the
+ 
+
+00:04:21.120 --> 00:04:23.430 align:start position:0%
+and i want to see shadows here in the
+chest<00:04:21.519><c> area</c><00:04:22.079><c> and</c><00:04:22.240><c> i</c><00:04:22.320><c> want</c><00:04:22.479><c> to</c><00:04:22.639><c> see</c><00:04:22.880><c> shadows</c><00:04:23.360><c> in</c>
+
+00:04:23.430 --> 00:04:23.440 align:start position:0%
+chest area and i want to see shadows in
+ 
+
+00:04:23.440 --> 00:04:25.189 align:start position:0%
+chest area and i want to see shadows in
+the<00:04:23.520><c> biceps</c><00:04:24.080><c> area</c><00:04:24.320><c> on</c><00:04:24.400><c> the</c><00:04:24.560><c> stomach</c><00:04:24.960><c> by</c><00:04:25.120><c> the</c>
+
+00:04:25.189 --> 00:04:25.199 align:start position:0%
+the biceps area on the stomach by the
+ 
+
+00:04:25.199 --> 00:04:26.629 align:start position:0%
+the biceps area on the stomach by the
+way<00:04:25.360><c> i</c><00:04:25.440><c> forgot</c><00:04:25.680><c> about</c><00:04:25.840><c> this</c><00:04:26.080><c> this</c><00:04:26.240><c> model</c><00:04:26.479><c> is</c><00:04:26.639><c> a</c>
+
+00:04:26.629 --> 00:04:26.639 align:start position:0%
+way i forgot about this this model is a
+ 
+
+00:04:26.639 --> 00:04:28.310 align:start position:0%
+way i forgot about this this model is a
+little<00:04:26.800><c> bit</c><00:04:26.960><c> weird</c><00:04:27.199><c> that</c><00:04:27.280><c> it</c><00:04:27.440><c> has</c><00:04:27.600><c> this</c><00:04:27.919><c> fake</c>
+
+00:04:28.310 --> 00:04:28.320 align:start position:0%
+little bit weird that it has this fake
+ 
+
+00:04:28.320 --> 00:04:30.230 align:start position:0%
+little bit weird that it has this fake
+sharpening<00:04:28.880><c> so</c><00:04:29.120><c> if</c><00:04:29.199><c> you</c><00:04:29.360><c> press</c><00:04:29.680><c> tab</c><00:04:29.919><c> to</c><00:04:30.000><c> go</c><00:04:30.160><c> to</c>
+
+00:04:30.230 --> 00:04:30.240 align:start position:0%
+sharpening so if you press tab to go to
+ 
+
+00:04:30.240 --> 00:04:33.189 align:start position:0%
+sharpening so if you press tab to go to
+edit<00:04:30.479><c> mode</c><00:04:30.720><c> you</c><00:04:30.800><c> can</c><00:04:30.880><c> press</c><00:04:31.120><c> ctrl</c><00:04:31.680><c> e</c><00:04:32.320><c> and</c><00:04:32.720><c> clear</c>
+
+00:04:33.189 --> 00:04:33.199 align:start position:0%
+edit mode you can press ctrl e and clear
+ 
+
+00:04:33.199 --> 00:04:35.189 align:start position:0%
+edit mode you can press ctrl e and clear
+sharp<00:04:33.520><c> from</c><00:04:33.680><c> vertices</c><00:04:34.320><c> so</c><00:04:34.479><c> now</c><00:04:34.800><c> it</c><00:04:34.880><c> doesn't</c>
+
+00:04:35.189 --> 00:04:35.199 align:start position:0%
+sharp from vertices so now it doesn't
+ 
+
+00:04:35.199 --> 00:04:36.870 align:start position:0%
+sharp from vertices so now it doesn't
+have<00:04:35.360><c> any</c><00:04:35.600><c> fake</c><00:04:35.919><c> sharpness</c><00:04:36.400><c> anymore</c><00:04:36.720><c> and</c><00:04:36.800><c> we</c>
+
+00:04:36.870 --> 00:04:36.880 align:start position:0%
+have any fake sharpness anymore and we
+ 
+
+00:04:36.880 --> 00:04:38.870 align:start position:0%
+have any fake sharpness anymore and we
+can<00:04:37.040><c> start</c><00:04:37.600><c> really</c><00:04:37.919><c> focus</c><00:04:38.240><c> on</c><00:04:38.320><c> the</c><00:04:38.400><c> geometry</c>
+
+00:04:38.870 --> 00:04:38.880 align:start position:0%
+can start really focus on the geometry
+ 
+
+00:04:38.880 --> 00:04:41.350 align:start position:0%
+can start really focus on the geometry
+here<00:04:39.120><c> so</c><00:04:39.280><c> first</c><00:04:39.520><c> of</c><00:04:39.680><c> all</c><00:04:39.840><c> i</c><00:04:40.080><c> think</c><00:04:40.560><c> this</c><00:04:40.880><c> part</c>
+
+00:04:41.350 --> 00:04:41.360 align:start position:0%
+here so first of all i think this part
+ 
+
+00:04:41.360 --> 00:04:44.150 align:start position:0%
+here so first of all i think this part
+is<00:04:41.520><c> way</c><00:04:41.759><c> too</c><00:04:42.320><c> flat</c><00:04:42.800><c> i</c><00:04:42.880><c> can't</c><00:04:43.120><c> really</c><00:04:43.520><c> see</c>
+
+00:04:44.150 --> 00:04:44.160 align:start position:0%
+is way too flat i can't really see
+ 
+
+00:04:44.160 --> 00:04:45.990 align:start position:0%
+is way too flat i can't really see
+what's<00:04:44.400><c> happening</c><00:04:44.800><c> on</c><00:04:44.960><c> this</c><00:04:45.120><c> chest</c><00:04:45.520><c> but</c><00:04:45.759><c> if</c><00:04:45.840><c> we</c>
+
+00:04:45.990 --> 00:04:46.000 align:start position:0%
+what's happening on this chest but if we
+ 
+
+00:04:46.000 --> 00:04:47.430 align:start position:0%
+what's happening on this chest but if we
+have<00:04:46.320><c> the</c><00:04:46.479><c> mindset</c><00:04:46.880><c> that</c><00:04:47.040><c> we</c><00:04:47.120><c> are</c><00:04:47.199><c> going</c><00:04:47.360><c> to</c>
+
+00:04:47.430 --> 00:04:47.440 align:start position:0%
+have the mindset that we are going to
+ 
+
+00:04:47.440 --> 00:04:49.590 align:start position:0%
+have the mindset that we are going to
+add<00:04:47.680><c> shadows</c><00:04:48.160><c> instead</c><00:04:48.720><c> let's</c><00:04:48.960><c> try</c><00:04:49.199><c> and</c><00:04:49.360><c> move</c>
+
+00:04:49.590 --> 00:04:49.600 align:start position:0%
+add shadows instead let's try and move
+ 
+
+00:04:49.600 --> 00:04:52.469 align:start position:0%
+add shadows instead let's try and move
+the<00:04:49.759><c> light</c><00:04:50.080><c> on</c><00:04:50.240><c> the</c><00:04:50.400><c> y-axis</c>
+
+00:04:52.469 --> 00:04:52.479 align:start position:0%
+the light on the y-axis
+ 
+
+00:04:52.479 --> 00:04:55.670 align:start position:0%
+the light on the y-axis
+and<00:04:52.639><c> a</c><00:04:52.720><c> little</c><00:04:52.960><c> bit</c><00:04:53.120><c> on</c><00:04:53.199><c> the</c><00:04:53.360><c> z-axis</c>
+
+00:04:55.670 --> 00:04:55.680 align:start position:0%
+and a little bit on the z-axis
+ 
+
+00:04:55.680 --> 00:04:58.070 align:start position:0%
+and a little bit on the z-axis
+we're<00:04:55.840><c> placing</c><00:04:56.160><c> the</c><00:04:56.320><c> light</c><00:04:56.880><c> just</c><00:04:57.199><c> above</c><00:04:57.919><c> our</c>
+
+00:04:58.070 --> 00:04:58.080 align:start position:0%
+we're placing the light just above our
+ 
+
+00:04:58.080 --> 00:05:00.469 align:start position:0%
+we're placing the light just above our
+character<00:04:58.800><c> it's</c><00:04:59.120><c> much</c><00:04:59.440><c> easier</c><00:04:59.759><c> to</c><00:05:00.000><c> see</c><00:05:00.320><c> and</c>
+
+00:05:00.469 --> 00:05:00.479 align:start position:0%
+character it's much easier to see and
+ 
+
+00:05:00.479 --> 00:05:02.710 align:start position:0%
+character it's much easier to see and
+understand<00:05:00.960><c> the</c><00:05:01.120><c> shape</c><00:05:01.440><c> of</c><00:05:01.520><c> this</c><00:05:01.759><c> character</c>
+
+00:05:02.710 --> 00:05:02.720 align:start position:0%
+understand the shape of this character
+ 
+
+00:05:02.720 --> 00:05:04.550 align:start position:0%
+understand the shape of this character
+when<00:05:02.960><c> you</c><00:05:03.039><c> have</c><00:05:03.280><c> these</c><00:05:03.520><c> shadows</c>
+
+00:05:04.550 --> 00:05:04.560 align:start position:0%
+when you have these shadows
+ 
+
+00:05:04.560 --> 00:05:06.710 align:start position:0%
+when you have these shadows
+that<00:05:04.800><c> are</c><00:05:04.960><c> emphasizing</c><00:05:06.000><c> the</c><00:05:06.160><c> shape</c><00:05:06.479><c> of</c><00:05:06.560><c> the</c>
+
+00:05:06.710 --> 00:05:06.720 align:start position:0%
+that are emphasizing the shape of the
+ 
+
+00:05:06.720 --> 00:05:08.710 align:start position:0%
+that are emphasizing the shape of the
+object<00:05:07.280><c> so</c><00:05:07.440><c> i</c><00:05:07.600><c> want</c><00:05:07.759><c> you</c><00:05:07.840><c> to</c><00:05:08.080><c> keep</c><00:05:08.320><c> this</c><00:05:08.560><c> in</c>
+
+00:05:08.710 --> 00:05:08.720 align:start position:0%
+object so i want you to keep this in
+ 
+
+00:05:08.720 --> 00:05:10.230 align:start position:0%
+object so i want you to keep this in
+mind<00:05:09.039><c> when</c><00:05:09.199><c> you're</c><00:05:09.360><c> adding</c><00:05:09.680><c> lights</c><00:05:10.000><c> to</c><00:05:10.080><c> your</c>
+
+00:05:10.230 --> 00:05:10.240 align:start position:0%
+mind when you're adding lights to your
+ 
+
+00:05:10.240 --> 00:05:12.390 align:start position:0%
+mind when you're adding lights to your
+scene<00:05:10.960><c> don't</c><00:05:11.360><c> try</c><00:05:11.520><c> and</c><00:05:11.680><c> illuminate</c><00:05:12.160><c> your</c>
+
+00:05:12.390 --> 00:05:12.400 align:start position:0%
+scene don't try and illuminate your
+ 
+
+00:05:12.400 --> 00:05:14.230 align:start position:0%
+scene don't try and illuminate your
+scene<00:05:12.639><c> because</c><00:05:12.960><c> it's</c><00:05:13.120><c> too</c><00:05:13.280><c> dark</c><00:05:13.759><c> try</c><00:05:14.080><c> and</c>
+
+00:05:14.230 --> 00:05:14.240 align:start position:0%
+scene because it's too dark try and
+ 
+
+00:05:14.240 --> 00:05:16.870 align:start position:0%
+scene because it's too dark try and
+place<00:05:14.560><c> the</c><00:05:14.800><c> shadows</c><00:05:15.440><c> strategically</c><00:05:16.639><c> so</c><00:05:16.800><c> you</c>
+
+00:05:16.870 --> 00:05:16.880 align:start position:0%
+place the shadows strategically so you
+ 
+
+00:05:16.880 --> 00:05:18.790 align:start position:0%
+place the shadows strategically so you
+can<00:05:17.039><c> emphasize</c><00:05:17.520><c> the</c><00:05:17.680><c> shapes</c><00:05:18.000><c> of</c><00:05:18.160><c> your</c><00:05:18.320><c> object</c>
+
+00:05:18.790 --> 00:05:18.800 align:start position:0%
+can emphasize the shapes of your object
+ 
+
+00:05:18.800 --> 00:05:20.390 align:start position:0%
+can emphasize the shapes of your object
+okay<00:05:19.039><c> so</c><00:05:19.199><c> we're</c><00:05:19.440><c> almost</c><00:05:19.680><c> there</c><00:05:20.000><c> this</c><00:05:20.160><c> is</c>
+
+00:05:20.390 --> 00:05:20.400 align:start position:0%
+okay so we're almost there this is
+ 
+
+00:05:20.400 --> 00:05:22.310 align:start position:0%
+okay so we're almost there this is
+almost<00:05:20.800><c> my</c><00:05:20.960><c> favorite</c><00:05:21.360><c> lighting</c><00:05:21.680><c> setup</c><00:05:22.080><c> let's</c>
+
+00:05:22.310 --> 00:05:22.320 align:start position:0%
+almost my favorite lighting setup let's
+ 
+
+00:05:22.320 --> 00:05:24.550 align:start position:0%
+almost my favorite lighting setup let's
+go<00:05:22.560><c> to</c><00:05:22.960><c> object</c><00:05:23.280><c> layer</c><00:05:23.520><c> properties</c>
+
+00:05:24.550 --> 00:05:24.560 align:start position:0%
+go to object layer properties
+ 
+
+00:05:24.560 --> 00:05:26.870 align:start position:0%
+go to object layer properties
+and<00:05:24.960><c> let's</c><00:05:25.199><c> select</c><00:05:25.520><c> the</c><00:05:25.680><c> light</c><00:05:26.160><c> and</c><00:05:26.320><c> let's</c><00:05:26.560><c> set</c>
+
+00:05:26.870 --> 00:05:26.880 align:start position:0%
+and let's select the light and let's set
+ 
+
+00:05:26.880 --> 00:05:29.270 align:start position:0%
+and let's select the light and let's set
+the<00:05:27.039><c> type</c><00:05:27.280><c> of</c><00:05:27.440><c> light</c><00:05:28.000><c> to</c><00:05:28.160><c> be</c><00:05:28.320><c> an</c><00:05:28.560><c> area</c><00:05:28.880><c> light</c>
+
+00:05:29.270 --> 00:05:29.280 align:start position:0%
+the type of light to be an area light
+ 
+
+00:05:29.280 --> 00:05:30.950 align:start position:0%
+the type of light to be an area light
+and<00:05:29.360><c> now</c><00:05:29.520><c> you</c><00:05:29.600><c> can</c><00:05:29.759><c> see</c><00:05:29.919><c> we</c><00:05:30.080><c> get</c><00:05:30.160><c> a</c><00:05:30.320><c> really</c><00:05:30.560><c> hard</c>
+
+00:05:30.950 --> 00:05:30.960 align:start position:0%
+and now you can see we get a really hard
+ 
+
+00:05:30.960 --> 00:05:32.469 align:start position:0%
+and now you can see we get a really hard
+shadow<00:05:31.360><c> and</c><00:05:31.440><c> that</c><00:05:31.600><c> is</c><00:05:31.759><c> because</c><00:05:32.160><c> it's</c><00:05:32.400><c> a</c>
+
+00:05:32.469 --> 00:05:32.479 align:start position:0%
+shadow and that is because it's a
+ 
+
+00:05:32.479 --> 00:05:34.310 align:start position:0%
+shadow and that is because it's a
+smaller<00:05:32.880><c> light</c><00:05:33.120><c> so</c><00:05:33.280><c> you</c><00:05:33.360><c> can</c><00:05:33.600><c> right</c><00:05:33.840><c> click</c><00:05:34.160><c> and</c>
+
+00:05:34.310 --> 00:05:34.320 align:start position:0%
+smaller light so you can right click and
+ 
+
+00:05:34.320 --> 00:05:36.310 align:start position:0%
+smaller light so you can right click and
+increase<00:05:34.800><c> the</c><00:05:34.960><c> light</c><00:05:35.199><c> size</c>
+
+00:05:36.310 --> 00:05:36.320 align:start position:0%
+increase the light size
+ 
+
+00:05:36.320 --> 00:05:38.950 align:start position:0%
+increase the light size
+okay<00:05:36.560><c> so</c><00:05:36.720><c> now</c><00:05:36.960><c> instead</c><00:05:37.360><c> of</c><00:05:37.919><c> watching</c><00:05:38.400><c> this</c><00:05:38.720><c> in</c>
+
+00:05:38.950 --> 00:05:38.960 align:start position:0%
+okay so now instead of watching this in
+ 
+
+00:05:38.960 --> 00:05:40.550 align:start position:0%
+okay so now instead of watching this in
+3d<00:05:39.360><c> and</c><00:05:39.440><c> moving</c><00:05:39.680><c> the</c><00:05:39.759><c> camera</c><00:05:40.160><c> all</c><00:05:40.320><c> the</c><00:05:40.400><c> way</c>
+
+00:05:40.550 --> 00:05:40.560 align:start position:0%
+3d and moving the camera all the way
+ 
+
+00:05:40.560 --> 00:05:42.230 align:start position:0%
+3d and moving the camera all the way
+around<00:05:40.960><c> all</c><00:05:41.039><c> the</c><00:05:41.199><c> time</c><00:05:41.520><c> i</c><00:05:41.600><c> want</c><00:05:41.759><c> to</c><00:05:41.840><c> watch</c><00:05:42.080><c> this</c>
+
+00:05:42.230 --> 00:05:42.240 align:start position:0%
+around all the time i want to watch this
+ 
+
+00:05:42.240 --> 00:05:43.909 align:start position:0%
+around all the time i want to watch this
+from<00:05:42.400><c> the</c><00:05:42.479><c> camera</c><00:05:42.800><c> perspective</c><00:05:43.440><c> while</c><00:05:43.680><c> i</c><00:05:43.759><c> do</c>
+
+00:05:43.909 --> 00:05:43.919 align:start position:0%
+from the camera perspective while i do
+ 
+
+00:05:43.919 --> 00:05:45.990 align:start position:0%
+from the camera perspective while i do
+the<00:05:44.080><c> changes</c><00:05:44.639><c> so</c><00:05:44.880><c> let's</c><00:05:45.039><c> hold</c><00:05:45.280><c> down</c><00:05:45.520><c> z</c><00:05:45.759><c> and</c><00:05:45.840><c> set</c>
+
+00:05:45.990 --> 00:05:46.000 align:start position:0%
+the changes so let's hold down z and set
+ 
+
+00:05:46.000 --> 00:05:48.070 align:start position:0%
+the changes so let's hold down z and set
+this<00:05:46.160><c> to</c><00:05:46.320><c> solid</c><00:05:46.639><c> view</c><00:05:46.800><c> again</c><00:05:47.440><c> and</c><00:05:47.600><c> let's</c><00:05:47.840><c> right</c>
+
+00:05:48.070 --> 00:05:48.080 align:start position:0%
+this to solid view again and let's right
+ 
+
+00:05:48.080 --> 00:05:49.510 align:start position:0%
+this to solid view again and let's right
+click<00:05:48.320><c> on</c><00:05:48.400><c> this</c><00:05:48.639><c> line</c><00:05:48.960><c> and</c><00:05:49.120><c> set</c><00:05:49.280><c> it</c><00:05:49.360><c> to</c>
+
+00:05:49.510 --> 00:05:49.520 align:start position:0%
+click on this line and set it to
+ 
+
+00:05:49.520 --> 00:05:50.790 align:start position:0%
+click on this line and set it to
+vertical<00:05:49.840><c> split</c>
+
+00:05:50.790 --> 00:05:50.800 align:start position:0%
+vertical split
+ 
+
+00:05:50.800 --> 00:05:52.710 align:start position:0%
+vertical split
+let's<00:05:50.960><c> go</c><00:05:51.120><c> here</c><00:05:51.520><c> and</c><00:05:51.600><c> you</c><00:05:51.759><c> can</c><00:05:51.840><c> press</c><00:05:52.160><c> t</c><00:05:52.400><c> to</c><00:05:52.560><c> get</c>
+
+00:05:52.710 --> 00:05:52.720 align:start position:0%
+let's go here and you can press t to get
+ 
+
+00:05:52.720 --> 00:05:55.110 align:start position:0%
+let's go here and you can press t to get
+rid<00:05:52.880><c> of</c><00:05:52.960><c> this</c><00:05:53.120><c> menu</c><00:05:53.759><c> and</c><00:05:53.919><c> now</c><00:05:54.240><c> let's</c><00:05:54.560><c> press</c><00:05:54.800><c> the</c>
+
+00:05:55.110 --> 00:05:55.120 align:start position:0%
+rid of this menu and now let's press the
+ 
+
+00:05:55.120 --> 00:05:56.710 align:start position:0%
+rid of this menu and now let's press the
+camera<00:05:55.440><c> icon</c>
+
+00:05:56.710 --> 00:05:56.720 align:start position:0%
+camera icon
+ 
+
+00:05:56.720 --> 00:05:58.790 align:start position:0%
+camera icon
+and<00:05:56.800><c> then</c><00:05:57.039><c> you</c><00:05:57.120><c> can</c><00:05:57.360><c> zoom</c><00:05:57.600><c> in</c><00:05:58.080><c> and</c>
+
+00:05:58.790 --> 00:05:58.800 align:start position:0%
+and then you can zoom in and
+ 
+
+00:05:58.800 --> 00:06:01.670 align:start position:0%
+and then you can zoom in and
+let's<00:05:59.520><c> turn</c><00:05:59.840><c> off</c><00:06:00.400><c> the</c><00:06:00.560><c> overlays</c><00:06:01.120><c> which</c><00:06:01.360><c> is</c><00:06:01.440><c> alt</c>
+
+00:06:01.670 --> 00:06:01.680 align:start position:0%
+let's turn off the overlays which is alt
+ 
+
+00:06:01.680 --> 00:06:03.590 align:start position:0%
+let's turn off the overlays which is alt
+shift<00:06:02.000><c> z</c><00:06:02.639><c> and</c><00:06:02.800><c> also</c><00:06:03.039><c> if</c><00:06:03.120><c> you</c><00:06:03.199><c> think</c><00:06:03.360><c> this</c>
+
+00:06:03.590 --> 00:06:03.600 align:start position:0%
+shift z and also if you think this
+ 
+
+00:06:03.600 --> 00:06:05.189 align:start position:0%
+shift z and also if you think this
+little<00:06:03.759><c> button</c><00:06:04.080><c> is</c><00:06:04.160><c> annoying</c><00:06:04.560><c> you</c><00:06:04.720><c> can</c><00:06:04.800><c> go</c><00:06:05.039><c> to</c>
+
+00:06:05.189 --> 00:06:05.199 align:start position:0%
+little button is annoying you can go to
+ 
+
+00:06:05.199 --> 00:06:08.230 align:start position:0%
+little button is annoying you can go to
+the<00:06:05.680><c> gizmos</c><00:06:06.319><c> and</c><00:06:06.400><c> turn</c><00:06:06.720><c> off</c><00:06:07.199><c> look</c><00:06:07.440><c> at</c><00:06:07.840><c> so</c><00:06:08.000><c> now</c>
+
+00:06:08.230 --> 00:06:08.240 align:start position:0%
+the gizmos and turn off look at so now
+ 
+
+00:06:08.240 --> 00:06:11.189 align:start position:0%
+the gizmos and turn off look at so now
+let's<00:06:08.479><c> set</c><00:06:08.720><c> this</c><00:06:08.960><c> to</c><00:06:09.120><c> be</c><00:06:09.280><c> the</c><00:06:09.360><c> rendered</c><00:06:09.680><c> view</c>
+
+00:06:11.189 --> 00:06:11.199 align:start position:0%
+let's set this to be the rendered view
+ 
+
+00:06:11.199 --> 00:06:12.870 align:start position:0%
+let's set this to be the rendered view
+okay<00:06:11.440><c> so</c><00:06:11.600><c> the</c><00:06:11.759><c> scene</c><00:06:12.000><c> is</c><00:06:12.080><c> too</c><00:06:12.240><c> bright</c><00:06:12.639><c> let's</c>
+
+00:06:12.870 --> 00:06:12.880 align:start position:0%
+okay so the scene is too bright let's
+ 
+
+00:06:12.880 --> 00:06:14.710 align:start position:0%
+okay so the scene is too bright let's
+right<00:06:13.120><c> click</c><00:06:13.360><c> on</c><00:06:13.440><c> the</c><00:06:13.600><c> light</c><00:06:14.080><c> and</c><00:06:14.319><c> adjust</c><00:06:14.639><c> the</c>
+
+00:06:14.710 --> 00:06:14.720 align:start position:0%
+right click on the light and adjust the
+ 
+
+00:06:14.720 --> 00:06:17.189 align:start position:0%
+right click on the light and adjust the
+light<00:06:15.039><c> power</c><00:06:15.759><c> let's</c><00:06:16.000><c> lower</c><00:06:16.240><c> it</c><00:06:16.400><c> a</c><00:06:16.479><c> little</c><00:06:16.639><c> bit</c>
+
+00:06:17.189 --> 00:06:17.199 align:start position:0%
+light power let's lower it a little bit
+ 
+
+00:06:17.199 --> 00:06:18.870 align:start position:0%
+light power let's lower it a little bit
+let's<00:06:17.440><c> select</c><00:06:17.759><c> the</c><00:06:17.840><c> backdrop</c><00:06:18.479><c> select</c>
+
+00:06:18.870 --> 00:06:18.880 align:start position:0%
+let's select the backdrop select
+ 
+
+00:06:18.880 --> 00:06:21.029 align:start position:0%
+let's select the backdrop select
+material<00:06:19.360><c> properties</c><00:06:20.080><c> and</c><00:06:20.160><c> let's</c><00:06:20.400><c> add</c><00:06:20.639><c> a</c><00:06:20.800><c> new</c>
+
+00:06:21.029 --> 00:06:21.039 align:start position:0%
+material properties and let's add a new
+ 
+
+00:06:21.039 --> 00:06:23.510 align:start position:0%
+material properties and let's add a new
+material<00:06:21.919><c> backdrop</c><00:06:22.639><c> and</c><00:06:22.800><c> let's</c><00:06:23.039><c> just</c><00:06:23.280><c> lower</c>
+
+00:06:23.510 --> 00:06:23.520 align:start position:0%
+material backdrop and let's just lower
+ 
+
+00:06:23.520 --> 00:06:26.870 align:start position:0%
+material backdrop and let's just lower
+the<00:06:23.680><c> base</c><00:06:24.000><c> color</c>
+
+00:06:26.870 --> 00:06:26.880 align:start position:0%
+ 
+ 
+
+00:06:26.880 --> 00:06:28.070 align:start position:0%
+ 
+so<00:06:27.039><c> this</c><00:06:27.199><c> doesn't</c><00:06:27.440><c> really</c><00:06:27.600><c> have</c><00:06:27.759><c> anything</c><00:06:28.000><c> to</c>
+
+00:06:28.070 --> 00:06:28.080 align:start position:0%
+so this doesn't really have anything to
+ 
+
+00:06:28.080 --> 00:06:29.590 align:start position:0%
+so this doesn't really have anything to
+do<00:06:28.160><c> with</c><00:06:28.240><c> the</c><00:06:28.319><c> lighting</c><00:06:28.639><c> i</c><00:06:28.720><c> just</c>
+
+00:06:29.590 --> 00:06:29.600 align:start position:0%
+do with the lighting i just
+ 
+
+00:06:29.600 --> 00:06:31.350 align:start position:0%
+do with the lighting i just
+i<00:06:29.759><c> just</c><00:06:30.080><c> like</c><00:06:30.319><c> it</c><00:06:30.720><c> okay</c><00:06:30.960><c> so</c><00:06:31.039><c> i</c><00:06:31.120><c> want</c><00:06:31.199><c> to</c>
+
+00:06:31.350 --> 00:06:31.360 align:start position:0%
+i just like it okay so i want to
+ 
+
+00:06:31.360 --> 00:06:32.790 align:start position:0%
+i just like it okay so i want to
+increase<00:06:31.600><c> the</c><00:06:31.759><c> contrast</c><00:06:32.319><c> in</c><00:06:32.400><c> our</c><00:06:32.560><c> scene</c><00:06:32.800><c> a</c>
+
+00:06:32.790 --> 00:06:32.800 align:start position:0%
+increase the contrast in our scene a
+ 
+
+00:06:32.800 --> 00:06:34.469 align:start position:0%
+increase the contrast in our scene a
+little<00:06:32.960><c> bit</c><00:06:33.199><c> so</c><00:06:33.360><c> let's</c><00:06:33.600><c> go</c><00:06:33.759><c> to</c><00:06:33.919><c> the</c><00:06:34.160><c> world</c>
+
+00:06:34.469 --> 00:06:34.479 align:start position:0%
+little bit so let's go to the world
+ 
+
+00:06:34.479 --> 00:06:37.029 align:start position:0%
+little bit so let's go to the world
+properties<00:06:35.280><c> and</c><00:06:35.440><c> let's</c><00:06:35.600><c> set</c><00:06:35.840><c> the</c><00:06:36.000><c> strength</c><00:06:36.880><c> to</c>
+
+00:06:37.029 --> 00:06:37.039 align:start position:0%
+properties and let's set the strength to
+ 
+
+00:06:37.039 --> 00:06:39.189 align:start position:0%
+properties and let's set the strength to
+zero<00:06:37.520><c> so</c><00:06:37.680><c> this</c><00:06:37.919><c> basically</c><00:06:38.560><c> turns</c><00:06:38.880><c> off</c><00:06:39.039><c> the</c>
+
+00:06:39.189 --> 00:06:39.199 align:start position:0%
+zero so this basically turns off the
+ 
+
+00:06:39.199 --> 00:06:40.870 align:start position:0%
+zero so this basically turns off the
+light<00:06:39.520><c> in</c><00:06:39.680><c> our</c><00:06:39.759><c> world</c><00:06:40.080><c> now</c><00:06:40.240><c> let's</c><00:06:40.400><c> go</c><00:06:40.560><c> back</c><00:06:40.720><c> to</c>
+
+00:06:40.870 --> 00:06:40.880 align:start position:0%
+light in our world now let's go back to
+ 
+
+00:06:40.880 --> 00:06:42.390 align:start position:0%
+light in our world now let's go back to
+camera<00:06:41.199><c> view</c><00:06:41.440><c> and</c><00:06:41.600><c> now</c><00:06:41.759><c> i</c><00:06:41.840><c> want</c><00:06:42.000><c> to</c><00:06:42.080><c> show</c><00:06:42.240><c> you</c>
+
+00:06:42.390 --> 00:06:42.400 align:start position:0%
+camera view and now i want to show you
+ 
+
+00:06:42.400 --> 00:06:44.390 align:start position:0%
+camera view and now i want to show you
+something<00:06:43.120><c> that</c><00:06:43.280><c> is</c><00:06:43.440><c> a</c><00:06:43.600><c> problem</c><00:06:44.000><c> with</c><00:06:44.160><c> this</c>
+
+00:06:44.390 --> 00:06:44.400 align:start position:0%
+something that is a problem with this
+ 
+
+00:06:44.400 --> 00:06:46.150 align:start position:0%
+something that is a problem with this
+area<00:06:44.639><c> light</c><00:06:45.039><c> select</c><00:06:45.360><c> the</c><00:06:45.440><c> air</c><00:06:45.600><c> light</c><00:06:45.919><c> right</c>
+
+00:06:46.150 --> 00:06:46.160 align:start position:0%
+area light select the air light right
+ 
+
+00:06:46.160 --> 00:06:49.749 align:start position:0%
+area light select the air light right
+click<00:06:46.479><c> and</c><00:06:46.639><c> increase</c><00:06:46.960><c> the</c><00:06:47.120><c> power</c>
+
+00:06:49.749 --> 00:06:49.759 align:start position:0%
+click and increase the power
+ 
+
+00:06:49.759 --> 00:06:50.870 align:start position:0%
+click and increase the power
+you<00:06:49.919><c> see</c><00:06:50.080><c> this</c>
+
+00:06:50.870 --> 00:06:50.880 align:start position:0%
+you see this
+ 
+
+00:06:50.880 --> 00:06:53.670 align:start position:0%
+you see this
+there's<00:06:51.120><c> this</c><00:06:51.520><c> shadow</c><00:06:52.240><c> this</c><00:06:52.560><c> line</c><00:06:52.880><c> here</c><00:06:53.520><c> at</c>
+
+00:06:53.670 --> 00:06:53.680 align:start position:0%
+there's this shadow this line here at
+ 
+
+00:06:53.680 --> 00:06:56.070 align:start position:0%
+there's this shadow this line here at
+the<00:06:53.840><c> side</c><00:06:54.319><c> is</c><00:06:54.479><c> because</c><00:06:54.800><c> the</c><00:06:54.960><c> area</c><00:06:55.360><c> light</c><00:06:55.840><c> is</c>
+
+00:06:56.070 --> 00:06:56.080 align:start position:0%
+the side is because the area light is
+ 
+
+00:06:56.080 --> 00:06:59.110 align:start position:0%
+the side is because the area light is
+only<00:06:56.560><c> emitting</c><00:06:57.120><c> in</c><00:06:57.280><c> 180</c><00:06:58.000><c> degrees</c><00:06:58.479><c> this</c><00:06:58.960><c> is</c>
+
+00:06:59.110 --> 00:06:59.120 align:start position:0%
+only emitting in 180 degrees this is
+ 
+
+00:06:59.120 --> 00:07:01.029 align:start position:0%
+only emitting in 180 degrees this is
+basically<00:06:59.520><c> how</c><00:06:59.680><c> the</c><00:06:59.759><c> camera</c><00:07:00.160><c> sees</c><00:07:00.720><c> it's</c><00:07:00.880><c> going</c>
+
+00:07:01.029 --> 00:07:01.039 align:start position:0%
+basically how the camera sees it's going
+ 
+
+00:07:01.039 --> 00:07:03.110 align:start position:0%
+basically how the camera sees it's going
+to<00:07:01.120><c> see</c><00:07:01.360><c> all</c><00:07:01.520><c> the</c><00:07:01.520><c> way</c><00:07:01.680><c> up</c><00:07:01.840><c> here</c><00:07:02.080><c> and</c><00:07:02.319><c> this</c><00:07:02.639><c> line</c>
+
+00:07:03.110 --> 00:07:03.120 align:start position:0%
+to see all the way up here and this line
+ 
+
+00:07:03.120 --> 00:07:04.710 align:start position:0%
+to see all the way up here and this line
+is<00:07:03.280><c> going</c><00:07:03.440><c> to</c><00:07:03.520><c> be</c><00:07:03.599><c> here</c><00:07:03.919><c> so</c><00:07:04.080><c> an</c><00:07:04.240><c> easy</c><00:07:04.400><c> way</c><00:07:04.560><c> to</c>
+
+00:07:04.710 --> 00:07:04.720 align:start position:0%
+is going to be here so an easy way to
+ 
+
+00:07:04.720 --> 00:07:06.469 align:start position:0%
+is going to be here so an easy way to
+fix<00:07:04.880><c> this</c><00:07:05.120><c> is</c><00:07:05.280><c> to</c><00:07:05.440><c> select</c><00:07:05.759><c> this</c><00:07:05.919><c> light</c><00:07:06.319><c> and</c>
+
+00:07:06.469 --> 00:07:06.479 align:start position:0%
+fix this is to select this light and
+ 
+
+00:07:06.479 --> 00:07:08.790 align:start position:0%
+fix this is to select this light and
+just<00:07:06.720><c> rotate</c><00:07:07.199><c> it</c>
+
+00:07:08.790 --> 00:07:08.800 align:start position:0%
+just rotate it
+ 
+
+00:07:08.800 --> 00:07:11.029 align:start position:0%
+just rotate it
+let's<00:07:09.039><c> turn</c><00:07:09.280><c> on</c><00:07:09.360><c> the</c><00:07:09.520><c> brightness</c>
+
+00:07:11.029 --> 00:07:11.039 align:start position:0%
+let's turn on the brightness
+ 
+
+00:07:11.039 --> 00:07:13.110 align:start position:0%
+let's turn on the brightness
+but<00:07:11.280><c> now</c><00:07:11.440><c> the</c><00:07:11.599><c> problem</c><00:07:11.919><c> is</c><00:07:12.000><c> that</c><00:07:12.240><c> i</c><00:07:12.400><c> think</c><00:07:12.880><c> this</c>
+
+00:07:13.110 --> 00:07:13.120 align:start position:0%
+but now the problem is that i think this
+ 
+
+00:07:13.120 --> 00:07:15.189 align:start position:0%
+but now the problem is that i think this
+is<00:07:13.199><c> getting</c><00:07:13.520><c> too</c><00:07:13.759><c> flat</c><00:07:14.080><c> again</c><00:07:14.639><c> so</c><00:07:15.039><c> the</c>
+
+00:07:15.189 --> 00:07:15.199 align:start position:0%
+is getting too flat again so the
+ 
+
+00:07:15.199 --> 00:07:17.350 align:start position:0%
+is getting too flat again so the
+lighting<00:07:15.599><c> that</c><00:07:15.759><c> i</c><00:07:16.000><c> almost</c><00:07:16.479><c> always</c><00:07:17.039><c> end</c><00:07:17.199><c> up</c>
+
+00:07:17.350 --> 00:07:17.360 align:start position:0%
+lighting that i almost always end up
+ 
+
+00:07:17.360 --> 00:07:19.749 align:start position:0%
+lighting that i almost always end up
+with<00:07:18.000><c> is</c><00:07:18.240><c> to</c><00:07:18.720><c> move</c><00:07:18.960><c> it</c>
+
+00:07:19.749 --> 00:07:19.759 align:start position:0%
+with is to move it
+ 
+
+00:07:19.759 --> 00:07:21.830 align:start position:0%
+with is to move it
+just<00:07:20.080><c> behind</c><00:07:20.800><c> so</c><00:07:21.039><c> now</c><00:07:21.199><c> you</c><00:07:21.280><c> can</c><00:07:21.440><c> see</c><00:07:21.680><c> we're</c>
+
+00:07:21.830 --> 00:07:21.840 align:start position:0%
+just behind so now you can see we're
+ 
+
+00:07:21.840 --> 00:07:23.990 align:start position:0%
+just behind so now you can see we're
+getting<00:07:22.160><c> these</c><00:07:22.720><c> really</c><00:07:23.039><c> beautiful</c><00:07:23.599><c> soft</c>
+
+00:07:23.990 --> 00:07:24.000 align:start position:0%
+getting these really beautiful soft
+ 
+
+00:07:24.000 --> 00:07:25.990 align:start position:0%
+getting these really beautiful soft
+shadows<00:07:24.400><c> on</c><00:07:24.560><c> the</c><00:07:24.639><c> chest</c><00:07:24.960><c> for</c><00:07:25.199><c> example</c><00:07:25.759><c> and</c><00:07:25.840><c> you</c>
+
+00:07:25.990 --> 00:07:26.000 align:start position:0%
+shadows on the chest for example and you
+ 
+
+00:07:26.000 --> 00:07:27.350 align:start position:0%
+shadows on the chest for example and you
+can<00:07:26.080><c> see</c><00:07:26.240><c> the</c><00:07:26.400><c> biceps</c><00:07:26.960><c> are</c><00:07:27.039><c> being</c><00:07:27.199><c> more</c>
+
+00:07:27.350 --> 00:07:27.360 align:start position:0%
+can see the biceps are being more
+ 
+
+00:07:27.360 --> 00:07:29.990 align:start position:0%
+can see the biceps are being more
+visible<00:07:27.919><c> and</c><00:07:28.080><c> we</c><00:07:28.240><c> get</c><00:07:28.400><c> this</c><00:07:28.720><c> really</c><00:07:29.280><c> beautiful</c>
+
+00:07:29.990 --> 00:07:30.000 align:start position:0%
+visible and we get this really beautiful
+ 
+
+00:07:30.000 --> 00:07:31.749 align:start position:0%
+visible and we get this really beautiful
+highlight<00:07:30.560><c> on</c><00:07:30.639><c> the</c><00:07:30.800><c> shoulders</c><00:07:31.360><c> and</c><00:07:31.520><c> that's</c>
+
+00:07:31.749 --> 00:07:31.759 align:start position:0%
+highlight on the shoulders and that's
+ 
+
+00:07:31.759 --> 00:07:33.510 align:start position:0%
+highlight on the shoulders and that's
+the<00:07:31.919><c> look</c><00:07:32.160><c> i</c><00:07:32.319><c> really</c><00:07:32.560><c> like</c><00:07:32.960><c> and</c><00:07:33.199><c> you</c><00:07:33.360><c> might</c>
+
+00:07:33.510 --> 00:07:33.520 align:start position:0%
+the look i really like and you might
+ 
+
+00:07:33.520 --> 00:07:35.350 align:start position:0%
+the look i really like and you might
+notice<00:07:33.840><c> there</c><00:07:34.000><c> are</c><00:07:34.160><c> some</c><00:07:34.400><c> artifacts</c><00:07:34.960><c> here</c><00:07:35.199><c> on</c>
+
+00:07:35.350 --> 00:07:35.360 align:start position:0%
+notice there are some artifacts here on
+ 
+
+00:07:35.360 --> 00:07:37.830 align:start position:0%
+notice there are some artifacts here on
+the<00:07:35.440><c> stomach</c><00:07:36.080><c> and</c><00:07:36.560><c> hair</c><00:07:36.960><c> on</c><00:07:37.120><c> the</c>
+
+00:07:37.830 --> 00:07:37.840 align:start position:0%
+the stomach and hair on the
+ 
+
+00:07:37.840 --> 00:07:39.830 align:start position:0%
+the stomach and hair on the
+also<00:07:38.240><c> stomach</c><00:07:38.800><c> i</c><00:07:38.880><c> don't</c><00:07:39.360><c> really</c><00:07:39.599><c> know</c><00:07:39.759><c> what</c>
+
+00:07:39.830 --> 00:07:39.840 align:start position:0%
+also stomach i don't really know what
+ 
+
+00:07:39.840 --> 00:07:41.510 align:start position:0%
+also stomach i don't really know what
+this<00:07:40.000><c> character</c><00:07:40.400><c> is</c><00:07:40.639><c> to</c><00:07:40.720><c> get</c><00:07:40.880><c> rid</c><00:07:41.039><c> of</c><00:07:41.120><c> this</c><00:07:41.440><c> you</c>
+
+00:07:41.510 --> 00:07:41.520 align:start position:0%
+this character is to get rid of this you
+ 
+
+00:07:41.520 --> 00:07:43.510 align:start position:0%
+this character is to get rid of this you
+can<00:07:41.680><c> add</c><00:07:41.919><c> a</c><00:07:42.080><c> subdivision</c><00:07:42.639><c> surface</c><00:07:42.960><c> modifier</c>
+
+00:07:43.510 --> 00:07:43.520 align:start position:0%
+can add a subdivision surface modifier
+ 
+
+00:07:43.520 --> 00:07:45.270 align:start position:0%
+can add a subdivision surface modifier
+so<00:07:43.599><c> let's</c><00:07:43.759><c> just</c><00:07:43.919><c> select</c><00:07:44.319><c> this</c><00:07:44.560><c> geometry</c><00:07:45.120><c> and</c>
+
+00:07:45.270 --> 00:07:45.280 align:start position:0%
+so let's just select this geometry and
+ 
+
+00:07:45.280 --> 00:07:47.589 align:start position:0%
+so let's just select this geometry and
+press<00:07:45.520><c> ctrl</c><00:07:46.080><c> 1</c><00:07:46.400><c> this</c><00:07:46.639><c> automatically</c><00:07:47.199><c> adds</c><00:07:47.440><c> a</c>
+
+00:07:47.589 --> 00:07:47.599 align:start position:0%
+press ctrl 1 this automatically adds a
+ 
+
+00:07:47.599 --> 00:07:49.270 align:start position:0%
+press ctrl 1 this automatically adds a
+subdivision<00:07:48.080><c> surface</c><00:07:48.400><c> modifier</c><00:07:48.960><c> and</c><00:07:49.120><c> in</c><00:07:49.199><c> the</c>
+
+00:07:49.270 --> 00:07:49.280 align:start position:0%
+subdivision surface modifier and in the
+ 
+
+00:07:49.280 --> 00:07:51.350 align:start position:0%
+subdivision surface modifier and in the
+modifier<00:07:49.680><c> properties</c><00:07:50.080><c> you</c><00:07:50.160><c> can</c><00:07:50.319><c> set</c><00:07:50.560><c> it</c><00:07:50.720><c> to</c>
+
+00:07:51.350 --> 00:07:51.360 align:start position:0%
+modifier properties you can set it to
+ 
+
+00:07:51.360 --> 00:07:53.749 align:start position:0%
+modifier properties you can set it to
+render<00:07:51.759><c> one</c><00:07:52.080><c> and</c><00:07:52.240><c> viewport</c><00:07:52.639><c> one</c><00:07:52.960><c> if</c><00:07:53.120><c> you</c><00:07:53.199><c> like</c>
+
+00:07:53.749 --> 00:07:53.759 align:start position:0%
+render one and viewport one if you like
+ 
+
+00:07:53.759 --> 00:07:55.670 align:start position:0%
+render one and viewport one if you like
+so<00:07:54.000><c> let's</c><00:07:54.240><c> do</c><00:07:54.400><c> a</c><00:07:54.560><c> still</c><00:07:54.879><c> render</c><00:07:55.280><c> and</c><00:07:55.360><c> see</c><00:07:55.520><c> what</c>
+
+00:07:55.670 --> 00:07:55.680 align:start position:0%
+so let's do a still render and see what
+ 
+
+00:07:55.680 --> 00:07:57.350 align:start position:0%
+so let's do a still render and see what
+it<00:07:55.840><c> looks</c><00:07:56.000><c> like</c><00:07:56.400><c> render</c><00:07:56.720><c> properties</c><00:07:57.199><c> i'm</c>
+
+00:07:57.350 --> 00:07:57.360 align:start position:0%
+it looks like render properties i'm
+ 
+
+00:07:57.360 --> 00:07:59.510 align:start position:0%
+it looks like render properties i'm
+going<00:07:57.520><c> to</c><00:07:57.680><c> lower</c><00:07:58.000><c> my</c><00:07:58.160><c> amount</c><00:07:58.400><c> of</c><00:07:58.560><c> samples</c><00:07:59.280><c> and</c>
+
+00:07:59.510 --> 00:07:59.520 align:start position:0%
+going to lower my amount of samples and
+ 
+
+00:07:59.520 --> 00:08:02.790 align:start position:0%
+going to lower my amount of samples and
+i'll<00:07:59.759><c> just</c><00:08:00.080><c> do</c><00:08:00.319><c> a</c><00:08:00.800><c> still</c><00:08:01.440><c> render</c><00:08:02.000><c> okay</c><00:08:02.319><c> nice</c><00:08:02.720><c> i</c>
+
+00:08:02.790 --> 00:08:02.800 align:start position:0%
+i'll just do a still render okay nice i
+ 
+
+00:08:02.800 --> 00:08:04.629 align:start position:0%
+i'll just do a still render okay nice i
+think<00:08:02.960><c> this</c><00:08:03.199><c> is</c><00:08:03.280><c> looking</c><00:08:03.599><c> quite</c><00:08:03.840><c> smooth</c><00:08:04.400><c> i</c>
+
+00:08:04.629 --> 00:08:04.639 align:start position:0%
+think this is looking quite smooth i
+ 
+
+00:08:04.639 --> 00:08:06.950 align:start position:0%
+think this is looking quite smooth i
+really<00:08:04.960><c> like</c><00:08:05.280><c> this</c><00:08:05.599><c> lighting</c><00:08:05.919><c> setup</c><00:08:06.720><c> but</c><00:08:06.879><c> i</c>
+
+00:08:06.950 --> 00:08:06.960 align:start position:0%
+really like this lighting setup but i
+ 
+
+00:08:06.960 --> 00:08:09.110 align:start position:0%
+really like this lighting setup but i
+don't<00:08:07.199><c> know</c><00:08:07.520><c> why</c><00:08:07.840><c> i'm</c><00:08:08.000><c> liking</c><00:08:08.400><c> it</c>
+
+00:08:09.110 --> 00:08:09.120 align:start position:0%
+don't know why i'm liking it
+ 
+
+00:08:09.120 --> 00:08:10.710 align:start position:0%
+don't know why i'm liking it
+and<00:08:09.199><c> that's</c><00:08:09.520><c> okay</c><00:08:09.840><c> you</c><00:08:10.000><c> can</c><00:08:10.160><c> like</c><00:08:10.400><c> stuff</c><00:08:10.639><c> and</c>
+
+00:08:10.710 --> 00:08:10.720 align:start position:0%
+and that's okay you can like stuff and
+ 
+
+00:08:10.720 --> 00:08:12.230 align:start position:0%
+and that's okay you can like stuff and
+don't<00:08:10.960><c> know</c><00:08:11.120><c> why</c><00:08:11.360><c> you</c><00:08:11.440><c> like</c><00:08:11.680><c> it</c><00:08:11.759><c> but</c><00:08:11.919><c> in</c><00:08:12.080><c> some</c>
+
+00:08:12.230 --> 00:08:12.240 align:start position:0%
+don't know why you like it but in some
+ 
+
+00:08:12.240 --> 00:08:14.309 align:start position:0%
+don't know why you like it but in some
+cases<00:08:12.639><c> it</c><00:08:12.800><c> can</c><00:08:12.960><c> be</c><00:08:13.120><c> extremely</c><00:08:13.520><c> beneficial</c><00:08:14.160><c> to</c>
+
+00:08:14.309 --> 00:08:14.319 align:start position:0%
+cases it can be extremely beneficial to
+ 
+
+00:08:14.319 --> 00:08:16.309 align:start position:0%
+cases it can be extremely beneficial to
+try<00:08:14.479><c> and</c><00:08:14.639><c> figure</c><00:08:15.039><c> out</c><00:08:15.599><c> what</c><00:08:15.840><c> did</c><00:08:16.000><c> we</c><00:08:16.160><c> do</c>
+
+00:08:16.309 --> 00:08:16.319 align:start position:0%
+try and figure out what did we do
+ 
+
+00:08:16.319 --> 00:08:18.710 align:start position:0%
+try and figure out what did we do
+correctly<00:08:16.879><c> here</c><00:08:17.520><c> that</c><00:08:17.759><c> can</c><00:08:17.919><c> be</c><00:08:18.080><c> applied</c><00:08:18.560><c> in</c>
+
+00:08:18.710 --> 00:08:18.720 align:start position:0%
+correctly here that can be applied in
+ 
+
+00:08:18.720 --> 00:08:20.550 align:start position:0%
+correctly here that can be applied in
+other<00:08:18.960><c> scenarios</c><00:08:19.759><c> what</c><00:08:19.919><c> if</c><00:08:20.080><c> you</c><00:08:20.160><c> want</c><00:08:20.400><c> to</c>
+
+00:08:20.550 --> 00:08:20.560 align:start position:0%
+other scenarios what if you want to
+ 
+
+00:08:20.560 --> 00:08:22.469 align:start position:0%
+other scenarios what if you want to
+recreate<00:08:21.280><c> this</c><00:08:21.520><c> lighting</c><00:08:21.840><c> setup</c><00:08:22.240><c> for</c>
+
+00:08:22.469 --> 00:08:22.479 align:start position:0%
+recreate this lighting setup for
+ 
+
+00:08:22.479 --> 00:08:24.390 align:start position:0%
+recreate this lighting setup for
+everything<00:08:22.960><c> because</c><00:08:23.280><c> as</c><00:08:23.440><c> i</c><00:08:23.599><c> said</c>
+
+00:08:24.390 --> 00:08:24.400 align:start position:0%
+everything because as i said
+ 
+
+00:08:24.400 --> 00:08:27.110 align:start position:0%
+everything because as i said
+i<00:08:24.560><c> use</c><00:08:24.879><c> this</c><00:08:25.120><c> for</c><00:08:25.280><c> almost</c><00:08:25.599><c> 80</c><00:08:26.160><c> of</c><00:08:26.240><c> my</c><00:08:26.400><c> work</c><00:08:26.960><c> so</c>
+
+00:08:27.110 --> 00:08:27.120 align:start position:0%
+i use this for almost 80 of my work so
+ 
+
+00:08:27.120 --> 00:08:29.110 align:start position:0%
+i use this for almost 80 of my work so
+let's<00:08:27.440><c> do</c><00:08:27.599><c> some</c><00:08:27.759><c> drawing</c><00:08:28.319><c> first</c><00:08:28.560><c> let's</c><00:08:28.879><c> draw</c>
+
+00:08:29.110 --> 00:08:29.120 align:start position:0%
+let's do some drawing first let's draw
+ 
+
+00:08:29.120 --> 00:08:31.909 align:start position:0%
+let's do some drawing first let's draw
+the<00:08:29.280><c> point</c><00:08:29.520><c> of</c><00:08:29.680><c> view</c><00:08:30.080><c> so</c><00:08:30.319><c> this</c><00:08:30.879><c> is</c><00:08:31.039><c> our</c><00:08:31.199><c> camera</c>
+
+00:08:31.909 --> 00:08:31.919 align:start position:0%
+the point of view so this is our camera
+ 
+
+00:08:31.919 --> 00:08:33.990 align:start position:0%
+the point of view so this is our camera
+this<00:08:32.159><c> is</c><00:08:32.320><c> our</c><00:08:32.640><c> focal</c><00:08:33.120><c> plane</c>
+
+00:08:33.990 --> 00:08:34.000 align:start position:0%
+this is our focal plane
+ 
+
+00:08:34.000 --> 00:08:36.949 align:start position:0%
+this is our focal plane
+this<00:08:34.719><c> is</c><00:08:34.959><c> our</c><00:08:35.279><c> point</c><00:08:35.519><c> of</c><00:08:35.680><c> interest</c><00:08:36.320><c> let's</c><00:08:36.800><c> give</c>
+
+00:08:36.949 --> 00:08:36.959 align:start position:0%
+this is our point of interest let's give
+ 
+
+00:08:36.959 --> 00:08:40.790 align:start position:0%
+this is our point of interest let's give
+this<00:08:37.200><c> an</c><00:08:37.360><c> eye</c><00:08:37.839><c> and</c><00:08:38.560><c> this</c><00:08:39.279><c> is</c><00:08:39.519><c> our</c><00:08:39.839><c> background</c>
+
+00:08:40.790 --> 00:08:40.800 align:start position:0%
+this an eye and this is our background
+ 
+
+00:08:40.800 --> 00:08:42.709 align:start position:0%
+this an eye and this is our background
+which<00:08:41.120><c> looks</c><00:08:41.279><c> like</c><00:08:41.440><c> this</c><00:08:42.080><c> and</c><00:08:42.320><c> it's</c><00:08:42.399><c> like</c><00:08:42.640><c> a</c>
+
+00:08:42.709 --> 00:08:42.719 align:start position:0%
+which looks like this and it's like a
+ 
+
+00:08:42.719 --> 00:08:44.710 align:start position:0%
+which looks like this and it's like a
+picture<00:08:43.360><c> from</c><00:08:43.519><c> the</c><00:08:43.680><c> mountain</c>
+
+00:08:44.710 --> 00:08:44.720 align:start position:0%
+picture from the mountain
+ 
+
+00:08:44.720 --> 00:08:46.870 align:start position:0%
+picture from the mountain
+and<00:08:44.880><c> then</c><00:08:45.120><c> if</c><00:08:45.200><c> you</c><00:08:45.440><c> like</c><00:08:45.760><c> you</c><00:08:45.920><c> could</c><00:08:46.080><c> also</c><00:08:46.480><c> have</c>
+
+00:08:46.870 --> 00:08:46.880 align:start position:0%
+and then if you like you could also have
+ 
+
+00:08:46.880 --> 00:08:48.870 align:start position:0%
+and then if you like you could also have
+like<00:08:47.120><c> a</c><00:08:47.279><c> foreground</c><00:08:47.839><c> element</c><00:08:48.399><c> but</c><00:08:48.560><c> we</c><00:08:48.720><c> don't</c>
+
+00:08:48.870 --> 00:08:48.880 align:start position:0%
+like a foreground element but we don't
+ 
+
+00:08:48.880 --> 00:08:50.710 align:start position:0%
+like a foreground element but we don't
+do<00:08:49.040><c> that</c><00:08:49.200><c> so</c><00:08:49.360><c> let's</c><00:08:49.680><c> just</c><00:08:50.080><c> not</c><00:08:50.320><c> worry</c><00:08:50.560><c> about</c>
+
+00:08:50.710 --> 00:08:50.720 align:start position:0%
+do that so let's just not worry about
+ 
+
+00:08:50.720 --> 00:08:52.870 align:start position:0%
+do that so let's just not worry about
+that<00:08:50.880><c> right</c><00:08:51.040><c> now</c><00:08:51.440><c> so</c><00:08:51.680><c> this</c><00:08:51.920><c> is</c><00:08:52.080><c> basically</c><00:08:52.640><c> what</c>
+
+00:08:52.870 --> 00:08:52.880 align:start position:0%
+that right now so this is basically what
+ 
+
+00:08:52.880 --> 00:08:54.389 align:start position:0%
+that right now so this is basically what
+we<00:08:53.040><c> have</c><00:08:53.200><c> created</c><00:08:53.519><c> in</c><00:08:53.600><c> this</c><00:08:53.839><c> scene</c><00:08:54.240><c> we're</c>
+
+00:08:54.389 --> 00:08:54.399 align:start position:0%
+we have created in this scene we're
+ 
+
+00:08:54.399 --> 00:08:56.630 align:start position:0%
+we have created in this scene we're
+going<00:08:54.560><c> to</c><00:08:54.720><c> break</c><00:08:55.040><c> down</c><00:08:55.680><c> what</c><00:08:55.920><c> the</c><00:08:56.160><c> light</c><00:08:56.480><c> is</c>
+
+00:08:56.630 --> 00:08:56.640 align:start position:0%
+going to break down what the light is
+ 
+
+00:08:56.640 --> 00:08:58.389 align:start position:0%
+going to break down what the light is
+doing<00:08:56.880><c> here</c><00:08:57.360><c> and</c><00:08:57.440><c> this</c><00:08:57.680><c> is</c><00:08:57.760><c> going</c><00:08:57.920><c> to</c><00:08:58.000><c> make</c><00:08:58.240><c> it</c>
+
+00:08:58.389 --> 00:08:58.399 align:start position:0%
+doing here and this is going to make it
+ 
+
+00:08:58.399 --> 00:09:00.550 align:start position:0%
+doing here and this is going to make it
+incredibly<00:08:58.880><c> easy</c><00:08:59.360><c> to</c><00:08:59.519><c> create</c><00:08:59.920><c> the</c><00:09:00.080><c> same</c><00:09:00.320><c> type</c>
+
+00:09:00.550 --> 00:09:00.560 align:start position:0%
+incredibly easy to create the same type
+ 
+
+00:09:00.560 --> 00:09:03.350 align:start position:0%
+incredibly easy to create the same type
+of<00:09:00.720><c> lighting</c><00:09:01.200><c> in</c><00:09:01.440><c> other</c><00:09:01.920><c> scenes</c><00:09:02.720><c> let's</c><00:09:03.040><c> also</c>
+
+00:09:03.350 --> 00:09:03.360 align:start position:0%
+of lighting in other scenes let's also
+ 
+
+00:09:03.360 --> 00:09:06.829 align:start position:0%
+of lighting in other scenes let's also
+add<00:09:03.920><c> space</c>
+
+00:09:06.829 --> 00:09:06.839 align:start position:0%
+ 
+ 
+
+00:09:06.839 --> 00:09:09.509 align:start position:0%
+ 
+this<00:09:08.160><c> boop</c>
+
+00:09:09.509 --> 00:09:09.519 align:start position:0%
+this boop
+ 
+
+00:09:09.519 --> 00:09:11.670 align:start position:0%
+this boop
+so<00:09:09.839><c> here</c><00:09:10.080><c> you</c><00:09:10.240><c> can</c><00:09:10.399><c> see</c><00:09:10.640><c> we</c><00:09:10.800><c> have</c><00:09:11.040><c> our</c><00:09:11.279><c> point</c><00:09:11.519><c> of</c>
+
+00:09:11.670 --> 00:09:11.680 align:start position:0%
+so here you can see we have our point of
+ 
+
+00:09:11.680 --> 00:09:13.430 align:start position:0%
+so here you can see we have our point of
+view<00:09:11.920><c> we</c><00:09:12.080><c> have</c><00:09:12.240><c> our</c><00:09:12.399><c> point</c><00:09:12.640><c> of</c><00:09:12.800><c> interest</c><00:09:13.360><c> and</c>
+
+00:09:13.430 --> 00:09:13.440 align:start position:0%
+view we have our point of interest and
+ 
+
+00:09:13.440 --> 00:09:15.190 align:start position:0%
+view we have our point of interest and
+we<00:09:13.600><c> have</c><00:09:13.839><c> our</c><00:09:14.080><c> background</c><00:09:14.560><c> and</c><00:09:14.720><c> this</c><00:09:14.880><c> can</c><00:09:15.040><c> be</c>
+
+00:09:15.190 --> 00:09:15.200 align:start position:0%
+we have our background and this can be
+ 
+
+00:09:15.200 --> 00:09:17.829 align:start position:0%
+we have our background and this can be
+divided<00:09:15.760><c> into</c><00:09:16.080><c> two</c><00:09:16.320><c> parts</c><00:09:16.880><c> this</c><00:09:17.279><c> is</c><00:09:17.519><c> often</c>
+
+00:09:17.829 --> 00:09:17.839 align:start position:0%
+divided into two parts this is often
+ 
+
+00:09:17.839 --> 00:09:23.590 align:start position:0%
+divided into two parts this is often
+referred<00:09:18.240><c> to</c><00:09:18.720><c> as</c><00:09:19.440><c> outside</c>
+
+00:09:23.590 --> 00:09:23.600 align:start position:0%
+ 
+ 
+
+00:09:23.600 --> 00:09:26.150 align:start position:0%
+ 
+and<00:09:24.080><c> this</c><00:09:24.399><c> part</c><00:09:24.800><c> is</c><00:09:25.040><c> often</c><00:09:25.279><c> referred</c><00:09:25.680><c> to</c><00:09:25.839><c> as</c>
+
+00:09:26.150 --> 00:09:26.160 align:start position:0%
+and this part is often referred to as
+ 
+
+00:09:26.160 --> 00:09:28.710 align:start position:0%
+and this part is often referred to as
+inside<00:09:27.040><c> so</c><00:09:27.360><c> when</c><00:09:27.600><c> people</c><00:09:28.080><c> talk</c><00:09:28.320><c> about</c>
+
+00:09:28.710 --> 00:09:28.720 align:start position:0%
+inside so when people talk about
+ 
+
+00:09:28.720 --> 00:09:30.710 align:start position:0%
+inside so when people talk about
+lighting<00:09:29.120><c> from</c><00:09:29.360><c> the</c><00:09:29.519><c> outside</c><00:09:30.399><c> they</c><00:09:30.560><c> are</c>
+
+00:09:30.710 --> 00:09:30.720 align:start position:0%
+lighting from the outside they are
+ 
+
+00:09:30.720 --> 00:09:32.230 align:start position:0%
+lighting from the outside they are
+talking<00:09:31.040><c> about</c><00:09:31.200><c> what's</c><00:09:31.440><c> happening</c><00:09:31.839><c> between</c>
+
+00:09:32.230 --> 00:09:32.240 align:start position:0%
+talking about what's happening between
+ 
+
+00:09:32.240 --> 00:09:34.550 align:start position:0%
+talking about what's happening between
+the<00:09:32.399><c> background</c><00:09:33.200><c> and</c><00:09:33.360><c> the</c><00:09:33.440><c> point</c><00:09:33.680><c> of</c><00:09:33.839><c> interest</c>
+
+00:09:34.550 --> 00:09:34.560 align:start position:0%
+the background and the point of interest
+ 
+
+00:09:34.560 --> 00:09:36.870 align:start position:0%
+the background and the point of interest
+it's<00:09:34.800><c> this</c><00:09:35.120><c> area</c><00:09:35.519><c> and</c><00:09:35.680><c> the</c><00:09:35.839><c> next</c><00:09:36.080><c> time</c><00:09:36.560><c> you</c><00:09:36.720><c> are</c>
+
+00:09:36.870 --> 00:09:36.880 align:start position:0%
+it's this area and the next time you are
+ 
+
+00:09:36.880 --> 00:09:38.710 align:start position:0%
+it's this area and the next time you are
+watching<00:09:37.600><c> a</c><00:09:37.760><c> movie</c>
+
+00:09:38.710 --> 00:09:38.720 align:start position:0%
+watching a movie
+ 
+
+00:09:38.720 --> 00:09:40.389 align:start position:0%
+watching a movie
+on<00:09:38.880><c> the</c><00:09:39.040><c> cinema</c><00:09:39.519><c> which</c><00:09:39.760><c> is</c><00:09:39.839><c> a</c><00:09:39.920><c> movie</c><00:09:40.160><c> that</c>
+
+00:09:40.389 --> 00:09:40.399 align:start position:0%
+on the cinema which is a movie that
+ 
+
+00:09:40.399 --> 00:09:42.630 align:start position:0%
+on the cinema which is a movie that
+hopefully<00:09:40.800><c> has</c><00:09:41.120><c> cinematic</c><00:09:41.760><c> lighting</c><00:09:42.320><c> since</c>
+
+00:09:42.630 --> 00:09:42.640 align:start position:0%
+hopefully has cinematic lighting since
+ 
+
+00:09:42.640 --> 00:09:44.790 align:start position:0%
+hopefully has cinematic lighting since
+it<00:09:42.880><c> at</c><00:09:42.959><c> the</c><00:09:43.120><c> cinema</c><00:09:43.600><c> you'll</c><00:09:43.839><c> notice</c><00:09:44.560><c> that</c>
+
+00:09:44.790 --> 00:09:44.800 align:start position:0%
+it at the cinema you'll notice that
+ 
+
+00:09:44.800 --> 00:09:46.310 align:start position:0%
+it at the cinema you'll notice that
+there<00:09:44.959><c> is</c><00:09:45.120><c> a</c><00:09:45.200><c> very</c><00:09:45.440><c> big</c><00:09:45.600><c> chance</c><00:09:45.920><c> that</c><00:09:46.080><c> the</c>
+
+00:09:46.310 --> 00:09:46.320 align:start position:0%
+there is a very big chance that the
+ 
+
+00:09:46.320 --> 00:09:49.269 align:start position:0%
+there is a very big chance that the
+light<00:09:47.120><c> is</c><00:09:47.360><c> placed</c><00:09:48.000><c> in</c><00:09:48.160><c> the</c><00:09:48.320><c> outside</c><00:09:48.959><c> so</c><00:09:49.120><c> this</c>
+
+00:09:49.269 --> 00:09:49.279 align:start position:0%
+light is placed in the outside so this
+ 
+
+00:09:49.279 --> 00:09:51.430 align:start position:0%
+light is placed in the outside so this
+is<00:09:49.519><c> almost</c><00:09:49.760><c> like</c><00:09:50.000><c> a</c><00:09:50.080><c> gradient</c><00:09:50.800><c> where</c><00:09:51.200><c> over</c>
+
+00:09:51.430 --> 00:09:51.440 align:start position:0%
+is almost like a gradient where over
+ 
+
+00:09:51.440 --> 00:09:55.190 align:start position:0%
+is almost like a gradient where over
+here<00:09:51.920><c> it's</c><00:09:52.399><c> mysterious</c><00:09:53.519><c> and</c><00:09:53.760><c> here</c><00:09:54.320><c> it's</c><00:09:54.800><c> being</c>
+
+00:09:55.190 --> 00:09:55.200 align:start position:0%
+here it's mysterious and here it's being
+ 
+
+00:09:55.200 --> 00:09:57.110 align:start position:0%
+here it's mysterious and here it's being
+revealed
+
+00:09:57.110 --> 00:09:57.120 align:start position:0%
+revealed
+ 
+
+00:09:57.120 --> 00:09:58.630 align:start position:0%
+revealed
+let's<00:09:57.360><c> try</c><00:09:57.519><c> and</c><00:09:57.680><c> see</c><00:09:57.839><c> if</c><00:09:57.920><c> this</c><00:09:58.080><c> works</c><00:09:58.399><c> so</c><00:09:58.560><c> i'm</c>
+
+00:09:58.630 --> 00:09:58.640 align:start position:0%
+let's try and see if this works so i'm
+ 
+
+00:09:58.640 --> 00:09:59.990 align:start position:0%
+let's try and see if this works so i'm
+going<00:09:58.800><c> to</c><00:09:58.880><c> select</c><00:09:59.200><c> the</c><00:09:59.279><c> light</c><00:09:59.440><c> and</c><00:09:59.600><c> just</c><00:09:59.760><c> press</c>
+
+00:09:59.990 --> 00:10:00.000 align:start position:0%
+going to select the light and just press
+ 
+
+00:10:00.000 --> 00:10:01.750 align:start position:0%
+going to select the light and just press
+g<00:10:00.240><c> and</c><00:10:00.320><c> move</c><00:10:00.480><c> it</c><00:10:00.560><c> around</c><00:10:01.120><c> and</c><00:10:01.279><c> i</c><00:10:01.360><c> move</c><00:10:01.600><c> it</c>
+
+00:10:01.750 --> 00:10:01.760 align:start position:0%
+g and move it around and i move it
+ 
+
+00:10:01.760 --> 00:10:04.069 align:start position:0%
+g and move it around and i move it
+further<00:10:02.240><c> into</c><00:10:02.480><c> the</c><00:10:02.560><c> outside</c>
+
+00:10:04.069 --> 00:10:04.079 align:start position:0%
+further into the outside
+ 
+
+00:10:04.079 --> 00:10:06.389 align:start position:0%
+further into the outside
+so<00:10:04.240><c> now</c><00:10:04.480><c> this</c><00:10:04.640><c> character</c><00:10:05.120><c> is</c><00:10:05.279><c> completely</c><00:10:05.920><c> lit</c>
+
+00:10:06.389 --> 00:10:06.399 align:start position:0%
+so now this character is completely lit
+ 
+
+00:10:06.399 --> 00:10:08.550 align:start position:0%
+so now this character is completely lit
+from<00:10:06.560><c> the</c><00:10:06.640><c> outside</c><00:10:07.120><c> and</c><00:10:07.279><c> we</c><00:10:07.440><c> end</c><00:10:07.680><c> up</c><00:10:07.920><c> with</c><00:10:08.240><c> only</c>
+
+00:10:08.550 --> 00:10:08.560 align:start position:0%
+from the outside and we end up with only
+ 
+
+00:10:08.560 --> 00:10:10.389 align:start position:0%
+from the outside and we end up with only
+a<00:10:08.720><c> silhouette</c><00:10:09.360><c> and</c><00:10:09.519><c> it's</c><00:10:09.680><c> looking</c><00:10:10.079><c> quite</c>
+
+00:10:10.389 --> 00:10:10.399 align:start position:0%
+a silhouette and it's looking quite
+ 
+
+00:10:10.399 --> 00:10:15.030 align:start position:0%
+a silhouette and it's looking quite
+mysterious<00:10:11.200><c> and</c><00:10:11.279><c> then</c><00:10:11.519><c> we</c><00:10:11.760><c> closer</c><00:10:12.160><c> we</c><00:10:12.320><c> get</c>
+
+00:10:15.030 --> 00:10:15.040 align:start position:0%
+ 
+ 
+
+00:10:15.040 --> 00:10:16.230 align:start position:0%
+ 
+you<00:10:15.120><c> can</c><00:10:15.360><c> see</c>
+
+00:10:16.230 --> 00:10:16.240 align:start position:0%
+you can see
+ 
+
+00:10:16.240 --> 00:10:18.550 align:start position:0%
+you can see
+now<00:10:16.399><c> we're</c><00:10:16.560><c> lighting</c><00:10:16.800><c> it</c><00:10:16.880><c> from</c><00:10:17.040><c> the</c><00:10:17.200><c> inside</c>
+
+00:10:18.550 --> 00:10:18.560 align:start position:0%
+now we're lighting it from the inside
+ 
+
+00:10:18.560 --> 00:10:20.790 align:start position:0%
+now we're lighting it from the inside
+and<00:10:18.720><c> it's</c><00:10:18.880><c> being</c><00:10:19.040><c> revealed</c>
+
+00:10:20.790 --> 00:10:20.800 align:start position:0%
+and it's being revealed
+ 
+
+00:10:20.800 --> 00:10:22.790 align:start position:0%
+and it's being revealed
+so<00:10:20.959><c> if</c><00:10:21.120><c> you</c><00:10:21.200><c> were</c><00:10:21.360><c> to</c><00:10:21.600><c> place</c><00:10:21.839><c> the</c><00:10:22.079><c> light</c><00:10:22.560><c> right</c>
+
+00:10:22.790 --> 00:10:22.800 align:start position:0%
+so if you were to place the light right
+ 
+
+00:10:22.800 --> 00:10:25.350 align:start position:0%
+so if you were to place the light right
+here<00:10:23.360><c> and</c><00:10:23.600><c> point</c><00:10:23.920><c> it</c><00:10:24.240><c> towards</c><00:10:24.640><c> the</c><00:10:24.800><c> character</c>
+
+00:10:25.350 --> 00:10:25.360 align:start position:0%
+here and point it towards the character
+ 
+
+00:10:25.360 --> 00:10:27.350 align:start position:0%
+here and point it towards the character
+now<00:10:25.680><c> this</c><00:10:25.920><c> looks</c><00:10:26.160><c> similar</c><00:10:26.640><c> to</c><00:10:26.959><c> when</c><00:10:27.120><c> you're</c>
+
+00:10:27.350 --> 00:10:27.360 align:start position:0%
+now this looks similar to when you're
+ 
+
+00:10:27.360 --> 00:10:29.269 align:start position:0%
+now this looks similar to when you're
+driving<00:10:27.680><c> the</c><00:10:27.839><c> car</c><00:10:28.079><c> at</c><00:10:28.240><c> night</c><00:10:28.720><c> and</c><00:10:29.120><c> your</c>
+
+00:10:29.269 --> 00:10:29.279 align:start position:0%
+driving the car at night and your
+ 
+
+00:10:29.279 --> 00:10:31.670 align:start position:0%
+driving the car at night and your
+flashlights<00:10:30.079><c> are</c><00:10:30.240><c> lighting</c><00:10:30.640><c> up</c><00:10:31.040><c> deer</c><00:10:31.440><c> in</c><00:10:31.519><c> the</c>
+
+00:10:31.670 --> 00:10:31.680 align:start position:0%
+flashlights are lighting up deer in the
+ 
+
+00:10:31.680 --> 00:10:32.389 align:start position:0%
+flashlights are lighting up deer in the
+road
+
+00:10:32.389 --> 00:10:32.399 align:start position:0%
+road
+ 
+
+00:10:32.399 --> 00:10:34.470 align:start position:0%
+road
+and<00:10:32.560><c> you</c><00:10:32.640><c> can</c><00:10:32.800><c> see</c><00:10:33.040><c> the</c><00:10:33.279><c> wet</c><00:10:33.680><c> fur</c><00:10:34.079><c> and</c><00:10:34.240><c> you</c><00:10:34.320><c> can</c>
+
+00:10:34.470 --> 00:10:34.480 align:start position:0%
+and you can see the wet fur and you can
+ 
+
+00:10:34.480 --> 00:10:37.350 align:start position:0%
+and you can see the wet fur and you can
+see<00:10:34.640><c> the</c><00:10:34.880><c> teeth</c><00:10:35.200><c> and</c><00:10:35.360><c> you</c><00:10:35.440><c> can</c><00:10:35.600><c> see</c><00:10:35.760><c> it</c><00:10:35.839><c> like</c>
+
+00:10:37.350 --> 00:10:37.360 align:start position:0%
+see the teeth and you can see it like
+ 
+
+00:10:37.360 --> 00:10:39.269 align:start position:0%
+see the teeth and you can see it like
+if<00:10:37.519><c> you</c><00:10:37.600><c> were</c><00:10:37.760><c> to</c><00:10:37.920><c> say</c><00:10:38.160><c> that</c><00:10:38.480><c> that</c><00:10:38.800><c> lighting</c><00:10:39.120><c> is</c>
+
+00:10:39.269 --> 00:10:39.279 align:start position:0%
+if you were to say that that lighting is
+ 
+
+00:10:39.279 --> 00:10:41.430 align:start position:0%
+if you were to say that that lighting is
+ugly<00:10:40.079><c> i</c><00:10:40.240><c> would</c><00:10:40.399><c> agree</c><00:10:40.720><c> with</c><00:10:40.800><c> you</c><00:10:41.040><c> but</c><00:10:41.200><c> on</c><00:10:41.279><c> the</c>
+
+00:10:41.430 --> 00:10:41.440 align:start position:0%
+ugly i would agree with you but on the
+ 
+
+00:10:41.440 --> 00:10:43.829 align:start position:0%
+ugly i would agree with you but on the
+contrary<00:10:42.320><c> let's</c><00:10:42.560><c> say</c><00:10:42.720><c> you're</c><00:10:42.880><c> in</c><00:10:43.040><c> a</c><00:10:43.120><c> cave</c><00:10:43.680><c> we</c>
+
+00:10:43.829 --> 00:10:43.839 align:start position:0%
+contrary let's say you're in a cave we
+ 
+
+00:10:43.839 --> 00:10:45.590 align:start position:0%
+contrary let's say you're in a cave we
+want<00:10:44.000><c> to</c><00:10:44.079><c> make</c><00:10:44.240><c> this</c><00:10:44.480><c> into</c><00:10:44.640><c> a</c><00:10:44.800><c> point</c><00:10:45.040><c> light</c>
+
+00:10:45.590 --> 00:10:45.600 align:start position:0%
+want to make this into a point light
+ 
+
+00:10:45.600 --> 00:10:48.310 align:start position:0%
+want to make this into a point light
+this<00:10:46.240><c> is</c><00:10:46.480><c> you</c><00:10:46.880><c> and</c><00:10:46.959><c> then</c><00:10:47.360><c> the</c><00:10:47.519><c> cave</c><00:10:47.839><c> goes</c><00:10:48.079><c> like</c>
+
+00:10:48.310 --> 00:10:48.320 align:start position:0%
+this is you and then the cave goes like
+ 
+
+00:10:48.320 --> 00:10:50.470 align:start position:0%
+this is you and then the cave goes like
+this<00:10:48.720><c> this</c><00:10:48.959><c> is</c><00:10:49.040><c> the</c><00:10:49.279><c> opening</c><00:10:49.760><c> of</c><00:10:49.839><c> the</c><00:10:50.000><c> cave</c><00:10:50.320><c> so</c>
+
+00:10:50.470 --> 00:10:50.480 align:start position:0%
+this this is the opening of the cave so
+ 
+
+00:10:50.480 --> 00:10:53.030 align:start position:0%
+this this is the opening of the cave so
+you're<00:10:50.800><c> inside</c><00:10:51.200><c> the</c><00:10:51.360><c> cave</c><00:10:52.000><c> this</c>
+
+00:10:53.030 --> 00:10:53.040 align:start position:0%
+you're inside the cave this
+ 
+
+00:10:53.040 --> 00:10:55.590 align:start position:0%
+you're inside the cave this
+would<00:10:53.360><c> fit</c><00:10:53.839><c> really</c><00:10:54.160><c> well</c><00:10:54.640><c> with</c><00:10:54.880><c> a</c><00:10:54.959><c> narrative</c>
+
+00:10:55.590 --> 00:10:55.600 align:start position:0%
+would fit really well with a narrative
+ 
+
+00:10:55.600 --> 00:10:57.430 align:start position:0%
+would fit really well with a narrative
+that<00:10:55.839><c> is</c><00:10:55.920><c> mysterious</c><00:10:56.720><c> so</c><00:10:56.880><c> now</c><00:10:57.040><c> you</c><00:10:57.200><c> can</c><00:10:57.279><c> see</c>
+
+00:10:57.430 --> 00:10:57.440 align:start position:0%
+that is mysterious so now you can see
+ 
+
+00:10:57.440 --> 00:10:59.190 align:start position:0%
+that is mysterious so now you can see
+that<00:10:57.519><c> when</c><00:10:57.680><c> the</c><00:10:57.839><c> light</c><00:10:58.079><c> is</c><00:10:58.240><c> coming</c><00:10:58.480><c> from</c><00:10:58.640><c> here</c>
+
+00:10:59.190 --> 00:10:59.200 align:start position:0%
+that when the light is coming from here
+ 
+
+00:10:59.200 --> 00:11:01.430 align:start position:0%
+that when the light is coming from here
+you<00:10:59.360><c> can</c><00:10:59.600><c> only</c><00:10:59.839><c> see</c><00:11:00.000><c> a</c><00:11:00.160><c> silhouette</c><00:11:00.959><c> but</c><00:11:01.120><c> if</c>
+
+00:11:01.430 --> 00:11:01.440 align:start position:0%
+you can only see a silhouette but if
+ 
+
+00:11:01.440 --> 00:11:04.550 align:start position:0%
+you can only see a silhouette but if
+instead<00:11:02.160><c> the</c><00:11:02.320><c> cave</c><00:11:02.720><c> is</c><00:11:02.880><c> the</c><00:11:02.959><c> other</c><00:11:03.200><c> way</c>
+
+00:11:04.550 --> 00:11:04.560 align:start position:0%
+instead the cave is the other way
+ 
+
+00:11:04.560 --> 00:11:06.710 align:start position:0%
+instead the cave is the other way
+like<00:11:04.800><c> this</c><00:11:05.200><c> so</c><00:11:05.360><c> it's</c><00:11:05.519><c> closed</c><00:11:06.000><c> here</c><00:11:06.399><c> and</c><00:11:06.560><c> this</c>
+
+00:11:06.710 --> 00:11:06.720 align:start position:0%
+like this so it's closed here and this
+ 
+
+00:11:06.720 --> 00:11:08.870 align:start position:0%
+like this so it's closed here and this
+is<00:11:06.880><c> the</c><00:11:06.959><c> opening</c><00:11:07.279><c> of</c><00:11:07.360><c> the</c><00:11:07.519><c> cave</c><00:11:08.000><c> the</c><00:11:08.240><c> sun</c><00:11:08.720><c> is</c>
+
+00:11:08.870 --> 00:11:08.880 align:start position:0%
+is the opening of the cave the sun is
+ 
+
+00:11:08.880 --> 00:11:12.550 align:start position:0%
+is the opening of the cave the sun is
+coming<00:11:09.200><c> from</c><00:11:09.360><c> outside</c><00:11:09.760><c> the</c><00:11:09.920><c> cave</c>
+
+00:11:12.550 --> 00:11:12.560 align:start position:0%
+ 
+ 
+
+00:11:12.560 --> 00:11:14.150 align:start position:0%
+ 
+and<00:11:12.720><c> you</c><00:11:12.800><c> can</c><00:11:12.959><c> see</c><00:11:13.120><c> that</c><00:11:13.279><c> you</c><00:11:13.519><c> are</c><00:11:13.600><c> revealing</c>
+
+00:11:14.150 --> 00:11:14.160 align:start position:0%
+and you can see that you are revealing
+ 
+
+00:11:14.160 --> 00:11:16.069 align:start position:0%
+and you can see that you are revealing
+everything<00:11:14.480><c> that's</c><00:11:14.720><c> inside</c><00:11:15.040><c> the</c><00:11:15.120><c> cave</c>
+
+00:11:16.069 --> 00:11:16.079 align:start position:0%
+everything that's inside the cave
+ 
+
+00:11:16.079 --> 00:11:17.190 align:start position:0%
+everything that's inside the cave
+i'm<00:11:16.240><c> not</c><00:11:16.399><c> sure</c>
+
+00:11:17.190 --> 00:11:17.200 align:start position:0%
+i'm not sure
+ 
+
+00:11:17.200 --> 00:11:20.470 align:start position:0%
+i'm not sure
+if<00:11:17.519><c> this</c><00:11:17.839><c> makes</c><00:11:18.399><c> any</c><00:11:18.720><c> sense</c><00:11:19.040><c> at</c><00:11:19.279><c> all</c>
+
+00:11:20.470 --> 00:11:20.480 align:start position:0%
+if this makes any sense at all
+ 
+
+00:11:20.480 --> 00:11:22.389 align:start position:0%
+if this makes any sense at all
+okay<00:11:21.120><c> i'm</c><00:11:21.279><c> getting</c><00:11:21.600><c> really</c><00:11:21.839><c> excited</c><00:11:22.240><c> about</c>
+
+00:11:22.389 --> 00:11:22.399 align:start position:0%
+okay i'm getting really excited about
+ 
+
+00:11:22.399 --> 00:11:24.630 align:start position:0%
+okay i'm getting really excited about
+this
+
+00:11:24.630 --> 00:11:24.640 align:start position:0%
+this
+ 
+
+00:11:24.640 --> 00:11:25.990 align:start position:0%
+this
+i'm<00:11:24.959><c> almost</c>
+
+00:11:25.990 --> 00:11:26.000 align:start position:0%
+i'm almost
+ 
+
+00:11:26.000 --> 00:11:27.750 align:start position:0%
+i'm almost
+i<00:11:26.160><c> think</c><00:11:26.399><c> i'm</c><00:11:26.480><c> just</c><00:11:26.720><c> really</c><00:11:26.959><c> excited</c><00:11:27.360><c> to</c><00:11:27.519><c> draw</c>
+
+00:11:27.750 --> 00:11:27.760 align:start position:0%
+i think i'm just really excited to draw
+ 
+
+00:11:27.760 --> 00:11:29.430 align:start position:0%
+i think i'm just really excited to draw
+on<00:11:27.920><c> this</c><00:11:28.079><c> tablet</c>
+
+00:11:29.430 --> 00:11:29.440 align:start position:0%
+on this tablet
+ 
+
+00:11:29.440 --> 00:11:31.910 align:start position:0%
+on this tablet
+okay<00:11:30.079><c> yeah</c><00:11:30.240><c> let's</c><00:11:30.640><c> let's</c><00:11:30.880><c> get</c><00:11:31.120><c> back</c><00:11:31.279><c> to</c><00:11:31.440><c> earth</c>
+
+00:11:31.910 --> 00:11:31.920 align:start position:0%
+okay yeah let's let's get back to earth
+ 
+
+00:11:31.920 --> 00:11:34.710 align:start position:0%
+okay yeah let's let's get back to earth
+i<00:11:32.000><c> think</c><00:11:32.720><c> so</c><00:11:33.360><c> to</c><00:11:33.519><c> summarize</c><00:11:34.079><c> this</c><00:11:34.399><c> and</c><00:11:34.560><c> to</c>
+
+00:11:34.710 --> 00:11:34.720 align:start position:0%
+i think so to summarize this and to
+ 
+
+00:11:34.720 --> 00:11:36.630 align:start position:0%
+i think so to summarize this and to
+recap<00:11:35.040><c> what</c><00:11:35.200><c> we've</c><00:11:35.360><c> done</c><00:11:35.600><c> today</c><00:11:36.240><c> we</c><00:11:36.480><c> have</c>
+
+00:11:36.630 --> 00:11:36.640 align:start position:0%
+recap what we've done today we have
+ 
+
+00:11:36.640 --> 00:11:39.430 align:start position:0%
+recap what we've done today we have
+created<00:11:37.120><c> a</c><00:11:37.440><c> large</c><00:11:38.240><c> light</c><00:11:38.560><c> source</c>
+
+00:11:39.430 --> 00:11:39.440 align:start position:0%
+created a large light source
+ 
+
+00:11:39.440 --> 00:11:41.670 align:start position:0%
+created a large light source
+above<00:11:40.160><c> our</c><00:11:40.399><c> point</c><00:11:40.640><c> of</c><00:11:40.800><c> interest</c><00:11:41.279><c> and</c><00:11:41.360><c> we</c><00:11:41.519><c> have</c>
+
+00:11:41.670 --> 00:11:41.680 align:start position:0%
+above our point of interest and we have
+ 
+
+00:11:41.680 --> 00:11:44.710 align:start position:0%
+above our point of interest and we have
+learned<00:11:42.240><c> that</c><00:11:42.800><c> if</c><00:11:42.959><c> we</c><00:11:43.200><c> place</c><00:11:43.920><c> our</c><00:11:44.160><c> light</c>
+
+00:11:44.710 --> 00:11:44.720 align:start position:0%
+learned that if we place our light
+ 
+
+00:11:44.720 --> 00:11:47.030 align:start position:0%
+learned that if we place our light
+closer<00:11:45.440><c> to</c><00:11:45.600><c> the</c><00:11:45.760><c> background</c><00:11:46.480><c> and</c><00:11:46.720><c> further</c>
+
+00:11:47.030 --> 00:11:47.040 align:start position:0%
+closer to the background and further
+ 
+
+00:11:47.040 --> 00:11:49.030 align:start position:0%
+closer to the background and further
+away<00:11:47.279><c> from</c><00:11:47.440><c> the</c><00:11:47.600><c> point</c><00:11:47.839><c> of</c><00:11:48.000><c> interest</c><00:11:48.640><c> we</c><00:11:48.800><c> are</c>
+
+00:11:49.030 --> 00:11:49.040 align:start position:0%
+away from the point of interest we are
+ 
+
+00:11:49.040 --> 00:11:50.310 align:start position:0%
+away from the point of interest we are
+creating<00:11:49.519><c> something</c><00:11:49.839><c> that</c><00:11:50.000><c> is</c><00:11:50.160><c> more</c>
+
+00:11:50.310 --> 00:11:50.320 align:start position:0%
+creating something that is more
+ 
+
+00:11:50.320 --> 00:11:52.470 align:start position:0%
+creating something that is more
+mysterious<00:11:51.360><c> because</c><00:11:51.600><c> we</c><00:11:51.760><c> are</c><00:11:51.920><c> losing</c>
+
+00:11:52.470 --> 00:11:52.480 align:start position:0%
+mysterious because we are losing
+ 
+
+00:11:52.480 --> 00:11:54.470 align:start position:0%
+mysterious because we are losing
+information<00:11:53.360><c> and</c><00:11:53.519><c> we</c><00:11:53.680><c> are</c><00:11:53.920><c> really</c><00:11:54.160><c> playing</c>
+
+00:11:54.470 --> 00:11:54.480 align:start position:0%
+information and we are really playing
+ 
+
+00:11:54.480 --> 00:11:56.470 align:start position:0%
+information and we are really playing
+with<00:11:54.560><c> the</c><00:11:54.720><c> shadows</c><00:11:55.440><c> and</c><00:11:55.600><c> then</c><00:11:55.920><c> if</c><00:11:56.079><c> we</c><00:11:56.240><c> choose</c>
+
+00:11:56.470 --> 00:11:56.480 align:start position:0%
+with the shadows and then if we choose
+ 
+
+00:11:56.480 --> 00:11:58.710 align:start position:0%
+with the shadows and then if we choose
+to<00:11:56.639><c> place</c><00:11:56.959><c> our</c><00:11:57.120><c> light</c><00:11:57.760><c> between</c><00:11:58.160><c> the</c><00:11:58.320><c> point</c><00:11:58.560><c> of</c>
+
+00:11:58.710 --> 00:11:58.720 align:start position:0%
+to place our light between the point of
+ 
+
+00:11:58.720 --> 00:12:02.230 align:start position:0%
+to place our light between the point of
+interest<00:11:59.519><c> and</c><00:11:59.680><c> the</c><00:11:59.760><c> point</c><00:12:00.000><c> of</c><00:12:00.160><c> view</c><00:12:00.639><c> like</c><00:12:00.800><c> this</c>
+
+00:12:02.230 --> 00:12:02.240 align:start position:0%
+interest and the point of view like this
+ 
+
+00:12:02.240 --> 00:12:03.670 align:start position:0%
+interest and the point of view like this
+now<00:12:02.480><c> you</c><00:12:02.560><c> can</c><00:12:02.720><c> see</c><00:12:02.880><c> that</c><00:12:03.120><c> all</c><00:12:03.279><c> is</c><00:12:03.440><c> being</c>
+
+00:12:03.670 --> 00:12:03.680 align:start position:0%
+now you can see that all is being
+ 
+
+00:12:03.680 --> 00:12:05.590 align:start position:0%
+now you can see that all is being
+revealed<00:12:04.240><c> and</c><00:12:04.399><c> we</c><00:12:04.480><c> have</c><00:12:04.639><c> a</c><00:12:04.720><c> flat</c><00:12:05.040><c> lighting</c><00:12:05.440><c> so</c>
+
+00:12:05.590 --> 00:12:05.600 align:start position:0%
+revealed and we have a flat lighting so
+ 
+
+00:12:05.600 --> 00:12:07.269 align:start position:0%
+revealed and we have a flat lighting so
+this<00:12:05.760><c> can</c><00:12:05.920><c> be</c><00:12:06.079><c> used</c><00:12:06.320><c> if</c><00:12:06.480><c> you</c><00:12:06.560><c> want</c><00:12:06.720><c> to</c><00:12:06.880><c> reveal</c>
+
+00:12:07.269 --> 00:12:07.279 align:start position:0%
+this can be used if you want to reveal
+ 
+
+00:12:07.279 --> 00:12:09.509 align:start position:0%
+this can be used if you want to reveal
+everything<00:12:07.920><c> and</c><00:12:08.079><c> just</c><00:12:08.399><c> show</c><00:12:08.880><c> that</c><00:12:09.200><c> there</c><00:12:09.360><c> are</c>
+
+00:12:09.509 --> 00:12:09.519 align:start position:0%
+everything and just show that there are
+ 
+
+00:12:09.519 --> 00:12:11.509 align:start position:0%
+everything and just show that there are
+no<00:12:09.680><c> secrets</c><00:12:10.079><c> here</c><00:12:10.480><c> so</c><00:12:10.639><c> to</c><00:12:10.800><c> get</c><00:12:10.959><c> back</c><00:12:11.120><c> to</c><00:12:11.279><c> my</c>
+
+00:12:11.509 --> 00:12:11.519 align:start position:0%
+no secrets here so to get back to my
+ 
+
+00:12:11.519 --> 00:12:14.870 align:start position:0%
+no secrets here so to get back to my
+favorite<00:12:11.839><c> lighting</c><00:12:12.079><c> setup</c><00:12:12.639><c> it's</c><00:12:13.279><c> just</c><00:12:13.920><c> behind</c>
+
+00:12:14.870 --> 00:12:14.880 align:start position:0%
+favorite lighting setup it's just behind
+ 
+
+00:12:14.880 --> 00:12:16.949 align:start position:0%
+favorite lighting setup it's just behind
+the<00:12:15.040><c> point</c><00:12:15.279><c> of</c><00:12:15.440><c> interest</c>
+
+00:12:16.949 --> 00:12:16.959 align:start position:0%
+the point of interest
+ 
+
+00:12:16.959 --> 00:12:18.389 align:start position:0%
+the point of interest
+just
+
+00:12:18.389 --> 00:12:18.399 align:start position:0%
+just
+ 
+
+00:12:18.399 --> 00:12:19.750 align:start position:0%
+just
+right<00:12:18.639><c> here</c>
+
+00:12:19.750 --> 00:12:19.760 align:start position:0%
+right here
+ 
+
+00:12:19.760 --> 00:12:21.750 align:start position:0%
+right here
+because<00:12:20.160><c> then</c><00:12:20.320><c> you</c><00:12:20.480><c> get</c><00:12:21.040><c> a</c><00:12:21.200><c> little</c><00:12:21.440><c> bit</c><00:12:21.600><c> of</c>
+
+00:12:21.750 --> 00:12:21.760 align:start position:0%
+because then you get a little bit of
+ 
+
+00:12:21.760 --> 00:12:24.629 align:start position:0%
+because then you get a little bit of
+light<00:12:22.000><c> rays</c><00:12:22.320><c> here</c><00:12:22.639><c> and</c><00:12:22.720><c> you</c><00:12:23.040><c> also</c>
+
+00:12:24.629 --> 00:12:24.639 align:start position:0%
+light rays here and you also
+ 
+
+00:12:24.639 --> 00:12:27.110 align:start position:0%
+light rays here and you also
+get<00:12:24.880><c> bounce</c><00:12:25.279><c> light</c><00:12:25.600><c> on</c><00:12:25.760><c> the</c><00:12:25.920><c> ground</c><00:12:26.720><c> and</c><00:12:26.880><c> then</c>
+
+00:12:27.110 --> 00:12:27.120 align:start position:0%
+get bounce light on the ground and then
+ 
+
+00:12:27.120 --> 00:12:28.389 align:start position:0%
+get bounce light on the ground and then
+up<00:12:27.360><c> again</c>
+
+00:12:28.389 --> 00:12:28.399 align:start position:0%
+up again
+ 
+
+00:12:28.399 --> 00:12:30.629 align:start position:0%
+up again
+and<00:12:28.480><c> this</c><00:12:28.720><c> goes</c><00:12:29.040><c> a</c><00:12:29.120><c> little</c><00:12:29.279><c> bit</c><00:12:29.519><c> like</c><00:12:29.760><c> this</c>
+
+00:12:30.629 --> 00:12:30.639 align:start position:0%
+and this goes a little bit like this
+ 
+
+00:12:30.639 --> 00:12:33.110 align:start position:0%
+and this goes a little bit like this
+and<00:12:30.800><c> is</c><00:12:31.040><c> really</c><00:12:31.360><c> powerful</c><00:12:32.000><c> in</c><00:12:32.160><c> cycles</c><00:12:32.800><c> you</c><00:12:32.959><c> can</c>
+
+00:12:33.110 --> 00:12:33.120 align:start position:0%
+and is really powerful in cycles you can
+ 
+
+00:12:33.120 --> 00:12:35.110 align:start position:0%
+and is really powerful in cycles you can
+try<00:12:33.360><c> this</c><00:12:33.600><c> same</c><00:12:33.839><c> lighting</c><00:12:34.160><c> setup</c><00:12:34.480><c> in</c><00:12:34.639><c> eevee</c>
+
+00:12:35.110 --> 00:12:35.120 align:start position:0%
+try this same lighting setup in eevee
+ 
+
+00:12:35.120 --> 00:12:37.110 align:start position:0%
+try this same lighting setup in eevee
+and<00:12:35.200><c> you'll</c><00:12:35.519><c> quickly</c><00:12:35.839><c> notice</c><00:12:36.320><c> that</c><00:12:36.880><c> the</c>
+
+00:12:37.110 --> 00:12:37.120 align:start position:0%
+and you'll quickly notice that the
+ 
+
+00:12:37.120 --> 00:12:39.190 align:start position:0%
+and you'll quickly notice that the
+bounce<00:12:37.519><c> light</c><00:12:37.760><c> in</c><00:12:38.000><c> cycles</c><00:12:38.480><c> is</c><00:12:38.639><c> doing</c><00:12:38.880><c> a</c><00:12:38.959><c> lot</c><00:12:39.120><c> of</c>
+
+00:12:39.190 --> 00:12:39.200 align:start position:0%
+bounce light in cycles is doing a lot of
+ 
+
+00:12:39.200 --> 00:12:40.710 align:start position:0%
+bounce light in cycles is doing a lot of
+the<00:12:39.279><c> heavy</c><00:12:39.519><c> lifting</c><00:12:39.839><c> here</c><00:12:40.240><c> and</c><00:12:40.320><c> then</c><00:12:40.560><c> the</c>
+
+00:12:40.710 --> 00:12:40.720 align:start position:0%
+the heavy lifting here and then the
+ 
+
+00:12:40.720 --> 00:12:43.269 align:start position:0%
+the heavy lifting here and then the
+majority<00:12:41.279><c> of</c><00:12:41.360><c> the</c><00:12:41.519><c> light</c><00:12:42.160><c> comes</c><00:12:42.480><c> here</c><00:12:42.880><c> and</c>
+
+00:12:43.269 --> 00:12:43.279 align:start position:0%
+majority of the light comes here and
+ 
+
+00:12:43.279 --> 00:12:46.470 align:start position:0%
+majority of the light comes here and
+lands<00:12:44.079><c> smoothly</c><00:12:45.200><c> on</c><00:12:45.279><c> the</c><00:12:45.519><c> shoulder</c><00:12:46.240><c> and</c><00:12:46.399><c> on</c>
+
+00:12:46.470 --> 00:12:46.480 align:start position:0%
+lands smoothly on the shoulder and on
+ 
+
+00:12:46.480 --> 00:12:48.790 align:start position:0%
+lands smoothly on the shoulder and on
+the<00:12:46.639><c> ground</c><00:12:46.959><c> and</c><00:12:47.120><c> it's</c><00:12:47.360><c> also</c><00:12:47.839><c> bouncing</c><00:12:48.560><c> like</c>
+
+00:12:48.790 --> 00:12:48.800 align:start position:0%
+the ground and it's also bouncing like
+ 
+
+00:12:48.800 --> 00:12:51.670 align:start position:0%
+the ground and it's also bouncing like
+this<00:12:49.279><c> these</c><00:12:49.519><c> are</c><00:12:49.600><c> bouncing</c><00:12:50.399><c> and</c><00:12:50.560><c> i</c><00:12:50.720><c> think</c><00:12:50.959><c> this</c>
+
+00:12:51.670 --> 00:12:51.680 align:start position:0%
+this these are bouncing and i think this
+ 
+
+00:12:51.680 --> 00:12:53.829 align:start position:0%
+this these are bouncing and i think this
+the<00:12:51.920><c> shoulder</c><00:12:52.320><c> light</c><00:12:52.880><c> is</c><00:12:53.040><c> the</c><00:12:53.120><c> most</c><00:12:53.440><c> beautiful</c>
+
+00:12:53.829 --> 00:12:53.839 align:start position:0%
+the shoulder light is the most beautiful
+ 
+
+00:12:53.839 --> 00:12:56.710 align:start position:0%
+the shoulder light is the most beautiful
+about<00:12:54.079><c> this</c><00:12:54.560><c> setup</c><00:12:55.040><c> it</c><00:12:55.440><c> falls</c><00:12:55.920><c> off</c><00:12:56.399><c> really</c>
+
+00:12:56.710 --> 00:12:56.720 align:start position:0%
+about this setup it falls off really
+ 
+
+00:12:56.720 --> 00:12:58.389 align:start position:0%
+about this setup it falls off really
+nicely<00:12:57.200><c> and</c><00:12:57.360><c> it</c><00:12:57.440><c> looks</c>
+
+00:12:58.389 --> 00:12:58.399 align:start position:0%
+nicely and it looks
+ 
+
+00:12:58.399 --> 00:13:01.190 align:start position:0%
+nicely and it looks
+it<00:12:58.560><c> looks</c><00:12:58.720><c> like</c><00:12:58.880><c> a</c><00:12:59.040><c> cape</c><00:12:59.839><c> of</c><00:13:00.079><c> light</c>
+
+00:13:01.190 --> 00:13:01.200 align:start position:0%
+it looks like a cape of light
+ 
+
+00:13:01.200 --> 00:13:03.269 align:start position:0%
+it looks like a cape of light
+oh<00:13:01.440><c> by</c><00:13:01.600><c> the</c><00:13:01.680><c> way</c><00:13:02.079><c> we</c><00:13:02.240><c> totally</c><00:13:02.480><c> forgot</c><00:13:02.880><c> but</c><00:13:03.040><c> this</c>
+
+00:13:03.269 --> 00:13:03.279 align:start position:0%
+oh by the way we totally forgot but this
+ 
+
+00:13:03.279 --> 00:13:04.790 align:start position:0%
+oh by the way we totally forgot but this
+is<00:13:03.360><c> actually</c><00:13:03.680><c> still</c><00:13:03.920><c> animated</c><00:13:04.399><c> so</c><00:13:04.560><c> you</c><00:13:04.639><c> can</c>
+
+00:13:04.790 --> 00:13:04.800 align:start position:0%
+is actually still animated so you can
+ 
+
+00:13:04.800 --> 00:13:06.550 align:start position:0%
+is actually still animated so you can
+press<00:13:05.040><c> play</c><00:13:05.279><c> and</c><00:13:05.440><c> you</c><00:13:05.519><c> can</c><00:13:05.600><c> see</c><00:13:05.760><c> that</c>
+
+00:13:06.550 --> 00:13:06.560 align:start position:0%
+press play and you can see that
+ 
+
+00:13:06.560 --> 00:13:09.110 align:start position:0%
+press play and you can see that
+it's<00:13:06.720><c> an</c><00:13:06.800><c> actually</c><00:13:07.040><c> mocap</c><00:13:07.440><c> animation</c><00:13:08.240><c> so</c><00:13:08.959><c> i'll</c>
+
+00:13:09.110 --> 00:13:09.120 align:start position:0%
+it's an actually mocap animation so i'll
+ 
+
+00:13:09.120 --> 00:13:10.389 align:start position:0%
+it's an actually mocap animation so i'll
+guess<00:13:09.279><c> how</c><00:13:09.440><c> to</c><00:13:09.519><c> render</c><00:13:09.760><c> it</c><00:13:09.920><c> out</c><00:13:10.079><c> and</c><00:13:10.160><c> see</c><00:13:10.240><c> what</c>
+
+00:13:10.389 --> 00:13:10.399 align:start position:0%
+guess how to render it out and see what
+ 
+
+00:13:10.399 --> 00:13:12.389 align:start position:0%
+guess how to render it out and see what
+it<00:13:10.480><c> looks</c><00:13:10.639><c> like</c><00:13:11.279><c> so</c><00:13:11.680><c> that's</c><00:13:11.920><c> my</c><00:13:12.079><c> favorite</c>
+
+00:13:12.389 --> 00:13:12.399 align:start position:0%
+it looks like so that's my favorite
+ 
+
+00:13:12.399 --> 00:13:14.550 align:start position:0%
+it looks like so that's my favorite
+lighting<00:13:12.720><c> setup</c><00:13:13.279><c> i</c><00:13:13.760><c> will</c><00:13:13.920><c> leave</c><00:13:14.160><c> the</c><00:13:14.240><c> blend</c>
+
+00:13:14.550 --> 00:13:14.560 align:start position:0%
+lighting setup i will leave the blend
+ 
+
+00:13:14.560 --> 00:13:16.310 align:start position:0%
+lighting setup i will leave the blend
+file<00:13:14.800><c> in</c><00:13:14.880><c> the</c><00:13:14.959><c> description</c><00:13:15.760><c> i'm</c><00:13:15.920><c> not</c><00:13:16.079><c> going</c><00:13:16.240><c> to</c>
+
+00:13:16.310 --> 00:13:16.320 align:start position:0%
+file in the description i'm not going to
+ 
+
+00:13:16.320 --> 00:13:18.230 align:start position:0%
+file in the description i'm not going to
+be<00:13:16.399><c> allowed</c><00:13:16.720><c> to</c><00:13:17.120><c> distribute</c><00:13:17.600><c> this</c><00:13:17.839><c> mocap</c>
+
+00:13:18.230 --> 00:13:18.240 align:start position:0%
+be allowed to distribute this mocap
+ 
+
+00:13:18.240 --> 00:13:19.670 align:start position:0%
+be allowed to distribute this mocap
+model<00:13:18.480><c> but</c><00:13:18.639><c> you</c><00:13:18.800><c> can</c><00:13:18.880><c> just</c><00:13:19.040><c> download</c><00:13:19.360><c> it</c><00:13:19.440><c> from</c>
+
+00:13:19.670 --> 00:13:19.680 align:start position:0%
+model but you can just download it from
+ 
+
+00:13:19.680 --> 00:13:21.269 align:start position:0%
+model but you can just download it from
+exam<00:13:20.079><c> and</c><00:13:20.160><c> import</c><00:13:20.480><c> it</c><00:13:20.560><c> to</c><00:13:20.639><c> the</c><00:13:20.800><c> scene</c><00:13:21.040><c> and</c><00:13:21.200><c> it</c>
+
+00:13:21.269 --> 00:13:21.279 align:start position:0%
+exam and import it to the scene and it
+ 
+
+00:13:21.279 --> 00:13:23.430 align:start position:0%
+exam and import it to the scene and it
+should<00:13:21.519><c> be</c><00:13:21.760><c> placed</c><00:13:22.480><c> perfectly</c><00:13:23.040><c> where</c><00:13:23.279><c> it's</c>
+
+00:13:23.430 --> 00:13:23.440 align:start position:0%
+should be placed perfectly where it's
+ 
+
+00:13:23.440 --> 00:13:24.870 align:start position:0%
+should be placed perfectly where it's
+right<00:13:23.680><c> now</c><00:13:24.000><c> and</c><00:13:24.160><c> if</c><00:13:24.240><c> you</c><00:13:24.399><c> want</c><00:13:24.480><c> to</c><00:13:24.560><c> try</c><00:13:24.720><c> and</c>
+
+00:13:24.870 --> 00:13:24.880 align:start position:0%
+right now and if you want to try and
+ 
+
+00:13:24.880 --> 00:13:26.710 align:start position:0%
+right now and if you want to try and
+recreate<00:13:25.360><c> it</c><00:13:25.600><c> i</c><00:13:25.760><c> highly</c><00:13:26.079><c> recommend</c><00:13:26.480><c> that</c><00:13:26.560><c> you</c>
+
+00:13:26.710 --> 00:13:26.720 align:start position:0%
+recreate it i highly recommend that you
+ 
+
+00:13:26.720 --> 00:13:28.470 align:start position:0%
+recreate it i highly recommend that you
+just<00:13:27.040><c> try</c><00:13:27.279><c> and</c><00:13:27.360><c> use</c><00:13:27.680><c> one</c><00:13:27.920><c> light</c><00:13:28.160><c> source</c>
+
+00:13:28.470 --> 00:13:28.480 align:start position:0%
+just try and use one light source
+ 
+
+00:13:28.480 --> 00:13:30.790 align:start position:0%
+just try and use one light source
+because<00:13:28.800><c> that</c><00:13:29.040><c> just</c><00:13:29.279><c> keeps</c><00:13:29.600><c> things</c><00:13:30.399><c> so</c><00:13:30.560><c> much</c>
+
+00:13:30.790 --> 00:13:30.800 align:start position:0%
+because that just keeps things so much
+ 
+
+00:13:30.800 --> 00:13:32.629 align:start position:0%
+because that just keeps things so much
+simpler<00:13:31.360><c> as</c><00:13:31.519><c> i</c><00:13:31.680><c> said</c><00:13:31.839><c> i'm</c><00:13:32.000><c> using</c><00:13:32.320><c> this</c><00:13:32.480><c> for</c>
+
+00:13:32.629 --> 00:13:32.639 align:start position:0%
+simpler as i said i'm using this for
+ 
+
+00:13:32.639 --> 00:13:34.790 align:start position:0%
+simpler as i said i'm using this for
+almost<00:13:32.959><c> everything</c><00:13:33.360><c> nowadays</c><00:13:34.000><c> it's</c><00:13:34.240><c> just</c><00:13:34.480><c> one</c>
+
+00:13:34.790 --> 00:13:34.800 align:start position:0%
+almost everything nowadays it's just one
+ 
+
+00:13:34.800 --> 00:13:37.110 align:start position:0%
+almost everything nowadays it's just one
+big<00:13:35.040><c> light</c><00:13:35.279><c> source</c><00:13:35.760><c> and</c><00:13:35.839><c> then</c><00:13:36.000><c> it's</c><00:13:36.240><c> often</c><00:13:36.720><c> a</c>
+
+00:13:37.110 --> 00:13:37.120 align:start position:0%
+big light source and then it's often a
+ 
+
+00:13:37.120 --> 00:13:39.590 align:start position:0%
+big light source and then it's often a
+large<00:13:37.519><c> area</c><00:13:37.839><c> plane</c><00:13:38.240><c> tilted</c><00:13:38.959><c> so</c><00:13:39.279><c> it</c><00:13:39.360><c> won't</c>
+
+00:13:39.590 --> 00:13:39.600 align:start position:0%
+large area plane tilted so it won't
+ 
+
+00:13:39.600 --> 00:13:41.189 align:start position:0%
+large area plane tilted so it won't
+create<00:13:39.920><c> any</c><00:13:40.160><c> ugly</c><00:13:40.480><c> shadows</c><00:13:40.959><c> on</c><00:13:41.120><c> the</c>
+
+00:13:41.189 --> 00:13:41.199 align:start position:0%
+create any ugly shadows on the
+ 
+
+00:13:41.199 --> 00:13:42.550 align:start position:0%
+create any ugly shadows on the
+background<00:13:41.680><c> especially</c><00:13:42.000><c> when</c><00:13:42.240><c> using</c><00:13:42.480><c> a</c>
+
+00:13:42.550 --> 00:13:42.560 align:start position:0%
+background especially when using a
+ 
+
+00:13:42.560 --> 00:13:44.550 align:start position:0%
+background especially when using a
+wide-angle<00:13:43.120><c> lens</c><00:13:43.680><c> this</c><00:13:44.000><c> this</c><00:13:44.160><c> monitor</c><00:13:44.480><c> is</c>
+
+00:13:44.550 --> 00:13:44.560 align:start position:0%
+wide-angle lens this this monitor is
+ 
+
+00:13:44.560 --> 00:13:46.230 align:start position:0%
+wide-angle lens this this monitor is
+probably<00:13:44.800><c> going</c><00:13:44.880><c> to</c><00:13:45.040><c> wiggle</c><00:13:45.360><c> a</c><00:13:45.440><c> little</c><00:13:45.600><c> bit</c><00:13:46.079><c> i</c>
+
+00:13:46.230 --> 00:13:46.240 align:start position:0%
+probably going to wiggle a little bit i
+ 
+
+00:13:46.240 --> 00:13:47.430 align:start position:0%
+probably going to wiggle a little bit i
+don't<00:13:46.480><c> have</c><00:13:46.560><c> a</c><00:13:46.639><c> really</c><00:13:46.880><c> big</c><00:13:47.040><c> monitor</c><00:13:47.360><c> it's</c>
+
+00:13:47.430 --> 00:13:47.440 align:start position:0%
+don't have a really big monitor it's
+ 
+
+00:13:47.440 --> 00:13:49.750 align:start position:0%
+don't have a really big monitor it's
+just<00:13:47.600><c> this</c><00:13:47.839><c> is</c><00:13:47.920><c> such</c><00:13:48.160><c> a</c><00:13:48.240><c> wide-angle</c><00:13:48.800><c> lens</c><00:13:49.600><c> so</c>
+
+00:13:49.750 --> 00:13:49.760 align:start position:0%
+just this is such a wide-angle lens so
+ 
+
+00:13:49.760 --> 00:13:51.189 align:start position:0%
+just this is such a wide-angle lens so
+if<00:13:49.920><c> you</c><00:13:50.000><c> watched</c><00:13:50.320><c> any</c><00:13:50.560><c> tutorials</c><00:13:50.959><c> on</c><00:13:51.040><c> this</c>
+
+00:13:51.189 --> 00:13:51.199 align:start position:0%
+if you watched any tutorials on this
+ 
+
+00:13:51.199 --> 00:13:52.870 align:start position:0%
+if you watched any tutorials on this
+channel<00:13:51.519><c> you</c><00:13:51.680><c> might</c><00:13:51.839><c> have</c><00:13:52.000><c> noticed</c><00:13:52.320><c> by</c><00:13:52.480><c> now</c>
+
+00:13:52.870 --> 00:13:52.880 align:start position:0%
+channel you might have noticed by now
+ 
+
+00:13:52.880 --> 00:13:54.790 align:start position:0%
+channel you might have noticed by now
+that<00:13:53.440><c> there</c><00:13:53.680><c> is</c><00:13:53.760><c> a</c><00:13:53.920><c> difference</c><00:13:54.320><c> between</c><00:13:54.639><c> the</c>
+
+00:13:54.790 --> 00:13:54.800 align:start position:0%
+that there is a difference between the
+ 
+
+00:13:54.800 --> 00:13:56.470 align:start position:0%
+that there is a difference between the
+tutorial<00:13:55.360><c> result</c>
+
+00:13:56.470 --> 00:13:56.480 align:start position:0%
+tutorial result
+ 
+
+00:13:56.480 --> 00:13:59.110 align:start position:0%
+tutorial result
+and<00:13:56.639><c> the</c><00:13:57.040><c> sort</c><00:13:57.199><c> of</c><00:13:57.360><c> cinematic</c><00:13:58.240><c> that</c><00:13:58.560><c> i</c><00:13:58.800><c> show</c><00:13:59.040><c> at</c>
+
+00:13:59.110 --> 00:13:59.120 align:start position:0%
+and the sort of cinematic that i show at
+ 
+
+00:13:59.120 --> 00:14:01.189 align:start position:0%
+and the sort of cinematic that i show at
+the<00:13:59.279><c> end</c><00:13:59.600><c> and</c><00:13:59.760><c> the</c><00:13:59.839><c> reason</c><00:14:00.160><c> for</c><00:14:00.320><c> this</c><00:14:00.560><c> is</c><00:14:00.880><c> super</c>
+
+00:14:01.189 --> 00:14:01.199 align:start position:0%
+the end and the reason for this is super
+ 
+
+00:14:01.199 --> 00:14:03.670 align:start position:0%
+the end and the reason for this is super
+simple<00:14:01.760><c> every</c><00:14:02.000><c> time</c><00:14:02.240><c> i</c><00:14:02.320><c> record</c><00:14:02.720><c> a</c><00:14:02.880><c> tutorial</c><00:14:03.519><c> i</c>
+
+00:14:03.670 --> 00:14:03.680 align:start position:0%
+simple every time i record a tutorial i
+ 
+
+00:14:03.680 --> 00:14:05.430 align:start position:0%
+simple every time i record a tutorial i
+just<00:14:03.920><c> get</c><00:14:04.160><c> so</c><00:14:04.399><c> excited</c><00:14:04.800><c> about</c><00:14:04.959><c> the</c><00:14:05.040><c> technique</c>
+
+00:14:05.430 --> 00:14:05.440 align:start position:0%
+just get so excited about the technique
+ 
+
+00:14:05.440 --> 00:14:07.590 align:start position:0%
+just get so excited about the technique
+that<00:14:05.519><c> i'm</c><00:14:05.680><c> about</c><00:14:05.920><c> to</c><00:14:06.079><c> show</c><00:14:06.320><c> everyone</c><00:14:06.639><c> that</c>
+
+00:14:07.590 --> 00:14:07.600 align:start position:0%
+that i'm about to show everyone that
+ 
+
+00:14:07.600 --> 00:14:09.750 align:start position:0%
+that i'm about to show everyone that
+i<00:14:07.839><c> just</c><00:14:08.240><c> spend</c><00:14:08.480><c> a</c><00:14:08.560><c> couple</c><00:14:08.800><c> of</c><00:14:08.959><c> days</c>
+
+00:14:09.750 --> 00:14:09.760 align:start position:0%
+i just spend a couple of days
+ 
+
+00:14:09.760 --> 00:14:10.629 align:start position:0%
+i just spend a couple of days
+just
+
+00:14:10.629 --> 00:14:10.639 align:start position:0%
+just
+ 
+
+00:14:10.639 --> 00:14:12.550 align:start position:0%
+just
+doing<00:14:10.880><c> whatever</c><00:14:11.199><c> i</c><00:14:11.360><c> can</c><00:14:11.600><c> to</c><00:14:12.079><c> make</c><00:14:12.240><c> people</c>
+
+00:14:12.550 --> 00:14:12.560 align:start position:0%
+doing whatever i can to make people
+ 
+
+00:14:12.560 --> 00:14:14.310 align:start position:0%
+doing whatever i can to make people
+understand<00:14:13.040><c> how</c><00:14:13.199><c> cool</c><00:14:13.440><c> it</c><00:14:13.600><c> is</c><00:14:13.760><c> you</c><00:14:13.839><c> know</c><00:14:14.079><c> and</c>
+
+00:14:14.310 --> 00:14:14.320 align:start position:0%
+understand how cool it is you know and
+ 
+
+00:14:14.320 --> 00:14:16.470 align:start position:0%
+understand how cool it is you know and
+make<00:14:14.560><c> these</c><00:14:14.800><c> cinematic</c><00:14:15.360><c> shots</c><00:14:15.920><c> and</c><00:14:16.079><c> my</c><00:14:16.240><c> goal</c>
+
+00:14:16.470 --> 00:14:16.480 align:start position:0%
+make these cinematic shots and my goal
+ 
+
+00:14:16.480 --> 00:14:18.389 align:start position:0%
+make these cinematic shots and my goal
+is<00:14:16.639><c> to</c><00:14:16.800><c> inspire</c><00:14:17.199><c> with</c><00:14:17.360><c> this</c><00:14:17.680><c> to</c><00:14:17.839><c> show</c><00:14:18.079><c> off</c><00:14:18.240><c> the</c>
+
+00:14:18.389 --> 00:14:18.399 align:start position:0%
+is to inspire with this to show off the
+ 
+
+00:14:18.399 --> 00:14:19.829 align:start position:0%
+is to inspire with this to show off the
+technique<00:14:18.720><c> but</c><00:14:18.880><c> i</c><00:14:19.040><c> also</c><00:14:19.199><c> understand</c><00:14:19.600><c> it</c><00:14:19.680><c> can</c>
+
+00:14:19.829 --> 00:14:19.839 align:start position:0%
+technique but i also understand it can
+ 
+
+00:14:19.839 --> 00:14:21.990 align:start position:0%
+technique but i also understand it can
+be<00:14:20.000><c> quite</c><00:14:20.240><c> frustrating</c><00:14:20.880><c> to</c><00:14:21.040><c> not</c><00:14:21.279><c> get</c><00:14:21.519><c> to</c><00:14:21.680><c> learn</c>
+
+00:14:21.990 --> 00:14:22.000 align:start position:0%
+be quite frustrating to not get to learn
+ 
+
+00:14:22.000 --> 00:14:23.590 align:start position:0%
+be quite frustrating to not get to learn
+everything<00:14:22.320><c> in</c><00:14:22.399><c> the</c><00:14:22.480><c> same</c><00:14:22.720><c> video</c><00:14:23.279><c> so</c><00:14:23.440><c> if</c><00:14:23.519><c> you</c>
+
+00:14:23.590 --> 00:14:23.600 align:start position:0%
+everything in the same video so if you
+ 
+
+00:14:23.600 --> 00:14:25.269 align:start position:0%
+everything in the same video so if you
+like<00:14:23.839><c> this</c><00:14:24.000><c> video</c><00:14:24.320><c> it's</c><00:14:24.480><c> the</c><00:14:24.560><c> first</c><00:14:24.880><c> episode</c>
+
+00:14:25.269 --> 00:14:25.279 align:start position:0%
+like this video it's the first episode
+ 
+
+00:14:25.279 --> 00:14:27.110 align:start position:0%
+like this video it's the first episode
+in<00:14:25.360><c> a</c><00:14:25.440><c> new</c><00:14:25.680><c> tutorial</c><00:14:26.079><c> series</c><00:14:26.399><c> i'm</c><00:14:26.480><c> working</c><00:14:26.800><c> on</c>
+
+00:14:27.110 --> 00:14:27.120 align:start position:0%
+in a new tutorial series i'm working on
+ 
+
+00:14:27.120 --> 00:14:28.790 align:start position:0%
+in a new tutorial series i'm working on
+called<00:14:27.519><c> virtual</c><00:14:27.920><c> cinematography</c><00:14:28.639><c> where</c>
+
+00:14:28.790 --> 00:14:28.800 align:start position:0%
+called virtual cinematography where
+ 
+
+00:14:28.800 --> 00:14:30.710 align:start position:0%
+called virtual cinematography where
+we'll<00:14:28.959><c> be</c><00:14:29.120><c> doing</c><00:14:29.600><c> virtual</c><00:14:29.920><c> cinematography</c>
+
+00:14:30.710 --> 00:14:30.720 align:start position:0%
+we'll be doing virtual cinematography
+ 
+
+00:14:30.720 --> 00:14:32.470 align:start position:0%
+we'll be doing virtual cinematography
+it's<00:14:30.880><c> a</c><00:14:30.959><c> topic</c><00:14:31.360><c> i'm</c><00:14:31.440><c> just</c><00:14:31.920><c> really</c><00:14:32.240><c> really</c>
+
+00:14:32.470 --> 00:14:32.480 align:start position:0%
+it's a topic i'm just really really
+ 
+
+00:14:32.480 --> 00:14:34.310 align:start position:0%
+it's a topic i'm just really really
+excited<00:14:32.800><c> about</c><00:14:33.279><c> the</c><00:14:33.440><c> next</c><00:14:33.680><c> episode</c><00:14:34.079><c> is</c><00:14:34.160><c> going</c>
+
+00:14:34.310 --> 00:14:34.320 align:start position:0%
+excited about the next episode is going
+ 
+
+00:14:34.320 --> 00:14:36.629 align:start position:0%
+excited about the next episode is going
+to<00:14:34.399><c> be</c><00:14:34.560><c> about</c><00:14:35.040><c> barrel</c><00:14:35.360><c> distortion</c><00:14:36.160><c> and</c><00:14:36.399><c> fish</c>
+
+00:14:36.629 --> 00:14:36.639 align:start position:0%
+to be about barrel distortion and fish
+ 
+
+00:14:36.639 --> 00:14:38.550 align:start position:0%
+to be about barrel distortion and fish
+eye<00:14:36.880><c> lenses</c><00:14:37.440><c> so</c><00:14:37.760><c> subscribe</c><00:14:38.160><c> if</c><00:14:38.320><c> you</c><00:14:38.399><c> want</c><00:14:38.480><c> to</c>
+
+00:14:38.550 --> 00:14:38.560 align:start position:0%
+eye lenses so subscribe if you want to
+ 
+
+00:14:38.560 --> 00:14:40.720 align:start position:0%
+eye lenses so subscribe if you want to
+see<00:14:38.720><c> that</c><00:14:39.199><c> thanks</c><00:14:39.360><c> for</c><00:14:39.519><c> watching</c>
+
+00:14:40.720 --> 00:14:40.730 align:start position:0%
+see that thanks for watching
+ 
+
+00:14:40.730 --> 00:14:55.590 align:start position:0%
+see that thanks for watching
+[Music]
+
+00:14:55.590 --> 00:14:55.600 align:start position:0%
+[Music]
+ 
+
+00:14:55.600 --> 00:14:57.680 align:start position:0%
+[Music]
+you
+

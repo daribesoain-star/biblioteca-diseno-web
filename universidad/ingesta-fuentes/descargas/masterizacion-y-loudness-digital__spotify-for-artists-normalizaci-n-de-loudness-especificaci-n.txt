@@ -1,0 +1,247 @@
+Normalización de intensidad en Spotify - Spotify
+Comienza a escribir en la sección Buscar y luego usa la tecla Tab para elegir una opción de la lista.
+¿No encuentras lo que estás buscando?
+Normalización de intensidad en Spotify
+El audio nos llega en diferentes niveles de volumen.
+Usamos la normalización de intensidad para equilibrar canciones con niveles suaves y fuertes y crear una experiencia de reproducción más consistente.
+Esto se aplica a todos los formatos de reproducción, incluido el audio sin pérdida de calidad.
+Importante:
+El reproductor web y los dispositivos de terceros (como televisores o altavoces) no usan la normalización de intensidad. El comportamiento de reproducción puede variar según tu dispositivo y si admite audio comprimido o sin pérdida de calidad.
+Cómo ajustamos la intensidad
+Ajustamos las canciones a
+-14 dB LUFS
+de acuerdo con el estándar ITU 1770.
+La normalización de intensidad se aplica durante la reproducción. Medimos los niveles de intensidad durante el proceso de carga, pero no procesamos ni cambiamos tus pistas de audio antes de reproducirlas.
+Normalizamos un álbum completo al mismo tiempo, por lo que la compensación de ganancia no cambia entre las pistas. Esto significa que las pistas más suaves mantendrán ese toque que buscabas.
+Ajustamos las canciones individuales cuando un álbum se reproduce en modo aleatorio o si se escuchan canciones de varios álbumes (como cuando se reproduce una playlist).
+Esta normalización se aplica a las reproducciones FLAC comprimida y sin pérdida de calidad para garantizar la consistencia.
+Ganancia positiva y negativa
+La compensación de ganancia positiva o negativa se aplica a una canción mientras esta se reproduce.
+La
+ganancia negativa
+se aplica a las masterizaciones más fuertes para que el nivel de intensidad esté aproximadamente a -14 dB LUFS. Esto solo disminuye el volumen en comparación con la masterización, no hay distorsión adicional.
+La
+ganancia positiva
+se aplica a las masterizaciones más suaves para que el nivel de intensidad esté a -14 dB LUFS. Tenemos en cuenta el margen dinámico de la pista y dejamos un 1 dB para codificaciones con pérdida de calidad para preservar la calidad del audio.
+Ejemplo:
+si el nivel de intensidad de una canción es de -20 dB LUFS y su pico real máximo es de -5 dB LUFS, solo elevamos la canción hasta -16 dB LUFS.
+Los oyentes de Premium pueden elegir los niveles de normalización de volumen
+Los oyentes del servicio Premium pueden elegir los niveles de reproducción en la configuración de la aplicación para compensar un entorno ruidoso o silencioso:
+Alto
+: -11 dB LUFS
+Importante:
+definimos este nivel independientemente del pico real máximo. Aplicamos un limitador para evitar distorsiones o cortes en pistas suaves y dinámicas. El limitador está configurado para que se active a -1 dB (valores de muestra), con un tiempo de ataque de 5 ms y un tiempo de decaimiento de 100 ms.
+Normal
+: -14 dB LUFS
+Bajo
+: -19 dB LUFS
+Esta configuración se aplica a todos los formatos de reproducción, incluido el formato sin pérdida de calidad.
+Consejos para la masterización
+La normalización de la intensidad significa que no siempre reproducimos tu canción al nivel en que se masterizó.
+Para optimizar la reproducción en Spotify:
+Trata de que el nivel de intensidad de tu masterización sea de
+-14 dB con LUFS integrado
+.
+Mantenlo por debajo de
+-1 dB TP (pico real) máx
+. Esta es la recomendación para
+formatos con pérdida de calidad
+(Ogg/Vorbis y AAC) y garantiza que no se genere distorsión adicional en el proceso de transcodificación.
+Si el volumen de la masterización es superior a -14 dB con LUFS integrado, mantén
+el pico real por debajo de -2 dB
+para evitar una distorsión adicional. Las canciones con mayor volumen son más susceptibles de tener una distorsión adicional cuando se codifican para la reproducción.
+Estas pautas también se aplican a las canciones que se envían para reproducción sin pérdida de calidad.
+Procesamos todos los archivos que se envían de forma interna para prepararlos para la reproducción comprimida y sin pérdida de calidad.
+Solo tienes que enviarnos una masterización estéreo de alta calidad por canción.
+Artículos relacionados
+¿La canción no se escucha al mismo volumen que las demás?
+Formatos de archivos de audio para Spotify
+Vuelve a subir música
+Cómo publicar música en Spotify
+¿Te resultó útil este artículo?
+Sí
+No
+Empezar a usar Spotify
+Cómo publicar música en Spotify
+Crear un perfil de artista en Spotify
+Cómo acceder a Spotify for Artists
+No puedo iniciar sesión
+Actualizaciones a la marca de verificación
+Administra tu perfil de artista
+Regalías
+Elegibilidad para la monetización de canciones
+Cómo publicar tu podcast en Spotify
+Administración del equipo
+Acceso e inicio de sesión
+Cómo acceder a Spotify for Artists
+No puedo iniciar sesión
+Invitar a miembros del equipo a Spotify for Artists
+Configuración de la verificación en dos pasos para Spotify for Artists
+Cambiar la configuración de la verificación en dos pasos para Spotify for Artists
+Problemas al iniciar sesión en Spotify for Artists con la verificación en dos pasos
+Cómo unirte a otro artista o sello discográfico en Spotify for Artists
+Niveles de acceso en Spotify for Artists
+Eliminar miembros del equipo de Spotify for Artists
+Equipos de sellos discográficos en Spotify for Artists
+Tu configuración
+Configurar tu país de facturación en Spotify for Artists
+Encontrar los recibos de las campañas de display
+Verificación de cuentas personales
+Cómo cambiar tu email comercial
+Cambiar idioma
+Ver tu listado de artistas y lanzamientos
+Faltan artistas o lanzamientos en el equipo del sello discográfico
+Configuración de notificaciones
+Configurar tu contacto de facturación en un email grupal
+Administrar las preferencias publicitarias de artista
+Perfil del artista
+Recomendado
+Crear un perfil de artista en Spotify
+Administrar tus imágenes de artista en Spotify
+Publica artículos de promoción de Shopify en Spotify
+Agregar conciertos a Spotify
+Verificado por Spotify
+Actualizaciones a la marca de verificación
+Publicar playlists del artista en tu perfil
+Imágenes y videos
+Music videos on Spotify
+Autorizaciones y derechos de publicación de videos musicales
+Administrar tus imágenes de artista en Spotify
+Requisitos para la portada
+Pautas de la Imagen del Artista
+Countdown videos
+Uploading videos in Spotify for Artists
+Conciertos
+Agregar conciertos a Spotify
+Conciertos que faltan en Spotify
+Artículos de promoción
+Conecta tu tienda de Shopify a Spotify for Artists
+Publica artículos de promoción de Shopify en Spotify
+Fijar y etiquetar artículos de promoción en tu perfil de Spotify
+Pautas para los artículos de promoción
+Elementos fijados, playlists y biografías
+Publicar playlists del artista en tu perfil
+SongDNA
+Apoyo de los fans
+Administrar tu Selección del artista
+Agregar una biografía a tu perfil de artista de Spotify
+Agregar enlaces de redes sociales a tu perfil de artista de Spotify
+Cómo obtener un enlace de Apoyo de los fans
+Datos del artista
+Acerca de esta canción
+Créditos de IA en Spotify
+Políticas de Apoyo de los fans
+Podcasts en tu perfil de artista
+Administra tu música
+Recomendado
+Cómo publicar música en Spotify
+Letras
+Música mezclada con la de otro artista
+Cómo agregar un Canvas
+Cómo solucionar problemas con metadatos de música
+Cambiar tu nombre de artista
+Protecting your Spotify artist profile
+Subir música
+Cómo publicar música en Spotify
+Crear un perfil de artista en Spotify
+Música sin publicar en Spotify for Artists
+Getting started with Countdown Pages on Spotify
+Vuelve a subir música
+Cómo publicar tu podcast en Spotify
+¿Tu música no está disponible el día del lanzamiento?
+Contenido prohibido
+Compilaciones
+Solucionar problemas con tu música
+Música mezclada con la de otro artista
+Encuentra tu URL de artista, canción y lanzamiento
+Cómo solucionar problemas con metadatos de música
+Cambiar tu nombre de artista
+Pautas de metadatos musicales
+A los fans también les gusta
+¿Hay canciones que no están visibles?
+¿No se muestra la actualización en Spotify?
+Revisa el estado de la música en Spotify
+Eliminar música
+Cómo eliminar tu música de Spotify
+Reportar música cargada sin tu permiso
+Contenido prohibido
+¿Se eliminó música de forma inesperada?
+¿Aún hay música disponible después del retiro?
+Música en la que se replique la voz de otro artista
+Canvas
+Cómo agregar un Canvas
+Los Canvas no se muestran en la aplicación de Spotify
+Pautas de Canvas
+Política de Contenido de Canvas
+Cómo contamos las visualizaciones de Canvas
+Composición y publicación
+Letras
+Créditos de canciones en los que se puede hacer clic en Spotify
+Songwriter Pages en Spotify
+Cómo enviar datos de editor a Spotify
+Spotify for Publishing
+Organizaciones de derechos de autor y sociedades de recaudación
+Calidad e intensidad del audio
+Normalización de intensidad en Spotify
+¿La canción no se escucha al mismo volumen que las demás?
+Audio sin pérdida de calidad
+Formatos de archivos de audio para Spotify
+Promoción y playlists
+Recomendado
+Promocionar música en Spotify
+Cómo presentar tu música a los editores de playlists
+Primeros pasos con las campañas de display
+Usar Discovery Mode en Spotify for Artists
+Tu música en el Radar de Novedades
+Promocionar y compartir tu música
+Promocionar música en Spotify
+Cómo presentar tu música a los editores de playlists
+Comparte tu música
+Reproducciones artificiales y servicios pagos de terceros que garantizan reproducciones
+Música sin publicar en Spotify for Artists
+Reproductores incrustados
+Clasificación de búsqueda de Spotify
+Cómo incluir tu música en la sección Novedades
+Playlists
+Cómo presentar tu música a los editores de playlists
+Tu música en el Radar de Novedades
+Tipos de playlists de Spotify
+Cómo ver las playlists a las que te agregaron
+Enlaces únicos para playlists personalizadas
+Viernes de lanzamientos
+Música funcional
+Marquee y Showcase
+Primeros pasos con las campañas de display
+Crear una campaña de display
+Dirígete a mercados para las campañas de display
+Objetivos de audiencia para campañas de display
+Previsión y presupuesto para las campañas de display
+Personalizar tu campaña de display
+Facturación y pagos para las campañas de display
+Configurar tu país de facturación en Spotify for Artists
+Encontrar los recibos de las campañas de display
+Hacer un seguimiento de los resultados de las campañas de display
+Editar o cancelar una campaña
+Discovery Mode
+Usar Discovery Mode en Spotify for Artists
+Elige la duración de tu campaña de Discovery Mode
+contextos de Discovery Mode
+Cómo entender el informe de rendimiento de Discovery Mode
+Canciones recomendadas para Discovery Mode
+Estadísticas de la audiencia
+Comprender las estadísticas de oyentes y seguidores
+Conteo de reproducciones en vivo
+Cómo contamos las reproducciones
+Charts
+Cuándo se actualizan las estadísticas en Spotify for Artists
+Cómo ver las playlists a las que te agregaron
+Exporta datos
+Comprender la interacción con el lanzamiento
+Segmentos de audiencia en Spotify
+Fuente de las reproducciones
+Zona horaria para las estadísticas en Spotify for Artists
+Cómo contamos el contenido guardado
+Cómo surgen las canciones populares
+Desde qué fecha se registran tus estadísticas
+Cómo contamos las visualizaciones de Canvas
+Faltan artistas o lanzamientos en el equipo del sello discográfico

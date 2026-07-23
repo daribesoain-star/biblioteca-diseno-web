@@ -1,0 +1,1045 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.000
+(Transcribed by TurboScribe.ai)
+
+00:00:01.000 --> 00:00:02.790
+Hey everyone, welcome to this video where we explore
+
+00:00:02.790 --> 00:00:06.130
+Runway, a complete creative toolkit that uses the power
+
+00:00:06.130 --> 00:00:09.376
+of AI to generate and edit both images and videos.
+
+00:00:09.690 --> 00:00:11.730
+You can access it directly through your browser for
+
+00:00:11.730 --> 00:00:14.650
+free, making it easy to start creating without installing
+
+00:00:14.650 --> 00:00:15.838
+any software.
+
+00:00:23.620 --> 00:00:26.120
+First of all, log in with your Runway account
+
+00:00:26.640 --> 00:00:29.720
+to access the homepage where you'll find several options
+
+00:00:29.720 --> 00:00:30.280
+on the right.
+
+00:00:31.280 --> 00:00:34.380
+On the left side, you'll see Sessions, which include
+
+00:00:34.380 --> 00:00:36.280
+all your projects in progress.
+
+00:00:37.400 --> 00:00:41.140
+Below that, under Assets, you'll find all files uploaded
+
+00:00:41.140 --> 00:00:43.160
+or generated inside Runway.
+
+00:00:44.120 --> 00:00:46.880
+Farther down, under Create, you'll get a list of
+
+00:00:46.880 --> 00:00:48.660
+all the AI generation tools.
+
+00:00:49.200 --> 00:00:51.880
+You can also go to All Tools to view
+
+00:00:51.880 --> 00:00:54.820
+the complete set of AI features available in Runway.
+
+00:00:56.160 --> 00:00:58.640
+To begin generating, you can either go to Start
+
+00:00:58.640 --> 00:01:01.100
+a Session in the bottom left corner, or use
+
+00:01:01.100 --> 00:01:03.280
+the chatbot located at the top of the homepage.
+
+00:01:03.920 --> 00:01:07.220
+For example, if we go to Start a Session,
+
+00:01:07.560 --> 00:01:10.120
+you can use this workspace or switch to Chat
+
+00:01:10.120 --> 00:01:12.480
+Mode at the top to return to the chatbot
+
+00:01:12.480 --> 00:01:13.680
+view we saw earlier.
+
+00:01:14.920 --> 00:01:16.520
+Let's start with chat mode.
+
+00:01:17.060 --> 00:01:19.560
+You can request an image, like a blonde horse
+
+00:01:19.560 --> 00:01:21.680
+running in the desert, or even a video.
+
+00:01:22.640 --> 00:01:25.360
+You can also upload images to use as references.
+
+00:01:26.320 --> 00:01:28.180
+To begin, click Ask on the right.
+
+00:01:28.720 --> 00:01:31.520
+Make sure your prompts are direct, clear, and free
+
+00:01:31.520 --> 00:01:33.200
+of loops or negative phrases.
+
+00:01:33.960 --> 00:01:37.880
+Always provide specific, straightforward details to guide the AI.
+
+00:01:38.780 --> 00:01:41.560
+The generation is powered by Runway's newest model,
+
+00:01:41.560 --> 00:01:43.960
+Gen-4, which we'll look at more closely later.
+
+00:01:44.880 --> 00:01:47.680
+Once the generation is complete, the AI will suggest
+
+00:01:47.680 --> 00:01:49.020
+several follow-up options.
+
+00:01:49.460 --> 00:01:51.460
+This is helpful if you're just starting with AI
+
+00:01:51.460 --> 00:01:53.720
+tools or don't yet know how to get the
+
+00:01:53.720 --> 00:01:54.840
+best results.
+
+00:01:54.940 --> 00:01:57.180
+For example, you can pick one of the suggestions,
+
+00:01:57.660 --> 00:02:00.320
+like option 1, to restyle the image and do
+
+00:02:00.320 --> 00:02:00.860
+a cartoon.
+
+00:02:02.620 --> 00:02:03.940
+And here's the result.
+
+00:02:05.500 --> 00:02:08.340
+We're still in Chat Mode, but we can switch
+
+00:02:08.340 --> 00:02:11.740
+to the standard session interface, also called Tool Mode,
+
+00:02:12.040 --> 00:02:13.620
+by clicking in the top left corner.
+
+00:02:14.380 --> 00:02:18.000
+This view is more advanced, ideal for users with
+
+00:02:18.000 --> 00:02:19.140
+some AI experience.
+
+00:02:19.700 --> 00:02:22.400
+On the left, you'll see all input controls to
+
+00:02:22.400 --> 00:02:23.600
+guide your next generation.
+
+00:02:24.120 --> 00:02:26.560
+And on the right, you'll find your past results
+
+00:02:26.560 --> 00:02:27.440
+from chat mode.
+
+00:02:28.260 --> 00:02:30.580
+In the top left, you can choose whether to
+
+00:02:30.580 --> 00:02:32.000
+generate an image or a video.
+
+00:02:32.560 --> 00:02:34.620
+For now, we'll stick with video generation.
+
+00:02:35.200 --> 00:02:38.155
+At the bottom, you can switch the AI model being used.
+
+00:02:38.540 --> 00:02:41.600
+Currently, Runway supports the latest Gen-4 model and
+
+00:02:41.600 --> 00:02:42.840
+the earlier Gen-3.
+
+00:02:43.360 --> 00:02:45.860
+Gen-1 and Gen-2 are no longer available
+
+00:02:45.860 --> 00:02:46.740
+in the newest version.
+
+00:02:47.590 --> 00:02:49.680
+So now, let's start generating a video.
+
+00:02:50.240 --> 00:02:53.260
+We will begin using Gen-4 Turbo, one of
+
+00:02:53.260 --> 00:02:54.940
+the best models for video generation.
+
+00:02:55.400 --> 00:02:59.240
+Great for live actions, VFX, and motion clips.
+
+00:02:59.660 --> 00:03:03.001
+It's especially useful if you need to animate simple images,
+
+00:03:03.001 --> 00:03:06.848
+or you don't need to create very complex  videos.
+
+00:03:07.140 --> 00:03:10.360
+This generation model requires an image to use as
+
+00:03:10.360 --> 00:03:11.011
+a reference.
+
+00:03:11.380 --> 00:03:14.075
+You can select one you own from the Assets folder.
+
+00:03:14.640 --> 00:03:17.360
+Or go to Create Image to generate one with
+
+00:03:17.360 --> 00:03:18.440
+AI right away.
+
+00:03:19.440 --> 00:03:21.660
+You can also use the last image you created
+
+00:03:21.660 --> 00:03:24.440
+by clicking on Input for Video in the bottom
+
+00:03:24.440 --> 00:03:25.849
+left corner.
+
+00:03:27.360 --> 00:03:29.220
+Then crop the reference image if needed.
+
+00:03:31.140 --> 00:03:33.420
+In the prompt box at the bottom, describe what
+
+00:03:33.420 --> 00:03:34.380
+you want in the video.
+
+00:03:35.000 --> 00:03:38.140
+For example, a blonde horse running with powerful movement.
+
+00:03:39.000 --> 00:03:42.240
+Here, describe the main subject, how it moves, its
+
+00:03:42.240 --> 00:03:45.380
+actions, any mood, and even camera movement.
+
+00:03:46.820 --> 00:03:50.060
+For example, camera tracks the horse while it runs,
+
+00:03:50.480 --> 00:03:51.760
+to follow the subject's motion.
+
+00:03:53.080 --> 00:03:56.780
+So, after defining the subject and camera movement, describe
+
+00:03:56.780 --> 00:03:58.020
+the scene or background.
+
+00:03:58.560 --> 00:04:02.440
+For example, the desert remains static, only sand dust
+
+00:04:02.440 --> 00:04:03.835
+rises behind.
+
+00:04:04.040 --> 00:04:05.520
+Then define the style.
+
+00:04:06.020 --> 00:04:08.080
+For example, cinematic or realistic.
+
+00:04:08.640 --> 00:04:11.980
+You can also choose cartoon, 3D animation, and more.
+
+00:04:12.760 --> 00:04:14.980
+You can find more guidance in the video description
+
+00:04:14.980 --> 00:04:17.640
+by checking the official documentation of Runway.
+
+00:04:18.500 --> 00:04:21.180
+Below the image preview, you'll find other options.
+
+00:04:21.720 --> 00:04:22.940
+For now, let's skip Act Two.
+
+00:04:23.040 --> 00:04:24.260
+We will explore it shortly.
+
+00:04:24.900 --> 00:04:27.380
+On the right, set the video aspect ratio.
+
+00:04:28.860 --> 00:04:31.280
+At the bottom, choose the total video length.
+
+00:04:31.580 --> 00:04:32.840
+Let's go with 5 seconds.
+
+00:04:33.400 --> 00:04:37.008
+Then click Generate to create the video using Gen-4 Turbo.
+
+00:04:37.960 --> 00:04:40.340
+The result will be in 720p resolution.
+
+00:04:40.740 --> 00:04:42.900
+Use the player below to preview the final video.
+
+00:04:43.940 --> 00:04:46.420
+At the top, you'll see the full generation info,
+
+00:04:46.880 --> 00:04:49.520
+the model used, the reference image, the full prompt,
+
+00:04:49.780 --> 00:04:51.160
+and other editable settings.
+
+00:04:54.120 --> 00:04:57.100
+At the bottom, you get additional tools, like restyling
+
+00:04:57.100 --> 00:04:59.780
+the video, using the current frame as a reference
+
+00:04:59.780 --> 00:05:02.680
+for another video, and other features we'll cover later.
+
+00:05:03.520 --> 00:05:06.820
+You can also download the video in 720p at
+
+00:05:06.820 --> 00:05:08.420
+24 frames per second.
+
+00:05:09.700 --> 00:05:13.180
+You can also upscale the video to 4K resolution
+
+00:05:13.180 --> 00:05:16.020
+by spending 10 credits with this 4K button.
+
+00:05:17.320 --> 00:05:20.838
+The copyright of any generated media is fully owned by you.
+
+00:05:21.260 --> 00:05:24.160
+Runway allows you to use these videos freely, including
+
+00:05:24.160 --> 00:05:25.300
+for commercial purposes.
+
+00:05:26.620 --> 00:05:28.460
+Each generation consumes credits.
+
+00:05:28.840 --> 00:05:32.446
+You'll start with 125 credits if you're using the free plan.
+
+00:05:32.680 --> 00:05:35.300
+And receive more depending on your subscription plan.
+
+00:05:35.920 --> 00:05:38.360
+Credits are used based on what you generate, either
+
+00:05:38.360 --> 00:05:40.760
+an image or a video, and on the model
+
+00:05:40.760 --> 00:05:42.120
+selected for the generation.
+
+00:05:42.760 --> 00:05:46.640
+Consider a subscription to receive monthly credits, remove watermarks,
+
+00:05:46.960 --> 00:05:50.220
+and unlock premium options like upscaling to 4K.
+
+00:05:51.580 --> 00:05:54.720
+Currently, Runway doesn't offer tools to increase the frame
+
+00:05:54.720 --> 00:05:57.560
+rate of videos, which remain fixed at 24 frames
+
+00:05:57.560 --> 00:05:58.841
+per second.
+
+00:05:58.920 --> 00:06:02.380
+If Gen-4 Turbo isn't enough, for more complex
+
+00:06:02.380 --> 00:06:05.200
+tasks, you can switch to Gen-4, the most
+
+00:06:05.200 --> 00:06:07.040
+powerful model available in Runway.
+
+00:06:07.520 --> 00:06:10.440
+This model is available with paid plans only and
+
+00:06:10.440 --> 00:06:14.012
+provides better consistency for characters and stronger
+
+00:06:14.012 --> 00:06:15.011
+alignment with reference images.
+
+00:06:15.940 --> 00:06:21.010
+So, for example, we can upload an image, and
+
+00:06:21.010 --> 00:06:23.130
+then define a prompt, which is optional.
+
+00:06:24.490 --> 00:06:27.530
+Set all the options below, such as aspect ratio
+
+00:06:27.530 --> 00:06:30.510
+and video duration, then click Generate.
+
+00:06:35.400 --> 00:06:37.600
+With Gen-4, you can use Runway Aleph to
+
+00:06:37.600 --> 00:06:39.940
+edit an existing video up to its first 5
+
+00:06:39.940 --> 00:06:43.640
+seconds, switch to Chat Mode to generate one from
+
+00:06:43.640 --> 00:06:45.860
+scratch, and get assistance from AI.
+
+00:06:46.660 --> 00:06:49.180
+Or go to Edit with Aleph to modify a
+
+00:06:49.180 --> 00:06:50.700
+generated video on the right.
+
+00:06:52.460 --> 00:06:55.080
+Describe how you want to edit the video, such
+
+00:06:55.080 --> 00:06:58.400
+as changing the camera angle, adjusting the lighting, switching
+
+00:06:58.400 --> 00:07:01.040
+the weather, or adding and removing details.
+
+00:07:01.920 --> 00:07:07.320
+Use simple instructions like Add, Remove, Change, or Replace.
+
+00:07:08.060 --> 00:07:11.020
+For example, let's replace the horse with a fire
+
+00:07:11.020 --> 00:07:13.480
+horse, then go to Generate.
+
+00:07:19.250 --> 00:07:20.990
+If you want, you can also add a reference
+
+00:07:20.990 --> 00:07:23.510
+image, by using the Upload button above to guide
+
+00:07:23.510 --> 00:07:24.850
+the editing more precisely.
+
+00:07:32.150 --> 00:07:34.330
+You can also switch to the older Gen-3
+
+00:07:34.330 --> 00:07:37.627
+Alpha Turbo to test things out while using fewer credits.
+
+00:07:38.150 --> 00:07:42.839
+This model offers extra control with more settings below.
+
+00:07:43.006 --> 00:07:45.210
+If we go to Text Prompt, we can define
+
+00:07:45.210 --> 00:07:47.610
+what we want to generate, supported by either an
+
+00:07:47.610 --> 00:07:49.430
+image or a video as reference.
+
+00:07:50.670 --> 00:07:54.147
+For example, let's upload this portrait image and crop it.
+
+00:07:58.680 --> 00:08:01.120
+Then, let's write a prompt to describe the video
+
+00:08:01.120 --> 00:08:03.400
+like we did during the Gen-4 generation.
+
+00:08:04.360 --> 00:08:06.260
+At the bottom, select the aspect ratio.
+
+00:08:06.600 --> 00:08:07.360
+We'll use Portrait.
+
+00:08:08.680 --> 00:08:11.660
+In Settings, recheck the aspect ratio and check the
+
+00:08:11.660 --> 00:08:14.040
+video resolution, which remains at 720p.
+
+00:08:15.320 --> 00:08:18.160
+Now, set the video length up to 10 seconds,
+
+00:08:18.160 --> 00:08:19.620
+and click Generate.
+
+00:08:20.760 --> 00:08:21.940
+Let's check the result.
+
+00:08:22.900 --> 00:08:25.840
+This complex prompt didn't work as expected because Gen-3
+
+00:08:25.840 --> 00:08:28.600
+is a simpler model, so we should switch
+
+00:08:28.600 --> 00:08:30.220
+to Gen-4 to get better results.
+
+00:08:31.039 --> 00:08:34.020
+You also have the Extend button here, which lets
+
+00:08:34.020 --> 00:08:36.545
+you add 8 more seconds by entering a new prompt.
+
+00:08:37.520 --> 00:08:41.700
+Other available options include upscaling to 4K and downloading
+
+00:08:41.700 --> 00:08:43.960
+the result, just like with Gen-4.
+
+00:08:44.980 --> 00:08:48.460
+You can also use keyframes to control video motion
+
+00:08:48.460 --> 00:08:51.460
+over time, keeping the same style as the first
+
+00:08:51.460 --> 00:08:52.460
+keyframe you've added.
+
+00:08:53.000 --> 00:08:55.680
+You define one image as the first keyframe and
+
+00:08:55.680 --> 00:08:56.980
+then add two more if you want.
+
+00:08:58.560 --> 00:09:01.500
+For example, a central keyframe and a final one
+
+00:09:01.500 --> 00:09:03.000
+to end the generated video.
+
+00:09:06.310 --> 00:09:07.710
+Let's update the prompt description.
+
+00:09:08.570 --> 00:09:11.410
+Then, switch to Camera Control at the bottom to
+
+00:09:11.410 --> 00:09:12.730
+also manage camera movement.
+
+00:09:13.310 --> 00:09:16.170
+For example, add effects like panning or tilting.
+
+00:09:16.630 --> 00:09:19.530
+These camera settings apply to the entire video, not
+
+00:09:19.530 --> 00:09:22.350
+just a single keyframe, even if the preview shows
+
+00:09:22.350 --> 00:09:23.450
+only one at the top.
+
+00:09:25.910 --> 00:09:28.530
+You can also describe camera movement directly in the
+
+00:09:28.530 --> 00:09:29.835
+text prompt.
+
+00:09:30.270 --> 00:09:32.310
+Now, hit Generate to see the result.
+
+00:09:35.730 --> 00:09:38.650
+Sometimes the generation may jump to the last keyframe
+
+00:09:38.650 --> 00:09:41.530
+too quickly if it looks very different from the
+
+00:09:41.530 --> 00:09:45.070
+others, so try using keyframes with similar content to
+
+00:09:45.070 --> 00:09:46.050
+keep results smooth.
+
+00:09:47.130 --> 00:09:49.790
+At the bottom, you also have the Act One
+
+00:09:49.790 --> 00:09:52.270
+option, which we'll explore later in this video.
+
+00:09:52.850 --> 00:09:55.130
+You'll also find the Expand feature, which lets you
+
+00:09:55.130 --> 00:09:57.270
+change the aspect ratio of any video.
+
+00:09:58.210 --> 00:10:00.890
+For example, you can pick a video above or select
+
+00:10:00.890 --> 00:10:04.757
+the latest one under Actions, then click Expand Video.
+
+00:10:05.510 --> 00:10:07.950
+In this case, we have a portrait layout, so
+
+00:10:07.950 --> 00:10:09.350
+let's convert it to landscape.
+
+00:10:10.390 --> 00:10:13.030
+You'll see the change from here to here.
+
+00:10:18.100 --> 00:10:20.660
+If Gen-3 Alpha Turbo doesn't meet your needs,
+
+00:10:20.800 --> 00:10:23.220
+you can switch to Gen-3 Alpha, which offers
+
+00:10:23.220 --> 00:10:23.980
+higher precision.
+
+00:10:23.980 --> 00:10:26.700
+It's more affordable than the Gen-4 model and
+
+00:10:26.700 --> 00:10:28.680
+is only available with a paid plan.
+
+00:10:29.340 --> 00:10:31.860
+Unlike Gen-3 Alpha Turbo, this model lets you
+
+00:10:31.860 --> 00:10:34.320
+generate a video using just a text prompt.
+
+00:10:34.920 --> 00:10:37.820
+You can optionally add an image or video as
+
+00:10:37.820 --> 00:10:39.260
+reference for extra detail.
+
+00:10:40.420 --> 00:10:43.120
+Just like Gen-4, Gen-3 Alpha performs better
+
+00:10:43.120 --> 00:10:46.640
+with detailed prompts, especially when you don't use a
+
+00:10:46.640 --> 00:10:49.620
+reference image, so your text needs to fully guide
+
+00:10:49.620 --> 00:10:50.836
+the output.
+
+00:10:55.410 --> 00:10:57.670
+You can also insert an image as a reference.
+
+00:11:00.550 --> 00:11:03.475
+And use it either as the first or last keyframe.
+
+00:11:04.210 --> 00:11:06.656
+This is great for adding motion to a static image.
+
+00:11:08.230 --> 00:11:10.970
+Now, let's see how to generate images with Runway.
+
+00:11:11.390 --> 00:11:13.630
+Just switch to Image from the top left corner.
+
+00:11:14.130 --> 00:11:17.514
+To make these images, Runway uses the ultimate Gen-4 model.
+
+00:11:18.270 --> 00:11:20.690
+You can use this feature to create characters or
+
+00:11:20.690 --> 00:11:24.790
+impressive landscapes, even complex ones, before moving on to
+
+00:11:24.790 --> 00:11:25.570
+generate a video.
+
+00:11:26.310 --> 00:11:28.870
+At the top, type a prompt describing what you
+
+00:11:28.870 --> 00:11:33.570
+want, include the subject, actions, background, colors, and of
+
+00:11:33.570 --> 00:11:34.530
+course, the style.
+
+00:11:35.130 --> 00:11:37.570
+At the bottom, if you don't use any reference,
+
+00:11:37.850 --> 00:11:40.650
+you can pick any style template to apply, like
+
+00:11:40.650 --> 00:11:42.170
+Vivid or High Contrast.
+
+00:11:43.030 --> 00:11:45.890
+Set the aspect ratio, the number of image variations
+
+00:11:45.890 --> 00:11:50.110
+to create, and also the resolution, between 720p or
+
+00:11:50.110 --> 00:11:51.003
+1080p.
+
+00:11:51.710 --> 00:11:54.950
+For more complex outputs, you can add image references
+
+00:11:54.950 --> 00:11:56.270
+by clicking right here.
+
+00:11:57.450 --> 00:12:00.270
+Under References, you can upload any image you have.
+
+00:12:00.910 --> 00:12:02.490
+For example, let's upload this one.
+
+00:12:05.330 --> 00:12:08.310
+Then, we can add two more, like a jaguar
+
+00:12:08.310 --> 00:12:10.250
+fur pattern and a specific landscape.
+
+00:12:11.770 --> 00:12:14.050
+You can also give each reference a name for
+
+00:12:14.050 --> 00:12:16.270
+more precise control when writing the prompt.
+
+00:12:16.650 --> 00:12:20.290
+For example, name this one 'Lion', this one 'Jaguar
+
+00:12:20.290 --> 00:12:22.630
+Pattern', and this one 'Vulcan'.
+
+00:12:23.350 --> 00:12:25.950
+Then, in the prompt, use the @ symbol to
+
+00:12:25.950 --> 00:12:27.910
+refer to any of these specifically.
+
+00:12:28.350 --> 00:12:30.410
+Like selecting the Lion as the main subject.
+
+00:12:31.430 --> 00:12:34.834
+We can describe its skin by adding @JaguarPattern
+
+00:12:34.834 --> 00:12:38.650
+as skin and define the environment by using
+
+00:12:38.650 --> 00:12:39.590
+the Vulcan reference.
+
+00:12:40.930 --> 00:12:42.130
+This looks really good.
+
+00:12:42.650 --> 00:12:45.990
+If the results don't match your expectations, consider adding
+
+00:12:45.990 --> 00:12:49.630
+more detail from the image references by using the
+
+00:12:49.630 --> 00:12:50.650
+Generate Prompt feature.
+
+00:12:51.810 --> 00:12:54.430
+Now, this image becomes the reference for the next
+
+00:12:54.430 --> 00:12:55.370
+video we'll create.
+
+00:12:56.110 --> 00:12:58.170
+So go back to Video from the top left,
+
+00:12:58.590 --> 00:13:03.250
+clear any previous references and prompts, and select this
+
+00:13:03.250 --> 00:13:05.310
+new image under Input for Video.
+
+00:13:06.390 --> 00:13:09.010
+Since this is a complex image with specific features
+
+00:13:09.010 --> 00:13:11.430
+like the jaguar fur, it's better to switch to
+
+00:13:11.430 --> 00:13:15.070
+the Gen-4 model, which ensures the subject stays consistent.
+
+00:13:15.790 --> 00:13:17.830
+Now start describing what's going to happen.
+
+00:13:18.210 --> 00:13:22.090
+Include the subject, its actions, the camera motion, the
+
+00:13:22.090 --> 00:13:23.510
+scene, and the style.
+
+00:13:24.270 --> 00:13:25.710
+Then click Generate.
+
+00:13:30.020 --> 00:13:32.220
+This shows how the video generation can be very
+
+00:13:32.220 --> 00:13:34.900
+precise even when using a complex reference image.
+
+00:13:35.700 --> 00:13:37.740
+You can download any image you generate with the
+
+00:13:37.740 --> 00:13:39.140
+button in the bottom right corner.
+
+00:13:40.040 --> 00:13:43.020
+Then, back on the home page, among the tools
+
+00:13:43.020 --> 00:13:45.960
+list, you can go to Upscale Image to upload
+
+00:13:45.960 --> 00:13:50.680
+the image you just created and upscale its resolution
+
+00:13:50.680 --> 00:13:54.360
+up to HD, 2K, or even 4K.
+
+00:13:55.000 --> 00:13:57.980
+Keep in mind that video generations will always stay
+
+00:13:57.980 --> 00:14:01.160
+at 720p, even if you use a 4K image
+
+00:14:01.160 --> 00:14:02.013
+as a reference.
+
+00:14:02.860 --> 00:14:05.860
+This image generator is very useful for creating consistent
+
+00:14:05.860 --> 00:14:09.060
+characters and videos thanks to the references and the
+
+00:14:09.060 --> 00:14:10.380
+@ symbols you can use.
+
+00:14:11.040 --> 00:14:14.060
+You can select the images again, update the prompt,
+
+00:14:17.430 --> 00:14:19.850
+and generate a new image while keeping the character
+
+00:14:19.850 --> 00:14:20.847
+consistent.
+
+00:14:20.890 --> 00:14:21.850
+And here it is.
+
+00:14:22.270 --> 00:14:23.210
+This is the result.
+
+00:14:24.150 --> 00:14:27.910
+On the video generation session, switch to Act Two
+
+00:14:27.910 --> 00:14:29.630
+at the bottom if you want to provide a
+
+00:14:29.630 --> 00:14:31.630
+video reference for your character to follow.
+
+00:14:32.610 --> 00:14:35.270
+You can either record yourself or upload a video
+
+00:14:35.270 --> 00:14:39.182
+to capture gestures of the face, hands, and full body.
+
+00:14:40.090 --> 00:14:44.961
+'No, no, no. Understood?'
+
+00:14:45.850 --> 00:14:49.070
+Just below, upload your character, which can be either
+
+00:14:49.070 --> 00:14:52.330
+an image or a video, for example, a lion.
+
+00:14:53.370 --> 00:14:58.570
+Set the options including aspect ratio, expressiveness,
+
+00:14:58.570 --> 00:15:00.630
+and whether to transfer gestures from the reference.
+
+00:15:02.150 --> 00:15:04.850
+The output video will last as long as the
+
+00:15:04.850 --> 00:15:06.030
+reference video provided.
+
+00:15:09.200 --> 00:15:13.987
+'No, no, no. Understood?'
+
+00:15:14.740 --> 00:15:17.300
+If you only need facial expressions, you can switch
+
+00:15:17.300 --> 00:15:20.465
+to Gen-3 Alpha Turbo and use Act One instead.
+
+00:15:20.980 --> 00:15:23.160
+Keep in mind it will depreciate in the future.
+
+00:15:23.640 --> 00:15:26.000
+To learn more about Act One, check our previous
+
+00:15:26.000 --> 00:15:27.040
+tutorial on Runway.
+
+00:15:28.280 --> 00:15:30.820
+If you need to add a voice, open Generative
+
+00:15:30.820 --> 00:15:33.100
+Audio and go to Lip Sync Video.
+
+00:15:33.940 --> 00:15:36.560
+Import the video of your character or pick any
+
+00:15:36.560 --> 00:15:37.860
+template available in Runway.
+
+00:15:38.620 --> 00:15:41.260
+This will be analyzed to detect faces, though it
+
+00:15:41.260 --> 00:15:42.780
+mainly works on human faces.
+
+00:15:43.880 --> 00:15:46.580
+At this point, upload any audio file or simply
+
+00:15:46.580 --> 00:15:48.000
+type the text you want spoken.
+
+00:15:48.720 --> 00:15:51.140
+Choose a voice by clicking on the microphone button.
+
+00:15:51.720 --> 00:15:53.840
+'I'd like to tell you a story.'
+
+00:15:54.020 --> 00:15:56.100
+Then hit Generate to get the final result.
+
+00:15:57.040 --> 00:15:58.560
+'Welcome to this new world of AI.'
+
+00:16:00.320 --> 00:16:02.040
+Now let's see the sketch feature.
+
+00:16:02.500 --> 00:16:04.560
+Let's use a simple tree as the image reference.
+
+00:16:05.680 --> 00:16:07.500
+Give it a name, as we did with the
+
+00:16:07.500 --> 00:16:10.824
+lion, and then click the brush button to add a sketch.
+
+00:16:12.020 --> 00:16:14.900
+At the bottom, you'll find tools to draw simple
+
+00:16:14.900 --> 00:16:17.120
+shapes or paint directly on the image.
+
+00:16:17.680 --> 00:16:19.940
+For example, let's draw a cracked ground.
+
+00:16:19.940 --> 00:16:23.000
+If you pick a wrong color, use CTRL or
+
+00:16:23.000 --> 00:16:25.620
+CMD and Z to undo your action.
+
+00:16:26.780 --> 00:16:29.420
+And retry by changing the stroke color to black.
+
+00:16:32.100 --> 00:16:34.680
+When ready, go to Export Sketch to use this
+
+00:16:34.680 --> 00:16:36.000
+reference along with a prompt.
+
+00:16:37.300 --> 00:16:40.540
+After sketching, update the name, add a supporting prompt,
+
+00:16:41.280 --> 00:16:42.500
+and click Generate.
+
+00:16:42.900 --> 00:16:44.014
+Here's the result.
+
+00:16:45.560 --> 00:16:47.600
+You can also ask the Gen-4 model to
+
+00:16:47.600 --> 00:16:49.240
+remove the background from an image.
+
+00:16:50.520 --> 00:16:54.320
+Another option is to apply very specific modifications to
+
+00:16:54.320 --> 00:16:55.560
+parts of the reference image.
+
+00:16:56.160 --> 00:16:58.940
+For example, go to Sketch, choose a color that
+
+00:16:58.940 --> 00:17:02.100
+stands out, like pink, and tell the AI to
+
+00:17:02.100 --> 00:17:02.960
+pull down a branch.
+
+00:17:03.619 --> 00:17:05.740
+Draw a simple arrow and add a label for
+
+00:17:05.740 --> 00:17:07.380
+additional clarity of how to edit.
+
+00:17:11.560 --> 00:17:15.140
+Then go to Export Sketch and either generate as-is
+
+00:17:15.140 --> 00:17:17.060
+or support it with a prompt.
+
+00:17:18.200 --> 00:17:20.000
+This is the result of the generation.
+
+00:17:20.859 --> 00:17:24.160
+The same Sketch tool can create interesting camera shots.
+
+00:17:26.369 --> 00:17:27.369
+Thanks for watching this video!
+
+00:17:27.730 --> 00:17:29.770
+Make sure to visit our YouTube channel and our
+
+00:17:29.770 --> 00:17:32.690
+official website to discover more tips and free guides
+
+00:17:32.690 --> 00:17:34.590
+on artificial intelligence platforms!
+

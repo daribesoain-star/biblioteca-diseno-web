@@ -1,0 +1,241 @@
+URL_FUENTE: https://baymard.com/blog/ecommerce-checkout-usability-report-and-benchmark
+Reasons for Cart Abandonment – Why 70% of Do So – Baymard Baymard Institute Product
+Research-Backed UX Insights
+200,000+ hours of UX research
+UX Best Practice Guidelines
+Over 700 UX Guidelines
+UX-Ray 2.0
+beta
+Identify Your Biggest UX Opportunities
+UX Design Examples
+18,000+ Structured Design Examples
+UX Benchmarking
+Measure and Compare Your UX Performance
+Why Baymard?
+UX-Query
+Figma Plugin
+new
+Review Tool
+Personalized Research
+Solutions
+Apply UX Best Practice
+Design with confidence
+Expert Audit Service
+Find conversion blockers
+Justify UX Decisions
+Win stakeholder buy-in
+Grow UX Expertise
+Professional training & certification
+Compare your UX
+Benchmark against competitors
+Clients & Testimonials
+Why our users love Baymard
+Industries
+B2C Retail :
+Direct-to-Consumer ,
+Luxury Goods ,
+Apparel & Accessories ,
+Footwear ,
+Jewelry & Watches ,
+Eyewear ,
+Home & Hardware ,
+Electronics & Office ,
+Mass Merchant ,
+Furniture & Home Decor ,
+Health & Beauty ,
+Sports Gear & Equipment ,
+Vitamins & Supplements ,
+Automotive Parts ,
+Toys, Crafts & Hobbies ,
+Merchandise & Print-to-Order ,
+Pet Food & Care ,
+Video Games ,
+Educational Reading & Books
+Subscriptions & Services :
+Digital Subscriptions & SaaS ,
+Telco ,
+ISP ,
+Insurance ,
+Online Learning
+Travel & Accommodation :
+Travel Accommodations ,
+Travel Tours & Experience Booking ,
+Flight Booking & Airlines
+B2B :
+Components & Machinery ,
+Medical & Pharma ,
+B2B Ecommerce ,
+Digital Subscriptions & SaaS ,
+Merchandise & Print-to-Order
+Food & Consumables :
+Online Grocery ,
+Food Delivery & Takeout ,
+Beverages ,
+Meal Kits ,
+Consumables Subscriptions ,
+Vitamins & Supplements
+Benchmark Your UX Performance
+How does your UX performance stack up against industry leaders and competitors?
+UX Audit
+Resources
+Free UX Research
+UX Articles
+450+ free UX articles based on large-scale research
+Benchmarks
+330+ top sites ranked by UX performance
+UX Design Examples
+18,000+ annotated designs for systematic inspiration
+Resources
+Code samples, demos, and key stats for usability
+Search for Research and Resources Company
+About
+Testimonials
+Methodology
+Jobs
+Speaking
+Pricing
+Log In
+Contact Sales
+Sign Up for Free
+Baymard Institute Navigation
+Free UX Research
+UX Articles
+Reasons for Cart Abandonment – Why 70% of Users Abandon Their Cart (2025 data)
+UX Articles Reasons for Cart Abandonment – Why 70% of Users Abandon Their Cart (2025 data)
+Christian Holst
+Research Director and Co-Founder
+Updated Feb 2, 2025 , Published Sep 21, 2016
+We have now tracked the global average cart abandonment rate for 13 years. Sadly, little has improved in those years, and the average cart abandonment rate currently sits at 70.19%. Stop for a second to consider that: after having gone through the trouble of finding a product and adding it to their cart, a whopping 2 out of 3 users choose to abandon their purchase.
+We’re therefore launching a completely revised version of our Checkout Usability study. This new usability study is the result of 7 years worth of e-commerce checkout research – testing live production sites of major brands with real end-users – to figure out why those 68.8% of shopping carts are abandoned, and what e-commerce sites can do to improve this abysmal statistic.
+The findings in the study are based on qualitative usability testing with 272 test subject / site sessions following the “Think Aloud” protocol (1:1 moderated testing), a large-scale eye-tracking study of checkout flows, two rounds of checkout benchmarking more than 850 checkout steps, and nine quantitative studies with a total of 11,777 participants across.
+Despite testing leading e-commerce sites, the subjects encountered 2,700+ instances of checkout usability issues. It’s these hiccups that, along with the quantitative data, have been analyzed and distilled into the 134 checkout usability guidelines that constitute the backbone of this study.
+Why Users Abandon (Updated in 2025)
+Now in all fairness, a large portion of cart abandonments are simply a natural consequence of how users browse e-commerce sites – it is users doing window shopping, price comparison, saving items for later, exploring gift options, etc. These are largely unavoidable cart abandonments.
+In fact, our latest quantitative study of reasons for cart abandonment finds that 42% of US online shoppers have abandoned a cart within the last 3 months because “I was just browsing / not ready to buy” ( #GC050 ). Naturally, this segment of users is almost impossible to reduce through a better checkout design – most of these will abandon even before they initiate the checkout flow. However, if we segment out this “just browsing” segment, and instead look at the remaining reasons for abandonments we get the following distribution:
+Unlike the “just browsing” segment, a lot of these issues can be resolved. In fact, many of them can be fixed purely through design changes . Let’s take a look at just one example from the new checkout study:
+In the above quantitative study we find that 17% of US online shoppers say they have abandoned an order in the past quarter due to a “too long / complicated checkout process” ( #GC050 ).
+Now, the qualitative 1:1 moderated usability testing and eye-tracking research of the checkout study shows that an ideal checkout flow can be reduced to as little as 12 form elements (7 form fields, 2 checkboxes, 2 drop-downs, and 1 radio button interface).
+Yet our benchmark database reveals that the average US checkout flow contains 23.48 form elements displayed to users by default. (14.88 if only counting form fields.)
+In other words, nearly 1 out of 5 shoppers have abandoned a cart in the last quarter due to a “too long / complicated checkout process” , yet for most checkouts it’s possible to make a 20-60% reduction in the default number of form elements shown to users during checkout. And again, this is just one of many examples of causes for checkout abandonments.
+So while a 0% cart abandonment rate might be unattainable, we can certainly do better than 70.19%. But how much better? Well, our research suggests the average e-commerce site can improve its conversion rate by 35% solely through design improvements to the checkout process.
+35% Average Conversion Rate Increase From Better Checkout Design
+If we focus exclusively on the checkout usability issues which we – during multiple rounds of large-scale checkout usability testing – have documented can be fixed by checkout design improvements alone , then the average large-sized e-commerce site can gain a 35.26% increase in conversion rate. And that is despite this figure being based on the checkout flows of leading e-commerce sites, such as Walmart, Amazon, Wayfair, Crate & Barrel, ASOS, etc.
+Now, achieving such gains won’t come easy. But even when we audit leading Fortune 500 companies, who’ve already run a couple of checkout optimization projects, we find that major gains are still possible. And the potential is big: our benchmark of 50 leading e-commerce sites reveal that the checkout flows of large e-commerce sites on average have 39 potential areas for improvements.
+Yet don’t be discouraged if you don’t have the resources of a Fortune 500 site – the vast majority of the checkout changes in this report are related to page layout, addition of simple form features, and improving microcopy, and thus don’t require advanced technical implementation or deep pockets. Indeed, we find small online retailers just as capable of crafting great checkout experiences, if they stay nimble and focused.
+During the past 13 years of testing e-commerce sites we’ve consistently found that the design and flow of the checkout process is frequently the sole cause for abandonments. Either because users grow so infuriated with the site that they leave in anger, or because they get stuck on how to complete one or more fields and end up having no other option than to leave.
+Over the next couple of months we’ll dive deeper into our findings from the usability research study in a series of articles on checkout usability. In the meantime consider taking a look at the just-released checkout UX performance and ranking of 60 major e-commerce sites . In the free and public part of the benchmark database you can also browse the 380 manually reviewed checkout steps , by “step type” for checkout inspiration. (We’ve also published a collection of simple, research-based actions found to improve conversion rate for e-commerce .)
+As with all of our research studies, the checkout usability study includes an exhaustive usability report along with an integrated benchmark database. The report is 718 pages long, and outlines 134 design guidelines on how to improve checkout usability (and thus lower cart abandonments). The benchmark database is based on more than 6,000 manually reviewed checkout elements and contains 60 case studies of major e-commerce sites and 380 annotated checkout steps.
+You can learn more about getting full access to the study at: baymard.com/research/checkout-usability
+This article presents the research findings from just 1 of the 700+ UX guidelines in Baymard – get full access to learn how to create a “State of the Art” ecommerce user experience.
+Christian Holst
+Research Director and Co-Founder
+Updated Feb 2, 2025 , Published Sep 21, 2016
+Christian is the research director and co-founder of Baymard. Christian oversees all UX research activities at Baymard. His areas of specialization within ecommerce UX are: Checkout, Form Field, Search, Mobile web, and Product Listings. Christian is also an avid speaker at UX and CRO conferences.
+If you have any comments on this article you can leave them on LinkedIn
+Share:
+Related Articles
+Checkout UX 2025: 10 Pitfalls and Best Practices
+Popular
+Checkout Optimization: From 16 Form Fields to 8 Fields (keynote presentation)
+Popular
+Use “Delivery Date” Not “Shipping Speed” (41% Don’t) — From UX Research to Implementation Roadmap
+The ‘Credit Card Number’ Field Must Allow and Auto-Format Spaces (80% Don’t)
+Popular
+Format the “Expiration Date” Fields Exactly the Same as the Physical Credit Card (72% Don’t)
+Popular
+See all 70 ‘ Cart & Checkout ’ articles
+User Experience Research, Delivered Weekly
+Join 60,000+ UX professionals and get a new UX article every week.
+Loading...
+Improve your UX with proven, research-backed best practices
+Make best-in-class design decisions and improve conversions with validated, industry-specific UX research and benchmarks.
+GET STARTED FOR FREE BOOK A DEMO CALL
+Baymard’s UX research is used by 29,000+ UX professionals and by 71% of all Fortune 500 ecommerce companies
+Free UX Research
+UX Articles Read 300+ free, indepth best practice articles based on Baymard's deep UX research findings.
+Benchmarks Case studies of 334 top ecommerce sites. Ranked using 275,000+ UX performance scores.
+UX Design Examples Over 18,000 annotated ecommerce UX design examples to inspire your next project.
+Resources Abandonment stats, credit card patterns, code samples, and demos, for usability.
+Product
+UX Audit Service Get an in-depth UX audit of your site
+UX-Ray 2.0 BETA Identify your biggest UX opportunities
+UX-Query AI-powered UX research assistant
+Figma Plugin NEW Research-backed UX best practices in Figma
+Review Tool Expert UX review of your designs
+Personalized Research Custom UX research for your needs
+Training & UX Certification Learn UX best practices
+Use Cases
+Industry :
+Apparel & Accessories
+Business-to-Business
+Electronics & Office
+Health & Beauty
+Home & Hardware
+Furniture & Home Decor
+Luxury Goods
+Mass Merchant
+Sports Gear & Equipment
+Toys, Crafts & Hobbies
+Pet Food & Care
+Direct-to-Consumer
+Telco
+Internet Service Providers
+Automotive Parts & Specialty
+Insurance
+Vitamins & Supplements
+B2B Medical & Pharma
+B2B Electronic Components & Machinery
+Online Grocery
+Beverages
+Meal Kits
+Consumable Subscriptions
+Food Delivery & Takeout
+Travel Accommodations
+Travel Tours & Experience Booking
+Digital Subscriptions & SaaS
+Flight Booking & Airlines
+Merchandise & Print-to-Order
+Online Learning
+Video Games
+Educational Reading & Books
+Footwear
+Jewelry & Watches
+Eyewear
+Theme :
+Homepage & Category
+On-Site Search
+Accessibility
+Product List
+Product Page
+Cart & Checkout
+Accounts & Self-Service
+Mobile Web
+Mobile App
+UX Training :
+UX Training for Your Team
+600+ UX Certificants
+UX Certification
+Company :
+About
+Testimonials
+Our Methodology
+Jobs
+Speaking
+Support :
+Privacy Policy
+Terms & Conditions
+Roadmap & Changelog
+Resources :
+Cart Abandonment Stats
+Credit Card Patterns
+UX Basics
+Subscribe to Free UX Articles
+Loading...
+Delivered weekly, ad-free full-length research articles, 1-click unsubscribe at any time
+US: +1 (315) 216-7151
+EU: +45 88 10 85 58
+info@baymard.com
+© Baymard Institute 2026 US: +1 (315) 216-7151
+EU: +45 88 10 85 58
+info@baymard.com
+Follow us on Instagram X (Twitter) LinkedIn

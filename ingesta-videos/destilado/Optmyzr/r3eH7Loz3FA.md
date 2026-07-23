@@ -1,0 +1,32 @@
+# What's the future of the 'keyword'? feat. @savvyrevenue and @the_google_pro
+**Fuente:** Optmyzr | https://youtu.be/r3eH7Loz3FA
+
+## Qué enseña (2-3 líneas)
+Explica los cambios recientes de Google Ads en los tipos de concordancia de palabras clave: las negativas ahora capturan automáticamente errores ortográficos y variaciones, las campañas nuevas tienen concordancia amplia por defecto, y se introducen inclusiones/exclusiones de marca. Los expertos debaten cómo estos cambios obligan a los anunciantes a pasar de una obsesión por palabras clave exactas a un enfoque en "temas de búsqueda" (search themes) y creatividades publicitarias de alta calidad.
+
+## Lecciones accionables
+- **Usa una sola palabra clave negativa en lugar de 20 variaciones**: Ya no necesitas añadir "silla de ruedas", "silla de ruedas" (separado), "silladeruedas", singular, plural, etc. Google ahora captura automáticamente errores ortográficos y variaciones de una sola palabra clave negativa.
+- **Configura campañas como "temas de búsqueda" (search themes)**: En lugar de crear un grupo de anuncios por cada variación de palabra clave (ej: "traje de baño niños", "traje de baño para niños", "traje de baño infantil"), agrupa por tema: "traje de baño niños", "traje de baño adultos", "traje de baño para buceo". Esto reduce drásticamente el número de grupos de anuncios (ej: de 90 a 4) y permite escribir mejores anuncios.
+- **Escribe los anuncios en un día diferente al de la estructura de campaña**: No intentes crear la estructura de palabras clave y redactar los anuncios el mismo día. Crea la campaña el día 1 y escribe los anuncios el día 2 o 7 para obtener una calidad de redacción significativamente mejor.
+- **Usa un prompt de 3 pasos para que la IA genere mejores anuncios**: Pídele a la IA que primero genere 3 preguntas sobre tu negocio (ej: "¿Qué te hace único?", "¿Por qué empezaste tu negocio?"), responde cada una en una oración, y luego usa esas respuestas como contexto para que la IA redacte los anuncios.
+- **Para cuentas con bajo volumen**: Si más del 50% del gasto va a "otros términos de búsqueda", cambia los tipos de concordancia, añade más negativas y ajusta la estrategia de puja hasta que menos del 10% de los términos estén ocultos. Esto es una señal de que algo anda mal en la estructura.
+- **Prueba si debes pujar por tu marca**: Evalúa 3 factores: 1) ¿Cuánta competencia tienes en tu término de marca? 2) ¿Es tu marca un término de funnel medio (la gente ya conoce tu marca) o de funnel bajo? 3) ¿Cuánto presupuesto tienes? Si pujar por tu marca consume la mitad de tu presupuesto sin generar valor incremental, no lo hagas. Si hay competidores pujando por tu marca (ej: Amazon), defiéndela.
+- **Para Performance Max**: Si todas las conversiones vienen de términos de marca, excluye la marca de PMax. El CPA subirá, pero empezarás a captar tráfico nuevo. Si PMax ya está captando tráfico nuevo, no excluyas la marca.
+
+## Reglas para agentes
+- **Usa concordancia amplia como "tema de búsqueda"**, no como palabra clave exacta. Trata cada palabra clave amplia como un tema que agrupa intenciones similares, no como una cadena de texto literal.
+- **Nunca asumas que la concordancia exacta es realmente exacta**. La concordancia exacta hoy es tan amplia como la concordancia amplia de hace 5 años. Siempre monitorea los términos de búsqueda reales.
+- **Cuando añadas una palabra clave negativa, verifica que no entre en conflicto con palabras clave positivas**. Ejemplo: si excluyes "Optimizer" (tu marca), Google podría expandirlo a "optimización" (término genérico positivo) y bloquear tráfico deseado.
+- **Si usas la nueva configuración de "palabras clave de concordancia amplia" en campañas existentes**, verifica inmediatamente los tipos de concordancia después de guardar. Todos los keywords se convertirán a concordancia amplia sin previo aviso.
+- **Para campañas de marca, usa concordancia de frase en lugar de concordancia amplia con inclusión de marca**. La inclusión de marca para concordancia amplia puede mostrar tu anuncio para búsquedas semánticamente relacionadas pero incorrectas (ej: "servicio de música de Google" en lugar de "YouTube").
+- **Prioriza la creatividad sobre la cantidad de palabras clave**. Escribe anuncios que comuniquen claramente para quién es la oferta y para quién no, ya que los keywords ya no controlan exactamente qué búsquedas activan tus anuncios.
+- **Cuando configures una campaña nueva, desactiva la opción "palabras clave de concordancia amplia"** en la configuración de campaña si quieres mantener el control sobre los tipos de concordancia. Por defecto ahora está activada.
+
+## Errores comunes que evita o menciona
+- **No crear 20 variaciones de una palabra clave negativa**: Antes se necesitaban múltiples variaciones (singular, plural, errores ortográficos). Ahora una sola palabra clave negativa captura todo automáticamente.
+- **No asumir que los términos de búsqueda ocultos son un problema menor**: Si el 50% del gasto va a "otros términos de búsqueda", es una señal de alerta que requiere cambios en tipos de concordancia, negativas y estrategia de puja.
+- **No escribir anuncios genéricos como "compra [palabra clave]"**: La IA puede llevar a todos al promedio. Los anuncios escritos por humanos con comprensión del público objetivo y propuesta de valor única superan a los generados por IA.
+- **No pujar por la marca sin evaluar el contexto**: No es una decisión universal. Para marcas DTC con alta competencia (ej: Amazon pujando por tu marca), es necesario defenderla. Para marcas sin competencia en su término, es un gasto innecesario.
+- **No incluir la marca en Performance Max si todas las conversiones vienen de términos de marca**: PMax maximiza conversiones, así que si solo convierte en marca, no explorará tráfico nuevo. Excluye la marca para forzar la exploración.
+- **No confiar en que la concordancia amplia con inclusión de marca solo mostrará tu marca**: Puede expandirse a términos semánticamente relacionados pero incorrectos (ej: "servicio de música de Google" en lugar de "YouTube"). Monitorea siempre los términos de búsqueda reales.
+- **No crear la estructura de campaña y los anuncios el mismo día**: Hacer ambas tareas simultáneamente reduce la calidad de los anuncios. Separa la creación de estructura (día 1) de la redacción de anuncios (día 2 o 7).

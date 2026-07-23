@@ -1,0 +1,22 @@
+CORTO ml_catalogo (65 palabras)
+ok:deepseek-chat
+15:11:10 OK mercadolibre/ml_envios p1
+ok:deepseek-chat
+15:11:25 OK mercadolibre/ml_intro_mercado_ads p1
+ok:deepseek-chat
+15:11:58 OK mercadolibre/ml_preguntas p1
+ok:deepseek-chat
+15:12:22 OK mercadolibre/ml_product_ads p1
+reintento deepseek-chat: ConnectionResetError
+reintento deepseek-chat: URLError
+reintento llama-3.3-70b-versatile: HTTPError
+reintento llama-3.3-70b-versatile: HTTPError
+15:13:55 FALLO mercadolibre/ml_publica p1
+=== eh-mercadolibre-art: 4 destilados ===
+ok:deepseek-chat
+15:22:07 OK mercadolibre/ml_catalogo p1
+ok:deepseek-chat
+15:22:30 OK mercadolibre/ml_publica p1
+ok:deepseek-chat
+15:22:45 OK mercadolibre/ml_reputacion p1
+=== eh-mercadolibre-art: 7 destilados ===

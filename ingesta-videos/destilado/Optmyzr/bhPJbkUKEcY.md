@@ -1,0 +1,28 @@
+# Future-Proof Your Brand: How to Win at Branded Search Through Time & Change
+**Fuente:** Optmyzr | https://youtu.be/bhPJbkUKEcY
+
+## Qué enseña (2-3 líneas)
+Jason Barnard explica cómo educar a Google para que repita la narrativa de marca que tú defines, gestionando todas las entidades de tu ecosistema digital (personas, empresas, productos, eventos) con mensajes consistentes. Muestra que el control de los hechos (Knowledge Panel) y las recomendaciones (resultados orgánicos) es la clave para dominar también los resultados generativos de IA, y que la marca impulsa el marketing, el marketing impulsa el SEO.
+
+## Lecciones accionables
+- **Identifica todas tus entidades antes de definir mensajes:** Cada entidad (persona, corporación, sede en Google Maps, plataforma SaaS, serie de eventos, podcast) necesita su propia narrativa de marca. Ejemplo: "Jason Barnard" (persona) ≠ "C Cube" (corporación) ≠ "C Cube Pro" (plataforma SaaS) ≠ "C Cube Tuesdays" (evento en YouTube) ≠ "Branded Search and Beyond" (podcast). Cada una debe describirse a sí misma y a las demás de forma consistente.
+- **Crea un inventario completo de todos los recursos digitales que Google rastrea sobre ti:** Incluye perfiles de LinkedIn, YouTube, blogs de terceros donde seas autor, podcasts, Quora, medios. No solo tu web. Usa una herramienta (como C Cube Pro) que mantenga una lista viva de estos recursos y su prioridad cambiante (hoy LinkedIn puede ser lo más importante, en un año puede ser Instagram).
+- **Actualiza todo tu ecosistema digital en un solo día cuando cambie tu narrativa:** No dejes mensajes viejos dispersos. Revisa una vez al año (o cada dos años si el negocio es estable) y corrige simultáneamente todos los recursos de la lista. Así Google y tu audiencia reciben un mensaje consistente al instante.
+- **Aplica juicio humano para decidir qué conservar del historial:** No borres todo automáticamente. Evalúa si el contenido antiguo muestra una evolución valiosa o si confunde. Puedes dejarlo pero añadiendo una referencia a que las cosas han cambiado desde entonces.
+- **Repite la misma descripción de cada entidad en todos los lugares donde aparece:** Si C Cube menciona a C Cube Pro, debe describirlo exactamente igual que C Cube Pro se describe a sí mismo. La consistencia evita que Google genere resúmenes contradictorios en la IA generativa.
+- **Para controlar la IA generativa en el SERP, controla los hechos (Knowledge Panel) y las recomendaciones (resultados azules, videos, People Also Ask):** La IA generativa no inventa nada nuevo; asimila y resume lo que ya está en los primeros resultados. Si tus hechos y recomendaciones son consistentes, el resumen generativo lo será.
+- **Prioriza la actualización según los datos de qué plataforma es más importante hoy:** No asumas que lo que funcionaba hace un año sigue siendo prioritario. Usa datos (como los de C Cube Pro) para saber qué perfil o recurso tiene más peso en ese momento.
+
+## Reglas para agentes
+- **Usa "educar y guiar" a Google, no "manipular":** Siempre que hables de branded search, di que el objetivo es educar a Google con una narrativa honesta y respaldada por evidencia. Google repetirá lo que le pidas que diga siempre que sea verdadero.
+- **Nunca asumas que Google "entiende" el mundo como un humano:** Para fines de marketing, puedes decir que "Google entiende" para simplificar, pero técnicamente opera con representaciones matemáticas en espacios vectoriales. No expliques vectores a una audiencia de marketers a menos que sea un público técnico.
+- **Siempre empieza por la marca, no por el SEO:** La secuencia es: marca → marketing → SEO. Si no tienes una marca clara con un mensaje y una audiencia definida, no tienes nada que marketear ni optimizar.
+- **Cuando actualices la narrativa de marca, hazlo en TODOS los recursos simultáneamente en un plazo de 24 horas:** No dejes mensajes antiguos conviviendo con los nuevos durante semanas. La inconsistencia confunde a Google y a la audiencia.
+- **Para cada entidad en tu ecosistema, define tres cosas antes de crear contenido:** (1) ¿De qué estás hablando? (2) ¿Qué estás tratando de decir? (3) ¿A quién se lo estás diciendo? Sin esto, el resto del trabajo es inútil.
+
+## Errores comunes que evita o menciona
+- **Error: Pensar que solo controlas tu web y eso es suficiente.** Realidad: Google rastrea todo tu ecosistema digital (LinkedIn, YouTube, podcasts, blogs de terceros, Quora). Si solo actualizas tu web, los mensajes antiguos en otros sitios seguirán confundiendo a Google.
+- **Error: Asumir que la empresa ya sabe cuál es su narrativa de marca.** Realidad: La mayoría de las empresas no tienen definida la narrativa para cada una de sus entidades (CEO, producto, evento, sede). El primer paso es identificar todas las entidades y definir su mensaje por separado.
+- **Error: Dejar contenido antiguo sin contexto ni actualización.** Realidad: Si alguien llega sin contexto, Google encontrará confuso el mensaje antiguo. Hay que decidir si corregirlo, eliminarlo o dejarlo pero añadiendo una nota de que las cosas han cambiado.
+- **Error: Pensar que la IA generativa inventa cosas nuevas.** Realidad: La IA generativa en búsqueda solo asimila y resume los primeros resultados (hechos y recomendaciones). Si controlas esos, controlas el resumen generativo.
+- **Error: Creer que el cambio de algoritmo es constante y nunca se estabilizará.** Realidad: Según Fabrice Canel (Bing), después del gran salto de 2023 con IA generativa, vendrá una meseta de mejoras graduales hasta que la computación cuántica sea realidad (unos 8 años). No hay que entrar en pánico.

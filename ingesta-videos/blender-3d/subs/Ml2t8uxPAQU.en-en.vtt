@@ -1,0 +1,540 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.010 --> 00:00:04.420
+In this video we will look at 6 hard
+surface techniques that changed how I worked.
+
+00:00:04.930 --> 00:00:09.820
+I have been creating 3D work
+professionally for 20 years now, that is
+
+00:00:09.830 --> 00:00:13.280
+to say I have come across my fair share
+of hard surface challenges.
+
+00:00:13.610 --> 00:00:17.140
+In this video I am going to share some of
+my top techniques that I wish I had known
+
+00:00:17.150 --> 00:00:21.820
+years earlier and that have saved me
+hours and hours of frustration.
+
+00:00:23.390 --> 00:00:27.700
+Hard surfaces usually feature a lot of
+flat surfaces with right angles mainly
+
+00:00:27.710 --> 00:00:31.200
+due to the not overly malleable materials involved.
+
+00:00:31.550 --> 00:00:34.360
+I am thinking metal, wood and plastic.
+
+00:00:34.570 --> 00:00:39.140
+However, these things can still be bent,
+cut and moulded into curved shapes.
+
+00:00:39.490 --> 00:00:41.580
+Lets take this design for example.
+
+00:00:41.730 --> 00:00:43.540
+We could start with a very high poly
+
+00:00:43.550 --> 00:00:48.920
+mesh, but what we gain in resolution we
+lose in control, even with proportional editing.
+
+00:00:49.290 --> 00:00:53.140
+So lets look at keeping this mesh density
+super low and controllable while having
+
+00:00:53.150 --> 00:00:55.660
+this high resolution smooth outcome.
+
+00:00:56.670 --> 00:00:59.000
+So lets move this aside and I am just
+
+00:00:59.010 --> 00:01:04.840
+going to shift and right click to drop
+the cursor and shift a cylinder.
+
+00:01:05.230 --> 00:01:07.500
+We only need about 16 vertices here.
+
+00:01:07.970 --> 00:01:10.460
+Jumping into edit mode lets scale along
+
+00:01:10.470 --> 00:01:13.220
+the Y, something like that looks good.
+
+00:01:13.870 --> 00:01:15.740
+And in poly select lets do top and
+
+00:01:15.750 --> 00:01:21.260
+bottom, eye to inset and then right click
+bridge faces.
+
+00:01:21.270 --> 00:01:22.880
+Lets just move it out the way a little bit.
+
+00:01:23.010 --> 00:01:23.620
+There we go.
+
+00:01:23.850 --> 00:01:28.480
+Now we have some larger bevels here, so
+lets just go into edge mode, select
+
+00:01:28.490 --> 00:01:31.000
+these, bevel, that looks good.
+
+00:01:31.110 --> 00:01:32.440
+Maybe lets increase it a tad.
+
+00:01:33.250 --> 00:01:35.740
+And one on the inside here and bevel.
+
+00:01:36.910 --> 00:01:37.760
+Cool, that looks good.
+
+00:01:37.890 --> 00:01:44.900
+Now for the front section here we can
+select these group of polygons, like so.
+
+00:01:45.290 --> 00:01:50.440
+Hit E to extrude out, scale down along
+the Y, lets move it back a little bit.
+
+00:01:50.930 --> 00:01:54.260
+And then assuming you have loop tools
+enabled, which you may need to do so from
+
+00:01:54.270 --> 00:02:00.640
+the addons menu in the preferences, we
+can right click, loop tools, circle.
+
+00:02:01.430 --> 00:02:06.760
+I am just going to scale that down, hit
+extrude, inset with I and then one more extrude
+
+00:02:06.770 --> 00:02:07.940
+to go in
+.
+
+00:02:07.970 --> 00:02:11.640
+Ok, we have roughly the same shape but
+with very low polys.
+
+00:02:11.650 --> 00:02:16.180
+Now lets look at how we can make it nice
+and smooth, but with hard edges.
+
+00:02:16.310 --> 00:02:20.420
+Firstly, lets add a subd modifier with
+CTRL and 3.
+
+00:02:20.430 --> 00:02:25.880
+We have the smooth down, but not the hard
+edges, so lets go into edit mode and lets
+
+00:02:25.890 --> 00:02:28.980
+select one of the edges in edge mode.
+
+00:02:28.990 --> 00:02:31.760
+And we can use SHIFT G and then face
+
+00:02:31.770 --> 00:02:37.380
+angles to select edges with the adjacent
+faces at a certain angle, which we can
+
+00:02:37.390 --> 00:02:40.340
+dial in here, but that looks good to me.
+
+00:02:40.350 --> 00:02:43.460
+So lets SHIFT E to create the crease,
+
+00:02:43.470 --> 00:02:44.420
+looks good.
+
+00:02:44.430 --> 00:02:47.160
+We need a few more creases here, so
+
+00:02:47.370 --> 00:02:51.800
+again, lets select that edge, face angle and
+SHIFT E.
+
+00:02:51.990 --> 00:02:52.700
+Ok, cool.
+
+00:02:52.710 --> 00:02:55.300
+Now we also have a couple more edges here
+
+00:02:55.310 --> 00:03:02.480
+that we need to select to match this
+style and underneath we don't have any
+
+00:03:02.490 --> 00:03:06.760
+sharpness at all, so lets just select
+that edge loop with ALT, SHIFT E again
+
+00:03:06.770 --> 00:03:10.140
+and reduce to nothing, just make sure
+that is minus 1.
+
+00:03:10.150 --> 00:03:13.360
+I'm just going to move this edge up a
+little bit to match.
+
+00:03:13.390 --> 00:03:18.940
+Ok, cool, now we have the nice sharp
+edges, so lets just shade smooth and see
+
+00:03:18.950 --> 00:03:20.720
+what we've got here.
+
+00:03:20.730 --> 00:03:23.000
+Just going to hide all of the wireframes
+
+00:03:23.010 --> 00:03:26.400
+with ALT SHIFT and Z to switch off the overlays.
+
+00:03:26.410 --> 00:03:28.700
+Its looking ok, but its not quite as nice
+
+00:03:28.710 --> 00:03:32.820
+and creased as this one, so lets add a
+bevel as well.
+
+00:03:32.830 --> 00:03:36.700
+Go into edit mode, select one of the
+edges with a crease on, and if we SHIFT
+
+00:03:36.710 --> 00:03:41.420
+and G, we can select all of the creases
+and then CTRL and E, edge bevel, and
+
+00:03:41.430 --> 00:03:43.660
+we'll just add an edge bevel weight of 1.
+
+00:03:43.670 --> 00:03:45.720
+Now we can add a modifier, search for
+
+00:03:46.530 --> 00:03:53.660
+bevel, limit method to weight, that
+weight we just created, shading, harden normals.
+
+00:03:53.670 --> 00:03:59.320
+Now if we switch off our overlays, we
+have a really nice look with nice sharp edges.
+
+00:03:59.330 --> 00:04:03.020
+Lets say you're being a productivity
+wizard and you're only working on half of
+
+00:04:03.030 --> 00:04:05.940
+your model, knowing you can add a mirror modifier.
+
+00:04:05.950 --> 00:04:09.240
+If we were to do so now, you can see that
+
+00:04:09.250 --> 00:04:13.060
+we have odd pinching here and its not
+looking particularly nice, and this is
+
+00:04:13.070 --> 00:04:17.040
+because our mirror modifier is happening
+after the fact.
+
+00:04:17.050 --> 00:04:20.120
+Thankfully there is quite a cool way you
+can remedy this, and that is because as
+
+00:04:20.130 --> 00:04:23.020
+of 4 .2 you can pin modifiers.
+
+00:04:23.030 --> 00:04:25.100
+So if we select bevel for example, we can
+
+00:04:25.110 --> 00:04:29.020
+pin to last, and likewise on our subdivision.
+
+00:04:29.030 --> 00:04:31.220
+Now if we add our mirror modifier, it
+
+00:04:31.230 --> 00:04:34.100
+happens before our pinned items in the stack.
+
+00:04:34.110 --> 00:04:35.820
+Really handy.
+
+00:04:35.830 --> 00:04:39.380
+Now this one took me far too long to
+realise, I'm sure a lot of you know you
+
+00:04:39.390 --> 00:04:45.280
+can add cables by going into a curve,
+adding say a bezier curve, going into the
+
+00:04:45.290 --> 00:04:51.340
+curve options and geometry under depth,
+just cranking things up a little bit like so.
+
+00:04:51.490 --> 00:04:56.380
+However, I used to then go in and start
+manipulating these points and try and
+
+00:04:56.390 --> 00:05:00.580
+snap and rotate and arrange things, and
+it just took a little too long.
+
+00:05:00.590 --> 00:05:06.280
+And I find it considerably easier to just
+select all and delete all vertices, jump
+
+00:05:06.290 --> 00:05:11.220
+in to the draw mode and draw from the cursor.
+
+00:05:11.230 --> 00:05:12.960
+Now if we go into orthographic here, I'm
+
+00:05:12.970 --> 00:05:17.700
+just going to snap the side, lets go to
+wireframe, we can draw the curve that we
+
+00:05:18.190 --> 00:05:19.960
+want, something like that looks good.
+
+00:05:19.970 --> 00:05:21.480
+And you can see that the calculation of
+
+00:05:21.490 --> 00:05:25.900
+the bezier handles is already pretty good
+and only needs a little bit of clean up
+
+00:05:25.910 --> 00:05:27.660
+to finish.
+
+00:05:27.670 --> 00:05:30.120
+On a side note, you can also go into edit
+
+00:05:30.130 --> 00:05:35.100
+mode and just check surface and now you
+can draw your cables all over your
+
+00:05:35.110 --> 00:05:39.560
+geometry and it sticks nicely to it like so.
+
+00:05:39.570 --> 00:05:41.740
+Right angle joins like this appear quite
+
+00:05:41.750 --> 00:05:45.700
+a lot for me, particularly in hard
+surface modelling for handles and the like.
+
+00:05:45.710 --> 00:05:50.120
+Thankfully its quite easy to put together
+if you have your two cylinders here in
+
+00:05:50.130 --> 00:05:54.440
+place and they are joined into one
+object, we can select the edges here,
+
+00:05:54.450 --> 00:05:58.400
+right click and then go to bridge edge loops.
+
+00:05:58.410 --> 00:06:01.100
+And then under number of cuts, you can
+
+00:06:01.110 --> 00:06:07.340
+add say 5 and adjust the smoothness
+factor to your liking.
+
+00:06:07.350 --> 00:06:08.980
+And done.
+
+00:06:08.990 --> 00:06:10.820
+Some things are just painful to add to
+
+00:06:10.830 --> 00:06:15.100
+existing geometry without having to
+seriously mess up your beautiful
+
+00:06:15.110 --> 00:06:17.900
+underlying base mesh, so why not just
+stick it on top.
+
+00:06:17.930 --> 00:06:20.420
+Well, lets look at how to set that up.
+
+00:06:20.570 --> 00:06:22.320
+Firstly, this is the item we want to
+
+00:06:22.330 --> 00:06:27.500
+stick on the underside of our craft here,
+just like a pulse engine of sorts.
+
+00:06:27.610 --> 00:06:32.780
+Firstly, we need to make sure our origin
+point is snapped to the bottom, so I'm
+
+00:06:32.790 --> 00:06:38.540
+just going to go into edit mode, edge,
+select the loop with ALT and left click,
+
+00:06:38.550 --> 00:06:41.760
+and then snap our cursor to it with SHIFT
+and S.
+
+00:06:41.770 --> 00:06:45.840
+Hitting tab to go back out into object
+mode, we can go to object, set origin,
+
+00:06:45.850 --> 00:06:47.380
+origin to 3D cursor.
+
+00:06:47.390 --> 00:06:49.700
+Now under our snap options here, we can
+
+00:06:49.710 --> 00:06:53.740
+make sure we are on face and align
+rotation to target.
+
+00:06:53.750 --> 00:06:58.640
+And that affords us the ability to just
+hit G, hold down control and snap our
+
+00:06:58.650 --> 00:07:01.000
+item on the underside like so.
+
+00:07:01.010 --> 00:07:03.200
+Now this isn't hugely convincing as a
+
+00:07:03.210 --> 00:07:07.800
+join here, but we're only just getting
+started, so to make it a little bit more
+
+00:07:08.010 --> 00:07:13.320
+convincing, we can go into edit mode and
+select these outer polys, go over to our
+
+00:07:13.330 --> 00:07:18.420
+vertex options, create a new vertex
+group, let's just leave it called group,
+
+00:07:18.430 --> 00:07:19.880
+and click assign.
+
+00:07:19.890 --> 00:07:21.680
+Now if we jump out into object mode and
+
+00:07:21.690 --> 00:07:28.800
+move over to our modifiers, we can add a
+new modifier, and search for shrink wrap.
+
+00:07:28.810 --> 00:07:30.980
+Let's move it to the top of the stack.
+
+00:07:30.990 --> 00:07:33.260
+Now we can select our target, the main
+
+00:07:33.270 --> 00:07:38.800
+base of the ship here, and restrict this
+effect by that vertex group we just created.
+
+00:07:38.810 --> 00:07:44.320
+Now we can duplicate this over the bottom
+to our hearts content.
+
+00:07:44.330 --> 00:07:48.540
+Now I'm sure some of you can see that the
+join here is still quite abrupt,
+
+00:07:48.550 --> 00:07:52.620
+particularly in rendered mode, and it's
+not really fooling anyone.
+
+00:07:52.630 --> 00:07:59.300
+Thankfully we can use the normal data
+from the object which we are stuck to and
+
+00:07:59.310 --> 00:08:01.400
+apply it to this object.
+
+00:08:01.410 --> 00:08:03.380
+And to do so, with the object selected,
+
+00:08:03.390 --> 00:08:10.620
+we can go add modifier, search for data
+transfer, select our source object, and
+
+00:08:10.630 --> 00:08:17.360
+go down to face corner data, let's just
+expand that, and we want the custom
+
+00:08:17.630 --> 00:08:23.100
+normals, and the option we want is
+nearest face interpolated, and I find
+
+00:08:23.110 --> 00:08:25.400
+this to be the smoothest result.
+
+00:08:25.410 --> 00:08:27.420
+And as you can see, it looks like it
+
+00:08:27.430 --> 00:08:30.280
+almost doesn't exist at all with some
+very light shading.
+
+00:08:30.290 --> 00:08:34.780
+Thankfully we can once again take
+advantage of our vertex group to isolate
+
+00:08:34.790 --> 00:08:39.020
+the effect, and now you can see,
+particularly compared to the old method,
+
+00:08:39.030 --> 00:08:41.500
+it looks considerably better.
+
+00:08:41.510 --> 00:08:44.280
+So let's just shift select all the
+
+00:08:44.290 --> 00:08:49.640
+remaining items, and then the item with
+the data transfer, and then go to this
+
+00:08:49.650 --> 00:08:52.900
+little dropdown here, and copy to selected.
+
+00:08:52.910 --> 00:08:53.800
+Excellent.
+
+00:08:53.810 --> 00:08:58.700
+I hope some of these techniques have
+helped, now this model was built
+
+00:08:58.710 --> 00:09:03.260
+exclusively to demo most of these
+techniques, but if you had fun and you'd
+
+00:09:03.270 --> 00:09:07.380
+be interested in learning something a
+little bit more, then you might like
+
+00:09:07.390 --> 00:09:13.040
+Robotic Planet, a full robot creation
+course over at CG Boost Academy.
+
+00:09:13.050 --> 00:09:17.960
+We walk through entire robot creations as
+well as tackling even more tips and tricks.
+
+00:09:17.970 --> 00:09:21.540
+Enrolling in the course also gives you
+access to the CG Boost community where
+
+00:09:21.550 --> 00:09:25.380
+you can comment, share ideas, or get help
+on particular parts of the course.
+

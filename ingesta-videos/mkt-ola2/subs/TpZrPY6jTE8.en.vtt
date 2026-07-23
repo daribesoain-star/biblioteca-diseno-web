@@ -1,0 +1,2216 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.190 align:start position:0%
+ 
+UGC<00:00:00.680><c> ads</c><00:00:00.920><c> are</c><00:00:01.040><c> everywhere.</c><00:00:01.840><c> But,</c><00:00:01.960><c> if</c><00:00:02.040><c> you've</c>
+
+00:00:02.190 --> 00:00:02.200 align:start position:0%
+UGC ads are everywhere. But, if you've
+ 
+
+00:00:02.200 --> 00:00:03.670 align:start position:0%
+UGC ads are everywhere. But, if you've
+ever<00:00:02.400><c> tried</c><00:00:02.680><c> to</c><00:00:02.760><c> get</c><00:00:02.920><c> them</c><00:00:03.080><c> made,</c><00:00:03.440><c> you</c><00:00:03.520><c> know</c>
+
+00:00:03.670 --> 00:00:03.680 align:start position:0%
+ever tried to get them made, you know
+ 
+
+00:00:03.680 --> 00:00:05.430 align:start position:0%
+ever tried to get them made, you know
+how<00:00:03.840><c> difficult</c><00:00:04.400><c> and</c><00:00:04.560><c> time-consuming</c><00:00:05.240><c> it</c><00:00:05.320><c> can</c>
+
+00:00:05.430 --> 00:00:05.440 align:start position:0%
+how difficult and time-consuming it can
+ 
+
+00:00:05.440 --> 00:00:07.110 align:start position:0%
+how difficult and time-consuming it can
+be.<00:00:06.040><c> In</c><00:00:06.200><c> this</c><00:00:06.360><c> video,</c><00:00:06.640><c> I'm</c><00:00:06.760><c> going</c><00:00:06.880><c> to</c><00:00:06.960><c> show</c><00:00:07.040><c> you</c>
+
+00:00:07.110 --> 00:00:07.120 align:start position:0%
+be. In this video, I'm going to show you
+ 
+
+00:00:07.120 --> 00:00:09.150 align:start position:0%
+be. In this video, I'm going to show you
+how<00:00:07.240><c> to</c><00:00:07.360><c> research,</c><00:00:07.920><c> generate,</c><00:00:08.400><c> and</c><00:00:08.560><c> test</c><00:00:08.840><c> them</c>
+
+00:00:09.150 --> 00:00:09.160 align:start position:0%
+how to research, generate, and test them
+ 
+
+00:00:09.160 --> 00:00:10.830 align:start position:0%
+how to research, generate, and test them
+just<00:00:09.440><c> by</c><00:00:09.560><c> chatting</c><00:00:10.000><c> with</c><00:00:10.160><c> Claude.</c><00:00:10.680><c> No</c>
+
+00:00:10.830 --> 00:00:10.840 align:start position:0%
+just by chatting with Claude. No
+ 
+
+00:00:10.840 --> 00:00:13.350 align:start position:0%
+just by chatting with Claude. No
+creative<00:00:11.200><c> tools,</c><00:00:11.840><c> no</c><00:00:12.040><c> agency,</c><00:00:12.880><c> no</c><00:00:13.000><c> switching</c>
+
+00:00:13.350 --> 00:00:13.360 align:start position:0%
+creative tools, no agency, no switching
+ 
+
+00:00:13.360 --> 00:00:15.390 align:start position:0%
+creative tools, no agency, no switching
+between<00:00:13.720><c> apps.</c><00:00:14.280><c> The</c><00:00:14.400><c> whole</c><00:00:14.680><c> workflow</c><00:00:15.080><c> runs</c>
+
+00:00:15.390 --> 00:00:15.400 align:start position:0%
+between apps. The whole workflow runs
+ 
+
+00:00:15.400 --> 00:00:17.430 align:start position:0%
+between apps. The whole workflow runs
+inside<00:00:15.960><c> a</c><00:00:16.000><c> single</c><00:00:16.440><c> Claude</c><00:00:16.680><c> conversation</c>
+
+00:00:17.430 --> 00:00:17.440 align:start position:0%
+inside a single Claude conversation
+ 
+
+00:00:17.440 --> 00:00:19.910 align:start position:0%
+inside a single Claude conversation
+using<00:00:17.760><c> two</c><00:00:18.040><c> MCP</c><00:00:18.480><c> connectors,</c><00:00:19.120><c> Meta</c><00:00:19.720><c> and</c>
+
+00:00:19.910 --> 00:00:19.920 align:start position:0%
+using two MCP connectors, Meta and
+ 
+
+00:00:19.920 --> 00:00:22.510 align:start position:0%
+using two MCP connectors, Meta and
+Arcads.<00:00:20.760><c> Meta's</c><00:00:21.160><c> MCP</c><00:00:21.640><c> handles</c><00:00:21.960><c> the</c><00:00:22.080><c> research</c>
+
+00:00:22.510 --> 00:00:22.520 align:start position:0%
+Arcads. Meta's MCP handles the research
+ 
+
+00:00:22.520 --> 00:00:24.750 align:start position:0%
+Arcads. Meta's MCP handles the research
+and<00:00:22.600><c> the</c><00:00:22.680><c> launch.</c><00:00:23.360><c> Arcads</c><00:00:23.840><c> MCP</c><00:00:24.200><c> generates</c><00:00:24.600><c> the</c>
+
+00:00:24.750 --> 00:00:24.760 align:start position:0%
+and the launch. Arcads MCP generates the
+ 
+
+00:00:24.760 --> 00:00:27.270 align:start position:0%
+and the launch. Arcads MCP generates the
+actual<00:00:25.160><c> UGC</c><00:00:25.640><c> assets.</c><00:00:26.400><c> Together,</c><00:00:27.040><c> they</c><00:00:27.120><c> give</c>
+
+00:00:27.270 --> 00:00:27.280 align:start position:0%
+actual UGC assets. Together, they give
+ 
+
+00:00:27.280 --> 00:00:29.750 align:start position:0%
+actual UGC assets. Together, they give
+you<00:00:27.360><c> an</c><00:00:27.480><c> end-to-end</c><00:00:28.120><c> AI</c><00:00:28.680><c> ad</c><00:00:29.000><c> workflow</c><00:00:29.520><c> that</c>
+
+00:00:29.750 --> 00:00:29.760 align:start position:0%
+you an end-to-end AI ad workflow that
+ 
+
+00:00:29.760 --> 00:00:31.350 align:start position:0%
+you an end-to-end AI ad workflow that
+anyone<00:00:30.040><c> can</c><00:00:30.160><c> run.</c><00:00:30.760><c> Let</c><00:00:30.920><c> me</c><00:00:31.000><c> walk</c><00:00:31.160><c> you</c><00:00:31.240><c> through</c>
+
+00:00:31.350 --> 00:00:31.360 align:start position:0%
+anyone can run. Let me walk you through
+ 
+
+00:00:31.360 --> 00:00:32.870 align:start position:0%
+anyone can run. Let me walk you through
+exactly<00:00:31.840><c> how</c><00:00:31.960><c> it</c><00:00:32.080><c> works.</c><00:00:32.400><c> I'll</c><00:00:32.599><c> give</c><00:00:32.759><c> you</c>
+
+00:00:32.870 --> 00:00:32.880 align:start position:0%
+exactly how it works. I'll give you
+ 
+
+00:00:32.880 --> 00:00:34.550 align:start position:0%
+exactly how it works. I'll give you
+every<00:00:33.240><c> prompt</c><00:00:33.520><c> along</c><00:00:33.760><c> the</c><00:00:33.840><c> way,</c><00:00:34.320><c> because</c>
+
+00:00:34.550 --> 00:00:34.560 align:start position:0%
+every prompt along the way, because
+ 
+
+00:00:34.560 --> 00:00:35.990 align:start position:0%
+every prompt along the way, because
+getting<00:00:34.800><c> those</c><00:00:35.080><c> right</c><00:00:35.280><c> is</c><00:00:35.400><c> where</c><00:00:35.560><c> most</c><00:00:35.800><c> people</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+getting those right is where most people
+ 
+
+00:00:36.000 --> 00:00:37.870 align:start position:0%
+getting those right is where most people
+struggle.<00:00:36.640><c> First</c><00:00:36.920><c> things</c><00:00:37.160><c> first,</c><00:00:37.560><c> we</c><00:00:37.640><c> need</c><00:00:37.760><c> to</c>
+
+00:00:37.870 --> 00:00:37.880 align:start position:0%
+struggle. First things first, we need to
+ 
+
+00:00:37.880 --> 00:00:39.950 align:start position:0%
+struggle. First things first, we need to
+connect<00:00:38.200><c> Meta's</c><00:00:38.600><c> MCP</c><00:00:39.120><c> to</c><00:00:39.240><c> Claude.</c><00:00:39.760><c> And</c><00:00:39.840><c> this</c>
+
+00:00:39.950 --> 00:00:39.960 align:start position:0%
+connect Meta's MCP to Claude. And this
+ 
+
+00:00:39.960 --> 00:00:42.070 align:start position:0%
+connect Meta's MCP to Claude. And this
+is<00:00:40.080><c> genuinely</c><00:00:40.440><c> about</c><00:00:40.680><c> 30</c><00:00:41.080><c> seconds</c><00:00:41.400><c> of</c><00:00:41.480><c> setup.</c>
+
+00:00:42.070 --> 00:00:42.080 align:start position:0%
+is genuinely about 30 seconds of setup.
+ 
+
+00:00:42.080 --> 00:00:43.390 align:start position:0%
+is genuinely about 30 seconds of setup.
+And<00:00:42.200><c> once</c><00:00:42.360><c> you've</c><00:00:42.480><c> done</c><00:00:42.680><c> it,</c><00:00:42.840><c> Claude</c><00:00:43.080><c> can</c><00:00:43.200><c> see</c>
+
+00:00:43.390 --> 00:00:43.400 align:start position:0%
+And once you've done it, Claude can see
+ 
+
+00:00:43.400 --> 00:00:45.550 align:start position:0%
+And once you've done it, Claude can see
+your<00:00:43.520><c> entire</c><00:00:43.960><c> Meta</c><00:00:44.240><c> ad</c><00:00:44.320><c> account.</c><00:00:44.920><c> No</c><00:00:45.080><c> more</c><00:00:45.360><c> Ads</c>
+
+00:00:45.550 --> 00:00:45.560 align:start position:0%
+your entire Meta ad account. No more Ads
+ 
+
+00:00:45.560 --> 00:00:47.510 align:start position:0%
+your entire Meta ad account. No more Ads
+Manager,<00:00:45.960><c> no</c><00:00:46.160><c> more</c><00:00:46.320><c> tab</c><00:00:46.600><c> switching.</c><00:00:47.280><c> Here's</c>
+
+00:00:47.510 --> 00:00:47.520 align:start position:0%
+Manager, no more tab switching. Here's
+ 
+
+00:00:47.520 --> 00:00:50.150 align:start position:0%
+Manager, no more tab switching. Here's
+how.<00:00:47.960><c> Add</c><00:00:48.120><c> a</c><00:00:48.160><c> new</c><00:00:48.320><c> connector</c><00:00:48.920><c> inside</c><00:00:49.440><c> Claude</c>
+
+00:00:50.150 --> 00:00:50.160 align:start position:0%
+how. Add a new connector inside Claude
+ 
+
+00:00:50.160 --> 00:00:52.910 align:start position:0%
+how. Add a new connector inside Claude
+and<00:00:50.360><c> paste</c><00:00:50.680><c> Meta's</c><00:00:51.080><c> MCP</c><00:00:51.680><c> server</c><00:00:52.040><c> URL,</c><00:00:52.800><c> which</c>
+
+00:00:52.910 --> 00:00:52.920 align:start position:0%
+and paste Meta's MCP server URL, which
+ 
+
+00:00:52.920 --> 00:00:54.070 align:start position:0%
+and paste Meta's MCP server URL, which
+is<00:00:53.000><c> going</c><00:00:53.120><c> to</c><00:00:53.200><c> be</c><00:00:53.240><c> put</c><00:00:53.400><c> on</c><00:00:53.520><c> screen.</c><00:00:53.880><c> You</c><00:00:53.960><c> can</c>
+
+00:00:54.070 --> 00:00:54.080 align:start position:0%
+is going to be put on screen. You can
+ 
+
+00:00:54.080 --> 00:00:55.710 align:start position:0%
+is going to be put on screen. You can
+pause<00:00:54.480><c> and</c><00:00:54.560><c> grab</c><00:00:54.720><c> it</c><00:00:54.840><c> right</c><00:00:54.960><c> now.</c><00:00:55.360><c> Grant</c>
+
+00:00:55.710 --> 00:00:55.720 align:start position:0%
+pause and grab it right now. Grant
+ 
+
+00:00:55.720 --> 00:00:57.590 align:start position:0%
+pause and grab it right now. Grant
+access<00:00:56.080><c> when</c><00:00:56.240><c> prompted.</c><00:00:56.920><c> That's</c><00:00:57.160><c> it.</c><00:00:57.520><c> You're</c>
+
+00:00:57.590 --> 00:00:57.600 align:start position:0%
+access when prompted. That's it. You're
+ 
+
+00:00:57.600 --> 00:00:59.390 align:start position:0%
+access when prompted. That's it. You're
+connected.<00:00:58.440><c> Now,</c><00:00:58.680><c> before</c><00:00:58.960><c> we</c><00:00:59.080><c> generate</c>
+
+00:00:59.390 --> 00:00:59.400 align:start position:0%
+connected. Now, before we generate
+ 
+
+00:00:59.400 --> 00:01:00.910 align:start position:0%
+connected. Now, before we generate
+anything,<00:01:00.040><c> we</c><00:01:00.160><c> want</c><00:01:00.360><c> Claude</c><00:01:00.560><c> to</c><00:01:00.640><c> do</c><00:01:00.760><c> some</c>
+
+00:01:00.910 --> 00:01:00.920 align:start position:0%
+anything, we want Claude to do some
+ 
+
+00:01:00.920 --> 00:01:03.110 align:start position:0%
+anything, we want Claude to do some
+research<00:01:01.560><c> and</c><00:01:01.800><c> analyze</c><00:01:02.200><c> the</c><00:01:02.320><c> current</c><00:01:02.680><c> Meta</c><00:01:02.960><c> ad</c>
+
+00:01:03.110 --> 00:01:03.120 align:start position:0%
+research and analyze the current Meta ad
+ 
+
+00:01:03.120 --> 00:01:05.070 align:start position:0%
+research and analyze the current Meta ad
+landscape<00:01:03.600><c> for</c><00:01:03.800><c> our</c><00:01:04.000><c> product</c><00:01:04.280><c> category,</c><00:01:04.960><c> in</c>
+
+00:01:05.070 --> 00:01:05.080 align:start position:0%
+landscape for our product category, in
+ 
+
+00:01:05.080 --> 00:01:06.910 align:start position:0%
+landscape for our product category, in
+this<00:01:05.280><c> case,</c><00:01:05.760><c> women's</c><00:01:06.000><c> pajamas.</c><00:01:06.640><c> Here's</c><00:01:06.840><c> the</c>
+
+00:01:06.910 --> 00:01:06.920 align:start position:0%
+this case, women's pajamas. Here's the
+ 
+
+00:01:06.920 --> 00:01:09.430 align:start position:0%
+this case, women's pajamas. Here's the
+prompt.<00:01:07.480><c> Using</c><00:01:07.840><c> Meta</c><00:01:08.120><c> MCP,</c><00:01:08.880><c> pull</c><00:01:09.040><c> the</c><00:01:09.200><c> top</c>
+
+00:01:09.430 --> 00:01:09.440 align:start position:0%
+prompt. Using Meta MCP, pull the top
+ 
+
+00:01:09.440 --> 00:01:10.950 align:start position:0%
+prompt. Using Meta MCP, pull the top
+performing<00:01:09.840><c> ads</c><00:01:10.120><c> in</c><00:01:10.280><c> my</c><00:01:10.400><c> account</c><00:01:10.720><c> from</c><00:01:10.840><c> the</c>
+
+00:01:10.950 --> 00:01:10.960 align:start position:0%
+performing ads in my account from the
+ 
+
+00:01:10.960 --> 00:01:13.030 align:start position:0%
+performing ads in my account from the
+last<00:01:11.280><c> 30</c><00:01:11.520><c> days.</c><00:01:12.200><c> Then,</c><00:01:12.400><c> search</c><00:01:12.680><c> the</c><00:01:12.760><c> web</c><00:01:12.960><c> for</c>
+
+00:01:13.030 --> 00:01:13.040 align:start position:0%
+last 30 days. Then, search the web for
+ 
+
+00:01:13.040 --> 00:01:15.550 align:start position:0%
+last 30 days. Then, search the web for
+the<00:01:13.160><c> highest</c><00:01:13.480><c> performing</c><00:01:13.880><c> Meta</c><00:01:14.200><c> UGC</c><00:01:14.760><c> ads</c><00:01:15.080><c> for,</c>
+
+00:01:15.550 --> 00:01:15.560 align:start position:0%
+the highest performing Meta UGC ads for,
+ 
+
+00:01:15.560 --> 00:01:17.830 align:start position:0%
+the highest performing Meta UGC ads for,
+in<00:01:15.680><c> this</c><00:01:15.800><c> case,</c><00:01:16.000><c> women's</c><00:01:16.240><c> pajamas</c><00:01:16.960><c> right</c><00:01:17.200><c> now.</c>
+
+00:01:17.830 --> 00:01:17.840 align:start position:0%
+in this case, women's pajamas right now.
+ 
+
+00:01:17.840 --> 00:01:19.870 align:start position:0%
+in this case, women's pajamas right now.
+Identify<00:01:18.840><c> which</c><00:01:19.120><c> creative</c><00:01:19.440><c> formats</c><00:01:19.800><c> are</c>
+
+00:01:19.870 --> 00:01:19.880 align:start position:0%
+Identify which creative formats are
+ 
+
+00:01:19.880 --> 00:01:21.630 align:start position:0%
+Identify which creative formats are
+getting<00:01:20.080><c> the</c><00:01:20.200><c> highest</c><00:01:20.480><c> impressions,</c><00:01:21.400><c> which</c>
+
+00:01:21.630 --> 00:01:21.640 align:start position:0%
+getting the highest impressions, which
+ 
+
+00:01:21.640 --> 00:01:22.790 align:start position:0%
+getting the highest impressions, which
+hooks<00:01:21.880><c> are</c><00:01:21.960><c> generating</c><00:01:22.440><c> the</c><00:01:22.520><c> highest</c>
+
+00:01:22.790 --> 00:01:22.800 align:start position:0%
+hooks are generating the highest
+ 
+
+00:01:22.800 --> 00:01:24.510 align:start position:0%
+hooks are generating the highest
+engagement<00:01:23.280><c> rates,</c><00:01:23.920><c> which</c><00:01:24.200><c> audience</c>
+
+00:01:24.510 --> 00:01:24.520 align:start position:0%
+engagement rates, which audience
+ 
+
+00:01:24.520 --> 00:01:26.430 align:start position:0%
+engagement rates, which audience
+segments<00:01:24.880><c> are</c><00:01:24.960><c> responding</c><00:01:25.400><c> best,</c><00:01:26.200><c> any</c>
+
+00:01:26.430 --> 00:01:26.440 align:start position:0%
+segments are responding best, any
+ 
+
+00:01:26.440 --> 00:01:28.230 align:start position:0%
+segments are responding best, any
+creative<00:01:26.800><c> patterns</c><00:01:27.160><c> showing</c><00:01:27.400><c> up</c><00:01:27.520><c> repeatedly</c>
+
+00:01:28.230 --> 00:01:28.240 align:start position:0%
+creative patterns showing up repeatedly
+ 
+
+00:01:28.240 --> 00:01:30.470 align:start position:0%
+creative patterns showing up repeatedly
+in<00:01:28.360><c> winning</c><00:01:28.600><c> ads.</c><00:01:29.400><c> Give</c><00:01:29.520><c> me</c><00:01:29.640><c> a</c><00:01:29.720><c> summary</c><00:01:30.160><c> I</c><00:01:30.280><c> can</c>
+
+00:01:30.470 --> 00:01:30.480 align:start position:0%
+in winning ads. Give me a summary I can
+ 
+
+00:01:30.480 --> 00:01:32.270 align:start position:0%
+in winning ads. Give me a summary I can
+use<00:01:30.680><c> to</c><00:01:30.760><c> brief</c><00:01:31.000><c> my</c><00:01:31.120><c> new</c><00:01:31.280><c> creatives</c><00:01:31.840><c> before</c><00:01:32.240><c> I</c>
+
+00:01:32.270 --> 00:01:32.280 align:start position:0%
+use to brief my new creatives before I
+ 
+
+00:01:32.280 --> 00:01:34.590 align:start position:0%
+use to brief my new creatives before I
+launch.<00:01:33.120><c> Most</c><00:01:33.400><c> people</c><00:01:33.640><c> launch</c><00:01:33.880><c> blind,</c><00:01:34.440><c> but</c>
+
+00:01:34.590 --> 00:01:34.600 align:start position:0%
+launch. Most people launch blind, but
+ 
+
+00:01:34.600 --> 00:01:36.270 align:start position:0%
+launch. Most people launch blind, but
+this<00:01:34.760><c> step</c><00:01:35.000><c> means</c><00:01:35.200><c> your</c><00:01:35.320><c> campaign</c><00:01:35.720><c> start</c><00:01:36.080><c> with</c>
+
+00:01:36.270 --> 00:01:36.280 align:start position:0%
+this step means your campaign start with
+ 
+
+00:01:36.280 --> 00:01:38.390 align:start position:0%
+this step means your campaign start with
+signals,<00:01:36.880><c> not</c><00:01:37.240><c> guesswork.</c><00:01:37.920><c> And</c><00:01:38.040><c> your</c><00:01:38.120><c> first</c>
+
+00:01:38.390 --> 00:01:38.400 align:start position:0%
+signals, not guesswork. And your first
+ 
+
+00:01:38.400 --> 00:01:39.630 align:start position:0%
+signals, not guesswork. And your first
+test<00:01:38.560><c> is</c><00:01:38.680><c> already</c><00:01:38.960><c> informed</c><00:01:39.320><c> by</c><00:01:39.440><c> what's</c>
+
+00:01:39.630 --> 00:01:39.640 align:start position:0%
+test is already informed by what's
+ 
+
+00:01:39.640 --> 00:01:41.470 align:start position:0%
+test is already informed by what's
+converting<00:01:40.320><c> right</c><00:01:40.560><c> now.</c><00:01:41.120><c> And</c><00:01:41.240><c> this</c><00:01:41.360><c> is</c>
+
+00:01:41.470 --> 00:01:41.480 align:start position:0%
+converting right now. And this is
+ 
+
+00:01:41.480 --> 00:01:42.990 align:start position:0%
+converting right now. And this is
+actually<00:01:41.720><c> the</c><00:01:41.800><c> step</c><00:01:42.080><c> that</c><00:01:42.240><c> most</c><00:01:42.480><c> people</c><00:01:42.720><c> skip</c>
+
+00:01:42.990 --> 00:01:43.000 align:start position:0%
+actually the step that most people skip
+ 
+
+00:01:43.000 --> 00:01:44.630 align:start position:0%
+actually the step that most people skip
+entirely,<00:01:43.520><c> and</c><00:01:43.600><c> it's</c><00:01:43.720><c> the</c><00:01:43.840><c> reason</c><00:01:44.240><c> most</c>
+
+00:01:44.630 --> 00:01:44.640 align:start position:0%
+entirely, and it's the reason most
+ 
+
+00:01:44.640 --> 00:01:46.950 align:start position:0%
+entirely, and it's the reason most
+AI-generated<00:01:45.360><c> ads</c><00:01:45.720><c> don't</c><00:01:46.080><c> perform.</c><00:01:46.720><c> Now,</c><00:01:46.840><c> we</c>
+
+00:01:46.950 --> 00:01:46.960 align:start position:0%
+AI-generated ads don't perform. Now, we
+ 
+
+00:01:46.960 --> 00:01:48.510 align:start position:0%
+AI-generated ads don't perform. Now, we
+take<00:01:47.200><c> that</c><00:01:47.400><c> research</c><00:01:47.840><c> and</c><00:01:47.960><c> turn</c><00:01:48.200><c> it</c><00:01:48.320><c> into</c>
+
+00:01:48.510 --> 00:01:48.520 align:start position:0%
+take that research and turn it into
+ 
+
+00:01:48.520 --> 00:01:50.630 align:start position:0%
+take that research and turn it into
+scripts.<00:01:49.160><c> And</c><00:01:49.240><c> this</c><00:01:49.360><c> is</c><00:01:49.440><c> where</c><00:01:49.720><c> Arcads</c><00:01:50.200><c> MCP</c>
+
+00:01:50.630 --> 00:01:50.640 align:start position:0%
+scripts. And this is where Arcads MCP
+ 
+
+00:01:50.640 --> 00:01:52.310 align:start position:0%
+scripts. And this is where Arcads MCP
+comes<00:01:50.920><c> in,</c><00:01:51.160><c> which</c><00:01:51.320><c> is</c><00:01:51.400><c> the</c><00:01:51.480><c> generative</c><00:01:52.080><c> AI</c>
+
+00:01:52.310 --> 00:01:52.320 align:start position:0%
+comes in, which is the generative AI
+ 
+
+00:01:52.320 --> 00:01:54.150 align:start position:0%
+comes in, which is the generative AI
+platform<00:01:52.760><c> for</c><00:01:52.880><c> marketing</c><00:01:53.280><c> teams.</c><00:01:53.880><c> It</c><00:01:54.000><c> has</c>
+
+00:01:54.150 --> 00:01:54.160 align:start position:0%
+platform for marketing teams. It has
+ 
+
+00:01:54.160 --> 00:01:56.230 align:start position:0%
+platform for marketing teams. It has
+access<00:01:54.520><c> to</c><00:01:54.640><c> all</c><00:01:54.760><c> the</c><00:01:54.840><c> best</c><00:01:55.120><c> AI</c><00:01:55.320><c> models</c><00:01:55.720><c> in</c><00:01:55.920><c> one</c>
+
+00:01:56.230 --> 00:01:56.240 align:start position:0%
+access to all the best AI models in one
+ 
+
+00:01:56.240 --> 00:01:58.270 align:start position:0%
+access to all the best AI models in one
+easy-to-use<00:01:56.960><c> platform.</c><00:01:57.680><c> So,</c><00:01:57.800><c> you've</c><00:01:57.960><c> got</c>
+
+00:01:58.270 --> 00:01:58.280 align:start position:0%
+easy-to-use platform. So, you've got
+ 
+
+00:01:58.280 --> 00:02:01.310 align:start position:0%
+easy-to-use platform. So, you've got
+VO3.1,<00:01:59.760><c> Kling</c><00:02:00.040><c> Motion</c><00:02:00.360><c> Control,</c><00:02:01.000><c> Nano</c>
+
+00:02:01.310 --> 00:02:01.320 align:start position:0%
+VO3.1, Kling Motion Control, Nano
+ 
+
+00:02:01.320 --> 00:02:04.710 align:start position:0%
+VO3.1, Kling Motion Control, Nano
+Banana,<00:02:02.160><c> Sora</c><00:02:02.520><c> 2</c><00:02:02.720><c> Pro,</c><00:02:03.120><c> and</c><00:02:03.440><c> Cedents</c><00:02:03.880><c> 2.0.</c>
+
+00:02:04.710 --> 00:02:04.720 align:start position:0%
+Banana, Sora 2 Pro, and Cedents 2.0.
+ 
+
+00:02:04.720 --> 00:02:06.670 align:start position:0%
+Banana, Sora 2 Pro, and Cedents 2.0.
+These<00:02:04.960><c> top</c><00:02:05.320><c> AI</c><00:02:05.560><c> tools,</c><00:02:05.960><c> but</c><00:02:06.120><c> you</c><00:02:06.240><c> don't</c><00:02:06.560><c> need</c>
+
+00:02:06.670 --> 00:02:06.680 align:start position:0%
+These top AI tools, but you don't need
+ 
+
+00:02:06.680 --> 00:02:08.070 align:start position:0%
+These top AI tools, but you don't need
+to<00:02:06.760><c> have</c><00:02:06.880><c> subscriptions</c><00:02:07.360><c> for</c><00:02:07.520><c> all</c><00:02:07.640><c> of</c><00:02:07.720><c> them,</c>
+
+00:02:08.070 --> 00:02:08.080 align:start position:0%
+to have subscriptions for all of them,
+ 
+
+00:02:08.080 --> 00:02:09.830 align:start position:0%
+to have subscriptions for all of them,
+just<00:02:08.320><c> one</c><00:02:08.600><c> Arcade</c><00:02:08.960><c> subscription.</c><00:02:09.600><c> So,</c><00:02:09.720><c> then</c>
+
+00:02:09.830 --> 00:02:09.840 align:start position:0%
+just one Arcade subscription. So, then
+ 
+
+00:02:09.840 --> 00:02:12.710 align:start position:0%
+just one Arcade subscription. So, then
+what<00:02:10.080><c> is</c><00:02:10.320><c> Arcade's</c><00:02:10.800><c> MCP?</c><00:02:11.680><c> MCP</c><00:02:12.160><c> stands</c><00:02:12.560><c> for</c>
+
+00:02:12.710 --> 00:02:12.720 align:start position:0%
+what is Arcade's MCP? MCP stands for
+ 
+
+00:02:12.720 --> 00:02:14.990 align:start position:0%
+what is Arcade's MCP? MCP stands for
+Model<00:02:13.040><c> Context</c><00:02:13.600><c> Protocol.</c><00:02:14.480><c> It's</c><00:02:14.600><c> an</c><00:02:14.760><c> open</c>
+
+00:02:14.990 --> 00:02:15.000 align:start position:0%
+Model Context Protocol. It's an open
+ 
+
+00:02:15.000 --> 00:02:16.190 align:start position:0%
+Model Context Protocol. It's an open
+standard<00:02:15.320><c> that</c><00:02:15.440><c> lets</c><00:02:15.640><c> Claude</c><00:02:15.880><c> connect</c>
+
+00:02:16.190 --> 00:02:16.200 align:start position:0%
+standard that lets Claude connect
+ 
+
+00:02:16.200 --> 00:02:18.350 align:start position:0%
+standard that lets Claude connect
+directly<00:02:16.680><c> to</c><00:02:16.760><c> external</c><00:02:17.240><c> tools</c><00:02:17.480><c> and</c><00:02:17.600><c> services.</c>
+
+00:02:18.350 --> 00:02:18.360 align:start position:0%
+directly to external tools and services.
+ 
+
+00:02:18.360 --> 00:02:20.030 align:start position:0%
+directly to external tools and services.
+So,<00:02:18.440><c> instead</c><00:02:18.680><c> of</c><00:02:18.760><c> switching</c><00:02:19.120><c> between</c><00:02:19.560><c> apps,</c>
+
+00:02:20.030 --> 00:02:20.040 align:start position:0%
+So, instead of switching between apps,
+ 
+
+00:02:20.040 --> 00:02:21.390 align:start position:0%
+So, instead of switching between apps,
+Claude<00:02:20.320><c> can</c><00:02:20.440><c> control</c><00:02:20.959><c> them</c><00:02:21.160><c> through</c>
+
+00:02:21.390 --> 00:02:21.400 align:start position:0%
+Claude can control them through
+ 
+
+00:02:21.400 --> 00:02:23.870 align:start position:0%
+Claude can control them through
+conversation.<00:02:22.520><c> Arcade's</c><00:02:22.880><c> MCP</c><00:02:23.280><c> is</c><00:02:23.520><c> Arcade's</c>
+
+00:02:23.870 --> 00:02:23.880 align:start position:0%
+conversation. Arcade's MCP is Arcade's
+ 
+
+00:02:23.880 --> 00:02:26.030 align:start position:0%
+conversation. Arcade's MCP is Arcade's
+implementation<00:02:24.600><c> of</c><00:02:24.680><c> this.</c><00:02:25.200><c> It</c><00:02:25.400><c> gives</c><00:02:25.640><c> Claude</c>
+
+00:02:26.030 --> 00:02:26.040 align:start position:0%
+implementation of this. It gives Claude
+ 
+
+00:02:26.040 --> 00:02:28.510 align:start position:0%
+implementation of this. It gives Claude
+access<00:02:26.840><c> to</c><00:02:26.920><c> the</c><00:02:27.000><c> Actors</c><00:02:27.320><c> Library,</c><00:02:28.120><c> Video</c>
+
+00:02:28.510 --> 00:02:28.520 align:start position:0%
+access to the Actors Library, Video
+ 
+
+00:02:28.520 --> 00:02:30.550 align:start position:0%
+access to the Actors Library, Video
+Model,<00:02:29.040><c> and</c><00:02:29.160><c> Generation</c><00:02:29.640><c> Tool</c><00:02:29.959><c> inside</c>
+
+00:02:30.550 --> 00:02:30.560 align:start position:0%
+Model, and Generation Tool inside
+ 
+
+00:02:30.560 --> 00:02:32.870 align:start position:0%
+Model, and Generation Tool inside
+Arcade,<00:02:31.240><c> all</c><00:02:31.520><c> from</c><00:02:31.680><c> a</c><00:02:31.720><c> single</c><00:02:32.080><c> chat</c><00:02:32.320><c> window.</c>
+
+00:02:32.870 --> 00:02:32.880 align:start position:0%
+Arcade, all from a single chat window.
+ 
+
+00:02:32.880 --> 00:02:34.550 align:start position:0%
+Arcade, all from a single chat window.
+Pretty<00:02:33.080><c> neat</c><00:02:33.240><c> stuff.</c><00:02:33.760><c> This</c><00:02:34.000><c> means</c><00:02:34.200><c> you</c><00:02:34.320><c> save</c>
+
+00:02:34.550 --> 00:02:34.560 align:start position:0%
+Pretty neat stuff. This means you save
+ 
+
+00:02:34.560 --> 00:02:35.870 align:start position:0%
+Pretty neat stuff. This means you save
+time<00:02:34.880><c> when</c><00:02:35.000><c> most</c><00:02:35.240><c> creators</c><00:02:35.600><c> are</c><00:02:35.680><c> tool</c>
+
+00:02:35.870 --> 00:02:35.880 align:start position:0%
+time when most creators are tool
+ 
+
+00:02:35.880 --> 00:02:37.790 align:start position:0%
+time when most creators are tool
+switching,<00:02:36.560><c> briefing</c><00:02:36.920><c> in</c><00:02:37.040><c> one</c><00:02:37.280><c> tab,</c>
+
+00:02:37.790 --> 00:02:37.800 align:start position:0%
+switching, briefing in one tab,
+ 
+
+00:02:37.800 --> 00:02:39.510 align:start position:0%
+switching, briefing in one tab,
+prompting<00:02:38.160><c> in</c><00:02:38.240><c> another,</c><00:02:38.920><c> generating</c><00:02:39.400><c> in</c><00:02:39.480><c> a</c>
+
+00:02:39.510 --> 00:02:39.520 align:start position:0%
+prompting in another, generating in a
+ 
+
+00:02:39.520 --> 00:02:41.870 align:start position:0%
+prompting in another, generating in a
+third,<00:02:40.240><c> and</c><00:02:40.400><c> downloading,</c><00:02:41.120><c> uploading,</c><00:02:41.560><c> etc.,</c>
+
+00:02:41.870 --> 00:02:41.880 align:start position:0%
+third, and downloading, uploading, etc.,
+ 
+
+00:02:41.880 --> 00:02:44.270 align:start position:0%
+third, and downloading, uploading, etc.,
+etc.<00:02:42.480><c> Arcade</c><00:02:42.920><c> cuts</c><00:02:43.360><c> all</c><00:02:43.520><c> of</c><00:02:43.600><c> this</c><00:02:43.800><c> movement,</c>
+
+00:02:44.270 --> 00:02:44.280 align:start position:0%
+etc. Arcade cuts all of this movement,
+ 
+
+00:02:44.280 --> 00:02:46.150 align:start position:0%
+etc. Arcade cuts all of this movement,
+and<00:02:44.400><c> Claude</c><00:02:44.720><c> manages</c><00:02:45.280><c> it</c><00:02:45.400><c> all</c><00:02:45.520><c> for</c><00:02:45.720><c> you.</c><00:02:46.040><c> Now,</c>
+
+00:02:46.150 --> 00:02:46.160 align:start position:0%
+and Claude manages it all for you. Now,
+ 
+
+00:02:46.160 --> 00:02:48.350 align:start position:0%
+and Claude manages it all for you. Now,
+how<00:02:46.280><c> do</c><00:02:46.360><c> we</c><00:02:46.480><c> connect</c><00:02:46.800><c> it?</c><00:02:47.160><c> Easy.</c><00:02:47.640><c> Open</c><00:02:47.920><c> Claude,</c>
+
+00:02:48.350 --> 00:02:48.360 align:start position:0%
+how do we connect it? Easy. Open Claude,
+ 
+
+00:02:48.360 --> 00:02:50.590 align:start position:0%
+how do we connect it? Easy. Open Claude,
+go<00:02:48.480><c> to</c><00:02:48.640><c> Settings,</c><00:02:49.120><c> Connectors,</c><00:02:49.800><c> or</c><00:02:49.920><c> the</c><00:02:50.080><c> MCP</c>
+
+00:02:50.590 --> 00:02:50.600 align:start position:0%
+go to Settings, Connectors, or the MCP
+ 
+
+00:02:50.600 --> 00:02:52.590 align:start position:0%
+go to Settings, Connectors, or the MCP
+section,<00:02:50.959><c> depending</c><00:02:51.440><c> on</c><00:02:51.560><c> your</c><00:02:51.680><c> version.</c>
+
+00:02:52.590 --> 00:02:52.600 align:start position:0%
+section, depending on your version.
+ 
+
+00:02:52.600 --> 00:02:55.630 align:start position:0%
+section, depending on your version.
+Click<00:02:53.000><c> Add</c><00:02:53.240><c> Connector</c><00:02:53.800><c> or</c><00:02:54.080><c> Add</c><00:02:54.400><c> Custom</c><00:02:54.840><c> MCP</c>
+
+00:02:55.630 --> 00:02:55.640 align:start position:0%
+Click Add Connector or Add Custom MCP
+ 
+
+00:02:55.640 --> 00:02:57.710 align:start position:0%
+Click Add Connector or Add Custom MCP
+and<00:02:55.760><c> paste</c><00:02:56.120><c> this</c><00:02:56.360><c> URL.</c><00:02:57.160><c> You</c><00:02:57.280><c> can</c><00:02:57.400><c> pause</c><00:02:57.640><c> the</c>
+
+00:02:57.710 --> 00:02:57.720 align:start position:0%
+and paste this URL. You can pause the
+ 
+
+00:02:57.720 --> 00:02:59.750 align:start position:0%
+and paste this URL. You can pause the
+video,<00:02:58.040><c> it'll</c><00:02:58.240><c> be</c><00:02:58.320><c> on</c><00:02:58.440><c> screen.</c><00:02:59.200><c> Sign</c><00:02:59.519><c> in</c><00:02:59.640><c> with</c>
+
+00:02:59.750 --> 00:02:59.760 align:start position:0%
+video, it'll be on screen. Sign in with
+ 
+
+00:02:59.760 --> 00:03:01.470 align:start position:0%
+video, it'll be on screen. Sign in with
+your<00:02:59.880><c> Arcade</c><00:03:00.200><c> account,</c><00:03:00.640><c> and</c><00:03:00.760><c> that's</c><00:03:01.000><c> it.</c>
+
+00:03:01.470 --> 00:03:01.480 align:start position:0%
+your Arcade account, and that's it.
+ 
+
+00:03:01.480 --> 00:03:03.030 align:start position:0%
+your Arcade account, and that's it.
+Claude<00:03:01.720><c> now</c><00:03:01.880><c> has</c><00:03:02.120><c> full</c><00:03:02.400><c> access</c><00:03:02.800><c> to</c><00:03:02.880><c> your</c>
+
+00:03:03.030 --> 00:03:03.040 align:start position:0%
+Claude now has full access to your
+ 
+
+00:03:03.040 --> 00:03:04.949 align:start position:0%
+Claude now has full access to your
+Arcade<00:03:03.360><c> Studio.</c><00:03:03.760><c> How</c><00:03:03.880><c> fast</c><00:03:04.160><c> was</c><00:03:04.280><c> that?</c><00:03:04.800><c> So,</c>
+
+00:03:04.949 --> 00:03:04.959 align:start position:0%
+Arcade Studio. How fast was that? So,
+ 
+
+00:03:04.959 --> 00:03:06.750 align:start position:0%
+Arcade Studio. How fast was that? So,
+let's<00:03:05.200><c> hand</c><00:03:05.440><c> Arcade</c><00:03:05.840><c> the</c><00:03:05.959><c> research</c><00:03:06.519><c> and</c><00:03:06.640><c> let</c>
+
+00:03:06.750 --> 00:03:06.760 align:start position:0%
+let's hand Arcade the research and let
+ 
+
+00:03:06.760 --> 00:03:08.390 align:start position:0%
+let's hand Arcade the research and let
+it<00:03:06.840><c> do</c><00:03:06.920><c> the</c><00:03:07.000><c> work.</c><00:03:07.400><c> Here's</c><00:03:07.560><c> the</c><00:03:07.640><c> prompt.</c><00:03:08.160><c> You</c>
+
+00:03:08.390 --> 00:03:08.400 align:start position:0%
+it do the work. Here's the prompt. You
+ 
+
+00:03:08.400 --> 00:03:10.430 align:start position:0%
+it do the work. Here's the prompt. You
+are<00:03:08.560><c> a</c><00:03:08.640><c> senior</c><00:03:09.080><c> performance</c><00:03:09.560><c> marketer</c><00:03:10.239><c> and</c>
+
+00:03:10.430 --> 00:03:10.440 align:start position:0%
+are a senior performance marketer and
+ 
+
+00:03:10.440 --> 00:03:12.870 align:start position:0%
+are a senior performance marketer and
+UGC<00:03:11.120><c> ad</c><00:03:11.400><c> script</c><00:03:11.720><c> writer.</c><00:03:12.320><c> In</c><00:03:12.400><c> this</c><00:03:12.519><c> case,</c><00:03:12.760><c> my</c>
+
+00:03:12.870 --> 00:03:12.880 align:start position:0%
+UGC ad script writer. In this case, my
+ 
+
+00:03:12.880 --> 00:03:15.070 align:start position:0%
+UGC ad script writer. In this case, my
+product<00:03:13.239><c> is</c><00:03:13.519><c> women's</c><00:03:13.840><c> pajamas.</c><00:03:14.760><c> What</c><00:03:14.959><c> it</c>
+
+00:03:15.070 --> 00:03:15.080 align:start position:0%
+product is women's pajamas. What it
+ 
+
+00:03:15.080 --> 00:03:17.310 align:start position:0%
+product is women's pajamas. What it
+does,<00:03:15.800><c> stylish</c><00:03:16.320><c> and</c><00:03:16.400><c> comfortable</c><00:03:16.720><c> pajamas</c>
+
+00:03:17.310 --> 00:03:17.320 align:start position:0%
+does, stylish and comfortable pajamas
+ 
+
+00:03:17.320 --> 00:03:19.070 align:start position:0%
+does, stylish and comfortable pajamas
+that<00:03:17.480><c> keeps</c><00:03:17.800><c> up</c><00:03:17.920><c> with</c><00:03:18.040><c> current</c><00:03:18.320><c> trends</c><00:03:18.880><c> and</c>
+
+00:03:19.070 --> 00:03:19.080 align:start position:0%
+that keeps up with current trends and
+ 
+
+00:03:19.080 --> 00:03:20.949 align:start position:0%
+that keeps up with current trends and
+fits<00:03:19.360><c> better</c><00:03:19.840><c> than</c><00:03:20.000><c> other</c><00:03:20.160><c> pajama</c><00:03:20.480><c> brands.</c>
+
+00:03:20.949 --> 00:03:20.959 align:start position:0%
+fits better than other pajama brands.
+ 
+
+00:03:20.959 --> 00:03:23.470 align:start position:0%
+fits better than other pajama brands.
+Target<00:03:21.320><c> audience,</c><00:03:21.800><c> 18-29</c><00:03:22.760><c> year</c><00:03:22.880><c> old</c><00:03:23.000><c> females</c>
+
+00:03:23.470 --> 00:03:23.480 align:start position:0%
+Target audience, 18-29 year old females
+ 
+
+00:03:23.480 --> 00:03:25.910 align:start position:0%
+Target audience, 18-29 year old females
+that<00:03:23.640><c> love</c><00:03:23.959><c> comfy,</c><00:03:24.400><c> cozy</c><00:03:24.720><c> pajamas.</c><00:03:25.440><c> Platform,</c>
+
+00:03:25.910 --> 00:03:25.920 align:start position:0%
+that love comfy, cozy pajamas. Platform,
+ 
+
+00:03:25.920 --> 00:03:27.910 align:start position:0%
+that love comfy, cozy pajamas. Platform,
+Meta,<00:03:26.280><c> TikTok,</c><00:03:26.720><c> Instagram</c><00:03:27.120><c> Reels.</c><00:03:27.720><c> Do</c><00:03:27.840><c> the</c>
+
+00:03:27.910 --> 00:03:27.920 align:start position:0%
+Meta, TikTok, Instagram Reels. Do the
+ 
+
+00:03:27.920 --> 00:03:30.270 align:start position:0%
+Meta, TikTok, Instagram Reels. Do the
+following.<00:03:28.600><c> One,</c><00:03:29.120><c> identify</c><00:03:29.640><c> the</c><00:03:29.800><c> top</c><00:03:30.080><c> three</c>
+
+00:03:30.270 --> 00:03:30.280 align:start position:0%
+following. One, identify the top three
+ 
+
+00:03:30.280 --> 00:03:32.670 align:start position:0%
+following. One, identify the top three
+pain<00:03:30.560><c> points</c><00:03:30.880><c> this</c><00:03:31.040><c> product</c><00:03:31.320><c> solves.</c><00:03:32.200><c> Two,</c>
+
+00:03:32.670 --> 00:03:32.680 align:start position:0%
+pain points this product solves. Two,
+ 
+
+00:03:32.680 --> 00:03:35.470 align:start position:0%
+pain points this product solves. Two,
+write<00:03:32.920><c> five</c><00:03:33.280><c> UGC</c><00:03:33.800><c> ad</c><00:03:34.000><c> scripts,</c><00:03:34.640><c> one</c><00:03:34.920><c> per</c><00:03:35.160><c> pain</c>
+
+00:03:35.470 --> 00:03:35.480 align:start position:0%
+write five UGC ad scripts, one per pain
+ 
+
+00:03:35.480 --> 00:03:38.910 align:start position:0%
+write five UGC ad scripts, one per pain
+point<00:03:35.840><c> angle.</c><00:03:36.720><c> Each</c><00:03:36.959><c> script</c><00:03:37.560><c> 18-20</c><00:03:38.200><c> seconds,</c>
+
+00:03:38.910 --> 00:03:38.920 align:start position:0%
+point angle. Each script 18-20 seconds,
+ 
+
+00:03:38.920 --> 00:03:41.270 align:start position:0%
+point angle. Each script 18-20 seconds,
+natural<00:03:39.320><c> spoken</c><00:03:39.720><c> language,</c><00:03:40.320><c> cold</c><00:03:40.600><c> audience.</c>
+
+00:03:41.270 --> 00:03:41.280 align:start position:0%
+natural spoken language, cold audience.
+ 
+
+00:03:41.280 --> 00:03:45.030 align:start position:0%
+natural spoken language, cold audience.
+Structure,<00:03:42.120><c> hook</c><00:03:42.680><c> 0-3</c><00:03:43.160><c> seconds,</c><00:03:43.959><c> problem</c><00:03:44.600><c> 3-8</c>
+
+00:03:45.030 --> 00:03:45.040 align:start position:0%
+Structure, hook 0-3 seconds, problem 3-8
+ 
+
+00:03:45.040 --> 00:03:48.470 align:start position:0%
+Structure, hook 0-3 seconds, problem 3-8
+seconds,<00:03:45.600><c> solution</c><00:03:46.519><c> 8-15</c><00:03:47.080><c> seconds,</c><00:03:47.760><c> proof</c>
+
+00:03:48.470 --> 00:03:48.480 align:start position:0%
+seconds, solution 8-15 seconds, proof
+ 
+
+00:03:48.480 --> 00:03:52.750 align:start position:0%
+seconds, solution 8-15 seconds, proof
+15-18<00:03:49.160><c> seconds,</c><00:03:49.800><c> CTA</c><00:03:50.640><c> 18-20</c><00:03:51.280><c> seconds.</c><00:03:52.080><c> Three,</c>
+
+00:03:52.750 --> 00:03:52.760 align:start position:0%
+15-18 seconds, CTA 18-20 seconds. Three,
+ 
+
+00:03:52.760 --> 00:03:55.230 align:start position:0%
+15-18 seconds, CTA 18-20 seconds. Three,
+score<00:03:53.280><c> each</c><00:03:53.480><c> script</c><00:03:53.760><c> out</c><00:03:53.880><c> of</c><00:03:54.000><c> 10,</c><00:03:54.640><c> only</c><00:03:54.960><c> keep</c>
+
+00:03:55.230 --> 00:03:55.240 align:start position:0%
+score each script out of 10, only keep
+ 
+
+00:03:55.240 --> 00:03:58.470 align:start position:0%
+score each script out of 10, only keep
+scripts<00:03:55.600><c> scoring</c><00:03:55.920><c> 9.5</c><00:03:56.840><c> or</c><00:03:57.000><c> above.</c><00:03:57.920><c> Four,</c>
+
+00:03:58.470 --> 00:03:58.480 align:start position:0%
+scripts scoring 9.5 or above. Four,
+ 
+
+00:03:58.480 --> 00:04:00.150 align:start position:0%
+scripts scoring 9.5 or above. Four,
+suggest<00:03:58.920><c> the</c><00:03:59.000><c> ideal</c><00:03:59.360><c> actor</c><00:03:59.600><c> type</c><00:03:59.840><c> for</c><00:04:00.000><c> each</c>
+
+00:04:00.150 --> 00:04:00.160 align:start position:0%
+suggest the ideal actor type for each
+ 
+
+00:04:00.160 --> 00:04:03.030 align:start position:0%
+suggest the ideal actor type for each
+script,<00:04:00.800><c> age,</c><00:04:01.200><c> gender,</c><00:04:01.680><c> setting,</c><00:04:02.200><c> emotion.</c>
+
+00:04:03.030 --> 00:04:03.040 align:start position:0%
+script, age, gender, setting, emotion.
+ 
+
+00:04:03.040 --> 00:04:04.630 align:start position:0%
+script, age, gender, setting, emotion.
+So,<00:04:03.160><c> Claude</c><00:04:03.480><c> will</c><00:04:03.640><c> output</c><00:04:03.960><c> your</c><00:04:04.080><c> scripts</c><00:04:04.520><c> and</c>
+
+00:04:04.630 --> 00:04:04.640 align:start position:0%
+So, Claude will output your scripts and
+ 
+
+00:04:04.640 --> 00:04:06.510 align:start position:0%
+So, Claude will output your scripts and
+actor<00:04:04.840><c> descriptions</c><00:04:05.400><c> in</c><00:04:05.640><c> minutes.</c><00:04:06.200><c> These</c><00:04:06.400><c> go</c>
+
+00:04:06.510 --> 00:04:06.520 align:start position:0%
+actor descriptions in minutes. These go
+ 
+
+00:04:06.520 --> 00:04:09.030 align:start position:0%
+actor descriptions in minutes. These go
+directly<00:04:07.040><c> into</c><00:04:07.280><c> your</c><00:04:07.440><c> Arcad's</c><00:04:07.920><c> MCP</c><00:04:08.360><c> commands,</c>
+
+00:04:09.030 --> 00:04:09.040 align:start position:0%
+directly into your Arcad's MCP commands,
+ 
+
+00:04:09.040 --> 00:04:10.910 align:start position:0%
+directly into your Arcad's MCP commands,
+copy,<00:04:09.360><c> paste,</c><00:04:09.880><c> and</c><00:04:10.040><c> run.</c><00:04:10.360><c> Now,</c><00:04:10.480><c> let's</c><00:04:10.680><c> build</c>
+
+00:04:10.910 --> 00:04:10.920 align:start position:0%
+copy, paste, and run. Now, let's build
+ 
+
+00:04:10.920 --> 00:04:13.070 align:start position:0%
+copy, paste, and run. Now, let's build
+the<00:04:11.040><c> ads.</c><00:04:11.520><c> Type</c><00:04:11.800><c> one</c><00:04:12.000><c> prompt</c><00:04:12.360><c> per</c><00:04:12.640><c> actor</c><00:04:12.880><c> into</c>
+
+00:04:13.070 --> 00:04:13.080 align:start position:0%
+the ads. Type one prompt per actor into
+ 
+
+00:04:13.080 --> 00:04:15.630 align:start position:0%
+the ads. Type one prompt per actor into
+Claude<00:04:13.520><c> like</c><00:04:13.680><c> this.</c><00:04:14.160><c> Using</c><00:04:14.520><c> Nano</c><00:04:14.760><c> Banana</c><00:04:15.080><c> Pro,</c>
+
+00:04:15.630 --> 00:04:15.640 align:start position:0%
+Claude like this. Using Nano Banana Pro,
+ 
+
+00:04:15.640 --> 00:04:17.390 align:start position:0%
+Claude like this. Using Nano Banana Pro,
+generate<00:04:16.079><c> an</c><00:04:16.200><c> image</c><00:04:16.600><c> of</c><00:04:16.720><c> a</c><00:04:16.799><c> woman</c><00:04:17.160><c> in</c><00:04:17.280><c> her</c>
+
+00:04:17.390 --> 00:04:17.400 align:start position:0%
+generate an image of a woman in her
+ 
+
+00:04:17.400 --> 00:04:19.870 align:start position:0%
+generate an image of a woman in her
+mid-20s,<00:04:18.320><c> long</c><00:04:18.600><c> brown</c><00:04:18.880><c> hair,</c><00:04:19.519><c> wearing</c><00:04:19.799><c> the</c>
+
+00:04:19.870 --> 00:04:19.880 align:start position:0%
+mid-20s, long brown hair, wearing the
+ 
+
+00:04:19.880 --> 00:04:22.030 align:start position:0%
+mid-20s, long brown hair, wearing the
+product<00:04:20.320><c> in</c><00:04:20.400><c> the</c><00:04:20.480><c> attached</c><00:04:20.959><c> reference</c><00:04:21.359><c> image,</c>
+
+00:04:22.030 --> 00:04:22.040 align:start position:0%
+product in the attached reference image,
+ 
+
+00:04:22.040 --> 00:04:23.710 align:start position:0%
+product in the attached reference image,
+bedroom<00:04:22.360><c> background.</c><00:04:23.240><c> Keep</c><00:04:23.360><c> the</c><00:04:23.440><c> product</c>
+
+00:04:23.710 --> 00:04:23.720 align:start position:0%
+bedroom background. Keep the product
+ 
+
+00:04:23.720 --> 00:04:26.070 align:start position:0%
+bedroom background. Keep the product
+exactly<00:04:24.000><c> as</c><00:04:24.120><c> shown,</c><00:04:24.680><c> no</c><00:04:24.880><c> changes.</c><00:04:25.800><c> So,</c><00:04:25.880><c> make</c>
+
+00:04:26.070 --> 00:04:26.080 align:start position:0%
+exactly as shown, no changes. So, make
+ 
+
+00:04:26.080 --> 00:04:27.909 align:start position:0%
+exactly as shown, no changes. So, make
+sure<00:04:26.240><c> you</c><00:04:26.320><c> attach</c><00:04:26.760><c> the</c><00:04:26.880><c> product</c><00:04:27.440><c> reference</c>
+
+00:04:27.909 --> 00:04:27.919 align:start position:0%
+sure you attach the product reference
+ 
+
+00:04:27.919 --> 00:04:29.950 align:start position:0%
+sure you attach the product reference
+image<00:04:28.240><c> each</c><00:04:28.480><c> time,</c><00:04:29.120><c> and</c><00:04:29.240><c> then</c><00:04:29.400><c> repeat</c><00:04:29.760><c> this</c>
+
+00:04:29.950 --> 00:04:29.960 align:start position:0%
+image each time, and then repeat this
+ 
+
+00:04:29.960 --> 00:04:31.909 align:start position:0%
+image each time, and then repeat this
+for<00:04:30.120><c> all</c><00:04:30.280><c> five</c><00:04:30.560><c> actors.</c><00:04:31.360><c> And</c><00:04:31.480><c> here</c><00:04:31.600><c> we</c><00:04:31.680><c> can</c><00:04:31.800><c> see</c>
+
+00:04:31.909 --> 00:04:31.919 align:start position:0%
+for all five actors. And here we can see
+ 
+
+00:04:31.919 --> 00:04:33.790 align:start position:0%
+for all five actors. And here we can see
+them<00:04:32.040><c> being</c><00:04:32.240><c> generated</c><00:04:32.840><c> at</c><00:04:33.120><c> the</c><00:04:33.240><c> same</c><00:04:33.520><c> time,</c>
+
+00:04:33.790 --> 00:04:33.800 align:start position:0%
+them being generated at the same time,
+ 
+
+00:04:33.800 --> 00:04:35.710 align:start position:0%
+them being generated at the same time,
+which<00:04:34.040><c> really</c><00:04:34.400><c> impressive.</c><00:04:35.280><c> Now,</c><00:04:35.360><c> it's</c><00:04:35.480><c> very</c>
+
+00:04:35.710 --> 00:04:35.720 align:start position:0%
+which really impressive. Now, it's very
+ 
+
+00:04:35.720 --> 00:04:38.030 align:start position:0%
+which really impressive. Now, it's very
+important<00:04:36.200><c> to</c><00:04:36.280><c> approve</c><00:04:36.840><c> each</c><00:04:37.120><c> image</c><00:04:37.520><c> before</c>
+
+00:04:38.030 --> 00:04:38.040 align:start position:0%
+important to approve each image before
+ 
+
+00:04:38.040 --> 00:04:39.830 align:start position:0%
+important to approve each image before
+we<00:04:38.160><c> turn</c><00:04:38.480><c> them</c><00:04:38.600><c> into</c><00:04:38.760><c> videos.</c><00:04:39.400><c> You</c><00:04:39.560><c> want</c><00:04:39.720><c> to</c>
+
+00:04:39.830 --> 00:04:39.840 align:start position:0%
+we turn them into videos. You want to
+ 
+
+00:04:39.840 --> 00:04:42.070 align:start position:0%
+we turn them into videos. You want to
+review<00:04:40.360><c> each</c><00:04:40.680><c> generated</c><00:04:41.240><c> actor</c><00:04:41.520><c> image</c><00:04:41.840><c> in</c>
+
+00:04:42.070 --> 00:04:42.080 align:start position:0%
+review each generated actor image in
+ 
+
+00:04:42.080 --> 00:04:44.630 align:start position:0%
+review each generated actor image in
+Claude,<00:04:42.760><c> and</c><00:04:42.880><c> if</c><00:04:43.080><c> anything</c><00:04:43.520><c> is</c><00:04:43.800><c> off</c><00:04:44.080><c> like,</c><00:04:44.560><c> you</c>
+
+00:04:44.630 --> 00:04:44.640 align:start position:0%
+Claude, and if anything is off like, you
+ 
+
+00:04:44.640 --> 00:04:46.270 align:start position:0%
+Claude, and if anything is off like, you
+know,<00:04:44.680><c> the</c><00:04:44.760><c> pajamas</c><00:04:45.280><c> look</c><00:04:45.520><c> weird,</c><00:04:46.040><c> I'm</c><00:04:46.160><c> then</c>
+
+00:04:46.270 --> 00:04:46.280 align:start position:0%
+know, the pajamas look weird, I'm then
+ 
+
+00:04:46.280 --> 00:04:47.950 align:start position:0%
+know, the pajamas look weird, I'm then
+going<00:04:46.400><c> to</c><00:04:46.440><c> write</c><00:04:46.640><c> a</c><00:04:46.680><c> simple</c><00:04:47.120><c> prompt</c><00:04:47.440><c> to</c><00:04:47.560><c> fix</c>
+
+00:04:47.950 --> 00:04:47.960 align:start position:0%
+going to write a simple prompt to fix
+ 
+
+00:04:47.960 --> 00:04:49.750 align:start position:0%
+going to write a simple prompt to fix
+what's<00:04:48.320><c> wrong.</c><00:04:48.880><c> It's</c><00:04:49.040><c> much</c><00:04:49.360><c> cheaper</c><00:04:49.600><c> and</c>
+
+00:04:49.750 --> 00:04:49.760 align:start position:0%
+what's wrong. It's much cheaper and
+ 
+
+00:04:49.760 --> 00:04:52.030 align:start position:0%
+what's wrong. It's much cheaper and
+faster<00:04:50.240><c> to</c><00:04:50.400><c> do</c><00:04:50.560><c> it</c><00:04:50.680><c> that</c><00:04:50.800><c> way</c><00:04:50.919><c> and</c><00:04:51.040><c> fix</c><00:04:51.280><c> it</c><00:04:51.400><c> now</c>
+
+00:04:52.030 --> 00:04:52.040 align:start position:0%
+faster to do it that way and fix it now
+ 
+
+00:04:52.040 --> 00:04:53.550 align:start position:0%
+faster to do it that way and fix it now
+as<00:04:52.160><c> opposed</c><00:04:52.440><c> to</c><00:04:52.640><c> after</c><00:04:53.000><c> the</c><00:04:53.120><c> video's</c><00:04:53.440><c> been</c>
+
+00:04:53.550 --> 00:04:53.560 align:start position:0%
+as opposed to after the video's been
+ 
+
+00:04:53.560 --> 00:04:55.590 align:start position:0%
+as opposed to after the video's been
+generated.<00:04:54.280><c> And</c><00:04:54.400><c> then</c><00:04:54.560><c> once</c><00:04:54.800><c> all</c><00:04:54.919><c> five</c><00:04:55.320><c> actor</c>
+
+00:04:55.590 --> 00:04:55.600 align:start position:0%
+generated. And then once all five actor
+ 
+
+00:04:55.600 --> 00:04:57.350 align:start position:0%
+generated. And then once all five actor
+images<00:04:55.919><c> are</c><00:04:56.040><c> approved,</c><00:04:56.800><c> you</c><00:04:56.880><c> can</c><00:04:57.000><c> generate</c>
+
+00:04:57.350 --> 00:04:57.360 align:start position:0%
+images are approved, you can generate
+ 
+
+00:04:57.360 --> 00:04:58.950 align:start position:0%
+images are approved, you can generate
+the<00:04:57.440><c> videos.</c><00:04:58.080><c> So,</c><00:04:58.200><c> you</c><00:04:58.240><c> need</c><00:04:58.360><c> to</c><00:04:58.440><c> type</c><00:04:58.720><c> one</c>
+
+00:04:58.950 --> 00:04:58.960 align:start position:0%
+the videos. So, you need to type one
+ 
+
+00:04:58.960 --> 00:05:01.110 align:start position:0%
+the videos. So, you need to type one
+prompt<00:04:59.440><c> per</c><00:04:59.840><c> actor,</c><00:05:00.680><c> and</c><00:05:00.760><c> it'll</c><00:05:00.880><c> be</c><00:05:00.960><c> like</c>
+
+00:05:01.110 --> 00:05:01.120 align:start position:0%
+prompt per actor, and it'll be like
+ 
+
+00:05:01.120 --> 00:05:03.350 align:start position:0%
+prompt per actor, and it'll be like
+this.<00:05:01.800><c> Using</c><00:05:02.120><c> the</c><00:05:02.200><c> approved</c><00:05:02.600><c> image</c><00:05:02.880><c> of</c><00:05:03.080><c> actor</c>
+
+00:05:03.350 --> 00:05:03.360 align:start position:0%
+this. Using the approved image of actor
+ 
+
+00:05:03.360 --> 00:05:06.590 align:start position:0%
+this. Using the approved image of actor
+one,<00:05:03.840><c> create</c><00:05:04.200><c> a</c><00:05:04.320><c> 10</c><00:05:04.680><c> to</c><00:05:04.800><c> 12-second</c><00:05:05.520><c> UGC</c><00:05:06.160><c> video</c>
+
+00:05:06.590 --> 00:05:06.600 align:start position:0%
+one, create a 10 to 12-second UGC video
+ 
+
+00:05:06.600 --> 00:05:09.110 align:start position:0%
+one, create a 10 to 12-second UGC video
+using<00:05:07.040><c> Seedance</c><00:05:07.520><c> 2.0,</c><00:05:08.560><c> and</c><00:05:08.680><c> of</c><00:05:08.760><c> course,</c>
+
+00:05:09.110 --> 00:05:09.120 align:start position:0%
+using Seedance 2.0, and of course,
+ 
+
+00:05:09.120 --> 00:05:10.830 align:start position:0%
+using Seedance 2.0, and of course,
+Seedance<00:05:09.600><c> 2.0</c><00:05:10.160><c> will</c><00:05:10.240><c> be</c><00:05:10.360><c> used</c><00:05:10.600><c> through</c>
+
+00:05:10.830 --> 00:05:10.840 align:start position:0%
+Seedance 2.0 will be used through
+ 
+
+00:05:10.840 --> 00:05:13.710 align:start position:0%
+Seedance 2.0 will be used through
+Arcad's<00:05:11.400><c> MCP.</c><00:05:12.640><c> She</c><00:05:12.720><c> should</c><00:05:12.880><c> speak</c><00:05:13.120><c> naturally</c>
+
+00:05:13.710 --> 00:05:13.720 align:start position:0%
+Arcad's MCP. She should speak naturally
+ 
+
+00:05:13.720 --> 00:05:15.870 align:start position:0%
+Arcad's MCP. She should speak naturally
+and<00:05:13.880><c> say,</c><00:05:14.800><c> and</c><00:05:14.919><c> this</c><00:05:15.040><c> is</c><00:05:15.120><c> where</c><00:05:15.280><c> you'd</c><00:05:15.400><c> insert</c>
+
+00:05:15.870 --> 00:05:15.880 align:start position:0%
+and say, and this is where you'd insert
+ 
+
+00:05:15.880 --> 00:05:17.590 align:start position:0%
+and say, and this is where you'd insert
+Claude's<00:05:16.240><c> script</c><00:05:16.680><c> for</c><00:05:16.880><c> this</c><00:05:17.120><c> actor</c><00:05:17.400><c> that</c><00:05:17.520><c> we</c>
+
+00:05:17.590 --> 00:05:17.600 align:start position:0%
+Claude's script for this actor that we
+ 
+
+00:05:17.600 --> 00:05:19.190 align:start position:0%
+Claude's script for this actor that we
+did<00:05:17.720><c> in</c><00:05:17.800><c> the</c><00:05:17.840><c> previous</c><00:05:18.200><c> step.</c>
+
+00:05:19.190 --> 00:05:19.200 align:start position:0%
+did in the previous step.
+ 
+
+00:05:19.200 --> 00:05:21.830 align:start position:0%
+did in the previous step.
+Handheld<00:05:19.720><c> feel,</c><00:05:20.200><c> vertical</c><00:05:20.640><c> format,</c><00:05:21.200><c> candid,</c>
+
+00:05:21.830 --> 00:05:21.840 align:start position:0%
+Handheld feel, vertical format, candid,
+ 
+
+00:05:21.840 --> 00:05:23.750 align:start position:0%
+Handheld feel, vertical format, candid,
+and<00:05:21.919><c> authentic.</c><00:05:22.880><c> So,</c><00:05:23.000><c> each</c><00:05:23.200><c> video</c><00:05:23.440><c> will</c><00:05:23.520><c> take</c>
+
+00:05:23.750 --> 00:05:23.760 align:start position:0%
+and authentic. So, each video will take
+ 
+
+00:05:23.760 --> 00:05:25.110 align:start position:0%
+and authentic. So, each video will take
+three<00:05:23.919><c> to</c><00:05:24.040><c> five</c><00:05:24.240><c> minutes.</c><00:05:24.760><c> You'll</c><00:05:24.919><c> want</c><00:05:25.040><c> to</c>
+
+00:05:25.110 --> 00:05:25.120 align:start position:0%
+three to five minutes. You'll want to
+ 
+
+00:05:25.120 --> 00:05:27.190 align:start position:0%
+three to five minutes. You'll want to
+repeat<00:05:25.480><c> this</c><00:05:25.640><c> for</c><00:05:25.840><c> all</c><00:05:26.000><c> five</c><00:05:26.360><c> of</c><00:05:26.440><c> your</c><00:05:26.560><c> actors.</c>
+
+00:05:27.190 --> 00:05:27.200 align:start position:0%
+repeat this for all five of your actors.
+ 
+
+00:05:27.200 --> 00:05:29.030 align:start position:0%
+repeat this for all five of your actors.
+And<00:05:27.320><c> then</c><00:05:27.440><c> once</c><00:05:27.640><c> these</c><00:05:27.800><c> are</c><00:05:27.880><c> all</c><00:05:28.040><c> ready,</c><00:05:28.320><c> type,</c>
+
+00:05:29.030 --> 00:05:29.040 align:start position:0%
+And then once these are all ready, type,
+ 
+
+00:05:29.040 --> 00:05:30.830 align:start position:0%
+And then once these are all ready, type,
+give<00:05:29.240><c> me</c><00:05:29.360><c> the</c><00:05:29.480><c> download</c><00:05:30.000><c> links</c><00:05:30.240><c> for</c><00:05:30.400><c> all</c><00:05:30.560><c> five</c>
+
+00:05:30.830 --> 00:05:30.840 align:start position:0%
+give me the download links for all five
+ 
+
+00:05:30.840 --> 00:05:32.990 align:start position:0%
+give me the download links for all five
+videos<00:05:31.480><c> into</c><00:05:31.720><c> Claude.</c><00:05:32.520><c> Now,</c><00:05:32.680><c> let's</c><00:05:32.840><c> have</c><00:05:32.960><c> a</c>
+
+00:05:32.990 --> 00:05:33.000 align:start position:0%
+videos into Claude. Now, let's have a
+ 
+
+00:05:33.000 --> 00:05:34.110 align:start position:0%
+videos into Claude. Now, let's have a
+look<00:05:33.200><c> at</c><00:05:33.280><c> our</c><00:05:33.400><c> output.</c>
+
+00:05:34.110 --> 00:05:34.120 align:start position:0%
+look at our output.
+ 
+
+00:05:34.120 --> 00:05:36.830 align:start position:0%
+look at our output.
+&gt;&gt; Okay,<00:05:34.440><c> so</c><00:05:34.840><c> spring</c><00:05:35.360><c> is</c><00:05:35.520><c> finally</c><00:05:35.960><c> here,</c><00:05:36.360><c> and</c><00:05:36.600><c> I</c>
+
+00:05:36.830 --> 00:05:36.840 align:start position:0%
+&gt;&gt; Okay, so spring is finally here, and I
+ 
+
+00:05:36.840 --> 00:05:39.990 align:start position:0%
+&gt;&gt; Okay, so spring is finally here, and I
+am<00:05:37.080><c> obsessed</c><00:05:38.080><c> with</c><00:05:38.240><c> this</c><00:05:38.480><c> set.</c><00:05:39.400><c> The</c><00:05:39.520><c> print,</c>
+
+00:05:39.990 --> 00:05:40.000 align:start position:0%
+am obsessed with this set. The print,
+ 
+
+00:05:40.000 --> 00:05:42.830 align:start position:0%
+am obsessed with this set. The print,
+the<00:05:40.160><c> fit,</c><00:05:41.120><c> everything.</c>
+
+00:05:42.830 --> 00:05:42.840 align:start position:0%
+the fit, everything.
+ 
+
+00:05:42.840 --> 00:05:45.230 align:start position:0%
+the fit, everything.
+This<00:05:43.040><c> is</c><00:05:43.400><c> genuinely</c><00:05:44.040><c> my</c><00:05:44.240><c> dream</c><00:05:44.840><c> spring</c>
+
+00:05:45.230 --> 00:05:45.240 align:start position:0%
+This is genuinely my dream spring
+ 
+
+00:05:45.240 --> 00:05:46.230 align:start position:0%
+This is genuinely my dream spring
+collection.
+
+00:05:46.230 --> 00:05:46.240 align:start position:0%
+collection.
+ 
+
+00:05:46.240 --> 00:05:47.630 align:start position:0%
+collection.
+&gt;&gt; What<00:05:46.320><c> I</c><00:05:46.360><c> want</c><00:05:46.520><c> to</c><00:05:46.600><c> highlight</c><00:05:47.000><c> here</c><00:05:47.160><c> isn't</c><00:05:47.440><c> just</c>
+
+00:05:47.630 --> 00:05:47.640 align:start position:0%
+&gt;&gt; What I want to highlight here isn't just
+ 
+
+00:05:47.640 --> 00:05:49.110 align:start position:0%
+&gt;&gt; What I want to highlight here isn't just
+that<00:05:47.760><c> these</c><00:05:47.960><c> look</c><00:05:48.120><c> good,</c><00:05:48.640><c> it's</c><00:05:48.840><c> what</c><00:05:49.000><c> they</c>
+
+00:05:49.110 --> 00:05:49.120 align:start position:0%
+that these look good, it's what they
+ 
+
+00:05:49.120 --> 00:05:50.870 align:start position:0%
+that these look good, it's what they
+represent.<00:05:49.720><c> So,</c><00:05:49.840><c> every</c><00:05:50.160><c> one</c><00:05:50.360><c> of</c><00:05:50.440><c> these</c><00:05:50.680><c> ads</c>
+
+00:05:50.870 --> 00:05:50.880 align:start position:0%
+represent. So, every one of these ads
+ 
+
+00:05:50.880 --> 00:05:52.670 align:start position:0%
+represent. So, every one of these ads
+was<00:05:51.000><c> built</c><00:05:51.200><c> directly</c><00:05:51.760><c> from</c><00:05:51.960><c> the</c><00:05:52.080><c> research</c><00:05:52.560><c> we</c>
+
+00:05:52.670 --> 00:05:52.680 align:start position:0%
+was built directly from the research we
+ 
+
+00:05:52.680 --> 00:05:55.070 align:start position:0%
+was built directly from the research we
+ran<00:05:52.880><c> at</c><00:05:52.960><c> the</c><00:05:53.040><c> start.</c><00:05:53.760><c> The</c><00:05:53.920><c> hooks,</c><00:05:54.800><c> pain</c>
+
+00:05:55.070 --> 00:05:55.080 align:start position:0%
+ran at the start. The hooks, pain
+ 
+
+00:05:55.080 --> 00:05:56.750 align:start position:0%
+ran at the start. The hooks, pain
+points,<00:05:55.320><c> the</c><00:05:55.400><c> archetypes,</c><00:05:56.200><c> all</c><00:05:56.360><c> of</c><00:05:56.480><c> it</c><00:05:56.560><c> came</c>
+
+00:05:56.750 --> 00:05:56.760 align:start position:0%
+points, the archetypes, all of it came
+ 
+
+00:05:56.760 --> 00:05:58.390 align:start position:0%
+points, the archetypes, all of it came
+from<00:05:56.920><c> data</c><00:05:57.200><c> on</c><00:05:57.320><c> what's</c><00:05:57.600><c> actually</c><00:05:57.920><c> converting</c>
+
+00:05:58.390 --> 00:05:58.400 align:start position:0%
+from data on what's actually converting
+ 
+
+00:05:58.400 --> 00:06:00.270 align:start position:0%
+from data on what's actually converting
+right<00:05:58.600><c> now.</c><00:05:59.120><c> That</c><00:05:59.280><c> means</c><00:05:59.440><c> when</c><00:05:59.560><c> we</c><00:05:59.640><c> go</c><00:05:59.760><c> to</c><00:05:59.920><c> test</c>
+
+00:06:00.270 --> 00:06:00.280 align:start position:0%
+right now. That means when we go to test
+ 
+
+00:06:00.280 --> 00:06:01.830 align:start position:0%
+right now. That means when we go to test
+these,<00:06:00.600><c> we're</c><00:06:00.720><c> not</c><00:06:00.960><c> guessing.</c><00:06:01.520><c> We're</c><00:06:01.600><c> putting</c>
+
+00:06:01.830 --> 00:06:01.840 align:start position:0%
+these, we're not guessing. We're putting
+ 
+
+00:06:01.840 --> 00:06:03.630 align:start position:0%
+these, we're not guessing. We're putting
+spend<00:06:02.160><c> behind</c><00:06:02.440><c> creative</c><00:06:02.800><c> we</c><00:06:02.960><c> already</c><00:06:03.360><c> have</c>
+
+00:06:03.630 --> 00:06:03.640 align:start position:0%
+spend behind creative we already have
+ 
+
+00:06:03.640 --> 00:06:05.590 align:start position:0%
+spend behind creative we already have
+good<00:06:03.880><c> reason</c><00:06:04.160><c> to</c><00:06:04.240><c> believe</c><00:06:04.560><c> will</c><00:06:04.800><c> work.</c><00:06:05.440><c> And</c><00:06:05.520><c> if</c>
+
+00:06:05.590 --> 00:06:05.600 align:start position:0%
+good reason to believe will work. And if
+ 
+
+00:06:05.600 --> 00:06:06.990 align:start position:0%
+good reason to believe will work. And if
+something<00:06:05.840><c> doesn't</c><00:06:06.120><c> perform,</c><00:06:06.720><c> we</c><00:06:06.840><c> can</c>
+
+00:06:06.990 --> 00:06:07.000 align:start position:0%
+something doesn't perform, we can
+ 
+
+00:06:07.000 --> 00:06:08.910 align:start position:0%
+something doesn't perform, we can
+iterate<00:06:07.360><c> immediately.</c><00:06:07.960><c> Same</c><00:06:08.240><c> workflow,</c><00:06:08.720><c> but</c>
+
+00:06:08.910 --> 00:06:08.920 align:start position:0%
+iterate immediately. Same workflow, but
+ 
+
+00:06:08.920 --> 00:06:10.990 align:start position:0%
+iterate immediately. Same workflow, but
+new<00:06:09.080><c> script,</c><00:06:09.640><c> back</c><00:06:09.880><c> in</c><00:06:09.960><c> minutes.</c><00:06:10.560><c> The</c><00:06:10.680><c> speed</c>
+
+00:06:10.990 --> 00:06:11.000 align:start position:0%
+new script, back in minutes. The speed
+ 
+
+00:06:11.000 --> 00:06:12.390 align:start position:0%
+new script, back in minutes. The speed
+and<00:06:11.080><c> cost</c><00:06:11.280><c> of</c><00:06:11.400><c> doing</c><00:06:11.600><c> this</c><00:06:11.800><c> versus</c><00:06:12.080><c> briefing</c>
+
+00:06:12.390 --> 00:06:12.400 align:start position:0%
+and cost of doing this versus briefing
+ 
+
+00:06:12.400 --> 00:06:14.710 align:start position:0%
+and cost of doing this versus briefing
+an<00:06:12.480><c> actor</c><00:06:12.920><c> or</c><00:06:13.000><c> an</c><00:06:13.120><c> agency</c><00:06:13.680><c> is</c><00:06:13.880><c> incomparable.</c>
+
+00:06:14.710 --> 00:06:14.720 align:start position:0%
+an actor or an agency is incomparable.
+ 
+
+00:06:14.720 --> 00:06:16.350 align:start position:0%
+an actor or an agency is incomparable.
+Now<00:06:14.920><c> it's</c><00:06:15.040><c> time</c><00:06:15.280><c> to</c><00:06:15.440><c> launch</c><00:06:15.720><c> them</c><00:06:15.920><c> and</c><00:06:16.080><c> track</c>
+
+00:06:16.350 --> 00:06:16.360 align:start position:0%
+Now it's time to launch them and track
+ 
+
+00:06:16.360 --> 00:06:17.990 align:start position:0%
+Now it's time to launch them and track
+them<00:06:16.480><c> on</c><00:06:16.600><c> Meta.</c><00:06:17.240><c> This</c><00:06:17.440><c> is</c><00:06:17.520><c> the</c><00:06:17.600><c> step</c><00:06:17.880><c> that</c>
+
+00:06:17.990 --> 00:06:18.000 align:start position:0%
+them on Meta. This is the step that
+ 
+
+00:06:18.000 --> 00:06:19.870 align:start position:0%
+them on Meta. This is the step that
+takes<00:06:18.200><c> the</c><00:06:18.280><c> workflow</c><00:06:18.720><c> from</c><00:06:18.960><c> impressive</c><00:06:19.720><c> to</c>
+
+00:06:19.870 --> 00:06:19.880 align:start position:0%
+takes the workflow from impressive to
+ 
+
+00:06:19.880 --> 00:06:21.710 align:start position:0%
+takes the workflow from impressive to
+complete.<00:06:20.760><c> You've</c><00:06:20.919><c> made</c><00:06:21.080><c> the</c><00:06:21.200><c> ads</c><00:06:21.360><c> inside</c>
+
+00:06:21.710 --> 00:06:21.720 align:start position:0%
+complete. You've made the ads inside
+ 
+
+00:06:21.720 --> 00:06:23.350 align:start position:0%
+complete. You've made the ads inside
+Claude,<00:06:22.120><c> now</c><00:06:22.320><c> launch</c><00:06:22.600><c> them</c><00:06:22.800><c> and</c><00:06:22.960><c> track</c><00:06:23.200><c> them</c>
+
+00:06:23.350 --> 00:06:23.360 align:start position:0%
+Claude, now launch them and track them
+ 
+
+00:06:23.360 --> 00:06:25.030 align:start position:0%
+Claude, now launch them and track them
+without<00:06:23.680><c> ever</c><00:06:23.919><c> leaving</c><00:06:24.200><c> Claude.</c><00:06:24.760><c> So,</c><00:06:24.880><c> let's</c>
+
+00:06:25.030 --> 00:06:25.040 align:start position:0%
+without ever leaving Claude. So, let's
+ 
+
+00:06:25.040 --> 00:06:26.270 align:start position:0%
+without ever leaving Claude. So, let's
+go<00:06:25.120><c> back</c><00:06:25.320><c> into</c><00:06:25.480><c> settings</c><00:06:26.000><c> and</c><00:06:26.120><c> then</c>
+
+00:06:26.270 --> 00:06:26.280 align:start position:0%
+go back into settings and then
+ 
+
+00:06:26.280 --> 00:06:28.270 align:start position:0%
+go back into settings and then
+connectors<00:06:26.840><c> inside</c><00:06:27.360><c> Claude.</c><00:06:27.880><c> You've</c><00:06:28.040><c> already</c>
+
+00:06:28.270 --> 00:06:28.280 align:start position:0%
+connectors inside Claude. You've already
+ 
+
+00:06:28.280 --> 00:06:30.070 align:start position:0%
+connectors inside Claude. You've already
+connected<00:06:28.720><c> Meta's</c><00:06:29.000><c> MCP,</c><00:06:29.400><c> so</c><00:06:29.520><c> Claude</c><00:06:29.800><c> already</c>
+
+00:06:30.070 --> 00:06:30.080 align:start position:0%
+connected Meta's MCP, so Claude already
+ 
+
+00:06:30.080 --> 00:06:32.030 align:start position:0%
+connected Meta's MCP, so Claude already
+has<00:06:30.240><c> access</c><00:06:30.919><c> to</c><00:06:31.000><c> your</c><00:06:31.120><c> accounts,</c><00:06:31.520><c> campaigns,</c>
+
+00:06:32.030 --> 00:06:32.040 align:start position:0%
+has access to your accounts, campaigns,
+ 
+
+00:06:32.040 --> 00:06:34.350 align:start position:0%
+has access to your accounts, campaigns,
+ad<00:06:32.160><c> sets,</c><00:06:32.440><c> creatives,</c><00:06:32.800><c> etc.</c><00:06:33.480><c> No</c><00:06:33.720><c> more</c><00:06:34.120><c> Ads</c>
+
+00:06:34.350 --> 00:06:34.360 align:start position:0%
+ad sets, creatives, etc. No more Ads
+ 
+
+00:06:34.360 --> 00:06:35.830 align:start position:0%
+ad sets, creatives, etc. No more Ads
+Manager<00:06:34.720><c> required,</c><00:06:35.200><c> no</c><00:06:35.360><c> more</c><00:06:35.520><c> manual</c>
+
+00:06:35.830 --> 00:06:35.840 align:start position:0%
+Manager required, no more manual
+ 
+
+00:06:35.840 --> 00:06:37.390 align:start position:0%
+Manager required, no more manual
+uploads.<00:06:36.600><c> This</c><00:06:36.760><c> certainly</c><00:06:37.040><c> would</c><00:06:37.160><c> have</c><00:06:37.240><c> saved</c>
+
+00:06:37.390 --> 00:06:37.400 align:start position:0%
+uploads. This certainly would have saved
+ 
+
+00:06:37.400 --> 00:06:39.550 align:start position:0%
+uploads. This certainly would have saved
+me<00:06:37.600><c> a</c><00:06:37.680><c> lot</c><00:06:37.919><c> of</c><00:06:38.000><c> time</c><00:06:38.360><c> over</c><00:06:38.480><c> last</c><00:06:38.680><c> 10</c><00:06:38.800><c> years.</c><00:06:39.480><c> And</c>
+
+00:06:39.550 --> 00:06:39.560 align:start position:0%
+me a lot of time over last 10 years. And
+ 
+
+00:06:39.560 --> 00:06:41.110 align:start position:0%
+me a lot of time over last 10 years. And
+once<00:06:39.760><c> your</c><00:06:39.840><c> videos</c><00:06:40.120><c> are</c><00:06:40.200><c> ready,</c><00:06:40.720><c> type</c><00:06:40.960><c> this</c>
+
+00:06:41.110 --> 00:06:41.120 align:start position:0%
+once your videos are ready, type this
+ 
+
+00:06:41.120 --> 00:06:43.350 align:start position:0%
+once your videos are ready, type this
+into<00:06:41.280><c> Claude.</c><00:06:41.919><c> Upload</c><00:06:42.280><c> these</c><00:06:42.520><c> five</c><00:06:42.840><c> videos</c><00:06:43.280><c> to</c>
+
+00:06:43.350 --> 00:06:43.360 align:start position:0%
+into Claude. Upload these five videos to
+ 
+
+00:06:43.360 --> 00:06:45.270 align:start position:0%
+into Claude. Upload these five videos to
+my<00:06:43.480><c> Meta</c><00:06:43.800><c> ad</c><00:06:43.919><c> account</c><00:06:44.240><c> as</c><00:06:44.320><c> new</c><00:06:44.520><c> creatives,</c><00:06:45.200><c> and</c>
+
+00:06:45.270 --> 00:06:45.280 align:start position:0%
+my Meta ad account as new creatives, and
+ 
+
+00:06:45.280 --> 00:06:46.550 align:start position:0%
+my Meta ad account as new creatives, and
+then<00:06:45.400><c> make</c><00:06:45.560><c> sure</c><00:06:45.680><c> you</c><00:06:45.800><c> paste</c><00:06:46.120><c> the</c><00:06:46.240><c> five</c>
+
+00:06:46.550 --> 00:06:46.560 align:start position:0%
+then make sure you paste the five
+ 
+
+00:06:46.560 --> 00:06:48.230 align:start position:0%
+then make sure you paste the five
+download<00:06:47.000><c> links</c><00:06:47.200><c> that</c><00:06:47.320><c> we</c><00:06:47.400><c> created</c><00:06:47.800><c> earlier.</c>
+
+00:06:48.230 --> 00:06:48.240 align:start position:0%
+download links that we created earlier.
+ 
+
+00:06:48.240 --> 00:06:49.950 align:start position:0%
+download links that we created earlier.
+Claude<00:06:48.480><c> will</c><00:06:48.600><c> then</c><00:06:48.760><c> upload</c><00:06:49.160><c> all</c><00:06:49.360><c> five</c><00:06:49.640><c> videos</c>
+
+00:06:49.950 --> 00:06:49.960 align:start position:0%
+Claude will then upload all five videos
+ 
+
+00:06:49.960 --> 00:06:52.710 align:start position:0%
+Claude will then upload all five videos
+directly<00:06:50.480><c> to</c><00:06:50.600><c> your</c><00:06:50.720><c> media</c><00:06:51.120><c> library</c><00:06:51.600><c> in</c><00:06:51.880><c> Meta.</c>
+
+00:06:52.710 --> 00:06:52.720 align:start position:0%
+directly to your media library in Meta.
+ 
+
+00:06:52.720 --> 00:06:54.310 align:start position:0%
+directly to your media library in Meta.
+Then<00:06:52.919><c> tell</c><00:06:53.080><c> Claude</c><00:06:53.440><c> exactly</c><00:06:53.960><c> what</c><00:06:54.080><c> you</c><00:06:54.160><c> want</c>
+
+00:06:54.310 --> 00:06:54.320 align:start position:0%
+Then tell Claude exactly what you want
+ 
+
+00:06:54.320 --> 00:06:56.830 align:start position:0%
+Then tell Claude exactly what you want
+to<00:06:54.400><c> do.</c><00:06:54.960><c> For</c><00:06:55.080><c> example,</c><00:06:55.680><c> create</c><00:06:56.040><c> a</c><00:06:56.080><c> new</c><00:06:56.360><c> Meta</c><00:06:56.720><c> ad</c>
+
+00:06:56.830 --> 00:06:56.840 align:start position:0%
+to do. For example, create a new Meta ad
+ 
+
+00:06:56.840 --> 00:06:59.790 align:start position:0%
+to do. For example, create a new Meta ad
+campaign<00:06:57.360><c> for</c><00:06:57.960><c> girl</c><00:06:58.200><c> uniform,</c><00:06:59.040><c> objective</c>
+
+00:06:59.790 --> 00:06:59.800 align:start position:0%
+campaign for girl uniform, objective
+ 
+
+00:06:59.800 --> 00:07:02.590 align:start position:0%
+campaign for girl uniform, objective
+sales,<00:07:00.600><c> budget</c><00:07:01.320><c> $30</c><00:07:01.760><c> a</c><00:07:01.840><c> day.</c><00:07:02.160><c> Of</c><00:07:02.280><c> course,</c><00:07:02.520><c> you</c>
+
+00:07:02.590 --> 00:07:02.600 align:start position:0%
+sales, budget $30 a day. Of course, you
+ 
+
+00:07:02.600 --> 00:07:04.190 align:start position:0%
+sales, budget $30 a day. Of course, you
+could<00:07:02.720><c> change</c><00:07:02.919><c> that</c><00:07:03.040><c> if</c><00:07:03.120><c> you</c><00:07:03.240><c> wanted</c><00:07:03.480><c> to.</c><00:07:04.000><c> Run</c>
+
+00:07:04.190 --> 00:07:04.200 align:start position:0%
+could change that if you wanted to. Run
+ 
+
+00:07:04.200 --> 00:07:06.310 align:start position:0%
+could change that if you wanted to. Run
+it<00:07:04.280><c> for</c><00:07:04.400><c> five</c><00:07:04.720><c> days</c><00:07:05.080><c> starting</c><00:07:05.520><c> tomorrow.</c><00:07:06.240><c> And</c>
+
+00:07:06.310 --> 00:07:06.320 align:start position:0%
+it for five days starting tomorrow. And
+ 
+
+00:07:06.320 --> 00:07:07.710 align:start position:0%
+it for five days starting tomorrow. And
+this<00:07:06.440><c> will</c><00:07:06.520><c> get</c><00:07:06.680><c> things</c><00:07:06.919><c> rolling</c><00:07:07.200><c> without</c><00:07:07.600><c> you</c>
+
+00:07:07.710 --> 00:07:07.720 align:start position:0%
+this will get things rolling without you
+ 
+
+00:07:07.720 --> 00:07:09.630 align:start position:0%
+this will get things rolling without you
+needing<00:07:08.040><c> to</c><00:07:08.160><c> touch</c><00:07:08.480><c> Ads</c><00:07:08.720><c> Manager.</c><00:07:09.400><c> And</c><00:07:09.520><c> then</c>
+
+00:07:09.630 --> 00:07:09.640 align:start position:0%
+needing to touch Ads Manager. And then
+ 
+
+00:07:09.640 --> 00:07:11.150 align:start position:0%
+needing to touch Ads Manager. And then
+you<00:07:09.680><c> need</c><00:07:09.800><c> to</c><00:07:09.880><c> set</c><00:07:10.080><c> your</c><00:07:10.200><c> targeting,</c><00:07:10.960><c> and</c><00:07:11.080><c> you</c>
+
+00:07:11.150 --> 00:07:11.160 align:start position:0%
+you need to set your targeting, and you
+ 
+
+00:07:11.160 --> 00:07:13.510 align:start position:0%
+you need to set your targeting, and you
+can<00:07:11.280><c> use</c><00:07:11.440><c> a</c><00:07:11.480><c> prompt</c><00:07:11.880><c> like</c><00:07:12.440><c> target</c><00:07:12.800><c> women</c><00:07:13.160><c> aged</c>
+
+00:07:13.510 --> 00:07:13.520 align:start position:0%
+can use a prompt like target women aged
+ 
+
+00:07:13.520 --> 00:07:16.470 align:start position:0%
+can use a prompt like target women aged
+18<00:07:13.840><c> to</c><00:07:13.919><c> 29</c><00:07:14.360><c> in</c><00:07:14.440><c> the</c><00:07:14.520><c> UK</c><00:07:15.280><c> interested</c><00:07:15.720><c> in</c><00:07:15.840><c> fashion</c>
+
+00:07:16.470 --> 00:07:16.480 align:start position:0%
+18 to 29 in the UK interested in fashion
+ 
+
+00:07:16.480 --> 00:07:18.230 align:start position:0%
+18 to 29 in the UK interested in fashion
+and<00:07:16.640><c> lifestyle</c><00:07:17.040><c> content,</c><00:07:17.600><c> wellness</c><00:07:18.160><c> and</c>
+
+00:07:18.230 --> 00:07:18.240 align:start position:0%
+and lifestyle content, wellness and
+ 
+
+00:07:18.240 --> 00:07:19.790 align:start position:0%
+and lifestyle content, wellness and
+sustainable<00:07:18.600><c> products.</c><00:07:19.160><c> Use</c><00:07:19.440><c> broad</c>
+
+00:07:19.790 --> 00:07:19.800 align:start position:0%
+sustainable products. Use broad
+ 
+
+00:07:19.800 --> 00:07:21.630 align:start position:0%
+sustainable products. Use broad
+targeting<00:07:20.240><c> for</c><00:07:20.360><c> the</c><00:07:20.440><c> first</c><00:07:20.760><c> test.</c><00:07:21.400><c> So,</c><00:07:21.520><c> your</c>
+
+00:07:21.630 --> 00:07:21.640 align:start position:0%
+targeting for the first test. So, your
+ 
+
+00:07:21.640 --> 00:07:23.270 align:start position:0%
+targeting for the first test. So, your
+objective<00:07:22.120><c> there</c><00:07:22.400><c> is</c><00:07:22.600><c> what</c><00:07:22.840><c> you're</c><00:07:22.960><c> telling</c>
+
+00:07:23.270 --> 00:07:23.280 align:start position:0%
+objective there is what you're telling
+ 
+
+00:07:23.280 --> 00:07:25.110 align:start position:0%
+objective there is what you're telling
+Claude<00:07:23.600><c> to</c><00:07:23.720><c> optimize</c><00:07:24.200><c> for.</c><00:07:24.640><c> Like</c><00:07:24.760><c> you</c><00:07:24.880><c> could</c>
+
+00:07:25.110 --> 00:07:25.120 align:start position:0%
+Claude to optimize for. Like you could
+ 
+
+00:07:25.120 --> 00:07:27.390 align:start position:0%
+Claude to optimize for. Like you could
+optimize<00:07:25.800><c> for</c><00:07:26.080><c> video</c><00:07:26.560><c> views</c><00:07:26.880><c> or</c><00:07:26.960><c> link</c><00:07:27.160><c> clicks,</c>
+
+00:07:27.390 --> 00:07:27.400 align:start position:0%
+optimize for video views or link clicks,
+ 
+
+00:07:27.400 --> 00:07:29.990 align:start position:0%
+optimize for video views or link clicks,
+but<00:07:27.880><c> often</c><00:07:28.280><c> that's</c><00:07:28.560><c> going</c><00:07:28.840><c> to</c><00:07:28.960><c> optimize</c><00:07:29.880><c> for</c>
+
+00:07:29.990 --> 00:07:30.000 align:start position:0%
+but often that's going to optimize for
+ 
+
+00:07:30.000 --> 00:07:32.310 align:start position:0%
+but often that's going to optimize for
+people<00:07:30.240><c> that</c><00:07:30.400><c> are</c><00:07:30.480><c> less</c><00:07:30.880><c> likely</c><00:07:31.320><c> to</c><00:07:31.480><c> convert.</c>
+
+00:07:32.310 --> 00:07:32.320 align:start position:0%
+people that are less likely to convert.
+ 
+
+00:07:32.320 --> 00:07:33.870 align:start position:0%
+people that are less likely to convert.
+It's<00:07:32.440><c> not</c><00:07:32.640><c> going</c><00:07:32.880><c> to</c><00:07:32.960><c> deliver</c><00:07:33.360><c> the</c><00:07:33.560><c> outcome</c>
+
+00:07:33.870 --> 00:07:33.880 align:start position:0%
+It's not going to deliver the outcome
+ 
+
+00:07:33.880 --> 00:07:35.470 align:start position:0%
+It's not going to deliver the outcome
+that<00:07:34.000><c> you</c><00:07:34.120><c> really</c><00:07:34.400><c> want,</c><00:07:34.880><c> which</c><00:07:35.000><c> in</c><00:07:35.080><c> this</c><00:07:35.280><c> case</c>
+
+00:07:35.470 --> 00:07:35.480 align:start position:0%
+that you really want, which in this case
+ 
+
+00:07:35.480 --> 00:07:37.750 align:start position:0%
+that you really want, which in this case
+is<00:07:35.560><c> going</c><00:07:35.760><c> to</c><00:07:35.880><c> be</c><00:07:36.240><c> to</c><00:07:36.360><c> sell</c><00:07:36.720><c> more</c><00:07:36.960><c> products.</c>
+
+00:07:37.750 --> 00:07:37.760 align:start position:0%
+is going to be to sell more products.
+ 
+
+00:07:37.760 --> 00:07:39.430 align:start position:0%
+is going to be to sell more products.
+And<00:07:37.840><c> you</c><00:07:37.919><c> don't</c><00:07:38.040><c> want</c><00:07:38.160><c> to</c><00:07:38.240><c> waste</c><00:07:38.560><c> budget</c><00:07:39.280><c> with</c>
+
+00:07:39.430 --> 00:07:39.440 align:start position:0%
+And you don't want to waste budget with
+ 
+
+00:07:39.440 --> 00:07:41.230 align:start position:0%
+And you don't want to waste budget with
+a<00:07:39.480><c> campaign</c><00:07:40.000><c> that</c><00:07:40.160><c> is</c><00:07:40.520><c> trying</c><00:07:40.880><c> to</c><00:07:40.960><c> get</c><00:07:41.120><c> you</c>
+
+00:07:41.230 --> 00:07:41.240 align:start position:0%
+a campaign that is trying to get you
+ 
+
+00:07:41.240 --> 00:07:42.990 align:start position:0%
+a campaign that is trying to get you
+more<00:07:41.440><c> of</c><00:07:41.520><c> what</c><00:07:41.640><c> you</c><00:07:41.760><c> don't</c><00:07:42.000><c> want,</c><00:07:42.600><c> especially</c>
+
+00:07:42.990 --> 00:07:43.000 align:start position:0%
+more of what you don't want, especially
+ 
+
+00:07:43.000 --> 00:07:44.510 align:start position:0%
+more of what you don't want, especially
+if<00:07:43.080><c> we're</c><00:07:43.200><c> only</c><00:07:43.320><c> operating</c><00:07:43.680><c> with</c><00:07:43.800><c> a</c><00:07:43.840><c> $30</c><00:07:44.400><c> a</c><00:07:44.440><c> day</c>
+
+00:07:44.510 --> 00:07:44.520 align:start position:0%
+if we're only operating with a $30 a day
+ 
+
+00:07:44.520 --> 00:07:46.950 align:start position:0%
+if we're only operating with a $30 a day
+budget.<00:07:45.160><c> And</c><00:07:45.280><c> then</c><00:07:45.400><c> after</c><00:07:45.640><c> 5</c><00:07:45.920><c> to</c><00:07:46.000><c> 7</c><00:07:46.240><c> days,</c><00:07:46.680><c> come</c>
+
+00:07:46.950 --> 00:07:46.960 align:start position:0%
+budget. And then after 5 to 7 days, come
+ 
+
+00:07:46.960 --> 00:07:48.950 align:start position:0%
+budget. And then after 5 to 7 days, come
+back<00:07:47.160><c> to</c><00:07:47.280><c> Claude</c><00:07:47.640><c> and</c><00:07:47.800><c> ask,</c><00:07:48.440><c> "Which</c><00:07:48.680><c> of</c><00:07:48.800><c> my</c>
+
+00:07:48.950 --> 00:07:48.960 align:start position:0%
+back to Claude and ask, "Which of my
+ 
+
+00:07:48.960 --> 00:07:51.230 align:start position:0%
+back to Claude and ask, "Which of my
+five<00:07:49.440><c> ads</c><00:07:49.680><c> is</c><00:07:49.840><c> performing</c><00:07:50.160><c> the</c><00:07:50.240><c> best?</c><00:07:50.880><c> Show</c><00:07:51.120><c> me</c>
+
+00:07:51.230 --> 00:07:51.240 align:start position:0%
+five ads is performing the best? Show me
+ 
+
+00:07:51.240 --> 00:07:53.110 align:start position:0%
+five ads is performing the best? Show me
+a<00:07:51.320><c> breakdown."</c><00:07:52.320><c> Claude</c><00:07:52.560><c> will</c><00:07:52.680><c> then</c><00:07:52.840><c> pull</c><00:07:53.000><c> the</c>
+
+00:07:53.110 --> 00:07:53.120 align:start position:0%
+a breakdown." Claude will then pull the
+ 
+
+00:07:53.120 --> 00:07:55.070 align:start position:0%
+a breakdown." Claude will then pull the
+live<00:07:53.400><c> data</c><00:07:53.720><c> from</c><00:07:54.000><c> Meta</c><00:07:54.520><c> and</c><00:07:54.640><c> give</c><00:07:54.800><c> you</c><00:07:54.920><c> the</c>
+
+00:07:55.070 --> 00:07:55.080 align:start position:0%
+live data from Meta and give you the
+ 
+
+00:07:55.080 --> 00:07:56.870 align:start position:0%
+live data from Meta and give you the
+answer<00:07:55.480><c> in</c><00:07:55.720><c> plain</c><00:07:56.000><c> English.</c><00:07:56.520><c> No</c>
+
+00:07:56.870 --> 00:07:56.880 align:start position:0%
+answer in plain English. No
+ 
+
+00:07:56.880 --> 00:07:58.790 align:start position:0%
+answer in plain English. No
+spreadsheets,<00:07:57.800><c> no</c><00:07:57.960><c> pivoting,</c><00:07:58.320><c> no</c><00:07:58.480><c> logging</c>
+
+00:07:58.790 --> 00:07:58.800 align:start position:0%
+spreadsheets, no pivoting, no logging
+ 
+
+00:07:58.800 --> 00:08:00.750 align:start position:0%
+spreadsheets, no pivoting, no logging
+into<00:07:59.040><c> Ads</c><00:07:59.280><c> Manager.</c><00:07:59.920><c> And</c><00:08:00.040><c> this</c><00:08:00.200><c> allows</c><00:08:00.520><c> you</c><00:08:00.640><c> to</c>
+
+00:08:00.750 --> 00:08:00.760 align:start position:0%
+into Ads Manager. And this allows you to
+ 
+
+00:08:00.760 --> 00:08:02.190 align:start position:0%
+into Ads Manager. And this allows you to
+implement<00:08:01.080><c> the</c><00:08:01.160><c> final</c><00:08:01.480><c> step,</c><00:08:01.800><c> which</c><00:08:01.960><c> is</c><00:08:02.040><c> to</c>
+
+00:08:02.190 --> 00:08:02.200 align:start position:0%
+implement the final step, which is to
+ 
+
+00:08:02.200 --> 00:08:04.550 align:start position:0%
+implement the final step, which is to
+double<00:08:02.560><c> down</c><00:08:03.040><c> on</c><00:08:03.320><c> the</c><00:08:03.440><c> winner.</c><00:08:04.160><c> And</c><00:08:04.280><c> once</c><00:08:04.480><c> you</c>
+
+00:08:04.550 --> 00:08:04.560 align:start position:0%
+double down on the winner. And once you
+ 
+
+00:08:04.560 --> 00:08:06.030 align:start position:0%
+double down on the winner. And once you
+know<00:08:04.680><c> which</c><00:08:04.920><c> ad</c><00:08:05.040><c> was</c><00:08:05.160><c> the</c><00:08:05.240><c> best</c><00:08:05.440><c> performer,</c>
+
+00:08:06.030 --> 00:08:06.040 align:start position:0%
+know which ad was the best performer,
+ 
+
+00:08:06.040 --> 00:08:07.870 align:start position:0%
+know which ad was the best performer,
+tell<00:08:06.320><c> Claude</c><00:08:06.680><c> this.</c><00:08:07.320><c> Take</c><00:08:07.560><c> the</c><00:08:07.680><c> top</c>
+
+00:08:07.870 --> 00:08:07.880 align:start position:0%
+tell Claude this. Take the top
+ 
+
+00:08:07.880 --> 00:08:09.710 align:start position:0%
+tell Claude this. Take the top
+performing<00:08:08.320><c> ad</c><00:08:08.600><c> and</c><00:08:08.720><c> generate</c><00:08:09.160><c> five</c><00:08:09.520><c> more</c>
+
+00:08:09.710 --> 00:08:09.720 align:start position:0%
+performing ad and generate five more
+ 
+
+00:08:09.720 --> 00:08:12.430 align:start position:0%
+performing ad and generate five more
+variations<00:08:10.320><c> of</c><00:08:10.440><c> it</c><00:08:10.800><c> using</c><00:08:11.120><c> Arch</c><00:08:11.360><c> Ads</c><00:08:11.600><c> MCP.</c>
+
+00:08:12.430 --> 00:08:12.440 align:start position:0%
+variations of it using Arch Ads MCP.
+ 
+
+00:08:12.440 --> 00:08:14.790 align:start position:0%
+variations of it using Arch Ads MCP.
+Same<00:08:12.800><c> actor,</c><00:08:13.520><c> different</c><00:08:13.880><c> scripts.</c><00:08:14.560><c> And</c><00:08:14.680><c> this</c>
+
+00:08:14.790 --> 00:08:14.800 align:start position:0%
+Same actor, different scripts. And this
+ 
+
+00:08:14.800 --> 00:08:16.470 align:start position:0%
+Same actor, different scripts. And this
+is<00:08:14.919><c> how</c><00:08:15.160><c> you</c><00:08:15.320><c> repeat</c><00:08:15.720><c> the</c><00:08:15.840><c> loop</c><00:08:16.080><c> and</c><00:08:16.160><c> you</c><00:08:16.240><c> keep</c>
+
+00:08:16.470 --> 00:08:16.480 align:start position:0%
+is how you repeat the loop and you keep
+ 
+
+00:08:16.480 --> 00:08:18.550 align:start position:0%
+is how you repeat the loop and you keep
+creating<00:08:16.800><c> winning</c><00:08:17.040><c> ads.</c><00:08:17.560><c> Use</c><00:08:17.760><c> Arch</c><00:08:17.960><c> Ads,</c><00:08:18.400><c> new</c>
+
+00:08:18.550 --> 00:08:18.560 align:start position:0%
+creating winning ads. Use Arch Ads, new
+ 
+
+00:08:18.560 --> 00:08:20.990 align:start position:0%
+creating winning ads. Use Arch Ads, new
+scripts,<00:08:19.120><c> back</c><00:08:19.360><c> to</c><00:08:19.440><c> Meta,</c><00:08:19.919><c> loop.</c><00:08:20.440><c> Every</c><00:08:20.760><c> time</c>
+
+00:08:20.990 --> 00:08:21.000 align:start position:0%
+scripts, back to Meta, loop. Every time
+ 
+
+00:08:21.000 --> 00:08:22.510 align:start position:0%
+scripts, back to Meta, loop. Every time
+it<00:08:21.080><c> gets</c><00:08:21.240><c> smarter.</c><00:08:21.960><c> So,</c><00:08:22.080><c> why</c><00:08:22.240><c> does</c><00:08:22.400><c> this</c>
+
+00:08:22.510 --> 00:08:22.520 align:start position:0%
+it gets smarter. So, why does this
+ 
+
+00:08:22.520 --> 00:08:25.030 align:start position:0%
+it gets smarter. So, why does this
+matter?<00:08:23.160><c> Most</c><00:08:23.480><c> people</c><00:08:23.720><c> stop</c><00:08:24.120><c> at</c><00:08:24.240><c> generation.</c>
+
+00:08:25.030 --> 00:08:25.040 align:start position:0%
+matter? Most people stop at generation.
+ 
+
+00:08:25.040 --> 00:08:26.990 align:start position:0%
+matter? Most people stop at generation.
+They<00:08:25.160><c> make</c><00:08:25.360><c> the</c><00:08:25.520><c> ad,</c><00:08:26.040><c> they</c><00:08:26.120><c> download</c><00:08:26.680><c> it,</c><00:08:26.880><c> they</c>
+
+00:08:26.990 --> 00:08:27.000 align:start position:0%
+They make the ad, they download it, they
+ 
+
+00:08:27.000 --> 00:08:28.670 align:start position:0%
+They make the ad, they download it, they
+distribute<00:08:27.520><c> it</c><00:08:27.640><c> manually,</c><00:08:28.400><c> and</c><00:08:28.480><c> then</c><00:08:28.560><c> they'll</c>
+
+00:08:28.670 --> 00:08:28.680 align:start position:0%
+distribute it manually, and then they'll
+ 
+
+00:08:28.680 --> 00:08:30.550 align:start position:0%
+distribute it manually, and then they'll
+spend<00:08:29.000><c> ages</c><00:08:29.320><c> manually</c><00:08:29.720><c> setting</c><00:08:30.080><c> up</c><00:08:30.240><c> the</c>
+
+00:08:30.550 --> 00:08:30.560 align:start position:0%
+spend ages manually setting up the
+ 
+
+00:08:30.560 --> 00:08:32.510 align:start position:0%
+spend ages manually setting up the
+campaign,<00:08:31.120><c> tinkering</c><00:08:31.640><c> with</c><00:08:31.840><c> it.</c><00:08:32.320><c> This</c>
+
+00:08:32.510 --> 00:08:32.520 align:start position:0%
+campaign, tinkering with it. This
+ 
+
+00:08:32.520 --> 00:08:34.990 align:start position:0%
+campaign, tinkering with it. This
+process<00:08:33.039><c> eliminates</c><00:08:33.919><c> those</c><00:08:34.200><c> pain</c><00:08:34.440><c> points,</c>
+
+00:08:34.990 --> 00:08:35.000 align:start position:0%
+process eliminates those pain points,
+ 
+
+00:08:35.000 --> 00:08:36.390 align:start position:0%
+process eliminates those pain points,
+gives<00:08:35.159><c> the</c><00:08:35.280><c> campaign</c><00:08:35.719><c> the</c><00:08:35.880><c> time</c><00:08:36.240><c> and</c><00:08:36.320><c> the</c>
+
+00:08:36.390 --> 00:08:36.400 align:start position:0%
+gives the campaign the time and the
+ 
+
+00:08:36.400 --> 00:08:38.790 align:start position:0%
+gives the campaign the time and the
+space<00:08:36.719><c> they</c><00:08:36.919><c> need</c><00:08:37.159><c> to</c><00:08:37.320><c> thrive</c><00:08:38.120><c> while</c><00:08:38.320><c> still</c>
+
+00:08:38.790 --> 00:08:38.800 align:start position:0%
+space they need to thrive while still
+ 
+
+00:08:38.800 --> 00:08:40.310 align:start position:0%
+space they need to thrive while still
+studying<00:08:39.240><c> the</c><00:08:39.320><c> results.</c><00:08:39.960><c> So,</c><00:08:40.080><c> it</c><00:08:40.120><c> could</c><00:08:40.240><c> be</c>
+
+00:08:40.310 --> 00:08:40.320 align:start position:0%
+studying the results. So, it could be
+ 
+
+00:08:40.320 --> 00:08:41.589 align:start position:0%
+studying the results. So, it could be
+high<00:08:40.520><c> performing</c><00:08:41.039><c> with</c><00:08:41.200><c> low</c><00:08:41.400><c> effort</c>
+
+00:08:41.589 --> 00:08:41.599 align:start position:0%
+high performing with low effort
+ 
+
+00:08:41.599 --> 00:08:43.390 align:start position:0%
+high performing with low effort
+required.<00:08:42.360><c> So,</c><00:08:42.479><c> now</c><00:08:42.640><c> we've</c><00:08:42.760><c> established</c><00:08:43.240><c> how</c>
+
+00:08:43.390 --> 00:08:43.400 align:start position:0%
+required. So, now we've established how
+ 
+
+00:08:43.400 --> 00:08:45.190 align:start position:0%
+required. So, now we've established how
+it<00:08:43.520><c> works</c><00:08:43.840><c> and</c><00:08:43.960><c> more</c><00:08:44.120><c> importantly</c><00:08:44.720><c> that</c><00:08:45.040><c> it</c>
+
+00:08:45.190 --> 00:08:45.200 align:start position:0%
+it works and more importantly that it
+ 
+
+00:08:45.200 --> 00:08:47.190 align:start position:0%
+it works and more importantly that it
+works<00:08:45.520><c> well.</c><00:08:46.120><c> Let's</c><00:08:46.360><c> go</c><00:08:46.520><c> over</c><00:08:46.680><c> the</c><00:08:46.800><c> economics</c>
+
+00:08:47.190 --> 00:08:47.200 align:start position:0%
+works well. Let's go over the economics
+ 
+
+00:08:47.200 --> 00:08:48.670 align:start position:0%
+works well. Let's go over the economics
+here.<00:08:47.640><c> So,</c><00:08:47.760><c> as</c><00:08:47.880><c> you</c><00:08:47.960><c> can</c><00:08:48.120><c> see</c><00:08:48.320><c> here,</c><00:08:48.520><c> the</c>
+
+00:08:48.670 --> 00:08:48.680 align:start position:0%
+here. So, as you can see here, the
+ 
+
+00:08:48.680 --> 00:08:51.470 align:start position:0%
+here. So, as you can see here, the
+Claude<00:08:49.040><c> plus</c><00:08:49.400><c> Arch</c><00:08:49.640><c> Ads</c><00:08:49.960><c> combo</c><00:08:50.600><c> can</c><00:08:51.080><c> beat</c><00:08:51.400><c> a</c>
+
+00:08:51.470 --> 00:08:51.480 align:start position:0%
+Claude plus Arch Ads combo can beat a
+ 
+
+00:08:51.480 --> 00:08:53.150 align:start position:0%
+Claude plus Arch Ads combo can beat a
+traditional<00:08:51.960><c> agency</c><00:08:52.360><c> structure.</c><00:08:53.120><c> It</c>
+
+00:08:53.150 --> 00:08:53.160 align:start position:0%
+traditional agency structure. It
+ 
+
+00:08:53.160 --> 00:08:55.670 align:start position:0%
+traditional agency structure. It
+certainly<00:08:53.520><c> does</c><00:08:53.760><c> on</c><00:08:54.000><c> cost,</c><00:08:54.680><c> setup</c><00:08:55.160><c> time,</c>
+
+00:08:55.670 --> 00:08:55.680 align:start position:0%
+certainly does on cost, setup time,
+ 
+
+00:08:55.680 --> 00:08:57.430 align:start position:0%
+certainly does on cost, setup time,
+potentially<00:08:56.000><c> volume</c><00:08:56.360><c> of</c><00:08:56.480><c> creative.</c><00:08:57.200><c> And</c><00:08:57.320><c> if</c>
+
+00:08:57.430 --> 00:08:57.440 align:start position:0%
+potentially volume of creative. And if
+ 
+
+00:08:57.440 --> 00:08:58.790 align:start position:0%
+potentially volume of creative. And if
+you're<00:08:57.560><c> a</c><00:08:57.600><c> business</c><00:08:57.920><c> that's</c><00:08:58.080><c> not</c><00:08:58.360><c> operating</c>
+
+00:08:58.790 --> 00:08:58.800 align:start position:0%
+you're a business that's not operating
+ 
+
+00:08:58.800 --> 00:09:01.630 align:start position:0%
+you're a business that's not operating
+at<00:08:58.880><c> a</c><00:08:58.920><c> scale</c><00:08:59.440><c> where</c><00:09:00.000><c> working</c><00:09:00.480><c> with</c><00:09:00.800><c> an</c><00:09:01.000><c> agency</c>
+
+00:09:01.630 --> 00:09:01.640 align:start position:0%
+at a scale where working with an agency
+ 
+
+00:09:01.640 --> 00:09:03.750 align:start position:0%
+at a scale where working with an agency
+makes<00:09:02.080><c> sense,</c><00:09:02.680><c> this</c><00:09:02.839><c> could</c><00:09:02.920><c> be</c><00:09:03.000><c> a</c><00:09:03.080><c> fantastic</c>
+
+00:09:03.750 --> 00:09:03.760 align:start position:0%
+makes sense, this could be a fantastic
+ 
+
+00:09:03.760 --> 00:09:05.750 align:start position:0%
+makes sense, this could be a fantastic
+way<00:09:03.880><c> to</c><00:09:04.040><c> go.</c><00:09:04.440><c> You</c><00:09:04.600><c> also</c><00:09:04.800><c> don't</c><00:09:05.040><c> need</c><00:09:05.200><c> to</c><00:09:05.280><c> have</c>
+
+00:09:05.750 --> 00:09:05.760 align:start position:0%
+way to go. You also don't need to have
+ 
+
+00:09:05.760 --> 00:09:07.430 align:start position:0%
+way to go. You also don't need to have
+the<00:09:05.880><c> hard</c><00:09:06.240><c> skills</c><00:09:06.600><c> required.</c><00:09:07.080><c> Like</c><00:09:07.200><c> this</c><00:09:07.360><c> is</c>
+
+00:09:07.430 --> 00:09:07.440 align:start position:0%
+the hard skills required. Like this is
+ 
+
+00:09:07.440 --> 00:09:09.270 align:start position:0%
+the hard skills required. Like this is
+going<00:09:07.600><c> to</c><00:09:07.760><c> automate</c><00:09:08.360><c> a</c><00:09:08.440><c> lot</c><00:09:08.600><c> of</c><00:09:08.680><c> that</c><00:09:08.800><c> process</c>
+
+00:09:09.270 --> 00:09:09.280 align:start position:0%
+going to automate a lot of that process
+ 
+
+00:09:09.280 --> 00:09:10.910 align:start position:0%
+going to automate a lot of that process
+for<00:09:09.560><c> you.</c><00:09:10.000><c> You</c><00:09:10.120><c> can</c><00:09:10.200><c> get</c><00:09:10.360><c> a</c><00:09:10.400><c> lot</c><00:09:10.560><c> of</c><00:09:10.640><c> volume,</c>
+
+00:09:10.910 --> 00:09:10.920 align:start position:0%
+for you. You can get a lot of volume,
+ 
+
+00:09:10.920 --> 00:09:12.990 align:start position:0%
+for you. You can get a lot of volume,
+which<00:09:11.080><c> we</c><00:09:11.200><c> know</c><00:09:11.440><c> is</c><00:09:11.640><c> really</c><00:09:11.920><c> important</c><00:09:12.680><c> post</c>
+
+00:09:12.990 --> 00:09:13.000 align:start position:0%
+which we know is really important post
+ 
+
+00:09:13.000 --> 00:09:14.550 align:start position:0%
+which we know is really important post
+Andromeda.<00:09:13.720><c> So,</c><00:09:13.800><c> if</c><00:09:13.880><c> you</c><00:09:13.960><c> want</c><00:09:14.080><c> to</c><00:09:14.120><c> try</c><00:09:14.320><c> Arch</c>
+
+00:09:14.550 --> 00:09:14.560 align:start position:0%
+Andromeda. So, if you want to try Arch
+ 
+
+00:09:14.560 --> 00:09:15.829 align:start position:0%
+Andromeda. So, if you want to try Arch
+Ads<00:09:14.720><c> yourself,</c><00:09:15.160><c> click</c><00:09:15.400><c> the</c><00:09:15.480><c> link</c><00:09:15.680><c> in</c><00:09:15.760><c> the</c>
+
+00:09:15.829 --> 00:09:15.839 align:start position:0%
+Ads yourself, click the link in the
+ 
+
+00:09:15.839 --> 00:09:18.560 align:start position:0%
+Ads yourself, click the link in the
+video<00:09:15.960><c> description</c><00:09:16.240><c> below.</c>
+

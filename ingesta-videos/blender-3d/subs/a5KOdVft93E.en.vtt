@@ -1,0 +1,628 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.719 --> 00:00:05.259
+So in this tutorial we're going to be going
+over how to add PBR textures to absolutely
+
+00:00:05.259 --> 00:00:06.319
+any model in blender.
+
+00:00:06.319 --> 00:00:10.200
+And of course before we do this we need to
+make sure that we have some of these textures
+
+00:00:10.200 --> 00:00:11.200
+downloaded.
+
+00:00:11.200 --> 00:00:15.580
+So in my case I'm going to get them from my
+own website which is cgmatter.com.
+
+00:00:15.580 --> 00:00:18.769
+You can get textures from absolutely anywhere,
+in this case I'm just going to be using my
+
+00:00:18.769 --> 00:00:19.769
+own.
+
+00:00:19.769 --> 00:00:21.599
+I'm going to use this right here.
+
+00:00:21.599 --> 00:00:25.060
+And then we get the seamless textures for
+free, at least on this website.
+
+00:00:25.060 --> 00:00:29.489
+And I'm going to download 2k version and then
+once you do this it's going to eventually
+
+00:00:29.489 --> 00:00:30.849
+start downloading.
+
+00:00:30.849 --> 00:00:32.730
+Of course mine is already downloaded here.
+
+00:00:32.730 --> 00:00:38.560
+You're going to get an ambient occlusion basecolor
+height metallic normal and roughness maps.
+
+00:00:38.560 --> 00:00:42.610
+And we want to know how to add these into
+a material in blender.
+
+00:00:42.610 --> 00:00:47.440
+So we can actually close this right here.So
+how do we add this to our cube?
+
+00:00:47.440 --> 00:00:51.830
+So we're going to start off my going to shading
+and we want to have a HDRI so we have some
+
+00:00:51.830 --> 00:00:52.830
+lighting going on.
+
+00:00:52.830 --> 00:00:54.580
+So I'm going to change this to world.
+
+00:00:54.580 --> 00:00:58.400
+And I already made a tutorial on how to add
+a HDRI, so I'm going to do it quickly.
+
+00:00:58.400 --> 00:00:59.400
+But I'll try to explain it.
+
+00:00:59.400 --> 00:01:01.440
+We're going to close this.
+
+00:01:01.440 --> 00:01:05.100
+We're going to click shift a which is going
+to let us add a texture.
+
+00:01:05.100 --> 00:01:06.350
+Environment texture.
+
+00:01:06.350 --> 00:01:09.470
+We're going to connect this to the surface
+of the world.
+
+00:01:09.470 --> 00:01:12.640
+And then we're going to open any HDRI you
+already have downloaded.
+
+00:01:12.640 --> 00:01:16.320
+In this case I'll be using this one and then
+here we go.
+
+00:01:16.320 --> 00:01:19.110
+Now we actually want to work on the material
+of the cube.
+
+00:01:19.110 --> 00:01:20.490
+So how do we do that?
+
+00:01:20.490 --> 00:01:22.960
+So what you want to do is go over to object.
+
+00:01:22.960 --> 00:01:28.460
+And by default you should already have a principled
+bsdf with an output setup.
+
+00:01:28.460 --> 00:01:31.110
+If you don't you can close whatever material
+you have.
+
+00:01:31.110 --> 00:01:33.010
+Click new and it will show up.
+
+00:01:33.010 --> 00:01:36.880
+If for some reason you don't like that you
+can just hit shift a.
+
+00:01:36.880 --> 00:01:41.630
+Go to shader and then add a principle bsdf
+shader right here.
+
+00:01:41.630 --> 00:01:43.190
+And then you have the same thing.
+
+00:01:43.190 --> 00:01:45.420
+Connect those and we're back to square one.
+
+00:01:45.420 --> 00:01:48.220
+Ok so how do we connect all these maps?
+
+00:01:48.220 --> 00:01:50.740
+So we're going to go in some kind of order.
+
+00:01:50.740 --> 00:01:55.110
+So first of all ambient occlusion, this one
+is special because we actually do not need
+
+00:01:55.110 --> 00:01:56.119
+it in blender.
+
+00:01:56.119 --> 00:02:00.840
+This is pretty much calculated on render in
+cycles and in eevee.
+
+00:02:00.840 --> 00:02:03.490
+This is more for game engines so we don't
+actually use this.
+
+00:02:03.490 --> 00:02:05.510
+So we're going to start with basecolor.
+
+00:02:05.510 --> 00:02:07.229
+We're just going to drag this in.
+
+00:02:07.229 --> 00:02:10.899
+And of course basecolor is going to be the
+color of the cube.
+
+00:02:10.899 --> 00:02:14.610
+So we're going to take this color and connect
+it to basecolor.
+
+00:02:14.610 --> 00:02:17.230
+And there we go, it's showing up.
+
+00:02:17.230 --> 00:02:20.280
+Next what we want to do is we're going to
+go to metallic.
+
+00:02:20.280 --> 00:02:22.569
+We're going to drag this in.
+
+00:02:22.569 --> 00:02:26.420
+And then one special thing about metallic
+is you don't want to necessarily take this
+
+00:02:26.420 --> 00:02:31.120
+and just connect it to metallic because you
+need to make sure his right here, this color,
+
+00:02:31.120 --> 00:02:33.599
+is set to non-color data.
+
+00:02:33.599 --> 00:02:38.940
+And that's because a metallic map is basically
+supposed to be values between 0 and 1.
+
+00:02:38.940 --> 00:02:41.370
+Not necessarily the color data.
+
+00:02:41.370 --> 00:02:44.040
+Ok so we have that.
+
+00:02:44.040 --> 00:02:47.170
+Next we're going to go over to roughness which
+same business.
+
+00:02:47.170 --> 00:02:48.319
+We're going to take it.
+
+00:02:48.319 --> 00:02:50.560
+We're going to connect it to roughness.
+
+00:02:50.560 --> 00:02:56.950
+But we want to set this color to non-color
+data because we want values between 0 and
+
+00:02:56.950 --> 00:02:58.010
+1.
+
+00:02:58.010 --> 00:03:01.370
+Next we have, let's see, we can do normal
+and height.
+
+00:03:01.370 --> 00:03:03.720
+And for these we kind of combine them in a
+special way.
+
+00:03:03.720 --> 00:03:04.720
+I'll show you how.
+
+00:03:04.720 --> 00:03:06.020
+So we're going to take our normal map.
+
+00:03:06.020 --> 00:03:07.960
+Bring it in here.
+
+00:03:07.960 --> 00:03:12.450
+We're going to take our height map, some people
+call it a displacement map.
+
+00:03:12.450 --> 00:03:14.840
+These things are generally the same.
+
+00:03:14.840 --> 00:03:16.290
+And then we put this right here.
+
+00:03:16.290 --> 00:03:20.400
+So we have these two maps and what I'm going
+to do is I'm going to set both of these to
+
+00:03:20.400 --> 00:03:21.739
+non-color data.
+
+00:03:21.739 --> 00:03:24.780
+This is very important, if you don't do this
+it's going to look very bizarre.
+
+00:03:24.780 --> 00:03:27.400
+Ok, now what we need is a bump node.
+
+00:03:27.400 --> 00:03:31.750
+So just click shift a and in here you can
+type bump or you can try to find it.
+
+00:03:31.750 --> 00:03:34.879
+I think it's in vector, bump.
+
+00:03:34.879 --> 00:03:38.129
+And then in this bump we see we have a normal
+input and a height input.
+
+00:03:38.129 --> 00:03:39.760
+So it's pretty obvious what you do.
+
+00:03:39.760 --> 00:03:42.650
+Take this height, no this one is the height.
+
+00:03:42.650 --> 00:03:44.790
+Take the height and put it in height.
+
+00:03:44.790 --> 00:03:49.370
+And note that this normal input is purple
+while this one is yellow.
+
+00:03:49.370 --> 00:03:51.489
+This is indicating that this is just an image.
+
+00:03:51.489 --> 00:03:53.849
+It's a texture, it's not a normal map.
+
+00:03:53.849 --> 00:03:55.709
+So what we have to do is convert it.
+
+00:03:55.709 --> 00:04:02.440
+So shift a and here you can either type normal
+map or go to vector and add a normal map node.
+
+00:04:02.440 --> 00:04:04.190
+We're going to take this, connect it.
+
+00:04:04.190 --> 00:04:05.870
+So now we have a normal map.
+
+00:04:05.870 --> 00:04:08.620
+And then we're going to connect this in here.
+
+00:04:08.620 --> 00:04:12.849
+And then finally we take this bump node, connect
+it into our normal socket.
+
+00:04:12.849 --> 00:04:14.790
+Ok, it's going to take a second.
+
+00:04:14.790 --> 00:04:18.100
+And already it's looking much more 3D.
+
+00:04:18.100 --> 00:04:21.370
+Now lets say that these brick are too big.
+
+00:04:21.370 --> 00:04:22.840
+You want them to tile smaller.
+
+00:04:22.840 --> 00:04:24.680
+So you want more tiles.
+
+00:04:24.680 --> 00:04:26.169
+So the question is how do you do this?
+
+00:04:26.169 --> 00:04:29.710
+What we're going to do is take each of our
+image inputs and we're going to line them
+
+00:04:29.710 --> 00:04:31.190
+up.
+
+00:04:31.190 --> 00:04:33.729
+Take these three, shift them over.
+
+00:04:33.729 --> 00:04:36.650
+Woops I accidentally shifted over this one
+too.
+
+00:04:36.650 --> 00:04:41.150
+And what we want to do is basically change
+the mapping so that we add twice as much or
+
+00:04:41.150 --> 00:04:43.180
+three times as many bricks here.
+
+00:04:43.180 --> 00:04:45.720
+So what we want to do, shift a.
+
+00:04:45.720 --> 00:04:47.410
+And then you want to add a couple things.
+
+00:04:47.410 --> 00:04:49.500
+You're going to start off with a mapping node.
+
+00:04:49.500 --> 00:04:52.240
+So go to vector, mapping.
+
+00:04:52.240 --> 00:04:55.780
+And then you're going to connect this vector
+to each of these.
+
+00:04:55.780 --> 00:04:58.240
+So that's going to be a couple of connections.
+
+00:04:58.240 --> 00:05:00.840
+Let me close that.
+
+00:05:00.840 --> 00:05:02.840
+Connect this here.
+
+00:05:02.840 --> 00:05:09.500
+A bit of work but overall less work then making
+a shader from scratch.
+
+00:05:09.500 --> 00:05:11.160
+So we're going to connect all of these.
+
+00:05:11.160 --> 00:05:15.190
+Ok so now we have this mapping node and we're
+going to want to change the size.
+
+00:05:15.190 --> 00:05:18.690
+But before we do that we need to add a coordinate
+input.
+
+00:05:18.690 --> 00:05:20.340
+So you're going to click shift a.
+
+00:05:20.340 --> 00:05:24.530
+And then I believe it's in input, texture
+coordinates.
+
+00:05:24.530 --> 00:05:27.560
+And then it depends on what coordinates you're
+using.
+
+00:05:27.560 --> 00:05:29.560
+Most of the time you use UV maps.
+
+00:05:29.560 --> 00:05:31.979
+So we're going to be using a UV map.
+
+00:05:31.979 --> 00:05:37.330
+There are cases where you use other things
+but in this case, our cube if you go to UV
+
+00:05:37.330 --> 00:05:38.710
+editing.
+
+00:05:38.710 --> 00:05:43.050
+You see that it's already UV mapped so that's
+why we're using that.
+
+00:05:43.050 --> 00:05:48.740
+So now we have this coordinate going into
+this mapping which is going into all our textures
+
+00:05:48.740 --> 00:05:51.030
+which are doing their respective things.
+
+00:05:51.030 --> 00:05:52.990
+So how do we actually affect this?
+
+00:05:52.990 --> 00:05:56.160
+Well you just drag the scale and you see what
+it's doing already.
+
+00:05:56.160 --> 00:05:59.750
+So lets double it in both directions.
+
+00:05:59.750 --> 00:06:00.750
+There we go.
+
+00:06:00.750 --> 00:06:02.229
+And I don't actually know what the z does.
+
+00:06:02.229 --> 00:06:03.669
+I think it's irrelevant to this case.
+
+00:06:03.669 --> 00:06:07.170
+Ya it doesn't do anything, at least I don't
+think it does anything.
+
+00:06:07.170 --> 00:06:08.520
+Let's see.
+
+00:06:08.520 --> 00:06:10.620
+Ya, doesn't do anything.
+
+00:06:10.620 --> 00:06:14.270
+If we want even more tiles again this is seamless
+so it's going to work out.
+
+00:06:14.270 --> 00:06:15.900
+We can have triple as many.
+
+00:06:15.900 --> 00:06:18.680
+So three times and then this is how you do
+it.
+
+00:06:18.680 --> 00:06:23.389
+And of course we have a seam along here because
+there is a seam in our UV map here.
+
+00:06:23.389 --> 00:06:26.730
+But generally this is how you do it.
+
+00:06:26.730 --> 00:06:30.680
+And just to see the full effects, by the way
+we've been using eevee this whole time.
+
+00:06:30.680 --> 00:06:34.430
+But again the setup for eevee is identical
+to that of cycles.
+
+00:06:34.430 --> 00:06:38.970
+We just switch this over to cycles and you
+see that everything is working.
+
+00:06:38.970 --> 00:06:40.910
+Change this to GPU compute.
+
+00:06:40.910 --> 00:06:43.750
+Goes a bit faster on my computer.
+
+00:06:43.750 --> 00:06:46.310
+And you see it's already working here.
+
+00:06:46.310 --> 00:06:50.240
+And if you want to see this lighting change
+around so you can really see the depth in
+
+00:06:50.240 --> 00:06:51.960
+the bricks and all this.
+
+00:06:51.960 --> 00:06:55.389
+Go back to world and we're going to do a similar
+setup here.
+
+00:06:55.389 --> 00:06:58.270
+So with our HDRI we're going to add a mapping.
+
+00:06:58.270 --> 00:07:02.340
+This time I'm just going to type it in.
+
+00:07:02.340 --> 00:07:05.270
+Add our mapping.
+
+00:07:05.270 --> 00:07:07.490
+And then we're going to add some coordinates.
+
+00:07:07.490 --> 00:07:09.570
+So input, texture coordinates.
+
+00:07:09.570 --> 00:07:12.310
+And in this case I'm pretty sure we use generated
+not UV.
+
+00:07:12.310 --> 00:07:15.610
+So that's an instance where you use generated.
+
+00:07:15.610 --> 00:07:17.919
+And this is actually a case where we use our
+z input.
+
+00:07:17.919 --> 00:07:22.860
+I can like rotate this like that and then
+you see the lighting is changing.
+
+00:07:22.860 --> 00:07:24.680
+Takes a bit because it's cycles.
+
+00:07:24.680 --> 00:07:27.950
+We can actually just go back to eevee like
+that.
+
+00:07:27.950 --> 00:07:30.310
+And then we can a more fluid motion.
+
+00:07:30.310 --> 00:07:33.350
+And by the way as I said we don't need ambient
+occlusion maps.
+
+00:07:33.350 --> 00:07:38.410
+Cycles obviously does it but eevee you just
+click ambient occlusion.
+
+00:07:38.410 --> 00:07:44.600
+And you see these gaps in-between the bricks
+automatically get their ambient occlusion.
+
+00:07:44.600 --> 00:07:47.479
+This is how you do PBR in blender.
+
+00:07:47.479 --> 00:07:52.250
+So again we do not, we do not use ambient
+occlusion unless you want to do some like
+
+00:07:52.250 --> 00:07:53.860
+very weird stylistic thing.
+
+00:07:53.860 --> 00:07:57.360
+It's not physically accurate you don't want
+to use it.
+
+00:07:57.360 --> 00:07:59.060
+Basecolor goes in basecolor.
+
+00:07:59.060 --> 00:08:00.820
+Let's see.
+
+00:08:00.820 --> 00:08:03.660
+Metallic goes in metallic but set this to
+non-color.
+
+00:08:03.660 --> 00:08:05.900
+Roughness and roughness set it to non-color.
+
+00:08:05.900 --> 00:08:10.319
+You take your normal and height and change
+your normal to a normal map and then feed
+
+00:08:10.319 --> 00:08:12.030
+them both into a bump.
+
+00:08:12.030 --> 00:08:17.729
+And then put this in our normal socket and
+then we can always change our tiling using
+
+00:08:17.729 --> 00:08:18.740
+these.
+
+00:08:18.740 --> 00:08:21.500
+And then one final note is with this bump
+map.
+
+00:08:21.500 --> 00:08:27.900
+You can actually control how much this thing
+is at least looks like it's extruding.
+
+00:08:27.900 --> 00:08:32.789
+So we can change the strength here and you
+can see how that works.
+
+00:08:32.789 --> 00:08:38.860
+Generally you want to keep this at one unless
+your textures aren't pre-calibrated to already
+
+00:08:38.860 --> 00:08:40.800
+be exactly what you want.
+
+00:08:40.800 --> 00:08:46.610
+So again, I used textures from cgmatter.com
+textures for free if you want them there.
+
+00:08:46.610 --> 00:08:52.459
+I mean it's an advertisement for my own site
+but it's free so consider it maybe.
+
+00:08:52.459 --> 00:08:53.550
+So hopefully this helped.
+
+00:08:53.550 --> 00:08:55.170
+Thank you for watching.
+
+00:08:55.170 --> 00:08:56.029
+And hope you learned something.
+

@@ -1,0 +1,3264 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.629 align:start position:0%
+ 
+geometry<00:00:00.719><c> nodes</c><00:00:01.120><c> is</c><00:00:01.360><c> like</c><00:00:01.680><c> artist-friendly</c>
+
+00:00:02.629 --> 00:00:02.639 align:start position:0%
+geometry nodes is like artist-friendly
+ 
+
+00:00:02.639 --> 00:00:05.030 align:start position:0%
+geometry nodes is like artist-friendly
+programming<00:00:03.439><c> letting</c><00:00:03.760><c> you</c><00:00:03.919><c> perform</c><00:00:04.480><c> actions</c>
+
+00:00:05.030 --> 00:00:05.040 align:start position:0%
+programming letting you perform actions
+ 
+
+00:00:05.040 --> 00:00:07.670 align:start position:0%
+programming letting you perform actions
+based<00:00:05.359><c> on</c><00:00:05.600><c> rules</c><00:00:06.000><c> that</c><00:00:06.080><c> you</c><00:00:06.240><c> define</c><00:00:07.200><c> and</c><00:00:07.440><c> you</c>
+
+00:00:07.670 --> 00:00:07.680 align:start position:0%
+based on rules that you define and you
+ 
+
+00:00:07.680 --> 00:00:10.390 align:start position:0%
+based on rules that you define and you
+can<00:00:07.839><c> do</c><00:00:08.080><c> some</c><00:00:08.480><c> crazy</c><00:00:09.040><c> things</c><00:00:09.360><c> with</c><00:00:09.599><c> it</c><00:00:10.080><c> create</c>
+
+00:00:10.390 --> 00:00:10.400 align:start position:0%
+can do some crazy things with it create
+ 
+
+00:00:10.400 --> 00:00:12.470 align:start position:0%
+can do some crazy things with it create
+things<00:00:10.639><c> that</c><00:00:10.800><c> were</c><00:00:10.960><c> previously</c><00:00:11.519><c> impossible</c>
+
+00:00:12.470 --> 00:00:12.480 align:start position:0%
+things that were previously impossible
+ 
+
+00:00:12.480 --> 00:00:14.549 align:start position:0%
+things that were previously impossible
+or<00:00:12.719><c> build</c><00:00:13.120><c> tools</c><00:00:13.519><c> to</c><00:00:13.679><c> enable</c><00:00:14.160><c> faster</c>
+
+00:00:14.549 --> 00:00:14.559 align:start position:0%
+or build tools to enable faster
+ 
+
+00:00:14.559 --> 00:00:15.669 align:start position:0%
+or build tools to enable faster
+production
+
+00:00:15.669 --> 00:00:15.679 align:start position:0%
+production
+ 
+
+00:00:15.679 --> 00:00:17.269 align:start position:0%
+production
+every<00:00:15.920><c> artist</c><00:00:16.240><c> should</c><00:00:16.400><c> learn</c><00:00:16.640><c> the</c><00:00:16.720><c> basics</c>
+
+00:00:17.269 --> 00:00:17.279 align:start position:0%
+every artist should learn the basics
+ 
+
+00:00:17.279 --> 00:00:19.910 align:start position:0%
+every artist should learn the basics
+which<00:00:17.600><c> is</c><00:00:17.760><c> what</c><00:00:18.000><c> this</c><00:00:18.240><c> series</c><00:00:18.720><c> is</c><00:00:18.880><c> all</c><00:00:19.039><c> about</c>
+
+00:00:19.910 --> 00:00:19.920 align:start position:0%
+which is what this series is all about
+ 
+
+00:00:19.920 --> 00:00:21.269 align:start position:0%
+which is what this series is all about
+you'll<00:00:20.080><c> leave</c><00:00:20.320><c> with</c><00:00:20.480><c> an</c><00:00:20.560><c> understanding</c><00:00:21.119><c> of</c>
+
+00:00:21.269 --> 00:00:21.279 align:start position:0%
+you'll leave with an understanding of
+ 
+
+00:00:21.279 --> 00:00:22.950 align:start position:0%
+you'll leave with an understanding of
+how<00:00:21.439><c> to</c><00:00:21.600><c> use</c><00:00:21.760><c> the</c><00:00:21.920><c> core</c><00:00:22.240><c> functionality</c><00:00:22.880><c> of</c>
+
+00:00:22.950 --> 00:00:22.960 align:start position:0%
+how to use the core functionality of
+ 
+
+00:00:22.960 --> 00:00:25.429 align:start position:0%
+how to use the core functionality of
+geometry<00:00:23.519><c> nodes</c><00:00:24.000><c> while</c><00:00:24.240><c> making</c><00:00:24.640><c> a</c><00:00:24.800><c> practical</c>
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+geometry nodes while making a practical
+ 
+
+00:00:25.439 --> 00:00:32.069 align:start position:0%
+geometry nodes while making a practical
+sugar-coated<00:00:26.160><c> candy</c><00:00:26.720><c> let's</c><00:00:26.880><c> begin</c>
+
+00:00:32.069 --> 00:00:32.079 align:start position:0%
+ 
+ 
+
+00:00:32.079 --> 00:00:33.990 align:start position:0%
+ 
+so<00:00:32.239><c> with</c><00:00:32.399><c> a</c><00:00:32.480><c> brand</c><00:00:32.640><c> new</c><00:00:32.880><c> scene</c><00:00:33.120><c> opened</c><00:00:33.440><c> up</c><00:00:33.680><c> go</c>
+
+00:00:33.990 --> 00:00:34.000 align:start position:0%
+so with a brand new scene opened up go
+ 
+
+00:00:34.000 --> 00:00:36.389 align:start position:0%
+so with a brand new scene opened up go
+to<00:00:34.160><c> your</c><00:00:34.480><c> geometry</c><00:00:35.040><c> nodes</c><00:00:35.520><c> tab</c><00:00:35.920><c> which</c><00:00:36.160><c> is</c><00:00:36.320><c> at</c>
+
+00:00:36.389 --> 00:00:36.399 align:start position:0%
+to your geometry nodes tab which is at
+ 
+
+00:00:36.399 --> 00:00:38.310 align:start position:0%
+to your geometry nodes tab which is at
+the<00:00:36.559><c> top</c><00:00:36.880><c> there</c><00:00:37.440><c> and</c><00:00:37.600><c> when</c><00:00:37.760><c> you</c><00:00:37.840><c> do</c><00:00:38.000><c> that</c><00:00:38.160><c> you</c>
+
+00:00:38.310 --> 00:00:38.320 align:start position:0%
+the top there and when you do that you
+ 
+
+00:00:38.320 --> 00:00:40.630 align:start position:0%
+the top there and when you do that you
+will<00:00:38.480><c> see</c><00:00:38.719><c> a</c><00:00:38.960><c> familiar</c><00:00:39.520><c> 3d</c><00:00:39.920><c> viewport</c><00:00:40.399><c> on</c><00:00:40.480><c> your</c>
+
+00:00:40.630 --> 00:00:40.640 align:start position:0%
+will see a familiar 3d viewport on your
+ 
+
+00:00:40.640 --> 00:00:42.869 align:start position:0%
+will see a familiar 3d viewport on your
+top<00:00:40.879><c> right</c><00:00:41.600><c> and</c><00:00:41.760><c> then</c><00:00:42.000><c> on</c><00:00:42.079><c> the</c><00:00:42.320><c> left</c><00:00:42.719><c> you've</c>
+
+00:00:42.869 --> 00:00:42.879 align:start position:0%
+top right and then on the left you've
+ 
+
+00:00:42.879 --> 00:00:44.549 align:start position:0%
+top right and then on the left you've
+got<00:00:43.040><c> this</c><00:00:43.600><c> scary</c><00:00:44.000><c> looking</c><00:00:44.239><c> thing</c><00:00:44.399><c> you've</c>
+
+00:00:44.549 --> 00:00:44.559 align:start position:0%
+got this scary looking thing you've
+ 
+
+00:00:44.559 --> 00:00:46.310 align:start position:0%
+got this scary looking thing you've
+never<00:00:44.800><c> seen</c><00:00:45.040><c> before</c><00:00:45.680><c> it's</c><00:00:45.840><c> called</c><00:00:46.079><c> the</c>
+
+00:00:46.310 --> 00:00:46.320 align:start position:0%
+never seen before it's called the
+ 
+
+00:00:46.320 --> 00:00:48.630 align:start position:0%
+never seen before it's called the
+spreadsheet
+
+00:00:48.630 --> 00:00:48.640 align:start position:0%
+spreadsheet
+ 
+
+00:00:48.640 --> 00:00:50.630 align:start position:0%
+spreadsheet
+you<00:00:48.800><c> won't</c><00:00:49.039><c> need</c><00:00:49.200><c> to</c><00:00:49.280><c> use</c><00:00:49.520><c> it</c><00:00:49.760><c> basically</c><00:00:50.480><c> it's</c>
+
+00:00:50.630 --> 00:00:50.640 align:start position:0%
+you won't need to use it basically it's
+ 
+
+00:00:50.640 --> 00:00:52.869 align:start position:0%
+you won't need to use it basically it's
+just<00:00:50.879><c> showing</c><00:00:51.200><c> you</c><00:00:51.360><c> the</c><00:00:51.600><c> exact</c><00:00:52.239><c> coordinates</c>
+
+00:00:52.869 --> 00:00:52.879 align:start position:0%
+just showing you the exact coordinates
+ 
+
+00:00:52.879 --> 00:00:54.549 align:start position:0%
+just showing you the exact coordinates
+of<00:00:52.960><c> like</c><00:00:53.199><c> vertices</c><00:00:53.760><c> and</c><00:00:53.920><c> faces</c><00:00:54.239><c> and</c><00:00:54.320><c> things</c>
+
+00:00:54.549 --> 00:00:54.559 align:start position:0%
+of like vertices and faces and things
+ 
+
+00:00:54.559 --> 00:00:55.910 align:start position:0%
+of like vertices and faces and things
+you<00:00:54.640><c> can</c><00:00:54.800><c> see</c><00:00:54.879><c> the</c><00:00:55.039><c> position</c><00:00:55.440><c> of</c><00:00:55.600><c> it</c><00:00:55.760><c> is</c>
+
+00:00:55.910 --> 00:00:55.920 align:start position:0%
+you can see the position of it is
+ 
+
+00:00:55.920 --> 00:00:58.229 align:start position:0%
+you can see the position of it is
+changing<00:00:56.320><c> as</c><00:00:56.480><c> i</c><00:00:56.640><c> move</c><00:00:57.039><c> that</c><00:00:57.280><c> vertically</c><00:00:57.680><c> there</c>
+
+00:00:58.229 --> 00:00:58.239 align:start position:0%
+changing as i move that vertically there
+ 
+
+00:00:58.239 --> 00:01:01.029 align:start position:0%
+changing as i move that vertically there
+useful<00:00:58.879><c> in</c><00:00:59.199><c> a</c><00:00:59.359><c> handful</c><00:00:59.760><c> of</c><00:00:59.920><c> cases</c><00:01:00.320><c> but</c><00:01:00.480><c> really</c>
+
+00:01:01.029 --> 00:01:01.039 align:start position:0%
+useful in a handful of cases but really
+ 
+
+00:01:01.039 --> 00:01:02.869 align:start position:0%
+useful in a handful of cases but really
+we<00:01:01.199><c> don't</c><00:01:01.359><c> need</c><00:01:01.600><c> it</c><00:01:02.079><c> out</c><00:01:02.320><c> of</c><00:01:02.399><c> sight</c><00:01:02.640><c> out</c><00:01:02.800><c> of</c>
+
+00:01:02.869 --> 00:01:02.879 align:start position:0%
+we don't need it out of sight out of
+ 
+
+00:01:02.879 --> 00:01:04.549 align:start position:0%
+we don't need it out of sight out of
+mind<00:01:03.120><c> so</c><00:01:03.199><c> i'm</c><00:01:03.359><c> just</c><00:01:03.440><c> going</c><00:01:03.520><c> to</c><00:01:03.680><c> right</c><00:01:03.920><c> click</c>
+
+00:01:04.549 --> 00:01:04.559 align:start position:0%
+mind so i'm just going to right click
+ 
+
+00:01:04.559 --> 00:01:05.910 align:start position:0%
+mind so i'm just going to right click
+join<00:01:04.879><c> these</c><00:01:05.040><c> areas</c><00:01:05.360><c> so</c><00:01:05.519><c> we</c><00:01:05.600><c> don't</c><00:01:05.760><c> have</c><00:01:05.840><c> to</c>
+
+00:01:05.910 --> 00:01:05.920 align:start position:0%
+join these areas so we don't have to
+ 
+
+00:01:05.920 --> 00:01:07.670 align:start position:0%
+join these areas so we don't have to
+look<00:01:06.080><c> at</c><00:01:06.240><c> it</c><00:01:06.640><c> and</c><00:01:06.720><c> now</c><00:01:06.880><c> i'm</c><00:01:06.960><c> going</c><00:01:07.040><c> to</c><00:01:07.119><c> click</c><00:01:07.360><c> on</c>
+
+00:01:07.670 --> 00:01:07.680 align:start position:0%
+look at it and now i'm going to click on
+ 
+
+00:01:07.680 --> 00:01:10.390 align:start position:0%
+look at it and now i'm going to click on
+new<00:01:08.400><c> and</c><00:01:08.560><c> now</c><00:01:08.880><c> we</c><00:01:09.040><c> have</c><00:01:09.200><c> a</c><00:01:09.360><c> geometry</c><00:01:09.920><c> nodes</c>
+
+00:01:10.390 --> 00:01:10.400 align:start position:0%
+new and now we have a geometry nodes
+ 
+
+00:01:10.400 --> 00:01:13.429 align:start position:0%
+new and now we have a geometry nodes
+system<00:01:10.880><c> applied</c><00:01:11.439><c> to</c><00:01:11.680><c> this</c><00:01:12.159><c> cube</c>
+
+00:01:13.429 --> 00:01:13.439 align:start position:0%
+system applied to this cube
+ 
+
+00:01:13.439 --> 00:01:15.590 align:start position:0%
+system applied to this cube
+you<00:01:13.600><c> will</c><00:01:13.760><c> also</c><00:01:14.159><c> note</c><00:01:14.479><c> you</c><00:01:14.640><c> have</c><00:01:14.880><c> a</c><00:01:15.040><c> modifier</c>
+
+00:01:15.590 --> 00:01:15.600 align:start position:0%
+you will also note you have a modifier
+ 
+
+00:01:15.600 --> 00:01:16.950 align:start position:0%
+you will also note you have a modifier
+that<00:01:15.760><c> has</c><00:01:15.840><c> been</c><00:01:16.000><c> added</c><00:01:16.240><c> here</c><00:01:16.400><c> called</c><00:01:16.560><c> geometry</c>
+
+00:01:16.950 --> 00:01:16.960 align:start position:0%
+that has been added here called geometry
+ 
+
+00:01:16.960 --> 00:01:18.950 align:start position:0%
+that has been added here called geometry
+notes<00:01:17.280><c> and</c><00:01:17.360><c> that</c><00:01:17.520><c> is</c><00:01:17.600><c> because</c><00:01:18.000><c> geometry</c><00:01:18.479><c> nodes</c>
+
+00:01:18.950 --> 00:01:18.960 align:start position:0%
+notes and that is because geometry nodes
+ 
+
+00:01:18.960 --> 00:01:22.070 align:start position:0%
+notes and that is because geometry nodes
+are<00:01:19.360><c> importantly</c><00:01:20.320><c> a</c><00:01:20.479><c> modifier</c>
+
+00:01:22.070 --> 00:01:22.080 align:start position:0%
+are importantly a modifier
+ 
+
+00:01:22.080 --> 00:01:23.830 align:start position:0%
+are importantly a modifier
+and<00:01:22.240><c> just</c><00:01:22.479><c> like</c><00:01:22.640><c> any</c><00:01:22.880><c> other</c><00:01:23.040><c> modifier</c><00:01:23.600><c> the</c>
+
+00:01:23.830 --> 00:01:23.840 align:start position:0%
+and just like any other modifier the
+ 
+
+00:01:23.840 --> 00:01:25.510 align:start position:0%
+and just like any other modifier the
+order<00:01:24.240><c> of</c><00:01:24.400><c> it</c><00:01:24.560><c> matters</c><00:01:24.880><c> whether</c><00:01:25.119><c> i</c><00:01:25.200><c> have</c><00:01:25.360><c> my</c>
+
+00:01:25.510 --> 00:01:25.520 align:start position:0%
+order of it matters whether i have my
+ 
+
+00:01:25.520 --> 00:01:27.910 align:start position:0%
+order of it matters whether i have my
+subsurf<00:01:26.000><c> modifier</c><00:01:26.479><c> before</c><00:01:26.880><c> it</c><00:01:27.040><c> or</c><00:01:27.280><c> after</c><00:01:27.600><c> it</c>
+
+00:01:27.910 --> 00:01:27.920 align:start position:0%
+subsurf modifier before it or after it
+ 
+
+00:01:27.920 --> 00:01:30.550 align:start position:0%
+subsurf modifier before it or after it
+because<00:01:28.159><c> it</c><00:01:28.240><c> will</c><00:01:28.400><c> work</c><00:01:28.799><c> top</c><00:01:29.119><c> to</c><00:01:29.360><c> bottom</c>
+
+00:01:30.550 --> 00:01:30.560 align:start position:0%
+because it will work top to bottom
+ 
+
+00:01:30.560 --> 00:01:33.109 align:start position:0%
+because it will work top to bottom
+and<00:01:30.799><c> also</c><00:01:31.280><c> you</c><00:01:31.439><c> could</c><00:01:31.680><c> actually</c><00:01:32.079><c> add</c><00:01:32.799><c> another</c>
+
+00:01:33.109 --> 00:01:33.119 align:start position:0%
+and also you could actually add another
+ 
+
+00:01:33.119 --> 00:01:35.429 align:start position:0%
+and also you could actually add another
+geometry<00:01:33.520><c> node</c><00:01:33.759><c> system</c><00:01:34.320><c> right</c><00:01:34.560><c> underneath</c><00:01:35.040><c> it</c>
+
+00:01:35.429 --> 00:01:35.439 align:start position:0%
+geometry node system right underneath it
+ 
+
+00:01:35.439 --> 00:01:37.109 align:start position:0%
+geometry node system right underneath it
+you<00:01:35.520><c> could</c><00:01:35.680><c> have</c><00:01:35.840><c> two</c><00:01:36.079><c> so</c><00:01:36.400><c> it</c><00:01:36.560><c> does</c><00:01:36.720><c> this</c><00:01:36.880><c> one</c>
+
+00:01:37.109 --> 00:01:37.119 align:start position:0%
+you could have two so it does this one
+ 
+
+00:01:37.119 --> 00:01:39.510 align:start position:0%
+you could have two so it does this one
+first<00:01:37.360><c> and</c><00:01:37.600><c> it</c><00:01:37.680><c> does</c><00:01:38.159><c> this</c><00:01:38.400><c> one</c><00:01:38.720><c> after</c><00:01:39.040><c> it</c><00:01:39.360><c> but</c>
+
+00:01:39.510 --> 00:01:39.520 align:start position:0%
+first and it does this one after it but
+ 
+
+00:01:39.520 --> 00:01:41.270 align:start position:0%
+first and it does this one after it but
+generally<00:01:40.000><c> you</c><00:01:40.159><c> only</c><00:01:40.320><c> need</c><00:01:40.479><c> one</c>
+
+00:01:41.270 --> 00:01:41.280 align:start position:0%
+generally you only need one
+ 
+
+00:01:41.280 --> 00:01:42.550 align:start position:0%
+generally you only need one
+so
+
+00:01:42.550 --> 00:01:42.560 align:start position:0%
+so
+ 
+
+00:01:42.560 --> 00:01:45.350 align:start position:0%
+so
+this<00:01:42.960><c> uh</c><00:01:43.200><c> system</c><00:01:43.600><c> here</c><00:01:44.400><c> is</c><00:01:44.799><c> the</c><00:01:44.960><c> easiest</c><00:01:45.280><c> way</c>
+
+00:01:45.350 --> 00:01:45.360 align:start position:0%
+this uh system here is the easiest way
+ 
+
+00:01:45.360 --> 00:01:46.630 align:start position:0%
+this uh system here is the easiest way
+to<00:01:45.439><c> think</c><00:01:45.520><c> of</c><00:01:45.600><c> geometry</c><00:01:45.920><c> nodes</c><00:01:46.159><c> is</c><00:01:46.240><c> really</c>
+
+00:01:46.630 --> 00:01:46.640 align:start position:0%
+to think of geometry nodes is really
+ 
+
+00:01:46.640 --> 00:01:50.630 align:start position:0%
+to think of geometry nodes is really
+like<00:01:47.119><c> it</c><00:01:47.439><c> is</c><00:01:48.000><c> post</c><00:01:48.399><c> processing</c><00:01:49.360><c> for</c><00:01:49.840><c> meshes</c>
+
+00:01:50.630 --> 00:01:50.640 align:start position:0%
+like it is post processing for meshes
+ 
+
+00:01:50.640 --> 00:01:52.870 align:start position:0%
+like it is post processing for meshes
+okay<00:01:50.960><c> so</c><00:01:51.439><c> we've</c><00:01:51.600><c> got</c><00:01:51.840><c> our</c><00:01:52.159><c> input</c><00:01:52.479><c> over</c><00:01:52.720><c> here</c>
+
+00:01:52.870 --> 00:01:52.880 align:start position:0%
+okay so we've got our input over here
+ 
+
+00:01:52.880 --> 00:01:55.350 align:start position:0%
+okay so we've got our input over here
+which<00:01:53.119><c> is</c><00:01:53.360><c> our</c><00:01:53.680><c> mesh</c><00:01:54.079><c> this</c><00:01:54.399><c> cube</c><00:01:54.640><c> here</c><00:01:55.200><c> and</c>
+
+00:01:55.350 --> 00:01:55.360 align:start position:0%
+which is our mesh this cube here and
+ 
+
+00:01:55.360 --> 00:01:57.670 align:start position:0%
+which is our mesh this cube here and
+then<00:01:55.680><c> it's</c><00:01:55.840><c> working</c><00:01:56.479><c> left</c><00:01:56.720><c> to</c><00:01:56.880><c> right</c><00:01:57.439><c> and</c><00:01:57.520><c> then</c>
+
+00:01:57.670 --> 00:01:57.680 align:start position:0%
+then it's working left to right and then
+ 
+
+00:01:57.680 --> 00:01:59.749 align:start position:0%
+then it's working left to right and then
+it's<00:01:57.840><c> feeding</c><00:01:58.240><c> us</c><00:01:58.479><c> an</c><00:01:58.640><c> output</c><00:01:59.040><c> over</c><00:01:59.280><c> here</c><00:01:59.600><c> so</c>
+
+00:01:59.749 --> 00:01:59.759 align:start position:0%
+it's feeding us an output over here so
+ 
+
+00:01:59.759 --> 00:02:02.069 align:start position:0%
+it's feeding us an output over here so
+whatever<00:02:00.079><c> i</c><00:02:00.240><c> put</c><00:02:00.560><c> between</c><00:02:01.200><c> those</c><00:02:01.520><c> two</c><00:02:01.759><c> points</c>
+
+00:02:02.069 --> 00:02:02.079 align:start position:0%
+whatever i put between those two points
+ 
+
+00:02:02.079 --> 00:02:04.389 align:start position:0%
+whatever i put between those two points
+it<00:02:02.159><c> will</c><00:02:02.320><c> do</c><00:02:02.560><c> as</c><00:02:02.719><c> a</c><00:02:03.040><c> post-processing</c><00:02:03.840><c> step</c><00:02:04.320><c> and</c>
+
+00:02:04.389 --> 00:02:04.399 align:start position:0%
+it will do as a post-processing step and
+ 
+
+00:02:04.399 --> 00:02:06.069 align:start position:0%
+it will do as a post-processing step and
+let<00:02:04.560><c> me</c><00:02:04.640><c> demonstrate</c><00:02:05.119><c> that</c><00:02:05.680><c> you</c><00:02:05.759><c> don't</c><00:02:05.920><c> have</c>
+
+00:02:06.069 --> 00:02:06.079 align:start position:0%
+let me demonstrate that you don't have
+ 
+
+00:02:06.079 --> 00:02:07.190 align:start position:0%
+let me demonstrate that you don't have
+to<00:02:06.159><c> follow</c><00:02:06.399><c> this</c><00:02:06.560><c> this</c><00:02:06.799><c> is</c><00:02:06.880><c> just</c><00:02:07.040><c> for</c>
+
+00:02:07.190 --> 00:02:07.200 align:start position:0%
+to follow this this is just for
+ 
+
+00:02:07.200 --> 00:02:09.029 align:start position:0%
+to follow this this is just for
+demonstration<00:02:08.080><c> i'm</c><00:02:08.239><c> going</c><00:02:08.319><c> to</c><00:02:08.479><c> add</c><00:02:08.640><c> in</c><00:02:08.800><c> a</c>
+
+00:02:09.029 --> 00:02:09.039 align:start position:0%
+demonstration i'm going to add in a
+ 
+
+00:02:09.039 --> 00:02:12.470 align:start position:0%
+demonstration i'm going to add in a
+transform<00:02:09.679><c> here</c><00:02:10.239><c> and</c><00:02:10.560><c> i</c><00:02:10.800><c> could</c><00:02:11.520><c> move</c><00:02:11.840><c> the</c><00:02:12.000><c> cube</c>
+
+00:02:12.470 --> 00:02:12.480 align:start position:0%
+transform here and i could move the cube
+ 
+
+00:02:12.480 --> 00:02:13.670 align:start position:0%
+transform here and i could move the cube
+i<00:02:12.720><c> could</c>
+
+00:02:13.670 --> 00:02:13.680 align:start position:0%
+i could
+ 
+
+00:02:13.680 --> 00:02:15.830 align:start position:0%
+i could
+rotate<00:02:14.080><c> the</c><00:02:14.239><c> cube</c><00:02:14.640><c> and</c><00:02:14.800><c> i</c><00:02:14.959><c> could</c><00:02:15.360><c> scale</c><00:02:15.680><c> the</c>
+
+00:02:15.830 --> 00:02:15.840 align:start position:0%
+rotate the cube and i could scale the
+ 
+
+00:02:15.840 --> 00:02:18.630 align:start position:0%
+rotate the cube and i could scale the
+cube<00:02:16.480><c> now</c><00:02:16.640><c> that</c><00:02:16.879><c> looks</c><00:02:17.200><c> like</c><00:02:17.440><c> i</c><00:02:17.599><c> have</c><00:02:17.840><c> changed</c>
+
+00:02:18.630 --> 00:02:18.640 align:start position:0%
+cube now that looks like i have changed
+ 
+
+00:02:18.640 --> 00:02:19.990 align:start position:0%
+cube now that looks like i have changed
+the<00:02:18.879><c> object</c><00:02:19.200><c> looks</c><00:02:19.360><c> like</c><00:02:19.520><c> i've</c><00:02:19.599><c> changed</c><00:02:19.920><c> the</c>
+
+00:02:19.990 --> 00:02:20.000 align:start position:0%
+the object looks like i've changed the
+ 
+
+00:02:20.000 --> 00:02:21.830 align:start position:0%
+the object looks like i've changed the
+mesh<00:02:20.239><c> but</c><00:02:20.400><c> actually</c><00:02:20.640><c> i</c><00:02:20.879><c> haven't</c><00:02:21.440><c> if</c><00:02:21.599><c> you</c><00:02:21.680><c> go</c>
+
+00:02:21.830 --> 00:02:21.840 align:start position:0%
+mesh but actually i haven't if you go
+ 
+
+00:02:21.840 --> 00:02:23.830 align:start position:0%
+mesh but actually i haven't if you go
+into<00:02:22.080><c> edit</c><00:02:22.319><c> mode</c><00:02:22.560><c> you</c><00:02:22.720><c> can</c><00:02:22.959><c> see</c><00:02:23.120><c> that</c><00:02:23.280><c> the</c><00:02:23.520><c> cube</c>
+
+00:02:23.830 --> 00:02:23.840 align:start position:0%
+into edit mode you can see that the cube
+ 
+
+00:02:23.840 --> 00:02:25.750 align:start position:0%
+into edit mode you can see that the cube
+is<00:02:23.920><c> still</c><00:02:24.239><c> there</c><00:02:24.720><c> that</c><00:02:24.879><c> hasn't</c><00:02:25.200><c> changed</c><00:02:25.520><c> that</c>
+
+00:02:25.750 --> 00:02:25.760 align:start position:0%
+is still there that hasn't changed that
+ 
+
+00:02:25.760 --> 00:02:28.390 align:start position:0%
+is still there that hasn't changed that
+hasn't<00:02:26.239><c> moved</c><00:02:26.879><c> because</c><00:02:27.280><c> that</c><00:02:27.599><c> part</c><00:02:27.920><c> the</c><00:02:28.080><c> mesh</c>
+
+00:02:28.390 --> 00:02:28.400 align:start position:0%
+hasn't moved because that part the mesh
+ 
+
+00:02:28.400 --> 00:02:31.190 align:start position:0%
+hasn't moved because that part the mesh
+part<00:02:28.959><c> is</c><00:02:29.120><c> what</c><00:02:29.360><c> is</c><00:02:29.520><c> over</c><00:02:29.760><c> here</c><00:02:30.319><c> it's</c><00:02:30.560><c> only</c><00:02:30.959><c> this</c>
+
+00:02:31.190 --> 00:02:31.200 align:start position:0%
+part is what is over here it's only this
+ 
+
+00:02:31.200 --> 00:02:33.430 align:start position:0%
+part is what is over here it's only this
+part<00:02:31.520><c> here</c><00:02:31.920><c> and</c><00:02:32.000><c> then</c><00:02:32.160><c> this</c><00:02:32.400><c> part</c><00:02:32.640><c> here</c><00:02:33.200><c> which</c>
+
+00:02:33.430 --> 00:02:33.440 align:start position:0%
+part here and then this part here which
+ 
+
+00:02:33.440 --> 00:02:35.589 align:start position:0%
+part here and then this part here which
+is<00:02:33.519><c> then</c><00:02:34.080><c> creating</c><00:02:34.800><c> and</c>
+
+00:02:35.589 --> 00:02:35.599 align:start position:0%
+is then creating and
+ 
+
+00:02:35.599 --> 00:02:37.270 align:start position:0%
+is then creating and
+it's<00:02:35.760><c> basically</c><00:02:36.160><c> doing</c><00:02:36.400><c> that</c><00:02:36.640><c> operation</c><00:02:37.120><c> and</c>
+
+00:02:37.270 --> 00:02:37.280 align:start position:0%
+it's basically doing that operation and
+ 
+
+00:02:37.280 --> 00:02:39.190 align:start position:0%
+it's basically doing that operation and
+it's<00:02:37.440><c> using</c><00:02:37.760><c> it</c><00:02:37.840><c> here</c><00:02:38.080><c> as</c><00:02:38.239><c> a</c><00:02:38.319><c> modifier</c><00:02:38.879><c> if</c><00:02:39.040><c> i</c>
+
+00:02:39.190 --> 00:02:39.200 align:start position:0%
+it's using it here as a modifier if i
+ 
+
+00:02:39.200 --> 00:02:41.509 align:start position:0%
+it's using it here as a modifier if i
+disable<00:02:39.680><c> it</c><00:02:39.840><c> in</c><00:02:39.920><c> the</c><00:02:40.000><c> 3d</c><00:02:40.319><c> viewport</c><00:02:41.040><c> um</c><00:02:41.280><c> you</c><00:02:41.360><c> can</c>
+
+00:02:41.509 --> 00:02:41.519 align:start position:0%
+disable it in the 3d viewport um you can
+ 
+
+00:02:41.519 --> 00:02:43.190 align:start position:0%
+disable it in the 3d viewport um you can
+see<00:02:41.599><c> that</c><00:02:41.840><c> i've</c><00:02:42.080><c> still</c><00:02:42.239><c> got</c><00:02:42.400><c> my</c><00:02:42.560><c> original</c><00:02:42.879><c> mesh</c>
+
+00:02:43.190 --> 00:02:43.200 align:start position:0%
+see that i've still got my original mesh
+ 
+
+00:02:43.200 --> 00:02:45.670 align:start position:0%
+see that i've still got my original mesh
+there<00:02:43.599><c> right</c><00:02:44.160><c> um</c><00:02:44.560><c> so</c><00:02:44.720><c> that's</c><00:02:45.200><c> that's</c><00:02:45.519><c> really</c>
+
+00:02:45.670 --> 00:02:45.680 align:start position:0%
+there right um so that's that's really
+ 
+
+00:02:45.680 --> 00:02:47.589 align:start position:0%
+there right um so that's that's really
+the<00:02:45.840><c> easiest</c><00:02:46.239><c> way</c><00:02:46.480><c> to</c><00:02:46.720><c> to</c><00:02:46.879><c> think</c><00:02:47.120><c> of</c><00:02:47.200><c> geometry</c>
+
+00:02:47.589 --> 00:02:47.599 align:start position:0%
+the easiest way to to think of geometry
+ 
+
+00:02:47.599 --> 00:02:48.550 align:start position:0%
+the easiest way to to think of geometry
+nodes
+
+00:02:48.550 --> 00:02:48.560 align:start position:0%
+nodes
+ 
+
+00:02:48.560 --> 00:02:50.710 align:start position:0%
+nodes
+but<00:02:48.879><c> you</c><00:02:49.040><c> can</c><00:02:49.120><c> do</c><00:02:49.280><c> a</c><00:02:49.360><c> lot</c><00:02:49.519><c> more</c><00:02:50.000><c> fancier</c><00:02:50.480><c> things</c>
+
+00:02:50.710 --> 00:02:50.720 align:start position:0%
+but you can do a lot more fancier things
+ 
+
+00:02:50.720 --> 00:02:52.630 align:start position:0%
+but you can do a lot more fancier things
+with<00:02:50.959><c> it</c><00:02:51.040><c> than</c><00:02:51.280><c> just</c><00:02:51.519><c> a</c><00:02:51.599><c> simple</c><00:02:52.080><c> rotation</c><00:02:52.560><c> and</c>
+
+00:02:52.630 --> 00:02:52.640 align:start position:0%
+with it than just a simple rotation and
+ 
+
+00:02:52.640 --> 00:02:54.150 align:start position:0%
+with it than just a simple rotation and
+scale<00:02:53.040><c> and</c><00:02:53.120><c> things</c>
+
+00:02:54.150 --> 00:02:54.160 align:start position:0%
+scale and things
+ 
+
+00:02:54.160 --> 00:02:57.750 align:start position:0%
+scale and things
+like<00:02:54.400><c> for</c><00:02:54.560><c> example</c><00:02:55.200><c> um</c><00:02:55.760><c> we</c><00:02:56.000><c> want</c><00:02:56.239><c> to</c><00:02:56.480><c> do</c><00:02:56.800><c> a</c><00:02:57.440><c> a</c>
+
+00:02:57.750 --> 00:02:57.760 align:start position:0%
+like for example um we want to do a a
+ 
+
+00:02:57.760 --> 00:02:59.990 align:start position:0%
+like for example um we want to do a a
+sugar<00:02:58.239><c> scattering</c><00:02:58.800><c> system</c><00:02:59.200><c> on</c><00:02:59.360><c> our</c><00:02:59.599><c> cube</c><00:02:59.920><c> and</c>
+
+00:02:59.990 --> 00:03:00.000 align:start position:0%
+sugar scattering system on our cube and
+ 
+
+00:03:00.000 --> 00:03:02.149 align:start position:0%
+sugar scattering system on our cube and
+the<00:03:00.160><c> cube</c><00:03:00.480><c> is</c><00:03:00.560><c> then</c><00:03:00.720><c> going</c><00:03:00.800><c> to</c><00:03:00.959><c> become</c><00:03:01.519><c> a</c><00:03:01.840><c> lolly</c>
+
+00:03:02.149 --> 00:03:02.159 align:start position:0%
+the cube is then going to become a lolly
+ 
+
+00:03:02.159 --> 00:03:03.190 align:start position:0%
+the cube is then going to become a lolly
+we're<00:03:02.319><c> going</c><00:03:02.400><c> to</c><00:03:02.480><c> make</c><00:03:02.560><c> it</c><00:03:02.640><c> look</c><00:03:02.800><c> like</c><00:03:02.879><c> a</c><00:03:02.959><c> lolly</c>
+
+00:03:03.190 --> 00:03:03.200 align:start position:0%
+we're going to make it look like a lolly
+ 
+
+00:03:03.200 --> 00:03:05.270 align:start position:0%
+we're going to make it look like a lolly
+or<00:03:03.360><c> a</c><00:03:03.760><c> candy</c><00:03:04.159><c> if</c><00:03:04.319><c> you're</c><00:03:04.480><c> american</c><00:03:04.959><c> or</c><00:03:05.120><c> what</c>
+
+00:03:05.270 --> 00:03:05.280 align:start position:0%
+or a candy if you're american or what
+ 
+
+00:03:05.280 --> 00:03:07.030 align:start position:0%
+or a candy if you're american or what
+not<00:03:05.760><c> everything</c><00:03:06.159><c> has</c><00:03:06.239><c> become</c><00:03:06.480><c> american</c><00:03:06.959><c> we</c>
+
+00:03:07.030 --> 00:03:07.040 align:start position:0%
+not everything has become american we
+ 
+
+00:03:07.040 --> 00:03:10.149 align:start position:0%
+not everything has become american we
+just<00:03:07.120><c> call</c><00:03:07.280><c> it</c><00:03:07.360><c> candy</c><00:03:07.680><c> now</c><00:03:07.920><c> anyway</c><00:03:08.640><c> um</c><00:03:09.360><c> the</c><00:03:09.760><c> the</c>
+
+00:03:10.149 --> 00:03:10.159 align:start position:0%
+just call it candy now anyway um the the
+ 
+
+00:03:10.159 --> 00:03:11.990 align:start position:0%
+just call it candy now anyway um the the
+node<00:03:10.400><c> that</c><00:03:10.480><c> we</c><00:03:10.640><c> are</c><00:03:10.720><c> looking</c><00:03:10.959><c> for</c>
+
+00:03:11.990 --> 00:03:12.000 align:start position:0%
+node that we are looking for
+ 
+
+00:03:12.000 --> 00:03:13.509 align:start position:0%
+node that we are looking for
+by<00:03:12.159><c> the</c><00:03:12.239><c> way</c><00:03:12.400><c> shift</c><00:03:12.720><c> a</c><00:03:12.959><c> if</c><00:03:13.040><c> you</c><00:03:13.120><c> want</c><00:03:13.200><c> to</c><00:03:13.280><c> add</c><00:03:13.440><c> a</c>
+
+00:03:13.509 --> 00:03:13.519 align:start position:0%
+by the way shift a if you want to add a
+ 
+
+00:03:13.519 --> 00:03:15.430 align:start position:0%
+by the way shift a if you want to add a
+node<00:03:13.760><c> you</c><00:03:13.840><c> can</c><00:03:14.000><c> also</c><00:03:14.239><c> find</c><00:03:14.400><c> it</c><00:03:14.560><c> here</c>
+
+00:03:15.430 --> 00:03:15.440 align:start position:0%
+node you can also find it here
+ 
+
+00:03:15.440 --> 00:03:17.430 align:start position:0%
+node you can also find it here
+uh<00:03:15.680><c> the</c><00:03:15.840><c> note</c><00:03:16.080><c> that</c><00:03:16.159><c> we're</c><00:03:16.319><c> looking</c><00:03:16.560><c> for</c>
+
+00:03:17.430 --> 00:03:17.440 align:start position:0%
+uh the note that we're looking for
+ 
+
+00:03:17.440 --> 00:03:18.790 align:start position:0%
+uh the note that we're looking for
+look<00:03:17.840><c> you've</c><00:03:18.000><c> never</c><00:03:18.159><c> heard</c><00:03:18.319><c> of</c><00:03:18.400><c> it</c><00:03:18.480><c> before</c><00:03:18.720><c> you</c>
+
+00:03:18.790 --> 00:03:18.800 align:start position:0%
+look you've never heard of it before you
+ 
+
+00:03:18.800 --> 00:03:21.110 align:start position:0%
+look you've never heard of it before you
+wouldn't<00:03:19.040><c> know</c><00:03:19.200><c> which</c><00:03:19.360><c> one</c><00:03:19.599><c> to</c><00:03:19.760><c> use</c><00:03:20.080><c> until</c>
+
+00:03:21.110 --> 00:03:21.120 align:start position:0%
+wouldn't know which one to use until
+ 
+
+00:03:21.120 --> 00:03:22.390 align:start position:0%
+wouldn't know which one to use until
+you<00:03:21.280><c> follow</c><00:03:21.440><c> a</c><00:03:21.519><c> tutorial</c><00:03:21.920><c> and</c><00:03:22.080><c> then</c><00:03:22.159><c> you</c><00:03:22.239><c> see</c>
+
+00:03:22.390 --> 00:03:22.400 align:start position:0%
+you follow a tutorial and then you see
+ 
+
+00:03:22.400 --> 00:03:24.309 align:start position:0%
+you follow a tutorial and then you see
+it<00:03:22.560><c> and</c><00:03:22.640><c> honestly</c><00:03:23.200><c> that's</c><00:03:23.519><c> the</c><00:03:23.599><c> easiest</c><00:03:23.920><c> way</c><00:03:24.159><c> i</c>
+
+00:03:24.309 --> 00:03:24.319 align:start position:0%
+it and honestly that's the easiest way i
+ 
+
+00:03:24.319 --> 00:03:26.470 align:start position:0%
+it and honestly that's the easiest way i
+think<00:03:24.560><c> it</c><00:03:25.040><c> that's</c><00:03:25.280><c> the</c><00:03:25.440><c> best</c><00:03:25.680><c> way</c><00:03:25.920><c> to</c><00:03:26.080><c> learn</c><00:03:26.400><c> in</c>
+
+00:03:26.470 --> 00:03:26.480 align:start position:0%
+think it that's the best way to learn in
+ 
+
+00:03:26.480 --> 00:03:29.110 align:start position:0%
+think it that's the best way to learn in
+my<00:03:26.640><c> opinion</c><00:03:27.280><c> is</c><00:03:27.440><c> to</c><00:03:27.599><c> not</c><00:03:27.840><c> like</c><00:03:28.080><c> look</c><00:03:28.319><c> up</c><00:03:28.640><c> like</c>
+
+00:03:29.110 --> 00:03:29.120 align:start position:0%
+my opinion is to not like look up like
+ 
+
+00:03:29.120 --> 00:03:30.789 align:start position:0%
+my opinion is to not like look up like
+in<00:03:29.280><c> alphabetical</c><00:03:29.920><c> order</c><00:03:30.239><c> like</c><00:03:30.400><c> what</c><00:03:30.560><c> does</c>
+
+00:03:30.789 --> 00:03:30.799 align:start position:0%
+in alphabetical order like what does
+ 
+
+00:03:30.799 --> 00:03:32.309 align:start position:0%
+in alphabetical order like what does
+each<00:03:31.040><c> of</c><00:03:31.120><c> these</c><00:03:31.360><c> things</c><00:03:31.680><c> do</c><00:03:31.840><c> and</c><00:03:31.920><c> when</c><00:03:32.080><c> do</c><00:03:32.239><c> i</c>
+
+00:03:32.309 --> 00:03:32.319 align:start position:0%
+each of these things do and when do i
+ 
+
+00:03:32.319 --> 00:03:34.550 align:start position:0%
+each of these things do and when do i
+need<00:03:32.480><c> to</c><00:03:32.640><c> use</c><00:03:32.799><c> it</c><00:03:33.280><c> like</c><00:03:33.760><c> just</c><00:03:34.159><c> you</c><00:03:34.319><c> need</c><00:03:34.400><c> to</c>
+
+00:03:34.550 --> 00:03:34.560 align:start position:0%
+need to use it like just you need to
+ 
+
+00:03:34.560 --> 00:03:36.070 align:start position:0%
+need to use it like just you need to
+know<00:03:34.640><c> it</c><00:03:34.720><c> when</c><00:03:34.879><c> you</c><00:03:34.959><c> need</c><00:03:35.120><c> to</c><00:03:35.280><c> know</c><00:03:35.440><c> it</c><00:03:35.599><c> so</c><00:03:35.760><c> like</c>
+
+00:03:36.070 --> 00:03:36.080 align:start position:0%
+know it when you need to know it so like
+ 
+
+00:03:36.080 --> 00:03:37.670 align:start position:0%
+know it when you need to know it so like
+try<00:03:36.239><c> and</c><00:03:36.319><c> do</c><00:03:36.480><c> things</c><00:03:36.720><c> yourself</c><00:03:37.120><c> and</c><00:03:37.200><c> then</c><00:03:37.440><c> like</c>
+
+00:03:37.670 --> 00:03:37.680 align:start position:0%
+try and do things yourself and then like
+ 
+
+00:03:37.680 --> 00:03:39.910 align:start position:0%
+try and do things yourself and then like
+look<00:03:37.920><c> up</c><00:03:38.159><c> google</c><00:03:38.560><c> it</c><00:03:38.879><c> you</c><00:03:39.040><c> find</c><00:03:39.280><c> a</c><00:03:39.360><c> screenshot</c>
+
+00:03:39.910 --> 00:03:39.920 align:start position:0%
+look up google it you find a screenshot
+ 
+
+00:03:39.920 --> 00:03:41.430 align:start position:0%
+look up google it you find a screenshot
+or<00:03:40.000><c> a</c><00:03:40.080><c> tutorial</c><00:03:40.560><c> and</c><00:03:40.640><c> then</c><00:03:40.720><c> you</c><00:03:40.879><c> learn</c><00:03:41.200><c> about</c>
+
+00:03:41.430 --> 00:03:41.440 align:start position:0%
+or a tutorial and then you learn about
+ 
+
+00:03:41.440 --> 00:03:43.430 align:start position:0%
+or a tutorial and then you learn about
+that<00:03:41.680><c> node</c><00:03:42.000><c> that</c><00:03:42.400><c> sounded</c><00:03:42.720><c> complicated</c><00:03:43.280><c> or</c>
+
+00:03:43.430 --> 00:03:43.440 align:start position:0%
+that node that sounded complicated or
+ 
+
+00:03:43.440 --> 00:03:45.670 align:start position:0%
+that node that sounded complicated or
+weird<00:03:43.680><c> before</c><00:03:44.400><c> so</c><00:03:44.640><c> in</c><00:03:44.799><c> this</c><00:03:45.040><c> case</c><00:03:45.280><c> we</c><00:03:45.440><c> want</c><00:03:45.599><c> to</c>
+
+00:03:45.670 --> 00:03:45.680 align:start position:0%
+weird before so in this case we want to
+ 
+
+00:03:45.680 --> 00:03:46.869 align:start position:0%
+weird before so in this case we want to
+create
+
+00:03:46.869 --> 00:03:46.879 align:start position:0%
+create
+ 
+
+00:03:46.879 --> 00:03:49.750 align:start position:0%
+create
+scattered<00:03:47.440><c> objects</c><00:03:48.159><c> so</c><00:03:48.319><c> we</c><00:03:48.560><c> need</c><00:03:48.959><c> points</c><00:03:49.519><c> so</c>
+
+00:03:49.750 --> 00:03:49.760 align:start position:0%
+scattered objects so we need points so
+ 
+
+00:03:49.760 --> 00:03:51.670 align:start position:0%
+scattered objects so we need points so
+underneath<00:03:50.239><c> points</c><00:03:50.959><c> we're</c><00:03:51.120><c> looking</c><00:03:51.440><c> for</c>
+
+00:03:51.670 --> 00:03:51.680 align:start position:0%
+underneath points we're looking for
+ 
+
+00:03:51.680 --> 00:03:54.869 align:start position:0%
+underneath points we're looking for
+distribute<00:03:52.720><c> points</c><00:03:53.200><c> on</c><00:03:53.599><c> faces</c><00:03:54.400><c> so</c><00:03:54.560><c> when</c><00:03:54.720><c> you</c>
+
+00:03:54.869 --> 00:03:54.879 align:start position:0%
+distribute points on faces so when you
+ 
+
+00:03:54.879 --> 00:03:55.990 align:start position:0%
+distribute points on faces so when you
+click
+
+00:03:55.990 --> 00:03:56.000 align:start position:0%
+click
+ 
+
+00:03:56.000 --> 00:03:58.390 align:start position:0%
+click
+and<00:03:56.239><c> if</c><00:03:56.480><c> i</c><00:03:56.720><c> just</c><00:03:57.200><c> you</c><00:03:57.360><c> can</c><00:03:57.439><c> see</c><00:03:57.599><c> as</c><00:03:57.760><c> i</c><00:03:57.920><c> mouse</c>
+
+00:03:58.390 --> 00:03:58.400 align:start position:0%
+and if i just you can see as i mouse
+ 
+
+00:03:58.400 --> 00:04:00.390 align:start position:0%
+and if i just you can see as i mouse
+over<00:03:58.799><c> this</c><00:03:59.120><c> uh</c><00:03:59.200><c> this</c><00:03:59.519><c> line</c><00:03:59.760><c> here</c>
+
+00:04:00.390 --> 00:04:00.400 align:start position:0%
+over this uh this line here
+ 
+
+00:04:00.400 --> 00:04:02.149 align:start position:0%
+over this uh this line here
+if<00:04:00.560><c> i</c><00:04:00.720><c> just</c><00:04:00.879><c> click</c><00:04:01.200><c> do</c><00:04:01.360><c> a</c><00:04:01.439><c> single</c><00:04:01.680><c> click</c><00:04:02.000><c> it'll</c>
+
+00:04:02.149 --> 00:04:02.159 align:start position:0%
+if i just click do a single click it'll
+ 
+
+00:04:02.159 --> 00:04:04.390 align:start position:0%
+if i just click do a single click it'll
+then<00:04:02.400><c> automatically</c><00:04:03.040><c> join</c><00:04:03.360><c> it</c><00:04:03.439><c> for</c><00:04:03.599><c> me</c><00:04:04.159><c> now</c>
+
+00:04:04.390 --> 00:04:04.400 align:start position:0%
+then automatically join it for me now
+ 
+
+00:04:04.400 --> 00:04:06.149 align:start position:0%
+then automatically join it for me now
+joining<00:04:04.799><c> nodes</c><00:04:05.200><c> is</c><00:04:05.360><c> if</c><00:04:05.519><c> you're</c><00:04:05.599><c> familiar</c><00:04:05.920><c> with</c>
+
+00:04:06.149 --> 00:04:06.159 align:start position:0%
+joining nodes is if you're familiar with
+ 
+
+00:04:06.159 --> 00:04:07.750 align:start position:0%
+joining nodes is if you're familiar with
+shaders<00:04:06.560><c> it's</c><00:04:06.799><c> roughly</c><00:04:07.120><c> the</c><00:04:07.280><c> same</c><00:04:07.439><c> thing</c><00:04:07.599><c> but</c>
+
+00:04:07.750 --> 00:04:07.760 align:start position:0%
+shaders it's roughly the same thing but
+ 
+
+00:04:07.760 --> 00:04:08.949 align:start position:0%
+shaders it's roughly the same thing but
+you<00:04:07.840><c> generally</c><00:04:08.080><c> want</c><00:04:08.239><c> to</c><00:04:08.319><c> have</c><00:04:08.480><c> the</c><00:04:08.640><c> same</c>
+
+00:04:08.949 --> 00:04:08.959 align:start position:0%
+you generally want to have the same
+ 
+
+00:04:08.959 --> 00:04:11.190 align:start position:0%
+you generally want to have the same
+color<00:04:09.439><c> go</c><00:04:09.680><c> into</c><00:04:09.920><c> the</c><00:04:10.080><c> same</c><00:04:10.319><c> color</c><00:04:10.640><c> so</c><00:04:10.799><c> green</c><00:04:11.040><c> to</c>
+
+00:04:11.190 --> 00:04:11.200 align:start position:0%
+color go into the same color so green to
+ 
+
+00:04:11.200 --> 00:04:13.830 align:start position:0%
+color go into the same color so green to
+green<00:04:11.920><c> purple</c><00:04:12.319><c> purple</c><00:04:12.959><c> etc</c><00:04:13.519><c> there</c><00:04:13.680><c> are</c>
+
+00:04:13.830 --> 00:04:13.840 align:start position:0%
+green purple purple etc there are
+ 
+
+00:04:13.840 --> 00:04:15.190 align:start position:0%
+green purple purple etc there are
+exceptions<00:04:14.319><c> to</c><00:04:14.400><c> that</c><00:04:14.560><c> and</c><00:04:14.720><c> we'll</c><00:04:14.879><c> talk</c><00:04:15.040><c> about</c>
+
+00:04:15.190 --> 00:04:15.200 align:start position:0%
+exceptions to that and we'll talk about
+ 
+
+00:04:15.200 --> 00:04:17.509 align:start position:0%
+exceptions to that and we'll talk about
+that<00:04:15.280><c> later</c><00:04:15.599><c> but</c><00:04:15.680><c> that's</c><00:04:15.920><c> just</c><00:04:16.079><c> a</c><00:04:16.320><c> general</c><00:04:17.199><c> uh</c>
+
+00:04:17.509 --> 00:04:17.519 align:start position:0%
+that later but that's just a general uh
+ 
+
+00:04:17.519 --> 00:04:19.590 align:start position:0%
+that later but that's just a general uh
+rule<00:04:18.160><c> so</c><00:04:18.320><c> what</c><00:04:18.479><c> this</c><00:04:18.720><c> has</c><00:04:18.799><c> done</c><00:04:19.040><c> is</c><00:04:19.199><c> it</c><00:04:19.440><c> has</c>
+
+00:04:19.590 --> 00:04:19.600 align:start position:0%
+rule so what this has done is it has
+ 
+
+00:04:19.600 --> 00:04:21.590 align:start position:0%
+rule so what this has done is it has
+taken<00:04:20.000><c> our</c><00:04:20.320><c> mesh</c><00:04:20.639><c> data</c><00:04:20.959><c> of</c><00:04:21.040><c> a</c><00:04:21.120><c> cube</c><00:04:21.359><c> and</c><00:04:21.440><c> it</c>
+
+00:04:21.590 --> 00:04:21.600 align:start position:0%
+taken our mesh data of a cube and it
+ 
+
+00:04:21.600 --> 00:04:23.990 align:start position:0%
+taken our mesh data of a cube and it
+said<00:04:21.840><c> okay</c><00:04:22.240><c> instead</c><00:04:22.560><c> of</c><00:04:22.639><c> the</c><00:04:22.800><c> mesh</c><00:04:23.199><c> you</c><00:04:23.440><c> want</c>
+
+00:04:23.990 --> 00:04:24.000 align:start position:0%
+said okay instead of the mesh you want
+ 
+
+00:04:24.000 --> 00:04:26.950 align:start position:0%
+said okay instead of the mesh you want
+to<00:04:24.240><c> see</c><00:04:24.800><c> points</c><00:04:25.520><c> and</c><00:04:25.680><c> it</c><00:04:25.759><c> has</c><00:04:26.000><c> now</c><00:04:26.320><c> scattered</c>
+
+00:04:26.950 --> 00:04:26.960 align:start position:0%
+to see points and it has now scattered
+ 
+
+00:04:26.960 --> 00:04:28.950 align:start position:0%
+to see points and it has now scattered
+points<00:04:27.440><c> on</c><00:04:27.600><c> that</c><00:04:28.160><c> and</c><00:04:28.320><c> you</c><00:04:28.400><c> can</c><00:04:28.479><c> see</c><00:04:28.639><c> if</c><00:04:28.800><c> i</c>
+
+00:04:28.950 --> 00:04:28.960 align:start position:0%
+points on that and you can see if i
+ 
+
+00:04:28.960 --> 00:04:31.270 align:start position:0%
+points on that and you can see if i
+increase<00:04:29.360><c> the</c><00:04:29.440><c> density</c><00:04:29.840><c> there</c><00:04:30.479><c> it</c><00:04:30.720><c> looks</c><00:04:30.960><c> like</c>
+
+00:04:31.270 --> 00:04:31.280 align:start position:0%
+increase the density there it looks like
+ 
+
+00:04:31.280 --> 00:04:33.590 align:start position:0%
+increase the density there it looks like
+the<00:04:31.440><c> shape</c><00:04:31.759><c> of</c><00:04:32.000><c> my</c><00:04:32.479><c> cube</c>
+
+00:04:33.590 --> 00:04:33.600 align:start position:0%
+the shape of my cube
+ 
+
+00:04:33.600 --> 00:04:35.670 align:start position:0%
+the shape of my cube
+okay<00:04:33.919><c> cool</c><00:04:34.240><c> i</c><00:04:34.400><c> can</c><00:04:34.479><c> do</c><00:04:34.800><c> i</c><00:04:34.880><c> can</c><00:04:34.960><c> do</c><00:04:35.120><c> really</c><00:04:35.440><c> cool</c>
+
+00:04:35.670 --> 00:04:35.680 align:start position:0%
+okay cool i can do i can do really cool
+ 
+
+00:04:35.680 --> 00:04:36.870 align:start position:0%
+okay cool i can do i can do really cool
+things<00:04:35.919><c> with</c><00:04:36.080><c> these</c><00:04:36.320><c> points</c><00:04:36.560><c> i</c><00:04:36.639><c> could</c><00:04:36.720><c> do</c>
+
+00:04:36.870 --> 00:04:36.880 align:start position:0%
+things with these points i could do
+ 
+
+00:04:36.880 --> 00:04:38.469 align:start position:0%
+things with these points i could do
+animations<00:04:37.440><c> i</c><00:04:37.520><c> could</c><00:04:37.680><c> make</c><00:04:37.840><c> them</c><00:04:38.080><c> fall</c><00:04:38.320><c> i</c>
+
+00:04:38.469 --> 00:04:38.479 align:start position:0%
+animations i could make them fall i
+ 
+
+00:04:38.479 --> 00:04:40.390 align:start position:0%
+animations i could make them fall i
+could<00:04:38.560><c> do</c><00:04:38.720><c> everything</c><00:04:39.360><c> but</c><00:04:39.520><c> this</c><00:04:39.759><c> is</c><00:04:39.840><c> just</c><00:04:40.320><c> you</c>
+
+00:04:40.390 --> 00:04:40.400 align:start position:0%
+could do everything but this is just you
+ 
+
+00:04:40.400 --> 00:04:43.110 align:start position:0%
+could do everything but this is just you
+know<00:04:40.720><c> the</c><00:04:40.960><c> the</c><00:04:41.040><c> most</c><00:04:41.360><c> basic</c><00:04:41.680><c> form</c><00:04:41.919><c> of</c><00:04:42.080><c> it</c><00:04:42.639><c> now</c>
+
+00:04:43.110 --> 00:04:43.120 align:start position:0%
+know the the most basic form of it now
+ 
+
+00:04:43.120 --> 00:04:45.510 align:start position:0%
+know the the most basic form of it now
+we<00:04:43.360><c> actually</c><00:04:43.680><c> want</c><00:04:43.840><c> to</c><00:04:44.000><c> have</c><00:04:44.720><c> not</c><00:04:44.880><c> just</c><00:04:45.360><c> the</c>
+
+00:04:45.510 --> 00:04:45.520 align:start position:0%
+we actually want to have not just the
+ 
+
+00:04:45.520 --> 00:04:47.430 align:start position:0%
+we actually want to have not just the
+points<00:04:45.759><c> by</c><00:04:46.000><c> themselves</c><00:04:46.639><c> because</c><00:04:46.880><c> if</c><00:04:47.040><c> i</c><00:04:47.199><c> if</c><00:04:47.360><c> i</c>
+
+00:04:47.430 --> 00:04:47.440 align:start position:0%
+points by themselves because if i if i
+ 
+
+00:04:47.440 --> 00:04:49.030 align:start position:0%
+points by themselves because if i if i
+was<00:04:47.600><c> to</c><00:04:47.759><c> render</c><00:04:48.240><c> actually</c><00:04:48.560><c> i</c><00:04:48.639><c> would</c><00:04:48.720><c> get</c>
+
+00:04:49.030 --> 00:04:49.040 align:start position:0%
+was to render actually i would get
+ 
+
+00:04:49.040 --> 00:04:50.230 align:start position:0%
+was to render actually i would get
+nothing
+
+00:04:50.230 --> 00:04:50.240 align:start position:0%
+nothing
+ 
+
+00:04:50.240 --> 00:04:51.990 align:start position:0%
+nothing
+because<00:04:50.639><c> points</c><00:04:50.960><c> don't</c><00:04:51.199><c> actually</c><00:04:51.600><c> render</c>
+
+00:04:51.990 --> 00:04:52.000 align:start position:0%
+because points don't actually render
+ 
+
+00:04:52.000 --> 00:04:54.070 align:start position:0%
+because points don't actually render
+they're<00:04:52.160><c> just</c><00:04:52.560><c> for</c><00:04:52.720><c> the</c><00:04:52.880><c> 3d</c><00:04:53.199><c> viewport</c><00:04:53.840><c> until</c>
+
+00:04:54.070 --> 00:04:54.080 align:start position:0%
+they're just for the 3d viewport until
+ 
+
+00:04:54.080 --> 00:04:55.590 align:start position:0%
+they're just for the 3d viewport until
+you<00:04:54.240><c> reference</c><00:04:54.639><c> them</c><00:04:54.800><c> and</c><00:04:54.880><c> tell</c><00:04:55.040><c> them</c><00:04:55.120><c> what</c><00:04:55.440><c> to</c>
+
+00:04:55.590 --> 00:04:55.600 align:start position:0%
+you reference them and tell them what to
+ 
+
+00:04:55.600 --> 00:04:57.030 align:start position:0%
+you reference them and tell them what to
+render<00:04:55.840><c> them</c><00:04:56.080><c> as</c>
+
+00:04:57.030 --> 00:04:57.040 align:start position:0%
+render them as
+ 
+
+00:04:57.040 --> 00:04:57.830 align:start position:0%
+render them as
+i
+
+00:04:57.830 --> 00:04:57.840 align:start position:0%
+i
+ 
+
+00:04:57.840 --> 00:05:00.150 align:start position:0%
+i
+as<00:04:58.080><c> well</c><00:04:58.320><c> as</c><00:04:58.479><c> these</c><00:04:58.720><c> points</c><00:04:59.199><c> i</c><00:04:59.360><c> want</c><00:04:59.759><c> to</c><00:05:00.000><c> see</c>
+
+00:05:00.150 --> 00:05:00.160 align:start position:0%
+as well as these points i want to see
+ 
+
+00:05:00.160 --> 00:05:02.469 align:start position:0%
+as well as these points i want to see
+the<00:05:00.400><c> cube</c><00:05:00.960><c> so</c><00:05:01.120><c> i</c><00:05:01.280><c> want</c><00:05:01.360><c> to</c><00:05:01.520><c> use</c>
+
+00:05:02.469 --> 00:05:02.479 align:start position:0%
+the cube so i want to use
+ 
+
+00:05:02.479 --> 00:05:04.790 align:start position:0%
+the cube so i want to use
+the<00:05:02.639><c> cube</c><00:05:02.960><c> data</c><00:05:03.440><c> twice</c><00:05:03.919><c> and</c><00:05:04.000><c> i</c><00:05:04.160><c> can</c><00:05:04.320><c> do</c><00:05:04.479><c> that</c>
+
+00:05:04.790 --> 00:05:04.800 align:start position:0%
+the cube data twice and i can do that
+ 
+
+00:05:04.800 --> 00:05:06.469 align:start position:0%
+the cube data twice and i can do that
+with<00:05:05.199><c> another</c><00:05:05.520><c> node</c><00:05:05.759><c> that</c><00:05:05.840><c> you'll</c><00:05:06.000><c> need</c><00:05:06.320><c> all</c>
+
+00:05:06.469 --> 00:05:06.479 align:start position:0%
+with another node that you'll need all
+ 
+
+00:05:06.479 --> 00:05:09.189 align:start position:0%
+with another node that you'll need all
+the<00:05:06.560><c> time</c><00:05:07.120><c> which</c><00:05:07.440><c> is</c><00:05:07.840><c> join</c><00:05:08.320><c> geometry</c><00:05:08.880><c> shift</c><00:05:09.120><c> a</c>
+
+00:05:09.189 --> 00:05:09.199 align:start position:0%
+the time which is join geometry shift a
+ 
+
+00:05:09.199 --> 00:05:10.629 align:start position:0%
+the time which is join geometry shift a
+join<00:05:09.440><c> geometry</c><00:05:09.919><c> by</c><00:05:10.080><c> the</c><00:05:10.080><c> way</c><00:05:10.240><c> if</c><00:05:10.320><c> you</c><00:05:10.400><c> can't</c>
+
+00:05:10.629 --> 00:05:10.639 align:start position:0%
+join geometry by the way if you can't
+ 
+
+00:05:10.639 --> 00:05:12.310 align:start position:0%
+join geometry by the way if you can't
+ever<00:05:10.800><c> remember</c><00:05:11.120><c> which</c><00:05:11.440><c> which</c><00:05:11.680><c> menu</c><00:05:12.000><c> it</c><00:05:12.160><c> is</c>
+
+00:05:12.310 --> 00:05:12.320 align:start position:0%
+ever remember which which menu it is
+ 
+
+00:05:12.320 --> 00:05:13.830 align:start position:0%
+ever remember which which menu it is
+under<00:05:12.720><c> if</c><00:05:12.880><c> you</c><00:05:12.960><c> just</c><00:05:13.039><c> go</c><00:05:13.199><c> up</c><00:05:13.280><c> to</c><00:05:13.440><c> search</c><00:05:13.759><c> and</c>
+
+00:05:13.830 --> 00:05:13.840 align:start position:0%
+under if you just go up to search and
+ 
+
+00:05:13.840 --> 00:05:16.150 align:start position:0%
+under if you just go up to search and
+then<00:05:14.000><c> just</c><00:05:14.160><c> type</c><00:05:14.479><c> in</c><00:05:14.880><c> join</c><00:05:15.360><c> or</c><00:05:15.600><c> whatever</c><00:05:15.919><c> it</c><00:05:16.080><c> is</c>
+
+00:05:16.150 --> 00:05:16.160 align:start position:0%
+then just type in join or whatever it is
+ 
+
+00:05:16.160 --> 00:05:17.909 align:start position:0%
+then just type in join or whatever it is
+you're<00:05:16.320><c> looking</c><00:05:16.560><c> for</c><00:05:17.280><c> you</c><00:05:17.440><c> can</c><00:05:17.520><c> find</c><00:05:17.759><c> it</c><00:05:17.840><c> that</c>
+
+00:05:17.909 --> 00:05:17.919 align:start position:0%
+you're looking for you can find it that
+ 
+
+00:05:17.919 --> 00:05:20.230 align:start position:0%
+you're looking for you can find it that
+way<00:05:18.080><c> as</c><00:05:18.240><c> well</c><00:05:18.720><c> so</c><00:05:18.960><c> if</c><00:05:19.120><c> i</c><00:05:19.280><c> drop</c><00:05:19.440><c> this</c><00:05:19.680><c> in</c><00:05:19.840><c> here</c>
+
+00:05:20.230 --> 00:05:20.240 align:start position:0%
+way as well so if i drop this in here
+ 
+
+00:05:20.240 --> 00:05:22.790 align:start position:0%
+way as well so if i drop this in here
+after<00:05:20.639><c> my</c><00:05:21.039><c> points</c><00:05:21.360><c> on</c><00:05:21.440><c> faces</c><00:05:22.320><c> you</c><00:05:22.479><c> can</c><00:05:22.639><c> see</c>
+
+00:05:22.790 --> 00:05:22.800 align:start position:0%
+after my points on faces you can see
+ 
+
+00:05:22.800 --> 00:05:25.749 align:start position:0%
+after my points on faces you can see
+this<00:05:23.120><c> input</c><00:05:23.520><c> here</c><00:05:23.919><c> is</c><00:05:24.479><c> different</c><00:05:24.880><c> it's</c><00:05:25.280><c> longer</c>
+
+00:05:25.749 --> 00:05:25.759 align:start position:0%
+this input here is different it's longer
+ 
+
+00:05:25.759 --> 00:05:26.790 align:start position:0%
+this input here is different it's longer
+than<00:05:25.919><c> these</c><00:05:26.080><c> other</c><00:05:26.240><c> ones</c><00:05:26.479><c> and</c><00:05:26.560><c> this</c><00:05:26.639><c> is</c>
+
+00:05:26.790 --> 00:05:26.800 align:start position:0%
+than these other ones and this is
+ 
+
+00:05:26.800 --> 00:05:28.550 align:start position:0%
+than these other ones and this is
+actually<00:05:27.039><c> a</c><00:05:27.199><c> new</c><00:05:27.440><c> concept</c><00:05:27.919><c> for</c><00:05:28.160><c> geometry</c>
+
+00:05:28.550 --> 00:05:28.560 align:start position:0%
+actually a new concept for geometry
+ 
+
+00:05:28.560 --> 00:05:30.469 align:start position:0%
+actually a new concept for geometry
+nodes<00:05:29.039><c> this</c><00:05:29.199><c> didn't</c><00:05:29.360><c> used</c><00:05:29.520><c> to</c><00:05:29.759><c> exist</c><00:05:30.160><c> but</c><00:05:30.320><c> this</c>
+
+00:05:30.469 --> 00:05:30.479 align:start position:0%
+nodes this didn't used to exist but this
+ 
+
+00:05:30.479 --> 00:05:32.469 align:start position:0%
+nodes this didn't used to exist but this
+will<00:05:30.639><c> let</c><00:05:30.800><c> you</c><00:05:30.960><c> put</c><00:05:31.120><c> in</c><00:05:31.280><c> as</c><00:05:31.520><c> many</c><00:05:31.919><c> inputs</c><00:05:32.320><c> as</c>
+
+00:05:32.469 --> 00:05:32.479 align:start position:0%
+will let you put in as many inputs as
+ 
+
+00:05:32.479 --> 00:05:35.670 align:start position:0%
+will let you put in as many inputs as
+you<00:05:32.720><c> want</c><00:05:33.039><c> into</c><00:05:33.280><c> this</c><00:05:34.000><c> so</c><00:05:34.400><c> i</c><00:05:34.639><c> can</c><00:05:34.960><c> for</c><00:05:35.199><c> example</c>
+
+00:05:35.670 --> 00:05:35.680 align:start position:0%
+you want into this so i can for example
+ 
+
+00:05:35.680 --> 00:05:37.990 align:start position:0%
+you want into this so i can for example
+i<00:05:35.840><c> can</c><00:05:36.000><c> take</c><00:05:36.160><c> my</c><00:05:36.400><c> output</c><00:05:36.800><c> of</c><00:05:36.960><c> my</c><00:05:37.199><c> original</c><00:05:37.759><c> cube</c>
+
+00:05:37.990 --> 00:05:38.000 align:start position:0%
+i can take my output of my original cube
+ 
+
+00:05:38.000 --> 00:05:41.510 align:start position:0%
+i can take my output of my original cube
+data<00:05:38.639><c> and</c><00:05:38.720><c> put</c><00:05:38.960><c> it</c><00:05:39.120><c> in</c><00:05:39.280><c> here</c><00:05:40.080><c> which</c><00:05:40.400><c> is</c><00:05:41.039><c> it's</c><00:05:41.360><c> to</c>
+
+00:05:41.510 --> 00:05:41.520 align:start position:0%
+data and put it in here which is it's to
+ 
+
+00:05:41.520 --> 00:05:42.790 align:start position:0%
+data and put it in here which is it's to
+me<00:05:41.680><c> that's</c><00:05:41.840><c> pretty</c><00:05:42.080><c> cool</c><00:05:42.320><c> it's</c><00:05:42.479><c> like</c><00:05:42.639><c> it's</c>
+
+00:05:42.790 --> 00:05:42.800 align:start position:0%
+me that's pretty cool it's like it's
+ 
+
+00:05:42.800 --> 00:05:44.870 align:start position:0%
+me that's pretty cool it's like it's
+using<00:05:43.120><c> the</c><00:05:43.280><c> cube</c><00:05:43.520><c> data</c><00:05:43.840><c> twice</c><00:05:44.240><c> it's</c><00:05:44.400><c> using</c><00:05:44.720><c> it</c>
+
+00:05:44.870 --> 00:05:44.880 align:start position:0%
+using the cube data twice it's using it
+ 
+
+00:05:44.880 --> 00:05:46.870 align:start position:0%
+using the cube data twice it's using it
+for<00:05:45.360><c> rendering</c><00:05:45.759><c> the</c><00:05:45.919><c> cube</c><00:05:46.160><c> and</c><00:05:46.320><c> it's</c><00:05:46.479><c> also</c>
+
+00:05:46.870 --> 00:05:46.880 align:start position:0%
+for rendering the cube and it's also
+ 
+
+00:05:46.880 --> 00:05:48.870 align:start position:0%
+for rendering the cube and it's also
+just<00:05:47.120><c> taking</c><00:05:47.919><c> removing</c><00:05:48.320><c> the</c><00:05:48.400><c> cube</c><00:05:48.560><c> data</c>
+
+00:05:48.870 --> 00:05:48.880 align:start position:0%
+just taking removing the cube data
+ 
+
+00:05:48.880 --> 00:05:50.230 align:start position:0%
+just taking removing the cube data
+replacing<00:05:49.280><c> it</c><00:05:49.360><c> with</c><00:05:49.520><c> points</c><00:05:49.759><c> and</c><00:05:49.840><c> then</c><00:05:50.080><c> it's</c>
+
+00:05:50.230 --> 00:05:50.240 align:start position:0%
+replacing it with points and then it's
+ 
+
+00:05:50.240 --> 00:05:52.150 align:start position:0%
+replacing it with points and then it's
+using<00:05:50.400><c> that</c><00:05:50.639><c> as</c><00:05:50.800><c> well</c><00:05:51.120><c> and</c><00:05:51.280><c> it's</c><00:05:51.440><c> combining</c><00:05:52.000><c> it</c>
+
+00:05:52.150 --> 00:05:52.160 align:start position:0%
+using that as well and it's combining it
+ 
+
+00:05:52.160 --> 00:05:54.790 align:start position:0%
+using that as well and it's combining it
+into<00:05:52.400><c> one</c><00:05:53.039><c> which</c><00:05:53.280><c> is</c><00:05:53.440><c> very</c><00:05:53.600><c> cool</c>
+
+00:05:54.790 --> 00:05:54.800 align:start position:0%
+into one which is very cool
+ 
+
+00:05:54.800 --> 00:05:58.150 align:start position:0%
+into one which is very cool
+so<00:05:55.520><c> um</c><00:05:56.240><c> that's</c><00:05:56.560><c> great</c><00:05:57.039><c> now</c><00:05:57.360><c> again</c><00:05:57.680><c> if</c><00:05:57.840><c> i</c><00:05:57.919><c> was</c><00:05:58.080><c> to</c>
+
+00:05:58.150 --> 00:05:58.160 align:start position:0%
+so um that's great now again if i was to
+ 
+
+00:05:58.160 --> 00:05:59.749 align:start position:0%
+so um that's great now again if i was to
+render<00:05:58.400><c> this</c><00:05:58.560><c> i</c><00:05:58.720><c> wouldn't</c><00:05:58.960><c> see</c><00:05:59.120><c> those</c><00:05:59.440><c> points</c>
+
+00:05:59.749 --> 00:05:59.759 align:start position:0%
+render this i wouldn't see those points
+ 
+
+00:05:59.759 --> 00:06:01.510 align:start position:0%
+render this i wouldn't see those points
+because<00:06:00.400><c> they</c><00:06:00.560><c> do</c><00:06:00.720><c> not</c><00:06:00.880><c> render</c><00:06:01.120><c> unless</c><00:06:01.360><c> you</c>
+
+00:06:01.510 --> 00:06:01.520 align:start position:0%
+because they do not render unless you
+ 
+
+00:06:01.520 --> 00:06:03.270 align:start position:0%
+because they do not render unless you
+tell<00:06:01.680><c> them</c><00:06:01.759><c> what</c><00:06:01.919><c> to</c><00:06:02.000><c> render</c><00:06:02.400><c> as</c><00:06:02.800><c> so</c><00:06:02.960><c> to</c><00:06:03.120><c> do</c>
+
+00:06:03.270 --> 00:06:03.280 align:start position:0%
+tell them what to render as so to do
+ 
+
+00:06:03.280 --> 00:06:05.110 align:start position:0%
+tell them what to render as so to do
+that<00:06:03.440><c> we</c><00:06:03.600><c> need</c><00:06:03.840><c> another</c><00:06:04.160><c> node</c>
+
+00:06:05.110 --> 00:06:05.120 align:start position:0%
+that we need another node
+ 
+
+00:06:05.120 --> 00:06:07.189 align:start position:0%
+that we need another node
+right<00:06:05.360><c> after</c><00:06:05.600><c> here</c><00:06:05.919><c> not</c><00:06:06.080><c> before</c><00:06:06.479><c> but</c><00:06:06.639><c> after</c><00:06:06.880><c> it</c>
+
+00:06:07.189 --> 00:06:07.199 align:start position:0%
+right after here not before but after it
+ 
+
+00:06:07.199 --> 00:06:09.270 align:start position:0%
+right after here not before but after it
+points<00:06:08.000><c> we're</c><00:06:08.160><c> looking</c><00:06:08.560><c> for</c>
+
+00:06:09.270 --> 00:06:09.280 align:start position:0%
+points we're looking for
+ 
+
+00:06:09.280 --> 00:06:12.390 align:start position:0%
+points we're looking for
+points<00:06:10.000><c> no</c><00:06:10.240><c> not</c><00:06:10.479><c> points</c><00:06:10.800><c> sorry</c><00:06:11.199><c> instances</c>
+
+00:06:12.390 --> 00:06:12.400 align:start position:0%
+points no not points sorry instances
+ 
+
+00:06:12.400 --> 00:06:13.990 align:start position:0%
+points no not points sorry instances
+instance<00:06:13.199><c> on</c>
+
+00:06:13.990 --> 00:06:14.000 align:start position:0%
+instance on
+ 
+
+00:06:14.000 --> 00:06:16.950 align:start position:0%
+instance on
+point<00:06:14.319><c> not</c><00:06:14.560><c> two</c><00:06:14.800><c> points</c><00:06:15.680><c> completely</c><00:06:16.080><c> separate</c>
+
+00:06:16.950 --> 00:06:16.960 align:start position:0%
+point not two points completely separate
+ 
+
+00:06:16.960 --> 00:06:18.830 align:start position:0%
+point not two points completely separate
+uh<00:06:17.520><c> instance</c><00:06:18.160><c> on</c>
+
+00:06:18.830 --> 00:06:18.840 align:start position:0%
+uh instance on
+ 
+
+00:06:18.840 --> 00:06:20.870 align:start position:0%
+uh instance on
+points<00:06:19.759><c> someone's</c><00:06:20.160><c> honking</c><00:06:20.479><c> their</c><00:06:20.639><c> horn</c>
+
+00:06:20.870 --> 00:06:20.880 align:start position:0%
+points someone's honking their horn
+ 
+
+00:06:20.880 --> 00:06:23.029 align:start position:0%
+points someone's honking their horn
+right<00:06:21.039><c> outside</c><00:06:21.759><c> all</c><00:06:21.840><c> right</c><00:06:22.160><c> if</c><00:06:22.319><c> i</c><00:06:22.400><c> was</c><00:06:22.560><c> to</c><00:06:22.720><c> drop</c>
+
+00:06:23.029 --> 00:06:23.039 align:start position:0%
+right outside all right if i was to drop
+ 
+
+00:06:23.039 --> 00:06:24.550 align:start position:0%
+right outside all right if i was to drop
+this<00:06:23.280><c> in</c><00:06:23.440><c> here</c><00:06:23.759><c> you</c><00:06:23.919><c> can</c><00:06:24.000><c> see</c><00:06:24.160><c> the</c><00:06:24.240><c> points</c><00:06:24.479><c> of</c>
+
+00:06:24.550 --> 00:06:24.560 align:start position:0%
+this in here you can see the points of
+ 
+
+00:06:24.560 --> 00:06:26.629 align:start position:0%
+this in here you can see the points of
+vanish<00:06:24.960><c> because</c><00:06:25.199><c> now</c><00:06:25.440><c> it</c><00:06:25.600><c> has</c><00:06:26.000><c> you're</c><00:06:26.160><c> saying</c>
+
+00:06:26.629 --> 00:06:26.639 align:start position:0%
+vanish because now it has you're saying
+ 
+
+00:06:26.639 --> 00:06:28.710 align:start position:0%
+vanish because now it has you're saying
+replace<00:06:27.039><c> those</c><00:06:27.280><c> points</c><00:06:27.600><c> with</c><00:06:28.080><c> whatever</c><00:06:28.479><c> is</c><00:06:28.639><c> in</c>
+
+00:06:28.710 --> 00:06:28.720 align:start position:0%
+replace those points with whatever is in
+ 
+
+00:06:28.720 --> 00:06:30.870 align:start position:0%
+replace those points with whatever is in
+the<00:06:28.960><c> instance</c><00:06:29.680><c> right</c><00:06:29.840><c> here</c><00:06:30.400><c> and</c><00:06:30.639><c> we've</c><00:06:30.800><c> got</c>
+
+00:06:30.870 --> 00:06:30.880 align:start position:0%
+the instance right here and we've got
+ 
+
+00:06:30.880 --> 00:06:32.710 align:start position:0%
+the instance right here and we've got
+nothing<00:06:31.199><c> in</c><00:06:31.280><c> there</c><00:06:31.440><c> right</c><00:06:31.600><c> now</c>
+
+00:06:32.710 --> 00:06:32.720 align:start position:0%
+nothing in there right now
+ 
+
+00:06:32.720 --> 00:06:34.469 align:start position:0%
+nothing in there right now
+so<00:06:33.039><c> we</c><00:06:33.199><c> need</c><00:06:33.360><c> another</c><00:06:33.680><c> object</c><00:06:34.000><c> we</c><00:06:34.080><c> need</c><00:06:34.160><c> to</c><00:06:34.319><c> put</c>
+
+00:06:34.469 --> 00:06:34.479 align:start position:0%
+so we need another object we need to put
+ 
+
+00:06:34.479 --> 00:06:36.790 align:start position:0%
+so we need another object we need to put
+an<00:06:34.720><c> object</c><00:06:35.120><c> into</c><00:06:35.280><c> this</c><00:06:35.520><c> instance</c><00:06:35.840><c> here</c><00:06:36.479><c> and</c><00:06:36.639><c> we</c>
+
+00:06:36.790 --> 00:06:36.800 align:start position:0%
+an object into this instance here and we
+ 
+
+00:06:36.800 --> 00:06:38.070 align:start position:0%
+an object into this instance here and we
+want<00:06:36.960><c> them</c><00:06:37.120><c> to</c><00:06:37.199><c> look</c><00:06:37.360><c> like</c><00:06:37.520><c> sugar</c><00:06:37.759><c> crystals</c>
+
+00:06:38.070 --> 00:06:38.080 align:start position:0%
+want them to look like sugar crystals
+ 
+
+00:06:38.080 --> 00:06:39.430 align:start position:0%
+want them to look like sugar crystals
+sugar<00:06:38.400><c> crystals</c><00:06:38.720><c> are</c><00:06:38.800><c> basically</c><00:06:39.199><c> little</c>
+
+00:06:39.430 --> 00:06:39.440 align:start position:0%
+sugar crystals are basically little
+ 
+
+00:06:39.440 --> 00:06:42.469 align:start position:0%
+sugar crystals are basically little
+cubes<00:06:40.319><c> you</c><00:06:40.560><c> can</c><00:06:41.199><c> by</c><00:06:41.360><c> the</c><00:06:41.440><c> way</c><00:06:41.759><c> you</c><00:06:41.919><c> could</c><00:06:42.319><c> if</c>
+
+00:06:42.469 --> 00:06:42.479 align:start position:0%
+cubes you can by the way you could if
+ 
+
+00:06:42.479 --> 00:06:45.430 align:start position:0%
+cubes you can by the way you could if
+you<00:06:42.560><c> were</c><00:06:42.720><c> fancy</c><00:06:43.199><c> you</c><00:06:43.360><c> could</c><00:06:44.000><c> use</c><00:06:44.479><c> cube</c>
+
+00:06:45.430 --> 00:06:45.440 align:start position:0%
+you were fancy you could use cube
+ 
+
+00:06:45.440 --> 00:06:47.029 align:start position:0%
+you were fancy you could use cube
+whereas<00:06:45.840><c> mesh</c><00:06:46.080><c> primitives</c><00:06:46.479><c> you</c><00:06:46.560><c> could</c><00:06:46.720><c> add</c><00:06:46.960><c> in</c>
+
+00:06:47.029 --> 00:06:47.039 align:start position:0%
+whereas mesh primitives you could add in
+ 
+
+00:06:47.039 --> 00:06:48.390 align:start position:0%
+whereas mesh primitives you could add in
+a<00:06:47.120><c> cube</c><00:06:47.360><c> if</c><00:06:47.440><c> you</c><00:06:47.520><c> want</c><00:06:47.759><c> to</c><00:06:47.919><c> but</c><00:06:48.080><c> we</c><00:06:48.160><c> want</c><00:06:48.319><c> to</c>
+
+00:06:48.390 --> 00:06:48.400 align:start position:0%
+a cube if you want to but we want to
+ 
+
+00:06:48.400 --> 00:06:50.230 align:start position:0%
+a cube if you want to but we want to
+bevel<00:06:48.720><c> it</c><00:06:48.800><c> later</c><00:06:49.199><c> and</c><00:06:49.520><c> you</c><00:06:49.600><c> know</c><00:06:49.840><c> it's</c><00:06:50.000><c> just</c>
+
+00:06:50.230 --> 00:06:50.240 align:start position:0%
+bevel it later and you know it's just
+ 
+
+00:06:50.240 --> 00:06:52.150 align:start position:0%
+bevel it later and you know it's just
+helpful<00:06:50.560><c> if</c><00:06:50.720><c> it's</c><00:06:50.880><c> its</c><00:06:51.039><c> own</c><00:06:51.280><c> object</c><00:06:51.840><c> so</c><00:06:52.000><c> i'm</c>
+
+00:06:52.150 --> 00:06:52.160 align:start position:0%
+helpful if it's its own object so i'm
+ 
+
+00:06:52.160 --> 00:06:54.230 align:start position:0%
+helpful if it's its own object so i'm
+going<00:06:52.319><c> to</c><00:06:52.560><c> in</c><00:06:52.639><c> the</c><00:06:52.800><c> 3d</c><00:06:53.120><c> viewport</c><00:06:53.600><c> add</c><00:06:53.840><c> another</c>
+
+00:06:54.230 --> 00:06:54.240 align:start position:0%
+going to in the 3d viewport add another
+ 
+
+00:06:54.240 --> 00:06:55.670 align:start position:0%
+going to in the 3d viewport add another
+cube<00:06:54.639><c> and</c><00:06:54.800><c> let's</c><00:06:54.960><c> just</c><00:06:55.120><c> move</c><00:06:55.280><c> this</c><00:06:55.440><c> to</c><00:06:55.600><c> the</c>
+
+00:06:55.670 --> 00:06:55.680 align:start position:0%
+cube and let's just move this to the
+ 
+
+00:06:55.680 --> 00:06:58.469 align:start position:0%
+cube and let's just move this to the
+side<00:06:56.319><c> and</c><00:06:56.560><c> i</c><00:06:56.800><c> also</c><00:06:57.039><c> want</c><00:06:57.199><c> to</c><00:06:57.280><c> scale</c><00:06:57.680><c> it</c><00:06:57.840><c> down</c><00:06:58.319><c> so</c>
+
+00:06:58.469 --> 00:06:58.479 align:start position:0%
+side and i also want to scale it down so
+ 
+
+00:06:58.479 --> 00:07:00.150 align:start position:0%
+side and i also want to scale it down so
+that<00:06:58.639><c> it's</c><00:06:58.800><c> much</c><00:06:58.960><c> smaller</c><00:06:59.280><c> than</c><00:06:59.440><c> this</c><00:06:59.840><c> so</c><00:07:00.000><c> i'll</c>
+
+00:07:00.150 --> 00:07:00.160 align:start position:0%
+that it's much smaller than this so i'll
+ 
+
+00:07:00.160 --> 00:07:01.909 align:start position:0%
+that it's much smaller than this so i'll
+just<00:07:00.319><c> scale</c><00:07:00.639><c> this</c><00:07:01.199><c> and</c><00:07:01.280><c> i'm</c><00:07:01.360><c> going</c><00:07:01.440><c> to</c><00:07:01.520><c> type</c><00:07:01.759><c> in</c>
+
+00:07:01.909 --> 00:07:01.919 align:start position:0%
+just scale this and i'm going to type in
+ 
+
+00:07:01.919 --> 00:07:05.270 align:start position:0%
+just scale this and i'm going to type in
+point<00:07:02.240><c> one</c><00:07:02.960><c> so</c><00:07:03.280><c> s</c><00:07:03.759><c> point</c><00:07:04.080><c> one</c><00:07:04.560><c> and</c><00:07:04.639><c> then</c><00:07:04.880><c> enter</c>
+
+00:07:05.270 --> 00:07:05.280 align:start position:0%
+point one so s point one and then enter
+ 
+
+00:07:05.280 --> 00:07:07.189 align:start position:0%
+point one so s point one and then enter
+and<00:07:05.360><c> then</c><00:07:05.520><c> it</c><00:07:05.599><c> will</c><00:07:05.680><c> scale</c><00:07:06.000><c> it</c><00:07:06.080><c> to</c><00:07:06.319><c> uh</c>
+
+00:07:07.189 --> 00:07:07.199 align:start position:0%
+and then it will scale it to uh
+ 
+
+00:07:07.199 --> 00:07:09.749 align:start position:0%
+and then it will scale it to uh
+a<00:07:07.360><c> tenth</c><00:07:08.000><c> of</c><00:07:08.240><c> the</c><00:07:08.400><c> size</c><00:07:08.880><c> okay</c><00:07:09.280><c> i</c><00:07:09.360><c> have</c><00:07:09.440><c> to</c><00:07:09.599><c> make</c>
+
+00:07:09.749 --> 00:07:09.759 align:start position:0%
+a tenth of the size okay i have to make
+ 
+
+00:07:09.759 --> 00:07:11.270 align:start position:0%
+a tenth of the size okay i have to make
+sure<00:07:09.919><c> i'm</c><00:07:10.000><c> like</c><00:07:10.160><c> ten</c><00:07:10.400><c> to</c><00:07:10.479><c> one</c><00:07:10.639><c> percent</c><00:07:10.960><c> no</c><00:07:11.120><c> ten</c>
+
+00:07:11.270 --> 00:07:11.280 align:start position:0%
+sure i'm like ten to one percent no ten
+ 
+
+00:07:11.280 --> 00:07:13.510 align:start position:0%
+sure i'm like ten to one percent no ten
+percent<00:07:11.919><c> anyways</c><00:07:12.639><c> all</c><00:07:12.800><c> right</c><00:07:13.039><c> also</c><00:07:13.280><c> you'll</c>
+
+00:07:13.510 --> 00:07:13.520 align:start position:0%
+percent anyways all right also you'll
+ 
+
+00:07:13.520 --> 00:07:15.670 align:start position:0%
+percent anyways all right also you'll
+know<00:07:13.680><c> by</c><00:07:13.840><c> the</c><00:07:13.919><c> way</c><00:07:14.080><c> if</c><00:07:14.240><c> you</c><00:07:14.560><c> click</c><00:07:14.880><c> on</c><00:07:15.280><c> another</c>
+
+00:07:15.670 --> 00:07:15.680 align:start position:0%
+know by the way if you click on another
+ 
+
+00:07:15.680 --> 00:07:17.430 align:start position:0%
+know by the way if you click on another
+object<00:07:16.000><c> like</c><00:07:16.240><c> a</c><00:07:16.319><c> camera</c><00:07:16.720><c> a</c><00:07:16.880><c> lamp</c><00:07:17.120><c> or</c><00:07:17.199><c> anything</c>
+
+00:07:17.430 --> 00:07:17.440 align:start position:0%
+object like a camera a lamp or anything
+ 
+
+00:07:17.440 --> 00:07:19.670 align:start position:0%
+object like a camera a lamp or anything
+like<00:07:17.599><c> that</c><00:07:18.240><c> the</c><00:07:18.479><c> geometry</c><00:07:19.199><c> nodes</c><00:07:19.520><c> have</c>
+
+00:07:19.670 --> 00:07:19.680 align:start position:0%
+like that the geometry nodes have
+ 
+
+00:07:19.680 --> 00:07:21.029 align:start position:0%
+like that the geometry nodes have
+vanished<00:07:20.160><c> and</c><00:07:20.240><c> that's</c><00:07:20.400><c> because</c><00:07:20.639><c> it</c><00:07:20.720><c> will</c><00:07:20.880><c> by</c>
+
+00:07:21.029 --> 00:07:21.039 align:start position:0%
+vanished and that's because it will by
+ 
+
+00:07:21.039 --> 00:07:22.710 align:start position:0%
+vanished and that's because it will by
+default<00:07:21.440><c> it'll</c><00:07:21.680><c> only</c><00:07:21.919><c> show</c><00:07:22.080><c> you</c><00:07:22.240><c> what</c><00:07:22.479><c> is</c>
+
+00:07:22.710 --> 00:07:22.720 align:start position:0%
+default it'll only show you what is
+ 
+
+00:07:22.720 --> 00:07:24.390 align:start position:0%
+default it'll only show you what is
+selected<00:07:23.440><c> and</c><00:07:23.599><c> it'll</c><00:07:23.759><c> also</c><00:07:24.000><c> only</c><00:07:24.160><c> show</c><00:07:24.319><c> you</c>
+
+00:07:24.390 --> 00:07:24.400 align:start position:0%
+selected and it'll also only show you
+ 
+
+00:07:24.400 --> 00:07:26.469 align:start position:0%
+selected and it'll also only show you
+what's<00:07:24.560><c> selected</c><00:07:25.120><c> in</c><00:07:25.280><c> your</c><00:07:25.680><c> modifier</c><00:07:26.160><c> stack</c>
+
+00:07:26.469 --> 00:07:26.479 align:start position:0%
+what's selected in your modifier stack
+ 
+
+00:07:26.479 --> 00:07:28.469 align:start position:0%
+what's selected in your modifier stack
+there<00:07:27.199><c> if</c><00:07:27.440><c> you</c><00:07:27.520><c> don't</c><00:07:27.680><c> want</c><00:07:27.840><c> to</c><00:07:27.919><c> have</c><00:07:28.080><c> to</c><00:07:28.240><c> keep</c>
+
+00:07:28.469 --> 00:07:28.479 align:start position:0%
+there if you don't want to have to keep
+ 
+
+00:07:28.479 --> 00:07:30.070 align:start position:0%
+there if you don't want to have to keep
+like<00:07:28.800><c> searching</c><00:07:29.199><c> for</c><00:07:29.280><c> your</c><00:07:29.440><c> object</c><00:07:29.759><c> in</c><00:07:29.840><c> order</c>
+
+00:07:30.070 --> 00:07:30.080 align:start position:0%
+like searching for your object in order
+ 
+
+00:07:30.080 --> 00:07:32.469 align:start position:0%
+like searching for your object in order
+to<00:07:30.240><c> see</c><00:07:30.400><c> this</c><00:07:30.800><c> if</c><00:07:30.880><c> you</c><00:07:31.039><c> click</c><00:07:31.280><c> that</c><00:07:31.680><c> pin</c><00:07:32.080><c> icon</c>
+
+00:07:32.469 --> 00:07:32.479 align:start position:0%
+to see this if you click that pin icon
+ 
+
+00:07:32.479 --> 00:07:34.629 align:start position:0%
+to see this if you click that pin icon
+there<00:07:32.800><c> then</c><00:07:33.039><c> that</c><00:07:33.199><c> will</c><00:07:33.440><c> pin</c><00:07:33.680><c> this</c><00:07:33.919><c> here</c><00:07:34.479><c> no</c>
+
+00:07:34.629 --> 00:07:34.639 align:start position:0%
+there then that will pin this here no
+ 
+
+00:07:34.639 --> 00:07:36.309 align:start position:0%
+there then that will pin this here no
+matter<00:07:34.880><c> what</c><00:07:35.120><c> is</c><00:07:35.280><c> selected</c><00:07:35.680><c> this</c><00:07:35.840><c> will</c><00:07:36.080><c> always</c>
+
+00:07:36.309 --> 00:07:36.319 align:start position:0%
+matter what is selected this will always
+ 
+
+00:07:36.319 --> 00:07:38.710 align:start position:0%
+matter what is selected this will always
+be<00:07:36.479><c> here</c><00:07:36.639><c> until</c><00:07:36.960><c> i</c><00:07:37.120><c> unpin</c><00:07:37.520><c> that</c><00:07:37.840><c> so</c><00:07:38.319><c> we</c><00:07:38.479><c> want</c><00:07:38.560><c> to</c>
+
+00:07:38.710 --> 00:07:38.720 align:start position:0%
+be here until i unpin that so we want to
+ 
+
+00:07:38.720 --> 00:07:40.950 align:start position:0%
+be here until i unpin that so we want to
+have<00:07:38.800><c> that</c><00:07:39.440><c> pinned</c><00:07:40.240><c> all</c><00:07:40.319><c> right</c><00:07:40.560><c> so</c><00:07:40.720><c> i'm</c><00:07:40.880><c> going</c>
+
+00:07:40.950 --> 00:07:40.960 align:start position:0%
+have that pinned all right so i'm going
+ 
+
+00:07:40.960 --> 00:07:43.029 align:start position:0%
+have that pinned all right so i'm going
+to<00:07:41.039><c> rename</c><00:07:41.440><c> this</c><00:07:41.680><c> cube</c><00:07:42.000><c> here</c>
+
+00:07:43.029 --> 00:07:43.039 align:start position:0%
+to rename this cube here
+ 
+
+00:07:43.039 --> 00:07:44.629 align:start position:0%
+to rename this cube here
+sugar
+
+00:07:44.629 --> 00:07:44.639 align:start position:0%
+sugar
+ 
+
+00:07:44.639 --> 00:07:45.990 align:start position:0%
+sugar
+crystal
+
+00:07:45.990 --> 00:07:46.000 align:start position:0%
+crystal
+ 
+
+00:07:46.000 --> 00:07:48.309 align:start position:0%
+crystal
+and<00:07:46.080><c> then</c><00:07:46.319><c> i</c><00:07:46.400><c> want</c><00:07:46.560><c> to</c><00:07:46.720><c> reference</c><00:07:47.280><c> this</c><00:07:47.759><c> in</c><00:07:48.080><c> my</c>
+
+00:07:48.309 --> 00:07:48.319 align:start position:0%
+and then i want to reference this in my
+ 
+
+00:07:48.319 --> 00:07:50.469 align:start position:0%
+and then i want to reference this in my
+geometry<00:07:48.800><c> node</c><00:07:49.039><c> setup</c><00:07:49.360><c> down</c><00:07:49.520><c> here</c><00:07:50.080><c> so</c><00:07:50.240><c> i</c><00:07:50.319><c> can</c>
+
+00:07:50.469 --> 00:07:50.479 align:start position:0%
+geometry node setup down here so i can
+ 
+
+00:07:50.479 --> 00:07:52.230 align:start position:0%
+geometry node setup down here so i can
+do<00:07:50.560><c> that</c><00:07:50.720><c> very</c><00:07:50.960><c> simply</c><00:07:51.599><c> i</c><00:07:51.759><c> love</c><00:07:51.919><c> that</c><00:07:52.080><c> you</c><00:07:52.160><c> can</c>
+
+00:07:52.230 --> 00:07:52.240 align:start position:0%
+do that very simply i love that you can
+ 
+
+00:07:52.240 --> 00:07:54.309 align:start position:0%
+do that very simply i love that you can
+do<00:07:52.400><c> this</c><00:07:52.560><c> now</c><00:07:52.720><c> in</c><00:07:52.800><c> blender</c><00:07:53.360><c> just</c><00:07:53.599><c> click</c><00:07:54.080><c> from</c>
+
+00:07:54.309 --> 00:07:54.319 align:start position:0%
+do this now in blender just click from
+ 
+
+00:07:54.319 --> 00:07:56.950 align:start position:0%
+do this now in blender just click from
+my<00:07:54.560><c> outliner</c><00:07:55.360><c> down</c><00:07:55.759><c> here</c>
+
+00:07:56.950 --> 00:07:56.960 align:start position:0%
+my outliner down here
+ 
+
+00:07:56.960 --> 00:07:58.390 align:start position:0%
+my outliner down here
+into<00:07:57.199><c> this</c><00:07:57.360><c> node</c><00:07:57.599><c> setup</c><00:07:57.840><c> and</c><00:07:58.000><c> it's</c><00:07:58.160><c> now</c>
+
+00:07:58.390 --> 00:07:58.400 align:start position:0%
+into this node setup and it's now
+ 
+
+00:07:58.400 --> 00:08:00.550 align:start position:0%
+into this node setup and it's now
+automatically<00:07:58.960><c> created</c><00:07:59.360><c> an</c><00:07:59.680><c> object</c><00:08:00.160><c> info</c>
+
+00:08:00.550 --> 00:08:00.560 align:start position:0%
+automatically created an object info
+ 
+
+00:08:00.560 --> 00:08:02.869 align:start position:0%
+automatically created an object info
+node<00:08:01.039><c> with</c><00:08:01.280><c> that</c><00:08:01.759><c> object</c><00:08:02.080><c> selected</c><00:08:02.560><c> which</c><00:08:02.720><c> is</c>
+
+00:08:02.869 --> 00:08:02.879 align:start position:0%
+node with that object selected which is
+ 
+
+00:08:02.879 --> 00:08:04.390 align:start position:0%
+node with that object selected which is
+pretty<00:08:03.039><c> cool</c><00:08:03.759><c> all</c><00:08:03.919><c> right</c><00:08:04.000><c> so</c><00:08:04.160><c> i</c><00:08:04.240><c> want</c><00:08:04.319><c> to</c>
+
+00:08:04.390 --> 00:08:04.400 align:start position:0%
+pretty cool all right so i want to
+ 
+
+00:08:04.400 --> 00:08:05.990 align:start position:0%
+pretty cool all right so i want to
+reference<00:08:04.800><c> this</c><00:08:04.960><c> into</c><00:08:05.199><c> the</c><00:08:05.280><c> instance</c><00:08:05.759><c> so</c><00:08:05.919><c> you</c>
+
+00:08:05.990 --> 00:08:06.000 align:start position:0%
+reference this into the instance so you
+ 
+
+00:08:06.000 --> 00:08:07.909 align:start position:0%
+reference this into the instance so you
+can<00:08:06.160><c> probably</c><00:08:06.560><c> guess</c><00:08:07.280><c> so</c><00:08:07.520><c> let's</c><00:08:07.599><c> just</c><00:08:07.759><c> make</c>
+
+00:08:07.909 --> 00:08:07.919 align:start position:0%
+can probably guess so let's just make
+ 
+
+00:08:07.919 --> 00:08:10.469 align:start position:0%
+can probably guess so let's just make
+this<00:08:08.000><c> a</c><00:08:08.000><c> little</c><00:08:08.160><c> bit</c><00:08:08.319><c> bigger</c>
+
+00:08:10.469 --> 00:08:10.479 align:start position:0%
+this a little bit bigger
+ 
+
+00:08:10.479 --> 00:08:12.710 align:start position:0%
+this a little bit bigger
+we're<00:08:10.639><c> going</c><00:08:10.720><c> to</c><00:08:10.800><c> go</c><00:08:11.120><c> green</c><00:08:11.599><c> to</c><00:08:11.759><c> green</c>
+
+00:08:12.710 --> 00:08:12.720 align:start position:0%
+we're going to go green to green
+ 
+
+00:08:12.720 --> 00:08:15.670 align:start position:0%
+we're going to go green to green
+geometry<00:08:13.360><c> to</c><00:08:13.759><c> instance</c><00:08:14.560><c> haha</c>
+
+00:08:15.670 --> 00:08:15.680 align:start position:0%
+geometry to instance haha
+ 
+
+00:08:15.680 --> 00:08:17.670 align:start position:0%
+geometry to instance haha
+all<00:08:15.840><c> right</c><00:08:16.080><c> now</c><00:08:16.240><c> that</c><00:08:16.400><c> we've</c><00:08:16.560><c> done</c><00:08:16.800><c> that</c><00:08:17.280><c> um</c>
+
+00:08:17.670 --> 00:08:17.680 align:start position:0%
+all right now that we've done that um
+ 
+
+00:08:17.680 --> 00:08:19.589 align:start position:0%
+all right now that we've done that um
+you<00:08:17.759><c> can</c><00:08:17.919><c> see</c><00:08:18.080><c> that</c><00:08:18.240><c> it</c><00:08:18.400><c> it's</c><00:08:18.639><c> doing</c><00:08:18.960><c> something</c>
+
+00:08:19.589 --> 00:08:19.599 align:start position:0%
+you can see that it it's doing something
+ 
+
+00:08:19.599 --> 00:08:22.070 align:start position:0%
+you can see that it it's doing something
+but<00:08:20.000><c> it's</c><00:08:20.240><c> not</c><00:08:20.560><c> working</c><00:08:20.960><c> the</c><00:08:21.039><c> way</c><00:08:21.280><c> that</c><00:08:21.360><c> we</c><00:08:21.680><c> had</c>
+
+00:08:22.070 --> 00:08:22.080 align:start position:0%
+but it's not working the way that we had
+ 
+
+00:08:22.080 --> 00:08:24.629 align:start position:0%
+but it's not working the way that we had
+hoped<00:08:22.720><c> and</c><00:08:22.800><c> that</c><00:08:23.039><c> is</c><00:08:23.120><c> because</c><00:08:24.000><c> when</c><00:08:24.160><c> we</c><00:08:24.319><c> added</c>
+
+00:08:24.629 --> 00:08:24.639 align:start position:0%
+hoped and that is because when we added
+ 
+
+00:08:24.639 --> 00:08:26.869 align:start position:0%
+hoped and that is because when we added
+in<00:08:24.720><c> this</c><00:08:24.879><c> cube</c><00:08:25.199><c> and</c><00:08:25.280><c> we</c><00:08:25.360><c> scaled</c><00:08:25.759><c> it</c><00:08:25.919><c> down</c><00:08:26.639><c> when</c>
+
+00:08:26.869 --> 00:08:26.879 align:start position:0%
+in this cube and we scaled it down when
+ 
+
+00:08:26.879 --> 00:08:28.950 align:start position:0%
+in this cube and we scaled it down when
+you've<00:08:27.120><c> scaled</c><00:08:27.520><c> something</c><00:08:27.840><c> down</c><00:08:28.400><c> it's</c><00:08:28.639><c> not</c>
+
+00:08:28.950 --> 00:08:28.960 align:start position:0%
+you've scaled something down it's not
+ 
+
+00:08:28.960 --> 00:08:31.270 align:start position:0%
+you've scaled something down it's not
+referencing<00:08:29.599><c> it</c><00:08:29.759><c> in</c><00:08:29.840><c> your</c><00:08:30.000><c> geometry</c><00:08:30.479><c> nodes</c><00:08:30.879><c> or</c>
+
+00:08:31.270 --> 00:08:31.280 align:start position:0%
+referencing it in your geometry nodes or
+ 
+
+00:08:31.280 --> 00:08:33.110 align:start position:0%
+referencing it in your geometry nodes or
+everywhere<00:08:31.680><c> else</c><00:08:31.919><c> in</c><00:08:32.000><c> blender</c><00:08:32.240><c> perhaps</c><00:08:32.880><c> until</c>
+
+00:08:33.110 --> 00:08:33.120 align:start position:0%
+everywhere else in blender perhaps until
+ 
+
+00:08:33.120 --> 00:08:35.909 align:start position:0%
+everywhere else in blender perhaps until
+you<00:08:33.279><c> have</c><00:08:33.519><c> applied</c><00:08:34.320><c> the</c><00:08:34.560><c> scale</c><00:08:35.039><c> of</c><00:08:35.200><c> that</c><00:08:35.680><c> so</c><00:08:35.839><c> i</c>
+
+00:08:35.909 --> 00:08:35.919 align:start position:0%
+you have applied the scale of that so i
+ 
+
+00:08:35.919 --> 00:08:37.190 align:start position:0%
+you have applied the scale of that so i
+did<00:08:36.080><c> this</c><00:08:36.240><c> deliberately</c><00:08:36.719><c> just</c><00:08:36.880><c> so</c><00:08:37.039><c> that</c><00:08:37.120><c> you</c>
+
+00:08:37.190 --> 00:08:37.200 align:start position:0%
+did this deliberately just so that you
+ 
+
+00:08:37.200 --> 00:08:39.750 align:start position:0%
+did this deliberately just so that you
+could<00:08:37.440><c> see</c><00:08:38.000><c> the</c><00:08:38.240><c> scale</c><00:08:38.560><c> of</c><00:08:38.640><c> this</c><00:08:38.800><c> is</c><00:08:38.959><c> still</c><00:08:39.200><c> 0.1</c>
+
+00:08:39.750 --> 00:08:39.760 align:start position:0%
+could see the scale of this is still 0.1
+ 
+
+00:08:39.760 --> 00:08:41.430 align:start position:0%
+could see the scale of this is still 0.1
+so<00:08:39.919><c> we</c><00:08:40.000><c> need</c><00:08:40.080><c> to</c><00:08:40.240><c> apply</c><00:08:40.640><c> it</c><00:08:40.719><c> by</c><00:08:40.880><c> hitting</c>
+
+00:08:41.430 --> 00:08:41.440 align:start position:0%
+so we need to apply it by hitting
+ 
+
+00:08:41.440 --> 00:08:44.070 align:start position:0%
+so we need to apply it by hitting
+control<00:08:42.080><c> a</c><00:08:42.560><c> and</c><00:08:42.719><c> then</c><00:08:42.880><c> hit</c><00:08:43.360><c> scale</c><00:08:43.760><c> and</c><00:08:43.839><c> now</c>
+
+00:08:44.070 --> 00:08:44.080 align:start position:0%
+control a and then hit scale and now
+ 
+
+00:08:44.080 --> 00:08:46.150 align:start position:0%
+control a and then hit scale and now
+those<00:08:44.399><c> values</c><00:08:44.720><c> are</c><00:08:45.040><c> one</c><00:08:45.519><c> and</c><00:08:45.680><c> now</c><00:08:45.920><c> it's</c>
+
+00:08:46.150 --> 00:08:46.160 align:start position:0%
+those values are one and now it's
+ 
+
+00:08:46.160 --> 00:08:47.990 align:start position:0%
+those values are one and now it's
+referencing<00:08:46.720><c> it</c><00:08:46.880><c> correctly</c>
+
+00:08:47.990 --> 00:08:48.000 align:start position:0%
+referencing it correctly
+ 
+
+00:08:48.000 --> 00:08:50.550 align:start position:0%
+referencing it correctly
+right<00:08:48.240><c> so</c><00:08:48.399><c> if</c><00:08:48.560><c> i</c><00:08:48.640><c> was</c><00:08:48.720><c> to</c><00:08:49.040><c> adjust</c><00:08:49.519><c> this</c><00:08:49.920><c> uh</c>
+
+00:08:50.550 --> 00:08:50.560 align:start position:0%
+right so if i was to adjust this uh
+ 
+
+00:08:50.560 --> 00:08:51.990 align:start position:0%
+right so if i was to adjust this uh
+density<00:08:50.959><c> here</c><00:08:51.200><c> you</c><00:08:51.360><c> can</c><00:08:51.440><c> see</c><00:08:51.600><c> that</c><00:08:51.760><c> i</c><00:08:51.839><c> can</c>
+
+00:08:51.990 --> 00:08:52.000 align:start position:0%
+density here you can see that i can
+ 
+
+00:08:52.000 --> 00:08:54.470 align:start position:0%
+density here you can see that i can
+choose<00:08:52.480><c> how</c><00:08:52.640><c> many</c><00:08:52.880><c> sugar</c><00:08:53.200><c> crystals</c><00:08:53.600><c> do</c><00:08:53.760><c> i</c><00:08:53.839><c> want</c>
+
+00:08:54.470 --> 00:08:54.480 align:start position:0%
+choose how many sugar crystals do i want
+ 
+
+00:08:54.480 --> 00:08:57.350 align:start position:0%
+choose how many sugar crystals do i want
+to<00:08:54.640><c> appear</c><00:08:55.519><c> on</c><00:08:55.760><c> my</c><00:08:56.000><c> uh</c><00:08:56.240><c> my</c><00:08:56.480><c> cube</c><00:08:56.959><c> it</c><00:08:57.040><c> doesn't</c>
+
+00:08:57.350 --> 00:08:57.360 align:start position:0%
+to appear on my uh my cube it doesn't
+ 
+
+00:08:57.360 --> 00:09:00.470 align:start position:0%
+to appear on my uh my cube it doesn't
+look<00:08:57.920><c> very</c><00:08:58.160><c> detailed</c><00:08:58.560><c> yet</c><00:08:58.959><c> we'll</c><00:08:59.120><c> get</c><00:08:59.279><c> there</c>
+
+00:09:00.470 --> 00:09:00.480 align:start position:0%
+look very detailed yet we'll get there
+ 
+
+00:09:00.480 --> 00:09:01.590 align:start position:0%
+look very detailed yet we'll get there
+and<00:09:00.560><c> that</c><00:09:00.720><c> value</c><00:09:00.959><c> will</c><00:09:01.120><c> change</c><00:09:01.360><c> it</c><00:09:01.440><c> there</c>
+
+00:09:01.590 --> 00:09:01.600 align:start position:0%
+and that value will change it there
+ 
+
+00:09:01.600 --> 00:09:03.110 align:start position:0%
+and that value will change it there
+which<00:09:01.839><c> is</c><00:09:01.920><c> cool</c>
+
+00:09:03.110 --> 00:09:03.120 align:start position:0%
+which is cool
+ 
+
+00:09:03.120 --> 00:09:04.870 align:start position:0%
+which is cool
+all<00:09:03.200><c> right</c><00:09:03.519><c> now</c>
+
+00:09:04.870 --> 00:09:04.880 align:start position:0%
+all right now
+ 
+
+00:09:04.880 --> 00:09:06.310 align:start position:0%
+all right now
+it<00:09:05.040><c> currently</c><00:09:05.440><c> looks</c><00:09:05.680><c> like</c><00:09:05.920><c> i</c><00:09:06.000><c> don't</c><00:09:06.160><c> know</c>
+
+00:09:06.310 --> 00:09:06.320 align:start position:0%
+it currently looks like i don't know
+ 
+
+00:09:06.320 --> 00:09:07.190 align:start position:0%
+it currently looks like i don't know
+like<00:09:06.480><c> a</c>
+
+00:09:07.190 --> 00:09:07.200 align:start position:0%
+like a
+ 
+
+00:09:07.200 --> 00:09:09.269 align:start position:0%
+like a
+lazy<00:09:07.760><c> spaceship</c><00:09:08.560><c> you</c><00:09:08.720><c> know</c><00:09:08.880><c> like</c><00:09:09.040><c> how</c><00:09:09.200><c> they</c>
+
+00:09:09.269 --> 00:09:09.279 align:start position:0%
+lazy spaceship you know like how they
+ 
+
+00:09:09.279 --> 00:09:11.509 align:start position:0%
+lazy spaceship you know like how they
+used<00:09:09.519><c> to</c><00:09:09.600><c> do</c><00:09:09.760><c> like</c><00:09:10.000><c> grebel</c><00:09:10.880><c> on</c><00:09:11.120><c> uh</c><00:09:11.279><c> on</c>
+
+00:09:11.509 --> 00:09:11.519 align:start position:0%
+used to do like grebel on uh on
+ 
+
+00:09:11.519 --> 00:09:13.430 align:start position:0%
+used to do like grebel on uh on
+spaceships<00:09:12.160><c> and</c><00:09:12.320><c> things</c><00:09:12.640><c> for</c><00:09:12.800><c> like</c><00:09:13.040><c> old</c>
+
+00:09:13.430 --> 00:09:13.440 align:start position:0%
+spaceships and things for like old
+ 
+
+00:09:13.440 --> 00:09:15.269 align:start position:0%
+spaceships and things for like old
+animations<00:09:14.080><c> and</c><00:09:14.160><c> it</c><00:09:14.240><c> was</c><00:09:14.399><c> just</c><00:09:14.560><c> like</c><00:09:14.800><c> blocky</c>
+
+00:09:15.269 --> 00:09:15.279 align:start position:0%
+animations and it was just like blocky
+ 
+
+00:09:15.279 --> 00:09:17.670 align:start position:0%
+animations and it was just like blocky
+shapes<00:09:16.160><c> um</c><00:09:16.800><c> we</c><00:09:16.959><c> want</c><00:09:17.120><c> this</c><00:09:17.279><c> to</c><00:09:17.360><c> look</c><00:09:17.519><c> like</c>
+
+00:09:17.670 --> 00:09:17.680 align:start position:0%
+shapes um we want this to look like
+ 
+
+00:09:17.680 --> 00:09:19.190 align:start position:0%
+shapes um we want this to look like
+sugar<00:09:17.920><c> crystals</c><00:09:18.240><c> which</c><00:09:18.399><c> are</c><00:09:18.480><c> clinging</c><00:09:18.800><c> on</c><00:09:19.040><c> and</c>
+
+00:09:19.190 --> 00:09:19.200 align:start position:0%
+sugar crystals which are clinging on and
+ 
+
+00:09:19.200 --> 00:09:21.030 align:start position:0%
+sugar crystals which are clinging on and
+those<00:09:19.440><c> have</c><00:09:19.600><c> to</c><00:09:19.680><c> be</c><00:09:20.000><c> rotated</c><00:09:20.480><c> so</c><00:09:20.720><c> each</c><00:09:20.959><c> of</c>
+
+00:09:21.030 --> 00:09:21.040 align:start position:0%
+those have to be rotated so each of
+ 
+
+00:09:21.040 --> 00:09:22.230 align:start position:0%
+those have to be rotated so each of
+these<00:09:21.200><c> little</c><00:09:21.440><c> cubes</c><00:09:21.760><c> that</c><00:09:21.839><c> we</c><00:09:21.920><c> want</c><00:09:22.080><c> to</c><00:09:22.160><c> be</c>
+
+00:09:22.230 --> 00:09:22.240 align:start position:0%
+these little cubes that we want to be
+ 
+
+00:09:22.240 --> 00:09:24.710 align:start position:0%
+these little cubes that we want to be
+rotated<00:09:22.959><c> now</c><00:09:23.120><c> there</c><00:09:23.360><c> is</c><00:09:23.600><c> a</c><00:09:23.760><c> rotation</c><00:09:24.320><c> value</c>
+
+00:09:24.710 --> 00:09:24.720 align:start position:0%
+rotated now there is a rotation value
+ 
+
+00:09:24.720 --> 00:09:27.110 align:start position:0%
+rotated now there is a rotation value
+here<00:09:25.279><c> in</c><00:09:25.360><c> this</c><00:09:25.600><c> instance</c><00:09:26.000><c> on</c><00:09:26.160><c> points</c><00:09:26.800><c> but</c><00:09:26.959><c> if</c>
+
+00:09:27.110 --> 00:09:27.120 align:start position:0%
+here in this instance on points but if
+ 
+
+00:09:27.120 --> 00:09:28.790 align:start position:0%
+here in this instance on points but if
+we<00:09:27.200><c> were</c><00:09:27.360><c> to</c><00:09:27.440><c> change</c><00:09:27.760><c> this</c><00:09:28.000><c> it's</c><00:09:28.160><c> changing</c><00:09:28.640><c> all</c>
+
+00:09:28.790 --> 00:09:28.800 align:start position:0%
+we were to change this it's changing all
+ 
+
+00:09:28.800 --> 00:09:31.430 align:start position:0%
+we were to change this it's changing all
+of<00:09:28.959><c> the</c><00:09:29.120><c> points</c><00:09:29.760><c> one</c><00:09:29.920><c> by</c><00:09:30.160><c> one</c><00:09:30.720><c> whereas</c><00:09:31.040><c> we</c><00:09:31.200><c> want</c>
+
+00:09:31.430 --> 00:09:31.440 align:start position:0%
+of the points one by one whereas we want
+ 
+
+00:09:31.440 --> 00:09:33.990 align:start position:0%
+of the points one by one whereas we want
+to<00:09:31.519><c> create</c><00:09:31.839><c> a</c><00:09:32.080><c> random</c><00:09:32.560><c> value</c><00:09:32.959><c> for</c><00:09:33.360><c> each</c><00:09:33.760><c> of</c>
+
+00:09:33.990 --> 00:09:34.000 align:start position:0%
+to create a random value for each of
+ 
+
+00:09:34.000 --> 00:09:35.269 align:start position:0%
+to create a random value for each of
+those<00:09:34.399><c> points</c>
+
+00:09:35.269 --> 00:09:35.279 align:start position:0%
+those points
+ 
+
+00:09:35.279 --> 00:09:37.670 align:start position:0%
+those points
+so<00:09:35.760><c> for</c><00:09:36.000><c> that</c><00:09:36.320><c> we</c><00:09:36.480><c> need</c><00:09:36.720><c> another</c><00:09:37.360><c> node</c><00:09:37.600><c> that</c>
+
+00:09:37.670 --> 00:09:37.680 align:start position:0%
+so for that we need another node that
+ 
+
+00:09:37.680 --> 00:09:39.590 align:start position:0%
+so for that we need another node that
+you<00:09:37.839><c> will</c><00:09:38.000><c> use</c><00:09:38.320><c> all</c><00:09:38.480><c> the</c><00:09:38.560><c> time</c><00:09:38.800><c> as</c><00:09:38.959><c> well</c><00:09:39.519><c> and</c>
+
+00:09:39.590 --> 00:09:39.600 align:start position:0%
+you will use all the time as well and
+ 
+
+00:09:39.600 --> 00:09:42.389 align:start position:0%
+you will use all the time as well and
+that<00:09:39.920><c> is</c><00:09:40.160><c> let's</c><00:09:40.320><c> just</c><00:09:40.480><c> move</c><00:09:40.720><c> this</c><00:09:40.880><c> up</c>
+
+00:09:42.389 --> 00:09:42.399 align:start position:0%
+that is let's just move this up
+ 
+
+00:09:42.399 --> 00:09:43.750 align:start position:0%
+that is let's just move this up
+shift<00:09:42.720><c> a</c>
+
+00:09:43.750 --> 00:09:43.760 align:start position:0%
+shift a
+ 
+
+00:09:43.760 --> 00:09:46.310 align:start position:0%
+shift a
+utilities<00:09:44.800><c> random</c><00:09:45.440><c> value</c><00:09:45.760><c> again</c><00:09:46.080><c> you</c><00:09:46.160><c> can</c>
+
+00:09:46.310 --> 00:09:46.320 align:start position:0%
+utilities random value again you can
+ 
+
+00:09:46.320 --> 00:09:48.470 align:start position:0%
+utilities random value again you can
+also<00:09:46.480><c> search</c><00:09:46.800><c> for</c><00:09:46.959><c> it</c><00:09:47.519><c> random</c><00:09:48.080><c> if</c><00:09:48.240><c> you</c><00:09:48.320><c> can</c>
+
+00:09:48.470 --> 00:09:48.480 align:start position:0%
+also search for it random if you can
+ 
+
+00:09:48.480 --> 00:09:51.509 align:start position:0%
+also search for it random if you can
+never<00:09:49.120><c> uh</c><00:09:50.080><c> remember</c><00:09:50.480><c> what</c><00:09:50.640><c> it</c><00:09:50.800><c> is</c><00:09:51.120><c> random</c>
+
+00:09:51.509 --> 00:09:51.519 align:start position:0%
+never uh remember what it is random
+ 
+
+00:09:51.519 --> 00:09:52.470 align:start position:0%
+never uh remember what it is random
+value
+
+00:09:52.470 --> 00:09:52.480 align:start position:0%
+value
+ 
+
+00:09:52.480 --> 00:09:54.550 align:start position:0%
+value
+and<00:09:52.959><c> does</c><00:09:53.120><c> what</c><00:09:53.360><c> it</c><00:09:53.440><c> says</c><00:09:53.680><c> on</c><00:09:53.760><c> the</c><00:09:53.839><c> tin</c><00:09:54.240><c> random</c>
+
+00:09:54.550 --> 00:09:54.560 align:start position:0%
+and does what it says on the tin random
+ 
+
+00:09:54.560 --> 00:09:56.790 align:start position:0%
+and does what it says on the tin random
+value<00:09:55.040><c> generates</c><00:09:55.600><c> a</c><00:09:55.760><c> random</c><00:09:56.080><c> value</c><00:09:56.399><c> between</c>
+
+00:09:56.790 --> 00:09:56.800 align:start position:0%
+value generates a random value between
+ 
+
+00:09:56.800 --> 00:09:59.190 align:start position:0%
+value generates a random value between
+in<00:09:56.880><c> this</c><00:09:57.040><c> case</c><00:09:57.440><c> zero</c><00:09:57.920><c> and</c><00:09:58.320><c> one</c>
+
+00:09:59.190 --> 00:09:59.200 align:start position:0%
+in this case zero and one
+ 
+
+00:09:59.200 --> 00:10:02.389 align:start position:0%
+in this case zero and one
+now<00:09:59.440><c> this</c><00:09:59.839><c> is</c><00:10:00.000><c> a</c><00:10:00.240><c> float</c><00:10:00.640><c> a</c><00:10:00.800><c> float</c><00:10:01.200><c> is</c><00:10:01.360><c> a</c><00:10:01.680><c> single</c>
+
+00:10:02.389 --> 00:10:02.399 align:start position:0%
+now this is a float a float is a single
+ 
+
+00:10:02.399 --> 00:10:03.590 align:start position:0%
+now this is a float a float is a single
+number
+
+00:10:03.590 --> 00:10:03.600 align:start position:0%
+number
+ 
+
+00:10:03.600 --> 00:10:07.269 align:start position:0%
+number
+and<00:10:03.920><c> that's</c><00:10:04.480><c> a</c><00:10:04.720><c> gray</c><00:10:05.279><c> output</c><00:10:05.839><c> a</c><00:10:06.080><c> single</c><00:10:06.720><c> number</c>
+
+00:10:07.269 --> 00:10:07.279 align:start position:0%
+and that's a gray output a single number
+ 
+
+00:10:07.279 --> 00:10:10.310 align:start position:0%
+and that's a gray output a single number
+whereas<00:10:07.680><c> rotation</c><00:10:08.720><c> is</c><00:10:09.120><c> three</c><00:10:09.680><c> it's</c><00:10:10.080><c> three</c>
+
+00:10:10.310 --> 00:10:10.320 align:start position:0%
+whereas rotation is three it's three
+ 
+
+00:10:10.320 --> 00:10:13.750 align:start position:0%
+whereas rotation is three it's three
+axes<00:10:10.800><c> x</c><00:10:11.120><c> a</c><00:10:11.279><c> y</c><00:10:11.600><c> and</c><00:10:11.839><c> a</c><00:10:12.000><c> z</c><00:10:12.640><c> so</c><00:10:12.880><c> you</c><00:10:13.040><c> could</c><00:10:13.360><c> actually</c>
+
+00:10:13.750 --> 00:10:13.760 align:start position:0%
+axes x a y and a z so you could actually
+ 
+
+00:10:13.760 --> 00:10:15.430 align:start position:0%
+axes x a y and a z so you could actually
+connect<00:10:14.160><c> this</c><00:10:14.399><c> into</c><00:10:14.640><c> it</c><00:10:14.800><c> like</c><00:10:14.959><c> that</c><00:10:15.200><c> and</c><00:10:15.279><c> you</c>
+
+00:10:15.430 --> 00:10:15.440 align:start position:0%
+connect this into it like that and you
+ 
+
+00:10:15.440 --> 00:10:17.110 align:start position:0%
+connect this into it like that and you
+would<00:10:15.519><c> get</c><00:10:15.680><c> rotation</c><00:10:16.560><c> but</c><00:10:16.720><c> you</c><00:10:16.800><c> would</c><00:10:16.959><c> see</c>
+
+00:10:17.110 --> 00:10:17.120 align:start position:0%
+would get rotation but you would see
+ 
+
+00:10:17.120 --> 00:10:19.030 align:start position:0%
+would get rotation but you would see
+that<00:10:17.279><c> you've</c><00:10:17.519><c> got</c><00:10:17.760><c> kind</c><00:10:17.920><c> of</c><00:10:18.000><c> like</c><00:10:18.240><c> a</c><00:10:18.399><c> pattern</c>
+
+00:10:19.030 --> 00:10:19.040 align:start position:0%
+that you've got kind of like a pattern
+ 
+
+00:10:19.040 --> 00:10:20.790 align:start position:0%
+that you've got kind of like a pattern
+right<00:10:19.279><c> like</c><00:10:19.519><c> they're</c><00:10:19.760><c> all</c><00:10:19.920><c> kind</c><00:10:20.079><c> of</c>
+
+00:10:20.790 --> 00:10:20.800 align:start position:0%
+right like they're all kind of
+ 
+
+00:10:20.800 --> 00:10:22.870 align:start position:0%
+right like they're all kind of
+rotating<00:10:21.360><c> almost</c><00:10:21.760><c> to</c><00:10:21.920><c> the</c><00:10:22.079><c> same</c><00:10:22.560><c> sort</c><00:10:22.800><c> of</c>
+
+00:10:22.870 --> 00:10:22.880 align:start position:0%
+rotating almost to the same sort of
+ 
+
+00:10:22.880 --> 00:10:24.790 align:start position:0%
+rotating almost to the same sort of
+thing<00:10:23.519><c> and</c><00:10:23.680><c> it's</c><00:10:23.839><c> because</c><00:10:24.240><c> like</c><00:10:24.480><c> let's</c><00:10:24.640><c> say</c>
+
+00:10:24.790 --> 00:10:24.800 align:start position:0%
+thing and it's because like let's say
+ 
+
+00:10:24.800 --> 00:10:26.550 align:start position:0%
+thing and it's because like let's say
+it's<00:10:24.959><c> generating</c><00:10:25.440><c> a</c><00:10:25.519><c> value</c><00:10:25.920><c> of</c><00:10:26.079><c> like</c><00:10:26.320><c> for</c><00:10:26.399><c> one</c>
+
+00:10:26.550 --> 00:10:26.560 align:start position:0%
+it's generating a value of like for one
+ 
+
+00:10:26.560 --> 00:10:28.630 align:start position:0%
+it's generating a value of like for one
+of<00:10:26.640><c> these</c><00:10:26.800><c> points</c><00:10:27.120><c> like</c><00:10:27.360><c> point</c><00:10:27.600><c> two</c><00:10:28.240><c> it's</c>
+
+00:10:28.630 --> 00:10:28.640 align:start position:0%
+of these points like point two it's
+ 
+
+00:10:28.640 --> 00:10:30.710 align:start position:0%
+of these points like point two it's
+rotating<00:10:29.200><c> it</c><00:10:29.360><c> at</c><00:10:29.519><c> exactly</c>
+
+00:10:30.710 --> 00:10:30.720 align:start position:0%
+rotating it at exactly
+ 
+
+00:10:30.720 --> 00:10:32.110 align:start position:0%
+rotating it at exactly
+you<00:10:30.800><c> know</c>
+
+00:10:32.110 --> 00:10:32.120 align:start position:0%
+you know
+ 
+
+00:10:32.120 --> 00:10:35.430 align:start position:0%
+you know
+0.2.2.2<00:10:33.279><c> or</c><00:10:33.600><c> you</c><00:10:33.760><c> know</c><00:10:34.079><c> whatever</c><00:10:34.959><c> like</c><00:10:35.200><c> that</c>
+
+00:10:35.430 --> 00:10:35.440 align:start position:0%
+0.2.2.2 or you know whatever like that
+ 
+
+00:10:35.440 --> 00:10:38.230 align:start position:0%
+0.2.2.2 or you know whatever like that
+for<00:10:35.760><c> all</c><00:10:36.079><c> three</c><00:10:36.560><c> of</c><00:10:36.880><c> the</c><00:10:37.040><c> axes</c><00:10:37.680><c> which</c><00:10:37.920><c> is</c><00:10:38.000><c> not</c>
+
+00:10:38.230 --> 00:10:38.240 align:start position:0%
+for all three of the axes which is not
+ 
+
+00:10:38.240 --> 00:10:40.150 align:start position:0%
+for all three of the axes which is not
+actually<00:10:38.480><c> what</c><00:10:38.560><c> we</c><00:10:38.720><c> want</c><00:10:38.959><c> we</c><00:10:39.120><c> want</c><00:10:39.360><c> each</c><00:10:39.680><c> axis</c>
+
+00:10:40.150 --> 00:10:40.160 align:start position:0%
+actually what we want we want each axis
+ 
+
+00:10:40.160 --> 00:10:42.630 align:start position:0%
+actually what we want we want each axis
+to<00:10:40.240><c> have</c><00:10:40.399><c> its</c><00:10:40.560><c> own</c><00:10:40.800><c> value</c><00:10:41.360><c> independently</c><00:10:42.480><c> so</c>
+
+00:10:42.630 --> 00:10:42.640 align:start position:0%
+to have its own value independently so
+ 
+
+00:10:42.640 --> 00:10:45.030 align:start position:0%
+to have its own value independently so
+instead<00:10:42.959><c> of</c><00:10:43.200><c> float</c><00:10:43.600><c> what</c><00:10:43.760><c> i'm</c><00:10:43.920><c> looking</c><00:10:44.160><c> for</c><00:10:44.480><c> is</c>
+
+00:10:45.030 --> 00:10:45.040 align:start position:0%
+instead of float what i'm looking for is
+ 
+
+00:10:45.040 --> 00:10:47.590 align:start position:0%
+instead of float what i'm looking for is
+vector<00:10:46.240><c> okay</c><00:10:46.480><c> so</c><00:10:46.720><c> now</c><00:10:46.880><c> if</c><00:10:47.040><c> i</c><00:10:47.120><c> drop</c><00:10:47.360><c> this</c><00:10:47.519><c> in</c>
+
+00:10:47.590 --> 00:10:47.600 align:start position:0%
+vector okay so now if i drop this in
+ 
+
+00:10:47.600 --> 00:10:49.190 align:start position:0%
+vector okay so now if i drop this in
+here<00:10:48.079><c> you</c><00:10:48.240><c> can</c><00:10:48.320><c> see</c><00:10:48.480><c> we</c><00:10:48.560><c> get</c><00:10:48.720><c> a</c><00:10:48.800><c> lot</c><00:10:48.959><c> more</c>
+
+00:10:49.190 --> 00:10:49.200 align:start position:0%
+here you can see we get a lot more
+ 
+
+00:10:49.200 --> 00:10:50.550 align:start position:0%
+here you can see we get a lot more
+values
+
+00:10:50.550 --> 00:10:50.560 align:start position:0%
+values
+ 
+
+00:10:50.560 --> 00:10:52.389 align:start position:0%
+values
+because<00:10:50.959><c> there's</c><00:10:51.440><c> three</c><00:10:51.839><c> there's</c><00:10:52.079><c> three</c>
+
+00:10:52.389 --> 00:10:52.399 align:start position:0%
+because there's three there's three
+ 
+
+00:10:52.399 --> 00:10:54.230 align:start position:0%
+because there's three there's three
+there's<00:10:52.640><c> the</c><00:10:52.800><c> min</c><00:10:53.279><c> for</c><00:10:53.600><c> each</c><00:10:53.839><c> of</c><00:10:53.920><c> the</c><00:10:54.000><c> three</c>
+
+00:10:54.230 --> 00:10:54.240 align:start position:0%
+there's the min for each of the three
+ 
+
+00:10:54.240 --> 00:10:58.069 align:start position:0%
+there's the min for each of the three
+axes<00:10:54.800><c> x</c><00:10:54.959><c> y</c><00:10:55.200><c> and</c><00:10:55.279><c> z</c><00:10:55.519><c> and</c><00:10:55.680><c> x</c><00:10:55.839><c> y</c><00:10:56.079><c> and</c><00:10:56.160><c> z</c><00:10:56.399><c> for</c><00:10:56.560><c> the</c><00:10:56.640><c> max</c>
+
+00:10:58.069 --> 00:10:58.079 align:start position:0%
+axes x y and z and x y and z for the max
+ 
+
+00:10:58.079 --> 00:10:59.590 align:start position:0%
+axes x y and z and x y and z for the max
+but<00:10:58.320><c> now</c><00:10:58.480><c> that</c><00:10:58.720><c> we've</c><00:10:58.880><c> got</c><00:10:59.040><c> that</c><00:10:59.200><c> you</c><00:10:59.360><c> can</c><00:10:59.440><c> see</c>
+
+00:10:59.590 --> 00:10:59.600 align:start position:0%
+but now that we've got that you can see
+ 
+
+00:10:59.600 --> 00:11:01.190 align:start position:0%
+but now that we've got that you can see
+that<00:10:59.680><c> we've</c><00:10:59.760><c> got</c><00:11:00.000><c> a</c><00:11:00.160><c> lot</c><00:11:00.320><c> more</c>
+
+00:11:01.190 --> 00:11:01.200 align:start position:0%
+that we've got a lot more
+ 
+
+00:11:01.200 --> 00:11:05.030 align:start position:0%
+that we've got a lot more
+uh<00:11:01.839><c> random</c><00:11:02.399><c> rotation</c><00:11:03.120><c> happening</c><00:11:03.680><c> right</c>
+
+00:11:05.030 --> 00:11:05.040 align:start position:0%
+uh random rotation happening right
+ 
+
+00:11:05.040 --> 00:11:07.110 align:start position:0%
+uh random rotation happening right
+um<00:11:05.600><c> now</c><00:11:05.839><c> the</c><00:11:06.000><c> other</c><00:11:06.240><c> thing</c><00:11:06.399><c> to</c><00:11:06.480><c> note</c><00:11:06.720><c> is</c><00:11:06.880><c> like</c>
+
+00:11:07.110 --> 00:11:07.120 align:start position:0%
+um now the other thing to note is like
+ 
+
+00:11:07.120 --> 00:11:09.990 align:start position:0%
+um now the other thing to note is like
+okay<00:11:07.600><c> one</c><00:11:08.079><c> is</c><00:11:08.160><c> that</c><00:11:08.560><c> one</c><00:11:08.880><c> degree</c><00:11:09.519><c> it</c><00:11:09.760><c> looks</c>
+
+00:11:09.990 --> 00:11:10.000 align:start position:0%
+okay one is that one degree it looks
+ 
+
+00:11:10.000 --> 00:11:12.470 align:start position:0%
+okay one is that one degree it looks
+like<00:11:10.240><c> it's</c><00:11:10.480><c> more</c><00:11:10.640><c> than</c><00:11:10.959><c> one</c><00:11:11.200><c> degree</c><00:11:12.079><c> what</c><00:11:12.320><c> is</c>
+
+00:11:12.470 --> 00:11:12.480 align:start position:0%
+like it's more than one degree what is
+ 
+
+00:11:12.480 --> 00:11:14.550 align:start position:0%
+like it's more than one degree what is
+going<00:11:12.720><c> on</c><00:11:12.959><c> this</c><00:11:13.279><c> this</c><00:11:13.600><c> value</c><00:11:13.920><c> here</c><00:11:14.160><c> these</c><00:11:14.399><c> are</c>
+
+00:11:14.550 --> 00:11:14.560 align:start position:0%
+going on this this value here these are
+ 
+
+00:11:14.560 --> 00:11:15.590 align:start position:0%
+going on this this value here these are
+actually
+
+00:11:15.590 --> 00:11:15.600 align:start position:0%
+actually
+ 
+
+00:11:15.600 --> 00:11:16.790 align:start position:0%
+actually
+radians
+
+00:11:16.790 --> 00:11:16.800 align:start position:0%
+radians
+ 
+
+00:11:16.800 --> 00:11:19.509 align:start position:0%
+radians
+that's<00:11:17.040><c> right</c><00:11:17.360><c> radians</c><00:11:18.079><c> what</c><00:11:18.320><c> is</c><00:11:18.640><c> a</c><00:11:18.880><c> radian</c><00:11:19.360><c> a</c>
+
+00:11:19.509 --> 00:11:19.519 align:start position:0%
+that's right radians what is a radian a
+ 
+
+00:11:19.519 --> 00:11:21.990 align:start position:0%
+that's right radians what is a radian a
+radian<00:11:20.320><c> is</c>
+
+00:11:21.990 --> 00:11:22.000 align:start position:0%
+radian is
+ 
+
+00:11:22.000 --> 00:11:24.470 align:start position:0%
+radian is
+57.29
+
+00:11:24.470 --> 00:11:24.480 align:start position:0%
+57.29
+ 
+
+00:11:24.480 --> 00:11:26.870 align:start position:0%
+57.29
+degrees<00:11:25.120><c> all</c><00:11:25.200><c> right</c><00:11:25.440><c> it's</c><00:11:25.600><c> a</c><00:11:25.760><c> mathematical</c>
+
+00:11:26.870 --> 00:11:26.880 align:start position:0%
+degrees all right it's a mathematical
+ 
+
+00:11:26.880 --> 00:11:29.990 align:start position:0%
+degrees all right it's a mathematical
+concept<00:11:27.839><c> and</c><00:11:28.320><c> geometry</c><00:11:28.800><c> nodes</c><00:11:29.120><c> is</c><00:11:29.440><c> generally</c>
+
+00:11:29.990 --> 00:11:30.000 align:start position:0%
+concept and geometry nodes is generally
+ 
+
+00:11:30.000 --> 00:11:32.230 align:start position:0%
+concept and geometry nodes is generally
+mathematical<00:11:30.800><c> so</c><00:11:31.040><c> it's</c><00:11:31.680><c> you</c><00:11:31.839><c> just</c><00:11:32.000><c> have</c><00:11:32.160><c> to</c>
+
+00:11:32.230 --> 00:11:32.240 align:start position:0%
+mathematical so it's you just have to
+ 
+
+00:11:32.240 --> 00:11:33.829 align:start position:0%
+mathematical so it's you just have to
+get<00:11:32.480><c> used</c><00:11:32.720><c> to</c><00:11:32.880><c> it</c><00:11:32.959><c> there's</c><00:11:33.200><c> like</c><00:11:33.440><c> a</c><00:11:33.600><c> lot</c><00:11:33.760><c> of</c>
+
+00:11:33.829 --> 00:11:33.839 align:start position:0%
+get used to it there's like a lot of
+ 
+
+00:11:33.839 --> 00:11:35.269 align:start position:0%
+get used to it there's like a lot of
+math<00:11:34.160><c> functions</c><00:11:34.560><c> and</c><00:11:34.640><c> things</c><00:11:34.880><c> like</c><00:11:34.959><c> that</c><00:11:35.120><c> when</c>
+
+00:11:35.269 --> 00:11:35.279 align:start position:0%
+math functions and things like that when
+ 
+
+00:11:35.279 --> 00:11:36.949 align:start position:0%
+math functions and things like that when
+it<00:11:35.360><c> comes</c><00:11:35.519><c> to</c><00:11:35.600><c> geometry</c><00:11:36.079><c> knows</c>
+
+00:11:36.949 --> 00:11:36.959 align:start position:0%
+it comes to geometry knows
+ 
+
+00:11:36.959 --> 00:11:38.790 align:start position:0%
+it comes to geometry knows
+and<00:11:37.200><c> radians</c><00:11:37.839><c> is</c><00:11:37.920><c> one</c><00:11:38.079><c> of</c><00:11:38.160><c> them</c><00:11:38.320><c> so</c><00:11:38.480><c> this</c><00:11:38.640><c> is</c>
+
+00:11:38.790 --> 00:11:38.800 align:start position:0%
+and radians is one of them so this is
+ 
+
+00:11:38.800 --> 00:11:40.470 align:start position:0%
+and radians is one of them so this is
+not<00:11:38.959><c> one</c><00:11:39.200><c> degree</c><00:11:39.440><c> it</c><00:11:39.600><c> is</c><00:11:39.680><c> one</c><00:11:39.920><c> radian</c><00:11:40.240><c> which</c><00:11:40.399><c> is</c>
+
+00:11:40.470 --> 00:11:40.480 align:start position:0%
+not one degree it is one radian which is
+ 
+
+00:11:40.480 --> 00:11:42.870 align:start position:0%
+not one degree it is one radian which is
+about<00:11:40.720><c> 57</c><00:11:41.279><c> so</c><00:11:41.440><c> it</c><00:11:41.600><c> is</c><00:11:42.000><c> giving</c><00:11:42.320><c> us</c><00:11:42.480><c> a</c><00:11:42.560><c> random</c>
+
+00:11:42.870 --> 00:11:42.880 align:start position:0%
+about 57 so it is giving us a random
+ 
+
+00:11:42.880 --> 00:11:46.069 align:start position:0%
+about 57 so it is giving us a random
+value<00:11:43.120><c> between</c><00:11:43.440><c> 0</c><00:11:43.760><c> and</c><00:11:43.959><c> 57-ish</c><00:11:45.040><c> degrees</c><00:11:45.839><c> if</c><00:11:45.920><c> we</c>
+
+00:11:46.069 --> 00:11:46.079 align:start position:0%
+value between 0 and 57-ish degrees if we
+ 
+
+00:11:46.079 --> 00:11:48.150 align:start position:0%
+value between 0 and 57-ish degrees if we
+set<00:11:46.240><c> this</c><00:11:46.399><c> to</c><00:11:46.560><c> 2</c><00:11:46.880><c> it's</c><00:11:47.440><c> a</c><00:11:47.519><c> little</c><00:11:47.680><c> bit</c><00:11:47.920><c> more</c>
+
+00:11:48.150 --> 00:11:48.160 align:start position:0%
+set this to 2 it's a little bit more
+ 
+
+00:11:48.160 --> 00:11:49.110 align:start position:0%
+set this to 2 it's a little bit more
+right<00:11:48.320><c> it's</c><00:11:48.480><c> giving</c><00:11:48.640><c> us</c><00:11:48.720><c> a</c><00:11:48.720><c> little</c><00:11:48.880><c> bit</c><00:11:49.040><c> more</c>
+
+00:11:49.110 --> 00:11:49.120 align:start position:0%
+right it's giving us a little bit more
+ 
+
+00:11:49.120 --> 00:11:51.829 align:start position:0%
+right it's giving us a little bit more
+rotation<00:11:49.519><c> but</c><00:11:49.680><c> again</c><00:11:49.920><c> it's</c><00:11:50.079><c> not</c><00:11:50.320><c> 360.</c><00:11:51.440><c> it's</c>
+
+00:11:51.829 --> 00:11:51.839 align:start position:0%
+rotation but again it's not 360. it's
+ 
+
+00:11:51.839 --> 00:11:53.509 align:start position:0%
+rotation but again it's not 360. it's
+360.<00:11:52.320><c> it's</c><00:11:52.480><c> like</c><00:11:52.640><c> you</c><00:11:52.720><c> could</c><00:11:52.880><c> actually</c><00:11:53.120><c> type</c>
+
+00:11:53.509 --> 00:11:53.519 align:start position:0%
+360. it's like you could actually type
+ 
+
+00:11:53.519 --> 00:11:55.110 align:start position:0%
+360. it's like you could actually type
+in<00:11:54.160><c> pi</c>
+
+00:11:55.110 --> 00:11:55.120 align:start position:0%
+in pi
+ 
+
+00:11:55.120 --> 00:11:57.990 align:start position:0%
+in pi
+pi<00:11:55.360><c> would</c><00:11:55.519><c> be</c><00:11:55.760><c> 180</c><00:11:56.880><c> right</c><00:11:57.120><c> because</c><00:11:57.440><c> it's</c><00:11:57.760><c> uh</c>
+
+00:11:57.990 --> 00:11:58.000 align:start position:0%
+pi would be 180 right because it's uh
+ 
+
+00:11:58.000 --> 00:12:01.190 align:start position:0%
+pi would be 180 right because it's uh
+3.142<00:11:59.360><c> it</c><00:11:59.519><c> would</c><00:11:59.680><c> be</c><00:12:00.000><c> uh</c><00:12:00.320><c> yeah</c><00:12:00.560><c> it's</c><00:12:00.800><c> half</c><00:12:01.040><c> of</c>
+
+00:12:01.190 --> 00:12:01.200 align:start position:0%
+3.142 it would be uh yeah it's half of
+ 
+
+00:12:01.200 --> 00:12:03.670 align:start position:0%
+3.142 it would be uh yeah it's half of
+it<00:12:01.279><c> but</c><00:12:01.519><c> actually</c><00:12:01.760><c> we</c><00:12:01.920><c> want</c><00:12:02.240><c> double</c><00:12:02.640><c> pi</c><00:12:03.279><c> so</c><00:12:03.519><c> if</c>
+
+00:12:03.670 --> 00:12:03.680 align:start position:0%
+it but actually we want double pi so if
+ 
+
+00:12:03.680 --> 00:12:04.870 align:start position:0%
+it but actually we want double pi so if
+you<00:12:03.760><c> wanted</c><00:12:04.000><c> to</c><00:12:04.160><c> you</c><00:12:04.240><c> could</c><00:12:04.320><c> type</c><00:12:04.560><c> in</c><00:12:04.720><c> two</c>
+
+00:12:04.870 --> 00:12:04.880 align:start position:0%
+you wanted to you could type in two
+ 
+
+00:12:04.880 --> 00:12:06.470 align:start position:0%
+you wanted to you could type in two
+times<00:12:05.279><c> pi</c><00:12:05.519><c> or</c><00:12:05.680><c> there's</c><00:12:05.920><c> a</c><00:12:06.000><c> word</c><00:12:06.240><c> for</c><00:12:06.320><c> that</c>
+
+00:12:06.470 --> 00:12:06.480 align:start position:0%
+times pi or there's a word for that
+ 
+
+00:12:06.480 --> 00:12:07.750 align:start position:0%
+times pi or there's a word for that
+which<00:12:06.639><c> is</c><00:12:06.800><c> called</c>
+
+00:12:07.750 --> 00:12:07.760 align:start position:0%
+which is called
+ 
+
+00:12:07.760 --> 00:12:08.790 align:start position:0%
+which is called
+tau
+
+00:12:08.790 --> 00:12:08.800 align:start position:0%
+tau
+ 
+
+00:12:08.800 --> 00:12:10.949 align:start position:0%
+tau
+which<00:12:09.120><c> i</c><00:12:09.200><c> didn't</c><00:12:09.440><c> know</c><00:12:09.680><c> was</c><00:12:09.839><c> a</c><00:12:09.920><c> word</c><00:12:10.320><c> until</c><00:12:10.880><c> i</c>
+
+00:12:10.949 --> 00:12:10.959 align:start position:0%
+which i didn't know was a word until i
+ 
+
+00:12:10.959 --> 00:12:13.030 align:start position:0%
+which i didn't know was a word until i
+needed<00:12:11.279><c> it</c><00:12:11.360><c> for</c><00:12:11.519><c> this</c><00:12:11.680><c> exact</c><00:12:12.079><c> thing</c><00:12:12.639><c> um</c><00:12:12.880><c> and</c>
+
+00:12:13.030 --> 00:12:13.040 align:start position:0%
+needed it for this exact thing um and
+ 
+
+00:12:13.040 --> 00:12:15.190 align:start position:0%
+needed it for this exact thing um and
+arendelle<00:12:13.760><c> uh</c><00:12:14.000><c> erindale's</c><00:12:14.639><c> youtube</c><00:12:14.959><c> channel</c>
+
+00:12:15.190 --> 00:12:15.200 align:start position:0%
+arendelle uh erindale's youtube channel
+ 
+
+00:12:15.200 --> 00:12:16.310 align:start position:0%
+arendelle uh erindale's youtube channel
+everyone<00:12:15.440><c> should</c><00:12:15.680><c> subscribe</c><00:12:16.000><c> if</c><00:12:16.079><c> you</c><00:12:16.160><c> want</c><00:12:16.240><c> to</c>
+
+00:12:16.310 --> 00:12:16.320 align:start position:0%
+everyone should subscribe if you want to
+ 
+
+00:12:16.320 --> 00:12:18.470 align:start position:0%
+everyone should subscribe if you want to
+go<00:12:16.639><c> deep</c><00:12:16.880><c> into</c><00:12:17.040><c> geometry</c><00:12:17.440><c> nodes</c><00:12:17.920><c> like</c><00:12:18.160><c> really</c>
+
+00:12:18.470 --> 00:12:18.480 align:start position:0%
+go deep into geometry nodes like really
+ 
+
+00:12:18.480 --> 00:12:21.750 align:start position:0%
+go deep into geometry nodes like really
+deep<00:12:19.120><c> um</c><00:12:19.519><c> he's</c><00:12:19.839><c> the</c><00:12:19.920><c> master</c><00:12:20.320><c> of</c><00:12:20.480><c> it</c><00:12:20.720><c> um</c><00:12:20.959><c> but</c><00:12:21.200><c> tau</c>
+
+00:12:21.750 --> 00:12:21.760 align:start position:0%
+deep um he's the master of it um but tau
+ 
+
+00:12:21.760 --> 00:12:24.150 align:start position:0%
+deep um he's the master of it um but tau
+towers<00:12:22.720><c> twice</c><00:12:23.200><c> pi</c><00:12:23.440><c> it's</c><00:12:23.600><c> the</c><00:12:23.839><c> full</c>
+
+00:12:24.150 --> 00:12:24.160 align:start position:0%
+towers twice pi it's the full
+ 
+
+00:12:24.160 --> 00:12:26.470 align:start position:0%
+towers twice pi it's the full
+circumference<00:12:24.880><c> or</c><00:12:25.200><c> whatever</c><00:12:25.680><c> of</c><00:12:25.760><c> the</c>
+
+00:12:26.470 --> 00:12:26.480 align:start position:0%
+circumference or whatever of the
+ 
+
+00:12:26.480 --> 00:12:27.990 align:start position:0%
+circumference or whatever of the
+circle<00:12:26.880><c> i</c><00:12:26.959><c> should</c><00:12:27.120><c> pay</c><00:12:27.279><c> attention</c><00:12:27.600><c> to</c><00:12:27.760><c> math</c>
+
+00:12:27.990 --> 00:12:28.000 align:start position:0%
+circle i should pay attention to math
+ 
+
+00:12:28.000 --> 00:12:29.829 align:start position:0%
+circle i should pay attention to math
+shouldn't<00:12:28.320><c> i</c><00:12:28.560><c> um</c><00:12:28.959><c> anyway</c>
+
+00:12:29.829 --> 00:12:29.839 align:start position:0%
+shouldn't i um anyway
+ 
+
+00:12:29.839 --> 00:12:31.990 align:start position:0%
+shouldn't i um anyway
+um<00:12:30.240><c> and</c><00:12:30.399><c> just</c><00:12:30.639><c> quickly</c><00:12:31.040><c> for</c><00:12:31.200><c> environments</c>
+
+00:12:31.990 --> 00:12:32.000 align:start position:0%
+um and just quickly for environments
+ 
+
+00:12:32.000 --> 00:12:34.389 align:start position:0%
+um and just quickly for environments
+like<00:12:32.560><c> if</c><00:12:32.720><c> you</c><00:12:32.880><c> were</c><00:12:33.200><c> say</c><00:12:33.440><c> scattering</c><00:12:34.160><c> some</c>
+
+00:12:34.389 --> 00:12:34.399 align:start position:0%
+like if you were say scattering some
+ 
+
+00:12:34.399 --> 00:12:36.629 align:start position:0%
+like if you were say scattering some
+photo<00:12:34.720><c> scan</c><00:12:35.120><c> rocks</c><00:12:35.440><c> from</c><00:12:35.680><c> polygon</c><00:12:36.320><c> or</c><00:12:36.480><c> you're</c>
+
+00:12:36.629 --> 00:12:36.639 align:start position:0%
+photo scan rocks from polygon or you're
+ 
+
+00:12:36.639 --> 00:12:39.110 align:start position:0%
+photo scan rocks from polygon or you're
+building<00:12:36.959><c> an</c><00:12:37.120><c> environment</c><00:12:38.320><c> in</c><00:12:38.480><c> those</c><00:12:38.720><c> cases</c>
+
+00:12:39.110 --> 00:12:39.120 align:start position:0%
+building an environment in those cases
+ 
+
+00:12:39.120 --> 00:12:41.030 align:start position:0%
+building an environment in those cases
+you<00:12:39.200><c> would</c><00:12:39.360><c> actually</c><00:12:39.680><c> want</c><00:12:40.000><c> to</c><00:12:40.320><c> rotate</c><00:12:40.800><c> on</c>
+
+00:12:41.030 --> 00:12:41.040 align:start position:0%
+you would actually want to rotate on
+ 
+
+00:12:41.040 --> 00:12:43.990 align:start position:0%
+you would actually want to rotate on
+every<00:12:41.600><c> on</c><00:12:41.920><c> only</c><00:12:42.399><c> the</c><00:12:42.560><c> z-axis</c><00:12:43.440><c> anyways</c><00:12:43.920><c> all</c>
+
+00:12:43.990 --> 00:12:44.000 align:start position:0%
+every on only the z-axis anyways all
+ 
+
+00:12:44.000 --> 00:12:45.990 align:start position:0%
+every on only the z-axis anyways all
+right<00:12:44.160><c> so</c><00:12:44.320><c> now</c><00:12:44.480><c> let's</c><00:12:44.720><c> do</c><00:12:44.959><c> these</c><00:12:45.360><c> scales</c><00:12:45.839><c> so</c>
+
+00:12:45.990 --> 00:12:46.000 align:start position:0%
+right so now let's do these scales so
+ 
+
+00:12:46.000 --> 00:12:47.509 align:start position:0%
+right so now let's do these scales so
+i'm<00:12:46.079><c> going</c><00:12:46.160><c> to</c><00:12:46.240><c> duplicate</c><00:12:46.800><c> my</c><00:12:46.959><c> random</c><00:12:47.279><c> value</c>
+
+00:12:47.509 --> 00:12:47.519 align:start position:0%
+i'm going to duplicate my random value
+ 
+
+00:12:47.519 --> 00:12:49.190 align:start position:0%
+i'm going to duplicate my random value
+here<00:12:47.760><c> and</c><00:12:47.839><c> i'm</c><00:12:47.920><c> going</c><00:12:48.079><c> to</c><00:12:48.160><c> plug</c><00:12:48.399><c> this</c><00:12:48.720><c> into</c><00:12:48.959><c> my</c>
+
+00:12:49.190 --> 00:12:49.200 align:start position:0%
+here and i'm going to plug this into my
+ 
+
+00:12:49.200 --> 00:12:50.310 align:start position:0%
+here and i'm going to plug this into my
+scale
+
+00:12:50.310 --> 00:12:50.320 align:start position:0%
+scale
+ 
+
+00:12:50.320 --> 00:12:52.550 align:start position:0%
+scale
+now<00:12:50.800><c> in</c><00:12:50.959><c> the</c><00:12:51.040><c> case</c><00:12:51.279><c> of</c><00:12:51.519><c> scale</c>
+
+00:12:52.550 --> 00:12:52.560 align:start position:0%
+now in the case of scale
+ 
+
+00:12:52.560 --> 00:12:56.069 align:start position:0%
+now in the case of scale
+uh<00:12:52.959><c> different</c><00:12:53.680><c> to</c><00:12:54.079><c> our</c><00:12:54.720><c> rotation</c>
+
+00:12:56.069 --> 00:12:56.079 align:start position:0%
+uh different to our rotation
+ 
+
+00:12:56.079 --> 00:12:58.870 align:start position:0%
+uh different to our rotation
+we<00:12:56.240><c> don't</c><00:12:56.399><c> want</c><00:12:56.560><c> to</c><00:12:56.720><c> have</c><00:12:57.279><c> um</c><00:12:57.760><c> separate</c><00:12:58.240><c> values</c>
+
+00:12:58.870 --> 00:12:58.880 align:start position:0%
+we don't want to have um separate values
+ 
+
+00:12:58.880 --> 00:13:00.230 align:start position:0%
+we don't want to have um separate values
+for<00:12:59.200><c> our</c>
+
+00:13:00.230 --> 00:13:00.240 align:start position:0%
+for our
+ 
+
+00:13:00.240 --> 00:13:02.310 align:start position:0%
+for our
+x<00:13:00.480><c> y</c><00:13:00.800><c> and</c><00:13:00.959><c> our</c><00:13:01.120><c> z</c><00:13:01.519><c> because</c><00:13:01.680><c> we</c><00:13:01.920><c> might</c><00:13:02.079><c> get</c>
+
+00:13:02.310 --> 00:13:02.320 align:start position:0%
+x y and our z because we might get
+ 
+
+00:13:02.320 --> 00:13:05.910 align:start position:0%
+x y and our z because we might get
+something<00:13:03.040><c> that</c><00:13:03.279><c> is</c><00:13:03.519><c> not</c><00:13:03.760><c> a</c><00:13:03.920><c> cube</c><00:13:04.320><c> shape</c><00:13:04.959><c> right</c>
+
+00:13:05.910 --> 00:13:05.920 align:start position:0%
+something that is not a cube shape right
+ 
+
+00:13:05.920 --> 00:13:07.269 align:start position:0%
+something that is not a cube shape right
+this<00:13:06.160><c> looks</c><00:13:06.399><c> like</c><00:13:06.560><c> they're</c><00:13:06.720><c> the</c><00:13:06.800><c> same</c><00:13:07.040><c> value</c>
+
+00:13:07.269 --> 00:13:07.279 align:start position:0%
+this looks like they're the same value
+ 
+
+00:13:07.279 --> 00:13:09.350 align:start position:0%
+this looks like they're the same value
+but<00:13:07.440><c> remember</c><00:13:07.760><c> each</c><00:13:08.079><c> it's</c><00:13:08.320><c> generating</c><00:13:08.800><c> a</c>
+
+00:13:09.350 --> 00:13:09.360 align:start position:0%
+but remember each it's generating a
+ 
+
+00:13:09.360 --> 00:13:11.190 align:start position:0%
+but remember each it's generating a
+value<00:13:09.920><c> like</c><00:13:10.240><c> in</c><00:13:10.320><c> between</c><00:13:10.639><c> those</c><00:13:10.959><c> right</c><00:13:11.120><c> so</c>
+
+00:13:11.190 --> 00:13:11.200 align:start position:0%
+value like in between those right so
+ 
+
+00:13:11.200 --> 00:13:12.150 align:start position:0%
+value like in between those right so
+you'll<00:13:11.360><c> get</c><00:13:11.519><c> some</c><00:13:11.680><c> that</c><00:13:11.920><c> are</c><00:13:12.000><c> like</c>
+
+00:13:12.150 --> 00:13:12.160 align:start position:0%
+you'll get some that are like
+ 
+
+00:13:12.160 --> 00:13:14.230 align:start position:0%
+you'll get some that are like
+rectangular<00:13:12.720><c> prisms</c><00:13:13.120><c> and</c><00:13:13.200><c> things</c><00:13:13.680><c> so</c><00:13:13.920><c> we</c><00:13:14.000><c> want</c>
+
+00:13:14.230 --> 00:13:14.240 align:start position:0%
+rectangular prisms and things so we want
+ 
+
+00:13:14.240 --> 00:13:16.470 align:start position:0%
+rectangular prisms and things so we want
+to<00:13:14.320><c> keep</c><00:13:14.560><c> it</c><00:13:14.720><c> as</c><00:13:14.800><c> a</c><00:13:14.959><c> cube</c><00:13:15.200><c> but</c><00:13:15.839><c> yeah</c><00:13:16.079><c> just</c><00:13:16.240><c> like</c>
+
+00:13:16.470 --> 00:13:16.480 align:start position:0%
+to keep it as a cube but yeah just like
+ 
+
+00:13:16.480 --> 00:13:18.710 align:start position:0%
+to keep it as a cube but yeah just like
+different<00:13:16.880><c> values</c><00:13:17.360><c> of</c><00:13:17.519><c> the</c><00:13:17.760><c> cube</c><00:13:18.240><c> so</c><00:13:18.399><c> for</c><00:13:18.560><c> that</c>
+
+00:13:18.710 --> 00:13:18.720 align:start position:0%
+different values of the cube so for that
+ 
+
+00:13:18.720 --> 00:13:20.470 align:start position:0%
+different values of the cube so for that
+we<00:13:18.800><c> want</c><00:13:18.959><c> to</c><00:13:19.040><c> change</c><00:13:19.279><c> it</c><00:13:19.360><c> back</c><00:13:19.600><c> to</c><00:13:19.839><c> float</c><00:13:20.399><c> and</c>
+
+00:13:20.470 --> 00:13:20.480 align:start position:0%
+we want to change it back to float and
+ 
+
+00:13:20.480 --> 00:13:22.710 align:start position:0%
+we want to change it back to float and
+then<00:13:20.720><c> plug</c><00:13:20.959><c> that</c><00:13:21.200><c> into</c><00:13:21.839><c> scale</c><00:13:22.240><c> and</c><00:13:22.320><c> now</c><00:13:22.560><c> they</c>
+
+00:13:22.710 --> 00:13:22.720 align:start position:0%
+then plug that into scale and now they
+ 
+
+00:13:22.720 --> 00:13:25.350 align:start position:0%
+then plug that into scale and now they
+all<00:13:22.959><c> stay</c><00:13:23.279><c> as</c><00:13:24.000><c> cubes</c><00:13:24.720><c> but</c><00:13:24.959><c> just</c><00:13:25.120><c> different</c>
+
+00:13:25.350 --> 00:13:25.360 align:start position:0%
+all stay as cubes but just different
+ 
+
+00:13:25.360 --> 00:13:26.790 align:start position:0%
+all stay as cubes but just different
+values<00:13:25.680><c> in</c><00:13:25.760><c> there</c>
+
+00:13:26.790 --> 00:13:26.800 align:start position:0%
+values in there
+ 
+
+00:13:26.800 --> 00:13:28.629 align:start position:0%
+values in there
+now<00:13:27.279><c> i</c><00:13:27.440><c> would</c><00:13:27.600><c> never</c><00:13:27.760><c> have</c><00:13:27.920><c> the</c><00:13:28.000><c> minimum</c><00:13:28.399><c> set</c>
+
+00:13:28.629 --> 00:13:28.639 align:start position:0%
+now i would never have the minimum set
+ 
+
+00:13:28.639 --> 00:13:30.790 align:start position:0%
+now i would never have the minimum set
+as<00:13:28.800><c> 0</c><00:13:29.120><c> because</c><00:13:29.360><c> then</c><00:13:29.519><c> that</c><00:13:29.680><c> could</c><00:13:30.240><c> technically</c>
+
+00:13:30.790 --> 00:13:30.800 align:start position:0%
+as 0 because then that could technically
+ 
+
+00:13:30.800 --> 00:13:33.030 align:start position:0%
+as 0 because then that could technically
+be<00:13:30.959><c> a</c><00:13:31.040><c> value</c><00:13:31.440><c> which</c><00:13:31.680><c> you</c><00:13:31.839><c> would</c><00:13:32.560><c> not</c><00:13:32.720><c> be</c><00:13:32.880><c> able</c>
+
+00:13:33.030 --> 00:13:33.040 align:start position:0%
+be a value which you would not be able
+ 
+
+00:13:33.040 --> 00:13:35.670 align:start position:0%
+be a value which you would not be able
+to<00:13:33.360><c> see</c><00:13:33.920><c> but</c><00:13:34.079><c> it</c><00:13:34.160><c> would</c><00:13:34.399><c> still</c><00:13:34.560><c> be</c><00:13:34.720><c> rendering</c>
+
+00:13:35.670 --> 00:13:35.680 align:start position:0%
+to see but it would still be rendering
+ 
+
+00:13:35.680 --> 00:13:36.870 align:start position:0%
+to see but it would still be rendering
+so<00:13:35.839><c> i'm</c><00:13:35.920><c> just</c><00:13:36.079><c> going</c><00:13:36.160><c> to</c><00:13:36.240><c> make</c><00:13:36.320><c> it</c><00:13:36.399><c> just</c><00:13:36.639><c> a</c>
+
+00:13:36.870 --> 00:13:36.880 align:start position:0%
+so i'm just going to make it just a
+ 
+
+00:13:36.880 --> 00:13:38.870 align:start position:0%
+so i'm just going to make it just a
+little<00:13:37.200><c> bit</c><00:13:37.440><c> more</c><00:13:38.160><c> yeah</c><00:13:38.399><c> you</c><00:13:38.480><c> can</c><00:13:38.560><c> see</c><00:13:38.720><c> it's</c>
+
+00:13:38.870 --> 00:13:38.880 align:start position:0%
+little bit more yeah you can see it's
+ 
+
+00:13:38.880 --> 00:13:40.230 align:start position:0%
+little bit more yeah you can see it's
+exactly<00:13:39.200><c> what</c><00:13:39.360><c> it's</c><00:13:39.440><c> doing</c><00:13:39.760><c> there's</c><00:13:39.920><c> like</c><00:13:40.079><c> a</c>
+
+00:13:40.230 --> 00:13:40.240 align:start position:0%
+exactly what it's doing there's like a
+ 
+
+00:13:40.240 --> 00:13:42.230 align:start position:0%
+exactly what it's doing there's like a
+cube<00:13:40.480><c> that's</c><00:13:40.720><c> like</c><00:13:40.959><c> invisible</c>
+
+00:13:42.230 --> 00:13:42.240 align:start position:0%
+cube that's like invisible
+ 
+
+00:13:42.240 --> 00:13:43.829 align:start position:0%
+cube that's like invisible
+so<00:13:42.399><c> yeah</c><00:13:42.560><c> i</c><00:13:42.639><c> just</c><00:13:42.800><c> make</c><00:13:42.959><c> it</c><00:13:43.040><c> a</c><00:13:43.120><c> little</c><00:13:43.279><c> bit</c><00:13:43.440><c> more</c>
+
+00:13:43.829 --> 00:13:43.839 align:start position:0%
+so yeah i just make it a little bit more
+ 
+
+00:13:43.839 --> 00:13:46.230 align:start position:0%
+so yeah i just make it a little bit more
+than<00:13:44.079><c> zero</c><00:13:44.560><c> and</c><00:13:44.720><c> then</c><00:13:44.959><c> it</c><00:13:45.120><c> comes</c><00:13:45.360><c> through</c><00:13:46.079><c> and</c>
+
+00:13:46.230 --> 00:13:46.240 align:start position:0%
+than zero and then it comes through and
+ 
+
+00:13:46.240 --> 00:13:48.150 align:start position:0%
+than zero and then it comes through and
+there<00:13:46.399><c> you</c><00:13:46.560><c> go</c><00:13:46.880><c> and</c><00:13:47.040><c> you</c><00:13:47.200><c> can</c><00:13:47.360><c> see</c><00:13:47.920><c> now</c><00:13:48.079><c> that</c>
+
+00:13:48.150 --> 00:13:48.160 align:start position:0%
+there you go and you can see now that
+ 
+
+00:13:48.160 --> 00:13:49.910 align:start position:0%
+there you go and you can see now that
+we've<00:13:48.320><c> got</c><00:13:48.560><c> that</c><00:13:48.880><c> we've</c><00:13:49.040><c> got</c><00:13:49.200><c> the</c><00:13:49.360><c> sizing</c><00:13:49.760><c> that</c>
+
+00:13:49.910 --> 00:13:49.920 align:start position:0%
+we've got that we've got the sizing that
+ 
+
+00:13:49.920 --> 00:13:52.790 align:start position:0%
+we've got that we've got the sizing that
+looks<00:13:50.240><c> pretty</c><00:13:50.480><c> good</c><00:13:51.120><c> if</c><00:13:51.200><c> we</c><00:13:51.360><c> cranked</c><00:13:51.760><c> up</c><00:13:52.000><c> our</c>
+
+00:13:52.790 --> 00:13:52.800 align:start position:0%
+looks pretty good if we cranked up our
+ 
+
+00:13:52.800 --> 00:13:54.790 align:start position:0%
+looks pretty good if we cranked up our
+density<00:13:53.279><c> there</c><00:13:53.519><c> you</c><00:13:53.600><c> can</c><00:13:53.920><c> sort</c><00:13:54.160><c> of</c><00:13:54.320><c> see</c><00:13:54.560><c> what</c>
+
+00:13:54.790 --> 00:13:54.800 align:start position:0%
+density there you can sort of see what
+ 
+
+00:13:54.800 --> 00:13:57.110 align:start position:0%
+density there you can sort of see what
+we're<00:13:55.040><c> getting</c><00:13:55.360><c> at</c><00:13:55.600><c> with</c><00:13:55.760><c> this</c><00:13:56.000><c> tutorial</c>
+
+00:13:57.110 --> 00:13:57.120 align:start position:0%
+we're getting at with this tutorial
+ 
+
+00:13:57.120 --> 00:13:58.949 align:start position:0%
+we're getting at with this tutorial
+so<00:13:57.279><c> we've</c><00:13:57.600><c> learned</c><00:13:57.920><c> about</c><00:13:58.240><c> the</c><00:13:58.399><c> basics</c><00:13:58.800><c> of</c>
+
+00:13:58.949 --> 00:13:58.959 align:start position:0%
+so we've learned about the basics of
+ 
+
+00:13:58.959 --> 00:14:00.710 align:start position:0%
+so we've learned about the basics of
+geometry<00:13:59.360><c> nodes</c><00:13:59.680><c> go</c><00:13:59.839><c> ahead</c><00:14:00.079><c> join</c><00:14:00.320><c> me</c><00:14:00.480><c> in</c><00:14:00.560><c> the</c>
+
+00:14:00.710 --> 00:14:00.720 align:start position:0%
+geometry nodes go ahead join me in the
+ 
+
+00:14:00.720 --> 00:14:02.710 align:start position:0%
+geometry nodes go ahead join me in the
+next<00:14:01.040><c> part</c><00:14:01.680><c> as</c><00:14:01.839><c> we</c><00:14:02.000><c> delve</c><00:14:02.320><c> a</c><00:14:02.399><c> little</c><00:14:02.560><c> more</c>
+
+00:14:02.710 --> 00:14:02.720 align:start position:0%
+next part as we delve a little more
+ 
+
+00:14:02.720 --> 00:14:05.030 align:start position:0%
+next part as we delve a little more
+deeper<00:14:02.959><c> into</c><00:14:03.199><c> some</c><00:14:03.360><c> of</c><00:14:03.440><c> the</c><00:14:03.959><c> idiosyncrasies</c>
+
+00:14:05.030 --> 00:14:05.040 align:start position:0%
+deeper into some of the idiosyncrasies
+ 
+
+00:14:05.040 --> 00:14:06.470 align:start position:0%
+deeper into some of the idiosyncrasies
+so<00:14:05.199><c> click</c><00:14:05.360><c> here</c><00:14:05.519><c> on</c><00:14:05.600><c> the</c><00:14:05.760><c> screen</c><00:14:06.000><c> and</c><00:14:06.160><c> i'll</c><00:14:06.320><c> see</c>
+
+00:14:06.470 --> 00:14:06.480 align:start position:0%
+so click here on the screen and i'll see
+ 
+
+00:14:06.480 --> 00:14:08.959 align:start position:0%
+so click here on the screen and i'll see
+you<00:14:06.560><c> there</c>
+

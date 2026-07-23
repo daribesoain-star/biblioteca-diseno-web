@@ -1,0 +1,16 @@
+FUENTE: https://web.dev/articles/maskable-icon
+TEMA: Iconos maskable — safe zone y adaptive icons Android
+
+SAFE ZONE (zona segura mínima): "Las partes importantes de tu icono, como tu logo, deben estar dentro de un área circular en el centro del icono con un radio igual al 40% del ancho del icono." Es decir, el contenido crítico ocupa el 80% central del diámetro; las regiones exteriores pueden ser removidas.
+
+EDGE CROPPING: "El 10% exterior del borde puede ser recortado en algunas plataformas." Distintos modelos de dispositivo usan formas de icono variables, de ahí la estructura de padding protector.
+
+MANIFEST (declaración):
+{
+  "icons": [
+    { "src": "path/to/maskable_icon.png", "sizes": "196x196", "type": "image/png", "purpose": "maskable" }
+  ]
+}
+El campo purpose = "maskable" indica al navegador uso con enmascarado adaptativo, eliminando fondos blancos.
+
+ANDROID ADAPTIVE ICONS: Android 8.0 introdujo iconos adaptativos que "muestran los iconos de app en una variedad de formas según el modelo de dispositivo". Los iconos maskable permiten cobertura circular completa en vez de aparecer "dentro de círculos blancos", dejando que el navegador recorte los iconos a las formas específicas de cada plataforma automáticamente.

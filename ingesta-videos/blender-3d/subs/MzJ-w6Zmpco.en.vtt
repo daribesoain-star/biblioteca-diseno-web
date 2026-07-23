@@ -1,0 +1,1688 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.040 --> 00:00:02.550 align:start position:0%
+ 
+render<00:00:00.399><c> 10</c><00:00:00.760><c> times</c><00:00:01.079><c> faster</c><00:00:01.439><c> in</c><00:00:01.599><c> Cycles</c><00:00:02.120><c> using</c>
+
+00:00:02.550 --> 00:00:02.560 align:start position:0%
+render 10 times faster in Cycles using
+ 
+
+00:00:02.560 --> 00:00:06.630 align:start position:0%
+render 10 times faster in Cycles using
+this<00:00:02.840><c> easy</c><00:00:03.560><c> trick</c><00:00:04.600><c> no</c><00:00:05.600><c> rendering</c><00:00:06.120><c> faster</c><00:00:06.440><c> in</c>
+
+00:00:06.630 --> 00:00:06.640 align:start position:0%
+this easy trick no rendering faster in
+ 
+
+00:00:06.640 --> 00:00:08.870 align:start position:0%
+this easy trick no rendering faster in
+Cycles<00:00:07.200><c> is</c><00:00:07.319><c> a</c><00:00:07.480><c> matter</c><00:00:07.799><c> of</c><00:00:08.160><c> building</c><00:00:08.599><c> an</c>
+
+00:00:08.870 --> 00:00:08.880 align:start position:0%
+Cycles is a matter of building an
+ 
+
+00:00:08.880 --> 00:00:11.629 align:start position:0%
+Cycles is a matter of building an
+optimized<00:00:09.599><c> scene</c><00:00:10.240><c> strategically</c><00:00:10.920><c> degrading</c>
+
+00:00:11.629 --> 00:00:11.639 align:start position:0%
+optimized scene strategically degrading
+ 
+
+00:00:11.639 --> 00:00:14.589 align:start position:0%
+optimized scene strategically degrading
+quality<00:00:12.360><c> and</c><00:00:12.719><c> troubleshooting</c><00:00:13.679><c> renders</c><00:00:14.480><c> in</c>
+
+00:00:14.589 --> 00:00:14.599 align:start position:0%
+quality and troubleshooting renders in
+ 
+
+00:00:14.599 --> 00:00:17.349 align:start position:0%
+quality and troubleshooting renders in
+other<00:00:15.199><c> words</c><00:00:16.199><c> you</c><00:00:16.320><c> have</c><00:00:16.440><c> to</c><00:00:16.960><c> understand</c><00:00:17.160><c> how</c>
+
+00:00:17.349 --> 00:00:17.359 align:start position:0%
+other words you have to understand how
+ 
+
+00:00:17.359 --> 00:00:19.870 align:start position:0%
+other words you have to understand how
+this<00:00:17.560><c> stuff</c><00:00:17.880><c> works</c><00:00:18.480><c> and</c><00:00:18.680><c> when</c><00:00:18.800><c> you</c><00:00:18.960><c> do</c><00:00:19.760><c> you</c>
+
+00:00:19.870 --> 00:00:19.880 align:start position:0%
+this stuff works and when you do you
+ 
+
+00:00:19.880 --> 00:00:23.070 align:start position:0%
+this stuff works and when you do you
+won't<00:00:20.199><c> need</c><00:00:20.880><c> tricks</c><00:00:21.880><c> I</c><00:00:21.960><c> will</c><00:00:22.119><c> show</c><00:00:22.359><c> you</c><00:00:22.600><c> how</c><00:00:22.880><c> I</c>
+
+00:00:23.070 --> 00:00:23.080 align:start position:0%
+won't need tricks I will show you how I
+ 
+
+00:00:23.080 --> 00:00:25.150 align:start position:0%
+won't need tricks I will show you how I
+optimized<00:00:23.760><c> this</c><00:00:24.000><c> render</c><00:00:24.640><c> which</c><00:00:24.760><c> is</c><00:00:24.920><c> my</c>
+
+00:00:25.150 --> 00:00:25.160 align:start position:0%
+optimized this render which is my
+ 
+
+00:00:25.160 --> 00:00:27.630 align:start position:0%
+optimized this render which is my
+submission<00:00:25.599><c> for</c><00:00:25.840><c> Clint's</c><00:00:26.320><c> staircase</c>
+
+00:00:27.630 --> 00:00:27.640 align:start position:0%
+submission for Clint's staircase
+ 
+
+00:00:27.640 --> 00:00:30.790 align:start position:0%
+submission for Clint's staircase
+competition<00:00:28.640><c> it</c><00:00:28.880><c> crashed</c><00:00:29.720><c> every</c><00:00:30.000><c> every</c><00:00:30.279><c> time</c>
+
+00:00:30.790 --> 00:00:30.800 align:start position:0%
+competition it crashed every every time
+ 
+
+00:00:30.800 --> 00:00:32.749 align:start position:0%
+competition it crashed every every time
+it<00:00:31.039><c> crashed</c><00:00:31.679><c> I</c><00:00:31.759><c> made</c><00:00:31.960><c> the</c><00:00:32.079><c> whole</c><00:00:32.279><c> thing</c><00:00:32.439><c> on</c><00:00:32.559><c> a</c>
+
+00:00:32.749 --> 00:00:32.759 align:start position:0%
+it crashed I made the whole thing on a
+ 
+
+00:00:32.759 --> 00:00:34.790 align:start position:0%
+it crashed I made the whole thing on a
+laptop<00:00:33.200><c> while</c><00:00:33.399><c> traveling</c><00:00:34.000><c> and</c><00:00:34.200><c> I</c><00:00:34.399><c> pushed</c><00:00:34.680><c> it</c>
+
+00:00:34.790 --> 00:00:34.800 align:start position:0%
+laptop while traveling and I pushed it
+ 
+
+00:00:34.800 --> 00:00:38.310 align:start position:0%
+laptop while traveling and I pushed it
+too<00:00:35.040><c> far</c><00:00:35.640><c> so</c><00:00:35.840><c> let's</c><00:00:36.079><c> start</c><00:00:36.440><c> there</c><00:00:36.960><c> what</c><00:00:37.160><c> if</c><00:00:37.760><c> you</c>
+
+00:00:38.310 --> 00:00:38.320 align:start position:0%
+too far so let's start there what if you
+ 
+
+00:00:38.320 --> 00:00:40.709 align:start position:0%
+too far so let's start there what if you
+crash<00:00:39.320><c> this</c><00:00:39.480><c> is</c><00:00:39.600><c> a</c><00:00:39.800><c> series</c><00:00:40.160><c> about</c>
+
+00:00:40.709 --> 00:00:40.719 align:start position:0%
+crash this is a series about
+ 
+
+00:00:40.719 --> 00:00:42.750 align:start position:0%
+crash this is a series about
+optimization<00:00:41.719><c> I've</c><00:00:41.920><c> explained</c><00:00:42.320><c> how</c><00:00:42.440><c> to</c><00:00:42.600><c> make</c>
+
+00:00:42.750 --> 00:00:42.760 align:start position:0%
+optimization I've explained how to make
+ 
+
+00:00:42.760 --> 00:00:45.590 align:start position:0%
+optimization I've explained how to make
+your<00:00:42.920><c> file</c><00:00:43.280><c> size</c><00:00:43.760><c> smaller</c><00:00:44.480><c> open</c><00:00:44.800><c> speed</c><00:00:45.160><c> faster</c>
+
+00:00:45.590 --> 00:00:45.600 align:start position:0%
+your file size smaller open speed faster
+ 
+
+00:00:45.600 --> 00:00:47.869 align:start position:0%
+your file size smaller open speed faster
+and<00:00:45.800><c> viewport</c><00:00:46.320><c> more</c><00:00:46.559><c> responsive</c><00:00:47.520><c> the</c><00:00:47.640><c> full</c>
+
+00:00:47.869 --> 00:00:47.879 align:start position:0%
+and viewport more responsive the full
+ 
+
+00:00:47.879 --> 00:00:49.910 align:start position:0%
+and viewport more responsive the full
+playlist<00:00:48.399><c> is</c><00:00:48.520><c> in</c><00:00:48.680><c> the</c>
+
+00:00:49.910 --> 00:00:49.920 align:start position:0%
+playlist is in the
+ 
+
+00:00:49.920 --> 00:00:52.430 align:start position:0%
+playlist is in the
+description<00:00:50.920><c> if</c><00:00:51.039><c> you</c><00:00:51.199><c> can't</c><00:00:51.480><c> render</c><00:00:52.160><c> you're</c>
+
+00:00:52.430 --> 00:00:52.440 align:start position:0%
+description if you can't render you're
+ 
+
+00:00:52.440 --> 00:00:55.590 align:start position:0%
+description if you can't render you're
+likely<00:00:52.840><c> on</c><00:00:53.000><c> a</c><00:00:53.239><c> GPU</c><00:00:54.239><c> and</c><00:00:54.359><c> you</c><00:00:54.559><c> likely</c><00:00:54.879><c> feel</c><00:00:55.280><c> like</c>
+
+00:00:55.590 --> 00:00:55.600 align:start position:0%
+likely on a GPU and you likely feel like
+ 
+
+00:00:55.600 --> 00:00:58.349 align:start position:0%
+likely on a GPU and you likely feel like
+this<00:00:55.879><c> guy</c><00:00:56.399><c> doing</c><00:00:56.840><c> this</c><00:00:57.520><c> the</c><00:00:57.680><c> graphics</c><00:00:58.039><c> card</c>
+
+00:00:58.349 --> 00:00:58.359 align:start position:0%
+this guy doing this the graphics card
+ 
+
+00:00:58.359 --> 00:01:00.990 align:start position:0%
+this guy doing this the graphics card
+has<00:00:58.600><c> its</c><00:00:58.800><c> own</c><00:00:59.079><c> memory</c><00:01:00.000><c> in</c><00:01:00.079><c> my</c><00:01:00.239><c> laptop's</c><00:01:00.760><c> case</c>
+
+00:01:00.990 --> 00:01:01.000 align:start position:0%
+has its own memory in my laptop's case
+ 
+
+00:01:01.000 --> 00:01:03.549 align:start position:0%
+has its own memory in my laptop's case
+it's<00:01:01.239><c> 4</c><00:01:01.640><c> GB</c><00:01:02.440><c> which</c><00:01:02.600><c> means</c><00:01:02.879><c> that</c><00:01:03.039><c> blender</c><00:01:03.399><c> can</c>
+
+00:01:03.549 --> 00:01:03.559 align:start position:0%
+it's 4 GB which means that blender can
+ 
+
+00:01:03.559 --> 00:01:06.750 align:start position:0%
+it's 4 GB which means that blender can
+use<00:01:04.000><c> no</c><00:01:04.239><c> more</c><00:01:04.760><c> than</c><00:01:04.960><c> 4</c><00:01:05.320><c> GB</c><00:01:05.799><c> to</c><00:01:06.000><c> render</c><00:01:06.439><c> or</c><00:01:06.560><c> it</c>
+
+00:01:06.750 --> 00:01:06.760 align:start position:0%
+use no more than 4 GB to render or it
+ 
+
+00:01:06.760 --> 00:01:09.510 align:start position:0%
+use no more than 4 GB to render or it
+crashes<00:01:07.640><c> on</c><00:01:07.840><c> windows</c><00:01:08.320><c> open</c><00:01:08.560><c> a</c><00:01:08.759><c> task</c><00:01:09.040><c> manager</c>
+
+00:01:09.510 --> 00:01:09.520 align:start position:0%
+crashes on windows open a task manager
+ 
+
+00:01:09.520 --> 00:01:12.030 align:start position:0%
+crashes on windows open a task manager
+with<00:01:09.720><c> control</c><00:01:10.119><c> shift</c><00:01:10.479><c> escape</c><00:01:11.159><c> this</c><00:01:11.360><c> graph</c><00:01:11.920><c> is</c>
+
+00:01:12.030 --> 00:01:12.040 align:start position:0%
+with control shift escape this graph is
+ 
+
+00:01:12.040 --> 00:01:14.789 align:start position:0%
+with control shift escape this graph is
+your<00:01:12.360><c> vram</c><00:01:13.360><c> if</c><00:01:13.479><c> it</c><00:01:13.640><c> gets</c><00:01:13.840><c> to</c><00:01:14.000><c> the</c><00:01:14.159><c> top</c><00:01:14.479><c> and</c><00:01:14.600><c> you</c>
+
+00:01:14.789 --> 00:01:14.799 align:start position:0%
+your vram if it gets to the top and you
+ 
+
+00:01:14.799 --> 00:01:17.990 align:start position:0%
+your vram if it gets to the top and you
+crash<00:01:15.720><c> that's</c><00:01:16.080><c> the</c><00:01:16.320><c> problem</c><00:01:17.080><c> if</c><00:01:17.240><c> not</c><00:01:17.640><c> check</c>
+
+00:01:17.990 --> 00:01:18.000 align:start position:0%
+crash that's the problem if not check
+ 
+
+00:01:18.000 --> 00:01:19.910 align:start position:0%
+crash that's the problem if not check
+this<00:01:18.119><c> one</c><00:01:18.479><c> that's</c><00:01:18.680><c> the</c><00:01:18.840><c> ram</c><00:01:19.400><c> by</c><00:01:19.520><c> the</c><00:01:19.600><c> way</c><00:01:19.759><c> on</c>
+
+00:01:19.910 --> 00:01:19.920 align:start position:0%
+this one that's the ram by the way on
+ 
+
+00:01:19.920 --> 00:01:22.390 align:start position:0%
+this one that's the ram by the way on
+Windows<00:01:20.400><c> press</c><00:01:20.640><c> Windows</c><00:01:21.079><c> control</c><00:01:21.520><c> shift</c><00:01:21.840><c> B</c>
+
+00:01:22.390 --> 00:01:22.400 align:start position:0%
+Windows press Windows control shift B
+ 
+
+00:01:22.400 --> 00:01:25.030 align:start position:0%
+Windows press Windows control shift B
+that<00:01:22.600><c> restarts</c><00:01:23.200><c> the</c><00:01:23.360><c> GPU</c><00:01:24.079><c> and</c><00:01:24.280><c> often</c><00:01:24.520><c> frees</c><00:01:24.880><c> up</c>
+
+00:01:25.030 --> 00:01:25.040 align:start position:0%
+that restarts the GPU and often frees up
+ 
+
+00:01:25.040 --> 00:01:27.830 align:start position:0%
+that restarts the GPU and often frees up
+some<00:01:25.240><c> memory</c><00:01:26.000><c> large</c><00:01:26.479><c> image</c><00:01:26.840><c> textures</c><00:01:27.400><c> eat</c>
+
+00:01:27.830 --> 00:01:27.840 align:start position:0%
+some memory large image textures eat
+ 
+
+00:01:27.840 --> 00:01:32.670 align:start position:0%
+some memory large image textures eat
+vram<00:01:28.680><c> 4K</c><00:01:29.320><c> 88k</c><00:01:30.040><c> 16bit</c><00:01:30.799><c> and</c><00:01:31.399><c> 32bit</c><00:01:32.399><c> in</c><00:01:32.520><c> the</c>
+
+00:01:32.670 --> 00:01:32.680 align:start position:0%
+vram 4K 88k 16bit and 32bit in the
+ 
+
+00:01:32.680 --> 00:01:35.550 align:start position:0%
+vram 4K 88k 16bit and 32bit in the
+outliner<00:01:33.520><c> the</c><00:01:33.640><c> data</c><00:01:33.960><c> API</c><00:01:34.479><c> view</c><00:01:34.799><c> shows</c><00:01:35.320><c> every</c>
+
+00:01:35.550 --> 00:01:35.560 align:start position:0%
+outliner the data API view shows every
+ 
+
+00:01:35.560 --> 00:01:37.389 align:start position:0%
+outliner the data API view shows every
+image<00:01:35.840><c> in</c><00:01:36.000><c> the</c><00:01:36.119><c> scene</c><00:01:36.600><c> and</c><00:01:36.880><c> where</c><00:01:37.079><c> it</c><00:01:37.200><c> is</c>
+
+00:01:37.389 --> 00:01:37.399 align:start position:0%
+image in the scene and where it is
+ 
+
+00:01:37.399 --> 00:01:39.870 align:start position:0%
+image in the scene and where it is
+stored<00:01:38.280><c> open</c><00:01:38.520><c> them</c><00:01:38.680><c> up</c><00:01:38.840><c> in</c><00:01:38.960><c> an</c><00:01:39.119><c> image</c><00:01:39.399><c> editor</c>
+
+00:01:39.870 --> 00:01:39.880 align:start position:0%
+stored open them up in an image editor
+ 
+
+00:01:39.880 --> 00:01:42.950 align:start position:0%
+stored open them up in an image editor
+like<00:01:40.200><c> Photoshop</c><00:01:41.200><c> resize</c><00:01:41.799><c> them</c><00:01:42.280><c> and</c><00:01:42.439><c> turn</c><00:01:42.720><c> down</c>
+
+00:01:42.950 --> 00:01:42.960 align:start position:0%
+like Photoshop resize them and turn down
+ 
+
+00:01:42.960 --> 00:01:45.749 align:start position:0%
+like Photoshop resize them and turn down
+the<00:01:43.119><c> bit</c><00:01:43.360><c> depth</c><00:01:44.200><c> I</c><00:01:44.320><c> use</c><00:01:44.560><c> an</c><00:01:44.759><c> add-on</c><00:01:45.159><c> for</c><00:01:45.399><c> this</c>
+
+00:01:45.749 --> 00:01:45.759 align:start position:0%
+the bit depth I use an add-on for this
+ 
+
+00:01:45.759 --> 00:01:48.550 align:start position:0%
+the bit depth I use an add-on for this
+it's<00:01:46.000><c> called</c><00:01:46.320><c> to</c><00:01:46.560><c> optimize</c><00:01:47.159><c> tools</c><00:01:47.960><c> it</c><00:01:48.040><c> shows</c>
+
+00:01:48.550 --> 00:01:48.560 align:start position:0%
+it's called to optimize tools it shows
+ 
+
+00:01:48.560 --> 00:01:50.709 align:start position:0%
+it's called to optimize tools it shows
+every<00:01:48.799><c> image</c><00:01:49.119><c> in</c><00:01:49.240><c> the</c><00:01:49.360><c> scene</c><00:01:49.719><c> sorted</c><00:01:50.159><c> by</c><00:01:50.360><c> file</c>
+
+00:01:50.709 --> 00:01:50.719 align:start position:0%
+every image in the scene sorted by file
+ 
+
+00:01:50.719 --> 00:01:53.469 align:start position:0%
+every image in the scene sorted by file
+size<00:01:51.240><c> and</c><00:01:51.399><c> one</c><00:01:51.680><c> click</c><00:01:52.159><c> and</c><00:01:52.280><c> it</c><00:01:52.439><c> deletes</c><00:01:52.920><c> all</c>
+
+00:01:53.469 --> 00:01:53.479 align:start position:0%
+size and one click and it deletes all
+ 
+
+00:01:53.479 --> 00:01:55.670 align:start position:0%
+size and one click and it deletes all
+duplicates<00:01:54.479><c> but</c><00:01:54.640><c> the</c><00:01:54.799><c> most</c><00:01:55.159><c> important</c>
+
+00:01:55.670 --> 00:01:55.680 align:start position:0%
+duplicates but the most important
+ 
+
+00:01:55.680 --> 00:01:59.310 align:start position:0%
+duplicates but the most important
+feature<00:01:56.600><c> is</c><00:01:56.759><c> the</c><00:01:56.920><c> built-in</c><00:01:57.600><c> image</c><00:01:58.320><c> resizer</c>
+
+00:01:59.310 --> 00:01:59.320 align:start position:0%
+feature is the built-in image resizer
+ 
+
+00:01:59.320 --> 00:02:01.469 align:start position:0%
+feature is the built-in image resizer
+select<00:01:59.680><c> the</c><00:01:59.920><c> worst</c><00:02:00.200><c> offenders</c><00:02:00.759><c> in</c><00:02:00.880><c> the</c><00:02:01.079><c> list</c>
+
+00:02:01.469 --> 00:02:01.479 align:start position:0%
+select the worst offenders in the list
+ 
+
+00:02:01.479 --> 00:02:04.469 align:start position:0%
+select the worst offenders in the list
+and<00:02:01.799><c> press</c><00:02:02.240><c> resize</c><00:02:03.240><c> I</c><00:02:03.399><c> pulled</c><00:02:03.840><c> everything</c>
+
+00:02:04.469 --> 00:02:04.479 align:start position:0%
+and press resize I pulled everything
+ 
+
+00:02:04.479 --> 00:02:08.790 align:start position:0%
+and press resize I pulled everything
+down<00:02:04.680><c> to</c><00:02:04.960><c> 1K</c><00:02:05.880><c> which</c><00:02:06.079><c> took</c><00:02:07.119><c> 370</c><00:02:08.119><c> megabytes</c><00:02:08.679><c> out</c>
+
+00:02:08.790 --> 00:02:08.800 align:start position:0%
+down to 1K which took 370 megabytes out
+ 
+
+00:02:08.800 --> 00:02:12.229 align:start position:0%
+down to 1K which took 370 megabytes out
+of<00:02:08.959><c> my</c><00:02:09.160><c> total</c><00:02:09.879><c> 430</c><00:02:10.879><c> with</c><00:02:11.039><c> one</c><00:02:11.280><c> click</c><00:02:11.920><c> the</c><00:02:12.040><c> same</c>
+
+00:02:12.229 --> 00:02:12.239 align:start position:0%
+of my total 430 with one click the same
+ 
+
+00:02:12.239 --> 00:02:14.270 align:start position:0%
+of my total 430 with one click the same
+add-on<00:02:12.599><c> analyzes</c><00:02:13.160><c> every</c><00:02:13.440><c> material</c><00:02:13.959><c> to</c><00:02:14.080><c> see</c>
+
+00:02:14.270 --> 00:02:14.280 align:start position:0%
+add-on analyzes every material to see
+ 
+
+00:02:14.280 --> 00:02:16.110 align:start position:0%
+add-on analyzes every material to see
+its<00:02:14.519><c> impact</c><00:02:15.239><c> when</c><00:02:15.400><c> you</c><00:02:15.519><c> have</c><00:02:15.680><c> a</c><00:02:15.879><c> heavy</c>
+
+00:02:16.110 --> 00:02:16.120 align:start position:0%
+its impact when you have a heavy
+ 
+
+00:02:16.120 --> 00:02:18.670 align:start position:0%
+its impact when you have a heavy
+material<00:02:16.680><c> it's</c><00:02:16.959><c> usually</c><00:02:17.519><c> because</c><00:02:18.040><c> of</c><00:02:18.440><c> high</c>
+
+00:02:18.670 --> 00:02:18.680 align:start position:0%
+material it's usually because of high
+ 
+
+00:02:18.680 --> 00:02:20.869 align:start position:0%
+material it's usually because of high
+detailed<00:02:19.239><c> noises</c><00:02:19.800><c> bevels</c><00:02:20.319><c> and</c><00:02:20.519><c> ambient</c>
+
+00:02:20.869 --> 00:02:20.879 align:start position:0%
+detailed noises bevels and ambient
+ 
+
+00:02:20.879 --> 00:02:22.869 align:start position:0%
+detailed noises bevels and ambient
+occlusion<00:02:21.720><c> this</c><00:02:21.840><c> was</c><00:02:22.040><c> fun</c><00:02:22.280><c> I</c><00:02:22.360><c> did</c><00:02:22.519><c> something</c>
+
+00:02:22.869 --> 00:02:22.879 align:start position:0%
+occlusion this was fun I did something
+ 
+
+00:02:22.879 --> 00:02:25.390 align:start position:0%
+occlusion this was fun I did something
+I've<00:02:23.200><c> never</c><00:02:23.560><c> had</c><00:02:23.879><c> to</c><00:02:24.000><c> do</c><00:02:24.200><c> before</c><00:02:24.800><c> and</c><00:02:25.040><c> I'm</c><00:02:25.160><c> so</c>
+
+00:02:25.390 --> 00:02:25.400 align:start position:0%
+I've never had to do before and I'm so
+ 
+
+00:02:25.400 --> 00:02:26.990 align:start position:0%
+I've never had to do before and I'm so
+excited<00:02:25.840><c> because</c><00:02:26.120><c> this</c><00:02:26.239><c> is</c><00:02:26.400><c> how</c><00:02:26.560><c> the</c><00:02:26.760><c> big</c>
+
+00:02:26.990 --> 00:02:27.000 align:start position:0%
+excited because this is how the big
+ 
+
+00:02:27.000 --> 00:02:30.589 align:start position:0%
+excited because this is how the big
+studios<00:02:27.640><c> render</c><00:02:28.640><c> separate</c><00:02:29.200><c> view</c><00:02:29.519><c> layer</c>
+
+00:02:30.589 --> 00:02:30.599 align:start position:0%
+studios render separate view layer
+ 
+
+00:02:30.599 --> 00:02:32.309 align:start position:0%
+studios render separate view layer
+think<00:02:30.800><c> of</c><00:02:31.120><c> cutting</c><00:02:31.400><c> up</c><00:02:31.560><c> the</c><00:02:31.720><c> image</c><00:02:32.000><c> into</c>
+
+00:02:32.309 --> 00:02:32.319 align:start position:0%
+think of cutting up the image into
+ 
+
+00:02:32.319 --> 00:02:34.869 align:start position:0%
+think of cutting up the image into
+different<00:02:32.800><c> depths</c><00:02:33.360><c> and</c><00:02:33.560><c> rendering</c><00:02:34.120><c> one</c><00:02:34.400><c> slice</c>
+
+00:02:34.869 --> 00:02:34.879 align:start position:0%
+different depths and rendering one slice
+ 
+
+00:02:34.879 --> 00:02:38.430 align:start position:0%
+different depths and rendering one slice
+at<00:02:35.000><c> a</c><00:02:35.239><c> time</c><00:02:36.239><c> with</c><00:02:36.440><c> this</c><00:02:36.920><c> vram</c><00:02:37.400><c> is</c><00:02:37.560><c> no</c><00:02:37.879><c> longer</c><00:02:38.239><c> a</c>
+
+00:02:38.430 --> 00:02:38.440 align:start position:0%
+at a time with this vram is no longer a
+ 
+
+00:02:38.440 --> 00:02:40.790 align:start position:0%
+at a time with this vram is no longer a
+limit<00:02:39.239><c> a</c><00:02:39.360><c> bit</c><00:02:39.560><c> outside</c><00:02:39.920><c> the</c><00:02:40.080><c> scope</c><00:02:40.400><c> of</c><00:02:40.599><c> this</c>
+
+00:02:40.790 --> 00:02:40.800 align:start position:0%
+limit a bit outside the scope of this
+ 
+
+00:02:40.800 --> 00:02:42.670 align:start position:0%
+limit a bit outside the scope of this
+video<00:02:41.200><c> but</c><00:02:41.400><c> Badger</c><00:02:41.760><c> me</c><00:02:41.920><c> in</c><00:02:42.000><c> the</c><00:02:42.120><c> comments</c><00:02:42.599><c> if</c>
+
+00:02:42.670 --> 00:02:42.680 align:start position:0%
+video but Badger me in the comments if
+ 
+
+00:02:42.680 --> 00:02:44.149 align:start position:0%
+video but Badger me in the comments if
+you<00:02:42.800><c> want</c><00:02:42.959><c> a</c>
+
+00:02:44.149 --> 00:02:44.159 align:start position:0%
+you want a
+ 
+
+00:02:44.159 --> 00:02:47.830 align:start position:0%
+you want a
+video<00:02:45.159><c> optimizing</c><00:02:45.680><c> the</c><00:02:45.800><c> render</c><00:02:46.280><c> starts</c><00:02:47.040><c> here</c>
+
+00:02:47.830 --> 00:02:47.840 align:start position:0%
+video optimizing the render starts here
+ 
+
+00:02:47.840 --> 00:02:51.309 align:start position:0%
+video optimizing the render starts here
+not<00:02:48.239><c> here</c><00:02:49.040><c> the</c><00:02:49.159><c> scene</c><00:02:49.599><c> itself</c><00:02:50.319><c> matters</c>
+
+00:02:51.309 --> 00:02:51.319 align:start position:0%
+not here the scene itself matters
+ 
+
+00:02:51.319 --> 00:02:53.470 align:start position:0%
+not here the scene itself matters
+outside<00:02:51.800><c> scenes</c><00:02:52.159><c> are</c><00:02:52.480><c> quick</c><00:02:52.840><c> and</c><00:02:53.080><c> inside</c>
+
+00:02:53.470 --> 00:02:53.480 align:start position:0%
+outside scenes are quick and inside
+ 
+
+00:02:53.480 --> 00:02:56.470 align:start position:0%
+outside scenes are quick and inside
+scenes<00:02:53.879><c> are</c><00:02:54.080><c> slow</c><00:02:54.800><c> do</c><00:02:54.879><c> you</c><00:02:55.040><c> know</c><00:02:55.319><c> why</c><00:02:56.239><c> do</c><00:02:56.319><c> you</c>
+
+00:02:56.470 --> 00:02:56.480 align:start position:0%
+scenes are slow do you know why do you
+ 
+
+00:02:56.480 --> 00:02:58.910 align:start position:0%
+scenes are slow do you know why do you
+know<00:02:56.760><c> why</c><00:02:57.080><c> light</c><00:02:57.519><c> objects</c><00:02:58.000><c> render</c><00:02:58.519><c> faster</c>
+
+00:02:58.910 --> 00:02:58.920 align:start position:0%
+know why light objects render faster
+ 
+
+00:02:58.920 --> 00:03:01.550 align:start position:0%
+know why light objects render faster
+than<00:02:59.159><c> emissive</c><00:02:59.959><c> materials</c><00:03:00.959><c> it's</c><00:03:01.080><c> all</c><00:03:01.239><c> in</c><00:03:01.440><c> how</c>
+
+00:03:01.550 --> 00:03:01.560 align:start position:0%
+than emissive materials it's all in how
+ 
+
+00:03:01.560 --> 00:03:03.990 align:start position:0%
+than emissive materials it's all in how
+a<00:03:01.760><c> path</c><00:03:02.000><c> Tracer</c><00:03:02.400><c> works</c><00:03:02.840><c> and</c><00:03:03.120><c> I</c><00:03:03.239><c> won't</c><00:03:03.519><c> get</c><00:03:03.680><c> into</c>
+
+00:03:03.990 --> 00:03:04.000 align:start position:0%
+a path Tracer works and I won't get into
+ 
+
+00:03:04.000 --> 00:03:05.670 align:start position:0%
+a path Tracer works and I won't get into
+that<00:03:04.480><c> but</c><00:03:04.599><c> I</c><00:03:04.760><c> promise</c><00:03:05.080><c> if</c><00:03:05.159><c> you</c><00:03:05.280><c> learn</c><00:03:05.480><c> it</c>
+
+00:03:05.670 --> 00:03:05.680 align:start position:0%
+that but I promise if you learn it
+ 
+
+00:03:05.680 --> 00:03:09.350 align:start position:0%
+that but I promise if you learn it
+yourself<00:03:06.280><c> you</c><00:03:06.519><c> won't</c><00:03:06.920><c> need</c><00:03:07.680><c> tips</c><00:03:08.680><c> that</c><00:03:08.879><c> said</c>
+
+00:03:09.350 --> 00:03:09.360 align:start position:0%
+yourself you won't need tips that said
+ 
+
+00:03:09.360 --> 00:03:11.869 align:start position:0%
+yourself you won't need tips that said
+here<00:03:09.480><c> are</c><00:03:09.799><c> five</c><00:03:10.200><c> tips</c><00:03:11.200><c> check</c><00:03:11.440><c> that</c><00:03:11.599><c> all</c><00:03:11.760><c> the</c>
+
+00:03:11.869 --> 00:03:11.879 align:start position:0%
+here are five tips check that all the
+ 
+
+00:03:11.879 --> 00:03:14.390 align:start position:0%
+here are five tips check that all the
+normals<00:03:12.280><c> are</c><00:03:12.440><c> blue</c><00:03:13.000><c> bad</c><00:03:13.239><c> normals</c><00:03:13.720><c> can</c><00:03:13.879><c> ruin</c><00:03:14.239><c> a</c>
+
+00:03:14.390 --> 00:03:14.400 align:start position:0%
+normals are blue bad normals can ruin a
+ 
+
+00:03:14.400 --> 00:03:17.149 align:start position:0%
+normals are blue bad normals can ruin a
+render<00:03:14.879><c> not</c><00:03:15.280><c> this</c><00:03:15.440><c> one</c><00:03:15.920><c> uh</c><00:03:16.120><c> this</c><00:03:16.280><c> one</c><00:03:16.879><c> for</c>
+
+00:03:17.149 --> 00:03:17.159 align:start position:0%
+render not this one uh this one for
+ 
+
+00:03:17.159 --> 00:03:19.350 align:start position:0%
+render not this one uh this one for
+interiors<00:03:17.879><c> try</c><00:03:18.080><c> to</c><00:03:18.239><c> open</c><00:03:18.519><c> up</c><00:03:18.680><c> a</c><00:03:18.840><c> wall</c><00:03:19.239><c> I</c>
+
+00:03:19.350 --> 00:03:19.360 align:start position:0%
+interiors try to open up a wall I
+ 
+
+00:03:19.360 --> 00:03:21.750 align:start position:0%
+interiors try to open up a wall I
+deleted<00:03:19.799><c> the</c><00:03:19.920><c> whole</c><00:03:20.319><c> ceiling</c><00:03:21.319><c> this</c><00:03:21.480><c> is</c><00:03:21.599><c> my</c>
+
+00:03:21.750 --> 00:03:21.760 align:start position:0%
+deleted the whole ceiling this is my
+ 
+
+00:03:21.760 --> 00:03:25.430 align:start position:0%
+deleted the whole ceiling this is my
+render<00:03:22.400><c> and</c><00:03:22.680><c> here</c><00:03:23.159><c> without</c><00:03:23.519><c> fog</c><00:03:24.480><c> it's</c><00:03:25.080><c> just</c>
+
+00:03:25.430 --> 00:03:25.440 align:start position:0%
+render and here without fog it's just
+ 
+
+00:03:25.440 --> 00:03:28.630 align:start position:0%
+render and here without fog it's just
+not<00:03:25.760><c> as</c><00:03:26.040><c> cool</c><00:03:26.959><c> but</c><00:03:27.159><c> fog</c><00:03:27.640><c> takes</c><00:03:27.959><c> a</c><00:03:28.159><c> million</c>
+
+00:03:28.630 --> 00:03:28.640 align:start position:0%
+not as cool but fog takes a million
+ 
+
+00:03:28.640 --> 00:03:30.789 align:start position:0%
+not as cool but fog takes a million
+years<00:03:28.879><c> to</c><00:03:29.040><c> render</c><00:03:29.519><c> so</c>
+
+00:03:30.789 --> 00:03:30.799 align:start position:0%
+years to render so
+ 
+
+00:03:30.799 --> 00:03:32.390 align:start position:0%
+years to render so
+is<00:03:31.000><c> there</c><00:03:31.159><c> a</c><00:03:31.360><c> viable</c>
+
+00:03:32.390 --> 00:03:32.400 align:start position:0%
+is there a viable
+ 
+
+00:03:32.400 --> 00:03:35.470 align:start position:0%
+is there a viable
+alternative<00:03:33.400><c> kind</c><00:03:33.599><c> of</c><00:03:34.560><c> let's</c><00:03:34.799><c> break</c><00:03:34.959><c> it</c><00:03:35.120><c> down</c>
+
+00:03:35.470 --> 00:03:35.480 align:start position:0%
+alternative kind of let's break it down
+ 
+
+00:03:35.480 --> 00:03:38.750 align:start position:0%
+alternative kind of let's break it down
+Cycles<00:03:36.040><c> renders</c><00:03:36.720><c> two</c><00:03:37.080><c> volume</c><00:03:37.480><c> passes</c><00:03:38.200><c> direct</c>
+
+00:03:38.750 --> 00:03:38.760 align:start position:0%
+Cycles renders two volume passes direct
+ 
+
+00:03:38.760 --> 00:03:41.990 align:start position:0%
+Cycles renders two volume passes direct
+and<00:03:39.239><c> indirect</c><00:03:40.239><c> direct</c><00:03:40.760><c> has</c><00:03:41.040><c> the</c><00:03:41.200><c> light</c><00:03:41.480><c> rays</c>
+
+00:03:41.990 --> 00:03:42.000 align:start position:0%
+and indirect direct has the light rays
+ 
+
+00:03:42.000 --> 00:03:44.990 align:start position:0%
+and indirect direct has the light rays
+indirect<00:03:42.720><c> has</c><00:03:43.000><c> the</c><00:03:43.200><c> ambient</c><00:03:43.720><c> Haze</c><00:03:44.480><c> blur</c><00:03:44.879><c> the</c>
+
+00:03:44.990 --> 00:03:45.000 align:start position:0%
+indirect has the ambient Haze blur the
+ 
+
+00:03:45.000 --> 00:03:47.429 align:start position:0%
+indirect has the ambient Haze blur the
+image<00:03:45.319><c> and</c><00:03:45.519><c> mix</c><00:03:45.760><c> in</c><00:03:45.879><c> a</c><00:03:46.040><c> Mist</c><00:03:46.439><c> pass</c><00:03:46.879><c> and</c><00:03:47.040><c> mix</c><00:03:47.280><c> it</c>
+
+00:03:47.429 --> 00:03:47.439 align:start position:0%
+image and mix in a Mist pass and mix it
+ 
+
+00:03:47.439 --> 00:03:50.509 align:start position:0%
+image and mix in a Mist pass and mix it
+over<00:03:47.720><c> itself</c><00:03:48.400><c> that's</c><00:03:48.840><c> not</c><00:03:49.159><c> too</c><00:03:49.480><c> bad</c><00:03:50.120><c> render</c>
+
+00:03:50.509 --> 00:03:50.519 align:start position:0%
+over itself that's not too bad render
+ 
+
+00:03:50.519 --> 00:03:53.750 align:start position:0%
+over itself that's not too bad render
+the<00:03:50.640><c> scene</c><00:03:51.000><c> in</c><00:03:51.280><c> Eevee</c><00:03:52.120><c> and</c><00:03:52.319><c> output</c><00:03:52.840><c> a</c><00:03:53.120><c> volume</c>
+
+00:03:53.750 --> 00:03:53.760 align:start position:0%
+the scene in Eevee and output a volume
+ 
+
+00:03:53.760 --> 00:03:56.630 align:start position:0%
+the scene in Eevee and output a volume
+pass<00:03:54.599><c> so</c><00:03:54.879><c> get</c><00:03:55.079><c> that</c><00:03:55.239><c> into</c><00:03:55.400><c> the</c><00:03:55.560><c> mix</c><00:03:56.040><c> and</c><00:03:56.400><c> we</c>
+
+00:03:56.630 --> 00:03:56.640 align:start position:0%
+pass so get that into the mix and we
+ 
+
+00:03:56.640 --> 00:03:58.710 align:start position:0%
+pass so get that into the mix and we
+have<00:03:56.840><c> something</c>
+
+00:03:58.710 --> 00:03:58.720 align:start position:0%
+have something
+ 
+
+00:03:58.720 --> 00:04:02.180 align:start position:0%
+have something
+workable
+
+00:04:02.180 --> 00:04:02.190 align:start position:0%
+ 
+ 
+
+00:04:02.190 --> 00:04:04.910 align:start position:0%
+ 
+[Music]
+
+00:04:04.910 --> 00:04:04.920 align:start position:0%
+[Music]
+ 
+
+00:04:04.920 --> 00:04:07.149 align:start position:0%
+[Music]
+as<00:04:05.040><c> a</c><00:04:05.159><c> rule</c><00:04:05.519><c> you</c><00:04:05.640><c> can</c><00:04:05.879><c> substitute</c><00:04:06.519><c> quality</c><00:04:06.920><c> for</c>
+
+00:04:07.149 --> 00:04:07.159 align:start position:0%
+as a rule you can substitute quality for
+ 
+
+00:04:07.159 --> 00:04:09.710 align:start position:0%
+as a rule you can substitute quality for
+render<00:04:07.560><c> speed</c><00:04:08.480><c> but</c><00:04:08.599><c> you</c><00:04:08.760><c> can</c><00:04:09.079><c> pull</c><00:04:09.360><c> down</c>
+
+00:04:09.710 --> 00:04:09.720 align:start position:0%
+render speed but you can pull down
+ 
+
+00:04:09.720 --> 00:04:12.990 align:start position:0%
+render speed but you can pull down
+quality<00:04:10.439><c> where</c><00:04:10.720><c> quality</c><00:04:11.319><c> doesn't</c><00:04:12.000><c> matter</c>
+
+00:04:12.990 --> 00:04:13.000 align:start position:0%
+quality where quality doesn't matter
+ 
+
+00:04:13.000 --> 00:04:15.270 align:start position:0%
+quality where quality doesn't matter
+like<00:04:13.159><c> a</c><00:04:13.319><c> background</c><00:04:13.920><c> prop</c><00:04:14.280><c> can</c><00:04:14.439><c> look</c><00:04:14.720><c> terrible</c>
+
+00:04:15.270 --> 00:04:15.280 align:start position:0%
+like a background prop can look terrible
+ 
+
+00:04:15.280 --> 00:04:18.189 align:start position:0%
+like a background prop can look terrible
+but<00:04:15.480><c> it's</c><00:04:15.760><c> fine</c><00:04:16.720><c> noise</c><00:04:17.040><c> threshold</c><00:04:17.600><c> how</c><00:04:17.799><c> clean</c>
+
+00:04:18.189 --> 00:04:18.199 align:start position:0%
+but it's fine noise threshold how clean
+ 
+
+00:04:18.199 --> 00:04:20.670 align:start position:0%
+but it's fine noise threshold how clean
+does<00:04:18.400><c> a</c><00:04:18.560><c> pixel</c><00:04:19.000><c> get</c><00:04:19.280><c> before</c><00:04:19.639><c> it's</c><00:04:19.919><c> considered</c>
+
+00:04:20.670 --> 00:04:20.680 align:start position:0%
+does a pixel get before it's considered
+ 
+
+00:04:20.680 --> 00:04:23.110 align:start position:0%
+does a pixel get before it's considered
+done<00:04:21.320><c> here's</c><00:04:21.560><c> a</c><00:04:21.680><c> cheat</c><00:04:21.959><c> sheet</c><00:04:22.280><c> for</c><00:04:22.479><c> you</c><00:04:23.000><c> what</c>
+
+00:04:23.110 --> 00:04:23.120 align:start position:0%
+done here's a cheat sheet for you what
+ 
+
+00:04:23.120 --> 00:04:25.629 align:start position:0%
+done here's a cheat sheet for you what
+does<00:04:23.360><c> each</c><00:04:23.759><c> threshold</c><00:04:24.280><c> look</c><00:04:24.560><c> like</c><00:04:25.160><c> and</c><00:04:25.400><c> how</c>
+
+00:04:25.629 --> 00:04:25.639 align:start position:0%
+does each threshold look like and how
+ 
+
+00:04:25.639 --> 00:04:28.430 align:start position:0%
+does each threshold look like and how
+slow<00:04:25.960><c> is</c><00:04:26.080><c> it</c><00:04:27.080><c> there</c><00:04:27.240><c> is</c><00:04:27.440><c> an</c><00:04:27.639><c> alternative</c><00:04:28.240><c> to</c>
+
+00:04:28.430 --> 00:04:28.440 align:start position:0%
+slow is it there is an alternative to
+ 
+
+00:04:28.440 --> 00:04:31.230 align:start position:0%
+slow is it there is an alternative to
+noise<00:04:28.759><c> threshold</c><00:04:29.360><c> SC</c><00:04:29.680><c> scrambling</c><00:04:30.280><c> distance</c>
+
+00:04:31.230 --> 00:04:31.240 align:start position:0%
+noise threshold SC scrambling distance
+ 
+
+00:04:31.240 --> 00:04:33.790 align:start position:0%
+noise threshold SC scrambling distance
+set<00:04:31.600><c> scrambling</c><00:04:32.360><c> distance</c><00:04:32.759><c> to</c><00:04:33.000><c> automatic</c><00:04:33.639><c> and</c>
+
+00:04:33.790 --> 00:04:33.800 align:start position:0%
+set scrambling distance to automatic and
+ 
+
+00:04:33.800 --> 00:04:36.350 align:start position:0%
+set scrambling distance to automatic and
+pull<00:04:34.080><c> down</c><00:04:34.320><c> the</c><00:04:34.479><c> slider</c><00:04:35.280><c> there's</c><00:04:35.520><c> a</c><00:04:35.919><c> huge</c>
+
+00:04:36.350 --> 00:04:36.360 align:start position:0%
+pull down the slider there's a huge
+ 
+
+00:04:36.360 --> 00:04:38.990 align:start position:0%
+pull down the slider there's a huge
+change<00:04:36.720><c> in</c><00:04:36.880><c> how</c><00:04:37.160><c> cycle</c><00:04:37.520><c> samples</c><00:04:38.000><c> the</c><00:04:38.160><c> scene</c><00:04:38.840><c> it</c>
+
+00:04:38.990 --> 00:04:39.000 align:start position:0%
+change in how cycle samples the scene it
+ 
+
+00:04:39.000 --> 00:04:41.150 align:start position:0%
+change in how cycle samples the scene it
+reduces<00:04:39.440><c> the</c><00:04:39.560><c> randomness</c><00:04:40.199><c> between</c><00:04:40.639><c> samples</c>
+
+00:04:41.150 --> 00:04:41.160 align:start position:0%
+reduces the randomness between samples
+ 
+
+00:04:41.160 --> 00:04:44.469 align:start position:0%
+reduces the randomness between samples
+to<00:04:41.360><c> improve</c><00:04:41.840><c> performance</c><00:04:43.000><c> drastically</c><00:04:44.000><c> I</c><00:04:44.199><c> do</c>
+
+00:04:44.469 --> 00:04:44.479 align:start position:0%
+to improve performance drastically I do
+ 
+
+00:04:44.479 --> 00:04:46.510 align:start position:0%
+to improve performance drastically I do
+not<00:04:44.759><c> recommend</c><00:04:45.240><c> this</c><00:04:45.360><c> for</c><00:04:45.680><c> animations</c>
+
+00:04:46.510 --> 00:04:46.520 align:start position:0%
+not recommend this for animations
+ 
+
+00:04:46.520 --> 00:04:48.029 align:start position:0%
+not recommend this for animations
+because<00:04:46.720><c> it</c><00:04:46.880><c> often</c><00:04:47.160><c> creates</c><00:04:47.479><c> flickering</c>
+
+00:04:48.029 --> 00:04:48.039 align:start position:0%
+because it often creates flickering
+ 
+
+00:04:48.039 --> 00:04:50.670 align:start position:0%
+because it often creates flickering
+between<00:04:48.400><c> frames</c><00:04:49.160><c> but</c><00:04:49.280><c> for</c><00:04:49.520><c> Stills</c><00:04:50.240><c> this</c><00:04:50.360><c> is</c>
+
+00:04:50.670 --> 00:04:50.680 align:start position:0%
+between frames but for Stills this is
+ 
+
+00:04:50.680 --> 00:04:53.830 align:start position:0%
+between frames but for Stills this is
+great<00:04:51.320><c> turn</c><00:04:51.600><c> down</c><00:04:51.840><c> Ray</c><00:04:52.240><c> bounces</c><00:04:53.240><c> each</c><00:04:53.440><c> step</c>
+
+00:04:53.830 --> 00:04:53.840 align:start position:0%
+great turn down Ray bounces each step
+ 
+
+00:04:53.840 --> 00:04:55.749 align:start position:0%
+great turn down Ray bounces each step
+looks<00:04:54.120><c> a</c><00:04:54.240><c> little</c><00:04:54.560><c> worse</c><00:04:55.160><c> you'll</c><00:04:55.440><c> have</c><00:04:55.560><c> to</c>
+
+00:04:55.749 --> 00:04:55.759 align:start position:0%
+looks a little worse you'll have to
+ 
+
+00:04:55.759 --> 00:04:58.150 align:start position:0%
+looks a little worse you'll have to
+experiment<00:04:56.280><c> with</c><00:04:56.479><c> these</c><00:04:57.440><c> you</c><00:04:57.600><c> know</c><00:04:57.759><c> the</c><00:04:57.880><c> D</c>
+
+00:04:58.150 --> 00:04:58.160 align:start position:0%
+experiment with these you know the D
+ 
+
+00:04:58.160 --> 00:05:01.430 align:start position:0%
+experiment with these you know the D
+noise<00:04:58.639><c> boiling</c><00:04:59.840><c> to</c><00:05:00.039><c> reduce</c><00:05:00.360><c> it</c><00:05:00.520><c> use</c><00:05:00.919><c> temporal</c>
+
+00:05:01.430 --> 00:05:01.440 align:start position:0%
+noise boiling to reduce it use temporal
+ 
+
+00:05:01.440 --> 00:05:03.790 align:start position:0%
+noise boiling to reduce it use temporal
+denoising<00:05:02.160><c> instead</c><00:05:02.720><c> it</c><00:05:02.840><c> looks</c><00:05:03.039><c> at</c><00:05:03.199><c> a</c><00:05:03.440><c> series</c>
+
+00:05:03.790 --> 00:05:03.800 align:start position:0%
+denoising instead it looks at a series
+ 
+
+00:05:03.800 --> 00:05:06.629 align:start position:0%
+denoising instead it looks at a series
+of<00:05:04.000><c> images</c><00:05:04.680><c> and</c><00:05:04.840><c> makes</c><00:05:05.120><c> transition</c><00:05:05.759><c> smoother</c>
+
+00:05:06.629 --> 00:05:06.639 align:start position:0%
+of images and makes transition smoother
+ 
+
+00:05:06.639 --> 00:05:08.830 align:start position:0%
+of images and makes transition smoother
+Ai<00:05:07.000><c> upscaling</c><00:05:07.600><c> and</c><00:05:07.880><c> interpolation</c><00:05:08.639><c> if</c><00:05:08.759><c> you</c>
+
+00:05:08.830 --> 00:05:08.840 align:start position:0%
+Ai upscaling and interpolation if you
+ 
+
+00:05:08.840 --> 00:05:11.150 align:start position:0%
+Ai upscaling and interpolation if you
+can<00:05:09.039><c> cut</c><00:05:09.320><c> the</c><00:05:09.520><c> resolution</c><00:05:10.160><c> in</c><00:05:10.479><c> half</c><00:05:10.960><c> you</c>
+
+00:05:11.150 --> 00:05:11.160 align:start position:0%
+can cut the resolution in half you
+ 
+
+00:05:11.160 --> 00:05:14.469 align:start position:0%
+can cut the resolution in half you
+reduce<00:05:11.639><c> render</c><00:05:12.039><c> Time</c><00:05:12.560><c> by</c><00:05:12.720><c> a</c><00:05:12.960><c> factor</c><00:05:13.280><c> of</c><00:05:13.479><c> four</c>
+
+00:05:14.469 --> 00:05:14.479 align:start position:0%
+reduce render Time by a factor of four
+ 
+
+00:05:14.479 --> 00:05:17.430 align:start position:0%
+reduce render Time by a factor of four
+and<00:05:14.600><c> if</c><00:05:14.720><c> you</c><00:05:14.840><c> render</c><00:05:15.240><c> only</c><00:05:15.800><c> every</c><00:05:16.160><c> other</c><00:05:16.600><c> image</c>
+
+00:05:17.430 --> 00:05:17.440 align:start position:0%
+and if you render only every other image
+ 
+
+00:05:17.440 --> 00:05:20.110 align:start position:0%
+and if you render only every other image
+you<00:05:17.720><c> have</c><00:05:17.919><c> it</c><00:05:18.479><c> persistent</c><00:05:19.120><c> data</c><00:05:19.520><c> keeps</c><00:05:19.880><c> some</c>
+
+00:05:20.110 --> 00:05:20.120 align:start position:0%
+you have it persistent data keeps some
+ 
+
+00:05:20.120 --> 00:05:22.790 align:start position:0%
+you have it persistent data keeps some
+files<00:05:20.479><c> in</c><00:05:20.680><c> Ram</c><00:05:21.080><c> from</c><00:05:21.280><c> frame</c><00:05:21.600><c> to</c><00:05:21.800><c> frame</c><00:05:22.400><c> I</c><00:05:22.520><c> keep</c>
+
+00:05:22.790 --> 00:05:22.800 align:start position:0%
+files in Ram from frame to frame I keep
+ 
+
+00:05:22.800 --> 00:05:25.309 align:start position:0%
+files in Ram from frame to frame I keep
+this<00:05:22.960><c> on</c><00:05:23.520><c> and</c><00:05:23.800><c> turn</c><00:05:24.000><c> it</c><00:05:24.160><c> off</c><00:05:24.360><c> if</c><00:05:24.479><c> I</c><00:05:24.639><c> get</c><00:05:24.840><c> bugs</c><00:05:25.120><c> or</c>
+
+00:05:25.309 --> 00:05:25.319 align:start position:0%
+this on and turn it off if I get bugs or
+ 
+
+00:05:25.319 --> 00:05:28.270 align:start position:0%
+this on and turn it off if I get bugs or
+need<00:05:25.479><c> to</c><00:05:25.639><c> free</c><00:05:25.919><c> up</c><00:05:26.160><c> ram</c><00:05:26.919><c> my</c><00:05:27.160><c> math</c><00:05:27.600><c> sucks</c><00:05:28.120><c> but</c>
+
+00:05:28.270 --> 00:05:28.280 align:start position:0%
+need to free up ram my math sucks but
+ 
+
+00:05:28.280 --> 00:05:30.710 align:start position:0%
+need to free up ram my math sucks but
+here's<00:05:28.520><c> my</c><00:05:28.720><c> thinking</c><00:05:29.400><c> say</c><00:05:29.759><c> say</c><00:05:29.919><c> one</c><00:05:30.199><c> frame</c>
+
+00:05:30.710 --> 00:05:30.720 align:start position:0%
+here's my thinking say say one frame
+ 
+
+00:05:30.720 --> 00:05:33.629 align:start position:0%
+here's my thinking say say one frame
+renders<00:05:31.240><c> in</c><00:05:31.479><c> 10</c><00:05:31.800><c> minutes</c><00:05:32.680><c> with</c><00:05:32.880><c> some</c><00:05:33.160><c> work</c><00:05:33.479><c> you</c>
+
+00:05:33.629 --> 00:05:33.639 align:start position:0%
+renders in 10 minutes with some work you
+ 
+
+00:05:33.639 --> 00:05:37.309 align:start position:0%
+renders in 10 minutes with some work you
+could<00:05:34.000><c> cut</c><00:05:34.560><c> half</c><00:05:34.720><c> a</c><00:05:35.039><c> minute</c><00:05:36.039><c> how</c><00:05:36.240><c> much</c><00:05:36.600><c> time</c>
+
+00:05:37.309 --> 00:05:37.319 align:start position:0%
+could cut half a minute how much time
+ 
+
+00:05:37.319 --> 00:05:41.070 align:start position:0%
+could cut half a minute how much time
+should<00:05:37.560><c> you</c><00:05:37.840><c> spend</c><00:05:38.199><c> on</c><00:05:38.479><c> that</c><00:05:39.360><c> with</c><00:05:39.919><c> 200</c><00:05:40.319><c> frames</c>
+
+00:05:41.070 --> 00:05:41.080 align:start position:0%
+should you spend on that with 200 frames
+ 
+
+00:05:41.080 --> 00:05:45.430 align:start position:0%
+should you spend on that with 200 frames
+you'll<00:05:41.400><c> save</c><00:05:41.919><c> about</c><00:05:42.600><c> 100</c><00:05:43.240><c> minutes</c><00:05:44.240><c> it</c><00:05:44.600><c> pays</c><00:05:45.240><c> to</c>
+
+00:05:45.430 --> 00:05:45.440 align:start position:0%
+you'll save about 100 minutes it pays to
+ 
+
+00:05:45.440 --> 00:05:48.110 align:start position:0%
+you'll save about 100 minutes it pays to
+spend<00:05:45.880><c> some</c><00:05:46.240><c> time</c><00:05:46.960><c> and</c><00:05:47.039><c> I</c><00:05:47.160><c> say</c><00:05:47.360><c> all</c><00:05:47.560><c> that</c><00:05:47.840><c> to</c>
+
+00:05:48.110 --> 00:05:48.120 align:start position:0%
+spend some time and I say all that to
+ 
+
+00:05:48.120 --> 00:05:50.870 align:start position:0%
+spend some time and I say all that to
+justify<00:05:48.759><c> the</c><00:05:49.120><c> insane</c><00:05:49.800><c> thing</c><00:05:50.199><c> that</c><00:05:50.360><c> I'm</c><00:05:50.600><c> about</c>
+
+00:05:50.870 --> 00:05:50.880 align:start position:0%
+justify the insane thing that I'm about
+ 
+
+00:05:50.880 --> 00:05:53.510 align:start position:0%
+justify the insane thing that I'm about
+to<00:05:51.080><c> do</c><00:05:51.680><c> who</c><00:05:51.919><c> thinks</c><00:05:52.240><c> about</c><00:05:52.560><c> loading</c><00:05:53.080><c> time</c>
+
+00:05:53.510 --> 00:05:53.520 align:start position:0%
+to do who thinks about loading time
+ 
+
+00:05:53.520 --> 00:05:56.110 align:start position:0%
+to do who thinks about loading time
+right<00:05:54.240><c> here</c><00:05:54.440><c> are</c><00:05:54.880><c> all</c><00:05:55.080><c> the</c><00:05:55.240><c> loading</c><00:05:55.639><c> messages</c>
+
+00:05:56.110 --> 00:05:56.120 align:start position:0%
+right here are all the loading messages
+ 
+
+00:05:56.120 --> 00:05:58.469 align:start position:0%
+right here are all the loading messages
+from<00:05:56.319><c> my</c><00:05:56.520><c> last</c><00:05:56.759><c> render</c><00:05:57.400><c> and</c><00:05:57.600><c> here</c><00:05:57.759><c> they</c><00:05:57.919><c> are</c><00:05:58.160><c> in</c>
+
+00:05:58.469 --> 00:05:58.479 align:start position:0%
+from my last render and here they are in
+ 
+
+00:05:58.479 --> 00:06:01.189 align:start position:0%
+from my last render and here they are in
+Excel<00:05:59.479><c> this</c><00:05:59.680><c> this</c><00:05:59.840><c> column</c><00:06:00.199><c> shows</c><00:06:00.639><c> the</c><00:06:00.880><c> time</c>
+
+00:06:01.189 --> 00:06:01.199 align:start position:0%
+Excel this this column shows the time
+ 
+
+00:06:01.199 --> 00:06:03.430 align:start position:0%
+Excel this this column shows the time
+each<00:06:01.520><c> thing</c><00:06:01.840><c> started</c><00:06:02.639><c> I'm</c><00:06:02.759><c> writing</c><00:06:03.000><c> a</c><00:06:03.199><c> very</c>
+
+00:06:03.430 --> 00:06:03.440 align:start position:0%
+each thing started I'm writing a very
+ 
+
+00:06:03.440 --> 00:06:06.749 align:start position:0%
+each thing started I'm writing a very
+simple<00:06:03.800><c> formula</c><00:06:04.280><c> here</c><00:06:04.800><c> the</c><00:06:05.000><c> next</c><00:06:05.400><c> items</c><00:06:06.080><c> time</c>
+
+00:06:06.749 --> 00:06:06.759 align:start position:0%
+simple formula here the next items time
+ 
+
+00:06:06.759 --> 00:06:09.749 align:start position:0%
+simple formula here the next items time
+minus<00:06:07.400><c> the</c><00:06:07.720><c> current</c><00:06:08.199><c> items</c><00:06:08.840><c> time</c><00:06:09.400><c> that</c><00:06:09.520><c> makes</c>
+
+00:06:09.749 --> 00:06:09.759 align:start position:0%
+minus the current items time that makes
+ 
+
+00:06:09.759 --> 00:06:13.430 align:start position:0%
+minus the current items time that makes
+for<00:06:10.080><c> the</c><00:06:10.280><c> duration</c><00:06:11.120><c> of</c><00:06:11.560><c> this</c><00:06:11.960><c> item</c><00:06:12.919><c> let's</c><00:06:13.199><c> now</c>
+
+00:06:13.430 --> 00:06:13.440 align:start position:0%
+for the duration of this item let's now
+ 
+
+00:06:13.440 --> 00:06:16.589 align:start position:0%
+for the duration of this item let's now
+sort<00:06:14.080><c> by</c><00:06:14.360><c> duration</c><00:06:15.319><c> at</c><00:06:15.479><c> the</c><00:06:15.680><c> top</c><00:06:15.919><c> now</c><00:06:16.120><c> I</c><00:06:16.240><c> see</c>
+
+00:06:16.589 --> 00:06:16.599 align:start position:0%
+sort by duration at the top now I see
+ 
+
+00:06:16.599 --> 00:06:19.110 align:start position:0%
+sort by duration at the top now I see
+things<00:06:17.080><c> that</c><00:06:17.280><c> took</c><00:06:17.720><c> the</c><00:06:17.919><c> longest</c><00:06:18.840><c> then</c><00:06:18.960><c> I'll</c>
+
+00:06:19.110 --> 00:06:19.120 align:start position:0%
+things that took the longest then I'll
+ 
+
+00:06:19.120 --> 00:06:20.830 align:start position:0%
+things that took the longest then I'll
+have<00:06:19.240><c> to</c><00:06:19.360><c> make</c><00:06:19.479><c> a</c><00:06:19.599><c> judgment</c><00:06:20.000><c> about</c><00:06:20.440><c> why</c><00:06:20.680><c> they</c>
+
+00:06:20.830 --> 00:06:20.840 align:start position:0%
+have to make a judgment about why they
+ 
+
+00:06:20.840 --> 00:06:23.469 align:start position:0%
+have to make a judgment about why they
+took<00:06:21.080><c> so</c><00:06:21.280><c> long</c><00:06:21.880><c> maybe</c><00:06:22.160><c> the</c><00:06:22.319><c> files</c><00:06:22.720><c> are</c><00:06:23.039><c> heavily</c>
+
+00:06:23.469 --> 00:06:23.479 align:start position:0%
+took so long maybe the files are heavily
+ 
+
+00:06:23.479 --> 00:06:25.589 align:start position:0%
+took so long maybe the files are heavily
+compressed<00:06:24.240><c> or</c><00:06:24.400><c> they're</c><00:06:24.599><c> on</c><00:06:24.720><c> a</c><00:06:24.880><c> slow</c><00:06:25.280><c> hard</c>
+
+00:06:25.589 --> 00:06:25.599 align:start position:0%
+compressed or they're on a slow hard
+ 
+
+00:06:25.599 --> 00:06:28.350 align:start position:0%
+compressed or they're on a slow hard
+drive<00:06:26.039><c> or</c><00:06:26.240><c> they're</c><00:06:26.560><c> insanely</c><00:06:27.199><c> big</c><00:06:27.919><c> how</c><00:06:28.039><c> did</c><00:06:28.199><c> I</c>
+
+00:06:28.350 --> 00:06:28.360 align:start position:0%
+drive or they're insanely big how did I
+ 
+
+00:06:28.360 --> 00:06:30.550 align:start position:0%
+drive or they're insanely big how did I
+get<00:06:28.560><c> this</c><00:06:28.720><c> render</c><00:06:29.080><c> log</c><00:06:29.599><c> well</c><00:06:29.800><c> it</c><00:06:29.919><c> comes</c><00:06:30.360><c> with</c>
+
+00:06:30.550 --> 00:06:30.560 align:start position:0%
+get this render log well it comes with
+ 
+
+00:06:30.560 --> 00:06:33.309 align:start position:0%
+get this render log well it comes with
+my<00:06:30.720><c> render</c><00:06:31.080><c> manager</c><00:06:31.599><c> flamco</c><00:06:32.560><c> flamco</c><00:06:33.120><c> is</c><00:06:33.199><c> a</c>
+
+00:06:33.309 --> 00:06:33.319 align:start position:0%
+my render manager flamco flamco is a
+ 
+
+00:06:33.319 --> 00:06:36.309 align:start position:0%
+my render manager flamco flamco is a
+free<00:06:33.639><c> program</c><00:06:34.039><c> by</c><00:06:34.199><c> blender</c><00:06:34.720><c> for</c><00:06:35.199><c> Studios</c><00:06:36.120><c> I</c>
+
+00:06:36.309 --> 00:06:36.319 align:start position:0%
+free program by blender for Studios I
+ 
+
+00:06:36.319 --> 00:06:38.670 align:start position:0%
+free program by blender for Studios I
+use<00:06:36.520><c> it</c><00:06:36.720><c> for</c><00:06:37.000><c> myself</c><00:06:37.759><c> here's</c><00:06:37.919><c> how</c><00:06:38.080><c> it</c><00:06:38.199><c> works</c>
+
+00:06:38.670 --> 00:06:38.680 align:start position:0%
+use it for myself here's how it works
+ 
+
+00:06:38.680 --> 00:06:40.830 align:start position:0%
+use it for myself here's how it works
+when<00:06:38.840><c> I'm</c><00:06:39.000><c> ready</c><00:06:39.160><c> to</c><00:06:39.319><c> render</c><00:06:39.759><c> I</c><00:06:39.960><c> press</c><00:06:40.400><c> submit</c>
+
+00:06:40.830 --> 00:06:40.840 align:start position:0%
+when I'm ready to render I press submit
+ 
+
+00:06:40.840 --> 00:06:43.510 align:start position:0%
+when I'm ready to render I press submit
+to<00:06:41.120><c> flamco</c><00:06:41.840><c> and</c><00:06:41.919><c> it</c><00:06:42.039><c> shows</c><00:06:42.360><c> up</c><00:06:42.599><c> in</c><00:06:42.720><c> the</c><00:06:42.880><c> flamco</c>
+
+00:06:43.510 --> 00:06:43.520 align:start position:0%
+to flamco and it shows up in the flamco
+ 
+
+00:06:43.520 --> 00:06:45.830 align:start position:0%
+to flamco and it shows up in the flamco
+queue<00:06:44.039><c> I</c><00:06:44.160><c> keep</c><00:06:44.360><c> working</c><00:06:44.680><c> on</c><00:06:44.880><c> other</c><00:06:45.160><c> things</c><00:06:45.639><c> add</c>
+
+00:06:45.830 --> 00:06:45.840 align:start position:0%
+queue I keep working on other things add
+ 
+
+00:06:45.840 --> 00:06:47.830 align:start position:0%
+queue I keep working on other things add
+more<00:06:46.039><c> renders</c><00:06:46.479><c> to</c><00:06:46.639><c> the</c><00:06:46.800><c> queue</c><00:06:47.400><c> and</c><00:06:47.520><c> when</c><00:06:47.680><c> I'm</c>
+
+00:06:47.830 --> 00:06:47.840 align:start position:0%
+more renders to the queue and when I'm
+ 
+
+00:06:47.840 --> 00:06:49.990 align:start position:0%
+more renders to the queue and when I'm
+done<00:06:48.000><c> for</c><00:06:48.199><c> the</c><00:06:48.360><c> day</c><00:06:48.680><c> I</c><00:06:48.840><c> start</c><00:06:49.160><c> the</c><00:06:49.280><c> flamco</c>
+
+00:06:49.990 --> 00:06:50.000 align:start position:0%
+done for the day I start the flamco
+ 
+
+00:06:50.000 --> 00:06:52.510 align:start position:0%
+done for the day I start the flamco
+worker<00:06:50.479><c> app</c><00:06:51.080><c> it</c><00:06:51.319><c> picks</c><00:06:51.560><c> up</c><00:06:51.759><c> the</c><00:06:51.960><c> first</c><00:06:52.199><c> render</c>
+
+00:06:52.510 --> 00:06:52.520 align:start position:0%
+worker app it picks up the first render
+ 
+
+00:06:52.520 --> 00:06:54.390 align:start position:0%
+worker app it picks up the first render
+on<00:06:52.680><c> the</c><00:06:52.800><c> list</c><00:06:53.120><c> and</c><00:06:53.240><c> starts</c><00:06:53.639><c> rendering</c><00:06:54.199><c> and</c><00:06:54.319><c> it</c>
+
+00:06:54.390 --> 00:06:54.400 align:start position:0%
+on the list and starts rendering and it
+ 
+
+00:06:54.400 --> 00:06:56.909 align:start position:0%
+on the list and starts rendering and it
+renders<00:06:54.800><c> from</c><00:06:55.039><c> this</c><00:06:55.280><c> text</c><00:06:55.639><c> window</c><00:06:56.160><c> so</c><00:06:56.319><c> it</c><00:06:56.440><c> uses</c>
+
+00:06:56.909 --> 00:06:56.919 align:start position:0%
+renders from this text window so it uses
+ 
+
+00:06:56.919 --> 00:06:58.990 align:start position:0%
+renders from this text window so it uses
+less<00:06:57.199><c> memory</c><00:06:57.599><c> than</c><00:06:57.759><c> rendering</c><00:06:58.319><c> from</c><00:06:58.520><c> blender</c>
+
+00:06:58.990 --> 00:06:59.000 align:start position:0%
+less memory than rendering from blender
+ 
+
+00:06:59.000 --> 00:07:01.189 align:start position:0%
+less memory than rendering from blender
+wood<00:06:59.240><c> when</c><00:06:59.360><c> it's</c><00:06:59.800><c> done</c><00:07:00.199><c> it</c><00:07:00.360><c> moves</c><00:07:00.639><c> on</c><00:07:00.840><c> to</c><00:07:01.039><c> the</c>
+
+00:07:01.189 --> 00:07:01.199 align:start position:0%
+wood when it's done it moves on to the
+ 
+
+00:07:01.199 --> 00:07:03.350 align:start position:0%
+wood when it's done it moves on to the
+next<00:07:01.479><c> render</c><00:07:02.039><c> I</c><00:07:02.160><c> wake</c><00:07:02.360><c> up</c><00:07:02.520><c> the</c><00:07:02.639><c> next</c><00:07:02.919><c> day</c><00:07:03.160><c> and</c>
+
+00:07:03.350 --> 00:07:03.360 align:start position:0%
+next render I wake up the next day and
+ 
+
+00:07:03.360 --> 00:07:05.629 align:start position:0%
+next render I wake up the next day and
+everything's<00:07:03.759><c> rendered</c><00:07:04.520><c> it</c><00:07:04.720><c> also</c><00:07:05.120><c> gave</c><00:07:05.360><c> me</c>
+
+00:07:05.629 --> 00:07:05.639 align:start position:0%
+everything's rendered it also gave me
+ 
+
+00:07:05.639 --> 00:07:08.029 align:start position:0%
+everything's rendered it also gave me
+the<00:07:05.840><c> text</c><00:07:06.160><c> file</c><00:07:06.400><c> for</c><00:07:06.599><c> loading</c><00:07:07.039><c> times</c><00:07:07.720><c> which</c><00:07:07.879><c> I</c>
+
+00:07:08.029 --> 00:07:08.039 align:start position:0%
+the text file for loading times which I
+ 
+
+00:07:08.039 --> 00:07:10.110 align:start position:0%
+the text file for loading times which I
+converted<00:07:08.479><c> to</c><00:07:08.639><c> a</c><00:07:08.800><c> spreadsheet</c><00:07:09.400><c> with</c><00:07:09.520><c> a</c><00:07:09.720><c> python</c>
+
+00:07:10.110 --> 00:07:10.120 align:start position:0%
+converted to a spreadsheet with a python
+ 
+
+00:07:10.120 --> 00:07:11.710 align:start position:0%
+converted to a spreadsheet with a python
+script<00:07:10.479><c> I</c><00:07:10.599><c> wrote</c><00:07:10.879><c> you</c><00:07:11.000><c> can</c><00:07:11.120><c> have</c><00:07:11.240><c> it</c><00:07:11.440><c> it's</c><00:07:11.599><c> on</c>
+
+00:07:11.710 --> 00:07:11.720 align:start position:0%
+script I wrote you can have it it's on
+ 
+
+00:07:11.720 --> 00:07:13.909 align:start position:0%
+script I wrote you can have it it's on
+my<00:07:11.879><c> gumroad</c>
+
+00:07:13.909 --> 00:07:13.919 align:start position:0%
+my gumroad
+ 
+
+00:07:13.919 --> 00:07:16.790 align:start position:0%
+my gumroad
+free<00:07:14.919><c> how</c><00:07:15.080><c> do</c><00:07:15.240><c> we</c><00:07:15.360><c> look</c><00:07:15.599><c> at</c><00:07:15.720><c> a</c><00:07:15.840><c> render</c><00:07:16.240><c> to</c><00:07:16.440><c> find</c>
+
+00:07:16.790 --> 00:07:16.800 align:start position:0%
+free how do we look at a render to find
+ 
+
+00:07:16.800 --> 00:07:18.990 align:start position:0%
+free how do we look at a render to find
+the<00:07:16.960><c> sources</c><00:07:17.400><c> of</c><00:07:17.639><c> noise</c><00:07:18.400><c> I've</c><00:07:18.520><c> got</c><00:07:18.759><c> every</c>
+
+00:07:18.990 --> 00:07:19.000 align:start position:0%
+the sources of noise I've got every
+ 
+
+00:07:19.000 --> 00:07:21.430 align:start position:0%
+the sources of noise I've got every
+render<00:07:19.400><c> path</c><00:07:19.680><c> enabled</c><00:07:20.680><c> excess</c><00:07:21.080><c> noise</c>
+
+00:07:21.430 --> 00:07:21.440 align:start position:0%
+render path enabled excess noise
+ 
+
+00:07:21.440 --> 00:07:23.350 align:start position:0%
+render path enabled excess noise
+especially<00:07:21.840><c> fireflies</c><00:07:22.520><c> usually</c><00:07:22.840><c> come</c><00:07:23.120><c> from</c>
+
+00:07:23.350 --> 00:07:23.360 align:start position:0%
+especially fireflies usually come from
+ 
+
+00:07:23.360 --> 00:07:26.350 align:start position:0%
+especially fireflies usually come from
+just<00:07:23.800><c> one</c><00:07:24.319><c> bad</c><00:07:24.599><c> material</c><00:07:25.080><c> or</c><00:07:25.319><c> light</c><00:07:25.960><c> to</c><00:07:26.120><c> figure</c>
+
+00:07:26.350 --> 00:07:26.360 align:start position:0%
+just one bad material or light to figure
+ 
+
+00:07:26.360 --> 00:07:28.990 align:start position:0%
+just one bad material or light to figure
+out<00:07:26.639><c> which</c><00:07:26.960><c> I</c><00:07:27.160><c> Circle</c><00:07:27.680><c> the</c><00:07:27.800><c> noisy</c><00:07:28.280><c> areas</c><00:07:28.720><c> using</c>
+
+00:07:28.990 --> 00:07:29.000 align:start position:0%
+out which I Circle the noisy areas using
+ 
+
+00:07:29.000 --> 00:07:31.189 align:start position:0%
+out which I Circle the noisy areas using
+The<00:07:29.160><c> annotation</c><00:07:29.800><c> tool</c><00:07:30.440><c> I</c><00:07:30.560><c> have</c><00:07:30.720><c> made</c><00:07:30.879><c> a</c><00:07:31.000><c> new</c>
+
+00:07:31.189 --> 00:07:31.199 align:start position:0%
+The annotation tool I have made a new
+ 
+
+00:07:31.199 --> 00:07:33.430 align:start position:0%
+The annotation tool I have made a new
+view<00:07:31.520><c> layer</c><00:07:32.080><c> with</c><00:07:32.240><c> a</c><00:07:32.520><c> white</c><00:07:32.840><c> material</c>
+
+00:07:33.430 --> 00:07:33.440 align:start position:0%
+view layer with a white material
+ 
+
+00:07:33.440 --> 00:07:36.589 align:start position:0%
+view layer with a white material
+override<00:07:34.160><c> so</c><00:07:34.599><c> if</c><00:07:34.759><c> the</c><00:07:34.960><c> noise</c><00:07:35.479><c> is</c><00:07:35.800><c> gone</c><00:07:36.400><c> in</c>
+
+00:07:36.589 --> 00:07:36.599 align:start position:0%
+override so if the noise is gone in
+ 
+
+00:07:36.599 --> 00:07:39.029 align:start position:0%
+override so if the noise is gone in
+these<00:07:36.840><c> areas</c><00:07:37.520><c> that</c><00:07:37.680><c> means</c><00:07:37.960><c> it</c><00:07:38.120><c> comes</c><00:07:38.440><c> from</c><00:07:38.720><c> bad</c>
+
+00:07:39.029 --> 00:07:39.039 align:start position:0%
+these areas that means it comes from bad
+ 
+
+00:07:39.039 --> 00:07:41.909 align:start position:0%
+these areas that means it comes from bad
+materials<00:07:40.039><c> if</c><00:07:40.240><c> not</c><00:07:40.840><c> it</c><00:07:41.039><c> comes</c><00:07:41.360><c> from</c><00:07:41.639><c> bad</c>
+
+00:07:41.909 --> 00:07:41.919 align:start position:0%
+materials if not it comes from bad
+ 
+
+00:07:41.919 --> 00:07:44.390 align:start position:0%
+materials if not it comes from bad
+lights<00:07:42.759><c> I</c><00:07:42.879><c> know</c><00:07:43.039><c> that</c><00:07:43.240><c> very</c><00:07:43.440><c> glossy</c><00:07:43.840><c> and</c><00:07:44.000><c> bumpy</c>
+
+00:07:44.390 --> 00:07:44.400 align:start position:0%
+lights I know that very glossy and bumpy
+ 
+
+00:07:44.400 --> 00:07:46.430 align:start position:0%
+lights I know that very glossy and bumpy
+materials<00:07:45.080><c> often</c><00:07:45.479><c> cause</c><00:07:45.800><c> noise</c><00:07:46.120><c> in</c><00:07:46.280><c> the</c>
+
+00:07:46.430 --> 00:07:46.440 align:start position:0%
+materials often cause noise in the
+ 
+
+00:07:46.440 --> 00:07:49.270 align:start position:0%
+materials often cause noise in the
+glossy<00:07:46.919><c> direct</c><00:07:47.440><c> and</c><00:07:47.720><c> indirect</c><00:07:48.360><c> passes</c><00:07:49.000><c> I</c><00:07:49.080><c> have</c>
+
+00:07:49.270 --> 00:07:49.280 align:start position:0%
+glossy direct and indirect passes I have
+ 
+
+00:07:49.280 --> 00:07:51.670 align:start position:0%
+glossy direct and indirect passes I have
+this<00:07:49.479><c> lacquered</c><00:07:50.039><c> wood</c><00:07:50.680><c> that</c><00:07:50.800><c> I</c><00:07:50.879><c> have</c><00:07:51.000><c> to</c>
+
+00:07:51.670 --> 00:07:51.680 align:start position:0%
+this lacquered wood that I have to
+ 
+
+00:07:51.680 --> 00:07:55.110 align:start position:0%
+this lacquered wood that I have to
+check<00:07:52.680><c> these</c><00:07:52.879><c> bright</c><00:07:53.240><c> pixels</c><00:07:53.720><c> are</c><00:07:54.120><c> fireflies</c>
+
+00:07:55.110 --> 00:07:55.120 align:start position:0%
+check these bright pixels are fireflies
+ 
+
+00:07:55.120 --> 00:07:57.550 align:start position:0%
+check these bright pixels are fireflies
+they<00:07:55.280><c> come</c><00:07:55.479><c> from</c><00:07:55.720><c> lights</c><00:07:56.080><c> that</c><00:07:56.199><c> are</c><00:07:56.560><c> small</c>
+
+00:07:57.550 --> 00:07:57.560 align:start position:0%
+they come from lights that are small
+ 
+
+00:07:57.560 --> 00:08:00.189 align:start position:0%
+they come from lights that are small
+strong<00:07:58.120><c> and</c><00:07:58.440><c> close</c><00:07:58.840><c> to</c><00:07:59.000><c> a</c><00:07:59.120><c> surf</c>
+
+00:08:00.189 --> 00:08:00.199 align:start position:0%
+strong and close to a surf
+ 
+
+00:08:00.199 --> 00:08:02.629 align:start position:0%
+strong and close to a surf
+in<00:08:00.360><c> my</c><00:08:00.560><c> case</c><00:08:00.840><c> the</c><00:08:01.000><c> Torches</c><00:08:01.560><c> are</c><00:08:01.919><c> obvious</c>
+
+00:08:02.629 --> 00:08:02.639 align:start position:0%
+in my case the Torches are obvious
+ 
+
+00:08:02.639 --> 00:08:04.909 align:start position:0%
+in my case the Torches are obvious
+suspects<00:08:03.560><c> I</c><00:08:03.680><c> have</c><00:08:03.879><c> three</c><00:08:04.120><c> options</c><00:08:04.639><c> make</c><00:08:04.800><c> the</c>
+
+00:08:04.909 --> 00:08:04.919 align:start position:0%
+suspects I have three options make the
+ 
+
+00:08:04.919 --> 00:08:07.749 align:start position:0%
+suspects I have three options make the
+lights<00:08:05.400><c> bigger</c><00:08:06.159><c> make</c><00:08:06.360><c> them</c><00:08:06.599><c> weaker</c><00:08:07.240><c> or</c><00:08:07.479><c> move</c>
+
+00:08:07.749 --> 00:08:07.759 align:start position:0%
+lights bigger make them weaker or move
+ 
+
+00:08:07.759 --> 00:08:11.189 align:start position:0%
+lights bigger make them weaker or move
+them<00:08:08.080><c> away</c><00:08:08.560><c> from</c><00:08:08.879><c> the</c><00:08:09.080><c> torch</c><00:08:10.000><c> there</c><00:08:10.360><c> is</c><00:08:10.879><c> one</c>
+
+00:08:11.189 --> 00:08:11.199 align:start position:0%
+them away from the torch there is one
+ 
+
+00:08:11.199 --> 00:08:14.749 align:start position:0%
+them away from the torch there is one
+more<00:08:11.720><c> option</c><00:08:12.720><c> but</c><00:08:12.879><c> it</c><00:08:13.080><c> is</c>
+
+00:08:14.749 --> 00:08:14.759 align:start position:0%
+more option but it is
+ 
+
+00:08:14.759 --> 00:08:17.230 align:start position:0%
+more option but it is
+forbidden<00:08:15.759><c> you're</c><00:08:16.080><c> messing</c><00:08:16.560><c> with</c><00:08:16.840><c> light</c>
+
+00:08:17.230 --> 00:08:17.240 align:start position:0%
+forbidden you're messing with light
+ 
+
+00:08:17.240 --> 00:08:20.670 align:start position:0%
+forbidden you're messing with light
+values<00:08:18.159><c> which</c><00:08:18.319><c> is</c><00:08:18.720><c> not</c>
+
+00:08:20.670 --> 00:08:20.680 align:start position:0%
+values which is not
+ 
+
+00:08:20.680 --> 00:08:24.629 align:start position:0%
+values which is not
+okay<00:08:21.680><c> you</c><00:08:21.919><c> make</c><00:08:22.240><c> the</c><00:08:22.440><c> image</c>
+
+00:08:24.629 --> 00:08:24.639 align:start position:0%
+okay you make the image
+ 
+
+00:08:24.639 --> 00:08:27.469 align:start position:0%
+okay you make the image
+ugly<00:08:25.639><c> often</c><00:08:26.039><c> noise</c><00:08:26.400><c> comes</c><00:08:26.759><c> from</c><00:08:26.960><c> a</c><00:08:27.120><c> single</c>
+
+00:08:27.469 --> 00:08:27.479 align:start position:0%
+ugly often noise comes from a single
+ 
+
+00:08:27.479 --> 00:08:29.670 align:start position:0%
+ugly often noise comes from a single
+light<00:08:27.960><c> to</c><00:08:28.240><c> isolate</c><00:08:28.720><c> the</c><00:08:28.879><c> lights</c><00:08:29.159><c> you</c><00:08:29.280><c> can</c><00:08:29.520><c> can</c>
+
+00:08:29.670 --> 00:08:29.680 align:start position:0%
+light to isolate the lights you can can
+ 
+
+00:08:29.680 --> 00:08:31.710 align:start position:0%
+light to isolate the lights you can can
+use<00:08:30.039><c> light</c><00:08:30.360><c> groups</c><00:08:30.879><c> make</c><00:08:31.039><c> a</c><00:08:31.120><c> few</c><00:08:31.319><c> groups</c><00:08:31.599><c> in</c>
+
+00:08:31.710 --> 00:08:31.720 align:start position:0%
+use light groups make a few groups in
+ 
+
+00:08:31.720 --> 00:08:33.909 align:start position:0%
+use light groups make a few groups in
+the<00:08:31.840><c> view</c><00:08:32.120><c> layer</c><00:08:32.440><c> Tab</c><00:08:32.800><c> and</c><00:08:33.000><c> assign</c><00:08:33.399><c> each</c><00:08:33.640><c> light</c>
+
+00:08:33.909 --> 00:08:33.919 align:start position:0%
+the view layer Tab and assign each light
+ 
+
+00:08:33.919 --> 00:08:36.589 align:start position:0%
+the view layer Tab and assign each light
+to<00:08:34.080><c> a</c><00:08:34.240><c> group</c><00:08:34.560><c> in</c><00:08:34.719><c> the</c><00:08:34.880><c> lights</c><00:08:35.399><c> object</c><00:08:35.839><c> tab</c><00:08:36.399><c> now</c>
+
+00:08:36.589 --> 00:08:36.599 align:start position:0%
+to a group in the lights object tab now
+ 
+
+00:08:36.599 --> 00:08:39.269 align:start position:0%
+to a group in the lights object tab now
+it's<00:08:36.919><c> possible</c><00:08:37.560><c> to</c><00:08:37.680><c> see</c><00:08:38.080><c> what</c><00:08:38.279><c> lights</c><00:08:38.919><c> make</c>
+
+00:08:39.269 --> 00:08:39.279 align:start position:0%
+it's possible to see what lights make
+ 
+
+00:08:39.279 --> 00:08:40.190 align:start position:0%
+it's possible to see what lights make
+what
+
+00:08:40.190 --> 00:08:40.200 align:start position:0%
+what
+ 
+
+00:08:40.200 --> 00:08:43.149 align:start position:0%
+what
+noise<00:08:41.200><c> to</c><00:08:41.399><c> begin</c><00:08:41.919><c> I</c><00:08:42.039><c> made</c><00:08:42.240><c> fun</c><00:08:42.440><c> of</c><00:08:42.599><c> tutorials</c>
+
+00:08:43.149 --> 00:08:43.159 align:start position:0%
+noise to begin I made fun of tutorials
+ 
+
+00:08:43.159 --> 00:08:45.110 align:start position:0%
+noise to begin I made fun of tutorials
+that<00:08:43.320><c> promise</c><00:08:43.640><c> a</c><00:08:43.760><c> 10-fold</c><00:08:44.360><c> cut</c><00:08:44.600><c> in</c><00:08:44.720><c> render</c>
+
+00:08:45.110 --> 00:08:45.120 align:start position:0%
+that promise a 10-fold cut in render
+ 
+
+00:08:45.120 --> 00:08:47.990 align:start position:0%
+that promise a 10-fold cut in render
+time<00:08:45.839><c> but</c><00:08:46.000><c> if</c><00:08:46.080><c> you</c><00:08:46.200><c> followed</c><00:08:46.760><c> every</c><00:08:47.120><c> step</c><00:08:47.600><c> I</c>
+
+00:08:47.990 --> 00:08:48.000 align:start position:0%
+time but if you followed every step I
+ 
+
+00:08:48.000 --> 00:08:50.269 align:start position:0%
+time but if you followed every step I
+wouldn't<00:08:48.399><c> be</c><00:08:48.600><c> surprised</c><00:08:49.240><c> if</c><00:08:49.360><c> you</c><00:08:49.519><c> did</c><00:08:49.800><c> cut</c><00:08:50.000><c> it</c>
+
+00:08:50.269 --> 00:08:50.279 align:start position:0%
+wouldn't be surprised if you did cut it
+ 
+
+00:08:50.279 --> 00:08:52.389 align:start position:0%
+wouldn't be surprised if you did cut it
+10-fold<00:08:51.279><c> but</c><00:08:51.440><c> the</c><00:08:51.600><c> point</c><00:08:51.839><c> is</c><00:08:52.040><c> that</c><00:08:52.160><c> you</c><00:08:52.240><c> can</c>
+
+00:08:52.389 --> 00:08:52.399 align:start position:0%
+10-fold but the point is that you can
+ 
+
+00:08:52.399 --> 00:08:54.949 align:start position:0%
+10-fold but the point is that you can
+make<00:08:52.720><c> much</c><00:08:53.080><c> better</c><00:08:53.480><c> decisions</c><00:08:54.160><c> if</c><00:08:54.320><c> you</c>
+
+00:08:54.949 --> 00:08:54.959 align:start position:0%
+make much better decisions if you
+ 
+
+00:08:54.959 --> 00:08:57.030 align:start position:0%
+make much better decisions if you
+understand<00:08:55.279><c> how</c><00:08:55.519><c> this</c><00:08:55.839><c> works</c><00:08:56.480><c> instead</c><00:08:56.839><c> of</c>
+
+00:08:57.030 --> 00:08:57.040 align:start position:0%
+understand how this works instead of
+ 
+
+00:08:57.040 --> 00:08:59.470 align:start position:0%
+understand how this works instead of
+checking<00:08:57.560><c> boxes</c><00:08:58.160><c> people</c><00:08:58.480><c> tell</c><00:08:58.720><c> you</c><00:08:58.880><c> to</c>
+
+00:08:59.470 --> 00:08:59.480 align:start position:0%
+checking boxes people tell you to
+ 
+
+00:08:59.480 --> 00:09:03.030 align:start position:0%
+checking boxes people tell you to
+including<00:09:00.000><c> me</c><00:09:00.600><c> don't</c><00:09:00.880><c> listen</c><00:09:01.200><c> to</c><00:09:01.360><c> me</c><00:09:02.240><c> learn</c><00:09:02.519><c> it</c>
+
+00:09:03.030 --> 00:09:03.040 align:start position:0%
+including me don't listen to me learn it
+ 
+
+00:09:03.040 --> 00:09:05.030 align:start position:0%
+including me don't listen to me learn it
+but<00:09:03.240><c> listen</c><00:09:03.519><c> to</c><00:09:03.680><c> me</c><00:09:03.880><c> in</c><00:09:04.000><c> the</c><00:09:04.240><c> next</c><00:09:04.560><c> video</c><00:09:04.920><c> which</c>
+
+00:09:05.030 --> 00:09:05.040 align:start position:0%
+but listen to me in the next video which
+ 
+
+00:09:05.040 --> 00:09:07.949 align:start position:0%
+but listen to me in the next video which
+is<00:09:05.240><c> about</c><00:09:05.680><c> the</c><00:09:05.839><c> images</c><00:09:06.320><c> that</c><00:09:06.440><c> you</c><00:09:06.640><c> save</c><00:09:07.279><c> and</c><00:09:07.800><c> I</c>
+
+00:09:07.949 --> 00:09:07.959 align:start position:0%
+is about the images that you save and I
+ 
+
+00:09:07.959 --> 00:09:09.790 align:start position:0%
+is about the images that you save and I
+think<00:09:08.240><c> it</c><00:09:08.440><c> might</c><00:09:08.720><c> just</c><00:09:08.920><c> blow</c><00:09:09.240><c> your</c><00:09:09.399><c> mind</c><00:09:09.640><c> a</c>
+
+00:09:09.790 --> 00:09:09.800 align:start position:0%
+think it might just blow your mind a
+ 
+
+00:09:09.800 --> 00:09:11.509 align:start position:0%
+think it might just blow your mind a
+little
+
+00:09:11.509 --> 00:09:11.519 align:start position:0%
+little
+ 
+
+00:09:11.519 --> 00:09:14.519 align:start position:0%
+little
+bit
+

@@ -1,0 +1,276 @@
+Data Studies
+Products
+Solutions
+Resources
+Company
+Pricing
+en
+Select Preferred Language
+English
+Español
+Deutsch
+Français
+日本語
+Log In
+Start Trial
+New
+{
+let ref = this.$refs['tab0'];
+if (Array.isArray(ref)) ref = ref[0];
+ref?.focus();
+});
+},
+selectedTabGridClass() {
+const key = this.tabs[this.selected]?.key;
+return (key === 'amazon' || key === 'social') ? 'grid grid-flow-row' : 'grid grid-cols-2';
+},
+useCasesClass() {
+const key = this.tabs[this.selected]?.key;
+return (key === 'amazon' || key === 'social')
+? 'flex-1'
+: 'w-[27%] xl:w-[25%]';
+},
+capabilitiesClass() {
+const key = this.tabs[this.selected]?.key;
+return (key === 'amazon' || key === 'social')
+? 'flex-1'
+: 'lg:w-[60%] xl:w-[50%]';
+},
+rolesClass() {
+const key = this.tabs[this.selected]?.key;
+return (key === 'amazon' || key === 'social')
+? 'flex-1'
+: 'w-[25%]';
+},
+updateMenuData(shouldUpdateHeight = false) {
+if (this.tabs[this.selected].key === 'search') {
+this.menuData = getSearchSolutionsData().data;
+} else if (this.tabs[this.selected].key === 'amazon') {
+this.menuData = getAmazonSolutionsData().data;
+} else if (this.tabs[this.selected].key === 'social') {
+this.menuData = getSocialSolutionsData().data;
+}
+this.$nextTick(() => {
+if (window.showSection && typeof window.showSection === 'function' && shouldUpdateHeight){
+window.showSection('solutions');
+}
+})
+},
+}" x-init=init()>
+Use Cases
+New
+Capabilities
+New
+Roles
+New
+{
+if (window.showSection && typeof window.showSection === 'function' && shouldUpdateHeight){
+window.showSection('resources');
+}
+});
+},
+}" x-init=init()>
+Products
+Solutions
+Resources
+Company
+Pricing
+{
+let ref = this.$refs['mobtab0'];
+if (Array.isArray(ref)) ref = ref[0];
+ref?.focus();
+});
+},
+updateMenuData() {
+if (this.tabs[this.selected].key === 'search') {
+this.menuData = getSearchSolutionsData().mobileMenuData;
+} else if (this.tabs[this.selected].key === 'amazon') {
+this.menuData = getAmazonSolutionsData().mobileMenuData;
+} else if (this.tabs[this.selected].key === 'social') {
+this.menuData = getSocialSolutionsData().mobileMenuData;
+}
+},
+}" x-init=init() class="flex-1 overflow-auto">
+{
+let ref = this.$refs['mobrestab0'];
+if (Array.isArray(ref)) ref = ref[0];
+ref?.focus();
+});
+},
+updateMenuData() {
+if (this.tabs[this.selected].key === 'search') {
+this.menuData = getSearchResourcesData().mobileMenuData;
+} else if (this.tabs[this.selected].key === 'amazon') {
+this.menuData = getAmazonResourcesData().mobileMenuData;
+} else if (this.tabs[this.selected].key === 'social') {
+this.menuData = getSocialResourcesData().mobileMenuData;
+}
+},
+}" x-init=init() class="flex-1 overflow-auto">
+New
+en
+Select Preferred Language
+English
+Español
+Deutsch
+Français
+日本語
+Claim your 14-day free trial now
+Start Trial
+Already a member? Login here
+Blog Hub
+Data Studies
+Want to keep up with the latest paid media news, trends, and insights?
+We'll send them straight to your inbox.
+Thank you for Signing Up
+Please enter a valid email address.
+1,true,6,Lead Email,2
+1,false,1,First Name,2
+1,false,1,Last Name,2
+Thank you for Signing Up
+Data Studies Articles
+PAID SEARCH
+DATA STUDIES
+EXPERT SERIES
+How Amazon Prime Day Affects Google Ads Performance (Data From 22,034 Accounts)
+We analyzed 22,034 Google Ads accounts around Prime Day 2025. Here's what happened to CPCs, ROAS, and CVR.
+Frederick Vallaeys (Optmyzr)
+June 19, 2026
+PAID SEARCH
+DATA STUDIES
+We Analyzed 21,425 Google Ads Accounts. The Findings Will Change How You Budget.
+Learn why growth felt harder in 2025, about the shrinking impression pools, rising CPA, and softening conversion rates.
+Lakshmi Padmanaban
+(Optmyzr)
+May 13, 2026
+DATA STUDIES
+EXPERT SERIES
+Broad Match is Winning the Budget War. Is It Winning on Performance Too?
+We analyzed 30,000 Google Ads accounts to see which match type actually performs best. Broad match is winning the budget …
+Frederick Vallaeys (Optmyzr)
+May 11, 2026
+REPORT
+DATA STUDIES
+The State of Google Ads Q1 2026 Benchmark Report
+Performance trends in Google Ads are becoming more nuanced, with shifts happening across formats, metrics, and account …
+April 23, 2026
+PAID SEARCH
+EXPERT SERIES
+DATA STUDIES
+We Analyzed ~20,000 Google Ads Accounts. Here’s What Actually Drives RSA Performance (Hint: It’s Not Ad Strength)
+Ad Strength doesn't drive RSA results. Data from ~20,000 accounts shows what copy choices actually move CPA and ROAS.
+Frederick Vallaeys
+(Optmyzr)
+April 6, 2026
+DATA STUDIES
+EXPERT SERIES
+PAID SEARCH
+Black Friday Continues to Outperform Cyber Monday in Google Ads E-commerce
+Black Friday outperformed Cyber Monday in Google Ads for ecommerce, with 34% higher conversion value in 2025.
+Frederick Vallaeys
+(Optmyzr)
+December 16, 2025
+EXPERT SERIES
+DATA STUDIES
+Do Seasonality Adjustments Actually Help During BFCM? A 3-Year Study Says No.
+Analysis of billions of impressions shows overriding Smart Bidding raises CPCs and lowers ROAS on Black Friday.
+Frederick Vallaeys
+(Optmyzr)
+November 19, 2025
+EXPERT SERIES
+DATA STUDIES
+Amazon’s Exit from Google Ads Triggered a Traffic Surge — But ROI Didn’t Follow: An Optmyzr Study
+A major advertiser vanished. Clicks surged. Value dropped. Here’s what really happens when giants leave paid search.
+Frederick Vallaeys
+(Optmyzr)
+August 15, 2025
+EXPERT SERIES
+DATA STUDIES
+Is Performance Max Cannibalizing Your Search Campaigns? Our New Data Study Says… Probably
+Optmyzr study finds PMax often cannibalizes Search—even exact matches. Learn how to protect your campaign performance.
+Frederick Vallaeys
+(Optmyzr)
+July 31, 2025
+DATA STUDIES
+AMAZON ADS
+Amazon Ads Reporting Delay Is Killing Your Conversions. Here’s the Fix (Lessons From Studying 14,991 Campaigns)
+Amazon Ads data is delayed. Our study shows why waiting 14 days can mean smarter, more profitable decisions.
+Frederick Vallaeys
+(Optmyzr)
+June 11, 2025
+DATA STUDIES
+PAID SEARCH
+EXPERT SERIES
+Black Friday Beats Cyber Monday in Google Ads Sales 2024 – Here’s Why
+Black Friday outperforms Cyber Monday in Google Ads conversion value. Optmyzr’s data reveals key insights for smarter ad …
+Frederick Vallaeys
+(Optmyzr)
+December 17, 2024
+DATA STUDIES
+EXPERT SERIES
+How to Choose the Best Keyword Match Type for Your Google Ads Campaign
+This data-backed guide shows how to use exact, phrase, and broad match types in Google Ads to optimize spend and boost …
+Frederick Vallaeys
+(Optmyzr)
+December 6, 2024
+1
+2
+Next
+Stay Updated with Optmyzr
+Sign up for our newsletter to receive the latest insights, industry updates, and tips directly to your inbox.
+Thank you for Signing Up
+Please enter a valid email address.
+1,true,6,Lead Email,2
+1,false,1,First Name,2
+1,false,1,Last Name,2
+Thank you for Signing Up
+You may opt out at any time. Check out our
+Privacy Policy
+Experience Optmyzr for yourself for 2 full weeks.
+Start your 14-day free trial today. No credit card required.
+Start Trial Book a Demo
+Products
+Optmyzr for Search
+Optmyzr for Amazon Ads
+Optmyzr for Social
+Company
+About
+Book a Demo
+Contact Us
+AI Info
+Free Trial
+Affiliate Program
+Use Cases
+Monitoring
+Optimization
+Automation
+Reporting
+Analysis
+Resources
+Blog
+PPC Town Hall
+Learn With Optmyzr
+Automation Layering Masterclass
+Case Studies
+Optmyzr Comparison
+Help Center
+Releases & Updates
+Follow Us
+Select Preferred Language
+en
+English
+Español
+Deutsch
+Français
+日本語
+Select Preferred Language
+en
+English
+Español
+Deutsch
+Français
+日本語
+©2013-2026 Optmyzr. All rights reserved.
+Data Processor Agreement
+Privacy Policy
+Terms of Use

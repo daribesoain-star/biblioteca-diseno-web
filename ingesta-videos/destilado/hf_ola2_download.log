@@ -1,0 +1,163 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=036jyFZWppw
+[youtube] 036jyFZWppw: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 036jyFZWppw: Downloading android vr player API JSON
+[info] 036jyFZWppw: Downloading subtitles: en-orig, en, es, zh-Hans, zh-Hant
+[info] 036jyFZWppw: Downloading 1 format(s): 401+251
+[info] Writing video subtitles to: 036jyFZWppw.en-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 036jyFZWppw.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at  Unknown B/s (00:00:00)[download]  104.11KiB at   41.23MiB/s (00:00:00)[download] 100% of  104.11KiB in 00:00:00 at 657.04KiB/s
+[info] Writing video subtitles to: 036jyFZWppw.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 036jyFZWppw.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at  Unknown B/s (00:00:00)[download]  104.11KiB at   35.88MiB/s (00:00:00)[download] 100% of  104.11KiB in 00:00:00 at 4.14MiB/s
+[info] Writing video subtitles to: 036jyFZWppw.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'es': HTTP Error 429: Too Many Requests
+[info] Writing video subtitles to: 036jyFZWppw.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 036jyFZWppw.zh-Hans.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:02)[download]    3.00KiB at  Unknown B/s (00:00:02)[download]    7.00KiB at  Unknown B/s (00:00:02)[download]   15.00KiB at  Unknown B/s (00:00:02)[download]   31.00KiB at    3.12MiB/s (00:00:02)[download]   63.00KiB at    3.01MiB/s (00:00:02)[download]  113.17KiB at    4.38MiB/s (00:00:02)[download] 100% of  113.17KiB in 00:00:02 at 47.89KiB/s
+[info] Writing video subtitles to: 036jyFZWppw.zh-Hant.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'zh-Hant': HTTP Error 429: Too Many Requests
+[info] Writing video metadata as JSON to: 036jyFZWppw.info.json
+[youtube] Extracting URL: https://www.youtube.com/watch?v=0HIRIT7px9Y
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 0HIRIT7px9Y: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 0HIRIT7px9Y: Downloading android vr player API JSON
+[info] 0HIRIT7px9Y: Downloading subtitles: en-orig, en, es, zh-Hans, zh-Hant
+[info] 0HIRIT7px9Y: Downloading 1 format(s): 401+251
+[info] Writing video subtitles to: 0HIRIT7px9Y.en-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 0HIRIT7px9Y.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   17.69MiB/s (00:00:00)[download]  127.00KiB at    9.70MiB/s (00:00:00)[download]  247.71KiB at   10.56MiB/s (00:00:00)[download] 100% of  247.71KiB in 00:00:00 at 3.79MiB/s
+[info] Writing video subtitles to: 0HIRIT7px9Y.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 0HIRIT7px9Y.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   32.73MiB/s (00:00:00)[download]  127.00KiB at   34.15MiB/s (00:00:00)[download]  247.71KiB at   21.17MiB/s (00:00:00)[download] 100% of  247.71KiB in 00:00:00 at 5.05MiB/s
+[info] Writing video subtitles to: 0HIRIT7px9Y.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'es': HTTP Error 429: Too Many Requests
+[info] Writing video subtitles to: 0HIRIT7px9Y.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 0HIRIT7px9Y.zh-Hans.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:03)[download]    3.00KiB at  Unknown B/s (00:00:03)[download]    7.00KiB at  Unknown B/s (00:00:03)[download]   15.00KiB at  Unknown B/s (00:00:03)[download]   31.00KiB at    2.81MiB/s (00:00:03)[download]   63.00KiB at    3.72MiB/s (00:00:03)[download]  127.00KiB at    4.43MiB/s (00:00:03)[download]  255.00KiB at    6.69MiB/s (00:00:03)[download]  266.64KiB at    6.95MiB/s (00:00:03)[download] 100% of  266.64KiB in 00:00:03 at 86.48KiB/s
+[info] Writing video subtitles to: 0HIRIT7px9Y.zh-Hant.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'zh-Hant': HTTP Error 429: Too Many Requests
+[info] Writing video metadata as JSON to: 0HIRIT7px9Y.info.json
+[youtube] Extracting URL: https://www.youtube.com/watch?v=2psBexPkw3I
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 2psBexPkw3I: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 2psBexPkw3I: Downloading android vr player API JSON
+[info] 2psBexPkw3I: Downloading subtitles: en-orig, en, es, zh-Hans, zh-Hant
+[info] 2psBexPkw3I: Downloading 1 format(s): 399+251
+[info] Writing video subtitles to: 2psBexPkw3I.en-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 2psBexPkw3I.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   17.42MiB/s (00:00:00)[download]  121.67KiB at   13.81MiB/s (00:00:00)[download] 100% of  121.67KiB in 00:00:00 at 2.94MiB/s
+[info] Writing video subtitles to: 2psBexPkw3I.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 2psBexPkw3I.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   30.99MiB/s (00:00:00)[download]  121.67KiB at   24.52MiB/s (00:00:00)[download] 100% of  121.67KiB in 00:00:00 at 3.63MiB/s
+[info] Writing video subtitles to: 2psBexPkw3I.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 2psBexPkw3I.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:01)[download]    3.00KiB at  Unknown B/s (00:00:01)[download]    7.00KiB at  Unknown B/s (00:00:01)[download]   15.00KiB at  Unknown B/s (00:00:01)[download]   31.00KiB at  Unknown B/s (00:00:01)[download]   63.00KiB at  Unknown B/s (00:00:01)[download]  125.21KiB at   56.33MiB/s (00:00:01)[download] 100% of  125.21KiB in 00:00:01 at 69.25KiB/s
+[info] Writing video subtitles to: 2psBexPkw3I.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'zh-Hans': HTTP Error 429: Too Many Requests
+[info] Writing video subtitles to: 2psBexPkw3I.zh-Hant.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'zh-Hant': HTTP Error 429: Too Many Requests
+[info] Writing video metadata as JSON to: 2psBexPkw3I.info.json
+[youtube] Extracting URL: https://www.youtube.com/watch?v=6j8-F7GE2UE
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 6j8-F7GE2UE: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 6j8-F7GE2UE: Downloading android vr player API JSON
+[info] 6j8-F7GE2UE: Downloading subtitles: en-orig, en, es, zh-Hans, zh-Hant
+[info] 6j8-F7GE2UE: Downloading 1 format(s): 400+251
+[info] Writing video subtitles to: 6j8-F7GE2UE.en-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 6j8-F7GE2UE.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   19.91MiB/s (00:00:00)[download]   96.39KiB at    8.74MiB/s (00:00:00)[download] 100% of   96.39KiB in 00:00:00 at 564.87KiB/s
+[info] Writing video subtitles to: 6j8-F7GE2UE.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 6j8-F7GE2UE.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   17.20MiB/s (00:00:00)[download]   96.39KiB at   23.86MiB/s (00:00:00)[download] 100% of   96.39KiB in 00:00:00 at 3.48MiB/s
+[info] Writing video subtitles to: 6j8-F7GE2UE.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'es': HTTP Error 429: Too Many Requests
+[info] Writing video subtitles to: 6j8-F7GE2UE.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 6j8-F7GE2UE.zh-Hans.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:01)[download]    3.00KiB at  Unknown B/s (00:00:01)[download]    7.00KiB at  Unknown B/s (00:00:01)[download]   15.00KiB at  Unknown B/s (00:00:01)[download]   31.00KiB at    3.16MiB/s (00:00:01)[download]   63.00KiB at    3.14MiB/s (00:00:01)[download]  107.80KiB at    4.26MiB/s (00:00:01)[download] 100% of  107.80KiB in 00:00:01 at 62.22KiB/s
+[info] Writing video subtitles to: 6j8-F7GE2UE.zh-Hant.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'zh-Hant': HTTP Error 429: Too Many Requests
+[info] Writing video metadata as JSON to: 6j8-F7GE2UE.info.json
+[youtube] Extracting URL: https://www.youtube.com/watch?v=6oDHZP5f1-Y
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 6oDHZP5f1-Y: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 6oDHZP5f1-Y: Downloading android vr player API JSON
+[info] 6oDHZP5f1-Y: Downloading subtitles: en-zh, es-zh, zh, zh-Hans-zh, zh-Hant-zh
+[info] 6oDHZP5f1-Y: Downloading 1 format(s): 399+251
+[info] Writing video subtitles to: 6oDHZP5f1-Y.en-zh.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'en-zh': HTTP Error 429: Too Many Requests
+[info] Writing video subtitles to: 6oDHZP5f1-Y.es-zh.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'es-zh': HTTP Error 429: Too Many Requests
+[info] Writing video subtitles to: 6oDHZP5f1-Y.zh.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 6oDHZP5f1-Y.zh.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   13.20KiB at   12.04MiB/s (00:00:00)[download] 100% of   13.20KiB in 00:00:00 at 139.06KiB/s
+[info] Writing video subtitles to: 6oDHZP5f1-Y.zh-Hans-zh.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'zh-Hans-zh': HTTP Error 429: Too Many Requests
+[info] Writing video subtitles to: 6oDHZP5f1-Y.zh-Hant-zh.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: Unable to download video subtitles for 'zh-Hant-zh': HTTP Error 429: Too Many Requests
+[info] Writing video metadata as JSON to: 6oDHZP5f1-Y.info.json
+[youtube] Extracting URL: https://www.youtube.com/watch?v=6zezcx-A86U
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 6zezcx-A86U: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 6zezcx-A86U: Downloading android vr player API JSON
+[info] 6zezcx-A86U: Downloading subtitles: en-orig, en, es, zh-Hans, zh-Hant
+[info] 6zezcx-A86U: Downloading 1 format(s): 401+251
+[info] Writing video subtitles to: 6zezcx-A86U.en-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 6zezcx-A86U.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   28.34MiB/s (00:00:00)[download]  119.48KiB at   11.60MiB/s (00:00:00)[download] 100% of  119.48KiB in 00:00:00 at 2.76MiB/s
+[info] Writing video subtitles to: 6zezcx-A86U.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 6zezcx-A86U.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   26.45MiB/s (00:00:00)[download]  119.48KiB at   25.72MiB/s (00:00:00)[download] 100% of  119.48KiB in 00:00:00 at 2.57MiB/s
+[info] Writing video subtitles to: 6zezcx-A86U.es.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 6zezcx-A86U.es.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at  Unknown B/s (00:00:00)[download]  120.99KiB at   52.91MiB/s (00:00:00)[download] 100% of  120.99KiB in 00:00:00 at 277.65KiB/s
+[info] Writing video subtitles to: 6zezcx-A86U.zh-Hans.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 6zezcx-A86U.zh-Hans.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.16MiB/s (00:00:00)[download]    7.00KiB at    2.49MiB/s (00:00:00)[download]   15.00KiB at    5.10MiB/s (00:00:00)[download]   31.00KiB at   10.02MiB/s (00:00:00)[download]   63.00KiB at   19.25MiB/s (00:00:00)[download]  120.07KiB at   33.27MiB/s (00:00:00)[download] 100% of  120.07KiB in 00:00:00 at 271.15KiB/s
+[info] Writing video subtitles to: 6zezcx-A86U.zh-Hant.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: 6zezcx-A86U.zh-Hant.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   57.23MiB/s (00:00:00)[download]  115.95KiB at   83.37MiB/s (00:00:00)[download] 100% of  115.95KiB in 00:00:00 at 207.76KiB/s
+[info] Writing video metadata as JSON to: 6zezcx-A86U.info.json
+[youtube] Extracting URL: https://www.youtube.com/watch?v=8WPm5RA4VkE
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 8WPm5RA4VkE: Downloading webpage
+[youtube] Sleeping 4.0 seconds ...
+[youtube] 8WPm5RA4VkE: Downloading android vr player API JSON
+ERROR: [youtube] 8WPm5RA4VkE: Video unavailable. This video has been removed by the uploader
+[youtube] Extracting URL: https://www.youtube.com/watch?v=A2dqADSh2-Q
+[youtube] Sleeping 4.0 seconds ...

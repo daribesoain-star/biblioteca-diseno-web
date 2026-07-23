@@ -1,0 +1,2377 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:01.099
+Voy a mostrarte cómo agregar
+
+00:00:01.099 --> 00:00:03.133
+autorización a una aplicación existente
+
+00:00:03.133 --> 00:00:04.500
+utilizando políticas de seguridad a nivel de fila
+
+00:00:04.533 --> 00:00:06.233
+.  Vamos a ampliar
+
+00:00:06.233 --> 00:00:07.133
+esta aplicación cliente de correo electrónico
+
+00:00:07.133 --> 00:00:08.833
+, creada originalmente por Lee
+
+00:00:08.833 --> 00:00:10.633
+Robertson en Verselle, y vamos a
+
+00:00:10.633 --> 00:00:12.233
+profundizar bastante en el
+
+00:00:12.233 --> 00:00:12.966
+lado de Postgres.  Así que vamos a
+
+00:00:12.966 --> 00:00:14.633
+aprender sobre funciones, disparadores,
+
+00:00:15.000 --> 00:00:16.066
+definidores de seguridad en
+
+00:00:16.066 --> 00:00:17.699
+roles y cómo establecer relaciones uno a uno
+
+00:00:17.699 --> 00:00:19.833
+entre tablas en diferentes
+
+00:00:19.833 --> 00:00:21.699
+esquemas.  Si no has estado
+
+00:00:21.699 --> 00:00:22.433
+siguiendo la serie,
+
+00:00:22.800 --> 00:00:24.166
+dejaré un enlace a la lista de reproducción completa en
+
+00:00:24.166 --> 00:00:25.133
+la descripción.  Pero
+
+00:00:25.133 --> 00:00:25.966
+no se preocupe, este vídeo se puede
+
+00:00:25.966 --> 00:00:28.000
+ver sin necesidad de conocer el contexto de lo que hemos
+
+00:00:28.000 --> 00:00:29.333
+hecho hasta ahora, siempre y cuando
+
+00:00:29.333 --> 00:00:30.566
+sepa cómo es un cliente de correo electrónico
+
+00:00:30.566 --> 00:00:32.800
+.  Y aunque no lo hagas,
+
+00:00:32.800 --> 00:00:33.966
+esto es todo.  Tenemos un
+
+00:00:33.966 --> 00:00:35.400
+panel de carpetas a la izquierda,
+
+00:00:35.400 --> 00:00:37.233
+una lista de correos electrónicos en esas carpetas en el
+
+00:00:37.233 --> 00:00:38.300
+centro y, si hacemos clic en
+
+00:00:38.300 --> 00:00:39.500
+uno de estos correos electrónicos, vemos
+
+00:00:39.500 --> 00:00:41.433
+el contenido del correo electrónico seleccionado a la
+
+00:00:41.433 --> 00:00:42.666
+derecha.  Podemos enviar un
+
+00:00:42.666 --> 00:00:44.466
+correo electrónico nuevo o eliminar uno existente,
+
+00:00:44.466 --> 00:00:46.333
+y también hemos añadido la posibilidad de iniciar
+
+00:00:46.333 --> 00:00:47.766
+sesión con GitHub.  Si cierro sesión
+
+00:00:47.766 --> 00:00:49.166
+, veremos esta página de "Iniciar sesión
+
+00:00:49.166 --> 00:00:51.066
+con GitHub", y si intentamos
+
+00:00:51.066 --> 00:00:52.366
+volver a nuestra página de inicio,
+
+00:00:52.366 --> 00:00:53.266
+veremos que se nos
+
+00:00:53.433 --> 00:00:55.333
+redirige automáticamente a esta página de inicio de sesión, por lo que
+
+00:00:55.333 --> 00:00:57.233
+no podemos acceder a nuestros correos electrónicos a menos que iniciemos
+
+00:00:57.233 --> 00:00:58.533
+sesión con GitHub.
+
+00:00:58.533 --> 00:01:00.066
+Pero no estamos aplicando ningún filtro a
+
+00:01:00.066 --> 00:01:01.500
+los correos electrónicos que se muestran.  Si
+
+00:01:01.500 --> 00:01:02.533
+echamos un vistazo al
+
+00:01:02.533 --> 00:01:04.300
+panel de control de Supabase, y luego al
+
+00:01:04.300 --> 00:01:06.000
+editor de tablas y correos electrónicos, veremos que
+
+00:01:06.000 --> 00:01:08.266
+los ID de nuestro remitente y nuestro
+
+00:01:08.266 --> 00:01:10.500
+destinatario son unos, dos, tres
+
+00:01:10.500 --> 00:01:12.000
+y hasta diez.  Y
+
+00:01:12.000 --> 00:01:13.199
+si echamos un vistazo a nuestra
+
+00:01:13.199 --> 00:01:15.300
+tabla de usuarios, en realidad no tenemos una fila para
+
+00:01:15.300 --> 00:01:17.199
+nuestro usuario John.  Y si vamos a
+
+00:01:17.199 --> 00:01:18.599
+autenticación y luego a
+
+00:01:18.633 --> 00:01:20.933
+usuarios, veremos que solo hay un usuario,
+
+00:01:20.933 --> 00:01:22.466
+que es John, que utilizó el proveedor
+
+00:01:22.466 --> 00:01:23.933
+GitHub.  Así que tenemos dos
+
+00:01:23.933 --> 00:01:26.466
+tablas de usuarios separadas.  Tenemos a los
+
+00:01:26.466 --> 00:01:27.433
+que han enviado y recibido
+
+00:01:27.433 --> 00:01:28.833
+correos electrónicos, y luego tenemos a los
+
+00:01:28.833 --> 00:01:30.599
+que han iniciado sesión con GitHub.  Y
+
+00:01:30.599 --> 00:01:31.866
+si nos dirigimos a la base de datos
+
+00:01:31.866 --> 00:01:33.733
+y luego al visualizador de esquemas,
+
+00:01:33.733 --> 00:01:35.599
+podemos ver este diagrama de relaciones de entidades muy interesante
+
+00:01:35.599 --> 00:01:37.966
+de todas nuestras tablas
+
+00:01:37.966 --> 00:01:38.966
+y sus relaciones
+
+00:01:38.966 --> 00:01:40.466
+entre sí.  Puedo alejar
+
+00:01:40.466 --> 00:01:42.433
+un poco la imagen para que podamos verlo todo.  Por lo tanto, el
+
+00:01:42.433 --> 00:01:44.133
+ID en nuestra tabla de usuarios tiene
+
+00:01:44.133 --> 00:01:46.266
+una relación con el ID del remitente y el
+
+00:01:46.266 --> 00:01:48.633
+ID del destinatario en los correos electrónicos, y también una
+
+00:01:48.633 --> 00:01:49.566
+relación con el
+
+00:01:49.566 --> 00:01:51.766
+ID de usuario en nuestra tabla de carpetas de usuarios.  Esto incluye
+
+00:01:51.766 --> 00:01:53.866
+todo lo que se encuentra en el esquema público o en las
+
+00:01:53.866 --> 00:01:54.933
+tablas que hemos creado
+
+00:01:54.933 --> 00:01:56.633
+para nuestra aplicación.  Pero hay un
+
+00:01:56.633 --> 00:01:57.866
+conjunto de otros esquemas que
+
+00:01:57.866 --> 00:01:59.633
+son gestionados ya sea por Supabase
+
+00:01:59.833 --> 00:02:02.133
+o por cualquier extensión que hayamos habilitado.
+
+00:02:02.133 --> 00:02:03.033
+Y si echamos un vistazo al
+
+00:02:03.033 --> 00:02:04.400
+esquema de autenticación, vemos toda la
+
+00:02:04.400 --> 00:02:06.533
+complejidad que utiliza Supabase para realizar
+
+00:02:06.533 --> 00:02:08.666
+un seguimiento de nuestras sesiones y también de nuestros
+
+00:02:08.666 --> 00:02:09.800
+usuarios.  Esta es la
+
+00:02:09.833 --> 00:02:12.000
+tabla de usuarios donde se crean nuestros usuarios
+
+00:02:12.000 --> 00:02:13.166
+cuando inician sesión con
+
+00:02:13.166 --> 00:02:15.000
+GitHub.  Y luego, volviendo a nuestro
+
+00:02:15.000 --> 00:02:17.199
+esquema público, tenemos nuestra tabla de usuarios
+
+00:02:17.199 --> 00:02:18.633
+que está vinculada a nuestros correos electrónicos
+
+00:02:18.633 --> 00:02:20.099
+y al resto de nuestra aplicación.
+
+00:02:20.466 --> 00:02:22.233
+Por lo tanto, queremos establecer una relación
+
+00:02:22.233 --> 00:02:25.033
+entre estos esquemas para vincularlos con las
+
+00:02:25.033 --> 00:02:26.566
+tablas de usuarios.  Pero los tipos
+
+00:02:26.699 --> 00:02:30.000
+de nuestros ID no coinciden con el ID de nuestros usuarios públicos, que
+
+00:02:30.000 --> 00:02:32.866
+es un entero, y en nuestro
+
+00:02:32.866 --> 00:02:34.933
+esquema de autenticación, el ID de nuestras tablas de usuarios
+
+00:02:35.300 --> 00:02:38.266
+es un UUID.  Y solo se pueden establecer
+
+00:02:38.266 --> 00:02:39.333
+relaciones de clave externa
+
+00:02:39.333 --> 00:02:40.666
+entre dos columnas que sean
+
+00:02:40.666 --> 00:02:43.266
+del mismo tipo.  Para vincular nuestra
+
+00:02:43.266 --> 00:02:46.099
+tabla de usuarios de esquemas públicos con nuestra
+
+00:02:46.099 --> 00:02:47.533
+tabla de usuarios de esquemas de autenticación,
+
+00:02:47.533 --> 00:02:49.466
+vamos a crear una nueva columna para
+
+00:02:49.466 --> 00:02:52.333
+nuestro usuario público que sea de tipo UUID.  Así que vayamos
+
+00:02:52.333 --> 00:02:53.300
+al
+
+00:02:53.300 --> 00:02:55.199
+editor de tablas.  Y luego, para nuestra
+
+00:02:55.199 --> 00:02:57.466
+tabla de usuarios, queremos desplazarnos hasta el
+
+00:02:57.466 --> 00:02:58.833
+final y hacer clic en este signo más
+
+00:02:58.833 --> 00:03:00.933
+para agregar una nueva columna.  El nombre va a
+
+00:03:00.933 --> 00:03:02.266
+ser supabase_id.  Vamos
+
+00:03:02.266 --> 00:03:03.666
+a hacer clic aquí
+
+00:03:03.699 --> 00:03:06.466
+para agregar una relación de clave externa al
+
+00:03:06.466 --> 00:03:07.933
+esquema de autenticación.  La tabla a la que queremos
+
+00:03:07.933 --> 00:03:10.233
+hacer referencia es users y la
+
+00:03:10.233 --> 00:03:12.000
+columna a la que queremos hacer referencia en la
+
+00:03:12.000 --> 00:03:14.400
+tabla auth.users es el ID.  Si nos desplazamos hacia
+
+00:03:14.400 --> 00:03:15.766
+abajo, también podemos configurar
+
+00:03:15.766 --> 00:03:17.766
+el comportamiento que queremos que se produzca si
+
+00:03:17.766 --> 00:03:19.933
+se actualiza la fila en la
+
+00:03:19.933 --> 00:03:20.966
+tabla auth.users.  En este caso,
+
+00:03:20.966 --> 00:03:22.500
+no queremos hacer nada.  Queremos que
+
+00:03:22.500 --> 00:03:24.333
+genere un error si rompe
+
+00:03:24.333 --> 00:03:25.199
+algo necesario
+
+00:03:25.199 --> 00:03:27.233
+para esa relación de clave externa.  Por lo tanto, si
+
+00:03:27.233 --> 00:03:28.866
+el ID ha cambiado, lo cual nunca
+
+00:03:28.866 --> 00:03:30.433
+debería ocurrir, queremos que se
+
+00:03:30.466 --> 00:03:32.366
+produzca un error.  Sin embargo, si se
+
+00:03:32.366 --> 00:03:35.033
+elimina por completo el usuario autenticado, podríamos
+
+00:03:35.033 --> 00:03:36.300
+no hacer nada y
+
+00:03:36.300 --> 00:03:38.400
+generar un error, o podríamos hacer una eliminación en cascada, lo que
+
+00:03:38.699 --> 00:03:39.733
+significa que si se elimina un usuario
+
+00:03:39.733 --> 00:03:41.533
+de la tabla auth.users,
+
+00:03:41.866 --> 00:03:43.533
+queremos que esas eliminaciones se apliquen en cascada a la
+
+00:03:43.533 --> 00:03:44.833
+tabla de usuarios públicos.  Así que
+
+00:03:44.833 --> 00:03:46.033
+también se eliminarían,
+
+00:03:46.400 --> 00:03:48.000
+pero entonces tendríamos que propagar las eliminaciones
+
+00:03:48.000 --> 00:03:49.933
+a todos sus correos electrónicos y a
+
+00:03:49.933 --> 00:03:51.233
+todas las demás tablas en las que
+
+00:03:51.233 --> 00:03:53.666
+sean destinatarios o remitentes.  Por lo tanto,
+
+00:03:53.666 --> 00:03:55.099
+probablemente no tenga sentido que
+
+00:03:55.099 --> 00:03:56.199
+simplemente borremos toda su
+
+00:03:56.233 --> 00:03:57.900
+existencia de la base de datos.
+
+00:03:58.433 --> 00:04:00.000
+En cambio, simplemente vamos a establecer esto como
+
+00:04:00.000 --> 00:04:01.333
+nulo.  Por lo tanto, si se elimina al usuario
+
+00:04:01.333 --> 00:04:03.066
+de la tabla auth.users,
+
+00:04:03.333 --> 00:04:05.400
+no le sucede nada a nuestro usuario público, que
+
+00:04:05.400 --> 00:04:06.400
+está vinculado a todos los
+
+00:04:06.400 --> 00:04:08.099
+datos de nuestra aplicación.  Simplemente elimina
+
+00:04:08.099 --> 00:04:08.766
+ese enlace a la
+
+00:04:08.766 --> 00:04:10.866
+tabla auth.users.  Por lo tanto, nuestro usuario público ya
+
+00:04:10.966 --> 00:04:13.500
+no tiene un auth.user.  Y luego
+
+00:04:13.500 --> 00:04:15.000
+podemos hacer clic en guardar para establecer esa
+
+00:04:15.000 --> 00:04:16.199
+relación.  Y si nos
+
+00:04:16.199 --> 00:04:17.833
+desplazamos un poco hacia abajo, podemos ver que el
+
+00:04:17.833 --> 00:04:19.866
+tipo se ha configurado correctamente como UUID,
+
+00:04:20.233 --> 00:04:20.933
+que es el tipo de
+
+00:04:20.933 --> 00:04:23.233
+nuestro ID en la tabla auth.users.  El
+
+00:04:23.233 --> 00:04:24.966
+valor predeterminado será nulo.  Por lo tanto,
+
+00:04:24.966 --> 00:04:25.866
+debemos asegurarnos de que la opción "
+
+00:04:25.900 --> 00:04:28.433
+permitir valores nulos" esté habilitada.  También queremos que
+
+00:04:28.433 --> 00:04:29.800
+esta columna sea única.
+
+00:04:30.366 --> 00:04:31.599
+Esto establece una relación uno a uno
+
+00:04:31.599 --> 00:04:33.199
+entre nuestra
+
+00:04:33.199 --> 00:04:35.300
+tabla pública schemas.users y nuestra
+
+00:04:35.300 --> 00:04:37.333
+tabla auth.schemas.users.  Por lo tanto,
+
+00:04:37.333 --> 00:04:39.400
+solo puede haber un usuario en el esquema público
+
+00:04:39.400 --> 00:04:40.566
+que haga referencia a un
+
+00:04:40.566 --> 00:04:42.266
+usuario específico en el esquema de autenticación.
+
+00:04:42.699 --> 00:04:44.500
+Así que hagamos clic en guardar para crear esa nueva
+
+00:04:44.500 --> 00:04:46.133
+columna.  Y ahora, cada vez que
+
+00:04:46.133 --> 00:04:48.099
+se crea un nuevo usuario en la
+
+00:04:48.099 --> 00:04:50.966
+tabla auth.schemas.users.  Así, cuando un nuevo
+
+00:04:50.966 --> 00:04:52.366
+usuario inicie sesión en nuestra
+
+00:04:52.366 --> 00:04:53.933
+aplicación Next.js a través de GitHub,
+
+00:04:53.966 --> 00:04:56.233
+se añadirá automáticamente una fila a esta
+
+00:04:56.233 --> 00:04:57.166
+tabla.  Y cuando eso
+
+00:04:57.166 --> 00:04:59.000
+ocurra, queremos
+
+00:04:59.166 --> 00:05:01.366
+crear automáticamente un nuevo usuario en nuestra
+
+00:05:01.366 --> 00:05:03.633
+tabla pública schemas.users y vincularlos
+
+00:05:03.633 --> 00:05:05.566
+utilizando esta columna de ID de Supabase.
+
+00:05:05.833 --> 00:05:08.166
+Y podemos hacer precisamente eso con una
+
+00:05:08.166 --> 00:05:09.533
+función de activación.  Así que vayamos
+
+00:05:09.533 --> 00:05:11.466
+a la base de datos, luego a las funciones
+
+00:05:11.666 --> 00:05:13.933
+y después creemos una nueva función.  El nombre
+
+00:05:13.933 --> 00:05:15.366
+de este puede ser manejado por el
+
+00:05:15.366 --> 00:05:17.166
+usuario público.  El esquema será
+
+00:05:17.166 --> 00:05:19.133
+público.  El tipo de retorno de este
+
+00:05:19.133 --> 00:05:20.533
+será un disparador.  No
+
+00:05:20.533 --> 00:05:22.133
+necesitamos argumentos.  Y luego,
+
+00:05:22.166 --> 00:05:24.199
+en la definición de nuestra función,
+
+00:05:24.199 --> 00:05:26.366
+necesitamos un principio y un final.  Así que
+
+00:05:26.366 --> 00:05:27.666
+puedes aprender todo sobre begin
+
+00:05:27.666 --> 00:05:29.833
+y end, las funciones de PostgreSQL y las
+
+00:05:29.833 --> 00:05:31.666
+transacciones en un vídeo que hicimos
+
+00:05:31.666 --> 00:05:33.366
+anteriormente en esta serie.  De nuevo,
+
+00:05:33.699 --> 00:05:35.266
+el enlace a esa lista de reproducción está en la descripción.
+
+00:05:35.633 --> 00:05:36.733
+Entonces, dentro del cuerpo de
+
+00:05:36.733 --> 00:05:38.133
+nuestra función, queremos
+
+00:05:38.233 --> 00:05:41.400
+insertar una nueva fila en la
+
+00:05:41.400 --> 00:05:43.066
+tabla public.users.  Y solo queremos configurar la
+
+00:05:43.066 --> 00:05:44.566
+columna supabase_id
+
+00:05:44.699 --> 00:05:47.033
+y el correo electrónico del usuario.  Entonces los
+
+00:05:47.033 --> 00:05:50.866
+valores serán new.id.  Por lo tanto, esta nueva
+
+00:05:50.866 --> 00:05:52.433
+variable es especial para activar
+
+00:05:52.466 --> 00:05:54.800
+funciones y representa la fila completa
+
+00:05:54.800 --> 00:05:56.466
+que se acaba de crear en la
+
+00:05:56.466 --> 00:05:58.400
+tabla auth.users.  Por lo tanto,
+
+00:05:58.466 --> 00:06:01.633
+new.id es el ID del usuario que acaba de
+
+00:06:01.633 --> 00:06:03.133
+iniciar sesión con GitHub y ha sido
+
+00:06:03.133 --> 00:06:04.400
+añadido automáticamente a la
+
+00:06:04.400 --> 00:06:06.666
+tabla auth.users.  Para acceder a su
+
+00:06:06.666 --> 00:06:07.866
+correo electrónico, podemos usar
+
+00:06:07.866 --> 00:06:12.599
+new.raw_user_meta_data, que es un gran
+
+00:06:12.633 --> 00:06:14.599
+archivo JSON con toda la información que obtenemos
+
+00:06:14.599 --> 00:06:16.933
+de GitHub sobre este usuario.  Entonces
+
+00:06:16.933 --> 00:06:18.266
+podemos acceder a la propiedad del correo electrónico
+
+00:06:18.266 --> 00:06:20.266
+usando este símbolo de guion mayor que
+
+00:06:20.266 --> 00:06:22.199
+mayor que y luego la cadena
+
+00:06:22.199 --> 00:06:23.400
+de la propiedad en ese
+
+00:06:23.400 --> 00:06:25.199
+gran blob JSON.  En este caso, se trata de
+
+00:06:25.199 --> 00:06:27.233
+correo electrónico.  Y luego agregaremos un punto y coma al
+
+00:06:27.233 --> 00:06:28.266
+final y nos aseguraremos de
+
+00:06:28.300 --> 00:06:30.833
+devolver esa nueva variable.  Esto
+
+00:06:30.833 --> 00:06:32.466
+insertará un nuevo usuario en
+
+00:06:32.466 --> 00:06:34.166
+el esquema público, pero es posible que
+
+00:06:34.166 --> 00:06:35.766
+ya exista uno si ha
+
+00:06:35.766 --> 00:06:38.766
+recibido un correo electrónico previamente.  Esto es
+
+00:06:38.766 --> 00:06:40.699
+complicado.  Me encanta.  Esto
+
+00:06:40.733 --> 00:06:42.433
+significa que debemos usar una acción de inserción/actualización,
+
+00:06:42.666 --> 00:06:44.633
+que primero intenta insertar un nuevo
+
+00:06:44.633 --> 00:06:45.933
+usuario, pero si ya
+
+00:06:45.933 --> 00:06:48.066
+existe uno, actualizará su
+
+00:06:48.066 --> 00:06:50.699
+columna supabase_id para vincularlo con ese
+
+00:06:50.699 --> 00:06:51.933
+nuevo usuario en el
+
+00:06:51.933 --> 00:06:54.333
+esquema de autenticación.  La forma en que hacemos upserts en Postgres
+
+00:06:54.333 --> 00:06:55.800
+es que primero intentamos insertar
+
+00:06:55.800 --> 00:06:57.099
+ese nuevo usuario con esos
+
+00:06:57.099 --> 00:07:00.533
+valores y luego en caso de conflicto en la
+
+00:07:00.533 --> 00:07:01.933
+columna email.  Por lo tanto, ya existe un usuario
+
+00:07:01.933 --> 00:07:03.833
+en nuestra tabla de usuarios públicos
+
+00:07:04.000 --> 00:07:06.099
+con ese correo electrónico específico.  En ese
+
+00:07:06.099 --> 00:07:08.133
+caso, queremos realizar una
+
+00:07:08.133 --> 00:07:11.233
+actualización y establecer la
+
+00:07:11.233 --> 00:07:14.033
+columna supabase_id para que sea igual a nuestro nuevo .id.  Y lo último que
+
+00:07:14.033 --> 00:07:15.800
+debemos hacer es hacer clic en mostrar
+
+00:07:15.800 --> 00:07:17.033
+configuración avanzada y
+
+00:07:17.033 --> 00:07:19.000
+luego cambiar nuestro tipo de seguridad de
+
+00:07:19.000 --> 00:07:20.433
+invocador de seguridad, que es como lo
+
+00:07:20.433 --> 00:07:21.866
+llamaremos en nombre de nuestro
+
+00:07:21.866 --> 00:07:24.333
+usuario.  Así pues, la RLS, que analizaremos próximamente, se
+
+00:07:24.333 --> 00:07:25.366
+aplicará.  En cambio,
+
+00:07:25.366 --> 00:07:26.533
+queremos cambiar esto a un
+
+00:07:26.533 --> 00:07:28.666
+definidor de seguridad, que ejecuta la
+
+00:07:28.666 --> 00:07:30.266
+función con nuestro nivel actual de
+
+00:07:30.266 --> 00:07:31.333
+privilegios, que es el
+
+00:07:31.366 --> 00:07:33.199
+rol de Postgres, que usamos para nuestro
+
+00:07:33.199 --> 00:07:34.433
+panel de control de Supabase.  De nuevo,
+
+00:07:34.433 --> 00:07:35.566
+hablaremos de los roles más adelante,
+
+00:07:35.566 --> 00:07:36.966
+pero básicamente, si estamos haciendo algo en
+
+00:07:36.966 --> 00:07:38.066
+nombre del usuario, entonces
+
+00:07:38.066 --> 00:07:39.366
+necesitamos un invocador de seguridad.  Pero
+
+00:07:39.366 --> 00:07:41.566
+como se trata de una acción del sistema relacionada
+
+00:07:41.566 --> 00:07:42.766
+con la integridad de
+
+00:07:42.766 --> 00:07:44.066
+nuestra base de datos, queremos
+
+00:07:44.066 --> 00:07:45.900
+definir la seguridad.  Así que hagamos clic en confirmar
+
+00:07:45.900 --> 00:07:47.833
+para crear esa función.  Y ahora queremos
+
+00:07:47.833 --> 00:07:49.000
+llamar a esa función
+
+00:07:49.033 --> 00:07:50.900
+cuando se agregue un nuevo usuario a la
+
+00:07:50.900 --> 00:07:53.400
+tabla auth.users.  Así que vayamos
+
+00:07:53.400 --> 00:07:54.766
+al editor SQL y dejemos que
+
+00:07:54.800 --> 00:07:56.966
+Supabase AI nos ayude.  Digamos que
+
+00:07:56.966 --> 00:07:58.566
+creamos un disparador
+
+00:07:58.566 --> 00:08:01.233
+que llama a la
+
+00:08:01.266 --> 00:08:04.266
+función handle_public_user cuando se inserta una fila
+
+00:08:04.266 --> 00:08:06.099
+en la
+
+00:08:06.099 --> 00:08:08.300
+tabla auth.users.  Veamos qué resultado arroja
+
+00:08:08.300 --> 00:08:10.000
+.  Tiene muy buena pinta.
+
+00:08:10.000 --> 00:08:11.300
+Aceptemos ese cambio.
+
+00:08:11.599 --> 00:08:13.000
+Así que estamos creando un disparador
+
+00:08:13.033 --> 00:08:14.866
+llamado esto.  Probablemente no queramos que tenga
+
+00:08:14.866 --> 00:08:16.033
+el mismo nombre que nuestra
+
+00:08:16.033 --> 00:08:17.433
+función.  Así que tal vez lo llamemos cuando se cree el
+
+00:08:17.433 --> 00:08:20.366
+usuario autenticado.  Entonces, después de eso, se realiza la
+
+00:08:20.366 --> 00:08:22.233
+inserción en la
+
+00:08:22.233 --> 00:08:23.733
+tabla auth.users para cada fila que se ve
+
+00:08:23.766 --> 00:08:25.733
+afectada por la instrucción.  Por lo tanto, para cada
+
+00:08:25.733 --> 00:08:27.199
+usuario agregado a la
+
+00:08:27.199 --> 00:08:28.933
+tabla auth.users, queremos ejecutar la
+
+00:08:28.933 --> 00:08:30.899
+función handle_public_user.  Así que hagamos
+
+00:08:30.899 --> 00:08:31.966
+clic en ejecutar para crear ese
+
+00:08:31.966 --> 00:08:33.766
+disparador y vemos que funciona correctamente, no se
+
+00:08:33.766 --> 00:08:35.433
+devuelven filas.  Así que todo está bien.  Para
+
+00:08:35.433 --> 00:08:36.933
+probar esto, podemos volver a nuestra
+
+00:08:36.933 --> 00:08:38.033
+aplicación y cerrar la sesión de
+
+00:08:38.033 --> 00:08:39.899
+nuestro usuario.  Y luego en el
+
+00:08:39.899 --> 00:08:41.266
+panel de control de Supabase, vaya a
+
+00:08:41.266 --> 00:08:43.033
+autenticación y luego en
+
+00:08:43.033 --> 00:08:45.199
+usuarios, queremos encontrar a nuestro usuario John y
+
+00:08:45.199 --> 00:08:46.166
+hacer clic en estos tres puntos
+
+00:08:46.166 --> 00:08:47.833
+y decir eliminar usuario.  Esto es
+
+00:08:47.833 --> 00:08:49.199
+solo una advertencia que nos indica que esto es
+
+00:08:49.199 --> 00:08:50.766
+permanente.  Así que hagamos clic en eliminar.
+
+00:08:51.033 --> 00:08:51.800
+Ahora, si volvemos a
+
+00:08:51.833 --> 00:08:53.766
+nuestra aplicación e iniciamos sesión con GitHub de
+
+00:08:53.766 --> 00:08:55.199
+nuevo, veremos que el
+
+00:08:55.199 --> 00:08:56.399
+proceso de autenticación se realizó correctamente.
+
+00:08:56.699 --> 00:08:58.300
+Ahí podemos ver a nuestro usuario John.  Si
+
+00:08:58.300 --> 00:08:59.500
+volvemos al
+
+00:08:59.500 --> 00:09:01.733
+panel de control de Supabase y luego actualizamos nuestros usuarios,
+
+00:09:02.000 --> 00:09:03.766
+veremos que el usuario John ha regresado y ha
+
+00:09:03.766 --> 00:09:05.199
+iniciado sesión con GitHub.  Y si
+
+00:09:05.199 --> 00:09:06.766
+vamos al editor de tablas
+
+00:09:06.866 --> 00:09:09.033
+y miramos la tabla de usuarios, podemos ver que
+
+00:09:09.033 --> 00:09:10.266
+nuestro usuario se ha
+
+00:09:10.266 --> 00:09:12.066
+creado automáticamente y se ha vinculado a la
+
+00:09:12.066 --> 00:09:14.633
+tabla auth.users con esta columna de ID de Supabase
+
+00:09:14.633 --> 00:09:15.899
+.  Pero volviendo a
+
+00:09:15.899 --> 00:09:16.699
+nuestra aplicación, esto sigue
+
+00:09:16.733 --> 00:09:18.966
+sin cambiar los correos electrónicos que nuestro
+
+00:09:18.966 --> 00:09:20.733
+usuario John puede ver.  Así que vamos a configurar
+
+00:09:20.733 --> 00:09:21.866
+nuestro usuario John para que
+
+00:09:21.866 --> 00:09:24.100
+solo pueda ver los correos electrónicos que haya
+
+00:09:24.100 --> 00:09:25.899
+enviado o recibido.  Así que volvamos
+
+00:09:25.899 --> 00:09:27.133
+a la autenticación
+
+00:09:27.366 --> 00:09:29.433
+y luego a las políticas.  Y luego queremos
+
+00:09:29.433 --> 00:09:31.100
+habilitar la seguridad a nivel de fila (RLS)
+
+00:09:31.100 --> 00:09:32.933
+para la tabla de correos electrónicos.  Hagamos
+
+00:09:32.933 --> 00:09:35.300
+clic en habilitar RLS y confirmemos.  Y
+
+00:09:35.300 --> 00:09:36.300
+veremos que ahora este es verde en
+
+00:09:36.300 --> 00:09:38.133
+lugar de todas esas
+
+00:09:38.466 --> 00:09:40.300
+cosas de precaución de color naranja amarillento.  Así que vamos por buen
+
+00:09:40.300 --> 00:09:41.966
+camino.  Ahora, por defecto, RLS
+
+00:09:41.966 --> 00:09:43.399
+rechaza automáticamente todas las solicitudes
+
+00:09:43.500 --> 00:09:45.199
+a la tabla.  Por lo tanto, nadie puede seleccionar,
+
+00:09:45.399 --> 00:09:46.699
+insertar, actualizar ni eliminar
+
+00:09:46.699 --> 00:09:48.566
+ninguno de nuestros correos electrónicos.  Así que si
+
+00:09:48.566 --> 00:09:50.500
+volvemos a nuestra aplicación, aún podemos ver
+
+00:09:50.500 --> 00:09:51.633
+esos correos electrónicos.  Así que actualicemos la página
+
+00:09:51.633 --> 00:09:53.733
+y podremos seguir viendo
+
+00:09:53.733 --> 00:09:55.733
+esos correos electrónicos.  Espera, ¿qué?  Todos siguen
+
+00:09:55.733 --> 00:09:58.899
+ahí.  ¿No funciona RLS?  RLS está
+
+00:09:58.899 --> 00:09:59.899
+definitivamente habilitado en
+
+00:09:59.899 --> 00:10:01.600
+la tabla de correos electrónicos y no hemos escrito
+
+00:10:01.600 --> 00:10:02.733
+ninguna política para habilitar
+
+00:10:02.733 --> 00:10:04.066
+ninguna de esas acciones.  Por lo tanto,
+
+00:10:04.066 --> 00:10:05.833
+definitivamente debería denegar las solicitudes para
+
+00:10:05.833 --> 00:10:06.966
+seleccionar datos de la tabla de correos electrónicos
+
+00:10:06.966 --> 00:10:07.966
+.  Pero nuestra aplicación en
+
+00:10:08.233 --> 00:10:10.699
+realidad no utiliza solo la tabla de correos electrónicos.
+
+00:10:10.966 --> 00:10:12.066
+Estamos utilizando esta vista para
+
+00:10:12.066 --> 00:10:13.699
+los correos electrónicos con carpetas y
+
+00:10:13.699 --> 00:10:15.933
+usuarios.  Esto combina todos los
+
+00:10:15.933 --> 00:10:17.566
+datos del correo electrónico y
+
+00:10:17.566 --> 00:10:19.000
+luego un gran archivo JSON con información sobre
+
+00:10:19.000 --> 00:10:20.933
+el destinatario y el remitente.  Y también
+
+00:10:20.933 --> 00:10:22.100
+nos indica la carpeta a la que
+
+00:10:22.100 --> 00:10:23.800
+pertenecen.  Y por defecto,
+
+00:10:24.033 --> 00:10:26.600
+las vistas omiten el RLS.  Pero podemos solucionarlo
+
+00:10:26.600 --> 00:10:27.766
+fácilmente.  Podemos
+
+00:10:27.766 --> 00:10:29.500
+alternar entre los datos que
+
+00:10:29.500 --> 00:10:31.533
+devuelve nuestra vista y la definición,
+
+00:10:31.533 --> 00:10:33.100
+que nos proporciona el código SQL
+
+00:10:33.100 --> 00:10:34.933
+necesario para reconstruir esa
+
+00:10:34.966 --> 00:10:37.033
+tabla desde cero.  Y podemos abrirlo
+
+00:10:37.033 --> 00:10:38.500
+directamente en el
+
+00:10:38.500 --> 00:10:39.733
+editor SQL.  Y ahora podemos hacer
+
+00:10:39.733 --> 00:10:42.366
+algunos cambios diciendo crear o reemplazar
+
+00:10:42.366 --> 00:10:44.233
+una vista llamada correos electrónicos con
+
+00:10:44.233 --> 00:10:45.366
+carpeta y usuarios.  Y luego
+
+00:10:45.366 --> 00:10:48.000
+podemos agregar una cláusula with para establecer
+
+00:10:48.000 --> 00:10:50.666
+security_invoker igual a true.  Ahora, si
+
+00:10:50.666 --> 00:10:51.533
+ejecutamos esta instrucción,
+
+00:10:51.533 --> 00:10:53.800
+vemos que funciona, no se devuelve ninguna fila.  Y si
+
+00:10:53.800 --> 00:10:55.399
+volvemos a nuestra aplicación y la
+
+00:10:55.399 --> 00:10:56.500
+actualizamos, veremos que nuestro
+
+00:10:56.500 --> 00:10:58.533
+usuario John ya no puede ver ningún
+
+00:10:58.533 --> 00:10:59.766
+correo electrónico porque la vista
+
+00:10:59.766 --> 00:11:01.333
+que selecciona estos datos ahora
+
+00:11:01.333 --> 00:11:04.233
+respeta el RLS (Sistema de Lista a Nivel).  Así podemos ver que el recuento de
+
+00:11:04.233 --> 00:11:05.533
+cada una de nuestras carpetas sigue
+
+00:11:05.533 --> 00:11:07.199
+omitiendo RLS.  Y si
+
+00:11:07.199 --> 00:11:08.966
+volvemos al panel de control de Supabase y
+
+00:11:08.966 --> 00:11:10.600
+luego al editor de tablas, podemos ver que se trata de
+
+00:11:10.600 --> 00:11:11.833
+esta vista o carpetas
+
+00:11:11.899 --> 00:11:13.899
+con el recuento de correos electrónicos.  Y podemos hacer lo mismo
+
+00:11:13.899 --> 00:11:15.100
+yendo a la
+
+00:11:15.100 --> 00:11:16.866
+definición y abriéndola en el
+
+00:11:16.866 --> 00:11:19.333
+editor SQL y diciendo nuevamente crear o
+
+00:11:19.333 --> 00:11:21.666
+reemplazar la vista llamada public dot
+
+00:11:21.666 --> 00:11:22.666
+folders con email count.
+
+00:11:22.666 --> 00:11:25.266
+Y podemos agregar nuestra cláusula with para indicar que
+
+00:11:25.266 --> 00:11:26.600
+queremos establecer
+
+00:11:26.600 --> 00:11:28.833
+security_invoker igual a true.
+
+00:11:28.899 --> 00:11:31.033
+Y si ejecutamos esto, vemos que
+
+00:11:31.033 --> 00:11:32.833
+funciona, no se devuelve ninguna fila.  Y si
+
+00:11:32.833 --> 00:11:33.833
+volvemos a nuestra aplicación
+
+00:11:34.066 --> 00:11:36.066
+y la actualizamos, estas carpetas seguirán
+
+00:11:36.066 --> 00:11:37.433
+recibiendo ese recuento para la
+
+00:11:37.433 --> 00:11:39.166
+cantidad de todos los correos electrónicos que
+
+00:11:39.166 --> 00:11:41.100
+existen dentro de esa carpeta para cada usuario.
+
+00:11:41.100 --> 00:11:41.899
+Esto se debe a que, si
+
+00:11:41.899 --> 00:11:42.800
+observamos nuestra vista,
+
+00:11:42.933 --> 00:11:45.800
+está utilizando las tablas de carpetas y carpetas de correo electrónico
+
+00:11:45.800 --> 00:11:47.133
+, ninguna de las
+
+00:11:47.133 --> 00:11:49.033
+cuales tiene
+
+00:11:49.266 --> 00:11:51.266
+habilitado el RLS.  Así podemos ver carpetas, carpetas de correo electrónico
+
+00:11:51.266 --> 00:11:53.366
+.  Comencemos por habilitar RLS
+
+00:11:53.366 --> 00:11:54.666
+para la
+
+00:11:54.699 --> 00:11:56.399
+tabla email_folders.  Esto es lo que está utilizando
+
+00:11:56.399 --> 00:11:57.699
+nuestro conteo.  Y ahora, si
+
+00:11:57.699 --> 00:11:58.566
+volvemos a nuestra aplicación
+
+00:11:58.800 --> 00:12:01.066
+y la actualizamos, ya no vemos ningún correo electrónico.
+
+00:12:01.533 --> 00:12:02.899
+Y esto es precisamente lo que
+
+00:12:02.899 --> 00:12:04.100
+queremos.  Esto no significa que esté
+
+00:12:04.100 --> 00:12:06.600
+roto.  Significa que está funcionando.  Recuerda que
+
+00:12:06.699 --> 00:12:08.033
+RLS rechaza todas las solicitudes de selección,
+
+00:12:08.033 --> 00:12:09.633
+inserción, actualización o eliminación.
+
+00:12:10.066 --> 00:12:11.933
+Así que, si queremos habilitar una de esas opciones,
+
+00:12:11.933 --> 00:12:12.933
+solo tenemos que escribir una política que se guarde
+
+00:12:12.933 --> 00:12:14.699
+en el
+
+00:12:14.699 --> 00:12:16.533
+panel de control de Supabase, en la sección de autenticación y
+
+00:12:16.533 --> 00:12:18.433
+políticas.  Comencemos con nuestra tabla de correos electrónicos
+
+00:12:18.433 --> 00:12:20.399
+y redactemos una nueva política.
+
+00:12:20.399 --> 00:12:22.066
+Existen algunas plantillas disponibles para que
+
+00:12:22.066 --> 00:12:23.233
+puedas empezar, o puedes utilizar
+
+00:12:23.233 --> 00:12:24.600
+el asistente de IA de Supabase
+
+00:12:24.766 --> 00:12:26.266
+para que las escriba por ti.  Pero vamos
+
+00:12:26.266 --> 00:12:27.433
+a crear este desde
+
+00:12:27.433 --> 00:12:28.833
+cero para poder analizar con detalle lo que
+
+00:12:28.833 --> 00:12:30.566
+está sucediendo.  Así que el nombre de
+
+00:12:30.566 --> 00:12:32.000
+nuestra política será: los
+
+00:12:32.000 --> 00:12:34.699
+usuarios pueden leer sus correos electrónicos.
+
+00:12:34.699 --> 00:12:36.199
+Como esto trata sobre la lectura,
+
+00:12:36.199 --> 00:12:38.100
+vamos a habilitar la acción de selección y
+
+00:12:38.100 --> 00:12:38.966
+dejaremos los
+
+00:12:38.966 --> 00:12:40.833
+roles de destino por defecto, lo que se aplica
+
+00:12:40.833 --> 00:12:41.966
+a todos.  Y luego, para
+
+00:12:41.966 --> 00:12:43.233
+nuestra expresión de uso,
+
+00:12:43.233 --> 00:12:44.766
+necesitamos proporcionar una declaración que se
+
+00:12:44.766 --> 00:12:47.066
+evalúe como verdadera o falsa.  Si la
+
+00:12:47.066 --> 00:12:48.366
+evaluación es verdadera, el
+
+00:12:48.366 --> 00:12:50.300
+usuario podrá seleccionar ese correo electrónico.
+
+00:12:50.533 --> 00:12:51.633
+Y si se evalúa como
+
+00:12:51.633 --> 00:12:53.566
+falso, entonces RLS simplemente seguirá
+
+00:12:53.733 --> 00:12:55.566
+negándolo.  Si establecemos esta opción en verdadero
+
+00:12:55.766 --> 00:12:57.066
+y luego nos desplazamos hacia abajo y
+
+00:12:57.066 --> 00:12:58.533
+hacemos clic en revisar, esto nos mostrará
+
+00:12:58.533 --> 00:13:00.500
+el código SQL que se ha generado a partir de cada uno
+
+00:13:00.500 --> 00:13:01.733
+de esos campos del formulario.  Y
+
+00:13:01.733 --> 00:13:03.100
+si hacemos clic en Guardar política, se
+
+00:13:03.166 --> 00:13:04.699
+ejecutará en nuestra
+
+00:13:04.699 --> 00:13:06.600
+base de datos Postgres.  Así, podemos confirmar que esta
+
+00:13:06.600 --> 00:13:07.933
+política está funcionando volviendo
+
+00:13:07.933 --> 00:13:09.266
+a nuestra aplicación y
+
+00:13:09.266 --> 00:13:10.933
+actualizándola.  Y no vemos nada.
+
+00:13:10.933 --> 00:13:12.199
+Pero si volvemos a mirar
+
+00:13:12.233 --> 00:13:14.933
+nuestra vista de correos electrónicos con carpetas y
+
+00:13:14.933 --> 00:13:16.566
+usuarios, podemos mirar la
+
+00:13:16.566 --> 00:13:17.699
+definición y ver que
+
+00:13:17.699 --> 00:13:19.733
+está utilizando esta tabla de carpetas de correo electrónico,
+
+00:13:19.733 --> 00:13:21.699
+que también tiene RLS habilitado.  Volvamos entonces
+
+00:13:21.699 --> 00:13:22.366
+a la autenticación
+
+00:13:22.899 --> 00:13:24.800
+y luego a las políticas.  Y para nuestras carpetas de correo electrónico
+
+00:13:24.800 --> 00:13:26.066
+, vamos a redactar una nueva
+
+00:13:26.066 --> 00:13:27.066
+política.  Una vez más, lo haremos
+
+00:13:27.066 --> 00:13:29.433
+desde cero.  Esto permitirá que los usuarios
+
+00:13:29.433 --> 00:13:31.566
+seleccionen carpetas de correo electrónico,
+
+00:13:31.566 --> 00:13:33.100
+habiliten la acción de selección,
+
+00:13:33.100 --> 00:13:34.899
+dejen el rol predeterminado como público y luego
+
+00:13:34.899 --> 00:13:36.333
+pongan verdadero como
+
+00:13:36.333 --> 00:13:37.600
+expresión de uso.  Ahora, si nos desplazamos hacia abajo
+
+00:13:37.766 --> 00:13:40.000
+y revisamos y luego guardamos la política.  Ahora,
+
+00:13:40.000 --> 00:13:40.899
+cuando volvemos a nuestra
+
+00:13:40.899 --> 00:13:42.866
+aplicación y la actualizamos, vemos que
+
+00:13:42.933 --> 00:13:44.833
+nuestros correos electrónicos han regresado, pero nuestro usuario John acaba de
+
+00:13:44.833 --> 00:13:46.466
+ser creado.  Por lo tanto,
+
+00:13:46.466 --> 00:13:47.966
+no son ni el remitente ni el destinatario
+
+00:13:48.166 --> 00:13:50.333
+de ninguno de estos correos electrónicos.  Y no queremos que todo el mundo pueda
+
+00:13:50.333 --> 00:13:52.066
+ver los
+
+00:13:52.066 --> 00:13:53.399
+correos electrónicos de los demás.  Eso
+
+00:13:53.399 --> 00:13:55.399
+no es muy seguro.  Por lo tanto, en lugar de simplemente
+
+00:13:55.399 --> 00:13:58.133
+devolver verdadero, queremos comprobar que la
+
+00:13:58.133 --> 00:13:59.566
+columna recipient_id
+
+00:13:59.666 --> 00:14:02.933
+sea igual a nuestro usuario actual.
+
+00:14:02.933 --> 00:14:04.000
+Y podemos obtener nuestro
+
+00:14:04.000 --> 00:14:05.533
+usuario actual con una función especial de Supabase
+
+00:14:05.533 --> 00:14:08.100
+llamada auth.uid.  Pero el problema
+
+00:14:08.100 --> 00:14:09.500
+es que esto nos devolverá un
+
+00:14:09.500 --> 00:14:12.066
+UUID.  Y este es el ID entero
+
+00:14:12.066 --> 00:14:14.100
+que utiliza nuestro esquema público.  Entonces,
+
+00:14:14.100 --> 00:14:15.399
+vamos a usar una
+
+00:14:15.399 --> 00:14:17.199
+subconsulta aquí para decir que el
+
+00:14:17.433 --> 00:14:20.199
+recipient_id está en el conjunto de resultados que se obtiene
+
+00:14:20.199 --> 00:14:21.899
+al seleccionar
+
+00:14:21.899 --> 00:14:24.866
+el ID de la tabla pública dot
+
+00:14:24.866 --> 00:14:27.399
+users donde el supabase_id
+
+00:14:27.399 --> 00:14:30.266
+es igual al resultado de
+
+00:14:30.266 --> 00:14:32.000
+esa función auth.uid.
+
+00:14:32.300 --> 00:14:34.500
+Así que conocemos a nuestro usuario de Supabase, conocemos
+
+00:14:34.500 --> 00:14:36.966
+la ID de nuestro usuario público.
+
+00:14:36.966 --> 00:14:38.566
+Y esto, en cierto modo, unirá
+
+00:14:38.566 --> 00:14:40.633
+esas dos cosas.  Y también queremos los
+
+00:14:40.633 --> 00:14:42.066
+correos electrónicos en los que ellos sean el
+
+00:14:42.066 --> 00:14:43.066
+remitente.  Entonces podemos hacer lo mismo
+
+00:14:43.100 --> 00:14:46.100
+y decir que sender_id está
+
+00:14:46.100 --> 00:14:47.500
+dentro y luego copiar y pegar
+
+00:14:47.500 --> 00:14:49.199
+esa misma subconsulta.  Y ahora,
+
+00:14:49.199 --> 00:14:51.199
+si hacemos clic en revisar, veremos el código SQL
+
+00:14:51.199 --> 00:14:52.633
+que se ha generado para modificar
+
+00:14:52.633 --> 00:14:54.533
+nuestra política y guardar la política para
+
+00:14:54.533 --> 00:14:56.633
+ejecutar ese código SQL en nuestra base de datos.  Y
+
+00:14:56.633 --> 00:14:57.699
+ahora, si volvemos a nuestra
+
+00:14:57.699 --> 00:14:59.566
+aplicación y la actualizamos, no veremos
+
+00:14:59.666 --> 00:15:01.733
+ningún correo electrónico porque nuestro usuario John no ha
+
+00:15:01.733 --> 00:15:03.333
+recibido ni enviado ningún correo electrónico.
+
+00:15:03.633 --> 00:15:04.933
+Así que podemos volver al
+
+00:15:04.933 --> 00:15:07.699
+editor de tablas, ir a correos electrónicos y cambiar
+
+00:15:07.699 --> 00:15:09.333
+el remitente de este primer
+
+00:15:09.333 --> 00:15:11.066
+correo electrónico a nuestro usuario John,
+
+00:15:11.266 --> 00:15:13.633
+y luego cambiar el destinatario de este
+
+00:15:13.633 --> 00:15:15.100
+también a nuestro
+
+00:15:15.100 --> 00:15:16.500
+usuario John.  Ahora, cuando volvemos a
+
+00:15:16.533 --> 00:15:19.033
+nuestra aplicación y actualizamos, vemos un
+
+00:15:19.033 --> 00:15:20.933
+correo electrónico en nuestra bandeja de entrada, lo cual es raro
+
+00:15:20.933 --> 00:15:21.633
+porque se envía tanto
+
+00:15:21.666 --> 00:15:23.600
+de mí a mí mismo, pero no hay problema.  Y
+
+00:15:23.600 --> 00:15:24.666
+si luego revisamos nuestros
+
+00:15:24.666 --> 00:15:26.600
+correos electrónicos enviados, vemos un correo electrónico que se ha
+
+00:15:26.600 --> 00:15:28.566
+enviado, por lo que podemos ver que nuestros números aún no coinciden
+
+00:15:28.566 --> 00:15:29.666
+para cada una de estas
+
+00:15:29.666 --> 00:15:31.233
+carpetas.  Y eso se debe a que en nuestra
+
+00:15:31.233 --> 00:15:34.033
+política RLS, es decir, en autenticación y
+
+00:15:34.033 --> 00:15:35.333
+luego en políticas, nuestra
+
+00:15:35.333 --> 00:15:36.666
+política de selección en nuestra tabla de carpetas de correo electrónico
+
+00:15:36.699 --> 00:15:39.500
+sigue utilizando simplemente la expresión
+
+00:15:39.500 --> 00:15:41.066
+verdadero.  Así que, como siempre
+
+00:15:41.066 --> 00:15:42.666
+queremos que el número de correos electrónicos en
+
+00:15:42.666 --> 00:15:44.633
+esa carpeta coincida con el número de correos electrónicos que
+
+00:15:44.633 --> 00:15:45.733
+podemos seleccionar de esa
+
+00:15:45.733 --> 00:15:47.166
+carpeta, podemos usar este
+
+00:15:47.166 --> 00:15:49.033
+pequeño truco para aplicar políticas desde
+
+00:15:49.033 --> 00:15:50.633
+otra tabla.  Entonces podemos
+
+00:15:50.633 --> 00:15:53.300
+decir seleccionar estrella de correos electrónicos
+
+00:15:53.500 --> 00:15:56.600
+donde email_id coincida con el
+
+00:15:56.600 --> 00:15:58.600
+ID de la tabla de correos electrónicos.  Y ahora,
+
+00:15:58.600 --> 00:16:00.166
+dado que las políticas RLS de
+
+00:16:00.166 --> 00:16:02.500
+la tabla de correos electrónicos se aplicarán
+
+00:16:02.500 --> 00:16:04.166
+a esta instrucción SELECT,
+
+00:16:04.166 --> 00:16:05.466
+nuestro usuario solo recibirá los
+
+00:16:05.500 --> 00:16:07.466
+registros que las políticas de la
+
+00:16:07.466 --> 00:16:09.666
+tabla de correos electrónicos le permitan.  Otro
+
+00:16:09.666 --> 00:16:10.833
+pequeño consejo para ahorrar tiempo
+
+00:16:10.833 --> 00:16:12.433
+es que, en lugar de seleccionar
+
+00:16:12.433 --> 00:16:13.366
+esas columnas, podemos
+
+00:16:13.366 --> 00:16:15.000
+simplemente seleccionar el número uno,
+
+00:16:15.000 --> 00:16:16.633
+que representa el valor verdadero.  Y luego podemos
+
+00:16:16.633 --> 00:16:18.033
+incluir esto en una
+
+00:16:18.033 --> 00:16:19.866
+instrucción EXIST.  Si obtenemos el valor
+
+00:16:19.866 --> 00:16:21.566
+verdadero de esta instrucción select, entonces
+
+00:16:21.566 --> 00:16:23.733
+toda esta política devolverá verdadero.
+
+00:16:23.733 --> 00:16:24.833
+De lo contrario, devolverá
+
+00:16:24.833 --> 00:16:26.833
+falso.  Nuevamente, dado que esto requiere que el
+
+00:16:26.833 --> 00:16:28.433
+usuario esté autenticado, podemos asignarle
+
+00:16:28.433 --> 00:16:29.333
+el
+
+00:16:29.333 --> 00:16:31.833
+rol de usuario autenticado para garantizar que solo se ejecute para los usuarios que
+
+00:16:31.833 --> 00:16:32.766
+hayan iniciado sesión. Ahora podemos
+
+00:16:32.766 --> 00:16:34.199
+hacer clic en "Revisar" para ver el código SQL
+
+00:16:34.233 --> 00:16:36.600
+de nuestra política y guardarla para ejecutarla.
+
+00:16:36.600 --> 00:16:37.433
+Y ahora, si volvemos a
+
+00:16:37.433 --> 00:16:38.866
+nuestra aplicación y actualizamos,
+
+00:16:39.133 --> 00:16:41.199
+veremos que solo tenemos ese correo electrónico en
+
+00:16:41.199 --> 00:16:42.466
+nuestra bandeja de entrada, que es este,
+
+00:16:42.466 --> 00:16:43.933
+y ese otro correo electrónico en nuestra
+
+00:16:43.933 --> 00:16:46.300
+carpeta de enviados, que es este.  Vaya, eso fue
+
+00:16:46.300 --> 00:16:47.633
+un poco complejo.  Si
+
+00:16:47.633 --> 00:16:49.533
+eres nuevo en RLS y no lo has
+
+00:16:49.533 --> 00:16:51.566
+entendido del todo, simplemente vuelve a ver el vídeo
+
+00:16:51.566 --> 00:16:53.000
+.  Puedes hacerlo
+
+00:16:53.000 --> 00:16:54.600
+tantas veces como quieras.
+
+00:16:55.166 --> 00:16:57.800
+Bueno.  Nuestros usuarios pueden seleccionar los
+
+00:16:57.800 --> 00:16:59.833
+correos electrónicos de los que son remitentes o
+
+00:16:59.833 --> 00:17:01.233
+destinatarios, pero ¿qué ocurre
+
+00:17:01.266 --> 00:17:03.333
+si intentan eliminar un correo electrónico?  Parece que ya
+
+00:17:03.333 --> 00:17:04.433
+no está seleccionado
+
+00:17:04.433 --> 00:17:05.899
+aquí, pero aún existe aquí
+
+00:17:05.899 --> 00:17:07.533
+y aún existe aquí.  Así que no
+
+00:17:07.533 --> 00:17:08.733
+creo que realmente haya desaparecido.  Intentemos
+
+00:17:08.733 --> 00:17:09.933
+refrescar.  Sí.  Todavía está allí
+
+00:17:09.933 --> 00:17:11.366
+.  Y podemos hacer clic en él y seguir viendo
+
+00:17:11.366 --> 00:17:12.733
+su contenido.  Entonces, la función de eliminar
+
+00:17:12.733 --> 00:17:13.899
+no funciona.  Y ya sabes
+
+00:17:13.899 --> 00:17:17.000
+por qué se llama RLS.  Hemos redactado una política de selección,
+
+00:17:17.000 --> 00:17:18.666
+pero si queremos habilitar la
+
+00:17:18.666 --> 00:17:19.833
+acción de eliminación, necesitamos redactar
+
+00:17:19.833 --> 00:17:21.733
+una política específica para ello.  Así que volvemos al
+
+00:17:21.733 --> 00:17:23.566
+panel de control de Supabase, en nuestra tabla de correos electrónicos
+
+00:17:23.566 --> 00:17:24.866
+, y queremos crear
+
+00:17:24.866 --> 00:17:26.500
+una nueva política.  Una vez más, lo haremos
+
+00:17:26.500 --> 00:17:28.366
+desde cero.  El nombre va a ser
+
+00:17:28.366 --> 00:17:30.033
+usuario puede eliminar sus
+
+00:17:30.066 --> 00:17:32.199
+correos electrónicos.  Esto habilitará la
+
+00:17:32.199 --> 00:17:34.033
+acción de eliminar.  Los roles objetivo se
+
+00:17:34.033 --> 00:17:35.000
+configurarán como autenticados.
+
+00:17:35.433 --> 00:17:37.133
+Y en cuanto a nuestra expresión de uso,
+
+00:17:37.133 --> 00:17:38.433
+probablemente solo tenga sentido que
+
+00:17:38.433 --> 00:17:39.699
+un usuario pueda eliminar los
+
+00:17:39.699 --> 00:17:41.300
+correos electrónicos que envió, en lugar de los que
+
+00:17:41.300 --> 00:17:43.233
+recibió.  Entonces queremos verificar que el
+
+00:17:43.233 --> 00:17:45.399
+sender_id esté en
+
+00:17:45.399 --> 00:17:47.766
+esta subconsulta donde seleccionamos el ID
+
+00:17:47.766 --> 00:17:50.899
+de la tabla pública dot users donde
+
+00:17:50.899 --> 00:17:52.000
+supabase_id
+
+00:17:52.000 --> 00:17:54.899
+es igual a la función auth.uid.  Así que
+
+00:17:54.899 --> 00:17:56.066
+desplácese hacia abajo, haga clic en
+
+00:17:56.066 --> 00:17:57.366
+revisar y luego guarde la política.
+
+00:17:57.600 --> 00:17:59.300
+Y si volvemos a nuestra aplicación e
+
+00:17:59.300 --> 00:18:00.633
+intentamos eliminar este correo electrónico
+
+00:18:00.633 --> 00:18:02.166
+de nuestra bandeja de entrada, no va
+
+00:18:02.166 --> 00:18:03.766
+a funcionar porque recordemos que nosotros somos el
+
+00:18:03.766 --> 00:18:05.333
+destinatario.  Pero si vamos a nuestros
+
+00:18:05.333 --> 00:18:07.066
+correos enviados e intentamos eliminar
+
+00:18:07.066 --> 00:18:08.600
+este, volvamos a hacer clic en ese pequeño
+
+00:18:08.600 --> 00:18:09.800
+botón de eliminar, ya no está
+
+00:18:09.800 --> 00:18:11.266
+seleccionado, pero sigue estando
+
+00:18:11.266 --> 00:18:12.733
+aquí en nuestra lista.  ¿Qué está pasando
+
+00:18:12.733 --> 00:18:14.833
+aquí?  Bueno, hemos escrito una política de eliminación
+
+00:18:14.833 --> 00:18:15.833
+para la tabla de correos electrónicos.
+
+00:18:16.066 --> 00:18:17.933
+Y si echamos un vistazo al editor de tablas
+
+00:18:17.933 --> 00:18:19.033
+de nuestra tabla de carpetas de correo electrónico
+
+00:18:19.033 --> 00:18:21.666
+, nuestra columna de ID de correo electrónico tiene una
+
+00:18:21.666 --> 00:18:24.166
+relación de clave externa con nuestro ID de correo electrónico
+
+00:18:24.166 --> 00:18:25.833
+y al eliminarlo es en
+
+00:18:25.833 --> 00:18:27.233
+cascada.  Por lo tanto, cada vez que eliminemos
+
+00:18:27.300 --> 00:18:29.399
+una fila de la tabla de correos electrónicos, esto se reflejará en cascada
+
+00:18:29.399 --> 00:18:31.899
+en nuestra tabla de carpetas de correo electrónico
+
+00:18:31.899 --> 00:18:33.166
+.  Así que podemos ir aquí
+
+00:18:33.166 --> 00:18:35.066
+para volver a nuestras políticas y luego simplemente
+
+00:18:35.066 --> 00:18:36.366
+eliminar este término de búsqueda para
+
+00:18:36.366 --> 00:18:37.899
+ver todas nuestras tablas.  Por lo tanto, si
+
+00:18:37.899 --> 00:18:40.333
+tenemos una política de eliminación en nuestra tabla de correos electrónicos
+
+00:18:40.333 --> 00:18:42.000
+, también necesitamos una
+
+00:18:42.000 --> 00:18:43.533
+política de eliminación en nuestra tabla de carpetas de correo electrónico
+
+00:18:43.533 --> 00:18:45.300
+.  Así que vamos a crear una nueva política.
+
+00:18:45.300 --> 00:18:46.666
+Haremos esto desde cero.  Esto
+
+00:18:46.666 --> 00:18:48.699
+permitirá eliminar el mensaje para el
+
+00:18:48.866 --> 00:18:50.600
+remitente.  Esto habilitará la
+
+00:18:50.600 --> 00:18:52.666
+acción de eliminar.  Vamos a seleccionar el
+
+00:18:52.666 --> 00:18:53.633
+rol autenticado y
+
+00:18:53.666 --> 00:18:55.666
+luego, para nuestra expresión using,
+
+00:18:55.666 --> 00:18:58.433
+vamos a seleccionar star de la
+
+00:18:58.433 --> 00:19:00.000
+tabla emails donde la
+
+00:19:00.066 --> 00:19:02.199
+columna email_id coincida con nuestro
+
+00:19:02.199 --> 00:19:04.533
+emails.id.  Esto nos devolverá el
+
+00:19:04.533 --> 00:19:05.433
+correo electrónico que estamos intentando
+
+00:19:05.433 --> 00:19:07.833
+eliminar.  A continuación, queremos seleccionar el
+
+00:19:07.833 --> 00:19:09.500
+sender_id.  Así que, de nuevo,
+
+00:19:09.500 --> 00:19:11.833
+este es el ID entero de nuestra
+
+00:19:11.833 --> 00:19:13.633
+tabla de usuarios públicos.  Entonces, si queremos
+
+00:19:13.633 --> 00:19:14.733
+compararlo con el
+
+00:19:14.733 --> 00:19:16.300
+usuario que ha iniciado sesión actualmente, necesitamos
+
+00:19:16.300 --> 00:19:18.100
+obtener su ID de Supabase.  Así que
+
+00:19:18.100 --> 00:19:19.266
+volveremos a este y diremos
+
+00:19:19.266 --> 00:19:21.533
+select supabase_id
+
+00:19:21.666 --> 00:19:24.566
+de la tabla pública dot users donde el
+
+00:19:24.566 --> 00:19:27.300
+ID está en esta subconsulta,
+
+00:19:27.300 --> 00:19:29.033
+que será este select.  Así que ya
+
+00:19:29.033 --> 00:19:31.500
+tenemos el ID del remitente del correo electrónico.
+
+00:19:31.500 --> 00:19:33.633
+Luego buscamos ese ID en la
+
+00:19:33.633 --> 00:19:34.699
+tabla pública de usuarios y
+
+00:19:34.699 --> 00:19:36.166
+extraemos la
+
+00:19:36.166 --> 00:19:38.666
+columna supabase_id.  Por último,
+
+00:19:38.666 --> 00:19:39.566
+queremos comprobar si el
+
+00:19:39.566 --> 00:19:42.266
+resultado de la función auth.UID en
+
+00:19:42.266 --> 00:19:44.333
+otra subconsulta, que va a ser
+
+00:19:44.333 --> 00:19:45.500
+toda esta selección, es el resultado de la función auth.UID en otra subconsulta.  Así que
+
+00:19:45.533 --> 00:19:48.933
+podemos mover este dentro de este otro y
+
+00:19:48.933 --> 00:19:50.033
+podemos corregir la
+
+00:19:50.033 --> 00:19:52.233
+sangría.  Y ahora solo
+
+00:19:52.233 --> 00:19:54.533
+habilitamos la opción de eliminar para el remitente de ese
+
+00:19:54.533 --> 00:19:55.866
+correo electrónico.  Así que desplácese hacia abajo, haga
+
+00:19:55.866 --> 00:19:57.266
+clic en revisar y guarde la política.
+
+00:19:57.500 --> 00:19:58.766
+Y ahora, cuando volvemos a nuestra
+
+00:19:58.766 --> 00:20:01.233
+aplicación y seleccionamos uno de nuestros correos electrónicos
+
+00:20:01.233 --> 00:20:02.533
+en la carpeta de enviados e
+
+00:20:02.533 --> 00:20:04.533
+intentamos eliminarlo, podemos ver que ha
+
+00:20:04.533 --> 00:20:06.000
+desaparecido del
+
+00:20:06.000 --> 00:20:07.333
+correo electrónico seleccionado.  También ha desaparecido
+
+00:20:07.333 --> 00:20:09.199
+de nuestra lista y de nuestras carpetas de correo electrónico.
+
+00:20:09.533 --> 00:20:11.233
+Impresionante.  Podemos seleccionar y eliminar
+
+00:20:11.233 --> 00:20:12.133
+correos electrónicos, pero ¿qué ocurre al
+
+00:20:12.233 --> 00:20:13.866
+enviar uno nuevo?  Pues bien, estamos a punto de
+
+00:20:13.866 --> 00:20:15.133
+encontrarnos con exactamente el mismo
+
+00:20:15.133 --> 00:20:16.866
+problema con RLS.  Así que necesitamos una
+
+00:20:16.866 --> 00:20:18.866
+nueva política de inserción para que esto sea un
+
+00:20:18.866 --> 00:20:20.000
+poco más fácil.  Podemos editar
+
+00:20:20.000 --> 00:20:21.500
+nuestra política de eliminación, copiar
+
+00:20:21.666 --> 00:20:24.133
+nuestra expresión y luego crear una nueva
+
+00:20:24.133 --> 00:20:25.800
+política desde cero.  En
+
+00:20:25.800 --> 00:20:28.066
+esta versión, los usuarios podrán insertar
+
+00:20:28.233 --> 00:20:30.866
+sus propios correos electrónicos.  Esto habilitará la
+
+00:20:30.866 --> 00:20:32.233
+acción de inserción.  El
+
+00:20:32.233 --> 00:20:33.800
+rol de destino se puede configurar como autenticado.
+
+00:20:34.066 --> 00:20:35.866
+Y luego, para nuestra expresión de verificación con `with`,
+
+00:20:35.866 --> 00:20:37.199
+queremos verificar lo mismo que
+
+00:20:37.199 --> 00:20:38.800
+nuestra política de eliminación.  Por lo tanto, si el
+
+00:20:38.866 --> 00:20:41.133
+remitente del correo electrónico es el mismo usuario que
+
+00:20:41.133 --> 00:20:42.166
+nuestro usuario actualmente conectado
+
+00:20:42.166 --> 00:20:43.399
+, entonces queremos
+
+00:20:43.399 --> 00:20:44.966
+permitirle insertar esa fila porque
+
+00:20:44.966 --> 00:20:46.433
+no tendría sentido que enviara un
+
+00:20:46.433 --> 00:20:47.733
+correo electrónico con otra persona
+
+00:20:47.899 --> 00:20:50.066
+como remitente.  Revisemos y guardemos
+
+00:20:50.066 --> 00:20:51.066
+esta política, y podremos
+
+00:20:51.066 --> 00:20:52.266
+hacer lo mismo con nuestra
+
+00:20:52.266 --> 00:20:54.433
+tabla de carpetas de correo electrónico.  Así que vamos a editar nuestra
+
+00:20:54.433 --> 00:20:55.699
+política de eliminación, copiar esta misma
+
+00:20:55.699 --> 00:20:58.100
+expresión y luego crear una nueva política
+
+00:20:58.100 --> 00:21:00.933
+desde cero.  Eso permitirá al usuario
+
+00:21:00.933 --> 00:21:04.133
+insertar correos electrónicos en una carpeta.  Esto
+
+00:21:04.133 --> 00:21:05.133
+habilitará la
+
+00:21:05.166 --> 00:21:06.866
+acción de inserción.  El rol de destino se
+
+00:21:06.866 --> 00:21:08.699
+autenticará y luego nuestra
+
+00:21:08.699 --> 00:21:10.033
+expresión de verificación será la misma que
+
+00:21:10.033 --> 00:21:11.500
+nuestra política de eliminación.  Así que, de nuevo, estamos
+
+00:21:11.500 --> 00:21:13.666
+recorriendo el árbol de relaciones desde
+
+00:21:13.666 --> 00:21:14.800
+nuestra tabla de carpetas de correo electrónico,
+
+00:21:14.800 --> 00:21:17.300
+donde conocemos la dirección de correo electrónico que el usuario
+
+00:21:17.300 --> 00:21:18.266
+está intentando
+
+00:21:18.266 --> 00:21:19.933
+insertar actualmente.  Luego, volvemos
+
+00:21:19.933 --> 00:21:22.699
+al ID de Supabase de ese
+
+00:21:22.699 --> 00:21:24.766
+usuario y verificamos si es el usuario que ha iniciado
+
+00:21:24.766 --> 00:21:25.766
+sesión.
+
+00:21:25.766 --> 00:21:28.033
+Hagamos clic en "Revisar" y guardemos la política.  Y
+
+00:21:28.033 --> 00:21:29.033
+una cosa más, antes de
+
+00:21:29.033 --> 00:21:30.399
+poder enviar nuestro correo electrónico,
+
+00:21:30.533 --> 00:21:32.666
+tenemos que ir a la base de datos y luego a las
+
+00:21:32.666 --> 00:21:34.866
+funciones.  Y luego, para nuestra función de envío de correo electrónico
+
+00:21:34.866 --> 00:21:35.833
+, queremos hacer
+
+00:21:35.833 --> 00:21:37.600
+clic en estos tres puntos y editar nuestra
+
+00:21:37.600 --> 00:21:39.466
+función.  Y si nos desplazamos hacia abajo, podemos
+
+00:21:39.466 --> 00:21:40.566
+ver la definición de
+
+00:21:40.566 --> 00:21:42.800
+nuestra función y dónde estamos insertando un
+
+00:21:42.800 --> 00:21:44.000
+nuevo correo electrónico, puede ver que
+
+00:21:44.000 --> 00:21:45.466
+estamos estableciendo la columna de ID del remitente
+
+00:21:45.500 --> 00:21:48.033
+al valor estático uno.  Y
+
+00:21:48.033 --> 00:21:48.833
+eso se debe a que en la
+
+00:21:48.833 --> 00:21:50.333
+plantilla inicial de Lee,
+
+00:21:50.333 --> 00:21:52.633
+todavía no teníamos autenticación.  Y así
+
+00:21:52.633 --> 00:21:53.966
+podríamos declarar otra
+
+00:21:53.966 --> 00:21:55.633
+variable, como hicimos anteriormente, para
+
+00:21:55.666 --> 00:21:57.800
+almacenar el ID de nuestro remitente.  Pero como nos sentimos
+
+00:21:57.800 --> 00:21:58.966
+muy cómodos con las
+
+00:21:58.966 --> 00:22:00.699
+subconsultas, podemos hacerlo
+
+00:22:00.699 --> 00:22:04.133
+en línea seleccionando el ID de la
+
+00:22:04.133 --> 00:22:06.833
+tabla de usuarios donde la
+
+00:22:06.833 --> 00:22:08.666
+columna supabase_id coincida con
+
+00:22:08.666 --> 00:22:11.566
+el resultado de nuestra función auth.uid.  Así que, de
+
+00:22:11.566 --> 00:22:12.933
+nuevo, conocemos nuestro ID de Supabase,
+
+00:22:12.933 --> 00:22:14.800
+pero queremos buscar
+
+00:22:14.800 --> 00:22:17.500
+nuestro ID entero en la
+
+00:22:17.500 --> 00:22:18.899
+tabla de usuarios de esquemas públicos.  Para que quede
+
+00:22:18.899 --> 00:22:20.300
+más claro, podríamos anteponerle "
+
+00:22:20.399 --> 00:22:22.933
+usuarios de Public Dot".  Y este
+
+00:22:22.933 --> 00:22:25.766
+ID entero es el que queremos insertar como
+
+00:22:25.766 --> 00:22:26.899
+columna de ID del remitente
+
+00:22:26.933 --> 00:22:28.800
+en el nuevo correo electrónico.  Así pues, hagamos clic en
+
+00:22:28.800 --> 00:22:31.266
+confirmar para actualizar nuestra función de envío de correo electrónico
+
+00:22:31.266 --> 00:22:32.566
+.  Y luego, de vuelta
+
+00:22:32.566 --> 00:22:34.866
+en nuestra aplicación, podemos enviar un nuevo
+
+00:22:34.866 --> 00:22:36.233
+correo electrónico a un usuario que
+
+00:22:36.233 --> 00:22:37.566
+aún no existe en nuestra aplicación.  Entonces
+
+00:22:37.566 --> 00:22:39.766
+podríamos decir jon@supabase.io,
+
+00:22:39.766 --> 00:22:42.033
+el asunto puede ser ¿esto
+
+00:22:42.033 --> 00:22:44.233
+funciona? y el cuerpo puede ser,
+
+00:22:44.366 --> 00:22:46.966
+espero que sí.  Y cuando hagamos clic en enviar,
+
+00:22:46.966 --> 00:22:48.500
+veremos que nuestra carpeta de envíos ahora tiene
+
+00:22:48.500 --> 00:22:49.800
+dos elementos, uno de los cuales es
+
+00:22:49.833 --> 00:22:51.699
+nuestro usuario john.  Y como somos el
+
+00:22:51.699 --> 00:22:53.333
+remitente, podemos eliminar este
+
+00:22:53.333 --> 00:22:54.833
+correo y desaparecerá de nuestros
+
+00:22:54.833 --> 00:22:57.366
+correos electrónicos y también de nuestro número de
+
+00:22:57.366 --> 00:22:59.266
+correos electrónicos enviados.  Y esto es solo
+
+00:22:59.266 --> 00:23:00.766
+la punta del iceberg de por qué
+
+00:23:00.766 --> 00:23:03.166
+RLS es genial y lo potente que puede ser
+
+00:23:03.166 --> 00:23:03.800
+para implementar
+
+00:23:03.800 --> 00:23:05.666
+reglas de autorización en la propia base de datos
+
+00:23:05.666 --> 00:23:07.699
+.  Si quieres profundizar en
+
+00:23:07.699 --> 00:23:09.100
+RLS, te recomiendo que
+
+00:23:09.100 --> 00:23:10.433
+veas este vídeo. En él,
+
+00:23:10.433 --> 00:23:12.733
+repasamos un poco más la teoría sobre RLS
+
+00:23:12.733 --> 00:23:14.000
+y poco a poco llegamos a un
+
+00:23:14.000 --> 00:23:15.966
+ejemplo similar de cómo aplicar
+
+00:23:15.966 --> 00:23:18.399
+políticas RLS desde otras tablas.  Pero hasta la
+
+00:23:18.399 --> 00:23:20.533
+próxima, ¡sigan creando cosas geniales!
+

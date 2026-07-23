@@ -1,0 +1,10 @@
+14:47:47 RETRY eh-elevenlabs-audio
+  faltan: 1
+14:49:00 FIN eh-elevenlabs-audio (18 vtt)
+14:49:15 RETRY eh-mercadolibre
+  faltan: 7
+14:54:56 FIN eh-mercadolibre (33 vtt)
+14:55:11 RETRY eh-pagos-chile
+  faltan: 5
+15:09:51 FIN eh-pagos-chile (49 vtt)
+15:10:06 === RETRY TERMINADO ===

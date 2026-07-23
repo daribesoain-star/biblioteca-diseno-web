@@ -1,0 +1,357 @@
+Frozen food - Wikipedia
+Jump to content
+Main menu
+Main menu
+move to sidebar
+hide
+Navigation
+Main page
+Contents
+Current events
+Random article
+About Wikipedia
+Contact us
+Contribute
+Help
+Learn to edit
+Community portal
+Recent changes
+Upload file
+Special pages
+Search
+Search
+Appearance
+Donate
+Create account
+Log in
+Personal tools
+Donate
+Create account
+Log in
+Contents
+move to sidebar
+hide
+(Top)
+1
+Preservatives
+2
+History
+3
+Technology
+4
+Packaging
+5
+Effects on nutrients
+Toggle Effects on nutrients subsection
+5.1
+Vitamin content of frozen fruits and vegetables
+6
+Effectiveness
+7
+Defrosting
+8
+Quality
+9
+Reaction
+10
+See also
+11
+Notes
+12
+References
+13
+External links
+Toggle the table of contents
+Frozen food
+38 languages
+العربية
+Betawi
+Български
+Català
+کوردی
+Deutsch
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+Français
+Galego
+עברית
+Հայերեն
+Bahasa Indonesia
+Íslenska
+日本語
+Jawa
+한국어
+Lëtzebuergesch
+Bahasa Melayu
+Nederlands
+Occitan
+Polski
+Português
+Русский
+Simple English
+Shqip
+Српски / srpski
+Svenska
+ไทย
+Türkçe
+Українська
+Tiếng Việt
+Winaray
+粵語
+中文
+Edit links
+Article
+Talk
+English
+Read
+Edit
+View history
+Tools
+Tools
+move to sidebar
+hide
+Actions
+Read
+Edit
+View history
+General
+What links here
+Related changes
+Upload file
+Permanent link
+Page information
+Cite this page
+Get shortened URL
+Switch to legacy parser
+Print/export
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+Wikibooks
+Wikidata item
+Appearance
+move to sidebar
+hide
+From Wikipedia, the free encyclopedia
+Food stored at very low temperatures
+Frozen berries
+A frozen processed foods aisle at a supermarket in Canada
+Freezing food preserves it from the time it is prepared to the time it is eaten. Since early times, [ when? ] farmers, fishermen, and trappers have preserved grains and produce in unheated buildings during the winter season. [ 1 ] Freezing food slows decomposition by turning residual moisture into ice, inhibiting the growth of most bacterial species. In the food commodity industry , there are two processes: mechanical and cryogenic (or flash freezing ). The freezing kinetics is important to preserve the food quality and texture. Quicker freezing generates smaller ice crystals and maintains cellular structure. Cryogenic freezing is the quickest freezing technology available due to the ultra low liquid nitrogen temperature −196   °C (−320   °F) . [ 2 ]
+Preserving food in domestic kitchens during modern times is achieved using household freezers . Accepted advice to householders was to freeze food on the day of purchase. An initiative by a supermarket group in 2012 (backed by the United Kingdom's Waste & Resources Action Programme ) promotes the freezing of food "as soon as possible up to the product's 'use by' date ". The Food Standards Agency was reported as supporting the change, provided the food had been stored correctly up to that time. [ 3 ]
+Preservatives
+[ edit ]
+Frozen products do not require any added preservatives because microorganisms do not grow when the temperature of the food is below −9.5   °C (15   °F) , which is sufficient on its own in preventing food spoilage. Long-term preservation of food may call for food storage at even lower temperatures. Carboxymethylcellulose (CMC), a tasteless and odorless stabilizer, is typically added to frozen food because it does not adulterate the quality of the product. [ 4 ]
+History
+[ edit ]
+This section needs more citations . Please help improve this section by adding citations to reliable sources . Unsourced material may be challenged and removed . ( July 2024 ) ( Learn how and when to remove this message )
+Natural food freezing (using winter frosts) had been in use by people in cold climates for centuries.
+In 1861 Thomas Sutcliffe Mort established at Darling Harbour in Sydney , Australia, the world's first freezing works, which later became the New South Wales Fresh Food and Ice Company. Mort financed experiments by Eugene Dominic Nicolle , a French born engineer who had arrived in Sydney in 1853 and registered his first ice-making patent in 1861. The first trial shipment of frozen meat to London was in 1868. Although their machinery was never used in the frozen meat trade, Mort and Nicolle developed commercially viable systems for domestic trade. The financial return on that investment was minimal for Mort. Regular shipments of frozen meat from Australia and New Zealand to Europe began in 1881, with a consignment of frozen New Zealand sheep exported to London on board the Dunedin .
+By 1885 a small number of chickens and geese were being shipped from Russia to London in insulated cases using this technique. By March 1899, the "British Refrigeration and Allied Interests" reported that a food importing business, "Baerselman Bros", was shipping some 200,000 frozen geese and chickens per week from three Russian depots to New Star Wharf, Lower Shadwell, London over three or four winter months. This trade in frozen food was enabled by the introduction of Linde cold air freezing plants in three Russian depots and the London warehouse. The Shadwell warehouse stored the frozen goods until they were shipped to markets in London , Birmingham , Liverpool and Manchester . The techniques were later expanded to the meat-packing industry .
+From 1929, Clarence Birdseye introduced " flash freezing " to the American public. Birdseye first became interested in food freezing during fur-trapping expeditions to Labrador in 1912 and 1916, where he saw the natives use natural freezing to preserve foods. [ 5 ] A 1920s hunting trip to Canada, where he witnessed the traditional methods of the indigenous Inuit, directly inspired Birdseye's food preserving method. [ 6 ]
+The Icelandic Fisheries Commission was created in 1934 to initiate innovation in the industry, and encouraged fishermen to start quick-freezing their catch.
+Íshúsfélag Ísfirðinga , one of the first frozen fish companies, was formed in Ísafjörður , Iceland, by a merger in 1937. [ 7 ]
+More advanced attempts include food frozen for Eleanor Roosevelt on her trip to Russia. Other experiments involving orange juice, ice cream and vegetables were conducted by the military near the end of World War II.
+Technology
+[ edit ]
+Cutting frozen tuna using a bandsaw in the Tsukiji fish market in Tokyo, Japan (2002)
+The freezing technique itself, just like the frozen food market, is developing to become faster, more efficient and more cost-effective. As demonstrated by Birdseye's work, faster freezing means smaller ice crystals and a better-preserved product. [ 8 ]
+Birdseye's original cryogenic freezing approach using immersion in liquid nitrogen is still used. [ 9 ] Due to its cost, however, use is limited to fish fillets, seafood, fruits, and berries. It is also possible to freeze food by immersion in the warmer (at −70   °C (−94   °F) ), but cheaper, liquid carbon dioxide , which can be produced by mechanical freezing (see below). [ 8 ]
+Most frozen food is instead frozen using a mechanical process using the vapor-compression refrigeration technology similar to ordinary freezers . Such a process is cheaper at scale, but is usually slower. (There is also more upfront investment in the form of construction.) Nevertheless, a wide variety of processes have been devised to achieve faster heat transfer from the food to the refrigerant: [ 8 ]
+Air-blast freezing is the oldest and cheapest approach. Food is placed into freezing rooms where the air is cold. Air is either forced ("blasted") onto the food or left static. This setup allows large chunks of food (usually meat or fish) to be more easily processed compared to other methods, but is quite slow.
+Belt freezers simply put a conveyor belt inside a cold room.
+Tunnel freezing is a variant of air-blast freezing where food is put onto trolley racks and sent into a tunnel where cold air is continuously circulated.
+Fluidized bed freezing is a variant of air-blast freezing where pelletized food is blown by fast-moving cold air from below, forming a fluidized bed . The small size of the food combined with the fast-flowing air provides good heat transfer and therefore quicker freezing.
+Contact freezing uses physical contact other than air to transfer the heat. Direct contact freezing puts the product directly in contact with the refrigerant, while indirect contact freezing uses a plate in between.
+Plate freezing is the most common form of contact freezing. Food is put between cold metal plates and then lightly pressed to maintain contact.
+Contact belt freezing combines a conveyor belt with plate freezing. It is usually used for fruit pulps, egg yolk, sauces and soups.
+Immersion freezing dips the product into a cold refrigerant liquid to freeze it, usually on a conveyor belt. The product may be in direct contact with the liquid, or be separated by a membrane. It can be used for freezing the outer shell of large particles to reduce water loss.
+Individual quick freezing is a descriptive term that includes all forms of freezing that is "individual" (not in a whole block) and "quick" (taking a maximum of several minutes). It may correspond to cryogenic freezing, fluidized bed freezing, or any other technique that meets the definition.
+Packaging
+[ edit ]
+Frozen food packaging must maintain its integrity throughout filling, sealing, freezing, storage, transportation, thawing, and often cooking. [ 10 ] As many frozen foods are cooked in a microwave oven , manufacturers have developed packaging that can go directly from freezer to the microwave.
+In 1974, the first differential heating container (DHC) was sold to the public. A DHC is a sleeve of metal designed to allow frozen foods to receive the correct amount of heat. Various sized apertures were positioned around the sleeve. The consumer would put the frozen dinner into the sleeve according to what needed the most heat. This ensured proper cooking. [ 11 ]
+Today there are multiple options for packaging frozen foods. Boxes, cartons, bags, pouches, boil-in-bags , lidded trays and pans, crystallized PET trays, and composite and plastic cans. [ 12 ]
+Scientists continue to research new aspects of frozen food packaging. Active packaging offers many new technologies that can actively sense and then neutralize the presence of bacteria or other harmful species. Active packaging can extend shelf-life, maintain product safety, and help preserve the food over a longer period of time. Several functions of active packaging are being researched:
+Oxygen scavengers
+Time temperature indicators and digital temperature data loggers
+Antimicrobials
+Carbon dioxide controllers
+Microwave susceptors
+Moisture control: water activity , moisture vapor transmission rate , etc.
+Flavor enhancers
+Odor generators
+Oxygen-permeable films
+Oxygen generators [ 13 ]
+Effects on nutrients
+[ edit ]
+The process of flash freezing itself generally effectively retain the nutrient content of foodstuff with minor losses of vitamins, making them a cost-effective and nutritious substitute from fresh equivalents. However, pre-seasoned frozen food, such as packaged meals, may have a significant amounts of salt and fats added. It is therefore recommended to read the nutrition label and the ingredients list. [ 14 ]
+Vitamin content of frozen fruits and vegetables
+[ edit ]
+Vitamin C : Usually lost in a higher concentration than any other vitamin. [ 15 ] A study was performed on peas to determine the cause of vitamin C loss. A vitamin loss of 10% occurred during the blanching phase with the rest of the loss occurring during the cooling and washing stages. [ 16 ] The vitamin loss was not actually accredited to the freezing process. Another experiment was performed involving peas and lima beans. Frozen and canned vegetables were both used in the experiment. The frozen vegetables were stored at −23   °C (−10   °F) and the canned vegetables were stored at room temperature 24   °C (75   °F) . After 0, 3, 6, and 12 months of storage, the vegetables were analyzed with and without cooking. O'Hara, the scientist performing the experiment said, "From the view point of the vitamin content of the two vegetables when they were ready for the plate of the consumer, there did not appear to be any marked advantages attributable to method of preservation, frozen storage, processed in a tin, or processed in glass." [ 17 ]
+Vitamin B 1 (thiamin): A vitamin loss of 25% is normal. Thiamin is easily soluble in water and is destroyed by heat. [ 18 ]
+Vitamin B 2 (riboflavin): Not much research has been done to determine how freezing affects riboflavin levels. Studies that have been performed are inconclusive. One study found an 18% vitamin loss in green vegetables, while another found a 4% loss. [ 19 ] It is commonly accepted that the loss of riboflavin has to do with the preparation for freezing rather than the freezing process itself.
+Vitamin A (carotene): There is little loss of carotene during preparation for freezing and freezing of most vegetables. Much of the vitamin loss is incurred during the extended storage period. [ 20 ]
+Effectiveness
+[ edit ]
+A frozen food warehouse at McMurdo Station , Antarctica
+Freezing is an effective form of food preservation because the pathogens that cause food spoilage are either killed or do not grow very rapidly at reduced temperatures. The process is less effective in food preservation than are thermal techniques, such as boiling, because pathogens are more likely to be able to survive cold temperatures rather than hot temperatures. [ 21 ] One of the problems surrounding the use of freezing as a method of food preservation is the danger that pathogens deactivated (but not killed) by the process will once again become active when the frozen food thaws.
+Foods may be preserved for several months by freezing. Long-term frozen storage requires a constant temperature of −18   °C (0   °F) or less. [ 22 ]
+Defrosting
+[ edit ]
+To be used, many cooked foods that have been previously frozen require defrosting prior to consumption. Preferably, some frozen meats should be defrosted prior to cooking to achieve the best outcome: cooked through evenly and of good texture.
+The defrost system in freezers helps the equipment to perform properly, without thick layers of ice developing, thus preventing the evaporator coil from absorbing heat and cooling the cabinet.
+Ideally, most frozen foods should be defrosted in a refrigerator to avoid significant growth of pathogens . However, this can require considerable time.
+Food is often defrosted in one of several ways:
+at room temperature; this is dangerous since the outside may be defrosted while the inside remains frozen [ 23 ]
+in a refrigerator [ 23 ] [ 24 ]
+in a microwave oven [ 23 ]
+wrapped in plastic and placed in cold water [ 23 ] or under cold running water
+People sometimes defrost frozen foods at room temperature because of time constraints or ignorance. Such foods should be promptly consumed after cooking or discarded and never be refrozen or refrigerated since pathogens are not killed by the refreezing process. [ 25 ]
+Quality
+[ edit ]
+The speed of freezing has a direct impact on the size and the number of ice crystals formed within a food product's cells and extracellular space. Slow freezing leads to fewer but larger ice crystals while fast freezing leads to smaller but more numerous ice crystals. This difference in ice crystal size can affect the degree of residual enzymatic activity during frozen storage via the process of freeze concentration, which occurs when enzymes and solutes present in a fluid medium are concentrated between ice crystal formations. [ 26 ] Increased levels of freeze concentration, mediated by the formation of large ice crystals, can promote enzymatic browning . [ 27 ]
+Large ice crystals can also puncture the walls of the cells of the food product which will cause a degradation of the texture of the product as well as the loss of its natural juices during thawing. [ 28 ] That is why there will be a qualitative difference observed between food products frozen by ventilated mechanical freezing, non-ventilated mechanical freezing or cryogenic freezing with liquid nitrogen. [ 29 ]
+Reaction
+[ edit ]
+According to a 2007 study, an American consumes frozen food on average 71 times a year, most of which are pre-cooked frozen meals . [ 30 ]
+See also
+[ edit ]
+Food portal
+Frozen dessert
+List of frozen food brands
+List of frozen dessert brands
+List of ice cream brands
+Refrigerator
+Boil-in-bag
+Cold chain
+Flash freezing
+Notes
+[ edit ]
+↑ Tressler, Evers. The Freezing Preservation of Foods pp. 213-217
+↑ Sun, Da-Wen (2001). Advances in food refrigeration . Leatherhead Food Research Association Publishing. p.318. (Cryogenic refrigeration)
+↑ Smithers, Rebecca (10 February 2012). "Sainsbury's changes food freezing advice in bid to cut food waste" . The Guardian . Retrieved 10 February 2012 . Long-standing advice to consumers to freeze food on the day of purchase is to be changed by a leading supermarket chain, as part of a national initiative to further reduce food waste. [...] instead advise customers to freeze food as soon as possible up to the product's 'use by' date. The initiative is backed by the government's waste advisory body, the Waste and Resources Action Programme (Wrap) [...] Bob Martin, food safety expert at the Food Standards Agency, said: "Freezing after the day of purchase shouldn't pose a food safety risk as long as food has been stored in accordance with any instructions provided. [...]"
+↑ Arsdel, Michael, Robert. Quality and Stability of Frozen Foods: Time-Temperature Tolerance and its Significance . pp. 67-69
+↑ "Frozen Foods" . Massachusetts Institute of Technology. 28 January 2022.
+↑ "Origin of Birds Eye Frozen Vegetables and Meals" . Birds Eye . Retrieved 2024-07-29 .
+↑ Hraðfrystihúsið - Gunnvör hf. (10 January 2012), Öld frá stofnun Íshúsfélags Ísfirðinga hf. (in Icelandic), archived from the original on 9 October 2018 , retrieved 31 May 2017
+1 2 3 "Freezing of fruits and vegetables" . www.fao.org . Retrieved 6 April 2020 .
+↑ p.157-170, Institute for Applied Biology, Springer-Verlag
+↑ Decareau, Robert. Microwave Foods: New Product Development . pp. 45-48
+↑ Whelan, Stare. Panic in the Pantry: Facts and Fallacies About the Food You Buy
+↑ Russell, Gould. Food Preservatves . pp. 314
+↑ Sun, Da-Wen. Handbook of Frozen Food Processing and Packaging . pp. 786-792
+↑ "Frozen Foods: Convenient and Nutritious" . www.eatright.org .
+↑ Tressler, Evers. The Freezing Preservation of Foods . pp. 620-624
+↑ Tressler, Evers. The Freezing Preservation of Foods . pp. 961-964
+↑ Tressler, Evers. The Freezing Preservation of Foods . p. 627
+↑ Gould, Grahame. New Methods of Food Preservation . pp. 237-239
+↑ Tressler, Evers. pp. 973-976
+↑ Tressler, Evers. The Freezing Preservation of Foods . pp. 976-978
+↑ Mathlouthi, M. Food Packaging and Preservation . pp. 112-115
+↑ Tressler, Evers, Evers. Into the Freezer - and Out . pp. 56-82
+1 2 3 4 "Consumer Resources - NSF International" . www.nsf.org .
+↑ "Refrigerator User Instructions" . www.fridgemanuals.com .
+↑ Program, Human Foods (2025-02-25). "Safe Food Handling" . FDA .
+↑ Samsel K, Meghani A. The Effects of Commercial Freezing on Vitamin Concentrations in Spinach (Spinacia oleracea). J Undergrad Life Sci. 2021 Jul.23
+↑ van der Sman, R.G.M. Impact of Processing Factors on Quality of Frozen Vegetables and Fruits. Food Eng Rev 12, 399–420 (2020)
+↑ W.F. Stoecker, Industrial Refrigeration Handbook, 2000, Chapter 17 Refrigeration and freezing of foods, 17.10 The freezing process
+↑ Food analysis laboratory manual . Nielsen, S. Suzanne. (2nd   ed.). New York: Springer. 2010. ISBN   978-1-4419-1463-7 . OCLC   663096771 . {{ cite book }} : CS1 maint: others ( link )
+↑ Harris, J. Michael and Rimma Shipstova, Consumer Demand for Convenience Foods: Demographics and Expenditures (PDF) , AgEcon, p.   26 , retrieved 16 July 2011
+References
+[ edit ]
+Arsdel, Wallace, B. Van, Michael, J Copley, and Robert, L. Olson. Quality and Stability of Frozen Foods: Time-Temperature Tolerance and its Significance . New York, NY: John Wiley & Sons, INC, 1968.
+"Clarence Birdseye." Encyclopedia of World Biography . Vol. 19. 2nd ed. Detroit: Gale, 2004. 25–27. Gale Virtual Reference Library. Gale. Brigham Young University – Utah. 3 November 2009. (subscription required)
+Copson, David. Microwave Heating . 2nd ed.. Westport, CT: The AVI Publishing Company, INC., 1975.
+Decareau, Robert. Microwave Foods: New Product Development . Trumbull, CT: Food & Nutrition Press, INC., 1992.
+Gould, Grahame. New Methods of Food Preservation . New York, NY: Chapman & Hall, 2000.
+Mathlouthi, Mohamed. Food Packaging and Preservation . New York, NY: Chapman & Hall, 1994.*^Robinson, Richard. Microbiology of Frozen Foods. New York, NY: Elsevier Applied Science Publishers LTD, 1985.
+Russell, Nicholas J., and Grahame W. Gould. Food Preservatives . 2nd ed. New York, NY: Kluwer Academic/Plenum Publishers, New York, 2003.
+Sun, Da-Wen. Handbook of Frozen Food Processing and Packaging. Boca Raton, Fl: Taylor & Francis Group, LLC, 2006.
+Tressler, Donald K., Clifford F. Evers, and Barbara, Hutchings Evers. Into the Freezer – and Out . 2nd ed. New York, NY: The AVI Publishing Company, INC., 1953.
+Tressler, Donald K., and Clifford F. Evers. The Freezing Preservation of Foods . 3rd ed. 1st volume. Westport, CT: The AVI Publishing Company, INC., 1957.
+Whelan, Elizabeth M., and Fredrick J. Stare. Panic in the Pantry: Facts and Fallacies About the Food You Buy . Buffalo, NY: Prometheus Books, 1998.
+External links
+[ edit ]
+Media related to Frozen food at Wikimedia Commons
+Food and Agriculture
+v
+t
+e
+Food preservation
+Biopreservation
+Burying in ground
+Canning
+Cold chain
+Curing
+Drying
+Fermentation
+Freeze-drying
+Freezing
+Hurdle technology
+Irradiation
+Jamming
+Jellying
+Jugging
+Modified atmosphere
+Pascalization
+Pickling
+Potting
+Confit
+Potjevleesch
+Rillettes
+Salting
+Smoking
+Sugaring
+Tyndallization
+Vacuum packing
+Food portal
+Category: Food preservation
+Authority control databases
+International Gefrierkost</span>"}]]}'> GND
+National Frozen foods</span>"}]]}'> United States
+Japan
+zmrazené potraviny</span>"}]]}'> Czech Republic
+Israel
+Other NARA
+Yale LUX
+Retrieved from " https://en.wikipedia.org/w/index.php?title=Frozen_food&oldid=1350337675 "
+Categories : Frozen food
+Convenience foods
+Food preservation
+Food storage
+Food and drink introduced in 1863
+Food and drink introduced in 1923
+Hidden categories: Articles with short description
+Short description is different from Wikidata
+All articles with vague or ambiguous time
+Vague or ambiguous time from January 2024
+Articles needing additional references from July 2024
+All articles needing additional references
+CS1 Icelandic-language sources (is)
+CS1 maint: others
+Pages containing links to subscription-only content
+Commons category link is on Wikidata
+This page was last edited on 21 April 2026, at 10:20  (UTC) .
+Page was rendered with Parsoid .
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Legal & safety contacts
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+Search
+Search
+Toggle the table of contents
+Frozen food
+38 languages
+Add topic

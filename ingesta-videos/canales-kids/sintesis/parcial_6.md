@@ -1,0 +1,57 @@
+# CRECER Y MONETIZAR CANALES DE CONTENIDO (Infantil/Familiar/Animales)
+
+## TIKTOK (Crecimiento cuenta pequeña + monetización)
+
+- Publica videos de **5 a 8 segundos** cuando tengas menos de 10.000 seguidores; no publiques videos de 1-2 minutos hasta que tengas base de views (2.000+ por video). (Fuente: How to Gain TikTok Followers Organically 2026 — https://youtu.be/yzFAfn4kX7o)
+- **Usa texto en pantalla y subtítulos en TODOS los videos** sin excepción, porque la mayoría consume TikTok sin volumen. (Fuente: How to Gain TikTok Followers Organically 2026 — https://youtu.be/yzFAfn4kX7o)
+- **Dedica 5-10 minutos diarios a curar tu feed "Para ti"**: da like/comenta en videos de tu nicho, marca "No me interesa" en lo ajeno, hasta que el feed sea 100% de tu categoría. (Fuente: How to Gain TikTok Followers Organically 2026 — https://youtu.be/yzFAfn4kX7o)
+- **Usa el mismo conjunto de 3-5 hashtags** en cada publicación durante los primeros 10.000 seguidores para acelerar la categorización. (Fuente: How to Gain TikTok Followers Organically 2026 — https://youtu.be/yzFAfn4kX7o)
+- **No crees contenido de venta directa ni educativo profundo hasta alcanzar 10.000 seguidores.** El único objetivo es crecimiento (vistas y seguidores). (Fuente: How to Gain TikTok Followers Organically 2026 — https://youtu.be/yzFAfn4kX7o)
+- **Cuando un video supere 15.000 vistas, republica el mismo video** (sin marca de agua) o recrea el mismo framework con variaciones mínimas (fondo, iluminación, ángulo). (Fuente: How to Gain TikTok Followers Organically 2026 — https://youtu.be/yzFAfn4kX7o)
+- **Si identificas un sonido o framework trending en tu nicho, publica 3-5 versiones diferentes** del mismo concepto. (Fuente: How to Gain TikTok Followers Organically 2026 — https://youtu.be/yzFAfn4kX7o)
+- **Denichea siempre un nivel**: si tu nicho es "consejos para padres", el tema del video debe ser "cómo hacer que los niños coman verduras", no "recetas para niños de 2 años con alergias". (Fuente: How to Gain TikTok Followers Organically 2026 — https://youtu.be/yzFAfn4kX7o)
+- **No elimines videos con comentarios negativos**; los trolls generan watch time y alimentan el algoritmo. (Fuente: How to Gain TikTok Followers Organically 2026 — https://youtu.be/yzFAfn4kX7o)
+- **El contenido infantil/familiar/animales genera "aww" o curiosidad familiar** y funciona especialmente bien en Shorts porque el algoritmo lo recomienda masivamente sin necesidad de que el usuario elija activamente. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Monetización alternativa en TikTok**: PR/sponsors (marcas pagan por menciones en videos virales), afiliados (enlaces en descripción), propinas en livestreams (TikTok Live, gifts). (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+
+## YOUTUBE (Shorts, canal kids, Made for Kids, RPM)
+
+- **Usa Shorts como anuncio de entrada, no como producto final**: Crea Shorts virales que enganchen y dirijan al espectador a tu canal de videos largos (>10 min) o livestreams para generar ingresos por publicidad pre-roll/mid-roll. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Benchmark de ingresos por Shorts**: 130 millones de vistas en un Short ≈ valor de un bolso Louis Vuitton (estimado $1,000–$2,000 USD). 3.6 millones de vistas ≈ 4 tazones de gyudon (~$20 USD). Esto es 1/100 del CPM de videos largos. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Estrategia de tres niveles**: Short → Video largo/livestream → Merch/afiliados/donaciones. El Short capta atención masiva, el largo convierte en ingresos. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Publica Shorts a diario o varias veces al día** para maximizar oportunidades de ser recomendado por el algoritmo. No hay penalización por alta frecuencia en Shorts. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Siempre incluye llamado a la acción** al final de cada Short dirigiendo a tu canal largo o livestream (ej: "Link en bio para la historia completa"). (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Mantén cada Short entre 15 y 60 segundos**; duraciones mayores reducen la tasa de reproducción completa. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Usa ganchos en los primeros 2 segundos** (pregunta, dato impactante, imagen sorprendente) para evitar que el usuario deslice. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Para monetización rápida**: Combina Shorts virales con livestreams donde actives Super Chat/donaciones desde el día 1. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Para canales con IA**: La cuenta debe tener al menos **7 días de antigüedad** y algo de historial de visualizaciones (si no, YouTube la marca como spam). (Fuente: I BLEW UP a YouTube Channel in 24 Hours with AI — https://youtu.be/za2VyvLl5T0)
+- **No subas el segundo video** hasta que el primero muestre ≥12 horas de meseta plana en vistas. (Fuente: I BLEW UP a YouTube Channel in 24 Hours with AI — https://youtu.be/za2VyvLl5T0)
+- **Siempre marca "no es para niños"** en la configuración de subida (evitar YouTube Kids). (Fuente: I BLEW UP a YouTube Channel in 24 Hours with AI — https://youtu.be/za2VyvLl5T0)
+- **Mantén el average percentage viewed ≥80%** en las primeras 24 horas; si cae por debajo, reconsidera la estructura del video. (Fuente: I BLEW UP a YouTube Channel in 24 Hours with AI — https://youtu.be/za2VyvLl5T0)
+- **YouTube NO desmonetiza contenido "AI-enabled"** (IA como extensión de la visión creativa humana, con proceso manual y variación). Sí penaliza: 1) contenido con variación mínima entre subidas, 2) contenido fácilmente replicable a escala. (Fuente: I BLEW UP a YouTube Channel in 24 Hours with AI — https://youtu.be/za2VyvLl5T0)
+- **Estructura viral probada para Shorts**: 1) Declare phase (declaración inicial), 2) Assessment phase (inspección/medición), 3) Isolate phase (acción minuciosa uno por uno), 4) Process phase (time-lapse de proceso intrincado), 5) Build phase (montaje rápido), 6) Reveal phase (producto final). Esta estructura generó 250M+ vistas. (Fuente: I BLEW UP a YouTube Channel in 24 Hours with AI — https://youtu.be/za2VyvLl5T0)
+- **Tres criterios obligatorios para el nicho**: 1) Universalmente relatable (sin conocimiento de nicho requerido), 2) Gancho emocional (asombro/absurdo), 3) Compulsión de completitud (la declaración inicial crea expectativa de ver el resultado final). (Fuente: I BLEW UP a YouTube Channel in 24 Hours with AI — https://youtu.be/za2VyvLl5T0)
+
+## INSTAGRAM / FACEBOOK / THREADS
+
+- **Usa Shorts/Reels como embudo publicitario gratuito** hacia contenido largo donde sí hay ingresos por anuncios, afiliados, propinas y venta de merch. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Publica Reels a diario** si tu objetivo es crecer rápido; el algoritmo recompensa consistencia en formato corto. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Nunca dependas solo de ingresos por Reels** (bonos de Instagram o anuncios en Reels); son insuficientes para vivir. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Para contenido infantil/familiar**: El contenido que genera "aww" o curiosidad familiar funciona especialmente bien en Reels porque el algoritmo lo recomienda masivamente. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Prioriza contenido que genere "fanáticos de núcleo duro"** (core fans): 100 fans que paguen $100/mes = $10,000/mes, más rentable que 1M de vistas en Reels. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Mide éxito por conversión a contenido largo o ventas**, no por vistas del Reel. Una vista en Reel que no lleva a ningún lado vale cero. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **En Threads**: Usa la plataforma para compartir detrás de escena, adelantos de contenido y construir comunidad alrededor de tu IP infantil/familiar. No hay monetización directa, pero funciona como canal de tráfico a tus plataformas monetizadas.
+
+## MONETIZACIÓN DE IP INFANTIL (licensing, libros, merch, marcas, casos con cifras)
+
+- **Benchmark de ingresos por Shorts**: 130 millones de vistas en un Short ≈ valor de un bolso Louis Vuitton (estimado $1,000–$2,000 USD). 3.6 millones de vistas ≈ 4 tazones de gyudon (~$20 USD). Esto es 1/100 del CPM de videos largos. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Caso citado - canal "Brazzers"**: Logró 250M vistas en 29 subidas (3 meses), estimado $50K total, $16K/mes. Contenido: procedimientos obsesivos de comida creados con IA. (Fuente: I BLEW UP a YouTube Channel in 24 Hours with AI — https://youtu.be/za2VyvLl5T0)
+- **Caso citado - "Imamaru"**: YouTuber que usa Shorts para dirigir a su canal largo, donde genera ingresos por anuncios, afiliados y merch. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Caso citado - "Atom Law Office"**: Shorts educativos → canal largo de leyes, demostrando el embudo de contenido corto a largo. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Caso citado - pareja "T. Akemi"**: Shorts de conversación → canal largo donde profundizan su personalidad, generando ingresos por múltiples fuentes. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Estrategia de monetización de IP infantil**: 100 fans que paguen $100/mes = $10,000/mes, más rentable que 1M de vistas en Shorts. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Fuentes de ingresos para IP infantil**: PR/sponsors (marcas pagan por menciones en videos virales), afiliados (enlaces en descripción), propinas en livestreams (Super Chat, TikTok Live gifts), venta de merch a fans que llegaron desde Shorts. (Fuente: 【ショート動画時代②】Shortsで収益化する方法とヒット戦略を徹底解説！ — https://youtu.be/xM1Rsi8fAMk)
+- **Para licensing y libros**: El pitch verbal es el arma principal (8-10 minutos). No escribas una "biblia" antes de tiempo. Solo necesitas el piloto escrito y el pitch verbal. (Fuente: How To Sell A Television Show - Jim Agnew — https://youtu.be/yr14umjEssc)
+- **Para vender IP a networks/streamers**: Consigue un productor/estudio que te respalde. El proceso es de dos pasos: 1) tu agente te consigue reuniones con productoras, 2) si una productora compra el proyecto, ellos te llevan a los networks. (Fuente: How To Sell A Television Show - Jim Agnew — https://youtu.be/yr14umjEssc)
+- **Benchmark de ventas de IP**: Jim Agnew menciona haber pitchado 5 o 6 shows, de los cuales 2 o 3 se vendieron, y algunos pilotos fueron contratados pero nunca salieron al aire. La tasa de conversión es baja incluso para profesionales. (Fuente: How To Sell A Television Show - Jim Agnew — https://youtu.be/yr14umjEssc)
+- **Para creadores de contenido infantil**: El objetivo real para principiantes no es vender un show, sino entrar a un writer's room. Es más realista escribir un spec pilot y buscar ser contratado como staff writer durante 2-3 años para hacer contactos. (Fuente: How To Sell A Television Show - Jim Agnew — https://youtu.be/yr14umjEssc)

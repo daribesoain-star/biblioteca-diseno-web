@@ -1,0 +1,456 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.360 --> 00:00:07.020
+hello and welcome to sternfx in this video I'll&nbsp;
+show you how to optimize an After Effects project&nbsp;&nbsp;
+
+00:00:07.020 --> 00:00:14.460
+with the help of the composition profiler as well&nbsp;
+as speed up renders using the work area and region&nbsp;&nbsp;
+
+00:00:14.460 --> 00:00:23.520
+of Interest now we all know that render time can&nbsp;
+vary a lot sometimes it can be hard to pinpoint&nbsp;&nbsp;
+
+00:00:23.520 --> 00:00:29.940
+exactly why some projects render faster than&nbsp;
+others the after effects developers at Adobe&nbsp;&nbsp;
+
+00:00:29.940 --> 00:00:35.520
+use the phrase all the pixels all the time to&nbsp;
+refer to the underlying philosophy behind the&nbsp;&nbsp;
+
+00:00:35.520 --> 00:00:40.500
+way that after effects renders while there&nbsp;
+are several ways to interpret exactly what&nbsp;&nbsp;
+
+00:00:40.500 --> 00:00:45.960
+this means one of the ways to think about it&nbsp;
+is that all the pixels in a layer are processed&nbsp;&nbsp;
+
+00:00:45.960 --> 00:00:53.820
+even if they are not visible but how can we tell&nbsp;
+which layer or effect is the cause of this render&nbsp;&nbsp;
+
+00:00:53.820 --> 00:01:01.320
+hog and what can we do to make it better and&nbsp;
+quicker well just stick right here to find out&nbsp;&nbsp;
+
+00:01:02.280 --> 00:01:07.320
+first we need a project to work with and if you&nbsp;
+want you can use the same project that I'll be&nbsp;&nbsp;
+
+00:01:07.320 --> 00:01:13.140
+using because it is a Free Motion Graphics&nbsp;
+template that you can download from Adobe&nbsp;&nbsp;
+
+00:01:13.140 --> 00:01:18.900
+stock I'll put the link in the description and&nbsp;
+if you wish you can license it yourself and then&nbsp;&nbsp;
+
+00:01:18.900 --> 00:01:25.740
+use after effects to open it optimize it and then&nbsp;
+export it again so it will be more responsive in&nbsp;&nbsp;
+
+00:01:25.740 --> 00:01:32.100
+Premiere Pro so let me show you how this works&nbsp;
+I'll hide my browser I have After Effects open&nbsp;&nbsp;
+
+00:01:32.100 --> 00:01:38.760
+with nothing inside and then I'm going to go to&nbsp;
+the file menu and choose open project I've already&nbsp;&nbsp;
+
+00:01:38.760 --> 00:01:44.640
+downloaded this mograd file Motion Graphics&nbsp;
+template and save it over here on my desktop&nbsp;&nbsp;
+
+00:01:44.640 --> 00:01:51.660
+so I will select the file and choose open after&nbsp;
+effects is going to extract it into a folder and&nbsp;&nbsp;
+
+00:01:51.660 --> 00:01:56.160
+you can name it whatever you want I'm just going&nbsp;
+to leave the same name I'll choose extract over&nbsp;&nbsp;
+
+00:01:56.160 --> 00:02:01.980
+here and after a few moments the project is going&nbsp;
+to be opened and I will get this warning that this&nbsp;&nbsp;
+
+00:02:01.980 --> 00:02:07.980
+will was created with an earlier version and I&nbsp;
+need to convert it the original file is not going&nbsp;&nbsp;
+
+00:02:07.980 --> 00:02:15.120
+to be changed alright I'll click ok I'm also going&nbsp;
+to switch back to my workspace I'll close all of&nbsp;&nbsp;
+
+00:02:15.120 --> 00:02:21.780
+these over here as well as this composition and&nbsp;
+this composition and just go to the beginning&nbsp;&nbsp;
+
+00:02:22.620 --> 00:02:28.680
+I'm also going to tidy up this timeline let's just&nbsp;
+scan all the layers to see that everything is okay&nbsp;&nbsp;
+
+00:02:28.680 --> 00:02:35.100
+there are no missing files here and if I start&nbsp;
+to scrub it I can see how this works and I can&nbsp;&nbsp;
+
+00:02:35.100 --> 00:02:41.880
+also see that probably after this point there&nbsp;
+is nothing interesting over here so the first&nbsp;&nbsp;
+
+00:02:41.880 --> 00:02:49.320
+thing to do is to probably trim the project and&nbsp;
+for that I'm going to use the work area the work&nbsp;&nbsp;
+
+00:02:49.320 --> 00:02:57.540
+area is this length which is determined by this&nbsp;
+bar over here and this is a section that you want&nbsp;&nbsp;
+
+00:02:57.540 --> 00:03:04.380
+to focus on preview or maybe even render it out&nbsp;
+so we can use this part on the right to set the&nbsp;&nbsp;
+
+00:03:04.380 --> 00:03:12.060
+end of it or we can go to where we want to end&nbsp;
+over here let's say and press the letter N to&nbsp;&nbsp;
+
+00:03:12.060 --> 00:03:17.580
+set the work area end we can do the same thing for&nbsp;
+the beginning let's say that we want to start over&nbsp;&nbsp;
+
+00:03:17.580 --> 00:03:22.560
+here we can place our current time indicator&nbsp;
+and then instead of dragging this work areas&nbsp;&nbsp;
+
+00:03:22.560 --> 00:03:31.500
+start we can use the letter B for the beginning&nbsp;
+of the work area now there are even easier way to&nbsp;&nbsp;
+
+00:03:31.500 --> 00:03:37.200
+work let's say that you want to select couple&nbsp;
+of layers so for example I'm just going to go&nbsp;&nbsp;
+
+00:03:37.200 --> 00:03:43.860
+over here and select this layer and trim it by&nbsp;
+pressing the option and closing bracket so now&nbsp;&nbsp;
+
+00:03:43.860 --> 00:03:49.080
+I have two layers or maybe few of them that I&nbsp;
+want to select I'm just going to command select&nbsp;&nbsp;
+
+00:03:49.080 --> 00:03:55.680
+both of them and you can set the work area for&nbsp;
+selected layers by pressing the command option&nbsp;&nbsp;
+
+00:03:55.680 --> 00:04:02.280
+b this will be alt Ctrl B on the Windows side&nbsp;
+all right so now that we know all of this I'm&nbsp;&nbsp;
+
+00:04:02.280 --> 00:04:08.160
+just going to undo a few steps and because&nbsp;
+I already set the working area for the place&nbsp;&nbsp;
+
+00:04:08.160 --> 00:04:14.160
+that I need to worry about I'm going to right&nbsp;
+click on it and ask after effects to trim the&nbsp;&nbsp;
+
+00:04:14.160 --> 00:04:20.880
+comp to the work area and now let's just feed our&nbsp;
+viewer and press spacebar to preview the template
+
+00:04:23.280 --> 00:04:28.800
+so while I was working on it after effect in&nbsp;
+the background cached all the frames meaning&nbsp;&nbsp;
+
+00:04:28.800 --> 00:04:34.620
+that obviously we can just scrub the timeline or&nbsp;
+just play it the same way I just showed you but&nbsp;&nbsp;
+
+00:04:34.620 --> 00:04:39.840
+we have a green bar although when we are working&nbsp;
+with this template or bringing it into Premiere&nbsp;&nbsp;
+
+00:04:39.840 --> 00:04:47.340
+Pro things are not going to be so fast and to help&nbsp;
+us scrutinize this composition we're going to use&nbsp;&nbsp;
+
+00:04:47.340 --> 00:04:55.140
+the services of Oscar the snail which is this guy&nbsp;
+over here at the footer of the composition Oscar&nbsp;&nbsp;
+
+00:04:55.140 --> 00:05:02.400
+will show us the information about the current&nbsp;
+frame render time and if I'll click on him he will&nbsp;&nbsp;
+
+00:05:02.400 --> 00:05:11.340
+expand a timeline column called render time here&nbsp;
+you can see a breakdown of each layer all of its&nbsp;&nbsp;
+
+00:05:11.340 --> 00:05:17.460
+masks layer Styles and even individual effects&nbsp;
+so if I'll open up this adjustment layer over&nbsp;&nbsp;
+
+00:05:17.460 --> 00:05:24.180
+here as well as its effects we can see which one&nbsp;
+of these effects takes the most time to render&nbsp;&nbsp;
+
+00:05:24.780 --> 00:05:31.500
+now it's important to mention that there is no&nbsp;
+performance heat having the render time column&nbsp;&nbsp;
+
+00:05:31.500 --> 00:05:38.760
+visible so you can feel free to work with it&nbsp;
+displayed notice that some layers won't show up in&nbsp;&nbsp;
+
+00:05:38.760 --> 00:05:48.840
+the render column for example layers which are not&nbsp;
+visible or switched off or invisible objects such&nbsp;&nbsp;
+
+00:05:48.840 --> 00:05:56.760
+as Nas cameras and lights however in the render&nbsp;
+time column over here you'll get a color-coded&nbsp;&nbsp;
+
+00:05:56.760 --> 00:06:03.060
+display of how much time each layer that render&nbsp;
+took to render and a bar graph of how that&nbsp;&nbsp;
+
+00:06:03.060 --> 00:06:12.660
+compares to other layers on the same frame so the&nbsp;
+color coding system works like this render times&nbsp;&nbsp;
+
+00:06:12.660 --> 00:06:19.200
+that are either real time or half real time are&nbsp;
+displayed as shades of green with higher values&nbsp;&nbsp;
+
+00:06:19.200 --> 00:06:28.320
+from 100 milliseconds to 5 Seconds displayed as&nbsp;
+increasing intensity from yellow to red so let's&nbsp;&nbsp;
+
+00:06:28.320 --> 00:06:35.400
+use this information to try to make this comp&nbsp;
+more efficient to do it I'll close this adjustment&nbsp;&nbsp;
+
+00:06:35.400 --> 00:06:42.600
+layer for now and I'll go over here to the end of&nbsp;
+this composition and then I'll Purge the cache you&nbsp;&nbsp;
+
+00:06:42.600 --> 00:06:47.700
+can do it by going to the edit menu and then&nbsp;
+choose Purge all memory and disk cache if you&nbsp;&nbsp;
+
+00:06:47.700 --> 00:06:52.740
+are using this cache or just all memory this is&nbsp;
+what I'll do because there is a keyboard shortcut&nbsp;&nbsp;
+
+00:06:52.740 --> 00:06:58.680
+over here so I'll make sure that after effects is&nbsp;
+going to re-render this Frame and I'm just going&nbsp;&nbsp;
+
+00:06:58.680 --> 00:07:05.760
+to memorize the frame render time over here which&nbsp;
+is just above one second and we can also see it's&nbsp;&nbsp;
+
+00:07:05.760 --> 00:07:13.560
+a little bit of an amber color meaning it's not&nbsp;
+real time okay I can immediately see that we have&nbsp;&nbsp;
+
+00:07:13.560 --> 00:07:21.540
+few truck mods which are actually pointing to the&nbsp;
+same layer so if I increase the width of the track&nbsp;&nbsp;
+
+00:07:21.540 --> 00:07:29.220
+math column we can see that everything over here&nbsp;
+is pointing to the same glitch matte layer and I&nbsp;&nbsp;
+
+00:07:29.220 --> 00:07:34.920
+presume this is the same because I see that the&nbsp;
+name of the comp is similar so I'm just going to&nbsp;&nbsp;
+
+00:07:34.920 --> 00:07:41.340
+double click on this and take a look inside let's&nbsp;
+just zoom all the way to the beginning yes I think&nbsp;&nbsp;
+
+00:07:41.340 --> 00:07:48.420
+that this is the math that everything here is&nbsp;
+using to creating this glitch title transition&nbsp;&nbsp;
+
+00:07:49.140 --> 00:07:56.220
+now in the recent versions of After Effects we can&nbsp;
+be more efficient so what we can do is select all&nbsp;&nbsp;
+
+00:07:56.220 --> 00:08:02.220
+those layers and I'm going to select the layers&nbsp;
+that are using this math this track math so all&nbsp;&nbsp;
+
+00:08:02.220 --> 00:08:10.020
+of these I'm going to use the same layer as&nbsp;
+a single Source by using the track matte Peak&nbsp;&nbsp;
+
+00:08:10.020 --> 00:08:16.500
+Whip and select let's say layer number four in&nbsp;
+this case this means that I can now select all&nbsp;&nbsp;
+
+00:08:16.500 --> 00:08:24.060
+the other copies and just trash them and this is&nbsp;
+going to reduce the amount of time after effects&nbsp;&nbsp;
+
+00:08:24.060 --> 00:08:31.260
+is going to need to think about this and you can&nbsp;
+already see that we are down to 118 milliseconds&nbsp;&nbsp;
+
+00:08:31.260 --> 00:08:39.360
+just by modifying this little thing we can also&nbsp;
+further investigate how this track map is being&nbsp;&nbsp;
+
+00:08:39.360 --> 00:08:48.600
+used and as you can see it's only being affecting&nbsp;
+the titles over here so this means that this layer&nbsp;&nbsp;
+
+00:08:48.600 --> 00:08:57.720
+is probably too big for what it needs to do if we&nbsp;
+are only using just let's say this portion of the&nbsp;&nbsp;
+
+00:08:57.720 --> 00:09:06.420
+image we may as well use the region of interest&nbsp;
+to just select the part that we are going to&nbsp;&nbsp;
+
+00:09:06.420 --> 00:09:13.140
+use so something along those lines should be&nbsp;
+enough to affect the titles in the main comp&nbsp;&nbsp;
+
+00:09:13.680 --> 00:09:20.940
+and then we can go to the composition menu and&nbsp;
+choose to crop this comp to the region of Interest&nbsp;&nbsp;
+
+00:09:21.600 --> 00:09:28.500
+and this is going to reduce the size of this&nbsp;
+composition meaning it should speed up the&nbsp;&nbsp;
+
+00:09:28.500 --> 00:09:34.860
+preview as well as the render time of this main&nbsp;
+composition and the appearance should look more&nbsp;&nbsp;
+
+00:09:34.860 --> 00:09:42.660
+or less the same there are a few things that we&nbsp;
+can also improve if we want to maybe change a&nbsp;&nbsp;
+
+00:09:42.660 --> 00:09:48.180
+little bit the appearance over here so again I'm&nbsp;
+going to go to the last frame where everything&nbsp;&nbsp;
+
+00:09:48.180 --> 00:09:55.800
+is settled down and then I'll take a look at the&nbsp;
+effect controls because I can see that this is one&nbsp;&nbsp;
+
+00:09:55.800 --> 00:10:02.640
+of the biggest render Hogs here this adjustment&nbsp;
+layer with all of its effects so curves is very&nbsp;&nbsp;
+
+00:10:02.640 --> 00:10:09.120
+fast on Sharp mask and CC lens those are not&nbsp;
+render demanding effects but the camera lens&nbsp;&nbsp;
+
+00:10:09.120 --> 00:10:15.600
+blur is and if you want and this is totally&nbsp;
+up to you you can actually try an alternative&nbsp;&nbsp;
+
+00:10:15.600 --> 00:10:22.740
+effect so I'm going to go to the effect manual&nbsp;
+and under blur and sharpen I'm going to try the&nbsp;&nbsp;
+
+00:10:22.740 --> 00:10:28.800
+compound blur effect which is not going to look&nbsp;
+as beautiful as the camera lens blur but it is&nbsp;&nbsp;
+
+00:10:28.800 --> 00:10:36.840
+much faster to render so I see the value here&nbsp;
+is 5 and I'm using this layer which is layer&nbsp;&nbsp;
+
+00:10:36.840 --> 00:10:43.560
+number two the blur ramp is a blur map so first&nbsp;
+I'll choose these I'm going to switch off the&nbsp;&nbsp;
+
+00:10:43.560 --> 00:10:50.820
+FX over here and usually I'm going to cut down&nbsp;
+the numbers by half so 2.5 for the maximum blur&nbsp;&nbsp;
+
+00:10:51.420 --> 00:10:56.340
+now it's not again going to yield the same result&nbsp;
+actually I think that I also need to invert the&nbsp;&nbsp;
+
+00:10:56.340 --> 00:11:03.780
+blur since this is inverted over here and let's&nbsp;
+take a snapshot so this is the compound blur which&nbsp;&nbsp;
+
+00:11:03.780 --> 00:11:09.480
+is much faster you can tell by the render time&nbsp;
+column over here I'm going to grab a snapshot&nbsp;&nbsp;
+
+00:11:10.320 --> 00:11:16.620
+and I'm going to switch it off turn on the camera&nbsp;
+lens blur which takes much longer time to render&nbsp;&nbsp;
+
+00:11:16.620 --> 00:11:23.640
+and I'll compare between those two now again&nbsp;
+this is up to you it's not going to yield the&nbsp;&nbsp;
+
+00:11:23.640 --> 00:11:30.120
+same results the camera lens blur is much more&nbsp;
+fancier and beautiful but if you can leave with&nbsp;&nbsp;
+
+00:11:30.120 --> 00:11:36.840
+this effect with this kind of blur then you can&nbsp;
+save some time and as long as we are seeing green&nbsp;&nbsp;
+
+00:11:36.840 --> 00:11:44.340
+values here we are actually rendering things&nbsp;
+in almost real time at this point you can bring&nbsp;&nbsp;
+
+00:11:44.340 --> 00:11:52.440
+the essential Graphics panel on screen and you can&nbsp;
+re-export this Motion Graphics template and use it&nbsp;&nbsp;
+
+00:11:52.440 --> 00:11:59.760
+inside Premiere Pro and I promise you it will be&nbsp;
+much more faster and snappier now there are a few&nbsp;&nbsp;
+
+00:11:59.760 --> 00:12:07.380
+things to take under account when you are using&nbsp;
+the composition profiler enabling draft 3D if you&nbsp;&nbsp;
+
+00:12:07.380 --> 00:12:15.900
+have 3D layers is going to disable the composition&nbsp;
+profiler and if the composition window is hidden&nbsp;&nbsp;
+
+00:12:15.900 --> 00:12:23.100
+or closed the composition profiler will go dormant&nbsp;
+now if you want to learn more and dive deeper into&nbsp;&nbsp;
+
+00:12:23.100 --> 00:12:30.540
+all the technical geeky stuff about this feature&nbsp;
+I've included a link in the description to a PDF&nbsp;&nbsp;
+
+00:12:30.540 --> 00:12:39.480
+that adobe created that explains how this feature&nbsp;
+is working in almost every scenario but this is&nbsp;&nbsp;
+
+00:12:39.480 --> 00:12:47.040
+it I'm going to go to the beginning and play for&nbsp;
+you the final thing and summarize few important&nbsp;&nbsp;
+
+00:12:47.040 --> 00:12:54.420
+tools to help you analyze the composition and&nbsp;
+make it faster snappier and more efficient&nbsp;&nbsp;
+
+00:12:54.960 --> 00:13:01.080
+if this information was useful please&nbsp;
+like this video And subscribe thank&nbsp;&nbsp;
+
+00:13:01.080 --> 00:13:07.440
+you also stay tuned for more tutorials and&nbsp;
+check out the other content in this channel
+

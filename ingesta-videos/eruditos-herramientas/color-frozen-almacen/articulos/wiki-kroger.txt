@@ -1,0 +1,1866 @@
+Kroger - Wikipedia
+Jump to content
+Main menu
+Main menu
+move to sidebar
+hide
+Navigation
+Main page
+Contents
+Current events
+Random article
+About Wikipedia
+Contact us
+Contribute
+Help
+Learn to edit
+Community portal
+Recent changes
+Upload file
+Special pages
+Search
+Search
+Appearance
+Donate
+Create account
+Log in
+Personal tools
+Donate
+Create account
+Log in
+Contents
+move to sidebar
+hide
+(Top)
+1
+History
+Toggle History subsection
+1.1
+Early history (1883 to 1950s)
+1.2
+1950s and 1960s
+1.3
+1970s
+1.4
+1980s
+1.5
+1990s
+1.6
+2000s
+1.7
+2010s
+1.8
+2020s
+2
+Business trends
+Toggle Business trends subsection
+2.1
+Declining wages
+2.2
+Animal welfare
+3
+Chains
+4
+Kroger Marketplace
+5
+Manufacturing and distribution
+6
+Private label brands
+Toggle Private label brands subsection
+6.1
+Banner Brand
+6.2
+Private Selection
+6.3
+Simple Truth
+6.4
+Smart Way
+6.5
+Other private label brands
+7
+Other operations
+Toggle Other operations subsection
+7.1
+Pharmacy Group
+7.2
+Supermarket Petroleum Group
+7.3
+Kroger Personal Finance
+7.4
+Kroger Wireless
+7.5
+84.51°
+8
+Pricing discrepancies and overcharges
+9
+Notes and references
+10
+Further reading
+Toggle Further reading subsection
+10.1
+Videos
+11
+External links
+Toggle the table of contents
+Kroger
+27 languages
+العربية
+تۆرکجه
+Dansk
+Deutsch
+Esperanto
+Español
+فارسی
+Suomi
+Français
+עברית
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+Ripoarisch
+Bahasa Melayu
+Norsk bokmål
+Português
+Română
+Русский
+Саха тыла
+Simple English
+Svenska
+Українська
+اردو
+Tiếng Việt
+中文
+Edit links
+Article
+Talk
+English
+Read
+Edit
+View history
+Tools
+Tools
+move to sidebar
+hide
+Actions
+Read
+Edit
+View history
+General
+What links here
+Related changes
+Upload file
+Permanent link
+Page information
+Cite this page
+Get shortened URL
+Switch to legacy parser
+Print/export
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+Wikidata item
+Appearance
+move to sidebar
+hide
+From Wikipedia, the free encyclopedia
+American retail company
+This article is about the company. For other uses, see Kroger (disambiguation) .
+This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages )
+This article contains promotional content . Please help improve it by removing promotional language and inappropriate external links , and by adding encyclopedic text written from a neutral point of view .
+See our advice if the article is about you and read our scam warning in case someone asks for money to edit this article. ( October 2024 ) ( Learn how and when to remove this message )
+This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources:   "Kroger"   –   news   · newspapers   · books   · scholar   · JSTOR ( October 2024 ) ( Learn how and when to remove this message )
+( Learn how and when to remove this message )
+"},"image":{"wt":"Cincinnati-kroger-building.jpg"},"image_size":{"wt":"250px"},"image_caption":{"wt":"Kroger headquarters in [[Cincinnati]]"},"type":{"wt":"[[Public company|Public]]"},"traded_as":{"wt":"{{ubl|{{NYSE|KR}}|[[S&P 500]] component}}"},"ISIN":{"wt":"{{ISIN|sl=n|pl=y|US5010441013}}"},"founder":{"wt":"[[Bernard Kroger]]"},"area_served":{"wt":"[[United States]]"},"key_people":{"wt":"[[Greg Foran]] ([[Chief executive officer|CEO]])<ref>{{cite web|url=https://ir.kroger.com/CorporateProfile/governance/management-directors/default.aspx|title=Management & Directors|publisher=The Kroger Co|access-date=February 7, 2022|archive-url=https://web.archive.org/web/20211221082232/https://ir.kroger.com/CorporateProfile/governance/management-directors/default.aspx|archive-date=December 21, 2021|url-status=live}}</ref>"},"industry":{"wt":"[[Retail]]"},"products":{"wt":"[[Supercenter]]/[[superstore]],<br />Other specialty, [[supermarket]]"},"services":{"wt":""},"revenue":{"wt":"{{nowrap| {{increase}} {{US$|150 billion|link=yes}} (2023)<ref name= proxystatement>{{cite web|url=https://www.wsj.com/market-data/quotes/KR/financials/annual/income-statement|title=2022 Kroger Financial Statements|publisher=The Kroger Co|access-date=June 11, 2022|archive-url=https://web.archive.org/web/20161226060558/https://www.google.com/finance?q=NYSE%3AKR&fstype=ii&ei=azu7Vsn8ItfKuATZ9Z_QCg|archive-date=December 26, 2016|url-status=live}}</ref> }}"},"operating_income":{"wt":"{{decrease}} {{US$|3.096 billion}} (2023)<ref name= Employees>{{Cite web|url=https://ir.kroger.com/files/doc_financials/2023/ar/annual-report-to-security-holders.pdf|title=Number of employees of Kroger 2023|website=Kroger}}</ref>"},"net_income":{"wt":"{{increase}} {{US$|2.307 billion}} (2023)<ref name=\"Employees\" />"},"assets":{"wt":"{{increase}} {{US$|50.505 billion}} (2023)<ref name=\"Employees\" />"},"equity":{"wt":"{{increase}} {{US$|11.601 billion}} (2023)<ref name=\"Employees\" />"},"num_employees":{"wt":"414,000 (2023)<ref name=\"Employees\" />"},"divisions":{"wt":"Inter-American Products<br />[[#Chains|Various chains]]"},"subsidiaries":{"wt":""},"owner":{"wt":"[[Berkshire Hathaway]] (8.09%)"},"website":{"wt":"{{URL|https://thekrogerco.com/}}<br />{{URL|https://kroger.com/}}"},"founded":{"wt":"{{start date and age|1883}}, in Cincinnati, Ohio, U.S."},"hq_location":{"wt":"1014 Vine Street"},"hq_location_city":{"wt":"Cincinnati, Ohio, U.S."},"num_locations":{"wt":"2,719 supermarkets (Q1 2023)<ref name=ourbusiness>{{Cite web |title=Investors - Overview - Our Business - The Kroger Co. |url=https://ir.kroger.com/CorporateProfile/overview/Our-Business/default.aspx |access-date=2022-12-08 |website=ir.kroger.com}}</ref>"}},"i":0}}]}'> The Kroger Company Logo used since 2021 [ a ]
+Kroger headquarters in Cincinnati
+Trade name
+Kroger [ 1 ]
+Type Public
+Traded as
+NYSE :   KR
+S&P 500 component
+ISIN US5010441013
+Industry Retail
+Founded 1883 ; 143   years ago   ( 1883 ) , in Cincinnati, Ohio, U.S.
+Founder Bernard Kroger
+Headquarters 1014 Vine Street, Cincinnati, Ohio, U.S.
+Number of locations
+2,719 supermarkets (Q1 2023) [ 2 ]
+Area served
+United States
+Key people
+Greg Foran ( CEO ) [ 3 ]
+Products Supercenter / superstore , Other specialty, supermarket
+Revenue US$ 150 billion (2023) [ 4 ]
+Operating income
+US$3.096 billion (2023) [ 5 ]
+Net income
+US$2.307 billion (2023) [ 5 ]
+Total assets US$50.505 billion (2023) [ 5 ]
+Total equity US$11.601 billion (2023) [ 5 ]
+Owner Berkshire Hathaway (8.09%)
+Number of employees
+414,000 (2023) [ 5 ]
+Divisions Inter-American Products Various chains
+Website thekrogerco .com kroger .com
+The Kroger Co. [ 1 ] is an American retail corporation headquartered in Cincinnati , Ohio. [ 6 ] It operates (either directly or through its subsidiaries [ 7 ] ) supermarkets and multi-department stores throughout the United States. [ 2 ] [ 8 ]
+The company was founded by Bernard Kroger in 1883 in Cincinnati. [ 9 ] Kroger stores operate under multiple formats, including multi-department stores, supermarket “combo” stores, marketplace stores, and warehouse-style locations. [ 2 ] [ 8 ] In addition to its retail stores, Kroger operates manufacturing facilities, supermarket fuel centers, pharmacies, and in-store medical clinics. [ 2 ] [ 8 ] About two-thirds of Kroger's employees are represented by collective bargaining agreements , [ 10 ] with most being represented by the United Food and Commercial Workers (UFCW). [ 11 ]
+Industry publications have ranked Kroger among the largest supermarket operators in the United States by revenue, [ 12 ] and research firms have listed it among the nation’s largest general retailers. [ 13 ] Kroger also appears on rankings of major U.S. private-sector employers. [ 14 ] [ 15 ] [ 16 ] The company is included on the annual Fortune 500 list of U.S. corporations ranked by total revenue. [ 17 ]
+History
+[ edit ]
+Early history (1883 to 1950s)
+[ edit ]
+In 1883, 23-year-old Bernard Kroger , the fifth of ten children born to German immigrants , invested his life savings of $372 ( equivalent to $12,854 in 2025 ) to open a grocery store at 66 Pearl Street in downtown Cincinnati. [ 18 ] He operated under the motto: "Be particular. Never sell anything you would not want yourself." [ 15 ] [ 19 ] He experimented with marketing products his company had produced so that his customers would not need to patronize separate stores and farms. [ citation needed ]
+In 1884, Kroger opened a second location, and by 1902, the Kroger Grocery and Baking Company was incorporated. [ 20 ] By this time, the business had expanded to 40 stores with annual sales of $1.75 million. In addition, Kroger became the first grocery chain to have its own bakery. [ 21 ]
+In 1916, Kroger company began using self-service shopping. Previously, all goods were kept behind counters, customers had to request items from clerks who would then retrieve and deliver them. [ 21 ]
+In 1929, it was rumored that Safeway would merge with Kroger. [ 22 ] [ 23 ] By the end of the 1920s, Kroger, through its acquisition of smaller chains, controlled more than 5,500 stores, mainly in the Midwest and South. [ 24 ]
+During the 1930s, Kroger Grocery and Baking Company became the first grocery chain to monitor product quality and to test foods offered to customers. It also became the first company with a store surrounded on all four sides by parking lots. [ 25 ] In 1932, the company tested a pilot project after it opened a grocery store in Indianapolis. [ 26 ] The facility, which was surrounded by a 75-car parking space, allowed the company to determine the close relationship between parking facilities and gross sales. [ 26 ]
+1950s and 1960s
+[ edit ]
+Earlier variants of the Kroger logo, including one used from 1946 to 1961 ( top ), and the previous variant, 1961 to 2019, still extant on Kroger brand products ( bottom )
+Beginning in 1955, Kroger began acquiring supermarket chains, expanding into new markets. In May, Kroger entered the Houston, Texas , market by acquiring the Houston-based 26-store chain Henke & Pillot . [ 16 ] In June, Kroger acquired the Krambo Food Stores, Inc. of Appleton, Wisconsin . [ 27 ] In July, it purchased Child's Food Stores, Inc. of Jacksonville, Texas , and operated 25 supermarkets in Texas, Arkansas, and Louisiana. [ 28 ]
+In January 1956, the company bought out Big Chain Stores, Inc., a chain of seven stores based in Shreveport, Louisiana , later combining it with the Childs group. All of these chains adopted the Kroger banner in 1966. [ citation needed ]
+During all the acquisitions, in September 1957, Kroger sold off its Wichita, Kansas , store division, which consisted of 16 stores, to J. S. Dillon and Sons Stores Company , then headed by Ray S. Dillon, son of the company founder. [ citation needed ]
+In October 1963, Kroger acquired the 56-store chain Market Basket, providing them with a foothold in the lucrative southern California market. Prior to this time, Kroger had no stores west of Kansas. [ 29 ] Kroger, however, failed to make significant headway, only managing a 5 percent market share. By 1982, it withdrew from the California market. [ 30 ]
+In 1965, Henke's Family Center stores were folded into the newly-created Kroger Family Center subdivision. These retail units were typically 50,000–80,000 square feet and included expanded home goods and pharmacy departments. The format was a response to the 1962 emergence of big box discount retailers including Woolworth's Woolco, Kresge's Kmart , and the Waltons' Walmart . The Family Center concept was also an answer to grocery chains creating big box grocery and variety store combos including A&P's The Family Mart and Meijer's Thrifty Acres which were also created in 1962. The Kroger Family Centers were a forerunner of the Kroger Marketplace hypermarket stores of the 21st Century.
+Kroger opened stores in Florida under the SupeRx and Florida Choice banners from the 1960s until 1988, when the chain decided to exit the state and sold all of its stores; Kash n' Karry bought the largest share. [ 31 ] [ 32 ] [ 33 ] The company also exited the Washington, D.C., market in 1966 after it sold its stores to another grocery chain operating in the area. [ 34 ]
+In 1967, the first bar code scanner was introduced in a Kroger supermarket in Cincinnati, Ohio. [ 24 ] The adoption of this technology, however, was slow until the 1990s when supermarkets converted to its use. [ 24 ]
+1970s
+[ edit ]
+In the 1970s, Kroger became the first grocer in the United States to test an electronic scanner and the first to formalize consumer research. [ 35 ]
+Although Kroger has long operated stores in the Huntsville - Decatur area of northern Alabama (as a southern extension of its Nashville, Tennessee , region), it has not operated in the state's largest market, Birmingham , since the early 1970s, when it exited as a result of intense competition from Winn-Dixie and local chains Bruno's Supermarkets and Western Supermarkets. [ citation needed ]
+Kroger built an ultra-modern dairy plant (Crossroad Farms Dairy) in Indianapolis in 1972. At the time, it was considered the largest dairy plant in the world. [ citation needed ]
+Kroger exited the Chicago market in 1970, selling its distribution warehouse in Northlake, Il. and 24 stores to the Dominick's Finer Foods grocery chain. [ citation needed ]
+Kroger exited the Minneapolis–Saint Paul area in 1970, selling 16 stores to Quality Foods, which rebranded the stores to Piggly Wiggly . [ citation needed ]
+Kroger exited Milwaukee in 1972, selling a few stores to Jewel . Kroger would later return in 2015 upon its acquisition of Roundy's . [ citation needed ]
+Kroger entered the Charlotte market in 1977 and expanded rapidly throughout the 1980s when it bought some stores from BI-LO . However, most stores were in less desirable neighborhoods and did not fit in with Kroger's upscale image. Less than three months after BI-LO pulled out, that company decided to re-enter the Charlotte market, and in 1988, Kroger announced it was pulling out of the Charlotte market and put its stores up for sale. Ahold bought Kroger's remaining stores in the Charlotte area and converted them to BI-LO. [ 36 ] [ 37 ]
+In 1978, sixteen retail members of Parkview Markets Inc., filed an anti-trust lawsuit against Kroger. [ 38 ]
+1980s
+[ edit ]
+Kroger had a number of stores in the Western Pennsylvania region, encompassing Pittsburgh and surrounding areas from 1928 until 1984 when the U.S. began experiencing a severe economic recession . The recession had two significant and related effects on Kroger's operations in the region. One of them was that the highly cyclical manufacturing-based economy of the region declined in greater proportion than the rest of the U.S. , which undercut demand for the higher-end products and services offered by Kroger. [ citation needed ]
+Kroger sought wage rollbacks in several areas during this time period including in Western Pennsylvania, [ 39 ] Eastern Ohio, the West Virginia Panhandle [ 40 ] and Michigan. [ 41 ] The second effect of the economic recession was to worsen labor-management relations, causing a protracted labor strike in 1983 and 1984. During the strike, Kroger withdrew all of its stores from the Western Pennsylvania market, including some recently opened "superstores" and "greenhouses", selling these stores to Wetterau [ 42 ] (now part of SuperValu ), who promptly flipped the stores to independent owners while continuing to supply them under the FoodLand and Shop 'n Save brands. [ 43 ] [ 44 ] [ 45 ] Kroger's exit ceded the market to lower-cost, locally owned rivals, most notably Giant Eagle and the SuperValu-supplied grocers. (Kroger purchased Eagle Grocery company, whose founders went on to create Giant Eagle.) Kroger still maintains a presence in the nearby Morgantown, West Virginia , Wheeling, West Virginia , and Weirton, West Virginia / Steubenville, Ohio , areas where Giant Eagle has a much smaller presence and the SuperValu-supplied stores are virtually nonexistent, though in all of these cases, Walmart remains a major competitor, with Aldi and IGA affiliate Reisbeck’s Food Market.
+Kroger entered the San Antonio, Texas , market in 1980 but pulled out in mid-1993. On June 15, 1993, the company announced the closure of its 15 area stores. From 1984 to 1986, Kroger exited the Pittsburgh, Cleveland, Akron, and St. Louis markets. The company cited that higher wages for union employees made it unable to compete. [ 46 ]
+The chain closed several stores around Flint, Michigan , in 1981, which were converted by local businessman Al Kessel to a new chain called Kessel Food Markets . [ 47 ] Kroger bought most of these stores back in 1999 and began reverting them. [ 48 ] Several other Michigan stores were sold to another Flint-based chain, Hamady Brothers , in 1980. [ 49 ] The Hamady acquisition was short-lived. [ 50 ]
+In 1982, Kroger sold the 65-store Market Basket chain it had operated for several years in southern California. The stores were reverted to the Boys Markets branding, after acquiring the chain. Boys Markets was acquired by the Yucaipa Companies in 1989. When Yucaipa acquired Ralphs , the Boys brand disappeared. [ citation needed ]
+In 1983, The Kroger Company acquired Dillon Companies [ 51 ] grocery chain in Kansas along with its subsidiaries ( King Soopers , City Market , Fry's and Gerbes ) and the convenience store chain Kwik Shop . David Dillon , a fourth-generation descendant of J. S. Dillon, the founder of Dillon Companies, became the CEO of Kroger. [ citation needed ]
+In northeastern Ohio, Kroger had a plant in Solon, Ohio , until the mid-1980s. When that plant shut down, [ 52 ] Kroger closed its northeastern Ohio stores in the Cleveland, Akron , and Youngstown areas. Some of those former Kroger stores were taken over by stores like Acme Fresh Markets, Giant Eagle , and Heinens . [ citation needed ]
+Kroger opened and had about 50 stores in St. Louis until it left the market in 1986, saying that its stores were unprofitable. Most of its stores were bought by National , Schnucks , and Shop 'n Save . Most of the remaining Kroger stores in eastern Missouri and west-central Illinois became a western extension of the Central Division (headquartered in Indianapolis ). [ citation needed ]
+Kroger also experienced a similar withdrawal from Chattanooga, Tennessee , in 1989. Many of these stores were sold to the local grocery chain Red Food , which was in turn bought by BI-LO in 1994. Today, Chattanooga is the only metropolitan market in Tennessee in which Kroger does not operate with the nearest location being Dalton, Georgia , with 2 stores (Walnut Avenue and Cleveland Highway). [ citation needed ]
+1990s
+[ edit ]
+An Art Deco Kroger supermarket in Houston , built in 1998 [ 53 ]
+In the 1990s, Kroger acquired Great Scott (Detroit), Pay Less Food Markets , Owen's Market , JayC Food Stores , and Hilander Foods . Additionally, the Houston market was strengthened when Kroger bought several stores from AppleTree Markets , which were former Safeway stores in early 1994. [ citation needed ]
+In 1998, Kroger merged with the then fifth-largest grocery company Fred Meyer , along with its subsidiaries, Ralphs , QFC , and Smith's . [ 54 ]
+In the late 1990s, it acquired many stores from A&P as it exited many markets in the South. [ citation needed ] Kroger also swapped all ten of its Greensboro, North Carolina -area stores in 1999 to Matthews, North Carolina -based Harris Teeter , for 11 of that company's stores in central and western Virginia. Kroger in turn would acquire Harris Teeter 15 years later. [ citation needed ]
+2000s
+[ edit ]
+Long the dominant grocer in western Virginia, Kroger entered the Richmond, Virginia , market in 2000, where it competes against market leaders Martin's (including former Ukrop's stores) and Food Lion . Kroger entered the market by purchasing Hannaford stores that either already existed or were being built in Richmond. Hannaford purchases also included the competitive Hampton Roads market, where it now competes with Farm Fresh , Harris Teeter (which is owned by Kroger), and Food Lion. [ 55 ] The Hannaford locations in these markets were purchased from Delhaize by Kroger as a condition of Delhaize's 2000 acquisition of the Hannaford chain, which had previously competed against Food Lion, also owned by Delhaize. [ 56 ] Walmart Supercenters are also major competitors in both markets, and the chain briefly competed against Winn-Dixie , which has now exited Virginia. [ citation needed ]
+In 2001, Kroger acquired Baker's Supermarkets from Fleming Companies, Inc. [ 57 ] [ 58 ]
+Albertsons exited the San Antonio and Houston markets in early 2002, selling many of the Houston stores to Kroger. [ citation needed ]
+In 2004, Kroger bought most of the old Thriftway stores in Cincinnati, Ohio , when Winn-Dixie left the area. These stores were reopened as Kroger stores. [ 59 ]
+In 2007, Kroger acquired Scott's Food & Pharmacy from SuperValu Inc. , [ 60 ] and in the same year, also acquired 20 former Michigan Farmer Jack locations from A&P when A&P exited the Michigan Market. [ citation needed ]
+A plaque commemorating the Wright Brothers in a Dayton, Ohio Kroger
+In 2008, Kroger began a partnership with Murray's Cheese of New York City. [ 61 ] Murray's Cheese counters within Kroger stores sell various artisanal cheese from all parts of the world. [ citation needed ]
+2010s
+[ edit ]
+On July 9, 2013, Kroger announced that it would acquire the 212 stores of Charlotte-based Harris Teeter in a deal valued at $2.5 billion and that it would assume $100 million in the company's outstanding debt. [ 62 ] Harris Teeter's stores are in eight Southern states, with a major portion of them in its headquarters state of North Carolina. [ 63 ] Doing so, Kroger acquired Harris Teeter's click-and-collect program, which allows online ordering of groceries. Some industry experts saw this as a competitive move against online grocers such as AmazonFresh . [ 64 ] The Harris Teeter acquisition marked Kroger's return to the Charlotte market after a 25-year absence. It also allowed Kroger to enter Asheville for the first time. Charlotte and Asheville had been the only large markets in North Carolina where Kroger had no presence. [ citation needed ]
+In 2013, Kroger announced that the spouses of the company's unionized workers would no longer be covered by the company's insurance plan. The company cited the Patient Protection and Affordable Care Act as a prime reason for the move. The benefit cut affected roughly 11,000 workers in Indiana. [ 65 ] [ 66 ] The company announced in April 2013 that full-time employees would maintain their health insurance benefits. [ 67 ] In 2013, Kroger was noted for carrying 17 out of 22 Red List species, four of which are in the top list of said species. [ 68 ]
+On February 11, 2014, Kroger announced it would acquire YOU Technology, a digital coupon/identity company founded by Ajay Amlani, that pioneered the ability for shoppers to load digital coupons onto their loyalty card profiles. [ 69 ] It also specialized in being one of the earliest companies to use AI/ML to personalize digital coupons to shoppers based on their past purchase history and intent to buy. The company enabled the loading of billions of coupons [ 70 ] and singlehandedly drove the demise of paper coupons. It was later sold by Kroger to Inmar with a $565 million price disclosed. [ 71 ]
+On March 3, 2015, Kroger announced it would enter Hawaii , having registered with the state as a new business in February 2015. Kroger was planning to expand to Hawaii in 2006 but withdrew after it had already submitted registration. Kroger, which is in the process of looking for locations to open its first store, will face competition from Honolulu-based rivals Foodland and Times ; major retailers Safeway, Walmart, and Costco ; Japanese-owned Don Quixote; and Department of Defense-owned DeCA Commissaries. [ 72 ]
+On May 1, 2015, Kroger announced the acquisition of the seven-store Hiller's Market chain in Southeast Michigan, and that it would operate all but one of those stores under the Kroger banner. [ 73 ]
+In June 2015, Kroger eliminated the Harris Teeter brand from the crowded Nashville, Tennessee, market, where its growth had been stunted by aggressive competition since it entered with six stores in the early 2000s. [ 74 ] Kroger has traditionally had a market-leading presence in Nashville and initially promised to keep the five remaining Harris Teeter stores open when it acquired the chain, [ 75 ] but the market "did not support Harris Teeter's future business plans". [ 76 ] Two Harris Teeter stores were closed outright, and three closed temporarily while being converted to the Kroger brand (one of these would undergo a major remodeling and replace a neighboring Kroger store). [ 77 ]
+On November 11, 2015, Kroger and Roundy's announced a definitive merger, bringing Roundy's chain's 166 primarily Wisconsin-based chains under Kroger ownership. The merger is valued at $800 million, including debt. The acquisition, which brought Kroger back to Wisconsin after a 43-year absence, will retain the Roundy's, Pick 'n Save, Mariano's, Metro Market and Copps names, along with its Milwaukee operations. [ 78 ] (Within a year-and-a-half, however, Kroger had rebranded all Copps locations to the Pick 'n Save banner.)
+In April 2016, Kroger announced that it had made a "meaningful investment" in the Boulder, Colorado -based Lucky's Market , an organic foods supermarket chain that operated 17 stores in 13 states throughout the Midwest and Southeast United States. [ 79 ]
+In February 2017, Kroger withstood large community protests after announcing the closing of two smaller-sized Louisville-area stores.
+Despite high store volumes and high population densities, the Old Louisville (lease expiration) and Southland Terrace stores closed. [ citation needed ]
+On February 7, 2017, it was announced that Kroger Co. had purchased Murray's Cheese. [ 80 ]
+As of 14   February   2017 [ update ] , Kroger is no longer offering a discount to senior citizens 59 and up. [ 81 ]
+On May 1, 2017, Kroger, along with the University of Kentucky and UK Athletics , sports and campus marketing partner JMI Sports, announced a 12-year, $1.85 million per year campus marketing agreement. Included in the agreement is the naming rights to Commonwealth Stadium, the university's football stadium, which will be renamed Kroger Field . This agreement makes the University of Kentucky the first school in the Southeastern Conference to enter into a corporate partnership for the naming rights to their football stadium. [ 82 ]
+On May 10, 2017, Kroger opened its first convenience store [ 83 ] in Blacklick, Ohio , labeled "Fresh Eats MKT". The new prototype stores will have about 12,000 square feet (1,100 square meters) of space, and will be very similar to the Walmart Neighborhood Market project, as these stores only sell food. These stores have a Starbucks , and a Kroger Pharmacy. On June 1, 2017, Kroger opened their second Fresh Eats. Kroger is also going to convert some Turkey Hill stores into the concept store. The CFO , Mike Schlotman, has called these stores a "small test." Local reaction to this new concept has been positive. The concept was discontinued in March 2020. [ 84 ]
+In February 2018, Kroger announced that it will be selling its 762 convenience stores to EG Group , a British service station operator, for $2.15 billion. They operate under the Turkey Hill , Loaf 'N Jug , Kwik Shop , Tom Thumb and Quik Stop banners. Kroger will retain just over 20 convenience stores. Kroger's supermarket fuel centers are not included in the sale. [ 85 ] [ 86 ] [ 87 ] The sale was closed on April 20, 2018. [ 88 ]
+On April 10, 2018, Kroger announced plans to hire an estimated 11,000 new employees. An estimated 2,000 managerial positions will be filled by the new hires. With the addition of these new hires, the total number of people employed by the company is close to half a million. [ 89 ] [ 90 ]
+On May 17, 2018, Kroger announced a partnership with Ocado , a UK-based online supermarket. The partnership is designed to improve Kroger's ecommerce program, including online ordering, automated fulfillment, and home delivery via the construction of 20 new, automated fulfillment centers. [ 91 ] The first of these fulfillment centers, located in Monroe, Ohio , opened in April 2021. As of September   2023 [ update ] , eight total fulfillment center locations have been constructed and opened, with additional locations in Groveland, Florida , Forest Park, Georgia , Pleasant Prairie, Wisconsin , Dallas, Texas , Romulus, Michigan , Aurora, Colorado , and Frederick, Maryland . [ 92 ] Each fulfillment center also operate in conjunction with several "spoke" facilities, which assist to further extend the capable range of delivery. As of September   2023 [ update ] , the latest "spoke" facility to be opened is located in Johnstown, Colorado . [ 93 ] Kroger has taken advantage of its investment in online shopping capability to grow rapidly during the pandemic. In 2020, Kroger's online sales grew by 116%, to over $10B annually. [ 94 ]
+On May 24, 2018, Kroger announced they were acquiring Home Chef for $200 million with an additional $500 million in incentives if certain targets are met by Home Chef. [ citation needed ]
+On June 13, 2018, Kroger Mid-Atlantic announced the Kroger branding will be leaving the Raleigh-Durham area by eliminating all 14 Kroger-branded stores, eight of which will transition to Harris Teeter (also owned by Kroger). One will become a Crunch Fitness and another will become a Food Lion. The fate for the remaining four stores is unclear. [ 95 ]
+In July 2018, Kroger officials backed off a Net 90 payment plan to the produce industry. [ 96 ]
+In October 2018, Kroger announced online wine delivery to 14 states in partnership with DRINKS. [ 97 ] Customers can select assorted wines in 6-bottle or 12-bottle packs. [ 98 ]
+On December 4, 2018, Kroger announced a deal to sell food inside drugstore Walgreens . [ 99 ] Kroger Express [ 100 ] will offer meal kits and other meal solutions.
+In the light of increased self-checkout usage via kiosk or smartphone app in 2019, Kroger is gradually shifting towards creating more self-checkout smartphone apps and lanes than cashier lanes. The company has been investing millions of dollars, in replacing many cashier stations with automation by 2023. As many other supermarkets (such as Walmart and Target ) are also shifting towards automation, and displacing cashiers in the near future. [ 101 ]
+In March 2019, Kroger announced it was expanding its service with robotics company Nuro to Houston, Texas, with Nuro's autonomous Priuses. [ 102 ]
+In August 2019, Kroger began charging customers between $0.50 and $3.50 for receiving cash back while making purchases with debit cards. [ 103 ] [ 104 ] The new fees were first test marketed in March at Kansas area Dillons stores, a Kroger-owned supermarket chain, before the new fees were rolled out to other Kroger-owned supermarket banners in the rest of the nation. [ 105 ]
+In September 2019, Kroger announced a partnership with the Plant Based Food Association (PFBA) to test a plant-based meat retail concept in 60 stores in Denver, and parts of Indiana and Illinois. [ 106 ]
+In November 2019, Kroger unveiled an updated logo for their stores and company, with the '"Fresh For Everyone" tagline and the "Krojis". [ 107 ] The company also announced an expansion of its online wine delivery program into Arizona. [ 108 ] In partnership with DRINKS, the service is now available in 19 states plus Washington D.C. [ 109 ]
+In December 2019, Kroger was named the second-largest grocer in the nation with $110 billion in 2016 sales. The same month, USA Today listed Kroger—and its brands—as the top supermarket (based on Google searches, Yelp data, and 24/7 Tempo's research) in Alaska, Indiana, Kentucky, Mississippi, Ohio, Oregon, Tennessee, Virginia, Washington, and West Virginia. [ 110 ]
+2020s
+[ edit ]
+According to a PBS NewsHour February 13, 2021 broadcast, during the pandemic, Kroger provided their essential workers with a hazard pay, which the company called "hero pay." The hero pay consisted of a raise of US$2 an hour from the end of March 2020 until May 2020, when the hero pay ended. [ 111 ] In January 2021, the Long Beach City Council in California passed an ordinance making it mandatory for some large grocery stores—like Kroger—to provide their essential workers with a hazard pay increase of US$4 an hour "effective immediately for 120 days". The ordinance affected companies with "more than 300 workers nationwide and more than 15 employees per store". [ 111 ]
+Seattle and Washington passed similar ordinances. In response, in early February, Kroger announced the closure and permanent termination of the entire operations of some of their stores—including a Ralphs and a Food4Less in Long Beach—"for economic reasons including the economic cost mandated by the Long Beach ordinance requiring an increase in employee wages, four dollars an hour". [ 111 ] [ 112 ] Kroger closed two Seattle QFC stores in April 2021 blaming that City's Covid Related Hazard Pay Law. [ 113 ] The United Food and Commercial Workers (UFCW), with members whose jobs had been terminated, viewed the closures as a "warning to other cities considering hazard pay mandates". [ 111 ]
+Andrea Zinder, president of the UFCW Local 324 that represents employees at the two Long Beach stores—Ralphs and a Food4Less—said that compared to the same time period in 2019 both stores saw an increase of about 30% in sales. [ 111 ] In 2020, during the pandemic, Kroger's earnings increased by 87.7%. [ 114 ] Kroger's quarterly revenues as reported by November 20, 2020, were US$29.72 billion, and the corporation's per-share earnings and dividends grew at a rapid rate in 2020. Its dividend increase was about 14% annually. [ 115 ]
+Starting in early 2020, Berkshire Hathaway began buying shares of Kroger, and by August 2021 became a top ten shareholder. [ 116 ] [ 117 ] [ 118 ]
+In July 2021, a wrongful-death lawsuit was filed against Kroger by the family of worker Evan Seyfried. Seyfried committed suicide after allegedly enduring abuse at the Kroger location in Milford, Ohio, where he had worked for 19 years. [ 119 ] According to the lawsuit, Seyfried was bullied for wearing a mask in the early days of the pandemic and taunted for his political views. Also on the receiving end of alleged workplace sabotage, one of Seyfried's co-workers called the company's ethics helpline and reported that she and Seyfried were being bullied. However, no action was taken. [ 120 ] In December 2021, Kroger Co. announced the elimination of some COVID-19 benefits for unvaccinated employees. [ 121 ]
+In 2021, the company was reported to have been breached by a third-party hack which compromised the pharmacy records of Kroger owned Fred Meyer and QFC stores' customers. [ 122 ]
+In April 2021, Kroger sold what were previously Fred Meyer properties located in Shoreline, Puyallup and Tacoma to Benderson Development Company for a combined $98.7 million. [ 123 ] In May 2021, Benderson Development bought an additional twenty-eight Fred Meyer properties (as part of a "sale-leaseback investment") for an estimated $500 million as part of a sale totaling 380 acres and 4.5 million square feet of retail space. [ 124 ]
+On August 2, 2021, Kroger announced that it had elected Elaine Chao to its board of directors. Chao was formerly Secretary of Labor under President George W. Bush and Secretary of Transportation under President Donald Trump . [ 125 ] The news was met with backlash from a small number of Kroger customers on Twitter, with calls for a boycott trending nationally due to her ties to the Trump administration and to her husband, Mitch McConnell . [ 126 ]
+On September 23, 2021, a mass shooting occurred at a Kroger location in Collierville, Tennessee . One person was killed and 13 others were injured before the gunman, identified as 29-year-old Uk Thang, committed suicide by gunshot. Thang was working at the store as a third-party vendor. [ 127 ] [ 128 ] In the aftermath of the shooting, Kroger offered counseling services for its employees and closed down the store until November 10. [ 129 ]
+In September 2021, Kroger tweaked its logo to add the "Fresh Cart" symbol. The symbol is an abstract shopping cart with the basket represented as citrus slices. [ 130 ]
+In October 2021, Kroger announced an expansion into South Florida with its online delivery service, Kroger Delivery. To do this, Kroger will build two new automated fulfilment centers assisted and facilitated by the UK-based technology company Ocado Group . Kroger Delivery is also set to launch in the Northeast of the US and expand its operations in California, to be followed by sites in Texas, Georgia, Maryland, Wisconsin, Michigan, Arizona, and North Carolina. The company launched its online delivery services in Central Florida earlier in 2021. [ 131 ] [ 132 ]
+On April 5, 2022, Kroger launched Kroger Restaurant Supply in the Dallas-Ft. Worth area, a new business distributing food and related supplies to restaurants, bakeries, and catering companies. For Kroger, this move into foodservice distribution represents an expansion beyond its core retail grocery operations. [ 133 ]
+On October 14, 2022, Kroger announced a merger with Albertsons in a deal worth $24.6   billion, combining both companies into one entity but divesting some stores to C&S Wholesale Grocers to secure regulatory approval. However, in January 2024, Washington state sued to block the proposed $25 billion merger between Kroger and Albertsons , warning that if approved it could raise prices and harm consumers. [ 134 ] In February 2024, Colorado Attorney General Phil Weiser also filed a lawsuit, saying consumers told him they feared it "would lead to stores closing, higher prices, fewer jobs, worse customer service, and less resilient supply chains." [ 135 ] In February 2024, the FTC sued to block the acquisition stating that the deal would negatively impact consumer prices and workers' wages. [ 136 ]
+In March 2024, Kroger announced the closure of facilities servicing the Miami, San Antonio, and Austin regions, marking the end of their delivery service in those regions. [ 137 ]
+On July 9, 2024, Kroger released the complete list of 579 stores that would be divested in order to satisfy anti-trust concerns from the Federal Trade Commission. [ 138 ] [ 139 ] Within the list of stores being proposed for divestment, the Dallas market would be the most affected, with 26 Albertsons locations being sold which includes the Tom Thumb chain and six Market Street locations. [ 140 ] Following the announcement, the United Food and Commercial Workers made a statement saying that they will continue to oppose the merger and that Kroger's announcement "changes nothing". [ 141 ] In December, 2024, a U.S. district judge ruled against the proposed merger, stating that it would be bad for consumers and employees. [ 142 ]
+In November 2025, Kroger announced it would be closing distribution facilities in Groveland, Florida , Pleasant Prairie, Wisconsin , and Frederick, Maryland . As a result of the closures, Kroger is ending its delivery service in Florida and almost entirely leaving the state, [ 143 ] while expanding its partnerships with Instacart , DoorDash , and Uber in other locations. [ 144 ]
+In December 2025, Kroger announced plans to establish a new $391 million distribution center in Franklin , Simpson County, Kentucky, a project that will create approximately 430 new full-time jobs. [ 145 ]
+On July 1, 2026, Kroger announced that they were acquiring Pittsburgh based Giant Eagle for $1.65 Billion. The purchase is going to be financed by cash and will be completed in 2027. [ 146 ]
+Business trends
+[ edit ]
+Year [ 147 ] [ 148 ]
+Revenue in million US$
+Net income in million US$
+Total Assets in million US$
+Price per Share in US$ [ 149 ]
+Employees
+Supermarkets
+C-stores
+Jewelers
+Total stores
+2006
+60,553
+958
+20,482
+6.94
+290,000
+2,507
+791
+428
+3,726
+2007
+66,111
+1,115
+21,215
+8.12
+310,000
+2,468
+779
+412
+3,659
+2008
+70,336
+1,209
+22,293
+8.13
+323,000
+2,486
+782
+394
+3,662
+2009
+76,148
+1,249
+23,257
+6.42
+326,000
+2,481
+771
+385
+3,637
+2010
+76,609
+70
+23,126
+7.12
+334,000
+2,468
+777
+374
+3,619
+2011
+82,049
+1,116
+23,505
+7.86
+338,000
+2,460
+784
+361
+3,605
+2012
+90,269
+602
+23,476
+8.63
+339,000
+2,435
+791
+348
+3,574
+2013
+96,619
+1,497
+24,634
+13.33
+343,000
+2,424
+786
+328
+3,538
+2014
+98,375
+1,519
+29,281
+21.97
+375,000
+2,640
+786
+320
+3,746
+2015
+108,465
+1,728
+30,497
+28.94
+400,000
+2,625
+782
+326
+3,733
+2016
+109,830
+2,039
+33,897
+24.20
+431,000
+2,778
+784
+323
+3,885
+2017
+115,337
+1,975
+36,505
+19.60
+443,000
+2,796
+784
+319
+3,899
+2018
+122,662
+1,907
+37,197
+20.01
+449,000
+2,782
+782
+274
+3,838
+2019
+121,852
+3,110
+38,118
+21.59
+453,000
+2,764
+253
+3,017
+2020
+122,286
+1,659
+45,256
+24.16
+435,000
+2,757
+242
+2,999
+2021
+132,498
+2,585
+45,256
+35.13
+465,000
+2022
+137,888
+1,655
+48,662
+42.12
+420,000
+2023
+148,258
+2,244
+49,086
+44.23
+430,000
+2024
+150,039
+2,164
+49,623
+60.55
+414,000
+2025
+147,123
+2,665
+52,616
+409,000
+Declining wages
+[ edit ]
+A 2022 Economic Roundtable survey of 10,000 Kroger's workers in Colorado, Southern California, and Washington found that wages have declined over the last several years while over the same period executive pay has increased. The survey found that over 75% of workers experience food insecurity, over 66% struggle to meet basic needs, and 14% experience homelessness, while CEO Rodney McMullen made over $22 million in 2020, compared to $12 million for the year 2018. According to Peter Dreier , who participated in the project, "there are workers sleeping in RVs or couch surfing or living in parks somewhere. Americans go to their local supermarket every week and smile at the person cashing them out, not aware that the person they're talking to is going to sleep in a car after they clock out". [ 150 ] [ 151 ] About two-thirds of Kroger employees are part-time workers, whose schedules often change making it difficult to take a second job. [ 152 ]
+Animal welfare
+[ edit ]
+In 2017, Kroger announced that it would transition to 100% cage-free eggs by 2025, responding to pressure from animal welfare groups. In 2022, they loosened the commitment, aiming instead for 70% cage-free eggs by 2030. [ 153 ]
+Chains
+[ edit ]
+A typical Kroger supermarket in Shepherdsville, Kentucky
+Banner Format
+Primary Variants Combination food and drug Marketplace Multi-department Price impact Other
+Dillons Baker's , Gerbes Y Y
+Food 4 Less [ 154 ] Foods Co. Y
+Fred Meyer Y Y Y
+Fred Meyer Jewelers Barclay's Jewelers, Littman Jewelers Jeweler
+Fry's Y Y
+Harris Teeter Y
+Home Chef E-commerce
+King Soopers City Market Y Y
+Kroger [ 155 ] Pay Less Y Y
+The Little Clinic Walk-in clinic
+Mariano's Y
+QFC Y
+Ralphs Y
+Roundy's [ 156 ] [ 157 ] Metro Market, Pick 'n Save Y
+JayC Ruler Foods Y
+Smith's Y Y Y
+Vitacost E-commerce
+Total stores [ 2 ] 2,277 188 134 121 129 jewelers 225 clinics
+Former chains (year of sale/dissolution in parentheses)
+Barney's (1985) [ 158 ] Y
+Cala Foods (2011) [ 159 ] Bell Markets Y
+Copps Food Center (2017) [ 160 ] Y
+Henke's (1966) [ 161 ] Y
+Hilander Foods (2011) [ 162 ] Y
+Hiller's (2015) Y
+Hook's (1987) [ 163 ] Drug store
+Kessel (1999) [ 164 ] Y
+Krambo (1971) [ 165 ] Y
+Loaf 'N Jug (2018) [ 166 ] Kwik Shop , Quik Stop, Tom Thumb Convenience
+Main & Vine (2018) [ 167 ] Concept
+Market Basket (1982) [ 168 ] Y
+Owen's (2020) [ 169 ] Y
+Scott's (2016) [ 170 ] Y
+SupeRx (1987) [ 171 ] [ 163 ] Drug store
+Turkey Hill (2018) [ 166 ] Convenience
+Kroger Marketplace
+[ edit ]
+Exterior of a Kroger Marketplace in Athens, Georgia
+Kroger Marketplace is a chain of hypermarkets . The brand was introduced in 2004 in the Columbus, Ohio , area, which lost the Big Bear and Big Bear Plus chains in Penn Traffic 's Chapter 11 bankruptcy . [ 172 ] The Kroger Marketplace format is based on the Fry's Marketplace stores that the Arizona division of Kroger is currently operating. There are currently a total of 188 marketplaces. [ 2 ]
+Similar to rival chains Meijer , Kmart , Target , Walmart , and Albertsons, the stores are modeled after Kroger-owned Fred Meyer which house multiple departments. [ 173 ] [ 174 ] In addition to the grocery department, stores typically include a Fred Meyer Jewelers , Starbucks , Donatos Pizza , an in-store bank, and sections for toys, appliances, home furnishings as well as bed and bath—a format Big Bear had in their stores in the Columbus area.
+In 2005, the company began renovating many Kroger Food & Drug stores in Ohio to an expanded and updated look, converting them to the Kroger Marketplace format.
+Manufacturing and distribution
+[ edit ]
+Interior of a typical Kroger produce section
+Food distribution and buying takes place under various subsidiaries and divisions. These include: [ 175 ]
+Kroger Group Cooperative, Inc.
+Kroger Group, Inc.
+Peytons
+WESCO
+Inter-American Products
+Kroger operates its own fleet of trucks and trailers to distribute products to its various stores, in addition to contracts with various trucking companies. [ 4 ] In June 2018, Kroger announced testing driverless cars for delivering groceries. For this, Kroger is partnering with autonomous car company Nuro . [ 176 ] [ 177 ]
+In addition to stocking a variety of regional brand products, The Kroger Company also employs one of the largest networks of private label manufacturing in the country. Thirty-three plants (either wholly owned or used with operating agreements) in seventeen states create about 40% of Kroger's private label products. [ 4 ] Similar to most major supermarket retailers, Kroger uses a three-tiered private label marketing strategy. One private brand emphasizes no-frills products at the lowest possible price, another is intended to be comparable to leading national brands but a better value and the third is a premium (often organic) brand.
+Private label brands
+[ edit ]
+Kroger offers a collection of its own branded products, referred to by the retailer as "Our Brands". The products are produced and sold in quality tiers, and account for over 30% of the retailer's unit sales. [ 178 ] [ 179 ]
+Banner Brand
+[ edit ]
+Banner Brand items are goods that bear the name of Kroger or its subsidiaries (i.e., Ralphs, King Soopers, etc.) or make reference to them (i.e., Big K), and are offered exclusively within Kroger-owned stores. These products are marketed to customers as budget-friendly, and account for over $13 billion in annual sales. [ 180 ] Many of Kroger's health and beauty goods, one of the company's fastest-growing private label categories, are manufactured by third-party providers; these products include goods like ibuprofen and contact lens solution.
+Private Selection
+[ edit ]
+Private Selection branding
+Simple Truth logo
+Products marked Private Selection are offered to compare with gourmet brands or regional brands that may be considered more upscale than the standard Kroger brand products.
+Simple Truth
+[ edit ]
+Simple Truth is Kroger's flagship natural and organic brand, and has grown quickly since its launch in 2012. The brand's launch marked the first time Kroger had delved into making its own gluten-free products, including flour mixes, bread, etc. The Simple Truth brand became the first Kroger offering to be introduced in China, on Alibaba's Tmall platform. [ 181 ] Simple Truth reached $2 billion in annual sales in 2018. [ 182 ]
+Smart Way
+[ edit ]
+Smart Way is Kroger's budget-priced private label line that includes around 150 products. This line, which launched in two waves starting in September 2022, consolidates 16 legacy brands at a "new opening price-point." [ 183 ]
+Other private label brands
+[ edit ]
+In addition to its core brands, Kroger's manufacturing creates a variety department-specific brands. These are featured especially in Fred Meyer stores, where more than half the goods sold are non-food, or in the smaller Fred Meyer-based Marketplace stores. The brands listed below may be found in various Kroger-owned stores. [ 184 ]
+Abound – natural pet food
+Bakery Fresh Goodness – fresh-baked foods
+Bloom Haus – floral arrangements
+Comforts – baby products
+Dip – fast fashion brand designed by Joe Mimran [ 185 ]
+Everyday Living – home goods
+HD Designs – upscale home goods
+HemisFares – imported foods
+Home Chef – meal kit and food delivery company acquired in 2018
+Kroger Mercado – Hispanic-inspired food products [ 186 ]
+Luvsome – pet food
+Murray's Cheese – artisanal cheese shop founded in Greenwich Village in 1940
+OfficeWorks – stationery and office supplies
+Pet Pride – pet food
+Other operations
+[ edit ]
+Pharmacy Group
+[ edit ]
+Kroger previously owned and operated the SupeRx drug store chain. In 1985, Kroger outbid Rite Aid for the Hook's Drug Stores chain, based in Indianapolis , Indiana, and combined it with SupeRx to become Hook's-SupeRx. In 1994, Kroger decided to exit the stand-alone drugstore business and sold its Hook's and SupeRx stores to Revco , which later was sold to CVS . [ 187 ]
+Today, Kroger operates 2,252 pharmacies, most of which are located inside its supermarkets. [ 2 ] The Kroger Pharmacies continue as a profitable portion of the business and have been expanding to now include pharmacies in City Market, Dillons, Fred Meyer, Fry's, King Soopers, QFC, Ralphs, Harris Teeter, Smith's Food and Drug, and Kroger Supermarkets. [ 188 ]
+Supermarket Petroleum Group
+[ edit ]
+Since 1998, Kroger has added fuel centers in the parking lots of its supermarkets. More recently, the company has begun opening standalone fuel centers, often near stores whose parking lots could not accommodate a fuel center. As of Q2 2022, Kroger operated 1,629 supermarket fuel centers. [ 2 ] [ 8 ]
+In 2006, Kroger introduced a new common logo for all of its convenience store chains that is now also used at the fuel centers of all of its supermarket chains—a rhombus with a white, stylized image of the continental United States in the center bordered by four colored areas: dark blue representing the Pacific Ocean, red representing Canada, green representing the Atlantic Ocean, and yellow representing the Gulf of Mexico . This logo is also still used at the convenience stores that were sold to EG Group in 2018.
+Kroger Personal Finance
+[ edit ]
+Kroger Personal Finance was introduced in 2007 to offer branded Visa cards, mortgages, home equity loans, pet, renter's and home insurance, identity theft protection, and wireless services. [ 4 ] In 2017, MasterCard became the network for Kroger's newly branded 1-2-3 REWARDS credit card issued by U.S. Bank. [ 189 ] In 2019, Kroger banned the use of Visa credit cards (but not debit cards) at two of its subsidiary chains: Foods Co. Supermarkets and Smiths, citing rising costs from premium cards. [ 190 ]
+Kroger Wireless
+[ edit ]
+Main article: Kroger Wireless
+Kroger Wireless, formerly known as i-wireless, [ 191 ] is a national private label wireless service provider sold in over 2,200 retail locations within the Kroger family of stores across 31 states. [ 192 ] Kroger Wireless service functions over the nationwide T-Mobile network. [ 193 ] Customers can choose from "Unlimited" rate plans including unlimited talk/ text and with data allotments up to and including unlimited data. [ 194 ] Kroger Wireless allows customers to purchase phones at select Kroger store locations, [ 195 ] via their website, [ 196 ] or by bringing their eligible T-Mobile device for activation. [ 197 ]
+84.51°
+[ edit ]
+84.51° is a wholly owned subsidiary of Kroger engaged in data science and consumer insights, created in April 2015, as a result of Kroger purchasing the remaining half of its then-joint venture Dunnhumby USA from Tesco . [ 198 ]
+Pricing discrepancies and overcharges
+[ edit ]
+In 2025, an investigation by The Guardian , Consumer Reports, and the Food & Environment Reporting Network revealed widespread overcharging at Kroger stores across multiple states due to expired sale tags leading to higher prices at checkout. [ 199 ] Tests in 26 stores across 14 states and Washington, D.C., identified over 150 items with expired sale tags, averaging a $1.70 overcharge per item, or 18% above the advertised sale price. [ 199 ] In Colorado, union tests at over 30 King Soopers stores found more than 300 expired tags, with overcharges averaging nearly 15%. [ 199 ] An internal Kroger audit at one western U.S. store reported approximately 6% of price tags were incorrect, exceeding the company’s 1% error threshold. [ 199 ] The investigation, supported by customer complaints and union reports, linked the issue to chronic understaffing, with expired tags remaining on shelves for weeks. [ 199 ] Kroger denied systemic pricing issues, asserting that errors were a small fraction of billions of annual transactions and emphasizing regular audits to ensure pricing accuracy. [ 199 ]
+Notes and references
+[ edit ]
+↑ Wordmark used since 2019
+1 2 "The Kroger Co. - Company Profile" . IBISWorld . Retrieved February 27, 2026 .
+1 2 3 4 5 6 7 8 "Investors - Overview - Our Business - The Kroger Co" . ir.kroger.com . Retrieved December 8, 2022 .
+↑ "Management & Directors" . The Kroger Co. Archived from the original on December 21, 2021 . Retrieved February 7, 2022 .
+1 2 3 4 "2022 Kroger Financial Statements" . The Kroger Co. Archived from the original on December 26, 2016 . Retrieved June 11, 2022 .
+1 2 3 4 5 "Number of employees of Kroger 2023" (PDF) . Kroger .
+↑ "Form 10-K: The Kroger Co" . U.S. Securities and Exchange Commission. February 2, 2013. Archived from the original on September 12, 2014 . Retrieved December 17, 2013 .
+↑ Securities and Exchange Commission (2022). "The Kroger Co. Form 10-K for Fiscal Year Ended January 29, 2022. (Part IV, Item 15, Exhibit 21.1)" . www.sec.gov . Retrieved August 31, 2022 .
+1 2 3 4 "The Kroger Co. – Operations" . Archived from the original on October 18, 2012 . Retrieved February 28, 2013 .
+↑ "Our History" . Kroger . Retrieved June 15, 2026 .
+↑ "Kroger Union" . The United Food & Commercial Workers International Union . Retrieved January 21, 2022 .
+↑ "Kroger Union Workers Vote to Reject Contract, Authorize Strike" . Archived from the original on February 2, 2017 . Retrieved January 24, 2017 .
+↑ "Top 25 supermarket operators by sales" . Supermarket News . Informa USA. July 7, 2021 . Retrieved May 5, 2022 .
+↑ "Kantar's 2019 Top 50 US Retailers" (PDF) . Kantar Retail IQ.
+↑ "Global Powers of Retailing 2013" (PDF) . Deloitte. February 2013. p.   G11. Archived from the original (PDF) on 17 December 2013 . Retrieved 17 December 2013 .
+1 2 "The Kroger Co. - Corporate News & Info: History" . www.thekrogerco.com . Archived from the original on October 30, 2018 . Retrieved October 29, 2018 .
+1 2 Gonzales, J. R. (October 20, 2010). "Houston's own Henke & Pillot" . Bayou City History . Archived from the original on November 7, 2019 . Retrieved November 7, 2019 .
+↑ "Search Fortune 500" . Fortune . Retrieved January 21, 2022 .
+↑ Hinds, Conrade C. (2023). Made in Ohio: A History of Buckeye Invention & Ingenuity . Charleston, SC: Arcadia Publishing. p.   161. ISBN   978-1-4671-5294-5 .
+↑ "First Kroger Opened 90 Years Ago" . Times Daily . August 26, 1973. Archived from the original on December 9, 2015 . Retrieved November 28, 2015 .
+↑ Ingham, John N. (1983). Biographical Dictionary of American Business Leaders . Westport, CT: Greenwood Publishing Group. p.   744. ISBN   0-313-23908-8 .
+1 2 "Kroger Company - Ohio History Central" . www.ohiohistorycentral.org . Archived from the original on August 1, 2018 . Retrieved August 23, 2018 .
+↑ "},"url-access":{"wt":"subscription"},"archive-url":{"wt":"https://web.archive.org/web/20171001215750/https://pqasb.pqarchiver.com/djreprints/doc/130733006.html"},"archive-date":{"wt":"1 October 2017"},"url-status":{"wt":"live"},"id":{"wt":"{{ProQuest|130733006}}"}},"i":0}}]}'/> "Denies Kroger-Safeway Merger" . Wall Street Journal . October 1, 1929. p.   4. ProQuest   130733006 . Archived from the original on October 1, 2017.
+↑ Steinman, Jon (2019). "The Rise of the Grocery Giants". Grocery Story: The Promise of Food Co-ops in the Age of Grocery Giants . New Society Publishers. ISBN   978-0865719071 .
+1 2 3 Smith, Andrew F. (2013). Food and Drink in American History: A "Full Course" Encyclopedia [3 volumes] . Bloomsbury Publishing USA. p.   516. ISBN   978-1-61069-233-5 .
+↑ Myers, Dan (August 22, 2018). "10 Things You Didn't Know About Kroger" . Yahoo! . Archived from the original on July 7, 2023 . Retrieved July 7, 2023 .
+1 2 Halper, Emanuel B. (2001). Shopping Center and Store Leases, Vol. 1 . New York, NY: Law Journal Press. pp.   9–36.105. ISBN   1-58852-003-X .
+↑ "KROGER ACQUIRES WISCONSIN CHAIN; Takes Over 25 Supermarkets of Krambo Food Stores -- Details Not Given" . The New York Times . June 16, 1955. ISSN   0362-4331 . Archived from the original on November 7, 2019 . Retrieved November 7, 2019 .
+↑ United States Congress House Committee on the Judiciary (1957). Premerger Notification . Washington, D.C. p.   408. {{ cite book }} : CS1 maint: location missing publisher ( link )
+↑ "Market Basket, Kroger Chain Finish Merger" . The Los Angeles Times . October 1, 1963. p.   46 . Retrieved June 2, 2021 .
+↑ Laulajainen, R. (2012). Spatial Strategies in Retailing . Dordrecht: Springer Science & Business Media. p.   69. ISBN   978-94-010-8267-9 .
+↑ "Kash N' Karry Buys Markets From Kroger" . Articles.orlandosentinel.com. August 24, 1988. Archived from the original on May 25, 2013 . Retrieved January 3, 2013 .
+↑ "Kroger Lines Up Buyers" . Articles.orlandosentinel.com. September 7, 1988. Archived from the original on May 25, 2013 . Retrieved January 3, 2013 .
+↑ "Business Scene: Kroger Co" . Archived from the original on May 7, 2016 . Retrieved January 3, 2013 .
+↑ Commission, United States Federal Trade (1969). Economic Report on Food Chain Selling Practices in the District of Columbia and San Francisco: A Staff Report . Washington, D.C.: U.S. Government Printing Office. p.   4.
+↑ Grewal, Dhruv (2018). Retail Marketing Management: The 5 Es of Retailing . Thousand Oaks, CA: SAGE Publications. p.   16. ISBN   978-1-5264-4684-8 .
+↑ Charlotte Observer, Kroger will Close Charlotte, Charleston Stores in January. Nov 17, 1988
+↑ "Advertisement – Final Clearance" . The NEws and Courier . January 4, 1989. p.   10–A . Retrieved January 3, 2013 . [ permanent dead link ]
+↑ Associated Press (December 29, 1978). "Wholesaler refiles suit against Kroger" . News Herald . p.   2 . Retrieved August 28, 2024 .
+↑ "All Stores Sold, Kroger Announces" . February 13, 1984. pp.   Page 1 . Retrieved August 28, 2024 .
+↑ "Kroger May Close Stores" . The Pittsburgh Press . February 19, 1985. p.   29 . Retrieved August 28, 2024 .
+↑ Andrew, Chris (April 4, 1982). "Now Grocery Stores Seek Pay Rollbacks" . Lansing State Journal . p.   51 . Retrieved August 28, 2024 .
+↑ Buchholz, Barbara B. (February 14, 1984). "Kroger Company selling 45 Stores to Wetterau" . St. Louis Post-Dispatch . p.   10 . Retrieved August 28, 2024 .
+↑ "Kroger Selling Stores in Strike" . The New York Times . February 14, 1984. Archived from the original on March 6, 2016 . Retrieved February 10, 2017 .
+↑ UPI (March 15, 1984). "Kroger Stores to close" . Latrobe Bulletin . p.   11 . Retrieved August 27, 2024 .
+↑ Boyle, P.J. (June 5, 1984). "Lucchino seeking ban on key loans to Food Distributor" . The Pittsburgh Press . p.   13 . Retrieved August 28, 2024 .
+↑ "Kagler Leaves Grocery Chain" . AP NEWS . Retrieved June 25, 2023 .
+↑ "Kessel buys Corunna, Saginaw Kroger Stores" . The Argus-Press . November 24, 1981. p.   1. Archived from the original on November 21, 2015 . Retrieved January 3, 2013 .
+↑ File Photo (December 29, 2012). "Grocer Al Kessel remembered for kindness, dedication to employees" . MLive.com. Archived from the original on January 1, 2013 . Retrieved January 3, 2013 .
+↑ "Kroger selling Manistee store" . Ludington Daily News . June 28, 1980. p.   1. Archived from the original on November 21, 2015 . Retrieved January 3, 2013 .
+↑ "Hamady Sacks and Yankee Hats" . Archived from the original on May 13, 2009 . Retrieved October 22, 2013 .
+↑ Dillon Companies, Inc. Archived January 13, 2009, at the Wayback Machine , answers.com
+↑ "828 F.2d 19" . resource.org . September 3, 1987. Archived from the original on November 24, 2015 . Retrieved October 23, 2015 .
+↑ "Kroger Signature Store No. 355" . Houston Deco . Retrieved July 1, 2026 .
+↑ Canedy, Dana (October 20, 1998). "Kroger to Buy Fred Meyer, Creating Country's Biggest Grocer" . The New York Times . ISSN   0362-4331 . Archived from the original on October 30, 2016 . Retrieved January 24, 2017 .
+↑ "Kroger Press Release, May 31, 2000" . TheKrogerCo.com . May 31, 2000. Archived from the original on October 23, 2013 . Retrieved October 22, 2013 .
+↑ "FTC Agreement Allows Delhaize America, Inc. and Hannaford Bros. Co. Merger of East Coast Supermarkets" . FTC.gov . June 24, 2011. Archived from the original on February 19, 2013 . Retrieved January 3, 2013 .
+↑ "USA: Fleming reaches agreement to sell Baker's Retail Stores to Kroger Co. and agrees to three-year supply arrangement for Baker's Stores" . www.just-food.com. December 15, 2000 . Retrieved September 16, 2023 .
+↑ "Baker s Supermarkets was acquired by The Kroger on January 1, 2001" . mergr . Retrieved September 16, 2023 .
+↑ Brynlee (January 19, 2024). "Kroger Acquired Thriftway Stores in Cincinnati, Ohio and Reopened as Kroger Stores" . kroger-feedback.info .
+↑ "Kroger kicks off 38th annual Fight Cancer Day" . WANE . October 5, 2016. Archived from the original on February 2, 2017 . Retrieved January 24, 2017 .
+↑ Lippman, Daniel (January 16, 2014). "Not Your Grandmother's American Cheese" . The Wall Street Journal . Archived from the original on January 7, 2015 . Retrieved April 29, 2014 .
+↑ Clifford, Stephanie (July 9, 2013). "Kroger Buys Rival Grocer Harris Teeter, Citing Potential for Growth" . New York Times . Archived from the original on July 11, 2013 . Retrieved July 11, 2013 .
+↑ News & Observer Staff Reports. "Kroger buying Harris Teeter in $2.5 billion merger" Archived July 12, 2013, at the Wayback Machine . newsobserver.com. Retrieved July 9, 2013
+↑ "Mid-Market Grocers Continue to Struggle in Fiercely Competitive Sector" . National Real Estate Investor. July 11, 2013. Archived from the original on July 16, 2013 . Retrieved July 11, 2013 .
+↑ Epstein, Joseph (September 7, 2013). "Kroger Workers' Union OKs Dumping Spouses into Obamacare" . Washington Examiner . Archived from the original on October 16, 2013 . Retrieved October 22, 2013 .
+↑ "Obamacare effect? Kroger cuts health care for Indiana workers' spouses" . Archived from the original on September 8, 2013 . Retrieved October 22, 2013 .
+↑ Berman, Jillian (April 13, 2013). "Most Employers won't Drop Health Care Coverage Because of Obamacare: Survey" . Huffington Post . Archived from the original on October 25, 2013 . Retrieved October 22, 2013 .
+↑ "Carting Away the Oceans 7" (PDF) . Greenpeace. Archived from the original (PDF) on October 21, 2013 . Retrieved November 2, 2013 .
+↑ Co, The Kroger. "Kroger Announces Acquisition of YOU Technology" . www.prnewswire.com .
+↑ "YOU Technology Hits 4B Digital Coupon Downloads" . Progressive Grocer . November 7, 2016.
+↑ "Kroger closes YouTech sale for $565 million" . Supermarket News .
+↑ "Supermarket giant Kroger eyeing Hawaii for first Isle location" Archived March 4, 2015, at the Wayback Machine from Pacific Business News (March 3, 2015)
+↑ "Kroger Acquires Hiller's in Metro Detroit" . ProgressiveGrocer . May 2015. Archived from the original on May 11, 2015 . Retrieved June 24, 2015 .
+↑ Alfs, Lizzy (June 9, 2015). "Harris Teeter's equipment, fixtures up for auction" . The Tennessean .
+↑ Williams, William (July 9, 2013). "Local Harris Teeter stores to stay open once Kroger deal complete" . NashvillePost.com . Archived from the original on April 15, 2015 . Retrieved April 8, 2015 .
+↑ Alfs, Lizzy (April 7, 2015). "Harris Teeter closing Nashville stores, converting 3 to Kroger stores" . The Tennessean . Retrieved April 8, 2015 .
+↑ Apel, Kara (April 7, 2015). "Harris Teeter closing 4 stores in Nashville; 3 being sold to Kroger" . WSMV.com . Archived from the original on February 3, 2018 . Retrieved January 5, 2019 .
+↑ Brynlee (November 11, 2015). "Kroger to buy Pick 'n Save parent Roundy's in $800 million deal" . krogerfeedback.cc .
+↑ "},"access-date":{"wt":"July 25, 2017"},"archive-url":{"wt":"https://web.archive.org/web/20170509140940/http://www.prnewswire.com/news-releases/kroger--luckys-market-announce-strategic-partnership-300244806.html"},"archive-date":{"wt":"May 9, 2017"},"url-status":{"wt":"live"}},"i":0}}]}'/> "Kroger & Lucky's Market Announce Strategic Partnership" . PR Newswire (Press release). April 1, 2016. Archived from the original on May 9, 2017 . Retrieved July 25, 2017 .
+↑ Morris, Keiko; Haddon, Heather (February 7, 2017). "Kroger Co. Gobbles Up Murray's Cheese" . The Wall Street Journal . New York City. Archived from the original on February 8, 2017 . Retrieved February 8, 2017 .
+↑ Baddour, Dylan (February 17, 2017). "Kroger ends senior citizens discount" . Houston Chronicle . Archived from the original on February 19, 2017 . Retrieved February 20, 2017 .
+↑ Smith, Jennifer (May 1, 2017). "After 44 years, Commonwealth Stadium has a new name: Kroger Field" . Lexington Herald-Leader . Archived from the original on May 2, 2017 . Retrieved May 1, 2017 .
+↑ "Kroger to Unveil New Convenience Concept" . Supermarket News . May 9, 2017. Archived from the original on January 12, 2018 . Retrieved January 11, 2018 .
+↑ Dumont, Jessica (March 4, 2020). "Kroger shutters Fresh Eats MKT concept" . Grocery Dive .
+↑ "Kroger to sell its convenience stores to UK's EG Group for $2.15 billion" . CNBC . February 5, 2018. Archived from the original on February 6, 2018 . Retrieved February 7, 2018 .
+↑ "Kroger and EG Group Announce Definitive Agreement for Purchase of Kroger's Convenience Store Business" . Kroger . Archived from the original on March 28, 2018 . Retrieved March 28, 2018 .
+↑ "Retained C Stores" (PDF) . The Kroger Co . Archived (PDF) from the original on April 27, 2018 . Retrieved April 26, 2018 .
+↑ "EG Group Goes West With Fuel Retail Convenience Model – EG Group" . www.eurogarages.com . Archived from the original on July 2, 2018 . Retrieved August 23, 2018 .
+↑ "Kroger Hiring 11K For Supermarket Divisions" . Progressive Grocer . Archived from the original on April 13, 2018 . Retrieved April 12, 2018 .
+↑ "Kroger to hire 11,000 employees to its supermarkets" . U.S . Archived from the original on April 11, 2018 . Retrieved April 12, 2018 .
+↑ "Kroger Inks Deal with Ocado to Enhance Ecommerce" . Progressive Grocer . Archived from the original on November 15, 2019 . Retrieved November 15, 2019 .
+↑ "Kroger Opens Fulfillment Center in Denver Metro Area" . Progressive Grocer . Archived from the original on March 25, 2023 . Retrieved January 10, 2024 .
+↑ "Kroger Delivery Expands in Northern Colorado" . PR Newswire . Archived from the original on September 21, 2023 . Retrieved January 10, 2024 .
+↑ "Kroger debuts first Ocado automated fulfillment center" . Supermarket News . April 14, 2021 . Retrieved August 1, 2022 .
+↑ Bowen, Janine; Krueger, Sarah (June 16, 2018). "1,500 expected to lose jobs as Kroger closes all stores in Raleigh, Durham" . Archived from the original on June 14, 2018.
+↑ "Kroger Backs off "Net 90" Payment Plan to Produce Shippers" . CaliforniaAgToday.com . July 11, 2018. Archived from the original on July 20, 2018 . Retrieved August 23, 2018 .
+↑ Dumont, Jessica. "Kroger moves into wine delivery in 14 states" . Grocery Dive . Archived from the original on December 3, 2019 . Retrieved December 3, 2019 .
+↑ Melton, James (October 17, 2018). "Kroger introduces wine delivery" . Digital Commerce 360 . Bloomberg News. Archived from the original on December 3, 2019 . Retrieved December 3, 2019 .
+↑ Haddon, Heather (December 4, 2018). "Kroger to Sell Groceries in Walgreens Stores" . Wall Street Journal . Archived from the original on December 4, 2018 . Retrieved December 4, 2018 .
+↑ Lucas, Amelia (December 4, 2018). "Walgreens, Kroger expand partnership, testing Express grocery shops" . CNBC . Archived from the original on December 4, 2018 . Retrieved December 4, 2018 .
+↑ Copeland, Mike. "Mike Copeland: Self checkout at H-E-B; Gas prices up; New medical facility on horizon" . Waco Tribune-Herald . Archived from the original on May 4, 2019 . Retrieved May 2, 2019 .
+↑ "Nuro expands Kroger driverless deliveries to Houston" . VentureBeat . March 14, 2019. Archived from the original on July 26, 2019 . Retrieved October 9, 2019 .
+↑ Brookbank, Sarah (July 30, 2019). "Kroger is now charging a fee for cash back at checkout" . Cincinnati Enquirer . Archived from the original on July 30, 2019 . Retrieved October 16, 2019 .
+↑ Anderson, George (July 31, 2019). "Kroger to make customers pay for cash-back debit card payments" . RetailWire . Archived from the original on October 16, 2019 . Retrieved October 16, 2019 .
+↑ Tidd, Jason (March 4, 2019). "If you want cash back at Dillons grocery stores in Wichita, you'll have to pay a fee" . Wichita Eagle . Archived from the original on October 12, 2019 . Retrieved October 16, 2019 .
+↑ Acosta, Gina (September 10, 2019). "Kroger Launching Plant-Based Concept" . Progressive Grocer . Retrieved December 26, 2019 .
+↑ Peterson, Hayley. "The largest US supermarket is waiving grocery-pickup fees and getting a radical new look" . Business Insider . Archived from the original on November 7, 2019 . Retrieved November 18, 2019 .
+↑ "Kroger Wine Expands Ship-to-Home Delivery Options" . Progressive Grocer . November 20, 2019. Archived from the original on December 3, 2019 . Retrieved December 3, 2019 .
+↑ Caproni, Erin. "Kroger expands wine delivery service" . Cincinnati Business Courier . Retrieved December 3, 2019 .
+↑ Andrews, Colman (December 11, 2019). "The Best Grocery Store Chain in Every State" . 247wallst.com . Retrieved December 30, 2019 .
+1 2 3 4 5 "An unexpected pitfall for some cities' mandatory hazard pay for essential workers" . PBS NewsHour . February 13, 2021 . Retrieved February 14, 2021 .
+↑ Jones, Dustin (February 2, 2021). "Kroger To Close 2 Long Beach Stores Following City-Mandated Pandemic Pay Increase" . NPR . Archived from the original on April 18, 2023.
+↑ Roberts, Paul (February 17, 2021). "QFC to close two Seattle stores, blames city $4 hazard pay law" . The Seattle Times . Retrieved August 28, 2024 .
+↑ "Kroger" . Simply Wall St . Retrieved February 14, 2021 .
+↑ "The Kroger Co. (NYSE:KR) Looks Like A Good Stock, And It's Going Ex-Dividend Soon" . February 6, 2021 . Retrieved February 14, 2021 .
+↑ Sparks, Daniel (June 29, 2021). "Warren Buffett's Berkshire Hathaway Likes Kroger Stock and You Should, Too" . Nasdaq . Retrieved September 11, 2023 .
+↑ "The Enquirer" .
+↑ The Kroger Company. "The Kroger Company -Stock Info-Ownership Summary" . ir/kroger.com . Retrieved August 28, 2024 .
+↑ "National Kroger protest held for employee who died by suicide" . WCPO . March 9, 2022 . Retrieved July 22, 2022 .
+↑ "Former Kroger grocery store employee's suicide was a result of 'torturous conditions,' lawsuit says" . Washington Post . ISSN   0190-8286 . Retrieved July 22, 2022 .
+↑ Kang, Jaewon (December 14, 2021). "Kroger to End Some Covid-19 Benefits for Unvaccinated Workers; Grocery chain to remove paid emergency leave for unvaccinated employees who contract Covid-19, add $50 monthly health surcharge for some staff". The Wall Street Journal .
+↑ "Fred Meyer, QFC parent Kroger says pharmacy customer data impacted in vendor hack" . oregonlive . Associated Press. February 21, 2021 . Retrieved February 21, 2021 .
+↑ Hall, Meghan (April 29, 2021). "Multiple Fred Meyer Properties in Shoreline, Tacoma and Puyallup for combined $98.7 MM" . The Registry . Retrieved August 28, 2024 .
+↑ McQuaid, Kevin (May 20, 2021). "Benderson Development expanding through net lease investments" . Business Observer of Florida . Retrieved August 28, 2024 .
+↑ "},"title":{"wt":"Kroger Elects Elaine Chao to Board of Directors"},"date":{"wt":"2021-08-02"},"url":{"wt":"https://ir.kroger.com/CorporateProfile/press-releases/press-release/2021/Kroger-Elects-Elaine-Chao-to-Board-of-Directors/default.aspx"},"access-date":{"wt":"2021-09-10"}},"i":0}}]}'/> "Kroger Elects Elaine Chao to Board of Directors" (Press release). August 2, 2021 . Retrieved September 10, 2021 .
+↑ Geske, Dawn (August 5, 2021). "Why Customers Are Furious With Kroger And Boycotting Its Stores: 'This Is The Last Straw' " . International Business Times . Retrieved September 10, 2021 .
+↑ Riess, Rebekah; Selva, Jenn (September 23, 2021). "At least 1 dead, 14 others injured after shooting at Memphis-area Kroger" . CNN . Archived from the original on September 23, 2021 . Retrieved September 23, 2021 .
+↑ Shapiro, Emily (September 24, 2021). "Authorities ID Kroger mass shooting suspect as 29-year-old third-party vendor for grocery store" . ABC Chicago . Archived from the original on September 24, 2021 . Retrieved September 24, 2021 – via ABC News.
+↑ Mitchell, Morgan; James, Jordan (November 5, 2021). "Collierville Kroger to reopen after mass shooting" . WREG-TV . Retrieved November 8, 2021 . [ permanent dead link ]
+↑ "Kroger rolls out the 'Fresh Cart' as part of logo" . Supermarket News . September 9, 2021.
+↑ Danna, Nicole. "It's Official: Kroger Delivery Is Coming to South Florida" . Miami New Times . Retrieved October 19, 2021 .
+↑ "Kroger bringing new high-tech warehouse, 700 jobs to Cabarrus County" . WSOC-TV . WSOCTV.COM Staff . Retrieved December 8, 2021 .
+↑ "Kroger to supply restaurants with next-day delivery service" . Supply Chain Dive . Retrieved July 29, 2022 .
+↑ Valinsky, Jordan (January 16, 2024). "Washington state wants to block the Kroger-Albertsons merger | CNN Business" . CNN . Retrieved January 16, 2024 .
+↑ Chuang, Tamara (February 14, 2024). "Colorado AG sues to block merger between parent companies of King Soopers and Safeway" . The Colorado Sun . Retrieved February 14, 2024 .
+↑ Creswell, Julie (February 26, 2024). "F.T.C. Sues to Block Kroger-Albertsons Grocery Store Deal" . The New York Times .
+↑ Cone, Allen (March 26, 2024). "Kroger to end delivery service from Homestead to Port St. Lucie in May" . WPTV-TV . E. W. Scripps Company . Retrieved November 20, 2025 .
+↑ "Kroger, Albertsons announce stores that would be sold under merger" . cbs8.com . Tegna Inc. July 9, 2024 . Retrieved July 9, 2024 .
+↑ "Stores to be sold in Kroger-Albertsons merger | Created with Datawrapper" . Create charts and maps with Datawrapper . Retrieved July 9, 2024 .
+↑ Mejia-Hilario, Irving; Uma, Bhat (July 9, 2024). "The D-FW communities hit hardest as Albertsons-Kroger plan to sell 26 area stores" . Dallas Morning News . Dallas Morning News. MSN . Retrieved July 9, 2024 .
+↑ "Kroger, Albertsons announce stores that would be sold under merger; Includes several Valley locations" . KESQ-TV . News-Press & Gazette Company . July 9, 2024 . Retrieved July 9, 2024 .
+↑ "Judge blocks Albertsons-Kroger $25 billion supermarket merger" . NBC News . December 10, 2024 . Retrieved December 11, 2024 .
+↑ Langston, Jacob (November 18, 2025). "Kroger ending delivery in Florida, closing Lake County fulfillment center" . WKMG-TV . Graham Media Group . Retrieved November 20, 2025 .
+↑ La Roche, Mariana (November 18, 2025). "Wisconsin among 3 Kroger automated centers closing in January" . WISN-TV . Retrieved November 20, 2025 .
+↑ "Kroger To Establish New $391 Million Distribution Center in Franklin, Simpson County, and Create 430 New Full-Time Jobs" . Kentucky.gov. December 11, 2025.
+↑ "Kroger Announces Agreement to Acquire Giant Eagle" . ir.kroger.com .
+↑ "Kroger Financial Statements 2010-2025 | KR" . www.macrotrends.net .
+↑ "The Kroger Co. - Financials - SEC Filings" . ir.kroger.com . Retrieved May 31, 2025 .
+↑ "Kroger - 63 Year Stock Price History | KR" . www.macrotrends.net . Retrieved May 31, 2025 .
+↑ Lalljee, Jason (January 14, 2022). "Kroger workers experienced hunger, homelessness, and couldn't pay their rent in 2021. Its CEO made $22 million the previous year" . Insider . Retrieved February 11, 2022 .
+↑ Flaming, Daniel; Dreier, Peter; et   al. (January 11, 2022). "Hungry at the Table: White Paper on Grocery Workers at the Kroger Company" . Economic Roundtable . Retrieved February 11, 2022 .
+↑ Maheshwari, Sapna; Corkery, Michael (February 12, 2022). "Business Booms at Kroger-Owned Grocery Stores, but Workers Are Left Behind" . The New York Times . Retrieved February 12, 2022 . Keeping workers part time is a strategy employers use to encourage turnover and reduce costs.
+↑ Ro, Christine. "2025 Is A Critical Year For Cage-Free Meat And Eggs" . Forbes . Retrieved June 20, 2025 .
+↑ Food 4 Less encompasses two divisions: Food 4 Less West (all locations in California; includes Foods Co.) and Food 4 Less Midwest.
+↑ The Kroger banner encompasses the following divisions: Atlanta, Central (includes Pay Less), Cincinnati, Columbus, Dallas, Delta, Houston, Louisville (includes JayC), Michigan, Mid-Atlantic, and Nashville.
+↑ Supermarkets within the Roundy's chain carry a variety of banner names; none carry the banner name "Roundy's".
+↑ "Roundy's banners" . Archived from the original on November 6, 2019 . Retrieved December 6, 2019 .
+↑ "Kroger to withdraw" Archived May 11, 2016, at the Wayback Machine , United Press International in The Bryan Times , August 29, 1985.
+↑ Locations sold to DeLano's IGA, last Kroger-owned location closed in 2011.
+↑ Acquired 2001, name phased out in 2017.
+↑ Gonzales, J.R. " Houston's own Henke & Pillot Archived February 10, 2015, at the Wayback Machine ." Houston Chronicle blogs. October 20, 2010. Retrieved on January 13, 2011. "Offices at 3021 Washington"
+↑ Acquired 1998, sold to Schnucks in 2011.
+1 2 "Kroger completes divestiture of SupeRx/Hook stand-alone drugstore business with sale of remaining 48 SupeRx stores to the chain's former president, Wolken" . Pharma Intelligence . February 2, 1987. Archived from the original on May 17, 2019 . Retrieved May 17, 2019 .
+↑ Acquired and name phased out in 1999.
+↑ Acquired June 1955, name phased out in 1966. Withdrew from Wisconsin in 1971.
+1 2 "Kroger Completes Sale of Convenience Store Business to EG Group" (Press release). Archived from the original on October 21, 2018 . Retrieved October 20, 2018 .
+↑ "Kroger to close Main & Vine store after only 23 months" . December 4, 2017. Archived from the original on October 21, 2018 . Retrieved October 20, 2018 .
+↑ Acquired October 1963, sold in 1982.
+↑ "Owen's making transition over to Kroger" . WRSW . August 19, 2020.
+↑ Acquired in 2007, final location became a Kroger in 2016.
+↑ "The SupeRx Files" . Pleasant Family Shopping . February 1, 2009. Archived from the original on May 17, 2019 . Retrieved May 17, 2019 .
+↑ Showalter, Kathy (November 8, 2004). "Kroger hopes Graceland store is Wal-Mart antidote" . www.bizjournals.com . Archived from the original on July 31, 2017 . Retrieved July 31, 2017 .
+↑ Warner, Melanie (October 6, 2005). "An Identity Crisis for Supermarkets" . The New York Times . ISSN   0362-4331 . Archived from the original on July 15, 2017 . Retrieved January 24, 2017 .
+↑ "Kroger KEEPS LEAD" . www.enquirer.com . Retrieved January 24, 2017 .
+↑ "Standard Vendor Agreement for Merchandise (Products)" (PDF) . Kroger. January 2013. Archived from the original (PDF) on 17 December 2013 . Retrieved 17 December 2013 .
+↑ Hirsch, Lauren (June 28, 2018). "An unmanned car may soon deliver your Kroger groceries" . CNBC . Archived from the original on June 28, 2018 . Retrieved June 29, 2018 .
+↑ "Kroger to test grocery delivery using driverless vehicles" . USA TODAY . Archived from the original on June 29, 2018 . Retrieved June 29, 2018 .
+↑ "Three-Tier Marketing Strategy" . Kroger. Archived from the original on October 23, 2013 . Retrieved December 17, 2013 .
+↑ "Sparkly unicorn ice cream: Kroger's bid to win grocery wars" . Reuters . Archived from the original on July 1, 2019 . Retrieved July 1, 2019 .
+↑ "The Simple Truth: Private Selection, other Kroger brands drive sales" . Cincinnati.com . Archived from the original on August 28, 2019 . Retrieved July 1, 2019 .
+↑ "Kroger partners with Alibaba in China grocery sales venture" . Reuters . Archived from the original on July 1, 2019 . Retrieved July 1, 2019 .
+↑ "Kroger's Simple Truth Brand Reaches $2 Billion in Annual Sales" . MarketWatch . Market Watch. Archived from the original on July 1, 2019 . Retrieved July 1, 2019 .
+↑ "Kroger Announces New Smart Way Product Line" . ir.kroger.com . Retrieved March 31, 2025 .
+↑ "Kroger - Our Brands" . Archived from the original on November 5, 2019 . Retrieved July 1, 2019 .
+↑ Thakker, Krishna (July 10, 2018). "Grocery giant Kroger tries on a new outfit with apparel line" . Food Dive . Industry Dive. Archived from the original on July 30, 2018 . Retrieved July 29, 2018 .
+↑ "Kroger adds Hispanic-Inspired Mercado Brand to exclusive Our Brands' Roster" . ir.kroger.com . Retrieved March 31, 2025 .
+↑ "Our History" . Indianapolis, Indiana: Hook's Drug Store Museum and Soda Fountain. Archived from the original on December 18, 2013 . Retrieved December 17, 2013 .
+↑ "Pharmacy Careers" . Kroger. Archived from the original on December 17, 2013 . Retrieved December 17, 2013 .
+↑ "Mastercard Selected for Kroger Co-Brand Credit Card Issued by U.S. Bank" . Business Wire . July 27, 2017 . Retrieved May 6, 2020 .
+↑ "Large grocery chain widens ban on Visa credit cards" . American Banker . Arizent. March 2019. Archived from the original on August 9, 2020 . Retrieved May 6, 2020 .
+↑ "i-wireless Is Becoming Kroger Wireless" . www.krogerwireless.com . Archived from the original on June 3, 2019 . Retrieved June 3, 2019 .
+↑ Woyke, Elizabeth (June 16, 2008). "Avoid the Big Carriers!" . Forbes . Archived from the original on November 6, 2018 . Retrieved November 6, 2018 .
+↑ Chakravarti, Jayant (May 2, 2016). "Sprint, i-wireless Merger To Heat Up Lifeline Services" . AH . Archived from the original on November 6, 2018 . Retrieved November 6, 2018 .
+↑ "Plans" . KrogerWireless.com . Archived from the original on June 3, 2019 . Retrieved November 6, 2018 .
+↑ Betz, Bradford; Aaro, David (September 23, 2021). "Tennessee Kroger grocery store shooting leaves 1 dead, at least 12 injured, police say" . Fox News. Archived from the original on September 23, 2021 . Retrieved September 23, 2021 .
+↑ "Kroger Wireless Phones" . shop.krogerwireless.com . Archived from the original on June 3, 2019 . Retrieved November 6, 2018 .
+↑ "Bring Your Own" . www.krogerwireless.com . Archived from the original on June 3, 2019 . Retrieved November 6, 2018 .
+↑ Davenport, Tom (April 2, 2018). "84.51° Builds a Machine Learning Machine for Kroger" . Forbes . Archived from the original on August 4, 2020 . Retrieved September 26, 2020 .
+1 2 3 4 5 6 Hudson, Michael; Genoways, Ted; Kravitz, Derek; Ross, Theodore (May 14, 2025). " 'Customers are being duped': how murky grocery sales tactics are squeezing some Kroger shoppers" . The Guardian . Retrieved May 14, 2025 .
+Further reading
+[ edit ]
+The Kroger story: A century of innovation by George Laycock, The Kroger Company, Cincinnati, Ohio. 1983, 143p.
+Phillips, Charles F. (Winter 1936). "A History of the Kroger Grocery & Baking Company". National Marketing Review . Vol.   1, no.   3. pp.   204– 215. JSTOR   4291319 .
+Videos
+[ edit ]
+"Is Amazon Killing Kroger?" . CNBC . February 21, 2019. Archived from the original on December 21, 2021.
+External links
+[ edit ]
+Wikimedia Commons has media related to Kroger .
+Official website
+Business data for Kroger Co: Google
+SEC filings
+Yahoo!
+v
+t
+e
+Kroger
+Grocery
+Baker's Supermarkets
+City Market
+Dillons
+Food 4 Less
+Fred Meyer
+Fry's Food and Drug
+Harris Teeter
+Home Chef
+JayC Food Stores
+King Soopers
+Mariano's
+Murray's Cheese
+Pay Less Super Markets
+QFC
+Ralphs
+Roundy's
+Ruler Foods
+Smith's Food and Drug
+Vitacost
+Jewelry
+Fred Meyer Jewelers
+Littman Jewelers
+Services
+Kroger Wireless
+Former divisions
+Kessel Food Markets
+Lucky's Market
+Owen's Market
+Turkey Hill Dairy
+Turkey Hill Minit Markets
+People
+Michael J. Cullen
+Jacob E. Davis
+David Dillon
+Bernard Kroger
+Fred G. Meyer
+Rodney McMullen
+George Ralphs
+Related
+Attempted acquisition of Albertsons by Kroger
+v
+t
+e
+Major retail companies
+Companies with global retail sales of over US$25 billion ( according to Kantar Group , in order of decreasing revenue)
+Walmart
+Amazon (incl. Whole Foods Market )
+Costco
+Schwarz Gruppe (incl. Lidl and Kaufland )
+Kroger
+Walgreens Boots Alliance
+The Home Depot
+Aldi
+JD.com
+Carrefour
+Seven & i
+CVS Pharmacy
+Tesco
+Target Corporation
+Ahold Delhaize
+AEON
+Lowe's
+Albertsons
+Alibaba Group
+Apple
+Edeka
+Auchan
+IKEA
+Groupe Casino
+REWE Group
+E.Leclerc
+Intermarché
+Suning.com
+Woolworths Group
+Best Buy
+Publix
+FamilyMart
+Metro AG
+A.S. Watson
+TJX Companies
+Sainsbury's
+Loblaw Companies
+China Resources Enterprise
+Mercadona
+H-E-B
+Dollar General
+X5 Group (incl. Pyaterochka and Perekrestok )
+Coopérative U
+Coles Group
+Dairy Farm
+Adeo
+Ceconomy (incl. MediaMarkt )
+Dollar Tree
+Coop Schweiz
+Lawson
+v
+t
+e
+Supermarkets in the United States
+Kroger
+Dillons
+Baker's
+Gerbes
+Food 4 Less
+Fred Meyer
+Fry's
+Harris Teeter
+King Soopers
+City Market
+Kroger
+Jay C
+Pay Less
+QFC
+Ralphs
+Roundy's
+Mariano's
+Ruler Foods
+Smith's
+Albertsons
+Acme
+Andronico's
+Albertsons
+Balducci's
+Carrs
+Haggen
+Jewel-Osco
+Kings Super Markets
+Lucky
+Pavilions
+Randalls
+Safeway
+Shaw's and Star Market
+Super Saver
+Tom Thumb
+United Supermarkets
+Vons
+United Natural Foods
+County Market
+Cub
+Shoppers
+Ahold Delhaize
+Food Lion
+Giant Food
+Giant Food Stores
+Hannaford
+Stop & Shop
+Save Mart
+Save Mart Supermarkets
+Lucky Stores
+Lucky California
+Food Maxx
+MaxxValue Foods
+Amazon
+Whole Foods
+SpartanNash
+D&W Fresh Market
+Family Fare
+Martin's Super Markets
+No Frills Supermarkets
+Other national
+Aldi
+Trader Joe's
+Costco
+Comissary/DeCa (military)
+The Fresh Market
+IGA
+Save-A-Lot
+Sprouts
+Target
+Walmart
+Sam's Club
+Regional
+Asian
+99 Ranch Market
+Great Wall Supermarket
+H Mart
+Hong Kong Supermarket
+Island Pacific Supermarket
+Kam Man Food
+Marukai
+Mitsuwa Marketplace
+Nijiya Market
+Patel Brothers
+Seafood City
+SF Supermarket
+Uwajimaya
+Zion Market
+Hispanic
+Bravo
+El Ahorro Supermarket
+Fiesta Mart
+La Perla Tapatía Supermarkets
+Sedano's
+Supermercados Teloloapan
+Vallarta Supermarkets
+Organic
+Earth Fare
+Fresh Thyme
+Natural Grocers
+Wholesale
+BJ's Wholesale Club
+Chef'Store
+Other regional
+Acme Fresh Market
+Amigo
+Big Y
+Boyer's
+Bristol Farms
+Brookshire Brothers
+Brookshire's Food & Pharmacy
+Buehler's
+C-Town
+Central Market
+D'Agostino
+Dave's Markets
+Dean & DeLuca
+DeMoulas Market Basket
+Dierbergs
+Don Quijote
+Times Supermarkets
+Dorothy Lane Market
+Fairway Market
+Fareway
+Farm Fresh
+Festival Foods
+Festival Foods (Minnesota)
+Food Giant
+Food City
+Foodarama
+FoodLand
+Foodtown
+Pathmark
+Gelson's
+Gerland Corporation
+Gerrity's
+Giant Eagle
+Grand Union
+Gristedes
+Grocery Outlet
+Harmons
+Harps Food Stores
+H-E-B
+Heinen's
+Highland Park Market
+Homeland
+Hornbacher's
+Houchens
+Hugo's
+Hy-Vee
+Ingles
+Jerry's Foods
+Jungle Jim's International Market
+Karns Quality Foods
+Key Food
+Super Fresh
+The Food Emporium
+KJ's Market
+King Kullen
+Kowalski's Markets
+Kuhn's Quality Foods
+Lewis Food Town
+Lidl
+Lowe's Market
+Lowes Foods
+Lucky's Market
+Lunds & Byerlys
+Magruder's
+Marc's
+Market Basket (Louisiana and Texas)
+Market of Choice
+Masons Red Owl
+Meijer
+Met Foods
+Mollie Stone's Markets
+Morton Williams
+Mother's Market & Kitchen
+New Grand Mart
+New Seasons Market
+Niemann Foods
+Northeast Grocery
+Tops Friendly Markets
+Price Chopper Supermarkets
+Market 32
+Nugget Markets
+PCC Community Markets
+Petrini's
+Piggly Wiggly
+Pink Dot
+Price Chopper / Price Mart
+Publix
+Pueblo
+Raley's Supermarkets
+AJ's Fine Foods
+Bashas'
+Reasor's
+Redner's Markets
+Remke Markets
+Rice Epicurean Markets
+Ridley's Family Markets
+Roche Bros.
+Rosauers Supermarkets
+Rouses
+Russ's Market
+Schnucks
+Scolari's Food and Drug
+Seabra Foods
+Sellers Bros.
+Sendik's Food Market
+Sentry Foods
+Seven Mile Market
+Shop 'n Save
+Smart & Final
+Southeastern Grocers
+Harveys Supermarkets
+Winn-Dixie
+Stater Bros.
+Stew Leonard's
+Strack & Van Til
+Straub's Markets
+Sullivan Family of Companies
+Foodland Hawaii
+Supermercados Econo
+Supermercados Selectos
+Super Dollar Discount Foods
+Super King Markets
+Super One Foods
+Super Saver Foods (B&R Stores)
+United Grocery Outlet
+URM Stores
+Wakefern
+The Fresh Grocer
+Price Rite
+ShopRite
+Weaver Street Market
+Wegmans
+Weis Markets
+Westborn Market
+Western Beef
+WinCo Foods
+Woodman's Markets
+Yoke's Fresh Market
+Zabar's
+Zupan's Markets
+Defunct
+365 by Whole Foods Market
+A-Mart
+A&P
+Food Basics
+Pathmark
+Waldbaum's
+ABCO Foods
+Alpha Beta
+AppleTree Markets
+Belle Foods
+Best Market
+Big Bear Stores
+Big Star Markets
+Bloom
+Bottom Dollar Food
+Bruno's
+Buttrey Food & Drug
+Byrd's
+Carter's Foods
+Chatham
+Clemens Markets
+Colonial Stores
+Dahl's Foods
+Daniel Reeves Stores
+David's Supermarkets
+Davis Food City
+Delchamps
+Dick's Supermarket
+Dominick's
+Eagle Food Centers
+Easy-Way Store
+Eberhard's
+Eisner Food Stores
+Farmer Jack
+Fazio's Shopping Bag
+Felpausch
+Finast
+Fisher Foods
+Food Fair
+Food World
+Food-a-rama
+Fresh & Easy
+Furr's
+Genuardi's
+Giant Open Air
+Glen's Markets
+Hamady
+Henry's Farmers Market
+Hills Supermarkets
+Hinky Dinky
+Jewel T
+Jitney Jungle
+Johnnie's Foodmaster
+Kohl's Food Stores
+Kessel Food Markets
+Laneco
+Market Basket (California)
+Marketside
+Mars
+Marsh Supermarkets
+Más Club
+Mi Pueblo Food Center
+Minyard Food Stores
+National Supermarkets
+National Tea
+Omni Superstore
+Owen's
+Penn Fruit
+Penn Traffic
+Pick-N-Pay Supermarkets
+Piggly Wiggly Carolina Co.
+Plus
+Purity Supreme
+Quality Markets
+QFI
+Rainbow Foods
+Red Food
+Reid's
+SaveRite
+Sage's
+Schaffer Stores Company
+Scott's
+Seaway Food Town
+Seessel's
+Shop 'n Save
+Simon David
+Skaggs Companies
+Southern Family Markets
+Stanley Stores
+Sunflower Farmers Market
+Sunflower Market
+Super Duper
+Sweetbay Supermarket
+Tidyman's
+Twin Valu
+Ukrop's Super Markets
+Valu King
+Victory Supermarkets
+Weingarten's
+Wild Oats Markets
+Xpect Discounts
+v
+t
+e
+S&P 500 companies
+Energy
+APA Corporation
+Baker Hughes
+Chevron Corporation
+ConocoPhillips
+Devon Energy
+Diamondback Energy
+EOG Resources
+EQT Corporation
+Expand Energy
+ExxonMobil
+Halliburton
+Kinder Morgan
+Marathon Petroleum
+Occidental Petroleum
+Oneok
+Phillips 66
+SLB
+Targa Resources
+Texas Pacific Land Corporation
+Valero Energy
+Williams Companies
+Materials
+Air Products
+Albemarle Corporation
+Amcor
+Avery Dennison
+Ball Corporation
+CF Industries
+Corteva
+CRH plc
+Dow Chemical Company
+DuPont
+Ecolab
+Freeport-McMoRan
+International Flavors & Fragrances
+International Paper
+Linde plc
+LyondellBasell
+Martin Marietta Materials
+Newmont
+Nucor
+Packaging Corporation of America
+PPG Industries
+Sherwin-Williams
+Smurfit Westrock
+Steel Dynamics
+Vulcan Materials Company
+Industrials
+3M
+A. O. Smith
+Allegion
+Ametek
+Automatic Data Processing
+Axon Enterprise
+Boeing
+Broadridge Financial Solutions
+Builders FirstSource
+C.H. Robinson
+Carrier Global
+Caterpillar Inc.
+Cintas
+Comfort Systems USA
+Copart
+CSX Corporation
+Cummins
+Deere & Company
+Delta Air Lines
+Dover Corporation
+Eaton Corporation
+Emcor
+Emerson Electric
+Equifax
+Expeditors International
+Fastenal
+FedEx
+FedEx Freight
+Fortive
+GE Aerospace
+GE Vernova
+Generac
+General Dynamics
+Honeywell Aerospace
+Honeywell Technologies
+Howmet Aerospace
+Hubbell Incorporated
+Huntington Ingalls Industries
+IDEX Corporation
+Illinois Tool Works
+Ingersoll Rand
+J. B. Hunt
+Jacobs Solutions
+Johnson Controls
+L3Harris
+Leidos
+Lennox International
+Lockheed Martin
+Masco
+Nordson Corporation
+Norfolk Southern Railway
+Northrop Grumman
+Old Dominion Freight Line
+Otis Worldwide
+Paccar
+Parker Hannifin
+Paychex
+Pentair
+Quanta Services
+RTX Corporation
+Republic Services
+Rockwell Automation
+Rollins, Inc.
+Snap-on
+Southwest Airlines
+Stanley Black & Decker
+Textron
+Trane Technologies
+TransDigm Group
+Uber
+Union Pacific Corporation
+United Airlines
+United Parcel Service
+United Rentals
+Veralto
+Verisk Analytics
+Vertiv
+W. W. Grainger
+Wabtec
+Waste Management, Inc.
+Xylem Inc.
+Consumer discretionary
+Airbnb
+Amazon
+Aptiv
+AutoZone
+Best Buy
+Booking Holdings
+Carnival
+Carvana
+Chipotle Mexican Grill
+Darden Restaurants
+Deckers Brands
+Domino's
+DoorDash
+D. R. Horton
+eBay
+Expedia Group
+Ford Motor Company
+Garmin
+General Motors
+Genuine Parts Company
+Hasbro
+Hilton Worldwide
+Home Depot
+Las Vegas Sands
+Lennar
+Lowe's
+Lululemon
+Marriott International
+McDonald's
+MGM Resorts International
+Nike, Inc.
+Norwegian Cruise Line Holdings
+NVR, Inc.
+O'Reilly Auto Parts
+PulteGroup
+Ralph Lauren Corporation
+Ross Stores
+Royal Caribbean Group
+Starbucks
+Tapestry, Inc.
+Tesla, Inc.
+TJX
+Tractor Supply Company
+Ulta Beauty
+Williams-Sonoma, Inc.
+Wynn Resorts
+Yum! Brands
+Consumer staples
+Altria
+Archer Daniels Midland
+Brown-Forman
+Bunge Global
+Casey's
+Church & Dwight
+Clorox
+The Coca-Cola Company
+Colgate-Palmolive
+Constellation Brands
+Costco
+Dollar General
+Dollar Tree
+Estée Lauder Companies
+General Mills
+The Hershey Company
+Hormel Foods
+Kenvue
+Keurig Dr Pepper
+Kimberly-Clark
+Kraft Heinz
+Kroger
+McCormick & Company
+Molson Coors
+Mondelez International
+Monster Beverage
+PepsiCo
+Philip Morris International
+Procter & Gamble
+The J.M. Smucker Company
+Sysco
+Target Corporation
+Tyson Foods
+Walmart
+Health Care
+Abbott Laboratories
+AbbVie
+Agilent Technologies
+Align Technology
+Amgen
+Baxter International
+Becton Dickinson
+Bio-Techne
+Biogen
+Boston Scientific
+Bristol Myers Squibb
+Cardinal Health
+Cencora
+Centene Corporation
+Charles River Laboratories
+The Cigna Group
+Cooper Companies
+CVS Health
+Danaher Corporation
+DaVita
+Dexcom
+Edwards Lifesciences
+Elevance Health
+GE HealthCare
+Gilead Sciences
+HCA Healthcare
+Henry Schein
+Humana
+Idexx Laboratories
+Incyte
+Insulet Corporation
+Intuitive Surgical
+IQVIA
+Johnson & Johnson
+Labcorp
+Eli Lilly and Company
+McKesson Corporation
+Medtronic
+Merck & Co.
+Mettler Toledo
+Moderna
+Pfizer
+Quest Diagnostics
+Regeneron Pharmaceuticals
+ResMed
+Revvity
+Solventum
+Steris
+Stryker Corporation
+Thermo Fisher Scientific
+UnitedHealth Group
+Universal Health Services
+Veeva Systems
+Vertex Pharmaceuticals
+Viatris
+Waters Corporation
+West Pharmaceutical Services
+Zimmer Biomet
+Zoetis
+Financials
+Aflac
+Allstate
+American Express
+American International Group
+Ameriprise Financial
+Aon
+Apollo Global Management
+Arch Capital Group
+Ares Management
+Arthur J. Gallagher & Co.
+Assurant
+Bank of America
+Berkshire Hathaway
+BlackRock
+Blackstone Inc.
+Block, Inc.
+BNY
+Brown & Brown
+Capital One
+Cboe Global Markets
+Charles Schwab Corporation
+Chubb Limited
+Cincinnati Financial
+Citigroup
+Citizens Financial Group
+CME Group
+Coinbase
+Corpay
+Erie Indemnity
+Everest Group
+FactSet
+FIS
+Fifth Third Bank
+Fiserv
+Franklin Resources
+Global Payments
+Globe Life
+Goldman Sachs
+The Hartford
+Huntington Bancshares
+Interactive Brokers
+Intercontinental Exchange
+Invesco
+Jack Henry & Associates
+JPMorgan Chase
+KeyBank
+KKR & Co.
+Loews Corporation
+M&T Bank
+Marsh McLennan
+Mastercard
+MetLife
+Moody's Corporation
+Morgan Stanley
+MSCI
+Nasdaq, Inc.
+Northern Trust
+PayPal
+PNC Financial Services
+Principal Financial Group
+Progressive Corporation
+Prudential Financial
+Raymond James Financial
+Regions Financial Corporation
+Robinhood Markets
+S&P Global
+State Street Corporation
+Synchrony Financial
+T. Rowe Price
+The Travelers Companies
+Truist
+U.S. Bancorp
+Visa Inc.
+W. R. Berkley Corporation
+Wells Fargo
+Willis Towers Watson
+Information technology
+Accenture
+Adobe Inc.
+Akamai Technologies
+AMD
+Amphenol
+Analog Devices
+Apple Inc.
+Applied Materials
+AppLovin
+Arista Networks
+Autodesk
+Broadcom
+Cadence Design Systems
+CDW
+Ciena
+Cisco
+Cognizant
+Coherent Corp.
+Corning Inc.
+CrowdStrike
+Datadog
+Dell Technologies
+F5, Inc.
+FICO
+First Solar
+Flex Ltd.
+Fortinet
+Gartner
+Gen Digital
+GoDaddy
+Hewlett Packard Enterprise
+HP Inc.
+IBM
+Intel
+Intuit
+Jabil
+Keysight
+KLA Corporation
+Lam Research
+Lumentum
+Marvell Technology
+Microchip Technology
+Micron Technology
+Microsoft
+Monolithic Power Systems
+Motorola Solutions
+NetApp
+Nvidia
+NXP Semiconductors
+onsemi
+Oracle Corporation
+Palantir
+Palo Alto Networks
+PTC Inc.
+Qualcomm
+Qnity Electronics
+Roper Technologies
+Salesforce
+Sandisk
+Seagate Technology
+ServiceNow
+Skyworks Solutions
+Supermicro
+Synopsys
+TE Connectivity
+Teledyne Technologies
+Teradyne
+Texas Instruments
+Trimble Inc.
+Tyler Technologies
+Verisign
+Western Digital
+Workday, Inc.
+Zebra Technologies
+Communication services
+Alphabet Inc.
+AT&T
+Charter Communications
+Comcast
+EchoStar
+Electronic Arts
+Fox Corporation
+Live Nation Entertainment
+Meta Platforms
+Netflix
+News Corp
+Omnicom Group
+Paramount Skydance
+T-Mobile
+Take-Two Interactive
+TKO Group Holdings
+The Trade Desk
+Verizon
+The Walt Disney Company
+Warner Bros. Discovery
+Real estate
+Alexandria Real Estate Equities
+American Tower
+AvalonBay Communities
+BXP, Inc.
+Camden Property Trust
+CBRE Group
+CoStar Group
+Crown Castle
+Digital Realty
+Equinix
+Equity Residential
+Essex Property Trust
+Extra Space Storage
+Federal Realty Investment Trust
+Healthpeak Properties
+Host Hotels & Resorts
+Invitation Homes
+Iron Mountain
+Kimco Realty
+Mid-America Apartment Communities
+Prologis
+Public Storage
+Realty Income
+Regency Centers
+SBA Communications
+Simon Property Group
+UDR, Inc.
+Ventas
+Vici Properties
+Welltower
+Weyerhaeuser
+Utilities
+AES Corporation
+Alliant Energy
+Ameren
+American Electric Power
+American Water Works
+Atmos Energy
+CenterPoint Energy
+CMS Energy
+Consolidated Edison
+Constellation Energy
+Dominion Energy
+DTE Energy
+Duke Energy
+Edison International
+Entergy
+Evergy
+Eversource Energy
+Exelon
+FirstEnergy
+NextEra Energy
+NiSource
+NRG Energy
+Pacific Gas and Electric Company
+Pinnacle West Capital
+PPL Corporation
+Public Service Enterprise Group
+Sempra
+Southern Company
+Vistra Corp.
+WEC Energy Group
+Xcel Energy
+Portals : Supermarkets
+Ohio
+Companies
+Food
+Authority control databases
+International ISNI
+VIAF 2
+National United States
+Other Yale LUX
+Retrieved from " https://en.wikipedia.org/w/index.php?title=Kroger&oldid=1363847208 "
+Categories : Kroger
+1883 establishments in Ohio
+American companies established in 1883
+Companies based in Cincinnati
+Companies listed on the New York Stock Exchange
+Retail companies established in 1883
+Supermarkets of the United States
+Retail companies based in Ohio
+Hidden categories: Articles with short description
+Short description is different from Wikidata
+Articles with a promotional tone from October 2024
+All articles with a promotional tone
+Articles needing additional references from October 2024
+All articles needing additional references
+Articles with multiple maintenance issues
+Use American English from August 2019
+All Wikipedia articles written in American English
+Use mdy dates from February 2019
+Pages with non-numeric formatnum arguments
+All articles with unsourced statements
+Articles with unsourced statements from October 2024
+CS1 maint: location missing publisher
+All articles with dead external links
+Articles with dead external links from May 2023
+Articles with permanently dead external links
+Webarchive template wayback links
+Articles with unsourced statements from January 2020
+Articles containing potentially dated statements from February 2017
+All articles containing potentially dated statements
+Articles containing potentially dated statements from September 2023
+Articles with dead external links from July 2025
+Commons category link from Wikidata
+Official website different in Wikidata and Wikipedia
+This page was last edited on 12 July 2026, at 21:07  (UTC) .
+Page was rendered with Parsoid .
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Legal & safety contacts
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+Search
+Search
+Toggle the table of contents
+Kroger
+27 languages
+Add topic

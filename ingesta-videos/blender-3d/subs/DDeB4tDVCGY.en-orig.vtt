@@ -1,0 +1,2352 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.610 align:start position:0%
+ 
+rigging<00:00:00.659><c> can</c><00:00:00.780><c> get</c><00:00:00.960><c> pretty</c><00:00:01.079><c> complicated</c>
+
+00:00:01.610 --> 00:00:01.620 align:start position:0%
+rigging can get pretty complicated
+ 
+
+00:00:01.620 --> 00:00:03.590 align:start position:0%
+rigging can get pretty complicated
+especially<00:00:02.280><c> as</c><00:00:02.520><c> you</c><00:00:02.639><c> get</c><00:00:02.820><c> into</c><00:00:02.940><c> more</c><00:00:03.240><c> advanced</c>
+
+00:00:03.590 --> 00:00:03.600 align:start position:0%
+especially as you get into more advanced
+ 
+
+00:00:03.600 --> 00:00:05.930 align:start position:0%
+especially as you get into more advanced
+topics<00:00:03.959><c> like</c><00:00:04.259><c> constraints</c><00:00:04.740><c> and</c><00:00:05.040><c> drivers</c><00:00:05.460><c> but</c>
+
+00:00:05.930 --> 00:00:05.940 align:start position:0%
+topics like constraints and drivers but
+ 
+
+00:00:05.940 --> 00:00:07.909 align:start position:0%
+topics like constraints and drivers but
+maybe<00:00:06.120><c> you</c><00:00:06.359><c> only</c><00:00:06.420><c> need</c><00:00:06.720><c> something</c><00:00:06.960><c> simple</c><00:00:07.319><c> or</c>
+
+00:00:07.909 --> 00:00:07.919 align:start position:0%
+maybe you only need something simple or
+ 
+
+00:00:07.919 --> 00:00:09.950 align:start position:0%
+maybe you only need something simple or
+maybe<00:00:08.099><c> you're</c><00:00:08.340><c> just</c><00:00:08.519><c> impatient</c><00:00:09.000><c> so</c><00:00:09.599><c> here</c><00:00:09.780><c> are</c>
+
+00:00:09.950 --> 00:00:09.960 align:start position:0%
+maybe you're just impatient so here are
+ 
+
+00:00:09.960 --> 00:00:11.690 align:start position:0%
+maybe you're just impatient so here are
+some<00:00:10.139><c> of</c><00:00:10.200><c> the</c><00:00:10.260><c> basics</c><00:00:10.679><c> of</c><00:00:10.920><c> rigging</c><00:00:11.340><c> for</c><00:00:11.519><c> when</c>
+
+00:00:11.690 --> 00:00:11.700 align:start position:0%
+some of the basics of rigging for when
+ 
+
+00:00:11.700 --> 00:00:13.700 align:start position:0%
+some of the basics of rigging for when
+you<00:00:11.820><c> want</c><00:00:11.940><c> to</c><00:00:12.059><c> get</c><00:00:12.179><c> started</c><00:00:12.480><c> fast</c>
+
+00:00:13.700 --> 00:00:13.710 align:start position:0%
+you want to get started fast
+ 
+
+00:00:13.710 --> 00:00:15.609 align:start position:0%
+you want to get started fast
+[Music]
+
+00:00:15.609 --> 00:00:15.619 align:start position:0%
+[Music]
+ 
+
+00:00:15.619 --> 00:00:18.230 align:start position:0%
+[Music]
+I'll<00:00:16.619><c> be</c><00:00:16.800><c> talking</c><00:00:16.920><c> about</c><00:00:17.160><c> two</c><00:00:17.580><c> main</c><00:00:17.760><c> rigging</c>
+
+00:00:18.230 --> 00:00:18.240 align:start position:0%
+I'll be talking about two main rigging
+ 
+
+00:00:18.240 --> 00:00:20.450 align:start position:0%
+I'll be talking about two main rigging
+Styles<00:00:18.600><c> one</c><00:00:19.140><c> is</c><00:00:19.380><c> a</c><00:00:19.500><c> rig</c><00:00:19.680><c> that</c><00:00:19.920><c> deforms</c><00:00:20.340><c> the</c>
+
+00:00:20.450 --> 00:00:20.460 align:start position:0%
+Styles one is a rig that deforms the
+ 
+
+00:00:20.460 --> 00:00:22.490 align:start position:0%
+Styles one is a rig that deforms the
+model<00:00:20.580><c> and</c><00:00:21.000><c> the</c><00:00:21.180><c> second</c><00:00:21.300><c> keeps</c><00:00:21.900><c> each</c><00:00:22.140><c> piece</c>
+
+00:00:22.490 --> 00:00:22.500 align:start position:0%
+model and the second keeps each piece
+ 
+
+00:00:22.500 --> 00:00:24.710 align:start position:0%
+model and the second keeps each piece
+rigid<00:00:22.980><c> and</c><00:00:23.340><c> separated</c><00:00:23.820><c> for</c><00:00:24.300><c> the</c><00:00:24.420><c> first</c><00:00:24.539><c> one</c>
+
+00:00:24.710 --> 00:00:24.720 align:start position:0%
+rigid and separated for the first one
+ 
+
+00:00:24.720 --> 00:00:26.330 align:start position:0%
+rigid and separated for the first one
+I'm<00:00:24.900><c> using</c><00:00:25.199><c> a</c><00:00:25.320><c> character</c><00:00:25.619><c> I</c><00:00:25.800><c> made</c><00:00:25.920><c> but</c><00:00:26.220><c> this</c>
+
+00:00:26.330 --> 00:00:26.340 align:start position:0%
+I'm using a character I made but this
+ 
+
+00:00:26.340 --> 00:00:27.890 align:start position:0%
+I'm using a character I made but this
+will<00:00:26.460><c> work</c><00:00:26.640><c> for</c><00:00:26.820><c> anything</c><00:00:27.060><c> you</c><00:00:27.359><c> want</c><00:00:27.480><c> to</c><00:00:27.660><c> bend</c>
+
+00:00:27.890 --> 00:00:27.900 align:start position:0%
+will work for anything you want to bend
+ 
+
+00:00:27.900 --> 00:00:30.050 align:start position:0%
+will work for anything you want to bend
+and<00:00:28.080><c> to</c><00:00:28.320><c> form</c><00:00:28.439><c> press</c><00:00:28.980><c> shift</c><00:00:29.279><c> a</c><00:00:29.460><c> to</c><00:00:29.760><c> add</c><00:00:29.939><c> an</c>
+
+00:00:30.050 --> 00:00:30.060 align:start position:0%
+and to form press shift a to add an
+ 
+
+00:00:30.060 --> 00:00:31.429 align:start position:0%
+and to form press shift a to add an
+Armature<00:00:30.539><c> and</c><00:00:30.779><c> if</c><00:00:30.900><c> you</c><00:00:31.019><c> don't</c><00:00:31.140><c> want</c><00:00:31.260><c> your</c>
+
+00:00:31.429 --> 00:00:31.439 align:start position:0%
+Armature and if you don't want your
+ 
+
+00:00:31.439 --> 00:00:33.110 align:start position:0%
+Armature and if you don't want your
+bones<00:00:31.560><c> to</c><00:00:31.859><c> be</c><00:00:31.980><c> covered</c><00:00:32.279><c> by</c><00:00:32.520><c> the</c><00:00:32.700><c> model</c><00:00:32.820><c> then</c>
+
+00:00:33.110 --> 00:00:33.120 align:start position:0%
+bones to be covered by the model then
+ 
+
+00:00:33.120 --> 00:00:35.030 align:start position:0%
+bones to be covered by the model then
+you<00:00:33.300><c> can</c><00:00:33.360><c> go</c><00:00:33.480><c> to</c><00:00:33.660><c> object</c><00:00:33.960><c> data</c><00:00:34.380><c> properties</c><00:00:34.680><c> it</c>
+
+00:00:35.030 --> 00:00:35.040 align:start position:0%
+you can go to object data properties it
+ 
+
+00:00:35.040 --> 00:00:36.770 align:start position:0%
+you can go to object data properties it
+looks<00:00:35.280><c> like</c><00:00:35.340><c> a</c><00:00:35.520><c> little</c><00:00:35.579><c> running</c><00:00:35.820><c> person</c><00:00:36.120><c> and</c>
+
+00:00:36.770 --> 00:00:36.780 align:start position:0%
+looks like a little running person and
+ 
+
+00:00:36.780 --> 00:00:39.049 align:start position:0%
+looks like a little running person and
+turn<00:00:36.960><c> on</c><00:00:37.140><c> in</c><00:00:37.559><c> front</c><00:00:37.800><c> this</c><00:00:38.399><c> is</c><00:00:38.460><c> also</c><00:00:38.700><c> where</c><00:00:38.880><c> you</c>
+
+00:00:39.049 --> 00:00:39.059 align:start position:0%
+turn on in front this is also where you
+ 
+
+00:00:39.059 --> 00:00:40.610 align:start position:0%
+turn on in front this is also where you
+can<00:00:39.120><c> change</c><00:00:39.300><c> the</c><00:00:39.480><c> shape</c><00:00:39.660><c> of</c><00:00:39.840><c> your</c><00:00:40.020><c> bones</c><00:00:40.200><c> and</c>
+
+00:00:40.610 --> 00:00:40.620 align:start position:0%
+can change the shape of your bones and
+ 
+
+00:00:40.620 --> 00:00:43.130 align:start position:0%
+can change the shape of your bones and
+show<00:00:40.739><c> the</c><00:00:40.980><c> names</c><00:00:41.219><c> and</c><00:00:41.579><c> axes</c><00:00:42.120><c> then</c><00:00:42.660><c> just</c><00:00:42.840><c> select</c>
+
+00:00:43.130 --> 00:00:43.140 align:start position:0%
+show the names and axes then just select
+ 
+
+00:00:43.140 --> 00:00:45.290 align:start position:0%
+show the names and axes then just select
+the<00:00:43.260><c> Armature</c><00:00:43.680><c> tab</c><00:00:44.100><c> into</c><00:00:44.219><c> edit</c><00:00:44.579><c> mode</c><00:00:44.760><c> and</c><00:00:45.180><c> you</c>
+
+00:00:45.290 --> 00:00:45.300 align:start position:0%
+the Armature tab into edit mode and you
+ 
+
+00:00:45.300 --> 00:00:46.970 align:start position:0%
+the Armature tab into edit mode and you
+can<00:00:45.420><c> select</c><00:00:45.660><c> the</c><00:00:45.840><c> head</c><00:00:46.020><c> or</c><00:00:46.260><c> tail</c><00:00:46.440><c> of</c><00:00:46.680><c> the</c><00:00:46.800><c> bone</c>
+
+00:00:46.970 --> 00:00:46.980 align:start position:0%
+can select the head or tail of the bone
+ 
+
+00:00:46.980 --> 00:00:49.610 align:start position:0%
+can select the head or tail of the bone
+move<00:00:47.399><c> them</c><00:00:47.579><c> around</c><00:00:47.760><c> with</c><00:00:48.059><c> G</c><00:00:48.360><c> and</c><00:00:48.960><c> extrude</c><00:00:49.320><c> with</c>
+
+00:00:49.610 --> 00:00:49.620 align:start position:0%
+move them around with G and extrude with
+ 
+
+00:00:49.620 --> 00:00:51.889 align:start position:0%
+move them around with G and extrude with
+e<00:00:49.860><c> to</c><00:00:50.219><c> place</c><00:00:50.399><c> your</c><00:00:50.640><c> bones</c><00:00:50.879><c> the</c><00:00:51.360><c> thick</c><00:00:51.539><c> end</c><00:00:51.660><c> is</c>
+
+00:00:51.889 --> 00:00:51.899 align:start position:0%
+e to place your bones the thick end is
+ 
+
+00:00:51.899 --> 00:00:53.330 align:start position:0%
+e to place your bones the thick end is
+the<00:00:52.079><c> head</c><00:00:52.200><c> and</c><00:00:52.440><c> that's</c><00:00:52.680><c> where</c><00:00:52.860><c> the</c><00:00:52.980><c> bones</c><00:00:53.160><c> will</c>
+
+00:00:53.330 --> 00:00:53.340 align:start position:0%
+the head and that's where the bones will
+ 
+
+00:00:53.340 --> 00:00:55.250 align:start position:0%
+the head and that's where the bones will
+pivot<00:00:53.700><c> from</c><00:00:53.879><c> when</c><00:00:54.120><c> you're</c><00:00:54.239><c> in</c><00:00:54.360><c> pose</c><00:00:54.600><c> mode</c><00:00:54.899><c> I'll</c>
+
+00:00:55.250 --> 00:00:55.260 align:start position:0%
+pivot from when you're in pose mode I'll
+ 
+
+00:00:55.260 --> 00:00:56.810 align:start position:0%
+pivot from when you're in pose mode I'll
+usually<00:00:55.500><c> do</c><00:00:55.680><c> the</c><00:00:55.860><c> center</c><00:00:55.980><c> of</c><00:00:56.219><c> the</c><00:00:56.340><c> body</c><00:00:56.460><c> and</c>
+
+00:00:56.810 --> 00:00:56.820 align:start position:0%
+usually do the center of the body and
+ 
+
+00:00:56.820 --> 00:00:58.430 align:start position:0%
+usually do the center of the body and
+then<00:00:56.940><c> one</c><00:00:57.300><c> half</c><00:00:57.539><c> if</c><00:00:57.899><c> the</c><00:00:58.079><c> model</c><00:00:58.199><c> is</c>
+
+00:00:58.430 --> 00:00:58.440 align:start position:0%
+then one half if the model is
+ 
+
+00:00:58.440 --> 00:01:00.350 align:start position:0%
+then one half if the model is
+symmetrical<00:00:58.980><c> you</c><00:00:59.399><c> can</c><00:00:59.460><c> get</c><00:00:59.579><c> the</c><00:00:59.640><c> bones</c><00:00:59.940><c> close</c>
+
+00:01:00.350 --> 00:01:00.360 align:start position:0%
+symmetrical you can get the bones close
+ 
+
+00:01:00.360 --> 00:01:02.389 align:start position:0%
+symmetrical you can get the bones close
+to<00:01:00.539><c> the</c><00:01:00.719><c> body</c><00:01:00.840><c> by</c><00:01:01.199><c> using</c><00:01:01.440><c> snapping</c><00:01:01.980><c> I'll</c>
+
+00:01:02.389 --> 00:01:02.399 align:start position:0%
+to the body by using snapping I'll
+ 
+
+00:01:02.399 --> 00:01:04.369 align:start position:0%
+to the body by using snapping I'll
+usually<00:01:02.699><c> set</c><00:01:02.940><c> it</c><00:01:03.120><c> to</c><00:01:03.239><c> face</c><00:01:03.420><c> project</c><00:01:03.780><c> and</c>
+
+00:01:04.369 --> 00:01:04.379 align:start position:0%
+usually set it to face project and
+ 
+
+00:01:04.379 --> 00:01:05.990 align:start position:0%
+usually set it to face project and
+Center<00:01:04.680><c> then</c><00:01:05.220><c> when</c><00:01:05.400><c> you're</c><00:01:05.519><c> moving</c><00:01:05.820><c> around</c>
+
+00:01:05.990 --> 00:01:06.000 align:start position:0%
+Center then when you're moving around
+ 
+
+00:01:06.000 --> 00:01:08.090 align:start position:0%
+Center then when you're moving around
+you<00:01:06.299><c> can</c><00:01:06.420><c> hold</c><00:01:06.540><c> Ctrl</c><00:01:07.020><c> to</c><00:01:07.200><c> snap</c><00:01:07.439><c> and</c><00:01:07.920><c> you</c><00:01:08.040><c> can</c>
+
+00:01:08.090 --> 00:01:08.100 align:start position:0%
+you can hold Ctrl to snap and you can
+ 
+
+00:01:08.100 --> 00:01:09.710 align:start position:0%
+you can hold Ctrl to snap and you can
+adjust<00:01:08.280><c> it</c><00:01:08.520><c> from</c><00:01:08.700><c> there</c><00:01:08.880><c> this</c><00:01:09.299><c> is</c><00:01:09.420><c> good</c><00:01:09.600><c> for</c>
+
+00:01:09.710 --> 00:01:09.720 align:start position:0%
+adjust it from there this is good for
+ 
+
+00:01:09.720 --> 00:01:11.330 align:start position:0%
+adjust it from there this is good for
+shapes<00:01:10.020><c> that</c><00:01:10.140><c> get</c><00:01:10.260><c> a</c><00:01:10.380><c> little</c><00:01:10.500><c> weird</c><00:01:10.680><c> like</c><00:01:11.100><c> you</c>
+
+00:01:11.330 --> 00:01:11.340 align:start position:0%
+shapes that get a little weird like you
+ 
+
+00:01:11.340 --> 00:01:13.250 align:start position:0%
+shapes that get a little weird like you
+could<00:01:11.460><c> rig</c><00:01:11.640><c> tree</c><00:01:11.939><c> branches</c><00:01:12.420><c> more</c><00:01:12.659><c> easily</c><00:01:13.020><c> this</c>
+
+00:01:13.250 --> 00:01:13.260 align:start position:0%
+could rig tree branches more easily this
+ 
+
+00:01:13.260 --> 00:01:15.530 align:start position:0%
+could rig tree branches more easily this
+way<00:01:13.380><c> you</c><00:01:13.860><c> can</c><00:01:13.979><c> also</c><00:01:14.220><c> shift</c><00:01:14.520><c> d</c><00:01:14.760><c> to</c><00:01:15.060><c> duplicate</c>
+
+00:01:15.530 --> 00:01:15.540 align:start position:0%
+way you can also shift d to duplicate
+ 
+
+00:01:15.540 --> 00:01:18.350 align:start position:0%
+way you can also shift d to duplicate
+bones<00:01:15.900><c> parent</c><00:01:16.439><c> bones</c><00:01:16.920><c> with</c><00:01:17.159><c> Ctrl</c><00:01:17.580><c> P</c><00:01:17.760><c> either</c>
+
+00:01:18.350 --> 00:01:18.360 align:start position:0%
+bones parent bones with Ctrl P either
+ 
+
+00:01:18.360 --> 00:01:20.990 align:start position:0%
+bones parent bones with Ctrl P either
+connected<00:01:18.960><c> or</c><00:01:19.439><c> keep</c><00:01:19.680><c> offset</c><00:01:20.220><c> and</c><00:01:20.700><c> you</c><00:01:20.880><c> can</c>
+
+00:01:20.990 --> 00:01:21.000 align:start position:0%
+connected or keep offset and you can
+ 
+
+00:01:21.000 --> 00:01:23.690 align:start position:0%
+connected or keep offset and you can
+unparent<00:01:21.659><c> or</c><00:01:21.960><c> disconnect</c><00:01:22.200><c> bones</c><00:01:22.860><c> with</c><00:01:23.159><c> alt</c><00:01:23.460><c> P</c>
+
+00:01:23.690 --> 00:01:23.700 align:start position:0%
+unparent or disconnect bones with alt P
+ 
+
+00:01:23.700 --> 00:01:25.910 align:start position:0%
+unparent or disconnect bones with alt P
+if<00:01:24.240><c> your</c><00:01:24.360><c> model</c><00:01:24.540><c> is</c><00:01:24.780><c> symmetrical</c><00:01:25.259><c> then</c><00:01:25.560><c> select</c>
+
+00:01:25.910 --> 00:01:25.920 align:start position:0%
+if your model is symmetrical then select
+ 
+
+00:01:25.920 --> 00:01:27.469 align:start position:0%
+if your model is symmetrical then select
+all<00:01:26.100><c> of</c><00:01:26.220><c> the</c><00:01:26.340><c> bones</c><00:01:26.520><c> that</c><00:01:26.820><c> aren't</c><00:01:27.060><c> in</c><00:01:27.299><c> the</c>
+
+00:01:27.469 --> 00:01:27.479 align:start position:0%
+all of the bones that aren't in the
+ 
+
+00:01:27.479 --> 00:01:30.050 align:start position:0%
+all of the bones that aren't in the
+middle<00:01:27.540><c> and</c><00:01:27.900><c> press</c><00:01:28.140><c> Ctrl</c><00:01:28.560><c> F2</c><00:01:28.979><c> to</c><00:01:29.340><c> batch</c><00:01:29.640><c> rename</c>
+
+00:01:30.050 --> 00:01:30.060 align:start position:0%
+middle and press Ctrl F2 to batch rename
+ 
+
+00:01:30.060 --> 00:01:34.010 align:start position:0%
+middle and press Ctrl F2 to batch rename
+set<00:01:30.720><c> this</c><00:01:30.960><c> to</c><00:01:31.200><c> Bones</c><00:01:31.439><c> this</c><00:01:32.340><c> to</c><00:01:32.700><c> set</c><00:01:32.939><c> name</c><00:01:33.240><c> and</c>
+
+00:01:34.010 --> 00:01:34.020 align:start position:0%
+set this to Bones this to set name and
+ 
+
+00:01:34.020 --> 00:01:38.149 align:start position:0%
+set this to Bones this to set name and
+suffix<00:01:34.560><c> type</c><00:01:35.400><c> period</c><00:01:35.880><c> L</c><00:01:36.360><c> and</c><00:01:36.780><c> press</c><00:01:37.020><c> ok</c><00:01:37.320><c> now</c>
+
+00:01:38.149 --> 00:01:38.159 align:start position:0%
+suffix type period L and press ok now
+ 
+
+00:01:38.159 --> 00:01:39.770 align:start position:0%
+suffix type period L and press ok now
+all<00:01:38.340><c> of</c><00:01:38.520><c> the</c><00:01:38.640><c> bones</c><00:01:38.759><c> on</c><00:01:39.180><c> the</c><00:01:39.240><c> left</c><00:01:39.360><c> side</c><00:01:39.600><c> of</c>
+
+00:01:39.770 --> 00:01:39.780 align:start position:0%
+all of the bones on the left side of
+ 
+
+00:01:39.780 --> 00:01:41.870 align:start position:0%
+all of the bones on the left side of
+your<00:01:39.960><c> character</c><00:01:40.140><c> have</c><00:01:40.500><c> a</c><00:01:40.740><c> DOT</c><00:01:41.100><c> L</c><00:01:41.220><c> at</c><00:01:41.579><c> the</c><00:01:41.759><c> end</c>
+
+00:01:41.870 --> 00:01:41.880 align:start position:0%
+your character have a DOT L at the end
+ 
+
+00:01:41.880 --> 00:01:44.030 align:start position:0%
+your character have a DOT L at the end
+of<00:01:42.060><c> their</c><00:01:42.180><c> names</c><00:01:42.420><c> this</c><00:01:43.140><c> is</c><00:01:43.259><c> important</c><00:01:43.619><c> if</c><00:01:43.920><c> you</c>
+
+00:01:44.030 --> 00:01:44.040 align:start position:0%
+of their names this is important if you
+ 
+
+00:01:44.040 --> 00:01:46.310 align:start position:0%
+of their names this is important if you
+ever<00:01:44.159><c> want</c><00:01:44.460><c> to</c><00:01:44.640><c> mirror</c><00:01:45.060><c> poses</c><00:01:45.479><c> there's</c><00:01:46.079><c> also</c>
+
+00:01:46.310 --> 00:01:46.320 align:start position:0%
+ever want to mirror poses there's also
+ 
+
+00:01:46.320 --> 00:01:47.870 align:start position:0%
+ever want to mirror poses there's also
+an<00:01:46.500><c> auto</c><00:01:46.619><c> naming</c><00:01:47.040><c> option</c><00:01:47.280><c> that</c><00:01:47.460><c> does</c><00:01:47.640><c> pretty</c>
+
+00:01:47.870 --> 00:01:47.880 align:start position:0%
+an auto naming option that does pretty
+ 
+
+00:01:47.880 --> 00:01:49.789 align:start position:0%
+an auto naming option that does pretty
+much<00:01:48.000><c> the</c><00:01:48.299><c> same</c><00:01:48.420><c> thing</c><00:01:48.659><c> if</c><00:01:49.079><c> you</c><00:01:49.200><c> right</c><00:01:49.439><c> click</c>
+
+00:01:49.789 --> 00:01:49.799 align:start position:0%
+much the same thing if you right click
+ 
+
+00:01:49.799 --> 00:01:51.410 align:start position:0%
+much the same thing if you right click
+now<00:01:50.220><c> with</c><00:01:50.399><c> all</c><00:01:50.579><c> of</c><00:01:50.640><c> those</c><00:01:50.820><c> bones</c><00:01:51.060><c> still</c>
+
+00:01:51.410 --> 00:01:51.420 align:start position:0%
+now with all of those bones still
+ 
+
+00:01:51.420 --> 00:01:52.969 align:start position:0%
+now with all of those bones still
+selected<00:01:51.840><c> right</c><00:01:52.259><c> click</c><00:01:52.619><c> and</c><00:01:52.740><c> choose</c>
+
+00:01:52.969 --> 00:01:52.979 align:start position:0%
+selected right click and choose
+ 
+
+00:01:52.979 --> 00:01:55.130 align:start position:0%
+selected right click and choose
+symmetrize<00:01:53.520><c> to</c><00:01:53.880><c> copy</c><00:01:54.119><c> all</c><00:01:54.420><c> of</c><00:01:54.540><c> the</c><00:01:54.780><c> left</c><00:01:54.899><c> side</c>
+
+00:01:55.130 --> 00:01:55.140 align:start position:0%
+symmetrize to copy all of the left side
+ 
+
+00:01:55.140 --> 00:01:57.410 align:start position:0%
+symmetrize to copy all of the left side
+bones<00:01:55.560><c> over</c><00:01:55.860><c> to</c><00:01:56.100><c> the</c><00:01:56.280><c> right</c><00:01:56.399><c> tab</c><00:01:57.060><c> back</c><00:01:57.240><c> into</c>
+
+00:01:57.410 --> 00:01:57.420 align:start position:0%
+bones over to the right tab back into
+ 
+
+00:01:57.420 --> 00:01:58.850 align:start position:0%
+bones over to the right tab back into
+object<00:01:57.780><c> mode</c><00:01:57.960><c> select</c><00:01:58.560><c> your</c><00:01:58.680><c> model</c>
+
+00:01:58.850 --> 00:01:58.860 align:start position:0%
+object mode select your model
+ 
+
+00:01:58.860 --> 00:02:00.889 align:start position:0%
+object mode select your model
+shift-click<00:01:59.579><c> your</c><00:01:59.700><c> armor</c><00:01:59.880><c> aperture</c><00:02:00.540><c> control</c>
+
+00:02:00.889 --> 00:02:00.899 align:start position:0%
+shift-click your armor aperture control
+ 
+
+00:02:00.899 --> 00:02:03.289 align:start position:0%
+shift-click your armor aperture control
+p<00:02:01.320><c> and</c><00:02:01.740><c> choose</c><00:02:02.100><c> Armature</c><00:02:02.579><c> to</c><00:02:02.700><c> form</c><00:02:02.939><c> with</c>
+
+00:02:03.289 --> 00:02:03.299 align:start position:0%
+p and choose Armature to form with
+ 
+
+00:02:03.299 --> 00:02:05.330 align:start position:0%
+p and choose Armature to form with
+automatic<00:02:03.720><c> weights</c><00:02:04.140><c> and</c><00:02:04.560><c> you</c><00:02:04.740><c> can</c><00:02:04.799><c> do</c><00:02:04.920><c> this</c><00:02:05.100><c> if</c>
+
+00:02:05.330 --> 00:02:05.340 align:start position:0%
+automatic weights and you can do this if
+ 
+
+00:02:05.340 --> 00:02:07.609 align:start position:0%
+automatic weights and you can do this if
+your<00:02:05.520><c> model</c><00:02:05.640><c> is</c><00:02:05.939><c> multiple</c><00:02:06.299><c> objects</c><00:02:06.899><c> too</c><00:02:07.079><c> just</c>
+
+00:02:07.609 --> 00:02:07.619 align:start position:0%
+your model is multiple objects too just
+ 
+
+00:02:07.619 --> 00:02:09.290 align:start position:0%
+your model is multiple objects too just
+select<00:02:07.920><c> all</c><00:02:08.099><c> of</c><00:02:08.220><c> the</c><00:02:08.399><c> objects</c><00:02:08.819><c> and</c><00:02:09.060><c> then</c><00:02:09.179><c> the</c>
+
+00:02:09.290 --> 00:02:09.300 align:start position:0%
+select all of the objects and then the
+ 
+
+00:02:09.300 --> 00:02:11.029 align:start position:0%
+select all of the objects and then the
+Armature<00:02:09.780><c> last</c><00:02:10.020><c> this</c><00:02:10.619><c> should</c><00:02:10.739><c> add</c><00:02:10.920><c> an</c>
+
+00:02:11.029 --> 00:02:11.039 align:start position:0%
+Armature last this should add an
+ 
+
+00:02:11.039 --> 00:02:12.890 align:start position:0%
+Armature last this should add an
+Armature<00:02:11.459><c> modifier</c><00:02:11.879><c> to</c><00:02:12.060><c> your</c><00:02:12.239><c> objects</c><00:02:12.660><c> and</c>
+
+00:02:12.890 --> 00:02:12.900 align:start position:0%
+Armature modifier to your objects and
+ 
+
+00:02:12.900 --> 00:02:14.570 align:start position:0%
+Armature modifier to your objects and
+also<00:02:13.140><c> a</c><00:02:13.319><c> bunch</c><00:02:13.440><c> of</c><00:02:13.560><c> vertex</c><00:02:13.860><c> groups</c><00:02:14.280><c> that</c><00:02:14.400><c> have</c>
+
+00:02:14.570 --> 00:02:14.580 align:start position:0%
+also a bunch of vertex groups that have
+ 
+
+00:02:14.580 --> 00:02:16.550 align:start position:0%
+also a bunch of vertex groups that have
+the<00:02:14.700><c> same</c><00:02:14.879><c> names</c><00:02:15.120><c> as</c><00:02:15.480><c> your</c><00:02:15.660><c> bones</c><00:02:15.959><c> this</c><00:02:16.500><c> is</c>
+
+00:02:16.550 --> 00:02:16.560 align:start position:0%
+the same names as your bones this is
+ 
+
+00:02:16.560 --> 00:02:18.050 align:start position:0%
+the same names as your bones this is
+where<00:02:16.739><c> the</c><00:02:16.860><c> weight</c><00:02:16.980><c> painting</c><00:02:17.400><c> information</c><00:02:17.580><c> is</c>
+
+00:02:18.050 --> 00:02:18.060 align:start position:0%
+where the weight painting information is
+ 
+
+00:02:18.060 --> 00:02:20.030 align:start position:0%
+where the weight painting information is
+stored<00:02:18.360><c> and</c><00:02:18.720><c> if</c><00:02:18.840><c> at</c><00:02:19.020><c> some</c><00:02:19.200><c> point</c><00:02:19.319><c> you</c><00:02:19.620><c> mess</c><00:02:19.860><c> up</c>
+
+00:02:20.030 --> 00:02:20.040 align:start position:0%
+stored and if at some point you mess up
+ 
+
+00:02:20.040 --> 00:02:21.770 align:start position:0%
+stored and if at some point you mess up
+and<00:02:20.280><c> want</c><00:02:20.459><c> to</c><00:02:20.640><c> start</c><00:02:20.760><c> over</c><00:02:21.000><c> you</c><00:02:21.480><c> can</c><00:02:21.599><c> remove</c>
+
+00:02:21.770 --> 00:02:21.780 align:start position:0%
+and want to start over you can remove
+ 
+
+00:02:21.780 --> 00:02:24.110 align:start position:0%
+and want to start over you can remove
+the<00:02:22.140><c> Armature</c><00:02:22.560><c> modifier</c><00:02:23.040><c> and</c><00:02:23.459><c> delete</c><00:02:23.640><c> all</c><00:02:24.000><c> of</c>
+
+00:02:24.110 --> 00:02:24.120 align:start position:0%
+the Armature modifier and delete all of
+ 
+
+00:02:24.120 --> 00:02:26.630 align:start position:0%
+the Armature modifier and delete all of
+the<00:02:24.239><c> vertex</c><00:02:24.599><c> groups</c><00:02:25.080><c> with</c><00:02:25.319><c> this</c><00:02:25.560><c> Arrow</c><00:02:25.980><c> select</c>
+
+00:02:26.630 --> 00:02:26.640 align:start position:0%
+the vertex groups with this Arrow select
+ 
+
+00:02:26.640 --> 00:02:28.490 align:start position:0%
+the vertex groups with this Arrow select
+the<00:02:26.760><c> Armature</c><00:02:27.239><c> press</c><00:02:27.540><c> control</c><00:02:27.780><c> tab</c><00:02:28.200><c> to</c><00:02:28.379><c> go</c>
+
+00:02:28.490 --> 00:02:28.500 align:start position:0%
+the Armature press control tab to go
+ 
+
+00:02:28.500 --> 00:02:30.110 align:start position:0%
+the Armature press control tab to go
+into<00:02:28.620><c> pose</c><00:02:28.920><c> mode</c><00:02:29.160><c> and</c><00:02:29.520><c> start</c><00:02:29.640><c> moving</c><00:02:30.000><c> things</c>
+
+00:02:30.110 --> 00:02:30.120 align:start position:0%
+into pose mode and start moving things
+ 
+
+00:02:30.120 --> 00:02:32.330 align:start position:0%
+into pose mode and start moving things
+around<00:02:30.420><c> to</c><00:02:30.780><c> test</c><00:02:30.900><c> your</c><00:02:31.140><c> reg</c><00:02:31.319><c> out</c><00:02:31.620><c> if</c><00:02:32.040><c> this</c><00:02:32.160><c> gave</c>
+
+00:02:32.330 --> 00:02:32.340 align:start position:0%
+around to test your reg out if this gave
+ 
+
+00:02:32.340 --> 00:02:34.010 align:start position:0%
+around to test your reg out if this gave
+you<00:02:32.459><c> a</c><00:02:32.640><c> good</c><00:02:32.700><c> result</c><00:02:32.879><c> then</c><00:02:33.239><c> this</c><00:02:33.480><c> could</c><00:02:33.660><c> be</c><00:02:33.840><c> the</c>
+
+00:02:34.010 --> 00:02:34.020 align:start position:0%
+you a good result then this could be the
+ 
+
+00:02:34.020 --> 00:02:35.930 align:start position:0%
+you a good result then this could be the
+end<00:02:34.200><c> of</c><00:02:34.319><c> the</c><00:02:34.440><c> video</c><00:02:34.620><c> for</c><00:02:34.920><c> you</c><00:02:35.099><c> if</c><00:02:35.459><c> you</c><00:02:35.580><c> got</c><00:02:35.760><c> an</c>
+
+00:02:35.930 --> 00:02:35.940 align:start position:0%
+end of the video for you if you got an
+ 
+
+00:02:35.940 --> 00:02:38.089 align:start position:0%
+end of the video for you if you got an
+error<00:02:36.300><c> that</c><00:02:36.660><c> says</c><00:02:36.959><c> bone</c><00:02:37.319><c> heat</c><00:02:37.560><c> weighting</c>
+
+00:02:38.089 --> 00:02:38.099 align:start position:0%
+error that says bone heat weighting
+ 
+
+00:02:38.099 --> 00:02:40.309 align:start position:0%
+error that says bone heat weighting
+failed<00:02:38.640><c> that's</c><00:02:39.060><c> because</c><00:02:39.300><c> your</c><00:02:39.660><c> mesh</c><00:02:39.959><c> has</c><00:02:40.140><c> too</c>
+
+00:02:40.309 --> 00:02:40.319 align:start position:0%
+failed that's because your mesh has too
+ 
+
+00:02:40.319 --> 00:02:42.290 align:start position:0%
+failed that's because your mesh has too
+many<00:02:40.500><c> overlapping</c><00:02:41.160><c> Parts</c><00:02:41.400><c> I'd</c><00:02:41.940><c> recommend</c>
+
+00:02:42.290 --> 00:02:42.300 align:start position:0%
+many overlapping Parts I'd recommend
+ 
+
+00:02:42.300 --> 00:02:44.570 align:start position:0%
+many overlapping Parts I'd recommend
+either<00:02:42.660><c> re-meshing</c><00:02:43.379><c> it</c><00:02:43.560><c> doing</c><00:02:43.860><c> reach</c><00:02:44.280><c> apology</c>
+
+00:02:44.570 --> 00:02:44.580 align:start position:0%
+either re-meshing it doing reach apology
+ 
+
+00:02:44.580 --> 00:02:47.330 align:start position:0%
+either re-meshing it doing reach apology
+or<00:02:45.060><c> editing</c><00:02:45.540><c> it</c><00:02:45.660><c> to</c><00:02:46.019><c> make</c><00:02:46.140><c> Parts</c><00:02:46.379><c> not</c><00:02:46.739><c> overlap</c>
+
+00:02:47.330 --> 00:02:47.340 align:start position:0%
+or editing it to make Parts not overlap
+ 
+
+00:02:47.340 --> 00:02:49.610 align:start position:0%
+or editing it to make Parts not overlap
+or<00:02:47.940><c> you</c><00:02:48.180><c> can</c><00:02:48.300><c> split</c><00:02:48.599><c> the</c><00:02:48.720><c> model</c><00:02:48.840><c> into</c><00:02:49.200><c> multiple</c>
+
+00:02:49.610 --> 00:02:49.620 align:start position:0%
+or you can split the model into multiple
+ 
+
+00:02:49.620 --> 00:02:51.530 align:start position:0%
+or you can split the model into multiple
+objects<00:02:50.160><c> and</c><00:02:50.459><c> try</c><00:02:50.640><c> applying</c><00:02:51.060><c> automatic</c>
+
+00:02:51.530 --> 00:02:51.540 align:start position:0%
+objects and try applying automatic
+ 
+
+00:02:51.540 --> 00:02:53.809 align:start position:0%
+objects and try applying automatic
+weights<00:02:51.840><c> that</c><00:02:52.080><c> way</c><00:02:52.200><c> another</c><00:02:52.800><c> common</c><00:02:53.099><c> issue</c><00:02:53.580><c> is</c>
+
+00:02:53.809 --> 00:02:53.819 align:start position:0%
+weights that way another common issue is
+ 
+
+00:02:53.819 --> 00:02:56.270 align:start position:0%
+weights that way another common issue is
+deformation<00:02:54.360><c> like</c><00:02:54.780><c> this</c><00:02:55.080><c> which</c><00:02:55.680><c> is</c><00:02:55.800><c> caused</c><00:02:56.099><c> by</c>
+
+00:02:56.270 --> 00:02:56.280 align:start position:0%
+deformation like this which is caused by
+ 
+
+00:02:56.280 --> 00:02:58.369 align:start position:0%
+deformation like this which is caused by
+not<00:02:56.519><c> having</c><00:02:56.760><c> enough</c><00:02:57.060><c> geometry</c><00:02:57.720><c> like</c><00:02:58.140><c> if</c><00:02:58.260><c> you</c>
+
+00:02:58.369 --> 00:02:58.379 align:start position:0%
+not having enough geometry like if you
+ 
+
+00:02:58.379 --> 00:03:00.830 align:start position:0%
+not having enough geometry like if you
+want<00:02:58.560><c> a</c><00:02:58.680><c> cube</c><00:02:58.980><c> to</c><00:02:59.160><c> bend</c><00:02:59.340><c> and</c><00:02:59.459><c> be</c><00:02:59.580><c> all</c><00:02:59.819><c> curly</c><00:03:00.480><c> you</c>
+
+00:03:00.830 --> 00:03:00.840 align:start position:0%
+want a cube to bend and be all curly you
+ 
+
+00:03:00.840 --> 00:03:02.270 align:start position:0%
+want a cube to bend and be all curly you
+can't<00:03:00.959><c> really</c><00:03:01.080><c> do</c><00:03:01.319><c> that</c><00:03:01.500><c> with</c><00:03:01.800><c> only</c><00:03:01.980><c> eight</c>
+
+00:03:02.270 --> 00:03:02.280 align:start position:0%
+can't really do that with only eight
+ 
+
+00:03:02.280 --> 00:03:04.670 align:start position:0%
+can't really do that with only eight
+points<00:03:02.760><c> so</c><00:03:03.180><c> try</c><00:03:03.360><c> adding</c><00:03:03.720><c> more</c><00:03:03.840><c> Loop</c><00:03:04.200><c> cuts</c><00:03:04.500><c> and</c>
+
+00:03:04.670 --> 00:03:04.680 align:start position:0%
+points so try adding more Loop cuts and
+ 
+
+00:03:04.680 --> 00:03:06.170 align:start position:0%
+points so try adding more Loop cuts and
+then<00:03:04.800><c> applying</c><00:03:05.220><c> automatic</c><00:03:05.700><c> weights</c><00:03:06.060><c> again</c>
+
+00:03:06.170 --> 00:03:06.180 align:start position:0%
+then applying automatic weights again
+ 
+
+00:03:06.180 --> 00:03:08.210 align:start position:0%
+then applying automatic weights again
+it's<00:03:06.840><c> also</c><00:03:07.140><c> pretty</c><00:03:07.319><c> likely</c><00:03:07.680><c> that</c><00:03:07.860><c> you'll</c><00:03:08.040><c> get</c>
+
+00:03:08.210 --> 00:03:08.220 align:start position:0%
+it's also pretty likely that you'll get
+ 
+
+00:03:08.220 --> 00:03:09.830 align:start position:0%
+it's also pretty likely that you'll get
+some<00:03:08.340><c> deformation</c><00:03:08.819><c> that</c><00:03:09.120><c> looks</c><00:03:09.360><c> wrong</c><00:03:09.480><c> to</c><00:03:09.720><c> you</c>
+
+00:03:09.830 --> 00:03:09.840 align:start position:0%
+some deformation that looks wrong to you
+ 
+
+00:03:09.840 --> 00:03:11.930 align:start position:0%
+some deformation that looks wrong to you
+this<00:03:10.260><c> is</c><00:03:10.500><c> the</c><00:03:10.680><c> automatic</c><00:03:11.099><c> approach</c><00:03:11.400><c> after</c><00:03:11.700><c> all</c>
+
+00:03:11.930 --> 00:03:11.940 align:start position:0%
+this is the automatic approach after all
+ 
+
+00:03:11.940 --> 00:03:13.369 align:start position:0%
+this is the automatic approach after all
+and<00:03:12.300><c> you</c><00:03:12.480><c> can</c><00:03:12.540><c> fix</c><00:03:12.720><c> this</c><00:03:12.959><c> with</c><00:03:13.200><c> weight</c>
+
+00:03:13.369 --> 00:03:13.379 align:start position:0%
+and you can fix this with weight
+ 
+
+00:03:13.379 --> 00:03:15.110 align:start position:0%
+and you can fix this with weight
+painting<00:03:13.860><c> whoa</c><00:03:14.220><c> whoa</c><00:03:14.519><c> don't</c><00:03:14.700><c> leave</c><00:03:14.879><c> yet</c>
+
+00:03:15.110 --> 00:03:15.120 align:start position:0%
+painting whoa whoa don't leave yet
+ 
+
+00:03:15.120 --> 00:03:17.390 align:start position:0%
+painting whoa whoa don't leave yet
+people<00:03:15.480><c> love</c><00:03:15.659><c> to</c><00:03:15.900><c> joke</c><00:03:16.080><c> about</c><00:03:16.319><c> how</c><00:03:16.680><c> scary</c><00:03:17.040><c> or</c>
+
+00:03:17.390 --> 00:03:17.400 align:start position:0%
+people love to joke about how scary or
+ 
+
+00:03:17.400 --> 00:03:19.430 align:start position:0%
+people love to joke about how scary or
+painful<00:03:17.819><c> weight</c><00:03:18.060><c> painting</c><00:03:18.540><c> is</c><00:03:18.720><c> and</c><00:03:19.260><c> they're</c>
+
+00:03:19.430 --> 00:03:19.440 align:start position:0%
+painful weight painting is and they're
+ 
+
+00:03:19.440 --> 00:03:21.589 align:start position:0%
+painful weight painting is and they're
+right<00:03:19.680><c> but</c><00:03:20.040><c> it's</c><00:03:20.220><c> not</c><00:03:20.459><c> as</c><00:03:20.819><c> bad</c><00:03:21.060><c> when</c><00:03:21.360><c> you</c><00:03:21.480><c> know</c>
+
+00:03:21.589 --> 00:03:21.599 align:start position:0%
+right but it's not as bad when you know
+ 
+
+00:03:21.599 --> 00:03:23.930 align:start position:0%
+right but it's not as bad when you know
+a<00:03:21.780><c> few</c><00:03:21.900><c> tricks</c><00:03:22.260><c> first</c><00:03:22.860><c> of</c><00:03:23.040><c> all</c><00:03:23.159><c> you</c><00:03:23.459><c> can</c><00:03:23.580><c> redo</c>
+
+00:03:23.930 --> 00:03:23.940 align:start position:0%
+a few tricks first of all you can redo
+ 
+
+00:03:23.940 --> 00:03:25.670 align:start position:0%
+a few tricks first of all you can redo
+automatic<00:03:24.480><c> weights</c><00:03:24.840><c> for</c><00:03:24.959><c> your</c><00:03:25.140><c> entire</c><00:03:25.379><c> model</c>
+
+00:03:25.670 --> 00:03:25.680 align:start position:0%
+automatic weights for your entire model
+ 
+
+00:03:25.680 --> 00:03:28.070 align:start position:0%
+automatic weights for your entire model
+or<00:03:26.159><c> only</c><00:03:26.280><c> for</c><00:03:26.580><c> specific</c><00:03:26.819><c> bones</c><00:03:27.180><c> just</c><00:03:27.780><c> go</c><00:03:27.959><c> into</c>
+
+00:03:28.070 --> 00:03:28.080 align:start position:0%
+or only for specific bones just go into
+ 
+
+00:03:28.080 --> 00:03:30.170 align:start position:0%
+or only for specific bones just go into
+pose<00:03:28.440><c> mode</c><00:03:28.680><c> and</c><00:03:29.099><c> select</c><00:03:29.400><c> the</c><00:03:29.519><c> bones</c><00:03:29.700><c> you</c><00:03:30.000><c> want</c>
+
+00:03:30.170 --> 00:03:30.180 align:start position:0%
+pose mode and select the bones you want
+ 
+
+00:03:30.180 --> 00:03:32.570 align:start position:0%
+pose mode and select the bones you want
+then<00:03:30.720><c> go</c><00:03:30.900><c> back</c><00:03:31.019><c> into</c><00:03:31.200><c> object</c><00:03:31.620><c> mode</c><00:03:31.860><c> select</c>
+
+00:03:32.570 --> 00:03:32.580 align:start position:0%
+then go back into object mode select
+ 
+
+00:03:32.580 --> 00:03:34.729 align:start position:0%
+then go back into object mode select
+your<00:03:32.760><c> model</c><00:03:32.940><c> and</c><00:03:33.420><c> go</c><00:03:33.599><c> into</c><00:03:33.720><c> weight</c><00:03:34.140><c> paint</c><00:03:34.379><c> mode</c>
+
+00:03:34.729 --> 00:03:34.739 align:start position:0%
+your model and go into weight paint mode
+ 
+
+00:03:34.739 --> 00:03:37.610 align:start position:0%
+your model and go into weight paint mode
+go<00:03:35.400><c> up</c><00:03:35.580><c> to</c><00:03:35.760><c> weights</c><00:03:36.300><c> and</c><00:03:36.659><c> assign</c><00:03:37.080><c> automatic</c>
+
+00:03:37.610 --> 00:03:37.620 align:start position:0%
+go up to weights and assign automatic
+ 
+
+00:03:37.620 --> 00:03:39.649 align:start position:0%
+go up to weights and assign automatic
+from<00:03:37.860><c> Bones</c><00:03:38.159><c> blender</c><00:03:38.819><c> will</c><00:03:39.120><c> remember</c><00:03:39.300><c> what</c>
+
+00:03:39.649 --> 00:03:39.659 align:start position:0%
+from Bones blender will remember what
+ 
+
+00:03:39.659 --> 00:03:41.509 align:start position:0%
+from Bones blender will remember what
+bones<00:03:39.900><c> you</c><00:03:40.140><c> had</c><00:03:40.260><c> selected</c><00:03:40.680><c> in</c><00:03:40.860><c> pose</c><00:03:41.040><c> mode</c><00:03:41.280><c> and</c>
+
+00:03:41.509 --> 00:03:41.519 align:start position:0%
+bones you had selected in pose mode and
+ 
+
+00:03:41.519 --> 00:03:43.670 align:start position:0%
+bones you had selected in pose mode and
+redo<00:03:41.879><c> those</c><00:03:42.120><c> weights</c><00:03:42.599><c> and</c><00:03:43.019><c> this</c><00:03:43.140><c> is</c><00:03:43.260><c> nice</c><00:03:43.500><c> if</c>
+
+00:03:43.670 --> 00:03:43.680 align:start position:0%
+redo those weights and this is nice if
+ 
+
+00:03:43.680 --> 00:03:45.050 align:start position:0%
+redo those weights and this is nice if
+you<00:03:43.799><c> don't</c><00:03:43.920><c> want</c><00:03:44.099><c> to</c><00:03:44.220><c> start</c><00:03:44.340><c> over</c><00:03:44.580><c> completely</c>
+
+00:03:45.050 --> 00:03:45.060 align:start position:0%
+you don't want to start over completely
+ 
+
+00:03:45.060 --> 00:03:47.449 align:start position:0%
+you don't want to start over completely
+you<00:03:45.659><c> can</c><00:03:45.720><c> also</c><00:03:45.959><c> try</c><00:03:46.140><c> moving</c><00:03:46.560><c> bones</c><00:03:46.739><c> around</c><00:03:47.040><c> and</c>
+
+00:03:47.449 --> 00:03:47.459 align:start position:0%
+you can also try moving bones around and
+ 
+
+00:03:47.459 --> 00:03:48.949 align:start position:0%
+you can also try moving bones around and
+reapplying<00:03:48.000><c> weights</c><00:03:48.420><c> to</c><00:03:48.599><c> get</c><00:03:48.780><c> different</c>
+
+00:03:48.949 --> 00:03:48.959 align:start position:0%
+reapplying weights to get different
+ 
+
+00:03:48.959 --> 00:03:51.170 align:start position:0%
+reapplying weights to get different
+results<00:03:49.319><c> if</c><00:03:50.040><c> you</c><00:03:50.099><c> have</c><00:03:50.220><c> to</c><00:03:50.340><c> do</c><00:03:50.459><c> this</c><00:03:50.640><c> a</c><00:03:50.760><c> lot</c><00:03:50.879><c> I</c>
+
+00:03:51.170 --> 00:03:51.180 align:start position:0%
+results if you have to do this a lot I
+ 
+
+00:03:51.180 --> 00:03:53.089 align:start position:0%
+results if you have to do this a lot I
+recommend<00:03:51.480><c> going</c><00:03:51.720><c> to</c><00:03:51.959><c> edit</c><00:03:52.260><c> and</c><00:03:52.500><c> turning</c><00:03:52.860><c> lock</c>
+
+00:03:53.089 --> 00:03:53.099 align:start position:0%
+recommend going to edit and turning lock
+ 
+
+00:03:53.099 --> 00:03:55.430 align:start position:0%
+recommend going to edit and turning lock
+object<00:03:53.580><c> modes</c><00:03:54.000><c> off</c><00:03:54.360><c> then</c><00:03:54.900><c> you</c><00:03:55.080><c> should</c><00:03:55.200><c> be</c><00:03:55.319><c> able</c>
+
+00:03:55.430 --> 00:03:55.440 align:start position:0%
+object modes off then you should be able
+ 
+
+00:03:55.440 --> 00:03:57.289 align:start position:0%
+object modes off then you should be able
+to<00:03:55.680><c> click</c><00:03:55.920><c> on</c><00:03:56.159><c> different</c><00:03:56.340><c> objects</c><00:03:56.940><c> in</c><00:03:57.120><c> your</c>
+
+00:03:57.289 --> 00:03:57.299 align:start position:0%
+to click on different objects in your
+ 
+
+00:03:57.299 --> 00:03:59.210 align:start position:0%
+to click on different objects in your
+scene<00:03:57.480><c> you</c><00:03:57.959><c> can</c><00:03:58.019><c> select</c><00:03:58.319><c> from</c><00:03:58.500><c> the</c><00:03:58.680><c> outliner</c>
+
+00:03:59.210 --> 00:03:59.220 align:start position:0%
+scene you can select from the outliner
+ 
+
+00:03:59.220 --> 00:04:01.309 align:start position:0%
+scene you can select from the outliner
+too<00:03:59.340><c> and</c><00:03:59.760><c> blender</c><00:04:00.299><c> will</c><00:04:00.540><c> remember</c><00:04:00.720><c> what</c><00:04:01.200><c> mode</c>
+
+00:04:01.309 --> 00:04:01.319 align:start position:0%
+too and blender will remember what mode
+ 
+
+00:04:01.319 --> 00:04:03.170 align:start position:0%
+too and blender will remember what mode
+you<00:04:01.560><c> were</c><00:04:01.739><c> in</c><00:04:01.860><c> last</c><00:04:02.099><c> so</c><00:04:02.459><c> it's</c><00:04:02.640><c> a</c><00:04:02.819><c> lot</c><00:04:02.940><c> faster</c>
+
+00:04:03.170 --> 00:04:03.180 align:start position:0%
+you were in last so it's a lot faster
+ 
+
+00:04:03.180 --> 00:04:05.390 align:start position:0%
+you were in last so it's a lot faster
+when<00:04:03.780><c> your</c><00:04:03.900><c> Armature</c><00:04:04.319><c> is</c><00:04:04.440><c> in</c><00:04:04.620><c> pose</c><00:04:04.799><c> mode</c><00:04:05.040><c> and</c>
+
+00:04:05.390 --> 00:04:05.400 align:start position:0%
+when your Armature is in pose mode and
+ 
+
+00:04:05.400 --> 00:04:07.070 align:start position:0%
+when your Armature is in pose mode and
+your<00:04:05.640><c> model</c><00:04:05.760><c> is</c><00:04:06.060><c> in</c><00:04:06.180><c> weight</c><00:04:06.360><c> paint</c><00:04:06.599><c> mode</c><00:04:06.840><c> you</c>
+
+00:04:07.070 --> 00:04:07.080 align:start position:0%
+your model is in weight paint mode you
+ 
+
+00:04:07.080 --> 00:04:08.750 align:start position:0%
+your model is in weight paint mode you
+should<00:04:07.260><c> be</c><00:04:07.379><c> able</c><00:04:07.500><c> to</c><00:04:07.620><c> control</c><00:04:07.980><c> click</c><00:04:08.519><c> to</c>
+
+00:04:08.750 --> 00:04:08.760 align:start position:0%
+should be able to control click to
+ 
+
+00:04:08.760 --> 00:04:10.729 align:start position:0%
+should be able to control click to
+select<00:04:09.120><c> bones</c><00:04:09.480><c> and</c><00:04:09.840><c> view</c><00:04:10.019><c> their</c><00:04:10.379><c> weights</c>
+
+00:04:10.729 --> 00:04:10.739 align:start position:0%
+select bones and view their weights
+ 
+
+00:04:10.739 --> 00:04:12.710 align:start position:0%
+select bones and view their weights
+shift-click<00:04:11.459><c> for</c><00:04:11.580><c> multiple</c><00:04:11.879><c> bones</c><00:04:12.120><c> and</c><00:04:12.540><c> as</c>
+
+00:04:12.710 --> 00:04:12.720 align:start position:0%
+shift-click for multiple bones and as
+ 
+
+00:04:12.720 --> 00:04:15.110 align:start position:0%
+shift-click for multiple bones and as
+usual<00:04:12.959><c> a</c><00:04:13.379><c> to</c><00:04:13.680><c> select</c><00:04:13.980><c> everything</c><00:04:14.220><c> and</c><00:04:14.640><c> ALT</c><00:04:14.939><c> a</c>
+
+00:04:15.110 --> 00:04:15.120 align:start position:0%
+usual a to select everything and ALT a
+ 
+
+00:04:15.120 --> 00:04:17.930 align:start position:0%
+usual a to select everything and ALT a
+to<00:04:15.360><c> deselect</c><00:04:15.959><c> posing</c><00:04:16.620><c> Works</c><00:04:16.919><c> in</c><00:04:17.040><c> here</c><00:04:17.160><c> too</c><00:04:17.400><c> and</c>
+
+00:04:17.930 --> 00:04:17.940 align:start position:0%
+to deselect posing Works in here too and
+ 
+
+00:04:17.940 --> 00:04:19.370 align:start position:0%
+to deselect posing Works in here too and
+before<00:04:18.120><c> painting</c><00:04:18.720><c> let's</c><00:04:18.959><c> talk</c><00:04:19.199><c> about</c>
+
+00:04:19.370 --> 00:04:19.380 align:start position:0%
+before painting let's talk about
+ 
+
+00:04:19.380 --> 00:04:21.590 align:start position:0%
+before painting let's talk about
+settings<00:04:19.680><c> I</c><00:04:20.100><c> recommend</c><00:04:20.340><c> using</c><00:04:20.760><c> hambone</c><00:04:21.359><c> will</c>
+
+00:04:21.590 --> 00:04:21.600 align:start position:0%
+settings I recommend using hambone will
+ 
+
+00:04:21.600 --> 00:04:23.270 align:start position:0%
+settings I recommend using hambone will
+save<00:04:21.720><c> your</c><00:04:21.900><c> life</c><00:04:22.079><c> someday</c><00:04:22.500><c> first</c><00:04:22.919><c> is</c><00:04:23.100><c> under</c>
+
+00:04:23.270 --> 00:04:23.280 align:start position:0%
+save your life someday first is under
+ 
+
+00:04:23.280 --> 00:04:26.450 align:start position:0%
+save your life someday first is under
+viewport<00:04:23.759><c> overlays</c><00:04:24.479><c> turn</c><00:04:24.900><c> on</c><00:04:25.139><c> wireframe</c><00:04:26.040><c> you</c>
+
+00:04:26.450 --> 00:04:26.460 align:start position:0%
+viewport overlays turn on wireframe you
+ 
+
+00:04:26.460 --> 00:04:28.129 align:start position:0%
+viewport overlays turn on wireframe you
+should<00:04:26.580><c> use</c><00:04:26.759><c> this</c><00:04:27.000><c> especially</c><00:04:27.479><c> if</c><00:04:27.780><c> your</c><00:04:27.960><c> model</c>
+
+00:04:28.129 --> 00:04:28.139 align:start position:0%
+should use this especially if your model
+ 
+
+00:04:28.139 --> 00:04:30.170 align:start position:0%
+should use this especially if your model
+has<00:04:28.380><c> a</c><00:04:28.560><c> subdivision</c><00:04:29.040><c> surface</c><00:04:29.400><c> modifier</c><00:04:29.820><c> on</c><00:04:30.060><c> it</c>
+
+00:04:30.170 --> 00:04:30.180 align:start position:0%
+has a subdivision surface modifier on it
+ 
+
+00:04:30.180 --> 00:04:31.909 align:start position:0%
+has a subdivision surface modifier on it
+because<00:04:30.479><c> the</c><00:04:30.840><c> weights</c><00:04:31.139><c> are</c><00:04:31.380><c> only</c><00:04:31.500><c> going</c><00:04:31.740><c> to</c>
+
+00:04:31.909 --> 00:04:31.919 align:start position:0%
+because the weights are only going to
+ 
+
+00:04:31.919 --> 00:04:33.830 align:start position:0%
+because the weights are only going to
+affect<00:04:32.220><c> the</c><00:04:32.400><c> points</c><00:04:32.759><c> on</c><00:04:32.940><c> the</c><00:04:33.120><c> original</c><00:04:33.240><c> mesh</c>
+
+00:04:33.830 --> 00:04:33.840 align:start position:0%
+affect the points on the original mesh
+ 
+
+00:04:33.840 --> 00:04:35.870 align:start position:0%
+affect the points on the original mesh
+and<00:04:34.139><c> that's</c><00:04:34.259><c> what</c><00:04:34.500><c> this</c><00:04:34.620><c> is</c><00:04:34.740><c> showing</c><00:04:35.100><c> next</c><00:04:35.639><c> go</c>
+
+00:04:35.870 --> 00:04:35.880 align:start position:0%
+and that's what this is showing next go
+ 
+
+00:04:35.880 --> 00:04:38.749 align:start position:0%
+and that's what this is showing next go
+to<00:04:36.000><c> Tool</c><00:04:36.419><c> settings</c><00:04:36.680><c> options</c><00:04:37.680><c> and</c><00:04:38.280><c> turn</c><00:04:38.520><c> on</c>
+
+00:04:38.749 --> 00:04:38.759 align:start position:0%
+to Tool settings options and turn on
+ 
+
+00:04:38.759 --> 00:04:41.330 align:start position:0%
+to Tool settings options and turn on
+auto<00:04:39.060><c> normalize</c><00:04:39.840><c> this</c><00:04:40.380><c> makes</c><00:04:40.620><c> it</c><00:04:40.800><c> so</c><00:04:40.979><c> when</c><00:04:41.160><c> you</c>
+
+00:04:41.330 --> 00:04:41.340 align:start position:0%
+auto normalize this makes it so when you
+ 
+
+00:04:41.340 --> 00:04:43.249 align:start position:0%
+auto normalize this makes it so when you
+add<00:04:41.520><c> weights</c><00:04:42.000><c> to</c><00:04:42.180><c> one</c><00:04:42.360><c> bone</c><00:04:42.600><c> it</c><00:04:42.960><c> will</c><00:04:43.080><c> take</c>
+
+00:04:43.249 --> 00:04:43.259 align:start position:0%
+add weights to one bone it will take
+ 
+
+00:04:43.259 --> 00:04:45.530 align:start position:0%
+add weights to one bone it will take
+them<00:04:43.440><c> away</c><00:04:43.680><c> from</c><00:04:44.040><c> others</c><00:04:44.460><c> and</c><00:04:44.940><c> you</c><00:04:45.120><c> won't</c><00:04:45.300><c> have</c>
+
+00:04:45.530 --> 00:04:45.540 align:start position:0%
+them away from others and you won't have
+ 
+
+00:04:45.540 --> 00:04:47.150 align:start position:0%
+them away from others and you won't have
+multiple<00:04:45.960><c> bones</c><00:04:46.320><c> that</c><00:04:46.680><c> are</c><00:04:46.800><c> trying</c><00:04:46.979><c> to</c>
+
+00:04:47.150 --> 00:04:47.160 align:start position:0%
+multiple bones that are trying to
+ 
+
+00:04:47.160 --> 00:04:49.129 align:start position:0%
+multiple bones that are trying to
+control<00:04:47.400><c> the</c><00:04:47.759><c> same</c><00:04:47.940><c> area</c><00:04:48.240><c> there's</c><00:04:48.780><c> also</c><00:04:48.960><c> a</c>
+
+00:04:49.129 --> 00:04:49.139 align:start position:0%
+control the same area there's also a
+ 
+
+00:04:49.139 --> 00:04:50.749 align:start position:0%
+control the same area there's also a
+symmetry<00:04:49.500><c> option</c><00:04:49.800><c> here</c><00:04:50.040><c> that</c><00:04:50.280><c> could</c><00:04:50.400><c> save</c><00:04:50.580><c> you</c>
+
+00:04:50.749 --> 00:04:50.759 align:start position:0%
+symmetry option here that could save you
+ 
+
+00:04:50.759 --> 00:04:52.370 align:start position:0%
+symmetry option here that could save you
+some<00:04:50.940><c> time</c><00:04:51.120><c> and</c><00:04:51.479><c> if</c><00:04:51.660><c> you</c><00:04:51.720><c> want</c><00:04:51.840><c> to</c><00:04:51.960><c> paint</c><00:04:52.080><c> all</c>
+
+00:04:52.370 --> 00:04:52.380 align:start position:0%
+some time and if you want to paint all
+ 
+
+00:04:52.380 --> 00:04:53.870 align:start position:0%
+some time and if you want to paint all
+the<00:04:52.500><c> way</c><00:04:52.620><c> through</c><00:04:52.860><c> your</c><00:04:53.100><c> model</c><00:04:53.280><c> then</c><00:04:53.639><c> you</c><00:04:53.759><c> have</c>
+
+00:04:53.870 --> 00:04:53.880 align:start position:0%
+the way through your model then you have
+ 
+
+00:04:53.880 --> 00:04:56.270 align:start position:0%
+the way through your model then you have
+to<00:04:53.940><c> turn</c><00:04:54.120><c> on</c><00:04:54.360><c> projected</c><00:04:54.960><c> under</c><00:04:55.259><c> fall</c><00:04:55.560><c> off</c><00:04:55.800><c> and</c>
+
+00:04:56.270 --> 00:04:56.280 align:start position:0%
+to turn on projected under fall off and
+ 
+
+00:04:56.280 --> 00:04:58.909 align:start position:0%
+to turn on projected under fall off and
+turn<00:04:56.520><c> off</c><00:04:56.699><c> front</c><00:04:57.120><c> faces</c><00:04:57.600><c> only</c><00:04:57.840><c> under</c><00:04:58.259><c> Advanced</c>
+
+00:04:58.909 --> 00:04:58.919 align:start position:0%
+turn off front faces only under Advanced
+ 
+
+00:04:58.919 --> 00:05:01.189 align:start position:0%
+turn off front faces only under Advanced
+brush<00:04:59.280><c> settings</c><00:04:59.880><c> just</c><00:05:00.360><c> be</c><00:05:00.540><c> careful</c><00:05:00.780><c> and</c><00:05:01.020><c> make</c>
+
+00:05:01.189 --> 00:05:01.199 align:start position:0%
+brush settings just be careful and make
+ 
+
+00:05:01.199 --> 00:05:02.629 align:start position:0%
+brush settings just be careful and make
+sure<00:05:01.320><c> you</c><00:05:01.500><c> change</c><00:05:01.740><c> it</c><00:05:01.979><c> back</c><00:05:02.160><c> when</c><00:05:02.400><c> you</c><00:05:02.520><c> don't</c>
+
+00:05:02.629 --> 00:05:02.639 align:start position:0%
+sure you change it back when you don't
+ 
+
+00:05:02.639 --> 00:05:04.430 align:start position:0%
+sure you change it back when you don't
+want<00:05:02.820><c> it</c><00:05:02.940><c> to</c><00:05:03.060><c> work</c><00:05:03.180><c> this</c><00:05:03.479><c> way</c><00:05:03.600><c> now</c><00:05:04.080><c> you</c><00:05:04.380><c> can</c>
+
+00:05:04.430 --> 00:05:04.440 align:start position:0%
+want it to work this way now you can
+ 
+
+00:05:04.440 --> 00:05:06.290 align:start position:0%
+want it to work this way now you can
+start<00:05:04.620><c> painting</c><00:05:05.040><c> set</c><00:05:05.460><c> the</c><00:05:05.639><c> weight</c><00:05:05.820><c> to</c><00:05:06.060><c> decide</c>
+
+00:05:06.290 --> 00:05:06.300 align:start position:0%
+start painting set the weight to decide
+ 
+
+00:05:06.300 --> 00:05:07.850 align:start position:0%
+start painting set the weight to decide
+whether<00:05:06.600><c> you</c><00:05:06.780><c> want</c><00:05:06.900><c> to</c><00:05:07.139><c> add</c><00:05:07.380><c> or</c><00:05:07.680><c> remove</c>
+
+00:05:07.850 --> 00:05:07.860 align:start position:0%
+whether you want to add or remove
+ 
+
+00:05:07.860 --> 00:05:11.030 align:start position:0%
+whether you want to add or remove
+influence<00:05:08.580><c> blue</c><00:05:09.240><c> is</c><00:05:09.600><c> zero</c><00:05:10.080><c> or</c><00:05:10.320><c> no</c><00:05:10.560><c> influence</c>
+
+00:05:11.030 --> 00:05:11.040 align:start position:0%
+influence blue is zero or no influence
+ 
+
+00:05:11.040 --> 00:05:14.150 align:start position:0%
+influence blue is zero or no influence
+and<00:05:11.400><c> red</c><00:05:11.639><c> is</c><00:05:12.000><c> one</c><00:05:12.360><c> or</c><00:05:12.720><c> complete</c><00:05:13.259><c> influence</c><00:05:13.800><c> and</c>
+
+00:05:14.150 --> 00:05:14.160 align:start position:0%
+and red is one or complete influence and
+ 
+
+00:05:14.160 --> 00:05:16.909 align:start position:0%
+and red is one or complete influence and
+use<00:05:14.460><c> f</c><00:05:14.699><c> to</c><00:05:15.000><c> change</c><00:05:15.180><c> the</c><00:05:15.419><c> brush</c><00:05:15.780><c> size</c><00:05:16.080><c> you</c><00:05:16.740><c> can</c>
+
+00:05:16.909 --> 00:05:16.919 align:start position:0%
+use f to change the brush size you can
+ 
+
+00:05:16.919 --> 00:05:18.530 align:start position:0%
+use f to change the brush size you can
+also<00:05:17.100><c> turn</c><00:05:17.280><c> the</c><00:05:17.460><c> strength</c><00:05:17.820><c> down</c><00:05:18.000><c> to</c><00:05:18.419><c> adjust</c>
+
+00:05:18.530 --> 00:05:18.540 align:start position:0%
+also turn the strength down to adjust
+ 
+
+00:05:18.540 --> 00:05:21.050 align:start position:0%
+also turn the strength down to adjust
+the<00:05:18.840><c> weights</c><00:05:19.139><c> a</c><00:05:19.380><c> small</c><00:05:19.500><c> amount</c><00:05:19.860><c> at</c><00:05:20.100><c> a</c><00:05:20.280><c> time</c><00:05:20.400><c> if</c>
+
+00:05:21.050 --> 00:05:21.060 align:start position:0%
+the weights a small amount at a time if
+ 
+
+00:05:21.060 --> 00:05:22.550 align:start position:0%
+the weights a small amount at a time if
+your<00:05:21.240><c> painting</c><00:05:21.540><c> is</c><00:05:21.660><c> a</c><00:05:21.780><c> little</c><00:05:21.900><c> sloppy</c><00:05:22.320><c> then</c>
+
+00:05:22.550 --> 00:05:22.560 align:start position:0%
+your painting is a little sloppy then
+ 
+
+00:05:22.560 --> 00:05:24.230 align:start position:0%
+your painting is a little sloppy then
+you<00:05:22.800><c> can</c><00:05:22.919><c> smooth</c><00:05:23.100><c> it</c><00:05:23.340><c> out</c><00:05:23.520><c> by</c><00:05:23.880><c> going</c><00:05:24.060><c> to</c>
+
+00:05:24.230 --> 00:05:24.240 align:start position:0%
+you can smooth it out by going to
+ 
+
+00:05:24.240 --> 00:05:26.629 align:start position:0%
+you can smooth it out by going to
+weights<00:05:24.780><c> and</c><00:05:25.020><c> choosing</c><00:05:25.500><c> smooth</c><00:05:25.919><c> and</c><00:05:26.520><c> then</c>
+
+00:05:26.629 --> 00:05:26.639 align:start position:0%
+weights and choosing smooth and then
+ 
+
+00:05:26.639 --> 00:05:28.010 align:start position:0%
+weights and choosing smooth and then
+decide<00:05:27.000><c> whether</c><00:05:27.300><c> you</c><00:05:27.479><c> want</c><00:05:27.600><c> to</c><00:05:27.840><c> smooth</c>
+
+00:05:28.010 --> 00:05:28.020 align:start position:0%
+decide whether you want to smooth
+ 
+
+00:05:28.020 --> 00:05:29.870 align:start position:0%
+decide whether you want to smooth
+everything<00:05:28.440><c> or</c><00:05:28.979><c> only</c><00:05:29.100><c> the</c><00:05:29.340><c> bones</c><00:05:29.520><c> you</c><00:05:29.759><c> have</c>
+
+00:05:29.870 --> 00:05:29.880 align:start position:0%
+everything or only the bones you have
+ 
+
+00:05:29.880 --> 00:05:31.310 align:start position:0%
+everything or only the bones you have
+selected<00:05:30.300><c> and</c><00:05:30.720><c> when</c><00:05:30.840><c> you're</c><00:05:30.960><c> done</c><00:05:31.080><c> Weight</c>
+
+00:05:31.310 --> 00:05:31.320 align:start position:0%
+selected and when you're done Weight
+ 
+
+00:05:31.320 --> 00:05:33.290 align:start position:0%
+selected and when you're done Weight
+painting<00:05:31.740><c> make</c><00:05:32.039><c> sure</c><00:05:32.220><c> to</c><00:05:32.340><c> turn</c><00:05:32.520><c> lock</c><00:05:32.880><c> object</c>
+
+00:05:33.290 --> 00:05:33.300 align:start position:0%
+painting make sure to turn lock object
+ 
+
+00:05:33.300 --> 00:05:35.689 align:start position:0%
+painting make sure to turn lock object
+modes<00:05:33.720><c> back</c><00:05:34.020><c> on</c><00:05:34.320><c> if</c><00:05:34.800><c> you</c><00:05:34.919><c> want</c><00:05:35.039><c> a</c><00:05:35.220><c> more</c><00:05:35.340><c> rigid</c>
+
+00:05:35.689 --> 00:05:35.699 align:start position:0%
+modes back on if you want a more rigid
+ 
+
+00:05:35.699 --> 00:05:37.430 align:start position:0%
+modes back on if you want a more rigid
+result<00:05:35.880><c> with</c><00:05:36.240><c> no</c><00:05:36.419><c> bending</c><00:05:36.840><c> then</c><00:05:37.080><c> you'll</c><00:05:37.259><c> need</c>
+
+00:05:37.430 --> 00:05:37.440 align:start position:0%
+result with no bending then you'll need
+ 
+
+00:05:37.440 --> 00:05:39.050 align:start position:0%
+result with no bending then you'll need
+a<00:05:37.560><c> different</c><00:05:37.680><c> approach</c><00:05:38.100><c> the</c><00:05:38.580><c> first</c><00:05:38.699><c> way</c><00:05:38.880><c> of</c>
+
+00:05:39.050 --> 00:05:39.060 align:start position:0%
+a different approach the first way of
+ 
+
+00:05:39.060 --> 00:05:40.850 align:start position:0%
+a different approach the first way of
+doing<00:05:39.180><c> this</c><00:05:39.360><c> is</c><00:05:39.600><c> by</c><00:05:39.840><c> parenting</c><00:05:40.259><c> directly</c><00:05:40.620><c> to</c>
+
+00:05:40.850 --> 00:05:40.860 align:start position:0%
+doing this is by parenting directly to
+ 
+
+00:05:40.860 --> 00:05:42.529 align:start position:0%
+doing this is by parenting directly to
+bones<00:05:41.039><c> and</c><00:05:41.400><c> avoiding</c><00:05:41.759><c> weights</c><00:05:42.120><c> altogether</c>
+
+00:05:42.529 --> 00:05:42.539 align:start position:0%
+bones and avoiding weights altogether
+ 
+
+00:05:42.539 --> 00:05:44.570 align:start position:0%
+bones and avoiding weights altogether
+but<00:05:43.139><c> this</c><00:05:43.320><c> only</c><00:05:43.500><c> works</c><00:05:43.800><c> if</c><00:05:43.919><c> your</c><00:05:44.160><c> model</c><00:05:44.280><c> is</c>
+
+00:05:44.570 --> 00:05:44.580 align:start position:0%
+but this only works if your model is
+ 
+
+00:05:44.580 --> 00:05:46.249 align:start position:0%
+but this only works if your model is
+made<00:05:44.699><c> of</c><00:05:44.880><c> a</c><00:05:45.060><c> bunch</c><00:05:45.180><c> of</c><00:05:45.360><c> separate</c><00:05:45.720><c> objects</c>
+
+00:05:46.249 --> 00:05:46.259 align:start position:0%
+made of a bunch of separate objects
+ 
+
+00:05:46.259 --> 00:05:48.170 align:start position:0%
+made of a bunch of separate objects
+select<00:05:46.979><c> one</c><00:05:47.220><c> of</c><00:05:47.340><c> your</c><00:05:47.460><c> objects</c><00:05:47.880><c> then</c>
+
+00:05:48.170 --> 00:05:48.180 align:start position:0%
+select one of your objects then
+ 
+
+00:05:48.180 --> 00:05:50.270 align:start position:0%
+select one of your objects then
+shift-click<00:05:48.840><c> the</c><00:05:48.960><c> Armature</c><00:05:49.500><c> and</c><00:05:49.800><c> go</c><00:05:50.039><c> into</c>
+
+00:05:50.270 --> 00:05:50.280 align:start position:0%
+shift-click the Armature and go into
+ 
+
+00:05:50.280 --> 00:05:52.129 align:start position:0%
+shift-click the Armature and go into
+pose<00:05:50.520><c> mode</c><00:05:50.820><c> select</c><00:05:51.479><c> the</c><00:05:51.539><c> bone</c><00:05:51.720><c> you</c><00:05:51.900><c> want</c><00:05:52.080><c> to</c>
+
+00:05:52.129 --> 00:05:52.139 align:start position:0%
+pose mode select the bone you want to
+ 
+
+00:05:52.139 --> 00:05:54.950 align:start position:0%
+pose mode select the bone you want to
+parent<00:05:52.259><c> it</c><00:05:52.500><c> to</c><00:05:52.680><c> control</c><00:05:53.100><c> p</c><00:05:53.520><c> and</c><00:05:53.940><c> choose</c><00:05:54.360><c> bone</c>
+
+00:05:54.950 --> 00:05:54.960 align:start position:0%
+parent it to control p and choose bone
+ 
+
+00:05:54.960 --> 00:05:56.930 align:start position:0%
+parent it to control p and choose bone
+now<00:05:55.500><c> that</c><00:05:55.860><c> object</c><00:05:56.160><c> should</c><00:05:56.400><c> follow</c><00:05:56.580><c> the</c><00:05:56.759><c> bone</c>
+
+00:05:56.930 --> 00:05:56.940 align:start position:0%
+now that object should follow the bone
+ 
+
+00:05:56.940 --> 00:05:58.370 align:start position:0%
+now that object should follow the bone
+when<00:05:57.180><c> you</c><00:05:57.300><c> move</c><00:05:57.479><c> it</c><00:05:57.600><c> this</c><00:05:58.020><c> gets</c><00:05:58.259><c> pretty</c>
+
+00:05:58.370 --> 00:05:58.380 align:start position:0%
+when you move it this gets pretty
+ 
+
+00:05:58.380 --> 00:05:59.810 align:start position:0%
+when you move it this gets pretty
+annoying<00:05:58.800><c> when</c><00:05:58.979><c> you</c><00:05:59.100><c> have</c><00:05:59.220><c> to</c><00:05:59.280><c> do</c><00:05:59.400><c> it</c><00:05:59.520><c> over</c><00:05:59.639><c> and</c>
+
+00:05:59.810 --> 00:05:59.820 align:start position:0%
+annoying when you have to do it over and
+ 
+
+00:05:59.820 --> 00:06:01.790 align:start position:0%
+annoying when you have to do it over and
+and<00:06:00.180><c> over</c><00:06:00.419><c> again</c><00:06:00.600><c> so</c><00:06:01.080><c> you</c><00:06:01.259><c> can</c><00:06:01.320><c> use</c><00:06:01.500><c> this</c>
+
+00:06:01.790 --> 00:06:01.800 align:start position:0%
+and over again so you can use this
+ 
+
+00:06:01.800 --> 00:06:04.070 align:start position:0%
+and over again so you can use this
+add-on<00:06:02.220><c> to</c><00:06:02.460><c> make</c><00:06:02.639><c> the</c><00:06:02.880><c> process</c><00:06:03.120><c> faster</c><00:06:03.539><c> you</c>
+
+00:06:04.070 --> 00:06:04.080 align:start position:0%
+add-on to make the process faster you
+ 
+
+00:06:04.080 --> 00:06:05.930 align:start position:0%
+add-on to make the process faster you
+can<00:06:04.199><c> get</c><00:06:04.380><c> similar</c><00:06:04.800><c> results</c><00:06:04.979><c> using</c><00:06:05.520><c> weights</c>
+
+00:06:05.930 --> 00:06:05.940 align:start position:0%
+can get similar results using weights
+ 
+
+00:06:05.940 --> 00:06:07.790 align:start position:0%
+can get similar results using weights
+and<00:06:06.180><c> this</c><00:06:06.479><c> also</c><00:06:06.720><c> works</c><00:06:07.020><c> if</c><00:06:07.199><c> your</c><00:06:07.380><c> model</c><00:06:07.560><c> is</c>
+
+00:06:07.790 --> 00:06:07.800 align:start position:0%
+and this also works if your model is
+ 
+
+00:06:07.800 --> 00:06:10.010 align:start position:0%
+and this also works if your model is
+only<00:06:08.039><c> one</c><00:06:08.340><c> object</c><00:06:08.699><c> unlike</c><00:06:09.300><c> the</c><00:06:09.479><c> previous</c><00:06:09.660><c> way</c>
+
+00:06:10.010 --> 00:06:10.020 align:start position:0%
+only one object unlike the previous way
+ 
+
+00:06:10.020 --> 00:06:11.629 align:start position:0%
+only one object unlike the previous way
+and<00:06:10.440><c> this</c><00:06:10.620><c> is</c><00:06:10.740><c> easier</c><00:06:11.039><c> when</c><00:06:11.220><c> you</c><00:06:11.340><c> make</c><00:06:11.460><c> bone</c>
+
+00:06:11.629 --> 00:06:11.639 align:start position:0%
+and this is easier when you make bone
+ 
+
+00:06:11.639 --> 00:06:13.610 align:start position:0%
+and this is easier when you make bone
+names<00:06:11.940><c> visible</c><00:06:12.360><c> under</c><00:06:12.660><c> object</c><00:06:13.139><c> data</c>
+
+00:06:13.610 --> 00:06:13.620 align:start position:0%
+names visible under object data
+ 
+
+00:06:13.620 --> 00:06:15.529 align:start position:0%
+names visible under object data
+properties<00:06:13.919><c> select</c><00:06:14.699><c> your</c><00:06:14.820><c> model</c><00:06:15.060><c> and</c><00:06:15.419><c> then</c>
+
+00:06:15.529 --> 00:06:15.539 align:start position:0%
+properties select your model and then
+ 
+
+00:06:15.539 --> 00:06:18.050 align:start position:0%
+properties select your model and then
+your<00:06:15.720><c> Armature</c><00:06:16.259><c> Ctrl</c><00:06:16.800><c> p</c><00:06:17.039><c> and</c><00:06:17.460><c> parent</c><00:06:17.699><c> with</c>
+
+00:06:18.050 --> 00:06:18.060 align:start position:0%
+your Armature Ctrl p and parent with
+ 
+
+00:06:18.060 --> 00:06:20.150 align:start position:0%
+your Armature Ctrl p and parent with
+empty<00:06:18.479><c> groups</c><00:06:18.840><c> then</c><00:06:19.199><c> select</c><00:06:19.500><c> your</c><00:06:19.680><c> model</c><00:06:19.860><c> and</c>
+
+00:06:20.150 --> 00:06:20.160 align:start position:0%
+empty groups then select your model and
+ 
+
+00:06:20.160 --> 00:06:21.890 align:start position:0%
+empty groups then select your model and
+go<00:06:20.340><c> into</c><00:06:20.520><c> edit</c><00:06:20.880><c> mode</c><00:06:21.060><c> there</c><00:06:21.479><c> should</c><00:06:21.660><c> be</c><00:06:21.780><c> a</c>
+
+00:06:21.890 --> 00:06:21.900 align:start position:0%
+go into edit mode there should be a
+ 
+
+00:06:21.900 --> 00:06:23.390 align:start position:0%
+go into edit mode there should be a
+bunch<00:06:22.020><c> of</c><00:06:22.139><c> vertex</c><00:06:22.560><c> groups</c><00:06:22.979><c> with</c><00:06:23.160><c> the</c><00:06:23.280><c> same</c>
+
+00:06:23.390 --> 00:06:23.400 align:start position:0%
+bunch of vertex groups with the same
+ 
+
+00:06:23.400 --> 00:06:25.249 align:start position:0%
+bunch of vertex groups with the same
+names<00:06:23.639><c> as</c><00:06:24.000><c> your</c><00:06:24.180><c> bones</c><00:06:24.360><c> and</c><00:06:24.780><c> if</c><00:06:24.960><c> you</c><00:06:25.020><c> have</c><00:06:25.139><c> a</c>
+
+00:06:25.249 --> 00:06:25.259 align:start position:0%
+names as your bones and if you have a
+ 
+
+00:06:25.259 --> 00:06:27.350 align:start position:0%
+names as your bones and if you have a
+lot<00:06:25.380><c> of</c><00:06:25.500><c> Bones</c><00:06:25.740><c> you</c><00:06:26.039><c> can</c><00:06:26.160><c> click</c><00:06:26.460><c> this</c><00:06:26.759><c> Arrow</c><00:06:27.120><c> to</c>
+
+00:06:27.350 --> 00:06:27.360 align:start position:0%
+lot of Bones you can click this Arrow to
+ 
+
+00:06:27.360 --> 00:06:29.510 align:start position:0%
+lot of Bones you can click this Arrow to
+search<00:06:27.539><c> by</c><00:06:27.840><c> name</c><00:06:28.020><c> then</c><00:06:28.560><c> all</c><00:06:28.740><c> you</c><00:06:28.919><c> do</c><00:06:29.039><c> is</c><00:06:29.220><c> select</c>
+
+00:06:29.510 --> 00:06:29.520 align:start position:0%
+search by name then all you do is select
+ 
+
+00:06:29.520 --> 00:06:31.070 align:start position:0%
+search by name then all you do is select
+the<00:06:29.639><c> vertex</c><00:06:30.000><c> group</c><00:06:30.240><c> of</c><00:06:30.419><c> the</c><00:06:30.539><c> bone</c><00:06:30.720><c> you</c><00:06:30.900><c> want</c>
+
+00:06:31.070 --> 00:06:31.080 align:start position:0%
+the vertex group of the bone you want
+ 
+
+00:06:31.080 --> 00:06:33.350 align:start position:0%
+the vertex group of the bone you want
+select<00:06:31.620><c> the</c><00:06:31.740><c> body</c><00:06:31.919><c> part</c><00:06:32.220><c> by</c><00:06:32.580><c> hovering</c><00:06:33.000><c> over</c><00:06:33.180><c> it</c>
+
+00:06:33.350 --> 00:06:33.360 align:start position:0%
+select the body part by hovering over it
+ 
+
+00:06:33.360 --> 00:06:35.450 align:start position:0%
+select the body part by hovering over it
+and<00:06:33.539><c> pressing</c><00:06:33.900><c> L</c><00:06:34.139><c> make</c><00:06:34.680><c> sure</c><00:06:34.800><c> the</c><00:06:35.039><c> weight</c><00:06:35.220><c> is</c>
+
+00:06:35.450 --> 00:06:35.460 align:start position:0%
+and pressing L make sure the weight is
+ 
+
+00:06:35.460 --> 00:06:37.969 align:start position:0%
+and pressing L make sure the weight is
+set<00:06:35.639><c> to</c><00:06:35.759><c> 1</c><00:06:36.000><c> and</c><00:06:36.419><c> press</c><00:06:36.720><c> assign</c><00:06:37.259><c> and</c><00:06:37.620><c> just</c><00:06:37.800><c> like</c>
+
+00:06:37.969 --> 00:06:37.979 align:start position:0%
+set to 1 and press assign and just like
+ 
+
+00:06:37.979 --> 00:06:39.830 align:start position:0%
+set to 1 and press assign and just like
+before<00:06:38.160><c> that</c><00:06:38.639><c> piece</c><00:06:38.940><c> should</c><00:06:39.120><c> now</c><00:06:39.300><c> follow</c><00:06:39.539><c> the</c>
+
+00:06:39.830 --> 00:06:39.840 align:start position:0%
+before that piece should now follow the
+ 
+
+00:06:39.840 --> 00:06:42.350 align:start position:0%
+before that piece should now follow the
+bone<00:06:40.080><c> this</c><00:06:40.560><c> process</c><00:06:40.860><c> is</c><00:06:41.160><c> arguably</c><00:06:41.639><c> even</c><00:06:42.000><c> more</c>
+
+00:06:42.350 --> 00:06:42.360 align:start position:0%
+bone this process is arguably even more
+ 
+
+00:06:42.360 --> 00:06:44.330 align:start position:0%
+bone this process is arguably even more
+annoying<00:06:42.780><c> when</c><00:06:43.020><c> you</c><00:06:43.139><c> have</c><00:06:43.259><c> a</c><00:06:43.440><c> lot</c><00:06:43.500><c> of</c><00:06:43.620><c> Bones</c><00:06:43.860><c> so</c>
+
+00:06:44.330 --> 00:06:44.340 align:start position:0%
+annoying when you have a lot of Bones so
+ 
+
+00:06:44.340 --> 00:06:45.950 align:start position:0%
+annoying when you have a lot of Bones so
+here's<00:06:44.699><c> a</c><00:06:44.880><c> way</c><00:06:45.000><c> that</c><00:06:45.240><c> usually</c><00:06:45.539><c> gets</c><00:06:45.840><c> the</c>
+
+00:06:45.950 --> 00:06:45.960 align:start position:0%
+here's a way that usually gets the
+ 
+
+00:06:45.960 --> 00:06:48.170 align:start position:0%
+here's a way that usually gets the
+weights<00:06:46.319><c> pretty</c><00:06:46.560><c> close</c><00:06:46.740><c> go</c><00:06:47.460><c> into</c><00:06:47.699><c> edit</c><00:06:48.060><c> mode</c>
+
+00:06:48.170 --> 00:06:48.180 align:start position:0%
+weights pretty close go into edit mode
+ 
+
+00:06:48.180 --> 00:06:50.629 align:start position:0%
+weights pretty close go into edit mode
+press<00:06:48.660><c> period</c><00:06:49.080><c> or</c><00:06:49.380><c> go</c><00:06:49.680><c> up</c><00:06:49.860><c> here</c><00:06:50.100><c> to</c><00:06:50.400><c> change</c>
+
+00:06:50.629 --> 00:06:50.639 align:start position:0%
+press period or go up here to change
+ 
+
+00:06:50.639 --> 00:06:52.610 align:start position:0%
+press period or go up here to change
+your<00:06:50.819><c> pivot</c><00:06:51.120><c> point</c><00:06:51.240><c> to</c><00:06:51.539><c> individual</c><00:06:52.080><c> Origins</c>
+
+00:06:52.610 --> 00:06:52.620 align:start position:0%
+your pivot point to individual Origins
+ 
+
+00:06:52.620 --> 00:06:55.610 align:start position:0%
+your pivot point to individual Origins
+then<00:06:53.100><c> press</c><00:06:53.400><c> s</c><00:06:53.759><c> and</c><00:06:54.240><c> 0.1</c><00:06:54.780><c> to</c><00:06:55.080><c> scale</c><00:06:55.380><c> everything</c>
+
+00:06:55.610 --> 00:06:55.620 align:start position:0%
+then press s and 0.1 to scale everything
+ 
+
+00:06:55.620 --> 00:06:58.070 align:start position:0%
+then press s and 0.1 to scale everything
+down<00:06:55.979><c> to</c><00:06:56.220><c> one</c><00:06:56.460><c> tenth</c><00:06:56.880><c> of</c><00:06:57.000><c> the</c><00:06:57.120><c> size</c><00:06:57.360><c> go</c><00:06:57.960><c> back</c>
+
+00:06:58.070 --> 00:06:58.080 align:start position:0%
+down to one tenth of the size go back
+ 
+
+00:06:58.080 --> 00:07:00.350 align:start position:0%
+down to one tenth of the size go back
+into<00:06:58.259><c> object</c><00:06:58.680><c> mode</c><00:06:58.919><c> select</c><00:06:59.460><c> the</c><00:06:59.580><c> model</c><00:06:59.759><c> and</c>
+
+00:07:00.350 --> 00:07:00.360 align:start position:0%
+into object mode select the model and
+ 
+
+00:07:00.360 --> 00:07:01.909 align:start position:0%
+into object mode select the model and
+then<00:07:00.479><c> the</c><00:07:00.660><c> Armature</c><00:07:01.080><c> and</c><00:07:01.319><c> parents</c><00:07:01.800><c> with</c>
+
+00:07:01.909 --> 00:07:01.919 align:start position:0%
+then the Armature and parents with
+ 
+
+00:07:01.919 --> 00:07:04.189 align:start position:0%
+then the Armature and parents with
+automatic<00:07:02.520><c> weights</c><00:07:02.940><c> then</c><00:07:03.300><c> go</c><00:07:03.539><c> back</c><00:07:03.660><c> into</c><00:07:03.840><c> edit</c>
+
+00:07:04.189 --> 00:07:04.199 align:start position:0%
+automatic weights then go back into edit
+ 
+
+00:07:04.199 --> 00:07:06.650 align:start position:0%
+automatic weights then go back into edit
+mode<00:07:04.319><c> select</c><00:07:04.979><c> everything</c><00:07:05.280><c> and</c><00:07:05.880><c> scale</c><00:07:06.120><c> up</c><00:07:06.419><c> by</c>
+
+00:07:06.650 --> 00:07:06.660 align:start position:0%
+mode select everything and scale up by
+ 
+
+00:07:06.660 --> 00:07:08.510 align:start position:0%
+mode select everything and scale up by
+10<00:07:06.900><c> to</c><00:07:07.259><c> return</c><00:07:07.380><c> everything</c><00:07:07.800><c> to</c><00:07:08.160><c> its</c><00:07:08.460><c> original</c>
+
+00:07:08.510 --> 00:07:08.520 align:start position:0%
+10 to return everything to its original
+ 
+
+00:07:08.520 --> 00:07:10.730 align:start position:0%
+10 to return everything to its original
+size<00:07:09.000><c> this</c><00:07:09.600><c> usually</c><00:07:09.840><c> works</c><00:07:10.199><c> for</c><00:07:10.259><c> most</c><00:07:10.440><c> of</c><00:07:10.620><c> the</c>
+
+00:07:10.730 --> 00:07:10.740 align:start position:0%
+size this usually works for most of the
+ 
+
+00:07:10.740 --> 00:07:12.170 align:start position:0%
+size this usually works for most of the
+model<00:07:10.860><c> but</c><00:07:11.220><c> depending</c><00:07:11.460><c> on</c><00:07:11.639><c> the</c><00:07:11.759><c> shapes</c><00:07:12.000><c> you're</c>
+
+00:07:12.170 --> 00:07:12.180 align:start position:0%
+model but depending on the shapes you're
+ 
+
+00:07:12.180 --> 00:07:13.790 align:start position:0%
+model but depending on the shapes you're
+using<00:07:12.479><c> you</c><00:07:12.720><c> might</c><00:07:12.840><c> have</c><00:07:13.020><c> to</c><00:07:13.080><c> clean</c><00:07:13.259><c> it</c><00:07:13.440><c> up</c><00:07:13.560><c> with</c>
+
+00:07:13.790 --> 00:07:13.800 align:start position:0%
+using you might have to clean it up with
+ 
+
+00:07:13.800 --> 00:07:15.469 align:start position:0%
+using you might have to clean it up with
+the<00:07:13.919><c> more</c><00:07:14.100><c> manual</c><00:07:14.400><c> method</c><00:07:14.819><c> that</c><00:07:15.120><c> I</c><00:07:15.240><c> showed</c>
+
+00:07:15.469 --> 00:07:15.479 align:start position:0%
+the more manual method that I showed
+ 
+
+00:07:15.479 --> 00:07:17.150 align:start position:0%
+the more manual method that I showed
+before<00:07:15.600><c> just</c><00:07:16.199><c> make</c><00:07:16.440><c> sure</c><00:07:16.560><c> to</c><00:07:16.740><c> remove</c><00:07:16.860><c> the</c>
+
+00:07:17.150 --> 00:07:17.160 align:start position:0%
+before just make sure to remove the
+ 
+
+00:07:17.160 --> 00:07:18.469 align:start position:0%
+before just make sure to remove the
+weights<00:07:17.400><c> on</c><00:07:17.520><c> the</c><00:07:17.639><c> part</c><00:07:17.759><c> you're</c><00:07:18.060><c> selecting</c>
+
+00:07:18.469 --> 00:07:18.479 align:start position:0%
+weights on the part you're selecting
+ 
+
+00:07:18.479 --> 00:07:20.570 align:start position:0%
+weights on the part you're selecting
+before<00:07:18.900><c> you</c><00:07:19.199><c> try</c><00:07:19.380><c> to</c><00:07:19.500><c> assign</c><00:07:19.860><c> otherwise</c><00:07:20.400><c> you</c>
+
+00:07:20.570 --> 00:07:20.580 align:start position:0%
+before you try to assign otherwise you
+ 
+
+00:07:20.580 --> 00:07:22.490 align:start position:0%
+before you try to assign otherwise you
+might<00:07:20.759><c> get</c><00:07:20.940><c> some</c><00:07:21.060><c> overlapping</c><00:07:21.660><c> weights</c><00:07:22.080><c> and</c>
+
+00:07:22.490 --> 00:07:22.500 align:start position:0%
+might get some overlapping weights and
+ 
+
+00:07:22.500 --> 00:07:24.290 align:start position:0%
+might get some overlapping weights and
+to<00:07:22.680><c> clear</c><00:07:22.800><c> up</c><00:07:22.979><c> small</c><00:07:23.280><c> weight</c><00:07:23.520><c> issues</c><00:07:24.000><c> like</c>
+
+00:07:24.290 --> 00:07:24.300 align:start position:0%
+to clear up small weight issues like
+ 
+
+00:07:24.300 --> 00:07:26.089 align:start position:0%
+to clear up small weight issues like
+this<00:07:24.479><c> you</c><00:07:24.780><c> can</c><00:07:24.900><c> try</c><00:07:25.080><c> using</c><00:07:25.380><c> this</c><00:07:25.620><c> quantize</c>
+
+00:07:26.089 --> 00:07:26.099 align:start position:0%
+this you can try using this quantize
+ 
+
+00:07:26.099 --> 00:07:28.430 align:start position:0%
+this you can try using this quantize
+option<00:07:26.580><c> in</c><00:07:26.819><c> weight</c><00:07:27.060><c> paint</c><00:07:27.240><c> mode</c><00:07:27.599><c> and</c><00:07:28.080><c> set</c><00:07:28.259><c> it</c>
+
+00:07:28.430 --> 00:07:28.440 align:start position:0%
+option in weight paint mode and set it
+ 
+
+00:07:28.440 --> 00:07:30.290 align:start position:0%
+option in weight paint mode and set it
+to<00:07:28.560><c> one</c><00:07:28.800><c> that</c><00:07:29.340><c> should</c><00:07:29.520><c> make</c><00:07:29.699><c> all</c><00:07:29.940><c> of</c><00:07:30.120><c> the</c>
+
+00:07:30.290 --> 00:07:30.300 align:start position:0%
+to one that should make all of the
+ 
+
+00:07:30.300 --> 00:07:32.930 align:start position:0%
+to one that should make all of the
+weights<00:07:30.599><c> be</c><00:07:30.900><c> either</c><00:07:31.080><c> zero</c><00:07:31.740><c> or</c><00:07:31.979><c> one</c><00:07:32.220><c> let's</c><00:07:32.759><c> go</c>
+
+00:07:32.930 --> 00:07:32.940 align:start position:0%
+weights be either zero or one let's go
+ 
+
+00:07:32.940 --> 00:07:35.029 align:start position:0%
+weights be either zero or one let's go
+into<00:07:33.060><c> pose</c><00:07:33.419><c> mode</c><00:07:33.720><c> and</c><00:07:34.199><c> rotate</c><00:07:34.620><c> some</c><00:07:34.800><c> bones</c>
+
+00:07:35.029 --> 00:07:35.039 align:start position:0%
+into pose mode and rotate some bones
+ 
+
+00:07:35.039 --> 00:07:37.550 align:start position:0%
+into pose mode and rotate some bones
+around<00:07:35.340><c> then</c><00:07:35.759><c> press</c><00:07:36.060><c> I</c><00:07:36.300><c> to</c><00:07:36.599><c> insert</c><00:07:36.900><c> a</c><00:07:37.139><c> keyframe</c>
+
+00:07:37.550 --> 00:07:37.560 align:start position:0%
+around then press I to insert a keyframe
+ 
+
+00:07:37.560 --> 00:07:38.870 align:start position:0%
+around then press I to insert a keyframe
+for<00:07:37.680><c> the</c><00:07:37.800><c> bones</c><00:07:37.979><c> that</c><00:07:38.220><c> you</c><00:07:38.340><c> have</c><00:07:38.400><c> selected</c>
+
+00:07:38.870 --> 00:07:38.880 align:start position:0%
+for the bones that you have selected
+ 
+
+00:07:38.880 --> 00:07:41.089 align:start position:0%
+for the bones that you have selected
+change<00:07:39.360><c> the</c><00:07:39.599><c> pose</c><00:07:39.780><c> and</c><00:07:40.080><c> press</c><00:07:40.319><c> I</c><00:07:40.560><c> to</c><00:07:40.800><c> insert</c>
+
+00:07:41.089 --> 00:07:41.099 align:start position:0%
+change the pose and press I to insert
+ 
+
+00:07:41.099 --> 00:07:43.430 align:start position:0%
+change the pose and press I to insert
+another<00:07:41.280><c> keyframe</c><00:07:42.000><c> and</c><00:07:42.419><c> now</c><00:07:42.660><c> it's</c><00:07:42.960><c> animated</c>
+
+00:07:43.430 --> 00:07:43.440 align:start position:0%
+another keyframe and now it's animated
+ 
+
+00:07:43.440 --> 00:07:45.350 align:start position:0%
+another keyframe and now it's animated
+and<00:07:43.979><c> if</c><00:07:44.160><c> you</c><00:07:44.220><c> named</c><00:07:44.520><c> your</c><00:07:44.639><c> bones</c><00:07:44.819><c> the</c><00:07:45.120><c> way</c><00:07:45.240><c> I</c>
+
+00:07:45.350 --> 00:07:45.360 align:start position:0%
+and if you named your bones the way I
+ 
+
+00:07:45.360 --> 00:07:47.210 align:start position:0%
+and if you named your bones the way I
+mentioned<00:07:45.660><c> earlier</c><00:07:46.020><c> then</c><00:07:46.380><c> you</c><00:07:46.620><c> can</c><00:07:46.740><c> copy</c><00:07:47.099><c> a</c>
+
+00:07:47.210 --> 00:07:47.220 align:start position:0%
+mentioned earlier then you can copy a
+ 
+
+00:07:47.220 --> 00:07:50.629 align:start position:0%
+mentioned earlier then you can copy a
+pose<00:07:47.460><c> with</c><00:07:47.880><c> Ctrl</c><00:07:48.300><c> C</c><00:07:48.539><c> and</c><00:07:49.080><c> mirror</c><00:07:49.500><c> it</c><00:07:49.680><c> with</c><00:07:50.160><c> Ctrl</c>
+
+00:07:50.629 --> 00:07:50.639 align:start position:0%
+pose with Ctrl C and mirror it with Ctrl
+ 
+
+00:07:50.639 --> 00:07:52.730 align:start position:0%
+pose with Ctrl C and mirror it with Ctrl
+shift<00:07:51.000><c> V</c><00:07:51.300><c> if</c><00:07:51.780><c> you</c><00:07:51.960><c> want</c><00:07:52.020><c> to</c><00:07:52.139><c> be</c><00:07:52.259><c> able</c><00:07:52.319><c> to</c><00:07:52.500><c> pose</c>
+
+00:07:52.730 --> 00:07:52.740 align:start position:0%
+shift V if you want to be able to pose
+ 
+
+00:07:52.740 --> 00:07:54.770 align:start position:0%
+shift V if you want to be able to pose
+by<00:07:53.099><c> moving</c><00:07:53.340><c> the</c><00:07:53.580><c> ends</c><00:07:53.880><c> of</c><00:07:54.000><c> the</c><00:07:54.180><c> limbs</c><00:07:54.479><c> the</c>
+
+00:07:54.770 --> 00:07:54.780 align:start position:0%
+by moving the ends of the limbs the
+ 
+
+00:07:54.780 --> 00:07:57.170 align:start position:0%
+by moving the ends of the limbs the
+quick<00:07:54.900><c> way</c><00:07:55.080><c> is</c><00:07:55.259><c> by</c><00:07:55.440><c> turning</c><00:07:55.740><c> on</c><00:07:55.860><c> auto</c><00:07:56.220><c> ik</c><00:07:56.819><c> under</c>
+
+00:07:57.170 --> 00:07:57.180 align:start position:0%
+quick way is by turning on auto ik under
+ 
+
+00:07:57.180 --> 00:07:59.270 align:start position:0%
+quick way is by turning on auto ik under
+pose<00:07:57.539><c> options</c><00:07:58.080><c> then</c><00:07:58.680><c> when</c><00:07:58.860><c> you</c><00:07:58.979><c> move</c><00:07:59.160><c> your</c>
+
+00:07:59.270 --> 00:07:59.280 align:start position:0%
+pose options then when you move your
+ 
+
+00:07:59.280 --> 00:08:00.890 align:start position:0%
+pose options then when you move your
+bone<00:07:59.460><c> you</c><00:07:59.639><c> can</c><00:07:59.699><c> and</c><00:08:00.120><c> use</c><00:08:00.240><c> your</c><00:08:00.539><c> scroll</c><00:08:00.660><c> wheel</c>
+
+00:08:00.890 --> 00:08:00.900 align:start position:0%
+bone you can and use your scroll wheel
+ 
+
+00:08:00.900 --> 00:08:03.050 align:start position:0%
+bone you can and use your scroll wheel
+to<00:08:01.199><c> change</c><00:08:01.380><c> the</c><00:08:01.680><c> chain</c><00:08:01.860><c> length</c><00:08:02.340><c> this</c><00:08:02.759><c> is</c><00:08:02.880><c> nice</c>
+
+00:08:03.050 --> 00:08:03.060 align:start position:0%
+to change the chain length this is nice
+ 
+
+00:08:03.060 --> 00:08:05.089 align:start position:0%
+to change the chain length this is nice
+for<00:08:03.300><c> quick</c><00:08:03.479><c> and</c><00:08:03.660><c> dirty</c><00:08:03.960><c> animations</c><00:08:04.380><c> but</c><00:08:04.860><c> for</c>
+
+00:08:05.089 --> 00:08:05.099 align:start position:0%
+for quick and dirty animations but for
+ 
+
+00:08:05.099 --> 00:08:06.890 align:start position:0%
+for quick and dirty animations but for
+maximum<00:08:05.580><c> control</c><00:08:05.759><c> you'll</c><00:08:06.300><c> need</c><00:08:06.419><c> to</c><00:08:06.599><c> set</c><00:08:06.780><c> up</c>
+
+00:08:06.890 --> 00:08:06.900 align:start position:0%
+maximum control you'll need to set up
+ 
+
+00:08:06.900 --> 00:08:08.990 align:start position:0%
+maximum control you'll need to set up
+some<00:08:07.139><c> real</c><00:08:07.380><c> inverse</c><00:08:07.919><c> kinematic</c><00:08:08.520><c> constraints</c>
+
+00:08:08.990 --> 00:08:09.000 align:start position:0%
+some real inverse kinematic constraints
+ 
+
+00:08:09.000 --> 00:08:10.909 align:start position:0%
+some real inverse kinematic constraints
+that's<00:08:09.419><c> what</c><00:08:09.539><c> ik</c><00:08:09.900><c> stands</c><00:08:10.319><c> for</c><00:08:10.380><c> select</c><00:08:10.800><c> the</c>
+
+00:08:10.909 --> 00:08:10.919 align:start position:0%
+that's what ik stands for select the
+ 
+
+00:08:10.919 --> 00:08:12.770 align:start position:0%
+that's what ik stands for select the
+Armature<00:08:11.340><c> and</c><00:08:11.520><c> go</c><00:08:11.699><c> into</c><00:08:11.819><c> edit</c><00:08:12.240><c> mode</c><00:08:12.360><c> and</c><00:08:12.660><c> I'll</c>
+
+00:08:12.770 --> 00:08:12.780 align:start position:0%
+Armature and go into edit mode and I'll
+ 
+
+00:08:12.780 --> 00:08:14.749 align:start position:0%
+Armature and go into edit mode and I'll
+set<00:08:12.960><c> this</c><00:08:13.080><c> up</c><00:08:13.259><c> for</c><00:08:13.440><c> the</c><00:08:13.620><c> legs</c><00:08:13.919><c> so</c><00:08:14.400><c> you</c><00:08:14.699><c> can</c>
+
+00:08:14.749 --> 00:08:14.759 align:start position:0%
+set this up for the legs so you can
+ 
+
+00:08:14.759 --> 00:08:17.029 align:start position:0%
+set this up for the legs so you can
+either<00:08:15.000><c> create</c><00:08:15.419><c> a</c><00:08:15.780><c> new</c><00:08:15.900><c> bone</c><00:08:16.139><c> by</c><00:08:16.500><c> extruding</c>
+
+00:08:17.029 --> 00:08:17.039 align:start position:0%
+either create a new bone by extruding
+ 
+
+00:08:17.039 --> 00:08:19.070 align:start position:0%
+either create a new bone by extruding
+from<00:08:17.220><c> the</c><00:08:17.400><c> ankle</c><00:08:17.759><c> or</c><00:08:18.300><c> you</c><00:08:18.419><c> can</c><00:08:18.539><c> just</c><00:08:18.720><c> use</c><00:08:18.840><c> the</c>
+
+00:08:19.070 --> 00:08:19.080 align:start position:0%
+from the ankle or you can just use the
+ 
+
+00:08:19.080 --> 00:08:21.110 align:start position:0%
+from the ankle or you can just use the
+foot<00:08:19.199><c> bone</c><00:08:19.500><c> if</c><00:08:19.860><c> you</c><00:08:19.979><c> make</c><00:08:20.099><c> a</c><00:08:20.340><c> new</c><00:08:20.400><c> bone</c><00:08:20.759><c> make</c>
+
+00:08:21.110 --> 00:08:21.120 align:start position:0%
+foot bone if you make a new bone make
+ 
+
+00:08:21.120 --> 00:08:23.330 align:start position:0%
+foot bone if you make a new bone make
+sure<00:08:21.240><c> deform</c><00:08:21.720><c> is</c><00:08:21.960><c> turned</c><00:08:22.319><c> off</c><00:08:22.500><c> so</c><00:08:22.919><c> when</c><00:08:23.099><c> you</c><00:08:23.220><c> do</c>
+
+00:08:23.330 --> 00:08:23.340 align:start position:0%
+sure deform is turned off so when you do
+ 
+
+00:08:23.340 --> 00:08:24.469 align:start position:0%
+sure deform is turned off so when you do
+the<00:08:23.520><c> weights</c><00:08:23.819><c> it</c><00:08:24.060><c> doesn't</c><00:08:24.180><c> actually</c>
+
+00:08:24.469 --> 00:08:24.479 align:start position:0%
+the weights it doesn't actually
+ 
+
+00:08:24.479 --> 00:08:26.629 align:start position:0%
+the weights it doesn't actually
+influence<00:08:25.020><c> the</c><00:08:25.259><c> mesh</c><00:08:25.620><c> select</c><00:08:26.099><c> that</c><00:08:26.340><c> bone</c>
+
+00:08:26.629 --> 00:08:26.639 align:start position:0%
+influence the mesh select that bone
+ 
+
+00:08:26.639 --> 00:08:29.510 align:start position:0%
+influence the mesh select that bone
+press<00:08:27.000><c> alt</c><00:08:27.479><c> p</c><00:08:27.660><c> and</c><00:08:28.139><c> clear</c><00:08:28.379><c> parent</c><00:08:28.800><c> then</c><00:08:29.340><c> go</c>
+
+00:08:29.510 --> 00:08:29.520 align:start position:0%
+press alt p and clear parent then go
+ 
+
+00:08:29.520 --> 00:08:32.089 align:start position:0%
+press alt p and clear parent then go
+into<00:08:29.639><c> pose</c><00:08:29.879><c> mode</c><00:08:30.180><c> select</c><00:08:30.720><c> the</c><00:08:30.840><c> ik</c><00:08:31.139><c> bone</c><00:08:31.500><c> shift</c>
+
+00:08:32.089 --> 00:08:32.099 align:start position:0%
+into pose mode select the ik bone shift
+ 
+
+00:08:32.099 --> 00:08:35.149 align:start position:0%
+into pose mode select the ik bone shift
+select<00:08:32.459><c> the</c><00:08:32.580><c> leg</c><00:08:32.760><c> bone</c><00:08:33.120><c> press</c><00:08:33.659><c> shift</c><00:08:34.140><c> I</c><00:08:34.440><c> and</c>
+
+00:08:35.149 --> 00:08:35.159 align:start position:0%
+select the leg bone press shift I and
+ 
+
+00:08:35.159 --> 00:08:37.850 align:start position:0%
+select the leg bone press shift I and
+add<00:08:35.520><c> ik</c><00:08:35.940><c> to</c><00:08:36.300><c> active</c><00:08:36.659><c> bone</c><00:08:36.959><c> you</c><00:08:37.380><c> should</c><00:08:37.500><c> get</c><00:08:37.740><c> a</c>
+
+00:08:37.850 --> 00:08:37.860 align:start position:0%
+add ik to active bone you should get a
+ 
+
+00:08:37.860 --> 00:08:39.170 align:start position:0%
+add ik to active bone you should get a
+different<00:08:37.979><c> result</c><00:08:38.219><c> now</c><00:08:38.520><c> when</c><00:08:38.760><c> you</c><00:08:38.880><c> move</c><00:08:39.000><c> the</c>
+
+00:08:39.170 --> 00:08:39.180 align:start position:0%
+different result now when you move the
+ 
+
+00:08:39.180 --> 00:08:41.870 align:start position:0%
+different result now when you move the
+ik<00:08:39.539><c> bone</c><00:08:39.839><c> and</c><00:08:40.440><c> the</c><00:08:40.740><c> yellow</c><00:08:40.919><c> bone</c><00:08:41.339><c> should</c><00:08:41.700><c> have</c>
+
+00:08:41.870 --> 00:08:41.880 align:start position:0%
+ik bone and the yellow bone should have
+ 
+
+00:08:41.880 --> 00:08:44.149 align:start position:0%
+ik bone and the yellow bone should have
+a<00:08:42.120><c> bone</c><00:08:42.360><c> constraint</c><00:08:42.839><c> on</c><00:08:43.200><c> it</c><00:08:43.320><c> not</c><00:08:43.740><c> a</c><00:08:43.919><c> regular</c>
+
+00:08:44.149 --> 00:08:44.159 align:start position:0%
+a bone constraint on it not a regular
+ 
+
+00:08:44.159 --> 00:08:46.190 align:start position:0%
+a bone constraint on it not a regular
+constraint<00:08:44.580><c> the</c><00:08:45.060><c> one</c><00:08:45.240><c> with</c><00:08:45.360><c> the</c><00:08:45.600><c> bone</c><00:08:45.779><c> on</c><00:08:46.080><c> it</c>
+
+00:08:46.190 --> 00:08:46.200 align:start position:0%
+constraint the one with the bone on it
+ 
+
+00:08:46.200 --> 00:08:47.870 align:start position:0%
+constraint the one with the bone on it
+you<00:08:46.500><c> can</c><00:08:46.560><c> also</c><00:08:46.800><c> add</c><00:08:46.920><c> it</c><00:08:47.100><c> from</c><00:08:47.220><c> here</c><00:08:47.399><c> if</c><00:08:47.700><c> you</c>
+
+00:08:47.870 --> 00:08:47.880 align:start position:0%
+you can also add it from here if you
+ 
+
+00:08:47.880 --> 00:08:50.269 align:start position:0%
+you can also add it from here if you
+don't<00:08:48.060><c> use</c><00:08:48.300><c> the</c><00:08:48.540><c> shortcut</c><00:08:48.839><c> shift</c><00:08:49.320><c> I</c><00:08:49.560><c> these</c>
+
+00:08:50.269 --> 00:08:50.279 align:start position:0%
+don't use the shortcut shift I these
+ 
+
+00:08:50.279 --> 00:08:52.190 align:start position:0%
+don't use the shortcut shift I these
+options<00:08:50.519><c> let</c><00:08:50.880><c> you</c><00:08:51.000><c> change</c><00:08:51.240><c> the</c><00:08:51.480><c> chain</c><00:08:51.720><c> length</c>
+
+00:08:52.190 --> 00:08:52.200 align:start position:0%
+options let you change the chain length
+ 
+
+00:08:52.200 --> 00:08:54.410 align:start position:0%
+options let you change the chain length
+for<00:08:52.620><c> legs</c><00:08:53.040><c> two</c><00:08:53.279><c> or</c><00:08:53.459><c> three</c><00:08:53.640><c> is</c><00:08:53.820><c> usually</c><00:08:54.120><c> what</c>
+
+00:08:54.410 --> 00:08:54.420 align:start position:0%
+for legs two or three is usually what
+ 
+
+00:08:54.420 --> 00:08:56.930 align:start position:0%
+for legs two or three is usually what
+you<00:08:54.600><c> want</c><00:08:54.720><c> if</c><00:08:55.320><c> your</c><00:08:55.500><c> legs</c><00:08:55.740><c> don't</c><00:08:55.920><c> bend</c><00:08:56.459><c> try</c>
+
+00:08:56.930 --> 00:08:56.940 align:start position:0%
+you want if your legs don't bend try
+ 
+
+00:08:56.940 --> 00:08:58.850 align:start position:0%
+you want if your legs don't bend try
+going<00:08:57.180><c> into</c><00:08:57.540><c> edit</c><00:08:57.899><c> mode</c><00:08:58.080><c> and</c><00:08:58.380><c> moving</c><00:08:58.680><c> the</c>
+
+00:08:58.850 --> 00:08:58.860 align:start position:0%
+going into edit mode and moving the
+ 
+
+00:08:58.860 --> 00:09:00.290 align:start position:0%
+going into edit mode and moving the
+joints<00:08:59.220><c> a</c><00:08:59.339><c> little</c><00:08:59.459><c> bit</c><00:08:59.640><c> in</c><00:09:00.060><c> the</c><00:09:00.180><c> direction</c>
+
+00:09:00.290 --> 00:09:00.300 align:start position:0%
+joints a little bit in the direction
+ 
+
+00:09:00.300 --> 00:09:02.030 align:start position:0%
+joints a little bit in the direction
+that<00:09:00.660><c> you</c><00:09:00.839><c> want</c><00:09:00.959><c> them</c><00:09:01.140><c> to</c><00:09:01.320><c> bend</c><00:09:01.500><c> and</c><00:09:01.860><c> if</c><00:09:01.980><c> you</c>
+
+00:09:02.030 --> 00:09:02.040 align:start position:0%
+that you want them to bend and if you
+ 
+
+00:09:02.040 --> 00:09:03.590 align:start position:0%
+that you want them to bend and if you
+want<00:09:02.220><c> more</c><00:09:02.459><c> control</c><00:09:02.640><c> over</c><00:09:03.000><c> where</c><00:09:03.300><c> the</c><00:09:03.420><c> bone</c>
+
+00:09:03.590 --> 00:09:03.600 align:start position:0%
+want more control over where the bone
+ 
+
+00:09:03.600 --> 00:09:05.630 align:start position:0%
+want more control over where the bone
+chain<00:09:03.899><c> is</c><00:09:04.200><c> pointing</c><00:09:04.560><c> then</c><00:09:04.980><c> you</c><00:09:05.160><c> need</c><00:09:05.279><c> a</c><00:09:05.519><c> Target</c>
+
+00:09:05.630 --> 00:09:05.640 align:start position:0%
+chain is pointing then you need a Target
+ 
+
+00:09:05.640 --> 00:09:07.850 align:start position:0%
+chain is pointing then you need a Target
+bone<00:09:06.120><c> which</c><00:09:06.360><c> is</c><00:09:06.480><c> what</c><00:09:06.720><c> the</c><00:09:06.899><c> spot</c><00:09:07.140><c> is</c><00:09:07.320><c> for</c><00:09:07.500><c> do</c>
+
+00:09:07.850 --> 00:09:07.860 align:start position:0%
+bone which is what the spot is for do
+ 
+
+00:09:07.860 --> 00:09:09.710 align:start position:0%
+bone which is what the spot is for do
+this<00:09:08.040><c> the</c><00:09:08.220><c> same</c><00:09:08.339><c> way</c><00:09:08.459><c> we</c><00:09:08.700><c> added</c><00:09:08.940><c> the</c><00:09:09.060><c> ik</c><00:09:09.360><c> bone</c>
+
+00:09:09.710 --> 00:09:09.720 align:start position:0%
+this the same way we added the ik bone
+ 
+
+00:09:09.720 --> 00:09:11.930 align:start position:0%
+this the same way we added the ik bone
+go<00:09:10.080><c> into</c><00:09:10.200><c> edit</c><00:09:10.560><c> mode</c><00:09:10.740><c> and</c><00:09:11.100><c> extrude</c><00:09:11.459><c> from</c><00:09:11.760><c> the</c>
+
+00:09:11.930 --> 00:09:11.940 align:start position:0%
+go into edit mode and extrude from the
+ 
+
+00:09:11.940 --> 00:09:14.750 align:start position:0%
+go into edit mode and extrude from the
+knee<00:09:12.180><c> and</c><00:09:12.660><c> ALT</c><00:09:13.019><c> P</c><00:09:13.200><c> to</c><00:09:13.560><c> clear</c><00:09:13.680><c> the</c><00:09:13.980><c> parent</c><00:09:14.160><c> I'll</c>
+
+00:09:14.750 --> 00:09:14.760 align:start position:0%
+knee and ALT P to clear the parent I'll
+ 
+
+00:09:14.760 --> 00:09:16.190 align:start position:0%
+knee and ALT P to clear the parent I'll
+usually<00:09:15.060><c> name</c><00:09:15.240><c> this</c><00:09:15.480><c> something</c><00:09:15.720><c> with</c><00:09:15.959><c> Target</c>
+
+00:09:16.190 --> 00:09:16.200 align:start position:0%
+usually name this something with Target
+ 
+
+00:09:16.200 --> 00:09:17.990 align:start position:0%
+usually name this something with Target
+in<00:09:16.500><c> the</c><00:09:16.680><c> name</c><00:09:16.800><c> go</c><00:09:17.160><c> back</c><00:09:17.339><c> to</c><00:09:17.459><c> the</c><00:09:17.640><c> constraint</c>
+
+00:09:17.990 --> 00:09:18.000 align:start position:0%
+in the name go back to the constraint
+ 
+
+00:09:18.000 --> 00:09:20.329 align:start position:0%
+in the name go back to the constraint
+select<00:09:18.660><c> the</c><00:09:18.839><c> Armature</c><00:09:19.380><c> then</c><00:09:19.800><c> select</c><00:09:20.160><c> the</c>
+
+00:09:20.329 --> 00:09:20.339 align:start position:0%
+select the Armature then select the
+ 
+
+00:09:20.339 --> 00:09:22.370 align:start position:0%
+select the Armature then select the
+target<00:09:20.580><c> bone</c><00:09:21.000><c> if</c><00:09:21.480><c> your</c><00:09:21.600><c> leg</c><00:09:21.720><c> isn't</c><00:09:22.019><c> pointing</c>
+
+00:09:22.370 --> 00:09:22.380 align:start position:0%
+target bone if your leg isn't pointing
+ 
+
+00:09:22.380 --> 00:09:24.230 align:start position:0%
+target bone if your leg isn't pointing
+the<00:09:22.500><c> right</c><00:09:22.620><c> way</c><00:09:22.800><c> then</c><00:09:23.160><c> change</c><00:09:23.339><c> the</c><00:09:23.580><c> pole</c><00:09:23.940><c> angle</c>
+
+00:09:24.230 --> 00:09:24.240 align:start position:0%
+the right way then change the pole angle
+ 
+
+00:09:24.240 --> 00:09:25.970 align:start position:0%
+the right way then change the pole angle
+if<00:09:24.660><c> you</c><00:09:24.720><c> set</c><00:09:24.899><c> all</c><00:09:25.080><c> of</c><00:09:25.200><c> this</c><00:09:25.320><c> up</c><00:09:25.500><c> on</c><00:09:25.680><c> half</c><00:09:25.800><c> of</c>
+
+00:09:25.970 --> 00:09:25.980 align:start position:0%
+if you set all of this up on half of
+ 
+
+00:09:25.980 --> 00:09:28.009 align:start position:0%
+if you set all of this up on half of
+your<00:09:26.160><c> model</c><00:09:26.279><c> and</c><00:09:26.640><c> name</c><00:09:26.820><c> it</c><00:09:27.000><c> properly</c><00:09:27.300><c> with</c><00:09:27.600><c> DOT</c>
+
+00:09:28.009 --> 00:09:28.019 align:start position:0%
+your model and name it properly with DOT
+ 
+
+00:09:28.019 --> 00:09:30.350 align:start position:0%
+your model and name it properly with DOT
+l<00:09:28.140><c> or</c><00:09:28.440><c> dot</c><00:09:28.860><c> r</c><00:09:29.040><c> at</c><00:09:29.399><c> the</c><00:09:29.519><c> end</c><00:09:29.580><c> then</c><00:09:30.000><c> when</c><00:09:30.240><c> you</c>
+
+00:09:30.350 --> 00:09:30.360 align:start position:0%
+l or dot r at the end then when you
+ 
+
+00:09:30.360 --> 00:09:32.570 align:start position:0%
+l or dot r at the end then when you
+symmetrize<00:09:30.899><c> the</c><00:09:31.260><c> ik</c><00:09:31.560><c> constraints</c><00:09:32.100><c> we'll</c><00:09:32.339><c> copy</c>
+
+00:09:32.570 --> 00:09:32.580 align:start position:0%
+symmetrize the ik constraints we'll copy
+ 
+
+00:09:32.580 --> 00:09:34.850 align:start position:0%
+symmetrize the ik constraints we'll copy
+over<00:09:32.760><c> as</c><00:09:33.060><c> well</c><00:09:33.240><c> so</c><00:09:33.839><c> save</c><00:09:34.140><c> yourself</c><00:09:34.260><c> some</c><00:09:34.680><c> work</c>
+
+00:09:34.850 --> 00:09:34.860 align:start position:0%
+over as well so save yourself some work
+ 
+
+00:09:34.860 --> 00:09:36.470 align:start position:0%
+over as well so save yourself some work
+and<00:09:35.100><c> do</c><00:09:35.279><c> it</c><00:09:35.339><c> from</c><00:09:35.459><c> the</c><00:09:35.640><c> beginning</c><00:09:35.760><c> if</c><00:09:36.180><c> you</c><00:09:36.360><c> plan</c>
+
+00:09:36.470 --> 00:09:36.480 align:start position:0%
+and do it from the beginning if you plan
+ 
+
+00:09:36.480 --> 00:09:38.329 align:start position:0%
+and do it from the beginning if you plan
+to<00:09:36.660><c> do</c><00:09:36.779><c> it</c><00:09:36.899><c> at</c><00:09:37.019><c> all</c><00:09:37.200><c> this</c><00:09:37.680><c> video</c><00:09:37.860><c> is</c><00:09:38.160><c> supposed</c>
+
+00:09:38.329 --> 00:09:38.339 align:start position:0%
+to do it at all this video is supposed
+ 
+
+00:09:38.339 --> 00:09:40.310 align:start position:0%
+to do it at all this video is supposed
+to<00:09:38.519><c> be</c><00:09:38.700><c> short</c><00:09:38.880><c> so</c><00:09:39.180><c> I</c><00:09:39.360><c> left</c><00:09:39.540><c> a</c><00:09:39.720><c> bunch</c><00:09:39.839><c> of</c><00:09:39.959><c> topics</c>
+
+00:09:40.310 --> 00:09:40.320 align:start position:0%
+to be short so I left a bunch of topics
+ 
+
+00:09:40.320 --> 00:09:43.730 align:start position:0%
+to be short so I left a bunch of topics
+out<00:09:40.620><c> like</c><00:09:40.980><c> bone</c><00:09:41.399><c> roll</c><00:09:41.700><c> drivers</c><00:09:42.660><c> shape</c><00:09:43.320><c> keys</c>
+
+00:09:43.730 --> 00:09:43.740 align:start position:0%
+out like bone roll drivers shape keys
+ 
+
+00:09:43.740 --> 00:09:46.009 align:start position:0%
+out like bone roll drivers shape keys
+and<00:09:44.220><c> other</c><00:09:44.399><c> bone</c><00:09:44.760><c> constraints</c><00:09:45.300><c> if</c><00:09:45.839><c> you</c><00:09:45.899><c> want</c>
+
+00:09:46.009 --> 00:09:46.019 align:start position:0%
+and other bone constraints if you want
+ 
+
+00:09:46.019 --> 00:09:47.870 align:start position:0%
+and other bone constraints if you want
+to<00:09:46.140><c> learn</c><00:09:46.260><c> more</c><00:09:46.500><c> about</c><00:09:46.740><c> rigging</c><00:09:47.339><c> then</c><00:09:47.640><c> it</c>
+
+00:09:47.870 --> 00:09:47.880 align:start position:0%
+to learn more about rigging then it
+ 
+
+00:09:47.880 --> 00:09:49.250 align:start position:0%
+to learn more about rigging then it
+might<00:09:48.000><c> be</c><00:09:48.120><c> time</c><00:09:48.300><c> for</c><00:09:48.540><c> something</c><00:09:48.779><c> a</c><00:09:49.140><c> little</c>
+
+00:09:49.250 --> 00:09:49.260 align:start position:0%
+might be time for something a little
+ 
+
+00:09:49.260 --> 00:09:51.530 align:start position:0%
+might be time for something a little
+longer<00:09:49.740><c> and</c><00:09:49.980><c> more</c><00:09:50.220><c> in</c><00:09:50.519><c> depth</c><00:09:50.820><c> and</c><00:09:51.240><c> for</c><00:09:51.420><c> that</c>
+
+00:09:51.530 --> 00:09:51.540 align:start position:0%
+longer and more in depth and for that
+ 
+
+00:09:51.540 --> 00:09:53.630 align:start position:0%
+longer and more in depth and for that
+you<00:09:51.839><c> can</c><00:09:51.899><c> check</c><00:09:52.080><c> out</c><00:09:52.200><c> my</c><00:09:52.380><c> rigging</c><00:09:52.740><c> playlist</c><00:09:52.980><c> if</c>
+
+00:09:53.630 --> 00:09:53.640 align:start position:0%
+you can check out my rigging playlist if
+ 
+
+00:09:53.640 --> 00:09:55.009 align:start position:0%
+you can check out my rigging playlist if
+you<00:09:53.700><c> want</c><00:09:53.820><c> the</c><00:09:54.000><c> file</c><00:09:54.180><c> from</c><00:09:54.360><c> this</c><00:09:54.540><c> video</c><00:09:54.720><c> you</c>
+
+00:09:55.009 --> 00:09:55.019 align:start position:0%
+you want the file from this video you
+ 
+
+00:09:55.019 --> 00:09:57.170 align:start position:0%
+you want the file from this video you
+can<00:09:55.080><c> get</c><00:09:55.260><c> that</c><00:09:55.380><c> on</c><00:09:55.620><c> patreon</c><00:09:56.100><c> oh</c><00:09:56.519><c> yeah</c><00:09:56.640><c> one</c><00:09:57.000><c> last</c>
+
+00:09:57.170 --> 00:09:57.180 align:start position:0%
+can get that on patreon oh yeah one last
+ 
+
+00:09:57.180 --> 00:09:59.030 align:start position:0%
+can get that on patreon oh yeah one last
+thing<00:09:57.420><c> make</c><00:09:57.959><c> sure</c><00:09:58.019><c> to</c><00:09:58.200><c> move</c><00:09:58.320><c> your</c><00:09:58.560><c> model</c><00:09:58.680><c> by</c>
+
+00:09:59.030 --> 00:09:59.040 align:start position:0%
+thing make sure to move your model by
+ 
+
+00:09:59.040 --> 00:10:02.940 align:start position:0%
+thing make sure to move your model by
+selecting<00:09:59.279><c> the</c><00:09:59.339><c> arm</c><00:09:59.640><c> picture</c><00:09:59.940><c> otherwise</c>
+

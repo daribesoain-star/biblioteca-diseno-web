@@ -1,0 +1,1 @@
+SIN-DELTA: los destilados no aportan reglas nuevas verificables frente a las existentes.

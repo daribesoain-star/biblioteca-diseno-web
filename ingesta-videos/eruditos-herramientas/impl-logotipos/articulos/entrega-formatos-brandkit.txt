@@ -1,0 +1,21 @@
+FUENTE: https://looka.com/blog/logo-file-formats/
+FUENTE: https://patrickiverson.com/visual-identity/logo-files-which-ones-you-need/
+FUENTE: https://www.freelogoservices.com/blog/logo-file-types-png-svg-eps-guide/
+TEMA: Entrega de archivos de logo (formatos) y brand kit
+
+VECTOR VS RASTER: los formatos son raster (imágenes de píxeles que pierden calidad al escalar) o vector (líneas y puntos que mantienen calidad a cualquier tamaño).
+
+FORMATOS VECTOR (maestro / impresión):
+- EPS: formato de vector en Adobe Illustrator; se le llama "working file" o "master file".
+- SVG: vector para web; escalable, calidad crisp, fondo transparente; se usa en el sitio.
+- PDF: puede contener vector y raster en un solo paquete; flexible para compartir con gente sin software de diseño (imprentas).
+
+FORMATOS RASTER (web / digital):
+- PNG: raster con fondo transparente; imprescindible: permite poner el logo sobre fotos, fondos de color y redes sin caja blanca alrededor.
+- (JPG: solo cuando se necesita fondo sólido y peso liviano; NO para logo con transparencia.)
+
+BUENAS PRÁCTICAS DE ENTREGA:
+- Si mandas el logo a otro diseñador para editarlo, envía SVG o EPS salvo que pida otra cosa.
+- Un handoff correcto NO es un archivo: es una CARPETA con los formatos, colores y versiones de layout correctos.
+- El brand kit incluye PNG dimensionados para perfil y portada de Facebook, Instagram, Etsy, LinkedIn, Pinterest, YouTube y Twitter, más wallpaper y watermark, en varios fondos incluyendo versiones negro y blanco.
+- En la práctica el dueño usa 2-3: PNG transparente para documentos digitales, SVG para el sitio, PDF para mandar a la imprenta.

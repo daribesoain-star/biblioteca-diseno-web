@@ -1,0 +1,18 @@
+FUENTE: https://vectosolve.com/blog/how-to-vectorize-logo-step-by-step
+FUENTE: https://pixflow.net/blog/how-to-vectorize-an-image-in-illustrator/
+FUENTE: https://vectorizer.ai/
+TEMA: Vectorizar un logo (PNG raster → SVG limpio)
+
+IMAGE TRACE EN ILLUSTRATOR: seleccionar la imagen colocada, abrir el panel Image Trace (menú Window), elegir el preset "Logo" o "3 Colors" como punto de partida. Ajustar Paths, Corners y Noise: Noise más bajo limpia motas; Paths más alto da más detalle.
+
+LIMPIAR ANCHOR POINTS (nodos): tras Expand, usar la Direct Selection Tool (A) para ajustar nodos individuales, borrar formas sueltas, fusionar paths superpuestos con Pathfinder, suavizar curvas con la Smooth Tool. Usar Object > Path > Simplify. OJO: Image Trace suele crear compound paths con exceso de anchor points, sobre todo en curvas.
+
+BUENAS PRÁCTICAS ANTES DE TRAZAR:
+- Partir de la fuente de mayor resolución / mayor contraste posible.
+- Si el PNG tiene fondo blanco, quitarlo antes de trazar: el fondo transparente da un vector mucho más limpio.
+- Mantener el conteo de colores bajo (la mayoría de logos usan 1-4 colores). Si el tracer produce docenas de variaciones de color por el anti-aliasing, reducir la paleta manualmente.
+
+EXPORT FINAL: guardar .ai para edición nativa, luego exportar SVG; o guardar EPS/PDF.
+
+HERRAMIENTAS: Illustrator Image Trace, Vectorizer.AI, Recraft Vectorize, Figma, servicios de hand-tracing.
+REGLA: nunca "vectorizar" incrustando un raster dentro de un SVG (eso NO es un vector). Test: zoom 400% — una forma simple con demasiados anchor points delata un trazado sucio o una IA que adivinó las coordenadas.

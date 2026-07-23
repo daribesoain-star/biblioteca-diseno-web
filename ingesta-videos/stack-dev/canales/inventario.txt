@@ -1,0 +1,75 @@
+3AIPUA1vPfM|488.0|5237|NA|Code Hub|04 - Runes In Svelte 5: Reactivity With $state, $effect and $derived Runes Explained!
+4GT5-f1Hh_w|203.0|1881|NA|HunterScript|Svelte 5: $effect and $derived (basics)
+7N4maEDhy4w|2233.0|13336|NA|Joy of Code|Learn How To Derive Values In Svelte 5 Without Side Effects
+8DQailPy3q8|6588.0|151864|NA|Syntax and Scott Tolinski|Svelte 5 Basics - Complete Svelte 5 Course for Beginners
+nHSqvTB7RYE|216.0|500|NA|Coding Fullstack|Introduction to Svelte 5 and Runes
+qI31XOrBuY0|1721.0|29251|NA|Joy of Code|Different Ways To Share State In Svelte 5
+x53toEC0iWA|315.0|3913|NA|Kiki's Bytes |Svelte Runes - A Good or Bad Update?
+5bpYWxq7seo|378.0|2337|NA|this.stephie|Intro to SvelteKit Form Actions
+TMLS_2VtyGU|672.0|6432|NA|Consulting Ninja|SvelteKit | upload file using form actions
+52nXUwQWeKI|1744.0|40682|NA|Huntabyte|Form Actions Made Simple
+7-kFjarGxmE|169.0|1178|NA|Gui Bibeau|SvelteKit Tutorial: The Essentials Under 3 Minutes | Sveltekit 101
+u1O7rT2vWjo|942.0|1861|NA|Matias Hernández|SvelteKit for Beginners: Build a Fullstack App Fast!
+ZXWGRzg5IWE|345.0|4402|NA|Codevolution|SvelteKit Tutorial - 49 - Named Form Actions
+fY34H1IfA94|990.0|1676|NA|Consulting Ninja|SvelteKit | Form Action Types and use:Enhance
+aYyZUDFZTrM|259.0|557346|NA|Fireship|JavaScript framework reinvents itself… Did "runes" just ruin Svelte?
+kmJz8w5ij8Y|739.0|48752|NA|Code Collider|15 FastAPI Best Practices For Production
+H9Blu0kWdZE|1688.0|115915|NA|Eric Roby|You're Probably Building FASTAPI Apps WRONG (Clean Architecture)
+tGD3653BrZ8|309.0|104199|NA|Code Collider|How FastAPI Handles Requests Behind the Scenes
+XlnmN4BfCxw|1622.0|129709|NA|ArjanCodes|How I Actually Build FastAPI Backends for Production
+aWa0iNEWIYs|131.0|1087|NA|debugverse|5 FastAPI ProTips For Writing Better API
+d2RzVt4qJlU|4421.0|1223|NA|Code Goat|FastAPI Tutorial #7b: Master Async Session with CRUD Development And Alembic
+KL6CjNxkZDQ|2444.0|26529|NA|Evgeny Maksimov|Async in practice: how to achieve concurrency in FastAPI (and what to avoid doing!)
+XIdQ6gO3Anc|667.0|494362|NA|pixegami|Pydantic Tutorial • Solving Python's Biggest Problem
+M81pfi64eeM|5365.0|75837|NA|Corey Schafer|Python Pydantic Tutorial: Complete Data Validation Course (Used by FastAPI)
+SR5NYCdzKkc|7544.0|267831|NA|Tech With Tim|Learn Fast API With This ONE Project
+PkQIREapb9o|4942.0|23118|NA|Dave Ebbelaar|Pydantic Crash Course - Build Reliable Python & AI Applications
+W_zBvRZSx9c|1688.0|3040|NA|Código Espinoza - Automatiza tu Vida|FastAPI #3: Data Validation with Pydantic - Create Robust and Secure APIs
+TO4aQ3ghFOc|46375.0|270563|NA|Ssali Jonathan|FastAPI Beyond CRUD Full Course - A FastAPI Course
+Ow_Uzedfohk|1059.0|76392|NA|Supabase|Implement Authorization using Row Level Security (RLS) with Supabase (Step By Step Guide)
+PdEutzhsrws|1401.0|40398|NA|Supabase|Advanced Row Level Security (RLS) Policies // Authorization Deep Dive
+WAa3a-HxLVs|455.0|50445|NA|Net Ninja|Supabase Tutorial #10 - Intro to RLS & Policies
+iNadOdD_hxI|1629.0|1367|NA|BuilderJoy|Supabase RLS: How to Protect Your Data with Row Level Security (Complete Guide)
+udtL5ZbtL8E|2411.0|10917|NA|The Digital Pro|#Supabase Row Level Security (RLS) - Full #FlutterFlow walkthrough
+Vx1q8Nfp0BE|181.0|6597|NA|G‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ |Row Level Security with @Supabase — Course part 10 (2025)
+tKMN7AelIZs|1311.0|1621|NA|DailyAi.Studio |Supabase Row Level Security (RLS) 101
+lSm0GNnh-0I|1382.0|40693|NA|Huntabyte|SvelteKit Authentication with Supabase
+sL5UGy9S_6Q|1170.0|865|NA|DanielFard|Persistent authentication in SvelteKit with Supabase and SSR
+JZRzP5QFXV8|463.0|19521|NA|Net Ninja|SvelteKit & Supabase Project Build #1 - Intro & Setup
+8RNYkRsVmtM|1337.0|265|NA|DanielFard|Logging in with Superforms, SvelteKit, and Supabase | Step-by-Step Authentication
+Ufx6fdRMxjU|666.0|11020|NA|Supabase|Getting Started with Supabase Auth
+z3BAuF2XZng|1713.0|3995|NA|Ryan Boddy|How to Use Supabase Auth With Sveltekit!
+lEWghUOta-4|3561.0|28030|NA|Ben Davis|2024 Supabase + Sveltekit Tutorial (0 to prod)
+wrVKnQvDJy0|899.0|41114|NA|Software Developer Diaries|Think Multi-Tenancy Is Easy? Think Again...
+ZKggtU4InrM|2344.0|12852|NA|The Digital Pro|Build a Multi-Tenant #Supabase Project + #FlutterFlow Role based app
+YaSPB2uNLYg|535.0|55744|NA|CodeOpinion|Multi-Tenant: Database Per Tenant or Shared?
+2zcN2aQsUdc|257.0|33143|NA|Ben Davis|This Supabase Feature is Dangerous...
+eplN5oaQ_aA|848.0|21889|NA|G‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ |Row Level Security with @Supabase  — Course part 3
+jydYq7oAtD8|3811.0|113499|NA|freeCodeCamp.org and Beau Carnes|Software Testing Course – Playwright, E2E, and AI Agents
+4-LwodVujTg|53.0|76623|NA|Visual Studio Code|Get started with end-to-end testing: Playwright | Episode 1 - Introduction
+3NW0Mz943_E|1965.0|70992|NA|Cosden Solutions|React Testing with Playwright (Complete Tutorial)
+emUaq9FPIcc|3244.0|48876|NA|Checkly|Modern E2E Testing with Playwright and AI
+ybYK9jM0lco|3045.0|15479|NA|NDC Conferences|Advanced Playwright Techniques for Flawless Testing - Debbie O'Brien -
+-uXBWrmpK80|497.0|2609|NA|Tobi Mey|End to End Testing is now EASY (don't ignore testing)
+BQqzfHQkREo|151.0|467547|NA|Fireship|Cypress in 100 Seconds
+C0QYbIxQns4|213.0|2499|NA|Johnny Magrippis|How to: Deploy SvelteKit apps to Vercel 🚀
+uAF4Yd-gddo|1837.0|17170|NA|Joy of Code|Deploy Your SvelteKit App Using Vercel And Supabase
+9FrC0kTTw64|380.0|1059|NA|Elans X|How to deploy Svelte Kit on DigitalOcean App Platform (Vercel and Coolify alternative)
+vzGtyp8e9FI|173.0|14032|NA|Gui Bibeau|How To Deploy SvelteKit: A Step-by-Step Deployment Guide! | Gui Bibeau
+l21Fj0A7xn0|278.0|2158|NA|Brayden Girard|How to Deploy SvelteKit to Vercel
+QYZ1s_x5nUM|490.0|20684|NA|Vercel|SvelteKit 1.0 is here! (Deploying to Vercel)
+NolSFhEDsI0|449.0|1159|NA|Consulting Ninja|First look at ISR with Vercel / SvelteKit
+T0JXFhJ7pM0|1012.0|3954|NA|BugBytes|Async SQLAlchemy - Async Database Engines, Sessions and FastAPI Dependencies
+xq1Snezb1rs|2091.0|29419|NA|Code with Josh|FastAPI SQLAlchemy Tutorial 2025 — Build a REST API with SQL
+NvOV3ig2tGY|3780.0|41368|NA|Corey Schafer|Python FastAPI Tutorial (Part 5): Adding a Database - SQLAlchemy Models and Relationships
+2JPDt-Jp6fM|1930.0|19363|NA|Corey Schafer|Python FastAPI Tutorial (Part 7): Sync vs Async - Converting Your App to Asynchronous
+cH0immwfykI|920.0|41559|NA|Pretty Printed|How to Use Async SQLAlchemy in FastAPI
+oAkLSJNr5zY|6161.0|155329|NA|Corey Schafer|Python Tutorial: AsyncIO - Complete Guide to Asynchronous Programming with Animations
+nC9ob8xM3AM|5004.0|23293|NA|Ssali Jonathan|Building a REST API with FastAPI, Async SQLAlchemy, and PostgreSQL
+kMBDsyozllk|640.0|34627|NA|Ben Davis|The thing that makes Svelte 5 special
+Bblm-Ag_VbI|171.0|466|NA|jQueryScript|more-shadcn-svelte: Advanced Svelte 5+ UI Components
+jpPklvWrZC8|581.0|4070|NA|Code Hub|08 - Props and Snippets In Svelte 5
+RJTepwXirk8|3056.0|208748|NA|The PrimeTime|Rich Harris Teaches ThePrimeagen SvelteKit
+5DhyIOxX7AI|1202.0|1623|NA|Code Hub|13 - Advance Component Concepts: Component Lifecycle, Props Validation, Component Events & Bindings
+rUYEWE7yZ_Q|1148.0|312|NA|Andrey Bodoev|SVELTE / ENUM pattern for JavaScript / Is TypeScript worth it?
+NDoVTJak8Mk|1663.0|2473|NA|Code Hub|15 - Master Route Data Loading In Svelte 5 - load() Function, Error Handling & Data Invalidation

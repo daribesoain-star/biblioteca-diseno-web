@@ -1,0 +1,40 @@
+FUENTE: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
+TEMA: Favicon set moderno (6 archivos)
+
+Especificación de favicon moderno (verificado 2026).
+
+ARCHIVOS REQUERIDOS (nombres y dimensiones exactas):
+- favicon.ico (32×32 px, con fallback opcional 16×16)
+- icon.svg (cuadrado, formato vectorial)
+- apple-touch-icon.png (180×180 px)
+- icon-192.png (192×192 px)
+- icon-512.png (512×512 px)
+- icon-mask.png (512×512 px, maskable)
+- manifest.webmanifest (config JSON)
+
+HTML HEAD (markup exacto):
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+WEB MANIFEST (estructura):
+{
+  "icons": [
+    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icon-mask.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}
+
+APPLE TOUCH ICON: el PNG 180×180 debe incluir "20px de padding alrededor del icono y algo de color de fondo" (breathing room en la home screen; sin transparencia).
+
+SVG DARK MODE (CSS media query dentro del SVG):
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <style>
+    @media (prefers-color-scheme: dark) { .a { fill: #f0f0f0 } }
+  </style>
+  <path class="a" fill="#0f0f0f" d="…" />
+</svg>
+
+POR QUÉ EL ENFOQUE VIEJO (20+ PNG) ES OBSOLETO: complejidad innecesaria; los navegadores modernos soportan downscaling de SVG, eliminando formatos redundantes. "Los navegadores descargan los favicons en segundo plano, así que un favicon más grande no afecta el rendimiento del sitio." Reemplaza Windows tiles, Safari pinned icons y specs de Opera Coast manteniendo compatibilidad universal.

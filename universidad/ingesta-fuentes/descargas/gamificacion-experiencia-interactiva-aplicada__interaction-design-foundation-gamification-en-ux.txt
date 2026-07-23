@@ -1,0 +1,594 @@
+What is Gamification? — updated 2026 - Page 3 | IxDF
+Why Sign Up?
+Reviews
+About IxDF
+Contact Us
+Last Chance! Make Your User Research Indispensable
+Last Chance! How to Make Your User Research Indispensable Master Class
+Gamification (GF)
+Your constantly-updated definition of Gamification (GF) and collection of videos and articles.
+Be a conversation starter
+: Share this page and inspire others!
+2,565 Shares
+Share this Page
+Cite this Page
+Save
+Cite This page
+What is Gamification (GF)?
+Gamification refers to the application of game-design elements and game principles in non-game contexts. This technique enhances user engagement with a product or service. When features like
+leaderboards
+and badges are inserted into an existing system, designers tap users’ intrinsic motivations so they enjoy the experience more.
+In this video, Games UX Expert Celia Hodent explains how to gamify learning.
+Transcript
+Transcript loading ...
+“Games give us unnecessary obstacles that we volunteer to tackle.”
+— Jane McGonigal, American designer and author
+Gamification in User Experience (UX) Design
+Gamification is a powerful tool to drive user engagement. The goal is not to transform user interfaces into games. Instead, designers should
+inject fun elements into applications and systems that might otherwise lack immediacy or relevance for users
+. When this is done right, users are incentivized to achieve goals and overcome negative associations they may have with a system and the tasks it requires them to complete.
+The dynamics in successful gamification serve as effective intrinsic
+motivation
+. This means that
+users engage with the system because they want to
+. For instance, Foursquare/Swarm promotes users to “Mayors” of establishments after so many visits, which enables them to compete for top place while enjoying meals, shopping, movies, etc.
+The Challenge for UX Designers
+Gamification is notoriously difficult. Designers should strike a cautious balance between the fun factor and the tone of the subject matter. Moreover,
+gameplay and the rewards should be tailored precisely
+to the users
+. The degree of gamification is dictated by the environment and
+context of use
+. An app that is centered around competitions between friends is likely not suited to a corporate environment. Certain
+user needs
+should be fulfilled to get players to engage with an app without forcing themselves to. These needs include:
+Autonomy
+: Users’ actions must be voluntary; players shouldn’t be pushed to adopt desired behaviors but instead be guided with subtle elements/prompts that they can find on their own and therefore feel in control of their experience.
+Relatedness
+: Users need to feel that a brand cares about what matters to them. Customizing a design’s content and tone to a user is especially useful for fostering their loyalty. Question-and-answer service Quora, which awards credits while linking like-minded people, is an example of how to fulfill relatedness.
+Competence
+: Related to autonomy, this is about keeping users comfortable as they discover a design by never feeling overwhelmed or confused. For example, as users typically don’t like reading lots of text, you can use
+icons
+(e.g., a heart for “Save to Favorites”) or
+progressive disclosure
+.
+Interaction Design Foundation uses gamification to increase course-takers’ intrinsic motivation and to encourage them to put their best effort into their courses.
+© Interaction Design Foundation, Fair Use
+Here at the
+Interaction Design
+Foundation, we also use gamification to increase our course-takers’ intrinsic motivation for putting their best effort into their courses.
+Major Gamification Pitfalls
+:
+If gamification isn’t executed correctly or is overdone, it can detract from the
+user experience
+. Here are some of the major pitfalls to avoid:
+Manipulation:
+Gamification is about motivating users by enabling them to have fun, not tricking them into doing things.
+Building a Game
+: It defeats the purpose if game features are overdone—users will be too focused on the gamified elements and not on the tasks they’re meant to complete.
+Magic Paint:
+The overall design or experience should be good—gamification can’t make something successful if it’s subpar to begin with.
+How to Successfully Gamify an Experience
+When gamification is done well, it’s a powerful tool to increase engagement and motivation. It can make everyday tasks more enjoyable and rewarding.
+Successful gamification requires a thoughtful balance of understanding user needs, a careful selection and tailoring of gamification mechanics, continuous evaluation and seamless integration. Here’s how this can be achieved:
+1. Understand User Needs and Preferences
+To successfully gamify an experience, it's crucial to start with a deep understanding of the users' needs, preferences, and motivations. This involves thorough
+UX research
+to identify who the users are, what motivates them, and how they interact with your system. Designers should create
+personas
+based on this research—this will help them tailor the gamification elements to suit different user types. For instance, while some users might thrive in a competitive environment with leaderboards and points, others may prefer a journey of discovery with personal achievement markers.
+Duolingo uses a personalized learning approach—the lessons they provide adapt to the user's learning pace.
+LinkedIn's profile completion progress bar encourages users to fully complete their profiles.
+© LinkedIn, Fair Use
+2. Align Gamification Mechanics with User Goals
+The chosen gamification mechanics should enhance the user experience by being directly aligned with the users' goals and the overall purpose of the gamified system. This means the
+game mechanics
+, whether they be points, badges, leaderboards, or challenges, should fit naturally within the context of the experience and motivate the desired behaviors. The key is to enhance the experience from the users' perspective, making every interaction more engaging and rewarding.
+Zombies, Run! combines
+storytelling
+with fitness—users listen to a story about surviving a zombie apocalypse while jogging or walking.
+See how Zombies, Run! works in this video:
+3. Tailor the System for All Stakeholders
+After the appropriate gamification mechanics have been selected, it's essential to tailor the system to meet the needs of the
+stakeholders
+involved. This might involve balancing competitive elements with more collaborative or exploratory features, depending on the user base's diversity. The goal is to create a gamified experience that is inclusive and engaging for everyone.
+Duolingo incorporates points (XP), levels, and streaks to motivate daily practice. The gamification mechanics are closely aligned with the goal of language learning to encourage users to progress through lessons and practice regularly.
+© Duolingo, Fair Use
+4. Evaluate and Iterate
+A critical step in successful gamification is continuous evaluation—is the design effective in engaging users? This involves
+usability
+testing and gathering user feedback to monitor how well the gamification elements are working. Based on this feedback, adjustments and iterations may be necessary to refine the experience and ensure it remains engaging and rewarding over time.
+5. Integrate Gamification Seamlessly
+Gamification should be woven carefully into the existing system to enhance the user experience without overwhelming it. This means integrating game elements in a way that feels natural and adds value to the user journey, rather than feeling like an added layer that detracts from the core purpose of the design.
+The
+immersive
+experience of Zombies, Run! motivates users to exercise regularly with a seamless combination of fitness and entertainment—this shows how gamification can turn routine tasks into exciting adventures.
+6. Inspire Through Interactivity and Social Elements
+To further engage users, designers should consider incorporating interactivity and social elements into the gamified experience. This could include features that satisfy users' curiosity, encourage social sharing, or foster a sense of community. These elements can significantly enhance engagement by leveraging the natural human desire for interaction and social connection.
+Forest, the productivity app, helps users focus by letting them plant a virtual tree, which grows while they work without using their phone. If they leave the app, the tree dies. What’s more meaningful, however, is the app allows users to plant real trees. Based on their progress, users can plant real trees and become more socially responsible.
+© Forest, Fair Use
+How to Incorporate Player-Centered Design
+Player-centered design
+is a holistic approach to creating games and gamified experiences that focus on the player's needs, preferences, and motivations. It's an extension of user-centered
+design principles
+, tailored specifically for engaging and immersive gameplay experiences. This methodology emphasizes understanding the player through research and feedback in order to personalize the experience and evoke emotional engagement.
+© Interaction Design Foundation, CC BY-SA 4.0
+In the context of gamification, player-centered design ensures that the integration of game elements into non-game contexts genuinely enhances the user experience. By focusing on the player, designers can create more effective and engaging systems that motivate and delight users, leading to higher engagement and loyalty.
+Why Gamification is Important: The Psychological Appeal of Games
+Games have been a fundamental part of human culture throughout history—they offer more than just entertainment. The reasons people play games are deeply rooted in the human psyche and reflect our innate desires for challenge, achievement, and social connection. It’s important to understand why games are important as it provides crucial context for the popularity of gamification and its effectiveness as a tool in various domains.
+In this video Games UX Consultant, Om Tandon, talks about why we play games:
+Transcript
+Transcript loading ...
+1. Intrinsic Motivation and Reward
+Games are inherently designed to tap into our intrinsic motivations. The pleasure derived from overcoming challenges, achieving goals, and improving skills is a powerful motivator. Games often provide immediate rewards for these
+achievements
+, such as points, levels, or story progression, which satisfy our need for feedback and recognition. This aspect of gaming is leveraged in gamification, applying the same motivational techniques to non-game tasks.
+2. Learning and Skill Development
+Games are important educational tools, they offer a safe space to experiment, fail, and learn from mistakes. They can simulate real-life
+scenarios
+or abstract concepts, to allow players to develop practical skills, strategic thinking, and problem-solving abilities. This educational aspect is a key reason why game mechanics in learning and development platforms enhance engagement and retention of information.
+3. Social Interaction and Community
+Many games are designed with a strong social component and encourage cooperation, competition and interaction among players. This fulfills a basic
+human need
+for social connection and belonging. Games foster a sense of identity and camaraderie by creating communities around shared interests. Gamification harnesses this aspect by incorporating social elements into non-gaming environments to enhance user engagement and loyalty.
+4. Escapism and Stress Relief
+Games offer a form of escapism, allowing players to immerse themselves in different worlds or experiences. This can be a valuable tool for stress relief, providing a break from the pressures of real life. The engaging and often immersive nature of games helps in diverting the mind, offering a sense of relaxation and renewal. Gamification can introduce elements of this escapism into everyday tasks, making them more enjoyable and less stressful.
+5. Sense of Accomplishment
+Games are structured to give players a clear sense of progress and accomplishment. Through levels, achievements, and story advancement, players can see tangible results of their efforts. This sense of accomplishment is highly rewarding and motivates continued engagement. In gamification, similar structures provide users with visible milestones and rewards, increasing motivation and satisfaction.
+6. Exploration and Curiosity
+Games often feature rich worlds and complex narratives that encourage exploration and feed our curiosity. This exploration can lead to discovering new information, mastering game mechanics, or unlocking hidden content. Games engage players on a deep level by stimulating curiosity and the desire to explore. Gamification utilizes these principles with engaging experiences that encourage users to explore and discover.
+Learn More in This Course:
+Gamification - How to Create Engaging User Experiences
+Closes in:
+4 days
+103
+Lessons
+View Course
+Learn Design From the Best
+Get one powerful email each week, like 316,780 others.
+Next email in:
+7
+days
+11
+hrs
+44
+mins
+21
+secs
+Name
+Your email
+Go
+Please enter a valid email address.
+Questions About Gamification (GF)?
+We've Got
+Answers
+!
+What is the concept of gamification?
+The concept of gamification brings elements from games into everyday life. These tools motivate you to reach your goals or do better in what you are doing. A good gamification experience connects with feelings of love, hate, fear, etc. Some common game mechanics examples in gamification are:
+Goals: Complete a task and get a reward, like a badge or points.
+Status: Users move up levels or ranks by doing activities. Leaderboards show who is doing the best. This encourages users to work harder.
+Rewards: Getting points or badges is common. Other rewards could be discounts or gift cards.
+The book "
+Gamification at Work: Designing Engaging Business Software
+" delves into gamification in the business realm. It addresses questions about its relevance, best practices, and potential pitfalls.
+What is gamification in AI?
+Gamification in AI refers to adding game-like elements, like points, levels, and streaks, into
+Artificial Intelligence
+systems. This approach uses game design components to make AI interactions more interactive. It improves the experience of what people want and the appeal of AI computer programs.
+Gamification could be put into use in customer support AI. You can reward regular users with points or badges for providing feedback. Combining gamification and AI can improve user experiences, encourage desired behaviors, and increase user engagement.
+What is gamification in education?
+Gamification in education involves including gaming themes throughout the classroom to improve student engagement. Students are called players; assignments become searches, grades are quest points, and fun class activities are believed to be game rewards. It seeks to make the learning process more enjoyable and interesting.
+A common strategy that can help incorporate gamification in education is understanding
+player types
+. Careful research on player types and preferences will help create a better gamification environment.
+What is gamification in an app?
+Gamification in an app means adding game-like features, such as reward points, achievements, and badges. This makes it more interesting and keeps users engaged in achieving their goals.
+For instance, in a shopping app with gamification, users might earn points when they buy things. These points could be used to get special discounts or access sales earlier than others. It makes the app more fun. It also keeps users interested and enhances their overall experience.
+It is like turning regular tasks into a game to make everything more exciting and enjoyable.
+What is gamification for learning?
+Gamification in learning involves adding game-like elements into educational processes to enhance engagement and motivation. Features like quizzes, badges, and progress tracking encourage students to actively participate and progress through the material.
+Take Duolingo, for instance. It is a well-known example of gamification in learning. Duolingo turns language learning into a game where users earn points, level up, and can even compete with others. Thus, it makes the whole process of learning a new language more fun and engaging.
+What is the difference between gamification and game-based learning?
+Game-based learning and
+gamification
+are both strategies used in education. However, they differ in their approaches. Here are the notable differences:
+Game-Based Learning
+- It uses real games as part of learning. Students directly interact with games designed for educational purposes.
+Gamification
+- It adds game elements to non-game situations to make them more engaging. It transforms the learning experience without using a full-fledged game.
+Game-Based Learning
+- It creates
+immersive experiences
+within a complete game environment, often including stories, characters, and specific challenges.
+Gamification
+- It does not create a complete game environment. Rather, it integrates game features into existing content or activities.
+Is gamification good or bad?
+There is no universal answer to whether gamification is positive or negative. Its impact depends on how much people genuinely like and agree with it.
+For example, in a fitness app, gamification can be super motivating for folks who are really into it. They willingly take on challenges, earn badges, and compete on leaderboards to boost their fitness journey.
+However, being pushed into these challenges might make the experience less enjoyable for someone not interested in the gamified side of fitness.
+How can we use gamification?
+You must follow the given steps to use gamification effectively:
+Know Your Users: Research and understand the people using your system.
+Set Clear Goals: Define specific things you want users to achieve.
+Choose Fun Elements: Add features like leaderboards or badges.
+Use Storytelling and Emotions: The article "
+The Use of Story and Emotions in Gamification
+" shows how integrating storytelling and emotions in gamification enhances the experience and the overall appeal of gamified features.
+Encourage Collaboration: Let users work together and build a community.
+Provide Meaningful Rewards: Give customized rewards, like points or badges, that matter to users.
+Avoid Overdoing it: Balance the fun parts with the serious side of what you are doing.
+Monitor and Adjust: Keep an eye on things and change your gamification strategy based on what users tell you.
+Where to learn more about gamification?
+Multiple courses can help you discover how gamification can boost your professional ability. You can enroll in
+Gamification - How to Create Engaging User Experiences
+to gain valuable skills and build your knowledge. The course will prepare you to understand and gain deep insights; for instance,
+Boost user engagement with gamification
+Understand the difference between gamification and game design.
+Learn to create player experiences that match up with business missions.
+Develop skills for effective management, watching, and measurement of gamification.
+Secure legal and right practices in gamification projects.
+Earn a Gift
+! Answer a Short Quiz at the End of This Page
+Earn a Gift,
+Answer a Short Quiz!
+1
+2
+3
+4
+1
+2
+3
+4
+Question 1
+Question 2
+Question 3
+Get Your Gift
+2
+3
+4
+2
+3
+4
+Question 1
+Question 2
+Question 3
+Get Your Gift
+3
+4
+3
+4
+Question 1
+Question 2
+Question 3
+Get Your Gift
+4
+4
+Question 1
+Question 2
+Question 3
+Get Your Gift
+Question 1
+What does gamification involve?
+1 point towards your gift
+The addition of game-like elements to non-game contexts to increase engagement.
+The addition of game-like elements to non-game contexts to increase engagement.
+The introduction of games as the only form of learning for users.
+The introduction of games as the only form of learning for users.
+The replacement of all tasks with competitive games in the workplace.
+The replacement of all tasks with competitive games in the workplace.
+Submit Your Answer
+Question 2
+What feature does gamification commonly use?
+1 point towards your gift
+Leaderboards
+Leaderboards
+Pop-ups
+Pop-ups
+Questionnaires
+Questionnaires
+Submit Your Answer
+Question 3
+How does gamification benefit user engagement?
+1 point towards your gift
+It complicates user interactions, and reduces task completion rates.
+It complicates user interactions, and reduces task completion rates.
+It forces users to spend more time on uninteresting tasks.
+It forces users to spend more time on uninteresting tasks.
+It makes tasks feel more rewarding and enjoyable.
+It makes tasks feel more rewarding and enjoyable.
+Submit Your Answer
+Try Again! IxDF Cheers for You!
+0
+out of
+3
+questions answered correctly
+Remember, the more you learn about design, the more you
+make yourself valuable
+.
+Try Again With Another Topic Definition
+Improve your UX / UI Design skills and grow your career!
+Join IxDF now!
+Congratulations! You Did Amazing
+3
+out of
+3
+questions answered correctly
+You earned your gift with a perfect score! Let us send it to you.
+Your email:
+*
+Send My Gift
+1
+Check Your Inbox
+We've emailed your gift to
+[email protected]
+.
+Improve your UX / UI Design skills and grow your career!
+Join IxDF now!
+Learn More About
+Gamification (GF)
+Make learning
+as easy as watching Netflix
+: Learn more about Gamification (GF) by taking the
+                    online IxDF Course
+Gamification - How to Create Engaging User Experiences
+.
+Why? Because
+design skills make you valuable
+. In any job. Any industry.
+In This Course, You'll
+Get excited
+to learn how
+motivation and fun
+can make experiences more engaging, useful, and rewarding. With gamification, you take what makes games compelling and apply it to everything from app design to internal training to meet both organizational and user needs. The results speak for themselves. Starbucks reported that members of
+its gamified rewards program generated 57% of the company's U.S. sales
+, while Duolingo, famous for its gamification system,
+helps over 50 million daily users learn new languages
+. In this course, you'll learn how to use motivators like achievement and competition to help people reach meaningful goals and enjoy themselves doing it. You already understand gamification intuitively, like when you track your daily steps, claim a loyalty reward, or keep a streak going on an app. If you're exploring gamification for the first time or you're a senior designer looking for a reliable process to gamify your product, you'll get the skills to build systems that support learning and build healthy habits.
+Make yourself invaluable as you
+step from user-centered design into
+player-centered design
+, where success isn't just about people being
+able
+to use your product, but about them
+wanting to.
+What engages one person won't engage another, so you'll use
+Bartle's four player types
+(Socializers, Explorers, Achievers, Killers) to classify your users, conduct
+demographic research
+, and build
+personas
+that inform design decisions for large player populations. You'll apply
+Daniel Pink's autonomy-mastery-meaning framework
+to match motivation to task complexity, and use the
+Fogg Behavior Model
+(trigger, ability, and motivation) to diagnose why an intended behavior isn't happening so you can address the right factor. To make sure your mechanics keep users coming back, you'll
+test
+with real people, refine until the system works for them, and
+monitor their motivation across the user lifecycle
+to keep engagement strong as they grow and change. AI makes it possible to bolt game mechanics onto anything, but it can't tell you whether they'll actually motivate your players. This course teaches the human judgment, player research, and ethics that decide whether gamification works or backfires.
+Gain confidence and credibility
+as you
+tie design decisions to business objectives
+and build ethical, player-centered systems. You'll diagnose the problem gamification should solve, understand stakeholder expectations, and translate both into a
+SMART
+(Specific, Measurable, Achievable, Realistic, Time-bound) mission tied to a concrete, measurable objective. You'll also learn how to tell the difference between helping people make better choices and pushing them in ways that are, or feel, manipulative. Through
+hands-on activities
+and
+real-world examples from Nike and LinkedIn
+, you'll gain a practical toolkit for designing gamification that's engaging, ethical, and durable.
+Read More
+Read less
+Gamification - How to Create Engaging User Experiences
+Closes in:
+4 days
+103
+Lessons
+View Course
+Earn Industry-Recognized Certificates
+Industry giants trust our courses to train their teams, and prestigious universities integrate our content into their curricula. Add your certificates to your LinkedIn profile, résumé, and job applications.
+All
+Free IxDF Articles
+on Gamification (GF)
+Order by:
+Most shared in this topic
+Latest UX literature in this topic
+Read: Chapter 1: Mixing Work and Play
+Chapter 1: Mixing Work and Play
+Read Book Chapter
+Read full article
+Monitoring Player Motivation for Gamification
+One of the big questions facing us as gamification designers is, “When will your player get bored of your gamification project, and how can you keep their interest as long as possible?” Fortunately, there are ways to monitor player motivation so that you can respond to them accordingly. In their boo
+Social shares
+660
+Published
+3 years ago
+Read Article
+Read: Chapter 3: Player
+Chapter 3: Player
+Read Book Chapter
+Read: Introduction
+Introduction
+Read Book Chapter
+Read: Chapter 8: Legal and Ethical Considerations
+Chapter 8: Legal and Ethical Considerations
+Read Book Chapter
+Read: Chapter 9: Enterprise Gamification Examples
+Chapter 9: Enterprise Gamification Examples
+Read Book Chapter
+Player-Centered Design: Moving Beyond User-Centered Design for Gamification
+We’ve all come to think in terms of
+user-centred design
+over the years. It’s a critical component of
+UX design
+, and it helps us focus on what really matters when developing products. However, user-centred design is not enough for
+gamification
+. Here, we introduce the concept of
+player-centred design
+, which takes the idea of user-centred design to the next level.
+Coping with Change
+What was the first computer game you ever played? If you’re starting to enter middle age, it’s likely to have been something like Space Invaders or Pacman. How do those games stack up next to modern classics such as Grand Theft Auto or World of Warcraft? There’s a huge difference between them, isn’t there? Space Invaders may have seemed incredible when it was released in 1978; today, it looks kind of… well, basic and uninteresting. We won’t be uncharitable, as it’s hardly fair to compare something that came so much later, but the principle is true all the same.
+Game play has changed, too, from ‘move left, move right and fire’ to being able to carry out incredibly complex actions. Indeed, what hasn’t changed is certainly the adrenalin rush players can feel. In the late ‘70s, that would have translated to the dread (yes, still a form of entertainment) a player would have felt on seeing the last invader of a screen speed up and strafe rockets in ultra-dangerous motions (if you’ve never played Space Invaders, you need to give it a go). Hold that thought—now transpose it upon any game you may have played in the early 21st century. The principles of entertainment and satisfaction, of “Yes!” on clearing a skill level and “Oh, sh*t!” on not making it are common to these games. Still, the differences are powerful, so we have to cope with a whole different set of dimensions in the 21st century.
+Pacman was one of the earliest popular computer games, and while it’s still fun, today’s games are far more complex and engaging. That said, why not go retro for a moment and see what these games have in common—or maybe that should be, feel what they share. If you’re thinking the “Yes!” feeling on clearing a level and the “Oh, sh*t!” sensation on getting killed, you’ve got a hole in one.
+© Unknown, Unknown
+Player-Centred Design
+Let’s kick off this topic by remembering that in any game, a fair degree of work is involved. From that, in the gamification of a work process, getting the user to want to take part in that work is vital.
+"Games give us unnecessary obstacles that we volunteer to tackle."
+— Jane McGonigal, American game designer and author
+Player-centred design builds on and extends user-centred design to a whole new level; it is a process that Janaki Kumar and Mario Herger coined in their book,
+Gamification at Work: Designing Engaging Business Software
+. We can use user-centred design to develop applications as much as we can to develop games. Player-centred design acknowledges that a game is to be played and looks at the key ingredients of making a game work for the player. You can see those elements on the diagram at the very start.
+Yes, player-centred design is a powerful ally; still, you need to place it as a process into the
+context
+of your organization. It’s not meant to be a rigid framework for you to adhere to at all costs; rather, it’s been developed to enable you to
+adapt
+the framework to your people and your business. Missions, mechanics and
+motivations
+can vary widely; therefore, it’s vital to ensure that they match the organizational and individual player needs you’re targeting for them to be successful.
+This scene from Farcry shows just how much games were to evolve since Pacman. Incidentally, they can only get ‘realer’.
+©  BagoGames, CC BY 2.0
+Player-centred design is also an
+iterative process
+. That means developing something, trialing it with players, and then amending it until it hits the sweet spot where players
+really
+appreciate a specific feature. That’s why monitoring, measuring and managing are a key part of the framework. That’s why these three ‘m’s must be centremost in your mind when you sit down to apply this powerful tool in your own work.
+The final part of player-centred design is balancing legal and ethical considerations and business requirements with keeping the whole thing
+fun
+. Gamification needs to meet all those requirements in order for you to make a success of the process via what end result you present to your end user.
+User-centred design uses the yardsticks of efficiency, effectiveness and satisfaction to evaluate designs. Player-centred design adds engagement to this list. While user-centred design asks the question, “Can the user use the product efficiently, effectively and satisfactorily?”, player-centred design asks, “Do they want to use it in the first place?”.
+Take a classic example in the workplace: getting employees to complete e-learning modules. Bear in mind that these are often geared towards satisfying company requirements (such as covering their backs vis-à-vis legislation regarding
+disability
+, gender equality, etc.) as opposed to offering staff members vocation-specific advancement. Organisations frequently approach designers when they want us to crank out the finest e-learning guides to a wide range of topics, such as ethics, diversity and data security protocols, perhaps without realising how golden an opportunity we might have there—that is, we can actually make those workers
+want
+to complete their e-learning!
+Traditionally, getting workers to read S.O.P.s (Standard Operating Procedures) has been like pulling teeth for most Western organisations. If you can remember working in the previous century, you may well recall these—a printout of clauses in semi-legalese that you had sign off at the bottom so as to show you understood that, for example, standing beneath a forklift’s prongs while it’s lifting down a palette would be an exceptionally poor idea. With the advent of the internet, e-learning would make the whole process electronic. After all, what better opportunity is there for you as a designer than to work player-centred design into an otherwise dead and dry piece an employee would probably only pretend to read? If you can produce, say, a design for an e-learning module on diversity that encourages users to learn more about cultures by whetting their appetites to learn and enjoy the experience, you’re thinking player-centred—congratulations. They could move around a virtual globe, say, picking up ‘passport’ points, the idea being that while they’re learning all about cultural diversity, they’re enjoying the experience and feeling empowered. Hopefully, they’ll have forgotten that the organisation actually had the power over them to
+make
+them take the e-learning. Such is the magic a skillfully devised player-centred design can work.
+As you can see, when people truly embrace gaming, they’re prepared to go to extraordinary lengths to participate.
+© Sergey Galyonkin, CC BY-SA 2.0
+Kumar and Herger offer sound advice for us as we ponder these questions: “Gamification is about thoughtful introduction of gamification techniques that engage your users. Gamification is not about manipulating your users, but about motivating them. Ultimately, it is about
+good design
+— and good design treats the user with respect.” Here, we can cast our minds back to one of the most fundamental points about fun: you can never force or trick someone into having it; people will either have fun as a natural reaction to what you provide… or they won’t. And if they
+make
+fun of it, then that can be rather worrying.
+The Take Away
+Player-centred design is an extension of the idea of user-centred design. It applies uniquely to gamification design within systems which traditionally do not contain game elements. It looks at the users and asks the key question, “Do they want to use this in the first instance?”. It allows you to adapt gamification to the needs of your users and ensure that the results of the exercise support the business reasons for gamification. If you can weave player-centred design into the exact context of your audience’s organisation, you will travel a long way in starting to deliver a piece that not only gets results but one that also is popular.
+References & Where to Learn More
+Janaki Mythily Kumar and Mario Herger,
+Gamification at Work: Designing Engaging Business Software, The
+Interaction Design
+Foundation
+, 2014
+Hero Image: © Janaki Kumar and Mario Herger, CC-Att-ND
+Read More
+Read less
+39% of Today's Skills Will Change by 2030
+The World Economic Forum expects 39% of today's skills to be transformed or become outdated by 2030.
+The good news is that jobs in UX / UI design and AI are among the fastest-growing professions globally.
+See How Design Skills Turn Into Job Options
+Open privacy settings
+Privacy Settings
+Close privacy settings
+By using this site, you accept our
+Cookie Policy
+and
+Terms of Use
+.
+Customize
+Customize
+Our digital services use necessary tracking technologies, including third-party cookies,
+        for security, functionality, and to uphold user rights.
+        Optional cookies offer enhanced features, and analytics.
+Essential
+Experience the full potential of our site that remembers your preferences and supports secure sign-in.
+Security
+Security
+Governs the storage of data necessary for maintaining website security, user authentication, and fraud prevention mechanisms.
+Enhanced Functionality
+Enhanced Functionality
+Saves your settings and preferences, like your location, for a more personalized experience.
+Referral Program
+Referral Program
+We use cookies to enable our referral program, giving you and your friends discounts.
+Error Reporting
+Error Reporting
+We share user ID with Bugsnag and NewRelic to help us track errors and fix issues.
+Analytics
+Optimize your experience by allowing us to monitor site usage. You'll enjoy a smoother, more personalized journey without compromising your privacy.
+Analytics Storage
+Analytics Storage
+Collects anonymous data on how you navigate and interact, helping us make informed improvements.
+Google
+Google
+Differentiates real visitors from automated bots, ensuring accurate usage data and improving your website experience.
+Personalization
+Lets us tailor your digital ads to match your interests, making them more relevant and useful to you.
+Advertising Storage
+Advertising Storage
+Stores information for better-targeted advertising, enhancing your online ad experience.
+Personalization Storage
+Personalization Storage
+Permits storing data to personalize content and ads across Google services based on user behavior, enhancing overall user experience.
+Advertising Personalization
+Advertising Personalization
+Allows for content and ad personalization across Google services based on user behavior. This consent enhances user experiences.
+User Data
+User Data
+Enables personalizing ads based on user data and interactions, allowing for more relevant advertising experiences across Google services.
+Advertising
+Receive more relevant advertisements by sharing your interests and behavior with our trusted advertising partners.
+Meta Pixel
+Meta Pixel
+Enables better ad targeting and measurement on Meta platforms, making ads you see more relevant.
+Meta CAPI
+Meta CAPI
+Allows for improved ad effectiveness and measurement through Meta&#039;s Conversions API, ensuring privacy-compliant data sharing.
+LinkedIn Insights
+LinkedIn Insights
+Tracks conversions, retargeting, and web analytics for LinkedIn ad campaigns, enhancing ad relevance and performance.
+LinkedIn CAPI
+LinkedIn CAPI
+Enhances LinkedIn advertising through server-side event tracking, offering more accurate measurement and personalization.
+Google Ads Tag
+Google Ads Tag
+Tracks ad performance and user engagement, helping deliver ads that are most useful to you.
+Accept all
+Accept all
+Save Settings
+Be the One Who
+Inspires
+People remember who shares great ideas.
+Share on:
+Shareable Link
+Copy Link
+Academic
+Credibility
+— On Autopilot
+Don't waste time googling citation formats. Just copy, paste and look legit in seconds.
+Citation Format
+APA (recommended)
+MLA
+IEEE
+ACM
+What Is This?
+IxDF - Interaction Design Foundation.
+                    (2016, June 29).
+What is Gamification (GF)?
+.
+                    IxDF - Interaction Design Foundation.
+IxDF - Interaction Design Foundation.
+“What is Gamification (GF)?”
+IxDF - Interaction Design Foundation.
+                    8 Jul. 2026
+IxDF - Interaction Design Foundation.
+“What is Gamification (GF)?”
+IxDF - Interaction Design Foundation.
+(accessed Jul. 8, 2026).
+IxDF - Interaction Design Foundation.
+                    2016.
+What is Gamification (GF)?
+Retrieved July 8, 2026
+                    from
+Cite selection
+Cite selection
+Copy Citation
+Copied to clipboard!
+Feedback

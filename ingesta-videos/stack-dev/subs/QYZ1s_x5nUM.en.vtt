@@ -1,0 +1,376 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.900 --> 00:00:06.420
+the long-awaited day is finally here this felca&nbsp;
+team just announced her release is SvelteKit 1.0&nbsp;&nbsp;
+
+00:00:06.420 --> 00:00:11.040
+which means it's finally production ready for&nbsp;
+those of you who are unfamiliar with spell kit&nbsp;&nbsp;
+
+00:00:11.040 --> 00:00:15.240
+I will briefly go over what it is and some&nbsp;
+of the out-of-the-box features it provides&nbsp;&nbsp;
+
+00:00:15.240 --> 00:00:20.520
+then I'll show you how to deploy a spell kit&nbsp;
+application on Vercel in under a minute as well&nbsp;&nbsp;
+
+00:00:20.520 --> 00:00:25.140
+as the added benefits you get when deploying&nbsp;
+folkit applications on for sale finally for&nbsp;&nbsp;
+
+00:00:25.140 --> 00:00:29.700
+those of you who are familiar with spell kit&nbsp;
+I'll go over a few of the recent changes as&nbsp;&nbsp;
+
+00:00:29.700 --> 00:00:33.960
+it looks quite different today than it did&nbsp;
+just a few months ago so let's get started&nbsp;&nbsp;
+
+00:00:34.620 --> 00:00:40.500
+so SvelteKit is a newer framework for building web&nbsp;
+applications that's been gaining popularity due&nbsp;&nbsp;
+
+00:00:40.500 --> 00:00:45.660
+to its performance and simplicity it's built on&nbsp;
+top of Svelte so you can think of it kind of like&nbsp;&nbsp;
+
+00:00:45.660 --> 00:00:51.720
+what Next.js is for React and it really simplifies&nbsp;
+the process of building and deploying applications&nbsp;&nbsp;
+
+00:00:52.380 --> 00:00:57.660
+Now SvelteKit comes with server-side rendering&nbsp;
+which is great for performance and SEO it makes&nbsp;&nbsp;
+
+00:00:57.660 --> 00:01:01.800
+building static sites super simple which is&nbsp;
+great if you're building a blog post or a&nbsp;&nbsp;
+
+00:01:01.800 --> 00:01:06.660
+marketing site anything that's really content&nbsp;
+heavy it has typescript support and also hot&nbsp;&nbsp;
+
+00:01:06.660 --> 00:01:11.400
+modular replacement which allows you to see all&nbsp;
+of your changes in real time without loading&nbsp;&nbsp;
+
+00:01:11.400 --> 00:01:17.220
+state or refreshing the page now spell kit also&nbsp;
+has some amazing out-of-the-box features such&nbsp;&nbsp;
+
+00:01:17.220 --> 00:01:23.580
+as its directory based routing it has a super&nbsp;
+intuitive layout system server side rendering&nbsp;&nbsp;
+
+00:01:23.580 --> 00:01:29.100
+and a really unique and convenient way of loading&nbsp;
+data into pages and layouts through what we call&nbsp;&nbsp;
+
+00:01:29.100 --> 00:01:34.440
+the load function now before we dive a little&nbsp;
+deeper into a few of these features let's first&nbsp;&nbsp;
+
+00:01:34.440 --> 00:01:38.580
+get an application up and deployed on Vercel&nbsp;
+so we can reference it throughout this video&nbsp;&nbsp;
+
+00:01:39.120 --> 00:01:44.520
+now with Vercel it's extremely simple to get&nbsp;
+started with spell kid we can go to the Vercel&nbsp;&nbsp;
+
+00:01:44.520 --> 00:01:48.840
+template marketplace search for SvelteKit&nbsp;
+templates and select the templates we want to&nbsp;&nbsp;
+
+00:01:48.840 --> 00:01:54.180
+use then we just click deploy now oversell will&nbsp;
+deploy this template for us in just a matter of&nbsp;&nbsp;
+
+00:01:54.180 --> 00:01:59.640
+seconds while this process is finishing up we can&nbsp;
+expand the logs and watch the build process as it&nbsp;&nbsp;
+
+00:01:59.640 --> 00:02:04.800
+happens and I also want to mention that for cell&nbsp;
+supports GitHub, Gitlab, and Bitbucket with native&nbsp;&nbsp;
+
+00:02:04.800 --> 00:02:10.740
+git integration however you can also use your CLI&nbsp;
+or API to deploy your code we just try to make it&nbsp;&nbsp;
+
+00:02:10.740 --> 00:02:15.660
+as easy as possible to get your code off your&nbsp;
+local machine and into the cloud behind a URL&nbsp;&nbsp;
+
+00:02:15.660 --> 00:02:21.180
+all right so now our app is deployed and we can&nbsp;
+go check it out so here we have our live site and&nbsp;&nbsp;
+
+00:02:21.180 --> 00:02:25.500
+it's behind the default Vercel domain but if you&nbsp;
+have a custom domain you can update that in the&nbsp;&nbsp;
+
+00:02:25.500 --> 00:02:30.600
+dashboard now let's make some changes to the code&nbsp;
+base so we can explore some more of ourselves cool&nbsp;&nbsp;
+
+00:02:30.600 --> 00:02:36.360
+features here I've created a new branch where I&nbsp;
+added a new page at the slash Vercel route so&nbsp;&nbsp;
+
+00:02:36.360 --> 00:02:41.220
+back in our command line let's push these changes&nbsp;
+up to Vercel now my code has been sent to Vercel&nbsp;&nbsp;
+
+00:02:41.220 --> 00:02:46.380
+and thanks to Vercel's automatic git integration&nbsp;
+anytime a new commit is made is going to recognize&nbsp;&nbsp;
+
+00:02:46.380 --> 00:02:50.880
+this commit kick off a new build and start the&nbsp;
+process of building our app and deploying it out&nbsp;&nbsp;
+
+00:02:50.880 --> 00:02:56.820
+to every region in Vercel's network since this was&nbsp;
+pushed to a branch rather than main you can see by&nbsp;&nbsp;
+
+00:02:56.820 --> 00:03:02.040
+the URL that we're looking at a preview deployment&nbsp;
+now if we click it we'll see in addition to our&nbsp;&nbsp;
+
+00:03:02.040 --> 00:03:07.440
+newest changes we also have this toolbar at the&nbsp;
+bottom of the screen here you can either share&nbsp;&nbsp;
+
+00:03:07.440 --> 00:03:11.760
+with your team or make it so anyone who has&nbsp;
+a link can log in and start leaving comments&nbsp;&nbsp;
+
+00:03:12.300 --> 00:03:17.160
+so for example we can leave a comment up here&nbsp;
+and we can even attach a screenshot if we wanted&nbsp;&nbsp;
+
+00:03:17.160 --> 00:03:21.600
+to thanks to the Chrome integration in the&nbsp;
+sidebar we can view all the comments as well&nbsp;&nbsp;
+
+00:03:21.600 --> 00:03:26.760
+as mark them as resolved so now let's say this&nbsp;
+branch has been reviewed by the team and all the&nbsp;&nbsp;
+
+00:03:26.760 --> 00:03:31.380
+comments are resolved so we're ready to deploy&nbsp;
+this to production we can merge the branch into&nbsp;&nbsp;
+
+00:03:31.380 --> 00:03:36.600
+main which would automatically redeploy main&nbsp;
+with the updated code but we can also promote&nbsp;&nbsp;
+
+00:03:36.600 --> 00:03:41.520
+this branch to production in our dashboard so&nbsp;
+back in our dashboard we can click these three&nbsp;&nbsp;
+
+00:03:41.520 --> 00:03:45.300
+dots and we'll have the option to promote&nbsp;
+to production so let's go ahead and do that
+
+00:03:47.400 --> 00:03:53.040
+now listed here are all of our deployments and&nbsp;
+unfortunately every now and then a branch may&nbsp;&nbsp;
+
+00:03:53.040 --> 00:03:58.320
+get merged into main that introduces a bug or&nbsp;
+decreases performance in these instances we want&nbsp;&nbsp;
+
+00:03:58.320 --> 00:04:03.420
+to revert to a previous stable commit as fast&nbsp;
+as possible Vercel provides us with instant&nbsp;&nbsp;
+
+00:04:03.420 --> 00:04:09.000
+rollbacks which allow us to instantly roll back&nbsp;
+to previous deployment without rebuilding for&nbsp;&nbsp;
+
+00:04:09.000 --> 00:04:14.040
+example if we want to roll back to this deployment&nbsp;
+we just click the three dots and we can click roll&nbsp;&nbsp;
+
+00:04:14.040 --> 00:04:19.440
+back and now our site is instantly rolled back to&nbsp;
+the stable deployment without having to rebuild&nbsp;&nbsp;
+
+00:04:19.440 --> 00:04:24.120
+the application so if we once again check out&nbsp;
+our production deployment we see that we've&nbsp;&nbsp;
+
+00:04:24.120 --> 00:04:29.460
+rolled back to our previous deployment and our&nbsp;
+new Vercel tab is no longer there Vercel also&nbsp;&nbsp;
+
+00:04:29.460 --> 00:04:33.900
+provides analytics for your web app by adding&nbsp;
+Vercel analytics to your project you're able&nbsp;&nbsp;
+
+00:04:33.900 --> 00:04:39.660
+to visualize your app's Core Web Vitals as well&nbsp;
+as gain insights into your audience here we can&nbsp;&nbsp;
+
+00:04:39.660 --> 00:04:45.540
+see data such as the total number of page views&nbsp;
+the top pages being viewed browsers being used to&nbsp;&nbsp;
+
+00:04:45.540 --> 00:04:50.700
+view your application and more by deploying your&nbsp;
+SvelteKit apps on Vercel serverless functions&nbsp;&nbsp;
+
+00:04:50.700 --> 00:04:55.860
+are automatically configured and we can view&nbsp;
+our function logs here in the dashboard if we&nbsp;&nbsp;
+
+00:04:55.860 --> 00:05:00.600
+visit our production deployment and enter&nbsp;
+a word into this svordle game back in our&nbsp;&nbsp;
+
+00:05:00.600 --> 00:05:05.880
+dashboard this function is logged what's even&nbsp;
+cooler is that spell kit also supports Vercel's&nbsp;&nbsp;
+
+00:05:05.880 --> 00:05:10.860
+Edge Functions which allow you to run JavaScript&nbsp;
+code on their globally distributed edge network&nbsp;&nbsp;
+
+00:05:10.860 --> 00:05:16.080
+this means you can serve your users dynamically&nbsp;
+rendered pages at the same speed you would serve&nbsp;&nbsp;
+
+00:05:16.080 --> 00:05:20.940
+static files from a CDN now there have been&nbsp;
+quite a few changes made to SvelteKit in the&nbsp;&nbsp;
+
+00:05:20.940 --> 00:05:25.440
+past few months and a good amount of them were&nbsp;
+breaking changes so if you've used SvelteKit in&nbsp;&nbsp;
+
+00:05:25.440 --> 00:05:31.020
+the past you might find it feels quite unfamiliar&nbsp;
+today let's go over the most notable changes the&nbsp;&nbsp;
+
+00:05:31.020 --> 00:05:36.600
+first being the change to SvelteKit's file based&nbsp;
+routing previously any file added to the routes&nbsp;&nbsp;
+
+00:05:36.600 --> 00:05:41.640
+directory would automatically create a route&nbsp;
+at that name so for example creating the page&nbsp;&nbsp;
+
+00:05:41.640 --> 00:05:46.500
+in our routes directory called about.svelte
+would automatically create a page at /about&nbsp;&nbsp;
+
+00:05:46.500 --> 00:05:52.860
+and adding an index.ph file would create our&nbsp;
+root page now all routes are directory based&nbsp;&nbsp;
+
+00:05:52.860 --> 00:05:58.740
+and the old index that Svelte has been replaced&nbsp;
+by +page.svelte this new convention ensures&nbsp;&nbsp;
+
+00:05:58.740 --> 00:06:03.420
+that you are deliberately creating a route and&nbsp;
+eliminates the need for the old naming convention&nbsp;&nbsp;
+
+00:06:03.420 --> 00:06:08.640
+that required you to use underscores in order to&nbsp;
+co-locate non-page files in the routes directory&nbsp;&nbsp;
+
+00:06:09.600 --> 00:06:14.820
+with the new routing changes came major changes&nbsp;
+to the layout system as well instead of naming&nbsp;&nbsp;
+
+00:06:14.820 --> 00:06:20.100
+our layout files underscore underscore layout&nbsp;
+that's felt we now name them plus layout that's&nbsp;&nbsp;
+
+00:06:20.100 --> 00:06:24.660
+felt similar to our pages previously we&nbsp;
+could have multiple layouts in a single&nbsp;&nbsp;
+
+00:06:24.660 --> 00:06:30.900
+directory using named layouts such as index at&nbsp;
+about.svelte which we have since said goodbye to&nbsp;&nbsp;
+
+00:06:30.900 --> 00:06:36.180
+in addition to these changes a new grouped layouts&nbsp;
+convention was added and this allows us to share&nbsp;&nbsp;
+
+00:06:36.180 --> 00:06:41.640
+layouts within group directories which are folders&nbsp;
+wrapped in parentheses group directories do not&nbsp;
+
+00:06:41.640 --> 00:06:47.640
+affect the path name of nested routes but acts as&nbsp;
+root routes for layouts there have also been some&nbsp;&nbsp;
+
+00:06:47.640 --> 00:06:53.340
+big changes made to how you load data into a page&nbsp;
+previously the load function would be called in a&nbsp;&nbsp;
+
+00:06:53.340 --> 00:06:57.660
+page component's context module script block&nbsp;
+and the return data would become available&nbsp;&nbsp;
+
+00:06:57.660 --> 00:07:02.460
+to the page as a prop a page calling the load&nbsp;
+function would have looked something like this&nbsp;&nbsp;
+
+00:07:03.000 --> 00:07:08.400
+now SvelteKit has completely gotten rid of&nbsp;
+the context module and the load function has&nbsp;&nbsp;
+
+00:07:08.400 --> 00:07:14.400
+moved into the endpoint file now a page file&nbsp;
+can automatically load data from its sibling&nbsp;&nbsp;
+
+00:07:14.400 --> 00:07:21.600
+plus page.js route by exporting the strongly&nbsp;
+typed data prop loading data into a page the&nbsp;&nbsp;
+
+00:07:21.600 --> 00:07:27.240
+new way would be done like this first we need to&nbsp;
+create a page.js file that calls the load function&nbsp;&nbsp;
+
+00:07:28.080 --> 00:07:35.220
+and then within our page.svelte file we just export&nbsp;
+our data prop now the data returned from our load&nbsp;&nbsp;
+
+00:07:35.220 --> 00:07:41.400
+function is available via this prop as I mentioned&nbsp;
+earlier data is strongly typed so in this example&nbsp;&nbsp;
+
+00:07:41.400 --> 00:07:46.920
+data would be typed like this. Now these are just&nbsp;
+a few of the most recent changes made to SvelteKit
+
+00:07:46.920 --> 00:07:51.180
+If you want a more complete list, I recommend&nbsp;
+checking out the migration guide which I will link&nbsp;&nbsp;
+
+00:07:51.180 --> 00:07:56.700
+in the description below if you want to learn&nbsp;
+SvelteKit in more depth Vercel has a complete&nbsp;&nbsp;
+
+00:07:56.700 --> 00:08:00.720
+beginner SvelteKit course that's free and I&nbsp;
+will also link that in the description below&nbsp;&nbsp;
+
+00:08:00.720 --> 00:08:05.760
+otherwise that is all for now I hope you guys&nbsp;
+enjoy building with SvelteKit and if you deploy&nbsp;&nbsp;
+
+00:08:05.760 --> 00:08:09.780
+any of your projects to Vercel link them in the&nbsp;
+comments below because I'd love to check them out
+

@@ -1,0 +1,551 @@
+Color in Design: Influence on Users' Actions
+←
+blog
+blog
+tubik
+search
+search
+browse
+browse
+tubik
+tags
+archives
+2D art 2D illustration 3D 3D animation 3D graphics 3D interface design 3D web design AgTech B2B B2B Branding B2B Design B2C Biotech Biotech Branding Brand Redesign CMS webflow CTA buttons Christmas art Gestalt theory HBO HR tech design HR tips HubSpot integration website IA MVP Mobile Apps Rebranding SaaS UX case study SaaS website UX TED-talk Toronto business Tubik fintech project UI design fintech UI icons UI illustration USP UX UI design UX architecture SaaS UX architecture fintech UX case study UX storytelling UX strategy UX writing fintech Webflow fintech website Webflow website design Zealous accessibility advertising agricultural software animated website design animation animation case study animation concepts animation design app app design app design examples app design ideas app interface app testing apple design art art quotes beverage blender blender workflow blog book book cover design book design book for designers book illustration brand brand design brand design experts brand identity brand identity design brand strategy branded items branded merch design branding branding case study burger app design business business illustration business strategy button design career tips cartoon-style UI case study cel shader character art character design childcare branding cms color color choice color combination color glossary color palette color psychology color scheme color theory color wheel commerce company logo computer graphics concept design project content management content writing conversion conversion design cooking copywriting corporate identity creative coding creative design creative experiments creative process creative web development custom web interactions dark background dark ui dashboard dashboard design data visualization delivery delivery interface design design book design career design concept design education design examples design experimentation design expert design expert quote design expert speech design expert tips design exploration design for business design for children design for communication design for emotion design for health design for marketing design for social media design for sports design glossary design history design inspiration design job design management design mistakes design podcast design process design psychology design quotes design research design services design skills design strategy design studio design system design systems design terminology design tips design tools design trends design video design workflow designers
+digital art digital arts digital design digital gallery digital illustration digital painting digital product digital product design directional cues documentary e-commerce early childhood education earned salary access platform ebook ecology ecommerce ecommerce design ecommerce website editorial editorial design editorial illustration edtech education education branding educational app educational website employee benefits platform employee benefits platform design enterprise UX environment ernest asanov error error message error screen errors design experimental design experimental web design expert tips explainer video production fashion figma to website finance finance management financial interface design financial product design financial services UX fintech fintech UI UX fintech UI patterns fintech UX design fintech branding fintech communication strategy fitness app design flat design flat illustration food food app food brand footer framer framer vs webflow framer workshop free book free ebook free podcast frontend development game UI game app game art game design game illustration gamification golden ratio graphic design graphic design examples graphic design inspiration graphic design process graphic design stages graphic designer graphic designers gsap header health health app healthcare healthtech hero image home page design human memory human-centered human-centered fintech human-computer interaction icon design icons identity design identity design best practices identity design case study identity design examples identity design inspiration identity design tips illustration illustration case study illustration process illustrator immersive web experiences information architecture inspiration interaction interaction design interactive UI interactive storytelling interactive web design interface animation interface color interface copy interface design interface design trends interface illustration interface navigation interface typography interfaces for business investigative journalism javascript animation kidlit landing page landing page design landscape company logo landscape illustration lettering line art logo logo design logo design book logo design case study logo design examples logo design inspiration logo design practices logo design process logofolio low code marketing marketing design marketing websites mascot mascot design microinteractions minimalism minimum viable product mobile mobile UI mobile app mobile app branding mobile applications mobile design mobile design inspiration mobile game design mobile navigation design mobile screens mobile typography mobile user interface modern web interfaces monoline illustration moodboard motion motion design motion design case study motion design examples motion design process motion design tools motion graphics music nature navigation negative space no code no code for designers no code tools nuxt development olympic games onboarding
+packaging packaging design page design page speed parallax scrolling payroll UX payroll innovation payroll system UX people illustrations photography picture book podcast portfolio websites poster premium branding procreate product design product design fintech product design process product management product page design product promo video product video productivity project management promotional video promotional video production prototyping quotes racing game readability redesign failures responsive design responsive fintech design rive animation saas design sales and marketing scalable design scannability science communication scroll animation scroll interaction scroll-based storytelling semantic html sensor data seo shader development shader-based rendering shapes psychology sketching social impact design social media graphics social media marketing social network design sport illustration startup websites sticker stickers storytelling target audience testing theme illustration three.js tips toon shader tubik tubik agency tubik arts tubik case study tubik design tubik experiments tubik lab tubik magazine tubik podcast tubik web design tutorial types of mobile apps types of websites typography typography basics typography design typography terms ui ui animation ui copy ui copywriting ui design ui design case study ui design examples ui design inspiration ui design practices ui design process ui design tips ui design trends ui elements ui for fitness ui for sports ui gamification ui ux design usability user behavior user experience user experience career user experience design user experience design process user experience designers user experience examples user interface user interface design user interface design process user motivation user research user testing user-centered user-friendly utilities design ux ux design ux design best practices ux design examples ux design expert ux design process ux design quote ux design tools ux writing ux/ui video video design video design case study video design examples video design process video design services video production video production services visual development visual hierarchy visual identity visual perception visual storytelling visual storytelling in design web web UI web UX web animation web animations web design web design case study web design examples web design inspiration web design tools 2026 web design trends web development web interface web marketing web usability web user interface webflow webflow cms webflow development webgl website website builders website design website design concept website performance website redesign website redesign case study website usability wellness app white space wireframing Сhristmas design
+2026 July 2026 June 2026 May 2026 April 2026 March 2026 February 2026 January 2026
+2025 December 2025 April 2025 March 2025 February 2025 January 2025
+2024 November 2024 October 2024 September 2024 August 2024 July 2024 June 2024 May 2024 April 2024 March 2024 February 2024 January 2024
+2023 December 2023 November 2023 October 2023 September 2023 August 2023 July 2023 June 2023 May 2023 April 2023
+2023 March 2023 February 2023 January 2023
+2022 December 2022 November 2022 October 2022 September 2022 August 2022 July 2022 June 2022 May 2022 April 2022 March 2022 February 2022 January 2022
+2021 December 2021 November 2021 October 2021 September 2021 August 2021 July 2021 June 2021 May 2021 April 2021 March 2021 February 2021 January 2021
+2020 December 2020 October 2020 September 2020 August 2020 July 2020
+2020 June 2020 May 2020 April 2020 March 2020 February 2020 January 2020
+2019 December 2019 November 2019 October 2019 September 2019 August 2019 July 2019 June 2019 May 2019 April 2019 March 2019 February 2019 January 2019
+2018 December 2018 November 2018 October 2018 September 2018 August 2018 July 2018 June 2018 May 2018 April 2018 March 2018 February 2018 January 2018
+2017 December 2017 November 2017
+2017 October 2017 September 2017 August 2017 July 2017 June 2017 May 2017 April 2017 March 2017 February 2017 January 2017
+2016 December 2016 November 2016 October 2016 September 2016 August 2016 July 2016 June 2016 May 2016 April 2016 March 2016 February 2016 January 2016
+2015 December 2015 November 2015 October 2015 September 2015 August 2015 July 2015
+contact us
+contact us
+tubik
+ux/ui
+product design
+motion design
+case study
+web design
+logo design
+all topics
+Web Development
+Animation
+Branding
+Business
+Case Study
+Illustration
+Our Expert Insights
+Processes and Tools
+UI/UX
+Branding
+Processes and Tools
+UI/UX
+Color in Design: Influence on Users' Actions
+The article is devoted to the issue of using various colors in user interfaces and branding design, associations and the influence of color choice on user behavior.
+Marina Yalanska
+Share
+Every single day we’re surrounded by various colors from everywhere. If you take a closer look at the things around, they may surprise you with a number of colors and shades. People may not notice how colorful everyday things are but the colors have a significant impact on our behavior and emotions. Today our article is devoted to the science studying this issue called color psychology. Let’s define the meaning of the colors and review some tips on choosing suitable colors for the design.
+What is color psychology?
+It’s a branch of psychology studying the influence of colors on human mood and behavior. The thing is that our mind reacts to colors while we usually do not notice it. The moment our eyes perceive color, they connect with the brain which gives signals to the endocrine system releasing hormones responsible for the shifts in mood and emotions. These days a lot of research is conducted in order to study the peculiarities of these reactions and there are already many theories useful to learn. Color psychology is helpful in many industries including business, marketing, and design.
+The success of the product depends largely upon the colors chosen for the design. The properly selected colors help put users in the frame of mind that compels them to take action. The  research  provided by Colorcom showed that it takes only 90 seconds for people to make a subconscious judgment about a product and between 62% and 90% of that assessment is based on color alone. So, the basic knowledge of color psychology can be useful on the way of improved conversion for your product. Moreover, accurately chosen colors can advance the usability of the product.
+Meaning of colors
+To convey the right tone, message and call users to make the expected action, designers need to understand what colors mean and what reaction they evoke. In one of our previous articles, we’ve demonstrated you the list of colors with brief descriptions of their meanings. Today we have prepared a bit more expanded list of color meanings in common use and in design.
+Red
+The color usually associates with passionate, strong, or aggressive feelings. It symbolizes both good and bad states of mind and soul including love, confidence, passion, and anger. In design, the use of red color is an effective way to draw users’ attention. Also, it’s recommended to use red sparingly to avoid negative reactions.
+Toonie Alarm app tutorial
+Orange
+It is an energetic and warm color bringing the feelings of excitement. Orange combines red’s power and yellow’s friendliness, so it may bring feelings of motivation, enthusiasm, and love to life. Designers use the color if they need to give the spirit of creativity and adventure.
+fOxygenic Logo
+Yellow
+This is the color of happiness which symbolizes the sunlight, joy, and warmth. Yellow is thought to be the easiest color to visibly see. What’s more, it has one of the most powerful psychological meanings. Users seeing yellow colors in the design can feel inspiration and confidence. Although, you need to remember that too much yellow may bring negative reactions such as the feeling of anxiety or fear.
+StarDust website
+Green
+It’s often called the color of nature, balance, and harmony. Green brings calming and renewing feelings. Also, it is a sign of growth and inexperience. It has more positive energy than most other colors but sometimes it associates with materialism. Design in green colors perfectly suits the products connected with nature.
+Big City Guide: Stockholm
+Blue
+It often represents some corporate images since blue is the color of trust. It usually shows reliability, may give users calming feelings. However, as a cool color, it also associates with distance and sadness, so designers need to keep it in balance.
+Design for Business E-book
+Purple
+Long associated with royalty and wealth since many kings wore purple clothes, it’s useful for presenting some luxurious products. It’s also a color of mystery and magic. It mixes the energy of red and blue, so it has a balance of power and stability. A big concentration of the color may distract users’ mind.
+Night in Berlin App
+Pink
+It is the color of hope, sensitivity, and romance. Pink is much softer than red, so it creates a sense of unconditional love. Pink is associated very strongly with youthful femininity, so it may be an effective color if the target audience is mostly girls and young women.
+Dating App
+Brown
+The color of security and protection like the mother Earth. Designers commonly use brown as a background color in a variety of shades, from very light to deep. It brings the feeling of warmth and comfort to the designs. Also, it may be used to show experience and reassurance.
+Jewelry E-Commerce App
+Black
+The color has a great number of meanings. It associates with tragic situations and death. It signifies a mystery. It can be traditional, modern, serious. Everything depends on how you employ it and which colors go with it. Black matches well with any other color, so it’s ideal for the background. Designers often use it to set contrasts.
+Vinny’s Bakery
+White
+The color means purity and innocence, as well as wholeness and clarity. White often associates with a blank sheet of paper motivating people to generate new ideas. However, too much white can cause feelings of isolation and emptiness. In design, white is commonly used as the background color especially for the resources for which readability is a vital part.
+Bjorn studio website
+Color meanings in branding
+Colors are a vital factor for not only the visual appearance of products but also brand recognition . Nevertheless, in branding, colors tend to have more direct meanings than in common understanding. They can be briefly described within a few words, so here is the list for you:
+Red . Confidence, youth, and power.
+Orange . Friendly, warm, and energetic.
+Yellow . Happiness, optimism, and warmth.
+Green . Peace, growth, and health.
+Blue. Trust, security, and stability.
+Purple. Luxurious, creative, and wise.
+Black. Reliable, sophisticated, and experienced.
+White. Simple, calm, and clean.
+Realli logo animation
+Color Preferences
+Visual perception is quite individual for everyone. Designers need to remember that the color effects may be different because of the factors such as age, culture, and gender. First of all, people’s preferences can shift during life whatever the object is, let’s say, food, clothes, music, colors and plenty of other aspects. It is caused by both mental and physical changes that happen to us across a lifetime. For example, children like yellow color pretty much, but as we become adults it usually seems less attractive. Faber Birren explains it in his work Color Psychology and Color Therapy: “With maturity comes a greater liking for hues of shorter wavelength (blue, green, purple) than for hues of longer wavelength (red, orange, and yellow)”. One more difference between children’s perception and adults is that kids can change their favorite colors fast, while adult color preference is usually non-malleable.
+Also, designers need to consider that there are many cultural differences and color perception is not an exception. Sometimes cultures define colors diversely, for example, in Western countries, white color means happiness and purity, while in some Asian countries it symbolizes death. You can find many examples of how different may the meanings be in countries but it would take a whole article to tell about it, so if you’re interested in the topic, follow our updates on the blog since the post on this issue is coming soon.
+Another point on the color preferences is gender. Many color studies have been done over the years and a lot of them say that the color preferences of women and men significantly differ. The Color Assignment group has conducted deep research on this topic and many designers already use the results in the creative process. We’ve defined the most notable things from the research to share with you.
+Blue is the top color. Both men and women of all ages think of blue as the favored color. The shades of blue such as cerulean, azure, beryl, cornflower blue, and sapphire are popular among women.
+Brown and orange are in dislike. The first one considered less favorable among men, the second – among women.
+Cool colors are preferred. Men and women favor blue, green and their tints in general.
+Women like tints. When men prefer pure or shaded colors, ladies are good with tints.
+Men prefer achromatic colors. White, black and gray are neutral colors and men are keen to choose them.
+Favorite colors
+Least favorite colors
+Source of charts
+It’s vital to consider the color preferences of the target audience while creating UI and UX design since it helps to avoid negative reactions and associations.
+Points to consider
+Color psychology is rather complex to understand and learn. However, it may become an efficient tool in designers’ hands helping to understand users and their demands. Summarizing the article, here is the list of useful things to consider:
+Choose colors wisely. They have a deep influence on the users.
+Make sure your design and its colors convey the right message and tune.
+Learn your target audience. The color preferences and meanings depend on many factors, including age, gender, and culture.
+Some colors may look different on the screens of different devices. Additional testing never hurts.
+It may be a good idea to test the UI colors with representatives of the target audience.
+Try to make the color combinations wisely, in the best way for the users’ perception.
+Recommended reading
+Here are some articles we could recommend for those who would like to get deeper into the topic:
+Design Glossary: Color. Terms and Definitions
+Color Theory: Brief Guide For Designers
+Light or Dark UI? Tips to Choose a Proper Color Scheme
+Color Matters. 6 Tips on Choosing UI Colors
+3C of Interface Design: Color, Contrast, Content
+Bright Colors in UI Design: Strong and Weak Sides
+Color in UI Design. Look on the Bright Side
+×
+Tags
+design case study
+design for marketing
+graphic design article
+identity design tips
+interface illustration
+quotes
+tubik
+user interface design
+web marketing
+tubik arts
+art
+character design
+graphic design examples
+illustration
+interface navigation
+logo design case study
+mobile
+tubik blog
+user interface design process
+landscape illustration
+3D animation
+brand identity
+design studio
+graphic design inspiration
+illustrator
+mobile app
+visual hierarchy
+web user interface
+food brand
+3D graphics
+brand strategy
+Christmas
+graphic design process
+human-computer interaction
+interfaces for business
+logo design examples
+mobile app branding
+motion design
+product video
+ui design
+user research
+website
+3D
+advertising
+branded items
+Christmas art
+digital art
+logo design inspiration
+mobile applications
+ui design article
+usability
+visual storytelling
+website design
+2D art
+branding
+design education
+finance
+graphic designer
+icon design
+ios animation
+logo design practices
+mobile design
+tubik agency
+ui design case study
+user behavior
+ux writing
+website design concept
+2D artist
+webflow
+game art
+visual identity
+design inspiration
+design tips
+digital illustration
+graphic designers
+landing page
+logo design process
+mobile design article
+motion design examples
+ui design examples
+user experience
+user-friendly
+ux/ui
+web animation
+website development
+2D illustration
+game illustration
+healthcare
+design tools
+gamification
+icons
+landing page design
+mobile design inspiration
+tubik design
+ui design inspiration
+user experience article
+web design
+digital painting
+healthtech
+animation
+best design practices
+business
+color choice
+copywriting
+design
+design examples
+design management
+design trends
+e-commerce
+interaction
+landing page user interface
+project management
+ui design practices
+user experience career
+video design
+web design article
+website usability
+procreate
+color combination
+corporate identity
+design agency
+design expert
+design video
+flat design
+health
+identity design
+interaction design
+ui design process
+user experience design
+design article
+design podcast
+ecommerce
+flat illustration
+identity design best practices
+interface
+lettering
+marketing
+theme illustration
+ui design tips
+user experience design article
+ux
+web design case study
+packaging
+book
+creative design
+design process
+designer
+ecommerce design
+food
+identity design case study
+interface animation
+mascot
+mobile navigation design
+poster
+typography
+ui design trends
+user experience design process
+ux design
+web design examples
+app design
+book design
+career tips
+color psychology
+creative process
+design best practices
+design for business
+design psychology
+ecommerce website
+identity design examples
+interface color
+mascot design
+mobile screens
+user experience designers
+ux design article
+web design inspiration
+people illustrations
+design blog
+design research
+designers
+education
+logo
+tips
+user experience examples
+ux design best practices
+web design trends
+marketing design
+design book
+design for emotion
+design routine
+identity design inspiration
+interface design
+logo design
+mobile UI
+product design
+ui
+ux design education
+illustration case study
+packaging design
+branded merch design
+character art
+brand design
+case study
+design career
+design for health
+design services
+educational website
+graphic design
+identity design practices
+interface design trends
+logo design article
+mobile user interface
+ui animation
+user interface
+ux design examples
+video production
+illustration process
+fintech
+business illustration
+×
+Archives
+July 2026
+June 2026
+May 2026
+April 2026
+March 2026
+February 2026
+January 2026
+December 2025
+April 2025
+March 2025
+February 2025
+January 2025
+November 2024
+October 2024
+September 2024
+August 2024
+July 2024
+June 2024
+May 2024
+April 2024
+March 2024
+February 2024
+January 2024
+December 2023
+November 2023
+October 2023
+September 2023
+August 2023
+July 2023
+June 2023
+May 2023
+April 2023
+March 2023
+February 2023
+January 2023
+December 2022
+November 2022
+October 2022
+September 2022
+August 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+Share
+Welcome to check designs by Tubik on Dribbble and Behance ; explore the gallery of 2D and 3D art by Tubik Arts on Dribbble
+Don't want to miss anything?
+Get weekly updates on the newest design stories, case studies and tips right in your mailbox.
+More articles
+Illustration, Processes and Tools, UI/UX
+Visual Perception. Icons vs Copy in UI
+The article about relations between copy and icons in app and web user interfaces in perspective of natural visual perception. Practical UI design examples.
+Processes and Tools, UI/UX
+Tubik Podcast #6. Design for E-Commerce
+The fresh episode of Tubik Podcast devoted to the theme of design for business. This time it covers strategies and practices of UX design for e-commerce.
+Case Study, Illustration
+Digital Art Case Study: Product Characters Illustration Concept
+Catch some cheer with a bunch of funnily crazy character illustration art we worked out in the project for the Status application.
+Case Study, UI/UX
+Case Study: Lumen. Website for Museum of Mountain Photography
+Check the creative process for the website of Lumen, an awesome museum of mountain photography: elegant design solutions, user experience, and interactions.
+More articles by themes
+Books
+design for business
+logo design
+problem-solving web design
+UX
+user experience
+user interface
+web design
+mobile
+app design
+ecommerce
+Graphics
+packaging
+branding
+identity design
+animation
+marketing design
+graphic design
+ART
+motion design
+illustration
+3D
+icons
+video
+2D art
+digital art
+×
+Category
+All topics
+Web Development
+Animation
+Branding
+Business
+Case Study
+Illustration
+Our Expert Insights
+Processes and Tools
+UI/UX
+Let’s collaborate
+Want to work on the project together? Contact us and let’s discuss it.
+contact us
+Hire us
+contact us
+[email protected]
+yeah, sometimes all you need is an old-school pdf
+download PDF profile
+The text and graphic content of the website belongs to Tubik and cannot be used by other resources without our permission and without the link to the source.
+© tubik 2026
+follow us
+instagram
+linkedin
+youtube
+behance
+X

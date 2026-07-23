@@ -1,207 +1,230 @@
 {
-  "meta": {
-    "nombre": "KB Diseño Visual para Marketing",
-    "version": "1.0.0",
-    "idioma": "es",
-    "descripcion": "Base de conocimiento de principios de diseño visual aplicados a marketing. Consumible por agentes de IA y humanos.",
-    "uso_agentes": "Hacer GET a este archivo. Cada entrada tiene id, titulo, categoria, resumen, reglas, errores_comunes y aplicacion_marketing. Usar 'reglas' como instrucciones directas al generar o evaluar diseños.",
-    "actualizado": "2026-07-06"
+ "meta": {
+  "nombre": "KB Diseño Visual para Marketing",
+  "version": "1.1.0",
+  "idioma": "es",
+  "descripcion": "Base de conocimiento de principios de diseño visual aplicados a marketing. Consumible por agentes de IA y humanos.",
+  "uso_agentes": "Hacer GET a este archivo. Cada entrada tiene id, titulo, categoria, resumen, reglas, errores_comunes y aplicacion_marketing. Usar 'reglas' como instrucciones directas al generar o evaluar diseños.",
+  "actualizado": "2026-07-16"
+ },
+ "entradas": [
+  {
+   "id": "principio-base",
+   "titulo": "Diseñar es comunicar",
+   "categoria": "fundamentos",
+   "resumen": "El diseño no es decoración: es hacer que un mensaje se entienda sin esfuerzo. Toda decisión visual debe reducir la fricción entre el mensaje y la persona.",
+   "reglas": [
+    "Cada pantalla o sección comunica una sola idea principal.",
+    "Si un elemento no ayuda a entender o a actuar, se elimina.",
+    "La claridad siempre gana sobre la originalidad decorativa.",
+    "El mensaje debe entenderse en 5 segundos sin contexto previo."
+   ],
+   "errores_comunes": [
+    "Querer decir todo en la primera pantalla.",
+    "Agregar adornos para 'llenar' espacios vacíos.",
+    "Priorizar que se vea 'bonito' sobre que se entienda."
+   ],
+   "aplicacion_marketing": "Una campaña o landing con un solo mensaje claro convierte más que una con cinco mensajes compitiendo. Definir el mensaje único antes de diseñar."
   },
-  "entradas": [
-    {
-      "id": "principio-base",
-      "titulo": "Diseñar es comunicar",
-      "categoria": "fundamentos",
-      "resumen": "El diseño no es decoración: es hacer que un mensaje se entienda sin esfuerzo. Toda decisión visual debe reducir la fricción entre el mensaje y la persona.",
-      "reglas": [
-        "Cada pantalla o sección comunica una sola idea principal.",
-        "Si un elemento no ayuda a entender o a actuar, se elimina.",
-        "La claridad siempre gana sobre la originalidad decorativa.",
-        "El mensaje debe entenderse en 5 segundos sin contexto previo."
-      ],
-      "errores_comunes": [
-        "Querer decir todo en la primera pantalla.",
-        "Agregar adornos para 'llenar' espacios vacíos.",
-        "Priorizar que se vea 'bonito' sobre que se entienda."
-      ],
-      "aplicacion_marketing": "Una campaña o landing con un solo mensaje claro convierte más que una con cinco mensajes compitiendo. Definir el mensaje único antes de diseñar."
-    },
-    {
-      "id": "jerarquia-visual",
-      "titulo": "Jerarquía visual: las 5 palancas",
-      "categoria": "fundamentos",
-      "resumen": "La jerarquía controla el recorrido del ojo. Se construye con 5 palancas: tamaño, peso y grises, color de acento, espacio y posición.",
-      "reglas": [
-        "Tamaño: lo más importante es lo más grande. El titular domina la pantalla.",
-        "Peso y grises: bajar lo secundario a gris en lugar de subir todo a negrita. Tres niveles bastan: oscuro (principal), gris medio (apoyo), gris claro (detalle).",
-        "Color de acento: un solo elemento con color en una composición neutra atrae el ojo. Reservar el acento para la acción principal.",
-        "Espacio: el aire agrupa lo relacionado y separa lo distinto. Ante la duda, más espacio y no más elementos.",
-        "Posición: lo que va arriba a la izquierda pesa más en lectura occidental.",
-        "Test del entrecerrar los ojos (squint test): si al desenfocar la vista no se distingue qué domina, no hay jerarquía."
-      ],
-      "errores_comunes": [
-        "Todo en negrita y del mismo tamaño: nada resalta.",
-        "Usar muchos colores: el acento pierde su poder de imán.",
-        "Rellenar cada espacio vacío: el diseño se siente barato y apretado."
-      ],
-      "aplicacion_marketing": "En un anuncio o landing, el ojo debe ir: titular con beneficio → apoyo → botón de acción. Si el botón no es lo que más resalta después del titular, la jerarquía está mal asignada."
-    },
-    {
-      "id": "patrones-lectura",
-      "titulo": "Patrones de lectura F y Z",
-      "categoria": "comportamiento",
-      "resumen": "La gente no lee: escanea. En páginas de texto el ojo sigue un patrón F; en landings visuales sigue un patrón Z que termina en la esquina inferior derecha.",
-      "reglas": [
-        "Patrón F (blogs, artículos, listados): lo importante va arriba y al inicio de cada línea. Subtítulos frecuentes y frontloading de palabras clave.",
-        "Patrón Z (landings, anuncios): logo arriba-izquierda, acción secundaria arriba-derecha, mensaje en la diagonal, botón principal donde el ojo termina.",
-        "Las primeras 2 palabras de cada titular son las más leídas: cargar ahí el beneficio.",
-        "Escribir en pirámide invertida: conclusión primero, detalle después.",
-        "Colocar la llamada a la acción sobre el recorrido natural del ojo, nunca escondida."
-      ],
-      "errores_comunes": [
-        "Titulares que empiezan con relleno ('La mejor forma de...') en vez del beneficio.",
-        "Enterrar el botón de acción fuera del recorrido visual.",
-        "Párrafos largos sin subtítulos en contenido escaneable."
-      ],
-      "aplicacion_marketing": "Emails, anuncios y landings deben posicionar mensaje y CTA sobre el patrón de escaneo. En un email de marketing, el primer renglón y el botón definen el resultado."
-    },
-    {
-      "id": "color",
-      "titulo": "Color con intención",
-      "categoria": "estilo",
-      "resumen": "El color dirige la atención y transmite personalidad de marca. Una paleta pequeña y consistente comunica más que muchas usadas sin criterio.",
-      "reglas": [
-        "Paleta mínima: 1 color principal de marca + neutros (grises) + 1 acento para acciones.",
-        "El color de acento se reserva para lo que quieres que la persona haga (botones, enlaces clave).",
-        "Contraste texto-fondo suficiente para leer sin esfuerzo (referencia WCAG: mínimo 4.5:1 en texto normal).",
-        "El color debe codificar significado, no decorar: mismo color = misma función en todo el sitio.",
-        "Verificar la paleta en fondo claro y oscuro si el producto tiene ambos modos."
-      ],
-      "errores_comunes": [
-        "Usar 5 o más colores sin rol definido.",
-        "Texto gris claro sobre blanco que no se puede leer.",
-        "Cambiar el color de los botones entre secciones, rompiendo el aprendizaje del usuario."
-      ],
-      "aplicacion_marketing": "La consistencia de color construye reconocimiento de marca: el usuario debe reconocer la marca aunque tape el logo. El acento consistente en CTAs aumenta la tasa de clic porque el usuario aprende qué es accionable."
-    },
-    {
-      "id": "tipografia",
-      "titulo": "Tipografía funcional",
-      "categoria": "estilo",
-      "resumen": "La tipografía es la voz visual del mensaje. Pocas fuentes, escala consistente y líneas legibles.",
-      "reglas": [
-        "Máximo 2 familias tipográficas por proyecto: una para titulares, otra para texto.",
-        "Definir una escala fija de tamaños (ej: 12, 14, 16, 20, 28, 40) y no salirse de ella.",
-        "Largo de línea cómodo: entre 45 y 75 caracteres por línea.",
-        "Interlineado de cuerpo de texto entre 1.4 y 1.7.",
-        "Los titulares cargan la personalidad; el cuerpo prioriza legibilidad."
-      ],
-      "errores_comunes": [
-        "Mezclar 3+ fuentes que compiten entre sí.",
-        "Líneas de texto que ocupan todo el ancho de la pantalla.",
-        "Tamaños arbitrarios distintos en cada sección."
-      ],
-      "aplicacion_marketing": "La tipografía transmite el tono de la marca antes de leer una palabra: una serif elegante y una grotesca técnica venden cosas distintas. Elegir según la promesa de la marca."
-    },
-    {
-      "id": "espacio-alineacion",
-      "titulo": "Espacio en blanco y alineación",
-      "categoria": "estilo",
-      "resumen": "El espacio vacío no está desperdiciado: está trabajando. La alineación a una rejilla invisible hace que todo se sienta ordenado.",
-      "reglas": [
-        "Cuando algo parece que 'le falta', casi siempre necesita más espacio, no más elementos.",
-        "Usar una escala de espaciado consistente (ej: 8, 16, 24, 48 px) para márgenes y paddings.",
-        "Elementos relacionados van cerca; elementos distintos van separados (ley de proximidad).",
-        "Alinear todo a líneas invisibles comunes: bordes izquierdos, centros o rejilla de columnas.",
-        "Más espacio alrededor de un elemento = más importancia percibida."
-      ],
-      "errores_comunes": [
-        "Espaciados aleatorios distintos en cada bloque.",
-        "Centrar todo por defecto: el texto alineado a la izquierda se escanea mejor.",
-        "Pegar el contenido a los bordes de la pantalla."
-      ],
-      "aplicacion_marketing": "Las marcas premium se reconocen por el aire: más espacio comunica calidad y confianza. Un diseño apretado se percibe como barato aunque el producto no lo sea."
-    },
-    {
-      "id": "estructura-landing",
-      "titulo": "Estructura narrativa de una landing",
-      "categoria": "conversion",
-      "resumen": "Una landing que convierte sigue un guion: gancho, beneficio, prueba y acción. Es una historia con un solo final deseado.",
-      "reglas": [
-        "Gancho: una frase que dice qué es y para quién, entendible en 5 segundos.",
-        "Beneficio: qué gana la persona, no qué características tiene el producto.",
-        "Prueba: testimonios, cifras, logos de clientes o casos que den credibilidad.",
-        "Acción: un solo CTA principal claro y repetido; nunca dos acciones compitiendo con el mismo peso.",
-        "Cada sección responde una pregunta del visitante en orden: ¿qué es? ¿me sirve? ¿puedo confiar? ¿qué hago?"
-      ],
-      "errores_comunes": [
-        "Hablar de características técnicas antes que de beneficios.",
-        "Múltiples CTAs distintos compitiendo (comprar, suscribirse, descargar, contactar).",
-        "Omitir la prueba social: sin credibilidad no hay conversión."
-      ],
-      "aplicacion_marketing": "Esta estructura aplica a landings, emails largos, presentaciones de venta y hasta video ads: gancho en los primeros segundos, beneficio, prueba, acción."
-    },
-    {
-      "id": "microcopy",
-      "titulo": "Microcopy que convierte",
-      "categoria": "conversion",
-      "resumen": "Los textos cortos (botones, títulos, etiquetas) comunican más que cualquier adorno. Las palabras son material de diseño.",
-      "reglas": [
-        "Botones con verbo + beneficio: 'Empieza gratis', 'Ver mi trabajo'. Nunca 'Enviar' u 'OK'.",
-        "El botón dice exactamente lo que pasa al pulsarlo y mantiene el mismo nombre en todo el flujo.",
-        "Reducir la ansiedad junto al CTA: 'Sin tarjeta de crédito', 'Cancela cuando quieras'.",
-        "Voz activa y concreta; eliminar relleno ('simplemente', 'fácilmente').",
-        "Los errores dicen qué pasó y cómo arreglarlo, sin culpar ni ser vagos."
-      ],
-      "errores_comunes": [
-        "Botones genéricos que no dicen nada ('Submit', 'Click aquí').",
-        "Textos que venden con adjetivos vacíos en vez de ser específicos.",
-        "Ignorar los microtextos de apoyo que reducen la fricción de conversión."
-      ],
-      "aplicacion_marketing": "Cambiar el texto de un botón es de los tests A/B con mejor retorno: es gratis y mueve la conversión. Testear verbo + beneficio contra el texto genérico actual."
-    },
-    {
-      "id": "checklist-publicacion",
-      "titulo": "Checklist antes de publicar",
-      "categoria": "proceso",
-      "resumen": "Verificación final que aplica a cualquier pieza: landing, email, anuncio o post.",
-      "reglas": [
-        "¿Se entiende en 5 segundos qué es y para quién?",
-        "¿Hay una sola cosa que domina visualmente? (squint test)",
-        "¿Cada sección comunica una sola idea?",
-        "¿El botón dice qué gana la persona?",
-        "¿Sobra algo? Casi siempre sí: quitar antes de publicar.",
-        "¿Funciona en móvil? La mayoría del tráfico de marketing es móvil.",
-        "¿El contraste permite leer todo sin esfuerzo?"
-      ],
-      "errores_comunes": [
-        "Publicar sin ver la pieza en un teléfono real.",
-        "Saltarse el squint test y confiar en que 'se ve bien'.",
-        "No pedir a alguien externo que diga qué entendió en 5 segundos."
-      ],
-      "aplicacion_marketing": "Usar este checklist como control de calidad estándar del equipo o como instrucciones de evaluación para agentes de IA que revisen piezas antes de publicar."
-    },
-    {
-      "id": "visuales-3d",
-      "titulo": "Assets y 3D renderizado de calidad",
-      "categoria": "produccion",
-      "resumen": "Dos caminos para el 3D en web: pre-renderizado (Blender a imagen, calidad máxima sin costo de carga) o tiempo real (Spline, Three.js, interactivo pero con costo de rendimiento).",
-      "reglas": [
-        "Pre-renderizado: crear la escena en Blender y exportar como imagen. Calidad máxima con carga ligera.",
-        "Iluminación HDRI: un entorno 360° ilumina con luz realista; es el mayor salto de calidad.",
-        "Materiales PBR: rugosidad, metalicidad y reflejos físicamente correctos.",
-        "Oclusión ambiental y sombras de contacto para que el objeto 'exista' en la escena.",
-        "Profundidad de campo: fondo levemente desenfocado dirige el ojo al producto.",
-        "Tiempo real (Spline sin código, Three.js con código) solo si la interacción aporta al mensaje.",
-        "Optimizar siempre: renderizar a 2x, comprimir a WebP/AVIF apuntando a menos de 300 KB, lazy loading.",
-        "Profundidad sin 3D real: sombras en capas, gradientes sutiles, glassmorphism y CSS 3D transforms."
-      ],
-      "errores_comunes": [
-        "Imágenes hero de varios MB que destruyen la velocidad de carga y la conversión.",
-        "3D decorativo que no sirve al mensaje.",
-        "Renders con luces planas y sin sombras de contacto: se ven falsos."
-      ],
-      "aplicacion_marketing": "Heroes de producto, mockups de dispositivos y packaging virtual: el 3D da tangibilidad y sensación premium, pero solo convierte si carga rápido y comunica el beneficio."
-    }
-  ]
+  {
+   "id": "jerarquia-visual",
+   "titulo": "Jerarquía visual: las 5 palancas",
+   "categoria": "fundamentos",
+   "resumen": "La jerarquía controla el recorrido del ojo. Se construye con 5 palancas: tamaño, peso y grises, color de acento, espacio y posición.",
+   "reglas": [
+    "Tamaño: lo más importante es lo más grande. El titular domina la pantalla.",
+    "Peso y grises: bajar lo secundario a gris en lugar de subir todo a negrita. Tres niveles bastan: oscuro (principal), gris medio (apoyo), gris claro (detalle).",
+    "Color de acento: un solo elemento con color en una composición neutra atrae el ojo. Reservar el acento para la acción principal.",
+    "Espacio: el aire agrupa lo relacionado y separa lo distinto. Ante la duda, más espacio y no más elementos.",
+    "Posición: lo que va arriba a la izquierda pesa más en lectura occidental.",
+    "Test del entrecerrar los ojos (squint test): si al desenfocar la vista no se distingue qué domina, no hay jerarquía."
+   ],
+   "errores_comunes": [
+    "Todo en negrita y del mismo tamaño: nada resalta.",
+    "Usar muchos colores: el acento pierde su poder de imán.",
+    "Rellenar cada espacio vacío: el diseño se siente barato y apretado."
+   ],
+   "aplicacion_marketing": "En un anuncio o landing, el ojo debe ir: titular con beneficio → apoyo → botón de acción. Si el botón no es lo que más resalta después del titular, la jerarquía está mal asignada."
+  },
+  {
+   "id": "patrones-lectura",
+   "titulo": "Patrones de lectura F y Z",
+   "categoria": "comportamiento",
+   "resumen": "La gente no lee: escanea. En páginas de texto el ojo sigue un patrón F; en landings visuales sigue un patrón Z que termina en la esquina inferior derecha.",
+   "reglas": [
+    "Patrón F (blogs, artículos, listados): lo importante va arriba y al inicio de cada línea. Subtítulos frecuentes y frontloading de palabras clave.",
+    "Patrón Z (landings, anuncios): logo arriba-izquierda, acción secundaria arriba-derecha, mensaje en la diagonal, botón principal donde el ojo termina.",
+    "Las primeras 2 palabras de cada titular son las más leídas: cargar ahí el beneficio.",
+    "Escribir en pirámide invertida: conclusión primero, detalle después.",
+    "Colocar la llamada a la acción sobre el recorrido natural del ojo, nunca escondida."
+   ],
+   "errores_comunes": [
+    "Titulares que empiezan con relleno ('La mejor forma de...') en vez del beneficio.",
+    "Enterrar el botón de acción fuera del recorrido visual.",
+    "Párrafos largos sin subtítulos en contenido escaneable."
+   ],
+   "aplicacion_marketing": "Emails, anuncios y landings deben posicionar mensaje y CTA sobre el patrón de escaneo. En un email de marketing, el primer renglón y el botón definen el resultado."
+  },
+  {
+   "id": "color",
+   "titulo": "Color con intención",
+   "categoria": "estilo",
+   "resumen": "El color dirige la atención y transmite personalidad de marca. Una paleta pequeña y consistente comunica más que muchas usadas sin criterio.",
+   "reglas": [
+    "Paleta mínima: 1 color principal de marca + neutros (grises) + 1 acento para acciones.",
+    "El color de acento se reserva para lo que quieres que la persona haga (botones, enlaces clave).",
+    "Contraste texto-fondo suficiente para leer sin esfuerzo (referencia WCAG: mínimo 4.5:1 en texto normal).",
+    "El color debe codificar significado, no decorar: mismo color = misma función en todo el sitio.",
+    "Verificar la paleta en fondo claro y oscuro si el producto tiene ambos modos."
+   ],
+   "errores_comunes": [
+    "Usar 5 o más colores sin rol definido.",
+    "Texto gris claro sobre blanco que no se puede leer.",
+    "Cambiar el color de los botones entre secciones, rompiendo el aprendizaje del usuario."
+   ],
+   "aplicacion_marketing": "La consistencia de color construye reconocimiento de marca: el usuario debe reconocer la marca aunque tape el logo. El acento consistente en CTAs aumenta la tasa de clic porque el usuario aprende qué es accionable."
+  },
+  {
+   "id": "tipografia",
+   "titulo": "Tipografía funcional",
+   "categoria": "estilo",
+   "resumen": "La tipografía es la voz visual del mensaje. Pocas fuentes, escala consistente y líneas legibles.",
+   "reglas": [
+    "Máximo 2 familias tipográficas por proyecto: una para titulares, otra para texto.",
+    "Definir una escala fija de tamaños (ej: 12, 14, 16, 20, 28, 40) y no salirse de ella.",
+    "Largo de línea cómodo: entre 45 y 75 caracteres por línea.",
+    "Interlineado de cuerpo de texto entre 1.4 y 1.7.",
+    "Los titulares cargan la personalidad; el cuerpo prioriza legibilidad."
+   ],
+   "errores_comunes": [
+    "Mezclar 3+ fuentes que compiten entre sí.",
+    "Líneas de texto que ocupan todo el ancho de la pantalla.",
+    "Tamaños arbitrarios distintos en cada sección."
+   ],
+   "aplicacion_marketing": "La tipografía transmite el tono de la marca antes de leer una palabra: una serif elegante y una grotesca técnica venden cosas distintas. Elegir según la promesa de la marca."
+  },
+  {
+   "id": "espacio-alineacion",
+   "titulo": "Espacio en blanco y alineación",
+   "categoria": "estilo",
+   "resumen": "El espacio vacío no está desperdiciado: está trabajando. La alineación a una rejilla invisible hace que todo se sienta ordenado.",
+   "reglas": [
+    "Cuando algo parece que 'le falta', casi siempre necesita más espacio, no más elementos.",
+    "Usar una escala de espaciado consistente (ej: 8, 16, 24, 48 px) para márgenes y paddings.",
+    "Elementos relacionados van cerca; elementos distintos van separados (ley de proximidad).",
+    "Alinear todo a líneas invisibles comunes: bordes izquierdos, centros o rejilla de columnas.",
+    "Más espacio alrededor de un elemento = más importancia percibida."
+   ],
+   "errores_comunes": [
+    "Espaciados aleatorios distintos en cada bloque.",
+    "Centrar todo por defecto: el texto alineado a la izquierda se escanea mejor.",
+    "Pegar el contenido a los bordes de la pantalla."
+   ],
+   "aplicacion_marketing": "Las marcas premium se reconocen por el aire: más espacio comunica calidad y confianza. Un diseño apretado se percibe como barato aunque el producto no lo sea."
+  },
+  {
+   "id": "estructura-landing",
+   "titulo": "Estructura narrativa de una landing",
+   "categoria": "conversion",
+   "resumen": "Una landing que convierte sigue un guion: gancho, beneficio, prueba y acción. Es una historia con un solo final deseado.",
+   "reglas": [
+    "Gancho: una frase que dice qué es y para quién, entendible en 5 segundos.",
+    "Beneficio: qué gana la persona, no qué características tiene el producto.",
+    "Prueba: testimonios, cifras, logos de clientes o casos que den credibilidad.",
+    "Acción: un solo CTA principal claro y repetido; nunca dos acciones compitiendo con el mismo peso.",
+    "Cada sección responde una pregunta del visitante en orden: ¿qué es? ¿me sirve? ¿puedo confiar? ¿qué hago?"
+   ],
+   "errores_comunes": [
+    "Hablar de características técnicas antes que de beneficios.",
+    "Múltiples CTAs distintos compitiendo (comprar, suscribirse, descargar, contactar).",
+    "Omitir la prueba social: sin credibilidad no hay conversión."
+   ],
+   "aplicacion_marketing": "Esta estructura aplica a landings, emails largos, presentaciones de venta y hasta video ads: gancho en los primeros segundos, beneficio, prueba, acción."
+  },
+  {
+   "id": "microcopy",
+   "titulo": "Microcopy que convierte",
+   "categoria": "conversion",
+   "resumen": "Los textos cortos (botones, títulos, etiquetas) comunican más que cualquier adorno. Las palabras son material de diseño.",
+   "reglas": [
+    "Botones con verbo + beneficio: 'Empieza gratis', 'Ver mi trabajo'. Nunca 'Enviar' u 'OK'.",
+    "El botón dice exactamente lo que pasa al pulsarlo y mantiene el mismo nombre en todo el flujo.",
+    "Reducir la ansiedad junto al CTA: 'Sin tarjeta de crédito', 'Cancela cuando quieras'.",
+    "Voz activa y concreta; eliminar relleno ('simplemente', 'fácilmente').",
+    "Los errores dicen qué pasó y cómo arreglarlo, sin culpar ni ser vagos."
+   ],
+   "errores_comunes": [
+    "Botones genéricos que no dicen nada ('Submit', 'Click aquí').",
+    "Textos que venden con adjetivos vacíos en vez de ser específicos.",
+    "Ignorar los microtextos de apoyo que reducen la fricción de conversión."
+   ],
+   "aplicacion_marketing": "Cambiar el texto de un botón es de los tests A/B con mejor retorno: es gratis y mueve la conversión. Testear verbo + beneficio contra el texto genérico actual."
+  },
+  {
+   "id": "checklist-publicacion",
+   "titulo": "Checklist antes de publicar",
+   "categoria": "proceso",
+   "resumen": "Verificación final que aplica a cualquier pieza: landing, email, anuncio o post.",
+   "reglas": [
+    "¿Se entiende en 5 segundos qué es y para quién?",
+    "¿Hay una sola cosa que domina visualmente? (squint test)",
+    "¿Cada sección comunica una sola idea?",
+    "¿El botón dice qué gana la persona?",
+    "¿Sobra algo? Casi siempre sí: quitar antes de publicar.",
+    "¿Funciona en móvil? La mayoría del tráfico de marketing es móvil.",
+    "¿El contraste permite leer todo sin esfuerzo?"
+   ],
+   "errores_comunes": [
+    "Publicar sin ver la pieza en un teléfono real.",
+    "Saltarse el squint test y confiar en que 'se ve bien'.",
+    "No pedir a alguien externo que diga qué entendió en 5 segundos."
+   ],
+   "aplicacion_marketing": "Usar este checklist como control de calidad estándar del equipo o como instrucciones de evaluación para agentes de IA que revisen piezas antes de publicar."
+  },
+  {
+   "id": "visuales-3d",
+   "titulo": "Assets y 3D renderizado de calidad",
+   "categoria": "produccion",
+   "resumen": "Dos caminos para el 3D en web: pre-renderizado (Blender a imagen, calidad máxima sin costo de carga) o tiempo real (Spline, Three.js, interactivo pero con costo de rendimiento).",
+   "reglas": [
+    "Pre-renderizado: crear la escena en Blender y exportar como imagen. Calidad máxima con carga ligera.",
+    "Iluminación HDRI: un entorno 360° ilumina con luz realista; es el mayor salto de calidad.",
+    "Materiales PBR: rugosidad, metalicidad y reflejos físicamente correctos.",
+    "Oclusión ambiental y sombras de contacto para que el objeto 'exista' en la escena.",
+    "Profundidad de campo: fondo levemente desenfocado dirige el ojo al producto.",
+    "Tiempo real (Spline sin código, Three.js con código) solo si la interacción aporta al mensaje.",
+    "Optimizar siempre: renderizar a 2x, comprimir a WebP/AVIF apuntando a menos de 300 KB, lazy loading.",
+    "Profundidad sin 3D real: sombras en capas, gradientes sutiles, glassmorphism y CSS 3D transforms."
+   ],
+   "errores_comunes": [
+    "Imágenes hero de varios MB que destruyen la velocidad de carga y la conversión.",
+    "3D decorativo que no sirve al mensaje.",
+    "Renders con luces planas y sin sombras de contacto: se ven falsos."
+   ],
+   "aplicacion_marketing": "Heroes de producto, mockups de dispositivos y packaging virtual: el 3D da tangibilidad y sensación premium, pero solo convierte si carga rápido y comunica el beneficio."
+  },
+  {
+   "id": "estilo-neobrutalismo-gumroad",
+   "titulo": "Estilo neobrutalismo (referencia canon: Gumroad)",
+   "categoria": "estilo",
+   "resumen": "Lenguaje visual 'crudo a propósito' que hizo a Gumroad instantáneamente reconocible tras su rediseño de 2021: bordes negros sólidos, sombras duras desplazadas sin difuminado, rellenos planos en pasteles saturados y tipografía grotesca con carácter (Mabry Pro). El cromo es gráfico y directo; el contenido (los datos del usuario) manda. Referencia viva: el código real del dashboard es open source (github.com/antiwork/gumroad, licencia MIT, Rails + TypeScript).",
+   "reglas": [
+    "Bordes negros sólidos de 1-2px en TODO contenedor interactivo (cards, botones, inputs, tablas): el borde ES el sistema; no conviven con sombras difusas.",
+    "Sombras duras desplazadas (offset 2-8px, blur 0) que simulan capas de papel recortado; al hover/press el elemento se desplaza HACIA su sombra — feedback táctil inmediato sin animación decorativa.",
+    "Color: rellenos 100% planos en pasteles saturados (rosa, amarillo, lila, verde) sobre base blanca o negra. Cero gradientes, cero glassmorphism.",
+    "Tipografía grotesca con carácter y jerarquía de pesos fuerte (Gumroad usa Mabry Pro; alternativas libres: Public Sans, Archivo, Lexend Mega).",
+    "Un solo 'trazo' en todo el sistema: iconografía lineal del mismo grosor que los bordes de los contenedores.",
+    "El estilo vive en el CROMO; las zonas de datos (tablas, métricas, listas) quedan ultra legibles: filas limpias, mucho aire, números protagonistas.",
+    "Es un lenguaje completo, no un adorno: se aplica a todo el sistema vía tokens (borde + sombra + paleta + tipografía coherentes) o no se aplica.",
+    "Para estudiarlo de verdad: clonar github.com/antiwork/gumroad y leer los componentes reales del dashboard, no imitar screenshots."
+   ],
+   "errores_comunes": [
+    "Aplicar el look sin sistema: mezclar sombras duras con difusas o bordes de grosores distintos — se ve disfraz, no marca.",
+    "Sacrificar usabilidad por estética: NN/g advierte que el neobrutalismo mal ejecutado degrada legibilidad y affordances; contraste AA, foco visible y jerarquía siguen siendo obligatorios.",
+    "Usarlo en rubros que exigen sobriedad tradicional (banca conservadora, legal, salud) sin validar: es polarizante por diseño.",
+    "Copiarlo con hex y px sueltos dentro de componentes en vez de re-tematizar la capa de tokens (viola el axioma 07 del design system)."
+   ],
+   "aplicacion_marketing": "Ideal para marcas de creadores, SaaS indie, educación y e-commerce joven que buscan reconocibilidad instantánea y postura anti-corporativa — exactamente el efecto que logró Gumroad. En nuestro design system 'Interfaz Invisible' se adopta cambiando SOLO la capa de tokens: --color-line-strong → negro pleno, --shadow-* → offset duro blur 0, radios chicos, acento pastel saturado; los 7 axiomas no cambian. Recursos: repo open source antiwork/gumroad (MIT) y 'Gumroad Component Library' en Figma Community."
+  }
+ ]
 }
